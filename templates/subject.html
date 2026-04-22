@@ -1,0 +1,32 @@
+{% extends "base.html" %}
+
+{% block title %}{{ subject.name }} - Neumathe 刷题站{% endblock %}
+
+{% block content %}
+<main class="content">
+  <section class="section-head">
+    <div>
+      <p class="eyebrow">科目</p>
+      <h1>{{ subject.name }}</h1>
+      <p class="hero-copy">{{ subject.chapter_count }} 个章节，{{ subject.question_count }} 道题。</p>
+    </div>
+    <a class="ghost-link" href="{{ url_for('index') }}">返回首页</a>
+  </section>
+
+  <section class="chapter-list-page">
+    {% for chapter in subject.chapters %}
+    {% if chapter.question_count > 0 %}
+    <a class="chapter-row" href="{{ url_for('chapter_detail', subject_id=subject.id, chapter_id=chapter.id) }}">
+      <span class="chapter-name">{{ chapter.name }}</span>
+      <span class="chapter-meta">{{ chapter.question_count }} 题</span>
+    </a>
+    {% else %}
+    <div class="chapter-row disabled">
+      <span class="chapter-name">{{ chapter.name }}</span>
+      <span class="chapter-meta">0 题</span>
+    </div>
+    {% endif %}
+    {% endfor %}
+  </section>
+</main>
+{% endblock %}

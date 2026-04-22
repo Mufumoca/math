@@ -1,0 +1,62 @@
+{% extends "base.html" %}
+
+{% block title %}Neumathe 刷题站{% endblock %}
+
+{% block content %}
+<main class="content home-page">
+  <section class="home-stage">
+    <div class="home-stage-copy">
+      <p class="eyebrow">Neumathe</p>
+      <h1>直接进科目开始刷题。</h1>
+      <p class="hero-copy">
+        四门科目、{{ subjects | map(attribute='chapter_count') | sum }} 个章节、{{ manifest.total_questions }} 道题，
+        已整理成可直接进入的练习站点，不改原始压缩包。
+      </p>
+    </div>
+    <div class="home-stage-meta">
+      <span class="home-meta-pill">{{ manifest.total_subjects }} 门科目</span>
+      <span class="home-meta-pill">{{ subjects | map(attribute='chapter_count') | sum }} 个章节</span>
+      <span class="home-meta-pill">{{ manifest.total_questions }} 道题</span>
+      <span class="home-meta-pill">即时判题</span>
+      <span class="home-meta-pill">解析内嵌</span>
+    </div>
+    <a class="home-favorites-link" href="{{ url_for('favorites') }}">
+      <div class="home-favorites-copy">
+        <p class="eyebrow">收藏夹</p>
+        <strong>查看已收藏题目</strong>
+        <p class="hero-copy">每道题都可以单独收藏，这里集中回看并跳回原题。</p>
+      </div>
+      <span class="home-meta-pill" data-favorites-count>0 道收藏题</span>
+    </a>
+  </section>
+
+  <section class="home-section-head">
+    <div>
+      <p class="eyebrow">科目入口</p>
+      <h2>选择一门，直接进入章节</h2>
+    </div>
+    <p class="home-section-copy">主页只保留入口，不再堆概览框。</p>
+  </section>
+
+  <section class="home-subject-grid">
+    {% for subject in subjects %}
+    <a class="subject-card subject-card-{{ loop.index }}" href="{{ url_for('subject_detail', subject_id=subject.id) }}">
+      <div class="subject-card-top">
+        <p class="card-kicker">{{ subject.source_zip }}</p>
+        <span class="subject-card-mark">0{{ loop.index }}</span>
+      </div>
+      <h2>{{ subject.name }}</h2>
+      <p class="subject-card-copy">章节已拆分整理，可直接切入刷题页。</p>
+      <div class="subject-card-metrics">
+        <span>{{ subject.chapter_count }} 个章节</span>
+        <span>{{ subject.question_count }} 道题</span>
+      </div>
+      <div class="subject-card-footer">
+        <span>进入 {{ subject.name }}</span>
+        <strong>→</strong>
+      </div>
+    </a>
+    {% endfor %}
+  </section>
+</main>
+{% endblock %}

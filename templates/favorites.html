@@ -1,0 +1,23 @@
+{% extends "base.html" %}
+
+{% block title %}收藏题目 - Neumathe 刷题站{% endblock %}
+
+{% block content %}
+<main class="content favorites-page">
+  <section class="favorites-hero">
+    <div>
+      <p class="eyebrow">收藏题目</p>
+      <h1>集中查看你标记过的题。</h1>
+      <p class="hero-copy">
+        收藏保存在当前浏览器本地。你可以在这里统一查看、取消收藏，或跳回原章节继续刷题。
+      </p>
+    </div>
+    <div class="favorites-hero-meta">
+      <span id="favorites-count-pill" class="home-meta-pill" data-favorites-count>0 道收藏题</span>
+      <a class="ghost-link" href="{{ url_for('index') }}">返回首页</a>
+    </div>
+  </section>
+
+  <section id="favorites-page-root" class="favorites-page-root"></section>
+</main>
+{% endblock %}
