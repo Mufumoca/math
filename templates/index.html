@@ -3,60 +3,269 @@
 {% block title %}math{% endblock %}
 
 {% block content %}
-<main class="content home-page">
-  <section class="home-stage">
-    <div class="home-stage-copy">
-      <p class="eyebrow">math</p>
-      <h1>把注意力留给题目本身。</h1>
-      <p class="hero-copy">
-        四门科目、{{ subjects | map(attribute='chapter_count') | sum }} 个章节、{{ manifest.total_questions }} 道题，
-        从原始 HTML 题库整理而来，保留题干、图片、公式与解析的原始表达，直接按章节进入刷题。
-      </p>
-    </div>
-    <div class="home-stage-meta">
-      <span class="home-meta-pill">{{ manifest.total_subjects }} 门科目</span>
-      <span class="home-meta-pill">{{ subjects | map(attribute='chapter_count') | sum }} 个章节</span>
-      <span class="home-meta-pill">{{ manifest.total_questions }} 道题</span>
-      <span class="home-meta-pill">即时判题</span>
-      <span class="home-meta-pill">解析内嵌</span>
-    </div>
-    <a class="home-favorites-link" href="{{ url_for('favorites') }}">
-      <div class="home-favorites-copy">
-        <p class="eyebrow">收藏夹</p>
-        <strong>集中查看已收藏题目</strong>
-        <p class="hero-copy">每道题都可以单独收藏，在这里按科目和章节回看，并跳回原题继续刷。</p>
+{% set lead_subject = subjects[0] if subjects else none %}
+<main class="content home-page home-landing">
+  <section class="home-hero">
+    <div class="home-hero-grid">
+      <div class="home-hero-copy">
+        <p class="home-section-label">QUESTION BANK</p>
+        <h1 class="home-hero-title">
+          <span>少一点页面负担</span>
+          <span class="home-hero-title-accent">多一点做题专注</span>
+        </h1>
+        <p class="home-hero-subtitle">
+          四门科目、{{ subjects | map(attribute='chapter_count') | sum }} 个章节、{{ manifest.total_questions }} 道题，
+          已从原始 HTML 题库整理为可直接练习的网站，保留题干、换行、图片、公式与解析的原始表达。
+        </p>
+        <div class="home-hero-actions">
+          {% if lead_subject %}
+          <a class="home-primary-link" href="{{ url_for('subject_detail', subject_id=lead_subject.id) }}">开始刷题</a>
+          {% endif %}
+          <a class="home-secondary-link" href="{{ url_for('favorites') }}">查看收藏</a>
+        </div>
+        <div class="home-hero-pills">
+          <span class="home-info-pill">{{ manifest.total_subjects }} 门科目</span>
+          <span class="home-info-pill">{{ subjects | map(attribute='chapter_count') | sum }} 个章节</span>
+          <span class="home-info-pill">{{ manifest.total_questions }} 道题</span>
+          <span class="home-info-pill">即时判题</span>
+          <span class="home-info-pill">解析内嵌</span>
+        </div>
+        <a class="home-scroll-indicator" href="#subject-entry">
+          <span class="home-scroll-line"></span>
+          <span>继续向下看入口</span>
+        </a>
       </div>
-      <span class="home-meta-pill" data-favorites-count>0 道收藏题</span>
-    </a>
+
+      <aside class="home-hero-panel">
+        <div class="home-panel-head">
+          <p class="home-section-label">AT A GLANCE</p>
+          <span class="home-panel-badge" data-favorites-count>0 道收藏题</span>
+        </div>
+        <div class="home-panel-grid">
+          <div class="home-panel-card">
+            <strong>原题保留</strong>
+            <p>题干、图片、公式和解析按原始 HTML 渲染。</p>
+          </div>
+          <div class="home-panel-card">
+            <strong>即时反馈</strong>
+            <p>点击选项后立即判题，对错状态直接标记。</p>
+          </div>
+          <div class="home-panel-card">
+            <strong>连续练习</strong>
+            <p>每页同时展示 10 题，支持页码导航与章节切换。</p>
+          </div>
+          <div class="home-panel-card">
+            <strong>复习回看</strong>
+            <p>收藏题目后按科目与章节归档，回看更直接。</p>
+          </div>
+        </div>
+      </aside>
+    </div>
   </section>
 
-  <section class="home-section-head">
-    <div>
-      <p class="eyebrow">科目入口</p>
-      <h2>选择一门，再进入章节</h2>
+  <section class="home-stats">
+    <div class="home-stats-grid">
+      <article class="home-stat-card">
+        <strong>{{ manifest.total_subjects }}</strong>
+        <span>科目总数</span>
+        <small>高数、线代、概率论、复变</small>
+      </article>
+      <article class="home-stat-card">
+        <strong>{{ subjects | map(attribute='chapter_count') | sum }}</strong>
+        <span>章节入口</span>
+        <small>按科目拆分，直接定位到章节</small>
+      </article>
+      <article class="home-stat-card">
+        <strong>{{ manifest.total_questions }}</strong>
+        <span>题目数量</span>
+        <small>支持分页浏览与立即判题</small>
+      </article>
+      <article class="home-stat-card">
+        <strong>10</strong>
+        <span>每页题量</span>
+        <small>阅读式布局，适合连续刷题</small>
+      </article>
     </div>
-    <p class="home-section-copy">界面尽量少打扰，重点只保留章节、题目、解析和进度。</p>
   </section>
 
-  <section class="home-subject-grid">
-    {% for subject in subjects %}
-    <a class="subject-card subject-card-{{ loop.index }}" href="{{ url_for('subject_detail', subject_id=subject.id) }}">
-      <div class="subject-card-top">
-        <p class="card-kicker">{{ subject.source_zip }}</p>
-        <span class="subject-card-mark">0{{ loop.index }}</span>
+  <section class="home-timeline-section">
+    <div class="home-section-head">
+      <div>
+        <p class="home-section-label">WORKFLOW</p>
+        <h2>刷题流程保持简单清楚</h2>
       </div>
-      <h2>{{ subject.name }}</h2>
-      <p class="subject-card-copy">章节已经拆分整理，进入后即可连续刷题、即时判题并展开解析。</p>
-      <div class="subject-card-metrics">
-        <span>{{ subject.chapter_count }} 个章节</span>
-        <span>{{ subject.question_count }} 道题</span>
-      </div>
-      <div class="subject-card-footer">
-        <span>进入 {{ subject.name }}</span>
-        <strong>→</strong>
-      </div>
-    </a>
-    {% endfor %}
+      <p class="home-section-copy">不让操作步骤盖过内容本身，重点永远是题目、答案和解析。</p>
+    </div>
+    <div class="home-timeline">
+      <article class="home-timeline-item">
+        <div class="home-timeline-marker"></div>
+        <div class="home-timeline-content">
+          <span class="home-timeline-step">01</span>
+          <h3>先选科目</h3>
+          <p>从四门科目中进入你当前要练的内容，不需要先理解复杂入口结构。</p>
+        </div>
+      </article>
+      <article class="home-timeline-item">
+        <div class="home-timeline-marker"></div>
+        <div class="home-timeline-content">
+          <span class="home-timeline-step">02</span>
+          <h3>再进章节</h3>
+          <p>章节按课程认知顺序排好，直接切换到目标知识点开始练习。</p>
+        </div>
+      </article>
+      <article class="home-timeline-item">
+        <div class="home-timeline-marker"></div>
+        <div class="home-timeline-content">
+          <span class="home-timeline-step">03</span>
+          <h3>连续刷题</h3>
+          <p>每页同时看 10 题，点击选项后即时判题，题号状态同步变色。</p>
+        </div>
+      </article>
+      <article class="home-timeline-item">
+        <div class="home-timeline-marker"></div>
+        <div class="home-timeline-content">
+          <span class="home-timeline-step">04</span>
+          <h3>收藏回看</h3>
+          <p>把易错题或重点题加入收藏，之后按科目和章节集中复习。</p>
+        </div>
+      </article>
+    </div>
   </section>
+
+  <section class="home-features">
+    <div class="home-section-head">
+      <div>
+        <p class="home-section-label">CORE FEATURES</p>
+        <h2>首页说明清楚，刷题过程保持克制</h2>
+      </div>
+      <p class="home-section-copy">强调点只放在需要被注意的地方，避免用多余装饰打断阅读。</p>
+    </div>
+    <div class="home-features-grid">
+      <article class="home-feature-card">
+        <span class="home-feature-icon">—</span>
+        <h3>题干原样呈现</h3>
+        <p>尽量保留原 HTML 格式，不把题库内容重新改写成失真的纯文本。</p>
+      </article>
+      <article class="home-feature-card">
+        <span class="home-feature-icon">○</span>
+        <h3>选项即时判题</h3>
+        <p>选择后立刻给出正确与错误状态，减少额外点击路径。</p>
+      </article>
+      <article class="home-feature-card">
+        <span class="home-feature-icon">□</span>
+        <h3>解析展开在题下</h3>
+        <p>不再弹窗打断阅读，而是让解析自然接在当前题目下面。</p>
+      </article>
+      <article class="home-feature-card">
+        <span class="home-feature-icon">△</span>
+        <h3>题号状态导航</h3>
+        <p>分页顶部同步显示题号状态，做过、做对、做错一眼可见。</p>
+      </article>
+      <article class="home-feature-card">
+        <span class="home-feature-icon">◇</span>
+        <h3>章节栏可收起</h3>
+        <p>需要更专注时可把左侧章节栏收起，让题目区域居中阅读。</p>
+      </article>
+      <article class="home-feature-card">
+        <span class="home-feature-icon">▽</span>
+        <h3>主题切换</h3>
+        <p>支持浅色、深色和跟随系统，保证长时间使用时视觉压力更低。</p>
+      </article>
+    </div>
+  </section>
+
+  <section class="home-list-section">
+    <div class="home-section-head">
+      <div>
+        <p class="home-section-label">WHAT'S INCLUDED</p>
+        <h2>你在这个站里能直接完成的事</h2>
+      </div>
+      <p class="home-section-copy">入口、练习、解析、收藏、回看，都在同一条路径里闭环完成。</p>
+    </div>
+    <div class="home-list-grid">
+      <div class="home-list-column">
+        <h3>题目内容</h3>
+        <ul class="home-list">
+          <li><span>✓</span><span>保留原始题干结构</span></li>
+          <li><span>✓</span><span>保留图片与公式显示</span></li>
+          <li><span>✓</span><span>保留解析原有换行层次</span></li>
+          <li><span>✓</span><span>按章节拆分题库内容</span></li>
+        </ul>
+      </div>
+      <div class="home-list-column">
+        <h3>刷题体验</h3>
+        <ul class="home-list">
+          <li><span>✓</span><span>每页同时显示 10 题</span></li>
+          <li><span>✓</span><span>上一页 / 下一页翻页</span></li>
+          <li><span>✓</span><span>判题后题号同步变色</span></li>
+          <li><span>✓</span><span>解析内嵌展开阅读</span></li>
+        </ul>
+      </div>
+      <div class="home-list-column">
+        <h3>复习管理</h3>
+        <ul class="home-list">
+          <li><span>✓</span><span>单题收藏</span></li>
+          <li><span>✓</span><span>收藏按科目归档</span></li>
+          <li><span>✓</span><span>收藏按章节归档</span></li>
+          <li><span>✓</span><span>可直接跳回原题位置</span></li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <section class="home-subject-section" id="subject-entry">
+    <div class="home-section-head">
+      <div>
+        <p class="home-section-label">SUBJECTS</p>
+        <h2>直接进入科目，再进入章节</h2>
+      </div>
+      <p class="home-section-copy">首页只负责把方向交代清楚，真正的练习从科目页开始。</p>
+    </div>
+    <div class="home-subject-grid">
+      {% for subject in subjects %}
+      <a class="home-subject-card" href="{{ url_for('subject_detail', subject_id=subject.id) }}">
+        <div class="home-subject-card-top">
+          <span class="home-subject-index">0{{ loop.index }}</span>
+          <span class="home-subject-source">{{ subject.source_zip }}</span>
+        </div>
+        <h3>{{ subject.name }}</h3>
+        <p>章节已整理完成，可直接进入章节刷题与复习流程。</p>
+        <div class="home-subject-meta">
+          <span>{{ subject.chapter_count }} 个章节</span>
+          <span>{{ subject.question_count }} 道题</span>
+        </div>
+      </a>
+      {% endfor %}
+    </div>
+  </section>
+
+  <section class="home-cta">
+    <div class="home-cta-card">
+      <div>
+        <p class="home-section-label">READY TO PRACTICE</p>
+        <h2>入口已经整理好，现在只差开始做题。</h2>
+        <p>如果你已经有要刷的章节，直接从科目页进入；如果在复习错题，就从收藏夹开始。</p>
+      </div>
+      <div class="home-cta-actions">
+        {% if lead_subject %}
+        <a class="home-primary-link" href="{{ url_for('subject_detail', subject_id=lead_subject.id) }}">进入科目</a>
+        {% endif %}
+        <a class="home-secondary-link" href="{{ url_for('favorites') }}">打开收藏夹</a>
+      </div>
+    </div>
+  </section>
+
+  <footer class="home-footer">
+    <div class="home-footer-brand">
+      <strong>math</strong>
+      <p>少一点界面噪音，多一点刷题专注。</p>
+    </div>
+    <div class="home-footer-links">
+      {% for item in subjects %}
+      <a href="{{ url_for('subject_detail', subject_id=item.id) }}">{{ item.name }}</a>
+      {% endfor %}
+      <a href="{{ url_for('favorites') }}">收藏</a>
+    </div>
+  </footer>
 </main>
 {% endblock %}
