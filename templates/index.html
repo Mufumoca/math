@@ -7,10 +7,10 @@
   <section class="home-stage">
     <div class="home-stage-copy">
       <p class="eyebrow">math</p>
-      <h1>直接进科目开始刷题。</h1>
+      <h1>把注意力留给题目本身。</h1>
       <p class="hero-copy">
         四门科目、{{ subjects | map(attribute='chapter_count') | sum }} 个章节、{{ manifest.total_questions }} 道题，
-        已整理成可直接进入的练习站点，不改原始压缩包。
+        从原始 HTML 题库整理而来，保留题干、图片、公式与解析的原始表达，直接按章节进入刷题。
       </p>
     </div>
     <div class="home-stage-meta">
@@ -23,8 +23,8 @@
     <a class="home-favorites-link" href="{{ url_for('favorites') }}">
       <div class="home-favorites-copy">
         <p class="eyebrow">收藏夹</p>
-        <strong>查看已收藏题目</strong>
-        <p class="hero-copy">每道题都可以单独收藏，这里集中回看并跳回原题。</p>
+        <strong>集中查看已收藏题目</strong>
+        <p class="hero-copy">每道题都可以单独收藏，在这里按科目和章节回看，并跳回原题继续刷。</p>
       </div>
       <span class="home-meta-pill" data-favorites-count>0 道收藏题</span>
     </a>
@@ -33,9 +33,9 @@
   <section class="home-section-head">
     <div>
       <p class="eyebrow">科目入口</p>
-      <h2>选择一门，直接进入章节</h2>
+      <h2>选择一门，再进入章节</h2>
     </div>
-    <p class="home-section-copy">主页只保留入口，不再堆概览框。</p>
+    <p class="home-section-copy">界面尽量少打扰，重点只保留章节、题目、解析和进度。</p>
   </section>
 
   <section class="home-subject-grid">
@@ -46,7 +46,7 @@
         <span class="subject-card-mark">0{{ loop.index }}</span>
       </div>
       <h2>{{ subject.name }}</h2>
-      <p class="subject-card-copy">章节已拆分整理，可直接切入刷题页。</p>
+      <p class="subject-card-copy">章节已经拆分整理，进入后即可连续刷题、即时判题并展开解析。</p>
       <div class="subject-card-metrics">
         <span>{{ subject.chapter_count }} 个章节</span>
         <span>{{ subject.question_count }} 道题</span>

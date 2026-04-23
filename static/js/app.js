@@ -175,10 +175,15 @@
       .replaceAll("'", "&#39;");
   }
 
+  function compareNaturalText(left, right) {
+    return String(left).localeCompare(String(right), "zh-Hans-CN", { numeric: true });
+  }
+
   function initChapterPage(chapterData, quizContext) {
     const pageQuestionSummary = document.getElementById("page-question-summary");
     const progressSummary = document.getElementById("progress-summary");
     const navPageIndicator = document.getElementById("nav-page-indicator");
+    const bottomPageIndicator = document.getElementById("bottom-page-indicator");
     const pagePrevButtons = Array.from(document.querySelectorAll('[data-page-nav="prev"]'));
     const pageNextButtons = Array.from(document.querySelectorAll('[data-page-nav="next"]'));
     const questionList = document.getElementById("question-list");
@@ -367,6 +372,9 @@
       const correctCount = Object.values(progress.answers).filter((item) => item.correct).length;
       progressSummary.textContent = `已作答 ${answeredCount}/${questions.length}，答对 ${correctCount} 题`;
       navPageIndicator.textContent = `${currentPage + 1} / ${totalPages} 页`;
+      if (bottomPageIndicator) {
+        bottomPageIndicator.textContent = `${currentPage + 1} / ${totalPages} 页`;
+      }
 
       pagePrevButtons.forEach((button) => {
         button.disabled = currentPage === 0;
@@ -547,10 +555,10 @@
           subjectId: subject.subjectId,
           subjectName: subject.subjectName,
           chapters: Array.from(subject.chaptersMap.values()).sort((left, right) =>
-            left.chapterName.localeCompare(right.chapterName, "zh-Hans-CN"),
+            compareNaturalText(left.chapterName, right.chapterName),
           ),
         }))
-        .sort((left, right) => left.subjectName.localeCompare(right.subjectName, "zh-Hans-CN"));
+        .sort((left, right) => compareNaturalText(left.subjectName, right.subjectName));
     }
 
     function flattenGroups(groupedSubjects) {

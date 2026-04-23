@@ -33,7 +33,7 @@
         <span class="brand-mark">M</span>
         <span class="brand-copy">
           <strong>math</strong>
-          <small>基于原始 HTML 题库抽取</small>
+          <small>把注意力留给题目本身</small>
         </span>
       </a>
       <nav class="top-nav">
@@ -53,20 +53,6 @@
     </header>
 
     {% block content %}{% endblock %}
-  </div>
-
-  <div id="analysis-modal" class="modal hidden" aria-hidden="true">
-    <div class="modal-backdrop" data-close-modal="1"></div>
-    <div class="modal-panel" role="dialog" aria-modal="true" aria-labelledby="analysis-title">
-      <div class="modal-header">
-        <div>
-          <h2 id="analysis-title">解析</h2>
-          <p id="analysis-subtitle" class="modal-subtitle"></p>
-        </div>
-        <button type="button" class="modal-close" data-close-modal="1">关闭</button>
-      </div>
-      <div id="analysis-body" class="modal-body"></div>
-    </div>
   </div>
 
   <script src="{{ url_for('static', filename='js/app.js', v=asset_version) }}"></script>
