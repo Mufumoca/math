@@ -7,6 +7,8 @@ from pathlib import Path
 
 from flask import Flask, abort, render_template
 
+from chapter_order import reorder_manifest_subjects
+
 
 BASE_DIR = Path(__file__).resolve().parent
 DATA_DIR = BASE_DIR / "data"
@@ -28,7 +30,7 @@ def load_manifest() -> dict:
             f"Missing manifest: {MANIFEST_PATH}. Run scripts/extract_questions.py first."
         )
     with MANIFEST_PATH.open("r", encoding="utf-8") as handle:
-        return json.load(handle)
+        return reorder_manifest_subjects(json.load(handle))
 
 
 def get_subject_or_404(subject_id: str) -> dict:

@@ -4,6 +4,7 @@ import argparse
 import base64
 import json
 import re
+import sys
 from datetime import datetime, timezone
 from pathlib import Path
 from typing import Iterable
@@ -14,9 +15,13 @@ from zipfile import ZipFile
 
 PROJECT_ROOT = Path(__file__).resolve().parents[1]
 SOURCE_ROOT = PROJECT_ROOT.parent
+if str(PROJECT_ROOT) not in sys.path:
+    sys.path.insert(0, str(PROJECT_ROOT))
 DATA_DIR = PROJECT_ROOT / "data"
 EXTRACTED_DIR = DATA_DIR / "extracted"
 STATIC_ASSETS_DIR = PROJECT_ROOT / "static" / "generated" / "assets"
+
+from chapter_order import chapter_sort_key, normalize_chapter_title  # noqa: E402
 
 SUBJECTS = {
     "高数.zip": {"id": "advanced-math", "name": "高数"},
@@ -44,17 +49,6 @@ def strip_question_count(filename: str) -> str:
 def parse_question_count(filename: str) -> int | None:
     match = re.search(r"\((\d+)题\)$", Path(filename).stem)
     return int(match.group(1)) if match else None
-
-
-def chapter_sort_key(title: str, index: int) -> tuple:
-    numeric_prefix = re.match(r"^\s*(\d+(?:\.\d+)*)", title)
-    if numeric_prefix:
-        return (
-            0,
-            tuple(int(part) for part in numeric_prefix.group(1).split(".")),
-            title,
-        )
-    return (1, index, title)
 
 
 def decode_data_uri(src: str) -> tuple[str, bytes]:
@@ -140,7 +134,12 @@ def parse_question_block(
 def iter_sorted_html_members(zip_file: ZipFile) -> Iterable[str]:
     html_members = [name for name in zip_file.namelist() if name.lower().endswith((".html", ".htm"))]
     indexed = list(enumerate(html_members))
-    sorted_members = sorted(indexed, key=lambda item: chapter_sort_key(strip_question_count(item[1]), item[0]))
+    subject_zip_name = Path(zip_file.filename).name
+    subject_id = SUBJECTS[subject_zip_name]["id"]
+    sorted_members = sorted(
+        indexed,
+        key=lambda item: chapter_sort_key(subject_id, strip_question_count(item[1]), item[0]),
+    )
     for _, member in sorted_members:
         yield member
 
@@ -155,7 +154,7 @@ def extract_subject(zip_name: str, source_dir: Path) -> dict:
 
     with ZipFile(zip_path) as archive:
         for chapter_index, member in enumerate(iter_sorted_html_members(archive), start=1):
-            chapter_title = strip_question_count(member)
+            chapter_title = normalize_chapter_title(subject_id, strip_question_count(member))
             chapter_id = f"ch{chapter_index:03d}"
             chapter_asset_dir = STATIC_ASSETS_DIR / subject_id / chapter_id
             chapter_asset_url_dir = f"/static/generated/assets/{subject_id}/{chapter_id}"
