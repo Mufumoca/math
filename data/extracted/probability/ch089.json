@@ -13,280 +13,282 @@
       "number": 1,
       "header": "#1-Averge",
       "difficulty": "Averge",
-      "prompt_html": "<img src=\"/static/generated/assets/probability/ch089/q0001_prompt.png\"/>",
+      "prompt_html": "<span class=\"latex-text\">\\begin{array}{l}\n\\begin{array}{|c|c|c|c|c|} \\hline \\hline (X,Y) &amp; (1,0) &amp; (1,1) &amp; (2,0) &amp; (2,1) \\\\ \\hline p_i &amp; 0.4 &amp; 0.2 &amp; a &amp; b \\\\ \\hline \\end{array}</span>\n<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{若} E(XY)=0.8，\\text{则} \\text{cov}(X,Y)=（）。\">\\text{若} E(XY)=0.8，\\text{则} \\text{cov}(X,Y)=（）。</span>\n<span class=\"latex-text\">\\end{array}</span>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/probability/ch089/q0001_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"0.1\">0.1</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/probability/ch089/q0001_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"0.2\">0.2</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/probability/ch089/q0001_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"1\">1</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/probability/ch089/q0001_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"_{\\text{ 2 }}\">_{\\text{ 2 }}</span>"
         }
       ],
       "answer": "A",
       "answer_index": 0,
-      "analysis_html": "<img src=\"/static/generated/assets/probability/ch089/q0001_analysis.png\"/>"
+      "analysis_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{aligned}&amp;\\text{由分布列的性质知，} \\quad 0.4+0.2+a+b=1,\\\\&amp;\\text{又} \\quad E(XY)=0.8=1\\times 0.2+2\\times b,\\\\&amp;\\text{联立上面两式，求得} \\quad a=0.1,b=0.3\\,.\\\\&amp;\\text{从而} \\quad P\\{X=1\\}=0.4+0.2=0.6, \\quad P\\{X=2\\}=a+b=0.4\\,.\\\\&amp;\\quad P\\{Y=0\\}=0.4+a=0.5, \\quad P\\{Y=1\\}=0.2+b=0.5\\,.\\\\&amp;\\text{则} \\quad E(X)=1\\times 0.6+2\\times 0.4=1.4, \\quad E(Y)=0.5\\,.\\\\&amp;\\text{从而} \\quad \\operatorname{cov}(X,Y)=E(XY)-E(X)E(Y)=0.1\\,.\\end{aligned}\">\\begin{aligned}&amp;\\text{由分布列的性质知，} \\quad 0.4+0.2+a+b=1,\\\\&amp;\\text{又} \\quad E(XY)=0.8=1\\times 0.2+2\\times b,\\\\&amp;\\text{联立上面两式，求得} \\quad a=0.1,b=0.3\\,.\\\\&amp;\\text{从而} \\quad P\\{X=1\\}=0.4+0.2=0.6, \\quad P\\{X=2\\}=a+b=0.4\\,.\\\\&amp;\\quad P\\{Y=0\\}=0.4+a=0.5, \\quad P\\{Y=1\\}=0.2+b=0.5\\,.\\\\&amp;\\text{则} \\quad E(X)=1\\times 0.6+2\\times 0.4=1.4, \\quad E(Y)=0.5\\,.\\\\&amp;\\text{从而} \\quad \\operatorname{cov}(X,Y)=E(XY)-E(X)E(Y)=0.1\\,.\\end{aligned}</div>"
     },
     {
       "id": "q0002",
       "number": 2,
       "header": "#2-Averge",
       "difficulty": "Averge",
-      "prompt_html": "<img src=\"/static/generated/assets/probability/ch089/q0002_prompt.png\"/>",
+      "prompt_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{aligned} \\text{已知离散型随机变量} (X,Y) \\text{的概率分布如下表} \\begin{array}{|c|c|c|c|} \\hline \\lambda\\setminus Y &amp; -1 &amp; 0 &amp; 2 \\\\ \\hline 0 &amp; 0.1 &amp; 0.2 &amp; 0 \\\\ \\hline 1 &amp; 0.3 &amp; 0.05 &amp; 0.1 \\\\ \\hline 2 &amp; 0.15 &amp; 0 &amp; 0.1 \\\\ \\hline \\end{array} \\text{则} \\text{cov} (X,Y) = ( ). \\end{aligned}\">\\begin{aligned} \\text{已知离散型随机变量} (X,Y) \\text{的概率分布如下表} \\begin{array}{|c|c|c|c|} \\hline \\lambda\\setminus Y &amp; -1 &amp; 0 &amp; 2 \\\\ \\hline 0 &amp; 0.1 &amp; 0.2 &amp; 0 \\\\ \\hline 1 &amp; 0.3 &amp; 0.05 &amp; 0.1 \\\\ \\hline 2 &amp; 0.15 &amp; 0 &amp; 0.1 \\\\ \\hline \\end{array} \\text{则} \\text{cov} (X,Y) = ( ). \\end{aligned}</div>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/probability/ch089/q0002_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"0.1425\">0.1425</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/probability/ch089/q0002_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"0.3521\">0.3521</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/probability/ch089/q0002_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"0.4362\">0.4362</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/probability/ch089/q0002_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"0.2634\">0.2634</span>"
         }
       ],
       "answer": "A",
       "answer_index": 0,
-      "analysis_html": "<img src=\"/static/generated/assets/probability/ch089/q0002_analysis.png\"/>"
+      "analysis_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{aligned}\\text{容易求得} \\lambda \\text{的概率分布为} &amp; \\quad P\\{X=0\\}=0.3, \\quad P\\{X=1\\}=0.45, \\quad P\\{X=2\\}=0.25\\,; \\\\Y \\text{的概率分布为} &amp; \\quad P\\{Y=-1\\}=0.55, \\quad P\\{Y=0\\}=0.25, \\quad P\\{Y=2\\}=0.2, \\\\ \\text{于是有} &amp; \\quad E(X)=0\\times 0.3+1\\times 0.45+2\\times 0.25=0.95, \\\\ &amp; \\quad E(Y)=(-1)\\times 0.55+0\\times 0.25+2\\times 0.2=-0.15. \\\\ \\text{计算得} &amp; \\quad E(XY)=0\\times (-1)\\times 0.1+0\\times 0\\times 0.2+0\\times 2\\times 0+1\\times (-1)\\times 0.3+1\\times 0\\times 0.5 \\\\ &amp; \\quad+1\\times 2\\times 0.1+2\\times (-1)\\times 0.15+2\\times 0\\times 0+2\\times 2\\times 0.1 \\\\ &amp; =0. \\\\ \\text{于是} &amp; \\quad \\operatorname{cov}(X,\\,Y)=E(XY)-E(X)E(Y)=0.95\\times 0.15=0.1425.\\end{aligned}\">\\begin{aligned}\\text{容易求得} \\lambda \\text{的概率分布为} &amp; \\quad P\\{X=0\\}=0.3, \\quad P\\{X=1\\}=0.45, \\quad P\\{X=2\\}=0.25\\,; \\\\Y \\text{的概率分布为} &amp; \\quad P\\{Y=-1\\}=0.55, \\quad P\\{Y=0\\}=0.25, \\quad P\\{Y=2\\}=0.2, \\\\ \\text{于是有} &amp; \\quad E(X)=0\\times 0.3+1\\times 0.45+2\\times 0.25=0.95, \\\\ &amp; \\quad E(Y)=(-1)\\times 0.55+0\\times 0.25+2\\times 0.2=-0.15. \\\\ \\text{计算得} &amp; \\quad E(XY)=0\\times (-1)\\times 0.1+0\\times 0\\times 0.2+0\\times 2\\times 0+1\\times (-1)\\times 0.3+1\\times 0\\times 0.5 \\\\ &amp; \\quad+1\\times 2\\times 0.1+2\\times (-1)\\times 0.15+2\\times 0\\times 0+2\\times 2\\times 0.1 \\\\ &amp; =0. \\\\ \\text{于是} &amp; \\quad \\operatorname{cov}(X,\\,Y)=E(XY)-E(X)E(Y)=0.95\\times 0.15=0.1425.\\end{aligned}</div>"
     },
     {
       "id": "q0003",
       "number": 3,
       "header": "#3-Easy",
       "difficulty": "Easy",
-      "prompt_html": "<img src=\"/static/generated/assets/probability/ch089/q0003_prompt.png\"/>",
+      "prompt_html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{已知随机变量} \\zeta \\text{与} \\eta \\text{的方差分别为} D(\\zeta) = 4,\\, D(\\eta) = 9,\\, \\text{协方差} \\operatorname{cov}(\\zeta, \\eta) = 2,\\, \\text{则} D(2\\zeta - \\eta) \\text{等于} (\\, ).\">\\text{已知随机变量} \\zeta \\text{与} \\eta \\text{的方差分别为} D(\\zeta) = 4,\\, D(\\eta) = 9,\\, \\text{协方差} \\operatorname{cov}(\\zeta, \\eta) = 2,\\, \\text{则} D(2\\zeta - \\eta) \\text{等于} (\\, ).</span>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/probability/ch089/q0003_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"17\">17</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/probability/ch089/q0003_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"25\">25</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/probability/ch089/q0003_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"13\">13</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/probability/ch089/q0003_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"21\">21</span>"
         }
       ],
       "answer": "A",
       "answer_index": 0,
-      "analysis_html": "<img src=\"/static/generated/assets/probability/ch089/q0003_analysis.png\"/>"
+      "analysis_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{aligned}D(2\\xi-\\eta)=4D(\\xi)+D(\\eta)-4{\\rm cov}(\\xi,\\eta)=17\\;.\\end{aligned}\">\\begin{aligned}D(2\\xi-\\eta)=4D(\\xi)+D(\\eta)-4{\\rm cov}(\\xi,\\eta)=17\\;.\\end{aligned}</div>"
     },
     {
       "id": "q0004",
       "number": 4,
       "header": "#4-Easy",
       "difficulty": "Easy",
-      "prompt_html": "<img src=\"/static/generated/assets/probability/ch089/q0004_prompt.png\"/>",
+      "prompt_html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{如果}\\,\\xi,\\eta\\text{满足}\\,D(\\xi+\\eta)=D(\\xi-\\eta),\\text{则必有( ).}\">\\text{如果}\\,\\xi,\\eta\\text{满足}\\,D(\\xi+\\eta)=D(\\xi-\\eta),\\text{则必有( ).}</span>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/probability/ch089/q0004_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\operatorname{cov}(\\xi, \\eta) = 0\">\\operatorname{cov}(\\xi, \\eta) = 0</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/probability/ch089/q0004_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\xi , \\eta \\text{独立}\">\\xi , \\eta \\text{独立}</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/probability/ch089/q0004_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"D(\\eta) = 0\">D(\\eta) = 0</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/probability/ch089/q0004_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\underline{D(\\zeta)D(\\eta)=0}\">\\underline{D(\\zeta)D(\\eta)=0}</span>"
         }
       ],
       "answer": "A",
       "answer_index": 0,
-      "analysis_html": "<img src=\"/static/generated/assets/probability/ch089/q0004_analysis.png\"/>"
+      "analysis_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{aligned}&amp;\\text{由于}D(\\xi+\\eta)=D(\\xi)+D(\\eta)+2\\mathrm{cov}(\\xi,\\eta)\\,,\\,\\,\\,D(\\xi-\\eta)=D(\\xi)+D(\\eta)-2\\mathrm{cov}(\\xi,\\eta)\\,,\\\\&amp;\\text{且两者相等，故}\\,\\mathrm{cov}(\\xi,\\eta)=0\\,,\\,\\,\\,\\rho(\\xi,\\eta)=0\\,,\\,\\,\\text{但}\\,\\xi,\\eta\\text{未必独立}.\\end{aligned}\">\\begin{aligned}&amp;\\text{由于}D(\\xi+\\eta)=D(\\xi)+D(\\eta)+2\\mathrm{cov}(\\xi,\\eta)\\,,\\,\\,\\,D(\\xi-\\eta)=D(\\xi)+D(\\eta)-2\\mathrm{cov}(\\xi,\\eta)\\,,\\\\&amp;\\text{且两者相等，故}\\,\\mathrm{cov}(\\xi,\\eta)=0\\,,\\,\\,\\,\\rho(\\xi,\\eta)=0\\,,\\,\\,\\text{但}\\,\\xi,\\eta\\text{未必独立}.\\end{aligned}</div>"
     },
     {
       "id": "q0005",
       "number": 5,
       "header": "#5-Averge",
       "difficulty": "Averge",
-      "prompt_html": "<img src=\"/static/generated/assets/probability/ch089/q0005_prompt.png\"/>",
+      "prompt_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{aligned} \\text{设}X,Y\\text{的概率密度为} \\\\f(x,y)=\\begin{cases} 1, \\ |y|\\leq x, \\ 0\\leq x\\leq 1 \\\\ 0, \\quad\\quad\\text{其它} \\end{cases}, \\\\ \\text{则不正确的是( ).} \\end{aligned}\">\\begin{aligned} \\text{设}X,Y\\text{的概率密度为} \\\\f(x,y)=\\begin{cases} 1, \\ |y|\\leq x, \\ 0\\leq x\\leq 1 \\\\ 0, \\quad\\quad\\text{其它} \\end{cases}, \\\\ \\text{则不正确的是( ).} \\end{aligned}</div>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/probability/ch089/q0005_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"E(XY) = 1\">E(XY) = 1</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/probability/ch089/q0005_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"D(X) = \\frac{1}{18}\">D(X) = \\frac{1}{18}</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/probability/ch089/q0005_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\begin{aligned}D(Y) = \\frac{1}{6}\\end{aligned}\">\\begin{aligned}D(Y) = \\frac{1}{6}\\end{aligned}</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/probability/ch089/q0005_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\operatorname{cov} (X, \\, Y) = 0\">\\operatorname{cov} (X, \\, Y) = 0</span>"
         }
       ],
       "answer": "A",
       "answer_index": 0,
-      "analysis_html": "<img src=\"/static/generated/assets/probability/ch089/q0005_analysis.png\"/>"
+      "analysis_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{aligned}\\text{(1)先求关于x与y的边缘密度} &amp; \\quad f_{X}(x)=\\begin{cases}x^{2}, &amp; 0\\leq x\\leq 1 \\\\0, &amp; \\text{其它}\\end{cases},\\quad f_{Y}(y)=\\begin{cases}1-|y|, &amp; \\text{当}-1\\leq y\\leq 1 \\\\0, &amp; \\text{其它}\\end{cases}. \\\\\\text{(2)计算} &amp; \\quad E(X)=\\int_{0}^{1}x^{2}\\cdot 2x\\, dx=\\frac{2}{3},\\ E(X^{2})=\\int_{0}^{1}x^{2}\\cdot 2x\\, dx=\\frac{1}{2}, \\\\&amp; \\quad E(Y)=\\int_{-1}^{1}y(1-|y|)\\, dy=0,\\quad E(Y^{2})=\\int_{-1}^{1}y^{2}(1-|y|)\\, dy=2\\int_{0}^{1}y^{2}(1-y)\\, dy=\\frac{1}{6}, \\\\&amp; \\quad D(X)=\\frac{1}{2}-\\left(\\frac{2}{3}\\right)^{2}=\\frac{1}{18},\\quad D(Y)=\\frac{1}{6}. \\\\&amp; \\quad E(XY)=\\iint_{G}xy\\, dy=\\int_{0}^{1}dx\\int_{-x}^{x}xy\\, dy=0, \\\\&amp; \\text{故}\\operatorname{cov}(X,Y)=0.\\end{aligned}\">\\begin{aligned}\\text{(1)先求关于x与y的边缘密度} &amp; \\quad f_{X}(x)=\\begin{cases}x^{2}, &amp; 0\\leq x\\leq 1 \\\\0, &amp; \\text{其它}\\end{cases},\\quad f_{Y}(y)=\\begin{cases}1-|y|, &amp; \\text{当}-1\\leq y\\leq 1 \\\\0, &amp; \\text{其它}\\end{cases}. \\\\\\text{(2)计算} &amp; \\quad E(X)=\\int_{0}^{1}x^{2}\\cdot 2x\\, dx=\\frac{2}{3},\\ E(X^{2})=\\int_{0}^{1}x^{2}\\cdot 2x\\, dx=\\frac{1}{2}, \\\\&amp; \\quad E(Y)=\\int_{-1}^{1}y(1-|y|)\\, dy=0,\\quad E(Y^{2})=\\int_{-1}^{1}y^{2}(1-|y|)\\, dy=2\\int_{0}^{1}y^{2}(1-y)\\, dy=\\frac{1}{6}, \\\\&amp; \\quad D(X)=\\frac{1}{2}-\\left(\\frac{2}{3}\\right)^{2}=\\frac{1}{18},\\quad D(Y)=\\frac{1}{6}. \\\\&amp; \\quad E(XY)=\\iint_{G}xy\\, dy=\\int_{0}^{1}dx\\int_{-x}^{x}xy\\, dy=0, \\\\&amp; \\text{故}\\operatorname{cov}(X,Y)=0.\\end{aligned}</div>"
     },
     {
       "id": "q0006",
       "number": 6,
       "header": "#6-Averge",
       "difficulty": "Averge",
-      "prompt_html": "<img src=\"/static/generated/assets/probability/ch089/q0006_prompt.png\"/>",
+      "prompt_html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{箱内有} 6 \\text{个球，其中红、白、黑球的个数分别为} 1, 2, 3 \\text{个，现从箱中随机地取出} 2 \\text{个球，设} X \\text{为取出的红球个数，} Y \\text{为取出的白球个数，则} \\operatorname{cov}(X,Y) = ( \\ .\">\\text{箱内有} 6 \\text{个球，其中红、白、黑球的个数分别为} 1, 2, 3 \\text{个，现从箱中随机地取出} 2 \\text{个球，设} X \\text{为取出的红球个数，} Y \\text{为取出的白球个数，则} \\operatorname{cov}(X,Y) = ( \\ .</span>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/probability/ch089/q0006_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"- \\frac { 4 } { 45 }\">- \\frac { 4 } { 45 }</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/probability/ch089/q0006_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\frac { 6 } { 45 }\">\\frac { 6 } { 45 }</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/probability/ch089/q0006_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"- \\frac { 6 } { 45 }\">- \\frac { 6 } { 45 }</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/probability/ch089/q0006_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\frac { 4 } { 45 }\">\\frac { 4 } { 45 }</span>"
         }
       ],
       "answer": "A",
       "answer_index": 0,
-      "analysis_html": "<img src=\"/static/generated/assets/probability/ch089/q0006_analysis.png\"/>"
+      "analysis_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{aligned}&amp;\\text{由题可知，}(X,Y)\\text{的联合分布为}\\\\&amp;\\begin{bmatrix}X\\backslash Y &amp; 0 &amp; 1 &amp; 2 \\\\ 0 &amp; \\frac{1}{5} &amp; \\frac{2}{5} &amp; \\frac{1}{15} \\\\ 1 &amp; \\frac{1}{5} &amp; \\frac{2}{15} &amp; 0\\end{bmatrix}\\\\&amp;\\text{由协方差的计算式子}\\\\&amp;\\quad\\operatorname{cov}(X,Y)=E(XY)-E(X)E(Y).\\\\&amp;\\text{故可计算出，}\\\\&amp;\\quad E(XY)=\\frac{2}{15},\\ E(X)=\\frac{5}{15},\\ E(Y)=\\frac{10}{15},\\\\&amp;\\text{即}\\operatorname{cov}(X,Y)=-\\frac{4}{45}.\\end{aligned}\">\\begin{aligned}&amp;\\text{由题可知，}(X,Y)\\text{的联合分布为}\\\\&amp;\\begin{bmatrix}X\\backslash Y &amp; 0 &amp; 1 &amp; 2 \\\\ 0 &amp; \\frac{1}{5} &amp; \\frac{2}{5} &amp; \\frac{1}{15} \\\\ 1 &amp; \\frac{1}{5} &amp; \\frac{2}{15} &amp; 0\\end{bmatrix}\\\\&amp;\\text{由协方差的计算式子}\\\\&amp;\\quad\\operatorname{cov}(X,Y)=E(XY)-E(X)E(Y).\\\\&amp;\\text{故可计算出，}\\\\&amp;\\quad E(XY)=\\frac{2}{15},\\ E(X)=\\frac{5}{15},\\ E(Y)=\\frac{10}{15},\\\\&amp;\\text{即}\\operatorname{cov}(X,Y)=-\\frac{4}{45}.\\end{aligned}</div>"
     },
     {
       "id": "q0007",
       "number": 7,
       "header": "#7-Easy",
       "difficulty": "Easy",
-      "prompt_html": "<img src=\"/static/generated/assets/probability/ch089/q0007_prompt.png\"/>",
+      "prompt_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{aligned}\\text{设}\\xi,\\eta\\text{的联合分布律为}\\quad&amp;\\\\&amp;\\begin{array}{c|ccc}\\xi\\setminus\\eta &amp; -1 &amp; 1 \\\\ \\hline -1 &amp; 1/3 &amp; 1/6 \\\\ 1 &amp; 1/6 &amp; 1/3 \\end{array}\\\\ \\text{则}\\operatorname{cov}(\\xi,\\eta)=\\left(\\ \\right).\\end{aligned}\">\\begin{aligned}\\text{设}\\xi,\\eta\\text{的联合分布律为}\\quad&amp;\\\\&amp;\\begin{array}{c|ccc}\\xi\\setminus\\eta &amp; -1 &amp; 1 \\\\ \\hline -1 &amp; 1/3 &amp; 1/6 \\\\ 1 &amp; 1/6 &amp; 1/3 \\end{array}\\\\ \\text{则}\\operatorname{cov}(\\xi,\\eta)=\\left(\\ \\right).\\end{aligned}</div>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/probability/ch089/q0007_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\frac { 1 } { 3 }\">\\frac { 1 } { 3 }</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/probability/ch089/q0007_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\textbf { 0 }\">\\textbf { 0 }</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/probability/ch089/q0007_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\frac { 1 } { 2 }\">\\frac { 1 } { 2 }</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/probability/ch089/q0007_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\frac { 2 } { 3 }\">\\frac { 2 } { 3 }</span>"
         }
       ],
       "answer": "A",
       "answer_index": 0,
-      "analysis_html": "<img src=\"/static/generated/assets/probability/ch089/q0007_analysis.png\"/>"
+      "analysis_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{aligned}\\text{由题意知}\\quad&amp;\\begin{array}{|c|c|c|} &amp; &amp; \\\\ \\hline - &amp; -1 &amp; 1 \\\\ &amp; &amp; \\\\ &amp; 1/2 &amp; 1/2 \\end{array} &amp; - &amp; \\begin{array}{|c|c|c|} &amp; &amp; \\\\ &amp; -1 &amp; 1 \\\\ &amp; &amp; \\\\ &amp; 1/2 &amp; 1/2 \\end{array} &amp; - &amp; \\begin{array}{|c|c|c|} &amp; &amp; \\\\ &amp; -1 &amp; 1 \\\\ &amp; &amp; \\\\ &amp; 1/3 &amp; 2/3 \\end{array} \\end{aligned}\">\\begin{aligned}\\text{由题意知}\\quad&amp;\\begin{array}{|c|c|c|} &amp; &amp; \\\\ \\hline - &amp; -1 &amp; 1 \\\\ &amp; &amp; \\\\ &amp; 1/2 &amp; 1/2 \\end{array} &amp; - &amp; \\begin{array}{|c|c|c|} &amp; &amp; \\\\ &amp; -1 &amp; 1 \\\\ &amp; &amp; \\\\ &amp; 1/2 &amp; 1/2 \\end{array} &amp; - &amp; \\begin{array}{|c|c|c|} &amp; &amp; \\\\ &amp; -1 &amp; 1 \\\\ &amp; &amp; \\\\ &amp; 1/3 &amp; 2/3 \\end{array} \\end{aligned}</div>"
     },
     {
       "id": "q0008",
       "number": 8,
       "header": "#8-Easy",
       "difficulty": "Easy",
-      "prompt_html": "<img src=\"/static/generated/assets/probability/ch089/q0008_prompt.png\"/>",
+      "prompt_html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{协方差} \\mathrm{cov}(\\zeta, \\eta) = ( \\ ).\">\\text{协方差} \\mathrm{cov}(\\zeta, \\eta) = ( \\ ).</span>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/probability/ch089/q0008_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\begin{aligned}E(\\xi \\eta )-E(\\xi )E(\\eta )\\end{aligned}\">\\begin{aligned}E(\\xi \\eta )-E(\\xi )E(\\eta )\\end{aligned}</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/probability/ch089/q0008_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"E(\\eta - E(\\eta))^{2}(\\xi - E(\\xi))^{2}\">E(\\eta - E(\\eta))^{2}(\\xi - E(\\xi))^{2}</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/probability/ch089/q0008_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\begin{aligned}E(\\xi - E(\\zeta)) E(\\eta - E(\\eta))\\end{aligned}\">\\begin{aligned}E(\\xi - E(\\zeta)) E(\\eta - E(\\eta))\\end{aligned}</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/probability/ch089/q0008_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"E(\\xi \\eta)^{2} - (E(\\xi) E(\\eta))^{2}\">E(\\xi \\eta)^{2} - (E(\\xi) E(\\eta))^{2}</span>"
         }
       ],
       "answer": "A",
       "answer_index": 0,
-      "analysis_html": "<img src=\"/static/generated/assets/probability/ch089/q0008_analysis.png\"/>"
+      "analysis_html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{由协方差的定义} \\operatorname{cov}(\\xi,\\eta) = E\\{[\\xi - E(\\zeta)][\\eta - E(\\eta)]\\} \\ = E(\\zeta \\eta) - E(\\zeta) E(\\eta).\">\\text{由协方差的定义} \\operatorname{cov}(\\xi,\\eta) = E\\{[\\xi - E(\\zeta)][\\eta - E(\\eta)]\\} \\ = E(\\zeta \\eta) - E(\\zeta) E(\\eta).</span>"
     },
     {
       "id": "q0009",
       "number": 9,
       "header": "#9-Easy",
       "difficulty": "Easy",
-      "prompt_html": "<img src=\"/static/generated/assets/probability/ch089/q0009_prompt.png\"/>",
+      "prompt_html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{已知随机变量}\\,\\xi_{1},\\xi_{2},\\xi_{3}\\text{的协方差}\\,\\text{cov}(\\xi_{1},\\xi_{3})=2\\,,\\,\\,\\text{cov}(\\xi_{2},\\xi_{3})=1\\,,\\,\\text{则}\\,\\text{cov}(\\xi_{1}+\\xi_{2},3\\xi_{3})=\\,(\\,\\,).\">\\text{已知随机变量}\\,\\xi_{1},\\xi_{2},\\xi_{3}\\text{的协方差}\\,\\text{cov}(\\xi_{1},\\xi_{3})=2\\,,\\,\\,\\text{cov}(\\xi_{2},\\xi_{3})=1\\,,\\,\\text{则}\\,\\text{cov}(\\xi_{1}+\\xi_{2},3\\xi_{3})=\\,(\\,\\,).</span>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/probability/ch089/q0009_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"^ 9\">^ 9</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/probability/ch089/q0009_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"^ 2\">^ 2</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/probability/ch089/q0009_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"^ 3\">^ 3</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/probability/ch089/q0009_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\".6\">.6</span>"
         }
       ],
       "answer": "A",
       "answer_index": 0,
-      "analysis_html": "<img src=\"/static/generated/assets/probability/ch089/q0009_analysis.png\"/>"
+      "analysis_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{aligned}\\text{由题意知，}\\ \\ \\text{cov}(\\xi_1+\\xi_2,3\\xi_3)=3\\text{cov}(\\xi_1,\\xi_3)+3\\text{cov}(\\xi_2,\\xi_3)=9\\ .\\end{aligned}\">\\begin{aligned}\\text{由题意知，}\\ \\ \\text{cov}(\\xi_1+\\xi_2,3\\xi_3)=3\\text{cov}(\\xi_1,\\xi_3)+3\\text{cov}(\\xi_2,\\xi_3)=9\\ .\\end{aligned}</div>"
     },
     {
       "id": "q0010",
       "number": 10,
       "header": "#10-Easy",
       "difficulty": "Easy",
-      "prompt_html": "<img src=\"/static/generated/assets/probability/ch089/q0010_prompt.png\"/>",
+      "prompt_html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{假设随机变量} \\xi , \\eta \\text{的数学期望与方差都存在，若} \\xi , \\eta \\text{相互独立，则下列关系式错误的是( )}.\">\\text{假设随机变量} \\xi , \\eta \\text{的数学期望与方差都存在，若} \\xi , \\eta \\text{相互独立，则下列关系式错误的是( )}.</span>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/probability/ch089/q0010_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\begin{array}{l} { r } { D ( \\xi \\eta ) = D ( \\xi ) D ( \\eta ) } \\end{array}\">\\begin{array}{l} { r } { D ( \\xi \\eta ) = D ( \\xi ) D ( \\eta ) } \\end{array}</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/probability/ch089/q0010_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\begin{array}{l}E(\\xi \\eta ) = E(\\xi ) E(\\eta ) \\end{array}\">\\begin{array}{l}E(\\xi \\eta ) = E(\\xi ) E(\\eta ) \\end{array}</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/probability/ch089/q0010_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\begin{array}{l} { r } { D ( \\xi \\pm \\eta ) = D ( \\xi ) + D ( \\eta ) } \\end{array}\">\\begin{array}{l} { r } { D ( \\xi \\pm \\eta ) = D ( \\xi ) + D ( \\eta ) } \\end{array}</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/probability/ch089/q0010_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\operatorname{cov}(\\xi, \\eta) = 0\">\\operatorname{cov}(\\xi, \\eta) = 0</span>"
         }
       ],
       "answer": "A",
       "answer_index": 0,
-      "analysis_html": "<img src=\"/static/generated/assets/probability/ch089/q0010_analysis.png\"/>"
+      "analysis_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{array}{l}\\text{由相关系数的性质知，若随机变量}\\xi,\\eta\\text{相互独立，则必定有}\\rho(\\xi,\\eta)=0\\,,\\\\ \\text{从而}\\operatorname{cov}(\\xi,\\eta)=0\\,,\\text{即}E(\\xi\\eta)-E(\\xi)E(\\eta)=0\\,,\\text{且}D(\\xi\\pm\\eta)=D(\\xi)+D(\\eta)\\,.\\end{array}\">\\begin{array}{l}\\text{由相关系数的性质知，若随机变量}\\xi,\\eta\\text{相互独立，则必定有}\\rho(\\xi,\\eta)=0\\,,\\\\ \\text{从而}\\operatorname{cov}(\\xi,\\eta)=0\\,,\\text{即}E(\\xi\\eta)-E(\\xi)E(\\eta)=0\\,,\\text{且}D(\\xi\\pm\\eta)=D(\\xi)+D(\\eta)\\,.\\end{array}</div>"
     }
-  ]
+  ],
+  "format": "latex",
+  "source_md": "gl/4.4.1_协方差的概念与性质(10题)/4.4.1_协方差的概念与性质(10题).md"
 }

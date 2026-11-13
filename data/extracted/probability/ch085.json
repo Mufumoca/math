@@ -13,112 +13,114 @@
       "number": 1,
       "header": "#1-Hard",
       "difficulty": "Hard",
-      "prompt_html": "<img src=\"/static/generated/assets/probability/ch085/q0001_prompt.png\"/>",
+      "prompt_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{aligned} \\text{设有}N \\text{个人，每个人将自己的帽子扔到屋子中央，把帽子充分混合后，每个人再随机地从中选取一顶，设选中自己帽子的人数为}X，\\text{则}E(X),D(X)\\text{分别为}().\\end{aligned}\">\\begin{aligned} \\text{设有}N \\text{个人，每个人将自己的帽子扔到屋子中央，把帽子充分混合后，每个人再随机地从中选取一顶，设选中自己帽子的人数为}X，\\text{则}E(X),D(X)\\text{分别为}().\\end{aligned}</div>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/probability/ch085/q0001_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"1, 1\">1, 1</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/probability/ch085/q0001_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\texttt { 0 , 0 }\">\\texttt { 0 , 0 }</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/probability/ch085/q0001_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"_{\\text{ 0 , 1 }}\">_{\\text{ 0 , 1 }}</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/probability/ch085/q0001_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\textit { 1 , 0 }\">\\textit { 1 , 0 }</span>"
         }
       ],
       "answer": "A",
       "answer_index": 0,
-      "analysis_html": "<img src=\"/static/generated/assets/probability/ch085/q0001_analysis.png\"/>"
+      "analysis_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{aligned} \\text{设} \\, \\lambda \\text{表示配对的人数，将} \\, \\lambda \\text{写成} &amp; X=X_1+X_2+\\cdots+X_n, \\text{其中} \\\\ X_i&amp;=\\begin{cases} 1, &amp; \\text{第}i \\text{个人选中自己的帽子} \\\\ 0, &amp; \\text{第}i \\text{个人没选中自己的帽子} \\end{cases}. \\\\ \\text{显然} \\, P\\{X_i=1\\}&amp;=\\frac{1}{N}, \\ P\\{X_i=0\\}=1-\\frac{1}{N}, \\text{所以} \\\\ E(X)&amp;=\\sum_{i=1}^N E(X_i)=\\sum_{i=1}^N P\\{X_i=1\\}=N\\cdot \\frac{1}{N}=1. \\\\ \\text{因此平均来说，仅有一人选中自己的帽子.} \\\\ \\text{又} \\, D(X)&amp;=\\sum_{i=1}^N D(X_i)+2\\sum_{1&lt;i&lt;j&lt;N} \\text{cov}(X_i,Y_j), \\text{其中} \\\\ D(X_i)&amp;=E(X_i^2)-E^2(X_i)=1^2\\times P\\{X_i=1\\}-\\left(\\frac{1}{N}\\right)^2=\\frac{1}{N}-\\frac{1}{N^2}=\\frac{1}{N}\\left(1-\\frac{1}{N}\\right), \\\\ \\text{并由} \\, X_iX_j&amp;=\\begin{cases} 1, &amp; \\text{第}i \\text{个人及第}j \\text{个人都选中自己的帽子} \\\\ 0, &amp; \\text{其它} \\end{cases}, \\text{有} \\\\ E(X_iX_j)&amp;=P\\{X_i=1,X_j=1\\}=P\\{X_i=1\\}P\\{X_j=1|X_i=1\\}=\\frac{1}{N}\\cdot \\frac{1}{N-1}, \\\\ \\text{因此，} \\\\ \\text{cov}(X_i,X_j)&amp;=E(X_iX_j)-E(X_i)E(X_j)=\\frac{1}{N(N-1)}-\\frac{1}{N^2}=\\frac{1}{N^2(N-1)}, \\\\ D(X)&amp;=\\frac{N-1}{N}+2C_N^2\\frac{1}{N^2(N-1)}=\\frac{N-1}{N}+\\frac{1}{N}=1.\\end{aligned}\">\\begin{aligned} \\text{设} \\, \\lambda \\text{表示配对的人数，将} \\, \\lambda \\text{写成} &amp; X=X_1+X_2+\\cdots+X_n, \\text{其中} \\\\ X_i&amp;=\\begin{cases} 1, &amp; \\text{第}i \\text{个人选中自己的帽子} \\\\ 0, &amp; \\text{第}i \\text{个人没选中自己的帽子} \\end{cases}. \\\\ \\text{显然} \\, P\\{X_i=1\\}&amp;=\\frac{1}{N}, \\ P\\{X_i=0\\}=1-\\frac{1}{N}, \\text{所以} \\\\ E(X)&amp;=\\sum_{i=1}^N E(X_i)=\\sum_{i=1}^N P\\{X_i=1\\}=N\\cdot \\frac{1}{N}=1. \\\\ \\text{因此平均来说，仅有一人选中自己的帽子.} \\\\ \\text{又} \\, D(X)&amp;=\\sum_{i=1}^N D(X_i)+2\\sum_{1&lt;i&lt;j&lt;N} \\text{cov}(X_i,Y_j), \\text{其中} \\\\ D(X_i)&amp;=E(X_i^2)-E^2(X_i)=1^2\\times P\\{X_i=1\\}-\\left(\\frac{1}{N}\\right)^2=\\frac{1}{N}-\\frac{1}{N^2}=\\frac{1}{N}\\left(1-\\frac{1}{N}\\right), \\\\ \\text{并由} \\, X_iX_j&amp;=\\begin{cases} 1, &amp; \\text{第}i \\text{个人及第}j \\text{个人都选中自己的帽子} \\\\ 0, &amp; \\text{其它} \\end{cases}, \\text{有} \\\\ E(X_iX_j)&amp;=P\\{X_i=1,X_j=1\\}=P\\{X_i=1\\}P\\{X_j=1|X_i=1\\}=\\frac{1}{N}\\cdot \\frac{1}{N-1}, \\\\ \\text{因此，} \\\\ \\text{cov}(X_i,X_j)&amp;=E(X_iX_j)-E(X_i)E(X_j)=\\frac{1}{N(N-1)}-\\frac{1}{N^2}=\\frac{1}{N^2(N-1)}, \\\\ D(X)&amp;=\\frac{N-1}{N}+2C_N^2\\frac{1}{N^2(N-1)}=\\frac{N-1}{N}+\\frac{1}{N}=1.\\end{aligned}</div>"
     },
     {
       "id": "q0002",
       "number": 2,
       "header": "#2-Averge",
       "difficulty": "Averge",
-      "prompt_html": "<img src=\"/static/generated/assets/probability/ch085/q0002_prompt.png\"/>",
+      "prompt_html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{一台设备由三大部件构成，在设备运转中部件需调整概率为} 0.1, 0.2, 0.3, \\text{假设各部件的状态相互独立，以} X \\text{表示同时需要调整的部件数，则} X \\text{的期望与方差分别为} ( ).\">\\text{一台设备由三大部件构成，在设备运转中部件需调整概率为} 0.1, 0.2, 0.3, \\text{假设各部件的状态相互独立，以} X \\text{表示同时需要调整的部件数，则} X \\text{的期望与方差分别为} ( ).</span>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/probability/ch085/q0002_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"0.6 , \\ 0.46\">0.6 , \\ 0.46</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/probability/ch085/q0002_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\texttt { 0 . 6 , 0 . 82 }\">\\texttt { 0 . 6 , 0 . 82 }</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/probability/ch085/q0002_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"0.4, \\ 0.46\">0.4, \\ 0.46</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/probability/ch085/q0002_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\texttt { 0 . 4 , 0 . 82 }\">\\texttt { 0 . 4 , 0 . 82 }</span>"
         }
       ],
       "answer": "A",
       "answer_index": 0,
-      "analysis_html": "<img src=\"/static/generated/assets/probability/ch085/q0002_analysis.png\"/>"
+      "analysis_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{aligned} \\text{设 } X \\text{ 是同时需要调整的部件数，可能值为 } 0,1,2,3, \\\\ \\text{记 } p_i = P\\{X=i\\}, \\ i=0,1,2,3, \\quad \\text{有 } p_0 = 0.9 \\times 0.8 \\times 0.7 = 0.504, \\\\ p_1 = 0.1 \\times 0.8 \\times 0.7 + 0.9 \\times 0.2 \\times 0.7 + 0.9 \\times 0.8 \\times 0.3 = 0.398, \\\\ p_2 = 0.1 \\times 0.2 \\times 0.7 + 0.1 \\times 0.8 \\times 0.3 + 0.9 \\times 0.2 \\times 0.3 = 0.092, \\\\ p_3 = 0.1 \\times 0.2 \\times 0.3 = 0.006, \\end{aligned} \\quad  \\text{故 } X \\text{ 的分布列为} \\begin{array}{|c|c|c|c|c|} \\hline X &amp; 0 &amp; 1 &amp; 2 &amp; 3 \\\\ \\hline p_i &amp; 0.504 &amp; 0.398 &amp; 0.092 &amp; 0.006 \\\\ \\hline \\end{array} \\begin{aligned} E(X) &amp;= 0 \\times 0.504 + 1 \\times 0.398 + 2 \\times 0.092 + 3 \\times 0.006 = 0.6, \\\\ E(X^2) &amp;= 0^2 \\times 0.504 + 1^2 \\times 0.398 + 2^2 \\times 0.092 + 3^2 \\times 0.006 = 0.82, \\\\ D(X) &amp;= 0.82 - 0.6^2 = 0.46. \\end{aligned}\">\\begin{aligned} \\text{设 } X \\text{ 是同时需要调整的部件数，可能值为 } 0,1,2,3, \\\\ \\text{记 } p_i = P\\{X=i\\}, \\ i=0,1,2,3, \\quad \\text{有 } p_0 = 0.9 \\times 0.8 \\times 0.7 = 0.504, \\\\ p_1 = 0.1 \\times 0.8 \\times 0.7 + 0.9 \\times 0.2 \\times 0.7 + 0.9 \\times 0.8 \\times 0.3 = 0.398, \\\\ p_2 = 0.1 \\times 0.2 \\times 0.7 + 0.1 \\times 0.8 \\times 0.3 + 0.9 \\times 0.2 \\times 0.3 = 0.092, \\\\ p_3 = 0.1 \\times 0.2 \\times 0.3 = 0.006, \\end{aligned} \\quad  \\text{故 } X \\text{ 的分布列为} \\begin{array}{|c|c|c|c|c|} \\hline X &amp; 0 &amp; 1 &amp; 2 &amp; 3 \\\\ \\hline p_i &amp; 0.504 &amp; 0.398 &amp; 0.092 &amp; 0.006 \\\\ \\hline \\end{array} \\begin{aligned} E(X) &amp;= 0 \\times 0.504 + 1 \\times 0.398 + 2 \\times 0.092 + 3 \\times 0.006 = 0.6, \\\\ E(X^2) &amp;= 0^2 \\times 0.504 + 1^2 \\times 0.398 + 2^2 \\times 0.092 + 3^2 \\times 0.006 = 0.82, \\\\ D(X) &amp;= 0.82 - 0.6^2 = 0.46. \\end{aligned}</div>"
     },
     {
       "id": "q0003",
       "number": 3,
       "header": "#3-Averge",
       "difficulty": "Averge",
-      "prompt_html": "<img src=\"/static/generated/assets/probability/ch085/q0003_prompt.png\"/>",
+      "prompt_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{aligned} \\text{设离散随机变量}X\\text{的分布律为} \\quad &amp; \\begin{array}{|c|c|c|c|} \\hline X &amp; -2 &amp; 0 &amp; 2 \\\\ \\hline p &amp; 0.4 &amp; 0.3 &amp; 0.3 \\\\ \\hline \\end{array}, \\\\ \\text{则}E(X),D(X)\\text{分别为}().\\end{aligned}\">\\begin{aligned} \\text{设离散随机变量}X\\text{的分布律为} \\quad &amp; \\begin{array}{|c|c|c|c|} \\hline X &amp; -2 &amp; 0 &amp; 2 \\\\ \\hline p &amp; 0.4 &amp; 0.3 &amp; 0.3 \\\\ \\hline \\end{array}, \\\\ \\text{则}E(X),D(X)\\text{分别为}().\\end{aligned}</div>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/probability/ch085/q0003_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"- 0.2 , \\ 2.76\">- 0.2 , \\ 2.76</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/probability/ch085/q0003_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"0.3 \\, , \\ 2.8 \\,\">0.3 \\, , \\ 2.8 \\,</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/probability/ch085/q0003_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"0.4 \\, , \\ 2.76\">0.4 \\, , \\ 2.76</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/probability/ch085/q0003_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"- 0.4 \\, , \\ 2.8 \\, .\">- 0.4 \\, , \\ 2.8 \\, .</span>"
         }
       ],
       "answer": "A",
       "answer_index": 0,
-      "analysis_html": "<img src=\"/static/generated/assets/probability/ch085/q0003_analysis.png\"/>"
+      "analysis_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{aligned} &amp;E(X)=(-2)\\times 0.4+0\\times 0.3+2\\times 0.3=-0.2\\;.\\quad\\\\ &amp;E(X^2)=(-2)^2\\times 0.4+0^2\\times 0.3+2^2\\times 0.3=2.8\\;.\\quad\\\\ &amp;\\text{故}D(X)=E(X^2)-(E(X))^2=2.76\\;.\\end{aligned}\">\\begin{aligned} &amp;E(X)=(-2)\\times 0.4+0\\times 0.3+2\\times 0.3=-0.2\\;.\\quad\\\\ &amp;E(X^2)=(-2)^2\\times 0.4+0^2\\times 0.3+2^2\\times 0.3=2.8\\;.\\quad\\\\ &amp;\\text{故}D(X)=E(X^2)-(E(X))^2=2.76\\;.\\end{aligned}</div>"
     },
     {
       "id": "q0004",
       "number": 4,
       "header": "#4-Averge",
       "difficulty": "Averge",
-      "prompt_html": "<img src=\"/static/generated/assets/probability/ch085/q0004_prompt.png\"/>",
+      "prompt_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{aligned} \\text{一袋中有5只乒乓球，编号为1,2,3,4,5．在其中同时任取3只，记}X \\text{为取出的3只球的最大编号，则}E(X)\\text{，}D(X)\\text{分别为}().\\end{aligned}\">\\begin{aligned} \\text{一袋中有5只乒乓球，编号为1,2,3,4,5．在其中同时任取3只，记}X \\text{为取出的3只球的最大编号，则}E(X)\\text{，}D(X)\\text{分别为}().\\end{aligned}</div>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/probability/ch085/q0004_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\frac { 9 } { 2 } \\, , \\ \\frac { 9 } { 20 }\">\\frac { 9 } { 2 } \\, , \\ \\frac { 9 } { 20 }</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/probability/ch085/q0004_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\frac { 9 } { 2 } \\, , \\; \\; \\frac { 9 } { 10 }\">\\frac { 9 } { 2 } \\, , \\; \\; \\frac { 9 } { 10 }</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/probability/ch085/q0004_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\frac { 9 } { 4 } , \\ \\frac { 9 } { 10 }\">\\frac { 9 } { 4 } , \\ \\frac { 9 } { 10 }</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/probability/ch085/q0004_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\frac { 9 } { 4 } \\, , \\ \\frac { 9 } { 20 }\">\\frac { 9 } { 4 } \\, , \\ \\frac { 9 } { 20 }</span>"
         }
       ],
       "answer": "A",
       "answer_index": 0,
-      "analysis_html": "<img src=\"/static/generated/assets/probability/ch085/q0004_analysis.png\"/>"
+      "analysis_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{aligned}&amp; \\text{先求出} \\lambda \\text{的分布律(用古典概率)}\\\\&amp; P\\{X=3\\}=\\frac{C_2^2}{C_5^3}=\\frac{1}{10},\\ P\\{X=4\\}=\\frac{C_3^2}{C_5^3}=\\frac{3}{10},\\ P\\{X=5\\}=\\frac{C_4^2}{C_5^3}=\\frac{6}{10}\\,.\\end{aligned}\">\\begin{aligned}&amp; \\text{先求出} \\lambda \\text{的分布律(用古典概率)}\\\\&amp; P\\{X=3\\}=\\frac{C_2^2}{C_5^3}=\\frac{1}{10},\\ P\\{X=4\\}=\\frac{C_3^2}{C_5^3}=\\frac{3}{10},\\ P\\{X=5\\}=\\frac{C_4^2}{C_5^3}=\\frac{6}{10}\\,.\\end{aligned}</div>"
     }
-  ]
+  ],
+  "format": "latex",
+  "source_md": "gl/4.3.2.1_离散型随机变量的期望与方差(4题)/4.3.2.1_离散型随机变量的期望与方差(4题).md"
 }

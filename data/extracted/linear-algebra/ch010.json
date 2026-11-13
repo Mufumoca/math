@@ -13,1596 +13,1598 @@
       "number": 1,
       "header": "#1-Averge",
       "difficulty": "Averge",
-      "prompt_html": "<img src=\"/static/generated/assets/linear-algebra/ch010/q0001_prompt.png\"/>",
+      "prompt_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{array}{l} A \\text {为三阶实对称矩阵，且满足} A^{3}-6A^{2}+12A=8E, \\text {二次型} x^{T}Ax \\text {经正交变换可化为标准形，则此标准形的表达式为( ).} \\end{array}\">\\begin{array}{l} A \\text {为三阶实对称矩阵，且满足} A^{3}-6A^{2}+12A=8E, \\text {二次型} x^{T}Ax \\text {经正交变换可化为标准形，则此标准形的表达式为( ).} \\end{array}</div>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/linear-algebra/ch010/q0001_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\begin{aligned}2y_{1}^{2}+2y_{2}^{2}\\end{aligned}\">\\begin{aligned}2y_{1}^{2}+2y_{2}^{2}\\end{aligned}</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/linear-algebra/ch010/q0001_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\begin{array}{l} { r } { y _ { 1 } ^ { 2 } + y _ { 2 } ^ { 2 } + y _ { 3 } ^ { 2 } } \\end{array}\">\\begin{array}{l} { r } { y _ { 1 } ^ { 2 } + y _ { 2 } ^ { 2 } + y _ { 3 } ^ { 2 } } \\end{array}</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/linear-algebra/ch010/q0001_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\, 2 y _ { 1 } ^ { 2 } + y _ { 2 } ^ { 2 } + y _ { 3 } ^ { 2 } \\,\">\\, 2 y _ { 1 } ^ { 2 } + y _ { 2 } ^ { 2 } + y _ { 3 } ^ { 2 } \\,</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/linear-algebra/ch010/q0001_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"2y_{1}^{2}+2y_{2}^{2}+2y_{3}^{2}\">2y_{1}^{2}+2y_{2}^{2}+2y_{3}^{2}</span>"
         }
       ],
       "answer": "D",
       "answer_index": 3,
-      "analysis_html": "<img src=\"/static/generated/assets/linear-algebra/ch010/q0001_analysis.png\"/>"
+      "analysis_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{aligned}&amp;\\text{由}A\\text{为三阶实对称矩阵，经正交变换}x=Qy\\text{化为标准形}\\\\&amp;Q^T A Q=\\begin{pmatrix}\\lambda_1\\\\&amp;\\lambda_2\\\\&amp;\\lambda_3\\end{pmatrix},\\\\&amp;\\text{其中}Q\\text{为正交矩阵}\\\\&amp;A^k=Q\\begin{pmatrix}\\lambda_1\\\\&amp;\\lambda_2\\\\&amp;\\lambda_3\\end{pmatrix}^k Q^T=Q\\begin{pmatrix}\\lambda_4^k\\\\&amp;\\lambda_2^k\\\\&amp;\\lambda_3^k\\end{pmatrix}Q^T.\\end{aligned}\">\\begin{aligned}&amp;\\text{由}A\\text{为三阶实对称矩阵，经正交变换}x=Qy\\text{化为标准形}\\\\&amp;Q^T A Q=\\begin{pmatrix}\\lambda_1\\\\&amp;\\lambda_2\\\\&amp;\\lambda_3\\end{pmatrix},\\\\&amp;\\text{其中}Q\\text{为正交矩阵}\\\\&amp;A^k=Q\\begin{pmatrix}\\lambda_1\\\\&amp;\\lambda_2\\\\&amp;\\lambda_3\\end{pmatrix}^k Q^T=Q\\begin{pmatrix}\\lambda_4^k\\\\&amp;\\lambda_2^k\\\\&amp;\\lambda_3^k\\end{pmatrix}Q^T.\\end{aligned}</div>"
     },
     {
       "id": "q0002",
       "number": 2,
       "header": "#2-Averge",
       "difficulty": "Averge",
-      "prompt_html": "<img src=\"/static/generated/assets/linear-algebra/ch010/q0002_prompt.png\"/>",
+      "prompt_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{array}{l} \\text{二次型}f(x_{1},x_{2},x_{3})\\text{所对应的矩阵}A\\text{的特征值为}1,-1,2. \\text{且} \\xi_{1},\\xi_{2},\\xi_{3}\\text{分别为它们所对应的} \\\\ \\text{特征向量}，\\text{若取}P=(\\xi_{1},\\xi_{3},\\xi_{2})，\\text{则}P^{-1}AP\\text{是}(). \\end{array}\">\\begin{array}{l} \\text{二次型}f(x_{1},x_{2},x_{3})\\text{所对应的矩阵}A\\text{的特征值为}1,-1,2. \\text{且} \\xi_{1},\\xi_{2},\\xi_{3}\\text{分别为它们所对应的} \\\\ \\text{特征向量}，\\text{若取}P=(\\xi_{1},\\xi_{3},\\xi_{2})，\\text{则}P^{-1}AP\\text{是}(). \\end{array}</div>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/linear-algebra/ch010/q0002_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\begin{aligned}\\begin{pmatrix}1 &amp; 0 &amp; 0 \\\\0 &amp; -1 &amp; 0 \\\\0 &amp; 0 &amp; 2\\end{pmatrix}\\end{aligned}\">\\begin{aligned}\\begin{pmatrix}1 &amp; 0 &amp; 0 \\\\0 &amp; -1 &amp; 0 \\\\0 &amp; 0 &amp; 2\\end{pmatrix}\\end{aligned}</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/linear-algebra/ch010/q0002_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\begin{aligned}\\begin{pmatrix} -1 &amp; 0 &amp; 0 \\\\ 0 &amp; 2 &amp; 0 \\\\ 0 &amp; 0 &amp; 1 \\end{pmatrix}\\end{aligned}\">\\begin{aligned}\\begin{pmatrix} -1 &amp; 0 &amp; 0 \\\\ 0 &amp; 2 &amp; 0 \\\\ 0 &amp; 0 &amp; 1 \\end{pmatrix}\\end{aligned}</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/linear-algebra/ch010/q0002_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\begin{aligned}\\begin{pmatrix}1 &amp; 0 &amp; 0 \\\\0 &amp; 2 &amp; 0 \\\\0 &amp; 0 &amp; -1\\end{pmatrix}\\end{aligned}\">\\begin{aligned}\\begin{pmatrix}1 &amp; 0 &amp; 0 \\\\0 &amp; 2 &amp; 0 \\\\0 &amp; 0 &amp; -1\\end{pmatrix}\\end{aligned}</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/linear-algebra/ch010/q0002_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\begin{aligned}\\begin{pmatrix}2 &amp; 0 &amp; 0 \\\\0 &amp; 1 &amp; 0 \\\\0 &amp; 0 &amp; -1\\end{pmatrix}\\end{aligned}\">\\begin{aligned}\\begin{pmatrix}2 &amp; 0 &amp; 0 \\\\0 &amp; 1 &amp; 0 \\\\0 &amp; 0 &amp; -1\\end{pmatrix}\\end{aligned}</span>"
         }
       ],
       "answer": "C",
       "answer_index": 2,
-      "analysis_html": "<img src=\"/static/generated/assets/linear-algebra/ch010/q0002_analysis.png\"/>"
+      "analysis_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\text{由于 } P = \\left( \\xi_{1}, \\xi_{3}, \\xi_{2} \\right) , \\text{ 所以 } P^{-1} A P = \\begin{pmatrix} 1 &amp; 0 &amp; 0 \\\\ 0 &amp; 2 &amp; 0 \\\\ 0 &amp; 0 &amp; -1 \\end{pmatrix} .\">\\text{由于 } P = \\left( \\xi_{1}, \\xi_{3}, \\xi_{2} \\right) , \\text{ 所以 } P^{-1} A P = \\begin{pmatrix} 1 &amp; 0 &amp; 0 \\\\ 0 &amp; 2 &amp; 0 \\\\ 0 &amp; 0 &amp; -1 \\end{pmatrix} .</div>"
     },
     {
       "id": "q0003",
       "number": 3,
       "header": "#3-Averge",
       "difficulty": "Averge",
-      "prompt_html": "<img src=\"/static/generated/assets/linear-algebra/ch010/q0003_prompt.png\"/>",
+      "prompt_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{bmatrix} 1 &amp; 0 &amp; 0 \\\\ 0 &amp; 1 &amp; 0 \\\\ 0 &amp; 0 &amp; 4 \\end{bmatrix}, \\text{则} A \\text{与} B \\quad \\text{（）}.\">\\begin{bmatrix} 1 &amp; 0 &amp; 0 \\\\ 0 &amp; 1 &amp; 0 \\\\ 0 &amp; 0 &amp; 4 \\end{bmatrix}, \\text{则} A \\text{与} B \\quad \\text{（）}.</div>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/linear-algebra/ch010/q0003_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{不相似也不合同}\">\\text{不相似也不合同}</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/linear-algebra/ch010/q0003_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{相似但不合同}\">\\text{相似但不合同}</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/linear-algebra/ch010/q0003_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{不相似但合同}\">\\text{不相似但合同}</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/linear-algebra/ch010/q0003_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{相似且合同}\">\\text{相似且合同}</span>"
         }
       ],
       "answer": "D",
       "answer_index": 3,
-      "analysis_html": "<img src=\"/static/generated/assets/linear-algebra/ch010/q0003_analysis.png\"/>"
+      "analysis_html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{由于 } A \\text{ 是实对称矩阵，所以存在正交矩阵 } P \\text{ 使得 } P ^ { - 1 } A P = P ^ { T } A P = B , \\text{所以 } A \\text{ 与 } B \\text{ 相似且合同.}\">\\text{由于 } A \\text{ 是实对称矩阵，所以存在正交矩阵 } P \\text{ 使得 } P ^ { - 1 } A P = P ^ { T } A P = B , \\text{所以 } A \\text{ 与 } B \\text{ 相似且合同.}</span>"
     },
     {
       "id": "q0004",
       "number": 4,
       "header": "#4-Averge",
       "difficulty": "Averge",
-      "prompt_html": "<img src=\"/static/generated/assets/linear-algebra/ch010/q0004_prompt.png\"/>",
+      "prompt_html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{二次型}f(x_{1},x_{2},x_{3})=x_{1}^{2}+2x_{2}^{2}+3x_{3}^{2}-2x_{1}x_{2}+2x_{2}x_{3} \\text{的标准形是}(\\quad).\">\\text{二次型}f(x_{1},x_{2},x_{3})=x_{1}^{2}+2x_{2}^{2}+3x_{3}^{2}-2x_{1}x_{2}+2x_{2}x_{3} \\text{的标准形是}(\\quad).</span>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/linear-algebra/ch010/q0004_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"3 y _ { 1 } ^ { 2 }\">3 y _ { 1 } ^ { 2 }</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/linear-algebra/ch010/q0004_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"- y _ { 1 } ^ { 2 } - 3 y _ { 2 } ^ { 2 }\">- y _ { 1 } ^ { 2 } - 3 y _ { 2 } ^ { 2 }</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/linear-algebra/ch010/q0004_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"2 y _ { 1 } ^ { 2 }\">2 y _ { 1 } ^ { 2 }</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/linear-algebra/ch010/q0004_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"y_{1}^{2}+y_{2}^{2}+2y_{3}^{2}\">y_{1}^{2}+y_{2}^{2}+2y_{3}^{2}</span>"
         }
       ],
       "answer": "D",
       "answer_index": 3,
-      "analysis_html": "<img src=\"/static/generated/assets/linear-algebra/ch010/q0004_analysis.png\"/>"
+      "analysis_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{aligned}f\\bigl(x_1,x_2,x_3\\bigr) &amp; = x_1^2 + 2x_2^2 + 3x_3^2 - 2x_1x_2 + 2x_2x_3 \\\\&amp; = \\bigl(x_1-x_2\\bigr)^2 + \\bigl(x_2+x_3\\bigr)^2 + 2x_3^2 = y_1^2 + y_2^2 + 2y_3^2.\\end{aligned}\">\\begin{aligned}f\\bigl(x_1,x_2,x_3\\bigr) &amp; = x_1^2 + 2x_2^2 + 3x_3^2 - 2x_1x_2 + 2x_2x_3 \\\\&amp; = \\bigl(x_1-x_2\\bigr)^2 + \\bigl(x_2+x_3\\bigr)^2 + 2x_3^2 = y_1^2 + y_2^2 + 2y_3^2.\\end{aligned}</div>"
     },
     {
       "id": "q0005",
       "number": 5,
       "header": "#5-Averge",
       "difficulty": "Averge",
-      "prompt_html": "<img src=\"/static/generated/assets/linear-algebra/ch010/q0005_prompt.png\"/>",
+      "prompt_html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{二次型}f(x_{1},x_{2})=2x_{1}x_{2}\\text{在条件}x_{1}^{2}+x_{2}^{2}=1 \\text{下的最大值等于( }.\">\\text{二次型}f(x_{1},x_{2})=2x_{1}x_{2}\\text{在条件}x_{1}^{2}+x_{2}^{2}=1 \\text{下的最大值等于( }.</span>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/linear-algebra/ch010/q0005_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\mathbf { 1 }\">\\mathbf { 1 }</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/linear-algebra/ch010/q0005_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"2\">2</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/linear-algebra/ch010/q0005_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\frac {\\sqrt {2}}{2}\">\\frac {\\sqrt {2}}{2}</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/linear-algebra/ch010/q0005_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\frac { 1 } { 2 }\">\\frac { 1 } { 2 }</span>"
         }
       ],
       "answer": "A",
       "answer_index": 0,
-      "analysis_html": "<img src=\"/static/generated/assets/linear-algebra/ch010/q0005_analysis.png\"/>"
+      "analysis_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{aligned}&amp; \\text{二次型}f\\text{的矩阵为}A=\\begin{pmatrix}0&amp;1\\\\1&amp;0\\end{pmatrix},\\text{易求得矩阵}A\\text{的特征值为}\\lambda_{1}=1,\\ \\lambda_{2}=-1,\\ \\text{故}f\\text{可通过正交变换可化为标准形}f=y_{1}^{2}-y_{2}^{2}.\\\\&amp; \\text{由于正交变换不改变向量的长度，即}\\|x\\|=\\|y\\|=1,\\ \\text{当}x_{1}^{2}+x_{2}^{2}=1,\\text{时},\\ y_{1}^{2}+y_{2}^{2}=1,\\ \\text{取} \\\\&amp; y_{1}=1,y_{2}=0,\\ \\text{则可得到}f\\text{的最大值为}1。\\end{aligned}\">\\begin{aligned}&amp; \\text{二次型}f\\text{的矩阵为}A=\\begin{pmatrix}0&amp;1\\\\1&amp;0\\end{pmatrix},\\text{易求得矩阵}A\\text{的特征值为}\\lambda_{1}=1,\\ \\lambda_{2}=-1,\\ \\text{故}f\\text{可通过正交变换可化为标准形}f=y_{1}^{2}-y_{2}^{2}.\\\\&amp; \\text{由于正交变换不改变向量的长度，即}\\|x\\|=\\|y\\|=1,\\ \\text{当}x_{1}^{2}+x_{2}^{2}=1,\\text{时},\\ y_{1}^{2}+y_{2}^{2}=1,\\ \\text{取} \\\\&amp; y_{1}=1,y_{2}=0,\\ \\text{则可得到}f\\text{的最大值为}1。\\end{aligned}</div>"
     },
     {
       "id": "q0006",
       "number": 6,
       "header": "#6-Averge",
       "difficulty": "Averge",
-      "prompt_html": "<img src=\"/static/generated/assets/linear-algebra/ch010/q0006_prompt.png\"/>",
+      "prompt_html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{二次型}f\\left(x_{1},x_{2},x_{3}\\right)=2x_{1}x_{2}+2x_{1}x_{3}+2x_{2}x_{3} \\text{的标准形是( }.\">\\text{二次型}f\\left(x_{1},x_{2},x_{3}\\right)=2x_{1}x_{2}+2x_{1}x_{3}+2x_{2}x_{3} \\text{的标准形是( }.</span>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/linear-algebra/ch010/q0006_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"- y _ { 1 } ^ { 2 } + y _ { 2 } ^ { 2 } + 2 y _ { 3 } ^ { 2 }\">- y _ { 1 } ^ { 2 } + y _ { 2 } ^ { 2 } + 2 y _ { 3 } ^ { 2 }</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/linear-algebra/ch010/q0006_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"y_{1}^{2}-y_{2}^{2}+2y_{3}^{2}\">y_{1}^{2}-y_{2}^{2}+2y_{3}^{2}</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/linear-algebra/ch010/q0006_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"- y _ { 1 } ^ { 2 } - y _ { 2 } ^ { 2 } + 2 y _ { 3 } ^ { 2 }\">- y _ { 1 } ^ { 2 } - y _ { 2 } ^ { 2 } + 2 y _ { 3 } ^ { 2 }</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/linear-algebra/ch010/q0006_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\begin{array}{l} {l} y _ { 1 } ^ { 2 } + y _ { 2 } ^ { 2 } - 2 y _ { 3 } ^ { 2 } \\end{array}\">\\begin{array}{l} {l} y _ { 1 } ^ { 2 } + y _ { 2 } ^ { 2 } - 2 y _ { 3 } ^ { 2 } \\end{array}</span>"
         }
       ],
       "answer": "C",
       "answer_index": 2,
-      "analysis_html": "<img src=\"/static/generated/assets/linear-algebra/ch010/q0006_analysis.png\"/>"
+      "analysis_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{aligned} \\text{二次型的矩阵为} \\boldsymbol{A} = \\begin{pmatrix} 0 &amp; 1 &amp; 1 \\\\ 1 &amp; 0 &amp; 1 \\\\ 1 &amp; 1 &amp; 0 \\end{pmatrix}, \\text{其特征值为} -1,-1,2 \\, . \\, \\text{故标准形为} -y_1^2 -y_2^2 + 2y_3^2.\\end{aligned}\">\\begin{aligned} \\text{二次型的矩阵为} \\boldsymbol{A} = \\begin{pmatrix} 0 &amp; 1 &amp; 1 \\\\ 1 &amp; 0 &amp; 1 \\\\ 1 &amp; 1 &amp; 0 \\end{pmatrix}, \\text{其特征值为} -1,-1,2 \\, . \\, \\text{故标准形为} -y_1^2 -y_2^2 + 2y_3^2.\\end{aligned}</div>"
     },
     {
       "id": "q0007",
       "number": 7,
       "header": "#7-Averge",
       "difficulty": "Averge",
-      "prompt_html": "<img src=\"/static/generated/assets/linear-algebra/ch010/q0007_prompt.png\"/>",
+      "prompt_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\text{设}A=\\begin{pmatrix}1&amp;0&amp;1\\\\ 0&amp;1&amp;0\\\\ 1&amp;0&amp;1\\end{pmatrix},B=\\begin{pmatrix}0&amp;0&amp;0\\\\ 0&amp;1&amp;0\\\\ 1&amp;0&amp;2\\end{pmatrix},\\text{则}A\\text{与}B(\\begin{array}{c} \\\\ \\\\ \\end{array}.\">\\text{设}A=\\begin{pmatrix}1&amp;0&amp;1\\\\ 0&amp;1&amp;0\\\\ 1&amp;0&amp;1\\end{pmatrix},B=\\begin{pmatrix}0&amp;0&amp;0\\\\ 0&amp;1&amp;0\\\\ 1&amp;0&amp;2\\end{pmatrix},\\text{则}A\\text{与}B(\\begin{array}{c} \\\\ \\\\ \\end{array}.</div>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/linear-algebra/ch010/q0007_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{不合同也不相似}\">\\text{不合同也不相似}</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/linear-algebra/ch010/q0007_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{合同但不相似}\">\\text{合同但不相似}</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/linear-algebra/ch010/q0007_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{合同且相似}\">\\text{合同且相似}</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/linear-algebra/ch010/q0007_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{相似但不合同}\">\\text{相似但不合同}</span>"
         }
       ],
       "answer": "D",
       "answer_index": 3,
-      "analysis_html": "<img src=\"/static/generated/assets/linear-algebra/ch010/q0007_analysis.png\"/>"
+      "analysis_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{aligned} \\text{由于}A\\text{对称，而}B\\text{不对称，因此}A\\text{与}B\\text{不合同.但由于}\\\\ \\begin{pmatrix} 1 &amp; 0 &amp; 1 \\\\ 0 &amp; 1 &amp; 0 \\\\ 0 &amp; 0 &amp; 1 \\end{pmatrix}^{-1} \\begin{pmatrix} 1 &amp; 0 &amp; 1 \\\\ 0 &amp; 1 &amp; 0 \\\\ 1 &amp; 0 &amp; 1 \\end{pmatrix} \\begin{pmatrix} 1 &amp; 0 &amp; 1 \\\\ 0 &amp; 1 &amp; 0 \\\\ 0 &amp; 0 &amp; 1 \\end{pmatrix} = \\begin{pmatrix} 0 &amp; 0 &amp; 0 \\\\ 0 &amp; 1 &amp; 0 \\\\ 1 &amp; 0 &amp; 2 \\end{pmatrix}, \\\\\\text{所以}A\\text{与}B\\text{相似.}\\end{aligned}\">\\begin{aligned} \\text{由于}A\\text{对称，而}B\\text{不对称，因此}A\\text{与}B\\text{不合同.但由于}\\\\ \\begin{pmatrix} 1 &amp; 0 &amp; 1 \\\\ 0 &amp; 1 &amp; 0 \\\\ 0 &amp; 0 &amp; 1 \\end{pmatrix}^{-1} \\begin{pmatrix} 1 &amp; 0 &amp; 1 \\\\ 0 &amp; 1 &amp; 0 \\\\ 1 &amp; 0 &amp; 1 \\end{pmatrix} \\begin{pmatrix} 1 &amp; 0 &amp; 1 \\\\ 0 &amp; 1 &amp; 0 \\\\ 0 &amp; 0 &amp; 1 \\end{pmatrix} = \\begin{pmatrix} 0 &amp; 0 &amp; 0 \\\\ 0 &amp; 1 &amp; 0 \\\\ 1 &amp; 0 &amp; 2 \\end{pmatrix}, \\\\\\text{所以}A\\text{与}B\\text{相似.}\\end{aligned}</div>"
     },
     {
       "id": "q0008",
       "number": 8,
       "header": "#8-Averge",
       "difficulty": "Averge",
-      "prompt_html": "<img src=\"/static/generated/assets/linear-algebra/ch010/q0008_prompt.png\"/>",
+      "prompt_html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{二次型}f(x_{1},x_{2})=2x_{1}^{2}+2x_{2}^{2}+3x_{1}x_{2}\\text{在条件}x_{1}^{2}+x_{2}^{2}=1\\text{下的最大值等于( }.\">\\text{二次型}f(x_{1},x_{2})=2x_{1}^{2}+2x_{2}^{2}+3x_{1}x_{2}\\text{在条件}x_{1}^{2}+x_{2}^{2}=1\\text{下的最大值等于( }.</span>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/linear-algebra/ch010/q0008_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\frac { 1 } { 2 }\">\\frac { 1 } { 2 }</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/linear-algebra/ch010/q0008_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\textcolor{blue}{2}\">\\textcolor{blue}{2}</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/linear-algebra/ch010/q0008_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"5\">5</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/linear-algebra/ch010/q0008_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\frac{7}{2}\">\\frac{7}{2}</span>"
         }
       ],
       "answer": "D",
       "answer_index": 3,
-      "analysis_html": "<img src=\"/static/generated/assets/linear-algebra/ch010/q0008_analysis.png\"/>"
+      "analysis_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{aligned} \\text{二次型的矩阵为} A&amp;=\\begin{pmatrix} 2&amp;3/2\\\\ 3/2&amp;2 \\end{pmatrix}, \\text{易求得矩阵} A \\text{的特征值为} \\lambda_1=\\frac{7}{2}, \\lambda_2=\\frac{1}{2}, \\text{故二次型} \\\\ f&amp;=\\frac{7}{2}y_1^2+\\frac{1}{2}y_2^2。 \\text{由于正交变换不改变向量的长度，即} \\|x\\|= \\|y\\|=1, \\text{当} x_1^2+x_2^2=1 \\text{时，} \\\\ y_1^2+y_2^2&amp;=1, \\text{取} y_1=1, y_2=0, \\text{则可得到} f \\text{的最大值为} \\frac{7}{2}。 \\end{aligned}\">\\begin{aligned} \\text{二次型的矩阵为} A&amp;=\\begin{pmatrix} 2&amp;3/2\\\\ 3/2&amp;2 \\end{pmatrix}, \\text{易求得矩阵} A \\text{的特征值为} \\lambda_1=\\frac{7}{2}, \\lambda_2=\\frac{1}{2}, \\text{故二次型} \\\\ f&amp;=\\frac{7}{2}y_1^2+\\frac{1}{2}y_2^2。 \\text{由于正交变换不改变向量的长度，即} \\|x\\|= \\|y\\|=1, \\text{当} x_1^2+x_2^2=1 \\text{时，} \\\\ y_1^2+y_2^2&amp;=1, \\text{取} y_1=1, y_2=0, \\text{则可得到} f \\text{的最大值为} \\frac{7}{2}。 \\end{aligned}</div>"
     },
     {
       "id": "q0009",
       "number": 9,
       "header": "#9-Averge",
       "difficulty": "Averge",
-      "prompt_html": "<img src=\"/static/generated/assets/linear-algebra/ch010/q0009_prompt.png\"/>",
+      "prompt_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\text{设}A=\\begin{pmatrix}1&amp;0&amp;0\\\\ 0&amp;2&amp;0\\\\ 0&amp;0&amp;2\\end{pmatrix},B=\\begin{pmatrix}1&amp;0&amp;0\\\\ 0&amp;4&amp;2\\\\ 0&amp;2&amp;2\\end{pmatrix},\\text{则}A\\text{与}B(\\quad)..\">\\text{设}A=\\begin{pmatrix}1&amp;0&amp;0\\\\ 0&amp;2&amp;0\\\\ 0&amp;0&amp;2\\end{pmatrix},B=\\begin{pmatrix}1&amp;0&amp;0\\\\ 0&amp;4&amp;2\\\\ 0&amp;2&amp;2\\end{pmatrix},\\text{则}A\\text{与}B(\\quad)..</div>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/linear-algebra/ch010/q0009_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{合同但不相似}\">\\text{合同但不相似}</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/linear-algebra/ch010/q0009_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{不合同也不相似}\">\\text{不合同也不相似}</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/linear-algebra/ch010/q0009_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{相似但不合同}\">\\text{相似但不合同}</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/linear-algebra/ch010/q0009_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{合同且相似}\">\\text{合同且相似}</span>"
         }
       ],
       "answer": "A",
       "answer_index": 0,
-      "analysis_html": "<img src=\"/static/generated/assets/linear-algebra/ch010/q0009_analysis.png\"/>"
+      "analysis_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{aligned}A \\text{的特征值为}1,2,2, \\text{而} B \\text{的特征值为}3+\\sqrt{5},3-\\sqrt{5},1, \\text{因此} A \\text{与} B \\text{不相似}. \\text{但是} \\\\ \\begin{pmatrix} 1 &amp; 0 &amp; 0 \\\\ 0 &amp; 1 &amp; 1 \\\\ 0 &amp; 0 &amp; 1 \\end{pmatrix} A \\begin{pmatrix} 1 &amp; 0 &amp; 0 \\\\ 0 &amp; 1 &amp; 0 \\\\ 0 &amp; 1 &amp; 1 \\end{pmatrix} = B, \\text{所以} A \\text{与} B \\text{合同}.\\end{aligned}\">\\begin{aligned}A \\text{的特征值为}1,2,2, \\text{而} B \\text{的特征值为}3+\\sqrt{5},3-\\sqrt{5},1, \\text{因此} A \\text{与} B \\text{不相似}. \\text{但是} \\\\ \\begin{pmatrix} 1 &amp; 0 &amp; 0 \\\\ 0 &amp; 1 &amp; 1 \\\\ 0 &amp; 0 &amp; 1 \\end{pmatrix} A \\begin{pmatrix} 1 &amp; 0 &amp; 0 \\\\ 0 &amp; 1 &amp; 0 \\\\ 0 &amp; 1 &amp; 1 \\end{pmatrix} = B, \\text{所以} A \\text{与} B \\text{合同}.\\end{aligned}</div>"
     },
     {
       "id": "q0010",
       "number": 10,
       "header": "#10-Averge",
       "difficulty": "Averge",
-      "prompt_html": "<img src=\"/static/generated/assets/linear-algebra/ch010/q0010_prompt.png\"/>",
+      "prompt_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{array}{l} \\text{设二次型}f=2x_{1}^{2}+x_{2}^{2}-4x_{1}x_{2}-4x_{2}x_{3},\\text{分别作下列两种可逆矩阵变换，}\\\\ (1)\\quad x=\\left(\\begin{matrix}1&amp;1&amp;-2\\\\ 0&amp;1&amp;-2\\\\ 0&amp;0&amp;1\\end{matrix}\\right)y;\\qquad(2)\\quad x=\\left(\\begin{matrix}1/\\sqrt{2}&amp;1&amp;-1\\\\ 0&amp;1&amp;-1\\\\ 0&amp;0&amp;1/2\\end{matrix}\\right)y,\\\\ \\text{则新的二次型分别为( ).} \\end{array}\">\\begin{array}{l} \\text{设二次型}f=2x_{1}^{2}+x_{2}^{2}-4x_{1}x_{2}-4x_{2}x_{3},\\text{分别作下列两种可逆矩阵变换，}\\\\ (1)\\quad x=\\left(\\begin{matrix}1&amp;1&amp;-2\\\\ 0&amp;1&amp;-2\\\\ 0&amp;0&amp;1\\end{matrix}\\right)y;\\qquad(2)\\quad x=\\left(\\begin{matrix}1/\\sqrt{2}&amp;1&amp;-1\\\\ 0&amp;1&amp;-1\\\\ 0&amp;0&amp;1/2\\end{matrix}\\right)y,\\\\ \\text{则新的二次型分别为( ).} \\end{array}</div>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/linear-algebra/ch010/q0010_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\begin{aligned}f = 2y_1^2 - y_2^2 + 4y_3^2; \\; f = y_1^2 - y_2^2 + 4y_3^2\\end{aligned}\">\\begin{aligned}f = 2y_1^2 - y_2^2 + 4y_3^2; \\; f = y_1^2 - y_2^2 + 4y_3^2\\end{aligned}</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/linear-algebra/ch010/q0010_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\begin{aligned}f = 2y_1^2 - y_2^2 + 3y_3^2; \\, f = y_1^2 - y_2^2 + 4y_3^2\\end{aligned}\">\\begin{aligned}f = 2y_1^2 - y_2^2 + 3y_3^2; \\, f = y_1^2 - y_2^2 + 4y_3^2\\end{aligned}</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/linear-algebra/ch010/q0010_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\begin{aligned}f = 2y_1^2 - y_2^2 + 3y_3^2; f = y_1^2 - y_2^2 + y_3^2\\end{aligned}\">\\begin{aligned}f = 2y_1^2 - y_2^2 + 3y_3^2; f = y_1^2 - y_2^2 + y_3^2\\end{aligned}</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/linear-algebra/ch010/q0010_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\begin{aligned}f = 2y_1^2 - y_2^2 + 4y_3^2; \\, f = y_1^2 - y_2^2 + y_3^2\\end{aligned}\">\\begin{aligned}f = 2y_1^2 - y_2^2 + 4y_3^2; \\, f = y_1^2 - y_2^2 + y_3^2\\end{aligned}</span>"
         }
       ],
       "answer": "D",
       "answer_index": 3,
-      "analysis_html": "<img src=\"/static/generated/assets/linear-algebra/ch010/q0010_analysis.png\"/>"
+      "analysis_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{aligned}\\text{(1)}\\quad&amp;f=x^T\\begin{pmatrix}2&amp;-2&amp;0\\\\-2&amp;1&amp;-2\\\\0&amp;-2&amp;0\\end{pmatrix}x\\\\&amp;=y^T\\begin{pmatrix}1&amp;1&amp;-2\\\\0&amp;1&amp;-2\\\\0&amp;0&amp;1\\end{pmatrix}^T\\begin{pmatrix}2&amp;-2&amp;0\\\\-2&amp;1&amp;-2\\\\0&amp;-2&amp;0\\end{pmatrix}\\begin{pmatrix}1&amp;1&amp;-2\\\\0&amp;1&amp;-2\\\\0&amp;0&amp;1\\end{pmatrix}y=y^T\\begin{pmatrix}2&amp;0&amp;0\\\\0&amp;-1&amp;0\\\\0&amp;0&amp;4\\end{pmatrix}y;\\\\&amp;f=2y_1^2-y_2^2+4y_3^2.\\end{aligned}\">\\begin{aligned}\\text{(1)}\\quad&amp;f=x^T\\begin{pmatrix}2&amp;-2&amp;0\\\\-2&amp;1&amp;-2\\\\0&amp;-2&amp;0\\end{pmatrix}x\\\\&amp;=y^T\\begin{pmatrix}1&amp;1&amp;-2\\\\0&amp;1&amp;-2\\\\0&amp;0&amp;1\\end{pmatrix}^T\\begin{pmatrix}2&amp;-2&amp;0\\\\-2&amp;1&amp;-2\\\\0&amp;-2&amp;0\\end{pmatrix}\\begin{pmatrix}1&amp;1&amp;-2\\\\0&amp;1&amp;-2\\\\0&amp;0&amp;1\\end{pmatrix}y=y^T\\begin{pmatrix}2&amp;0&amp;0\\\\0&amp;-1&amp;0\\\\0&amp;0&amp;4\\end{pmatrix}y;\\\\&amp;f=2y_1^2-y_2^2+4y_3^2.\\end{aligned}</div>"
     },
     {
       "id": "q0011",
       "number": 11,
       "header": "#11-Averge",
       "difficulty": "Averge",
-      "prompt_html": "<img src=\"/static/generated/assets/linear-algebra/ch010/q0011_prompt.png\"/>",
+      "prompt_html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{二次型}f(x_{1},x_{2})=2x_{1}^{2}+2x_{2}^{2}+3x_{1}x_{2}\\text{在条件}x_{1}^{2}+x_{2}^{2}=1\\text{下的最小值等于( }.\">\\text{二次型}f(x_{1},x_{2})=2x_{1}^{2}+2x_{2}^{2}+3x_{1}x_{2}\\text{在条件}x_{1}^{2}+x_{2}^{2}=1\\text{下的最小值等于( }.</span>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/linear-algebra/ch010/q0011_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\frac { 1 } { 2 }\">\\frac { 1 } { 2 }</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/linear-algebra/ch010/q0011_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\boldsymbol { 0 }\">\\boldsymbol { 0 }</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/linear-algebra/ch010/q0011_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\frac{7}{2}\">\\frac{7}{2}</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/linear-algebra/ch010/q0011_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\mathbf { 1 }\">\\mathbf { 1 }</span>"
         }
       ],
       "answer": "A",
       "answer_index": 0,
-      "analysis_html": "<img src=\"/static/generated/assets/linear-algebra/ch010/q0011_analysis.png\"/>"
+      "analysis_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{aligned} \\text{二次型的矩阵为} \\quad A&amp;=\\begin{pmatrix} 2 &amp; 3/2 \\\\ 3/2 &amp; 2 \\end{pmatrix}, \\text{易求得矩阵} A \\text{的特征值为} \\lambda_1=\\frac{7}{2}, \\lambda_2=\\frac{1}{2}, \\text{故二次型} \\\\ f&amp;=\\frac{7}{2}y_1^2+\\frac{1}{2}y_2^2。 \\text{由于正交变换不改变向量的长度，即} \\|\\boldsymbol{x}\\|=\\|\\boldsymbol{y}\\|=1, \\text{当} x_1^2+x_2^2=1 \\text{时，} \\\\ y_1^2+y_2^2&amp;=1, \\text{取} y_1=0, y_2=-1, \\text{则可得到} f \\text{的最小值为} \\frac{1}{2}。 \\end{aligned}\">\\begin{aligned} \\text{二次型的矩阵为} \\quad A&amp;=\\begin{pmatrix} 2 &amp; 3/2 \\\\ 3/2 &amp; 2 \\end{pmatrix}, \\text{易求得矩阵} A \\text{的特征值为} \\lambda_1=\\frac{7}{2}, \\lambda_2=\\frac{1}{2}, \\text{故二次型} \\\\ f&amp;=\\frac{7}{2}y_1^2+\\frac{1}{2}y_2^2。 \\text{由于正交变换不改变向量的长度，即} \\|\\boldsymbol{x}\\|=\\|\\boldsymbol{y}\\|=1, \\text{当} x_1^2+x_2^2=1 \\text{时，} \\\\ y_1^2+y_2^2&amp;=1, \\text{取} y_1=0, y_2=-1, \\text{则可得到} f \\text{的最小值为} \\frac{1}{2}。 \\end{aligned}</div>"
     },
     {
       "id": "q0012",
       "number": 12,
       "header": "#12-Averge",
       "difficulty": "Averge",
-      "prompt_html": "<img src=\"/static/generated/assets/linear-algebra/ch010/q0012_prompt.png\"/>",
+      "prompt_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\text{如果二阶矩阵} \\begin{pmatrix} 7 &amp; 12 \\\\ y &amp; x \\end{pmatrix} \\text{与} \\begin{pmatrix} 1 &amp; 3 \\\\ 2 &amp; 4 \\end{pmatrix} \\text{相似，则( }.).\">\\text{如果二阶矩阵} \\begin{pmatrix} 7 &amp; 12 \\\\ y &amp; x \\end{pmatrix} \\text{与} \\begin{pmatrix} 1 &amp; 3 \\\\ 2 &amp; 4 \\end{pmatrix} \\text{相似，则( }.).</div>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/linear-algebra/ch010/q0012_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"x = 2, y = - 1\">x = 2, y = - 1</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/linear-algebra/ch010/q0012_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\textstyle x = - 2 , y = 1\">\\textstyle x = - 2 , y = 1</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/linear-algebra/ch010/q0012_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"x = - 2 , y = - 1\">x = - 2 , y = - 1</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/linear-algebra/ch010/q0012_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"x = - 1 , y = - 2\">x = - 1 , y = - 2</span>"
         }
       ],
       "answer": "C",
       "answer_index": 2,
-      "analysis_html": "<img src=\"/static/generated/assets/linear-algebra/ch010/q0012_analysis.png\"/>"
+      "analysis_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{array}{l} \\text {由于相似矩阵具有相等的迹与行列式，所以} 7 + x = 1 + 4 , 7 x - 12 y = - 2 \\text {，易求得} \\\\ x = - 2 , y = - 1 . \\end{array}\">\\begin{array}{l} \\text {由于相似矩阵具有相等的迹与行列式，所以} 7 + x = 1 + 4 , 7 x - 12 y = - 2 \\text {，易求得} \\\\ x = - 2 , y = - 1 . \\end{array}</div>"
     },
     {
       "id": "q0013",
       "number": 13,
       "header": "#13-Averge",
       "difficulty": "Averge",
-      "prompt_html": "<img src=\"/static/generated/assets/linear-algebra/ch010/q0013_prompt.png\"/>",
+      "prompt_html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{二次型}f(x_{1},x_{2},x_{3})=2x_{1}^{2}+x_{2}^{2}+x_{3}^{2}+2x_{1}x_{3}+2x_{1}x_{2},\\text{在条件}x_{1}^{2}+x_{2}^{2}+x_{3}^{2}=1\\text{下的最大值等于( }.\">\\text{二次型}f(x_{1},x_{2},x_{3})=2x_{1}^{2}+x_{2}^{2}+x_{3}^{2}+2x_{1}x_{3}+2x_{1}x_{2},\\text{在条件}x_{1}^{2}+x_{2}^{2}+x_{3}^{2}=1\\text{下的最大值等于( }.</span>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/linear-algebra/ch010/q0013_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"3\">3</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/linear-algebra/ch010/q0013_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"2\">2</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/linear-algebra/ch010/q0013_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"4\">4</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/linear-algebra/ch010/q0013_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"6\">6</span>"
         }
       ],
       "answer": "A",
       "answer_index": 0,
-      "analysis_html": "<img src=\"/static/generated/assets/linear-algebra/ch010/q0013_analysis.png\"/>"
+      "analysis_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{aligned}&amp;\\text{二次型的矩阵为}A=\\begin{pmatrix}2&amp;1&amp;1\\\\1&amp;1&amp;0\\\\1&amp;0&amp;1\\end{pmatrix},\\text{易求得}A\\text{的特征值为}\\lambda_{1}=3,\\lambda_{2}=1,\\lambda_{3}=0,\\text{故}f\\text{可通过正交变换}x=Py\\text{化为标准形}f=3y_{1}^{2}+y_{2}^{2}\\text{。}\\\\&amp;\\text{由于正交变换不改变向量的长度，故}\\|x\\|=\\|Py\\|=\\|y\\|=1,\\text{即}x_{1}^{2}+x_{2}^{2}+x_{3}^{2}=1\\text{时，}\\\\&amp;\\quad y_{1}^{2}+y_{2}^{2}+y_{3}^{2}=1,\\text{取}y_{1}=1,y_{2}=y_{3}=0,\\text{则}f\\text{取最大值为}3.\\end{aligned}\">\\begin{aligned}&amp;\\text{二次型的矩阵为}A=\\begin{pmatrix}2&amp;1&amp;1\\\\1&amp;1&amp;0\\\\1&amp;0&amp;1\\end{pmatrix},\\text{易求得}A\\text{的特征值为}\\lambda_{1}=3,\\lambda_{2}=1,\\lambda_{3}=0,\\text{故}f\\text{可通过正交变换}x=Py\\text{化为标准形}f=3y_{1}^{2}+y_{2}^{2}\\text{。}\\\\&amp;\\text{由于正交变换不改变向量的长度，故}\\|x\\|=\\|Py\\|=\\|y\\|=1,\\text{即}x_{1}^{2}+x_{2}^{2}+x_{3}^{2}=1\\text{时，}\\\\&amp;\\quad y_{1}^{2}+y_{2}^{2}+y_{3}^{2}=1,\\text{取}y_{1}=1,y_{2}=y_{3}=0,\\text{则}f\\text{取最大值为}3.\\end{aligned}</div>"
     },
     {
       "id": "q0014",
       "number": 14,
       "header": "#14-Averge",
       "difficulty": "Averge",
-      "prompt_html": "<img src=\"/static/generated/assets/linear-algebra/ch010/q0014_prompt.png\"/>",
+      "prompt_html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{二次型}f(x_{1},x_{2},x_{3})=2x_{1}^{2}+4x_{2}^{2}+x_{3}^{2}+2x_{1}x_{2}-2x_{1}x_{3}\\text{的标准形是}( \\quad).\">\\text{二次型}f(x_{1},x_{2},x_{3})=2x_{1}^{2}+4x_{2}^{2}+x_{3}^{2}+2x_{1}x_{2}-2x_{1}x_{3}\\text{的标准形是}( \\quad).</span>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/linear-algebra/ch010/q0014_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"- y _ { 1 } ^ { 2 } - 3 y _ { 2 } ^ { 2 }\">- y _ { 1 } ^ { 2 } - 3 y _ { 2 } ^ { 2 }</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/linear-algebra/ch010/q0014_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\textstyle 2 y _ { 1 } ^ { 2 }\">\\textstyle 2 y _ { 1 } ^ { 2 }</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/linear-algebra/ch010/q0014_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\, 3 y _ { 1 } ^ { 2 }\">\\, 3 y _ { 1 } ^ { 2 }</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/linear-algebra/ch010/q0014_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\begin{array}{l} {l} y _ { 1 } ^ { 2 } + y _ { 2 } ^ { 2 } + 3 y _ { 3 } ^ { 2 } \\end{array}\">\\begin{array}{l} {l} y _ { 1 } ^ { 2 } + y _ { 2 } ^ { 2 } + 3 y _ { 3 } ^ { 2 } \\end{array}</span>"
         }
       ],
       "answer": "D",
       "answer_index": 3,
-      "analysis_html": "<img src=\"/static/generated/assets/linear-algebra/ch010/q0014_analysis.png\"/>"
+      "analysis_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{aligned}f(x_{1},x_{2},x_{3})&amp;=2x_{1}^{2}+4x_{2}^{2}+x_{3}^{2}+2x_{1}x_{2}-2x_{1}x_{3}=\\left(x_{1}+x_{2}\\right)^{2}+\\left(x_{1}-x_{3}\\right)^{2}+3x_{2}^{2}=y_{1}^{2}+y_{2}^{2}+3y_{3}^{2}.\\end{aligned}\">\\begin{aligned}f(x_{1},x_{2},x_{3})&amp;=2x_{1}^{2}+4x_{2}^{2}+x_{3}^{2}+2x_{1}x_{2}-2x_{1}x_{3}=\\left(x_{1}+x_{2}\\right)^{2}+\\left(x_{1}-x_{3}\\right)^{2}+3x_{2}^{2}=y_{1}^{2}+y_{2}^{2}+3y_{3}^{2}.\\end{aligned}</div>"
     },
     {
       "id": "q0015",
       "number": 15,
       "header": "#15-Averge",
       "difficulty": "Averge",
-      "prompt_html": "<img src=\"/static/generated/assets/linear-algebra/ch010/q0015_prompt.png\"/>",
+      "prompt_html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{二次型}f(x_{1},x_{2})=2x_{1}^{2}+2x_{2}^{2}+3x_{1}x_{2}\\text{的标准形是}( \\quad).\">\\text{二次型}f(x_{1},x_{2})=2x_{1}^{2}+2x_{2}^{2}+3x_{1}x_{2}\\text{的标准形是}( \\quad).</span>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/linear-algebra/ch010/q0015_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"- y _ { 1 } ^ { 2 } - 2 y _ { 2 } ^ { 2 }\">- y _ { 1 } ^ { 2 } - 2 y _ { 2 } ^ { 2 }</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/linear-algebra/ch010/q0015_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"- y _ { 1 } ^ { 2 }\">- y _ { 1 } ^ { 2 }</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/linear-algebra/ch010/q0015_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"y_{1}^{2}\">y_{1}^{2}</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/linear-algebra/ch010/q0015_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\frac{7}{2}y_{1}^{2}+\\frac{1}{2}y_{2}^{2}\">\\frac{7}{2}y_{1}^{2}+\\frac{1}{2}y_{2}^{2}</span>"
         }
       ],
       "answer": "D",
       "answer_index": 3,
-      "analysis_html": "<img src=\"/static/generated/assets/linear-algebra/ch010/q0015_analysis.png\"/>"
+      "analysis_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{aligned}f(x_{1},x_{2})&amp;=2x_{1}^{2}+2x_{2}^{2}+3x_{1}x_{2}=2\\left(x_{1}^{2}+\\frac{3}{2}x_{1}x_{2}+\\frac{9}{16}x_{2}^{2}\\right)+\\frac{7}{8}x_{2}^{2}=2z_{1}^{2}+\\frac{7}{8}z_{2}^{2}\\\\ \\text{故二次型}f\\text{的秩和正惯性指数都为}2，\\text{符合条件的只有}\\frac{7}{2}y_{1}^{2}+\\frac{1}{2}y_{2}^{2}.\\end{aligned}\">\\begin{aligned}f(x_{1},x_{2})&amp;=2x_{1}^{2}+2x_{2}^{2}+3x_{1}x_{2}=2\\left(x_{1}^{2}+\\frac{3}{2}x_{1}x_{2}+\\frac{9}{16}x_{2}^{2}\\right)+\\frac{7}{8}x_{2}^{2}=2z_{1}^{2}+\\frac{7}{8}z_{2}^{2}\\\\ \\text{故二次型}f\\text{的秩和正惯性指数都为}2，\\text{符合条件的只有}\\frac{7}{2}y_{1}^{2}+\\frac{1}{2}y_{2}^{2}.\\end{aligned}</div>"
     },
     {
       "id": "q0016",
       "number": 16,
       "header": "#16-Averge",
       "difficulty": "Averge",
-      "prompt_html": "<img src=\"/static/generated/assets/linear-algebra/ch010/q0016_prompt.png\"/>",
+      "prompt_html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{若二次型} f(x_{1},x_{2},x_{3})=x_{1}^{2}+x_{2}^{2}+5x_{3}^{2}+2ax_{1}x_{2}-2x_{1}x_{3}+4x_{2}x_{3}\\text{正定，则}a\\text{的取值范围是} \\quad( \\quad).\">\\text{若二次型} f(x_{1},x_{2},x_{3})=x_{1}^{2}+x_{2}^{2}+5x_{3}^{2}+2ax_{1}x_{2}-2x_{1}x_{3}+4x_{2}x_{3}\\text{正定，则}a\\text{的取值范围是} \\quad( \\quad).</span>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/linear-algebra/ch010/q0016_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"- \\frac { 4 } { 5 } &lt; a &lt; 0\">- \\frac { 4 } { 5 } &lt; a &lt; 0</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/linear-algebra/ch010/q0016_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"a &gt; 2\">a &gt; 2</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/linear-algebra/ch010/q0016_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"- \\frac { 4 } { 5 } &lt; a \\leq 0\">- \\frac { 4 } { 5 } &lt; a \\leq 0</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/linear-algebra/ch010/q0016_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"a &gt; - \\frac { 4 } { 5 }\">a &gt; - \\frac { 4 } { 5 }</span>"
         }
       ],
       "answer": "A",
       "answer_index": 0,
-      "analysis_html": "<img src=\"/static/generated/assets/linear-algebra/ch010/q0016_analysis.png\"/>"
+      "analysis_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\text{二次型的矩阵为} \\, A = \\begin{pmatrix} 1 &amp; a &amp; -1 \\\\ a &amp; 1 &amp; 2 \\\\ -1 &amp; 2 &amp; 5 \\end{pmatrix}, \\, \\text{由 Hurwitz 判别法得，} \\, A \\text{正定当且仅当} -\\frac{4}{5} &lt; a &lt; 0.\">\\text{二次型的矩阵为} \\, A = \\begin{pmatrix} 1 &amp; a &amp; -1 \\\\ a &amp; 1 &amp; 2 \\\\ -1 &amp; 2 &amp; 5 \\end{pmatrix}, \\, \\text{由 Hurwitz 判别法得，} \\, A \\text{正定当且仅当} -\\frac{4}{5} &lt; a &lt; 0.</div>"
     },
     {
       "id": "q0017",
       "number": 17,
       "header": "#17-Averge",
       "difficulty": "Averge",
-      "prompt_html": "<img src=\"/static/generated/assets/linear-algebra/ch010/q0017_prompt.png\"/>",
+      "prompt_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{aligned} \\text{已知二次型}f=x^T Ax \\text{在正交变换}x=Qy \\text{下的标准形为}y_1^2+y_2^2，\\text{且}\\ Q\\text{的第三列为} \\\\ \\left(\\frac{\\sqrt{2}}{2},0,\\frac{\\sqrt{2}}{2}\\right)^T, \\text{则矩阵}A=(\\quad) \\text{且} A+E \\text{为}(\\quad) \\text{矩阵(其中}E\\text{为3阶单位矩阵).} \\end{aligned}\">\\begin{aligned} \\text{已知二次型}f=x^T Ax \\text{在正交变换}x=Qy \\text{下的标准形为}y_1^2+y_2^2，\\text{且}\\ Q\\text{的第三列为} \\\\ \\left(\\frac{\\sqrt{2}}{2},0,\\frac{\\sqrt{2}}{2}\\right)^T, \\text{则矩阵}A=(\\quad) \\text{且} A+E \\text{为}(\\quad) \\text{矩阵(其中}E\\text{为3阶单位矩阵).} \\end{aligned}</div>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/linear-algebra/ch010/q0017_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\begin{array}{l} { r } { A = ( \\begin{array}{l} { c c c } { 1 / 2 } &amp; { 0 } &amp; { - 1 / 2 } \\\\ { 0 } &amp; { 1 } &amp; { 0 } \\\\ { - 1 / 2 } &amp; { 0 } &amp; { 1 / 2 } \\end{array} , \\text {正定} } \\end{array}\">\\begin{array}{l} { r } { A = ( \\begin{array}{l} { c c c } { 1 / 2 } &amp; { 0 } &amp; { - 1 / 2 } \\\\ { 0 } &amp; { 1 } &amp; { 0 } \\\\ { - 1 / 2 } &amp; { 0 } &amp; { 1 / 2 } \\end{array} , \\text {正定} } \\end{array}</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/linear-algebra/ch010/q0017_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\begin{aligned}A = \\begin{pmatrix}1/2 &amp; 0 &amp; -1/2 \\\\0 &amp; 1 &amp; 0 \\\\-1/2 &amp; 0 &amp; 1/2\\end{pmatrix}, \\text{负定}\\end{aligned}\">\\begin{aligned}A = \\begin{pmatrix}1/2 &amp; 0 &amp; -1/2 \\\\0 &amp; 1 &amp; 0 \\\\-1/2 &amp; 0 &amp; 1/2\\end{pmatrix}, \\text{负定}\\end{aligned}</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/linear-algebra/ch010/q0017_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\boldsymbol{A} = \\begin{pmatrix} 1/2 &amp; 0 &amp; 1/2 \\\\ 0 &amp; 1 &amp; 0 \\\\ 1/2 &amp; 0 &amp; 1/2 \\end{pmatrix}, \\text{负定}\">\\boldsymbol{A} = \\begin{pmatrix} 1/2 &amp; 0 &amp; 1/2 \\\\ 0 &amp; 1 &amp; 0 \\\\ 1/2 &amp; 0 &amp; 1/2 \\end{pmatrix}, \\text{负定}</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/linear-algebra/ch010/q0017_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\begin{array}{l} { r } { A = ( \\begin{array}{l} { c c c } { 1 / 2 } &amp; { 0 } &amp; { 1 / 2 } \\\\ { 0 } &amp; { 1 } &amp; { 0 } \\\\ { 1 / 2 } &amp; { 0 } &amp; { 1 / 2 } \\end{array} , \\text {正定} } \\end{array}\">\\begin{array}{l} { r } { A = ( \\begin{array}{l} { c c c } { 1 / 2 } &amp; { 0 } &amp; { 1 / 2 } \\\\ { 0 } &amp; { 1 } &amp; { 0 } \\\\ { 1 / 2 } &amp; { 0 } &amp; { 1 / 2 } \\end{array} , \\text {正定} } \\end{array}</span>"
         }
       ],
       "answer": "A",
       "answer_index": 0,
-      "analysis_html": "<img src=\"/static/generated/assets/linear-algebra/ch010/q0017_analysis.png\"/>"
+      "analysis_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{aligned}(1)\\ \\text{因为二次型}f(x_1,x_2,x_3)=X^T A X \\text{在正交变换}X=QY \\text{的标准形为}y_1^T+y_2^T,\\ \\text{所以}A \\text{的特征值为}\\lambda_1=\\lambda_2=1,\\lambda_3=0,\\ Q \\text{的第三列为}\\left(\\frac{\\sqrt{2}}{2},0,\\frac{\\sqrt{2}}{2}\\right)^T,\\ \\text{所以}\\lambda_3=0 \\text{对应的线性无关的 特征向量为}\\xi_3=\\begin{pmatrix}1\\\\0\\\\1\\end{pmatrix} \\text{因为}A \\text{为实对称矩阵,所以}A \\text{的不同特征值对应的特征向量正交,} \\\\\\ \\text{令}\\lambda_1=\\lambda_2=1 \\text{对应的特征向量为}\\xi_3=\\begin{pmatrix}x_1\\\\ x_2\\\\ x_3\\end{pmatrix}, \\text{由}x_1+x_3=0 \\text{的}\\lambda_1=\\lambda_2=1 \\text{对应的线性无关的 特征向量为}\\xi_1=\\begin{pmatrix}0\\\\1\\\\0\\end{pmatrix},\\xi_2=\\begin{pmatrix}-1\\\\0\\\\1\\end{pmatrix}。\\ \\text{令}\\gamma_1=\\begin{pmatrix}0\\\\1\\\\0\\end{pmatrix},\\gamma_2=\\frac{1}{\\sqrt{2}}\\begin{pmatrix}-1\\\\0\\\\1\\end{pmatrix},\\gamma_3=\\frac{1}{\\sqrt{2}}\\begin{pmatrix}1\\\\0\\\\1\\end{pmatrix}, \\ \\text{则}Q=\\left(\\gamma_1,\\gamma_2,\\gamma_3\\right)。 \\text{由}Q^T A Q=\\begin{pmatrix}1\\\\1\\\\0\\end{pmatrix}, \\text{得}A=\\begin{pmatrix}1/2&amp;0&amp;-1/2\\\\0&amp;1&amp;0\\\\-1/2&amp;0&amp;1/2\\end{pmatrix}。\\end{aligned}\">\\begin{aligned}(1)\\ \\text{因为二次型}f(x_1,x_2,x_3)=X^T A X \\text{在正交变换}X=QY \\text{的标准形为}y_1^T+y_2^T,\\ \\text{所以}A \\text{的特征值为}\\lambda_1=\\lambda_2=1,\\lambda_3=0,\\ Q \\text{的第三列为}\\left(\\frac{\\sqrt{2}}{2},0,\\frac{\\sqrt{2}}{2}\\right)^T,\\ \\text{所以}\\lambda_3=0 \\text{对应的线性无关的 特征向量为}\\xi_3=\\begin{pmatrix}1\\\\0\\\\1\\end{pmatrix} \\text{因为}A \\text{为实对称矩阵,所以}A \\text{的不同特征值对应的特征向量正交,} \\\\\\ \\text{令}\\lambda_1=\\lambda_2=1 \\text{对应的特征向量为}\\xi_3=\\begin{pmatrix}x_1\\\\ x_2\\\\ x_3\\end{pmatrix}, \\text{由}x_1+x_3=0 \\text{的}\\lambda_1=\\lambda_2=1 \\text{对应的线性无关的 特征向量为}\\xi_1=\\begin{pmatrix}0\\\\1\\\\0\\end{pmatrix},\\xi_2=\\begin{pmatrix}-1\\\\0\\\\1\\end{pmatrix}。\\ \\text{令}\\gamma_1=\\begin{pmatrix}0\\\\1\\\\0\\end{pmatrix},\\gamma_2=\\frac{1}{\\sqrt{2}}\\begin{pmatrix}-1\\\\0\\\\1\\end{pmatrix},\\gamma_3=\\frac{1}{\\sqrt{2}}\\begin{pmatrix}1\\\\0\\\\1\\end{pmatrix}, \\ \\text{则}Q=\\left(\\gamma_1,\\gamma_2,\\gamma_3\\right)。 \\text{由}Q^T A Q=\\begin{pmatrix}1\\\\1\\\\0\\end{pmatrix}, \\text{得}A=\\begin{pmatrix}1/2&amp;0&amp;-1/2\\\\0&amp;1&amp;0\\\\-1/2&amp;0&amp;1/2\\end{pmatrix}。\\end{aligned}</div>\n<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{aligned}(2)\\ \\text{因为}A+E=\\begin{pmatrix}3/2&amp;0&amp;-1/2\\\\0&amp;2&amp;0\\\\-1/2&amp;0&amp;3/2\\end{pmatrix} \\text{是实对称矩阵,且}A \\text{的特征值为}\\lambda_1=\\lambda_2=1,\\lambda_3=0,\\ \\text{所以}A+E \\text{的特征值为}\\lambda_1=\\lambda_2=\\lambda_3=1。  \\text{因其特征值都大于零},\\text{所以}A+E \\text{为正矩阵.}\\end{aligned}\">\\begin{aligned}(2)\\ \\text{因为}A+E=\\begin{pmatrix}3/2&amp;0&amp;-1/2\\\\0&amp;2&amp;0\\\\-1/2&amp;0&amp;3/2\\end{pmatrix} \\text{是实对称矩阵,且}A \\text{的特征值为}\\lambda_1=\\lambda_2=1,\\lambda_3=0,\\ \\text{所以}A+E \\text{的特征值为}\\lambda_1=\\lambda_2=\\lambda_3=1。  \\text{因其特征值都大于零},\\text{所以}A+E \\text{为正矩阵.}\\end{aligned}</div>"
     },
     {
       "id": "q0018",
       "number": 18,
       "header": "#18-Averge",
       "difficulty": "Averge",
-      "prompt_html": "<img src=\"/static/generated/assets/linear-algebra/ch010/q0018_prompt.png\"/>",
+      "prompt_html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{二次型}f(x_{1},x_{2},x_{3})=2x_{1}^{2}+2x_{2}^{2}+2x_{3}^{2}+4x_{1}x_{2}+8x_{1}x_{3}+4x_{2}x_{3}\\text{的秩为}( \\quad).\">\\text{二次型}f(x_{1},x_{2},x_{3})=2x_{1}^{2}+2x_{2}^{2}+2x_{3}^{2}+4x_{1}x_{2}+8x_{1}x_{3}+4x_{2}x_{3}\\text{的秩为}( \\quad).</span>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/linear-algebra/ch010/q0018_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\mathbf { 1 }\">\\mathbf { 1 }</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/linear-algebra/ch010/q0018_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"2\">2</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/linear-algebra/ch010/q0018_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"4\">4</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/linear-algebra/ch010/q0018_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"3\">3</span>"
         }
       ],
       "answer": "D",
       "answer_index": 3,
-      "analysis_html": "<img src=\"/static/generated/assets/linear-algebra/ch010/q0018_analysis.png\"/>"
+      "analysis_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\text{二次型的矩阵为} \\boldsymbol{A} = \\begin{pmatrix} 2 &amp; 2 &amp; 4 \\\\ 2 &amp; 2 &amp; 2 \\\\ 4 &amp; 2 &amp; 2 \\end{pmatrix}, \\ |A| = -8, \\ \\text{故} \\ \\boldsymbol{A} \\text{可逆，所以秩为} \\ 3.\">\\text{二次型的矩阵为} \\boldsymbol{A} = \\begin{pmatrix} 2 &amp; 2 &amp; 4 \\\\ 2 &amp; 2 &amp; 2 \\\\ 4 &amp; 2 &amp; 2 \\end{pmatrix}, \\ |A| = -8, \\ \\text{故} \\ \\boldsymbol{A} \\text{可逆，所以秩为} \\ 3.</div>"
     },
     {
       "id": "q0019",
       "number": 19,
       "header": "#19-Averge",
       "difficulty": "Averge",
-      "prompt_html": "<img src=\"/static/generated/assets/linear-algebra/ch010/q0019_prompt.png\"/>",
+      "prompt_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{aligned}&amp;\\text{已知二次型}f(x_{1},x_{2},x_{3})=x_{1}^{2}+x_{2}^{2}+ax_{3}^{2}+2x_{1}x_{2}\\quad\\text{经过正交变换可化为标准形}\\\\&amp;f=2y_{2}^{2}+2y_{3}^{2},\\text{则}a\\text{等于( }\\quad).\\end{aligned}\">\\begin{aligned}&amp;\\text{已知二次型}f(x_{1},x_{2},x_{3})=x_{1}^{2}+x_{2}^{2}+ax_{3}^{2}+2x_{1}x_{2}\\quad\\text{经过正交变换可化为标准形}\\\\&amp;f=2y_{2}^{2}+2y_{3}^{2},\\text{则}a\\text{等于( }\\quad).\\end{aligned}</div>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/linear-algebra/ch010/q0019_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"3\">3</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/linear-algebra/ch010/q0019_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"2\">2</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/linear-algebra/ch010/q0019_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"4\">4</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/linear-algebra/ch010/q0019_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\mathbf { 1 }\">\\mathbf { 1 }</span>"
         }
       ],
       "answer": "B",
       "answer_index": 1,
-      "analysis_html": "<img src=\"/static/generated/assets/linear-algebra/ch010/q0019_analysis.png\"/>"
+      "analysis_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\text{二次型的矩阵为} \\, A = \\begin{pmatrix} 1 &amp; 1 &amp; 0 \\\\ 1 &amp; 1 &amp; 0 \\\\ 0 &amp; 0 &amp; a \\end{pmatrix}, \\ \\ 1 + 1 + a = 4 \\ , \\ \\text{故} \\ a = 2.\">\\text{二次型的矩阵为} \\, A = \\begin{pmatrix} 1 &amp; 1 &amp; 0 \\\\ 1 &amp; 1 &amp; 0 \\\\ 0 &amp; 0 &amp; a \\end{pmatrix}, \\ \\ 1 + 1 + a = 4 \\ , \\ \\text{故} \\ a = 2.</div>"
     },
     {
       "id": "q0020",
       "number": 20,
       "header": "#20-Averge",
       "difficulty": "Averge",
-      "prompt_html": "<img src=\"/static/generated/assets/linear-algebra/ch010/q0020_prompt.png\"/>",
+      "prompt_html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{设}A,B \\text{是}n \\text{阶矩阵，且}A \\text{为正交矩阵，则}AB \\text{与}BA \\text{一定是}(\\quad).\">\\text{设}A,B \\text{是}n \\text{阶矩阵，且}A \\text{为正交矩阵，则}AB \\text{与}BA \\text{一定是}(\\quad).</span>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/linear-algebra/ch010/q0020_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{合同且不相似}\">\\text{合同且不相似}</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/linear-algebra/ch010/q0020_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{合同且相似}\">\\text{合同且相似}</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/linear-algebra/ch010/q0020_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{不合同且相似}\">\\text{不合同且相似}</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/linear-algebra/ch010/q0020_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{不合同且不相似}\">\\text{不合同且不相似}</span>"
         }
       ],
       "answer": "B",
       "answer_index": 1,
-      "analysis_html": "<img src=\"/static/generated/assets/linear-algebra/ch010/q0020_analysis.png\"/>"
+      "analysis_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{array}{l} \\text {由于} A \\text {为正交矩阵，而且} BA = A^{-1} (AB) A = A^{T} (AB) A，\\text{所以} AB \\text{与} BA \\text{一定是合同且相似}. \\end{array}\">\\begin{array}{l} \\text {由于} A \\text {为正交矩阵，而且} BA = A^{-1} (AB) A = A^{T} (AB) A，\\text{所以} AB \\text{与} BA \\text{一定是合同且相似}. \\end{array}</div>"
     },
     {
       "id": "q0021",
       "number": 21,
       "header": "#21-Averge",
       "difficulty": "Averge",
-      "prompt_html": "<img src=\"/static/generated/assets/linear-algebra/ch010/q0021_prompt.png\"/>",
+      "prompt_html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{二次型}f(x_{1},x_{2})=5x_{1}^{2}-x_{2}^{2}\\text{在条件}x_{1}^{2}+x_{2}^{2}=1\\text{下的最大值等于( }.\">\\text{二次型}f(x_{1},x_{2})=5x_{1}^{2}-x_{2}^{2}\\text{在条件}x_{1}^{2}+x_{2}^{2}=1\\text{下的最大值等于( }.</span>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/linear-algebra/ch010/q0021_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\mathbf { 0 }\">\\mathbf { 0 }</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/linear-algebra/ch010/q0021_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"5\">5</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/linear-algebra/ch010/q0021_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\mathbf { 1 }\">\\mathbf { 1 }</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/linear-algebra/ch010/q0021_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"2\">2</span>"
         }
       ],
       "answer": "B",
       "answer_index": 1,
-      "analysis_html": "<img src=\"/static/generated/assets/linear-algebra/ch010/q0021_analysis.png\"/>"
+      "analysis_html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{条件中的二次型为标准形式，可直接得出在} x_{1}^{2}+x_{2}^{2}=1 \\text{时，取} x_{1}=1, x_{2}=0 \\text{，则} f_{\\text{最大}}=5.\">\\text{条件中的二次型为标准形式，可直接得出在} x_{1}^{2}+x_{2}^{2}=1 \\text{时，取} x_{1}=1, x_{2}=0 \\text{，则} f_{\\text{最大}}=5.</span>"
     },
     {
       "id": "q0022",
       "number": 22,
       "header": "#22-Averge",
       "difficulty": "Averge",
-      "prompt_html": "<img src=\"/static/generated/assets/linear-algebra/ch010/q0022_prompt.png\"/>",
+      "prompt_html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{二次型}x^{2}+ay^{2}+z^{2}+2bxy+2xz+2yz\\text{可通过正交变换化为标准形}\\eta^{2}+4\\zeta^{2},\\text{则参数}a,b\\text{的值分别为( }.\">\\text{二次型}x^{2}+ay^{2}+z^{2}+2bxy+2xz+2yz\\text{可通过正交变换化为标准形}\\eta^{2}+4\\zeta^{2},\\text{则参数}a,b\\text{的值分别为( }.</span>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/linear-algebra/ch010/q0022_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\boldsymbol{a} = 3 , \\boldsymbol{b} = 1\">\\boldsymbol{a} = 3 , \\boldsymbol{b} = 1</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/linear-algebra/ch010/q0022_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\begin{array}{l} { r } { a = 0 , b = 1 } \\end{array}\">\\begin{array}{l} { r } { a = 0 , b = 1 } \\end{array}</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/linear-algebra/ch010/q0022_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\mathit{a} = 3 , \\mathit{b} = 0\">\\mathit{a} = 3 , \\mathit{b} = 0</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/linear-algebra/ch010/q0022_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\textstyle a {=} 1 , b {=} 4\">\\textstyle a {=} 1 , b {=} 4</span>"
         }
       ],
       "answer": "A",
       "answer_index": 0,
-      "analysis_html": "<img src=\"/static/generated/assets/linear-algebra/ch010/q0022_analysis.png\"/>"
+      "analysis_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{aligned}&amp;\\text{由}A=\\begin{pmatrix}1&amp;b&amp;1\\\\b&amp;a&amp;1\\\\1&amp;1&amp;1\\end{pmatrix}\\begin{pmatrix}0&amp;&amp;\\\\&amp;1&amp;\\\\&amp;&amp;4\\end{pmatrix}\\text{相似得，}A\\text{的特征值是}0,1,4，\\text{那么}a=3。\\text{又}\\\\&amp;|A|=\\begin{vmatrix}1&amp;b&amp;1\\\\b&amp;a&amp;1\\\\1&amp;1&amp;1\\end{vmatrix}\\begin{vmatrix}0&amp;b&amp;1\\\\b-1&amp;a&amp;1\\\\0&amp;1&amp;1\\end{vmatrix}=-\\left(b-1\\right)^2=0，\\text{所以}b=1。\\end{aligned}\">\\begin{aligned}&amp;\\text{由}A=\\begin{pmatrix}1&amp;b&amp;1\\\\b&amp;a&amp;1\\\\1&amp;1&amp;1\\end{pmatrix}\\begin{pmatrix}0&amp;&amp;\\\\&amp;1&amp;\\\\&amp;&amp;4\\end{pmatrix}\\text{相似得，}A\\text{的特征值是}0,1,4，\\text{那么}a=3。\\text{又}\\\\&amp;|A|=\\begin{vmatrix}1&amp;b&amp;1\\\\b&amp;a&amp;1\\\\1&amp;1&amp;1\\end{vmatrix}\\begin{vmatrix}0&amp;b&amp;1\\\\b-1&amp;a&amp;1\\\\0&amp;1&amp;1\\end{vmatrix}=-\\left(b-1\\right)^2=0，\\text{所以}b=1。\\end{aligned}</div>"
     },
     {
       "id": "q0023",
       "number": 23,
       "header": "#23-Averge",
       "difficulty": "Averge",
-      "prompt_html": "<img src=\"/static/generated/assets/linear-algebra/ch010/q0023_prompt.png\"/>",
+      "prompt_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\text{设} \\, A = \\begin{pmatrix} 1 &amp; 0 &amp; 0 \\\\ 0 &amp; 2 &amp; 0 \\\\ 0 &amp; 0 &amp; 2 \\end{pmatrix}, B = \\begin{pmatrix} 1 &amp; 0 &amp; 0 \\\\ 0 &amp; 2 &amp; 1 \\\\ 0 &amp; 0 &amp; 3 \\end{pmatrix}, \\text{则} \\, A \\text{与} B \\left( \\begin{pmatrix} \\end{pmatrix} \\right).\">\\text{设} \\, A = \\begin{pmatrix} 1 &amp; 0 &amp; 0 \\\\ 0 &amp; 2 &amp; 0 \\\\ 0 &amp; 0 &amp; 2 \\end{pmatrix}, B = \\begin{pmatrix} 1 &amp; 0 &amp; 0 \\\\ 0 &amp; 2 &amp; 1 \\\\ 0 &amp; 0 &amp; 3 \\end{pmatrix}, \\text{则} \\, A \\text{与} B \\left( \\begin{pmatrix} \\end{pmatrix} \\right).</div>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/linear-algebra/ch010/q0023_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{合同但不相似}\">\\text{合同但不相似}</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/linear-algebra/ch010/q0023_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{不合同也不相似}\">\\text{不合同也不相似}</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/linear-algebra/ch010/q0023_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{相似但不合同}\">\\text{相似但不合同}</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/linear-algebra/ch010/q0023_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{合同且相似}\">\\text{合同且相似}</span>"
         }
       ],
       "answer": "B",
       "answer_index": 1,
-      "analysis_html": "<img src=\"/static/generated/assets/linear-algebra/ch010/q0023_analysis.png\"/>"
+      "analysis_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{aligned}A \\text{的特征值为}1,2,2,2, \\text{而} B \\text{的特征值为}1,2,3,3, \\text{因此} A \\text{与} B \\text{不相似}. \\text{又} A \\text{对称，而} B \\text{不对称，} \\\\ \\text{所以} A \\text{与} B \\text{不合同}.\\end{aligned}\">\\begin{aligned}A \\text{的特征值为}1,2,2,2, \\text{而} B \\text{的特征值为}1,2,3,3, \\text{因此} A \\text{与} B \\text{不相似}. \\text{又} A \\text{对称，而} B \\text{不对称，} \\\\ \\text{所以} A \\text{与} B \\text{不合同}.\\end{aligned}</div>"
     },
     {
       "id": "q0024",
       "number": 24,
       "header": "#24-Averge",
       "difficulty": "Averge",
-      "prompt_html": "<img src=\"/static/generated/assets/linear-algebra/ch010/q0024_prompt.png\"/>",
+      "prompt_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{array}{l} \\text {二次型} f(x_{1},x_{2},x_{3})=-4x_{1}x_{2}+2x_{1}x_{3}+2x_{2}x_{3} \\text {经非奇异变换} \\\\ \\{ \\begin{array}{l} x_{1}=y_{1}+y_{2}+\\frac{1}{2}y_{3}, \\\\ x_{2}=y_{1}-y_{2}+\\frac{1}{2}y_{3}, \\\\ x_{3}=y_{3} \\end{array} \\text {所得到的} \\\\ \\text {的标准形是( ).} \\end{array}\">\\begin{array}{l} \\text {二次型} f(x_{1},x_{2},x_{3})=-4x_{1}x_{2}+2x_{1}x_{3}+2x_{2}x_{3} \\text {经非奇异变换} \\\\ \\{ \\begin{array}{l} x_{1}=y_{1}+y_{2}+\\frac{1}{2}y_{3}, \\\\ x_{2}=y_{1}-y_{2}+\\frac{1}{2}y_{3}, \\\\ x_{3}=y_{3} \\end{array} \\text {所得到的} \\\\ \\text {的标准形是( ).} \\end{array}</div>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/linear-algebra/ch010/q0024_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\, 4 y _ { 1 } ^ { 2 } - 4 y _ { 2 } ^ { 2 } + y _ { 3 } ^ { 2 } \\,\">\\, 4 y _ { 1 } ^ { 2 } - 4 y _ { 2 } ^ { 2 } + y _ { 3 } ^ { 2 } \\,</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/linear-algebra/ch010/q0024_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"- 4 y _ { 1 } ^ { 2 } + 4 y _ { 2 } ^ { 2 } + y _ { 3 } ^ { 2 }\">- 4 y _ { 1 } ^ { 2 } + 4 y _ { 2 } ^ { 2 } + y _ { 3 } ^ { 2 }</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/linear-algebra/ch010/q0024_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"- 4 y _ { 1 } ^ { 2 } - 4 y _ { 2 } ^ { 2 } + y _ { 3 } ^ { 2 }\">- 4 y _ { 1 } ^ { 2 } - 4 y _ { 2 } ^ { 2 } + y _ { 3 } ^ { 2 }</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/linear-algebra/ch010/q0024_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"- 4 y _ { 1 } ^ { 2 } + 4 y _ { 2 } ^ { 2 } - y _ { 3 } ^ { 2 }\">- 4 y _ { 1 } ^ { 2 } + 4 y _ { 2 } ^ { 2 } - y _ { 3 } ^ { 2 }</span>"
         }
       ],
       "answer": "B",
       "answer_index": 1,
-      "analysis_html": "<img src=\"/static/generated/assets/linear-algebra/ch010/q0024_analysis.png\"/>"
+      "analysis_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{aligned}&amp; \\text{有题设可知二次型的矩阵为} \\quad A=\\begin{pmatrix}0&amp;-2&amp;1\\\\-2&amp;0&amp;1\\\\1&amp;1&amp;0\\end{pmatrix}, \\text{经过的线性变换为} \\\\&amp; \\begin{pmatrix}x_{1}\\\\x_{2}\\\\x_{3}\\end{pmatrix}=\\begin{pmatrix}1&amp;1&amp;1/2\\\\1&amp;-1&amp;1/2\\\\0&amp;0&amp;1\\end{pmatrix}\\begin{pmatrix}y_{1}\\\\y_{2}\\\\y_{3}\\end{pmatrix} \\text{则变换后的二次型的矩阵为} \\\\&amp; \\quad C=B^{T}AB=\\begin{pmatrix}1&amp;1&amp;0\\\\1&amp;-1&amp;0\\\\1/2&amp;1/2&amp;1\\end{pmatrix}\\begin{pmatrix}0&amp;-2&amp;1\\\\-2&amp;0&amp;1\\\\1&amp;1&amp;0\\end{pmatrix}\\begin{pmatrix}1&amp;1&amp;1/2\\\\1&amp;-1&amp;1/2\\\\0&amp;0&amp;1\\end{pmatrix}=\\begin{pmatrix}-4&amp;0&amp;0\\\\0&amp;4&amp;0\\\\0&amp;0&amp;1\\end{pmatrix}, \\\\&amp; \\text{则变换后的二次型为} \\quad f\\left(y_{1},y_{2},y_{3}\\right)=-4y_{1}^{2}+4y_{2}^{2}+y_{3}^{2}.\\end{aligned}\">\\begin{aligned}&amp; \\text{有题设可知二次型的矩阵为} \\quad A=\\begin{pmatrix}0&amp;-2&amp;1\\\\-2&amp;0&amp;1\\\\1&amp;1&amp;0\\end{pmatrix}, \\text{经过的线性变换为} \\\\&amp; \\begin{pmatrix}x_{1}\\\\x_{2}\\\\x_{3}\\end{pmatrix}=\\begin{pmatrix}1&amp;1&amp;1/2\\\\1&amp;-1&amp;1/2\\\\0&amp;0&amp;1\\end{pmatrix}\\begin{pmatrix}y_{1}\\\\y_{2}\\\\y_{3}\\end{pmatrix} \\text{则变换后的二次型的矩阵为} \\\\&amp; \\quad C=B^{T}AB=\\begin{pmatrix}1&amp;1&amp;0\\\\1&amp;-1&amp;0\\\\1/2&amp;1/2&amp;1\\end{pmatrix}\\begin{pmatrix}0&amp;-2&amp;1\\\\-2&amp;0&amp;1\\\\1&amp;1&amp;0\\end{pmatrix}\\begin{pmatrix}1&amp;1&amp;1/2\\\\1&amp;-1&amp;1/2\\\\0&amp;0&amp;1\\end{pmatrix}=\\begin{pmatrix}-4&amp;0&amp;0\\\\0&amp;4&amp;0\\\\0&amp;0&amp;1\\end{pmatrix}, \\\\&amp; \\text{则变换后的二次型为} \\quad f\\left(y_{1},y_{2},y_{3}\\right)=-4y_{1}^{2}+4y_{2}^{2}+y_{3}^{2}.\\end{aligned}</div>"
     },
     {
       "id": "q0025",
       "number": 25,
       "header": "#25-Averge",
       "difficulty": "Averge",
-      "prompt_html": "<img src=\"/static/generated/assets/linear-algebra/ch010/q0025_prompt.png\"/>",
+      "prompt_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{array}{l} \\text{设二次型}f=x_{1}^{2}+x_{2}^{2}+x_{3}^{2}+2ax_{1}x_{2}+2bx_{2}x_{3}+2x_{1}x_{3} \\text{经正交变换}x=Qy, \\text{化成} \\\\ f=y_{2}^{2}+2y_{3}^{2}, \\text{则常数}a,b \\text{分别为( ).} \\end{array}\">\\begin{array}{l} \\text{设二次型}f=x_{1}^{2}+x_{2}^{2}+x_{3}^{2}+2ax_{1}x_{2}+2bx_{2}x_{3}+2x_{1}x_{3} \\text{经正交变换}x=Qy, \\text{化成} \\\\ f=y_{2}^{2}+2y_{3}^{2}, \\text{则常数}a,b \\text{分别为( ).} \\end{array}</div>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/linear-algebra/ch010/q0025_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\begin{array}{l} { r } { a = 0 , b = 1 } \\end{array}\">\\begin{array}{l} { r } { a = 0 , b = 1 } \\end{array}</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/linear-algebra/ch010/q0025_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\boldsymbol { a } { = } 1 , \\boldsymbol { b } { = } 0\">\\boldsymbol { a } { = } 1 , \\boldsymbol { b } { = } 0</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/linear-algebra/ch010/q0025_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\boldsymbol { a } { = } \\boldsymbol { b } { = } 1\">\\boldsymbol { a } { = } \\boldsymbol { b } { = } 1</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/linear-algebra/ch010/q0025_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\boldsymbol { a } = \\boldsymbol { b } = 0\">\\boldsymbol { a } = \\boldsymbol { b } = 0</span>"
         }
       ],
       "answer": "D",
       "answer_index": 3,
-      "analysis_html": "<img src=\"/static/generated/assets/linear-algebra/ch010/q0025_analysis.png\"/>"
+      "analysis_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{aligned}&amp;\\text{经变换前后二次型矩阵分别为}\\\\&amp;A=\\begin{pmatrix}1&amp;a&amp;1\\\\a&amp;1&amp;b\\\\1&amp;b&amp;1\\end{pmatrix},B=\\begin{pmatrix}0&amp;0&amp;0\\\\0&amp;1&amp;0\\\\0&amp;0&amp;2\\end{pmatrix},\\\\&amp;\\text{则}A\\text{与}B\\text{是相似矩阵}，\\text{故}|\\lambda E-A|=|\\lambda E-B|，\\text{即}\\\\&amp;\\lambda^3-3\\lambda \\lambda^2+(2-a^2-b^2)\\lambda\\;+(a-b)^2=\\lambda^3-3\\lambda^2+2\\lambda.\\\\&amp;\\text{所以}a=b,a^2+b^2=0，\\text{因此}a=b=0。\\end{aligned}\">\\begin{aligned}&amp;\\text{经变换前后二次型矩阵分别为}\\\\&amp;A=\\begin{pmatrix}1&amp;a&amp;1\\\\a&amp;1&amp;b\\\\1&amp;b&amp;1\\end{pmatrix},B=\\begin{pmatrix}0&amp;0&amp;0\\\\0&amp;1&amp;0\\\\0&amp;0&amp;2\\end{pmatrix},\\\\&amp;\\text{则}A\\text{与}B\\text{是相似矩阵}，\\text{故}|\\lambda E-A|=|\\lambda E-B|，\\text{即}\\\\&amp;\\lambda^3-3\\lambda \\lambda^2+(2-a^2-b^2)\\lambda\\;+(a-b)^2=\\lambda^3-3\\lambda^2+2\\lambda.\\\\&amp;\\text{所以}a=b,a^2+b^2=0，\\text{因此}a=b=0。\\end{aligned}</div>"
     },
     {
       "id": "q0026",
       "number": 26,
       "header": "#26-Averge",
       "difficulty": "Averge",
-      "prompt_html": "<img src=\"/static/generated/assets/linear-algebra/ch010/q0026_prompt.png\"/>",
+      "prompt_html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{二次型}f(x_{1},x_{2},x_{3})=x_{1}^{2}+2x_{2}^{2}-6x_{1}x_{3}+9x_{3}^{2} \\text{的标准形是( }.\">\\text{二次型}f(x_{1},x_{2},x_{3})=x_{1}^{2}+2x_{2}^{2}-6x_{1}x_{3}+9x_{3}^{2} \\text{的标准形是( }.</span>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/linear-algebra/ch010/q0026_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"3 y _ { 2 } ^ { 2 }\">3 y _ { 2 } ^ { 2 }</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/linear-algebra/ch010/q0026_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"y_{1}^{2} + 2y_{2}^{2} - y_{3}^{2}\">y_{1}^{2} + 2y_{2}^{2} - y_{3}^{2}</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/linear-algebra/ch010/q0026_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"y_{1}^{2} + 2y_{2}^{2}\">y_{1}^{2} + 2y_{2}^{2}</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/linear-algebra/ch010/q0026_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"- y _ { 1 } ^ { 2 } - 2 y _ { 2 } ^ { 2 }\">- y _ { 1 } ^ { 2 } - 2 y _ { 2 } ^ { 2 }</span>"
         }
       ],
       "answer": "C",
       "answer_index": 2,
-      "analysis_html": "<img src=\"/static/generated/assets/linear-algebra/ch010/q0026_analysis.png\"/>"
+      "analysis_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{aligned}f(x_{1},x_{2},x_{3})&amp;=x_{1}^{2}+2x_{2}^{2}-6x_{1}x_{3}+9x_{3}^{2}=\\left(x_{1}-3x_{3}\\right)^{2}+2x_{2}^{2}.\\end{aligned}\">\\begin{aligned}f(x_{1},x_{2},x_{3})&amp;=x_{1}^{2}+2x_{2}^{2}-6x_{1}x_{3}+9x_{3}^{2}=\\left(x_{1}-3x_{3}\\right)^{2}+2x_{2}^{2}.\\end{aligned}</div>"
     },
     {
       "id": "q0027",
       "number": 27,
       "header": "#27-Averge",
       "difficulty": "Averge",
-      "prompt_html": "<img src=\"/static/generated/assets/linear-algebra/ch010/q0027_prompt.png\"/>",
+      "prompt_html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{二次型}f(x_{1},x_{2})=5x_{1}^{2}+5x_{2}^{2}+8x_{1}x_{2}\\text{在}x_{1}^{2}+x_{2}^{2}=1\\text{的条件下的最小值等于( }.\">\\text{二次型}f(x_{1},x_{2})=5x_{1}^{2}+5x_{2}^{2}+8x_{1}x_{2}\\text{在}x_{1}^{2}+x_{2}^{2}=1\\text{的条件下的最小值等于( }.</span>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/linear-algebra/ch010/q0027_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"_{\\text{ - 2 }}\">_{\\text{ - 2 }}</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/linear-algebra/ch010/q0027_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\frac { 3 } { 2 }\">\\frac { 3 } { 2 }</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/linear-algebra/ch010/q0027_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\mathbf { 1 }\">\\mathbf { 1 }</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/linear-algebra/ch010/q0027_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\boldsymbol { 0 }\">\\boldsymbol { 0 }</span>"
         }
       ],
       "answer": "C",
       "answer_index": 2,
-      "analysis_html": "<img src=\"/static/generated/assets/linear-algebra/ch010/q0027_analysis.png\"/>"
+      "analysis_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{aligned}\\text{二次型的矩阵为} \\quad A=\\begin{pmatrix}5&amp;4\\\\4&amp;5\\end{pmatrix},\\quad \\text{易求得矩阵}A\\text{的特征值为}\\lambda_{1}=9,\\lambda_{2}=1,\\quad \\text{故二次型} \\quad f(x_{1},x_{2})=5x_{1}^{2}+5x_{2}^{2}+8x_{1}x_{2}\\text{在条件}x_{1}^{2}+x_{2}^{2}=1\\text{下的最小值为}1.\\end{aligned}\">\\begin{aligned}\\text{二次型的矩阵为} \\quad A=\\begin{pmatrix}5&amp;4\\\\4&amp;5\\end{pmatrix},\\quad \\text{易求得矩阵}A\\text{的特征值为}\\lambda_{1}=9,\\lambda_{2}=1,\\quad \\text{故二次型} \\quad f(x_{1},x_{2})=5x_{1}^{2}+5x_{2}^{2}+8x_{1}x_{2}\\text{在条件}x_{1}^{2}+x_{2}^{2}=1\\text{下的最小值为}1.\\end{aligned}</div>"
     },
     {
       "id": "q0028",
       "number": 28,
       "header": "#28-Averge",
       "difficulty": "Averge",
-      "prompt_html": "<img src=\"/static/generated/assets/linear-algebra/ch010/q0028_prompt.png\"/>",
+      "prompt_html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{已知二次型}f(x_{1},x_{2},x_{3})=x_{1}^{2}+2x_{2}^{2}+ax_{3}^{2}-4x_{1}x_{2}\\text{经过正交变换可化为标准形}f=6y_{1}^{2},\\text{则}a\\text{等于( }.\">\\text{已知二次型}f(x_{1},x_{2},x_{3})=x_{1}^{2}+2x_{2}^{2}+ax_{3}^{2}-4x_{1}x_{2}\\text{经过正交变换可化为标准形}f=6y_{1}^{2},\\text{则}a\\text{等于( }.</span>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/linear-algebra/ch010/q0028_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"2\">2</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/linear-algebra/ch010/q0028_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\mathbf { 1 }\">\\mathbf { 1 }</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/linear-algebra/ch010/q0028_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"4\">4</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/linear-algebra/ch010/q0028_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"3\">3</span>"
         }
       ],
       "answer": "D",
       "answer_index": 3,
-      "analysis_html": "<img src=\"/static/generated/assets/linear-algebra/ch010/q0028_analysis.png\"/>"
+      "analysis_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\text{二次型的矩阵为} \\, A = \\begin{pmatrix} 1 &amp; -2 &amp; 0 \\\\ -2 &amp; 2 &amp; 0 \\\\ 0 &amp; 0 &amp; a \\end{pmatrix}, \\, \\, 1 + 2 + a = 6 \\, , \\, \\, \\text{故} \\, a = 3 .\">\\text{二次型的矩阵为} \\, A = \\begin{pmatrix} 1 &amp; -2 &amp; 0 \\\\ -2 &amp; 2 &amp; 0 \\\\ 0 &amp; 0 &amp; a \\end{pmatrix}, \\, \\, 1 + 2 + a = 6 \\, , \\, \\, \\text{故} \\, a = 3 .</div>"
     },
     {
       "id": "q0029",
       "number": 29,
       "header": "#29-Averge",
       "difficulty": "Averge",
-      "prompt_html": "<img src=\"/static/generated/assets/linear-algebra/ch010/q0029_prompt.png\"/>",
+      "prompt_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{array}{l} \\text {已知二次型}f(x_{1},x_{2},x_{3})=2x_{1}^{2}+3x_{2}^{2}+3x_{3}^{2}+2ax_{2}x_{3}(a&gt;0),\\text {通过正交变换化成标准形} \\\\ f(y_{1},y_{2},y_{3})=y_{1}^{2}+2y_{2}^{2}+5y_{3}^{2},\\text {则}a=(\\quad). \\end{array}\">\\begin{array}{l} \\text {已知二次型}f(x_{1},x_{2},x_{3})=2x_{1}^{2}+3x_{2}^{2}+3x_{3}^{2}+2ax_{2}x_{3}(a&gt;0),\\text {通过正交变换化成标准形} \\\\ f(y_{1},y_{2},y_{3})=y_{1}^{2}+2y_{2}^{2}+5y_{3}^{2},\\text {则}a=(\\quad). \\end{array}</div>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/linear-algebra/ch010/q0029_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"^ { - 2 }\">^ { - 2 }</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/linear-algebra/ch010/q0029_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"4\">4</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/linear-algebra/ch010/q0029_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\mathbf { 1 }\">\\mathbf { 1 }</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/linear-algebra/ch010/q0029_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"2\">2</span>"
         }
       ],
       "answer": "D",
       "answer_index": 3,
-      "analysis_html": "<img src=\"/static/generated/assets/linear-algebra/ch010/q0029_analysis.png\"/>"
+      "analysis_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{aligned} \\text{二次型}f \\text{对应的实对称阵}A=\\begin{pmatrix}2&amp;0&amp;0\\\\0&amp;3&amp;a\\\\0&amp;a&amp;3\\end{pmatrix},\\text{由标准形可知}A\\text{的特征值为}\\\\ \\lambda_{1}=1,\\lambda_{2}=2,\\lambda_{3}=5,\\text{所以}|\\boldsymbol{A}|=\\lambda_{1}\\lambda_{2}\\lambda_{3}=10,\\text{故}|\\boldsymbol{A}|=2(9-a^{2})=10.\\text{因此}a=2(\\text{舍}-2).\\end{aligned}\">\\begin{aligned} \\text{二次型}f \\text{对应的实对称阵}A=\\begin{pmatrix}2&amp;0&amp;0\\\\0&amp;3&amp;a\\\\0&amp;a&amp;3\\end{pmatrix},\\text{由标准形可知}A\\text{的特征值为}\\\\ \\lambda_{1}=1,\\lambda_{2}=2,\\lambda_{3}=5,\\text{所以}|\\boldsymbol{A}|=\\lambda_{1}\\lambda_{2}\\lambda_{3}=10,\\text{故}|\\boldsymbol{A}|=2(9-a^{2})=10.\\text{因此}a=2(\\text{舍}-2).\\end{aligned}</div>"
     },
     {
       "id": "q0030",
       "number": 30,
       "header": "#30-Averge",
       "difficulty": "Averge",
-      "prompt_html": "<img src=\"/static/generated/assets/linear-algebra/ch010/q0030_prompt.png\"/>",
+      "prompt_html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{二次型}f(x_{1},x_{2})=2x_{1}^{2}+2x_{2}^{2}-2x_{1}x_{2},\\text{在条件}x_{1}^{2}+x_{2}^{2}=1 \\text{下的最小值等于( }.\">\\text{二次型}f(x_{1},x_{2})=2x_{1}^{2}+2x_{2}^{2}-2x_{1}x_{2},\\text{在条件}x_{1}^{2}+x_{2}^{2}=1 \\text{下的最小值等于( }.</span>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/linear-algebra/ch010/q0030_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\mathbf { 0 }\">\\mathbf { 0 }</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/linear-algebra/ch010/q0030_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"2\">2</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/linear-algebra/ch010/q0030_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\mathbf { 3 }\">\\mathbf { 3 }</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/linear-algebra/ch010/q0030_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\mathbf { 1 }\">\\mathbf { 1 }</span>"
         }
       ],
       "answer": "D",
       "answer_index": 3,
-      "analysis_html": "<img src=\"/static/generated/assets/linear-algebra/ch010/q0030_analysis.png\"/>"
+      "analysis_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{aligned}&amp; \\text{二次型}f\\text{的矩阵为}A=\\begin{pmatrix}2&amp;-1\\\\-1&amp;2\\end{pmatrix},\\text{易求得}A\\text{的特征值为}\\lambda_{1}=1,\\lambda_{2}=3,\\text{故}f\\text{可通过正交变换化为标准形}f=y_{1}^{2}+3y_{2}^{2},\\\\&amp; \\text{由于正交变换不改变向量的长度，故}\\|y\\|=\\|x\\|=1,\\text{即}x_{1}^{2}+x_{2}^{2}=1\\text{时，}y_{1}^{2}+y_{2}^{2}=1,\\text{取}\\\\&amp; y_{1}=1,y_{2}=0,f\\text{取最小值为}1.\\end{aligned}\">\\begin{aligned}&amp; \\text{二次型}f\\text{的矩阵为}A=\\begin{pmatrix}2&amp;-1\\\\-1&amp;2\\end{pmatrix},\\text{易求得}A\\text{的特征值为}\\lambda_{1}=1,\\lambda_{2}=3,\\text{故}f\\text{可通过正交变换化为标准形}f=y_{1}^{2}+3y_{2}^{2},\\\\&amp; \\text{由于正交变换不改变向量的长度，故}\\|y\\|=\\|x\\|=1,\\text{即}x_{1}^{2}+x_{2}^{2}=1\\text{时，}y_{1}^{2}+y_{2}^{2}=1,\\text{取}\\\\&amp; y_{1}=1,y_{2}=0,f\\text{取最小值为}1.\\end{aligned}</div>"
     },
     {
       "id": "q0031",
       "number": 31,
       "header": "#31-Averge",
       "difficulty": "Averge",
-      "prompt_html": "<img src=\"/static/generated/assets/linear-algebra/ch010/q0031_prompt.png\"/>",
+      "prompt_html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{二次型}f(x_{1},x_{2})=2x_{1}x_{2}\\ \\text{在条件}x_{1}^{2}+x_{2}^{2}=1 \\text{下的最小值等于( \\ \\ )}.\">\\text{二次型}f(x_{1},x_{2})=2x_{1}x_{2}\\ \\text{在条件}x_{1}^{2}+x_{2}^{2}=1 \\text{下的最小值等于( \\ \\ )}.</span>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/linear-algebra/ch010/q0031_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\frac { 1 } { 2 }\">\\frac { 1 } { 2 }</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/linear-algebra/ch010/q0031_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\mathbf { 1 }\">\\mathbf { 1 }</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/linear-algebra/ch010/q0031_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\boldsymbol { 0 }\">\\boldsymbol { 0 }</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/linear-algebra/ch010/q0031_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\substack{\\text{- 1}}\">\\substack{\\text{- 1}}</span>"
         }
       ],
       "answer": "D",
       "answer_index": 3,
-      "analysis_html": "<img src=\"/static/generated/assets/linear-algebra/ch010/q0031_analysis.png\"/>"
+      "analysis_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{aligned}&amp;\\text{二次型}f\\text{的矩阵为}A=\\begin{pmatrix}0&amp;1\\\\1&amp;0\\end{pmatrix},\\text{易求得矩阵}A\\text{的特征值为}\\lambda_2=1,\\ \\lambda_2=-1,\\text{故二次型可由正交变换可化为标准形}f=y_1^2-y_2^2.\\ \\\\&amp;\\text{由于正交变换不改变向量的长度，即}\\|x\\|=\\|y\\|=1,\\text{当}x_1^2+x_2^2=1,\\ y_1^2+y_2^2=1,\\text{取} \\\\&amp;y_1=0,y_2=1,\\text{则可得到}f\\text{的最小值为}-1。\\end{aligned}\">\\begin{aligned}&amp;\\text{二次型}f\\text{的矩阵为}A=\\begin{pmatrix}0&amp;1\\\\1&amp;0\\end{pmatrix},\\text{易求得矩阵}A\\text{的特征值为}\\lambda_2=1,\\ \\lambda_2=-1,\\text{故二次型可由正交变换可化为标准形}f=y_1^2-y_2^2.\\ \\\\&amp;\\text{由于正交变换不改变向量的长度，即}\\|x\\|=\\|y\\|=1,\\text{当}x_1^2+x_2^2=1,\\ y_1^2+y_2^2=1,\\text{取} \\\\&amp;y_1=0,y_2=1,\\text{则可得到}f\\text{的最小值为}-1。\\end{aligned}</div>"
     },
     {
       "id": "q0032",
       "number": 32,
       "header": "#32-Averge",
       "difficulty": "Averge",
-      "prompt_html": "<img src=\"/static/generated/assets/linear-algebra/ch010/q0032_prompt.png\"/>",
+      "prompt_html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{二次型}f(x_{1},x_{2})=2x_{1}x_{2} \\text{的标准形是( }.\">\\text{二次型}f(x_{1},x_{2})=2x_{1}x_{2} \\text{的标准形是( }.</span>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/linear-algebra/ch010/q0032_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"y_{1}^{2}-y_{2}^{2}\">y_{1}^{2}-y_{2}^{2}</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/linear-algebra/ch010/q0032_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"y_{1}^{2}+y_{2}^{2}\">y_{1}^{2}+y_{2}^{2}</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/linear-algebra/ch010/q0032_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"- y _ { 1 } ^ { 2 } - y _ { 2 } ^ { 2 }\">- y _ { 1 } ^ { 2 } - y _ { 2 } ^ { 2 }</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/linear-algebra/ch010/q0032_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"3 y _ { 1 } ^ { 2 }\">3 y _ { 1 } ^ { 2 }</span>"
         }
       ],
       "answer": "A",
       "answer_index": 0,
-      "analysis_html": "<img src=\"/static/generated/assets/linear-algebra/ch010/q0032_analysis.png\"/>"
+      "analysis_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{aligned}&amp;\\text{令}x_{1}=z_{1}-z_{2},x_{2}=z_{1}+z_{2},\\ \\text{则}f(x_{1},x_{2})=2x_{1}x_{2}=2z_{1}^{2}-2z_{2}^{2},\\\\&amp;\\text{故二次型}f\\text{的秩为}2,\\text{正惯性指数与负惯性指数都为}1,\\text{符合条件的为}y_{1}^{2}-y_{2}^{2}.\\end{aligned}\">\\begin{aligned}&amp;\\text{令}x_{1}=z_{1}-z_{2},x_{2}=z_{1}+z_{2},\\ \\text{则}f(x_{1},x_{2})=2x_{1}x_{2}=2z_{1}^{2}-2z_{2}^{2},\\\\&amp;\\text{故二次型}f\\text{的秩为}2,\\text{正惯性指数与负惯性指数都为}1,\\text{符合条件的为}y_{1}^{2}-y_{2}^{2}.\\end{aligned}</div>"
     },
     {
       "id": "q0033",
       "number": 33,
       "header": "#33-Averge",
       "difficulty": "Averge",
-      "prompt_html": "<img src=\"/static/generated/assets/linear-algebra/ch010/q0033_prompt.png\"/>",
+      "prompt_html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{二次型}f(x_{1},x_{2})=2x_{1}^{2}+2x_{2}^{2}-2x_{1}x_{2} \\text{的标准形是( }.\">\\text{二次型}f(x_{1},x_{2})=2x_{1}^{2}+2x_{2}^{2}-2x_{1}x_{2} \\text{的标准形是( }.</span>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/linear-algebra/ch010/q0033_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"2 y _ { 1 } ^ { 2 }\">2 y _ { 1 } ^ { 2 }</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/linear-algebra/ch010/q0033_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"3 y _ { 2 } ^ { 2 }\">3 y _ { 2 } ^ { 2 }</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/linear-algebra/ch010/q0033_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\begin{array}{l} { r } { y _ { 1 } ^ { 2 } + 3 y _ { 2 } ^ { 2 } } \\end{array}\">\\begin{array}{l} { r } { y _ { 1 } ^ { 2 } + 3 y _ { 2 } ^ { 2 } } \\end{array}</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/linear-algebra/ch010/q0033_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"- y _ { 1 } ^ { 2 } - 3 y _ { 2 } ^ { 2 }\">- y _ { 1 } ^ { 2 } - 3 y _ { 2 } ^ { 2 }</span>"
         }
       ],
       "answer": "C",
       "answer_index": 2,
-      "analysis_html": "<img src=\"/static/generated/assets/linear-algebra/ch010/q0033_analysis.png\"/>"
+      "analysis_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{aligned}f\\bigl(x_{1},x_{2}\\bigr)&amp;=2x_{1}^{2}+2x_{2}^{2}-2x_{1}x_{2}=2\\biggl(x_{1}^{2}-x_{1}x_{2}+\\frac{1}{4}x_{2}^{2}\\biggr)+\\frac{3}{2}x_{2}^{2}=2z_{1}^{2}+\\frac{3}{2}z_{2}^{2}, \\end{aligned}  \\text{虽然二次型的标准形不唯一}，\\text{但惯性指数和秩是由二次型本身唯一确定的}，\\text{二次型}f\\text{的秩和正惯性指数均为}2，\\text{符合条件的只有}y_{1}^{2}+3y_{2}^{2}.\">\\begin{aligned}f\\bigl(x_{1},x_{2}\\bigr)&amp;=2x_{1}^{2}+2x_{2}^{2}-2x_{1}x_{2}=2\\biggl(x_{1}^{2}-x_{1}x_{2}+\\frac{1}{4}x_{2}^{2}\\biggr)+\\frac{3}{2}x_{2}^{2}=2z_{1}^{2}+\\frac{3}{2}z_{2}^{2}, \\end{aligned}  \\text{虽然二次型的标准形不唯一}，\\text{但惯性指数和秩是由二次型本身唯一确定的}，\\text{二次型}f\\text{的秩和正惯性指数均为}2，\\text{符合条件的只有}y_{1}^{2}+3y_{2}^{2}.</div>"
     },
     {
       "id": "q0034",
       "number": 34,
       "header": "#34-Averge",
       "difficulty": "Averge",
-      "prompt_html": "<img src=\"/static/generated/assets/linear-algebra/ch010/q0034_prompt.png\"/>",
+      "prompt_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{array}{l} \\text {二次型} f(x_{1},x_{2},x_{3})=2x_{1}^{2}+x_{2}^{2}+x_{3}^{2}+2x_{1}x_{3}+2x_{1}x_{2}, \\text {在条件}x_{1}^{2}+x_{2}^{2}+x_{3}^{2}=1 \\text {下的最小值等于( } \\quad.). \\end{array}\">\\begin{array}{l} \\text {二次型} f(x_{1},x_{2},x_{3})=2x_{1}^{2}+x_{2}^{2}+x_{3}^{2}+2x_{1}x_{3}+2x_{1}x_{2}, \\text {在条件}x_{1}^{2}+x_{2}^{2}+x_{3}^{2}=1 \\text {下的最小值等于( } \\quad.). \\end{array}</div>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/linear-algebra/ch010/q0034_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\mathbf { 0 }\">\\mathbf { 0 }</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/linear-algebra/ch010/q0034_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\textcolor{blue}{3}\">\\textcolor{blue}{3}</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/linear-algebra/ch010/q0034_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\mathbf { 1 }\">\\mathbf { 1 }</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/linear-algebra/ch010/q0034_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"2\">2</span>"
         }
       ],
       "answer": "A",
       "answer_index": 0,
-      "analysis_html": "<img src=\"/static/generated/assets/linear-algebra/ch010/q0034_analysis.png\"/>"
+      "analysis_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{aligned}&amp;\\text{二次型的矩阵为}A=\\begin{pmatrix}2&amp;1&amp;1\\\\1&amp;1&amp;0\\\\1&amp;0&amp;1\\end{pmatrix},\\text{易求得}A\\text{的特征值为}\\lambda_{1}=3,\\lambda_{2}=1,\\lambda_{3}=0,\\text{故}f\\text{可通过正交变换}x=P_{y}y\\text{化为标准形}f=3y_{1}^{2}+y_{2}^{2},\\\\&amp;\\text{由于正交变换不改变向量的长度，故}\\|x\\|= \\|P_{y}y\\|=\\|y\\|=1,\\text{即}x_{1}^{2}+x_{2}^{2}+x_{3}^{2}=1\\text{时，}y_{1}^{2}+y_{2}^{2}+y_{3}^{2}=1,\\text{取}y_{1}=0,y_{2}=0,y_{3}=1,\\text{则}f\\text{取最小值为}0.\\end{aligned}\">\\begin{aligned}&amp;\\text{二次型的矩阵为}A=\\begin{pmatrix}2&amp;1&amp;1\\\\1&amp;1&amp;0\\\\1&amp;0&amp;1\\end{pmatrix},\\text{易求得}A\\text{的特征值为}\\lambda_{1}=3,\\lambda_{2}=1,\\lambda_{3}=0,\\text{故}f\\text{可通过正交变换}x=P_{y}y\\text{化为标准形}f=3y_{1}^{2}+y_{2}^{2},\\\\&amp;\\text{由于正交变换不改变向量的长度，故}\\|x\\|= \\|P_{y}y\\|=\\|y\\|=1,\\text{即}x_{1}^{2}+x_{2}^{2}+x_{3}^{2}=1\\text{时，}y_{1}^{2}+y_{2}^{2}+y_{3}^{2}=1,\\text{取}y_{1}=0,y_{2}=0,y_{3}=1,\\text{则}f\\text{取最小值为}0.\\end{aligned}</div>"
     },
     {
       "id": "q0035",
       "number": 35,
       "header": "#35-Averge",
       "difficulty": "Averge",
-      "prompt_html": "<img src=\"/static/generated/assets/linear-algebra/ch010/q0035_prompt.png\"/>",
+      "prompt_html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{二次型}f(x_{1},x_{2},x_{3})=x_{1}^{2}+x_{2}^{2}+2x_{3}^{2}-2x_{1}x_{2}+4x_{1}x_{3}+4x_{2}x_{3}\\text{在}x_{1}^{2}+x_{2}^{2}+x_{3}^{2}=1\\text{的条件下的取值范围是( ).}\">\\text{二次型}f(x_{1},x_{2},x_{3})=x_{1}^{2}+x_{2}^{2}+2x_{3}^{2}-2x_{1}x_{2}+4x_{1}x_{3}+4x_{2}x_{3}\\text{在}x_{1}^{2}+x_{2}^{2}+x_{3}^{2}=1\\text{的条件下的取值范围是( ).}</span>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/linear-algebra/ch010/q0035_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\left( - 2 , 4 \\right)\">\\left( - 2 , 4 \\right)</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/linear-algebra/ch010/q0035_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\left[ - 2 , 4 \\right]\">\\left[ - 2 , 4 \\right]</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/linear-algebra/ch010/q0035_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\left[ - 2 , 2 \\right]\">\\left[ - 2 , 2 \\right]</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/linear-algebra/ch010/q0035_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\left[ 2 , 4 \\right]\">\\left[ 2 , 4 \\right]</span>"
         }
       ],
       "answer": "B",
       "answer_index": 1,
-      "analysis_html": "<img src=\"/static/generated/assets/linear-algebra/ch010/q0035_analysis.png\"/>"
+      "analysis_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{aligned}&amp; \\text{二次型的矩阵为} \\boldsymbol{A}=\\begin{pmatrix}1 &amp; -1 &amp; 2 \\\\ -1 &amp; 1 &amp; 2 \\\\ 2 &amp; 2 &amp; 2\\end{pmatrix}, \\text{易求得矩阵} \\boldsymbol{A} \\text{的特征值为} \\lambda_{1}=2, \\lambda_{2}=-2, \\lambda_{3}=4 \\text{，故} \\\\&amp; \\text{在条件} x_{1}^{2}+x_{2}^{2}+x_{3}^{2}=1 \\text{之下，} f \\text{的取值范围是} [-2,4].\\end{aligned}\">\\begin{aligned}&amp; \\text{二次型的矩阵为} \\boldsymbol{A}=\\begin{pmatrix}1 &amp; -1 &amp; 2 \\\\ -1 &amp; 1 &amp; 2 \\\\ 2 &amp; 2 &amp; 2\\end{pmatrix}, \\text{易求得矩阵} \\boldsymbol{A} \\text{的特征值为} \\lambda_{1}=2, \\lambda_{2}=-2, \\lambda_{3}=4 \\text{，故} \\\\&amp; \\text{在条件} x_{1}^{2}+x_{2}^{2}+x_{3}^{2}=1 \\text{之下，} f \\text{的取值范围是} [-2,4].\\end{aligned}</div>"
     },
     {
       "id": "q0036",
       "number": 36,
       "header": "#36-Averge",
       "difficulty": "Averge",
-      "prompt_html": "<img src=\"/static/generated/assets/linear-algebra/ch010/q0036_prompt.png\"/>",
+      "prompt_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\text{设} \\, A = \\begin{pmatrix} 1 &amp; 1 &amp; 1 \\\\ 1 &amp; 1 &amp; 1 \\\\ 1 &amp; 1 &amp; 1 \\end{pmatrix}, B = \\begin{pmatrix} 3 &amp; 0 &amp; 0 \\\\ 0 &amp; 0 &amp; 0 \\\\ 0 &amp; 0 &amp; 0 \\end{pmatrix}, \\text{则} \\, A \\text{与} B (\\quad).\">\\text{设} \\, A = \\begin{pmatrix} 1 &amp; 1 &amp; 1 \\\\ 1 &amp; 1 &amp; 1 \\\\ 1 &amp; 1 &amp; 1 \\end{pmatrix}, B = \\begin{pmatrix} 3 &amp; 0 &amp; 0 \\\\ 0 &amp; 0 &amp; 0 \\\\ 0 &amp; 0 &amp; 0 \\end{pmatrix}, \\text{则} \\, A \\text{与} B (\\quad).</div>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/linear-algebra/ch010/q0036_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{不合同且不相似}\">\\text{不合同且不相似}</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/linear-algebra/ch010/q0036_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{合同且不相似}\">\\text{合同且不相似}</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/linear-algebra/ch010/q0036_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{不合同且相似}\">\\text{不合同且相似}</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/linear-algebra/ch010/q0036_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{合同且相似}\">\\text{合同且相似}</span>"
         }
       ],
       "answer": "D",
       "answer_index": 3,
-      "analysis_html": "<img src=\"/static/generated/assets/linear-algebra/ch010/q0036_analysis.png\"/>"
+      "analysis_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{array}{l}A \\text { 的特征多项式为 } | \\lambda E - A | = \\lambda ^{2} \\left( \\lambda - 3 \\right) , \\text { 因此 } A \\text { 的特征值为 } \\lambda _{1} = 3, \\lambda _{2} = \\lambda _{3} = 0 . \\text { 又 } A \\text { 是对称矩阵, 因此存在正交矩阵 } P , \\text { 使得 } P ^{-1} A P = B , \\text { 即 } A \\text { 与 } B \\text { 相似又由于正交矩阵 } P ^{-1} = P ^{T}, \\\\ \\text { 因此 } P ^{T} A P = B , \\text { 即 } A \\text { 与 } B \\text { 合同}. \\end{array}\">\\begin{array}{l}A \\text { 的特征多项式为 } | \\lambda E - A | = \\lambda ^{2} \\left( \\lambda - 3 \\right) , \\text { 因此 } A \\text { 的特征值为 } \\lambda _{1} = 3, \\lambda _{2} = \\lambda _{3} = 0 . \\text { 又 } A \\text { 是对称矩阵, 因此存在正交矩阵 } P , \\text { 使得 } P ^{-1} A P = B , \\text { 即 } A \\text { 与 } B \\text { 相似又由于正交矩阵 } P ^{-1} = P ^{T}, \\\\ \\text { 因此 } P ^{T} A P = B , \\text { 即 } A \\text { 与 } B \\text { 合同}. \\end{array}</div>"
     },
     {
       "id": "q0037",
       "number": 37,
       "header": "#37-Averge",
       "difficulty": "Averge",
-      "prompt_html": "<img src=\"/static/generated/assets/linear-algebra/ch010/q0037_prompt.png\"/>",
+      "prompt_html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{二次型}f(x_{1},x_{2},x_{3})=x_{1}^{2}+x_{2}^{2}+x_{3}^{2}+2x_{1}x_{2}+2x_{1}x_{3}+2x_{2}x_{3}\\text{的标准形是}( \\quad).\">\\text{二次型}f(x_{1},x_{2},x_{3})=x_{1}^{2}+x_{2}^{2}+x_{3}^{2}+2x_{1}x_{2}+2x_{1}x_{3}+2x_{2}x_{3}\\text{的标准形是}( \\quad).</span>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/linear-algebra/ch010/q0037_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\, y _ { 1 } ^ { 2 } + y _ { 2 } ^ { 2 } \\,\">\\, y _ { 1 } ^ { 2 } + y _ { 2 } ^ { 2 } \\,</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/linear-algebra/ch010/q0037_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"- y _ { 1 } ^ { 2 } - y _ { 2 } ^ { 2 } - y _ { 3 } ^ { 2 }\">- y _ { 1 } ^ { 2 } - y _ { 2 } ^ { 2 } - y _ { 3 } ^ { 2 }</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/linear-algebra/ch010/q0037_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"y_{1}^{2}-y_{2}^{2}\">y_{1}^{2}-y_{2}^{2}</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/linear-algebra/ch010/q0037_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"3 y _ { 1 } ^ { 2 }\">3 y _ { 1 } ^ { 2 }</span>"
         }
       ],
       "answer": "D",
       "answer_index": 3,
-      "analysis_html": "<img src=\"/static/generated/assets/linear-algebra/ch010/q0037_analysis.png\"/>"
+      "analysis_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{array}{l} \\text {二次型的矩阵为} A = ( \\begin{array}{c c c} 1 &amp; 1 &amp; 1 \\\\ 1 &amp; 1 &amp; 1 \\\\ 1 &amp; 1 &amp; 1 \\end{array} . \\text {由于} r(A) = 1 \\text {故二次型的秩为} 1 , \\text {即二次型的标准形只有一} \\\\ \\text {项平方项的系数非零,由于二次型用正交变换化为标准形的系数为矩阵} A \\text {的特征值,故} A \\text {只有一个非零特征值,又矩阵的特征值之和等于对角元素之和,则非零特征值为} 3 , \\text {标准形为} \\\\ 3 y_{1}^{2}. \\end{array}\">\\begin{array}{l} \\text {二次型的矩阵为} A = ( \\begin{array}{c c c} 1 &amp; 1 &amp; 1 \\\\ 1 &amp; 1 &amp; 1 \\\\ 1 &amp; 1 &amp; 1 \\end{array} . \\text {由于} r(A) = 1 \\text {故二次型的秩为} 1 , \\text {即二次型的标准形只有一} \\\\ \\text {项平方项的系数非零,由于二次型用正交变换化为标准形的系数为矩阵} A \\text {的特征值,故} A \\text {只有一个非零特征值,又矩阵的特征值之和等于对角元素之和,则非零特征值为} 3 , \\text {标准形为} \\\\ 3 y_{1}^{2}. \\end{array}</div>"
     },
     {
       "id": "q0038",
       "number": 38,
       "header": "#38-Averge",
       "difficulty": "Averge",
-      "prompt_html": "<img src=\"/static/generated/assets/linear-algebra/ch010/q0038_prompt.png\"/>",
+      "prompt_html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{二次型}f(x_{1},x_{2},x_{3})=x_{1}^{2}+2x_{2}^{2}+3x_{3}^{2}+2x_{1}x_{2}-2x_{2}x_{3}\\text{的标准形是}( \\quad).\">\\text{二次型}f(x_{1},x_{2},x_{3})=x_{1}^{2}+2x_{2}^{2}+3x_{3}^{2}+2x_{1}x_{2}-2x_{2}x_{3}\\text{的标准形是}( \\quad).</span>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/linear-algebra/ch010/q0038_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"2 y _ { 1 } ^ { 2 }\">2 y _ { 1 } ^ { 2 }</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/linear-algebra/ch010/q0038_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"y_{1}^{2}+y_{2}^{2}+2y_{3}^{2}\">y_{1}^{2}+y_{2}^{2}+2y_{3}^{2}</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/linear-algebra/ch010/q0038_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\begin{array}{l} 3 y _ {1} ^ {2}. \\end{array}\">\\begin{array}{l} 3 y _ {1} ^ {2}. \\end{array}</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/linear-algebra/ch010/q0038_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"- y _ { 1 } ^ { 2 } - y _ { 2 } ^ { 2 }\">- y _ { 1 } ^ { 2 } - y _ { 2 } ^ { 2 }</span>"
         }
       ],
       "answer": "B",
       "answer_index": 1,
-      "analysis_html": "<img src=\"/static/generated/assets/linear-algebra/ch010/q0038_analysis.png\"/>"
+      "analysis_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{aligned}f\\bigl(x_1,x_2,x_3\\bigr) &amp; = x_1^2+2x_2^2+3x_3^2+2x_1x_2-2x_2x_3\\\\&amp; = \\bigl(x_1+x_2\\bigr)^2+\\bigl(x_2-x_3\\bigr)^2+2x_3^2=y_1^2+y_2^2+2y_3^2.\\end{aligned}\">\\begin{aligned}f\\bigl(x_1,x_2,x_3\\bigr) &amp; = x_1^2+2x_2^2+3x_3^2+2x_1x_2-2x_2x_3\\\\&amp; = \\bigl(x_1+x_2\\bigr)^2+\\bigl(x_2-x_3\\bigr)^2+2x_3^2=y_1^2+y_2^2+2y_3^2.\\end{aligned}</div>"
     },
     {
       "id": "q0039",
       "number": 39,
       "header": "#39-Averge",
       "difficulty": "Averge",
-      "prompt_html": "<img src=\"/static/generated/assets/linear-algebra/ch010/q0039_prompt.png\"/>",
+      "prompt_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\text{设} \\, A = \\begin{pmatrix} 1 &amp; 1 &amp; 1 &amp; 1 \\\\ 1 &amp; 1 &amp; 1 &amp; 1 \\\\ 1 &amp; 1 &amp; 1 &amp; 1 \\\\ 1 &amp; 1 &amp; 1 &amp; 1 \\end{pmatrix}, B = \\begin{pmatrix} 4 &amp; 0 &amp; 0 &amp; 0 \\\\ 0 &amp; 0 &amp; 0 &amp; 0 \\\\ 0 &amp; 0 &amp; 0 &amp; 0 \\\\ 0 &amp; 0 &amp; 0 &amp; 0 \\end{pmatrix}, \\text{则} \\, A \\text{与} B (\\quad).\">\\text{设} \\, A = \\begin{pmatrix} 1 &amp; 1 &amp; 1 &amp; 1 \\\\ 1 &amp; 1 &amp; 1 &amp; 1 \\\\ 1 &amp; 1 &amp; 1 &amp; 1 \\\\ 1 &amp; 1 &amp; 1 &amp; 1 \\end{pmatrix}, B = \\begin{pmatrix} 4 &amp; 0 &amp; 0 &amp; 0 \\\\ 0 &amp; 0 &amp; 0 &amp; 0 \\\\ 0 &amp; 0 &amp; 0 &amp; 0 \\\\ 0 &amp; 0 &amp; 0 &amp; 0 \\end{pmatrix}, \\text{则} \\, A \\text{与} B (\\quad).</div>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/linear-algebra/ch010/q0039_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{合同且不相似}\">\\text{合同且不相似}</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/linear-algebra/ch010/q0039_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{合同且相似}\">\\text{合同且相似}</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/linear-algebra/ch010/q0039_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{不合同且相似}\">\\text{不合同且相似}</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/linear-algebra/ch010/q0039_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{不合同且不相似}\">\\text{不合同且不相似}</span>"
         }
       ],
       "answer": "B",
       "answer_index": 1,
-      "analysis_html": "<img src=\"/static/generated/assets/linear-algebra/ch010/q0039_analysis.png\"/>"
+      "analysis_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{array}{l} A \\text { 的特征多项式为 } | A - \\lambda E | = - \\lambda ^ { 3 } ( \\lambda - 4 ) , \\text { 因此 } A \\text { 的特征值为 } \\lambda _ { 1 } = 4 , \\lambda _ { 2 } = \\lambda _ { 3 } = \\lambda _ { 4 } = 0 . \\text { 又 } A \\\\ \\text { 是为对称矩阵，因此存在正交矩阵 } P , \\text { 使得 } P ^ { - 1 } A P = B , \\text { 即 } A \\text { 与 } B \\text { 相似又由于 } P ^ { - 1 } = P ^ { T } , \\\\ \\text { 因此 } P ^ { T } A P = B , \\text { 即 } A \\text { 与 } B \\text { 合同}. \\end{array}\">\\begin{array}{l} A \\text { 的特征多项式为 } | A - \\lambda E | = - \\lambda ^ { 3 } ( \\lambda - 4 ) , \\text { 因此 } A \\text { 的特征值为 } \\lambda _ { 1 } = 4 , \\lambda _ { 2 } = \\lambda _ { 3 } = \\lambda _ { 4 } = 0 . \\text { 又 } A \\\\ \\text { 是为对称矩阵，因此存在正交矩阵 } P , \\text { 使得 } P ^ { - 1 } A P = B , \\text { 即 } A \\text { 与 } B \\text { 相似又由于 } P ^ { - 1 } = P ^ { T } , \\\\ \\text { 因此 } P ^ { T } A P = B , \\text { 即 } A \\text { 与 } B \\text { 合同}. \\end{array}</div>"
     },
     {
       "id": "q0040",
       "number": 40,
       "header": "#40-Averge",
       "difficulty": "Averge",
-      "prompt_html": "<img src=\"/static/generated/assets/linear-algebra/ch010/q0040_prompt.png\"/>",
+      "prompt_html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{二次型}f(x_{1},x_{2},x_{3}) \\text{经过正交变换可化为标准形}f=2y_{2}^{2}+2y_{3}^{2}, \\text{则}f(x_{1},x_{2},x_{3}) \\text{所对应的矩阵一定是( ).}\">\\text{二次型}f(x_{1},x_{2},x_{3}) \\text{经过正交变换可化为标准形}f=2y_{2}^{2}+2y_{3}^{2}, \\text{则}f(x_{1},x_{2},x_{3}) \\text{所对应的矩阵一定是( ).}</span>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/linear-algebra/ch010/q0040_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{半正定}\">\\text{半正定}</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/linear-algebra/ch010/q0040_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{不定}\">\\text{不定}</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/linear-algebra/ch010/q0040_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{正定}\">\\text{正定}</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/linear-algebra/ch010/q0040_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{正交}\">\\text{正交}</span>"
         }
       ],
       "answer": "A",
       "answer_index": 0,
-      "analysis_html": "<img src=\"/static/generated/assets/linear-algebra/ch010/q0040_analysis.png\"/>"
+      "analysis_html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{二次型}f=2y_{2}^{2}+2y_{3}^{2}\\text{是半正定，所以}f(x_{1},x_{2},x_{3})\\text{所对应的矩阵也是半正定}.\">\\text{二次型}f=2y_{2}^{2}+2y_{3}^{2}\\text{是半正定，所以}f(x_{1},x_{2},x_{3})\\text{所对应的矩阵也是半正定}.</span>"
     },
     {
       "id": "q0041",
       "number": 41,
       "header": "#41-Averge",
       "difficulty": "Averge",
-      "prompt_html": "<img src=\"/static/generated/assets/linear-algebra/ch010/q0041_prompt.png\"/>",
+      "prompt_html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{二次型}f(x_{1},x_{2},x_{3})=3x_{1}^{2}+3x_{2}^{2}+5x_{3}^{2}-4x_{1}x_{2}\\text{的标准形是}( \\quad).\">\\text{二次型}f(x_{1},x_{2},x_{3})=3x_{1}^{2}+3x_{2}^{2}+5x_{3}^{2}-4x_{1}x_{2}\\text{的标准形是}( \\quad).</span>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/linear-algebra/ch010/q0041_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"5 y _ { 3 } ^ { 2 }\">5 y _ { 3 } ^ { 2 }</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/linear-algebra/ch010/q0041_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"y_{1}^{2} + 5 y_{2}^{2} + 5 y_{3}^{2}\">y_{1}^{2} + 5 y_{2}^{2} + 5 y_{3}^{2}</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/linear-algebra/ch010/q0041_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\begin{array}{l} {l} y _ { 1 } ^ { 2 } + y _ { 2 } ^ { 2 } - 5 y _ { 3 } ^ { 2 } \\end{array}\">\\begin{array}{l} {l} y _ { 1 } ^ { 2 } + y _ { 2 } ^ { 2 } - 5 y _ { 3 } ^ { 2 } \\end{array}</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/linear-algebra/ch010/q0041_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"y_{1}^{2}-y_{2}^{2}-5y_{3}^{2}\">y_{1}^{2}-y_{2}^{2}-5y_{3}^{2}</span>"
         }
       ],
       "answer": "B",
       "answer_index": 1,
-      "analysis_html": "<img src=\"/static/generated/assets/linear-algebra/ch010/q0041_analysis.png\"/>"
+      "analysis_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{aligned} \\text{二次型的矩阵为} \\quad A&amp;=\\begin{pmatrix} 3 &amp; -2 &amp; 0 \\\\ -2 &amp; 3 &amp; 0 \\\\ 0 &amp; 0 &amp; 5 \\end{pmatrix}, \\quad \\text{则} \\quad |\\lambda E-A|=(\\lambda-1)\\left(\\lambda-5\\right)^2=0, \\quad \\text{即} \\quad \\\\ \\lambda_1&amp;=1, \\quad \\lambda_2=\\lambda_3=5, \\quad \\text{故二次型可通过正交变换化为标准形：} \\quad y_1^2+5y_2^2+5y_3^2.\\end{aligned}\">\\begin{aligned} \\text{二次型的矩阵为} \\quad A&amp;=\\begin{pmatrix} 3 &amp; -2 &amp; 0 \\\\ -2 &amp; 3 &amp; 0 \\\\ 0 &amp; 0 &amp; 5 \\end{pmatrix}, \\quad \\text{则} \\quad |\\lambda E-A|=(\\lambda-1)\\left(\\lambda-5\\right)^2=0, \\quad \\text{即} \\quad \\\\ \\lambda_1&amp;=1, \\quad \\lambda_2=\\lambda_3=5, \\quad \\text{故二次型可通过正交变换化为标准形：} \\quad y_1^2+5y_2^2+5y_3^2.\\end{aligned}</div>"
     },
     {
       "id": "q0042",
       "number": 42,
       "header": "#42-Averge",
       "difficulty": "Averge",
-      "prompt_html": "<img src=\"/static/generated/assets/linear-algebra/ch010/q0042_prompt.png\"/>",
+      "prompt_html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{二次型}f(x_{1},x_{2},x_{3})\\text{的正惯性指数是}2, \\text{且}f\\text{所对应的矩阵为不可逆，则}f\\text{是( }.\">\\text{二次型}f(x_{1},x_{2},x_{3})\\text{的正惯性指数是}2, \\text{且}f\\text{所对应的矩阵为不可逆，则}f\\text{是( }.</span>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/linear-algebra/ch010/q0042_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{正定}\">\\text{正定}</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/linear-algebra/ch010/q0042_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{不定}\">\\text{不定}</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/linear-algebra/ch010/q0042_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{正交}\">\\text{正交}</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/linear-algebra/ch010/q0042_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{半正定}\">\\text{半正定}</span>"
         }
       ],
       "answer": "D",
       "answer_index": 3,
-      "analysis_html": "<img src=\"/static/generated/assets/linear-algebra/ch010/q0042_analysis.png\"/>"
+      "analysis_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{array}{l} \\text {由于二次型} f(x_{1},x_{2},x_{3})\\text {的正惯性指数是}2,\\text {且}f\\text {所对应的矩阵为不可逆,所以}f\\text {是半正定的}. \\end{array}\">\\begin{array}{l} \\text {由于二次型} f(x_{1},x_{2},x_{3})\\text {的正惯性指数是}2,\\text {且}f\\text {所对应的矩阵为不可逆,所以}f\\text {是半正定的}. \\end{array}</div>"
     },
     {
       "id": "q0043",
       "number": 43,
       "header": "#43-Averge",
       "difficulty": "Averge",
-      "prompt_html": "<img src=\"/static/generated/assets/linear-algebra/ch010/q0043_prompt.png\"/>",
+      "prompt_html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text {二次型}f(x_{1},x_{2})=5x_{1}^{2}+2x_{2}^{2}-4x_{1}x_{2} \\text {的标准形是( }.\">\\text {二次型}f(x_{1},x_{2})=5x_{1}^{2}+2x_{2}^{2}-4x_{1}x_{2} \\text {的标准形是( }.</span>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/linear-algebra/ch010/q0043_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"- 6 y _ { 1 } ^ { 2 }\">- 6 y _ { 1 } ^ { 2 }</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/linear-algebra/ch010/q0043_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"y_{1}^{2}\">y_{1}^{2}</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/linear-algebra/ch010/q0043_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"- y _ { 1 } ^ { 2 } - 6 y _ { 2 } ^ { 2 }\">- y _ { 1 } ^ { 2 } - 6 y _ { 2 } ^ { 2 }</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/linear-algebra/ch010/q0043_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\, y _ { 1 } ^ { 2 } + 6 y _ { 2 } ^ { 2 } \\,\">\\, y _ { 1 } ^ { 2 } + 6 y _ { 2 } ^ { 2 } \\,</span>"
         }
       ],
       "answer": "D",
       "answer_index": 3,
-      "analysis_html": "<img src=\"/static/generated/assets/linear-algebra/ch010/q0043_analysis.png\"/>"
+      "analysis_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{aligned}f(x_{1},x_{2})&amp;=5x_{1}^{2}+2x_{2}^{2}-4x_{1}x_{2}=5\\left(x_{1}^{2}-\\frac{4}{5}x_{1}x_{2}+\\frac{4}{25}x_{2}^{2}\\right)+\\frac{6}{5}x_{2}^{2}=5z_{1}^{2}+\\frac{6}{5}z_{2}^{2},\\\\ \\text{故二次型}f\\text{的秩为}2,\\text{且正惯性指数为}2,\\text{符合条件的只有}y_{1}^{2}+6y_{2}^{2}.\\end{aligned}\">\\begin{aligned}f(x_{1},x_{2})&amp;=5x_{1}^{2}+2x_{2}^{2}-4x_{1}x_{2}=5\\left(x_{1}^{2}-\\frac{4}{5}x_{1}x_{2}+\\frac{4}{25}x_{2}^{2}\\right)+\\frac{6}{5}x_{2}^{2}=5z_{1}^{2}+\\frac{6}{5}z_{2}^{2},\\\\ \\text{故二次型}f\\text{的秩为}2,\\text{且正惯性指数为}2,\\text{符合条件的只有}y_{1}^{2}+6y_{2}^{2}.\\end{aligned}</div>"
     },
     {
       "id": "q0044",
       "number": 44,
       "header": "#44-Averge",
       "difficulty": "Averge",
-      "prompt_html": "<img src=\"/static/generated/assets/linear-algebra/ch010/q0044_prompt.png\"/>",
+      "prompt_html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{二次型}f(x_{1},x_{2})=5x_{1}^{2}+2x_{2}^{2}+4x_{1}x_{2}\\text{在条件}x_{1}^{2}+x_{2}^{2}=1\\text{下的最大值等于( }\\text{.) .}\">\\text{二次型}f(x_{1},x_{2})=5x_{1}^{2}+2x_{2}^{2}+4x_{1}x_{2}\\text{在条件}x_{1}^{2}+x_{2}^{2}=1\\text{下的最大值等于( }\\text{.) .}</span>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/linear-algebra/ch010/q0044_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"7\">7</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/linear-algebra/ch010/q0044_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\mathbf { 1 }\">\\mathbf { 1 }</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/linear-algebra/ch010/q0044_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"6\">6</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/linear-algebra/ch010/q0044_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\mathbf { 9 }\">\\mathbf { 9 }</span>"
         }
       ],
       "answer": "C",
       "answer_index": 2,
-      "analysis_html": "<img src=\"/static/generated/assets/linear-algebra/ch010/q0044_analysis.png\"/>"
+      "analysis_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{aligned}&amp;\\text{二次型的}f\\text{矩阵为}A=\\begin{pmatrix}5&amp;2\\\\2&amp;2\\end{pmatrix},\\text{易求得矩阵}A\\text{的特征值为}\\lambda_{1}=6,\\,\\lambda_{2}=1,\\text{故二次型可由正交变换可化为标准形}f=6y_{1}^{2}+y_{2}^{2}.\\\\&amp;\\text{由于正交变换不改变向量的长度，即}\\|x\\|=\\|y\\|=1,\\text{当}x_{1}^{2}+x_{2}^{2}=1\\text{时，}y_{1}^{2}+y_{2}^{2}=1,\\text{取}y_{1}=1,y_{2}=0,\\text{则可得到}f\\text{的最大值为}6.\\end{aligned}\">\\begin{aligned}&amp;\\text{二次型的}f\\text{矩阵为}A=\\begin{pmatrix}5&amp;2\\\\2&amp;2\\end{pmatrix},\\text{易求得矩阵}A\\text{的特征值为}\\lambda_{1}=6,\\,\\lambda_{2}=1,\\text{故二次型可由正交变换可化为标准形}f=6y_{1}^{2}+y_{2}^{2}.\\\\&amp;\\text{由于正交变换不改变向量的长度，即}\\|x\\|=\\|y\\|=1,\\text{当}x_{1}^{2}+x_{2}^{2}=1\\text{时，}y_{1}^{2}+y_{2}^{2}=1,\\text{取}y_{1}=1,y_{2}=0,\\text{则可得到}f\\text{的最大值为}6.\\end{aligned}</div>"
     },
     {
       "id": "q0045",
       "number": 45,
       "header": "#45-Averge",
       "difficulty": "Averge",
-      "prompt_html": "<img src=\"/static/generated/assets/linear-algebra/ch010/q0045_prompt.png\"/>",
+      "prompt_html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{已知二次型}f(x_{1},x_{2},x_{3})=2x_{1}^{2}+5x_{2}^{2}+5x_{3}^{2}+4x_{1}x_{2}-4x_{1}x_{3}-8x_{2}x_{3}, \\text{则方程}f(x_{1},x_{2},x_{3})=1 \\text{的二次曲面为}(\\quad).\">\\text{已知二次型}f(x_{1},x_{2},x_{3})=2x_{1}^{2}+5x_{2}^{2}+5x_{3}^{2}+4x_{1}x_{2}-4x_{1}x_{3}-8x_{2}x_{3}, \\text{则方程}f(x_{1},x_{2},x_{3})=1 \\text{的二次曲面为}(\\quad).</span>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/linear-algebra/ch010/q0045_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{圆柱面};\">\\text{圆柱面};</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/linear-algebra/ch010/q0045_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{双曲柱面}\">\\text{双曲柱面}</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/linear-algebra/ch010/q0045_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{椭球面}\">\\text{椭球面}</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/linear-algebra/ch010/q0045_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{抛物柱面}\">\\text{抛物柱面}</span>"
         }
       ],
       "answer": "C",
       "answer_index": 2,
-      "analysis_html": "<img src=\"/static/generated/assets/linear-algebra/ch010/q0045_analysis.png\"/>"
+      "analysis_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{aligned} \\text{二次型的矩阵为} \\quad A=\\begin{pmatrix} 2 &amp; 2 &amp; -2 \\\\ 2 &amp; 5 &amp; -4 \\\\ -2 &amp; -4 &amp; 5 \\end{pmatrix}, \\quad \\text{由} \\quad |A-\\lambda E|=0 \\quad \\text{可求得矩阵的特征值为} \\quad \\lambda_1=\\lambda_2=1, \\quad \\lambda_3=10, \\quad \\text{故} \\quad f \\text{可通过正交变换} \\quad X=PY \\text{化为} \\quad f=y_1^2+y_2^2+10y_3^2. \\quad \\text{因此方程为} \\quad y_1^2+y_2^2+10y_3^2=1 \\text{表示的图形是椭球面.} \\end{aligned}\">\\begin{aligned} \\text{二次型的矩阵为} \\quad A=\\begin{pmatrix} 2 &amp; 2 &amp; -2 \\\\ 2 &amp; 5 &amp; -4 \\\\ -2 &amp; -4 &amp; 5 \\end{pmatrix}, \\quad \\text{由} \\quad |A-\\lambda E|=0 \\quad \\text{可求得矩阵的特征值为} \\quad \\lambda_1=\\lambda_2=1, \\quad \\lambda_3=10, \\quad \\text{故} \\quad f \\text{可通过正交变换} \\quad X=PY \\text{化为} \\quad f=y_1^2+y_2^2+10y_3^2. \\quad \\text{因此方程为} \\quad y_1^2+y_2^2+10y_3^2=1 \\text{表示的图形是椭球面.} \\end{aligned}</div>"
     },
     {
       "id": "q0046",
       "number": 46,
       "header": "#46-Averge",
       "difficulty": "Averge",
-      "prompt_html": "<img src=\"/static/generated/assets/linear-algebra/ch010/q0046_prompt.png\"/>",
+      "prompt_html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{二次型}f(x_{1},x_{2},x_{3})=2x_{1}^{2}+5x_{2}^{2}+5x_{3}^{2}+4x_{1}x_{2}-4x_{1}x_{3}-8x_{2}x_{3}\\text{的标准形是}( \\quad).\">\\text{二次型}f(x_{1},x_{2},x_{3})=2x_{1}^{2}+5x_{2}^{2}+5x_{3}^{2}+4x_{1}x_{2}-4x_{1}x_{3}-8x_{2}x_{3}\\text{的标准形是}( \\quad).</span>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/linear-algebra/ch010/q0046_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"- 10 y _ { 3 } ^ { 2 }\">- 10 y _ { 3 } ^ { 2 }</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/linear-algebra/ch010/q0046_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"y_{1}^{2}-y_{2}^{2}-10y_{3}^{2}\">y_{1}^{2}-y_{2}^{2}-10y_{3}^{2}</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/linear-algebra/ch010/q0046_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"- y _ { 1 } ^ { 2 } - y _ { 2 } ^ { 2 } - 10 y _ { 3 } ^ { 2 }\">- y _ { 1 } ^ { 2 } - y _ { 2 } ^ { 2 } - 10 y _ { 3 } ^ { 2 }</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/linear-algebra/ch010/q0046_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\, y _ { 1 } ^ { 2 } + y _ { 2 } ^ { 2 } + 10 y _ { 3 } ^ { 2 } \\,\">\\, y _ { 1 } ^ { 2 } + y _ { 2 } ^ { 2 } + 10 y _ { 3 } ^ { 2 } \\,</span>"
         }
       ],
       "answer": "D",
       "answer_index": 3,
-      "analysis_html": "<img src=\"/static/generated/assets/linear-algebra/ch010/q0046_analysis.png\"/>"
+      "analysis_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{aligned}&amp;\\text{二次型的矩阵为} \\quad A=\\begin{pmatrix}2&amp;2&amp;-2\\\\2&amp;5&amp;4\\\\-2&amp;4&amp;5\\end{pmatrix},\\text{则}\\\\&amp;\\left|\\lambda E-A\\right|=\\begin{vmatrix}\\lambda-2&amp;-2&amp;2\\\\-2&amp;\\lambda-5&amp;4\\\\2&amp;4&amp;\\lambda-5\\end{vmatrix}=\\begin{vmatrix}\\lambda-2&amp;-4&amp;2\\\\-4&amp;\\lambda-9&amp;4\\\\0&amp;0&amp;\\lambda-1\\end{vmatrix}\\\\&amp;=\\left(\\lambda-1\\right)\\left(\\lambda^{2}-11\\lambda+10\\right)=\\left(\\lambda-1\\right)^{2}\\left(\\lambda-10\\right),\\\\&amp;\\text{即}\\lambda_{1}=\\lambda_{2}=1,\\ \\lambda_{3}=10,\\text{故二次型}f\\text{可通过正交变换化为标准形：} \\quad y_{1}^{2}+y_{2}^{2}+10y_{3}^{2}.\\end{aligned}\">\\begin{aligned}&amp;\\text{二次型的矩阵为} \\quad A=\\begin{pmatrix}2&amp;2&amp;-2\\\\2&amp;5&amp;4\\\\-2&amp;4&amp;5\\end{pmatrix},\\text{则}\\\\&amp;\\left|\\lambda E-A\\right|=\\begin{vmatrix}\\lambda-2&amp;-2&amp;2\\\\-2&amp;\\lambda-5&amp;4\\\\2&amp;4&amp;\\lambda-5\\end{vmatrix}=\\begin{vmatrix}\\lambda-2&amp;-4&amp;2\\\\-4&amp;\\lambda-9&amp;4\\\\0&amp;0&amp;\\lambda-1\\end{vmatrix}\\\\&amp;=\\left(\\lambda-1\\right)\\left(\\lambda^{2}-11\\lambda+10\\right)=\\left(\\lambda-1\\right)^{2}\\left(\\lambda-10\\right),\\\\&amp;\\text{即}\\lambda_{1}=\\lambda_{2}=1,\\ \\lambda_{3}=10,\\text{故二次型}f\\text{可通过正交变换化为标准形：} \\quad y_{1}^{2}+y_{2}^{2}+10y_{3}^{2}.\\end{aligned}</div>"
     },
     {
       "id": "q0047",
       "number": 47,
       "header": "#47-Averge",
       "difficulty": "Averge",
-      "prompt_html": "<img src=\"/static/generated/assets/linear-algebra/ch010/q0047_prompt.png\"/>",
+      "prompt_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\text{用正交变换}x = Py \\text{化二次型}f(x_{1},x_{2},x_{3}) = ax_{1}^{2} + ax_{2}^{2} + 6x_{3}^{2} + 8x_{1}x_{2} + 4x_{2}x_{3} - 4x_{3}x_{1} \\text{为标准形} \\\\ 7y_{1}^{2} + 7y_{2}^{2} - 2y_{3}^{2}, \\text{则参数}a \\text{为( }.\">\\text{用正交变换}x = Py \\text{化二次型}f(x_{1},x_{2},x_{3}) = ax_{1}^{2} + ax_{2}^{2} + 6x_{3}^{2} + 8x_{1}x_{2} + 4x_{2}x_{3} - 4x_{3}x_{1} \\text{为标准形} \\\\ 7y_{1}^{2} + 7y_{2}^{2} - 2y_{3}^{2}, \\text{则参数}a \\text{为( }.</div>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/linear-algebra/ch010/q0047_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"3\">3</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/linear-algebra/ch010/q0047_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"- 3\">- 3</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/linear-algebra/ch010/q0047_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\mathbf { 1 }\">\\mathbf { 1 }</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/linear-algebra/ch010/q0047_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"^{\\text{- 1 }}\">^{\\text{- 1 }}</span>"
         }
       ],
       "answer": "A",
       "answer_index": 0,
-      "analysis_html": "<img src=\"/static/generated/assets/linear-algebra/ch010/q0047_analysis.png\"/>"
+      "analysis_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{aligned} \\text{二次型}f\\text{的矩阵为}A=\\left(\\begin{matrix} a &amp; 4 &amp; -2 \\\\ 4 &amp; a &amp; 2 \\\\ -2 &amp; 2 &amp; 6 \\end{matrix}\\right), A\\text{的特征值为}7,7,-2, \\text{由}A\\text{的迹与特征值的关 系，可得}a=3.\\end{aligned}\">\\begin{aligned} \\text{二次型}f\\text{的矩阵为}A=\\left(\\begin{matrix} a &amp; 4 &amp; -2 \\\\ 4 &amp; a &amp; 2 \\\\ -2 &amp; 2 &amp; 6 \\end{matrix}\\right), A\\text{的特征值为}7,7,-2, \\text{由}A\\text{的迹与特征值的关 系，可得}a=3.\\end{aligned}</div>"
     },
     {
       "id": "q0048",
       "number": 48,
       "header": "#48-Averge",
       "difficulty": "Averge",
-      "prompt_html": "<img src=\"/static/generated/assets/linear-algebra/ch010/q0048_prompt.png\"/>",
+      "prompt_html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{设}x\\text{为}n\\text{维单位列向量，}\\ \\ H = E - 2 x x ^ { T } , \\text{则矩阵}H\\text{是( }).\">\\text{设}x\\text{为}n\\text{维单位列向量，}\\ \\ H = E - 2 x x ^ { T } , \\text{则矩阵}H\\text{是( }).</span>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/linear-algebra/ch010/q0048_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{正交但不对称}\">\\text{正交但不对称}</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/linear-algebra/ch010/q0048_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{对称且正交}\">\\text{对称且正交}</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/linear-algebra/ch010/q0048_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{对称但不正交}\">\\text{对称但不正交}</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/linear-algebra/ch010/q0048_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{不正交也不对称}\">\\text{不正交也不对称}</span>"
         }
       ],
       "answer": "B",
       "answer_index": 1,
-      "analysis_html": "<img src=\"/static/generated/assets/linear-algebra/ch010/q0048_analysis.png\"/>"
+      "analysis_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{aligned}&amp;\\text{因为 }H^T=\\left(E-2xx^T\\right)^T=E-2xx^T=H\\ ,\\ \\text{所以}H\\text{对称.又由于}\\\\&amp;HH^T=\\left(E-2xx^T\\right)\\left(E-2xx^T\\right)^T=E-4xx^T+4x\\left(x^Tx\\right)x^T=E\\ ,\\\\&amp;\\text{故}H\\text{是正交矩阵.}\\end{aligned}\">\\begin{aligned}&amp;\\text{因为 }H^T=\\left(E-2xx^T\\right)^T=E-2xx^T=H\\ ,\\ \\text{所以}H\\text{对称.又由于}\\\\&amp;HH^T=\\left(E-2xx^T\\right)\\left(E-2xx^T\\right)^T=E-4xx^T+4x\\left(x^Tx\\right)x^T=E\\ ,\\\\&amp;\\text{故}H\\text{是正交矩阵.}\\end{aligned}</div>"
     },
     {
       "id": "q0049",
       "number": 49,
       "header": "#49-Averge",
       "difficulty": "Averge",
-      "prompt_html": "<img src=\"/static/generated/assets/linear-algebra/ch010/q0049_prompt.png\"/>",
+      "prompt_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\text{给定三阶实矩阵}A，\\text{其特征值为}\\lambda_{1}=\\lambda_{2}=1,\\ \\lambda_{3}=2, \\text{设}B=\\begin{pmatrix}1&amp;0&amp;0\\\\ 0&amp;1&amp;0\\\\ 0&amp;0&amp;2\\end{pmatrix}, \\text{则}A\\text{与}B( \\quad).\">\\text{给定三阶实矩阵}A，\\text{其特征值为}\\lambda_{1}=\\lambda_{2}=1,\\ \\lambda_{3}=2, \\text{设}B=\\begin{pmatrix}1&amp;0&amp;0\\\\ 0&amp;1&amp;0\\\\ 0&amp;0&amp;2\\end{pmatrix}, \\text{则}A\\text{与}B( \\quad).</div>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/linear-algebra/ch010/q0049_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{相似且合同}\">\\text{相似且合同}</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/linear-algebra/ch010/q0049_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{相似但不合同}\">\\text{相似但不合同}</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/linear-algebra/ch010/q0049_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{不相似但合同}\">\\text{不相似但合同}</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/linear-algebra/ch010/q0049_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{不能确定}\">\\text{不能确定}</span>"
         }
       ],
       "answer": "D",
       "answer_index": 3,
-      "analysis_html": "<img src=\"/static/generated/assets/linear-algebra/ch010/q0049_analysis.png\"/>"
+      "analysis_html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{由于不能确定} \\lambda _{1} = \\lambda _{2} = 1 \\text{所对应的线性无关的特征向量有两个，也不知道} A \\text{是不是实对称矩阵，因此无法确定} A \\text{与} B \\text{的关系}.\">\\text{由于不能确定} \\lambda _{1} = \\lambda _{2} = 1 \\text{所对应的线性无关的特征向量有两个，也不知道} A \\text{是不是实对称矩阵，因此无法确定} A \\text{与} B \\text{的关系}.</span>"
     },
     {
       "id": "q0050",
       "number": 50,
       "header": "#50-Averge",
       "difficulty": "Averge",
-      "prompt_html": "<img src=\"/static/generated/assets/linear-algebra/ch010/q0050_prompt.png\"/>",
+      "prompt_html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{已知二次型}f(x_{1},x_{2},x_{3})=2x_{1}^{2}+3x_{2}^{2}+3x_{3}^{2}+4x_{2}x_{3} \\text{的正惯性指数是( }.\">\\text{已知二次型}f(x_{1},x_{2},x_{3})=2x_{1}^{2}+3x_{2}^{2}+3x_{3}^{2}+4x_{2}x_{3} \\text{的正惯性指数是( }.</span>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/linear-algebra/ch010/q0050_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\mathbf { 1 }\">\\mathbf { 1 }</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/linear-algebra/ch010/q0050_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"2\">2</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/linear-algebra/ch010/q0050_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\mathbf { 0 }\">\\mathbf { 0 }</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/linear-algebra/ch010/q0050_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"3\">3</span>"
         }
       ],
       "answer": "D",
       "answer_index": 3,
-      "analysis_html": "<img src=\"/static/generated/assets/linear-algebra/ch010/q0050_analysis.png\"/>"
+      "analysis_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{aligned}\\text{二次型对应的实对称阵} \\boldsymbol{A}=\\begin{pmatrix}2&amp;0&amp;0\\\\0&amp;3&amp;2\\\\0&amp;2&amp;3\\end{pmatrix},\\text{其特征值为}\\lambda_{1}=1,\\,\\lambda_{2}=2,\\,\\lambda_{3}=5,\\,\\text{所以正惯性指数是}3.\\end{aligned}\">\\begin{aligned}\\text{二次型对应的实对称阵} \\boldsymbol{A}=\\begin{pmatrix}2&amp;0&amp;0\\\\0&amp;3&amp;2\\\\0&amp;2&amp;3\\end{pmatrix},\\text{其特征值为}\\lambda_{1}=1,\\,\\lambda_{2}=2,\\,\\lambda_{3}=5,\\,\\text{所以正惯性指数是}3.\\end{aligned}</div>"
     },
     {
       "id": "q0051",
       "number": 51,
       "header": "#51-Averge",
       "difficulty": "Averge",
-      "prompt_html": "<img src=\"/static/generated/assets/linear-algebra/ch010/q0051_prompt.png\"/>",
+      "prompt_html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{二次型}f(x_{1},x_{2},x_{3})=2x_{1}^{2}+x_{2}^{2}-4x_{3}^{2}-4x_{1}x_{2}-2x_{2}x_{3}\\text{的标准形是}( \\quad).\">\\text{二次型}f(x_{1},x_{2},x_{3})=2x_{1}^{2}+x_{2}^{2}-4x_{3}^{2}-4x_{1}x_{2}-2x_{2}x_{3}\\text{的标准形是}( \\quad).</span>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/linear-algebra/ch010/q0051_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"- 2 y _ { 1 } ^ { 2 }\">- 2 y _ { 1 } ^ { 2 }</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/linear-algebra/ch010/q0051_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\begin{aligned}2y_{1}^{2}-y_{2}^{2}-3y_{3}^{2}\\end{aligned}\">\\begin{aligned}2y_{1}^{2}-y_{2}^{2}-3y_{3}^{2}\\end{aligned}</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/linear-algebra/ch010/q0051_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\begin{array}{l} {l} { 2 y _ { 1 } ^ { 2 } + y _ { 2 } ^ { 2 } + 3 y _ { 3 } ^ { 2 } } \\end{array}\">\\begin{array}{l} {l} { 2 y _ { 1 } ^ { 2 } + y _ { 2 } ^ { 2 } + 3 y _ { 3 } ^ { 2 } } \\end{array}</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/linear-algebra/ch010/q0051_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"-2y_{1}^{2}-y_{2}^{2}-3y_{3}^{2}\">-2y_{1}^{2}-y_{2}^{2}-3y_{3}^{2}</span>"
         }
       ],
       "answer": "B",
       "answer_index": 1,
-      "analysis_html": "<img src=\"/static/generated/assets/linear-algebra/ch010/q0051_analysis.png\"/>"
+      "analysis_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{aligned}f\\bigl(x_1,x_2,x_3\\bigr) &amp; = 2x_1^2 + x_2^2 - 4x_3^2 - 4x_1x_2 - 2x_2x_3 \\\\&amp; = 2\\left(x_1^2 - 2x_1x_2 + x_2^2\\right) - x_2^2 - 2x_2x_3 - 4x_3^2 \\\\&amp; = 2\\left(x_1 - x_2\\right)^2 - \\left(x_2 + x_3\\right)^2 - 3x_3^2 \\\\&amp; = 2y_1^2 - y_2^2 - 3y_3^2.\\end{aligned}\">\\begin{aligned}f\\bigl(x_1,x_2,x_3\\bigr) &amp; = 2x_1^2 + x_2^2 - 4x_3^2 - 4x_1x_2 - 2x_2x_3 \\\\&amp; = 2\\left(x_1^2 - 2x_1x_2 + x_2^2\\right) - x_2^2 - 2x_2x_3 - 4x_3^2 \\\\&amp; = 2\\left(x_1 - x_2\\right)^2 - \\left(x_2 + x_3\\right)^2 - 3x_3^2 \\\\&amp; = 2y_1^2 - y_2^2 - 3y_3^2.\\end{aligned}</div>"
     },
     {
       "id": "q0052",
       "number": 52,
       "header": "#52-Averge",
       "difficulty": "Averge",
-      "prompt_html": "<img src=\"/static/generated/assets/linear-algebra/ch010/q0052_prompt.png\"/>",
+      "prompt_html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{二次型}f(x_{1},x_{2},x_{3})=x_{1}^{2}+x_{2}^{2}+x_{3}^{2}+2x_{1}x_{2}+2x_{1}x_{3}+2x_{2}x_{3}\\text{在条件}x_{1}^{2}+x_{2}^{2}+x_{3}^{2}=1\\text{下的最大值等于( }.\">\\text{二次型}f(x_{1},x_{2},x_{3})=x_{1}^{2}+x_{2}^{2}+x_{3}^{2}+2x_{1}x_{2}+2x_{1}x_{3}+2x_{2}x_{3}\\text{在条件}x_{1}^{2}+x_{2}^{2}+x_{3}^{2}=1\\text{下的最大值等于( }.</span>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/linear-algebra/ch010/q0052_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\frac { 4 } { 3 }\">\\frac { 4 } { 3 }</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/linear-algebra/ch010/q0052_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"3\">3</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/linear-algebra/ch010/q0052_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\mathbf { 1 }\">\\mathbf { 1 }</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/linear-algebra/ch010/q0052_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\mathbf { 0 }\">\\mathbf { 0 }</span>"
         }
       ],
       "answer": "B",
       "answer_index": 1,
-      "analysis_html": "<img src=\"/static/generated/assets/linear-algebra/ch010/q0052_analysis.png\"/>"
+      "analysis_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{aligned}&amp;\\text{二次型}f\\text{的矩阵为}A=\\begin{pmatrix}1&amp;1&amp;1\\\\1&amp;1&amp;1\\\\1&amp;1&amp;1\\end{pmatrix},\\text{易求得矩阵}A\\text{的特征值为}\\lambda_{4}=\\lambda_{2}=0,\\ \\lambda_{3}=3,\\text{故二次型可由正交变换可化为标准形}f=3y_{1}^{2}.\\end{aligned}\">\\begin{aligned}&amp;\\text{二次型}f\\text{的矩阵为}A=\\begin{pmatrix}1&amp;1&amp;1\\\\1&amp;1&amp;1\\\\1&amp;1&amp;1\\end{pmatrix},\\text{易求得矩阵}A\\text{的特征值为}\\lambda_{4}=\\lambda_{2}=0,\\ \\lambda_{3}=3,\\text{故二次型可由正交变换可化为标准形}f=3y_{1}^{2}.\\end{aligned}</div>"
     },
     {
       "id": "q0053",
       "number": 53,
       "header": "#53-Averge",
       "difficulty": "Averge",
-      "prompt_html": "<img src=\"/static/generated/assets/linear-algebra/ch010/q0053_prompt.png\"/>",
+      "prompt_html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{二次型}f(x_{1},x_{2})=5x_{1}^{2}+2x_{2}^{2}+4x_{1}x_{2}\\ \\text{在条件}x_{1}^{2}+x_{2}^{2}=1\\text{下的最小值等于( }.\">\\text{二次型}f(x_{1},x_{2})=5x_{1}^{2}+2x_{2}^{2}+4x_{1}x_{2}\\ \\text{在条件}x_{1}^{2}+x_{2}^{2}=1\\text{下的最小值等于( }.</span>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/linear-algebra/ch010/q0053_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"2\">2</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/linear-algebra/ch010/q0053_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\mathbf { 1 }\">\\mathbf { 1 }</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/linear-algebra/ch010/q0053_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\mathbf { 0 }\">\\mathbf { 0 }</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/linear-algebra/ch010/q0053_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"5\">5</span>"
         }
       ],
       "answer": "B",
       "answer_index": 1,
-      "analysis_html": "<img src=\"/static/generated/assets/linear-algebra/ch010/q0053_analysis.png\"/>"
+      "analysis_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{aligned}&amp;\\text{二次型}f\\text{的矩阵为}A=\\begin{pmatrix}5&amp;2\\\\2&amp;2\\end{pmatrix},\\text{易求得矩阵}A\\text{的特征值为}\\lambda_{1}=6,\\ \\lambda_{2}=1,\\text{故二次型可由正交变换可化为标准形}f=6y_{1}^{2}+y_{2}^{2}.\\\\&amp;\\text{由于正交变换不改变向量的长度，即}\\|x\\|=\\|y\\|=1,\\text{当}x_{1}^{2}+x_{2}^{2}=1\\text{时，}y_{1}^{2}+y_{2}^{2}=1,\\text{取}y_{1}=0,y_{2}=1,\\text{则可得到}f\\text{的最小值为}1。\\end{aligned}\">\\begin{aligned}&amp;\\text{二次型}f\\text{的矩阵为}A=\\begin{pmatrix}5&amp;2\\\\2&amp;2\\end{pmatrix},\\text{易求得矩阵}A\\text{的特征值为}\\lambda_{1}=6,\\ \\lambda_{2}=1,\\text{故二次型可由正交变换可化为标准形}f=6y_{1}^{2}+y_{2}^{2}.\\\\&amp;\\text{由于正交变换不改变向量的长度，即}\\|x\\|=\\|y\\|=1,\\text{当}x_{1}^{2}+x_{2}^{2}=1\\text{时，}y_{1}^{2}+y_{2}^{2}=1,\\text{取}y_{1}=0,y_{2}=1,\\text{则可得到}f\\text{的最小值为}1。\\end{aligned}</div>"
     },
     {
       "id": "q0054",
       "number": 54,
       "header": "#54-Averge",
       "difficulty": "Averge",
-      "prompt_html": "<img src=\"/static/generated/assets/linear-algebra/ch010/q0054_prompt.png\"/>",
+      "prompt_html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{二次型}f(x_{1},x_{2},x_{3})=x_{1}^{2}+x_{2}^{2}+x_{3}^{2}+2x_{1}x_{2}+2x_{1}x_{3}+2x_{2}x_{3}\\text{在条件}x_{1}^{2}+x_{2}^{2}+x_{3}^{2}=1\\text{下的最小值等于( }.\">\\text{二次型}f(x_{1},x_{2},x_{3})=x_{1}^{2}+x_{2}^{2}+x_{3}^{2}+2x_{1}x_{2}+2x_{1}x_{3}+2x_{2}x_{3}\\text{在条件}x_{1}^{2}+x_{2}^{2}+x_{3}^{2}=1\\text{下的最小值等于( }.</span>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/linear-algebra/ch010/q0054_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\mathbf { 1 }\">\\mathbf { 1 }</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/linear-algebra/ch010/q0054_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\frac { 4 } { 3 }\">\\frac { 4 } { 3 }</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/linear-algebra/ch010/q0054_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"0\">0</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/linear-algebra/ch010/q0054_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\textcolor{blue}{3}\">\\textcolor{blue}{3}</span>"
         }
       ],
       "answer": "C",
       "answer_index": 2,
-      "analysis_html": "<img src=\"/static/generated/assets/linear-algebra/ch010/q0054_analysis.png\"/>"
+      "analysis_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{aligned}&amp;\\text{二次型}f\\text{的矩阵}A=\\begin{pmatrix}1&amp;1&amp;1\\\\1&amp;1&amp;1\\\\1&amp;1&amp;1\\end{pmatrix},\\text{易求得矩阵}A\\text{的特征值为}\\lambda_{1}=\\lambda_{2}=0,\\ \\lambda_{3}=3,\\text{故二次型可由正交变换可化为标准形}f=3y_{1}^{2}.\\ \\\\&amp;\\text{由于正交变换不改变向量的长度，即}\\|x\\|= \\|y\\|=1,\\text{当}x_{1}^{2}+x_{2}^{2}+x_{3}^{2}=1\\text{时，}y_{1}^{2}+y_{2}^{2}+y_{3}^{2}=1,\\text{取}y_{1}=0,y_{2}=0,y_{3}=1,\\text{则可得到}f\\text{的最小值为}0。\\end{aligned}\">\\begin{aligned}&amp;\\text{二次型}f\\text{的矩阵}A=\\begin{pmatrix}1&amp;1&amp;1\\\\1&amp;1&amp;1\\\\1&amp;1&amp;1\\end{pmatrix},\\text{易求得矩阵}A\\text{的特征值为}\\lambda_{1}=\\lambda_{2}=0,\\ \\lambda_{3}=3,\\text{故二次型可由正交变换可化为标准形}f=3y_{1}^{2}.\\ \\\\&amp;\\text{由于正交变换不改变向量的长度，即}\\|x\\|= \\|y\\|=1,\\text{当}x_{1}^{2}+x_{2}^{2}+x_{3}^{2}=1\\text{时，}y_{1}^{2}+y_{2}^{2}+y_{3}^{2}=1,\\text{取}y_{1}=0,y_{2}=0,y_{3}=1,\\text{则可得到}f\\text{的最小值为}0。\\end{aligned}</div>"
     },
     {
       "id": "q0055",
       "number": 55,
       "header": "#55-Averge",
       "difficulty": "Averge",
-      "prompt_html": "<img src=\"/static/generated/assets/linear-algebra/ch010/q0055_prompt.png\"/>",
+      "prompt_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{array}{l} \\text {已知二次型}f(x_{1},x_{2},x_{3})=5x_{1}^{2}+5x_{2}^{2}+cx_{3}^{2}-2x_{1}x_{2}+6x_{1}x_{3}-6x_{2}x_{3} \\text {的秩2，则方程} \\\\ f(x_{1},x_{2},x_{3})=1 \\text {的二次曲面为( }. \\end{array}\">\\begin{array}{l} \\text {已知二次型}f(x_{1},x_{2},x_{3})=5x_{1}^{2}+5x_{2}^{2}+cx_{3}^{2}-2x_{1}x_{2}+6x_{1}x_{3}-6x_{2}x_{3} \\text {的秩2，则方程} \\\\ f(x_{1},x_{2},x_{3})=1 \\text {的二次曲面为( }. \\end{array}</div>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/linear-algebra/ch010/q0055_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{抛物柱面}\">\\text{抛物柱面}</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/linear-algebra/ch010/q0055_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{双曲柱面}\">\\text{双曲柱面}</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/linear-algebra/ch010/q0055_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{圆柱面}\">\\text{圆柱面}</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/linear-algebra/ch010/q0055_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{椭圆柱面}\">\\text{椭圆柱面}</span>"
         }
       ],
       "answer": "D",
       "answer_index": 3,
-      "analysis_html": "<img src=\"/static/generated/assets/linear-algebra/ch010/q0055_analysis.png\"/>"
+      "analysis_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{aligned} \\text{二次型的矩阵为} \\quad A&amp;=\\begin{pmatrix} 5 &amp; -1 &amp; 3 \\\\ -1 &amp; 5 &amp; -3 \\\\ 3 &amp; -3 &amp; c \\end{pmatrix}. \\quad \\text{由} \\quad r\\left( A \\right)=2 \\quad \\text{可知} \\quad \\left\\vert A \\right\\vert=0, \\quad \\text{所以} \\quad c=3 \\text{由} \\quad \\left\\vert A-\\lambda E \\right\\vert=0 \\quad \\text{可求得矩阵的特征值为} \\quad \\lambda_{1}=0, \\lambda_{2}=4, \\lambda_{3}=9, \\quad \\text{故} \\quad f \\text{可通过正交变换} \\quad X=PY \\text{化为} \\quad f=4y_{2}^{2}+9y_{3}^{2} \\text{即方程为} \\quad 4y_{2}^{2}+9y_{3}^{2}=1, \\quad \\text{故方程表示的图形是椭圆柱面。} \\end{aligned}\">\\begin{aligned} \\text{二次型的矩阵为} \\quad A&amp;=\\begin{pmatrix} 5 &amp; -1 &amp; 3 \\\\ -1 &amp; 5 &amp; -3 \\\\ 3 &amp; -3 &amp; c \\end{pmatrix}. \\quad \\text{由} \\quad r\\left( A \\right)=2 \\quad \\text{可知} \\quad \\left\\vert A \\right\\vert=0, \\quad \\text{所以} \\quad c=3 \\text{由} \\quad \\left\\vert A-\\lambda E \\right\\vert=0 \\quad \\text{可求得矩阵的特征值为} \\quad \\lambda_{1}=0, \\lambda_{2}=4, \\lambda_{3}=9, \\quad \\text{故} \\quad f \\text{可通过正交变换} \\quad X=PY \\text{化为} \\quad f=4y_{2}^{2}+9y_{3}^{2} \\text{即方程为} \\quad 4y_{2}^{2}+9y_{3}^{2}=1, \\quad \\text{故方程表示的图形是椭圆柱面。} \\end{aligned}</div>"
     },
     {
       "id": "q0056",
       "number": 56,
       "header": "#56-Averge",
       "difficulty": "Averge",
-      "prompt_html": "<img src=\"/static/generated/assets/linear-algebra/ch010/q0056_prompt.png\"/>",
+      "prompt_html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{二次型}f(x_{1},x_{2})=2x_{1}^{2}+x_{2}^{2}-\\frac{4}{3}x_{1}x_{2} \\text{的标准形是( }.\">\\text{二次型}f(x_{1},x_{2})=2x_{1}^{2}+x_{2}^{2}-\\frac{4}{3}x_{1}x_{2} \\text{的标准形是( }.</span>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/linear-algebra/ch010/q0056_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"- y _ { 1 } ^ { 2 } - 3 y _ { 2 } ^ { 2 }\">- y _ { 1 } ^ { 2 } - 3 y _ { 2 } ^ { 2 }</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/linear-algebra/ch010/q0056_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"3 y _ { 2 } ^ { 2 }\">3 y _ { 2 } ^ { 2 }</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/linear-algebra/ch010/q0056_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"y_{1}^{2}+3y_{2}^{2}\">y_{1}^{2}+3y_{2}^{2}</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/linear-algebra/ch010/q0056_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"2 y _ { 1 } ^ { 2 }\">2 y _ { 1 } ^ { 2 }</span>"
         }
       ],
       "answer": "C",
       "answer_index": 2,
-      "analysis_html": "<img src=\"/static/generated/assets/linear-algebra/ch010/q0056_analysis.png\"/>"
+      "analysis_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{aligned}f(x_{1},x_{2})&amp;=2x_{1}^{2}+x_{2}^{2}-\\frac{4}{3}x_{1}x_{2}=2\\left(x_{1}^{2}-\\frac{2}{3}x_{1}x_{2}+\\frac{1}{9}x_{2}^{2}\\right)+\\frac{7}{9}x_{2}^{2}=2z_{1}^{2}+\\frac{3}{2}z_{2}^{2},\\end{aligned}\">\\begin{aligned}f(x_{1},x_{2})&amp;=2x_{1}^{2}+x_{2}^{2}-\\frac{4}{3}x_{1}x_{2}=2\\left(x_{1}^{2}-\\frac{2}{3}x_{1}x_{2}+\\frac{1}{9}x_{2}^{2}\\right)+\\frac{7}{9}x_{2}^{2}=2z_{1}^{2}+\\frac{3}{2}z_{2}^{2},\\end{aligned}</div>"
     },
     {
       "id": "q0057",
       "number": 57,
       "header": "#57-Averge",
       "difficulty": "Averge",
-      "prompt_html": "<img src=\"/static/generated/assets/linear-algebra/ch010/q0057_prompt.png\"/>",
+      "prompt_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{array}{l} \\text {已知二次型} \\ f(x_{1},x_{2},x_{3})=5x_{1}^{2}+5x_{2}^{2}+3x_{3}^{2}-2x_{1}x_{2}+6x_{1}x_{3}-6x_{2}x_{3}, \\text {则方程} \\\\ f(x_{1},x_{2},x_{3})=1 \\text {的二次曲面为( }. \\end{array}\">\\begin{array}{l} \\text {已知二次型} \\ f(x_{1},x_{2},x_{3})=5x_{1}^{2}+5x_{2}^{2}+3x_{3}^{2}-2x_{1}x_{2}+6x_{1}x_{3}-6x_{2}x_{3}, \\text {则方程} \\\\ f(x_{1},x_{2},x_{3})=1 \\text {的二次曲面为( }. \\end{array}</div>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/linear-algebra/ch010/q0057_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{圆柱面}\">\\text{圆柱面}</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/linear-algebra/ch010/q0057_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{椭圆柱面}\">\\text{椭圆柱面}</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/linear-algebra/ch010/q0057_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{双曲柱面}\">\\text{双曲柱面}</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/linear-algebra/ch010/q0057_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{抛物柱面}\">\\text{抛物柱面}</span>"
         }
       ],
       "answer": "B",
       "answer_index": 1,
-      "analysis_html": "<img src=\"/static/generated/assets/linear-algebra/ch010/q0057_analysis.png\"/>"
+      "analysis_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{aligned}&amp;\\text{二次型的矩阵为} \\quad A=\\begin{pmatrix}5&amp;-1&amp;3\\\\-1&amp;5&amp;-3\\\\3&amp;-3&amp;3\\end{pmatrix}.\\text{由}|\\boldsymbol{A}-\\boldsymbol{\\lambda}\\boldsymbol{E}|=0\\text{可求得矩阵的特征值为}\\\\&amp;\\lambda_{1}=0,\\lambda_{2}=4,\\lambda_{3}=9\\text{，故}f\\text{可通过正交变换}X=PY\\text{化为}f=4y_{2}^{2}+9y_{3}^{2}\\text{即方程为}\\\\&amp;4y_{2}^{2}+9y_{3}^{2}=1,\\text{故方程表示的图形是椭圆柱面}.\\end{aligned}\">\\begin{aligned}&amp;\\text{二次型的矩阵为} \\quad A=\\begin{pmatrix}5&amp;-1&amp;3\\\\-1&amp;5&amp;-3\\\\3&amp;-3&amp;3\\end{pmatrix}.\\text{由}|\\boldsymbol{A}-\\boldsymbol{\\lambda}\\boldsymbol{E}|=0\\text{可求得矩阵的特征值为}\\\\&amp;\\lambda_{1}=0,\\lambda_{2}=4,\\lambda_{3}=9\\text{，故}f\\text{可通过正交变换}X=PY\\text{化为}f=4y_{2}^{2}+9y_{3}^{2}\\text{即方程为}\\\\&amp;4y_{2}^{2}+9y_{3}^{2}=1,\\text{故方程表示的图形是椭圆柱面}.\\end{aligned}</div>"
     }
-  ]
+  ],
+  "format": "latex",
+  "source_md": "xd/矩阵合同，化二次型为标准形(60题)/矩阵合同，化二次型为标准形(60题).md"
 }

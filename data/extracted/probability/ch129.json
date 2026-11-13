@@ -13,308 +13,310 @@
       "number": 1,
       "header": "#1-Averge",
       "difficulty": "Averge",
-      "prompt_html": "<img src=\"/static/generated/assets/probability/ch129/q0001_prompt.png\"/>",
+      "prompt_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{aligned}&amp; \\text{有两台车床生产同一种型号的滚珠。根据过去的经验，可以认为这两台车床生产的滚珠的直径都服从正态分布。现要比较两台车床所生产滚珠的直径的方差，分别抽出8个和9个样品，测得滚珠的直径如下(单位：mm)。}\\\\&amp; \\text{甲车床}x_{i}:15.0\\quad 14.5\\quad 15.2\\quad 15.5\\quad 14.8\\quad 15.1\\quad 15.2\\quad 14.8\\\\&amp; \\text{乙车床}y_{i}:15.2\\quad 15.0\\quad 14.8\\quad 15.2\\quad 15.0\\quad 15.0\\quad 14.8\\quad 15.1\\quad 14.8\\\\&amp; \\text{若要检验乙车床产品的方差是否比甲车床的小}(\\alpha=0.05)，\\text{则下列说法中不正确的是}（）。\\end{aligned}\">\\begin{aligned}&amp; \\text{有两台车床生产同一种型号的滚珠。根据过去的经验，可以认为这两台车床生产的滚珠的直径都服从正态分布。现要比较两台车床所生产滚珠的直径的方差，分别抽出8个和9个样品，测得滚珠的直径如下(单位：mm)。}\\\\&amp; \\text{甲车床}x_{i}:15.0\\quad 14.5\\quad 15.2\\quad 15.5\\quad 14.8\\quad 15.1\\quad 15.2\\quad 14.8\\\\&amp; \\text{乙车床}y_{i}:15.2\\quad 15.0\\quad 14.8\\quad 15.2\\quad 15.0\\quad 15.0\\quad 14.8\\quad 15.1\\quad 14.8\\\\&amp; \\text{若要检验乙车床产品的方差是否比甲车床的小}(\\alpha=0.05)，\\text{则下列说法中不正确的是}（）。\\end{aligned}</div>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/probability/ch129/q0001_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{拒绝域为}\\{F &gt; F_{o}(n_{\\mp},n_{z})\\}\">\\text{拒绝域为}\\{F &gt; F_{o}(n_{\\mp},n_{z})\\}</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/probability/ch129/q0001_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{应检验假设} \\, H_0 \\colon \\sigma_{\\Xi}^2 = \\sigma_z^2 \\, , \\, H_1 \\colon \\sigma_{\\Xi}^2 &lt; \\sigma_z^2\">\\text{应检验假设} \\, H_0 \\colon \\sigma_{\\Xi}^2 = \\sigma_z^2 \\, , \\, H_1 \\colon \\sigma_{\\Xi}^2 &lt; \\sigma_z^2</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/probability/ch129/q0001_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{检验统计量为} \\, F = S _ { 1 } ^ { 2 } / S _ { 2 } ^ { 2 }\">\\text{检验统计量为} \\, F = S _ { 1 } ^ { 2 } / S _ { 2 } ^ { 2 }</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/probability/ch129/q0001_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{可认为乙车床产品的直径的方差比甲车床的小}\">\\text{可认为乙车床产品的直径的方差比甲车床的小}</span>"
         }
       ],
       "answer": "A",
       "answer_index": 0,
-      "analysis_html": "<img src=\"/static/generated/assets/probability/ch129/q0001_analysis.png\"/>"
+      "analysis_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{aligned}&amp;\\text{以}X,Y, X^{\\prime} \\text{分别表示甲}、\\text{乙二车床产品直径}.\\;X\\sim N(\\mu_{\\bullet},\\sigma_{\\bullet}^{2}),\\;Y\\sim N(\\mu_{z},\\sigma_{z}^{2}),\\;X,Y\\text{ 独立.}\\\\&amp;\\text{检验假设}\\;H_{0}:\\sigma_{\\bullet}^{2}=\\sigma_{z}^{2},\\;H_{1}:\\sigma_{\\bullet}^{2}&lt;\\sigma_{z}^{2}.\\\\&amp;\\text{在}H_{0}\\text{成立时，选用的检验统计量为}F=\\frac{S_{\\bullet}^{2}}{S_{z}^{2}}\\sim F(n_{\\bullet}-1,n_{z}-1).\\\\&amp;\\quad \\end{aligned}\">\\begin{aligned}&amp;\\text{以}X,Y, X^{\\prime} \\text{分别表示甲}、\\text{乙二车床产品直径}.\\;X\\sim N(\\mu_{\\bullet},\\sigma_{\\bullet}^{2}),\\;Y\\sim N(\\mu_{z},\\sigma_{z}^{2}),\\;X,Y\\text{ 独立.}\\\\&amp;\\text{检验假设}\\;H_{0}:\\sigma_{\\bullet}^{2}=\\sigma_{z}^{2},\\;H_{1}:\\sigma_{\\bullet}^{2}&lt;\\sigma_{z}^{2}.\\\\&amp;\\text{在}H_{0}\\text{成立时，选用的检验统计量为}F=\\frac{S_{\\bullet}^{2}}{S_{z}^{2}}\\sim F(n_{\\bullet}-1,n_{z}-1).\\\\&amp;\\quad \\end{aligned}</div>"
     },
     {
       "id": "q0002",
       "number": 2,
       "header": "#2-Averge",
       "difficulty": "Averge",
-      "prompt_html": "<img src=\"/static/generated/assets/probability/ch129/q0002_prompt.png\"/>",
+      "prompt_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{aligned}&amp;\\text{有两台机器生产金属部件，分别在两台机器所生产的部件中各取一容量}n_{i}=60,\\;n_{s}=40\\text{的样本，测得部件重量(以kg计)的样本方差分别为}s_{1}^{2}=15.46,\\;s_{2}^{2}=9.66.\\text{设两样本相互独立，两总体分别服从分布}N(\\mu_{1},\\sigma_{1}^{2}),\\\\&amp;N(\\mu_{2},\\sigma_{2}^{2}).\\;\\mu_{i},\\sigma_{i}^{2}(i=1,2)\\text{均未知，若在}\\alpha=0.05\\text{水平下检验假设}H_{0}:\\sigma_{1}^{2}\\leq\\sigma_{2}^{2},\\;H_{1}:\\sigma_{1}^{2}&gt;\\sigma_{2}^{2}.\\text{则下列说法中不正确的是()。}\\end{aligned}\">\\begin{aligned}&amp;\\text{有两台机器生产金属部件，分别在两台机器所生产的部件中各取一容量}n_{i}=60,\\;n_{s}=40\\text{的样本，测得部件重量(以kg计)的样本方差分别为}s_{1}^{2}=15.46,\\;s_{2}^{2}=9.66.\\text{设两样本相互独立，两总体分别服从分布}N(\\mu_{1},\\sigma_{1}^{2}),\\\\&amp;N(\\mu_{2},\\sigma_{2}^{2}).\\;\\mu_{i},\\sigma_{i}^{2}(i=1,2)\\text{均未知，若在}\\alpha=0.05\\text{水平下检验假设}H_{0}:\\sigma_{1}^{2}\\leq\\sigma_{2}^{2},\\;H_{1}:\\sigma_{1}^{2}&gt;\\sigma_{2}^{2}.\\text{则下列说法中不正确的是()。}\\end{aligned}</div>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/probability/ch129/q0002_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{经检验，拒绝} \\, H _ { 0 }\">\\text{经检验，拒绝} \\, H _ { 0 }</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/probability/ch129/q0002_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\begin{array}{l} {\\text{检验统计量为}} \\; F = \\frac {S _ {1} ^ {2}}{S _ {2} ^ {2}} \\end{array}\">\\begin{array}{l} {\\text{检验统计量为}} \\; F = \\frac {S _ {1} ^ {2}}{S _ {2} ^ {2}} \\end{array}</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/probability/ch129/q0002_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{若} \\, H_{0} \\text{为真，则} F = \\frac{S_{1}^{2}}{S_{2}^{2}} \\sim F(n_{1}-1,\\, n_{2}-1)\">\\text{若} \\, H_{0} \\text{为真，则} F = \\frac{S_{1}^{2}}{S_{2}^{2}} \\sim F(n_{1}-1,\\, n_{2}-1)</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/probability/ch129/q0002_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{拒绝域为} \\; W = \\left\\{ \\frac{S_{1}^{2}}{S_{2}^{2}} &gt; F_{\\alpha}(n_{1}-1,n_{2}-1) \\right\\}\">\\text{拒绝域为} \\; W = \\left\\{ \\frac{S_{1}^{2}}{S_{2}^{2}} &gt; F_{\\alpha}(n_{1}-1,n_{2}-1) \\right\\}</span>"
         }
       ],
       "answer": "A",
       "answer_index": 0,
-      "analysis_html": "<img src=\"/static/generated/assets/probability/ch129/q0002_analysis.png\"/>"
+      "analysis_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{aligned}&amp;\\text{在}\\alpha=0.05\\text{下，检验假设}H_{0}: \\sigma_{1}^{2}\\leq \\sigma_{2}^{2},\\,H_{1}: \\sigma_{1}^{2}&gt;\\sigma_{2}^{2},\\\\&amp;\\text{采用}F\\text{检验统计量，则拒绝域为}\\\\&amp;W=\\left\\{\\frac{S_{1}^{2}}{S_{2}^{2}}&gt;F_{\\alpha}(n_{1}-1,n_{2}-1)\\right\\}.\\\\&amp;\\text{已知}\\ n_{1}=60,\\,n_{2}=40,\\,\\text{已知}{s_{1}^{2}}=15.46,\\,\\,s_{2}^{2}=9.66,\\,\\text{查}F\\text{分布表得}F_{0.05}(59,39)=1.64,\\\\&amp;\\text{且样本值}\\\\&amp;\\frac{s_{1}^{2}}{s_{2}^{2}}=\\frac{15.46}{9.66}\\approx 1.6024&lt;1.64,\\\\&amp;\\text{由于未落入否定域，故接受}H_{0}.\\end{aligned}\">\\begin{aligned}&amp;\\text{在}\\alpha=0.05\\text{下，检验假设}H_{0}: \\sigma_{1}^{2}\\leq \\sigma_{2}^{2},\\,H_{1}: \\sigma_{1}^{2}&gt;\\sigma_{2}^{2},\\\\&amp;\\text{采用}F\\text{检验统计量，则拒绝域为}\\\\&amp;W=\\left\\{\\frac{S_{1}^{2}}{S_{2}^{2}}&gt;F_{\\alpha}(n_{1}-1,n_{2}-1)\\right\\}.\\\\&amp;\\text{已知}\\ n_{1}=60,\\,n_{2}=40,\\,\\text{已知}{s_{1}^{2}}=15.46,\\,\\,s_{2}^{2}=9.66,\\,\\text{查}F\\text{分布表得}F_{0.05}(59,39)=1.64,\\\\&amp;\\text{且样本值}\\\\&amp;\\frac{s_{1}^{2}}{s_{2}^{2}}=\\frac{15.46}{9.66}\\approx 1.6024&lt;1.64,\\\\&amp;\\text{由于未落入否定域，故接受}H_{0}.\\end{aligned}</div>"
     },
     {
       "id": "q0003",
       "number": 3,
       "header": "#3-Hard",
       "difficulty": "Hard",
-      "prompt_html": "<img src=\"/static/generated/assets/probability/ch129/q0003_prompt.png\"/>",
+      "prompt_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{aligned}\\text{总体}X\\sim N(\\mu_{1},\\sigma_{1}^{2}),\\text{总体}Y\\sim N(\\mu_{2},\\sigma_{2}^{2}),\\text{其中}\\mu_{1},\\mu_{2},\\text{未知}.\\ X_{1},X_{2},\\cdots,X_{n_{1}}\\text{与}Y_{1},Y_{2},\\cdots,Y_{n_{2}}\\text{分别是来自总体}X,Y\\text{的样本，两样本独立. 设两样本的样本方差分别为}S_{1}^{2},S_{2}^{2},\\text{对}H_{0}:\\frac{\\sigma_{1}^{2}}{\\sigma_{2}^{2}}=\\lambda(\\lambda&gt;0,\\text{已知}),H_{1}:\\frac{\\sigma_{1}^{2}}{\\sigma_{2}^{2}}\\neq\\lambda,\\text{其检验统计量}F=(\\quad).\\end{aligned}\">\\begin{aligned}\\text{总体}X\\sim N(\\mu_{1},\\sigma_{1}^{2}),\\text{总体}Y\\sim N(\\mu_{2},\\sigma_{2}^{2}),\\text{其中}\\mu_{1},\\mu_{2},\\text{未知}.\\ X_{1},X_{2},\\cdots,X_{n_{1}}\\text{与}Y_{1},Y_{2},\\cdots,Y_{n_{2}}\\text{分别是来自总体}X,Y\\text{的样本，两样本独立. 设两样本的样本方差分别为}S_{1}^{2},S_{2}^{2},\\text{对}H_{0}:\\frac{\\sigma_{1}^{2}}{\\sigma_{2}^{2}}=\\lambda(\\lambda&gt;0,\\text{已知}),H_{1}:\\frac{\\sigma_{1}^{2}}{\\sigma_{2}^{2}}\\neq\\lambda,\\text{其检验统计量}F=(\\quad).\\end{aligned}</div>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/probability/ch129/q0003_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\frac { S _ { 1 } ^ { 2 } } { \\lambda S _ { 2 } ^ { 2 } }\">\\frac { S _ { 1 } ^ { 2 } } { \\lambda S _ { 2 } ^ { 2 } }</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/probability/ch129/q0003_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\frac { S _ { 1 } ^ { 2 } } { S _ { 2 } ^ { 2 } }\">\\frac { S _ { 1 } ^ { 2 } } { S _ { 2 } ^ { 2 } }</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/probability/ch129/q0003_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\frac { \\lambda S _ { 1 } ^ { 2 } } { S _ { 2 } ^ { 2 } }\">\\frac { \\lambda S _ { 1 } ^ { 2 } } { S _ { 2 } ^ { 2 } }</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/probability/ch129/q0003_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\frac { \\lambda S _ { 2 } ^ { 2 } } { S _ { 1 } ^ { 2 } }\">\\frac { \\lambda S _ { 2 } ^ { 2 } } { S _ { 1 } ^ { 2 } }</span>"
         }
       ],
       "answer": "A",
       "answer_index": 0,
-      "analysis_html": "<img src=\"/static/generated/assets/probability/ch129/q0003_analysis.png\"/>"
+      "analysis_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{aligned}&amp;\\text{根据已知条件，检验统计量选为}F=\\frac{S_{1}^{2}\\sigma_{1}^{2}}{S_{2}^{2}\\sigma_{2}^{2}}\\sim F\\big(n_{1}-1,n_{2}-1\\big)\\;,\\;\\text{当}H_{0}\\text{成立时}\\left(\\frac{\\sigma_{1}^{2}}{\\sigma_{2}^{2}}=\\lambda\\right)\\;,\\\\&amp;F=\\frac{S_{1}^{2}}{\\lambda S_{2}^{2}}\\sim F\\big(n_{1}-1,n_{2}-1\\big)\\;,\\text{从而拒绝域}W=\\left\\{F&lt;F_{1-n_{2}/2}\\big(n_{1}-1,n_{2}-1\\big)\\text{或}F&gt;F_{n_{2}/2}\\big(n_{1}-1,n_{2}-1\\big)\\right\\}.\\end{aligned}\">\\begin{aligned}&amp;\\text{根据已知条件，检验统计量选为}F=\\frac{S_{1}^{2}\\sigma_{1}^{2}}{S_{2}^{2}\\sigma_{2}^{2}}\\sim F\\big(n_{1}-1,n_{2}-1\\big)\\;,\\;\\text{当}H_{0}\\text{成立时}\\left(\\frac{\\sigma_{1}^{2}}{\\sigma_{2}^{2}}=\\lambda\\right)\\;,\\\\&amp;F=\\frac{S_{1}^{2}}{\\lambda S_{2}^{2}}\\sim F\\big(n_{1}-1,n_{2}-1\\big)\\;,\\text{从而拒绝域}W=\\left\\{F&lt;F_{1-n_{2}/2}\\big(n_{1}-1,n_{2}-1\\big)\\text{或}F&gt;F_{n_{2}/2}\\big(n_{1}-1,n_{2}-1\\big)\\right\\}.\\end{aligned}</div>"
     },
     {
       "id": "q0004",
       "number": 4,
       "header": "#4-Averge",
       "difficulty": "Averge",
-      "prompt_html": "<img src=\"/static/generated/assets/probability/ch129/q0004_prompt.png\"/>",
+      "prompt_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{array}{l} \\text {设两正态总体}N(\\mu_{1},\\sigma_{1}^{2})\\text {和}N(\\mu_{2},\\sigma_{2}^{2})\\text {有两组相互独立的样本，容量分别为}n_{1},n_{2},\\text {均值为}\\overline{X}_{1}\\text {及}\\overline{X}_{2},\\text {（无偏）样本方差为}S_{1}^{2},\\ S_{2}^{2},\\ \\mu_{1}\\text {及}\\mu_{2}\\text {未知，要对}\\sigma_{1}^{2}=\\sigma_{2}^{2}\\text {作假设检验，统计假设为}H_{0},\\sigma_{1}^{2}=\\sigma_{2}^{2},\\ H_{1},\\sigma_{1}^{2}&lt;\\sigma_{2}^{2},\\text {给定显著水平}\\alpha,\\text {则检验的拒绝域为}\\left(\\cdot\\right). \\end{array}\">\\begin{array}{l} \\text {设两正态总体}N(\\mu_{1},\\sigma_{1}^{2})\\text {和}N(\\mu_{2},\\sigma_{2}^{2})\\text {有两组相互独立的样本，容量分别为}n_{1},n_{2},\\text {均值为}\\overline{X}_{1}\\text {及}\\overline{X}_{2},\\text {（无偏）样本方差为}S_{1}^{2},\\ S_{2}^{2},\\ \\mu_{1}\\text {及}\\mu_{2}\\text {未知，要对}\\sigma_{1}^{2}=\\sigma_{2}^{2}\\text {作假设检验，统计假设为}H_{0},\\sigma_{1}^{2}=\\sigma_{2}^{2},\\ H_{1},\\sigma_{1}^{2}&lt;\\sigma_{2}^{2},\\text {给定显著水平}\\alpha,\\text {则检验的拒绝域为}\\left(\\cdot\\right). \\end{array}</div>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/probability/ch129/q0004_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\left( 0 , F _ { 1 - \\alpha } ( n _ { 1 } - 1 , n _ { 2 } - 1 ) \\right)\">\\left( 0 , F _ { 1 - \\alpha } ( n _ { 1 } - 1 , n _ { 2 } - 1 ) \\right)</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/probability/ch129/q0004_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\left(F_{a}(n_{1},n_{2}),+\\infty\\right)\">\\left(F_{a}(n_{1},n_{2}),+\\infty\\right)</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/probability/ch129/q0004_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\left(0, F_{1-a}(n_{1}, n_{2})\\right)\">\\left(0, F_{1-a}(n_{1}, n_{2})\\right)</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/probability/ch129/q0004_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\left(F_{a}(n_{1}-1,n_{2}-1),+\\infty\\right)\">\\left(F_{a}(n_{1}-1,n_{2}-1),+\\infty\\right)</span>"
         }
       ],
       "answer": "A",
       "answer_index": 0,
-      "analysis_html": "<img src=\"/static/generated/assets/probability/ch129/q0004_analysis.png\"/>"
+      "analysis_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{aligned}&amp;\\text{若均值}\\mu_{1},\\mu_{2} \\text{未知，则}\\\\&amp;(1)\\text{检验假设为}H_{0}: \\sigma_{1}^{2}=\\sigma_{2}^{2},\\ H_{1}: \\sigma_{1}^{2}\\neq \\sigma_{2}^{2}.\\\\&amp;(2)\\text{若}H_{0}\\text{为真，则有}F=\\frac{\\displaystyle\\frac{1}{n_{1}-1}\\sum_{i=1}^{n_{1}}(X_{i}-\\widehat{X}_{i})^{2}}{\\displaystyle\\frac{1}{n_{2}-1}\\sum_{i=1}^{n_{2}}(Y_{i}-\\widehat{Y})}=\\frac{S_{1}^{2}}{S_{2}^{2}}\\sim F(n_{1}-1,n_{2}-1),\\\\&amp;\\text{此时拒绝域为}\\left(0,F_{1_{-\\infty}}(n_{1}-1,n_{2}-1)\\right)\\cup\\left(F_{n_{2}}(n_{1}-1,n_{2}-1),+\\infty\\right).\\\\&amp;\\text{另外，右侧检验：}H_{0}: \\sigma_{1}^{2}=\\sigma_{2}^{2},\\ H_{1}: \\sigma_{1}^{2}&gt;\\sigma_{2}^{2}.\\ \\text{此时拒绝域为}\\left(F_{n_{1}}(n_{1}-1,n_{2}-1),+\\infty\\right).\\\\&amp;\\text{左侧检验：}H_{0}: \\sigma_{1}^{2}=\\sigma_{2}^{2},\\ H_{1}: \\sigma_{1}^{2}&lt;\\sigma_{2}^{2}.\\ \\text{此时拒绝域为}\\left(0,F_{1_{-\\infty}}(n_{1}-1,n_{2}-1)\\right).\\end{aligned}\">\\begin{aligned}&amp;\\text{若均值}\\mu_{1},\\mu_{2} \\text{未知，则}\\\\&amp;(1)\\text{检验假设为}H_{0}: \\sigma_{1}^{2}=\\sigma_{2}^{2},\\ H_{1}: \\sigma_{1}^{2}\\neq \\sigma_{2}^{2}.\\\\&amp;(2)\\text{若}H_{0}\\text{为真，则有}F=\\frac{\\displaystyle\\frac{1}{n_{1}-1}\\sum_{i=1}^{n_{1}}(X_{i}-\\widehat{X}_{i})^{2}}{\\displaystyle\\frac{1}{n_{2}-1}\\sum_{i=1}^{n_{2}}(Y_{i}-\\widehat{Y})}=\\frac{S_{1}^{2}}{S_{2}^{2}}\\sim F(n_{1}-1,n_{2}-1),\\\\&amp;\\text{此时拒绝域为}\\left(0,F_{1_{-\\infty}}(n_{1}-1,n_{2}-1)\\right)\\cup\\left(F_{n_{2}}(n_{1}-1,n_{2}-1),+\\infty\\right).\\\\&amp;\\text{另外，右侧检验：}H_{0}: \\sigma_{1}^{2}=\\sigma_{2}^{2},\\ H_{1}: \\sigma_{1}^{2}&gt;\\sigma_{2}^{2}.\\ \\text{此时拒绝域为}\\left(F_{n_{1}}(n_{1}-1,n_{2}-1),+\\infty\\right).\\\\&amp;\\text{左侧检验：}H_{0}: \\sigma_{1}^{2}=\\sigma_{2}^{2},\\ H_{1}: \\sigma_{1}^{2}&lt;\\sigma_{2}^{2}.\\ \\text{此时拒绝域为}\\left(0,F_{1_{-\\infty}}(n_{1}-1,n_{2}-1)\\right).\\end{aligned}</div>"
     },
     {
       "id": "q0005",
       "number": 5,
       "header": "#5-Averge",
       "difficulty": "Averge",
-      "prompt_html": "<img src=\"/static/generated/assets/probability/ch129/q0005_prompt.png\"/>",
+      "prompt_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{array}{l} \\text {设两正态总体}N(\\mu_{1},\\sigma_{1}^{2})\\text {和}N(\\mu_{2},\\sigma_{2}^{2})\\text {有两组相互独立的样本，容量分别为}n_{1},n_{2},\\text {均值为}\\overline{X}_{1}\\text {及}\\overline{X}_{2},\\text {(无偏)样本方差为}S_{1}^{2},\\ S_{2}^{2},\\ \\mu_{1}\\text {及}\\mu_{2}\\text {未知，要对}\\sigma_{1}^{2}=\\sigma_{2}^{2}\\text{作假设检验}，\\text{统计假设为}H_{0}:\\sigma_{1}^{2}=\\sigma_{2}^{2},\\ H_{1}:\\sigma_{1}^{2}\\neq\\sigma_{2}^{2},\\text {给定显著水平}\\alpha,\\text {则检验的拒绝域为}\\left(\\cdot\\right). \\end{array}\">\\begin{array}{l} \\text {设两正态总体}N(\\mu_{1},\\sigma_{1}^{2})\\text {和}N(\\mu_{2},\\sigma_{2}^{2})\\text {有两组相互独立的样本，容量分别为}n_{1},n_{2},\\text {均值为}\\overline{X}_{1}\\text {及}\\overline{X}_{2},\\text {(无偏)样本方差为}S_{1}^{2},\\ S_{2}^{2},\\ \\mu_{1}\\text {及}\\mu_{2}\\text {未知，要对}\\sigma_{1}^{2}=\\sigma_{2}^{2}\\text{作假设检验}，\\text{统计假设为}H_{0}:\\sigma_{1}^{2}=\\sigma_{2}^{2},\\ H_{1}:\\sigma_{1}^{2}\\neq\\sigma_{2}^{2},\\text {给定显著水平}\\alpha,\\text {则检验的拒绝域为}\\left(\\cdot\\right). \\end{array}</div>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/probability/ch129/q0005_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\bigl(0, F_{1-\\alpha/2}(n_{1}-1, n_{2}-1)\\bigr) \\cup \\Bigl( F_{\\alpha/2}(n_{1}-1, n_{2}-1), +\\infty \\Bigr)\">\\bigl(0, F_{1-\\alpha/2}(n_{1}-1, n_{2}-1)\\bigr) \\cup \\Bigl( F_{\\alpha/2}(n_{1}-1, n_{2}-1), +\\infty \\Bigr)</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/probability/ch129/q0005_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\left( 0 , F _ { 1 - a } ( n _ { 1 } - 1 , n _ { 2 } - 1 ) \\right)\">\\left( 0 , F _ { 1 - a } ( n _ { 1 } - 1 , n _ { 2 } - 1 ) \\right)</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/probability/ch129/q0005_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\left(F_{a}(n_{1},n_{2}),+\\infty\\right)\">\\left(F_{a}(n_{1},n_{2}),+\\infty\\right)</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/probability/ch129/q0005_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\bigl(0,F_{1-\\alpha/2}(n_{1},n_{2})\\bigr)\\cup\\bigl(F_{\\alpha/2}(n_{1},n_{2}),+\\infty\\bigr)\">\\bigl(0,F_{1-\\alpha/2}(n_{1},n_{2})\\bigr)\\cup\\bigl(F_{\\alpha/2}(n_{1},n_{2}),+\\infty\\bigr)</span>"
         }
       ],
       "answer": "A",
       "answer_index": 0,
-      "analysis_html": "<img src=\"/static/generated/assets/probability/ch129/q0005_analysis.png\"/>"
+      "analysis_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{aligned}&amp;\\text{若均值}\\mu_{i},\\;\\mu_{i}\\text{未知，则}\\\\&amp;(1)\\text{检验假设为}\\;H_{0}: \\sigma_{1}^{2}=\\sigma_{2}^{2},\\;H_{1}: \\sigma_{1}^{2}\\neq \\sigma_{2}^{2}.\\\\&amp;(2)\\text{若}\\;H_{0}\\text{为真，则有}\\;F=\\frac{\\displaystyle\\frac{1}{n_{1}-1}\\sum_{i=1}^{n_{i}}(X_{i}-\\bar{X})^{2}}{\\displaystyle\\frac{1}{n_{1}-1}\\sum_{i=1}^{n_{i}}(Y_{i}-\\bar{Y})}=\\frac{S_{1}^{2}}{S_{2}^{2}}\\sim F(n_{1}-1,n_{2}-1),\\\\&amp;\\text{此时拒绝域为}\\;\\big(0,F_{1-n_{2}}(n_{1}-1,n_{2}-1)\\big)\\cup\\big(F_{n_{2}}(n_{1}-1,n_{2}-1),+\\infty\\big).\\\\&amp;\\text{另外，右侧检验：}\\;H_{0}: \\sigma_{1}^{2}=\\sigma_{2}^{2},\\;H_{1}: \\sigma_{1}^{2}&gt;\\sigma_{2}^{2}.\\;\\text{此时拒绝域为}\\;\\big(F_{n}(n_{1}-1,n_{2}-1),+\\infty\\big).\\\\&amp;\\text{左侧检验：}\\;H_{0}: \\sigma_{1}^{2}=\\sigma_{2}^{2},\\;H_{1}: \\sigma_{1}^{2}&lt;\\sigma_{2}^{2}.\\;\\text{此时拒绝域为}\\;\\big(0,F_{1-n_{1}}(n_{1}-1,n_{2}-1)\\big).\\end{aligned}\">\\begin{aligned}&amp;\\text{若均值}\\mu_{i},\\;\\mu_{i}\\text{未知，则}\\\\&amp;(1)\\text{检验假设为}\\;H_{0}: \\sigma_{1}^{2}=\\sigma_{2}^{2},\\;H_{1}: \\sigma_{1}^{2}\\neq \\sigma_{2}^{2}.\\\\&amp;(2)\\text{若}\\;H_{0}\\text{为真，则有}\\;F=\\frac{\\displaystyle\\frac{1}{n_{1}-1}\\sum_{i=1}^{n_{i}}(X_{i}-\\bar{X})^{2}}{\\displaystyle\\frac{1}{n_{1}-1}\\sum_{i=1}^{n_{i}}(Y_{i}-\\bar{Y})}=\\frac{S_{1}^{2}}{S_{2}^{2}}\\sim F(n_{1}-1,n_{2}-1),\\\\&amp;\\text{此时拒绝域为}\\;\\big(0,F_{1-n_{2}}(n_{1}-1,n_{2}-1)\\big)\\cup\\big(F_{n_{2}}(n_{1}-1,n_{2}-1),+\\infty\\big).\\\\&amp;\\text{另外，右侧检验：}\\;H_{0}: \\sigma_{1}^{2}=\\sigma_{2}^{2},\\;H_{1}: \\sigma_{1}^{2}&gt;\\sigma_{2}^{2}.\\;\\text{此时拒绝域为}\\;\\big(F_{n}(n_{1}-1,n_{2}-1),+\\infty\\big).\\\\&amp;\\text{左侧检验：}\\;H_{0}: \\sigma_{1}^{2}=\\sigma_{2}^{2},\\;H_{1}: \\sigma_{1}^{2}&lt;\\sigma_{2}^{2}.\\;\\text{此时拒绝域为}\\;\\big(0,F_{1-n_{1}}(n_{1}-1,n_{2}-1)\\big).\\end{aligned}</div>"
     },
     {
       "id": "q0006",
       "number": 6,
       "header": "#6-Hard",
       "difficulty": "Hard",
-      "prompt_html": "<img src=\"/static/generated/assets/probability/ch129/q0006_prompt.png\"/>",
+      "prompt_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{aligned}&amp;\\text{总体}X\\sim N(\\mu_{1},\\sigma_{1}^{2})，\\text{总体}Y\\sim N(\\mu_{2},\\sigma_{2}^{2})，\\text{其中}\\mu_{1},\\mu_{2},\\text{未知}。X_{1},X_{2},\\cdots,X_{n_{1}}\\text{与}Y_{1},Y_{2},\\cdots,Y_{n_{2}}\\text{分别是来自总体}X,Y\\text{的样本}，\\text{两样本独立}。\\text{设两样本的样本方差分别为}S_{1}^{2},S_{2}^{2}，\\text{对}H_{0}:\\frac{\\sigma_{1}^{2}}{\\sigma_{2}^{2}}=\\lambda(\\lambda&gt;0,\\text{已知})\\Leftrightarrow H_{1}:\\frac{\\sigma_{2}^{2}}{\\sigma_{2}^{2}}\\neq\\lambda，\\text{其检验统计量}\\\\&amp;F=\\underline{\\hspace{2em}}；\\text{其拒绝域}W=\\underline{\\hspace{2em}}。() \\end{aligned}\">\\begin{aligned}&amp;\\text{总体}X\\sim N(\\mu_{1},\\sigma_{1}^{2})，\\text{总体}Y\\sim N(\\mu_{2},\\sigma_{2}^{2})，\\text{其中}\\mu_{1},\\mu_{2},\\text{未知}。X_{1},X_{2},\\cdots,X_{n_{1}}\\text{与}Y_{1},Y_{2},\\cdots,Y_{n_{2}}\\text{分别是来自总体}X,Y\\text{的样本}，\\text{两样本独立}。\\text{设两样本的样本方差分别为}S_{1}^{2},S_{2}^{2}，\\text{对}H_{0}:\\frac{\\sigma_{1}^{2}}{\\sigma_{2}^{2}}=\\lambda(\\lambda&gt;0,\\text{已知})\\Leftrightarrow H_{1}:\\frac{\\sigma_{2}^{2}}{\\sigma_{2}^{2}}\\neq\\lambda，\\text{其检验统计量}\\\\&amp;F=\\underline{\\hspace{2em}}；\\text{其拒绝域}W=\\underline{\\hspace{2em}}。() \\end{aligned}</div>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/probability/ch129/q0006_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\begin{aligned}\\frac{S_{1}^{2}}{\\lambda S_{2}^{2}}\\;,\\;\\;\\bigl\\{F &lt; F_{1-a/2}\\bigl(n_{1}-1,n_{2}-1\\bigr)\\text{或} F &gt; F_{a/2}\\bigl(n_{1}-1,n_{2}-1\\bigr)\\bigr\\}\\end{aligned}\">\\begin{aligned}\\frac{S_{1}^{2}}{\\lambda S_{2}^{2}}\\;,\\;\\;\\bigl\\{F &lt; F_{1-a/2}\\bigl(n_{1}-1,n_{2}-1\\bigr)\\text{或} F &gt; F_{a/2}\\bigl(n_{1}-1,n_{2}-1\\bigr)\\bigr\\}\\end{aligned}</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/probability/ch129/q0006_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\frac{S_{1}^{2}}{\\lambda S_{2}^{2}}\\,,\\,\\,\\,\\bigl\\{F{&lt;}F_{1-a/2}\\bigl(n_{1}-1,n_{2}-1\\bigr)\\bigr\\}\">\\frac{S_{1}^{2}}{\\lambda S_{2}^{2}}\\,,\\,\\,\\,\\bigl\\{F{&lt;}F_{1-a/2}\\bigl(n_{1}-1,n_{2}-1\\bigr)\\bigr\\}</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/probability/ch129/q0006_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\frac{S_{1}^{2}}{S_{2}^{2}}\\,,\\;\\;\\bigl\\{F\\!&gt;\\!F_{\\alpha/2}\\bigl(n_{1}-1,n_{2}-1\\bigr)\\bigr\\}\">\\frac{S_{1}^{2}}{S_{2}^{2}}\\,,\\;\\;\\bigl\\{F\\!&gt;\\!F_{\\alpha/2}\\bigl(n_{1}-1,n_{2}-1\\bigr)\\bigr\\}</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/probability/ch129/q0006_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\frac{\\lambda S_{1}^{2}}{S_{2}^{2}}\\,,\\,\\,\\left\\{F&lt;F_{1-\\alpha/2}\\bigl(n_{1}-1,n_{2}-1\\bigr)\\text{或}F&gt;F_{\\alpha/2}\\bigl(n_{1}-1,n_{2}-1\\bigr)\\right\\}\">\\frac{\\lambda S_{1}^{2}}{S_{2}^{2}}\\,,\\,\\,\\left\\{F&lt;F_{1-\\alpha/2}\\bigl(n_{1}-1,n_{2}-1\\bigr)\\text{或}F&gt;F_{\\alpha/2}\\bigl(n_{1}-1,n_{2}-1\\bigr)\\right\\}</span>"
         }
       ],
       "answer": "A",
       "answer_index": 0,
-      "analysis_html": "<img src=\"/static/generated/assets/probability/ch129/q0006_analysis.png\"/>"
+      "analysis_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{aligned}&amp;F=\\frac{s_1^2\\sigma_1^2}{s_2^2\\sigma_2^2}\\sim F\\bigl(n_1-1,n_2-1\\bigr)\\;,\\;\\text{当}\\;H_0\\text{成立时}\\;\\left(\\frac{\\sigma_1^2}{\\sigma_2^2}=\\lambda\\right)\\;,\\;F=\\frac{s_1^2}{\\lambda s_2^2}\\sim F\\bigl(n_1-1,n_2-1\\bigr)\\;,\\;\\text{从而拒绝域}\\;W\\text{为}\\\\&amp;\\left\\{F&lt;F_{1-a/2}\\bigl(n_1-1,n_2-1\\bigr)\\text{或}F&gt;F_{a/2}\\bigl(n_1-1,n_2-1\\bigr)\\right\\}\\;.\\end{aligned}\">\\begin{aligned}&amp;F=\\frac{s_1^2\\sigma_1^2}{s_2^2\\sigma_2^2}\\sim F\\bigl(n_1-1,n_2-1\\bigr)\\;,\\;\\text{当}\\;H_0\\text{成立时}\\;\\left(\\frac{\\sigma_1^2}{\\sigma_2^2}=\\lambda\\right)\\;,\\;F=\\frac{s_1^2}{\\lambda s_2^2}\\sim F\\bigl(n_1-1,n_2-1\\bigr)\\;,\\;\\text{从而拒绝域}\\;W\\text{为}\\\\&amp;\\left\\{F&lt;F_{1-a/2}\\bigl(n_1-1,n_2-1\\bigr)\\text{或}F&gt;F_{a/2}\\bigl(n_1-1,n_2-1\\bigr)\\right\\}\\;.\\end{aligned}</div>"
     },
     {
       "id": "q0007",
       "number": 7,
       "header": "#7-Averge",
       "difficulty": "Averge",
-      "prompt_html": "<img src=\"/static/generated/assets/probability/ch129/q0007_prompt.png\"/>",
+      "prompt_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{aligned}\\text{甲、乙两厂生产同一种电阻，现从甲乙两厂的产品中分别随机抽取12个和10个样品，测得它们的电阻值后，计算出样本方差分别为}s_{1}^{2}=1.40,s_{2}^{2}=4.38。\\text{假设电阻值服从正态分布}，\\text{在显著性水平}\\alpha=0.10\\text{下}，\\text{两厂生产的电阻值的方差是否相等的说法}，\\text{不正确的是}（）。\\end{aligned}\">\\begin{aligned}\\text{甲、乙两厂生产同一种电阻，现从甲乙两厂的产品中分别随机抽取12个和10个样品，测得它们的电阻值后，计算出样本方差分别为}s_{1}^{2}=1.40,s_{2}^{2}=4.38。\\text{假设电阻值服从正态分布}，\\text{在显著性水平}\\alpha=0.10\\text{下}，\\text{两厂生产的电阻值的方差是否相等的说法}，\\text{不正确的是}（）。\\end{aligned}</div>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/probability/ch129/q0007_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{拒绝域为} \\, (F_{\\alpha / 2} (n_{1} - 1, \\, n_{2} - 1) , + \\infty )\">\\text{拒绝域为} \\, (F_{\\alpha / 2} (n_{1} - 1, \\, n_{2} - 1) , + \\infty )</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/probability/ch129/q0007_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{检验假设为} \\, H_0 \\colon \\sigma_1^2 = \\sigma_2^2 \\; , \\; H_1 \\colon \\sigma_1^2 \\neq \\sigma_2^2\">\\text{检验假设为} \\, H_0 \\colon \\sigma_1^2 = \\sigma_2^2 \\; , \\; H_1 \\colon \\sigma_1^2 \\neq \\sigma_2^2</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/probability/ch129/q0007_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{检验统计量为} \\, F = \\frac { S _ { 1 } ^ { 2 } } { S _ { 2 } ^ { 2 } }\">\\text{检验统计量为} \\, F = \\frac { S _ { 1 } ^ { 2 } } { S _ { 2 } ^ { 2 } }</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/probability/ch129/q0007_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{可认为两厂生产的电阻阻值的方差不同}\">\\text{可认为两厂生产的电阻阻值的方差不同}</span>"
         }
       ],
       "answer": "A",
       "answer_index": 0,
-      "analysis_html": "<img src=\"/static/generated/assets/probability/ch129/q0007_analysis.png\"/>"
+      "analysis_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{aligned}&amp; \\text{该问题即检验假设：}\\quad H_0: \\sigma_1^2 = \\sigma_2^2 \\Leftrightarrow H_1: \\sigma_1^2 \\neq \\sigma_2^2. \\\\&amp; \\text{因为} \\quad m=12,\\ n=10,\\ \\text{利用}F\\text{分布的性质，有}F_{0.95}(11,9)=\\frac{1}{F_{0.05}(9,11)}=\\frac{1}{2.9}=0.34,\\ \\\\&amp; \\text{而} \\quad s_1^2/s_2^2=1.40/4.38=0.32&lt;0.34=F_{0.95}(11,9),\\\\&amp; \\text{故拒绝原假设，认为两厂生产的电阻阻值的方差不同.}\\end{aligned}\">\\begin{aligned}&amp; \\text{该问题即检验假设：}\\quad H_0: \\sigma_1^2 = \\sigma_2^2 \\Leftrightarrow H_1: \\sigma_1^2 \\neq \\sigma_2^2. \\\\&amp; \\text{因为} \\quad m=12,\\ n=10,\\ \\text{利用}F\\text{分布的性质，有}F_{0.95}(11,9)=\\frac{1}{F_{0.05}(9,11)}=\\frac{1}{2.9}=0.34,\\ \\\\&amp; \\text{而} \\quad s_1^2/s_2^2=1.40/4.38=0.32&lt;0.34=F_{0.95}(11,9),\\\\&amp; \\text{故拒绝原假设，认为两厂生产的电阻阻值的方差不同.}\\end{aligned}</div>"
     },
     {
       "id": "q0008",
       "number": 8,
       "header": "#8-Averge",
       "difficulty": "Averge",
-      "prompt_html": "<img src=\"/static/generated/assets/probability/ch129/q0008_prompt.png\"/>",
+      "prompt_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{array}{l} \\text {设总体} X \\sim N(\\mu_{1},\\sigma_{1}^{2}), \\text {总体} Y \\sim N(\\mu_{2},\\sigma_{2}^{2}), \\text {其中} \\mu_{1}, \\mu_{2} \\text {未知.从总体} X \\text {抽取容量为} 8 \\text {的样本,}\\\\ \\text {从总体} Y \\text {抽取容量为} 10 \\text {的样本,两样本独立.对于假设检验} H_{0}: \\sigma_{1} = \\sigma_{2} \\Leftrightarrow H_{1}: \\sigma_{1} &lt; \\sigma_{2}, \\text {在显著水平为} \\alpha = 0.05 \\text {下,检验的拒绝域为( ).} \\end{array}\">\\begin{array}{l} \\text {设总体} X \\sim N(\\mu_{1},\\sigma_{1}^{2}), \\text {总体} Y \\sim N(\\mu_{2},\\sigma_{2}^{2}), \\text {其中} \\mu_{1}, \\mu_{2} \\text {未知.从总体} X \\text {抽取容量为} 8 \\text {的样本,}\\\\ \\text {从总体} Y \\text {抽取容量为} 10 \\text {的样本,两样本独立.对于假设检验} H_{0}: \\sigma_{1} = \\sigma_{2} \\Leftrightarrow H_{1}: \\sigma_{1} &lt; \\sigma_{2}, \\text {在显著水平为} \\alpha = 0.05 \\text {下,检验的拒绝域为( ).} \\end{array}</div>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/probability/ch129/q0008_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\frac{s_{1}^{2}}{s_{2}^{2}}&lt;F_{_{0.95}}(7,9)\">\\frac{s_{1}^{2}}{s_{2}^{2}}&lt;F_{_{0.95}}(7,9)</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/probability/ch129/q0008_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\frac{s_{1}^{2}}{s_{2}^{2}} &gt; F_{_{0.05}}(7,9)\">\\frac{s_{1}^{2}}{s_{2}^{2}} &gt; F_{_{0.05}}(7,9)</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/probability/ch129/q0008_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\frac{s_{1}^{2}}{s_{2}^{2}}{&lt;}F_{_{0.05}}(8,10)\">\\frac{s_{1}^{2}}{s_{2}^{2}}{&lt;}F_{_{0.05}}(8,10)</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/probability/ch129/q0008_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\frac{s_{1}^{2}}{s_{2}^{2}} &lt; F_{0.975}(7,9) \\text{或} \\frac{s_{1}^{2}}{s_{2}^{2}} &gt; F_{0.025}(7,9)\">\\frac{s_{1}^{2}}{s_{2}^{2}} &lt; F_{0.975}(7,9) \\text{或} \\frac{s_{1}^{2}}{s_{2}^{2}} &gt; F_{0.025}(7,9)</span>"
         }
       ],
       "answer": "A",
       "answer_index": 0,
-      "analysis_html": "<img src=\"/static/generated/assets/probability/ch129/q0008_analysis.png\"/>"
+      "analysis_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{aligned}&amp;\\text{双正态总体方差相等的检验统计量为}F=S_{1}^{2}/S_{2}^{2}\\sim F(n_{1}-1,n_{2}-1),\\\\&amp;\\text{对于左侧检验}H_{0}: \\sigma_{1}^{2}\\geq \\sigma_{2}^{2},\\ H_{1}: \\sigma_{1}^{2}&lt;\\sigma_{2}^{2},\\text{拒绝域为}F&lt;F_{1-\\alpha}(n_{1}-1,n_{2}-1).\\\\&amp;\\text{带入具体数据，得拒绝域为}\\frac{s_{1}^{2}}{s_{2}^{2}}&lt;F_{0.95}(7,9).\\end{aligned}\">\\begin{aligned}&amp;\\text{双正态总体方差相等的检验统计量为}F=S_{1}^{2}/S_{2}^{2}\\sim F(n_{1}-1,n_{2}-1),\\\\&amp;\\text{对于左侧检验}H_{0}: \\sigma_{1}^{2}\\geq \\sigma_{2}^{2},\\ H_{1}: \\sigma_{1}^{2}&lt;\\sigma_{2}^{2},\\text{拒绝域为}F&lt;F_{1-\\alpha}(n_{1}-1,n_{2}-1).\\\\&amp;\\text{带入具体数据，得拒绝域为}\\frac{s_{1}^{2}}{s_{2}^{2}}&lt;F_{0.95}(7,9).\\end{aligned}</div>"
     },
     {
       "id": "q0009",
       "number": 9,
       "header": "#9-Averge",
       "difficulty": "Averge",
-      "prompt_html": "<img src=\"/static/generated/assets/probability/ch129/q0009_prompt.png\"/>",
+      "prompt_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{array}{l} \\text {设总体} X \\sim N(\\mu_{1},\\sigma_{1}^{2}), \\text {总体} Y \\sim N(\\mu_{2},\\sigma_{2}^{2}), \\text {其中}\\mu_{1},\\mu_{2} \\text {未知.}\\text {从总体} X \\text {抽取容量为} 11 \\text {的样本，从总体} Y \\text {抽取容量为} 13 \\text {的样本，两样本独立.对于假设检验} H_{0}: \\sigma_{1} = 2 \\sigma_{2} \\leftrightarrow H_{1}: \\sigma_{1} &gt; 2 \\sigma_{2}, \\text {设显著水平为} 0.05, \\text {则检验的拒绝域为} (.,) \\end{array}\">\\begin{array}{l} \\text {设总体} X \\sim N(\\mu_{1},\\sigma_{1}^{2}), \\text {总体} Y \\sim N(\\mu_{2},\\sigma_{2}^{2}), \\text {其中}\\mu_{1},\\mu_{2} \\text {未知.}\\text {从总体} X \\text {抽取容量为} 11 \\text {的样本，从总体} Y \\text {抽取容量为} 13 \\text {的样本，两样本独立.对于假设检验} H_{0}: \\sigma_{1} = 2 \\sigma_{2} \\leftrightarrow H_{1}: \\sigma_{1} &gt; 2 \\sigma_{2}, \\text {设显著水平为} 0.05, \\text {则检验的拒绝域为} (.,) \\end{array}</div>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/probability/ch129/q0009_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\frac{s_{1}^{2}}{s_{2}^{2}} &gt; 4 F_{_{0.05}}(10, 12)\">\\frac{s_{1}^{2}}{s_{2}^{2}} &gt; 4 F_{_{0.05}}(10, 12)</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/probability/ch129/q0009_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\frac{s_{1}^{2}}{s_{2}^{2}} &gt; \\frac{1}{4} F_{_{0.95}}(10, 12)\">\\frac{s_{1}^{2}}{s_{2}^{2}} &gt; \\frac{1}{4} F_{_{0.95}}(10, 12)</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/probability/ch129/q0009_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\begin{array}{l} { l } { { \\displaystyle { \\frac { s _ { 1 } ^ { 2 } } { s _ { 2 } ^ { 2 } } } &gt; 2 F _ { _ { 0 . 05 } } ( 10 , 12 ) } } \\end{array}\">\\begin{array}{l} { l } { { \\displaystyle { \\frac { s _ { 1 } ^ { 2 } } { s _ { 2 } ^ { 2 } } } &gt; 2 F _ { _ { 0 . 05 } } ( 10 , 12 ) } } \\end{array}</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/probability/ch129/q0009_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\frac{s_{1}^{2}}{s_{2}^{2}} &gt; \\frac{1}{2} F_{_{0.05}}(10, 12)\">\\frac{s_{1}^{2}}{s_{2}^{2}} &gt; \\frac{1}{2} F_{_{0.05}}(10, 12)</span>"
         }
       ],
       "answer": "A",
       "answer_index": 0,
-      "analysis_html": "<img src=\"/static/generated/assets/probability/ch129/q0009_analysis.png\"/>"
+      "analysis_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{aligned}&amp;\\text{双正态总体方差比的检验统计量为}\\\\&amp;F=\\frac{\\sigma_{2}^{2}\\,S_{1}^{2}}{\\sigma_{1}^{2}\\,S_{2}^{2}}\\sim F(n_{1}-1,\\,n_{2}-1),\\\\&amp;\\text{对于右侧检验}\\,H_{0}:\\sigma_{1}^{2}\\leq k^{2}\\sigma_{2}^{2},\\,\\,H_{1}:\\sigma_{1}^{2}&gt;k^{2}\\sigma_{2}^{2},\\,\\,\\text{可得拒绝域为}\\\\&amp;F&gt;F_{\\alpha}(n_{1}-1,\\,n_{2}-1).\\\\&amp;\\text{把具体是数据代入本题的，的拒绝域为}\\\\&amp;\\frac{1}{4}\\frac{s_{1}^{2}}{s_{2}^{2}}&gt;F_{0.05}(10,12).\\end{aligned}\">\\begin{aligned}&amp;\\text{双正态总体方差比的检验统计量为}\\\\&amp;F=\\frac{\\sigma_{2}^{2}\\,S_{1}^{2}}{\\sigma_{1}^{2}\\,S_{2}^{2}}\\sim F(n_{1}-1,\\,n_{2}-1),\\\\&amp;\\text{对于右侧检验}\\,H_{0}:\\sigma_{1}^{2}\\leq k^{2}\\sigma_{2}^{2},\\,\\,H_{1}:\\sigma_{1}^{2}&gt;k^{2}\\sigma_{2}^{2},\\,\\,\\text{可得拒绝域为}\\\\&amp;F&gt;F_{\\alpha}(n_{1}-1,\\,n_{2}-1).\\\\&amp;\\text{把具体是数据代入本题的，的拒绝域为}\\\\&amp;\\frac{1}{4}\\frac{s_{1}^{2}}{s_{2}^{2}}&gt;F_{0.05}(10,12).\\end{aligned}</div>"
     },
     {
       "id": "q0010",
       "number": 10,
       "header": "#10-Averge",
       "difficulty": "Averge",
-      "prompt_html": "<img src=\"/static/generated/assets/probability/ch129/q0010_prompt.png\"/>",
+      "prompt_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{aligned}\\text{两台机床加工同种零件，分别从两台车床加工的零件中抽取6个和9个测量其直径，并计算得：}s_{1}^{2}=0.345,\\quad \\\\s_{2}^{2}=0.375.\\text{假定零件直径服从正态分布，若比较两台车床加工精度有无显著差异} (\\alpha=0.10) \\text{，则下列说法中不正确的是}\\text{()}\\text{。}\\end{aligned}\">\\begin{aligned}\\text{两台机床加工同种零件，分别从两台车床加工的零件中抽取6个和9个测量其直径，并计算得：}s_{1}^{2}=0.345,\\quad \\\\s_{2}^{2}=0.375.\\text{假定零件直径服从正态分布，若比较两台车床加工精度有无显著差异} (\\alpha=0.10) \\text{，则下列说法中不正确的是}\\text{()}\\text{。}\\end{aligned}</div>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/probability/ch129/q0010_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\begin{aligned} \\text{拒绝域为} \\; F &gt; F_{\\alpha/2}(n_{1}-1,\\, n_{2}-1)\\end{aligned}\">\\begin{aligned} \\text{拒绝域为} \\; F &gt; F_{\\alpha/2}(n_{1}-1,\\, n_{2}-1)\\end{aligned}</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/probability/ch129/q0010_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{检验假设为} \\, H_0 \\colon \\sigma_1^2 = \\sigma_2^2 \\, , \\, \\, \\, H_1 \\colon \\sigma_1^2 \\neq \\sigma_2^2\">\\text{检验假设为} \\, H_0 \\colon \\sigma_1^2 = \\sigma_2^2 \\, , \\, \\, \\, H_1 \\colon \\sigma_1^2 \\neq \\sigma_2^2</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/probability/ch129/q0010_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{检验统计量为} \\, F = S _ { 1 } ^ { 2 } / S _ { 2 } ^ { 2 }\">\\text{检验统计量为} \\, F = S _ { 1 } ^ { 2 } / S _ { 2 } ^ { 2 }</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/probability/ch129/q0010_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{可认为两车床加工精度无差异}\">\\text{可认为两车床加工精度无差异}</span>"
         }
       ],
       "answer": "A",
       "answer_index": 0,
-      "analysis_html": "<img src=\"/static/generated/assets/probability/ch129/q0010_analysis.png\"/>"
+      "analysis_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{aligned}&amp;\\text{设两总体}\\lambda\\text{和}Y\\text{分别服从正态分布}N(\\mu_{1},\\sigma_{1}^{2})\\text{和}N(\\mu_{2},\\sigma_{2}^{2})\\text{，}\\mu_{1},\\mu_{2},\\sigma_{1}^{2},\\sigma_{2}^{2}\\text{未知。}\\\\&amp;\\text{(1)建立假设}H_{0}:\\sigma_{1}^{2}=\\sigma_{2}^{2},\\ H_{1}:\\sigma_{1}^{2}\\neq\\sigma_{2}^{2}.\\\\&amp;\\text{(2)选统计量}F=S_{1}^{2}/S_{2}^{2}\\sim F(n_{1}-1,n_{2}-1).\\\\&amp;\\text{(3)}\\text{对于给定的显著性水平} \\alpha \\text{，确定}k_{1},k_{2},\\text{使}P\\{F&lt;k_{1}\\text{或}F&gt;k_{2}\\}=\\alpha\\\\&amp;\\text{查}F\\text{分布表得}\\\\&amp;k_{1}=F_{1-\\alpha_{2}}(n_{1}-1,n_{2}-1)=F_{0.95}(5,8)=\\frac{1}{F_{0.05}(8,5)}=0.207,\\\\&amp;k_{2}=F_{0.25}(n_{1}-1,n_{2}-1)=F_{0.05}(5,8)=3.69,\\text{从而拒绝域为}F&lt;0.207\\text{或}F&gt;3.69.\\\\&amp;\\text{(4)由于}s_{1}^{2}=0.345,\\ s_{2}^{2}=0.375,\\text{所以}F=s_{1}^{2}/s_{2}^{2}=0.92.\\text{而}0.207&lt;0.92&lt;3.69,\\text{故应接受}H_{0},\\text{即认为两车床加工精度无差异。}\\end{aligned}\">\\begin{aligned}&amp;\\text{设两总体}\\lambda\\text{和}Y\\text{分别服从正态分布}N(\\mu_{1},\\sigma_{1}^{2})\\text{和}N(\\mu_{2},\\sigma_{2}^{2})\\text{，}\\mu_{1},\\mu_{2},\\sigma_{1}^{2},\\sigma_{2}^{2}\\text{未知。}\\\\&amp;\\text{(1)建立假设}H_{0}:\\sigma_{1}^{2}=\\sigma_{2}^{2},\\ H_{1}:\\sigma_{1}^{2}\\neq\\sigma_{2}^{2}.\\\\&amp;\\text{(2)选统计量}F=S_{1}^{2}/S_{2}^{2}\\sim F(n_{1}-1,n_{2}-1).\\\\&amp;\\text{(3)}\\text{对于给定的显著性水平} \\alpha \\text{，确定}k_{1},k_{2},\\text{使}P\\{F&lt;k_{1}\\text{或}F&gt;k_{2}\\}=\\alpha\\\\&amp;\\text{查}F\\text{分布表得}\\\\&amp;k_{1}=F_{1-\\alpha_{2}}(n_{1}-1,n_{2}-1)=F_{0.95}(5,8)=\\frac{1}{F_{0.05}(8,5)}=0.207,\\\\&amp;k_{2}=F_{0.25}(n_{1}-1,n_{2}-1)=F_{0.05}(5,8)=3.69,\\text{从而拒绝域为}F&lt;0.207\\text{或}F&gt;3.69.\\\\&amp;\\text{(4)由于}s_{1}^{2}=0.345,\\ s_{2}^{2}=0.375,\\text{所以}F=s_{1}^{2}/s_{2}^{2}=0.92.\\text{而}0.207&lt;0.92&lt;3.69,\\text{故应接受}H_{0},\\text{即认为两车床加工精度无差异。}\\end{aligned}</div>"
     },
     {
       "id": "q0011",
       "number": 11,
       "header": "#11-Averge",
       "difficulty": "Averge",
-      "prompt_html": "<img src=\"/static/generated/assets/probability/ch129/q0011_prompt.png\"/>",
+      "prompt_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{aligned}\\text{设两正态总体}N(\\mu_{1},\\sigma_{1}^{2})\\text{和}N(\\mu_{2},\\sigma_{2}^{2})\\text{有两组相互独立的样本，容量分别为}n_{1},n_{2},\\text{，均值为}\\overline{X}_{1}\\text{及}\\overline{X}_{2},\\text{（无偏）样本方差为}S_{1}^{2},\\ S_{2}^{2},\\ \\mu_{1}\\text{及}\\mu_{2}\\text{未知，要对}\\sigma_{1}^{2}=\\sigma_{2}^{2}\\text{作假设检验，统计假设为}H_{0}:\\sigma_{1}^{2}=\\sigma_{2}^{2},\\ H_{1}:\\sigma_{1}^{2}&lt;\\sigma_{2}^{2},\\text{则要用检验统计量为}().\\end{aligned}\">\\begin{aligned}\\text{设两正态总体}N(\\mu_{1},\\sigma_{1}^{2})\\text{和}N(\\mu_{2},\\sigma_{2}^{2})\\text{有两组相互独立的样本，容量分别为}n_{1},n_{2},\\text{，均值为}\\overline{X}_{1}\\text{及}\\overline{X}_{2},\\text{（无偏）样本方差为}S_{1}^{2},\\ S_{2}^{2},\\ \\mu_{1}\\text{及}\\mu_{2}\\text{未知，要对}\\sigma_{1}^{2}=\\sigma_{2}^{2}\\text{作假设检验，统计假设为}H_{0}:\\sigma_{1}^{2}=\\sigma_{2}^{2},\\ H_{1}:\\sigma_{1}^{2}&lt;\\sigma_{2}^{2},\\text{则要用检验统计量为}().\\end{aligned}</div>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/probability/ch129/q0011_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\begin{aligned}F = \\frac{\\frac{1}{n_1-1} \\sum_{i=1}^{n_i} (X_i - \\overline{X})^2}{\\frac{1}{n_2-1} \\sum_{i=1}^{n_2} (Y_i - \\overline{Y})}\\end{aligned}\">\\begin{aligned}F = \\frac{\\frac{1}{n_1-1} \\sum_{i=1}^{n_i} (X_i - \\overline{X})^2}{\\frac{1}{n_2-1} \\sum_{i=1}^{n_2} (Y_i - \\overline{Y})}\\end{aligned}</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/probability/ch129/q0011_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\begin{aligned}F = \\frac{\\frac{1}{n_2-1} \\sum_{i=1}^{n_2} (X_i - \\overline{X})^2}{\\frac{1}{n_1-1} \\sum_{i=1}^{n_1} (Y_i - \\overline{Y})}\\end{aligned}\">\\begin{aligned}F = \\frac{\\frac{1}{n_2-1} \\sum_{i=1}^{n_2} (X_i - \\overline{X})^2}{\\frac{1}{n_1-1} \\sum_{i=1}^{n_1} (Y_i - \\overline{Y})}\\end{aligned}</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/probability/ch129/q0011_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\begin{aligned}F = \\frac{\\displaystyle \\frac{1}{n_{1}} \\sum_{i=1}^{n_{1}} (X_{i} - \\mu_{1})^{2}}{\\displaystyle \\frac{1}{n_{2}} \\sum_{i=1}^{n_{2}} (Y_{i} - \\mu_{2})}\\end{aligned}\">\\begin{aligned}F = \\frac{\\displaystyle \\frac{1}{n_{1}} \\sum_{i=1}^{n_{1}} (X_{i} - \\mu_{1})^{2}}{\\displaystyle \\frac{1}{n_{2}} \\sum_{i=1}^{n_{2}} (Y_{i} - \\mu_{2})}\\end{aligned}</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/probability/ch129/q0011_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\begin{aligned}F = \\frac{\\frac{1}{n_{2}} \\sum_{i=1}^{n_{2}} (X_{i} - \\mu_{1})^{2}}{\\frac{1}{n_{1}} \\sum_{i=1}^{n_{1}} (Y_{i} - \\mu_{2})}\\end{aligned}\">\\begin{aligned}F = \\frac{\\frac{1}{n_{2}} \\sum_{i=1}^{n_{2}} (X_{i} - \\mu_{1})^{2}}{\\frac{1}{n_{1}} \\sum_{i=1}^{n_{1}} (Y_{i} - \\mu_{2})}\\end{aligned}</span>"
         }
       ],
       "answer": "A",
       "answer_index": 0,
-      "analysis_html": "<img src=\"/static/generated/assets/probability/ch129/q0011_analysis.png\"/>"
+      "analysis_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{aligned}&amp;\\text{若均值}\\mu_{1},\\mu_{2}\\text{未知，则}\\\\&amp;(1)\\text{检验假设为}H_{0}:\\sigma_{1}^{2}=\\sigma_{2}^{2},\\;H_{1}:\\sigma_{1}^{2}\\neq\\sigma_{2}^{2}.\\\\&amp;(2)\\text{若}H_{0}\\text{为真，则有}F=\\frac{\\displaystyle\\frac{1}{n_{1}-1}\\sum_{i=1}^{n_{1}}(X_{i}-\\overline{X})^{2}}{\\displaystyle\\frac{1}{n_{2}-1}\\sum_{i=1}^{n_{2}}(Y_{i}-\\overline{Y})}=\\frac{S_{1}^{2}}{S_{2}^{2}}\\sim F(n_{1}-1,n_{2}-1),\\\\&amp;\\text{此时拒绝域为}\\left(0,F_{1-\\omega_{2}}(n_{1}-1,n_{2}-1)\\right)\\cup\\left(F_{\\omega_{2}}(n_{1}-1,n_{2}-1),+\\infty\\right).\\\\&amp;\\text{另外，右侧检验：}H_{0}:\\sigma_{1}^{2}=\\sigma_{2}^{2},\\;H_{1}:\\sigma_{1}^{2}&gt;\\sigma_{2}^{2}.\\;\\text{此时拒绝域为}\\left(F_{\\omega}(n_{1}-1,n_{2}-1),+\\infty\\right).\\\\&amp;\\text{左侧检验：}H_{0}:\\sigma_{1}^{2}=\\sigma_{2}^{2},\\;H_{1}:\\sigma_{1}^{2}&lt;\\sigma_{2}^{2}.\\;\\text{此时拒绝域为}\\left(0,F_{1-\\omega}(n_{1}-1,n_{2}-1)\\right).\\end{aligned}\">\\begin{aligned}&amp;\\text{若均值}\\mu_{1},\\mu_{2}\\text{未知，则}\\\\&amp;(1)\\text{检验假设为}H_{0}:\\sigma_{1}^{2}=\\sigma_{2}^{2},\\;H_{1}:\\sigma_{1}^{2}\\neq\\sigma_{2}^{2}.\\\\&amp;(2)\\text{若}H_{0}\\text{为真，则有}F=\\frac{\\displaystyle\\frac{1}{n_{1}-1}\\sum_{i=1}^{n_{1}}(X_{i}-\\overline{X})^{2}}{\\displaystyle\\frac{1}{n_{2}-1}\\sum_{i=1}^{n_{2}}(Y_{i}-\\overline{Y})}=\\frac{S_{1}^{2}}{S_{2}^{2}}\\sim F(n_{1}-1,n_{2}-1),\\\\&amp;\\text{此时拒绝域为}\\left(0,F_{1-\\omega_{2}}(n_{1}-1,n_{2}-1)\\right)\\cup\\left(F_{\\omega_{2}}(n_{1}-1,n_{2}-1),+\\infty\\right).\\\\&amp;\\text{另外，右侧检验：}H_{0}:\\sigma_{1}^{2}=\\sigma_{2}^{2},\\;H_{1}:\\sigma_{1}^{2}&gt;\\sigma_{2}^{2}.\\;\\text{此时拒绝域为}\\left(F_{\\omega}(n_{1}-1,n_{2}-1),+\\infty\\right).\\\\&amp;\\text{左侧检验：}H_{0}:\\sigma_{1}^{2}=\\sigma_{2}^{2},\\;H_{1}:\\sigma_{1}^{2}&lt;\\sigma_{2}^{2}.\\;\\text{此时拒绝域为}\\left(0,F_{1-\\omega}(n_{1}-1,n_{2}-1)\\right).\\end{aligned}</div>"
     }
-  ]
+  ],
+  "format": "latex",
+  "source_md": "gl/8.2.2.2_方差比检验(11题)/8.2.2.2_方差比检验(11题).md"
 }

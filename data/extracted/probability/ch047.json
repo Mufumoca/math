@@ -13,280 +13,282 @@
       "number": 1,
       "header": "#1-Easy",
       "difficulty": "Easy",
-      "prompt_html": "<img src=\"/static/generated/assets/probability/ch047/q0001_prompt.png\"/>",
+      "prompt_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{aligned} \\text{设连续随机向量} (X,Y) \\text{的概率密度为}  \\\\ f(x,y) = \\begin{cases} kxy^2, &amp; 0 \\leq x &lt; 2, 0 \\leq y &lt; 1 \\\\ &amp; 0, \\ \\ \\text{其它} \\end{cases}, \\\\ \\text{则} k=() \\ . \\end{aligned}\">\\begin{aligned} \\text{设连续随机向量} (X,Y) \\text{的概率密度为}  \\\\ f(x,y) = \\begin{cases} kxy^2, &amp; 0 \\leq x &lt; 2, 0 \\leq y &lt; 1 \\\\ &amp; 0, \\ \\ \\text{其它} \\end{cases}, \\\\ \\text{则} k=() \\ . \\end{aligned}</div>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/probability/ch047/q0001_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\frac { 3 } { 2 }\">\\frac { 3 } { 2 }</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/probability/ch047/q0001_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\frac { 1 } { 2 }\">\\frac { 1 } { 2 }</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/probability/ch047/q0001_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"3\">3</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/probability/ch047/q0001_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"4\">4</span>"
         }
       ],
       "answer": "A",
       "answer_index": 0,
-      "analysis_html": "<img src=\"/static/generated/assets/probability/ch047/q0001_analysis.png\"/>"
+      "analysis_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{array}{l} \\text {由} \\int_{-\\infty}^{+\\infty} \\int_{-\\infty}^{+\\infty} f(x,y) dxdy = 1\\text {，有} \\int_{0}^{1} dy \\int_{0}^{2} kxy^{2} dx = 1\\text {，即} \\frac{2}{3} k = 1\\,. \\end{array}\">\\begin{array}{l} \\text {由} \\int_{-\\infty}^{+\\infty} \\int_{-\\infty}^{+\\infty} f(x,y) dxdy = 1\\text {，有} \\int_{0}^{1} dy \\int_{0}^{2} kxy^{2} dx = 1\\text {，即} \\frac{2}{3} k = 1\\,. \\end{array}</div>"
     },
     {
       "id": "q0002",
       "number": 2,
       "header": "#2-Averge",
       "difficulty": "Averge",
-      "prompt_html": "<img src=\"/static/generated/assets/probability/ch047/q0002_prompt.png\"/>",
+      "prompt_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\varphi(x,y)=\\begin{cases}c(1+x+y)^{-n},\\ x&gt;0,y&gt;0\\\\ \\quad 0,\\quad \\text{其它}\\end{cases}.\\\\ (n&gt;2)，\\text{则常数}c=（）.\">\\varphi(x,y)=\\begin{cases}c(1+x+y)^{-n},\\ x&gt;0,y&gt;0\\\\ \\quad 0,\\quad \\text{其它}\\end{cases}.\\\\ (n&gt;2)，\\text{则常数}c=（）.</div>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/probability/ch047/q0002_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"(n - 1) (n - 2)\">(n - 1) (n - 2)</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/probability/ch047/q0002_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\frac {n - 2}{n - 1}\">\\frac {n - 2}{n - 1}</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/probability/ch047/q0002_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\frac { 1 } { ( n - 1 ) ( n - 2 ) }\">\\frac { 1 } { ( n - 1 ) ( n - 2 ) }</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/probability/ch047/q0002_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\frac { n - 1 } { n - 2 }\">\\frac { n - 1 } { n - 2 }</span>"
         }
       ],
       "answer": "A",
       "answer_index": 0,
-      "analysis_html": "<img src=\"/static/generated/assets/probability/ch047/q0002_analysis.png\"/>"
+      "analysis_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{aligned}1&amp;=c\\int_{0}^{+\\infty}\\int_{0}^{+\\infty}(1+x+y)^{-n}dxdy\\\\&amp;=c\\int_{0}^{+\\infty}\\left[\\int_{0}^{+\\infty}(1+x+y)^{-n}dy\\right]dx\\\\&amp;=c\\int_{0}^{+\\infty}\\frac{1}{n-1}(1+x)^{-n+1}dx\\\\&amp;=\\frac{c}{(n-1)(n-2)}\\,,\\end{aligned} \\text{所以} c=(n-1)(n-2)\\,.\">\\begin{aligned}1&amp;=c\\int_{0}^{+\\infty}\\int_{0}^{+\\infty}(1+x+y)^{-n}dxdy\\\\&amp;=c\\int_{0}^{+\\infty}\\left[\\int_{0}^{+\\infty}(1+x+y)^{-n}dy\\right]dx\\\\&amp;=c\\int_{0}^{+\\infty}\\frac{1}{n-1}(1+x)^{-n+1}dx\\\\&amp;=\\frac{c}{(n-1)(n-2)}\\,,\\end{aligned} \\text{所以} c=(n-1)(n-2)\\,.</div>"
     },
     {
       "id": "q0003",
       "number": 3,
       "header": "#3-Averge",
       "difficulty": "Averge",
-      "prompt_html": "<img src=\"/static/generated/assets/probability/ch047/q0003_prompt.png\"/>",
+      "prompt_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{aligned} \\text{已知} \\lambda \\text{和} y \\text{的联合密度为} \\\\f(x,y) = \\begin{cases} cxy, &amp; 0 \\leq x \\leq 1, \\, 0 \\leq y \\leq 1, \\\\ 0, &amp; \\text{其它} \\end{cases}, \\\\ \\text{则} \\lambda \\text{和} y \\text{的联合分布函数} F(x,y) \\text{为}().\\end{aligned}\">\\begin{aligned} \\text{已知} \\lambda \\text{和} y \\text{的联合密度为} \\\\f(x,y) = \\begin{cases} cxy, &amp; 0 \\leq x \\leq 1, \\, 0 \\leq y \\leq 1, \\\\ 0, &amp; \\text{其它} \\end{cases}, \\\\ \\text{则} \\lambda \\text{和} y \\text{的联合分布函数} F(x,y) \\text{为}().\\end{aligned}</div>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/probability/ch047/q0003_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\begin{aligned}F(x,y)=\\{\\begin{array}{ll}0 &amp; \\quad x\\leq 0 \\text{或} y\\leq 0 \\\\x^2 &amp; \\quad 0\\leq x\\leq 1,\\, y&gt;1 \\\\x^2y^2 &amp; \\quad 0\\leq x\\leq 1,\\, 0\\leq y\\leq 1 \\\\y^2 &amp; \\quad x&gt;1,\\, 0\\leq y\\leq 1 \\\\1 &amp; \\quad x&gt;1,\\, y&gt;1\\end{array}\\end{aligned}\">\\begin{aligned}F(x,y)=\\{\\begin{array}{ll}0 &amp; \\quad x\\leq 0 \\text{或} y\\leq 0 \\\\x^2 &amp; \\quad 0\\leq x\\leq 1,\\, y&gt;1 \\\\x^2y^2 &amp; \\quad 0\\leq x\\leq 1,\\, 0\\leq y\\leq 1 \\\\y^2 &amp; \\quad x&gt;1,\\, 0\\leq y\\leq 1 \\\\1 &amp; \\quad x&gt;1,\\, y&gt;1\\end{array}\\end{aligned}</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/probability/ch047/q0003_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\begin{aligned}F(x,y)=\\{\\begin{array}{ll}0 &amp; \\quad x\\leq 0 \\text{或} y\\leq 0 \\\\y^2 &amp; \\quad 0\\leq x\\leq 1,\\, y&gt;1 \\\\x^2y^2 &amp; \\quad 0\\leq x\\leq 1,\\, 0\\leq y\\leq 1 \\\\x^2 &amp; \\quad x&gt;1,\\, 0\\leq y\\leq 1 \\\\1 &amp; \\quad x&gt;1,\\, y&gt;1\\end{array}\\end{aligned}\">\\begin{aligned}F(x,y)=\\{\\begin{array}{ll}0 &amp; \\quad x\\leq 0 \\text{或} y\\leq 0 \\\\y^2 &amp; \\quad 0\\leq x\\leq 1,\\, y&gt;1 \\\\x^2y^2 &amp; \\quad 0\\leq x\\leq 1,\\, 0\\leq y\\leq 1 \\\\x^2 &amp; \\quad x&gt;1,\\, 0\\leq y\\leq 1 \\\\1 &amp; \\quad x&gt;1,\\, y&gt;1\\end{array}\\end{aligned}</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/probability/ch047/q0003_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\begin{aligned}F(x,y)=\\begin{cases}1 &amp; \\quad x\\leq 0 \\text{或} y\\leq 0 \\\\x^2 &amp; \\quad 0\\leq x\\leq 1,\\, y&gt;1 \\\\x^2y^2 &amp; \\quad 0\\leq x\\leq 1,\\; 0\\leq y\\leq 1 \\\\y^2 &amp; \\quad x&gt;1,\\; 0\\leq y\\leq 1 \\\\0 &amp; \\quad x&gt;1,\\, y&gt;1\\end{cases}\\end{aligned}\">\\begin{aligned}F(x,y)=\\begin{cases}1 &amp; \\quad x\\leq 0 \\text{或} y\\leq 0 \\\\x^2 &amp; \\quad 0\\leq x\\leq 1,\\, y&gt;1 \\\\x^2y^2 &amp; \\quad 0\\leq x\\leq 1,\\; 0\\leq y\\leq 1 \\\\y^2 &amp; \\quad x&gt;1,\\; 0\\leq y\\leq 1 \\\\0 &amp; \\quad x&gt;1,\\, y&gt;1\\end{cases}\\end{aligned}</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/probability/ch047/q0003_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\begin{aligned}F(x,y)=\\begin{cases}1 &amp; \\quad x\\leq 0 \\text{或} y\\leq 0 \\\\y^2 &amp; \\quad 0\\leq x\\leq 1,\\, y&gt;1 \\\\x^2y^2 &amp; \\quad 0\\leq x\\leq 1,\\; 0\\leq y\\leq 1 \\\\x^2 &amp; \\quad x&gt;1,\\; 0\\leq y\\leq 1 \\\\0 &amp; \\quad x&gt;1,\\, y&gt;1\\end{cases}\\end{aligned}\">\\begin{aligned}F(x,y)=\\begin{cases}1 &amp; \\quad x\\leq 0 \\text{或} y\\leq 0 \\\\y^2 &amp; \\quad 0\\leq x\\leq 1,\\, y&gt;1 \\\\x^2y^2 &amp; \\quad 0\\leq x\\leq 1,\\; 0\\leq y\\leq 1 \\\\x^2 &amp; \\quad x&gt;1,\\; 0\\leq y\\leq 1 \\\\0 &amp; \\quad x&gt;1,\\, y&gt;1\\end{cases}\\end{aligned}</span>"
         }
       ],
       "answer": "A",
       "answer_index": 0,
-      "analysis_html": "<img src=\"/static/generated/assets/probability/ch047/q0003_analysis.png\"/>"
+      "analysis_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{aligned}&amp; \\text{由于} \\ 1=\\int_{-\\infty}^{+\\infty}\\int_{-\\infty}^{+\\infty}f(x,y)dx dy=c\\int_{0}^{1}\\int_{0}^{1}xydx dy=\\frac{c}{4},c=4.\\\\&amp; \\text{当}x\\leq 0 \\text{或}y\\leq 0 \\text{时，显然}F(x,y)=0;\\\\&amp; \\text{当}x\\geq 1,y\\geq 1 \\text{时，显然}F(x,y)=0.\\\\&amp; \\text{设} \\ 0\\leq x\\leq 1, \\ 0\\leq y\\leq 1, \\ \\text{有} \\ \\ F(x,y)=\\int_{-\\infty}^{x}\\int_{-\\infty}^{y}f(u,v)dudv=4\\int_{0}^{x} udu\\int_{0}^{y} vdv=x^{2}y^{2}.\\\\&amp; \\text{设} \\ 0\\leq x\\leq 1, y&gt;1, \\ \\text{有} \\ \\ F(x,y)=P\\{X\\leq 1, \\ Y\\leq y\\}=4\\int_{0}^{x} udu\\int_{0}^{y} ydy=x^{2}.\\\\&amp; \\text{最后，设}x&gt;0, \\ 0\\leq y\\leq 1, \\ \\text{有} \\ \\ F(x,y)=P\\{X\\leq 1, \\ Y\\leq y\\}=4\\int_{0}^{1} xdx\\int_{0}^{y} vdv=y^{2}.\\\\&amp; \\text{函数}F(x,y)\\text{在平面各区域的表达式} \\ \\ F(x,y)=\\begin{cases}0, \\ \\ x\\leq 0 \\text{且}y\\leq 0\\\\x^{2}, \\ \\ 0\\leq x\\leq 1, \\ y&gt;1\\\\x^{2}y^{2}, \\ \\ 0\\leq x\\leq 1, \\ 0\\leq y\\leq 1\\\\y^{2}, \\ \\ x&gt;1, \\ 0\\leq y\\leq 1\\\\1, \\ \\ \\ \\ x&gt;1, \\ y&gt;1\\end{cases}\\end{aligned}\">\\begin{aligned}&amp; \\text{由于} \\ 1=\\int_{-\\infty}^{+\\infty}\\int_{-\\infty}^{+\\infty}f(x,y)dx dy=c\\int_{0}^{1}\\int_{0}^{1}xydx dy=\\frac{c}{4},c=4.\\\\&amp; \\text{当}x\\leq 0 \\text{或}y\\leq 0 \\text{时，显然}F(x,y)=0;\\\\&amp; \\text{当}x\\geq 1,y\\geq 1 \\text{时，显然}F(x,y)=0.\\\\&amp; \\text{设} \\ 0\\leq x\\leq 1, \\ 0\\leq y\\leq 1, \\ \\text{有} \\ \\ F(x,y)=\\int_{-\\infty}^{x}\\int_{-\\infty}^{y}f(u,v)dudv=4\\int_{0}^{x} udu\\int_{0}^{y} vdv=x^{2}y^{2}.\\\\&amp; \\text{设} \\ 0\\leq x\\leq 1, y&gt;1, \\ \\text{有} \\ \\ F(x,y)=P\\{X\\leq 1, \\ Y\\leq y\\}=4\\int_{0}^{x} udu\\int_{0}^{y} ydy=x^{2}.\\\\&amp; \\text{最后，设}x&gt;0, \\ 0\\leq y\\leq 1, \\ \\text{有} \\ \\ F(x,y)=P\\{X\\leq 1, \\ Y\\leq y\\}=4\\int_{0}^{1} xdx\\int_{0}^{y} vdv=y^{2}.\\\\&amp; \\text{函数}F(x,y)\\text{在平面各区域的表达式} \\ \\ F(x,y)=\\begin{cases}0, \\ \\ x\\leq 0 \\text{且}y\\leq 0\\\\x^{2}, \\ \\ 0\\leq x\\leq 1, \\ y&gt;1\\\\x^{2}y^{2}, \\ \\ 0\\leq x\\leq 1, \\ 0\\leq y\\leq 1\\\\y^{2}, \\ \\ x&gt;1, \\ 0\\leq y\\leq 1\\\\1, \\ \\ \\ \\ x&gt;1, \\ y&gt;1\\end{cases}\\end{aligned}</div>"
     },
     {
       "id": "q0004",
       "number": 4,
       "header": "#4-Easy",
       "difficulty": "Easy",
-      "prompt_html": "<img src=\"/static/generated/assets/probability/ch047/q0004_prompt.png\"/>",
+      "prompt_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{aligned} \\text{设} (X,Y) \\text{的概率密度为} \\\\f(x,y) = \\begin{cases} k(x^2+y^2), &amp; 0 &lt; x &lt; 2, 1 &lt; y &lt; 4 \\\\ &amp; 0, \\ \\text{其它} \\end{cases}, \\\\ \\text{则} k=().\\end{aligned}\">\\begin{aligned} \\text{设} (X,Y) \\text{的概率密度为} \\\\f(x,y) = \\begin{cases} k(x^2+y^2), &amp; 0 &lt; x &lt; 2, 1 &lt; y &lt; 4 \\\\ &amp; 0, \\ \\text{其它} \\end{cases}, \\\\ \\text{则} k=().\\end{aligned}</div>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/probability/ch047/q0004_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\frac { 1 } { 50 }\">\\frac { 1 } { 50 }</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/probability/ch047/q0004_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\frac { 1 } { 30 }\">\\frac { 1 } { 30 }</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/probability/ch047/q0004_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\frac { 1 } { 20 }\">\\frac { 1 } { 20 }</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/probability/ch047/q0004_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\frac { 1 } { 45 }\">\\frac { 1 } { 45 }</span>"
         }
       ],
       "answer": "A",
       "answer_index": 0,
-      "analysis_html": "<img src=\"/static/generated/assets/probability/ch047/q0004_analysis.png\"/>"
+      "analysis_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{aligned}&amp;\\text{根据}\\int_{-\\infty}^{+\\infty}\\int_{-\\infty}^{+\\infty}f(x,y)dx dy=1\\text{有，}&amp;&amp;\\int_{0}^{2}\\int_{1}^{4}k(x^{2}+y^{2})dx dy=1\\,,\\\\&amp;\\text{即}50k=1\\,,\\,\\,\\,k=\\frac{1}{50}\\,.\\end{aligned}\">\\begin{aligned}&amp;\\text{根据}\\int_{-\\infty}^{+\\infty}\\int_{-\\infty}^{+\\infty}f(x,y)dx dy=1\\text{有，}&amp;&amp;\\int_{0}^{2}\\int_{1}^{4}k(x^{2}+y^{2})dx dy=1\\,,\\\\&amp;\\text{即}50k=1\\,,\\,\\,\\,k=\\frac{1}{50}\\,.\\end{aligned}</div>"
     },
     {
       "id": "q0005",
       "number": 5,
       "header": "#5-Averge",
       "difficulty": "Averge",
-      "prompt_html": "<img src=\"/static/generated/assets/probability/ch047/q0005_prompt.png\"/>",
+      "prompt_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{aligned}\\text{设随机变量} (X,Y) \\text{的联合概率密度为} \\\\f(x,y) &amp; = \\begin{cases} c(R-\\sqrt{x^2+y^2}) ,\\ x^2+y^2&lt;R^2 \\\\ 0, \\qquad x^2+y^2 \\geq R^2 \\end{cases}, \\\\ \\text{则常数} c=(\\ \\ ).\\end{aligned}\">\\begin{aligned}\\text{设随机变量} (X,Y) \\text{的联合概率密度为} \\\\f(x,y) &amp; = \\begin{cases} c(R-\\sqrt{x^2+y^2}) ,\\ x^2+y^2&lt;R^2 \\\\ 0, \\qquad x^2+y^2 \\geq R^2 \\end{cases}, \\\\ \\text{则常数} c=(\\ \\ ).\\end{aligned}</div>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/probability/ch047/q0005_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\frac { 3 } { \\pi R ^ { 3 } }\">\\frac { 3 } { \\pi R ^ { 3 } }</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/probability/ch047/q0005_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\frac { 1 } { \\pi R ^ { 3 } }\">\\frac { 1 } { \\pi R ^ { 3 } }</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/probability/ch047/q0005_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\frac { 3 } { \\pi R }\">\\frac { 3 } { \\pi R }</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/probability/ch047/q0005_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\frac { 1 } { \\pi R }\">\\frac { 1 } { \\pi R }</span>"
         }
       ],
       "answer": "A",
       "answer_index": 0,
-      "analysis_html": "<img src=\"/static/generated/assets/probability/ch047/q0005_analysis.png\"/>"
+      "analysis_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{aligned}1&amp;=\\int_{-\\infty}^{+\\infty}\\int_{-\\infty}^{+\\infty}f(x,y)dydx=\\iint\\limits_{x^{2}+y^{2}&lt;R}c(R-\\sqrt{x^{2}+y^{2}})dxdy\\\\&amp;=\\int_{0}^{2\\pi}\\int_{0}^{R}c(R-\\rho)\\rho d\\rho d\\theta=\\frac{c\\pi R^{3}}{3},\\end{aligned}\">\\begin{aligned}1&amp;=\\int_{-\\infty}^{+\\infty}\\int_{-\\infty}^{+\\infty}f(x,y)dydx=\\iint\\limits_{x^{2}+y^{2}&lt;R}c(R-\\sqrt{x^{2}+y^{2}})dxdy\\\\&amp;=\\int_{0}^{2\\pi}\\int_{0}^{R}c(R-\\rho)\\rho d\\rho d\\theta=\\frac{c\\pi R^{3}}{3},\\end{aligned}</div>"
     },
     {
       "id": "q0006",
       "number": 6,
       "header": "#6-Easy",
       "difficulty": "Easy",
-      "prompt_html": "<img src=\"/static/generated/assets/probability/ch047/q0006_prompt.png\"/>",
+      "prompt_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\text{设二维随机变量}(\\xi,\\eta)\\text{的联合概率密度函数是}\\varphi(x,y)，\\text{则关于}\\xi\\text{的边缘分布函数}F_{1}(x)=(\\begin{array}{c} \\end{array}.\">\\text{设二维随机变量}(\\xi,\\eta)\\text{的联合概率密度函数是}\\varphi(x,y)，\\text{则关于}\\xi\\text{的边缘分布函数}F_{1}(x)=(\\begin{array}{c} \\end{array}.</div>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/probability/ch047/q0006_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\int_{-\\infty}^{x} \\left\\{ \\int_{-\\infty}^{+\\infty} \\varphi \\left( x, y \\right) d y \\right\\} d x\">\\int_{-\\infty}^{x} \\left\\{ \\int_{-\\infty}^{+\\infty} \\varphi \\left( x, y \\right) d y \\right\\} d x</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/probability/ch047/q0006_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\int_{-x}^{x} \\varphi(x,y) d x\">\\int_{-x}^{x} \\varphi(x,y) d x</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/probability/ch047/q0006_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\varphi ( x , + \\infty )\">\\varphi ( x , + \\infty )</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/probability/ch047/q0006_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\int_{-x}^{x} \\varphi(x,y) dy\">\\int_{-x}^{x} \\varphi(x,y) dy</span>"
         }
       ],
       "answer": "A",
       "answer_index": 0,
-      "analysis_html": "<img src=\"/static/generated/assets/probability/ch047/q0006_analysis.png\"/>"
+      "analysis_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{array}{l} \\text {根据连续型随机变量边缘分布的定义有} \\ F_{1}(x) = \\int_{-\\infty}^{x} \\left\\{ \\int_{-\\infty}^{+\\infty} \\varphi\\left(x,y\\right) dy \\right\\} dx\\,.\\end{array}\">\\begin{array}{l} \\text {根据连续型随机变量边缘分布的定义有} \\ F_{1}(x) = \\int_{-\\infty}^{x} \\left\\{ \\int_{-\\infty}^{+\\infty} \\varphi\\left(x,y\\right) dy \\right\\} dx\\,.\\end{array}</div>"
     },
     {
       "id": "q0007",
       "number": 7,
       "header": "#7-Easy",
       "difficulty": "Easy",
-      "prompt_html": "<img src=\"/static/generated/assets/probability/ch047/q0007_prompt.png\"/>",
+      "prompt_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{array}{l} \\text {设连续随机向量} (X,Y) \\text {的概率密度为} \\\\ f(x,y) = \\{ \\begin{array}{ll} kx y^{2}, &amp; 0 \\leq x &lt; 2, 0 \\leq y &lt; 1 \\\\ 0, &amp; \\text {其它} \\end{array}, \\\\ \\text {则} k = ( \\ \\ ) . \\end{array}\">\\begin{array}{l} \\text {设连续随机向量} (X,Y) \\text {的概率密度为} \\\\ f(x,y) = \\{ \\begin{array}{ll} kx y^{2}, &amp; 0 \\leq x &lt; 2, 0 \\leq y &lt; 1 \\\\ 0, &amp; \\text {其它} \\end{array}, \\\\ \\text {则} k = ( \\ \\ ) . \\end{array}</div>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/probability/ch047/q0007_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\frac { 3 } { 2 }\">\\frac { 3 } { 2 }</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/probability/ch047/q0007_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\frac { 1 } { 2 }\">\\frac { 1 } { 2 }</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/probability/ch047/q0007_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"^ 3\">^ 3</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/probability/ch047/q0007_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"4\">4</span>"
         }
       ],
       "answer": "A",
       "answer_index": 0,
-      "analysis_html": "<img src=\"/static/generated/assets/probability/ch047/q0007_analysis.png\"/>"
+      "analysis_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{array}{l} \\text {由} \\int_{-\\infty}^{+\\infty} \\int_{-\\infty}^{+\\infty} f(x,y) dxdy = 1 \\text {，有} \\int_{0}^{1} dy \\int_{0}^{2} kxy^{2} dx = 1 \\text {，即} \\frac{2}{3} k = 1 \\,. \\end{array}\">\\begin{array}{l} \\text {由} \\int_{-\\infty}^{+\\infty} \\int_{-\\infty}^{+\\infty} f(x,y) dxdy = 1 \\text {，有} \\int_{0}^{1} dy \\int_{0}^{2} kxy^{2} dx = 1 \\text {，即} \\frac{2}{3} k = 1 \\,. \\end{array}</div>"
     },
     {
       "id": "q0008",
       "number": 8,
       "header": "#8-Easy",
       "difficulty": "Easy",
-      "prompt_html": "<img src=\"/static/generated/assets/probability/ch047/q0008_prompt.png\"/>",
+      "prompt_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\text{若} \\varphi(x,y) = \\begin{cases} A e^{-(5x+2y)}, &amp; x&gt;0, y&gt;0 \\\\ 0, &amp; \\text{其它} \\end{cases} \\text{为随机变量} (\\xi,\\eta) \\text{的联合概率密度，则常数} A=()\">\\text{若} \\varphi(x,y) = \\begin{cases} A e^{-(5x+2y)}, &amp; x&gt;0, y&gt;0 \\\\ 0, &amp; \\text{其它} \\end{cases} \\text{为随机变量} (\\xi,\\eta) \\text{的联合概率密度，则常数} A=()</div>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/probability/ch047/q0008_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"10\">10</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/probability/ch047/q0008_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"6\">6</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/probability/ch047/q0008_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"9\">9</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/probability/ch047/q0008_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"8\">8</span>"
         }
       ],
       "answer": "A",
       "answer_index": 0,
-      "analysis_html": "<img src=\"/static/generated/assets/probability/ch047/q0008_analysis.png\"/>"
+      "analysis_html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\int_{- \\infty}^{+\\infty} \\int_{- \\infty}^{+\\infty} \\varphi(x,y) dxdy = 1 , \\text{得} A \\frac{1}{10} = 1 , \\text{即} A = 10 .\">\\int_{- \\infty}^{+\\infty} \\int_{- \\infty}^{+\\infty} \\varphi(x,y) dxdy = 1 , \\text{得} A \\frac{1}{10} = 1 , \\text{即} A = 10 .</span>"
     },
     {
       "id": "q0009",
       "number": 9,
       "header": "#9-Easy",
       "difficulty": "Easy",
-      "prompt_html": "<img src=\"/static/generated/assets/probability/ch047/q0009_prompt.png\"/>",
+      "prompt_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{array}{l} \\text {设二维随机变量} (X,Y) \\text{的联合密度为}  \\\\ f(x,y) = \\{ \\begin{array}{ll} ce^{- (x+y)}, &amp; x \\geq 0, y \\geq 0, \\\\ 0, &amp; \\text {其它} \\end{array}, \\\\ \\text {则} e \\text {的值为}() . \\end{array}\">\\begin{array}{l} \\text {设二维随机变量} (X,Y) \\text{的联合密度为}  \\\\ f(x,y) = \\{ \\begin{array}{ll} ce^{- (x+y)}, &amp; x \\geq 0, y \\geq 0, \\\\ 0, &amp; \\text {其它} \\end{array}, \\\\ \\text {则} e \\text {的值为}() . \\end{array}</div>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/probability/ch047/q0009_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"1\">1</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/probability/ch047/q0009_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"2\">2</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/probability/ch047/q0009_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"^ 3\">^ 3</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/probability/ch047/q0009_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\frac{2}{3}\">\\frac{2}{3}</span>"
         }
       ],
       "answer": "A",
       "answer_index": 0,
-      "analysis_html": "<img src=\"/static/generated/assets/probability/ch047/q0009_analysis.png\"/>"
+      "analysis_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{aligned}&amp; \\text{根据联合概率密度性质有} \\\\&amp; \\int_{-\\infty}^{+\\infty} \\int_{-\\infty}^{+\\infty} f(x,y) dx dy = 1 \\,, \\\\&amp; \\text{即} \\int_{0}^{+\\infty} \\int_{0}^{+\\infty} ce^{-(x+y)} dx dy = 1 \\,, \\text{解得} \\,\\, c = 1 \\,.\\end{aligned}\">\\begin{aligned}&amp; \\text{根据联合概率密度性质有} \\\\&amp; \\int_{-\\infty}^{+\\infty} \\int_{-\\infty}^{+\\infty} f(x,y) dx dy = 1 \\,, \\\\&amp; \\text{即} \\int_{0}^{+\\infty} \\int_{0}^{+\\infty} ce^{-(x+y)} dx dy = 1 \\,, \\text{解得} \\,\\, c = 1 \\,.\\end{aligned}</div>"
     },
     {
       "id": "q0010",
       "number": 10,
       "header": "#10-Averge",
       "difficulty": "Averge",
-      "prompt_html": "<img src=\"/static/generated/assets/probability/ch047/q0010_prompt.png\"/>",
+      "prompt_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{aligned}\\text{设二维随机向量} (X,Y) \\text{的概率密度为} \\\\f(x,y)=\\begin{cases}e^{-2ax}e^{by},\\ x&gt;0,y&gt;0,\\\\0,\\ \\text{其它}\\end{cases}, \\end{aligned} \\text{则} a,b \\text{需要满足的条件是}（ ）.\">\\begin{aligned}\\text{设二维随机向量} (X,Y) \\text{的概率密度为} \\\\f(x,y)=\\begin{cases}e^{-2ax}e^{by},\\ x&gt;0,y&gt;0,\\\\0,\\ \\text{其它}\\end{cases}, \\end{aligned} \\text{则} a,b \\text{需要满足的条件是}（ ）.</div>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/probability/ch047/q0010_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\begin{array}{l} { l } a b = - \\frac { 1 } { 2 } \\, , \\; \\; a &gt; 0 , b &lt; 0 \\end{array}\">\\begin{array}{l} { l } a b = - \\frac { 1 } { 2 } \\, , \\; \\; a &gt; 0 , b &lt; 0 \\end{array}</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/probability/ch047/q0010_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\begin{array}{l} { l } a b = \\displaystyle \\frac { 1 } { 2 } \\; , \\; \\; a &gt; 0 , b &gt; 0 \\end{array}\">\\begin{array}{l} { l } a b = \\displaystyle \\frac { 1 } { 2 } \\; , \\; \\; a &gt; 0 , b &gt; 0 \\end{array}</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/probability/ch047/q0010_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\begin{aligned}ab = -\\frac{1}{2}\\,,\\,\\,\\, a &lt; 0, b &gt; 0\\end{aligned}\">\\begin{aligned}ab = -\\frac{1}{2}\\,,\\,\\,\\, a &lt; 0, b &gt; 0\\end{aligned}</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/probability/ch047/q0010_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\begin{array}{l} { l } { { a b = { \\frac { 1 } { 2 } } \\, , \\; \\; a &lt; 0 , b &lt; 0 } } \\end{array}\">\\begin{array}{l} { l } { { a b = { \\frac { 1 } { 2 } } \\, , \\; \\; a &lt; 0 , b &lt; 0 } } \\end{array}</span>"
         }
       ],
       "answer": "A",
       "answer_index": 0,
-      "analysis_html": "<img src=\"/static/generated/assets/probability/ch047/q0010_analysis.png\"/>"
+      "analysis_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{aligned}&amp;\\text{由}\\int_{-\\infty}^{+\\infty}\\!\\!\\int_{-\\infty}^{+\\infty}f(x,y)dx dy=1,\\text{有}\\\\&amp;\\qquad\\qquad\\qquad\\int_{0}^{+\\infty}\\!\\!\\int_{0}^{+\\infty}e^{-2ax}e^{by}dx dy=(\\int_{0}^{+\\infty}e^{-2ax}dx)(\\int_{0}^{+\\infty}e^{by}dy)=1.\\end{aligned}\">\\begin{aligned}&amp;\\text{由}\\int_{-\\infty}^{+\\infty}\\!\\!\\int_{-\\infty}^{+\\infty}f(x,y)dx dy=1,\\text{有}\\\\&amp;\\qquad\\qquad\\qquad\\int_{0}^{+\\infty}\\!\\!\\int_{0}^{+\\infty}e^{-2ax}e^{by}dx dy=(\\int_{0}^{+\\infty}e^{-2ax}dx)(\\int_{0}^{+\\infty}e^{by}dy)=1.\\end{aligned}</div>"
     }
-  ]
+  ],
+  "format": "latex",
+  "source_md": "gl/3.3.1.1_联合概率密度(10题)/3.3.1.1_联合概率密度(10题).md"
 }

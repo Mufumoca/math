@@ -13,616 +13,618 @@
       "number": 1,
       "header": "#1-Averge",
       "difficulty": "Averge",
-      "prompt_html": "<img src=\"/static/generated/assets/advanced-math/ch154/q0001_prompt.png\"/>",
+      "prompt_html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{微分方程} (2 y + x ) d y - y d x = 0 \\text{的通解是} (\\quad)\">\\text{微分方程} (2 y + x ) d y - y d x = 0 \\text{的通解是} (\\quad)</span>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch154/q0001_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\displaystyle x + 2y = 2 \\ln (x + 2y) + c\">\\displaystyle x + 2y = 2 \\ln (x + 2y) + c</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch154/q0001_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"y = x + 2 y \\ln x + c\">y = x + 2 y \\ln x + c</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch154/q0001_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"y = x ( 2 \\ln x + c )\">y = x ( 2 \\ln x + c )</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch154/q0001_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"x = y ( 2 \\ln y + c )\">x = y ( 2 \\ln y + c )</span>"
         }
       ],
       "answer": "D",
       "answer_index": 3,
-      "analysis_html": "<img src=\"/static/generated/assets/advanced-math/ch154/q0001_analysis.png\"/>"
+      "analysis_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{aligned}&amp; \\text{方程化为} \\frac{dx}{dy} = 2 + \\frac{x}{y} \\\\&amp; \\text{设} u = \\frac{x}{y}, x = yu, \\frac{dx}{dy} = u + y \\frac{du}{dy}, \\text{ 代入 } y \\frac{du}{dy} = 2, du = 2 \\frac{dy}{y} \\\\&amp; \\text{积分得} u = 2 \\ln y + c\\end{aligned}\">\\begin{aligned}&amp; \\text{方程化为} \\frac{dx}{dy} = 2 + \\frac{x}{y} \\\\&amp; \\text{设} u = \\frac{x}{y}, x = yu, \\frac{dx}{dy} = u + y \\frac{du}{dy}, \\text{ 代入 } y \\frac{du}{dy} = 2, du = 2 \\frac{dy}{y} \\\\&amp; \\text{积分得} u = 2 \\ln y + c\\end{aligned}</div>"
     },
     {
       "id": "q0002",
       "number": 2,
       "header": "#2-Averge",
       "difficulty": "Averge",
-      "prompt_html": "<img src=\"/static/generated/assets/advanced-math/ch154/q0002_prompt.png\"/>",
+      "prompt_html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\left(y^{2}-3x^{2}\\right) dy+2xydx=0\\text{的通解为（）}\">\\left(y^{2}-3x^{2}\\right) dy+2xydx=0\\text{的通解为（）}</span>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch154/q0002_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\begin{array}{l} {l} y ^ { 2 } \\Big ( y ^ { 3 } + x ^ { 2 } \\Big ) = C \\end{array}\">\\begin{array}{l} {l} y ^ { 2 } \\Big ( y ^ { 3 } + x ^ { 2 } \\Big ) = C \\end{array}</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch154/q0002_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\begin{array}{l} {l} y ^ { 3 } = C \\left( y ^ { 2 } - x ^ { 2 } \\right) \\end{array}\">\\begin{array}{l} {l} y ^ { 3 } = C \\left( y ^ { 2 } - x ^ { 2 } \\right) \\end{array}</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch154/q0002_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\begin{aligned}y = C \\bigl( x^2 + y^3 \\bigr)\\end{aligned}\">\\begin{aligned}y = C \\bigl( x^2 + y^3 \\bigr)\\end{aligned}</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch154/q0002_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\, y = \\ln \\! \\left( x + y ^ { 2 } \\right) + C \\,\">\\, y = \\ln \\! \\left( x + y ^ { 2 } \\right) + C \\,</span>"
         }
       ],
       "answer": "B",
       "answer_index": 1,
-      "analysis_html": "<img src=\"/static/generated/assets/advanced-math/ch154/q0002_analysis.png\"/>"
+      "analysis_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{aligned}&amp;\\text{这是齐次方程}\\left(\\left(\\frac{y}{x}\\right)^{2}-3\\right)dy+2\\frac{y}{x}dx=0,\\\\&amp;\\text{设}\\frac{y}{x}=u,dy=udx+xdu, \\text{代入得}\\\\&amp;\\frac{1}{x}dx+\\frac{u^{2}-3}{u^{3}-u}du=0, \\text{即}\\frac{1}{x}dx+\\left(\\frac{3}{u}-\\frac{1}{u-1}-\\frac{1}{u+1}\\right)du=0,\\\\&amp;\\text{积分，代入}u\\text{得}\\ y^{3}=C\\left(y^{2}-x^{2}\\right).\\end{aligned}\">\\begin{aligned}&amp;\\text{这是齐次方程}\\left(\\left(\\frac{y}{x}\\right)^{2}-3\\right)dy+2\\frac{y}{x}dx=0,\\\\&amp;\\text{设}\\frac{y}{x}=u,dy=udx+xdu, \\text{代入得}\\\\&amp;\\frac{1}{x}dx+\\frac{u^{2}-3}{u^{3}-u}du=0, \\text{即}\\frac{1}{x}dx+\\left(\\frac{3}{u}-\\frac{1}{u-1}-\\frac{1}{u+1}\\right)du=0,\\\\&amp;\\text{积分，代入}u\\text{得}\\ y^{3}=C\\left(y^{2}-x^{2}\\right).\\end{aligned}</div>"
     },
     {
       "id": "q0003",
       "number": 3,
       "header": "#3-Averge",
       "difficulty": "Averge",
-      "prompt_html": "<img src=\"/static/generated/assets/advanced-math/ch154/q0003_prompt.png\"/>",
+      "prompt_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\text{初值问题} \\begin{cases} \\dfrac{xy^{\\prime}-y}{x+yy^{\\prime}}+2=0 \\\\ y(1)=1 \\end{cases} \\text{的解为（）}\">\\text{初值问题} \\begin{cases} \\dfrac{xy^{\\prime}-y}{x+yy^{\\prime}}+2=0 \\\\ y(1)=1 \\end{cases} \\text{的解为（）}</div>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch154/q0003_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\tan { \\frac { y } { x } } + \\ln { \\left( x ^ { 2 } + y ^ { 2 } \\right) } = { \\frac { e } { 2 } }\">\\tan { \\frac { y } { x } } + \\ln { \\left( x ^ { 2 } + y ^ { 2 } \\right) } = { \\frac { e } { 2 } }</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch154/q0003_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\ln \\left( x ^ { 2 } + y ^ { 2 } \\right) - x - y = 1\">\\ln \\left( x ^ { 2 } + y ^ { 2 } \\right) - x - y = 1</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch154/q0003_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\tan { \\frac { y } { x } } + x ^ { 2 } + y ^ { 2 } = 2 x + 1\">\\tan { \\frac { y } { x } } + x ^ { 2 } + y ^ { 2 } = 2 x + 1</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch154/q0003_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\arctan { \\frac { y } { x } } + \\ln { \\left( x ^ { 2 } + y ^ { 2 } \\right) } = { \\frac { \\pi } { 4 } } + \\ln 2\">\\arctan { \\frac { y } { x } } + \\ln { \\left( x ^ { 2 } + y ^ { 2 } \\right) } = { \\frac { \\pi } { 4 } } + \\ln 2</span>"
         }
       ],
       "answer": "D",
       "answer_index": 3,
-      "analysis_html": "<img src=\"/static/generated/assets/advanced-math/ch154/q0003_analysis.png\"/>"
+      "analysis_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{aligned}&amp;\\frac{dy}{dx}=\\frac{\\frac{y}{x}-2}{1+2\\frac{y}{x}},\\text{设 }u=\\frac{y}{x},y&#x27;=u+xu&#x27;,\\text{代入得}\\\\&amp;\\frac{1+2u}{u^2+1}du=-\\frac{2}{x}dx,\\text{积分}\\\\&amp;\\arctan u+\\ln\\left(u^2+1\\right)=-2\\ln x+\\ln C,\\\\&amp;\\text{代入 }u\\text{及 }y(1)=1,\\text{得 }C=\\frac{\\pi}{4}+\\ln 2,\\\\&amp;\\text{即 }\\arctan \\frac{y}{x}+\\ln\\left(x^2+y^2\\right)=\\frac{\\pi}{4}+\\ln 2.\\end{aligned}\">\\begin{aligned}&amp;\\frac{dy}{dx}=\\frac{\\frac{y}{x}-2}{1+2\\frac{y}{x}},\\text{设 }u=\\frac{y}{x},y&#x27;=u+xu&#x27;,\\text{代入得}\\\\&amp;\\frac{1+2u}{u^2+1}du=-\\frac{2}{x}dx,\\text{积分}\\\\&amp;\\arctan u+\\ln\\left(u^2+1\\right)=-2\\ln x+\\ln C,\\\\&amp;\\text{代入 }u\\text{及 }y(1)=1,\\text{得 }C=\\frac{\\pi}{4}+\\ln 2,\\\\&amp;\\text{即 }\\arctan \\frac{y}{x}+\\ln\\left(x^2+y^2\\right)=\\frac{\\pi}{4}+\\ln 2.\\end{aligned}</div>"
     },
     {
       "id": "q0004",
       "number": 4,
       "header": "#4-Averge",
       "difficulty": "Averge",
-      "prompt_html": "<img src=\"/static/generated/assets/advanced-math/ch154/q0004_prompt.png\"/>",
+      "prompt_html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{初值问题} (y+x \\sin \\frac{x}{y})dy-y \\sin \\frac{x}{y}dx=0, y(0)=1 \\text{的解为}()\">\\text{初值问题} (y+x \\sin \\frac{x}{y})dy-y \\sin \\frac{x}{y}dx=0, y(0)=1 \\text{的解为}()</span>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch154/q0004_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\cos { \\frac { x } { y } } = y + 1\">\\cos { \\frac { x } { y } } = y + 1</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch154/q0004_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\ln y + 1 + \\cos { \\frac { x } { y } } = 0\">\\ln y + 1 + \\cos { \\frac { x } { y } } = 0</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch154/q0004_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\tan { \\frac { x } { y } } = { \\frac { x } { y } }\">\\tan { \\frac { x } { y } } = { \\frac { x } { y } }</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch154/q0004_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\sin { \\frac { x } { y } } + \\cos { \\frac { x } { y } } = 1 - y\">\\sin { \\frac { x } { y } } + \\cos { \\frac { x } { y } } = 1 - y</span>"
         }
       ],
       "answer": "B",
       "answer_index": 1,
-      "analysis_html": "<img src=\"/static/generated/assets/advanced-math/ch154/q0004_analysis.png\"/>"
+      "analysis_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{aligned}&amp; \\text{方程变形为} \\frac{dx}{dy} = \\csc \\frac{x}{y} + \\frac{x}{y} \\\\&amp; \\text{设 } u = \\frac{x}{y}, \\text{ 则 } x = u y \\text{ 代入 } \\sin u du = \\frac{dy}{y}, \\\\&amp; \\text{积分得 } -\\cos u = \\ln y + C \\text{ 由 } y(0) = 1 \\quad C = -1 \\end{aligned}\">\\begin{aligned}&amp; \\text{方程变形为} \\frac{dx}{dy} = \\csc \\frac{x}{y} + \\frac{x}{y} \\\\&amp; \\text{设 } u = \\frac{x}{y}, \\text{ 则 } x = u y \\text{ 代入 } \\sin u du = \\frac{dy}{y}, \\\\&amp; \\text{积分得 } -\\cos u = \\ln y + C \\text{ 由 } y(0) = 1 \\quad C = -1 \\end{aligned}</div>"
     },
     {
       "id": "q0005",
       "number": 5,
       "header": "#5-Averge",
       "difficulty": "Averge",
-      "prompt_html": "<img src=\"/static/generated/assets/advanced-math/ch154/q0005_prompt.png\"/>",
+      "prompt_html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{方程}xy^{\\prime}-x\\tan\\frac{y}{x}-y=0\\text{的通解为（）}\">\\text{方程}xy^{\\prime}-x\\tan\\frac{y}{x}-y=0\\text{的通解为（）}</span>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch154/q0005_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\sin x = C x\">\\sin x = C x</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch154/q0005_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\cos x = C x\">\\cos x = C x</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch154/q0005_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\tan x = C x\">\\tan x = C x</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch154/q0005_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\ln x = C x\">\\ln x = C x</span>"
         }
       ],
       "answer": "A",
       "answer_index": 0,
-      "analysis_html": "<img src=\"/static/generated/assets/advanced-math/ch154/q0005_analysis.png\"/>"
+      "analysis_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{aligned}&amp; \\text{方程变形为 } y&#x27; = \\tan \\frac{y}{x} + \\frac{y}{x} \\\\&amp; \\text{设 } u = \\frac{y}{x}，\\text{则} y&#x27; = u + xu&#x27; \\text{代入} \\frac{\\mathrm{d}u}{\\tan u} = \\frac{d x}{x} \\\\&amp; \\text{积分得} \\ln \\sin x = \\ln x + \\ln C, \\sin x = Cx\\end{aligned}\">\\begin{aligned}&amp; \\text{方程变形为 } y&#x27; = \\tan \\frac{y}{x} + \\frac{y}{x} \\\\&amp; \\text{设 } u = \\frac{y}{x}，\\text{则} y&#x27; = u + xu&#x27; \\text{代入} \\frac{\\mathrm{d}u}{\\tan u} = \\frac{d x}{x} \\\\&amp; \\text{积分得} \\ln \\sin x = \\ln x + \\ln C, \\sin x = Cx\\end{aligned}</div>"
     },
     {
       "id": "q0006",
       "number": 6,
       "header": "#6-Averge",
       "difficulty": "Averge",
-      "prompt_html": "<img src=\"/static/generated/assets/advanced-math/ch154/q0006_prompt.png\"/>",
+      "prompt_html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\frac { d y } { d x } = \\frac { 3 x ^ { 2 } + y ^ { 2 } - 6 x + 3 } { 2 x y - 2 y } \\text {的通解为（）}\">\\frac { d y } { d x } = \\frac { 3 x ^ { 2 } + y ^ { 2 } - 6 x + 3 } { 2 x y - 2 y } \\text {的通解为（）}</span>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch154/q0006_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\left( x - y \\right) ^ { 2 } + x y + x ^ { 3 } = C\">\\left( x - y \\right) ^ { 2 } + x y + x ^ { 3 } = C</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch154/q0006_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\left( x - 1 \\right) ^ { 2 } + y ^ { 2 } + 2 x y = C\">\\left( x - 1 \\right) ^ { 2 } + y ^ { 2 } + 2 x y = C</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch154/q0006_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\begin{array}{l} { r } { x ^ { 3 } + y ^ { 3 } - 2 x y = C } \\end{array}\">\\begin{array}{l} { r } { x ^ { 3 } + y ^ { 3 } - 2 x y = C } \\end{array}</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch154/q0006_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"3 \\bigl ( x - 1 \\bigr ) ^ { 2 } - y ^ { 2 } = C \\bigl ( x - 1 \\bigr )\">3 \\bigl ( x - 1 \\bigr ) ^ { 2 } - y ^ { 2 } = C \\bigl ( x - 1 \\bigr )</span>"
         }
       ],
       "answer": "D",
       "answer_index": 3,
-      "analysis_html": "<img src=\"/static/generated/assets/advanced-math/ch154/q0006_analysis.png\"/>"
+      "analysis_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{aligned}&amp;\\frac{dy}{dx}=\\frac{3(x-1)^2+y^2}{2(x-1)y},\\ \\text{设}\\ \\ X=x-1,\\\\&amp;\\text{则}\\ \\ \\frac{dy}{dX}=\\frac{3X^2+y^2}{2Xy},\\ \\text{设}\\ \\ \\frac{y}{X}=u,\\ \\ \\frac{dy}{dX}=u+X\\frac{du}{dX},\\ \\text{代入得}\\\\&amp;\\frac{u}{3-u^2}du=\\frac{1}{2X}dX,\\ \\text{积分得}\\\\&amp;-\\frac{1}{2}\\ln{(3-u^2)}=\\frac{1}{2}\\ln{X}+\\frac{1}{2}\\ln{C},\\\\&amp;(3-u^2)X+C=0,\\\\&amp;3(x-1)^2-y^2=C(x-1).\\end{aligned}\">\\begin{aligned}&amp;\\frac{dy}{dx}=\\frac{3(x-1)^2+y^2}{2(x-1)y},\\ \\text{设}\\ \\ X=x-1,\\\\&amp;\\text{则}\\ \\ \\frac{dy}{dX}=\\frac{3X^2+y^2}{2Xy},\\ \\text{设}\\ \\ \\frac{y}{X}=u,\\ \\ \\frac{dy}{dX}=u+X\\frac{du}{dX},\\ \\text{代入得}\\\\&amp;\\frac{u}{3-u^2}du=\\frac{1}{2X}dX,\\ \\text{积分得}\\\\&amp;-\\frac{1}{2}\\ln{(3-u^2)}=\\frac{1}{2}\\ln{X}+\\frac{1}{2}\\ln{C},\\\\&amp;(3-u^2)X+C=0,\\\\&amp;3(x-1)^2-y^2=C(x-1).\\end{aligned}</div>"
     },
     {
       "id": "q0007",
       "number": 7,
       "header": "#7-Averge",
       "difficulty": "Averge",
-      "prompt_html": "<img src=\"/static/generated/assets/advanced-math/ch154/q0007_prompt.png\"/>",
+      "prompt_html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{方程}y^{\\prime} = \\frac{y-x-2}{x+y+4} \\text{的通解为}()\">\\text{方程}y^{\\prime} = \\frac{y-x-2}{x+y+4} \\text{的通解为}()</span>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch154/q0007_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"(x+3)^{2}+(y+1)^{2}=2\\ln{\\frac{y+1}{x+3}}+c\">(x+3)^{2}+(y+1)^{2}=2\\ln{\\frac{y+1}{x+3}}+c</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch154/q0007_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"(x+3)^{2}+(y+1)^{2}=ce^{-2\\arctan{\\frac{y+1}{x+3}}}\">(x+3)^{2}+(y+1)^{2}=ce^{-2\\arctan{\\frac{y+1}{x+3}}}</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch154/q0007_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\left(x+3\\right)^{2}+\\left(y+1\\right)^{2}+\\arctan{\\frac{y+1}{x+3}}=c\">\\left(x+3\\right)^{2}+\\left(y+1\\right)^{2}+\\arctan{\\frac{y+1}{x+3}}=c</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch154/q0007_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"(x+3)^{2}(y+1)^{2}=ce^{x+y}\">(x+3)^{2}(y+1)^{2}=ce^{x+y}</span>"
         }
       ],
       "answer": "B",
       "answer_index": 1,
-      "analysis_html": "<img src=\"/static/generated/assets/advanced-math/ch154/q0007_analysis.png\"/>"
+      "analysis_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{aligned}&amp;\\text{作代换}x=X-3\\quad y=Y-1\\\\&amp;\\text{则方程可化为}\\frac{dY}{dz}=\\frac{Y-X}{Y+X},\\ \\text{令}u=\\frac{Y}{X}\\quad u+X\\frac{du}{dX}=\\frac{u-1}{u+1}\\\\&amp;\\text{积分得}-\\frac{1}{2}\\ln(1+u^2)-\\arctan u=\\ln X+c\\\\&amp;\\text{代回原来的变量可得答案}\\end{aligned}\">\\begin{aligned}&amp;\\text{作代换}x=X-3\\quad y=Y-1\\\\&amp;\\text{则方程可化为}\\frac{dY}{dz}=\\frac{Y-X}{Y+X},\\ \\text{令}u=\\frac{Y}{X}\\quad u+X\\frac{du}{dX}=\\frac{u-1}{u+1}\\\\&amp;\\text{积分得}-\\frac{1}{2}\\ln(1+u^2)-\\arctan u=\\ln X+c\\\\&amp;\\text{代回原来的变量可得答案}\\end{aligned}</div>"
     },
     {
       "id": "q0008",
       "number": 8,
       "header": "#8-Averge",
       "difficulty": "Averge",
-      "prompt_html": "<img src=\"/static/generated/assets/advanced-math/ch154/q0008_prompt.png\"/>",
+      "prompt_html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{微分方程} \\frac {d y } { d x } = \\frac { 2 y } { x - 2 y } \\text{的通解为（）}\">\\text{微分方程} \\frac {d y } { d x } = \\frac { 2 y } { x - 2 y } \\text{的通解为（）}</span>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch154/q0008_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"y(x+y) = x + C\">y(x+y) = x + C</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch154/q0008_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"y \\bigl( x^{3} + y^{3} \\bigr) = C\">y \\bigl( x^{3} + y^{3} \\bigr) = C</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch154/q0008_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"y = C \\bigl ( x + 2 y \\bigr ) ^ { 2 }\">y = C \\bigl ( x + 2 y \\bigr ) ^ { 2 }</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch154/q0008_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"y = C \\bigl( x ^ { 2 } + y ^ { 2 } \\bigr) + 1\">y = C \\bigl( x ^ { 2 } + y ^ { 2 } \\bigr) + 1</span>"
         }
       ],
       "answer": "C",
       "answer_index": 2,
-      "analysis_html": "<img src=\"/static/generated/assets/advanced-math/ch154/q0008_analysis.png\"/>"
+      "analysis_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{aligned}&amp;\\text{由}\\frac{dy}{dx}=\\frac{2\\frac{y}{x}}{1-2\\frac{y}{x}},\\\\&amp;\\text{设}\\ \\frac{y}{x}=u,y&#x27;=u+xu&#x27;,\\text{代入得}\\\\&amp;\\frac{1}{x}\\,dx=\\frac{1-2u}{u+2u^2}\\,du=\\left(\\frac{1}{u}-\\frac{4}{1+2u}\\right)du,\\\\&amp;\\text{积分，代入}u,\\ \\text{整理得}\\ \\ y=C(x+2y)^2.\\end{aligned}\">\\begin{aligned}&amp;\\text{由}\\frac{dy}{dx}=\\frac{2\\frac{y}{x}}{1-2\\frac{y}{x}},\\\\&amp;\\text{设}\\ \\frac{y}{x}=u,y&#x27;=u+xu&#x27;,\\text{代入得}\\\\&amp;\\frac{1}{x}\\,dx=\\frac{1-2u}{u+2u^2}\\,du=\\left(\\frac{1}{u}-\\frac{4}{1+2u}\\right)du,\\\\&amp;\\text{积分，代入}u,\\ \\text{整理得}\\ \\ y=C(x+2y)^2.\\end{aligned}</div>"
     },
     {
       "id": "q0009",
       "number": 9,
       "header": "#9-Averge",
       "difficulty": "Averge",
-      "prompt_html": "<img src=\"/static/generated/assets/advanced-math/ch154/q0009_prompt.png\"/>",
+      "prompt_html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{微分方程} \\left( x^{3} + y^{3} \\right) dx - 3xy^{2} dy = 0 \\text{的通解是（）}\">\\text{微分方程} \\left( x^{3} + y^{3} \\right) dx - 3xy^{2} dy = 0 \\text{的通解是（）}</span>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch154/q0009_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\arctan \\left( x ^ { 3 } + y ^ { 3 } \\right) + x = C\">\\arctan \\left( x ^ { 3 } + y ^ { 3 } \\right) + x = C</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch154/q0009_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\, x ^ { 3 } y ^ { 3 } = C \\,\">\\, x ^ { 3 } y ^ { 3 } = C \\,</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch154/q0009_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\ln \\left( x ^ { 3 } + y ^ { 3 } \\right) = 2 x + y + C\">\\ln \\left( x ^ { 3 } + y ^ { 3 } \\right) = 2 x + y + C</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch154/q0009_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\, x ^ { 3 } - 2 y ^ { 3 } = C x\">\\, x ^ { 3 } - 2 y ^ { 3 } = C x</span>"
         }
       ],
       "answer": "D",
       "answer_index": 3,
-      "analysis_html": "<img src=\"/static/generated/assets/advanced-math/ch154/q0009_analysis.png\"/>"
+      "analysis_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{aligned}&amp;\\frac{dy}{dx}=\\frac{x^2+y^3}{3xy^2}=\\frac{1}{3}\\left(\\frac{x}{y}+\\frac{y}{x}\\right),\\\\&amp;\\text{设}\\ \\ u=\\frac{y}{x},y=ux,y&#x27;=u+xu&#x27;,\\\\&amp;\\text{代入}\\ \\frac{1}{x}dx=\\frac{3u^2}{1-2u^3},\\ \\text{积分得}\\ \\ln x=-\\frac{1}{2}\\ln\\left(1-2u^3\\right)+\\ln C,\\\\&amp;\\text{整理得}\\ \\ x^3-2y^3=Cx.\\end{aligned}\">\\begin{aligned}&amp;\\frac{dy}{dx}=\\frac{x^2+y^3}{3xy^2}=\\frac{1}{3}\\left(\\frac{x}{y}+\\frac{y}{x}\\right),\\\\&amp;\\text{设}\\ \\ u=\\frac{y}{x},y=ux,y&#x27;=u+xu&#x27;,\\\\&amp;\\text{代入}\\ \\frac{1}{x}dx=\\frac{3u^2}{1-2u^3},\\ \\text{积分得}\\ \\ln x=-\\frac{1}{2}\\ln\\left(1-2u^3\\right)+\\ln C,\\\\&amp;\\text{整理得}\\ \\ x^3-2y^3=Cx.\\end{aligned}</div>"
     },
     {
       "id": "q0010",
       "number": 10,
       "header": "#10-Averge",
       "difficulty": "Averge",
-      "prompt_html": "<img src=\"/static/generated/assets/advanced-math/ch154/q0010_prompt.png\"/>",
+      "prompt_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\text{初值问题} \\begin{cases} \\dfrac{dy}{dx} = \\dfrac{y}{x} + \\cos \\dfrac{y-x}{x} \\\\ y(2) = 2 \\end{cases} \\text{的特解为（）}\">\\text{初值问题} \\begin{cases} \\dfrac{dy}{dx} = \\dfrac{y}{x} + \\cos \\dfrac{y-x}{x} \\\\ y(2) = 2 \\end{cases} \\text{的特解为（）}</div>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch154/q0010_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\tan { \\frac { y } { x } } + \\sin { \\frac { y } { x } } = { \\frac { y - x } { x } }\">\\tan { \\frac { y } { x } } + \\sin { \\frac { y } { x } } = { \\frac { y - x } { x } }</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch154/q0010_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\sec { \\frac { y - x } { x } } + \\tan { \\frac { y - x } { x } } = { \\frac { x } { 2 } }\">\\sec { \\frac { y - x } { x } } + \\tan { \\frac { y - x } { x } } = { \\frac { x } { 2 } }</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch154/q0010_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\sin { \\frac { y + x } { x } } + \\cos { \\frac { y + x } { x } } = x + 1\">\\sin { \\frac { y + x } { x } } + \\cos { \\frac { y + x } { x } } = x + 1</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch154/q0010_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\cos { \\frac { y } { x } } + 2 \\sin { \\frac { y } { x } } = { \\frac { y + x } { x } }\">\\cos { \\frac { y } { x } } + 2 \\sin { \\frac { y } { x } } = { \\frac { y + x } { x } }</span>"
         }
       ],
       "answer": "B",
       "answer_index": 1,
-      "analysis_html": "<img src=\"/static/generated/assets/advanced-math/ch154/q0010_analysis.png\"/>"
+      "analysis_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{aligned}&amp; \\text{设 } \\frac{y}{x}=u,y^{\\prime}=u+xu^{\\prime},\\ \\text{代入得}\\ \\sec(u-1)du=\\frac{1}{x}dx,\\\\&amp; \\text{积分}\\ \\ln(\\sec(u-1)+\\tan(u-1))=\\ln x+\\ln C,\\\\&amp; \\text{即}\\ \\sec(u-1)+\\tan(u-1)=Cx,\\\\&amp; \\text{代入 }u,\\ \\text{并代入 }y(2)=2\\ \\text{得答案}\\end{aligned}\">\\begin{aligned}&amp; \\text{设 } \\frac{y}{x}=u,y^{\\prime}=u+xu^{\\prime},\\ \\text{代入得}\\ \\sec(u-1)du=\\frac{1}{x}dx,\\\\&amp; \\text{积分}\\ \\ln(\\sec(u-1)+\\tan(u-1))=\\ln x+\\ln C,\\\\&amp; \\text{即}\\ \\sec(u-1)+\\tan(u-1)=Cx,\\\\&amp; \\text{代入 }u,\\ \\text{并代入 }y(2)=2\\ \\text{得答案}\\end{aligned}</div>"
     },
     {
       "id": "q0011",
       "number": 11,
       "header": "#11-Averge",
       "difficulty": "Averge",
-      "prompt_html": "<img src=\"/static/generated/assets/advanced-math/ch154/q0011_prompt.png\"/>",
+      "prompt_html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{微分方程}x \\frac{dy}{dx}=y(\\ln y-\\ln x) \\text{的通解为（）}\">\\text{微分方程}x \\frac{dy}{dx}=y(\\ln y-\\ln x) \\text{的通解为（）}</span>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch154/q0011_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"e^{x+y} = x^{3} + C\">e^{x+y} = x^{3} + C</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch154/q0011_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\frac {y}{x} = C x ^ {3} + 2 y\">\\frac {y}{x} = C x ^ {3} + 2 y</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch154/q0011_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\ln \\left( x + y \\right) = x ^ { 3 } + y + C\">\\ln \\left( x + y \\right) = x ^ { 3 } + y + C</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch154/q0011_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\ln { \\frac { y } { x } } = C x + 1\">\\ln { \\frac { y } { x } } = C x + 1</span>"
         }
       ],
       "answer": "D",
       "answer_index": 3,
-      "analysis_html": "<img src=\"/static/generated/assets/advanced-math/ch154/q0011_analysis.png\"/>"
+      "analysis_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{aligned}&amp; \\text{方程变形为} \\frac{dy}{dx} = \\frac{y}{x} \\ln \\frac{y}{x}, \\\\&amp; \\text{设} \\frac{y}{x} = u, \\text{代入方程} \\ u + x \\frac{du}{dx} = u \\ln u, \\text{即} \\ \\frac{du}{u(\\ln u-1)} = \\frac{dx}{x}, \\\\&amp; \\text{积分} \\ \\ln(\\ln u-1) = \\ln x + \\ln C, \\\\&amp; \\text{代入} u, \\text{整理得} \\ \\frac{\\ln y}{x} = Cx + 1.\\end{aligned}\">\\begin{aligned}&amp; \\text{方程变形为} \\frac{dy}{dx} = \\frac{y}{x} \\ln \\frac{y}{x}, \\\\&amp; \\text{设} \\frac{y}{x} = u, \\text{代入方程} \\ u + x \\frac{du}{dx} = u \\ln u, \\text{即} \\ \\frac{du}{u(\\ln u-1)} = \\frac{dx}{x}, \\\\&amp; \\text{积分} \\ \\ln(\\ln u-1) = \\ln x + \\ln C, \\\\&amp; \\text{代入} u, \\text{整理得} \\ \\frac{\\ln y}{x} = Cx + 1.\\end{aligned}</div>"
     },
     {
       "id": "q0012",
       "number": 12,
       "header": "#12-Averge",
       "difficulty": "Averge",
-      "prompt_html": "<img src=\"/static/generated/assets/advanced-math/ch154/q0012_prompt.png\"/>",
+      "prompt_html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{方程}y^{\\prime}=(x+y+5)^{2} \\text{的通解为}()\">\\text{方程}y^{\\prime}=(x+y+5)^{2} \\text{的通解为}()</span>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch154/q0012_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\begin{array}{l} { l } x + y + 5 - \\tan ( x + y + 5 ) = C \\end{array}\">\\begin{array}{l} { l } x + y + 5 - \\tan ( x + y + 5 ) = C \\end{array}</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch154/q0012_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\arctan ( x + y + 5 ) = x + C\">\\arctan ( x + y + 5 ) = x + C</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch154/q0012_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\boldsymbol { x } + \\boldsymbol { y } + \\boldsymbol { 5 } = \\sin ( \\boldsymbol { x } + \\boldsymbol { C } )\">\\boldsymbol { x } + \\boldsymbol { y } + \\boldsymbol { 5 } = \\sin ( \\boldsymbol { x } + \\boldsymbol { C } )</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch154/q0012_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\, x + y + 5 + \\ln ( x + y + 5 ) = C\">\\, x + y + 5 + \\ln ( x + y + 5 ) = C</span>"
         }
       ],
       "answer": "B",
       "answer_index": 1,
-      "analysis_html": "<img src=\"/static/generated/assets/advanced-math/ch154/q0012_analysis.png\"/>"
+      "analysis_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{aligned} &amp; \\text{设} \\; x+y+5=u \\text{则} \\; \\frac{dy}{dx} = \\frac{du}{dx} - 1 \\\\ &amp; \\quad \\frac{du}{dx} = 1 + u^2 \\\\ &amp; \\text{代入} \\quad \\quad \\quad , \\text{积分} \\; \\arctan u = x + c \\\\ &amp; \\quad \\frac{du}{1 + u^2} = dx \\end{aligned}\">\\begin{aligned} &amp; \\text{设} \\; x+y+5=u \\text{则} \\; \\frac{dy}{dx} = \\frac{du}{dx} - 1 \\\\ &amp; \\quad \\frac{du}{dx} = 1 + u^2 \\\\ &amp; \\text{代入} \\quad \\quad \\quad , \\text{积分} \\; \\arctan u = x + c \\\\ &amp; \\quad \\frac{du}{1 + u^2} = dx \\end{aligned}</div>"
     },
     {
       "id": "q0013",
       "number": 13,
       "header": "#13-Averge",
       "difficulty": "Averge",
-      "prompt_html": "<img src=\"/static/generated/assets/advanced-math/ch154/q0013_prompt.png\"/>",
+      "prompt_html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{方程} (2x+y-4)dx+(x+y-1)dy=0\\text{的通解为}()\">\\text{方程} (2x+y-4)dx+(x+y-1)dy=0\\text{的通解为}()</span>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch154/q0013_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\left( x + y \\right) ^ { 4 } + 2 x y = C\">\\left( x + y \\right) ^ { 4 } + 2 x y = C</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch154/q0013_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\begin{aligned}2x^{2}+2xy+y^{2}-8x-2y=C\\end{aligned}\">\\begin{aligned}2x^{2}+2xy+y^{2}-8x-2y=C\\end{aligned}</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch154/q0013_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\begin{array}{l} {l} x ^ { 2 } + y ^ { 2 } - 2 x ^ { 2 } y + C = 0 \\end{array}\">\\begin{array}{l} {l} x ^ { 2 } + y ^ { 2 } - 2 x ^ { 2 } y + C = 0 \\end{array}</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch154/q0013_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\begin{array}{l} { r } { x ^ { 3 } + y ^ { 3 } - 2 x y - y + C = 0 } \\end{array}\">\\begin{array}{l} { r } { x ^ { 3 } + y ^ { 3 } - 2 x y - y + C = 0 } \\end{array}</span>"
         }
       ],
       "answer": "B",
       "answer_index": 1,
-      "analysis_html": "<img src=\"/static/generated/assets/advanced-math/ch154/q0013_analysis.png\"/>"
+      "analysis_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{aligned}&amp;\\frac{dy}{dx}=-\\frac{2x+y-4}{x+y-1},\\ \\text{设}\\ \\begin{cases}x=X+3\\\\y=Y-2\\end{cases}\\ \\text{得}\\\\&amp;\\frac{dY}{dX}=-\\frac{2X+Y}{X+Y},\\ \\text{设}\\ \\frac{Y}{X}=u,\\ \\text{代入}\\\\&amp;\\frac{u+1}{u^2+2u+2}\\,du=-\\frac{1}{X}\\,dX,\\ \\text{积分得}\\\\&amp;\\int\\frac{u+1}{u^2+2u+2}du=\\frac{1}{2}\\int\\frac{d(u+1)^2}{(u+1)^2+1}=\\frac{1}{2}\\ln\\left((u+1)^2+1\\right),\\\\&amp;\\text{得}\\quad X^2\\bigl(u^2+2u+2\\bigr)=C,\\ \\ \\text{即}\\\\&amp;Y^2+2XY+2X^2=C,\\\\&amp;2(x-3)^2+2(x-3)(y+2)+(y+2)^2=C.\\end{aligned}\">\\begin{aligned}&amp;\\frac{dy}{dx}=-\\frac{2x+y-4}{x+y-1},\\ \\text{设}\\ \\begin{cases}x=X+3\\\\y=Y-2\\end{cases}\\ \\text{得}\\\\&amp;\\frac{dY}{dX}=-\\frac{2X+Y}{X+Y},\\ \\text{设}\\ \\frac{Y}{X}=u,\\ \\text{代入}\\\\&amp;\\frac{u+1}{u^2+2u+2}\\,du=-\\frac{1}{X}\\,dX,\\ \\text{积分得}\\\\&amp;\\int\\frac{u+1}{u^2+2u+2}du=\\frac{1}{2}\\int\\frac{d(u+1)^2}{(u+1)^2+1}=\\frac{1}{2}\\ln\\left((u+1)^2+1\\right),\\\\&amp;\\text{得}\\quad X^2\\bigl(u^2+2u+2\\bigr)=C,\\ \\ \\text{即}\\\\&amp;Y^2+2XY+2X^2=C,\\\\&amp;2(x-3)^2+2(x-3)(y+2)+(y+2)^2=C.\\end{aligned}</div>"
     },
     {
       "id": "q0014",
       "number": 14,
       "header": "#14-Averge",
       "difficulty": "Averge",
-      "prompt_html": "<img src=\"/static/generated/assets/advanced-math/ch154/q0014_prompt.png\"/>",
+      "prompt_html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{方程}xy^{\\prime}-x\\sin \\frac{y}{x}-y=0\\text{的通解为（）}\">\\text{方程}xy^{\\prime}-x\\sin \\frac{y}{x}-y=0\\text{的通解为（）}</span>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch154/q0014_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"y = \\ln (x + y) + c\">y = \\ln (x + y) + c</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch154/q0014_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\boldsymbol{y} = 2 \\boldsymbol{x} \\arcsin \\boldsymbol{x} + \\boldsymbol{c}\">\\boldsymbol{y} = 2 \\boldsymbol{x} \\arcsin \\boldsymbol{x} + \\boldsymbol{c}</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch154/q0014_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\begin{array}{l} {l} y = 2 x \\arctan ( c x ) \\end{array}\">\\begin{array}{l} {l} y = 2 x \\arctan ( c x ) \\end{array}</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch154/q0014_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\begin{array}{l} { l } y + c = \\sin x + \\sin y \\end{array}\">\\begin{array}{l} { l } y + c = \\sin x + \\sin y \\end{array}</span>"
         }
       ],
       "answer": "C",
       "answer_index": 2,
-      "analysis_html": "<img src=\"/static/generated/assets/advanced-math/ch154/q0014_analysis.png\"/>"
+      "analysis_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{aligned}&amp; \\text{方程变形为 } y^{&#x27;}=\\sin \\frac{y}{x}+\\frac{y}{x} \\\\&amp; \\text{设 } u=\\frac{y}{x}, \\text{ 则 } y^{&#x27;}=u+xu^{&#x27;} \\text{ 代入 } \\frac{xu^{&#x27;} }{\\sin u}=\\frac{\\sin u}{x}, \\\\&amp; \\text{积分得 } \\ln \\tan \\frac{y}{2}=\\ln x+\\ln c\\end{aligned}\">\\begin{aligned}&amp; \\text{方程变形为 } y^{&#x27;}=\\sin \\frac{y}{x}+\\frac{y}{x} \\\\&amp; \\text{设 } u=\\frac{y}{x}, \\text{ 则 } y^{&#x27;}=u+xu^{&#x27;} \\text{ 代入 } \\frac{xu^{&#x27;} }{\\sin u}=\\frac{\\sin u}{x}, \\\\&amp; \\text{积分得 } \\ln \\tan \\frac{y}{2}=\\ln x+\\ln c\\end{aligned}</div>"
     },
     {
       "id": "q0015",
       "number": 15,
       "header": "#15-Averge",
       "difficulty": "Averge",
-      "prompt_html": "<img src=\"/static/generated/assets/advanced-math/ch154/q0015_prompt.png\"/>",
+      "prompt_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{array}{l} \\text {微分方程} \\left\\{ \\begin{matrix} x^{2}dy=(y^{2}+xy-x^{2})dx \\\\ y(-1)=3 \\end{matrix} \\right. \\text {的解为（）} \\end{array}\">\\begin{array}{l} \\text {微分方程} \\left\\{ \\begin{matrix} x^{2}dy=(y^{2}+xy-x^{2})dx \\\\ y(-1)=3 \\end{matrix} \\right. \\text {的解为（）} \\end{array}</div>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch154/q0015_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"x + y = 2 (x + y) x\">x + y = 2 (x + y) x</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch154/q0015_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\, y + x = x ( x + y ^ { 2 } ) + 4 \\,\">\\, y + x = x ( x + y ^ { 2 } ) + 4 \\,</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch154/q0015_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"y = x \\ln x + \\ln y\">y = x \\ln x + \\ln y</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch154/q0015_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"y - x = 2 ( x + y ) x ^ { 2 }\">y - x = 2 ( x + y ) x ^ { 2 }</span>"
         }
       ],
       "answer": "D",
       "answer_index": 3,
-      "analysis_html": "<img src=\"/static/generated/assets/advanced-math/ch154/q0015_analysis.png\"/>"
+      "analysis_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{aligned}&amp; \\text{方程变形为} \\frac{dy}{dx} = \\left( \\frac{y}{x} \\right)^2 + \\frac{y}{x} -1 \\\\&amp; \\text{设} u = \\frac{y}{x} ; \\frac{dy}{dx} = u + x \\frac{du}{dx} , \\text{代入} \\frac{du}{u^2-1} = \\frac{dx}{x} \\\\&amp; \\text{两边积分} \\int \\frac{1}{u^2-1} du = \\int \\frac{1}{2} \\left( \\frac{1}{u-1} - \\frac{1}{u+1} \\right) du = \\frac{1}{2} \\ln \\frac{u-1}{u+1} \\\\&amp; \\text{得到} \\frac{y-x}{y+x} = cx^2 \\text{ 代入} y(-1) = 3 \\quad c = 2 \\end{aligned}\">\\begin{aligned}&amp; \\text{方程变形为} \\frac{dy}{dx} = \\left( \\frac{y}{x} \\right)^2 + \\frac{y}{x} -1 \\\\&amp; \\text{设} u = \\frac{y}{x} ; \\frac{dy}{dx} = u + x \\frac{du}{dx} , \\text{代入} \\frac{du}{u^2-1} = \\frac{dx}{x} \\\\&amp; \\text{两边积分} \\int \\frac{1}{u^2-1} du = \\int \\frac{1}{2} \\left( \\frac{1}{u-1} - \\frac{1}{u+1} \\right) du = \\frac{1}{2} \\ln \\frac{u-1}{u+1} \\\\&amp; \\text{得到} \\frac{y-x}{y+x} = cx^2 \\text{ 代入} y(-1) = 3 \\quad c = 2 \\end{aligned}</div>"
     },
     {
       "id": "q0016",
       "number": 16,
       "header": "#16-Averge",
       "difficulty": "Averge",
-      "prompt_html": "<img src=\"/static/generated/assets/advanced-math/ch154/q0016_prompt.png\"/>",
+      "prompt_html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{微分方程}xy^{\\prime}-y=\\sqrt{x^{2}-y^{2}},x&gt;0\\text{的通解是（）}\">\\text{微分方程}xy^{\\prime}-y=\\sqrt{x^{2}-y^{2}},x&gt;0\\text{的通解是（）}</span>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch154/q0016_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\begin{aligned}y = x (\\sin (\\ln \\, cx) + c y + 1)\\end{aligned}\">\\begin{aligned}y = x (\\sin (\\ln \\, cx) + c y + 1)\\end{aligned}</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch154/q0016_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"y = x \\cos ( \\ln c x )\">y = x \\cos ( \\ln c x )</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch154/q0016_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"y = x \\sin ( \\ln \\, c x )\">y = x \\sin ( \\ln \\, c x )</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch154/q0016_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"y = x ( \\ln c x + c y )\">y = x ( \\ln c x + c y )</span>"
         }
       ],
       "answer": "C",
       "answer_index": 2,
-      "analysis_html": "<img src=\"/static/generated/assets/advanced-math/ch154/q0016_analysis.png\"/>"
+      "analysis_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{aligned}&amp; \\text{原方程化为} \\frac{dy}{dx} = \\frac{y}{x} + \\sqrt{1-\\frac{y^2}{x^2}} \\\\&amp; \\text{设} u = \\frac{y}{x}, \\text{则} \\frac{-du}{\\sqrt{1-u^2}} = \\frac{dx}{x}, \\\\&amp; \\text{积分} \\arcsin u = \\ln x + \\ln c, \\text{整理得} y = x \\sin(\\ln cx)\\end{aligned}\">\\begin{aligned}&amp; \\text{原方程化为} \\frac{dy}{dx} = \\frac{y}{x} + \\sqrt{1-\\frac{y^2}{x^2}} \\\\&amp; \\text{设} u = \\frac{y}{x}, \\text{则} \\frac{-du}{\\sqrt{1-u^2}} = \\frac{dx}{x}, \\\\&amp; \\text{积分} \\arcsin u = \\ln x + \\ln c, \\text{整理得} y = x \\sin(\\ln cx)\\end{aligned}</div>"
     },
     {
       "id": "q0017",
       "number": 17,
       "header": "#17-Averge",
       "difficulty": "Averge",
-      "prompt_html": "<img src=\"/static/generated/assets/advanced-math/ch154/q0017_prompt.png\"/>",
+      "prompt_html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{初值问题} (y+x \\cos \\frac{x}{y}) dy - y \\cos \\frac{x}{y} dx = 0 \\quad\\ y(0)=1 \\text{的解为}()\">\\text{初值问题} (y+x \\cos \\frac{x}{y}) dy - y \\cos \\frac{x}{y} dx = 0 \\quad\\ y(0)=1 \\text{的解为}()</span>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch154/q0017_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\tan { \\frac { x } { y } } = { \\frac { x } { y } }\">\\tan { \\frac { x } { y } } = { \\frac { x } { y } }</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch154/q0017_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\sin { \\frac { x } { y } } = \\ln { y }\">\\sin { \\frac { x } { y } } = \\ln { y }</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch154/q0017_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\sin { \\frac { x } { y } } + \\cos { \\frac { x } { y } } = 1 - y\">\\sin { \\frac { x } { y } } + \\cos { \\frac { x } { y } } = 1 - y</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch154/q0017_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\cos { \\frac { x } { y } } = y + 1\">\\cos { \\frac { x } { y } } = y + 1</span>"
         }
       ],
       "answer": "B",
       "answer_index": 1,
-      "analysis_html": "<img src=\"/static/generated/assets/advanced-math/ch154/q0017_analysis.png\"/>"
+      "analysis_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{aligned}&amp; \\text{方程变形为} \\frac{dx}{dy} = \\sec \\frac{x}{y} + \\frac{x}{y} \\\\&amp; \\text{设 } u = \\frac{x}{y} \\, , \\text{ 则 } x = u y \\text{ 代入 } \\cos u du = \\frac{1}{y} \\, dy \\, , \\\\&amp; \\text{积分得 } \\sin u = \\ln y + c \\text{ 由 } y(0) = 1 \\qquad c = 0 \\end{aligned}\">\\begin{aligned}&amp; \\text{方程变形为} \\frac{dx}{dy} = \\sec \\frac{x}{y} + \\frac{x}{y} \\\\&amp; \\text{设 } u = \\frac{x}{y} \\, , \\text{ 则 } x = u y \\text{ 代入 } \\cos u du = \\frac{1}{y} \\, dy \\, , \\\\&amp; \\text{积分得 } \\sin u = \\ln y + c \\text{ 由 } y(0) = 1 \\qquad c = 0 \\end{aligned}</div>"
     },
     {
       "id": "q0018",
       "number": 18,
       "header": "#18-Averge",
       "difficulty": "Averge",
-      "prompt_html": "<img src=\"/static/generated/assets/advanced-math/ch154/q0018_prompt.png\"/>",
+      "prompt_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\text{初值问题} \\begin{cases} \\bigl( x^{2}+y^{2} \\bigr) dx + x y dy = 0 \\\\ y \\big|_{x=s} = 0 \\end{cases} \\text{的解为（）}\">\\text{初值问题} \\begin{cases} \\bigl( x^{2}+y^{2} \\bigr) dx + x y dy = 0 \\\\ y \\big|_{x=s} = 0 \\end{cases} \\text{的解为（）}</div>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch154/q0018_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\, x ^ { 4 } + 2 x ^ { 2 } y ^ { 2 } = e ^ { 4 } \\,\">\\, x ^ { 4 } + 2 x ^ { 2 } y ^ { 2 } = e ^ { 4 } \\,</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch154/q0018_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\,x^{3}+y^{3}=2x+1\">\\,x^{3}+y^{3}=2x+1</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch154/q0018_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\begin{array}{l} { r } { x ^ { 4 } + y ^ { 4 } - 2 x ^ { 2 } y - 1 = 0 } \\end{array}\">\\begin{array}{l} { r } { x ^ { 4 } + y ^ { 4 } - 2 x ^ { 2 } y - 1 = 0 } \\end{array}</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch154/q0018_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\begin{array}{l} { l } { { x ^ { 2 } + y ^ { 2 } + 3 x y = 6 } } \\end{array}\">\\begin{array}{l} { l } { { x ^ { 2 } + y ^ { 2 } + 3 x y = 6 } } \\end{array}</span>"
         }
       ],
       "answer": "A",
       "answer_index": 0,
-      "analysis_html": "<img src=\"/static/generated/assets/advanced-math/ch154/q0018_analysis.png\"/>"
+      "analysis_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{array}{l} \\dfrac{dy}{dx} = - \\dfrac{x}{y} - \\dfrac{y}{x}, \\text{设} u = \\dfrac{y}{x}, \\text{代入得} \\dfrac{u}{1+2u^{2}}du = - \\dfrac{1}{x}dx, \\\\ \\text{积分，代入} u \\text{得} \\quad x^{4}+2x^{2}y^{2}=C, \\\\ \\text{代入} \\quad y(e)=0,C=e^{4}. \\end{array}\">\\begin{array}{l} \\dfrac{dy}{dx} = - \\dfrac{x}{y} - \\dfrac{y}{x}, \\text{设} u = \\dfrac{y}{x}, \\text{代入得} \\dfrac{u}{1+2u^{2}}du = - \\dfrac{1}{x}dx, \\\\ \\text{积分，代入} u \\text{得} \\quad x^{4}+2x^{2}y^{2}=C, \\\\ \\text{代入} \\quad y(e)=0,C=e^{4}. \\end{array}</div>"
     },
     {
       "id": "q0019",
       "number": 19,
       "header": "#19-Averge",
       "difficulty": "Averge",
-      "prompt_html": "<img src=\"/static/generated/assets/advanced-math/ch154/q0019_prompt.png\"/>",
+      "prompt_html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{微分方程}x dy + 2 y (\\ln y - \\ln x) dx = 0 \\text{的通解是（）}\">\\text{微分方程}x dy + 2 y (\\ln y - \\ln x) dx = 0 \\text{的通解是（）}</span>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch154/q0019_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\, 2 \\ln { \\frac { y } { x } } + 1 = { \\frac { c } { x ^ { 2 } } }\">\\, 2 \\ln { \\frac { y } { x } } + 1 = { \\frac { c } { x ^ { 2 } } }</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch154/q0019_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"y = x \\ln ( x + c )\">y = x \\ln ( x + c )</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch154/q0019_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\begin{array}{l} {l} y = x ( \\ln x + e ^ { \\frac { 1 } { 2 } x ^ { 2 } } ) \\end{array}\">\\begin{array}{l} {l} y = x ( \\ln x + e ^ { \\frac { 1 } { 2 } x ^ { 2 } } ) \\end{array}</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch154/q0019_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"y = x e ^ { \\frac { c } { 2 x ^ { 2 } } }\">y = x e ^ { \\frac { c } { 2 x ^ { 2 } } }</span>"
         }
       ],
       "answer": "A",
       "answer_index": 0,
-      "analysis_html": "<img src=\"/static/generated/assets/advanced-math/ch154/q0019_analysis.png\"/>"
+      "analysis_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{aligned}&amp;\\frac{dy}{dx}=-2\\frac{y}{x}\\ln\\frac{y}{x}\\\\&amp;\\text{设}u=\\frac{y}{x}\\text{，则}\\frac{du}{u(2\\ln u+1)}=-\\frac{dx}{x},\\\\&amp;\\text{积分}\\frac{1}{2}\\ln(2\\ln u+1)=-\\ln x+\\ln c\\end{aligned}\">\\begin{aligned}&amp;\\frac{dy}{dx}=-2\\frac{y}{x}\\ln\\frac{y}{x}\\\\&amp;\\text{设}u=\\frac{y}{x}\\text{，则}\\frac{du}{u(2\\ln u+1)}=-\\frac{dx}{x},\\\\&amp;\\text{积分}\\frac{1}{2}\\ln(2\\ln u+1)=-\\ln x+\\ln c\\end{aligned}</div>"
     },
     {
       "id": "q0020",
       "number": 20,
       "header": "#20-Averge",
       "difficulty": "Averge",
-      "prompt_html": "<img src=\"/static/generated/assets/advanced-math/ch154/q0020_prompt.png\"/>",
+      "prompt_html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{方程}y^{\\prime}=\\tan^{2}(x+y+1) \\text{的通解为（）}\">\\text{方程}y^{\\prime}=\\tan^{2}(x+y+1) \\text{的通解为（）}</span>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch154/q0020_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\, x + y + 1 + \\ln ( x + y + 1 ) = c\">\\, x + y + 1 + \\ln ( x + y + 1 ) = c</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch154/q0020_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\begin{aligned}2(x+y+1)+\\sin 2(x+y+1)=4x+C\\end{aligned}\">\\begin{aligned}2(x+y+1)+\\sin 2(x+y+1)=4x+C\\end{aligned}</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch154/q0020_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\begin{array}{l} { r } { x + y + 1 - \\tan ( x + y ) = c } \\end{array}\">\\begin{array}{l} { r } { x + y + 1 - \\tan ( x + y ) = c } \\end{array}</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch154/q0020_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"x + y + 1 = \\sin (x + c)\">x + y + 1 = \\sin (x + c)</span>"
         }
       ],
       "answer": "B",
       "answer_index": 1,
-      "analysis_html": "<img src=\"/static/generated/assets/advanced-math/ch154/q0020_analysis.png\"/>"
+      "analysis_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{aligned}&amp; \\text{设 } x+y+1=u \\text{ 则 } \\frac{dy}{dx}=\\frac{du}{dx}-1 \\\\&amp; \\text{代入 } \\frac{du}{dx}=\\sec^2 u, \\quad \\cos^2 u du=dx, \\quad \\frac{1+\\cos 2u}{2} du=dx \\, , \\\\&amp; \\text{积分 } u+\\frac{1}{2}\\sin 2u=2x+C, \\quad 2u+\\sin 2u=4x+C \\\\&amp; \\text{即 } \\ 2(x+y+1)+\\sin 2(x+y+1)=4x+C\\end{aligned}\">\\begin{aligned}&amp; \\text{设 } x+y+1=u \\text{ 则 } \\frac{dy}{dx}=\\frac{du}{dx}-1 \\\\&amp; \\text{代入 } \\frac{du}{dx}=\\sec^2 u, \\quad \\cos^2 u du=dx, \\quad \\frac{1+\\cos 2u}{2} du=dx \\, , \\\\&amp; \\text{积分 } u+\\frac{1}{2}\\sin 2u=2x+C, \\quad 2u+\\sin 2u=4x+C \\\\&amp; \\text{即 } \\ 2(x+y+1)+\\sin 2(x+y+1)=4x+C\\end{aligned}</div>"
     },
     {
       "id": "q0021",
       "number": 21,
       "header": "#21-Averge",
       "difficulty": "Averge",
-      "prompt_html": "<img src=\"/static/generated/assets/advanced-math/ch154/q0021_prompt.png\"/>",
+      "prompt_html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{微分方程} (y + \\sqrt { x ^ { 2 } + y ^ { 2 } } ) d x - x d y = 0 , y ( 1 ) = 0 \\text{的解是（）}\">\\text{微分方程} (y + \\sqrt { x ^ { 2 } + y ^ { 2 } } ) d x - x d y = 0 , y ( 1 ) = 0 \\text{的解是（）}</span>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch154/q0021_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\, y = x ^ { 3 } + 2 x y \\,\">\\, y = x ^ { 3 } + 2 x y \\,</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch154/q0021_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"y = \\frac{1}{2} (x^{2} - 1)\">y = \\frac{1}{2} (x^{2} - 1)</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch154/q0021_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\, y = \\arctan x + 2 \\,\">\\, y = \\arctan x + 2 \\,</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch154/q0021_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\displaystyle y = \\frac{1}{4} x^{4} + 1\">\\displaystyle y = \\frac{1}{4} x^{4} + 1</span>"
         }
       ],
       "answer": "B",
       "answer_index": 1,
-      "analysis_html": "<img src=\"/static/generated/assets/advanced-math/ch154/q0021_analysis.png\"/>"
+      "analysis_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{aligned}&amp; \\text{方程化为} \\frac{dy}{dx} = \\frac{y}{x} + \\sqrt{1 + \\left( \\frac{y}{x} \\right)^2} \\\\&amp; \\text{设} u = \\frac{y}{x}, \\text{有} \\frac{dy}{dx} = \\frac{dx}{x} \\\\&amp; \\text{积分得} u + \\sqrt{1 + u^2} = cx, \\text{由} y(1) = 0, c = 1 \\end{aligned}\">\\begin{aligned}&amp; \\text{方程化为} \\frac{dy}{dx} = \\frac{y}{x} + \\sqrt{1 + \\left( \\frac{y}{x} \\right)^2} \\\\&amp; \\text{设} u = \\frac{y}{x}, \\text{有} \\frac{dy}{dx} = \\frac{dx}{x} \\\\&amp; \\text{积分得} u + \\sqrt{1 + u^2} = cx, \\text{由} y(1) = 0, c = 1 \\end{aligned}</div>"
     },
     {
       "id": "q0022",
       "number": 22,
       "header": "#22-Averge",
       "difficulty": "Averge",
-      "prompt_html": "<img src=\"/static/generated/assets/advanced-math/ch154/q0022_prompt.png\"/>",
+      "prompt_html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{微分方程} \\frac{dx}{x^{2}-xy+y^{2}}= \\frac{dy}{2y^{2}-xy} \\text{的解是（）}\">\\text{微分方程} \\frac{dx}{x^{2}-xy+y^{2}}= \\frac{dy}{2y^{2}-xy} \\text{的解是（）}</span>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch154/q0022_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\, x ^ { 2 } + x y + y ^ { 3 } = c x \\,\">\\, x ^ { 2 } + x y + y ^ { 3 } = c x \\,</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch154/q0022_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"(y-x)^{2} = c \\ln (x+y)\">(y-x)^{2} = c \\ln (x+y)</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch154/q0022_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"(y-x)^{2}=cy(y-2x)^{3}\">(y-x)^{2}=cy(y-2x)^{3}</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch154/q0022_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"(x+y)^{3} = 2(y-x)^{3}\">(x+y)^{3} = 2(y-x)^{3}</span>"
         }
       ],
       "answer": "C",
       "answer_index": 2,
-      "analysis_html": "<img src=\"/static/generated/assets/advanced-math/ch154/q0022_analysis.png\"/>"
+      "analysis_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{aligned}&amp; \\text{方程化为} \\frac{dy}{dx} = \\frac{2(\\frac{y}{x})^2 - \\frac{y}{x}}{1 - \\frac{y}{x} + (\\frac{y}{x})^2} \\\\&amp; \\text{设} u = \\frac{y}{x}, \\text{有} y&#x27; = u + xu&#x27; \\\\&amp; \\left( \\frac{1}{u-1} - \\frac{3}{2} \\frac{1}{u-2} - \\frac{1}{2u} \\right) du = \\frac{dx}{x} \\\\&amp; \\text{则} \\quad \\frac{u-1}{\\sqrt{u(u-2)}^{\\frac{3}{2}}} = cx, \\text{代入} u = \\frac{y}{x} \\text{得}\\end{aligned}\">\\begin{aligned}&amp; \\text{方程化为} \\frac{dy}{dx} = \\frac{2(\\frac{y}{x})^2 - \\frac{y}{x}}{1 - \\frac{y}{x} + (\\frac{y}{x})^2} \\\\&amp; \\text{设} u = \\frac{y}{x}, \\text{有} y&#x27; = u + xu&#x27; \\\\&amp; \\left( \\frac{1}{u-1} - \\frac{3}{2} \\frac{1}{u-2} - \\frac{1}{2u} \\right) du = \\frac{dx}{x} \\\\&amp; \\text{则} \\quad \\frac{u-1}{\\sqrt{u(u-2)}^{\\frac{3}{2}}} = cx, \\text{代入} u = \\frac{y}{x} \\text{得}\\end{aligned}</div>"
     }
-  ]
+  ],
+  "format": "latex",
+  "source_md": "gs/10.2.2_齐次方程(22题)/10.2.2_齐次方程(22题).md"
 }

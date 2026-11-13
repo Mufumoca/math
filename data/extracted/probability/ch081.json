@@ -13,700 +13,702 @@
       "number": 1,
       "header": "#1-Averge",
       "difficulty": "Averge",
-      "prompt_html": "<img src=\"/static/generated/assets/probability/ch081/q0001_prompt.png\"/>",
+      "prompt_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{array}{l} \\text {设随机变量}X_{1},X_{2},\\ldots,X_{9}\\text {相互独立同分布，且}E(X_{i})=1,D(X_{i})=1(i=1,2,\\ldots,9). \\ \\text {令}X=\\sum_{i=1}^{9}X_{i}, \\ \\text {则对任意给定的} \\\\ \\varepsilon&gt;0, \\text {由切比雪夫不等式直接可得().} \\end{array}\">\\begin{array}{l} \\text {设随机变量}X_{1},X_{2},\\ldots,X_{9}\\text {相互独立同分布，且}E(X_{i})=1,D(X_{i})=1(i=1,2,\\ldots,9). \\ \\text {令}X=\\sum_{i=1}^{9}X_{i}, \\ \\text {则对任意给定的} \\\\ \\varepsilon&gt;0, \\text {由切比雪夫不等式直接可得().} \\end{array}</div>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/probability/ch081/q0001_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"P\\bigl\\{\\bigl|X{-}9\\bigr|&lt;\\varepsilon\\bigr\\}\\geq 1-{\\frac{9}{\\varepsilon^{2}}}\">P\\bigl\\{\\bigl|X{-}9\\bigr|&lt;\\varepsilon\\bigr\\}\\geq 1-{\\frac{9}{\\varepsilon^{2}}}</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/probability/ch081/q0001_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\begin{aligned}P\\{\\left|X-1\\right|&lt;\\varepsilon\\}\\geq 1-\\frac{1}{\\varepsilon^{2}}\\end{aligned}\">\\begin{aligned}P\\{\\left|X-1\\right|&lt;\\varepsilon\\}\\geq 1-\\frac{1}{\\varepsilon^{2}}\\end{aligned}</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/probability/ch081/q0001_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\begin{aligned}P\\{\\left|X-9\\right|&lt;\\varepsilon\\}\\geq 1-\\frac{1}{\\varepsilon^{2}}\\end{aligned}\">\\begin{aligned}P\\{\\left|X-9\\right|&lt;\\varepsilon\\}\\geq 1-\\frac{1}{\\varepsilon^{2}}\\end{aligned}</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/probability/ch081/q0001_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\begin{array}{l} { r } { P \\bigg \\{ \\bigg | \\frac { 1 } { 9 } X - 1 \\bigg | &lt; \\varepsilon \\bigg \\} \\geq 1 - \\frac { 1 } { \\varepsilon ^ { 2 } } } \\end{array}\">\\begin{array}{l} { r } { P \\bigg \\{ \\bigg | \\frac { 1 } { 9 } X - 1 \\bigg | &lt; \\varepsilon \\bigg \\} \\geq 1 - \\frac { 1 } { \\varepsilon ^ { 2 } } } \\end{array}</span>"
         }
       ],
       "answer": "A",
       "answer_index": 0,
-      "analysis_html": "<img src=\"/static/generated/assets/probability/ch081/q0001_analysis.png\"/>"
+      "analysis_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{aligned}&amp;\\text{切比雪夫不等式指出：如果随机变量 }X \\text{ 满足 }E(X)=\\mu \\text{ 与 }D(X)=\\sigma^2 \\text{ 都存在，} \\\\&amp;\\text{则对任意给定的 } \\varepsilon&gt;0,\\text{ 有 }\\\\&amp;P\\{ |X-\\mu| \\geq \\varepsilon \\}\\leq \\frac{\\sigma^2}{\\varepsilon^2} \\text{ 或者 } \\ P\\{ |X-\\mu|&lt;\\varepsilon \\}\\geq 1-\\frac{\\sigma^2}{\\varepsilon^2}.\\\\&amp;\\text{由于随机变量 }X_1,X_2,...,X_9 \\text{ 相互独立且同分布，而且有 }E(X_i)=1,D(X_i)=1(i=1,2,...,9)\\text{，所以} \\\\&amp;\\mu=E(X)=E\\left(\\sum_{i=1}^9 X_i\\right)=\\sum_{i=1}^9 E(X_i)=\\sum_{i=1}^91=9,\\\\&amp;\\sigma^2=D(X)=D\\left(\\sum_{i=1}^9 X_i\\right)=\\sum_{i=1}^9 D(X_i)=\\sum_{i=1}^91=9.\\\\&amp;\\text{故由切比雪夫不等式知， }P\\{ |X-9|&lt;\\varepsilon \\}\\geq 1-\\frac{9}{\\varepsilon^2}.\\end{aligned}\">\\begin{aligned}&amp;\\text{切比雪夫不等式指出：如果随机变量 }X \\text{ 满足 }E(X)=\\mu \\text{ 与 }D(X)=\\sigma^2 \\text{ 都存在，} \\\\&amp;\\text{则对任意给定的 } \\varepsilon&gt;0,\\text{ 有 }\\\\&amp;P\\{ |X-\\mu| \\geq \\varepsilon \\}\\leq \\frac{\\sigma^2}{\\varepsilon^2} \\text{ 或者 } \\ P\\{ |X-\\mu|&lt;\\varepsilon \\}\\geq 1-\\frac{\\sigma^2}{\\varepsilon^2}.\\\\&amp;\\text{由于随机变量 }X_1,X_2,...,X_9 \\text{ 相互独立且同分布，而且有 }E(X_i)=1,D(X_i)=1(i=1,2,...,9)\\text{，所以} \\\\&amp;\\mu=E(X)=E\\left(\\sum_{i=1}^9 X_i\\right)=\\sum_{i=1}^9 E(X_i)=\\sum_{i=1}^91=9,\\\\&amp;\\sigma^2=D(X)=D\\left(\\sum_{i=1}^9 X_i\\right)=\\sum_{i=1}^9 D(X_i)=\\sum_{i=1}^91=9.\\\\&amp;\\text{故由切比雪夫不等式知， }P\\{ |X-9|&lt;\\varepsilon \\}\\geq 1-\\frac{9}{\\varepsilon^2}.\\end{aligned}</div>"
     },
     {
       "id": "q0002",
       "number": 2,
       "header": "#2-Averge",
       "difficulty": "Averge",
-      "prompt_html": "<img src=\"/static/generated/assets/probability/ch081/q0002_prompt.png\"/>",
+      "prompt_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{array}{l} \\text {设随机变量} X \\text {和} Y \\text {的数学期望分别为} -2 \\text {和} 2, \\text {方差分别为} 1 \\text {和} 4, \\text {相关系数为} -0.5, \\text {则根据切比雪夫不等式有} \\\\ P \\left\\{ | X + Y | \\geq 6 \\right\\} \\leq (\\quad). \\end{array}\">\\begin{array}{l} \\text {设随机变量} X \\text {和} Y \\text {的数学期望分别为} -2 \\text {和} 2, \\text {方差分别为} 1 \\text {和} 4, \\text {相关系数为} -0.5, \\text {则根据切比雪夫不等式有} \\\\ P \\left\\{ | X + Y | \\geq 6 \\right\\} \\leq (\\quad). \\end{array}</div>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/probability/ch081/q0002_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\frac { 1 } { 12 }\">\\frac { 1 } { 12 }</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/probability/ch081/q0002_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\frac { 1 } { 6 }\">\\frac { 1 } { 6 }</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/probability/ch081/q0002_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\frac { 1 } { 24 }\">\\frac { 1 } { 24 }</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/probability/ch081/q0002_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\frac { 1 } { 36 }\">\\frac { 1 } { 36 }</span>"
         }
       ],
       "answer": "A",
       "answer_index": 0,
-      "analysis_html": "<img src=\"/static/generated/assets/probability/ch081/q0002_analysis.png\"/>"
+      "analysis_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{aligned}E(X+Y) &amp;= E(X) + E(Y) = -2 + 2 = 0 \\,, \\\\\\rho_{XY} &amp;= \\frac{\\mathrm{cov}(X,Y)}{\\sqrt{D(X)\\sqrt{D(Y)}}} = -0.5 \\Rightarrow \\mathrm{cov}(X,Y) = -1 \\,, \\\\D(X+Y) &amp;= D(X) + D(Y) + 2 \\mathrm{cov}(X,Y) = 3 \\,, \\end{aligned}\\text{根据切比雷夫不等式} P\\{|X-E(X)| \\geq \\epsilon\\} \\leq \\frac{D(X)}{\\epsilon^2}，\\text{有}\\begin{aligned}P\\Bigl\\{|X+Y| \\geq 6\\Bigr\\} &amp;= P\\{ |X+Y)-0| \\geq 6 \\} \\\\&amp;\\leq \\frac{D(X+Y)}{6^2} = \\frac{3}{36} = \\frac{1}{12} \\,.\\end{aligned}\">\\begin{aligned}E(X+Y) &amp;= E(X) + E(Y) = -2 + 2 = 0 \\,, \\\\\\rho_{XY} &amp;= \\frac{\\mathrm{cov}(X,Y)}{\\sqrt{D(X)\\sqrt{D(Y)}}} = -0.5 \\Rightarrow \\mathrm{cov}(X,Y) = -1 \\,, \\\\D(X+Y) &amp;= D(X) + D(Y) + 2 \\mathrm{cov}(X,Y) = 3 \\,, \\end{aligned}\\text{根据切比雷夫不等式} P\\{|X-E(X)| \\geq \\epsilon\\} \\leq \\frac{D(X)}{\\epsilon^2}，\\text{有}\\begin{aligned}P\\Bigl\\{|X+Y| \\geq 6\\Bigr\\} &amp;= P\\{ |X+Y)-0| \\geq 6 \\} \\\\&amp;\\leq \\frac{D(X+Y)}{6^2} = \\frac{3}{36} = \\frac{1}{12} \\,.\\end{aligned}</div>"
     },
     {
       "id": "q0003",
       "number": 3,
       "header": "#3-Averge",
       "difficulty": "Averge",
-      "prompt_html": "<img src=\"/static/generated/assets/probability/ch081/q0003_prompt.png\"/>",
+      "prompt_html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{在每次试验中，事件}A \\text{发生的概率等于}0.5\\text{．利用切比雪夫不等式估计：在}1000\\text{次试验中，事件}A\\text{发生次数在}400\\text{次至}600\\text{次之间的概率至少是}()\\text{．}\">\\text{在每次试验中，事件}A \\text{发生的概率等于}0.5\\text{．利用切比雪夫不等式估计：在}1000\\text{次试验中，事件}A\\text{发生次数在}400\\text{次至}600\\text{次之间的概率至少是}()\\text{．}</span>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/probability/ch081/q0003_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"0.975\">0.975</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/probability/ch081/q0003_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"0.675\">0.675</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/probability/ch081/q0003_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"0.645\">0.645</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/probability/ch081/q0003_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"0.795\">0.795</span>"
         }
       ],
       "answer": "A",
       "answer_index": 0,
-      "analysis_html": "<img src=\"/static/generated/assets/probability/ch081/q0003_analysis.png\"/>"
+      "analysis_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{aligned}P\\{400&lt;m&lt;600\\}&amp;=P\\{0.4&lt;\\frac{m}{n}&lt;0.6\\}=P\\left\\{\\left|\\frac{m}{n}-0.5\\right|&lt;0.1\\right\\}\\\\&amp;\\geq 1-\\frac{1}{4\\times 1000\\times 0.01}=1-\\frac{1}{40}=\\frac{39}{40}=0.975\\;.\\end{aligned}\">\\begin{aligned}P\\{400&lt;m&lt;600\\}&amp;=P\\{0.4&lt;\\frac{m}{n}&lt;0.6\\}=P\\left\\{\\left|\\frac{m}{n}-0.5\\right|&lt;0.1\\right\\}\\\\&amp;\\geq 1-\\frac{1}{4\\times 1000\\times 0.01}=1-\\frac{1}{40}=\\frac{39}{40}=0.975\\;.\\end{aligned}</div>"
     },
     {
       "id": "q0004",
       "number": 4,
       "header": "#4-Averge",
       "difficulty": "Averge",
-      "prompt_html": "<img src=\"/static/generated/assets/probability/ch081/q0004_prompt.png\"/>",
+      "prompt_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\text{设随机变量} \\, \\chi \\text{的概率密度为} \\, f(x) = \\begin{cases} 2x, \\ 0 &lt; x &lt; 1 \\\\ 0, \\ \\text{其它} \\end{cases}, \\quad \\text{则} \\, P\\{ |X - E(X)| \\geq 2\\sqrt{D(X)} = (\\ ) \\, .\">\\text{设随机变量} \\, \\chi \\text{的概率密度为} \\, f(x) = \\begin{cases} 2x, \\ 0 &lt; x &lt; 1 \\\\ 0, \\ \\text{其它} \\end{cases}, \\quad \\text{则} \\, P\\{ |X - E(X)| \\geq 2\\sqrt{D(X)} = (\\ ) \\, .</div>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/probability/ch081/q0004_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\frac { 6 - 4 \\sqrt { 2 } } { 9 }\">\\frac { 6 - 4 \\sqrt { 2 } } { 9 }</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/probability/ch081/q0004_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\frac { 9 - 8 \\sqrt { 2 } } { 9 }\">\\frac { 9 - 8 \\sqrt { 2 } } { 9 }</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/probability/ch081/q0004_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\frac { 6 + 4 \\sqrt { 2 } } { 9 }\">\\frac { 6 + 4 \\sqrt { 2 } } { 9 }</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/probability/ch081/q0004_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\frac { 9 + 8 \\sqrt { 2 } } { 9 }\">\\frac { 9 + 8 \\sqrt { 2 } } { 9 }</span>"
         }
       ],
       "answer": "A",
       "answer_index": 0,
-      "analysis_html": "<img src=\"/static/generated/assets/probability/ch081/q0004_analysis.png\"/>"
+      "analysis_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{aligned} \\text{由 } E(X) = &amp; \\int_0^1 x^2 x dx = \\frac{2}{3}, \\ E(X^2) = \\int_0^1 x^2 \\cdot 2x dx = \\frac{1}{2}, \\text{得 } D(X) = E(X^2) - [E(X)]^2 = \\frac{1}{18}. \\\\ P\\bigl\\{|X-E(X)| \\geq 2\\sqrt{D(X)}\\bigr\\} = &amp; \\, 1-P\\bigl\\{|X-E(X)| &lt; 2\\sqrt{D(X)}\\bigr\\} \\\\&amp; = 1-P\\{ |X-\\frac{2}{3}| &lt; \\frac{\\sqrt{2}}{3}\\} = 1-\\int_{\\frac{2-\\sqrt{2}}{3}}^{\\frac{2+\\sqrt{2}}{3}} f(x) dx \\\\&amp; = 1-\\int_{\\frac{2-\\sqrt{2}}{3}}^12x dx = \\frac{6-4\\sqrt{2}}{9}. \\end{aligned}\">\\begin{aligned} \\text{由 } E(X) = &amp; \\int_0^1 x^2 x dx = \\frac{2}{3}, \\ E(X^2) = \\int_0^1 x^2 \\cdot 2x dx = \\frac{1}{2}, \\text{得 } D(X) = E(X^2) - [E(X)]^2 = \\frac{1}{18}. \\\\ P\\bigl\\{|X-E(X)| \\geq 2\\sqrt{D(X)}\\bigr\\} = &amp; \\, 1-P\\bigl\\{|X-E(X)| &lt; 2\\sqrt{D(X)}\\bigr\\} \\\\&amp; = 1-P\\{ |X-\\frac{2}{3}| &lt; \\frac{\\sqrt{2}}{3}\\} = 1-\\int_{\\frac{2-\\sqrt{2}}{3}}^{\\frac{2+\\sqrt{2}}{3}} f(x) dx \\\\&amp; = 1-\\int_{\\frac{2-\\sqrt{2}}{3}}^12x dx = \\frac{6-4\\sqrt{2}}{9}. \\end{aligned}</div>"
     },
     {
       "id": "q0005",
       "number": 5,
       "header": "#5-Easy",
       "difficulty": "Easy",
-      "prompt_html": "<img src=\"/static/generated/assets/probability/ch081/q0005_prompt.png\"/>",
+      "prompt_html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{设随机变量} \\xi \\text{的期望} E(\\xi) \\text{存在，方差} D(\\xi) = \\frac{5}{2}\\text{，用切比雪夫不等式，估计概率} P\\{|\\xi - E(\\xi)| \\geq \\frac{15}{2}\\} \\leq (\\cdot).\">\\text{设随机变量} \\xi \\text{的期望} E(\\xi) \\text{存在，方差} D(\\xi) = \\frac{5}{2}\\text{，用切比雪夫不等式，估计概率} P\\{|\\xi - E(\\xi)| \\geq \\frac{15}{2}\\} \\leq (\\cdot).</span>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/probability/ch081/q0005_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\frac { 2 } { 45 }\">\\frac { 2 } { 45 }</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/probability/ch081/q0005_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\frac { 2 } { 15 }\">\\frac { 2 } { 15 }</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/probability/ch081/q0005_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\frac { 1 } { 15 }\">\\frac { 1 } { 15 }</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/probability/ch081/q0005_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\frac { 1 } { 45 }\">\\frac { 1 } { 45 }</span>"
         }
       ],
       "answer": "A",
       "answer_index": 0,
-      "analysis_html": "<img src=\"/static/generated/assets/probability/ch081/q0005_analysis.png\"/>"
+      "analysis_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{aligned}&amp;\\text{根据切比雪夫不等式} \\qquad \\qquad \\qquad P\\{X-\\mu|&gt;\\varepsilon\\}\\leq \\frac{\\sigma^2}{\\varepsilon^3}\\,,\\\\&amp;\\text{于是有} \\qquad \\qquad \\qquad P\\{|\\xi-E(\\xi)|\\geq \\frac{15}{2}\\}\\leq \\frac{5/2}{\\left[15/2\\right]^2}=\\frac{2}{45}\\,.\\end{aligned}\">\\begin{aligned}&amp;\\text{根据切比雪夫不等式} \\qquad \\qquad \\qquad P\\{X-\\mu|&gt;\\varepsilon\\}\\leq \\frac{\\sigma^2}{\\varepsilon^3}\\,,\\\\&amp;\\text{于是有} \\qquad \\qquad \\qquad P\\{|\\xi-E(\\xi)|\\geq \\frac{15}{2}\\}\\leq \\frac{5/2}{\\left[15/2\\right]^2}=\\frac{2}{45}\\,.\\end{aligned}</div>"
     },
     {
       "id": "q0006",
       "number": 6,
       "header": "#6-Easy",
       "difficulty": "Easy",
-      "prompt_html": "<img src=\"/static/generated/assets/probability/ch081/q0006_prompt.png\"/>",
+      "prompt_html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{设随机变量}X\\text{的数学期望}E(X)=\\mu,\\text{方差}D(X)=\\sigma^{2},\\text{则由切比雪夫不等式，有}P\\{|X-\\mu|\\geq 3\\sigma\\}\\leq(\\text{}).\">\\text{设随机变量}X\\text{的数学期望}E(X)=\\mu,\\text{方差}D(X)=\\sigma^{2},\\text{则由切比雪夫不等式，有}P\\{|X-\\mu|\\geq 3\\sigma\\}\\leq(\\text{}).</span>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/probability/ch081/q0006_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\frac { 1 } { 9 }\">\\frac { 1 } { 9 }</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/probability/ch081/q0006_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\frac { 1 } { 3 }\">\\frac { 1 } { 3 }</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/probability/ch081/q0006_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\frac { 1 } { 6 }\">\\frac { 1 } { 6 }</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/probability/ch081/q0006_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\frac {1}{27}\">\\frac {1}{27}</span>"
         }
       ],
       "answer": "A",
       "answer_index": 0,
-      "analysis_html": "<img src=\"/static/generated/assets/probability/ch081/q0006_analysis.png\"/>"
+      "analysis_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{aligned}\\text{切比雪夫不等式指出，如果随机变量}\\lambda \\text{满足：} \\ E(\\lambda)=\\mu,\\ D(\\lambda)=\\sigma^{2}, \\text{则对于任意给定的}\\varepsilon&gt;0,\\ \\text{有} \\\\P\\{ |X-\\mu|\\geq\\varepsilon\\} \\leq \\frac{\\sigma^{2}}{\\varepsilon^{2}}\\cdot \\text{因此} P\\{ |X-\\mu|\\geq 3\\sigma\\} \\leq \\frac{\\sigma^{2}}{(3\\sigma)^{2}}=\\frac{1}{9}\\,.\\end{aligned}\">\\begin{aligned}\\text{切比雪夫不等式指出，如果随机变量}\\lambda \\text{满足：} \\ E(\\lambda)=\\mu,\\ D(\\lambda)=\\sigma^{2}, \\text{则对于任意给定的}\\varepsilon&gt;0,\\ \\text{有} \\\\P\\{ |X-\\mu|\\geq\\varepsilon\\} \\leq \\frac{\\sigma^{2}}{\\varepsilon^{2}}\\cdot \\text{因此} P\\{ |X-\\mu|\\geq 3\\sigma\\} \\leq \\frac{\\sigma^{2}}{(3\\sigma)^{2}}=\\frac{1}{9}\\,.\\end{aligned}</div>"
     },
     {
       "id": "q0007",
       "number": 7,
       "header": "#7-Easy",
       "difficulty": "Easy",
-      "prompt_html": "<img src=\"/static/generated/assets/probability/ch081/q0007_prompt.png\"/>",
+      "prompt_html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{设随机变量}\\xi \\text{的数学期望}E(\\xi)=\\mu,\\text{方差}D(\\xi)=\\sigma^{2},\\text{试利用切比雪夫不等式估计}P\\bigl\\{\\bigl|\\xi-\\mu\\bigr|&lt;4\\sigma\\bigr\\}\\geq( ).\">\\text{设随机变量}\\xi \\text{的数学期望}E(\\xi)=\\mu,\\text{方差}D(\\xi)=\\sigma^{2},\\text{试利用切比雪夫不等式估计}P\\bigl\\{\\bigl|\\xi-\\mu\\bigr|&lt;4\\sigma\\bigr\\}\\geq( ).</span>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/probability/ch081/q0007_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\frac { 15 } { 16 }\">\\frac { 15 } { 16 }</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/probability/ch081/q0007_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\frac { 8 } { 9 }\">\\frac { 8 } { 9 }</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/probability/ch081/q0007_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\frac { 9 } { 10 }\">\\frac { 9 } { 10 }</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/probability/ch081/q0007_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\frac { 1 } { 10 }\">\\frac { 1 } { 10 }</span>"
         }
       ],
       "answer": "A",
       "answer_index": 0,
-      "analysis_html": "<img src=\"/static/generated/assets/probability/ch081/q0007_analysis.png\"/>"
+      "analysis_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{aligned}\\text{由切比雪夫不等式知}\\quad\\\\P\\bigl\\{\\bigl|\\xi-\\mu\\bigr|&lt;4\\sigma\\bigr\\}\\geq 1-\\frac{\\sigma^{2}}{\\left(4\\sigma\\right)^{2}}=\\frac{15}{16}\\,.\\end{aligned}\">\\begin{aligned}\\text{由切比雪夫不等式知}\\quad\\\\P\\bigl\\{\\bigl|\\xi-\\mu\\bigr|&lt;4\\sigma\\bigr\\}\\geq 1-\\frac{\\sigma^{2}}{\\left(4\\sigma\\right)^{2}}=\\frac{15}{16}\\,.\\end{aligned}</div>"
     },
     {
       "id": "q0008",
       "number": 8,
       "header": "#8-Averge",
       "difficulty": "Averge",
-      "prompt_html": "<img src=\"/static/generated/assets/probability/ch081/q0008_prompt.png\"/>",
+      "prompt_html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{设随机变量}X \\text{与}Y \\text{的数学期望分别为}-2 \\text{和}2, \\text{方差分别为}1 \\text{和}4, \\text{而相关系数为}0.25, \\text{根据切比雪夫不等式估计}P\\{|X+Y|\\geq 6\\} \\text{为}().\">\\text{设随机变量}X \\text{与}Y \\text{的数学期望分别为}-2 \\text{和}2, \\text{方差分别为}1 \\text{和}4, \\text{而相关系数为}0.25, \\text{根据切比雪夫不等式估计}P\\{|X+Y|\\geq 6\\} \\text{为}().</span>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/probability/ch081/q0008_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\leq \\frac { 1 } { 6 }\">\\leq \\frac { 1 } { 6 }</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/probability/ch081/q0008_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\leq { \\frac { 1 } { 12 } }\">\\leq { \\frac { 1 } { 12 } }</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/probability/ch081/q0008_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\geq { \\frac { 1 } { 12 } }\">\\geq { \\frac { 1 } { 12 } }</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/probability/ch081/q0008_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\geq { \\frac { 1 } { 6 } }\">\\geq { \\frac { 1 } { 6 } }</span>"
         }
       ],
       "answer": "A",
       "answer_index": 0,
-      "analysis_html": "<img src=\"/static/generated/assets/probability/ch081/q0008_analysis.png\"/>"
+      "analysis_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{aligned}&amp;E(X)=-2,\\;\\;E(Y)=2,\\\\&amp;D(X)=1,\\;\\;D(Y)=4,\\;\\;\\rho_{X,Y}=0.25,\\\\&amp;\\therefore\\;\\;\\;E(X+Y)=E(X)+E(Y)=0,\\\\&amp;D(X+Y)=D(X)+D(Y)+2\\rho_{X,Y}\\sqrt{D(X)\\sqrt{D(Y)}}=1+4+2\\times 0.25\\times 1\\times 2=6,\\\\&amp;\\therefore\\;\\;P\\{|X+Y|\\geq 6\\}\\leq \\frac{6}{6^2}=\\frac{1}{6}.\\end{aligned}\">\\begin{aligned}&amp;E(X)=-2,\\;\\;E(Y)=2,\\\\&amp;D(X)=1,\\;\\;D(Y)=4,\\;\\;\\rho_{X,Y}=0.25,\\\\&amp;\\therefore\\;\\;\\;E(X+Y)=E(X)+E(Y)=0,\\\\&amp;D(X+Y)=D(X)+D(Y)+2\\rho_{X,Y}\\sqrt{D(X)\\sqrt{D(Y)}}=1+4+2\\times 0.25\\times 1\\times 2=6,\\\\&amp;\\therefore\\;\\;P\\{|X+Y|\\geq 6\\}\\leq \\frac{6}{6^2}=\\frac{1}{6}.\\end{aligned}</div>"
     },
     {
       "id": "q0009",
       "number": 9,
       "header": "#9-Hard",
       "difficulty": "Hard",
-      "prompt_html": "<img src=\"/static/generated/assets/probability/ch081/q0009_prompt.png\"/>",
+      "prompt_html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{在每次试验中，事件}A \\text{发生的概率为}0.75，\\text{利用切比雪夫不等式},\\text{若事件}A \\text{出现的频率在}0.74\\sim 0.76 \\text{之间的概率至少为}0.90，\\text{则独立试验次数}n \\text{最小取值为}(\\text{}).\">\\text{在每次试验中，事件}A \\text{发生的概率为}0.75，\\text{利用切比雪夫不等式},\\text{若事件}A \\text{出现的频率在}0.74\\sim 0.76 \\text{之间的概率至少为}0.90，\\text{则独立试验次数}n \\text{最小取值为}(\\text{}).</span>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/probability/ch081/q0009_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"18750\">18750</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/probability/ch081/q0009_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"1875\">1875</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/probability/ch081/q0009_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"186\">186</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/probability/ch081/q0009_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"19\">19</span>"
         }
       ],
       "answer": "A",
       "answer_index": 0,
-      "analysis_html": "<img src=\"/static/generated/assets/probability/ch081/q0009_analysis.png\"/>"
+      "analysis_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{aligned} \\text{设 } \\lambda \\text{ 为 } n \\text{ 次试验中，事件 } A \\text{ 发生的次数，则} &amp; \\quad X \\sim b(n,0.75) \\\\ &amp; \\mu=0.75n, \\ \\sigma^2=0.75 \\times 0.25n=0.1875n, \\\\ \\text{所求为满足 } P\\{0.74 &lt; X/n &lt; 0.76\\} \\geq 0.90 \\text{ 的最小的 } n. \\ P\\{0.74 &lt; X/n &lt; 0.76\\} \\text{ 可改写为} \\\\ &amp; \\quad P\\{0.74n &lt; X &lt; 0.76n\\} = P\\{-0.01n &lt; X-0.75n &lt; 0.01n\\} = P\\{|X-\\mu|&lt;0.01n\\} \\\\ \\text{在切比雪夫不等式中取 } \\varepsilon=0.01n, \\text{ 则} &amp; \\quad P\\{0.74 &lt; X/n &lt; 0.76\\} = P\\{|X-\\mu|&lt;0.01n\\} \\geq 1-\\sigma^2/(0.01n)^2 \\\\ &amp; \\quad=1-0.1875n/0.0001n^2=1-1875/n \\\\ \\text{依题意，取 } n \\text{ 使 } 1-1875/n \\geq 0.9, \\text{ 解得} &amp; \\quad n \\geq 1875/(1-0.9)=18750, \\\\ \\text{即 } n \\text{ 取 } 18750 \\text{ 时，可以使得在 } n \\text{ 次独立重复试验中，事件 } A \\text{ 出现的频率在 } 0.74 \\sim 0.76 \\text{ 之间的概率至少为 } 0.90. \\end{aligned}\">\\begin{aligned} \\text{设 } \\lambda \\text{ 为 } n \\text{ 次试验中，事件 } A \\text{ 发生的次数，则} &amp; \\quad X \\sim b(n,0.75) \\\\ &amp; \\mu=0.75n, \\ \\sigma^2=0.75 \\times 0.25n=0.1875n, \\\\ \\text{所求为满足 } P\\{0.74 &lt; X/n &lt; 0.76\\} \\geq 0.90 \\text{ 的最小的 } n. \\ P\\{0.74 &lt; X/n &lt; 0.76\\} \\text{ 可改写为} \\\\ &amp; \\quad P\\{0.74n &lt; X &lt; 0.76n\\} = P\\{-0.01n &lt; X-0.75n &lt; 0.01n\\} = P\\{|X-\\mu|&lt;0.01n\\} \\\\ \\text{在切比雪夫不等式中取 } \\varepsilon=0.01n, \\text{ 则} &amp; \\quad P\\{0.74 &lt; X/n &lt; 0.76\\} = P\\{|X-\\mu|&lt;0.01n\\} \\geq 1-\\sigma^2/(0.01n)^2 \\\\ &amp; \\quad=1-0.1875n/0.0001n^2=1-1875/n \\\\ \\text{依题意，取 } n \\text{ 使 } 1-1875/n \\geq 0.9, \\text{ 解得} &amp; \\quad n \\geq 1875/(1-0.9)=18750, \\\\ \\text{即 } n \\text{ 取 } 18750 \\text{ 时，可以使得在 } n \\text{ 次独立重复试验中，事件 } A \\text{ 出现的频率在 } 0.74 \\sim 0.76 \\text{ 之间的概率至少为 } 0.90. \\end{aligned}</div>"
     },
     {
       "id": "q0010",
       "number": 10,
       "header": "#10-Averge",
       "difficulty": "Averge",
-      "prompt_html": "<img src=\"/static/generated/assets/probability/ch081/q0010_prompt.png\"/>",
+      "prompt_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{array}{l} \\text{设每次射击击中目标的概率为} 0.001, \\text{如果射击} 5000 \\text{次，其中击中的次数为} \\xi, \\text{试用切比雪夫不等式确定概率} \\\\ P\\{0&lt;\\xi&lt;10\\}\\approx(\\ ). \\end{array}\">\\begin{array}{l} \\text{设每次射击击中目标的概率为} 0.001, \\text{如果射击} 5000 \\text{次，其中击中的次数为} \\xi, \\text{试用切比雪夫不等式确定概率} \\\\ P\\{0&lt;\\xi&lt;10\\}\\approx(\\ ). \\end{array}</div>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/probability/ch081/q0010_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"0.8\">0.8</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/probability/ch081/q0010_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"0.5\">0.5</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/probability/ch081/q0010_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"0.6\">0.6</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/probability/ch081/q0010_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"0.7\">0.7</span>"
         }
       ],
       "answer": "A",
       "answer_index": 0,
-      "analysis_html": "<img src=\"/static/generated/assets/probability/ch081/q0010_analysis.png\"/>"
+      "analysis_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{aligned}&amp;\\text{由题意知，}\\xi\\sim B(5000,0.001)\\,,\\,\\,\\text{则}\\\\&amp;\\quad \\end{aligned}\">\\begin{aligned}&amp;\\text{由题意知，}\\xi\\sim B(5000,0.001)\\,,\\,\\,\\text{则}\\\\&amp;\\quad \\end{aligned}</div>"
     },
     {
       "id": "q0011",
       "number": 11,
       "header": "#11-Easy",
       "difficulty": "Easy",
-      "prompt_html": "<img src=\"/static/generated/assets/probability/ch081/q0011_prompt.png\"/>",
+      "prompt_html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{设随机变量}X\\text{的方差}D(X)&lt;+\\infty,\\ a\\text{为正常数，则}P\\left\\{\\frac{|X-E(X)|}{a}\\geq 1\\right\\}\\leq(\\ ).\">\\text{设随机变量}X\\text{的方差}D(X)&lt;+\\infty,\\ a\\text{为正常数，则}P\\left\\{\\frac{|X-E(X)|}{a}\\geq 1\\right\\}\\leq(\\ ).</span>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/probability/ch081/q0011_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\frac {D (X)}{a ^ {2}}\">\\frac {D (X)}{a ^ {2}}</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/probability/ch081/q0011_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"D(X)\">D(X)</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/probability/ch081/q0011_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"1 - D (X)\">1 - D (X)</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/probability/ch081/q0011_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\displaystyle 1 - \\frac { D ( X ) } { a ^ { 2 } }\">\\displaystyle 1 - \\frac { D ( X ) } { a ^ { 2 } }</span>"
         }
       ],
       "answer": "A",
       "answer_index": 0,
-      "analysis_html": "<img src=\"/static/generated/assets/probability/ch081/q0011_analysis.png\"/>"
+      "analysis_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{array}{l}\\text{由切比雪夫不等式}P\\bigg\\{\\frac{\\big|X-E(X)\\big|}{a}\\geq 1\\bigg\\}=P\\Big\\{\\big|X-E(X)\\big|\\geq a\\Big\\}\\leq \\frac{D(X)}{a^{2}}\\,.\\end{array}\">\\begin{array}{l}\\text{由切比雪夫不等式}P\\bigg\\{\\frac{\\big|X-E(X)\\big|}{a}\\geq 1\\bigg\\}=P\\Big\\{\\big|X-E(X)\\big|\\geq a\\Big\\}\\leq \\frac{D(X)}{a^{2}}\\,.\\end{array}</div>"
     },
     {
       "id": "q0012",
       "number": 12,
       "header": "#12-Averge",
       "difficulty": "Averge",
-      "prompt_html": "<img src=\"/static/generated/assets/probability/ch081/q0012_prompt.png\"/>",
+      "prompt_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{array}{l} \\text{设}\\,\\xi_{1},\\xi_{2},...,\\xi_{9}\\text{独立同分布，}\\ E(\\xi_{i})=1,D(\\xi_{i})=1(i=1,2,...,9)\\,,\\text{则对于任意给定的正数}\\varepsilon&gt;0\\,,\\text{有( ).} \\end{array}\">\\begin{array}{l} \\text{设}\\,\\xi_{1},\\xi_{2},...,\\xi_{9}\\text{独立同分布，}\\ E(\\xi_{i})=1,D(\\xi_{i})=1(i=1,2,...,9)\\,,\\text{则对于任意给定的正数}\\varepsilon&gt;0\\,,\\text{有( ).} \\end{array}</div>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/probability/ch081/q0012_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\begin{aligned}P\\biggl\\{\\biggl|\\sum_{i=1}^{9}\\xi_{i}-9\\biggr|&lt;\\varepsilon\\biggr\\}\\geq 1-\\frac{9}{\\varepsilon^{2}}\\end{aligned}\">\\begin{aligned}P\\biggl\\{\\biggl|\\sum_{i=1}^{9}\\xi_{i}-9\\biggr|&lt;\\varepsilon\\biggr\\}\\geq 1-\\frac{9}{\\varepsilon^{2}}\\end{aligned}</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/probability/ch081/q0012_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\begin{aligned}P\\biggl\\{\\biggl|\\sum_{i=1}^{9}\\xi_{i}-1\\biggr|&lt;\\varepsilon\\biggr\\}\\geq 1-\\frac{1}{\\varepsilon^{2}}\\end{aligned}\">\\begin{aligned}P\\biggl\\{\\biggl|\\sum_{i=1}^{9}\\xi_{i}-1\\biggr|&lt;\\varepsilon\\biggr\\}\\geq 1-\\frac{1}{\\varepsilon^{2}}\\end{aligned}</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/probability/ch081/q0012_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\begin{aligned}P\\bigg\\{\\bigg|\\frac{1}{9}\\sum_{i=1}^{9}\\xi_{i}-1\\bigg|&lt;\\varepsilon\\bigg\\}\\geq 1-\\frac{1}{\\varepsilon^{2}}\\end{aligned}\">\\begin{aligned}P\\bigg\\{\\bigg|\\frac{1}{9}\\sum_{i=1}^{9}\\xi_{i}-1\\bigg|&lt;\\varepsilon\\bigg\\}\\geq 1-\\frac{1}{\\varepsilon^{2}}\\end{aligned}</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/probability/ch081/q0012_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\begin{aligned}P\\biggl\\{\\biggl|\\sum_{i=1}^{9}\\xi_{i}-9\\biggr|&lt;\\varepsilon\\biggr\\}\\geq 1-\\frac{1}{\\varepsilon^{2}}\\end{aligned}\">\\begin{aligned}P\\biggl\\{\\biggl|\\sum_{i=1}^{9}\\xi_{i}-9\\biggr|&lt;\\varepsilon\\biggr\\}\\geq 1-\\frac{1}{\\varepsilon^{2}}\\end{aligned}</span>"
         }
       ],
       "answer": "A",
       "answer_index": 0,
-      "analysis_html": "<img src=\"/static/generated/assets/probability/ch081/q0012_analysis.png\"/>"
+      "analysis_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{aligned}&amp;\\text{由题意知，} \\ E\\left(\\sum_{i=1}^{9}\\xi_{i}\\right)=\\sum_{i=1}^{9}E(\\xi_{i})=9,\\ D\\left(\\sum_{i=1}^{9}\\xi_{i}\\right)=\\sum_{i=1}^{9}D(\\xi_{i})=9.\\ \\\\&amp;\\text{由切比雪夫不等式知，} \\ P\\left\\{\\left|\\sum_{i=1}^{9}\\xi_{i}-9\\right|&lt;\\varepsilon\\right\\}\\geq 1-\\frac{9}{\\varepsilon^{2}}.\\end{aligned}\">\\begin{aligned}&amp;\\text{由题意知，} \\ E\\left(\\sum_{i=1}^{9}\\xi_{i}\\right)=\\sum_{i=1}^{9}E(\\xi_{i})=9,\\ D\\left(\\sum_{i=1}^{9}\\xi_{i}\\right)=\\sum_{i=1}^{9}D(\\xi_{i})=9.\\ \\\\&amp;\\text{由切比雪夫不等式知，} \\ P\\left\\{\\left|\\sum_{i=1}^{9}\\xi_{i}-9\\right|&lt;\\varepsilon\\right\\}\\geq 1-\\frac{9}{\\varepsilon^{2}}.\\end{aligned}</div>"
     },
     {
       "id": "q0013",
       "number": 13,
       "header": "#13-Easy",
       "difficulty": "Easy",
-      "prompt_html": "<img src=\"/static/generated/assets/probability/ch081/q0013_prompt.png\"/>",
+      "prompt_html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{随机变量}X\\text{的}E(X)=\\mu,\\,D(X)=\\sigma^{2},\\text{用切比雪夫不等式估计，有}P\\{\\left|X-\\mu\\right|&lt;k\\sigma\\}\\geq(\\,).\">\\text{随机变量}X\\text{的}E(X)=\\mu,\\,D(X)=\\sigma^{2},\\text{用切比雪夫不等式估计，有}P\\{\\left|X-\\mu\\right|&lt;k\\sigma\\}\\geq(\\,).</span>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/probability/ch081/q0013_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"1 - \\frac { 1 } { k ^ { 2 } }\">1 - \\frac { 1 } { k ^ { 2 } }</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/probability/ch081/q0013_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\frac { \\sigma ^ { 2 } } { k ^ { 2 } }\">\\frac { \\sigma ^ { 2 } } { k ^ { 2 } }</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/probability/ch081/q0013_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\displaystyle 1 - \\frac { \\sigma ^ { 2 } } { k ^ { 2 } }\">\\displaystyle 1 - \\frac { \\sigma ^ { 2 } } { k ^ { 2 } }</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/probability/ch081/q0013_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\frac { 1 } { k ^ { 2 } }\">\\frac { 1 } { k ^ { 2 } }</span>"
         }
       ],
       "answer": "A",
       "answer_index": 0,
-      "analysis_html": "<img src=\"/static/generated/assets/probability/ch081/q0013_analysis.png\"/>"
+      "analysis_html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{取 } \\varepsilon = k \\sigma \\, , \\; \\; P \\{ \\left| X - \\mu \\right| &lt; k \\sigma \\} \\geq 1 - \\frac{ \\sigma ^{2} }{ k ^{2} \\sigma ^{2} } = 1 - \\frac{1}{k^{2}} \\; .\">\\text{取 } \\varepsilon = k \\sigma \\, , \\; \\; P \\{ \\left| X - \\mu \\right| &lt; k \\sigma \\} \\geq 1 - \\frac{ \\sigma ^{2} }{ k ^{2} \\sigma ^{2} } = 1 - \\frac{1}{k^{2}} \\; .</span>"
     },
     {
       "id": "q0014",
       "number": 14,
       "header": "#14-Averge",
       "difficulty": "Averge",
-      "prompt_html": "<img src=\"/static/generated/assets/probability/ch081/q0014_prompt.png\"/>",
+      "prompt_html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{设} \\,\\xi_{1},\\xi_{2},\\cdots,\\xi_{n}\\text{服从同一分布，且相互独立，它们的数学期望和方差均是}2,\\text{则}P\\left\\{0&lt;\\sum_{i=1}^{n}\\xi_{i}&lt;4n\\right\\}\\geq(\\text{}).\">\\text{设} \\,\\xi_{1},\\xi_{2},\\cdots,\\xi_{n}\\text{服从同一分布，且相互独立，它们的数学期望和方差均是}2,\\text{则}P\\left\\{0&lt;\\sum_{i=1}^{n}\\xi_{i}&lt;4n\\right\\}\\geq(\\text{}).</span>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/probability/ch081/q0014_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\frac { 2 n - 1 } { 2 n }\">\\frac { 2 n - 1 } { 2 n }</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/probability/ch081/q0014_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\frac { 1 } { 2 }\">\\frac { 1 } { 2 }</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/probability/ch081/q0014_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\frac { 1 } { 2 n }\">\\frac { 1 } { 2 n }</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/probability/ch081/q0014_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\frac { 1 } { n }\">\\frac { 1 } { n }</span>"
         }
       ],
       "answer": "A",
       "answer_index": 0,
-      "analysis_html": "<img src=\"/static/generated/assets/probability/ch081/q0014_analysis.png\"/>"
+      "analysis_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{aligned}&amp;\\text{由题意知，}E\\bigg(\\sum_{i=1}^{n}\\xi_i\\bigg)=2n,\\ D\\bigg(\\sum_{i=1}^{n}\\xi_i\\bigg)=2n\\,,\\\\&amp;\\text{由切比雪夫不等式知，}\\\\&amp;P\\bigg\\{0&lt;\\sum_{i=1}^{n}\\xi_i&lt;4n\\bigg\\}=P\\bigg\\{-2n&lt;\\sum_{i=1}^{n}\\xi_i-2n&lt;2n\\bigg\\}\\\\&amp;\\qquad=P\\bigg\\{0&lt;\\sum_{i=1}^{n}\\xi_i&lt;4n\\bigg\\}=P\\bigg\\{\\sum_{i=1}^{n}\\xi_i-2n|&lt;2n\\bigg\\}\\geq 1-\\frac{2n}{(2n)^2}=\\frac{2n-1}{2n}\\,.\\end{aligned}\">\\begin{aligned}&amp;\\text{由题意知，}E\\bigg(\\sum_{i=1}^{n}\\xi_i\\bigg)=2n,\\ D\\bigg(\\sum_{i=1}^{n}\\xi_i\\bigg)=2n\\,,\\\\&amp;\\text{由切比雪夫不等式知，}\\\\&amp;P\\bigg\\{0&lt;\\sum_{i=1}^{n}\\xi_i&lt;4n\\bigg\\}=P\\bigg\\{-2n&lt;\\sum_{i=1}^{n}\\xi_i-2n&lt;2n\\bigg\\}\\\\&amp;\\qquad=P\\bigg\\{0&lt;\\sum_{i=1}^{n}\\xi_i&lt;4n\\bigg\\}=P\\bigg\\{\\sum_{i=1}^{n}\\xi_i-2n|&lt;2n\\bigg\\}\\geq 1-\\frac{2n}{(2n)^2}=\\frac{2n-1}{2n}\\,.\\end{aligned}</div>"
     },
     {
       "id": "q0015",
       "number": 15,
       "header": "#15-Averge",
       "difficulty": "Averge",
-      "prompt_html": "<img src=\"/static/generated/assets/probability/ch081/q0015_prompt.png\"/>",
+      "prompt_html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{掷一均匀硬币} \\, 10000 \\text{次}, \\, \\xi \\text{表示出现正面的次数，试用切比雪夫不等式估计} \\, P\\{4900 &lt; \\xi &lt; 5100\\} \\geq (\\, ).\">\\text{掷一均匀硬币} \\, 10000 \\text{次}, \\, \\xi \\text{表示出现正面的次数，试用切比雪夫不等式估计} \\, P\\{4900 &lt; \\xi &lt; 5100\\} \\geq (\\, ).</span>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/probability/ch081/q0015_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\boldsymbol { 0 . 75 }\">\\boldsymbol { 0 . 75 }</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/probability/ch081/q0015_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"0.65\">0.65</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/probability/ch081/q0015_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"0.70\">0.70</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/probability/ch081/q0015_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\mathbf{0} . 80\">\\mathbf{0} . 80</span>"
         }
       ],
       "answer": "A",
       "answer_index": 0,
-      "analysis_html": "<img src=\"/static/generated/assets/probability/ch081/q0015_analysis.png\"/>"
+      "analysis_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{aligned}&amp;\\text{依题意有}\\ \\xi \\sim b(10000,0.5)\\text{，于是有}\\\\&amp;\\qquad\\qquad E(\\xi)=np=5000\\ ,\\ D(\\xi)=npq=2500\\ .\\\\&amp;\\text{由切比雪夫不等式}P\\{|\\xi-\\mu|\\geq\\varepsilon\\}\\leq\\frac{\\sigma^2}{\\varepsilon^2}\\ ,\\ \\text{有}\\\\&amp;\\qquad P\\{4900&lt;\\xi&lt;5100\\}=P\\{4900-E(\\xi)&lt;\\xi-E(\\xi)&lt;5100-E(\\xi)\\}\\\\&amp;\\qquad\\qquad\\qquad\\qquad\\qquad\\qquad=P\\{|\\xi-5000|&lt;100\\}\\\\&amp;\\qquad\\qquad\\qquad\\qquad\\qquad\\geq 1-\\frac{D(\\xi)}{100^2}=1-\\frac{2500}{10000}=0.75\\ .\\end{aligned}\">\\begin{aligned}&amp;\\text{依题意有}\\ \\xi \\sim b(10000,0.5)\\text{，于是有}\\\\&amp;\\qquad\\qquad E(\\xi)=np=5000\\ ,\\ D(\\xi)=npq=2500\\ .\\\\&amp;\\text{由切比雪夫不等式}P\\{|\\xi-\\mu|\\geq\\varepsilon\\}\\leq\\frac{\\sigma^2}{\\varepsilon^2}\\ ,\\ \\text{有}\\\\&amp;\\qquad P\\{4900&lt;\\xi&lt;5100\\}=P\\{4900-E(\\xi)&lt;\\xi-E(\\xi)&lt;5100-E(\\xi)\\}\\\\&amp;\\qquad\\qquad\\qquad\\qquad\\qquad\\qquad=P\\{|\\xi-5000|&lt;100\\}\\\\&amp;\\qquad\\qquad\\qquad\\qquad\\qquad\\geq 1-\\frac{D(\\xi)}{100^2}=1-\\frac{2500}{10000}=0.75\\ .\\end{aligned}</div>"
     },
     {
       "id": "q0016",
       "number": 16,
       "header": "#16-Easy",
       "difficulty": "Easy",
-      "prompt_html": "<img src=\"/static/generated/assets/probability/ch081/q0016_prompt.png\"/>",
+      "prompt_html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{设 } E(X) = 10,\\, D(X) = 4,\\, \\text{由切比雪夫不等式，若 } P\\{ \\left| X - 10 \\right| \\geq c \\} \\leq 0.04,\\, \\text{则 } c = \\left( \\ \\right) .\">\\text{设 } E(X) = 10,\\, D(X) = 4,\\, \\text{由切比雪夫不等式，若 } P\\{ \\left| X - 10 \\right| \\geq c \\} \\leq 0.04,\\, \\text{则 } c = \\left( \\ \\right) .</span>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/probability/ch081/q0016_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"10\">10</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/probability/ch081/q0016_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"20\">20</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/probability/ch081/q0016_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"50\">50</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/probability/ch081/q0016_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"100\">100</span>"
         }
       ],
       "answer": "A",
       "answer_index": 0,
-      "analysis_html": "<img src=\"/static/generated/assets/probability/ch081/q0016_analysis.png\"/>"
+      "analysis_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{aligned}P\\{\\left|X-10\\right|\\geq c\\}\\leq \\frac{D(X)}{c^{2}}=\\frac{4}{c^{2}}=0.04\\,,\\,\\, \\text{故}\\, c=10\\,.\\end{aligned}\">\\begin{aligned}P\\{\\left|X-10\\right|\\geq c\\}\\leq \\frac{D(X)}{c^{2}}=\\frac{4}{c^{2}}=0.04\\,,\\,\\, \\text{故}\\, c=10\\,.\\end{aligned}</div>"
     },
     {
       "id": "q0017",
       "number": 17,
       "header": "#17-Easy",
       "difficulty": "Easy",
-      "prompt_html": "<img src=\"/static/generated/assets/probability/ch081/q0017_prompt.png\"/>",
+      "prompt_html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{设随机变量}X\\text{的数学期望与方差分别为}E(X)=\\mu,D(X)=\\sigma^{2},\\text{则由切比雪夫不等式有}P\\{|X-\\mu|\\geq 3\\sigma\\}\\leq(\\text{.})\">\\text{设随机变量}X\\text{的数学期望与方差分别为}E(X)=\\mu,D(X)=\\sigma^{2},\\text{则由切比雪夫不等式有}P\\{|X-\\mu|\\geq 3\\sigma\\}\\leq(\\text{.})</span>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/probability/ch081/q0017_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\frac { 1 } { 9 }\">\\frac { 1 } { 9 }</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/probability/ch081/q0017_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\frac { 1 } { 6 }\">\\frac { 1 } { 6 }</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/probability/ch081/q0017_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\frac { \\sigma ^ { 2 } } { 6 }\">\\frac { \\sigma ^ { 2 } } { 6 }</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/probability/ch081/q0017_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\frac { \\sigma ^ { 2 } } { 9 }\">\\frac { \\sigma ^ { 2 } } { 9 }</span>"
         }
       ],
       "answer": "A",
       "answer_index": 0,
-      "analysis_html": "<img src=\"/static/generated/assets/probability/ch081/q0017_analysis.png\"/>"
+      "analysis_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{aligned}\\text{由切比雪夫不等式}P\\{ |X-\\mu|\\geq\\varepsilon \\} &amp;\\leq \\frac{D(X)}{\\varepsilon^{2}} , \\text{有} \\varepsilon=3\\sigma , \\text{则}\\\\p\\{ |X-\\mu|\\geq 3\\sigma \\} &amp;\\leq \\frac{\\sigma^{2}}{(3\\sigma)^{2}}=\\frac{1}{9}\\,.\\end{aligned}\">\\begin{aligned}\\text{由切比雪夫不等式}P\\{ |X-\\mu|\\geq\\varepsilon \\} &amp;\\leq \\frac{D(X)}{\\varepsilon^{2}} , \\text{有} \\varepsilon=3\\sigma , \\text{则}\\\\p\\{ |X-\\mu|\\geq 3\\sigma \\} &amp;\\leq \\frac{\\sigma^{2}}{(3\\sigma)^{2}}=\\frac{1}{9}\\,.\\end{aligned}</div>"
     },
     {
       "id": "q0018",
       "number": 18,
       "header": "#18-Easy",
       "difficulty": "Easy",
-      "prompt_html": "<img src=\"/static/generated/assets/probability/ch081/q0018_prompt.png\"/>",
+      "prompt_html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{随机变量}X \\text{的数学期望}E(X)=100, \\text{方差}D(X)=10, \\text{由切比雪夫不等式,有}P\\{80&lt;X&lt;120\\}().\">\\text{随机变量}X \\text{的数学期望}E(X)=100, \\text{方差}D(X)=10, \\text{由切比雪夫不等式,有}P\\{80&lt;X&lt;120\\}().</span>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/probability/ch081/q0018_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\geq 0 . 975\">\\geq 0 . 975</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/probability/ch081/q0018_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\leq 0 . 645\">\\leq 0 . 645</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/probability/ch081/q0018_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\leq 0.756\">\\leq 0.756</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/probability/ch081/q0018_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\leq 0 . 875\">\\leq 0 . 875</span>"
         }
       ],
       "answer": "A",
       "answer_index": 0,
-      "analysis_html": "<img src=\"/static/generated/assets/probability/ch081/q0018_analysis.png\"/>"
+      "analysis_html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{由切比雪夫不等式} \\, P \\{ 80 &lt; X &lt; 120 \\} = P \\{ \\left| X - 100 \\right| &lt; 20 \\} \\geq 1 - \\frac {10}{20^{2}} = 0.975 \\, .\">\\text{由切比雪夫不等式} \\, P \\{ 80 &lt; X &lt; 120 \\} = P \\{ \\left| X - 100 \\right| &lt; 20 \\} \\geq 1 - \\frac {10}{20^{2}} = 0.975 \\, .</span>"
     },
     {
       "id": "q0019",
       "number": 19,
       "header": "#19-Easy",
       "difficulty": "Easy",
-      "prompt_html": "<img src=\"/static/generated/assets/probability/ch081/q0019_prompt.png\"/>",
+      "prompt_html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{设随机变量} \\xi \\text{的数学期望} E(\\xi) = \\frac{2}{5}, \\text{方差} D(\\xi) = \\frac{1}{25}, \\text{试用切比雪夫不等式估计} P\\left\\{\\left| \\xi - \\frac{2}{5} \\right| &lt; \\frac{1}{3} \\right\\} \\geq (\\,).\">\\text{设随机变量} \\xi \\text{的数学期望} E(\\xi) = \\frac{2}{5}, \\text{方差} D(\\xi) = \\frac{1}{25}, \\text{试用切比雪夫不等式估计} P\\left\\{\\left| \\xi - \\frac{2}{5} \\right| &lt; \\frac{1}{3} \\right\\} \\geq (\\,).</span>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/probability/ch081/q0019_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\frac { 16 } { 25 }\">\\frac { 16 } { 25 }</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/probability/ch081/q0019_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\frac { 9 } { 25 }\">\\frac { 9 } { 25 }</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/probability/ch081/q0019_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\frac { 11 } { 26 }\">\\frac { 11 } { 26 }</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/probability/ch081/q0019_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\frac { 15 } { 26 }\">\\frac { 15 } { 26 }</span>"
         }
       ],
       "answer": "A",
       "answer_index": 0,
-      "analysis_html": "<img src=\"/static/generated/assets/probability/ch081/q0019_analysis.png\"/>"
+      "analysis_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{aligned}&amp;\\text{根据切比雪夫不等式}P\\{|X-E(X)|\\geq \\varepsilon\\}\\leq \\frac{D(X)}{\\varepsilon^{2}}\\ ,\\ \\text{有}\\\\&amp;\\qquad P\\left\\{\\left|\\xi-\\frac{2}{5}\\right|&lt;\\frac{1}{3}\\right\\}\\geq 1-\\frac{D(\\xi)}{(1/3)^{2}}=1-\\frac{9}{25}=\\frac{16}{25}\\ .\\end{aligned}\">\\begin{aligned}&amp;\\text{根据切比雪夫不等式}P\\{|X-E(X)|\\geq \\varepsilon\\}\\leq \\frac{D(X)}{\\varepsilon^{2}}\\ ,\\ \\text{有}\\\\&amp;\\qquad P\\left\\{\\left|\\xi-\\frac{2}{5}\\right|&lt;\\frac{1}{3}\\right\\}\\geq 1-\\frac{D(\\xi)}{(1/3)^{2}}=1-\\frac{9}{25}=\\frac{16}{25}\\ .\\end{aligned}</div>"
     },
     {
       "id": "q0020",
       "number": 20,
       "header": "#20-Averge",
       "difficulty": "Averge",
-      "prompt_html": "<img src=\"/static/generated/assets/probability/ch081/q0020_prompt.png\"/>",
+      "prompt_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{aligned}&amp; \\text{设 } X_{1}, X_{2}, \\cdots, X_{n} \\text{ 是 } n \\text{ 个相互独立同分布的随机变量，且 } E(X_{i}) = \\mu,\\, D(X_{i}) = 8\\,(i=1,2,\\cdots,n).\\, \\\\&amp; \\text{对于 } \\overline{X} = \\frac{1}{n} \\sum_{i=1}^{n} X_{i}\\,, \\text{ 用切比雪夫不等式估计， } P\\{|\\overline{X}-\\mu|&lt;4\\} \\geq (\\,).\\end{aligned}\">\\begin{aligned}&amp; \\text{设 } X_{1}, X_{2}, \\cdots, X_{n} \\text{ 是 } n \\text{ 个相互独立同分布的随机变量，且 } E(X_{i}) = \\mu,\\, D(X_{i}) = 8\\,(i=1,2,\\cdots,n).\\, \\\\&amp; \\text{对于 } \\overline{X} = \\frac{1}{n} \\sum_{i=1}^{n} X_{i}\\,, \\text{ 用切比雪夫不等式估计， } P\\{|\\overline{X}-\\mu|&lt;4\\} \\geq (\\,).\\end{aligned}</div>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/probability/ch081/q0020_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"1 - \\frac { 1 } { 2 n }\">1 - \\frac { 1 } { 2 n }</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/probability/ch081/q0020_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"1 - \\frac {1}{n}\">1 - \\frac {1}{n}</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/probability/ch081/q0020_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\frac { 1 } { n }\">\\frac { 1 } { n }</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/probability/ch081/q0020_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\frac { 1 } { 2 n }\">\\frac { 1 } { 2 n }</span>"
         }
       ],
       "answer": "A",
       "answer_index": 0,
-      "analysis_html": "<img src=\"/static/generated/assets/probability/ch081/q0020_analysis.png\"/>"
+      "analysis_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{aligned}&amp; \\text{因}X_{1},X_{2},...,X_{n} \\text{是相互独立同分布的随机变量，所以} \\\\&amp; \\quad E(\\overline{X})=\\frac{1}{n}E\\left(\\sum_{i=1}^{n}X_{i}\\right)=\\frac{1}{n}\\cdot n\\mu=\\mu,\\ \\ D(\\overline{X})=\\frac{1}{n^{2}}D\\left(\\sum_{i=1}^{n}X_{i}\\right)=\\frac{1}{n^{2}}\\cdot 8n=\\frac{8}{n}\\,.\\end{aligned}\">\\begin{aligned}&amp; \\text{因}X_{1},X_{2},...,X_{n} \\text{是相互独立同分布的随机变量，所以} \\\\&amp; \\quad E(\\overline{X})=\\frac{1}{n}E\\left(\\sum_{i=1}^{n}X_{i}\\right)=\\frac{1}{n}\\cdot n\\mu=\\mu,\\ \\ D(\\overline{X})=\\frac{1}{n^{2}}D\\left(\\sum_{i=1}^{n}X_{i}\\right)=\\frac{1}{n^{2}}\\cdot 8n=\\frac{8}{n}\\,.\\end{aligned}</div>"
     },
     {
       "id": "q0021",
       "number": 21,
       "header": "#21-Easy",
       "difficulty": "Easy",
-      "prompt_html": "<img src=\"/static/generated/assets/probability/ch081/q0021_prompt.png\"/>",
+      "prompt_html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{一随机变量}X \\text{的}E(X)=12,D(X)=9, \\text{用切比雪夫不等式估计}P\\{6&lt;X&lt;18\\}\\geq(\\text{.})\">\\text{一随机变量}X \\text{的}E(X)=12,D(X)=9, \\text{用切比雪夫不等式估计}P\\{6&lt;X&lt;18\\}\\geq(\\text{.})</span>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/probability/ch081/q0021_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\frac { 3 } { 4 }\">\\frac { 3 } { 4 }</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/probability/ch081/q0021_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\frac { 1 } { 2 }\">\\frac { 1 } { 2 }</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/probability/ch081/q0021_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\frac { 2 } { 3 }\">\\frac { 2 } { 3 }</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/probability/ch081/q0021_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\frac { 4 } { 5 }\">\\frac { 4 } { 5 }</span>"
         }
       ],
       "answer": "A",
       "answer_index": 0,
-      "analysis_html": "<img src=\"/static/generated/assets/probability/ch081/q0021_analysis.png\"/>"
+      "analysis_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{aligned} P\\{6 &lt; X &lt; 18\\} &amp;= P\\{-6 &lt; X - 12 &lt; 6\\} \\\\ &amp;= P\\{|X - 12| &lt; 6\\} \\geq 1 - \\frac{9}{6^2} = \\frac{3}{4}\\,.\\end{aligned}\">\\begin{aligned} P\\{6 &lt; X &lt; 18\\} &amp;= P\\{-6 &lt; X - 12 &lt; 6\\} \\\\ &amp;= P\\{|X - 12| &lt; 6\\} \\geq 1 - \\frac{9}{6^2} = \\frac{3}{4}\\,.\\end{aligned}</div>"
     },
     {
       "id": "q0022",
       "number": 22,
       "header": "#22-Easy",
       "difficulty": "Easy",
-      "prompt_html": "<img src=\"/static/generated/assets/probability/ch081/q0022_prompt.png\"/>",
+      "prompt_html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{设随机变量} \\zeta \\text{的数学期望和方差均是} 6, \\text{那么} P\\bigl\\{0&lt;\\zeta&lt;12 \\bigr\\} \\geq ( ).\">\\text{设随机变量} \\zeta \\text{的数学期望和方差均是} 6, \\text{那么} P\\bigl\\{0&lt;\\zeta&lt;12 \\bigr\\} \\geq ( ).</span>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/probability/ch081/q0022_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\frac { 5 } { 6 }\">\\frac { 5 } { 6 }</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/probability/ch081/q0022_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\frac { 1 } { 6 }\">\\frac { 1 } { 6 }</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/probability/ch081/q0022_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\frac { 1 } { 3 }\">\\frac { 1 } { 3 }</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/probability/ch081/q0022_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\frac { 1 } { 2 }\">\\frac { 1 } { 2 }</span>"
         }
       ],
       "answer": "A",
       "answer_index": 0,
-      "analysis_html": "<img src=\"/static/generated/assets/probability/ch081/q0022_analysis.png\"/>"
+      "analysis_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{aligned} \\text{由切比雪夫不等式知，} \\\\ P\\{0&lt;\\xi&lt;12\\} &amp;= P\\{-6&lt;\\xi-6&lt;6\\} \\\\ &amp;= P\\{\\left|\\xi-6\\right|&lt;6\\}\\geq 1-\\frac{6}{6^2}=\\frac{5}{6}\\,.\\end{aligned}\">\\begin{aligned} \\text{由切比雪夫不等式知，} \\\\ P\\{0&lt;\\xi&lt;12\\} &amp;= P\\{-6&lt;\\xi-6&lt;6\\} \\\\ &amp;= P\\{\\left|\\xi-6\\right|&lt;6\\}\\geq 1-\\frac{6}{6^2}=\\frac{5}{6}\\,.\\end{aligned}</div>"
     },
     {
       "id": "q0023",
       "number": 23,
       "header": "#23-Easy",
       "difficulty": "Easy",
-      "prompt_html": "<img src=\"/static/generated/assets/probability/ch081/q0023_prompt.png\"/>",
+      "prompt_html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{设随机变量}\\xi\\text{的}E(\\xi)\\text{与}D(\\xi)\\text{存在，对任意给定的}\\varepsilon&gt;0\\text{，概率}P\\{\\bigl|\\xi-E(\\xi)\\bigr|&lt;\\varepsilon\\}\\ (\\ ).\">\\text{设随机变量}\\xi\\text{的}E(\\xi)\\text{与}D(\\xi)\\text{存在，对任意给定的}\\varepsilon&gt;0\\text{，概率}P\\{\\bigl|\\xi-E(\\xi)\\bigr|&lt;\\varepsilon\\}\\ (\\ ).</span>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/probability/ch081/q0023_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\geq 1 - \\frac { D ( \\xi ) } { \\varepsilon ^ { 2 } }\">\\geq 1 - \\frac { D ( \\xi ) } { \\varepsilon ^ { 2 } }</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/probability/ch081/q0023_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\geq \\frac { D ( \\xi ) } { \\varepsilon ^ { 2 } }\">\\geq \\frac { D ( \\xi ) } { \\varepsilon ^ { 2 } }</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/probability/ch081/q0023_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\leq 1 - \\frac { D ( \\xi ) } { \\varepsilon ^ { 2 } }\">\\leq 1 - \\frac { D ( \\xi ) } { \\varepsilon ^ { 2 } }</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/probability/ch081/q0023_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\leq \\frac { D ( \\xi ) } { \\varepsilon ^ { 2 } }\">\\leq \\frac { D ( \\xi ) } { \\varepsilon ^ { 2 } }</span>"
         }
       ],
       "answer": "A",
       "answer_index": 0,
-      "analysis_html": "<img src=\"/static/generated/assets/probability/ch081/q0023_analysis.png\"/>"
+      "analysis_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{array}{ll}\\text{由切比雪夫不等式知} &amp; P\\{\\bigl| \\xi - E(\\xi)\\bigr| &lt; \\varepsilon \\} \\geq 1 - \\frac{D(\\xi)}{\\varepsilon^{2}}\\,.\\end{array}\">\\begin{array}{ll}\\text{由切比雪夫不等式知} &amp; P\\{\\bigl| \\xi - E(\\xi)\\bigr| &lt; \\varepsilon \\} \\geq 1 - \\frac{D(\\xi)}{\\varepsilon^{2}}\\,.\\end{array}</div>"
     },
     {
       "id": "q0024",
       "number": 24,
       "header": "#24-Averge",
       "difficulty": "Averge",
-      "prompt_html": "<img src=\"/static/generated/assets/probability/ch081/q0024_prompt.png\"/>",
+      "prompt_html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{一颗骰子连续掷} 4 \\text{次，点数总和记为} X, \\text{利用切比雪夫不等式估计} P\\{10 &lt; X &lt; 18\\} \\text{为} (\\text{)}.\">\\text{一颗骰子连续掷} 4 \\text{次，点数总和记为} X, \\text{利用切比雪夫不等式估计} P\\{10 &lt; X &lt; 18\\} \\text{为} (\\text{)}.</span>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/probability/ch081/q0024_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\geq 0 . 271\">\\geq 0 . 271</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/probability/ch081/q0024_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\leq 0.271\">\\leq 0.271</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/probability/ch081/q0024_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\geq 0 . 152\">\\geq 0 . 152</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/probability/ch081/q0024_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\leq 0.152\">\\leq 0.152</span>"
         }
       ],
       "answer": "A",
       "answer_index": 0,
-      "analysis_html": "<img src=\"/static/generated/assets/probability/ch081/q0024_analysis.png\"/>"
+      "analysis_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{aligned} \\text{记}X_i\\ (i=1,2,3,4) \\text{为第}i \\text{次掷骰子出现的点数，则}X_i\\text{的分布为}\\\\ \\begin{array}{|c|c|c|c|c|c|c|} \\hline X_i &amp; 1 &amp; 2 &amp; 3 &amp; 4 &amp; 5 &amp; 6 \\\\ \\hline p_i &amp; 1/6 &amp; 1/6 &amp; 1/6 &amp; 1/6 &amp; 1/6 &amp; 1/6 \\\\ \\hline \\end{array}\\\\ E(X_i)=\\frac{1}{6}(1+2+3+4+5+6)=\\frac{7}{2},\\ E(X_i^2)=\\frac{1}{6}(1+4+9+16+25+36)=\\frac{91}{6},\\\\ D(X_i)=E(X_i^2)-[E(X_i)]^2=\\frac{91}{6}-\\frac{49}{4}=\\frac{35}{12},\\\\ \\text{一颗骰子连续掷}4\\text{次，点数总和}\\\\ X=\\sum_{i=1}^4X_i,\\ E(X)=\\sum_{i=1}^4E(X_i)=4\\times\\frac{7}{2}=14,\\ D(X)=\\sum_{i=1}^4D(X_i)=4\\times\\frac{35}{12}=\\frac{35}{3},\\\\ \\text{于是}\\\\ P\\{10&lt;X&lt;18\\}=P\\{10-14&lt;X-14&lt;18-14\\}\\\\ =\\{|X-14|&lt;4\\}\\geq1-\\frac{1}{16}\\times\\frac{35}{3}\\approx 0.271.\\end{aligned}\">\\begin{aligned} \\text{记}X_i\\ (i=1,2,3,4) \\text{为第}i \\text{次掷骰子出现的点数，则}X_i\\text{的分布为}\\\\ \\begin{array}{|c|c|c|c|c|c|c|} \\hline X_i &amp; 1 &amp; 2 &amp; 3 &amp; 4 &amp; 5 &amp; 6 \\\\ \\hline p_i &amp; 1/6 &amp; 1/6 &amp; 1/6 &amp; 1/6 &amp; 1/6 &amp; 1/6 \\\\ \\hline \\end{array}\\\\ E(X_i)=\\frac{1}{6}(1+2+3+4+5+6)=\\frac{7}{2},\\ E(X_i^2)=\\frac{1}{6}(1+4+9+16+25+36)=\\frac{91}{6},\\\\ D(X_i)=E(X_i^2)-[E(X_i)]^2=\\frac{91}{6}-\\frac{49}{4}=\\frac{35}{12},\\\\ \\text{一颗骰子连续掷}4\\text{次，点数总和}\\\\ X=\\sum_{i=1}^4X_i,\\ E(X)=\\sum_{i=1}^4E(X_i)=4\\times\\frac{7}{2}=14,\\ D(X)=\\sum_{i=1}^4D(X_i)=4\\times\\frac{35}{12}=\\frac{35}{3},\\\\ \\text{于是}\\\\ P\\{10&lt;X&lt;18\\}=P\\{10-14&lt;X-14&lt;18-14\\}\\\\ =\\{|X-14|&lt;4\\}\\geq1-\\frac{1}{16}\\times\\frac{35}{3}\\approx 0.271.\\end{aligned}</div>"
     },
     {
       "id": "q0025",
       "number": 25,
       "header": "#25-Averge",
       "difficulty": "Averge",
-      "prompt_html": "<img src=\"/static/generated/assets/probability/ch081/q0025_prompt.png\"/>",
+      "prompt_html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{设随机变量} \\zeta \\text{的数学期望和方差均是} \\, m+1 \\,(m \\text{为自然数}) \\, , \\, \\text{那么} \\, P\\bigl\\{0&lt;\\xi&lt;2(m+1)\\bigr\\} \\geq (\\, ) \\, .\">\\text{设随机变量} \\zeta \\text{的数学期望和方差均是} \\, m+1 \\,(m \\text{为自然数}) \\, , \\, \\text{那么} \\, P\\bigl\\{0&lt;\\xi&lt;2(m+1)\\bigr\\} \\geq (\\, ) \\, .</span>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/probability/ch081/q0025_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\frac {m}{m + 1}\">\\frac {m}{m + 1}</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/probability/ch081/q0025_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\frac { 1 } { m + 1 }\">\\frac { 1 } { m + 1 }</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/probability/ch081/q0025_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\textbf { 0 }\">\\textbf { 0 }</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/probability/ch081/q0025_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\frac { 1 } { m }\">\\frac { 1 } { m }</span>"
         }
       ],
       "answer": "A",
       "answer_index": 0,
-      "analysis_html": "<img src=\"/static/generated/assets/probability/ch081/q0025_analysis.png\"/>"
+      "analysis_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{aligned}P\\{0&lt;\\xi&lt;2(m+1)\\} &amp;= P\\{-(m+1)&lt;\\xi-(m+1)&lt;m+1\\}\\\\&amp;=P\\{\\xi-(m+1)|&lt;m+1\\}\\geq 1-\\frac{m+1}{(m+1)^2}=\\frac{m}{m+1}\\;.\\end{aligned}\">\\begin{aligned}P\\{0&lt;\\xi&lt;2(m+1)\\} &amp;= P\\{-(m+1)&lt;\\xi-(m+1)&lt;m+1\\}\\\\&amp;=P\\{\\xi-(m+1)|&lt;m+1\\}\\geq 1-\\frac{m+1}{(m+1)^2}=\\frac{m}{m+1}\\;.\\end{aligned}</div>"
     }
-  ]
+  ],
+  "format": "latex",
+  "source_md": "gl/4.2.4_切比雪夫不等式(25题)/4.2.4_切比雪夫不等式(25题).md"
 }

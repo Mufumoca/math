@@ -13,1008 +13,1010 @@
       "number": 1,
       "header": "#1-Averge",
       "difficulty": "Averge",
-      "prompt_html": "<img src=\"/static/generated/assets/complex-analysis/ch022/q0001_prompt.png\"/>",
+      "prompt_html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text {积分} \\int_{0}^{2\\pi} \\frac{d\\theta}{a+b\\cos \\theta}(0&lt;b&lt;a)=()\">\\text {积分} \\int_{0}^{2\\pi} \\frac{d\\theta}{a+b\\cos \\theta}(0&lt;b&lt;a)=()</span>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/complex-analysis/ch022/q0001_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\frac { 2 \\pi } { \\sqrt { a ^ { 2 } - b ^ { 2 } } }\">\\frac { 2 \\pi } { \\sqrt { a ^ { 2 } - b ^ { 2 } } }</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/complex-analysis/ch022/q0001_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\frac { \\pi } { \\sqrt { a ^ { 2 } - b ^ { 2 } } }\">\\frac { \\pi } { \\sqrt { a ^ { 2 } - b ^ { 2 } } }</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/complex-analysis/ch022/q0001_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\frac {\\pi}{2 \\sqrt {a ^ {2} - b ^ {2}}}\">\\frac {\\pi}{2 \\sqrt {a ^ {2} - b ^ {2}}}</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/complex-analysis/ch022/q0001_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\frac { 4 \\pi } { \\sqrt { a ^ { 2 } - b ^ { 2 } } } \\leftarrow\">\\frac { 4 \\pi } { \\sqrt { a ^ { 2 } - b ^ { 2 } } } \\leftarrow</span>"
         }
       ],
       "answer": "A",
       "answer_index": 0,
-      "analysis_html": "<img src=\"/static/generated/assets/complex-analysis/ch022/q0001_analysis.png\"/>"
+      "analysis_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{aligned}&amp;\\text{被积函数的分母}a+b\\cos \\theta \\text{在} (0,2\\pi) \\text{内为0，所以积分有意义} \\\\&amp;\\int_{0}^{2\\pi}\\frac{d\\theta}{a+b\\cos \\theta}=\\oint_{|z|\\to \\infty}\\frac{1}{a+b}\\frac{1}{z}dz=\\frac{2}{i}\\oint_{|z|\\to \\infty}\\frac{dz}{bz^{2}+2az+b},\\\\&amp;\\frac{1}{bz^{2}+2az+b}\\text{的两个极点中只有}z=\\frac{-a+\\sqrt{a^{2}-b^{2}}}{b}\\text{在圆内}，\\\\&amp;\\text{所以}\\int_{0}^{2\\pi}\\frac{d\\theta}{a+b\\cos \\theta}=2\\pi i\\cdot \\frac{2}{i}\\operatorname{Re}s\\left[\\frac{1}{bz^{2}+2az+b},\\frac{-a+\\sqrt{a^{2}-b^{2}}}{b}\\right]\\\\&amp;=4\\pi\\cdot \\frac{1}{2bz+2a}\\Bigg|_{z=\\frac{-a+\\sqrt{a^{2}-b^{2}}}{b}}=\\frac{2\\pi}{\\sqrt{a^{2}-b^{2}}}\\end{aligned}\">\\begin{aligned}&amp;\\text{被积函数的分母}a+b\\cos \\theta \\text{在} (0,2\\pi) \\text{内为0，所以积分有意义} \\\\&amp;\\int_{0}^{2\\pi}\\frac{d\\theta}{a+b\\cos \\theta}=\\oint_{|z|\\to \\infty}\\frac{1}{a+b}\\frac{1}{z}dz=\\frac{2}{i}\\oint_{|z|\\to \\infty}\\frac{dz}{bz^{2}+2az+b},\\\\&amp;\\frac{1}{bz^{2}+2az+b}\\text{的两个极点中只有}z=\\frac{-a+\\sqrt{a^{2}-b^{2}}}{b}\\text{在圆内}，\\\\&amp;\\text{所以}\\int_{0}^{2\\pi}\\frac{d\\theta}{a+b\\cos \\theta}=2\\pi i\\cdot \\frac{2}{i}\\operatorname{Re}s\\left[\\frac{1}{bz^{2}+2az+b},\\frac{-a+\\sqrt{a^{2}-b^{2}}}{b}\\right]\\\\&amp;=4\\pi\\cdot \\frac{1}{2bz+2a}\\Bigg|_{z=\\frac{-a+\\sqrt{a^{2}-b^{2}}}{b}}=\\frac{2\\pi}{\\sqrt{a^{2}-b^{2}}}\\end{aligned}</div>"
     },
     {
       "id": "q0002",
       "number": 2,
       "header": "#2-Averge",
       "difficulty": "Averge",
-      "prompt_html": "<img src=\"/static/generated/assets/complex-analysis/ch022/q0002_prompt.png\"/>",
+      "prompt_html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{积分} I = \\int _ { 0 } ^ { \\frac { \\pi } { 2 } } \\frac { 1 } { a + \\sin ^ { 2 } t } d t = ( \\quad ) . \\Leftrightarrow\">\\text{积分} I = \\int _ { 0 } ^ { \\frac { \\pi } { 2 } } \\frac { 1 } { a + \\sin ^ { 2 } t } d t = ( \\quad ) . \\Leftrightarrow</span>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/complex-analysis/ch022/q0002_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\frac{\\pi}{2\\sqrt{a^{2}+a}}\">\\frac{\\pi}{2\\sqrt{a^{2}+a}}</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/complex-analysis/ch022/q0002_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\frac { \\pi } { 8 \\sqrt { a ^ { 2 } + a } }\">\\frac { \\pi } { 8 \\sqrt { a ^ { 2 } + a } }</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/complex-analysis/ch022/q0002_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\frac { \\pi } { 4 \\sqrt { a ^ { 2 } + a } }\">\\frac { \\pi } { 4 \\sqrt { a ^ { 2 } + a } }</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/complex-analysis/ch022/q0002_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\frac { \\pi } { 6 \\sqrt { a ^ { 2 } + a } } \\leftarrow\">\\frac { \\pi } { 6 \\sqrt { a ^ { 2 } + a } } \\leftarrow</span>"
         }
       ],
       "answer": "A",
       "answer_index": 0,
-      "analysis_html": "<img src=\"/static/generated/assets/complex-analysis/ch022/q0002_analysis.png\"/>"
+      "analysis_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{aligned}&amp; \\text{令}z=e^{it}, \\text{则}dt=\\frac{dz}{iz}, \\sin t=\\frac{z^{2}-1}{i2z}, \\text{于是：}\\\\&amp; I=\\int_{0}^{\\frac{\\pi}{2}}\\frac{1}{a+\\sin^{2}t}dt=\\frac{1}{4}\\int_{0}^{2\\pi}\\frac{1}{a+\\sin^{2}t}dt=\\frac{1}{4}\\int_{0}^{\\pi}\\frac{1}{a+\\frac{(z^{2}-1)^{2}}{i2z}}\\frac{dz}{iz}\\\\&amp; \\quad=2\\pi\\operatorname{Re}s[\\frac{iz}{z^{2}-2(2a+1)z^{2}+1},\\pm\\sqrt{2a+1-2\\sqrt{a^{2}+a}}]=\\frac{\\pi}{2\\sqrt{a^{2}+a}},\\end{aligned}\">\\begin{aligned}&amp; \\text{令}z=e^{it}, \\text{则}dt=\\frac{dz}{iz}, \\sin t=\\frac{z^{2}-1}{i2z}, \\text{于是：}\\\\&amp; I=\\int_{0}^{\\frac{\\pi}{2}}\\frac{1}{a+\\sin^{2}t}dt=\\frac{1}{4}\\int_{0}^{2\\pi}\\frac{1}{a+\\sin^{2}t}dt=\\frac{1}{4}\\int_{0}^{\\pi}\\frac{1}{a+\\frac{(z^{2}-1)^{2}}{i2z}}\\frac{dz}{iz}\\\\&amp; \\quad=2\\pi\\operatorname{Re}s[\\frac{iz}{z^{2}-2(2a+1)z^{2}+1},\\pm\\sqrt{2a+1-2\\sqrt{a^{2}+a}}]=\\frac{\\pi}{2\\sqrt{a^{2}+a}},\\end{aligned}</div>"
     },
     {
       "id": "q0003",
       "number": 3,
       "header": "#3-Easy",
       "difficulty": "Easy",
-      "prompt_html": "<img src=\"/static/generated/assets/complex-analysis/ch022/q0003_prompt.png\"/>",
+      "prompt_html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{积分} \\, I = \\int _ { 0 } ^ { 2 \\pi } \\frac { d \\vartheta } { 5 + 3 \\cos \\vartheta } = ( \\quad ) .\">\\text{积分} \\, I = \\int _ { 0 } ^ { 2 \\pi } \\frac { d \\vartheta } { 5 + 3 \\cos \\vartheta } = ( \\quad ) .</span>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/complex-analysis/ch022/q0003_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\frac { \\pi } { 2 }\">\\frac { \\pi } { 2 }</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/complex-analysis/ch022/q0003_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\pi\">\\pi</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/complex-analysis/ch022/q0003_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"2 \\pi\">2 \\pi</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/complex-analysis/ch022/q0003_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\frac {3 \\pi}{2}\">\\frac {3 \\pi}{2}</span>"
         }
       ],
       "answer": "A",
       "answer_index": 0,
-      "analysis_html": "<img src=\"/static/generated/assets/complex-analysis/ch022/q0003_analysis.png\"/>"
+      "analysis_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{aligned}I&amp;=\\int\\limits_{0}^{2\\pi}\\frac{d\\theta}{5+3\\cos\\theta}=\\oint_{|i|&gt;i}\\frac{2}{\\left(3z^{2}+10z+3\\right)}dz\\;=\\frac{2}{i}\\oint_{|i|&gt;i}\\frac{1}{\\left(3z+1\\right)\\left(z+3\\right)}dz\\\\&amp;=\\frac{2}{i}\\frac{2\\pi i\\operatorname{Res}_{i=\\frac{1}{3}}\\left[\\frac{1}{\\left(3z+1\\right)\\left(z+3\\right)}\\right]^{i}}{}\\\\&amp;=4\\pi\\frac{1}{8}=\\frac{\\pi}{2}.\\end{aligned}\">\\begin{aligned}I&amp;=\\int\\limits_{0}^{2\\pi}\\frac{d\\theta}{5+3\\cos\\theta}=\\oint_{|i|&gt;i}\\frac{2}{\\left(3z^{2}+10z+3\\right)}dz\\;=\\frac{2}{i}\\oint_{|i|&gt;i}\\frac{1}{\\left(3z+1\\right)\\left(z+3\\right)}dz\\\\&amp;=\\frac{2}{i}\\frac{2\\pi i\\operatorname{Res}_{i=\\frac{1}{3}}\\left[\\frac{1}{\\left(3z+1\\right)\\left(z+3\\right)}\\right]^{i}}{}\\\\&amp;=4\\pi\\frac{1}{8}=\\frac{\\pi}{2}.\\end{aligned}</div>"
     },
     {
       "id": "q0004",
       "number": 4,
       "header": "#4-Averge",
       "difficulty": "Averge",
-      "prompt_html": "<img src=\"/static/generated/assets/complex-analysis/ch022/q0004_prompt.png\"/>",
+      "prompt_html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{积分} \\int_{0}^{+\\infty} \\frac{\\cos x}{x^{2}+1} dx = ( \\ \\ ).\">\\text{积分} \\int_{0}^{+\\infty} \\frac{\\cos x}{x^{2}+1} dx = ( \\ \\ ).</span>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/complex-analysis/ch022/q0004_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\frac {\\pi}{2 e}\">\\frac {\\pi}{2 e}</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/complex-analysis/ch022/q0004_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\frac {\\pi}{3 e}\">\\frac {\\pi}{3 e}</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/complex-analysis/ch022/q0004_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\frac {3 \\pi}{4 e}\">\\frac {3 \\pi}{4 e}</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/complex-analysis/ch022/q0004_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\frac { \\pi } { e } \\downarrow\">\\frac { \\pi } { e } \\downarrow</span>"
         }
       ],
       "answer": "A",
       "answer_index": 0,
-      "analysis_html": "<img src=\"/static/generated/assets/complex-analysis/ch022/q0004_analysis.png\"/>"
+      "analysis_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{aligned}I&amp;=\\int_{0}^{+\\infty}\\frac{\\cos x}{x^{2}+1}dx=\\frac{1}{2}\\int_{-\\infty}^{+\\infty}\\frac{\\cos x}{x^{2}+1}dx=\\frac{1}{2}\\operatorname{Re}\\int_{-\\infty}^{+\\infty}\\frac{e^{ix}}{x^{2}+1}dx,\\\\ \\text{设}f(z)&amp;=\\frac{e^{iz}}{z^{2}+1},\\text{则}f(z)\\text{的孤立奇点为}\\pm i,\\text{在}z\\text{半平面上只有一个孤立奇点}i,\\text{}\\\\ \\text{其为1级极点,于是} \\\\ I&amp;=\\frac{1}{2}\\operatorname{Re}\\left[2\\pi i\\operatorname{Res}\\left[f(z),i\\right]\\right]=\\frac{1}{2}\\operatorname{Re}\\left[\\frac{\\pi}{e}\\right]=\\frac{\\pi}{2e},\\end{aligned}\">\\begin{aligned}I&amp;=\\int_{0}^{+\\infty}\\frac{\\cos x}{x^{2}+1}dx=\\frac{1}{2}\\int_{-\\infty}^{+\\infty}\\frac{\\cos x}{x^{2}+1}dx=\\frac{1}{2}\\operatorname{Re}\\int_{-\\infty}^{+\\infty}\\frac{e^{ix}}{x^{2}+1}dx,\\\\ \\text{设}f(z)&amp;=\\frac{e^{iz}}{z^{2}+1},\\text{则}f(z)\\text{的孤立奇点为}\\pm i,\\text{在}z\\text{半平面上只有一个孤立奇点}i,\\text{}\\\\ \\text{其为1级极点,于是} \\\\ I&amp;=\\frac{1}{2}\\operatorname{Re}\\left[2\\pi i\\operatorname{Res}\\left[f(z),i\\right]\\right]=\\frac{1}{2}\\operatorname{Re}\\left[\\frac{\\pi}{e}\\right]=\\frac{\\pi}{2e},\\end{aligned}</div>"
     },
     {
       "id": "q0005",
       "number": 5,
       "header": "#5-Averge",
       "difficulty": "Averge",
-      "prompt_html": "<img src=\"/static/generated/assets/complex-analysis/ch022/q0005_prompt.png\"/>",
+      "prompt_html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{积分} I = \\int _ { 0 } ^ { \\frac { \\pi } { 2 } } \\frac { 1 } { 1 + \\cos ^ { 2 } x } d x = ( ) . \\text{√}\">\\text{积分} I = \\int _ { 0 } ^ { \\frac { \\pi } { 2 } } \\frac { 1 } { 1 + \\cos ^ { 2 } x } d x = ( ) . \\text{√}</span>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/complex-analysis/ch022/q0005_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\frac{\\sqrt{2}\\pi}{4}\">\\frac{\\sqrt{2}\\pi}{4}</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/complex-analysis/ch022/q0005_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\frac{\\sqrt{2}\\pi}{2}\">\\frac{\\sqrt{2}\\pi}{2}</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/complex-analysis/ch022/q0005_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\frac{\\pi}{4}\">\\frac{\\pi}{4}</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/complex-analysis/ch022/q0005_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\frac{\\pi}{2} \\leftarrow\">\\frac{\\pi}{2} \\leftarrow</span>"
         }
       ],
       "answer": "A",
       "answer_index": 0,
-      "analysis_html": "<img src=\"/static/generated/assets/complex-analysis/ch022/q0005_analysis.png\"/>"
+      "analysis_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{aligned}&amp;\\text{由三角函数公式:}\\\\&amp;I=\\int_{0}^{\\frac{\\pi}{2}}\\frac{1}{1+\\cos^{2}x}dx=\\int_{0}^{\\frac{\\pi}{2}}\\frac{2}{3+\\cos 2x}dx= \\int_{0}^{\\pi}\\frac{1}{3+\\cos t}dt=\\frac{1}{2}\\int_{0}^{2\\pi}\\frac{1}{3+\\cos t}dt,\\\\&amp;\\quad\\text{令}z=e^{x},\\text{则}dt=\\frac{dz}{iz},\\cos t=\\frac{z^{2}+1}{2z},\\text{于是:}\\\\&amp;I=\\frac{1}{2}\\int_{z}^{1}\\frac{1}{3+\\frac{z^{2}+1}{2z}}\\frac{dz}{iz}=\\frac{1}{2i}2\\pi\\operatorname{Re}s[\\frac{2}{1+6z+z^{2}},2\\sqrt{2}-3]=\\frac{\\sqrt{2}\\pi}{4},\\end{aligned}\">\\begin{aligned}&amp;\\text{由三角函数公式:}\\\\&amp;I=\\int_{0}^{\\frac{\\pi}{2}}\\frac{1}{1+\\cos^{2}x}dx=\\int_{0}^{\\frac{\\pi}{2}}\\frac{2}{3+\\cos 2x}dx= \\int_{0}^{\\pi}\\frac{1}{3+\\cos t}dt=\\frac{1}{2}\\int_{0}^{2\\pi}\\frac{1}{3+\\cos t}dt,\\\\&amp;\\quad\\text{令}z=e^{x},\\text{则}dt=\\frac{dz}{iz},\\cos t=\\frac{z^{2}+1}{2z},\\text{于是:}\\\\&amp;I=\\frac{1}{2}\\int_{z}^{1}\\frac{1}{3+\\frac{z^{2}+1}{2z}}\\frac{dz}{iz}=\\frac{1}{2i}2\\pi\\operatorname{Re}s[\\frac{2}{1+6z+z^{2}},2\\sqrt{2}-3]=\\frac{\\sqrt{2}\\pi}{4},\\end{aligned}</div>"
     },
     {
       "id": "q0006",
       "number": 6,
       "header": "#6-Averge",
       "difficulty": "Averge",
-      "prompt_html": "<img src=\"/static/generated/assets/complex-analysis/ch022/q0006_prompt.png\"/>",
+      "prompt_html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{积分} \\int_{0}^{+\\infty} \\frac{x^{2}+1}{x^{4}+1} dx = ( \\ \\ ).\">\\text{积分} \\int_{0}^{+\\infty} \\frac{x^{2}+1}{x^{4}+1} dx = ( \\ \\ ).</span>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/complex-analysis/ch022/q0006_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\frac{\\sqrt{2}\\pi}{2}\">\\frac{\\sqrt{2}\\pi}{2}</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/complex-analysis/ch022/q0006_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\frac{\\sqrt{2}\\pi}{4}\">\\frac{\\sqrt{2}\\pi}{4}</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/complex-analysis/ch022/q0006_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\frac {\\sqrt {2} \\pi}{3}\">\\frac {\\sqrt {2} \\pi}{3}</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/complex-analysis/ch022/q0006_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\frac{2\\sqrt{2}\\pi}{3}\\uparrow\">\\frac{2\\sqrt{2}\\pi}{3}\\uparrow</span>"
         }
       ],
       "answer": "A",
       "answer_index": 0,
-      "analysis_html": "<img src=\"/static/generated/assets/complex-analysis/ch022/q0006_analysis.png\"/>"
+      "analysis_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{aligned}&amp;\\int_{0}^{+\\infty}\\frac{x^{2}+1}{x^{4}+1}dx=\\frac{1}{2}\\int_{-\\infty}^{+\\infty}\\frac{x^{2}+1}{x^{4}+1}dx,\\\\&amp;\\quad\\text{令}R(z)=\\frac{z^{2}+1}{z^{4}+1},z^{4}+1,\\text{在实轴上恒不为0，在上半平面有2个一级极点：}\\\\&amp;e^{\\frac{\\pi i}{4}},\\;e^{\\frac{3\\pi i}{4}},\\\\&amp;\\int_{0}^{+\\infty}\\frac{x^{2}+1}{x^{4}+1}dx=\\pi i\\Bigl\\{\\mathrm{Res}\\left[R(z),e^{\\frac{\\pi i}{4}}\\right]+\\mathrm{Res}\\left[R(z),e^{\\frac{3\\pi i}{4}}\\right]\\Bigr\\},\\\\&amp;=\\pi i\\left(\\frac{e^{\\frac{\\pi i}{4}}+1}{4e^{\\frac{3\\pi i}{4}}}+\\frac{e^{\\frac{2}{2}}+1}{4e^{\\frac{5\\pi i}{4}}}\\right)=\\frac{\\sqrt{2}}{2}\\pi.\\end{aligned}\">\\begin{aligned}&amp;\\int_{0}^{+\\infty}\\frac{x^{2}+1}{x^{4}+1}dx=\\frac{1}{2}\\int_{-\\infty}^{+\\infty}\\frac{x^{2}+1}{x^{4}+1}dx,\\\\&amp;\\quad\\text{令}R(z)=\\frac{z^{2}+1}{z^{4}+1},z^{4}+1,\\text{在实轴上恒不为0，在上半平面有2个一级极点：}\\\\&amp;e^{\\frac{\\pi i}{4}},\\;e^{\\frac{3\\pi i}{4}},\\\\&amp;\\int_{0}^{+\\infty}\\frac{x^{2}+1}{x^{4}+1}dx=\\pi i\\Bigl\\{\\mathrm{Res}\\left[R(z),e^{\\frac{\\pi i}{4}}\\right]+\\mathrm{Res}\\left[R(z),e^{\\frac{3\\pi i}{4}}\\right]\\Bigr\\},\\\\&amp;=\\pi i\\left(\\frac{e^{\\frac{\\pi i}{4}}+1}{4e^{\\frac{3\\pi i}{4}}}+\\frac{e^{\\frac{2}{2}}+1}{4e^{\\frac{5\\pi i}{4}}}\\right)=\\frac{\\sqrt{2}}{2}\\pi.\\end{aligned}</div>"
     },
     {
       "id": "q0007",
       "number": 7,
       "header": "#7-Easy",
       "difficulty": "Easy",
-      "prompt_html": "<img src=\"/static/generated/assets/complex-analysis/ch022/q0007_prompt.png\"/>",
+      "prompt_html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{积分} \\, I = \\int _ { 0 } ^ { 2 \\pi } \\frac { 1 } { a + \\cos t } d t ( a &gt; 1 ) = ( \\ \\ ) . \\Leftrightarrow\">\\text{积分} \\, I = \\int _ { 0 } ^ { 2 \\pi } \\frac { 1 } { a + \\cos t } d t ( a &gt; 1 ) = ( \\ \\ ) . \\Leftrightarrow</span>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/complex-analysis/ch022/q0007_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\frac { 2 \\pi } { \\sqrt { a ^ { 2 } - 1 } }\">\\frac { 2 \\pi } { \\sqrt { a ^ { 2 } - 1 } }</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/complex-analysis/ch022/q0007_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\frac { \\pi } { \\sqrt { a ^ { 2 } - 1 } }\">\\frac { \\pi } { \\sqrt { a ^ { 2 } - 1 } }</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/complex-analysis/ch022/q0007_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\frac { 2 \\pi } { 3 \\sqrt { a ^ { 2 } - 1 } }\">\\frac { 2 \\pi } { 3 \\sqrt { a ^ { 2 } - 1 } }</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/complex-analysis/ch022/q0007_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\frac { 3 \\pi } { 5 \\sqrt { a ^ { 2 } - 1 } } \\leftarrow\">\\frac { 3 \\pi } { 5 \\sqrt { a ^ { 2 } - 1 } } \\leftarrow</span>"
         }
       ],
       "answer": "A",
       "answer_index": 0,
-      "analysis_html": "<img src=\"/static/generated/assets/complex-analysis/ch022/q0007_analysis.png\"/>"
+      "analysis_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{aligned} &amp; \\text{令 } z = e^{z}, \\text{则 } dt = \\frac{dz}{iz}, \\cos t = \\frac{z^{2}+1}{2z}, \\text{于是：} \\\\ &amp; I = \\int_{0}^{2\\pi} \\frac{1}{a + \\frac{z^{2}+1}{2z}} \\frac{dz}{iz} = \\frac{2}{i} \\oint_{|z| = 2} \\frac{1}{z^{2}+2az+1} dz \\\\ &amp; \\qquad = \\frac{2}{i} 2\\pi \\operatorname{Res}[ \\frac{1}{z^{2}+2az+1}, -a + \\sqrt{a^{2}-1} ] = \\frac{2\\pi}{\\sqrt{a^{2}-1}} \\end{aligned}\">\\begin{aligned} &amp; \\text{令 } z = e^{z}, \\text{则 } dt = \\frac{dz}{iz}, \\cos t = \\frac{z^{2}+1}{2z}, \\text{于是：} \\\\ &amp; I = \\int_{0}^{2\\pi} \\frac{1}{a + \\frac{z^{2}+1}{2z}} \\frac{dz}{iz} = \\frac{2}{i} \\oint_{|z| = 2} \\frac{1}{z^{2}+2az+1} dz \\\\ &amp; \\qquad = \\frac{2}{i} 2\\pi \\operatorname{Res}[ \\frac{1}{z^{2}+2az+1}, -a + \\sqrt{a^{2}-1} ] = \\frac{2\\pi}{\\sqrt{a^{2}-1}} \\end{aligned}</div>"
     },
     {
       "id": "q0008",
       "number": 8,
       "header": "#8-Easy",
       "difficulty": "Easy",
-      "prompt_html": "<img src=\"/static/generated/assets/complex-analysis/ch022/q0008_prompt.png\"/>",
+      "prompt_html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{积分} \\, I = \\int _ { - \\infty } ^ { + \\infty } \\frac { x ^ { 2 } } { 1 + x ^ { 4 } } d x = ( \\ \\ ) .\">\\text{积分} \\, I = \\int _ { - \\infty } ^ { + \\infty } \\frac { x ^ { 2 } } { 1 + x ^ { 4 } } d x = ( \\ \\ ) .</span>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/complex-analysis/ch022/q0008_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\frac { \\pi } { \\sqrt { 2 } }\">\\frac { \\pi } { \\sqrt { 2 } }</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/complex-analysis/ch022/q0008_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\mathbf { 0 }\">\\mathbf { 0 }</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/complex-analysis/ch022/q0008_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\frac { \\sqrt { 2 } \\pi } { 3 }\">\\frac { \\sqrt { 2 } \\pi } { 3 }</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/complex-analysis/ch022/q0008_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\frac { \\sqrt { 3 } \\pi } { 4 }\">\\frac { \\sqrt { 3 } \\pi } { 4 }</span>"
         }
       ],
       "answer": "A",
       "answer_index": 0,
-      "analysis_html": "<img src=\"/static/generated/assets/complex-analysis/ch022/q0008_analysis.png\"/>"
+      "analysis_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{array}{l} { r l } &amp; { \\mathrm { 函数 } \\frac { x ^ { 2 } } { 1 + x ^ { 4 } } \\mathrm { 在上半平面内的孤立奇点为 } z _ { 1 } = e ^ { \\frac { \\pi } { 4 } i } , z _ { 2 } = e ^ { \\frac { 3 \\pi } { 4 } i } } \\\\ &amp; { I = \\int _ { - \\infty } ^ { + \\infty } \\frac { x ^ { 2 } } { 1 + x ^ { 4 } } d x = 2 \\pi i \\sum _ { k = 1 } ^ { \\infty } \\mathrm { Res } [ \\frac { z ^ { 2 } } { 1 + z ^ { 4 } } , z _ { k } ] = 2 \\pi i ( \\frac { z ^ { 2 } } { 4 z ^ { 3 } } _ { z = z _ { 0 } } + \\frac { z ^ { 2 } } { 4 z ^ { 3 } } _ { z = z _ { 2 } } ) = \\frac { \\pi } { \\sqrt { 2 } } } \\end{array}\">\\begin{array}{l} { r l } &amp; { \\mathrm { 函数 } \\frac { x ^ { 2 } } { 1 + x ^ { 4 } } \\mathrm { 在上半平面内的孤立奇点为 } z _ { 1 } = e ^ { \\frac { \\pi } { 4 } i } , z _ { 2 } = e ^ { \\frac { 3 \\pi } { 4 } i } } \\\\ &amp; { I = \\int _ { - \\infty } ^ { + \\infty } \\frac { x ^ { 2 } } { 1 + x ^ { 4 } } d x = 2 \\pi i \\sum _ { k = 1 } ^ { \\infty } \\mathrm { Res } [ \\frac { z ^ { 2 } } { 1 + z ^ { 4 } } , z _ { k } ] = 2 \\pi i ( \\frac { z ^ { 2 } } { 4 z ^ { 3 } } _ { z = z _ { 0 } } + \\frac { z ^ { 2 } } { 4 z ^ { 3 } } _ { z = z _ { 2 } } ) = \\frac { \\pi } { \\sqrt { 2 } } } \\end{array}</div>"
     },
     {
       "id": "q0009",
       "number": 9,
       "header": "#9-Averge",
       "difficulty": "Averge",
-      "prompt_html": "<img src=\"/static/generated/assets/complex-analysis/ch022/q0009_prompt.png\"/>",
+      "prompt_html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{积分} \\int_{- \\infty}^{\\infty} \\frac{x^{2}-x+2}{x^{4}+10x^{2}+9} dx = ( \\ \\ ).\">\\text{积分} \\int_{- \\infty}^{\\infty} \\frac{x^{2}-x+2}{x^{4}+10x^{2}+9} dx = ( \\ \\ ).</span>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/complex-analysis/ch022/q0009_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\frac {5 \\pi}{12}\">\\frac {5 \\pi}{12}</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/complex-analysis/ch022/q0009_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\frac { 7 \\pi } { 12 }\">\\frac { 7 \\pi } { 12 }</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/complex-analysis/ch022/q0009_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\frac { 5 \\pi } { 9 }\">\\frac { 5 \\pi } { 9 }</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/complex-analysis/ch022/q0009_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\frac { 7 \\pi } { 9 } \\leftarrow\">\\frac { 7 \\pi } { 9 } \\leftarrow</span>"
         }
       ],
       "answer": "A",
       "answer_index": 0,
-      "analysis_html": "<img src=\"/static/generated/assets/complex-analysis/ch022/q0009_analysis.png\"/>"
+      "analysis_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{aligned} \\text{令}R(z)=&amp;\\frac{x^{2}-x+2}{x^{4}+10x^{2}+9},R(z)\\text{在实轴上无奇点,在上半平面有两个一级极点},\\\\ \\int_{-\\infty}^{\\infty}\\frac{x^{2}-x+2}{x^{4}+10x^{2}+9}dx&amp;=2\\pi i\\left\\{\\operatorname{Res}\\left[R(z),3i\\right]+\\operatorname{Res}\\left[R(z),i\\right]\\right\\}\\\\&amp;=2\\pi i\\left[\\lim_{z\\rightarrow 3i}\\left(z-3i\\right)\\frac{z^{2}-z+2}{z^{4}+10z^{2}+9}+\\lim_{z\\rightarrow i}\\left(z-i\\right)\\frac{z^{2}-z+2}{z^{4}+10z^{2}+9}\\right]\\\\&amp;=2\\pi i\\frac{5}{12}\\pi.\\end{aligned}\">\\begin{aligned} \\text{令}R(z)=&amp;\\frac{x^{2}-x+2}{x^{4}+10x^{2}+9},R(z)\\text{在实轴上无奇点,在上半平面有两个一级极点},\\\\ \\int_{-\\infty}^{\\infty}\\frac{x^{2}-x+2}{x^{4}+10x^{2}+9}dx&amp;=2\\pi i\\left\\{\\operatorname{Res}\\left[R(z),3i\\right]+\\operatorname{Res}\\left[R(z),i\\right]\\right\\}\\\\&amp;=2\\pi i\\left[\\lim_{z\\rightarrow 3i}\\left(z-3i\\right)\\frac{z^{2}-z+2}{z^{4}+10z^{2}+9}+\\lim_{z\\rightarrow i}\\left(z-i\\right)\\frac{z^{2}-z+2}{z^{4}+10z^{2}+9}\\right]\\\\&amp;=2\\pi i\\frac{5}{12}\\pi.\\end{aligned}</div>"
     },
     {
       "id": "q0010",
       "number": 10,
       "header": "#10-Easy",
       "difficulty": "Easy",
-      "prompt_html": "<img src=\"/static/generated/assets/complex-analysis/ch022/q0010_prompt.png\"/>",
+      "prompt_html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{积分} \\, I = \\int _ { 0 } ^ { 2 \\pi } \\frac { 1 } { 1 + a \\sin t } d t ( | a | &lt; 1 ) = ( ) . \\text{a}\">\\text{积分} \\, I = \\int _ { 0 } ^ { 2 \\pi } \\frac { 1 } { 1 + a \\sin t } d t ( | a | &lt; 1 ) = ( ) . \\text{a}</span>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/complex-analysis/ch022/q0010_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\frac { 2 \\pi } { \\sqrt { 1 - a ^ { 2 } } }\">\\frac { 2 \\pi } { \\sqrt { 1 - a ^ { 2 } } }</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/complex-analysis/ch022/q0010_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\frac {\\pi}{\\sqrt {1 - a ^ {2}}}\">\\frac {\\pi}{\\sqrt {1 - a ^ {2}}}</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/complex-analysis/ch022/q0010_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\frac { \\pi } { 2 \\sqrt { 1 - a ^ { 2 } } }\">\\frac { \\pi } { 2 \\sqrt { 1 - a ^ { 2 } } }</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/complex-analysis/ch022/q0010_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\frac { 2 \\pi } { 3 \\sqrt { 1 - a ^ { 2 } } } \\updownarrow\">\\frac { 2 \\pi } { 3 \\sqrt { 1 - a ^ { 2 } } } \\updownarrow</span>"
         }
       ],
       "answer": "A",
       "answer_index": 0,
-      "analysis_html": "<img src=\"/static/generated/assets/complex-analysis/ch022/q0010_analysis.png\"/>"
+      "analysis_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{aligned} \\text{令}z=e^{\\pi}, \\text{则}dt&amp;=\\frac{dz}{iz}, \\sin t=\\frac{z^{2}-1}{i2z}, \\text{于是:} \\\\I&amp;=\\int_{0}^{2\\pi}\\frac{1}{1+\\alpha \\sin t}dt=\\int_{\\pi-1}^{\\pi}\\frac{1}{1+\\alpha \\frac{z^{2}-1}{i2z}}\\frac{dz}{dz}\\\\&amp;=2\\pi \\operatorname{Re} s[\\frac{1}{\\frac{a}{2}z^{2}+iz-\\frac{a}{2}}\\frac{-1+\\sqrt{1-a^{2}}}{a}-i]=\\frac{2\\pi}{\\sqrt{1-a^{2}}}\\end{aligned}\">\\begin{aligned} \\text{令}z=e^{\\pi}, \\text{则}dt&amp;=\\frac{dz}{iz}, \\sin t=\\frac{z^{2}-1}{i2z}, \\text{于是:} \\\\I&amp;=\\int_{0}^{2\\pi}\\frac{1}{1+\\alpha \\sin t}dt=\\int_{\\pi-1}^{\\pi}\\frac{1}{1+\\alpha \\frac{z^{2}-1}{i2z}}\\frac{dz}{dz}\\\\&amp;=2\\pi \\operatorname{Re} s[\\frac{1}{\\frac{a}{2}z^{2}+iz-\\frac{a}{2}}\\frac{-1+\\sqrt{1-a^{2}}}{a}-i]=\\frac{2\\pi}{\\sqrt{1-a^{2}}}\\end{aligned}</div>"
     },
     {
       "id": "q0011",
       "number": 11,
       "header": "#11-Averge",
       "difficulty": "Averge",
-      "prompt_html": "<img src=\"/static/generated/assets/complex-analysis/ch022/q0011_prompt.png\"/>",
+      "prompt_html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{积分} \\, I = \\int \\limits _ { 0 } ^ { 2 \\pi } \\frac { d x } { \\left ( 2 + \\sqrt { 3 } \\cos x \\right ) ^ { 2 } } = ( \\ \\ ) .\">\\text{积分} \\, I = \\int \\limits _ { 0 } ^ { 2 \\pi } \\frac { d x } { \\left ( 2 + \\sqrt { 3 } \\cos x \\right ) ^ { 2 } } = ( \\ \\ ) .</span>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/complex-analysis/ch022/q0011_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"4 \\pi\">4 \\pi</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/complex-analysis/ch022/q0011_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"-\\frac{4\\pi}{3}\">-\\frac{4\\pi}{3}</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/complex-analysis/ch022/q0011_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"- 4 \\pi\">- 4 \\pi</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/complex-analysis/ch022/q0011_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\frac {4 \\pi}{3}\">\\frac {4 \\pi}{3}</span>"
         }
       ],
       "answer": "A",
       "answer_index": 0,
-      "analysis_html": "<img src=\"/static/generated/assets/complex-analysis/ch022/q0011_analysis.png\"/>"
+      "analysis_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{aligned}I&amp;=\\int_{0}^{2\\pi}\\frac{dx}{\\left(2+\\sqrt{3}\\cos x\\right)^{2}}=\\oint_{\\mathbb{H}}\\frac{1}{\\left(2+\\sqrt{3}\\cdot\\frac{z+1}{2}\\right)^{2}}\\frac{dz}{iz}=\\frac{4}{i}\\oint_{\\mathbb{H}}\\frac{z}{\\left(4z+\\sqrt{3}z^{2}+\\sqrt{3}\\right)^{2}}dz\\\\&amp;=\\frac{4}{3i}\\oint_{\\mathbb{H}}\\frac{zdz}{\\left(z^{2}+\\frac{4}{\\sqrt{3}}z+1\\right)^{2}},\\omega\\\\&amp;\\text{由于分母有两个根}z_{1}=-\\frac{1}{\\sqrt{3}},z_{2}=-\\sqrt{3},\\text{其中} |z_{1}|&lt;1,|z_{2}|&gt;1,\\text{因此}\\quad\\omega\\\\&amp;I=\\frac{4}{3i}2\\pi i\\operatorname{Re}s[\\frac{z}{\\left(z^{2}+\\frac{4}{\\sqrt{3}}z+1\\right)^{2}},-\\frac{1}{\\sqrt{3}}]=4\\pi.\\omega\\end{aligned}\">\\begin{aligned}I&amp;=\\int_{0}^{2\\pi}\\frac{dx}{\\left(2+\\sqrt{3}\\cos x\\right)^{2}}=\\oint_{\\mathbb{H}}\\frac{1}{\\left(2+\\sqrt{3}\\cdot\\frac{z+1}{2}\\right)^{2}}\\frac{dz}{iz}=\\frac{4}{i}\\oint_{\\mathbb{H}}\\frac{z}{\\left(4z+\\sqrt{3}z^{2}+\\sqrt{3}\\right)^{2}}dz\\\\&amp;=\\frac{4}{3i}\\oint_{\\mathbb{H}}\\frac{zdz}{\\left(z^{2}+\\frac{4}{\\sqrt{3}}z+1\\right)^{2}},\\omega\\\\&amp;\\text{由于分母有两个根}z_{1}=-\\frac{1}{\\sqrt{3}},z_{2}=-\\sqrt{3},\\text{其中} |z_{1}|&lt;1,|z_{2}|&gt;1,\\text{因此}\\quad\\omega\\\\&amp;I=\\frac{4}{3i}2\\pi i\\operatorname{Re}s[\\frac{z}{\\left(z^{2}+\\frac{4}{\\sqrt{3}}z+1\\right)^{2}},-\\frac{1}{\\sqrt{3}}]=4\\pi.\\omega\\end{aligned}</div>"
     },
     {
       "id": "q0012",
       "number": 12,
       "header": "#12-Averge",
       "difficulty": "Averge",
-      "prompt_html": "<img src=\"/static/generated/assets/complex-analysis/ch022/q0012_prompt.png\"/>",
+      "prompt_html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{积分} \\int _ { 0 } ^ { + \\infty } \\frac { \\cos 2 x } { x ^ { 2 } + 4 } \\mathrm{d} x . = ( \\quad ) \\leftarrow\">\\text{积分} \\int _ { 0 } ^ { + \\infty } \\frac { \\cos 2 x } { x ^ { 2 } + 4 } \\mathrm{d} x . = ( \\quad ) \\leftarrow</span>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/complex-analysis/ch022/q0012_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\frac{\\pi}{4} e^{-4}\">\\frac{\\pi}{4} e^{-4}</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/complex-analysis/ch022/q0012_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\frac { \\pi } { 4 } e ^ { 4 }\">\\frac { \\pi } { 4 } e ^ { 4 }</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/complex-analysis/ch022/q0012_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\frac { \\pi } { 2 } e ^ { - 4 }\">\\frac { \\pi } { 2 } e ^ { - 4 }</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/complex-analysis/ch022/q0012_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\frac { \\pi } { 2 } e ^ { 4 }\">\\frac { \\pi } { 2 } e ^ { 4 }</span>"
         }
       ],
       "answer": "A",
       "answer_index": 0,
-      "analysis_html": "<img src=\"/static/generated/assets/complex-analysis/ch022/q0012_analysis.png\"/>"
+      "analysis_html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{原式} = \\frac { 1 } { 2 } \\int _ { - \\infty } ^ { + \\infty } \\frac { \\mathrm { e } ^ { 2 x i } } { x ^ { 2 } + 4 } \\, \\mathrm { d } x = \\pi \\mathrm { i } \\mathrm { R e } s ( \\frac { \\mathrm { e } ^ { 2 i z } } { z ^ { 2 } + 4 } , 2 \\mathrm { i } ) = \\pi \\mathrm { i } \\, \\frac { \\mathrm { e } ^ { - 4 } } { 4 \\mathrm { i } } = \\frac { \\pi } { 4 } \\, \\mathrm { e } ^ { - 4 } .\">\\text{原式} = \\frac { 1 } { 2 } \\int _ { - \\infty } ^ { + \\infty } \\frac { \\mathrm { e } ^ { 2 x i } } { x ^ { 2 } + 4 } \\, \\mathrm { d } x = \\pi \\mathrm { i } \\mathrm { R e } s ( \\frac { \\mathrm { e } ^ { 2 i z } } { z ^ { 2 } + 4 } , 2 \\mathrm { i } ) = \\pi \\mathrm { i } \\, \\frac { \\mathrm { e } ^ { - 4 } } { 4 \\mathrm { i } } = \\frac { \\pi } { 4 } \\, \\mathrm { e } ^ { - 4 } .</span>"
     },
     {
       "id": "q0013",
       "number": 13,
       "header": "#13-Averge",
       "difficulty": "Averge",
-      "prompt_html": "<img src=\"/static/generated/assets/complex-analysis/ch022/q0013_prompt.png\"/>",
+      "prompt_html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{积分} \\, I = \\int _ { 0 } ^ { + \\infty } \\frac { \\cos x } { x ^ { 4 } + 10 x ^ { 2 } + 9 } \\, dx = ( \\quad ) .\">\\text{积分} \\, I = \\int _ { 0 } ^ { + \\infty } \\frac { \\cos x } { x ^ { 4 } + 10 x ^ { 2 } + 9 } \\, dx = ( \\quad ) .</span>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/complex-analysis/ch022/q0013_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\frac { \\pi } { 48 \\mathrm { e } ^ { 3 } } ( 3 \\mathrm { e } ^ { 2 } - 1 )\">\\frac { \\pi } { 48 \\mathrm { e } ^ { 3 } } ( 3 \\mathrm { e } ^ { 2 } - 1 )</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/complex-analysis/ch022/q0013_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\frac { \\pi } { 24 e ^ { 3 } } ( 3 e ^ { 2 } - 1 )\">\\frac { \\pi } { 24 e ^ { 3 } } ( 3 e ^ { 2 } - 1 )</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/complex-analysis/ch022/q0013_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\frac { \\pi } { 48 e ^ { 2 } } ( 3 e ^ { 2 } - 1 )\">\\frac { \\pi } { 48 e ^ { 2 } } ( 3 e ^ { 2 } - 1 )</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/complex-analysis/ch022/q0013_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\frac { \\pi } { 24 e ^ { 2 } } ( 3 e ^ { 2 } - 1 ) \\Leftrightarrow\">\\frac { \\pi } { 24 e ^ { 2 } } ( 3 e ^ { 2 } - 1 ) \\Leftrightarrow</span>"
         }
       ],
       "answer": "A",
       "answer_index": 0,
-      "analysis_html": "<img src=\"/static/generated/assets/complex-analysis/ch022/q0013_analysis.png\"/>"
+      "analysis_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{aligned} &amp; \\text{在上半平面内，} f(z)=\\frac{e^{iz}}{(z^2+1)(z^2+9)} \\text{有一阶极点} z=i \\text{和} z=3i \\\\ &amp; \\text{因为} I=\\frac{1}{2}\\int_{-\\infty}^{+\\infty}\\frac{\\cos x}{(x^2+1)(x^2+9)}dx=\\frac{1}{2}\\operatorname{Re}\\int_{-\\infty}^{+\\infty}\\frac{e^{ix}}{(x^2+1)(x^2+9)}dx\\\\ &amp; \\quad=\\frac{1}{2}\\operatorname{Re}\\left\\{2\\pi i \\operatorname{Res}[f(z),i]+2\\pi i \\operatorname{Res}[f(z),3i]\\right\\} \\\\ &amp; \\quad\\operatorname{Res}[f(z),i]=\\frac{1}{16ei}, \\qquad \\operatorname{Res}[f(z),3i]=-\\frac{1}{48e^3i}, \\\\ &amp; \\text{所以} I=\\frac{\\pi}{48e^3}(3e^2-1).\\end{aligned}\">\\begin{aligned} &amp; \\text{在上半平面内，} f(z)=\\frac{e^{iz}}{(z^2+1)(z^2+9)} \\text{有一阶极点} z=i \\text{和} z=3i \\\\ &amp; \\text{因为} I=\\frac{1}{2}\\int_{-\\infty}^{+\\infty}\\frac{\\cos x}{(x^2+1)(x^2+9)}dx=\\frac{1}{2}\\operatorname{Re}\\int_{-\\infty}^{+\\infty}\\frac{e^{ix}}{(x^2+1)(x^2+9)}dx\\\\ &amp; \\quad=\\frac{1}{2}\\operatorname{Re}\\left\\{2\\pi i \\operatorname{Res}[f(z),i]+2\\pi i \\operatorname{Res}[f(z),3i]\\right\\} \\\\ &amp; \\quad\\operatorname{Res}[f(z),i]=\\frac{1}{16ei}, \\qquad \\operatorname{Res}[f(z),3i]=-\\frac{1}{48e^3i}, \\\\ &amp; \\text{所以} I=\\frac{\\pi}{48e^3}(3e^2-1).\\end{aligned}</div>"
     },
     {
       "id": "q0014",
       "number": 14,
       "header": "#14-Averge",
       "difficulty": "Averge",
-      "prompt_html": "<img src=\"/static/generated/assets/complex-analysis/ch022/q0014_prompt.png\"/>",
+      "prompt_html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{积分} \\int _ { 0 } ^ { + \\infty } \\frac { x \\sin a x } { x ^ { 2 } + b ^ { 2 } } d x ( a &gt; 0 , b &gt; 0 ) = ( \\ \\ ) .\">\\text{积分} \\int _ { 0 } ^ { + \\infty } \\frac { x \\sin a x } { x ^ { 2 } + b ^ { 2 } } d x ( a &gt; 0 , b &gt; 0 ) = ( \\ \\ ) .</span>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/complex-analysis/ch022/q0014_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\frac { \\pi } { 2 } e ^ { - a b }\">\\frac { \\pi } { 2 } e ^ { - a b }</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/complex-analysis/ch022/q0014_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\pi e ^ { - a b }\">\\pi e ^ { - a b }</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/complex-analysis/ch022/q0014_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\frac { \\pi } { 2 } e ^ { a b }\">\\frac { \\pi } { 2 } e ^ { a b }</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/complex-analysis/ch022/q0014_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\pi e ^ { a b } \\leftarrow\">\\pi e ^ { a b } \\leftarrow</span>"
         }
       ],
       "answer": "A",
       "answer_index": 0,
-      "analysis_html": "<img src=\"/static/generated/assets/complex-analysis/ch022/q0014_analysis.png\"/>"
+      "analysis_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{aligned} \\text{令}R(z)=&amp;\\frac{z}{x^2+b^2},\\text{在实轴上没有奇点，且在上半平面有1个1级极点}z=bi,\\\\ \\int_{-\\infty}^{+\\infty}\\frac{xe^{i\\alpha x}}{x^2+b^2}dx&amp;=2\\pi i\\operatorname{Re}s\\left[\\frac{ze^{i\\alpha z}}{z^2+b^2},bi\\right]=\\pi ie^{-\\alpha b},\\\\ \\int_{0}^{+\\infty}\\frac{x\\sin{ax}}{x^2+b^2}dx&amp;=\\frac{1}{2}\\int_{-\\infty}^{+\\infty}\\frac{x\\sin{ax}}{x^2+b^2}dx=\\frac{1}{2}\\operatorname{Im}\\int_{-\\infty}^{+\\infty}\\frac{xe^{i\\alpha x}}{x^2+b^2}dx\\\\ &amp;=\\frac{1}{2}\\operatorname{Im}\\left[\\pi ie^{-\\alpha b}\\right]=\\frac{\\pi}{2}e^{-\\alpha b}, \\end{aligned}\">\\begin{aligned} \\text{令}R(z)=&amp;\\frac{z}{x^2+b^2},\\text{在实轴上没有奇点，且在上半平面有1个1级极点}z=bi,\\\\ \\int_{-\\infty}^{+\\infty}\\frac{xe^{i\\alpha x}}{x^2+b^2}dx&amp;=2\\pi i\\operatorname{Re}s\\left[\\frac{ze^{i\\alpha z}}{z^2+b^2},bi\\right]=\\pi ie^{-\\alpha b},\\\\ \\int_{0}^{+\\infty}\\frac{x\\sin{ax}}{x^2+b^2}dx&amp;=\\frac{1}{2}\\int_{-\\infty}^{+\\infty}\\frac{x\\sin{ax}}{x^2+b^2}dx=\\frac{1}{2}\\operatorname{Im}\\int_{-\\infty}^{+\\infty}\\frac{xe^{i\\alpha x}}{x^2+b^2}dx\\\\ &amp;=\\frac{1}{2}\\operatorname{Im}\\left[\\pi ie^{-\\alpha b}\\right]=\\frac{\\pi}{2}e^{-\\alpha b}, \\end{aligned}</div>"
     },
     {
       "id": "q0015",
       "number": 15,
       "header": "#15-Easy",
       "difficulty": "Easy",
-      "prompt_html": "<img src=\"/static/generated/assets/complex-analysis/ch022/q0015_prompt.png\"/>",
+      "prompt_html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{积分} \\, I = \\int _ { 0 } ^ { \\pi } \\frac { \\cos 2 t } { 1 - 2 a \\cos t + a ^ { 2 } } d t ( a ^ { 2 } &lt; 1 ) = ( \\quad ) . \\text {√}\">\\text{积分} \\, I = \\int _ { 0 } ^ { \\pi } \\frac { \\cos 2 t } { 1 - 2 a \\cos t + a ^ { 2 } } d t ( a ^ { 2 } &lt; 1 ) = ( \\quad ) . \\text {√}</span>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/complex-analysis/ch022/q0015_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\frac{\\pi a^{2}}{1-a^{2}}\">\\frac{\\pi a^{2}}{1-a^{2}}</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/complex-analysis/ch022/q0015_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\frac { 2 \\pi a ^ { 2 } } { 1 - a ^ { 2 } }\">\\frac { 2 \\pi a ^ { 2 } } { 1 - a ^ { 2 } }</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/complex-analysis/ch022/q0015_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\frac{3 \\pi a ^ { 2 } } { 5 ( 1 - a ^ { 2 } ) }\">\\frac{3 \\pi a ^ { 2 } } { 5 ( 1 - a ^ { 2 } ) }</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/complex-analysis/ch022/q0015_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\frac { 4 \\pi a ^ { 2 } } { 1 - a ^ { 2 } } \\leftarrow\">\\frac { 4 \\pi a ^ { 2 } } { 1 - a ^ { 2 } } \\leftarrow</span>"
         }
       ],
       "answer": "A",
       "answer_index": 0,
-      "analysis_html": "<img src=\"/static/generated/assets/complex-analysis/ch022/q0015_analysis.png\"/>"
+      "analysis_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{aligned} \\text{令}z=e^{t},\\text{则}dt&amp;=\\frac{dz}{iz},\\cos t=\\frac{z^{2}+1}{2z},\\text{于是:} \\\\ I&amp;=\\frac{1}{2}\\int_{-\\pi}^{\\pi}\\frac{\\cos 2t}{1-2a\\cos t+a^{2}}dt=\\frac{1}{2}\\int_{0}^{2\\pi}\\frac{\\cos 2t}{1-2a\\cos t+a^{2}}dt=\\frac{1}{2}\\int_{2\\pi}^{\\frac{z^{4}+1}{2z^{2}}}\\frac{dz}{1-2a\\frac{z^{2}+1}{2z}+a^{2}}dz\\\\ &amp;=\\frac{1}{4i}\\int_{z=-1}^{z=1}\\frac{z^{4}+1}{(z-az^{2}-a+a^{2})z}dz\\\\ &amp;=\\frac{1}{4i}2\\pi\\left(\\operatorname{Re}s[\\frac{z^{4}+1}{z^{3}(z-az^{2}-a+a^{2})z}],0]+\\operatorname{Re}s[\\frac{z^{4}+1}{z^{3}(z-az^{2}-a+a^{2})z}],a]\\right)\\\\ &amp;=\\frac{\\pi}{2}\\left(-\\frac{1+a^{2}}{a^{2}}+\\frac{1+a^{4}}{a^{3}(1-a^{3})}\\right)=\\frac{\\pi a^{2}}{1-a^{2}}\\end{aligned}\">\\begin{aligned} \\text{令}z=e^{t},\\text{则}dt&amp;=\\frac{dz}{iz},\\cos t=\\frac{z^{2}+1}{2z},\\text{于是:} \\\\ I&amp;=\\frac{1}{2}\\int_{-\\pi}^{\\pi}\\frac{\\cos 2t}{1-2a\\cos t+a^{2}}dt=\\frac{1}{2}\\int_{0}^{2\\pi}\\frac{\\cos 2t}{1-2a\\cos t+a^{2}}dt=\\frac{1}{2}\\int_{2\\pi}^{\\frac{z^{4}+1}{2z^{2}}}\\frac{dz}{1-2a\\frac{z^{2}+1}{2z}+a^{2}}dz\\\\ &amp;=\\frac{1}{4i}\\int_{z=-1}^{z=1}\\frac{z^{4}+1}{(z-az^{2}-a+a^{2})z}dz\\\\ &amp;=\\frac{1}{4i}2\\pi\\left(\\operatorname{Re}s[\\frac{z^{4}+1}{z^{3}(z-az^{2}-a+a^{2})z}],0]+\\operatorname{Re}s[\\frac{z^{4}+1}{z^{3}(z-az^{2}-a+a^{2})z}],a]\\right)\\\\ &amp;=\\frac{\\pi}{2}\\left(-\\frac{1+a^{2}}{a^{2}}+\\frac{1+a^{4}}{a^{3}(1-a^{3})}\\right)=\\frac{\\pi a^{2}}{1-a^{2}}\\end{aligned}</div>"
     },
     {
       "id": "q0016",
       "number": 16,
       "header": "#16-Averge",
       "difficulty": "Averge",
-      "prompt_html": "<img src=\"/static/generated/assets/complex-analysis/ch022/q0016_prompt.png\"/>",
+      "prompt_html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\int _ { 0 } ^ { + \\infty } \\frac { \\cos x / 2 } { ( x ^ { 2 } + 4 ) ^ { 2 } } d x . = ( \\quad )\">\\int _ { 0 } ^ { + \\infty } \\frac { \\cos x / 2 } { ( x ^ { 2 } + 4 ) ^ { 2 } } d x . = ( \\quad )</span>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/complex-analysis/ch022/q0016_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\frac { \\pi } { 16 } e ^ { - 1 }\">\\frac { \\pi } { 16 } e ^ { - 1 }</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/complex-analysis/ch022/q0016_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\frac{\\pi}{16} e\">\\frac{\\pi}{16} e</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/complex-analysis/ch022/q0016_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\frac { \\pi } { 8 } e ^ { - 1 }\">\\frac { \\pi } { 8 } e ^ { - 1 }</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/complex-analysis/ch022/q0016_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\frac{\\pi}{8}e\">\\frac{\\pi}{8}e</span>"
         }
       ],
       "answer": "A",
       "answer_index": 0,
-      "analysis_html": "<img src=\"/static/generated/assets/complex-analysis/ch022/q0016_analysis.png\"/>"
+      "analysis_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{aligned}\\text{原式}&amp;=\\frac{1}{2}\\int_{-\\infty}^{+\\infty}\\frac{\\mathrm{e}^{\\frac{x}{2}\\mathrm{i}}}{(x^{2}+4)^{2}}\\,\\mathrm{d}x=\\pi\\mathrm{i}\\mathrm{Res}(\\frac{\\mathrm{e}^{\\frac{3}{2}\\mathrm{i}}}{(z^{2}+4)},2\\mathrm{i})^{\\omega}\\\\&amp;=\\pi\\mathrm{i}[\\frac{\\mathrm{e}^{\\frac{z}{2}\\mathrm{i}}}{(z+2\\mathrm{i})^{2}}]_{z=2\\mathrm{i}}^{\\prime}=\\frac{\\pi}{16\\mathrm{e}}.\\end{aligned}\">\\begin{aligned}\\text{原式}&amp;=\\frac{1}{2}\\int_{-\\infty}^{+\\infty}\\frac{\\mathrm{e}^{\\frac{x}{2}\\mathrm{i}}}{(x^{2}+4)^{2}}\\,\\mathrm{d}x=\\pi\\mathrm{i}\\mathrm{Res}(\\frac{\\mathrm{e}^{\\frac{3}{2}\\mathrm{i}}}{(z^{2}+4)},2\\mathrm{i})^{\\omega}\\\\&amp;=\\pi\\mathrm{i}[\\frac{\\mathrm{e}^{\\frac{z}{2}\\mathrm{i}}}{(z+2\\mathrm{i})^{2}}]_{z=2\\mathrm{i}}^{\\prime}=\\frac{\\pi}{16\\mathrm{e}}.\\end{aligned}</div>"
     },
     {
       "id": "q0017",
       "number": 17,
       "header": "#17-Easy",
       "difficulty": "Easy",
-      "prompt_html": "<img src=\"/static/generated/assets/complex-analysis/ch022/q0017_prompt.png\"/>",
+      "prompt_html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{积分} \\, I = \\int _ { - \\infty } ^ { + \\infty } \\frac { 1 } { x ^ { 2 } + 2 x + 2 } d x = ( \\ \\ ) .\">\\text{积分} \\, I = \\int _ { - \\infty } ^ { + \\infty } \\frac { 1 } { x ^ { 2 } + 2 x + 2 } d x = ( \\ \\ ) .</span>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/complex-analysis/ch022/q0017_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\pi\">\\pi</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/complex-analysis/ch022/q0017_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\mathbf { 0 }\">\\mathbf { 0 }</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/complex-analysis/ch022/q0017_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\frac {\\pi}{3}\">\\frac {\\pi}{3}</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/complex-analysis/ch022/q0017_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\frac { 3 \\pi } { 4 }\">\\frac { 3 \\pi } { 4 }</span>"
         }
       ],
       "answer": "A",
       "answer_index": 0,
-      "analysis_html": "<img src=\"/static/generated/assets/complex-analysis/ch022/q0017_analysis.png\"/>"
+      "analysis_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{aligned}I = \\int_{-\\infty}^{+\\infty} \\frac{1}{x^2 + 2x + 2} dx = 2 \\pi i \\operatorname{Res} [ \\frac{1}{z^2 + 2z + 2}, -1 + i ] = 2 \\pi i ( - \\frac{i}{2} ) = \\pi \\end{aligned}\">\\begin{aligned}I = \\int_{-\\infty}^{+\\infty} \\frac{1}{x^2 + 2x + 2} dx = 2 \\pi i \\operatorname{Res} [ \\frac{1}{z^2 + 2z + 2}, -1 + i ] = 2 \\pi i ( - \\frac{i}{2} ) = \\pi \\end{aligned}</div>"
     },
     {
       "id": "q0018",
       "number": 18,
       "header": "#18-Averge",
       "difficulty": "Averge",
-      "prompt_html": "<img src=\"/static/generated/assets/complex-analysis/ch022/q0018_prompt.png\"/>",
+      "prompt_html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{积分} \\, I = \\int _ { 0 } ^ { \\frac { \\pi } { 2 } } \\frac { 1 } { 1 + \\sin ^ { 2 } x } d x = ( \\quad ) .\">\\text{积分} \\, I = \\int _ { 0 } ^ { \\frac { \\pi } { 2 } } \\frac { 1 } { 1 + \\sin ^ { 2 } x } d x = ( \\quad ) .</span>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/complex-analysis/ch022/q0018_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\frac { \\pi } { 2 \\sqrt { 2 } }\">\\frac { \\pi } { 2 \\sqrt { 2 } }</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/complex-analysis/ch022/q0018_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\frac { \\pi } { \\sqrt { 2 } }\">\\frac { \\pi } { \\sqrt { 2 } }</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/complex-analysis/ch022/q0018_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\frac { \\pi } { 2 }\">\\frac { \\pi } { 2 }</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/complex-analysis/ch022/q0018_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\frac { \\pi } { 3 } \\leftarrow\">\\frac { \\pi } { 3 } \\leftarrow</span>"
         }
       ],
       "answer": "A",
       "answer_index": 0,
-      "analysis_html": "<img src=\"/static/generated/assets/complex-analysis/ch022/q0018_analysis.png\"/>"
+      "analysis_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{aligned}&amp;\\text{由三角函数公式:}\\\\&amp;I=\\int_{0}^{\\frac{\\pi}{2}}\\frac{dx}{1+\\frac{1}{2}(1-\\cos 2x)}\\frac{t=2x}{\\int_{0}^{\\pi}\\frac{dt}{3-\\cos t}}\\\\&amp;=\\frac{1}{2}\\int_{-\\pi}^{\\pi}\\frac{dt}{3-\\cos t}=\\frac{1}{2}\\int_{0}^{2\\pi}\\frac{dt}{3-\\cos t}\\\\&amp;\\text{令}z=e^{iz},\\text{则}dt=\\frac{dz}{iz},\\cos t=\\frac{z^{2}+1}{2z},\\text{于是：}\\\\&amp;I=\\frac{1}{2}\\int_{|z|-\\pi}\\frac{1}{3-\\frac{z^{2}+1}{2z}}dz=i\\oint_{|t|-\\pi}\\frac{1}{z^{2}-6z+1}dz\\\\&amp;\\text{被积函数}f(z)=\\frac{1}{z^{2}-6z+1}\\text{在}|z|=1\\text{内只有一阶极点}z_{0}=3-\\sqrt{8},\\text{由公式}\\\\&amp;\\operatorname{Re}s[f(z),z_{0}]=\\lim_{i\\rightarrow z_{0}}\\frac{1}{[z^{2}-6z+1]^{i}}=\\frac{-1}{4\\sqrt{2}}\\\\&amp;\\text{故由留数定理.}\\\\&amp;I=i2\\pi i\\frac{-1}{4\\sqrt{2}}=\\frac{\\pi}{2\\sqrt{2}}\\end{aligned}\">\\begin{aligned}&amp;\\text{由三角函数公式:}\\\\&amp;I=\\int_{0}^{\\frac{\\pi}{2}}\\frac{dx}{1+\\frac{1}{2}(1-\\cos 2x)}\\frac{t=2x}{\\int_{0}^{\\pi}\\frac{dt}{3-\\cos t}}\\\\&amp;=\\frac{1}{2}\\int_{-\\pi}^{\\pi}\\frac{dt}{3-\\cos t}=\\frac{1}{2}\\int_{0}^{2\\pi}\\frac{dt}{3-\\cos t}\\\\&amp;\\text{令}z=e^{iz},\\text{则}dt=\\frac{dz}{iz},\\cos t=\\frac{z^{2}+1}{2z},\\text{于是：}\\\\&amp;I=\\frac{1}{2}\\int_{|z|-\\pi}\\frac{1}{3-\\frac{z^{2}+1}{2z}}dz=i\\oint_{|t|-\\pi}\\frac{1}{z^{2}-6z+1}dz\\\\&amp;\\text{被积函数}f(z)=\\frac{1}{z^{2}-6z+1}\\text{在}|z|=1\\text{内只有一阶极点}z_{0}=3-\\sqrt{8},\\text{由公式}\\\\&amp;\\operatorname{Re}s[f(z),z_{0}]=\\lim_{i\\rightarrow z_{0}}\\frac{1}{[z^{2}-6z+1]^{i}}=\\frac{-1}{4\\sqrt{2}}\\\\&amp;\\text{故由留数定理.}\\\\&amp;I=i2\\pi i\\frac{-1}{4\\sqrt{2}}=\\frac{\\pi}{2\\sqrt{2}}\\end{aligned}</div>"
     },
     {
       "id": "q0019",
       "number": 19,
       "header": "#19-Easy",
       "difficulty": "Easy",
-      "prompt_html": "<img src=\"/static/generated/assets/complex-analysis/ch022/q0019_prompt.png\"/>",
+      "prompt_html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{积分} \\, I = \\int _ { 0 } ^ { + \\infty } \\frac { x ^ { 2 } } { ( 1 + x ^ { 2 } ) ^ { 2 } } d x = ( \\quad ) .\">\\text{积分} \\, I = \\int _ { 0 } ^ { + \\infty } \\frac { x ^ { 2 } } { ( 1 + x ^ { 2 } ) ^ { 2 } } d x = ( \\quad ) .</span>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/complex-analysis/ch022/q0019_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\frac {\\pi}{4}\">\\frac {\\pi}{4}</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/complex-analysis/ch022/q0019_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\frac { \\pi } { 2 }\">\\frac { \\pi } { 2 }</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/complex-analysis/ch022/q0019_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\frac {\\pi}{8}\">\\frac {\\pi}{8}</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/complex-analysis/ch022/q0019_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\frac {3 \\pi}{4}\">\\frac {3 \\pi}{4}</span>"
         }
       ],
       "answer": "A",
       "answer_index": 0,
-      "analysis_html": "<img src=\"/static/generated/assets/complex-analysis/ch022/q0019_analysis.png\"/>"
+      "analysis_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{aligned}I=\\int_{0}^{+\\infty}\\frac{x^{2}}{\\left( 1+x^{2}\\right) ^{2}}dx=\\frac{1}{2}\\int_{-\\infty}^{+\\infty}\\frac{x^{2}}{\\left( 1+x^{2}\\right) ^{2}}dx=\\pi i\\operatorname{Re}s[\\frac{z^{2}}{\\left( 1+z^{2}\\right) ^{2}},i]=\\pi i\\lim_{z\\rightarrow i}\\left( (z-i)^{2}\\frac{z^{2}}{\\left( 1+z^{2}\\right) ^{2}}\\right) ^{\\prime}=\\frac{\\pi}{4}\\end{aligned}\">\\begin{aligned}I=\\int_{0}^{+\\infty}\\frac{x^{2}}{\\left( 1+x^{2}\\right) ^{2}}dx=\\frac{1}{2}\\int_{-\\infty}^{+\\infty}\\frac{x^{2}}{\\left( 1+x^{2}\\right) ^{2}}dx=\\pi i\\operatorname{Re}s[\\frac{z^{2}}{\\left( 1+z^{2}\\right) ^{2}},i]=\\pi i\\lim_{z\\rightarrow i}\\left( (z-i)^{2}\\frac{z^{2}}{\\left( 1+z^{2}\\right) ^{2}}\\right) ^{\\prime}=\\frac{\\pi}{4}\\end{aligned}</div>"
     },
     {
       "id": "q0020",
       "number": 20,
       "header": "#20-Easy",
       "difficulty": "Easy",
-      "prompt_html": "<img src=\"/static/generated/assets/complex-analysis/ch022/q0020_prompt.png\"/>",
+      "prompt_html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{积分} \\, I = \\int _ { - \\infty } ^ { + \\infty } \\frac { x } { ( 1 + x ^ { 2 } ) ( x ^ { 2 } + 2 x + 2 ) } d x = ( \\ \\ ) .\">\\text{积分} \\, I = \\int _ { - \\infty } ^ { + \\infty } \\frac { x } { ( 1 + x ^ { 2 } ) ( x ^ { 2 } + 2 x + 2 ) } d x = ( \\ \\ ) .</span>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/complex-analysis/ch022/q0020_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"- \\frac { \\pi } { 5 }\">- \\frac { \\pi } { 5 }</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/complex-analysis/ch022/q0020_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\mathbf { 0 }\">\\mathbf { 0 }</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/complex-analysis/ch022/q0020_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\frac {\\pi}{3}\">\\frac {\\pi}{3}</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/complex-analysis/ch022/q0020_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\frac { 5 \\pi } { 6 }\">\\frac { 5 \\pi } { 6 }</span>"
         }
       ],
       "answer": "A",
       "answer_index": 0,
-      "analysis_html": "<img src=\"/static/generated/assets/complex-analysis/ch022/q0020_analysis.png\"/>"
+      "analysis_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{aligned}&amp;\\text{函数}\\frac{z}{(1+z^2)(z^2+2z+2)}\\text{在上半平面内的孤立奇点为}z_1=i,z_2=-1+i\\\\&amp;I=\\int_{-\\infty}^{\\infty}\\frac{x}{(1+x^2)(x^2+2x+2)}dx=2\\pi i\\sum_{k=1}^2\\mathrm{Re}[ \\frac{z}{(1+z^2)(z^2+2z+2)},z_k]=2\\pi i(\\frac{1}{2i-4}+\\frac{-1+i}{2i+4})=-\\frac{\\pi}{5}\\end{aligned}\">\\begin{aligned}&amp;\\text{函数}\\frac{z}{(1+z^2)(z^2+2z+2)}\\text{在上半平面内的孤立奇点为}z_1=i,z_2=-1+i\\\\&amp;I=\\int_{-\\infty}^{\\infty}\\frac{x}{(1+x^2)(x^2+2x+2)}dx=2\\pi i\\sum_{k=1}^2\\mathrm{Re}[ \\frac{z}{(1+z^2)(z^2+2z+2)},z_k]=2\\pi i(\\frac{1}{2i-4}+\\frac{-1+i}{2i+4})=-\\frac{\\pi}{5}\\end{aligned}</div>"
     },
     {
       "id": "q0021",
       "number": 21,
       "header": "#21-Averge",
       "difficulty": "Averge",
-      "prompt_html": "<img src=\"/static/generated/assets/complex-analysis/ch022/q0021_prompt.png\"/>",
+      "prompt_html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{积分} \\int_{0}^{+\\infty} \\frac{dx}{(x^{2}+4)^{2}(x^{2}+1)}.=(\\quad)\">\\text{积分} \\int_{0}^{+\\infty} \\frac{dx}{(x^{2}+4)^{2}(x^{2}+1)}.=(\\quad)</span>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/complex-analysis/ch022/q0021_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\frac { 5 } { 288 } \\pi\">\\frac { 5 } { 288 } \\pi</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/complex-analysis/ch022/q0021_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\frac {11}{144} \\pi\">\\frac {11}{144} \\pi</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/complex-analysis/ch022/q0021_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\frac { 7 } { 288 } \\pi\">\\frac { 7 } { 288 } \\pi</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/complex-analysis/ch022/q0021_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\frac {1}{144} \\pi\">\\frac {1}{144} \\pi</span>"
         }
       ],
       "answer": "A",
       "answer_index": 0,
-      "analysis_html": "<img src=\"/static/generated/assets/complex-analysis/ch022/q0021_analysis.png\"/>"
+      "analysis_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{aligned}\\mathrm{i}\\dot{c}\\,I&amp;=\\int_{0}^{+\\infty}\\frac{\\mathrm{d}x}{(x^{2}+4)^{2}(x^{2}+1)}=\\frac{1}{2}\\int_{-\\infty}^{+\\infty}\\frac{\\mathrm{d}x}{(x^{2}+4)^{2}(x^{2}+1)}\\,{}^{\\omega}\\\\&amp;=\\pi i[\\mathrm{Res}[\\frac{1}{(z^{2}+4)^{2}(z^{2}+1)},i]\\!+\\mathrm{Res}[\\frac{1}{(z^{2}+4)^{2}(z^{2}+1)},2i]]\\,{}^{\\omega}\\\\&amp;=\\pi i(-\\frac{\\mathrm{i}}{9\\times 2}+\\frac{22}{9\\times 4^{3}}\\mathrm{i})=\\frac{5\\pi}{288}\\,{}^{\\omega}.\\end{aligned}\">\\begin{aligned}\\mathrm{i}\\dot{c}\\,I&amp;=\\int_{0}^{+\\infty}\\frac{\\mathrm{d}x}{(x^{2}+4)^{2}(x^{2}+1)}=\\frac{1}{2}\\int_{-\\infty}^{+\\infty}\\frac{\\mathrm{d}x}{(x^{2}+4)^{2}(x^{2}+1)}\\,{}^{\\omega}\\\\&amp;=\\pi i[\\mathrm{Res}[\\frac{1}{(z^{2}+4)^{2}(z^{2}+1)},i]\\!+\\mathrm{Res}[\\frac{1}{(z^{2}+4)^{2}(z^{2}+1)},2i]]\\,{}^{\\omega}\\\\&amp;=\\pi i(-\\frac{\\mathrm{i}}{9\\times 2}+\\frac{22}{9\\times 4^{3}}\\mathrm{i})=\\frac{5\\pi}{288}\\,{}^{\\omega}.\\end{aligned}</div>"
     },
     {
       "id": "q0022",
       "number": 22,
       "header": "#22-Averge",
       "difficulty": "Averge",
-      "prompt_html": "<img src=\"/static/generated/assets/complex-analysis/ch022/q0022_prompt.png\"/>",
+      "prompt_html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{设} a &gt; 0 , \\text{则积分} \\int _ { 0 } ^ { + \\infty } \\frac { x \\sin x } { x ^ { 2 } + a ^ { 2 } } d x = ( \\quad ) \\Leftrightarrow\">\\text{设} a &gt; 0 , \\text{则积分} \\int _ { 0 } ^ { + \\infty } \\frac { x \\sin x } { x ^ { 2 } + a ^ { 2 } } d x = ( \\quad ) \\Leftrightarrow</span>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/complex-analysis/ch022/q0022_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\frac { \\pi } { 2 } e ^ { - a }\">\\frac { \\pi } { 2 } e ^ { - a }</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/complex-analysis/ch022/q0022_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\pi e ^ { - a }\">\\pi e ^ { - a }</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/complex-analysis/ch022/q0022_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\frac { \\pi } { 4 } e ^ { - a }\">\\frac { \\pi } { 4 } e ^ { - a }</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/complex-analysis/ch022/q0022_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\frac { \\pi } { 3 } e ^ { - a }\">\\frac { \\pi } { 3 } e ^ { - a }</span>"
         }
       ],
       "answer": "A",
       "answer_index": 0,
-      "analysis_html": "<img src=\"/static/generated/assets/complex-analysis/ch022/q0022_analysis.png\"/>"
+      "analysis_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{aligned}\\int_{-\\infty}^{+\\infty}\\frac{x}{x^{2}+a^{2}}e^{ix}dx&amp;=2\\pi i\\operatorname{Res}\\left[R(z)e^{iz},ai\\right]^{i}\\\\&amp;=2\\pi i\\lim_{i\\rightarrow ia}\\frac{ze^{iz}}{z+ia}=2\\pi i\\frac{e^{-a}}{2}=\\pi ie^{-a},\\\\\\text{因此}\\int_{0}^{+\\infty}\\frac{x}{x^{2}+a^{2}}e^{ix}dx&amp;=\\operatorname{Im}\\left(\\frac{1}{2}\\int_{-\\infty}^{+\\infty}\\frac{x}{x^{2}+a^{2}}e^{ix}dx\\right)=\\frac{\\pi}{2}e^{-a},\\end{aligned}\">\\begin{aligned}\\int_{-\\infty}^{+\\infty}\\frac{x}{x^{2}+a^{2}}e^{ix}dx&amp;=2\\pi i\\operatorname{Res}\\left[R(z)e^{iz},ai\\right]^{i}\\\\&amp;=2\\pi i\\lim_{i\\rightarrow ia}\\frac{ze^{iz}}{z+ia}=2\\pi i\\frac{e^{-a}}{2}=\\pi ie^{-a},\\\\\\text{因此}\\int_{0}^{+\\infty}\\frac{x}{x^{2}+a^{2}}e^{ix}dx&amp;=\\operatorname{Im}\\left(\\frac{1}{2}\\int_{-\\infty}^{+\\infty}\\frac{x}{x^{2}+a^{2}}e^{ix}dx\\right)=\\frac{\\pi}{2}e^{-a},\\end{aligned}</div>"
     },
     {
       "id": "q0023",
       "number": 23,
       "header": "#23-Easy",
       "difficulty": "Easy",
-      "prompt_html": "<img src=\"/static/generated/assets/complex-analysis/ch022/q0023_prompt.png\"/>",
+      "prompt_html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{积分} I = \\int _ { 0 } ^ { 2 \\pi } \\frac { 1 } { 1 - 2 a \\cos t + a ^ { 2 } } d t ( 0 &lt; a &lt; 1 ) = ( \\quad ) . \\text{√}\">\\text{积分} I = \\int _ { 0 } ^ { 2 \\pi } \\frac { 1 } { 1 - 2 a \\cos t + a ^ { 2 } } d t ( 0 &lt; a &lt; 1 ) = ( \\quad ) . \\text{√}</span>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/complex-analysis/ch022/q0023_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\frac { 2 \\pi } { 1 - a ^ { 2 } }\">\\frac { 2 \\pi } { 1 - a ^ { 2 } }</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/complex-analysis/ch022/q0023_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\frac{\\pi}{3(1-a^{2})}\">\\frac{\\pi}{3(1-a^{2})}</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/complex-analysis/ch022/q0023_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\frac { 3 \\pi } { 4 ( 1 - a ^ { 2 } ) }\">\\frac { 3 \\pi } { 4 ( 1 - a ^ { 2 } ) }</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/complex-analysis/ch022/q0023_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\frac{2 \\pi}{3 (1 - a ^ { 2 } ) } \\uparrow\">\\frac{2 \\pi}{3 (1 - a ^ { 2 } ) } \\uparrow</span>"
         }
       ],
       "answer": "A",
       "answer_index": 0,
-      "analysis_html": "<img src=\"/static/generated/assets/complex-analysis/ch022/q0023_analysis.png\"/>"
+      "analysis_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{aligned}&amp; \\text{令} z=e^z, \\text{则} dt=\\frac{dz}{iz}, \\cos t=\\frac{z^2+1}{2z}, \\text{于是:} \\\\&amp; I=\\int_{z=a}^z \\frac{1}{1-2a\\frac{z^2+1}{2z}+a^2} \\frac{dz}{iz}=\\frac{1}{i}2\\pi \\operatorname{Re}s[\\frac{1}{(z-a)(1-az)},a]=\\frac{2\\pi}{1-a^2},\\end{aligned}\">\\begin{aligned}&amp; \\text{令} z=e^z, \\text{则} dt=\\frac{dz}{iz}, \\cos t=\\frac{z^2+1}{2z}, \\text{于是:} \\\\&amp; I=\\int_{z=a}^z \\frac{1}{1-2a\\frac{z^2+1}{2z}+a^2} \\frac{dz}{iz}=\\frac{1}{i}2\\pi \\operatorname{Re}s[\\frac{1}{(z-a)(1-az)},a]=\\frac{2\\pi}{1-a^2},\\end{aligned}</div>"
     },
     {
       "id": "q0024",
       "number": 24,
       "header": "#24-Averge",
       "difficulty": "Averge",
-      "prompt_html": "<img src=\"/static/generated/assets/complex-analysis/ch022/q0024_prompt.png\"/>",
+      "prompt_html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{积分} \\int _ { 0 } ^ { 2 \\pi } \\frac { d \\theta } { 1 + 2 i \\sin \\theta } . = ( \\quad ) .\">\\text{积分} \\int _ { 0 } ^ { 2 \\pi } \\frac { d \\theta } { 1 + 2 i \\sin \\theta } . = ( \\quad ) .</span>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/complex-analysis/ch022/q0024_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\frac { 2 \\sqrt { 5 } } { 5 } \\pi\">\\frac { 2 \\sqrt { 5 } } { 5 } \\pi</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/complex-analysis/ch022/q0024_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\frac { \\sqrt { 5 } } { 5 } \\pi\">\\frac { \\sqrt { 5 } } { 5 } \\pi</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/complex-analysis/ch022/q0024_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\frac { 3 \\sqrt { 5 } } { 5 } \\pi\">\\frac { 3 \\sqrt { 5 } } { 5 } \\pi</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/complex-analysis/ch022/q0024_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\sqrt { 5 } \\pi\">\\sqrt { 5 } \\pi</span>"
         }
       ],
       "answer": "A",
       "answer_index": 0,
-      "analysis_html": "<img src=\"/static/generated/assets/complex-analysis/ch022/q0024_analysis.png\"/>"
+      "analysis_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{aligned}&amp; \\text{令 } z=\\mathrm{e}^{\\mathrm{i}\\theta}, \\text{ 则 } 2\\mathrm{i}\\sin\\theta=z-z^{-1}, \\mathrm{d}z=\\mathrm{i}\\mathrm{d}\\theta \\circ\\\\&amp; \\text{原积分}=\\oint_{z=4}\\frac{\\mathrm{d}z}{\\mathrm{i}(z^{2}+z-1)}\\\\&amp; \\text{若 } z^{2}+z-1=0, \\text{ 则有 } z=\\frac{-1\\pm\\sqrt{5}}{2} \\text{ 两个零点，仅有 } \\frac{\\sqrt{5}-1}{2} \\text{ 在 } |z|&lt;1 \\text{ 内},\\\\&amp; \\text{Re}(\\frac{1}{z^{2}+z-1},\\frac{\\sqrt{5}-1}{2})=\\frac{1}{\\sqrt{5}}=\\frac{-\\sqrt{5}}{5}\\\\&amp; \\text{于是 } \\int_{0}^{2\\pi}\\frac{\\mathrm{d}\\theta}{1+2\\mathrm{i}\\sin\\theta}=\\frac{2\\pi}{5}\\sqrt{5}.\\end{aligned}\">\\begin{aligned}&amp; \\text{令 } z=\\mathrm{e}^{\\mathrm{i}\\theta}, \\text{ 则 } 2\\mathrm{i}\\sin\\theta=z-z^{-1}, \\mathrm{d}z=\\mathrm{i}\\mathrm{d}\\theta \\circ\\\\&amp; \\text{原积分}=\\oint_{z=4}\\frac{\\mathrm{d}z}{\\mathrm{i}(z^{2}+z-1)}\\\\&amp; \\text{若 } z^{2}+z-1=0, \\text{ 则有 } z=\\frac{-1\\pm\\sqrt{5}}{2} \\text{ 两个零点，仅有 } \\frac{\\sqrt{5}-1}{2} \\text{ 在 } |z|&lt;1 \\text{ 内},\\\\&amp; \\text{Re}(\\frac{1}{z^{2}+z-1},\\frac{\\sqrt{5}-1}{2})=\\frac{1}{\\sqrt{5}}=\\frac{-\\sqrt{5}}{5}\\\\&amp; \\text{于是 } \\int_{0}^{2\\pi}\\frac{\\mathrm{d}\\theta}{1+2\\mathrm{i}\\sin\\theta}=\\frac{2\\pi}{5}\\sqrt{5}.\\end{aligned}</div>"
     },
     {
       "id": "q0025",
       "number": 25,
       "header": "#25-Averge",
       "difficulty": "Averge",
-      "prompt_html": "<img src=\"/static/generated/assets/complex-analysis/ch022/q0025_prompt.png\"/>",
+      "prompt_html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{积分} \\, I = \\int _ { 0 } ^ { + \\infty } \\frac { x \\sin x } { 1 + x ^ { 2 } } d x = ( \\quad ) .\">\\text{积分} \\, I = \\int _ { 0 } ^ { + \\infty } \\frac { x \\sin x } { 1 + x ^ { 2 } } d x = ( \\quad ) .</span>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/complex-analysis/ch022/q0025_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\frac { \\pi } { 2 e }\">\\frac { \\pi } { 2 e }</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/complex-analysis/ch022/q0025_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\frac { \\pi e } { 3 }\">\\frac { \\pi e } { 3 }</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/complex-analysis/ch022/q0025_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\frac {\\pi}{e}\">\\frac {\\pi}{e}</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/complex-analysis/ch022/q0025_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\frac { 3 \\pi e } { 5 }\">\\frac { 3 \\pi e } { 5 }</span>"
         }
       ],
       "answer": "A",
       "answer_index": 0,
-      "analysis_html": "<img src=\"/static/generated/assets/complex-analysis/ch022/q0025_analysis.png\"/>"
+      "analysis_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{aligned}I=&amp;\\int_{0}^{+\\infty}\\frac{x\\sin x}{1+x^{2}}dx=\\frac{1}{2}\\int_{-\\infty}^{+\\infty}\\frac{x\\sin x}{1+x^{2}}dx=\\frac{1}{2i}\\left(\\int_{-\\infty}^{+\\infty}\\frac{ix\\sin x}{1+x^{2}}dx+\\int_{-\\infty}^{+\\infty}\\frac{x\\cos x}{1+x^{2}}dx\\right)=\\frac{1}{2i}\\int_{-\\infty}^{+\\infty}\\frac{x}{1+x^{2}}e^{ix}dx\\\\=&amp;\\frac{1}{2i}2\\pi i\\operatorname{Re}s[\\frac{z}{1+z^{2}}e^{iz},i]=\\frac{\\pi}{2e}\\end{aligned}\">\\begin{aligned}I=&amp;\\int_{0}^{+\\infty}\\frac{x\\sin x}{1+x^{2}}dx=\\frac{1}{2}\\int_{-\\infty}^{+\\infty}\\frac{x\\sin x}{1+x^{2}}dx=\\frac{1}{2i}\\left(\\int_{-\\infty}^{+\\infty}\\frac{ix\\sin x}{1+x^{2}}dx+\\int_{-\\infty}^{+\\infty}\\frac{x\\cos x}{1+x^{2}}dx\\right)=\\frac{1}{2i}\\int_{-\\infty}^{+\\infty}\\frac{x}{1+x^{2}}e^{ix}dx\\\\=&amp;\\frac{1}{2i}2\\pi i\\operatorname{Re}s[\\frac{z}{1+z^{2}}e^{iz},i]=\\frac{\\pi}{2e}\\end{aligned}</div>"
     },
     {
       "id": "q0026",
       "number": 26,
       "header": "#26-Averge",
       "difficulty": "Averge",
-      "prompt_html": "<img src=\"/static/generated/assets/complex-analysis/ch022/q0026_prompt.png\"/>",
+      "prompt_html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{当}a&gt;0\\text{时,积分}I=\\int_{-\\infty}^{+\\infty}\\frac{x^{2}}{\\left(x^{2}+a^{2}\\right)^{2}}dx=(\\ \\ ).\">\\text{当}a&gt;0\\text{时,积分}I=\\int_{-\\infty}^{+\\infty}\\frac{x^{2}}{\\left(x^{2}+a^{2}\\right)^{2}}dx=(\\ \\ ).</span>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/complex-analysis/ch022/q0026_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\frac { \\pi } { 2 a }\">\\frac { \\pi } { 2 a }</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/complex-analysis/ch022/q0026_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\frac { \\pi } { a }\">\\frac { \\pi } { a }</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/complex-analysis/ch022/q0026_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\frac { 2 \\pi } { 3 a }\">\\frac { 2 \\pi } { 3 a }</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/complex-analysis/ch022/q0026_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\frac {3 \\pi}{5 a} \\leftarrow\">\\frac {3 \\pi}{5 a} \\leftarrow</span>"
         }
       ],
       "answer": "A",
       "answer_index": 0,
-      "analysis_html": "<img src=\"/static/generated/assets/complex-analysis/ch022/q0026_analysis.png\"/>"
+      "analysis_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{array}{l} \\text {记} f(z) = \\frac{z^{2}}{(z^{2}+a^{2})^{2}}，\\text{它共有两个二阶极点}，\\text{且} (z^{2}+a^{2}) \\text{在实轴上无奇点}，\\text{在上半平面仅有二阶极点} ai，\\text{所以}：\\\\ \\int_{z=0}^{z=\\infty} \\frac{x^{2}}{(x^{2}+a^{2})^{2}} dx = 2\\pi i \\operatorname{Re}s[f(z),ai] = 2\\pi i \\lim_{z \\rightarrow a} [(\\frac{z}{z+ai})^{2}]&#x27; = 2\\pi i \\lim_{z \\rightarrow ai} \\frac{2zai}{(z+ai)^{3}} = \\frac{\\pi}{2a} \\end{array}\">\\begin{array}{l} \\text {记} f(z) = \\frac{z^{2}}{(z^{2}+a^{2})^{2}}，\\text{它共有两个二阶极点}，\\text{且} (z^{2}+a^{2}) \\text{在实轴上无奇点}，\\text{在上半平面仅有二阶极点} ai，\\text{所以}：\\\\ \\int_{z=0}^{z=\\infty} \\frac{x^{2}}{(x^{2}+a^{2})^{2}} dx = 2\\pi i \\operatorname{Re}s[f(z),ai] = 2\\pi i \\lim_{z \\rightarrow a} [(\\frac{z}{z+ai})^{2}]&#x27; = 2\\pi i \\lim_{z \\rightarrow ai} \\frac{2zai}{(z+ai)^{3}} = \\frac{\\pi}{2a} \\end{array}</div>"
     },
     {
       "id": "q0027",
       "number": 27,
       "header": "#27-Hard",
       "difficulty": "Hard",
-      "prompt_html": "<img src=\"/static/generated/assets/complex-analysis/ch022/q0027_prompt.png\"/>",
+      "prompt_html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{积分} \\, I = \\int _ { 0 } ^ { \\pi } \\frac { \\sin ^ { 2 } 3 t } { 1 - 2 a \\cos t + a ^ { 2 } } d t ( \\, | \\, a | &lt; 1 ) = ( \\quad ) . \\Leftrightarrow\">\\text{积分} \\, I = \\int _ { 0 } ^ { \\pi } \\frac { \\sin ^ { 2 } 3 t } { 1 - 2 a \\cos t + a ^ { 2 } } d t ( \\, | \\, a | &lt; 1 ) = ( \\quad ) . \\Leftrightarrow</span>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/complex-analysis/ch022/q0027_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\frac{\\pi}{2} (1 + a^{2} + a^{4})\">\\frac{\\pi}{2} (1 + a^{2} + a^{4})</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/complex-analysis/ch022/q0027_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\frac{\\pi (1 + a^{6})}{2 (1 - a^{2})}\">\\frac{\\pi (1 + a^{6})}{2 (1 - a^{2})}</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/complex-analysis/ch022/q0027_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\frac {\\pi}{2 (1 - a ^ {2})}\">\\frac {\\pi}{2 (1 - a ^ {2})}</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/complex-analysis/ch022/q0027_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\frac{\\pi a^{6}}{2(1-a^{2})} \\Leftrightarrow\">\\frac{\\pi a^{6}}{2(1-a^{2})} \\Leftrightarrow</span>"
         }
       ],
       "answer": "A",
       "answer_index": 0,
-      "analysis_html": "<img src=\"/static/generated/assets/complex-analysis/ch022/q0027_analysis.png\"/>"
+      "analysis_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{aligned}&amp;\\text{由三角函数公式:}\\\\&amp;I=\\int_{0}^{\\pi}\\frac{\\sin^{2}3t}{1-2a\\cos t+a^{2}}dt=\\frac{1}{2}\\int_{0}^{\\pi}\\frac{1-\\cos 6t}{1-2a\\cos t+a^{2}}dt=\\frac{1}{4}\\int_{-\\pi}^{\\pi}\\frac{1-\\cos 6t}{1-2a\\cos t+a^{2}}dt\\\\&amp;=\\frac{1}{4}\\int_{0}^{2\\pi}\\frac{1-\\cos 6t}{1-2a\\cos t+a^{2}}dt\\\\&amp;\\quad\\text{令}z=e^{t},\\text{则}dt=\\frac{dz}{iz},\\cos t=\\frac{z^{2}+1}{2z},\\text{于是:}\\\\&amp;\\int_{0}^{2\\pi}\\frac{1}{1-2a\\cos t+a^{2}}dt=\\oint_{z=1}^{2\\pi}\\frac{1}{1-2a\\frac{z^{2}+1}{2z}+a^{2}}\\frac{dz}{iz}=i\\frac{2\\pi}{i}\\operatorname{Re}s[\\frac{1}{(z-a)(1-az)},a]=\\frac{2\\pi}{1-a^{2}}\\\\&amp;\\int_{0}^{2\\pi}\\frac{\\sin 6t}{1-2a\\cos t+a^{2}}dt=\\int_{0}^{2\\pi}\\frac{\\sin 6t}{1-2a\\cos t+a^{2}}dt+i\\int_{-\\pi}^{\\pi}\\frac{\\sin 6t}{1-2a\\cos t+a^{2}}dt\\\\&amp;=\\int_{0}^{2\\pi}\\frac{e^{i6t}}{1-2a\\cos t+a^{2}}dt=\\frac{1}{i}\\oint_{\\pi}^{\\pi}\\frac{z^{6}}{1-2a\\frac{z^{2}+1}{2z}+a^{2}}\\frac{dz}{iz}\\\\&amp;=\\frac{1}{i}2\\pi\\operatorname{Re}s[\\frac{z^{6}}{(z-a)(1-az)},a]=\\frac{2\\pi a^{6}}{1-a^{2}}\\\\&amp;\\quad\\text{于是}\\\\&amp;I=\\frac{1}{4}(\\frac{2\\pi}{1-a^{2}}-\\frac{2\\pi a^{6}}{1-a^{2}})=\\frac{\\pi(1-a^{6})}{2(1-a^{2})}=\\frac{\\pi}{2}(1+a^{2}+a^{4}).\\end{aligned}\">\\begin{aligned}&amp;\\text{由三角函数公式:}\\\\&amp;I=\\int_{0}^{\\pi}\\frac{\\sin^{2}3t}{1-2a\\cos t+a^{2}}dt=\\frac{1}{2}\\int_{0}^{\\pi}\\frac{1-\\cos 6t}{1-2a\\cos t+a^{2}}dt=\\frac{1}{4}\\int_{-\\pi}^{\\pi}\\frac{1-\\cos 6t}{1-2a\\cos t+a^{2}}dt\\\\&amp;=\\frac{1}{4}\\int_{0}^{2\\pi}\\frac{1-\\cos 6t}{1-2a\\cos t+a^{2}}dt\\\\&amp;\\quad\\text{令}z=e^{t},\\text{则}dt=\\frac{dz}{iz},\\cos t=\\frac{z^{2}+1}{2z},\\text{于是:}\\\\&amp;\\int_{0}^{2\\pi}\\frac{1}{1-2a\\cos t+a^{2}}dt=\\oint_{z=1}^{2\\pi}\\frac{1}{1-2a\\frac{z^{2}+1}{2z}+a^{2}}\\frac{dz}{iz}=i\\frac{2\\pi}{i}\\operatorname{Re}s[\\frac{1}{(z-a)(1-az)},a]=\\frac{2\\pi}{1-a^{2}}\\\\&amp;\\int_{0}^{2\\pi}\\frac{\\sin 6t}{1-2a\\cos t+a^{2}}dt=\\int_{0}^{2\\pi}\\frac{\\sin 6t}{1-2a\\cos t+a^{2}}dt+i\\int_{-\\pi}^{\\pi}\\frac{\\sin 6t}{1-2a\\cos t+a^{2}}dt\\\\&amp;=\\int_{0}^{2\\pi}\\frac{e^{i6t}}{1-2a\\cos t+a^{2}}dt=\\frac{1}{i}\\oint_{\\pi}^{\\pi}\\frac{z^{6}}{1-2a\\frac{z^{2}+1}{2z}+a^{2}}\\frac{dz}{iz}\\\\&amp;=\\frac{1}{i}2\\pi\\operatorname{Re}s[\\frac{z^{6}}{(z-a)(1-az)},a]=\\frac{2\\pi a^{6}}{1-a^{2}}\\\\&amp;\\quad\\text{于是}\\\\&amp;I=\\frac{1}{4}(\\frac{2\\pi}{1-a^{2}}-\\frac{2\\pi a^{6}}{1-a^{2}})=\\frac{\\pi(1-a^{6})}{2(1-a^{2})}=\\frac{\\pi}{2}(1+a^{2}+a^{4}).\\end{aligned}</div>"
     },
     {
       "id": "q0028",
       "number": 28,
       "header": "#28-Easy",
       "difficulty": "Easy",
-      "prompt_html": "<img src=\"/static/generated/assets/complex-analysis/ch022/q0028_prompt.png\"/>",
+      "prompt_html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{积分} \\quad I = \\int _ { 0 } ^ { 2 \\pi } \\frac { 1 } { \\frac { 5 } { 4 } + \\sin t } d t = \\quad ( \\quad ) . \\Leftrightarrow\">\\text{积分} \\quad I = \\int _ { 0 } ^ { 2 \\pi } \\frac { 1 } { \\frac { 5 } { 4 } + \\sin t } d t = \\quad ( \\quad ) . \\Leftrightarrow</span>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/complex-analysis/ch022/q0028_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\frac { 8 } { 3 } \\pi\">\\frac { 8 } { 3 } \\pi</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/complex-analysis/ch022/q0028_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\frac { 4 } { 3 } \\pi\">\\frac { 4 } { 3 } \\pi</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/complex-analysis/ch022/q0028_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\frac { 2 \\pi } { 3 }\">\\frac { 2 \\pi } { 3 }</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/complex-analysis/ch022/q0028_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\frac{3 \\pi}{4} \\leftarrow\">\\frac{3 \\pi}{4} \\leftarrow</span>"
         }
       ],
       "answer": "A",
       "answer_index": 0,
-      "analysis_html": "<img src=\"/static/generated/assets/complex-analysis/ch022/q0028_analysis.png\"/>"
+      "analysis_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{aligned} \\text{令 } z=e^{x}, \\text{则 } dt=\\frac{dz}{iz}, \\sin t=\\frac{z^{2}-1}{i2z}, \\text{于是:} \\\\ I=\\int_{0}^{2\\pi}\\frac{1}{\\frac{5}{4}+\\sin x}dx=\\oint_{z=1}^{\\infty}\\frac{1}{\\frac{5}{4}+\\frac{z^{2}-1}{i2z}}\\frac{dz}{iz}=2\\pi\\operatorname{Re}s[\\frac{4}{2z^{2}+i5z-2},-\\frac{i}{2}]=\\frac{8}{3}\\pi \\end{aligned}\">\\begin{aligned} \\text{令 } z=e^{x}, \\text{则 } dt=\\frac{dz}{iz}, \\sin t=\\frac{z^{2}-1}{i2z}, \\text{于是:} \\\\ I=\\int_{0}^{2\\pi}\\frac{1}{\\frac{5}{4}+\\sin x}dx=\\oint_{z=1}^{\\infty}\\frac{1}{\\frac{5}{4}+\\frac{z^{2}-1}{i2z}}\\frac{dz}{iz}=2\\pi\\operatorname{Re}s[\\frac{4}{2z^{2}+i5z-2},-\\frac{i}{2}]=\\frac{8}{3}\\pi \\end{aligned}</div>"
     },
     {
       "id": "q0029",
       "number": 29,
       "header": "#29-Averge",
       "difficulty": "Averge",
-      "prompt_html": "<img src=\"/static/generated/assets/complex-analysis/ch022/q0029_prompt.png\"/>",
+      "prompt_html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{积分} \\, I = \\int _ { 0 } ^ { + \\infty } \\frac { \\cos x } { ( 1 + x ^ { 2 } ) ^ { 2 } } d x = ( \\quad ) .\">\\text{积分} \\, I = \\int _ { 0 } ^ { + \\infty } \\frac { \\cos x } { ( 1 + x ^ { 2 } ) ^ { 2 } } d x = ( \\quad ) .</span>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/complex-analysis/ch022/q0029_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\frac { \\pi } { 2 e }\">\\frac { \\pi } { 2 e }</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/complex-analysis/ch022/q0029_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\frac {\\pi}{e}\">\\frac {\\pi}{e}</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/complex-analysis/ch022/q0029_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\frac { \\pi e } { 2 }\">\\frac { \\pi e } { 2 }</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/complex-analysis/ch022/q0029_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\frac { \\pi e } { 5 }\">\\frac { \\pi e } { 5 }</span>"
         }
       ],
       "answer": "A",
       "answer_index": 0,
-      "analysis_html": "<img src=\"/static/generated/assets/complex-analysis/ch022/q0029_analysis.png\"/>"
+      "analysis_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{aligned}I&amp;=\\int_{0}^{+\\infty}\\frac{\\cos x}{(1+x^{2})^{2}}dx=\\frac{1}{2}\\int_{-\\infty}^{+\\infty}\\frac{\\cos x}{(1+x^{2})^{2}}dx=\\frac{1}{2}\\int_{-\\infty}^{+\\infty}\\frac{e^{ix}}{(1+x^{2})^{2}}dx\\\\&amp;=\\frac{1}{2}\\,2\\pi i\\operatorname{Re}s[\\frac{e^{iz}}{(1+z^{2})^{2}},i]=\\frac{\\pi}{2e}\\end{aligned}\">\\begin{aligned}I&amp;=\\int_{0}^{+\\infty}\\frac{\\cos x}{(1+x^{2})^{2}}dx=\\frac{1}{2}\\int_{-\\infty}^{+\\infty}\\frac{\\cos x}{(1+x^{2})^{2}}dx=\\frac{1}{2}\\int_{-\\infty}^{+\\infty}\\frac{e^{ix}}{(1+x^{2})^{2}}dx\\\\&amp;=\\frac{1}{2}\\,2\\pi i\\operatorname{Re}s[\\frac{e^{iz}}{(1+z^{2})^{2}},i]=\\frac{\\pi}{2e}\\end{aligned}</div>"
     },
     {
       "id": "q0030",
       "number": 30,
       "header": "#30-Averge",
       "difficulty": "Averge",
-      "prompt_html": "<img src=\"/static/generated/assets/complex-analysis/ch022/q0030_prompt.png\"/>",
+      "prompt_html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{积分} \\, I = \\int \\limits _ { - \\infty } ^ { + \\infty } \\frac { x ^ { 2 } } { x ^ { 4 } + x ^ { 2 } + 1 } d x = ( \\ \\ ) .\">\\text{积分} \\, I = \\int \\limits _ { - \\infty } ^ { + \\infty } \\frac { x ^ { 2 } } { x ^ { 4 } + x ^ { 2 } + 1 } d x = ( \\ \\ ) .</span>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/complex-analysis/ch022/q0030_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\frac { \\pi } { \\sqrt { 3 } }\">\\frac { \\pi } { \\sqrt { 3 } }</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/complex-analysis/ch022/q0030_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\frac { 2 \\pi } { \\sqrt { 3 } }\">\\frac { 2 \\pi } { \\sqrt { 3 } }</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/complex-analysis/ch022/q0030_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\frac {\\pi}{2}\">\\frac {\\pi}{2}</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/complex-analysis/ch022/q0030_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\frac { 4 \\pi } { \\sqrt { 3 } } \\leftarrow\">\\frac { 4 \\pi } { \\sqrt { 3 } } \\leftarrow</span>"
         }
       ],
       "answer": "A",
       "answer_index": 0,
-      "analysis_html": "<img src=\"/static/generated/assets/complex-analysis/ch022/q0030_analysis.png\"/>"
+      "analysis_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{aligned}&amp; \\text{取}f(z)=\\frac{z^2}{z^4+z^2+1}=\\frac{z^2}{\\big(z^2+z+1\\big)\\big(z^2+z+1\\big)}, \\text{孤立点为}\\\\&amp; z_1=\\frac{1}{2}+\\frac{\\sqrt{3}}{2}i, z_2=-\\frac{1}{2}+\\frac{\\sqrt{3}}{2}i, z_3=\\frac{1}{2}-\\frac{\\sqrt{3}}{2}i, z_4=-\\frac{1}{2}-\\frac{\\sqrt{3}}{2}i,\\\\&amp; \\text{其中落在上半平面的为}z_1,z_2,\\text{故}\\\\&amp; I=2\\pi\\sum_{k=1}^2\\operatorname{Res}[f(z),z_k]=\\frac{\\pi}{\\sqrt{3}},\\end{aligned}\">\\begin{aligned}&amp; \\text{取}f(z)=\\frac{z^2}{z^4+z^2+1}=\\frac{z^2}{\\big(z^2+z+1\\big)\\big(z^2+z+1\\big)}, \\text{孤立点为}\\\\&amp; z_1=\\frac{1}{2}+\\frac{\\sqrt{3}}{2}i, z_2=-\\frac{1}{2}+\\frac{\\sqrt{3}}{2}i, z_3=\\frac{1}{2}-\\frac{\\sqrt{3}}{2}i, z_4=-\\frac{1}{2}-\\frac{\\sqrt{3}}{2}i,\\\\&amp; \\text{其中落在上半平面的为}z_1,z_2,\\text{故}\\\\&amp; I=2\\pi\\sum_{k=1}^2\\operatorname{Res}[f(z),z_k]=\\frac{\\pi}{\\sqrt{3}},\\end{aligned}</div>"
     },
     {
       "id": "q0031",
       "number": 31,
       "header": "#31-Easy",
       "difficulty": "Easy",
-      "prompt_html": "<img src=\"/static/generated/assets/complex-analysis/ch022/q0031_prompt.png\"/>",
+      "prompt_html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{积分} I = \\int _ { 0 } ^ { 2 \\pi } \\frac { 1 } { 5 + 3 \\sin t } d t = ( ) . \\text{√}\">\\text{积分} I = \\int _ { 0 } ^ { 2 \\pi } \\frac { 1 } { 5 + 3 \\sin t } d t = ( ) . \\text{√}</span>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/complex-analysis/ch022/q0031_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\frac {\\pi}{2}\">\\frac {\\pi}{2}</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/complex-analysis/ch022/q0031_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\frac { 3 } { 4 } \\pi\">\\frac { 3 } { 4 } \\pi</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/complex-analysis/ch022/q0031_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\frac{\\pi}{4}\">\\frac{\\pi}{4}</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/complex-analysis/ch022/q0031_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\frac {3 \\pi}{5} \\leftarrow\">\\frac {3 \\pi}{5} \\leftarrow</span>"
         }
       ],
       "answer": "A",
       "answer_index": 0,
-      "analysis_html": "<img src=\"/static/generated/assets/complex-analysis/ch022/q0031_analysis.png\"/>"
+      "analysis_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{aligned} \\text{令 } z = e^{ix}, \\text{则 } dt = \\frac{dz}{iz}, \\sin t = \\frac{z^2-1}{i2z}, \\text{于是:} \\\\ I = \\int_0^{2\\pi} \\frac{1}{5+3\\sin x} dx = \\oint_{z=-i}^i \\frac{1}{5+ \\frac{z^2-1}{i2z}} \\frac{dz}{iz} = 2\\pi \\operatorname{Re}s[\\frac{2}{3z^2+i10z-3}, -\\frac{i}{3}] = \\frac{\\pi}{2}, \\end{aligned}\">\\begin{aligned} \\text{令 } z = e^{ix}, \\text{则 } dt = \\frac{dz}{iz}, \\sin t = \\frac{z^2-1}{i2z}, \\text{于是:} \\\\ I = \\int_0^{2\\pi} \\frac{1}{5+3\\sin x} dx = \\oint_{z=-i}^i \\frac{1}{5+ \\frac{z^2-1}{i2z}} \\frac{dz}{iz} = 2\\pi \\operatorname{Re}s[\\frac{2}{3z^2+i10z-3}, -\\frac{i}{3}] = \\frac{\\pi}{2}, \\end{aligned}</div>"
     },
     {
       "id": "q0032",
       "number": 32,
       "header": "#32-Easy",
       "difficulty": "Easy",
-      "prompt_html": "<img src=\"/static/generated/assets/complex-analysis/ch022/q0032_prompt.png\"/>",
+      "prompt_html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{积分} \\int_{- \\infty}^{+ \\infty} \\frac{dx}{(x^{2}+6x+10)^{3}}.=() \\uparrow\">\\text{积分} \\int_{- \\infty}^{+ \\infty} \\frac{dx}{(x^{2}+6x+10)^{3}}.=() \\uparrow</span>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/complex-analysis/ch022/q0032_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\frac { 3 } { 8 } \\pi\">\\frac { 3 } { 8 } \\pi</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/complex-analysis/ch022/q0032_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\frac { 1 } { 8 } \\pi\">\\frac { 1 } { 8 } \\pi</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/complex-analysis/ch022/q0032_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\frac { 5 } { 8 } \\pi\">\\frac { 5 } { 8 } \\pi</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/complex-analysis/ch022/q0032_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\frac { 1 } { 4 } \\pi\">\\frac { 1 } { 4 } \\pi</span>"
         }
       ],
       "answer": "A",
       "answer_index": 0,
-      "analysis_html": "<img src=\"/static/generated/assets/complex-analysis/ch022/q0032_analysis.png\"/>"
+      "analysis_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{aligned}\\text{原式} &amp; = 2 \\pi \\mathrm{i} \\mathrm{Res} (\\frac{1}{(z^2+6z+10)^3}, \\mathrm{i}-3) \\Leftarrow \\\\ &amp; = \\pi \\mathrm{i} [\\frac{1}{(z+3+\\mathrm{i})^3}] \\Bigg|_{z=-3} = \\pi \\mathrm{i} \\frac{12}{2^5 \\mathrm{i}^5} = \\frac{3}{8} \\pi. \\Leftarrow \\end{aligned}\">\\begin{aligned}\\text{原式} &amp; = 2 \\pi \\mathrm{i} \\mathrm{Res} (\\frac{1}{(z^2+6z+10)^3}, \\mathrm{i}-3) \\Leftarrow \\\\ &amp; = \\pi \\mathrm{i} [\\frac{1}{(z+3+\\mathrm{i})^3}] \\Bigg|_{z=-3} = \\pi \\mathrm{i} \\frac{12}{2^5 \\mathrm{i}^5} = \\frac{3}{8} \\pi. \\Leftarrow \\end{aligned}</div>"
     },
     {
       "id": "q0033",
       "number": 33,
       "header": "#33-Averge",
       "difficulty": "Averge",
-      "prompt_html": "<img src=\"/static/generated/assets/complex-analysis/ch022/q0033_prompt.png\"/>",
+      "prompt_html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{积分} \\int_{- \\infty}^{+ \\infty} \\frac{2 \\cos x}{x^{2}+4x+5} dx = ( \\quad )\">\\text{积分} \\int_{- \\infty}^{+ \\infty} \\frac{2 \\cos x}{x^{2}+4x+5} dx = ( \\quad )</span>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/complex-analysis/ch022/q0033_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\frac { 2 \\pi } { e } \\cos 2\">\\frac { 2 \\pi } { e } \\cos 2</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/complex-analysis/ch022/q0033_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\frac {2 \\pi}{e} \\sin 2\">\\frac {2 \\pi}{e} \\sin 2</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/complex-analysis/ch022/q0033_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\frac { 4 \\pi } { e } \\cos 2\">\\frac { 4 \\pi } { e } \\cos 2</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/complex-analysis/ch022/q0033_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\frac { 4 \\pi } { e } \\sin 2\">\\frac { 4 \\pi } { e } \\sin 2</span>"
         }
       ],
       "answer": "A",
       "answer_index": 0,
-      "analysis_html": "<img src=\"/static/generated/assets/complex-analysis/ch022/q0033_analysis.png\"/>"
+      "analysis_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{aligned}\\int_{-\\infty}^{+\\infty}\\frac{e^{iz}}{x^{2}+4x+5}dx&amp;=2\\pi i\\operatorname{Re}s[\\frac{e^{iz}}{z^{2}+4z+5},-2+i]\\\\&amp;=2\\pi i\\lim_{z\\rightarrow 2+i}(z-(-2+i))\\frac{e^{iz}}{z^{2}+4z+5}=\\frac{\\pi}{e}(\\cos 2-i\\sin 2)\\,d\\varphi\\\\ \\int_{-\\infty}^{+\\infty}\\frac{2\\cos x}{x^{2}+4x+5}dx&amp;=2\\operatorname{Re}f\\int_{-\\infty}^{+\\infty}\\frac{e^{iz}}{x^{2}+4x+5}dx=\\frac{2\\pi}{e}\\cos 2\\end{aligned}\">\\begin{aligned}\\int_{-\\infty}^{+\\infty}\\frac{e^{iz}}{x^{2}+4x+5}dx&amp;=2\\pi i\\operatorname{Re}s[\\frac{e^{iz}}{z^{2}+4z+5},-2+i]\\\\&amp;=2\\pi i\\lim_{z\\rightarrow 2+i}(z-(-2+i))\\frac{e^{iz}}{z^{2}+4z+5}=\\frac{\\pi}{e}(\\cos 2-i\\sin 2)\\,d\\varphi\\\\ \\int_{-\\infty}^{+\\infty}\\frac{2\\cos x}{x^{2}+4x+5}dx&amp;=2\\operatorname{Re}f\\int_{-\\infty}^{+\\infty}\\frac{e^{iz}}{x^{2}+4x+5}dx=\\frac{2\\pi}{e}\\cos 2\\end{aligned}</div>"
     },
     {
       "id": "q0034",
       "number": 34,
       "header": "#34-Averge",
       "difficulty": "Averge",
-      "prompt_html": "<img src=\"/static/generated/assets/complex-analysis/ch022/q0034_prompt.png\"/>",
+      "prompt_html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{积分} \\int _ { 0 } ^ { \\pi } \\frac { d \\theta } { a ^ { 2 } + \\sin ^ { 2 } \\theta } ( a &gt; 0 ) = ( ) .\">\\text{积分} \\int _ { 0 } ^ { \\pi } \\frac { d \\theta } { a ^ { 2 } + \\sin ^ { 2 } \\theta } ( a &gt; 0 ) = ( ) .</span>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/complex-analysis/ch022/q0034_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\frac { \\pi } { a \\sqrt { a ^ { 2 } + 1 } }\">\\frac { \\pi } { a \\sqrt { a ^ { 2 } + 1 } }</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/complex-analysis/ch022/q0034_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\frac { 2 \\pi } { a \\sqrt { a ^ { 2 } + 1 } }\">\\frac { 2 \\pi } { a \\sqrt { a ^ { 2 } + 1 } }</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/complex-analysis/ch022/q0034_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\frac { \\pi } { \\sqrt { a ^ { 2 } + 1 } }\">\\frac { \\pi } { \\sqrt { a ^ { 2 } + 1 } }</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/complex-analysis/ch022/q0034_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\frac { 2 \\pi } { \\sqrt { a ^ { 2 } + 1 } } \\uparrow\">\\frac { 2 \\pi } { \\sqrt { a ^ { 2 } + 1 } } \\uparrow</span>"
         }
       ],
       "answer": "A",
       "answer_index": 0,
-      "analysis_html": "<img src=\"/static/generated/assets/complex-analysis/ch022/q0034_analysis.png\"/>"
+      "analysis_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{aligned}\\int_{0}^{\\pi}\\frac{d\\theta}{a^{2}+\\sin^{2}\\theta}=&amp;\\int_{0}^{\\pi}\\frac{d\\theta}{a^{2}+\\frac{1-\\cos2\\theta}{2}}\\\\ \\text{设}\\alpha=2\\theta,\\ \\int_{0}^{\\pi}\\frac{d\\theta}{a^{2}+\\sin^{2}\\theta}=&amp;\\int_{0}^{2\\pi}\\frac{d\\alpha}{2a^{2}+1-\\cos\\alpha}\\\\ =&amp;\\oint_{\\mathbb{H}^{2}}\\frac{1}{2a^{2}+1-\\frac{1}{2}\\left(z+\\frac{1}{z}\\right)}\\frac{1}{iz}dz\\\\ =&amp;\\frac{1}{i}\\oint_{\\mathbb{H}^{2}}\\frac{2}{2\\left(2a^{2}+1\\right)z-z^{2}-1}dz\\\\ =&amp;2\\pi i\\frac{1}{i}\\mathrm{Res}\\left[\\frac{2}{2\\left(2a^{2}+1\\right)z-z^{2}-1},2a^{2}+1-2a\\sqrt{a^{2}+1}\\right]^{i}\\\\ =&amp;\\frac{\\pi}{a\\sqrt{a^{2}+1}}.\\end{aligned}\">\\begin{aligned}\\int_{0}^{\\pi}\\frac{d\\theta}{a^{2}+\\sin^{2}\\theta}=&amp;\\int_{0}^{\\pi}\\frac{d\\theta}{a^{2}+\\frac{1-\\cos2\\theta}{2}}\\\\ \\text{设}\\alpha=2\\theta,\\ \\int_{0}^{\\pi}\\frac{d\\theta}{a^{2}+\\sin^{2}\\theta}=&amp;\\int_{0}^{2\\pi}\\frac{d\\alpha}{2a^{2}+1-\\cos\\alpha}\\\\ =&amp;\\oint_{\\mathbb{H}^{2}}\\frac{1}{2a^{2}+1-\\frac{1}{2}\\left(z+\\frac{1}{z}\\right)}\\frac{1}{iz}dz\\\\ =&amp;\\frac{1}{i}\\oint_{\\mathbb{H}^{2}}\\frac{2}{2\\left(2a^{2}+1\\right)z-z^{2}-1}dz\\\\ =&amp;2\\pi i\\frac{1}{i}\\mathrm{Res}\\left[\\frac{2}{2\\left(2a^{2}+1\\right)z-z^{2}-1},2a^{2}+1-2a\\sqrt{a^{2}+1}\\right]^{i}\\\\ =&amp;\\frac{\\pi}{a\\sqrt{a^{2}+1}}.\\end{aligned}</div>"
     },
     {
       "id": "q0035",
       "number": 35,
       "header": "#35-Easy",
       "difficulty": "Easy",
-      "prompt_html": "<img src=\"/static/generated/assets/complex-analysis/ch022/q0035_prompt.png\"/>",
+      "prompt_html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{积分} \\, I = \\int _ { - \\infty } ^ { + \\infty } \\frac { \\cos x } { ( x ^ { 2 } + 1 ) ( x ^ { 2 } + 9 ) } d x = ( \\quad ) .\">\\text{积分} \\, I = \\int _ { - \\infty } ^ { + \\infty } \\frac { \\cos x } { ( x ^ { 2 } + 1 ) ( x ^ { 2 } + 9 ) } d x = ( \\quad ) .</span>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/complex-analysis/ch022/q0035_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\frac { \\pi } { 24 e ^ { 3 } } ( 3 e ^ { 2 } - 1 )\">\\frac { \\pi } { 24 e ^ { 3 } } ( 3 e ^ { 2 } - 1 )</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/complex-analysis/ch022/q0035_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\frac { \\pi } { 24 } ( e ^ { 2 } + 1 )\">\\frac { \\pi } { 24 } ( e ^ { 2 } + 1 )</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/complex-analysis/ch022/q0035_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\frac { \\pi } { 12 } ( 2 e ^ { 2 } - 1 )\">\\frac { \\pi } { 12 } ( 2 e ^ { 2 } - 1 )</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/complex-analysis/ch022/q0035_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\frac { \\pi } { 12 } ( e ^ { 2 } + 1 )\">\\frac { \\pi } { 12 } ( e ^ { 2 } + 1 )</span>"
         }
       ],
       "answer": "A",
       "answer_index": 0,
-      "analysis_html": "<img src=\"/static/generated/assets/complex-analysis/ch022/q0035_analysis.png\"/>"
+      "analysis_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{aligned}I=&amp;\\int_{-\\infty}^{+\\infty}\\frac{\\cos x}{(x^2+1)(x^2+9)}dx\\\\=&amp;\\int_{-\\infty}^{+\\infty}\\frac{\\cos x}{(x^2+1)(x^2+9)}dx+\\int_{-\\infty}^{+\\infty}\\frac{i\\sin x}{(x^2+1)(x^2+9)}dx\\\\=&amp;2\\pi i\\left[\\mathrm{Res}\\bigl[\\frac{e^{iz}}{(z^2+1)(z^2+9)},i\\bigr]+\\mathrm{Res}\\bigl[\\frac{e^{iz}}{(z^2+1)(z^2+9)},3i\\bigr]\\right)\\\\=&amp;\\frac{\\pi}{24e^3}(3e^2-1)\\end{aligned}\">\\begin{aligned}I=&amp;\\int_{-\\infty}^{+\\infty}\\frac{\\cos x}{(x^2+1)(x^2+9)}dx\\\\=&amp;\\int_{-\\infty}^{+\\infty}\\frac{\\cos x}{(x^2+1)(x^2+9)}dx+\\int_{-\\infty}^{+\\infty}\\frac{i\\sin x}{(x^2+1)(x^2+9)}dx\\\\=&amp;2\\pi i\\left[\\mathrm{Res}\\bigl[\\frac{e^{iz}}{(z^2+1)(z^2+9)},i\\bigr]+\\mathrm{Res}\\bigl[\\frac{e^{iz}}{(z^2+1)(z^2+9)},3i\\bigr]\\right)\\\\=&amp;\\frac{\\pi}{24e^3}(3e^2-1)\\end{aligned}</div>"
     },
     {
       "id": "q0036",
       "number": 36,
       "header": "#36-Averge",
       "difficulty": "Averge",
-      "prompt_html": "<img src=\"/static/generated/assets/complex-analysis/ch022/q0036_prompt.png\"/>",
+      "prompt_html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{积分} \\, I = \\int \\limits _ { 0 } ^ { + \\infty } \\frac { x \\sin m x } { x ^ { 4 } + a ^ { 4 } } d x = ( \\ \\ ) . \\ ( m &gt; 0 , a &gt; 0 ) .\">\\text{积分} \\, I = \\int \\limits _ { 0 } ^ { + \\infty } \\frac { x \\sin m x } { x ^ { 4 } + a ^ { 4 } } d x = ( \\ \\ ) . \\ ( m &gt; 0 , a &gt; 0 ) .</span>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/complex-analysis/ch022/q0036_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\frac { \\pi } { 2 a ^ { 2 } } e ^ { - \\frac { m a } { \\sqrt { 2 } } } \\sin \\frac { m a } { \\sqrt { 2 } }\">\\frac { \\pi } { 2 a ^ { 2 } } e ^ { - \\frac { m a } { \\sqrt { 2 } } } \\sin \\frac { m a } { \\sqrt { 2 } }</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/complex-analysis/ch022/q0036_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\frac { \\pi } { 2 a ^ { 2 } } e ^ { - \\frac { m a } { \\sqrt { 2 } } } \\cos \\frac { m a } { \\sqrt { 2 } }\">\\frac { \\pi } { 2 a ^ { 2 } } e ^ { - \\frac { m a } { \\sqrt { 2 } } } \\cos \\frac { m a } { \\sqrt { 2 } }</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/complex-analysis/ch022/q0036_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\frac { \\pi i } { a ^ { 2 } } e ^ { - \\frac { m a } { \\sqrt { 2 } } } \\sin \\frac { m a } { \\sqrt { 2 } }\">\\frac { \\pi i } { a ^ { 2 } } e ^ { - \\frac { m a } { \\sqrt { 2 } } } \\sin \\frac { m a } { \\sqrt { 2 } }</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/complex-analysis/ch022/q0036_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\frac { \\pi i } { a ^ { 2 } } e ^ { - \\frac { m a } { \\sqrt { 2 } } } \\cos \\frac { m a } { \\sqrt { 2 } } +\">\\frac { \\pi i } { a ^ { 2 } } e ^ { - \\frac { m a } { \\sqrt { 2 } } } \\cos \\frac { m a } { \\sqrt { 2 } } +</span>"
         }
       ],
       "answer": "A",
       "answer_index": 0,
-      "analysis_html": "<img src=\"/static/generated/assets/complex-analysis/ch022/q0036_analysis.png\"/>"
+      "analysis_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{aligned}&amp;\\text{被积函数为偶函数,}\\\\&amp;\\text{所以}I=\\int\\limits_{0}^{+\\infty}\\frac{x\\sin mx}{x^{4}+a^{4}}dx=\\frac{1}{2}\\int\\limits_{-\\infty}^{+\\infty}\\frac{x\\sin mx}{x^{4}+a^{4}}dx=\\frac{1}{2}Im\\int\\limits_{-\\infty}^{+\\infty}\\frac{xe^{mx}}{x^{4}+a^{4}}dx,\\text{设函数关系式为}\\\\&amp;f(z)=\\frac{ze^{imz}}{z^{4}+a^{4}},\\text{它共有四个一阶极点,即}z_{k}=ae^{\\frac{\\pi+2k\\pi_{i}}{4}}(k=0,1,2,3),\\text{因为}a&gt;0,\\text{所以}f(z)\\text{在上半面只有两个一阶极点}z_{0}\\text{及}z_{1},\\text{于是}\\\\&amp;\\int\\limits_{-\\infty}^{+\\infty}\\frac{xe^{mx}}{x^{4}+a^{4}}dx=2\\pi i\\sum_{k=0}^{1}\\mathrm{Res}\\left[\\frac{ze^{imz}}{z^{4}+a^{4}},z_{k}\\right]=\\frac{\\pi i}{a^{2}}e^{-\\frac{ma}{\\sqrt{3}}}\\sin\\frac{ma}{\\sqrt{2}},\\\\&amp;\\text{故}I=\\int\\limits_{0}^{+\\infty}\\frac{x\\sin mx}{x^{4}+a^{4}}dx=\\frac{1}{2}Im\\int\\limits_{-\\infty}^{+\\infty}\\frac{xe^{mx}}{x^{4}+a^{4}}dx=\\frac{\\pi}{2a^{2}}e^{\\frac{\\sqrt{3}}{2}}\\sin\\frac{ma}{\\sqrt{2}}\\end{aligned}\">\\begin{aligned}&amp;\\text{被积函数为偶函数,}\\\\&amp;\\text{所以}I=\\int\\limits_{0}^{+\\infty}\\frac{x\\sin mx}{x^{4}+a^{4}}dx=\\frac{1}{2}\\int\\limits_{-\\infty}^{+\\infty}\\frac{x\\sin mx}{x^{4}+a^{4}}dx=\\frac{1}{2}Im\\int\\limits_{-\\infty}^{+\\infty}\\frac{xe^{mx}}{x^{4}+a^{4}}dx,\\text{设函数关系式为}\\\\&amp;f(z)=\\frac{ze^{imz}}{z^{4}+a^{4}},\\text{它共有四个一阶极点,即}z_{k}=ae^{\\frac{\\pi+2k\\pi_{i}}{4}}(k=0,1,2,3),\\text{因为}a&gt;0,\\text{所以}f(z)\\text{在上半面只有两个一阶极点}z_{0}\\text{及}z_{1},\\text{于是}\\\\&amp;\\int\\limits_{-\\infty}^{+\\infty}\\frac{xe^{mx}}{x^{4}+a^{4}}dx=2\\pi i\\sum_{k=0}^{1}\\mathrm{Res}\\left[\\frac{ze^{imz}}{z^{4}+a^{4}},z_{k}\\right]=\\frac{\\pi i}{a^{2}}e^{-\\frac{ma}{\\sqrt{3}}}\\sin\\frac{ma}{\\sqrt{2}},\\\\&amp;\\text{故}I=\\int\\limits_{0}^{+\\infty}\\frac{x\\sin mx}{x^{4}+a^{4}}dx=\\frac{1}{2}Im\\int\\limits_{-\\infty}^{+\\infty}\\frac{xe^{mx}}{x^{4}+a^{4}}dx=\\frac{\\pi}{2a^{2}}e^{\\frac{\\sqrt{3}}{2}}\\sin\\frac{ma}{\\sqrt{2}}\\end{aligned}</div>"
     }
-  ]
+  ],
+  "format": "latex",
+  "source_md": "fb_(1)/留数的应用(36题)/留数的应用(36题).md"
 }

@@ -13,756 +13,758 @@
       "number": 1,
       "header": "#1-Averge",
       "difficulty": "Averge",
-      "prompt_html": "<img src=\"/static/generated/assets/probability/ch128/q0001_prompt.png\"/>",
+      "prompt_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{aligned} \\text{为比较甲、乙两种安眠药的疗效，将20名患者分成两组，每组10人，如服药后延长的睡眠时间分别服从正态分布，其数据为(单位：小时)：} \\\\ \\text{甲：} \\begin{array}{r r r r r r r r r r} 5.5 &amp; 4.6 &amp; 4.4 &amp; 3.4 &amp; 1.9 &amp; 1.6 &amp; 1.1 &amp; 0.8 &amp; 0.1 &amp; -0.1 \\end{array} \\\\ \\text{乙：} \\begin{array}{r r r r r r r r r r} 3.7 &amp; 3.4 &amp; 2.0 &amp; 2.0 &amp; 0.8 &amp; 0.7 &amp; 0 &amp; -0.1 &amp; -0.2 &amp; -1.6 \\end{array} \\\\ \\text{若在显著性水平} \\alpha = 0.05 \\text{下检验两种药的疗效有无显著差别，则下列说法中不正确的是（）.} \\end{aligned}\">\\begin{aligned} \\text{为比较甲、乙两种安眠药的疗效，将20名患者分成两组，每组10人，如服药后延长的睡眠时间分别服从正态分布，其数据为(单位：小时)：} \\\\ \\text{甲：} \\begin{array}{r r r r r r r r r r} 5.5 &amp; 4.6 &amp; 4.4 &amp; 3.4 &amp; 1.9 &amp; 1.6 &amp; 1.1 &amp; 0.8 &amp; 0.1 &amp; -0.1 \\end{array} \\\\ \\text{乙：} \\begin{array}{r r r r r r r r r r} 3.7 &amp; 3.4 &amp; 2.0 &amp; 2.0 &amp; 0.8 &amp; 0.7 &amp; 0 &amp; -0.1 &amp; -0.2 &amp; -1.6 \\end{array} \\\\ \\text{若在显著性水平} \\alpha = 0.05 \\text{下检验两种药的疗效有无显著差别，则下列说法中不正确的是（）.} \\end{aligned}</div>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/probability/ch128/q0001_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\begin{aligned} \\text{拒绝域为} \\; F &gt; F_{\\alpha/2}(n_{1}-1,\\, n_{2}-1) \\end{aligned}\">\\begin{aligned} \\text{拒绝域为} \\; F &gt; F_{\\alpha/2}(n_{1}-1,\\, n_{2}-1) \\end{aligned}</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/probability/ch128/q0001_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{检验假设为} H_{0}: \\mu_{1} = \\mu_{2},\\ H_{1}: \\mu_{1} \\neq \\mu_{2}\">\\text{检验假设为} H_{0}: \\mu_{1} = \\mu_{2},\\ H_{1}: \\mu_{1} \\neq \\mu_{2}</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/probability/ch128/q0001_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{检验统计量为} \\, T = \\frac { \\overline { X } - \\overline { Y } } { S _ { w } \\sqrt { 1 / n _ { 1 } + 1 / n _ { 2 } } }\">\\text{检验统计量为} \\, T = \\frac { \\overline { X } - \\overline { Y } } { S _ { w } \\sqrt { 1 / n _ { 1 } + 1 / n _ { 2 } } }</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/probability/ch128/q0001_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{可认为两种安眠药疗效无显著差异}\">\\text{可认为两种安眠药疗效无显著差异}</span>"
         }
       ],
       "answer": "A",
       "answer_index": 0,
-      "analysis_html": "<img src=\"/static/generated/assets/probability/ch128/q0001_analysis.png\"/>"
+      "analysis_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{aligned} &amp; (1) \\text{设甲药后延长的睡眠时间} X\\sim N(\\mu_{1},\\sigma_{1}^{2}), \\text{乙药后延长的睡眠时间} Y\\sim N(\\mu_{2},\\sigma_{2}^{2}), \\text{其中}\\mu_{1},\\mu_{2},\\sigma_{1}^{2},\\sigma_{2}^{2} \\text{均为未知，先在}\\mu_{1},\\mu_{2} \\text{未知的条件下检验假设}H_{0}: \\sigma_{1}^{2}=\\sigma_{2}^{2},\\quad H_{1}: \\sigma_{1}^{2}\\neq \\sigma_{2}^{2}. \\quad \\text{所用统计量为}F=\\bar{S}_{1}^{2}/\\bar{S}_{2}^{2}, \\text{由题给数据，得}n_{1}=10,n_{2}=10,\\bar{x}=2.33,\\bar{y}=1.07,s_{1}^{2}=4.01,s_{2}^{2}=2.84, \\quad \\text{于是}F=\\bar{s}_{1}^{2}/s_{2}^{2}=1.412.\\quad \\text{查}F\\text{分布表，得}F_{0.025}(9,9)=4.03,\\ F_{0.975}(9,9)=1/F_{0.025}(9,9)=1/4.03, \\quad \\text{因}\\frac{1}{4.03}&lt;1.25&lt;4.03, \\quad \\text{故接受原假设}H_{0}, \\text{因此在}\\alpha=0.05 \\text{下认为}\\sigma_{1}^{2}=\\sigma_{2}^{2}, \\\\ &amp; (2) \\text{其次，在}\\sigma_{1}^{2}=\\sigma_{2}^{2} \\text{但其值未知的条件下，检验假设}H_{0}^{\\prime}: \\mu_{1}=\\mu_{2}, \\quad \\text{所有统计量为}T=\\frac{\\bar{X}-\\bar{Y}}{S_{w}\\sqrt{1/n_{1}+1/n_{2}}}, \\text{将上述已知数据代入}S_{w} \\text{的表达式中，可计算得到}s_{w}=1.85.\\quad \\text{再将其代入统计量}T \\text{的表达式中计算得}t=\\frac{2.33-0.75}{1.89\\sqrt{1/10+1/10}}=1.523.\\quad \\text{查}t\\text{分布表，得}t_{0.025}(18)=2.101,\\quad \\text{由于} |1.86|&lt;2.101, \\text{故接受原假设}H_{0}^{\\prime}, \\text{因此在显著性水平}\\alpha=0.05 \\text{下可认为}\\mu_{1}=\\mu_{2}. \\quad \\text{综上所述，可以认为两种安眠药疗效无显著差异.} \\end{aligned}\">\\begin{aligned} &amp; (1) \\text{设甲药后延长的睡眠时间} X\\sim N(\\mu_{1},\\sigma_{1}^{2}), \\text{乙药后延长的睡眠时间} Y\\sim N(\\mu_{2},\\sigma_{2}^{2}), \\text{其中}\\mu_{1},\\mu_{2},\\sigma_{1}^{2},\\sigma_{2}^{2} \\text{均为未知，先在}\\mu_{1},\\mu_{2} \\text{未知的条件下检验假设}H_{0}: \\sigma_{1}^{2}=\\sigma_{2}^{2},\\quad H_{1}: \\sigma_{1}^{2}\\neq \\sigma_{2}^{2}. \\quad \\text{所用统计量为}F=\\bar{S}_{1}^{2}/\\bar{S}_{2}^{2}, \\text{由题给数据，得}n_{1}=10,n_{2}=10,\\bar{x}=2.33,\\bar{y}=1.07,s_{1}^{2}=4.01,s_{2}^{2}=2.84, \\quad \\text{于是}F=\\bar{s}_{1}^{2}/s_{2}^{2}=1.412.\\quad \\text{查}F\\text{分布表，得}F_{0.025}(9,9)=4.03,\\ F_{0.975}(9,9)=1/F_{0.025}(9,9)=1/4.03, \\quad \\text{因}\\frac{1}{4.03}&lt;1.25&lt;4.03, \\quad \\text{故接受原假设}H_{0}, \\text{因此在}\\alpha=0.05 \\text{下认为}\\sigma_{1}^{2}=\\sigma_{2}^{2}, \\\\ &amp; (2) \\text{其次，在}\\sigma_{1}^{2}=\\sigma_{2}^{2} \\text{但其值未知的条件下，检验假设}H_{0}^{\\prime}: \\mu_{1}=\\mu_{2}, \\quad \\text{所有统计量为}T=\\frac{\\bar{X}-\\bar{Y}}{S_{w}\\sqrt{1/n_{1}+1/n_{2}}}, \\text{将上述已知数据代入}S_{w} \\text{的表达式中，可计算得到}s_{w}=1.85.\\quad \\text{再将其代入统计量}T \\text{的表达式中计算得}t=\\frac{2.33-0.75}{1.89\\sqrt{1/10+1/10}}=1.523.\\quad \\text{查}t\\text{分布表，得}t_{0.025}(18)=2.101,\\quad \\text{由于} |1.86|&lt;2.101, \\text{故接受原假设}H_{0}^{\\prime}, \\text{因此在显著性水平}\\alpha=0.05 \\text{下可认为}\\mu_{1}=\\mu_{2}. \\quad \\text{综上所述，可以认为两种安眠药疗效无显著差异.} \\end{aligned}</div>"
     },
     {
       "id": "q0002",
       "number": 2,
       "header": "#2-Averge",
       "difficulty": "Averge",
-      "prompt_html": "<img src=\"/static/generated/assets/probability/ch128/q0002_prompt.png\"/>",
+      "prompt_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{aligned}\\text{设二正态总体}N(\\mu_{1},\\sigma_{1}^{2})\\text{和}N(\\mu_{2},\\sigma_{2}^{2})\\text{有两组相互独立样本，容量分别为}n_{1},n_{2},\\text{均值分别为}\\overline{X_{1}},\\overline{X},\\text{且}\\sigma_{1}^{2}\\text{和}\\sigma_{2}^{2}\\text{为已知},\\\\ \\text{要对}\\mu_{1}-\\mu_{2}\\text{作假设检验，统计假设为}H_{0};\\mu_{1}-\\mu_{2}=0,\\,H_{1};\\mu_{1}-\\mu_{2}&lt;0,\\text{给定显著水平}\\alpha,\\text{则检验的拒绝区间为}\\left(\\,\\right).\\end{aligned}\">\\begin{aligned}\\text{设二正态总体}N(\\mu_{1},\\sigma_{1}^{2})\\text{和}N(\\mu_{2},\\sigma_{2}^{2})\\text{有两组相互独立样本，容量分别为}n_{1},n_{2},\\text{均值分别为}\\overline{X_{1}},\\overline{X},\\text{且}\\sigma_{1}^{2}\\text{和}\\sigma_{2}^{2}\\text{为已知},\\\\ \\text{要对}\\mu_{1}-\\mu_{2}\\text{作假设检验，统计假设为}H_{0};\\mu_{1}-\\mu_{2}=0,\\,H_{1};\\mu_{1}-\\mu_{2}&lt;0,\\text{给定显著水平}\\alpha,\\text{则检验的拒绝区间为}\\left(\\,\\right).\\end{aligned}</div>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/probability/ch128/q0002_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\boldsymbol { U } &lt; - \\boldsymbol { u } _ { \\alpha }\">\\boldsymbol { U } &lt; - \\boldsymbol { u } _ { \\alpha }</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/probability/ch128/q0002_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\left| U \\right| &gt; u _ { a }\">\\left| U \\right| &gt; u _ { a }</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/probability/ch128/q0002_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\boldsymbol { U } \\! &gt; \\! \\boldsymbol { u } _ { a }\">\\boldsymbol { U } \\! &gt; \\! \\boldsymbol { u } _ { a }</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/probability/ch128/q0002_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\vert U \\vert &gt; u _ { \\alpha / 2 }\">\\vert U \\vert &gt; u _ { \\alpha / 2 }</span>"
         }
       ],
       "answer": "A",
       "answer_index": 0,
-      "analysis_html": "<img src=\"/static/generated/assets/probability/ch128/q0002_analysis.png\"/>"
+      "analysis_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{aligned}&amp;\\text{双正态总体均值差的检验如下过程.若方差}\\sigma_{1}^{2},\\sigma_{2}^{2}\\text{已知}，\\text{则}\\\\&amp;(1)\\text{检验假设}\\;H_{0}:\\mu_{1}-\\mu_{2}=\\mu_{0},\\;H_{0}:\\mu_{1}-\\mu_{2}\\neq\\mu_{0}.\\\\&amp;(2)\\text{若}H_{0}\\text{成立}，\\text{则}U=\\sqrt{\\frac{(X-\\bar{Y})-\\mu_{0}}{\\sqrt{\\frac{\\sigma_{1}^{2}}{n_{1}}+\\frac{\\sigma_{2}^{2}}{n_{2}}}}}\\sim N(0,1)，\\text{拒绝域为}|U|&gt;u_{\\alpha_{2}}. \\\\&amp;\\text{右侧检验}：H_{0}:\\mu_{1}-\\mu_{2}\\leq\\mu_{0};\\;H_{1}:\\mu_{1}-\\mu_{2}&gt;\\mu_{0}.\\text{此时拒绝域为}U&gt;u_{\\alpha}. \\\\&amp;\\text{左侧检验}：H_{0}:\\mu_{1}-\\mu_{2}\\geq\\mu_{0};\\;H_{1}:\\mu_{1}-\\mu_{2}&lt;\\mu_{0}.\\text{此时拒绝域为}U&lt;-u_{\\alpha}. \\end{aligned}\">\\begin{aligned}&amp;\\text{双正态总体均值差的检验如下过程.若方差}\\sigma_{1}^{2},\\sigma_{2}^{2}\\text{已知}，\\text{则}\\\\&amp;(1)\\text{检验假设}\\;H_{0}:\\mu_{1}-\\mu_{2}=\\mu_{0},\\;H_{0}:\\mu_{1}-\\mu_{2}\\neq\\mu_{0}.\\\\&amp;(2)\\text{若}H_{0}\\text{成立}，\\text{则}U=\\sqrt{\\frac{(X-\\bar{Y})-\\mu_{0}}{\\sqrt{\\frac{\\sigma_{1}^{2}}{n_{1}}+\\frac{\\sigma_{2}^{2}}{n_{2}}}}}\\sim N(0,1)，\\text{拒绝域为}|U|&gt;u_{\\alpha_{2}}. \\\\&amp;\\text{右侧检验}：H_{0}:\\mu_{1}-\\mu_{2}\\leq\\mu_{0};\\;H_{1}:\\mu_{1}-\\mu_{2}&gt;\\mu_{0}.\\text{此时拒绝域为}U&gt;u_{\\alpha}. \\\\&amp;\\text{左侧检验}：H_{0}:\\mu_{1}-\\mu_{2}\\geq\\mu_{0};\\;H_{1}:\\mu_{1}-\\mu_{2}&lt;\\mu_{0}.\\text{此时拒绝域为}U&lt;-u_{\\alpha}. \\end{aligned}</div>"
     },
     {
       "id": "q0003",
       "number": 3,
       "header": "#3-Averge",
       "difficulty": "Averge",
-      "prompt_html": "<img src=\"/static/generated/assets/probability/ch128/q0003_prompt.png\"/>",
+      "prompt_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{aligned} \\text{某校从经常参加体育锻炼的男生中随机地选出50名，测得平均身高}174.34\\text{厘米；从不经常参加体育锻炼的男生中随机地选50名，测得平均身高}172.42\\text{厘米。统计资料表明两种男生的身高都服从正态分布，其标准差分别为}5.35\\text{厘米和}6.11\\text{厘米。若检验该校经常参加锻炼的男生是否比不常参加锻炼的男生平均身高要高些} (\\alpha=0.05) \\text{，则下列说法不正确的是}\\text{()}\\text{。}\\end{aligned}\">\\begin{aligned} \\text{某校从经常参加体育锻炼的男生中随机地选出50名，测得平均身高}174.34\\text{厘米；从不经常参加体育锻炼的男生中随机地选50名，测得平均身高}172.42\\text{厘米。统计资料表明两种男生的身高都服从正态分布，其标准差分别为}5.35\\text{厘米和}6.11\\text{厘米。若检验该校经常参加锻炼的男生是否比不常参加锻炼的男生平均身高要高些} (\\alpha=0.05) \\text{，则下列说法不正确的是}\\text{()}\\text{。}\\end{aligned}</div>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/probability/ch128/q0003_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{拒绝域为} \\, ( - \\infty , - 1 . 64 )\">\\text{拒绝域为} \\, ( - \\infty , - 1 . 64 )</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/probability/ch128/q0003_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{检验假设为} \\, H_{0} \\colon \\mu_{1} \\leq \\mu_{2}, \\, \\, \\, H_{1} \\colon \\mu_{1} &gt; \\mu_{2}\">\\text{检验假设为} \\, H_{0} \\colon \\mu_{1} \\leq \\mu_{2}, \\, \\, \\, H_{1} \\colon \\mu_{1} &gt; \\mu_{2}</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/probability/ch128/q0003_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{检验统计量为}U=\\frac{\\overline{X}-\\overline{Y}}{\\sqrt{\\sigma_{1}^{2}/n\\;+\\sigma_{2}^{2}/m}}\">\\text{检验统计量为}U=\\frac{\\overline{X}-\\overline{Y}}{\\sqrt{\\sigma_{1}^{2}/n\\;+\\sigma_{2}^{2}/m}}</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/probability/ch128/q0003_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{可认为经常体育锻炼的男生平均身高比不经常体育锻炼的男生平均身高高些}\">\\text{可认为经常体育锻炼的男生平均身高比不经常体育锻炼的男生平均身高高些}</span>"
         }
       ],
       "answer": "A",
       "answer_index": 0,
-      "analysis_html": "<img src=\"/static/generated/assets/probability/ch128/q0003_analysis.png\"/>"
+      "analysis_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{aligned}&amp;\\text{设}X,Y, Y \\text{表示常锻炼和不常锻炼男生的身高}，\\text{由假设} X\\sim N(\\mu_{1},5.35^{2}) ,Y\\sim N(\\mu_{2},6.11^{2}) .\\\\&amp;\\textcircled{1} \\text{待检假设} H_{0}:\\mu_{1}\\leq \\mu_{2} ,\\text{备择假设}H_{1}:\\mu_{1}&gt;\\mu_{2};\\\\&amp;\\textcircled{2} \\text{选取统计量} U=\\frac{\\bar{X}-\\bar{Y}}{\\sqrt{\\frac{\\sigma_{1}^{2}}{n}+\\frac{\\sigma_{2}^{2}}{m}}}\\sim N(0,1);\\\\&amp;\\textcircled{3} \\text{对于} \\alpha=0.05 ,\\text{查标准正态分布表，}u_{\\alpha}=u_{0.05}=1.64 ;\\text{则拒绝域为} (1.64,+\\infty) ;\\\\&amp;\\textcircled{4} \\text{计算} u=\\frac{174.34-172.42}{\\sqrt{\\frac{5.35^{2}}{50}+\\frac{6.11^{2}}{50}}}\\approx 1.67&gt;1.64 ,\\text{故否定原假设 }H_{0} ,\\text{即表明经常体育锻炼的男生平均身高比不经常体育锻炼的男生平均身高高些。}\\end{aligned}\">\\begin{aligned}&amp;\\text{设}X,Y, Y \\text{表示常锻炼和不常锻炼男生的身高}，\\text{由假设} X\\sim N(\\mu_{1},5.35^{2}) ,Y\\sim N(\\mu_{2},6.11^{2}) .\\\\&amp;\\textcircled{1} \\text{待检假设} H_{0}:\\mu_{1}\\leq \\mu_{2} ,\\text{备择假设}H_{1}:\\mu_{1}&gt;\\mu_{2};\\\\&amp;\\textcircled{2} \\text{选取统计量} U=\\frac{\\bar{X}-\\bar{Y}}{\\sqrt{\\frac{\\sigma_{1}^{2}}{n}+\\frac{\\sigma_{2}^{2}}{m}}}\\sim N(0,1);\\\\&amp;\\textcircled{3} \\text{对于} \\alpha=0.05 ,\\text{查标准正态分布表，}u_{\\alpha}=u_{0.05}=1.64 ;\\text{则拒绝域为} (1.64,+\\infty) ;\\\\&amp;\\textcircled{4} \\text{计算} u=\\frac{174.34-172.42}{\\sqrt{\\frac{5.35^{2}}{50}+\\frac{6.11^{2}}{50}}}\\approx 1.67&gt;1.64 ,\\text{故否定原假设 }H_{0} ,\\text{即表明经常体育锻炼的男生平均身高比不经常体育锻炼的男生平均身高高些。}\\end{aligned}</div>"
     },
     {
       "id": "q0004",
       "number": 4,
       "header": "#4-Easy",
       "difficulty": "Easy",
-      "prompt_html": "<img src=\"/static/generated/assets/probability/ch128/q0004_prompt.png\"/>",
+      "prompt_html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{两个正态总体} X \\text{与} Y \\text{的方差} \\sigma _ { 1 } ^ { 2 } \\text{与} \\sigma _ { 2 } ^ { 2 } \\text{未知，则检验假设} H _ { 0 } : \\mu _ { 1 } &lt; \\mu _ { 2 } \\text{要求} \\sigma _ { 1 } ^ { 2 } \\text{与} \\sigma _ { 2 } ^ { 2 } \\text{应满足的条件是( ).}\">\\text{两个正态总体} X \\text{与} Y \\text{的方差} \\sigma _ { 1 } ^ { 2 } \\text{与} \\sigma _ { 2 } ^ { 2 } \\text{未知，则检验假设} H _ { 0 } : \\mu _ { 1 } &lt; \\mu _ { 2 } \\text{要求} \\sigma _ { 1 } ^ { 2 } \\text{与} \\sigma _ { 2 } ^ { 2 } \\text{应满足的条件是( ).}</span>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/probability/ch128/q0004_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\sigma_{1}^{2}、\\sigma_{2}^{2} \\text{可为任意正数}\">\\sigma_{1}^{2}、\\sigma_{2}^{2} \\text{可为任意正数}</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/probability/ch128/q0004_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\sigma_{1}^{2} &lt; \\sigma_{2}^{2}\">\\sigma_{1}^{2} &lt; \\sigma_{2}^{2}</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/probability/ch128/q0004_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\sigma _ { 1 } ^ { 2 } &gt; \\sigma _ { 2 } ^ { 2 }\">\\sigma _ { 1 } ^ { 2 } &gt; \\sigma _ { 2 } ^ { 2 }</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/probability/ch128/q0004_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\sigma _ { 1 } ^ { 2 } = \\sigma _ { 2 } ^ { 2 }\">\\sigma _ { 1 } ^ { 2 } = \\sigma _ { 2 } ^ { 2 }</span>"
         }
       ],
       "answer": "A",
       "answer_index": 0,
-      "analysis_html": "<img src=\"/static/generated/assets/probability/ch128/q0004_analysis.png\"/>"
+      "analysis_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{aligned}&amp; \\text{设}X_{1},X_{2},\\cdots,X_{n} \\text{为取自总体}N(\\mu_{1},\\sigma_{1}^{2})\\text{的一个样本，并且两个样本相互独立，记}\\overline{X}\\text{与}\\overline{Y}\\text{分别为相应的样本均值，}S_{1}^{2}\\text{与}S_{2}^{2}\\text{分别为相应的样本方差.}\\\\&amp; \\text{右侧检验}H_{0}:\\mu_{1}-\\mu_{2}\\leq\\mu_{0},\\ H_{1}:\\mu_{1}-\\mu_{2}&gt;\\mu_{0},\\ (\\mu_{0}\\text{已知})\\\\&amp; \\text{1. 方差}\\sigma_{1}^{2},\\sigma_{2}^{2}\\text{未知，但}\\sigma_{1}^{2}=\\sigma_{2}^{2}=\\sigma^{2},\\text{检验统计量为}\\\\&amp; \\qquad\\qquad\\qquad T=\\frac{\\overline{X}-\\overline{Y}-\\mu_{0}}{S_{n}\\sqrt{1/n_{1}+1/n_{2}}}\\sim t(n_{1}+n_{2}-2),\\\\&amp; \\qquad\\text{其中}S_{n}^{0}=\\frac{(n_{1}-1)S_{1}^{2}+(n_{2}-1)S_{2}^{2}}{n_{1}+n_{2}-2}.\\\\&amp; \\text{2. 方差}\\sigma_{1}^{2},\\sigma_{2}^{2}\\text{未知，但}\\sigma_{1}^{2}\\neq\\sigma_{2}^{2},\\text{检验统计量为}\\\\&amp; \\qquad\\qquad\\qquad T=\\frac{\\overline{X}-\\overline{Y}-\\mu_{0}}{\\sqrt{S_{1}^{2}/n_{1}+S_{2}^{2}/n_{2}}}\\sim t(f),\\\\&amp; \\qquad\\qquad\\qquad\\qquad\\qquad\\qquad\\qquad\\qquad\\qquad\\qquad\\qquad\\qquad\\qquad\\qquad\\qquad\\qquad\\qquad\\qquad\\qquad\\qquad f=\\frac{\\left(\\frac{S_{1}^{2}}{n_{1}}+\\frac{S_{2}^{2}}{n_{2}}\\right)^{2}}{\\frac{S_{1}^{2}}{n_{1}^{2}(n_{1}-1)}+\\frac{S_{2}^{2}}{n_{2}^{2}(n_{2}-1)}}.\\end{aligned}\">\\begin{aligned}&amp; \\text{设}X_{1},X_{2},\\cdots,X_{n} \\text{为取自总体}N(\\mu_{1},\\sigma_{1}^{2})\\text{的一个样本，并且两个样本相互独立，记}\\overline{X}\\text{与}\\overline{Y}\\text{分别为相应的样本均值，}S_{1}^{2}\\text{与}S_{2}^{2}\\text{分别为相应的样本方差.}\\\\&amp; \\text{右侧检验}H_{0}:\\mu_{1}-\\mu_{2}\\leq\\mu_{0},\\ H_{1}:\\mu_{1}-\\mu_{2}&gt;\\mu_{0},\\ (\\mu_{0}\\text{已知})\\\\&amp; \\text{1. 方差}\\sigma_{1}^{2},\\sigma_{2}^{2}\\text{未知，但}\\sigma_{1}^{2}=\\sigma_{2}^{2}=\\sigma^{2},\\text{检验统计量为}\\\\&amp; \\qquad\\qquad\\qquad T=\\frac{\\overline{X}-\\overline{Y}-\\mu_{0}}{S_{n}\\sqrt{1/n_{1}+1/n_{2}}}\\sim t(n_{1}+n_{2}-2),\\\\&amp; \\qquad\\text{其中}S_{n}^{0}=\\frac{(n_{1}-1)S_{1}^{2}+(n_{2}-1)S_{2}^{2}}{n_{1}+n_{2}-2}.\\\\&amp; \\text{2. 方差}\\sigma_{1}^{2},\\sigma_{2}^{2}\\text{未知，但}\\sigma_{1}^{2}\\neq\\sigma_{2}^{2},\\text{检验统计量为}\\\\&amp; \\qquad\\qquad\\qquad T=\\frac{\\overline{X}-\\overline{Y}-\\mu_{0}}{\\sqrt{S_{1}^{2}/n_{1}+S_{2}^{2}/n_{2}}}\\sim t(f),\\\\&amp; \\qquad\\qquad\\qquad\\qquad\\qquad\\qquad\\qquad\\qquad\\qquad\\qquad\\qquad\\qquad\\qquad\\qquad\\qquad\\qquad\\qquad\\qquad\\qquad\\qquad f=\\frac{\\left(\\frac{S_{1}^{2}}{n_{1}}+\\frac{S_{2}^{2}}{n_{2}}\\right)^{2}}{\\frac{S_{1}^{2}}{n_{1}^{2}(n_{1}-1)}+\\frac{S_{2}^{2}}{n_{2}^{2}(n_{2}-1)}}.\\end{aligned}</div>"
     },
     {
       "id": "q0005",
       "number": 5,
       "header": "#5-Averge",
       "difficulty": "Averge",
-      "prompt_html": "<img src=\"/static/generated/assets/probability/ch128/q0005_prompt.png\"/>",
+      "prompt_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{aligned} \\text{某灯泡厂采用一项新工艺的前后，分别抽取10个灯泡进行寿命试验。计算得到:采用新工艺前灯泡寿命的样本均值为}2460\\text{小时．样本标准差为}56\\text{小时；采用新工艺后灯泡寿命的样本均值为}2550\\text{小时，样本标准差为}48\\text{小时。设灯泡的寿命服从正态分布，有人认为采用新工艺后灯泡的平均寿命有显著提高} (\\alpha=0.01) \\text{，则下列说法中不正确的是}\\text{( )}\\text{。}\\end{aligned}\">\\begin{aligned} \\text{某灯泡厂采用一项新工艺的前后，分别抽取10个灯泡进行寿命试验。计算得到:采用新工艺前灯泡寿命的样本均值为}2460\\text{小时．样本标准差为}56\\text{小时；采用新工艺后灯泡寿命的样本均值为}2550\\text{小时，样本标准差为}48\\text{小时。设灯泡的寿命服从正态分布，有人认为采用新工艺后灯泡的平均寿命有显著提高} (\\alpha=0.01) \\text{，则下列说法中不正确的是}\\text{( )}\\text{。}\\end{aligned}</div>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/probability/ch128/q0005_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{检验统计量为} \\, T = \\frac { \\overline { X } - \\overline { Y } - \\mu _ { 0 } } { \\sqrt { S _ { 1 } ^ { 2 } / n _ { 1 } + S _ { 2 } ^ { 2 } / n _ { 2 } } }\">\\text{检验统计量为} \\, T = \\frac { \\overline { X } - \\overline { Y } - \\mu _ { 0 } } { \\sqrt { S _ { 1 } ^ { 2 } / n _ { 1 } + S _ { 2 } ^ { 2 } / n _ { 2 } } }</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/probability/ch128/q0005_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{检验假设为} \\, H_0 \\colon \\mu_1 = \\mu_2, \\, H_1 \\colon \\mu_1 &lt; \\mu_2\">\\text{检验假设为} \\, H_0 \\colon \\mu_1 = \\mu_2, \\, H_1 \\colon \\mu_1 &lt; \\mu_2</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/probability/ch128/q0005_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{接受域为} \\ \\{ T &gt; - t _ { o } ( m + n - 2 ) \\}\">\\text{接受域为} \\ \\{ T &gt; - t _ { o } ( m + n - 2 ) \\}</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/probability/ch128/q0005_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{可认为采用新工艺后灯泡的平均寿命显著提高}\">\\text{可认为采用新工艺后灯泡的平均寿命显著提高}</span>"
         }
       ],
       "answer": "A",
       "answer_index": 0,
-      "analysis_html": "<img src=\"/static/generated/assets/probability/ch128/q0005_analysis.png\"/>"
+      "analysis_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{aligned} (1) &amp; \\text{检验假设}H_{0}: \\sigma_{1}^{2}=\\sigma_{2}^{2},\\ H_{1}: \\sigma_{1}^{2}\\neq \\sigma_{2}^{2}. \\\\ &amp; \\text{应选取检验统计量}F=S_{1}^{2}/S_{2}^{2}, \\text{若}H_{0}\\text{真，则}F\\sim F(m-1,n-1); \\\\ &amp; \\text{对于给定的检验水平}\\alpha=0.01, \\text{查自由度为}(9,9)\\text{的}F\\text{分布表得}F_{0.005}(9,9)=6.54; \\\\ &amp; \\text{已知}m=n=10,s_{1}=56,s_{2}=48, \\text{由此得统计量}F\\text{的观察值为}F=56^{2}/48^{2}\\approx 1.36; \\\\ &amp; \\text{因为}F&lt;F_{0.005}(9,9), \\text{所以接受原假设}H_{0}, \\text{即可认为这两个总体的方差无显著差异}. \\\\ (2) &amp; \\text{检验假设}H_{0}: \\mu_{1}=\\mu_{2},\\ H_{1}: \\mu_{1}&lt;\\mu_{2}. \\\\ &amp; \\text{按上述关于双总体方差的假设检验的结论知这两个总体的方差未知但相等，}\\sigma_{1}^{2}=\\sigma_{2}^{2}, \\text{所以应选取检验统计量：} \\\\ &amp; T=\\frac{\\bar{X}-\\bar{Y}}{\\sqrt{\\frac{(m-1)S_{1}^{2}+(n-1)S_{2}^{2}}{m+n-2}(\\frac{1}{m}+\\frac{1}{n})}}, \\\\ &amp; \\text{若}H_{0}\\text{真，则}T\\sim t(m+n-2); \\\\ &amp; \\text{对给定的检验水平}\\alpha=0.01, \\text{查自由度为}m+n-2=18\\text{的F分布表得临界值}t_{0}(m+n-2)=t_{0.01}(18)=2.55, \\\\ &amp; \\text{故接受域为}\\{T&gt;-2.55\\}; \\\\ &amp; \\text{已知}m=n=10,x=2460,y=2550,s_{1}=56,s_{2}=48, \\text{由此得统计量}T\\text{的观测值为}T\\approx-3.86; \\\\ &amp; \\text{因为}t&lt;-t_{0.01}(18)=-2.55, \\text{所以拒绝原假设}H_{0}, \\\\ &amp; \\text{而接受备假假设}H_{1}, \\text{即认为采用新工艺后灯泡的平均寿命显著提高。} \\end{aligned}\">\\begin{aligned} (1) &amp; \\text{检验假设}H_{0}: \\sigma_{1}^{2}=\\sigma_{2}^{2},\\ H_{1}: \\sigma_{1}^{2}\\neq \\sigma_{2}^{2}. \\\\ &amp; \\text{应选取检验统计量}F=S_{1}^{2}/S_{2}^{2}, \\text{若}H_{0}\\text{真，则}F\\sim F(m-1,n-1); \\\\ &amp; \\text{对于给定的检验水平}\\alpha=0.01, \\text{查自由度为}(9,9)\\text{的}F\\text{分布表得}F_{0.005}(9,9)=6.54; \\\\ &amp; \\text{已知}m=n=10,s_{1}=56,s_{2}=48, \\text{由此得统计量}F\\text{的观察值为}F=56^{2}/48^{2}\\approx 1.36; \\\\ &amp; \\text{因为}F&lt;F_{0.005}(9,9), \\text{所以接受原假设}H_{0}, \\text{即可认为这两个总体的方差无显著差异}. \\\\ (2) &amp; \\text{检验假设}H_{0}: \\mu_{1}=\\mu_{2},\\ H_{1}: \\mu_{1}&lt;\\mu_{2}. \\\\ &amp; \\text{按上述关于双总体方差的假设检验的结论知这两个总体的方差未知但相等，}\\sigma_{1}^{2}=\\sigma_{2}^{2}, \\text{所以应选取检验统计量：} \\\\ &amp; T=\\frac{\\bar{X}-\\bar{Y}}{\\sqrt{\\frac{(m-1)S_{1}^{2}+(n-1)S_{2}^{2}}{m+n-2}(\\frac{1}{m}+\\frac{1}{n})}}, \\\\ &amp; \\text{若}H_{0}\\text{真，则}T\\sim t(m+n-2); \\\\ &amp; \\text{对给定的检验水平}\\alpha=0.01, \\text{查自由度为}m+n-2=18\\text{的F分布表得临界值}t_{0}(m+n-2)=t_{0.01}(18)=2.55, \\\\ &amp; \\text{故接受域为}\\{T&gt;-2.55\\}; \\\\ &amp; \\text{已知}m=n=10,x=2460,y=2550,s_{1}=56,s_{2}=48, \\text{由此得统计量}T\\text{的观测值为}T\\approx-3.86; \\\\ &amp; \\text{因为}t&lt;-t_{0.01}(18)=-2.55, \\text{所以拒绝原假设}H_{0}, \\\\ &amp; \\text{而接受备假假设}H_{1}, \\text{即认为采用新工艺后灯泡的平均寿命显著提高。} \\end{aligned}</div>"
     },
     {
       "id": "q0006",
       "number": 6,
       "header": "#6-Averge",
       "difficulty": "Averge",
-      "prompt_html": "<img src=\"/static/generated/assets/probability/ch128/q0006_prompt.png\"/>",
+      "prompt_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{aligned} \\text{某灯泡厂采用一项新工艺的前后，分别抽取}\\text{10}\\text{个灯泡进行寿命试验。计算得到：采用新工艺前灯泡寿命的样本均值为}\\text{2460}\\text{小时，样本标准差为}\\text{56}\\text{小时；采用新工艺后灯泡寿命的样本均值为}\\text{2550}\\text{小时，样本标准差为}\\text{48}\\text{小时。设灯泡的寿命服从正态分布，有人认为采用新工艺后灯泡的平均寿命有显著提高，设} \\alpha=0.01 \\text{，则下列说法中正确的是}\\text{()}\\text{。}\\end{aligned}\">\\begin{aligned} \\text{某灯泡厂采用一项新工艺的前后，分别抽取}\\text{10}\\text{个灯泡进行寿命试验。计算得到：采用新工艺前灯泡寿命的样本均值为}\\text{2460}\\text{小时，样本标准差为}\\text{56}\\text{小时；采用新工艺后灯泡寿命的样本均值为}\\text{2550}\\text{小时，样本标准差为}\\text{48}\\text{小时。设灯泡的寿命服从正态分布，有人认为采用新工艺后灯泡的平均寿命有显著提高，设} \\alpha=0.01 \\text{，则下列说法中正确的是}\\text{()}\\text{。}\\end{aligned}</div>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/probability/ch128/q0006_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{检验假设为} \\, H_0: \\mu_1 = \\mu_2, \\, H_1: \\mu_1 &lt; \\mu_2\">\\text{检验假设为} \\, H_0: \\mu_1 = \\mu_2, \\, H_1: \\mu_1 &lt; \\mu_2</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/probability/ch128/q0006_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{拒绝域为} \\{ T &gt; - 2 . 55 \\}\">\\text{拒绝域为} \\{ T &gt; - 2 . 55 \\}</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/probability/ch128/q0006_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\begin{array}{l} { r } { { \\text{检验统计量为} } F = S _ { 1 } ^ { 2 } / S _ { 2 } ^ { 2 } } \\end{array}\">\\begin{array}{l} { r } { { \\text{检验统计量为} } F = S _ { 1 } ^ { 2 } / S _ { 2 } ^ { 2 } } \\end{array}</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/probability/ch128/q0006_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{可认为采用新工艺后灯泡的平均寿命没有显著提高}\">\\text{可认为采用新工艺后灯泡的平均寿命没有显著提高}</span>"
         }
       ],
       "answer": "A",
       "answer_index": 0,
-      "analysis_html": "<img src=\"/static/generated/assets/probability/ch128/q0006_analysis.png\"/>"
+      "analysis_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{aligned} &amp; \\text{由于方差未知，且不知是否相等，故需先检验方差是否相等。} \\\\ &amp; \\text{(1)检验假设 } H_0: \\sigma_1^2 = \\sigma_2^2, \\quad H_1: \\sigma_1^2 \\neq \\sigma_2^2, \\\\ &amp; \\quad \\text{应选取检验统计量 } F = S_0^2 / S_n^2, \\text{ 若 } H_0 \\text{ 真，则 } F \\sim F(m-1, n-1); \\\\ &amp; \\text{对于给出的检验水平 } \\alpha = 0.01, \\text{ 查自由度为 } (9, 9) \\text{ 的 } F \\text{ 分布表得 } F_{0.005}(9, 9) = 6.54; \\\\ &amp; \\text{已知 } m = n = 10, s_1 = 56, s_2 = 48, \\text{ 由此得统计量 } F \\text{ 的观察值为 } F = 56^2 / 48^2 \\approx 1.36; \\\\ &amp; \\text{因为 } F &lt; F_{0.005}(9, 9), \\text{ 所以接受原假设 } H_0, \\text{ 即可认为这两个总体的方差无显著差异。} \\\\ &amp; \\text{(2)检验假设 } H_0&#x27;: \\mu_1 = \\mu_2, \\quad H_1&#x27;: \\mu_1 &lt; \\mu_2. \\\\ &amp; \\text{按上述关于双总体方差的假设检验的结论知这两个总体的方差未知但相等，} \\sigma_1^2 = \\sigma_2^2,  \\text{所以应选取检验统计量：} \\\\ &amp; \\quad T = \\frac{X - \\bar{Y}}{X - \\bar{Y}} \\\\ &amp; \\quad \\sqrt{\\frac{(m-1)S_1^2 + (n-1)S_2^2}{m + n - 2} \\left( \\frac{1}{m} + \\frac{1}{n} \\right)}, \\\\ &amp; \\quad \\text{若 } H_0 \\text{ 真，则 } T \\sim t(m + n - 2); \\\\ &amp; \\quad \\text{对给出的检验水平 } \\alpha = 0.01, \\text{ 查自由度为 } m + n - 2 = 18 \\text{ 的 } t \\text{ 分布表得临界值 } t_{0.01}(18) = 2.55, \\\\ &amp; \\quad \\text{故接受域为 } \\{ T &gt; -2.55 \\}; \\\\ &amp; \\text{已知 } m = n = 10, \\bar{x} = 2460, \\bar{y} = 2550, s_1 = 56, s_2 = 48, \\text{ 由此得统计量 } \\bar{T} \\text{ 的观测值为 } T \\approx -3.86; \\\\ &amp; \\text{因为 } t &lt; -t_{0.01}(18) = -2.55, \\text{ 所以拒绝原假设 } H_0, \\text{ 而接受接受择假设 } H_1, \\text{ 即认为采用新工艺后灯泡的平均寿命显著提高。} \\end{aligned}\">\\begin{aligned} &amp; \\text{由于方差未知，且不知是否相等，故需先检验方差是否相等。} \\\\ &amp; \\text{(1)检验假设 } H_0: \\sigma_1^2 = \\sigma_2^2, \\quad H_1: \\sigma_1^2 \\neq \\sigma_2^2, \\\\ &amp; \\quad \\text{应选取检验统计量 } F = S_0^2 / S_n^2, \\text{ 若 } H_0 \\text{ 真，则 } F \\sim F(m-1, n-1); \\\\ &amp; \\text{对于给出的检验水平 } \\alpha = 0.01, \\text{ 查自由度为 } (9, 9) \\text{ 的 } F \\text{ 分布表得 } F_{0.005}(9, 9) = 6.54; \\\\ &amp; \\text{已知 } m = n = 10, s_1 = 56, s_2 = 48, \\text{ 由此得统计量 } F \\text{ 的观察值为 } F = 56^2 / 48^2 \\approx 1.36; \\\\ &amp; \\text{因为 } F &lt; F_{0.005}(9, 9), \\text{ 所以接受原假设 } H_0, \\text{ 即可认为这两个总体的方差无显著差异。} \\\\ &amp; \\text{(2)检验假设 } H_0&#x27;: \\mu_1 = \\mu_2, \\quad H_1&#x27;: \\mu_1 &lt; \\mu_2. \\\\ &amp; \\text{按上述关于双总体方差的假设检验的结论知这两个总体的方差未知但相等，} \\sigma_1^2 = \\sigma_2^2,  \\text{所以应选取检验统计量：} \\\\ &amp; \\quad T = \\frac{X - \\bar{Y}}{X - \\bar{Y}} \\\\ &amp; \\quad \\sqrt{\\frac{(m-1)S_1^2 + (n-1)S_2^2}{m + n - 2} \\left( \\frac{1}{m} + \\frac{1}{n} \\right)}, \\\\ &amp; \\quad \\text{若 } H_0 \\text{ 真，则 } T \\sim t(m + n - 2); \\\\ &amp; \\quad \\text{对给出的检验水平 } \\alpha = 0.01, \\text{ 查自由度为 } m + n - 2 = 18 \\text{ 的 } t \\text{ 分布表得临界值 } t_{0.01}(18) = 2.55, \\\\ &amp; \\quad \\text{故接受域为 } \\{ T &gt; -2.55 \\}; \\\\ &amp; \\text{已知 } m = n = 10, \\bar{x} = 2460, \\bar{y} = 2550, s_1 = 56, s_2 = 48, \\text{ 由此得统计量 } \\bar{T} \\text{ 的观测值为 } T \\approx -3.86; \\\\ &amp; \\text{因为 } t &lt; -t_{0.01}(18) = -2.55, \\text{ 所以拒绝原假设 } H_0, \\text{ 而接受接受择假设 } H_1, \\text{ 即认为采用新工艺后灯泡的平均寿命显著提高。} \\end{aligned}</div>"
     },
     {
       "id": "q0007",
       "number": 7,
       "header": "#7-Hard",
       "difficulty": "Hard",
-      "prompt_html": "<img src=\"/static/generated/assets/probability/ch128/q0007_prompt.png\"/>",
+      "prompt_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{array}{l} \\text {设总体} X \\sim N(\\mu_{1},\\sigma^{2}), \\text {总体} Y \\sim N(\\mu_{2},\\sigma^{2}), \\text {其中}\\sigma^{2} \\text {未知，从总体} X,\\ Y \\text {各取容量为} 10 \\text {的样本，两样本独立．对于} \\\\ \\text {假设检验} \\ H_{0}: \\mu_{1}-\\mu_{2}=4,\\ H_{1}: \\mu_{1}-\\mu_{2}\\neq 4,\\text {若显著性水平为} a=0.10,\\text {则检验的拒绝域为（）.} \\end{array}\">\\begin{array}{l} \\text {设总体} X \\sim N(\\mu_{1},\\sigma^{2}), \\text {总体} Y \\sim N(\\mu_{2},\\sigma^{2}), \\text {其中}\\sigma^{2} \\text {未知，从总体} X,\\ Y \\text {各取容量为} 10 \\text {的样本，两样本独立．对于} \\\\ \\text {假设检验} \\ H_{0}: \\mu_{1}-\\mu_{2}=4,\\ H_{1}: \\mu_{1}-\\mu_{2}\\neq 4,\\text {若显著性水平为} a=0.10,\\text {则检验的拒绝域为（）.} \\end{array}</div>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/probability/ch128/q0007_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\begin{aligned}\\left|\\frac{(\\bar{x}-\\bar{y}-4)}{\\sqrt{s_1^2+s_2^2}}\\sqrt{10}\\right|&gt;t_{0.05}(18)\\end{aligned}\">\\begin{aligned}\\left|\\frac{(\\bar{x}-\\bar{y}-4)}{\\sqrt{s_1^2+s_2^2}}\\sqrt{10}\\right|&gt;t_{0.05}(18)\\end{aligned}</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/probability/ch128/q0007_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\begin{aligned}\\left|\\frac{(\\bar{x}-\\bar{y})}{\\sqrt{s_1^2+s_2^2}}\\sqrt{10}\\right|&gt;t_{0.05}(18)\\end{aligned}\">\\begin{aligned}\\left|\\frac{(\\bar{x}-\\bar{y})}{\\sqrt{s_1^2+s_2^2}}\\sqrt{10}\\right|&gt;t_{0.05}(18)\\end{aligned}</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/probability/ch128/q0007_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\begin{aligned}\\left|\\frac{(\\bar{x}-\\bar{y})}{\\sqrt{s_{1}^{2}+s_{2}^{2}}}\\sqrt{5}\\right|&gt;t_{0.05}(18)\\end{aligned}\">\\begin{aligned}\\left|\\frac{(\\bar{x}-\\bar{y})}{\\sqrt{s_{1}^{2}+s_{2}^{2}}}\\sqrt{5}\\right|&gt;t_{0.05}(18)\\end{aligned}</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/probability/ch128/q0007_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\begin{aligned}\\left|\\frac{(\\bar{x}-\\bar{y}-4)}{\\sqrt{s_{1}^{2}+s_{2}^{2}}}\\sqrt{5}\\right|&gt;t_{0.05}(18)\\end{aligned}\">\\begin{aligned}\\left|\\frac{(\\bar{x}-\\bar{y}-4)}{\\sqrt{s_{1}^{2}+s_{2}^{2}}}\\sqrt{5}\\right|&gt;t_{0.05}(18)\\end{aligned}</span>"
         }
       ],
       "answer": "A",
       "answer_index": 0,
-      "analysis_html": "<img src=\"/static/generated/assets/probability/ch128/q0007_analysis.png\"/>"
+      "analysis_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{aligned}\\text{双正态总体均值差(方差未知但相等的)检验统计量为}\\\\T=\\frac{\\bar{X}-\\bar{Y}-\\mu_{0}}{S_{w}\\sqrt{1/n_{1}+1/n_{2}}}\\sim t(n_{1}+n_{2}-2),\\\\ \\text{在双侧检验 }H_{0}:\\mu_{1}-\\mu_{2}=\\mu_{0},\\quad H_{1}:\\mu_{1}-\\mu_{2}\\neq \\mu_{0}\\text{下，得拒绝域为}\\\\|t|=\\left|\\frac{\\bar{x}-y-\\mu_{0}}{S_{w}\\sqrt{1/n_{1}+1/n_{2}}}\\right|&gt;t_{0.2}(n_{1}+n_{2}-2).\\\\ \\text{其中 }S_{w}^{2}=\\frac{(n_{1}-1)S_{1}^{2}+(n_{2}-1)S_{2}^{2}}{n_{1}+n_{2}-2}.\\\\ \\text{把题目中具体数据代入，得拒绝域为}\\\\ \\left|\\frac{\\bar{x}-\\bar{y}-4}{\\sqrt{1+s_{1}^{2}+s_{2}^{2}}}\\sqrt{10}\\right|&gt;t_{0.05}(18).\\end{aligned}\">\\begin{aligned}\\text{双正态总体均值差(方差未知但相等的)检验统计量为}\\\\T=\\frac{\\bar{X}-\\bar{Y}-\\mu_{0}}{S_{w}\\sqrt{1/n_{1}+1/n_{2}}}\\sim t(n_{1}+n_{2}-2),\\\\ \\text{在双侧检验 }H_{0}:\\mu_{1}-\\mu_{2}=\\mu_{0},\\quad H_{1}:\\mu_{1}-\\mu_{2}\\neq \\mu_{0}\\text{下，得拒绝域为}\\\\|t|=\\left|\\frac{\\bar{x}-y-\\mu_{0}}{S_{w}\\sqrt{1/n_{1}+1/n_{2}}}\\right|&gt;t_{0.2}(n_{1}+n_{2}-2).\\\\ \\text{其中 }S_{w}^{2}=\\frac{(n_{1}-1)S_{1}^{2}+(n_{2}-1)S_{2}^{2}}{n_{1}+n_{2}-2}.\\\\ \\text{把题目中具体数据代入，得拒绝域为}\\\\ \\left|\\frac{\\bar{x}-\\bar{y}-4}{\\sqrt{1+s_{1}^{2}+s_{2}^{2}}}\\sqrt{10}\\right|&gt;t_{0.05}(18).\\end{aligned}</div>"
     },
     {
       "id": "q0008",
       "number": 8,
       "header": "#8-Averge",
       "difficulty": "Averge",
-      "prompt_html": "<img src=\"/static/generated/assets/probability/ch128/q0008_prompt.png\"/>",
+      "prompt_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{aligned}\\text{一药厂生产一种新的止痛片，厂方希望验证服用新药片后至开始起作用的时间间隔较原有止痛片至少缩短一半，设}\\mu_{1},\\mu_{2}\\text{分别是服从原有止痛片和服用新止痛片后至起作用的时间间隔的总体的均值}.\\text{设两总体均为正态总体}，\\text{且方差分别为已知值}\\sigma_{1}^{2},\\sigma_{2}^{2},\\text{现分别在两总体中取一样}X_{1},X_{2},\\cdots,X_{n}\\text{和}Y_{1},Y_{2},\\cdots,Y_{n},\\text{设两个样本独立}，\\text{取显著性水平为}\\alpha，\\text{则下列说法中不正确的是}().\\end{aligned}\">\\begin{aligned}\\text{一药厂生产一种新的止痛片，厂方希望验证服用新药片后至开始起作用的时间间隔较原有止痛片至少缩短一半，设}\\mu_{1},\\mu_{2}\\text{分别是服从原有止痛片和服用新止痛片后至起作用的时间间隔的总体的均值}.\\text{设两总体均为正态总体}，\\text{且方差分别为已知值}\\sigma_{1}^{2},\\sigma_{2}^{2},\\text{现分别在两总体中取一样}X_{1},X_{2},\\cdots,X_{n}\\text{和}Y_{1},Y_{2},\\cdots,Y_{n},\\text{设两个样本独立}，\\text{取显著性水平为}\\alpha，\\text{则下列说法中不正确的是}().\\end{aligned}</div>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/probability/ch128/q0008_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{拒绝域为} \\, ( u _ { a } , \\, + \\infty )\">\\text{拒绝域为} \\, ( u _ { a } , \\, + \\infty )</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/probability/ch128/q0008_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{假设检验为} \\, H_{0} \\colon \\mu_{1} \\geq 2 \\mu_{2}, \\quad H_{1} \\colon \\mu_{1} &lt; 2 \\mu_{2}\">\\text{假设检验为} \\, H_{0} \\colon \\mu_{1} \\geq 2 \\mu_{2}, \\quad H_{1} \\colon \\mu_{1} &lt; 2 \\mu_{2}</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/probability/ch128/q0008_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\begin{array}{l} { r } { \\overline { { X } } - 2 \\, \\overline { { Y } } { \\sim } N \\Bigg ( \\mu _ { 1 } - 2 \\mu _ { 2 } , \\, \\frac { \\sigma _ { 1 } ^ { 2 } } { n _ { 1 } } + \\frac { 4 \\sigma _ { 2 } ^ { 2 } } { n _ { 2 } } \\Bigg ) } \\end{array}\">\\begin{array}{l} { r } { \\overline { { X } } - 2 \\, \\overline { { Y } } { \\sim } N \\Bigg ( \\mu _ { 1 } - 2 \\mu _ { 2 } , \\, \\frac { \\sigma _ { 1 } ^ { 2 } } { n _ { 1 } } + \\frac { 4 \\sigma _ { 2 } ^ { 2 } } { n _ { 2 } } \\Bigg ) } \\end{array}</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/probability/ch128/q0008_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{检验统计量} \\, U = \\frac{ \\overline{X} - 2 \\overline{Y} - ( \\mu _{1} - 2 \\mu _{2} ) } { \\sqrt { \\sigma _{1} ^{2} / n _{1} + 4 \\sigma _{2} ^{2} / n _{2} } }\">\\text{检验统计量} \\, U = \\frac{ \\overline{X} - 2 \\overline{Y} - ( \\mu _{1} - 2 \\mu _{2} ) } { \\sqrt { \\sigma _{1} ^{2} / n _{1} + 4 \\sigma _{2} ^{2} / n _{2} } }</span>"
         }
       ],
       "answer": "A",
       "answer_index": 0,
-      "analysis_html": "<img src=\"/static/generated/assets/probability/ch128/q0008_analysis.png\"/>"
+      "analysis_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{aligned}&amp;\\text{检验假设}\\;\\;H_0:\\mu_1\\leq2\\mu_2,\\;\\;H_1:\\mu_1&gt;2\\mu_2,\\;\\text{采用}\\bar{X}-2\\bar{Y}\\sim N\\bigg(\\mu_1-2\\mu_2,\\frac{\\sigma_1^2}{n_1}+\\frac{4\\sigma_2^2}{n_2}\\bigg).\\\\&amp;\\text{在}H_0\\text{成立下}\\;U=\\frac{\\overline{X}-2\\overline{Y}-(\\mu_1-2\\mu_2)}{\\sqrt{\\frac{\\sigma_1^2}{n_1}+\\frac{4\\sigma_2^2}{n_2}}}\\sim N(0,1).\\end{aligned}\">\\begin{aligned}&amp;\\text{检验假设}\\;\\;H_0:\\mu_1\\leq2\\mu_2,\\;\\;H_1:\\mu_1&gt;2\\mu_2,\\;\\text{采用}\\bar{X}-2\\bar{Y}\\sim N\\bigg(\\mu_1-2\\mu_2,\\frac{\\sigma_1^2}{n_1}+\\frac{4\\sigma_2^2}{n_2}\\bigg).\\\\&amp;\\text{在}H_0\\text{成立下}\\;U=\\frac{\\overline{X}-2\\overline{Y}-(\\mu_1-2\\mu_2)}{\\sqrt{\\frac{\\sigma_1^2}{n_1}+\\frac{4\\sigma_2^2}{n_2}}}\\sim N(0,1).\\end{aligned}</div>"
     },
     {
       "id": "q0009",
       "number": 9,
       "header": "#9-Averge",
       "difficulty": "Averge",
-      "prompt_html": "<img src=\"/static/generated/assets/probability/ch128/q0009_prompt.png\"/>",
+      "prompt_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{array}{l} \\text {设甲、乙两厂生产同样的灯泡，其寿命}X,Y\\text{分别服从正态分布}N(\\mu_{1},\\sigma_{1}^{2}),N(\\mu_{2},\\sigma_{2}^{2})，\\text{已知它们寿命的标准差分别是}84h\\text{和}96h，\\text{现从两厂生产的灯泡中各取}60\\text{只}，\\text{测得平均寿命甲厂为}1295h，\\text{乙厂为}1230h，\\text{设} \\alpha=0.05，\\text{关于两厂生产的灯泡寿命是否有显著差异的说法}，\\text{下列说法不正确的是}（）。(u_{0.05}=1.645,u_{0.025}=1.96) \\end{array}\">\\begin{array}{l} \\text {设甲、乙两厂生产同样的灯泡，其寿命}X,Y\\text{分别服从正态分布}N(\\mu_{1},\\sigma_{1}^{2}),N(\\mu_{2},\\sigma_{2}^{2})，\\text{已知它们寿命的标准差分别是}84h\\text{和}96h，\\text{现从两厂生产的灯泡中各取}60\\text{只}，\\text{测得平均寿命甲厂为}1295h，\\text{乙厂为}1230h，\\text{设} \\alpha=0.05，\\text{关于两厂生产的灯泡寿命是否有显著差异的说法}，\\text{下列说法不正确的是}（）。(u_{0.05}=1.645,u_{0.025}=1.96) \\end{array}</div>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/probability/ch128/q0009_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{拒绝域为} \\, ( 1 . 96 , \\, + \\infty )\">\\text{拒绝域为} \\, ( 1 . 96 , \\, + \\infty )</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/probability/ch128/q0009_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{假设检验为设} \\ \\ H_{0}: \\mu_{1} = \\mu_{2}\\,, \\ H_{1}: \\mu_{1} \\neq \\mu_{2}\">\\text{假设检验为设} \\ \\ H_{0}: \\mu_{1} = \\mu_{2}\\,, \\ H_{1}: \\mu_{1} \\neq \\mu_{2}</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/probability/ch128/q0009_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{检验统计量为} U = \\frac{\\overline{X} - \\overline{Y} - (\\mu_{1} - \\mu_{2})}{\\sqrt{\\frac{\\sigma_{1}^{2}}{n_{1}} + \\frac{\\sigma_{2}^{2}}{n_{2}}}} \\sim N(0,1)\">\\text{检验统计量为} U = \\frac{\\overline{X} - \\overline{Y} - (\\mu_{1} - \\mu_{2})}{\\sqrt{\\frac{\\sigma_{1}^{2}}{n_{1}} + \\frac{\\sigma_{2}^{2}}{n_{2}}}} \\sim N(0,1)</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/probability/ch128/q0009_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{可认为两厂生产的灯泡寿命有显著差异}\">\\text{可认为两厂生产的灯泡寿命有显著差异}</span>"
         }
       ],
       "answer": "A",
       "answer_index": 0,
-      "analysis_html": "<img src=\"/static/generated/assets/probability/ch128/q0009_analysis.png\"/>"
+      "analysis_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{aligned} &amp;\\text{(1)建立假设}\\quad H_{0}: \\mu_{1}=\\mu_{2},\\ H_{1}: \\mu_{1}\\neq \\mu_{2}.\\\\ &amp;\\text{(2)选择统计量}\\quad U=\\frac{\\bar{X}-\\bar{Y}-(\\mu_{1}-\\mu_{2})}{\\sqrt{\\frac{\\sigma_{1}^{2}}{n_{1}}+\\frac{\\sigma_{2}^{2}}{n_{2}}}}\\sim N(0,1).\\\\ &amp;\\text{(3)}\\text{对于给定的显著性水平}  \\alpha \\text{，确定}\\text{ k}\\text{，使}  P\\{|U|&gt;k\\}=\\alpha． \\text{拒绝域为}  |U|&gt;u_{0.2} .\\\\ &amp;\\text{(4)}\\text{由于}  \\bar{x}=1295,\\bar{y}=1230,\\sigma_{1}=84,\\sigma_{s}=96 \\text{，所以}  |u|=\\left|\\frac{\\bar{x}-\\bar{y}}{\\sqrt{\\frac{\\sigma_{1}^{2}}{n_{1}}+\\frac{\\sigma_{2}^{2}}{n_{2}}}}\\right|=3.95&gt;u_{0.025}=1.96 .  \\\\ &amp;\\text{故拒绝}H_{0}，\\text{即认为两厂生产的灯泡寿命有显著差异}. \\end{aligned}\">\\begin{aligned} &amp;\\text{(1)建立假设}\\quad H_{0}: \\mu_{1}=\\mu_{2},\\ H_{1}: \\mu_{1}\\neq \\mu_{2}.\\\\ &amp;\\text{(2)选择统计量}\\quad U=\\frac{\\bar{X}-\\bar{Y}-(\\mu_{1}-\\mu_{2})}{\\sqrt{\\frac{\\sigma_{1}^{2}}{n_{1}}+\\frac{\\sigma_{2}^{2}}{n_{2}}}}\\sim N(0,1).\\\\ &amp;\\text{(3)}\\text{对于给定的显著性水平}  \\alpha \\text{，确定}\\text{ k}\\text{，使}  P\\{|U|&gt;k\\}=\\alpha． \\text{拒绝域为}  |U|&gt;u_{0.2} .\\\\ &amp;\\text{(4)}\\text{由于}  \\bar{x}=1295,\\bar{y}=1230,\\sigma_{1}=84,\\sigma_{s}=96 \\text{，所以}  |u|=\\left|\\frac{\\bar{x}-\\bar{y}}{\\sqrt{\\frac{\\sigma_{1}^{2}}{n_{1}}+\\frac{\\sigma_{2}^{2}}{n_{2}}}}\\right|=3.95&gt;u_{0.025}=1.96 .  \\\\ &amp;\\text{故拒绝}H_{0}，\\text{即认为两厂生产的灯泡寿命有显著差异}. \\end{aligned}</div>"
     },
     {
       "id": "q0010",
       "number": 10,
       "header": "#10-Averge",
       "difficulty": "Averge",
-      "prompt_html": "<img src=\"/static/generated/assets/probability/ch128/q0010_prompt.png\"/>",
+      "prompt_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{aligned}&amp;\\text{在漂白工艺中要改变温度对针织品断裂强力的影响，在两种不同温度下分别作了8次试验，测得断裂强力的数据如下(单位：kg):}\\\\&amp;70^{\\circ}\\text{C}:20.8\\quad 18.8\\quad 19.8\\quad 20.9\\quad 21.5\\quad 19.5\\quad 21.0\\quad 21.2\\\\&amp;80^{\\circ}\\text{C}:17.7\\quad 20.3\\quad 20.0\\quad 18.8\\quad 19.0\\quad 20.1\\quad 20.2\\quad 19.1\\\\&amp;\\text{若判断两种温度下的强力有无差别}\\text{(}\\text{断裂强力可认为服从正态分布}  \\alpha=0.05) \\text{，则下列说法中不正确的是}\\text{( ).}\\end{aligned}\">\\begin{aligned}&amp;\\text{在漂白工艺中要改变温度对针织品断裂强力的影响，在两种不同温度下分别作了8次试验，测得断裂强力的数据如下(单位：kg):}\\\\&amp;70^{\\circ}\\text{C}:20.8\\quad 18.8\\quad 19.8\\quad 20.9\\quad 21.5\\quad 19.5\\quad 21.0\\quad 21.2\\\\&amp;80^{\\circ}\\text{C}:17.7\\quad 20.3\\quad 20.0\\quad 18.8\\quad 19.0\\quad 20.1\\quad 20.2\\quad 19.1\\\\&amp;\\text{若判断两种温度下的强力有无差别}\\text{(}\\text{断裂强力可认为服从正态分布}  \\alpha=0.05) \\text{，则下列说法中不正确的是}\\text{( ).}\\end{aligned}</div>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/probability/ch128/q0010_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{检验统计量为} \\, T = \\frac{ \\overline{X} - \\overline{Y} - \\mu _{0} } { \\sqrt { S _ { 1 } ^ { 2 } / n _ { 1 } + S _ { 2 } ^ { 2 } / n _ { 2 } } }\">\\text{检验统计量为} \\, T = \\frac{ \\overline{X} - \\overline{Y} - \\mu _{0} } { \\sqrt { S _ { 1 } ^ { 2 } / n _ { 1 } + S _ { 2 } ^ { 2 } / n _ { 2 } } }</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/probability/ch128/q0010_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{检验假设为} \\, H_{0}; \\mu_{1} = \\mu_{2}, \\, H_{0}; \\mu_{1} \\neq \\mu_{2}\">\\text{检验假设为} \\, H_{0}; \\mu_{1} = \\mu_{2}, \\, H_{0}; \\mu_{1} \\neq \\mu_{2}</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/probability/ch128/q0010_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{拒绝域为} \\left| T \\right| &gt; t _ { \\alpha / 2 } ( n _ { 1 } + n _ { 2 } - 2 )\">\\text{拒绝域为} \\left| T \\right| &gt; t _ { \\alpha / 2 } ( n _ { 1 } + n _ { 2 } - 2 )</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/probability/ch128/q0010_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{可认为两种温度下的断裂强力有显著差别}\">\\text{可认为两种温度下的断裂强力有显著差别}</span>"
         }
       ],
       "answer": "A",
       "answer_index": 0,
-      "analysis_html": "<img src=\"/static/generated/assets/probability/ch128/q0010_analysis.png\"/>"
+      "analysis_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{aligned} \\text{(1)}\\text{本问题是在}  \\alpha=0.05 \\text{下检验假设}  \\mu_1=\\mu_3 \\text{，为此需要先检验}  \\sigma_1^2=\\sigma_2^2 \\text{是否成立}\\text{.}\\\\ H_{01}: \\sigma_1^2=\\sigma_2^2,\\ H_{11}: \\sigma_1^2\\neq \\sigma_2^2.\\\\ \\text{选取统计量}F=\\frac{S_1^2}{S_2^2},\\ \\text{在}H_0\\text{成立的条件下，}F\\sim F(n_1-1,n_2-1),\\\\ \\text{且此检验问题的拒绝域为}F&gt;F_{w_2}(n_1-1,n_2-1)\\text{或}F&lt;F_{1-w_2}(n_1-1,n_2-1).\\\\ \\text{这里}F=\\frac{s_1^2}{s_2^2}\\approx\\frac{0.9055}{0.8286}\\approx1.0928,\\ F_{0.025}(7,7)=4.99,\\ F_{0.975}(7,7)=\\frac{1}{F_{0.025}(7,7)}=\\frac{1}{4.99}\\approx0.2004.\\\\ \\text{显然}F_{0.975}(7,7)=0.2004&lt;1.0928&lt;4.99=F_{0.025}(7,7).\\\\ \\text{说明}F\\text{未落在拒绝域中，从而接受}H_{01},\\text{即认为两温度下的强力的方差没有显著变化，亦即}\\sigma_1^2=\\sigma_2^2.\\\\ \\text{(2)再检验假设}H_{01}\\mu_1=\\mu_2,\\ H_{01}\\mu_1\\ne\\mu_2,\\\\ \\text{在}H_0\\text{成立的条件下，}T=\\frac{\\overline{X_1}-\\overline{X_2}}{\\sqrt{\\frac{(n_1-1)S_1^2+(n_2-1)S_2^2}{n_1+n_2-2}}\\sqrt{\\frac{1}{n_1}+\\frac{1}{n_2}}}\\sim t(n_1+n_2-2),\\\\ \\text{且此检验问题的拒绝域为}|T|&gt;t_{w_2}(n_1+n_2-2),\\text{这里}\\\\ T\\approx\\frac{20.4-19.4}{\\sqrt{\\frac{7\\times0.9055+7\\times0.8286}{8+8-2}}\\sqrt{\\frac{1}{8}+\\frac{1}{8}}}\\approx2.148,\\\\ \\text{显然}|\\overline{T}|=2.148&gt;2.145=t_{0.025}(14).\\end{aligned}\">\\begin{aligned} \\text{(1)}\\text{本问题是在}  \\alpha=0.05 \\text{下检验假设}  \\mu_1=\\mu_3 \\text{，为此需要先检验}  \\sigma_1^2=\\sigma_2^2 \\text{是否成立}\\text{.}\\\\ H_{01}: \\sigma_1^2=\\sigma_2^2,\\ H_{11}: \\sigma_1^2\\neq \\sigma_2^2.\\\\ \\text{选取统计量}F=\\frac{S_1^2}{S_2^2},\\ \\text{在}H_0\\text{成立的条件下，}F\\sim F(n_1-1,n_2-1),\\\\ \\text{且此检验问题的拒绝域为}F&gt;F_{w_2}(n_1-1,n_2-1)\\text{或}F&lt;F_{1-w_2}(n_1-1,n_2-1).\\\\ \\text{这里}F=\\frac{s_1^2}{s_2^2}\\approx\\frac{0.9055}{0.8286}\\approx1.0928,\\ F_{0.025}(7,7)=4.99,\\ F_{0.975}(7,7)=\\frac{1}{F_{0.025}(7,7)}=\\frac{1}{4.99}\\approx0.2004.\\\\ \\text{显然}F_{0.975}(7,7)=0.2004&lt;1.0928&lt;4.99=F_{0.025}(7,7).\\\\ \\text{说明}F\\text{未落在拒绝域中，从而接受}H_{01},\\text{即认为两温度下的强力的方差没有显著变化，亦即}\\sigma_1^2=\\sigma_2^2.\\\\ \\text{(2)再检验假设}H_{01}\\mu_1=\\mu_2,\\ H_{01}\\mu_1\\ne\\mu_2,\\\\ \\text{在}H_0\\text{成立的条件下，}T=\\frac{\\overline{X_1}-\\overline{X_2}}{\\sqrt{\\frac{(n_1-1)S_1^2+(n_2-1)S_2^2}{n_1+n_2-2}}\\sqrt{\\frac{1}{n_1}+\\frac{1}{n_2}}}\\sim t(n_1+n_2-2),\\\\ \\text{且此检验问题的拒绝域为}|T|&gt;t_{w_2}(n_1+n_2-2),\\text{这里}\\\\ T\\approx\\frac{20.4-19.4}{\\sqrt{\\frac{7\\times0.9055+7\\times0.8286}{8+8-2}}\\sqrt{\\frac{1}{8}+\\frac{1}{8}}}\\approx2.148,\\\\ \\text{显然}|\\overline{T}|=2.148&gt;2.145=t_{0.025}(14).\\end{aligned}</div>"
     },
     {
       "id": "q0011",
       "number": 11,
       "header": "#11-Averge",
       "difficulty": "Averge",
-      "prompt_html": "<img src=\"/static/generated/assets/probability/ch128/q0011_prompt.png\"/>",
+      "prompt_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{aligned}\\text{设从正态总体}N\\bigl(\\mu_{1},\\sigma^{2}\\bigr)\\text{和}N\\bigl(\\mu^{2},\\sigma^{2}\\bigr)\\text{（}\\sigma\\text{未知）取得两相互独立的样本，容量分别为}m,n, \\text{均值为}\\overline{\\chi},\\overline{\\gamma},\\text{样本方差为}S_{1}^{2}\\text{和}S_{2}^{2}\\text{。要对}\\mu_{1}-\\mu_{2}\\text{作假设检验，统计假设为}H_{0}:\\mu_{1}-\\mu_{2}=0\\\\ \\leftrightarrow H_{1}:\\mu_{1}-\\mu_{2}\\neq 0\\text{，则要用的检验统计量和在给定 的显著水平下}\\alpha\\text{检验的拒绝域为（.}.\\end{aligned}\">\\begin{aligned}\\text{设从正态总体}N\\bigl(\\mu_{1},\\sigma^{2}\\bigr)\\text{和}N\\bigl(\\mu^{2},\\sigma^{2}\\bigr)\\text{（}\\sigma\\text{未知）取得两相互独立的样本，容量分别为}m,n, \\text{均值为}\\overline{\\chi},\\overline{\\gamma},\\text{样本方差为}S_{1}^{2}\\text{和}S_{2}^{2}\\text{。要对}\\mu_{1}-\\mu_{2}\\text{作假设检验，统计假设为}H_{0}:\\mu_{1}-\\mu_{2}=0\\\\ \\leftrightarrow H_{1}:\\mu_{1}-\\mu_{2}\\neq 0\\text{，则要用的检验统计量和在给定 的显著水平下}\\alpha\\text{检验的拒绝域为（.}.\\end{aligned}</div>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/probability/ch128/q0011_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\begin{array}{l} { r } { T \\! = \\! \\frac { ( \\overline { { X } } - \\overline { { Y } } ) - \\mu _ { 0 } } { S _ { w } \\sqrt { \\frac { 1 } { n _ { 1 } } + \\frac { 1 } { n _ { 2 } } } } \\, , \\; \\; | t | \\! &gt; \\! t _ { w / 2 } ( n _ { 1 } + n _ { 2 } - 2 ) } \\end{array}\">\\begin{array}{l} { r } { T \\! = \\! \\frac { ( \\overline { { X } } - \\overline { { Y } } ) - \\mu _ { 0 } } { S _ { w } \\sqrt { \\frac { 1 } { n _ { 1 } } + \\frac { 1 } { n _ { 2 } } } } \\, , \\; \\; | t | \\! &gt; \\! t _ { w / 2 } ( n _ { 1 } + n _ { 2 } - 2 ) } \\end{array}</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/probability/ch128/q0011_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\begin{aligned}U = \\frac{(\\overline{X} - \\overline{Y}) - \\mu_0}{\\sqrt{\\frac{\\sigma_1^2}{n_1} + \\frac{\\sigma_2^2}{n_2}}}\\,,\\;\\; |u| &gt; u_{\\omega/2}\\end{aligned}\">\\begin{aligned}U = \\frac{(\\overline{X} - \\overline{Y}) - \\mu_0}{\\sqrt{\\frac{\\sigma_1^2}{n_1} + \\frac{\\sigma_2^2}{n_2}}}\\,,\\;\\; |u| &gt; u_{\\omega/2}\\end{aligned}</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/probability/ch128/q0011_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\begin{aligned}T = \\frac{(\\overline{X}-\\overline{Y}) - \\mu_0}{\\sqrt{\\frac{S_1^2}{n_1} + \\frac{S_2^2}{n_2}}}\\,,\\,\\,\\, |t| &lt; t_{\\omega/2}(n_1 + n_2 - 2)\\end{aligned}\">\\begin{aligned}T = \\frac{(\\overline{X}-\\overline{Y}) - \\mu_0}{\\sqrt{\\frac{S_1^2}{n_1} + \\frac{S_2^2}{n_2}}}\\,,\\,\\,\\, |t| &lt; t_{\\omega/2}(n_1 + n_2 - 2)\\end{aligned}</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/probability/ch128/q0011_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\begin{aligned}U=\\frac{(\\overline{X}-\\overline{Y})-\\mu_{0}}{\\sqrt{\\frac{S_{1}^{2}}{n_{1}}+\\frac{S_{2}^{2}}{n_{2}}}}\\;,\\;\\;|u|&lt;u_{\\alpha/2}\\end{aligned}\">\\begin{aligned}U=\\frac{(\\overline{X}-\\overline{Y})-\\mu_{0}}{\\sqrt{\\frac{S_{1}^{2}}{n_{1}}+\\frac{S_{2}^{2}}{n_{2}}}}\\;,\\;\\;|u|&lt;u_{\\alpha/2}\\end{aligned}</span>"
         }
       ],
       "answer": "A",
       "answer_index": 0,
-      "analysis_html": "<img src=\"/static/generated/assets/probability/ch128/q0011_analysis.png\"/>"
+      "analysis_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{aligned}&amp;\\text{双正态总体均值差的检验如下过程.}\\\\&amp;\\text{1.方差}\\sigma_{1}^{2},\\sigma_{2}^{2}\\text{已知}，\\text{则}\\\\&amp;\\text{(1)检验假设}H_{0}: \\mu_{1}=\\mu_{0};\\;H_{0}:\\mu_{1}-\\mu_{2}\\neq \\mu_{0}.\\\\&amp;\\text{(2)若}H_{0}\\text{成立，则}U=\\frac{(\\overline{X}-\\overline{Y})-\\mu_{0}}{\\sqrt{\\frac{\\sigma_{1}^{2}}{n_{1}}+\\frac{\\sigma_{2}^{2}}{n_{2}}}}\\sim N(0,1),\\;U\\text{的样本观察值记为}u,\\text{此时拒绝域为}|u|&gt;u_{\\alpha2}\\text{。其中}u_{\\alpha2}\\text{为标}\\\\&amp;\\text{准正态分布的}\\alpha/2\\text{分位数}.\\quad\\\\&amp;\\text{另外，右侧检验：}H_{0}:\\mu_{1}-\\mu_{2}\\leq \\mu_{0};\\;H_{1}:\\mu_{1}-\\mu_{2}&gt;\\mu_{0}\\text{。此时拒绝域为}u&gt;u_{n}.\\quad\\\\&amp;\\text{左侧检验：}H_{0}:\\mu_{1}-\\mu_{2}\\geq \\mu_{0};\\;H_{1}:\\mu_{1}-\\mu_{2}&lt;\\mu_{0}\\text{。此时拒绝域为}u&lt;-u_{n}.\\quad\\\\&amp;\\text{附：}u_{0.10}=1.285,\\;u_{0.05}=1.645,\\;u_{0.025}=1.96,\\;u_{0.01}=2.33.\\quad\\\\&amp;\\text{2.方差}\\sigma_{1}^{2},\\sigma_{2}^{2}\\text{未知}，\\text{但}\\sigma_{1}^{2}=\\sigma_{2}^{2}=\\sigma^{2},\\quad\\\\&amp;\\text{(1)检验假设}H_{0}:\\mu_{1}=\\mu_{0};\\;H_{0}:\\mu_{1}-\\mu_{2}\\neq \\mu_{0}.\\\\&amp;\\text{(2)若}H_{0}\\text{成立，则}T=\\frac{(\\overline{X}-\\overline{Y})-\\mu_{0}}{S_{w}\\sqrt{\\frac{1}{n_{1}}+\\frac{1}{n_{2}}}}\\sim(n_{1}+n_{2}-2),\\text{记}t\\text{的样本计算值}t,\\text{则拒绝域为}|t|&gt;t_{\\alpha2}(n_{1}+n_{2}-2),\\\\&amp;\\text{其中}t_{\\alpha2}\\text{为}t\\text{分布的}\\alpha/2\\text{分位数}，S_{w}^{2}=\\frac{(n_{1}-1)S_{1}^{2}+(n_{2}-2)S_{2}^{2}}{n_{1}+n_{2}-2},\\;S_{1}^{2}=\\frac{1}{n_{1}-1}\\sum_{i=1}^{n}\\Bigl(X_{i}-\\overline{X}\\Bigr)^{2},\\\\&amp;\\quad S_{2}^{2}=\\frac{1}{n_{2}-1}\\sum_{i=1}^{n}\\Bigl(Y_{i}-\\overline{Y}\\Bigr)^{2}.\\quad\\\\&amp;\\text{另外，右侧检验：}H_{0}:\\mu_{1}-\\mu_{2}\\leq \\mu_{0};\\;H_{1}:\\mu_{1}-\\mu_{2}&gt;\\mu_{0}\\text{。此时拒绝域为}t&gt;t_{\\alpha}(n_{1}+n_{2}-2)\\text{。}\\\\&amp;\\text{左侧检验：}H_{0}:\\mu_{1}-\\mu_{2}\\geq \\mu_{0};\\;H_{1}:\\mu_{1}-\\mu_{2}&lt;\\mu_{0}\\text{。此时拒绝域为}t&lt;-t_{\\alpha}(n_{1}+n_{2}-2)\\text{。}\\\\&amp;\\text{附：当}n\\geq 46\\text{时，}t_{\\alpha}(n)\\text{。}\\end{aligned}\">\\begin{aligned}&amp;\\text{双正态总体均值差的检验如下过程.}\\\\&amp;\\text{1.方差}\\sigma_{1}^{2},\\sigma_{2}^{2}\\text{已知}，\\text{则}\\\\&amp;\\text{(1)检验假设}H_{0}: \\mu_{1}=\\mu_{0};\\;H_{0}:\\mu_{1}-\\mu_{2}\\neq \\mu_{0}.\\\\&amp;\\text{(2)若}H_{0}\\text{成立，则}U=\\frac{(\\overline{X}-\\overline{Y})-\\mu_{0}}{\\sqrt{\\frac{\\sigma_{1}^{2}}{n_{1}}+\\frac{\\sigma_{2}^{2}}{n_{2}}}}\\sim N(0,1),\\;U\\text{的样本观察值记为}u,\\text{此时拒绝域为}|u|&gt;u_{\\alpha2}\\text{。其中}u_{\\alpha2}\\text{为标}\\\\&amp;\\text{准正态分布的}\\alpha/2\\text{分位数}.\\quad\\\\&amp;\\text{另外，右侧检验：}H_{0}:\\mu_{1}-\\mu_{2}\\leq \\mu_{0};\\;H_{1}:\\mu_{1}-\\mu_{2}&gt;\\mu_{0}\\text{。此时拒绝域为}u&gt;u_{n}.\\quad\\\\&amp;\\text{左侧检验：}H_{0}:\\mu_{1}-\\mu_{2}\\geq \\mu_{0};\\;H_{1}:\\mu_{1}-\\mu_{2}&lt;\\mu_{0}\\text{。此时拒绝域为}u&lt;-u_{n}.\\quad\\\\&amp;\\text{附：}u_{0.10}=1.285,\\;u_{0.05}=1.645,\\;u_{0.025}=1.96,\\;u_{0.01}=2.33.\\quad\\\\&amp;\\text{2.方差}\\sigma_{1}^{2},\\sigma_{2}^{2}\\text{未知}，\\text{但}\\sigma_{1}^{2}=\\sigma_{2}^{2}=\\sigma^{2},\\quad\\\\&amp;\\text{(1)检验假设}H_{0}:\\mu_{1}=\\mu_{0};\\;H_{0}:\\mu_{1}-\\mu_{2}\\neq \\mu_{0}.\\\\&amp;\\text{(2)若}H_{0}\\text{成立，则}T=\\frac{(\\overline{X}-\\overline{Y})-\\mu_{0}}{S_{w}\\sqrt{\\frac{1}{n_{1}}+\\frac{1}{n_{2}}}}\\sim(n_{1}+n_{2}-2),\\text{记}t\\text{的样本计算值}t,\\text{则拒绝域为}|t|&gt;t_{\\alpha2}(n_{1}+n_{2}-2),\\\\&amp;\\text{其中}t_{\\alpha2}\\text{为}t\\text{分布的}\\alpha/2\\text{分位数}，S_{w}^{2}=\\frac{(n_{1}-1)S_{1}^{2}+(n_{2}-2)S_{2}^{2}}{n_{1}+n_{2}-2},\\;S_{1}^{2}=\\frac{1}{n_{1}-1}\\sum_{i=1}^{n}\\Bigl(X_{i}-\\overline{X}\\Bigr)^{2},\\\\&amp;\\quad S_{2}^{2}=\\frac{1}{n_{2}-1}\\sum_{i=1}^{n}\\Bigl(Y_{i}-\\overline{Y}\\Bigr)^{2}.\\quad\\\\&amp;\\text{另外，右侧检验：}H_{0}:\\mu_{1}-\\mu_{2}\\leq \\mu_{0};\\;H_{1}:\\mu_{1}-\\mu_{2}&gt;\\mu_{0}\\text{。此时拒绝域为}t&gt;t_{\\alpha}(n_{1}+n_{2}-2)\\text{。}\\\\&amp;\\text{左侧检验：}H_{0}:\\mu_{1}-\\mu_{2}\\geq \\mu_{0};\\;H_{1}:\\mu_{1}-\\mu_{2}&lt;\\mu_{0}\\text{。此时拒绝域为}t&lt;-t_{\\alpha}(n_{1}+n_{2}-2)\\text{。}\\\\&amp;\\text{附：当}n\\geq 46\\text{时，}t_{\\alpha}(n)\\text{。}\\end{aligned}</div>"
     },
     {
       "id": "q0012",
       "number": 12,
       "header": "#12-Averge",
       "difficulty": "Averge",
-      "prompt_html": "<img src=\"/static/generated/assets/probability/ch128/q0012_prompt.png\"/>",
+      "prompt_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{aligned} &amp;70^{\\circ}C:20.8\\quad 18.8\\quad 19.8\\quad 20.9\\quad 21.5\\quad 19.5\\quad 21.0\\quad 21.2\\\\ &amp;80^{\\circ}C:17.7\\quad 20.3\\quad 20.0\\quad 18.8\\quad 19.0\\quad 20.1\\quad 20.2\\quad 19.1 \\end{aligned}\">\\begin{aligned} &amp;70^{\\circ}C:20.8\\quad 18.8\\quad 19.8\\quad 20.9\\quad 21.5\\quad 19.5\\quad 21.0\\quad 21.2\\\\ &amp;80^{\\circ}C:17.7\\quad 20.3\\quad 20.0\\quad 18.8\\quad 19.0\\quad 20.1\\quad 20.2\\quad 19.1 \\end{aligned}</div>\n<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{若判断两种温度下的强力有无差别}(\\text{断裂强力服从正态分布}\\alpha=0.05)，\\text{则下列说法中不正确的是}（）。\">\\text{若判断两种温度下的强力有无差别}(\\text{断裂强力服从正态分布}\\alpha=0.05)，\\text{则下列说法中不正确的是}（）。</span>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/probability/ch128/q0012_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\begin{array}{l} {\\text{检验统计量为}} \\; T = \\frac{\\overline{X_{1}} - \\overline{X_{2}} - (\\mu_{1} - \\mu_{2})}{S_{n} \\sqrt{1/n_{1} + 1/n_{2}}} \\end{array}\">\\begin{array}{l} {\\text{检验统计量为}} \\; T = \\frac{\\overline{X_{1}} - \\overline{X_{2}} - (\\mu_{1} - \\mu_{2})}{S_{n} \\sqrt{1/n_{1} + 1/n_{2}}} \\end{array}</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/probability/ch128/q0012_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{检验假设为} \\, H_0: \\mu_1 = \\mu_2, \\, H_0: \\mu_1 \\neq \\mu_2\">\\text{检验假设为} \\, H_0: \\mu_1 = \\mu_2, \\, H_0: \\mu_1 \\neq \\mu_2</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/probability/ch128/q0012_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{可认为两种温度下的断裂强力有显著差别}\">\\text{可认为两种温度下的断裂强力有显著差别}</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/probability/ch128/q0012_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\begin{aligned} \\text{拒绝域为} \\; W = \\left\\{ t &gt; t_{\\alpha/2} (n_{1} + n_{2} - 2) \\right\\} \\end{aligned}\">\\begin{aligned} \\text{拒绝域为} \\; W = \\left\\{ t &gt; t_{\\alpha/2} (n_{1} + n_{2} - 2) \\right\\} \\end{aligned}</span>"
         }
       ],
       "answer": "A",
       "answer_index": 0,
-      "analysis_html": "<img src=\"/static/generated/assets/probability/ch128/q0012_analysis.png\"/>"
+      "analysis_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{aligned} (1) &amp; \\text{本问题是在}\\alpha=0.05\\text{下检验假设}\\mu_{1}=\\mu_{2},\\text{为此需要先检验}\\sigma_{1}^{2}=\\sigma_{2}^{2} \\text{是否成立。}\\\\ &amp; \\text{建立检验假设}\\;H_{01}:\\sigma_{1}^{2}=\\sigma_{2}^{2},\\;H_{11}:\\sigma_{1}^{2}\\neq\\sigma_{2}^{2}.\\\\ &amp; \\text{选取统计量}\\;F=\\frac{S_{1}^{1}}{S_{2}^{1}}\\;\\text{在}\\;H_{01} \\text{成立的条件下，}\\;F\\sim F(n_{1}-1,n_{2}-1),\\\\ &amp; \\text{且此检验问题的拒绝域为}\\;F&gt;F_{\\alpha/2}(n_{1}-1,n_{2}-1)\\text{或}F&lt;F_{1-\\alpha/2}(n_{1}-1,n_{2}-1).\\\\ &amp; \\text{这里}\\;F=\\frac{s_{1}^{2}}{s_{2}^{2}}\\approx\\frac{0.9055}{0.8286}\\approx1.0928,\\;F_{0.025}(7,7)=4.99,\\;F_{0.975}(7,7)=\\frac{1}{F_{0.025}(7,7)}=\\frac{1}{4.99}\\approx0.2004.\\\\ &amp; \\text{显然}\\;F_{0.975}(7,7)=0.2004&lt;1.0928&lt;4.99=F_{0.025}(7,7).\\\\ &amp; \\text{说明}\\;F\\text{未落在拒绝域中，从而接受}\\;H_{01},\\text{即认为两温度下的强力的方差没有显著变化，亦即}\\sigma_{1}^{2}=\\sigma.\\\\ (2) &amp; \\text{再检验假设}\\;H_{0}^{\\prime}:\\mu_{1}=\\mu_{2},\\;H_{0}^{\\prime}:\\mu_{1}\\neq\\mu_{2}.\\\\ &amp; \\text{在}\\;H_{0}^{\\prime} \\text{成立的条件下，}\\;T=\\frac{\\overline{X_{1}}-\\overline{X_{2}}}{\\sqrt{\\frac{(n_{1}-1)S_{1}^{1}+(n_{2}-1)S_{2}^{1}}{n_{1}+n_{2}-2}}\\sqrt{\\frac{1}{n_{1}}+\\frac{1}{n_{2}}}}\\sim(n_{1}+n_{2}-2),\\\\ &amp; \\text{且此检验问题的拒绝域为}\\;|T|&gt;t_{\\alpha/2}(n_{1}+n_{2}-2).\\\\ &amp; \\text{这里}\\;t\\approx\\frac{20.4-19.4}{\\sqrt{\\frac{7\\times0.9055+7\\times0.8286}{8+8-2}}\\sqrt{\\frac{1}{8}+\\frac{1}{8}}}\\approx2.148&gt;2.145=t_{0.025}(14).\\\\ &amp; \\text{说明}\\;T\\text{落在拒绝域中，从而拒绝}\\;H_{0},\\text{即认为两种温度下的断裂强力有显著差别。}\\end{aligned}\">\\begin{aligned} (1) &amp; \\text{本问题是在}\\alpha=0.05\\text{下检验假设}\\mu_{1}=\\mu_{2},\\text{为此需要先检验}\\sigma_{1}^{2}=\\sigma_{2}^{2} \\text{是否成立。}\\\\ &amp; \\text{建立检验假设}\\;H_{01}:\\sigma_{1}^{2}=\\sigma_{2}^{2},\\;H_{11}:\\sigma_{1}^{2}\\neq\\sigma_{2}^{2}.\\\\ &amp; \\text{选取统计量}\\;F=\\frac{S_{1}^{1}}{S_{2}^{1}}\\;\\text{在}\\;H_{01} \\text{成立的条件下，}\\;F\\sim F(n_{1}-1,n_{2}-1),\\\\ &amp; \\text{且此检验问题的拒绝域为}\\;F&gt;F_{\\alpha/2}(n_{1}-1,n_{2}-1)\\text{或}F&lt;F_{1-\\alpha/2}(n_{1}-1,n_{2}-1).\\\\ &amp; \\text{这里}\\;F=\\frac{s_{1}^{2}}{s_{2}^{2}}\\approx\\frac{0.9055}{0.8286}\\approx1.0928,\\;F_{0.025}(7,7)=4.99,\\;F_{0.975}(7,7)=\\frac{1}{F_{0.025}(7,7)}=\\frac{1}{4.99}\\approx0.2004.\\\\ &amp; \\text{显然}\\;F_{0.975}(7,7)=0.2004&lt;1.0928&lt;4.99=F_{0.025}(7,7).\\\\ &amp; \\text{说明}\\;F\\text{未落在拒绝域中，从而接受}\\;H_{01},\\text{即认为两温度下的强力的方差没有显著变化，亦即}\\sigma_{1}^{2}=\\sigma.\\\\ (2) &amp; \\text{再检验假设}\\;H_{0}^{\\prime}:\\mu_{1}=\\mu_{2},\\;H_{0}^{\\prime}:\\mu_{1}\\neq\\mu_{2}.\\\\ &amp; \\text{在}\\;H_{0}^{\\prime} \\text{成立的条件下，}\\;T=\\frac{\\overline{X_{1}}-\\overline{X_{2}}}{\\sqrt{\\frac{(n_{1}-1)S_{1}^{1}+(n_{2}-1)S_{2}^{1}}{n_{1}+n_{2}-2}}\\sqrt{\\frac{1}{n_{1}}+\\frac{1}{n_{2}}}}\\sim(n_{1}+n_{2}-2),\\\\ &amp; \\text{且此检验问题的拒绝域为}\\;|T|&gt;t_{\\alpha/2}(n_{1}+n_{2}-2).\\\\ &amp; \\text{这里}\\;t\\approx\\frac{20.4-19.4}{\\sqrt{\\frac{7\\times0.9055+7\\times0.8286}{8+8-2}}\\sqrt{\\frac{1}{8}+\\frac{1}{8}}}\\approx2.148&gt;2.145=t_{0.025}(14).\\\\ &amp; \\text{说明}\\;T\\text{落在拒绝域中，从而拒绝}\\;H_{0},\\text{即认为两种温度下的断裂强力有显著差别。}\\end{aligned}</div>"
     },
     {
       "id": "q0013",
       "number": 13,
       "header": "#13-Averge",
       "difficulty": "Averge",
-      "prompt_html": "<img src=\"/static/generated/assets/probability/ch128/q0013_prompt.png\"/>",
+      "prompt_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{array}{l}\n\\begin{array}{|c|c|c|c|c|c|c|c|c|c|} \\hline \\text{学生编号} i &amp; 1 &amp; 2 &amp; 3 &amp; 4 &amp; 5 &amp; 6 &amp; 7 &amp; 8 &amp; 9 \\\\ \\hline \\text{入学前成绩} X_{i} &amp; 76 &amp; 74 &amp; 70 &amp; 57 &amp; 49 &amp; 69 &amp; 65 &amp; 26 &amp; 59 \\\\ \\hline \\text{入学后成绩} Y_{i} &amp; 81 &amp; 85 &amp; 70 &amp; 52 &amp; 52 &amp; 63 &amp; 83 &amp; 33 &amp; 62 \\\\ \\hline Z_{i} = X_{i} - Y_{i} &amp; -5 &amp; -14 &amp; 0 &amp; 5 &amp; -3 &amp; 6 &amp; -18 &amp; -7 &amp; -3 \\\\ \\hline \\end{array} \n\\end{array}\">\\begin{array}{l}\n\\begin{array}{|c|c|c|c|c|c|c|c|c|c|} \\hline \\text{学生编号} i &amp; 1 &amp; 2 &amp; 3 &amp; 4 &amp; 5 &amp; 6 &amp; 7 &amp; 8 &amp; 9 \\\\ \\hline \\text{入学前成绩} X_{i} &amp; 76 &amp; 74 &amp; 70 &amp; 57 &amp; 49 &amp; 69 &amp; 65 &amp; 26 &amp; 59 \\\\ \\hline \\text{入学后成绩} Y_{i} &amp; 81 &amp; 85 &amp; 70 &amp; 52 &amp; 52 &amp; 63 &amp; 83 &amp; 33 &amp; 62 \\\\ \\hline Z_{i} = X_{i} - Y_{i} &amp; -5 &amp; -14 &amp; 0 &amp; 5 &amp; -3 &amp; 6 &amp; -18 &amp; -7 &amp; -3 \\\\ \\hline \\end{array} \n\\end{array}</div>\n<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{假设测验成绩服从正态他布}，\\text{显著性水平} \\alpha = 0.05，\\text{若检验学生的培训效果是否显著}，\\text{则下列说法中不正确的是}（）。\">\\text{假设测验成绩服从正态他布}，\\text{显著性水平} \\alpha = 0.05，\\text{若检验学生的培训效果是否显著}，\\text{则下列说法中不正确的是}（）。</span>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/probability/ch128/q0013_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{这是双正态总体方差比的假设检验问题}\">\\text{这是双正态总体方差比的假设检验问题}</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/probability/ch128/q0013_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{这是双正态总体均值差的假设检验问题}\">\\text{这是双正态总体均值差的假设检验问题}</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/probability/ch128/q0013_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{经检验可认为培训效果不显著}\">\\text{经检验可认为培训效果不显著}</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/probability/ch128/q0013_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{拒绝域为} \\, ( - \\infty , - 1 . 860 )\">\\text{拒绝域为} \\, ( - \\infty , - 1 . 860 )</span>"
         }
       ],
       "answer": "A",
       "answer_index": 0,
-      "analysis_html": "<img src=\"/static/generated/assets/probability/ch128/q0013_analysis.png\"/>"
+      "analysis_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{aligned}&amp; \\text{设}X,Y \\text{表示培训班前后学生的英语测验成绩}，\\text{显然}X_i \\text{与}Y_i(i=1,2,\\cdots,n)\\text{不独立}. \\text{令}Z=X-Y, \\text{则}\\\\&amp; Z\\sim N(\\mu,\\sigma^2).\\\\&amp; \\text{①待检假设}H_0:\\mu=E(X)-E(Y)\\geq0, \\text{备择假设}H_1:\\mu=E(X)-E(Y)&lt;0;\\\\&amp; \\text{②选取统计量} \\frac{\\overline{Z}}{S\\sqrt{n}}\\sim t(n-1);\\\\&amp; \\text{③由于}\\alpha=0.05,n=9, \\text{查}i\\text{分布表, 得}t_{0.05}(n-1)=t_{0.05}(8)=1.860, \\text{于是}H_4\\text{的拒绝域为}\\left(-\\infty,-1.860\\right);\\\\&amp; \\text{④算出}z=-4.333,s=7.937, \\text{则}\\\\&amp; t=\\frac{z}{s\\sqrt{n}}\\approx\\frac{-4.333}{7.937\\sqrt{9}}\\approx-1.638&gt;-1.860,\\\\&amp; \\text{所以接受}H_0, \\text{即可认为培训效果不显著}.\\end{aligned}\">\\begin{aligned}&amp; \\text{设}X,Y \\text{表示培训班前后学生的英语测验成绩}，\\text{显然}X_i \\text{与}Y_i(i=1,2,\\cdots,n)\\text{不独立}. \\text{令}Z=X-Y, \\text{则}\\\\&amp; Z\\sim N(\\mu,\\sigma^2).\\\\&amp; \\text{①待检假设}H_0:\\mu=E(X)-E(Y)\\geq0, \\text{备择假设}H_1:\\mu=E(X)-E(Y)&lt;0;\\\\&amp; \\text{②选取统计量} \\frac{\\overline{Z}}{S\\sqrt{n}}\\sim t(n-1);\\\\&amp; \\text{③由于}\\alpha=0.05,n=9, \\text{查}i\\text{分布表, 得}t_{0.05}(n-1)=t_{0.05}(8)=1.860, \\text{于是}H_4\\text{的拒绝域为}\\left(-\\infty,-1.860\\right);\\\\&amp; \\text{④算出}z=-4.333,s=7.937, \\text{则}\\\\&amp; t=\\frac{z}{s\\sqrt{n}}\\approx\\frac{-4.333}{7.937\\sqrt{9}}\\approx-1.638&gt;-1.860,\\\\&amp; \\text{所以接受}H_0, \\text{即可认为培训效果不显著}.\\end{aligned}</div>"
     },
     {
       "id": "q0014",
       "number": 14,
       "header": "#14-Averge",
       "difficulty": "Averge",
-      "prompt_html": "<img src=\"/static/generated/assets/probability/ch128/q0014_prompt.png\"/>",
+      "prompt_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{aligned}\\begin{array}{|c|c|} \\hline \\text{老过程} &amp; 6,4,5,5,6,5,5,6,4,6,7,4 \\\\ \\hline \\text{新过程} &amp; 2,1,2,2,1,0,3,2,1,0,1,3 \\\\ \\hline \\end{array}\\end{aligned}\">\\begin{aligned}\\begin{array}{|c|c|} \\hline \\text{老过程} &amp; 6,4,5,5,6,5,5,6,4,6,7,4 \\\\ \\hline \\text{新过程} &amp; 2,1,2,2,1,0,3,2,1,0,1,3 \\\\ \\hline \\end{array}\\end{aligned}</div>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/probability/ch128/q0014_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{上述说法不正确}\">\\text{上述说法不正确}</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/probability/ch128/q0014_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{检验假设} \\, H_0: \\mu_1 - \\mu_2 \\leq 2, \\, H_1: \\mu_1 - \\mu_2 &gt; 2\">\\text{检验假设} \\, H_0: \\mu_1 - \\mu_2 \\leq 2, \\, H_1: \\mu_1 - \\mu_2 &gt; 2</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/probability/ch128/q0014_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\begin{aligned}\\overline{x} = 5.25, \\quad \\overline{y} = 1.5\\end{aligned}\">\\begin{aligned}\\overline{x} = 5.25, \\quad \\overline{y} = 1.5\\end{aligned}</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/probability/ch128/q0014_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\begin{array}{l} { r } { s _ { 1 } ^ { 2 } \\approx 0 . 9318 , \\quad s _ { 2 } ^ { 2 } = 1 } \\end{array}\">\\begin{array}{l} { r } { s _ { 1 } ^ { 2 } \\approx 0 . 9318 , \\quad s _ { 2 } ^ { 2 } = 1 } \\end{array}</span>"
         }
       ],
       "answer": "A",
       "answer_index": 0,
-      "analysis_html": "<img src=\"/static/generated/assets/probability/ch128/q0014_analysis.png\"/>"
+      "analysis_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{aligned}&amp;\\text{检验假设}\\quad H_0:\\mu_1-\\mu_2\\leq2,\\;H_1:\\mu_1-\\mu_2&gt;2.\\\\&amp;\\text{设老过程中形成的NDMA含量为}X\\sim N(\\mu_1,\\sigma_1^2),\\text{新过程中形成的NDMA含量为}Y\\sim N(\\mu_2,\\sigma_2^2).\\\\&amp;\\text{已知}\\sigma_1^2=\\sigma_2^2= \\sigma^2,\\text{但未知，}n_1=n_2=12.\\text{采用t检验法，}\\alpha=0.05,\\text{算得}\\\\&amp;\\quad\\bar{x}=5.25,\\quad\\bar{y}=1.5,\\quad s_1^2\\approx 0.9318,\\quad s_2^2=1,\\quad s_{w}\\approx 0.9828,\\\\&amp;\\text{拒绝域为}W=\\left\\{\\frac{\\bar{x}-\\bar{y}-2}{s_{w}\\sqrt{\\frac{1}{n_1}+\\frac{1}{n_2}}}&gt;t_{0.05}(n_1+n_2-2)\\right\\}.\\\\&amp;\\text{查}t\\text{分布表得}t_{0.05}(22)=1.7171,\\text{计算得}\\\\&amp;\\quad\\frac{5.25-1.5-2}{0.9828\\times\\sqrt{1/2+1/12}}\\approx 4.3616&gt;1.7171,\\\\&amp;\\text{故拒绝}H_0,\\text{认为新、老过程中形成的NDMA平均含量差大于2.}\\end{aligned}\">\\begin{aligned}&amp;\\text{检验假设}\\quad H_0:\\mu_1-\\mu_2\\leq2,\\;H_1:\\mu_1-\\mu_2&gt;2.\\\\&amp;\\text{设老过程中形成的NDMA含量为}X\\sim N(\\mu_1,\\sigma_1^2),\\text{新过程中形成的NDMA含量为}Y\\sim N(\\mu_2,\\sigma_2^2).\\\\&amp;\\text{已知}\\sigma_1^2=\\sigma_2^2= \\sigma^2,\\text{但未知，}n_1=n_2=12.\\text{采用t检验法，}\\alpha=0.05,\\text{算得}\\\\&amp;\\quad\\bar{x}=5.25,\\quad\\bar{y}=1.5,\\quad s_1^2\\approx 0.9318,\\quad s_2^2=1,\\quad s_{w}\\approx 0.9828,\\\\&amp;\\text{拒绝域为}W=\\left\\{\\frac{\\bar{x}-\\bar{y}-2}{s_{w}\\sqrt{\\frac{1}{n_1}+\\frac{1}{n_2}}}&gt;t_{0.05}(n_1+n_2-2)\\right\\}.\\\\&amp;\\text{查}t\\text{分布表得}t_{0.05}(22)=1.7171,\\text{计算得}\\\\&amp;\\quad\\frac{5.25-1.5-2}{0.9828\\times\\sqrt{1/2+1/12}}\\approx 4.3616&gt;1.7171,\\\\&amp;\\text{故拒绝}H_0,\\text{认为新、老过程中形成的NDMA平均含量差大于2.}\\end{aligned}</div>"
     },
     {
       "id": "q0015",
       "number": 15,
       "header": "#15-Averge",
       "difficulty": "Averge",
-      "prompt_html": "<img src=\"/static/generated/assets/probability/ch128/q0015_prompt.png\"/>",
+      "prompt_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{aligned} \\text{设二正态总体}N(\\mu_1,\\sigma_1^2)\\text{和}N(\\mu_2,\\sigma_2^2)\\text{有两组相互独立样本，容量分别为}n_1,\\,n_2,\\,\\text{均值分别为}\\overline{X_1},\\,\\overline{X_2},\\,\\text{且}\\sigma_1^2\\text{和}\\sigma_2^2\\text{为已知，要对}\\mu_1-\\mu_2\\text{作假设检验，统计假设为}\\\\H_0:\\mu_1-\\mu_2=0,\\ H_1:\\mu_1-\\mu_2\\neq 0,\\ \\text{给定显著水平}\\alpha,\\,\\text{则检验的拒绝区间为}\\left(\\,\\right).\\end{aligned}\">\\begin{aligned} \\text{设二正态总体}N(\\mu_1,\\sigma_1^2)\\text{和}N(\\mu_2,\\sigma_2^2)\\text{有两组相互独立样本，容量分别为}n_1,\\,n_2,\\,\\text{均值分别为}\\overline{X_1},\\,\\overline{X_2},\\,\\text{且}\\sigma_1^2\\text{和}\\sigma_2^2\\text{为已知，要对}\\mu_1-\\mu_2\\text{作假设检验，统计假设为}\\\\H_0:\\mu_1-\\mu_2=0,\\ H_1:\\mu_1-\\mu_2\\neq 0,\\ \\text{给定显著水平}\\alpha,\\,\\text{则检验的拒绝区间为}\\left(\\,\\right).\\end{aligned}</div>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/probability/ch128/q0015_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\left| u \\right| &gt; u _ { \\omega / 2 }\">\\left| u \\right| &gt; u _ { \\omega / 2 }</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/probability/ch128/q0015_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\left| u \\right| &gt; u _ { a }\">\\left| u \\right| &gt; u _ { a }</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/probability/ch128/q0015_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\, u &lt; - \\, u _ { a }\">\\, u &lt; - \\, u _ { a }</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/probability/ch128/q0015_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"u &gt; u _ { a }\">u &gt; u _ { a }</span>"
         }
       ],
       "answer": "A",
       "answer_index": 0,
-      "analysis_html": "<img src=\"/static/generated/assets/probability/ch128/q0015_analysis.png\"/>"
+      "analysis_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{aligned}&amp;\\text{双正态总体均值差的检验如下过程.若方差}\\sigma^2,\\sigma_i^2\\text{已知},\\text{则}\\\\&amp;(1)\\text{检验假设}H_0:\\mu_1-\\mu_2=\\mu_0;\\ H_0:\\mu_1-\\mu_2\\neq \\mu_0.\\\\&amp;(2)\\text{若}H_0\\text{成立},\\text{则}U=\\frac{(\\overline{X}-\\overline{Y})-\\mu_0}{\\sqrt{\\frac{\\sigma_1^2}{n_1}+\\frac{\\sigma_2^2}{n_2}}}\\sim N(0,1),\\ U\\text{的样本观察值记为}u,\\text{此时拒绝域为}u&gt;i_{u\\leq2}.\\text{其中} u_{\\leq2}\\text{为标}\\\\&amp;\\text{准正态分布的} \\omega/2\\text{分位数}.\\\\&amp;\\text{另外},\\text{右侧检验}：H_0:\\mu_1-\\mu_2\\leq \\mu_0;\\ H_1:\\mu_1-\\mu_2&gt;\\mu_0.\\text{此时拒绝域为} u&gt;u_6.\\\\&amp;\\text{左侧检验}：H_0:\\mu_1-\\mu_2\\geq \\mu_0;\\ H_1:\\mu_1-\\mu_2&lt;\\mu_0.\\text{此时拒绝域为} u&lt;-u_6. \\end{aligned}\">\\begin{aligned}&amp;\\text{双正态总体均值差的检验如下过程.若方差}\\sigma^2,\\sigma_i^2\\text{已知},\\text{则}\\\\&amp;(1)\\text{检验假设}H_0:\\mu_1-\\mu_2=\\mu_0;\\ H_0:\\mu_1-\\mu_2\\neq \\mu_0.\\\\&amp;(2)\\text{若}H_0\\text{成立},\\text{则}U=\\frac{(\\overline{X}-\\overline{Y})-\\mu_0}{\\sqrt{\\frac{\\sigma_1^2}{n_1}+\\frac{\\sigma_2^2}{n_2}}}\\sim N(0,1),\\ U\\text{的样本观察值记为}u,\\text{此时拒绝域为}u&gt;i_{u\\leq2}.\\text{其中} u_{\\leq2}\\text{为标}\\\\&amp;\\text{准正态分布的} \\omega/2\\text{分位数}.\\\\&amp;\\text{另外},\\text{右侧检验}：H_0:\\mu_1-\\mu_2\\leq \\mu_0;\\ H_1:\\mu_1-\\mu_2&gt;\\mu_0.\\text{此时拒绝域为} u&gt;u_6.\\\\&amp;\\text{左侧检验}：H_0:\\mu_1-\\mu_2\\geq \\mu_0;\\ H_1:\\mu_1-\\mu_2&lt;\\mu_0.\\text{此时拒绝域为} u&lt;-u_6. \\end{aligned}</div>"
     },
     {
       "id": "q0016",
       "number": 16,
       "header": "#16-Averge",
       "difficulty": "Averge",
-      "prompt_html": "<img src=\"/static/generated/assets/probability/ch128/q0016_prompt.png\"/>",
+      "prompt_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{aligned}\\text{设样本}X_{1},X_{2},\\cdots,X_{n}\\text{和}Y_{1},Y_{2},\\cdots,Y_{n}\\text{分别取自总体}\\ \\xi\\sim N(\\mu_{1},\\sigma_{1}^{2})\\text{和}\\eta\\sim N(\\mu_{2},\\sigma_{2}^{2})\\text{，在进行假设检验时，若}( )\\text{，检验}H_{0}:\\mu_{1}=\\mu_{2}\\text{，采用统计量}T=\\frac{\\overline{X}-\\overline{Y}}{\\sqrt{(n_{1}-1)S_{1}^{2}+(n_{2}-1)S_{2}^{2}}}\\sqrt{\\frac{n_{1}n_{2}(n_{1}+n_{2}-2)}{n_{1}+n_{2}}}.\\end{aligned}\">\\begin{aligned}\\text{设样本}X_{1},X_{2},\\cdots,X_{n}\\text{和}Y_{1},Y_{2},\\cdots,Y_{n}\\text{分别取自总体}\\ \\xi\\sim N(\\mu_{1},\\sigma_{1}^{2})\\text{和}\\eta\\sim N(\\mu_{2},\\sigma_{2}^{2})\\text{，在进行假设检验时，若}( )\\text{，检验}H_{0}:\\mu_{1}=\\mu_{2}\\text{，采用统计量}T=\\frac{\\overline{X}-\\overline{Y}}{\\sqrt{(n_{1}-1)S_{1}^{2}+(n_{2}-1)S_{2}^{2}}}\\sqrt{\\frac{n_{1}n_{2}(n_{1}+n_{2}-2)}{n_{1}+n_{2}}}.\\end{aligned}</div>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/probability/ch128/q0016_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\sigma_{1}^{2} = \\sigma_{2}^{2} \\text{未知}\">\\sigma_{1}^{2} = \\sigma_{2}^{2} \\text{未知}</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/probability/ch128/q0016_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\sigma_{1}^{2},\\ \\sigma_{2}^{2} \\text{已知}\">\\sigma_{1}^{2},\\ \\sigma_{2}^{2} \\text{已知}</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/probability/ch128/q0016_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\sigma _ { 1 } ^ { 2 } , \\ \\sigma _ { 2 } ^ { 2 } \\text {未知}\">\\sigma _ { 1 } ^ { 2 } , \\ \\sigma _ { 2 } ^ { 2 } \\text {未知}</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/probability/ch128/q0016_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\sigma _ { 1 } ^ { 2 } = \\sigma _ { 2 } ^ { 2 } \\text {已知}\">\\sigma _ { 1 } ^ { 2 } = \\sigma _ { 2 } ^ { 2 } \\text {已知}</span>"
         }
       ],
       "answer": "A",
       "answer_index": 0,
-      "analysis_html": "<img src=\"/static/generated/assets/probability/ch128/q0016_analysis.png\"/>"
+      "analysis_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{aligned}&amp;\\text{双正态总体均值差检验.}\\\\&amp;1.\\ \\text{方差}\\ \\sigma_{1}^{2},\\ \\sigma_{2}^{2}\\text{已知情形，原假设}\\ H_{0}:\\mu_{1}-\\mu_{2}=\\mu_{0},\\ \\text{检验统计量为}\\\\&amp;\\qquad\\qquad\\qquad\\qquad\\qquad\\qquad\\qquad\\qquad\\qquad U=\\frac{\\overline{X}-\\overline{Y}-\\mu_{0}}{\\sqrt{\\sigma_{1}^{2}/n_{1}+\\sigma_{2}^{2}/n_{2}}}\\sim N(0,1).\\\\&amp;2.\\ \\text{方差}\\ \\sigma_{1}^{2},\\sigma_{2}^{2}\\text{未知，但}\\ \\sigma_{1}^{2}=\\sigma_{2}^{2}\\text{情形，原假设}\\ H_{0}:\\mu_{1}-\\mu_{2}=\\mu_{0},\\ \\text{检验统计量为}\\\\&amp;\\qquad\\qquad\\qquad\\qquad\\qquad\\qquad\\qquad\\qquad\\qquad\\qquad T=\\frac{\\overline{X}-\\overline{Y}-\\mu_{0}}{S_{w}\\sqrt{1/n_{1}+1/n_{2}}}\\sim t(n_{1}+n_{2}-2),\\\\&amp;\\qquad\\text{其中}\\ S_{w}^{2}=\\frac{(n_{1}-1)S_{1}^{2}+(n_{2}-1)S_{2}^{2}}{n_{1}+n_{2}-2}.\\\\&amp;3.\\ \\text{方差}\\ \\sigma_{1}^{2},\\sigma_{2}^{2}\\text{未知，但}\\ \\sigma_{1}^{2}\\neq\\sigma_{2}^{2},\\ \\text{原假设}\\ H_{0}:\\mu_{1}-\\mu_{2}=\\mu_{0},\\ \\text{检验统计量为}\\\\&amp;\\qquad\\qquad\\qquad\\qquad\\qquad\\qquad\\qquad\\qquad\\qquad\\qquad T=\\frac{\\overline{X}-\\overline{Y}-\\mu_{0}}{\\sqrt{S_{1}^{2}/n_{1}+S_{2}^{2}/n_{2}}}\\overset{\\text{近似}}{\\sim}t(f),\\\\&amp;\\qquad\\qquad\\qquad\\qquad\\qquad\\qquad\\qquad\\qquad\\qquad\\qquad\\qquad f=\\frac{\\left(\\frac{S_{1}^{2}}{n_{1}}+\\frac{S_{2}^{2}}{n_{2}}\\right)^{2}}{\\frac{S_{1}^{4}}{n_{1}^{2}(n_{1}-1)}+\\frac{S_{2}^{4}}{n_{2}^{3}(n_{2}-1)}}.\\end{aligned}\">\\begin{aligned}&amp;\\text{双正态总体均值差检验.}\\\\&amp;1.\\ \\text{方差}\\ \\sigma_{1}^{2},\\ \\sigma_{2}^{2}\\text{已知情形，原假设}\\ H_{0}:\\mu_{1}-\\mu_{2}=\\mu_{0},\\ \\text{检验统计量为}\\\\&amp;\\qquad\\qquad\\qquad\\qquad\\qquad\\qquad\\qquad\\qquad\\qquad U=\\frac{\\overline{X}-\\overline{Y}-\\mu_{0}}{\\sqrt{\\sigma_{1}^{2}/n_{1}+\\sigma_{2}^{2}/n_{2}}}\\sim N(0,1).\\\\&amp;2.\\ \\text{方差}\\ \\sigma_{1}^{2},\\sigma_{2}^{2}\\text{未知，但}\\ \\sigma_{1}^{2}=\\sigma_{2}^{2}\\text{情形，原假设}\\ H_{0}:\\mu_{1}-\\mu_{2}=\\mu_{0},\\ \\text{检验统计量为}\\\\&amp;\\qquad\\qquad\\qquad\\qquad\\qquad\\qquad\\qquad\\qquad\\qquad\\qquad T=\\frac{\\overline{X}-\\overline{Y}-\\mu_{0}}{S_{w}\\sqrt{1/n_{1}+1/n_{2}}}\\sim t(n_{1}+n_{2}-2),\\\\&amp;\\qquad\\text{其中}\\ S_{w}^{2}=\\frac{(n_{1}-1)S_{1}^{2}+(n_{2}-1)S_{2}^{2}}{n_{1}+n_{2}-2}.\\\\&amp;3.\\ \\text{方差}\\ \\sigma_{1}^{2},\\sigma_{2}^{2}\\text{未知，但}\\ \\sigma_{1}^{2}\\neq\\sigma_{2}^{2},\\ \\text{原假设}\\ H_{0}:\\mu_{1}-\\mu_{2}=\\mu_{0},\\ \\text{检验统计量为}\\\\&amp;\\qquad\\qquad\\qquad\\qquad\\qquad\\qquad\\qquad\\qquad\\qquad\\qquad T=\\frac{\\overline{X}-\\overline{Y}-\\mu_{0}}{\\sqrt{S_{1}^{2}/n_{1}+S_{2}^{2}/n_{2}}}\\overset{\\text{近似}}{\\sim}t(f),\\\\&amp;\\qquad\\qquad\\qquad\\qquad\\qquad\\qquad\\qquad\\qquad\\qquad\\qquad\\qquad f=\\frac{\\left(\\frac{S_{1}^{2}}{n_{1}}+\\frac{S_{2}^{2}}{n_{2}}\\right)^{2}}{\\frac{S_{1}^{4}}{n_{1}^{2}(n_{1}-1)}+\\frac{S_{2}^{4}}{n_{2}^{3}(n_{2}-1)}}.\\end{aligned}</div>"
     },
     {
       "id": "q0017",
       "number": 17,
       "header": "#17-Averge",
       "difficulty": "Averge",
-      "prompt_html": "<img src=\"/static/generated/assets/probability/ch128/q0017_prompt.png\"/>",
+      "prompt_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{array}{l} \\text {设总体} X \\sim N(\\mu_{1},\\sigma^{2}), \\text {总体} Y \\sim N(\\mu_{2},\\sigma^{2}), \\text {其中}\\sigma^{2} \\text {未知，从总体} X,\\ Y \\text {各取容量为} 10 \\text {的样本，两样本独立．对于} \\\\ \\text {假设检验} H_{0}: \\mu_{1}-\\mu_{2}=4,\\ H_{1}: \\mu_{1}-\\mu_{2}\\neq 4,\\text {若显著性水平为}\\alpha=0.10,\\text {则检验的拒绝域为（）.} \\end{array}\">\\begin{array}{l} \\text {设总体} X \\sim N(\\mu_{1},\\sigma^{2}), \\text {总体} Y \\sim N(\\mu_{2},\\sigma^{2}), \\text {其中}\\sigma^{2} \\text {未知，从总体} X,\\ Y \\text {各取容量为} 10 \\text {的样本，两样本独立．对于} \\\\ \\text {假设检验} H_{0}: \\mu_{1}-\\mu_{2}=4,\\ H_{1}: \\mu_{1}-\\mu_{2}\\neq 4,\\text {若显著性水平为}\\alpha=0.10,\\text {则检验的拒绝域为（）.} \\end{array}</div>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/probability/ch128/q0017_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\begin{aligned}\\left|\\frac{\\bar{(x-y}-4)}{\\sqrt{s_1^2+s_2^2}}\\sqrt{10}\\right|&gt;t_{0.05}(18)\\end{aligned}\">\\begin{aligned}\\left|\\frac{\\bar{(x-y}-4)}{\\sqrt{s_1^2+s_2^2}}\\sqrt{10}\\right|&gt;t_{0.05}(18)\\end{aligned}</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/probability/ch128/q0017_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\begin{aligned}\\left|\\frac{\\bar{(x-y)}}{\\sqrt{s_1^2+s_2^2}}\\sqrt{10}\\right|&gt;t_{0.05}(18)\\end{aligned}\">\\begin{aligned}\\left|\\frac{\\bar{(x-y)}}{\\sqrt{s_1^2+s_2^2}}\\sqrt{10}\\right|&gt;t_{0.05}(18)\\end{aligned}</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/probability/ch128/q0017_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\begin{array}{l} { r } { \\left| \\frac { ( \\overline { { x } } - \\overline { { y } } ) } { \\sqrt { s _ { 1 } ^ { 2 } + s _ { 2 } ^ { 2 } } } \\sqrt { 5 } \\right| &gt; t _ { 0 . 05 } ( 18 ) } \\end{array}\">\\begin{array}{l} { r } { \\left| \\frac { ( \\overline { { x } } - \\overline { { y } } ) } { \\sqrt { s _ { 1 } ^ { 2 } + s _ { 2 } ^ { 2 } } } \\sqrt { 5 } \\right| &gt; t _ { 0 . 05 } ( 18 ) } \\end{array}</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/probability/ch128/q0017_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\begin{array}{l} { r } { \\left| \\frac { ( \\overline { { x } } - \\overline { { y } } - 4 ) } { \\sqrt { s _ { 1 } ^ { 2 } + s _ { 2 } ^ { 2 } } } \\sqrt { 5 } \\right| &gt; t _ { 0 . 05 } ( 18 ) } \\end{array}\">\\begin{array}{l} { r } { \\left| \\frac { ( \\overline { { x } } - \\overline { { y } } - 4 ) } { \\sqrt { s _ { 1 } ^ { 2 } + s _ { 2 } ^ { 2 } } } \\sqrt { 5 } \\right| &gt; t _ { 0 . 05 } ( 18 ) } \\end{array}</span>"
         }
       ],
       "answer": "A",
       "answer_index": 0,
-      "analysis_html": "<img src=\"/static/generated/assets/probability/ch128/q0017_analysis.png\"/>"
+      "analysis_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{aligned}\\text{双正态总体均值差(方差未知但相等)的检验统计量为}\\\\T=\\frac{X-Y-\\mu_{0}}{S_{w}\\sqrt{1/n_{1}+1/n_{2}}}\\sim t(n_{1}+n_{2}-2),\\\\ \\text{在双侧检验 }H_{0}:\\mu_{1}-\\mu_{2}=\\mu_{0},\\quad H_{1}:\\mu_{1}-\\mu_{2}\\neq \\mu_{0}\\text{下，得拒绝域为}\\\\|t|=\\left|\\frac{\\bar{x}-y-\\mu_{0}}{S_{w}\\sqrt{1/n_{1}+1/n_{2}}}\\right|&gt;t_{0.2}(n_{1}+n_{2}-2).\\\\ \\text{其中 }S_{w}^{2}=\\frac{(n_{1}-1)S_{1}^{2}+(n_{2}-1)S_{2}^{2}}{n_{1}+n_{2}-2}.\\\\ \\text{把题目中具体数据代入，得拒绝域为}\\\\ \\left|\\frac{\\bar{x}-\\bar{y}-4}{\\sqrt{S_{1}^{2}+S_{2}^{2}}}\\sqrt{10}\\right|&gt;t_{0.05}(18).\\end{aligned}\">\\begin{aligned}\\text{双正态总体均值差(方差未知但相等)的检验统计量为}\\\\T=\\frac{X-Y-\\mu_{0}}{S_{w}\\sqrt{1/n_{1}+1/n_{2}}}\\sim t(n_{1}+n_{2}-2),\\\\ \\text{在双侧检验 }H_{0}:\\mu_{1}-\\mu_{2}=\\mu_{0},\\quad H_{1}:\\mu_{1}-\\mu_{2}\\neq \\mu_{0}\\text{下，得拒绝域为}\\\\|t|=\\left|\\frac{\\bar{x}-y-\\mu_{0}}{S_{w}\\sqrt{1/n_{1}+1/n_{2}}}\\right|&gt;t_{0.2}(n_{1}+n_{2}-2).\\\\ \\text{其中 }S_{w}^{2}=\\frac{(n_{1}-1)S_{1}^{2}+(n_{2}-1)S_{2}^{2}}{n_{1}+n_{2}-2}.\\\\ \\text{把题目中具体数据代入，得拒绝域为}\\\\ \\left|\\frac{\\bar{x}-\\bar{y}-4}{\\sqrt{S_{1}^{2}+S_{2}^{2}}}\\sqrt{10}\\right|&gt;t_{0.05}(18).\\end{aligned}</div>"
     },
     {
       "id": "q0018",
       "number": 18,
       "header": "#18-Averge",
       "difficulty": "Averge",
-      "prompt_html": "<img src=\"/static/generated/assets/probability/ch128/q0018_prompt.png\"/>",
+      "prompt_html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{两个正态总体}X\\text{与}Y\\text{的方差}\\sigma_{1}^{2}\\text{与}\\sigma_{2}^{2}\\text{未知，则检验假设}H_{0}:\\mu_{1}&lt;\\mu_{2}\\text{要求}\\sigma_{1}^{2}\\text{与}\\sigma_{2}^{2}\\text{应满足的条件是(）。}\">\\text{两个正态总体}X\\text{与}Y\\text{的方差}\\sigma_{1}^{2}\\text{与}\\sigma_{2}^{2}\\text{未知，则检验假设}H_{0}:\\mu_{1}&lt;\\mu_{2}\\text{要求}\\sigma_{1}^{2}\\text{与}\\sigma_{2}^{2}\\text{应满足的条件是(）。}</span>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/probability/ch128/q0018_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\sigma_{1}^{2}\\text{、}\\sigma_{2}^{2}\\text{可为任意正数}\">\\sigma_{1}^{2}\\text{、}\\sigma_{2}^{2}\\text{可为任意正数}</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/probability/ch128/q0018_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\sigma _ { 1 } ^ { 2 } &lt; \\sigma _ { 2 } ^ { 2 }\">\\sigma _ { 1 } ^ { 2 } &lt; \\sigma _ { 2 } ^ { 2 }</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/probability/ch128/q0018_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\sigma_{1}^{2} &gt; \\sigma_{2}^{2}\">\\sigma_{1}^{2} &gt; \\sigma_{2}^{2}</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/probability/ch128/q0018_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\sigma _ { 1 } ^ { 2 } = \\sigma _ { 2 } ^ { 2 }\">\\sigma _ { 1 } ^ { 2 } = \\sigma _ { 2 } ^ { 2 }</span>"
         }
       ],
       "answer": "A",
       "answer_index": 0,
-      "analysis_html": "<img src=\"/static/generated/assets/probability/ch128/q0018_analysis.png\"/>"
+      "analysis_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{aligned} &amp; \\text{设}X_{1},X_{2},\\cdots,X_{n_{i}} \\text{为取自总体}N(\\mu_{1},\\sigma_{1}^{2})\\text{的一个样本，并且两个样本相互独立，记}\\overline{X}\\text{与}\\overline{Y}\\text{分别为相应的样本均值，}S_{1}^{2}\\text{与}S_{2}^{2}\\text{分别为相应的样本方差.}\\\\ &amp; \\text{右侧检验}H_{0}:\\mu_{1}-\\mu_{2}\\leq \\mu_{0},\\ H_{1}:\\mu_{1}-\\mu_{2}&gt;\\mu_{0},\\ ( \\mu_{0}\\text{已知)}\\\\ &amp; \\text{1. 方差}\\sigma_{1}^{2},\\sigma_{2}^{2}\\text{未知，但}\\sigma_{1}^{2}=\\sigma_{2}^{2}=\\sigma^{2},\\text{检验统计量}\\\\ &amp; \\qquad T=\\frac{\\overline{X}-\\overline{Y}-\\mu_{0}}{S_{x}\\sqrt{1/n_{1}+1/n_{2}}}\\sim t(n_{1}+n_{2}-2),\\\\ &amp; \\text{其中}S_{w}^{2}=\\frac{(n_{1}-1)S_{1}^{2}+(n_{2}-1)S_{2}^{2}}{n_{1}+n_{2}-2}.\\\\ &amp; \\text{2. 方差}\\sigma_{1}^{2},\\sigma_{2}^{2}\\text{未知，但}\\sigma_{1}^{2}\\neq\\sigma^{2},\\text{检验统计量为}\\\\ &amp; \\qquad T=\\frac{\\overline{X}-\\overline{Y}-\\mu_{0}}{\\sqrt{S_{1}^{2}/n_{1}+S_{2}^{2}/n_{2}}}\\sim t(f),\\\\ &amp; \\text{其中}f=\\frac{\\left(S_{1}^{2}+\\frac{S_{2}^{2}}{n_{1}}+\\frac{S_{1}^{2}}{n_{2}}\\right)^{2}}{\\frac{S_{1}^{4}}{n_{1}^{2}(n_{1}-1)}+\\frac{S_{1}^{4}}{n_{2}^{2}(n_{2}-1)}}.\\end{aligned}\">\\begin{aligned} &amp; \\text{设}X_{1},X_{2},\\cdots,X_{n_{i}} \\text{为取自总体}N(\\mu_{1},\\sigma_{1}^{2})\\text{的一个样本，并且两个样本相互独立，记}\\overline{X}\\text{与}\\overline{Y}\\text{分别为相应的样本均值，}S_{1}^{2}\\text{与}S_{2}^{2}\\text{分别为相应的样本方差.}\\\\ &amp; \\text{右侧检验}H_{0}:\\mu_{1}-\\mu_{2}\\leq \\mu_{0},\\ H_{1}:\\mu_{1}-\\mu_{2}&gt;\\mu_{0},\\ ( \\mu_{0}\\text{已知)}\\\\ &amp; \\text{1. 方差}\\sigma_{1}^{2},\\sigma_{2}^{2}\\text{未知，但}\\sigma_{1}^{2}=\\sigma_{2}^{2}=\\sigma^{2},\\text{检验统计量}\\\\ &amp; \\qquad T=\\frac{\\overline{X}-\\overline{Y}-\\mu_{0}}{S_{x}\\sqrt{1/n_{1}+1/n_{2}}}\\sim t(n_{1}+n_{2}-2),\\\\ &amp; \\text{其中}S_{w}^{2}=\\frac{(n_{1}-1)S_{1}^{2}+(n_{2}-1)S_{2}^{2}}{n_{1}+n_{2}-2}.\\\\ &amp; \\text{2. 方差}\\sigma_{1}^{2},\\sigma_{2}^{2}\\text{未知，但}\\sigma_{1}^{2}\\neq\\sigma^{2},\\text{检验统计量为}\\\\ &amp; \\qquad T=\\frac{\\overline{X}-\\overline{Y}-\\mu_{0}}{\\sqrt{S_{1}^{2}/n_{1}+S_{2}^{2}/n_{2}}}\\sim t(f),\\\\ &amp; \\text{其中}f=\\frac{\\left(S_{1}^{2}+\\frac{S_{2}^{2}}{n_{1}}+\\frac{S_{1}^{2}}{n_{2}}\\right)^{2}}{\\frac{S_{1}^{4}}{n_{1}^{2}(n_{1}-1)}+\\frac{S_{1}^{4}}{n_{2}^{2}(n_{2}-1)}}.\\end{aligned}</div>"
     },
     {
       "id": "q0019",
       "number": 19,
       "header": "#19-Averge",
       "difficulty": "Averge",
-      "prompt_html": "<img src=\"/static/generated/assets/probability/ch128/q0019_prompt.png\"/>",
+      "prompt_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{array}{l}\n\\begin{array}{|c|c|c|c|c|c|c|c|c|c|c|} \\hline \\text{样本号} &amp; 1 &amp; 2 &amp; 3 &amp; 4 &amp; 5 &amp; 6 &amp; 7 &amp; 8 &amp; 9 &amp; 10 \\\\ \\hline \\text{方法} A &amp; 28.22 &amp; 33.95 &amp; 38.25 &amp; 42.52 &amp; 37.62 &amp; 37.84 &amp; 36.12 &amp; 35.11 &amp; 34.45 &amp; 32.83 \\\\ \\text{方法} B &amp; 28.77 &amp; 33.99 &amp; 38.20 &amp; 42.42 &amp; 37.64 &amp; 37.85 &amp; 36.21 &amp; 35.20 &amp; 34.40 &amp; 32.86 \\\\ \\hline \\end{array}\n\\text{设两组数据来自正态分布的总体}，\\text{两总体方差相等} \\sigma_{A}^{2}=\\sigma_{B}^{2}，\\text{要检查这两种方法有无显著差异} (a=0.05) \\text{提出假设} H_{0}:（）。\n\n\\end{array}\">\\begin{array}{l}\n\\begin{array}{|c|c|c|c|c|c|c|c|c|c|c|} \\hline \\text{样本号} &amp; 1 &amp; 2 &amp; 3 &amp; 4 &amp; 5 &amp; 6 &amp; 7 &amp; 8 &amp; 9 &amp; 10 \\\\ \\hline \\text{方法} A &amp; 28.22 &amp; 33.95 &amp; 38.25 &amp; 42.52 &amp; 37.62 &amp; 37.84 &amp; 36.12 &amp; 35.11 &amp; 34.45 &amp; 32.83 \\\\ \\text{方法} B &amp; 28.77 &amp; 33.99 &amp; 38.20 &amp; 42.42 &amp; 37.64 &amp; 37.85 &amp; 36.21 &amp; 35.20 &amp; 34.40 &amp; 32.86 \\\\ \\hline \\end{array}\n\\text{设两组数据来自正态分布的总体}，\\text{两总体方差相等} \\sigma_{A}^{2}=\\sigma_{B}^{2}，\\text{要检查这两种方法有无显著差异} (a=0.05) \\text{提出假设} H_{0}:（）。\n\n\\end{array}</div>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/probability/ch128/q0019_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\mu_{{}^{A}}\\!=\\!\\mu_{{}^{B}}\">\\mu_{{}^{A}}\\!=\\!\\mu_{{}^{B}}</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/probability/ch128/q0019_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\mu_{{}^{A}} \\geq \\mu_{{}^{B}}\">\\mu_{{}^{A}} \\geq \\mu_{{}^{B}}</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/probability/ch128/q0019_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\mu_{{}^{A}} \\leq \\mu_{{}^{B}}\">\\mu_{{}^{A}} \\leq \\mu_{{}^{B}}</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/probability/ch128/q0019_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\mu_{{}^{A}}\\!=\\!2\\mu_{{}^{B}}\">\\mu_{{}^{A}}\\!=\\!2\\mu_{{}^{B}}</span>"
         }
       ],
       "answer": "A",
       "answer_index": 0,
-      "analysis_html": "<img src=\"/static/generated/assets/probability/ch128/q0019_analysis.png\"/>"
+      "analysis_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{aligned} \\text{显然这是对两个正态总体均值的双侧检验问题，其中总体方差}\\sigma_{a}^{2}=\\sigma_{b}^{2}\\text{但未知，估选用统计量}\\\\T=\\frac{\\overline{X}_{d}-\\overline{X}_{B}}{S_{np}\\sqrt{\\frac{1}{n_{1}}+\\frac{1}{n_{2}}}}\\sim t\\left(n_{1}+n_{2}-2\\right),\\\\ \\text{其中}s_{np}=\\sqrt{\\frac{\\left(n_{1}-1\\right)s_{d}^{2}+\\left(n_{2}-1\\right)s_{b}^{2}}{n_{1}+n_{2}-2}}=3.792,\\text{则}\\left|t\\right|=\\frac{\\left|\\overline{y}_{d}-\\overline{y}_{b}\\right|}{S_{np}\\sqrt{\\frac{1}{n_{1}}+\\frac{1}{n_{2}}}}=0.0076,\\text{有}a=0.05,\\;n_{1}=n_{3}=10,\\;\\text{查}t\\\\ \\text{分布表得}\\qquad t_{a}\\left(n_{1}+n_{2}-2\\right)=t_{0.025}(18)=2.1009,\\qquad\\\\ \\text{于是}\\left|t\\right|=t_{a}\\left(n_{1}+n_{2}-2\\right),\\text{故接受原假设}H_{0};\\mu_{d}=\\mu_{b},\\text{即认为两种方法无显著差}\\end{aligned}\">\\begin{aligned} \\text{显然这是对两个正态总体均值的双侧检验问题，其中总体方差}\\sigma_{a}^{2}=\\sigma_{b}^{2}\\text{但未知，估选用统计量}\\\\T=\\frac{\\overline{X}_{d}-\\overline{X}_{B}}{S_{np}\\sqrt{\\frac{1}{n_{1}}+\\frac{1}{n_{2}}}}\\sim t\\left(n_{1}+n_{2}-2\\right),\\\\ \\text{其中}s_{np}=\\sqrt{\\frac{\\left(n_{1}-1\\right)s_{d}^{2}+\\left(n_{2}-1\\right)s_{b}^{2}}{n_{1}+n_{2}-2}}=3.792,\\text{则}\\left|t\\right|=\\frac{\\left|\\overline{y}_{d}-\\overline{y}_{b}\\right|}{S_{np}\\sqrt{\\frac{1}{n_{1}}+\\frac{1}{n_{2}}}}=0.0076,\\text{有}a=0.05,\\;n_{1}=n_{3}=10,\\;\\text{查}t\\\\ \\text{分布表得}\\qquad t_{a}\\left(n_{1}+n_{2}-2\\right)=t_{0.025}(18)=2.1009,\\qquad\\\\ \\text{于是}\\left|t\\right|=t_{a}\\left(n_{1}+n_{2}-2\\right),\\text{故接受原假设}H_{0};\\mu_{d}=\\mu_{b},\\text{即认为两种方法无显著差}\\end{aligned}</div>"
     },
     {
       "id": "q0020",
       "number": 20,
       "header": "#20-Averge",
       "difficulty": "Averge",
-      "prompt_html": "<img src=\"/static/generated/assets/probability/ch128/q0020_prompt.png\"/>",
+      "prompt_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{aligned}&amp; \\text{据现在的推测，矮个子的人比高个子的人寿命要长一些.下面给出美国31个自然死亡的总统的寿命,将他们分为矮个子与高个子2类,数据如下:}\\\\&amp; \\text{矮个子总统:}85,\\ 79,\\ 67,\\ 90,\\ 80;\\\\&amp; \\text{高个子总统:}68,\\ 53,\\ 63,\\ 70,\\ 88,\\ 74,\\ 64,\\ 66,\\ 60,\\ 60,\\ 78,\\ 71,\\ 67,\\\\&amp; \\quad90,\\ 73,\\ 71,\\ 77,\\ 72,\\ 57,\\ 78,\\ 67,\\ 56,\\ 63,\\ 64,\\ 83,\\ 65.\\end{aligned}\">\\begin{aligned}&amp; \\text{据现在的推测，矮个子的人比高个子的人寿命要长一些.下面给出美国31个自然死亡的总统的寿命,将他们分为矮个子与高个子2类,数据如下:}\\\\&amp; \\text{矮个子总统:}85,\\ 79,\\ 67,\\ 90,\\ 80;\\\\&amp; \\text{高个子总统:}68,\\ 53,\\ 63,\\ 70,\\ 88,\\ 74,\\ 64,\\ 66,\\ 60,\\ 60,\\ 78,\\ 71,\\ 67,\\\\&amp; \\quad90,\\ 73,\\ 71,\\ 77,\\ 72,\\ 57,\\ 78,\\ 67,\\ 56,\\ 63,\\ 64,\\ 83,\\ 65.\\end{aligned}</div>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/probability/ch128/q0020_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{可认为上述推测是不正确的}\">\\text{可认为上述推测是不正确的}</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/probability/ch128/q0020_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{检验假设为} \\, H_{0} \\colon \\mu_{1} \\leq \\mu_{2}, \\, H_{1} \\colon \\mu_{1} &gt; \\mu_{2}\">\\text{检验假设为} \\, H_{0} \\colon \\mu_{1} \\leq \\mu_{2}, \\, H_{1} \\colon \\mu_{1} &gt; \\mu_{2}</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/probability/ch128/q0020_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{对矮个子总统} \\ \\overline{x} = 80.2, \\, s_{1} \\approx 8.585\">\\text{对矮个子总统} \\ \\overline{x} = 80.2, \\, s_{1} \\approx 8.585</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/probability/ch128/q0020_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\begin{array}{l} \\text{对高个子总统}\\ \\ \\overline{y}\\approx 69.15,\\,s_{2}\\approx 9.315 \\end{array}\">\\begin{array}{l} \\text{对高个子总统}\\ \\ \\overline{y}\\approx 69.15,\\,s_{2}\\approx 9.315 \\end{array}</span>"
         }
       ],
       "answer": "A",
       "answer_index": 0,
-      "analysis_html": "<img src=\"/static/generated/assets/probability/ch128/q0020_analysis.png\"/>"
+      "analysis_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{aligned}&amp;\\text{设}\\mu_{1},\\ \\mu_{2} \\text{分别为矮子子与高子子总统的平均寿命，则检验问题为}H_{0}: \\mu_{1}\\leq \\mu_{2},\\ H_{1}: \\mu_{1}&gt;\\mu_{2},\\\\&amp;n_{1}=5,\\ \\bar{x}=80.2,\\ s_{1}\\approx 8.585,\\ n_{2}=26,\\ \\bar{y}\\approx 69.15,\\ s_{2}\\approx 9.315,\\\\&amp;s_{w}=\\sqrt{\\frac{4\\times 8.585^{2}+9.315^{2}}{29}}\\approx 9.218,\\ \\sqrt{\\frac{n_{1}n_{2}}{n_{1}+n_{2}}}\\approx 2.048,\\\\&amp;t=\\frac{(80.2-69.15)}{9.218}\\times 2.048\\approx 2.455,\\ \\alpha=0.05,\\ t_{0.25}(29)=1.6991,\\\\&amp;\\text{因}t&gt;t_{0.05}(29)=1.6991,\\ \\text{故拒绝}H_{0},\\ \\text{认为矮子总统的寿命比高子总统寿命长.}\\end{aligned}\">\\begin{aligned}&amp;\\text{设}\\mu_{1},\\ \\mu_{2} \\text{分别为矮子子与高子子总统的平均寿命，则检验问题为}H_{0}: \\mu_{1}\\leq \\mu_{2},\\ H_{1}: \\mu_{1}&gt;\\mu_{2},\\\\&amp;n_{1}=5,\\ \\bar{x}=80.2,\\ s_{1}\\approx 8.585,\\ n_{2}=26,\\ \\bar{y}\\approx 69.15,\\ s_{2}\\approx 9.315,\\\\&amp;s_{w}=\\sqrt{\\frac{4\\times 8.585^{2}+9.315^{2}}{29}}\\approx 9.218,\\ \\sqrt{\\frac{n_{1}n_{2}}{n_{1}+n_{2}}}\\approx 2.048,\\\\&amp;t=\\frac{(80.2-69.15)}{9.218}\\times 2.048\\approx 2.455,\\ \\alpha=0.05,\\ t_{0.25}(29)=1.6991,\\\\&amp;\\text{因}t&gt;t_{0.05}(29)=1.6991,\\ \\text{故拒绝}H_{0},\\ \\text{认为矮子总统的寿命比高子总统寿命长.}\\end{aligned}</div>"
     },
     {
       "id": "q0021",
       "number": 21,
       "header": "#21-Averge",
       "difficulty": "Averge",
-      "prompt_html": "<img src=\"/static/generated/assets/probability/ch128/q0021_prompt.png\"/>",
+      "prompt_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{aligned}\\text{设样本}X_{1},X_{2},\\cdots,X_{n}\\text{和}Y_{1},Y_{2},\\cdots,Y_{n}\\text{分别取自总体}\\ \\xi\\sim N(\\mu_{1},\\sigma_{1}^{2})\\text{和}\\eta\\sim N(\\mu_{2},\\sigma_{2}^{2})\\text{，在进行假设检验时，若( )时，检验}H_{0}:\\mu_{1}=\\mu_{2}\\text{，采用统计量}T=\\frac{\\overline{X}-\\overline{Y}}{\\sqrt{(n_{1}-1)S_{1}^{2}+(n_{2}-1)S_{2}^{2}}}\\sqrt{\\frac{n_{1}n_{2}(n_{1}+n_{2}-2)}{n_{1}+n_{2}}}\\,.\\end{aligned}\">\\begin{aligned}\\text{设样本}X_{1},X_{2},\\cdots,X_{n}\\text{和}Y_{1},Y_{2},\\cdots,Y_{n}\\text{分别取自总体}\\ \\xi\\sim N(\\mu_{1},\\sigma_{1}^{2})\\text{和}\\eta\\sim N(\\mu_{2},\\sigma_{2}^{2})\\text{，在进行假设检验时，若( )时，检验}H_{0}:\\mu_{1}=\\mu_{2}\\text{，采用统计量}T=\\frac{\\overline{X}-\\overline{Y}}{\\sqrt{(n_{1}-1)S_{1}^{2}+(n_{2}-1)S_{2}^{2}}}\\sqrt{\\frac{n_{1}n_{2}(n_{1}+n_{2}-2)}{n_{1}+n_{2}}}\\,.\\end{aligned}</div>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/probability/ch128/q0021_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\sigma_{1}^{2} = \\sigma_{2}^{2} \\text{未知}\">\\sigma_{1}^{2} = \\sigma_{2}^{2} \\text{未知}</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/probability/ch128/q0021_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\sigma_{1}^{2},\\ \\sigma_{2}^{2} \\text{已知}\">\\sigma_{1}^{2},\\ \\sigma_{2}^{2} \\text{已知}</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/probability/ch128/q0021_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\sigma_{1}^{2},\\ \\sigma_{2}^{2} \\text{未知}\">\\sigma_{1}^{2},\\ \\sigma_{2}^{2} \\text{未知}</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/probability/ch128/q0021_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\sigma _ { 1 } ^ { 2 } = \\sigma _ { 2 } ^ { 2 } \\text {已知}\">\\sigma _ { 1 } ^ { 2 } = \\sigma _ { 2 } ^ { 2 } \\text {已知}</span>"
         }
       ],
       "answer": "A",
       "answer_index": 0,
-      "analysis_html": "<img src=\"/static/generated/assets/probability/ch128/q0021_analysis.png\"/>"
+      "analysis_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{aligned}&amp;\\text{双正态总体均值差检验.}\\\\&amp;1.\\ \\text{方差}\\ \\sigma_{1}^{2},\\ \\sigma_{2}^{2}\\text{已知情形，原假设}\\ H_{0}: \\mu_{1}-\\mu_{2}=\\mu_{0},\\ \\text{检验统计量为}\\\\&amp;\\quad U=\\frac{\\overline{X}-\\overline{Y}-\\mu_{0}}{\\sqrt{\\sigma_{1}^{2}/n_{1}+\\sigma_{2}^{2}/n_{2}}}\\sim N(0,1).\\\\&amp;2.\\ \\text{方差}\\ \\sigma_{1}^{2},\\ \\sigma_{2}^{2}\\text{未知，但}\\ \\sigma_{1}^{2}=\\sigma_{2}^{2}\\text{情形，原假设}\\ H_{0}: \\mu_{1}-\\mu_{2}=\\mu_{0},\\ \\text{检验统计量为}\\\\&amp;\\quad T=\\frac{\\overline{X}-\\overline{Y}-\\mu_{0}}{S_{w}\\sqrt{1/n_{1}+1/n_{2}}}\\sim t(n_{1}+n_{2}-2),\\\\&amp;\\quad\\text{其中}\\ S_{w}^{2}=\\frac{(n_{1}-1)S_{1}^{2}+(n_{2}-1)S_{2}^{2}}{n_{1}+n_{2}-2}.\\\\&amp;3.\\ \\text{方差}\\ \\sigma_{1}^{2},\\ \\sigma_{2}^{2}\\text{未知，但}\\ \\sigma_{1}^{2}\\neq\\sigma_{2}^{2},\\ \\text{原假设}\\ H_{0}: \\mu_{1}-\\mu_{2}=\\mu_{0},\\ \\text{检验统计量为}\\\\&amp;\\quad T=\\frac{\\overline{X}-\\overline{Y}-\\mu_{0}}{\\sqrt{S_{1}^{2}/n_{1}+S_{2}^{2}/n_{2}}}\\sim t(f),\\\\&amp;\\quad\\text{其中}\\ f=\\frac{\\left(\\frac{S_{1}^{2}}{n_{1}}+\\frac{S_{2}^{2}}{n_{2}}\\right)^{2}}{\\frac{S_{1}^{2}}{n_{1}^{2}(n_{1}-1)}+\\frac{S_{2}^{2}}{n_{2}^{2}(n_{2}-1)}}.\\end{aligned}\">\\begin{aligned}&amp;\\text{双正态总体均值差检验.}\\\\&amp;1.\\ \\text{方差}\\ \\sigma_{1}^{2},\\ \\sigma_{2}^{2}\\text{已知情形，原假设}\\ H_{0}: \\mu_{1}-\\mu_{2}=\\mu_{0},\\ \\text{检验统计量为}\\\\&amp;\\quad U=\\frac{\\overline{X}-\\overline{Y}-\\mu_{0}}{\\sqrt{\\sigma_{1}^{2}/n_{1}+\\sigma_{2}^{2}/n_{2}}}\\sim N(0,1).\\\\&amp;2.\\ \\text{方差}\\ \\sigma_{1}^{2},\\ \\sigma_{2}^{2}\\text{未知，但}\\ \\sigma_{1}^{2}=\\sigma_{2}^{2}\\text{情形，原假设}\\ H_{0}: \\mu_{1}-\\mu_{2}=\\mu_{0},\\ \\text{检验统计量为}\\\\&amp;\\quad T=\\frac{\\overline{X}-\\overline{Y}-\\mu_{0}}{S_{w}\\sqrt{1/n_{1}+1/n_{2}}}\\sim t(n_{1}+n_{2}-2),\\\\&amp;\\quad\\text{其中}\\ S_{w}^{2}=\\frac{(n_{1}-1)S_{1}^{2}+(n_{2}-1)S_{2}^{2}}{n_{1}+n_{2}-2}.\\\\&amp;3.\\ \\text{方差}\\ \\sigma_{1}^{2},\\ \\sigma_{2}^{2}\\text{未知，但}\\ \\sigma_{1}^{2}\\neq\\sigma_{2}^{2},\\ \\text{原假设}\\ H_{0}: \\mu_{1}-\\mu_{2}=\\mu_{0},\\ \\text{检验统计量为}\\\\&amp;\\quad T=\\frac{\\overline{X}-\\overline{Y}-\\mu_{0}}{\\sqrt{S_{1}^{2}/n_{1}+S_{2}^{2}/n_{2}}}\\sim t(f),\\\\&amp;\\quad\\text{其中}\\ f=\\frac{\\left(\\frac{S_{1}^{2}}{n_{1}}+\\frac{S_{2}^{2}}{n_{2}}\\right)^{2}}{\\frac{S_{1}^{2}}{n_{1}^{2}(n_{1}-1)}+\\frac{S_{2}^{2}}{n_{2}^{2}(n_{2}-1)}}.\\end{aligned}</div>"
     },
     {
       "id": "q0022",
       "number": 22,
       "header": "#22-Averge",
       "difficulty": "Averge",
-      "prompt_html": "<img src=\"/static/generated/assets/probability/ch128/q0022_prompt.png\"/>",
+      "prompt_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{aligned}\\text{一出租车公司欲检验装配哪一种轮胎省油，以12型装有Ⅰ型轮胎的车辆进行预定的测试。在不变换驾驶员的情况下，将这12部车辆换装Ⅱ型轮并重复测试，其汽油耗量如下表所示(单位：km/L)。}\\begin{array}{|c|c|c|c|c|c|c|c|c|c|c|c|c|} \\hline \\text{汽车编号} i &amp; 1 &amp; 2 &amp; 3 &amp; 4 &amp; 5 &amp; 6 &amp; 7 &amp; 8 &amp; 9 &amp; 10 &amp; 11 &amp; 12 \\\\ \\hline I\\text{型胎} (x_i) &amp; 4.2 &amp; 4.7 &amp; 6.6 &amp; 7.0 &amp; 6.7 &amp; 4.5 &amp; 5.7 &amp; 6.0 &amp; 7.4 &amp; 4.9 &amp; 6.1 &amp; 5.2 \\\\ \\hline II\\text{型胎} (y_i) &amp; 4.1 &amp; 4.9 &amp; 6.2 &amp; 6.9 &amp; 6.8 &amp; 4.4 &amp; 5.7 &amp; 5.8 &amp; 6.9 &amp; 4.7 &amp; 6.0 &amp; 4.9 \\\\ \\hline \\end{array}\\text{假定两总体均服从正态分布，显著性水平}\\alpha=0.025，\\text{若检验安装}Ⅰ\\text{型轮胎是否要双安装}Ⅱ\\text{型轮胎省油}，\\text{则下列说法不正确的是}()。\\end{aligned}\">\\begin{aligned}\\text{一出租车公司欲检验装配哪一种轮胎省油，以12型装有Ⅰ型轮胎的车辆进行预定的测试。在不变换驾驶员的情况下，将这12部车辆换装Ⅱ型轮并重复测试，其汽油耗量如下表所示(单位：km/L)。}\\begin{array}{|c|c|c|c|c|c|c|c|c|c|c|c|c|} \\hline \\text{汽车编号} i &amp; 1 &amp; 2 &amp; 3 &amp; 4 &amp; 5 &amp; 6 &amp; 7 &amp; 8 &amp; 9 &amp; 10 &amp; 11 &amp; 12 \\\\ \\hline I\\text{型胎} (x_i) &amp; 4.2 &amp; 4.7 &amp; 6.6 &amp; 7.0 &amp; 6.7 &amp; 4.5 &amp; 5.7 &amp; 6.0 &amp; 7.4 &amp; 4.9 &amp; 6.1 &amp; 5.2 \\\\ \\hline II\\text{型胎} (y_i) &amp; 4.1 &amp; 4.9 &amp; 6.2 &amp; 6.9 &amp; 6.8 &amp; 4.4 &amp; 5.7 &amp; 5.8 &amp; 6.9 &amp; 4.7 &amp; 6.0 &amp; 4.9 \\\\ \\hline \\end{array}\\text{假定两总体均服从正态分布，显著性水平}\\alpha=0.025，\\text{若检验安装}Ⅰ\\text{型轮胎是否要双安装}Ⅱ\\text{型轮胎省油}，\\text{则下列说法不正确的是}()。\\end{aligned}</div>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/probability/ch128/q0022_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{这是双正态总体方差比的假设检验问题}\">\\text{这是双正态总体方差比的假设检验问题}</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/probability/ch128/q0022_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{这是双正态总体均值差的假设检验问题}\">\\text{这是双正态总体均值差的假设检验问题}</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/probability/ch128/q0022_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\begin{array}{l} {\\text{检验统计量为}}\\;T\\!=\\!\\frac{\\overline{Z}\\!-\\!\\mu_{0}}{S\\!/\\!\\sqrt{n}} \\end{array}\">\\begin{array}{l} {\\text{检验统计量为}}\\;T\\!=\\!\\frac{\\overline{Z}\\!-\\!\\mu_{0}}{S\\!/\\!\\sqrt{n}} \\end{array}</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/probability/ch128/q0022_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{I型轮胎比较省油}\">\\text{I型轮胎比较省油}</span>"
         }
       ],
       "answer": "A",
       "answer_index": 0,
-      "analysis_html": "<img src=\"/static/generated/assets/probability/ch128/q0022_analysis.png\"/>"
+      "analysis_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{aligned}&amp; \\text{设两种轮胎汽油消耗量之差为随机变量}D, \\text{则取值为}\\\\&amp; z_{i}=x_{i}-y_{i}=0.1,-0.2,0.4,0.1,-0.1,0.1,0,0.2,0.5,0.2,0.1,0.3.\\\\&amp; \\text{设}Z\\sim N(\\mu_{z},\\sigma_{z}^{2})\\text{未知。若消耗油相同，则}\\mu_{z}=0;\\\\&amp; \\text{若I型比II型轮胎省油，则}\\mu_{z}&gt;0, \\text{于是检验假设}H_{0}: \\mu_{z}=0,H_{1}: \\mu_{z}&gt;0.\\\\&amp; \\text{由油费意知}\\quad z\\approx 0.142,s\\approx 0.198,n-1=12-1=11.\\\\&amp; \\alpha=0.025, \\text{查}t\\text{分布表得}t_{0.025}(11)=2.201. \\text{所以，拒绝域为}W=\\{t&gt;2.201\\}.\\\\&amp; \\text{由于样本值}\\\\&amp; \\quad t=\\frac{\\bar{z}-0}{s/\\sqrt{n}}=\\frac{0.142-0}{0.198/\\sqrt{12}}\\approx 2.48&gt;2.201,\\\\&amp; \\text{故拒绝}H_{0}: \\mu_{z}=0, \\text{即说明I型轮胎省油。}\\end{aligned}\">\\begin{aligned}&amp; \\text{设两种轮胎汽油消耗量之差为随机变量}D, \\text{则取值为}\\\\&amp; z_{i}=x_{i}-y_{i}=0.1,-0.2,0.4,0.1,-0.1,0.1,0,0.2,0.5,0.2,0.1,0.3.\\\\&amp; \\text{设}Z\\sim N(\\mu_{z},\\sigma_{z}^{2})\\text{未知。若消耗油相同，则}\\mu_{z}=0;\\\\&amp; \\text{若I型比II型轮胎省油，则}\\mu_{z}&gt;0, \\text{于是检验假设}H_{0}: \\mu_{z}=0,H_{1}: \\mu_{z}&gt;0.\\\\&amp; \\text{由油费意知}\\quad z\\approx 0.142,s\\approx 0.198,n-1=12-1=11.\\\\&amp; \\alpha=0.025, \\text{查}t\\text{分布表得}t_{0.025}(11)=2.201. \\text{所以，拒绝域为}W=\\{t&gt;2.201\\}.\\\\&amp; \\text{由于样本值}\\\\&amp; \\quad t=\\frac{\\bar{z}-0}{s/\\sqrt{n}}=\\frac{0.142-0}{0.198/\\sqrt{12}}\\approx 2.48&gt;2.201,\\\\&amp; \\text{故拒绝}H_{0}: \\mu_{z}=0, \\text{即说明I型轮胎省油。}\\end{aligned}</div>"
     },
     {
       "id": "q0023",
       "number": 23,
       "header": "#23-Averge",
       "difficulty": "Averge",
-      "prompt_html": "<img src=\"/static/generated/assets/probability/ch128/q0023_prompt.png\"/>",
+      "prompt_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{aligned} \\text{制造厂家宣称，线}A\\text{的平均张力比线}B\\text{至少强}120\\text{N。为证实其说法，在同样情况下测试两种线各50条。线}A\\text{的平均张力}\\bar{x}=867N,\\text{标准差为}\\sigma_{1}=62.8N,\\text{线}B\\text{的平均张力为}y=778N,\\text{标准差为}\\sigma_{2}=56.1N。\\text{在显著性水平}\\alpha=0.05\\text{下}，\\text{下列说法中不正确的是}()。\\quad(u_{0.025}=1.960,\\,u_{0.05}=1.645)\\end{aligned}\">\\begin{aligned} \\text{制造厂家宣称，线}A\\text{的平均张力比线}B\\text{至少强}120\\text{N。为证实其说法，在同样情况下测试两种线各50条。线}A\\text{的平均张力}\\bar{x}=867N,\\text{标准差为}\\sigma_{1}=62.8N,\\text{线}B\\text{的平均张力为}y=778N,\\text{标准差为}\\sigma_{2}=56.1N。\\text{在显著性水平}\\alpha=0.05\\text{下}，\\text{下列说法中不正确的是}()。\\quad(u_{0.025}=1.960,\\,u_{0.05}=1.645)\\end{aligned}</div>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/probability/ch128/q0023_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{拒绝域为} \\, ( u _ { a } , + \\infty )\">\\text{拒绝域为} \\, ( u _ { a } , + \\infty )</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/probability/ch128/q0023_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{检验假设为} \\ H_{0}: \\mu_{1}-\\mu_{2}=120, \\ H_{1}: \\mu_{1}-\\mu_{2}&lt;120\">\\text{检验假设为} \\ H_{0}: \\mu_{1}-\\mu_{2}=120, \\ H_{1}: \\mu_{1}-\\mu_{2}&lt;120</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/probability/ch128/q0023_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{检验统计量为} \\, U = \\frac{ \\overline{X} - \\overline{Y} - 120 }{ \\sqrt{ \\sigma_{1}^{2} / n_{1} + \\sigma_{2}^{2} / n_{2} } }\">\\text{检验统计量为} \\, U = \\frac{ \\overline{X} - \\overline{Y} - 120 }{ \\sqrt{ \\sigma_{1}^{2} / n_{1} + \\sigma_{2}^{2} / n_{2} } }</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/probability/ch128/q0023_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{可认为厂家的说法不对}\">\\text{可认为厂家的说法不对}</span>"
         }
       ],
       "answer": "A",
       "answer_index": 0,
-      "analysis_html": "<img src=\"/static/generated/assets/probability/ch128/q0023_analysis.png\"/>"
+      "analysis_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{aligned}&amp;\\text{建立检验假设 }H_{0}:\\mu_{1}-\\mu_{2}=120,\\;H_{1}:\\mu_{1}&gt;\\mu_{2}&lt;120.\\;\\\\&amp;\\text{在 }H_{0}\\text{ 成立的前提下，检验统计量为 }U=\\frac{\\bar{X}-\\bar{Y}-120}{\\sqrt{\\frac{\\sigma_{1}^{2}}{n_{1}}+\\frac{\\sigma_{2}^{2}}{n_{2}}}}\\sim N(0,1)\\;.\\;\\\\&amp;\\text{在显著性水平 }\\alpha=0.05\\text{ 下，拒绝域为 }U&lt;-u_{a}.\\;\\\\&amp;\\text{由 }x=867,\\;y=778,\\;n_{1}=n_{2}=50,\\;\\sigma_{1}^{2}=(62.8)^{2},\\;\\sigma_{2}^{2}=(56.1)^{2},\\;\\mu_{0.05}=1.645,\\; \\text{得 }\\\\&amp;\\quad u=\\frac{867-778-120}{\\sqrt{\\frac{(62.8)^{2}}{50}+\\frac{(56.1)^{2}}{50}}}\\approx\\frac{-31}{11.91}\\approx-2.60&lt;-1.645.\\;\\\\&amp;\\text{故拒绝 }H_{0},\\;\\text{认为 }\\mu_{1}-\\mu_{2}&lt;120,\\;\\text{即厂家的说法不对.}\\end{aligned}\">\\begin{aligned}&amp;\\text{建立检验假设 }H_{0}:\\mu_{1}-\\mu_{2}=120,\\;H_{1}:\\mu_{1}&gt;\\mu_{2}&lt;120.\\;\\\\&amp;\\text{在 }H_{0}\\text{ 成立的前提下，检验统计量为 }U=\\frac{\\bar{X}-\\bar{Y}-120}{\\sqrt{\\frac{\\sigma_{1}^{2}}{n_{1}}+\\frac{\\sigma_{2}^{2}}{n_{2}}}}\\sim N(0,1)\\;.\\;\\\\&amp;\\text{在显著性水平 }\\alpha=0.05\\text{ 下，拒绝域为 }U&lt;-u_{a}.\\;\\\\&amp;\\text{由 }x=867,\\;y=778,\\;n_{1}=n_{2}=50,\\;\\sigma_{1}^{2}=(62.8)^{2},\\;\\sigma_{2}^{2}=(56.1)^{2},\\;\\mu_{0.05}=1.645,\\; \\text{得 }\\\\&amp;\\quad u=\\frac{867-778-120}{\\sqrt{\\frac{(62.8)^{2}}{50}+\\frac{(56.1)^{2}}{50}}}\\approx\\frac{-31}{11.91}\\approx-2.60&lt;-1.645.\\;\\\\&amp;\\text{故拒绝 }H_{0},\\;\\text{认为 }\\mu_{1}-\\mu_{2}&lt;120,\\;\\text{即厂家的说法不对.}\\end{aligned}</div>"
     },
     {
       "id": "q0024",
       "number": 24,
       "header": "#24-Hard",
       "difficulty": "Hard",
-      "prompt_html": "<img src=\"/static/generated/assets/probability/ch128/q0024_prompt.png\"/>",
+      "prompt_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{aligned} \\text{某铁矿有}10\\text{个样本}，\\text{每一样本用两种方法个化验一次}，\\text{测得铁的质量分数}\\left(\\%\\right)\\text{如下} \\\\ \\begin{array}{|c|c|c|c|c|c|c|c|c|c|c|} \\hline \\text{样本号} &amp; 1 &amp; 2 &amp; 3 &amp; 4 &amp; 5 &amp; 6 &amp; 7 &amp; 8 &amp; 9 &amp; 10 \\\\ \\hline \\text{方法}A &amp; 28.22 &amp; 33.95 &amp; 38.25 &amp; 42.52 &amp; 37.62 &amp; 37.84 &amp; 36.12 &amp; 35.11 &amp; 34.45 &amp; 32.83 \\\\ \\text{方法}B &amp; 28.77 &amp; 33.99 &amp; 38.20 &amp; 42.42 &amp; 37.64 &amp; 37.85 &amp; 36.21 &amp; 35.20 &amp; 34.40 &amp; 32.86 \\\\ \\hline \\end{array} \\end{aligned} \\text{设两组数据来自正态分布的总体}，\\text{两总体方差相等} \\sigma_{a}^{2}=\\sigma_{b}^{2}，\\text{要检查这两种方法有无显著差异}(a=0.05)\\text{提出假设} H_{0}; \\mu_{a}=\\mu_{b}，\\text{利用}\\underline{\\hspace{2em}}\\text{统计量对} H_{0} \\text{做检验}，\\text{检验结果是}\\underline{\\hspace{2em}}H_{0}。\">\\begin{aligned} \\text{某铁矿有}10\\text{个样本}，\\text{每一样本用两种方法个化验一次}，\\text{测得铁的质量分数}\\left(\\%\\right)\\text{如下} \\\\ \\begin{array}{|c|c|c|c|c|c|c|c|c|c|c|} \\hline \\text{样本号} &amp; 1 &amp; 2 &amp; 3 &amp; 4 &amp; 5 &amp; 6 &amp; 7 &amp; 8 &amp; 9 &amp; 10 \\\\ \\hline \\text{方法}A &amp; 28.22 &amp; 33.95 &amp; 38.25 &amp; 42.52 &amp; 37.62 &amp; 37.84 &amp; 36.12 &amp; 35.11 &amp; 34.45 &amp; 32.83 \\\\ \\text{方法}B &amp; 28.77 &amp; 33.99 &amp; 38.20 &amp; 42.42 &amp; 37.64 &amp; 37.85 &amp; 36.21 &amp; 35.20 &amp; 34.40 &amp; 32.86 \\\\ \\hline \\end{array} \\end{aligned} \\text{设两组数据来自正态分布的总体}，\\text{两总体方差相等} \\sigma_{a}^{2}=\\sigma_{b}^{2}，\\text{要检查这两种方法有无显著差异}(a=0.05)\\text{提出假设} H_{0}; \\mu_{a}=\\mu_{b}，\\text{利用}\\underline{\\hspace{2em}}\\text{统计量对} H_{0} \\text{做检验}，\\text{检验结果是}\\underline{\\hspace{2em}}H_{0}。</div>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/probability/ch128/q0024_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\begin{aligned}T = \\frac{\\overline{X}_{_{A}} - \\overline{X}_{_{B}}}{S_{w} \\sqrt{\\frac{1}{n_{_{1}}} + \\frac{1}{n_{_{2}}}}}, \\text{接受}\\end{aligned}\">\\begin{aligned}T = \\frac{\\overline{X}_{_{A}} - \\overline{X}_{_{B}}}{S_{w} \\sqrt{\\frac{1}{n_{_{1}}} + \\frac{1}{n_{_{2}}}}}, \\text{接受}\\end{aligned}</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/probability/ch128/q0024_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\begin{aligned}T=\\frac{\\overline{X}_{_{A}}-\\overline{X}_{_{B}}}{\\sqrt{\\frac{S_{_{1}}^{2}}{n_{_{1}}}+\\frac{S_{_{2}}^{2}}{n_{_{2}}}}}\\; ,\\; \\text{接受}\\end{aligned}\">\\begin{aligned}T=\\frac{\\overline{X}_{_{A}}-\\overline{X}_{_{B}}}{\\sqrt{\\frac{S_{_{1}}^{2}}{n_{_{1}}}+\\frac{S_{_{2}}^{2}}{n_{_{2}}}}}\\; ,\\; \\text{接受}\\end{aligned}</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/probability/ch128/q0024_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\begin{aligned}T=\\frac{\\overline{X}_{_{A}}-\\overline{X}_{_{B}}}{S_{W}\\sqrt{\\frac{1}{n_{_{1}}}+\\frac{1}{n_{_{2}}}}}\\; ,\\text{拒绝}\\end{aligned}\">\\begin{aligned}T=\\frac{\\overline{X}_{_{A}}-\\overline{X}_{_{B}}}{S_{W}\\sqrt{\\frac{1}{n_{_{1}}}+\\frac{1}{n_{_{2}}}}}\\; ,\\text{拒绝}\\end{aligned}</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/probability/ch128/q0024_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\begin{aligned}T=\\frac{\\overline{X}_{_{A}}-\\overline{X}_{_{B}}}{\\sqrt{\\frac{S_{1}^{2}}{n_{1}}+\\frac{S_{2}^{2}}{n_{2}}}}\\;,\\;\\text{拒绝}\\end{aligned}\">\\begin{aligned}T=\\frac{\\overline{X}_{_{A}}-\\overline{X}_{_{B}}}{\\sqrt{\\frac{S_{1}^{2}}{n_{1}}+\\frac{S_{2}^{2}}{n_{2}}}}\\;,\\;\\text{拒绝}\\end{aligned}</span>"
         }
       ],
       "answer": "A",
       "answer_index": 0,
-      "analysis_html": "<img src=\"/static/generated/assets/probability/ch128/q0024_analysis.png\"/>"
+      "analysis_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{aligned} \\text{显然这是对两个正态总体均值的双侧检验问题，其中总体方差}\\sigma_{i}^{2}\\text{但未知，估选用统计量}\\\\T=\\frac{\\overline{X}_{d}-\\overline{X}_{g}}{S_{np}\\sqrt{\\frac{1}{n_{1}}+\\frac{1}{n_{2}}}}\\sim t\\left(n_{1}+n_{2}-2\\right),\\\\ \\text{其中}s_{np}=\\sqrt{\\frac{\\left(n_{1}-1\\right)s_{d}^{2}+\\left(n_{2}-1\\right)s_{g}^{2}}{n_{1}+n_{2}-2}}=3.792,\\text{则}\\left|t\\right|=\\frac{\\left|\\overline{X}_{d}-\\overline{X}_{g}\\right|}{S_{np}\\sqrt{\\frac{1}{n_{1}}+\\frac{1}{n_{2}}}}=0.0076,\\text{有}a=0.05,\\;n_{1}=n_{2}=10,\\;\\text{查}t\\\\ \\text{分布表得}\\qquad t_{a}\\left(n_{1}+n_{2}-2\\right)=t_{0.025}\\left(18\\right)=2.1009,\\qquad\\\\ \\text{于是}\\left|t\\right|=t_{a}\\left(n_{1}+n_{2}-2\\right),\\text{故接受原假设}H_{0}:\\mu_{i}=\\mu_{g},\\text{即认为两种方法无显著差}\\end{aligned}\">\\begin{aligned} \\text{显然这是对两个正态总体均值的双侧检验问题，其中总体方差}\\sigma_{i}^{2}\\text{但未知，估选用统计量}\\\\T=\\frac{\\overline{X}_{d}-\\overline{X}_{g}}{S_{np}\\sqrt{\\frac{1}{n_{1}}+\\frac{1}{n_{2}}}}\\sim t\\left(n_{1}+n_{2}-2\\right),\\\\ \\text{其中}s_{np}=\\sqrt{\\frac{\\left(n_{1}-1\\right)s_{d}^{2}+\\left(n_{2}-1\\right)s_{g}^{2}}{n_{1}+n_{2}-2}}=3.792,\\text{则}\\left|t\\right|=\\frac{\\left|\\overline{X}_{d}-\\overline{X}_{g}\\right|}{S_{np}\\sqrt{\\frac{1}{n_{1}}+\\frac{1}{n_{2}}}}=0.0076,\\text{有}a=0.05,\\;n_{1}=n_{2}=10,\\;\\text{查}t\\\\ \\text{分布表得}\\qquad t_{a}\\left(n_{1}+n_{2}-2\\right)=t_{0.025}\\left(18\\right)=2.1009,\\qquad\\\\ \\text{于是}\\left|t\\right|=t_{a}\\left(n_{1}+n_{2}-2\\right),\\text{故接受原假设}H_{0}:\\mu_{i}=\\mu_{g},\\text{即认为两种方法无显著差}\\end{aligned}</div>"
     },
     {
       "id": "q0025",
       "number": 25,
       "header": "#25-Hard",
       "difficulty": "Hard",
-      "prompt_html": "<img src=\"/static/generated/assets/probability/ch128/q0025_prompt.png\"/>",
+      "prompt_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{array}{l} \\text {设总设} X \\sim N(\\mu_{1}, \\sigma_{1}^{2})，\\text{总体}\\quad Y \\sim N(\\mu_{2}, \\sigma_{2}^{2})，\\sigma_{1}^{2}, \\sigma_{2}^{2} \\text{未知但相等}．X_{1}, X_{2}, \\cdots, X_{n_{1}}\\text{与}Y_{1}, Y_{2}, \\cdots, Y_{n_{2}}\\text{分别是来自}X, Y\\text{的样本}，\\text{两样本独立}，\\text{对}H_{0}: \\mu_{1} - \\mu_{2} = \\delta（\\delta\\text{为已知数}）\\leftrightarrow H_{1}: \\mu_{1} - \\mu_{2} \\neq \\delta，\\text{其检验统计量}T =\\underline{\\hspace{2em}}，\\text{其拒绝域}W =\\underline{\\hspace{2em}}．()\\end{array}\">\\begin{array}{l} \\text {设总设} X \\sim N(\\mu_{1}, \\sigma_{1}^{2})，\\text{总体}\\quad Y \\sim N(\\mu_{2}, \\sigma_{2}^{2})，\\sigma_{1}^{2}, \\sigma_{2}^{2} \\text{未知但相等}．X_{1}, X_{2}, \\cdots, X_{n_{1}}\\text{与}Y_{1}, Y_{2}, \\cdots, Y_{n_{2}}\\text{分别是来自}X, Y\\text{的样本}，\\text{两样本独立}，\\text{对}H_{0}: \\mu_{1} - \\mu_{2} = \\delta（\\delta\\text{为已知数}）\\leftrightarrow H_{1}: \\mu_{1} - \\mu_{2} \\neq \\delta，\\text{其检验统计量}T =\\underline{\\hspace{2em}}，\\text{其拒绝域}W =\\underline{\\hspace{2em}}．()\\end{array}</div>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/probability/ch128/q0025_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\begin{array}{lll}T=\\displaystyle\\frac{\\bigl(\\overline{X}-\\overline{Y}\\bigr)-\\delta}{S_{W}}\\sqrt{\\frac{n_{1}n_{2}}{n_{1}+n_{2}}}\\,,&amp;W=\\bigl\\{|t|&lt;t_{\\alpha/2}\\bigl(n_{1}+n_{2}-2\\bigr)\\bigr\\}\\end{array}\">\\begin{array}{lll}T=\\displaystyle\\frac{\\bigl(\\overline{X}-\\overline{Y}\\bigr)-\\delta}{S_{W}}\\sqrt{\\frac{n_{1}n_{2}}{n_{1}+n_{2}}}\\,,&amp;W=\\bigl\\{|t|&lt;t_{\\alpha/2}\\bigl(n_{1}+n_{2}-2\\bigr)\\bigr\\}\\end{array}</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/probability/ch128/q0025_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\begin{aligned}T=\\frac{\\bigl(\\overline{X}-\\overline{Y}\\bigr)-\\delta}{S_{W}}\\sqrt{\\frac{1}{n_{1}}+\\frac{1}{n_{2}}}\\,,\\;\\;W=\\bigl\\{\\bigl|t\\bigr|&lt;t_{\\alpha/2}\\bigl(n_{1}+n_{2}-2\\bigr)\\bigr\\}\\end{aligned}\">\\begin{aligned}T=\\frac{\\bigl(\\overline{X}-\\overline{Y}\\bigr)-\\delta}{S_{W}}\\sqrt{\\frac{1}{n_{1}}+\\frac{1}{n_{2}}}\\,,\\;\\;W=\\bigl\\{\\bigl|t\\bigr|&lt;t_{\\alpha/2}\\bigl(n_{1}+n_{2}-2\\bigr)\\bigr\\}\\end{aligned}</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/probability/ch128/q0025_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\begin{aligned}T = \\frac{\\bigl(\\overline{X}-\\overline{Y}\\bigr) - \\delta}{S_{w}} \\sqrt{\\frac{n_{1}n_{2}}{n_{1}+n_{2}}}\\,,\\;\\; W = \\bigl\\{ \\bigl|t \\bigr| &lt; t_{\\alpha} \\bigl(n_{1}+n_{2}-2\\bigr) \\bigr\\}\\end{aligned}\">\\begin{aligned}T = \\frac{\\bigl(\\overline{X}-\\overline{Y}\\bigr) - \\delta}{S_{w}} \\sqrt{\\frac{n_{1}n_{2}}{n_{1}+n_{2}}}\\,,\\;\\; W = \\bigl\\{ \\bigl|t \\bigr| &lt; t_{\\alpha} \\bigl(n_{1}+n_{2}-2\\bigr) \\bigr\\}\\end{aligned}</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/probability/ch128/q0025_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\begin{aligned}T = \\frac{\\bigl(\\overline{X}-\\overline{Y}\\bigr) - \\delta}{S_W} \\sqrt{\\frac{1}{n_1} + \\frac{1}{n_2}}\\,, \\;\\; W = \\bigl\\{ \\bigl|t \\bigr| &lt; t_a \\bigl(n_1 + n_2 - 2 \\bigr) \\bigr\\}\\end{aligned}\">\\begin{aligned}T = \\frac{\\bigl(\\overline{X}-\\overline{Y}\\bigr) - \\delta}{S_W} \\sqrt{\\frac{1}{n_1} + \\frac{1}{n_2}}\\,, \\;\\; W = \\bigl\\{ \\bigl|t \\bigr| &lt; t_a \\bigl(n_1 + n_2 - 2 \\bigr) \\bigr\\}\\end{aligned}</span>"
         }
       ],
       "answer": "A",
       "answer_index": 0,
-      "analysis_html": "<img src=\"/static/generated/assets/probability/ch128/q0025_analysis.png\"/>"
+      "analysis_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{aligned}\\text{双正态总体均值差的检验如下过程.若方差}\\sigma_{1}^{2},\\sigma_{2}^{2} \\text{未知，但}\\sigma_{1}^{2}=\\sigma_{2}^{2}=\\sigma^{2},\\text{则}1)\\text{检验假设}H_{0}: \\mu_{1}-\\mu_{2}=\\mu_{0},\\ H_{0}:\\mu_{1}-\\mu_{2}\\neq\\mu_{0}.2)\\text{若}H_{0}\\text{成立，则}T=\\frac{(\\overline{X}-\\overline{Y})-\\mu_{0}}{S_{w}\\sqrt{\\frac{1}{n_{1}}+\\frac{1}{n_{2}}}}\\sim t(n_{1}+n_{2}-2),\\text{记}T\\text{的样本计算值}t,\\text{则拒绝域为}|t|&gt;t_{\\alpha_{2}}(n_{1}+n_{2}-2),\\text{其}\\\\\\text{中}t_{\\alpha_{2}}\\text{为}t\\text{分布的}\\alpha/2\\text{分位数},\\ S_{w}^{c}=\\frac{(n_{1}-1)S_{1}^{2}+(n_{2}-2)S_{2}^{2}}{n_{1}+n_{2}-2},\\ S_{1}^{c}=\\frac{1}{n_{1}-1}\\sum_{i=1}^{n}\\left(X_{i}-\\overline{X}\\right)^{2},\\ S_{2}^{c}=\\frac{1}{n_{1}-1}\\sum_{i=1}^{n}\\left(Y_{i}-\\overline{Y}\\right)^{2}\\end{aligned}\">\\begin{aligned}\\text{双正态总体均值差的检验如下过程.若方差}\\sigma_{1}^{2},\\sigma_{2}^{2} \\text{未知，但}\\sigma_{1}^{2}=\\sigma_{2}^{2}=\\sigma^{2},\\text{则}1)\\text{检验假设}H_{0}: \\mu_{1}-\\mu_{2}=\\mu_{0},\\ H_{0}:\\mu_{1}-\\mu_{2}\\neq\\mu_{0}.2)\\text{若}H_{0}\\text{成立，则}T=\\frac{(\\overline{X}-\\overline{Y})-\\mu_{0}}{S_{w}\\sqrt{\\frac{1}{n_{1}}+\\frac{1}{n_{2}}}}\\sim t(n_{1}+n_{2}-2),\\text{记}T\\text{的样本计算值}t,\\text{则拒绝域为}|t|&gt;t_{\\alpha_{2}}(n_{1}+n_{2}-2),\\text{其}\\\\\\text{中}t_{\\alpha_{2}}\\text{为}t\\text{分布的}\\alpha/2\\text{分位数},\\ S_{w}^{c}=\\frac{(n_{1}-1)S_{1}^{2}+(n_{2}-2)S_{2}^{2}}{n_{1}+n_{2}-2},\\ S_{1}^{c}=\\frac{1}{n_{1}-1}\\sum_{i=1}^{n}\\left(X_{i}-\\overline{X}\\right)^{2},\\ S_{2}^{c}=\\frac{1}{n_{1}-1}\\sum_{i=1}^{n}\\left(Y_{i}-\\overline{Y}\\right)^{2}\\end{aligned}</div>"
     },
     {
       "id": "q0026",
       "number": 26,
       "header": "#26-Averge",
       "difficulty": "Averge",
-      "prompt_html": "<img src=\"/static/generated/assets/probability/ch128/q0026_prompt.png\"/>",
+      "prompt_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"&lt;think&gt;\n\n&lt;/think&gt;\n\n\\begin{aligned}\\begin{array}{l}\\text{某地某年高考后随机抽得15名男生、12名女生的物理考试成绩如下：}\\\\ \\text{男生：}49\\quad 48\\quad 47\\quad 53\\quad 51\\quad 43\\quad 39\\quad 57\\quad 56\\quad 46\\quad 42\\quad 44\\quad 55\\quad 44\\quad 40\\\\ \\text{女生：}46\\quad 40\\quad 47\\quad 51\\quad 43\\quad 36\\quad 43\\quad 38\\quad 43\\quad 54\\quad 48\\quad 34\\\\ \\text{有人认为这}\\text{27}\\text{名学生的成绩能说明这个地区男女生的物理考试成绩不相上下，设显著性水平} \\alpha = 0.05 \\text{，则下列说法中不正确的是（）}\\text{.}\\end{array}\\end{aligned}\">&lt;think&gt;\n\n&lt;/think&gt;\n\n\\begin{aligned}\\begin{array}{l}\\text{某地某年高考后随机抽得15名男生、12名女生的物理考试成绩如下：}\\\\ \\text{男生：}49\\quad 48\\quad 47\\quad 53\\quad 51\\quad 43\\quad 39\\quad 57\\quad 56\\quad 46\\quad 42\\quad 44\\quad 55\\quad 44\\quad 40\\\\ \\text{女生：}46\\quad 40\\quad 47\\quad 51\\quad 43\\quad 36\\quad 43\\quad 38\\quad 43\\quad 54\\quad 48\\quad 34\\\\ \\text{有人认为这}\\text{27}\\text{名学生的成绩能说明这个地区男女生的物理考试成绩不相上下，设显著性水平} \\alpha = 0.05 \\text{，则下列说法中不正确的是（）}\\text{.}\\end{array}\\end{aligned}</div>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/probability/ch128/q0026_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\begin{aligned} \\text{拒绝域为} \\, (t_{\\alpha}(n_{1}+n_{2}-2), +\\infty) \\end{aligned}\">\\begin{aligned} \\text{拒绝域为} \\, (t_{\\alpha}(n_{1}+n_{2}-2), +\\infty) \\end{aligned}</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/probability/ch128/q0026_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\overline { x } { = } 47 . 6 \\, , \\quad \\overline { y } { = } 44\">\\overline { x } { = } 47 . 6 \\, , \\quad \\overline { y } { = } 44</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/probability/ch128/q0026_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{检验统计量为} \\, t = \\frac{ \\overline{x} - \\overline{y} - \\mu _{0} } { S _{w} \\sqrt { 1 / n _{1} + 1 / n _{2} } }\">\\text{检验统计量为} \\, t = \\frac{ \\overline{x} - \\overline{y} - \\mu _{0} } { S _{w} \\sqrt { 1 / n _{1} + 1 / n _{2} } }</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/probability/ch128/q0026_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{可认为该人的说法是正确的}\">\\text{可认为该人的说法是正确的}</span>"
         }
       ],
       "answer": "A",
       "answer_index": 0,
-      "analysis_html": "<img src=\"/static/generated/assets/probability/ch128/q0026_analysis.png\"/>"
+      "analysis_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{aligned}&amp;\\text{把男生和女生物理考试的成绩分别近似地看作服从正态分布的随机变量}X\\sim N(\\mu_{1},\\sigma^{2})\\text{与}Y\\sim N(\\mu_{2},\\sigma^{2}),\\\\&amp;\\text{则本例可归结为双侧检验问题。由题设，有}n_{1}=15,n_{2}=12，\\text{从而}\\quad n=n_{1}+n_{2}=27。\\\\&amp;\\text{再根据例中数据算出}\\quad\\bar{x}=47.6,\\quad\\bar{y}=44;\\quad(n_{1}-1)s_{1}^{2}=\\sum_{i=1}^{15}(x_{i}-\\bar{x})^{2}=469.6,\\quad(n_{2}-1)s_{2}^{2}=\\sum_{i=1}^{12}(y_{i}-\\bar{y})^{2}=412.\\\\&amp;s_{w}=\\sqrt{\\frac{1}{n_{1}+n_{2}-2}}\\{(n_{1}-1)s_{1}^{2}+(n_{2}-1)s_{2}^{2}\\}=\\sqrt{\\frac{1}{25}(469.6+412)}=5.94。\\\\&amp;\\text{由此便可计算出}\\\\&amp;t=\\frac{\\bar{x}-\\bar{y}}{s_{w}\\sqrt{1/n_{1}+1/n_{2}}}=\\frac{47.6-44}{5.94\\sqrt{1/15+1/12}}=1.566。\\\\&amp;\\text{取显著性水平}\\alpha=0.05，\\text{查附表表}，t_{0.025}(n-2)=t_{0.025}(25)=2.060。\\\\&amp;\\text{因为}|t|=1.566\\leq2.060=t_{0.025}(25)，\\text{从而没有充分理由否认原假设}H_{0},\\text{即认为这一地区男女生的物理考试成绩不相上下}。\\end{aligned}\">\\begin{aligned}&amp;\\text{把男生和女生物理考试的成绩分别近似地看作服从正态分布的随机变量}X\\sim N(\\mu_{1},\\sigma^{2})\\text{与}Y\\sim N(\\mu_{2},\\sigma^{2}),\\\\&amp;\\text{则本例可归结为双侧检验问题。由题设，有}n_{1}=15,n_{2}=12，\\text{从而}\\quad n=n_{1}+n_{2}=27。\\\\&amp;\\text{再根据例中数据算出}\\quad\\bar{x}=47.6,\\quad\\bar{y}=44;\\quad(n_{1}-1)s_{1}^{2}=\\sum_{i=1}^{15}(x_{i}-\\bar{x})^{2}=469.6,\\quad(n_{2}-1)s_{2}^{2}=\\sum_{i=1}^{12}(y_{i}-\\bar{y})^{2}=412.\\\\&amp;s_{w}=\\sqrt{\\frac{1}{n_{1}+n_{2}-2}}\\{(n_{1}-1)s_{1}^{2}+(n_{2}-1)s_{2}^{2}\\}=\\sqrt{\\frac{1}{25}(469.6+412)}=5.94。\\\\&amp;\\text{由此便可计算出}\\\\&amp;t=\\frac{\\bar{x}-\\bar{y}}{s_{w}\\sqrt{1/n_{1}+1/n_{2}}}=\\frac{47.6-44}{5.94\\sqrt{1/15+1/12}}=1.566。\\\\&amp;\\text{取显著性水平}\\alpha=0.05，\\text{查附表表}，t_{0.025}(n-2)=t_{0.025}(25)=2.060。\\\\&amp;\\text{因为}|t|=1.566\\leq2.060=t_{0.025}(25)，\\text{从而没有充分理由否认原假设}H_{0},\\text{即认为这一地区男女生的物理考试成绩不相上下}。\\end{aligned}</div>"
     },
     {
       "id": "q0027",
       "number": 27,
       "header": "#27-Averge",
       "difficulty": "Averge",
-      "prompt_html": "<img src=\"/static/generated/assets/probability/ch128/q0027_prompt.png\"/>",
+      "prompt_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{aligned} \\text{设二正态总体}N(\\mu_1,\\sigma_1^2)\\text{和}N(\\mu_2,\\sigma_2^2)\\text{有两组相互独立样本，容量分别为}n_1,\\,n_2,\\text{均值分别为}\\overline{X}_1,\\,\\overline{X},\\text{，且}\\sigma_1^2\\text{和}\\sigma_2^2\\text{为已知，要对}\\mu_1-\\mu_2\\text{作假设检验，统计假设为} \\\\H_0: \\mu_1-\\mu_2=0,\\ H_1: \\mu_1-\\mu_2&gt;0,\\ \\text{则要用检验统计量为（）.} \\end{aligned}\">\\begin{aligned} \\text{设二正态总体}N(\\mu_1,\\sigma_1^2)\\text{和}N(\\mu_2,\\sigma_2^2)\\text{有两组相互独立样本，容量分别为}n_1,\\,n_2,\\text{均值分别为}\\overline{X}_1,\\,\\overline{X},\\text{，且}\\sigma_1^2\\text{和}\\sigma_2^2\\text{为已知，要对}\\mu_1-\\mu_2\\text{作假设检验，统计假设为} \\\\H_0: \\mu_1-\\mu_2=0,\\ H_1: \\mu_1-\\mu_2&gt;0,\\ \\text{则要用检验统计量为（）.} \\end{aligned}</div>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/probability/ch128/q0027_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\begin{aligned}U = \\frac{(\\overline{X} - \\overline{Y}) - \\mu_0}{\\sqrt{\\frac{\\sigma_1^2}{n_1} + \\frac{\\sigma_2^2}{n_2}}}\\end{aligned}\">\\begin{aligned}U = \\frac{(\\overline{X} - \\overline{Y}) - \\mu_0}{\\sqrt{\\frac{\\sigma_1^2}{n_1} + \\frac{\\sigma_2^2}{n_2}}}\\end{aligned}</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/probability/ch128/q0027_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\begin{aligned}U = \\frac{(\\overline{X} - \\overline{Y}) - \\mu_0}{\\sqrt{\\frac{n_1 \\sigma_1^2 + n_2 \\sigma_2^2}{n_1 + n_2}}}\\end{aligned}\">\\begin{aligned}U = \\frac{(\\overline{X} - \\overline{Y}) - \\mu_0}{\\sqrt{\\frac{n_1 \\sigma_1^2 + n_2 \\sigma_2^2}{n_1 + n_2}}}\\end{aligned}</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/probability/ch128/q0027_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\begin{aligned}T = \\frac{(\\overline{X} - \\overline{Y}) - \\mu_{0}}{S_{w} \\sqrt{\\frac{1}{n_{1}} + \\frac{1}{n_{2}}}}\\end{aligned}\">\\begin{aligned}T = \\frac{(\\overline{X} - \\overline{Y}) - \\mu_{0}}{S_{w} \\sqrt{\\frac{1}{n_{1}} + \\frac{1}{n_{2}}}}\\end{aligned}</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/probability/ch128/q0027_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\begin{aligned}F = \\frac{\\displaystyle \\frac{1}{n_{1}-1} \\sum_{i=1}^{n_{1}} (X_{i} - \\overline{X})^{2}}{\\displaystyle \\frac{1}{n_{2}-1} \\sum_{i=1}^{n_{2}} (Y_{i} - \\overline{Y})}\\end{aligned}\">\\begin{aligned}F = \\frac{\\displaystyle \\frac{1}{n_{1}-1} \\sum_{i=1}^{n_{1}} (X_{i} - \\overline{X})^{2}}{\\displaystyle \\frac{1}{n_{2}-1} \\sum_{i=1}^{n_{2}} (Y_{i} - \\overline{Y})}\\end{aligned}</span>"
         }
       ],
       "answer": "A",
       "answer_index": 0,
-      "analysis_html": "<img src=\"/static/generated/assets/probability/ch128/q0027_analysis.png\"/>"
+      "analysis_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{aligned}&amp;\\text{双正态总体均值差的检验如下过程.若方差}\\sigma_{1}^{2},\\sigma_{2}^{2}\\text{已知},\\text{则}\\\\&amp;(1)\\text{检验假设} H_{0}: \\mu_{1}-\\mu_{2}=\\mu_{0};\\ H_{0}: \\mu_{1}-\\mu_{2}\\neq \\mu_{0}.\\\\&amp;(2)\\text{若} H_{0}\\text{成立},\\text{则} U=\\frac{(X-Y)-\\mu_{0}}{\\sqrt{\\frac{\\sigma_{1}^{2}}{n_{1}}+\\frac{\\sigma_{2}^{2}}{n_{2}}}}\\sim N(0,1), U \\text{的样本观察值记为} u, \\text{此时拒绝域为} u&gt;u_{a2}.\\text{其中} u_{a2} \\text{为标}\\\\&amp;\\text{准正态分布的}  \\alpha/2  \\text{分位数}\\text{.}\\\\&amp;\\text{另外,右侧检验:}\\ H_{0}: \\mu_{1}-\\mu_{2}\\leq \\mu_{0};\\ H_{1}: \\mu_{1}-\\mu_{2}&gt;\\mu_{0}.\\ \\text{此时拒绝域为}u&gt;u_{n}.\\\\&amp;\\text{左侧检验:}\\ H_{0}: \\mu_{1}-\\mu_{2}\\geq \\mu_{0};\\ H_{1}: \\mu_{1}-\\mu_{2}&lt;\\mu_{0}.\\ \\text{此时拒绝域为}u&lt;-u_{n}.\\end{aligned}\">\\begin{aligned}&amp;\\text{双正态总体均值差的检验如下过程.若方差}\\sigma_{1}^{2},\\sigma_{2}^{2}\\text{已知},\\text{则}\\\\&amp;(1)\\text{检验假设} H_{0}: \\mu_{1}-\\mu_{2}=\\mu_{0};\\ H_{0}: \\mu_{1}-\\mu_{2}\\neq \\mu_{0}.\\\\&amp;(2)\\text{若} H_{0}\\text{成立},\\text{则} U=\\frac{(X-Y)-\\mu_{0}}{\\sqrt{\\frac{\\sigma_{1}^{2}}{n_{1}}+\\frac{\\sigma_{2}^{2}}{n_{2}}}}\\sim N(0,1), U \\text{的样本观察值记为} u, \\text{此时拒绝域为} u&gt;u_{a2}.\\text{其中} u_{a2} \\text{为标}\\\\&amp;\\text{准正态分布的}  \\alpha/2  \\text{分位数}\\text{.}\\\\&amp;\\text{另外,右侧检验:}\\ H_{0}: \\mu_{1}-\\mu_{2}\\leq \\mu_{0};\\ H_{1}: \\mu_{1}-\\mu_{2}&gt;\\mu_{0}.\\ \\text{此时拒绝域为}u&gt;u_{n}.\\\\&amp;\\text{左侧检验:}\\ H_{0}: \\mu_{1}-\\mu_{2}\\geq \\mu_{0};\\ H_{1}: \\mu_{1}-\\mu_{2}&lt;\\mu_{0}.\\ \\text{此时拒绝域为}u&lt;-u_{n}.\\end{aligned}</div>"
     }
-  ]
+  ],
+  "format": "latex",
+  "source_md": "gl/8.2.2.1_均值差检验(27题)/8.2.2.1_均值差检验(27题).md"
 }

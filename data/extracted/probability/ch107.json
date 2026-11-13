@@ -13,168 +13,170 @@
       "number": 1,
       "header": "#1-Hard",
       "difficulty": "Hard",
-      "prompt_html": "<img src=\"/static/generated/assets/probability/ch107/q0001_prompt.png\"/>",
+      "prompt_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{array}{l}\n\\begin{array}{|c|c|c|c|c|c|c|c|c|} \\hline \\text{月人均收入}(\\text{百元}) &amp; 5-6 &amp; 6-7 &amp; 7-8 &amp; 8-9 &amp; 9-10 &amp; 10-11 &amp; 11-12 &amp; \\text{合计} \\\\ \\hline \\text{户数} &amp; 18 &amp; 35 &amp; 76 &amp; 24 &amp; 19 &amp; 14 &amp; 14 &amp; 200 \\\\ \\hline \\end{array}\n\\text{则样本方差} s^{2} \\text{为}（）。\n\n\\end{array}\">\\begin{array}{l}\n\\begin{array}{|c|c|c|c|c|c|c|c|c|} \\hline \\text{月人均收入}(\\text{百元}) &amp; 5-6 &amp; 6-7 &amp; 7-8 &amp; 8-9 &amp; 9-10 &amp; 10-11 &amp; 11-12 &amp; \\text{合计} \\\\ \\hline \\text{户数} &amp; 18 &amp; 35 &amp; 76 &amp; 24 &amp; 19 &amp; 14 &amp; 14 &amp; 200 \\\\ \\hline \\end{array}\n\\text{则样本方差} s^{2} \\text{为}（）。\n\n\\end{array}</div>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/probability/ch107/q0001_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"2.917175\">2.917175</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/probability/ch107/q0001_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"1.917175\">1.917175</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/probability/ch107/q0001_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"2.9\">2.9</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/probability/ch107/q0001_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"2.17175\">2.17175</span>"
         }
       ],
       "answer": "A",
       "answer_index": 0,
-      "analysis_html": "<img src=\"/static/generated/assets/probability/ch107/q0001_analysis.png\"/>"
+      "analysis_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{aligned} &amp; \\text{对于抽到的每个居民户调查均收入，可见}n=200.\\text{这里，没有给出原始数据，而是给出了整理过的资料(频率分布)，我们首先计算各组的“组中值”，然后计算}s^2:\\\\ &amp; \\begin{array}{|c|c|c|c|c|c|c|c|c|c|} &amp; \\text{月人均收入(百元)} &amp; 5-6 &amp; 6-7 &amp; 7-8 &amp; 8-9 &amp; 9-10 &amp; 10-11 &amp; 11-12 &amp; \\text{合计} \\\\ \\hline &amp; \\text{组中值}a_k &amp; 5.5 &amp; 6.5 &amp; 7.5 &amp; 8.5 &amp; 9.5 &amp; 10.5 &amp; 11.5 &amp; - \\\\ \\hline &amp; \\text{户数}f_k &amp; 18 &amp; 35 &amp; 76 &amp; 24 &amp; 19 &amp; 14 &amp; 14 &amp; 200 \\end{array}\\\\ &amp; \\bar{x}=\\frac{1}{n}\\sum_{k}a_kf_k=\\frac{1}{200}(5.5\\times 18+\\cdots+11.5\\times 14)=7.945,\\\\ &amp; s^2\\approx\\frac{1}{n-1}\\sum_{k}(a_k-\\bar{x})^2f_k=\\frac{1}{n-1}\\sum_{k}a_k^2f_k-\\bar{x}^2\\\\ &amp; =\\frac{1}{199}(5.5^2\\times 18+\\cdots+11.5^2\\times 14)-7.945^2\\approx 66.0402-63.123025=2.917175.\\end{aligned}\">\\begin{aligned} &amp; \\text{对于抽到的每个居民户调查均收入，可见}n=200.\\text{这里，没有给出原始数据，而是给出了整理过的资料(频率分布)，我们首先计算各组的“组中值”，然后计算}s^2:\\\\ &amp; \\begin{array}{|c|c|c|c|c|c|c|c|c|c|} &amp; \\text{月人均收入(百元)} &amp; 5-6 &amp; 6-7 &amp; 7-8 &amp; 8-9 &amp; 9-10 &amp; 10-11 &amp; 11-12 &amp; \\text{合计} \\\\ \\hline &amp; \\text{组中值}a_k &amp; 5.5 &amp; 6.5 &amp; 7.5 &amp; 8.5 &amp; 9.5 &amp; 10.5 &amp; 11.5 &amp; - \\\\ \\hline &amp; \\text{户数}f_k &amp; 18 &amp; 35 &amp; 76 &amp; 24 &amp; 19 &amp; 14 &amp; 14 &amp; 200 \\end{array}\\\\ &amp; \\bar{x}=\\frac{1}{n}\\sum_{k}a_kf_k=\\frac{1}{200}(5.5\\times 18+\\cdots+11.5\\times 14)=7.945,\\\\ &amp; s^2\\approx\\frac{1}{n-1}\\sum_{k}(a_k-\\bar{x})^2f_k=\\frac{1}{n-1}\\sum_{k}a_k^2f_k-\\bar{x}^2\\\\ &amp; =\\frac{1}{199}(5.5^2\\times 18+\\cdots+11.5^2\\times 14)-7.945^2\\approx 66.0402-63.123025=2.917175.\\end{aligned}</div>"
     },
     {
       "id": "q0002",
       "number": 2,
       "header": "#2-Easy",
       "difficulty": "Easy",
-      "prompt_html": "<img src=\"/static/generated/assets/probability/ch107/q0002_prompt.png\"/>",
+      "prompt_html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{已知总体}X \\text{服从}[0,\\lambda]\\text{上的均匀分布}(\\lambda \\text{未知}),\\ X_{1},X_{2},\\cdots,X_{n}\\text{为}X\\text{的样本，则}( ).\">\\text{已知总体}X \\text{服从}[0,\\lambda]\\text{上的均匀分布}(\\lambda \\text{未知}),\\ X_{1},X_{2},\\cdots,X_{n}\\text{为}X\\text{的样本，则}( ).</span>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/probability/ch107/q0002_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\begin{array}{l} { r } { X _ { 1 } + X _ { 2 } \\text{是} \\text{一个} \\text{统} \\text{计} \\text{量} } \\end{array}\">\\begin{array}{l} { r } { X _ { 1 } + X _ { 2 } \\text{是} \\text{一个} \\text{统} \\text{计} \\text{量} } \\end{array}</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/probability/ch107/q0002_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\frac{1}{n} \\sum_{i=1}^{n} X_{i} - \\frac{\\lambda}{2} \\text{是一个统计量}\">\\frac{1}{n} \\sum_{i=1}^{n} X_{i} - \\frac{\\lambda}{2} \\text{是一个统计量}</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/probability/ch107/q0002_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\frac{1}{n} \\sum_{i=1}^{n} X_{i} - E(X) \\text{是一个统计量}\">\\frac{1}{n} \\sum_{i=1}^{n} X_{i} - E(X) \\text{是一个统计量}</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/probability/ch107/q0002_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\frac{1}{n}\\sum_{i=1}^{n}X_{i}^{2}-D(X) \\text{是一个统计量}\">\\frac{1}{n}\\sum_{i=1}^{n}X_{i}^{2}-D(X) \\text{是一个统计量}</span>"
         }
       ],
       "answer": "A",
       "answer_index": 0,
-      "analysis_html": "<img src=\"/static/generated/assets/probability/ch107/q0002_analysis.png\"/>"
+      "analysis_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{array}{l} \\text {统计量是不能包含总体的未知参数} \\lambda \\text {的，又均匀总体中均值} E(X) \\text {与方差} D(X) \\text {都是含有总体的未知参数} \\lambda , \\text {故统计量要排除这些项}. \\end{array}\">\\begin{array}{l} \\text {统计量是不能包含总体的未知参数} \\lambda \\text {的，又均匀总体中均值} E(X) \\text {与方差} D(X) \\text {都是含有总体的未知参数} \\lambda , \\text {故统计量要排除这些项}. \\end{array}</div>"
     },
     {
       "id": "q0003",
       "number": 3,
       "header": "#3-Hard",
       "difficulty": "Hard",
-      "prompt_html": "<img src=\"/static/generated/assets/probability/ch107/q0003_prompt.png\"/>",
+      "prompt_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{array}{l} \\text {设} X_{1}, \\cdots, X_{n} \\text {为总体} \\lambda \\text {的一个样本，} x_{1}, \\cdots, x_{n} \\text {为样本的一组观察值．将此观察值按由小至大顺序排列：} \\\\ x_{1}^{*} \\leq x_{2}^{*} \\leq \\cdots \\leq x_{n}^{*}, \\text {若} (X_{1}^{*}, X_{2}^{*}, \\cdots, X_{n}^{*}) \\text {的取值为} (x_{1}^{*}, x_{2}^{*}, \\cdots, x_{n}^{*}) , \\text {则称（）为顺序统计量.} \\end{array}\">\\begin{array}{l} \\text {设} X_{1}, \\cdots, X_{n} \\text {为总体} \\lambda \\text {的一个样本，} x_{1}, \\cdots, x_{n} \\text {为样本的一组观察值．将此观察值按由小至大顺序排列：} \\\\ x_{1}^{*} \\leq x_{2}^{*} \\leq \\cdots \\leq x_{n}^{*}, \\text {若} (X_{1}^{*}, X_{2}^{*}, \\cdots, X_{n}^{*}) \\text {的取值为} (x_{1}^{*}, x_{2}^{*}, \\cdots, x_{n}^{*}) , \\text {则称（）为顺序统计量.} \\end{array}</div>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/probability/ch107/q0003_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\vec{X_{i}}(i=1,2,\\cdots,n)\">\\vec{X_{i}}(i=1,2,\\cdots,n)</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/probability/ch107/q0003_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\mathit{Min}(X_{1},\\cdots,X_{n}){\\overset{\\rightarrow}{=}}X_{1}^{\\prime}\">\\mathit{Min}(X_{1},\\cdots,X_{n}){\\overset{\\rightarrow}{=}}X_{1}^{\\prime}</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/probability/ch107/q0003_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\mathit{Max}(X_{1},\\cdots X_{n}) = X_{n}^{\\ast}\">\\mathit{Max}(X_{1},\\cdots X_{n}) = X_{n}^{\\ast}</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/probability/ch107/q0003_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\begin{aligned}\\widetilde{X} = \\{ \\begin{array}{c} X_{i+1}^{\\ast}, \\ 2i+1=n \\\\ \\\\ (X_{i}^{\\ast}+X_{i+1}^{\\ast})/2, \\ 2i=n \\end{array}\\end{aligned}\">\\begin{aligned}\\widetilde{X} = \\{ \\begin{array}{c} X_{i+1}^{\\ast}, \\ 2i+1=n \\\\ \\\\ (X_{i}^{\\ast}+X_{i+1}^{\\ast})/2, \\ 2i=n \\end{array}\\end{aligned}</span>"
         }
       ],
       "answer": "A",
       "answer_index": 0,
-      "analysis_html": "<img src=\"/static/generated/assets/probability/ch107/q0003_analysis.png\"/>"
+      "analysis_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{aligned}&amp;\\text{根据定义，}X_{i}^{*}(i=1,2,\\cdots,n)\\text{称为顺序统计量；}\\\\&amp;\\quad Min(X_{1},\\cdots,X_{n})=X_{1}^{*}\\text{称为极小统计量；}\\\\&amp;\\quad Max(X_{1},\\cdots X_{n})=X_{n}^{*}\\text{称为极大统计量；}\\\\&amp;\\quad \\widetilde{X}=\\begin{cases}X_{i+1},\\ 2i+1=n\\\\ (X_{i}^{*}+X_{i+1}^{*})/2,\\ 2i=n\\end{cases}\\text{称为中位数（统计量），且是总体均值的无偏估计.}\\end{aligned}\">\\begin{aligned}&amp;\\text{根据定义，}X_{i}^{*}(i=1,2,\\cdots,n)\\text{称为顺序统计量；}\\\\&amp;\\quad Min(X_{1},\\cdots,X_{n})=X_{1}^{*}\\text{称为极小统计量；}\\\\&amp;\\quad Max(X_{1},\\cdots X_{n})=X_{n}^{*}\\text{称为极大统计量；}\\\\&amp;\\quad \\widetilde{X}=\\begin{cases}X_{i+1},\\ 2i+1=n\\\\ (X_{i}^{*}+X_{i+1}^{*})/2,\\ 2i=n\\end{cases}\\text{称为中位数（统计量），且是总体均值的无偏估计.}\\end{aligned}</div>"
     },
     {
       "id": "q0004",
       "number": 4,
       "header": "#4-Easy",
       "difficulty": "Easy",
-      "prompt_html": "<img src=\"/static/generated/assets/probability/ch107/q0004_prompt.png\"/>",
+      "prompt_html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{设总体} X \\text{服从二项分布} B(n,p)，\\text{其中}p\\text{是未知参数}，X_{1},X_{2},\\cdots,X_{n}\\text{是来自总体}X\\text{的一个样本}，\\text{则下面不是统计量的为}（）. \\nonumber\">\\text{设总体} X \\text{服从二项分布} B(n,p)，\\text{其中}p\\text{是未知参数}，X_{1},X_{2},\\cdots,X_{n}\\text{是来自总体}X\\text{的一个样本}，\\text{则下面不是统计量的为}（）. \\nonumber</span>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/probability/ch107/q0004_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\frac{ \\sum_{i=1}^{n} X_{i} - np}{\\sqrt{np(1-p)}}\">\\frac{ \\sum_{i=1}^{n} X_{i} - np}{\\sqrt{np(1-p)}}</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/probability/ch107/q0004_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\frac{1}{n} \\sum_{i=1}^{n} (X_{i} - \\overline{X})^{2}\">\\frac{1}{n} \\sum_{i=1}^{n} (X_{i} - \\overline{X})^{2}</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/probability/ch107/q0004_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"X _ { 1 }\">X _ { 1 }</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/probability/ch107/q0004_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\scriptstyle X _ { 1 } + 5\">\\scriptstyle X _ { 1 } + 5</span>"
         }
       ],
       "answer": "A",
       "answer_index": 0,
-      "analysis_html": "<img src=\"/static/generated/assets/probability/ch107/q0004_analysis.png\"/>"
+      "analysis_html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{统计量不能含未知参数，故} \\frac{\\sum\\limits_{i = 1}^{n} X_{i} - np}{\\sqrt{np(1 - p)}} \\text{不是统计量}.\">\\text{统计量不能含未知参数，故} \\frac{\\sum\\limits_{i = 1}^{n} X_{i} - np}{\\sqrt{np(1 - p)}} \\text{不是统计量}.</span>"
     },
     {
       "id": "q0005",
       "number": 5,
       "header": "#5-Easy",
       "difficulty": "Easy",
-      "prompt_html": "<img src=\"/static/generated/assets/probability/ch107/q0005_prompt.png\"/>",
+      "prompt_html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{设总体} \\lambda \\text{服从} 0{-}1 \\text{分布：} P\\{X=1\\}=p, P\\{X=0\\}=1-p, \\text{其中参数} p \\text{未知，} X_{1}, X_{2}, \\cdots , X_{n} \\text{是来自} \\lambda \\text{的简单随机样本，则下列选项中不是统计量的是（）.}\">\\text{设总体} \\lambda \\text{服从} 0{-}1 \\text{分布：} P\\{X=1\\}=p, P\\{X=0\\}=1-p, \\text{其中参数} p \\text{未知，} X_{1}, X_{2}, \\cdots , X_{n} \\text{是来自} \\lambda \\text{的简单随机样本，则下列选项中不是统计量的是（）.}</span>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/probability/ch107/q0005_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"X_{n} + 2p\">X_{n} + 2p</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/probability/ch107/q0005_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"(X_{1}+X_{2})\">(X_{1}+X_{2})</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/probability/ch107/q0005_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\max _ { 1 \\leq i \\leq n } X _ { i }\">\\max _ { 1 \\leq i \\leq n } X _ { i }</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/probability/ch107/q0005_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"(X_{n} - X_{1})^{2}\">(X_{n} - X_{1})^{2}</span>"
         }
       ],
       "answer": "A",
       "answer_index": 0,
-      "analysis_html": "<img src=\"/static/generated/assets/probability/ch107/q0005_analysis.png\"/>"
+      "analysis_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{array}{l} X _ {n} + 2 p \\text {不是统计量．因为其中含有总体分布的未知参数} p \\, . \\end{array}\">\\begin{array}{l} X _ {n} + 2 p \\text {不是统计量．因为其中含有总体分布的未知参数} p \\, . \\end{array}</div>"
     },
     {
       "id": "q0006",
       "number": 6,
       "header": "#6-Hard",
       "difficulty": "Hard",
-      "prompt_html": "<img src=\"/static/generated/assets/probability/ch107/q0006_prompt.png\"/>",
+      "prompt_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{array}{l}\n\\begin{array}{|c|c|c|c|c|c|c|c|c|} \\hline \\text{月人均收入}(\\text{百元}) &amp; 5-6 &amp; 6-7 &amp; 7-8 &amp; 8-9 &amp; 9-10 &amp; 10-11 &amp; 11-12 &amp; \\text{合计} \\\\ \\hline \\text{户数} &amp; 18 &amp; 35 &amp; 76 &amp; 24 &amp; 19 &amp; 14 &amp; 14 &amp; 200 \\\\ \\hline \\end{array}\n\\text{则样本均值}x=(\\begin{array}{c} \\end{array}。\\end{array}\">\\begin{array}{l}\n\\begin{array}{|c|c|c|c|c|c|c|c|c|} \\hline \\text{月人均收入}(\\text{百元}) &amp; 5-6 &amp; 6-7 &amp; 7-8 &amp; 8-9 &amp; 9-10 &amp; 10-11 &amp; 11-12 &amp; \\text{合计} \\\\ \\hline \\text{户数} &amp; 18 &amp; 35 &amp; 76 &amp; 24 &amp; 19 &amp; 14 &amp; 14 &amp; 200 \\\\ \\hline \\end{array}\n\\text{则样本均值}x=(\\begin{array}{c} \\end{array}。\\end{array}</div>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/probability/ch107/q0006_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"7.945\">7.945</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/probability/ch107/q0006_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"7.786\">7.786</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/probability/ch107/q0006_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"8.025\">8.025</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/probability/ch107/q0006_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"8.361\">8.361</span>"
         }
       ],
       "answer": "A",
       "answer_index": 0,
-      "analysis_html": "<img src=\"/static/generated/assets/probability/ch107/q0006_analysis.png\"/>"
+      "analysis_html": "<span class=\"latex-text\">\\begin{array}{l}\n\\begin{array}{|c|c|c|c|c|c|c|c|c|} \\hline \\text{月人均收入}(\\text{百元}) &amp; 5-6 &amp; 6-7 &amp; 7-8 &amp; 8-9 &amp; 9-10 &amp; 10-11 &amp; 11-12 &amp; \\text{合计} \\\\ \\hline \\text{组中值} a_{k} &amp; 5.5 &amp; 6.5 &amp; 7.5 &amp; 8.5 &amp; 9.5 &amp; 10.5 &amp; 11.5 &amp;  \\\\ \\hline \\text{户数} f_{k} &amp; 18 &amp; 35 &amp; 76 &amp; 24 &amp; 19 &amp; 14 &amp; 14 &amp; 200 \\\\ \\hline \\end{array}</span>\n<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{array}{l}\n-\\overline{x} = \\dfrac{1}{n} \\sum_{k} a_{k} f_{k} = \\dfrac{1}{200} (5.5 \\times 18 + \\cdots + 11.5 \\times 14) = 7.945 \\ .\n\\end{array}\">\\begin{array}{l}\n-\\overline{x} = \\dfrac{1}{n} \\sum_{k} a_{k} f_{k} = \\dfrac{1}{200} (5.5 \\times 18 + \\cdots + 11.5 \\times 14) = 7.945 \\ .\n\\end{array}</div>"
     }
-  ]
+  ],
+  "format": "latex",
+  "source_md": "gl/6.4.1_统计量的概念(6题)/6.4.1_统计量的概念(6题).md"
 }

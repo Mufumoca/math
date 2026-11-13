@@ -13,1316 +13,1318 @@
       "number": 1,
       "header": "#1-Averge",
       "difficulty": "Averge",
-      "prompt_html": "<img src=\"/static/generated/assets/advanced-math/ch116/q0001_prompt.png\"/>",
+      "prompt_html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{设}z=f(x+y,x-y,xy),\\text{其中}f\\text{具有}2\\text{阶连续偏导数，则}\\frac{\\partial^{2}z}{\\partial x \\partial y}\\text{等于}( )。\">\\text{设}z=f(x+y,x-y,xy),\\text{其中}f\\text{具有}2\\text{阶连续偏导数，则}\\frac{\\partial^{2}z}{\\partial x \\partial y}\\text{等于}( )。</span>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch116/q0001_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\begin{aligned}f_3^{\\,\\,\\prime} + f_{11}^{\\,\\,\\prime\\prime} - f_{22}^{\\,\\,\\prime\\prime} + x y f_{33}^{\\,\\,\\prime\\prime} + (x-y) f_{13}^{\\,\\,\\prime\\prime} + (x-y) f_{23}^{\\,\\,\\prime\\prime} \\, \\stackrel{\\vphantom{\\leftarrow}}{+}\\end{aligned}\">\\begin{aligned}f_3^{\\,\\,\\prime} + f_{11}^{\\,\\,\\prime\\prime} - f_{22}^{\\,\\,\\prime\\prime} + x y f_{33}^{\\,\\,\\prime\\prime} + (x-y) f_{13}^{\\,\\,\\prime\\prime} + (x-y) f_{23}^{\\,\\,\\prime\\prime} \\, \\stackrel{\\vphantom{\\leftarrow}}{+}\\end{aligned}</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch116/q0001_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\begin{aligned}f_{3}^{\\,\\prime }+{f_{11}}^{\\,\\prime \\prime }-{f_{22}}^{\\,\\prime \\prime }+xy{f_{33}}^{\\,\\prime \\prime }+(x+y){f_{13}}^{\\,\\prime \\prime }+(x-y){f_{23}}^{\\,\\prime \\prime }+\\end{aligned}\">\\begin{aligned}f_{3}^{\\,\\prime }+{f_{11}}^{\\,\\prime \\prime }-{f_{22}}^{\\,\\prime \\prime }+xy{f_{33}}^{\\,\\prime \\prime }+(x+y){f_{13}}^{\\,\\prime \\prime }+(x-y){f_{23}}^{\\,\\prime \\prime }+\\end{aligned}</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch116/q0001_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\begin{aligned})f_3^{\\prime }+f_{11}^{\\;\\;\\prime }+xyf_{33}^{\\;\\;\\prime }+(x+y)f_{13}^{\\;\\;\\prime }+(x-y)f_{23}^{\\;\\;\\prime }\\uparrow\\end{aligned}\">\\begin{aligned})f_3^{\\prime }+f_{11}^{\\;\\;\\prime }+xyf_{33}^{\\;\\;\\prime }+(x+y)f_{13}^{\\;\\;\\prime }+(x-y)f_{23}^{\\;\\;\\prime }\\uparrow\\end{aligned}</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch116/q0001_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\begin{aligned}f_{3}^{\\prime }+{f_{11}}^{\\prime \\prime }-{f_{22}}^{\\prime \\prime }+xy{f_{33}}^{\\prime \\prime }+(x+y){f_{13}}^{\\prime \\prime }+(x+y){f_{23}}^{\\prime \\prime }\\rightleftharpoons\\end{aligned}\">\\begin{aligned}f_{3}^{\\prime }+{f_{11}}^{\\prime \\prime }-{f_{22}}^{\\prime \\prime }+xy{f_{33}}^{\\prime \\prime }+(x+y){f_{13}}^{\\prime \\prime }+(x+y){f_{23}}^{\\prime \\prime }\\rightleftharpoons\\end{aligned}</span>"
         }
       ],
       "answer": "B",
       "answer_index": 1,
-      "analysis_html": "<img src=\"/static/generated/assets/advanced-math/ch116/q0001_analysis.png\"/>"
+      "analysis_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{aligned}\\frac{\\partial z}{\\partial x} &amp; =f_1^{\\,\\prime}+f_2^{\\,\\prime}+yf_3^{\\,\\prime}\\\\\\frac{\\partial z}{\\partial y} &amp; =f_1^{\\,\\prime}-f_2^{\\,\\prime}+xf_3^{\\,\\prime}\\\\\\frac{\\partial^2 z}{\\partial x\\partial y} &amp; =f_{11}^{\\,\\prime\\,\\prime}\\cdot 1+f_{12}^{\\,\\prime\\,\\prime}\\cdot (-1)+f_{13}^{\\,\\prime\\,\\prime}\\cdot x+f_{21}^{\\,\\prime\\,\\prime}\\cdot 1+f_{22}^{\\,\\prime\\,\\prime}\\cdot (-1)+f_{23}^{\\,\\prime\\,\\prime}\\cdot x+f_3^{\\,\\prime}+y[f_{31}^{\\,\\prime\\,\\prime}\\cdot 1+f_{32}^{\\,\\prime\\,\\prime}\\cdot (-1)+f_{33}^{\\,\\prime\\,\\prime}\\cdot x]\\\\&amp; =f_3^{\\,\\prime}+f_{11}^{\\,\\prime\\,\\prime}-f_{22}^{\\,\\prime\\,\\prime}+xyf_{33}^{\\,\\prime\\,\\prime}+(x+y)f_{13}^{\\,\\prime\\,\\prime}+(x-y)f_{23}^{\\,\\prime\\,\\prime}\\end{aligned}\">\\begin{aligned}\\frac{\\partial z}{\\partial x} &amp; =f_1^{\\,\\prime}+f_2^{\\,\\prime}+yf_3^{\\,\\prime}\\\\\\frac{\\partial z}{\\partial y} &amp; =f_1^{\\,\\prime}-f_2^{\\,\\prime}+xf_3^{\\,\\prime}\\\\\\frac{\\partial^2 z}{\\partial x\\partial y} &amp; =f_{11}^{\\,\\prime\\,\\prime}\\cdot 1+f_{12}^{\\,\\prime\\,\\prime}\\cdot (-1)+f_{13}^{\\,\\prime\\,\\prime}\\cdot x+f_{21}^{\\,\\prime\\,\\prime}\\cdot 1+f_{22}^{\\,\\prime\\,\\prime}\\cdot (-1)+f_{23}^{\\,\\prime\\,\\prime}\\cdot x+f_3^{\\,\\prime}+y[f_{31}^{\\,\\prime\\,\\prime}\\cdot 1+f_{32}^{\\,\\prime\\,\\prime}\\cdot (-1)+f_{33}^{\\,\\prime\\,\\prime}\\cdot x]\\\\&amp; =f_3^{\\,\\prime}+f_{11}^{\\,\\prime\\,\\prime}-f_{22}^{\\,\\prime\\,\\prime}+xyf_{33}^{\\,\\prime\\,\\prime}+(x+y)f_{13}^{\\,\\prime\\,\\prime}+(x-y)f_{23}^{\\,\\prime\\,\\prime}\\end{aligned}</div>"
     },
     {
       "id": "q0002",
       "number": 2,
       "header": "#2-Averge",
       "difficulty": "Averge",
-      "prompt_html": "<img src=\"/static/generated/assets/advanced-math/ch116/q0002_prompt.png\"/>",
+      "prompt_html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{设}u=f(t)\\text{，而}t=e^{x}+e^{-y}\\text{，}f\\text{具有二阶连续导数，则}\\frac{\\partial^{2}u}{\\partial x^{2}}+\\frac{\\partial^{2}u}{\\partial y^{2}}=()。\">\\text{设}u=f(t)\\text{，而}t=e^{x}+e^{-y}\\text{，}f\\text{具有二阶连续导数，则}\\frac{\\partial^{2}u}{\\partial x^{2}}+\\frac{\\partial^{2}u}{\\partial y^{2}}=()。</span>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch116/q0002_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"(e^{2x} - e^{-2y})f&#x27;&#x27;(t) + (e^{x} - e^{-y})f&#x27;(t)\">(e^{2x} - e^{-2y})f&#x27;&#x27;(t) + (e^{x} - e^{-y})f&#x27;(t)</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch116/q0002_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"(e^{2x}+e^{-2y})f^{\\prime\\prime}(t)+ (e^{x}-e^{-y})f^{\\prime}(t)_{,}\">(e^{2x}+e^{-2y})f^{\\prime\\prime}(t)+ (e^{x}-e^{-y})f^{\\prime}(t)_{,}</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch116/q0002_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"(e^{2x}+e^{-2y})f^{\\prime\\prime}(t)+ (e^{x}+e^{-y})f^{\\prime}(t)_{\\circlearrowleft}\">(e^{2x}+e^{-2y})f^{\\prime\\prime}(t)+ (e^{x}+e^{-y})f^{\\prime}(t)_{\\circlearrowleft}</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch116/q0002_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"(e^{2x} - e^{-2y})f&#x27;&#x27;(t) + (e^{x} + e^{-y})f&#x27;(t)\">(e^{2x} - e^{-2y})f&#x27;&#x27;(t) + (e^{x} + e^{-y})f&#x27;(t)</span>"
         }
       ],
       "answer": "C",
       "answer_index": 2,
-      "analysis_html": "<img src=\"/static/generated/assets/advanced-math/ch116/q0002_analysis.png\"/>"
+      "analysis_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{aligned} &amp; \\frac{\\partial u}{\\partial x} = \\frac{\\partial u}{\\partial t} \\frac{\\partial t}{\\partial x} = f&#x27;(t) e^{x}, \\frac{\\partial u}{\\partial y} = \\frac{\\partial u}{\\partial t} \\frac{\\partial t}{\\partial y} = -f&#x27;(t) e^{-y}_{,} \\\\ &amp; \\frac{\\partial^{2} u}{\\partial x^{2}} = \\frac{\\partial}{\\partial x} \\left( \\frac{\\partial u}{\\partial x} \\right) = f&#x27;&#x27;(t) e^{2x} + f&#x27;(t) e^{x}_{,} \\\\ &amp; \\frac{\\partial^{2} u}{\\partial y^{2}} = \\frac{\\partial}{\\partial y} \\left( \\frac{\\partial u}{\\partial y} \\right) = -f&#x27;&#x27;(t)(-e^{-y})e^{-y} + f&#x27;(t) e^{-y} = f&#x27;&#x27;(t) e^{-2y} + f&#x27;(t) e^{-y}_{,} \\\\ &amp; \\text{则：} \\ \\ \\frac{\\partial^{2} u}{\\partial x^{2}} + \\frac{\\partial^{2} u}{\\partial y^{2}} = (e^{2x} + e^{-2y}) f&#x27;&#x27;(t) + (e^{x} + e^{-y}) f&#x27;(t)_{,} \\end{aligned}\">\\begin{aligned} &amp; \\frac{\\partial u}{\\partial x} = \\frac{\\partial u}{\\partial t} \\frac{\\partial t}{\\partial x} = f&#x27;(t) e^{x}, \\frac{\\partial u}{\\partial y} = \\frac{\\partial u}{\\partial t} \\frac{\\partial t}{\\partial y} = -f&#x27;(t) e^{-y}_{,} \\\\ &amp; \\frac{\\partial^{2} u}{\\partial x^{2}} = \\frac{\\partial}{\\partial x} \\left( \\frac{\\partial u}{\\partial x} \\right) = f&#x27;&#x27;(t) e^{2x} + f&#x27;(t) e^{x}_{,} \\\\ &amp; \\frac{\\partial^{2} u}{\\partial y^{2}} = \\frac{\\partial}{\\partial y} \\left( \\frac{\\partial u}{\\partial y} \\right) = -f&#x27;&#x27;(t)(-e^{-y})e^{-y} + f&#x27;(t) e^{-y} = f&#x27;&#x27;(t) e^{-2y} + f&#x27;(t) e^{-y}_{,} \\\\ &amp; \\text{则：} \\ \\ \\frac{\\partial^{2} u}{\\partial x^{2}} + \\frac{\\partial^{2} u}{\\partial y^{2}} = (e^{2x} + e^{-2y}) f&#x27;&#x27;(t) + (e^{x} + e^{-y}) f&#x27;(t)_{,} \\end{aligned}</div>"
     },
     {
       "id": "q0003",
       "number": 3,
       "header": "#3-Averge",
       "difficulty": "Averge",
-      "prompt_html": "<img src=\"/static/generated/assets/advanced-math/ch116/q0003_prompt.png\"/>",
+      "prompt_html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{设}z=e^{x}+y^{2}+f(x+y)\\,,\\ \\text{且当}y=0\\text{时，}\\ z=x^{3}\\,,\\ \\text{则}\\frac{\\partial z}{\\partial x}=\\left(\\ \\right)\\,.\">\\text{设}z=e^{x}+y^{2}+f(x+y)\\,,\\ \\text{且当}y=0\\text{时，}\\ z=x^{3}\\,,\\ \\text{则}\\frac{\\partial z}{\\partial x}=\\left(\\ \\right)\\,.</span>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch116/q0003_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"e^{x} + 3(x + y)^{2} + e^{x + y}\">e^{x} + 3(x + y)^{2} + e^{x + y}</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch116/q0003_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"e^{x} + 6(x + y) - e^{x + y}\">e^{x} + 6(x + y) - e^{x + y}</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch116/q0003_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\begin{array}{l} { r } { e ^ { x } + 3 ( x + y ) ^ { 2 } - e ^ { x + y } } \\end{array}\">\\begin{array}{l} { r } { e ^ { x } + 3 ( x + y ) ^ { 2 } - e ^ { x + y } } \\end{array}</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch116/q0003_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\begin{array}{l} { r } { e ^ { x } + 6 ( x + y ) + e ^ { x + y } } \\end{array}\">\\begin{array}{l} { r } { e ^ { x } + 6 ( x + y ) + e ^ { x + y } } \\end{array}</span>"
         }
       ],
       "answer": "C",
       "answer_index": 2,
-      "analysis_html": "<img src=\"/static/generated/assets/advanced-math/ch116/q0003_analysis.png\"/>"
+      "analysis_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{aligned}&amp;\\text{在等式中}z=e^{x}+y^{2}+f(x+y)\\text{令}y=0\\text{，得}x^{3}=e^{x}+f(x)\\text{。}\\\\&amp;\\\\&amp;\\text{则}f(x)=x^{3}-e^{x}\\text{，则}z=e^{x}+y^{2}+(x+y)^{3}-e^{x+y}\\text{|}\\\\&amp;\\\\&amp;\\frac{\\partial z}{\\partial x}=e^{x}+3(x+y)^{2}-e^{x+y}\\text{。}\\end{aligned}\">\\begin{aligned}&amp;\\text{在等式中}z=e^{x}+y^{2}+f(x+y)\\text{令}y=0\\text{，得}x^{3}=e^{x}+f(x)\\text{。}\\\\&amp;\\\\&amp;\\text{则}f(x)=x^{3}-e^{x}\\text{，则}z=e^{x}+y^{2}+(x+y)^{3}-e^{x+y}\\text{|}\\\\&amp;\\\\&amp;\\frac{\\partial z}{\\partial x}=e^{x}+3(x+y)^{2}-e^{x+y}\\text{。}\\end{aligned}</div>"
     },
     {
       "id": "q0004",
       "number": 4,
       "header": "#4-Averge",
       "difficulty": "Averge",
-      "prompt_html": "<img src=\"/static/generated/assets/advanced-math/ch116/q0004_prompt.png\"/>",
+      "prompt_html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{设}u=f(x,y,z)\\,,\\,\\,\\text{而}y=g(x,t),t=h(x,z)\\,,\\,\\,\\text{各函数均有连续偏导数，求}\\frac{\\partial u}{\\partial x},\\frac{\\partial u}{\\partial z}=\\left(\\,\\right)\\,。\">\\text{设}u=f(x,y,z)\\,,\\,\\,\\text{而}y=g(x,t),t=h(x,z)\\,,\\,\\,\\text{各函数均有连续偏导数，求}\\frac{\\partial u}{\\partial x},\\frac{\\partial u}{\\partial z}=\\left(\\,\\right)\\,。</span>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch116/q0004_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\begin{array}{l} { c } f _ { 1 } ^ { \\prime } + f _ { 2 } ^ { \\prime } ( g _ { 1 } ^ { \\prime } + g _ { 2 } ^ { \\prime } h _ { 1 } ^ { \\prime } ) \\; , \\quad f _ { 2 } ^ { \\prime } g _ { 2 } ^ { \\prime } h _ { 2 } ^ { \\prime } - f _ { 3 } ^ { \\prime } \\end{array}\">\\begin{array}{l} { c } f _ { 1 } ^ { \\prime } + f _ { 2 } ^ { \\prime } ( g _ { 1 } ^ { \\prime } + g _ { 2 } ^ { \\prime } h _ { 1 } ^ { \\prime } ) \\; , \\quad f _ { 2 } ^ { \\prime } g _ { 2 } ^ { \\prime } h _ { 2 } ^ { \\prime } - f _ { 3 } ^ { \\prime } \\end{array}</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch116/q0004_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\begin{aligned}f_1&#x27; + f_2&#x27; g_1&#x27; + g_2&#x27; h_1&#x27; \\; , \\; \\; \\; f_2&#x27; g_2&#x27; h_2&#x27; + f_3&#x27;\\end{aligned}\">\\begin{aligned}f_1&#x27; + f_2&#x27; g_1&#x27; + g_2&#x27; h_1&#x27; \\; , \\; \\; \\; f_2&#x27; g_2&#x27; h_2&#x27; + f_3&#x27;\\end{aligned}</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch116/q0004_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\begin{array}{ll}f_{1}^{\\prime}+f_{2}^{\\prime}(g_{1}^{\\prime}+g_{2}^{\\prime}h_{1}^{\\prime})\\,, &amp; f_{2}^{\\prime}g_{2}^{\\prime}h_{2}^{\\prime}+f_{3}^{\\prime}\\end{array}\">\\begin{array}{ll}f_{1}^{\\prime}+f_{2}^{\\prime}(g_{1}^{\\prime}+g_{2}^{\\prime}h_{1}^{\\prime})\\,, &amp; f_{2}^{\\prime}g_{2}^{\\prime}h_{2}^{\\prime}+f_{3}^{\\prime}\\end{array}</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch116/q0004_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\begin{array}{l} {c} f _ { 2 } ^ { \\prime } ( g _ { 1 } ^ { \\prime } + g _ { 2 } ^ { \\prime } h _ { 1 } ^ { \\prime } ) \\; , \\quad f _ { 2 } ^ { \\prime } g _ { 2 } ^ { \\prime } h _ { 2 } ^ { \\prime } + f _ { 3 } ^ { \\prime } \\end{array}\">\\begin{array}{l} {c} f _ { 2 } ^ { \\prime } ( g _ { 1 } ^ { \\prime } + g _ { 2 } ^ { \\prime } h _ { 1 } ^ { \\prime } ) \\; , \\quad f _ { 2 } ^ { \\prime } g _ { 2 } ^ { \\prime } h _ { 2 } ^ { \\prime } + f _ { 3 } ^ { \\prime } \\end{array}</span>"
         }
       ],
       "answer": "C",
       "answer_index": 2,
-      "analysis_html": "<img src=\"/static/generated/assets/advanced-math/ch116/q0004_analysis.png\"/>"
+      "analysis_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{aligned}\\frac{\\partial u}{\\partial x}&amp;=\\frac{\\partial f}{\\partial x}+\\frac{\\partial f}{\\partial y}\\frac{\\partial y}{\\partial x}=\\frac{\\partial f}{\\partial x}+\\frac{\\partial z}{\\partial y}(\\frac{\\partial g}{\\partial x}+\\frac{\\partial g}{\\partial t}\\frac{\\partial h}{\\partial x})=f_1&#x27;+f_2&#x27;(g_1&#x27;+g_2&#x27;h_1&#x27;)\\\\\\frac{\\partial u}{\\partial z}&amp;=\\frac{\\partial f}{\\partial y}\\frac{\\partial y}{\\partial z}+\\frac{\\partial f}{\\partial z}=\\frac{\\partial f}{\\partial y}\\frac{\\partial g}{\\partial t}\\frac{\\partial h}{\\partial z}+\\frac{\\partial f}{\\partial z}=f_2&#x27;g_2&#x27;h_2&#x27;+f_3&#x27;\\end{aligned}\">\\begin{aligned}\\frac{\\partial u}{\\partial x}&amp;=\\frac{\\partial f}{\\partial x}+\\frac{\\partial f}{\\partial y}\\frac{\\partial y}{\\partial x}=\\frac{\\partial f}{\\partial x}+\\frac{\\partial z}{\\partial y}(\\frac{\\partial g}{\\partial x}+\\frac{\\partial g}{\\partial t}\\frac{\\partial h}{\\partial x})=f_1&#x27;+f_2&#x27;(g_1&#x27;+g_2&#x27;h_1&#x27;)\\\\\\frac{\\partial u}{\\partial z}&amp;=\\frac{\\partial f}{\\partial y}\\frac{\\partial y}{\\partial z}+\\frac{\\partial f}{\\partial z}=\\frac{\\partial f}{\\partial y}\\frac{\\partial g}{\\partial t}\\frac{\\partial h}{\\partial z}+\\frac{\\partial f}{\\partial z}=f_2&#x27;g_2&#x27;h_2&#x27;+f_3&#x27;\\end{aligned}</div>"
     },
     {
       "id": "q0005",
       "number": 5,
       "header": "#5-Averge",
       "difficulty": "Averge",
-      "prompt_html": "<img src=\"/static/generated/assets/advanced-math/ch116/q0005_prompt.png\"/>",
+      "prompt_html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{设}z=x\\cdot f(x^{2}+y^{2})\\,,\\ \\text{求}\\frac{\\partial z}{\\partial x}=\\left(\\ \\right)\\,.\">\\text{设}z=x\\cdot f(x^{2}+y^{2})\\,,\\ \\text{求}\\frac{\\partial z}{\\partial x}=\\left(\\ \\right)\\,.</span>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch116/q0005_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\begin{aligned}f(x^2+y^2)+2xf&#x27;(x^2+y^2)\\end{aligned}\">\\begin{aligned}f(x^2+y^2)+2xf&#x27;(x^2+y^2)\\end{aligned}</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch116/q0005_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\begin{aligned}f(x^{2}+y^{2})+2x^{2}f^{\\prime}(x^{2}+y^{2})\\,_{\\leftarrow}\\end{aligned}\">\\begin{aligned}f(x^{2}+y^{2})+2x^{2}f^{\\prime}(x^{2}+y^{2})\\,_{\\leftarrow}\\end{aligned}</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch116/q0005_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\begin{aligned}xf(x^2+y^2)+2x^2f&#x27;(x^2+y^2)\\end{aligned}\">\\begin{aligned}xf(x^2+y^2)+2x^2f&#x27;(x^2+y^2)\\end{aligned}</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch116/q0005_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\begin{aligned} yf(x^{2}+y^{2})+2x^{2}f^{\\prime}(x^{2}+y^{2})\\, \\tiny\\leftarrow \\end{aligned}\">\\begin{aligned} yf(x^{2}+y^{2})+2x^{2}f^{\\prime}(x^{2}+y^{2})\\, \\tiny\\leftarrow \\end{aligned}</span>"
         }
       ],
       "answer": "B",
       "answer_index": 1,
-      "analysis_html": "<img src=\"/static/generated/assets/advanced-math/ch116/q0005_analysis.png\"/>"
+      "analysis_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{aligned}\\frac{\\partial z}{\\partial x} &amp; =f(x^{2}+y^{2})+x\\cdot \\frac{\\partial f(x^{2}+y^{2})}{\\partial x}=f(x^{2}+y^{2})+x\\cdot 2xf^{\\prime}(x^{2}+y^{2})\\\\&amp; \\\\&amp; =f(x^{2}+y^{2})+2x^{2}f^{\\prime}(x^{2}+y^{2})\\end{aligned}\">\\begin{aligned}\\frac{\\partial z}{\\partial x} &amp; =f(x^{2}+y^{2})+x\\cdot \\frac{\\partial f(x^{2}+y^{2})}{\\partial x}=f(x^{2}+y^{2})+x\\cdot 2xf^{\\prime}(x^{2}+y^{2})\\\\&amp; \\\\&amp; =f(x^{2}+y^{2})+2x^{2}f^{\\prime}(x^{2}+y^{2})\\end{aligned}</div>"
     },
     {
       "id": "q0006",
       "number": 6,
       "header": "#6-Averge",
       "difficulty": "Averge",
-      "prompt_html": "<img src=\"/static/generated/assets/advanced-math/ch116/q0006_prompt.png\"/>",
+      "prompt_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{array}{l} \\text {设}f(u,v) \\text {具有二阶连续偏导数，且满足} \\frac{\\partial^{2}f}{\\partial u^{2}}+\\frac{\\partial^{2}f}{\\partial v^{2}}=1，\\text{又}g(x,y)=f\\left[xy,\\frac{1}{2}(x^{2}-y^{2})\\right], \\text {求} \\\\ \\\\ \\frac{\\partial^{2}g}{\\partial x^{2}}+\\frac{\\partial^{2}g}{\\partial y^{2}}=()。 \\end{array}\">\\begin{array}{l} \\text {设}f(u,v) \\text {具有二阶连续偏导数，且满足} \\frac{\\partial^{2}f}{\\partial u^{2}}+\\frac{\\partial^{2}f}{\\partial v^{2}}=1，\\text{又}g(x,y)=f\\left[xy,\\frac{1}{2}(x^{2}-y^{2})\\right], \\text {求} \\\\ \\\\ \\frac{\\partial^{2}g}{\\partial x^{2}}+\\frac{\\partial^{2}g}{\\partial y^{2}}=()。 \\end{array}</div>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch116/q0006_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"2 y ^ { 2 } \\leftarrow\">2 y ^ { 2 } \\leftarrow</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch116/q0006_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"x^{2}+y^{2}\">x^{2}+y^{2}</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch116/q0006_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"2x^{2}\">2x^{2}</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch116/q0006_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"x^{2} - y^{2}\">x^{2} - y^{2}</span>"
         }
       ],
       "answer": "B",
       "answer_index": 1,
-      "analysis_html": "<img src=\"/static/generated/assets/advanced-math/ch116/q0006_analysis.png\"/>"
+      "analysis_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{aligned} \\text{本题是典型的复合函数求偏导问题：}\\quad&amp; g=f(u,v),\\quad u=xy,v=\\frac{1}{2}(x^{2}-y^{2}),\\ \\text{直接利用复合函数}\\\\ \\text{求偏导公式即可，注意利用}\\frac{\\partial^{2}f}{\\partial u\\partial v}=\\frac{\\partial^{2}f}{\\partial v\\partial u}.\\\\ \\frac{\\partial g}{\\partial x}&amp;=y\\frac{\\partial f}{\\partial u}+x\\frac{\\partial f}{\\partial v},\\quad\\frac{\\partial g}{\\partial y}=x\\frac{\\partial f}{\\partial u}-y\\frac{\\partial f}{\\partial v}.\\\\ \\text{故}\\ \\frac{\\partial^{2}g}{\\partial x^{2}}&amp;=y^{2}\\frac{\\partial^{2}f}{\\partial u^{2}}+2xy\\frac{\\partial^{2}f}{\\partial u\\partial v}+x^{2}\\frac{\\partial^{2}f}{\\partial v^{2}}+\\frac{\\partial f}{\\partial v}\\\\ \\frac{\\partial^{2}g}{\\partial y^{2}}&amp;=x^{2}\\frac{\\partial^{2}f}{\\partial u^{2}}-2xy\\frac{\\partial^{2}f}{\\partial v\\partial u}+y^{2}\\frac{\\partial^{2}f}{\\partial v^{2}}-\\frac{\\partial f}{\\partial v}.\\\\ \\text{所以}\\ \\frac{\\partial^{2}g}{\\partial x^{2}}+\\frac{\\partial^{2}g}{\\partial y^{2}}&amp;=(x^{2}+y^{2})\\frac{\\partial^{2}f}{\\partial u^{2}}+(x^{2}+y^{2})\\frac{\\partial^{2}f}{\\partial v^{2}}\\\\ &amp;=x^{2}+y^{2}. \\end{aligned}\">\\begin{aligned} \\text{本题是典型的复合函数求偏导问题：}\\quad&amp; g=f(u,v),\\quad u=xy,v=\\frac{1}{2}(x^{2}-y^{2}),\\ \\text{直接利用复合函数}\\\\ \\text{求偏导公式即可，注意利用}\\frac{\\partial^{2}f}{\\partial u\\partial v}=\\frac{\\partial^{2}f}{\\partial v\\partial u}.\\\\ \\frac{\\partial g}{\\partial x}&amp;=y\\frac{\\partial f}{\\partial u}+x\\frac{\\partial f}{\\partial v},\\quad\\frac{\\partial g}{\\partial y}=x\\frac{\\partial f}{\\partial u}-y\\frac{\\partial f}{\\partial v}.\\\\ \\text{故}\\ \\frac{\\partial^{2}g}{\\partial x^{2}}&amp;=y^{2}\\frac{\\partial^{2}f}{\\partial u^{2}}+2xy\\frac{\\partial^{2}f}{\\partial u\\partial v}+x^{2}\\frac{\\partial^{2}f}{\\partial v^{2}}+\\frac{\\partial f}{\\partial v}\\\\ \\frac{\\partial^{2}g}{\\partial y^{2}}&amp;=x^{2}\\frac{\\partial^{2}f}{\\partial u^{2}}-2xy\\frac{\\partial^{2}f}{\\partial v\\partial u}+y^{2}\\frac{\\partial^{2}f}{\\partial v^{2}}-\\frac{\\partial f}{\\partial v}.\\\\ \\text{所以}\\ \\frac{\\partial^{2}g}{\\partial x^{2}}+\\frac{\\partial^{2}g}{\\partial y^{2}}&amp;=(x^{2}+y^{2})\\frac{\\partial^{2}f}{\\partial u^{2}}+(x^{2}+y^{2})\\frac{\\partial^{2}f}{\\partial v^{2}}\\\\ &amp;=x^{2}+y^{2}. \\end{aligned}</div>"
     },
     {
       "id": "q0007",
       "number": 7,
       "header": "#7-Averge",
       "difficulty": "Averge",
-      "prompt_html": "<img src=\"/static/generated/assets/advanced-math/ch116/q0007_prompt.png\"/>",
+      "prompt_html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{已知} \\frac{ (x+ay)dx+ydy}{(x+y)^{2}} \\text{为某函数的全微分, 则} c \\text{等于( )。}\">\\text{已知} \\frac{ (x+ay)dx+ydy}{(x+y)^{2}} \\text{为某函数的全微分, 则} c \\text{等于( )。}</span>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch116/q0007_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\boldsymbol { 0 }\">\\boldsymbol { 0 }</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch116/q0007_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\textbf { 1 }\">\\textbf { 1 }</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch116/q0007_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\mathbf { 2 } _ { \\leftarrow }\">\\mathbf { 2 } _ { \\leftarrow }</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch116/q0007_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"- 1\">- 1</span>"
         }
       ],
       "answer": "C",
       "answer_index": 2,
-      "analysis_html": "<img src=\"/static/generated/assets/advanced-math/ch116/q0007_analysis.png\"/>"
+      "analysis_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{aligned} &amp; \\text{由于存在函数} u(x,y), \\text{使得} \\ \\ \\partial u = \\frac{(x+ay)dx}{(x+y)^2} + \\frac{ydy}{(x+y)^2}, \\\\ &amp; \\text{由可微与可偏导的关系, 知} \\ \\frac{\\partial u}{\\partial x} = \\frac{x+ay}{(x+y)^2}, \\ \\frac{\\partial u}{\\partial y} = \\frac{y}{(x+y)^2}, \\\\ &amp; \\text{分别对} y,x \\text{求偏导数, 得} \\\\ &amp; \\frac{\\partial^2 u}{\\partial x \\partial y} = \\frac{a(x+y)^2-(x+ay)\\cdot 2(x+y)}{(x+y)^4} = \\frac{(a-2)x-ay}{(x+y)^3}, \\ \\frac{\\partial^2 u}{\\partial y \\partial x} = \\frac{-2y}{(x+y)^3}. \\\\ &amp; \\text{由于} \\frac{\\partial^2 u}{\\partial y \\partial x} \\text{与} \\frac{\\partial^2 u}{\\partial x \\partial y} \\text{连续, 所以} \\frac{\\partial^2 u}{\\partial y \\partial x} = \\frac{\\partial^2 u}{\\partial x \\partial y}, \\text{即} \\\\ &amp; \\frac{(a-2)x-ay}{(x+y)^3} = \\frac{-2y}{(x+y)^3} \\Rightarrow a = 2, \\end{aligned}\">\\begin{aligned} &amp; \\text{由于存在函数} u(x,y), \\text{使得} \\ \\ \\partial u = \\frac{(x+ay)dx}{(x+y)^2} + \\frac{ydy}{(x+y)^2}, \\\\ &amp; \\text{由可微与可偏导的关系, 知} \\ \\frac{\\partial u}{\\partial x} = \\frac{x+ay}{(x+y)^2}, \\ \\frac{\\partial u}{\\partial y} = \\frac{y}{(x+y)^2}, \\\\ &amp; \\text{分别对} y,x \\text{求偏导数, 得} \\\\ &amp; \\frac{\\partial^2 u}{\\partial x \\partial y} = \\frac{a(x+y)^2-(x+ay)\\cdot 2(x+y)}{(x+y)^4} = \\frac{(a-2)x-ay}{(x+y)^3}, \\ \\frac{\\partial^2 u}{\\partial y \\partial x} = \\frac{-2y}{(x+y)^3}. \\\\ &amp; \\text{由于} \\frac{\\partial^2 u}{\\partial y \\partial x} \\text{与} \\frac{\\partial^2 u}{\\partial x \\partial y} \\text{连续, 所以} \\frac{\\partial^2 u}{\\partial y \\partial x} = \\frac{\\partial^2 u}{\\partial x \\partial y}, \\text{即} \\\\ &amp; \\frac{(a-2)x-ay}{(x+y)^3} = \\frac{-2y}{(x+y)^3} \\Rightarrow a = 2, \\end{aligned}</div>"
     },
     {
       "id": "q0008",
       "number": 8,
       "header": "#8-Averge",
       "difficulty": "Averge",
-      "prompt_html": "<img src=\"/static/generated/assets/advanced-math/ch116/q0008_prompt.png\"/>",
+      "prompt_html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{设} \\, w = e ^ { x } \\sin y , x = uv , y = u + v \\, , \\, \\, \\text{求} \\, \\frac { \\partial w } { \\partial v } = \\left( \\, \\, \\right) _ { v }\">\\text{设} \\, w = e ^ { x } \\sin y , x = uv , y = u + v \\, , \\, \\, \\text{求} \\, \\frac { \\partial w } { \\partial v } = \\left( \\, \\, \\right) _ { v }</span>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch116/q0008_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\, u e ^ { x } \\sin y + e ^ { x } \\cos y \\,\">\\, u e ^ { x } \\sin y + e ^ { x } \\cos y \\,</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch116/q0008_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\begin{array}{l} {l} u e ^ { x } \\cos y + e ^ { x } \\sin y \\end{array} ,\">\\begin{array}{l} {l} u e ^ { x } \\cos y + e ^ { x } \\sin y \\end{array} ,</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch116/q0008_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\begin{array}{l} { l } u e ^ { x } \\sin y + \\cos y \\end{array} \\leftarrow\">\\begin{array}{l} { l } u e ^ { x } \\sin y + \\cos y \\end{array} \\leftarrow</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch116/q0008_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\begin{aligned}e^x \\sin y + e^x \\cos y\\end{aligned}\">\\begin{aligned}e^x \\sin y + e^x \\cos y\\end{aligned}</span>"
         }
       ],
       "answer": "A",
       "answer_index": 0,
-      "analysis_html": "<img src=\"/static/generated/assets/advanced-math/ch116/q0008_analysis.png\"/>"
+      "analysis_html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\frac { \\partial w } { \\partial v } = \\frac { \\partial w } { \\partial x } \\cdot \\frac { \\partial x } { \\partial v } + \\frac { \\partial w } { \\partial y } \\cdot \\frac { \\partial y } { \\partial v } = u e ^ { x } \\sin y + e ^ { x } \\cos y\">\\frac { \\partial w } { \\partial v } = \\frac { \\partial w } { \\partial x } \\cdot \\frac { \\partial x } { \\partial v } + \\frac { \\partial w } { \\partial y } \\cdot \\frac { \\partial y } { \\partial v } = u e ^ { x } \\sin y + e ^ { x } \\cos y</span>"
     },
     {
       "id": "q0009",
       "number": 9,
       "header": "#9-Averge",
       "difficulty": "Averge",
-      "prompt_html": "<img src=\"/static/generated/assets/advanced-math/ch116/q0009_prompt.png\"/>",
+      "prompt_html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{设抽象函数}z=f(x^{2}-y^{2},e^{xy})，\\text{其中}f\\text{偏导数连续}，\\text{求} \\frac{\\partial z}{\\partial x}=(\\quad)\">\\text{设抽象函数}z=f(x^{2}-y^{2},e^{xy})，\\text{其中}f\\text{偏导数连续}，\\text{求} \\frac{\\partial z}{\\partial x}=(\\quad)</span>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch116/q0009_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\begin{array}{l} { r } { x f _ { 1 } ^ { \\prime } + y e ^ { x y } f _ { 2 } ^ { \\prime } } \\end{array}\">\\begin{array}{l} { r } { x f _ { 1 } ^ { \\prime } + y e ^ { x y } f _ { 2 } ^ { \\prime } } \\end{array}</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch116/q0009_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\begin{aligned}2xf_1^{\\prime}+xe^{xy}f_2^{\\prime}\\end{aligned}\">\\begin{aligned}2xf_1^{\\prime}+xe^{xy}f_2^{\\prime}\\end{aligned}</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch116/q0009_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\begin{aligned}2xf_1&#x27; + ye^{xy}f_2&#x27;\\end{aligned}\">\\begin{aligned}2xf_1&#x27; + ye^{xy}f_2&#x27;\\end{aligned}</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch116/q0009_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"xf_{1}^{\\prime}-ye^{xy}f_{2}^{\\prime}\">xf_{1}^{\\prime}-ye^{xy}f_{2}^{\\prime}</span>"
         }
       ],
       "answer": "C",
       "answer_index": 2,
-      "analysis_html": "<img src=\"/static/generated/assets/advanced-math/ch116/q0009_analysis.png\"/>"
+      "analysis_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{aligned}\\frac{\\partial z}{\\partial x} &amp; = \\frac{\\partial z}{\\partial u} \\frac{\\partial u}{\\partial x} + \\frac{\\partial z}{\\partial v} \\frac{\\partial v}{\\partial x} \\, , \\ \\ \\text{其中} \\ u = x^2 - y^2 \\, , \\ \\ v = e^{xy} \\, , \\ \\ \\\\&amp; = f_1&#x27; \\cdot 2x + f_2&#x27; \\cdot xe^{xy} = 2xf_1&#x27; + ye^{xy} f_2&#x27;\\, .\\end{aligned}\">\\begin{aligned}\\frac{\\partial z}{\\partial x} &amp; = \\frac{\\partial z}{\\partial u} \\frac{\\partial u}{\\partial x} + \\frac{\\partial z}{\\partial v} \\frac{\\partial v}{\\partial x} \\, , \\ \\ \\text{其中} \\ u = x^2 - y^2 \\, , \\ \\ v = e^{xy} \\, , \\ \\ \\\\&amp; = f_1&#x27; \\cdot 2x + f_2&#x27; \\cdot xe^{xy} = 2xf_1&#x27; + ye^{xy} f_2&#x27;\\, .\\end{aligned}</div>"
     },
     {
       "id": "q0010",
       "number": 10,
       "header": "#10-Averge",
       "difficulty": "Averge",
-      "prompt_html": "<img src=\"/static/generated/assets/advanced-math/ch116/q0010_prompt.png\"/>",
+      "prompt_html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{设}z=\\ln(\\sqrt{x}+\\sqrt{y})，\\text{则}x\\frac{\\partial z}{\\partial x}+y\\frac{\\partial z}{\\partial y}=\\left(\\right)\">\\text{设}z=\\ln(\\sqrt{x}+\\sqrt{y})，\\text{则}x\\frac{\\partial z}{\\partial x}+y\\frac{\\partial z}{\\partial y}=\\left(\\right)</span>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch116/q0010_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\frac{1}{2}\">\\frac{1}{2}</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch116/q0010_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\mathbf { 1 }\">\\mathbf { 1 }</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch116/q0010_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"^ { - 1 }\">^ { - 1 }</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch116/q0010_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\mathbf { 0 } _ { \\leftarrow }\">\\mathbf { 0 } _ { \\leftarrow }</span>"
         }
       ],
       "answer": "A",
       "answer_index": 0,
-      "analysis_html": "<img src=\"/static/generated/assets/advanced-math/ch116/q0010_analysis.png\"/>"
+      "analysis_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{aligned} \\frac{\\partial z}{\\partial x} &amp; = \\frac{1}{2\\sqrt{x}(\\sqrt{x}+\\sqrt{y})}\\,,\\;\\;\\frac{\\partial z}{\\partial y} = \\frac{1}{2\\sqrt{y}(\\sqrt{x}+\\sqrt{y})}\\, , \\\\ x\\frac{\\partial z}{\\partial x} + y\\frac{\\partial z}{\\partial y} &amp; = \\frac{x}{2\\sqrt{x}(\\sqrt{x}+\\sqrt{y})} + \\frac{y}{2\\sqrt{y}(\\sqrt{x}+\\sqrt{y})} = \\frac{1}{2}\\, . \\end{aligned}\">\\begin{aligned} \\frac{\\partial z}{\\partial x} &amp; = \\frac{1}{2\\sqrt{x}(\\sqrt{x}+\\sqrt{y})}\\,,\\;\\;\\frac{\\partial z}{\\partial y} = \\frac{1}{2\\sqrt{y}(\\sqrt{x}+\\sqrt{y})}\\, , \\\\ x\\frac{\\partial z}{\\partial x} + y\\frac{\\partial z}{\\partial y} &amp; = \\frac{x}{2\\sqrt{x}(\\sqrt{x}+\\sqrt{y})} + \\frac{y}{2\\sqrt{y}(\\sqrt{x}+\\sqrt{y})} = \\frac{1}{2}\\, . \\end{aligned}</div>"
     },
     {
       "id": "q0011",
       "number": 11,
       "header": "#11-Averge",
       "difficulty": "Averge",
-      "prompt_html": "<img src=\"/static/generated/assets/advanced-math/ch116/q0011_prompt.png\"/>",
+      "prompt_html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{设}w=u^{v},u=x+y,v=xy,\\ \\text{求} \\frac{\\partial w}{\\partial x}=\\left(\\right)_{v}\">\\text{设}w=u^{v},u=x+y,v=xy,\\ \\text{求} \\frac{\\partial w}{\\partial x}=\\left(\\right)_{v}</span>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch116/q0011_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\begin{aligned}xy(x+y)^{xy-1}+x(x+y)^{xy}\\ln(x+y)\\,.\\end{aligned}\">\\begin{aligned}xy(x+y)^{xy-1}+x(x+y)^{xy}\\ln(x+y)\\,.\\end{aligned}</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch116/q0011_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\begin{aligned}xy(x+y)^{xy-1}+y(x+y)^{y-1}\\ln(x+y)\\end{aligned}\">\\begin{aligned}xy(x+y)^{xy-1}+y(x+y)^{y-1}\\ln(x+y)\\end{aligned}</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch116/q0011_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\begin{aligned}xy(x+y)^{xy-1}+y(x+y)^{xy}\\ln(x+y)\\end{aligned}\">\\begin{aligned}xy(x+y)^{xy-1}+y(x+y)^{xy}\\ln(x+y)\\end{aligned}</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch116/q0011_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\begin{aligned}xy(x+y)^{xy-1}+y(x+y)^{xy}\\ln(x-y)\\,  \\tiny\\leftarrow \\end{aligned}\">\\begin{aligned}xy(x+y)^{xy-1}+y(x+y)^{xy}\\ln(x-y)\\,  \\tiny\\leftarrow \\end{aligned}</span>"
         }
       ],
       "answer": "C",
       "answer_index": 2,
-      "analysis_html": "<img src=\"/static/generated/assets/advanced-math/ch116/q0011_analysis.png\"/>"
+      "analysis_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{aligned}&amp;\\text{用复合函数的求导法则：}\\ \\frac{\\partial w}{\\partial x}=\\frac{\\partial w}{\\partial u}\\cdot\\frac{\\partial u}{\\partial x}+\\frac{\\partial w}{\\partial v}\\cdot\\frac{\\partial v}{\\partial x}=vu^{v-1}\\cdot 1+y\\cdot u^{v}\\cdot \\ln u\\enspace,\\\\&amp;\\text{即有}xy(x+y)^{xy-1}+y(x+y)^{xy}\\ln(x+y)\\enspace.\\end{aligned}\">\\begin{aligned}&amp;\\text{用复合函数的求导法则：}\\ \\frac{\\partial w}{\\partial x}=\\frac{\\partial w}{\\partial u}\\cdot\\frac{\\partial u}{\\partial x}+\\frac{\\partial w}{\\partial v}\\cdot\\frac{\\partial v}{\\partial x}=vu^{v-1}\\cdot 1+y\\cdot u^{v}\\cdot \\ln u\\enspace,\\\\&amp;\\text{即有}xy(x+y)^{xy-1}+y(x+y)^{xy}\\ln(x+y)\\enspace.\\end{aligned}</div>"
     },
     {
       "id": "q0012",
       "number": 12,
       "header": "#12-Averge",
       "difficulty": "Averge",
-      "prompt_html": "<img src=\"/static/generated/assets/advanced-math/ch116/q0012_prompt.png\"/>",
+      "prompt_html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{设}z=f(\\ln x+\\frac{1}{y}), \\text{其中函数}f(u)\\text{可微，则}x\\frac{\\partial z}{\\partial x}+y^{2}\\frac{\\partial z}{\\partial y}=(\\quad)_{x}\">\\text{设}z=f(\\ln x+\\frac{1}{y}), \\text{其中函数}f(u)\\text{可微，则}x\\frac{\\partial z}{\\partial x}+y^{2}\\frac{\\partial z}{\\partial y}=(\\quad)_{x}</span>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch116/q0012_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"0\">0</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch116/q0012_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"2f^{\\prime}\">2f^{\\prime}</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch116/q0012_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"- f ^ { \\prime }\">- f ^ { \\prime }</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch116/q0012_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"f ^ { \\prime }\">f ^ { \\prime }</span>"
         }
       ],
       "answer": "A",
       "answer_index": 0,
-      "analysis_html": "<img src=\"/static/generated/assets/advanced-math/ch116/q0012_analysis.png\"/>"
+      "analysis_html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{因为} \\frac { \\partial z } { \\partial x } = f ^ { \\prime } \\cdot \\frac { 1 } { x } , \\frac { \\partial z } { \\partial y } = f ^ { \\prime } \\cdot \\left( - \\frac { 1 } { y ^ { 2 } } \\right) , \\ \\text{所以} \\ x \\frac { \\partial z } { \\partial x } + y ^ { 2 } \\frac { \\partial z } { \\partial y } = 0 . _ { \\omega }\">\\text{因为} \\frac { \\partial z } { \\partial x } = f ^ { \\prime } \\cdot \\frac { 1 } { x } , \\frac { \\partial z } { \\partial y } = f ^ { \\prime } \\cdot \\left( - \\frac { 1 } { y ^ { 2 } } \\right) , \\ \\text{所以} \\ x \\frac { \\partial z } { \\partial x } + y ^ { 2 } \\frac { \\partial z } { \\partial y } = 0 . _ { \\omega }</span>"
     },
     {
       "id": "q0013",
       "number": 13,
       "header": "#13-Averge",
       "difficulty": "Averge",
-      "prompt_html": "<img src=\"/static/generated/assets/advanced-math/ch116/q0013_prompt.png\"/>",
+      "prompt_html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{设}z=x^{2}f(xy,\\frac{y}{x})，f\\text{具有二阶连续偏导数，求}\\frac{\\partial^{2}z}{\\partial x\\partial y}=()。\">\\text{设}z=x^{2}f(xy,\\frac{y}{x})，f\\text{具有二阶连续偏导数，求}\\frac{\\partial^{2}z}{\\partial x\\partial y}=()。</span>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch116/q0013_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\begin{aligned}3x^{2}f_{1}^{\\prime }-f_{2}^{\\prime }+x^{3}yf_{11}^{\\prime \\prime }+\\frac{y}{x}f_{22}^{\\prime \\prime }\\end{aligned}\">\\begin{aligned}3x^{2}f_{1}^{\\prime }-f_{2}^{\\prime }+x^{3}yf_{11}^{\\prime \\prime }+\\frac{y}{x}f_{22}^{\\prime \\prime }\\end{aligned}</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch116/q0013_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\, 3 x ^ { 2 } f _ { 1 } ^ { \\prime } + f _ { 2 } ^ { \\prime } + x ^ { 3 } y f _ { 22 } ^ { \\prime \\prime } + \\frac { y } { x } f _ { 11 } ^ { \\prime \\prime } \\, ,\">\\, 3 x ^ { 2 } f _ { 1 } ^ { \\prime } + f _ { 2 } ^ { \\prime } + x ^ { 3 } y f _ { 22 } ^ { \\prime \\prime } + \\frac { y } { x } f _ { 11 } ^ { \\prime \\prime } \\, ,</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch116/q0013_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\, 3 x ^ { 2 } f _ { 1 } ^ { \\prime } + f _ { 2 } ^ { \\prime } + x ^ { 3 } y f _ { 11 } ^ { \\prime \\prime } - \\frac { y } { x } f _ { 22 } ^ { \\prime \\prime }\">\\, 3 x ^ { 2 } f _ { 1 } ^ { \\prime } + f _ { 2 } ^ { \\prime } + x ^ { 3 } y f _ { 11 } ^ { \\prime \\prime } - \\frac { y } { x } f _ { 22 } ^ { \\prime \\prime }</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch116/q0013_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\,6x^{2}f_{1}^{\\prime}+f_{2}^{\\prime}+x^{3}yf_{11}^{\\prime\\prime}-\\frac{y}{x}f_{22}^{\\prime\\prime}\\,^{\\leftrightarrow}\">\\,6x^{2}f_{1}^{\\prime}+f_{2}^{\\prime}+x^{3}yf_{11}^{\\prime\\prime}-\\frac{y}{x}f_{22}^{\\prime\\prime}\\,^{\\leftrightarrow}</span>"
         }
       ],
       "answer": "C",
       "answer_index": 2,
-      "analysis_html": "<img src=\"/static/generated/assets/advanced-math/ch116/q0013_analysis.png\"/>"
+      "analysis_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{aligned} &amp; \\frac{\\partial z}{\\partial y} = x^2 (xf_1 + \\frac{1}{x}f_2) = x^3 f_1&#x27; + x f_2&#x27; \\circ \\\\ &amp; \\\\ &amp; \\frac{\\partial^2 z}{\\partial x \\partial y} = 3 x^2 f_1&#x27; + x^3 (f_{11}&#x27;&#x27; y - \\frac{y}{x^2} f_{12}&#x27;&#x27; ) + f_2&#x27; + x (f_{21}&#x27;&#x27; y - \\frac{y}{x^2} f_{22}&#x27;&#x27; ) = 3 x^2 f_1&#x27; + f_2&#x27; + x^3 y f_{11}&#x27;&#x27; - \\frac{y}{x} f_{22}&#x27;&#x27; \\circ \\end{aligned}\">\\begin{aligned} &amp; \\frac{\\partial z}{\\partial y} = x^2 (xf_1 + \\frac{1}{x}f_2) = x^3 f_1&#x27; + x f_2&#x27; \\circ \\\\ &amp; \\\\ &amp; \\frac{\\partial^2 z}{\\partial x \\partial y} = 3 x^2 f_1&#x27; + x^3 (f_{11}&#x27;&#x27; y - \\frac{y}{x^2} f_{12}&#x27;&#x27; ) + f_2&#x27; + x (f_{21}&#x27;&#x27; y - \\frac{y}{x^2} f_{22}&#x27;&#x27; ) = 3 x^2 f_1&#x27; + f_2&#x27; + x^3 y f_{11}&#x27;&#x27; - \\frac{y}{x} f_{22}&#x27;&#x27; \\circ \\end{aligned}</div>"
     },
     {
       "id": "q0014",
       "number": 14,
       "header": "#14-Averge",
       "difficulty": "Averge",
-      "prompt_html": "<img src=\"/static/generated/assets/advanced-math/ch116/q0014_prompt.png\"/>",
+      "prompt_html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{设}f(u,v)\\text{是二元可微函数，}z=f(x^{y},y^{x})，\\text{则}\\frac{\\partial z}{\\partial x}=\\left(\\right)\\text{。}\">\\text{设}f(u,v)\\text{是二元可微函数，}z=f(x^{y},y^{x})，\\text{则}\\frac{\\partial z}{\\partial x}=\\left(\\right)\\text{。}</span>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch116/q0014_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\, y x ^ { y } f _ { 1 } ^ { \\prime } - \\ln y \\cdot y ^ { x } f _ { 2 } ^ { \\prime } \\, ,\">\\, y x ^ { y } f _ { 1 } ^ { \\prime } - \\ln y \\cdot y ^ { x } f _ { 2 } ^ { \\prime } \\, ,</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch116/q0014_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\begin{aligned}yx^{y-1}f_1&#x27;+xy^{x-1}f_2&#x27;\\end{aligned}\">\\begin{aligned}yx^{y-1}f_1&#x27;+xy^{x-1}f_2&#x27;\\end{aligned}</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch116/q0014_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\begin{aligned}yx^{y-1}f_1&#x27;+\\ln y\\cdot y^xf_2&#x27;^{\\leftarrow}\\end{aligned}\">\\begin{aligned}yx^{y-1}f_1&#x27;+\\ln y\\cdot y^xf_2&#x27;^{\\leftarrow}\\end{aligned}</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch116/q0014_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\ln x \\cdot x^{y} f_{1}^{\\prime} + \\ln y \\cdot y^{x} f_{2}^{\\prime}\">\\ln x \\cdot x^{y} f_{1}^{\\prime} + \\ln y \\cdot y^{x} f_{2}^{\\prime}</span>"
         }
       ],
       "answer": "C",
       "answer_index": 2,
-      "analysis_html": "<img src=\"/static/generated/assets/advanced-math/ch116/q0014_analysis.png\"/>"
+      "analysis_html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{由} \\, z = f ( x ^ { y } , y ^ { 2 x } ) \\, \\text{知} \\, \\frac { \\partial z } { \\partial x } = y x ^ { y - 1 } f _ { 1 } ^ { \\prime } + \\ln y \\cdot y ^ { x } f _ { 2 } ^ { \\prime }\">\\text{由} \\, z = f ( x ^ { y } , y ^ { 2 x } ) \\, \\text{知} \\, \\frac { \\partial z } { \\partial x } = y x ^ { y - 1 } f _ { 1 } ^ { \\prime } + \\ln y \\cdot y ^ { x } f _ { 2 } ^ { \\prime }</span>"
     },
     {
       "id": "q0015",
       "number": 15,
       "header": "#15-Averge",
       "difficulty": "Averge",
-      "prompt_html": "<img src=\"/static/generated/assets/advanced-math/ch116/q0015_prompt.png\"/>",
+      "prompt_html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{设} \\, w = e ^ { x } \\sin y , x = uv , y = u + v \\, , \\, \\, \\text{求} \\, \\frac { \\partial w } { \\partial u } = ( ) \\, 。\">\\text{设} \\, w = e ^ { x } \\sin y , x = uv , y = u + v \\, , \\, \\, \\text{求} \\, \\frac { \\partial w } { \\partial u } = ( ) \\, 。</span>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch116/q0015_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\mathit{ve}^{x}\\sin y + \\cos y \\, _{+}\">\\mathit{ve}^{x}\\sin y + \\cos y \\, _{+}</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch116/q0015_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\mathit{v}e^{x}\\sin y + e^{x}\\cos y \\, \\Leftrightarrow\">\\mathit{v}e^{x}\\sin y + e^{x}\\cos y \\, \\Leftrightarrow</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch116/q0015_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"ve^{x}\\sin y - e^{x}\\cos y\">ve^{x}\\sin y - e^{x}\\cos y</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch116/q0015_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"ve^{x}\\cos y + e^{x}\\sin y\">ve^{x}\\cos y + e^{x}\\sin y</span>"
         }
       ],
       "answer": "B",
       "answer_index": 1,
-      "analysis_html": "<img src=\"/static/generated/assets/advanced-math/ch116/q0015_analysis.png\"/>"
+      "analysis_html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\frac { \\partial w } { \\partial u } = \\frac { \\partial w } { \\partial x } \\cdot \\frac { \\partial x } { \\partial u } + \\frac { \\partial w } { \\partial y } \\cdot \\frac { \\partial y } { \\partial u } = v e ^ { x } \\sin y + e ^ { x } \\cos y\">\\frac { \\partial w } { \\partial u } = \\frac { \\partial w } { \\partial x } \\cdot \\frac { \\partial x } { \\partial u } + \\frac { \\partial w } { \\partial y } \\cdot \\frac { \\partial y } { \\partial u } = v e ^ { x } \\sin y + e ^ { x } \\cos y</span>"
     },
     {
       "id": "q0016",
       "number": 16,
       "header": "#16-Averge",
       "difficulty": "Averge",
-      "prompt_html": "<img src=\"/static/generated/assets/advanced-math/ch116/q0016_prompt.png\"/>",
+      "prompt_html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{设}f(u)\\text{是可导函数，又设}z=xf(u),\\ u=\\frac{y}{x},\\ \\text{则}\\frac{\\partial z}{\\partial x}=()\">\\text{设}f(u)\\text{是可导函数，又设}z=xf(u),\\ u=\\frac{y}{x},\\ \\text{则}\\frac{\\partial z}{\\partial x}=()</span>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch116/q0016_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\begin{aligned}f\\left(\\frac{x}{y}\\right)+\\frac{2y}{3x}f^{\\prime}\\left(\\frac{x}{y}\\right) \\end{aligned}\">\\begin{aligned}f\\left(\\frac{x}{y}\\right)+\\frac{2y}{3x}f^{\\prime}\\left(\\frac{x}{y}\\right) \\end{aligned}</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch116/q0016_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\begin{aligned}f\\left(\\frac{x}{y}\\right)+\\frac{x}{y}f^{\\prime}\\left(\\frac{x}{y}\\right)\\end{aligned}\">\\begin{aligned}f\\left(\\frac{x}{y}\\right)+\\frac{x}{y}f^{\\prime}\\left(\\frac{x}{y}\\right)\\end{aligned}</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch116/q0016_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\,f^{\\prime}\\!\\left(\\frac{y}{x}\\right)\\!-\\!\\!\\frac{y^{2}}{x}f\\!\\left(\\frac{y}{x}\\right)\">\\,f^{\\prime}\\!\\left(\\frac{y}{x}\\right)\\!-\\!\\!\\frac{y^{2}}{x}f\\!\\left(\\frac{y}{x}\\right)</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch116/q0016_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\begin{aligned}f\\left(\\frac{y}{x}\\right)-\\frac{y}{x}f^{\\prime}\\left(\\frac{y}{x}\\right)^{\\circ}\\end{aligned}\">\\begin{aligned}f\\left(\\frac{y}{x}\\right)-\\frac{y}{x}f^{\\prime}\\left(\\frac{y}{x}\\right)^{\\circ}\\end{aligned}</span>"
         }
       ],
       "answer": "D",
       "answer_index": 3,
-      "analysis_html": "<img src=\"/static/generated/assets/advanced-math/ch116/q0016_analysis.png\"/>"
+      "analysis_html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\frac { \\partial z } { \\partial x } = f ( u ) + x f ^ { \\prime } ( u ) \\cdot \\left( - \\frac { y } { x ^ { 2 } } \\right) = f \\left( \\frac { y } { x } \\right) - \\frac { y } { x } f ^ { \\prime } \\left( \\frac { y } { x } \\right) ,\">\\frac { \\partial z } { \\partial x } = f ( u ) + x f ^ { \\prime } ( u ) \\cdot \\left( - \\frac { y } { x ^ { 2 } } \\right) = f \\left( \\frac { y } { x } \\right) - \\frac { y } { x } f ^ { \\prime } \\left( \\frac { y } { x } \\right) ,</span>"
     },
     {
       "id": "q0017",
       "number": 17,
       "header": "#17-Averge",
       "difficulty": "Averge",
-      "prompt_html": "<img src=\"/static/generated/assets/advanced-math/ch116/q0017_prompt.png\"/>",
+      "prompt_html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{设}z=f(x^{2}-y^{2},e^{xy}),\\text{其中}f\\text{具有连续二阶偏导数,求}\\frac{\\partial^{2}z}{\\partial x\\partial y}\\text{为} (\\underline{\\hspace{2em}}) 。\">\\text{设}z=f(x^{2}-y^{2},e^{xy}),\\text{其中}f\\text{具有连续二阶偏导数,求}\\frac{\\partial^{2}z}{\\partial x\\partial y}\\text{为} (\\underline{\\hspace{2em}}) 。</span>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch116/q0017_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\begin{aligned}-4xyf_{11}&#x27;&#x27;+2\\Bigl(x^{2}-y^{2}\\Bigr)e^{xy}f_{12}&#x27;&#x27;+xye^{2xy}f_{22}&#x27;&#x27;+e^{xy}\\bigl(1+xy\\bigr)f_{2}^{\\prime}\\end{aligned}\">\\begin{aligned}-4xyf_{11}&#x27;&#x27;+2\\Bigl(x^{2}-y^{2}\\Bigr)e^{xy}f_{12}&#x27;&#x27;+xye^{2xy}f_{22}&#x27;&#x27;+e^{xy}\\bigl(1+xy\\bigr)f_{2}^{\\prime}\\end{aligned}</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch116/q0017_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\begin{aligned}-4xyf_{11}^{\\prime \\prime }+2\\Bigl(x^{2}-y^{2}\\Bigr)e^{xy}f_{12}^{\\prime \\prime }+xye^{2xy}f_{22}^{\\prime \\prime }+e^{xy}\\left( 1+y\\right) f_{2}^{\\prime }\\,.\\end{aligned}\">\\begin{aligned}-4xyf_{11}^{\\prime \\prime }+2\\Bigl(x^{2}-y^{2}\\Bigr)e^{xy}f_{12}^{\\prime \\prime }+xye^{2xy}f_{22}^{\\prime \\prime }+e^{xy}\\left( 1+y\\right) f_{2}^{\\prime }\\,.\\end{aligned}</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch116/q0017_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\begin{aligned}4xyf_{11}^{\\prime \\prime }+2\\left( x^{2}-y^{2}\\right) e^{xy}f_{12}^{\\prime \\prime }+xye^{2xy}f_{22}^{\\prime \\prime }+e^{xy}\\left( 1+xy\\right) f_{2}^{\\prime }\\,_{\\omega }\\end{aligned}\">\\begin{aligned}4xyf_{11}^{\\prime \\prime }+2\\left( x^{2}-y^{2}\\right) e^{xy}f_{12}^{\\prime \\prime }+xye^{2xy}f_{22}^{\\prime \\prime }+e^{xy}\\left( 1+xy\\right) f_{2}^{\\prime }\\,_{\\omega }\\end{aligned}</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch116/q0017_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\begin{aligned}-4xyf_{11}&#x27;&#x27;+2\\Big(x^{2}-y^{2}\\Big)e^{xy}f_{12}&#x27;&#x27;+ye^{2y}f_{22}&#x27;&#x27;+e^{xy}\\big(1+xy\\big)\\,f_{2}^{\\prime}\\quad \\end{aligned}\">\\begin{aligned}-4xyf_{11}&#x27;&#x27;+2\\Big(x^{2}-y^{2}\\Big)e^{xy}f_{12}&#x27;&#x27;+ye^{2y}f_{22}&#x27;&#x27;+e^{xy}\\big(1+xy\\big)\\,f_{2}^{\\prime}\\quad \\end{aligned}</span>"
         }
       ],
       "answer": "A",
       "answer_index": 0,
-      "analysis_html": "<img src=\"/static/generated/assets/advanced-math/ch116/q0017_analysis.png\"/>"
+      "analysis_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{aligned}&amp;\\frac{\\partial^2 z}{\\partial x \\partial y} = 2x [f_{11}&#x27;&#x27; \\cdot (-2y) + f_{12}&#x27;&#x27; \\cdot xe^{xy}] + e^{xy} f_2&#x27; + xye^{xy} f_2&#x27; \\ + ye^{xy} [f_{21}&#x27;&#x27; \\cdot (-2y) + f_{22}&#x27;&#x27; \\cdot xe^{xy}] \\ , \\\\&amp;= -4xy f_{11}&#x27;&#x27; + 2(x^2 - y^2) e^{xy} f_{12}&#x27;&#x27; + xye^{2xy} f_{22}&#x27;&#x27; + e^{xy} (1+xy) f_2&#x27; \\ .\\end{aligned}\">\\begin{aligned}&amp;\\frac{\\partial^2 z}{\\partial x \\partial y} = 2x [f_{11}&#x27;&#x27; \\cdot (-2y) + f_{12}&#x27;&#x27; \\cdot xe^{xy}] + e^{xy} f_2&#x27; + xye^{xy} f_2&#x27; \\ + ye^{xy} [f_{21}&#x27;&#x27; \\cdot (-2y) + f_{22}&#x27;&#x27; \\cdot xe^{xy}] \\ , \\\\&amp;= -4xy f_{11}&#x27;&#x27; + 2(x^2 - y^2) e^{xy} f_{12}&#x27;&#x27; + xye^{2xy} f_{22}&#x27;&#x27; + e^{xy} (1+xy) f_2&#x27; \\ .\\end{aligned}</div>"
     },
     {
       "id": "q0018",
       "number": 18,
       "header": "#18-Averge",
       "difficulty": "Averge",
-      "prompt_html": "<img src=\"/static/generated/assets/advanced-math/ch116/q0018_prompt.png\"/>",
+      "prompt_html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{设}F(x-y,y-z,z-x)=0\\text{，其中}F\\text{具有连续偏导数，且}F_{2}^{\\prime}-F_{3}^{\\prime}\\neq 0\\text{，则}\\frac{\\partial z}{\\partial x}+\\frac{\\partial z}{\\partial y}=\\left( \\right)\">\\text{设}F(x-y,y-z,z-x)=0\\text{，其中}F\\text{具有连续偏导数，且}F_{2}^{\\prime}-F_{3}^{\\prime}\\neq 0\\text{，则}\\frac{\\partial z}{\\partial x}+\\frac{\\partial z}{\\partial y}=\\left( \\right)</span>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch116/q0018_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"2\">2</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch116/q0018_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\mathbf { 1 }\">\\mathbf { 1 }</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch116/q0018_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\mathbf { 0 } _ { \\leftarrow }\">\\mathbf { 0 } _ { \\leftarrow }</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch116/q0018_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"^ { - 1 }\">^ { - 1 }</span>"
         }
       ],
       "answer": "B",
       "answer_index": 1,
-      "analysis_html": "<img src=\"/static/generated/assets/advanced-math/ch116/q0018_analysis.png\"/>"
+      "analysis_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{aligned}&amp;\\text{由题意知方程确定函数}z=z(x,y)\\text{，在题设方程两边取微分。}\\\\&amp;\\text{得：}\\ \\ dF(x-y,y-z,z-x)=d0=0\\ \\circ\\\\&amp;\\text{即有：}\\ \\ F_{1}&#x27;(dx-dy)+F_{2}&#x27;(dy-dz)+F_{3}&#x27;(dz-dx)=0\\ \\circ\\\\&amp;\\text{合并得：}\\ \\ \\bigl(F_{1}&#x27;-F_{3}&#x27;\\bigr)dx+\\bigl(F_{2}&#x27;-F_{3}&#x27;\\bigr)dy=\\bigl(F_{2}&#x27;-F_{3}&#x27;\\bigr)dz\\ \\circ\\\\&amp;\\text{解得：}\\ \\ dz=\\frac{F_{1}&#x27;-F_{3}&#x27;}{F_{2}&#x27;-F_{3}&#x27;}dx+\\frac{F_{2}&#x27;-F_{1}&#x27;}{F_{2}&#x27;-F_{3}&#x27;}dy\\text{，从而}\\ \\frac{\\partial z}{\\partial x}=\\frac{F_{1}&#x27;-F_{3}&#x27;}{F_{2}&#x27;-F_{3}&#x27;}\\text{,}\\frac{\\partial z}{\\partial y}=\\frac{F_{2}&#x27;-F_{1}&#x27;}{F_{2}&#x27;-F_{3}&#x27;}\\circ\\\\&amp;\\text{于是：}\\ \\ \\frac{\\partial z}{\\partial x}+\\frac{\\partial z}{\\partial y}=1\\circ\\end{aligned}\">\\begin{aligned}&amp;\\text{由题意知方程确定函数}z=z(x,y)\\text{，在题设方程两边取微分。}\\\\&amp;\\text{得：}\\ \\ dF(x-y,y-z,z-x)=d0=0\\ \\circ\\\\&amp;\\text{即有：}\\ \\ F_{1}&#x27;(dx-dy)+F_{2}&#x27;(dy-dz)+F_{3}&#x27;(dz-dx)=0\\ \\circ\\\\&amp;\\text{合并得：}\\ \\ \\bigl(F_{1}&#x27;-F_{3}&#x27;\\bigr)dx+\\bigl(F_{2}&#x27;-F_{3}&#x27;\\bigr)dy=\\bigl(F_{2}&#x27;-F_{3}&#x27;\\bigr)dz\\ \\circ\\\\&amp;\\text{解得：}\\ \\ dz=\\frac{F_{1}&#x27;-F_{3}&#x27;}{F_{2}&#x27;-F_{3}&#x27;}dx+\\frac{F_{2}&#x27;-F_{1}&#x27;}{F_{2}&#x27;-F_{3}&#x27;}dy\\text{，从而}\\ \\frac{\\partial z}{\\partial x}=\\frac{F_{1}&#x27;-F_{3}&#x27;}{F_{2}&#x27;-F_{3}&#x27;}\\text{,}\\frac{\\partial z}{\\partial y}=\\frac{F_{2}&#x27;-F_{1}&#x27;}{F_{2}&#x27;-F_{3}&#x27;}\\circ\\\\&amp;\\text{于是：}\\ \\ \\frac{\\partial z}{\\partial x}+\\frac{\\partial z}{\\partial y}=1\\circ\\end{aligned}</div>"
     },
     {
       "id": "q0019",
       "number": 19,
       "header": "#19-Averge",
       "difficulty": "Averge",
-      "prompt_html": "<img src=\"/static/generated/assets/advanced-math/ch116/q0019_prompt.png\"/>",
+      "prompt_html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{设}f(u)\\text{具有二阶连续导数，且}g(x,y)=f(\\frac{y}{x})+yf(\\frac{x}{y})，\\text{求}x^{2}\\frac{\\partial^{2}g}{\\partial x^{2}}-y^{2}\\frac{\\partial^{2}g}{\\partial y^{2}}\\text{（）}.\">\\text{设}f(u)\\text{具有二阶连续导数，且}g(x,y)=f(\\frac{y}{x})+yf(\\frac{x}{y})，\\text{求}x^{2}\\frac{\\partial^{2}g}{\\partial x^{2}}-y^{2}\\frac{\\partial^{2}g}{\\partial y^{2}}\\text{（）}.</span>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch116/q0019_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\frac {2 y}{x} f ^ { \\prime } \\left( \\frac { y } { x } \\right)\">\\frac {2 y}{x} f ^ { \\prime } \\left( \\frac { y } { x } \\right)</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch116/q0019_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\frac { 2 y } { x } f ^ { \\prime } \\left( \\frac { y } { x } \\right) + 2 \\frac { y ^ { 2 } } { x ^ { 2 } } f ^ { \\prime \\prime } \\left( \\frac { y } { x } \\right)\">\\frac { 2 y } { x } f ^ { \\prime } \\left( \\frac { y } { x } \\right) + 2 \\frac { y ^ { 2 } } { x ^ { 2 } } f ^ { \\prime \\prime } \\left( \\frac { y } { x } \\right)</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch116/q0019_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\frac { y } { x } f ^ { \\prime } \\biggl ( \\frac { y } { x } \\biggr ) _ { \\leftarrow }\">\\frac { y } { x } f ^ { \\prime } \\biggl ( \\frac { y } { x } \\biggr ) _ { \\leftarrow }</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch116/q0019_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\frac { 2 y } { x } f ^ { \\prime } \\bigg ( \\frac { y } { x } \\bigg ) + 2 \\frac { y ^ { 2 } } { x ^ { 2 } } f ^ { \\prime \\prime } \\bigg ( \\frac { y } { x } \\bigg ) _ { ^ { * } }\">\\frac { 2 y } { x } f ^ { \\prime } \\bigg ( \\frac { y } { x } \\bigg ) + 2 \\frac { y ^ { 2 } } { x ^ { 2 } } f ^ { \\prime \\prime } \\bigg ( \\frac { y } { x } \\bigg ) _ { ^ { * } }</span>"
         }
       ],
       "answer": "A",
       "answer_index": 0,
-      "analysis_html": "<img src=\"/static/generated/assets/advanced-math/ch116/q0019_analysis.png\"/>"
+      "analysis_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{aligned}&amp;\\text{由已知条件可得。}\\\\&amp;\\frac{\\partial g}{\\partial x}=-\\frac{y}{x^{2}}f^{\\prime}(\\frac{y}{x})+f^{\\prime}(\\frac{x}{y})\\,,\\quad\\frac{\\partial^{2}g}{\\partial x^{2}}=\\frac{2y}{x^{3}}f^{\\prime}(\\frac{y}{x})+\\frac{y^{2}}{x^{4}}f^{\\prime \\prime}(\\frac{x}{y})+\\frac{1}{y}f^{\\prime \\prime}(\\frac{x}{y})\\,,\\\\&amp;\\\\&amp;\\frac{\\partial g}{\\partial y}=\\frac{1}{x}f^{\\prime}(\\frac{y}{x})+f(\\frac{x}{y})-\\frac{x}{y}f^{\\prime}(\\frac{x}{y})\\,\\frac{\\partial^{2}g}{\\partial y^{2}}=\\frac{1}{x^{2}}f^{\\prime \\prime}(\\frac{y}{x})-\\frac{x}{y^{2}}f^{\\prime}(\\frac{x}{y})+\\frac{x}{y^{2}}f^{\\prime}(\\frac{x}{y})+\\frac{x^{2}}{y^{3}}f^{\\prime \\prime}(\\frac{x}{y})\\,,\\\\&amp;\\\\&amp;\\text{所以}x^{2}\\frac{\\partial^{2}g}{\\partial x^{2}}-y^{2}\\frac{\\partial^{2}g}{\\partial y^{2}}=\\frac{2y}{x}f^{\\prime}(\\frac{y}{x})+\\frac{y^{2}}{x^{2}}f^{\\prime \\prime}(\\frac{x}{y})+\\frac{x^{2}}{y}f^{\\prime \\prime}(\\frac{x}{y})\\,-\\frac{y^{2}}{x^{2}}f^{\\prime \\prime}(\\frac{y}{x})-\\frac{x^{2}}{y}f^{\\prime \\prime}(\\frac{x}{y})\\,.\\\\&amp;\\\\&amp;=\\frac{2y}{x}f^{\\prime}(\\frac{y}{x}).\\end{aligned}\">\\begin{aligned}&amp;\\text{由已知条件可得。}\\\\&amp;\\frac{\\partial g}{\\partial x}=-\\frac{y}{x^{2}}f^{\\prime}(\\frac{y}{x})+f^{\\prime}(\\frac{x}{y})\\,,\\quad\\frac{\\partial^{2}g}{\\partial x^{2}}=\\frac{2y}{x^{3}}f^{\\prime}(\\frac{y}{x})+\\frac{y^{2}}{x^{4}}f^{\\prime \\prime}(\\frac{x}{y})+\\frac{1}{y}f^{\\prime \\prime}(\\frac{x}{y})\\,,\\\\&amp;\\\\&amp;\\frac{\\partial g}{\\partial y}=\\frac{1}{x}f^{\\prime}(\\frac{y}{x})+f(\\frac{x}{y})-\\frac{x}{y}f^{\\prime}(\\frac{x}{y})\\,\\frac{\\partial^{2}g}{\\partial y^{2}}=\\frac{1}{x^{2}}f^{\\prime \\prime}(\\frac{y}{x})-\\frac{x}{y^{2}}f^{\\prime}(\\frac{x}{y})+\\frac{x}{y^{2}}f^{\\prime}(\\frac{x}{y})+\\frac{x^{2}}{y^{3}}f^{\\prime \\prime}(\\frac{x}{y})\\,,\\\\&amp;\\\\&amp;\\text{所以}x^{2}\\frac{\\partial^{2}g}{\\partial x^{2}}-y^{2}\\frac{\\partial^{2}g}{\\partial y^{2}}=\\frac{2y}{x}f^{\\prime}(\\frac{y}{x})+\\frac{y^{2}}{x^{2}}f^{\\prime \\prime}(\\frac{x}{y})+\\frac{x^{2}}{y}f^{\\prime \\prime}(\\frac{x}{y})\\,-\\frac{y^{2}}{x^{2}}f^{\\prime \\prime}(\\frac{y}{x})-\\frac{x^{2}}{y}f^{\\prime \\prime}(\\frac{x}{y})\\,.\\\\&amp;\\\\&amp;=\\frac{2y}{x}f^{\\prime}(\\frac{y}{x}).\\end{aligned}</div>"
     },
     {
       "id": "q0020",
       "number": 20,
       "header": "#20-Averge",
       "difficulty": "Averge",
-      "prompt_html": "<img src=\"/static/generated/assets/advanced-math/ch116/q0020_prompt.png\"/>",
+      "prompt_html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{设函数} \\, f(u) \\text{可微，则} \\, f^{\\prime}(2)=2 \\,, \\text{则} \\, z=f(x^{2}+y^{2}) \\text{在点} (1,1) \\text{处的全微分} \\, dz \\, \\Big{|}_{(1,1)}=() \\text{。}\">\\text{设函数} \\, f(u) \\text{可微，则} \\, f^{\\prime}(2)=2 \\,, \\text{则} \\, z=f(x^{2}+y^{2}) \\text{在点} (1,1) \\text{处的全微分} \\, dz \\, \\Big{|}_{(1,1)}=() \\text{。}</span>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch116/q0020_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"2dx+4dy\">2dx+4dy</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch116/q0020_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"4 d x + 4 d y\">4 d x + 4 d y</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch116/q0020_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"4 dx + 2 dy\">4 dx + 2 dy</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch116/q0020_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"2 dx + 2 dy\">2 dx + 2 dy</span>"
         }
       ],
       "answer": "B",
       "answer_index": 1,
-      "analysis_html": "<img src=\"/static/generated/assets/advanced-math/ch116/q0020_analysis.png\"/>"
+      "analysis_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{aligned}&amp; \\text{由 } z=f(x^{2}+y^{2}) \\text{ 知 } dz=f&#x27;(x^{2}+y^{2})(2xdx+2ydy)\\,,\\\\&amp; \\text{则 } dz\\Big{|}_{(1,1)}=f&#x27;(2)(2dx+2dy)=4dx+4dy\\,.\\end{aligned}\">\\begin{aligned}&amp; \\text{由 } z=f(x^{2}+y^{2}) \\text{ 知 } dz=f&#x27;(x^{2}+y^{2})(2xdx+2ydy)\\,,\\\\&amp; \\text{则 } dz\\Big{|}_{(1,1)}=f&#x27;(2)(2dx+2dy)=4dx+4dy\\,.\\end{aligned}</div>"
     },
     {
       "id": "q0021",
       "number": 21,
       "header": "#21-Averge",
       "difficulty": "Averge",
-      "prompt_html": "<img src=\"/static/generated/assets/advanced-math/ch116/q0021_prompt.png\"/>",
+      "prompt_html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{设 } z = u ^ { 2 } + v ^ { 2 } , \\ \\text{而 } u = x + y , \\ \\ v = x - y , \\ \\text{则} \\ \\frac { \\partial z } { \\partial x } , \\ \\frac { \\partial z } { \\partial y } \\text{分别为（）。}\">\\text{设 } z = u ^ { 2 } + v ^ { 2 } , \\ \\text{而 } u = x + y , \\ \\ v = x - y , \\ \\text{则} \\ \\frac { \\partial z } { \\partial x } , \\ \\frac { \\partial z } { \\partial y } \\text{分别为（）。}</span>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch116/q0021_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\boldsymbol { 2 x , 2 y } \\leftarrow\">\\boldsymbol { 2 x , 2 y } \\leftarrow</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch116/q0021_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"4 x , 4 y\">4 x , 4 y</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch116/q0021_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"x ^ { 2 } , y ^ { 2 }\">x ^ { 2 } , y ^ { 2 }</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch116/q0021_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"x , y\">x , y</span>"
         }
       ],
       "answer": "B",
       "answer_index": 1,
-      "analysis_html": "<img src=\"/static/generated/assets/advanced-math/ch116/q0021_analysis.png\"/>"
+      "analysis_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{aligned}\\frac{\\partial z}{\\partial x} = 2 u \\cdot u&#x27;_x + 2 v \\cdot v&#x27;_x = 2 (u + v) = 4 x \\ , \\ \\ \\frac{\\partial z}{\\partial y} = 2 u \\cdot u&#x27;_y + 2 v \\cdot v&#x27;_y = 2 (u - v) = 4 y \\ .\\end{aligned}\">\\begin{aligned}\\frac{\\partial z}{\\partial x} = 2 u \\cdot u&#x27;_x + 2 v \\cdot v&#x27;_x = 2 (u + v) = 4 x \\ , \\ \\ \\frac{\\partial z}{\\partial y} = 2 u \\cdot u&#x27;_y + 2 v \\cdot v&#x27;_y = 2 (u - v) = 4 y \\ .\\end{aligned}</div>"
     },
     {
       "id": "q0022",
       "number": 22,
       "header": "#22-Averge",
       "difficulty": "Averge",
-      "prompt_html": "<img src=\"/static/generated/assets/advanced-math/ch116/q0022_prompt.png\"/>",
+      "prompt_html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{设}z=xg(x+y)+y\\varphi(xy), \\text{其中}g,\\varphi \\text{具有二阶连续导数，则} \\frac{\\partial^{2}z}{\\partial x\\partial y}=\\left(\\right)\\text{。}\">\\text{设}z=xg(x+y)+y\\varphi(xy), \\text{其中}g,\\varphi \\text{具有二阶连续导数，则} \\frac{\\partial^{2}z}{\\partial x\\partial y}=\\left(\\right)\\text{。}</span>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch116/q0022_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\begin{array}{c}g^{\\prime}(x+y)+xg^{\\prime\\prime}(x+y)+2y\\varphi^{\\prime}(xy)+y^{2}\\varphi^{\\prime\\prime}(xy)\\end{array}\">\\begin{array}{c}g^{\\prime}(x+y)+xg^{\\prime\\prime}(x+y)+2y\\varphi^{\\prime}(xy)+y^{2}\\varphi^{\\prime\\prime}(xy)\\end{array}</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch116/q0022_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\begin{aligned}g&#x27;(x+y)+xg&#x27;&#x27;(x+y)+2y\\varphi&#x27;(xy)+xy^2\\varphi&#x27;&#x27;(xy)_{\\text{⋆}}\\end{aligned}\">\\begin{aligned}g&#x27;(x+y)+xg&#x27;&#x27;(x+y)+2y\\varphi&#x27;(xy)+xy^2\\varphi&#x27;&#x27;(xy)_{\\text{⋆}}\\end{aligned}</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch116/q0022_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\begin{aligned}g&#x27;(x+y)+g&#x27;&#x27;(x+y)+2y\\varphi&#x27;(xy)+xy^2\\varphi&#x27;&#x27;(xy)_{\\leftarrow}\\end{aligned}\">\\begin{aligned}g&#x27;(x+y)+g&#x27;&#x27;(x+y)+2y\\varphi&#x27;(xy)+xy^2\\varphi&#x27;&#x27;(xy)_{\\leftarrow}\\end{aligned}</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch116/q0022_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\begin{array}{c}g^{\\prime}(x+y)+2y\\varphi^{\\prime}(xy)+xy^{2}\\varphi^{\\prime\\prime}(xy)\\end{array}\">\\begin{array}{c}g^{\\prime}(x+y)+2y\\varphi^{\\prime}(xy)+xy^{2}\\varphi^{\\prime\\prime}(xy)\\end{array}</span>"
         }
       ],
       "answer": "B",
       "answer_index": 1,
-      "analysis_html": "<img src=\"/static/generated/assets/advanced-math/ch116/q0022_analysis.png\"/>"
+      "analysis_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{aligned}&amp; \\text{由 } z = xg(x+y) + y\\varphi(xy) \\text{ 知 } \\frac{\\partial z}{\\partial x} = g(x+y) + xg&#x27;(x+y) + y^2\\varphi&#x27;(xy) \\enspace , \\\\&amp; \\\\&amp; \\frac{\\partial^2 z}{\\partial x \\partial y} = g&#x27;(x+y) + xg&#x27;&#x27;(x+y) + 2y\\varphi&#x27;(xy) + xy^2\\varphi&#x27;&#x27;(xy) \\enspace .\\end{aligned}\">\\begin{aligned}&amp; \\text{由 } z = xg(x+y) + y\\varphi(xy) \\text{ 知 } \\frac{\\partial z}{\\partial x} = g(x+y) + xg&#x27;(x+y) + y^2\\varphi&#x27;(xy) \\enspace , \\\\&amp; \\\\&amp; \\frac{\\partial^2 z}{\\partial x \\partial y} = g&#x27;(x+y) + xg&#x27;&#x27;(x+y) + 2y\\varphi&#x27;(xy) + xy^2\\varphi&#x27;&#x27;(xy) \\enspace .\\end{aligned}</div>"
     },
     {
       "id": "q0023",
       "number": 23,
       "header": "#23-Averge",
       "difficulty": "Averge",
-      "prompt_html": "<img src=\"/static/generated/assets/advanced-math/ch116/q0023_prompt.png\"/>",
+      "prompt_html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{设函数}z=\\frac{y}{x}f(xy)，\\text{其中}f\\text{可微}，\\text{则} \\frac{x}{y}\\frac{\\partial z}{\\partial x}+\\frac{\\partial z}{\\partial y}=(\\quad)。\">\\text{设函数}z=\\frac{y}{x}f(xy)，\\text{其中}f\\text{可微}，\\text{则} \\frac{x}{y}\\frac{\\partial z}{\\partial x}+\\frac{\\partial z}{\\partial y}=(\\quad)。</span>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch116/q0023_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"-2\\,yf^{\\prime}(xy)\">-2\\,yf^{\\prime}(xy)</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch116/q0023_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\frac { 2 } { x } \\, f ( x y )\">\\frac { 2 } { x } \\, f ( x y )</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch116/q0023_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"- \\frac { 2 } { x } f ( x y ) \\leftarrow\">- \\frac { 2 } { x } f ( x y ) \\leftarrow</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch116/q0023_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"2 y f ^ { \\prime } ( x y )\">2 y f ^ { \\prime } ( x y )</span>"
         }
       ],
       "answer": "D",
       "answer_index": 3,
-      "analysis_html": "<img src=\"/static/generated/assets/advanced-math/ch116/q0023_analysis.png\"/>"
+      "analysis_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{aligned}\\frac{x}{y}\\frac{\\partial z}{\\partial x}+\\frac{\\partial z}{\\partial y}=\\frac{x}{y}\\Bigg(-\\frac{y}{x^{2}}f(xy)+\\frac{y^{2}}{x}f^{\\prime}(xy)\\Bigg)+\\frac{1}{x}f(xy)+yf^{\\prime}(xy)=2yf^{\\prime}(xy)\\;.\\end{aligned}\">\\begin{aligned}\\frac{x}{y}\\frac{\\partial z}{\\partial x}+\\frac{\\partial z}{\\partial y}=\\frac{x}{y}\\Bigg(-\\frac{y}{x^{2}}f(xy)+\\frac{y^{2}}{x}f^{\\prime}(xy)\\Bigg)+\\frac{1}{x}f(xy)+yf^{\\prime}(xy)=2yf^{\\prime}(xy)\\;.\\end{aligned}</div>"
     },
     {
       "id": "q0024",
       "number": 24,
       "header": "#24-Averge",
       "difficulty": "Averge",
-      "prompt_html": "<img src=\"/static/generated/assets/advanced-math/ch116/q0024_prompt.png\"/>",
+      "prompt_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{array}{l} \\text {设}f(u,v)\\text {是二元可微函数，}z=f(x^{y},y^{2x})，\\text {则}\\frac{\\partial z}{\\partial x}=\\left(\\right)_{v} \\end{array}\">\\begin{array}{l} \\text {设}f(u,v)\\text {是二元可微函数，}z=f(x^{y},y^{2x})，\\text {则}\\frac{\\partial z}{\\partial x}=\\left(\\right)_{v} \\end{array}</div>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch116/q0024_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\begin{aligned}yx^{y-1}f_1&#x27;+2\\ln y\\cdot y^{2x}f_2&#x27;\\end{aligned}\">\\begin{aligned}yx^{y-1}f_1&#x27;+2\\ln y\\cdot y^{2x}f_2&#x27;\\end{aligned}</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch116/q0024_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\begin{aligned}yx^yf_1&#x27;+\\ln y\\cdot y^{2x}f_2&#x27;\\end{aligned}\">\\begin{aligned}yx^yf_1&#x27;+\\ln y\\cdot y^{2x}f_2&#x27;\\end{aligned}</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch116/q0024_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\begin{aligned}yx^{y-1}f_1&#x27;+2xy^{2x-1}f_2&#x27;\\end{aligned}\">\\begin{aligned}yx^{y-1}f_1&#x27;+2xy^{2x-1}f_2&#x27;\\end{aligned}</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch116/q0024_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\ln x \\cdot x^{y} f_{1}^{\\prime} + 2 \\ln y \\cdot y^{2x} f_{2}^{\\prime}\">\\ln x \\cdot x^{y} f_{1}^{\\prime} + 2 \\ln y \\cdot y^{2x} f_{2}^{\\prime}</span>"
         }
       ],
       "answer": "A",
       "answer_index": 0,
-      "analysis_html": "<img src=\"/static/generated/assets/advanced-math/ch116/q0024_analysis.png\"/>"
+      "analysis_html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{由 } z = f ( x ^ { y } , y ^ { 2 x } ) \\text{ 知 } \\frac { \\partial z } { \\partial x } = y x ^ { y - 1 } f _ { 1 } ^ { \\prime } + 2 \\ln y \\cdot y ^ { 2 x } f _ { 2 } ^ { \\prime } ,\">\\text{由 } z = f ( x ^ { y } , y ^ { 2 x } ) \\text{ 知 } \\frac { \\partial z } { \\partial x } = y x ^ { y - 1 } f _ { 1 } ^ { \\prime } + 2 \\ln y \\cdot y ^ { 2 x } f _ { 2 } ^ { \\prime } ,</span>"
     },
     {
       "id": "q0025",
       "number": 25,
       "header": "#25-Averge",
       "difficulty": "Averge",
-      "prompt_html": "<img src=\"/static/generated/assets/advanced-math/ch116/q0025_prompt.png\"/>",
+      "prompt_html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{设}z=f(xy,x^{2}+y^{2})，\\text{其中}f(u,v)\\text{有二阶连续偏导数}，\\text{则}\\frac{\\partial^{2}z}{\\partial x \\partial y}=()\">\\text{设}z=f(xy,x^{2}+y^{2})，\\text{其中}f(u,v)\\text{有二阶连续偏导数}，\\text{则}\\frac{\\partial^{2}z}{\\partial x \\partial y}=()</span>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch116/q0025_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"xyf_{11} + 4xyf_{22} \\leftarrow\">xyf_{11} + 4xyf_{22} \\leftarrow</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch116/q0025_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\begin{array}{l} { r } { f _ { 1 } + x y f _ { 11 } + 4 x y f _ { 22 } } \\end{array}\">\\begin{array}{l} { r } { f _ { 1 } + x y f _ { 11 } + 4 x y f _ { 22 } } \\end{array}</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch116/q0025_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"xyf_{11} + 2(x^{2} + y^{2})f_{12} + 4xyf_{22}\">xyf_{11} + 2(x^{2} + y^{2})f_{12} + 4xyf_{22}</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch116/q0025_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\begin{aligned}f_{1}+xyf_{11}+2(x^{2}+y^{2})f_{12}+4xyf_{22} \\end{aligned}\">\\begin{aligned}f_{1}+xyf_{11}+2(x^{2}+y^{2})f_{12}+4xyf_{22} \\end{aligned}</span>"
         }
       ],
       "answer": "D",
       "answer_index": 3,
-      "analysis_html": "<img src=\"/static/generated/assets/advanced-math/ch116/q0025_analysis.png\"/>"
+      "analysis_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{aligned} &amp; \\frac{\\partial z}{\\partial x} = yf_{1} + 2xf_{2}\\,, \\\\ &amp; \\\\ &amp; \\frac{\\partial^{2}z}{\\partial x\\partial y} = f_{1} + xyf_{11} + 2y^{2}f_{12} + 4xyf_{22} = f_{1} + xyf_{11} + 2(x^{2} + y^{2})f_{12} + 4xyf_{22}\\,.\\end{aligned}\">\\begin{aligned} &amp; \\frac{\\partial z}{\\partial x} = yf_{1} + 2xf_{2}\\,, \\\\ &amp; \\\\ &amp; \\frac{\\partial^{2}z}{\\partial x\\partial y} = f_{1} + xyf_{11} + 2y^{2}f_{12} + 4xyf_{22} = f_{1} + xyf_{11} + 2(x^{2} + y^{2})f_{12} + 4xyf_{22}\\,.\\end{aligned}</div>"
     },
     {
       "id": "q0026",
       "number": 26,
       "header": "#26-Averge",
       "difficulty": "Averge",
-      "prompt_html": "<img src=\"/static/generated/assets/advanced-math/ch116/q0026_prompt.png\"/>",
+      "prompt_html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{求函数}z=x^{2}e^{y}+(x-1)\\arctan \\left( \\frac{y}{x}\\right) \\text{在点}(1,0)\\text{处的一阶偏导数}（　）。\">\\text{求函数}z=x^{2}e^{y}+(x-1)\\arctan \\left( \\frac{y}{x}\\right) \\text{在点}(1,0)\\text{处的一阶偏导数}（　）。</span>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch116/q0026_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\left( - 1 , \\ - 2 \\right) .\">\\left( - 1 , \\ - 2 \\right) .</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch116/q0026_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\left( - 2 , \\ - 1 \\right)\">\\left( - 2 , \\ - 1 \\right)</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch116/q0026_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"(1,~2)\">(1,~2)</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch116/q0026_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"(2, 1)\">(2, 1)</span>"
         }
       ],
       "answer": "D",
       "answer_index": 3,
-      "analysis_html": "<img src=\"/static/generated/assets/advanced-math/ch116/q0026_analysis.png\"/>"
+      "analysis_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{aligned} z_{x}^{\\prime}(1,0) &amp; = \\left[ \\frac{d}{dx}z(x,0) \\right]_{x=1} = \\left[ \\frac{d}{dx} \\bigl(x^{2}\\bigr) \\right]_{x=1} = 2 \\\\ z_{y}^{\\prime}(1,0) &amp; = \\left[ \\frac{d}{dx}z(1,y) \\right]_{y=0} = \\left[ \\frac{d}{dx} \\bigl(e^{y}\\bigr) \\right]_{y=0} = \\Bigl[e^{y}\\Bigr]_{y=0} = 1 \\end{aligned}\">\\begin{aligned} z_{x}^{\\prime}(1,0) &amp; = \\left[ \\frac{d}{dx}z(x,0) \\right]_{x=1} = \\left[ \\frac{d}{dx} \\bigl(x^{2}\\bigr) \\right]_{x=1} = 2 \\\\ z_{y}^{\\prime}(1,0) &amp; = \\left[ \\frac{d}{dx}z(1,y) \\right]_{y=0} = \\left[ \\frac{d}{dx} \\bigl(e^{y}\\bigr) \\right]_{y=0} = \\Bigl[e^{y}\\Bigr]_{y=0} = 1 \\end{aligned}</div>"
     },
     {
       "id": "q0027",
       "number": 27,
       "header": "#27-Averge",
       "difficulty": "Averge",
-      "prompt_html": "<img src=\"/static/generated/assets/advanced-math/ch116/q0027_prompt.png\"/>",
+      "prompt_html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{设}z=f(x^{2}-y^{2},e^{xy}), \\text{其中}f \\text{具有连续二阶偏导数, 则} \\frac{\\partial z}{\\partial x} \\text{为（} \\underline{\\hspace{2em}} \\text{）。}\">\\text{设}z=f(x^{2}-y^{2},e^{xy}), \\text{其中}f \\text{具有连续二阶偏导数, 则} \\frac{\\partial z}{\\partial x} \\text{为（} \\underline{\\hspace{2em}} \\text{）。}</span>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch116/q0027_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"2 y f _ { 1 } ^ { \\prime } + x e ^ { x y } f _ { 2 } ^ { \\prime }\">2 y f _ { 1 } ^ { \\prime } + x e ^ { x y } f _ { 2 } ^ { \\prime }</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch116/q0027_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"y f_{1}^{\\prime} + x e^{xy} f_{2}^{\\prime}\">y f_{1}^{\\prime} + x e^{xy} f_{2}^{\\prime}</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch116/q0027_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\,2xf_{1}^{\\prime}+ye^{xy}f_{2}^{\\prime}\">\\,2xf_{1}^{\\prime}+ye^{xy}f_{2}^{\\prime}</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch116/q0027_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"xf_{1}^{\\prime}+ye^{xy}f_{2}^{\\prime}\">xf_{1}^{\\prime}+ye^{xy}f_{2}^{\\prime}</span>"
         }
       ],
       "answer": "C",
       "answer_index": 2,
-      "analysis_html": "<img src=\"/static/generated/assets/advanced-math/ch116/q0027_analysis.png\"/>"
+      "analysis_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{aligned}\\frac{\\partial z}{\\partial x} = 2x f_1&#x27; + y e^{xy} f_2&#x27;^{\\leftarrow}\\end{aligned}\">\\begin{aligned}\\frac{\\partial z}{\\partial x} = 2x f_1&#x27; + y e^{xy} f_2&#x27;^{\\leftarrow}\\end{aligned}</div>"
     },
     {
       "id": "q0028",
       "number": 28,
       "header": "#28-Averge",
       "difficulty": "Averge",
-      "prompt_html": "<img src=\"/static/generated/assets/advanced-math/ch116/q0028_prompt.png\"/>",
+      "prompt_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{array}{l} \\text {设函数} u = f ( x , y ) \\text {具有二阶连续偏导数,且满足等式} 4 \\frac { \\partial ^ { 2 } u } { \\partial x ^ { 2 } } + 12 \\frac { \\partial ^ { 2 } u } { \\partial x \\partial y } + 5 \\frac { \\partial ^ { 2 } u } { \\partial y ^ { 2 } } = 0 , \\text {当} G = \\underline { \\quad }, \\\\ b = \\underline { \\quad } \\text {时,等式在变换} \\xi = x + a y , \\eta = x + b y \\text {下可化简为} \\frac { \\partial ^ { 2 } u } { \\partial \\xi \\partial \\eta } = 0 . \\quad ( \\quad ) 。 \\end{array}\">\\begin{array}{l} \\text {设函数} u = f ( x , y ) \\text {具有二阶连续偏导数,且满足等式} 4 \\frac { \\partial ^ { 2 } u } { \\partial x ^ { 2 } } + 12 \\frac { \\partial ^ { 2 } u } { \\partial x \\partial y } + 5 \\frac { \\partial ^ { 2 } u } { \\partial y ^ { 2 } } = 0 , \\text {当} G = \\underline { \\quad }, \\\\ b = \\underline { \\quad } \\text {时,等式在变换} \\xi = x + a y , \\eta = x + b y \\text {下可化简为} \\frac { \\partial ^ { 2 } u } { \\partial \\xi \\partial \\eta } = 0 . \\quad ( \\quad ) 。 \\end{array}</div>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch116/q0028_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"(a,b)=(-2,-2),(-\\frac{2}{5},-\\frac{2}{5}),(-\\frac{2}{5},-2),(-2,-\\frac{2}{5})\">(a,b)=(-2,-2),(-\\frac{2}{5},-\\frac{2}{5}),(-\\frac{2}{5},-2),(-2,-\\frac{2}{5})</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch116/q0028_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"(a,b) = (-\\frac{2}{5},-2), (-2,-\\frac{2}{5}) \\ \\Leftrightarrow\">(a,b) = (-\\frac{2}{5},-2), (-2,-\\frac{2}{5}) \\ \\Leftrightarrow</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch116/q0028_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"(a,b) = (\\frac{2}{5},2), (2,\\frac{2}{5}) \\ \\Leftrightarrow\">(a,b) = (\\frac{2}{5},2), (2,\\frac{2}{5}) \\ \\Leftrightarrow</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch116/q0028_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"(a,b) = (-2,-2), (-\\frac{2}{5},-\\frac{2}{5})\">(a,b) = (-2,-2), (-\\frac{2}{5},-\\frac{2}{5})</span>"
         }
       ],
       "answer": "B",
       "answer_index": 1,
-      "analysis_html": "<img src=\"/static/generated/assets/advanced-math/ch116/q0028_analysis.png\"/>"
+      "analysis_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{aligned} \\frac{\\partial u}{\\partial x}&amp;=\\frac{\\partial u}{\\partial x^2}\\frac{\\partial \\xi}{\\partial x}+\\frac{\\partial u}{\\partial y}\\frac{\\partial \\eta}{\\partial x}=\\frac{\\partial u}{\\partial \\xi}+\\frac{\\partial u}{\\partial \\eta},\\\\ \\frac{\\partial u}{\\partial y}&amp;=\\frac{\\partial u}{\\partial x^2}\\frac{\\partial \\xi}{\\partial y}+\\frac{\\partial u}{\\partial y}\\frac{\\partial \\eta}{\\partial y}=\\frac{\\partial u}{\\partial \\xi}+a+b\\frac{\\partial u}{\\partial \\eta},\\\\ \\frac{\\partial^2 u}{\\partial x^2}&amp;=\\frac{\\partial}{\\partial x}\\bigg(\\frac{\\partial u}{\\partial \\xi}+\\frac{\\partial u}{\\partial \\eta}\\bigg)=\\frac{\\partial^2 u}{\\partial \\xi^2}\\frac{\\partial \\xi}{\\partial x}+\\frac{\\partial^2 u}{\\partial \\xi^2\\partial \\eta}\\frac{\\partial \\eta}{\\partial x}+\\frac{\\partial^2 u}{\\partial \\eta^2}\\frac{\\partial \\eta}{\\partial x}+\\frac{\\partial^2 u}{\\partial \\xi^2\\partial \\eta}\\frac{\\partial \\eta}{\\partial x},\\\\ &amp;=\\frac{\\partial^2 u}{\\partial \\xi^2}+\\frac{\\partial^2 u}{\\partial \\eta^2}+2\\frac{\\partial^2 u}{\\partial \\xi^2\\partial \\eta},\\\\ \\frac{\\partial^2 u}{\\partial x\\partial y}&amp;=\\frac{\\partial}{\\partial y}\\bigg(\\frac{\\partial u}{\\partial \\xi}+\\frac{\\partial u}{\\partial \\eta}\\bigg)=\\frac{\\partial^2 u}{\\partial \\xi^2}\\frac{\\partial \\xi}{\\partial y}+\\frac{\\partial^2 u}{\\partial \\xi^2\\partial \\eta}\\frac{\\partial \\eta}{\\partial y}+\\frac{\\partial^2 u}{\\partial \\eta^2}\\frac{\\partial \\eta}{\\partial y}+\\frac{\\partial^2 u}{\\partial \\xi^2\\partial \\eta}\\frac{\\partial \\eta}{\\partial y},\\\\ &amp;=a\\frac{\\partial^2 u}{\\partial \\xi^2}+b\\frac{\\partial^2 u}{\\partial \\eta^2}+(a+b)\\frac{\\partial^2 u}{\\partial \\xi^2\\partial \\eta},\\\\ &amp;\\quad\\frac{\\partial^3 u}{\\partial y^3}=\\frac{\\partial}{\\partial y}\\bigg(\\frac{a}{\\partial \\xi}+\\frac{b}{\\partial \\eta}\\frac{\\partial u}{\\partial \\xi}+\\frac{b}{\\partial \\xi}\\frac{\\partial^3 u}{\\partial \\eta}+b\\frac{\\partial^3 u}{\\partial \\xi^2\\partial \\eta}+b\\frac{\\partial^3 u}{\\partial \\eta^2}+a\\frac{\\partial^3 u}{\\partial \\xi^2\\partial \\eta}\\bigg),\\\\ &amp;=a^2\\frac{\\partial^2 u}{\\partial \\xi^2}+b^2\\frac{\\partial^2 u}{\\partial \\eta^2}+2ab\\frac{\\partial^2 u}{\\partial \\xi^2\\partial \\eta},\\\\ \\text{故}4\\frac{\\partial^2 u}{\\partial x^2}+12\\frac{\\partial u^2}{\\partial x\\partial y}+5\\frac{\\partial^2 u}{\\partial y^2}&amp;\\\\ &amp;=(5a^2+12a+4)\\frac{\\partial^2 u}{\\partial \\xi^2}+(5b^2+12b+4)\\frac{\\partial^2 u}{\\partial \\eta^2}+[12(a+b)+10ab+8]\\frac{\\partial^2 u}{\\partial \\xi^2\\partial \\eta}=0,\\\\ \\text{所以}&amp;\\begin{cases}5a^2+12a+4=0\\\\ 5b^2+12b+4=0\\\\ 12(a+b)+10ab+8\\neq 0\\end{cases},\\\\ \\text{则}a&amp;=-\\frac{2}{5},-2,b=-\\frac{2}{5}\\text{或}-2,\\text{又因为}\\end{aligned}\">\\begin{aligned} \\frac{\\partial u}{\\partial x}&amp;=\\frac{\\partial u}{\\partial x^2}\\frac{\\partial \\xi}{\\partial x}+\\frac{\\partial u}{\\partial y}\\frac{\\partial \\eta}{\\partial x}=\\frac{\\partial u}{\\partial \\xi}+\\frac{\\partial u}{\\partial \\eta},\\\\ \\frac{\\partial u}{\\partial y}&amp;=\\frac{\\partial u}{\\partial x^2}\\frac{\\partial \\xi}{\\partial y}+\\frac{\\partial u}{\\partial y}\\frac{\\partial \\eta}{\\partial y}=\\frac{\\partial u}{\\partial \\xi}+a+b\\frac{\\partial u}{\\partial \\eta},\\\\ \\frac{\\partial^2 u}{\\partial x^2}&amp;=\\frac{\\partial}{\\partial x}\\bigg(\\frac{\\partial u}{\\partial \\xi}+\\frac{\\partial u}{\\partial \\eta}\\bigg)=\\frac{\\partial^2 u}{\\partial \\xi^2}\\frac{\\partial \\xi}{\\partial x}+\\frac{\\partial^2 u}{\\partial \\xi^2\\partial \\eta}\\frac{\\partial \\eta}{\\partial x}+\\frac{\\partial^2 u}{\\partial \\eta^2}\\frac{\\partial \\eta}{\\partial x}+\\frac{\\partial^2 u}{\\partial \\xi^2\\partial \\eta}\\frac{\\partial \\eta}{\\partial x},\\\\ &amp;=\\frac{\\partial^2 u}{\\partial \\xi^2}+\\frac{\\partial^2 u}{\\partial \\eta^2}+2\\frac{\\partial^2 u}{\\partial \\xi^2\\partial \\eta},\\\\ \\frac{\\partial^2 u}{\\partial x\\partial y}&amp;=\\frac{\\partial}{\\partial y}\\bigg(\\frac{\\partial u}{\\partial \\xi}+\\frac{\\partial u}{\\partial \\eta}\\bigg)=\\frac{\\partial^2 u}{\\partial \\xi^2}\\frac{\\partial \\xi}{\\partial y}+\\frac{\\partial^2 u}{\\partial \\xi^2\\partial \\eta}\\frac{\\partial \\eta}{\\partial y}+\\frac{\\partial^2 u}{\\partial \\eta^2}\\frac{\\partial \\eta}{\\partial y}+\\frac{\\partial^2 u}{\\partial \\xi^2\\partial \\eta}\\frac{\\partial \\eta}{\\partial y},\\\\ &amp;=a\\frac{\\partial^2 u}{\\partial \\xi^2}+b\\frac{\\partial^2 u}{\\partial \\eta^2}+(a+b)\\frac{\\partial^2 u}{\\partial \\xi^2\\partial \\eta},\\\\ &amp;\\quad\\frac{\\partial^3 u}{\\partial y^3}=\\frac{\\partial}{\\partial y}\\bigg(\\frac{a}{\\partial \\xi}+\\frac{b}{\\partial \\eta}\\frac{\\partial u}{\\partial \\xi}+\\frac{b}{\\partial \\xi}\\frac{\\partial^3 u}{\\partial \\eta}+b\\frac{\\partial^3 u}{\\partial \\xi^2\\partial \\eta}+b\\frac{\\partial^3 u}{\\partial \\eta^2}+a\\frac{\\partial^3 u}{\\partial \\xi^2\\partial \\eta}\\bigg),\\\\ &amp;=a^2\\frac{\\partial^2 u}{\\partial \\xi^2}+b^2\\frac{\\partial^2 u}{\\partial \\eta^2}+2ab\\frac{\\partial^2 u}{\\partial \\xi^2\\partial \\eta},\\\\ \\text{故}4\\frac{\\partial^2 u}{\\partial x^2}+12\\frac{\\partial u^2}{\\partial x\\partial y}+5\\frac{\\partial^2 u}{\\partial y^2}&amp;\\\\ &amp;=(5a^2+12a+4)\\frac{\\partial^2 u}{\\partial \\xi^2}+(5b^2+12b+4)\\frac{\\partial^2 u}{\\partial \\eta^2}+[12(a+b)+10ab+8]\\frac{\\partial^2 u}{\\partial \\xi^2\\partial \\eta}=0,\\\\ \\text{所以}&amp;\\begin{cases}5a^2+12a+4=0\\\\ 5b^2+12b+4=0\\\\ 12(a+b)+10ab+8\\neq 0\\end{cases},\\\\ \\text{则}a&amp;=-\\frac{2}{5},-2,b=-\\frac{2}{5}\\text{或}-2,\\text{又因为}\\end{aligned}</div>"
     },
     {
       "id": "q0029",
       "number": 29,
       "header": "#29-Averge",
       "difficulty": "Averge",
-      "prompt_html": "<img src=\"/static/generated/assets/advanced-math/ch116/q0029_prompt.png\"/>",
+      "prompt_html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{设}f\\left(x+y,\\frac{y}{x}\\right)=x^{2}-y^{2},\\ \\ f\\text{存在偏导数，则}\\frac{\\partial f(x,y)}{\\partial x}=\\left(\\ \\right).\">\\text{设}f\\left(x+y,\\frac{y}{x}\\right)=x^{2}-y^{2},\\ \\ f\\text{存在偏导数，则}\\frac{\\partial f(x,y)}{\\partial x}=\\left(\\ \\right).</span>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch116/q0029_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\frac { 1 - y ^ { 2 } } { x ( 1 + y ) ^ { 2 } }\">\\frac { 1 - y ^ { 2 } } { x ( 1 + y ) ^ { 2 } }</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch116/q0029_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\frac { 2 y ( 1 + y ^ { 2 } ) } { ( 1 - x ) ^ { 2 } }\">\\frac { 2 y ( 1 + y ^ { 2 } ) } { ( 1 - x ) ^ { 2 } }</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch116/q0029_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\frac { 2 x ( 1 - y ^ { 2 } ) } { ( 1 + y ) ^ { 2 } } \\ \\ \\ (\">\\frac { 2 x ( 1 - y ^ { 2 } ) } { ( 1 + y ) ^ { 2 } } \\ \\ \\ (</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch116/q0029_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\frac{2y(1-x^{2})}{(1+x)^{2}}\\leftarrow\">\\frac{2y(1-x^{2})}{(1+x)^{2}}\\leftarrow</span>"
         }
       ],
       "answer": "C",
       "answer_index": 2,
-      "analysis_html": "<img src=\"/static/generated/assets/advanced-math/ch116/q0029_analysis.png\"/>"
+      "analysis_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{aligned}&amp;\\text{设}x+y=m,\\frac{y}{x}=n\\ ,\\ \\ \\text{则}x=\\frac{m}{1+n},y=\\frac{mn}{1+n}\\circ\\\\&amp;\\text{得：} \\ \\ f\\bigl(m,n\\bigr)=\\biggl(\\frac{m}{1+n}\\biggr)^{2}-\\biggl(\\frac{mn}{1+n}\\biggr)^{2}=\\frac{m^{2}\\bigl(1-n^{2}\\bigr)}{\\bigl(1+n\\bigr)^{2}}\\circ\\\\&amp;\\text{那么：} \\ f(x,y)=\\frac{x^{2}\\bigl(1-y\\bigr)^{2}}{\\bigl(1+y\\bigr)^{2}}\\ ,\\ \\ \\text{则}\\ \\frac{\\partial f(x,y)}{\\partial x}=\\frac{2x(1-y^{2})}{(1+y)^{2}}\\circ\\end{aligned}\">\\begin{aligned}&amp;\\text{设}x+y=m,\\frac{y}{x}=n\\ ,\\ \\ \\text{则}x=\\frac{m}{1+n},y=\\frac{mn}{1+n}\\circ\\\\&amp;\\text{得：} \\ \\ f\\bigl(m,n\\bigr)=\\biggl(\\frac{m}{1+n}\\biggr)^{2}-\\biggl(\\frac{mn}{1+n}\\biggr)^{2}=\\frac{m^{2}\\bigl(1-n^{2}\\bigr)}{\\bigl(1+n\\bigr)^{2}}\\circ\\\\&amp;\\text{那么：} \\ f(x,y)=\\frac{x^{2}\\bigl(1-y\\bigr)^{2}}{\\bigl(1+y\\bigr)^{2}}\\ ,\\ \\ \\text{则}\\ \\frac{\\partial f(x,y)}{\\partial x}=\\frac{2x(1-y^{2})}{(1+y)^{2}}\\circ\\end{aligned}</div>"
     },
     {
       "id": "q0030",
       "number": 30,
       "header": "#30-Averge",
       "difficulty": "Averge",
-      "prompt_html": "<img src=\"/static/generated/assets/advanced-math/ch116/q0030_prompt.png\"/>",
+      "prompt_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\text{设函数}u=u(x,y)\\text{可微，在极坐标变换}x=r\\cos\\theta,y=r\\sin\\theta\\text{下，则} \\left( \\frac{\\partial u}{\\partial x}\\right)^{2}+\\left( \\frac{\\partial u}{\\partial y}\\right)^{2}=\\left(\\begin{matrix} \\end{matrix}\\right)\">\\text{设函数}u=u(x,y)\\text{可微，在极坐标变换}x=r\\cos\\theta,y=r\\sin\\theta\\text{下，则} \\left( \\frac{\\partial u}{\\partial x}\\right)^{2}+\\left( \\frac{\\partial u}{\\partial y}\\right)^{2}=\\left(\\begin{matrix} \\end{matrix}\\right)</div>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch116/q0030_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\bigg( \\frac { \\partial u } { \\partial r } \\bigg) ^ { 2 } + \\frac { 1 } { r ^ { 2 } } \\bigg( \\frac { \\partial u } { \\partial \\theta } \\bigg) ^ { 2 }\">\\bigg( \\frac { \\partial u } { \\partial r } \\bigg) ^ { 2 } + \\frac { 1 } { r ^ { 2 } } \\bigg( \\frac { \\partial u } { \\partial \\theta } \\bigg) ^ { 2 }</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch116/q0030_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\left( \\frac { \\partial u } { \\partial r } \\right) ^ { 2 } + \\left( \\frac { \\partial u } { \\partial \\theta } \\right) ^ { 2 }\">\\left( \\frac { \\partial u } { \\partial r } \\right) ^ { 2 } + \\left( \\frac { \\partial u } { \\partial \\theta } \\right) ^ { 2 }</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch116/q0030_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\begin{aligned}r^2 \\left( \\frac{\\partial u}{\\partial r} \\right)^2 + \\left( \\frac{\\partial u}{\\partial \\theta} \\right)^2 ,\\end{aligned}\">\\begin{aligned}r^2 \\left( \\frac{\\partial u}{\\partial r} \\right)^2 + \\left( \\frac{\\partial u}{\\partial \\theta} \\right)^2 ,\\end{aligned}</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch116/q0030_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\begin{aligned}r^{2}\\bigg(\\frac{\\partial u}{\\partial r}\\bigg)^{2}+\\frac{1}{r^{2}}\\bigg(\\frac{\\partial u}{\\partial \\theta}\\bigg)^{2}_{,}\\end{aligned}\">\\begin{aligned}r^{2}\\bigg(\\frac{\\partial u}{\\partial r}\\bigg)^{2}+\\frac{1}{r^{2}}\\bigg(\\frac{\\partial u}{\\partial \\theta}\\bigg)^{2}_{,}\\end{aligned}</span>"
         }
       ],
       "answer": "A",
       "answer_index": 0,
-      "analysis_html": "<img src=\"/static/generated/assets/advanced-math/ch116/q0030_analysis.png\"/>"
+      "analysis_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{aligned} &amp; \\text{为方便起见，我们从欲证等式的右端出发来证明。}\\\\ &amp; \\text{函数} u \\text{视为} r, \\theta \\text{的复合函数，即} u=u(r \\cos \\theta,r \\sin \\theta)\\text{，则。}\\\\ &amp; \\frac{\\partial u}{\\partial r}=\\frac{\\partial u}{\\partial x}\\frac{\\partial x}{\\partial r}+\\frac{\\partial u}{\\partial y}\\frac{\\partial y}{\\partial r}=\\frac{\\partial u}{\\partial x}\\cos \\theta+\\frac{\\partial u}{\\partial y}\\sin \\theta\\text{。}\\\\ &amp; \\frac{\\partial u}{\\partial \\theta}=\\frac{\\partial u}{\\partial x}\\frac{\\partial x}{\\partial \\theta}+\\frac{\\partial u}{\\partial y}\\frac{\\partial y}{\\partial \\theta}=\\frac{\\partial u}{\\partial x}(-r \\sin \\theta)+\\frac{\\partial u}{\\partial y}r \\cos \\theta\\text{。}\\\\ &amp; \\text{所以。}\\\\ &amp; \\left(\\frac{\\partial u}{\\partial r}\\right)^2+\\frac{1}{r^2}\\left(\\frac{\\partial u}{\\partial \\theta}\\right)^2=\\left(\\frac{\\partial u}{\\partial x}\\cos \\theta+\\frac{\\partial u}{\\partial y}\\sin \\theta\\right)^2+\\frac{1}{r^2}\\left(\\frac{\\partial u}{\\partial x}(-r \\sin \\theta)+\\frac{\\partial u}{\\partial y}r \\cos \\theta\\right)^2=\\left(\\frac{\\partial u}{\\partial x}\\right)^2+\\left(\\frac{\\partial u}{\\partial y}\\right)^2\\text{。} \\end{aligned}\">\\begin{aligned} &amp; \\text{为方便起见，我们从欲证等式的右端出发来证明。}\\\\ &amp; \\text{函数} u \\text{视为} r, \\theta \\text{的复合函数，即} u=u(r \\cos \\theta,r \\sin \\theta)\\text{，则。}\\\\ &amp; \\frac{\\partial u}{\\partial r}=\\frac{\\partial u}{\\partial x}\\frac{\\partial x}{\\partial r}+\\frac{\\partial u}{\\partial y}\\frac{\\partial y}{\\partial r}=\\frac{\\partial u}{\\partial x}\\cos \\theta+\\frac{\\partial u}{\\partial y}\\sin \\theta\\text{。}\\\\ &amp; \\frac{\\partial u}{\\partial \\theta}=\\frac{\\partial u}{\\partial x}\\frac{\\partial x}{\\partial \\theta}+\\frac{\\partial u}{\\partial y}\\frac{\\partial y}{\\partial \\theta}=\\frac{\\partial u}{\\partial x}(-r \\sin \\theta)+\\frac{\\partial u}{\\partial y}r \\cos \\theta\\text{。}\\\\ &amp; \\text{所以。}\\\\ &amp; \\left(\\frac{\\partial u}{\\partial r}\\right)^2+\\frac{1}{r^2}\\left(\\frac{\\partial u}{\\partial \\theta}\\right)^2=\\left(\\frac{\\partial u}{\\partial x}\\cos \\theta+\\frac{\\partial u}{\\partial y}\\sin \\theta\\right)^2+\\frac{1}{r^2}\\left(\\frac{\\partial u}{\\partial x}(-r \\sin \\theta)+\\frac{\\partial u}{\\partial y}r \\cos \\theta\\right)^2=\\left(\\frac{\\partial u}{\\partial x}\\right)^2+\\left(\\frac{\\partial u}{\\partial y}\\right)^2\\text{。} \\end{aligned}</div>"
     },
     {
       "id": "q0031",
       "number": 31,
       "header": "#31-Averge",
       "difficulty": "Averge",
-      "prompt_html": "<img src=\"/static/generated/assets/advanced-math/ch116/q0031_prompt.png\"/>",
+      "prompt_html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{设函数}f(u,v)\\text{满足}f(x+y,\\frac{y}{x})=x^{2}-y^{2},\\text{则}\\left.\\frac{\\partial f}{\\partial u}\\right|_{u=1\\atop v=1}\\text{与}\\left.\\frac{\\partial f}{\\partial v}\\right|_{u=1\\atop v=1}\\text{依次是（　）}\">\\text{设函数}f(u,v)\\text{满足}f(x+y,\\frac{y}{x})=x^{2}-y^{2},\\text{则}\\left.\\frac{\\partial f}{\\partial u}\\right|_{u=1\\atop v=1}\\text{与}\\left.\\frac{\\partial f}{\\partial v}\\right|_{u=1\\atop v=1}\\text{依次是（　）}</span>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch116/q0031_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\frac {1}{2}, 0\">\\frac {1}{2}, 0</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch116/q0031_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\, 0 , \\ \\frac { 1 } { 2 }\">\\, 0 , \\ \\frac { 1 } { 2 }</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch116/q0031_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"0 \\; , - \\frac { 1 } { 2 } \\leftarrow\">0 \\; , - \\frac { 1 } { 2 } \\leftarrow</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch116/q0031_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"- \\frac { 1 } { 2 } , 0\">- \\frac { 1 } { 2 } , 0</span>"
         }
       ],
       "answer": "C",
       "answer_index": 2,
-      "analysis_html": "<img src=\"/static/generated/assets/advanced-math/ch116/q0031_analysis.png\"/>"
+      "analysis_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{aligned} \\text{法一：}&amp;\\quad u=x+y,v=\\frac{y}{x}\\quad\\text{所以}x=\\frac{u}{v+1},y=\\frac{uv}{v+1}\\\\ &amp;\\quad\\text{所以}f(u,v)=\\frac{u^{2}}{\\left(v+1\\right)^{2}}-\\frac{u^{2}v^{2}}{\\left(v+1\\right)^{2}}=\\frac{u^{2}(1-v)}{v+1}\\\\ &amp;\\quad\\frac{\\partial f}{\\partial u}=\\frac{2u(1-v)}{v+1},\\ \\frac{\\partial f}{\\partial v}=u^{2}\\frac{-2}{\\left(v+1\\right)^{2}}\\frac{\\partial f}{\\partial u}\\bigg|_{\\substack{u=1\\\\ v=1}}=0,\\ \\frac{\\partial f}{\\partial v}\\bigg|_{\\substack{u=1\\\\ v=1}}=-\\frac{1}{2}\\\\ &amp;\\text{因此选}D_{v}\\\\ \\text{法二：}&amp;\\quad f(x+y,\\frac{x}{y})=x^{2}-y^{2}\\quad(1)\\\\ &amp;\\quad(1)\\text{式对}x\\text{求导得，}\\ \\frac{\\partial f}{\\partial u}-\\frac{y}{x^{2}}\\frac{\\partial f}{\\partial v}=2x\\quad(2)\\\\ &amp;\\quad(1)\\text{式对}y\\text{求导得，}\\ \\frac{\\partial f}{\\partial u}+\\frac{1}{x}\\frac{\\partial f}{\\partial v}=-2y\\quad(3)\\\\ &amp;\\text{由}u=1,v=1,\\text{得}x=y=\\frac{1}{2},\\text{代入（2）（3）解得}\\frac{\\partial f}{\\partial u}\\bigg|_{\\substack{u=1\\\\ v=1}}=0,\\ \\frac{\\partial f}{\\partial v}\\bigg|_{\\substack{u=1\\\\ v=1}}=-\\frac{1}{2}\\end{aligned}\">\\begin{aligned} \\text{法一：}&amp;\\quad u=x+y,v=\\frac{y}{x}\\quad\\text{所以}x=\\frac{u}{v+1},y=\\frac{uv}{v+1}\\\\ &amp;\\quad\\text{所以}f(u,v)=\\frac{u^{2}}{\\left(v+1\\right)^{2}}-\\frac{u^{2}v^{2}}{\\left(v+1\\right)^{2}}=\\frac{u^{2}(1-v)}{v+1}\\\\ &amp;\\quad\\frac{\\partial f}{\\partial u}=\\frac{2u(1-v)}{v+1},\\ \\frac{\\partial f}{\\partial v}=u^{2}\\frac{-2}{\\left(v+1\\right)^{2}}\\frac{\\partial f}{\\partial u}\\bigg|_{\\substack{u=1\\\\ v=1}}=0,\\ \\frac{\\partial f}{\\partial v}\\bigg|_{\\substack{u=1\\\\ v=1}}=-\\frac{1}{2}\\\\ &amp;\\text{因此选}D_{v}\\\\ \\text{法二：}&amp;\\quad f(x+y,\\frac{x}{y})=x^{2}-y^{2}\\quad(1)\\\\ &amp;\\quad(1)\\text{式对}x\\text{求导得，}\\ \\frac{\\partial f}{\\partial u}-\\frac{y}{x^{2}}\\frac{\\partial f}{\\partial v}=2x\\quad(2)\\\\ &amp;\\quad(1)\\text{式对}y\\text{求导得，}\\ \\frac{\\partial f}{\\partial u}+\\frac{1}{x}\\frac{\\partial f}{\\partial v}=-2y\\quad(3)\\\\ &amp;\\text{由}u=1,v=1,\\text{得}x=y=\\frac{1}{2},\\text{代入（2）（3）解得}\\frac{\\partial f}{\\partial u}\\bigg|_{\\substack{u=1\\\\ v=1}}=0,\\ \\frac{\\partial f}{\\partial v}\\bigg|_{\\substack{u=1\\\\ v=1}}=-\\frac{1}{2}\\end{aligned}</div>"
     },
     {
       "id": "q0032",
       "number": 32,
       "header": "#32-Averge",
       "difficulty": "Averge",
-      "prompt_html": "<img src=\"/static/generated/assets/advanced-math/ch116/q0032_prompt.png\"/>",
+      "prompt_html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{设}z=f(x+y,x-y,xy)\\text{，其中}f\\text{具有二阶连续偏导数，则}dz\\text{等于（　）。}\">\\text{设}z=f(x+y,x-y,xy)\\text{，其中}f\\text{具有二阶连续偏导数，则}dz\\text{等于（　）。}</span>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch116/q0032_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"(f_{1}^{\\prime}+f_{2}^{\\prime}+yf_{3}^{\\prime})dx+(f_{1}^{\\prime}+f_{2}^{\\prime}+xf_{3}^{\\prime})dy_{x}\">(f_{1}^{\\prime}+f_{2}^{\\prime}+yf_{3}^{\\prime})dx+(f_{1}^{\\prime}+f_{2}^{\\prime}+xf_{3}^{\\prime})dy_{x}</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch116/q0032_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"(f_{1}^{\\prime}+f_{2}^{\\prime}+xf_{3}^{\\prime})dx+(f_{1}^{\\prime}-f_{2}^{\\prime}+yf_{3}^{\\prime})dy\\,^{\\omega}\">(f_{1}^{\\prime}+f_{2}^{\\prime}+xf_{3}^{\\prime})dx+(f_{1}^{\\prime}-f_{2}^{\\prime}+yf_{3}^{\\prime})dy\\,^{\\omega}</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch116/q0032_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"(f_{1}^{\\prime}+f_{2}^{\\prime}+yf_{3}^{\\prime})dx+(f_{1}^{\\prime}-f_{2}^{\\prime}+xf_{3}^{\\prime})dy\\,_{\\omega}\">(f_{1}^{\\prime}+f_{2}^{\\prime}+yf_{3}^{\\prime})dx+(f_{1}^{\\prime}-f_{2}^{\\prime}+xf_{3}^{\\prime})dy\\,_{\\omega}</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch116/q0032_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"(f_{1}^{\\prime}+f_{2}^{\\prime}+yf_{3}^{\\prime})dx+(f_{1}^{\\prime}+f_{2}^{\\prime}-xf_{3}^{\\prime})dy_{+}\">(f_{1}^{\\prime}+f_{2}^{\\prime}+yf_{3}^{\\prime})dx+(f_{1}^{\\prime}+f_{2}^{\\prime}-xf_{3}^{\\prime})dy_{+}</span>"
         }
       ],
       "answer": "C",
       "answer_index": 2,
-      "analysis_html": "<img src=\"/static/generated/assets/advanced-math/ch116/q0032_analysis.png\"/>"
+      "analysis_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{aligned} &amp; \\frac{\\partial z}{\\partial x} = f_1^{\\prime} + f_2^{\\prime} + yf_3^{\\prime}\\ ,\\ \\ \\frac{\\partial z}{\\partial y} = f_1^{\\prime} - f_2^{\\prime} + xf_3^{\\prime}\\ , \\\\ &amp; \\\\ &amp; \\text{所以，}\\ \\ dz = \\frac{\\partial z}{\\partial x} dx + \\frac{\\partial z}{\\partial y} dy = (f_1^{\\prime} + f_2^{\\prime} + yf_3^{\\prime})dx + (f_1^{\\prime} - f_2^{\\prime} + xf_3^{\\prime})dy\\ . \\end{aligned}\">\\begin{aligned} &amp; \\frac{\\partial z}{\\partial x} = f_1^{\\prime} + f_2^{\\prime} + yf_3^{\\prime}\\ ,\\ \\ \\frac{\\partial z}{\\partial y} = f_1^{\\prime} - f_2^{\\prime} + xf_3^{\\prime}\\ , \\\\ &amp; \\\\ &amp; \\text{所以，}\\ \\ dz = \\frac{\\partial z}{\\partial x} dx + \\frac{\\partial z}{\\partial y} dy = (f_1^{\\prime} + f_2^{\\prime} + yf_3^{\\prime})dx + (f_1^{\\prime} - f_2^{\\prime} + xf_3^{\\prime})dy\\ . \\end{aligned}</div>"
     },
     {
       "id": "q0033",
       "number": 33,
       "header": "#33-Averge",
       "difficulty": "Averge",
-      "prompt_html": "<img src=\"/static/generated/assets/advanced-math/ch116/q0033_prompt.png\"/>",
+      "prompt_html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{设}z=xy+u,u=\\varphi\\bigl(x,y\\bigr),\\ \\text{则}\\frac{\\partial^{2}z}{\\partial x^{2}},\\frac{\\partial^{2}z}{\\partial x\\partial y}\\text{分别为（）。}\">\\text{设}z=xy+u,u=\\varphi\\bigl(x,y\\bigr),\\ \\text{则}\\frac{\\partial^{2}z}{\\partial x^{2}},\\frac{\\partial^{2}z}{\\partial x\\partial y}\\text{分别为（）。}</span>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch116/q0033_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\begin{aligned}1 + \\varphi_{xx} \\bigl( x, y \\bigr), \\varphi_{xy} (x, y)\\end{aligned}\">\\begin{aligned}1 + \\varphi_{xx} \\bigl( x, y \\bigr), \\varphi_{xy} (x, y)\\end{aligned}</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch116/q0033_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\begin{aligned}1+\\varphi_{xx}\\bigl(x,y\\bigr), 1+\\varphi_{xy}(x,y)\\end{aligned}\">\\begin{aligned}1+\\varphi_{xx}\\bigl(x,y\\bigr), 1+\\varphi_{xy}(x,y)\\end{aligned}</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch116/q0033_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\varphi_{xx}\\bigl(x,y\\bigr), 1 + \\varphi_{xy}\\bigl(x,y\\bigr)_{\\circlearrowleft}\">\\varphi_{xx}\\bigl(x,y\\bigr), 1 + \\varphi_{xy}\\bigl(x,y\\bigr)_{\\circlearrowleft}</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch116/q0033_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\varphi_{xx}\\bigl(x,y\\bigr), \\varphi_{xy}(x,y)\\, \\lrcorner\">\\varphi_{xx}\\bigl(x,y\\bigr), \\varphi_{xy}(x,y)\\, \\lrcorner</span>"
         }
       ],
       "answer": "C",
       "answer_index": 2,
-      "analysis_html": "<img src=\"/static/generated/assets/advanced-math/ch116/q0033_analysis.png\"/>"
+      "analysis_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{aligned}\\frac{\\partial^{2}z}{\\partial x^{2}}&amp;=\\frac{\\partial}{\\partial x}\\left(\\frac{\\partial z}{\\partial x}\\right)=\\frac{\\partial}{\\partial x}\\left(y+\\frac{\\partial u}{\\partial x}\\right)=\\frac{\\partial^{2}u}{\\partial x^{2}}=\\varphi_{_{xx}}\\left(x,y\\right)_{\\circ}\\\\&amp;\\\\ \\frac{\\partial^{2}z}{\\partial x\\partial y}&amp;=\\frac{\\partial}{\\partial y}\\left(\\frac{\\partial z}{\\partial x}\\right)=\\frac{\\partial}{\\partial y}\\left(y+\\frac{\\partial u}{\\partial x}\\right)=1+\\frac{\\partial^{2}u}{\\partial x\\partial y}=1+\\varphi_{_{xy}}\\left(x,y\\right)_{\\circ}\\end{aligned}\">\\begin{aligned}\\frac{\\partial^{2}z}{\\partial x^{2}}&amp;=\\frac{\\partial}{\\partial x}\\left(\\frac{\\partial z}{\\partial x}\\right)=\\frac{\\partial}{\\partial x}\\left(y+\\frac{\\partial u}{\\partial x}\\right)=\\frac{\\partial^{2}u}{\\partial x^{2}}=\\varphi_{_{xx}}\\left(x,y\\right)_{\\circ}\\\\&amp;\\\\ \\frac{\\partial^{2}z}{\\partial x\\partial y}&amp;=\\frac{\\partial}{\\partial y}\\left(\\frac{\\partial z}{\\partial x}\\right)=\\frac{\\partial}{\\partial y}\\left(y+\\frac{\\partial u}{\\partial x}\\right)=1+\\frac{\\partial^{2}u}{\\partial x\\partial y}=1+\\varphi_{_{xy}}\\left(x,y\\right)_{\\circ}\\end{aligned}</div>"
     },
     {
       "id": "q0034",
       "number": 34,
       "header": "#34-Averge",
       "difficulty": "Averge",
-      "prompt_html": "<img src=\"/static/generated/assets/advanced-math/ch116/q0034_prompt.png\"/>",
+      "prompt_html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\frac { \\partial ^ { 2 } f } { \\partial u \\partial v } = \\text {（）}。\">\\frac { \\partial ^ { 2 } f } { \\partial u \\partial v } = \\text {（）}。</span>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch116/q0034_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"- \\frac { g ^ { \\prime } ( v ) } { g ^ { 2 } ( v ) }\">- \\frac { g ^ { \\prime } ( v ) } { g ^ { 2 } ( v ) }</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch116/q0034_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\frac{g^{\\prime}(v)}{g^{2}(v)}\">\\frac{g^{\\prime}(v)}{g^{2}(v)}</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch116/q0034_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"- \\frac { g ^ { 2 } ( v ) } { g ^ { \\prime } ( v ) }\">- \\frac { g ^ { 2 } ( v ) } { g ^ { \\prime } ( v ) }</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch116/q0034_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\frac{g^{2}(v)}{g^{&#x27;}(v)}\">\\frac{g^{2}(v)}{g^{&#x27;}(v)}</span>"
         }
       ],
       "answer": "A",
       "answer_index": 0,
-      "analysis_html": "<img src=\"/static/generated/assets/advanced-math/ch116/q0034_analysis.png\"/>"
+      "analysis_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{aligned}&amp; \\text{令}u=xg(y),\\ v=y \\text{可得到}f(u,v)\\text{的表达式}，\\text{再求偏导数即可}。\\\\&amp; \\text{令}u=xg(y),\\ v=y,\\ \\text{则}f(u,v)=\\frac{u}{g(v)}+g(v),\\\\&amp; \\text{所以，}\\ \\frac{\\partial f}{\\partial u}=\\frac{1}{g(v)},\\ \\frac{\\partial^{2}f}{\\partial u\\partial v}=-\\frac{g^{\\prime}(v)}{g^{2}(v)}.\\end{aligned}\">\\begin{aligned}&amp; \\text{令}u=xg(y),\\ v=y \\text{可得到}f(u,v)\\text{的表达式}，\\text{再求偏导数即可}。\\\\&amp; \\text{令}u=xg(y),\\ v=y,\\ \\text{则}f(u,v)=\\frac{u}{g(v)}+g(v),\\\\&amp; \\text{所以，}\\ \\frac{\\partial f}{\\partial u}=\\frac{1}{g(v)},\\ \\frac{\\partial^{2}f}{\\partial u\\partial v}=-\\frac{g^{\\prime}(v)}{g^{2}(v)}.\\end{aligned}</div>"
     },
     {
       "id": "q0035",
       "number": 35,
       "header": "#35-Averge",
       "difficulty": "Averge",
-      "prompt_html": "<img src=\"/static/generated/assets/advanced-math/ch116/q0035_prompt.png\"/>",
+      "prompt_html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{设}z=f(x^{2}+y^{2})，\\text{其中}f\\text{可微，求} \\frac{\\partial z}{\\partial x}=\\left(\\right).\">\\text{设}z=f(x^{2}+y^{2})，\\text{其中}f\\text{可微，求} \\frac{\\partial z}{\\partial x}=\\left(\\right).</span>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch116/q0035_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\, 2 y f ^ { \\prime } ( x ^ { 2 } + y ^ { 2 } ) \\, _ { \\leftarrow }\">\\, 2 y f ^ { \\prime } ( x ^ { 2 } + y ^ { 2 } ) \\, _ { \\leftarrow }</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch116/q0035_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\begin{aligned}2xf&#x27;(x^2+y^2)\\end{aligned}\">\\begin{aligned}2xf&#x27;(x^2+y^2)\\end{aligned}</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch116/q0035_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"2xf(x^{2}+y^{2})\">2xf(x^{2}+y^{2})</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch116/q0035_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\, x f ^ { \\prime } ( x ^ { 2 } + y ^ { 2 } ) \\,\">\\, x f ^ { \\prime } ( x ^ { 2 } + y ^ { 2 } ) \\,</span>"
         }
       ],
       "answer": "B",
       "answer_index": 1,
-      "analysis_html": "<img src=\"/static/generated/assets/advanced-math/ch116/q0035_analysis.png\"/>"
+      "analysis_html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\frac { \\partial z } { \\partial x } = f ^ { \\prime } ( x ^ { 2 } + y ^ { 2 } ) \\cdot \\frac { \\partial ( x ^ { 2 } + y ^ { 2 } ) } { \\partial x } = 2 x f ^ { \\prime } ( x ^ { 2 } + y ^ { 2 } ) \\text {。}\">\\frac { \\partial z } { \\partial x } = f ^ { \\prime } ( x ^ { 2 } + y ^ { 2 } ) \\cdot \\frac { \\partial ( x ^ { 2 } + y ^ { 2 } ) } { \\partial x } = 2 x f ^ { \\prime } ( x ^ { 2 } + y ^ { 2 } ) \\text {。}</span>"
     },
     {
       "id": "q0036",
       "number": 36,
       "header": "#36-Averge",
       "difficulty": "Averge",
-      "prompt_html": "<img src=\"/static/generated/assets/advanced-math/ch116/q0036_prompt.png\"/>",
+      "prompt_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{aligned} &amp; \\text{设 } z=e^{u}\\sin v\\text{，而 } u=xy\\text{， } v=x+y\\text{，则有关 }\\frac{\\partial z}{\\partial x}\\text{和 }\\frac{\\partial z}{\\partial y}\\text{的计算正确的是（）。} \\\\ &amp; \\quad 1.\\frac{\\partial z}{\\partial x}=e^{xy}\\Bigl[y\\sin\\bigl(x+y\\bigr)+\\cos\\bigl(x+y\\bigr)\\Bigr]\\quad\\quad 2.\\frac{\\partial z}{\\partial x}=e^{xy}\\Bigl[y\\cos\\bigl(x+y\\bigr)+\\sin\\bigl(x+y\\bigr)\\Bigr]\\text{。} \\\\ &amp; \\quad 3.\\frac{\\partial z}{\\partial y}=e^{xy}\\Bigl[x\\sin\\bigl(x+y\\bigr)+\\cos\\bigl(x+y\\bigr)\\Bigr]\\quad\\quad 4.\\frac{\\partial z}{\\partial y}=e^{xy}\\Bigl[x\\cos\\bigl(x+y\\bigr)+\\sin\\bigl(x+y\\bigr)\\Bigr]\\text{。} \\end{aligned}\">\\begin{aligned} &amp; \\text{设 } z=e^{u}\\sin v\\text{，而 } u=xy\\text{， } v=x+y\\text{，则有关 }\\frac{\\partial z}{\\partial x}\\text{和 }\\frac{\\partial z}{\\partial y}\\text{的计算正确的是（）。} \\\\ &amp; \\quad 1.\\frac{\\partial z}{\\partial x}=e^{xy}\\Bigl[y\\sin\\bigl(x+y\\bigr)+\\cos\\bigl(x+y\\bigr)\\Bigr]\\quad\\quad 2.\\frac{\\partial z}{\\partial x}=e^{xy}\\Bigl[y\\cos\\bigl(x+y\\bigr)+\\sin\\bigl(x+y\\bigr)\\Bigr]\\text{。} \\\\ &amp; \\quad 3.\\frac{\\partial z}{\\partial y}=e^{xy}\\Bigl[x\\sin\\bigl(x+y\\bigr)+\\cos\\bigl(x+y\\bigr)\\Bigr]\\quad\\quad 4.\\frac{\\partial z}{\\partial y}=e^{xy}\\Bigl[x\\cos\\bigl(x+y\\bigr)+\\sin\\bigl(x+y\\bigr)\\Bigr]\\text{。} \\end{aligned}</div>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch116/q0036_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\substack{\\text{2, 3}}\">\\substack{\\text{2, 3}}</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch116/q0036_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\substack{\\text{2, 4}}\">\\substack{\\text{2, 4}}</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch116/q0036_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\substack{\\text{ 1 , 3 }}\">\\substack{\\text{ 1 , 3 }}</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch116/q0036_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\mathbf { 1 , 4 } _ { \\leftarrow }\">\\mathbf { 1 , 4 } _ { \\leftarrow }</span>"
         }
       ],
       "answer": "C",
       "answer_index": 2,
-      "analysis_html": "<img src=\"/static/generated/assets/advanced-math/ch116/q0036_analysis.png\"/>"
+      "analysis_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{aligned}\\frac{\\partial z}{\\partial x} &amp; = \\frac{\\partial z}{\\partial u} \\cdot \\frac{\\partial u}{\\partial x} + \\frac{\\partial z}{\\partial v} \\cdot \\frac{\\partial v}{\\partial x} = e^{u} \\sin v \\cdot y + e^{u} \\cos v \\cdot 1_{e^u} \\\\&amp; = e^{u} (y \\sin v + \\cos v) = e^{xy} \\Big[ y \\sin \\big(x+y\\big) + \\cos \\big(x+y\\big) \\Big]_{e^u} \\\\&amp; \\frac{\\partial z}{\\partial y} = \\frac{\\partial z}{\\partial u} \\cdot \\frac{\\partial u}{\\partial y} + \\frac{\\partial z}{\\partial v} \\cdot \\frac{\\partial v}{\\partial y} = e^{u} \\sin v \\cdot x + e^{u} \\cos v \\cdot 1_{e^u} \\\\&amp; = e^{u} (x \\sin v + \\cos v) = e^{xy} \\Big[ x \\sin \\big(x+y\\big) + \\cos \\big(x+y\\big) \\Big]_{e^u} \\end{aligned}\">\\begin{aligned}\\frac{\\partial z}{\\partial x} &amp; = \\frac{\\partial z}{\\partial u} \\cdot \\frac{\\partial u}{\\partial x} + \\frac{\\partial z}{\\partial v} \\cdot \\frac{\\partial v}{\\partial x} = e^{u} \\sin v \\cdot y + e^{u} \\cos v \\cdot 1_{e^u} \\\\&amp; = e^{u} (y \\sin v + \\cos v) = e^{xy} \\Big[ y \\sin \\big(x+y\\big) + \\cos \\big(x+y\\big) \\Big]_{e^u} \\\\&amp; \\frac{\\partial z}{\\partial y} = \\frac{\\partial z}{\\partial u} \\cdot \\frac{\\partial u}{\\partial y} + \\frac{\\partial z}{\\partial v} \\cdot \\frac{\\partial v}{\\partial y} = e^{u} \\sin v \\cdot x + e^{u} \\cos v \\cdot 1_{e^u} \\\\&amp; = e^{u} (x \\sin v + \\cos v) = e^{xy} \\Big[ x \\sin \\big(x+y\\big) + \\cos \\big(x+y\\big) \\Big]_{e^u} \\end{aligned}</div>"
     },
     {
       "id": "q0037",
       "number": 37,
       "header": "#37-Averge",
       "difficulty": "Averge",
-      "prompt_html": "<img src=\"/static/generated/assets/advanced-math/ch116/q0037_prompt.png\"/>",
+      "prompt_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{array}{l} \\text{已知函数}f(u)\\text{具有二阶导数，且}f^{\\prime}(0)=1,\\text{函数}y=y(x)\\text{由方程}y-x\\mathrm{e}^{y-1}=1\\text{所确定，设} \\\\ z=f\\left(\\ln y-\\sin x\\right),\\text{求}\\frac{\\mathrm{d}z}{\\mathrm{d}x}\\big|_{x=0}=\\left(\\underline{\\hspace{1em}}\\right). \\end{array}\">\\begin{array}{l} \\text{已知函数}f(u)\\text{具有二阶导数，且}f^{\\prime}(0)=1,\\text{函数}y=y(x)\\text{由方程}y-x\\mathrm{e}^{y-1}=1\\text{所确定，设} \\\\ z=f\\left(\\ln y-\\sin x\\right),\\text{求}\\frac{\\mathrm{d}z}{\\mathrm{d}x}\\big|_{x=0}=\\left(\\underline{\\hspace{1em}}\\right). \\end{array}</div>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch116/q0037_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"2 \\, _ { \\leftarrow }\">2 \\, _ { \\leftarrow }</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch116/q0037_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"0\">0</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch116/q0037_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"1\">1</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch116/q0037_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"- \\, 1\">- \\, 1</span>"
         }
       ],
       "answer": "B",
       "answer_index": 1,
-      "analysis_html": "<img src=\"/static/generated/assets/advanced-math/ch116/q0037_analysis.png\"/>"
+      "analysis_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{aligned} \\text{令} u&amp;=\\ln y-\\sin x,\\ \\text{则}\\ \\frac{\\mathrm{d}y}{\\mathrm{d}x}\\big|_{x=0}=\\frac{\\partial f}{\\partial u}\\cdot\\left(\\frac{\\partial u}{\\partial x}+\\frac{\\partial u}{\\partial y}\\cdot\\frac{\\mathrm{d}y}{\\mathrm{d}x}\\right)\\big|_{x=0}\\cdot y&#x27;\\\\ y-x\\mathrm{e}^{y-1}&amp;=1\\text{两边对}x\\text{求导得}y&#x27;-\\mathrm{e}^{y-1}-x\\mathrm{e}^{y-1}\\cdot y&#x27;\\Rightarrow y&#x27;= \\frac{\\mathrm{e}^{y-1}}{1-x\\mathrm{e}^{y-1}}\\ ,\\ \\text{又}y(0)=1\\ ,\\ \\text{可得}\\\\ y&#x27;(0)&amp;=1\\cdot y\\\\ \\text{在}y&#x27;&amp;=\\frac{\\mathrm{e}^{y-1}}{1-x\\mathrm{e}^{y-1}}\\text{两边对}x\\text{求导得}\\\\ y&#x27;&#x27;\\big|_{x=0}&amp;=\\frac{\\mathrm{e}^{y-1}\\cdot y&#x27;\\left(1-x\\mathrm{e}^{y-1}\\right)-\\mathrm{e}^{y-1}\\left(-x\\mathrm{e}^{y-1}\\cdot y&#x27;-\\mathrm{e}^{y-1}\\right)}{\\left(1-x\\mathrm{e}^{y-1}\\right)^2}\\big|_{x=0}=2\\cdot y&#x27;\\\\ \\text{所以}\\frac{\\mathrm{d}y}{\\mathrm{d}x}\\big|_{x=0}&amp;=\\frac{\\partial f}{\\partial u}\\cdot\\left(\\frac{\\partial u}{\\partial x}+\\frac{\\partial u}{\\partial y}\\cdot\\frac{\\mathrm{d}y}{\\mathrm{d}x}\\right)\\big|_{x=0}=f&#x27;(0)\\left(-\\cos x+\\frac{1}{y}\\cdot\\frac{\\mathrm{d}y}{\\mathrm{d}x}\\right)\\big|_{x=0}\\cdot y\\\\ &amp;=f&#x27;(0)\\left(-\\cos x+\\frac{1}{y}\\cdot\\frac{\\mathrm{e}^{y-1}}{1-x\\mathrm{e}^{y-1}}\\right)\\big|_{x=0}=0\\cdot y&#x27;\\end{aligned}\">\\begin{aligned} \\text{令} u&amp;=\\ln y-\\sin x,\\ \\text{则}\\ \\frac{\\mathrm{d}y}{\\mathrm{d}x}\\big|_{x=0}=\\frac{\\partial f}{\\partial u}\\cdot\\left(\\frac{\\partial u}{\\partial x}+\\frac{\\partial u}{\\partial y}\\cdot\\frac{\\mathrm{d}y}{\\mathrm{d}x}\\right)\\big|_{x=0}\\cdot y&#x27;\\\\ y-x\\mathrm{e}^{y-1}&amp;=1\\text{两边对}x\\text{求导得}y&#x27;-\\mathrm{e}^{y-1}-x\\mathrm{e}^{y-1}\\cdot y&#x27;\\Rightarrow y&#x27;= \\frac{\\mathrm{e}^{y-1}}{1-x\\mathrm{e}^{y-1}}\\ ,\\ \\text{又}y(0)=1\\ ,\\ \\text{可得}\\\\ y&#x27;(0)&amp;=1\\cdot y\\\\ \\text{在}y&#x27;&amp;=\\frac{\\mathrm{e}^{y-1}}{1-x\\mathrm{e}^{y-1}}\\text{两边对}x\\text{求导得}\\\\ y&#x27;&#x27;\\big|_{x=0}&amp;=\\frac{\\mathrm{e}^{y-1}\\cdot y&#x27;\\left(1-x\\mathrm{e}^{y-1}\\right)-\\mathrm{e}^{y-1}\\left(-x\\mathrm{e}^{y-1}\\cdot y&#x27;-\\mathrm{e}^{y-1}\\right)}{\\left(1-x\\mathrm{e}^{y-1}\\right)^2}\\big|_{x=0}=2\\cdot y&#x27;\\\\ \\text{所以}\\frac{\\mathrm{d}y}{\\mathrm{d}x}\\big|_{x=0}&amp;=\\frac{\\partial f}{\\partial u}\\cdot\\left(\\frac{\\partial u}{\\partial x}+\\frac{\\partial u}{\\partial y}\\cdot\\frac{\\mathrm{d}y}{\\mathrm{d}x}\\right)\\big|_{x=0}=f&#x27;(0)\\left(-\\cos x+\\frac{1}{y}\\cdot\\frac{\\mathrm{d}y}{\\mathrm{d}x}\\right)\\big|_{x=0}\\cdot y\\\\ &amp;=f&#x27;(0)\\left(-\\cos x+\\frac{1}{y}\\cdot\\frac{\\mathrm{e}^{y-1}}{1-x\\mathrm{e}^{y-1}}\\right)\\big|_{x=0}=0\\cdot y&#x27;\\end{aligned}</div>"
     },
     {
       "id": "q0038",
       "number": 38,
       "header": "#38-Averge",
       "difficulty": "Averge",
-      "prompt_html": "<img src=\"/static/generated/assets/advanced-math/ch116/q0038_prompt.png\"/>",
+      "prompt_html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{设}f(u,v)\\text{是二元可微函数，}z=f(\\frac{y}{x},\\frac{x}{y})\\text{则}x\\frac{\\partial z}{\\partial x}-y\\frac{\\partial z}{\\partial y}\\text{为（）}.\">\\text{设}f(u,v)\\text{是二元可微函数，}z=f(\\frac{y}{x},\\frac{x}{y})\\text{则}x\\frac{\\partial z}{\\partial x}-y\\frac{\\partial z}{\\partial y}\\text{为（）}.</span>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch116/q0038_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\begin{aligned}2\\frac{y}{x}f_1^{\\prime }\\bigg(\\frac{y}{x},\\frac{x}{y}\\bigg)-2\\frac{x}{y}f_2^{\\prime }\\bigg(\\frac{y}{x},\\frac{x}{y}\\bigg)\\end{aligned}\">\\begin{aligned}2\\frac{y}{x}f_1^{\\prime }\\bigg(\\frac{y}{x},\\frac{x}{y}\\bigg)-2\\frac{x}{y}f_2^{\\prime }\\bigg(\\frac{y}{x},\\frac{x}{y}\\bigg)\\end{aligned}</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch116/q0038_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\begin{array}{l} {l} - \\frac { y } { x } f _ { 1 } ^ { \\prime } \\left( \\frac { y } { x } , \\frac { x } { y } \\right) + \\frac { x } { y } f _ { 2 } ^ { \\prime } \\left( \\frac { y } { x } , \\frac { x } { y } \\right) \\end{array} ,\">\\begin{array}{l} {l} - \\frac { y } { x } f _ { 1 } ^ { \\prime } \\left( \\frac { y } { x } , \\frac { x } { y } \\right) + \\frac { x } { y } f _ { 2 } ^ { \\prime } \\left( \\frac { y } { x } , \\frac { x } { y } \\right) \\end{array} ,</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch116/q0038_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\begin{aligned}-2 \\frac{y}{x} f_1&#x27; \\Bigg( \\frac{y}{x}, \\frac{x}{y} \\Bigg) + 2 \\frac{x}{y} f_2&#x27; \\Bigg( \\frac{y}{x}, \\frac{x}{y} \\Bigg).^{\\omega}\\end{aligned}\">\\begin{aligned}-2 \\frac{y}{x} f_1&#x27; \\Bigg( \\frac{y}{x}, \\frac{x}{y} \\Bigg) + 2 \\frac{x}{y} f_2&#x27; \\Bigg( \\frac{y}{x}, \\frac{x}{y} \\Bigg).^{\\omega}\\end{aligned}</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch116/q0038_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\begin{aligned}-2\\frac{y}{x}f_1^{\\prime }\\left(\\frac{y}{x},\\frac{x}{y}\\right)-2\\frac{x}{y}f_2^{\\prime }\\left(\\frac{y}{x},\\frac{x}{y}\\right)\\end{aligned}\">\\begin{aligned}-2\\frac{y}{x}f_1^{\\prime }\\left(\\frac{y}{x},\\frac{x}{y}\\right)-2\\frac{x}{y}f_2^{\\prime }\\left(\\frac{y}{x},\\frac{x}{y}\\right)\\end{aligned}</span>"
         }
       ],
       "answer": "C",
       "answer_index": 2,
-      "analysis_html": "<img src=\"/static/generated/assets/advanced-math/ch116/q0038_analysis.png\"/>"
+      "analysis_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{aligned}&amp;\\frac{\\partial z}{\\partial x}=-\\frac{y}{x^{2}}f_{1}^{\\prime}+\\frac{1}{y}f_{2}^{\\prime}\\,,\\ \\frac{\\partial z}{\\partial y}=\\frac{1}{x}f_{1}^{\\prime}-\\frac{x}{y^{2}}f_{2}^{\\prime}\\,,\\\\&amp;\\text{所以}x\\frac{\\partial z}{\\partial x}-y\\frac{\\partial z}{\\partial y}=-2\\left(f_{1}^{\\prime}\\frac{y}{x}-f_{2}^{\\prime}\\frac{x}{y}\\right).\\end{aligned}\">\\begin{aligned}&amp;\\frac{\\partial z}{\\partial x}=-\\frac{y}{x^{2}}f_{1}^{\\prime}+\\frac{1}{y}f_{2}^{\\prime}\\,,\\ \\frac{\\partial z}{\\partial y}=\\frac{1}{x}f_{1}^{\\prime}-\\frac{x}{y^{2}}f_{2}^{\\prime}\\,,\\\\&amp;\\text{所以}x\\frac{\\partial z}{\\partial x}-y\\frac{\\partial z}{\\partial y}=-2\\left(f_{1}^{\\prime}\\frac{y}{x}-f_{2}^{\\prime}\\frac{x}{y}\\right).\\end{aligned}</div>"
     },
     {
       "id": "q0039",
       "number": 39,
       "header": "#39-Averge",
       "difficulty": "Averge",
-      "prompt_html": "<img src=\"/static/generated/assets/advanced-math/ch116/q0039_prompt.png\"/>",
+      "prompt_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\text{设}f(u,v)\\text{是二元可微函数，}z=f(\\frac{y}{x},\\frac{x}{y}),\\text{则}x\\frac{\\partial z}{\\partial x}-y\\frac{\\partial z}{\\partial y}=(\\begin{array}{c} \\end{array}\">\\text{设}f(u,v)\\text{是二元可微函数，}z=f(\\frac{y}{x},\\frac{x}{y}),\\text{则}x\\frac{\\partial z}{\\partial x}-y\\frac{\\partial z}{\\partial y}=(\\begin{array}{c} \\end{array}</div>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch116/q0039_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\, 2 \\Biggl( f _ { 1 } ^ { \\prime } \\frac { y } { x } - f _ { 2 } ^ { \\prime } \\frac { x } { y } \\Biggr ) \\leftarrow\">\\, 2 \\Biggl( f _ { 1 } ^ { \\prime } \\frac { y } { x } - f _ { 2 } ^ { \\prime } \\frac { x } { y } \\Biggr ) \\leftarrow</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch116/q0039_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\begin{aligned}-2 \\Bigg( f_1&#x27; \\frac{y}{x} - f_2&#x27; \\frac{x}{y} \\Bigg) ,\\end{aligned}\">\\begin{aligned}-2 \\Bigg( f_1&#x27; \\frac{y}{x} - f_2&#x27; \\frac{x}{y} \\Bigg) ,\\end{aligned}</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch116/q0039_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\begin{aligned}2 \\Bigg( f_1&#x27; \\frac{y}{x} + f_2&#x27; \\frac{x}{y} \\Bigg) \\epsilon\\end{aligned}\">\\begin{aligned}2 \\Bigg( f_1&#x27; \\frac{y}{x} + f_2&#x27; \\frac{x}{y} \\Bigg) \\epsilon\\end{aligned}</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch116/q0039_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\begin{aligned}-2 \\Bigg( f_1&#x27; \\frac{y}{x} + f_2&#x27; \\frac{x}{y} \\Bigg)\\end{aligned}\">\\begin{aligned}-2 \\Bigg( f_1&#x27; \\frac{y}{x} + f_2&#x27; \\frac{x}{y} \\Bigg)\\end{aligned}</span>"
         }
       ],
       "answer": "B",
       "answer_index": 1,
-      "analysis_html": "<img src=\"/static/generated/assets/advanced-math/ch116/q0039_analysis.png\"/>"
+      "analysis_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{aligned}&amp;\\frac{\\partial z}{\\partial x}=-\\frac{y}{x^{2}}\\,f_{1}^{\\prime}+\\frac{1}{y}\\,f_{2}^{\\prime},\\ \\ \\frac{\\partial z}{\\partial y}=\\frac{1}{x}f_{1}^{\\prime}-\\frac{x}{y^{2}}\\,f_{2}^{\\prime},\\\\&amp;\\\\&amp;\\text{所以}x\\frac{\\partial z}{\\partial x}-y\\frac{\\partial z}{\\partial y}=-2\\left(f_{1}^{\\prime}\\,\\frac{y}{x}-f_{2}^{\\prime}\\,\\frac{x}{y}\\right).\\end{aligned}\">\\begin{aligned}&amp;\\frac{\\partial z}{\\partial x}=-\\frac{y}{x^{2}}\\,f_{1}^{\\prime}+\\frac{1}{y}\\,f_{2}^{\\prime},\\ \\ \\frac{\\partial z}{\\partial y}=\\frac{1}{x}f_{1}^{\\prime}-\\frac{x}{y^{2}}\\,f_{2}^{\\prime},\\\\&amp;\\\\&amp;\\text{所以}x\\frac{\\partial z}{\\partial x}-y\\frac{\\partial z}{\\partial y}=-2\\left(f_{1}^{\\prime}\\,\\frac{y}{x}-f_{2}^{\\prime}\\,\\frac{x}{y}\\right).\\end{aligned}</div>"
     },
     {
       "id": "q0040",
       "number": 40,
       "header": "#40-Averge",
       "difficulty": "Averge",
-      "prompt_html": "<img src=\"/static/generated/assets/advanced-math/ch116/q0040_prompt.png\"/>",
+      "prompt_html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{已知}u=f(x^{2}-y^{2},e^{x+y}),\\ \\text{其中}f\\text{具有二阶连续偏导数，求}\\frac{\\partial^{2}u}{\\partial x\\partial y}=(\\ \\ )\">\\text{已知}u=f(x^{2}-y^{2},e^{x+y}),\\ \\text{其中}f\\text{具有二阶连续偏导数，求}\\frac{\\partial^{2}u}{\\partial x\\partial y}=(\\ \\ )</span>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch116/q0040_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\begin{aligned}4xyf_{11}^{\\prime}+2(x-y)\\,\\mathrm{e}^{x+y}\\,f_{12}^{\\prime}+\\mathrm{e}^{2x+2y}\\,f_{22}^{\\prime}+\\mathrm{e}^{x+y}\\,f_{2}\\quad \\end{aligned}\">\\begin{aligned}4xyf_{11}^{\\prime}+2(x-y)\\,\\mathrm{e}^{x+y}\\,f_{12}^{\\prime}+\\mathrm{e}^{2x+2y}\\,f_{22}^{\\prime}+\\mathrm{e}^{x+y}\\,f_{2}\\quad \\end{aligned}</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch116/q0040_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\begin{aligned}-4xyf_{11}^{\\prime }+2(x+y)\\,\\mathrm{e}^{x+y}\\ f_{12}^{\\prime }+\\mathrm{e}^{2x+2y}\\ f_{22}^{\\prime }+\\mathrm{e}^{x+y}\\ f_{2}^{\\prime }\\end{aligned}\">\\begin{aligned}-4xyf_{11}^{\\prime }+2(x+y)\\,\\mathrm{e}^{x+y}\\ f_{12}^{\\prime }+\\mathrm{e}^{2x+2y}\\ f_{22}^{\\prime }+\\mathrm{e}^{x+y}\\ f_{2}^{\\prime }\\end{aligned}</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch116/q0040_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\begin{aligned}-4xyf_{11}^{\\prime }+2(x-y)\\, {\\sf e}^{x+y}\\, f_{12}^{\\prime }+{\\sf e}^{2x+2y}\\, f_{22}^{\\prime }+{\\sf e}^{x+y}\\, f_{2}^{\\prime }{}_{,^{\\epsilon }}\\end{aligned}\">\\begin{aligned}-4xyf_{11}^{\\prime }+2(x-y)\\, {\\sf e}^{x+y}\\, f_{12}^{\\prime }+{\\sf e}^{2x+2y}\\, f_{22}^{\\prime }+{\\sf e}^{x+y}\\, f_{2}^{\\prime }{}_{,^{\\epsilon }}\\end{aligned}</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch116/q0040_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\begin{aligned}4xyf_{11}^{\\prime }+2(x+y)\\,\\mathrm{e}^{x+y}\\,f_{12}^{\\prime }+\\mathrm{e}^{2x+2y}\\,f_{22}^{\\prime }+\\mathrm{e}^{x+y}\\,f_{2}^{\\prime }\\, \\end{aligned}\">\\begin{aligned}4xyf_{11}^{\\prime }+2(x+y)\\,\\mathrm{e}^{x+y}\\,f_{12}^{\\prime }+\\mathrm{e}^{2x+2y}\\,f_{22}^{\\prime }+\\mathrm{e}^{x+y}\\,f_{2}^{\\prime }\\, \\end{aligned}</span>"
         }
       ],
       "answer": "C",
       "answer_index": 2,
-      "analysis_html": "<img src=\"/static/generated/assets/advanced-math/ch116/q0040_analysis.png\"/>"
+      "analysis_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{aligned}&amp;\\frac{\\partial u}{\\partial x}=2xf_1^{\\prime}+\\mathsf{e}^{x+y}\\,f_2^{\\prime}\\,,\\;\\;\\frac{\\partial u}{\\partial y}=-2yf_1^{\\prime}+\\mathsf{e}^{x+y}\\,f_2^{\\prime}\\,_{^e}\\\\&amp;\\\\&amp;\\frac{\\partial^2 u}{\\partial x\\partial y}=2x[f_{11}^{\\prime}(-2y)+f_{12}^{\\prime}\\,\\mathsf{e}^{x+y}]+\\mathsf{e}^{x+y}\\,f_2^{\\prime}+\\mathsf{e}^{x+y}[f_{21}^{\\prime}(-2y)+f_{22}^{\\prime}\\,\\mathsf{e}^{x+y}]_{^e}\\\\&amp;=-4xyf_{11}^{\\prime}+2(x-y)\\,\\mathsf{e}^{x+y}\\,f_{12}^{\\prime}+\\mathsf{e}^{2x+2y}\\,f_{22}^{\\prime}+\\mathsf{e}^{x+y}\\,f_2^{\\prime}\\,_{^e}\\end{aligned}\">\\begin{aligned}&amp;\\frac{\\partial u}{\\partial x}=2xf_1^{\\prime}+\\mathsf{e}^{x+y}\\,f_2^{\\prime}\\,,\\;\\;\\frac{\\partial u}{\\partial y}=-2yf_1^{\\prime}+\\mathsf{e}^{x+y}\\,f_2^{\\prime}\\,_{^e}\\\\&amp;\\\\&amp;\\frac{\\partial^2 u}{\\partial x\\partial y}=2x[f_{11}^{\\prime}(-2y)+f_{12}^{\\prime}\\,\\mathsf{e}^{x+y}]+\\mathsf{e}^{x+y}\\,f_2^{\\prime}+\\mathsf{e}^{x+y}[f_{21}^{\\prime}(-2y)+f_{22}^{\\prime}\\,\\mathsf{e}^{x+y}]_{^e}\\\\&amp;=-4xyf_{11}^{\\prime}+2(x-y)\\,\\mathsf{e}^{x+y}\\,f_{12}^{\\prime}+\\mathsf{e}^{2x+2y}\\,f_{22}^{\\prime}+\\mathsf{e}^{x+y}\\,f_2^{\\prime}\\,_{^e}\\end{aligned}</div>"
     },
     {
       "id": "q0041",
       "number": 41,
       "header": "#41-Averge",
       "difficulty": "Averge",
-      "prompt_html": "<img src=\"/static/generated/assets/advanced-math/ch116/q0041_prompt.png\"/>",
+      "prompt_html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{设}x,y \\text{是由}x^{2}-y^{2}+2r=0 \\text{及}xy-s=0 \\text{确定的}r,s \\text{的函数，则} \\frac{\\partial x}{\\partial r} \\text{等于（）。}\">\\text{设}x,y \\text{是由}x^{2}-y^{2}+2r=0 \\text{及}xy-s=0 \\text{确定的}r,s \\text{的函数，则} \\frac{\\partial x}{\\partial r} \\text{等于（）。}</span>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch116/q0041_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\frac { y } { x ^ { 2 } + y ^ { 2 } }\">\\frac { y } { x ^ { 2 } + y ^ { 2 } }</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch116/q0041_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"- \\frac { y } { x ^ { 2 } + y ^ { 2 } } \\, ,\">- \\frac { y } { x ^ { 2 } + y ^ { 2 } } \\, ,</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch116/q0041_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\frac { x } { x ^ { 2 } + y ^ { 2 } }\">\\frac { x } { x ^ { 2 } + y ^ { 2 } }</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch116/q0041_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"- \\frac { x } { x ^ { 2 } + y ^ { 2 } }\">- \\frac { x } { x ^ { 2 } + y ^ { 2 } }</span>"
         }
       ],
       "answer": "D",
       "answer_index": 3,
-      "analysis_html": "<img src=\"/static/generated/assets/advanced-math/ch116/q0041_analysis.png\"/>"
+      "analysis_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{cases} 2x\\,\\mathrm{d}x-2y\\,\\mathrm{d}y+2\\,\\mathrm{d}r=0 \\\\ \\ \\ x\\,\\mathrm{d}y+y\\,\\mathrm{d}x-\\mathrm{d}s=0 \\end{cases} \\text{可得：}\\ \\ \\mathrm{d}x=\\frac{y\\,\\mathrm{d}s-x\\,\\mathrm{d}r}{x^{2}+y^{2}}\\ ,\\ \\ \\frac{\\partial x}{\\partial r}=-\\frac{x}{x^{2}+y^{2}}\">\\begin{cases} 2x\\,\\mathrm{d}x-2y\\,\\mathrm{d}y+2\\,\\mathrm{d}r=0 \\\\ \\ \\ x\\,\\mathrm{d}y+y\\,\\mathrm{d}x-\\mathrm{d}s=0 \\end{cases} \\text{可得：}\\ \\ \\mathrm{d}x=\\frac{y\\,\\mathrm{d}s-x\\,\\mathrm{d}r}{x^{2}+y^{2}}\\ ,\\ \\ \\frac{\\partial x}{\\partial r}=-\\frac{x}{x^{2}+y^{2}}</div>"
     },
     {
       "id": "q0042",
       "number": 42,
       "header": "#42-Averge",
       "difficulty": "Averge",
-      "prompt_html": "<img src=\"/static/generated/assets/advanced-math/ch116/q0042_prompt.png\"/>",
+      "prompt_html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{已知}u=f(x^{2}-y^{2},e^{x+y})，\\text{其中}f\\text{具有二阶连续偏导数，求}\\frac{\\partial u}{\\partial x}=(\\quad)。\">\\text{已知}u=f(x^{2}-y^{2},e^{x+y})，\\text{其中}f\\text{具有二阶连续偏导数，求}\\frac{\\partial u}{\\partial x}=(\\quad)。</span>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch116/q0042_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\begin{array}{l}2xf_{1}^{\\prime}+\\mathsf{e}^{x+y}\\ f_{2}^{\\prime}\\end{array}\">\\begin{array}{l}2xf_{1}^{\\prime}+\\mathsf{e}^{x+y}\\ f_{2}^{\\prime}\\end{array}</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch116/q0042_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\begin{aligned}2xf_1^{\\prime }-y^2f_1^{\\prime }+\\mathrm{e}^{x+y}\\;f_2^{\\prime }\\end{aligned}\">\\begin{aligned}2xf_1^{\\prime }-y^2f_1^{\\prime }+\\mathrm{e}^{x+y}\\;f_2^{\\prime }\\end{aligned}</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch116/q0042_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\begin{array}{l}2xf_{1}^{\\prime}-y^{2}f_{1}^{\\prime}-\\mathrm{e}^{x+y}\\ f_{2}^{\\prime}\\end{array}\">\\begin{array}{l}2xf_{1}^{\\prime}-y^{2}f_{1}^{\\prime}-\\mathrm{e}^{x+y}\\ f_{2}^{\\prime}\\end{array}</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch116/q0042_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\begin{array}{l} 2 x f _ { 1 } ^ { \\prime } - \\mathrm{e} ^ { x + y } \\ f _ { 2 } ^ { \\prime } \\end{array}\">\\begin{array}{l} 2 x f _ { 1 } ^ { \\prime } - \\mathrm{e} ^ { x + y } \\ f _ { 2 } ^ { \\prime } \\end{array}</span>"
         }
       ],
       "answer": "A",
       "answer_index": 0,
-      "analysis_html": "<img src=\"/static/generated/assets/advanced-math/ch116/q0042_analysis.png\"/>"
+      "analysis_html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\frac { \\partial u } { \\partial x } = 2 x f _ { 1 } ^ { \\prime } + \\mathrm { e } ^ { x + y } \\, f _ { 2 } ^ { \\prime }\">\\frac { \\partial u } { \\partial x } = 2 x f _ { 1 } ^ { \\prime } + \\mathrm { e } ^ { x + y } \\, f _ { 2 } ^ { \\prime }</span>"
     },
     {
       "id": "q0043",
       "number": 43,
       "header": "#43-Averge",
       "difficulty": "Averge",
-      "prompt_html": "<img src=\"/static/generated/assets/advanced-math/ch116/q0043_prompt.png\"/>",
+      "prompt_html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{设}z=f(u,x,y),\\ u=xe^{y},\\ \\text{其中}f\\ \\text{具有二阶连续偏导数，求}\\frac{\\partial z}{\\partial x}=\\left( \\right)\">\\text{设}z=f(u,x,y),\\ u=xe^{y},\\ \\text{其中}f\\ \\text{具有二阶连续偏导数，求}\\frac{\\partial z}{\\partial x}=\\left( \\right)</span>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch116/q0043_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\begin{array}{l} { c } e ^ { y } f _ { 1 } ^ { \\prime } - f _ { 2 } ^ { \\prime } \\end{array}\">\\begin{array}{l} { c } e ^ { y } f _ { 1 } ^ { \\prime } - f _ { 2 } ^ { \\prime } \\end{array}</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch116/q0043_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"(e^{y}-xe^{y}y_{x})f_{1}^{\\prime}+f_{2}^{\\prime}+y_{x}f_{3}^{\\prime}\">(e^{y}-xe^{y}y_{x})f_{1}^{\\prime}+f_{2}^{\\prime}+y_{x}f_{3}^{\\prime}</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch116/q0043_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\begin{array}{l} {r} { e ^ { y } f _ { 1 } ^ { \\prime } + f _ { 2 } ^ { \\prime } } \\end{array}\">\\begin{array}{l} {r} { e ^ { y } f _ { 1 } ^ { \\prime } + f _ { 2 } ^ { \\prime } } \\end{array}</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch116/q0043_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"(e^{y}+xe^{y}y_{x})f_{1}^{\\prime}+f_{2}^{\\prime}+y_{x}f_{3}^{\\prime}\">(e^{y}+xe^{y}y_{x})f_{1}^{\\prime}+f_{2}^{\\prime}+y_{x}f_{3}^{\\prime}</span>"
         }
       ],
       "answer": "C",
       "answer_index": 2,
-      "analysis_html": "<img src=\"/static/generated/assets/advanced-math/ch116/q0043_analysis.png\"/>"
+      "analysis_html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\frac { \\partial z } { \\partial x } = u _ { x } f _ { 1 } ^ { \\prime } + f _ { 2 } ^ { \\prime } = e ^ { y } f _ { 1 } ^ { \\prime } + f _ { 2 } ^ { \\prime }\">\\frac { \\partial z } { \\partial x } = u _ { x } f _ { 1 } ^ { \\prime } + f _ { 2 } ^ { \\prime } = e ^ { y } f _ { 1 } ^ { \\prime } + f _ { 2 } ^ { \\prime }</span>"
     },
     {
       "id": "q0044",
       "number": 44,
       "header": "#44-Averge",
       "difficulty": "Averge",
-      "prompt_html": "<img src=\"/static/generated/assets/advanced-math/ch116/q0044_prompt.png\"/>",
+      "prompt_html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{设}u=x\\varphi(x+y)+y\\phi(x+y)\\,,\\,\\,\\,\\text{其中函数}\\varphi,\\phi\\,\\text{具有二阶连续导数},\\,\\,\\,\\frac{\\partial^{2}u}{\\partial x^{2}}-2\\frac{\\partial^{2}u}{\\partial x\\partial y}+\\frac{\\partial^{2}u}{\\partial y^{2}}=()。\">\\text{设}u=x\\varphi(x+y)+y\\phi(x+y)\\,,\\,\\,\\,\\text{其中函数}\\varphi,\\phi\\,\\text{具有二阶连续导数},\\,\\,\\,\\frac{\\partial^{2}u}{\\partial x^{2}}-2\\frac{\\partial^{2}u}{\\partial x\\partial y}+\\frac{\\partial^{2}u}{\\partial y^{2}}=()。</span>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch116/q0044_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\mathbf { 1 }\">\\mathbf { 1 }</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch116/q0044_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\mathbf { - 1 } _ { \\leftarrow }\">\\mathbf { - 1 } _ { \\leftarrow }</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch116/q0044_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"0\">0</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch116/q0044_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"2\">2</span>"
         }
       ],
       "answer": "C",
       "answer_index": 2,
-      "analysis_html": "<img src=\"/static/generated/assets/advanced-math/ch116/q0044_analysis.png\"/>"
+      "analysis_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{array}{l}\\dfrac{\\partial u}{\\partial x}=\\varphi(x+y)+x\\varphi^{\\prime}(x+y)+y\\phi^{\\prime}(x+y)\\;,\\;\\;\\dfrac{\\partial u}{\\partial y}=\\phi(x+y)+x\\varphi^{\\prime}(x+y)+y\\phi^{\\prime}(x+y)\\;_{\\circ}\\\\ \\\\ \\dfrac{\\partial^{2}u}{\\partial x^{2}}=2\\varphi^{\\prime}(x+y)+x\\varphi^{\\prime\\prime}(x+y)+y\\phi^{\\prime\\prime}(x+y)\\;\\dfrac{\\partial^{2}u}{\\partial y^{2}}=2\\phi^{\\prime}(x+y)+x\\varphi^{\\prime\\prime}(x+y)+y\\phi^{\\prime\\prime}(x+y)\\;_{\\circ}\\\\ \\\\ \\dfrac{\\partial^{2}u}{\\partial x\\partial y}=\\varphi^{\\prime}(x+y)+\\phi^{\\prime}(x+y)+x\\varphi^{\\prime\\prime}(x+y)+y\\phi^{\\prime\\prime}(x+y)\\;_{\\circ}\\\\ \\\\ \\text{比较上述三式易见：}\\;\\;\\dfrac{\\partial^{2}u}{\\partial x^{2}}-2\\dfrac{\\partial^{2}u}{\\partial x\\partial y}+\\dfrac{\\partial^{2}u}{\\partial y^{2}}=0\\text{。}\\end{array}\">\\begin{array}{l}\\dfrac{\\partial u}{\\partial x}=\\varphi(x+y)+x\\varphi^{\\prime}(x+y)+y\\phi^{\\prime}(x+y)\\;,\\;\\;\\dfrac{\\partial u}{\\partial y}=\\phi(x+y)+x\\varphi^{\\prime}(x+y)+y\\phi^{\\prime}(x+y)\\;_{\\circ}\\\\ \\\\ \\dfrac{\\partial^{2}u}{\\partial x^{2}}=2\\varphi^{\\prime}(x+y)+x\\varphi^{\\prime\\prime}(x+y)+y\\phi^{\\prime\\prime}(x+y)\\;\\dfrac{\\partial^{2}u}{\\partial y^{2}}=2\\phi^{\\prime}(x+y)+x\\varphi^{\\prime\\prime}(x+y)+y\\phi^{\\prime\\prime}(x+y)\\;_{\\circ}\\\\ \\\\ \\dfrac{\\partial^{2}u}{\\partial x\\partial y}=\\varphi^{\\prime}(x+y)+\\phi^{\\prime}(x+y)+x\\varphi^{\\prime\\prime}(x+y)+y\\phi^{\\prime\\prime}(x+y)\\;_{\\circ}\\\\ \\\\ \\text{比较上述三式易见：}\\;\\;\\dfrac{\\partial^{2}u}{\\partial x^{2}}-2\\dfrac{\\partial^{2}u}{\\partial x\\partial y}+\\dfrac{\\partial^{2}u}{\\partial y^{2}}=0\\text{。}\\end{array}</div>"
     },
     {
       "id": "q0045",
       "number": 45,
       "header": "#45-Averge",
       "difficulty": "Averge",
-      "prompt_html": "<img src=\"/static/generated/assets/advanced-math/ch116/q0045_prompt.png\"/>",
+      "prompt_html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{设}z=x^{2}f(xy,\\frac{y}{x})，f\\text{具有二阶连续偏导数，求}\\frac{\\partial z}{\\partial y}=\\left(\\right) 。\">\\text{设}z=x^{2}f(xy,\\frac{y}{x})，f\\text{具有二阶连续偏导数，求}\\frac{\\partial z}{\\partial y}=\\left(\\right) 。</span>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch116/q0045_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\scriptstyle x ^ { 3 } f _ { 1 } ^ { \\prime } - x f _ { 2 } ^ { \\prime } \\, \\stackrel { \\leftarrow } { , }\">\\scriptstyle x ^ { 3 } f _ { 1 } ^ { \\prime } - x f _ { 2 } ^ { \\prime } \\, \\stackrel { \\leftarrow } { , }</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch116/q0045_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"x^{3}f_{2}^{\\prime}+xf_{1}^{\\prime}\">x^{3}f_{2}^{\\prime}+xf_{1}^{\\prime}</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch116/q0045_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\begin{array}{c}x^{3}f_{1}^{\\prime}+xf_{2}^{\\prime}\\end{array}\">\\begin{array}{c}x^{3}f_{1}^{\\prime}+xf_{2}^{\\prime}\\end{array}</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch116/q0045_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"x^{3}f_{2}^{\\prime}-xf_{1}^{\\prime}\">x^{3}f_{2}^{\\prime}-xf_{1}^{\\prime}</span>"
         }
       ],
       "answer": "C",
       "answer_index": 2,
-      "analysis_html": "<img src=\"/static/generated/assets/advanced-math/ch116/q0045_analysis.png\"/>"
+      "analysis_html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\frac { \\partial z } { \\partial y } = x ^ { 2 } ( x f _ { 1 } ^ { \\prime } + \\frac { 1 } { x } \\, f _ { 2 } ^ { \\prime } ) = x ^ { 3 } f _ { 1 } ^ { \\prime } + x f _ { 2 } ^ { \\prime }\">\\frac { \\partial z } { \\partial y } = x ^ { 2 } ( x f _ { 1 } ^ { \\prime } + \\frac { 1 } { x } \\, f _ { 2 } ^ { \\prime } ) = x ^ { 3 } f _ { 1 } ^ { \\prime } + x f _ { 2 } ^ { \\prime }</span>"
     },
     {
       "id": "q0046",
       "number": 46,
       "header": "#46-Averge",
       "difficulty": "Averge",
-      "prompt_html": "<img src=\"/static/generated/assets/advanced-math/ch116/q0046_prompt.png\"/>",
+      "prompt_html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{设函数}f(u)\\text{可微,且}f^{\\prime}(0)=\\frac{1}{2},\\text{则}z=f(4x^{2}-y^{2})\\text{在点}(1,2)\\text{处的全微分}dz\\bigg|_{(1,2)}=(\\quad).\">\\text{设函数}f(u)\\text{可微,且}f^{\\prime}(0)=\\frac{1}{2},\\text{则}z=f(4x^{2}-y^{2})\\text{在点}(1,2)\\text{处的全微分}dz\\bigg|_{(1,2)}=(\\quad).</span>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch116/q0046_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"4dx-2dy\">4dx-2dy</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch116/q0046_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"2dx+4dy\">2dx+4dy</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch116/q0046_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"2dx-4dy\">2dx-4dy</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch116/q0046_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"4dx+2dy\">4dx+2dy</span>"
         }
       ],
       "answer": "A",
       "answer_index": 0,
-      "analysis_html": "<img src=\"/static/generated/assets/advanced-math/ch116/q0046_analysis.png\"/>"
+      "analysis_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{aligned}&amp;\\text{方法一：因为}\\frac{\\partial z}{\\partial x}\\Big|_{(1,2)}=f&#x27;(4x^{2}-y^{2})\\cdot 8x\\Big|_{(1,2)}=4\\,,\\\\&amp;\\frac{\\partial z}{\\partial y}\\Big|_{(1,2)}=f&#x27;(4x^{2}-y^{2})\\cdot \\left(-2y\\right)\\Big|_{(1,2)}=-2\\,,\\\\&amp;\\text{所以}\\,\\,\\mathrm{d}z\\Big|_{(1,2)}=\\left[\\frac{\\partial z}{\\partial x}\\Big|_{(1,2)}\\,\\mathrm{d}x+\\frac{\\partial z}{\\partial y}\\Big|_{(1,2)}\\,\\mathrm{d}y\\right]=4\\mathrm{d}x-2\\mathrm{d}y\\,.\\\\&amp;\\text{方法二：对}z=f\\left(4x^{2}-y^{2}\\right)\\text{微分得}\\,.\\\\&amp;\\mathrm{d}z=f&#x27;(4x^{2}-y^{2})\\mathrm{d}(4x^{2}-y^{2})=f&#x27;(4x^{2}-y^{2})\\left(8x\\mathrm{d}x-2y\\mathrm{d}y\\right)\\,,\\\\&amp;\\quad\\text{故}\\,\\,\\mathrm{d}z\\Big|_{(1,2)}=f&#x27;(0)\\left(8\\mathrm{d}x-2\\mathrm{d}y\\right)=4\\mathrm{d}x-2\\mathrm{d}y\\,. \\end{aligned}\">\\begin{aligned}&amp;\\text{方法一：因为}\\frac{\\partial z}{\\partial x}\\Big|_{(1,2)}=f&#x27;(4x^{2}-y^{2})\\cdot 8x\\Big|_{(1,2)}=4\\,,\\\\&amp;\\frac{\\partial z}{\\partial y}\\Big|_{(1,2)}=f&#x27;(4x^{2}-y^{2})\\cdot \\left(-2y\\right)\\Big|_{(1,2)}=-2\\,,\\\\&amp;\\text{所以}\\,\\,\\mathrm{d}z\\Big|_{(1,2)}=\\left[\\frac{\\partial z}{\\partial x}\\Big|_{(1,2)}\\,\\mathrm{d}x+\\frac{\\partial z}{\\partial y}\\Big|_{(1,2)}\\,\\mathrm{d}y\\right]=4\\mathrm{d}x-2\\mathrm{d}y\\,.\\\\&amp;\\text{方法二：对}z=f\\left(4x^{2}-y^{2}\\right)\\text{微分得}\\,.\\\\&amp;\\mathrm{d}z=f&#x27;(4x^{2}-y^{2})\\mathrm{d}(4x^{2}-y^{2})=f&#x27;(4x^{2}-y^{2})\\left(8x\\mathrm{d}x-2y\\mathrm{d}y\\right)\\,,\\\\&amp;\\quad\\text{故}\\,\\,\\mathrm{d}z\\Big|_{(1,2)}=f&#x27;(0)\\left(8\\mathrm{d}x-2\\mathrm{d}y\\right)=4\\mathrm{d}x-2\\mathrm{d}y\\,. \\end{aligned}</div>"
     },
     {
       "id": "q0047",
       "number": 47,
       "header": "#47-Averge",
       "difficulty": "Averge",
-      "prompt_html": "<img src=\"/static/generated/assets/advanced-math/ch116/q0047_prompt.png\"/>",
+      "prompt_html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{.设}z=f(xy,x^{2}+y^{2})，\\text{其中}f\\text{可微}，\\text{则}\\frac{\\partial z}{\\partial x}=\\left( \\right).\">\\text{.设}z=f(xy,x^{2}+y^{2})，\\text{其中}f\\text{可微}，\\text{则}\\frac{\\partial z}{\\partial x}=\\left( \\right).</span>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch116/q0047_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\begin{aligned}\\frac{\\partial z}{\\partial x} = y f_1&#x27; + 2 x f_2&#x27; + y^2 f_2&#x27; \\, \\stackrel{\\scriptscriptstyle \\omega}{} \\end{aligned}\">\\begin{aligned}\\frac{\\partial z}{\\partial x} = y f_1&#x27; + 2 x f_2&#x27; + y^2 f_2&#x27; \\, \\stackrel{\\scriptscriptstyle \\omega}{} \\end{aligned}</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch116/q0047_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\frac { \\partial z } { \\partial x } = y f _ { 1 } ^ { \\prime } + 2 \\, y f _ { 2 } ^ { \\prime }\">\\frac { \\partial z } { \\partial x } = y f _ { 1 } ^ { \\prime } + 2 \\, y f _ { 2 } ^ { \\prime }</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch116/q0047_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"xf_{1}^{\\prime}+2xf_{2}^{\\prime}\">xf_{1}^{\\prime}+2xf_{2}^{\\prime}</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch116/q0047_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\frac { \\partial z } { \\partial x } = y f _ { 1 } ^ { \\prime } + 2 x f _ { 2 } ^ { \\prime }\">\\frac { \\partial z } { \\partial x } = y f _ { 1 } ^ { \\prime } + 2 x f _ { 2 } ^ { \\prime }</span>"
         }
       ],
       "answer": "D",
       "answer_index": 3,
-      "analysis_html": "<img src=\"/static/generated/assets/advanced-math/ch116/q0047_analysis.png\"/>"
+      "analysis_html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\frac { \\partial z } { \\partial x } = y f _ { 1 } ^ { \\prime } + 2 x f _ { 2 } ^ { \\prime } \\, ,\">\\frac { \\partial z } { \\partial x } = y f _ { 1 } ^ { \\prime } + 2 x f _ { 2 } ^ { \\prime } \\, ,</span>"
     }
-  ]
+  ],
+  "format": "latex",
+  "source_md": "gs/7.4.2_复合函数中间变量为多元函数情形(47题)/7.4.2_复合函数中间变量为多元函数情形(47题).md"
 }

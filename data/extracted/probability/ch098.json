@@ -13,140 +13,142 @@
       "number": 1,
       "header": "#1-Averge",
       "difficulty": "Averge",
-      "prompt_html": "<img src=\"/static/generated/assets/probability/ch098/q0001_prompt.png\"/>",
+      "prompt_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{array}{l} \\text {设} \\lambda \\text {服从参数为2的指数分布，}X_{1},X_{2},\\cdots,X_{n} \\text {是与} X \\text {同分布且相互独立的随机变量序列，则当}n \\rightarrow \\infty, \\\\ Y_{n} = \\frac{1}{n} \\sum_{i=1}^{n} X_{i}^{2} \\text {依概率收敛于( ).} \\end{array}\">\\begin{array}{l} \\text {设} \\lambda \\text {服从参数为2的指数分布，}X_{1},X_{2},\\cdots,X_{n} \\text {是与} X \\text {同分布且相互独立的随机变量序列，则当}n \\rightarrow \\infty, \\\\ Y_{n} = \\frac{1}{n} \\sum_{i=1}^{n} X_{i}^{2} \\text {依概率收敛于( ).} \\end{array}</div>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/probability/ch098/q0001_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\frac { 1 } { 2 }\">\\frac { 1 } { 2 }</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/probability/ch098/q0001_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\frac { 1 } { 3 }\">\\frac { 1 } { 3 }</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/probability/ch098/q0001_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"1\">1</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/probability/ch098/q0001_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\textbf { 0 }\">\\textbf { 0 }</span>"
         }
       ],
       "answer": "A",
       "answer_index": 0,
-      "analysis_html": "<img src=\"/static/generated/assets/probability/ch098/q0001_analysis.png\"/>"
+      "analysis_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{aligned}&amp;\\text{由题设可知}X_{i}\\sim E(2),\\ \\text{因此} \\\\&amp;\\quad E(X_{i}^{2})=D(X_{i})+[E(X_{i})]^{2}=\\frac{1}{\\lambda^{2}}+\\frac{1}{\\lambda^{2}}=\\frac{2}{\\lambda^{2}}=\\frac{1}{2}.\\\\&amp;\\text{根据切比雪夫大数定律的推广：若}X_{1},X_{2},\\cdots \\text{具有相同的数学期望}E(X_{i})=\\mu,\\ \\text{则对于任意的正数}\\varepsilon,\\ \\text{有} \\\\&amp;\\quad\\lim_{i\\rightarrow \\infty}P\\bigg(\\left|\\frac{1}{n}\\sum_{i=1}^{n}X_{i}-\\mu\\right|&lt;\\varepsilon\\bigg)=1.\\\\&amp;\\text{因此，}\\ \\lim_{i\\rightarrow \\infty}P\\bigg(\\left|\\frac{1}{n}\\sum_{i=1}^{n}X_{i}^{2}-\\frac{1}{2}\\right|&lt;\\varepsilon\\bigg)=1.\\ \\text{即当}n\\rightarrow \\infty \\text{时，}Y_{n}=\\frac{1}{n}\\sum_{i=1}^{n}X_{i}^{2}\\text{依概率收敛于}\\frac{1}{2}.\\end{aligned}\">\\begin{aligned}&amp;\\text{由题设可知}X_{i}\\sim E(2),\\ \\text{因此} \\\\&amp;\\quad E(X_{i}^{2})=D(X_{i})+[E(X_{i})]^{2}=\\frac{1}{\\lambda^{2}}+\\frac{1}{\\lambda^{2}}=\\frac{2}{\\lambda^{2}}=\\frac{1}{2}.\\\\&amp;\\text{根据切比雪夫大数定律的推广：若}X_{1},X_{2},\\cdots \\text{具有相同的数学期望}E(X_{i})=\\mu,\\ \\text{则对于任意的正数}\\varepsilon,\\ \\text{有} \\\\&amp;\\quad\\lim_{i\\rightarrow \\infty}P\\bigg(\\left|\\frac{1}{n}\\sum_{i=1}^{n}X_{i}-\\mu\\right|&lt;\\varepsilon\\bigg)=1.\\\\&amp;\\text{因此，}\\ \\lim_{i\\rightarrow \\infty}P\\bigg(\\left|\\frac{1}{n}\\sum_{i=1}^{n}X_{i}^{2}-\\frac{1}{2}\\right|&lt;\\varepsilon\\bigg)=1.\\ \\text{即当}n\\rightarrow \\infty \\text{时，}Y_{n}=\\frac{1}{n}\\sum_{i=1}^{n}X_{i}^{2}\\text{依概率收敛于}\\frac{1}{2}.\\end{aligned}</div>"
     },
     {
       "id": "q0002",
       "number": 2,
       "header": "#2-Averge",
       "difficulty": "Averge",
-      "prompt_html": "<img src=\"/static/generated/assets/probability/ch098/q0002_prompt.png\"/>",
+      "prompt_html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{设}X_{1},X_{2},\\cdots,X_{n}\\text{为随机变量序列，}a\\text{为常数，则}\\{X_{n}\\}\\text{依概率收敛于}a\\text{是指( ).}\">\\text{设}X_{1},X_{2},\\cdots,X_{n}\\text{为随机变量序列，}a\\text{为常数，则}\\{X_{n}\\}\\text{依概率收敛于}a\\text{是指( ).}</span>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/probability/ch098/q0002_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\forall \\varepsilon &gt; 0, \\lim_{n \\to \\infty} P(\\left| X_{n} - a \\right| \\geq \\varepsilon) = 0\">\\forall \\varepsilon &gt; 0, \\lim_{n \\to \\infty} P(\\left| X_{n} - a \\right| \\geq \\varepsilon) = 0</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/probability/ch098/q0002_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\forall \\varepsilon &gt; 0, \\lim_{n \\to \\infty} \\left| X_{n} - a \\right| \\geq \\varepsilon = 0\">\\forall \\varepsilon &gt; 0, \\lim_{n \\to \\infty} \\left| X_{n} - a \\right| \\geq \\varepsilon = 0</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/probability/ch098/q0002_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\lim_{n \\to \\infty} X_{n} = a\">\\lim_{n \\to \\infty} X_{n} = a</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/probability/ch098/q0002_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\lim_{n \\to \\infty} P(X_n) = a\">\\lim_{n \\to \\infty} P(X_n) = a</span>"
         }
       ],
       "answer": "A",
       "answer_index": 0,
-      "analysis_html": "<img src=\"/static/generated/assets/probability/ch098/q0002_analysis.png\"/>"
+      "analysis_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{aligned}&amp;\\forall \\varepsilon &gt; 0, \\lim_{n \\rightarrow \\infty} P(\\left| X_n - a \\right| \\geq \\varepsilon) = 0. \\\\&amp;\\text{由依概率收敛定义即可得到结果.}\\end{aligned}\">\\begin{aligned}&amp;\\forall \\varepsilon &gt; 0, \\lim_{n \\rightarrow \\infty} P(\\left| X_n - a \\right| \\geq \\varepsilon) = 0. \\\\&amp;\\text{由依概率收敛定义即可得到结果.}\\end{aligned}</div>"
     },
     {
       "id": "q0003",
       "number": 3,
       "header": "#3-Averge",
       "difficulty": "Averge",
-      "prompt_html": "<img src=\"/static/generated/assets/probability/ch098/q0003_prompt.png\"/>",
+      "prompt_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{cases} \\{X_{n}\\} \\text{是独立同分布的随机变量序列}，E(X_{n})=\\mu，\\text{则对于任意给定的} \\varepsilon&gt;0，\\text{有}( ). \\end{cases}\">\\begin{cases} \\{X_{n}\\} \\text{是独立同分布的随机变量序列}，E(X_{n})=\\mu，\\text{则对于任意给定的} \\varepsilon&gt;0，\\text{有}( ). \\end{cases}</div>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/probability/ch098/q0003_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\begin{aligned}\\lim_{n \\rightarrow \\infty} P \\bigg\\{ \\frac{1}{n} \\bigg| \\sum_{i=1}^n X_i - n \\mu \\bigg| \\geq \\varepsilon \\bigg\\} = 0\\end{aligned}\">\\begin{aligned}\\lim_{n \\rightarrow \\infty} P \\bigg\\{ \\frac{1}{n} \\bigg| \\sum_{i=1}^n X_i - n \\mu \\bigg| \\geq \\varepsilon \\bigg\\} = 0\\end{aligned}</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/probability/ch098/q0003_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\begin{aligned}\\lim_{n \\rightarrow \\infty} P \\bigg\\{ \\frac{1}{n} \\bigg| \\sum_{i=1}^{n} X_i - \\mu \\bigg| \\geq \\varepsilon \\bigg\\} = 0\\end{aligned}\">\\begin{aligned}\\lim_{n \\rightarrow \\infty} P \\bigg\\{ \\frac{1}{n} \\bigg| \\sum_{i=1}^{n} X_i - \\mu \\bigg| \\geq \\varepsilon \\bigg\\} = 0\\end{aligned}</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/probability/ch098/q0003_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\begin{array}{l} { r } { \\operatorname* { l i m } _ { n \\rightarrow \\infty } P \\bigg \\{ \\displaystyle \\frac { 1 } { n } \\bigg | \\sum _ { i = 1 } ^ { n } X _ { i } - \\mu \\bigg | \\leq \\varepsilon \\bigg \\} = 1 } \\end{array}\">\\begin{array}{l} { r } { \\operatorname* { l i m } _ { n \\rightarrow \\infty } P \\bigg \\{ \\displaystyle \\frac { 1 } { n } \\bigg | \\sum _ { i = 1 } ^ { n } X _ { i } - \\mu \\bigg | \\leq \\varepsilon \\bigg \\} = 1 } \\end{array}</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/probability/ch098/q0003_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\begin{aligned}\\lim_{n\\rightarrow \\infty} P\\bigg\\{\\frac{1}{n}\\bigg|\\sum_{i=1}^{n} X_{i}-n\\mu \\bigg|\\geq \\varepsilon \\bigg\\}=1\\end{aligned}\">\\begin{aligned}\\lim_{n\\rightarrow \\infty} P\\bigg\\{\\frac{1}{n}\\bigg|\\sum_{i=1}^{n} X_{i}-n\\mu \\bigg|\\geq \\varepsilon \\bigg\\}=1\\end{aligned}</span>"
         }
       ],
       "answer": "A",
       "answer_index": 0,
-      "analysis_html": "<img src=\"/static/generated/assets/probability/ch098/q0003_analysis.png\"/>"
+      "analysis_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{aligned} \\text{由于}\\ \\{X_{n}\\}_{n\\in \\mathbb{N}}\\text{是独立同分布的随机变量序列，而且}E(X_{n})=\\mu\\text{，所以根据辛钦大数定律（独立同分布场合下的大数定律）知：随机变量序列}\\{X_{n}\\}_{n\\in \\mathbb{N}}\\text{服从大数定律，即对于任意给定的}\\varepsilon&gt;0，\\text{有}\\\\ \\lim_{n\\rightarrow \\infty}P\\Bigg\\{\\Bigg|\\frac{1}{n}\\sum_{i=1}^{n}X_{i}-\\frac{1}{n}\\sum_{i=1}^{n}E(X_{i})\\Bigg|\\geq \\varepsilon\\Bigg\\}=0\\text{ 或者 } \\lim_{n\\rightarrow \\infty}P\\Bigg\\{\\frac{1}{n}\\Bigg|\\sum_{i=1}^{n}X_{i}-n\\mu\\Bigg|\\geq \\varepsilon\\Bigg\\}=0.\\end{aligned}\">\\begin{aligned} \\text{由于}\\ \\{X_{n}\\}_{n\\in \\mathbb{N}}\\text{是独立同分布的随机变量序列，而且}E(X_{n})=\\mu\\text{，所以根据辛钦大数定律（独立同分布场合下的大数定律）知：随机变量序列}\\{X_{n}\\}_{n\\in \\mathbb{N}}\\text{服从大数定律，即对于任意给定的}\\varepsilon&gt;0，\\text{有}\\\\ \\lim_{n\\rightarrow \\infty}P\\Bigg\\{\\Bigg|\\frac{1}{n}\\sum_{i=1}^{n}X_{i}-\\frac{1}{n}\\sum_{i=1}^{n}E(X_{i})\\Bigg|\\geq \\varepsilon\\Bigg\\}=0\\text{ 或者 } \\lim_{n\\rightarrow \\infty}P\\Bigg\\{\\frac{1}{n}\\Bigg|\\sum_{i=1}^{n}X_{i}-n\\mu\\Bigg|\\geq \\varepsilon\\Bigg\\}=0.\\end{aligned}</div>"
     },
     {
       "id": "q0004",
       "number": 4,
       "header": "#4-Averge",
       "difficulty": "Averge",
-      "prompt_html": "<img src=\"/static/generated/assets/probability/ch098/q0004_prompt.png\"/>",
+      "prompt_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{aligned}&amp; \\text{设}\\xi_1,\\xi_2,\\cdots \\text{是独立同分布的随机变量序列，且}E(\\xi_i)=\\mu,D(\\xi_i)=\\sigma^2 \\text{均存在，令}\\overline{\\xi}=\\frac{1}{n}\\sum_{i=1}^{n}\\xi_i,\\text{则对任意的}\\varepsilon&gt;0,\\text{有}\\\\&amp; \\lim_{n\\to\\infty}P\\{\\left|\\overline{\\xi}-\\mu\\right|\\geq\\varepsilon\\}=\\left(\\right).\\end{aligned}\">\\begin{aligned}&amp; \\text{设}\\xi_1,\\xi_2,\\cdots \\text{是独立同分布的随机变量序列，且}E(\\xi_i)=\\mu,D(\\xi_i)=\\sigma^2 \\text{均存在，令}\\overline{\\xi}=\\frac{1}{n}\\sum_{i=1}^{n}\\xi_i,\\text{则对任意的}\\varepsilon&gt;0,\\text{有}\\\\&amp; \\lim_{n\\to\\infty}P\\{\\left|\\overline{\\xi}-\\mu\\right|\\geq\\varepsilon\\}=\\left(\\right).\\end{aligned}</div>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/probability/ch098/q0004_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"1\">1</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/probability/ch098/q0004_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"0.5\">0.5</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/probability/ch098/q0004_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{不存在}\">\\text{不存在}</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/probability/ch098/q0004_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"0\">0</span>"
         }
       ],
       "answer": "D",
       "answer_index": 3,
-      "analysis_html": "<img src=\"/static/generated/assets/probability/ch098/q0004_analysis.png\"/>"
+      "analysis_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{aligned}&amp;\\text{由题意知}E(\\overline{\\xi})=\\mu,\\ D(\\overline{\\xi})=\\frac{\\sigma^2}{n}\\,.\\,\\,\\text{根据辛钦大数定理可知，}\\lim_{n\\to\\infty}P\\{\\left|\\overline{\\xi}-\\mu\\right|\\geq\\varepsilon\\}=0\\,.\\quad \\end{aligned}\">\\begin{aligned}&amp;\\text{由题意知}E(\\overline{\\xi})=\\mu,\\ D(\\overline{\\xi})=\\frac{\\sigma^2}{n}\\,.\\,\\,\\text{根据辛钦大数定理可知，}\\lim_{n\\to\\infty}P\\{\\left|\\overline{\\xi}-\\mu\\right|\\geq\\varepsilon\\}=0\\,.\\quad \\end{aligned}</div>"
     },
     {
       "id": "q0005",
       "number": 5,
       "header": "#5-Averge",
       "difficulty": "Averge",
-      "prompt_html": "<img src=\"/static/generated/assets/probability/ch098/q0005_prompt.png\"/>",
+      "prompt_html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{设} \\lambda \\text{服从(4,6)上的均匀分布，} X_{1},X_{2},\\cdots,X_{n} \\text{是相互独立且与} \\lambda \\text{同分布的随机变量序列，则当} n \\to \\infty, \\ Y_{n}=\\Bigl( \\frac{1}{n}\\sum_{i=1}^{n}X_{i}\\Bigr)^{2} \\text{依概率收敛于( ).}\">\\text{设} \\lambda \\text{服从(4,6)上的均匀分布，} X_{1},X_{2},\\cdots,X_{n} \\text{是相互独立且与} \\lambda \\text{同分布的随机变量序列，则当} n \\to \\infty, \\ Y_{n}=\\Bigl( \\frac{1}{n}\\sum_{i=1}^{n}X_{i}\\Bigr)^{2} \\text{依概率收敛于( ).}</span>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/probability/ch098/q0005_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"5\">5</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/probability/ch098/q0005_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\frac{1}{3}\">\\frac{1}{3}</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/probability/ch098/q0005_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"25\">25</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/probability/ch098/q0005_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\frac{1}{9}\">\\frac{1}{9}</span>"
         }
       ],
       "answer": "C",
       "answer_index": 2,
-      "analysis_html": "<img src=\"/static/generated/assets/probability/ch098/q0005_analysis.png\"/>"
+      "analysis_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{array}{l}X\\sim U(4,6),\\text{因此}E(X)=5.\\text{由题设，}X_{1},X_{2},\\cdots,X_{n}\\text{符合辛钦大数定理条件，并依据依概率收敛的性质可知，}Y_{n}=\\Bigl(\\frac{1}{n}\\sum_{i=1}^{n}X_{i}\\Bigr)^{2}\\text{依概率收敛于}25.\\end{array}\">\\begin{array}{l}X\\sim U(4,6),\\text{因此}E(X)=5.\\text{由题设，}X_{1},X_{2},\\cdots,X_{n}\\text{符合辛钦大数定理条件，并依据依概率收敛的性质可知，}Y_{n}=\\Bigl(\\frac{1}{n}\\sum_{i=1}^{n}X_{i}\\Bigr)^{2}\\text{依概率收敛于}25.\\end{array}</div>"
     }
-  ]
+  ],
+  "format": "latex",
+  "source_md": "gl/5.1.2_三个大数定理(5题)/5.1.2_三个大数定理(5题).md"
 }

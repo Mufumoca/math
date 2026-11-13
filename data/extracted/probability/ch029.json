@@ -13,504 +13,506 @@
       "number": 1,
       "header": "#1-Averge",
       "difficulty": "Averge",
-      "prompt_html": "<img src=\"/static/generated/assets/probability/ch029/q0001_prompt.png\"/>",
+      "prompt_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\text{设随机变量}\\xi\\text{的密度函数为}\\varphi(x)=\\begin{cases}0.015e^{-0.015x},&amp;\\quad x&gt;0\\\\ 0,&amp;\\quad\\text{其它}\\end{cases},\\text{则}P\\{\\xi&gt;200\\}=\\left(\\begin{matrix} \\end{matrix}\\right).\">\\text{设随机变量}\\xi\\text{的密度函数为}\\varphi(x)=\\begin{cases}0.015e^{-0.015x},&amp;\\quad x&gt;0\\\\ 0,&amp;\\quad\\text{其它}\\end{cases},\\text{则}P\\{\\xi&gt;200\\}=\\left(\\begin{matrix} \\end{matrix}\\right).</div>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/probability/ch029/q0001_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"1 - e ^ { - 3 }\">1 - e ^ { - 3 }</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/probability/ch029/q0001_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"1 - e ^ { - 1 / 3 }\">1 - e ^ { - 1 / 3 }</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/probability/ch029/q0001_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"e ^ { - 1 / 3 }\">e ^ { - 1 / 3 }</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/probability/ch029/q0001_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"e ^ { - 3 }\">e ^ { - 3 }</span>"
         }
       ],
       "answer": "D",
       "answer_index": 3,
-      "analysis_html": "<img src=\"/static/generated/assets/probability/ch029/q0001_analysis.png\"/>"
+      "analysis_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{aligned}&amp;\\text{由对立事件的概率计算有，}\\\\&amp;P\\{\\xi&gt;200\\}=1-P\\{\\xi\\leqslant 200\\},\\\\&amp;\\text{又根据概率密度的概率计算 }P\\{X\\leqslant a\\}=\\int_{-\\infty}^{a}f(x)dx\\text{得}\\\\&amp;P\\{\\xi&gt;200\\}=1-P\\{\\xi\\leqslant 200\\}=1-\\int_{-\\infty}^{200}f(x)dx=1-\\int_{0}^{200}0.015e^{-0.015x}dx=e^{-3}\\,.\\end{aligned}\">\\begin{aligned}&amp;\\text{由对立事件的概率计算有，}\\\\&amp;P\\{\\xi&gt;200\\}=1-P\\{\\xi\\leqslant 200\\},\\\\&amp;\\text{又根据概率密度的概率计算 }P\\{X\\leqslant a\\}=\\int_{-\\infty}^{a}f(x)dx\\text{得}\\\\&amp;P\\{\\xi&gt;200\\}=1-P\\{\\xi\\leqslant 200\\}=1-\\int_{-\\infty}^{200}f(x)dx=1-\\int_{0}^{200}0.015e^{-0.015x}dx=e^{-3}\\,.\\end{aligned}</div>"
     },
     {
       "id": "q0002",
       "number": 2,
       "header": "#2-Averge",
       "difficulty": "Averge",
-      "prompt_html": "<img src=\"/static/generated/assets/probability/ch029/q0002_prompt.png\"/>",
+      "prompt_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\text{连续型随机变量}X \\text{的概率密度为}f(x)=\\begin{cases}\\lambda e^{-3x},&amp;\\quad x&gt;0\\\\ 0,&amp;\\quad x\\leq 0\\end{cases},\\text{则}P\\{X\\leq 0.1\\}=\\left(\\begin{matrix}1\\\\ 0\\end{matrix}\\right).\">\\text{连续型随机变量}X \\text{的概率密度为}f(x)=\\begin{cases}\\lambda e^{-3x},&amp;\\quad x&gt;0\\\\ 0,&amp;\\quad x\\leq 0\\end{cases},\\text{则}P\\{X\\leq 0.1\\}=\\left(\\begin{matrix}1\\\\ 0\\end{matrix}\\right).</div>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/probability/ch029/q0002_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"1 - e ^ { - 0 . 3 }\">1 - e ^ { - 0 . 3 }</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/probability/ch029/q0002_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"e ^ { - 0 . 3 }\">e ^ { - 0 . 3 }</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/probability/ch029/q0002_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\, 1 - e ^ { - 3 }\">\\, 1 - e ^ { - 3 }</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/probability/ch029/q0002_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"e ^ { - 3 }\">e ^ { - 3 }</span>"
         }
       ],
       "answer": "A",
       "answer_index": 0,
-      "analysis_html": "<img src=\"/static/generated/assets/probability/ch029/q0002_analysis.png\"/>"
+      "analysis_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{aligned}&amp;\\text{由概率密度的性质}\\int_{-\\infty}^{+\\infty}f(x)dx=1,\\text{得}\\\\&amp;\\quad\\quad\\quad\\int_{-\\infty}^{+\\infty}f(x)dx=\\int_{0}^{+\\infty}\\lambda e^{-3x}dx=1\\ \\Rightarrow\\ \\lambda=3,\\ \\\\&amp;\\text{所以，}\\\\&amp;\\quad\\quad\\quad P\\{X\\leq 0.1\\}=\\int_{-\\infty}^{0.1}f(x)dx=\\int_{0}^{0.1}3e^{-3x}dx=1-e^{-0.3}.\\end{aligned}\">\\begin{aligned}&amp;\\text{由概率密度的性质}\\int_{-\\infty}^{+\\infty}f(x)dx=1,\\text{得}\\\\&amp;\\quad\\quad\\quad\\int_{-\\infty}^{+\\infty}f(x)dx=\\int_{0}^{+\\infty}\\lambda e^{-3x}dx=1\\ \\Rightarrow\\ \\lambda=3,\\ \\\\&amp;\\text{所以，}\\\\&amp;\\quad\\quad\\quad P\\{X\\leq 0.1\\}=\\int_{-\\infty}^{0.1}f(x)dx=\\int_{0}^{0.1}3e^{-3x}dx=1-e^{-0.3}.\\end{aligned}</div>"
     },
     {
       "id": "q0003",
       "number": 3,
       "header": "#3-Hard",
       "difficulty": "Hard",
-      "prompt_html": "<img src=\"/static/generated/assets/probability/ch029/q0003_prompt.png\"/>",
+      "prompt_html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{设}K\\text{在}(0,5)\\text{上服从均匀分布，求}x\\text{的方程}4x^{2}+4Kx+K+2=0\\text{有实根的概率为}( ).\">\\text{设}K\\text{在}(0,5)\\text{上服从均匀分布，求}x\\text{的方程}4x^{2}+4Kx+K+2=0\\text{有实根的概率为}( ).</span>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/probability/ch029/q0003_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\frac { 3 } { 5 }\">\\frac { 3 } { 5 }</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/probability/ch029/q0003_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\frac { 1 } { 2 }\">\\frac { 1 } { 2 }</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/probability/ch029/q0003_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\frac{3}{4}\">\\frac{3}{4}</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/probability/ch029/q0003_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\frac { 1 } { 5 }\">\\frac { 1 } { 5 }</span>"
         }
       ],
       "answer": "A",
       "answer_index": 0,
-      "analysis_html": "<img src=\"/static/generated/assets/probability/ch029/q0003_analysis.png\"/>"
+      "analysis_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{aligned} &amp; \\text{因为} K \\sim U(0,5),\\ \\text{所以} f_{K}(k) = \\begin{cases} 1/5, &amp; 0 &lt; k &lt; 5 \\\\ 0, &amp; \\text{其它} \\end{cases}, \\\\ &amp; \\text{方程} \\ 4x^{2} + 4Kx + K + 2 = 0 \\text{有实根的充要条件为} (4K)^{2} - 4 \\cdot 4(K+2) \\geq 0, \\text{即} \\\\ &amp; \\qquad K^{2} - K - 2 \\geq 0, \\\\ &amp; \\text{亦即} (k-2)(K+1) \\geq 0, \\ \\text{解得} K \\geq 2 (K \\leq -1 \\text{舍去}), \\ \\text{所以} \\\\ &amp; \\qquad P\\{\\text{方程有实根}\\} = P\\{K \\geq 2\\} = \\int_{-\\frac{1}{2}}^{\\frac{1}{2}} \\! \\! dx = \\frac{3}{5}.\\end{aligned}\">\\begin{aligned} &amp; \\text{因为} K \\sim U(0,5),\\ \\text{所以} f_{K}(k) = \\begin{cases} 1/5, &amp; 0 &lt; k &lt; 5 \\\\ 0, &amp; \\text{其它} \\end{cases}, \\\\ &amp; \\text{方程} \\ 4x^{2} + 4Kx + K + 2 = 0 \\text{有实根的充要条件为} (4K)^{2} - 4 \\cdot 4(K+2) \\geq 0, \\text{即} \\\\ &amp; \\qquad K^{2} - K - 2 \\geq 0, \\\\ &amp; \\text{亦即} (k-2)(K+1) \\geq 0, \\ \\text{解得} K \\geq 2 (K \\leq -1 \\text{舍去}), \\ \\text{所以} \\\\ &amp; \\qquad P\\{\\text{方程有实根}\\} = P\\{K \\geq 2\\} = \\int_{-\\frac{1}{2}}^{\\frac{1}{2}} \\! \\! dx = \\frac{3}{5}.\\end{aligned}</div>"
     },
     {
       "id": "q0004",
       "number": 4,
       "header": "#4-Hard",
       "difficulty": "Hard",
-      "prompt_html": "<img src=\"/static/generated/assets/probability/ch029/q0004_prompt.png\"/>",
+      "prompt_html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{设顾客排队等待服务的时间}X(\\text{以分钟计})\\text{服从}i=1/5\\text{的指数分布，某顾客等待服务，若超过10分钟，他就离开，他一个月要去等待服务5次，以}Y\\text{表示一个月内他未等到服务而离开的次数，关于}Y\\text{的概率分布和}P\\{Y\\geq 1\\},\\text{下列说法正确的是}()。\">\\text{设顾客排队等待服务的时间}X(\\text{以分钟计})\\text{服从}i=1/5\\text{的指数分布，某顾客等待服务，若超过10分钟，他就离开，他一个月要去等待服务5次，以}Y\\text{表示一个月内他未等到服务而离开的次数，关于}Y\\text{的概率分布和}P\\{Y\\geq 1\\},\\text{下列说法正确的是}()。</span>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/probability/ch029/q0004_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\begin{aligned}P\\{Y=k\\}=(e^{-2})^{k}(1-e^{-2})^{5-k},\\, k=0,\\, 1,\\, 2,\\, 3,\\, 4,\\, 5,\\end{aligned}\">\\begin{aligned}P\\{Y=k\\}=(e^{-2})^{k}(1-e^{-2})^{5-k},\\, k=0,\\, 1,\\, 2,\\, 3,\\, 4,\\, 5,\\end{aligned}</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/probability/ch029/q0004_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"P\\{Y \\geq 1\\} = 0.46\">P\\{Y \\geq 1\\} = 0.46</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/probability/ch029/q0004_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\begin{aligned}P\\{Y=k\\} = C_5^k (e^{-2})^k (1-e^{-2})^{5-k}, \\, k=0,\\, 1,\\, 2,\\, 3,\\, 4,\\, 5,\\end{aligned}\">\\begin{aligned}P\\{Y=k\\} = C_5^k (e^{-2})^k (1-e^{-2})^{5-k}, \\, k=0,\\, 1,\\, 2,\\, 3,\\, 4,\\, 5,\\end{aligned}</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/probability/ch029/q0004_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\begin{aligned}P\\{Y \\geq 1\\} = 0.33\\end{aligned}\">\\begin{aligned}P\\{Y \\geq 1\\} = 0.33\\end{aligned}</span>"
         }
       ],
       "answer": "C",
       "answer_index": 2,
-      "analysis_html": "<img src=\"/static/generated/assets/probability/ch029/q0004_analysis.png\"/>"
+      "analysis_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{aligned}P\\{X\\geq 10\\} &amp;= 1-P\\{X&lt;10\\} \\ = 1-(1-e^{-1/5\\times 10})=e^{-2},\\\\ \\therefore P\\{Y=k\\} &amp;= C_2^k(e^{-2})^k(1-e^{-2})^{5-k},\\, k=0,\\,1,\\,2,\\,3,\\,4,\\,5,\\\\ P\\{Y\\geq 1\\} &amp;= 1-(1-e^{-2})^5 \\approx 0.5167.\\end{aligned}\">\\begin{aligned}P\\{X\\geq 10\\} &amp;= 1-P\\{X&lt;10\\} \\ = 1-(1-e^{-1/5\\times 10})=e^{-2},\\\\ \\therefore P\\{Y=k\\} &amp;= C_2^k(e^{-2})^k(1-e^{-2})^{5-k},\\, k=0,\\,1,\\,2,\\,3,\\,4,\\,5,\\\\ P\\{Y\\geq 1\\} &amp;= 1-(1-e^{-2})^5 \\approx 0.5167.\\end{aligned}</div>"
     },
     {
       "id": "q0005",
       "number": 5,
       "header": "#5-Hard",
       "difficulty": "Hard",
-      "prompt_html": "<img src=\"/static/generated/assets/probability/ch029/q0005_prompt.png\"/>",
+      "prompt_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{aligned} \\text{使用了} \\; x \\text{小时的电子管，在以后的} \\; \\Delta x \\text{小时内损坏的概率等于} \\; \\lambda \\Delta x + o(\\Delta x) \\text{，其中} \\; \\lambda &gt; 0 \\text{是常数，} \\\\ \\text{设电子管在损坏前已使用时数} \\; \\lambda \\text{的分布函数为} F(x) \\text{，则电子管在} \\; T \\text{小时内损坏的概率为} \\; (\\; ) \\; . \\end{aligned}\">\\begin{aligned} \\text{使用了} \\; x \\text{小时的电子管，在以后的} \\; \\Delta x \\text{小时内损坏的概率等于} \\; \\lambda \\Delta x + o(\\Delta x) \\text{，其中} \\; \\lambda &gt; 0 \\text{是常数，} \\\\ \\text{设电子管在损坏前已使用时数} \\; \\lambda \\text{的分布函数为} F(x) \\text{，则电子管在} \\; T \\text{小时内损坏的概率为} \\; (\\; ) \\; . \\end{aligned}</div>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/probability/ch029/q0005_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"P\\{X\\leq T\\}=1+e^{-\\lambda T}\">P\\{X\\leq T\\}=1+e^{-\\lambda T}</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/probability/ch029/q0005_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\begin{aligned}P\\{X\\leq T\\}=e^{-\\lambda T}\\end{aligned}\">\\begin{aligned}P\\{X\\leq T\\}=e^{-\\lambda T}\\end{aligned}</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/probability/ch029/q0005_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\begin{array}{l} { r } { P \\{ X \\leq T \\} = - e ^ { - \\lambda T } } \\end{array}\">\\begin{array}{l} { r } { P \\{ X \\leq T \\} = - e ^ { - \\lambda T } } \\end{array}</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/probability/ch029/q0005_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\begin{array}{l} { r } { P \\{ X \\leq T \\} = 1 - e ^ { - \\lambda T } } \\end{array}\">\\begin{array}{l} { r } { P \\{ X \\leq T \\} = 1 - e ^ { - \\lambda T } } \\end{array}</span>"
         }
       ],
       "answer": "D",
       "answer_index": 3,
-      "analysis_html": "<img src=\"/static/generated/assets/probability/ch029/q0005_analysis.png\"/>"
+      "analysis_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{aligned} \\text{因}X\\text{的可能取值充满区间} (0,+\\infty),\\ \\text{故应分段求} \\ F(x)=P\\{X\\leq x\\}.\\\\ \\text{当}x\\leq 0\\text{时}, \\ F(x)=P\\{X\\leq x\\}=P(\\emptyset)=0;\\\\ \\text{当}x&gt;0\\text{时,由题设知}P\\{x\\leq x+\\Delta x/\\{X\\}=\\lambda \\Delta x+o(\\Delta x),\\ \\text{而}\\\\ P\\{x&lt;X\\leq x+\\Delta x/\\{X\\}=\\frac{P\\{x&lt;X\\leq x+\\Delta x,X&gt;x\\}}{P\\{X&gt;x\\}}=\\frac{P\\{x&lt;X\\leq x+\\Delta x\\}}{1-P\\{X\\leq x\\}}=\\frac{F(x+\\Delta x)-F(x)}{1-F(x)},\\\\ \\text{故} \\ \\frac{F(X+\\Delta x)-F(x)}{1-F(x)}=\\lambda \\Delta x+o(\\Delta x),\\ \\text{即}\\\\ \\frac{F(x+\\Delta x)-F(x)}{\\Delta x}=[1-F(x)]\\left[\\lambda+\\frac{o(\\Delta x)}{\\Delta x}\\right],\\\\ \\text{令}o(\\Delta x)\\to 0,\\ \\text{得} \\ F&#x27;(x)=\\lambda[1-F(x)].\\\\ \\text{这是关于}F(x)\\text{的变量可分离微分方程,分离变量}\\frac{dF(x)}{1-F(x)}=\\lambda dx,\\ \\text{积分之得通解为}\\\\ C[1-F(x)]=e^{-\\lambda x}\\ (C\\text{为任意常数}).\\\\ \\text{注意到初始条件}F(0)=0,\\ \\text{故} \\ C=1.\\\\ \\text{于是}F(x)=1-e^{-\\lambda x}, \\ x&gt;0,\\ \\lambda&gt;0,\\ \\text{故}x\\text{的分布函数为}\\\\ F(x)=\\begin{cases} \\ 0, &amp; x\\leq 0\\\\ 1-e^{-\\lambda x}, &amp; x&gt;0 \\end{cases}(\\lambda&gt;0),\\\\ \\text{从而电子管在7小时内损坏的概率为}\\\\ P\\{X\\leq T\\}=F(T)=1-e^{-\\lambda T}.\\end{aligned}\">\\begin{aligned} \\text{因}X\\text{的可能取值充满区间} (0,+\\infty),\\ \\text{故应分段求} \\ F(x)=P\\{X\\leq x\\}.\\\\ \\text{当}x\\leq 0\\text{时}, \\ F(x)=P\\{X\\leq x\\}=P(\\emptyset)=0;\\\\ \\text{当}x&gt;0\\text{时,由题设知}P\\{x\\leq x+\\Delta x/\\{X\\}=\\lambda \\Delta x+o(\\Delta x),\\ \\text{而}\\\\ P\\{x&lt;X\\leq x+\\Delta x/\\{X\\}=\\frac{P\\{x&lt;X\\leq x+\\Delta x,X&gt;x\\}}{P\\{X&gt;x\\}}=\\frac{P\\{x&lt;X\\leq x+\\Delta x\\}}{1-P\\{X\\leq x\\}}=\\frac{F(x+\\Delta x)-F(x)}{1-F(x)},\\\\ \\text{故} \\ \\frac{F(X+\\Delta x)-F(x)}{1-F(x)}=\\lambda \\Delta x+o(\\Delta x),\\ \\text{即}\\\\ \\frac{F(x+\\Delta x)-F(x)}{\\Delta x}=[1-F(x)]\\left[\\lambda+\\frac{o(\\Delta x)}{\\Delta x}\\right],\\\\ \\text{令}o(\\Delta x)\\to 0,\\ \\text{得} \\ F&#x27;(x)=\\lambda[1-F(x)].\\\\ \\text{这是关于}F(x)\\text{的变量可分离微分方程,分离变量}\\frac{dF(x)}{1-F(x)}=\\lambda dx,\\ \\text{积分之得通解为}\\\\ C[1-F(x)]=e^{-\\lambda x}\\ (C\\text{为任意常数}).\\\\ \\text{注意到初始条件}F(0)=0,\\ \\text{故} \\ C=1.\\\\ \\text{于是}F(x)=1-e^{-\\lambda x}, \\ x&gt;0,\\ \\lambda&gt;0,\\ \\text{故}x\\text{的分布函数为}\\\\ F(x)=\\begin{cases} \\ 0, &amp; x\\leq 0\\\\ 1-e^{-\\lambda x}, &amp; x&gt;0 \\end{cases}(\\lambda&gt;0),\\\\ \\text{从而电子管在7小时内损坏的概率为}\\\\ P\\{X\\leq T\\}=F(T)=1-e^{-\\lambda T}.\\end{aligned}</div>"
     },
     {
       "id": "q0006",
       "number": 6,
       "header": "#6-Averge",
       "difficulty": "Averge",
-      "prompt_html": "<img src=\"/static/generated/assets/probability/ch029/q0006_prompt.png\"/>",
+      "prompt_html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{若随机变量} \\xi \\sim U[1,6], \\text{则方程} x^{2} + \\xi x + 1 = 0 \\text{有实根的概率为( )}.\">\\text{若随机变量} \\xi \\sim U[1,6], \\text{则方程} x^{2} + \\xi x + 1 = 0 \\text{有实根的概率为( )}.</span>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/probability/ch029/q0006_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\frac { 4 } { 5 }\">\\frac { 4 } { 5 }</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/probability/ch029/q0006_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\frac { 1 } { 5 }\">\\frac { 1 } { 5 }</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/probability/ch029/q0006_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\frac {2}{5}\">\\frac {2}{5}</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/probability/ch029/q0006_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\frac { 3 } { 5 }\">\\frac { 3 } { 5 }</span>"
         }
       ],
       "answer": "A",
       "answer_index": 0,
-      "analysis_html": "<img src=\"/static/generated/assets/probability/ch029/q0006_analysis.png\"/>"
+      "analysis_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{aligned} &amp; \\text{要使} x^{2}+\\xi x+1=0 \\text{有实根，则必须满足} b^{2}-4ac=\\xi^{2}-4\\geq 0,\\text{即有实根的概率为} \\\\ &amp; P\\{\\xi^{2}-4\\geq 0\\}=P\\{\\xi\\geq 2\\}+P\\{\\xi\\leq-2\\}=\\frac{4}{5}.\\end{aligned}\">\\begin{aligned} &amp; \\text{要使} x^{2}+\\xi x+1=0 \\text{有实根，则必须满足} b^{2}-4ac=\\xi^{2}-4\\geq 0,\\text{即有实根的概率为} \\\\ &amp; P\\{\\xi^{2}-4\\geq 0\\}=P\\{\\xi\\geq 2\\}+P\\{\\xi\\leq-2\\}=\\frac{4}{5}.\\end{aligned}</div>"
     },
     {
       "id": "q0007",
       "number": 7,
       "header": "#7-Averge",
       "difficulty": "Averge",
-      "prompt_html": "<img src=\"/static/generated/assets/probability/ch029/q0007_prompt.png\"/>",
+      "prompt_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{aligned} \\text{设一个汽车站上，某路公共汽车每5分钟有一辆车到达，设乘客在5分钟内任一时间到达是等可能的，试计算在车站候车的5位乘客中只有1位等待时间超过4分钟的概率是（.）。} \\end{aligned}\">\\begin{aligned} \\text{设一个汽车站上，某路公共汽车每5分钟有一辆车到达，设乘客在5分钟内任一时间到达是等可能的，试计算在车站候车的5位乘客中只有1位等待时间超过4分钟的概率是（.）。} \\end{aligned}</div>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/probability/ch029/q0007_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"0.5904\">0.5904</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/probability/ch029/q0007_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\scriptstyle 0 . 336\">\\scriptstyle 0 . 336</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/probability/ch029/q0007_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"0.4096\">0.4096</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/probability/ch029/q0007_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"0.752\">0.752</span>"
         }
       ],
       "answer": "C",
       "answer_index": 2,
-      "analysis_html": "<img src=\"/static/generated/assets/probability/ch029/q0007_analysis.png\"/>"
+      "analysis_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{aligned} \\text{设} \\; X \\text{为每位乘客的候车时间，则}X \\text{服从} [0,5] \\text{上的均匀分布。设}Y \\text{表示车站上5位乘客中等待时间超过4分钟的人数。由于每人到达时间是相互独立的，所以这是5重伯努力概型。}Y \\text{服从参数为}n=5,\\;p=P\\{X \\geq 4\\}=0.2\\text{的二项分布，所以} \\\\ P\\{Y=1\\} = C_5^1 \\times 0.2 \\times 0.8^4 = 0.4096.\\end{aligned}\">\\begin{aligned} \\text{设} \\; X \\text{为每位乘客的候车时间，则}X \\text{服从} [0,5] \\text{上的均匀分布。设}Y \\text{表示车站上5位乘客中等待时间超过4分钟的人数。由于每人到达时间是相互独立的，所以这是5重伯努力概型。}Y \\text{服从参数为}n=5,\\;p=P\\{X \\geq 4\\}=0.2\\text{的二项分布，所以} \\\\ P\\{Y=1\\} = C_5^1 \\times 0.2 \\times 0.8^4 = 0.4096.\\end{aligned}</div>"
     },
     {
       "id": "q0008",
       "number": 8,
       "header": "#8-Hard",
       "difficulty": "Hard",
-      "prompt_html": "<img src=\"/static/generated/assets/probability/ch029/q0008_prompt.png\"/>",
+      "prompt_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{cases} \\dfrac{1}{600}e^{-\\dfrac{x}{600}},&amp;x&gt;0, \\\\ 0, &amp;x\\leq 0, \\end{cases}\">\\begin{cases} \\dfrac{1}{600}e^{-\\dfrac{x}{600}},&amp;x&gt;0, \\\\ 0, &amp;x\\leq 0, \\end{cases}</div>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/probability/ch029/q0008_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"1 / e - 1\">1 / e - 1</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/probability/ch029/q0008_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"- 1 / e .\">- 1 / e .</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/probability/ch029/q0008_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"1 / e\">1 / e</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/probability/ch029/q0008_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"1 - 1 / e\">1 - 1 / e</span>"
         }
       ],
       "answer": "D",
       "answer_index": 3,
-      "analysis_html": "<img src=\"/static/generated/assets/probability/ch029/q0008_analysis.png\"/>"
+      "analysis_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{aligned}&amp;\\text{设 }A_i\\text{ 表示事件“在仪器使用最初200小时内，第 }i\\text{ 个元件损坏”} (i=1,2,3) \\text{ 以 }X_i(i=1,2,3) \\text{ 表示第 }i\\text{ 个元件使用寿命. 由条件知 }X_i\\text{ 服从密度为 }f(x)\\text{ 的指数分布.}\\\\&amp;\\quad P(A_i)=P\\{X_i\\leq 200\\}=\\int_0^{200}\\frac{1}{600}\\,e^{-\\frac{x}{600}}dx=1-e^{-1/3},\\\\&amp;\\quad P(\\overline{A_i})=e^{-1/3},\\\\&amp;\\text{因此 }a=P(A_1\\cup A_2\\cup A_3)=1-P(\\overline{A_1}\\,\\overline{A_2}\\,\\overline{A_3})=1-(e^{-1/3})^3=1-1/e.\\end{aligned}\">\\begin{aligned}&amp;\\text{设 }A_i\\text{ 表示事件“在仪器使用最初200小时内，第 }i\\text{ 个元件损坏”} (i=1,2,3) \\text{ 以 }X_i(i=1,2,3) \\text{ 表示第 }i\\text{ 个元件使用寿命. 由条件知 }X_i\\text{ 服从密度为 }f(x)\\text{ 的指数分布.}\\\\&amp;\\quad P(A_i)=P\\{X_i\\leq 200\\}=\\int_0^{200}\\frac{1}{600}\\,e^{-\\frac{x}{600}}dx=1-e^{-1/3},\\\\&amp;\\quad P(\\overline{A_i})=e^{-1/3},\\\\&amp;\\text{因此 }a=P(A_1\\cup A_2\\cup A_3)=1-P(\\overline{A_1}\\,\\overline{A_2}\\,\\overline{A_3})=1-(e^{-1/3})^3=1-1/e.\\end{aligned}</div>"
     },
     {
       "id": "q0009",
       "number": 9,
       "header": "#9-Averge",
       "difficulty": "Averge",
-      "prompt_html": "<img src=\"/static/generated/assets/probability/ch029/q0009_prompt.png\"/>",
+      "prompt_html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{设随机变量}K \\text{服从均匀分布}U[0,10], \\text{方程}x^{2}+Kx+1=0 \\text{无实根的概率是}(\\text{.})\">\\text{设随机变量}K \\text{服从均匀分布}U[0,10], \\text{方程}x^{2}+Kx+1=0 \\text{无实根的概率是}(\\text{.})</span>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/probability/ch029/q0009_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"0.2\">0.2</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/probability/ch029/q0009_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"0.8\">0.8</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/probability/ch029/q0009_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"0.9\">0.9</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/probability/ch029/q0009_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"0.7\">0.7</span>"
         }
       ],
       "answer": "A",
       "answer_index": 0,
-      "analysis_html": "<img src=\"/static/generated/assets/probability/ch029/q0009_analysis.png\"/>"
+      "analysis_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{aligned} \\text{一元二次方程}x^{2}+Kx+1=0 \\text{有实根的充要条件是}K^{2}-4\\geq 0,\\text{所以方程无实根的概率为} \\\\P\\{K^{2}-4&lt;0\\}=P\\{-2\\leq K\\leq 2\\}=\\int_{0}^{2}\\frac{1}{10}dx=0.2\\,.\\end{aligned}\">\\begin{aligned} \\text{一元二次方程}x^{2}+Kx+1=0 \\text{有实根的充要条件是}K^{2}-4\\geq 0,\\text{所以方程无实根的概率为} \\\\P\\{K^{2}-4&lt;0\\}=P\\{-2\\leq K\\leq 2\\}=\\int_{0}^{2}\\frac{1}{10}dx=0.2\\,.\\end{aligned}</div>"
     },
     {
       "id": "q0010",
       "number": 10,
       "header": "#10-Averge",
       "difficulty": "Averge",
-      "prompt_html": "<img src=\"/static/generated/assets/probability/ch029/q0010_prompt.png\"/>",
+      "prompt_html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{设随机变量} \\xi \\text{服从参数} \\lambda = 2 \\text{的指数分布，则} P\\{\\xi \\geq 1 \\} = ( ) .\">\\text{设随机变量} \\xi \\text{服从参数} \\lambda = 2 \\text{的指数分布，则} P\\{\\xi \\geq 1 \\} = ( ) .</span>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/probability/ch029/q0010_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"e ^ { - 2 }\">e ^ { - 2 }</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/probability/ch029/q0010_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"1 - e ^ { - 2 }\">1 - e ^ { - 2 }</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/probability/ch029/q0010_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"1 - e ^ { - 1 }\">1 - e ^ { - 1 }</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/probability/ch029/q0010_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"e ^ { - 1 }\">e ^ { - 1 }</span>"
         }
       ],
       "answer": "A",
       "answer_index": 0,
-      "analysis_html": "<img src=\"/static/generated/assets/probability/ch029/q0010_analysis.png\"/>"
+      "analysis_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{aligned}&amp;\\text{由对立事件的概率计算公式有}\\\\&amp;P\\{\\xi \\geq 1\\}=1-P\\{\\xi &lt;1\\}\\,,\\\\&amp;\\text{而}\\,\\,\\,P\\{\\xi &lt;1\\}=\\int_{-\\infty}^{1}f(x)dx=\\int_{0}^{1}2e^{-2x}dx=1-e^{-2}\\,,\\\\&amp;\\text{故}P\\{\\xi \\geq 1\\}=1-P\\{\\xi &lt;1\\}\\,1-(1-e^{-2})=e^{-2}\\,.\\end{aligned}\">\\begin{aligned}&amp;\\text{由对立事件的概率计算公式有}\\\\&amp;P\\{\\xi \\geq 1\\}=1-P\\{\\xi &lt;1\\}\\,,\\\\&amp;\\text{而}\\,\\,\\,P\\{\\xi &lt;1\\}=\\int_{-\\infty}^{1}f(x)dx=\\int_{0}^{1}2e^{-2x}dx=1-e^{-2}\\,,\\\\&amp;\\text{故}P\\{\\xi \\geq 1\\}=1-P\\{\\xi &lt;1\\}\\,1-(1-e^{-2})=e^{-2}\\,.\\end{aligned}</div>"
     },
     {
       "id": "q0011",
       "number": 11,
       "header": "#11-Averge",
       "difficulty": "Averge",
-      "prompt_html": "<img src=\"/static/generated/assets/probability/ch029/q0011_prompt.png\"/>",
+      "prompt_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{aligned} \\text{设随机变量}X_{1}\\text{服从区间}[0,5]\\text{上的均匀分布，}X_{2}\\text{服从区间[-2,2]}\\text{上的均匀分布，且}A=\\{X_{1}\\leq 3\\},B=\\{X_{2}&gt;0\\},\\\\P(AB)=0.3，则P(\\overline{A}\\cup \\overline{B})=()\\,. \\end{aligned}\">\\begin{aligned} \\text{设随机变量}X_{1}\\text{服从区间}[0,5]\\text{上的均匀分布，}X_{2}\\text{服从区间[-2,2]}\\text{上的均匀分布，且}A=\\{X_{1}\\leq 3\\},B=\\{X_{2}&gt;0\\},\\\\P(AB)=0.3，则P(\\overline{A}\\cup \\overline{B})=()\\,. \\end{aligned}</div>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/probability/ch029/q0011_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"0.7\">0.7</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/probability/ch029/q0011_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"0.5\">0.5</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/probability/ch029/q0011_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"0.4\">0.4</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/probability/ch029/q0011_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"0.8\">0.8</span>"
         }
       ],
       "answer": "A",
       "answer_index": 0,
-      "analysis_html": "<img src=\"/static/generated/assets/probability/ch029/q0011_analysis.png\"/>"
+      "analysis_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{aligned}\\text{解法一：}&amp;\\qquad P(\\overline{A}\\cup \\overline{B})=1-\\overline{P(A\\cup B)}=1-P(AB)=0.7\\,.\\\\ \\text{解法二：}&amp;\\qquad P(\\overline{A}\\cup \\overline{B})=P(\\overline{A})+P(\\overline{B})-P(\\overline{A}\\overline{B})=2-P(A)-P(B)-(1-P(A\\cup B))=1-P(AB)=1-0.3=0.7\\,.\\end{aligned}\">\\begin{aligned}\\text{解法一：}&amp;\\qquad P(\\overline{A}\\cup \\overline{B})=1-\\overline{P(A\\cup B)}=1-P(AB)=0.7\\,.\\\\ \\text{解法二：}&amp;\\qquad P(\\overline{A}\\cup \\overline{B})=P(\\overline{A})+P(\\overline{B})-P(\\overline{A}\\overline{B})=2-P(A)-P(B)-(1-P(A\\cup B))=1-P(AB)=1-0.3=0.7\\,.\\end{aligned}</div>"
     },
     {
       "id": "q0012",
       "number": 12,
       "header": "#12-Averge",
       "difficulty": "Averge",
-      "prompt_html": "<img src=\"/static/generated/assets/probability/ch029/q0012_prompt.png\"/>",
+      "prompt_html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{设} \\zeta \\text{在}[-3,5]\\text{上服从均匀分布，事件}B \\text{为“方程}x^{2}-\\zeta x+1=0\\text{有实根}”，\\text{则}P(B)=()\\text {.}\">\\text{设} \\zeta \\text{在}[-3,5]\\text{上服从均匀分布，事件}B \\text{为“方程}x^{2}-\\zeta x+1=0\\text{有实根}”，\\text{则}P(B)=()\\text {.}</span>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/probability/ch029/q0012_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\frac { 1 } { 2 }\">\\frac { 1 } { 2 }</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/probability/ch029/q0012_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\frac { 3 } { 4 }\">\\frac { 3 } { 4 }</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/probability/ch029/q0012_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\frac { 3 } { 8 }\">\\frac { 3 } { 8 }</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/probability/ch029/q0012_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"1\">1</span>"
         }
       ],
       "answer": "A",
       "answer_index": 0,
-      "analysis_html": "<img src=\"/static/generated/assets/probability/ch029/q0012_analysis.png\"/>"
+      "analysis_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{aligned} \\text{一元二次方程}x^2-\\xi x+1=0 \\text{有实根的充要条件是}\\\\ \\xi^2-4\\geq 0,\\\\ \\text{又}\\xi \\text{为随机变量，所以方程有实根的概率}P(B)\\text{为}\\\\ P(B)=P\\{\\xi^2-4\\geq 0\\}=P\\{\\xi\\leq -2\\text{或}\\xi\\geq 2\\}\\\\ =P\\{\\xi\\leq -2\\}+P\\{\\xi\\geq 2\\}\\\\ =\\int_{-\\frac{\\pi}{3}}^{-\\frac{\\pi}{2}}\\!\\!dx+\\int_{\\frac{\\pi}{3}}^{\\frac{\\pi}{2}}\\!\\!dx=\\frac{1}{2}\\,.\\end{aligned}\">\\begin{aligned} \\text{一元二次方程}x^2-\\xi x+1=0 \\text{有实根的充要条件是}\\\\ \\xi^2-4\\geq 0,\\\\ \\text{又}\\xi \\text{为随机变量，所以方程有实根的概率}P(B)\\text{为}\\\\ P(B)=P\\{\\xi^2-4\\geq 0\\}=P\\{\\xi\\leq -2\\text{或}\\xi\\geq 2\\}\\\\ =P\\{\\xi\\leq -2\\}+P\\{\\xi\\geq 2\\}\\\\ =\\int_{-\\frac{\\pi}{3}}^{-\\frac{\\pi}{2}}\\!\\!dx+\\int_{\\frac{\\pi}{3}}^{\\frac{\\pi}{2}}\\!\\!dx=\\frac{1}{2}\\,.\\end{aligned}</div>"
     },
     {
       "id": "q0013",
       "number": 13,
       "header": "#13-Hard",
       "difficulty": "Hard",
-      "prompt_html": "<img src=\"/static/generated/assets/probability/ch029/q0013_prompt.png\"/>",
+      "prompt_html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{某元件的寿命} \\lambda \\text{服从指数分布，已知其参数} \\lambda = 1 / 1000, \\text{求} 3 \\text{个这样的元件使用} 1000 \\text{小时，至少已有一个损坏的概率为} ( ).\">\\text{某元件的寿命} \\lambda \\text{服从指数分布，已知其参数} \\lambda = 1 / 1000, \\text{求} 3 \\text{个这样的元件使用} 1000 \\text{小时，至少已有一个损坏的概率为} ( ).</span>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/probability/ch029/q0013_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\begin{array}{l} { r } { P \\{ Y \\geq 1 \\} = 1 + e ^ { - 3 } } \\end{array}\">\\begin{array}{l} { r } { P \\{ Y \\geq 1 \\} = 1 + e ^ { - 3 } } \\end{array}</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/probability/ch029/q0013_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\begin{array}{l} { r } { P \\{ Y \\geq 1 \\} = 1 + e ^ { - 1 } } \\end{array}\">\\begin{array}{l} { r } { P \\{ Y \\geq 1 \\} = 1 + e ^ { - 1 } } \\end{array}</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/probability/ch029/q0013_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\begin{aligned}P\\{Y \\geq 1\\} = 1 - e^{-1}\\end{aligned}\">\\begin{aligned}P\\{Y \\geq 1\\} = 1 - e^{-1}\\end{aligned}</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/probability/ch029/q0013_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\begin{array}{l} { r } { P \\{ Y \\geq 1 \\} = 1 - e ^ { - 3 } } \\end{array}\">\\begin{array}{l} { r } { P \\{ Y \\geq 1 \\} = 1 - e ^ { - 3 } } \\end{array}</span>"
         }
       ],
       "answer": "D",
       "answer_index": 3,
-      "analysis_html": "<img src=\"/static/generated/assets/probability/ch029/q0013_analysis.png\"/>"
+      "analysis_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{aligned}&amp;\\text{由题设知，}X\\text{的分布函数为}\\quad F(x)=\\begin{cases}1-e^{-\\frac{x}{1000}},&amp;x\\geq 0,\\\\0,&amp;x&lt;0.\\end{cases}\\\\&amp;\\text{由此得到}\\quad P\\{X&gt;1000\\}=1-P\\{X\\leq 1000\\}=1-F(1000)=e^{-1}.\\\\&amp;\\text{各元件的寿命是否超过1000小时是独立的，用Y表示三个元件中使用1000小时损坏的元件数，则}\\\\&amp;\\quad Y\\sim b(3,1-e^{-1}).\\\\&amp;\\text{所求概率为}\\quad P\\{Y\\geq 1\\}=1-P\\{Y=0\\}=1-C_{3}^{0}(1-e^{-1})^{0}(e^{-1})^{3}=1-e^{-3}.\\end{aligned}\">\\begin{aligned}&amp;\\text{由题设知，}X\\text{的分布函数为}\\quad F(x)=\\begin{cases}1-e^{-\\frac{x}{1000}},&amp;x\\geq 0,\\\\0,&amp;x&lt;0.\\end{cases}\\\\&amp;\\text{由此得到}\\quad P\\{X&gt;1000\\}=1-P\\{X\\leq 1000\\}=1-F(1000)=e^{-1}.\\\\&amp;\\text{各元件的寿命是否超过1000小时是独立的，用Y表示三个元件中使用1000小时损坏的元件数，则}\\\\&amp;\\quad Y\\sim b(3,1-e^{-1}).\\\\&amp;\\text{所求概率为}\\quad P\\{Y\\geq 1\\}=1-P\\{Y=0\\}=1-C_{3}^{0}(1-e^{-1})^{0}(e^{-1})^{3}=1-e^{-3}.\\end{aligned}</div>"
     },
     {
       "id": "q0014",
       "number": 14,
       "header": "#14-Averge",
       "difficulty": "Averge",
-      "prompt_html": "<img src=\"/static/generated/assets/probability/ch029/q0014_prompt.png\"/>",
+      "prompt_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\text{已知}X\\sim f(x)=\\begin{cases}c\\lambda e^{-\\lambda x},\\,x&gt;a\\\\ 0,\\quad\\text{其它}\\end{cases}(\\lambda&gt;0)，\\text{关于常数}c\\text{及}P\\{a-1&lt;X\\leq a+1\\},\\text{下列说法正确的是( ).}\">\\text{已知}X\\sim f(x)=\\begin{cases}c\\lambda e^{-\\lambda x},\\,x&gt;a\\\\ 0,\\quad\\text{其它}\\end{cases}(\\lambda&gt;0)，\\text{关于常数}c\\text{及}P\\{a-1&lt;X\\leq a+1\\},\\text{下列说法正确的是( ).}</div>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/probability/ch029/q0014_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\begin{array}{l} { r } { P \\{ a - 1 &lt; X \\leq a + 1 \\} \\, = e ^ { - \\lambda } } \\end{array}\">\\begin{array}{l} { r } { P \\{ a - 1 &lt; X \\leq a + 1 \\} \\, = e ^ { - \\lambda } } \\end{array}</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/probability/ch029/q0014_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\begin{aligned}c = e^{j a} - 2\\end{aligned}\">\\begin{aligned}c = e^{j a} - 2\\end{aligned}</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/probability/ch029/q0014_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\begin{aligned}P\\{a-1 &lt; X \\leq a+1\\} \\, = 1 - e^{-\\lambda}\\end{aligned}\">\\begin{aligned}P\\{a-1 &lt; X \\leq a+1\\} \\, = 1 - e^{-\\lambda}\\end{aligned}</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/probability/ch029/q0014_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\begin{aligned}c = e^{j a} + 1\\end{aligned}\">\\begin{aligned}c = e^{j a} + 1\\end{aligned}</span>"
         }
       ],
       "answer": "C",
       "answer_index": 2,
-      "analysis_html": "<img src=\"/static/generated/assets/probability/ch029/q0014_analysis.png\"/>"
+      "analysis_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{aligned}&amp;\\text{由概率密度函数的性质知}\\int_{-\\infty}^{+\\infty}f(x)dx=1,\\ \\text{而}\\\\&amp;\\quad\\int_{-\\infty}^{+\\infty}f(x)dx=\\int_{-\\infty}^{a}0dx+\\int_{a}^{+\\infty}c\\lambda e^{-\\lambda x}dx\\\\&amp;\\quad \\\\&amp;\\quad \\\\&amp;\\quad \\end{aligned}\">\\begin{aligned}&amp;\\text{由概率密度函数的性质知}\\int_{-\\infty}^{+\\infty}f(x)dx=1,\\ \\text{而}\\\\&amp;\\quad\\int_{-\\infty}^{+\\infty}f(x)dx=\\int_{-\\infty}^{a}0dx+\\int_{a}^{+\\infty}c\\lambda e^{-\\lambda x}dx\\\\&amp;\\quad \\\\&amp;\\quad \\\\&amp;\\quad \\end{aligned}</div>"
     },
     {
       "id": "q0015",
       "number": 15,
       "header": "#15-Averge",
       "difficulty": "Averge",
-      "prompt_html": "<img src=\"/static/generated/assets/probability/ch029/q0015_prompt.png\"/>",
+      "prompt_html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{设}K\\text{在}(0,5)\\text{上服从均匀分布，求}x\\text{的方程}4x^{2}+4Kx+K+2=0\\text{有实根的概率为}( ).\">\\text{设}K\\text{在}(0,5)\\text{上服从均匀分布，求}x\\text{的方程}4x^{2}+4Kx+K+2=0\\text{有实根的概率为}( ).</span>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/probability/ch029/q0015_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\frac { 1 } { 5 }\">\\frac { 1 } { 5 }</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/probability/ch029/q0015_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\frac { 1 } { 2 }\">\\frac { 1 } { 2 }</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/probability/ch029/q0015_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\frac { 3 } { 5 }\">\\frac { 3 } { 5 }</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/probability/ch029/q0015_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\frac{3}{4}\">\\frac{3}{4}</span>"
         }
       ],
       "answer": "C",
       "answer_index": 2,
-      "analysis_html": "<img src=\"/static/generated/assets/probability/ch029/q0015_analysis.png\"/>"
+      "analysis_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{aligned} &amp; \\text{因为} K \\sim U(0,5),\\ \\text{所以} f_{K}(k) = \\begin{cases} 1/5, &amp; 0 &lt; k &lt; 5 \\\\ 0, &amp; \\text{其它} \\end{cases}, \\\\ &amp; \\text{方程} \\ 4x^{2} + 4Kx + K + 2 = 0 \\text{有实根的充要条件为} (4K)^{2} - 4 \\cdot 4(K+2) \\geq 0, \\text{即} \\\\ &amp; \\qquad K^{2} - K - 2 \\geq 0, \\\\ &amp; \\text{亦即} (k-2)(K+1) \\geq 0, \\ \\text{解得} K \\geq 2 (K \\leq -1 \\text{舍去}), \\ \\text{所以} \\\\ &amp; \\qquad P\\{\\text{方程有实根}\\} = P\\{K \\geq 2\\} = \\int_{-\\frac{1}{2}}^{\\frac{1}{2}} \\! \\! dx = \\frac{3}{5}.\\end{aligned}\">\\begin{aligned} &amp; \\text{因为} K \\sim U(0,5),\\ \\text{所以} f_{K}(k) = \\begin{cases} 1/5, &amp; 0 &lt; k &lt; 5 \\\\ 0, &amp; \\text{其它} \\end{cases}, \\\\ &amp; \\text{方程} \\ 4x^{2} + 4Kx + K + 2 = 0 \\text{有实根的充要条件为} (4K)^{2} - 4 \\cdot 4(K+2) \\geq 0, \\text{即} \\\\ &amp; \\qquad K^{2} - K - 2 \\geq 0, \\\\ &amp; \\text{亦即} (k-2)(K+1) \\geq 0, \\ \\text{解得} K \\geq 2 (K \\leq -1 \\text{舍去}), \\ \\text{所以} \\\\ &amp; \\qquad P\\{\\text{方程有实根}\\} = P\\{K \\geq 2\\} = \\int_{-\\frac{1}{2}}^{\\frac{1}{2}} \\! \\! dx = \\frac{3}{5}.\\end{aligned}</div>"
     },
     {
       "id": "q0016",
       "number": 16,
       "header": "#16-Hard",
       "difficulty": "Hard",
-      "prompt_html": "<img src=\"/static/generated/assets/probability/ch029/q0016_prompt.png\"/>",
+      "prompt_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{aligned} \\text{100件产品中，}90\\text{个一等品}，10\\text{个二等品}，\\text{随机取}2\\text{个安装在一台设备上}，\\text{若一台设备中有}i\\text{个}(i=0,1,2)\\text{二等品}，\\text{则此设备的使用寿命服从参数为}\\lambda=i+1\\text{的指数分布}.\\text{(1)}\\text{有关设备寿命超过}1\\text{的概率}\\text{( )};\\text{(2)}\\text{已知设备寿命超过}1，\\text{求安装在设备上的两个零件都是一等品的概率}\\text{( ).} \\end{aligned}\">\\begin{aligned} \\text{100件产品中，}90\\text{个一等品}，10\\text{个二等品}，\\text{随机取}2\\text{个安装在一台设备上}，\\text{若一台设备中有}i\\text{个}(i=0,1,2)\\text{二等品}，\\text{则此设备的使用寿命服从参数为}\\lambda=i+1\\text{的指数分布}.\\text{(1)}\\text{有关设备寿命超过}1\\text{的概率}\\text{( )};\\text{(2)}\\text{已知设备寿命超过}1，\\text{求安装在设备上的两个零件都是一等品的概率}\\text{( ).} \\end{aligned}</div>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/probability/ch029/q0016_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\texttt { 0 . 66 ~ ; ~ 0 . 93 }\">\\texttt { 0 . 66 ~ ; ~ 0 . 93 }</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/probability/ch029/q0016_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\texttt { 0 . 32 ~ ; ~ 0 . 93 }\">\\texttt { 0 . 32 ~ ; ~ 0 . 93 }</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/probability/ch029/q0016_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"0.33 ; 0.78\">0.33 ; 0.78</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/probability/ch029/q0016_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"0.32 ; 0.78\">0.32 ; 0.78</span>"
         }
       ],
       "answer": "B",
       "answer_index": 1,
-      "analysis_html": "<img src=\"/static/generated/assets/probability/ch029/q0016_analysis.png\"/>"
+      "analysis_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{aligned} &amp; (1) \\text{设} \\lambda \\text{表示设备寿命.} \\ A \\text{表示“设备寿命超过1”,} \\ B_i \\text{表示“取出}i \\text{个二等品} \\ (i=0,1,2), \\text{则} \\lambda \\text{的密度函数为} \\\\ &amp; \\quad f_{\\lambda}(x)=\\begin{cases} \\lambda e^{-\\lambda x}, x&gt;0 \\\\ 0, \\ x \\leq 0 \\end{cases} \\quad (\\lambda=i+1, \\, i=0,1,2), \\\\ &amp; \\quad P(B_0)=\\frac{C_{90}^2}{C_{100}^2}, \\quad P(B_1)=\\frac{C_{90}^1 C_{10}^2}{C_{100}^2}, \\quad P(B_2)=\\frac{C_{10}^2}{C_{100}^2}, \\\\ &amp; \\quad P(A|B_0)=\\int_{1}^{+\\infty} e^{-x} dx=e^{-1}, \\\\ &amp; \\quad P(A|B_1)=\\int_{1}^{+\\infty} 2e^{-2x} dx=e^{-2}, \\\\ &amp; \\quad P(A|B_2)=\\int_{1}^{+\\infty} 3e^{-3x} dx=e^{-3}, \\\\ &amp; \\text{由全概率公式:} \\ P(A)=\\sum_{i=0}^{2} P(B_i)P(A|B_i) \\approx 0.32. \\\\ &amp; (2) \\text{由贝叶斯公式:} \\quad P(B_0|A)=\\frac{P(B_0)P(A|B_0)}{P(A)} \\approx 0.93.\\end{aligned}\">\\begin{aligned} &amp; (1) \\text{设} \\lambda \\text{表示设备寿命.} \\ A \\text{表示“设备寿命超过1”,} \\ B_i \\text{表示“取出}i \\text{个二等品} \\ (i=0,1,2), \\text{则} \\lambda \\text{的密度函数为} \\\\ &amp; \\quad f_{\\lambda}(x)=\\begin{cases} \\lambda e^{-\\lambda x}, x&gt;0 \\\\ 0, \\ x \\leq 0 \\end{cases} \\quad (\\lambda=i+1, \\, i=0,1,2), \\\\ &amp; \\quad P(B_0)=\\frac{C_{90}^2}{C_{100}^2}, \\quad P(B_1)=\\frac{C_{90}^1 C_{10}^2}{C_{100}^2}, \\quad P(B_2)=\\frac{C_{10}^2}{C_{100}^2}, \\\\ &amp; \\quad P(A|B_0)=\\int_{1}^{+\\infty} e^{-x} dx=e^{-1}, \\\\ &amp; \\quad P(A|B_1)=\\int_{1}^{+\\infty} 2e^{-2x} dx=e^{-2}, \\\\ &amp; \\quad P(A|B_2)=\\int_{1}^{+\\infty} 3e^{-3x} dx=e^{-3}, \\\\ &amp; \\text{由全概率公式:} \\ P(A)=\\sum_{i=0}^{2} P(B_i)P(A|B_i) \\approx 0.32. \\\\ &amp; (2) \\text{由贝叶斯公式:} \\quad P(B_0|A)=\\frac{P(B_0)P(A|B_0)}{P(A)} \\approx 0.93.\\end{aligned}</div>"
     },
     {
       "id": "q0017",
       "number": 17,
       "header": "#17-Averge",
       "difficulty": "Averge",
-      "prompt_html": "<img src=\"/static/generated/assets/probability/ch029/q0017_prompt.png\"/>",
+      "prompt_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{array}{ll}\\text{设随机变量}X_{1},\\,X_{3}\\text{都服从区间}[0,3]\\text{上的均匀分布，且}A=\\{X_{1}\\leq 3\\},\\,B=\\{X_{2}\\leq 3\\},\\,P(AB)=1,\\,\\text{则}P(\\overline{A}\\,\\overline{B})=(\\,\\,).\\end{array}\">\\begin{array}{ll}\\text{设随机变量}X_{1},\\,X_{3}\\text{都服从区间}[0,3]\\text{上的均匀分布，且}A=\\{X_{1}\\leq 3\\},\\,B=\\{X_{2}\\leq 3\\},\\,P(AB)=1,\\,\\text{则}P(\\overline{A}\\,\\overline{B})=(\\,\\,).\\end{array}</div>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/probability/ch029/q0017_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"0\">0</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/probability/ch029/q0017_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\frac { 1 } { 2 }\">\\frac { 1 } { 2 }</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/probability/ch029/q0017_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\frac { 1 } { 4 }\">\\frac { 1 } { 4 }</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/probability/ch029/q0017_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\frac { 1 } { 16 }\">\\frac { 1 } { 16 }</span>"
         }
       ],
       "answer": "A",
       "answer_index": 0,
-      "analysis_html": "<img src=\"/static/generated/assets/probability/ch029/q0017_analysis.png\"/>"
+      "analysis_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{array}{l} P(\\overline{A}\\,\\overline{B}) = P(\\overline{A\\cup B}) = 1 - P(A\\cup B) = \\ 1 - (P(A) + P(B) - P(AB)) \\ = 1 - [1 + 1 - 1] = 0\\,. \\end{array}\">\\begin{array}{l} P(\\overline{A}\\,\\overline{B}) = P(\\overline{A\\cup B}) = 1 - P(A\\cup B) = \\ 1 - (P(A) + P(B) - P(AB)) \\ = 1 - [1 + 1 - 1] = 0\\,. \\end{array}</div>"
     },
     {
       "id": "q0018",
       "number": 18,
       "header": "#18-Averge",
       "difficulty": "Averge",
-      "prompt_html": "<img src=\"/static/generated/assets/probability/ch029/q0018_prompt.png\"/>",
+      "prompt_html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{某公共汽车站从上午7时起，每15分钟来一班车，即} 7:00,7:15,7:30,7:45\\text{等时刻有汽车到达此站}，\\text{如果乘客到达此站时间}X\\text{是}7:00\\text{到}7:30\\text{之间的均匀随机变量}，\\text{则他候车时间少于}5\\text{分钟的概率为}（）. \\,\">\\text{某公共汽车站从上午7时起，每15分钟来一班车，即} 7:00,7:15,7:30,7:45\\text{等时刻有汽车到达此站}，\\text{如果乘客到达此站时间}X\\text{是}7:00\\text{到}7:30\\text{之间的均匀随机变量}，\\text{则他候车时间少于}5\\text{分钟的概率为}（）. \\,</span>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/probability/ch029/q0018_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\frac { 1 } { 3 }\">\\frac { 1 } { 3 }</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/probability/ch029/q0018_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\frac { 2 } { 3 }\">\\frac { 2 } { 3 }</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/probability/ch029/q0018_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\frac {1}{2}\">\\frac {1}{2}</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/probability/ch029/q0018_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\frac { 1 } { 4 }\">\\frac { 1 } { 4 }</span>"
         }
       ],
       "answer": "A",
       "answer_index": 0,
-      "analysis_html": "<img src=\"/static/generated/assets/probability/ch029/q0018_analysis.png\"/>"
+      "analysis_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{array}{l} \\text {以} 7: 00 \\text {为起点} 0, \\text {以分为单位，依题意} X \\sim U(0,30), \\quad f(x) = \\{ \\begin{array}{ll} \\frac {1}{30}, &amp; 0 &lt; x &lt; 30 \\\\ 0, &amp; \\text {其它} \\end{array}. \\\\ \\text {为使候车时间少于5分钟，乘客必须在} 7: 10 \\text {到} 7: 15 \\text {之间，或在} 7: 25 \\text {到} 7: 30 \\text {之间到达车站，故所求概率为} \\\\ P \\{10 &lt; X &lt; 15 \\} + P \\{25 &lt; X &lt; 30 \\} = \\int_ {10} ^ {15} \\frac {1}{30} d x + \\int_ {25} ^ {30} \\frac {1}{30} d x = \\frac {1}{3}, \\\\ \\text {即乘客候车时间少于5分钟的概率是} 1 / 3. \\end{array}\">\\begin{array}{l} \\text {以} 7: 00 \\text {为起点} 0, \\text {以分为单位，依题意} X \\sim U(0,30), \\quad f(x) = \\{ \\begin{array}{ll} \\frac {1}{30}, &amp; 0 &lt; x &lt; 30 \\\\ 0, &amp; \\text {其它} \\end{array}. \\\\ \\text {为使候车时间少于5分钟，乘客必须在} 7: 10 \\text {到} 7: 15 \\text {之间，或在} 7: 25 \\text {到} 7: 30 \\text {之间到达车站，故所求概率为} \\\\ P \\{10 &lt; X &lt; 15 \\} + P \\{25 &lt; X &lt; 30 \\} = \\int_ {10} ^ {15} \\frac {1}{30} d x + \\int_ {25} ^ {30} \\frac {1}{30} d x = \\frac {1}{3}, \\\\ \\text {即乘客候车时间少于5分钟的概率是} 1 / 3. \\end{array}</div>"
     }
-  ]
+  ],
+  "format": "latex",
+  "source_md": "gl/2.2.4.1.1_均匀分布与指数分布(18题)/2.2.4.1.1_均匀分布与指数分布(18题).md"
 }

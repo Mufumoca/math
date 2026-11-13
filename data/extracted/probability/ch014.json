@@ -13,504 +13,506 @@
       "number": 1,
       "header": "#1-Easy",
       "difficulty": "Easy",
-      "prompt_html": "<img src=\"/static/generated/assets/probability/ch014/q0001_prompt.png\"/>",
+      "prompt_html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{设 } P(A) = \\alpha, \\, P(B) = \\beta, \\, P(B|A) = \\gamma, \\text{则 } P(A|B) = ( \\ \\ ).\">\\text{设 } P(A) = \\alpha, \\, P(B) = \\beta, \\, P(B|A) = \\gamma, \\text{则 } P(A|B) = ( \\ \\ ).</span>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/probability/ch014/q0001_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\frac { \\alpha \\gamma } { \\beta }\">\\frac { \\alpha \\gamma } { \\beta }</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/probability/ch014/q0001_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\frac{\\beta \\gamma}{\\alpha}\">\\frac{\\beta \\gamma}{\\alpha}</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/probability/ch014/q0001_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\frac {\\alpha \\beta}{\\gamma}\">\\frac {\\alpha \\beta}{\\gamma}</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/probability/ch014/q0001_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\alpha \\beta \\gamma\">\\alpha \\beta \\gamma</span>"
         }
       ],
       "answer": "A",
       "answer_index": 0,
-      "analysis_html": "<img src=\"/static/generated/assets/probability/ch014/q0001_analysis.png\"/>"
+      "analysis_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{aligned}&amp;\\text{由乘法公式得} \\; P(AB) = P(B|A)P(A) = \\alpha \\gamma, \\\\&amp;\\text{所以} \\; P(A|B) = \\frac{P(AB)}{P(B)} = \\frac{\\alpha \\gamma}{\\beta}.\\end{aligned}\">\\begin{aligned}&amp;\\text{由乘法公式得} \\; P(AB) = P(B|A)P(A) = \\alpha \\gamma, \\\\&amp;\\text{所以} \\; P(A|B) = \\frac{P(AB)}{P(B)} = \\frac{\\alpha \\gamma}{\\beta}.\\end{aligned}</div>"
     },
     {
       "id": "q0002",
       "number": 2,
       "header": "#2-Easy",
       "difficulty": "Easy",
-      "prompt_html": "<img src=\"/static/generated/assets/probability/ch014/q0002_prompt.png\"/>",
+      "prompt_html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{已知} \\, P(A) = 0.8 \\,, \\ \\ P(\\overline{B}) = 0.3 \\,, \\ \\ P(A \\cup B) = 0.9 \\, , \\ \\text{则} \\ P(B|A) = (\\ ) \\, .\">\\text{已知} \\, P(A) = 0.8 \\,, \\ \\ P(\\overline{B}) = 0.3 \\,, \\ \\ P(A \\cup B) = 0.9 \\, , \\ \\text{则} \\ P(B|A) = (\\ ) \\, .</span>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/probability/ch014/q0002_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"0.75\">0.75</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/probability/ch014/q0002_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"0.6\">0.6</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/probability/ch014/q0002_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"0.8\">0.8</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/probability/ch014/q0002_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"0.9\">0.9</span>"
         }
       ],
       "answer": "A",
       "answer_index": 0,
-      "analysis_html": "<img src=\"/static/generated/assets/probability/ch014/q0002_analysis.png\"/>"
+      "analysis_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{aligned} &amp; \\text{由于} P(\\overline{B})=0.3,\\text{则} P(B)=0.7,\\text{由概率的性质}\\\\ &amp; \\qquad P(A\\cup B)=P(A)+P(B)-P(AB),\\\\ &amp; \\text{所以} P(AB)=0.8+0.7-0.9=0.6,\\text{再根据条件概率公式}\\\\ &amp; \\qquad P(B|A)=\\frac{P(AB)}{P(A)}=\\frac{0.6}{0.8}=0.75\\,.\\end{aligned}\">\\begin{aligned} &amp; \\text{由于} P(\\overline{B})=0.3,\\text{则} P(B)=0.7,\\text{由概率的性质}\\\\ &amp; \\qquad P(A\\cup B)=P(A)+P(B)-P(AB),\\\\ &amp; \\text{所以} P(AB)=0.8+0.7-0.9=0.6,\\text{再根据条件概率公式}\\\\ &amp; \\qquad P(B|A)=\\frac{P(AB)}{P(A)}=\\frac{0.6}{0.8}=0.75\\,.\\end{aligned}</div>"
     },
     {
       "id": "q0003",
       "number": 3,
       "header": "#3-Easy",
       "difficulty": "Easy",
-      "prompt_html": "<img src=\"/static/generated/assets/probability/ch014/q0003_prompt.png\"/>",
+      "prompt_html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{设}A,B \\text{为两个随机事件，}P(A)=0.5,\\ P(\\overline{AB})=0.4,\\text{则}P(B|A)=(\\ ).\">\\text{设}A,B \\text{为两个随机事件，}P(A)=0.5,\\ P(\\overline{AB})=0.4,\\text{则}P(B|A)=(\\ ).</span>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/probability/ch014/q0003_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"0.2\">0.2</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/probability/ch014/q0003_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"0.4\">0.4</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/probability/ch014/q0003_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"0.5\">0.5</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/probability/ch014/q0003_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"0.3\">0.3</span>"
         }
       ],
       "answer": "A",
       "answer_index": 0,
-      "analysis_html": "<img src=\"/static/generated/assets/probability/ch014/q0003_analysis.png\"/>"
+      "analysis_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{aligned} \\text{由于 } P(A) = P(AB) + P(A\\overline{B})\\text{，所以 } P(AB) = P(A) - P(A\\overline{B}) = 0.5 - 0.4 = 0.1\\text{，由条件概率公式} \\\\ P(B|A) = \\frac{P(AB)}{P(B)} = \\frac{0.1}{0.5} = 0.2\\,. \\end{aligned}\">\\begin{aligned} \\text{由于 } P(A) = P(AB) + P(A\\overline{B})\\text{，所以 } P(AB) = P(A) - P(A\\overline{B}) = 0.5 - 0.4 = 0.1\\text{，由条件概率公式} \\\\ P(B|A) = \\frac{P(AB)}{P(B)} = \\frac{0.1}{0.5} = 0.2\\,. \\end{aligned}</div>"
     },
     {
       "id": "q0004",
       "number": 4,
       "header": "#4-Easy",
       "difficulty": "Easy",
-      "prompt_html": "<img src=\"/static/generated/assets/probability/ch014/q0004_prompt.png\"/>",
+      "prompt_html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{设} \\, A, \\, B \\text{为随机事件，} \\, \\, P(A) = 0.7, \\, P(B) = 0.5, \\, P(A-B) = 0.3, \\, \\text{则} \\, P(AB) = ( \\ \\ ); P(B-A) = ( \\ \\ ); P(\\overline{B}|\\overline{A}) = ( \\ \\ ).\">\\text{设} \\, A, \\, B \\text{为随机事件，} \\, \\, P(A) = 0.7, \\, P(B) = 0.5, \\, P(A-B) = 0.3, \\, \\text{则} \\, P(AB) = ( \\ \\ ); P(B-A) = ( \\ \\ ); P(\\overline{B}|\\overline{A}) = ( \\ \\ ).</span>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/probability/ch014/q0004_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\, 0 . 4 , \\, 0 . 1 , \\, { \\frac { 2 } { 3 } }\">\\, 0 . 4 , \\, 0 . 1 , \\, { \\frac { 2 } { 3 } }</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/probability/ch014/q0004_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\, 0 . 6 , \\, 0 . 1 , \\, { \\frac { 2 } { 3 } }\">\\, 0 . 6 , \\, 0 . 1 , \\, { \\frac { 2 } { 3 } }</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/probability/ch014/q0004_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\, 0.4 , \\, 0.1 , \\, 0.5 \\,\">\\, 0.4 , \\, 0.1 , \\, 0.5 \\,</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/probability/ch014/q0004_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"0.4, 0.2, \\frac{2}{3}\">0.4, 0.2, \\frac{2}{3}</span>"
         }
       ],
       "answer": "A",
       "answer_index": 0,
-      "analysis_html": "<img src=\"/static/generated/assets/probability/ch014/q0004_analysis.png\"/>"
+      "analysis_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{aligned}P(AB) &amp;= P(A)-P(A\\overline{B}) = P(A)-P(A-B) = 0.7-0.3=0.4, \\\\P(B-A) &amp;= P(B)-P(AB) = 0.5-0.4=0.1, \\\\P(\\overline{B}|A) &amp;= \\frac{P(A\\cap \\overline{B})}{P(A)} = \\frac{P(A\\cup B)}{P(A)} = \\frac{1-[P(A)+P(B)-P(AB)]}{1-P(A)} = \\frac{2}{3}. \\end{aligned}\">\\begin{aligned}P(AB) &amp;= P(A)-P(A\\overline{B}) = P(A)-P(A-B) = 0.7-0.3=0.4, \\\\P(B-A) &amp;= P(B)-P(AB) = 0.5-0.4=0.1, \\\\P(\\overline{B}|A) &amp;= \\frac{P(A\\cap \\overline{B})}{P(A)} = \\frac{P(A\\cup B)}{P(A)} = \\frac{1-[P(A)+P(B)-P(AB)]}{1-P(A)} = \\frac{2}{3}. \\end{aligned}</div>"
     },
     {
       "id": "q0005",
       "number": 5,
       "header": "#5-Easy",
       "difficulty": "Easy",
-      "prompt_html": "<img src=\"/static/generated/assets/probability/ch014/q0005_prompt.png\"/>",
+      "prompt_html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{设}A,B \\text{为两事件，已知}P(\\overline{A})=0.3,\\ P(B)=0.4,\\ P(A-B)=0.5,\\ \\text{则}P(B|A\\cup \\overline{B})=(\\ ).\">\\text{设}A,B \\text{为两事件，已知}P(\\overline{A})=0.3,\\ P(B)=0.4,\\ P(A-B)=0.5,\\ \\text{则}P(B|A\\cup \\overline{B})=(\\ ).</span>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/probability/ch014/q0005_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\frac { 1 } { 4 }\">\\frac { 1 } { 4 }</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/probability/ch014/q0005_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\frac { 1 } { 3 }\">\\frac { 1 } { 3 }</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/probability/ch014/q0005_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\frac { 1 } { 5 }\">\\frac { 1 } { 5 }</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/probability/ch014/q0005_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\frac { 1 } { 6 }\">\\frac { 1 } { 6 }</span>"
         }
       ],
       "answer": "A",
       "answer_index": 0,
-      "analysis_html": "<img src=\"/static/generated/assets/probability/ch014/q0005_analysis.png\"/>"
+      "analysis_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{aligned}P(B|A\\cup \\overline{B})&amp;=\\frac{P(B(A\\cup \\overline{B}))}{P(A\\cup \\overline{B})}=\\frac{P(AB\\cup \\overline{B})}{P(A\\cup \\overline{B})}=\\frac{P(AB)}{P(A\\cup B)}\\\\&amp;=\\frac{P(A)-P(A\\overline{B})}{P(A)+P(B)-P(A\\overline{B})}=\\frac{P(A)-P(A-B)}{P(A)+P(B)-P(A-B)}=\\frac{0.2}{0.8}=\\frac{1}{4}\\,.\\end{aligned}\">\\begin{aligned}P(B|A\\cup \\overline{B})&amp;=\\frac{P(B(A\\cup \\overline{B}))}{P(A\\cup \\overline{B})}=\\frac{P(AB\\cup \\overline{B})}{P(A\\cup \\overline{B})}=\\frac{P(AB)}{P(A\\cup B)}\\\\&amp;=\\frac{P(A)-P(A\\overline{B})}{P(A)+P(B)-P(A\\overline{B})}=\\frac{P(A)-P(A-B)}{P(A)+P(B)-P(A-B)}=\\frac{0.2}{0.8}=\\frac{1}{4}\\,.\\end{aligned}</div>"
     },
     {
       "id": "q0006",
       "number": 6,
       "header": "#6-Easy",
       "difficulty": "Easy",
-      "prompt_html": "<img src=\"/static/generated/assets/probability/ch014/q0006_prompt.png\"/>",
+      "prompt_html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{设 } A \\subset B \\, , \\; \\; P(A) = 0.1 \\, , \\; \\; P(B) = 0.5 \\, , \\; \\text{则} \\; |P(\\overline{A} \\cup \\overline{B}) + P(A|B) - P(AB) = \\; ( \\; ) \\; .\">\\text{设 } A \\subset B \\, , \\; \\; P(A) = 0.1 \\, , \\; \\; P(B) = 0.5 \\, , \\; \\text{则} \\; |P(\\overline{A} \\cup \\overline{B}) + P(A|B) - P(AB) = \\; ( \\; ) \\; .</span>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/probability/ch014/q0006_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"1.0\">1.0</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/probability/ch014/q0006_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"0.9\">0.9</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/probability/ch014/q0006_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"1.1\">1.1</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/probability/ch014/q0006_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"1.2\">1.2</span>"
         }
       ],
       "answer": "A",
       "answer_index": 0,
-      "analysis_html": "<img src=\"/static/generated/assets/probability/ch014/q0006_analysis.png\"/>"
+      "analysis_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{aligned} \\text{因为 } A \\subset B \\text{，所以 } AB = A \\, , \\ A \\cup B \\, , \\ \\overline{A \\cup B} = \\overline{AB} \\, , \\text{故} \\\\ P(AB) = P(A) = 0.1 \\, , \\quad P(A|B) = \\frac{P(BA)}{P(B)} = 0.2 \\, , \\\\ P(\\overline{A \\cup B}) = P(\\overline{AB}) = 1 - P(AB) = 0.9 \\, , \\\\ \\text{所以 } P(\\overline{A \\cup B}) + P(A|B) - P(AB) = 1.0 \\, . \\end{aligned}\">\\begin{aligned} \\text{因为 } A \\subset B \\text{，所以 } AB = A \\, , \\ A \\cup B \\, , \\ \\overline{A \\cup B} = \\overline{AB} \\, , \\text{故} \\\\ P(AB) = P(A) = 0.1 \\, , \\quad P(A|B) = \\frac{P(BA)}{P(B)} = 0.2 \\, , \\\\ P(\\overline{A \\cup B}) = P(\\overline{AB}) = 1 - P(AB) = 0.9 \\, , \\\\ \\text{所以 } P(\\overline{A \\cup B}) + P(A|B) - P(AB) = 1.0 \\, . \\end{aligned}</div>"
     },
     {
       "id": "q0007",
       "number": 7,
       "header": "#7-Easy",
       "difficulty": "Easy",
-      "prompt_html": "<img src=\"/static/generated/assets/probability/ch014/q0007_prompt.png\"/>",
+      "prompt_html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{设} \\, A_{1}, A_{2}, B \\text{为三个随机事件，且} P(B) &gt; 0 \\, , \\, \\, A_{1} \\cap A_{2} = \\varnothing \\, , \\, \\text{则} \\, P( \\overline{A_{1}} \\cup \\overline{A_{2}} | B) = ( \\, ) \\, .\">\\text{设} \\, A_{1}, A_{2}, B \\text{为三个随机事件，且} P(B) &gt; 0 \\, , \\, \\, A_{1} \\cap A_{2} = \\varnothing \\, , \\, \\text{则} \\, P( \\overline{A_{1}} \\cup \\overline{A_{2}} | B) = ( \\, ) \\, .</span>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/probability/ch014/q0007_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"1\">1</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/probability/ch014/q0007_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"0\">0</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/probability/ch014/q0007_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"0.5\">0.5</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/probability/ch014/q0007_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"0.75\">0.75</span>"
         }
       ],
       "answer": "A",
       "answer_index": 0,
-      "analysis_html": "<img src=\"/static/generated/assets/probability/ch014/q0007_analysis.png\"/>"
+      "analysis_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{aligned}P(\\overline{A_1\\cup A_2}|B) &amp;= P(\\overline{A_1\\cap A_2}|B) = 1 - P(A_1\\cap A_2|B) \\\\&amp;= 1 - P(\\emptyset|B) = 1 - \\frac{P(\\emptyset\\cap B)}{P(B)} \\\\&amp;= 1 - \\frac{P(\\emptyset)}{P(B)} = 1\\;.\\end{aligned}\">\\begin{aligned}P(\\overline{A_1\\cup A_2}|B) &amp;= P(\\overline{A_1\\cap A_2}|B) = 1 - P(A_1\\cap A_2|B) \\\\&amp;= 1 - P(\\emptyset|B) = 1 - \\frac{P(\\emptyset\\cap B)}{P(B)} \\\\&amp;= 1 - \\frac{P(\\emptyset)}{P(B)} = 1\\;.\\end{aligned}</div>"
     },
     {
       "id": "q0008",
       "number": 8,
       "header": "#8-Easy",
       "difficulty": "Easy",
-      "prompt_html": "<img src=\"/static/generated/assets/probability/ch014/q0008_prompt.png\"/>",
+      "prompt_html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{设}A,B \\text{为两事件，}P(A)=0.4,\\ P(B)=0.8,\\ P(\\overline{AB})=0.5,\\ \\text{则}P(B|A)=(\\ ).\">\\text{设}A,B \\text{为两事件，}P(A)=0.4,\\ P(B)=0.8,\\ P(\\overline{AB})=0.5,\\ \\text{则}P(B|A)=(\\ ).</span>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/probability/ch014/q0008_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"0.75\">0.75</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/probability/ch014/q0008_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"0.375\">0.375</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/probability/ch014/q0008_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"0.60\">0.60</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/probability/ch014/q0008_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"1\">1</span>"
         }
       ],
       "answer": "A",
       "answer_index": 0,
-      "analysis_html": "<img src=\"/static/generated/assets/probability/ch014/q0008_analysis.png\"/>"
+      "analysis_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{aligned} \\text{由于 } B = AB + \\overline{AB} \\, , \\text{ 所以 } P(AB) = P(B) - P(\\overline{AB}) = 0.8 - 0.5 = 0.3 \\, , \\text{ 根据条件概率公式} \\\\ P(B|A) = \\frac{P(AB)}{P(A)} = \\frac{0.3}{0.4} = 0.75 \\, . \\end{aligned}\">\\begin{aligned} \\text{由于 } B = AB + \\overline{AB} \\, , \\text{ 所以 } P(AB) = P(B) - P(\\overline{AB}) = 0.8 - 0.5 = 0.3 \\, , \\text{ 根据条件概率公式} \\\\ P(B|A) = \\frac{P(AB)}{P(A)} = \\frac{0.3}{0.4} = 0.75 \\, . \\end{aligned}</div>"
     },
     {
       "id": "q0009",
       "number": 9,
       "header": "#9-Easy",
       "difficulty": "Easy",
-      "prompt_html": "<img src=\"/static/generated/assets/probability/ch014/q0009_prompt.png\"/>",
+      "prompt_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{aligned}\\text{设随机事件}A\\text{与}B\\text{互不相容}，\\text{已知}P(A)=P(B)=a(0&lt;a&lt;1)\\,,\\,\\,\\,P(A\\overline{B})=P(\\overline{A}\\overline{B})\\,,\\,\\text{则}a,\\,\\,P(A\\cup B)\\text{的值分别为}() \\,.\\end{aligned}\">\\begin{aligned}\\text{设随机事件}A\\text{与}B\\text{互不相容}，\\text{已知}P(A)=P(B)=a(0&lt;a&lt;1)\\,,\\,\\,\\,P(A\\overline{B})=P(\\overline{A}\\overline{B})\\,,\\,\\text{则}a,\\,\\,P(A\\cup B)\\text{的值分别为}() \\,.\\end{aligned}</div>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/probability/ch014/q0009_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\frac { 1 } { 3 } \\, , \\ \\frac { 2 } { 3 }\">\\frac { 1 } { 3 } \\, , \\ \\frac { 2 } { 3 }</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/probability/ch014/q0009_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\frac {1}{3}, \\ \\frac {1}{3}\">\\frac {1}{3}, \\ \\frac {1}{3}</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/probability/ch014/q0009_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\frac { 2 } { 3 } \\, , \\ \\frac { 1 } { 3 }\">\\frac { 2 } { 3 } \\, , \\ \\frac { 1 } { 3 }</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/probability/ch014/q0009_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\frac { 1 } { 2 } \\, , \\; \\frac { 1 } { 2 }\">\\frac { 1 } { 2 } \\, , \\; \\frac { 1 } { 2 }</span>"
         }
       ],
       "answer": "A",
       "answer_index": 0,
-      "analysis_html": "<img src=\"/static/generated/assets/probability/ch014/q0009_analysis.png\"/>"
+      "analysis_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{aligned} (1) \\text{由}\\ \\ &amp; P(A|\\overline{B})+P(\\overline{A}|\\overline{B})=1,\\ \\text{有}\\ P(A|\\overline{B})=P(\\overline{A}|\\overline{B})=0.5\\,,\\ \\text{再根据}\\ A,\\overline{B}\\text{互不相容},\\\\ &amp; P(A|\\overline{B})=\\frac{P(A\\overline{B})}{P(\\overline{B})}=\\frac{P(A)}{1-P(B)}=\\frac{a}{1-a}=0.5\\,,\\\\ \\text{解出}a&amp;=\\frac{1}{3}\\,;\\\\ (2)\\ &amp;P(A\\cup B)=P(A)+P(B)=\\frac{2}{3}\\,.\\end{aligned}\">\\begin{aligned} (1) \\text{由}\\ \\ &amp; P(A|\\overline{B})+P(\\overline{A}|\\overline{B})=1,\\ \\text{有}\\ P(A|\\overline{B})=P(\\overline{A}|\\overline{B})=0.5\\,,\\ \\text{再根据}\\ A,\\overline{B}\\text{互不相容},\\\\ &amp; P(A|\\overline{B})=\\frac{P(A\\overline{B})}{P(\\overline{B})}=\\frac{P(A)}{1-P(B)}=\\frac{a}{1-a}=0.5\\,,\\\\ \\text{解出}a&amp;=\\frac{1}{3}\\,;\\\\ (2)\\ &amp;P(A\\cup B)=P(A)+P(B)=\\frac{2}{3}\\,.\\end{aligned}</div>"
     },
     {
       "id": "q0010",
       "number": 10,
       "header": "#10-Easy",
       "difficulty": "Easy",
-      "prompt_html": "<img src=\"/static/generated/assets/probability/ch014/q0010_prompt.png\"/>",
+      "prompt_html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{已知} \\ P(A) = \\frac{1}{2} \\ , \\ \\ P(B) = \\frac{2}{5} \\ , \\ \\ P(B|A) = \\frac{2}{3} \\ , \\ \\text{则} \\ P(A \\cup B) = ( \\ ) \\ .\">\\text{已知} \\ P(A) = \\frac{1}{2} \\ , \\ \\ P(B) = \\frac{2}{5} \\ , \\ \\ P(B|A) = \\frac{2}{3} \\ , \\ \\text{则} \\ P(A \\cup B) = ( \\ ) \\ .</span>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/probability/ch014/q0010_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\frac { 17 } { 30 }\">\\frac { 17 } { 30 }</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/probability/ch014/q0010_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\frac { 7 } { 30 }\">\\frac { 7 } { 30 }</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/probability/ch014/q0010_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\frac { 7 } { 10 }\">\\frac { 7 } { 10 }</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/probability/ch014/q0010_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\frac { 8 } { 15 }\">\\frac { 8 } { 15 }</span>"
         }
       ],
       "answer": "A",
       "answer_index": 0,
-      "analysis_html": "<img src=\"/static/generated/assets/probability/ch014/q0010_analysis.png\"/>"
+      "analysis_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{aligned}&amp; \\text{根据乘法公式}P(AB)=P(A)P(B|A)=\\frac{1}{2}\\times \\frac{2}{3}=\\frac{1}{3}\\text{，所以} \\\\&amp; P(A\\cup B)=P(A)+P(B)-P(AB)=\\frac{1}{2}+\\frac{2}{5}-\\frac{1}{3}=\\frac{17}{30}\\,.\\end{aligned}\">\\begin{aligned}&amp; \\text{根据乘法公式}P(AB)=P(A)P(B|A)=\\frac{1}{2}\\times \\frac{2}{3}=\\frac{1}{3}\\text{，所以} \\\\&amp; P(A\\cup B)=P(A)+P(B)-P(AB)=\\frac{1}{2}+\\frac{2}{5}-\\frac{1}{3}=\\frac{17}{30}\\,.\\end{aligned}</div>"
     },
     {
       "id": "q0011",
       "number": 11,
       "header": "#11-Easy",
       "difficulty": "Easy",
-      "prompt_html": "<img src=\"/static/generated/assets/probability/ch014/q0011_prompt.png\"/>",
+      "prompt_html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{已知} \\, P(A) = 0.6 \\, , \\, \\ P(B) = 0.5 \\, , \\, \\ P(A|B) = 0.8 \\, , \\text{则} \\, P(A \\cup B) = \\, ( \\ \\ ) \\, .\">\\text{已知} \\, P(A) = 0.6 \\, , \\, \\ P(B) = 0.5 \\, , \\, \\ P(A|B) = 0.8 \\, , \\text{则} \\, P(A \\cup B) = \\, ( \\ \\ ) \\, .</span>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/probability/ch014/q0011_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"0.7\">0.7</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/probability/ch014/q0011_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"0.5\">0.5</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/probability/ch014/q0011_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"0.6\">0.6</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/probability/ch014/q0011_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"0.8\">0.8</span>"
         }
       ],
       "answer": "A",
       "answer_index": 0,
-      "analysis_html": "<img src=\"/static/generated/assets/probability/ch014/q0011_analysis.png\"/>"
+      "analysis_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{aligned}&amp;\\text{根据乘法公式有，} \\ P(AB)=P(B)P(A|B)=0.5\\times 0.8=0.4\\,,\\\\&amp;\\text{再根据概率的性质，} \\ P(A\\cup B)=P(A)+P(B)-P(AB)=0.6+0.5-0.4=0.7\\,.\\end{aligned}\">\\begin{aligned}&amp;\\text{根据乘法公式有，} \\ P(AB)=P(B)P(A|B)=0.5\\times 0.8=0.4\\,,\\\\&amp;\\text{再根据概率的性质，} \\ P(A\\cup B)=P(A)+P(B)-P(AB)=0.6+0.5-0.4=0.7\\,.\\end{aligned}</div>"
     },
     {
       "id": "q0012",
       "number": 12,
       "header": "#12-Averge",
       "difficulty": "Averge",
-      "prompt_html": "<img src=\"/static/generated/assets/probability/ch014/q0012_prompt.png\"/>",
+      "prompt_html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{已知}P(A\\cup B)=0.8,\\,P(B)=0.4, \\text{则}P(A|\\overline{B})=(\\enspace).\">\\text{已知}P(A\\cup B)=0.8,\\,P(B)=0.4, \\text{则}P(A|\\overline{B})=(\\enspace).</span>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/probability/ch014/q0012_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\frac { 2 } { 3 }\">\\frac { 2 } { 3 }</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/probability/ch014/q0012_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\frac { 3 } { 4 }\">\\frac { 3 } { 4 }</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/probability/ch014/q0012_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\frac { 1 } { 4 }\">\\frac { 1 } { 4 }</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/probability/ch014/q0012_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\frac { 1 } { 3 }\">\\frac { 1 } { 3 }</span>"
         }
       ],
       "answer": "A",
       "answer_index": 0,
-      "analysis_html": "<img src=\"/static/generated/assets/probability/ch014/q0012_analysis.png\"/>"
+      "analysis_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{aligned}&amp;\\text{由} \\\\&amp;0.8=P(A\\cup B)=1-P(\\overline{A\\cup B})=1-P(\\overline{A B})=1-P(\\overline{B})P(\\overline{A\\setminus B})=1-0.6P(\\overline{A\\setminus B})\\,, \\\\&amp;\\text{得}\\quad P(\\overline{A\\setminus B})=\\frac{1}{3}=1-P(A\\setminus B)\\,,\\,\\,\\text{从而}\\,\\,P(A\\setminus \\overline{B})=\\frac{2}{3}\\,. \\end{aligned}\">\\begin{aligned}&amp;\\text{由} \\\\&amp;0.8=P(A\\cup B)=1-P(\\overline{A\\cup B})=1-P(\\overline{A B})=1-P(\\overline{B})P(\\overline{A\\setminus B})=1-0.6P(\\overline{A\\setminus B})\\,, \\\\&amp;\\text{得}\\quad P(\\overline{A\\setminus B})=\\frac{1}{3}=1-P(A\\setminus B)\\,,\\,\\,\\text{从而}\\,\\,P(A\\setminus \\overline{B})=\\frac{2}{3}\\,. \\end{aligned}</div>"
     },
     {
       "id": "q0013",
       "number": 13,
       "header": "#13-Easy",
       "difficulty": "Easy",
-      "prompt_html": "<img src=\"/static/generated/assets/probability/ch014/q0013_prompt.png\"/>",
+      "prompt_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{array}{l} \\text{设事件}A \\text{与} B \\text{互不相容，且} P(A) = \\frac{1}{3},\\ P(B) = \\frac{1}{4}, \\text{则条件概率} P(A|\\overline{B}) = (\\ ).\\end{array}\">\\begin{array}{l} \\text{设事件}A \\text{与} B \\text{互不相容，且} P(A) = \\frac{1}{3},\\ P(B) = \\frac{1}{4}, \\text{则条件概率} P(A|\\overline{B}) = (\\ ).\\end{array}</div>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/probability/ch014/q0013_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\frac { 4 } { 9 }\">\\frac { 4 } { 9 }</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/probability/ch014/q0013_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"0\">0</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/probability/ch014/q0013_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\frac { 1 } { 9 }\">\\frac { 1 } { 9 }</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/probability/ch014/q0013_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\frac { 1 } { 2 }\">\\frac { 1 } { 2 }</span>"
         }
       ],
       "answer": "A",
       "answer_index": 0,
-      "analysis_html": "<img src=\"/static/generated/assets/probability/ch014/q0013_analysis.png\"/>"
+      "analysis_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{array}{l} \\text{由于事件} A \\text{与} B \\text{互不相容，则} AB = \\varnothing \\text{，所以} A \\overline{B} = A, \\\\ \\text{则} P(A \\overline{B}) = \\frac{P(A \\overline{B})}{P(\\overline{B})} = \\frac{P(A)}{1 - P(B)} = \\frac{\\frac{1}{3}}{1 - \\frac{1}{4}} = \\frac{4}{9}. \\end{array}\">\\begin{array}{l} \\text{由于事件} A \\text{与} B \\text{互不相容，则} AB = \\varnothing \\text{，所以} A \\overline{B} = A, \\\\ \\text{则} P(A \\overline{B}) = \\frac{P(A \\overline{B})}{P(\\overline{B})} = \\frac{P(A)}{1 - P(B)} = \\frac{\\frac{1}{3}}{1 - \\frac{1}{4}} = \\frac{4}{9}. \\end{array}</div>"
     },
     {
       "id": "q0014",
       "number": 14,
       "header": "#14-Easy",
       "difficulty": "Easy",
-      "prompt_html": "<img src=\"/static/generated/assets/probability/ch014/q0014_prompt.png\"/>",
+      "prompt_html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{设}A,B \\text{为两事件，}P(A)=0.7,\\ P(B)=0.6,\\ P(B|\\overline{A})=0.4,\\ \\text{则}P(A\\cup B)=\\left(\\ \\right).\">\\text{设}A,B \\text{为两事件，}P(A)=0.7,\\ P(B)=0.6,\\ P(B|\\overline{A})=0.4,\\ \\text{则}P(A\\cup B)=\\left(\\ \\right).</span>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/probability/ch014/q0014_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"0.82\">0.82</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/probability/ch014/q0014_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"0.48\">0.48</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/probability/ch014/q0014_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"0.24\">0.24</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/probability/ch014/q0014_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"0.76\">0.76</span>"
         }
       ],
       "answer": "A",
       "answer_index": 0,
-      "analysis_html": "<img src=\"/static/generated/assets/probability/ch014/q0014_analysis.png\"/>"
+      "analysis_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{aligned}&amp;\\text{根据乘法公式有}P(B\\overline{A})=P(\\overline{A})P(B|\\overline{A})=(1-0.7)\\times 0.4=0.12\\,,\\\\&amp;\\text{由于}B=A\\overline{B}+\\overline{A}B\\,,\\text{所以}P(AB)=P(B)-P(\\overline{A}B)=0.6-0.12=0.48\\,,\\\\&amp;\\text{于是}P(A+B)=P(A)+P(B)-P(AB)=0.7+0.6-0.48=0.82\\,.\\end{aligned}\">\\begin{aligned}&amp;\\text{根据乘法公式有}P(B\\overline{A})=P(\\overline{A})P(B|\\overline{A})=(1-0.7)\\times 0.4=0.12\\,,\\\\&amp;\\text{由于}B=A\\overline{B}+\\overline{A}B\\,,\\text{所以}P(AB)=P(B)-P(\\overline{A}B)=0.6-0.12=0.48\\,,\\\\&amp;\\text{于是}P(A+B)=P(A)+P(B)-P(AB)=0.7+0.6-0.48=0.82\\,.\\end{aligned}</div>"
     },
     {
       "id": "q0015",
       "number": 15,
       "header": "#15-Easy",
       "difficulty": "Easy",
-      "prompt_html": "<img src=\"/static/generated/assets/probability/ch014/q0015_prompt.png\"/>",
+      "prompt_html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{已知} \\, P(A) = \\frac{1}{4}, \\, P(B|A) = \\frac{1}{2}, \\, P(A|B) = \\frac{1}{3}, \\text{则} \\, P(A \\cup B) = ( \\ \\ ).\">\\text{已知} \\, P(A) = \\frac{1}{4}, \\, P(B|A) = \\frac{1}{2}, \\, P(A|B) = \\frac{1}{3}, \\text{则} \\, P(A \\cup B) = ( \\ \\ ).</span>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/probability/ch014/q0015_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\frac { 1 } { 2 }\">\\frac { 1 } { 2 }</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/probability/ch014/q0015_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\frac { 3 } { 4 }\">\\frac { 3 } { 4 }</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/probability/ch014/q0015_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\frac { 1 } { 3 }\">\\frac { 1 } { 3 }</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/probability/ch014/q0015_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\frac { 3 } { 5 }\">\\frac { 3 } { 5 }</span>"
         }
       ],
       "answer": "A",
       "answer_index": 0,
-      "analysis_html": "<img src=\"/static/generated/assets/probability/ch014/q0015_analysis.png\"/>"
+      "analysis_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{aligned}&amp;\\text{由乘法公式得} \\; P(AB) = P(A)P(B|A) = \\frac{1}{4} \\cdot \\frac{1}{2} = \\frac{1}{8}, \\\\&amp;\\text{再由乘法公式的变形得} \\; P(B) = \\frac{P(AB)}{P(A|B)} = \\frac{\\frac{1}{8}}{\\frac{1}{3}} = \\frac{3}{8}, \\\\&amp;\\text{所以} \\; P(A \\cup B) = P(A) + P(B) - P(AB) = \\frac{1}{4} + \\frac{3}{8} - \\frac{1}{8} = \\frac{1}{2}.\\end{aligned}\">\\begin{aligned}&amp;\\text{由乘法公式得} \\; P(AB) = P(A)P(B|A) = \\frac{1}{4} \\cdot \\frac{1}{2} = \\frac{1}{8}, \\\\&amp;\\text{再由乘法公式的变形得} \\; P(B) = \\frac{P(AB)}{P(A|B)} = \\frac{\\frac{1}{8}}{\\frac{1}{3}} = \\frac{3}{8}, \\\\&amp;\\text{所以} \\; P(A \\cup B) = P(A) + P(B) - P(AB) = \\frac{1}{4} + \\frac{3}{8} - \\frac{1}{8} = \\frac{1}{2}.\\end{aligned}</div>"
     },
     {
       "id": "q0016",
       "number": 16,
       "header": "#16-Easy",
       "difficulty": "Easy",
-      "prompt_html": "<img src=\"/static/generated/assets/probability/ch014/q0016_prompt.png\"/>",
+      "prompt_html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{设} \\, A, B \\text{是两个随机事件，} \\ P(A) = 0.4 \\,, \\ P(AB) = 0.2 \\,, \\ P(A|B) + P(\\overline{A} \\overline{B}) = 1 \\,, \\ \\text{则} \\ P(A \\cup B) = (\\ ) \\, .\">\\text{设} \\, A, B \\text{是两个随机事件，} \\ P(A) = 0.4 \\,, \\ P(AB) = 0.2 \\,, \\ P(A|B) + P(\\overline{A} \\overline{B}) = 1 \\,, \\ \\text{则} \\ P(A \\cup B) = (\\ ) \\, .</span>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/probability/ch014/q0016_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"0.7\">0.7</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/probability/ch014/q0016_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"0.2\">0.2</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/probability/ch014/q0016_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"0.4\">0.4</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/probability/ch014/q0016_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"0.5\">0.5</span>"
         }
       ],
       "answer": "A",
       "answer_index": 0,
-      "analysis_html": "<img src=\"/static/generated/assets/probability/ch014/q0016_analysis.png\"/>"
+      "analysis_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{aligned}&amp;\\text{由}\\;\\;P(A)=P(AB)+P(A\\overline{B})=0.4\\;,\\;P(AB)=0.2\\;.\\; \\text{因此}\\;P(A\\overline{B})=0.2\\;,\\; \\text{并且}\\;P(B)&gt;0\\;,\\;P(\\overline{B})&gt;0\\;,\\;\\\\&amp;\\text{对于}\\;\\overline{B}\\;,\\; \\text{有}\\;P(A|\\overline{B})+P(\\overline{A}|\\overline{B})=1\\;,\\; \\text{于是}\\;P(A|\\overline{B})=P(A|B)\\;,\\; \\text{因此}\\;A\\text{与}B\\text{相互独立，有}\\;P(B)=\\frac{P(AB)}{P(A)}=0.5\\;,\\;\\\\&amp;\\text{所以}\\;P(A\\cup B)=P(A)+P(B)-P(AB)=0.7\\;.\\end{aligned}\">\\begin{aligned}&amp;\\text{由}\\;\\;P(A)=P(AB)+P(A\\overline{B})=0.4\\;,\\;P(AB)=0.2\\;.\\; \\text{因此}\\;P(A\\overline{B})=0.2\\;,\\; \\text{并且}\\;P(B)&gt;0\\;,\\;P(\\overline{B})&gt;0\\;,\\;\\\\&amp;\\text{对于}\\;\\overline{B}\\;,\\; \\text{有}\\;P(A|\\overline{B})+P(\\overline{A}|\\overline{B})=1\\;,\\; \\text{于是}\\;P(A|\\overline{B})=P(A|B)\\;,\\; \\text{因此}\\;A\\text{与}B\\text{相互独立，有}\\;P(B)=\\frac{P(AB)}{P(A)}=0.5\\;,\\;\\\\&amp;\\text{所以}\\;P(A\\cup B)=P(A)+P(B)-P(AB)=0.7\\;.\\end{aligned}</div>"
     },
     {
       "id": "q0017",
       "number": 17,
       "header": "#17-Easy",
       "difficulty": "Easy",
-      "prompt_html": "<img src=\"/static/generated/assets/probability/ch014/q0017_prompt.png\"/>",
+      "prompt_html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{已知已知} \\ P(A) = \\frac{1}{2} \\ , \\ \\ P(B) = \\frac{5}{8} \\ , \\ \\ P(B|A) = \\frac{3}{4} \\ . \\ \\text{则} \\ P(A|B) = \\ ( \\ ) \\ .\">\\text{已知已知} \\ P(A) = \\frac{1}{2} \\ , \\ \\ P(B) = \\frac{5}{8} \\ , \\ \\ P(B|A) = \\frac{3}{4} \\ . \\ \\text{则} \\ P(A|B) = \\ ( \\ ) \\ .</span>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/probability/ch014/q0017_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\frac { 3 } { 5 }\">\\frac { 3 } { 5 }</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/probability/ch014/q0017_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\frac { 3 } { 8 }\">\\frac { 3 } { 8 }</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/probability/ch014/q0017_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\frac { 5 } { 8 }\">\\frac { 5 } { 8 }</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/probability/ch014/q0017_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\frac {2}{5}\">\\frac {2}{5}</span>"
         }
       ],
       "answer": "A",
       "answer_index": 0,
-      "analysis_html": "<img src=\"/static/generated/assets/probability/ch014/q0017_analysis.png\"/>"
+      "analysis_html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{根据乘法公式,} P(AB) = P(A)P(B|A) = \\frac{1}{2} \\times \\frac{3}{4} = \\frac{3}{8}, \\text{所以} P(A|B) = \\frac{P(AB)}{P(B)} = \\frac{\\frac{3}{8}}{\\frac{5}{8}} = \\frac{3}{5}.\">\\text{根据乘法公式,} P(AB) = P(A)P(B|A) = \\frac{1}{2} \\times \\frac{3}{4} = \\frac{3}{8}, \\text{所以} P(A|B) = \\frac{P(AB)}{P(B)} = \\frac{\\frac{3}{8}}{\\frac{5}{8}} = \\frac{3}{5}.</span>"
     },
     {
       "id": "q0018",
       "number": 18,
       "header": "#18-Easy",
       "difficulty": "Easy",
-      "prompt_html": "<img src=\"/static/generated/assets/probability/ch014/q0018_prompt.png\"/>",
+      "prompt_html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{已知} \\, P(A) = \\frac{1}{3}\\,, \\,\\, P(B|A) = \\frac{3}{5}\\,, \\,\\, P(A \\cup B) = \\frac{3}{4}\\,.\\,\\, \\text{则} \\, P(A|B) = (\\,\\ )\\,.\">\\text{已知} \\, P(A) = \\frac{1}{3}\\,, \\,\\, P(B|A) = \\frac{3}{5}\\,, \\,\\, P(A \\cup B) = \\frac{3}{4}\\,.\\,\\, \\text{则} \\, P(A|B) = (\\,\\ )\\,.</span>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/probability/ch014/q0018_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\frac { 12 } { 37 }\">\\frac { 12 } { 37 }</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/probability/ch014/q0018_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\frac {3}{7}\">\\frac {3}{7}</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/probability/ch014/q0018_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\frac { 3 } { 10 }\">\\frac { 3 } { 10 }</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/probability/ch014/q0018_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\frac { 4 } { 15 }\">\\frac { 4 } { 15 }</span>"
         }
       ],
       "answer": "A",
       "answer_index": 0,
-      "analysis_html": "<img src=\"/static/generated/assets/probability/ch014/q0018_analysis.png\"/>"
+      "analysis_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{aligned}&amp;\\text{由条件概率公式及条件}P(B|A)=\\frac{3}{5}\\;,\\;P(AB)=P(A)P(B|A)=\\frac{1}{3}\\times\\frac{3}{5}=\\frac{1}{5}\\;,\\;\\\\&amp;\\text{又由概率性质}P(A\\cup B)=P(A)+P(B)-P(AB)\\text{得},\\\\&amp;\\qquad P(B)=P(A\\cup B)+P(AB)-P(A)=\\frac{3}{4}+\\frac{1}{5}-\\frac{1}{3}=\\frac{37}{60}\\;,\\;\\\\&amp;\\text{所以}P(A|B)=\\frac{P(AB)}{P(B)}=\\frac{12}{37}\\,.\\end{aligned}\">\\begin{aligned}&amp;\\text{由条件概率公式及条件}P(B|A)=\\frac{3}{5}\\;,\\;P(AB)=P(A)P(B|A)=\\frac{1}{3}\\times\\frac{3}{5}=\\frac{1}{5}\\;,\\;\\\\&amp;\\text{又由概率性质}P(A\\cup B)=P(A)+P(B)-P(AB)\\text{得},\\\\&amp;\\qquad P(B)=P(A\\cup B)+P(AB)-P(A)=\\frac{3}{4}+\\frac{1}{5}-\\frac{1}{3}=\\frac{37}{60}\\;,\\;\\\\&amp;\\text{所以}P(A|B)=\\frac{P(AB)}{P(B)}=\\frac{12}{37}\\,.\\end{aligned}</div>"
     }
-  ]
+  ],
+  "format": "latex",
+  "source_md": "gl/1.4.2.1_条件概率的定义计算(18题)/1.4.2.1_条件概率的定义计算(18题).md"
 }

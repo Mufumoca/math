@@ -13,532 +13,534 @@
       "number": 1,
       "header": "#1-Averge",
       "difficulty": "Averge",
-      "prompt_html": "<img src=\"/static/generated/assets/advanced-math/ch028/q0001_prompt.png\"/>",
+      "prompt_html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{设}f(x)=x^{3}-2x+1, \\text{取}\\Delta x=0.1 \\text{时,则}\\Delta f(1)-df(1)=[\\quad].\">\\text{设}f(x)=x^{3}-2x+1, \\text{取}\\Delta x=0.1 \\text{时,则}\\Delta f(1)-df(1)=[\\quad].</span>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch028/q0001_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"0.031\">0.031</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch028/q0001_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"0.41\">0.41</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch028/q0001_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"0.041\">0.041</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch028/q0001_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"0.31\">0.31</span>"
         }
       ],
       "answer": "A",
       "answer_index": 0,
-      "analysis_html": "<img src=\"/static/generated/assets/advanced-math/ch028/q0001_analysis.png\"/>"
+      "analysis_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{aligned}&amp;\\text{解答}\\quad\\Delta f(1)=f(1.1)-f(1)=1.1^3-2\\cdot 1.1+1-1+2-1=0.131\\ ,\\\\&amp;\\quad df(1)=f&#x27;(1)\\Delta x=1\\cdot 0.1=0.1\\\\&amp;\\text{因此}\\Delta f(1)-df(1)=0.131-0.1=0.031\\ .\\end{aligned}\">\\begin{aligned}&amp;\\text{解答}\\quad\\Delta f(1)=f(1.1)-f(1)=1.1^3-2\\cdot 1.1+1-1+2-1=0.131\\ ,\\\\&amp;\\quad df(1)=f&#x27;(1)\\Delta x=1\\cdot 0.1=0.1\\\\&amp;\\text{因此}\\Delta f(1)-df(1)=0.131-0.1=0.031\\ .\\end{aligned}</div>"
     },
     {
       "id": "q0002",
       "number": 2,
       "header": "#2-Averge",
       "difficulty": "Averge",
-      "prompt_html": "<img src=\"/static/generated/assets/advanced-math/ch028/q0002_prompt.png\"/>",
+      "prompt_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\text{设函数}y=f(x)\\text{在}x\\text{处可导，曲线}y=f(x)\\text{上点} (x,f(x)) \\text{处的切线方程为}Y=\\varphi(x), \\text{则}y=f(x)\\text{在}x\\text{关于自变量改变量} \\Delta x\\text{的微分}dy\\text{等于}[\\begin{array}{c} \\end{array}.\">\\text{设函数}y=f(x)\\text{在}x\\text{处可导，曲线}y=f(x)\\text{上点} (x,f(x)) \\text{处的切线方程为}Y=\\varphi(x), \\text{则}y=f(x)\\text{在}x\\text{关于自变量改变量} \\Delta x\\text{的微分}dy\\text{等于}[\\begin{array}{c} \\end{array}.</div>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch028/q0002_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"f(x+\\Delta x)-f(x)\">f(x+\\Delta x)-f(x)</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch028/q0002_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\varphi (x) - \\varphi (x + \\Delta x)\">\\varphi (x) - \\varphi (x + \\Delta x)</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch028/q0002_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\varphi ( x + \\Delta x ) - \\varphi ( x )\">\\varphi ( x + \\Delta x ) - \\varphi ( x )</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch028/q0002_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"f^{\\prime}(x)\">f^{\\prime}(x)</span>"
         }
       ],
       "answer": "C",
       "answer_index": 2,
-      "analysis_html": "<img src=\"/static/generated/assets/advanced-math/ch028/q0002_analysis.png\"/>"
+      "analysis_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{array}{l} \\text{解答}\\quad dy = f&#x27;(x) \\Delta x \\text{ 可，此时 } f(x) \\text{ 在 } x \\text{ 处的导数等于曲线在此点的切线斜率，可得} \\\\ f&#x27;(x) = \\frac{\\varphi(x+\\Delta x) - \\varphi(x)}{\\Delta x}, \\text{所以} dy = f&#x27;(x) \\Delta x = \\varphi(x+\\Delta x) - \\varphi(x) \\;。 \\end{array}\">\\begin{array}{l} \\text{解答}\\quad dy = f&#x27;(x) \\Delta x \\text{ 可，此时 } f(x) \\text{ 在 } x \\text{ 处的导数等于曲线在此点的切线斜率，可得} \\\\ f&#x27;(x) = \\frac{\\varphi(x+\\Delta x) - \\varphi(x)}{\\Delta x}, \\text{所以} dy = f&#x27;(x) \\Delta x = \\varphi(x+\\Delta x) - \\varphi(x) \\;。 \\end{array}</div>"
     },
     {
       "id": "q0003",
       "number": 3,
       "header": "#3-Averge",
       "difficulty": "Averge",
-      "prompt_html": "<img src=\"/static/generated/assets/advanced-math/ch028/q0003_prompt.png\"/>",
+      "prompt_html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{若}y=f(x),\\text{有}y^{\\prime}|_{x=x_{0}}=\\frac{1}{2},\\text{则当}\\Delta x\\to 0\\text{时,在点}x=x_{0}\\text{处的微分}dy\\text{是}\\left[\\quad\\right].\">\\text{若}y=f(x),\\text{有}y^{\\prime}|_{x=x_{0}}=\\frac{1}{2},\\text{则当}\\Delta x\\to 0\\text{时,在点}x=x_{0}\\text{处的微分}dy\\text{是}\\left[\\quad\\right].</span>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch028/q0003_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{与} \\Delta x \\text{等价无穷小}\">\\text{与} \\Delta x \\text{等价无穷小}</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch028/q0003_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{比} \\, \\Delta x \\, \\text{低阶无穷小}\">\\text{比} \\, \\Delta x \\, \\text{低阶无穷小}</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch028/q0003_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{比} \\, \\Delta x \\, \\text{高阶无穷小}\">\\text{比} \\, \\Delta x \\, \\text{高阶无穷小}</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch028/q0003_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{与 } \\ \\Delta x \\ \\text{同阶无穷小，但不是等价无穷小}\">\\text{与 } \\ \\Delta x \\ \\text{同阶无穷小，但不是等价无穷小}</span>"
         }
       ],
       "answer": "D",
       "answer_index": 3,
-      "analysis_html": "<img src=\"/static/generated/assets/advanced-math/ch028/q0003_analysis.png\"/>"
+      "analysis_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{array}{l} \\text {解答} \\text {由} y^{\\prime}|_{x = x_{0}} = \\frac{1}{2}, \\text {因此} \\lim_{\\Delta x \\to 0} \\frac{\\Delta y}{\\Delta x} = \\lim_{\\Delta x \\to 0} \\frac{dy}{\\Delta x} = f^{\\prime}(x_{0}) = \\frac{1}{2}, \\text {则} dy \\text {与}\\Delta x \\text {同阶无穷小，但不是等价无穷小} \\end{array}\">\\begin{array}{l} \\text {解答} \\text {由} y^{\\prime}|_{x = x_{0}} = \\frac{1}{2}, \\text {因此} \\lim_{\\Delta x \\to 0} \\frac{\\Delta y}{\\Delta x} = \\lim_{\\Delta x \\to 0} \\frac{dy}{\\Delta x} = f^{\\prime}(x_{0}) = \\frac{1}{2}, \\text {则} dy \\text {与}\\Delta x \\text {同阶无穷小，但不是等价无穷小} \\end{array}</div>"
     },
     {
       "id": "q0004",
       "number": 4,
       "header": "#4-Averge",
       "difficulty": "Averge",
-      "prompt_html": "<img src=\"/static/generated/assets/advanced-math/ch028/q0004_prompt.png\"/>",
+      "prompt_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\text{若}y=f(x),\\text{有}y^{\\prime}\\big{|}_{x=x_{0}}=1, \\text{则当} \\Delta x \\to 0 \\text{时,在点}x=x_{0} \\text{处的微分}d\\varphi \\text{是[ } \\ \\\n\n.\">\\text{若}y=f(x),\\text{有}y^{\\prime}\\big{|}_{x=x_{0}}=1, \\text{则当} \\Delta x \\to 0 \\text{时,在点}x=x_{0} \\text{处的微分}d\\varphi \\text{是[ } \\ \\\n\n.</div>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch028/q0004_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{与} \\Delta x \\text{等价无穷小}\">\\text{与} \\Delta x \\text{等价无穷小}</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch028/q0004_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{与}\\ \\ \\Delta x \\ \\text{同阶无穷小，但不是等价无穷小}\">\\text{与}\\ \\ \\Delta x \\ \\text{同阶无穷小，但不是等价无穷小}</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch028/q0004_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{比} \\, \\Delta x \\, \\text{低阶无穷小}\">\\text{比} \\, \\Delta x \\, \\text{低阶无穷小}</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch028/q0004_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{比} \\, \\Delta x \\, \\, \\, \\text{高阶无穷小}\">\\text{比} \\, \\Delta x \\, \\, \\, \\text{高阶无穷小}</span>"
         }
       ],
       "answer": "A",
       "answer_index": 0,
-      "analysis_html": "<img src=\"/static/generated/assets/advanced-math/ch028/q0004_analysis.png\"/>"
+      "analysis_html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{解答 由}y&#x27;\\bigg|_{x=-x_{0}}=1,\\text{因此}\\lim_{\\Delta x\\to 0}\\frac{\\Delta y}{\\Delta x}=\\lim_{\\Delta x\\to 0}\\frac{dy}{\\Delta x}=f&#x27;(x_{0})=1, \\text{则}dy\\text{是}\\Delta x\\text{的等阶无穷小。}\">\\text{解答 由}y&#x27;\\bigg|_{x=-x_{0}}=1,\\text{因此}\\lim_{\\Delta x\\to 0}\\frac{\\Delta y}{\\Delta x}=\\lim_{\\Delta x\\to 0}\\frac{dy}{\\Delta x}=f&#x27;(x_{0})=1, \\text{则}dy\\text{是}\\Delta x\\text{的等阶无穷小。}</span>"
     },
     {
       "id": "q0005",
       "number": 5,
       "header": "#5-Averge",
       "difficulty": "Averge",
-      "prompt_html": "<img src=\"/static/generated/assets/advanced-math/ch028/q0005_prompt.png\"/>",
+      "prompt_html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{已知} y = x ^ { 3 } - 1 , \\text{在点} x = 2 \\text{处，下面说法正确的是[ ]}.\">\\text{已知} y = x ^ { 3 } - 1 , \\text{在点} x = 2 \\text{处，下面说法正确的是[ ]}.</span>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch028/q0005_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{当 } \\Delta x = 2 \\text{ 时, } \\Delta y = 48, d y = 24\">\\text{当 } \\Delta x = 2 \\text{ 时, } \\Delta y = 48, d y = 24</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch028/q0005_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{当}\\Delta x=0.1\\text{时},\\Delta y=1.3,dy=1.2\">\\text{当}\\Delta x=0.1\\text{时},\\Delta y=1.3,dy=1.2</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch028/q0005_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{当 } \\Delta x = 1 \\text{时, } \\Delta y = 18, dy = 12\">\\text{当 } \\Delta x = 1 \\text{时, } \\Delta y = 18, dy = 12</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch028/q0005_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{当}\\,\\Delta x = 0.01 \\text{时}, \\Delta y = 0.120601, dy = 0.12\">\\text{当}\\,\\Delta x = 0.01 \\text{时}, \\Delta y = 0.120601, dy = 0.12</span>"
         }
       ],
       "answer": "D",
       "answer_index": 3,
-      "analysis_html": "<img src=\"/static/generated/assets/advanced-math/ch028/q0005_analysis.png\"/>"
+      "analysis_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{aligned}&amp;\\Delta y\\Big|_{x=2}=\\left[(x+\\Delta x)^3-1-(x^3-1)\\right]\\Big|_{x=2}=[3x^2\\Delta x+3x(\\Delta x)^2+(\\Delta x)^3]\\Big|_{x=2}\\\\&amp;=12\\Delta x+6(\\Delta x)^2+(\\Delta x)^3\\\\&amp;dy\\Big|_{x=2}=(y&#x27;dx)\\Big|_{x=2}=3x^2dx\\Big|_{x=2}=12dx=12\\Delta x\\,,\\\\&amp;\\text{当}\\Delta x=2\\text{时,}\\Delta y=56,dy=24\\,;\\\\&amp;\\text{当}\\Delta x=1\\text{时,}\\Delta y=19,dy=12\\,;\\\\&amp;\\text{当}\\Delta x=0.1\\text{时,}\\Delta y=1.261,dy=1.2\\,;\\\\&amp;\\text{当}\\Delta x=0.01\\text{时,}\\Delta y=0.120601,dy=0.12\\,;\\end{aligned}\">\\begin{aligned}&amp;\\Delta y\\Big|_{x=2}=\\left[(x+\\Delta x)^3-1-(x^3-1)\\right]\\Big|_{x=2}=[3x^2\\Delta x+3x(\\Delta x)^2+(\\Delta x)^3]\\Big|_{x=2}\\\\&amp;=12\\Delta x+6(\\Delta x)^2+(\\Delta x)^3\\\\&amp;dy\\Big|_{x=2}=(y&#x27;dx)\\Big|_{x=2}=3x^2dx\\Big|_{x=2}=12dx=12\\Delta x\\,,\\\\&amp;\\text{当}\\Delta x=2\\text{时,}\\Delta y=56,dy=24\\,;\\\\&amp;\\text{当}\\Delta x=1\\text{时,}\\Delta y=19,dy=12\\,;\\\\&amp;\\text{当}\\Delta x=0.1\\text{时,}\\Delta y=1.261,dy=1.2\\,;\\\\&amp;\\text{当}\\Delta x=0.01\\text{时,}\\Delta y=0.120601,dy=0.12\\,;\\end{aligned}</div>"
     },
     {
       "id": "q0006",
       "number": 6,
       "header": "#6-Averge",
       "difficulty": "Averge",
-      "prompt_html": "<img src=\"/static/generated/assets/advanced-math/ch028/q0006_prompt.png\"/>",
+      "prompt_html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{关于函数}y = f ( x ) , \\text{在点} x \\text{处连续、可导及可微三者的关系是} [ \\quad] .\">\\text{关于函数}y = f ( x ) , \\text{在点} x \\text{处连续、可导及可微三者的关系是} [ \\quad] .</span>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch028/q0006_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{可导是可微的充分必要条件}:\">\\text{可导是可微的充分必要条件}:</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch028/q0006_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{连续是可微的充分条件}\">\\text{连续是可微的充分条件}</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch028/q0006_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{)连续是可导的充分必要条件}\">\\text{)连续是可导的充分必要条件}</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch028/q0006_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{可微不是连续的充分条件}\">\\text{可微不是连续的充分条件}</span>"
         }
       ],
       "answer": "A",
       "answer_index": 0,
-      "analysis_html": "<img src=\"/static/generated/assets/advanced-math/ch028/q0006_analysis.png\"/>"
+      "analysis_html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{解答可导一定可微，可微一定可导，可导一定连续，连续不一定可导，不连续一定不可导。}\">\\text{解答可导一定可微，可微一定可导，可导一定连续，连续不一定可导，不连续一定不可导。}</span>"
     },
     {
       "id": "q0007",
       "number": 7,
       "header": "#7-Averge",
       "difficulty": "Averge",
-      "prompt_html": "<img src=\"/static/generated/assets/advanced-math/ch028/q0007_prompt.png\"/>",
+      "prompt_html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{函数}f(x)\\text{在可导点}x=0\\text{有增量}\\Delta x=0.2,\\text{对应的函数值增量}\">\\text{函数}f(x)\\text{在可导点}x=0\\text{有增量}\\Delta x=0.2,\\text{对应的函数值增量}</span>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch028/q0007_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"4\">4</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch028/q0007_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"^ 2\">^ 2</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch028/q0007_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\mathbf { 1 }\">\\mathbf { 1 }</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch028/q0007_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"3\">3</span>"
         }
       ],
       "answer": "A",
       "answer_index": 0,
-      "analysis_html": "<img src=\"/static/generated/assets/advanced-math/ch028/q0007_analysis.png\"/>"
+      "analysis_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{aligned}&amp;\\text{解答~函数值增量的线性主部为}f&#x27;(0)\\Delta x\\text{，即}0.8=f&#x27;(0)\\cdot 0.2\\\\&amp;\\text{因此}\\\\&amp;f&#x27;(0)=4.\\end{aligned}\">\\begin{aligned}&amp;\\text{解答~函数值增量的线性主部为}f&#x27;(0)\\Delta x\\text{，即}0.8=f&#x27;(0)\\cdot 0.2\\\\&amp;\\text{因此}\\\\&amp;f&#x27;(0)=4.\\end{aligned}</div>"
     },
     {
       "id": "q0008",
       "number": 8,
       "header": "#8-Averge",
       "difficulty": "Averge",
-      "prompt_html": "<img src=\"/static/generated/assets/advanced-math/ch028/q0008_prompt.png\"/>",
+      "prompt_html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{若}y=f(x),\\text{有}y^{\\prime}\\big{|}_{x=x_{0}}=0, \\text{则当} \\Delta x \\to 0 \\text{时,在点}x=x_{0} \\text{处的微分}dy \\text{是[ } \\quad].\">\\text{若}y=f(x),\\text{有}y^{\\prime}\\big{|}_{x=x_{0}}=0, \\text{则当} \\Delta x \\to 0 \\text{时,在点}x=x_{0} \\text{处的微分}dy \\text{是[ } \\quad].</span>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch028/q0008_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{比} \\, \\Delta x \\, \\text{高阶无穷小}\">\\text{比} \\, \\Delta x \\, \\text{高阶无穷小}</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch028/q0008_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\Delta x \\text{ 同阶无穷小，但不是等价无穷小}\">\\Delta x \\text{ 同阶无穷小，但不是等价无穷小}</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch028/q0008_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{与} \\Delta x \\text{等价无穷小}\">\\text{与} \\Delta x \\text{等价无穷小}</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch028/q0008_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{比} \\, \\Delta x \\, \\text{低阶无穷小}.\">\\text{比} \\, \\Delta x \\, \\text{低阶无穷小}.</span>"
         }
       ],
       "answer": "A",
       "answer_index": 0,
-      "analysis_html": "<img src=\"/static/generated/assets/advanced-math/ch028/q0008_analysis.png\"/>"
+      "analysis_html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{解答 由}y&#x27;|_{x=x_{0}}=0\\text{，因此}\\lim_{\\Delta x\\to 0}\\frac{\\Delta y}{\\Delta x}=\\lim_{\\Delta x\\to 0}\\frac{dy}{\\Delta x}=f&#x27;(x_{0})=0, \\text{则}dy\\text{是}\\Delta x\\text{的高阶无穷小。}\">\\text{解答 由}y&#x27;|_{x=x_{0}}=0\\text{，因此}\\lim_{\\Delta x\\to 0}\\frac{\\Delta y}{\\Delta x}=\\lim_{\\Delta x\\to 0}\\frac{dy}{\\Delta x}=f&#x27;(x_{0})=0, \\text{则}dy\\text{是}\\Delta x\\text{的高阶无穷小。}</span>"
     },
     {
       "id": "q0009",
       "number": 9,
       "header": "#9-Averge",
       "difficulty": "Averge",
-      "prompt_html": "<img src=\"/static/generated/assets/advanced-math/ch028/q0009_prompt.png\"/>",
+      "prompt_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{array}{l} \\text{设}f(x)=x^{2}-x, \\text{取}\\Delta x=0.01, \\text{则在}x=2 \\text{处时的}\\Delta y= \\left[\\quad\\right]. \\end{array}\">\\begin{array}{l} \\text{设}f(x)=x^{2}-x, \\text{取}\\Delta x=0.01, \\text{则在}x=2 \\text{处时的}\\Delta y= \\left[\\quad\\right]. \\end{array}</div>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch028/q0009_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"0.0110601\">0.0110601</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch028/q0009_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"-0.0110601\">-0.0110601</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch028/q0009_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"0.110601\">0.110601</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch028/q0009_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"-0.110601\">-0.110601</span>"
         }
       ],
       "answer": "C",
       "answer_index": 2,
-      "analysis_html": "<img src=\"/static/generated/assets/advanced-math/ch028/q0009_analysis.png\"/>"
+      "analysis_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{aligned}&amp;\\text{解答} \\quad \\Delta y=(x+\\Delta x)^3-(x+\\Delta v)-x^3+x=3x(\\Delta v)^2+3x^2\\Delta x+(\\Delta x)^3-\\Delta x\\,,\\\\&amp;\\text{因此} \\quad \\Delta y(2)\\big|_{\\Delta x=0.01}=6\\cdot(0.01)^2+12\\cdot(0.01)+(0.01)^3-0.01=0.110601\\,.\\end{aligned}\">\\begin{aligned}&amp;\\text{解答} \\quad \\Delta y=(x+\\Delta x)^3-(x+\\Delta v)-x^3+x=3x(\\Delta v)^2+3x^2\\Delta x+(\\Delta x)^3-\\Delta x\\,,\\\\&amp;\\text{因此} \\quad \\Delta y(2)\\big|_{\\Delta x=0.01}=6\\cdot(0.01)^2+12\\cdot(0.01)+(0.01)^3-0.01=0.110601\\,.\\end{aligned}</div>"
     },
     {
       "id": "q0010",
       "number": 10,
       "header": "#10-Averge",
       "difficulty": "Averge",
-      "prompt_html": "<img src=\"/static/generated/assets/advanced-math/ch028/q0010_prompt.png\"/>",
+      "prompt_html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{若}y=f(x),\\text{有}y^{\\prime}|_{x=x_{0}}=\\frac{1}{2},\\text{则当}\\Delta x\\to 0\\text{时,在点}x=x_{0}\\text{处的微分}dy\\text{是与}\\Delta x\\left[\\quad\\right]\\text{的无穷小.}\">\\text{若}y=f(x),\\text{有}y^{\\prime}|_{x=x_{0}}=\\frac{1}{2},\\text{则当}\\Delta x\\to 0\\text{时,在点}x=x_{0}\\text{处的微分}dy\\text{是与}\\Delta x\\left[\\quad\\right]\\text{的无穷小.}</span>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch028/q0010_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{等价}\">\\text{等价}</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch028/q0010_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\textbf{低阶}\">\\textbf{低阶}</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch028/q0010_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{高阶}\">\\text{高阶}</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch028/q0010_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{同阶}\">\\text{同阶}</span>"
         }
       ],
       "answer": "D",
       "answer_index": 3,
-      "analysis_html": "<img src=\"/static/generated/assets/advanced-math/ch028/q0010_analysis.png\"/>"
+      "analysis_html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{解答 由}y^{\\prime}|_{x=x_{0}}=\\frac{1}{2},\\text{因此}\\lim_{x\\to 0}\\frac{\\Delta y}{\\Delta x}=\\lim_{x\\to 0}\\frac{dy}{\\Delta x}=f^{\\prime}(x_{0})=\\frac{1}{2},\\text{则}dy\\text{是}\\Delta x\\text{的同阶无穷小。}\">\\text{解答 由}y^{\\prime}|_{x=x_{0}}=\\frac{1}{2},\\text{因此}\\lim_{x\\to 0}\\frac{\\Delta y}{\\Delta x}=\\lim_{x\\to 0}\\frac{dy}{\\Delta x}=f^{\\prime}(x_{0})=\\frac{1}{2},\\text{则}dy\\text{是}\\Delta x\\text{的同阶无穷小。}</span>"
     },
     {
       "id": "q0011",
       "number": 11,
       "header": "#11-Averge",
       "difficulty": "Averge",
-      "prompt_html": "<img src=\"/static/generated/assets/advanced-math/ch028/q0011_prompt.png\"/>",
+      "prompt_html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{设}f(x)=x^{3}-2x-1, \\text{取} \\Delta x=0.01 \\text{时,则} \\Delta f(-1)-df(-1)=[\\quad].\">\\text{设}f(x)=x^{3}-2x-1, \\text{取} \\Delta x=0.01 \\text{时,则} \\Delta f(-1)-df(-1)=[\\quad].</span>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch028/q0011_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"-0.00299\">-0.00299</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch028/q0011_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"-0.000299\">-0.000299</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch028/q0011_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"0.000299\">0.000299</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch028/q0011_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"0.00299\">0.00299</span>"
         }
       ],
       "answer": "B",
       "answer_index": 1,
-      "analysis_html": "<img src=\"/static/generated/assets/advanced-math/ch028/q0011_analysis.png\"/>"
+      "analysis_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{aligned}&amp;\\Delta f(-1)=f(-1+0.01)-f(-1)=0.009721,\\\\ \\text{解答} &amp; \\quad df(-1)=f^{\\prime}(-1)\\Delta x=0.01,\\\\ \\text{因此} &amp; \\Delta f(-1)-df(-1)=0.009701-0.01=-0.000299\\;。\\end{aligned}\">\\begin{aligned}&amp;\\Delta f(-1)=f(-1+0.01)-f(-1)=0.009721,\\\\ \\text{解答} &amp; \\quad df(-1)=f^{\\prime}(-1)\\Delta x=0.01,\\\\ \\text{因此} &amp; \\Delta f(-1)-df(-1)=0.009701-0.01=-0.000299\\;。\\end{aligned}</div>"
     },
     {
       "id": "q0012",
       "number": 12,
       "header": "#12-Averge",
       "difficulty": "Averge",
-      "prompt_html": "<img src=\"/static/generated/assets/advanced-math/ch028/q0012_prompt.png\"/>",
+      "prompt_html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{函数}y=x^{3}\\text{在}x=2\\text{处的微分是[ }\\quad].\">\\text{函数}y=x^{3}\\text{在}x=2\\text{处的微分是[ }\\quad].</span>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch028/q0012_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\, 6 d x \\, ;\">\\, 6 d x \\, ;</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch028/q0012_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\, 8 d x \\, .\">\\, 8 d x \\, .</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch028/q0012_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\begin{array}{l} 2 d x \\quad ; \\end{array}\">\\begin{array}{l} 2 d x \\quad ; \\end{array}</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch028/q0012_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"12 \\, d x \\, ;\">12 \\, d x \\, ;</span>"
         }
       ],
       "answer": "D",
       "answer_index": 3,
-      "analysis_html": "<img src=\"/static/generated/assets/advanced-math/ch028/q0012_analysis.png\"/>"
+      "analysis_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{aligned}&amp;\\text{解答 函数}y=x^3 \\text{在}x=2 \\text{处的微分}\\\\&amp;dy=(x^3)&#x27;|_{x=2}dx=12dx\\,.\\end{aligned}\">\\begin{aligned}&amp;\\text{解答 函数}y=x^3 \\text{在}x=2 \\text{处的微分}\\\\&amp;dy=(x^3)&#x27;|_{x=2}dx=12dx\\,.\\end{aligned}</div>"
     },
     {
       "id": "q0013",
       "number": 13,
       "header": "#13-Averge",
       "difficulty": "Averge",
-      "prompt_html": "<img src=\"/static/generated/assets/advanced-math/ch028/q0013_prompt.png\"/>",
+      "prompt_html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{设函数}y=f(x)\\text{在点}x\\text{处可导，则它在}x\\text{处关于自变量改变量}\\Delta x\\text{的微分等于[ }\\quad].\">\\text{设函数}y=f(x)\\text{在点}x\\text{处可导，则它在}x\\text{处关于自变量改变量}\\Delta x\\text{的微分等于[ }\\quad].</span>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch028/q0013_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"f(x + \\Delta x) - f(x)\\,;\">f(x + \\Delta x) - f(x)\\,;</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch028/q0013_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\begin{array}{l} { l } { { f ( x ) - f ( x + \\Delta x ) ~ ~ . } } \\end{array}\">\\begin{array}{l} { l } { { f ( x ) - f ( x + \\Delta x ) ~ ~ . } } \\end{array}</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch028/q0013_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"f^{\\prime}(x)\\ ;\">f^{\\prime}(x)\\ ;</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch028/q0013_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\begin{array}{l} { r } { f ^ { \\prime } ( x ) \\Delta x \\, ; } \\end{array}\">\\begin{array}{l} { r } { f ^ { \\prime } ( x ) \\Delta x \\, ; } \\end{array}</span>"
         }
       ],
       "answer": "D",
       "answer_index": 3,
-      "analysis_html": "<img src=\"/static/generated/assets/advanced-math/ch028/q0013_analysis.png\"/>"
+      "analysis_html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{解答 函数}y=f(x)\\text{在点}x\\text{处可导,所以微分}dy=f^{\\prime}(x)\\Delta x\\,.\">\\text{解答 函数}y=f(x)\\text{在点}x\\text{处可导,所以微分}dy=f^{\\prime}(x)\\Delta x\\,.</span>"
     },
     {
       "id": "q0014",
       "number": 14,
       "header": "#14-Averge",
       "difficulty": "Averge",
-      "prompt_html": "<img src=\"/static/generated/assets/advanced-math/ch028/q0014_prompt.png\"/>",
+      "prompt_html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{设函数} y = f ( x ) \\text{在点} x \\text{处可导，则它在} x \\text{处的微分} \\phi \\text{是指} [ \\quad ] .\">\\text{设函数} y = f ( x ) \\text{在点} x \\text{处可导，则它在} x \\text{处的微分} \\phi \\text{是指} [ \\quad ] .</span>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch028/q0014_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\Delta f ( x ) \\, ;\">\\Delta f ( x ) \\, ;</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch028/q0014_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{很小的量} \\ .\">\\text{很小的量} \\ .</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch028/q0014_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\begin{array}{l} {l} f ^ { \\prime } ( x ) \\Delta x \\, ; \\end{array}\">\\begin{array}{l} {l} f ^ { \\prime } ( x ) \\Delta x \\, ; \\end{array}</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch028/q0014_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"f^{\\prime}(x)\\enspace;\">f^{\\prime}(x)\\enspace;</span>"
         }
       ],
       "answer": "C",
       "answer_index": 2,
-      "analysis_html": "<img src=\"/static/generated/assets/advanced-math/ch028/q0014_analysis.png\"/>"
+      "analysis_html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{解答 函数}y=f(x)\\text{在点}x\\text{处可导,所以微分}dy=f&#x27;(x)\\Delta x.\">\\text{解答 函数}y=f(x)\\text{在点}x\\text{处可导,所以微分}dy=f&#x27;(x)\\Delta x.</span>"
     },
     {
       "id": "q0015",
       "number": 15,
       "header": "#15-Averge",
       "difficulty": "Averge",
-      "prompt_html": "<img src=\"/static/generated/assets/advanced-math/ch028/q0015_prompt.png\"/>",
+      "prompt_html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{设}f(x_{0})&lt;0,f^{\\prime}(x_{0})&lt;0, \\text{则有} [ \\quad ] .\">\\text{设}f(x_{0})&lt;0,f^{\\prime}(x_{0})&lt;0, \\text{则有} [ \\quad ] .</span>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch028/q0015_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\begin{array}{l} { r } { d y &gt; \\Delta y &gt; 0 } \\end{array}\">\\begin{array}{l} { r } { d y &gt; \\Delta y &gt; 0 } \\end{array}</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch028/q0015_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\Delta y &lt; d y &lt; 0\">\\Delta y &lt; d y &lt; 0</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch028/q0015_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\Delta y &gt; d y &gt; 0 \\, ;\">\\Delta y &gt; d y &gt; 0 \\, ;</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch028/q0015_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\begin{array}{l} { r } { d y &lt; \\Delta y &lt; 0 } \\end{array}\">\\begin{array}{l} { r } { d y &lt; \\Delta y &lt; 0 } \\end{array}</span>"
         }
       ],
       "answer": "B",
       "answer_index": 1,
-      "analysis_html": "<img src=\"/static/generated/assets/advanced-math/ch028/q0015_analysis.png\"/>"
+      "analysis_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{array}{l} \\text {解答} \\quad f(x_{0})&lt;0, \\text {可以得到} \\lim_{\\Delta x \\rightarrow 0} \\frac{\\Delta y}{\\Delta x}&lt;0, \\text {所以} \\Delta y&#x27;&lt;0, dy&#x27;&lt;0, f&#x27;&#x27;(x_{0})&lt;0, \\text {可得曲线图像在此点切线的下方，所以} dy&gt;\\Delta y, \\text {即} \\Delta y&lt;dy&lt;0。 \\end{array}\">\\begin{array}{l} \\text {解答} \\quad f(x_{0})&lt;0, \\text {可以得到} \\lim_{\\Delta x \\rightarrow 0} \\frac{\\Delta y}{\\Delta x}&lt;0, \\text {所以} \\Delta y&#x27;&lt;0, dy&#x27;&lt;0, f&#x27;&#x27;(x_{0})&lt;0, \\text {可得曲线图像在此点切线的下方，所以} dy&gt;\\Delta y, \\text {即} \\Delta y&lt;dy&lt;0。 \\end{array}</div>"
     },
     {
       "id": "q0016",
       "number": 16,
       "header": "#16-Averge",
       "difficulty": "Averge",
-      "prompt_html": "<img src=\"/static/generated/assets/advanced-math/ch028/q0016_prompt.png\"/>",
+      "prompt_html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{设函数}f(x)\\!=\\!x^{2},\\text{则}x\\text{由}1\\text{改变到}1.01\\text{时的微分是指}[ \\quad].\">\\text{设函数}f(x)\\!=\\!x^{2},\\text{则}x\\text{由}1\\text{改变到}1.01\\text{时的微分是指}[ \\quad].</span>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch028/q0016_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"- 0.02 \\, ;\">- 0.02 \\, ;</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch028/q0016_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\mathbf { 0 . 01 } \\text { ; }\">\\mathbf { 0 . 01 } \\text { ; }</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch028/q0016_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\mathbf { 0 . 02 } \\, ;\">\\mathbf { 0 . 02 } \\, ;</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch028/q0016_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"- 0.01 .\">- 0.01 .</span>"
         }
       ],
       "answer": "C",
       "answer_index": 2,
-      "analysis_html": "<img src=\"/static/generated/assets/advanced-math/ch028/q0016_analysis.png\"/>"
+      "analysis_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{aligned} \\text{解答 由于} x=1, dx=\\Delta x=1.01-1=0.01\\text{，有题设条件知} \\\\ dy=2xdx=2\\cdot 1\\cdot 0.01=0.02\\,.\\end{aligned}\">\\begin{aligned} \\text{解答 由于} x=1, dx=\\Delta x=1.01-1=0.01\\text{，有题设条件知} \\\\ dy=2xdx=2\\cdot 1\\cdot 0.01=0.02\\,.\\end{aligned}</div>"
     },
     {
       "id": "q0017",
       "number": 17,
       "header": "#17-Averge",
       "difficulty": "Averge",
-      "prompt_html": "<img src=\"/static/generated/assets/advanced-math/ch028/q0017_prompt.png\"/>",
+      "prompt_html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{关于函数}y = f(x), \\text{在点}x \\text{处连续、可导及可微三者的关系是} [ \\quad ] .\">\\text{关于函数}y = f(x), \\text{在点}x \\text{处连续、可导及可微三者的关系是} [ \\quad ] .</span>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch028/q0017_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{连续是可导的充分必要条件}.\">\\text{连续是可导的充分必要条件}.</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch028/q0017_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{可微不是连续的充分条件}\">\\text{可微不是连续的充分条件}</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch028/q0017_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{可导是可微的充分必要条件}:\">\\text{可导是可微的充分必要条件}:</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch028/q0017_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{连续是可微的充分条件}\">\\text{连续是可微的充分条件}</span>"
         }
       ],
       "answer": "C",
       "answer_index": 2,
-      "analysis_html": "<img src=\"/static/generated/assets/advanced-math/ch028/q0017_analysis.png\"/>"
+      "analysis_html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{解答可导一定可微，可微一定可导，可导一定连续，连续不一定可导，不连续一定不可导。}\">\\text{解答可导一定可微，可微一定可导，可导一定连续，连续不一定可导，不连续一定不可导。}</span>"
     },
     {
       "id": "q0018",
       "number": 18,
       "header": "#18-Averge",
       "difficulty": "Averge",
-      "prompt_html": "<img src=\"/static/generated/assets/advanced-math/ch028/q0018_prompt.png\"/>",
+      "prompt_html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{设函数} y \\text{在某点可微的含义是} [ \\quad ].\">\\text{设函数} y \\text{在某点可微的含义是} [ \\quad ].</span>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch028/q0018_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\Delta y \\approx a \\Delta x \\, , \\, _{a} \\text{为一常数}\">\\Delta y \\approx a \\Delta x \\, , \\, _{a} \\text{为一常数}</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch028/q0018_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\Delta y = a \\Delta x + \\alpha \\, , _{a} \\text {与} \\Delta x \\text {无关，且当} \\Delta x \\rightarrow 0 \\text {时，} _{\\alpha} \\text {是} \\Delta x \\text {的高阶无穷小}\">\\Delta y = a \\Delta x + \\alpha \\, , _{a} \\text {与} \\Delta x \\text {无关，且当} \\Delta x \\rightarrow 0 \\text {时，} _{\\alpha} \\text {是} \\Delta x \\text {的高阶无穷小}</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch028/q0018_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\Delta y \\text{ 与 } \\Delta x \\text{ 成比例}\">\\Delta y \\text{ 与 } \\Delta x \\text{ 成比例}</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch028/q0018_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\Delta y \\approx a \\Delta x + \\alpha \\, , _{a} \\text {与} \\Delta x \\text {无关},\\ \\alpha \\rightarrow 0 \\ (\\Delta x \\rightarrow 0)\">\\Delta y \\approx a \\Delta x + \\alpha \\, , _{a} \\text {与} \\Delta x \\text {无关},\\ \\alpha \\rightarrow 0 \\ (\\Delta x \\rightarrow 0)</span>"
         }
       ],
       "answer": "B",
       "answer_index": 1,
-      "analysis_html": "<img src=\"/static/generated/assets/advanced-math/ch028/q0018_analysis.png\"/>"
+      "analysis_html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{解答} \\, \\, \\, \\text{由函数可微的定义可以判断}.\">\\text{解答} \\, \\, \\, \\text{由函数可微的定义可以判断}.</span>"
     },
     {
       "id": "q0019",
       "number": 19,
       "header": "#19-Averge",
       "difficulty": "Averge",
-      "prompt_html": "<img src=\"/static/generated/assets/advanced-math/ch028/q0019_prompt.png\"/>",
+      "prompt_html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{若} \\Delta y = f ( x _ { 0 } + \\Delta x ) - f ( x _ { 0 } ) \\text{与} (\\tan \\Delta x - \\cos 2 \\Delta x ) \\Delta x \\text{为} \\Delta x \\to 0 \\text{时的等价无穷小，则} f ^ { \\prime } ( x ) = [ \\quad ] .\">\\text{若} \\Delta y = f ( x _ { 0 } + \\Delta x ) - f ( x _ { 0 } ) \\text{与} (\\tan \\Delta x - \\cos 2 \\Delta x ) \\Delta x \\text{为} \\Delta x \\to 0 \\text{时的等价无穷小，则} f ^ { \\prime } ( x ) = [ \\quad ] .</span>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch028/q0019_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"- 2 .\">- 2 .</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch028/q0019_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\mathbf { 1 }\">\\mathbf { 1 }</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch028/q0019_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"2\">2</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch028/q0019_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\substack{\\text{- 1}}\">\\substack{\\text{- 1}}</span>"
         }
       ],
       "answer": "D",
       "answer_index": 3,
-      "analysis_html": "<img src=\"/static/generated/assets/advanced-math/ch028/q0019_analysis.png\"/>"
+      "analysis_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{aligned} \\text{解答} &amp; = f&#x27;(x_0) \\lim_{\\Delta x \\rightarrow 0} \\frac{\\cos \\Delta x}{\\sin \\Delta x - \\cos \\Delta x + 2 \\sin^3 \\Delta x} = \\\\ &amp; = f&#x27;(x_0) \\cdot (-1) \\\\ \\text{所以} &amp; f&#x27;(x_0) = -1 \\text{。} \\end{aligned}\">\\begin{aligned} \\text{解答} &amp; = f&#x27;(x_0) \\lim_{\\Delta x \\rightarrow 0} \\frac{\\cos \\Delta x}{\\sin \\Delta x - \\cos \\Delta x + 2 \\sin^3 \\Delta x} = \\\\ &amp; = f&#x27;(x_0) \\cdot (-1) \\\\ \\text{所以} &amp; f&#x27;(x_0) = -1 \\text{。} \\end{aligned}</div>"
     }
-  ]
+  ],
+  "format": "latex",
+  "source_md": "gs/2.4.1_微分的概念(19题)/2.4.1_微分的概念(19题).md"
 }

@@ -13,196 +13,198 @@
       "number": 1,
       "header": "#1-Averge",
       "difficulty": "Averge",
-      "prompt_html": "<img src=\"/static/generated/assets/advanced-math/ch115/q0001_prompt.png\"/>",
+      "prompt_html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{设}z=uv+\\sin t, \\text{而}u=e^{t},\\ v=\\cos t, \\text{则全导数} \\frac{dz}{dt}=()\">\\text{设}z=uv+\\sin t, \\text{而}u=e^{t},\\ v=\\cos t, \\text{则全导数} \\frac{dz}{dt}=()</span>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch115/q0001_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\begin{aligned}e^t\\left(\\cos t + \\sin t\\right) - \\cos t \\, \\leftrightarrow\\end{aligned}\">\\begin{aligned}e^t\\left(\\cos t + \\sin t\\right) - \\cos t \\, \\leftrightarrow\\end{aligned}</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch115/q0001_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"e^{t}\\left(\\cos t + \\sin t\\right) + \\cos t\">e^{t}\\left(\\cos t + \\sin t\\right) + \\cos t</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch115/q0001_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"e^{t}\\left(\\cos t-\\sin t\\right)+\\cos t\">e^{t}\\left(\\cos t-\\sin t\\right)+\\cos t</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch115/q0001_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"e^{t}\\left(\\cos t-\\sin t\\right)-\\cos t\\,.\">e^{t}\\left(\\cos t-\\sin t\\right)-\\cos t\\,.</span>"
         }
       ],
       "answer": "C",
       "answer_index": 2,
-      "analysis_html": "<img src=\"/static/generated/assets/advanced-math/ch115/q0001_analysis.png\"/>"
+      "analysis_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{aligned}\\frac{dz}{dt} = \\frac{\\partial z}{\\partial u} \\frac{du}{dt} + \\frac{\\partial z}{\\partial v} \\frac{dv}{dt} + \\frac{\\partial z}{\\partial t} = e^t \\cos t - e^t \\sin t + \\cos t = e^t \\left( \\cos t - \\sin t \\right) + \\cos t \\, e^{-t} \\end{aligned}\">\\begin{aligned}\\frac{dz}{dt} = \\frac{\\partial z}{\\partial u} \\frac{du}{dt} + \\frac{\\partial z}{\\partial v} \\frac{dv}{dt} + \\frac{\\partial z}{\\partial t} = e^t \\cos t - e^t \\sin t + \\cos t = e^t \\left( \\cos t - \\sin t \\right) + \\cos t \\, e^{-t} \\end{aligned}</div>"
     },
     {
       "id": "q0002",
       "number": 2,
       "header": "#2-Averge",
       "difficulty": "Averge",
-      "prompt_html": "<img src=\"/static/generated/assets/advanced-math/ch115/q0002_prompt.png\"/>",
+      "prompt_html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{设}z=\\frac{y}{x},\\ \\text{而}x=e^{t},\\ y=1-e^{2t},\\ \\text{则}\\frac{dz}{dt}=()。\">\\text{设}z=\\frac{y}{x},\\ \\text{而}x=e^{t},\\ y=1-e^{2t},\\ \\text{则}\\frac{dz}{dt}=()。</span>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch115/q0002_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"- ( e ^ { t } + e ^ { - t } )\">- ( e ^ { t } + e ^ { - t } )</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch115/q0002_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\boldsymbol{e}^{t} - \\boldsymbol{e}^{-t} \\, _{\\leftarrow}\">\\boldsymbol{e}^{t} - \\boldsymbol{e}^{-t} \\, _{\\leftarrow}</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch115/q0002_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"e^{-t} + e^{t}\">e^{-t} + e^{t}</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch115/q0002_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"e^{-t}-e^{t}\">e^{-t}-e^{t}</span>"
         }
       ],
       "answer": "A",
       "answer_index": 0,
-      "analysis_html": "<img src=\"/static/generated/assets/advanced-math/ch115/q0002_analysis.png\"/>"
+      "analysis_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{aligned}\\frac{d\\bar{z}}{dt}=&amp;\\frac{-y}{x^{2}}\\cdot x^{\\prime}+\\frac{1}{x}\\cdot y^{\\prime}=\\frac{-y}{x^{2}}\\cdot e^{t}+\\frac{1}{x}\\cdot (-2e^{2t})=-\\bigl(e^{t}+e^{-t}\\bigr)_{e}\\end{aligned}\">\\begin{aligned}\\frac{d\\bar{z}}{dt}=&amp;\\frac{-y}{x^{2}}\\cdot x^{\\prime}+\\frac{1}{x}\\cdot y^{\\prime}=\\frac{-y}{x^{2}}\\cdot e^{t}+\\frac{1}{x}\\cdot (-2e^{2t})=-\\bigl(e^{t}+e^{-t}\\bigr)_{e}\\end{aligned}</div>"
     },
     {
       "id": "q0003",
       "number": 3,
       "header": "#3-Averge",
       "difficulty": "Averge",
-      "prompt_html": "<img src=\"/static/generated/assets/advanced-math/ch115/q0003_prompt.png\"/>",
+      "prompt_html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{设}z=\\ln(e^{x}+e^{y})，\\text{其中}y= \\frac{1}{3}x^{3}+x，\\text{则} \\frac{dz}{dx}=()。\">\\text{设}z=\\ln(e^{x}+e^{y})，\\text{其中}y= \\frac{1}{3}x^{3}+x，\\text{则} \\frac{dz}{dx}=()。</span>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch115/q0003_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\frac { 1 + ( 1 + x ^ { 2 } ) e ^ { \\frac { 1 } { 3 } x ^ { 3 } } } { 1 + e ^ { \\frac { 1 } { 3 } x ^ { 3 } } }\">\\frac { 1 + ( 1 + x ^ { 2 } ) e ^ { \\frac { 1 } { 3 } x ^ { 3 } } } { 1 + e ^ { \\frac { 1 } { 3 } x ^ { 3 } } }</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch115/q0003_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\frac{(1+x^{2})e^{\\frac{1}{3}x^{3}}}{x+e^{\\frac{1}{3}x^{3}}}\\leftarrow\">\\frac{(1+x^{2})e^{\\frac{1}{3}x^{3}}}{x+e^{\\frac{1}{3}x^{3}}}\\leftarrow</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch115/q0003_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\frac{x+(1+x^{2})e^{\\frac{1}{2}x^{3}}}{x+e^{\\frac{1}{2}x^{3}}}\">\\frac{x+(1+x^{2})e^{\\frac{1}{2}x^{3}}}{x+e^{\\frac{1}{2}x^{3}}}</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch115/q0003_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\frac{1 + (1 + x^{2})e^{\\frac{1}{3}x^{3}}}{1 + e^{x}}\">\\frac{1 + (1 + x^{2})e^{\\frac{1}{3}x^{3}}}{1 + e^{x}}</span>"
         }
       ],
       "answer": "A",
       "answer_index": 0,
-      "analysis_html": "<img src=\"/static/generated/assets/advanced-math/ch115/q0003_analysis.png\"/>"
+      "analysis_html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\frac{dz}{dx} = \\frac{e^{x}+e^{y}y_{x}}{e^{x}+e^{y}} = \\frac{e^{x}+e^{y}(x^{2}+1)}{e^{x}+e^{y}} = \\frac{1+(1+x^{2})e^{\\frac{1}{3}x^{3}}}{1+e^{\\frac{1}{3}x^{3}}},\">\\frac{dz}{dx} = \\frac{e^{x}+e^{y}y_{x}}{e^{x}+e^{y}} = \\frac{e^{x}+e^{y}(x^{2}+1)}{e^{x}+e^{y}} = \\frac{1+(1+x^{2})e^{\\frac{1}{3}x^{3}}}{1+e^{\\frac{1}{3}x^{3}}},</span>"
     },
     {
       "id": "q0004",
       "number": 4,
       "header": "#4-Averge",
       "difficulty": "Averge",
-      "prompt_html": "<img src=\"/static/generated/assets/advanced-math/ch115/q0004_prompt.png\"/>",
+      "prompt_html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{设}z=e^{x-2,y},\\text{ 而}x=\\sin t,\\ y=t^{3}, \\text{则} \\frac{dz}{dt}=()\">\\text{设}z=e^{x-2,y},\\text{ 而}x=\\sin t,\\ y=t^{3}, \\text{则} \\frac{dz}{dt}=()</span>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch115/q0004_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"e^{\\sin t - 2t^{3}}\\left(\\cos t - 6t^{2}\\right)_{\\leftarrow}\">e^{\\sin t - 2t^{3}}\\left(\\cos t - 6t^{2}\\right)_{\\leftarrow}</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch115/q0004_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"e^{\\sin t - 2t^{3}}(\\cos t - 3t^{2})\">e^{\\sin t - 2t^{3}}(\\cos t - 3t^{2})</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch115/q0004_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\left. \\right) \\ e^{\\sin t-2t^{3}}\\left( \\cos t+6t^{2}\\right) _{\\leftarrow }\">\\left. \\right) \\ e^{\\sin t-2t^{3}}\\left( \\cos t+6t^{2}\\right) _{\\leftarrow }</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch115/q0004_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"e^{\\sin t - 2t^{3}}(\\cos t + 3t^{2})\">e^{\\sin t - 2t^{3}}(\\cos t + 3t^{2})</span>"
         }
       ],
       "answer": "A",
       "answer_index": 0,
-      "analysis_html": "<img src=\"/static/generated/assets/advanced-math/ch115/q0004_analysis.png\"/>"
+      "analysis_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{aligned}\\frac{dz}{dt}=&amp; \\frac{\\partial z}{\\partial x} \\frac{dx}{dt} + \\frac{\\partial z}{\\partial y} \\frac{dy}{dt} = e^{x-2y} \\cdot 1 \\cdot \\cos t + e^{x-2y} \\cdot \\left(-2\\right) \\cdot 3t^2 \\, , \\\\=&amp; e^{x-2y} \\left( \\cos t - 6t^2 \\right) = e^{\\sin t - 2t^3} \\left( \\cos t - 6t^2 \\right) .\\end{aligned}\">\\begin{aligned}\\frac{dz}{dt}=&amp; \\frac{\\partial z}{\\partial x} \\frac{dx}{dt} + \\frac{\\partial z}{\\partial y} \\frac{dy}{dt} = e^{x-2y} \\cdot 1 \\cdot \\cos t + e^{x-2y} \\cdot \\left(-2\\right) \\cdot 3t^2 \\, , \\\\=&amp; e^{x-2y} \\left( \\cos t - 6t^2 \\right) = e^{\\sin t - 2t^3} \\left( \\cos t - 6t^2 \\right) .\\end{aligned}</div>"
     },
     {
       "id": "q0005",
       "number": 5,
       "header": "#5-Averge",
       "difficulty": "Averge",
-      "prompt_html": "<img src=\"/static/generated/assets/advanced-math/ch115/q0005_prompt.png\"/>",
+      "prompt_html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{设}z=uv+\\sin t,u=e^{t},v=\\cos t,\\ \\text{求} \\frac{dz}{dt}=()。\">\\text{设}z=uv+\\sin t,u=e^{t},v=\\cos t,\\ \\text{求} \\frac{dz}{dt}=()。</span>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch115/q0005_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\begin{array}{l} { r } { e ^ { t } \\cos t - e ^ { t } \\sin t } \\end{array}\">\\begin{array}{l} { r } { e ^ { t } \\cos t - e ^ { t } \\sin t } \\end{array}</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch115/q0005_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\begin{array}{l} {r} { e ^ { t } \\cos t - e ^ { t } \\sin t + \\cos t } \\end{array}\">\\begin{array}{l} {r} { e ^ { t } \\cos t - e ^ { t } \\sin t + \\cos t } \\end{array}</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch115/q0005_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\begin{aligned}e^t \\cos t + e^t \\sin t \\, \\lrcorner\\end{aligned}\">\\begin{aligned}e^t \\cos t + e^t \\sin t \\, \\lrcorner\\end{aligned}</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch115/q0005_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\begin{array}{l} {r} e ^ { t } \\cos t + e ^ { t } \\sin t + \\cos t \\end{array} ,\">\\begin{array}{l} {r} e ^ { t } \\cos t + e ^ { t } \\sin t + \\cos t \\end{array} ,</span>"
         }
       ],
       "answer": "B",
       "answer_index": 1,
-      "analysis_html": "<img src=\"/static/generated/assets/advanced-math/ch115/q0005_analysis.png\"/>"
+      "analysis_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{aligned}\\frac{dz}{dt} = \\frac{\\partial z}{\\partial u} \\cdot \\frac{du}{dt} + \\frac{\\partial z}{\\partial v} \\cdot \\frac{dv}{dt} + \\frac{\\partial z}{\\partial t} = vu&#x27; + uv&#x27; + \\cos t = e^t \\cos t - e^t \\sin t + \\cos t \\, e^{-t}\\end{aligned}\">\\begin{aligned}\\frac{dz}{dt} = \\frac{\\partial z}{\\partial u} \\cdot \\frac{du}{dt} + \\frac{\\partial z}{\\partial v} \\cdot \\frac{dv}{dt} + \\frac{\\partial z}{\\partial t} = vu&#x27; + uv&#x27; + \\cos t = e^t \\cos t - e^t \\sin t + \\cos t \\, e^{-t}\\end{aligned}</div>"
     },
     {
       "id": "q0006",
       "number": 6,
       "header": "#6-Averge",
       "difficulty": "Averge",
-      "prompt_html": "<img src=\"/static/generated/assets/advanced-math/ch115/q0006_prompt.png\"/>",
+      "prompt_html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{设}z=\\arctan \\left( xy \\right),\\ y=e^{x},\\ \\text{则}\\frac{dz}{dx}=()。\">\\text{设}z=\\arctan \\left( xy \\right),\\ y=e^{x},\\ \\text{则}\\frac{dz}{dx}=()。</span>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch115/q0006_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\frac{e^{x}(1+x)}{1+x^{2}e^{2x}}\">\\frac{e^{x}(1+x)}{1+x^{2}e^{2x}}</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch115/q0006_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\frac{e^{x}(1-x)}{1+x^{2}e^{2x}}\">\\frac{e^{x}(1-x)}{1+x^{2}e^{2x}}</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch115/q0006_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\frac { 1 - x } { 1 + x ^ { 2 } e ^ { 2 x } } \\Leftrightarrow\">\\frac { 1 - x } { 1 + x ^ { 2 } e ^ { 2 x } } \\Leftrightarrow</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch115/q0006_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\frac { 1 + x } { 1 + x ^ { 2 } e ^ { 2 x } }\">\\frac { 1 + x } { 1 + x ^ { 2 } e ^ { 2 x } }</span>"
         }
       ],
       "answer": "A",
       "answer_index": 0,
-      "analysis_html": "<img src=\"/static/generated/assets/advanced-math/ch115/q0006_analysis.png\"/>"
+      "analysis_html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\frac{dz}{dx} = \\frac{\\partial z}{\\partial x} + \\frac{\\partial z}{\\partial y} \\frac{dy}{dx} = \\frac{y}{1 + \\left( xy \\right)^2} + \\frac{x}{1 + \\left( xy \\right)^2} \\cdot e^x = \\frac{e^x (1+x)}{1 + x^2 e^{2x}}\">\\frac{dz}{dx} = \\frac{\\partial z}{\\partial x} + \\frac{\\partial z}{\\partial y} \\frac{dy}{dx} = \\frac{y}{1 + \\left( xy \\right)^2} + \\frac{x}{1 + \\left( xy \\right)^2} \\cdot e^x = \\frac{e^x (1+x)}{1 + x^2 e^{2x}}</span>"
     },
     {
       "id": "q0007",
       "number": 7,
       "header": "#7-Averge",
       "difficulty": "Averge",
-      "prompt_html": "<img src=\"/static/generated/assets/advanced-math/ch115/q0007_prompt.png\"/>",
+      "prompt_html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{设} u = \\frac { e ^ { a x } ( y - z ) } { a ^ { 2 } + 1 } , \\ \\ y = a \\sin x , \\ \\ z = \\cos x , \\ \\ \\text{则} \\ \\frac { d u } { d x } = ( ) \\text{。}\">\\text{设} u = \\frac { e ^ { a x } ( y - z ) } { a ^ { 2 } + 1 } , \\ \\ y = a \\sin x , \\ \\ z = \\cos x , \\ \\ \\text{则} \\ \\frac { d u } { d x } = ( ) \\text{。}</span>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch115/q0007_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"e^{ax}\\sin x \\leftarrow\">e^{ax}\\sin x \\leftarrow</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch115/q0007_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"e^{ax}\\cos x\">e^{ax}\\cos x</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch115/q0007_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"e^{ax}a\\cos x\">e^{ax}a\\cos x</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch115/q0007_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"e^{ax}a\\sin x\">e^{ax}a\\sin x</span>"
         }
       ],
       "answer": "A",
       "answer_index": 0,
-      "analysis_html": "<img src=\"/static/generated/assets/advanced-math/ch115/q0007_analysis.png\"/>"
+      "analysis_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{aligned}\\frac{du}{dx} &amp; = \\frac{\\partial u}{\\partial x} + \\frac{\\partial u}{\\partial y}\\frac{dy}{dx} + \\frac{\\partial u}{\\partial z}\\frac{dz}{dx} = \\frac{ae^{ax}\\left(y-z\\right)}{a^{2}+1} + \\frac{e^{ax}}{a^{2}+1} \\cdot a\\cos x - \\frac{e^{ax}}{a^{2}+1} \\cdot \\left(-\\sin x\\right) \\circ \\\\&amp; = = \\frac{e^{ax}}{a^{2}+1} \\Big[ a^{2}\\sin x - a\\cos x + a\\cos x + \\sin x \\Big] = e^{ax}\\sin x \\circ\\end{aligned}\">\\begin{aligned}\\frac{du}{dx} &amp; = \\frac{\\partial u}{\\partial x} + \\frac{\\partial u}{\\partial y}\\frac{dy}{dx} + \\frac{\\partial u}{\\partial z}\\frac{dz}{dx} = \\frac{ae^{ax}\\left(y-z\\right)}{a^{2}+1} + \\frac{e^{ax}}{a^{2}+1} \\cdot a\\cos x - \\frac{e^{ax}}{a^{2}+1} \\cdot \\left(-\\sin x\\right) \\circ \\\\&amp; = = \\frac{e^{ax}}{a^{2}+1} \\Big[ a^{2}\\sin x - a\\cos x + a\\cos x + \\sin x \\Big] = e^{ax}\\sin x \\circ\\end{aligned}</div>"
     }
-  ]
+  ],
+  "format": "latex",
+  "source_md": "gs/7.4.1_复合函数的中间变量为一元函数情形(7题)/7.4.1_复合函数的中间变量为一元函数情形(7题).md"
 }

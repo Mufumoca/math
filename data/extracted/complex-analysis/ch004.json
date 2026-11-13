@@ -13,728 +13,730 @@
       "number": 1,
       "header": "#1-Easy",
       "difficulty": "Easy",
-      "prompt_html": "<img src=\"/static/generated/assets/complex-analysis/ch004/q0001_prompt.png\"/>",
+      "prompt_html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{设}k&gt;0,f(t)=\\frac{\\sin kt}{t},\\text{则}\\mathcal{L}\\left[f(t)\\right]=(\\quad).\">\\text{设}k&gt;0,f(t)=\\frac{\\sin kt}{t},\\text{则}\\mathcal{L}\\left[f(t)\\right]=(\\quad).</span>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/complex-analysis/ch004/q0001_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\operatorname{arccot} { \\frac { s } { k } }\">\\operatorname{arccot} { \\frac { s } { k } }</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/complex-analysis/ch004/q0001_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\arctan { \\frac { s } { k } }\">\\arctan { \\frac { s } { k } }</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/complex-analysis/ch004/q0001_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\arcsin { \\frac { s } { k } }\">\\arcsin { \\frac { s } { k } }</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/complex-analysis/ch004/q0001_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\arccos { \\frac { s } { k } } \\leftarrow\">\\arccos { \\frac { s } { k } } \\leftarrow</span>"
         }
       ],
       "answer": "A",
       "answer_index": 0,
-      "analysis_html": "<img src=\"/static/generated/assets/complex-analysis/ch004/q0001_analysis.png\"/>"
+      "analysis_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{aligned}F(s)=\\int_{s}^{+\\infty} \\frac{k}{s^2+k^2} ds=\\arctan \\frac{s}{k}\\Big|_{s}^{+\\infty}=\\frac{\\pi}{2}-\\arctan \\frac{s}{k}=\\operatorname{arccot} \\frac{s}{k}\\,.\\end{aligned}\">\\begin{aligned}F(s)=\\int_{s}^{+\\infty} \\frac{k}{s^2+k^2} ds=\\arctan \\frac{s}{k}\\Big|_{s}^{+\\infty}=\\frac{\\pi}{2}-\\arctan \\frac{s}{k}=\\operatorname{arccot} \\frac{s}{k}\\,.\\end{aligned}</div>"
     },
     {
       "id": "q0002",
       "number": 2,
       "header": "#2-Easy",
       "difficulty": "Easy",
-      "prompt_html": "<img src=\"/static/generated/assets/complex-analysis/ch004/q0002_prompt.png\"/>",
+      "prompt_html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{设}f(t)=\\cos^{2}t, \\text{则} \\mathcal{L}\\left[f(t)\\right]=(\\quad).\">\\text{设}f(t)=\\cos^{2}t, \\text{则} \\mathcal{L}\\left[f(t)\\right]=(\\quad).</span>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/complex-analysis/ch004/q0002_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\frac { s ^ { 2 } + 2 } { s \\left( s ^ { 2 } + 4 \\right) }\">\\frac { s ^ { 2 } + 2 } { s \\left( s ^ { 2 } + 4 \\right) }</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/complex-analysis/ch004/q0002_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\frac { s ^ { 2 } - 4 } { s \\left( s ^ { 2 } + 4 \\right) }\">\\frac { s ^ { 2 } - 4 } { s \\left( s ^ { 2 } + 4 \\right) }</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/complex-analysis/ch004/q0002_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\frac { s ^ { 2 } + 2 } { s ^ { 2 } + 4 }\">\\frac { s ^ { 2 } + 2 } { s ^ { 2 } + 4 }</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/complex-analysis/ch004/q0002_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\frac { s ^ { 2 } - 2 } { s ^ { 2 } + 4 } \\leftarrow\">\\frac { s ^ { 2 } - 2 } { s ^ { 2 } + 4 } \\leftarrow</span>"
         }
       ],
       "answer": "A",
       "answer_index": 0,
-      "analysis_html": "<img src=\"/static/generated/assets/complex-analysis/ch004/q0002_analysis.png\"/>"
+      "analysis_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{aligned}F(s) &amp; = \\mathcal{L}\\left[ \\cos^{2}t \\right] = \\frac{1}{2}\\mathcal{L}\\left[ \\cos 2t \\right] + \\frac{1}{2}\\mathcal{L}\\left[ 1 \\right] + \\\\ &amp; = \\frac{1}{2} \\left( \\frac{s}{s^{2}+4} + \\frac{1}{s} \\right) = \\frac{s^{2}+2}{s\\left( s^{2}+4 \\right)} \\cdot s^{4} \\end{aligned}\">\\begin{aligned}F(s) &amp; = \\mathcal{L}\\left[ \\cos^{2}t \\right] = \\frac{1}{2}\\mathcal{L}\\left[ \\cos 2t \\right] + \\frac{1}{2}\\mathcal{L}\\left[ 1 \\right] + \\\\ &amp; = \\frac{1}{2} \\left( \\frac{s}{s^{2}+4} + \\frac{1}{s} \\right) = \\frac{s^{2}+2}{s\\left( s^{2}+4 \\right)} \\cdot s^{4} \\end{aligned}</div>"
     },
     {
       "id": "q0003",
       "number": 3,
       "header": "#3-Averge",
       "difficulty": "Averge",
-      "prompt_html": "<img src=\"/static/generated/assets/complex-analysis/ch004/q0003_prompt.png\"/>",
+      "prompt_html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{设}f(t)=u(3t-5), \\text{则} \\mathcal{L}\\left[f(t)\\right]=(\\quad).\">\\text{设}f(t)=u(3t-5), \\text{则} \\mathcal{L}\\left[f(t)\\right]=(\\quad).</span>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/complex-analysis/ch004/q0003_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\frac { 1 } { s } e ^ { - \\frac { 5 } { 3 } s }\">\\frac { 1 } { s } e ^ { - \\frac { 5 } { 3 } s }</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/complex-analysis/ch004/q0003_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\frac { 1 } { s } e ^ { \\frac { 5 } { 3 } }\">\\frac { 1 } { s } e ^ { \\frac { 5 } { 3 } }</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/complex-analysis/ch004/q0003_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\frac { 1 } { s } e ^ { - \\tilde { s } s }\">\\frac { 1 } { s } e ^ { - \\tilde { s } s }</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/complex-analysis/ch004/q0003_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\frac { 1 } { s } e ^ { - \\delta _ { * } }\">\\frac { 1 } { s } e ^ { - \\delta _ { * } }</span>"
         }
       ],
       "answer": "A",
       "answer_index": 0,
-      "analysis_html": "<img src=\"/static/generated/assets/complex-analysis/ch004/q0003_analysis.png\"/>"
+      "analysis_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{aligned}F(s) = \\mathcal{L}\\left[ u \\bigg( 3 \\bigg( t - \\frac{5}{3} \\bigg) \\bigg) \\right] = e^{-\\frac{5}{3}s} \\mathcal{L}\\left[ u(3t) \\right] = \\frac{1}{s} e^{-\\frac{5}{3}s}.\\end{aligned}\">\\begin{aligned}F(s) = \\mathcal{L}\\left[ u \\bigg( 3 \\bigg( t - \\frac{5}{3} \\bigg) \\bigg) \\right] = e^{-\\frac{5}{3}s} \\mathcal{L}\\left[ u(3t) \\right] = \\frac{1}{s} e^{-\\frac{5}{3}s}.\\end{aligned}</div>"
     },
     {
       "id": "q0004",
       "number": 4,
       "header": "#4-Easy",
       "difficulty": "Easy",
-      "prompt_html": "<img src=\"/static/generated/assets/complex-analysis/ch004/q0004_prompt.png\"/>",
+      "prompt_html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{设}f(t)=\\int_{0}^{t}\\tau e^{-3\\tau}\\sin 2\\tau d\\tau, \\text{则}\\mathcal{L}\\left[f(t)\\right]=(\\ \\ ).\">\\text{设}f(t)=\\int_{0}^{t}\\tau e^{-3\\tau}\\sin 2\\tau d\\tau, \\text{则}\\mathcal{L}\\left[f(t)\\right]=(\\ \\ ).</span>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/complex-analysis/ch004/q0004_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\frac { 4 ( s + 3 ) } { s \\left( \\left( s + 3 \\right) ^ { 2 } + 4 \\right) ^ { 2 } }\">\\frac { 4 ( s + 3 ) } { s \\left( \\left( s + 3 \\right) ^ { 2 } + 4 \\right) ^ { 2 } }</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/complex-analysis/ch004/q0004_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\frac { 4 ( s - 3 ) } { s \\left( \\left( s - 3 \\right) ^ { 2 } + 4 \\right) ^ { 2 } }\">\\frac { 4 ( s - 3 ) } { s \\left( \\left( s - 3 \\right) ^ { 2 } + 4 \\right) ^ { 2 } }</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/complex-analysis/ch004/q0004_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\frac { s + 3 } { s \\left( \\left( s + 3 \\right) ^ { 2 } + 4 \\right) ^ { 2 } }\">\\frac { s + 3 } { s \\left( \\left( s + 3 \\right) ^ { 2 } + 4 \\right) ^ { 2 } }</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/complex-analysis/ch004/q0004_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\frac { s - 3 } { s \\left( \\left( s - 3 \\right) ^ { 2 } + 4 \\right) ^ { 2 } }\">\\frac { s - 3 } { s \\left( \\left( s - 3 \\right) ^ { 2 } + 4 \\right) ^ { 2 } }</span>"
         }
       ],
       "answer": "A",
       "answer_index": 0,
-      "analysis_html": "<img src=\"/static/generated/assets/complex-analysis/ch004/q0004_analysis.png\"/>"
+      "analysis_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{aligned}&amp;\\text{因为}\\mathcal{L}\\left[\\sin 2t\\right]=\\frac{2}{s^{2}+4}\\,,\\ \\mathcal{L}\\left[e^{-3t}\\sin 2t\\right]=\\frac{2}{\\left(s+3\\right)^{2}+4}\\,,\\\\&amp;\\text{所以}\\mathcal{L}\\left[te^{-3t}\\sin 2t\\right]=-\\left(\\frac{2}{\\left(s+3\\right)^{2}+4}\\right)^{\\prime}=\\frac{4\\left(s+3\\right)}{\\left(\\left(s+3\\right)^{2}+4\\right)^{2}}\\,,\\\\&amp;\\text{故}\\mathcal{L}\\left[f(t)\\right]=\\frac{4\\left(s+3\\right)}{s\\left(\\left(s+3\\right)^{2}+4\\right)^{2}}.\\end{aligned}\">\\begin{aligned}&amp;\\text{因为}\\mathcal{L}\\left[\\sin 2t\\right]=\\frac{2}{s^{2}+4}\\,,\\ \\mathcal{L}\\left[e^{-3t}\\sin 2t\\right]=\\frac{2}{\\left(s+3\\right)^{2}+4}\\,,\\\\&amp;\\text{所以}\\mathcal{L}\\left[te^{-3t}\\sin 2t\\right]=-\\left(\\frac{2}{\\left(s+3\\right)^{2}+4}\\right)^{\\prime}=\\frac{4\\left(s+3\\right)}{\\left(\\left(s+3\\right)^{2}+4\\right)^{2}}\\,,\\\\&amp;\\text{故}\\mathcal{L}\\left[f(t)\\right]=\\frac{4\\left(s+3\\right)}{s\\left(\\left(s+3\\right)^{2}+4\\right)^{2}}.\\end{aligned}</div>"
     },
     {
       "id": "q0005",
       "number": 5,
       "header": "#5-Easy",
       "difficulty": "Easy",
-      "prompt_html": "<img src=\"/static/generated/assets/complex-analysis/ch004/q0005_prompt.png\"/>",
+      "prompt_html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\mathcal{L}\\left[1-te^{-t}\\right]=(\\quad).\\uparrow\">\\mathcal{L}\\left[1-te^{-t}\\right]=(\\quad).\\uparrow</span>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/complex-analysis/ch004/q0005_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\frac { 1 } { s } - \\frac { 1 } { \\left ( s + 1 \\right ) ^ { 2 } }\">\\frac { 1 } { s } - \\frac { 1 } { \\left ( s + 1 \\right ) ^ { 2 } }</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/complex-analysis/ch004/q0005_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\frac { 1 } { s } + \\frac { 1 } { \\left ( s + 1 \\right ) ^ { 2 } }\">\\frac { 1 } { s } + \\frac { 1 } { \\left ( s + 1 \\right ) ^ { 2 } }</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/complex-analysis/ch004/q0005_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\frac { 1 } { s } - \\frac { 1 } { \\left ( s - 1 \\right ) ^ { 2 } }\">\\frac { 1 } { s } - \\frac { 1 } { \\left ( s - 1 \\right ) ^ { 2 } }</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/complex-analysis/ch004/q0005_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\frac { 1 } { s } + \\frac { 1 } { \\left ( s - 1 \\right ) ^ { 2 } } \\leftarrow\">\\frac { 1 } { s } + \\frac { 1 } { \\left ( s - 1 \\right ) ^ { 2 } } \\leftarrow</span>"
         }
       ],
       "answer": "A",
       "answer_index": 0,
-      "analysis_html": "<img src=\"/static/generated/assets/complex-analysis/ch004/q0005_analysis.png\"/>"
+      "analysis_html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\mathcal{L}\\left[1-te^{-t}\\right] { = } \\frac{1}{s} { + } \\left( \\frac{1}{s{+}1}\\right)^{\\prime} { = } \\frac{1}{s} { - } \\frac{1}{\\left(s{+}1\\right)^{2}}\\,.\">\\mathcal{L}\\left[1-te^{-t}\\right] { = } \\frac{1}{s} { + } \\left( \\frac{1}{s{+}1}\\right)^{\\prime} { = } \\frac{1}{s} { - } \\frac{1}{\\left(s{+}1\\right)^{2}}\\,.</span>"
     },
     {
       "id": "q0006",
       "number": 6,
       "header": "#6-Easy",
       "difficulty": "Easy",
-      "prompt_html": "<img src=\"/static/generated/assets/complex-analysis/ch004/q0006_prompt.png\"/>",
+      "prompt_html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{设}f(t)\\!=\\!\\frac{1}{t}e^{-3t}\\sin 2t, \\text{则}\\mathcal{L}\\left[f(t)\\right]\\!=\\!(\\ \\ ).\">\\text{设}f(t)\\!=\\!\\frac{1}{t}e^{-3t}\\sin 2t, \\text{则}\\mathcal{L}\\left[f(t)\\right]\\!=\\!(\\ \\ ).</span>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/complex-analysis/ch004/q0006_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\operatorname{arccot} { \\frac { s + 3 } { 2 } }\">\\operatorname{arccot} { \\frac { s + 3 } { 2 } }</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/complex-analysis/ch004/q0006_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\arctan { \\frac { s + 3 } { 2 } }\">\\arctan { \\frac { s + 3 } { 2 } }</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/complex-analysis/ch004/q0006_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\arcsin { \\frac { s + 3 } { 2 } }\">\\arcsin { \\frac { s + 3 } { 2 } }</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/complex-analysis/ch004/q0006_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\arccos \\frac { s + 3 } { 2 } \\leftarrow\">\\arccos \\frac { s + 3 } { 2 } \\leftarrow</span>"
         }
       ],
       "answer": "A",
       "answer_index": 0,
-      "analysis_html": "<img src=\"/static/generated/assets/complex-analysis/ch004/q0006_analysis.png\"/>"
+      "analysis_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{aligned}F(s) = \\int_{s}^{+\\infty} \\frac{2}{\\left(s+3\\right)^2+4} ds = \\frac{\\pi}{2} - \\arctan \\frac{s+3}{2} = \\operatorname{arccot} \\frac{s+3}{2}\\,.\\end{aligned}\">\\begin{aligned}F(s) = \\int_{s}^{+\\infty} \\frac{2}{\\left(s+3\\right)^2+4} ds = \\frac{\\pi}{2} - \\arctan \\frac{s+3}{2} = \\operatorname{arccot} \\frac{s+3}{2}\\,.\\end{aligned}</div>"
     },
     {
       "id": "q0007",
       "number": 7,
       "header": "#7-Averge",
       "difficulty": "Averge",
-      "prompt_html": "<img src=\"/static/generated/assets/complex-analysis/ch004/q0007_prompt.png\"/>",
+      "prompt_html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{设} \\alpha &gt; 0, \\beta &lt; 0, f\\left(t \\right) = \\delta \\left( \\alpha t + \\beta \\right), \\text{则} \\mathcal{L}\\left[ f\\left( t \\right) \\right] = \\left( \\ \\ \\right) .\">\\text{设} \\alpha &gt; 0, \\beta &lt; 0, f\\left(t \\right) = \\delta \\left( \\alpha t + \\beta \\right), \\text{则} \\mathcal{L}\\left[ f\\left( t \\right) \\right] = \\left( \\ \\ \\right) .</span>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/complex-analysis/ch004/q0007_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\frac { 1 } { \\alpha } e ^ { \\frac { \\beta } { \\alpha } s }\">\\frac { 1 } { \\alpha } e ^ { \\frac { \\beta } { \\alpha } s }</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/complex-analysis/ch004/q0007_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\frac { 1 } { \\alpha } e ^ { - \\frac { \\beta } { \\alpha } s }\">\\frac { 1 } { \\alpha } e ^ { - \\frac { \\beta } { \\alpha } s }</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/complex-analysis/ch004/q0007_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\frac { 1 } { \\beta } e ^ { \\frac { \\beta } { \\alpha } s }\">\\frac { 1 } { \\beta } e ^ { \\frac { \\beta } { \\alpha } s }</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/complex-analysis/ch004/q0007_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\frac { 1 } { \\beta } e ^ { \\frac { \\beta } { \\alpha } s } \\, ,\">\\frac { 1 } { \\beta } e ^ { \\frac { \\beta } { \\alpha } s } \\, ,</span>"
         }
       ],
       "answer": "A",
       "answer_index": 0,
-      "analysis_html": "<img src=\"/static/generated/assets/complex-analysis/ch004/q0007_analysis.png\"/>"
+      "analysis_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{aligned}F(s) = &amp; \\int_{0^{-}}^{+\\infty} \\delta(\\alpha t + \\beta) e^{-st} dt = \\int_{\\frac{\\beta}{\\alpha}}^{+\\infty} \\delta(\\alpha u) e^{-\\left(u - \\frac{\\beta}{\\alpha}\\right)} du_{,i} \\\\= &amp; e^{\\frac{\\beta}{\\alpha}} \\int_{0^{-}}^{+\\infty} \\delta(\\alpha u) e^{-\\alpha} du = e^{\\frac{\\beta}{\\alpha}} \\frac{1}{\\alpha} \\int_{0^{-}}^{+\\infty} \\delta(\\tau) e^{-\\frac{\\tau}{\\alpha}} d\\tau \\\\= &amp; \\frac{1}{\\alpha} e^{\\frac{\\beta}{\\alpha}}{}_{,i}\\end{aligned}\">\\begin{aligned}F(s) = &amp; \\int_{0^{-}}^{+\\infty} \\delta(\\alpha t + \\beta) e^{-st} dt = \\int_{\\frac{\\beta}{\\alpha}}^{+\\infty} \\delta(\\alpha u) e^{-\\left(u - \\frac{\\beta}{\\alpha}\\right)} du_{,i} \\\\= &amp; e^{\\frac{\\beta}{\\alpha}} \\int_{0^{-}}^{+\\infty} \\delta(\\alpha u) e^{-\\alpha} du = e^{\\frac{\\beta}{\\alpha}} \\frac{1}{\\alpha} \\int_{0^{-}}^{+\\infty} \\delta(\\tau) e^{-\\frac{\\tau}{\\alpha}} d\\tau \\\\= &amp; \\frac{1}{\\alpha} e^{\\frac{\\beta}{\\alpha}}{}_{,i}\\end{aligned}</div>"
     },
     {
       "id": "q0008",
       "number": 8,
       "header": "#8-Easy",
       "difficulty": "Easy",
-      "prompt_html": "<img src=\"/static/generated/assets/complex-analysis/ch004/q0008_prompt.png\"/>",
+      "prompt_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\text{设}a&gt;0,f(t)=\\begin{cases}t,&amp;0\\leq t&lt;a\\\\ 2a-t,&amp;a\\leq t&lt;2a\\\\ 0,&amp;\\text{其他}\\end{cases},\\text{则}\\mathcal{L}\\left[f(t)\\right]=(\\quad).\">\\text{设}a&gt;0,f(t)=\\begin{cases}t,&amp;0\\leq t&lt;a\\\\ 2a-t,&amp;a\\leq t&lt;2a\\\\ 0,&amp;\\text{其他}\\end{cases},\\text{则}\\mathcal{L}\\left[f(t)\\right]=(\\quad).</div>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/complex-analysis/ch004/q0008_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\frac{1}{s^{2}}{\\bigl(1-e^{-as}\\bigr)}^{2}\">\\frac{1}{s^{2}}{\\bigl(1-e^{-as}\\bigr)}^{2}</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/complex-analysis/ch004/q0008_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\frac{1}{s^{2}}{\\left(1+e^{-as}\\right)}^{2}\">\\frac{1}{s^{2}}{\\left(1+e^{-as}\\right)}^{2}</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/complex-analysis/ch004/q0008_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\frac { 1 } { s ^ { 2 } } \\Bigl ( 1 - e ^ { x s } \\Bigr ) ^ { 2 }\">\\frac { 1 } { s ^ { 2 } } \\Bigl ( 1 - e ^ { x s } \\Bigr ) ^ { 2 }</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/complex-analysis/ch004/q0008_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\frac{1}{s^{2}}{\\left(1+e^{as}\\right)}^{2}\">\\frac{1}{s^{2}}{\\left(1+e^{as}\\right)}^{2}</span>"
         }
       ],
       "answer": "A",
       "answer_index": 0,
-      "analysis_html": "<img src=\"/static/generated/assets/complex-analysis/ch004/q0008_analysis.png\"/>"
+      "analysis_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{aligned}F\\left(s\\right)=&amp;\\int_{0}^{s}te^{-st}dt+\\int_{a}^{2a}\\left(2a-t\\right)e^{-st}dt\\\\=&amp;-\\frac{1}{s}te^{-st}\\int_{0}^{s}\\frac{1}{s}\\int_{0}^{s}e^{-st}dt-\\frac{1}{s}\\left(2a-t\\right)e^{-st}\\left[2a-\\int_{a}^{2a}e^{-st}dt\\right]\\\\=&amp;-\\frac{1}{s}ae^{-\\infty}-\\frac{1}{s^{2}}\\left(e^{-\\infty}-1\\right)+\\frac{1}{s}ae^{-\\infty}+\\frac{1}{s^{2}}\\left(e^{-2as}-e^{-as}\\right)\\\\=&amp;\\frac{1}{s^{2}}\\left(1-e^{-\\infty}\\right)^{2}.\\end{aligned}\">\\begin{aligned}F\\left(s\\right)=&amp;\\int_{0}^{s}te^{-st}dt+\\int_{a}^{2a}\\left(2a-t\\right)e^{-st}dt\\\\=&amp;-\\frac{1}{s}te^{-st}\\int_{0}^{s}\\frac{1}{s}\\int_{0}^{s}e^{-st}dt-\\frac{1}{s}\\left(2a-t\\right)e^{-st}\\left[2a-\\int_{a}^{2a}e^{-st}dt\\right]\\\\=&amp;-\\frac{1}{s}ae^{-\\infty}-\\frac{1}{s^{2}}\\left(e^{-\\infty}-1\\right)+\\frac{1}{s}ae^{-\\infty}+\\frac{1}{s^{2}}\\left(e^{-2as}-e^{-as}\\right)\\\\=&amp;\\frac{1}{s^{2}}\\left(1-e^{-\\infty}\\right)^{2}.\\end{aligned}</div>"
     },
     {
       "id": "q0009",
       "number": 9,
       "header": "#9-Easy",
       "difficulty": "Easy",
-      "prompt_html": "<img src=\"/static/generated/assets/complex-analysis/ch004/q0009_prompt.png\"/>",
+      "prompt_html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\mathcal{L}\\bigl[2u(t\\!-\\!1)\\!+\\!3u(t\\!-\\!2)\\bigr]\\!=\\!(\\ \\ ).\">\\mathcal{L}\\bigl[2u(t\\!-\\!1)\\!+\\!3u(t\\!-\\!2)\\bigr]\\!=\\!(\\ \\ ).</span>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/complex-analysis/ch004/q0009_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\frac { 2 } { s } e ^ { - s } + \\frac { 3 } { s } e ^ { - 2 s }\">\\frac { 2 } { s } e ^ { - s } + \\frac { 3 } { s } e ^ { - 2 s }</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/complex-analysis/ch004/q0009_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"2 e ^ { - s } + 3 e ^ { - 2 s }\">2 e ^ { - s } + 3 e ^ { - 2 s }</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/complex-analysis/ch004/q0009_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\frac{2}{s}e^{s}+\\frac{3}{s}e^{2s}\">\\frac{2}{s}e^{s}+\\frac{3}{s}e^{2s}</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/complex-analysis/ch004/q0009_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"2e^{s}+3e^{2s}\">2e^{s}+3e^{2s}</span>"
         }
       ],
       "answer": "A",
       "answer_index": 0,
-      "analysis_html": "<img src=\"/static/generated/assets/complex-analysis/ch004/q0009_analysis.png\"/>"
+      "analysis_html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\frac { 2 } { s } e ^ { - s } + \\frac { 3 } { s } e ^ { - 2 s }\">\\frac { 2 } { s } e ^ { - s } + \\frac { 3 } { s } e ^ { - 2 s }</span>"
     },
     {
       "id": "q0010",
       "number": 10,
       "header": "#10-Easy",
       "difficulty": "Easy",
-      "prompt_html": "<img src=\"/static/generated/assets/complex-analysis/ch004/q0010_prompt.png\"/>",
+      "prompt_html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{设}f(t)=e^{-\\beta t}\\delta(t)-\\beta e^{-\\beta t}u(t)\\text{，则}\\mathcal{L}\\left[f(t)\\right]=(\\quad).\">\\text{设}f(t)=e^{-\\beta t}\\delta(t)-\\beta e^{-\\beta t}u(t)\\text{，则}\\mathcal{L}\\left[f(t)\\right]=(\\quad).</span>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/complex-analysis/ch004/q0010_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\frac{s}{s + \\beta}\">\\frac{s}{s + \\beta}</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/complex-analysis/ch004/q0010_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\frac{1}{s + \\beta}\">\\frac{1}{s + \\beta}</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/complex-analysis/ch004/q0010_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\frac{s}{s-\\beta}\">\\frac{s}{s-\\beta}</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/complex-analysis/ch004/q0010_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\frac { 1 } { s - \\beta }\">\\frac { 1 } { s - \\beta }</span>"
         }
       ],
       "answer": "A",
       "answer_index": 0,
-      "analysis_html": "<img src=\"/static/generated/assets/complex-analysis/ch004/q0010_analysis.png\"/>"
+      "analysis_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{aligned}\\mathcal{L}\\left[f(t)\\right]=&amp;\\mathcal{L}\\Big[e^{-\\beta t}\\delta(t)\\Big]-\\beta\\,\\mathcal{L}\\Big[\\beta e^{-\\beta t}u(t)\\Big]=1-\\frac{\\beta}{s+\\beta}=\\frac{s}{s+\\beta}\\,.\\end{aligned}\">\\begin{aligned}\\mathcal{L}\\left[f(t)\\right]=&amp;\\mathcal{L}\\Big[e^{-\\beta t}\\delta(t)\\Big]-\\beta\\,\\mathcal{L}\\Big[\\beta e^{-\\beta t}u(t)\\Big]=1-\\frac{\\beta}{s+\\beta}=\\frac{s}{s+\\beta}\\,.\\end{aligned}</div>"
     },
     {
       "id": "q0011",
       "number": 11,
       "header": "#11-Easy",
       "difficulty": "Easy",
-      "prompt_html": "<img src=\"/static/generated/assets/complex-analysis/ch004/q0011_prompt.png\"/>",
+      "prompt_html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{设}f(t)\\!=\\!e^{2t}\\!+\\!5\\delta(t)\\text{，则}\\mathcal{L}\\left[f(t)\\right]\\!=\\!(\\quad).\">\\text{设}f(t)\\!=\\!e^{2t}\\!+\\!5\\delta(t)\\text{，则}\\mathcal{L}\\left[f(t)\\right]\\!=\\!(\\quad).</span>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/complex-analysis/ch004/q0011_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\frac { 5 s - 9 } { s - 2 }\">\\frac { 5 s - 9 } { s - 2 }</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/complex-analysis/ch004/q0011_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\frac { 5 s + 9 } { s - 2 }\">\\frac { 5 s + 9 } { s - 2 }</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/complex-analysis/ch004/q0011_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\frac { 5 s - 9 } { s + 2 }\">\\frac { 5 s - 9 } { s + 2 }</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/complex-analysis/ch004/q0011_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\frac { 5 s + 9 } { s + 2 }\">\\frac { 5 s + 9 } { s + 2 }</span>"
         }
       ],
       "answer": "A",
       "answer_index": 0,
-      "analysis_html": "<img src=\"/static/generated/assets/complex-analysis/ch004/q0011_analysis.png\"/>"
+      "analysis_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{aligned}F(s) = \\mathcal{L}\\left[e^{2t}\\right] + 5\\,\\mathcal{L}\\left[\\delta(t)\\right] = \\frac{1}{s-2} + 5 = \\frac{5s-9}{s-2}\\,.\\end{aligned}\">\\begin{aligned}F(s) = \\mathcal{L}\\left[e^{2t}\\right] + 5\\,\\mathcal{L}\\left[\\delta(t)\\right] = \\frac{1}{s-2} + 5 = \\frac{5s-9}{s-2}\\,.\\end{aligned}</div>"
     },
     {
       "id": "q0012",
       "number": 12,
       "header": "#12-Easy",
       "difficulty": "Easy",
-      "prompt_html": "<img src=\"/static/generated/assets/complex-analysis/ch004/q0012_prompt.png\"/>",
+      "prompt_html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{设}f(t)=e^{-2t}\\sin 6t, \\text{则} \\mathcal{L}\\left[f(t)\\right]=(\\quad).\">\\text{设}f(t)=e^{-2t}\\sin 6t, \\text{则} \\mathcal{L}\\left[f(t)\\right]=(\\quad).</span>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/complex-analysis/ch004/q0012_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\frac { 6 } { \\left ( s + 2 \\right ) ^ { 2 } + 36 }\">\\frac { 6 } { \\left ( s + 2 \\right ) ^ { 2 } + 36 }</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/complex-analysis/ch004/q0012_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\frac { 36 } { \\left ( s + 2 \\right ) ^ { 2 } + 36 }\">\\frac { 36 } { \\left ( s + 2 \\right ) ^ { 2 } + 36 }</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/complex-analysis/ch004/q0012_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\frac { 6 } { \\left ( s - 2 \\right ) ^ { 2 } + 36 }\">\\frac { 6 } { \\left ( s - 2 \\right ) ^ { 2 } + 36 }</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/complex-analysis/ch004/q0012_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\frac { 36 } { \\left ( s - 2 \\right ) ^ { 2 } + 36 }\">\\frac { 36 } { \\left ( s - 2 \\right ) ^ { 2 } + 36 }</span>"
         }
       ],
       "answer": "A",
       "answer_index": 0,
-      "analysis_html": "<img src=\"/static/generated/assets/complex-analysis/ch004/q0012_analysis.png\"/>"
+      "analysis_html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{因为} \\mathcal{L}\\left[ \\sin 6 t \\right] = \\frac{6}{s^{2}+36},\\ \\text{所以} \\mathcal{L}\\left[ e^{-2t} \\sin 6 t \\right] = \\frac{6}{\\left( s+2 \\right)^{2}+36}.\">\\text{因为} \\mathcal{L}\\left[ \\sin 6 t \\right] = \\frac{6}{s^{2}+36},\\ \\text{所以} \\mathcal{L}\\left[ e^{-2t} \\sin 6 t \\right] = \\frac{6}{\\left( s+2 \\right)^{2}+36}.</span>"
     },
     {
       "id": "q0013",
       "number": 13,
       "header": "#13-Easy",
       "difficulty": "Easy",
-      "prompt_html": "<img src=\"/static/generated/assets/complex-analysis/ch004/q0013_prompt.png\"/>",
+      "prompt_html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{设}f(t)\\!=\\!t^{2}\\!+\\!3t\\!+\\!2,\\text{则}\\mathcal{L}\\left[f(t)\\right]\\!=\\!(\\ \\ ).\">\\text{设}f(t)\\!=\\!t^{2}\\!+\\!3t\\!+\\!2,\\text{则}\\mathcal{L}\\left[f(t)\\right]\\!=\\!(\\ \\ ).</span>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/complex-analysis/ch004/q0013_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\frac {1}{s ^ {3}} (2 s ^ {2} + 3 s + 2)\">\\frac {1}{s ^ {3}} (2 s ^ {2} + 3 s + 2)</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/complex-analysis/ch004/q0013_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\frac {1}{s ^ {2}} (2 s ^ {2} + 3 s + 2)\">\\frac {1}{s ^ {2}} (2 s ^ {2} + 3 s + 2)</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/complex-analysis/ch004/q0013_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\frac {1}{s} (2 s ^ {2} + 3 s + 2)\">\\frac {1}{s} (2 s ^ {2} + 3 s + 2)</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/complex-analysis/ch004/q0013_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"2s^{2}+3s+2\\leftarrow\">2s^{2}+3s+2\\leftarrow</span>"
         }
       ],
       "answer": "A",
       "answer_index": 0,
-      "analysis_html": "<img src=\"/static/generated/assets/complex-analysis/ch004/q0013_analysis.png\"/>"
+      "analysis_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{aligned}F(s)=&amp;\\mathcal{L}\\left[t^{2}\\right]+3\\,\\mathcal{L}\\left[t\\right]+2\\,\\mathcal{L}\\left[1\\right]_{\\leftarrow}\\\\=&amp;\\frac{2!}{s^{3}}+3\\frac{1!}{s^{2}}+2\\frac{1}{s}=\\frac{1}{s^{3}}(2s^{2}+3s+2)\\;.\\end{aligned}\">\\begin{aligned}F(s)=&amp;\\mathcal{L}\\left[t^{2}\\right]+3\\,\\mathcal{L}\\left[t\\right]+2\\,\\mathcal{L}\\left[1\\right]_{\\leftarrow}\\\\=&amp;\\frac{2!}{s^{3}}+3\\frac{1!}{s^{2}}+2\\frac{1}{s}=\\frac{1}{s^{3}}(2s^{2}+3s+2)\\;.\\end{aligned}</div>"
     },
     {
       "id": "q0014",
       "number": 14,
       "header": "#14-Easy",
       "difficulty": "Easy",
-      "prompt_html": "<img src=\"/static/generated/assets/complex-analysis/ch004/q0014_prompt.png\"/>",
+      "prompt_html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{设}f(t)=te^{-3t}\\sin 2t, \\text{则} \\mathcal{L}\\left[f(t)\\right]=(\\quad).\">\\text{设}f(t)=te^{-3t}\\sin 2t, \\text{则} \\mathcal{L}\\left[f(t)\\right]=(\\quad).</span>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/complex-analysis/ch004/q0014_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\frac { 4 ( s + 3 ) } { \\left( ( s + 3 ) ^ { 2 } + 4 \\right) ^ { 2 } }\">\\frac { 4 ( s + 3 ) } { \\left( ( s + 3 ) ^ { 2 } + 4 \\right) ^ { 2 } }</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/complex-analysis/ch004/q0014_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\frac{4(s-3)}{\\left(\\left(s-3\\right)^{2}+4\\right)^{2}}\">\\frac{4(s-3)}{\\left(\\left(s-3\\right)^{2}+4\\right)^{2}}</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/complex-analysis/ch004/q0014_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\frac { s + 3 } { \\left( \\left( s + 3 \\right) ^ { 2 } + 4 \\right) ^ { 2 } }\">\\frac { s + 3 } { \\left( \\left( s + 3 \\right) ^ { 2 } + 4 \\right) ^ { 2 } }</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/complex-analysis/ch004/q0014_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\frac { s - 3 } { \\left( \\left( s - 3 \\right) ^ { 2 } + 4 \\right) ^ { 2 } }\">\\frac { s - 3 } { \\left( \\left( s - 3 \\right) ^ { 2 } + 4 \\right) ^ { 2 } }</span>"
         }
       ],
       "answer": "A",
       "answer_index": 0,
-      "analysis_html": "<img src=\"/static/generated/assets/complex-analysis/ch004/q0014_analysis.png\"/>"
+      "analysis_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{aligned} \\text{因为 } \\mathcal{L}\\left[\\sin 2t\\right]&amp;=\\frac{2}{s^{2}+4},\\ \\text{所以}\\mathcal{L}\\left[e^{-3t}\\sin 2t\\right]=\\frac{2}{\\left(s+3\\right)^{2}+4},\\ \\text{所以,}\\\\ \\mathcal{L}\\left[e^{-3t}\\sin 2t\\right]&amp;=-\\left(\\frac{2}{\\left(s+3\\right)^{2}+4}\\right)^{\\prime}=\\frac{4\\left(s+3\\right)}{\\left(\\left(s+3\\right)^{2}+4\\right)^{2}}.\\end{aligned}\">\\begin{aligned} \\text{因为 } \\mathcal{L}\\left[\\sin 2t\\right]&amp;=\\frac{2}{s^{2}+4},\\ \\text{所以}\\mathcal{L}\\left[e^{-3t}\\sin 2t\\right]=\\frac{2}{\\left(s+3\\right)^{2}+4},\\ \\text{所以,}\\\\ \\mathcal{L}\\left[e^{-3t}\\sin 2t\\right]&amp;=-\\left(\\frac{2}{\\left(s+3\\right)^{2}+4}\\right)^{\\prime}=\\frac{4\\left(s+3\\right)}{\\left(\\left(s+3\\right)^{2}+4\\right)^{2}}.\\end{aligned}</div>"
     },
     {
       "id": "q0015",
       "number": 15,
       "header": "#15-Hard",
       "difficulty": "Hard",
-      "prompt_html": "<img src=\"/static/generated/assets/complex-analysis/ch004/q0015_prompt.png\"/>",
+      "prompt_html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{设}f(t)=t\\int_{0}^{t}\\tau e^{-3\\tau}\\sin 2\\tau d\\tau, \\text{则}\\mathcal{L}\\left[f(t)\\right]=(\\quad).\">\\text{设}f(t)=t\\int_{0}^{t}\\tau e^{-3\\tau}\\sin 2\\tau d\\tau, \\text{则}\\mathcal{L}\\left[f(t)\\right]=(\\quad).</span>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/complex-analysis/ch004/q0015_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\frac{4\\left(4s^{3}+27s^{2}+54s+39\\right)}{s^{2}\\left(\\left(s+3\\right)^{2}+4\\right)^{3}}\">\\frac{4\\left(4s^{3}+27s^{2}+54s+39\\right)}{s^{2}\\left(\\left(s+3\\right)^{2}+4\\right)^{3}}</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/complex-analysis/ch004/q0015_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"- \\frac { 2 \\left( 3 s ^ { 2 } + 12 s + 13 \\right) } { s ^ { 2 } \\left( \\left( s + 3 \\right) ^ { 2 } + 4 \\right) ^ { 2 } }\">- \\frac { 2 \\left( 3 s ^ { 2 } + 12 s + 13 \\right) } { s ^ { 2 } \\left( \\left( s + 3 \\right) ^ { 2 } + 4 \\right) ^ { 2 } }</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/complex-analysis/ch004/q0015_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"- \\frac { 2 \\left( 3 s ^ { 2 } + 12 s + 13 \\right) } { s ^ { 2 } \\left( \\left(s + 3 \\right) ^ { 2 } + 4 \\right) }\">- \\frac { 2 \\left( 3 s ^ { 2 } + 12 s + 13 \\right) } { s ^ { 2 } \\left( \\left(s + 3 \\right) ^ { 2 } + 4 \\right) }</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/complex-analysis/ch004/q0015_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"- \\frac { 2 \\left( 3 s ^ { 2 } + 12 s + 13 \\right) } { s \\left( \\left( s + 3 \\right) ^ { 2 } + 4 \\right) }\">- \\frac { 2 \\left( 3 s ^ { 2 } + 12 s + 13 \\right) } { s \\left( \\left( s + 3 \\right) ^ { 2 } + 4 \\right) }</span>"
         }
       ],
       "answer": "A",
       "answer_index": 0,
-      "analysis_html": "<img src=\"/static/generated/assets/complex-analysis/ch004/q0015_analysis.png\"/>"
+      "analysis_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{aligned} \\text{因为} \\mathcal{L}\\left[\\sin 2t\\right] &amp;= \\frac{2}{s^2+4}, \\ \\mathcal{L}\\left[e^{-3t}\\sin 2t\\right] = \\frac{2}{\\left(s+3\\right)^2+4}, \\ \\text{所以} \\\\ \\mathcal{L}\\left[te^{-3t}\\sin 2t\\right] &amp;= -\\left(\\frac{2}{\\left(s+3\\right)^2+4}\\right)&#x27; = \\frac{4\\left(s+3\\right)}{\\left(\\left(s+3\\right)^2+4\\right)^2}, \\\\ \\text{故} \\ \\mathcal{L}\\left[f(t)\\right] &amp;= \\left(\\frac{4\\left(s+3\\right)}{s\\left(\\left(s+3\\right)^2+4\\right)^2}\\right)&#x27; = -\\frac{4\\left(4s^3+27s^2+54s+39\\right)}{s^2\\left(\\left(s+3\\right)^2+4\\right)^3}.\\end{aligned}\">\\begin{aligned} \\text{因为} \\mathcal{L}\\left[\\sin 2t\\right] &amp;= \\frac{2}{s^2+4}, \\ \\mathcal{L}\\left[e^{-3t}\\sin 2t\\right] = \\frac{2}{\\left(s+3\\right)^2+4}, \\ \\text{所以} \\\\ \\mathcal{L}\\left[te^{-3t}\\sin 2t\\right] &amp;= -\\left(\\frac{2}{\\left(s+3\\right)^2+4}\\right)&#x27; = \\frac{4\\left(s+3\\right)}{\\left(\\left(s+3\\right)^2+4\\right)^2}, \\\\ \\text{故} \\ \\mathcal{L}\\left[f(t)\\right] &amp;= \\left(\\frac{4\\left(s+3\\right)}{s\\left(\\left(s+3\\right)^2+4\\right)^2}\\right)&#x27; = -\\frac{4\\left(4s^3+27s^2+54s+39\\right)}{s^2\\left(\\left(s+3\\right)^2+4\\right)^3}.\\end{aligned}</div>"
     },
     {
       "id": "q0016",
       "number": 16,
       "header": "#16-Averge",
       "difficulty": "Averge",
-      "prompt_html": "<img src=\"/static/generated/assets/complex-analysis/ch004/q0016_prompt.png\"/>",
+      "prompt_html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{设}f(t)=\\delta(t)\\cos t-u(t)\\sin t, \\text{则} \\mathcal{L}\\left[f(t)\\right]=(\\quad).\">\\text{设}f(t)=\\delta(t)\\cos t-u(t)\\sin t, \\text{则} \\mathcal{L}\\left[f(t)\\right]=(\\quad).</span>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/complex-analysis/ch004/q0016_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\frac { s ^ { 2 } } { s ^ { 2 } + 1 }\">\\frac { s ^ { 2 } } { s ^ { 2 } + 1 }</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/complex-analysis/ch004/q0016_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\frac { 1 } { s ^ { 2 } + 1 }\">\\frac { 1 } { s ^ { 2 } + 1 }</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/complex-analysis/ch004/q0016_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\frac { s - 1 } { s ^ { 2 } + 1 }\">\\frac { s - 1 } { s ^ { 2 } + 1 }</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/complex-analysis/ch004/q0016_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\frac { s } { s ^ { 2 } + 1 }\">\\frac { s } { s ^ { 2 } + 1 }</span>"
         }
       ],
       "answer": "A",
       "answer_index": 0,
-      "analysis_html": "<img src=\"/static/generated/assets/complex-analysis/ch004/q0016_analysis.png\"/>"
+      "analysis_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{aligned}F(s) = \\int\\limits_{0}^{+\\infty} \\delta(t) \\cos t e^{-st} dt - \\mathcal{L}\\left[ \\sin t \\right] = 1 - \\frac{1}{s^{2}+1} = \\frac{s^{2}}{s^{2}+1} \\, .\\end{aligned}\">\\begin{aligned}F(s) = \\int\\limits_{0}^{+\\infty} \\delta(t) \\cos t e^{-st} dt - \\mathcal{L}\\left[ \\sin t \\right] = 1 - \\frac{1}{s^{2}+1} = \\frac{s^{2}}{s^{2}+1} \\, .\\end{aligned}</div>"
     },
     {
       "id": "q0017",
       "number": 17,
       "header": "#17-Easy",
       "difficulty": "Easy",
-      "prompt_html": "<img src=\"/static/generated/assets/complex-analysis/ch004/q0017_prompt.png\"/>",
+      "prompt_html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\mathcal{L}\\left[ \\sin^{2}t \\right] = ( \\quad ) .\">\\mathcal{L}\\left[ \\sin^{2}t \\right] = ( \\quad ) .</span>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/complex-analysis/ch004/q0017_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\frac { 2 } { s ( s ^ { 2 } + 4 ) }\">\\frac { 2 } { s ( s ^ { 2 } + 4 ) }</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/complex-analysis/ch004/q0017_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\frac { 2 } { s ^ { 2 } + 4 }\">\\frac { 2 } { s ^ { 2 } + 4 }</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/complex-analysis/ch004/q0017_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\frac { s } { s ^ { 2 } + 4 }\">\\frac { s } { s ^ { 2 } + 4 }</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/complex-analysis/ch004/q0017_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\frac { 2 s } { s ^ { 2 } + 4 }\">\\frac { 2 s } { s ^ { 2 } + 4 }</span>"
         }
       ],
       "answer": "A",
       "answer_index": 0,
-      "analysis_html": "<img src=\"/static/generated/assets/complex-analysis/ch004/q0017_analysis.png\"/>"
+      "analysis_html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\mathcal{L}\\left[ \\sin^{2}t \\right] {=} \\frac{1}{2}\\mathcal{L}\\left[ 1{-}\\cos 2t \\right] {=} \\frac{1}{2}(\\frac{1}{s}{-}\\frac{s}{s^{2}+4}) {=} \\frac{2}{s(s^{2}+4)}\">\\mathcal{L}\\left[ \\sin^{2}t \\right] {=} \\frac{1}{2}\\mathcal{L}\\left[ 1{-}\\cos 2t \\right] {=} \\frac{1}{2}(\\frac{1}{s}{-}\\frac{s}{s^{2}+4}) {=} \\frac{2}{s(s^{2}+4)}</span>"
     },
     {
       "id": "q0018",
       "number": 18,
       "header": "#18-Easy",
       "difficulty": "Easy",
-      "prompt_html": "<img src=\"/static/generated/assets/complex-analysis/ch004/q0018_prompt.png\"/>",
+      "prompt_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\text{设}a&gt;0,f(t)=\\begin{cases}t,&amp;0\\leq t&lt;a\\\\ 0,&amp;\\text{其他}\\end{cases},\\text{则}\\mathcal{L}\\left[f(t)\\right]=(\\ \\ ).\">\\text{设}a&gt;0,f(t)=\\begin{cases}t,&amp;0\\leq t&lt;a\\\\ 0,&amp;\\text{其他}\\end{cases},\\text{则}\\mathcal{L}\\left[f(t)\\right]=(\\ \\ ).</div>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/complex-analysis/ch004/q0018_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\frac{1}{s^{2}}\\Bigl(1{-}e^{-as}-a{s}e^{-as}\\Bigr)\">\\frac{1}{s^{2}}\\Bigl(1{-}e^{-as}-a{s}e^{-as}\\Bigr)</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/complex-analysis/ch004/q0018_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\frac{1}{s^{2}}\\Bigl(1+e^{-as}+ase^{-as}\\Bigr)\">\\frac{1}{s^{2}}\\Bigl(1+e^{-as}+ase^{-as}\\Bigr)</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/complex-analysis/ch004/q0018_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\frac{1}{s^{2}}\\Bigl(1{-}e^{-as}+a{s}e^{-as}\\Bigr)\">\\frac{1}{s^{2}}\\Bigl(1{-}e^{-as}+a{s}e^{-as}\\Bigr)</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/complex-analysis/ch004/q0018_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\frac{1}{s^{2}}\\Bigl(1+e^{-as}-ase^{-as}\\Bigr)\">\\frac{1}{s^{2}}\\Bigl(1+e^{-as}-ase^{-as}\\Bigr)</span>"
         }
       ],
       "answer": "A",
       "answer_index": 0,
-      "analysis_html": "<img src=\"/static/generated/assets/complex-analysis/ch004/q0018_analysis.png\"/>"
+      "analysis_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{aligned}F(s) &amp; = \\int_0^a te^{-st} dt = -\\frac{1}{s}te^{-st}\\Big|_0^s + \\frac{1}{s} \\int_0^a e^{-st} dt \\\\&amp; = -\\frac{1}{s} ae^{-sa} - \\frac{1}{s^2} e^{-st} + \\frac{1}{s^2} = \\frac{1}{s^2} \\Big( 1 - e^{-as} - as e^{-as} \\Big) \\, .\\end{aligned}\">\\begin{aligned}F(s) &amp; = \\int_0^a te^{-st} dt = -\\frac{1}{s}te^{-st}\\Big|_0^s + \\frac{1}{s} \\int_0^a e^{-st} dt \\\\&amp; = -\\frac{1}{s} ae^{-sa} - \\frac{1}{s^2} e^{-st} + \\frac{1}{s^2} = \\frac{1}{s^2} \\Big( 1 - e^{-as} - as e^{-as} \\Big) \\, .\\end{aligned}</div>"
     },
     {
       "id": "q0019",
       "number": 19,
       "header": "#19-Easy",
       "difficulty": "Easy",
-      "prompt_html": "<img src=\"/static/generated/assets/complex-analysis/ch004/q0019_prompt.png\"/>",
+      "prompt_html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\mathcal { L } \\left[ \\int _ { 0 } ^ { t } { \\frac { \\sin x } { x } d x } \\right] = ( \\quad ) .\">\\mathcal { L } \\left[ \\int _ { 0 } ^ { t } { \\frac { \\sin x } { x } d x } \\right] = ( \\quad ) .</span>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/complex-analysis/ch004/q0019_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\frac { 1 } { s } \\left( \\frac { \\pi } { 2 } - \\arctan s \\right)\">\\frac { 1 } { s } \\left( \\frac { \\pi } { 2 } - \\arctan s \\right)</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/complex-analysis/ch004/q0019_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\frac { 1 } { s } \\left( \\frac { \\pi } { 2 } + \\arctan s \\right)\">\\frac { 1 } { s } \\left( \\frac { \\pi } { 2 } + \\arctan s \\right)</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/complex-analysis/ch004/q0019_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\begin{aligned}s\\left(\\frac{\\pi}{2}-\\arctan s\\right)\\end{aligned}\">\\begin{aligned}s\\left(\\frac{\\pi}{2}-\\arctan s\\right)\\end{aligned}</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/complex-analysis/ch004/q0019_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\begin{aligned}s\\left(\\frac{\\pi}{2}+\\arctan s\\right)\\end{aligned}\">\\begin{aligned}s\\left(\\frac{\\pi}{2}+\\arctan s\\right)\\end{aligned}</span>"
         }
       ],
       "answer": "A",
       "answer_index": 0,
-      "analysis_html": "<img src=\"/static/generated/assets/complex-analysis/ch004/q0019_analysis.png\"/>"
+      "analysis_html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\mathcal{L}\\left[ \\frac{\\sin t}{t} \\right] = \\int_{s}^{+\\infty} \\frac{ds}{1+s^{2}} = \\frac{\\pi}{2} - \\arctan s \\, , \\, \\text{所以} \\, \\mathcal{L}\\left[ \\int_{0}^{t} \\frac{\\sin x}{x} \\, dx \\right] = \\frac{1}{s} \\left( \\frac{\\pi}{2} - \\arctan s \\right) .\">\\mathcal{L}\\left[ \\frac{\\sin t}{t} \\right] = \\int_{s}^{+\\infty} \\frac{ds}{1+s^{2}} = \\frac{\\pi}{2} - \\arctan s \\, , \\, \\text{所以} \\, \\mathcal{L}\\left[ \\int_{0}^{t} \\frac{\\sin x}{x} \\, dx \\right] = \\frac{1}{s} \\left( \\frac{\\pi}{2} - \\arctan s \\right) .</span>"
     },
     {
       "id": "q0020",
       "number": 20,
       "header": "#20-Easy",
       "difficulty": "Easy",
-      "prompt_html": "<img src=\"/static/generated/assets/complex-analysis/ch004/q0020_prompt.png\"/>",
+      "prompt_html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\mathcal{L}\\left[ t^{n} e^{-\\alpha t} \\right] = ( \\quad ) . \\Leftrightarrow\">\\mathcal{L}\\left[ t^{n} e^{-\\alpha t} \\right] = ( \\quad ) . \\Leftrightarrow</span>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/complex-analysis/ch004/q0020_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\frac { n ! } { \\left ( s + a \\right ) ^ { n + 1 } }\">\\frac { n ! } { \\left ( s + a \\right ) ^ { n + 1 } }</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/complex-analysis/ch004/q0020_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\frac { n ! } { \\left ( s + a \\right ) ^ { n } }\">\\frac { n ! } { \\left ( s + a \\right ) ^ { n } }</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/complex-analysis/ch004/q0020_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\frac {(n + 1) !}{(s + a) ^ {n}}\">\\frac {(n + 1) !}{(s + a) ^ {n}}</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/complex-analysis/ch004/q0020_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\frac{n!}{s^{n}+a^{n}}\\leftarrow\">\\frac{n!}{s^{n}+a^{n}}\\leftarrow</span>"
         }
       ],
       "answer": "A",
       "answer_index": 0,
-      "analysis_html": "<img src=\"/static/generated/assets/complex-analysis/ch004/q0020_analysis.png\"/>"
+      "analysis_html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\frac { n ! } { \\left ( s + a \\right ) ^ { n + 1 } }\">\\frac { n ! } { \\left ( s + a \\right ) ^ { n + 1 } }</span>"
     },
     {
       "id": "q0021",
       "number": 21,
       "header": "#21-Easy",
       "difficulty": "Easy",
-      "prompt_html": "<img src=\"/static/generated/assets/complex-analysis/ch004/q0021_prompt.png\"/>",
+      "prompt_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\text{设}f(t)=\\begin{cases}3,&amp;0\\leq t&lt;2\\\\ -1,&amp;2\\leq t&lt;4,\\\\ 0,&amp;t\\geq 4\\end{cases},\\text{则}\\mathcal{L}\\left[f(t)\\right]=(\\ \\ ).\">\\text{设}f(t)=\\begin{cases}3,&amp;0\\leq t&lt;2\\\\ -1,&amp;2\\leq t&lt;4,\\\\ 0,&amp;t\\geq 4\\end{cases},\\text{则}\\mathcal{L}\\left[f(t)\\right]=(\\ \\ ).</div>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/complex-analysis/ch004/q0021_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\frac { 1 } { s } \\Bigl ( 3 - 4 e ^ { - 2 s } + e ^ { - 4 s } \\Bigr )\">\\frac { 1 } { s } \\Bigl ( 3 - 4 e ^ { - 2 s } + e ^ { - 4 s } \\Bigr )</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/complex-analysis/ch004/q0021_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\mathbf { 3 } e ^ { - 2 s } - e ^ { - 4 s }\">\\mathbf { 3 } e ^ { - 2 s } - e ^ { - 4 s }</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/complex-analysis/ch004/q0021_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\frac { 1 } { s } \\Bigl ( 3 + 4 e ^ { - 2 s } + e ^ { - 4 s } \\Bigr )\">\\frac { 1 } { s } \\Bigl ( 3 + 4 e ^ { - 2 s } + e ^ { - 4 s } \\Bigr )</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/complex-analysis/ch004/q0021_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"2 e ^ { - 3 s } + e ^ { - 2 s }\">2 e ^ { - 3 s } + e ^ { - 2 s }</span>"
         }
       ],
       "answer": "A",
       "answer_index": 0,
-      "analysis_html": "<img src=\"/static/generated/assets/complex-analysis/ch004/q0021_analysis.png\"/>"
+      "analysis_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{aligned}\\mathcal{L}[f(t)]=&amp;\\int_{0}^{2}3e^{-st}dt-\\int_{2}^{4}e^{-st}dt=-\\frac{3}{s}e^{-st}\\Big|_{0}^{2}+\\frac{1}{s}e^{-st}\\Big|_{2}^{4}=\\frac{1}{s}\\Big(3-4e^{-2s}+e^{-4s}\\Big).\\end{aligned}\">\\begin{aligned}\\mathcal{L}[f(t)]=&amp;\\int_{0}^{2}3e^{-st}dt-\\int_{2}^{4}e^{-st}dt=-\\frac{3}{s}e^{-st}\\Big|_{0}^{2}+\\frac{1}{s}e^{-st}\\Big|_{2}^{4}=\\frac{1}{s}\\Big(3-4e^{-2s}+e^{-4s}\\Big).\\end{aligned}</div>"
     },
     {
       "id": "q0022",
       "number": 22,
       "header": "#22-Easy",
       "difficulty": "Easy",
-      "prompt_html": "<img src=\"/static/generated/assets/complex-analysis/ch004/q0022_prompt.png\"/>",
+      "prompt_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\text{设}f(t)=\\begin{cases} t+1,0\\leq|t|&lt;3\\\\ 0,3\\leq|t|\\end{cases},\\text{则}\\mathcal{L}\\left[f(t)\\right]=(\\ \\ ).\">\\text{设}f(t)=\\begin{cases} t+1,0\\leq|t|&lt;3\\\\ 0,3\\leq|t|\\end{cases},\\text{则}\\mathcal{L}\\left[f(t)\\right]=(\\ \\ ).</div>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/complex-analysis/ch004/q0022_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\frac { 1 } { s ^ { 2 } } + \\frac { 1 } { s } - \\frac { 1 } { s ^ { 2 } } ( 4 s + 1 ) e ^ { - 3 s }\">\\frac { 1 } { s ^ { 2 } } + \\frac { 1 } { s } - \\frac { 1 } { s ^ { 2 } } ( 4 s + 1 ) e ^ { - 3 s }</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/complex-analysis/ch004/q0022_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\frac { 1 } { s ^ { 2 } } + \\frac { 1 } { s }\">\\frac { 1 } { s ^ { 2 } } + \\frac { 1 } { s }</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/complex-analysis/ch004/q0022_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\frac { 1 } { s ^ { 2 } } + \\frac { 1 } { s } + \\frac { 1 } { s ^ { 2 } } ( 4 s + 1 ) e ^ { - 3 s }\">\\frac { 1 } { s ^ { 2 } } + \\frac { 1 } { s } + \\frac { 1 } { s ^ { 2 } } ( 4 s + 1 ) e ^ { - 3 s }</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/complex-analysis/ch004/q0022_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\begin{array}{l}-\\frac{1}{s^{2}}+2\\pi \\delta (s)\\end{array}\">\\begin{array}{l}-\\frac{1}{s^{2}}+2\\pi \\delta (s)\\end{array}</span>"
         }
       ],
       "answer": "A",
       "answer_index": 0,
-      "analysis_html": "<img src=\"/static/generated/assets/complex-analysis/ch004/q0022_analysis.png\"/>"
+      "analysis_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{aligned}\\mathcal{L}\\left[f(t)\\right]&amp;=\\int_{0}^{3}(t+1)e^{-st}dt=-\\frac{1}{s}(t+1)e^{-st}\\biggl|\\begin{matrix}3\\\\0\\end{matrix}+\\frac{1}{s}\\int_{0}^{3}e^{-st}dt\\\\&amp;=-\\frac{4}{s}e^{-3s}+\\frac{1}{s}-\\frac{1}{s^{2}}e^{-3s}+\\frac{1}{s^{2}}\\,.\\end{aligned}\">\\begin{aligned}\\mathcal{L}\\left[f(t)\\right]&amp;=\\int_{0}^{3}(t+1)e^{-st}dt=-\\frac{1}{s}(t+1)e^{-st}\\biggl|\\begin{matrix}3\\\\0\\end{matrix}+\\frac{1}{s}\\int_{0}^{3}e^{-st}dt\\\\&amp;=-\\frac{4}{s}e^{-3s}+\\frac{1}{s}-\\frac{1}{s^{2}}e^{-3s}+\\frac{1}{s^{2}}\\,.\\end{aligned}</div>"
     },
     {
       "id": "q0023",
       "number": 23,
       "header": "#23-Averge",
       "difficulty": "Averge",
-      "prompt_html": "<img src=\"/static/generated/assets/complex-analysis/ch004/q0023_prompt.png\"/>",
+      "prompt_html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\mathcal { L } \\left[ \\frac { e ^ { \\alpha } } { \\sqrt { t } } \\right] = ( \\quad ) . \\Leftrightarrow\">\\mathcal { L } \\left[ \\frac { e ^ { \\alpha } } { \\sqrt { t } } \\right] = ( \\quad ) . \\Leftrightarrow</span>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/complex-analysis/ch004/q0023_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\sqrt { \\frac { \\pi } { s - a } }\">\\sqrt { \\frac { \\pi } { s - a } }</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/complex-analysis/ch004/q0023_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\sqrt { \\frac { \\pi } { s + a } }\">\\sqrt { \\frac { \\pi } { s + a } }</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/complex-analysis/ch004/q0023_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\frac { 1 } { \\sqrt { s - a } }\">\\frac { 1 } { \\sqrt { s - a } }</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/complex-analysis/ch004/q0023_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\frac { 1 } { \\sqrt { s + a } } \\leftarrow\">\\frac { 1 } { \\sqrt { s + a } } \\leftarrow</span>"
         }
       ],
       "answer": "A",
       "answer_index": 0,
-      "analysis_html": "<img src=\"/static/generated/assets/complex-analysis/ch004/q0023_analysis.png\"/>"
+      "analysis_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{aligned} \\text{因为} \\mathcal{L}\\left[\\frac{1}{\\sqrt{t}}\\right]&amp;=\\int_{0}^{+\\infty}\\frac{1}{\\sqrt{t}}e^{-xt}dt=\\int_{0}^{+\\infty}\\frac{1}{\\tau}e^{-\\pi\\tau}d\\left(\\tau^{2}\\right)\\cdot \\\\&amp;=2\\int_{0}^{+\\infty}e^{-\\pi\\tau}d\\tau=\\sqrt{\\frac{\\pi}{s}}\\cdot \\\\ \\text{所以} \\mathcal{L}\\left[\\frac{e^{ax}}{\\sqrt{t}}\\right]&amp;=\\sqrt{\\frac{\\pi}{s-a}}\\cdot \\end{aligned}\">\\begin{aligned} \\text{因为} \\mathcal{L}\\left[\\frac{1}{\\sqrt{t}}\\right]&amp;=\\int_{0}^{+\\infty}\\frac{1}{\\sqrt{t}}e^{-xt}dt=\\int_{0}^{+\\infty}\\frac{1}{\\tau}e^{-\\pi\\tau}d\\left(\\tau^{2}\\right)\\cdot \\\\&amp;=2\\int_{0}^{+\\infty}e^{-\\pi\\tau}d\\tau=\\sqrt{\\frac{\\pi}{s}}\\cdot \\\\ \\text{所以} \\mathcal{L}\\left[\\frac{e^{ax}}{\\sqrt{t}}\\right]&amp;=\\sqrt{\\frac{\\pi}{s-a}}\\cdot \\end{aligned}</div>"
     },
     {
       "id": "q0024",
       "number": 24,
       "header": "#24-Averge",
       "difficulty": "Averge",
-      "prompt_html": "<img src=\"/static/generated/assets/complex-analysis/ch004/q0024_prompt.png\"/>",
+      "prompt_html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{设}f(t)\\!=\\!t^{2}\\delta(t\\!-\\!1)\\text{,则}\\mathcal{L}\\left[f(t)\\right]\\!=\\!(\\ \\ ).\">\\text{设}f(t)\\!=\\!t^{2}\\delta(t\\!-\\!1)\\text{,则}\\mathcal{L}\\left[f(t)\\right]\\!=\\!(\\ \\ ).</span>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/complex-analysis/ch004/q0024_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"e ^ { - s }\">e ^ { - s }</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/complex-analysis/ch004/q0024_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"e^{s}\">e^{s}</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/complex-analysis/ch004/q0024_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"s^{2}e^{-s}\">s^{2}e^{-s}</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/complex-analysis/ch004/q0024_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\boldsymbol { s } ^ { 2 } \\boldsymbol { e } ^ { s } \\cdot\">\\boldsymbol { s } ^ { 2 } \\boldsymbol { e } ^ { s } \\cdot</span>"
         }
       ],
       "answer": "A",
       "answer_index": 0,
-      "analysis_html": "<img src=\"/static/generated/assets/complex-analysis/ch004/q0024_analysis.png\"/>"
+      "analysis_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{aligned}F(s)=\\int_{0^{-}}^{+\\infty}t^{2}\\,\\delta(t-1)e^{-st}dt=&amp;\\int_{0^{-}}^{+\\infty}(u+1)^{2}\\,\\delta(u)e^{-s(u+1)}du\\end{aligned}\">\\begin{aligned}F(s)=\\int_{0^{-}}^{+\\infty}t^{2}\\,\\delta(t-1)e^{-st}dt=&amp;\\int_{0^{-}}^{+\\infty}(u+1)^{2}\\,\\delta(u)e^{-s(u+1)}du\\end{aligned}</div>"
     },
     {
       "id": "q0025",
       "number": 25,
       "header": "#25-Easy",
       "difficulty": "Easy",
-      "prompt_html": "<img src=\"/static/generated/assets/complex-analysis/ch004/q0025_prompt.png\"/>",
+      "prompt_html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{设}f(t)\\!=\\!\\int_{0}^{t}\\!\\!\\frac{1}{\\tau}e^{-3\\tau}\\sin 2\\tau d\\tau,\\text{则}\\mathcal{L}\\left[f(t)\\right]\\!=\\!(\\quad).\">\\text{设}f(t)\\!=\\!\\int_{0}^{t}\\!\\!\\frac{1}{\\tau}e^{-3\\tau}\\sin 2\\tau d\\tau,\\text{则}\\mathcal{L}\\left[f(t)\\right]\\!=\\!(\\quad).</span>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/complex-analysis/ch004/q0025_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\frac { 1 } { s } \\operatorname { arccot } \\frac { s + 3 } { 2 }\">\\frac { 1 } { s } \\operatorname { arccot } \\frac { s + 3 } { 2 }</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/complex-analysis/ch004/q0025_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\frac { 1 } { s } \\arctan \\frac { s + 3 } { 2 }\">\\frac { 1 } { s } \\arctan \\frac { s + 3 } { 2 }</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/complex-analysis/ch004/q0025_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\frac { 1 } { s } \\arcsin \\frac { s + 3 } { 2 }\">\\frac { 1 } { s } \\arcsin \\frac { s + 3 } { 2 }</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/complex-analysis/ch004/q0025_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\frac { 1 } { s } \\arccos \\frac { s + 3 } { 2 }\">\\frac { 1 } { s } \\arccos \\frac { s + 3 } { 2 }</span>"
         }
       ],
       "answer": "A",
       "answer_index": 0,
-      "analysis_html": "<img src=\"/static/generated/assets/complex-analysis/ch004/q0025_analysis.png\"/>"
+      "analysis_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{aligned}\\mathcal{L}\\left[\\frac{1}{t}e^{-3t}\\sin 2t\\right]&amp;=F(s)=\\int_{s}^{+\\infty}\\frac{2}{\\left(s+3\\right)^{2}+4}ds=\\frac{\\pi}{2}\\arctan\\frac{s+3}{2}=\\operatorname{arccot}\\frac{s+3}{2}\\, ,\\\\ \\text{得}F(s)&amp;=\\frac{1}{s}\\operatorname{arccot}\\frac{s+3}{2}.\\end{aligned}\">\\begin{aligned}\\mathcal{L}\\left[\\frac{1}{t}e^{-3t}\\sin 2t\\right]&amp;=F(s)=\\int_{s}^{+\\infty}\\frac{2}{\\left(s+3\\right)^{2}+4}ds=\\frac{\\pi}{2}\\arctan\\frac{s+3}{2}=\\operatorname{arccot}\\frac{s+3}{2}\\, ,\\\\ \\text{得}F(s)&amp;=\\frac{1}{s}\\operatorname{arccot}\\frac{s+3}{2}.\\end{aligned}</div>"
     },
     {
       "id": "q0026",
       "number": 26,
       "header": "#26-Easy",
       "difficulty": "Easy",
-      "prompt_html": "<img src=\"/static/generated/assets/complex-analysis/ch004/q0026_prompt.png\"/>",
+      "prompt_html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{设}f(t)=(t-1)^{2}e^{t},\\text{则}\\mathcal{L}\\left[f(t)\\right]=(\\ \\ ).\">\\text{设}f(t)=(t-1)^{2}e^{t},\\text{则}\\mathcal{L}\\left[f(t)\\right]=(\\ \\ ).</span>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/complex-analysis/ch004/q0026_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\frac { s ^ { 2 } - 4 s + 5 } { ( s - 1 ) ^ { 3 } }\">\\frac { s ^ { 2 } - 4 s + 5 } { ( s - 1 ) ^ { 3 } }</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/complex-analysis/ch004/q0026_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\frac { s ^ { 2 } - 4 s + 5 } { ( s - 1 ) ^ { 2 } }\">\\frac { s ^ { 2 } - 4 s + 5 } { ( s - 1 ) ^ { 2 } }</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/complex-analysis/ch004/q0026_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\frac { s ^ { 2 } - 4 s + 5 } { s - 1 }\">\\frac { s ^ { 2 } - 4 s + 5 } { s - 1 }</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/complex-analysis/ch004/q0026_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"s^{2}-4s+5\\leftarrow\">s^{2}-4s+5\\leftarrow</span>"
         }
       ],
       "answer": "A",
       "answer_index": 0,
-      "analysis_html": "<img src=\"/static/generated/assets/complex-analysis/ch004/q0026_analysis.png\"/>"
+      "analysis_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{aligned}F(s) &amp; = \\mathcal{L}\\left[t^2e^t\\right] - 2\\,\\mathcal{L}\\left[\\boldsymbol{w}^t\\right] + \\mathcal{L}\\left[e^t\\right]^{\\omega} \\\\&amp; = (-1)^2 \\left(\\frac{1}{s-1}\\right)^{\\omega} - 2(-1)\\left(\\frac{1}{s-1}\\right)^{\\omega} + \\frac{1}{s-1}{}_{\\omega} \\\\&amp; = \\frac{2}{\\left(s-1\\right)^3} - \\frac{2}{\\left(s-1\\right)^2} + \\frac{1}{s-1} = \\frac{s^2-4s+5}{(s-1)^3} \\cdot {}_{s-1}^{\\omega}\\end{aligned}\">\\begin{aligned}F(s) &amp; = \\mathcal{L}\\left[t^2e^t\\right] - 2\\,\\mathcal{L}\\left[\\boldsymbol{w}^t\\right] + \\mathcal{L}\\left[e^t\\right]^{\\omega} \\\\&amp; = (-1)^2 \\left(\\frac{1}{s-1}\\right)^{\\omega} - 2(-1)\\left(\\frac{1}{s-1}\\right)^{\\omega} + \\frac{1}{s-1}{}_{\\omega} \\\\&amp; = \\frac{2}{\\left(s-1\\right)^3} - \\frac{2}{\\left(s-1\\right)^2} + \\frac{1}{s-1} = \\frac{s^2-4s+5}{(s-1)^3} \\cdot {}_{s-1}^{\\omega}\\end{aligned}</div>"
     }
-  ]
+  ],
+  "format": "latex",
+  "source_md": "fb_(1)/Laplace变换的定义及性质(26题)/Laplace变换的定义及性质(26题).md"
 }

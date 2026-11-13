@@ -13,756 +13,758 @@
       "number": 1,
       "header": "#1-Averge",
       "difficulty": "Averge",
-      "prompt_html": "<img src=\"/static/generated/assets/advanced-math/ch041/q0001_prompt.png\"/>",
+      "prompt_html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{极限} \\lim_{x \\rightarrow 0} \\frac{1-x^{2}-e^{-x^{2}}}{x\\sin^{3}{2x}}= \\left[ \\quad \\right].\">\\text{极限} \\lim_{x \\rightarrow 0} \\frac{1-x^{2}-e^{-x^{2}}}{x\\sin^{3}{2x}}= \\left[ \\quad \\right].</span>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch041/q0001_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\frac { 1 } { 2 } \\, ;\">\\frac { 1 } { 2 } \\, ;</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch041/q0001_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"- { \\frac { 1 } { 16 } } \\, ;\">- { \\frac { 1 } { 16 } } \\, ;</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch041/q0001_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"- \\frac { 1 } { 8 } .\">- \\frac { 1 } { 8 } .</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch041/q0001_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\texttt{0 :}\">\\texttt{0 :}</span>"
         }
       ],
       "answer": "B",
       "answer_index": 1,
-      "analysis_html": "<img src=\"/static/generated/assets/advanced-math/ch041/q0001_analysis.png\"/>"
+      "analysis_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{aligned}&amp;\\lim_{x \\rightarrow 0} \\frac{1-x^2-e^{-x^2}}{x \\sin^32x} = \\lim_{x \\rightarrow 0} \\frac{1-x^2-e^{-x^2}}{8x^4} \\\\&amp;= \\lim_{x \\rightarrow 0} \\frac{1-x^2-\\left(1-x^2+\\frac{x^4}{2}+o(x^4)\\right)}{8x^4} = \\lim_{x \\rightarrow 0} \\frac{-\\frac{x^4}{2}+o(x^4)}{8x^4} = -\\frac{1}{16}.\\end{aligned}\">\\begin{aligned}&amp;\\lim_{x \\rightarrow 0} \\frac{1-x^2-e^{-x^2}}{x \\sin^32x} = \\lim_{x \\rightarrow 0} \\frac{1-x^2-e^{-x^2}}{8x^4} \\\\&amp;= \\lim_{x \\rightarrow 0} \\frac{1-x^2-\\left(1-x^2+\\frac{x^4}{2}+o(x^4)\\right)}{8x^4} = \\lim_{x \\rightarrow 0} \\frac{-\\frac{x^4}{2}+o(x^4)}{8x^4} = -\\frac{1}{16}.\\end{aligned}</div>"
     },
     {
       "id": "q0002",
       "number": 2,
       "header": "#2-Averge",
       "difficulty": "Averge",
-      "prompt_html": "<img src=\"/static/generated/assets/advanced-math/ch041/q0002_prompt.png\"/>",
+      "prompt_html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{应用二阶 Taylor 公式求} \\sqrt[3]{30} \\text{的近似值为} \\ \\left[ \\quad \\right].\">\\text{应用二阶 Taylor 公式求} \\sqrt[3]{30} \\text{的近似值为} \\ \\left[ \\quad \\right].</span>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch041/q0002_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"3.407.\">3.407.</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch041/q0002_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"3.307 ;\">3.307 ;</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch041/q0002_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"3.207;\">3.207;</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch041/q0002_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"3.107;\">3.107;</span>"
         }
       ],
       "answer": "D",
       "answer_index": 3,
-      "analysis_html": "<img src=\"/static/generated/assets/advanced-math/ch041/q0002_analysis.png\"/>"
+      "analysis_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{aligned}&amp;\\sqrt[3]{30}=\\left(27+3\\right)^{\\frac{1}{3}}=3\\left(1+\\frac{1}{9}\\right)^{\\frac{1}{3}},\\ \\text{设}\\ f(x)=(1+x)^{\\frac{1}{3}},\\ \\text{于是}\\ f(0)=1,\\ \\ f&#x27;(0)=\\frac{1}{3},\\\\&amp;f^{\\ast}(0)=-\\frac{2}{9},\\ \\text{因此}\\sqrt[3]{30}\\approx3\\left(1+\\frac{1}{3}\\frac{1}{9}-\\frac{1}{9}\\left(\\frac{1}{9}\\right)^{2}\\right)\\approx3.107.\\end{aligned}\">\\begin{aligned}&amp;\\sqrt[3]{30}=\\left(27+3\\right)^{\\frac{1}{3}}=3\\left(1+\\frac{1}{9}\\right)^{\\frac{1}{3}},\\ \\text{设}\\ f(x)=(1+x)^{\\frac{1}{3}},\\ \\text{于是}\\ f(0)=1,\\ \\ f&#x27;(0)=\\frac{1}{3},\\\\&amp;f^{\\ast}(0)=-\\frac{2}{9},\\ \\text{因此}\\sqrt[3]{30}\\approx3\\left(1+\\frac{1}{3}\\frac{1}{9}-\\frac{1}{9}\\left(\\frac{1}{9}\\right)^{2}\\right)\\approx3.107.\\end{aligned}</div>"
     },
     {
       "id": "q0003",
       "number": 3,
       "header": "#3-Averge",
       "difficulty": "Averge",
-      "prompt_html": "<img src=\"/static/generated/assets/advanced-math/ch041/q0003_prompt.png\"/>",
+      "prompt_html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{当} x \\to 0 \\text{时} f(x) = x - (a + b \\cos x) \\sin x \\text{是关于} x \\text{的} 5 \\text{阶无穷小，则} a, b \\text{为} [ \\quad].\">\\text{当} x \\to 0 \\text{时} f(x) = x - (a + b \\cos x) \\sin x \\text{是关于} x \\text{的} 5 \\text{阶无穷小，则} a, b \\text{为} [ \\quad].</span>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch041/q0003_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\displaystyle a = - \\frac { 4 } { 3 } , \\, b = - \\frac { 1 } { 3 } \\, .\">\\displaystyle a = - \\frac { 4 } { 3 } , \\, b = - \\frac { 1 } { 3 } \\, .</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch041/q0003_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\displaystyle a = - \\frac { 4 } { 3 } , \\, b = \\frac { 1 } { 3 } \\, ;\">\\displaystyle a = - \\frac { 4 } { 3 } , \\, b = \\frac { 1 } { 3 } \\, ;</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch041/q0003_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\frac { 4 } { 3 } , \\; b = \\frac { 1 } { 3 } \\, ;\">\\frac { 4 } { 3 } , \\; b = \\frac { 1 } { 3 } \\, ;</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch041/q0003_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\frac { 4 } { 3 } , \\; b = - \\frac { 1 } { 3 } ;\">\\frac { 4 } { 3 } , \\; b = - \\frac { 1 } { 3 } ;</span>"
         }
       ],
       "answer": "D",
       "answer_index": 3,
-      "analysis_html": "<img src=\"/static/generated/assets/advanced-math/ch041/q0003_analysis.png\"/>"
+      "analysis_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{aligned}&amp;f(x)=x-a\\sin x-\\frac{b}{2}\\sin 2x\\\\&amp;=x-a\\left(x-\\frac{x^3}{3!}+\\frac{x^5}{5!}+o(x^5)\\right)-\\frac{b}{2}\\left(2x-\\frac{(2x)^3}{3!}+\\frac{(2x)^5}{5!}+o(x^5)\\right)\\\\&amp;=(1-a-b)x+\\left(\\frac{a}{6}+\\frac{2b}{3}\\right)x^3-\\left(\\frac{a}{120}+\\frac{2b}{15}\\right)x^5+o(x^5).\\end{aligned}\">\\begin{aligned}&amp;f(x)=x-a\\sin x-\\frac{b}{2}\\sin 2x\\\\&amp;=x-a\\left(x-\\frac{x^3}{3!}+\\frac{x^5}{5!}+o(x^5)\\right)-\\frac{b}{2}\\left(2x-\\frac{(2x)^3}{3!}+\\frac{(2x)^5}{5!}+o(x^5)\\right)\\\\&amp;=(1-a-b)x+\\left(\\frac{a}{6}+\\frac{2b}{3}\\right)x^3-\\left(\\frac{a}{120}+\\frac{2b}{15}\\right)x^5+o(x^5).\\end{aligned}</div>"
     },
     {
       "id": "q0004",
       "number": 4,
       "header": "#4-Averge",
       "difficulty": "Averge",
-      "prompt_html": "<img src=\"/static/generated/assets/advanced-math/ch041/q0004_prompt.png\"/>",
+      "prompt_html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{极限} \\lim_{x \\to \\infty } \\left( x - x ^ { 2 } \\ln \\left( 1 + \\frac { 1 } { x } \\right) \\right) = \\quad [ \\quad \\quad ] .\">\\text{极限} \\lim_{x \\to \\infty } \\left( x - x ^ { 2 } \\ln \\left( 1 + \\frac { 1 } { x } \\right) \\right) = \\quad [ \\quad \\quad ] .</span>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch041/q0004_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\boldsymbol{2}.\">\\boldsymbol{2}.</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch041/q0004_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\frac{1}{3}\\,;\">\\frac{1}{3}\\,;</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch041/q0004_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\frac { 1 } { 2 } \\, ;\">\\frac { 1 } { 2 } \\, ;</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch041/q0004_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\mathbf { 1 } ;\">\\mathbf { 1 } ;</span>"
         }
       ],
       "answer": "C",
       "answer_index": 2,
-      "analysis_html": "<img src=\"/static/generated/assets/advanced-math/ch041/q0004_analysis.png\"/>"
+      "analysis_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{array}{l} \\lim\\limits_{x \\rightarrow \\infty} \\left(x - x^{2} \\ln \\left( 1 + \\dfrac{1}{x} \\right) \\right) \\\\ = \\lim\\limits_{x \\rightarrow \\infty} \\left(x - x^{2} \\left( \\dfrac{1}{x} - \\dfrac{1}{2} \\dfrac{1}{x^{2}} + o \\left( \\dfrac{1}{x^{2}} \\right) \\right) \\right) \\\\ = \\lim\\limits_{x \\rightarrow \\infty} \\left( \\dfrac{1}{2} - x^{2} o \\left( \\dfrac{1}{x^{2}} \\right) \\right) = \\dfrac{1}{2}. \\end{array}\">\\begin{array}{l} \\lim\\limits_{x \\rightarrow \\infty} \\left(x - x^{2} \\ln \\left( 1 + \\dfrac{1}{x} \\right) \\right) \\\\ = \\lim\\limits_{x \\rightarrow \\infty} \\left(x - x^{2} \\left( \\dfrac{1}{x} - \\dfrac{1}{2} \\dfrac{1}{x^{2}} + o \\left( \\dfrac{1}{x^{2}} \\right) \\right) \\right) \\\\ = \\lim\\limits_{x \\rightarrow \\infty} \\left( \\dfrac{1}{2} - x^{2} o \\left( \\dfrac{1}{x^{2}} \\right) \\right) = \\dfrac{1}{2}. \\end{array}</div>"
     },
     {
       "id": "q0005",
       "number": 5,
       "header": "#5-Averge",
       "difficulty": "Averge",
-      "prompt_html": "<img src=\"/static/generated/assets/advanced-math/ch041/q0005_prompt.png\"/>",
+      "prompt_html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{利用3阶Maclaurin公式求} \\ln 1 . 2 \\approx [ \\quad ].\">\\text{利用3阶Maclaurin公式求} \\ln 1 . 2 \\approx [ \\quad ].</span>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch041/q0005_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"0.1287 \\, .\">0.1287 \\, .</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch041/q0005_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"0.1782 \\, ;\">0.1782 \\, ;</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch041/q0005_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\mathbf { 0 . 1827 } \\, ;\">\\mathbf { 0 . 1827 } \\, ;</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch041/q0005_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\mathbf { 0 . 1278 } ;\">\\mathbf { 0 . 1278 } ;</span>"
         }
       ],
       "answer": "C",
       "answer_index": 2,
-      "analysis_html": "<img src=\"/static/generated/assets/advanced-math/ch041/q0005_analysis.png\"/>"
+      "analysis_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{aligned} \\text{设}f(x)=\\ln(1+x)\\ ,\\ \\text{则}f(0)=0,f&#x27;(0)=1,f&#x27;&#x27;(0)=-1,f&#x27;&#x27;&#x27;(0)=2\\ ,\\ \\text{故} \\\\ \\ln(1+x)\\approx x-\\frac{x^{2}}{2}+\\frac{x^{3}}{3}\\ ,\\ \\ln 1.2=\\ln(1+0.2)\\approx 0.1827.\\end{aligned}\">\\begin{aligned} \\text{设}f(x)=\\ln(1+x)\\ ,\\ \\text{则}f(0)=0,f&#x27;(0)=1,f&#x27;&#x27;(0)=-1,f&#x27;&#x27;&#x27;(0)=2\\ ,\\ \\text{故} \\\\ \\ln(1+x)\\approx x-\\frac{x^{2}}{2}+\\frac{x^{3}}{3}\\ ,\\ \\ln 1.2=\\ln(1+0.2)\\approx 0.1827.\\end{aligned}</div>"
     },
     {
       "id": "q0006",
       "number": 6,
       "header": "#6-Averge",
       "difficulty": "Averge",
-      "prompt_html": "<img src=\"/static/generated/assets/advanced-math/ch041/q0006_prompt.png\"/>",
+      "prompt_html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{设}x&gt;0, \\text{则}x- \\frac{x^{2}}{2} \\text{与} \\ln(1+x) \\text{的大小关系为}[ \\quad].\">\\text{设}x&gt;0, \\text{则}x- \\frac{x^{2}}{2} \\text{与} \\ln(1+x) \\text{的大小关系为}[ \\quad].</span>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch041/q0006_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\displaystyle x - \\frac { x ^ { 2 } } { 2 } &lt; \\ln ( 1 + x ) \\, ;\">\\displaystyle x - \\frac { x ^ { 2 } } { 2 } &lt; \\ln ( 1 + x ) \\, ;</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch041/q0006_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{无法判断}.\">\\text{无法判断}.</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch041/q0006_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\displaystyle x - \\frac { x ^ { 2 } } { 2 } &gt; \\ln ( 1 + x ) \\; ;\">\\displaystyle x - \\frac { x ^ { 2 } } { 2 } &gt; \\ln ( 1 + x ) \\; ;</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch041/q0006_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\displaystyle x - \\frac { x ^ { 2 } } { 2 } = \\ln ( 1 + x ) \\; ;\">\\displaystyle x - \\frac { x ^ { 2 } } { 2 } = \\ln ( 1 + x ) \\; ;</span>"
         }
       ],
       "answer": "A",
       "answer_index": 0,
-      "analysis_html": "<img src=\"/static/generated/assets/advanced-math/ch041/q0006_analysis.png\"/>"
+      "analysis_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{aligned}&amp;\\text{用 Taylor 公式} \\ln(1+x)=x-\\frac{x^{2}}{2}+\\frac{x^{3}}{3(1+\\xi)^{3}}\\,\\,(0&lt;\\xi&lt;x),\\,\\text{因为}x&gt;0,\\,\\text{所以}\\\\&amp;\\frac{x^{3}}{3(1+\\xi)^{3}}&gt;0,\\,\\,\\text{故}x-\\frac{x^{2}}{2}&lt;\\ln(1+x)\\,.\\,\\,\\text{也可以用单调性, 设}g(x)=\\ln(1+x)-x+\\frac{x^{2}}{2},\\\\&amp;\\text{由 }g^{\\prime}(x)=\\frac{x^{2}}{1+x}\\,\\,\\,\\,\\text{可知 }x&gt;0\\,\\,\\,\\text{时 }g(x)\\,\\,\\,\\text{严格单调增加，故}\\\\&amp;g(x)=\\ln(1+x)-x+\\frac{x^{2}}{2}&gt;g(0)=0\\,.\\end{aligned}\">\\begin{aligned}&amp;\\text{用 Taylor 公式} \\ln(1+x)=x-\\frac{x^{2}}{2}+\\frac{x^{3}}{3(1+\\xi)^{3}}\\,\\,(0&lt;\\xi&lt;x),\\,\\text{因为}x&gt;0,\\,\\text{所以}\\\\&amp;\\frac{x^{3}}{3(1+\\xi)^{3}}&gt;0,\\,\\,\\text{故}x-\\frac{x^{2}}{2}&lt;\\ln(1+x)\\,.\\,\\,\\text{也可以用单调性, 设}g(x)=\\ln(1+x)-x+\\frac{x^{2}}{2},\\\\&amp;\\text{由 }g^{\\prime}(x)=\\frac{x^{2}}{1+x}\\,\\,\\,\\,\\text{可知 }x&gt;0\\,\\,\\,\\text{时 }g(x)\\,\\,\\,\\text{严格单调增加，故}\\\\&amp;g(x)=\\ln(1+x)-x+\\frac{x^{2}}{2}&gt;g(0)=0\\,.\\end{aligned}</div>"
     },
     {
       "id": "q0007",
       "number": 7,
       "header": "#7-Averge",
       "difficulty": "Averge",
-      "prompt_html": "<img src=\"/static/generated/assets/advanced-math/ch041/q0007_prompt.png\"/>",
+      "prompt_html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{极限} \\lim_{x \\rightarrow 0} \\frac{1 + \\frac{1}{2} x^{2} - \\sqrt{1 + x^{2}}}{\\left( \\cos x - e^{x^{2}} \\right) \\sin x^{2}} = \\quad [ \\quad \\quad ] .\">\\text{极限} \\lim_{x \\rightarrow 0} \\frac{1 + \\frac{1}{2} x^{2} - \\sqrt{1 + x^{2}}}{\\left( \\cos x - e^{x^{2}} \\right) \\sin x^{2}} = \\quad [ \\quad \\quad ] .</span>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch041/q0007_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\frac{1}{2}.\">\\frac{1}{2}.</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch041/q0007_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"- \\frac { 1 } { 12 } \\, ;\">- \\frac { 1 } { 12 } \\, ;</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch041/q0007_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\frac { 1 } { 12 } \\, ;\">\\frac { 1 } { 12 } \\, ;</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch041/q0007_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"- \\frac { 1 } { 2 } \\, ;\">- \\frac { 1 } { 2 } \\, ;</span>"
         }
       ],
       "answer": "B",
       "answer_index": 1,
-      "analysis_html": "<img src=\"/static/generated/assets/advanced-math/ch041/q0007_analysis.png\"/>"
+      "analysis_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{aligned}&amp;\\lim_{x \\rightarrow 0} \\frac{1+\\frac{1}{2}x^2-\\sqrt{1+x^2}}{\\left(\\cos x-e^{x^2}\\right)\\sin x^2}\\\\&amp;=\\lim_{x \\rightarrow 0} \\frac{1+\\frac{1}{2}x^2-\\left(1+\\frac{1}{2}x^2-\\frac{x^4}{8}+o(x^4)\\right)}{\\left[\\left(1-\\frac{x^2}{2!}+\\frac{x^4}{4!}+o(x^4)\\right)-\\left(1+x^2+\\frac{x^4}{2!}+o(x^4)\\right)\\right]x^2}\\\\&amp;=\\lim_{x \\rightarrow 0} \\frac{\\frac{x^4}{8}+o(x^4)}{-\\frac{3}{2}x^4+o(x^4)}=-\\frac{1}{12}.\\end{aligned}\">\\begin{aligned}&amp;\\lim_{x \\rightarrow 0} \\frac{1+\\frac{1}{2}x^2-\\sqrt{1+x^2}}{\\left(\\cos x-e^{x^2}\\right)\\sin x^2}\\\\&amp;=\\lim_{x \\rightarrow 0} \\frac{1+\\frac{1}{2}x^2-\\left(1+\\frac{1}{2}x^2-\\frac{x^4}{8}+o(x^4)\\right)}{\\left[\\left(1-\\frac{x^2}{2!}+\\frac{x^4}{4!}+o(x^4)\\right)-\\left(1+x^2+\\frac{x^4}{2!}+o(x^4)\\right)\\right]x^2}\\\\&amp;=\\lim_{x \\rightarrow 0} \\frac{\\frac{x^4}{8}+o(x^4)}{-\\frac{3}{2}x^4+o(x^4)}=-\\frac{1}{12}.\\end{aligned}</div>"
     },
     {
       "id": "q0008",
       "number": 8,
       "header": "#8-Averge",
       "difficulty": "Averge",
-      "prompt_html": "<img src=\"/static/generated/assets/advanced-math/ch041/q0008_prompt.png\"/>",
+      "prompt_html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{极限} \\lim_{x \\rightarrow 0} \\frac{ \\cos x - e^{- \\frac{x^{2}}{2}}}{\\left[ x + \\ln(1-x) \\right](1- \\cos x)} = \\quad[ \\quad].\">\\text{极限} \\lim_{x \\rightarrow 0} \\frac{ \\cos x - e^{- \\frac{x^{2}}{2}}}{\\left[ x + \\ln(1-x) \\right](1- \\cos x)} = \\quad[ \\quad].</span>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch041/q0008_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\boldsymbol{1}.\">\\boldsymbol{1}.</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch041/q0008_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\frac{1}{3}\\,;\">\\frac{1}{3}\\,;</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch041/q0008_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\frac { 1 } { 2 } \\, ;\">\\frac { 1 } { 2 } \\, ;</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch041/q0008_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\frac{1}{6}\\,;\">\\frac{1}{6}\\,;</span>"
         }
       ],
       "answer": "B",
       "answer_index": 1,
-      "analysis_html": "<img src=\"/static/generated/assets/advanced-math/ch041/q0008_analysis.png\"/>"
+      "analysis_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{aligned}&amp;\\lim_{x \\rightarrow 0} \\frac{\\cos x - e^{-\\frac{x^2}{2}}}{[x + \\ln(1-x)] \\ln^2(1+x)} \\\\&amp;= \\lim_{x \\rightarrow 0} \\frac{\\left(1-\\frac{x^2}{2}+\\frac{x^4}{24}+o(x^4)\\right)-\\left(1-\\frac{x^2}{2}+\\frac{x^4}{8}+o(x^4)\\right)}{\\left[x+\\left(-x-\\frac{x^2}{2}+o(x^4)\\right)\\right]\\frac{x^2}{2}} \\\\&amp;= 2 \\lim_{x \\rightarrow 0} \\frac{-\\frac{x^4}{12}+o(x^4)}{-\\frac{x^4}{2}+o(x^6)} = \\frac{1}{3}.\\end{aligned}\">\\begin{aligned}&amp;\\lim_{x \\rightarrow 0} \\frac{\\cos x - e^{-\\frac{x^2}{2}}}{[x + \\ln(1-x)] \\ln^2(1+x)} \\\\&amp;= \\lim_{x \\rightarrow 0} \\frac{\\left(1-\\frac{x^2}{2}+\\frac{x^4}{24}+o(x^4)\\right)-\\left(1-\\frac{x^2}{2}+\\frac{x^4}{8}+o(x^4)\\right)}{\\left[x+\\left(-x-\\frac{x^2}{2}+o(x^4)\\right)\\right]\\frac{x^2}{2}} \\\\&amp;= 2 \\lim_{x \\rightarrow 0} \\frac{-\\frac{x^4}{12}+o(x^4)}{-\\frac{x^4}{2}+o(x^6)} = \\frac{1}{3}.\\end{aligned}</div>"
     },
     {
       "id": "q0009",
       "number": 9,
       "header": "#9-Averge",
       "difficulty": "Averge",
-      "prompt_html": "<img src=\"/static/generated/assets/advanced-math/ch041/q0009_prompt.png\"/>",
+      "prompt_html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{按} e^{x} \\approx 1 + x + \\frac{x^{2}}{2} + \\frac{x^{3}}{6} \\text{求} \\sqrt{e} \\text{的近似值为} \\ \\ [ \\ \\ \\ \\ ] .\">\\text{按} e^{x} \\approx 1 + x + \\frac{x^{2}}{2} + \\frac{x^{3}}{6} \\text{求} \\sqrt{e} \\text{的近似值为} \\ \\ [ \\ \\ \\ \\ ] .</span>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch041/q0009_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{1.645, 误差小于 } 0.001;\">\\text{1.645, 误差小于 } 0.001;</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch041/q0009_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{1.645, 误差小于 } 0.01;\">\\text{1.645, 误差小于 } 0.01;</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch041/q0009_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"1 . 845 , \\text { 误差小于 } 0 . 01 ;\">1 . 845 , \\text { 误差小于 } 0 . 01 ;</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch041/q0009_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"1 . 845 , \\text { 误差小于 } 0 . 001 .\">1 . 845 , \\text { 误差小于 } 0 . 001 .</span>"
         }
       ],
       "answer": "B",
       "answer_index": 1,
-      "analysis_html": "<img src=\"/static/generated/assets/advanced-math/ch041/q0009_analysis.png\"/>"
+      "analysis_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{aligned}&amp;\\sqrt{e}\\approx 1+\\frac{1}{2}+\\frac{1}{2}\\left(\\frac{1}{2}\\right)^{2}+\\frac{1}{6}\\left(\\frac{1}{2}\\right)^{3}\\approx 1.645\\,,\\\\&amp;\\text{误差}\\frac{e^{s}}{4!}\\left(\\frac{1}{2}\\right)^{4}\\leq \\frac{\\sqrt{3}}{4!}\\left(\\frac{1}{2}\\right)^{4}\\approx 0.0045&lt;0.01\\,,\\text{其中}0&lt;\\xi&lt;\\frac{1}{2}\\,.\\\\&amp;\\text{但是}\\frac{e^{s}}{4!}\\left(\\frac{1}{2}\\right)^{4}\\geq \\frac{1}{4!}\\left(\\frac{1}{2}\\right)^{4}\\approx 0.0026&gt;0.001\\,.\\end{aligned}\">\\begin{aligned}&amp;\\sqrt{e}\\approx 1+\\frac{1}{2}+\\frac{1}{2}\\left(\\frac{1}{2}\\right)^{2}+\\frac{1}{6}\\left(\\frac{1}{2}\\right)^{3}\\approx 1.645\\,,\\\\&amp;\\text{误差}\\frac{e^{s}}{4!}\\left(\\frac{1}{2}\\right)^{4}\\leq \\frac{\\sqrt{3}}{4!}\\left(\\frac{1}{2}\\right)^{4}\\approx 0.0045&lt;0.01\\,,\\text{其中}0&lt;\\xi&lt;\\frac{1}{2}\\,.\\\\&amp;\\text{但是}\\frac{e^{s}}{4!}\\left(\\frac{1}{2}\\right)^{4}\\geq \\frac{1}{4!}\\left(\\frac{1}{2}\\right)^{4}\\approx 0.0026&gt;0.001\\,.\\end{aligned}</div>"
     },
     {
       "id": "q0010",
       "number": 10,
       "header": "#10-Averge",
       "difficulty": "Averge",
-      "prompt_html": "<img src=\"/static/generated/assets/advanced-math/ch041/q0010_prompt.png\"/>",
+      "prompt_html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{极限} \\lim_{x \\rightarrow +\\infty} \\left( \\sqrt[3]{x^{3}+3x^{2}}-\\sqrt[4]{x^{4}-2x^{3}} \\right)=\\quad[ \\quad ].\">\\text{极限} \\lim_{x \\rightarrow +\\infty} \\left( \\sqrt[3]{x^{3}+3x^{2}}-\\sqrt[4]{x^{4}-2x^{3}} \\right)=\\quad[ \\quad ].</span>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch041/q0010_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\frac { 3 } { 2 } \\, ;\">\\frac { 3 } { 2 } \\, ;</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch041/q0010_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\frac{1}{3}.\">\\frac{1}{3}.</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch041/q0010_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\frac{1}{2}\\,;\">\\frac{1}{2}\\,;</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch041/q0010_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\frac{2}{3}\\,;\">\\frac{2}{3}\\,;</span>"
         }
       ],
       "answer": "A",
       "answer_index": 0,
-      "analysis_html": "<img src=\"/static/generated/assets/advanced-math/ch041/q0010_analysis.png\"/>"
+      "analysis_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{aligned}&amp;\\sqrt[3]{x^3+3x^2}-\\sqrt[3]{x^4-2x^3}=x\\left[\\left(1+\\frac{3}{x}\\right)^{\\frac{1}{3}}-\\left(1-\\frac{2}{x}\\right)^{\\frac{1}{4}}\\right],\\ \\text{设}x=\\frac{1}{t},\\ \\text{于是}\\\\&amp;\\lim_{x\\rightarrow +\\infty}\\left(\\sqrt[3]{x^3+3x^2}-\\sqrt[3]{x^4-2x^3}\\right)=\\lim_{t\\rightarrow 0^+}\\frac{1}{t}\\left[\\left(1+3t\\right)^{\\frac{1}{3}}-\\left(1-2t\\right)^{\\frac{1}{4}}\\right]\\\\&amp;=\\lim_{t\\rightarrow 0^+}\\frac{1}{t}\\left[\\left(1+t+o(t)\\right)-\\left(1-\\frac{t}{2}+o(t)\\right)\\right]=\\frac{3}{2}.\\end{aligned}\">\\begin{aligned}&amp;\\sqrt[3]{x^3+3x^2}-\\sqrt[3]{x^4-2x^3}=x\\left[\\left(1+\\frac{3}{x}\\right)^{\\frac{1}{3}}-\\left(1-\\frac{2}{x}\\right)^{\\frac{1}{4}}\\right],\\ \\text{设}x=\\frac{1}{t},\\ \\text{于是}\\\\&amp;\\lim_{x\\rightarrow +\\infty}\\left(\\sqrt[3]{x^3+3x^2}-\\sqrt[3]{x^4-2x^3}\\right)=\\lim_{t\\rightarrow 0^+}\\frac{1}{t}\\left[\\left(1+3t\\right)^{\\frac{1}{3}}-\\left(1-2t\\right)^{\\frac{1}{4}}\\right]\\\\&amp;=\\lim_{t\\rightarrow 0^+}\\frac{1}{t}\\left[\\left(1+t+o(t)\\right)-\\left(1-\\frac{t}{2}+o(t)\\right)\\right]=\\frac{3}{2}.\\end{aligned}</div>"
     },
     {
       "id": "q0011",
       "number": 11,
       "header": "#11-Averge",
       "difficulty": "Averge",
-      "prompt_html": "<img src=\"/static/generated/assets/advanced-math/ch041/q0011_prompt.png\"/>",
+      "prompt_html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{极限} \\lim_{x \\to 0} \\frac{ \\cos x - e^{- \\frac{x^{2}}{2}}}{\\left[ x + \\ln(1-x) \\right] \\ln^{2}(1+x)} = \\quad[ \\quad].\">\\text{极限} \\lim_{x \\to 0} \\frac{ \\cos x - e^{- \\frac{x^{2}}{2}}}{\\left[ x + \\ln(1-x) \\right] \\ln^{2}(1+x)} = \\quad[ \\quad].</span>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch041/q0011_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\frac { 1 } { 2 } \\, ;\">\\frac { 1 } { 2 } \\, ;</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch041/q0011_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\mathbf{1}.\">\\mathbf{1}.</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch041/q0011_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\frac { 1 } { 6 } ;\">\\frac { 1 } { 6 } ;</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch041/q0011_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\frac { 1 } { 3 } \\, ;\">\\frac { 1 } { 3 } \\, ;</span>"
         }
       ],
       "answer": "C",
       "answer_index": 2,
-      "analysis_html": "<img src=\"/static/generated/assets/advanced-math/ch041/q0011_analysis.png\"/>"
+      "analysis_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{aligned}&amp;\\lim_{x \\rightarrow 0} \\frac{\\cos x - e^{-\\frac{x^2}{2}}}{\\left[x + \\ln(1-x)\\right] \\ln^2(1+x)} \\\\&amp;= \\lim_{x \\rightarrow 0} \\frac{\\left(1-\\frac{x^2}{2}+\\frac{x^4}{24}+o(x^4)\\right)-\\left(1-\\frac{x^2}{2}+\\frac{x^4}{8}+o(x^4)\\right)}{\\left[x+\\left(-x-\\frac{x^2}{2}+o(x^4)\\right)\\right]x^2} \\\\&amp;= \\lim_{x \\rightarrow 0} \\frac{-\\frac{x^4}{12}+o(x^4)}{-\\frac{x^4}{2}+o(x^6)} = \\frac{1}{6}.\\end{aligned}\">\\begin{aligned}&amp;\\lim_{x \\rightarrow 0} \\frac{\\cos x - e^{-\\frac{x^2}{2}}}{\\left[x + \\ln(1-x)\\right] \\ln^2(1+x)} \\\\&amp;= \\lim_{x \\rightarrow 0} \\frac{\\left(1-\\frac{x^2}{2}+\\frac{x^4}{24}+o(x^4)\\right)-\\left(1-\\frac{x^2}{2}+\\frac{x^4}{8}+o(x^4)\\right)}{\\left[x+\\left(-x-\\frac{x^2}{2}+o(x^4)\\right)\\right]x^2} \\\\&amp;= \\lim_{x \\rightarrow 0} \\frac{-\\frac{x^4}{12}+o(x^4)}{-\\frac{x^4}{2}+o(x^6)} = \\frac{1}{6}.\\end{aligned}</div>"
     },
     {
       "id": "q0012",
       "number": 12,
       "header": "#12-Averge",
       "difficulty": "Averge",
-      "prompt_html": "<img src=\"/static/generated/assets/advanced-math/ch041/q0012_prompt.png\"/>",
+      "prompt_html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{极限} \\lim_{x \\rightarrow 0} \\frac{ \\cos x - e^{-\\frac{x^{2}}{2}}}{x^{2}\\left[x+\\ln(1-x)\\right]} = \\quad[ \\quad].\">\\text{极限} \\lim_{x \\rightarrow 0} \\frac{ \\cos x - e^{-\\frac{x^{2}}{2}}}{x^{2}\\left[x+\\ln(1-x)\\right]} = \\quad[ \\quad].</span>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch041/q0012_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\frac{1}{3}\\,;\">\\frac{1}{3}\\,;</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch041/q0012_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\mathbf { 1 } .\">\\mathbf { 1 } .</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch041/q0012_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\frac { 1 } { 2 } \\, ;\">\\frac { 1 } { 2 } \\, ;</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch041/q0012_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\frac { 1 } { 6 } ;\">\\frac { 1 } { 6 } ;</span>"
         }
       ],
       "answer": "D",
       "answer_index": 3,
-      "analysis_html": "<img src=\"/static/generated/assets/advanced-math/ch041/q0012_analysis.png\"/>"
+      "analysis_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{aligned}&amp;\\lim_{x\\rightarrow 0}\\frac{\\cos x-e^{-\\frac{x^2}{2}}}{x^2\\left[x+\\ln(1-x)\\right]}\\\\&amp;=\\lim_{x\\rightarrow 0}\\frac{\\left(1-\\frac{x^2}{2}+\\frac{x^4}{24}+o(x^4)\\right)-\\left(1-\\frac{x^2}{2}+\\frac{x^4}{8}+o(x^4)\\right)}{x^2\\left[x+\\left(-x-\\frac{x^2}{2}+o(x^4)\\right)\\right]}\\\\&amp;=\\lim_{x\\rightarrow 0}\\frac{-\\frac{x^4}{12}+o(x^4)}{-\\frac{x^4}{2}+o(x^6)}=\\frac{1}{6}.\\end{aligned}\">\\begin{aligned}&amp;\\lim_{x\\rightarrow 0}\\frac{\\cos x-e^{-\\frac{x^2}{2}}}{x^2\\left[x+\\ln(1-x)\\right]}\\\\&amp;=\\lim_{x\\rightarrow 0}\\frac{\\left(1-\\frac{x^2}{2}+\\frac{x^4}{24}+o(x^4)\\right)-\\left(1-\\frac{x^2}{2}+\\frac{x^4}{8}+o(x^4)\\right)}{x^2\\left[x+\\left(-x-\\frac{x^2}{2}+o(x^4)\\right)\\right]}\\\\&amp;=\\lim_{x\\rightarrow 0}\\frac{-\\frac{x^4}{12}+o(x^4)}{-\\frac{x^4}{2}+o(x^6)}=\\frac{1}{6}.\\end{aligned}</div>"
     },
     {
       "id": "q0013",
       "number": 13,
       "header": "#13-Averge",
       "difficulty": "Averge",
-      "prompt_html": "<img src=\"/static/generated/assets/advanced-math/ch041/q0013_prompt.png\"/>",
+      "prompt_html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{设}x&gt;0, \\text{则}x- \\frac{x^{2}}{2} \\text{与} \\ln(1+x) \\text{的大小关系为} [ \\quad] .\">\\text{设}x&gt;0, \\text{则}x- \\frac{x^{2}}{2} \\text{与} \\ln(1+x) \\text{的大小关系为} [ \\quad] .</span>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch041/q0013_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\displaystyle x - \\frac { x ^ { 2 } } { 2 } &lt; \\ln ( 1 + x ) \\, ;\">\\displaystyle x - \\frac { x ^ { 2 } } { 2 } &lt; \\ln ( 1 + x ) \\, ;</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch041/q0013_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{无法判断}.\">\\text{无法判断}.</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch041/q0013_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"x - \\frac { x ^ { 2 } } { 2 } = \\ln ( 1 + x ) \\ ;\">x - \\frac { x ^ { 2 } } { 2 } = \\ln ( 1 + x ) \\ ;</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch041/q0013_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\displaystyle x - \\frac { x ^ { 2 } } { 2 } &gt; \\ln ( 1 + x ) \\; ;\">\\displaystyle x - \\frac { x ^ { 2 } } { 2 } &gt; \\ln ( 1 + x ) \\; ;</span>"
         }
       ],
       "answer": "A",
       "answer_index": 0,
-      "analysis_html": "<img src=\"/static/generated/assets/advanced-math/ch041/q0013_analysis.png\"/>"
+      "analysis_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{aligned}&amp;\\text{用Taylor公式}\\ln(1+x)=x-\\frac{x^{2}}{2}+\\frac{x^{3}}{3(1+\\xi)^{3}}\\quad(0&lt;\\xi&lt;x),\\text{因为}x&gt;0,\\text{所以}\\\\&amp;\\frac{x^{3}}{3(1+\\xi)^{3}}&gt;0,\\text{故}x-\\frac{x^{2}}{2}&lt;\\ln(1+x).\\text{也可以用单调性,设}g(x)=\\ln(1+x)-x+\\frac{x^{2}}{2},\\\\&amp;\\text{由}g&#x27;(x)=\\frac{x^{2}}{1+x}\\text{可知}x&gt;0\\text{时}g(x)\\text{严格单调增加,故}\\\\&amp;g(x)=\\ln(1+x)-x+\\frac{x^{2}}{2}&gt;g(0)=0.\\end{aligned}\">\\begin{aligned}&amp;\\text{用Taylor公式}\\ln(1+x)=x-\\frac{x^{2}}{2}+\\frac{x^{3}}{3(1+\\xi)^{3}}\\quad(0&lt;\\xi&lt;x),\\text{因为}x&gt;0,\\text{所以}\\\\&amp;\\frac{x^{3}}{3(1+\\xi)^{3}}&gt;0,\\text{故}x-\\frac{x^{2}}{2}&lt;\\ln(1+x).\\text{也可以用单调性,设}g(x)=\\ln(1+x)-x+\\frac{x^{2}}{2},\\\\&amp;\\text{由}g&#x27;(x)=\\frac{x^{2}}{1+x}\\text{可知}x&gt;0\\text{时}g(x)\\text{严格单调增加,故}\\\\&amp;g(x)=\\ln(1+x)-x+\\frac{x^{2}}{2}&gt;g(0)=0.\\end{aligned}</div>"
     },
     {
       "id": "q0014",
       "number": 14,
       "header": "#14-Averge",
       "difficulty": "Averge",
-      "prompt_html": "<img src=\"/static/generated/assets/advanced-math/ch041/q0014_prompt.png\"/>",
+      "prompt_html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{极限} \\lim_{x \\to 0} \\frac{ \\cos(xe^{x}) - \\cos(xe^{-x}) + 2x^{3}}{x^{5}} = \\ \\ [ \\ \\ \\ \\ ] .\">\\text{极限} \\lim_{x \\to 0} \\frac{ \\cos(xe^{x}) - \\cos(xe^{-x}) + 2x^{3}}{x^{5}} = \\ \\ [ \\ \\ \\ \\ ] .</span>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch041/q0014_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"- \\frac { 1 } { 5 } \\, ;\">- \\frac { 1 } { 5 } \\, ;</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch041/q0014_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"- 1 \\, ;\">- 1 \\, ;</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch041/q0014_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\frac{1}{5}.\">\\frac{1}{5}.</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch041/q0014_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\mathbf { 1 } ;\">\\mathbf { 1 } ;</span>"
         }
       ],
       "answer": "B",
       "answer_index": 1,
-      "analysis_html": "<img src=\"/static/generated/assets/advanced-math/ch041/q0014_analysis.png\"/>"
+      "analysis_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{aligned}\\cos(xe^x) &amp; = 1-\\frac{1}{2!}(xe^x)^2+\\frac{1}{4!}(xe^x)^4+o\\left((xe^x)^5\\right) = 1-\\frac{1}{2}x^2e^{2x}+\\frac{1}{24}x^4e^{4x}+o\\left(x^5\\right) \\\\&amp; = 1-\\frac{1}{2}x^2\\left(1+2x+\\frac{1}{2!}(2x)^2+\\frac{1}{3!}(2x)^3+o(x^3)\\right)+\\frac{1}{24}x^4\\left(1+4x+o(x^2)\\right)+o\\left(x^5\\right) \\\\&amp; = 1-\\frac{1}{2}x^2-x^3-\\frac{23}{24}x^4-\\frac{1}{2}x^5+o\\left(x^5\\right), \\\\ \\cos(xe^x) &amp; = \\cos(-xe^x) = 1-\\frac{1}{2}(-x)^2-(-x)^3-\\frac{23}{24}(-x)^4-\\frac{1}{2}(-x)^5+o\\left(x^5\\right) \\\\&amp; = 1-\\frac{1}{2}x^2+x^3-\\frac{23}{24}x^4+\\frac{1}{2}x^5+o\\left(x^5\\right), \\\\ \\lim_{x\\rightarrow 0}\\frac{\\cos(xe^x)-\\cos(xe^{-x})+2x^3}{x^5} &amp; = \\lim_{x\\rightarrow 0}\\frac{-x^5+o(x^5)}{x^5}=-1.\\end{aligned}\">\\begin{aligned}\\cos(xe^x) &amp; = 1-\\frac{1}{2!}(xe^x)^2+\\frac{1}{4!}(xe^x)^4+o\\left((xe^x)^5\\right) = 1-\\frac{1}{2}x^2e^{2x}+\\frac{1}{24}x^4e^{4x}+o\\left(x^5\\right) \\\\&amp; = 1-\\frac{1}{2}x^2\\left(1+2x+\\frac{1}{2!}(2x)^2+\\frac{1}{3!}(2x)^3+o(x^3)\\right)+\\frac{1}{24}x^4\\left(1+4x+o(x^2)\\right)+o\\left(x^5\\right) \\\\&amp; = 1-\\frac{1}{2}x^2-x^3-\\frac{23}{24}x^4-\\frac{1}{2}x^5+o\\left(x^5\\right), \\\\ \\cos(xe^x) &amp; = \\cos(-xe^x) = 1-\\frac{1}{2}(-x)^2-(-x)^3-\\frac{23}{24}(-x)^4-\\frac{1}{2}(-x)^5+o\\left(x^5\\right) \\\\&amp; = 1-\\frac{1}{2}x^2+x^3-\\frac{23}{24}x^4+\\frac{1}{2}x^5+o\\left(x^5\\right), \\\\ \\lim_{x\\rightarrow 0}\\frac{\\cos(xe^x)-\\cos(xe^{-x})+2x^3}{x^5} &amp; = \\lim_{x\\rightarrow 0}\\frac{-x^5+o(x^5)}{x^5}=-1.\\end{aligned}</div>"
     },
     {
       "id": "q0015",
       "number": 15,
       "header": "#15-Averge",
       "difficulty": "Averge",
-      "prompt_html": "<img src=\"/static/generated/assets/advanced-math/ch041/q0015_prompt.png\"/>",
+      "prompt_html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{极限} \\lim_{x \\rightarrow 0} \\frac{ \\cos(xe^{x})- \\cos(xe^{-x})+2x^{3}}{(1- \\cos x) \\ln^{3}(1+x)}= \\quad[ \\quad].\">\\text{极限} \\lim_{x \\rightarrow 0} \\frac{ \\cos(xe^{x})- \\cos(xe^{-x})+2x^{3}}{(1- \\cos x) \\ln^{3}(1+x)}= \\quad[ \\quad].</span>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch041/q0015_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"- 2 \\, ;\">- 2 \\, ;</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch041/q0015_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\frac{1}{5}.\">\\frac{1}{5}.</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch041/q0015_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"- \\frac { 1 } { 5 } ;\">- \\frac { 1 } { 5 } ;</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch041/q0015_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\textbf{1;}\">\\textbf{1;}</span>"
         }
       ],
       "answer": "A",
       "answer_index": 0,
-      "analysis_html": "<img src=\"/static/generated/assets/advanced-math/ch041/q0015_analysis.png\"/>"
+      "analysis_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{aligned}\\cos(xe^x) &amp; = 1-\\frac{1}{2!}(xe^x)^2+\\frac{1}{4!}(xe^x)^4+o\\left((xe^x)^5\\right) = 1-\\frac{1}{2}x^2e^{2x}+\\frac{1}{24}x^4e^{4x}+o\\left(x^5\\right)\\\\= &amp; 1-\\frac{1}{2}x^2\\left(1+2x+\\frac{1}{2!}(2x)^2+\\frac{1}{3!}(2x)^3+o(x^3)\\right)+\\frac{1}{24}x^4\\left(1+4x+o(x^2)\\right)+o\\left(x^5\\right)\\\\= &amp; 1-\\frac{1}{2}x^2-x^3-\\frac{23}{24}x^4-\\frac{1}{2}x^5+o\\left(x^5\\right),\\\\\\cos(xe^x) &amp; = \\cos(-xe^x) = 1-\\frac{1}{2}(-x)^2-(-x)^3-\\frac{23}{24}(-x)^4-\\frac{1}{2}(-x)^5+o\\left(x^5\\right)\\\\= &amp; 1-\\frac{1}{2}x^2+x^3-\\frac{23}{24}x^4+\\frac{1}{2}x^5+o\\left(x^5\\right),\\\\\\lim_{x\\rightarrow 0}\\frac{\\cos(xe^x)-\\cos(xe^{-x})+2x^3}{(1-\\cos x)\\ln^3(1+x)}\\\\= &amp; 2\\lim_{x\\rightarrow 0}\\frac{\\cos(xe^x)-\\cos(xe^{-x})+2x^3}{x^5}=2\\lim_{x\\rightarrow 0}\\frac{-x^5+o(x^5)}{x^5}=-2\\,.\\end{aligned}\">\\begin{aligned}\\cos(xe^x) &amp; = 1-\\frac{1}{2!}(xe^x)^2+\\frac{1}{4!}(xe^x)^4+o\\left((xe^x)^5\\right) = 1-\\frac{1}{2}x^2e^{2x}+\\frac{1}{24}x^4e^{4x}+o\\left(x^5\\right)\\\\= &amp; 1-\\frac{1}{2}x^2\\left(1+2x+\\frac{1}{2!}(2x)^2+\\frac{1}{3!}(2x)^3+o(x^3)\\right)+\\frac{1}{24}x^4\\left(1+4x+o(x^2)\\right)+o\\left(x^5\\right)\\\\= &amp; 1-\\frac{1}{2}x^2-x^3-\\frac{23}{24}x^4-\\frac{1}{2}x^5+o\\left(x^5\\right),\\\\\\cos(xe^x) &amp; = \\cos(-xe^x) = 1-\\frac{1}{2}(-x)^2-(-x)^3-\\frac{23}{24}(-x)^4-\\frac{1}{2}(-x)^5+o\\left(x^5\\right)\\\\= &amp; 1-\\frac{1}{2}x^2+x^3-\\frac{23}{24}x^4+\\frac{1}{2}x^5+o\\left(x^5\\right),\\\\\\lim_{x\\rightarrow 0}\\frac{\\cos(xe^x)-\\cos(xe^{-x})+2x^3}{(1-\\cos x)\\ln^3(1+x)}\\\\= &amp; 2\\lim_{x\\rightarrow 0}\\frac{\\cos(xe^x)-\\cos(xe^{-x})+2x^3}{x^5}=2\\lim_{x\\rightarrow 0}\\frac{-x^5+o(x^5)}{x^5}=-2\\,.\\end{aligned}</div>"
     },
     {
       "id": "q0016",
       "number": 16,
       "header": "#16-Averge",
       "difficulty": "Averge",
-      "prompt_html": "<img src=\"/static/generated/assets/advanced-math/ch041/q0016_prompt.png\"/>",
+      "prompt_html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{极限} \\lim_{x \\rightarrow 0} \\frac{e^{x^{2}}+2\\cos x-3}{\\sin^{4} x} = \\left[ \\ \\ \\ \\ \\right].\">\\text{极限} \\lim_{x \\rightarrow 0} \\frac{e^{x^{2}}+2\\cos x-3}{\\sin^{4} x} = \\left[ \\ \\ \\ \\ \\right].</span>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch041/q0016_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\frac{7}{12};\">\\frac{7}{12};</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch041/q0016_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"- 2 \\, ;\">- 2 \\, ;</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch041/q0016_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"7 \\, .\">7 \\, .</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch041/q0016_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\textbf{1;}\">\\textbf{1;}</span>"
         }
       ],
       "answer": "A",
       "answer_index": 0,
-      "analysis_html": "<img src=\"/static/generated/assets/advanced-math/ch041/q0016_analysis.png\"/>"
+      "analysis_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{aligned}&amp;\\lim_{x \\rightarrow 0} \\frac{e^{x^2}+2 \\cos x-3}{\\sin^4 x}\\\\&amp;=\\lim_{x \\rightarrow 0} \\frac{\\left(1+x^2+\\frac{x^4}{2!}+o(x^4)\\right)+2\\left(1-\\frac{x^2}{2!}+\\frac{x^4}{4!}+o(x^4)\\right)-3}{x^4}\\\\&amp;=\\lim_{x \\rightarrow 0} \\frac{\\frac{7}{12}x^4+o(x^4)}{x^4}=\\frac{7}{12}.\\end{aligned}\">\\begin{aligned}&amp;\\lim_{x \\rightarrow 0} \\frac{e^{x^2}+2 \\cos x-3}{\\sin^4 x}\\\\&amp;=\\lim_{x \\rightarrow 0} \\frac{\\left(1+x^2+\\frac{x^4}{2!}+o(x^4)\\right)+2\\left(1-\\frac{x^2}{2!}+\\frac{x^4}{4!}+o(x^4)\\right)-3}{x^4}\\\\&amp;=\\lim_{x \\rightarrow 0} \\frac{\\frac{7}{12}x^4+o(x^4)}{x^4}=\\frac{7}{12}.\\end{aligned}</div>"
     },
     {
       "id": "q0017",
       "number": 17,
       "header": "#17-Averge",
       "difficulty": "Averge",
-      "prompt_html": "<img src=\"/static/generated/assets/advanced-math/ch041/q0017_prompt.png\"/>",
+      "prompt_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{array}{l} \\text{设}f(x)=\\sin x,P(x)=x-\\frac{x^{3}}{6}\\quad，\\text{则能使极限} \\lim_{x\\rightarrow 0}\\frac{f(x)-P(x)}{x^{n}}=0 \\text{成立的最大正整数}n=[\\quad]. \\end{array}\">\\begin{array}{l} \\text{设}f(x)=\\sin x,P(x)=x-\\frac{x^{3}}{6}\\quad，\\text{则能使极限} \\lim_{x\\rightarrow 0}\\frac{f(x)-P(x)}{x^{n}}=0 \\text{成立的最大正整数}n=[\\quad]. \\end{array}</div>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch041/q0017_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\textbf{3 ;}\">\\textbf{3 ;}</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch041/q0017_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\textbf{2;}\">\\textbf{2;}</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch041/q0017_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\boldsymbol{5}.\">\\boldsymbol{5}.</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch041/q0017_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"4 \\, ;\">4 \\, ;</span>"
         }
       ],
       "answer": "D",
       "answer_index": 3,
-      "analysis_html": "<img src=\"/static/generated/assets/advanced-math/ch041/q0017_analysis.png\"/>"
+      "analysis_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\lim_{x \\to 0} \\frac{f(x)-P(x)}{x^{n}} = \\lim_{x \\to 0} \\frac{x-\\frac{x^{3}}{6}+\\frac{x^{5}}{5!}+o(x^{6})-x+\\frac{x^{3}}{6}}{x^{n}} = \\lim_{x \\to 0} \\frac{\\frac{x^{5}}{5!}+o(x^{6})}{x^{n}} = 0, \\\\ \\text{故最大正整数} n=4 \\\\\">\\lim_{x \\to 0} \\frac{f(x)-P(x)}{x^{n}} = \\lim_{x \\to 0} \\frac{x-\\frac{x^{3}}{6}+\\frac{x^{5}}{5!}+o(x^{6})-x+\\frac{x^{3}}{6}}{x^{n}} = \\lim_{x \\to 0} \\frac{\\frac{x^{5}}{5!}+o(x^{6})}{x^{n}} = 0, \\\\ \\text{故最大正整数} n=4 \\\\</div>"
     },
     {
       "id": "q0018",
       "number": 18,
       "header": "#18-Averge",
       "difficulty": "Averge",
-      "prompt_html": "<img src=\"/static/generated/assets/advanced-math/ch041/q0018_prompt.png\"/>",
+      "prompt_html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{极限} \\lim_{x \\rightarrow + \\infty } \\left( \\sqrt[3]{x^{3}+3x}-\\sqrt{x^{2}-x} \\right) = \\ \\left[ \\ \\ \\ \\ \\ \\right].\">\\text{极限} \\lim_{x \\rightarrow + \\infty } \\left( \\sqrt[3]{x^{3}+3x}-\\sqrt{x^{2}-x} \\right) = \\ \\left[ \\ \\ \\ \\ \\ \\right].</span>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch041/q0018_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\mathbf { 1 } ;\">\\mathbf { 1 } ;</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch041/q0018_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\frac { 1 } { 2 } \\, ;\">\\frac { 1 } { 2 } \\, ;</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch041/q0018_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\mathbf { 0 \\, ; }\">\\mathbf { 0 \\, ; }</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch041/q0018_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"- 1 .\">- 1 .</span>"
         }
       ],
       "answer": "B",
       "answer_index": 1,
-      "analysis_html": "<img src=\"/static/generated/assets/advanced-math/ch041/q0018_analysis.png\"/>"
+      "analysis_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{aligned}&amp;\\lim_{x\\rightarrow+\\infty}\\left(\\sqrt[3]{x^3+3x}-\\sqrt{x^2-x}\\right)=\\lim_{x\\rightarrow+\\infty}\\left(x\\left(1+\\frac{3}{x^2}\\right)-x\\left(1-\\frac{1}{x}\\right)\\right)\\\\=&amp;\\lim_{x\\rightarrow+\\infty}x\\left(\\left(1+\\frac{1}{3}\\frac{3}{x^2}+o\\left(\\frac{1}{x^2}\\right)\\right)-\\left(1-\\frac{1}{2}\\frac{1}{x}+o\\left(\\frac{1}{x}\\right)\\right)\\right)\\\\=&amp;\\lim_{x\\rightarrow+\\infty}x\\left(\\frac{1}{x}+o\\left(\\frac{1}{x}\\right)+\\frac{1}{2}+o\\left(1\\right)\\right)=\\frac{1}{2}.\\end{aligned}\">\\begin{aligned}&amp;\\lim_{x\\rightarrow+\\infty}\\left(\\sqrt[3]{x^3+3x}-\\sqrt{x^2-x}\\right)=\\lim_{x\\rightarrow+\\infty}\\left(x\\left(1+\\frac{3}{x^2}\\right)-x\\left(1-\\frac{1}{x}\\right)\\right)\\\\=&amp;\\lim_{x\\rightarrow+\\infty}x\\left(\\left(1+\\frac{1}{3}\\frac{3}{x^2}+o\\left(\\frac{1}{x^2}\\right)\\right)-\\left(1-\\frac{1}{2}\\frac{1}{x}+o\\left(\\frac{1}{x}\\right)\\right)\\right)\\\\=&amp;\\lim_{x\\rightarrow+\\infty}x\\left(\\frac{1}{x}+o\\left(\\frac{1}{x}\\right)+\\frac{1}{2}+o\\left(1\\right)\\right)=\\frac{1}{2}.\\end{aligned}</div>"
     },
     {
       "id": "q0019",
       "number": 19,
       "header": "#19-Averge",
       "difficulty": "Averge",
-      "prompt_html": "<img src=\"/static/generated/assets/advanced-math/ch041/q0019_prompt.png\"/>",
+      "prompt_html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{极限} \\lim_{x \\rightarrow 0} \\frac{1 + \\frac{1}{2} x^{2} - \\sqrt{1 + x^{2}}}{\\left( \\cos x - e^{x^{2}} \\right) \\ln^{2}{(1 + x)}} = \\quad[ \\quad].\">\\text{极限} \\lim_{x \\rightarrow 0} \\frac{1 + \\frac{1}{2} x^{2} - \\sqrt{1 + x^{2}}}{\\left( \\cos x - e^{x^{2}} \\right) \\ln^{2}{(1 + x)}} = \\quad[ \\quad].</span>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch041/q0019_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"- \\frac { 1 } { 2 } \\, ;\">- \\frac { 1 } { 2 } \\, ;</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch041/q0019_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\frac{1}{2}.\">\\frac{1}{2}.</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch041/q0019_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"- \\frac { 1 } { 12 } \\, ;\">- \\frac { 1 } { 12 } \\, ;</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch041/q0019_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\frac { 1 } { 12 } \\, ;\">\\frac { 1 } { 12 } \\, ;</span>"
         }
       ],
       "answer": "C",
       "answer_index": 2,
-      "analysis_html": "<img src=\"/static/generated/assets/advanced-math/ch041/q0019_analysis.png\"/>"
+      "analysis_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{aligned}&amp;\\lim_{x \\rightarrow 0} \\frac{1+\\frac{1}{2}x^{2}-\\sqrt{1+x^{2}}}{\\left(\\cos x-e^{x^{2}}\\right)\\ln^{2}(1+x)} \\\\&amp;=\\lim_{x \\rightarrow 0} \\frac{1+\\frac{1}{2}x^{2}-\\left(1+\\frac{1}{2}x^{2}-\\frac{x^{4}}{8}+o(x^{4})\\right)}{\\left[\\left(1-\\frac{x^{2}}{2!}+\\frac{x^{4}}{4!}+o(x^{4})\\right)-\\left(1+x^{2}+\\frac{x^{4}}{2!}+o(x^{4})\\right)\\right]x^{2}} \\\\&amp;=\\lim_{x \\rightarrow 0} \\frac{\\frac{x^{4}}{8}+o(x^{4})}{-\\frac{3}{2}x^{4}+o(x^{4})}=-\\frac{1}{12}.\\end{aligned}\">\\begin{aligned}&amp;\\lim_{x \\rightarrow 0} \\frac{1+\\frac{1}{2}x^{2}-\\sqrt{1+x^{2}}}{\\left(\\cos x-e^{x^{2}}\\right)\\ln^{2}(1+x)} \\\\&amp;=\\lim_{x \\rightarrow 0} \\frac{1+\\frac{1}{2}x^{2}-\\left(1+\\frac{1}{2}x^{2}-\\frac{x^{4}}{8}+o(x^{4})\\right)}{\\left[\\left(1-\\frac{x^{2}}{2!}+\\frac{x^{4}}{4!}+o(x^{4})\\right)-\\left(1+x^{2}+\\frac{x^{4}}{2!}+o(x^{4})\\right)\\right]x^{2}} \\\\&amp;=\\lim_{x \\rightarrow 0} \\frac{\\frac{x^{4}}{8}+o(x^{4})}{-\\frac{3}{2}x^{4}+o(x^{4})}=-\\frac{1}{12}.\\end{aligned}</div>"
     },
     {
       "id": "q0020",
       "number": 20,
       "header": "#20-Averge",
       "difficulty": "Averge",
-      "prompt_html": "<img src=\"/static/generated/assets/advanced-math/ch041/q0020_prompt.png\"/>",
+      "prompt_html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{极限} \\lim_{x \\to 0} \\frac{e^{x^{2}}+2\\cos{x}-3}{x^{4}}= \\left[\\right].\">\\text{极限} \\lim_{x \\to 0} \\frac{e^{x^{2}}+2\\cos{x}-3}{x^{4}}= \\left[\\right].</span>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch041/q0020_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"- 2 \\, ;\">- 2 \\, ;</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch041/q0020_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\frac{7}{12};\">\\frac{7}{12};</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch041/q0020_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\mathbf { 1 } ;\">\\mathbf { 1 } ;</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch041/q0020_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\boldsymbol { 7 } \\, .\">\\boldsymbol { 7 } \\, .</span>"
         }
       ],
       "answer": "B",
       "answer_index": 1,
-      "analysis_html": "<img src=\"/static/generated/assets/advanced-math/ch041/q0020_analysis.png\"/>"
+      "analysis_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{aligned}&amp;\\lim_{x \\rightarrow 0} \\frac{e^{x^2}+2 \\cos x-3}{x^4} \\\\&amp;= \\lim_{x \\rightarrow 0} \\frac{\\left( 1+x^2+\\frac{x^4}{2!}+o(x^4) \\right) + 2 \\left( 1-\\frac{x^2}{2!}+\\frac{x^4}{4!}+o(x^4) \\right) -3}{x^4} \\\\&amp;= \\lim_{x \\rightarrow 0} \\frac{\\frac{7}{12} x^4 + o(x^4)}{x^4} = \\frac{7}{12}.\\end{aligned}\">\\begin{aligned}&amp;\\lim_{x \\rightarrow 0} \\frac{e^{x^2}+2 \\cos x-3}{x^4} \\\\&amp;= \\lim_{x \\rightarrow 0} \\frac{\\left( 1+x^2+\\frac{x^4}{2!}+o(x^4) \\right) + 2 \\left( 1-\\frac{x^2}{2!}+\\frac{x^4}{4!}+o(x^4) \\right) -3}{x^4} \\\\&amp;= \\lim_{x \\rightarrow 0} \\frac{\\frac{7}{12} x^4 + o(x^4)}{x^4} = \\frac{7}{12}.\\end{aligned}</div>"
     },
     {
       "id": "q0021",
       "number": 21,
       "header": "#21-Averge",
       "difficulty": "Averge",
-      "prompt_html": "<img src=\"/static/generated/assets/advanced-math/ch041/q0021_prompt.png\"/>",
+      "prompt_html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{极限} \\lim_{x \\rightarrow 0} \\frac{1+ \\frac{1}{2} x^{2}-\\sqrt{1+x^{2}}}{\\left( \\cos x-e^{x^{2}} \\right) \\left( 1-\\cos x \\right)}= \\left[ \\quad \\right].\">\\text{极限} \\lim_{x \\rightarrow 0} \\frac{1+ \\frac{1}{2} x^{2}-\\sqrt{1+x^{2}}}{\\left( \\cos x-e^{x^{2}} \\right) \\left( 1-\\cos x \\right)}= \\left[ \\quad \\right].</span>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch041/q0021_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\frac{1}{2}.\">\\frac{1}{2}.</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch041/q0021_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"- \\frac { 1 } { 2 } \\, ;\">- \\frac { 1 } { 2 } \\, ;</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch041/q0021_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\frac {1}{12}\\, ;\">\\frac {1}{12}\\, ;</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch041/q0021_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"- \\frac { 1 } { 6 } \\, ;\">- \\frac { 1 } { 6 } \\, ;</span>"
         }
       ],
       "answer": "D",
       "answer_index": 3,
-      "analysis_html": "<img src=\"/static/generated/assets/advanced-math/ch041/q0021_analysis.png\"/>"
+      "analysis_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{aligned}&amp;\\lim_{x \\rightarrow 0} \\frac{1+\\frac{1}{2}x^2-\\sqrt{1+x^2}}{\\left(\\cos x-e^{x^2}\\right)(1-\\cos x)}\\\\&amp;=\\lim_{x \\rightarrow 0} \\frac{1+\\frac{1}{2}x^2-\\left(1+\\frac{1}{2}x^2-\\frac{x^4}{8}+o(x^4)\\right)}{\\left[\\left(1-\\frac{x^2}{2!}+\\frac{x^4}{4!}+o(x^4)\\right)-\\left(1+x^2+\\frac{x^4}{2!}+o(x^4)\\right)\\right]\\frac{x^2}{2}}\\\\&amp;=2\\lim_{x \\rightarrow 0} \\frac{\\frac{x^4}{8}+o(x^4)}{-\\frac{3}{2}x^4+o(x^4)}=-\\frac{1}{6}.\\end{aligned}\">\\begin{aligned}&amp;\\lim_{x \\rightarrow 0} \\frac{1+\\frac{1}{2}x^2-\\sqrt{1+x^2}}{\\left(\\cos x-e^{x^2}\\right)(1-\\cos x)}\\\\&amp;=\\lim_{x \\rightarrow 0} \\frac{1+\\frac{1}{2}x^2-\\left(1+\\frac{1}{2}x^2-\\frac{x^4}{8}+o(x^4)\\right)}{\\left[\\left(1-\\frac{x^2}{2!}+\\frac{x^4}{4!}+o(x^4)\\right)-\\left(1+x^2+\\frac{x^4}{2!}+o(x^4)\\right)\\right]\\frac{x^2}{2}}\\\\&amp;=2\\lim_{x \\rightarrow 0} \\frac{\\frac{x^4}{8}+o(x^4)}{-\\frac{3}{2}x^4+o(x^4)}=-\\frac{1}{6}.\\end{aligned}</div>"
     },
     {
       "id": "q0022",
       "number": 22,
       "header": "#22-Averge",
       "difficulty": "Averge",
-      "prompt_html": "<img src=\"/static/generated/assets/advanced-math/ch041/q0022_prompt.png\"/>",
+      "prompt_html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\lim_{x \\rightarrow 0} \\frac{e^{x}-1-x}{\\sqrt{1-x}-\\cos \\sqrt{x}}= \\left[ \\quad \\right].\">\\lim_{x \\rightarrow 0} \\frac{e^{x}-1-x}{\\sqrt{1-x}-\\cos \\sqrt{x}}= \\left[ \\quad \\right].</span>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch041/q0022_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"- 3 \\, ;\">- 3 \\, ;</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch041/q0022_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"- \\frac { 1 } { 3 } \\, ;\">- \\frac { 1 } { 3 } \\, ;</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch041/q0022_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\mathbf { 0 \\, ; }\">\\mathbf { 0 \\, ; }</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch041/q0022_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\mathbf{2}.\">\\mathbf{2}.</span>"
         }
       ],
       "answer": "A",
       "answer_index": 0,
-      "analysis_html": "<img src=\"/static/generated/assets/advanced-math/ch041/q0022_analysis.png\"/>"
+      "analysis_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{aligned}&amp;\\lim_{x \\rightarrow 0} \\frac{e^x-1-x}{\\sqrt{1-x}-\\cos \\sqrt{x}} \\\\&amp;=\\lim_{x \\rightarrow 0} \\frac{\\left(1+x+\\frac{x^2}{2}+o(x^2)\\right)-1-x}{\\left(1-\\frac{x}{2}-\\frac{x^2}{8}+o(x^2)\\right)-\\left(1-\\frac{x}{2}+\\frac{x^2}{4!}+o(x^2)\\right)} \\\\&amp;=\\lim_{x \\rightarrow 0} \\frac{\\frac{x^2}{2}+o(x^2)}{-\\frac{x^2}{6}+o(x^2)}=-3.\\end{aligned}\">\\begin{aligned}&amp;\\lim_{x \\rightarrow 0} \\frac{e^x-1-x}{\\sqrt{1-x}-\\cos \\sqrt{x}} \\\\&amp;=\\lim_{x \\rightarrow 0} \\frac{\\left(1+x+\\frac{x^2}{2}+o(x^2)\\right)-1-x}{\\left(1-\\frac{x}{2}-\\frac{x^2}{8}+o(x^2)\\right)-\\left(1-\\frac{x}{2}+\\frac{x^2}{4!}+o(x^2)\\right)} \\\\&amp;=\\lim_{x \\rightarrow 0} \\frac{\\frac{x^2}{2}+o(x^2)}{-\\frac{x^2}{6}+o(x^2)}=-3.\\end{aligned}</div>"
     },
     {
       "id": "q0023",
       "number": 23,
       "header": "#23-Averge",
       "difficulty": "Averge",
-      "prompt_html": "<img src=\"/static/generated/assets/advanced-math/ch041/q0023_prompt.png\"/>",
+      "prompt_html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{极限} \\lim_{x \\rightarrow 0} \\frac{ \\cos x - e^{-\\frac{x^{2}}{2}}}{\\left[ x + \\ln(1-x) \\right] \\sin^{2} x} = \\quad[ \\quad].\">\\text{极限} \\lim_{x \\rightarrow 0} \\frac{ \\cos x - e^{-\\frac{x^{2}}{2}}}{\\left[ x + \\ln(1-x) \\right] \\sin^{2} x} = \\quad[ \\quad].</span>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch041/q0023_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\boldsymbol{1}.\">\\boldsymbol{1}.</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch041/q0023_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\frac { 1 } { 6 } ;\">\\frac { 1 } { 6 } ;</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch041/q0023_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\frac{1}{3}\\,;\">\\frac{1}{3}\\,;</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch041/q0023_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\frac { 1 } { 2 } \\, ;\">\\frac { 1 } { 2 } \\, ;</span>"
         }
       ],
       "answer": "B",
       "answer_index": 1,
-      "analysis_html": "<img src=\"/static/generated/assets/advanced-math/ch041/q0023_analysis.png\"/>"
+      "analysis_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{aligned}&amp;\\lim_{x \\rightarrow 0} \\frac{\\cos x - e^{-\\frac{x^2}{2}}}{\\left[x+\\ln(1-x)\\right]\\sin^2 x} \\\\&amp;= \\lim_{x \\rightarrow 0} \\frac{\\left(1-\\frac{x^2}{2}+\\frac{x^4}{24}+o(x^4)\\right)-\\left(1-\\frac{x^2}{2}+\\frac{x^4}{8}+o(x^4)\\right)}{\\left[x+\\left(-x-\\frac{x^2}{2}+o(x^4)\\right)\\right]x^2} \\\\&amp;= \\lim_{x \\rightarrow 0} \\frac{-\\frac{x^4}{12}+o(x^4)}{-\\frac{x^4}{2}+o(x^6)}=\\frac{1}{6}.\\end{aligned}\">\\begin{aligned}&amp;\\lim_{x \\rightarrow 0} \\frac{\\cos x - e^{-\\frac{x^2}{2}}}{\\left[x+\\ln(1-x)\\right]\\sin^2 x} \\\\&amp;= \\lim_{x \\rightarrow 0} \\frac{\\left(1-\\frac{x^2}{2}+\\frac{x^4}{24}+o(x^4)\\right)-\\left(1-\\frac{x^2}{2}+\\frac{x^4}{8}+o(x^4)\\right)}{\\left[x+\\left(-x-\\frac{x^2}{2}+o(x^4)\\right)\\right]x^2} \\\\&amp;= \\lim_{x \\rightarrow 0} \\frac{-\\frac{x^4}{12}+o(x^4)}{-\\frac{x^4}{2}+o(x^6)}=\\frac{1}{6}.\\end{aligned}</div>"
     },
     {
       "id": "q0024",
       "number": 24,
       "header": "#24-Averge",
       "difficulty": "Averge",
-      "prompt_html": "<img src=\"/static/generated/assets/advanced-math/ch041/q0024_prompt.png\"/>",
+      "prompt_html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\lim_{x \\rightarrow 0} \\frac{ \\cos(xe^{x})- \\cos(xe^{-x})+2x^{3}}{\\sin x^{5}}= \\quad[ \\quad ].\">\\lim_{x \\rightarrow 0} \\frac{ \\cos(xe^{x})- \\cos(xe^{-x})+2x^{3}}{\\sin x^{5}}= \\quad[ \\quad ].</span>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch041/q0024_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"- \\frac { 1 } { 5 } ;\">- \\frac { 1 } { 5 } ;</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch041/q0024_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\frac{1}{5}.\">\\frac{1}{5}.</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch041/q0024_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"- 1 \\, ;\">- 1 \\, ;</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch041/q0024_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\mathbf { 1 ; }\">\\mathbf { 1 ; }</span>"
         }
       ],
       "answer": "C",
       "answer_index": 2,
-      "analysis_html": "<img src=\"/static/generated/assets/advanced-math/ch041/q0024_analysis.png\"/>"
+      "analysis_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{aligned}&amp;\\cos(xe^x)=1-\\frac{1}{2!}(xe^x)^2+\\frac{1}{4!}(xe^x)^4+o\\left((xe^x)^5\\right)=1-\\frac{1}{2}x^2e^{2x}+\\frac{1}{24}x^4e^{4x}+o\\left(x^5\\right)\\\\=&amp;1-\\frac{1}{2}x^2\\bigg(1+2x+\\frac{1}{2!}(2x)^2+\\frac{1}{3!}(2x)^3+o(x^3)\\bigg)+\\frac{1}{24}x^4\\big(1+4x+o(x^2)\\big)+o\\left(x^5\\right)\\\\=&amp;1-\\frac{1}{2}x^2-x^3-\\frac{23}{24}x^4-\\frac{1}{2}x^5+o\\left(x^5\\right),\\\\&amp;\\cos(xe^x)=\\cos(-xe^x)=1-\\frac{1}{2}(-x)^2-(-x)^3-\\frac{23}{24}(-x)^4-\\frac{1}{2}(-x)^5+o\\left(x^5\\right)\\\\=&amp;1-\\frac{1}{2}x^2+x^3-\\frac{23}{24}x^4+\\frac{1}{2}x^5+o\\left(x^5\\right),\\\\\\lim_{x\\rightarrow 0}&amp;\\frac{\\cos(xe^x)-\\cos(xe^{-x})+2x^3}{\\sin x^5}=\\lim_{x\\rightarrow 0}\\frac{\\cos(xe^x)-\\cos(xe^{-x})+2x^3}{x^5}=\\lim_{x\\rightarrow 0}\\frac{-x^5+o(x^5)}{x^5}=-1.\\end{aligned}\">\\begin{aligned}&amp;\\cos(xe^x)=1-\\frac{1}{2!}(xe^x)^2+\\frac{1}{4!}(xe^x)^4+o\\left((xe^x)^5\\right)=1-\\frac{1}{2}x^2e^{2x}+\\frac{1}{24}x^4e^{4x}+o\\left(x^5\\right)\\\\=&amp;1-\\frac{1}{2}x^2\\bigg(1+2x+\\frac{1}{2!}(2x)^2+\\frac{1}{3!}(2x)^3+o(x^3)\\bigg)+\\frac{1}{24}x^4\\big(1+4x+o(x^2)\\big)+o\\left(x^5\\right)\\\\=&amp;1-\\frac{1}{2}x^2-x^3-\\frac{23}{24}x^4-\\frac{1}{2}x^5+o\\left(x^5\\right),\\\\&amp;\\cos(xe^x)=\\cos(-xe^x)=1-\\frac{1}{2}(-x)^2-(-x)^3-\\frac{23}{24}(-x)^4-\\frac{1}{2}(-x)^5+o\\left(x^5\\right)\\\\=&amp;1-\\frac{1}{2}x^2+x^3-\\frac{23}{24}x^4+\\frac{1}{2}x^5+o\\left(x^5\\right),\\\\\\lim_{x\\rightarrow 0}&amp;\\frac{\\cos(xe^x)-\\cos(xe^{-x})+2x^3}{\\sin x^5}=\\lim_{x\\rightarrow 0}\\frac{\\cos(xe^x)-\\cos(xe^{-x})+2x^3}{x^5}=\\lim_{x\\rightarrow 0}\\frac{-x^5+o(x^5)}{x^5}=-1.\\end{aligned}</div>"
     },
     {
       "id": "q0025",
       "number": 25,
       "header": "#25-Averge",
       "difficulty": "Averge",
-      "prompt_html": "<img src=\"/static/generated/assets/advanced-math/ch041/q0025_prompt.png\"/>",
+      "prompt_html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{极限} \\lim_{x \\rightarrow + \\infty} \\left( \\sqrt[6]{x^{6} + x^{5}} - \\sqrt[6]{x^{6} - x^{5}} \\right) = \\ \\left[ \\ \\ \\ \\ \\ \\ \\right].\">\\text{极限} \\lim_{x \\rightarrow + \\infty} \\left( \\sqrt[6]{x^{6} + x^{5}} - \\sqrt[6]{x^{6} - x^{5}} \\right) = \\ \\left[ \\ \\ \\ \\ \\ \\ \\right].</span>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch041/q0025_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"- 1 .\">- 1 .</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch041/q0025_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\mathbf { 1 ; }\">\\mathbf { 1 ; }</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch041/q0025_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\frac { 1 } { 3 } \\, ;\">\\frac { 1 } { 3 } \\, ;</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch041/q0025_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\mathbf { 0 \\, ; }\">\\mathbf { 0 \\, ; }</span>"
         }
       ],
       "answer": "C",
       "answer_index": 2,
-      "analysis_html": "<img src=\"/static/generated/assets/advanced-math/ch041/q0025_analysis.png\"/>"
+      "analysis_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{aligned}&amp;\\lim_{x\\rightarrow +\\infty}\\left(\\xi\\sqrt{x^6+x^5}-\\xi\\sqrt{x^6-x^5}\\right)=\\lim_{x\\rightarrow +\\infty}x\\left(\\left(1+\\frac{1}{x}\\right)^{\\frac{1}{6}}-\\left(1-\\frac{1}{x}\\right)^{\\frac{1}{6}}\\right)\\\\&amp;=\\lim_{x\\rightarrow +\\infty}x\\left(\\left(1+\\frac{1}{6x}+o\\left(\\frac{1}{x}\\right)\\right)-\\left(1-\\frac{1}{6x}+o\\left(\\frac{1}{x}\\right)\\right)\\right)\\\\&amp;=\\lim_{x\\rightarrow +\\infty}\\left(\\frac{1}{3}+o\\left(1\\right)\\right)=\\frac{1}{3}.\\end{aligned}\">\\begin{aligned}&amp;\\lim_{x\\rightarrow +\\infty}\\left(\\xi\\sqrt{x^6+x^5}-\\xi\\sqrt{x^6-x^5}\\right)=\\lim_{x\\rightarrow +\\infty}x\\left(\\left(1+\\frac{1}{x}\\right)^{\\frac{1}{6}}-\\left(1-\\frac{1}{x}\\right)^{\\frac{1}{6}}\\right)\\\\&amp;=\\lim_{x\\rightarrow +\\infty}x\\left(\\left(1+\\frac{1}{6x}+o\\left(\\frac{1}{x}\\right)\\right)-\\left(1-\\frac{1}{6x}+o\\left(\\frac{1}{x}\\right)\\right)\\right)\\\\&amp;=\\lim_{x\\rightarrow +\\infty}\\left(\\frac{1}{3}+o\\left(1\\right)\\right)=\\frac{1}{3}.\\end{aligned}</div>"
     },
     {
       "id": "q0026",
       "number": 26,
       "header": "#26-Averge",
       "difficulty": "Averge",
-      "prompt_html": "<img src=\"/static/generated/assets/advanced-math/ch041/q0026_prompt.png\"/>",
+      "prompt_html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{极限} \\lim_{x \\rightarrow 0} \\frac{ \\cos(xe^{x}) - \\cos(xe^{-x}) + 2x^{3}}{ \\ln^{5}{(1+x)}} = \\ \\ [ \\ \\ \\ \\ \\ ] .\">\\text{极限} \\lim_{x \\rightarrow 0} \\frac{ \\cos(xe^{x}) - \\cos(xe^{-x}) + 2x^{3}}{ \\ln^{5}{(1+x)}} = \\ \\ [ \\ \\ \\ \\ \\ ] .</span>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch041/q0026_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\mathbf { 1 } ;\">\\mathbf { 1 } ;</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch041/q0026_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"- 1 \\, ;\">- 1 \\, ;</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch041/q0026_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\frac { 1 } { 5 } .\">\\frac { 1 } { 5 } .</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch041/q0026_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"- \\frac { 1 } { 5 } ;\">- \\frac { 1 } { 5 } ;</span>"
         }
       ],
       "answer": "B",
       "answer_index": 1,
-      "analysis_html": "<img src=\"/static/generated/assets/advanced-math/ch041/q0026_analysis.png\"/>"
+      "analysis_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{aligned}&amp;\\cos(xe^x)=1-\\frac{1}{2}(xe^x)^2+\\frac{1}{4!}(xe^x)^4+o\\left((xe^x)^5\\right)=1-\\frac{1}{2}x^2e^{2x}+\\frac{1}{24}x^4e^{4x}+o\\left(x^5\\right)\\\\&amp;=1-\\frac{1}{2}x^2\\left(1+2x+\\frac{1}{2!}(2x)^2+\\frac{1}{3!}(2x)^3+o(x^3)\\right)+\\frac{1}{24}x^4\\left(1+4x+o(x^2)\\right)+o\\left(x^5\\right)\\\\&amp;=1-\\frac{1}{2}x^2-x^3-\\frac{23}{24}x^4-\\frac{1}{2}x^5+o\\left(x^5\\right),\\\\&amp;\\quad\\cos(xe^x)=\\cos(-xe^x)=1-\\frac{1}{2}(-x)^2-(-x)^3-\\frac{23}{24}(-x)^4-\\frac{1}{2}(-x)^5+o\\left(x^5\\right)\\\\&amp;=1-\\frac{1}{2}x^2+x^3-\\frac{23}{24}x^4+\\frac{1}{2}x^5+o\\left(x^5\\right),\\\\&amp;\\lim_{x\\rightarrow 0}\\frac{\\cos(xe^x)-\\cos(xe^{-x})+2x^3}{\\ln^5(1+x)}=\\lim_{x\\rightarrow 0}\\frac{\\cos(xe^x)-\\cos(xe^{-x})+2x^3}{x^5}=\\lim_{x\\rightarrow 0}\\frac{-x^5+o(x^5)}{x^5}=-1.\\end{aligned}\">\\begin{aligned}&amp;\\cos(xe^x)=1-\\frac{1}{2}(xe^x)^2+\\frac{1}{4!}(xe^x)^4+o\\left((xe^x)^5\\right)=1-\\frac{1}{2}x^2e^{2x}+\\frac{1}{24}x^4e^{4x}+o\\left(x^5\\right)\\\\&amp;=1-\\frac{1}{2}x^2\\left(1+2x+\\frac{1}{2!}(2x)^2+\\frac{1}{3!}(2x)^3+o(x^3)\\right)+\\frac{1}{24}x^4\\left(1+4x+o(x^2)\\right)+o\\left(x^5\\right)\\\\&amp;=1-\\frac{1}{2}x^2-x^3-\\frac{23}{24}x^4-\\frac{1}{2}x^5+o\\left(x^5\\right),\\\\&amp;\\quad\\cos(xe^x)=\\cos(-xe^x)=1-\\frac{1}{2}(-x)^2-(-x)^3-\\frac{23}{24}(-x)^4-\\frac{1}{2}(-x)^5+o\\left(x^5\\right)\\\\&amp;=1-\\frac{1}{2}x^2+x^3-\\frac{23}{24}x^4+\\frac{1}{2}x^5+o\\left(x^5\\right),\\\\&amp;\\lim_{x\\rightarrow 0}\\frac{\\cos(xe^x)-\\cos(xe^{-x})+2x^3}{\\ln^5(1+x)}=\\lim_{x\\rightarrow 0}\\frac{\\cos(xe^x)-\\cos(xe^{-x})+2x^3}{x^5}=\\lim_{x\\rightarrow 0}\\frac{-x^5+o(x^5)}{x^5}=-1.\\end{aligned}</div>"
     },
     {
       "id": "q0027",
       "number": 27,
       "header": "#27-Averge",
       "difficulty": "Averge",
-      "prompt_html": "<img src=\"/static/generated/assets/advanced-math/ch041/q0027_prompt.png\"/>",
+      "prompt_html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{极限} \\lim_{x \\to 0} \\frac{e^{x^{2}} - \\cos x}{x^{2}} = \\ \\ [ \\ \\ \\ \\ ] .\">\\text{极限} \\lim_{x \\to 0} \\frac{e^{x^{2}} - \\cos x}{x^{2}} = \\ \\ [ \\ \\ \\ \\ ] .</span>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch041/q0027_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\boldsymbol{2}.\">\\boldsymbol{2}.</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch041/q0027_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\frac{2}{3}\\,;\">\\frac{2}{3}\\,;</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch041/q0027_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\frac{3}{2};\">\\frac{3}{2};</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch041/q0027_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\frac { 1 } { 2 } \\, ;\">\\frac { 1 } { 2 } \\, ;</span>"
         }
       ],
       "answer": "C",
       "answer_index": 2,
-      "analysis_html": "<img src=\"/static/generated/assets/advanced-math/ch041/q0027_analysis.png\"/>"
+      "analysis_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{aligned}&amp;\\lim_{x \\rightarrow 0} \\frac{e^{x^2}-\\cos x}{x^2} \\\\&amp;=\\lim_{x \\rightarrow 0} \\frac{\\left(1+x^2+o(x^2)\\right)-\\left(1-\\frac{x^2}{2!}+o(x^2)\\right)}{x^4} \\\\&amp;=\\lim_{x \\rightarrow 0} \\frac{2^{\\frac{3}{2}x^2+o(x^2)}}{x^2}=\\frac{3}{2}.\\end{aligned}\">\\begin{aligned}&amp;\\lim_{x \\rightarrow 0} \\frac{e^{x^2}-\\cos x}{x^2} \\\\&amp;=\\lim_{x \\rightarrow 0} \\frac{\\left(1+x^2+o(x^2)\\right)-\\left(1-\\frac{x^2}{2!}+o(x^2)\\right)}{x^4} \\\\&amp;=\\lim_{x \\rightarrow 0} \\frac{2^{\\frac{3}{2}x^2+o(x^2)}}{x^2}=\\frac{3}{2}.\\end{aligned}</div>"
     }
-  ]
+  ],
+  "format": "latex",
+  "source_md": "gs/3.2.3_泰勒公式的应用(27题)/3.2.3_泰勒公式的应用(27题).md"
 }

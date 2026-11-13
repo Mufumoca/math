@@ -13,560 +13,562 @@
       "number": 1,
       "header": "#1-Easy",
       "difficulty": "Easy",
-      "prompt_html": "<img src=\"/static/generated/assets/probability/ch127/q0001_prompt.png\"/>",
+      "prompt_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{aligned}\\text{设样本}X_{1},X_{2},\\cdots,X_{n}\\text{来自总体}X\\sim N(\\mu,\\sigma^{2})\\text{，其中}\\mu\\text{已知. 对}\\sigma^{2}\\text{作假设检验，提出假设：}H_{0}:\\sigma^{2}\\leq\\sigma_{0}^{2},\\ H_{1}:\\sigma^{2}&gt;\\sigma_{0}^{2},\\\\ \\text{给定显著水平}\\alpha\\text{，检验的拒绝域为（）.}\\end{aligned}\">\\begin{aligned}\\text{设样本}X_{1},X_{2},\\cdots,X_{n}\\text{来自总体}X\\sim N(\\mu,\\sigma^{2})\\text{，其中}\\mu\\text{已知. 对}\\sigma^{2}\\text{作假设检验，提出假设：}H_{0}:\\sigma^{2}\\leq\\sigma_{0}^{2},\\ H_{1}:\\sigma^{2}&gt;\\sigma_{0}^{2},\\\\ \\text{给定显著水平}\\alpha\\text{，检验的拒绝域为（）.}\\end{aligned}</div>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/probability/ch127/q0001_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\left( \\chi _{a}^{2} (n), + \\infty \\right)\">\\left( \\chi _{a}^{2} (n), + \\infty \\right)</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/probability/ch127/q0001_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\left( 0, \\chi_{1-a}^{2}(n) \\right)\">\\left( 0, \\chi_{1-a}^{2}(n) \\right)</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/probability/ch127/q0001_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\bigl(0, \\chi_{1-\\alpha/2}^{2}(n)\\bigr) \\cup \\bigl( \\chi_{\\alpha/2}^{2}(n), +\\infty \\bigr)\">\\bigl(0, \\chi_{1-\\alpha/2}^{2}(n)\\bigr) \\cup \\bigl( \\chi_{\\alpha/2}^{2}(n), +\\infty \\bigr)</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/probability/ch127/q0001_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\bigl(0,\\chi_{1-\\alpha}^{2}(n)\\bigr)\\cup\\bigl(\\chi_{\\alpha}^{2}(n),+\\infty\\bigr)\">\\bigl(0,\\chi_{1-\\alpha}^{2}(n)\\bigr)\\cup\\bigl(\\chi_{\\alpha}^{2}(n),+\\infty\\bigr)</span>"
         }
       ],
       "answer": "A",
       "answer_index": 0,
-      "analysis_html": "<img src=\"/static/generated/assets/probability/ch127/q0001_analysis.png\"/>"
+      "analysis_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{aligned}&amp;\\text{单正态方差的检验，若均值}\\mu\\text{已知，则}\\\\&amp;\\text{(1)检验假设为}H_{0}:\\sigma^{2}=\\sigma_{0}^{2},\\ H_{1}:\\sigma^{2}\\neq\\sigma_{0}^{2};\\\\&amp;\\text{(2)若}H_{0}\\text{为真，则有}\\chi^{2}=\\sum_{i=1}^{n}(\\frac{X_{i}-\\mu}{\\sigma_{0}})^{2}\\sim\\chi^{2}(n),\\text{此时拒绝域为}\\left(0,\\chi_{1-\\alpha/2}^{2}(n)\\right)\\cup\\left(\\chi_{\\alpha/2}^{2}(n),+\\infty\\right).\\text{其中}\\chi_{\\alpha}^{2}\\text{为}\\chi^{2}\\text{分布的}\\alpha\\text{分位数.}\\\\&amp;\\text{另外：右侧检验：}H_{0}:\\sigma^{2}\\leq\\sigma_{0}^{2},\\ H_{1}:\\sigma^{2}&gt;\\sigma_{0}^{2};\\text{此时拒绝域为}\\left(\\chi_{\\alpha}^{2}(n),+\\infty\\right).\\\\&amp;\\text{左侧检验：}H_{0}:\\sigma^{2}\\geq\\sigma_{0}^{2},\\ H_{1}:\\sigma^{2}&lt;\\sigma_{0}^{2};\\text{此时拒绝域为}\\left(0,\\chi_{1-\\alpha}^{2}(n)\\right).\\end{aligned}\">\\begin{aligned}&amp;\\text{单正态方差的检验，若均值}\\mu\\text{已知，则}\\\\&amp;\\text{(1)检验假设为}H_{0}:\\sigma^{2}=\\sigma_{0}^{2},\\ H_{1}:\\sigma^{2}\\neq\\sigma_{0}^{2};\\\\&amp;\\text{(2)若}H_{0}\\text{为真，则有}\\chi^{2}=\\sum_{i=1}^{n}(\\frac{X_{i}-\\mu}{\\sigma_{0}})^{2}\\sim\\chi^{2}(n),\\text{此时拒绝域为}\\left(0,\\chi_{1-\\alpha/2}^{2}(n)\\right)\\cup\\left(\\chi_{\\alpha/2}^{2}(n),+\\infty\\right).\\text{其中}\\chi_{\\alpha}^{2}\\text{为}\\chi^{2}\\text{分布的}\\alpha\\text{分位数.}\\\\&amp;\\text{另外：右侧检验：}H_{0}:\\sigma^{2}\\leq\\sigma_{0}^{2},\\ H_{1}:\\sigma^{2}&gt;\\sigma_{0}^{2};\\text{此时拒绝域为}\\left(\\chi_{\\alpha}^{2}(n),+\\infty\\right).\\\\&amp;\\text{左侧检验：}H_{0}:\\sigma^{2}\\geq\\sigma_{0}^{2},\\ H_{1}:\\sigma^{2}&lt;\\sigma_{0}^{2};\\text{此时拒绝域为}\\left(0,\\chi_{1-\\alpha}^{2}(n)\\right).\\end{aligned}</div>"
     },
     {
       "id": "q0002",
       "number": 2,
       "header": "#2-Averge",
       "difficulty": "Averge",
-      "prompt_html": "<img src=\"/static/generated/assets/probability/ch127/q0002_prompt.png\"/>",
+      "prompt_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{array}{l} \\text {设} X \\sim N(\\mu, \\sigma^{2}), \\text {其中} \\mu \\text {未知，从} X \\text {中抽取容量为} 10 \\text {的样本.对于假设：} H_{0}; \\sigma^{2} \\leq 0.02, \\ H_{1}; \\sigma^{2} &gt; 0.02, \\text {在显著性水平} 0.05 \\text {下，检验的拒绝域为}() . \\end{array}\">\\begin{array}{l} \\text {设} X \\sim N(\\mu, \\sigma^{2}), \\text {其中} \\mu \\text {未知，从} X \\text {中抽取容量为} 10 \\text {的样本.对于假设：} H_{0}; \\sigma^{2} \\leq 0.02, \\ H_{1}; \\sigma^{2} &gt; 0.02, \\text {在显著性水平} 0.05 \\text {下，检验的拒绝域为}() . \\end{array}</div>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/probability/ch127/q0002_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\begin{array}{l} 450 S ^ {2} \\geq \\chi_ {0. 05} ^ {2} (9) \\end{array}\">\\begin{array}{l} 450 S ^ {2} \\geq \\chi_ {0. 05} ^ {2} (9) \\end{array}</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/probability/ch127/q0002_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\begin{array}{l} 500 S ^ {2} \\geq \\chi_ {0. 05} ^ {2} (10) \\end{array}\">\\begin{array}{l} 500 S ^ {2} \\geq \\chi_ {0. 05} ^ {2} (10) \\end{array}</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/probability/ch127/q0002_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\begin{array}{l} 450 S ^ {2} \\leq \\chi_ {0. 95} ^ {2} (9) \\end{array}\">\\begin{array}{l} 450 S ^ {2} \\leq \\chi_ {0. 95} ^ {2} (9) \\end{array}</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/probability/ch127/q0002_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\begin{array}{l} 450 S ^ { 2 } \\leq \\chi _ { 0 . 975 } ^ { 2 } ( 9 ) \\text {或} 450 S ^ { 2 } \\geq \\chi _ { 0 . 025 } ^ { 2 } ( 9 ) \\end{array}\">\\begin{array}{l} 450 S ^ { 2 } \\leq \\chi _ { 0 . 975 } ^ { 2 } ( 9 ) \\text {或} 450 S ^ { 2 } \\geq \\chi _ { 0 . 025 } ^ { 2 } ( 9 ) \\end{array}</span>"
         }
       ],
       "answer": "A",
       "answer_index": 0,
-      "analysis_html": "<img src=\"/static/generated/assets/probability/ch127/q0002_analysis.png\"/>"
+      "analysis_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{aligned}&amp;\\text{检验统计量为} &amp; \\chi^2=\\frac{n-1}{\\sigma_0^2}S^c\\sim \\chi^2(n-1).\\\\&amp;\\text{现}\\sigma_0^2=0.02,\\text{拒绝域为} &amp; \\chi^2=\\frac{n-1}{0.02}S^2&gt;\\chi_0^2(n-1).\\\\&amp;\\text{将}n=10\\text{代入，得} &amp; 450S^2&gt;\\chi_{0.05}^2(9).\\end{aligned}\">\\begin{aligned}&amp;\\text{检验统计量为} &amp; \\chi^2=\\frac{n-1}{\\sigma_0^2}S^c\\sim \\chi^2(n-1).\\\\&amp;\\text{现}\\sigma_0^2=0.02,\\text{拒绝域为} &amp; \\chi^2=\\frac{n-1}{0.02}S^2&gt;\\chi_0^2(n-1).\\\\&amp;\\text{将}n=10\\text{代入，得} &amp; 450S^2&gt;\\chi_{0.05}^2(9).\\end{aligned}</div>"
     },
     {
       "id": "q0003",
       "number": 3,
       "header": "#3-Averge",
       "difficulty": "Averge",
-      "prompt_html": "<img src=\"/static/generated/assets/probability/ch127/q0003_prompt.png\"/>",
+      "prompt_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{aligned}&amp;\\text{机器包装食盐}，\\text{假设每袋盐的净重服从正态分布}，\\text{规定每袋标准含量为}500g，\\text{标准差不得超过}10g。\\text{某天开工后}，\\text{随机抽取}9\\text{袋}，\\text{测得净重如下}(\\text{单位}：g):497,507,510,475,515,484,488,524,491，s=16.031, \\sum_{i=1}^{9}(\\frac{x_{i}-500}{10})^{2}=20.65。\\text{若每袋标准含量不变}，\\text{在显著性水平}\\alpha=0.05\\text{下检验标准差是否超过}10g，\\text{下列说法中不正确的是}（）。\\\\&amp;\\chi^{2}_{0.05}(9)=16.919, \\chi^{2}_{0.05}(8)=15.507, \\chi^{2}_{0.95}(9)=3.325, \\chi^{2}_{0.95}(8)=2.733。\\end{aligned}\">\\begin{aligned}&amp;\\text{机器包装食盐}，\\text{假设每袋盐的净重服从正态分布}，\\text{规定每袋标准含量为}500g，\\text{标准差不得超过}10g。\\text{某天开工后}，\\text{随机抽取}9\\text{袋}，\\text{测得净重如下}(\\text{单位}：g):497,507,510,475,515,484,488,524,491，s=16.031, \\sum_{i=1}^{9}(\\frac{x_{i}-500}{10})^{2}=20.65。\\text{若每袋标准含量不变}，\\text{在显著性水平}\\alpha=0.05\\text{下检验标准差是否超过}10g，\\text{下列说法中不正确的是}（）。\\\\&amp;\\chi^{2}_{0.05}(9)=16.919, \\chi^{2}_{0.05}(8)=15.507, \\chi^{2}_{0.95}(9)=3.325, \\chi^{2}_{0.95}(8)=2.733。\\end{aligned}</div>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/probability/ch127/q0003_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{在} \\alpha = 0 . 05 \\text{下，可以认为该天每袋盐的标准差未超过} 10 \\mathrm{g} .\">\\text{在} \\alpha = 0 . 05 \\text{下，可以认为该天每袋盐的标准差未超过} 10 \\mathrm{g} .</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/probability/ch127/q0003_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{检验统计量为} \\chi ^ { 2 } = \\frac { \\left( n - 1 \\right) S ^ { 2 } } { \\sigma _ { 0 } ^ { 2 } }\">\\text{检验统计量为} \\chi ^ { 2 } = \\frac { \\left( n - 1 \\right) S ^ { 2 } } { \\sigma _ { 0 } ^ { 2 } }</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/probability/ch127/q0003_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\overline { x } = 499 , \\, s \\approx 16 . 031\">\\overline { x } = 499 , \\, s \\approx 16 . 031</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/probability/ch127/q0003_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{在} \\alpha = 0.05 \\text{下，可以认为该天每袋盐的标准差超过} 10 \\mathrm{g}.\">\\text{在} \\alpha = 0.05 \\text{下，可以认为该天每袋盐的标准差超过} 10 \\mathrm{g}.</span>"
         }
       ],
       "answer": "A",
       "answer_index": 0,
-      "analysis_html": "<img src=\"/static/generated/assets/probability/ch127/q0003_analysis.png\"/>"
+      "analysis_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{aligned}&amp;\\text{应假设检验：}H_{0}: \\sigma \\geq 10, \\, H_{1}: \\sigma &lt; 10.\\,\\, \\text{检验统计量为} \\,\\chi^{2}=\\sum_{i=1}^{n} \\left( \\frac{X_{i}-500}{\\sigma_{0}} \\right)^{2} \\sim \\chi^{2}(n).\\,\\, \\text{拒绝域为} \\,\\chi^{2} \\leq \\chi^{2}_{1-\\alpha}(n).\\,\\, \\\\&amp;\\text{把} \\, n=9, \\, \\sigma_{0}=10, \\,\\sum_{i=1}^{n} \\left( \\frac{X_{i}-500}{10} \\right)^{2}=20.65, \\, \\alpha=0.05 \\text{代入，得} \\,\\chi^{2}=20.65 &gt; \\chi^{2}_{0.95}(9)=3.325.\\,\\, \\\\&amp;\\text{故接受} \\, H_{0}, \\,\\, \\text{即认为该天每袋盐的标准差超过} 10g.\\end{aligned}\">\\begin{aligned}&amp;\\text{应假设检验：}H_{0}: \\sigma \\geq 10, \\, H_{1}: \\sigma &lt; 10.\\,\\, \\text{检验统计量为} \\,\\chi^{2}=\\sum_{i=1}^{n} \\left( \\frac{X_{i}-500}{\\sigma_{0}} \\right)^{2} \\sim \\chi^{2}(n).\\,\\, \\text{拒绝域为} \\,\\chi^{2} \\leq \\chi^{2}_{1-\\alpha}(n).\\,\\, \\\\&amp;\\text{把} \\, n=9, \\, \\sigma_{0}=10, \\,\\sum_{i=1}^{n} \\left( \\frac{X_{i}-500}{10} \\right)^{2}=20.65, \\, \\alpha=0.05 \\text{代入，得} \\,\\chi^{2}=20.65 &gt; \\chi^{2}_{0.95}(9)=3.325.\\,\\, \\\\&amp;\\text{故接受} \\, H_{0}, \\,\\, \\text{即认为该天每袋盐的标准差超过} 10g.\\end{aligned}</div>"
     },
     {
       "id": "q0004",
       "number": 4,
       "header": "#4-Averge",
       "difficulty": "Averge",
-      "prompt_html": "<img src=\"/static/generated/assets/probability/ch127/q0004_prompt.png\"/>",
+      "prompt_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{aligned}&amp;\\text{某厂生产的铜丝，要求其折断力的方差不超过}16N^2.\\text{今从某日生产的铜丝中随机抽取容量为9的样本，测得其折断力(单位：}m\\text{如下：}289,286,285,286,284,285,286,298,292,S^2=20.36.\\text{假设折断力服从正态分布，检验该日生产的铜丝折断力的方差是否超过标准}(\\alpha=0.05),\\text{下列说法中不正确的是( ).}(\\chi_{0.05}^2(8)=15.507,\\\\&amp;\\chi_{0.95}^2(8)=2.733\\text{)}.\\end{aligned}\">\\begin{aligned}&amp;\\text{某厂生产的铜丝，要求其折断力的方差不超过}16N^2.\\text{今从某日生产的铜丝中随机抽取容量为9的样本，测得其折断力(单位：}m\\text{如下：}289,286,285,286,284,285,286,298,292,S^2=20.36.\\text{假设折断力服从正态分布，检验该日生产的铜丝折断力的方差是否超过标准}(\\alpha=0.05),\\text{下列说法中不正确的是( ).}(\\chi_{0.05}^2(8)=15.507,\\\\&amp;\\chi_{0.95}^2(8)=2.733\\text{)}.\\end{aligned}</div>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/probability/ch127/q0004_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{可以认为铜丝折断力的方差超过了} \\, 16 N ^ { 2 }\">\\text{可以认为铜丝折断力的方差超过了} \\, 16 N ^ { 2 }</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/probability/ch127/q0004_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{应检验假设：} \\ H_{0} \\colon \\sigma^{2} \\leq 16, \\, H_{1} \\colon \\sigma^{2} &gt; 16\">\\text{应检验假设：} \\ H_{0} \\colon \\sigma^{2} \\leq 16, \\, H_{1} \\colon \\sigma^{2} &gt; 16</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/probability/ch127/q0004_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\bar { x } \\approx 287 . 89 , s ^ { 2 } \\approx 20 . 3611\">\\bar { x } \\approx 287 . 89 , s ^ { 2 } \\approx 20 . 3611</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/probability/ch127/q0004_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{检验统计量为} \\chi ^ { 2 } = \\frac { 8 S ^ { 2 } } { 16 }\">\\text{检验统计量为} \\chi ^ { 2 } = \\frac { 8 S ^ { 2 } } { 16 }</span>"
         }
       ],
       "answer": "A",
       "answer_index": 0,
-      "analysis_html": "<img src=\"/static/generated/assets/probability/ch127/q0004_analysis.png\"/>"
+      "analysis_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{aligned}&amp;\\text{应检验假设}H_{0}: \\sigma^{2}\\leq 16,\\quad H_{1}: \\sigma^{2}&gt;16,\\\\&amp;\\text{检验统计量为}\\chi^{2}=\\frac{(n-1)S^{2}}{16}\\sim\\chi^{2}(n-1).\\\\&amp;\\text{拒绝域为}(\\chi^{2}_{0.05}(8),+\\infty).\\\\&amp;\\text{现}n=9,\\quad a=0.05,\\quad s^{2}\\approx 20.3611,\\quad\\chi^{2}=\\frac{8\\times s^{2}}{16}\\approx 10.181,\\quad\\chi^{2}&lt;\\chi^{2}_{0.05}(8)=15.507,\\\\&amp;\\text{故接受}H_{0},\\text{认为铜丝的折断力的方差不超过}16N^{2}.\\end{aligned}\">\\begin{aligned}&amp;\\text{应检验假设}H_{0}: \\sigma^{2}\\leq 16,\\quad H_{1}: \\sigma^{2}&gt;16,\\\\&amp;\\text{检验统计量为}\\chi^{2}=\\frac{(n-1)S^{2}}{16}\\sim\\chi^{2}(n-1).\\\\&amp;\\text{拒绝域为}(\\chi^{2}_{0.05}(8),+\\infty).\\\\&amp;\\text{现}n=9,\\quad a=0.05,\\quad s^{2}\\approx 20.3611,\\quad\\chi^{2}=\\frac{8\\times s^{2}}{16}\\approx 10.181,\\quad\\chi^{2}&lt;\\chi^{2}_{0.05}(8)=15.507,\\\\&amp;\\text{故接受}H_{0},\\text{认为铜丝的折断力的方差不超过}16N^{2}.\\end{aligned}</div>"
     },
     {
       "id": "q0005",
       "number": 5,
       "header": "#5-Easy",
       "difficulty": "Easy",
-      "prompt_html": "<img src=\"/static/generated/assets/probability/ch127/q0005_prompt.png\"/>",
+      "prompt_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{array}{l} \\text {设样本}X_{1},X_{2},\\cdots,X_{n}\\text {来自总体}X\\sim N(\\mu,\\sigma^{2})，\\text{其中}\\mu \\text{已知}. \\text{对}\\sigma^{2} \\text{作假设检验}，\\text{提出假设}：H_{0}: \\sigma^{2}=\\sigma_{0}^{2},\\ H_{1}: \\sigma^{2}\\neq\\sigma_{0}^{2}, \\\\ \\text {给定显著水平}\\alpha,\\text {检验的拒绝域为}().\\end{array}\">\\begin{array}{l} \\text {设样本}X_{1},X_{2},\\cdots,X_{n}\\text {来自总体}X\\sim N(\\mu,\\sigma^{2})，\\text{其中}\\mu \\text{已知}. \\text{对}\\sigma^{2} \\text{作假设检验}，\\text{提出假设}：H_{0}: \\sigma^{2}=\\sigma_{0}^{2},\\ H_{1}: \\sigma^{2}\\neq\\sigma_{0}^{2}, \\\\ \\text {给定显著水平}\\alpha,\\text {检验的拒绝域为}().\\end{array}</div>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/probability/ch127/q0005_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\bigl(0, \\chi_{1-a/2}^2(n)\\bigr) \\cup \\bigl( \\chi_{a/2}^2(n), +\\infty \\bigr)\">\\bigl(0, \\chi_{1-a/2}^2(n)\\bigr) \\cup \\bigl( \\chi_{a/2}^2(n), +\\infty \\bigr)</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/probability/ch127/q0005_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\left( 0, \\chi_{1-\\alpha}^{2} (n) \\right)\">\\left( 0, \\chi_{1-\\alpha}^{2} (n) \\right)</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/probability/ch127/q0005_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\left(\\chi_{\\alpha}^{2}(n),+\\infty\\right)\">\\left(\\chi_{\\alpha}^{2}(n),+\\infty\\right)</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/probability/ch127/q0005_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\bigl(0,\\chi_{1-\\alpha}^{2}(n)\\bigr)\\smile\\bigl(\\chi_{\\alpha}^{2}(n),+\\infty\\bigr)\">\\bigl(0,\\chi_{1-\\alpha}^{2}(n)\\bigr)\\smile\\bigl(\\chi_{\\alpha}^{2}(n),+\\infty\\bigr)</span>"
         }
       ],
       "answer": "A",
       "answer_index": 0,
-      "analysis_html": "<img src=\"/static/generated/assets/probability/ch127/q0005_analysis.png\"/>"
+      "analysis_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{aligned}&amp;\\text{单正态方差的检验,若均值}\\mu \\text{已知,则}\\\\&amp;\\text{(1)检验假设为}H_{0}:\\sigma^{2}=\\sigma_{0}^{2},\\ H_{1}:\\sigma^{2}\\neq \\sigma_{0}^{2};\\\\&amp;\\text{(2)若}H_{0}\\text{为真,则有}\\chi^{2}=\\sum_{i=1}^{n}(\\frac{X_{i}-\\mu}{\\sigma_{0}})^{2}&gt;\\chi^{2}(n),\\text{此时拒绝域为}\\left(0,\\chi^{2}_{1-\\alpha/2}(n)\\right)\\cup\\left(\\chi^{2}_{\\alpha/2}(n),+\\infty\\right).\\text{其中}\\chi^{2}_{\\alpha}\\text{为}\\chi^{2}\\text{分布的}\\alpha\\text{分位数}.\\quad\\\\&amp;\\text{另外：右侧检验：}H_{0}:\\sigma^{2}\\leq \\sigma_{0}^{2},\\ H_{1}:\\sigma^{2}&gt;\\sigma_{0}^{2};\\text{此时拒绝域为}\\left(\\chi^{2}_{0}(n),+\\infty\\right).\\quad\\\\&amp;\\text{左侧检验：}H_{0}:\\sigma^{2}\\geq \\sigma_{0}^{2},\\ H_{1}:\\sigma^{2}&lt;\\sigma_{0}^{2};\\text{此时拒绝域为}\\left(0,\\chi^{2}_{1-\\alpha}(n)\\right).\\end{aligned}\">\\begin{aligned}&amp;\\text{单正态方差的检验,若均值}\\mu \\text{已知,则}\\\\&amp;\\text{(1)检验假设为}H_{0}:\\sigma^{2}=\\sigma_{0}^{2},\\ H_{1}:\\sigma^{2}\\neq \\sigma_{0}^{2};\\\\&amp;\\text{(2)若}H_{0}\\text{为真,则有}\\chi^{2}=\\sum_{i=1}^{n}(\\frac{X_{i}-\\mu}{\\sigma_{0}})^{2}&gt;\\chi^{2}(n),\\text{此时拒绝域为}\\left(0,\\chi^{2}_{1-\\alpha/2}(n)\\right)\\cup\\left(\\chi^{2}_{\\alpha/2}(n),+\\infty\\right).\\text{其中}\\chi^{2}_{\\alpha}\\text{为}\\chi^{2}\\text{分布的}\\alpha\\text{分位数}.\\quad\\\\&amp;\\text{另外：右侧检验：}H_{0}:\\sigma^{2}\\leq \\sigma_{0}^{2},\\ H_{1}:\\sigma^{2}&gt;\\sigma_{0}^{2};\\text{此时拒绝域为}\\left(\\chi^{2}_{0}(n),+\\infty\\right).\\quad\\\\&amp;\\text{左侧检验：}H_{0}:\\sigma^{2}\\geq \\sigma_{0}^{2},\\ H_{1}:\\sigma^{2}&lt;\\sigma_{0}^{2};\\text{此时拒绝域为}\\left(0,\\chi^{2}_{1-\\alpha}(n)\\right).\\end{aligned}</div>"
     },
     {
       "id": "q0006",
       "number": 6,
       "header": "#6-Averge",
       "difficulty": "Averge",
-      "prompt_html": "<img src=\"/static/generated/assets/probability/ch127/q0006_prompt.png\"/>",
+      "prompt_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{aligned}&amp; \\text{设总体}X\\sim N(\\mu,\\sigma^{2})，\\text{其中}\\mu\\text{未知},\\,X_{1},X_{2},\\cdots,X_{11}\\text{是一组样本，提出假设：}H_{0}: \\sigma^{2}=\\sigma_{0}^{2},\\ H_{1}: \\sigma^{2}\\neq\\sigma_{0}^{2}(\\sigma_{0}^{2}\\text{已知})，\\text{那么} \\\\&amp; \\text{在显著性水平}\\alpha=0.05\\text{下，拒绝域是( ). }(\\chi_{0.25}^{2}(10)=20.483,\\chi_{0.975}^{2}(10)=3.247,\\chi_{0.05}^{2}(10)=18.307,\\chi_{0.95}^{2}(10)=3.94)\\end{aligned}\">\\begin{aligned}&amp; \\text{设总体}X\\sim N(\\mu,\\sigma^{2})，\\text{其中}\\mu\\text{未知},\\,X_{1},X_{2},\\cdots,X_{11}\\text{是一组样本，提出假设：}H_{0}: \\sigma^{2}=\\sigma_{0}^{2},\\ H_{1}: \\sigma^{2}\\neq\\sigma_{0}^{2}(\\sigma_{0}^{2}\\text{已知})，\\text{那么} \\\\&amp; \\text{在显著性水平}\\alpha=0.05\\text{下，拒绝域是( ). }(\\chi_{0.25}^{2}(10)=20.483,\\chi_{0.975}^{2}(10)=3.247,\\chi_{0.05}^{2}(10)=18.307,\\chi_{0.95}^{2}(10)=3.94)\\end{aligned}</div>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/probability/ch127/q0006_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{拒绝域为} \\, (0, \\chi_{1-\\alpha/2}^2 (n-1)) \\cup (\\chi_{\\alpha/2}^2 (n-1), +\\infty)\">\\text{拒绝域为} \\, (0, \\chi_{1-\\alpha/2}^2 (n-1)) \\cup (\\chi_{\\alpha/2}^2 (n-1), +\\infty)</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/probability/ch127/q0006_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"( - \\infty , 3 . 247 ) \\cup ( 20 . 483 , + \\infty )\">( - \\infty , 3 . 247 ) \\cup ( 20 . 483 , + \\infty )</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/probability/ch127/q0006_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"3.247 \\leq \\chi ^{2} \\leq 20.483\">3.247 \\leq \\chi ^{2} \\leq 20.483</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/probability/ch127/q0006_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\chi ^ { 2 } \\leq 3 . 94 \\text {或} \\chi ^ { 2 } \\geq 18 . 307\">\\chi ^ { 2 } \\leq 3 . 94 \\text {或} \\chi ^ { 2 } \\geq 18 . 307</span>"
         }
       ],
       "answer": "A",
       "answer_index": 0,
-      "analysis_html": "<img src=\"/static/generated/assets/probability/ch127/q0006_analysis.png\"/>"
+      "analysis_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{aligned}&amp;\\text{检验假设为}H_{0}: \\sigma^{2}=\\sigma_{0}^{2},\\ H_{1}: \\sigma^{2}\\neq \\sigma_{0}^{2};\\\\&amp;\\text{检验统计量}\\chi^{2}=\\sum_{i=1}^{n}\\frac{X_{i}-\\overline{X}}{\\sigma_{0}}^{2}=\\frac{n-1}{\\sigma_{0}^{2}}S^{2}\\sim \\chi^{2}(n-1),\\ \\text{拒绝域为}\\ (0,\\chi^{2}_{n-1/2}(n-1))\\cup (\\chi^{2}_{n/2}(n-1),+\\infty)\\,.\\end{aligned}\">\\begin{aligned}&amp;\\text{检验假设为}H_{0}: \\sigma^{2}=\\sigma_{0}^{2},\\ H_{1}: \\sigma^{2}\\neq \\sigma_{0}^{2};\\\\&amp;\\text{检验统计量}\\chi^{2}=\\sum_{i=1}^{n}\\frac{X_{i}-\\overline{X}}{\\sigma_{0}}^{2}=\\frac{n-1}{\\sigma_{0}^{2}}S^{2}\\sim \\chi^{2}(n-1),\\ \\text{拒绝域为}\\ (0,\\chi^{2}_{n-1/2}(n-1))\\cup (\\chi^{2}_{n/2}(n-1),+\\infty)\\,.\\end{aligned}</div>"
     },
     {
       "id": "q0007",
       "number": 7,
       "header": "#7-Averge",
       "difficulty": "Averge",
-      "prompt_html": "<img src=\"/static/generated/assets/probability/ch127/q0007_prompt.png\"/>",
+      "prompt_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{aligned} \\text{某工厂生产金属丝，产品指标为折断力。折断力的方差被用作工厂生产精度的表征，方差越小，表明精度越高，以往工厂一直把该方差保持在} 64(kg^2) \\text{及以下。最近从一批产品中选取}\\text{10}\\text{根作折断力试验，测得的结果}\\text{(}\\text{单位：千克}\\text{)}\\text{如下：}\\text{578}\\text{，}\\text{572}\\text{，}\\text{560}\\text{，}\\text{578}\\text{，}\\text{572}\\text{，}\\text{570}\\text{，}\\text{572}\\text{，}\\text{596}\\text{，}\\text{584}\\text{，}\\text{570}\\text{，} S^2=75.4 \\text{。如果金属丝折断力的方差变大，则表明生产精度不如以前，厂方就需对生产流程作检验，以发现生产环节中存在的问题。现在厂方有怀疑，在显著性水平为} \\alpha=0.05 \\text{下，下列说法不正确的是}\\text{()}\\text{。} (\\chi^2_{0.05}(9)=16.91,\\chi^2_{0.95}(9)=3.325)  \\end{aligned}\">\\begin{aligned} \\text{某工厂生产金属丝，产品指标为折断力。折断力的方差被用作工厂生产精度的表征，方差越小，表明精度越高，以往工厂一直把该方差保持在} 64(kg^2) \\text{及以下。最近从一批产品中选取}\\text{10}\\text{根作折断力试验，测得的结果}\\text{(}\\text{单位：千克}\\text{)}\\text{如下：}\\text{578}\\text{，}\\text{572}\\text{，}\\text{560}\\text{，}\\text{578}\\text{，}\\text{572}\\text{，}\\text{570}\\text{，}\\text{572}\\text{，}\\text{596}\\text{，}\\text{584}\\text{，}\\text{570}\\text{，} S^2=75.4 \\text{。如果金属丝折断力的方差变大，则表明生产精度不如以前，厂方就需对生产流程作检验，以发现生产环节中存在的问题。现在厂方有怀疑，在显著性水平为} \\alpha=0.05 \\text{下，下列说法不正确的是}\\text{()}\\text{。} (\\chi^2_{0.05}(9)=16.91,\\chi^2_{0.95}(9)=3.325)  \\end{aligned}</div>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/probability/ch127/q0007_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{可以认为生产环节存在问题}\">\\text{可以认为生产环节存在问题}</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/probability/ch127/q0007_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\begin{aligned}\\overline{x} = 575.2 \\, , \\ \\ s^2 = 75.74\\end{aligned}\">\\begin{aligned}\\overline{x} = 575.2 \\, , \\ \\ s^2 = 75.74\\end{aligned}</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/probability/ch127/q0007_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\begin{aligned}\\text{应检验假设：} \\ H_{0}\\colon \\sigma^{2} \\leq 64 \\, , \\ \\ H_{1}\\colon \\sigma^{2} &gt; 64\\end{aligned}\">\\begin{aligned}\\text{应检验假设：} \\ H_{0}\\colon \\sigma^{2} \\leq 64 \\, , \\ \\ H_{1}\\colon \\sigma^{2} &gt; 64\\end{aligned}</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/probability/ch127/q0007_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{检验统计量为} \\chi ^ { 2 } = \\frac { ( n - 1 ) S ^ { 2 } } { \\sigma _ { 0 } ^ { 2 } }\">\\text{检验统计量为} \\chi ^ { 2 } = \\frac { ( n - 1 ) S ^ { 2 } } { \\sigma _ { 0 } ^ { 2 } }</span>"
         }
       ],
       "answer": "A",
       "answer_index": 0,
-      "analysis_html": "<img src=\"/static/generated/assets/probability/ch127/q0007_analysis.png\"/>"
+      "analysis_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{aligned}&amp;\\text{为确认上述疑虑是否为真，假定金属丝折断力服从正态分布，并作下述假设检验：}\\\\&amp;H_0:\\sigma^2\\leqslant 64,\\ H_1:\\sigma^2&gt;64.\\\\&amp;\\text{上述假设检验问题可利用} \\chi^2 \\text{检验法的右侧检验法来检验，就本例中而言，相应于}\\sigma^2_0=64,n=10.\\text{对于给定的显著性水}\\alpha=0.05，\\text{查表知}，\\chi^2_{0.05}(9)=16.919.\\text{经计算得}\\bar{x}=575.2,\\ s^2=75.74.\\\\&amp;\\text{从而有}\\ \\ \\chi^2=\\frac{n-1}{\\sigma^2_0}s^2=\\frac{9\\times 75.74}{64}=10.65\\leqslant 16.919=\\chi^2_{0.05}(9),\\\\&amp;\\text{故不能拒绝原假设}H_0,\\text{从而认为样本方差的偏大系偶然因素，生产流程正常，故不再作进一步的检查。}\\end{aligned}\">\\begin{aligned}&amp;\\text{为确认上述疑虑是否为真，假定金属丝折断力服从正态分布，并作下述假设检验：}\\\\&amp;H_0:\\sigma^2\\leqslant 64,\\ H_1:\\sigma^2&gt;64.\\\\&amp;\\text{上述假设检验问题可利用} \\chi^2 \\text{检验法的右侧检验法来检验，就本例中而言，相应于}\\sigma^2_0=64,n=10.\\text{对于给定的显著性水}\\alpha=0.05，\\text{查表知}，\\chi^2_{0.05}(9)=16.919.\\text{经计算得}\\bar{x}=575.2,\\ s^2=75.74.\\\\&amp;\\text{从而有}\\ \\ \\chi^2=\\frac{n-1}{\\sigma^2_0}s^2=\\frac{9\\times 75.74}{64}=10.65\\leqslant 16.919=\\chi^2_{0.05}(9),\\\\&amp;\\text{故不能拒绝原假设}H_0,\\text{从而认为样本方差的偏大系偶然因素，生产流程正常，故不再作进一步的检查。}\\end{aligned}</div>"
     },
     {
       "id": "q0008",
       "number": 8,
       "header": "#8-Easy",
       "difficulty": "Easy",
-      "prompt_html": "<img src=\"/static/generated/assets/probability/ch127/q0008_prompt.png\"/>",
+      "prompt_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{aligned} \\text{长期以来，某厂生产的某种型号的电池，其寿命服从方差}\\sigma^2=5000h^2\\text{的正态分布.} \\text{现有一批这种电池，从它的生产情况来看，寿命的波动性有所改变. 现随机取了26只电池，测得其寿命的样本方差}s^2=9200h^2, \\text{根据这一数据推断这批电池的寿命的波动性较以往有无显著变化(}a=0.02\\text{),应提出假设：(.)} \\end{aligned}\">\\begin{aligned} \\text{长期以来，某厂生产的某种型号的电池，其寿命服从方差}\\sigma^2=5000h^2\\text{的正态分布.} \\text{现有一批这种电池，从它的生产情况来看，寿命的波动性有所改变. 现随机取了26只电池，测得其寿命的样本方差}s^2=9200h^2, \\text{根据这一数据推断这批电池的寿命的波动性较以往有无显著变化(}a=0.02\\text{),应提出假设：(.)} \\end{aligned}</div>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/probability/ch127/q0008_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\begin{aligned}H_0: \\sigma^2 = 5000 \\, , \\;\\; H_1: \\sigma^2 \\neq 5000\\end{aligned}\">\\begin{aligned}H_0: \\sigma^2 = 5000 \\, , \\;\\; H_1: \\sigma^2 \\neq 5000\\end{aligned}</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/probability/ch127/q0008_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\begin{aligned}H_0: \\sigma^2 = 9200 \\, , \\; \\; H_1: \\sigma^2 \\neq 9200\\end{aligned}\">\\begin{aligned}H_0: \\sigma^2 = 9200 \\, , \\; \\; H_1: \\sigma^2 \\neq 9200\\end{aligned}</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/probability/ch127/q0008_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\begin{aligned}H_0: \\sigma^2 &gt; 5000 \\, , \\,\\,\\, H_1: \\sigma^2 \\leq 5000\\end{aligned}\">\\begin{aligned}H_0: \\sigma^2 &gt; 5000 \\, , \\,\\,\\, H_1: \\sigma^2 \\leq 5000\\end{aligned}</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/probability/ch127/q0008_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\begin{aligned}H_0: \\sigma^2 &lt; 5000 \\, , \\;\\; H_1: \\sigma^2 \\geq 5000\\end{aligned}\">\\begin{aligned}H_0: \\sigma^2 &lt; 5000 \\, , \\;\\; H_1: \\sigma^2 \\geq 5000\\end{aligned}</span>"
         }
       ],
       "answer": "A",
       "answer_index": 0,
-      "analysis_html": "<img src=\"/static/generated/assets/probability/ch127/q0008_analysis.png\"/>"
+      "analysis_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{aligned}&amp;\\text{正态总体方差的检验，均值}\\mu\\text{未知，检验假设为}H_{0};\\sigma^{2}=\\sigma_{0}^{2},\\;H_{1};\\sigma^{2}\\neq\\sigma_{0}^{2}.\\\\&amp;\\text{若}H_{0}\\text{为真，检验统计量为}\\chi^{2}=\\frac{n-1}{\\sigma_{0}^{2}}S^{2}\\sim\\chi^{2}(n-1)\\text{，拒绝域为}\\left(0,\\chi_{1-\\alpha_{2}}^{-}(n-1)\\right)\\cup\\left(\\chi_{\\alpha_{2}}^{-}(n-1),+\\infty\\right).\\\\&amp;\\quad s^{2}=9200,\\;n=26,\\;\\chi_{0.01}^{-}(25)=44.314,\\;\\chi_{0.99}^{-}(25)=11.524\\text{，得}\\frac{\\left(n-1\\right)s^{2}}{\\sigma_{0}^{2}}=46&gt;44.314,\\text{故拒绝}H_{0}\\text{，即认为这批电池的寿命的波动性特征以往有显著变化}.\\end{aligned}\">\\begin{aligned}&amp;\\text{正态总体方差的检验，均值}\\mu\\text{未知，检验假设为}H_{0};\\sigma^{2}=\\sigma_{0}^{2},\\;H_{1};\\sigma^{2}\\neq\\sigma_{0}^{2}.\\\\&amp;\\text{若}H_{0}\\text{为真，检验统计量为}\\chi^{2}=\\frac{n-1}{\\sigma_{0}^{2}}S^{2}\\sim\\chi^{2}(n-1)\\text{，拒绝域为}\\left(0,\\chi_{1-\\alpha_{2}}^{-}(n-1)\\right)\\cup\\left(\\chi_{\\alpha_{2}}^{-}(n-1),+\\infty\\right).\\\\&amp;\\quad s^{2}=9200,\\;n=26,\\;\\chi_{0.01}^{-}(25)=44.314,\\;\\chi_{0.99}^{-}(25)=11.524\\text{，得}\\frac{\\left(n-1\\right)s^{2}}{\\sigma_{0}^{2}}=46&gt;44.314,\\text{故拒绝}H_{0}\\text{，即认为这批电池的寿命的波动性特征以往有显著变化}.\\end{aligned}</div>"
     },
     {
       "id": "q0009",
       "number": 9,
       "header": "#9-Averge",
       "difficulty": "Averge",
-      "prompt_html": "<img src=\"/static/generated/assets/probability/ch127/q0009_prompt.png\"/>",
+      "prompt_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{aligned} \\text{过去经验显示，高三学生完成标准考试的时间为一正态变量，其标准差为} 6\\text{min. 若随机样本为} 20\\text{位学生，样本标准差为} s=4.51，\\text{那么在显著性水平} \\alpha=0.05 \\text{下，怀疑总体标准差变小所进行的假设检验，下面说法不正确的是} \\quad(\\quad) . \\quad \\chi^2_{0.05}(19)=30.144, \\chi^2_{0.95}(19)=10.117 \\end{aligned}\">\\begin{aligned} \\text{过去经验显示，高三学生完成标准考试的时间为一正态变量，其标准差为} 6\\text{min. 若随机样本为} 20\\text{位学生，样本标准差为} s=4.51，\\text{那么在显著性水平} \\alpha=0.05 \\text{下，怀疑总体标准差变小所进行的假设检验，下面说法不正确的是} \\quad(\\quad) . \\quad \\chi^2_{0.05}(19)=30.144, \\chi^2_{0.95}(19)=10.117 \\end{aligned}</div>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/probability/ch127/q0009_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{可以认为} \\, \\sigma &lt; 6\">\\text{可以认为} \\, \\sigma &lt; 6</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/probability/ch127/q0009_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{应检验假设：} \\ H_{0} \\colon \\sigma \\geq 6, \\ H_{1} \\colon \\sigma &lt; 6\">\\text{应检验假设：} \\ H_{0} \\colon \\sigma \\geq 6, \\ H_{1} \\colon \\sigma &lt; 6</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/probability/ch127/q0009_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{拒绝域为} \\, \\chi ^ { 2 } \\leq 10 . 117\">\\text{拒绝域为} \\, \\chi ^ { 2 } \\leq 10 . 117</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/probability/ch127/q0009_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{检验统计量的观测值为} \\chi ^ { 2 } \\approx 10 . 74\">\\text{检验统计量的观测值为} \\chi ^ { 2 } \\approx 10 . 74</span>"
         }
       ],
       "answer": "A",
       "answer_index": 0,
-      "analysis_html": "<img src=\"/static/generated/assets/probability/ch127/q0009_analysis.png\"/>"
+      "analysis_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{aligned}&amp;\\text{假设检验}\\;H_{0}:\\;\\sigma\\geq 6,\\;H_{1}:\\;\\sigma&lt;6.\\\\&amp;\\text{检验统计量为}\\;\\chi^{2}=\\frac{(n-1)S^{2}}{6^{2}}\\sim\\chi^{2}(n-1)\\\\&amp;\\text{拒绝域为}\\;W=\\{\\chi^{2}&lt;\\chi^{2}_{1-6}(n-1)\\}.\\\\&amp;\\text{现}\\;\\alpha=0.05,\\;n-1=19,\\;s=4.51,\\;\\chi^{2}_{0.95}(19)=10.117,\\;\\\\&amp;\\text{得}\\;\\chi^{2}=\\frac{(20-1)\\times 4.51^{2}}{6^{2}}\\approx 10.74&gt;10.117,\\;\\text{故接受}\\;H_{0},\\;\\text{认为}\\;\\sigma\\geq 6.\\end{aligned}\">\\begin{aligned}&amp;\\text{假设检验}\\;H_{0}:\\;\\sigma\\geq 6,\\;H_{1}:\\;\\sigma&lt;6.\\\\&amp;\\text{检验统计量为}\\;\\chi^{2}=\\frac{(n-1)S^{2}}{6^{2}}\\sim\\chi^{2}(n-1)\\\\&amp;\\text{拒绝域为}\\;W=\\{\\chi^{2}&lt;\\chi^{2}_{1-6}(n-1)\\}.\\\\&amp;\\text{现}\\;\\alpha=0.05,\\;n-1=19,\\;s=4.51,\\;\\chi^{2}_{0.95}(19)=10.117,\\;\\\\&amp;\\text{得}\\;\\chi^{2}=\\frac{(20-1)\\times 4.51^{2}}{6^{2}}\\approx 10.74&gt;10.117,\\;\\text{故接受}\\;H_{0},\\;\\text{认为}\\;\\sigma\\geq 6.\\end{aligned}</div>"
     },
     {
       "id": "q0010",
       "number": 10,
       "header": "#10-Easy",
       "difficulty": "Easy",
-      "prompt_html": "<img src=\"/static/generated/assets/probability/ch127/q0010_prompt.png\"/>",
+      "prompt_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{array}{l} \\text{设总体} X \\sim N(\\mu, \\sigma^{2})，\\text{其中} \\mu, \\sigma^{2} \\text{未知，取得样本} X_{1},\\, X_{2},\\, \\ldots,\\, X_{n},\\, \\text{记} \\overline{X},\\, S^{2} \\text{为样本均值与样本方差，检验假设：} \\\\ H_{0}: \\sigma \\geq 2,\\, H_{1}: \\sigma &lt; 2,\\,\\,\\, \\text{应取检验统计量为（）.} \\end{array}\">\\begin{array}{l} \\text{设总体} X \\sim N(\\mu, \\sigma^{2})，\\text{其中} \\mu, \\sigma^{2} \\text{未知，取得样本} X_{1},\\, X_{2},\\, \\ldots,\\, X_{n},\\, \\text{记} \\overline{X},\\, S^{2} \\text{为样本均值与样本方差，检验假设：} \\\\ H_{0}: \\sigma \\geq 2,\\, H_{1}: \\sigma &lt; 2,\\,\\,\\, \\text{应取检验统计量为（）.} \\end{array}</div>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/probability/ch127/q0010_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\chi ^ { 2 } = \\frac { ( n - 1 ) S ^ { 2 } } { 4 }\">\\chi ^ { 2 } = \\frac { ( n - 1 ) S ^ { 2 } } { 4 }</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/probability/ch127/q0010_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\chi ^ { 2 } = \\frac { ( n - 1 ) S ^ { 2 } } { 8 }\">\\chi ^ { 2 } = \\frac { ( n - 1 ) S ^ { 2 } } { 8 }</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/probability/ch127/q0010_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\chi ^ { 2 } = \\frac { ( n - 1 ) S ^ { 2 } } { 2 }\">\\chi ^ { 2 } = \\frac { ( n - 1 ) S ^ { 2 } } { 2 }</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/probability/ch127/q0010_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\chi ^ { 2 } = \\frac { ( n - 1 ) S ^ { 2 } } { 6 }\">\\chi ^ { 2 } = \\frac { ( n - 1 ) S ^ { 2 } } { 6 }</span>"
         }
       ],
       "answer": "A",
       "answer_index": 0,
-      "analysis_html": "<img src=\"/static/generated/assets/probability/ch127/q0010_analysis.png\"/>"
+      "analysis_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{aligned} \\text{设总体}X\\sim N(\\mu,\\sigma^2),\\;X_1,X_2,\\cdots,X_n \\text{是取自} \\lambda\\text{的一个样本},\\;\\bar X\\text{与}S^2\\text{分别为样本的均值与样本方差.} \\\\ \\text{检验假设}H_0:\\sigma^2\\geq \\sigma_0^2,\\;H_1:\\sigma^2&lt;\\sigma_0^2\\text{的检验统计量为} \\\\ \\chi^2=\\frac{n-1}{\\sigma_0^2}S^2\\sim \\chi^2(n-1),\\\\ \\text{可得拒绝域为} \\\\ \\chi^2=\\frac{n-1}{\\sigma_0^2}S^2&gt;\\chi_0^2(n-1).\\end{aligned}\">\\begin{aligned} \\text{设总体}X\\sim N(\\mu,\\sigma^2),\\;X_1,X_2,\\cdots,X_n \\text{是取自} \\lambda\\text{的一个样本},\\;\\bar X\\text{与}S^2\\text{分别为样本的均值与样本方差.} \\\\ \\text{检验假设}H_0:\\sigma^2\\geq \\sigma_0^2,\\;H_1:\\sigma^2&lt;\\sigma_0^2\\text{的检验统计量为} \\\\ \\chi^2=\\frac{n-1}{\\sigma_0^2}S^2\\sim \\chi^2(n-1),\\\\ \\text{可得拒绝域为} \\\\ \\chi^2=\\frac{n-1}{\\sigma_0^2}S^2&gt;\\chi_0^2(n-1).\\end{aligned}</div>"
     },
     {
       "id": "q0011",
       "number": 11,
       "header": "#11-Easy",
       "difficulty": "Easy",
-      "prompt_html": "<img src=\"/static/generated/assets/probability/ch127/q0011_prompt.png\"/>",
+      "prompt_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{array}{l} \\text {设总体} X \\sim N(\\mu, \\sigma^{2}), \\text {其中} \\mu, \\sigma^{2} \\text {未知}, \\, X_{1}, X_{2}, \\cdots, X_{p} \\text {为样本，记} X = \\frac{1}{9} \\sum_{i=1}^{9} X_{i}, \\quad S^{2} = \\frac{1}{8} \\sum_{i=1}^{9} (X_{i} - X)^{2}, \\quad \\chi_{a}^{2}(n) \\text {为分为点，} P\\{\\chi^{2} &gt; \\chi_{a}^{2}(n)\\} = a. \\text {对检验问题} \\, H_{0}: \\sigma^{2} = \\sigma_{0}^{2}, \\, \\, H_{1}: \\sigma^{2} &gt; \\sigma_{0}^{2} (\\sigma_{0}^{2} \\text {已知}) \\text {进行} \\chi^{2} \\text {检验，取显著性水平} \\, a = 0.05, \\text {正确的拒绝域是} (\\, ). \\end{array}\">\\begin{array}{l} \\text {设总体} X \\sim N(\\mu, \\sigma^{2}), \\text {其中} \\mu, \\sigma^{2} \\text {未知}, \\, X_{1}, X_{2}, \\cdots, X_{p} \\text {为样本，记} X = \\frac{1}{9} \\sum_{i=1}^{9} X_{i}, \\quad S^{2} = \\frac{1}{8} \\sum_{i=1}^{9} (X_{i} - X)^{2}, \\quad \\chi_{a}^{2}(n) \\text {为分为点，} P\\{\\chi^{2} &gt; \\chi_{a}^{2}(n)\\} = a. \\text {对检验问题} \\, H_{0}: \\sigma^{2} = \\sigma_{0}^{2}, \\, \\, H_{1}: \\sigma^{2} &gt; \\sigma_{0}^{2} (\\sigma_{0}^{2} \\text {已知}) \\text {进行} \\chi^{2} \\text {检验，取显著性水平} \\, a = 0.05, \\text {正确的拒绝域是} (\\, ). \\end{array}</div>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/probability/ch127/q0011_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\begin{aligned}S^2 \\geq \\frac{\\sigma_0^2}{8} \\chi_{0.05}^2 (8)\\end{aligned}\">\\begin{aligned}S^2 \\geq \\frac{\\sigma_0^2}{8} \\chi_{0.05}^2 (8)\\end{aligned}</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/probability/ch127/q0011_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\begin{aligned}S^2 \\leq \\frac{\\sigma_0^2}{8} \\chi_{0.05}^2(8)\\end{aligned}\">\\begin{aligned}S^2 \\leq \\frac{\\sigma_0^2}{8} \\chi_{0.05}^2(8)\\end{aligned}</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/probability/ch127/q0011_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\begin{array}{l} {l} S ^ { 2 } \\leq \\frac { \\sigma _ { 0 } ^ { 2 } } { 8 } \\chi _ { 0 , 975 } ^ { 2 } ( 8 ) \\text {与} S ^ { 2 } \\geq \\frac { \\sigma _ { 0 } ^ { 2 } } { 8 } \\chi _ { 0 , 025 } ^ { 2 } \\end{array}\">\\begin{array}{l} {l} S ^ { 2 } \\leq \\frac { \\sigma _ { 0 } ^ { 2 } } { 8 } \\chi _ { 0 , 975 } ^ { 2 } ( 8 ) \\text {与} S ^ { 2 } \\geq \\frac { \\sigma _ { 0 } ^ { 2 } } { 8 } \\chi _ { 0 , 025 } ^ { 2 } \\end{array}</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/probability/ch127/q0011_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\begin{aligned}S^2 \\geq \\frac{\\sigma_0^2}{8} \\chi_{0.95}^2(8)\\end{aligned}\">\\begin{aligned}S^2 \\geq \\frac{\\sigma_0^2}{8} \\chi_{0.95}^2(8)\\end{aligned}</span>"
         }
       ],
       "answer": "A",
       "answer_index": 0,
-      "analysis_html": "<img src=\"/static/generated/assets/probability/ch127/q0011_analysis.png\"/>"
+      "analysis_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{aligned}&amp;\\text{在}\\mu\\text{未知未知情形下，对于方差的右侧检验}H_{0}:\\sigma^{2}\\leq \\sigma_{0}^{2},\\ H_{1}:\\sigma^{2}&gt;\\sigma_{0}^{2},\\text{所用的检验统计量为}\\\\&amp;\\quad\\chi^{2}=\\frac{n-1}{\\sigma_{0}^{2}}S^{2}-\\chi^{2}(n-1),\\text{拒绝域为}\\chi^{2}=\\frac{n-1}{\\sigma_{0}^{2}}S^{2}\\geq \\chi_{a}^{2}(n-1).\\end{aligned}\">\\begin{aligned}&amp;\\text{在}\\mu\\text{未知未知情形下，对于方差的右侧检验}H_{0}:\\sigma^{2}\\leq \\sigma_{0}^{2},\\ H_{1}:\\sigma^{2}&gt;\\sigma_{0}^{2},\\text{所用的检验统计量为}\\\\&amp;\\quad\\chi^{2}=\\frac{n-1}{\\sigma_{0}^{2}}S^{2}-\\chi^{2}(n-1),\\text{拒绝域为}\\chi^{2}=\\frac{n-1}{\\sigma_{0}^{2}}S^{2}\\geq \\chi_{a}^{2}(n-1).\\end{aligned}</div>"
     },
     {
       "id": "q0012",
       "number": 12,
       "header": "#12-Averge",
       "difficulty": "Averge",
-      "prompt_html": "<img src=\"/static/generated/assets/probability/ch127/q0012_prompt.png\"/>",
+      "prompt_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{aligned} \\text{设有来自正态总体} N(\\mu,\\sigma^{2}) \\text{容量为} 100 \\text{的样本，其中} \\mu,\\sigma^{2} \\text{未知，样本均值} \\bar{x}=2.7,\\sum_{i=1}^{100} (x_{i}-\\bar{x})^{2}=225.\\text{. 在显著性水平} \\alpha=0.05 \\text{下，下列说法正确的是（）.} \\end{aligned}\">\\begin{aligned} \\text{设有来自正态总体} N(\\mu,\\sigma^{2}) \\text{容量为} 100 \\text{的样本，其中} \\mu,\\sigma^{2} \\text{未知，样本均值} \\bar{x}=2.7,\\sum_{i=1}^{100} (x_{i}-\\bar{x})^{2}=225.\\text{. 在显著性水平} \\alpha=0.05 \\text{下，下列说法正确的是（）.} \\end{aligned}</div>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/probability/ch127/q0012_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{若检验假设：} \\ H_{0}:\\sigma^{2}=2.5, \\ H_{1}:\\sigma^{2}\\neq 2.5, \\text{检验统计量为} \\chi^{2}=\\frac{99S^{2}}{2.5}\">\\text{若检验假设：} \\ H_{0}:\\sigma^{2}=2.5, \\ H_{1}:\\sigma^{2}\\neq 2.5, \\text{检验统计量为} \\chi^{2}=\\frac{99S^{2}}{2.5}</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/probability/ch127/q0012_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{若检验假设：} \\ H_{0}: \\mu = 3, \\, H_{1}: \\mu \\neq 3 \\, , \\, \\text{检验统计量为} \\, \\ T = \\frac{\\overline{X} - 3}{1.508 / \\sqrt{99}}\">\\text{若检验假设：} \\ H_{0}: \\mu = 3, \\, H_{1}: \\mu \\neq 3 \\, , \\, \\text{检验统计量为} \\, \\ T = \\frac{\\overline{X} - 3}{1.508 / \\sqrt{99}}</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/probability/ch127/q0012_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{若检验假设：} \\ H_{0}: \\mu = 3, \\, H_{1}: \\mu \\neq 3 \\, , \\, \\text{检验统计量为} \\ U = \\frac{\\overline{X} - 3}{\\sigma / 10}\">\\text{若检验假设：} \\ H_{0}: \\mu = 3, \\, H_{1}: \\mu \\neq 3 \\, , \\, \\text{检验统计量为} \\ U = \\frac{\\overline{X} - 3}{\\sigma / 10}</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/probability/ch127/q0012_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{若检验假设：} \\ H_{0}: \\sigma^{2} = 2.5, \\, H_{1}: \\sigma^{2} \\neq 2.5, \\, \\text{检验统计量为} \\ \\chi^{2} = \\frac{100S^{2}}{2.5}\">\\text{若检验假设：} \\ H_{0}: \\sigma^{2} = 2.5, \\, H_{1}: \\sigma^{2} \\neq 2.5, \\, \\text{检验统计量为} \\ \\chi^{2} = \\frac{100S^{2}}{2.5}</span>"
         }
       ],
       "answer": "A",
       "answer_index": 0,
-      "analysis_html": "<img src=\"/static/generated/assets/probability/ch127/q0012_analysis.png\"/>"
+      "analysis_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{aligned}&amp;\\text{检验假设}H_{0}:\\mu=3,H_{1}:\\mu\\neq 3,\\text{则检验统计量为}T=\\frac{\\overline{x}-3}{S/\\sqrt{n}}\\sim t(n-1),\\text{即}T=\\frac{\\overline{x}-3}{0.151}\\sim t(99)\\\\&amp;\\text{由题意知}n=100,\\overline{x}=2.7,s=\\sqrt{\\frac{1}{99}\\times 225}\\approx 1.508,\\\\&amp;t=\\frac{(2.7-3)}{1.508}\\times \\sqrt{100}\\approx-1.9894,\\alpha=0.05,t_{0.025}(99)\\approx t_{0.025}(100)=1.984.\\\\&amp;\\text{因}|t|=1.9884&gt;t_{0.025}(99)=1.984,\\text{故拒绝}H_{0},\\text{即认为}\\mu\\neq 3.\\\\&amp;\\text{检验假设}H_{0}:\\sigma^{2}=2.5,H_{1}:\\sigma^{2}\\neq 2.5,\\text{则检验统计量为}\\chi^{2}=\\frac{(n-1)S^{2}}{\\sigma_{0}^{2}}\\sim \\chi^{2}(n-1),\\text{即}\\chi^{2}=\\frac{99.8^{2}}{2.5}\\sim \\chi^{2}(99).\\\\&amp;\\text{由题意知}\\chi^{2}=\\frac{\\sum\\limits_{i=1}^{n}(x_{i}-\\overline{x})^{2}}{2.5}=\\frac{225}{2.5}=90,\\alpha=0.05,\\chi^{2}_{0.025}(99)\\approx \\chi^{2}_{0.025}(100)=129.56,\\\\&amp;\\chi^{2}_{0.975}(99)\\approx \\chi^{2}_{0.025}(100)=74.222,\\\\&amp;\\text{因}\\chi^{2}_{0.975}(99)&lt;\\chi^{2}_{0.025}(99)=90&lt;\\chi^{2}_{0.025}(99),\\text{故接受}H_{0},\\text{即可以认为}\\sigma^{2}=2.5.\\end{aligned}\">\\begin{aligned}&amp;\\text{检验假设}H_{0}:\\mu=3,H_{1}:\\mu\\neq 3,\\text{则检验统计量为}T=\\frac{\\overline{x}-3}{S/\\sqrt{n}}\\sim t(n-1),\\text{即}T=\\frac{\\overline{x}-3}{0.151}\\sim t(99)\\\\&amp;\\text{由题意知}n=100,\\overline{x}=2.7,s=\\sqrt{\\frac{1}{99}\\times 225}\\approx 1.508,\\\\&amp;t=\\frac{(2.7-3)}{1.508}\\times \\sqrt{100}\\approx-1.9894,\\alpha=0.05,t_{0.025}(99)\\approx t_{0.025}(100)=1.984.\\\\&amp;\\text{因}|t|=1.9884&gt;t_{0.025}(99)=1.984,\\text{故拒绝}H_{0},\\text{即认为}\\mu\\neq 3.\\\\&amp;\\text{检验假设}H_{0}:\\sigma^{2}=2.5,H_{1}:\\sigma^{2}\\neq 2.5,\\text{则检验统计量为}\\chi^{2}=\\frac{(n-1)S^{2}}{\\sigma_{0}^{2}}\\sim \\chi^{2}(n-1),\\text{即}\\chi^{2}=\\frac{99.8^{2}}{2.5}\\sim \\chi^{2}(99).\\\\&amp;\\text{由题意知}\\chi^{2}=\\frac{\\sum\\limits_{i=1}^{n}(x_{i}-\\overline{x})^{2}}{2.5}=\\frac{225}{2.5}=90,\\alpha=0.05,\\chi^{2}_{0.025}(99)\\approx \\chi^{2}_{0.025}(100)=129.56,\\\\&amp;\\chi^{2}_{0.975}(99)\\approx \\chi^{2}_{0.025}(100)=74.222,\\\\&amp;\\text{因}\\chi^{2}_{0.975}(99)&lt;\\chi^{2}_{0.025}(99)=90&lt;\\chi^{2}_{0.025}(99),\\text{故接受}H_{0},\\text{即可以认为}\\sigma^{2}=2.5.\\end{aligned}</div>"
     },
     {
       "id": "q0013",
       "number": 13,
       "header": "#13-Easy",
       "difficulty": "Easy",
-      "prompt_html": "<img src=\"/static/generated/assets/probability/ch127/q0013_prompt.png\"/>",
+      "prompt_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{array}{l} \\text {设样本}X_{1},X_{2},\\cdots,X_{n}\\text {来自总体}X\\sim N(\\mu,\\sigma^{2})，\\text{其中}\\mu\\text {已知.对}\\sigma^{2}\\text {作假设检验，提出假设：}H_{0}:\\sigma^{2}=\\sigma_{0}^{2},\\ H_{1}:\\sigma^{2}&lt;\\sigma_{0}^{2},\\\\ \\text {给定显著水平}\\alpha,\\text {检验的拒绝域为}().\\end{array}\">\\begin{array}{l} \\text {设样本}X_{1},X_{2},\\cdots,X_{n}\\text {来自总体}X\\sim N(\\mu,\\sigma^{2})，\\text{其中}\\mu\\text {已知.对}\\sigma^{2}\\text {作假设检验，提出假设：}H_{0}:\\sigma^{2}=\\sigma_{0}^{2},\\ H_{1}:\\sigma^{2}&lt;\\sigma_{0}^{2},\\\\ \\text {给定显著水平}\\alpha,\\text {检验的拒绝域为}().\\end{array}</div>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/probability/ch127/q0013_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\left( 0, \\chi_{1-\\alpha}^{2} (n) \\right)\">\\left( 0, \\chi_{1-\\alpha}^{2} (n) \\right)</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/probability/ch127/q0013_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\bigl(0, \\chi_{1-a/2}^{2}(n)\\bigr) \\cup \\bigl( \\chi_{a/2}^{2}(n), +\\infty \\bigr)\">\\bigl(0, \\chi_{1-a/2}^{2}(n)\\bigr) \\cup \\bigl( \\chi_{a/2}^{2}(n), +\\infty \\bigr)</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/probability/ch127/q0013_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\left( \\chi _{\\alpha} ^ { 2 } ( n ) , + \\infty \\right)\">\\left( \\chi _{\\alpha} ^ { 2 } ( n ) , + \\infty \\right)</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/probability/ch127/q0013_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\bigl(0, \\chi_{1-\\alpha}^{2}(n)\\bigr) \\smile \\bigl( \\chi_{\\alpha}^{2}(n), +\\infty \\bigr)\">\\bigl(0, \\chi_{1-\\alpha}^{2}(n)\\bigr) \\smile \\bigl( \\chi_{\\alpha}^{2}(n), +\\infty \\bigr)</span>"
         }
       ],
       "answer": "A",
       "answer_index": 0,
-      "analysis_html": "<img src=\"/static/generated/assets/probability/ch127/q0013_analysis.png\"/>"
+      "analysis_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{aligned}&amp; \\text{单正态方差的检验，均值}\\mu \\text{已知。若}H_{0}\\text{为真，检验统计量为}\\sum_{i=1}^{n} \\frac{(X_{i}-\\mu)^{2}}{\\sigma_{0}^{2}}\\sim \\chi^{2}(n).\\\\&amp; \\text{双侧检验：}H_{0}\\text{:}\\sigma^{2}=\\sigma_{0}^{2},\\ H_{1}\\text{:}\\sigma^{2}\\neq \\sigma_{0}^{2}\\text{，拒绝域为}\\left(0,\\chi_{\\sigma_{0}^{-1},\\infty}^{2}(n)\\right)\\cup \\left(\\chi_{\\sigma_{0}^{-1},\\infty}^{2}(n),+\\infty\\right).\\\\&amp; \\text{右侧检验：}H_{0}\\text{:}\\sigma^{2}\\leq \\sigma_{0}^{2},\\ H_{1}\\text{:}\\sigma^{2}&gt;\\sigma_{0}^{2}\\text{，拒绝域为}\\left(\\chi_{\\sigma}^{2}(n),+\\infty\\right).\\\\&amp; \\text{左侧检验：}H_{0}\\text{:}\\sigma^{2}\\geq \\sigma_{0}^{2},\\ H_{1}\\text{:}\\sigma^{2}&lt;\\sigma_{0}^{2}\\text{，拒绝域为}\\left(0,\\chi_{-\\infty}^{2}(n)\\right).\\end{aligned}\">\\begin{aligned}&amp; \\text{单正态方差的检验，均值}\\mu \\text{已知。若}H_{0}\\text{为真，检验统计量为}\\sum_{i=1}^{n} \\frac{(X_{i}-\\mu)^{2}}{\\sigma_{0}^{2}}\\sim \\chi^{2}(n).\\\\&amp; \\text{双侧检验：}H_{0}\\text{:}\\sigma^{2}=\\sigma_{0}^{2},\\ H_{1}\\text{:}\\sigma^{2}\\neq \\sigma_{0}^{2}\\text{，拒绝域为}\\left(0,\\chi_{\\sigma_{0}^{-1},\\infty}^{2}(n)\\right)\\cup \\left(\\chi_{\\sigma_{0}^{-1},\\infty}^{2}(n),+\\infty\\right).\\\\&amp; \\text{右侧检验：}H_{0}\\text{:}\\sigma^{2}\\leq \\sigma_{0}^{2},\\ H_{1}\\text{:}\\sigma^{2}&gt;\\sigma_{0}^{2}\\text{，拒绝域为}\\left(\\chi_{\\sigma}^{2}(n),+\\infty\\right).\\\\&amp; \\text{左侧检验：}H_{0}\\text{:}\\sigma^{2}\\geq \\sigma_{0}^{2},\\ H_{1}\\text{:}\\sigma^{2}&lt;\\sigma_{0}^{2}\\text{，拒绝域为}\\left(0,\\chi_{-\\infty}^{2}(n)\\right).\\end{aligned}</div>"
     },
     {
       "id": "q0014",
       "number": 14,
       "header": "#14-Easy",
       "difficulty": "Easy",
-      "prompt_html": "<img src=\"/static/generated/assets/probability/ch127/q0014_prompt.png\"/>",
+      "prompt_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{aligned}\\text{设}X_{1},X_{2},\\cdots,X_{n} \\text{是来自总体}X\\sim N(\\mu,\\sigma^{2})\\text{的样本，其中}\\mu\\text{已知. 对}\\sigma^{2}\\text{作假设检验，提出假设：}H_{0}:\\sigma^{2}\\leq\\sigma_{0}^{2},\\\\H_{1}:\\sigma^{2}&gt;\\sigma_{0}^{2},\\text{检验统计量为}().\\end{aligned}\">\\begin{aligned}\\text{设}X_{1},X_{2},\\cdots,X_{n} \\text{是来自总体}X\\sim N(\\mu,\\sigma^{2})\\text{的样本，其中}\\mu\\text{已知. 对}\\sigma^{2}\\text{作假设检验，提出假设：}H_{0}:\\sigma^{2}\\leq\\sigma_{0}^{2},\\\\H_{1}:\\sigma^{2}&gt;\\sigma_{0}^{2},\\text{检验统计量为}().\\end{aligned}</div>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/probability/ch127/q0014_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\chi^{2} {=} \\sum_{i = 1}^{n} \\frac{(X_{i} - \\mu)^{2}}{\\sigma_{0}^{2}}\">\\chi^{2} {=} \\sum_{i = 1}^{n} \\frac{(X_{i} - \\mu)^{2}}{\\sigma_{0}^{2}}</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/probability/ch127/q0014_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\begin{aligned}U = \\frac{\\overline{X} - \\mu}{\\sigma_0 / \\sqrt{n}}\\end{aligned}\">\\begin{aligned}U = \\frac{\\overline{X} - \\mu}{\\sigma_0 / \\sqrt{n}}\\end{aligned}</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/probability/ch127/q0014_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"T\\!=\\!\\frac{\\overline{X}\\!-\\!\\mu}{S\\!/\\!\\sqrt{n}}\">T\\!=\\!\\frac{\\overline{X}\\!-\\!\\mu}{S\\!/\\!\\sqrt{n}}</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/probability/ch127/q0014_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\chi^2 = \\sum_{i = 1}^n \\frac{ (X_i - \\overline{X})^2 }{ \\sigma_0^2 }\">\\chi^2 = \\sum_{i = 1}^n \\frac{ (X_i - \\overline{X})^2 }{ \\sigma_0^2 }</span>"
         }
       ],
       "answer": "A",
       "answer_index": 0,
-      "analysis_html": "<img src=\"/static/generated/assets/probability/ch127/q0014_analysis.png\"/>"
+      "analysis_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{aligned}&amp;\\text{单正态方差的检验,若均值}\\mu \\text{已知,则}\\\\&amp;\\text{(1)检验假设为}H_{0}:\\sigma^{2}=\\sigma_{0}^{2},\\ H_{1}:\\sigma^{2}\\neq\\sigma_{0}^{2};\\\\&amp;\\text{(2)若}H_{0}\\text{为真,则有}\\chi^{2}=\\sum_{i=1}^{n}(\\frac{X_{i}-\\mu}{\\sigma_{0}})^{2}-\\chi^{2}(n),\\text{此时拒绝域为}\\left(0,\\chi^{2}_{1-\\alpha/2}(n)\\right)\\cup\\left(\\chi^{2}_{\\alpha/2}(n),+\\infty\\right).\\text{其中}\\chi^{2}_{\\alpha}\\text{为}\\chi^{2}\\text{分布的}\\alpha\\text{分位数}.\\quad\\\\&amp;\\text{另外:右侧检验:}H_{0}:\\sigma^{2}\\leq\\sigma_{0}^{2},\\ H_{1}:\\sigma^{2}&gt;\\sigma_{0}^{2};\\text{此时拒绝域为}\\left(\\chi^{2}_{\\alpha}(n),+\\infty\\right).\\quad\\\\&amp;\\text{左侧检验:}H_{0}:\\sigma^{2}\\geq\\sigma_{0}^{2},\\ H_{1}:\\sigma^{2}&lt;\\sigma_{0}^{2};\\text{此时拒绝域为}\\left(0,\\chi^{2}_{1-\\alpha}(n)\\right).\\end{aligned}\">\\begin{aligned}&amp;\\text{单正态方差的检验,若均值}\\mu \\text{已知,则}\\\\&amp;\\text{(1)检验假设为}H_{0}:\\sigma^{2}=\\sigma_{0}^{2},\\ H_{1}:\\sigma^{2}\\neq\\sigma_{0}^{2};\\\\&amp;\\text{(2)若}H_{0}\\text{为真,则有}\\chi^{2}=\\sum_{i=1}^{n}(\\frac{X_{i}-\\mu}{\\sigma_{0}})^{2}-\\chi^{2}(n),\\text{此时拒绝域为}\\left(0,\\chi^{2}_{1-\\alpha/2}(n)\\right)\\cup\\left(\\chi^{2}_{\\alpha/2}(n),+\\infty\\right).\\text{其中}\\chi^{2}_{\\alpha}\\text{为}\\chi^{2}\\text{分布的}\\alpha\\text{分位数}.\\quad\\\\&amp;\\text{另外:右侧检验:}H_{0}:\\sigma^{2}\\leq\\sigma_{0}^{2},\\ H_{1}:\\sigma^{2}&gt;\\sigma_{0}^{2};\\text{此时拒绝域为}\\left(\\chi^{2}_{\\alpha}(n),+\\infty\\right).\\quad\\\\&amp;\\text{左侧检验:}H_{0}:\\sigma^{2}\\geq\\sigma_{0}^{2},\\ H_{1}:\\sigma^{2}&lt;\\sigma_{0}^{2};\\text{此时拒绝域为}\\left(0,\\chi^{2}_{1-\\alpha}(n)\\right).\\end{aligned}</div>"
     },
     {
       "id": "q0015",
       "number": 15,
       "header": "#15-Averge",
       "difficulty": "Averge",
-      "prompt_html": "<img src=\"/static/generated/assets/probability/ch127/q0015_prompt.png\"/>",
+      "prompt_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{array}{l} \\text{设有来自正态总体}N(\\mu,\\sigma^{2})\\text{容量为}100\\text{的样本，其中}\\mu,\\sigma^{2}\\text{均未知，样本均值}\\bar{x}=2.7,\\sum_{i=1}^{100}(x_{i}-\\bar{x})^{2}=225，\\text{在}\\alpha=0.05\\text{水平下}，\\text{下列说法不正确的是}（）. \\end{array}\">\\begin{array}{l} \\text{设有来自正态总体}N(\\mu,\\sigma^{2})\\text{容量为}100\\text{的样本，其中}\\mu,\\sigma^{2}\\text{均未知，样本均值}\\bar{x}=2.7,\\sum_{i=1}^{100}(x_{i}-\\bar{x})^{2}=225，\\text{在}\\alpha=0.05\\text{水平下}，\\text{下列说法不正确的是}（）. \\end{array}</div>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/probability/ch127/q0015_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{若检验假设：} \\ H_{0}\\colon \\sigma^{2} = 2.5, \\, H_{1}\\colon \\sigma^{2} \\neq 2.5 \\, , \\text{则接受} \\, H_{1}\">\\text{若检验假设：} \\ H_{0}\\colon \\sigma^{2} = 2.5, \\, H_{1}\\colon \\sigma^{2} \\neq 2.5 \\, , \\text{则接受} \\, H_{1}</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/probability/ch127/q0015_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{检验假设}H_{0}: \\mu = 3, \\, H_{1}: \\mu \\neq 3 \\text{的检验统计量为} \\, T = \\frac{\\overline{X} - 3}{S / \\sqrt{n}} \\sim t(n - 1)\">\\text{检验假设}H_{0}: \\mu = 3, \\, H_{1}: \\mu \\neq 3 \\text{的检验统计量为} \\, T = \\frac{\\overline{X} - 3}{S / \\sqrt{n}} \\sim t(n - 1)</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/probability/ch127/q0015_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{若检验假设：} \\ H_{0}:\\mu=3, H_{1}:\\mu\\neq 3 \\text{，则接受} H_{1}\">\\text{若检验假设：} \\ H_{0}:\\mu=3, H_{1}:\\mu\\neq 3 \\text{，则接受} H_{1}</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/probability/ch127/q0015_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{检验假设} \\, H_0: \\sigma^2 = 2.5, \\, H_1: \\sigma^2 \\neq 2.5 \\text{ 的检验统计量为} \\, \\chi^2 = \\frac{(n-1)S^2}{2.5} \\sim \\chi^2(n-1)\">\\text{检验假设} \\, H_0: \\sigma^2 = 2.5, \\, H_1: \\sigma^2 \\neq 2.5 \\text{ 的检验统计量为} \\, \\chi^2 = \\frac{(n-1)S^2}{2.5} \\sim \\chi^2(n-1)</span>"
         }
       ],
       "answer": "A",
       "answer_index": 0,
-      "analysis_html": "<img src=\"/static/generated/assets/probability/ch127/q0015_analysis.png\"/>"
+      "analysis_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{aligned}&amp;\\text{检验假设}H_{0}: \\mu=3,H_{1}: \\mu\\neq 3,\\text{检验统计量为}T=\\frac{\\overline{X}-3}{S/\\sqrt{n}}\\sim t(n-1),\\text{拒绝域为}|\\overline{T}|=\\left|\\frac{\\overline{X}-3}{S/\\sqrt{n}}\\right|\\geq t_{0.25}(n-1).\\\\&amp;\\text{现}n=100,\\overline{x}=2.7,s=\\sqrt{\\frac{1}{99}\\times 225}\\approx 1.508,\\alpha=0.05,\\text{得}t=\\frac{(2.7-3)}{1.508}\\times \\sqrt{100}\\approx-1.9894&lt;t_{0.025}(99)\\approx -z_{0.025}=-1.960.\\\\&amp;\\text{故拒绝}H_{0},\\text{即认为}\\mu\\neq 3.\\end{aligned}\">\\begin{aligned}&amp;\\text{检验假设}H_{0}: \\mu=3,H_{1}: \\mu\\neq 3,\\text{检验统计量为}T=\\frac{\\overline{X}-3}{S/\\sqrt{n}}\\sim t(n-1),\\text{拒绝域为}|\\overline{T}|=\\left|\\frac{\\overline{X}-3}{S/\\sqrt{n}}\\right|\\geq t_{0.25}(n-1).\\\\&amp;\\text{现}n=100,\\overline{x}=2.7,s=\\sqrt{\\frac{1}{99}\\times 225}\\approx 1.508,\\alpha=0.05,\\text{得}t=\\frac{(2.7-3)}{1.508}\\times \\sqrt{100}\\approx-1.9894&lt;t_{0.025}(99)\\approx -z_{0.025}=-1.960.\\\\&amp;\\text{故拒绝}H_{0},\\text{即认为}\\mu\\neq 3.\\end{aligned}</div>\n<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{aligned}&amp;\\text{检验假设}H_{0}: \\sigma^{2}=2.5,H_{1}: \\sigma^{2}\\neq 2.5,\\text{检验统计量为}\\chi^{2}=\\frac{(n-1)S^{2}}{2.5}\\sim \\chi^{2}(n-1),\\text{拒绝域为}W=[0,\\chi^{2}_{1-\\frac{\\alpha}{2}}(n-1)]\\cup \\chi^{2}_{0}(n-1),+\\infty).\\\\&amp;\\text{因为}\\chi^{2}=\\frac{\\sum\\limits_{i=1}^{100}(x_{i}-\\overline{x})^{2}}{2.5}=\\frac{225}{2.5}=90,\\chi^{2}_{0.025}(99)\\approx 100+1.96\\times 14.14=127.71,\\chi^{2}_{0.975}(99)\\approx 100-1.96\\times 14.14=72.286,\\text{所以}\\\\&amp;\\chi^{2}_{0.975}(99)&lt;\\chi^{2}_{0}=90&lt;\\chi^{2}_{0.025}(99),\\text{故接受}H_{0},\\text{即可以认为}\\sigma^{2}=2.5.\\end{aligned}\">\\begin{aligned}&amp;\\text{检验假设}H_{0}: \\sigma^{2}=2.5,H_{1}: \\sigma^{2}\\neq 2.5,\\text{检验统计量为}\\chi^{2}=\\frac{(n-1)S^{2}}{2.5}\\sim \\chi^{2}(n-1),\\text{拒绝域为}W=[0,\\chi^{2}_{1-\\frac{\\alpha}{2}}(n-1)]\\cup \\chi^{2}_{0}(n-1),+\\infty).\\\\&amp;\\text{因为}\\chi^{2}=\\frac{\\sum\\limits_{i=1}^{100}(x_{i}-\\overline{x})^{2}}{2.5}=\\frac{225}{2.5}=90,\\chi^{2}_{0.025}(99)\\approx 100+1.96\\times 14.14=127.71,\\chi^{2}_{0.975}(99)\\approx 100-1.96\\times 14.14=72.286,\\text{所以}\\\\&amp;\\chi^{2}_{0.975}(99)&lt;\\chi^{2}_{0}=90&lt;\\chi^{2}_{0.025}(99),\\text{故接受}H_{0},\\text{即可以认为}\\sigma^{2}=2.5.\\end{aligned}</div>"
     },
     {
       "id": "q0016",
       "number": 16,
       "header": "#16-Averge",
       "difficulty": "Averge",
-      "prompt_html": "<img src=\"/static/generated/assets/probability/ch127/q0016_prompt.png\"/>",
+      "prompt_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{aligned}\\text{电工器材厂生产一批保险丝，抽取10根试验其熔断时间，结果为42,65,75,78,71,59,57,68,54,55,}\\\\S^2=121.8。\\text{假设熔断时间服从正态分布}N(\\mu,\\sigma^2),\\mu,\\sigma^2 \\text{未知}。\\text{若取}\\sigma_0^2=80,\\alpha=0.05，\\text{那么怀疑整批保险丝熔断时间的方差变大进行的检验}，\\text{下面说法不正确的是}()。\\ (\\chi_{0.05}^2(9)=16.919,\\chi_{0.95}^2(9)=3.325)\\end{aligned}\">\\begin{aligned}\\text{电工器材厂生产一批保险丝，抽取10根试验其熔断时间，结果为42,65,75,78,71,59,57,68,54,55,}\\\\S^2=121.8。\\text{假设熔断时间服从正态分布}N(\\mu,\\sigma^2),\\mu,\\sigma^2 \\text{未知}。\\text{若取}\\sigma_0^2=80,\\alpha=0.05，\\text{那么怀疑整批保险丝熔断时间的方差变大进行的检验}，\\text{下面说法不正确的是}()。\\ (\\chi_{0.05}^2(9)=16.919,\\chi_{0.95}^2(9)=3.325)\\end{aligned}</div>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/probability/ch127/q0016_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{可以认为整批保险丝的熔断时间的方差大于} 80\">\\text{可以认为整批保险丝的熔断时间的方差大于} 80</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/probability/ch127/q0016_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\begin{aligned} \\text{应检验假设：} \\ H_0\\colon \\sigma^2 \\leq 80, \\ \\ H_1\\colon \\sigma^2 &gt; 80 \\end{aligned}\">\\begin{aligned} \\text{应检验假设：} \\ H_0\\colon \\sigma^2 \\leq 80, \\ \\ H_1\\colon \\sigma^2 &gt; 80 \\end{aligned}</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/probability/ch127/q0016_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{检验统计量为} \\chi^2 = \\frac{9S^2}{80} \\sim \\chi^2(9)\">\\text{检验统计量为} \\chi^2 = \\frac{9S^2}{80} \\sim \\chi^2(9)</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/probability/ch127/q0016_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\begin{aligned}\\overline{x} = 62.4 \\, , \\;\\; s^2 \\approx 121.8\\end{aligned}\">\\begin{aligned}\\overline{x} = 62.4 \\, , \\;\\; s^2 \\approx 121.8\\end{aligned}</span>"
         }
       ],
       "answer": "A",
       "answer_index": 0,
-      "analysis_html": "<img src=\"/static/generated/assets/probability/ch127/q0016_analysis.png\"/>"
+      "analysis_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{aligned}&amp;\\textcircled{1}\\text{待检假设}H_{0}:\\sigma^{2}\\leq 80,\\text{备择假设}H_{1}:\\sigma^{2}&gt;80;\\\\&amp;\\textcircled{2}\\text{在}H_{0}\\text{成立时}，\\text{选取统计量}\\chi^{2}=\\frac{(n-1)S^{2}}{\\sigma_{0}^{2}}\\sim\\chi^{2}(n-1);\\\\&amp;\\textcircled{3}\\text{由}\\alpha=0.05,n-1=9，\\text{拒绝域为}(\\chi^{2}_{0.05}(9),+\\infty);\\\\&amp;\\textcircled{4}\\text{计算样本值}：\\\\&amp;\\quad-\\frac{1}{x}=\\frac{1}{10}(42+65+75+78+71+59+57+68+54+55)=62.4\\,,\\\\&amp;\\quad\\chi^{2}=\\frac{9\\times 121.8}{80}\\approx 13.7\\in(0,16.919)\\,.\\end{aligned}\">\\begin{aligned}&amp;\\textcircled{1}\\text{待检假设}H_{0}:\\sigma^{2}\\leq 80,\\text{备择假设}H_{1}:\\sigma^{2}&gt;80;\\\\&amp;\\textcircled{2}\\text{在}H_{0}\\text{成立时}，\\text{选取统计量}\\chi^{2}=\\frac{(n-1)S^{2}}{\\sigma_{0}^{2}}\\sim\\chi^{2}(n-1);\\\\&amp;\\textcircled{3}\\text{由}\\alpha=0.05,n-1=9，\\text{拒绝域为}(\\chi^{2}_{0.05}(9),+\\infty);\\\\&amp;\\textcircled{4}\\text{计算样本值}：\\\\&amp;\\quad-\\frac{1}{x}=\\frac{1}{10}(42+65+75+78+71+59+57+68+54+55)=62.4\\,,\\\\&amp;\\quad\\chi^{2}=\\frac{9\\times 121.8}{80}\\approx 13.7\\in(0,16.919)\\,.\\end{aligned}</div>"
     },
     {
       "id": "q0017",
       "number": 17,
       "header": "#17-Averge",
       "difficulty": "Averge",
-      "prompt_html": "<img src=\"/static/generated/assets/probability/ch127/q0017_prompt.png\"/>",
+      "prompt_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{aligned} \\text{测定某种溶液中的水分，它的10个测定值给出}s=0.037\\%。\\text{设测定总体服从正态分布，但总体期望} \\mu  \\text{与总体方差} \\sigma^{2} \\text{均未知}\\text{. }\\text{若在显著性水平} \\alpha=0.05 \\text{下，检验假设：}H_{0}: \\sigma \\geq 0.04\\%,\\;H_{1}: \\sigma &lt; 0.04\\%, \\text{则下列说法正确的是（）.} \\\\ (\\chi_{0.95}^{2}(9)=3.325, \\chi_{0.05}^{2}(9)=16.919) \\end{aligned}\">\\begin{aligned} \\text{测定某种溶液中的水分，它的10个测定值给出}s=0.037\\%。\\text{设测定总体服从正态分布，但总体期望} \\mu  \\text{与总体方差} \\sigma^{2} \\text{均未知}\\text{. }\\text{若在显著性水平} \\alpha=0.05 \\text{下，检验假设：}H_{0}: \\sigma \\geq 0.04\\%,\\;H_{1}: \\sigma &lt; 0.04\\%, \\text{则下列说法正确的是（）.} \\\\ (\\chi_{0.95}^{2}(9)=3.325, \\chi_{0.05}^{2}(9)=16.919) \\end{aligned}</div>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/probability/ch127/q0017_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{接受} \\, H _ { 0 }\">\\text{接受} \\, H _ { 0 }</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/probability/ch127/q0017_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{拒绝域为} \\ \\frac{9S^{2}}{0.0004^{2}} &lt; \\chi_{0.05}^{2}(9)\">\\text{拒绝域为} \\ \\frac{9S^{2}}{0.0004^{2}} &lt; \\chi_{0.05}^{2}(9)</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/probability/ch127/q0017_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{拒绝域为} \\ \\frac{10S^{2}}{0.0004^{2}} \\leq \\chi_{0.95}^{2}(9)\">\\text{拒绝域为} \\ \\frac{10S^{2}}{0.0004^{2}} \\leq \\chi_{0.95}^{2}(9)</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/probability/ch127/q0017_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{拒绝} \\, H _ { 0 }\">\\text{拒绝} \\, H _ { 0 }</span>"
         }
       ],
       "answer": "A",
       "answer_index": 0,
-      "analysis_html": "<img src=\"/static/generated/assets/probability/ch127/q0017_analysis.png\"/>"
+      "analysis_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{aligned}&amp;\\text{在}\\alpha=0.05\\text{下，拒绝域为}W=\\left\\{\\frac{(n-1)S^2}{\\sigma_0^2}&lt;\\chi_{1-\\alpha}^2(9)\\right\\}.\\\\&amp;\\text{计算得}\\frac{(n-1)s^2}{\\sigma_0^2}=\\frac{(10-1)\\times(0.037\\%)^2}{(0.04\\%)^2}\\approx 7.7006&gt;3.325,\\text{未落入拒绝域，故接受}H_0.\\end{aligned}\">\\begin{aligned}&amp;\\text{在}\\alpha=0.05\\text{下，拒绝域为}W=\\left\\{\\frac{(n-1)S^2}{\\sigma_0^2}&lt;\\chi_{1-\\alpha}^2(9)\\right\\}.\\\\&amp;\\text{计算得}\\frac{(n-1)s^2}{\\sigma_0^2}=\\frac{(10-1)\\times(0.037\\%)^2}{(0.04\\%)^2}\\approx 7.7006&gt;3.325,\\text{未落入拒绝域，故接受}H_0.\\end{aligned}</div>"
     },
     {
       "id": "q0018",
       "number": 18,
       "header": "#18-Easy",
       "difficulty": "Easy",
-      "prompt_html": "<img src=\"/static/generated/assets/probability/ch127/q0018_prompt.png\"/>",
+      "prompt_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{aligned}&amp; \\text{总体}X\\sim N\\bigl(\\mu,\\sigma^{2}\\bigr)\\text{，其中}\\mu\\text{未知，}X_{1},X_{2},\\cdots,X_{n}\\text{为来自}X\\text{的一个样本，样本方差为}S^{2}\\text{．在显著性水平}\\alpha\\text{下，检验假设：}H_{0}:\\sigma^{2}\\geq 16,H_{1}:\\sigma^{2}&lt;16\\text{，所用检验统计量与拒绝域为()．}\\end{aligned}\">\\begin{aligned}&amp; \\text{总体}X\\sim N\\bigl(\\mu,\\sigma^{2}\\bigr)\\text{，其中}\\mu\\text{未知，}X_{1},X_{2},\\cdots,X_{n}\\text{为来自}X\\text{的一个样本，样本方差为}S^{2}\\text{．在显著性水平}\\alpha\\text{下，检验假设：}H_{0}:\\sigma^{2}\\geq 16,H_{1}:\\sigma^{2}&lt;16\\text{，所用检验统计量与拒绝域为()．}\\end{aligned}</div>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/probability/ch127/q0018_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\begin{aligned}\\frac{(n-1)S^2}{16}\\,,\\,\\,\\left(0, \\chi_{1-\\alpha}^2(n-1)\\right)\\end{aligned}\">\\begin{aligned}\\frac{(n-1)S^2}{16}\\,,\\,\\,\\left(0, \\chi_{1-\\alpha}^2(n-1)\\right)\\end{aligned}</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/probability/ch127/q0018_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\begin{aligned}\\sum_{i=1}^{n} \\left( \\frac{X_{i}-\\mu}{4} \\right)^{2}, \\ \\left( \\chi_{\\alpha}^{2}(n), +\\infty \\right)\\end{aligned}\">\\begin{aligned}\\sum_{i=1}^{n} \\left( \\frac{X_{i}-\\mu}{4} \\right)^{2}, \\ \\left( \\chi_{\\alpha}^{2}(n), +\\infty \\right)\\end{aligned}</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/probability/ch127/q0018_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\sum_{i=1}^{n} \\left( \\frac{X_{i} - \\mu}{4} \\right)^{2}, \\ \\left( 0, \\chi_{1-a}^{2}(n) \\right)\">\\sum_{i=1}^{n} \\left( \\frac{X_{i} - \\mu}{4} \\right)^{2}, \\ \\left( 0, \\chi_{1-a}^{2}(n) \\right)</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/probability/ch127/q0018_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\frac{(n-1)S^{2}}{16}\\,,\\,\\,\\left(\\chi_{o}^{2}(n-1),+\\infty\\right)\">\\frac{(n-1)S^{2}}{16}\\,,\\,\\,\\left(\\chi_{o}^{2}(n-1),+\\infty\\right)</span>"
         }
       ],
       "answer": "A",
       "answer_index": 0,
-      "analysis_html": "<img src=\"/static/generated/assets/probability/ch127/q0018_analysis.png\"/>"
+      "analysis_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{aligned}&amp;\\text{正态总体方差的检验如下过程.}\\\\&amp;1.\\text{若均值}\\mu\\text{已知，则}\\\\&amp;\\quad(1)\\text{检验假设为}H_{0}:\\sigma^{2}=\\sigma_{0}^{2},\\ H_{1}:\\sigma^{2}\\neq\\sigma_{0}^{2};\\\\&amp;\\quad(2)\\text{若}H_{0}\\text{为真，则有}\\chi^{2}=\\sum_{i=1}^{n}(\\frac{X_{i}-\\mu}{\\sigma_{0}})^{2}-\\chi^{2}(n),\\ \\text{此时拒绝域为}\\left(0,X_{1-\\sigma_{0}}^{2}(n)\\right)\\cup\\left(\\chi_{\\sigma_{0}}^{2}(n),+\\infty\\right).\\ \\text{其中}\\chi_{\\alpha}^{2}\\text{为}\\chi^{2}\\text{分布的}\\alpha\\text{分位数.}\\\\&amp;\\text{另外：右侧检验：}H_{0}:\\sigma^{2}\\leq\\sigma_{0}^{2},\\ H_{1}:\\sigma^{2}&gt;\\sigma_{0}^{2};\\ \\text{此时拒绝域为}\\left(\\chi_{\\sigma}^{2}(n),+\\infty\\right).\\\\&amp;\\text{左侧检验：}H_{0}:\\sigma^{2}\\geq\\sigma_{0}^{2},\\ H_{1}:\\sigma^{2}&lt;\\sigma_{0}^{2};\\ \\text{此时拒绝域为}\\left(0,X_{1-\\sigma}^{2}(n)\\right).\\end{aligned}\">\\begin{aligned}&amp;\\text{正态总体方差的检验如下过程.}\\\\&amp;1.\\text{若均值}\\mu\\text{已知，则}\\\\&amp;\\quad(1)\\text{检验假设为}H_{0}:\\sigma^{2}=\\sigma_{0}^{2},\\ H_{1}:\\sigma^{2}\\neq\\sigma_{0}^{2};\\\\&amp;\\quad(2)\\text{若}H_{0}\\text{为真，则有}\\chi^{2}=\\sum_{i=1}^{n}(\\frac{X_{i}-\\mu}{\\sigma_{0}})^{2}-\\chi^{2}(n),\\ \\text{此时拒绝域为}\\left(0,X_{1-\\sigma_{0}}^{2}(n)\\right)\\cup\\left(\\chi_{\\sigma_{0}}^{2}(n),+\\infty\\right).\\ \\text{其中}\\chi_{\\alpha}^{2}\\text{为}\\chi^{2}\\text{分布的}\\alpha\\text{分位数.}\\\\&amp;\\text{另外：右侧检验：}H_{0}:\\sigma^{2}\\leq\\sigma_{0}^{2},\\ H_{1}:\\sigma^{2}&gt;\\sigma_{0}^{2};\\ \\text{此时拒绝域为}\\left(\\chi_{\\sigma}^{2}(n),+\\infty\\right).\\\\&amp;\\text{左侧检验：}H_{0}:\\sigma^{2}\\geq\\sigma_{0}^{2},\\ H_{1}:\\sigma^{2}&lt;\\sigma_{0}^{2};\\ \\text{此时拒绝域为}\\left(0,X_{1-\\sigma}^{2}(n)\\right).\\end{aligned}</div>"
     },
     {
       "id": "q0019",
       "number": 19,
       "header": "#19-Averge",
       "difficulty": "Averge",
-      "prompt_html": "<img src=\"/static/generated/assets/probability/ch127/q0019_prompt.png\"/>",
+      "prompt_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{aligned} \\text{某种导线的电阻服从正态分布}N(\\mu,0.005^2). \\text{今从新生产的一批导线中抽取9根，测其电阻得样本标准差为} \\\\s=0.008\\Omega.\\text{对于}\\alpha=0.05,\\text{若想检验这批导线电阻的标准差是否仍为}0.005,\\text{则下列说法不正确的是（）.} \\end{aligned}\">\\begin{aligned} \\text{某种导线的电阻服从正态分布}N(\\mu,0.005^2). \\text{今从新生产的一批导线中抽取9根，测其电阻得样本标准差为} \\\\s=0.008\\Omega.\\text{对于}\\alpha=0.05,\\text{若想检验这批导线电阻的标准差是否仍为}0.005,\\text{则下列说法不正确的是（）.} \\end{aligned}</div>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/probability/ch127/q0019_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{拒绝域为} \\, \\chi ^ { 2 } &lt; \\chi _ { \\alpha / 2 } ^ { 2 } ( n - 1 )\">\\text{拒绝域为} \\, \\chi ^ { 2 } &lt; \\chi _ { \\alpha / 2 } ^ { 2 } ( n - 1 )</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/probability/ch127/q0019_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{应检验假设：} \\ H_{0} \\colon \\sigma^{2} = 0.005^{2}, \\quad H_{1} \\colon \\sigma^{2} \\neq 0.005^{2}\">\\text{应检验假设：} \\ H_{0} \\colon \\sigma^{2} = 0.005^{2}, \\quad H_{1} \\colon \\sigma^{2} \\neq 0.005^{2}</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/probability/ch127/q0019_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{检验统计量为} \\chi ^{2} = \\frac{8S^{2}}{0.005^{2}}\">\\text{检验统计量为} \\chi ^{2} = \\frac{8S^{2}}{0.005^{2}}</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/probability/ch127/q0019_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{不能认为这批导线电阻的标准差仍为} 0.005\">\\text{不能认为这批导线电阻的标准差仍为} 0.005</span>"
         }
       ],
       "answer": "A",
       "answer_index": 0,
-      "analysis_html": "<img src=\"/static/generated/assets/probability/ch127/q0019_analysis.png\"/>"
+      "analysis_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{aligned}&amp;\\text{在}\\alpha=0.05\\text{下，检验假设}H_{0}: \\chi^{2}=0.005^{2},\\quad H_{1}: \\sigma^{2}\\neq 0.005^{2}.\\\\&amp;\\text{因为}\\mu\\text{未知，所以选取检验统计量}\\chi^{2}=\\frac{n-1}{0.005^{2}}S^{2}\\sim\\chi^{2}(n-1).\\\\&amp;\\text{拒绝域为}\\chi^{2}&gt;\\chi_{a2}^{2}(n-1)\\text{或}\\chi^{2}&lt;\\chi_{1-.e2}^{2}(n-1).\\\\&amp;\\text{现在}n=9,s=0.008, \\text{故}\\chi^{2}=\\frac{n-1}{0.005^{2}}S^{2}=\\frac{8}{0.005^{2}}\\times 0.008^{2}=20.48&gt;17.5,\\chi_{0.975}^{2}(8)=2.18,\\chi_{0.025}^{2}(8)=17.5.\\\\&amp;\\text{从而拒绝}H_{0},\\text{即不能认为这批导线电阻的标准差仍为}0.005.\\end{aligned}\">\\begin{aligned}&amp;\\text{在}\\alpha=0.05\\text{下，检验假设}H_{0}: \\chi^{2}=0.005^{2},\\quad H_{1}: \\sigma^{2}\\neq 0.005^{2}.\\\\&amp;\\text{因为}\\mu\\text{未知，所以选取检验统计量}\\chi^{2}=\\frac{n-1}{0.005^{2}}S^{2}\\sim\\chi^{2}(n-1).\\\\&amp;\\text{拒绝域为}\\chi^{2}&gt;\\chi_{a2}^{2}(n-1)\\text{或}\\chi^{2}&lt;\\chi_{1-.e2}^{2}(n-1).\\\\&amp;\\text{现在}n=9,s=0.008, \\text{故}\\chi^{2}=\\frac{n-1}{0.005^{2}}S^{2}=\\frac{8}{0.005^{2}}\\times 0.008^{2}=20.48&gt;17.5,\\chi_{0.975}^{2}(8)=2.18,\\chi_{0.025}^{2}(8)=17.5.\\\\&amp;\\text{从而拒绝}H_{0},\\text{即不能认为这批导线电阻的标准差仍为}0.005.\\end{aligned}</div>"
     },
     {
       "id": "q0020",
       "number": 20,
       "header": "#20-Averge",
       "difficulty": "Averge",
-      "prompt_html": "<img src=\"/static/generated/assets/probability/ch127/q0020_prompt.png\"/>",
+      "prompt_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{array}{l} \\text {某厂生产的某种型号的电池,其寿命(以小时)长期以来服从方差}\\sigma^{2}=5000 \\text{的正态分布},\\text{现有一批这种电池},\\text{从它的生产情况来看},\\text{寿命的波动性有所改变}。\\text{现随机取}26\\text{只电池},\\text{测出其寿命的样本方差},\\bar{x}^{2}=9200,\\text{根据这一数据推断这批电池的寿命的波动性是否较以往有显著变化}(\\text{取}\\alpha=0.02),\\text{下列说法不正确的是}()。\\quad(\\chi_{0.01}^{2}(25)=44.314,\\chi_{0.95}^{2}(25)=11.524) \\end{array}\">\\begin{array}{l} \\text {某厂生产的某种型号的电池,其寿命(以小时)长期以来服从方差}\\sigma^{2}=5000 \\text{的正态分布},\\text{现有一批这种电池},\\text{从它的生产情况来看},\\text{寿命的波动性有所改变}。\\text{现随机取}26\\text{只电池},\\text{测出其寿命的样本方差},\\bar{x}^{2}=9200,\\text{根据这一数据推断这批电池的寿命的波动性是否较以往有显著变化}(\\text{取}\\alpha=0.02),\\text{下列说法不正确的是}()。\\quad(\\chi_{0.01}^{2}(25)=44.314,\\chi_{0.95}^{2}(25)=11.524) \\end{array}</div>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/probability/ch127/q0020_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{拒绝域为} \\, \\chi ^ { 2 } \\geq 44 . 314\">\\text{拒绝域为} \\, \\chi ^ { 2 } \\geq 44 . 314</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/probability/ch127/q0020_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{检验假设} \\, H_0 \\colon \\sigma^2 = 5000 \\, , \\, H_1 \\colon \\sigma^2 \\neq 5000\">\\text{检验假设} \\, H_0 \\colon \\sigma^2 = 5000 \\, , \\, H_1 \\colon \\sigma^2 \\neq 5000</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/probability/ch127/q0020_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{检验统计量为} \\chi^2 = \\frac{S^2}{200} \\sim \\chi^2(25)\">\\text{检验统计量为} \\chi^2 = \\frac{S^2}{200} \\sim \\chi^2(25)</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/probability/ch127/q0020_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{在显著性水平} \\alpha = 0.02 \\text{下，可以认为这批电池寿命的波动性较以往有显著的变化}\">\\text{在显著性水平} \\alpha = 0.02 \\text{下，可以认为这批电池寿命的波动性较以往有显著的变化}</span>"
         }
       ],
       "answer": "A",
       "answer_index": 0,
-      "analysis_html": "<img src=\"/static/generated/assets/probability/ch127/q0020_analysis.png\"/>"
+      "analysis_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{aligned}&amp;\\text{在水平}\\alpha=0.02\\text{下，检验假设}H_{0}: \\sigma^{2}=5000, H_{1}: \\sigma^{2}\\neq 5000.\\ \\text{因为}\\mu\\text{未知，所以检验统计量为}\\chi^{2}=\\frac{(n-1)S^{2}}{\\sigma_{0}^{2}}-\\chi^{2}(n-1).\\ \\\\&amp;\\text{拒绝域为}W=[0,\\chi_{1-\\frac{\\alpha}{2}}^{2}(n-1)]\\cup (\\chi_{n}^{2}(n-1),+\\infty).\\ \\\\&amp;\\text{代入}n=26,\\sigma_{0}^{2}=5000,s^{2}=9200,\\text{得}\\chi^{2}=\\frac{(n-1)s^{2}}{\\sigma_{0}^{2}}=46&gt;\\chi_{0.01}^{2}(25)=44.314.\\ \\\\&amp;\\text{故拒绝}H_{0},\\ \\text{即认为在显著性水平}\\alpha=0.02\\text{下这批电池寿命的波动性较以往有显著变化}.\\end{aligned}\">\\begin{aligned}&amp;\\text{在水平}\\alpha=0.02\\text{下，检验假设}H_{0}: \\sigma^{2}=5000, H_{1}: \\sigma^{2}\\neq 5000.\\ \\text{因为}\\mu\\text{未知，所以检验统计量为}\\chi^{2}=\\frac{(n-1)S^{2}}{\\sigma_{0}^{2}}-\\chi^{2}(n-1).\\ \\\\&amp;\\text{拒绝域为}W=[0,\\chi_{1-\\frac{\\alpha}{2}}^{2}(n-1)]\\cup (\\chi_{n}^{2}(n-1),+\\infty).\\ \\\\&amp;\\text{代入}n=26,\\sigma_{0}^{2}=5000,s^{2}=9200,\\text{得}\\chi^{2}=\\frac{(n-1)s^{2}}{\\sigma_{0}^{2}}=46&gt;\\chi_{0.01}^{2}(25)=44.314.\\ \\\\&amp;\\text{故拒绝}H_{0},\\ \\text{即认为在显著性水平}\\alpha=0.02\\text{下这批电池寿命的波动性较以往有显著变化}.\\end{aligned}</div>"
     }
-  ]
+  ],
+  "format": "latex",
+  "source_md": "gl/8.2.1.2_方差检验(20题)/8.2.1.2_方差检验(20题).md"
 }

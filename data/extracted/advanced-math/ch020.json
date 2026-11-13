@@ -13,560 +13,562 @@
       "number": 1,
       "header": "#1-Averge",
       "difficulty": "Averge",
-      "prompt_html": "<img src=\"/static/generated/assets/advanced-math/ch020/q0001_prompt.png\"/>",
+      "prompt_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\text{设 } f(x) = \\begin{cases} \\ln(x+1), &amp; x \\geq 0, \\\\ 0, &amp; x &lt; 0, \\end{cases} \\text{则右导数 } f_{+}^{\\prime}(0) = [\\quad].\">\\text{设 } f(x) = \\begin{cases} \\ln(x+1), &amp; x \\geq 0, \\\\ 0, &amp; x &lt; 0, \\end{cases} \\text{则右导数 } f_{+}^{\\prime}(0) = [\\quad].</div>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch020/q0001_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"- 2 \\, ;\">- 2 \\, ;</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch020/q0001_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"- 1 .\">- 1 .</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch020/q0001_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\mathbf { 2 } \\, ;\">\\mathbf { 2 } \\, ;</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch020/q0001_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\mathbf { 1 } ;\">\\mathbf { 1 } ;</span>"
         }
       ],
       "answer": "D",
       "answer_index": 3,
-      "analysis_html": "<img src=\"/static/generated/assets/advanced-math/ch020/q0001_analysis.png\"/>"
+      "analysis_html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{解答} \\; \\; f_{+}^{\\prime}(0) = \\lim_{x \\to 0^{+}} \\frac{ \\ln(x+1)-0}{x} = \\lim_{x \\to 0^{+}} \\frac{ \\ln(x+1)}{x} = 1.\">\\text{解答} \\; \\; f_{+}^{\\prime}(0) = \\lim_{x \\to 0^{+}} \\frac{ \\ln(x+1)-0}{x} = \\lim_{x \\to 0^{+}} \\frac{ \\ln(x+1)}{x} = 1.</span>"
     },
     {
       "id": "q0002",
       "number": 2,
       "header": "#2-Averge",
       "difficulty": "Averge",
-      "prompt_html": "<img src=\"/static/generated/assets/advanced-math/ch020/q0002_prompt.png\"/>",
+      "prompt_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\text{设}f(x)=\\begin{cases}x^{3}e^{-x},&amp;x&gt;0,\\\\ x,&amp;x\\leq 0,\\end{cases} \\text{则}f(x)\\text{在点}x=0\\text{处}( )。\">\\text{设}f(x)=\\begin{cases}x^{3}e^{-x},&amp;x&gt;0,\\\\ x,&amp;x\\leq 0,\\end{cases} \\text{则}f(x)\\text{在点}x=0\\text{处}( )。</div>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch020/q0002_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{连续但不可导}\">\\text{连续但不可导}</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch020/q0002_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{右可导而左不可导}\">\\text{右可导而左不可导}</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch020/q0002_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{可导}\">\\text{可导}</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch020/q0002_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{左可导而右不可导}\">\\text{左可导而右不可导}</span>"
         }
       ],
       "answer": "A",
       "answer_index": 0,
-      "analysis_html": "<img src=\"/static/generated/assets/advanced-math/ch020/q0002_analysis.png\"/>"
+      "analysis_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{aligned}&amp;\\text{解答}\\lim_{x\\rightarrow 0^{-}}f(x)=\\lim_{x\\rightarrow 0^{-}}x^{3}e^{-x}=\\lim_{x\\rightarrow 0^{+}}\\frac{x^{3}}{e^{x}}=0=\\lim_{x\\rightarrow 0^{-}}x=\\lim_{x\\rightarrow 0^{+}}f(x)=f(0)\\text{，所以}f(x)\\text{在点}x=0\\text{处连续。}\\\\&amp;f_{+}^{\\prime}(0)=\\lim_{x\\rightarrow 0^{+}}\\frac{f(x)-f(0)}{x}=\\lim_{x\\rightarrow 0^{+}}\\frac{x^{3}e^{-x}-0}{x}=\\lim_{x\\rightarrow 0^{-}}\\frac{x^{2}}{e^{x}}=0\\,,\\\\&amp;f_{-}^{\\prime}(0)=\\lim_{x\\rightarrow 0^{+}}\\frac{f(x)-f(0)}{x}=\\lim_{x\\rightarrow 0^{+}}\\frac{x-0}{x}=1,\\ f_{-}^{\\prime}(0)\\neq f_{+}^{\\prime}(0)\\text{，所以}f(x)\\text{在点}x=0\\text{处不可导。}\\end{aligned}\">\\begin{aligned}&amp;\\text{解答}\\lim_{x\\rightarrow 0^{-}}f(x)=\\lim_{x\\rightarrow 0^{-}}x^{3}e^{-x}=\\lim_{x\\rightarrow 0^{+}}\\frac{x^{3}}{e^{x}}=0=\\lim_{x\\rightarrow 0^{-}}x=\\lim_{x\\rightarrow 0^{+}}f(x)=f(0)\\text{，所以}f(x)\\text{在点}x=0\\text{处连续。}\\\\&amp;f_{+}^{\\prime}(0)=\\lim_{x\\rightarrow 0^{+}}\\frac{f(x)-f(0)}{x}=\\lim_{x\\rightarrow 0^{+}}\\frac{x^{3}e^{-x}-0}{x}=\\lim_{x\\rightarrow 0^{-}}\\frac{x^{2}}{e^{x}}=0\\,,\\\\&amp;f_{-}^{\\prime}(0)=\\lim_{x\\rightarrow 0^{+}}\\frac{f(x)-f(0)}{x}=\\lim_{x\\rightarrow 0^{+}}\\frac{x-0}{x}=1,\\ f_{-}^{\\prime}(0)\\neq f_{+}^{\\prime}(0)\\text{，所以}f(x)\\text{在点}x=0\\text{处不可导。}\\end{aligned}</div>"
     },
     {
       "id": "q0003",
       "number": 3,
       "header": "#3-Averge",
       "difficulty": "Averge",
-      "prompt_html": "<img src=\"/static/generated/assets/advanced-math/ch020/q0003_prompt.png\"/>",
+      "prompt_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\text{设} \\ f(x)=\\begin{cases}(x-2)\\arctan\\frac{1}{x-2},&amp;x\\neq 2,\\\\ 0,&amp;x=2,\\end{cases} \\text{则左导数}f_{-}(2)=().\">\\text{设} \\ f(x)=\\begin{cases}(x-2)\\arctan\\frac{1}{x-2},&amp;x\\neq 2,\\\\ 0,&amp;x=2,\\end{cases} \\text{则左导数}f_{-}(2)=().</div>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch020/q0003_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\frac{\\pi}{4}\">\\frac{\\pi}{4}</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch020/q0003_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"- \\frac { \\pi } { 2 }\">- \\frac { \\pi } { 2 }</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch020/q0003_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"- \\frac { \\pi } { 4 }\">- \\frac { \\pi } { 4 }</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch020/q0003_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\frac { \\pi } { 2 }\">\\frac { \\pi } { 2 }</span>"
         }
       ],
       "answer": "B",
       "answer_index": 1,
-      "analysis_html": "<img src=\"/static/generated/assets/advanced-math/ch020/q0003_analysis.png\"/>"
+      "analysis_html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{解答} \\ f_{-}^{\\prime}(2) = \\lim_{x \\to 2^{-}} \\frac{(x-2) \\arctan \\frac{1}{x-2}-0}{x-2} = \\lim_{x \\to 2^{-}} \\arctan \\frac{1}{x-2} = - \\frac{\\pi}{2}.\">\\text{解答} \\ f_{-}^{\\prime}(2) = \\lim_{x \\to 2^{-}} \\frac{(x-2) \\arctan \\frac{1}{x-2}-0}{x-2} = \\lim_{x \\to 2^{-}} \\arctan \\frac{1}{x-2} = - \\frac{\\pi}{2}.</span>"
     },
     {
       "id": "q0004",
       "number": 4,
       "header": "#4-Averge",
       "difficulty": "Averge",
-      "prompt_html": "<img src=\"/static/generated/assets/advanced-math/ch020/q0004_prompt.png\"/>",
+      "prompt_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\text{设} \\ f(x) = \\begin{cases} \\dfrac{1 - \\cos x } { \\sqrt { x } } , &amp; x &gt; 0 , \\\\ x ^ { 2 } g ( x ) , &amp; x \\leq 0 , \\end{cases} \\text{其中} \\ g ( x ) \\text{是有界函数，则} f ( x ) \\text{在} x = 0 \\text{处（）。}\">\\text{设} \\ f(x) = \\begin{cases} \\dfrac{1 - \\cos x } { \\sqrt { x } } , &amp; x &gt; 0 , \\\\ x ^ { 2 } g ( x ) , &amp; x \\leq 0 , \\end{cases} \\text{其中} \\ g ( x ) \\text{是有界函数，则} f ( x ) \\text{在} x = 0 \\text{处（）。}</div>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch020/q0004_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{可导}\">\\text{可导}</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch020/q0004_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{极限存在但不连续}\">\\text{极限存在但不连续}</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch020/q0004_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{连续但不可导}\">\\text{连续但不可导}</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch020/q0004_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{极限不存在}\">\\text{极限不存在}</span>"
         }
       ],
       "answer": "A",
       "answer_index": 0,
-      "analysis_html": "<img src=\"/static/generated/assets/advanced-math/ch020/q0004_analysis.png\"/>"
+      "analysis_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{aligned}&amp;\\text{解答}\\lim_{x\\rightarrow 0^+}f(x)=\\lim_{x\\rightarrow 0^+}\\frac{1-\\cos x}{\\sqrt{x}}=\\lim_{x\\rightarrow 0^+}\\frac{\\frac{x}{2}}{\\frac{1}{x^2}}=0,\\ \\lim_{x\\rightarrow 0^+}f(x)=\\lim_{x\\rightarrow 0^+}x^2g(x)=0,\\ \\text{所以}f(x)\\text{在}x=0\\text{处极限存在。}\\\\&amp;\\lim_{x\\rightarrow 0}f(x)=f(0),\\ \\text{所以}f(x)\\text{在}x=0\\text{处连续。}\\\\&amp;\\lim_{x\\rightarrow 0^+}\\frac{f(x)-f(0)}{x}=\\lim_{x\\rightarrow 0^+}\\frac{\\frac{1-\\cos x}{\\sqrt{x}}-0}{x}=\\lim_{x\\rightarrow 0^+}\\frac{\\frac{x^2}{3}}{2x^2}=0,\\ \\lim_{x\\rightarrow 0^+}\\frac{f(x)-f(0)}{x}=\\lim_{x\\rightarrow 0^+}\\frac{x^2g(x)-0}{x}=\\lim_{x\\rightarrow 0^+}xg(x)=0,\\ \\text{所以}f(x)\\text{在}x=0\\text{处可导。}\\end{aligned}\">\\begin{aligned}&amp;\\text{解答}\\lim_{x\\rightarrow 0^+}f(x)=\\lim_{x\\rightarrow 0^+}\\frac{1-\\cos x}{\\sqrt{x}}=\\lim_{x\\rightarrow 0^+}\\frac{\\frac{x}{2}}{\\frac{1}{x^2}}=0,\\ \\lim_{x\\rightarrow 0^+}f(x)=\\lim_{x\\rightarrow 0^+}x^2g(x)=0,\\ \\text{所以}f(x)\\text{在}x=0\\text{处极限存在。}\\\\&amp;\\lim_{x\\rightarrow 0}f(x)=f(0),\\ \\text{所以}f(x)\\text{在}x=0\\text{处连续。}\\\\&amp;\\lim_{x\\rightarrow 0^+}\\frac{f(x)-f(0)}{x}=\\lim_{x\\rightarrow 0^+}\\frac{\\frac{1-\\cos x}{\\sqrt{x}}-0}{x}=\\lim_{x\\rightarrow 0^+}\\frac{\\frac{x^2}{3}}{2x^2}=0,\\ \\lim_{x\\rightarrow 0^+}\\frac{f(x)-f(0)}{x}=\\lim_{x\\rightarrow 0^+}\\frac{x^2g(x)-0}{x}=\\lim_{x\\rightarrow 0^+}xg(x)=0,\\ \\text{所以}f(x)\\text{在}x=0\\text{处可导。}\\end{aligned}</div>"
     },
     {
       "id": "q0005",
       "number": 5,
       "header": "#5-Averge",
       "difficulty": "Averge",
-      "prompt_html": "<img src=\"/static/generated/assets/advanced-math/ch020/q0005_prompt.png\"/>",
+      "prompt_html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{设}f(x)=(3+|x|)\\sin x, \\text{则}f(x) \\text{在点}x=0 \\text{处[ }.\">\\text{设}f(x)=(3+|x|)\\sin x, \\text{则}f(x) \\text{在点}x=0 \\text{处[ }.</span>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch020/q0005_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"f^{\\prime}(0) = 0\\, ;\">f^{\\prime}(0) = 0\\, ;</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch020/q0005_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\begin{array}{l} { l } { { f ^ { \\prime } ( 0 ) = 1 \\, ; } } \\end{array}\">\\begin{array}{l} { l } { { f ^ { \\prime } ( 0 ) = 1 \\, ; } } \\end{array}</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch020/q0005_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{不可导}.\">\\text{不可导}.</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch020/q0005_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\begin{array}{l} { r } { f ^ { \\prime } ( 0 ) = 3 \\, ; } \\end{array}\">\\begin{array}{l} { r } { f ^ { \\prime } ( 0 ) = 3 \\, ; } \\end{array}</span>"
         }
       ],
       "answer": "D",
       "answer_index": 3,
-      "analysis_html": "<img src=\"/static/generated/assets/advanced-math/ch020/q0005_analysis.png\"/>"
+      "analysis_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{aligned}&amp;\\text{解答}\\;\\;f(x)=\\begin{cases}(3+x)\\sin x,&amp;x\\geq 0,\\\\3-x)\\sin x,&amp;x&lt;0,\\end{cases}f&#x27;(x)=\\lim_{x\\rightarrow 0^{-}}\\frac{(3+x)\\sin x-0}{x}=3,\\;\\;f^{\\prime}(x)=\\lim_{x\\rightarrow 0^{+}}\\frac{(3-x)\\sin x-0}{x}=3\\;,\\;\\\\&amp;\\text{所以}f^{\\prime}(0)=3.\\end{aligned}\">\\begin{aligned}&amp;\\text{解答}\\;\\;f(x)=\\begin{cases}(3+x)\\sin x,&amp;x\\geq 0,\\\\3-x)\\sin x,&amp;x&lt;0,\\end{cases}f&#x27;(x)=\\lim_{x\\rightarrow 0^{-}}\\frac{(3+x)\\sin x-0}{x}=3,\\;\\;f^{\\prime}(x)=\\lim_{x\\rightarrow 0^{+}}\\frac{(3-x)\\sin x-0}{x}=3\\;,\\;\\\\&amp;\\text{所以}f^{\\prime}(0)=3.\\end{aligned}</div>"
     },
     {
       "id": "q0006",
       "number": 6,
       "header": "#6-Averge",
       "difficulty": "Averge",
-      "prompt_html": "<img src=\"/static/generated/assets/advanced-math/ch020/q0006_prompt.png\"/>",
+      "prompt_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\text{设 } f(x) = \\begin{cases} \\ln(3x+1), &amp; x \\geq 0, \\\\ 0, &amp; x &lt; 0, \\end{cases} \\text{则右导数 } f_{\\mp}^{\\prime}(0) = ( ).\">\\text{设 } f(x) = \\begin{cases} \\ln(3x+1), &amp; x \\geq 0, \\\\ 0, &amp; x &lt; 0, \\end{cases} \\text{则右导数 } f_{\\mp}^{\\prime}(0) = ( ).</div>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch020/q0006_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\textcolor{blue}{3}\">\\textcolor{blue}{3}</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch020/q0006_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"^ { - 2 }\">^ { - 2 }</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch020/q0006_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\mathbf { 2 }\">\\mathbf { 2 }</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch020/q0006_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\substack{\\text{- 3 }}\">\\substack{\\text{- 3 }}</span>"
         }
       ],
       "answer": "A",
       "answer_index": 0,
-      "analysis_html": "<img src=\"/static/generated/assets/advanced-math/ch020/q0006_analysis.png\"/>"
+      "analysis_html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{解答} \\ \\ f_{+}^{\\prime}(0) = \\lim_{x \\to 0^{+}} \\frac{ \\ln(3x+1)-0}{x} = \\lim_{x \\to 0^{+}} \\frac{ \\ln(3x+1)}{x} = 3\\,.\">\\text{解答} \\ \\ f_{+}^{\\prime}(0) = \\lim_{x \\to 0^{+}} \\frac{ \\ln(3x+1)-0}{x} = \\lim_{x \\to 0^{+}} \\frac{ \\ln(3x+1)}{x} = 3\\,.</span>"
     },
     {
       "id": "q0007",
       "number": 7,
       "header": "#7-Averge",
       "difficulty": "Averge",
-      "prompt_html": "<img src=\"/static/generated/assets/advanced-math/ch020/q0007_prompt.png\"/>",
+      "prompt_html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{函数}f(x)=|x|+2\\text{在点}x=0\\text{处}( )。\">\\text{函数}f(x)=|x|+2\\text{在点}x=0\\text{处}( )。</span>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch020/q0007_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{具有连续的导数}\">\\text{具有连续的导数}</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch020/q0007_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{连续且可导}\">\\text{连续且可导}</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch020/q0007_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{连续，但不可导}\">\\text{连续，但不可导}</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch020/q0007_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{不连续，故不可导}\">\\text{不连续，故不可导}</span>"
         }
       ],
       "answer": "C",
       "answer_index": 2,
-      "analysis_html": "<img src=\"/static/generated/assets/advanced-math/ch020/q0007_analysis.png\"/>"
+      "analysis_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{array}{l} \\text {解答} \\quad f(x) = \\{ \\begin{array}{ll} x + 2, &amp; x \\geq 0, \\\\ 2 - x, &amp; x &lt; 0, \\end{array} \\lim_{x \\rightarrow 0^{-}} f(x) = \\lim_{x \\rightarrow 0^{-}} f(x) = f(0), \\text {所以} f(x) \\text {在} x = 0 \\text {连续。} \\\\ \\text {又} f^{\\prime}_{-}(x) = \\lim_{\\Delta x \\rightarrow 0^{-}} \\frac{f(\\Delta x) - f(0)}{\\Delta x} = 1, \\quad f^{\\prime}_{-}(x) = \\lim_{\\Delta x \\rightarrow 0^{-}} \\frac{f(\\Delta x) - f(0)}{\\Delta x} = -1, \\text {所以不可导。} \\end{array}\">\\begin{array}{l} \\text {解答} \\quad f(x) = \\{ \\begin{array}{ll} x + 2, &amp; x \\geq 0, \\\\ 2 - x, &amp; x &lt; 0, \\end{array} \\lim_{x \\rightarrow 0^{-}} f(x) = \\lim_{x \\rightarrow 0^{-}} f(x) = f(0), \\text {所以} f(x) \\text {在} x = 0 \\text {连续。} \\\\ \\text {又} f^{\\prime}_{-}(x) = \\lim_{\\Delta x \\rightarrow 0^{-}} \\frac{f(\\Delta x) - f(0)}{\\Delta x} = 1, \\quad f^{\\prime}_{-}(x) = \\lim_{\\Delta x \\rightarrow 0^{-}} \\frac{f(\\Delta x) - f(0)}{\\Delta x} = -1, \\text {所以不可导。} \\end{array}</div>"
     },
     {
       "id": "q0008",
       "number": 8,
       "header": "#8-Averge",
       "difficulty": "Averge",
-      "prompt_html": "<img src=\"/static/generated/assets/advanced-math/ch020/q0008_prompt.png\"/>",
+      "prompt_html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{设}f(x)\\text{可导，}F(x)=f(x)(1-|\\sin x|)\\text{，若}F(x)\\text{在}x=0\\text{处可导，则必有（）。}\">\\text{设}f(x)\\text{可导，}F(x)=f(x)(1-|\\sin x|)\\text{，若}F(x)\\text{在}x=0\\text{处可导，则必有（）。}</span>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch020/q0008_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"f^{\\prime}(0) = 0\">f^{\\prime}(0) = 0</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch020/q0008_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"f(0)-f^{\\prime}(0)=0\">f(0)-f^{\\prime}(0)=0</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch020/q0008_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"f(0) = 0\">f(0) = 0</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch020/q0008_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"f(0) + f^{\\prime}(0) = 0\">f(0) + f^{\\prime}(0) = 0</span>"
         }
       ],
       "answer": "C",
       "answer_index": 2,
-      "analysis_html": "<img src=\"/static/generated/assets/advanced-math/ch020/q0008_analysis.png\"/>"
+      "analysis_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{array}{l} \\text {解答} \\ F(x) \\text {在} x = 0 \\text {处可导，则有} F _{+} ^ {\\prime} (0) = F _ {-} ^ {\\prime} (0), \\ f(x) \\text {可导也可得} f ^ {\\prime} (0) = f _ {+} ^ {\\prime} (0) = f _ {-} ^ {\\prime} (0), \\\\ F _ {+} ^ {\\prime} (0) = \\lim _ {x \\to 0 ^ {+}} \\frac {f (x) (1 - \\sin x) - f (0)}{x} = \\lim _ {x \\to 0 ^ {+}} \\frac {f (x) - f (0)}{x} - \\lim _ {x \\to 0 ^ {+}} \\frac {f (x) \\sin x}{x} = f _ {+} ^ {\\prime} (0) - f (0); \\\\ F _ {-} ^ {\\prime} (0) = \\lim _ {x \\to 0 ^ {-}} \\frac {f (x) (1 + \\sin x) - f (0)}{x} = \\lim _ {x \\to 0 ^ {-}} \\frac {f (x) - f (0)}{x} + \\lim _ {x \\to 0 ^ {-}} \\frac {f (x) \\sin x}{x} = f _ {-} ^ {\\prime} (0) + f (0); \\\\ 0 = F _ {+} ^ {\\prime} (0) - F _ {-} ^ {\\prime} (0) = - 2 f (0), \\text {可得} f (0) = 0. \\end{array}\">\\begin{array}{l} \\text {解答} \\ F(x) \\text {在} x = 0 \\text {处可导，则有} F _{+} ^ {\\prime} (0) = F _ {-} ^ {\\prime} (0), \\ f(x) \\text {可导也可得} f ^ {\\prime} (0) = f _ {+} ^ {\\prime} (0) = f _ {-} ^ {\\prime} (0), \\\\ F _ {+} ^ {\\prime} (0) = \\lim _ {x \\to 0 ^ {+}} \\frac {f (x) (1 - \\sin x) - f (0)}{x} = \\lim _ {x \\to 0 ^ {+}} \\frac {f (x) - f (0)}{x} - \\lim _ {x \\to 0 ^ {+}} \\frac {f (x) \\sin x}{x} = f _ {+} ^ {\\prime} (0) - f (0); \\\\ F _ {-} ^ {\\prime} (0) = \\lim _ {x \\to 0 ^ {-}} \\frac {f (x) (1 + \\sin x) - f (0)}{x} = \\lim _ {x \\to 0 ^ {-}} \\frac {f (x) - f (0)}{x} + \\lim _ {x \\to 0 ^ {-}} \\frac {f (x) \\sin x}{x} = f _ {-} ^ {\\prime} (0) + f (0); \\\\ 0 = F _ {+} ^ {\\prime} (0) - F _ {-} ^ {\\prime} (0) = - 2 f (0), \\text {可得} f (0) = 0. \\end{array}</div>"
     },
     {
       "id": "q0009",
       "number": 9,
       "header": "#9-Averge",
       "difficulty": "Averge",
-      "prompt_html": "<img src=\"/static/generated/assets/advanced-math/ch020/q0009_prompt.png\"/>",
+      "prompt_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\text{设} \\ f(x) = \\begin{cases} (x-3) \\arctan \\frac{1}{x-3}, &amp; x \\neq 3, \\\\ 0, &amp; x = 3, \\end{cases} \\text{则左导数} f_{-}(3) = [\\qquad].\">\\text{设} \\ f(x) = \\begin{cases} (x-3) \\arctan \\frac{1}{x-3}, &amp; x \\neq 3, \\\\ 0, &amp; x = 3, \\end{cases} \\text{则左导数} f_{-}(3) = [\\qquad].</div>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch020/q0009_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"- \\frac { \\pi } { 4 } \\, ;\">- \\frac { \\pi } { 4 } \\, ;</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch020/q0009_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\frac { \\pi } { 4 } ;\">\\frac { \\pi } { 4 } ;</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch020/q0009_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\frac { \\pi } { 2 } .\">\\frac { \\pi } { 2 } .</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch020/q0009_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"- \\frac { \\pi } { 2 } \\, ;\">- \\frac { \\pi } { 2 } \\, ;</span>"
         }
       ],
       "answer": "D",
       "answer_index": 3,
-      "analysis_html": "<img src=\"/static/generated/assets/advanced-math/ch020/q0009_analysis.png\"/>"
+      "analysis_html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{解答} \\ f_{-}^{\\prime}(3) = \\lim_{x \\rightarrow 3^{-}} \\frac{(x-3) \\arctan \\frac{1}{x-3}-0}{x-3} = \\lim_{x \\rightarrow 3^{-}} \\arctan \\frac{1}{x-3} = -\\frac{\\pi}{2}.\">\\text{解答} \\ f_{-}^{\\prime}(3) = \\lim_{x \\rightarrow 3^{-}} \\frac{(x-3) \\arctan \\frac{1}{x-3}-0}{x-3} = \\lim_{x \\rightarrow 3^{-}} \\arctan \\frac{1}{x-3} = -\\frac{\\pi}{2}.</span>"
     },
     {
       "id": "q0010",
       "number": 10,
       "header": "#10-Averge",
       "difficulty": "Averge",
-      "prompt_html": "<img src=\"/static/generated/assets/advanced-math/ch020/q0010_prompt.png\"/>",
+      "prompt_html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{函数}f(x)=(x^{2}-x-2)\\left|x^{3}-x\\right|\\text{不可导点的个数是（）。}\">\\text{函数}f(x)=(x^{2}-x-2)\\left|x^{3}-x\\right|\\text{不可导点的个数是（）。}</span>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch020/q0010_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\mathbf { 1 }\">\\mathbf { 1 }</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch020/q0010_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"3\">3</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch020/q0010_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\boldsymbol { 0 }\">\\boldsymbol { 0 }</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch020/q0010_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\textbf { 2 }\">\\textbf { 2 }</span>"
         }
       ],
       "answer": "D",
       "answer_index": 3,
-      "analysis_html": "<img src=\"/static/generated/assets/advanced-math/ch020/q0010_analysis.png\"/>"
+      "analysis_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{array}{l} \\text {解答 函数} f(x) = (x^{2}-x-2)|x^{3}-x| = (x^{2}-x-2)|x(x+1)(x-1)|, \\\\ \\text {写成分段函数形式为} f(x) = \\{ \\begin{array}{ll} -(x^{2}-x-2)x(x+1)(x-1), &amp; x &lt; -1, \\\\ (x^{2}-x-2)x(x+1)(x-1), &amp; -1 \\leq x &lt; 0, \\\\ -(x^{2}-x-2)x(x+1)(x-1), &amp; 0 \\leq x &lt; 1, \\\\ (x^{2}-x-2)x(x+1)(x-1), &amp; x &gt; 1, \\end{array}\\text {考察点} x = -1,\\ x = 0,\\ x = 1 \\text {的左右导} \\\\ \\text {数，可得} x = -1 \\text {函数的左右导数相等，} x = 0,\\ x = 1 \\text {的左右导数不等，所以不可导点个数为} 2。 \\end{array}\">\\begin{array}{l} \\text {解答 函数} f(x) = (x^{2}-x-2)|x^{3}-x| = (x^{2}-x-2)|x(x+1)(x-1)|, \\\\ \\text {写成分段函数形式为} f(x) = \\{ \\begin{array}{ll} -(x^{2}-x-2)x(x+1)(x-1), &amp; x &lt; -1, \\\\ (x^{2}-x-2)x(x+1)(x-1), &amp; -1 \\leq x &lt; 0, \\\\ -(x^{2}-x-2)x(x+1)(x-1), &amp; 0 \\leq x &lt; 1, \\\\ (x^{2}-x-2)x(x+1)(x-1), &amp; x &gt; 1, \\end{array}\\text {考察点} x = -1,\\ x = 0,\\ x = 1 \\text {的左右导} \\\\ \\text {数，可得} x = -1 \\text {函数的左右导数相等，} x = 0,\\ x = 1 \\text {的左右导数不等，所以不可导点个数为} 2。 \\end{array}</div>"
     },
     {
       "id": "q0011",
       "number": 11,
       "header": "#11-Averge",
       "difficulty": "Averge",
-      "prompt_html": "<img src=\"/static/generated/assets/advanced-math/ch020/q0011_prompt.png\"/>",
+      "prompt_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\text{函数}f(x)=\\begin{cases}\\sin x,&amp;x&lt;0, \\\\ x,&amp;x\\geq 0,\\end{cases} \\text{在点}x=0 \\text{处的导数是（）。}\">\\text{函数}f(x)=\\begin{cases}\\sin x,&amp;x&lt;0, \\\\ x,&amp;x\\geq 0,\\end{cases} \\text{在点}x=0 \\text{处的导数是（）。}</div>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch020/q0011_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\mathbf { 1 }\">\\mathbf { 1 }</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch020/q0011_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\mathbf { 0 }\">\\mathbf { 0 }</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch020/q0011_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"^ { - 1 }\">^ { - 1 }</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch020/q0011_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{不存在}\">\\text{不存在}</span>"
         }
       ],
       "answer": "A",
       "answer_index": 0,
-      "analysis_html": "<img src=\"/static/generated/assets/advanced-math/ch020/q0011_analysis.png\"/>"
+      "analysis_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{array}{l} \\text {解答 利用左、右导数的概念来求解。} \\\\ \\text {当} \\Delta x &lt; 0 \\text {时，} \\Delta y = f (0 + \\Delta x) - f (0) = \\sin \\Delta x - 0 = \\sin \\Delta x \\text {，故} f _ {\\prime} ^ {\\prime} (0) = \\lim _ {\\Delta x \\to 0 ^ {-}} \\frac {\\Delta y}{\\Delta x} = \\lim _ {\\Delta x \\to 0 ^ {-}} \\frac {\\sin \\Delta x}{\\Delta x} = 1 ; \\\\ \\text {当} \\Delta x &gt; 0 \\text {时，} \\Delta y = f (0 + \\Delta x) - f (0) = \\Delta x - 0 = \\Delta x \\text {，故} f _ {\\prime} ^ {\\prime} (0) = \\lim _ {\\Delta x \\to 0 ^ {+}} \\frac {\\Delta y}{\\Delta x} = \\lim _ {\\Delta x \\to 0 ^ {+}} \\frac {\\Delta x}{\\Delta x} = 1 ; \\\\ \\text {由} f _ {\\prime} ^ {\\prime} (0) = f _ {\\prime} ^ {\\prime} (0) = 1 , \\text {得} f ^ {\\prime} (0) = \\lim _ {\\Delta x \\to 0} \\frac {\\Delta y}{\\Delta x} = 1 . \\end{array}\">\\begin{array}{l} \\text {解答 利用左、右导数的概念来求解。} \\\\ \\text {当} \\Delta x &lt; 0 \\text {时，} \\Delta y = f (0 + \\Delta x) - f (0) = \\sin \\Delta x - 0 = \\sin \\Delta x \\text {，故} f _ {\\prime} ^ {\\prime} (0) = \\lim _ {\\Delta x \\to 0 ^ {-}} \\frac {\\Delta y}{\\Delta x} = \\lim _ {\\Delta x \\to 0 ^ {-}} \\frac {\\sin \\Delta x}{\\Delta x} = 1 ; \\\\ \\text {当} \\Delta x &gt; 0 \\text {时，} \\Delta y = f (0 + \\Delta x) - f (0) = \\Delta x - 0 = \\Delta x \\text {，故} f _ {\\prime} ^ {\\prime} (0) = \\lim _ {\\Delta x \\to 0 ^ {+}} \\frac {\\Delta y}{\\Delta x} = \\lim _ {\\Delta x \\to 0 ^ {+}} \\frac {\\Delta x}{\\Delta x} = 1 ; \\\\ \\text {由} f _ {\\prime} ^ {\\prime} (0) = f _ {\\prime} ^ {\\prime} (0) = 1 , \\text {得} f ^ {\\prime} (0) = \\lim _ {\\Delta x \\to 0} \\frac {\\Delta y}{\\Delta x} = 1 . \\end{array}</div>"
     },
     {
       "id": "q0012",
       "number": 12,
       "header": "#12-Averge",
       "difficulty": "Averge",
-      "prompt_html": "<img src=\"/static/generated/assets/advanced-math/ch020/q0012_prompt.png\"/>",
+      "prompt_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\text{设}f(x)=\\begin{cases}\\sin x,&amp;-\\infty \\leq x&lt;0,\\\\ x,&amp;0\\leq x&lt;\\infty,\\end{cases} \\text{则}f(x)\\text{在点}x=0\\text{处}( )。\">\\text{设}f(x)=\\begin{cases}\\sin x,&amp;-\\infty \\leq x&lt;0,\\\\ x,&amp;0\\leq x&lt;\\infty,\\end{cases} \\text{则}f(x)\\text{在点}x=0\\text{处}( )。</div>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch020/q0012_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{不连续}\">\\text{不连续}</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch020/q0012_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{连续但不可导}\">\\text{连续但不可导}</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch020/q0012_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{可导}\">\\text{可导}</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch020/q0012_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{左导} \\text{不等于右导}\">\\text{左导} \\text{不等于右导}</span>"
         }
       ],
       "answer": "C",
       "answer_index": 2,
-      "analysis_html": "<img src=\"/static/generated/assets/advanced-math/ch020/q0012_analysis.png\"/>"
+      "analysis_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{array}{l} \\text{解答} \\lim_{x \\rightarrow 0^{-}} f(x) = f(0) = 0 = \\lim_{x \\rightarrow 0^{-}} f(x), \\text{所以} f(x) \\text{在点} x = 0 \\text{连续。} \\\\ \\\\ f_{+}^{\\prime}(0) = \\lim_{x \\rightarrow 0^{-}} \\frac{x}{x} = 1 = \\lim_{x \\rightarrow 0^{-}} \\frac{\\sin x - 0}{x} = f_{-}^{\\prime}(0), \\text{所以} f(x) \\text{在点} x = 0 \\text{可导。} \\end{array}\">\\begin{array}{l} \\text{解答} \\lim_{x \\rightarrow 0^{-}} f(x) = f(0) = 0 = \\lim_{x \\rightarrow 0^{-}} f(x), \\text{所以} f(x) \\text{在点} x = 0 \\text{连续。} \\\\ \\\\ f_{+}^{\\prime}(0) = \\lim_{x \\rightarrow 0^{-}} \\frac{x}{x} = 1 = \\lim_{x \\rightarrow 0^{-}} \\frac{\\sin x - 0}{x} = f_{-}^{\\prime}(0), \\text{所以} f(x) \\text{在点} x = 0 \\text{可导。} \\end{array}</div>"
     },
     {
       "id": "q0013",
       "number": 13,
       "header": "#13-Averge",
       "difficulty": "Averge",
-      "prompt_html": "<img src=\"/static/generated/assets/advanced-math/ch020/q0013_prompt.png\"/>",
+      "prompt_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\text{设} \\ f(x) = \\begin{cases} \\sin(x-1), &amp; x \\geq 1, \\\\ \\ln(2-x), &amp; x &lt; 1, \\end{cases}, \\text{则左导数} f_{-}^{\\prime}(1) = (\\text{}).\">\\text{设} \\ f(x) = \\begin{cases} \\sin(x-1), &amp; x \\geq 1, \\\\ \\ln(2-x), &amp; x &lt; 1, \\end{cases}, \\text{则左导数} f_{-}^{\\prime}(1) = (\\text{}).</div>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch020/q0013_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"^ { - 1 }\">^ { - 1 }</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch020/q0013_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"^ { - 2 }\">^ { - 2 }</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch020/q0013_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\mathbf { 2 }\">\\mathbf { 2 }</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch020/q0013_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\mathbf { 1 }\">\\mathbf { 1 }</span>"
         }
       ],
       "answer": "A",
       "answer_index": 0,
-      "analysis_html": "<img src=\"/static/generated/assets/advanced-math/ch020/q0013_analysis.png\"/>"
+      "analysis_html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{解答} \\ \\ f_{-}^{\\prime}(1) = \\lim_{x \\rightarrow 1^{-}} \\frac{ \\ln(2-x)-0}{x-1} = -1\\,.\">\\text{解答} \\ \\ f_{-}^{\\prime}(1) = \\lim_{x \\rightarrow 1^{-}} \\frac{ \\ln(2-x)-0}{x-1} = -1\\,.</span>"
     },
     {
       "id": "q0014",
       "number": 14,
       "header": "#14-Averge",
       "difficulty": "Averge",
-      "prompt_html": "<img src=\"/static/generated/assets/advanced-math/ch020/q0014_prompt.png\"/>",
+      "prompt_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\text{设} \\ f(x) = \\begin{cases} \\sin 3x, &amp; -\\infty \\leq x &lt; 0, \\\\ 3x, &amp; 0 \\leq x &lt; \\infty, \\end{cases} \\text{则} f(x) \\text{在点} x = 0 \\text{处} [ \\quad \\quad].\">\\text{设} \\ f(x) = \\begin{cases} \\sin 3x, &amp; -\\infty \\leq x &lt; 0, \\\\ 3x, &amp; 0 \\leq x &lt; \\infty, \\end{cases} \\text{则} f(x) \\text{在点} x = 0 \\text{处} [ \\quad \\quad].</div>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch020/q0014_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{不连续};\">\\text{不连续};</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch020/q0014_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{连续但不可导};\">\\text{连续但不可导};</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch020/q0014_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{左导数不等于右导数}.\">\\text{左导数不等于右导数}.</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch020/q0014_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{可导};\">\\text{可导};</span>"
         }
       ],
       "answer": "D",
       "answer_index": 3,
-      "analysis_html": "<img src=\"/static/generated/assets/advanced-math/ch020/q0014_analysis.png\"/>"
+      "analysis_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{array}{l} \\text{解答} \\lim_{x \\rightarrow 0^{-}} f(x) = f(0) = 0 = \\lim_{x \\rightarrow 0^{-}} f(x), \\text{所以} f(x) \\text{在点} x = 0 \\text{连续}. \\\\ \\\\ f_{-}^{\\prime}(0) = \\lim_{x \\rightarrow 0^{-}} \\frac{3x}{x} = 3 = \\lim_{x \\rightarrow 0^{-}} \\frac{\\sin 3x - 0}{x} = f_{-}^{\\prime}(0), \\text{所以} f(x) \\text{在点} x = 0 \\text{可导}. \\end{array}\">\\begin{array}{l} \\text{解答} \\lim_{x \\rightarrow 0^{-}} f(x) = f(0) = 0 = \\lim_{x \\rightarrow 0^{-}} f(x), \\text{所以} f(x) \\text{在点} x = 0 \\text{连续}. \\\\ \\\\ f_{-}^{\\prime}(0) = \\lim_{x \\rightarrow 0^{-}} \\frac{3x}{x} = 3 = \\lim_{x \\rightarrow 0^{-}} \\frac{\\sin 3x - 0}{x} = f_{-}^{\\prime}(0), \\text{所以} f(x) \\text{在点} x = 0 \\text{可导}. \\end{array}</div>"
     },
     {
       "id": "q0015",
       "number": 15,
       "header": "#15-Averge",
       "difficulty": "Averge",
-      "prompt_html": "<img src=\"/static/generated/assets/advanced-math/ch020/q0015_prompt.png\"/>",
+      "prompt_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\text{若} \\ f(x) = \\begin{cases} e^{\\alpha x}, &amp; x \\leq 0, \\\\ b(1-x^{2}), &amp; x &gt; 0, \\end{cases} \\text{处处有导数，则（）。}\">\\text{若} \\ f(x) = \\begin{cases} e^{\\alpha x}, &amp; x \\leq 0, \\\\ b(1-x^{2}), &amp; x &gt; 0, \\end{cases} \\text{处处有导数，则（）。}</div>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch020/q0015_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\boldsymbol { a } = \\boldsymbol { b } = 2\">\\boldsymbol { a } = \\boldsymbol { b } = 2</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch020/q0015_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\boldsymbol { a } = - 2 , \\boldsymbol { b } = - 1\">\\boldsymbol { a } = - 2 , \\boldsymbol { b } = - 1</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch020/q0015_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\boldsymbol { a } = \\boldsymbol { b } = 1\">\\boldsymbol { a } = \\boldsymbol { b } = 1</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch020/q0015_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\boldsymbol { a } = 0 , \\boldsymbol { b } = 1\">\\boldsymbol { a } = 0 , \\boldsymbol { b } = 1</span>"
         }
       ],
       "answer": "D",
       "answer_index": 3,
-      "analysis_html": "<img src=\"/static/generated/assets/advanced-math/ch020/q0015_analysis.png\"/>"
+      "analysis_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{aligned}&amp;\\text{解答}\\ f(x)=\\begin{cases}e^{\\alpha x},&amp;x\\leq 0,\\\\b(1-x^2),&amp;x&gt;0,\\end{cases} \\text{在}x\\neq 0\\text{点处处可导}，\\text{所以只需考察}x=0\\text{的求导情况}。\\\\&amp;f_{+}^{\\prime}(0)=\\lim_{\\Delta x\\rightarrow 0^{+}}\\frac{f(\\Delta x)-f(0)}{\\Delta x}=\\lim_{\\Delta x\\rightarrow 0^{+}}\\frac{b(1-\\Delta x^{2})-1}{\\Delta x}=\\lim_{\\Delta x\\rightarrow 0^{+}}\\frac{b-1-b\\Delta x^{2}}{\\Delta x}, \\text{要使极限存在}，\\text{则}b-1=0，\\text{即}b=1，\\\\&amp;\\text{此时}f_{+}^{\\prime}(0)=\\lim_{\\Delta x\\rightarrow 0^{+}}\\frac{f(\\Delta x)-f(0)}{\\Delta x}=0\\,;\\\\&amp;f_{-}^{\\prime}(0)=\\lim_{\\Delta x\\rightarrow 0^{-}}\\frac{f(\\Delta x)-f(0)}{\\Delta x}=\\lim_{\\Delta x\\rightarrow 0^{-}}\\frac{e^{\\alpha\\Delta x}-1}{\\Delta x}=\\lim_{\\Delta x\\rightarrow 0^{-}}\\frac{a\\Delta x}{\\Delta x}=a, \\text{由于}x=0\\text{导数存在}，\\text{所以}f_{-}^{\\prime}(0)=f_{+}^{\\prime}(0), \\text{所以}\\\\&amp;a=0.\\end{aligned}\">\\begin{aligned}&amp;\\text{解答}\\ f(x)=\\begin{cases}e^{\\alpha x},&amp;x\\leq 0,\\\\b(1-x^2),&amp;x&gt;0,\\end{cases} \\text{在}x\\neq 0\\text{点处处可导}，\\text{所以只需考察}x=0\\text{的求导情况}。\\\\&amp;f_{+}^{\\prime}(0)=\\lim_{\\Delta x\\rightarrow 0^{+}}\\frac{f(\\Delta x)-f(0)}{\\Delta x}=\\lim_{\\Delta x\\rightarrow 0^{+}}\\frac{b(1-\\Delta x^{2})-1}{\\Delta x}=\\lim_{\\Delta x\\rightarrow 0^{+}}\\frac{b-1-b\\Delta x^{2}}{\\Delta x}, \\text{要使极限存在}，\\text{则}b-1=0，\\text{即}b=1，\\\\&amp;\\text{此时}f_{+}^{\\prime}(0)=\\lim_{\\Delta x\\rightarrow 0^{+}}\\frac{f(\\Delta x)-f(0)}{\\Delta x}=0\\,;\\\\&amp;f_{-}^{\\prime}(0)=\\lim_{\\Delta x\\rightarrow 0^{-}}\\frac{f(\\Delta x)-f(0)}{\\Delta x}=\\lim_{\\Delta x\\rightarrow 0^{-}}\\frac{e^{\\alpha\\Delta x}-1}{\\Delta x}=\\lim_{\\Delta x\\rightarrow 0^{-}}\\frac{a\\Delta x}{\\Delta x}=a, \\text{由于}x=0\\text{导数存在}，\\text{所以}f_{-}^{\\prime}(0)=f_{+}^{\\prime}(0), \\text{所以}\\\\&amp;a=0.\\end{aligned}</div>"
     },
     {
       "id": "q0016",
       "number": 16,
       "header": "#16-Averge",
       "difficulty": "Averge",
-      "prompt_html": "<img src=\"/static/generated/assets/advanced-math/ch020/q0016_prompt.png\"/>",
+      "prompt_html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{设函数} \\ y = f ( x ) \\text{在} ( 0 , + \\infty ) \\text{内有界且可导，则（）。}\">\\text{设函数} \\ y = f ( x ) \\text{在} ( 0 , + \\infty ) \\text{内有界且可导，则（）。}</span>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch020/q0016_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{当} \\lim_{x \\to 0^+} f(x) = 0 \\text{ 时，必有} \\lim_{x \\to 0^+} f&#x27;(x) = 0\">\\text{当} \\lim_{x \\to 0^+} f(x) = 0 \\text{ 时，必有} \\lim_{x \\to 0^+} f&#x27;(x) = 0</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch020/q0016_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{当} \\lim_{x \\to 0^+} f(x) \\text{存在时，必有} \\lim_{x \\to 0^+} f&#x27;(x) = 0\">\\text{当} \\lim_{x \\to 0^+} f(x) \\text{存在时，必有} \\lim_{x \\to 0^+} f&#x27;(x) = 0</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch020/q0016_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{当} \\lim_{x \\to +\\infty} f(x) \\text{存在时，必有} \\lim_{x \\to +\\infty} f&#x27;(x) = 0\">\\text{当} \\lim_{x \\to +\\infty} f(x) \\text{存在时，必有} \\lim_{x \\to +\\infty} f&#x27;(x) = 0</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch020/q0016_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{仅当} \\lim_{x \\to +\\infty} f(x) = 0 \\text{ 时，必有} \\lim_{x \\to +\\infty} f&#x27;(x) = 0\">\\text{仅当} \\lim_{x \\to +\\infty} f(x) = 0 \\text{ 时，必有} \\lim_{x \\to +\\infty} f&#x27;(x) = 0</span>"
         }
       ],
       "answer": "C",
       "answer_index": 2,
-      "analysis_html": "<img src=\"/static/generated/assets/advanced-math/ch020/q0016_analysis.png\"/>"
+      "analysis_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{array}{l} \\text {解答 若} \\lim_{x \\to + \\infty} f(x) = A, \\text {并考虑到} \\lim_{x \\to 0^+} f(x) = 0, \\text {补充定义} f(0) = 0, \\text {则知} f(x) \\text {在} [0, + \\infty) \\text {有界。在区间} [0, x] \\\\ \\text {上，应用 Lagrange 中值定理，则有} \\\\ 0 = \\lim_{x \\to + \\infty} \\frac{f(x)}{x} = \\lim_{x \\to + \\infty} \\frac{f(x) - f(0)}{x} = \\lim_{\\xi \\to + \\infty} f&#x27;(\\xi) = \\lim_{x \\to + \\infty} f&#x27;(x). \\end{array}\">\\begin{array}{l} \\text {解答 若} \\lim_{x \\to + \\infty} f(x) = A, \\text {并考虑到} \\lim_{x \\to 0^+} f(x) = 0, \\text {补充定义} f(0) = 0, \\text {则知} f(x) \\text {在} [0, + \\infty) \\text {有界。在区间} [0, x] \\\\ \\text {上，应用 Lagrange 中值定理，则有} \\\\ 0 = \\lim_{x \\to + \\infty} \\frac{f(x)}{x} = \\lim_{x \\to + \\infty} \\frac{f(x) - f(0)}{x} = \\lim_{\\xi \\to + \\infty} f&#x27;(\\xi) = \\lim_{x \\to + \\infty} f&#x27;(x). \\end{array}</div>"
     },
     {
       "id": "q0017",
       "number": 17,
       "header": "#17-Averge",
       "difficulty": "Averge",
-      "prompt_html": "<img src=\"/static/generated/assets/advanced-math/ch020/q0017_prompt.png\"/>",
+      "prompt_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\text{设} \\ f(x) = \\begin{cases} \\dfrac{1}{9}(x^{3}+8), &amp; x \\leq 1, \\\\ \\sqrt[3]{x}, &amp; x &gt; 1, \\end{cases} \\text{则左导数} f_{-}^{\\prime}(1) = ( ).\">\\text{设} \\ f(x) = \\begin{cases} \\dfrac{1}{9}(x^{3}+8), &amp; x \\leq 1, \\\\ \\sqrt[3]{x}, &amp; x &gt; 1, \\end{cases} \\text{则左导数} f_{-}^{\\prime}(1) = ( ).</div>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch020/q0017_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"- \\frac { 2 } { 3 }\">- \\frac { 2 } { 3 }</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch020/q0017_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\frac{2}{3}\">\\frac{2}{3}</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch020/q0017_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\frac { 1 } { 3 }\">\\frac { 1 } { 3 }</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch020/q0017_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\frac { 1 } { 3 }\">\\frac { 1 } { 3 }</span>"
         }
       ],
       "answer": "D",
       "answer_index": 3,
-      "analysis_html": "<img src=\"/static/generated/assets/advanced-math/ch020/q0017_analysis.png\"/>"
+      "analysis_html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{解答}\\ \\ f_{-}^{\\prime}(1) = \\lim_{x \\to 1^{-}} \\frac{\\frac{x^{3}+8}{9}-1}{x-1} = \\lim_{x \\to 1^{-}} \\frac{x^{3}-1}{9(x-1)} = \\frac{1}{3}.\">\\text{解答}\\ \\ f_{-}^{\\prime}(1) = \\lim_{x \\to 1^{-}} \\frac{\\frac{x^{3}+8}{9}-1}{x-1} = \\lim_{x \\to 1^{-}} \\frac{x^{3}-1}{9(x-1)} = \\frac{1}{3}.</span>"
     },
     {
       "id": "q0018",
       "number": 18,
       "header": "#18-Averge",
       "difficulty": "Averge",
-      "prompt_html": "<img src=\"/static/generated/assets/advanced-math/ch020/q0018_prompt.png\"/>",
+      "prompt_html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{设}f(x)=(2+|x|)\\sin x, \\text{则}f(x) \\text{在点}x=0 \\text{处（）。}\">\\text{设}f(x)=(2+|x|)\\sin x, \\text{则}f(x) \\text{在点}x=0 \\text{处（）。}</span>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch020/q0018_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"f^{\\prime}(0) = 0\">f^{\\prime}(0) = 0</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch020/q0018_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"f^{\\prime}(0) = 2\">f^{\\prime}(0) = 2</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch020/q0018_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{不可导}\">\\text{不可导}</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch020/q0018_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"f^{\\prime}(0) = 1\">f^{\\prime}(0) = 1</span>"
         }
       ],
       "answer": "B",
       "answer_index": 1,
-      "analysis_html": "<img src=\"/static/generated/assets/advanced-math/ch020/q0018_analysis.png\"/>"
+      "analysis_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{array}{l} \\text {解答} \\quad f(x) = \\{ \\begin{array}{ll} (2+x) \\sin x, &amp; x \\geq 0, \\\\ (2-x) \\sin x, &amp; x &lt; 0, \\end{array} f_{-}^{\\prime}(x) = \\lim\\limits_{x \\to 0} \\frac{(2+x) \\sin x-0}{x} = 2, \\quad f_{-}^{\\prime}(x) = \\lim\\limits_{x \\to 0} \\frac{(2-x) \\sin x-0}{x} = 2, \\\\ \\text {所以} f^{\\prime}(0) = 2. \\end{array}\">\\begin{array}{l} \\text {解答} \\quad f(x) = \\{ \\begin{array}{ll} (2+x) \\sin x, &amp; x \\geq 0, \\\\ (2-x) \\sin x, &amp; x &lt; 0, \\end{array} f_{-}^{\\prime}(x) = \\lim\\limits_{x \\to 0} \\frac{(2+x) \\sin x-0}{x} = 2, \\quad f_{-}^{\\prime}(x) = \\lim\\limits_{x \\to 0} \\frac{(2-x) \\sin x-0}{x} = 2, \\\\ \\text {所以} f^{\\prime}(0) = 2. \\end{array}</div>"
     },
     {
       "id": "q0019",
       "number": 19,
       "header": "#19-Averge",
       "difficulty": "Averge",
-      "prompt_html": "<img src=\"/static/generated/assets/advanced-math/ch020/q0019_prompt.png\"/>",
+      "prompt_html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{函数}f(x)=|x|+3\\text{在点}x=0\\text{处[} \\quad].\">\\text{函数}f(x)=|x|+3\\text{在点}x=0\\text{处[} \\quad].</span>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch020/q0019_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{连续且可导};\">\\text{连续且可导};</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch020/q0019_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{连续，但不可导；}\">\\text{连续，但不可导；}</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch020/q0019_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{不连续，故不可导};\">\\text{不连续，故不可导};</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch020/q0019_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{具有连续的导数}.\">\\text{具有连续的导数}.</span>"
         }
       ],
       "answer": "B",
       "answer_index": 1,
-      "analysis_html": "<img src=\"/static/generated/assets/advanced-math/ch020/q0019_analysis.png\"/>"
+      "analysis_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{array}{l} \\text {解答} \\quad f(x) = \\{ \\begin{array}{ll} x + 3, &amp; x \\geq 0, \\\\ 3 - x, &amp; x &lt; 0, \\end{array} \\lim_{x \\rightarrow 0^{-}} f(x) = \\lim_{x \\rightarrow 0^{+}} f(x) = f(0), \\text {所以} f(x) \\text {在} x = 0 \\text {连续}. \\\\ \\text {又} f_{+}^{\\prime}(x) = \\lim_{\\Delta x \\rightarrow 0^{-}} \\frac{f(\\Delta x) - f(0)}{\\Delta x} = 1, \\quad f_{-}^{\\prime}(x) = \\lim_{\\Delta x \\rightarrow 0^{+}} \\frac{f(\\Delta x) - f(0)}{\\Delta x} = -1, \\text {所以不可导}. \\end{array}\">\\begin{array}{l} \\text {解答} \\quad f(x) = \\{ \\begin{array}{ll} x + 3, &amp; x \\geq 0, \\\\ 3 - x, &amp; x &lt; 0, \\end{array} \\lim_{x \\rightarrow 0^{-}} f(x) = \\lim_{x \\rightarrow 0^{+}} f(x) = f(0), \\text {所以} f(x) \\text {在} x = 0 \\text {连续}. \\\\ \\text {又} f_{+}^{\\prime}(x) = \\lim_{\\Delta x \\rightarrow 0^{-}} \\frac{f(\\Delta x) - f(0)}{\\Delta x} = 1, \\quad f_{-}^{\\prime}(x) = \\lim_{\\Delta x \\rightarrow 0^{+}} \\frac{f(\\Delta x) - f(0)}{\\Delta x} = -1, \\text {所以不可导}. \\end{array}</div>"
     },
     {
       "id": "q0020",
       "number": 20,
       "header": "#20-Averge",
       "difficulty": "Averge",
-      "prompt_html": "<img src=\"/static/generated/assets/advanced-math/ch020/q0020_prompt.png\"/>",
+      "prompt_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\text{已知函数}f(x)=\\begin{cases}x^{2}+1,&amp;0\\leq x&lt;1,\\\\ 3x-1,&amp;x\\geq 1,\\end{cases} \\text{则下列说法正确的是（）。}\">\\text{已知函数}f(x)=\\begin{cases}x^{2}+1,&amp;0\\leq x&lt;1,\\\\ 3x-1,&amp;x\\geq 1,\\end{cases} \\text{则下列说法正确的是（）。}</div>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch020/q0020_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{在点} \\, x = 1 \\text{处连续，但不可导}\">\\text{在点} \\, x = 1 \\text{处连续，但不可导}</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch020/q0020_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{在点} \\, x = 1 \\text{处连续，可导}\">\\text{在点} \\, x = 1 \\text{处连续，可导}</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch020/q0020_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{在点} \\, x = 1 \\text{处可导}\">\\text{在点} \\, x = 1 \\text{处可导}</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch020/q0020_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{在点} \\, x = 1 \\text{处不连续}\">\\text{在点} \\, x = 1 \\text{处不连续}</span>"
         }
       ],
       "answer": "A",
       "answer_index": 0,
-      "analysis_html": "<img src=\"/static/generated/assets/advanced-math/ch020/q0020_analysis.png\"/>"
+      "analysis_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{aligned}&amp;\\text{解答　因为}\\lim_{x\\rightarrow 1^{+}}f(x)=\\lim_{x\\rightarrow 1^{+}}(3x-1)=2,\\ \\lim_{x\\rightarrow 1^{+}}f(x)=\\lim_{x\\rightarrow 1^{+}}(x^{2}+1)=2,\\ \\text{即}\\lim_{x\\rightarrow 1^{+}}f(x)=\\lim_{x\\rightarrow 1^{+}}f(x)=2=f(1),\\\\&amp;\\text{所以函数}f(x)\\text{在点}x=1\\text{处是连续的。}\\\\&amp;f&#x27;(1)=\\lim_{x\\rightarrow 1^{+}}\\frac{f(x)-f(1)}{x-1}=\\lim_{x\\rightarrow 1^{+}}\\frac{x^{2}+1-2}{x-1}=2,\\ f_{+}(1)=\\lim_{x\\rightarrow 1^{+}}\\frac{f(x)-f(1)}{x-1}=\\lim_{x\\rightarrow 1^{+}}\\frac{3x-1-2}{x-1}=3.\\\\&amp;\\text{由于}\\quad f_{-}(1)\\neq f_{+}^{\\prime}(1),\\ \\text{所以}f(x)\\text{在点}x=1\\text{处不可导。}\\end{aligned}\">\\begin{aligned}&amp;\\text{解答　因为}\\lim_{x\\rightarrow 1^{+}}f(x)=\\lim_{x\\rightarrow 1^{+}}(3x-1)=2,\\ \\lim_{x\\rightarrow 1^{+}}f(x)=\\lim_{x\\rightarrow 1^{+}}(x^{2}+1)=2,\\ \\text{即}\\lim_{x\\rightarrow 1^{+}}f(x)=\\lim_{x\\rightarrow 1^{+}}f(x)=2=f(1),\\\\&amp;\\text{所以函数}f(x)\\text{在点}x=1\\text{处是连续的。}\\\\&amp;f&#x27;(1)=\\lim_{x\\rightarrow 1^{+}}\\frac{f(x)-f(1)}{x-1}=\\lim_{x\\rightarrow 1^{+}}\\frac{x^{2}+1-2}{x-1}=2,\\ f_{+}(1)=\\lim_{x\\rightarrow 1^{+}}\\frac{f(x)-f(1)}{x-1}=\\lim_{x\\rightarrow 1^{+}}\\frac{3x-1-2}{x-1}=3.\\\\&amp;\\text{由于}\\quad f_{-}(1)\\neq f_{+}^{\\prime}(1),\\ \\text{所以}f(x)\\text{在点}x=1\\text{处不可导。}\\end{aligned}</div>"
     }
-  ]
+  ],
+  "format": "latex",
+  "source_md": "gs/2.1.2_左右导数(20题)/2.1.2_左右导数(20题).md"
 }

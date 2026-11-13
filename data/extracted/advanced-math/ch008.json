@@ -13,616 +13,618 @@
       "number": 1,
       "header": "#1-Averge",
       "difficulty": "Averge",
-      "prompt_html": "<img src=\"/static/generated/assets/advanced-math/ch008/q0001_prompt.png\"/>",
+      "prompt_html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{.设}a&gt;b&gt;c&gt;0\\,,\\,\\,\\,x_{n}=\\sqrt[n]{a^{n}+b^{n}+c^{n}}\\,\\,,\\,\\,\\text{求}\\lim_{n\\rightarrow\\infty}x_{n}.\">\\text{.设}a&gt;b&gt;c&gt;0\\,,\\,\\,\\,x_{n}=\\sqrt[n]{a^{n}+b^{n}+c^{n}}\\,\\,,\\,\\,\\text{求}\\lim_{n\\rightarrow\\infty}x_{n}.</span>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch008/q0001_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\mathbf { c }\">\\mathbf { c }</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch008/q0001_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\textbf{a}\">\\textbf{a}</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch008/q0001_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\mathbf { b }\">\\mathbf { b }</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch008/q0001_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\boldsymbol { 0 }\">\\boldsymbol { 0 }</span>"
         }
       ],
       "answer": "B",
       "answer_index": 1,
-      "analysis_html": "<img src=\"/static/generated/assets/advanced-math/ch008/q0001_analysis.png\"/>"
+      "analysis_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{aligned}&amp; \\text{因为} a&gt;b&gt;c&gt;0,\\text{所以} a&lt;x_{n}&lt;a\\sqrt[3]{3},\\text{ 而} \\lim_{n\\rightarrow \\infty}a=\\lim_{n\\rightarrow \\infty}\\left(a^{n}\\sqrt{3}\\right)=a\\,,\\\\&amp; \\text{所以由夹逼准则可知} \\lim_{n\\rightarrow \\infty}x_{n}=a.\\downarrow\\end{aligned}\">\\begin{aligned}&amp; \\text{因为} a&gt;b&gt;c&gt;0,\\text{所以} a&lt;x_{n}&lt;a\\sqrt[3]{3},\\text{ 而} \\lim_{n\\rightarrow \\infty}a=\\lim_{n\\rightarrow \\infty}\\left(a^{n}\\sqrt{3}\\right)=a\\,,\\\\&amp; \\text{所以由夹逼准则可知} \\lim_{n\\rightarrow \\infty}x_{n}=a.\\downarrow\\end{aligned}</div>"
     },
     {
       "id": "q0002",
       "number": 2,
       "header": "#2-Averge",
       "difficulty": "Averge",
-      "prompt_html": "<img src=\"/static/generated/assets/advanced-math/ch008/q0002_prompt.png\"/>",
+      "prompt_html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{设}0&lt;a&lt;b, \\text{则} \\lim_{n\\rightarrow \\infty} \\sqrt[n]{a^{n}+b^{n}}=()\">\\text{设}0&lt;a&lt;b, \\text{则} \\lim_{n\\rightarrow \\infty} \\sqrt[n]{a^{n}+b^{n}}=()</span>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch008/q0002_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\underline{\\text{a.}} \\leftarrow\">\\underline{\\text{a.}} \\leftarrow</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch008/q0002_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\mathrm{b}\">\\mathrm{b}</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch008/q0002_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\mathbf { 1 ; }\">\\mathbf { 1 ; }</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch008/q0002_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"0;\">0;</span>"
         }
       ],
       "answer": "B",
       "answer_index": 1,
-      "analysis_html": "<img src=\"/static/generated/assets/advanced-math/ch008/q0002_analysis.png\"/>"
+      "analysis_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{array}{l} \\text {因为} 0 &lt; a &lt; b, \\text {所以} b^{n} &lt; a^{n} + b^{n} &lt; 2b^{n}, \\text {而} \\lim_{n \\to \\infty} \\sqrt[n]{b^{n}} = \\lim_{n \\to \\infty} \\sqrt[n]{2b^{n}} = b, \\\\ \\text {所以由夹逼准则可知} \\lim_{n \\to \\infty} \\sqrt[n]{a^{n} + b^{n}} = b. \\Leftrightarrow \\end{array}\">\\begin{array}{l} \\text {因为} 0 &lt; a &lt; b, \\text {所以} b^{n} &lt; a^{n} + b^{n} &lt; 2b^{n}, \\text {而} \\lim_{n \\to \\infty} \\sqrt[n]{b^{n}} = \\lim_{n \\to \\infty} \\sqrt[n]{2b^{n}} = b, \\\\ \\text {所以由夹逼准则可知} \\lim_{n \\to \\infty} \\sqrt[n]{a^{n} + b^{n}} = b. \\Leftrightarrow \\end{array}</div>"
     },
     {
       "id": "q0003",
       "number": 3,
       "header": "#3-Averge",
       "difficulty": "Averge",
-      "prompt_html": "<img src=\"/static/generated/assets/advanced-math/ch008/q0003_prompt.png\"/>",
+      "prompt_html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{求} \\lim_{n \\rightarrow \\infty} \\left( \\frac{1}{\\sqrt{n^{2}+1}} + \\frac{1}{\\sqrt{n^{2}+2}} + \\ldots + \\frac{1}{\\sqrt{n^{2}+n}} \\right).\">\\text{求} \\lim_{n \\rightarrow \\infty} \\left( \\frac{1}{\\sqrt{n^{2}+1}} + \\frac{1}{\\sqrt{n^{2}+2}} + \\ldots + \\frac{1}{\\sqrt{n^{2}+n}} \\right).</span>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch008/q0003_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\frac { 1 } { 2 }\">\\frac { 1 } { 2 }</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch008/q0003_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\mathbf { 0 }\">\\mathbf { 0 }</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch008/q0003_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\mathbf { 1 }\">\\mathbf { 1 }</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch008/q0003_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\mathbf{e}.\">\\mathbf{e}.</span>"
         }
       ],
       "answer": "C",
       "answer_index": 2,
-      "analysis_html": "<img src=\"/static/generated/assets/advanced-math/ch008/q0003_analysis.png\"/>"
+      "analysis_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{array}{l} \\text {因为} \\frac{n}{\\sqrt{n^{2}+n}} \\leq \\frac{1}{\\sqrt{n^{2}+1}}+\\frac{1}{\\sqrt{n^{2}+2}}+...+\\frac{1}{\\sqrt{n^{2}+n}} \\leq \\frac{n}{\\sqrt{n^{2}+1}}\\ , \\\\ \\text {且} \\left\\{ \\begin{matrix} \\lim\\limits_{n \\to \\infty} \\frac{n}{\\sqrt{n^{2}+n}}=1 \\\\ \\lim\\limits_{n \\to \\infty} \\frac{n}{\\sqrt{n^{2}+1}}=1 \\end{matrix} \\right. \\quad \\text {所以} \\quad \\text {原式}=1. \\end{array}\">\\begin{array}{l} \\text {因为} \\frac{n}{\\sqrt{n^{2}+n}} \\leq \\frac{1}{\\sqrt{n^{2}+1}}+\\frac{1}{\\sqrt{n^{2}+2}}+...+\\frac{1}{\\sqrt{n^{2}+n}} \\leq \\frac{n}{\\sqrt{n^{2}+1}}\\ , \\\\ \\text {且} \\left\\{ \\begin{matrix} \\lim\\limits_{n \\to \\infty} \\frac{n}{\\sqrt{n^{2}+n}}=1 \\\\ \\lim\\limits_{n \\to \\infty} \\frac{n}{\\sqrt{n^{2}+1}}=1 \\end{matrix} \\right. \\quad \\text {所以} \\quad \\text {原式}=1. \\end{array}</div>"
     },
     {
       "id": "q0004",
       "number": 4,
       "header": "#4-Averge",
       "difficulty": "Averge",
-      "prompt_html": "<img src=\"/static/generated/assets/advanced-math/ch008/q0004_prompt.png\"/>",
+      "prompt_html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{设} \\, c &gt; 0 \\; , \\; \\; \\; x = \\sqrt{c} \\; , \\; \\; \\; x_{n+1} = \\sqrt{c + x_{n}} \\, (n = 1, 2, \\ldots) \\; . \\; \\text{求} \\; \\lim_{n \\to \\infty} x_{n} .\">\\text{设} \\, c &gt; 0 \\; , \\; \\; \\; x = \\sqrt{c} \\; , \\; \\; \\; x_{n+1} = \\sqrt{c + x_{n}} \\, (n = 1, 2, \\ldots) \\; . \\; \\text{求} \\; \\lim_{n \\to \\infty} x_{n} .</span>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch008/q0004_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\sqrt { 2 c }\">\\sqrt { 2 c }</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch008/q0004_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\frac { 1 + \\sqrt { 1 + 4 c } } { 2 }\">\\frac { 1 + \\sqrt { 1 + 4 c } } { 2 }</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch008/q0004_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"c.\">c.</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch008/q0004_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\frac { 1 - \\sqrt { 1 + 4 c } } { 2 }\">\\frac { 1 - \\sqrt { 1 + 4 c } } { 2 }</span>"
         }
       ],
       "answer": "B",
       "answer_index": 1,
-      "analysis_html": "<img src=\"/static/generated/assets/advanced-math/ch008/q0004_analysis.png\"/>"
+      "analysis_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{aligned}&amp;\\text{用数学归纳法证明数列}\\{x_{n}\\} \\text{单调增加且有上界,显然}x_{2}-x_{1}&gt;0, \\text{假定}x_{k+1}-x_{k}&gt;0,\\\\&amp;\\text{由}x_{k+2}-x_{k+1}=\\frac{x_{k+1}-x_{k}}{\\sqrt{c+x_{k+1}}+\\sqrt{c+x_{k}}}\\text{可知}x_{k+2}-x_{k+1}&gt;0, \\text{故该数列单调增加.}\\\\&amp;\\text{显然}x_{1}&lt;\\sqrt{c}+1, \\text{假定}x_{k}&lt;\\sqrt{c}+1, \\text{则}x_{k+1}&lt;\\sqrt{c+\\sqrt{c+1}}&lt;\\sqrt{\\left(\\sqrt{c}+1\\right)^{2}}=\\sqrt{c}+1.\\\\&amp;\\text{于是该数列有上界.由单调有界原理知}\\lim_{n\\rightarrow\\infty}x_{n}\\text{存在,设为}a. \\text{在迭代公式两端取极限得到}a=\\sqrt{c+a}. \\text{解此方程得到}a=\\frac{1+\\sqrt{1+4c}}{2}.\\end{aligned}\">\\begin{aligned}&amp;\\text{用数学归纳法证明数列}\\{x_{n}\\} \\text{单调增加且有上界,显然}x_{2}-x_{1}&gt;0, \\text{假定}x_{k+1}-x_{k}&gt;0,\\\\&amp;\\text{由}x_{k+2}-x_{k+1}=\\frac{x_{k+1}-x_{k}}{\\sqrt{c+x_{k+1}}+\\sqrt{c+x_{k}}}\\text{可知}x_{k+2}-x_{k+1}&gt;0, \\text{故该数列单调增加.}\\\\&amp;\\text{显然}x_{1}&lt;\\sqrt{c}+1, \\text{假定}x_{k}&lt;\\sqrt{c}+1, \\text{则}x_{k+1}&lt;\\sqrt{c+\\sqrt{c+1}}&lt;\\sqrt{\\left(\\sqrt{c}+1\\right)^{2}}=\\sqrt{c}+1.\\\\&amp;\\text{于是该数列有上界.由单调有界原理知}\\lim_{n\\rightarrow\\infty}x_{n}\\text{存在,设为}a. \\text{在迭代公式两端取极限得到}a=\\sqrt{c+a}. \\text{解此方程得到}a=\\frac{1+\\sqrt{1+4c}}{2}.\\end{aligned}</div>"
     },
     {
       "id": "q0005",
       "number": 5,
       "header": "#5-Averge",
       "difficulty": "Averge",
-      "prompt_html": "<img src=\"/static/generated/assets/advanced-math/ch008/q0005_prompt.png\"/>",
+      "prompt_html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{求} \\lim_{x \\rightarrow 0} \\left( 1 + \\frac{x}{3} \\right)^{\\frac{2}{x}}.\">\\text{求} \\lim_{x \\rightarrow 0} \\left( 1 + \\frac{x}{3} \\right)^{\\frac{2}{x}}.</span>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch008/q0005_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"e^{\\frac{3}{2}}\">e^{\\frac{3}{2}}</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch008/q0005_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\mathbf { 1 }\">\\mathbf { 1 }</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch008/q0005_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"e ^ { \\frac { 2 } { 3 } }\">e ^ { \\frac { 2 } { 3 } }</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch008/q0005_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"e\">e</span>"
         }
       ],
       "answer": "C",
       "answer_index": 2,
-      "analysis_html": "<img src=\"/static/generated/assets/advanced-math/ch008/q0005_analysis.png\"/>"
+      "analysis_html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{原式} = \\lim_{x \\to 0} \\left( 1 + \\frac{x}{3} \\right)^{\\frac{3}{x} \\frac{2}{3}} = \\lim_{x \\to 0} \\left[ \\left( 1 + \\frac{x}{3} \\right)^{\\frac{3}{x}} \\right]^{\\frac{2}{3}} = e^{\\frac{2}{3}}.\">\\text{原式} = \\lim_{x \\to 0} \\left( 1 + \\frac{x}{3} \\right)^{\\frac{3}{x} \\frac{2}{3}} = \\lim_{x \\to 0} \\left[ \\left( 1 + \\frac{x}{3} \\right)^{\\frac{3}{x}} \\right]^{\\frac{2}{3}} = e^{\\frac{2}{3}}.</span>"
     },
     {
       "id": "q0006",
       "number": 6,
       "header": "#6-Averge",
       "difficulty": "Averge",
-      "prompt_html": "<img src=\"/static/generated/assets/advanced-math/ch008/q0006_prompt.png\"/>",
+      "prompt_html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{求} \\lim_{n \\to \\infty} \\left[ \\frac{1}{n^{2}} + \\frac{1}{\\left(n+1\\right)^{2}} + \\ldots + \\frac{1}{\\left(2n\\right)^{2}} \\right].\">\\text{求} \\lim_{n \\to \\infty} \\left[ \\frac{1}{n^{2}} + \\frac{1}{\\left(n+1\\right)^{2}} + \\ldots + \\frac{1}{\\left(2n\\right)^{2}} \\right].</span>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch008/q0006_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\frac { 1 } { 2 }\">\\frac { 1 } { 2 }</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch008/q0006_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"2\">2</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch008/q0006_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\mathbf { 0 }\">\\mathbf { 0 }</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch008/q0006_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"1;\">1;</span>"
         }
       ],
       "answer": "C",
       "answer_index": 2,
-      "analysis_html": "<img src=\"/static/generated/assets/advanced-math/ch008/q0006_analysis.png\"/>"
+      "analysis_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{aligned}&amp;\\text{由}0&lt;\\frac{1}{n^{2}}+\\frac{1}{\\left(n+1\\right)^{2}}+...+\\frac{1}{\\left(2n\\right)^{2}}&lt;\\frac{1}{n^{2}}+\\frac{1}{n^{2}}+...+\\frac{1}{n^{2}}=\\frac{1}{n}\\ ,\\ \\text{以及}\\\\&amp;\\lim_{n\\rightarrow\\infty}0=\\lim_{n\\rightarrow\\infty}\\frac{1}{n}=0\\ \\text{可知，原式}=0.\\end{aligned}\">\\begin{aligned}&amp;\\text{由}0&lt;\\frac{1}{n^{2}}+\\frac{1}{\\left(n+1\\right)^{2}}+...+\\frac{1}{\\left(2n\\right)^{2}}&lt;\\frac{1}{n^{2}}+\\frac{1}{n^{2}}+...+\\frac{1}{n^{2}}=\\frac{1}{n}\\ ,\\ \\text{以及}\\\\&amp;\\lim_{n\\rightarrow\\infty}0=\\lim_{n\\rightarrow\\infty}\\frac{1}{n}=0\\ \\text{可知，原式}=0.\\end{aligned}</div>"
     },
     {
       "id": "q0007",
       "number": 7,
       "header": "#7-Averge",
       "difficulty": "Averge",
-      "prompt_html": "<img src=\"/static/generated/assets/advanced-math/ch008/q0007_prompt.png\"/>",
+      "prompt_html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{. 设}u_{n}=\\left[\\sum_{k=1}^{n}\\frac{1}{2\\left(1+2+...+k\\right)}\\right]^{n},\\ \\text{求}\\lim_{n\\rightarrow\\infty}u_{n}.\">\\text{. 设}u_{n}=\\left[\\sum_{k=1}^{n}\\frac{1}{2\\left(1+2+...+k\\right)}\\right]^{n},\\ \\text{求}\\lim_{n\\rightarrow\\infty}u_{n}.</span>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch008/q0007_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"e ^ { - 1 }\">e ^ { - 1 }</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch008/q0007_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\mathbf { 1 }\">\\mathbf { 1 }</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch008/q0007_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\frac { 1 } { 2 }\">\\frac { 1 } { 2 }</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch008/q0007_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"e\">e</span>"
         }
       ],
       "answer": "A",
       "answer_index": 0,
-      "analysis_html": "<img src=\"/static/generated/assets/advanced-math/ch008/q0007_analysis.png\"/>"
+      "analysis_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{aligned}&amp;\\text{因为}u_{n}=\\left[\\sum_{k=1}^{n}\\frac{1}{2\\left(1+2+...+k\\right)}\\right]^{n}=\\left[\\sum_{k=1}^{n}\\frac{1}{k\\left(1+k\\right)}\\right]^{n}=\\left(1-\\frac{1}{n+1}\\right)^{n}\\\\&amp;\\text{故}u_{n}=\\lim_{n\\rightarrow\\infty}\\left(1-\\frac{1}{n+1}\\right)^{n}=\\lim_{n\\rightarrow\\infty}\\left(1-\\frac{1}{n+1}\\right)^{-(n+1)-\\frac{n}{(n+1)}}=e^{-1}.\\end{aligned}\">\\begin{aligned}&amp;\\text{因为}u_{n}=\\left[\\sum_{k=1}^{n}\\frac{1}{2\\left(1+2+...+k\\right)}\\right]^{n}=\\left[\\sum_{k=1}^{n}\\frac{1}{k\\left(1+k\\right)}\\right]^{n}=\\left(1-\\frac{1}{n+1}\\right)^{n}\\\\&amp;\\text{故}u_{n}=\\lim_{n\\rightarrow\\infty}\\left(1-\\frac{1}{n+1}\\right)^{n}=\\lim_{n\\rightarrow\\infty}\\left(1-\\frac{1}{n+1}\\right)^{-(n+1)-\\frac{n}{(n+1)}}=e^{-1}.\\end{aligned}</div>"
     },
     {
       "id": "q0008",
       "number": 8,
       "header": "#8-Averge",
       "difficulty": "Averge",
-      "prompt_html": "<img src=\"/static/generated/assets/advanced-math/ch008/q0008_prompt.png\"/>",
+      "prompt_html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{求} \\lim_{x \\to \\infty} \\left( 1 - \\frac{1}{x} \\right)^{x}\">\\text{求} \\lim_{x \\to \\infty} \\left( 1 - \\frac{1}{x} \\right)^{x}</span>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch008/q0008_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"e ^ { - 1 }\">e ^ { - 1 }</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch008/q0008_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\mathrm{e}\">\\mathrm{e}</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch008/q0008_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\mathbf { 1 }\">\\mathbf { 1 }</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch008/q0008_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\mathbf { 0 }\">\\mathbf { 0 }</span>"
         }
       ],
       "answer": "A",
       "answer_index": 0,
-      "analysis_html": "<img src=\"/static/generated/assets/advanced-math/ch008/q0008_analysis.png\"/>"
+      "analysis_html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{原式} = \\lim_{x \\rightarrow \\infty} \\left( 1 + \\frac{1}{-x} \\right)^{(-x)(-1)} = \\lim_{-x \\rightarrow \\infty} \\left[ \\left( 1 + \\frac{1}{-x} \\right)^{-x} \\right]^{-1} = \\left[ \\lim_{-x \\rightarrow \\infty} \\left( 1 + \\frac{1}{-x} \\right)^{-x} \\right]^{-1} = e^{-1}.\">\\text{原式} = \\lim_{x \\rightarrow \\infty} \\left( 1 + \\frac{1}{-x} \\right)^{(-x)(-1)} = \\lim_{-x \\rightarrow \\infty} \\left[ \\left( 1 + \\frac{1}{-x} \\right)^{-x} \\right]^{-1} = \\left[ \\lim_{-x \\rightarrow \\infty} \\left( 1 + \\frac{1}{-x} \\right)^{-x} \\right]^{-1} = e^{-1}.</span>"
     },
     {
       "id": "q0009",
       "number": 9,
       "header": "#9-Averge",
       "difficulty": "Averge",
-      "prompt_html": "<img src=\"/static/generated/assets/advanced-math/ch008/q0009_prompt.png\"/>",
+      "prompt_html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{求} \\lim_{x \\to \\infty} \\left( \\frac{x}{1+x} \\right)^{2x+1} .\">\\text{求} \\lim_{x \\to \\infty} \\left( \\frac{x}{1+x} \\right)^{2x+1} .</span>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch008/q0009_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"e.\">e.</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch008/q0009_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\mathbf { 1 }\">\\mathbf { 1 }</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch008/q0009_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"e ^ { - 2 }\">e ^ { - 2 }</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch008/q0009_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"0\">0</span>"
         }
       ],
       "answer": "C",
       "answer_index": 2,
-      "analysis_html": "<img src=\"/static/generated/assets/advanced-math/ch008/q0009_analysis.png\"/>"
+      "analysis_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{aligned}&amp; \\text{原式} = \\lim_{x \\rightarrow \\infty} \\frac{1}{\\left( 1 + \\frac{1}{x} \\right)^{2x+1}} = \\lim_{x \\rightarrow \\infty} \\frac{1}{\\left( 1 + \\frac{1}{x} \\right)^{2x} \\cdot \\left( 1 + \\frac{1}{x} \\right)} = \\lim_{x \\rightarrow \\infty} \\frac{1}{\\left( 1 + \\frac{1}{x} \\right)^{2x}} \\\\&amp; = \\lim_{x \\rightarrow \\infty} \\frac{1}{\\left( 1 + \\frac{1}{x} \\right)^{x^2}} = e^{-2}.\\end{aligned}\">\\begin{aligned}&amp; \\text{原式} = \\lim_{x \\rightarrow \\infty} \\frac{1}{\\left( 1 + \\frac{1}{x} \\right)^{2x+1}} = \\lim_{x \\rightarrow \\infty} \\frac{1}{\\left( 1 + \\frac{1}{x} \\right)^{2x} \\cdot \\left( 1 + \\frac{1}{x} \\right)} = \\lim_{x \\rightarrow \\infty} \\frac{1}{\\left( 1 + \\frac{1}{x} \\right)^{2x}} \\\\&amp; = \\lim_{x \\rightarrow \\infty} \\frac{1}{\\left( 1 + \\frac{1}{x} \\right)^{x^2}} = e^{-2}.\\end{aligned}</div>"
     },
     {
       "id": "q0010",
       "number": 10,
       "header": "#10-Averge",
       "difficulty": "Averge",
-      "prompt_html": "<img src=\"/static/generated/assets/advanced-math/ch008/q0010_prompt.png\"/>",
+      "prompt_html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{求} \\lim_{n \\to \\infty} n \\left( \\frac{1}{n^{2}+\\pi} + \\frac{1}{n^{2}+2\\pi} + \\ldots + \\frac{1}{n^{2}+n\\pi} \\right).\">\\text{求} \\lim_{n \\to \\infty} n \\left( \\frac{1}{n^{2}+\\pi} + \\frac{1}{n^{2}+2\\pi} + \\ldots + \\frac{1}{n^{2}+n\\pi} \\right).</span>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch008/q0010_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\mathbf { 1 }\">\\mathbf { 1 }</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch008/q0010_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\infty\">\\infty</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch008/q0010_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"2.\">2.</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch008/q0010_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"0\">0</span>"
         }
       ],
       "answer": "A",
       "answer_index": 0,
-      "analysis_html": "<img src=\"/static/generated/assets/advanced-math/ch008/q0010_analysis.png\"/>"
+      "analysis_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{aligned}&amp; \\text{因为} \\frac{n^2}{n^2+n\\pi}&lt;n\\left(\\frac{1}{n^2+\\pi}+\\frac{1}{n^2+2\\pi}+...+\\frac{1}{n^2+n\\pi}\\right)&lt;\\frac{n^2}{n^2+\\pi},\\\\&amp; \\text{而} \\lim_{n\\rightarrow \\infty}\\frac{n^2}{n^2+n\\pi}=1,\\ \\lim_{n\\rightarrow \\infty}\\frac{n^2}{n^2+\\pi}=1,\\ \\Leftrightarrow\\\\&amp; \\text{所以} \\lim_{n\\rightarrow \\infty}n\\left(\\frac{1}{n^2+\\pi}+\\frac{1}{n^2+2\\pi}+...+\\frac{1}{n^2+n\\pi}\\right)=1.\\Leftrightarrow\\end{aligned}\">\\begin{aligned}&amp; \\text{因为} \\frac{n^2}{n^2+n\\pi}&lt;n\\left(\\frac{1}{n^2+\\pi}+\\frac{1}{n^2+2\\pi}+...+\\frac{1}{n^2+n\\pi}\\right)&lt;\\frac{n^2}{n^2+\\pi},\\\\&amp; \\text{而} \\lim_{n\\rightarrow \\infty}\\frac{n^2}{n^2+n\\pi}=1,\\ \\lim_{n\\rightarrow \\infty}\\frac{n^2}{n^2+\\pi}=1,\\ \\Leftrightarrow\\\\&amp; \\text{所以} \\lim_{n\\rightarrow \\infty}n\\left(\\frac{1}{n^2+\\pi}+\\frac{1}{n^2+2\\pi}+...+\\frac{1}{n^2+n\\pi}\\right)=1.\\Leftrightarrow\\end{aligned}</div>"
     },
     {
       "id": "q0011",
       "number": 11,
       "header": "#11-Averge",
       "difficulty": "Averge",
-      "prompt_html": "<img src=\"/static/generated/assets/advanced-math/ch008/q0011_prompt.png\"/>",
+      "prompt_html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{求} \\lim_{n \\to \\infty} \\left( 1^{n} + 2^{n} + 3^{n} + 4^{n} + 5^{n} \\right)^{\\frac{1}{n}}.\">\\text{求} \\lim_{n \\to \\infty} \\left( 1^{n} + 2^{n} + 3^{n} + 4^{n} + 5^{n} \\right)^{\\frac{1}{n}}.</span>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch008/q0011_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\mathbf { 1 } :\">\\mathbf { 1 } :</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch008/q0011_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"5\">5</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch008/q0011_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"3\">3</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch008/q0011_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\infty\">\\infty</span>"
         }
       ],
       "answer": "B",
       "answer_index": 1,
-      "analysis_html": "<img src=\"/static/generated/assets/advanced-math/ch008/q0011_analysis.png\"/>"
+      "analysis_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{aligned}&amp; \\text{因为} 5=(5^n)^{\\frac{1}{n}} \\leq \\left(1^n+2^n+3^n+4^n+5^n\\right)^{\\frac{1}{n}} \\leq (5\\cdot 5^n)^{\\frac{1}{n}}=5\\cdot 5^{\\frac{1}{n}},\\\\&amp; \\text{且} \\begin{cases}\\lim\\limits_{n\\rightarrow \\infty} 5=5\\\\ \\lim\\limits_{n\\rightarrow \\infty} (5\\cdot 5^n)=5\\end{cases}\\quad\\text{所以}\\quad\\text{原式}=5.\\end{aligned}\">\\begin{aligned}&amp; \\text{因为} 5=(5^n)^{\\frac{1}{n}} \\leq \\left(1^n+2^n+3^n+4^n+5^n\\right)^{\\frac{1}{n}} \\leq (5\\cdot 5^n)^{\\frac{1}{n}}=5\\cdot 5^{\\frac{1}{n}},\\\\&amp; \\text{且} \\begin{cases}\\lim\\limits_{n\\rightarrow \\infty} 5=5\\\\ \\lim\\limits_{n\\rightarrow \\infty} (5\\cdot 5^n)=5\\end{cases}\\quad\\text{所以}\\quad\\text{原式}=5.\\end{aligned}</div>"
     },
     {
       "id": "q0012",
       "number": 12,
       "header": "#12-Averge",
       "difficulty": "Averge",
-      "prompt_html": "<img src=\"/static/generated/assets/advanced-math/ch008/q0012_prompt.png\"/>",
+      "prompt_html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{求} \\lim_{n \\to \\infty} \\sqrt{1 + \\frac{1}{n}}.\">\\text{求} \\lim_{n \\to \\infty} \\sqrt{1 + \\frac{1}{n}}.</span>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch008/q0012_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\sqrt { 2 }\">\\sqrt { 2 }</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch008/q0012_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\mathbf { 1 }\">\\mathbf { 1 }</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch008/q0012_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"0 \\textcircled {;}\">0 \\textcircled {;}</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch008/q0012_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"2\">2</span>"
         }
       ],
       "answer": "B",
       "answer_index": 1,
-      "analysis_html": "<img src=\"/static/generated/assets/advanced-math/ch008/q0012_analysis.png\"/>"
+      "analysis_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{aligned}&amp;\\text{因为}1&lt;\\sqrt[3]{1+\\frac{1}{n}}&lt;1+\\frac{1}{n}\\quad, \\text{而}\\lim_{n\\rightarrow\\infty}1=1 \\text{且}\\lim_{n\\rightarrow\\infty}(1+n)=1\\quad, \\text{由夹逼准则得}.\\\\&amp;\\lim_{n\\rightarrow\\infty}\\sqrt[3]{1+\\frac{1}{n}}=1.\\circ\\end{aligned}\">\\begin{aligned}&amp;\\text{因为}1&lt;\\sqrt[3]{1+\\frac{1}{n}}&lt;1+\\frac{1}{n}\\quad, \\text{而}\\lim_{n\\rightarrow\\infty}1=1 \\text{且}\\lim_{n\\rightarrow\\infty}(1+n)=1\\quad, \\text{由夹逼准则得}.\\\\&amp;\\lim_{n\\rightarrow\\infty}\\sqrt[3]{1+\\frac{1}{n}}=1.\\circ\\end{aligned}</div>"
     },
     {
       "id": "q0013",
       "number": 13,
       "header": "#13-Averge",
       "difficulty": "Averge",
-      "prompt_html": "<img src=\"/static/generated/assets/advanced-math/ch008/q0013_prompt.png\"/>",
+      "prompt_html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\lim_{n \\to \\infty} \\left( \\frac{n^{2}+n+1}{2n^{3}-1} + \\frac{n^{2}+n+2}{2n^{3}-4} + \\frac{n^{2}+n+3}{2n^{3}-9} + \\ldots + \\frac{n^{2}+n+n}{2n^{3}-n^{2}} \\right).\">\\lim_{n \\to \\infty} \\left( \\frac{n^{2}+n+1}{2n^{3}-1} + \\frac{n^{2}+n+2}{2n^{3}-4} + \\frac{n^{2}+n+3}{2n^{3}-9} + \\ldots + \\frac{n^{2}+n+n}{2n^{3}-n^{2}} \\right).</span>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch008/q0013_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"2.\">2.</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch008/q0013_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"0\">0</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch008/q0013_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\frac { 1 } { 2 }\">\\frac { 1 } { 2 }</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch008/q0013_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\mathbf { 1 }\">\\mathbf { 1 }</span>"
         }
       ],
       "answer": "C",
       "answer_index": 2,
-      "analysis_html": "<img src=\"/static/generated/assets/advanced-math/ch008/q0013_analysis.png\"/>"
+      "analysis_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{aligned}&amp;\\text{由于}\\ \\ n\\left(\\frac{n^2+n+1}{2n^3-1}\\right)\\leq \\sum_{k=1}^n \\frac{n^2+n+k}{2n^3-k^2}\\leq n\\left(\\frac{n^2+n+n}{2n^3-n^2}\\right),\\\\&amp;\\text{而}\\ \\lim_{n\\rightarrow \\infty}n\\left(\\frac{n^2+n+1}{2n^3-1}\\right)=\\lim_{n\\rightarrow \\infty}n\\left(\\frac{n^2+2n}{2n^3-n^2}\\right)=\\frac{1}{2}\\ \\ ,\\ \\ \\text{所以}\\\\&amp;\\qquad\\qquad\\qquad\\qquad\\lim_{n\\rightarrow \\infty} \\sum_{k=1}^n \\frac{n^2+n+k}{2n^3-k^2}=\\frac{1}{2}\\ .^{i+1}\\end{aligned}\">\\begin{aligned}&amp;\\text{由于}\\ \\ n\\left(\\frac{n^2+n+1}{2n^3-1}\\right)\\leq \\sum_{k=1}^n \\frac{n^2+n+k}{2n^3-k^2}\\leq n\\left(\\frac{n^2+n+n}{2n^3-n^2}\\right),\\\\&amp;\\text{而}\\ \\lim_{n\\rightarrow \\infty}n\\left(\\frac{n^2+n+1}{2n^3-1}\\right)=\\lim_{n\\rightarrow \\infty}n\\left(\\frac{n^2+2n}{2n^3-n^2}\\right)=\\frac{1}{2}\\ \\ ,\\ \\ \\text{所以}\\\\&amp;\\qquad\\qquad\\qquad\\qquad\\lim_{n\\rightarrow \\infty} \\sum_{k=1}^n \\frac{n^2+n+k}{2n^3-k^2}=\\frac{1}{2}\\ .^{i+1}\\end{aligned}</div>"
     },
     {
       "id": "q0014",
       "number": 14,
       "header": "#14-Averge",
       "difficulty": "Averge",
-      "prompt_html": "<img src=\"/static/generated/assets/advanced-math/ch008/q0014_prompt.png\"/>",
+      "prompt_html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{求} \\lim_{x \\to \\infty} \\left( 1 + \\frac{2}{x} \\right)^{x+5}\">\\text{求} \\lim_{x \\to \\infty} \\left( 1 + \\frac{2}{x} \\right)^{x+5}</span>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch008/q0014_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\mathbf { 1 }\">\\mathbf { 1 }</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch008/q0014_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"e ^ { 5 }\">e ^ { 5 }</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch008/q0014_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"e^{2}\">e^{2}</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch008/q0014_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"0\">0</span>"
         }
       ],
       "answer": "C",
       "answer_index": 2,
-      "analysis_html": "<img src=\"/static/generated/assets/advanced-math/ch008/q0014_analysis.png\"/>"
+      "analysis_html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{原式} = \\lim_{x \\rightarrow \\infty } \\left( 1 + \\frac{2}{x} \\right)^{x} \\lim_{x \\rightarrow \\infty } \\left( 1 + \\frac{2}{x} \\right)^{5} = e^{2}.\">\\text{原式} = \\lim_{x \\rightarrow \\infty } \\left( 1 + \\frac{2}{x} \\right)^{x} \\lim_{x \\rightarrow \\infty } \\left( 1 + \\frac{2}{x} \\right)^{5} = e^{2}.</span>"
     },
     {
       "id": "q0015",
       "number": 15,
       "header": "#15-Averge",
       "difficulty": "Averge",
-      "prompt_html": "<img src=\"/static/generated/assets/advanced-math/ch008/q0015_prompt.png\"/>",
+      "prompt_html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{求} \\lim_{x \\to 0} (1 + \\sin x)^{ \\frac{1}{x}}\">\\text{求} \\lim_{x \\to 0} (1 + \\sin x)^{ \\frac{1}{x}}</span>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch008/q0015_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\mathbf{e}\">\\mathbf{e}</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch008/q0015_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\mathbf { 1 }\">\\mathbf { 1 }</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch008/q0015_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"0\">0</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch008/q0015_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\frac { 1 } { 2 }\">\\frac { 1 } { 2 }</span>"
         }
       ],
       "answer": "A",
       "answer_index": 0,
-      "analysis_html": "<img src=\"/static/generated/assets/advanced-math/ch008/q0015_analysis.png\"/>"
+      "analysis_html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\lim_{x \\to 0} (1 + \\sin x)^{\\frac{1}{x}} = \\lim_{x \\to 0} (1 + \\sin x)^{\\frac{1}{\\sin x} \\cdot \\frac{\\sin x}{x}} = e^{\\lim_{x \\to 0} \\frac{\\sin x}{x}} = e.\">\\lim_{x \\to 0} (1 + \\sin x)^{\\frac{1}{x}} = \\lim_{x \\to 0} (1 + \\sin x)^{\\frac{1}{\\sin x} \\cdot \\frac{\\sin x}{x}} = e^{\\lim_{x \\to 0} \\frac{\\sin x}{x}} = e.</span>"
     },
     {
       "id": "q0016",
       "number": 16,
       "header": "#16-Averge",
       "difficulty": "Averge",
-      "prompt_html": "<img src=\"/static/generated/assets/advanced-math/ch008/q0016_prompt.png\"/>",
+      "prompt_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{aligned}&amp; \\text{设有两命题。}\\\\&amp; \\text{命题 a：若数列}\\{x_{n}\\}\\text{单调且有下界，则}\\{x_{n}\\}\\text{必收敛。}\\\\&amp; \\text{命题 b：若数列}\\{x_{n}\\}\\,,\\{y_{n}\\}\\,,\\{z_{n}\\}\\text{满足条件：}y_{n}&lt;x_{n}&lt;z_{n}\\,,\\text{且}\\{y_{n}\\}\\,,\\{z_{n}\\}\\text{都有收敛，则数列}\\{x_{n}\\}\\text{必收敛。}\\\\&amp; \\text{则（）。}\\end{aligned}\">\\begin{aligned}&amp; \\text{设有两命题。}\\\\&amp; \\text{命题 a：若数列}\\{x_{n}\\}\\text{单调且有下界，则}\\{x_{n}\\}\\text{必收敛。}\\\\&amp; \\text{命题 b：若数列}\\{x_{n}\\}\\,,\\{y_{n}\\}\\,,\\{z_{n}\\}\\text{满足条件：}y_{n}&lt;x_{n}&lt;z_{n}\\,,\\text{且}\\{y_{n}\\}\\,,\\{z_{n}\\}\\text{都有收敛，则数列}\\{x_{n}\\}\\text{必收敛。}\\\\&amp; \\text{则（）。}\\end{aligned}</div>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch008/q0016_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\textbf{a 正确, b 不正确.}\">\\textbf{a 正确, b 不正确.}</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch008/q0016_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\textbf{a 不正确, b 正确}\">\\textbf{a 不正确, b 正确}</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch008/q0016_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{a, b 都不正确}\">\\text{a, b 都不正确}</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch008/q0016_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{a, b 都正确}\">\\text{a, b 都正确}</span>"
         }
       ],
       "answer": "C",
       "answer_index": 2,
-      "analysis_html": "<img src=\"/static/generated/assets/advanced-math/ch008/q0016_analysis.png\"/>"
+      "analysis_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{aligned}&amp;\\text{命题a，缺少“有上界”的条件；}\\\\&amp;\\text{命题b，缺少“}\\lim_{n\\rightarrow \\infty}y_{n}=\\lim_{n\\rightarrow \\infty}z_{n}”\\text{的条件.所以两个命题都不正确}\\end{aligned}\">\\begin{aligned}&amp;\\text{命题a，缺少“有上界”的条件；}\\\\&amp;\\text{命题b，缺少“}\\lim_{n\\rightarrow \\infty}y_{n}=\\lim_{n\\rightarrow \\infty}z_{n}”\\text{的条件.所以两个命题都不正确}\\end{aligned}</div>"
     },
     {
       "id": "q0017",
       "number": 17,
       "header": "#17-Averge",
       "difficulty": "Averge",
-      "prompt_html": "<img src=\"/static/generated/assets/advanced-math/ch008/q0017_prompt.png\"/>",
+      "prompt_html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{求} \\lim_{x \\to \\infty} \\left( \\frac{x+7}{x-3} \\right)^{x}\">\\text{求} \\lim_{x \\to \\infty} \\left( \\frac{x+7}{x-3} \\right)^{x}</span>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch008/q0017_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\mathbf { 1 }\">\\mathbf { 1 }</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch008/q0017_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"e^{5}.\">e^{5}.</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch008/q0017_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"e^{10}\">e^{10}</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch008/q0017_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"+ \\infty\">+ \\infty</span>"
         }
       ],
       "answer": "C",
       "answer_index": 2,
-      "analysis_html": "<img src=\"/static/generated/assets/advanced-math/ch008/q0017_analysis.png\"/>"
+      "analysis_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{aligned} \\text{原式} &amp; = \\lim_{x \\rightarrow \\infty} \\left( 1 + \\frac{10}{x-3} \\right)^{\\frac{x-3}{10}+3} = \\lim_{x \\rightarrow \\infty} \\left( 1 + \\frac{10}{x-3} \\right)^{x} = e^{10} \\\\ \\text{或} &amp; = \\lim_{x \\rightarrow \\infty} \\frac{1 + \\frac{7}{x}}{1 - \\frac{3}{x}} = \\lim_{x \\rightarrow \\infty} \\frac{\\left( 1 + \\frac{7}{x} \\right)^{\\frac{x}{7}}}{\\left( 1 - \\frac{3}{x} \\right)^{\\frac{3}{3}-3}} = \\frac{e^{7}}{e^{-3}} = e^{10} \\cdot e^{-3} \\end{aligned}\">\\begin{aligned} \\text{原式} &amp; = \\lim_{x \\rightarrow \\infty} \\left( 1 + \\frac{10}{x-3} \\right)^{\\frac{x-3}{10}+3} = \\lim_{x \\rightarrow \\infty} \\left( 1 + \\frac{10}{x-3} \\right)^{x} = e^{10} \\\\ \\text{或} &amp; = \\lim_{x \\rightarrow \\infty} \\frac{1 + \\frac{7}{x}}{1 - \\frac{3}{x}} = \\lim_{x \\rightarrow \\infty} \\frac{\\left( 1 + \\frac{7}{x} \\right)^{\\frac{x}{7}}}{\\left( 1 - \\frac{3}{x} \\right)^{\\frac{3}{3}-3}} = \\frac{e^{7}}{e^{-3}} = e^{10} \\cdot e^{-3} \\end{aligned}</div>"
     },
     {
       "id": "q0018",
       "number": 18,
       "header": "#18-Averge",
       "difficulty": "Averge",
-      "prompt_html": "<img src=\"/static/generated/assets/advanced-math/ch008/q0018_prompt.png\"/>",
+      "prompt_html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{求} \\lim_{n \\to \\infty} \\left( 1^{n} + 2^{n} + 3^{n} \\right) ^{ \\frac{1}{n}}.\">\\text{求} \\lim_{n \\to \\infty} \\left( 1^{n} + 2^{n} + 3^{n} \\right) ^{ \\frac{1}{n}}.</span>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch008/q0018_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"3\">3</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch008/q0018_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"5\">5</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch008/q0018_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\mathbf { 1 }\">\\mathbf { 1 }</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch008/q0018_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\infty ;\">\\infty ;</span>"
         }
       ],
       "answer": "A",
       "answer_index": 0,
-      "analysis_html": "<img src=\"/static/generated/assets/advanced-math/ch008/q0018_analysis.png\"/>"
+      "analysis_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{array}{l} \\text {因为} 3 = (3^{n})^{\\frac{1}{n}} \\leq \\left(1^{n} + 2^{n} + 3^{n}\\right)^{\\frac{1}{n}} \\leq (3 \\cdot 3^{n})^{\\frac{1}{n}} = 3 \\cdot 3^{\\frac{1}{n}}, \\\\ \\text {且} \\begin{cases} \\lim\\limits_{n \\rightarrow \\infty} 3 = 3 \\\\ \\lim\\limits_{n \\rightarrow \\infty} (3 \\cdot 3^{n}) = 3 \\end{cases} \\quad \\text {所以　原式} = 3. \\omega \\end{array}\">\\begin{array}{l} \\text {因为} 3 = (3^{n})^{\\frac{1}{n}} \\leq \\left(1^{n} + 2^{n} + 3^{n}\\right)^{\\frac{1}{n}} \\leq (3 \\cdot 3^{n})^{\\frac{1}{n}} = 3 \\cdot 3^{\\frac{1}{n}}, \\\\ \\text {且} \\begin{cases} \\lim\\limits_{n \\rightarrow \\infty} 3 = 3 \\\\ \\lim\\limits_{n \\rightarrow \\infty} (3 \\cdot 3^{n}) = 3 \\end{cases} \\quad \\text {所以　原式} = 3. \\omega \\end{array}</div>"
     },
     {
       "id": "q0019",
       "number": 19,
       "header": "#19-Averge",
       "difficulty": "Averge",
-      "prompt_html": "<img src=\"/static/generated/assets/advanced-math/ch008/q0019_prompt.png\"/>",
+      "prompt_html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{求} \\lim_{n \\rightarrow \\infty} \\sum_{k=n^{2}}^{(n+1)^{2}} \\frac{1}{\\sqrt{k}}.\">\\text{求} \\lim_{n \\rightarrow \\infty} \\sum_{k=n^{2}}^{(n+1)^{2}} \\frac{1}{\\sqrt{k}}.</span>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch008/q0019_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"2.\">2.</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch008/q0019_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\infty\">\\infty</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch008/q0019_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\mathbf { 1 }\">\\mathbf { 1 }</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch008/q0019_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"0;\">0;</span>"
         }
       ],
       "answer": "A",
       "answer_index": 0,
-      "analysis_html": "<img src=\"/static/generated/assets/advanced-math/ch008/q0019_analysis.png\"/>"
+      "analysis_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{array}{l} \\text {和式可表示为} \\frac {1}{\\sqrt {n ^ {2}}} + \\frac {1}{\\sqrt {n ^ {2} + 1}} + \\frac {1}{\\sqrt {n ^ {2} + 2}} + \\ldots + \\frac {1}{\\sqrt {n ^ {2} + 2 n}} + \\frac {1}{\\sqrt {n ^ {2} + 2 n + 1}}, \\text {共有} 2 n + 2 \\\\ \\text {项。其中的最大项为} \\frac {1}{n} = \\frac {1}{\\sqrt {n ^ {2}}}, \\text {最小项为} \\frac {1}{n + 1} = \\frac {1}{\\sqrt {n ^ {2} + 2 n + 1}}, \\text {于是} \\\\ \\frac {2 n + 2}{n + 1} &lt; \\sum_ {k = n ^ {2}} ^ {(n + 1) ^ {2}} \\frac {1}{\\sqrt {k}} &lt; \\frac {2 n + 2}{n}. \\\\ \\text {由于次不等式两端的极限为} 2, \\text {根据夹逼准则可知，原极限} = 2. \\end{array}\">\\begin{array}{l} \\text {和式可表示为} \\frac {1}{\\sqrt {n ^ {2}}} + \\frac {1}{\\sqrt {n ^ {2} + 1}} + \\frac {1}{\\sqrt {n ^ {2} + 2}} + \\ldots + \\frac {1}{\\sqrt {n ^ {2} + 2 n}} + \\frac {1}{\\sqrt {n ^ {2} + 2 n + 1}}, \\text {共有} 2 n + 2 \\\\ \\text {项。其中的最大项为} \\frac {1}{n} = \\frac {1}{\\sqrt {n ^ {2}}}, \\text {最小项为} \\frac {1}{n + 1} = \\frac {1}{\\sqrt {n ^ {2} + 2 n + 1}}, \\text {于是} \\\\ \\frac {2 n + 2}{n + 1} &lt; \\sum_ {k = n ^ {2}} ^ {(n + 1) ^ {2}} \\frac {1}{\\sqrt {k}} &lt; \\frac {2 n + 2}{n}. \\\\ \\text {由于次不等式两端的极限为} 2, \\text {根据夹逼准则可知，原极限} = 2. \\end{array}</div>"
     },
     {
       "id": "q0020",
       "number": 20,
       "header": "#20-Averge",
       "difficulty": "Averge",
-      "prompt_html": "<img src=\"/static/generated/assets/advanced-math/ch008/q0020_prompt.png\"/>",
+      "prompt_html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{求} \\lim_{x \\to +\\infty} (\\cos \\sqrt{x+1} - \\cos \\sqrt{x}).\">\\text{求} \\lim_{x \\to +\\infty} (\\cos \\sqrt{x+1} - \\cos \\sqrt{x}).</span>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch008/q0020_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\infty\">\\infty</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch008/q0020_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\mathbf { 1 }\">\\mathbf { 1 }</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch008/q0020_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\frac { 1 } { 2 }\">\\frac { 1 } { 2 }</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch008/q0020_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\mathbf { 0 }\">\\mathbf { 0 }</span>"
         }
       ],
       "answer": "D",
       "answer_index": 3,
-      "analysis_html": "<img src=\"/static/generated/assets/advanced-math/ch008/q0020_analysis.png\"/>"
+      "analysis_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{aligned}\\left|\\cos \\sqrt{x+1}-\\cos \\sqrt{x}\\right|&amp;=2\\left|\\sin \\frac{\\sqrt{x+1}+\\sqrt{x}}{2}\\right|\\cdot \\left|\\sin \\frac{\\sqrt{x+1}-\\sqrt{x}}{2}\\right|^{\\omega}\\\\&amp;\\leq 2\\left|\\sin \\frac{\\sqrt{x+1}-\\sqrt{x}}{2}\\right|\\leq 2\\left|\\sin \\frac{1}{2\\left(\\sqrt{x+1}+\\sqrt{x}\\right)}\\right|\\\\&amp;\\leq 2\\cdot \\frac{1}{2\\left(\\sqrt{x+1}+\\sqrt{x}\\right)}=\\frac{1}{\\sqrt{x+1}+\\sqrt{x}}.\\omega\\end{aligned}\">\\begin{aligned}\\left|\\cos \\sqrt{x+1}-\\cos \\sqrt{x}\\right|&amp;=2\\left|\\sin \\frac{\\sqrt{x+1}+\\sqrt{x}}{2}\\right|\\cdot \\left|\\sin \\frac{\\sqrt{x+1}-\\sqrt{x}}{2}\\right|^{\\omega}\\\\&amp;\\leq 2\\left|\\sin \\frac{\\sqrt{x+1}-\\sqrt{x}}{2}\\right|\\leq 2\\left|\\sin \\frac{1}{2\\left(\\sqrt{x+1}+\\sqrt{x}\\right)}\\right|\\\\&amp;\\leq 2\\cdot \\frac{1}{2\\left(\\sqrt{x+1}+\\sqrt{x}\\right)}=\\frac{1}{\\sqrt{x+1}+\\sqrt{x}}.\\omega\\end{aligned}</div>\n<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{所以} \\lim \\left(\\cos \\sqrt{x+1}-\\cos \\sqrt{x}\\right)=0.\\omega\">\\text{所以} \\lim \\left(\\cos \\sqrt{x+1}-\\cos \\sqrt{x}\\right)=0.\\omega</span>"
     },
     {
       "id": "q0021",
       "number": 21,
       "header": "#21-Averge",
       "difficulty": "Averge",
-      "prompt_html": "<img src=\"/static/generated/assets/advanced-math/ch008/q0021_prompt.png\"/>",
+      "prompt_html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{求} \\lim_{n \\rightarrow \\infty} \\frac{1! + 2! + \\ldots + n!}{n!}.\">\\text{求} \\lim_{n \\rightarrow \\infty} \\frac{1! + 2! + \\ldots + n!}{n!}.</span>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch008/q0021_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\infty\">\\infty</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch008/q0021_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\frac{1}{2}.\">\\frac{1}{2}.</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch008/q0021_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\boldsymbol { 0 }\">\\boldsymbol { 0 }</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch008/q0021_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\mathbf { 1 } :\">\\mathbf { 1 } :</span>"
         }
       ],
       "answer": "D",
       "answer_index": 3,
-      "analysis_html": "<img src=\"/static/generated/assets/advanced-math/ch008/q0021_analysis.png\"/>"
+      "analysis_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{aligned}&amp;\\frac{1!+2!+\\ldots+n!}{n!}=1+\\frac{1!+2!+\\ldots+(n-1)!}{n!}, \\text{㊺}\\\\&amp;\\text{由于}\\text{㊺}\\\\&amp;0&lt;\\frac{1!+2!+\\ldots+(n-1)!}{n!}=\\frac{1!+2!+\\ldots+(n-2)!+(n-1)!}{n!}\\\\&amp;&lt;\\frac{(n-2)(n-2)!+(n-1)!}{n!}&lt;\\frac{2(n-1)!}{n!}=\\frac{2}{n},\\\\&amp;\\text{而且}\\frac{2}{n}\\to 0,\\ \\text{所以由夹逼准则得}\\frac{1!+2!+\\ldots+(n-1)!}{n!}=0,\\ \\text{故}\\end{aligned}\">\\begin{aligned}&amp;\\frac{1!+2!+\\ldots+n!}{n!}=1+\\frac{1!+2!+\\ldots+(n-1)!}{n!}, \\text{㊺}\\\\&amp;\\text{由于}\\text{㊺}\\\\&amp;0&lt;\\frac{1!+2!+\\ldots+(n-1)!}{n!}=\\frac{1!+2!+\\ldots+(n-2)!+(n-1)!}{n!}\\\\&amp;&lt;\\frac{(n-2)(n-2)!+(n-1)!}{n!}&lt;\\frac{2(n-1)!}{n!}=\\frac{2}{n},\\\\&amp;\\text{而且}\\frac{2}{n}\\to 0,\\ \\text{所以由夹逼准则得}\\frac{1!+2!+\\ldots+(n-1)!}{n!}=0,\\ \\text{故}\\end{aligned}</div>"
     },
     {
       "id": "q0022",
       "number": 22,
       "header": "#22-Averge",
       "difficulty": "Averge",
-      "prompt_html": "<img src=\"/static/generated/assets/advanced-math/ch008/q0022_prompt.png\"/>",
+      "prompt_html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{.求} \\lim_{x \\rightarrow 0} (1+5x)^{ \\frac{1}{x}+2}.\">\\text{.求} \\lim_{x \\rightarrow 0} (1+5x)^{ \\frac{1}{x}+2}.</span>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch008/q0022_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"e^{\\frac{5}{2}}\">e^{\\frac{5}{2}}</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch008/q0022_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\textbf{1:}\">\\textbf{1:}</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch008/q0022_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"e^{5}\">e^{5}</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch008/q0022_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"e ^ { \\frac { 2 } { 5 } }\">e ^ { \\frac { 2 } { 5 } }</span>"
         }
       ],
       "answer": "C",
       "answer_index": 2,
-      "analysis_html": "<img src=\"/static/generated/assets/advanced-math/ch008/q0022_analysis.png\"/>"
+      "analysis_html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{原式} = \\lim_{x \\to 0} \\left( 1 + 5 x \\right) ^{ \\frac {1}{x}} \\cdot \\left( 1 + 5 x \\right) ^ {2} = \\lim_{x \\to 0} \\left( 1 + 5 x \\right) ^ { \\frac {1}{5 x} \\cdot 5 } = e ^ { 5 } .\">\\text{原式} = \\lim_{x \\to 0} \\left( 1 + 5 x \\right) ^{ \\frac {1}{x}} \\cdot \\left( 1 + 5 x \\right) ^ {2} = \\lim_{x \\to 0} \\left( 1 + 5 x \\right) ^ { \\frac {1}{5 x} \\cdot 5 } = e ^ { 5 } .</span>"
     }
-  ]
+  ],
+  "format": "latex",
+  "source_md": "gs/1.5.1_夹逼准则(22题)/1.5.1_夹逼准则(22题).md"
 }

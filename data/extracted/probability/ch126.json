@@ -13,924 +13,926 @@
       "number": 1,
       "header": "#1-Easy",
       "difficulty": "Easy",
-      "prompt_html": "<img src=\"/static/generated/assets/probability/ch126/q0001_prompt.png\"/>",
+      "prompt_html": "<span class=\"latex-text\">\\begin{array}{l}\n\\begin{array}{|c|c|c|c|c|c|} \\hline \\text{样本}i &amp; 1 &amp; 2 &amp; 3 &amp; 4 &amp; 5 \\\\ \\hline \\lambda\\text{光分析}x_{i} &amp; 2.0 &amp; 2.0 &amp; 2.3 &amp; 2.1 &amp; 2.4 \\\\ \\hline \\text{化学分析}y_{i} &amp; 2.2 &amp; 1.9 &amp; 2.5 &amp; 2.3 &amp; 2.4 \\\\ \\hline \\end{array}</span>\n<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{假设两总体均服从正态分布}，\\text{若在}\\alpha=0.05\\text{的显著性水平下}，\\text{检验两种分析方法所得的平均值是否相同}，\\text{则下列说法不正确的是}（）。\">\\text{假设两总体均服从正态分布}，\\text{若在}\\alpha=0.05\\text{的显著性水平下}，\\text{检验两种分析方法所得的平均值是否相同}，\\text{则下列说法不正确的是}（）。</span>\n<span class=\"latex-text\">(t_{0.025}(4)=2.7764,\\ t_{0.05}(4)=2.5706)</span>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/probability/ch126/q0001_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{拒绝域为} \\, (t_{0.025}(4), +\\infty)\">\\text{拒绝域为} \\, (t_{0.025}(4), +\\infty)</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/probability/ch126/q0001_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{检验假设} \\, H_0: \\mu_z = 0, \\, H_1: \\mu_z \\neq 0\">\\text{检验假设} \\, H_0: \\mu_z = 0, \\, H_1: \\mu_z \\neq 0</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/probability/ch126/q0001_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{检验统计量为} T = \\frac { \\overline { Z } } { S / \\sqrt { n } }\">\\text{检验统计量为} T = \\frac { \\overline { Z } } { S / \\sqrt { n } }</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/probability/ch126/q0001_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{可认为两种分析方法所得的均值结果相同}\">\\text{可认为两种分析方法所得的均值结果相同}</span>"
         }
       ],
       "answer": "A",
       "answer_index": 0,
-      "analysis_html": "<img src=\"/static/generated/assets/probability/ch126/q0001_analysis.png\"/>"
+      "analysis_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{aligned}&amp;\\text{用同一块样本一分为二，用两种分析方法做对比试验，其数据之差即反映了两种分析方法的差异。}\\\\&amp;\\text{设差值}Z \\text{服从正态分布}Z\\sim N(\\mu_{z},\\sigma_{z}^{2})，\\text{其取值为}z_{i}=x_{i}-y_{i}:-0.2,0.1,-0.2,-0.2,0.\\text{。}\\\\&amp;\\text{若两种方法无差异，则}\\mu_{z}=0.\\text{。检验假设}H_{0}: \\mu_{z}=0,H_{1}: \\mu_{z}\\neq 0.\\text{。所用检验统计量为}T=\\frac{\\overline{Z}}{S/\\sqrt{n}}\\text{，拒绝域为}|T|&gt;t_{0.25}(n-1)\\text{。}\\\\&amp;\\text{由} \\bar{z}=-0.1,s_{z}\\approx 0.141,n=5,\\alpha=0.05,\\text{得}t=\\frac{\\bar{z}-0}{s_{z}/\\sqrt{n}}=\\frac{-0.1-0}{0.141/\\sqrt{5}}\\approx-1.59&gt;-t_{0.025}(4)=-2.776.\\text{。}\\\\&amp;\\text{故接受}H_{0}: \\mu_{z}=0,\\text{即在}\\alpha=0.05\\text{下，认为两种分析方法所得均值相同。}\\end{aligned}\">\\begin{aligned}&amp;\\text{用同一块样本一分为二，用两种分析方法做对比试验，其数据之差即反映了两种分析方法的差异。}\\\\&amp;\\text{设差值}Z \\text{服从正态分布}Z\\sim N(\\mu_{z},\\sigma_{z}^{2})，\\text{其取值为}z_{i}=x_{i}-y_{i}:-0.2,0.1,-0.2,-0.2,0.\\text{。}\\\\&amp;\\text{若两种方法无差异，则}\\mu_{z}=0.\\text{。检验假设}H_{0}: \\mu_{z}=0,H_{1}: \\mu_{z}\\neq 0.\\text{。所用检验统计量为}T=\\frac{\\overline{Z}}{S/\\sqrt{n}}\\text{，拒绝域为}|T|&gt;t_{0.25}(n-1)\\text{。}\\\\&amp;\\text{由} \\bar{z}=-0.1,s_{z}\\approx 0.141,n=5,\\alpha=0.05,\\text{得}t=\\frac{\\bar{z}-0}{s_{z}/\\sqrt{n}}=\\frac{-0.1-0}{0.141/\\sqrt{5}}\\approx-1.59&gt;-t_{0.025}(4)=-2.776.\\text{。}\\\\&amp;\\text{故接受}H_{0}: \\mu_{z}=0,\\text{即在}\\alpha=0.05\\text{下，认为两种分析方法所得均值相同。}\\end{aligned}</div>"
     },
     {
       "id": "q0002",
       "number": 2,
       "header": "#2-Easy",
       "difficulty": "Easy",
-      "prompt_html": "<img src=\"/static/generated/assets/probability/ch126/q0002_prompt.png\"/>",
+      "prompt_html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{当正态总体} X \\text{的方差} D(X) = \\sigma^2 \\text{未知，检验期望} E(X) = \\mu _{0} \\text{用的统计量是( ).}\">\\text{当正态总体} X \\text{的方差} D(X) = \\sigma^2 \\text{未知，检验期望} E(X) = \\mu _{0} \\text{用的统计量是( ).}</span>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/probability/ch126/q0002_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\begin{aligned}\\frac{(\\overline{X}-\\mu_{0})\\sqrt{n(n-1)}}{(\\sum_{k=1}^{n}(X_{k}-\\overline{X})^{2})^{\\frac{1}{2}}}\\end{aligned}\">\\begin{aligned}\\frac{(\\overline{X}-\\mu_{0})\\sqrt{n(n-1)}}{(\\sum_{k=1}^{n}(X_{k}-\\overline{X})^{2})^{\\frac{1}{2}}}\\end{aligned}</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/probability/ch126/q0002_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\begin{aligned}\\frac{(\\overline{X}-\\mu_{0})n}{(\\sum_{k=1}^{n}(X_{k}-\\overline{X})^{2})^{\\frac{1}{2}}}\\end{aligned}\">\\begin{aligned}\\frac{(\\overline{X}-\\mu_{0})n}{(\\sum_{k=1}^{n}(X_{k}-\\overline{X})^{2})^{\\frac{1}{2}}}\\end{aligned}</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/probability/ch126/q0002_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\begin{aligned}\\frac{(\\overline{X}-\\mu_{0})(n-1)}{(\\sum_{k=1}^{n}(X_{k}-\\overline{X})^{2})^{\\frac{1}{2}}}\\end{aligned}\">\\begin{aligned}\\frac{(\\overline{X}-\\mu_{0})(n-1)}{(\\sum_{k=1}^{n}(X_{k}-\\overline{X})^{2})^{\\frac{1}{2}}}\\end{aligned}</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/probability/ch126/q0002_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\begin{aligned}\\frac{(\\overline{X}-\\mu_{0})}{(\\sum_{k=1}^{n}(X_{k}-\\overline{X})^{2})^{\\frac{1}{2}}}\\end{aligned}\">\\begin{aligned}\\frac{(\\overline{X}-\\mu_{0})}{(\\sum_{k=1}^{n}(X_{k}-\\overline{X})^{2})^{\\frac{1}{2}}}\\end{aligned}</span>"
         }
       ],
       "answer": "A",
       "answer_index": 0,
-      "analysis_html": "<img src=\"/static/generated/assets/probability/ch126/q0002_analysis.png\"/>"
+      "analysis_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{aligned}\\text{正态总体方差未知时均值的检验．若}H_{0}\\text{为真，检验统计量为}T=\\frac{\\overline{X}-\\mu_{0}}{S\\sqrt{n}}\\sim t(n-1)\\text{，即}T=\\frac{(\\overline{X}-\\mu_{0})\\sqrt{n(n-1)}}{(\\sum\\limits_{k=1}^{n}(X_{k}-\\overline{X})^{2})^{\\frac{1}{2}}}\\sim t(n-1).\\end{aligned}\">\\begin{aligned}\\text{正态总体方差未知时均值的检验．若}H_{0}\\text{为真，检验统计量为}T=\\frac{\\overline{X}-\\mu_{0}}{S\\sqrt{n}}\\sim t(n-1)\\text{，即}T=\\frac{(\\overline{X}-\\mu_{0})\\sqrt{n(n-1)}}{(\\sum\\limits_{k=1}^{n}(X_{k}-\\overline{X})^{2})^{\\frac{1}{2}}}\\sim t(n-1).\\end{aligned}</div>"
     },
     {
       "id": "q0003",
       "number": 3,
       "header": "#3-Averge",
       "difficulty": "Averge",
-      "prompt_html": "<img src=\"/static/generated/assets/probability/ch126/q0003_prompt.png\"/>",
+      "prompt_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{aligned} \\text{从清凉饮料自动售货机，随机抽样36杯，其平均含量为}219(\\mathrm{mL})，\\text{标准差为}14.2\\mathrm{mL}，\\text{假设每杯的标准含量为}222(\\mathrm{ml})，\\text{在}\\alpha=0.05\\text{下}，\\text{检验每杯的平均含量是否低于}222(\\mathrm{ml})，\\text{下列说法中不正确的是}()。 \\\\ t_{0.05}(36)=1.688, t_{0.05}(35)=1.6896 \\end{aligned}\">\\begin{aligned} \\text{从清凉饮料自动售货机，随机抽样36杯，其平均含量为}219(\\mathrm{mL})，\\text{标准差为}14.2\\mathrm{mL}，\\text{假设每杯的标准含量为}222(\\mathrm{ml})，\\text{在}\\alpha=0.05\\text{下}，\\text{检验每杯的平均含量是否低于}222(\\mathrm{ml})，\\text{下列说法中不正确的是}()。 \\\\ t_{0.05}(36)=1.688, t_{0.05}(35)=1.6896 \\end{aligned}</div>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/probability/ch126/q0003_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{拒绝域为} \\ \\frac{\\overline{x}-\\mu_{0}}{s/\\sqrt{n}}&lt; -t_{\\omega 2}(n-1)\">\\text{拒绝域为} \\ \\frac{\\overline{x}-\\mu_{0}}{s/\\sqrt{n}}&lt; -t_{\\omega 2}(n-1)</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/probability/ch126/q0003_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{检验假设} \\, H _ { 0 } \\colon \\mu = 222 , \\, H _ { 1 } \\colon \\mu &lt; 222\">\\text{检验假设} \\, H _ { 0 } \\colon \\mu = 222 , \\, H _ { 1 } \\colon \\mu &lt; 222</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/probability/ch126/q0003_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{检验统计量的样本值约为} \\ -1.27\">\\text{检验统计量的样本值约为} \\ -1.27</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/probability/ch126/q0003_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\sqrt [ 3 ] { n } \\quad\">\\sqrt [ 3 ] { n } \\quad</span>"
         }
       ],
       "answer": "A",
       "answer_index": 0,
-      "analysis_html": "<img src=\"/static/generated/assets/probability/ch126/q0003_analysis.png\"/>"
+      "analysis_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{aligned}&amp;\\text{设}X\\text{代表自动售货机售出的清凉饮料含量，}X\\sim N(\\mu,\\sigma^{2})\\text{,检验假设}H_{0}: \\mu=\\mu_{0}=222(\\mathrm{mL})\\quad, \\quad H_{1}: \\mu&lt;222(\\mathrm{mL})\\text{.}\\\\&amp;\\text{由}a=0.05,\\,n=36,\\text{查表得}t_{0.05}(36-1)=1.6896,\\text{检验统计量为}T=\\frac{\\overline{X}-\\mu_{0}}{S/\\sqrt{n}}\\sim t(n-1)\\text{,拒绝域为}\\\\&amp;\\quad\\frac{\\overline{X}-\\mu_{0}}{S/\\sqrt{n}}\\leq-t_{n}(n-1)\\\\&amp;\\text{计算}t\\text{值并判断：}t=\\frac{219-222}{14.2/\\sqrt{36}}\\approx-1.2676&gt;-1.6896,\\text{故接受}H_{0}\\text{,即可以认为每杯饮料的平均含量为222mL.}\\end{aligned}\">\\begin{aligned}&amp;\\text{设}X\\text{代表自动售货机售出的清凉饮料含量，}X\\sim N(\\mu,\\sigma^{2})\\text{,检验假设}H_{0}: \\mu=\\mu_{0}=222(\\mathrm{mL})\\quad, \\quad H_{1}: \\mu&lt;222(\\mathrm{mL})\\text{.}\\\\&amp;\\text{由}a=0.05,\\,n=36,\\text{查表得}t_{0.05}(36-1)=1.6896,\\text{检验统计量为}T=\\frac{\\overline{X}-\\mu_{0}}{S/\\sqrt{n}}\\sim t(n-1)\\text{,拒绝域为}\\\\&amp;\\quad\\frac{\\overline{X}-\\mu_{0}}{S/\\sqrt{n}}\\leq-t_{n}(n-1)\\\\&amp;\\text{计算}t\\text{值并判断：}t=\\frac{219-222}{14.2/\\sqrt{36}}\\approx-1.2676&gt;-1.6896,\\text{故接受}H_{0}\\text{,即可以认为每杯饮料的平均含量为222mL.}\\end{aligned}</div>"
     },
     {
       "id": "q0004",
       "number": 4,
       "header": "#4-Easy",
       "difficulty": "Easy",
-      "prompt_html": "<img src=\"/static/generated/assets/probability/ch126/q0004_prompt.png\"/>",
+      "prompt_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{aligned}&amp; \\text{设总体} X \\sim N(\\mu, \\sigma^2), \\text{其中} \\, \\sigma^2 \\text{未知，取得样本} X_1, X_2, \\cdots, X_n, \\, \\overline{X} \\text{为样本均值}, \\, S \\text{为样本标准差. 对假设检验} \\, H_0: \\mu \\geq \\mu_0 \\Leftrightarrow H_1: \\mu &lt; \\mu_0, \\\\&amp; \\text{取检验统计量} \\, T = \\frac{(\\overline{X} - \\mu_0)}{S \\sqrt{n}}, \\text{则拒绝域} \\, W \\text{为( ). (显著性水平为 } a)\\end{aligned}\">\\begin{aligned}&amp; \\text{设总体} X \\sim N(\\mu, \\sigma^2), \\text{其中} \\, \\sigma^2 \\text{未知，取得样本} X_1, X_2, \\cdots, X_n, \\, \\overline{X} \\text{为样本均值}, \\, S \\text{为样本标准差. 对假设检验} \\, H_0: \\mu \\geq \\mu_0 \\Leftrightarrow H_1: \\mu &lt; \\mu_0, \\\\&amp; \\text{取检验统计量} \\, T = \\frac{(\\overline{X} - \\mu_0)}{S \\sqrt{n}}, \\text{则拒绝域} \\, W \\text{为( ). (显著性水平为 } a)\\end{aligned}</div>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/probability/ch126/q0004_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\begin{aligned}T &lt; -t_{a}(n-1)\\end{aligned}\">\\begin{aligned}T &lt; -t_{a}(n-1)\\end{aligned}</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/probability/ch126/q0004_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\vert T \\vert &gt; t _ { \\omega / 2 } ( n - 1 )\">\\vert T \\vert &gt; t _ { \\omega / 2 } ( n - 1 )</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/probability/ch126/q0004_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\left| T \\right| \\leq t _ { \\omega / 2 } ( n - 1 )\">\\left| T \\right| \\leq t _ { \\omega / 2 } ( n - 1 )</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/probability/ch126/q0004_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\begin{aligned}T &gt; t_{a}(n-1)\\end{aligned}\">\\begin{aligned}T &gt; t_{a}(n-1)\\end{aligned}</span>"
         }
       ],
       "answer": "A",
       "answer_index": 0,
-      "analysis_html": "<img src=\"/static/generated/assets/probability/ch126/q0004_analysis.png\"/>"
+      "analysis_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{aligned}&amp; \\text{正态总体方差未知时均值的检验．若}H_{0}\\text{为真，检验统计量为}T=\\frac{\\overline{X}-\\mu_{0}}{S\\sqrt{n}}\\sim t(n-1)\\text{．}\\\\&amp; \\text{双侧检验：}H_{0}:\\mu=\\mu_{0}\\;,\\;H_{1}:\\mu\\neq\\mu_{0}\\;,\\text{拒绝域为}\\;|T|&gt;t_{\\alpha2}(n-1)\\text{．}\\\\&amp; \\text{右侧检验：}H_{0}:\\mu\\leq\\mu_{0}\\;,\\;H_{1}:\\mu&gt;\\mu_{0}\\;,\\text{拒绝域为}T&gt;t_{\\alpha}(n-1)\\text{．}\\\\&amp; \\text{左侧检验：}H_{0}:\\mu\\geq\\mu_{0}\\;,\\;H_{1}:\\mu&lt;\\mu_{0}\\;,\\text{拒绝域为}T&lt;-t_{\\alpha}(n-1)\\text{．}\\end{aligned}\">\\begin{aligned}&amp; \\text{正态总体方差未知时均值的检验．若}H_{0}\\text{为真，检验统计量为}T=\\frac{\\overline{X}-\\mu_{0}}{S\\sqrt{n}}\\sim t(n-1)\\text{．}\\\\&amp; \\text{双侧检验：}H_{0}:\\mu=\\mu_{0}\\;,\\;H_{1}:\\mu\\neq\\mu_{0}\\;,\\text{拒绝域为}\\;|T|&gt;t_{\\alpha2}(n-1)\\text{．}\\\\&amp; \\text{右侧检验：}H_{0}:\\mu\\leq\\mu_{0}\\;,\\;H_{1}:\\mu&gt;\\mu_{0}\\;,\\text{拒绝域为}T&gt;t_{\\alpha}(n-1)\\text{．}\\\\&amp; \\text{左侧检验：}H_{0}:\\mu\\geq\\mu_{0}\\;,\\;H_{1}:\\mu&lt;\\mu_{0}\\;,\\text{拒绝域为}T&lt;-t_{\\alpha}(n-1)\\text{．}\\end{aligned}</div>"
     },
     {
       "id": "q0005",
       "number": 5,
       "header": "#5-Hard",
       "difficulty": "Hard",
-      "prompt_html": "<img src=\"/static/generated/assets/probability/ch126/q0005_prompt.png\"/>",
+      "prompt_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{aligned}\\begin{array}{l}\\text{若}X\\sim N(0,1),\\text{则}P\\{X\\geq 1.96\\}=0.025,\\,P\\{X\\geq 1.654\\}=0.05.\\,\\text{现假设总体}X\\sim N(\\mu,1),\\,X_{1},X_{2},\\cdots,X_{n}\\text{为样本},\\\\ \\overline{X}=\\frac{1}{9}\\sum_{i=1}^{9}X_{i}.\\,\\text{若取}\\mu_{0}=0,\\,\\text{对}\\mu\\text{作假设检验，则在显著性水平}\\alpha=0.05\\text{下，不是拒绝域的为}\\left(\\,\\right).\\end{array}\\end{aligned}\">\\begin{aligned}\\begin{array}{l}\\text{若}X\\sim N(0,1),\\text{则}P\\{X\\geq 1.96\\}=0.025,\\,P\\{X\\geq 1.654\\}=0.05.\\,\\text{现假设总体}X\\sim N(\\mu,1),\\,X_{1},X_{2},\\cdots,X_{n}\\text{为样本},\\\\ \\overline{X}=\\frac{1}{9}\\sum_{i=1}^{9}X_{i}.\\,\\text{若取}\\mu_{0}=0,\\,\\text{对}\\mu\\text{作假设检验，则在显著性水平}\\alpha=0.05\\text{下，不是拒绝域的为}\\left(\\,\\right).\\end{array}\\end{aligned}</div>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/probability/ch126/q0005_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\left| \\overline { X } \\right| \\geq 0 . 548\">\\left| \\overline { X } \\right| \\geq 0 . 548</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/probability/ch126/q0005_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\left| \\overline { X } \\right| \\geq 0 . 653\">\\left| \\overline { X } \\right| \\geq 0 . 653</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/probability/ch126/q0005_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\overline{X} \\geq 0.548\">\\overline{X} \\geq 0.548</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/probability/ch126/q0005_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\overline { X } \\leq - 0 . 548\">\\overline { X } \\leq - 0 . 548</span>"
         }
       ],
       "answer": "A",
       "answer_index": 0,
-      "analysis_html": "<img src=\"/static/generated/assets/probability/ch126/q0005_analysis.png\"/>"
+      "analysis_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{aligned}&amp; \\text{设总体} X \\sim N(\\mu, \\sigma^2), \\text{方差} \\sigma^2 \\text{已知}, \\, X_1, X_2, \\cdots, X_n \\text{是取自} \\lambda \\text{的一个样本}, \\, \\overline{X} \\text{为样本均值. 均值的检验统计量为} U = \\frac{\\overline{X}-\\mu_0}{\\sigma \\sqrt{n}} \\sim N(0,1). \\\\&amp; (1) \\text{检验假设} \\, H_0: \\mu = \\mu_0, \\, H_1: \\mu \\neq \\mu_0 \\text{时, 拒绝域为} |U| = \\left| \\frac{\\overline{X}-\\mu_0}{\\sigma \\sqrt{n}} \\right| &gt; u_{a2}, \\\\&amp; (2) \\text{右侧检验: 检验假设} \\, H_0: \\mu \\leq \\mu_0, \\, H_1: \\mu &gt; \\mu_0 \\text{时, 拒绝域为} U = \\frac{\\overline{X}-\\mu_0}{\\sigma \\sqrt{n}} &gt; u_a. \\\\&amp; (3) \\text{左侧检验: 检验假设} \\, H_0: \\mu \\geq \\mu_0, \\, H_1: \\mu &lt; \\mu_0 \\text{时, 拒绝域为} U = \\frac{\\overline{X}-\\mu_0}{\\sigma \\sqrt{n}} &lt; -u_a. \\\\&amp; \\text{将} n=9, \\mu_0=0, \\, \\sigma=1, \\, \\alpha=0.05 \\text{代入计算, 得} \\, \\frac{\\sigma}{\\sqrt{n}} u_a = 0.548, \\, \\frac{\\sigma}{\\sqrt{n}} u_{a2} = 0.653.\\end{aligned}\">\\begin{aligned}&amp; \\text{设总体} X \\sim N(\\mu, \\sigma^2), \\text{方差} \\sigma^2 \\text{已知}, \\, X_1, X_2, \\cdots, X_n \\text{是取自} \\lambda \\text{的一个样本}, \\, \\overline{X} \\text{为样本均值. 均值的检验统计量为} U = \\frac{\\overline{X}-\\mu_0}{\\sigma \\sqrt{n}} \\sim N(0,1). \\\\&amp; (1) \\text{检验假设} \\, H_0: \\mu = \\mu_0, \\, H_1: \\mu \\neq \\mu_0 \\text{时, 拒绝域为} |U| = \\left| \\frac{\\overline{X}-\\mu_0}{\\sigma \\sqrt{n}} \\right| &gt; u_{a2}, \\\\&amp; (2) \\text{右侧检验: 检验假设} \\, H_0: \\mu \\leq \\mu_0, \\, H_1: \\mu &gt; \\mu_0 \\text{时, 拒绝域为} U = \\frac{\\overline{X}-\\mu_0}{\\sigma \\sqrt{n}} &gt; u_a. \\\\&amp; (3) \\text{左侧检验: 检验假设} \\, H_0: \\mu \\geq \\mu_0, \\, H_1: \\mu &lt; \\mu_0 \\text{时, 拒绝域为} U = \\frac{\\overline{X}-\\mu_0}{\\sigma \\sqrt{n}} &lt; -u_a. \\\\&amp; \\text{将} n=9, \\mu_0=0, \\, \\sigma=1, \\, \\alpha=0.05 \\text{代入计算, 得} \\, \\frac{\\sigma}{\\sqrt{n}} u_a = 0.548, \\, \\frac{\\sigma}{\\sqrt{n}} u_{a2} = 0.653.\\end{aligned}</div>"
     },
     {
       "id": "q0006",
       "number": 6,
       "header": "#6-Easy",
       "difficulty": "Easy",
-      "prompt_html": "<img src=\"/static/generated/assets/probability/ch126/q0006_prompt.png\"/>",
+      "prompt_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{array}{l} \\text {设总体} X \\sim N ( \\mu , \\sigma ^ { 2 } ) , \\ X _ { 1 } , X _ { 2 } , \\cdots , X _ { n } \\text {是总体的一个样本，设} \\overline { X } = \\frac { 1 } { n } \\sum _ { i = 1 } ^ { n } X _ { i } , \\ S ^ { 2 } = \\frac { 1 } { n } \\sum _ { i = 1 } ^ { n } ( X _ { i } - \\overline { X } ) ^ { 2 } , \\text {若} \\mu , \\sigma ^ { 2 } \\text {都未知，} \\\\ \\text {则下面结论正确的是( ).} \\end{array}\">\\begin{array}{l} \\text {设总体} X \\sim N ( \\mu , \\sigma ^ { 2 } ) , \\ X _ { 1 } , X _ { 2 } , \\cdots , X _ { n } \\text {是总体的一个样本，设} \\overline { X } = \\frac { 1 } { n } \\sum _ { i = 1 } ^ { n } X _ { i } , \\ S ^ { 2 } = \\frac { 1 } { n } \\sum _ { i = 1 } ^ { n } ( X _ { i } - \\overline { X } ) ^ { 2 } , \\text {若} \\mu , \\sigma ^ { 2 } \\text {都未知，} \\\\ \\text {则下面结论正确的是( ).} \\end{array}</div>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/probability/ch126/q0006_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{若提出假设检验}H_{0};\\mu=\\mu_{0},\\text{则选用统计量}\\frac{\\overline{X}-\\mu_{0}}{S/\\sqrt{n-1}}\">\\text{若提出假设检验}H_{0};\\mu=\\mu_{0},\\text{则选用统计量}\\frac{\\overline{X}-\\mu_{0}}{S/\\sqrt{n-1}}</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/probability/ch126/q0006_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{若提出假设检验}H_{0}: \\mu = \\mu_{0}, \\text{则选用统计量} \\frac{\\overline{X} - \\mu_{0}}{\\sigma / \\sqrt{n}}\">\\text{若提出假设检验}H_{0}: \\mu = \\mu_{0}, \\text{则选用统计量} \\frac{\\overline{X} - \\mu_{0}}{\\sigma / \\sqrt{n}}</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/probability/ch126/q0006_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{若提出假设检验}H_{0}:\\mu=\\mu_{0}\\,,\\text{则选用统计量}\\frac{\\overline{X}-\\mu_{0}}{\\sigma\\sqrt{n-1}}\">\\text{若提出假设检验}H_{0}:\\mu=\\mu_{0}\\,,\\text{则选用统计量}\\frac{\\overline{X}-\\mu_{0}}{\\sigma\\sqrt{n-1}}</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/probability/ch126/q0006_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{若提出假设检验} \\, H_{0}; \\mu = \\mu_{0}, \\text{则选用统计量} \\, \\frac{\\overline{X} - \\mu_{0}}{S / \\sqrt{n}}\">\\text{若提出假设检验} \\, H_{0}; \\mu = \\mu_{0}, \\text{则选用统计量} \\, \\frac{\\overline{X} - \\mu_{0}}{S / \\sqrt{n}}</span>"
         }
       ],
       "answer": "A",
       "answer_index": 0,
-      "analysis_html": "<img src=\"/static/generated/assets/probability/ch126/q0006_analysis.png\"/>"
+      "analysis_html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{正态总体均值(方差未知)的假设检验统计量为} T = \\frac{\\overline{X} - \\mu_{0}}{S/\\sqrt{n}} \\sim t(n-1).\">\\text{正态总体均值(方差未知)的假设检验统计量为} T = \\frac{\\overline{X} - \\mu_{0}}{S/\\sqrt{n}} \\sim t(n-1).</span>"
     },
     {
       "id": "q0007",
       "number": 7,
       "header": "#7-Easy",
       "difficulty": "Easy",
-      "prompt_html": "<img src=\"/static/generated/assets/probability/ch126/q0007_prompt.png\"/>",
+      "prompt_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{aligned} \\text{设 } X_1, X_2, \\cdots, X_n \\text{ 来自于正态总体 } \\mathcal{N}(\\mu, \\sigma^2) \\text{ 的简单随机样本，} \\overline{X} \\text{ 是样本均值，记} \\\\ S_1^2 = \\frac{1}{n} \\sum_{i=1}^n (X_i - \\overline{X})^2, \\ S_2^2 = \\frac{1}{n-1} \\sum_{i=1}^n (X_i - \\overline{X})^2, \\ S_3^2 = \\frac{1}{n-1} \\sum_{i=1}^n (X_i - \\mu)^2, \\ S_4^2 = \\frac{1}{n} \\sum_{i=1}^n (X_i - \\mu)^2, \\\\ \\mu, \\sigma \\text{ 均未知，若提出检验假设 } H_0: \\mu = \\mu_0, \\text{ 则选用统计量 } (\\text{.}) \\end{aligned}\">\\begin{aligned} \\text{设 } X_1, X_2, \\cdots, X_n \\text{ 来自于正态总体 } \\mathcal{N}(\\mu, \\sigma^2) \\text{ 的简单随机样本，} \\overline{X} \\text{ 是样本均值，记} \\\\ S_1^2 = \\frac{1}{n} \\sum_{i=1}^n (X_i - \\overline{X})^2, \\ S_2^2 = \\frac{1}{n-1} \\sum_{i=1}^n (X_i - \\overline{X})^2, \\ S_3^2 = \\frac{1}{n-1} \\sum_{i=1}^n (X_i - \\mu)^2, \\ S_4^2 = \\frac{1}{n} \\sum_{i=1}^n (X_i - \\mu)^2, \\\\ \\mu, \\sigma \\text{ 均未知，若提出检验假设 } H_0: \\mu = \\mu_0, \\text{ 则选用统计量 } (\\text{.}) \\end{aligned}</div>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/probability/ch126/q0007_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\begin{aligned}T\\!=\\!\\frac{\\overline{X}\\!-\\!\\mu_{0}}{\\frac{S_{2}}{\\sqrt{n}}}\\end{aligned}\">\\begin{aligned}T\\!=\\!\\frac{\\overline{X}\\!-\\!\\mu_{0}}{\\frac{S_{2}}{\\sqrt{n}}}\\end{aligned}</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/probability/ch126/q0007_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\begin{aligned}T\\!=\\!\\frac{\\overline{X}\\!-\\!\\mu_{0}}{\\displaystyle\\frac{S_{1}}{\\sqrt{n}}}\\end{aligned}\">\\begin{aligned}T\\!=\\!\\frac{\\overline{X}\\!-\\!\\mu_{0}}{\\displaystyle\\frac{S_{1}}{\\sqrt{n}}}\\end{aligned}</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/probability/ch126/q0007_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\begin{aligned}T = \\frac{\\overline{X} - \\mu_{0}}{\\frac{S_{3}}{\\sqrt{n}}}\\end{aligned}\">\\begin{aligned}T = \\frac{\\overline{X} - \\mu_{0}}{\\frac{S_{3}}{\\sqrt{n}}}\\end{aligned}</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/probability/ch126/q0007_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"T = \\frac{\\overline{X} - \\mu_{0}}{\\frac{S_{4}}{\\sqrt{n}}}\">T = \\frac{\\overline{X} - \\mu_{0}}{\\frac{S_{4}}{\\sqrt{n}}}</span>"
         }
       ],
       "answer": "A",
       "answer_index": 0,
-      "analysis_html": "<img src=\"/static/generated/assets/probability/ch126/q0007_analysis.png\"/>"
+      "analysis_html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{方差}\\,\\sigma^{2}\\text{未知时，检验假设}\\,H_{0}:\\mu=\\mu_{0},\\,H_{1}:\\mu\\neq\\mu_{0}\\text{的检验统计量为}T=\\frac{\\overline{X}-\\mu_{0}}{S/\\sqrt{n}}\\sim t(n-1)\\,.\">\\text{方差}\\,\\sigma^{2}\\text{未知时，检验假设}\\,H_{0}:\\mu=\\mu_{0},\\,H_{1}:\\mu\\neq\\mu_{0}\\text{的检验统计量为}T=\\frac{\\overline{X}-\\mu_{0}}{S/\\sqrt{n}}\\sim t(n-1)\\,.</span>"
     },
     {
       "id": "q0008",
       "number": 8,
       "header": "#8-Averge",
       "difficulty": "Averge",
-      "prompt_html": "<img src=\"/static/generated/assets/probability/ch126/q0008_prompt.png\"/>",
+      "prompt_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{aligned}\\text{有一工厂生产一种灯管，已知灯管的寿命}X \\text{服从正态分布}N(\\mu,40000), \\text{根据以往生产经验知道，灯管的平均寿命不会超过1500小时，为提高灯管的平均寿命，工厂采用了新工艺。为了解清楚新工艺是如何提高了灯管的平均寿命，测试了新工艺生产的25只灯管，寿命平均值为1575小时，可检验样本的平均值是否大于1500小时，下列说法中不正确的是（）.}\\left(u_{0.025}=1.96, u_{0.05}=1.645\\right)\\end{aligned}\">\\begin{aligned}\\text{有一工厂生产一种灯管，已知灯管的寿命}X \\text{服从正态分布}N(\\mu,40000), \\text{根据以往生产经验知道，灯管的平均寿命不会超过1500小时，为提高灯管的平均寿命，工厂采用了新工艺。为了解清楚新工艺是如何提高了灯管的平均寿命，测试了新工艺生产的25只灯管，寿命平均值为1575小时，可检验样本的平均值是否大于1500小时，下列说法中不正确的是（）.}\\left(u_{0.025}=1.96, u_{0.05}=1.645\\right)\\end{aligned}</div>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/probability/ch126/q0008_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{可以认为新工艺事实上没有提高灯管的平均寿命}\">\\text{可以认为新工艺事实上没有提高灯管的平均寿命}</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/probability/ch126/q0008_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{应检验假设：} \\ H_{0} \\colon \\mu \\leq 1500 \\, , \\ H_{1} \\colon \\mu &gt; 1500\">\\text{应检验假设：} \\ H_{0} \\colon \\mu \\leq 1500 \\, , \\ H_{1} \\colon \\mu &gt; 1500</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/probability/ch126/q0008_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{检验统计量为} \\, U = \\frac { \\overline { X } - 1500 } { \\sigma / \\sqrt { n } }\">\\text{检验统计量为} \\, U = \\frac { \\overline { X } - 1500 } { \\sigma / \\sqrt { n } }</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/probability/ch126/q0008_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{检验统计量的观察值} \\, u = 1 . 875\">\\text{检验统计量的观察值} \\, u = 1 . 875</span>"
         }
       ],
       "answer": "A",
       "answer_index": 0,
-      "analysis_html": "<img src=\"/static/generated/assets/probability/ch126/q0008_analysis.png\"/>"
+      "analysis_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{aligned}&amp;\\text{可把上述问题归纳为下述假设检验问题：}H_{0}:\\mu\\leq 1500,\\ H_{1}:\\mu&gt;1500.\\\\&amp;\\text{从而可利用右侧检验法来检验，相应于}\\mu_{0}=1500,\\ \\sigma=200,\\ \\ n=25.\\\\&amp;\\text{取显著性水平}\\alpha=0.05,\\ \\text{差附表得}u_{\\alpha}=1.645,\\ \\text{因已测出}\\bar{x}=1575,\\ \\text{从而}\\\\&amp;u=\\frac{\\bar{x}-\\mu_{0}}{\\sigma\\sqrt{n}}=\\frac{1575-1500}{200}\\sqrt{25}=1.875.\\\\&amp;\\text{由于}u=1.875&gt;u_{\\alpha}=1.645,\\ \\text{从而否定原假设}H_{0},\\ \\text{接受备择假设}H_{1},\\ \\text{即认为新工艺事实上提高了灯管的平均寿命。}\\end{aligned}\">\\begin{aligned}&amp;\\text{可把上述问题归纳为下述假设检验问题：}H_{0}:\\mu\\leq 1500,\\ H_{1}:\\mu&gt;1500.\\\\&amp;\\text{从而可利用右侧检验法来检验，相应于}\\mu_{0}=1500,\\ \\sigma=200,\\ \\ n=25.\\\\&amp;\\text{取显著性水平}\\alpha=0.05,\\ \\text{差附表得}u_{\\alpha}=1.645,\\ \\text{因已测出}\\bar{x}=1575,\\ \\text{从而}\\\\&amp;u=\\frac{\\bar{x}-\\mu_{0}}{\\sigma\\sqrt{n}}=\\frac{1575-1500}{200}\\sqrt{25}=1.875.\\\\&amp;\\text{由于}u=1.875&gt;u_{\\alpha}=1.645,\\ \\text{从而否定原假设}H_{0},\\ \\text{接受备择假设}H_{1},\\ \\text{即认为新工艺事实上提高了灯管的平均寿命。}\\end{aligned}</div>"
     },
     {
       "id": "q0009",
       "number": 9,
       "header": "#9-Easy",
       "difficulty": "Easy",
-      "prompt_html": "<img src=\"/static/generated/assets/probability/ch126/q0009_prompt.png\"/>",
+      "prompt_html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{设总体}X\\sim N(\\mu,\\sigma^{2}),\\text{其中}\\sigma^{2}\\text{已知.若提出假设：}H_{0}:\\mu\\geq\\mu_{0}\\,(\\mu_{0}\\text{已知}),H_{1}:\\mu&lt;\\mu_{0},\\text{所用检验统计量为}U=\\frac{\\overline{X}-\\mu_{0}}{\\sigma\\sqrt{n}}\\text{,则拒绝域为( ).}\">\\text{设总体}X\\sim N(\\mu,\\sigma^{2}),\\text{其中}\\sigma^{2}\\text{已知.若提出假设：}H_{0}:\\mu\\geq\\mu_{0}\\,(\\mu_{0}\\text{已知}),H_{1}:\\mu&lt;\\mu_{0},\\text{所用检验统计量为}U=\\frac{\\overline{X}-\\mu_{0}}{\\sigma\\sqrt{n}}\\text{,则拒绝域为( ).}</span>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/probability/ch126/q0009_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\begin{array}{l} { r } { U \\leq - u _ { a } } \\end{array}\">\\begin{array}{l} { r } { U \\leq - u _ { a } } \\end{array}</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/probability/ch126/q0009_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\left| U \\right| \\geq u _ { \\omega / 2 }\">\\left| U \\right| \\geq u _ { \\omega / 2 }</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/probability/ch126/q0009_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\begin{aligned}U \\geq u_{a}\\end{aligned}\">\\begin{aligned}U \\geq u_{a}\\end{aligned}</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/probability/ch126/q0009_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"|U| \\geq u _ { a }\">|U| \\geq u _ { a }</span>"
         }
       ],
       "answer": "A",
       "answer_index": 0,
-      "analysis_html": "<img src=\"/static/generated/assets/probability/ch126/q0009_analysis.png\"/>"
+      "analysis_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{aligned}&amp;\\text{正态总体方差已知时均值的检验．若}H_{0}\\text{为真，检验统计量为}U=\\frac{\\overline{X}-\\mu_{0}}{\\sigma\\sqrt{n}}\\sim N(0,1).\\quad\\\\&amp;\\text{双侧检验：}H_{0};\\mu=\\mu_{0},\\ H_{1};\\mu\\neq\\mu_{0},\\ \\text{拒绝域为}U|&gt;u_{a2}\\,.\\quad\\\\&amp;\\text{右侧检验：}H_{0};\\mu\\leq\\mu_{0},\\ H_{1};\\mu&gt;\\mu_{0},\\ \\text{拒绝域为}U&gt;u_{a}\\,.\\quad\\\\&amp;\\text{左侧检验：}H_{0};\\mu\\geq\\mu_{0},\\ H_{1};\\mu&lt;\\mu_{0},\\ \\text{拒绝域为}U&lt;-u_{a}\\,.\\end{aligned}\">\\begin{aligned}&amp;\\text{正态总体方差已知时均值的检验．若}H_{0}\\text{为真，检验统计量为}U=\\frac{\\overline{X}-\\mu_{0}}{\\sigma\\sqrt{n}}\\sim N(0,1).\\quad\\\\&amp;\\text{双侧检验：}H_{0};\\mu=\\mu_{0},\\ H_{1};\\mu\\neq\\mu_{0},\\ \\text{拒绝域为}U|&gt;u_{a2}\\,.\\quad\\\\&amp;\\text{右侧检验：}H_{0};\\mu\\leq\\mu_{0},\\ H_{1};\\mu&gt;\\mu_{0},\\ \\text{拒绝域为}U&gt;u_{a}\\,.\\quad\\\\&amp;\\text{左侧检验：}H_{0};\\mu\\geq\\mu_{0},\\ H_{1};\\mu&lt;\\mu_{0},\\ \\text{拒绝域为}U&lt;-u_{a}\\,.\\end{aligned}</div>"
     },
     {
       "id": "q0010",
       "number": 10,
       "header": "#10-Averge",
       "difficulty": "Averge",
-      "prompt_html": "<img src=\"/static/generated/assets/probability/ch126/q0010_prompt.png\"/>",
+      "prompt_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{array}{l} \\text {打包机包装装入包，每包标准重为100kg。每天开工后，要检验所装糖包的总体期望值是否合乎标准(100kg)。} \\\\ \\text {某日开工后，测得s包糖重如下(单位：kg):} 99.3 \\quad 98.7 \\quad 100.5 \\quad 101.2 \\quad 98.3 \\quad 99.7 \\quad 99.5 \\quad 102.1 \\quad 100.5。 \\\\ x = 99.978, s = 1.2122。\\text{已知打包机包装的包重服从正态分布}，a = 0.05，\\text{则下列说法中不正确的是}()。 \\end{array}\">\\begin{array}{l} \\text {打包机包装装入包，每包标准重为100kg。每天开工后，要检验所装糖包的总体期望值是否合乎标准(100kg)。} \\\\ \\text {某日开工后，测得s包糖重如下(单位：kg):} 99.3 \\quad 98.7 \\quad 100.5 \\quad 101.2 \\quad 98.3 \\quad 99.7 \\quad 99.5 \\quad 102.1 \\quad 100.5。 \\\\ x = 99.978, s = 1.2122。\\text{已知打包机包装的包重服从正态分布}，a = 0.05，\\text{则下列说法中不正确的是}()。 \\end{array}</div>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/probability/ch126/q0010_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{拒绝域为} \\, ( 2 . 306 , \\, + \\infty )\">\\text{拒绝域为} \\, ( 2 . 306 , \\, + \\infty )</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/probability/ch126/q0010_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{假设检验为} \\, H_0: \\mu = 100, \\, H_1: \\mu \\neq 100\">\\text{假设检验为} \\, H_0: \\mu = 100, \\, H_1: \\mu \\neq 100</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/probability/ch126/q0010_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{检验统计量为} \\; T = \\frac { \\overline { X } - 100 } { S / \\sqrt { n } }\">\\text{检验统计量为} \\; T = \\frac { \\overline { X } - 100 } { S / \\sqrt { n } }</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/probability/ch126/q0010_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{可以认为该天打包工作正常}\">\\text{可以认为该天打包工作正常}</span>"
         }
       ],
       "answer": "A",
       "answer_index": 0,
-      "analysis_html": "<img src=\"/static/generated/assets/probability/ch126/q0010_analysis.png\"/>"
+      "analysis_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{aligned}&amp; \\text{本问题是在}\\alpha=0.05\\text{下检验假设}H_0:\\mu=100,\\;H_1:\\mu\\neq 100. \\\\&amp; \\text{由于}\\sigma^2 \\text{未知，所以可选取统计量}T=\\frac{\\overline{X}-100}{S/\\sqrt{n}}，\\text{在}H_0\\text{成立的条件下}，T\\sim t(n-1)，\\text{且此检验问题的拒绝域为} \\\\&amp; \\;|T|=\\left|\\frac{\\overline{X}-100}{S/\\sqrt{n}}\\right|&gt;t_{\\alpha^2}(n-1), \\text{这里}\\quad t=\\frac{\\overline{x}-100}{s/\\sqrt{n}}\\approx \\frac{99.978-100}{1.2122/\\sqrt{9}}\\approx-0.0544,\\;t_{0.025}(8)=2.306. \\\\&amp; \\text{显然}\\quad |t|=0.0544&lt;2.306=t_{0.025}(8)，\\text{即}t\\text{未落在拒绝域中}，\\text{从而接受}H_0^*，\\text{即可以认为该天打包工作正常}.\\end{aligned}\">\\begin{aligned}&amp; \\text{本问题是在}\\alpha=0.05\\text{下检验假设}H_0:\\mu=100,\\;H_1:\\mu\\neq 100. \\\\&amp; \\text{由于}\\sigma^2 \\text{未知，所以可选取统计量}T=\\frac{\\overline{X}-100}{S/\\sqrt{n}}，\\text{在}H_0\\text{成立的条件下}，T\\sim t(n-1)，\\text{且此检验问题的拒绝域为} \\\\&amp; \\;|T|=\\left|\\frac{\\overline{X}-100}{S/\\sqrt{n}}\\right|&gt;t_{\\alpha^2}(n-1), \\text{这里}\\quad t=\\frac{\\overline{x}-100}{s/\\sqrt{n}}\\approx \\frac{99.978-100}{1.2122/\\sqrt{9}}\\approx-0.0544,\\;t_{0.025}(8)=2.306. \\\\&amp; \\text{显然}\\quad |t|=0.0544&lt;2.306=t_{0.025}(8)，\\text{即}t\\text{未落在拒绝域中}，\\text{从而接受}H_0^*，\\text{即可以认为该天打包工作正常}.\\end{aligned}</div>"
     },
     {
       "id": "q0011",
       "number": 11,
       "header": "#11-Averge",
       "difficulty": "Averge",
-      "prompt_html": "<img src=\"/static/generated/assets/probability/ch126/q0011_prompt.png\"/>",
+      "prompt_html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\left( t_{0.025}(36)=2.0281,t_{0.025}(35)=2.0301 \\right)\">\\left( t_{0.025}(36)=2.0281,t_{0.025}(35)=2.0301 \\right)</span>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/probability/ch126/q0011_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{拒绝域为} \\, [ 2 . 0301 , \\, + \\infty )\">\\text{拒绝域为} \\, [ 2 . 0301 , \\, + \\infty )</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/probability/ch126/q0011_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{检验假设} \\; H_{0} \\colon \\mu = 70, \\; \\; H_{1} \\colon \\mu \\neq 70\">\\text{检验假设} \\; H_{0} \\colon \\mu = 70, \\; \\; H_{1} \\colon \\mu \\neq 70</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/probability/ch126/q0011_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{检验统计量为} \\, T = \\frac { \\overline { X } - \\mu _ { 0 } } { S / \\sqrt { n } } \\sim t ( n - 1 )\">\\text{检验统计量为} \\, T = \\frac { \\overline { X } - \\mu _ { 0 } } { S / \\sqrt { n } } \\sim t ( n - 1 )</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/probability/ch126/q0011_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\begin{aligned} \\text{在}\\alpha=0.05\\text{下，可以认为这次考试全体考生的平均成绩为}70\\text{分} \\end{aligned}\">\\begin{aligned} \\text{在}\\alpha=0.05\\text{下，可以认为这次考试全体考生的平均成绩为}70\\text{分} \\end{aligned}</span>"
         }
       ],
       "answer": "A",
       "answer_index": 0,
-      "analysis_html": "<img src=\"/static/generated/assets/probability/ch126/q0011_analysis.png\"/>"
+      "analysis_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{aligned}&amp;(1) \\text{设这次考试全体考生的平均成绩} X \\sim N(\\mu, \\sigma^{2}) , \\text{待检验假设}H_{0}: \\mu=70, \\text{备择假设}H_{1}: \\mu\\neq 70;\\\\&amp;(2) \\text{在}H_{0}\\text{成立条件下选择统计量}T=\\frac{\\overline{X}-\\mu_{0}}{S\\sqrt{n}} \\sim t(n-1);\\\\&amp;(3) \\text{在显著性水平}0.05\\text{下}，\\text{查}t\\text{分布表}，\\text{找出临界值} \\;t_{0.025}(n-1)=t_{0.025}(35)=2.0301, \\text{则拒绝域为} \\\\-\\infty,-2.0301)\\cup(2.0301,+\\infty);\\\\&amp;(4) \\text{计算} \\;t=\\frac{[66.5-70]}{15/\\sqrt{36}}=1.4\\in(-2.0301,2.0301), \\text{故接受}H_{0}, \\text{因此可认为这次考试全体考生的平均成绩为} \\text{70分}.\\end{aligned}\">\\begin{aligned}&amp;(1) \\text{设这次考试全体考生的平均成绩} X \\sim N(\\mu, \\sigma^{2}) , \\text{待检验假设}H_{0}: \\mu=70, \\text{备择假设}H_{1}: \\mu\\neq 70;\\\\&amp;(2) \\text{在}H_{0}\\text{成立条件下选择统计量}T=\\frac{\\overline{X}-\\mu_{0}}{S\\sqrt{n}} \\sim t(n-1);\\\\&amp;(3) \\text{在显著性水平}0.05\\text{下}，\\text{查}t\\text{分布表}，\\text{找出临界值} \\;t_{0.025}(n-1)=t_{0.025}(35)=2.0301, \\text{则拒绝域为} \\\\-\\infty,-2.0301)\\cup(2.0301,+\\infty);\\\\&amp;(4) \\text{计算} \\;t=\\frac{[66.5-70]}{15/\\sqrt{36}}=1.4\\in(-2.0301,2.0301), \\text{故接受}H_{0}, \\text{因此可认为这次考试全体考生的平均成绩为} \\text{70分}.\\end{aligned}</div>"
     },
     {
       "id": "q0012",
       "number": 12,
       "header": "#12-Averge",
       "difficulty": "Averge",
-      "prompt_html": "<img src=\"/static/generated/assets/probability/ch126/q0012_prompt.png\"/>",
+      "prompt_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{aligned}\\begin{array}{l}\\text{若} \\; T_i \\sim \\mathcal{N}(0), \\; \\text{则} \\; P\\{T_i &gt; 1.83\\} = 0.05 \\; ; \\; \\text{若} \\; T \\sim \\mathcal{N}(\\delta), \\; \\text{则} \\; P\\{T_i &gt; 1.86\\} = 0.05. \\; \\text{现假设} \\; X \\sim \\mathcal{N}(\\mu, \\sigma^2), \\; \\mu, \\; \\sigma^2 \\text{均未知}, \\\\X_1, X_2, \\cdots, X_n \\text{为样本，}\\; \\overline{X} \\text{为样本均值，} \\; S_n^c = \\frac{1}{n-1} \\sum_{i=1}^n (X_i - \\overline{X})^2. \\; \\; \\text{对于检验问题：} \\; H_0: \\mu = 0, \\; H_1: \\mu &lt; 0. \\; \\; \\text{显显著性}\\\\ \\text{水平} \\; \\alpha = 0.05, \\; \\text{下列对拒绝域的取法正确的是} \\; () \\; \\left( I_{(0.05)}(9) = 1.8331, I_{(0.05)}(8) = 1.8595 \\right)\\end{array}\\end{aligned}\">\\begin{aligned}\\begin{array}{l}\\text{若} \\; T_i \\sim \\mathcal{N}(0), \\; \\text{则} \\; P\\{T_i &gt; 1.83\\} = 0.05 \\; ; \\; \\text{若} \\; T \\sim \\mathcal{N}(\\delta), \\; \\text{则} \\; P\\{T_i &gt; 1.86\\} = 0.05. \\; \\text{现假设} \\; X \\sim \\mathcal{N}(\\mu, \\sigma^2), \\; \\mu, \\; \\sigma^2 \\text{均未知}, \\\\X_1, X_2, \\cdots, X_n \\text{为样本，}\\; \\overline{X} \\text{为样本均值，} \\; S_n^c = \\frac{1}{n-1} \\sum_{i=1}^n (X_i - \\overline{X})^2. \\; \\; \\text{对于检验问题：} \\; H_0: \\mu = 0, \\; H_1: \\mu &lt; 0. \\; \\; \\text{显显著性}\\\\ \\text{水平} \\; \\alpha = 0.05, \\; \\text{下列对拒绝域的取法正确的是} \\; () \\; \\left( I_{(0.05)}(9) = 1.8331, I_{(0.05)}(8) = 1.8595 \\right)\\end{array}\\end{aligned}</div>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/probability/ch126/q0012_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\begin{aligned}G=\\{(x_{1},x_{2},\\cdots,x_{9})|\\frac{\\overline{x}}{s_{9}}\\leq -0.62\\}\\end{aligned}\">\\begin{aligned}G=\\{(x_{1},x_{2},\\cdots,x_{9})|\\frac{\\overline{x}}{s_{9}}\\leq -0.62\\}\\end{aligned}</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/probability/ch126/q0012_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\begin{aligned}G=\\{(x_{1},x_{2},\\cdots,x_{9})|\\frac{\\overline{x}}{s_{9}}\\geq 0.62\\}\\end{aligned}\">\\begin{aligned}G=\\{(x_{1},x_{2},\\cdots,x_{9})|\\frac{\\overline{x}}{s_{9}}\\geq 0.62\\}\\end{aligned}</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/probability/ch126/q0012_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\begin{aligned}G=\\{(x_{1},x_{2},\\cdots,x_{9})|\\frac{\\overline{x}}{s_{9}}\\leq -0.61\\}\\end{aligned}\">\\begin{aligned}G=\\{(x_{1},x_{2},\\cdots,x_{9})|\\frac{\\overline{x}}{s_{9}}\\leq -0.61\\}\\end{aligned}</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/probability/ch126/q0012_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\begin{aligned}G=\\{(x_{1},x_{2},\\cdots,x_{9})|\\frac{\\overline{x}}{s_{9}}\\geq 0.61\\}\\end{aligned}\">\\begin{aligned}G=\\{(x_{1},x_{2},\\cdots,x_{9})|\\frac{\\overline{x}}{s_{9}}\\geq 0.61\\}\\end{aligned}</span>"
         }
       ],
       "answer": "A",
       "answer_index": 0,
-      "analysis_html": "<img src=\"/static/generated/assets/probability/ch126/q0012_analysis.png\"/>"
+      "analysis_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{aligned} \\text{设总体} X\\sim N(\\mu,\\sigma^2),\\text{方差}\\sigma^2 \\text{未知},\\ X_1,X_2,\\cdots,X_n \\text{是取自}\\lambda\\text{的一个样本},\\ \\overline{\\lambda}\\text{与}S^2\\text{分别为样本均值与样本方差}.\\\\ \\text{对于假设检验} H_0:\\mu\\geq\\mu_0,\\ H_1:\\mu&lt;\\mu_0,\\text{检验统计量为}\\\\ T=\\frac{\\overline{X}-\\mu_0}{S\\sqrt{n}}\\sim t(n-1),\\\\ \\text{拒绝域为}\\\\ \\frac{\\overline{X}-\\mu_0}{S\\sqrt{n}}&lt;-t_a(n-1).\\\\ \\text{现在}\\mu_0=0,n=9,S=S_a,\\alpha=0.05,\\text{所以拒绝域为}\\frac{\\overline{X}}{S_9}\\leq-0.6198.\\\\ \\text{即}\\ G=\\{(x_1,x_2,\\cdots,x_9)|\\frac{\\overline{x}}{S_9}\\leq-0.62\\}. \\end{aligned}\">\\begin{aligned} \\text{设总体} X\\sim N(\\mu,\\sigma^2),\\text{方差}\\sigma^2 \\text{未知},\\ X_1,X_2,\\cdots,X_n \\text{是取自}\\lambda\\text{的一个样本},\\ \\overline{\\lambda}\\text{与}S^2\\text{分别为样本均值与样本方差}.\\\\ \\text{对于假设检验} H_0:\\mu\\geq\\mu_0,\\ H_1:\\mu&lt;\\mu_0,\\text{检验统计量为}\\\\ T=\\frac{\\overline{X}-\\mu_0}{S\\sqrt{n}}\\sim t(n-1),\\\\ \\text{拒绝域为}\\\\ \\frac{\\overline{X}-\\mu_0}{S\\sqrt{n}}&lt;-t_a(n-1).\\\\ \\text{现在}\\mu_0=0,n=9,S=S_a,\\alpha=0.05,\\text{所以拒绝域为}\\frac{\\overline{X}}{S_9}\\leq-0.6198.\\\\ \\text{即}\\ G=\\{(x_1,x_2,\\cdots,x_9)|\\frac{\\overline{x}}{S_9}\\leq-0.62\\}. \\end{aligned}</div>"
     },
     {
       "id": "q0013",
       "number": 13,
       "header": "#13-Averge",
       "difficulty": "Averge",
-      "prompt_html": "<img src=\"/static/generated/assets/probability/ch126/q0013_prompt.png\"/>",
+      "prompt_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{aligned} \\text{水泥厂用自动包装机包装水泥，每袋额定重量是50kg.某日开工后随机抽查了9袋，得称重量如下：} \\quad 49.6\\quad 49.3 \\\\ 50.1\\quad 50.0\\quad 49.2\\quad 49.9\\quad 49.8\\quad 51.0\\quad 50.2\\quad ,\\ s=0.539 \\text{设每袋重量服从正态分布，在} \\alpha=0.05 \\text{下，检验每袋的额定重量是否有变化，则下列说法中不正确的是()}. \\ t_{0.025}(8)=2.306, t_{0.025}(9)=2.2622 \\end{aligned}\">\\begin{aligned} \\text{水泥厂用自动包装机包装水泥，每袋额定重量是50kg.某日开工后随机抽查了9袋，得称重量如下：} \\quad 49.6\\quad 49.3 \\\\ 50.1\\quad 50.0\\quad 49.2\\quad 49.9\\quad 49.8\\quad 51.0\\quad 50.2\\quad ,\\ s=0.539 \\text{设每袋重量服从正态分布，在} \\alpha=0.05 \\text{下，检验每袋的额定重量是否有变化，则下列说法中不正确的是()}. \\ t_{0.025}(8)=2.306, t_{0.025}(9)=2.2622 \\end{aligned}</div>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/probability/ch126/q0013_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{拒绝域为} \\, | T | \\geq 2 . 2622\">\\text{拒绝域为} \\, | T | \\geq 2 . 2622</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/probability/ch126/q0013_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\begin{aligned}\\text{假设检验为} \\; H_0: \\mu = 50, \\;\\;\\;\\; H_1: \\mu \\neq 50\\end{aligned}\">\\begin{aligned}\\text{假设检验为} \\; H_0: \\mu = 50, \\;\\;\\;\\; H_1: \\mu \\neq 50\\end{aligned}</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/probability/ch126/q0013_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{检验统计量为} \\; T = \\frac { \\overline { X } - 50 } { S / 3 }\">\\text{检验统计量为} \\; T = \\frac { \\overline { X } - 50 } { S / 3 }</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/probability/ch126/q0013_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\begin{array}{l}D &gt; 0 \\\\ \\text{.在} \\alpha = 0.05 \\text{下,可认为包装机工作正常} \\end{array}\">\\begin{array}{l}D &gt; 0 \\\\ \\text{.在} \\alpha = 0.05 \\text{下,可认为包装机工作正常} \\end{array}</span>"
         }
       ],
       "answer": "A",
       "answer_index": 0,
-      "analysis_html": "<img src=\"/static/generated/assets/probability/ch126/q0013_analysis.png\"/>"
+      "analysis_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{aligned}&amp;(1) \\text{建立假设}\\ H_{0}: \\mu=50,\\ H_{1}: \\mu\\neq 50.\\\\&amp;(2) \\text{选择统计量}\\ T=\\frac{\\bar{X}-\\mu_{0}}{S\\sqrt{n}}\\sim t(n-1).\\\\&amp;(3) \\text{对于给定的显著性水平}\\ \\alpha, \\text{确定}k, \\text{使} P\\{|T|&gt;\\alpha\\} \\text{查}t\\text{分布表得}k=t_{0.025}(8)=2.306, \\text{从而拒绝域为}|T|&gt;2.306.\\\\&amp;(4) \\text{由于}\\bar{x}=49.9,\\ s^{2}=0.29, \\text{所以} |T|&lt;0.56&lt;2.306, \\text{故应接受} H_{0}, \\text{即认为包装机工作正常}.\\end{aligned}\">\\begin{aligned}&amp;(1) \\text{建立假设}\\ H_{0}: \\mu=50,\\ H_{1}: \\mu\\neq 50.\\\\&amp;(2) \\text{选择统计量}\\ T=\\frac{\\bar{X}-\\mu_{0}}{S\\sqrt{n}}\\sim t(n-1).\\\\&amp;(3) \\text{对于给定的显著性水平}\\ \\alpha, \\text{确定}k, \\text{使} P\\{|T|&gt;\\alpha\\} \\text{查}t\\text{分布表得}k=t_{0.025}(8)=2.306, \\text{从而拒绝域为}|T|&gt;2.306.\\\\&amp;(4) \\text{由于}\\bar{x}=49.9,\\ s^{2}=0.29, \\text{所以} |T|&lt;0.56&lt;2.306, \\text{故应接受} H_{0}, \\text{即认为包装机工作正常}.\\end{aligned}</div>"
     },
     {
       "id": "q0014",
       "number": 14,
       "header": "#14-Averge",
       "difficulty": "Averge",
-      "prompt_html": "<img src=\"/static/generated/assets/probability/ch126/q0014_prompt.png\"/>",
+      "prompt_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{aligned} \\text{从已知标准差}\\sigma=5.2 \\text{的正态总体中抽取容量为}16\\text{的样本}，\\text{算得样本均值}\\bar{x}=27.56，\\text{在显著性水平}\\alpha=0.05\\text{下}，\\text{检验假设}：H_{0}:\\mu=26,H_{1}:\\mu\\not=26，\\text{则检验统计量}、\\text{拒绝域以及检验结果为}（）。(u_{0.025}=1.96,u_{0.05}=1.645)\\end{aligned}\">\\begin{aligned} \\text{从已知标准差}\\sigma=5.2 \\text{的正态总体中抽取容量为}16\\text{的样本}，\\text{算得样本均值}\\bar{x}=27.56，\\text{在显著性水平}\\alpha=0.05\\text{下}，\\text{检验假设}：H_{0}:\\mu=26,H_{1}:\\mu\\not=26，\\text{则检验统计量}、\\text{拒绝域以及检验结果为}（）。(u_{0.025}=1.96,u_{0.05}=1.645)\\end{aligned}</div>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/probability/ch126/q0014_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\begin{array}{l} U = \\dfrac{\\overline{X} - 26}{1.3}\\,,\\,\\,\\, |U| \\geq 1.96\\,,\\,\\text{接受} \\, H_{0} \\end{array}\">\\begin{array}{l} U = \\dfrac{\\overline{X} - 26}{1.3}\\,,\\,\\,\\, |U| \\geq 1.96\\,,\\,\\text{接受} \\, H_{0} \\end{array}</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/probability/ch126/q0014_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\begin{array}{l} U = \\frac{\\overline{X} - 26}{1.3}\\,,\\,\\,\\, |U| \\geq 1.96\\,,\\,\\text{拒绝} \\, H_{0} \\end{array}\">\\begin{array}{l} U = \\frac{\\overline{X} - 26}{1.3}\\,,\\,\\,\\, |U| \\geq 1.96\\,,\\,\\text{拒绝} \\, H_{0} \\end{array}</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/probability/ch126/q0014_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\begin{aligned}U = \\frac{\\overline{X} - 26}{0.325}\\,,\\,\\,\\, |U| \\geq 1.645\\,,\\,\\text{拒绝} \\, H_0\\end{aligned}\">\\begin{aligned}U = \\frac{\\overline{X} - 26}{0.325}\\,,\\,\\,\\, |U| \\geq 1.645\\,,\\,\\text{拒绝} \\, H_0\\end{aligned}</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/probability/ch126/q0014_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\begin{array}{l} U \\!= \\! \\displaystyle \\frac { \\overline { X } \\! - \\! 26 } { 0 . 325 } \\, , \\; \\; | U | \\! \\geq \\! 1 . 645 \\, , \\, \\text {接受} \\, H _ { 0 } \\end{array}\">\\begin{array}{l} U \\!= \\! \\displaystyle \\frac { \\overline { X } \\! - \\! 26 } { 0 . 325 } \\, , \\; \\; | U | \\! \\geq \\! 1 . 645 \\, , \\, \\text {接受} \\, H _ { 0 } \\end{array}</span>"
         }
       ],
       "answer": "A",
       "answer_index": 0,
-      "analysis_html": "<img src=\"/static/generated/assets/probability/ch126/q0014_analysis.png\"/>"
+      "analysis_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{aligned}&amp;\\text{单正态总体方差已知时均值的检验过程如下：}\\\\&amp;(\\text{1})\\text{检验假设为}H_{0}: \\mu=\\mu_{0},\\ H_{1}: \\mu\\neq\\mu_{0}.\\\\&amp;(\\text{2})\\text{当}H_{0}\\text{为真时}，\\text{有}U=\\frac{\\bar{X}-\\mu_{0}}{\\sigma\\sqrt{n}}\\sim N(0,1)，\\text{记}U\\text{的样本计算值}u，\\text{则拒绝域为}u|&gt;u_{0.25}，\\text{其中}u_{0.25}\\text{为标准正态分布的分位数}.\\end{aligned}\">\\begin{aligned}&amp;\\text{单正态总体方差已知时均值的检验过程如下：}\\\\&amp;(\\text{1})\\text{检验假设为}H_{0}: \\mu=\\mu_{0},\\ H_{1}: \\mu\\neq\\mu_{0}.\\\\&amp;(\\text{2})\\text{当}H_{0}\\text{为真时}，\\text{有}U=\\frac{\\bar{X}-\\mu_{0}}{\\sigma\\sqrt{n}}\\sim N(0,1)，\\text{记}U\\text{的样本计算值}u，\\text{则拒绝域为}u|&gt;u_{0.25}，\\text{其中}u_{0.25}\\text{为标准正态分布的分位数}.\\end{aligned}</div>"
     },
     {
       "id": "q0015",
       "number": 15,
       "header": "#15-Easy",
       "difficulty": "Easy",
-      "prompt_html": "<img src=\"/static/generated/assets/probability/ch126/q0015_prompt.png\"/>",
+      "prompt_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{array}{l} \\text{设总体} X \\sim N(\\mu, \\sigma^{2})，\\text{其中} \\sigma^{2} \\text{已知. 若提出假设：} H_{0}: \\mu = \\mu_{0} \\, (\\mu_{0} \\text{已知}), H_{1}: \\mu \\neq \\mu_{0}, \\text{所用检验统计量为} U = \\frac{\\overline{X} - \\mu_{0}}{\\sigma \\sqrt{n}} \\text{，则拒绝域为（）}. \\end{array}\">\\begin{array}{l} \\text{设总体} X \\sim N(\\mu, \\sigma^{2})，\\text{其中} \\sigma^{2} \\text{已知. 若提出假设：} H_{0}: \\mu = \\mu_{0} \\, (\\mu_{0} \\text{已知}), H_{1}: \\mu \\neq \\mu_{0}, \\text{所用检验统计量为} U = \\frac{\\overline{X} - \\mu_{0}}{\\sigma \\sqrt{n}} \\text{，则拒绝域为（）}. \\end{array}</div>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/probability/ch126/q0015_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"|U| \\geq u_{\\omega / 2}\">|U| \\geq u_{\\omega / 2}</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/probability/ch126/q0015_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\begin{array}{l} { r } { U \\geq u _ { a } } \\end{array}\">\\begin{array}{l} { r } { U \\geq u _ { a } } \\end{array}</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/probability/ch126/q0015_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\begin{array}{l} { r } { U \\leq - u _ { a } } \\end{array}\">\\begin{array}{l} { r } { U \\leq - u _ { a } } \\end{array}</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/probability/ch126/q0015_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\left| U \\right| \\geq u _ { \\alpha }\">\\left| U \\right| \\geq u _ { \\alpha }</span>"
         }
       ],
       "answer": "A",
       "answer_index": 0,
-      "analysis_html": "<img src=\"/static/generated/assets/probability/ch126/q0015_analysis.png\"/>"
+      "analysis_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{aligned}&amp;\\text{正态总体方差已知时均值的检验．若}H_{0}\\text{为真，检验统计量为}U=\\frac{\\overline{X}-\\mu_{0}}{\\sigma\\sqrt{n}}\\sim N(0,1)\\text{．}\\\\&amp;\\text{双侧检验：}H_{0};\\mu=\\mu_{0},\\;H_{1};\\mu\\neq\\mu_{0}\\text{，拒绝域为}|U|&gt;u_{a2}\\text{．}\\\\&amp;\\text{右侧检验：}H_{0};\\mu\\leq\\mu_{0},\\;H_{1};\\mu&gt;\\mu_{0}\\text{，拒绝域为}U&gt;u_{a}\\text{．}\\\\&amp;\\text{左侧检验：}H_{0};\\mu\\geq\\mu_{0},\\;H_{1};\\mu&lt;\\mu_{0}\\text{，拒绝域为}U&lt;-u_{a}\\text{．}\\end{aligned}\">\\begin{aligned}&amp;\\text{正态总体方差已知时均值的检验．若}H_{0}\\text{为真，检验统计量为}U=\\frac{\\overline{X}-\\mu_{0}}{\\sigma\\sqrt{n}}\\sim N(0,1)\\text{．}\\\\&amp;\\text{双侧检验：}H_{0};\\mu=\\mu_{0},\\;H_{1};\\mu\\neq\\mu_{0}\\text{，拒绝域为}|U|&gt;u_{a2}\\text{．}\\\\&amp;\\text{右侧检验：}H_{0};\\mu\\leq\\mu_{0},\\;H_{1};\\mu&gt;\\mu_{0}\\text{，拒绝域为}U&gt;u_{a}\\text{．}\\\\&amp;\\text{左侧检验：}H_{0};\\mu\\geq\\mu_{0},\\;H_{1};\\mu&lt;\\mu_{0}\\text{，拒绝域为}U&lt;-u_{a}\\text{．}\\end{aligned}</div>"
     },
     {
       "id": "q0016",
       "number": 16,
       "header": "#16-Averge",
       "difficulty": "Averge",
-      "prompt_html": "<img src=\"/static/generated/assets/probability/ch126/q0016_prompt.png\"/>",
+      "prompt_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{aligned} \\text{下面列出的是某工厂随机选取的20只部件的装配时间(min):} \\\\9.8,10.4,10.6,9.6,9.7,9.9,10.9,11.1,9.6,10.2, \\\\10.3,9.6,9.9,11.2,10.6,9.8,10.5,10.1,10.5,9.7. \\\\ \\overline{x}=10.2,s\\approx 0.5099. \\text{设装配时间的总体服从正态分布}N(\\mu,\\sigma^{2}), \\mu,\\sigma^{2} \\text{均未知}，\\text{在} \\alpha=0.05 \\text{下}，\\text{检验的装配的平均时间} \\mu \\text{是否超过}10（min），\\text{则下列说法中不正确的是}（）。 \\\\t_{0.05}(19)=1.729,t_{0.05}(20)=1.7247 \\end{aligned}\">\\begin{aligned} \\text{下面列出的是某工厂随机选取的20只部件的装配时间(min):} \\\\9.8,10.4,10.6,9.6,9.7,9.9,10.9,11.1,9.6,10.2, \\\\10.3,9.6,9.9,11.2,10.6,9.8,10.5,10.1,10.5,9.7. \\\\ \\overline{x}=10.2,s\\approx 0.5099. \\text{设装配时间的总体服从正态分布}N(\\mu,\\sigma^{2}), \\mu,\\sigma^{2} \\text{均未知}，\\text{在} \\alpha=0.05 \\text{下}，\\text{检验的装配的平均时间} \\mu \\text{是否超过}10（min），\\text{则下列说法中不正确的是}（）。 \\\\t_{0.05}(19)=1.729,t_{0.05}(20)=1.7247 \\end{aligned}</div>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/probability/ch126/q0016_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{检验假设} \\, H_{0} \\colon \\mu &gt; 10, \\, H_{1} \\colon \\mu \\leq 10\">\\text{检验假设} \\, H_{0} \\colon \\mu &gt; 10, \\, H_{1} \\colon \\mu \\leq 10</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/probability/ch126/q0016_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\begin{aligned} \\text{样本均值和标准差为} \\ \\overline{x} = 10.2, \\, s \\approx 0.5099 \\end{aligned}\">\\begin{aligned} \\text{样本均值和标准差为} \\ \\overline{x} = 10.2, \\, s \\approx 0.5099 \\end{aligned}</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/probability/ch126/q0016_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\begin{aligned} \\text{拒绝域为} \\; W=\\left\\{\\frac{\\overline{X}-\\mu_{0}}{S/\\sqrt{n}}&gt;t_{a}(n-1)\\right\\}\\end{aligned}\">\\begin{aligned} \\text{拒绝域为} \\; W=\\left\\{\\frac{\\overline{X}-\\mu_{0}}{S/\\sqrt{n}}&gt;t_{a}(n-1)\\right\\}\\end{aligned}</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/probability/ch126/q0016_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{可认为装配时间的均值显著地大于} 10\">\\text{可认为装配时间的均值显著地大于} 10</span>"
         }
       ],
       "answer": "A",
       "answer_index": 0,
-      "analysis_html": "<img src=\"/static/generated/assets/probability/ch126/q0016_analysis.png\"/>"
+      "analysis_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{aligned}&amp;\\text{检验假设}H_{0};\\mu\\leqslant\\mu_{0}=10,H_{1};\\mu&gt;10.\\\\&amp;\\text{已知}n=20,\\alpha=0.05,\\text{由数据算得}x=10.2,s\\approx 0.5099.\\text{因}\\sigma^{2}\\text{未知，故用}t\\text{检验法，拒绝域为}\\\\&amp;W=\\left\\{\\frac{\\overline{X}-\\mu_{0}}{S/\\sqrt{n}}&gt;t_{n}(n-1)\\right\\}.\\\\&amp;\\text{计算得}\\frac{\\overline{x}-\\mu_{0}}{s/\\sqrt{n}}=\\frac{10.2-10}{0.5099/\\sqrt{20}}\\approx 1.7541&gt;1.7291,\\text{故拒绝}H_{0},\\text{即可以认为装配时间的均值显著地大于}10.\\end{aligned}\">\\begin{aligned}&amp;\\text{检验假设}H_{0};\\mu\\leqslant\\mu_{0}=10,H_{1};\\mu&gt;10.\\\\&amp;\\text{已知}n=20,\\alpha=0.05,\\text{由数据算得}x=10.2,s\\approx 0.5099.\\text{因}\\sigma^{2}\\text{未知，故用}t\\text{检验法，拒绝域为}\\\\&amp;W=\\left\\{\\frac{\\overline{X}-\\mu_{0}}{S/\\sqrt{n}}&gt;t_{n}(n-1)\\right\\}.\\\\&amp;\\text{计算得}\\frac{\\overline{x}-\\mu_{0}}{s/\\sqrt{n}}=\\frac{10.2-10}{0.5099/\\sqrt{20}}\\approx 1.7541&gt;1.7291,\\text{故拒绝}H_{0},\\text{即可以认为装配时间的均值显著地大于}10.\\end{aligned}</div>"
     },
     {
       "id": "q0017",
       "number": 17,
       "header": "#17-Averge",
       "difficulty": "Averge",
-      "prompt_html": "<img src=\"/static/generated/assets/probability/ch126/q0017_prompt.png\"/>",
+      "prompt_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{aligned} \\text{某车间生产钢丝，用} \\lambda \\text{表示钢丝的折断力，由经验判断} X \\sim N(570,8^2)。 \\text{今换了一批材料，从性能上看，估计折断力的方差} \\sigma^2 \\text{不会有什么变化，却仍有} \\sigma^2 = 8^2 \\text{，但不知折断力的均值} \\mu \\text{和原先有无差别。现抽得一个样本，测得折断力为} 578,572,570,568,572,570,570,572,596,584，x = 575.20。\\text{取} \\alpha = 0.05，\\text{则下列说法不正确的是}()。(u_{0.025} = 1.96, u_{0.05} = 1.645, \\sqrt{10} = 3.162) \\end{aligned}\">\\begin{aligned} \\text{某车间生产钢丝，用} \\lambda \\text{表示钢丝的折断力，由经验判断} X \\sim N(570,8^2)。 \\text{今换了一批材料，从性能上看，估计折断力的方差} \\sigma^2 \\text{不会有什么变化，却仍有} \\sigma^2 = 8^2 \\text{，但不知折断力的均值} \\mu \\text{和原先有无差别。现抽得一个样本，测得折断力为} 578,572,570,568,572,570,570,572,596,584，x = 575.20。\\text{取} \\alpha = 0.05，\\text{则下列说法不正确的是}()。(u_{0.025} = 1.96, u_{0.05} = 1.645, \\sqrt{10} = 3.162) \\end{aligned}</div>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/probability/ch126/q0017_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{可以认为折断力的均值没有发生变化}\">\\text{可以认为折断力的均值没有发生变化}</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/probability/ch126/q0017_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{应检验假设：} \\ H_{0}: \\mu = \\mu_{0} = 570, \\, H_{1}: \\mu \\neq 570\">\\text{应检验假设：} \\ H_{0}: \\mu = \\mu_{0} = 570, \\, H_{1}: \\mu \\neq 570</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/probability/ch126/q0017_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{检验统计量为} \\, U = \\frac { \\overline { X } - 570 } { \\sigma / \\sqrt { n } }\">\\text{检验统计量为} \\, U = \\frac { \\overline { X } - 570 } { \\sigma / \\sqrt { n } }</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/probability/ch126/q0017_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{拒绝域为} \\, | U | \\geq 1 . 96\">\\text{拒绝域为} \\, | U | \\geq 1 . 96</span>"
         }
       ],
       "answer": "A",
       "answer_index": 0,
-      "analysis_html": "<img src=\"/static/generated/assets/probability/ch126/q0017_analysis.png\"/>"
+      "analysis_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{aligned}\\text{(1)}&amp; \\text{建立假设}H_{0};\\mu=\\mu_{0}=570,H_{1};\\mu\\neq 570.\\\\ \\text{(2)}&amp; \\text{选择统计量}U=\\frac{\\bar{X}-\\mu_{0}}{\\sigma\\sqrt{n}}\\sim N(0,1).\\\\ \\text{(3)}&amp; \\text{对于给定的显著性水平}\\alpha,\\text{拒绝域为}|u|&gt;u_{0.025}=1.96.\\\\ \\text{(4)}&amp; \\text{由于}\\bar{x}=\\frac{1}{10}\\sum_{i=1}^{10}x_{i}=575.20,\\ \\sigma^{2}=64,\\text{所以}|u|=\\left|\\frac{\\bar{x}-\\mu_{0}}{\\sigma\\sqrt{n}}\\right|\\approx 2.055&gt;1.96,\\text{故拒绝}H_{0},\\text{即认为折断力的均值发生了变化.}\\end{aligned}\">\\begin{aligned}\\text{(1)}&amp; \\text{建立假设}H_{0};\\mu=\\mu_{0}=570,H_{1};\\mu\\neq 570.\\\\ \\text{(2)}&amp; \\text{选择统计量}U=\\frac{\\bar{X}-\\mu_{0}}{\\sigma\\sqrt{n}}\\sim N(0,1).\\\\ \\text{(3)}&amp; \\text{对于给定的显著性水平}\\alpha,\\text{拒绝域为}|u|&gt;u_{0.025}=1.96.\\\\ \\text{(4)}&amp; \\text{由于}\\bar{x}=\\frac{1}{10}\\sum_{i=1}^{10}x_{i}=575.20,\\ \\sigma^{2}=64,\\text{所以}|u|=\\left|\\frac{\\bar{x}-\\mu_{0}}{\\sigma\\sqrt{n}}\\right|\\approx 2.055&gt;1.96,\\text{故拒绝}H_{0},\\text{即认为折断力的均值发生了变化.}\\end{aligned}</div>"
     },
     {
       "id": "q0018",
       "number": 18,
       "header": "#18-Hard",
       "difficulty": "Hard",
-      "prompt_html": "<img src=\"/static/generated/assets/probability/ch126/q0018_prompt.png\"/>",
+      "prompt_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{aligned} \\text{测定某溶液中的水分，由它的}\\text{9}\\text{个测定值，算出样本均值及样本标准差分别为}  \\bar{x}=0.452\\%,\\;s=0.037\\% \\text{，总体服从正态分布，下面提出的检验假设被接受} (\\;H_{0} \\text{被接受})的是（ ） \\\\ t_{0.625}(8)=2.306, \\chi_{0.05}^{2}(8)=17.535, \\chi_{0.975}^{2}(8)=2.180, \\chi_{0.125}^{2}(8)=11.79, \\chi_{0.875}^{2}(8)=4.280。\\end{aligned}\">\\begin{aligned} \\text{测定某溶液中的水分，由它的}\\text{9}\\text{个测定值，算出样本均值及样本标准差分别为}  \\bar{x}=0.452\\%,\\;s=0.037\\% \\text{，总体服从正态分布，下面提出的检验假设被接受} (\\;H_{0} \\text{被接受})的是（ ） \\\\ t_{0.625}(8)=2.306, \\chi_{0.05}^{2}(8)=17.535, \\chi_{0.975}^{2}(8)=2.180, \\chi_{0.125}^{2}(8)=11.79, \\chi_{0.875}^{2}(8)=4.280。\\end{aligned}</div>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/probability/ch126/q0018_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{在} \\alpha = 0.05 \\text{之下，检验假设} H_{0}: \\sigma = 0.03\\%\">\\text{在} \\alpha = 0.05 \\text{之下，检验假设} H_{0}: \\sigma = 0.03\\%</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/probability/ch126/q0018_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{在} \\alpha = 0.05 \\text{之下，检验假设} H_{0}: \\mu = 0.5\\%\">\\text{在} \\alpha = 0.05 \\text{之下，检验假设} H_{0}: \\mu = 0.5\\%</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/probability/ch126/q0018_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\begin{array}{l} \\text{在}\\alpha=0.25\\text{之下，检验假设}H_{0}:\\mu=0.5\\% \\end{array}\">\\begin{array}{l} \\text{在}\\alpha=0.25\\text{之下，检验假设}H_{0}:\\mu=0.5\\% \\end{array}</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/probability/ch126/q0018_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{在} \\alpha = 0.25 \\text{之下，检验假设} H_{0}: \\sigma = 0.03\\%\">\\text{在} \\alpha = 0.25 \\text{之下，检验假设} H_{0}: \\sigma = 0.03\\%</span>"
         }
       ],
       "answer": "A",
       "answer_index": 0,
-      "analysis_html": "<img src=\"/static/generated/assets/probability/ch126/q0018_analysis.png\"/>"
+      "analysis_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{aligned}&amp;\\text{对于正态总体均值检验(方差}\\sigma^2\\text{未知)},\\text{检验假设}H_0:\\mu=\\mu_0,\\,H_1:\\mu\\neq\\mu_0,\\,\\text{所用检验统计量为}T=\\frac{\\overline{X}-\\mu_0}{S\\sqrt{n}}\\sim t(n-1),\\,\\text{拒绝域为}\\,|T|\\geq t_{a2}(n-1).\\\\&amp;\\text{把}n=9,\\mu_0=0.5\\%,\\overline{x}=0.452\\%,\\,s=0.037\\% \\text{代入，得}t\\approx-3.892&lt;t_{-0.025}(8)=-2.306&lt;t_{-0.125}(8)\\,。\\text{所以不论是在}\\alpha=0.05\\text{还是在}\\alpha=0.25\\text{下}，\\text{都拒绝}H_0:\\mu=0.5\\%.\\\\&amp;\\text{对于正态总体方差检验假设}\\text{(}\\text{均值} \\mu \\text{未知}\\text{)}\\text{，检验假设}H_0:\\sigma^2=\\sigma_0^2,\\,H_1:\\sigma^2\\neq\\sigma_0^2,\\,\\text{所用检验统计量为}\\chi^2=\\frac{n-1}{\\sigma_0^2}S^2\\sim\\chi^2(n-1),\\,\\text{拒绝域为}\\\\&amp;\\quad\\chi^2=\\frac{n-1}{\\sigma_0^2}S^2\\leq\\chi_{1-.a2}^2(n-1)\\,\\text{或}\\,\\,\\,\\chi^2=\\frac{n-1}{\\sigma_0^2}S^2\\geq\\chi_{a2}^2(n-1)\\,。\\,\\\\&amp;\\text{把}n=9,\\,\\sigma_0=0.03\\%,\\,s=0.037\\% \\text{代入，得}\\,\\chi_{0.975}^2(8)=2.180&lt;\\chi^2\\approx 12.1689&lt;\\chi_{0.025}^2(8)=17.535\\,，\\,\\,\\text{而}\\,\\chi^2\\approx 12.1689&gt;\\chi_{0.125}^2(8)\\approx 11.79\\,，\\\\&amp;\\text{所以在}\\,\\alpha=0.05\\text{下接受假设}H_0:\\sigma=0.03\\%,\\,\\,\\text{但在}\\,\\alpha=0.25\\text{下拒绝假设}H_0:\\sigma=0.03\\%.\\end{aligned}\">\\begin{aligned}&amp;\\text{对于正态总体均值检验(方差}\\sigma^2\\text{未知)},\\text{检验假设}H_0:\\mu=\\mu_0,\\,H_1:\\mu\\neq\\mu_0,\\,\\text{所用检验统计量为}T=\\frac{\\overline{X}-\\mu_0}{S\\sqrt{n}}\\sim t(n-1),\\,\\text{拒绝域为}\\,|T|\\geq t_{a2}(n-1).\\\\&amp;\\text{把}n=9,\\mu_0=0.5\\%,\\overline{x}=0.452\\%,\\,s=0.037\\% \\text{代入，得}t\\approx-3.892&lt;t_{-0.025}(8)=-2.306&lt;t_{-0.125}(8)\\,。\\text{所以不论是在}\\alpha=0.05\\text{还是在}\\alpha=0.25\\text{下}，\\text{都拒绝}H_0:\\mu=0.5\\%.\\\\&amp;\\text{对于正态总体方差检验假设}\\text{(}\\text{均值} \\mu \\text{未知}\\text{)}\\text{，检验假设}H_0:\\sigma^2=\\sigma_0^2,\\,H_1:\\sigma^2\\neq\\sigma_0^2,\\,\\text{所用检验统计量为}\\chi^2=\\frac{n-1}{\\sigma_0^2}S^2\\sim\\chi^2(n-1),\\,\\text{拒绝域为}\\\\&amp;\\quad\\chi^2=\\frac{n-1}{\\sigma_0^2}S^2\\leq\\chi_{1-.a2}^2(n-1)\\,\\text{或}\\,\\,\\,\\chi^2=\\frac{n-1}{\\sigma_0^2}S^2\\geq\\chi_{a2}^2(n-1)\\,。\\,\\\\&amp;\\text{把}n=9,\\,\\sigma_0=0.03\\%,\\,s=0.037\\% \\text{代入，得}\\,\\chi_{0.975}^2(8)=2.180&lt;\\chi^2\\approx 12.1689&lt;\\chi_{0.025}^2(8)=17.535\\,，\\,\\,\\text{而}\\,\\chi^2\\approx 12.1689&gt;\\chi_{0.125}^2(8)\\approx 11.79\\,，\\\\&amp;\\text{所以在}\\,\\alpha=0.05\\text{下接受假设}H_0:\\sigma=0.03\\%,\\,\\,\\text{但在}\\,\\alpha=0.25\\text{下拒绝假设}H_0:\\sigma=0.03\\%.\\end{aligned}</div>"
     },
     {
       "id": "q0019",
       "number": 19,
       "header": "#19-Easy",
       "difficulty": "Easy",
-      "prompt_html": "<img src=\"/static/generated/assets/probability/ch126/q0019_prompt.png\"/>",
+      "prompt_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{aligned}\\text{设}X_{1},X_{2},\\cdots,X_{n} \\text{是来自正态总体}N(\\mu,\\sigma^{2})\\text{的样本，其中参数}\\mu,\\sigma^{2}\\text{未知，若计算出}\\overline{x}=\\frac{1}{16}\\sum_{i=1}^{16}x_{i}=14.75,\\\\ \\sum_{i=1}^{16}\\left(x_{i}-\\overline{x}\\right)^{2}=53.5,\\text{则检验假设：}H_{0}:\\mu=15\\text{的}i\\text{-检验统计量的观测值为}().\\end{aligned}\">\\begin{aligned}\\text{设}X_{1},X_{2},\\cdots,X_{n} \\text{是来自正态总体}N(\\mu,\\sigma^{2})\\text{的样本，其中参数}\\mu,\\sigma^{2}\\text{未知，若计算出}\\overline{x}=\\frac{1}{16}\\sum_{i=1}^{16}x_{i}=14.75,\\\\ \\sum_{i=1}^{16}\\left(x_{i}-\\overline{x}\\right)^{2}=53.5,\\text{则检验假设：}H_{0}:\\mu=15\\text{的}i\\text{-检验统计量的观测值为}().\\end{aligned}</div>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/probability/ch126/q0019_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"- 0.53\">- 0.53</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/probability/ch126/q0019_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"0.50\">0.50</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/probability/ch126/q0019_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"- 0.50\">- 0.50</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/probability/ch126/q0019_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"0.53\">0.53</span>"
         }
       ],
       "answer": "A",
       "answer_index": 0,
-      "analysis_html": "<img src=\"/static/generated/assets/probability/ch126/q0019_analysis.png\"/>"
+      "analysis_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{aligned}&amp;(1) \\text{检验假设为}H_{0}: \\mu=\\mu_{0},\\ H_{1}: \\mu\\neq \\mu_{0}.\\\\&amp;(2) \\text{当}H_{0}^{\\prime}\\text{为真时，有}T=\\frac{\\overline{X}-\\mu_{0}}{S\\sqrt{n}}\\sim t(n-1), \\text{记}T\\text{的样本计算值}t, \\text{则拒绝域为} |t|&gt;t_{\\alpha/2}(n-1), \\text{其中}t_{\\alpha/2} \\text{为}t\\text{分布的}\\alpha/2 \\text{分位数},\\ S^{2}=\\frac{1}{n-1}\\sum_{i=1}^{n} \\left(X_{i}-\\overline{X}\\right)^{2}.\\\\&amp;\\text{本题中,}T=\\frac{\\overline{x}-\\mu_{0}}{S\\sqrt{n}}=\\frac{14.75-15}{\\sqrt{53.5/15}}\\sqrt{16}=-0.53\\end{aligned}\">\\begin{aligned}&amp;(1) \\text{检验假设为}H_{0}: \\mu=\\mu_{0},\\ H_{1}: \\mu\\neq \\mu_{0}.\\\\&amp;(2) \\text{当}H_{0}^{\\prime}\\text{为真时，有}T=\\frac{\\overline{X}-\\mu_{0}}{S\\sqrt{n}}\\sim t(n-1), \\text{记}T\\text{的样本计算值}t, \\text{则拒绝域为} |t|&gt;t_{\\alpha/2}(n-1), \\text{其中}t_{\\alpha/2} \\text{为}t\\text{分布的}\\alpha/2 \\text{分位数},\\ S^{2}=\\frac{1}{n-1}\\sum_{i=1}^{n} \\left(X_{i}-\\overline{X}\\right)^{2}.\\\\&amp;\\text{本题中,}T=\\frac{\\overline{x}-\\mu_{0}}{S\\sqrt{n}}=\\frac{14.75-15}{\\sqrt{53.5/15}}\\sqrt{16}=-0.53\\end{aligned}</div>"
     },
     {
       "id": "q0020",
       "number": 20,
       "header": "#20-Averge",
       "difficulty": "Averge",
-      "prompt_html": "<img src=\"/static/generated/assets/probability/ch126/q0020_prompt.png\"/>",
+      "prompt_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{array}{l} \\text {某地根据早稻长势估计平均亩产为} 310 \\text {kg，收割时，随机抽取了} 10 \\text {块，测得每块实际亩产量为} x_{1},x_{2},\\cdots,x_{10}, \\text {并算得} \\bar{x}=\\frac{1}{10}\\sum_{i=1}^{10}x_{i}=320。\\text{如果已知早稻亩产量} \\lambda \\text{服从正态分布} N(\\mu,144)，\\text{那么在} \\alpha=0.05 \\text{下}，\\text{检验亩产是否有明显变化}，\\text{则下列说法不正确的是}（）。 (u_{0.05}=1.645,u_{0.025}=1.960) \\end{array}\">\\begin{array}{l} \\text {某地根据早稻长势估计平均亩产为} 310 \\text {kg，收割时，随机抽取了} 10 \\text {块，测得每块实际亩产量为} x_{1},x_{2},\\cdots,x_{10}, \\text {并算得} \\bar{x}=\\frac{1}{10}\\sum_{i=1}^{10}x_{i}=320。\\text{如果已知早稻亩产量} \\lambda \\text{服从正态分布} N(\\mu,144)，\\text{那么在} \\alpha=0.05 \\text{下}，\\text{检验亩产是否有明显变化}，\\text{则下列说法不正确的是}（）。 (u_{0.05}=1.645,u_{0.025}=1.960) \\end{array}</div>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/probability/ch126/q0020_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{检验统计量为} U = \\frac { \\overline { X } - 310 } { 1 . 2 }\">\\text{检验统计量为} U = \\frac { \\overline { X } - 310 } { 1 . 2 }</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/probability/ch126/q0020_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{应检验假设：} \\ H_{0} \\colon \\mu = 310, \\quad H_{1} \\colon \\mu \\neq 310\">\\text{应检验假设：} \\ H_{0} \\colon \\mu = 310, \\quad H_{1} \\colon \\mu \\neq 310</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/probability/ch126/q0020_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{拒绝域为} \\, ( - \\infty , - 1 . 96 ] \\cup [ 1 . 96 , + \\infty )\">\\text{拒绝域为} \\, ( - \\infty , - 1 . 96 ] \\cup [ 1 . 96 , + \\infty )</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/probability/ch126/q0020_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{在} \\alpha = 0 . 05 \\text{下，可以认为估产} 310 \\mathrm {kg 不正确}\">\\text{在} \\alpha = 0 . 05 \\text{下，可以认为估产} 310 \\mathrm {kg 不正确}</span>"
         }
       ],
       "answer": "A",
       "answer_index": 0,
-      "analysis_html": "<img src=\"/static/generated/assets/probability/ch126/q0020_analysis.png\"/>"
+      "analysis_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{aligned}&amp;\\text{应提出假设：}H_{0}:\\mu=310,\\,H_{1}:\\mu\\not\\sim 310.\\\\&amp;\\text{当}H_{0}\\text{为真时，取检验统计量}U=\\frac{\\overline{X}-310}{12\\sqrt{10}}\\sim\\mathcal{N}(0,1),\\text{从而有}P\\{ |U|&gt;1.96\\}=0.05,\\text{拒绝域为}\\\\&amp;(-\\infty,-1.96]\\cup[1.96,+\\infty).\\\\&amp;\\text{计算}U_{0}=\\frac{|320-310|}{12\\sqrt{n}}\\approx 2.635&gt;1.96,\\text{因此拒绝}H_{0},\\text{即在}\\alpha=0.05\\text{下可以认为平均亩产为}310kg\\text{不正确}.\\end{aligned}\">\\begin{aligned}&amp;\\text{应提出假设：}H_{0}:\\mu=310,\\,H_{1}:\\mu\\not\\sim 310.\\\\&amp;\\text{当}H_{0}\\text{为真时，取检验统计量}U=\\frac{\\overline{X}-310}{12\\sqrt{10}}\\sim\\mathcal{N}(0,1),\\text{从而有}P\\{ |U|&gt;1.96\\}=0.05,\\text{拒绝域为}\\\\&amp;(-\\infty,-1.96]\\cup[1.96,+\\infty).\\\\&amp;\\text{计算}U_{0}=\\frac{|320-310|}{12\\sqrt{n}}\\approx 2.635&gt;1.96,\\text{因此拒绝}H_{0},\\text{即在}\\alpha=0.05\\text{下可以认为平均亩产为}310kg\\text{不正确}.\\end{aligned}</div>"
     },
     {
       "id": "q0021",
       "number": 21,
       "header": "#21-Averge",
       "difficulty": "Averge",
-      "prompt_html": "<img src=\"/static/generated/assets/probability/ch126/q0021_prompt.png\"/>",
+      "prompt_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{array}{l} \\text {机器包装食盐,假设每袋盐的净重服从正态分布,规定每袋标准含量为500g,标准差不得超过10g.} \\\\ \\text {某天开工后,随机抽取9袋,测得净重如下(单位:g):}497,507,510,475,515,484,488,524,491, \\\\ \\text {若每袋标准含量不变,在显著性水平} \\alpha=0.05 \\text {下检验标准差是否超过10g,下列说法中不正确的是()}. \\\\ (s=16.031,\\sum_{i=1}^{9}(\\frac{x_{i}-500}{10})^{2}=20.65,\\chi_{0.05}^{2}(9)=16.919,\\chi_{0.05}^{2}(8)=15.507,t_{0.05}(8)=2.306) \\end{array}\">\\begin{array}{l} \\text {机器包装食盐,假设每袋盐的净重服从正态分布,规定每袋标准含量为500g,标准差不得超过10g.} \\\\ \\text {某天开工后,随机抽取9袋,测得净重如下(单位:g):}497,507,510,475,515,484,488,524,491, \\\\ \\text {若每袋标准含量不变,在显著性水平} \\alpha=0.05 \\text {下检验标准差是否超过10g,下列说法中不正确的是()}. \\\\ (s=16.031,\\sum_{i=1}^{9}(\\frac{x_{i}-500}{10})^{2}=20.65,\\chi_{0.05}^{2}(9)=16.919,\\chi_{0.05}^{2}(8)=15.507,t_{0.05}(8)=2.306) \\end{array}</div>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/probability/ch126/q0021_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{应检验假设} \\, H_{0} \\colon \\sigma \\leq 10, H_{1} \\colon \\sigma &gt; 10\">\\text{应检验假设} \\, H_{0} \\colon \\sigma \\leq 10, H_{1} \\colon \\sigma &gt; 10</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/probability/ch126/q0021_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{检验统计量为} \\chi ^ { 2 } = \\frac { ( n - 1 ) S ^ { 2 } } { \\sigma _ { 0 } ^ { 2 } }\">\\text{检验统计量为} \\chi ^ { 2 } = \\frac { ( n - 1 ) S ^ { 2 } } { \\sigma _ { 0 } ^ { 2 } }</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/probability/ch126/q0021_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\overline { x } = 499 , \\, s \\approx 16 . 031\">\\overline { x } = 499 , \\, s \\approx 16 . 031</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/probability/ch126/q0021_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{在} \\alpha = 0 . 05 \\text{下,可以认为该天每袋盐的标准差超过} 10 \\mathrm{g} .\">\\text{在} \\alpha = 0 . 05 \\text{下,可以认为该天每袋盐的标准差超过} 10 \\mathrm{g} .</span>"
         }
       ],
       "answer": "A",
       "answer_index": 0,
-      "analysis_html": "<img src=\"/static/generated/assets/probability/ch126/q0021_analysis.png\"/>"
+      "analysis_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{aligned}&amp;\\text{应假设检验：}H_{0}:\\sigma\\leq 10,\\;H_{1}:\\sigma&gt;10.\\\\&amp;\\text{检验统计量为}\\chi^{2}=\\sum_{i=1}^{9}\\left(\\frac{X_{i}-500}{10}\\right)^{2}\\sim\\chi^{2}(9).\\\\&amp;\\text{拒绝域为}\\chi^{2}\\geq\\chi_{a}^{2}(9),\\;\\chi^{2}=\\sum_{i=1}^{9}\\left(\\frac{x_{i}-500}{10}\\right)^{2}=20.65&gt;\\chi_{0.05}^{2}(9)=16.919.\\\\&amp;\\text{故拒绝}H_{0},\\text{即认为该天每袋盐的标准差超过}10g.\\end{aligned}\">\\begin{aligned}&amp;\\text{应假设检验：}H_{0}:\\sigma\\leq 10,\\;H_{1}:\\sigma&gt;10.\\\\&amp;\\text{检验统计量为}\\chi^{2}=\\sum_{i=1}^{9}\\left(\\frac{X_{i}-500}{10}\\right)^{2}\\sim\\chi^{2}(9).\\\\&amp;\\text{拒绝域为}\\chi^{2}\\geq\\chi_{a}^{2}(9),\\;\\chi^{2}=\\sum_{i=1}^{9}\\left(\\frac{x_{i}-500}{10}\\right)^{2}=20.65&gt;\\chi_{0.05}^{2}(9)=16.919.\\\\&amp;\\text{故拒绝}H_{0},\\text{即认为该天每袋盐的标准差超过}10g.\\end{aligned}</div>"
     },
     {
       "id": "q0022",
       "number": 22,
       "header": "#22-Averge",
       "difficulty": "Averge",
-      "prompt_html": "<img src=\"/static/generated/assets/probability/ch126/q0022_prompt.png\"/>",
+      "prompt_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{aligned} \\text{某装置的平均工作温度据制造厂家称不高于}190^{\\circ}\\text{C。今从一个由16台装置构成的随机样本测得工作温度的平均值和标准差分别为}195^{\\circ}\\text{C 和}8^{\\circ}\\text{C。设 }\\alpha=0.05,\\text{ 并假设工作温度近似服从正态分布，则下列说法中不正确的是（）} \\\\ (t_{0.05}(16)=1.7459, t_{0.05}(15)=1.7531) \\end{aligned}\">\\begin{aligned} \\text{某装置的平均工作温度据制造厂家称不高于}190^{\\circ}\\text{C。今从一个由16台装置构成的随机样本测得工作温度的平均值和标准差分别为}195^{\\circ}\\text{C 和}8^{\\circ}\\text{C。设 }\\alpha=0.05,\\text{ 并假设工作温度近似服从正态分布，则下列说法中不正确的是（）} \\\\ (t_{0.05}(16)=1.7459, t_{0.05}(15)=1.7531) \\end{aligned}</div>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/probability/ch126/q0022_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{检验假设} \\, H_0: \\mu = 190, \\ \\ H_1: \\mu \\neq 190\">\\text{检验假设} \\, H_0: \\mu = 190, \\ \\ H_1: \\mu \\neq 190</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/probability/ch126/q0022_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{检验统计量为} \\, T = \\frac{ \\overline{X} - \\mu _{0} }{ S / \\sqrt { n } } \\sim t ( n - 1 )\">\\text{检验统计量为} \\, T = \\frac{ \\overline{X} - \\mu _{0} }{ S / \\sqrt { n } } \\sim t ( n - 1 )</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/probability/ch126/q0022_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{拒绝域为} \\, [ 1 . 7531 , + \\infty )\">\\text{拒绝域为} \\, [ 1 . 7531 , + \\infty )</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/probability/ch126/q0022_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\begin{array}{l} \\text {在} \\alpha = 0. 05 , \\text {可以认为平均工作温度比制造厂} \\\\ \\text {所说的要高} \\end{array}\">\\begin{array}{l} \\text {在} \\alpha = 0. 05 , \\text {可以认为平均工作温度比制造厂} \\\\ \\text {所说的要高} \\end{array}</span>"
         }
       ],
       "answer": "A",
       "answer_index": 0,
-      "analysis_html": "<img src=\"/static/generated/assets/probability/ch126/q0022_analysis.png\"/>"
+      "analysis_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{array}{l} \\text {设} X \\text {为工作温度，则} X \\sim N(\\mu, \\sigma^{2}). \\\\ \\textcircled{1} \\text {待检假设} H_{0}: \\mu \\leq 190, \\text {备择假设} H_{1}: \\mu &gt; 190; \\\\ \\textcircled{2} \\text {在} H_{0} \\text {成立条件下，选择统计量} T = \\frac{\\overline{X} - \\mu_{0}}{S\\sqrt{n}} \\approx t(n-1); \\\\ \\textcircled{3} \\text {在显著性水平} 0.05 \\text {下，查} t \\text {分布表，找出临界值} t_{0.05}(15) = 1.7531, \\text {拒绝域为} [1.7531, +\\infty); \\\\ \\textcircled{4} \\text {计算} t = \\frac{\\overline{X} - \\mu_{0}}{S\\sqrt{n}} = \\frac{195 - 190}{8\\sqrt{16}} = 2.5 &gt; 1.75。\\text{所以否定原假设} H_{0}。\\text{说明平均工作温度比制造厂所说的要高}。 \\end{array}\">\\begin{array}{l} \\text {设} X \\text {为工作温度，则} X \\sim N(\\mu, \\sigma^{2}). \\\\ \\textcircled{1} \\text {待检假设} H_{0}: \\mu \\leq 190, \\text {备择假设} H_{1}: \\mu &gt; 190; \\\\ \\textcircled{2} \\text {在} H_{0} \\text {成立条件下，选择统计量} T = \\frac{\\overline{X} - \\mu_{0}}{S\\sqrt{n}} \\approx t(n-1); \\\\ \\textcircled{3} \\text {在显著性水平} 0.05 \\text {下，查} t \\text {分布表，找出临界值} t_{0.05}(15) = 1.7531, \\text {拒绝域为} [1.7531, +\\infty); \\\\ \\textcircled{4} \\text {计算} t = \\frac{\\overline{X} - \\mu_{0}}{S\\sqrt{n}} = \\frac{195 - 190}{8\\sqrt{16}} = 2.5 &gt; 1.75。\\text{所以否定原假设} H_{0}。\\text{说明平均工作温度比制造厂所说的要高}。 \\end{array}</div>"
     },
     {
       "id": "q0023",
       "number": 23,
       "header": "#23-Hard",
       "difficulty": "Hard",
-      "prompt_html": "<img src=\"/static/generated/assets/probability/ch126/q0023_prompt.png\"/>",
+      "prompt_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{aligned}\\text{设某大学的男生体重}X\\sim N(\\mu,5^2),\\ \\mu\\text{未知，今欲检验假设：}H_0:\\mu=68\\mathrm{kg},H_1:\\mu&gt;68\\mathrm{kg}.\\ \\text{已知}\\sigma=5,\\text{取显著性水平}\\alpha=0.05,\\text{若当真正均值为}69\\mathrm{kg}\\text{且犯第二类错误的概率不超过}\\beta=0.05\\text{时，所需样本容量为}n=().\\end{aligned}\">\\begin{aligned}\\text{设某大学的男生体重}X\\sim N(\\mu,5^2),\\ \\mu\\text{未知，今欲检验假设：}H_0:\\mu=68\\mathrm{kg},H_1:\\mu&gt;68\\mathrm{kg}.\\ \\text{已知}\\sigma=5,\\text{取显著性水平}\\alpha=0.05,\\text{若当真正均值为}69\\mathrm{kg}\\text{且犯第二类错误的概率不超过}\\beta=0.05\\text{时，所需样本容量为}n=().\\end{aligned}</div>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/probability/ch126/q0023_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"271\">271</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/probability/ch126/q0023_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"221\">221</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/probability/ch126/q0023_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"217\">217</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/probability/ch126/q0023_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"212\">212</span>"
         }
       ],
       "answer": "A",
       "answer_index": 0,
-      "analysis_html": "<img src=\"/static/generated/assets/probability/ch126/q0023_analysis.png\"/>"
+      "analysis_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{aligned}&amp;\\text{由第一类、第二类错误及分位数的定义，易于证明：对于某个给定的}  \\delta&gt;0 (|\\mu-\\mu_0|\\geq \\delta) \\text{，样本容量}\\text{ n}\\text{应满足：} \\\\&amp;n\\geq \\frac{(u_n+u_\\beta)^2\\sigma^2}{\\delta^2}.\\\\&amp;\\text{因为}  \\alpha=\\beta=0.05 \\text{，故}  u_n=u_\\beta=1.645 \\text{，对其对立假设}  \\mu=69 \\text{而言，取}  \\delta=1 \\text{，则} \\\\&amp;n=\\frac{(u_n+u_\\beta)^2\\sigma^2}{\\delta^2}=\\frac{(1.645+1.645)^2\\times 25}{1}\\approx 270.6,\\text{故取}n=271.\\end{aligned}\">\\begin{aligned}&amp;\\text{由第一类、第二类错误及分位数的定义，易于证明：对于某个给定的}  \\delta&gt;0 (|\\mu-\\mu_0|\\geq \\delta) \\text{，样本容量}\\text{ n}\\text{应满足：} \\\\&amp;n\\geq \\frac{(u_n+u_\\beta)^2\\sigma^2}{\\delta^2}.\\\\&amp;\\text{因为}  \\alpha=\\beta=0.05 \\text{，故}  u_n=u_\\beta=1.645 \\text{，对其对立假设}  \\mu=69 \\text{而言，取}  \\delta=1 \\text{，则} \\\\&amp;n=\\frac{(u_n+u_\\beta)^2\\sigma^2}{\\delta^2}=\\frac{(1.645+1.645)^2\\times 25}{1}\\approx 270.6,\\text{故取}n=271.\\end{aligned}</div>"
     },
     {
       "id": "q0024",
       "number": 24,
       "header": "#24-Averge",
       "difficulty": "Averge",
-      "prompt_html": "<img src=\"/static/generated/assets/probability/ch126/q0024_prompt.png\"/>",
+      "prompt_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{aligned} \\text{某天开工时，需检验自动包装工作是否正常.根据以往经验，其装包的质量(单位：g)在正常情况下服从正态分布} \\\\ N(100,1.5^2).\\text{现抽测了}9\\text{包，测得质量为}99.3,98.7,100.5,101.2,98.3,99.7,99.5,102.0,100.5,\\overline{x}=99.97. \\\\ \\text{.设}\\alpha=0.05,\\text{则下列说法不正确的是( ).}(u_{0.025}=1.96,u_{0.05}=1.645)\\end{aligned}\">\\begin{aligned} \\text{某天开工时，需检验自动包装工作是否正常.根据以往经验，其装包的质量(单位：g)在正常情况下服从正态分布} \\\\ N(100,1.5^2).\\text{现抽测了}9\\text{包，测得质量为}99.3,98.7,100.5,101.2,98.3,99.7,99.5,102.0,100.5,\\overline{x}=99.97. \\\\ \\text{.设}\\alpha=0.05,\\text{则下列说法不正确的是( ).}(u_{0.025}=1.96,u_{0.05}=1.645)\\end{aligned}</div>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/probability/ch126/q0024_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{可以认为包装机工作不正常}\">\\text{可以认为包装机工作不正常}</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/probability/ch126/q0024_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\begin{aligned}\\text{应检验假设：} \\ H_{0}\\colon \\mu=100, \\quad H_{1}\\colon \\mu\\neq 100\\end{aligned}\">\\begin{aligned}\\text{应检验假设：} \\ H_{0}\\colon \\mu=100, \\quad H_{1}\\colon \\mu\\neq 100\\end{aligned}</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/probability/ch126/q0024_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{拒绝域为} \\, | U | &gt; 1 . 96\">\\text{拒绝域为} \\, | U | &gt; 1 . 96</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/probability/ch126/q0024_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{检验统计量为} \\, U = \\frac { \\overline { X } - 100 } { 1 . 5 / \\sqrt { 9 } }\">\\text{检验统计量为} \\, U = \\frac { \\overline { X } - 100 } { 1 . 5 / \\sqrt { 9 } }</span>"
         }
       ],
       "answer": "A",
       "answer_index": 0,
-      "analysis_html": "<img src=\"/static/generated/assets/probability/ch126/q0024_analysis.png\"/>"
+      "analysis_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{aligned}&amp;(1) \\text{提出假设检验问题} H_{0}: \\mu=100,\\quad H_{1}: \\mu\\neq 100; \\\\&amp; (2) \\text{选取检验统计量} U=\\frac{x-100}{1.5}\\sqrt{9}\\sim N(0,1) \\\\&amp; (3) \\alpha=0.05, u_{\\alpha 2}=1.96,\\quad \\text{拒绝域} W=\\{ |U|&gt;1.96\\}; \\\\&amp; (4) \\bar{x}\\approx 99.97, |u| \\approx 0.06.\\text{ 因 }|u|&lt;u_{\\alpha 2}=1.96,\\text{ 故接受 }H_{0},\\text{ 认为包装机工作正常.}\\end{aligned}\">\\begin{aligned}&amp;(1) \\text{提出假设检验问题} H_{0}: \\mu=100,\\quad H_{1}: \\mu\\neq 100; \\\\&amp; (2) \\text{选取检验统计量} U=\\frac{x-100}{1.5}\\sqrt{9}\\sim N(0,1) \\\\&amp; (3) \\alpha=0.05, u_{\\alpha 2}=1.96,\\quad \\text{拒绝域} W=\\{ |U|&gt;1.96\\}; \\\\&amp; (4) \\bar{x}\\approx 99.97, |u| \\approx 0.06.\\text{ 因 }|u|&lt;u_{\\alpha 2}=1.96,\\text{ 故接受 }H_{0},\\text{ 认为包装机工作正常.}\\end{aligned}</div>"
     },
     {
       "id": "q0025",
       "number": 25,
       "header": "#25-Easy",
       "difficulty": "Easy",
-      "prompt_html": "<img src=\"/static/generated/assets/probability/ch126/q0025_prompt.png\"/>",
+      "prompt_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{aligned}\\text{设总体}X\\sim N(\\mu,\\sigma^{2})，\\text{其中}\\sigma^{2}\\text{已知}.\\text{若对}\\mu\\text{作单边检验}，\\text{提出假设}：H_{0}:\\mu\\leqslant \\mu_{0}(\\mu_{0}\\text{已知})，H_{1}:\\mu&gt;\\mu_{0}，\\text{所用检验统计量为}U=\\frac{\\overline{X}-\\mu_{0}}{\\sigma\\sqrt{n}}，\\text{则拒绝域为}（）. \\end{aligned}\">\\begin{aligned}\\text{设总体}X\\sim N(\\mu,\\sigma^{2})，\\text{其中}\\sigma^{2}\\text{已知}.\\text{若对}\\mu\\text{作单边检验}，\\text{提出假设}：H_{0}:\\mu\\leqslant \\mu_{0}(\\mu_{0}\\text{已知})，H_{1}:\\mu&gt;\\mu_{0}，\\text{所用检验统计量为}U=\\frac{\\overline{X}-\\mu_{0}}{\\sigma\\sqrt{n}}，\\text{则拒绝域为}（）. \\end{aligned}</div>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/probability/ch126/q0025_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\begin{array}{l} { r } { U \\geq u _ { a } } \\end{array}\">\\begin{array}{l} { r } { U \\geq u _ { a } } \\end{array}</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/probability/ch126/q0025_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\left| U \\right| \\geq u _ { \\omega / 2 }\">\\left| U \\right| \\geq u _ { \\omega / 2 }</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/probability/ch126/q0025_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\begin{aligned}U \\leq -u_{a}\\end{aligned}\">\\begin{aligned}U \\leq -u_{a}\\end{aligned}</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/probability/ch126/q0025_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\left| U \\right| \\geq u _ { \\alpha }\">\\left| U \\right| \\geq u _ { \\alpha }</span>"
         }
       ],
       "answer": "A",
       "answer_index": 0,
-      "analysis_html": "<img src=\"/static/generated/assets/probability/ch126/q0025_analysis.png\"/>"
+      "analysis_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{aligned}&amp;\\text{单正态总体方差已知时均值的检验过程如下：}\\\\&amp;(1)\\text{检验假设为}H_{0}: \\mu=\\mu_{0};\\ H_{1}: \\mu\\neq \\mu_{0}.\\\\&amp;(2)\\text{当}H_{0}\\text{为真时}，\\text{有}U=\\frac{\\overline{X}-\\mu_{0}}{\\sigma\\sqrt{n}}\\sim N(0,1),\\text{记}U\\text{的样本计算值}u，\\text{则拒绝域为}|u|&gt;u_{\\alpha2},\\text{其中}u_{\\alpha2}\\text{为标准正态分布的}\\alpha/2\\text{分位数}. \\\\&amp;\\text{另外}：\\\\&amp;\\text{右侧检验：}H_{0}: \\mu\\leq \\mu_{0};\\ H_{1}: \\mu&gt;\\mu_{0}. \\text{此时拒绝域为}u&gt;u_{\\alpha}.\\\\&amp;\\text{左侧检验：}H_{0}: \\mu\\geq \\mu_{0};\\ H_{1}: \\mu&lt;\\mu_{0}. \\text{此时拒绝域为}u&lt;-u_{\\alpha}.\\end{aligned}\">\\begin{aligned}&amp;\\text{单正态总体方差已知时均值的检验过程如下：}\\\\&amp;(1)\\text{检验假设为}H_{0}: \\mu=\\mu_{0};\\ H_{1}: \\mu\\neq \\mu_{0}.\\\\&amp;(2)\\text{当}H_{0}\\text{为真时}，\\text{有}U=\\frac{\\overline{X}-\\mu_{0}}{\\sigma\\sqrt{n}}\\sim N(0,1),\\text{记}U\\text{的样本计算值}u，\\text{则拒绝域为}|u|&gt;u_{\\alpha2},\\text{其中}u_{\\alpha2}\\text{为标准正态分布的}\\alpha/2\\text{分位数}. \\\\&amp;\\text{另外}：\\\\&amp;\\text{右侧检验：}H_{0}: \\mu\\leq \\mu_{0};\\ H_{1}: \\mu&gt;\\mu_{0}. \\text{此时拒绝域为}u&gt;u_{\\alpha}.\\\\&amp;\\text{左侧检验：}H_{0}: \\mu\\geq \\mu_{0};\\ H_{1}: \\mu&lt;\\mu_{0}. \\text{此时拒绝域为}u&lt;-u_{\\alpha}.\\end{aligned}</div>"
     },
     {
       "id": "q0026",
       "number": 26,
       "header": "#26-Averge",
       "difficulty": "Averge",
-      "prompt_html": "<img src=\"/static/generated/assets/probability/ch126/q0026_prompt.png\"/>",
+      "prompt_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{aligned} \\text{已知某炼铁厂铁水含碳量服从正态分布} N(4.55,0.108^2)。\\text{现在测定了}9\\text{炉铁水}，\\text{其平均含碳量为}4.484。\\text{如果方差没有变化}，\\text{那么在} \\alpha=0.05\\text{下}，\\text{检验总体均值是否有明显变化}，\\text{则下列说法不正确的是}() \\\\ (u_{0.025}=1.960, u_{0.05}=1.645) \\end{aligned}\">\\begin{aligned} \\text{已知某炼铁厂铁水含碳量服从正态分布} N(4.55,0.108^2)。\\text{现在测定了}9\\text{炉铁水}，\\text{其平均含碳量为}4.484。\\text{如果方差没有变化}，\\text{那么在} \\alpha=0.05\\text{下}，\\text{检验总体均值是否有明显变化}，\\text{则下列说法不正确的是}() \\\\ (u_{0.025}=1.960, u_{0.05}=1.645) \\end{aligned}</div>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/probability/ch126/q0026_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{拒绝域为} \\left| U \\right| = \\left| \\frac{\\overline{X} - 4.55}{0.108 / \\sqrt{9}} \\right| \\geq u_{\\alpha}\">\\text{拒绝域为} \\left| U \\right| = \\left| \\frac{\\overline{X} - 4.55}{0.108 / \\sqrt{9}} \\right| \\geq u_{\\alpha}</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/probability/ch126/q0026_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{应检验假设：} \\ H_{0} \\colon \\mu = 4.55 \\, , \\ H_{1} \\colon \\mu \\neq 4.55\">\\text{应检验假设：} \\ H_{0} \\colon \\mu = 4.55 \\, , \\ H_{1} \\colon \\mu \\neq 4.55</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/probability/ch126/q0026_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\begin{array}{l} {\\text{检验统计量为}} \\; U = \\frac{\\overline{X} - 4.55}{0.108 / \\sqrt{9}} \\end{array}\">\\begin{array}{l} {\\text{检验统计量为}} \\; U = \\frac{\\overline{X} - 4.55}{0.108 / \\sqrt{9}} \\end{array}</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/probability/ch126/q0026_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\begin{array}{l} \\text{在} \\alpha = 0. 05 \\text{下，可以认为现在铁水平均含碳量仍为} 4. 55 \\end{array}\">\\begin{array}{l} \\text{在} \\alpha = 0. 05 \\text{下，可以认为现在铁水平均含碳量仍为} 4. 55 \\end{array}</span>"
         }
       ],
       "answer": "A",
       "answer_index": 0,
-      "analysis_html": "<img src=\"/static/generated/assets/probability/ch126/q0026_analysis.png\"/>"
+      "analysis_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{aligned}&amp;\\text{检验假设 }H_0: \\mu=4.55, \\, H_1: \\mu \\neq 4.55. \\\\&amp;\\text{由于} \\sigma^2=0.108^2 \\text{已知，所以选取检验统计量 } U=\\frac{\\overline{X}-4.55}{0.108/\\sqrt{9}} \\sim N(0,1). \\\\&amp;\\text{拒绝域为 } |U|=\\frac{\\overline{X}-4.55}{0.108/\\sqrt{9}} \\geq u_{a^2}, |u|=\\frac{4.484-4.55}{0.108/\\sqrt{9}} \\approx 1.833 &lt; 1.96. \\\\&amp;\\text{故接受 } H_0, \\text{ 即认为现在生产的铁水的平均含碳量仍为 } 4.55.\\end{aligned}\">\\begin{aligned}&amp;\\text{检验假设 }H_0: \\mu=4.55, \\, H_1: \\mu \\neq 4.55. \\\\&amp;\\text{由于} \\sigma^2=0.108^2 \\text{已知，所以选取检验统计量 } U=\\frac{\\overline{X}-4.55}{0.108/\\sqrt{9}} \\sim N(0,1). \\\\&amp;\\text{拒绝域为 } |U|=\\frac{\\overline{X}-4.55}{0.108/\\sqrt{9}} \\geq u_{a^2}, |u|=\\frac{4.484-4.55}{0.108/\\sqrt{9}} \\approx 1.833 &lt; 1.96. \\\\&amp;\\text{故接受 } H_0, \\text{ 即认为现在生产的铁水的平均含碳量仍为 } 4.55.\\end{aligned}</div>"
     },
     {
       "id": "q0027",
       "number": 27,
       "header": "#27-Averge",
       "difficulty": "Averge",
-      "prompt_html": "<img src=\"/static/generated/assets/probability/ch126/q0027_prompt.png\"/>",
+      "prompt_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{array}{l} \\text {某化学日用品有限责任公司用包装机包装洗衣粉，包装机正常工作时，包装重量(单位：g)}X\\sim N(500,2^{2}), \\text{每天开工后}，\\text{需先检验包装机工作是否正常}。 \\text{某天开工后}，\\text{在装好的洗衣粉中任取}9\\text{袋}，\\text{获得重量数据}：505,499,502,506,498,498,497,510,503。\\text{假设总体标准差} \\alpha \\text{不变}，\\text{取} \\alpha = 0.05，\\text{则下列说法不正确的是}()。 \\end{array}\">\\begin{array}{l} \\text {某化学日用品有限责任公司用包装机包装洗衣粉，包装机正常工作时，包装重量(单位：g)}X\\sim N(500,2^{2}), \\text{每天开工后}，\\text{需先检验包装机工作是否正常}。 \\text{某天开工后}，\\text{在装好的洗衣粉中任取}9\\text{袋}，\\text{获得重量数据}：505,499,502,506,498,498,497,510,503。\\text{假设总体标准差} \\alpha \\text{不变}，\\text{取} \\alpha = 0.05，\\text{则下列说法不正确的是}()。 \\end{array}</div>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/probability/ch126/q0027_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{拒绝域为} \\ U \\leq -1.96\">\\text{拒绝域为} \\ U \\leq -1.96</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/probability/ch126/q0027_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{用} \\, U \\text{检验法}\">\\text{用} \\, U \\text{检验法}</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/probability/ch126/q0027_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{可以认为这天洗衣粉包装机工作不正常}\">\\text{可以认为这天洗衣粉包装机工作不正常}</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/probability/ch126/q0027_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{应检验假设：} \\ H_{0} \\colon \\mu = 500 \\, , \\ \\ H_{1} \\colon \\mu \\neq 500\">\\text{应检验假设：} \\ H_{0} \\colon \\mu = 500 \\, , \\ \\ H_{1} \\colon \\mu \\neq 500</span>"
         }
       ],
       "answer": "A",
       "answer_index": 0,
-      "analysis_html": "<img src=\"/static/generated/assets/probability/ch126/q0027_analysis.png\"/>"
+      "analysis_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{aligned} &amp; (1) \\text{提出假设检验：}H_{0}^{c}:\\mu=500,\\quad H_{1}^{c}:\\mu\\neq 500.\\\\ &amp; (2) \\text{以}H_{0}^{c} \\text{成立为前提，确定检验}H_{0}^{c} \\text{的统计量及其分布}U=\\frac{\\overline{X}-\\mu_{0}}{\\sigma\\sqrt{n}}=\\frac{\\overline{X}-500}{2/3}\\sim N(0,1).\\\\ &amp; (3) \\text{对给定显著性水平}\\alpha=0.05，\\text{确定}H_{0}^{c} \\text{的接受域}\\overline{W}\\text{或拒绝域}W，\\text{取临界点为}u_{\\alpha/2}=1.96，\\text{使}\\\\ &amp; P\\{U|&gt;u_{\\alpha/2}\\}=\\alpha,\\text{故}H_{0}^{c} \\text{被接受与拒绝的区域分别为}\\overline{W}=[-1.96,1.96],W=(-\\infty,-1.96)\\cup(1.96,+\\infty).\\\\ &amp; (4) \\text{由样本计算统计量}U \\text{的值值}=\\frac{502-500}{2/3}=3.\\\\ &amp; (5) \\text{对假设}H_{0}^{c} \\text{作出推断，因为}u\\in W(\\text{拒绝域})，\\text{故认为这天洗衣粉包装机工作不正常}.\\end{aligned}\">\\begin{aligned} &amp; (1) \\text{提出假设检验：}H_{0}^{c}:\\mu=500,\\quad H_{1}^{c}:\\mu\\neq 500.\\\\ &amp; (2) \\text{以}H_{0}^{c} \\text{成立为前提，确定检验}H_{0}^{c} \\text{的统计量及其分布}U=\\frac{\\overline{X}-\\mu_{0}}{\\sigma\\sqrt{n}}=\\frac{\\overline{X}-500}{2/3}\\sim N(0,1).\\\\ &amp; (3) \\text{对给定显著性水平}\\alpha=0.05，\\text{确定}H_{0}^{c} \\text{的接受域}\\overline{W}\\text{或拒绝域}W，\\text{取临界点为}u_{\\alpha/2}=1.96，\\text{使}\\\\ &amp; P\\{U|&gt;u_{\\alpha/2}\\}=\\alpha,\\text{故}H_{0}^{c} \\text{被接受与拒绝的区域分别为}\\overline{W}=[-1.96,1.96],W=(-\\infty,-1.96)\\cup(1.96,+\\infty).\\\\ &amp; (4) \\text{由样本计算统计量}U \\text{的值值}=\\frac{502-500}{2/3}=3.\\\\ &amp; (5) \\text{对假设}H_{0}^{c} \\text{作出推断，因为}u\\in W(\\text{拒绝域})，\\text{故认为这天洗衣粉包装机工作不正常}.\\end{aligned}</div>"
     },
     {
       "id": "q0028",
       "number": 28,
       "header": "#28-Averge",
       "difficulty": "Averge",
-      "prompt_html": "<img src=\"/static/generated/assets/probability/ch126/q0028_prompt.png\"/>",
+      "prompt_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{aligned}&amp;\\text{对于正态分布}X\\sim N(\\mu,\\sigma^{2})，\\text{抽取容量为}10\\text{的样本}，\\text{算的样本均值}\\bar{x}=67.4，\\text{样本方差}s^{2}=35.15，\\text{给定显著水平}\\alpha=0.05，\\text{检验假设}H_{0}: \\mu=72，H_{1}: \\mu\\not=72.\\text{. 则正确的方法和结论是（.）} \\\\&amp;\\left(t_{0.025}(9)=2.2622,t_{0.05}(9)=1.8331,u_{0.025}=1.96,u_{0.05}=1.645,\\sqrt{3.515}=1.875\\right)\\end{aligned}\">\\begin{aligned}&amp;\\text{对于正态分布}X\\sim N(\\mu,\\sigma^{2})，\\text{抽取容量为}10\\text{的样本}，\\text{算的样本均值}\\bar{x}=67.4，\\text{样本方差}s^{2}=35.15，\\text{给定显著水平}\\alpha=0.05，\\text{检验假设}H_{0}: \\mu=72，H_{1}: \\mu\\not=72.\\text{. 则正确的方法和结论是（.）} \\\\&amp;\\left(t_{0.025}(9)=2.2622,t_{0.05}(9)=1.8331,u_{0.025}=1.96,u_{0.05}=1.645,\\sqrt{3.515}=1.875\\right)\\end{aligned}</div>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/probability/ch126/q0028_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{用}t\\text{检验法，拒绝域为}|\\boldsymbol{T}|\\geq 2.2622\\text{，拒绝}H_{0}\">\\text{用}t\\text{检验法，拒绝域为}|\\boldsymbol{T}|\\geq 2.2622\\text{，拒绝}H_{0}</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/probability/ch126/q0028_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{用}U\\text{检验法，拒绝域为}|\\boldsymbol{U}|\\geq 1.96,\\text{拒绝}H_{0}\">\\text{用}U\\text{检验法，拒绝域为}|\\boldsymbol{U}|\\geq 1.96,\\text{拒绝}H_{0}</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/probability/ch126/q0028_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\begin{array}{l} \\text{用}U\\text{检验法，拒绝域为} \\left|U\\right|\\geq 1.645\\text{，拒绝}H_{0} \\end{array}\">\\begin{array}{l} \\text{用}U\\text{检验法，拒绝域为} \\left|U\\right|\\geq 1.645\\text{，拒绝}H_{0} \\end{array}</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/probability/ch126/q0028_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\begin{aligned} \\text{用}t\\text{检验法，拒绝域为} \\left| T \\right| \\geq 1.8331\\text{，拒绝}H_{0}\\end{aligned}\">\\begin{aligned} \\text{用}t\\text{检验法，拒绝域为} \\left| T \\right| \\geq 1.8331\\text{，拒绝}H_{0}\\end{aligned}</span>"
         }
       ],
       "answer": "A",
       "answer_index": 0,
-      "analysis_html": "<img src=\"/static/generated/assets/probability/ch126/q0028_analysis.png\"/>"
+      "analysis_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{aligned}&amp;\\text{单正态总体均值检验(方差}\\sigma^{2}\\text{未知)的检验统计量为}\\\\&amp;\\qquad\\quad T=\\frac{\\bar{X}-\\mu_{0}}{S\\sqrt{n}}\\sim t(n-1),\\\\&amp;\\text{在检验假设}H_{0}:\\mu=\\mu_{0},\\;H_{1}:\\mu\\neq\\mu_{0}\\text{下，拒绝域为}\\\\&amp;\\qquad\\quad|T|=\\frac{\\left|\\bar{X}-\\mu_{0}\\right|}{S\\sqrt{n}}&gt;\\tau_{0.25}(n-1).\\\\&amp;\\text{把本题具体数据代入，得}\\;|\\tau|\\approx 2.4535&gt;\\tau_{0.025}(9)=2.262,\\;\\text{故拒绝}H_{0}.\\end{aligned}\">\\begin{aligned}&amp;\\text{单正态总体均值检验(方差}\\sigma^{2}\\text{未知)的检验统计量为}\\\\&amp;\\qquad\\quad T=\\frac{\\bar{X}-\\mu_{0}}{S\\sqrt{n}}\\sim t(n-1),\\\\&amp;\\text{在检验假设}H_{0}:\\mu=\\mu_{0},\\;H_{1}:\\mu\\neq\\mu_{0}\\text{下，拒绝域为}\\\\&amp;\\qquad\\quad|T|=\\frac{\\left|\\bar{X}-\\mu_{0}\\right|}{S\\sqrt{n}}&gt;\\tau_{0.25}(n-1).\\\\&amp;\\text{把本题具体数据代入，得}\\;|\\tau|\\approx 2.4535&gt;\\tau_{0.025}(9)=2.262,\\;\\text{故拒绝}H_{0}.\\end{aligned}</div>"
     },
     {
       "id": "q0029",
       "number": 29,
       "header": "#29-Easy",
       "difficulty": "Easy",
-      "prompt_html": "<img src=\"/static/generated/assets/probability/ch126/q0029_prompt.png\"/>",
+      "prompt_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{aligned}&amp; \\text{设样本}X_{1},X_{2},\\cdots,X_{n}\\text{抽自总体}X\\sim N(\\mu,\\sigma^{2})\\text{，}\\mu,\\sigma^{2}\\text{均未知．对}\\mu\\text{作假设检验}H_{0};\\mu=\\mu_{0},H_{1};\\mu&gt;\\mu_{0}\\text{．}\\\\&amp; \\text{给定显著水平}\\alpha\\text{，则检验的拒绝域为( ).}\\end{aligned}\">\\begin{aligned}&amp; \\text{设样本}X_{1},X_{2},\\cdots,X_{n}\\text{抽自总体}X\\sim N(\\mu,\\sigma^{2})\\text{，}\\mu,\\sigma^{2}\\text{均未知．对}\\mu\\text{作假设检验}H_{0};\\mu=\\mu_{0},H_{1};\\mu&gt;\\mu_{0}\\text{．}\\\\&amp; \\text{给定显著水平}\\alpha\\text{，则检验的拒绝域为( ).}\\end{aligned}</div>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/probability/ch126/q0029_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\begin{aligned}T &gt; t_{a}(n-1)\\end{aligned}\">\\begin{aligned}T &gt; t_{a}(n-1)\\end{aligned}</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/probability/ch126/q0029_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\vert T \\vert &gt; t _ { \\alpha } ( n - 1 )\">\\vert T \\vert &gt; t _ { \\alpha } ( n - 1 )</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/probability/ch126/q0029_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\vert T \\vert &gt; t _ { a / 2 } ( n - 1 )\">\\vert T \\vert &gt; t _ { a / 2 } ( n - 1 )</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/probability/ch126/q0029_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\begin{aligned}T&lt;-t_{o}(n-1)\\end{aligned}\">\\begin{aligned}T&lt;-t_{o}(n-1)\\end{aligned}</span>"
         }
       ],
       "answer": "A",
       "answer_index": 0,
-      "analysis_html": "<img src=\"/static/generated/assets/probability/ch126/q0029_analysis.png\"/>"
+      "analysis_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{aligned}&amp; \\text{正态总体方差未知时均值的检验．若 } H_{0}\\text{为真，检验统计量为}T=\\frac{\\overline{X}-\\mu_{0}}{S\\sqrt{n}}\\sim t(n-1)\\text{．}\\\\&amp; \\text{双侧检验：}H_{0}:\\mu=\\mu_{0},\\ H_{1}:\\mu\\neq\\mu_{0}\\text{，拒绝域为}|T|&gt;t_{\\alpha2}(n-1)\\text{．}\\\\&amp; \\text{右侧检验：}H_{0}:\\mu\\leq\\mu_{0},\\ H_{1}:\\mu&gt;\\mu_{0}\\text{，拒绝域为}T&gt;t_{\\alpha}(n-1)\\text{．}\\\\&amp; \\text{左侧检验：}H_{0}:\\mu\\geq\\mu_{0},\\ H_{1}:\\mu&lt;\\mu_{0}\\text{，拒绝域为}T&lt;-t_{\\alpha}(n-1)\\text{．}\\end{aligned}\">\\begin{aligned}&amp; \\text{正态总体方差未知时均值的检验．若 } H_{0}\\text{为真，检验统计量为}T=\\frac{\\overline{X}-\\mu_{0}}{S\\sqrt{n}}\\sim t(n-1)\\text{．}\\\\&amp; \\text{双侧检验：}H_{0}:\\mu=\\mu_{0},\\ H_{1}:\\mu\\neq\\mu_{0}\\text{，拒绝域为}|T|&gt;t_{\\alpha2}(n-1)\\text{．}\\\\&amp; \\text{右侧检验：}H_{0}:\\mu\\leq\\mu_{0},\\ H_{1}:\\mu&gt;\\mu_{0}\\text{，拒绝域为}T&gt;t_{\\alpha}(n-1)\\text{．}\\\\&amp; \\text{左侧检验：}H_{0}:\\mu\\geq\\mu_{0},\\ H_{1}:\\mu&lt;\\mu_{0}\\text{，拒绝域为}T&lt;-t_{\\alpha}(n-1)\\text{．}\\end{aligned}</div>"
     },
     {
       "id": "q0030",
       "number": 30,
       "header": "#30-Averge",
       "difficulty": "Averge",
-      "prompt_html": "<img src=\"/static/generated/assets/probability/ch126/q0030_prompt.png\"/>",
+      "prompt_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{array}{l}\\text{若}Y\\sim N(0,1),\\text{则}P\\{Y&gt;1.645\\}=0.05.\\ \\text{现假设总体}X\\sim N(\\mu,9),\\ X_{1},X_{2},\\cdots,X_{25}\\text{为样本，}\\ \\overline{X}\\text{为样本均值．对于检验问题}H_{0}:\\mu\\geq\\mu_{0},\\ H_{1}:\\mu&lt;\\mu_{0}\\,(\\mu_{0}\\text{已知})，\\text{取显著性水平}\\alpha=0.05，\\text{拒绝域正确的是}（）.\\left(u_{0.05}=1.645,u_{0.025}=1.96\\right)\\end{array}\">\\begin{array}{l}\\text{若}Y\\sim N(0,1),\\text{则}P\\{Y&gt;1.645\\}=0.05.\\ \\text{现假设总体}X\\sim N(\\mu,9),\\ X_{1},X_{2},\\cdots,X_{25}\\text{为样本，}\\ \\overline{X}\\text{为样本均值．对于检验问题}H_{0}:\\mu\\geq\\mu_{0},\\ H_{1}:\\mu&lt;\\mu_{0}\\,(\\mu_{0}\\text{已知})，\\text{取显著性水平}\\alpha=0.05，\\text{拒绝域正确的是}（）.\\left(u_{0.05}=1.645,u_{0.025}=1.96\\right)\\end{array}</div>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/probability/ch126/q0030_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\overline{X} - \\mu_{0} \\leq -0.987\">\\overline{X} - \\mu_{0} \\leq -0.987</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/probability/ch126/q0030_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\overline{X} - \\mu_{0} \\geq 0.987\">\\overline{X} - \\mu_{0} \\geq 0.987</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/probability/ch126/q0030_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\overline{X} - \\mu_{0} \\leq 0.987\">\\overline{X} - \\mu_{0} \\leq 0.987</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/probability/ch126/q0030_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\overline{X} - \\mu_{0} \\geq 1.645\">\\overline{X} - \\mu_{0} \\geq 1.645</span>"
         }
       ],
       "answer": "A",
       "answer_index": 0,
-      "analysis_html": "<img src=\"/static/generated/assets/probability/ch126/q0030_analysis.png\"/>"
+      "analysis_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{aligned}&amp;\\text{左侧检验，检验假设}H_0:\\mu\\geq \\mu_0,\\,H_1:\\mu&lt;\\mu_0,\\,\\text{其检验统计量为}\\\\&amp;\\qquad\\quad U=\\frac{\\overline{X}-\\mu_0}{\\sigma\\sqrt{n}}\\sim N(0,1)\\,,\\\\&amp;U\\text{的观测值记为}u,\\,\\text{可得拒绝域为}\\\\&amp;\\qquad\\quad U=\\frac{\\overline{X}-\\mu_0}{\\sigma\\sqrt{n}}&lt;-u_0\\,.\\\\&amp;\\text{把}n=25,\\sigma=3,\\alpha=0.05\\text{代入，得拒绝域为}\\\\&amp;\\qquad\\quad G=\\{(x_{1},x_{2},\\cdots,x_{25}|\\overline{x}-\\mu_0\\leq-0.987)\\}.\\end{aligned}\">\\begin{aligned}&amp;\\text{左侧检验，检验假设}H_0:\\mu\\geq \\mu_0,\\,H_1:\\mu&lt;\\mu_0,\\,\\text{其检验统计量为}\\\\&amp;\\qquad\\quad U=\\frac{\\overline{X}-\\mu_0}{\\sigma\\sqrt{n}}\\sim N(0,1)\\,,\\\\&amp;U\\text{的观测值记为}u,\\,\\text{可得拒绝域为}\\\\&amp;\\qquad\\quad U=\\frac{\\overline{X}-\\mu_0}{\\sigma\\sqrt{n}}&lt;-u_0\\,.\\\\&amp;\\text{把}n=25,\\sigma=3,\\alpha=0.05\\text{代入，得拒绝域为}\\\\&amp;\\qquad\\quad G=\\{(x_{1},x_{2},\\cdots,x_{25}|\\overline{x}-\\mu_0\\leq-0.987)\\}.\\end{aligned}</div>"
     },
     {
       "id": "q0031",
       "number": 31,
       "header": "#31-Averge",
       "difficulty": "Averge",
-      "prompt_html": "<img src=\"/static/generated/assets/probability/ch126/q0031_prompt.png\"/>",
+      "prompt_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{array}{l} \\text {要求一种元件平均使用寿命不得低于1000小时，生产者从一批这种元件中随机抽取25件，测得其寿命的平均值为} \\\\ 950 \\text {小时.已知该种元件寿命服从标准差为} \\sigma = 100 \\text {小时的正态分布，则下列说法中不正确的是( ).} \\\\ (u_{0.05} = 1.645, u_{0.025} = 1.960) \\end{array}\">\\begin{array}{l} \\text {要求一种元件平均使用寿命不得低于1000小时，生产者从一批这种元件中随机抽取25件，测得其寿命的平均值为} \\\\ 950 \\text {小时.已知该种元件寿命服从标准差为} \\sigma = 100 \\text {小时的正态分布，则下列说法中不正确的是( ).} \\\\ (u_{0.05} = 1.645, u_{0.025} = 1.960) \\end{array}</div>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/probability/ch126/q0031_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{可以认为这批元件合格}\">\\text{可以认为这批元件合格}</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/probability/ch126/q0031_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{应检验假设：} \\ H_{0} \\colon \\mu \\geq 1000, \\, H_{1} \\colon \\mu &lt; 1000\">\\text{应检验假设：} \\ H_{0} \\colon \\mu \\geq 1000, \\, H_{1} \\colon \\mu &lt; 1000</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/probability/ch126/q0031_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{拒绝域为} \\, U = \\frac { \\overline { X } - 1000 } { 20 } \\leq - u _ { \\alpha }\">\\text{拒绝域为} \\, U = \\frac { \\overline { X } - 1000 } { 20 } \\leq - u _ { \\alpha }</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/probability/ch126/q0031_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{检验统计量的观测值为} u = - 2 . 5\">\\text{检验统计量的观测值为} u = - 2 . 5</span>"
         }
       ],
       "answer": "A",
       "answer_index": 0,
-      "analysis_html": "<img src=\"/static/generated/assets/probability/ch126/q0031_analysis.png\"/>"
+      "analysis_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{aligned}&amp;\\text{检验假设}H_{0}:\\mu\\geq 1000,\\,H_{1}:\\mu&lt;1000.\\\\&amp;\\text{这是单边假设检验问题。由于方差}\\sigma^{2}=0.05,\\,\\text{故用}u\\text{检验法。对于显著性水平}\\alpha=0.05,\\,\\text{拒绝域为}\\\\&amp;\\quad W=\\left\\{\\frac{\\overline{X}-1000}{\\sigma\\sqrt{n}}&lt;-u_{a}\\right\\}.\\\\&amp;\\text{由}n=25,\\,\\sigma^{2}=0.05,\\,\\overline{x}=950,\\,\\text{算出}\\frac{\\overline{x}-1000}{\\sigma\\sqrt{n}}=\\frac{950-1000}{100/\\sqrt{25}}=-2.5\\leq u_{0.05}=-1.645.\\\\&amp;\\text{故在}\\alpha=0.05\\text{下拒绝}H_{0},\\,\\text{认为这批元件不合格。}\\end{aligned}\">\\begin{aligned}&amp;\\text{检验假设}H_{0}:\\mu\\geq 1000,\\,H_{1}:\\mu&lt;1000.\\\\&amp;\\text{这是单边假设检验问题。由于方差}\\sigma^{2}=0.05,\\,\\text{故用}u\\text{检验法。对于显著性水平}\\alpha=0.05,\\,\\text{拒绝域为}\\\\&amp;\\quad W=\\left\\{\\frac{\\overline{X}-1000}{\\sigma\\sqrt{n}}&lt;-u_{a}\\right\\}.\\\\&amp;\\text{由}n=25,\\,\\sigma^{2}=0.05,\\,\\overline{x}=950,\\,\\text{算出}\\frac{\\overline{x}-1000}{\\sigma\\sqrt{n}}=\\frac{950-1000}{100/\\sqrt{25}}=-2.5\\leq u_{0.05}=-1.645.\\\\&amp;\\text{故在}\\alpha=0.05\\text{下拒绝}H_{0},\\,\\text{认为这批元件不合格。}\\end{aligned}</div>"
     },
     {
       "id": "q0032",
       "number": 32,
       "header": "#32-Easy",
       "difficulty": "Easy",
-      "prompt_html": "<img src=\"/static/generated/assets/probability/ch126/q0032_prompt.png\"/>",
+      "prompt_html": "<span class=\"latex-text\">\\begin{array}{l}\n\\begin{array}{|c|c|c|c|c|c|c|c|c|} \\hline \\text{序号} &amp; 1 &amp; 2 &amp; 3 &amp; 4 &amp; 5 &amp; 6 &amp; 7 &amp; 8 \\\\ \\hline \\text{早上}(x_{i}) &amp; 172 &amp; 168 &amp; 180 &amp; 181 &amp; 160 &amp; 163 &amp; 165 &amp; 177 \\\\ \\hline \\text{晚上}(y_{i}) &amp; 172 &amp; 167 &amp; 177 &amp; 179 &amp; 159 &amp; 161 &amp; 166 &amp; 175 \\\\ \\hline \\end{array}</span>\n<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"s=1.282，\\text{设各对数据的差} Z_{i} \\text{是来自总体总体} N(\\mu_{z}, \\sigma_{z}^{2}) \\text{的样本}，\\mu_{z}, \\sigma_{z}^{2} \\text{均未知}，\\text{有人认为早晨的身高比晚上的身高要高}，\\text{设} \\alpha=0.05，\\text{则下列说法中不正确的是}（ ）。\\begin{pmatrix} 0.8 \\\\ 1.8595 \\\\ 0.05 \\\\ 7 \\end{pmatrix}=1.8946\">s=1.282，\\text{设各对数据的差} Z_{i} \\text{是来自总体总体} N(\\mu_{z}, \\sigma_{z}^{2}) \\text{的样本}，\\mu_{z}, \\sigma_{z}^{2} \\text{均未知}，\\text{有人认为早晨的身高比晚上的身高要高}，\\text{设} \\alpha=0.05，\\text{则下列说法中不正确的是}（ ）。\\begin{pmatrix} 0.8 \\\\ 1.8595 \\\\ 0.05 \\\\ 7 \\end{pmatrix}=1.8946</div>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/probability/ch126/q0032_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{晚上比早上身高要高}\">\\text{晚上比早上身高要高}</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/probability/ch126/q0032_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{检验假设为} \\, H_0: \\mu_z \\leq 0, \\, H_1: \\mu_z &gt; 0\">\\text{检验假设为} \\, H_0: \\mu_z \\leq 0, \\, H_1: \\mu_z &gt; 0</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/probability/ch126/q0032_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{检验统计量为} t = \\frac { \\overline { X } } { S / \\sqrt { 8 } }\">\\text{检验统计量为} t = \\frac { \\overline { X } } { S / \\sqrt { 8 } }</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/probability/ch126/q0032_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{拒绝域为} \\, (t_{_{0.05}}(8),\\, +\\infty)\">\\text{拒绝域为} \\, (t_{_{0.05}}(8),\\, +\\infty)</span>"
         }
       ],
       "answer": "A",
       "answer_index": 0,
-      "analysis_html": "<img src=\"/static/generated/assets/probability/ch126/q0032_analysis.png\"/>"
+      "analysis_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{aligned}&amp; \\text{设早、晚身高差}Z\\sim N(\\mu_{z},\\sigma_{z}^{2}),\\text{检验假设}H_{0}: \\mu_{z}=0,\\ H_{1}: \\mu_{z}&gt;0,\\\\&amp; \\text{则}z_{i}=x_{i}-y_{i}=0,1,3,2,1,2,-1,2,\\\\&amp; \\text{已知}n=8,\\alpha=0.05,\\text{算得}z=1.25,s=1.282.\\\\&amp; \\text{拒绝域为}W=\\left\\{ \\frac{z-0}{s\\sqrt{n}}&gt;t_{\\alpha}(n-1)\\right\\}.\\\\&amp; \\text{查}t_{0.05}\\text{分布表得}t_{0.05}(7)=1.8946.\\text{计算}t\\text{值}\\\\&amp; t=\\frac{1.25}{1.282\\sqrt{8}}=2.755&gt;1.8946,\\\\&amp; \\text{故否定}H_{0},\\text{认为早晨比晚上身高要高。}\\end{aligned}\">\\begin{aligned}&amp; \\text{设早、晚身高差}Z\\sim N(\\mu_{z},\\sigma_{z}^{2}),\\text{检验假设}H_{0}: \\mu_{z}=0,\\ H_{1}: \\mu_{z}&gt;0,\\\\&amp; \\text{则}z_{i}=x_{i}-y_{i}=0,1,3,2,1,2,-1,2,\\\\&amp; \\text{已知}n=8,\\alpha=0.05,\\text{算得}z=1.25,s=1.282.\\\\&amp; \\text{拒绝域为}W=\\left\\{ \\frac{z-0}{s\\sqrt{n}}&gt;t_{\\alpha}(n-1)\\right\\}.\\\\&amp; \\text{查}t_{0.05}\\text{分布表得}t_{0.05}(7)=1.8946.\\text{计算}t\\text{值}\\\\&amp; t=\\frac{1.25}{1.282\\sqrt{8}}=2.755&gt;1.8946,\\\\&amp; \\text{故否定}H_{0},\\text{认为早晨比晚上身高要高。}\\end{aligned}</div>"
     },
     {
       "id": "q0033",
       "number": 33,
       "header": "#33-Easy",
       "difficulty": "Easy",
-      "prompt_html": "<img src=\"/static/generated/assets/probability/ch126/q0033_prompt.png\"/>",
+      "prompt_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{array}{l} \\text {某工厂所生产的某种细纱支数服从正态分布}N(\\mu_{0},\\sigma_{0}^{2}),\\mu_{i},\\sigma_{i}^{2} \\text {为已知.现从某日生产的一批产品中随机抽取16缕进行支数测量,求得样本均值与方差分别为}A,B.\\text {要检验纱的均匀度是否变劣,则正确的假设是(}. \\end{array}\">\\begin{array}{l} \\text {某工厂所生产的某种细纱支数服从正态分布}N(\\mu_{0},\\sigma_{0}^{2}),\\mu_{i},\\sigma_{i}^{2} \\text {为已知.现从某日生产的一批产品中随机抽取16缕进行支数测量,求得样本均值与方差分别为}A,B.\\text {要检验纱的均匀度是否变劣,则正确的假设是(}. \\end{array}</div>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/probability/ch126/q0033_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\begin{aligned}H_0\\colon \\sigma^2 \\leq \\sigma_0^2\\,,\\;\\; H_1\\colon \\sigma^2 &gt; \\sigma_0^2\\end{aligned}\">\\begin{aligned}H_0\\colon \\sigma^2 \\leq \\sigma_0^2\\,,\\;\\; H_1\\colon \\sigma^2 &gt; \\sigma_0^2\\end{aligned}</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/probability/ch126/q0033_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\begin{aligned}H_0 \\colon \\mu = \\mu_0 \\, , \\;\\; H_1 \\colon \\mu \\neq \\mu_0\\end{aligned}\">\\begin{aligned}H_0 \\colon \\mu = \\mu_0 \\, , \\;\\; H_1 \\colon \\mu \\neq \\mu_0\\end{aligned}</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/probability/ch126/q0033_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\begin{array}{l} {l} H _ { 0 } \\colon \\mu \\leq \\mu _ { 0 } \\, , \\; \\; H _ { 1 } \\colon \\mu &gt; \\mu _ { 0 } \\end{array}\">\\begin{array}{l} {l} H _ { 0 } \\colon \\mu \\leq \\mu _ { 0 } \\, , \\; \\; H _ { 1 } \\colon \\mu &gt; \\mu _ { 0 } \\end{array}</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/probability/ch126/q0033_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\begin{aligned}H_0\\colon \\sigma^2 = \\sigma_0^2\\,,\\;\\; H_1\\colon \\sigma^2 \\neq \\sigma_0^2\\end{aligned}\">\\begin{aligned}H_0\\colon \\sigma^2 = \\sigma_0^2\\,,\\;\\; H_1\\colon \\sigma^2 \\neq \\sigma_0^2\\end{aligned}</span>"
         }
       ],
       "answer": "A",
       "answer_index": 0,
-      "analysis_html": "<img src=\"/static/generated/assets/probability/ch126/q0033_analysis.png\"/>"
+      "analysis_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{aligned}&amp;\\text{题目要检验均匀度是否变劣，由此可以得出均匀度变劣就是备择假设}H_{1}.\\\\&amp;\\quad\\text{另外均匀度的度量是方差，所检验检验一定是关于方差的检验.由方差的定义可以知道，方差越大离散程度就越大，故此题中方差变大时，就是均匀度变劣的情况.}\\\\&amp;\\quad\\text{综上所述，均匀度是否变劣的假设检验为}H_{i}:\\sigma^{2}\\leq \\sigma_{0}^{2},\\ H_{1}:\\sigma^{2}&gt;\\sigma_{0}^{2}.\\end{aligned}\">\\begin{aligned}&amp;\\text{题目要检验均匀度是否变劣，由此可以得出均匀度变劣就是备择假设}H_{1}.\\\\&amp;\\quad\\text{另外均匀度的度量是方差，所检验检验一定是关于方差的检验.由方差的定义可以知道，方差越大离散程度就越大，故此题中方差变大时，就是均匀度变劣的情况.}\\\\&amp;\\quad\\text{综上所述，均匀度是否变劣的假设检验为}H_{i}:\\sigma^{2}\\leq \\sigma_{0}^{2},\\ H_{1}:\\sigma^{2}&gt;\\sigma_{0}^{2}.\\end{aligned}</div>"
     }
-  ]
+  ],
+  "format": "latex",
+  "source_md": "gl/8.2.1.1_均值检验(33题)/8.2.1.1_均值检验(33题).md"
 }

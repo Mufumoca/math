@@ -13,840 +13,842 @@
       "number": 1,
       "header": "#1-Averge",
       "difficulty": "Averge",
-      "prompt_html": "<img src=\"/static/generated/assets/probability/ch066/q0001_prompt.png\"/>",
+      "prompt_html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{具有下面分布律的随机变量中，数学期望不存在的是( ).}\">\\text{具有下面分布律的随机变量中，数学期望不存在的是( ).}</span>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/probability/ch066/q0001_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\begin{aligned}P\\biggl\\{\\xi = \\frac{3^k}{k}\\biggr\\} = \\frac{2}{3^k}, k=1,2,...,\\end{aligned}\">\\begin{aligned}P\\biggl\\{\\xi = \\frac{3^k}{k}\\biggr\\} = \\frac{2}{3^k}, k=1,2,...,\\end{aligned}</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/probability/ch066/q0001_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\begin{aligned}P\\bigl\\{\\breve{\\zeta} = k \\bigr\\} = \\frac{\\lambda^k}{k!} e^{-\\lambda}, \\lambda &gt; 0, k = 0, 1, 2, ...,\\end{aligned}\">\\begin{aligned}P\\bigl\\{\\breve{\\zeta} = k \\bigr\\} = \\frac{\\lambda^k}{k!} e^{-\\lambda}, \\lambda &gt; 0, k = 0, 1, 2, ...,\\end{aligned}</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/probability/ch066/q0001_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\begin{array}{l}P\\big\\{\\xi\\!=\\!k\\big\\}\\!=\\!(\\frac{1}{2})^{k},k\\!=\\!1,2,..., \\end{array}\">\\begin{array}{l}P\\big\\{\\xi\\!=\\!k\\big\\}\\!=\\!(\\frac{1}{2})^{k},k\\!=\\!1,2,..., \\end{array}</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/probability/ch066/q0001_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\begin{aligned}P\\bigl\\{\\xi = k \\bigr\\} = p^k (1-p)^{1-k}, 0 &lt; p &lt; 1, k = 0, 1\\end{aligned}\">\\begin{aligned}P\\bigl\\{\\xi = k \\bigr\\} = p^k (1-p)^{1-k}, 0 &lt; p &lt; 1, k = 0, 1\\end{aligned}</span>"
         }
       ],
       "answer": "A",
       "answer_index": 0,
-      "analysis_html": "<img src=\"/static/generated/assets/probability/ch066/q0001_analysis.png\"/>"
+      "analysis_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{aligned}&amp;\\text{对离散型随机变量，求一随机变量的数学期望，首先判断级数}\\sum_{k=1}^{\\infty}\\frac{3^{k}}{k}\\left|\\frac{2}{3^{k}}\\right. =+\\infty,\\\\&amp;\\text{由于}\\sum_{k=1}^{\\infty}\\frac{3^{k}}{k}\\left|\\frac{2}{3^{k}}\\right. =+\\infty,\\\\&amp;\\text{故若分布律为}P\\left\\{\\zeta=\\frac{3^{k}}{k}\\right\\}=\\frac{2}{3^{k}},k=1,2,...,\\text{则该随机变量的数学期望不存在}.\\end{aligned}\">\\begin{aligned}&amp;\\text{对离散型随机变量，求一随机变量的数学期望，首先判断级数}\\sum_{k=1}^{\\infty}\\frac{3^{k}}{k}\\left|\\frac{2}{3^{k}}\\right. =+\\infty,\\\\&amp;\\text{由于}\\sum_{k=1}^{\\infty}\\frac{3^{k}}{k}\\left|\\frac{2}{3^{k}}\\right. =+\\infty,\\\\&amp;\\text{故若分布律为}P\\left\\{\\zeta=\\frac{3^{k}}{k}\\right\\}=\\frac{2}{3^{k}},k=1,2,...,\\text{则该随机变量的数学期望不存在}.\\end{aligned}</div>"
     },
     {
       "id": "q0002",
       "number": 2,
       "header": "#2-Easy",
       "difficulty": "Easy",
-      "prompt_html": "<img src=\"/static/generated/assets/probability/ch066/q0002_prompt.png\"/>",
+      "prompt_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{array}{l}\n\\begin{array}{|c|c|c|c|} \\hline \\zeta\\setminus\\eta &amp; 0 &amp; 1 &amp; 2 \\\\ \\hline 0 &amp; 0.1 &amp; 0.05 &amp; 0.25 \\\\ 1 &amp; 0.0 &amp; 0.1 &amp; 0.2 \\\\ 2 &amp; 0.2 &amp; 0.1 &amp; 0.0 \\\\ \\hline \\end{array}\n\\text{已知} (\\xi,\\eta) \\text{的联合分布为}\n\\text{则} E(\\zeta)，E(\\eta) \\text{的值分别为}（）。\n\n\\end{array}\">\\begin{array}{l}\n\\begin{array}{|c|c|c|c|} \\hline \\zeta\\setminus\\eta &amp; 0 &amp; 1 &amp; 2 \\\\ \\hline 0 &amp; 0.1 &amp; 0.05 &amp; 0.25 \\\\ 1 &amp; 0.0 &amp; 0.1 &amp; 0.2 \\\\ 2 &amp; 0.2 &amp; 0.1 &amp; 0.0 \\\\ \\hline \\end{array}\n\\text{已知} (\\xi,\\eta) \\text{的联合分布为}\n\\text{则} E(\\zeta)，E(\\eta) \\text{的值分别为}（）。\n\n\\end{array}</div>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/probability/ch066/q0002_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"0.9 \\, , \\ 1.15\">0.9 \\, , \\ 1.15</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/probability/ch066/q0002_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"0.8 \\, , \\ 1.05\">0.8 \\, , \\ 1.05</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/probability/ch066/q0002_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"0.9 \\, , \\, \\, 1.05\">0.9 \\, , \\, \\, 1.05</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/probability/ch066/q0002_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"0.8 \\, , \\ 1.15\">0.8 \\, , \\ 1.15</span>"
         }
       ],
       "answer": "A",
       "answer_index": 0,
-      "analysis_html": "<img src=\"/static/generated/assets/probability/ch066/q0002_analysis.png\"/>"
+      "analysis_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{aligned} &amp; \\text{由题意知，} \\\\ &amp; E(\\xi) = 0 \\times (0.1 + 0.05 + 0.25) + 1 \\times (0 + 0.1 + 0.2) + 2 \\times (0.2 + 0.1 + 0) = 0.9 \\,, \\\\ &amp; E(\\eta) = 0 \\times (0.1 + 0 + 0.2) + 1 \\times (0.05 + 0.1 + 0.1) + 2 \\times (0.25 + 0.2 + 0) = 1.15 \\,. \\end{aligned}\">\\begin{aligned} &amp; \\text{由题意知，} \\\\ &amp; E(\\xi) = 0 \\times (0.1 + 0.05 + 0.25) + 1 \\times (0 + 0.1 + 0.2) + 2 \\times (0.2 + 0.1 + 0) = 0.9 \\,, \\\\ &amp; E(\\eta) = 0 \\times (0.1 + 0 + 0.2) + 1 \\times (0.05 + 0.1 + 0.1) + 2 \\times (0.25 + 0.2 + 0) = 1.15 \\,. \\end{aligned}</div>"
     },
     {
       "id": "q0003",
       "number": 3,
       "header": "#3-Averge",
       "difficulty": "Averge",
-      "prompt_html": "<img src=\"/static/generated/assets/probability/ch066/q0003_prompt.png\"/>",
+      "prompt_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{array}{l} \\text {设} X \\text {和} Y \\text {相互独立，概率密度分别为} \\\\ \\varphi _{1}(x) = \\{ \\begin{array}{ll} 2x, 0 \\leq x \\leq 1 \\\\ 0, \\text {其它} \\end{array}, \\varphi _{2}(y) = \\{ \\begin{array}{ll} e^{-(y-5)}, y &gt; 5 \\\\ 0, \\text {其它} \\end{array}, \\\\ \\text {则} E(XY) = ( ). \\end{array}\">\\begin{array}{l} \\text {设} X \\text {和} Y \\text {相互独立，概率密度分别为} \\\\ \\varphi _{1}(x) = \\{ \\begin{array}{ll} 2x, 0 \\leq x \\leq 1 \\\\ 0, \\text {其它} \\end{array}, \\varphi _{2}(y) = \\{ \\begin{array}{ll} e^{-(y-5)}, y &gt; 5 \\\\ 0, \\text {其它} \\end{array}, \\\\ \\text {则} E(XY) = ( ). \\end{array}</div>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/probability/ch066/q0003_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"4\">4</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/probability/ch066/q0003_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"5\">5</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/probability/ch066/q0003_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"3\">3</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/probability/ch066/q0003_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"_{\\text{ 2 }}\">_{\\text{ 2 }}</span>"
         }
       ],
       "answer": "A",
       "answer_index": 0,
-      "analysis_html": "<img src=\"/static/generated/assets/probability/ch066/q0003_analysis.png\"/>"
+      "analysis_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{aligned}\\text{解法一}\\quad&amp;\\text{由独立性，}\\\\&amp;E(XY)=E(X)\\cdot E(Y)=\\int_{0}^{1}x\\cdot 2xdx\\int_{0}^{+\\infty}ye^{-(y-5)}dy=\\frac{2}{3}\\times 6=4.\\\\\\text{解法二}\\quad&amp;\\text{令}Z=Y-5,\\text{则}\\\\&amp;E(XY)=E(X)\\cdot E(Y)=\\int_{0}^{1}x\\cdot 2xdx\\cdot E(Z+5)=\\frac{2}{3}\\times (1+5)=4.\\end{aligned}\">\\begin{aligned}\\text{解法一}\\quad&amp;\\text{由独立性，}\\\\&amp;E(XY)=E(X)\\cdot E(Y)=\\int_{0}^{1}x\\cdot 2xdx\\int_{0}^{+\\infty}ye^{-(y-5)}dy=\\frac{2}{3}\\times 6=4.\\\\\\text{解法二}\\quad&amp;\\text{令}Z=Y-5,\\text{则}\\\\&amp;E(XY)=E(X)\\cdot E(Y)=\\int_{0}^{1}x\\cdot 2xdx\\cdot E(Z+5)=\\frac{2}{3}\\times (1+5)=4.\\end{aligned}</div>"
     },
     {
       "id": "q0004",
       "number": 4,
       "header": "#4-Averge",
       "difficulty": "Averge",
-      "prompt_html": "<img src=\"/static/generated/assets/probability/ch066/q0004_prompt.png\"/>",
+      "prompt_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{aligned}\\text{设随机变量}X,Y \\text{相互独立，}x \\text{的概率密度为}f_{x}(x)=\\begin{cases}\\frac{8}{x^{2}}, &amp; x&gt;2 \\\\0, &amp; \\text{其它}\\end{cases},\\;y \\text{的概率密度为}f_{y}(y)=\\begin{cases}2y, &amp; 0&lt;y&lt;1 \\\\0, &amp; \\text{其它}\\end{cases},\\text{则} \\\\E(XY)=\\left( \\cdot \\right).\\end{aligned}\">\\begin{aligned}\\text{设随机变量}X,Y \\text{相互独立，}x \\text{的概率密度为}f_{x}(x)=\\begin{cases}\\frac{8}{x^{2}}, &amp; x&gt;2 \\\\0, &amp; \\text{其它}\\end{cases},\\;y \\text{的概率密度为}f_{y}(y)=\\begin{cases}2y, &amp; 0&lt;y&lt;1 \\\\0, &amp; \\text{其它}\\end{cases},\\text{则} \\\\E(XY)=\\left( \\cdot \\right).\\end{aligned}</div>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/probability/ch066/q0004_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\frac { 8 } { 3 }\">\\frac { 8 } { 3 }</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/probability/ch066/q0004_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\frac { 4 } { 3 }\">\\frac { 4 } { 3 }</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/probability/ch066/q0004_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\frac { 5 } { 3 }\">\\frac { 5 } { 3 }</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/probability/ch066/q0004_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\frac { 7 } { 3 }\">\\frac { 7 } { 3 }</span>"
         }
       ],
       "answer": "A",
       "answer_index": 0,
-      "analysis_html": "<img src=\"/static/generated/assets/probability/ch066/q0004_analysis.png\"/>"
+      "analysis_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{aligned}&amp;E(X)=\\int_{2}^{+\\infty}x\\cdot \\frac{8}{x^{3}}dx=\\int_{2}^{+\\infty}\\frac{8}{x^{3}}dx=4,\\;\\;E(Y)=\\int_{0}^{1}y\\cdot 2ydx=\\int_{0}^{1}2y^{2}dy=\\frac{2}{3}\\,.\\\\&amp;\\text{由于 }X,Y\\text{相互独立，故 }E(XY)=E(X)E(Y)=\\frac{8}{3}\\,.\\end{aligned}\">\\begin{aligned}&amp;E(X)=\\int_{2}^{+\\infty}x\\cdot \\frac{8}{x^{3}}dx=\\int_{2}^{+\\infty}\\frac{8}{x^{3}}dx=4,\\;\\;E(Y)=\\int_{0}^{1}y\\cdot 2ydx=\\int_{0}^{1}2y^{2}dy=\\frac{2}{3}\\,.\\\\&amp;\\text{由于 }X,Y\\text{相互独立，故 }E(XY)=E(X)E(Y)=\\frac{8}{3}\\,.\\end{aligned}</div>"
     },
     {
       "id": "q0005",
       "number": 5,
       "header": "#5-Easy",
       "difficulty": "Easy",
-      "prompt_html": "<img src=\"/static/generated/assets/probability/ch066/q0005_prompt.png\"/>",
+      "prompt_html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{设随机变量}X \\text{表示} 10 \\text{次独立重复射击命中目标的次数，每次射击命中目标概率为} 0.4，\\text{则} E(2X) = (\\text{}).\">\\text{设随机变量}X \\text{表示} 10 \\text{次独立重复射击命中目标的次数，每次射击命中目标概率为} 0.4，\\text{则} E(2X) = (\\text{}).</span>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/probability/ch066/q0005_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"8\">8</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/probability/ch066/q0005_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"4\">4</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/probability/ch066/q0005_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"6\">6</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/probability/ch066/q0005_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"12\">12</span>"
         }
       ],
       "answer": "A",
       "answer_index": 0,
-      "analysis_html": "<img src=\"/static/generated/assets/probability/ch066/q0005_analysis.png\"/>"
+      "analysis_html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{随机变量} \\, X \\text{服从二项分布} \\, B(10,0.4), \\,\\, \\, E(X) = 10 \\times 0.4 = 4, \\, \\text{由此得} \\, E(2X) = 2E(X) = 2 \\times 4 = 8 \\, .\">\\text{随机变量} \\, X \\text{服从二项分布} \\, B(10,0.4), \\,\\, \\, E(X) = 10 \\times 0.4 = 4, \\, \\text{由此得} \\, E(2X) = 2E(X) = 2 \\times 4 = 8 \\, .</span>"
     },
     {
       "id": "q0006",
       "number": 6,
       "header": "#6-Easy",
       "difficulty": "Easy",
-      "prompt_html": "<img src=\"/static/generated/assets/probability/ch066/q0006_prompt.png\"/>",
+      "prompt_html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{已知} \\, P\\{\\xi = k\\} = \\frac{1}{k!e} \\ (k = 0, 1, 2, \\cdots) \\, , \\ \\ \\eta = 4\\xi - 1 \\, , \\ \\text{则} \\ E(\\eta) = (\\ \\ ) \\, .\">\\text{已知} \\, P\\{\\xi = k\\} = \\frac{1}{k!e} \\ (k = 0, 1, 2, \\cdots) \\, , \\ \\ \\eta = 4\\xi - 1 \\, , \\ \\text{则} \\ E(\\eta) = (\\ \\ ) \\, .</span>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/probability/ch066/q0006_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"48\">48</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/probability/ch066/q0006_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"^ 9\">^ 9</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/probability/ch066/q0006_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"28\">28</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/probability/ch066/q0006_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"^ 3\">^ 3</span>"
         }
       ],
       "answer": "D",
       "answer_index": 3,
-      "analysis_html": "<img src=\"/static/generated/assets/probability/ch066/q0006_analysis.png\"/>"
+      "analysis_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{aligned} \\text{由题意知，} \\\\ E(\\xi) = \\sum_{k=1}^{+\\infty} k \\cdot \\frac{1}{k!e} = \\frac{e}{e} = 1 \\, , \\text{从而} \\, E(\\eta) = 4E(\\xi) - 1 = 3 \\, . \\end{aligned}\">\\begin{aligned} \\text{由题意知，} \\\\ E(\\xi) = \\sum_{k=1}^{+\\infty} k \\cdot \\frac{1}{k!e} = \\frac{e}{e} = 1 \\, , \\text{从而} \\, E(\\eta) = 4E(\\xi) - 1 = 3 \\, . \\end{aligned}</div>"
     },
     {
       "id": "q0007",
       "number": 7,
       "header": "#7-Averge",
       "difficulty": "Averge",
-      "prompt_html": "<img src=\"/static/generated/assets/probability/ch066/q0007_prompt.png\"/>",
+      "prompt_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{aligned}\\text{设}(\\xi,\\eta)\\text{的分布律为}\\quad\\begin{array}{|c|c|c|c|}\\hline\\xi\\searrow\\eta&amp;-1&amp;1&amp;2\\\\ \\hline-1&amp;1/4&amp;1/10&amp;3/10\\ ,\\\\ \\hline2&amp;3/20&amp;3/20&amp;1/20\\\\ \\hline\\end{array},\\text{则}E(\\xi-\\eta)=\\left(\\ \\right).\\end{aligned}\">\\begin{aligned}\\text{设}(\\xi,\\eta)\\text{的分布律为}\\quad\\begin{array}{|c|c|c|c|}\\hline\\xi\\searrow\\eta&amp;-1&amp;1&amp;2\\\\ \\hline-1&amp;1/4&amp;1/10&amp;3/10\\ ,\\\\ \\hline2&amp;3/20&amp;3/20&amp;1/20\\\\ \\hline\\end{array},\\text{则}E(\\xi-\\eta)=\\left(\\ \\right).\\end{aligned}</div>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/probability/ch066/q0007_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"- \\frac { 1 } { 2 }\">- \\frac { 1 } { 2 }</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/probability/ch066/q0007_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\frac { 1 } { 2 }\">\\frac { 1 } { 2 }</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/probability/ch066/q0007_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\frac { 1 } { 3 }\">\\frac { 1 } { 3 }</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/probability/ch066/q0007_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"- \\frac { 1 } { 3 }\">- \\frac { 1 } { 3 }</span>"
         }
       ],
       "answer": "A",
       "answer_index": 0,
-      "analysis_html": "<img src=\"/static/generated/assets/probability/ch066/q0007_analysis.png\"/>"
+      "analysis_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{aligned}&amp;\\text{由题意知，} \\ E(\\xi)=(-1)\\times(\\frac{5}{20}+\\frac{2}{20}+\\frac{6}{20})+2\\times(\\frac{3}{20}+\\frac{3}{20}+\\frac{1}{20})=\\frac{1}{20}\\,,\\\\&amp;E(\\eta)=(-1)\\times(\\frac{5}{20}+\\frac{3}{20})+1\\times(\\frac{2}{20}+\\frac{3}{20})+2\\times(\\frac{6}{20}+\\frac{1}{20})=\\frac{11}{20}\\,.\\\\&amp;\\text{故} \\ E(\\xi-\\eta)=E(\\xi)-E(\\eta)=-\\frac{1}{2}\\,.\\end{aligned}\">\\begin{aligned}&amp;\\text{由题意知，} \\ E(\\xi)=(-1)\\times(\\frac{5}{20}+\\frac{2}{20}+\\frac{6}{20})+2\\times(\\frac{3}{20}+\\frac{3}{20}+\\frac{1}{20})=\\frac{1}{20}\\,,\\\\&amp;E(\\eta)=(-1)\\times(\\frac{5}{20}+\\frac{3}{20})+1\\times(\\frac{2}{20}+\\frac{3}{20})+2\\times(\\frac{6}{20}+\\frac{1}{20})=\\frac{11}{20}\\,.\\\\&amp;\\text{故} \\ E(\\xi-\\eta)=E(\\xi)-E(\\eta)=-\\frac{1}{2}\\,.\\end{aligned}</div>"
     },
     {
       "id": "q0008",
       "number": 8,
       "header": "#8-Easy",
       "difficulty": "Easy",
-      "prompt_html": "<img src=\"/static/generated/assets/probability/ch066/q0008_prompt.png\"/>",
+      "prompt_html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{设随机变量}X \\text{服从参数为}p \\text{的}0-1 \\text{分布，则}E(X)=()\\text{.}\">\\text{设随机变量}X \\text{服从参数为}p \\text{的}0-1 \\text{分布，则}E(X)=()\\text{.}</span>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/probability/ch066/q0008_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"p\">p</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/probability/ch066/q0008_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\begin{aligned}1-p\\end{aligned}\">\\begin{aligned}1-p\\end{aligned}</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/probability/ch066/q0008_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"0\">0</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/probability/ch066/q0008_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"1\">1</span>"
         }
       ],
       "answer": "A",
       "answer_index": 0,
-      "analysis_html": "<img src=\"/static/generated/assets/probability/ch066/q0008_analysis.png\"/>"
+      "analysis_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{aligned}&amp;\\text{依题意，}X\\text{的分布律为}\\\\&amp;\\begin{bmatrix}x&amp;0&amp;1\\\\ \\hline P&amp;1-p&amp;p\\end{bmatrix}\\\\&amp;\\text{由}E(X)=\\sum_{i=1}^{n}x_ip_i,\\ \\text{有}E(X)=0\\cdot(1-p)+1\\cdot p=p.\\end{aligned}\">\\begin{aligned}&amp;\\text{依题意，}X\\text{的分布律为}\\\\&amp;\\begin{bmatrix}x&amp;0&amp;1\\\\ \\hline P&amp;1-p&amp;p\\end{bmatrix}\\\\&amp;\\text{由}E(X)=\\sum_{i=1}^{n}x_ip_i,\\ \\text{有}E(X)=0\\cdot(1-p)+1\\cdot p=p.\\end{aligned}</div>"
     },
     {
       "id": "q0009",
       "number": 9,
       "header": "#9-Averge",
       "difficulty": "Averge",
-      "prompt_html": "<img src=\"/static/generated/assets/probability/ch066/q0009_prompt.png\"/>",
+      "prompt_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\text{设随机变量}X,Y \\text{同分布，概率密度为}f(x)=\\begin{cases}2x\\theta^{2},&amp;0&lt;x&lt;\\frac{1}{\\theta},\\\\ 0,&amp;\\text{其它}\\end{cases},\\text{使}E(C(X+2Y))=\\frac{1}{\\theta}\\text{的}C=().\">\\text{设随机变量}X,Y \\text{同分布，概率密度为}f(x)=\\begin{cases}2x\\theta^{2},&amp;0&lt;x&lt;\\frac{1}{\\theta},\\\\ 0,&amp;\\text{其它}\\end{cases},\\text{使}E(C(X+2Y))=\\frac{1}{\\theta}\\text{的}C=().</div>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/probability/ch066/q0009_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\frac { 1 } { 2 }\">\\frac { 1 } { 2 }</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/probability/ch066/q0009_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\frac { 1 } { 3 }\">\\frac { 1 } { 3 }</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/probability/ch066/q0009_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\frac { 1 } { 2 \\theta ^ { 2 } }\">\\frac { 1 } { 2 \\theta ^ { 2 } }</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/probability/ch066/q0009_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\frac { 2 } { 3 \\theta }\">\\frac { 2 } { 3 \\theta }</span>"
         }
       ],
       "answer": "A",
       "answer_index": 0,
-      "analysis_html": "<img src=\"/static/generated/assets/probability/ch066/q0009_analysis.png\"/>"
+      "analysis_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{aligned}&amp;\\text{因}X,Y\\text{同分布，故}\\\\&amp;E(C(X+2Y))=E(CX)+2E(CY)=3CE(X)\\,,\\\\&amp;\\text{又}E(X)=\\int_{0}^{1/\\theta}x\\cdot 2x\\theta^{2}dx=\\frac{2}{3\\theta}\\,,\\\\&amp;\\text{故}3C\\cdot \\frac{2}{3\\theta}=\\frac{1}{\\theta}\\,,\\text{得}C=\\frac{1}{2}\\,.\\end{aligned}\">\\begin{aligned}&amp;\\text{因}X,Y\\text{同分布，故}\\\\&amp;E(C(X+2Y))=E(CX)+2E(CY)=3CE(X)\\,,\\\\&amp;\\text{又}E(X)=\\int_{0}^{1/\\theta}x\\cdot 2x\\theta^{2}dx=\\frac{2}{3\\theta}\\,,\\\\&amp;\\text{故}3C\\cdot \\frac{2}{3\\theta}=\\frac{1}{\\theta}\\,,\\text{得}C=\\frac{1}{2}\\,.\\end{aligned}</div>"
     },
     {
       "id": "q0010",
       "number": 10,
       "header": "#10-Easy",
       "difficulty": "Easy",
-      "prompt_html": "<img src=\"/static/generated/assets/probability/ch066/q0010_prompt.png\"/>",
+      "prompt_html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{设随机变量}X\\text{与}Y\\text{互相独立，且}X\\text{服从区间}[0,2]\\text{上的均匀分布，}Y\\text{服从参数为}3\\text{的指数分布，则}E(XY)=()\\text{.}\">\\text{设随机变量}X\\text{与}Y\\text{互相独立，且}X\\text{服从区间}[0,2]\\text{上的均匀分布，}Y\\text{服从参数为}3\\text{的指数分布，则}E(XY)=()\\text{.}</span>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/probability/ch066/q0010_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\frac { 1 } { 3 }\">\\frac { 1 } { 3 }</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/probability/ch066/q0010_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"1\">1</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/probability/ch066/q0010_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\frac { 4 } { 3 }\">\\frac { 4 } { 3 }</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/probability/ch066/q0010_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"^ 3\">^ 3</span>"
         }
       ],
       "answer": "A",
       "answer_index": 0,
-      "analysis_html": "<img src=\"/static/generated/assets/probability/ch066/q0010_analysis.png\"/>"
+      "analysis_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{aligned}\\text{方法一，用期望的性质和重要分布的数字特征公式来计算。因为}\\\\E(XY)=E(X)E(Y),\\text{又}E(X)=1,\\ E(Y)=\\frac{1}{3},\\\\ \\text{所以}E(XY)=\\frac{1}{3}.\\\\\\text{方法二，用随机变量函数的期望公式来计算。}\\\\ \\text{因为}X\\text{与}Y\\text{相互独立，且}\\\\f_{x}(x)=\\begin{cases}\\frac{1}{2},\\ 0\\leq x\\leq 2\\\\0,\\ \\text{其它}\\end{cases},\\ \\ f_{y}(y)=\\begin{cases}3e^{-y},\\ y&gt;0\\\\0,\\ \\ y\\leq 0\\end{cases}\\\\ \\text{所以}(X,Y)\\text{的联合分布密度函数为}f(x,y)=\\begin{cases}\\frac{3}{2}e^{-3y},\\ 0\\leq x\\leq 2,y&gt;0\\\\0,\\ \\text{其它}\\end{cases},\\ \\text{所以}\\\\E(XY)=\\int_{-\\infty}^{+\\infty}xyef(x,y)dx dy=\\frac{3}{2}\\int_{0}^{2}dx\\int_{0}^{+\\infty}xye^{-3y}dy=\\frac{1}{3}.\\end{aligned}\">\\begin{aligned}\\text{方法一，用期望的性质和重要分布的数字特征公式来计算。因为}\\\\E(XY)=E(X)E(Y),\\text{又}E(X)=1,\\ E(Y)=\\frac{1}{3},\\\\ \\text{所以}E(XY)=\\frac{1}{3}.\\\\\\text{方法二，用随机变量函数的期望公式来计算。}\\\\ \\text{因为}X\\text{与}Y\\text{相互独立，且}\\\\f_{x}(x)=\\begin{cases}\\frac{1}{2},\\ 0\\leq x\\leq 2\\\\0,\\ \\text{其它}\\end{cases},\\ \\ f_{y}(y)=\\begin{cases}3e^{-y},\\ y&gt;0\\\\0,\\ \\ y\\leq 0\\end{cases}\\\\ \\text{所以}(X,Y)\\text{的联合分布密度函数为}f(x,y)=\\begin{cases}\\frac{3}{2}e^{-3y},\\ 0\\leq x\\leq 2,y&gt;0\\\\0,\\ \\text{其它}\\end{cases},\\ \\text{所以}\\\\E(XY)=\\int_{-\\infty}^{+\\infty}xyef(x,y)dx dy=\\frac{3}{2}\\int_{0}^{2}dx\\int_{0}^{+\\infty}xye^{-3y}dy=\\frac{1}{3}.\\end{aligned}</div>"
     },
     {
       "id": "q0011",
       "number": 11,
       "header": "#11-Easy",
       "difficulty": "Easy",
-      "prompt_html": "<img src=\"/static/generated/assets/probability/ch066/q0011_prompt.png\"/>",
+      "prompt_html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{随机变量}\\,\\xi \\text{服从几何分布}\\,P\\{\\xi=k\\}=p(1-p)^{k-1}(k=1,2,...,),\\,\\,\\text{则}\\,E(\\xi)=(\\,).\">\\text{随机变量}\\,\\xi \\text{服从几何分布}\\,P\\{\\xi=k\\}=p(1-p)^{k-1}(k=1,2,...,),\\,\\,\\text{则}\\,E(\\xi)=(\\,).</span>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/probability/ch066/q0011_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\frac { 1 } { p }\">\\frac { 1 } { p }</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/probability/ch066/q0011_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"p(1\\!-\\!p)\">p(1\\!-\\!p)</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/probability/ch066/q0011_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"p\">p</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/probability/ch066/q0011_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"k p\">k p</span>"
         }
       ],
       "answer": "A",
       "answer_index": 0,
-      "analysis_html": "<img src=\"/static/generated/assets/probability/ch066/q0011_analysis.png\"/>"
+      "analysis_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{aligned}E(\\xi)=&amp;\\sum_{k=1}^{\\infty}k\\cdot p(1-p)^{k-1}=p[1-\\sum_{k=0}^{\\infty}(1-p)^{k}]^{\\prime}\\\\=&amp;p[1-\\frac{1}{1-(1-p)}]^{\\prime}=p\\cdot \\frac{1}{p^{2}}=\\frac{1}{p}\\,.\\end{aligned}\">\\begin{aligned}E(\\xi)=&amp;\\sum_{k=1}^{\\infty}k\\cdot p(1-p)^{k-1}=p[1-\\sum_{k=0}^{\\infty}(1-p)^{k}]^{\\prime}\\\\=&amp;p[1-\\frac{1}{1-(1-p)}]^{\\prime}=p\\cdot \\frac{1}{p^{2}}=\\frac{1}{p}\\,.\\end{aligned}</div>"
     },
     {
       "id": "q0012",
       "number": 12,
       "header": "#12-Easy",
       "difficulty": "Easy",
-      "prompt_html": "<img src=\"/static/generated/assets/probability/ch066/q0012_prompt.png\"/>",
+      "prompt_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{array}{l}\n\\begin{array}{|c|c|c|c|} \\hline \\hline \\lambda &amp; -1 &amp; 0 &amp; 1 \\\\ \\hline\n1 &amp; 0.2 &amp; 0.1 &amp; 0.1 \\\\\n2 &amp; 0.1 &amp; 0 &amp; 0.1 \\\\\n3 &amp; 0 &amp; 0.3 &amp; 0.1 \\\\ \\hline \\end{array}\n\\text{则} E(X)，E(Y) \\text{分别为}（）。\n\n\\end{array}\">\\begin{array}{l}\n\\begin{array}{|c|c|c|c|} \\hline \\hline \\lambda &amp; -1 &amp; 0 &amp; 1 \\\\ \\hline\n1 &amp; 0.2 &amp; 0.1 &amp; 0.1 \\\\\n2 &amp; 0.1 &amp; 0 &amp; 0.1 \\\\\n3 &amp; 0 &amp; 0.3 &amp; 0.1 \\\\ \\hline \\end{array}\n\\text{则} E(X)，E(Y) \\text{分别为}（）。\n\n\\end{array}</div>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/probability/ch066/q0012_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\texttt{2, 0}\">\\texttt{2, 0}</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/probability/ch066/q0012_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"_{\\text{ 0 , 2 }}\">_{\\text{ 0 , 2 }}</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/probability/ch066/q0012_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"_{\\text{ 1 , 2 }}\">_{\\text{ 1 , 2 }}</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/probability/ch066/q0012_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\texttt { 1 , 0 }\">\\texttt { 1 , 0 }</span>"
         }
       ],
       "answer": "A",
       "answer_index": 0,
-      "analysis_html": "<img src=\"/static/generated/assets/probability/ch066/q0012_analysis.png\"/>"
+      "analysis_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{aligned}E(X) = 1 \\times 0.4 + 2 \\times 0.2 + 3 \\times 0.4 = 2 \\; , \\; \\; E(Y) = (-1) \\times 0.3 + 0 \\times 0.4 + 1 \\times 0.3 = 0 \\; .\\end{aligned}\">\\begin{aligned}E(X) = 1 \\times 0.4 + 2 \\times 0.2 + 3 \\times 0.4 = 2 \\; , \\; \\; E(Y) = (-1) \\times 0.3 + 0 \\times 0.4 + 1 \\times 0.3 = 0 \\; .\\end{aligned}</div>"
     },
     {
       "id": "q0013",
       "number": 13,
       "header": "#13-Easy",
       "difficulty": "Easy",
-      "prompt_html": "<img src=\"/static/generated/assets/probability/ch066/q0013_prompt.png\"/>",
+      "prompt_html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{设随机变量}X\\text{的所有可能取值为}1\\text{和}a，\\text{且}P(X=1)=0.4，E(X)=0.2，\\text{则}a=(\\enspace).\">\\text{设随机变量}X\\text{的所有可能取值为}1\\text{和}a，\\text{且}P(X=1)=0.4，E(X)=0.2，\\text{则}a=(\\enspace).</span>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/probability/ch066/q0013_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"- \\frac { 1 } { 3 }\">- \\frac { 1 } { 3 }</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/probability/ch066/q0013_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"- 1\">- 1</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/probability/ch066/q0013_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\frac { 1 } { 2 }\">\\frac { 1 } { 2 }</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/probability/ch066/q0013_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\frac { 1 } { 4 }\">\\frac { 1 } { 4 }</span>"
         }
       ],
       "answer": "A",
       "answer_index": 0,
-      "analysis_html": "<img src=\"/static/generated/assets/probability/ch066/q0013_analysis.png\"/>"
+      "analysis_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{aligned}&amp;E(X)=1\\times 0.4+a\\times (1-0.4)=0.2\\,,\\\\&amp;\\text{得}a=-\\frac{1}{3}\\,.\\end{aligned}\">\\begin{aligned}&amp;E(X)=1\\times 0.4+a\\times (1-0.4)=0.2\\,,\\\\&amp;\\text{得}a=-\\frac{1}{3}\\,.\\end{aligned}</div>"
     },
     {
       "id": "q0014",
       "number": 14,
       "header": "#14-Averge",
       "difficulty": "Averge",
-      "prompt_html": "<img src=\"/static/generated/assets/probability/ch066/q0014_prompt.png\"/>",
+      "prompt_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\text{连续随机变量} \\, \\lambda \\, \\text{的概率密度为} \\, f(x) = \\begin{cases} \\dfrac{32}{(x+4)^3}, \\ x&gt;0 \\\\ 0, \\quad \\text{其它} \\end{cases}, \\text{设} \\ Y=X+4, \\text{则} \\ E(Y)=()\\,.\">\\text{连续随机变量} \\, \\lambda \\, \\text{的概率密度为} \\, f(x) = \\begin{cases} \\dfrac{32}{(x+4)^3}, \\ x&gt;0 \\\\ 0, \\quad \\text{其它} \\end{cases}, \\text{设} \\ Y=X+4, \\text{则} \\ E(Y)=()\\,.</div>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/probability/ch066/q0014_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"8\">8</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/probability/ch066/q0014_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"6\">6</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/probability/ch066/q0014_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"4\">4</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/probability/ch066/q0014_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"10\">10</span>"
         }
       ],
       "answer": "A",
       "answer_index": 0,
-      "analysis_html": "<img src=\"/static/generated/assets/probability/ch066/q0014_analysis.png\"/>"
+      "analysis_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{aligned}E(X) &amp; = \\int_{0}^{+\\infty} \\frac{32x}{\\left(x+4\\right)^{3}}dx = 32 \\int_{0}^{+\\infty} \\frac{\\left(x+4\\right)}{\\left(x+4\\right)^{3}}dx - 128 \\int_{0}^{+\\infty} \\frac{1}{\\left(x+4\\right)^{3}}dx = 4\\ . \\\\\\text{则} \\ E(Y) &amp; = E(X+4) = 8\\ .\\end{aligned}\">\\begin{aligned}E(X) &amp; = \\int_{0}^{+\\infty} \\frac{32x}{\\left(x+4\\right)^{3}}dx = 32 \\int_{0}^{+\\infty} \\frac{\\left(x+4\\right)}{\\left(x+4\\right)^{3}}dx - 128 \\int_{0}^{+\\infty} \\frac{1}{\\left(x+4\\right)^{3}}dx = 4\\ . \\\\\\text{则} \\ E(Y) &amp; = E(X+4) = 8\\ .\\end{aligned}</div>"
     },
     {
       "id": "q0015",
       "number": 15,
       "header": "#15-Averge",
       "difficulty": "Averge",
-      "prompt_html": "<img src=\"/static/generated/assets/probability/ch066/q0015_prompt.png\"/>",
+      "prompt_html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{设随机变量} \\lambda \\text{的分布列为} P\\{X=k\\} = \\frac{a^{k}}{(1+a)^{k+1}}\\,,\\,\\,\\,k=0,1,2,\\cdots,\\,\\text{其中} \\, a&gt;0\\,.\\,\\,\\text{则} \\, E(X)=(\\,\\,).\">\\text{设随机变量} \\lambda \\text{的分布列为} P\\{X=k\\} = \\frac{a^{k}}{(1+a)^{k+1}}\\,,\\,\\,\\,k=0,1,2,\\cdots,\\,\\text{其中} \\, a&gt;0\\,.\\,\\,\\text{则} \\, E(X)=(\\,\\,).</span>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/probability/ch066/q0015_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"a\">a</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/probability/ch066/q0015_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\frac { 1 } { a }\">\\frac { 1 } { a }</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/probability/ch066/q0015_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"a ^ { 2 }\">a ^ { 2 }</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/probability/ch066/q0015_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\frac { 1 } { a ^ { 2 } }\">\\frac { 1 } { a ^ { 2 } }</span>"
         }
       ],
       "answer": "A",
       "answer_index": 0,
-      "analysis_html": "<img src=\"/static/generated/assets/probability/ch066/q0015_analysis.png\"/>"
+      "analysis_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{aligned}E(X) &amp;= \\sum_{k=0}^{\\infty} k \\frac{a^k}{(1+a)^{k+1}} = \\sum_{k=1}^{\\infty} k \\frac{a^{k-1}}{(1+a)^{k-1}} \\frac{a}{(1+a)^2} \\\\&amp;= \\sum_{k=1}^{\\infty} k (\\frac{a}{1+a})^{k-1} \\frac{a}{(1+a)^2} = \\frac{1}{(1-\\frac{a}{1+a})^2} \\cdot \\frac{a}{(1+a)^2} \\\\&amp;= (1+a)^2 \\frac{a}{(1+a)^2} = a \\,.\\end{aligned}\">\\begin{aligned}E(X) &amp;= \\sum_{k=0}^{\\infty} k \\frac{a^k}{(1+a)^{k+1}} = \\sum_{k=1}^{\\infty} k \\frac{a^{k-1}}{(1+a)^{k-1}} \\frac{a}{(1+a)^2} \\\\&amp;= \\sum_{k=1}^{\\infty} k (\\frac{a}{1+a})^{k-1} \\frac{a}{(1+a)^2} = \\frac{1}{(1-\\frac{a}{1+a})^2} \\cdot \\frac{a}{(1+a)^2} \\\\&amp;= (1+a)^2 \\frac{a}{(1+a)^2} = a \\,.\\end{aligned}</div>"
     },
     {
       "id": "q0016",
       "number": 16,
       "header": "#16-Averge",
       "difficulty": "Averge",
-      "prompt_html": "<img src=\"/static/generated/assets/probability/ch066/q0016_prompt.png\"/>",
+      "prompt_html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{设随机变量} \\xi_{1}, \\xi_{2}, \\cdots, \\xi_{n} \\text{是} n \\text{个相互独立同分布的随机变量，且都服从} B(1,p) \\text{分布，则} E\\left(\\xi_{k} \\sum_{i=1}^{n} \\xi_{i}\\right)=()\\,.\">\\text{设随机变量} \\xi_{1}, \\xi_{2}, \\cdots, \\xi_{n} \\text{是} n \\text{个相互独立同分布的随机变量，且都服从} B(1,p) \\text{分布，则} E\\left(\\xi_{k} \\sum_{i=1}^{n} \\xi_{i}\\right)=()\\,.</span>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/probability/ch066/q0016_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\begin{aligned}p[1+(n-1)p]\\end{aligned}\">\\begin{aligned}p[1+(n-1)p]\\end{aligned}</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/probability/ch066/q0016_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"(n - 1) p ^ { 2 }\">(n - 1) p ^ { 2 }</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/probability/ch066/q0016_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"n p ^ { 2 }\">n p ^ { 2 }</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/probability/ch066/q0016_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"p + n p ^ { 2 }\">p + n p ^ { 2 }</span>"
         }
       ],
       "answer": "A",
       "answer_index": 0,
-      "analysis_html": "<img src=\"/static/generated/assets/probability/ch066/q0016_analysis.png\"/>"
+      "analysis_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{aligned}E\\bigg(\\xi_i\\sum_{i=1}^n \\xi_i\\bigg)&amp;=E(\\xi_i^2)+E\\big(\\sum_{i=1}^n \\xi_i \\xi_i\\big)=E(\\xi_k^2)+\\sum_{\\substack{i=1\\\\i\\neq k}}^n E(\\xi_i\\xi_i)=E(\\xi_k^2)+\\sum_{\\substack{i=1\\\\i\\neq k}}^n E(\\xi_k)E(\\xi_i)\\\\&amp;=p+(n-1)p^2=p[1+(n-1)p]\\,.\\end{aligned}\">\\begin{aligned}E\\bigg(\\xi_i\\sum_{i=1}^n \\xi_i\\bigg)&amp;=E(\\xi_i^2)+E\\big(\\sum_{i=1}^n \\xi_i \\xi_i\\big)=E(\\xi_k^2)+\\sum_{\\substack{i=1\\\\i\\neq k}}^n E(\\xi_i\\xi_i)=E(\\xi_k^2)+\\sum_{\\substack{i=1\\\\i\\neq k}}^n E(\\xi_k)E(\\xi_i)\\\\&amp;=p+(n-1)p^2=p[1+(n-1)p]\\,.\\end{aligned}</div>"
     },
     {
       "id": "q0017",
       "number": 17,
       "header": "#17-Averge",
       "difficulty": "Averge",
-      "prompt_html": "<img src=\"/static/generated/assets/probability/ch066/q0017_prompt.png\"/>",
+      "prompt_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{array}{l} \\text{设随机变量}X_{i,j}\\text{独立同分布，}E(X_{i,j})=3,(i,j=1,2),\\text{则行列式}Y=\\begin{vmatrix} X_{11}&amp;X_{12}\\\\ X_{21}&amp;X_{22}\\end{vmatrix}\\text{的数学期望为()。} \\end{array}\">\\begin{array}{l} \\text{设随机变量}X_{i,j}\\text{独立同分布，}E(X_{i,j})=3,(i,j=1,2),\\text{则行列式}Y=\\begin{vmatrix} X_{11}&amp;X_{12}\\\\ X_{21}&amp;X_{22}\\end{vmatrix}\\text{的数学期望为()。} \\end{array}</div>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/probability/ch066/q0017_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"0\">0</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/probability/ch066/q0017_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"^ 3\">^ 3</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/probability/ch066/q0017_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"9\">9</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/probability/ch066/q0017_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"81\">81</span>"
         }
       ],
       "answer": "A",
       "answer_index": 0,
-      "analysis_html": "<img src=\"/static/generated/assets/probability/ch066/q0017_analysis.png\"/>"
+      "analysis_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{aligned}E(Y) &amp; = E(X_{11}X_{22}) - E(X_{12}X_{21}) \\\\&amp; = E(X_{11})E(X_{22}) - E(X_{12})E(X_{21}) \\, = 9 - 9 = 0 \\; .\\end{aligned}\">\\begin{aligned}E(Y) &amp; = E(X_{11}X_{22}) - E(X_{12}X_{21}) \\\\&amp; = E(X_{11})E(X_{22}) - E(X_{12})E(X_{21}) \\, = 9 - 9 = 0 \\; .\\end{aligned}</div>"
     },
     {
       "id": "q0018",
       "number": 18,
       "header": "#18-Averge",
       "difficulty": "Averge",
-      "prompt_html": "<img src=\"/static/generated/assets/probability/ch066/q0018_prompt.png\"/>",
+      "prompt_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{aligned}\\text{设} \\; X_{1}, X_{i}, \\cdots, X_{n} \\text{为} n \\text{个随机变量，且具有相同的分布列：} \\; X_{i} \\sim \\begin{pmatrix} -1 &amp; 1 &amp; 2 \\\\ 1 &amp; 1 &amp; 1 \\\\ 6 &amp; 2 &amp; 3 \\end{pmatrix}, \\; i = 1, 2, \\cdots, n. \\; \\text{则} \\; E\\bigg(\\sum_{i=1}^{n} X_{i}^{2}\\bigg) = (\\;).\\end{aligned}\">\\begin{aligned}\\text{设} \\; X_{1}, X_{i}, \\cdots, X_{n} \\text{为} n \\text{个随机变量，且具有相同的分布列：} \\; X_{i} \\sim \\begin{pmatrix} -1 &amp; 1 &amp; 2 \\\\ 1 &amp; 1 &amp; 1 \\\\ 6 &amp; 2 &amp; 3 \\end{pmatrix}, \\; i = 1, 2, \\cdots, n. \\; \\text{则} \\; E\\bigg(\\sum_{i=1}^{n} X_{i}^{2}\\bigg) = (\\;).\\end{aligned}</div>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/probability/ch066/q0018_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"2 n\">2 n</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/probability/ch066/q0018_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"n\">n</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/probability/ch066/q0018_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"3 n\">3 n</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/probability/ch066/q0018_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\frac { n } { 2 }\">\\frac { n } { 2 }</span>"
         }
       ],
       "answer": "A",
       "answer_index": 0,
-      "analysis_html": "<img src=\"/static/generated/assets/probability/ch066/q0018_analysis.png\"/>"
+      "analysis_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{aligned} \\text{由于} \\, X_i \\, (i=1,2,\\cdots,n) \\text{服从相同的分布，所有} \\, E(X_i^2) = (-1)^2 \\times \\frac{1}{6} + 1 \\times \\frac{1}{2} + 2^2 \\times \\frac{1}{3} = 2 \\, . \\, \\text{于是，} \\\\ E\\left(\\sum_{i=1}^n X_i^2 \\right) = \\sum_{i=1}^n E(X_i^2) = 2n \\, . \\end{aligned}\">\\begin{aligned} \\text{由于} \\, X_i \\, (i=1,2,\\cdots,n) \\text{服从相同的分布，所有} \\, E(X_i^2) = (-1)^2 \\times \\frac{1}{6} + 1 \\times \\frac{1}{2} + 2^2 \\times \\frac{1}{3} = 2 \\, . \\, \\text{于是，} \\\\ E\\left(\\sum_{i=1}^n X_i^2 \\right) = \\sum_{i=1}^n E(X_i^2) = 2n \\, . \\end{aligned}</div>"
     },
     {
       "id": "q0019",
       "number": 19,
       "header": "#19-Easy",
       "difficulty": "Easy",
-      "prompt_html": "<img src=\"/static/generated/assets/probability/ch066/q0019_prompt.png\"/>",
+      "prompt_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{array}{l} \\text {设随机变量}X_{1},X_{2},\\cdots,X_{n} \\text{相互独立}，\\text{并且服从同一分布}；\\text{数学期望为}a，\\text{方差为}\\sigma^{2}，\\text{令}\\overline{X_{n}}=\\frac{1}{n}\\sum_{i=1}^{n}X_{i},\\text {则} \\\\ E(\\overline{X_{n}})=()\\ . \\end{array}\">\\begin{array}{l} \\text {设随机变量}X_{1},X_{2},\\cdots,X_{n} \\text{相互独立}，\\text{并且服从同一分布}；\\text{数学期望为}a，\\text{方差为}\\sigma^{2}，\\text{令}\\overline{X_{n}}=\\frac{1}{n}\\sum_{i=1}^{n}X_{i},\\text {则} \\\\ E(\\overline{X_{n}})=()\\ . \\end{array}</div>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/probability/ch066/q0019_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\". \\, a\">. \\, a</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/probability/ch066/q0019_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"n a\">n a</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/probability/ch066/q0019_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\sigma ^ { 2 }\">\\sigma ^ { 2 }</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/probability/ch066/q0019_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\frac { \\sigma ^ { 2 } } { n }\">\\frac { \\sigma ^ { 2 } } { n }</span>"
         }
       ],
       "answer": "A",
       "answer_index": 0,
-      "analysis_html": "<img src=\"/static/generated/assets/probability/ch066/q0019_analysis.png\"/>"
+      "analysis_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{array}{l} E (\\overline {X _ {n}}) = E \\Bigg ( \\frac {1}{n} \\sum_ {i = 1} ^ {n} X _ {i} \\Bigg ) = \\frac {1}{n} E \\bigg ( \\sum_ {i = 1} ^ {n} X _ {i} \\bigg ) = \\frac {1}{n} \\sum_ {i = 1} ^ {n} E (X _ {i}) = \\frac {1}{n} n a = a \\, . \\end{array}\">\\begin{array}{l} E (\\overline {X _ {n}}) = E \\Bigg ( \\frac {1}{n} \\sum_ {i = 1} ^ {n} X _ {i} \\Bigg ) = \\frac {1}{n} E \\bigg ( \\sum_ {i = 1} ^ {n} X _ {i} \\bigg ) = \\frac {1}{n} \\sum_ {i = 1} ^ {n} E (X _ {i}) = \\frac {1}{n} n a = a \\, . \\end{array}</div>"
     },
     {
       "id": "q0020",
       "number": 20,
       "header": "#20-Easy",
       "difficulty": "Easy",
-      "prompt_html": "<img src=\"/static/generated/assets/probability/ch066/q0020_prompt.png\"/>",
+      "prompt_html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{设} \\xi _ { 1 } , \\xi _ { 2 } \\text{都服从区间} [ 0 , 2 ] \\text{上的均匀分布，则} E ( \\xi _ { 1 } + \\xi _ { 2 } ) = ( ) .\">\\text{设} \\xi _ { 1 } , \\xi _ { 2 } \\text{都服从区间} [ 0 , 2 ] \\text{上的均匀分布，则} E ( \\xi _ { 1 } + \\xi _ { 2 } ) = ( ) .</span>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/probability/ch066/q0020_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"2\">2</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/probability/ch066/q0020_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\mathbf { 1 }\">\\mathbf { 1 }</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/probability/ch066/q0020_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"0.5\">0.5</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/probability/ch066/q0020_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"4\">4</span>"
         }
       ],
       "answer": "A",
       "answer_index": 0,
-      "analysis_html": "<img src=\"/static/generated/assets/probability/ch066/q0020_analysis.png\"/>"
+      "analysis_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{aligned}&amp; \\text{由于}\\,\\xi_1,\\xi_2 \\text{都服从区间} [0,2]\\text{上的均匀分布，则} E(\\xi_1)=E(\\xi_2)=\\frac{0+2}{2}=1\\,.\\quad\\\\&amp; \\text{再由数学期望的性质知，} \\,\\, E(\\xi_1+\\xi_2)=E(\\xi_1)+E(\\xi_2)=2\\,.\\end{aligned}\">\\begin{aligned}&amp; \\text{由于}\\,\\xi_1,\\xi_2 \\text{都服从区间} [0,2]\\text{上的均匀分布，则} E(\\xi_1)=E(\\xi_2)=\\frac{0+2}{2}=1\\,.\\quad\\\\&amp; \\text{再由数学期望的性质知，} \\,\\, E(\\xi_1+\\xi_2)=E(\\xi_1)+E(\\xi_2)=2\\,.\\end{aligned}</div>"
     },
     {
       "id": "q0021",
       "number": 21,
       "header": "#21-Averge",
       "difficulty": "Averge",
-      "prompt_html": "<img src=\"/static/generated/assets/probability/ch066/q0021_prompt.png\"/>",
+      "prompt_html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{设} \\, P \\bigl \\{ X = n \\bigr \\} = a ^ { n } ( a &gt; 0 , n \\geq 1 ) \\, , \\, \\text{且} \\, E ( X ) = 1 \\, , \\, \\text{则} \\, a \\text{的值为} \\, ( \\, ) \\, .\">\\text{设} \\, P \\bigl \\{ X = n \\bigr \\} = a ^ { n } ( a &gt; 0 , n \\geq 1 ) \\, , \\, \\text{且} \\, E ( X ) = 1 \\, , \\, \\text{则} \\, a \\text{的值为} \\, ( \\, ) \\, .</span>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/probability/ch066/q0021_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\frac { 3 - \\sqrt { 5 } } { 2 }\">\\frac { 3 - \\sqrt { 5 } } { 2 }</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/probability/ch066/q0021_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\frac { 3 + \\sqrt { 5 } } { 2 }\">\\frac { 3 + \\sqrt { 5 } } { 2 }</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/probability/ch066/q0021_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\frac {3 + \\sqrt {6}}{2}\">\\frac {3 + \\sqrt {6}}{2}</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/probability/ch066/q0021_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"1\">1</span>"
         }
       ],
       "answer": "A",
       "answer_index": 0,
-      "analysis_html": "<img src=\"/static/generated/assets/probability/ch066/q0021_analysis.png\"/>"
+      "analysis_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{aligned}&amp;\\text{由于}P\\{X=n\\}=a^{n}\\leq 1,\\text{且}\\sum_{n=1}^{\\infty}a^{n}=1,\\text{故}|a|&lt;1,\\\\&amp;\\text{又}E(X)=\\sum_{n=1}^{\\infty}na^{n}=1,\\text{且}\\\\&amp;f(x)=\\sum_{n=1}^{\\infty}nx^{a}=x\\sum_{n=1}^{\\infty}nx^{a-1}x(\\frac{1}{1-x})^{\\prime}=\\frac{x}{(1-x)^{2}},\\\\&amp;\\text{故}\\frac{a}{(1-a)^{2}}=1,\\text{即}\\ a^{2}-3a+1=0,\\text{解得满足}|a|&lt;1\\text{的根为}a=\\frac{3-\\sqrt{5}}{2}\\,.\\end{aligned}\">\\begin{aligned}&amp;\\text{由于}P\\{X=n\\}=a^{n}\\leq 1,\\text{且}\\sum_{n=1}^{\\infty}a^{n}=1,\\text{故}|a|&lt;1,\\\\&amp;\\text{又}E(X)=\\sum_{n=1}^{\\infty}na^{n}=1,\\text{且}\\\\&amp;f(x)=\\sum_{n=1}^{\\infty}nx^{a}=x\\sum_{n=1}^{\\infty}nx^{a-1}x(\\frac{1}{1-x})^{\\prime}=\\frac{x}{(1-x)^{2}},\\\\&amp;\\text{故}\\frac{a}{(1-a)^{2}}=1,\\text{即}\\ a^{2}-3a+1=0,\\text{解得满足}|a|&lt;1\\text{的根为}a=\\frac{3-\\sqrt{5}}{2}\\,.\\end{aligned}</div>"
     },
     {
       "id": "q0022",
       "number": 22,
       "header": "#22-Easy",
       "difficulty": "Easy",
-      "prompt_html": "<img src=\"/static/generated/assets/probability/ch066/q0022_prompt.png\"/>",
+      "prompt_html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{掷2颗骰子，设}X \\text{为第}1 \\text{颗掷出的点数，}Y \\text{为第}2 \\text{颗骰子掷出的点数.则}E(X+Y),\\ E(XY)\\text{分别为}().\">\\text{掷2颗骰子，设}X \\text{为第}1 \\text{颗掷出的点数，}Y \\text{为第}2 \\text{颗骰子掷出的点数.则}E(X+Y),\\ E(XY)\\text{分别为}().</span>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/probability/ch066/q0022_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\frac {7}{3}, \\ \\frac {49}{4}\">\\frac {7}{3}, \\ \\frac {49}{4}</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/probability/ch066/q0022_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\frac { 7 } { 3 } \\, , \\ \\frac { 49 } { 4 }\">\\frac { 7 } { 3 } \\, , \\ \\frac { 49 } { 4 }</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/probability/ch066/q0022_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"7, \\, \\frac {49}{4}\">7, \\, \\frac {49}{4}</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/probability/ch066/q0022_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"7 \\, , \\ \\frac { 49 } { 6 }\">7 \\, , \\ \\frac { 49 } { 6 }</span>"
         }
       ],
       "answer": "C",
       "answer_index": 2,
-      "analysis_html": "<img src=\"/static/generated/assets/probability/ch066/q0022_analysis.png\"/>"
+      "analysis_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{aligned}&amp;E(X)=\\frac{7}{2}\\;,\\;\\;E(Y)=\\frac{7}{2}\\;,\\; \\text{且} \\; X,Y \\text{独立}, \\; \\text{故}\\\\&amp;E(X+Y)=E(X)+E(Y)=7\\;.\\;\\; E(XY)=E(X)E(Y)=12.25\\;.\\end{aligned}\">\\begin{aligned}&amp;E(X)=\\frac{7}{2}\\;,\\;\\;E(Y)=\\frac{7}{2}\\;,\\; \\text{且} \\; X,Y \\text{独立}, \\; \\text{故}\\\\&amp;E(X+Y)=E(X)+E(Y)=7\\;.\\;\\; E(XY)=E(X)E(Y)=12.25\\;.\\end{aligned}</div>"
     },
     {
       "id": "q0023",
       "number": 23,
       "header": "#23-Easy",
       "difficulty": "Easy",
-      "prompt_html": "<img src=\"/static/generated/assets/probability/ch066/q0023_prompt.png\"/>",
+      "prompt_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{aligned}\\text{甲，乙两人进行打靶，所得分数分别记为}X_{1},X_{2}, \\text{它们的分布律分别为} \\\\\\begin{array}{|c|c|c|c|} \\hline X_{1} &amp; 0 &amp; 1 &amp; 2 \\\\ \\hline p_{k} &amp; 0 &amp; 0.2 &amp; 0.8 \\\\ \\hline X_{2} &amp; 0 &amp; 1 &amp; 2 \\\\ \\hline p_{k} &amp; 0.6 &amp; 0.3 &amp; 0.1 \\\\ \\hline \\end{array} \\text{则它们的成绩的好坏为（）.} \\end{aligned}\">\\begin{aligned}\\text{甲，乙两人进行打靶，所得分数分别记为}X_{1},X_{2}, \\text{它们的分布律分别为} \\\\\\begin{array}{|c|c|c|c|} \\hline X_{1} &amp; 0 &amp; 1 &amp; 2 \\\\ \\hline p_{k} &amp; 0 &amp; 0.2 &amp; 0.8 \\\\ \\hline X_{2} &amp; 0 &amp; 1 &amp; 2 \\\\ \\hline p_{k} &amp; 0.6 &amp; 0.3 &amp; 0.1 \\\\ \\hline \\end{array} \\text{则它们的成绩的好坏为（）.} \\end{aligned}</div>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/probability/ch066/q0023_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\cdot \\text{乙的成绩远不如甲的成绩}\">\\cdot \\text{乙的成绩远不如甲的成绩}</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/probability/ch066/q0023_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{甲的成绩远不如乙的成绩}\">\\text{甲的成绩远不如乙的成绩}</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/probability/ch066/q0023_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{甲乙成绩的好坏程度一样}\">\\text{甲乙成绩的好坏程度一样}</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/probability/ch066/q0023_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{无法评价甲乙成绩的好坏}\">\\text{无法评价甲乙成绩的好坏}</span>"
         }
       ],
       "answer": "A",
       "answer_index": 0,
-      "analysis_html": "<img src=\"/static/generated/assets/probability/ch066/q0023_analysis.png\"/>"
+      "analysis_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{aligned}&amp;\\text{我们来计算}X_{i}\\text{的数学期望}，\\text{得}\\\\&amp;\\quad E(X_{i})=0\\times 0+1\\times 0.2+2\\times 0.8=1.8(\\text{分}).\\\\&amp;\\text{这意味着}，\\text{如果甲进行很多次的射击}，\\text{那么}，\\text{所得分数的算术平均就接近}1.8，\\text{而乙所得分数的数学期望为}\\\\&amp;\\quad E(X_{i})=0\\times 0.6+1\\times 0.3+2\\times 0.1=0.5(\\text{分}).\\end{aligned}\">\\begin{aligned}&amp;\\text{我们来计算}X_{i}\\text{的数学期望}，\\text{得}\\\\&amp;\\quad E(X_{i})=0\\times 0+1\\times 0.2+2\\times 0.8=1.8(\\text{分}).\\\\&amp;\\text{这意味着}，\\text{如果甲进行很多次的射击}，\\text{那么}，\\text{所得分数的算术平均就接近}1.8，\\text{而乙所得分数的数学期望为}\\\\&amp;\\quad E(X_{i})=0\\times 0.6+1\\times 0.3+2\\times 0.1=0.5(\\text{分}).\\end{aligned}</div>"
     },
     {
       "id": "q0024",
       "number": 24,
       "header": "#24-Averge",
       "difficulty": "Averge",
-      "prompt_html": "<img src=\"/static/generated/assets/probability/ch066/q0024_prompt.png\"/>",
+      "prompt_html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\left( \\frac{9}{10} \\right)^{20} = 0.1216.\">\\left( \\frac{9}{10} \\right)^{20} = 0.1216.</span>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/probability/ch066/q0024_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"8.784\">8.784</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/probability/ch066/q0024_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"6.352\">6.352</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/probability/ch066/q0024_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"9.514\">9.514</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/probability/ch066/q0024_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"7.338\">7.338</span>"
         }
       ],
       "answer": "A",
       "answer_index": 0,
-      "analysis_html": "<img src=\"/static/generated/assets/probability/ch066/q0024_analysis.png\"/>"
+      "analysis_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{aligned}&amp;\\text{引入随机变量} &amp; X_{i}=\\begin{cases}0,&amp;\\text{在第}i\\text{站没有人下车}\\\\1,&amp;\\text{在第}i\\text{站有人下车}\\end{cases},i=1,2,\\cdots,10.\\\\&amp;\\text{易知}X=X_{1}+X_{2}+\\cdots+X_{10}.\\\\&amp;\\text{现在来求}E(X).\\ \\text{按题意，任一旅客不在第}i\\text{站下车的概率为}9/10,\\text{因此}20\\text{位旅客都不在第}i\\text{站下车的概率为} (9/20)^{20},\\text{在第}i\\text{站有人下车的概率为}1-(9/10)^{20},\\text{即} \\\\&amp; P\\{X_{i}=0\\}=(9/10)^{20},\\ P\\{X_{i}=1\\}=1-(9/20)^{20},i=1,2,\\cdots,10.\\\\&amp;\\text{由此} &amp; E(X_{i})=1-(9/10)^{20},i=1,2,\\cdots,10.\\\\&amp;\\text{进而} &amp; E(X)=E(X_{1}+X_{2}+\\cdots+X_{10})=E(X_{1})+E(X_{2})+\\cdots+E(X_{10})\\\\&amp;=10[1-(9/10)^{20}]\\approx 8.784\\text{(次)}\\end{aligned}\">\\begin{aligned}&amp;\\text{引入随机变量} &amp; X_{i}=\\begin{cases}0,&amp;\\text{在第}i\\text{站没有人下车}\\\\1,&amp;\\text{在第}i\\text{站有人下车}\\end{cases},i=1,2,\\cdots,10.\\\\&amp;\\text{易知}X=X_{1}+X_{2}+\\cdots+X_{10}.\\\\&amp;\\text{现在来求}E(X).\\ \\text{按题意，任一旅客不在第}i\\text{站下车的概率为}9/10,\\text{因此}20\\text{位旅客都不在第}i\\text{站下车的概率为} (9/20)^{20},\\text{在第}i\\text{站有人下车的概率为}1-(9/10)^{20},\\text{即} \\\\&amp; P\\{X_{i}=0\\}=(9/10)^{20},\\ P\\{X_{i}=1\\}=1-(9/20)^{20},i=1,2,\\cdots,10.\\\\&amp;\\text{由此} &amp; E(X_{i})=1-(9/10)^{20},i=1,2,\\cdots,10.\\\\&amp;\\text{进而} &amp; E(X)=E(X_{1}+X_{2}+\\cdots+X_{10})=E(X_{1})+E(X_{2})+\\cdots+E(X_{10})\\\\&amp;=10[1-(9/10)^{20}]\\approx 8.784\\text{(次)}\\end{aligned}</div>"
     },
     {
       "id": "q0025",
       "number": 25,
       "header": "#25-Easy",
       "difficulty": "Easy",
-      "prompt_html": "<img src=\"/static/generated/assets/probability/ch066/q0025_prompt.png\"/>",
+      "prompt_html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{对任意随机变量}X, \\text{若}E(X)\\text{存在，则}E\\{E[E(X)]\\}\\text{等于}( ).\">\\text{对任意随机变量}X, \\text{若}E(X)\\text{存在，则}E\\{E[E(X)]\\}\\text{等于}( ).</span>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/probability/ch066/q0025_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"E(X)\">E(X)</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/probability/ch066/q0025_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\chi\">\\chi</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/probability/ch066/q0025_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"E^{2}(X)\">E^{2}(X)</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/probability/ch066/q0025_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"E(X^{2})\">E(X^{2})</span>"
         }
       ],
       "answer": "A",
       "answer_index": 0,
-      "analysis_html": "<img src=\"/static/generated/assets/probability/ch066/q0025_analysis.png\"/>"
+      "analysis_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{aligned}\\text{由数学期望的性质1及}E(X)\\text{为一常数知} \\qquad \\qquad \\qquad E\\{E[E(X)]\\}=E[E(X)]=E(X).\\end{aligned}\">\\begin{aligned}\\text{由数学期望的性质1及}E(X)\\text{为一常数知} \\qquad \\qquad \\qquad E\\{E[E(X)]\\}=E[E(X)]=E(X).\\end{aligned}</div>"
     },
     {
       "id": "q0026",
       "number": 26,
       "header": "#26-Easy",
       "difficulty": "Easy",
-      "prompt_html": "<img src=\"/static/generated/assets/probability/ch066/q0026_prompt.png\"/>",
+      "prompt_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{array}{|c|c|c|c|c|} \\hline \\chi &amp; -2 &amp; 0 &amp; 2 \\\\ \\hline p_{1} &amp; 0.4 &amp; 0.3 &amp; 0.3 \\\\ \\hline \\end{array},\\text{则}E(X)=\\left(\\ \\right).\">\\begin{array}{|c|c|c|c|c|} \\hline \\chi &amp; -2 &amp; 0 &amp; 2 \\\\ \\hline p_{1} &amp; 0.4 &amp; 0.3 &amp; 0.3 \\\\ \\hline \\end{array},\\text{则}E(X)=\\left(\\ \\right).</div>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/probability/ch066/q0026_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"- 0.2\">- 0.2</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/probability/ch066/q0026_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"0.1\">0.1</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/probability/ch066/q0026_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"- 0.1\">- 0.1</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/probability/ch066/q0026_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"0.2\">0.2</span>"
         }
       ],
       "answer": "A",
       "answer_index": 0,
-      "analysis_html": "<img src=\"/static/generated/assets/probability/ch066/q0026_analysis.png\"/>"
+      "analysis_html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{由题意知，} \\ E(X) = (-2) \\times 0.4 + 0 \\times 0.3 + 2 \\times 0.3 = -0.2 \\, .\">\\text{由题意知，} \\ E(X) = (-2) \\times 0.4 + 0 \\times 0.3 + 2 \\times 0.3 = -0.2 \\, .</span>"
     },
     {
       "id": "q0027",
       "number": 27,
       "header": "#27-Easy",
       "difficulty": "Easy",
-      "prompt_html": "<img src=\"/static/generated/assets/probability/ch066/q0027_prompt.png\"/>",
+      "prompt_html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{设}X\\sim P(5),\\,Y\\sim b(16,0.5)\\,,\\,\\text{则}E(2X-Y-2)=(\\,\\,).\">\\text{设}X\\sim P(5),\\,Y\\sim b(16,0.5)\\,,\\,\\text{则}E(2X-Y-2)=(\\,\\,).</span>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/probability/ch066/q0027_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\textbf { 0 }\">\\textbf { 0 }</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/probability/ch066/q0027_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"- 1\">- 1</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/probability/ch066/q0027_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"1\">1</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/probability/ch066/q0027_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"_{\\text{ 2 }}\">_{\\text{ 2 }}</span>"
         }
       ],
       "answer": "A",
       "answer_index": 0,
-      "analysis_html": "<img src=\"/static/generated/assets/probability/ch066/q0027_analysis.png\"/>"
+      "analysis_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{aligned} \\text{由} X\\sim P(5)，\\text{有} E(X)=5,\\, D(X)=5\\,；\\text{由} Y\\sim b(16,0.5)，\\text{有} E(Y)=8,\\, D(Y)=4\\,．\\text{于是，} \\\\ E(2X-Y-2)=2E(X)-E(Y)-2=0\\,.\\end{aligned}\">\\begin{aligned} \\text{由} X\\sim P(5)，\\text{有} E(X)=5,\\, D(X)=5\\,；\\text{由} Y\\sim b(16,0.5)，\\text{有} E(Y)=8,\\, D(Y)=4\\,．\\text{于是，} \\\\ E(2X-Y-2)=2E(X)-E(Y)-2=0\\,.\\end{aligned}</div>"
     },
     {
       "id": "q0028",
       "number": 28,
       "header": "#28-Averge",
       "difficulty": "Averge",
-      "prompt_html": "<img src=\"/static/generated/assets/probability/ch066/q0028_prompt.png\"/>",
+      "prompt_html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{设} \\, \\xi \\text{的分布律为} \\, P\\{ \\xi = n \\} = P\\{ \\xi = -n \\} = \\frac{1}{2n(n+1)} \\,\\, (n \\text{是正整数}) \\, , \\, \\text{则} \\, E(\\xi) = \\, ( \\, ) \\, .\">\\text{设} \\, \\xi \\text{的分布律为} \\, P\\{ \\xi = n \\} = P\\{ \\xi = -n \\} = \\frac{1}{2n(n+1)} \\,\\, (n \\text{是正整数}) \\, , \\, \\text{则} \\, E(\\xi) = \\, ( \\, ) \\, .</span>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/probability/ch066/q0028_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{不存在}\">\\text{不存在}</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/probability/ch066/q0028_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"0\">0</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/probability/ch066/q0028_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"1\">1</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/probability/ch066/q0028_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"0.5\">0.5</span>"
         }
       ],
       "answer": "A",
       "answer_index": 0,
-      "analysis_html": "<img src=\"/static/generated/assets/probability/ch066/q0028_analysis.png\"/>"
+      "analysis_html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{由数学期望的定义，先判断} \\sum_{i=1}^{\\infty} x_{i} p_{i} \\text{是否绝对收敛. 根据题意，} \\sum_{i=1}^{\\infty} |x_{i} p_{i}| = \\sum_{n=1}^{\\infty} \\frac{1}{n+1} \\text{是发散的. 故} E(\\xi) \\text{不存在.}\">\\text{由数学期望的定义，先判断} \\sum_{i=1}^{\\infty} x_{i} p_{i} \\text{是否绝对收敛. 根据题意，} \\sum_{i=1}^{\\infty} |x_{i} p_{i}| = \\sum_{n=1}^{\\infty} \\frac{1}{n+1} \\text{是发散的. 故} E(\\xi) \\text{不存在.}</span>"
     },
     {
       "id": "q0029",
       "number": 29,
       "header": "#29-Easy",
       "difficulty": "Easy",
-      "prompt_html": "<img src=\"/static/generated/assets/probability/ch066/q0029_prompt.png\"/>",
+      "prompt_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{aligned}\\xi\\text{的分布律为}\\qquad\\qquad\\qquad\\qquad\\qquad\\qquad\\qquad\\qquad\\qquad\\qquad\\qquad\\qquad\\qquad\\qquad\\qquad\\qquad\\qquad\\qquad\\qquad\\qquad\\qquad\\qquad\\\\ \\begin{array}{|c|c|c|c|} \\hline x_{k} &amp; 1 &amp; 2 &amp; 3 \\\\ \\hline P(\\xi=x_{k}) &amp; 0.15 &amp; 0.3 &amp; 0.55 \\\\ \\hline \\end{array}, \\qquad\\qquad\\qquad\\qquad\\qquad\\qquad\\qquad\\qquad\\qquad\\qquad\\qquad\\qquad\\qquad\\qquad\\qquad\\qquad\\qquad\\qquad\\qquad\\qquad\\qquad\\qquad\\qquad\\qquad\\qquad\\qquad\\qquad\\qquad\\qquad\\qquad\\qquad\\qquad\\qquad\\qquad\\qquad\\qquad\\qquad\\qquad\\qquad\\qquad\\qquad\\qquad\\qquad\\qquad\\qquad\\qquad\\qquad\\qquad\\qquad\\qquad\\qquad\\qquad\\qquad\\qquad\\qquad\\qquad\\qquad\\qquad\\qquad\\qquad\\qquad\\qquad\\qquad\\qquad\\qquad\\qquad\\qquad\\qquad\\qquad\\qquad\\qquad\\qquad\\qquad\\qquad\\qquad\\qquad\\qquad\\end{aligned} \\text{则} E(\\xi)=\\left( \\ \\right).\">\\begin{aligned}\\xi\\text{的分布律为}\\qquad\\qquad\\qquad\\qquad\\qquad\\qquad\\qquad\\qquad\\qquad\\qquad\\qquad\\qquad\\qquad\\qquad\\qquad\\qquad\\qquad\\qquad\\qquad\\qquad\\qquad\\qquad\\\\ \\begin{array}{|c|c|c|c|} \\hline x_{k} &amp; 1 &amp; 2 &amp; 3 \\\\ \\hline P(\\xi=x_{k}) &amp; 0.15 &amp; 0.3 &amp; 0.55 \\\\ \\hline \\end{array}, \\qquad\\qquad\\qquad\\qquad\\qquad\\qquad\\qquad\\qquad\\qquad\\qquad\\qquad\\qquad\\qquad\\qquad\\qquad\\qquad\\qquad\\qquad\\qquad\\qquad\\qquad\\qquad\\qquad\\qquad\\qquad\\qquad\\qquad\\qquad\\qquad\\qquad\\qquad\\qquad\\qquad\\qquad\\qquad\\qquad\\qquad\\qquad\\qquad\\qquad\\qquad\\qquad\\qquad\\qquad\\qquad\\qquad\\qquad\\qquad\\qquad\\qquad\\qquad\\qquad\\qquad\\qquad\\qquad\\qquad\\qquad\\qquad\\qquad\\qquad\\qquad\\qquad\\qquad\\qquad\\qquad\\qquad\\qquad\\qquad\\qquad\\qquad\\qquad\\qquad\\qquad\\qquad\\qquad\\qquad\\qquad\\end{aligned} \\text{则} E(\\xi)=\\left( \\ \\right).</div>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/probability/ch066/q0029_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"2.4\">2.4</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/probability/ch066/q0029_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"1.4\">1.4</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/probability/ch066/q0029_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"2.0\">2.0</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/probability/ch066/q0029_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"3.2\">3.2</span>"
         }
       ],
       "answer": "A",
       "answer_index": 0,
-      "analysis_html": "<img src=\"/static/generated/assets/probability/ch066/q0029_analysis.png\"/>"
+      "analysis_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{aligned}&amp;\\text{由题意知，}\\\\&amp;E(\\zeta)=1\\times 0.15+2\\times 0.3+3\\times 0.55=2.4\\;.\\end{aligned}\">\\begin{aligned}&amp;\\text{由题意知，}\\\\&amp;E(\\zeta)=1\\times 0.15+2\\times 0.3+3\\times 0.55=2.4\\;.\\end{aligned}</div>"
     },
     {
       "id": "q0030",
       "number": 30,
       "header": "#30-Easy",
       "difficulty": "Easy",
-      "prompt_html": "<img src=\"/static/generated/assets/probability/ch066/q0030_prompt.png\"/>",
+      "prompt_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\text{设}\\xi \\text{的概率密度为}\\varphi(x)=\\begin{cases}e^{-x},\\ x\\geq 0\\\\ 0,\\ \\ x&lt;0\\end{cases},\\ \\text{则}E(2\\xi+1)=\\left(\\ \\right).\">\\text{设}\\xi \\text{的概率密度为}\\varphi(x)=\\begin{cases}e^{-x},\\ x\\geq 0\\\\ 0,\\ \\ x&lt;0\\end{cases},\\ \\text{则}E(2\\xi+1)=\\left(\\ \\right).</div>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/probability/ch066/q0030_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"^ 3\">^ 3</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/probability/ch066/q0030_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"1\">1</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/probability/ch066/q0030_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"_{\\text{ 2 }}\">_{\\text{ 2 }}</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/probability/ch066/q0030_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"4\">4</span>"
         }
       ],
       "answer": "A",
       "answer_index": 0,
-      "analysis_html": "<img src=\"/static/generated/assets/probability/ch066/q0030_analysis.png\"/>"
+      "analysis_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{aligned}&amp;\\text{由题意知，}\\\\&amp;E(2\\xi+1)=\\int_{0}^{+\\infty}(2x+1)e^{-x}dx=3\\;.\\end{aligned}\">\\begin{aligned}&amp;\\text{由题意知，}\\\\&amp;E(2\\xi+1)=\\int_{0}^{+\\infty}(2x+1)e^{-x}dx=3\\;.\\end{aligned}</div>"
     }
-  ]
+  ],
+  "format": "latex",
+  "source_md": "gl/4.1.1_数学期望的概念与性质(30题)/4.1.1_数学期望的概念与性质(30题).md"
 }

@@ -13,1008 +13,1010 @@
       "number": 1,
       "header": "#1-Averge",
       "difficulty": "Averge",
-      "prompt_html": "<img src=\"/static/generated/assets/advanced-math/ch155/q0001_prompt.png\"/>",
+      "prompt_html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{微分方程}y^{\\prime}-\\frac{1}{x}y=2x^{2} \\text{的解为（）}\">\\text{微分方程}y^{\\prime}-\\frac{1}{x}y=2x^{2} \\text{的解为（）}</span>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch155/q0001_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"y = c x ^ { 3 } + x\">y = c x ^ { 3 } + x</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch155/q0001_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"y = x ^ { 3 } + c x\">y = x ^ { 3 } + c x</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch155/q0001_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"y = - x ^ { 3 } + c x\">y = - x ^ { 3 } + c x</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch155/q0001_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"y = x ^ { 3 } + x + c\">y = x ^ { 3 } + x + c</span>"
         }
       ],
       "answer": "B",
       "answer_index": 1,
-      "analysis_html": "<img src=\"/static/generated/assets/advanced-math/ch155/q0001_analysis.png\"/>"
+      "analysis_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{aligned}&amp;\\text{该方程是一阶线性非齐次方程，其中}\\\\&amp;P(x)=-\\frac{1}{x},Q(x)=2x^{2}\\\\&amp;\\text{利用求解公式，得}y=e^{\\int\\frac{1}{x}dx}(\\int 2x^{2}e^{-\\int\\frac{1}{x}dx}dx+c)=x^{3}+cx\\end{aligned}\">\\begin{aligned}&amp;\\text{该方程是一阶线性非齐次方程，其中}\\\\&amp;P(x)=-\\frac{1}{x},Q(x)=2x^{2}\\\\&amp;\\text{利用求解公式，得}y=e^{\\int\\frac{1}{x}dx}(\\int 2x^{2}e^{-\\int\\frac{1}{x}dx}dx+c)=x^{3}+cx\\end{aligned}</div>"
     },
     {
       "id": "q0002",
       "number": 2,
       "header": "#2-Averge",
       "difficulty": "Averge",
-      "prompt_html": "<img src=\"/static/generated/assets/advanced-math/ch155/q0002_prompt.png\"/>",
+      "prompt_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{aligned} \\text{一潜水艇在下沉力P(含重力)的作用下向水底下沉,已知水的阻力与下沉速度成正比(比例系数为k),开始下沉速度为零,则速度与时间函数关系为()}\\end{aligned}\">\\begin{aligned} \\text{一潜水艇在下沉力P(含重力)的作用下向水底下沉,已知水的阻力与下沉速度成正比(比例系数为k),开始下沉速度为零,则速度与时间函数关系为()}\\end{aligned}</div>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch155/q0002_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"v = \\frac {P}{k} (1 - e ^ {- \\frac {k}{m} t})\">v = \\frac {P}{k} (1 - e ^ {- \\frac {k}{m} t})</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch155/q0002_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"v={\\frac{P}{k}}\\left(1+e^{{\\frac{k}{m}}t}\\right)\">v={\\frac{P}{k}}\\left(1+e^{{\\frac{k}{m}}t}\\right)</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch155/q0002_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"v = \\frac {P}{k} (1 - e ^ {\\frac {k}{m} t})\">v = \\frac {P}{k} (1 - e ^ {\\frac {k}{m} t})</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch155/q0002_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"v = \\frac {P}{k} \\bigl ( 1 + e ^ { - \\frac { k } { m } t } \\bigr )\">v = \\frac {P}{k} \\bigl ( 1 + e ^ { - \\frac { k } { m } t } \\bigr )</span>"
         }
       ],
       "answer": "A",
       "answer_index": 0,
-      "analysis_html": "<img src=\"/static/generated/assets/advanced-math/ch155/q0002_analysis.png\"/>"
+      "analysis_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{aligned}&amp;\\text{由题意知应满足微分方程}P-kv=mv&#x27;,\\text{解得}v=\\frac{P}{k}+ce^{-\\frac{k}{m}t}\\\\&amp;\\\\&amp;\\text{代入初始条件}v(0)=0,\\text{得}c=-\\frac{P}{k},\\text{即}v=\\frac{P}{k}(1-e^{-\\frac{k}{m}t})\\end{aligned}\">\\begin{aligned}&amp;\\text{由题意知应满足微分方程}P-kv=mv&#x27;,\\text{解得}v=\\frac{P}{k}+ce^{-\\frac{k}{m}t}\\\\&amp;\\\\&amp;\\text{代入初始条件}v(0)=0,\\text{得}c=-\\frac{P}{k},\\text{即}v=\\frac{P}{k}(1-e^{-\\frac{k}{m}t})\\end{aligned}</div>"
     },
     {
       "id": "q0003",
       "number": 3,
       "header": "#3-Averge",
       "difficulty": "Averge",
-      "prompt_html": "<img src=\"/static/generated/assets/advanced-math/ch155/q0003_prompt.png\"/>",
+      "prompt_html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"y^{\\prime}-y \\cot x= \\sin x \\text{的通解为( )}\">y^{\\prime}-y \\cot x= \\sin x \\text{的通解为( )}</span>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch155/q0003_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\operatorname{Csinx}(x + 1)\">\\operatorname{Csinx}(x + 1)</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch155/q0003_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\sin x ( x + C )\">\\sin x ( x + C )</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch155/q0003_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\mathrm{Ccosx(x+1)}\">\\mathrm{Ccosx(x+1)}</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch155/q0003_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\cos x ( x + C )\">\\cos x ( x + C )</span>"
         }
       ],
       "answer": "B",
       "answer_index": 1,
-      "analysis_html": "<img src=\"/static/generated/assets/advanced-math/ch155/q0003_analysis.png\"/>"
+      "analysis_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{aligned}&amp;\\text{该方程是一阶线性非齐次方程，其中}\\\\&amp;P(x)=-\\cot x,Q(x)=\\sin x\\\\&amp;y=e^{\\int \\cot x dx}(\\int \\sin x \\cdot e^{-\\int \\cot x dx}dx+C)=\\sin x(\\int \\frac{\\sin x}{\\sin x}dx+C)=\\sin x(x+C)\\end{aligned}\">\\begin{aligned}&amp;\\text{该方程是一阶线性非齐次方程，其中}\\\\&amp;P(x)=-\\cot x,Q(x)=\\sin x\\\\&amp;y=e^{\\int \\cot x dx}(\\int \\sin x \\cdot e^{-\\int \\cot x dx}dx+C)=\\sin x(\\int \\frac{\\sin x}{\\sin x}dx+C)=\\sin x(x+C)\\end{aligned}</div>"
     },
     {
       "id": "q0004",
       "number": 4,
       "header": "#4-Averge",
       "difficulty": "Averge",
-      "prompt_html": "<img src=\"/static/generated/assets/advanced-math/ch155/q0004_prompt.png\"/>",
+      "prompt_html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{微分方程}y&#x27; - \\frac{1}{x}y = \\frac{5}{x} \\text{的解为（）}\">\\text{微分方程}y&#x27; - \\frac{1}{x}y = \\frac{5}{x} \\text{的解为（）}</span>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch155/q0004_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"y = - 5 + c x\">y = - 5 + c x</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch155/q0004_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"y = - 5 c + x\">y = - 5 c + x</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch155/q0004_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\, y = \\frac { c } { x } + x \\,\">\\, y = \\frac { c } { x } + x \\,</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch155/q0004_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"y = 5 + c x\">y = 5 + c x</span>"
         }
       ],
       "answer": "A",
       "answer_index": 0,
-      "analysis_html": "<img src=\"/static/generated/assets/advanced-math/ch155/q0004_analysis.png\"/>"
+      "analysis_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{aligned} \\text{该方程是一阶线性非齐次方程，其中} \\\\ P(x) = -\\frac{1}{x}, Q(x) = \\frac{5}{x} \\\\ \\text{利求解公式，得} y = e^{\\int \\frac{1}{x} dx} (\\int \\frac{5}{x} e^{\\int \\frac{1}{x} dx} dx + c) = x (-\\frac{5}{x} + c) = -5 + cx \\end{aligned}\">\\begin{aligned} \\text{该方程是一阶线性非齐次方程，其中} \\\\ P(x) = -\\frac{1}{x}, Q(x) = \\frac{5}{x} \\\\ \\text{利求解公式，得} y = e^{\\int \\frac{1}{x} dx} (\\int \\frac{5}{x} e^{\\int \\frac{1}{x} dx} dx + c) = x (-\\frac{5}{x} + c) = -5 + cx \\end{aligned}</div>"
     },
     {
       "id": "q0005",
       "number": 5,
       "header": "#5-Averge",
       "difficulty": "Averge",
-      "prompt_html": "<img src=\"/static/generated/assets/advanced-math/ch155/q0005_prompt.png\"/>",
+      "prompt_html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{微分方程} (x - 2xy - y^{2}) y&#x27; + y^{2} = 0 \\text{的解为} (\\quad)\">\\text{微分方程} (x - 2xy - y^{2}) y&#x27; + y^{2} = 0 \\text{的解为} (\\quad)</span>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch155/q0005_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\begin{array}{l} x = y + c y ^ { 2 } e ^ { 1 / y } , y = 0 ( c \\text {为任意常数}) \\end{array}\">\\begin{array}{l} x = y + c y ^ { 2 } e ^ { 1 / y } , y = 0 ( c \\text {为任意常数}) \\end{array}</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch155/q0005_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\begin{array}{l} x = c y ^ { 2 } + y ^ { 2 } e ^ { 1 / y } , y = 0 ( c \\text {为任意常数}) \\end{array}\">\\begin{array}{l} x = c y ^ { 2 } + y ^ { 2 } e ^ { 1 / y } , y = 0 ( c \\text {为任意常数}) \\end{array}</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch155/q0005_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\begin{array}{l} x = c y ^ { 2 } - y ^ { 2 } e ^ { 1 / y } , y = 0 ( c \\text {为任意常数}) \\end{array}\">\\begin{array}{l} x = c y ^ { 2 } - y ^ { 2 } e ^ { 1 / y } , y = 0 ( c \\text {为任意常数}) \\end{array}</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch155/q0005_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\begin{array}{l} x = y ^ { 2 } + c y ^ { 2 } e ^ { 1 / y } , y = 0 ( c \\text {为任意常数}) \\end{array}\">\\begin{array}{l} x = y ^ { 2 } + c y ^ { 2 } e ^ { 1 / y } , y = 0 ( c \\text {为任意常数}) \\end{array}</span>"
         }
       ],
       "answer": "D",
       "answer_index": 3,
-      "analysis_html": "<img src=\"/static/generated/assets/advanced-math/ch155/q0005_analysis.png\"/>"
+      "analysis_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{aligned}&amp; \\text{将}x \\text{视为}y\\text{的函数，则对变量}y\\text{来说，题设方程为一阶线性方程：}\\frac{dx}{dy}+\\frac{1-2y}{y^{2}}x=1\\\\&amp; \\text{解该线性方程，可得通解}x=y^{2}+cy^{2}e^{1/y}(c\\text{为任意常数}),\\text{再补充上特解}y=0\\end{aligned}\">\\begin{aligned}&amp; \\text{将}x \\text{视为}y\\text{的函数，则对变量}y\\text{来说，题设方程为一阶线性方程：}\\frac{dx}{dy}+\\frac{1-2y}{y^{2}}x=1\\\\&amp; \\text{解该线性方程，可得通解}x=y^{2}+cy^{2}e^{1/y}(c\\text{为任意常数}),\\text{再补充上特解}y=0\\end{aligned}</div>"
     },
     {
       "id": "q0006",
       "number": 6,
       "header": "#6-Averge",
       "difficulty": "Averge",
-      "prompt_html": "<img src=\"/static/generated/assets/advanced-math/ch155/q0006_prompt.png\"/>",
+      "prompt_html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"x \\frac{dy}{dx} + 2y = \\cos x \\text{ 的通解为( )}\">x \\frac{dy}{dx} + 2y = \\cos x \\text{ 的通解为( )}</span>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch155/q0006_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\frac {1}{x} (x \\sin x + \\cos x + C)\">\\frac {1}{x} (x \\sin x + \\cos x + C)</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch155/q0006_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\frac { 1 } { x ^ { 2 } } ( x \\sin x + C )\">\\frac { 1 } { x ^ { 2 } } ( x \\sin x + C )</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch155/q0006_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\frac {1}{x ^ {2}} (x \\sin x + x \\cos x + C)\">\\frac {1}{x ^ {2}} (x \\sin x + x \\cos x + C)</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch155/q0006_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\frac { 1 } { x ^ { 2 } } ( x \\sin x + \\cos x + C )\">\\frac { 1 } { x ^ { 2 } } ( x \\sin x + \\cos x + C )</span>"
         }
       ],
       "answer": "D",
       "answer_index": 3,
-      "analysis_html": "<img src=\"/static/generated/assets/advanced-math/ch155/q0006_analysis.png\"/>"
+      "analysis_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{aligned}&amp; \\text{该方程是一阶线性非齐次方程，其中} \\\\&amp; P(x)=\\frac{2}{x}, Q(x)=\\frac{\\cos x}{x} \\\\&amp; y=e^{-\\int_{x}^{2}dx}(\\int \\frac{\\cos x}{x}\\cdot e^{\\int_{x}^{2}dx}dx+C)=\\frac{1}{x^{2}}(x\\sin x+\\cos x+C)\\end{aligned}\">\\begin{aligned}&amp; \\text{该方程是一阶线性非齐次方程，其中} \\\\&amp; P(x)=\\frac{2}{x}, Q(x)=\\frac{\\cos x}{x} \\\\&amp; y=e^{-\\int_{x}^{2}dx}(\\int \\frac{\\cos x}{x}\\cdot e^{\\int_{x}^{2}dx}dx+C)=\\frac{1}{x^{2}}(x\\sin x+\\cos x+C)\\end{aligned}</div>"
     },
     {
       "id": "q0007",
       "number": 7,
       "header": "#7-Averge",
       "difficulty": "Averge",
-      "prompt_html": "<img src=\"/static/generated/assets/advanced-math/ch155/q0007_prompt.png\"/>",
+      "prompt_html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{微分方程}y&#x27;-xy=\\frac{5}{x^{2}}e^{\\frac{x^{2}}{2}}\\text{的解为（）}\">\\text{微分方程}y&#x27;-xy=\\frac{5}{x^{2}}e^{\\frac{x^{2}}{2}}\\text{的解为（）}</span>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch155/q0007_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\begin{array}{l}y=e^{-{\\frac{x^{2}}{2}}}(-{\\frac{5}{x}}+c)\\end{array}\">\\begin{array}{l}y=e^{-{\\frac{x^{2}}{2}}}(-{\\frac{5}{x}}+c)\\end{array}</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch155/q0007_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\begin{aligned}y = e^{-\\frac{x^2}{2}} (\\frac{5}{x} + c)\\end{aligned}\">\\begin{aligned}y = e^{-\\frac{x^2}{2}} (\\frac{5}{x} + c)\\end{aligned}</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch155/q0007_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\begin{array}{l}y=e^{\\frac{x^{2}}{2}}(-{\\frac{5}{x}}+c)\\end{array}\">\\begin{array}{l}y=e^{\\frac{x^{2}}{2}}(-{\\frac{5}{x}}+c)\\end{array}</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch155/q0007_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\begin{aligned}y = e^{\\frac{x^{2}}{2}} (\\frac{5}{x} + c)\\end{aligned}\">\\begin{aligned}y = e^{\\frac{x^{2}}{2}} (\\frac{5}{x} + c)\\end{aligned}</span>"
         }
       ],
       "answer": "C",
       "answer_index": 2,
-      "analysis_html": "<img src=\"/static/generated/assets/advanced-math/ch155/q0007_analysis.png\"/>"
+      "analysis_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{aligned}&amp;\\text{该方程是一阶线性非齐次方程，其中}\\\\&amp;P(x)=-x,Q(x)=\\frac{5}{x^{2}}e^{\\frac{1}{x}x^{2}}\\\\&amp;\\text{利求解公式，得}y=e^{\\int xdx}(\\int\\frac{5}{x^{2}}e^{\\frac{x^{2}}{2}}e^{\\int-xdx}dx+c)=e^{\\frac{x^{2}}{2}}(-\\frac{5}{x}+c)\\end{aligned}\">\\begin{aligned}&amp;\\text{该方程是一阶线性非齐次方程，其中}\\\\&amp;P(x)=-x,Q(x)=\\frac{5}{x^{2}}e^{\\frac{1}{x}x^{2}}\\\\&amp;\\text{利求解公式，得}y=e^{\\int xdx}(\\int\\frac{5}{x^{2}}e^{\\frac{x^{2}}{2}}e^{\\int-xdx}dx+c)=e^{\\frac{x^{2}}{2}}(-\\frac{5}{x}+c)\\end{aligned}</div>"
     },
     {
       "id": "q0008",
       "number": 8,
       "header": "#8-Averge",
       "difficulty": "Averge",
-      "prompt_html": "<img src=\"/static/generated/assets/advanced-math/ch155/q0008_prompt.png\"/>",
+      "prompt_html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{微分方程} ( x ^ { 2 } + 1 ) y ^ { \\prime } + 2 x y = 4 x ^ { 2 } \\text{的解为} \\ \\left ( \\ \\right )\">\\text{微分方程} ( x ^ { 2 } + 1 ) y ^ { \\prime } + 2 x y = 4 x ^ { 2 } \\text{的解为} \\ \\left ( \\ \\right )</span>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch155/q0008_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\mathrm{y} = \\frac{1}{x^{2}+1} \\bigl( \\frac{4}{3} x^{3} + c x^{2} \\bigr)\">\\mathrm{y} = \\frac{1}{x^{2}+1} \\bigl( \\frac{4}{3} x^{3} + c x^{2} \\bigr)</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch155/q0008_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\mathrm{y} = \\frac{c}{x^{2}+1}(\\frac{4}{3}x^{3}+1)\">\\mathrm{y} = \\frac{c}{x^{2}+1}(\\frac{4}{3}x^{3}+1)</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch155/q0008_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\mathrm{y} = \\frac{1}{x^{2}+1} \\bigl( \\frac{4}{3} x^{3} + c \\bigr)\">\\mathrm{y} = \\frac{1}{x^{2}+1} \\bigl( \\frac{4}{3} x^{3} + c \\bigr)</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch155/q0008_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\mathrm{y} = \\frac{c}{x^{2}+1} \\bigl( \\frac{4}{3} x^{3} - \\mathrm{x} \\bigr)\">\\mathrm{y} = \\frac{c}{x^{2}+1} \\bigl( \\frac{4}{3} x^{3} - \\mathrm{x} \\bigr)</span>"
         }
       ],
       "answer": "C",
       "answer_index": 2,
-      "analysis_html": "<img src=\"/static/generated/assets/advanced-math/ch155/q0008_analysis.png\"/>"
+      "analysis_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{aligned}&amp; \\text{原方程变为} y+\\frac{2x}{x^{2}+1}y=\\frac{4x^{2}}{x^{2}+1}\\\\&amp; \\text{所求通解为}\\\\&amp; y=e^{-\\int\\frac{2x}{x^{2}+1}dx}(c+\\int\\frac{4x^{2}}{x^{2}+1}e^{\\int\\frac{2x}{x^{2}+1}dx}dx)\\\\&amp; =e^{-\\ln(x^{2}+1)}(c+\\int\\frac{4x^{2}}{x^{2}+1}e^{\\ln(x^{2}+1)}dx)=\\frac{1}{x^{2}+1}(\\frac{4}{3}x^{3}+c)\\end{aligned}\">\\begin{aligned}&amp; \\text{原方程变为} y+\\frac{2x}{x^{2}+1}y=\\frac{4x^{2}}{x^{2}+1}\\\\&amp; \\text{所求通解为}\\\\&amp; y=e^{-\\int\\frac{2x}{x^{2}+1}dx}(c+\\int\\frac{4x^{2}}{x^{2}+1}e^{\\int\\frac{2x}{x^{2}+1}dx}dx)\\\\&amp; =e^{-\\ln(x^{2}+1)}(c+\\int\\frac{4x^{2}}{x^{2}+1}e^{\\ln(x^{2}+1)}dx)=\\frac{1}{x^{2}+1}(\\frac{4}{3}x^{3}+c)\\end{aligned}</div>"
     },
     {
       "id": "q0009",
       "number": 9,
       "header": "#9-Averge",
       "difficulty": "Averge",
-      "prompt_html": "<img src=\"/static/generated/assets/advanced-math/ch155/q0009_prompt.png\"/>",
+      "prompt_html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\frac { d y } { d x } = \\frac { 1 } { x \\cos y + \\sin 2 y } \\text {的解为（）}\">\\frac { d y } { d x } = \\frac { 1 } { x \\cos y + \\sin 2 y } \\text {的解为（）}</span>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch155/q0009_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\begin{aligned}x=ce^{\\sin y}-2(\\sin y+1)\\end{aligned}\">\\begin{aligned}x=ce^{\\sin y}-2(\\sin y+1)\\end{aligned}</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch155/q0009_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\begin{aligned}x=ce^{\\sin y}-2(\\cos y+1)\\end{aligned}\">\\begin{aligned}x=ce^{\\sin y}-2(\\cos y+1)\\end{aligned}</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch155/q0009_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"x = ce^{\\sin y} + \\sin y + 1\">x = ce^{\\sin y} + \\sin y + 1</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch155/q0009_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"x = ce^{\\sin y} - 2(\\cos y + 1)\">x = ce^{\\sin y} - 2(\\cos y + 1)</span>"
         }
       ],
       "answer": "A",
       "answer_index": 0,
-      "analysis_html": "<img src=\"/static/generated/assets/advanced-math/ch155/q0009_analysis.png\"/>"
+      "analysis_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{aligned}&amp; \\text{将原方程改写为}\\frac{dx}{dy}=x\\cos y+\\sin 2y\\,,\\\\&amp; \\text{即}\\quad x=e^{\\int \\cos y\\,d\\phi}\\,(c+\\int \\sin 2y\\,e^{-\\int \\cos y\\,d\\phi})=e^{\\sin y}\\,(c+\\int \\sin 2y\\,e^{-\\sin y}\\,dy)\\\\&amp; \\quad=ce^{\\sin y}-2(\\sin y+1)\\\\&amp; \\text{所以}x=ce^{\\sin y}-2(\\sin y+1)\\end{aligned}\">\\begin{aligned}&amp; \\text{将原方程改写为}\\frac{dx}{dy}=x\\cos y+\\sin 2y\\,,\\\\&amp; \\text{即}\\quad x=e^{\\int \\cos y\\,d\\phi}\\,(c+\\int \\sin 2y\\,e^{-\\int \\cos y\\,d\\phi})=e^{\\sin y}\\,(c+\\int \\sin 2y\\,e^{-\\sin y}\\,dy)\\\\&amp; \\quad=ce^{\\sin y}-2(\\sin y+1)\\\\&amp; \\text{所以}x=ce^{\\sin y}-2(\\sin y+1)\\end{aligned}</div>"
     },
     {
       "id": "q0010",
       "number": 10,
       "header": "#10-Averge",
       "difficulty": "Averge",
-      "prompt_html": "<img src=\"/static/generated/assets/advanced-math/ch155/q0010_prompt.png\"/>",
+      "prompt_html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{微分方程}y^{\\prime}+xy=4x \\text{满足初始条件}y(0)=2 \\text{的特解为（）}\">\\text{微分方程}y^{\\prime}+xy=4x \\text{满足初始条件}y(0)=2 \\text{的特解为（）}</span>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch155/q0010_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"2 e ^ { - { \\frac { 1 } { 2 } } x ^ { 2 } } + 4\">2 e ^ { - { \\frac { 1 } { 2 } } x ^ { 2 } } + 4</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch155/q0010_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"-2e^{-\\frac{1}{2}x^{2}}+4\">-2e^{-\\frac{1}{2}x^{2}}+4</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch155/q0010_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"2e^{-\\frac{1}{2}x^{2}}-4\">2e^{-\\frac{1}{2}x^{2}}-4</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch155/q0010_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"-2e^{-\\frac{1}{2}x^{2}}-4\">-2e^{-\\frac{1}{2}x^{2}}-4</span>"
         }
       ],
       "answer": "B",
       "answer_index": 1,
-      "analysis_html": "<img src=\"/static/generated/assets/advanced-math/ch155/q0010_analysis.png\"/>"
+      "analysis_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{aligned}y&amp;=e^{-\\int x\\,dx}(c+\\int 4xe^{\\frac{1}{2}x^2}dx)=e^{-\\frac{1}{2}x^2}[c+4\\int e^{\\frac{1}{2}x^2}d\\frac{1}{2}x^2]\\\\&amp;=ce^{-\\frac{1}{2}x^2}+4\\\\&amp;\\text{带入初值可得}c=-2\\end{aligned}\">\\begin{aligned}y&amp;=e^{-\\int x\\,dx}(c+\\int 4xe^{\\frac{1}{2}x^2}dx)=e^{-\\frac{1}{2}x^2}[c+4\\int e^{\\frac{1}{2}x^2}d\\frac{1}{2}x^2]\\\\&amp;=ce^{-\\frac{1}{2}x^2}+4\\\\&amp;\\text{带入初值可得}c=-2\\end{aligned}</div>"
     },
     {
       "id": "q0011",
       "number": 11,
       "header": "#11-Averge",
       "difficulty": "Averge",
-      "prompt_html": "<img src=\"/static/generated/assets/advanced-math/ch155/q0011_prompt.png\"/>",
+      "prompt_html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{设函数}f(x)\\text{满足}xf&#x27;(x)-3f(x)=-6x^{2},\\text{求曲线}f(x)，\\text{使其与直线}x=1,x\\text{轴所围成的平面图形绕}x\\text{轴旋转一周所得旋转体的体积最小，则}f(x)=()\">\\text{设函数}f(x)\\text{满足}xf&#x27;(x)-3f(x)=-6x^{2},\\text{求曲线}f(x)，\\text{使其与直线}x=1,x\\text{轴所围成的平面图形绕}x\\text{轴旋转一周所得旋转体的体积最小，则}f(x)=()</span>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch155/q0011_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"6 x - 7 x ^ { 2 }\">6 x - 7 x ^ { 2 }</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch155/q0011_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"6x^{2}-7x^{3}\">6x^{2}-7x^{3}</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch155/q0011_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"6x^{2}+7x^{3}\">6x^{2}+7x^{3}</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch155/q0011_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"6 x + 7 x ^ { 2 }\">6 x + 7 x ^ { 2 }</span>"
         }
       ],
       "answer": "B",
       "answer_index": 1,
-      "analysis_html": "<img src=\"/static/generated/assets/advanced-math/ch155/q0011_analysis.png\"/>"
+      "analysis_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{aligned}&amp;\\text{方程化简为}f&#x27;(x)-\\frac{3}{x}f(x)=-6x,\\\\&amp;\\text{有一阶线性微分方程的通解公式}\\\\&amp;\\quad y=e^{\\int_{0}^{\\frac{3}{x}}x}(c+\\int(-6x)e^{-\\int_{0}^{\\frac{3}{x}}x}dx)=6x^{2}+cx^{3}\\\\&amp;\\text{旋转体的体积}\\\\&amp;\\quad V(c)=\\pi\\int_{0}^{1}y^{2}(x)dx=\\pi\\int_{0}^{1}(cx^{3}+6x^{2})^{2}dx\\\\&amp;\\quad=\\pi(\\frac{c^{2}}{7}+2c+\\frac{36}{5})\\\\&amp;\\text{令}V&#x27;(c)=0,\\text{得}c=-7,\\text{又}V&#x27;&#x27;(c)=\\frac{2\\pi}{7}&gt;0,\\text{所以}V(c)\\text{在此唯一的驻点处取最小值，所求函数为}\\\\&amp;\\quad f(x)=6x^{2}-7x^{3}\\end{aligned}\">\\begin{aligned}&amp;\\text{方程化简为}f&#x27;(x)-\\frac{3}{x}f(x)=-6x,\\\\&amp;\\text{有一阶线性微分方程的通解公式}\\\\&amp;\\quad y=e^{\\int_{0}^{\\frac{3}{x}}x}(c+\\int(-6x)e^{-\\int_{0}^{\\frac{3}{x}}x}dx)=6x^{2}+cx^{3}\\\\&amp;\\text{旋转体的体积}\\\\&amp;\\quad V(c)=\\pi\\int_{0}^{1}y^{2}(x)dx=\\pi\\int_{0}^{1}(cx^{3}+6x^{2})^{2}dx\\\\&amp;\\quad=\\pi(\\frac{c^{2}}{7}+2c+\\frac{36}{5})\\\\&amp;\\text{令}V&#x27;(c)=0,\\text{得}c=-7,\\text{又}V&#x27;&#x27;(c)=\\frac{2\\pi}{7}&gt;0,\\text{所以}V(c)\\text{在此唯一的驻点处取最小值，所求函数为}\\\\&amp;\\quad f(x)=6x^{2}-7x^{3}\\end{aligned}</div>"
     },
     {
       "id": "q0012",
       "number": 12,
       "header": "#12-Averge",
       "difficulty": "Averge",
-      "prompt_html": "<img src=\"/static/generated/assets/advanced-math/ch155/q0012_prompt.png\"/>",
+      "prompt_html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"y^{\\prime}+y\\cot x=\\csc x\\text{的通解为( )}\">y^{\\prime}+y\\cot x=\\csc x\\text{的通解为( )}</span>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch155/q0012_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\cos x ( x + C )\">\\cos x ( x + C )</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch155/q0012_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\operatorname{cscx}(x + C)\">\\operatorname{cscx}(x + C)</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch155/q0012_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\mathrm{Ccosx(x+1)}\">\\mathrm{Ccosx(x+1)}</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch155/q0012_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\operatorname{Csinx}(x + 1)\">\\operatorname{Csinx}(x + 1)</span>"
         }
       ],
       "answer": "B",
       "answer_index": 1,
-      "analysis_html": "<img src=\"/static/generated/assets/advanced-math/ch155/q0012_analysis.png\"/>"
+      "analysis_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{aligned}&amp; \\text{该方程是一阶线性非齐次方程，其中}\\\\&amp; P(x)=\\cot x,Q(x)=\\csc x\\\\&amp; y=e^{-\\int \\cot x dx}(\\int \\csc x \\cdot e^{\\int \\cot x dx} dx+C)=\\frac{1}{\\sin x}(\\int \\frac{\\sin x}{\\sin x} dx+C)=\\csc x(x+C).\\end{aligned}\">\\begin{aligned}&amp; \\text{该方程是一阶线性非齐次方程，其中}\\\\&amp; P(x)=\\cot x,Q(x)=\\csc x\\\\&amp; y=e^{-\\int \\cot x dx}(\\int \\csc x \\cdot e^{\\int \\cot x dx} dx+C)=\\frac{1}{\\sin x}(\\int \\frac{\\sin x}{\\sin x} dx+C)=\\csc x(x+C).\\end{aligned}</div>"
     },
     {
       "id": "q0013",
       "number": 13,
       "header": "#13-Averge",
       "difficulty": "Averge",
-      "prompt_html": "<img src=\"/static/generated/assets/advanced-math/ch155/q0013_prompt.png\"/>",
+      "prompt_html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{若连续函数}y(x)\\text{满足方程}y(x)=\\int_{0}^{x}y(t)dt+e^{x},\\text{则}y(x)\\text{的表达式为（}\">\\text{若连续函数}y(x)\\text{满足方程}y(x)=\\int_{0}^{x}y(t)dt+e^{x},\\text{则}y(x)\\text{的表达式为（}</span>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch155/q0013_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"y(x) = c e^{x} + 1\">y(x) = c e^{x} + 1</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch155/q0013_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"y(x) = e^{x}x + 1\">y(x) = e^{x}x + 1</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch155/q0013_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"y(x) = e^{x}(x + 1)\">y(x) = e^{x}(x + 1)</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch155/q0013_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"y(x) = e^{x}(\\mathtt{c}x + 1)\">y(x) = e^{x}(\\mathtt{c}x + 1)</span>"
         }
       ],
       "answer": "C",
       "answer_index": 2,
-      "analysis_html": "<img src=\"/static/generated/assets/advanced-math/ch155/q0013_analysis.png\"/>"
+      "analysis_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{aligned} &amp; \\text{在已知等式两边对 } x \\text{ 求导可得：} \\quad y&#x27; = y + e^x \\\\ &amp; \\text{所以} \\quad y(x) = e^{\\int\\limits_{a}^{b} e^x e^{-\\int\\limits_{a}^{b} dx} + c} = e^x(x+c) \\text{，由 } y(0) = 1 \\text{得 } c = 1 \\\\ &amp; \\text{即 } y(x) = e^x(x+1) \\end{aligned}\">\\begin{aligned} &amp; \\text{在已知等式两边对 } x \\text{ 求导可得：} \\quad y&#x27; = y + e^x \\\\ &amp; \\text{所以} \\quad y(x) = e^{\\int\\limits_{a}^{b} e^x e^{-\\int\\limits_{a}^{b} dx} + c} = e^x(x+c) \\text{，由 } y(0) = 1 \\text{得 } c = 1 \\\\ &amp; \\text{即 } y(x) = e^x(x+1) \\end{aligned}</div>"
     },
     {
       "id": "q0014",
       "number": 14,
       "header": "#14-Averge",
       "difficulty": "Averge",
-      "prompt_html": "<img src=\"/static/generated/assets/advanced-math/ch155/q0014_prompt.png\"/>",
+      "prompt_html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{一曲线过原点，其上任一点} (x,y) \\text{处的切线斜率为} 2x+y，\\text{则曲线方程是}（）\">\\text{一曲线过原点，其上任一点} (x,y) \\text{处的切线斜率为} 2x+y，\\text{则曲线方程是}（）</span>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch155/q0014_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\mathrm{y} = 2 ( \\mathrm{e} ^ { x } + x + 1 )\">\\mathrm{y} = 2 ( \\mathrm{e} ^ { x } + x + 1 )</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch155/q0014_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\mathrm{y} = 2 ( \\mathrm{e} ^ { x } - x + 1 )\">\\mathrm{y} = 2 ( \\mathrm{e} ^ { x } - x + 1 )</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch155/q0014_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\mathrm{y} = 2 (\\mathrm{e} ^ {x} + x - 1)\">\\mathrm{y} = 2 (\\mathrm{e} ^ {x} + x - 1)</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch155/q0014_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\mathrm{y} = 2 ( \\mathrm{e} ^ { x } - x - 1 )\">\\mathrm{y} = 2 ( \\mathrm{e} ^ { x } - x - 1 )</span>"
         }
       ],
       "answer": "D",
       "answer_index": 3,
-      "analysis_html": "<img src=\"/static/generated/assets/advanced-math/ch155/q0014_analysis.png\"/>"
+      "analysis_html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{由题可得}y^{\\prime}=2x+y，\\text{解得}y=-2(x+1)+ce^{x},\\text{由}y(0)=0，\\text{得}c=2，\\text{所以}y=2(e^{x}-x-1)\">\\text{由题可得}y^{\\prime}=2x+y，\\text{解得}y=-2(x+1)+ce^{x},\\text{由}y(0)=0，\\text{得}c=2，\\text{所以}y=2(e^{x}-x-1)</span>"
     },
     {
       "id": "q0015",
       "number": 15,
       "header": "#15-Averge",
       "difficulty": "Averge",
-      "prompt_html": "<img src=\"/static/generated/assets/advanced-math/ch155/q0015_prompt.png\"/>",
+      "prompt_html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{微分方程}y^{\\prime}+2xy=4x\\text{的通解为（）}\">\\text{微分方程}y^{\\prime}+2xy=4x\\text{的通解为（）}</span>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch155/q0015_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"ce^{-x^{2}}+2\">ce^{-x^{2}}+2</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch155/q0015_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"e^{-x^{2}}+c\">e^{-x^{2}}+c</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch155/q0015_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"e^{-x^{2}}+cx\">e^{-x^{2}}+cx</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch155/q0015_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\, x e ^ { - x ^ { 2 } } + c \\,\">\\, x e ^ { - x ^ { 2 } } + c \\,</span>"
         }
       ],
       "answer": "A",
       "answer_index": 0,
-      "analysis_html": "<img src=\"/static/generated/assets/advanced-math/ch155/q0015_analysis.png\"/>"
+      "analysis_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{array}{l} y = e^{- \\int 2 x dx} \\left( c + \\int 4 x e^{x^{2}} dx \\right) = e^{- x^{2}} \\left[ c + 2 \\int e^{x^{2}} dx^{2} \\right] \\\\ = c e^{- x^{2}} + 2 \\end{array}\">\\begin{array}{l} y = e^{- \\int 2 x dx} \\left( c + \\int 4 x e^{x^{2}} dx \\right) = e^{- x^{2}} \\left[ c + 2 \\int e^{x^{2}} dx^{2} \\right] \\\\ = c e^{- x^{2}} + 2 \\end{array}</div>"
     },
     {
       "id": "q0016",
       "number": 16,
       "header": "#16-Averge",
       "difficulty": "Averge",
-      "prompt_html": "<img src=\"/static/generated/assets/advanced-math/ch155/q0016_prompt.png\"/>",
+      "prompt_html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\frac { d y } { d x } - \\frac { 2 y } { x + 1 } = ( x + 1 ) ^ { 5 / 2 } \\text { 的通解为（）}\">\\frac { d y } { d x } - \\frac { 2 y } { x + 1 } = ( x + 1 ) ^ { 5 / 2 } \\text { 的通解为（）}</span>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch155/q0016_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\mathrm{y} = \\left( x + 1 \\right) ^ { 3 / 2 } [ { \\frac { 2 } { 3 } } \\left( x + 1 \\right) ^ { 2 } + \\mathrm{c} ]\">\\mathrm{y} = \\left( x + 1 \\right) ^ { 3 / 2 } [ { \\frac { 2 } { 3 } } \\left( x + 1 \\right) ^ { 2 } + \\mathrm{c} ]</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch155/q0016_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\mathbf{y}=\\left(x+1\\right)^{2}[\\frac{2}{3}\\left(x+1\\right)^{3/2}+\\mathbf{c}]\">\\mathbf{y}=\\left(x+1\\right)^{2}[\\frac{2}{3}\\left(x+1\\right)^{3/2}+\\mathbf{c}]</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch155/q0016_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\mathrm{y} = \\left( x + 1 \\right) ^ { 3 } [ { \\frac { 2 } { 3 } } \\left( x + 1 \\right) ^ { 3 / 2 } + \\mathrm{c} ]\">\\mathrm{y} = \\left( x + 1 \\right) ^ { 3 } [ { \\frac { 2 } { 3 } } \\left( x + 1 \\right) ^ { 3 / 2 } + \\mathrm{c} ]</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch155/q0016_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\mathbf { y } = ( x + 1 ) ^ { 2 } [ ( x + 1 ) ^ { 3 / 2 } + \\mathbf { c } ]\">\\mathbf { y } = ( x + 1 ) ^ { 2 } [ ( x + 1 ) ^ { 3 / 2 } + \\mathbf { c } ]</span>"
         }
       ],
       "answer": "B",
       "answer_index": 1,
-      "analysis_html": "<img src=\"/static/generated/assets/advanced-math/ch155/q0016_analysis.png\"/>"
+      "analysis_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{aligned}y&amp;=e^{\\int\\frac{2}{x+1}dx}(c+\\int(x+1)^{\\frac{5}{2}}e^{-\\int\\frac{2}{x+1}dx}dx)\\\\&amp;=(x+1)^{2}(c+\\int(x+1)^{\\frac{1}{2}}dx)\\\\&amp;=(x+1)^{2}[\\frac{2}{3}(x+1)^{3/2}+c]\\end{aligned}\">\\begin{aligned}y&amp;=e^{\\int\\frac{2}{x+1}dx}(c+\\int(x+1)^{\\frac{5}{2}}e^{-\\int\\frac{2}{x+1}dx}dx)\\\\&amp;=(x+1)^{2}(c+\\int(x+1)^{\\frac{1}{2}}dx)\\\\&amp;=(x+1)^{2}[\\frac{2}{3}(x+1)^{3/2}+c]\\end{aligned}</div>"
     },
     {
       "id": "q0017",
       "number": 17,
       "header": "#17-Averge",
       "difficulty": "Averge",
-      "prompt_html": "<img src=\"/static/generated/assets/advanced-math/ch155/q0017_prompt.png\"/>",
+      "prompt_html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"y^{\\prime}+y \\tan x=1 \\text{的通解为( )}\">y^{\\prime}+y \\tan x=1 \\text{的通解为( )}</span>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch155/q0017_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\cos x ( \\ln | \\sec x + \\tan x | + C )\">\\cos x ( \\ln | \\sec x + \\tan x | + C )</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch155/q0017_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\cos x ( \\ln \\left| \\sec x - \\tan x \\right| + C )\">\\cos x ( \\ln \\left| \\sec x - \\tan x \\right| + C )</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch155/q0017_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\cos x ( \\sec x + C )\">\\cos x ( \\sec x + C )</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch155/q0017_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"C \\sin x - 2 \\sin ^ { 2 } x\">C \\sin x - 2 \\sin ^ { 2 } x</span>"
         }
       ],
       "answer": "A",
       "answer_index": 0,
-      "analysis_html": "<img src=\"/static/generated/assets/advanced-math/ch155/q0017_analysis.png\"/>"
+      "analysis_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{aligned}&amp; \\text{该方程是一阶线性非齐次方程，其中} \\\\&amp; P(x)=\\tan x, Q(x)=1 \\\\&amp; y=e^{-\\int \\tan x dx} \\left( \\int 1 \\cdot e^{\\int \\tan x dx} dx+C \\right)=\\cos x (\\int \\sec x dx+C)=\\cos x (\\ln |\\sec x+\\tan x|+C)\\end{aligned}\">\\begin{aligned}&amp; \\text{该方程是一阶线性非齐次方程，其中} \\\\&amp; P(x)=\\tan x, Q(x)=1 \\\\&amp; y=e^{-\\int \\tan x dx} \\left( \\int 1 \\cdot e^{\\int \\tan x dx} dx+C \\right)=\\cos x (\\int \\sec x dx+C)=\\cos x (\\ln |\\sec x+\\tan x|+C)\\end{aligned}</div>"
     },
     {
       "id": "q0018",
       "number": 18,
       "header": "#18-Averge",
       "difficulty": "Averge",
-      "prompt_html": "<img src=\"/static/generated/assets/advanced-math/ch155/q0018_prompt.png\"/>",
+      "prompt_html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{微分方程}y^{\\prime}+ \\frac{y}{x}=\\frac{\\sin x}{x} \\text{的通解为（）}\">\\text{微分方程}y^{\\prime}+ \\frac{y}{x}=\\frac{\\sin x}{x} \\text{的通解为（）}</span>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch155/q0018_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\frac { 1 } { x } ( \\sin x + c )\">\\frac { 1 } { x } ( \\sin x + c )</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch155/q0018_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\frac { 1 } { x } ( - \\sin x + c )\">\\frac { 1 } { x } ( - \\sin x + c )</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch155/q0018_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\frac { 1 } { x } ( - \\cos x + c )\">\\frac { 1 } { x } ( - \\cos x + c )</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch155/q0018_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\frac {1}{x} (\\cos x + c)\">\\frac {1}{x} (\\cos x + c)</span>"
         }
       ],
       "answer": "C",
       "answer_index": 2,
-      "analysis_html": "<img src=\"/static/generated/assets/advanced-math/ch155/q0018_analysis.png\"/>"
+      "analysis_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{aligned}P(x)=\\frac{1}{x}, \\mathrm{Q(x)}=\\frac{\\sin x}{x}, \\text{于是所求通解为} \\quad&amp; y=e^{-\\int_{x}^{1}dx}(\\int \\frac{\\sin x}{x}e^{\\int_{x}^{1}dx}dx+c)=\\frac{1}{x}(\\int \\frac{\\sin x}{x}xdx+c)\\\\&amp;=\\frac{1}{x}(-\\cos x+c)\\end{aligned}\">\\begin{aligned}P(x)=\\frac{1}{x}, \\mathrm{Q(x)}=\\frac{\\sin x}{x}, \\text{于是所求通解为} \\quad&amp; y=e^{-\\int_{x}^{1}dx}(\\int \\frac{\\sin x}{x}e^{\\int_{x}^{1}dx}dx+c)=\\frac{1}{x}(\\int \\frac{\\sin x}{x}xdx+c)\\\\&amp;=\\frac{1}{x}(-\\cos x+c)\\end{aligned}</div>"
     },
     {
       "id": "q0019",
       "number": 19,
       "header": "#19-Averge",
       "difficulty": "Averge",
-      "prompt_html": "<img src=\"/static/generated/assets/advanced-math/ch155/q0019_prompt.png\"/>",
+      "prompt_html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{微分方程}xy^{\\prime}+y=e^{x}\\text{满足条件}y(a)=b\\text{的特解是（）}\">\\text{微分方程}xy^{\\prime}+y=e^{x}\\text{满足条件}y(a)=b\\text{的特解是（）}</span>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch155/q0019_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\mathrm{y} = \\frac{1}{x} (\\mathrm{e}^{x} - e^{a} - ab)\">\\mathrm{y} = \\frac{1}{x} (\\mathrm{e}^{x} - e^{a} - ab)</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch155/q0019_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\mathrm{y} = \\frac{1}{x} (\\mathrm{e}^{x} + e^{a} - ab)\">\\mathrm{y} = \\frac{1}{x} (\\mathrm{e}^{x} + e^{a} - ab)</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch155/q0019_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\mathrm{y} = \\frac{1}{x} \\left( \\mathrm{e}^{x} - e^{a} + ab \\right)\">\\mathrm{y} = \\frac{1}{x} \\left( \\mathrm{e}^{x} - e^{a} + ab \\right)</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch155/q0019_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\mathrm{y} = \\frac{1}{x} (\\mathrm{e}^{x} + e^{a} + ab)\">\\mathrm{y} = \\frac{1}{x} (\\mathrm{e}^{x} + e^{a} + ab)</span>"
         }
       ],
       "answer": "C",
       "answer_index": 2,
-      "analysis_html": "<img src=\"/static/generated/assets/advanced-math/ch155/q0019_analysis.png\"/>"
+      "analysis_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{aligned}&amp; \\text{原方程化为} \\; y&#x27; + \\frac{y}{x} = \\frac{e^x}{x} \\; , \\; \\text{解得} \\; y = \\frac{1}{x} (e^x + c) \\; , \\; \\text{代入} \\; y(a) = b \\; , \\; \\text{得} \\; c = -e^a + ab \\; , \\; \\text{所以特解为} \\\\&amp; \\; y = \\frac{1}{x} (e^x - e^a + ab) \\end{aligned}\">\\begin{aligned}&amp; \\text{原方程化为} \\; y&#x27; + \\frac{y}{x} = \\frac{e^x}{x} \\; , \\; \\text{解得} \\; y = \\frac{1}{x} (e^x + c) \\; , \\; \\text{代入} \\; y(a) = b \\; , \\; \\text{得} \\; c = -e^a + ab \\; , \\; \\text{所以特解为} \\\\&amp; \\; y = \\frac{1}{x} (e^x - e^a + ab) \\end{aligned}</div>"
     },
     {
       "id": "q0020",
       "number": 20,
       "header": "#20-Averge",
       "difficulty": "Averge",
-      "prompt_html": "<img src=\"/static/generated/assets/advanced-math/ch155/q0020_prompt.png\"/>",
+      "prompt_html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{微分方程}y^{\\prime}+3y=8 \\text{满足初始条件}y\\big{|}_{x=0}=2 \\text{的特解为（）}\">\\text{微分方程}y^{\\prime}+3y=8 \\text{满足初始条件}y\\big{|}_{x=0}=2 \\text{的特解为（）}</span>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch155/q0020_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"y {=} { \\frac { 2 } { 5 } } ( 4 { - } e ^ { - 3 x } )\">y {=} { \\frac { 2 } { 5 } } ( 4 { - } e ^ { - 3 x } )</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch155/q0020_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\displaystyle y = 3 - e ^ { - 3 x }\">\\displaystyle y = 3 - e ^ { - 3 x }</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch155/q0020_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\begin{aligned}y = \\frac{2}{3} (4 - e^{-3x})\\end{aligned}\">\\begin{aligned}y = \\frac{2}{3} (4 - e^{-3x})\\end{aligned}</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch155/q0020_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\displaystyle y = \\frac{2}{3} (4 - x e^{-3x})\">\\displaystyle y = \\frac{2}{3} (4 - x e^{-3x})</span>"
         }
       ],
       "answer": "C",
       "answer_index": 2,
-      "analysis_html": "<img src=\"/static/generated/assets/advanced-math/ch155/q0020_analysis.png\"/>"
+      "analysis_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{aligned}y&amp;=e^{-\\int 3dx}(c+\\int 8e^{\\int 3dx}dx)=e^{-3x}(c+\\frac{8}{3}e^{3x})\\\\&amp;\\text{代入初值，可得}c=-\\frac{2}{3},\\text{故所求特解为}\\\\&amp;y=\\frac{2}{3}(4-e^{-3x})\\end{aligned}\">\\begin{aligned}y&amp;=e^{-\\int 3dx}(c+\\int 8e^{\\int 3dx}dx)=e^{-3x}(c+\\frac{8}{3}e^{3x})\\\\&amp;\\text{代入初值，可得}c=-\\frac{2}{3},\\text{故所求特解为}\\\\&amp;y=\\frac{2}{3}(4-e^{-3x})\\end{aligned}</div>"
     },
     {
       "id": "q0021",
       "number": 21,
       "header": "#21-Averge",
       "difficulty": "Averge",
-      "prompt_html": "<img src=\"/static/generated/assets/advanced-math/ch155/q0021_prompt.png\"/>",
+      "prompt_html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{曲线上任一点} (x,y) \\text{处的切线斜率等于} -(1+ \\frac{y}{x})，\\text{且过点}(2,1)，\\text{则该曲线方程是}（）\">\\text{曲线上任一点} (x,y) \\text{处的切线斜率等于} -(1+ \\frac{y}{x})，\\text{且过点}(2,1)，\\text{则该曲线方程是}（）</span>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch155/q0021_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\displaystyle y = \\frac{4}{x} + \\frac{x}{2}\">\\displaystyle y = \\frac{4}{x} + \\frac{x}{2}</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch155/q0021_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\displaystyle y = \\frac{2}{x} + \\frac{x}{4}\">\\displaystyle y = \\frac{2}{x} + \\frac{x}{4}</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch155/q0021_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"y = \\frac{2}{x} - \\frac{x}{4}\">y = \\frac{2}{x} - \\frac{x}{4}</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch155/q0021_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"y = \\frac{4}{x} - \\frac{x}{2}\">y = \\frac{4}{x} - \\frac{x}{2}</span>"
         }
       ],
       "answer": "D",
       "answer_index": 3,
-      "analysis_html": "<img src=\"/static/generated/assets/advanced-math/ch155/q0021_analysis.png\"/>"
+      "analysis_html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{由题意知} \\ y&#x27; = - ( 1 + \\frac { y } { x } ) , \\text{解得} \\ y = \\frac { c } { x } - \\frac { x } { 2 } , \\text{代入初值，得} c = 4 , \\text{所以有} \\ y = \\frac { 4 } { x } - \\frac { x } { 2 }\">\\text{由题意知} \\ y&#x27; = - ( 1 + \\frac { y } { x } ) , \\text{解得} \\ y = \\frac { c } { x } - \\frac { x } { 2 } , \\text{代入初值，得} c = 4 , \\text{所以有} \\ y = \\frac { 4 } { x } - \\frac { x } { 2 }</span>"
     },
     {
       "id": "q0022",
       "number": 22,
       "header": "#22-Averge",
       "difficulty": "Averge",
-      "prompt_html": "<img src=\"/static/generated/assets/advanced-math/ch155/q0022_prompt.png\"/>",
+      "prompt_html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{微分方程} \\, y ^ { 3 } d x + ( 2 x y ^ { 2 } - 1 ) d y = 0 \\text{的通解为} \\ \\left( \\ \\right)\">\\text{微分方程} \\, y ^ { 3 } d x + ( 2 x y ^ { 2 } - 1 ) d y = 0 \\text{的通解为} \\ \\left( \\ \\right)</span>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch155/q0022_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\displaystyle x = \\frac { 1 } { y ^ { 2 } } ( \\ln | y | + c ) \\quad ( c \\text {为任意常数})\">\\displaystyle x = \\frac { 1 } { y ^ { 2 } } ( \\ln | y | + c ) \\quad ( c \\text {为任意常数})</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch155/q0022_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\displaystyle x = \\frac { 1 } { y ^ { 2 } } ( \\ln | x y | + c ) \\quad ( c \\text {为任意常数})\">\\displaystyle x = \\frac { 1 } { y ^ { 2 } } ( \\ln | x y | + c ) \\quad ( c \\text {为任意常数})</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch155/q0022_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\begin{aligned}x = c \\, \\frac{1}{y^2} \\ln \\left| y \\right| \\,\\, (\\text{c为任意常数})\\end{aligned}\">\\begin{aligned}x = c \\, \\frac{1}{y^2} \\ln \\left| y \\right| \\,\\, (\\text{c为任意常数})\\end{aligned}</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch155/q0022_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\displaystyle x = \\frac { 1 } { y } ( \\ln | y | + c ) \\quad ( c \\text {为任意常数})\">\\displaystyle x = \\frac { 1 } { y } ( \\ln | y | + c ) \\quad ( c \\text {为任意常数})</span>"
         }
       ],
       "answer": "A",
       "answer_index": 0,
-      "analysis_html": "<img src=\"/static/generated/assets/advanced-math/ch155/q0022_analysis.png\"/>"
+      "analysis_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{aligned}&amp; \\text{将 } x \\text{ 看做 } y \\text{ 的函数，方程化为} \\frac{dx}{dy} + \\frac{2}{y}x = \\frac{1}{y^3}, \\\\&amp; \\text{则方程的通解为} \\\\&amp; x = e^{-\\int \\frac{2}{y}dx} (\\int \\frac{1}{y^3} e^{\\int x^2 dy} + c) \\\\&amp; = e^{-2 \\ln |y|} (\\int \\frac{1}{y^3} e^{2 \\ln |y|} dy + c) \\\\&amp; = \\frac{1}{y^2} (\\ln |y| + c) (c \\text{为任意常数})\\end{aligned}\">\\begin{aligned}&amp; \\text{将 } x \\text{ 看做 } y \\text{ 的函数，方程化为} \\frac{dx}{dy} + \\frac{2}{y}x = \\frac{1}{y^3}, \\\\&amp; \\text{则方程的通解为} \\\\&amp; x = e^{-\\int \\frac{2}{y}dx} (\\int \\frac{1}{y^3} e^{\\int x^2 dy} + c) \\\\&amp; = e^{-2 \\ln |y|} (\\int \\frac{1}{y^3} e^{2 \\ln |y|} dy + c) \\\\&amp; = \\frac{1}{y^2} (\\ln |y| + c) (c \\text{为任意常数})\\end{aligned}</div>"
     },
     {
       "id": "q0023",
       "number": 23,
       "header": "#23-Averge",
       "difficulty": "Averge",
-      "prompt_html": "<img src=\"/static/generated/assets/advanced-math/ch155/q0023_prompt.png\"/>",
+      "prompt_html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{微分方程} (y^{2}-6x)y^{\\prime}+2y=0 \\text{的解为} (\\quad\">\\text{微分方程} (y^{2}-6x)y^{\\prime}+2y=0 \\text{的解为} (\\quad</span>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch155/q0023_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\begin{aligned}x = y^3 - c \\, \\frac{y^2}{2}\\end{aligned}\">\\begin{aligned}x = y^3 - c \\, \\frac{y^2}{2}\\end{aligned}</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch155/q0023_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\begin{aligned}x = c y^3 - \\frac{y^2}{2}\\end{aligned}\">\\begin{aligned}x = c y^3 - \\frac{y^2}{2}\\end{aligned}</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch155/q0023_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\begin{array}{c} x=cy^{3}+\\displaystyle{\\frac{y^{2}}{2}} \\end{array}\">\\begin{array}{c} x=cy^{3}+\\displaystyle{\\frac{y^{2}}{2}} \\end{array}</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch155/q0023_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\, x = y ^ { 3 } + \\frac { y ^ { 2 } } { 2 } + c \\,\">\\, x = y ^ { 3 } + \\frac { y ^ { 2 } } { 2 } + c \\,</span>"
         }
       ],
       "answer": "C",
       "answer_index": 2,
-      "analysis_html": "<img src=\"/static/generated/assets/advanced-math/ch155/q0023_analysis.png\"/>"
+      "analysis_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{aligned}&amp; \\text{原方程变形为：} \\quad \\frac{dx}{dy}-\\frac{3}{y}x=-\\frac{y}{2}\\\\&amp; \\text{所求通解为} \\quad x=e^{\\int_{y}^{3}c\\phi} (c+\\int-\\frac{y}{2}e^{-\\int_{y}^{3}c\\phi}dy)=y^{3}(c+\\frac{1}{2y})=cy^{3}+\\frac{y^{2}}{2}\\end{aligned}\">\\begin{aligned}&amp; \\text{原方程变形为：} \\quad \\frac{dx}{dy}-\\frac{3}{y}x=-\\frac{y}{2}\\\\&amp; \\text{所求通解为} \\quad x=e^{\\int_{y}^{3}c\\phi} (c+\\int-\\frac{y}{2}e^{-\\int_{y}^{3}c\\phi}dy)=y^{3}(c+\\frac{1}{2y})=cy^{3}+\\frac{y^{2}}{2}\\end{aligned}</div>"
     },
     {
       "id": "q0024",
       "number": 24,
       "header": "#24-Averge",
       "difficulty": "Averge",
-      "prompt_html": "<img src=\"/static/generated/assets/advanced-math/ch155/q0024_prompt.png\"/>",
+      "prompt_html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{微分方程}y&#x27; + \\frac{1}{x}y = x \\text{的解为（）}\">\\text{微分方程}y&#x27; + \\frac{1}{x}y = x \\text{的解为（）}</span>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch155/q0024_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\begin{aligned}y = \\frac{x^2}{3} + \\frac{c}{x}\\end{aligned}\">\\begin{aligned}y = \\frac{x^2}{3} + \\frac{c}{x}\\end{aligned}</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch155/q0024_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\begin{aligned}y = c \\frac{x^2}{3} + \\frac{1}{x}\\end{aligned}\">\\begin{aligned}y = c \\frac{x^2}{3} + \\frac{1}{x}\\end{aligned}</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch155/q0024_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\displaystyle y = \\frac{x^{2}}{3} - \\frac{c}{x}\">\\displaystyle y = \\frac{x^{2}}{3} - \\frac{c}{x}</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch155/q0024_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\begin{aligned}y = - \\frac{x^2}{3} + \\frac{c}{x}\\end{aligned}\">\\begin{aligned}y = - \\frac{x^2}{3} + \\frac{c}{x}\\end{aligned}</span>"
         }
       ],
       "answer": "A",
       "answer_index": 0,
-      "analysis_html": "<img src=\"/static/generated/assets/advanced-math/ch155/q0024_analysis.png\"/>"
+      "analysis_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{aligned}&amp; \\text{该方程是一阶线性非齐次方程，其中}\\\\&amp; P(x)=\\frac{1}{x}, Q(x)=x\\\\&amp; \\text{利用求解公式，得}y=e^{-\\int_{x}^{1}dx}(\\int xe^{\\int_{x}^{1}dx}dx+c)=\\frac{x^{2}}{3}+\\frac{c}{x}\\end{aligned}\">\\begin{aligned}&amp; \\text{该方程是一阶线性非齐次方程，其中}\\\\&amp; P(x)=\\frac{1}{x}, Q(x)=x\\\\&amp; \\text{利用求解公式，得}y=e^{-\\int_{x}^{1}dx}(\\int xe^{\\int_{x}^{1}dx}dx+c)=\\frac{x^{2}}{3}+\\frac{c}{x}\\end{aligned}</div>"
     },
     {
       "id": "q0025",
       "number": 25,
       "header": "#25-Averge",
       "difficulty": "Averge",
-      "prompt_html": "<img src=\"/static/generated/assets/advanced-math/ch155/q0025_prompt.png\"/>",
+      "prompt_html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{微分方程} (x-2) \\frac {d y } { d x } = y + 2 ( x - 2 ) ^ { 3 } \\text{的通解为}()\">\\text{微分方程} (x-2) \\frac {d y } { d x } = y + 2 ( x - 2 ) ^ { 3 } \\text{的通解为}()</span>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch155/q0025_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"y = c x ^ { 2 } + \\left( x - 2 \\right) ^ { 3 }\">y = c x ^ { 2 } + \\left( x - 2 \\right) ^ { 3 }</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch155/q0025_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"y = c ( x - 2 ) + ( x - 2 ) ^ { 3 }\">y = c ( x - 2 ) + ( x - 2 ) ^ { 3 }</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch155/q0025_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"y = (x - 2) - \\mathbf{c} (x - 2)^{3}\">y = (x - 2) - \\mathbf{c} (x - 2)^{3}</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch155/q0025_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"y = cx + \\left(x - 2 \\right)^{3}\">y = cx + \\left(x - 2 \\right)^{3}</span>"
         }
       ],
       "answer": "B",
       "answer_index": 1,
-      "analysis_html": "<img src=\"/static/generated/assets/advanced-math/ch155/q0025_analysis.png\"/>"
+      "analysis_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{aligned}&amp; \\text{方程可化为} \\; y&#x27;-\\frac{1}{x-2}y=2(x-2)^2 \\\\&amp; \\text{所以} \\; y=e^{\\int\\frac{1}{x-2}dx} [c+\\int 2(x-2)^2\\,e^{-\\ln(x-2)}dx] \\\\&amp; \\qquad=(x-2)[c+\\int 2(x-2)dx]=c(x-2)+(x-2)^3\\end{aligned}\">\\begin{aligned}&amp; \\text{方程可化为} \\; y&#x27;-\\frac{1}{x-2}y=2(x-2)^2 \\\\&amp; \\text{所以} \\; y=e^{\\int\\frac{1}{x-2}dx} [c+\\int 2(x-2)^2\\,e^{-\\ln(x-2)}dx] \\\\&amp; \\qquad=(x-2)[c+\\int 2(x-2)dx]=c(x-2)+(x-2)^3\\end{aligned}</div>"
     },
     {
       "id": "q0026",
       "number": 26,
       "header": "#26-Averge",
       "difficulty": "Averge",
-      "prompt_html": "<img src=\"/static/generated/assets/advanced-math/ch155/q0026_prompt.png\"/>",
+      "prompt_html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{微分方程}y^{\\prime}+f^{\\prime}(x)\\,\\text{y}=f(x)f^{\\prime}(x)\\text{的解为（）}\">\\text{微分方程}y^{\\prime}+f^{\\prime}(x)\\,\\text{y}=f(x)f^{\\prime}(x)\\text{的解为（）}</span>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch155/q0026_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"y = f ( x ) + e ^ { - f ( x ) } - c\">y = f ( x ) + e ^ { - f ( x ) } - c</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch155/q0026_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"y = f ( x ) + c e ^ { - f ( x ) } - 1\">y = f ( x ) + c e ^ { - f ( x ) } - 1</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch155/q0026_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"y = cf(x)e^{-f(x)} - 1\">y = cf(x)e^{-f(x)} - 1</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch155/q0026_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\begin{aligned}y = f(x) + ce^{-f(x)} + 1\\end{aligned}\">\\begin{aligned}y = f(x) + ce^{-f(x)} + 1\\end{aligned}</span>"
         }
       ],
       "answer": "B",
       "answer_index": 1,
-      "analysis_html": "<img src=\"/static/generated/assets/advanced-math/ch155/q0026_analysis.png\"/>"
+      "analysis_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{array}{l} y = e^{- \\int f&#x27;(x) dx} [ \\int f(x) f&#x27;(x) e^{\\int f&#x27;(x) dx} dx + c ] \\\\ = e^{-f(x)} [ \\int f(x) f&#x27;(x) e^{f(x)} dx + c ] \\\\ = e^{-f(x)} [ \\int f(x) e^{f(x)} df(x) + c ] \\\\ = e^{-f(x)} [ e^{f(x)} (f(x) - 1) + c ] \\\\ = f(x) + c e^{-f(x)} - 1 \\end{array}\">\\begin{array}{l} y = e^{- \\int f&#x27;(x) dx} [ \\int f(x) f&#x27;(x) e^{\\int f&#x27;(x) dx} dx + c ] \\\\ = e^{-f(x)} [ \\int f(x) f&#x27;(x) e^{f(x)} dx + c ] \\\\ = e^{-f(x)} [ \\int f(x) e^{f(x)} df(x) + c ] \\\\ = e^{-f(x)} [ e^{f(x)} (f(x) - 1) + c ] \\\\ = f(x) + c e^{-f(x)} - 1 \\end{array}</div>"
     },
     {
       "id": "q0027",
       "number": 27,
       "header": "#27-Averge",
       "difficulty": "Averge",
-      "prompt_html": "<img src=\"/static/generated/assets/advanced-math/ch155/q0027_prompt.png\"/>",
+      "prompt_html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{函数满足}f(x)+f&#x27;(x)=e^{x},\\text{且}f(0)=0,\\text{则}f(x)=()\">\\text{函数满足}f(x)+f&#x27;(x)=e^{x},\\text{且}f(0)=0,\\text{则}f(x)=()</span>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch155/q0027_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\frac{1}{2}(e^{2x}+e^{-x})\">\\frac{1}{2}(e^{2x}+e^{-x})</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch155/q0027_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\frac{1}{2}(e^{2x}-e^{-x})\">\\frac{1}{2}(e^{2x}-e^{-x})</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch155/q0027_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\frac{1}{2}(e^{x}+e^{-x})\">\\frac{1}{2}(e^{x}+e^{-x})</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch155/q0027_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\frac{1}{2}(e^{x}-e^{-x})\">\\frac{1}{2}(e^{x}-e^{-x})</span>"
         }
       ],
       "answer": "D",
       "answer_index": 3,
-      "analysis_html": "<img src=\"/static/generated/assets/advanced-math/ch155/q0027_analysis.png\"/>"
+      "analysis_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{aligned}&amp;\\text{由一阶线性微分方程的求解公式}\\\\&amp;y=e^{-1\\lambda x}[\\int e^{x}e^{1\\lambda x}\\,\\mathrm{d}x+c]=\\frac{1}{2}e^{x}+ce^{-x},\\text{代入初值}f(0)=0,\\,\\,\\text{得}c=-\\frac{1}{2},\\\\&amp;\\text{所以}f(x)=\\frac{1}{2}(e^{x}-e^{-x})\\end{aligned}\">\\begin{aligned}&amp;\\text{由一阶线性微分方程的求解公式}\\\\&amp;y=e^{-1\\lambda x}[\\int e^{x}e^{1\\lambda x}\\,\\mathrm{d}x+c]=\\frac{1}{2}e^{x}+ce^{-x},\\text{代入初值}f(0)=0,\\,\\,\\text{得}c=-\\frac{1}{2},\\\\&amp;\\text{所以}f(x)=\\frac{1}{2}(e^{x}-e^{-x})\\end{aligned}</div>"
     },
     {
       "id": "q0028",
       "number": 28,
       "header": "#28-Averge",
       "difficulty": "Averge",
-      "prompt_html": "<img src=\"/static/generated/assets/advanced-math/ch155/q0028_prompt.png\"/>",
+      "prompt_html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{微分方程}y&#x27; - \\frac{2}{x}y = 3x \\text{的解为}( )\">\\text{微分方程}y&#x27; - \\frac{2}{x}y = 3x \\text{的解为}( )</span>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch155/q0028_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"y = x ^ { 2 } ( - 3 \\ln x + C )\">y = x ^ { 2 } ( - 3 \\ln x + C )</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch155/q0028_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\begin{aligned}y = x^2 (3 \\ln x + C)\\end{aligned}\">\\begin{aligned}y = x^2 (3 \\ln x + C)\\end{aligned}</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch155/q0028_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\begin{aligned}y = x^2 (-3 \\ln |x| + C)\\end{aligned}\">\\begin{aligned}y = x^2 (-3 \\ln |x| + C)\\end{aligned}</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch155/q0028_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"y = x ^ { 2 } ( 3 \\ln | x | + C )\">y = x ^ { 2 } ( 3 \\ln | x | + C )</span>"
         }
       ],
       "answer": "D",
       "answer_index": 3,
-      "analysis_html": "<img src=\"/static/generated/assets/advanced-math/ch155/q0028_analysis.png\"/>"
+      "analysis_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{aligned}&amp;\\text{该方程是一阶线性非齐次方程，其中}\\\\&amp;P(x)=-\\frac{2}{x},Q(x)=3x\\\\&amp;\\text{利用求解公式，得}y=e^{\\int_{0}^{2}\\frac{dx}{x}}(\\int 3x e^{\\int_{0}^{\\frac{-2}{x}}dx}dx+c)=x^{2}(3\\ln|x|+C)\\end{aligned}\">\\begin{aligned}&amp;\\text{该方程是一阶线性非齐次方程，其中}\\\\&amp;P(x)=-\\frac{2}{x},Q(x)=3x\\\\&amp;\\text{利用求解公式，得}y=e^{\\int_{0}^{2}\\frac{dx}{x}}(\\int 3x e^{\\int_{0}^{\\frac{-2}{x}}dx}dx+c)=x^{2}(3\\ln|x|+C)\\end{aligned}</div>"
     },
     {
       "id": "q0029",
       "number": 29,
       "header": "#29-Averge",
       "difficulty": "Averge",
-      "prompt_html": "<img src=\"/static/generated/assets/advanced-math/ch155/q0029_prompt.png\"/>",
+      "prompt_html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{微分方程}y&#x27; - \\frac{1}{x}y = \\frac{2}{x^{2}}\\text{的解为（）}\">\\text{微分方程}y&#x27; - \\frac{1}{x}y = \\frac{2}{x^{2}}\\text{的解为（）}</span>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch155/q0029_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\, y = - { \\frac { 1 } { x } } + c x \\,\">\\, y = - { \\frac { 1 } { x } } + c x \\,</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch155/q0029_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\, y = \\frac { 1 } { x } + c x \\,\">\\, y = \\frac { 1 } { x } + c x \\,</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch155/q0029_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\, y = \\frac { c } { x } + x \\,\">\\, y = \\frac { c } { x } + x \\,</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch155/q0029_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\displaystyle y = - \\frac { c } { x } + x\">\\displaystyle y = - \\frac { c } { x } + x</span>"
         }
       ],
       "answer": "A",
       "answer_index": 0,
-      "analysis_html": "<img src=\"/static/generated/assets/advanced-math/ch155/q0029_analysis.png\"/>"
+      "analysis_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{aligned} \\text{该方程是一阶线性非齐次方程，其中} \\\\ P(x) = -\\frac{1}{x}, Q(x) = \\frac{2}{x^2} \\\\ \\text{利求解公式，得} y = e^{\\int \\frac{1}{x} dx} (\\int \\frac{2}{x^2} e^{\\int \\frac{1}{x} dx} dx + c) = x (-\\frac{1}{x^2} + c) = -\\frac{1}{x} + cx \\end{aligned}\">\\begin{aligned} \\text{该方程是一阶线性非齐次方程，其中} \\\\ P(x) = -\\frac{1}{x}, Q(x) = \\frac{2}{x^2} \\\\ \\text{利求解公式，得} y = e^{\\int \\frac{1}{x} dx} (\\int \\frac{2}{x^2} e^{\\int \\frac{1}{x} dx} dx + c) = x (-\\frac{1}{x^2} + c) = -\\frac{1}{x} + cx \\end{aligned}</div>"
     },
     {
       "id": "q0030",
       "number": 30,
       "header": "#30-Averge",
       "difficulty": "Averge",
-      "prompt_html": "<img src=\"/static/generated/assets/advanced-math/ch155/q0030_prompt.png\"/>",
+      "prompt_html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{微分方程}y^{\\prime}-2y=xe^{x} \\text{的解为（）}\">\\text{微分方程}y^{\\prime}-2y=xe^{x} \\text{的解为（）}</span>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch155/q0030_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"y = - x e ^ { x } + e ^ { x } + c e ^ { 2 x }\">y = - x e ^ { x } + e ^ { x } + c e ^ { 2 x }</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch155/q0030_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\begin{array}{l} y = x e ^ {x} - e ^ {x} + c e ^ {2 x} \\end{array}\">\\begin{array}{l} y = x e ^ {x} - e ^ {x} + c e ^ {2 x} \\end{array}</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch155/q0030_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"y = x e ^ { x } + e ^ { x } + c e ^ { 2 x }\">y = x e ^ { x } + e ^ { x } + c e ^ { 2 x }</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch155/q0030_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\begin{aligned}y = - x e^x - e^x + c e^{2x}\\end{aligned}\">\\begin{aligned}y = - x e^x - e^x + c e^{2x}\\end{aligned}</span>"
         }
       ],
       "answer": "D",
       "answer_index": 3,
-      "analysis_html": "<img src=\"/static/generated/assets/advanced-math/ch155/q0030_analysis.png\"/>"
+      "analysis_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{aligned}&amp;\\text{该方程是一阶线性非齐次方程，其中}\\\\&amp;P(x)=-2,Q(x)=xe^x\\\\&amp;\\text{利求解公式，得}y=e^{\\int_{2}^{2dx}(\\int xe^xe^{\\int-2dx}dx+c)}=e^{2x}(-xe^{-x}-e^{-x}+c)=-xe^x-e^x+ce^{2x}\\end{aligned}\">\\begin{aligned}&amp;\\text{该方程是一阶线性非齐次方程，其中}\\\\&amp;P(x)=-2,Q(x)=xe^x\\\\&amp;\\text{利求解公式，得}y=e^{\\int_{2}^{2dx}(\\int xe^xe^{\\int-2dx}dx+c)}=e^{2x}(-xe^{-x}-e^{-x}+c)=-xe^x-e^x+ce^{2x}\\end{aligned}</div>"
     },
     {
       "id": "q0031",
       "number": 31,
       "header": "#31-Averge",
       "difficulty": "Averge",
-      "prompt_html": "<img src=\"/static/generated/assets/advanced-math/ch155/q0031_prompt.png\"/>",
+      "prompt_html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{微分方程} \\, y ^ { \\prime } - y \\tan x = \\sec x \\text{ 满足初始条件} \\, y \\big | _ { x = 0 } = 0 \\text{ 的特解为（）}\">\\text{微分方程} \\, y ^ { \\prime } - y \\tan x = \\sec x \\text{ 满足初始条件} \\, y \\big | _ { x = 0 } = 0 \\text{ 的特解为（）}</span>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch155/q0031_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"y = x \\cos x\">y = x \\cos x</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch155/q0031_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"y = x \\sec x\">y = x \\sec x</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch155/q0031_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"y = x \\sin x\">y = x \\sin x</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch155/q0031_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"y = x \\tan x\">y = x \\tan x</span>"
         }
       ],
       "answer": "B",
       "answer_index": 1,
-      "analysis_html": "<img src=\"/static/generated/assets/advanced-math/ch155/q0031_analysis.png\"/>"
+      "analysis_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{aligned}&amp; \\text{方程的特解为} \\\\&amp; y=e^{\\int \\frac{\\sin x}{\\cos x} dx}(c+\\int \\sec x e^{\\ln \\cos x} dx) \\\\&amp; =\\sec x(c+\\int 1 dx)=(c+x)\\sec x \\\\&amp; \\text{代入初值}c=0,\\text{ 故所求特解为}y=x\\sec x\\end{aligned}\">\\begin{aligned}&amp; \\text{方程的特解为} \\\\&amp; y=e^{\\int \\frac{\\sin x}{\\cos x} dx}(c+\\int \\sec x e^{\\ln \\cos x} dx) \\\\&amp; =\\sec x(c+\\int 1 dx)=(c+x)\\sec x \\\\&amp; \\text{代入初值}c=0,\\text{ 故所求特解为}y=x\\sec x\\end{aligned}</div>"
     },
     {
       "id": "q0032",
       "number": 32,
       "header": "#32-Averge",
       "difficulty": "Averge",
-      "prompt_html": "<img src=\"/static/generated/assets/advanced-math/ch155/q0032_prompt.png\"/>",
+      "prompt_html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{微分方程}y^{\\prime}-2y=e^{x}\\text{满足}y(0)=1\\text{的特解为（）}\">\\text{微分方程}y^{\\prime}-2y=e^{x}\\text{满足}y(0)=1\\text{的特解为（）}</span>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch155/q0032_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"y = e^{x} + 2e^{2x}\">y = e^{x} + 2e^{2x}</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch155/q0032_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"y = e^{x} - 2 e^{2x}\">y = e^{x} - 2 e^{2x}</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch155/q0032_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"y = - e ^ { x } + 2 e ^ { 2 x }\">y = - e ^ { x } + 2 e ^ { 2 x }</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch155/q0032_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"y = - e ^ { x } - 2 e ^ { 2 x }\">y = - e ^ { x } - 2 e ^ { 2 x }</span>"
         }
       ],
       "answer": "C",
       "answer_index": 2,
-      "analysis_html": "<img src=\"/static/generated/assets/advanced-math/ch155/q0032_analysis.png\"/>"
+      "analysis_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{aligned} \\text{该方程是一阶线性非齐次方程，其中}\\\\P(x)=-2_{2}Q(x)=e^{x}\\\\ \\text{利求解公式，得}y=e^{\\int 2\\alpha x}\\left(\\int e^{x}e^{\\int -2\\alpha x}d\\alpha+c\\right)=e^{2x}(-e^{-x}+c)\\\\ \\text{，代入初值可得}c=2 \\end{aligned}\">\\begin{aligned} \\text{该方程是一阶线性非齐次方程，其中}\\\\P(x)=-2_{2}Q(x)=e^{x}\\\\ \\text{利求解公式，得}y=e^{\\int 2\\alpha x}\\left(\\int e^{x}e^{\\int -2\\alpha x}d\\alpha+c\\right)=e^{2x}(-e^{-x}+c)\\\\ \\text{，代入初值可得}c=2 \\end{aligned}</div>"
     },
     {
       "id": "q0033",
       "number": 33,
       "header": "#33-Averge",
       "difficulty": "Averge",
-      "prompt_html": "<img src=\"/static/generated/assets/advanced-math/ch155/q0033_prompt.png\"/>",
+      "prompt_html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{微分方程}y\\,dx + (1+y)xdy = e^{y}dy \\text{的解为（）}\">\\text{微分方程}y\\,dx + (1+y)xdy = e^{y}dy \\text{的解为（）}</span>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch155/q0033_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\begin{aligned}x = \\frac{ce^{-y}}{y} + \\frac{e^{y}}{2y}\\end{aligned}\">\\begin{aligned}x = \\frac{ce^{-y}}{y} + \\frac{e^{y}}{2y}\\end{aligned}</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch155/q0033_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\, x = \\frac { e ^ { - y } } { y } + \\frac { c e ^ { y } } { 2 y } \\,\">\\, x = \\frac { e ^ { - y } } { y } + \\frac { c e ^ { y } } { 2 y } \\,</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch155/q0033_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\begin{aligned}x = \\frac{c e^{-y}}{2 y} + \\frac{e^y}{y}\\end{aligned}\">\\begin{aligned}x = \\frac{c e^{-y}}{2 y} + \\frac{e^y}{y}\\end{aligned}</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch155/q0033_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\begin{aligned}x = \\frac{ce^{-y}}{y} + \\frac{e^{-y}}{2y}\\end{aligned}\">\\begin{aligned}x = \\frac{ce^{-y}}{y} + \\frac{e^{-y}}{2y}\\end{aligned}</span>"
         }
       ],
       "answer": "A",
       "answer_index": 0,
-      "analysis_html": "<img src=\"/static/generated/assets/advanced-math/ch155/q0033_analysis.png\"/>"
+      "analysis_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{aligned}&amp;\\text{将原方程变形为：}\\ \\frac{dx}{dy}+\\frac{1+y}{y}\\ x=\\frac{e^{y}}{y}\\\\&amp;x=e^{-\\int\\frac{1+y}{y}dy}(c+\\int e^{y}/ye^{\\int\\frac{1+y}{y}dy}dy)=\\frac{e^{-y}}{y}(c+\\int e^{2y}dy)\\\\&amp;\\text{所求通解为}\\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\end{aligned}\">\\begin{aligned}&amp;\\text{将原方程变形为：}\\ \\frac{dx}{dy}+\\frac{1+y}{y}\\ x=\\frac{e^{y}}{y}\\\\&amp;x=e^{-\\int\\frac{1+y}{y}dy}(c+\\int e^{y}/ye^{\\int\\frac{1+y}{y}dy}dy)=\\frac{e^{-y}}{y}(c+\\int e^{2y}dy)\\\\&amp;\\text{所求通解为}\\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\end{aligned}</div>"
     },
     {
       "id": "q0034",
       "number": 34,
       "header": "#34-Averge",
       "difficulty": "Averge",
-      "prompt_html": "<img src=\"/static/generated/assets/advanced-math/ch155/q0034_prompt.png\"/>",
+      "prompt_html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\frac{dy}{dx} = \\frac{x}{\\sin y} + \\cot y \\text{ 的通解为( )}\">\\frac{dy}{dx} = \\frac{x}{\\sin y} + \\cot y \\text{ 的通解为( )}</span>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch155/q0034_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\cos y = e ^ { x } ( x e ^ { x } + e ^ { x } + C )\">\\cos y = e ^ { x } ( x e ^ { x } + e ^ { x } + C )</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch155/q0034_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\cos y = e ^ { - x } ( x e ^ { x } - e ^ { x } + C )\">\\cos y = e ^ { - x } ( x e ^ { x } - e ^ { x } + C )</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch155/q0034_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\cos y = e ^ { - x } ( \\mathrm { x e } ^ { x } + e ^ { x } + C )\">\\cos y = e ^ { - x } ( \\mathrm { x e } ^ { x } + e ^ { x } + C )</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch155/q0034_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\cos y = e ^ { x } ( \\mathrm { x e } ^ { x } - e ^ { x } + \\mathrm { C } )\">\\cos y = e ^ { x } ( \\mathrm { x e } ^ { x } - e ^ { x } + \\mathrm { C } )</span>"
         }
       ],
       "answer": "B",
       "answer_index": 1,
-      "analysis_html": "<img src=\"/static/generated/assets/advanced-math/ch155/q0034_analysis.png\"/>"
+      "analysis_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{aligned} &amp; \\text{该方程可化为一阶线性非齐次方程，}\\sin y\\frac{dy}{dx}-\\cos y=x，\\text{即}\\frac{d\\cos y}{dx}+\\cos y=-x，\\text{令}\\\\&amp; z=\\cos y\\ ,\\text{则为一阶线性非齐次方程}z&#x27;+z=-x\\text{其中}\\\\&amp; P(x)=1,Q(x)=-x\\\\&amp; \\cos y=z=e^{-\\int 1xz}\\bigl( \\int (-x)\\cdot e^{\\int 1xz}dx+C\\bigr)=e^{-x}(-\\int xe^{x}dx+C)=e^{-x}(xe^{x}-e^{x}+C)\\end{aligned}\">\\begin{aligned} &amp; \\text{该方程可化为一阶线性非齐次方程，}\\sin y\\frac{dy}{dx}-\\cos y=x，\\text{即}\\frac{d\\cos y}{dx}+\\cos y=-x，\\text{令}\\\\&amp; z=\\cos y\\ ,\\text{则为一阶线性非齐次方程}z&#x27;+z=-x\\text{其中}\\\\&amp; P(x)=1,Q(x)=-x\\\\&amp; \\cos y=z=e^{-\\int 1xz}\\bigl( \\int (-x)\\cdot e^{\\int 1xz}dx+C\\bigr)=e^{-x}(-\\int xe^{x}dx+C)=e^{-x}(xe^{x}-e^{x}+C)\\end{aligned}</div>"
     },
     {
       "id": "q0035",
       "number": 35,
       "header": "#35-Averge",
       "difficulty": "Averge",
-      "prompt_html": "<img src=\"/static/generated/assets/advanced-math/ch155/q0035_prompt.png\"/>",
+      "prompt_html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{微分方程}y^{\\prime}-2xy=e^{x^{2}}\\text{的解为（）}\">\\text{微分方程}y^{\\prime}-2xy=e^{x^{2}}\\text{的解为（）}</span>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch155/q0035_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\begin{aligned}y = e^x + 2e^{2x} + c\\end{aligned}\">\\begin{aligned}y = e^x + 2e^{2x} + c\\end{aligned}</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch155/q0035_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"y = e^{x^{2}} \\left( x + c \\right)\">y = e^{x^{2}} \\left( x + c \\right)</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch155/q0035_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"y = e^{x^{2}}(-x + c)\">y = e^{x^{2}}(-x + c)</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch155/q0035_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\begin{aligned}y = - e^{x^2} - 2 e^{2x} + c\\end{aligned}\">\\begin{aligned}y = - e^{x^2} - 2 e^{2x} + c\\end{aligned}</span>"
         }
       ],
       "answer": "B",
       "answer_index": 1,
-      "analysis_html": "<img src=\"/static/generated/assets/advanced-math/ch155/q0035_analysis.png\"/>"
+      "analysis_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{aligned}&amp;\\text{该方程是一阶线性非齐次方程，其中}\\\\&amp;P(x)=-2x,Q(x)=e^{x^{2}}\\\\&amp;\\text{利求解公式，得}y=e^{\\int 2x\\,dx}(\\int e^{x^{2}}e^{\\int -2x\\,dx}dx+c)=e^{x^{2}}(x+c)\\end{aligned}\">\\begin{aligned}&amp;\\text{该方程是一阶线性非齐次方程，其中}\\\\&amp;P(x)=-2x,Q(x)=e^{x^{2}}\\\\&amp;\\text{利求解公式，得}y=e^{\\int 2x\\,dx}(\\int e^{x^{2}}e^{\\int -2x\\,dx}dx+c)=e^{x^{2}}(x+c)\\end{aligned}</div>"
     },
     {
       "id": "q0036",
       "number": 36,
       "header": "#36-Averge",
       "difficulty": "Averge",
-      "prompt_html": "<img src=\"/static/generated/assets/advanced-math/ch155/q0036_prompt.png\"/>",
+      "prompt_html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\displaystyle y^{\\prime}+y\\tan x=2\\sin x\\text{的通解为( )}\">\\displaystyle y^{\\prime}+y\\tan x=2\\sin x\\text{的通解为( )}</span>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch155/q0036_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\cos x (2 x + C)\">\\cos x (2 x + C)</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch155/q0036_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\cos x (x + C)\">\\cos x (x + C)</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch155/q0036_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\cos x ( \\sec x + C )\">\\cos x ( \\sec x + C )</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch155/q0036_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\, C \\sin x - 2 \\sin ^ { 2 } x \\,\">\\, C \\sin x - 2 \\sin ^ { 2 } x \\,</span>"
         }
       ],
       "answer": "A",
       "answer_index": 0,
-      "analysis_html": "<img src=\"/static/generated/assets/advanced-math/ch155/q0036_analysis.png\"/>"
+      "analysis_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{aligned} &amp; \\text{该方程是一阶线性非齐次方程，其中} \\\\ &amp; P(x)=\\tan x,Q(x)=2\\sin x \\\\ &amp; y=e^{-\\int_{\\tan x\\neq 0}^{\\tan x\\neq 0}(\\int 2\\sin x\\cdot e^{-t\\tan x\\neq 0}dx+C)}=\\cos x(\\int 2\\sin x\\sec xdx+C)=\\cos x(2x+C)\\end{aligned}\">\\begin{aligned} &amp; \\text{该方程是一阶线性非齐次方程，其中} \\\\ &amp; P(x)=\\tan x,Q(x)=2\\sin x \\\\ &amp; y=e^{-\\int_{\\tan x\\neq 0}^{\\tan x\\neq 0}(\\int 2\\sin x\\cdot e^{-t\\tan x\\neq 0}dx+C)}=\\cos x(\\int 2\\sin x\\sec xdx+C)=\\cos x(2x+C)\\end{aligned}</div>"
     }
-  ]
+  ],
+  "format": "latex",
+  "source_md": "gs/10.3.1_一阶线性微分方程(36题)/10.3.1_一阶线性微分方程(36题).md"
 }

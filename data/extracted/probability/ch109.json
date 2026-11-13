@@ -13,532 +13,534 @@
       "number": 1,
       "header": "#1-Averge",
       "difficulty": "Averge",
-      "prompt_html": "<img src=\"/static/generated/assets/probability/ch109/q0001_prompt.png\"/>",
+      "prompt_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{aligned} \\text{在正态总体}N(\\mu,100)\\text{中取一容量为}n\\text{的样本，其样本均值为}\\overline{X}\\text{，若}P\\{\\mu-5&lt;\\overline{X}&lt;\\mu+5\\}=0.954\\text{，}\\\\ \\text{则}n=(\\cdot)\\ (\\Phi(2)=0.977)\\end{aligned}\">\\begin{aligned} \\text{在正态总体}N(\\mu,100)\\text{中取一容量为}n\\text{的样本，其样本均值为}\\overline{X}\\text{，若}P\\{\\mu-5&lt;\\overline{X}&lt;\\mu+5\\}=0.954\\text{，}\\\\ \\text{则}n=(\\cdot)\\ (\\Phi(2)=0.977)\\end{aligned}</div>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/probability/ch109/q0001_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"16\">16</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/probability/ch109/q0001_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"20\">20</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/probability/ch109/q0001_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"18\">18</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/probability/ch109/q0001_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"14\">14</span>"
         }
       ],
       "answer": "A",
       "answer_index": 0,
-      "analysis_html": "<img src=\"/static/generated/assets/probability/ch109/q0001_analysis.png\"/>"
+      "analysis_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{aligned}&amp;\\text{依题意有}\\qquad\\qquad\\overline{X}\\sim N(\\mu,\\frac{100}{n}),\\\\&amp;\\text{即}\\qquad\\qquad\\frac{\\overline{X}-\\mu}{10\\sqrt{n}}\\sim N(0,1),\\\\&amp;\\text{于是由}P\\{\\mu-5&lt;\\overline{X}&lt;\\mu+5\\}=0.954\\text{有}\\\\&amp;\\qquad P\\{\\frac{\\sqrt{n}}{2}&lt;\\frac{\\overline{X}-\\mu}{10\\sqrt{n}}&lt;\\frac{\\sqrt{n}}{2}\\}=0.954\\\\&amp;\\Rightarrow 2\\Phi(\\frac{\\sqrt{n}}{2})-1=0.954\\ \\Rightarrow\\ \\Phi(\\frac{\\sqrt{n}}{2})=0.977\\,,\\\\&amp;\\Rightarrow \\frac{\\sqrt{n}}{2}=2\\ \\Rightarrow\\ n=16\\,.\\end{aligned}\">\\begin{aligned}&amp;\\text{依题意有}\\qquad\\qquad\\overline{X}\\sim N(\\mu,\\frac{100}{n}),\\\\&amp;\\text{即}\\qquad\\qquad\\frac{\\overline{X}-\\mu}{10\\sqrt{n}}\\sim N(0,1),\\\\&amp;\\text{于是由}P\\{\\mu-5&lt;\\overline{X}&lt;\\mu+5\\}=0.954\\text{有}\\\\&amp;\\qquad P\\{\\frac{\\sqrt{n}}{2}&lt;\\frac{\\overline{X}-\\mu}{10\\sqrt{n}}&lt;\\frac{\\sqrt{n}}{2}\\}=0.954\\\\&amp;\\Rightarrow 2\\Phi(\\frac{\\sqrt{n}}{2})-1=0.954\\ \\Rightarrow\\ \\Phi(\\frac{\\sqrt{n}}{2})=0.977\\,,\\\\&amp;\\Rightarrow \\frac{\\sqrt{n}}{2}=2\\ \\Rightarrow\\ n=16\\,.\\end{aligned}</div>"
     },
     {
       "id": "q0002",
       "number": 2,
       "header": "#2-Averge",
       "difficulty": "Averge",
-      "prompt_html": "<img src=\"/static/generated/assets/probability/ch109/q0002_prompt.png\"/>",
+      "prompt_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{array}{l} \\text {设总体} X \\sim N(-1,2^{2}), \\text {取样本} X_{1},X_{2},\\cdots,X_{16},\\ \\overline{\\lambda} \\text {是样本均值，} a \\text {为正实数，且用} \\Phi(x)\\text {表示标准正态分布函数，则}\\\\ \\text {概率}P\\{\\overline{X}+1|&lt;a\\}=()\\ . \\end{array}\">\\begin{array}{l} \\text {设总体} X \\sim N(-1,2^{2}), \\text {取样本} X_{1},X_{2},\\cdots,X_{16},\\ \\overline{\\lambda} \\text {是样本均值，} a \\text {为正实数，且用} \\Phi(x)\\text {表示标准正态分布函数，则}\\\\ \\text {概率}P\\{\\overline{X}+1|&lt;a\\}=()\\ . \\end{array}</div>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/probability/ch109/q0002_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\, 2 \\Phi ( 2 a ) - 1 \\,\">\\, 2 \\Phi ( 2 a ) - 1 \\,</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/probability/ch109/q0002_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\Phi ( \\frac { a } { 2 } ) - \\Phi ( - \\frac { a } { 2 } )\">\\Phi ( \\frac { a } { 2 } ) - \\Phi ( - \\frac { a } { 2 } )</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/probability/ch109/q0002_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\Phi (a) - \\Phi (- a)\">\\Phi (a) - \\Phi (- a)</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/probability/ch109/q0002_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"1 - 2 \\Phi ( - a )\">1 - 2 \\Phi ( - a )</span>"
         }
       ],
       "answer": "A",
       "answer_index": 0,
-      "analysis_html": "<img src=\"/static/generated/assets/probability/ch109/q0002_analysis.png\"/>"
+      "analysis_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{aligned}&amp;\\frac{\\overline{X}+1}{2/\\sqrt{16}}=2(\\overline{X}+1)\\sim N(0,1)\\,,\\\\&amp;\\text{于是}\\qquad\\qquad P\\{|\\overline{X}+1|&lt;a\\}=2\\Phi(2a)-1\\,.\\end{aligned}\">\\begin{aligned}&amp;\\frac{\\overline{X}+1}{2/\\sqrt{16}}=2(\\overline{X}+1)\\sim N(0,1)\\,,\\\\&amp;\\text{于是}\\qquad\\qquad P\\{|\\overline{X}+1|&lt;a\\}=2\\Phi(2a)-1\\,.\\end{aligned}</div>"
     },
     {
       "id": "q0003",
       "number": 3,
       "header": "#3-Averge",
       "difficulty": "Averge",
-      "prompt_html": "<img src=\"/static/generated/assets/probability/ch109/q0003_prompt.png\"/>",
+      "prompt_html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{某种产品的平均生产时间是}65\\text{秒(每件)}, \\text{标准差为}25\\text{秒, 设产品的生产时间服从正态分布, 则样本容量至少应取} \\left( \\text{, } \\right) , \\text{才能使样本均值以} 95\\% \\text{的概率处于区间} \\left( 65-15, 65+15 \\right) \\text{之内. } \\left( \\Phi(1.96)=0.975, \\Phi(1.645)=0.95 \\right).\">\\text{某种产品的平均生产时间是}65\\text{秒(每件)}, \\text{标准差为}25\\text{秒, 设产品的生产时间服从正态分布, 则样本容量至少应取} \\left( \\text{, } \\right) , \\text{才能使样本均值以} 95\\% \\text{的概率处于区间} \\left( 65-15, 65+15 \\right) \\text{之内. } \\left( \\Phi(1.96)=0.975, \\Phi(1.645)=0.95 \\right).</span>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/probability/ch109/q0003_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"11\">11</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/probability/ch109/q0003_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"8\">8</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/probability/ch109/q0003_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"12\">12</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/probability/ch109/q0003_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"^ 9\">^ 9</span>"
         }
       ],
       "answer": "A",
       "answer_index": 0,
-      "analysis_html": "<img src=\"/static/generated/assets/probability/ch109/q0003_analysis.png\"/>"
+      "analysis_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{aligned} \\text{设产品生产时间为}X, \\text{则} \\quad&amp; X\\sim N(65,25^2), \\quad \\frac{\\overline{X}-65}{25\\sqrt{n}}\\sim N(0,1), \\\\ \\text{为使}P(|\\overline{X}-65|&lt;15)=0.95, \\text{必须} \\quad&amp; \\frac{\\overline{X}-65}{25\\sqrt{n}}&lt;\\frac{15}{25\\sqrt{n}}\\approx 1.96. \\\\ \\text{所以} \\quad&amp; \\sqrt{n}\\approx 1.96\\times \\frac{5}{3}=3.3, \\text{即}n\\approx 3.2^3=10.89, \\text{取}n=11 \\text{即可}.\\end{aligned}\">\\begin{aligned} \\text{设产品生产时间为}X, \\text{则} \\quad&amp; X\\sim N(65,25^2), \\quad \\frac{\\overline{X}-65}{25\\sqrt{n}}\\sim N(0,1), \\\\ \\text{为使}P(|\\overline{X}-65|&lt;15)=0.95, \\text{必须} \\quad&amp; \\frac{\\overline{X}-65}{25\\sqrt{n}}&lt;\\frac{15}{25\\sqrt{n}}\\approx 1.96. \\\\ \\text{所以} \\quad&amp; \\sqrt{n}\\approx 1.96\\times \\frac{5}{3}=3.3, \\text{即}n\\approx 3.2^3=10.89, \\text{取}n=11 \\text{即可}.\\end{aligned}</div>"
     },
     {
       "id": "q0004",
       "number": 4,
       "header": "#4-Averge",
       "difficulty": "Averge",
-      "prompt_html": "<img src=\"/static/generated/assets/probability/ch109/q0004_prompt.png\"/>",
+      "prompt_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{array}{l} \\text{设总体} X \\sim N( \\mu ,\\sigma^{2})，\\text{假如要以}95.44\\%\\text{的概率保证偏差} \\left| \\overline{X} - \\mu \\right| &lt; 0.1，\\text{试问}：\\text{当} \\sigma^{2} = 0.25 \\text{时}，\\text{样本容量}  n  \\text{应取} \\\\ ( ) . \\end{array}\">\\begin{array}{l} \\text{设总体} X \\sim N( \\mu ,\\sigma^{2})，\\text{假如要以}95.44\\%\\text{的概率保证偏差} \\left| \\overline{X} - \\mu \\right| &lt; 0.1，\\text{试问}：\\text{当} \\sigma^{2} = 0.25 \\text{时}，\\text{样本容量}  n  \\text{应取} \\\\ ( ) . \\end{array}</div>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/probability/ch109/q0004_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"100\">100</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/probability/ch109/q0004_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"115\">115</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/probability/ch109/q0004_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"110\">110</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/probability/ch109/q0004_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"105\">105</span>"
         }
       ],
       "answer": "A",
       "answer_index": 0,
-      "analysis_html": "<img src=\"/static/generated/assets/probability/ch109/q0004_analysis.png\"/>"
+      "analysis_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{aligned}P\\{\\left|\\overline{X}-\\mu\\right|&lt;0.1\\} &amp; =0.9544,\\text{ 即} \\\\P\\{\\left|\\overline{X}-\\mu\\right|&lt;0.1\\} &amp; =P\\{\\left|\\frac{\\overline{X}-\\mu}{\\sqrt{0.25/n}}\\right|&lt;\\frac{0.1}{\\sqrt{0.25/n}}\\}\\, =2\\Phi\\left(\\frac{\\sqrt{n}}{5}\\right)-1=0.9544, \\\\ &amp; \\Rightarrow \\Phi\\left(\\frac{\\sqrt{n}}{5}\\right)=0.9772 \\Rightarrow \\frac{\\sqrt{n}}{5}=2 \\Rightarrow n \\approx 100.\\end{aligned}\">\\begin{aligned}P\\{\\left|\\overline{X}-\\mu\\right|&lt;0.1\\} &amp; =0.9544,\\text{ 即} \\\\P\\{\\left|\\overline{X}-\\mu\\right|&lt;0.1\\} &amp; =P\\{\\left|\\frac{\\overline{X}-\\mu}{\\sqrt{0.25/n}}\\right|&lt;\\frac{0.1}{\\sqrt{0.25/n}}\\}\\, =2\\Phi\\left(\\frac{\\sqrt{n}}{5}\\right)-1=0.9544, \\\\ &amp; \\Rightarrow \\Phi\\left(\\frac{\\sqrt{n}}{5}\\right)=0.9772 \\Rightarrow \\frac{\\sqrt{n}}{5}=2 \\Rightarrow n \\approx 100.\\end{aligned}</div>"
     },
     {
       "id": "q0005",
       "number": 5,
       "header": "#5-Easy",
       "difficulty": "Easy",
-      "prompt_html": "<img src=\"/static/generated/assets/probability/ch109/q0005_prompt.png\"/>",
+      "prompt_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{aligned} \\text{在设计导弹发射装置时，重要事情之一是研究弹着点偏离目标中心的距离的方差. 对于一类导弹发射装置，弹着点偏离目标中心的距离服从正态分布 }\\text{N}(\\mu,\\sigma^2), 这里 \\sigma^2 = 100 \\text{米}^2, 现在进行了25次发射试验，用S^2记这25次试验中弹着点偏离目标中心的距离的样本方差，则S^2超过50米^2的概率大于（）. \\chi_{0.975}^2(24)=12.401, \\chi_{0.990}^2(24)=10.856. \\end{aligned}\">\\begin{aligned} \\text{在设计导弹发射装置时，重要事情之一是研究弹着点偏离目标中心的距离的方差. 对于一类导弹发射装置，弹着点偏离目标中心的距离服从正态分布 }\\text{N}(\\mu,\\sigma^2), 这里 \\sigma^2 = 100 \\text{米}^2, 现在进行了25次发射试验，用S^2记这25次试验中弹着点偏离目标中心的距离的样本方差，则S^2超过50米^2的概率大于（）. \\chi_{0.975}^2(24)=12.401, \\chi_{0.990}^2(24)=10.856. \\end{aligned}</div>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/probability/ch109/q0005_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"97.5\\%\">97.5\\%</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/probability/ch109/q0005_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"91.5\\%\">91.5\\%</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/probability/ch109/q0005_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"88.5\\%\">88.5\\%</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/probability/ch109/q0005_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"95.5\\%\">95.5\\%</span>"
         }
       ],
       "answer": "A",
       "answer_index": 0,
-      "analysis_html": "<img src=\"/static/generated/assets/probability/ch109/q0005_analysis.png\"/>"
+      "analysis_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{aligned} \\text{由于}\\ \\frac{(n-1)S^2}{\\sigma^2} \\sim \\chi^2(n-1)，\\text{于是}\\\\ P\\{S^2&gt;50\\} &amp;= P\\left\\{\\frac{(n-1)S^2}{\\sigma^2} &gt; \\frac{(n-1)50}{\\sigma^2}\\right\\}\\\\ &amp;= P\\left\\{\\chi^2(24) &gt; \\frac{24 \\times 50}{100}\\right\\} = P\\{\\chi^2(24) &gt; 12\\} &gt; P\\{\\chi^2(24) &gt; 12.401\\}\\\\ &amp;= 0.975 \\end{aligned}\">\\begin{aligned} \\text{由于}\\ \\frac{(n-1)S^2}{\\sigma^2} \\sim \\chi^2(n-1)，\\text{于是}\\\\ P\\{S^2&gt;50\\} &amp;= P\\left\\{\\frac{(n-1)S^2}{\\sigma^2} &gt; \\frac{(n-1)50}{\\sigma^2}\\right\\}\\\\ &amp;= P\\left\\{\\chi^2(24) &gt; \\frac{24 \\times 50}{100}\\right\\} = P\\{\\chi^2(24) &gt; 12\\} &gt; P\\{\\chi^2(24) &gt; 12.401\\}\\\\ &amp;= 0.975 \\end{aligned}</div>"
     },
     {
       "id": "q0006",
       "number": 6,
       "header": "#6-Averge",
       "difficulty": "Averge",
-      "prompt_html": "<img src=\"/static/generated/assets/probability/ch109/q0006_prompt.png\"/>",
+      "prompt_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{aligned} \\text{设在总体}N(\\mu,\\sigma^2)\\text{中抽取一容量为}17\\text{的样本，这里}\\mu,\\sigma^2\\text{均为未知. 则}P\\{S^2/\\sigma^2\\leq 2\\}\\text{为( )},\\text{其中}S^2\\text{为样本方差.}\\ \\\\ \\chi^2_{0.01}(16)=32,\\chi^2_{0.05}(16)=34.267\\end{aligned}\">\\begin{aligned} \\text{设在总体}N(\\mu,\\sigma^2)\\text{中抽取一容量为}17\\text{的样本，这里}\\mu,\\sigma^2\\text{均为未知. 则}P\\{S^2/\\sigma^2\\leq 2\\}\\text{为( )},\\text{其中}S^2\\text{为样本方差.}\\ \\\\ \\chi^2_{0.01}(16)=32,\\chi^2_{0.05}(16)=34.267\\end{aligned}</div>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/probability/ch109/q0006_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\scriptstyle . 0 . 99\">\\scriptstyle . 0 . 99</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/probability/ch109/q0006_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"0.95\">0.95</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/probability/ch109/q0006_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"0.01\">0.01</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/probability/ch109/q0006_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"0.05\">0.05</span>"
         }
       ],
       "answer": "A",
       "answer_index": 0,
-      "analysis_html": "<img src=\"/static/generated/assets/probability/ch109/q0006_analysis.png\"/>"
+      "analysis_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{aligned} \\text{因为是正态总体，根据正态总体下的统计量分布可知} &amp; \\quad \\frac{(n-1)S^2}{\\sigma^2} \\sim \\chi^2(n-1). \\\\ \\text{这里} n=17，\\text{于是} &amp; \\quad P\\{S^2/\\sigma^2 \\leq 2\\} = P\\left(\\frac{16S^2}{\\sigma^2} \\leq 16 \\times 2\\right) \\\\ &amp; \\quad= 1 - P\\left(\\frac{16S^2}{\\sigma^2} &gt; 32\\right) = 1 - P\\{\\chi^2(16) &gt; 32\\} \\\\ &amp; \\quad= 1-0.01 = 0.99.\\end{aligned}\">\\begin{aligned} \\text{因为是正态总体，根据正态总体下的统计量分布可知} &amp; \\quad \\frac{(n-1)S^2}{\\sigma^2} \\sim \\chi^2(n-1). \\\\ \\text{这里} n=17，\\text{于是} &amp; \\quad P\\{S^2/\\sigma^2 \\leq 2\\} = P\\left(\\frac{16S^2}{\\sigma^2} \\leq 16 \\times 2\\right) \\\\ &amp; \\quad= 1 - P\\left(\\frac{16S^2}{\\sigma^2} &gt; 32\\right) = 1 - P\\{\\chi^2(16) &gt; 32\\} \\\\ &amp; \\quad= 1-0.01 = 0.99.\\end{aligned}</div>"
     },
     {
       "id": "q0007",
       "number": 7,
       "header": "#7-Easy",
       "difficulty": "Easy",
-      "prompt_html": "<img src=\"/static/generated/assets/probability/ch109/q0007_prompt.png\"/>",
+      "prompt_html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{设总体}X \\text{服从正态分布}N(10,3^{2}),X_{1},X_{2},\\cdots,X_{6} \\text{是它的一组样本，设} \\overline{X}=\\frac{1}{6}\\sum_{i=1}^{6}X_{i}, \\text{则} \\overline{X} \\text{所服从的分布为（ }.\">\\text{设总体}X \\text{服从正态分布}N(10,3^{2}),X_{1},X_{2},\\cdots,X_{6} \\text{是它的一组样本，设} \\overline{X}=\\frac{1}{6}\\sum_{i=1}^{6}X_{i}, \\text{则} \\overline{X} \\text{所服从的分布为（ }.</span>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/probability/ch109/q0007_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\overline{X} \\sim N(10, \\frac{3}{2})\">\\overline{X} \\sim N(10, \\frac{3}{2})</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/probability/ch109/q0007_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\overline{X} \\sim N(5, \\frac{3}{2})\">\\overline{X} \\sim N(5, \\frac{3}{2})</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/probability/ch109/q0007_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\overline{X} \\sim N(10, \\frac{1}{2})\">\\overline{X} \\sim N(10, \\frac{1}{2})</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/probability/ch109/q0007_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\overline{X} \\sim N(7, \\, 1)\">\\overline{X} \\sim N(7, \\, 1)</span>"
         }
       ],
       "answer": "A",
       "answer_index": 0,
-      "analysis_html": "<img src=\"/static/generated/assets/probability/ch109/q0007_analysis.png\"/>"
+      "analysis_html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\overline{X} \\sim N\\bigg(10,\\,\\frac{3^{2}}{6}\\bigg),\\,\\,\\text{即}\\,\\overline{X} \\sim N(10,\\,\\frac{3}{2}).\">\\overline{X} \\sim N\\bigg(10,\\,\\frac{3^{2}}{6}\\bigg),\\,\\,\\text{即}\\,\\overline{X} \\sim N(10,\\,\\frac{3}{2}).</span>"
     },
     {
       "id": "q0008",
       "number": 8,
       "header": "#8-Averge",
       "difficulty": "Averge",
-      "prompt_html": "<img src=\"/static/generated/assets/probability/ch109/q0008_prompt.png\"/>",
+      "prompt_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{array}{l} \\text {设}X_{1},X_{2},\\cdots,X_{n},\\text {是来自正态总体}N(\\mu,2^{2})\\text {的简单随机样本，}\\overline{X}\\text {为样本均值.当}n\\geq(\\text {)}\\text {时，}E(\\overline{X}-\\mu)^{2}\\leq 0.1\\,. \\end{array}\">\\begin{array}{l} \\text {设}X_{1},X_{2},\\cdots,X_{n},\\text {是来自正态总体}N(\\mu,2^{2})\\text {的简单随机样本，}\\overline{X}\\text {为样本均值.当}n\\geq(\\text {)}\\text {时，}E(\\overline{X}-\\mu)^{2}\\leq 0.1\\,. \\end{array}</div>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/probability/ch109/q0008_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"40\">40</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/probability/ch109/q0008_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"28\">28</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/probability/ch109/q0008_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"38\">38</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/probability/ch109/q0008_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"48\">48</span>"
         }
       ],
       "answer": "A",
       "answer_index": 0,
-      "analysis_html": "<img src=\"/static/generated/assets/probability/ch109/q0008_analysis.png\"/>"
+      "analysis_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{array}{l}\\text{由定理知}\\overline{X}\\sim N\\bigg(\\mu,\\frac{4}{n}\\bigg),\\ E(\\overline{X}-\\mu)^{2}\\leq 0.1,\\ \\text{即}D(\\overline{X})\\leq 0.1,\\ \\text{即}\\frac{4}{n}\\leq 0.1,\\ n\\geq 40,\\ \\text{即}n\\text{至少取为}40\\text{的整数}.\\end{array}\">\\begin{array}{l}\\text{由定理知}\\overline{X}\\sim N\\bigg(\\mu,\\frac{4}{n}\\bigg),\\ E(\\overline{X}-\\mu)^{2}\\leq 0.1,\\ \\text{即}D(\\overline{X})\\leq 0.1,\\ \\text{即}\\frac{4}{n}\\leq 0.1,\\ n\\geq 40,\\ \\text{即}n\\text{至少取为}40\\text{的整数}.\\end{array}</div>"
     },
     {
       "id": "q0009",
       "number": 9,
       "header": "#9-Averge",
       "difficulty": "Averge",
-      "prompt_html": "<img src=\"/static/generated/assets/probability/ch109/q0009_prompt.png\"/>",
+      "prompt_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{aligned}&amp; \\text{设}X_{1},X_{2},\\cdots,X_{10}\\text{取自正态总体}N(0,0.3^{2})，\\ \\text{则}P\\bigg\\{0.3325\\times 0.3^{2}\\leq \\frac{1}{10}\\sum_{i=1}^{10}(X_{i}-\\overline{X})^{2}\\leq 1.6919\\times 0.3^{2}\\bigg\\}\\text{等于( }\\ \\text{).}\\\\&amp; \\chi_{0.05}^{2}(9)=16.919,\\chi_{0.95}^{2}(9)=3.325\\end{aligned}\">\\begin{aligned}&amp; \\text{设}X_{1},X_{2},\\cdots,X_{10}\\text{取自正态总体}N(0,0.3^{2})，\\ \\text{则}P\\bigg\\{0.3325\\times 0.3^{2}\\leq \\frac{1}{10}\\sum_{i=1}^{10}(X_{i}-\\overline{X})^{2}\\leq 1.6919\\times 0.3^{2}\\bigg\\}\\text{等于( }\\ \\text{).}\\\\&amp; \\chi_{0.05}^{2}(9)=16.919,\\chi_{0.95}^{2}(9)=3.325\\end{aligned}</div>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/probability/ch109/q0009_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"0.90\">0.90</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/probability/ch109/q0009_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"0.10\">0.10</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/probability/ch109/q0009_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\mathbf { 0 . 05 }\">\\mathbf { 0 . 05 }</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/probability/ch109/q0009_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"0.95\">0.95</span>"
         }
       ],
       "answer": "A",
       "answer_index": 0,
-      "analysis_html": "<img src=\"/static/generated/assets/probability/ch109/q0009_analysis.png\"/>"
+      "analysis_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{aligned}\\text{由}\\frac{(n-1)\\delta^n}{\\sigma^2}=&amp;\\frac{\\sum\\limits_{i=1}^n (X_i-\\overline{X})^2}{\\sigma^2}\\sim \\chi^2(n-1)\\text{，则}\\\\&amp;P\\left\\{0.3325\\times (0.3)^2&lt;\\frac{1}{10}\\sum\\limits_{i=1}^{10}(X_i-\\overline{X})^2&lt;1.6919\\times (0.3)^2\\right\\}\\\\=&amp;P\\left\\{3.325&lt;\\frac{\\sum\\limits_{i=1}^{10}(X_i-\\overline{X})^2}{(0.3)^2}&lt;16.919\\right\\}=P\\{\\chi^2(9)&lt;16.919\\}-P\\{\\chi^2(9)\\leq 3.325\\}\\\\=&amp;P\\{\\chi^2(9)&gt;3.325\\}-P\\{\\chi^2(9)\\geq 16.919\\}=0.95-0.05=0.90.\\end{aligned}\">\\begin{aligned}\\text{由}\\frac{(n-1)\\delta^n}{\\sigma^2}=&amp;\\frac{\\sum\\limits_{i=1}^n (X_i-\\overline{X})^2}{\\sigma^2}\\sim \\chi^2(n-1)\\text{，则}\\\\&amp;P\\left\\{0.3325\\times (0.3)^2&lt;\\frac{1}{10}\\sum\\limits_{i=1}^{10}(X_i-\\overline{X})^2&lt;1.6919\\times (0.3)^2\\right\\}\\\\=&amp;P\\left\\{3.325&lt;\\frac{\\sum\\limits_{i=1}^{10}(X_i-\\overline{X})^2}{(0.3)^2}&lt;16.919\\right\\}=P\\{\\chi^2(9)&lt;16.919\\}-P\\{\\chi^2(9)\\leq 3.325\\}\\\\=&amp;P\\{\\chi^2(9)&gt;3.325\\}-P\\{\\chi^2(9)\\geq 16.919\\}=0.95-0.05=0.90.\\end{aligned}</div>"
     },
     {
       "id": "q0010",
       "number": 10,
       "header": "#10-Averge",
       "difficulty": "Averge",
-      "prompt_html": "<img src=\"/static/generated/assets/probability/ch109/q0010_prompt.png\"/>",
+      "prompt_html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{从正态总体}N(\\mu,12)\\text{中取容量为}6\\text{的样本，}\\hat{\\sigma}^{2}=\\frac{1}{6}\\sum_{i=1}^{6}(X_{i}-\\overline{X})^{2},\\text{则}P\\{2.29&lt;\\hat{\\sigma}^{2}&lt;22.14\\}=\\left(\\right).\">\\text{从正态总体}N(\\mu,12)\\text{中取容量为}6\\text{的样本，}\\hat{\\sigma}^{2}=\\frac{1}{6}\\sum_{i=1}^{6}(X_{i}-\\overline{X})^{2},\\text{则}P\\{2.29&lt;\\hat{\\sigma}^{2}&lt;22.14\\}=\\left(\\right).</span>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/probability/ch109/q0010_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"0.90\">0.90</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/probability/ch109/q0010_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"0.85\">0.85</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/probability/ch109/q0010_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"0.95\">0.95</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/probability/ch109/q0010_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"0.975\">0.975</span>"
         }
       ],
       "answer": "A",
       "answer_index": 0,
-      "analysis_html": "<img src=\"/static/generated/assets/probability/ch109/q0010_analysis.png\"/>"
+      "analysis_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{aligned} \\text{由} \\frac{(n-1)S^2}{\\sigma^2} \\sim \\chi^2(n-1)，\\text{有} \\frac{6}{12} \\stackrel{\\sim}{\\sigma} = \\frac{1}{2} \\stackrel{\\sim}{\\sigma} \\sim \\chi^2(5)，\\text{所以} \\\\ P\\{2.29 &lt; \\stackrel{\\sim}{\\sigma} &lt; 22.14\\} = P\\{1.145 &lt; \\chi^2(5) &lt; 11.07\\} \\\\ = P\\{\\chi^2(5) &gt; 1.145\\} - P\\{\\chi^2(5) &gt; 11.07\\} \\\\ = 0.95 - 0.05 = 0.90\\,.\\end{aligned}\">\\begin{aligned} \\text{由} \\frac{(n-1)S^2}{\\sigma^2} \\sim \\chi^2(n-1)，\\text{有} \\frac{6}{12} \\stackrel{\\sim}{\\sigma} = \\frac{1}{2} \\stackrel{\\sim}{\\sigma} \\sim \\chi^2(5)，\\text{所以} \\\\ P\\{2.29 &lt; \\stackrel{\\sim}{\\sigma} &lt; 22.14\\} = P\\{1.145 &lt; \\chi^2(5) &lt; 11.07\\} \\\\ = P\\{\\chi^2(5) &gt; 1.145\\} - P\\{\\chi^2(5) &gt; 11.07\\} \\\\ = 0.95 - 0.05 = 0.90\\,.\\end{aligned}</div>"
     },
     {
       "id": "q0011",
       "number": 11,
       "header": "#11-Easy",
       "difficulty": "Easy",
-      "prompt_html": "<img src=\"/static/generated/assets/probability/ch109/q0011_prompt.png\"/>",
+      "prompt_html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{从一正态总体中抽取容量为}n=16\\text{的样本，假定样本均值与总体均值之差的绝对值大于}2\\text{的概率为}0.01, \\text{则总体的标准差为}(\\ \\ ). \\Phi(2.575)=0.995, \\Phi(2.33)=0.99\">\\text{从一正态总体中抽取容量为}n=16\\text{的样本，假定样本均值与总体均值之差的绝对值大于}2\\text{的概率为}0.01, \\text{则总体的标准差为}(\\ \\ ). \\Phi(2.575)=0.995, \\Phi(2.33)=0.99</span>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/probability/ch109/q0011_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"3.11\">3.11</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/probability/ch109/q0011_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"3.21\">3.21</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/probability/ch109/q0011_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"3.12\">3.12</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/probability/ch109/q0011_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"4.11\">4.11</span>"
         }
       ],
       "answer": "A",
       "answer_index": 0,
-      "analysis_html": "<img src=\"/static/generated/assets/probability/ch109/q0011_analysis.png\"/>"
+      "analysis_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{aligned}&amp;\\text{设总体}X\\sim N(\\mu,\\sigma^2),\\text{样本均值为}\\overline{X},\\text{则有}\\\\&amp;\\qquad\\qquad\\qquad\\frac{\\overline{X}-\\mu}{\\sigma\\sqrt{n}}=\\frac{\\overline{X}-\\mu}{\\sigma/4}\\sim N(0,1).\\\\&amp;\\text{因为}\\\\&amp;\\qquad\\qquad P\\{\\left|\\overline{X}-\\mu\\right|&gt;2\\}=P\\left\\{\\left|\\frac{\\overline{X}-\\mu}{\\sigma/4}\\right|&gt;\\frac{8}{\\sigma}\\right\\}=2\\left[1-\\Phi\\left(\\frac{8}{\\sigma}\\right)\\right]=0.01,\\\\&amp;\\text{所以}\\Phi\\left(\\frac{8}{\\sigma}\\right)=0.995,\\frac{8}{\\sigma}=2.575,\\sigma=\\frac{8}{2.575}=3.11.\\end{aligned}\">\\begin{aligned}&amp;\\text{设总体}X\\sim N(\\mu,\\sigma^2),\\text{样本均值为}\\overline{X},\\text{则有}\\\\&amp;\\qquad\\qquad\\qquad\\frac{\\overline{X}-\\mu}{\\sigma\\sqrt{n}}=\\frac{\\overline{X}-\\mu}{\\sigma/4}\\sim N(0,1).\\\\&amp;\\text{因为}\\\\&amp;\\qquad\\qquad P\\{\\left|\\overline{X}-\\mu\\right|&gt;2\\}=P\\left\\{\\left|\\frac{\\overline{X}-\\mu}{\\sigma/4}\\right|&gt;\\frac{8}{\\sigma}\\right\\}=2\\left[1-\\Phi\\left(\\frac{8}{\\sigma}\\right)\\right]=0.01,\\\\&amp;\\text{所以}\\Phi\\left(\\frac{8}{\\sigma}\\right)=0.995,\\frac{8}{\\sigma}=2.575,\\sigma=\\frac{8}{2.575}=3.11.\\end{aligned}</div>"
     },
     {
       "id": "q0012",
       "number": 12,
       "header": "#12-Averge",
       "difficulty": "Averge",
-      "prompt_html": "<img src=\"/static/generated/assets/probability/ch109/q0012_prompt.png\"/>",
+      "prompt_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{array}{l} \\text {设总体} X \\sim N ( \\mu , 16 ) , X _ { 1 } , X _ { 2 } , \\cdots , X _ { 10 } \\text {为取自该总体的样本，已知} P \\{ S ^ { 2 } &gt; a \\} = 0 . 975 , \\text {则常数} a \\text {为( } \\\\ \\chi _ { 0 . 975 } ^ { 2 } ( 9 ) = 2 . 7 , \\chi _ { 0 . 990 } ^ { 2 } ( 9 ) = 2 . 088 \\end{array}\">\\begin{array}{l} \\text {设总体} X \\sim N ( \\mu , 16 ) , X _ { 1 } , X _ { 2 } , \\cdots , X _ { 10 } \\text {为取自该总体的样本，已知} P \\{ S ^ { 2 } &gt; a \\} = 0 . 975 , \\text {则常数} a \\text {为( } \\\\ \\chi _ { 0 . 975 } ^ { 2 } ( 9 ) = 2 . 7 , \\chi _ { 0 . 990 } ^ { 2 } ( 9 ) = 2 . 088 \\end{array}</div>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/probability/ch109/q0012_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"4.8\">4.8</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/probability/ch109/q0012_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"3.712\">3.712</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/probability/ch109/q0012_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"4.08\">4.08</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/probability/ch109/q0012_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"3.172\">3.172</span>"
         }
       ],
       "answer": "A",
       "answer_index": 0,
-      "analysis_html": "<img src=\"/static/generated/assets/probability/ch109/q0012_analysis.png\"/>"
+      "analysis_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{aligned} &amp; \\text{因为} \\frac{(n-1)S^2}{\\sigma^2} \\sim \\chi^2(n-1), n=10, \\sigma=4, \\text{所以} \\\\ &amp; \\qquad \\qquad P\\{S^2&gt;a\\} = P\\left\\{\\frac{9S^2}{16}&gt;\\frac{9}{16}a\\right\\} = P\\left\\{\\chi^2\\left(a\\right)&gt;\\frac{9}{16}a\\right\\} = 0.975. \\\\ &amp; \\text{查自由度为9的}\\chi^2\\text{分布表得，}\\frac{9}{16}a=2.7, \\text{所以} a \\approx 4.8.\\end{aligned}\">\\begin{aligned} &amp; \\text{因为} \\frac{(n-1)S^2}{\\sigma^2} \\sim \\chi^2(n-1), n=10, \\sigma=4, \\text{所以} \\\\ &amp; \\qquad \\qquad P\\{S^2&gt;a\\} = P\\left\\{\\frac{9S^2}{16}&gt;\\frac{9}{16}a\\right\\} = P\\left\\{\\chi^2\\left(a\\right)&gt;\\frac{9}{16}a\\right\\} = 0.975. \\\\ &amp; \\text{查自由度为9的}\\chi^2\\text{分布表得，}\\frac{9}{16}a=2.7, \\text{所以} a \\approx 4.8.\\end{aligned}</div>"
     },
     {
       "id": "q0013",
       "number": 13,
       "header": "#13-Averge",
       "difficulty": "Averge",
-      "prompt_html": "<img src=\"/static/generated/assets/probability/ch109/q0013_prompt.png\"/>",
+      "prompt_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{array}{l} \\text {在天平上重复称一重量为} a \\text { 的物品，假设各次称量的结果相互独立，且服从正态分布} N(a,0.2). \\\\ \\text {若以} \\bar{X} \\text {表示} n \\text {次称量结果的算术平均值，则使} P\\{\\vert \\bar{X}-a\\vert&lt;0.1\\}\\geq 0.95 \\text {成立的称量次数} n \\text {的最小值为}() .(\\Phi(1.96)=0.975, \\Phi(1.645)=0.95) \\end{array}\">\\begin{array}{l} \\text {在天平上重复称一重量为} a \\text { 的物品，假设各次称量的结果相互独立，且服从正态分布} N(a,0.2). \\\\ \\text {若以} \\bar{X} \\text {表示} n \\text {次称量结果的算术平均值，则使} P\\{\\vert \\bar{X}-a\\vert&lt;0.1\\}\\geq 0.95 \\text {成立的称量次数} n \\text {的最小值为}() .(\\Phi(1.96)=0.975, \\Phi(1.645)=0.95) \\end{array}</div>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/probability/ch109/q0013_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"n = 16\">n = 16</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/probability/ch109/q0013_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"n = 9\">n = 9</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/probability/ch109/q0013_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"n \\! = \\! 8\">n \\! = \\! 8</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/probability/ch109/q0013_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"n = 18\">n = 18</span>"
         }
       ],
       "answer": "A",
       "answer_index": 0,
-      "analysis_html": "<img src=\"/static/generated/assets/probability/ch109/q0013_analysis.png\"/>"
+      "analysis_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{aligned}&amp;\\text{因为}\\overline{X}=\\frac{1}{n}\\sum_{i=1}^{n}X_i\\sim N\\bigg(a,\\frac{(0.2)^2}{n}\\bigg)\\text{，所以}\\frac{\\overline{X}-a}{0.2\\sqrt{n}}\\sim N(0,1)\\text{，故}\\\\&amp;\\qquad P\\bigl|\\overline{X}-a\\big|&lt;0.1\\bigr\\}=P\\biggl\\{\\biggl|\\frac{\\overline{X}-a}{0.2\\sqrt{n}}\\biggr|&lt;\\frac{0.1}{0.2\\sqrt{n}}\\biggr\\}=2\\Phi\\biggl(\\frac{\\sqrt{n}}{2}\\biggr)-1\\geq0.95,\\\\&amp;\\text{即}\\Phi\\biggl(\\frac{\\sqrt{n}}{2}\\biggr)\\geq0.975,\\frac{\\sqrt{n}}{2}\\geq1.96\\text{，所以}n\\geq15.37\\text{，即}n=16.\\end{aligned}\">\\begin{aligned}&amp;\\text{因为}\\overline{X}=\\frac{1}{n}\\sum_{i=1}^{n}X_i\\sim N\\bigg(a,\\frac{(0.2)^2}{n}\\bigg)\\text{，所以}\\frac{\\overline{X}-a}{0.2\\sqrt{n}}\\sim N(0,1)\\text{，故}\\\\&amp;\\qquad P\\bigl|\\overline{X}-a\\big|&lt;0.1\\bigr\\}=P\\biggl\\{\\biggl|\\frac{\\overline{X}-a}{0.2\\sqrt{n}}\\biggr|&lt;\\frac{0.1}{0.2\\sqrt{n}}\\biggr\\}=2\\Phi\\biggl(\\frac{\\sqrt{n}}{2}\\biggr)-1\\geq0.95,\\\\&amp;\\text{即}\\Phi\\biggl(\\frac{\\sqrt{n}}{2}\\biggr)\\geq0.975,\\frac{\\sqrt{n}}{2}\\geq1.96\\text{，所以}n\\geq15.37\\text{，即}n=16.\\end{aligned}</div>"
     },
     {
       "id": "q0014",
       "number": 14,
       "header": "#14-Averge",
       "difficulty": "Averge",
-      "prompt_html": "<img src=\"/static/generated/assets/probability/ch109/q0014_prompt.png\"/>",
+      "prompt_html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{某厂生产的搅拌机平均寿命为5年，标准差为1年，假设这些搅拌机的寿命近似服从正态分布，则容量为9的随机样本平均寿命落在4.4年和5.2年之间的概率为（）}.\\ \\Phi(0.6)=0.7257,\\Phi(1.8)=0.9641\">\\text{某厂生产的搅拌机平均寿命为5年，标准差为1年，假设这些搅拌机的寿命近似服从正态分布，则容量为9的随机样本平均寿命落在4.4年和5.2年之间的概率为（）}.\\ \\Phi(0.6)=0.7257,\\Phi(1.8)=0.9641</span>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/probability/ch109/q0014_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"0.6898\">0.6898</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/probability/ch109/q0014_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"0.6798\">0.6798</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/probability/ch109/q0014_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\scriptstyle 0 . 9641\">\\scriptstyle 0 . 9641</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/probability/ch109/q0014_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"0.5322\">0.5322</span>"
         }
       ],
       "answer": "A",
       "answer_index": 0,
-      "analysis_html": "<img src=\"/static/generated/assets/probability/ch109/q0014_analysis.png\"/>"
+      "analysis_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{aligned} &amp; \\text{由题意知}\\overline{X}\\sim N(5,\\frac{1}{n}),\\,n=9,\\,\\text{则标准化变量}\\\\ &amp; \\qquad Z=\\frac{\\overline{X}-5}{1\\sqrt{9}}=\\frac{\\overline{X}-5}{1/3}\\sim N(0,1).\\\\ &amp; \\text{而}\\qquad P\\{4.4&lt;\\overline{X}&lt;5.2\\}=P\\left\\{\\frac{4.4-5}{1/3}&lt;\\frac{\\overline{X}-5}{1/3}&lt;\\frac{5.2-5}{1/3}\\right\\}\\\\ &amp; \\qquad\\qquad\\qquad\\qquad=P\\{-1.8&lt;Z&lt;0.6\\}\\approx\\Phi(0.6)-\\Phi(-1.8)\\\\ &amp;\\qquad\\qquad\\qquad\\qquad=0.7257-0.0359=0.6898\\end{aligned}\">\\begin{aligned} &amp; \\text{由题意知}\\overline{X}\\sim N(5,\\frac{1}{n}),\\,n=9,\\,\\text{则标准化变量}\\\\ &amp; \\qquad Z=\\frac{\\overline{X}-5}{1\\sqrt{9}}=\\frac{\\overline{X}-5}{1/3}\\sim N(0,1).\\\\ &amp; \\text{而}\\qquad P\\{4.4&lt;\\overline{X}&lt;5.2\\}=P\\left\\{\\frac{4.4-5}{1/3}&lt;\\frac{\\overline{X}-5}{1/3}&lt;\\frac{5.2-5}{1/3}\\right\\}\\\\ &amp; \\qquad\\qquad\\qquad\\qquad=P\\{-1.8&lt;Z&lt;0.6\\}\\approx\\Phi(0.6)-\\Phi(-1.8)\\\\ &amp;\\qquad\\qquad\\qquad\\qquad=0.7257-0.0359=0.6898\\end{aligned}</div>"
     },
     {
       "id": "q0015",
       "number": 15,
       "header": "#15-Easy",
       "difficulty": "Easy",
-      "prompt_html": "<img src=\"/static/generated/assets/probability/ch109/q0015_prompt.png\"/>",
+      "prompt_html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{设}X\\sim N(21,2^{2}),X_{1},X_{2},\\cdots,X_{25}\\text{为}X\\text{的一个样本，}P\\{\\vert \\overline{X}-21\\vert\\leq 0.24\\}=(\\quad).\\Phi\\bigl(0.4\\bigr)=0.6554,\\Phi\\bigl(0.6\\bigr)=0.7257\">\\text{设}X\\sim N(21,2^{2}),X_{1},X_{2},\\cdots,X_{25}\\text{为}X\\text{的一个样本，}P\\{\\vert \\overline{X}-21\\vert\\leq 0.24\\}=(\\quad).\\Phi\\bigl(0.4\\bigr)=0.6554,\\Phi\\bigl(0.6\\bigr)=0.7257</span>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/probability/ch109/q0015_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"0.4514\">0.4514</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/probability/ch109/q0015_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"0.45\">0.45</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/probability/ch109/q0015_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"0.5\">0.5</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/probability/ch109/q0015_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"0.1\">0.1</span>"
         }
       ],
       "answer": "A",
       "answer_index": 0,
-      "analysis_html": "<img src=\"/static/generated/assets/probability/ch109/q0015_analysis.png\"/>"
+      "analysis_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{aligned}&amp;\\text{由}\\overline{X}\\sim N(21,\\,0.4^2)\\,,\\,\\text{得}\\,\\frac{\\overline{X}-21}{0.4}\\sim N(0,\\,1)\\,,\\,\\text{故}\\\\&amp;\\qquad P\\{\\vert\\overline{X}-21\\vert\\leq 0.24\\}=P\\left\\{\\left|\\frac{\\overline{X}-21}{0.4}\\right|\\leq 0.6\\right\\}=2\\Phi(0.6)-1=0.4514\\,.\\end{aligned}\">\\begin{aligned}&amp;\\text{由}\\overline{X}\\sim N(21,\\,0.4^2)\\,,\\,\\text{得}\\,\\frac{\\overline{X}-21}{0.4}\\sim N(0,\\,1)\\,,\\,\\text{故}\\\\&amp;\\qquad P\\{\\vert\\overline{X}-21\\vert\\leq 0.24\\}=P\\left\\{\\left|\\frac{\\overline{X}-21}{0.4}\\right|\\leq 0.6\\right\\}=2\\Phi(0.6)-1=0.4514\\,.\\end{aligned}</div>"
     },
     {
       "id": "q0016",
       "number": 16,
       "header": "#16-Easy",
       "difficulty": "Easy",
-      "prompt_html": "<img src=\"/static/generated/assets/probability/ch109/q0016_prompt.png\"/>",
+      "prompt_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{aligned}&amp; \\text{假设总体} X \\sim N(10,2^2),\\ X_1,X_2,\\cdots,X_{16} \\text{是来自于总体} X \\text{个样本，}\\overline{X} \\text{是样本均值，则} P\\{\\overline{X} \\geq 11\\} = (\\ ) . \\\\&amp; \\Phi(1) = 0.8413, \\Phi(2) = 0.9772\\end{aligned}\">\\begin{aligned}&amp; \\text{假设总体} X \\sim N(10,2^2),\\ X_1,X_2,\\cdots,X_{16} \\text{是来自于总体} X \\text{个样本，}\\overline{X} \\text{是样本均值，则} P\\{\\overline{X} \\geq 11\\} = (\\ ) . \\\\&amp; \\Phi(1) = 0.8413, \\Phi(2) = 0.9772\\end{aligned}</div>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/probability/ch109/q0016_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"0.0228\">0.0228</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/probability/ch109/q0016_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"0.1587\">0.1587</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/probability/ch109/q0016_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"0.0456\">0.0456</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/probability/ch109/q0016_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"0.3174\">0.3174</span>"
         }
       ],
       "answer": "A",
       "answer_index": 0,
-      "analysis_html": "<img src=\"/static/generated/assets/probability/ch109/q0016_analysis.png\"/>"
+      "analysis_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{aligned}P\\Bigl\\{\\overline{X}\\geq 11\\Bigr\\} = 1-\\Phi\\biggl(\\frac{11-10}{0.5}\\biggr) = 1-\\Phi\\bigl(2\\bigr) = 0.0228.\\end{aligned}\">\\begin{aligned}P\\Bigl\\{\\overline{X}\\geq 11\\Bigr\\} = 1-\\Phi\\biggl(\\frac{11-10}{0.5}\\biggr) = 1-\\Phi\\bigl(2\\bigr) = 0.0228.\\end{aligned}</div>"
     },
     {
       "id": "q0017",
       "number": 17,
       "header": "#17-Averge",
       "difficulty": "Averge",
-      "prompt_html": "<img src=\"/static/generated/assets/probability/ch109/q0017_prompt.png\"/>",
+      "prompt_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{array}{l} \\text {从总体} X \\sim N ( \\mu , \\sigma ^ { 2 } ) \\text {中抽取容量为} 16 \\text {的样本.已知} \\sigma ^ { 2 } = 25 , \\text {则} \\overline { X } \\text {与} \\mu \\text {之差的绝对值小于} 2 \\text {的概率为( }. \\\\ \\Phi ( 1 . 5 ) = 0 . 9332 , \\Phi ( 1 . 6 ) = 0 . 9452 \\end{array}\">\\begin{array}{l} \\text {从总体} X \\sim N ( \\mu , \\sigma ^ { 2 } ) \\text {中抽取容量为} 16 \\text {的样本.已知} \\sigma ^ { 2 } = 25 , \\text {则} \\overline { X } \\text {与} \\mu \\text {之差的绝对值小于} 2 \\text {的概率为( }. \\\\ \\Phi ( 1 . 5 ) = 0 . 9332 , \\Phi ( 1 . 6 ) = 0 . 9452 \\end{array}</div>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/probability/ch109/q0017_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"0.8904\">0.8904</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/probability/ch109/q0017_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"0.7827\">0.7827</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/probability/ch109/q0017_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"0.8664\">0.8664</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/probability/ch109/q0017_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"0.6983\">0.6983</span>"
         }
       ],
       "answer": "A",
       "answer_index": 0,
-      "analysis_html": "<img src=\"/static/generated/assets/probability/ch109/q0017_analysis.png\"/>"
+      "analysis_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{aligned}\\text{由}\\sigma=5,\\,U\\text{统计量}\\,(\\overline{X}-\\mu)/\\frac{\\sigma}{\\sqrt{n}}\\sim&amp;N(0,1),\\\\P\\{|\\overline{X}-\\mu|&lt;2\\}=&amp;P\\{\\left|\\overline{X}-\\mu\\right|/\\frac{\\sigma}{\\sqrt{n}}&lt;\\frac{8}{5}\\}\\\\=&amp;P\\{|U|&lt;1.6\\}=2\\Phi(1.6)-1=0.8904.\\end{aligned}\">\\begin{aligned}\\text{由}\\sigma=5,\\,U\\text{统计量}\\,(\\overline{X}-\\mu)/\\frac{\\sigma}{\\sqrt{n}}\\sim&amp;N(0,1),\\\\P\\{|\\overline{X}-\\mu|&lt;2\\}=&amp;P\\{\\left|\\overline{X}-\\mu\\right|/\\frac{\\sigma}{\\sqrt{n}}&lt;\\frac{8}{5}\\}\\\\=&amp;P\\{|U|&lt;1.6\\}=2\\Phi(1.6)-1=0.8904.\\end{aligned}</div>"
     },
     {
       "id": "q0018",
       "number": 18,
       "header": "#18-Averge",
       "difficulty": "Averge",
-      "prompt_html": "<img src=\"/static/generated/assets/probability/ch109/q0018_prompt.png\"/>",
+      "prompt_html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{从一正态总体中抽取容量为}9\\text{的样本，设样本均值与总体均值之差的绝对值在}4\\text{以上的概率为}0.02,\\text{则总体的标准差为}( ).\\Phi(2.325)=0.99,\\Phi(2.05)=0.98\">\\text{从一正态总体中抽取容量为}9\\text{的样本，设样本均值与总体均值之差的绝对值在}4\\text{以上的概率为}0.02,\\text{则总体的标准差为}( ).\\Phi(2.325)=0.99,\\Phi(2.05)=0.98</span>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/probability/ch109/q0018_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\sigma \\! \\approx \\! 5 . 16\">\\sigma \\! \\approx \\! 5 . 16</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/probability/ch109/q0018_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\sigma \\! \\approx \\! 5 . 17\">\\sigma \\! \\approx \\! 5 . 17</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/probability/ch109/q0018_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\sigma \\! \\approx \\! 5 . 88\">\\sigma \\! \\approx \\! 5 . 88</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/probability/ch109/q0018_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\sigma \\! \\approx \\! 5 . 85\">\\sigma \\! \\approx \\! 5 . 85</span>"
         }
       ],
       "answer": "A",
       "answer_index": 0,
-      "analysis_html": "<img src=\"/static/generated/assets/probability/ch109/q0018_analysis.png\"/>"
+      "analysis_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{aligned} \\text{由于}\\overline{X}\\sim N\\left(\\mu,\\,\\frac{\\sigma^{2}}{n}\\right),\\,\\text{故有}\\\\0.02=P\\{\\left|\\overline{X}-\\mu\\right|&gt;4\\}&amp;=P\\left\\{\\left|\\frac{\\overline{X}-\\mu}{\\sigma\\sqrt{n}}\\right|&gt;\\frac{4}{\\sigma\\sqrt{n}}\\right\\}\\\\&amp;=\\left(1-\\Phi\\left(\\frac{4}{\\sigma\\sqrt{n}}\\right)\\right)\\approx 2\\left(1-\\Phi\\left(\\frac{12}{\\sigma}\\right)\\right),\\\\&amp;\\qquad\\qquad\\qquad\\qquad\\Phi\\left(\\frac{12}{\\sigma}\\right)=0.99,\\\\ \\text{即有}\\frac{12}{\\sigma}=2.325,\\,\\text{解得}\\sigma\\approx 5.16.\\end{aligned}\">\\begin{aligned} \\text{由于}\\overline{X}\\sim N\\left(\\mu,\\,\\frac{\\sigma^{2}}{n}\\right),\\,\\text{故有}\\\\0.02=P\\{\\left|\\overline{X}-\\mu\\right|&gt;4\\}&amp;=P\\left\\{\\left|\\frac{\\overline{X}-\\mu}{\\sigma\\sqrt{n}}\\right|&gt;\\frac{4}{\\sigma\\sqrt{n}}\\right\\}\\\\&amp;=\\left(1-\\Phi\\left(\\frac{4}{\\sigma\\sqrt{n}}\\right)\\right)\\approx 2\\left(1-\\Phi\\left(\\frac{12}{\\sigma}\\right)\\right),\\\\&amp;\\qquad\\qquad\\qquad\\qquad\\Phi\\left(\\frac{12}{\\sigma}\\right)=0.99,\\\\ \\text{即有}\\frac{12}{\\sigma}=2.325,\\,\\text{解得}\\sigma\\approx 5.16.\\end{aligned}</div>"
     },
     {
       "id": "q0019",
       "number": 19,
       "header": "#19-Averge",
       "difficulty": "Averge",
-      "prompt_html": "<img src=\"/static/generated/assets/probability/ch109/q0019_prompt.png\"/>",
+      "prompt_html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\Phi ( 1 ) = 0 . 8413 , \\Phi ( 2 ) = 0 . 9772 ) \\text {,则样本均值与总体均值之差的绝对值大于} 2 \\text {的概率为} ( ) .\">\\Phi ( 1 ) = 0 . 8413 , \\Phi ( 2 ) = 0 . 9772 ) \\text {,则样本均值与总体均值之差的绝对值大于} 2 \\text {的概率为} ( ) .</span>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/probability/ch109/q0019_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"0.3174\">0.3174</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/probability/ch109/q0019_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"0.1587\">0.1587</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/probability/ch109/q0019_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"0.0228\">0.0228</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/probability/ch109/q0019_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"0.0456\">0.0456</span>"
         }
       ],
       "answer": "A",
       "answer_index": 0,
-      "analysis_html": "<img src=\"/static/generated/assets/probability/ch109/q0019_analysis.png\"/>"
+      "analysis_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{aligned}&amp;\\text{容量}n=100,\\,\\text{样本均值}\\overline{X}\\text{的分布为}N\\left(60,\\frac{20^{2}}{100}\\right)=N(60,2^{2}),\\\\&amp;P\\{\\left|\\overline{X}-60\\right|&gt;2\\}=P\\left(\\left|\\frac{\\overline{X}-60}{2}\\right|&gt;1\\right)=2(1-\\Phi(1))=2\\left(1-0.8413\\right)=0.3174.\\end{aligned}\">\\begin{aligned}&amp;\\text{容量}n=100,\\,\\text{样本均值}\\overline{X}\\text{的分布为}N\\left(60,\\frac{20^{2}}{100}\\right)=N(60,2^{2}),\\\\&amp;P\\{\\left|\\overline{X}-60\\right|&gt;2\\}=P\\left(\\left|\\frac{\\overline{X}-60}{2}\\right|&gt;1\\right)=2(1-\\Phi(1))=2\\left(1-0.8413\\right)=0.3174.\\end{aligned}</div>"
     }
-  ]
+  ],
+  "format": "latex",
+  "source_md": "gl/6.4.2.2_单个正态总体的抽样应用(19题)/6.4.2.2_单个正态总体的抽样应用(19题).md"
 }

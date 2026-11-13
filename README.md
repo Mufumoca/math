@@ -30,34 +30,28 @@
 - 收藏页按科目和章节分组浏览
 - 收藏题支持查看原题、取消收藏、展开解析
 - 支持浅色、深色、跟随系统三种主题模式
-- 尽量保留图片、公式、换行和原始排版
+- 支持浅色、深色、跟随系统三种主题模式
+- 题目、选项与解析使用本地 KaTeX 渲染 LaTeX 公式
 
-## 数据分析结论
+## 题库格式说明
 
-- 原始题库按科目存放在四个 zip 文件内。
-- 每个章节对应一个 HTML 文件。
-- 每道题对应 `main > div` 下的一个题块。
-- 每题固定是 6 行表格：
-  - 第 1 行是题干
-  - 第 2 到第 5 行是 A-D 四个选项
-  - 第 6 行是解析
-- 正确选项通过题块内样式标记识别。
-- 题干、选项、解析主要以嵌入图片的形式存在。
-- 抽取脚本会把图片导出到 `static/generated/assets/`，并把题目结构写入 `data/extracted/`。
+- 题库已从早期内嵌图片格式替换为结构化 LaTeX JSON（位于 `data/extracted/`），不再依赖 `static/generated/assets/` 下的海量图片。
+- 可通过 `scripts/import_latex_questions.py` 将 `../数学题库OCR_全部` 中的 Markdown/LaTeX 题库重新导入 `data/`。
 
 ## 仓库内容
 
 仓库包含：
 
 - Flask 网站代码
-- 题库抽取脚本
-- 已抽取好的章节 JSON
-- 已导出的静态图片资源
+- 题库抽取与 LaTeX 导入脚本
+- 已转为 LaTeX 格式的章节 JSON
+- 本地 KaTeX 静态资源（`static/vendor/katex/`）
 - Caddy 和 systemd 部署示例
 
 仓库不包含：
 
 - 原始压缩包 `高数.zip`、`线代.zip`、`概率论.zip`、`复变.zip`
+- OCR 原始 Markdown 目录 `数学题库OCR_全部`
 - 本地虚拟环境
 - 运行日志
 
@@ -70,7 +64,8 @@
 ├── run.sh
 ├── README.md
 ├── scripts/
-│   └── extract_questions.py
+│   ├── extract_questions.py
+│   └── import_latex_questions.py
 ├── data/
 │   ├── subjects.json
 │   └── extracted/
@@ -83,7 +78,7 @@
 ├── static/
 │   ├── css/style.css
 │   ├── js/app.js
-│   └── generated/assets/
+│   └── vendor/katex/
 └── deploy/
     ├── Caddyfile.example
     └── math.service
@@ -115,7 +110,7 @@ pip install -r requirements.txt
 
 ### 2. 直接使用仓库内现成数据启动
 
-仓库已经包含抽取好的 JSON 和静态图片资源，所以本地测试时不需要重新抽取题库，直接启动即可。
+仓库已经包含转为 LaTeX 格式的题目 JSON 和本地 KaTeX 静态资源，所以本地测试时不需要重新导入题库，直接启动即可。
 
 开发模式：
 

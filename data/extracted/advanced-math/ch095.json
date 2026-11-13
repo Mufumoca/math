@@ -13,112 +13,114 @@
       "number": 1,
       "header": "#1-Averge",
       "difficulty": "Averge",
-      "prompt_html": "<img src=\"/static/generated/assets/advanced-math/ch095/q0001_prompt.png\"/>",
+      "prompt_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{array}{l} \\text {设}f(x) \\text {是以}2\\pi \\text {为周期的分段连续函数，又设}f(x) \\text {是奇函数且满足} \\\\ f\\left(x+\\frac{\\pi}{2}\\right)=-f\\left(\\frac{\\pi}{2}-x\\right),\\text {则}f(x) \\text {的傅里叶系数}b_{2n-1}=( ),n=1,2,3,\\cdots \\end{array}\">\\begin{array}{l} \\text {设}f(x) \\text {是以}2\\pi \\text {为周期的分段连续函数，又设}f(x) \\text {是奇函数且满足} \\\\ f\\left(x+\\frac{\\pi}{2}\\right)=-f\\left(\\frac{\\pi}{2}-x\\right),\\text {则}f(x) \\text {的傅里叶系数}b_{2n-1}=( ),n=1,2,3,\\cdots \\end{array}</div>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch095/q0001_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\frac { \\pi } { 2 } ;\">\\frac { \\pi } { 2 } ;</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch095/q0001_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\mathbf { 1 } ;\">\\mathbf { 1 } ;</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch095/q0001_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"- \\frac { \\pi } { 2 } \\, .\">- \\frac { \\pi } { 2 } \\, .</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch095/q0001_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\mathbf { 0 } ;\">\\mathbf { 0 } ;</span>"
         }
       ],
       "answer": "D",
       "answer_index": 3,
-      "analysis_html": "<img src=\"/static/generated/assets/advanced-math/ch095/q0001_analysis.png\"/>"
+      "analysis_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{aligned}b_{2n-1}&amp;=\\frac{2}{\\pi}\\int_{0}^{\\pi}f(x)\\sin(2n-1)xdx=\\frac{2}{\\pi}\\left[\\int_{0}^{\\frac{\\pi}{2}}f(x)\\sin(2n-1)xdx+\\int_{\\frac{\\pi}{2}}^{\\pi}f(x)\\sin(2n-1)xdx\\right]\\\\&amp;=\\frac{2}{\\pi}\\left[-\\int_{\\frac{\\pi}{2}}^{0}f(\\frac{\\pi}{2}-x)\\sin(2n-1)(\\frac{\\pi}{2}-x)dx+\\int_{0}^{\\frac{\\pi}{2}}f(x+\\frac{\\pi}{2})\\sin(2n-1)(x+\\frac{\\pi}{2})dx\\right]\\\\&amp;=\\frac{2}{\\pi}\\int_{0}^{\\frac{\\pi}{2}}f(\\frac{\\pi}{2}-x)\\left(\\sin(2n-1)(\\frac{\\pi}{2}-x)-\\sin(2n-1)(x+\\frac{\\pi}{2})\\right)dx=0.\\end{aligned}\">\\begin{aligned}b_{2n-1}&amp;=\\frac{2}{\\pi}\\int_{0}^{\\pi}f(x)\\sin(2n-1)xdx=\\frac{2}{\\pi}\\left[\\int_{0}^{\\frac{\\pi}{2}}f(x)\\sin(2n-1)xdx+\\int_{\\frac{\\pi}{2}}^{\\pi}f(x)\\sin(2n-1)xdx\\right]\\\\&amp;=\\frac{2}{\\pi}\\left[-\\int_{\\frac{\\pi}{2}}^{0}f(\\frac{\\pi}{2}-x)\\sin(2n-1)(\\frac{\\pi}{2}-x)dx+\\int_{0}^{\\frac{\\pi}{2}}f(x+\\frac{\\pi}{2})\\sin(2n-1)(x+\\frac{\\pi}{2})dx\\right]\\\\&amp;=\\frac{2}{\\pi}\\int_{0}^{\\frac{\\pi}{2}}f(\\frac{\\pi}{2}-x)\\left(\\sin(2n-1)(\\frac{\\pi}{2}-x)-\\sin(2n-1)(x+\\frac{\\pi}{2})\\right)dx=0.\\end{aligned}</div>"
     },
     {
       "id": "q0002",
       "number": 2,
       "header": "#2-Averge",
       "difficulty": "Averge",
-      "prompt_html": "<img src=\"/static/generated/assets/advanced-math/ch095/q0002_prompt.png\"/>",
+      "prompt_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{array}{l} \\text {设}f(x) \\text {是以}2\\pi \\text {为周期的分段连续函数，又设}f(x) \\text {是奇函数且满足} \\\\ f\\left(x+\\frac{\\pi}{2}\\right)=f\\left(\\frac{\\pi}{2}-x\\right),\\text {则}f\\left(x\\right) \\text {的傅里叶系数}b_{2n}=( ),n=1,2,3,\\cdots \\end{array}\">\\begin{array}{l} \\text {设}f(x) \\text {是以}2\\pi \\text {为周期的分段连续函数，又设}f(x) \\text {是奇函数且满足} \\\\ f\\left(x+\\frac{\\pi}{2}\\right)=f\\left(\\frac{\\pi}{2}-x\\right),\\text {则}f\\left(x\\right) \\text {的傅里叶系数}b_{2n}=( ),n=1,2,3,\\cdots \\end{array}</div>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch095/q0002_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\mathbf { 1 } ;\">\\mathbf { 1 } ;</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch095/q0002_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"- \\frac { \\pi } { 2 } \\, .\">- \\frac { \\pi } { 2 } \\, .</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch095/q0002_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\frac { \\pi } { 2 } \\, ;\">\\frac { \\pi } { 2 } \\, ;</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch095/q0002_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\mathbf { 0 ; }\">\\mathbf { 0 ; }</span>"
         }
       ],
       "answer": "D",
       "answer_index": 3,
-      "analysis_html": "<img src=\"/static/generated/assets/advanced-math/ch095/q0002_analysis.png\"/>"
+      "analysis_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{aligned}b_{2n-1}&amp;=\\frac{2}{\\pi}\\int_{0}^{\\pi}f(x)\\sin 2nxdx=\\frac{2}{\\pi}\\left[\\int_{0}^{\\frac{\\pi}{2}}f(x)\\sin 2nxdx+\\int_{\\frac{\\pi}{2}}^{\\pi}f(x)\\sin 2nxdx\\right]\\\\&amp;=\\frac{2}{\\pi}\\left[-\\int_{\\frac{\\pi}{2}}^{0}f(\\frac{\\pi}{2}-x)\\sin 2n(\\frac{\\pi}{2}-x)dx+\\int_{0}^{\\frac{\\pi}{2}}f(x+\\frac{\\pi}{2})\\sin 2n(x+\\frac{\\pi}{2})dx\\right]\\\\&amp;=\\frac{2}{\\pi}\\int_{0}^{\\frac{\\pi}{2}}f(\\frac{\\pi}{2}-x)\\left(\\sin 2n(\\frac{\\pi}{2}-x)+\\sin 2n(x+\\frac{\\pi}{2})\\right)dx=0.\\end{aligned}\">\\begin{aligned}b_{2n-1}&amp;=\\frac{2}{\\pi}\\int_{0}^{\\pi}f(x)\\sin 2nxdx=\\frac{2}{\\pi}\\left[\\int_{0}^{\\frac{\\pi}{2}}f(x)\\sin 2nxdx+\\int_{\\frac{\\pi}{2}}^{\\pi}f(x)\\sin 2nxdx\\right]\\\\&amp;=\\frac{2}{\\pi}\\left[-\\int_{\\frac{\\pi}{2}}^{0}f(\\frac{\\pi}{2}-x)\\sin 2n(\\frac{\\pi}{2}-x)dx+\\int_{0}^{\\frac{\\pi}{2}}f(x+\\frac{\\pi}{2})\\sin 2n(x+\\frac{\\pi}{2})dx\\right]\\\\&amp;=\\frac{2}{\\pi}\\int_{0}^{\\frac{\\pi}{2}}f(\\frac{\\pi}{2}-x)\\left(\\sin 2n(\\frac{\\pi}{2}-x)+\\sin 2n(x+\\frac{\\pi}{2})\\right)dx=0.\\end{aligned}</div>"
     },
     {
       "id": "q0003",
       "number": 3,
       "header": "#3-Averge",
       "difficulty": "Averge",
-      "prompt_html": "<img src=\"/static/generated/assets/advanced-math/ch095/q0003_prompt.png\"/>",
+      "prompt_html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text {函数}f(x)=\\operatorname{sgn}(\\cos x)\\text {的傅里叶展开式为}( \\quad)\">\\text {函数}f(x)=\\operatorname{sgn}(\\cos x)\\text {的傅里叶展开式为}( \\quad)</span>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch095/q0003_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\frac {1}{\\pi} + \\frac {2}{\\pi} \\sum_ {n = 0} ^ {\\infty} (- 1) ^ {n} \\frac {\\cos (2 n + 1) x}{2 n + 1}\">\\frac {1}{\\pi} + \\frac {2}{\\pi} \\sum_ {n = 0} ^ {\\infty} (- 1) ^ {n} \\frac {\\cos (2 n + 1) x}{2 n + 1}</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch095/q0003_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\frac {4}{\\pi} \\sum_ {n = 0} ^ {\\infty} (- 1) ^ {n} \\frac {\\cos (2 n + 1) x}{2 n + 1} \\, ;\">\\frac {4}{\\pi} \\sum_ {n = 0} ^ {\\infty} (- 1) ^ {n} \\frac {\\cos (2 n + 1) x}{2 n + 1} \\, ;</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch095/q0003_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\frac{4}{\\pi} \\sum_{n=1}^{\\infty} (-1)^{n} \\frac{\\sin(2n+1)x}{2n+1}\\,.\">\\frac{4}{\\pi} \\sum_{n=1}^{\\infty} (-1)^{n} \\frac{\\sin(2n+1)x}{2n+1}\\,.</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch095/q0003_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\frac{2}{\\pi}+\\frac{4}{\\pi}\\sum_{n=1}^{\\infty}(-1)^{n}\\frac{\\sin(2n+1)x}{2n+1}.\">\\frac{2}{\\pi}+\\frac{4}{\\pi}\\sum_{n=1}^{\\infty}(-1)^{n}\\frac{\\sin(2n+1)x}{2n+1}.</span>"
         }
       ],
       "answer": "B",
       "answer_index": 1,
-      "analysis_html": "<img src=\"/static/generated/assets/advanced-math/ch095/q0003_analysis.png\"/>"
+      "analysis_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{aligned} &amp; \\text{解由于} f(x+2\\pi)=\\operatorname{sgn}(\\cos(x+2\\pi))=\\operatorname{sgn}(\\cos x)=f(x), \\text{所以} f(x)=\\operatorname{sgn}(\\cos x) \\text{是以} \\\\ &amp; \\quad2\\pi \\text{为周期的周期函数，且} f(x) \\text{是偶函数，所以} b_{n}=0,n=1,2,\\cdots, \\\\ &amp; \\quad a_{0}=\\frac{2}{\\pi}\\int_{0}^{\\pi}\\operatorname{sgn}(\\cos x)dx=\\frac{2}{\\pi}\\left[\\int_{0}^{\\frac{\\pi}{2}}dx-\\int_{\\frac{\\pi}{2}}^{\\pi}dx\\right]=0\\,, \\\\ &amp; \\quad a_{n}=\\frac{2}{\\pi}\\int_{0}^{\\pi}\\operatorname{sgn}(\\cos x)\\cos n x dx=\\frac{2}{\\pi}\\left[\\int_{0}^{\\frac{\\pi}{2}}\\cos n x dx-\\int_{\\frac{\\pi}{2}}^{\\pi}\\cos n x dx\\right] \\\\ &amp; \\quad=\\frac{4}{n\\pi}\\sin\\frac{n\\pi}{2}=\\begin{cases} 0, &amp; n=2k \\\\ (-1)^{k}\\frac{4}{(2k+1)\\pi}, &amp; n=2k+1\\end{cases}, k=0,1,2,\\cdots \\\\ &amp; \\text{所以} f(x) \\text{的傅里叶展式为} \\frac{4}{\\pi}\\sum_{n=0}^{\\infty}(-1)^{n}\\frac{\\cos(2n+1)x}{2n+1}\\,.\\end{aligned}\">\\begin{aligned} &amp; \\text{解由于} f(x+2\\pi)=\\operatorname{sgn}(\\cos(x+2\\pi))=\\operatorname{sgn}(\\cos x)=f(x), \\text{所以} f(x)=\\operatorname{sgn}(\\cos x) \\text{是以} \\\\ &amp; \\quad2\\pi \\text{为周期的周期函数，且} f(x) \\text{是偶函数，所以} b_{n}=0,n=1,2,\\cdots, \\\\ &amp; \\quad a_{0}=\\frac{2}{\\pi}\\int_{0}^{\\pi}\\operatorname{sgn}(\\cos x)dx=\\frac{2}{\\pi}\\left[\\int_{0}^{\\frac{\\pi}{2}}dx-\\int_{\\frac{\\pi}{2}}^{\\pi}dx\\right]=0\\,, \\\\ &amp; \\quad a_{n}=\\frac{2}{\\pi}\\int_{0}^{\\pi}\\operatorname{sgn}(\\cos x)\\cos n x dx=\\frac{2}{\\pi}\\left[\\int_{0}^{\\frac{\\pi}{2}}\\cos n x dx-\\int_{\\frac{\\pi}{2}}^{\\pi}\\cos n x dx\\right] \\\\ &amp; \\quad=\\frac{4}{n\\pi}\\sin\\frac{n\\pi}{2}=\\begin{cases} 0, &amp; n=2k \\\\ (-1)^{k}\\frac{4}{(2k+1)\\pi}, &amp; n=2k+1\\end{cases}, k=0,1,2,\\cdots \\\\ &amp; \\text{所以} f(x) \\text{的傅里叶展式为} \\frac{4}{\\pi}\\sum_{n=0}^{\\infty}(-1)^{n}\\frac{\\cos(2n+1)x}{2n+1}\\,.\\end{aligned}</div>"
     },
     {
       "id": "q0004",
       "number": 4,
       "header": "#4-Averge",
       "difficulty": "Averge",
-      "prompt_html": "<img src=\"/static/generated/assets/advanced-math/ch095/q0004_prompt.png\"/>",
+      "prompt_html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text {函数}f(x)=\\arcsin(\\cos x) \\text {的傅里叶展开式为( )}\">\\text {函数}f(x)=\\arcsin(\\cos x) \\text {的傅里叶展开式为( )}</span>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch095/q0004_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\frac {4}{\\pi} \\sum_ {n = 0} ^ {\\infty} \\frac {\\cos 2 n x}{n}.\">\\frac {4}{\\pi} \\sum_ {n = 0} ^ {\\infty} \\frac {\\cos 2 n x}{n}.</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch095/q0004_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\frac { \\pi } { 2 } + \\frac { 4 } { \\pi } \\sum _ { n = 0 } ^ { \\infty } \\frac { \\cos ( 2 n + 1 ) x } { ( 2 n + 1 ) ^ { 2 } } \\, ;\">\\frac { \\pi } { 2 } + \\frac { 4 } { \\pi } \\sum _ { n = 0 } ^ { \\infty } \\frac { \\cos ( 2 n + 1 ) x } { ( 2 n + 1 ) ^ { 2 } } \\, ;</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch095/q0004_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\frac {4}{\\pi} \\sum_ {n = 0} ^ {\\infty} \\frac {\\cos (2 n + 1) x}{(2 n + 1) ^ {2}} ;\">\\frac {4}{\\pi} \\sum_ {n = 0} ^ {\\infty} \\frac {\\cos (2 n + 1) x}{(2 n + 1) ^ {2}} ;</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch095/q0004_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\frac{1}{\\pi} + \\frac{2}{\\pi} \\sum_{n = 0}^{\\infty} \\frac{\\cos (2n + 1)x}{\\left(2n + 1\\right)^{2}} \\, ;\">\\frac{1}{\\pi} + \\frac{2}{\\pi} \\sum_{n = 0}^{\\infty} \\frac{\\cos (2n + 1)x}{\\left(2n + 1\\right)^{2}} \\, ;</span>"
         }
       ],
       "answer": "C",
       "answer_index": 2,
-      "analysis_html": "<img src=\"/static/generated/assets/advanced-math/ch095/q0004_analysis.png\"/>"
+      "analysis_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{aligned}&amp;\\text{解函数}f(x) \\text{是以}2\\pi \\text{为周期的周期函数，且为偶函数，所以}b_n=0,n=1,2,\\cdots,\\\\&amp;a_0=\\frac{2}{\\pi}\\int_0^\\pi \\arcsin(\\cos x)dx=\\frac{2}{\\pi}\\left[x\\arcsin(\\cos x)|_0^\\pi-\\int_0^\\pi x\\frac{-\\sin x}{\\sqrt{1-\\cos^2 x}}dx\\right]=0\\,,\\\\&amp;a_n=\\frac{2}{\\pi}\\int_0^\\pi \\arcsin(\\cos x)\\cos nxdx=\\frac{2}{n\\pi}\\left[\\arcsin(\\cos x)\\sin nx|_0^\\pi-\\int_0^\\pi \\frac{-\\sin x}{\\sqrt{1-\\cos^2 x}}\\sin nxdx\\right]\\\\&amp;=\\frac{2}{n\\pi}\\int_0^\\pi \\sin nxdx=\\frac{2}{n^2\\pi}(1-(-1)^n)=\\begin{cases}0,&amp;n=2k\\\\ \\frac{4}{(2k+1)^2\\pi},&amp;n=2k+1,k=0,1,2,\\cdots\\end{cases}\\\\&amp;\\text{所以所以}f(x) \\text{的傅里叶展式为}\\frac{4}{\\pi}\\sum_{n=0}^\\infty \\frac{\\cos(2n+1)x}{(2n+1)^2}.\\end{aligned}\">\\begin{aligned}&amp;\\text{解函数}f(x) \\text{是以}2\\pi \\text{为周期的周期函数，且为偶函数，所以}b_n=0,n=1,2,\\cdots,\\\\&amp;a_0=\\frac{2}{\\pi}\\int_0^\\pi \\arcsin(\\cos x)dx=\\frac{2}{\\pi}\\left[x\\arcsin(\\cos x)|_0^\\pi-\\int_0^\\pi x\\frac{-\\sin x}{\\sqrt{1-\\cos^2 x}}dx\\right]=0\\,,\\\\&amp;a_n=\\frac{2}{\\pi}\\int_0^\\pi \\arcsin(\\cos x)\\cos nxdx=\\frac{2}{n\\pi}\\left[\\arcsin(\\cos x)\\sin nx|_0^\\pi-\\int_0^\\pi \\frac{-\\sin x}{\\sqrt{1-\\cos^2 x}}\\sin nxdx\\right]\\\\&amp;=\\frac{2}{n\\pi}\\int_0^\\pi \\sin nxdx=\\frac{2}{n^2\\pi}(1-(-1)^n)=\\begin{cases}0,&amp;n=2k\\\\ \\frac{4}{(2k+1)^2\\pi},&amp;n=2k+1,k=0,1,2,\\cdots\\end{cases}\\\\&amp;\\text{所以所以}f(x) \\text{的傅里叶展式为}\\frac{4}{\\pi}\\sum_{n=0}^\\infty \\frac{\\cos(2n+1)x}{(2n+1)^2}.\\end{aligned}</div>"
     }
-  ]
+  ],
+  "format": "latex",
+  "source_md": "gs/5.6.3_正弦级数与余弦级数(4题)/5.6.3_正弦级数与余弦级数(4题).md"
 }

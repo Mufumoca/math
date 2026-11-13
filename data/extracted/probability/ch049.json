@@ -13,84 +13,86 @@
       "number": 1,
       "header": "#1-Averge",
       "difficulty": "Averge",
-      "prompt_html": "<img src=\"/static/generated/assets/probability/ch049/q0001_prompt.png\"/>",
+      "prompt_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{array}{l} \\text {设二维随机变量}(\\xi,\\eta)\\text {的联合概率密度为}\\varphi(x,y)\\text {，记在条件}\\{\\xi=x\\}\\text {下}\\eta\\text {的条件分布密度为}\\varphi_{1}(y|x)\\text {，则} \\\\ P\\{\\eta\\leq\\frac{1}{2}|\\xi\\leq\\frac{1}{2}\\}\\text {的值为()}. \\end{array}\">\\begin{array}{l} \\text {设二维随机变量}(\\xi,\\eta)\\text {的联合概率密度为}\\varphi(x,y)\\text {，记在条件}\\{\\xi=x\\}\\text {下}\\eta\\text {的条件分布密度为}\\varphi_{1}(y|x)\\text {，则} \\\\ P\\{\\eta\\leq\\frac{1}{2}|\\xi\\leq\\frac{1}{2}\\}\\text {的值为()}. \\end{array}</div>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/probability/ch049/q0001_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\begin{aligned}\\frac{\\int_{-\\infty}^{\\frac{1}{2}}\\int_{-\\infty}^{\\frac{1}{2}}\\varphi(x,y)dx dy}{\\int_{-\\infty}^{\\frac{1}{2}}\\int_{-\\infty}^{+\\infty}\\varphi(x,y)dy dx}\\end{aligned}\">\\begin{aligned}\\frac{\\int_{-\\infty}^{\\frac{1}{2}}\\int_{-\\infty}^{\\frac{1}{2}}\\varphi(x,y)dx dy}{\\int_{-\\infty}^{\\frac{1}{2}}\\int_{-\\infty}^{+\\infty}\\varphi(x,y)dy dx}\\end{aligned}</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/probability/ch049/q0001_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\begin{aligned}\\frac{\\int_{-\\infty}^{\\frac{1}{2}} \\int_{-\\infty}^{\\frac{1}{2}} \\varphi(x,y) dx dy}{\\int_{-\\infty}^{\\frac{1}{2}} \\varphi(x,y) dx}\\end{aligned}\">\\begin{aligned}\\frac{\\int_{-\\infty}^{\\frac{1}{2}} \\int_{-\\infty}^{\\frac{1}{2}} \\varphi(x,y) dx dy}{\\int_{-\\infty}^{\\frac{1}{2}} \\varphi(x,y) dx}\\end{aligned}</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/probability/ch049/q0001_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\int_{-\\infty}^{\\frac{1}{2}} \\int_{-\\infty}^{\\frac{1}{2}} \\varphi_{1}(y | x) d x d y\">\\int_{-\\infty}^{\\frac{1}{2}} \\int_{-\\infty}^{\\frac{1}{2}} \\varphi_{1}(y | x) d x d y</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/probability/ch049/q0001_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\frac{ \\int_{- \\infty} ^ { \\frac { 1 } { 2 } } \\int _ { - \\infty } ^ { \\frac { 1 } { 2 } } \\varphi ( x , y ) d x d y } { \\int _ { - \\infty } ^ { \\frac { 1 } { 2 } } \\varphi ( x , y ) d y }\">\\frac{ \\int_{- \\infty} ^ { \\frac { 1 } { 2 } } \\int _ { - \\infty } ^ { \\frac { 1 } { 2 } } \\varphi ( x , y ) d x d y } { \\int _ { - \\infty } ^ { \\frac { 1 } { 2 } } \\varphi ( x , y ) d y }</span>"
         }
       ],
       "answer": "A",
       "answer_index": 0,
-      "analysis_html": "<img src=\"/static/generated/assets/probability/ch049/q0001_analysis.png\"/>"
+      "analysis_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{aligned}P\\{\\eta \\leq \\frac{1}{2}\\bigl|\\xi \\leq \\frac{1}{2}\\}=\\frac{P\\{\\eta \\leq \\frac{1}{2},\\xi \\leq \\frac{1}{2}\\}}{P\\{\\xi \\leq \\frac{1}{2}\\}}=\\frac{\\int_{-\\infty}^{\\frac{1}{2}}\\int_{-\\infty}^{\\frac{1}{2}}\\varphi(x,y)dx dy}{\\int_{-\\infty}^{1}\\int_{-\\infty}^{+\\infty}\\varphi(x,y)dy dx}\\,.\\end{aligned}\">\\begin{aligned}P\\{\\eta \\leq \\frac{1}{2}\\bigl|\\xi \\leq \\frac{1}{2}\\}=\\frac{P\\{\\eta \\leq \\frac{1}{2},\\xi \\leq \\frac{1}{2}\\}}{P\\{\\xi \\leq \\frac{1}{2}\\}}=\\frac{\\int_{-\\infty}^{\\frac{1}{2}}\\int_{-\\infty}^{\\frac{1}{2}}\\varphi(x,y)dx dy}{\\int_{-\\infty}^{1}\\int_{-\\infty}^{+\\infty}\\varphi(x,y)dy dx}\\,.\\end{aligned}</div>"
     },
     {
       "id": "q0002",
       "number": 2,
       "header": "#2-Averge",
       "difficulty": "Averge",
-      "prompt_html": "<img src=\"/static/generated/assets/probability/ch049/q0002_prompt.png\"/>",
+      "prompt_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{aligned}\\text{设二维随机变量}(X,Y) \\text{的概率密度为} f(x,y)=Ae^{-2x^{2}+2y^{2}-y^{2}}(-\\infty &lt;x&lt;+\\infty,-\\infty &lt;y&lt;+\\infty), \\text{则条件概率密度} \\\\f_{XY}(y|x)=() .\\end{aligned}\">\\begin{aligned}\\text{设二维随机变量}(X,Y) \\text{的概率密度为} f(x,y)=Ae^{-2x^{2}+2y^{2}-y^{2}}(-\\infty &lt;x&lt;+\\infty,-\\infty &lt;y&lt;+\\infty), \\text{则条件概率密度} \\\\f_{XY}(y|x)=() .\\end{aligned}</div>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/probability/ch049/q0002_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\frac { 1 } { \\sqrt { \\pi } } e ^ { - ( y - x ) ^ { 2 } }\">\\frac { 1 } { \\sqrt { \\pi } } e ^ { - ( y - x ) ^ { 2 } }</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/probability/ch049/q0002_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\frac { 1 } { \\sqrt { 2 \\pi } } e ^ { - y ^ { 2 } + 2 x y }\">\\frac { 1 } { \\sqrt { 2 \\pi } } e ^ { - y ^ { 2 } + 2 x y }</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/probability/ch049/q0002_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\frac { 1 } { 2 \\sqrt { \\pi } } e ^ { - x ^ { 2 } + 2 x y - y ^ { 2 } }\">\\frac { 1 } { 2 \\sqrt { \\pi } } e ^ { - x ^ { 2 } + 2 x y - y ^ { 2 } }</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/probability/ch049/q0002_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\frac { 1 } { 2 \\sqrt { \\pi } } e ^ { - y ^ { 2 } + 2 x y }\">\\frac { 1 } { 2 \\sqrt { \\pi } } e ^ { - y ^ { 2 } + 2 x y }</span>"
         }
       ],
       "answer": "A",
       "answer_index": 0,
-      "analysis_html": "<img src=\"/static/generated/assets/probability/ch049/q0002_analysis.png\"/>"
+      "analysis_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{aligned}&amp;\\text{根据概率密度的性质可得} &amp; A=\\frac{1}{\\pi}\\,.\\\\&amp;\\text{而} &amp; f_{X}(x)=\\int_{-\\infty}^{+\\infty}f(x,y)dy=\\frac{1}{\\sqrt{\\pi}}e^{-x^{2}},\\quad-\\infty&lt;x&lt;+\\infty.\\\\&amp;\\text{故对任意}x\\in(-\\infty,+\\infty)\\text{，有} &amp; f_{Y,X}(y|x)=\\frac{f(x,y)}{f_{X}(x)}=\\frac{1}{\\sqrt{\\pi}}e^{-(y-x)^{2}},\\quad-\\infty&lt;y&lt;+\\infty.\\end{aligned}\">\\begin{aligned}&amp;\\text{根据概率密度的性质可得} &amp; A=\\frac{1}{\\pi}\\,.\\\\&amp;\\text{而} &amp; f_{X}(x)=\\int_{-\\infty}^{+\\infty}f(x,y)dy=\\frac{1}{\\sqrt{\\pi}}e^{-x^{2}},\\quad-\\infty&lt;x&lt;+\\infty.\\\\&amp;\\text{故对任意}x\\in(-\\infty,+\\infty)\\text{，有} &amp; f_{Y,X}(y|x)=\\frac{f(x,y)}{f_{X}(x)}=\\frac{1}{\\sqrt{\\pi}}e^{-(y-x)^{2}},\\quad-\\infty&lt;y&lt;+\\infty.\\end{aligned}</div>"
     },
     {
       "id": "q0003",
       "number": 3,
       "header": "#3-Averge",
       "difficulty": "Averge",
-      "prompt_html": "<img src=\"/static/generated/assets/probability/ch049/q0003_prompt.png\"/>",
+      "prompt_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{array}{l} \\text {设随机变量的联合概率密度是}\\varphi(x,y),\\text {关于}\\zeta\\text {和}\\eta\\text {的边缘概率密度分别为}\\varphi_{1}(x)\\text {和}\\varphi_{2}(y),\\text {则在}\\\\ \\{\\eta=y\\},(\\varphi_{2}(y)&gt;0)\\text {的条件下}\\zeta\\text {的条件概率密度}\\varphi(x|y)=()\\,. \\end{array}\">\\begin{array}{l} \\text {设随机变量的联合概率密度是}\\varphi(x,y),\\text {关于}\\zeta\\text {和}\\eta\\text {的边缘概率密度分别为}\\varphi_{1}(x)\\text {和}\\varphi_{2}(y),\\text {则在}\\\\ \\{\\eta=y\\},(\\varphi_{2}(y)&gt;0)\\text {的条件下}\\zeta\\text {的条件概率密度}\\varphi(x|y)=()\\,. \\end{array}</div>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/probability/ch049/q0003_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\frac { \\varphi ( x , y ) } { \\varphi _ { 2 } ( y ) }\">\\frac { \\varphi ( x , y ) } { \\varphi _ { 2 } ( y ) }</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/probability/ch049/q0003_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\frac { \\varphi ( x , y ) } { \\varphi _ { 1 } ( x ) }\">\\frac { \\varphi ( x , y ) } { \\varphi _ { 1 } ( x ) }</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/probability/ch049/q0003_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\varphi _ { 2 } ( y )\">\\varphi _ { 2 } ( y )</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/probability/ch049/q0003_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\varphi _ { 1 } ( x )\">\\varphi _ { 1 } ( x )</span>"
         }
       ],
       "answer": "A",
       "answer_index": 0,
-      "analysis_html": "<img src=\"/static/generated/assets/probability/ch049/q0003_analysis.png\"/>"
+      "analysis_html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{根据定义有} \\ f_{x|y}(x|y) = \\frac{f(x,y)}{f_{y}(y)} \\ , \\ \\text{即} \\ \\varphi \\bigl( x | y \\bigr) = \\, \\frac{\\varphi \\bigl( x , y \\bigr)}{\\varphi_{2} \\bigl( y \\bigr)} \\ .\">\\text{根据定义有} \\ f_{x|y}(x|y) = \\frac{f(x,y)}{f_{y}(y)} \\ , \\ \\text{即} \\ \\varphi \\bigl( x | y \\bigr) = \\, \\frac{\\varphi \\bigl( x , y \\bigr)}{\\varphi_{2} \\bigl( y \\bigr)} \\ .</span>"
     }
-  ]
+  ],
+  "format": "latex",
+  "source_md": "gl/3.3.1.3_联合与条件概率密度(3题)/3.3.1.3_联合与条件概率密度(3题).md"
 }

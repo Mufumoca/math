@@ -13,1120 +13,1122 @@
       "number": 1,
       "header": "#1-Averge",
       "difficulty": "Averge",
-      "prompt_html": "<img src=\"/static/generated/assets/linear-algebra/ch015/q0001_prompt.png\"/>",
+      "prompt_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{array}{l} \\text {设} \\alpha_{1}, \\alpha_{2}, \\alpha_{3} \\text {是空间} V \\text {的一个基，} \\beta_{1} = \\alpha_{2} - 2 \\alpha_{3}, \\ \\beta_{2} = \\alpha_{2} - \\alpha_{3}, \\ \\beta_{3} = \\alpha_{1} \\text {是} V \\text {的另外一个基，则向量} \\gamma = 2 \\alpha_{1} - \\alpha_{2} + \\alpha_{3} \\text {在基} \\beta_{1}, \\beta_{2}, \\beta_{3} \\text {下的坐标是( } \\end{array}.\">\\begin{array}{l} \\text {设} \\alpha_{1}, \\alpha_{2}, \\alpha_{3} \\text {是空间} V \\text {的一个基，} \\beta_{1} = \\alpha_{2} - 2 \\alpha_{3}, \\ \\beta_{2} = \\alpha_{2} - \\alpha_{3}, \\ \\beta_{3} = \\alpha_{1} \\text {是} V \\text {的另外一个基，则向量} \\gamma = 2 \\alpha_{1} - \\alpha_{2} + \\alpha_{3} \\text {在基} \\beta_{1}, \\beta_{2}, \\beta_{3} \\text {下的坐标是( } \\end{array}.</div>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/linear-algebra/ch015/q0001_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"(1, 1, 2)^{T}\">(1, 1, 2)^{T}</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/linear-algebra/ch015/q0001_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"( - 1 , 0 , 2 ) ^ { T }\">( - 1 , 0 , 2 ) ^ { T }</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/linear-algebra/ch015/q0001_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"( - 1 , 1 , 2 ) ^ { T }\">( - 1 , 1 , 2 ) ^ { T }</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/linear-algebra/ch015/q0001_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"(0, - 1, 2)^{T}\">(0, - 1, 2)^{T}</span>"
         }
       ],
       "answer": "D",
       "answer_index": 3,
-      "analysis_html": "<img src=\"/static/generated/assets/linear-algebra/ch015/q0001_analysis.png\"/>"
+      "analysis_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{aligned} \\text{由于} \\quad &amp; (\\beta_{1},\\beta_{2},\\beta_{3})=(\\alpha_{2}-2\\alpha_{3},\\alpha_{2}-\\alpha_{3},\\alpha_{1})=(\\alpha_{1},\\alpha_{2},\\alpha_{3})\\begin{pmatrix}0&amp;0&amp;1\\\\1&amp;1&amp;0\\\\-2&amp;-1&amp;0\\end{pmatrix} \\\\\\text{所以} \\quad &amp; (\\alpha_{1},\\alpha_{2},\\alpha_{3})=(\\beta_{1},\\beta_{2},\\beta_{3})\\begin{pmatrix}0&amp;0&amp;1\\\\1&amp;1&amp;0\\\\-2&amp;-1&amp;0\\end{pmatrix}^{-1}=(\\beta_{1},\\beta_{2},\\beta_{3})\\begin{pmatrix}0&amp;-1&amp;-1\\\\0&amp;2&amp;1\\\\1&amp;0&amp;0\\end{pmatrix} \\\\\\text{于是} \\quad &amp; \\gamma=(\\alpha_{1},\\alpha_{2},\\alpha_{3})\\begin{pmatrix}2\\\\-1\\\\1\\end{pmatrix}=(\\beta_{1},\\beta_{2},\\beta_{3})\\begin{pmatrix}0&amp;-1&amp;-1\\\\0&amp;2&amp;1\\\\1&amp;0&amp;0\\end{pmatrix}\\begin{pmatrix}2\\\\-1\\\\1\\end{pmatrix}=(\\beta_{1},\\beta_{2},\\beta_{3})\\begin{pmatrix}0\\\\-1\\\\2\\end{pmatrix} \\\\\\text{即向量}\\gamma=2\\alpha_{1}-\\alpha_{2}+\\alpha_{3}\\text{在基}\\beta_{1},\\beta_{2},\\beta_{3}\\text{下的坐标是}(0,-1,2)^{T}.\\end{aligned}\">\\begin{aligned} \\text{由于} \\quad &amp; (\\beta_{1},\\beta_{2},\\beta_{3})=(\\alpha_{2}-2\\alpha_{3},\\alpha_{2}-\\alpha_{3},\\alpha_{1})=(\\alpha_{1},\\alpha_{2},\\alpha_{3})\\begin{pmatrix}0&amp;0&amp;1\\\\1&amp;1&amp;0\\\\-2&amp;-1&amp;0\\end{pmatrix} \\\\\\text{所以} \\quad &amp; (\\alpha_{1},\\alpha_{2},\\alpha_{3})=(\\beta_{1},\\beta_{2},\\beta_{3})\\begin{pmatrix}0&amp;0&amp;1\\\\1&amp;1&amp;0\\\\-2&amp;-1&amp;0\\end{pmatrix}^{-1}=(\\beta_{1},\\beta_{2},\\beta_{3})\\begin{pmatrix}0&amp;-1&amp;-1\\\\0&amp;2&amp;1\\\\1&amp;0&amp;0\\end{pmatrix} \\\\\\text{于是} \\quad &amp; \\gamma=(\\alpha_{1},\\alpha_{2},\\alpha_{3})\\begin{pmatrix}2\\\\-1\\\\1\\end{pmatrix}=(\\beta_{1},\\beta_{2},\\beta_{3})\\begin{pmatrix}0&amp;-1&amp;-1\\\\0&amp;2&amp;1\\\\1&amp;0&amp;0\\end{pmatrix}\\begin{pmatrix}2\\\\-1\\\\1\\end{pmatrix}=(\\beta_{1},\\beta_{2},\\beta_{3})\\begin{pmatrix}0\\\\-1\\\\2\\end{pmatrix} \\\\\\text{即向量}\\gamma=2\\alpha_{1}-\\alpha_{2}+\\alpha_{3}\\text{在基}\\beta_{1},\\beta_{2},\\beta_{3}\\text{下的坐标是}(0,-1,2)^{T}.\\end{aligned}</div>"
     },
     {
       "id": "q0002",
       "number": 2,
       "header": "#2-Averge",
       "difficulty": "Averge",
-      "prompt_html": "<img src=\"/static/generated/assets/linear-algebra/ch015/q0002_prompt.png\"/>",
+      "prompt_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{aligned}&amp;\\text{集合}U_{1}=\\{A\\,|\\,A\\in R^{2\\times 2}\\text{且}A\\text{可逆}\\},\\;\\;U_{2}=\\{A\\,|\\,A\\in R^{2\\times 2}\\text{且}A\\text{不可逆}\\},\\;\\;U_{3}=\\{A\\,|\\,A\\in R^{2\\times 2}\\\\&amp;\\text{且}A\\text{对称}\\}\\text{中对矩阵加法和数乘矩阵运算是线性空间的有( }\\;).\\end{aligned}\">\\begin{aligned}&amp;\\text{集合}U_{1}=\\{A\\,|\\,A\\in R^{2\\times 2}\\text{且}A\\text{可逆}\\},\\;\\;U_{2}=\\{A\\,|\\,A\\in R^{2\\times 2}\\text{且}A\\text{不可逆}\\},\\;\\;U_{3}=\\{A\\,|\\,A\\in R^{2\\times 2}\\\\&amp;\\text{且}A\\text{对称}\\}\\text{中对矩阵加法和数乘矩阵运算是线性空间的有( }\\;).\\end{aligned}</div>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/linear-algebra/ch015/q0002_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"1 \\text{个}\">1 \\text{个}</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/linear-algebra/ch015/q0002_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"0 \\text{个}\">0 \\text{个}</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/linear-algebra/ch015/q0002_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"3 \\text{个}\">3 \\text{个}</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/linear-algebra/ch015/q0002_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"2 \\text{个}\">2 \\text{个}</span>"
         }
       ],
       "answer": "A",
       "answer_index": 0,
-      "analysis_html": "<img src=\"/static/generated/assets/linear-algebra/ch015/q0002_analysis.png\"/>"
+      "analysis_html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{因为只有集合} U _ { 3 } \\text{对加法和数乘运算封闭，构成线性空间，因此有} 1 \\text{个}.\">\\text{因为只有集合} U _ { 3 } \\text{对加法和数乘运算封闭，构成线性空间，因此有} 1 \\text{个}.</span>"
     },
     {
       "id": "q0003",
       "number": 3,
       "header": "#3-Averge",
       "difficulty": "Averge",
-      "prompt_html": "<img src=\"/static/generated/assets/linear-algebra/ch015/q0003_prompt.png\"/>",
+      "prompt_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\text{设}V=\\left\\{\\left(\\begin{matrix}a&amp;b\\\\ a-c&amp;b+d\\end{matrix}\\right)|a,b,c,d\\in R\\right\\},\\ \\text{对矩阵加法和数乘矩阵运算有} ( \\quad).\">\\text{设}V=\\left\\{\\left(\\begin{matrix}a&amp;b\\\\ a-c&amp;b+d\\end{matrix}\\right)|a,b,c,d\\in R\\right\\},\\ \\text{对矩阵加法和数乘矩阵运算有} ( \\quad).</div>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/linear-algebra/ch015/q0003_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{是二维向量空间}\">\\text{是二维向量空间}</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/linear-algebra/ch015/q0003_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\boldsymbol{V} \\text{不是向量空间}\">\\boldsymbol{V} \\text{不是向量空间}</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/linear-algebra/ch015/q0003_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\boldsymbol{V} \\text{是三维向量空间}\">\\boldsymbol{V} \\text{是三维向量空间}</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/linear-algebra/ch015/q0003_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\boldsymbol{V} \\text{是四维向量空间}\">\\boldsymbol{V} \\text{是四维向量空间}</span>"
         }
       ],
       "answer": "D",
       "answer_index": 3,
-      "analysis_html": "<img src=\"/static/generated/assets/linear-algebra/ch015/q0003_analysis.png\"/>"
+      "analysis_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{array}{l} \\text {因为} \\left( \\begin{matrix} 1 &amp; 0 \\\\ 1 &amp; 0 \\end{matrix} \\right), \\left( \\begin{matrix} 0 &amp; 1 \\\\ 0 &amp; 1 \\end{matrix} \\right), \\left( \\begin{matrix} 0 &amp; 0 \\\\ -1 &amp; 0 \\end{matrix} \\right), \\left( \\begin{matrix} 0 &amp; 0 \\\\ 0 &amp; 1 \\end{matrix} \\right) \\in V, \\text {且线性无关}, V \\text {中任意元素都能由它们线性表示，所以空间} V \\text {是四维的}. \\end{array}\">\\begin{array}{l} \\text {因为} \\left( \\begin{matrix} 1 &amp; 0 \\\\ 1 &amp; 0 \\end{matrix} \\right), \\left( \\begin{matrix} 0 &amp; 1 \\\\ 0 &amp; 1 \\end{matrix} \\right), \\left( \\begin{matrix} 0 &amp; 0 \\\\ -1 &amp; 0 \\end{matrix} \\right), \\left( \\begin{matrix} 0 &amp; 0 \\\\ 0 &amp; 1 \\end{matrix} \\right) \\in V, \\text {且线性无关}, V \\text {中任意元素都能由它们线性表示，所以空间} V \\text {是四维的}. \\end{array}</div>"
     },
     {
       "id": "q0004",
       "number": 4,
       "header": "#4-Averge",
       "difficulty": "Averge",
-      "prompt_html": "<img src=\"/static/generated/assets/linear-algebra/ch015/q0004_prompt.png\"/>",
+      "prompt_html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{设}V=\\{ax^{2}+bx+a+b\\,|\\,a,b\\in R\\}\\,，\\text{对多项式加法和数乘多项式运算有( }\\quad).\">\\text{设}V=\\{ax^{2}+bx+a+b\\,|\\,a,b\\in R\\}\\,，\\text{对多项式加法和数乘多项式运算有( }\\quad).</span>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/linear-algebra/ch015/q0004_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\boldsymbol{V} \\text{是二维向量空间}\">\\boldsymbol{V} \\text{是二维向量空间}</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/linear-algebra/ch015/q0004_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\boldsymbol{V} \\text{是三维向量空间}\">\\boldsymbol{V} \\text{是三维向量空间}</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/linear-algebra/ch015/q0004_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\boldsymbol{V} \\text{不是向量空间}\">\\boldsymbol{V} \\text{不是向量空间}</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/linear-algebra/ch015/q0004_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\boldsymbol{V} \\text{是一维向量空间}\">\\boldsymbol{V} \\text{是一维向量空间}</span>"
         }
       ],
       "answer": "A",
       "answer_index": 0,
-      "analysis_html": "<img src=\"/static/generated/assets/linear-algebra/ch015/q0004_analysis.png\"/>"
+      "analysis_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{array}{l} \\text {因为} x + 1, \\, x ^ {2} + 1 \\in V, \\text {且线性无关}, \\, V \\text {中任意元素都能由} x + 1, \\, x ^ {2} + 1 \\text {线性表示}, \\\\ \\text {所以空间} V \\text {是二维的}. \\end{array}\">\\begin{array}{l} \\text {因为} x + 1, \\, x ^ {2} + 1 \\in V, \\text {且线性无关}, \\, V \\text {中任意元素都能由} x + 1, \\, x ^ {2} + 1 \\text {线性表示}, \\\\ \\text {所以空间} V \\text {是二维的}. \\end{array}</div>"
     },
     {
       "id": "q0005",
       "number": 5,
       "header": "#5-Averge",
       "difficulty": "Averge",
-      "prompt_html": "<img src=\"/static/generated/assets/linear-algebra/ch015/q0005_prompt.png\"/>",
+      "prompt_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{array}{l} \\text{设} \\ R[x]_{3} \\text{中的两组基} \\alpha_{1}=1,\\ \\alpha_{2}=x-1,\\ \\alpha_{3}=x^{2}-2x+1 \\text{和} \\beta_{1}=2,\\ \\beta_{2}=x-2,\\ \\\\ \\beta_{3}=x^{2}-4x+4,\\ \\text{则} \\alpha_{1},\\alpha_{2},\\alpha_{3} \\text{到} \\beta_{1},\\beta_{2},\\beta_{3} \\text{的过渡矩阵为}(\\quad). \\end{array}\">\\begin{array}{l} \\text{设} \\ R[x]_{3} \\text{中的两组基} \\alpha_{1}=1,\\ \\alpha_{2}=x-1,\\ \\alpha_{3}=x^{2}-2x+1 \\text{和} \\beta_{1}=2,\\ \\beta_{2}=x-2,\\ \\\\ \\beta_{3}=x^{2}-4x+4,\\ \\text{则} \\alpha_{1},\\alpha_{2},\\alpha_{3} \\text{到} \\beta_{1},\\beta_{2},\\beta_{3} \\text{的过渡矩阵为}(\\quad). \\end{array}</div>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/linear-algebra/ch015/q0005_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\begin{aligned}\\begin{pmatrix}2 &amp; 1 &amp; 1 \\\\0 &amp; 1 &amp; 2 \\\\0 &amp; 0 &amp; 1\\end{pmatrix}\\end{aligned}\">\\begin{aligned}\\begin{pmatrix}2 &amp; 1 &amp; 1 \\\\0 &amp; 1 &amp; 2 \\\\0 &amp; 0 &amp; 1\\end{pmatrix}\\end{aligned}</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/linear-algebra/ch015/q0005_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\begin{aligned}\\begin{pmatrix}2 &amp; -1 &amp; 0 \\\\0 &amp; 1 &amp; -2 \\\\0 &amp; 0 &amp; 1\\end{pmatrix}\\end{aligned}\">\\begin{aligned}\\begin{pmatrix}2 &amp; -1 &amp; 0 \\\\0 &amp; 1 &amp; -2 \\\\0 &amp; 0 &amp; 1\\end{pmatrix}\\end{aligned}</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/linear-algebra/ch015/q0005_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\begin{aligned}\\begin{pmatrix}2 &amp; -1 &amp; 1 \\\\0 &amp; 1 &amp; -2 \\\\0 &amp; 0 &amp; 1\\end{pmatrix}\\end{aligned}\">\\begin{aligned}\\begin{pmatrix}2 &amp; -1 &amp; 1 \\\\0 &amp; 1 &amp; -2 \\\\0 &amp; 0 &amp; 1\\end{pmatrix}\\end{aligned}</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/linear-algebra/ch015/q0005_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\begin{aligned}\\begin{pmatrix} 1/2 &amp; 1/2 &amp; 1/2 \\\\ 0 &amp; 1 &amp; 2 \\\\ 0 &amp; 0 &amp; 1 \\end{pmatrix}\\end{aligned}\">\\begin{aligned}\\begin{pmatrix} 1/2 &amp; 1/2 &amp; 1/2 \\\\ 0 &amp; 1 &amp; 2 \\\\ 0 &amp; 0 &amp; 1 \\end{pmatrix}\\end{aligned}</span>"
         }
       ],
       "answer": "C",
       "answer_index": 2,
-      "analysis_html": "<img src=\"/static/generated/assets/linear-algebra/ch015/q0005_analysis.png\"/>"
+      "analysis_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{aligned} \\text{由于} \\; (\\alpha_1, \\alpha_2, \\alpha_3) &amp;=(1, x, x^2) \\begin{pmatrix} 1 &amp; -1 &amp; 1 \\\\ 0 &amp; 1 &amp; -2 \\\\ 0 &amp; 0 &amp; 1 \\end{pmatrix} \\\\ (\\beta_1, \\beta_2, \\beta_3) &amp;=(1, x, x^2) \\begin{pmatrix} 2 &amp; -2 &amp; 4 \\\\ 0 &amp; 1 &amp; -4 \\\\ 0 &amp; 0 &amp; 1 \\end{pmatrix} \\\\ &amp;=(\\alpha_1, \\alpha_2, \\alpha_3) \\begin{pmatrix} 1 &amp; -1 &amp; 1 \\\\ 0 &amp; 1 &amp; -2 \\\\ 0 &amp; 0 &amp; 1 \\end{pmatrix}^{-1} \\begin{pmatrix} 2 &amp; -2 &amp; 4 \\\\ 0 &amp; 1 &amp; -4 \\\\ 0 &amp; 0 &amp; 1 \\end{pmatrix} \\\\ &amp;=(\\alpha_1, \\alpha_2, \\alpha_3) \\begin{pmatrix} 2 &amp; -1 &amp; 1 \\\\ 0 &amp; 1 &amp; -2 \\\\ 0 &amp; 0 &amp; 1 \\end{pmatrix} \\\\ \\text{所以} \\; \\alpha_1, \\alpha_2, \\alpha_3 \\text{到} \\beta_1, \\beta_2, \\beta_3 \\text{的过渡矩阵为} &amp; \\mathbf{C}=\\begin{pmatrix} 2 &amp; -1 &amp; 1 \\\\ 0 &amp; 1 &amp; -2 \\\\ 0 &amp; 0 &amp; 1 \\end{pmatrix}.\\end{aligned}\">\\begin{aligned} \\text{由于} \\; (\\alpha_1, \\alpha_2, \\alpha_3) &amp;=(1, x, x^2) \\begin{pmatrix} 1 &amp; -1 &amp; 1 \\\\ 0 &amp; 1 &amp; -2 \\\\ 0 &amp; 0 &amp; 1 \\end{pmatrix} \\\\ (\\beta_1, \\beta_2, \\beta_3) &amp;=(1, x, x^2) \\begin{pmatrix} 2 &amp; -2 &amp; 4 \\\\ 0 &amp; 1 &amp; -4 \\\\ 0 &amp; 0 &amp; 1 \\end{pmatrix} \\\\ &amp;=(\\alpha_1, \\alpha_2, \\alpha_3) \\begin{pmatrix} 1 &amp; -1 &amp; 1 \\\\ 0 &amp; 1 &amp; -2 \\\\ 0 &amp; 0 &amp; 1 \\end{pmatrix}^{-1} \\begin{pmatrix} 2 &amp; -2 &amp; 4 \\\\ 0 &amp; 1 &amp; -4 \\\\ 0 &amp; 0 &amp; 1 \\end{pmatrix} \\\\ &amp;=(\\alpha_1, \\alpha_2, \\alpha_3) \\begin{pmatrix} 2 &amp; -1 &amp; 1 \\\\ 0 &amp; 1 &amp; -2 \\\\ 0 &amp; 0 &amp; 1 \\end{pmatrix} \\\\ \\text{所以} \\; \\alpha_1, \\alpha_2, \\alpha_3 \\text{到} \\beta_1, \\beta_2, \\beta_3 \\text{的过渡矩阵为} &amp; \\mathbf{C}=\\begin{pmatrix} 2 &amp; -1 &amp; 1 \\\\ 0 &amp; 1 &amp; -2 \\\\ 0 &amp; 0 &amp; 1 \\end{pmatrix}.\\end{aligned}</div>"
     },
     {
       "id": "q0006",
       "number": 6,
       "header": "#6-Averge",
       "difficulty": "Averge",
-      "prompt_html": "<img src=\"/static/generated/assets/linear-algebra/ch015/q0006_prompt.png\"/>",
+      "prompt_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\text{设}V=\\{(\\begin{array}{cc}a&amp;b\\\\ a-b&amp;0\\end{array}|a,b\\in R\\},\\text{对矩阵加法和数乘矩阵运算有( }\\quad).\">\\text{设}V=\\{(\\begin{array}{cc}a&amp;b\\\\ a-b&amp;0\\end{array}|a,b\\in R\\},\\text{对矩阵加法和数乘矩阵运算有( }\\quad).</div>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/linear-algebra/ch015/q0006_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\boldsymbol{V} \\text{不是向量空间}\">\\boldsymbol{V} \\text{不是向量空间}</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/linear-algebra/ch015/q0006_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\boldsymbol{V} \\text{是一维向量空间}\">\\boldsymbol{V} \\text{是一维向量空间}</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/linear-algebra/ch015/q0006_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\boldsymbol{V} \\text{是三维向量空间}\">\\boldsymbol{V} \\text{是三维向量空间}</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/linear-algebra/ch015/q0006_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\boldsymbol{V} \\text{是二维向量空间}\">\\boldsymbol{V} \\text{是二维向量空间}</span>"
         }
       ],
       "answer": "D",
       "answer_index": 3,
-      "analysis_html": "<img src=\"/static/generated/assets/linear-algebra/ch015/q0006_analysis.png\"/>"
+      "analysis_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{array}{l} \\text {因为} \\left( \\begin{matrix} 1 &amp; 0 \\\\ 1 &amp; 0 \\end{matrix} \\right), \\left( \\begin{matrix} 0 &amp; 1 \\\\ - 1 &amp; 0 \\end{matrix} \\right) \\in V, \\text {且线性无关，} V \\text {中任意元素都能由它们线性表示，所以空间} V \\text {是二维的}. \\end{array}\">\\begin{array}{l} \\text {因为} \\left( \\begin{matrix} 1 &amp; 0 \\\\ 1 &amp; 0 \\end{matrix} \\right), \\left( \\begin{matrix} 0 &amp; 1 \\\\ - 1 &amp; 0 \\end{matrix} \\right) \\in V, \\text {且线性无关，} V \\text {中任意元素都能由它们线性表示，所以空间} V \\text {是二维的}. \\end{array}</div>"
     },
     {
       "id": "q0007",
       "number": 7,
       "header": "#7-Averge",
       "difficulty": "Averge",
-      "prompt_html": "<img src=\"/static/generated/assets/linear-algebra/ch015/q0007_prompt.png\"/>",
+      "prompt_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\text{设} V = \\left\\{ \\left( \\begin{matrix} a &amp; b \\\\ a+b &amp; 1 \\end{matrix} \\right) | \\, a, b \\in R \\right\\}, \\text{对矩阵加法和数乘矩阵运算有} ( \\quad).\">\\text{设} V = \\left\\{ \\left( \\begin{matrix} a &amp; b \\\\ a+b &amp; 1 \\end{matrix} \\right) | \\, a, b \\in R \\right\\}, \\text{对矩阵加法和数乘矩阵运算有} ( \\quad).</div>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/linear-algebra/ch015/q0007_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\boldsymbol{V} \\text{是三维向量空间}\">\\boldsymbol{V} \\text{是三维向量空间}</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/linear-algebra/ch015/q0007_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\boldsymbol{V} \\text{不是向量空间}\">\\boldsymbol{V} \\text{不是向量空间}</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/linear-algebra/ch015/q0007_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\boldsymbol{V} \\text{是一维向量空间}\">\\boldsymbol{V} \\text{是一维向量空间}</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/linear-algebra/ch015/q0007_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\boldsymbol{V} \\text{ 是二维向量空间}\">\\boldsymbol{V} \\text{ 是二维向量空间}</span>"
         }
       ],
       "answer": "B",
       "answer_index": 1,
-      "analysis_html": "<img src=\"/static/generated/assets/linear-algebra/ch015/q0007_analysis.png\"/>"
+      "analysis_html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{可见，集合} V \\text{对线性运算不封闭，不是向量空间.}\">\\text{可见，集合} V \\text{对线性运算不封闭，不是向量空间.}</span>"
     },
     {
       "id": "q0008",
       "number": 8,
       "header": "#8-Averge",
       "difficulty": "Averge",
-      "prompt_html": "<img src=\"/static/generated/assets/linear-algebra/ch015/q0008_prompt.png\"/>",
+      "prompt_html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{设}V \\text{是由} \\alpha_{1}=x+1,\\ \\alpha_{2}=x^{2}+2,\\ \\alpha_{3}=x^{2}-x+1 \\text{生成的向量空间，则}V \\text{的维数为}( \\ \\ ).\">\\text{设}V \\text{是由} \\alpha_{1}=x+1,\\ \\alpha_{2}=x^{2}+2,\\ \\alpha_{3}=x^{2}-x+1 \\text{生成的向量空间，则}V \\text{的维数为}( \\ \\ ).</span>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/linear-algebra/ch015/q0008_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\textcolor{blue}{2}\">\\textcolor{blue}{2}</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/linear-algebra/ch015/q0008_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\mathbf { 0 }\">\\mathbf { 0 }</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/linear-algebra/ch015/q0008_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\textcolor{blue}{3}\">\\textcolor{blue}{3}</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/linear-algebra/ch015/q0008_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\textbf { 1 }\">\\textbf { 1 }</span>"
         }
       ],
       "answer": "A",
       "answer_index": 0,
-      "analysis_html": "<img src=\"/static/generated/assets/linear-algebra/ch015/q0008_analysis.png\"/>"
+      "analysis_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{array}{l} V \\text { 的维数就是向量组 } \\alpha _ { 1 } , \\alpha _ { 2 } , \\alpha _ { 3 } \\text { 的秩，由于 } \\alpha _ { 1 } , \\alpha _ { 2 } , \\alpha _ { 3 } \\text { 线性相关，} \\alpha _ { 1 } , \\alpha _ { 2 } \\text { 线性无关，} \\\\ \\text {所以} V \\text { 是二维的.} \\end{array}\">\\begin{array}{l} V \\text { 的维数就是向量组 } \\alpha _ { 1 } , \\alpha _ { 2 } , \\alpha _ { 3 } \\text { 的秩，由于 } \\alpha _ { 1 } , \\alpha _ { 2 } , \\alpha _ { 3 } \\text { 线性相关，} \\alpha _ { 1 } , \\alpha _ { 2 } \\text { 线性无关，} \\\\ \\text {所以} V \\text { 是二维的.} \\end{array}</div>"
     },
     {
       "id": "q0009",
       "number": 9,
       "header": "#9-Averge",
       "difficulty": "Averge",
-      "prompt_html": "<img src=\"/static/generated/assets/linear-algebra/ch015/q0009_prompt.png\"/>",
+      "prompt_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{array}{l}2 \\text{阶对角矩阵集合} V_{1},2 \\text{阶上三角矩阵集合} V_{2},2 \\text{阶反对称矩阵集合} V_{3} \\text{中对矩阵加法和数乘矩阵运算是线性空间的有( )} . \\end{array}\">\\begin{array}{l}2 \\text{阶对角矩阵集合} V_{1},2 \\text{阶上三角矩阵集合} V_{2},2 \\text{阶反对称矩阵集合} V_{3} \\text{中对矩阵加法和数乘矩阵运算是线性空间的有( )} . \\end{array}</div>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/linear-algebra/ch015/q0009_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"1 \\text{个}\">1 \\text{个}</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/linear-algebra/ch015/q0009_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"3 \\text{个}\">3 \\text{个}</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/linear-algebra/ch015/q0009_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"2 \\text{个}\">2 \\text{个}</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/linear-algebra/ch015/q0009_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"0 \\text{个}\">0 \\text{个}</span>"
         }
       ],
       "answer": "B",
       "answer_index": 1,
-      "analysis_html": "<img src=\"/static/generated/assets/linear-algebra/ch015/q0009_analysis.png\"/>"
+      "analysis_html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{因为所有集合对加法和数乘运算都封闭，都构成线性空间，因此有3个.}\">\\text{因为所有集合对加法和数乘运算都封闭，都构成线性空间，因此有3个.}</span>"
     },
     {
       "id": "q0010",
       "number": 10,
       "header": "#10-Averge",
       "difficulty": "Averge",
-      "prompt_html": "<img src=\"/static/generated/assets/linear-algebra/ch015/q0010_prompt.png\"/>",
+      "prompt_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\text{设}V \\text{是由} \\alpha_{1}=\\begin{pmatrix} 1 &amp; 1 \\\\ 0 &amp; 0 \\end{pmatrix},\\ \\alpha_{2}=\\begin{pmatrix} 1 &amp; 1 \\\\ 0 &amp; 2 \\end{pmatrix},\\ \\alpha_{3}=\\begin{pmatrix} 1 &amp; 1 \\\\ 0 &amp; 1 \\end{pmatrix} \\text{生成的向量空间，则}V \\text{的维数为} \\quad( \\quad).\">\\text{设}V \\text{是由} \\alpha_{1}=\\begin{pmatrix} 1 &amp; 1 \\\\ 0 &amp; 0 \\end{pmatrix},\\ \\alpha_{2}=\\begin{pmatrix} 1 &amp; 1 \\\\ 0 &amp; 2 \\end{pmatrix},\\ \\alpha_{3}=\\begin{pmatrix} 1 &amp; 1 \\\\ 0 &amp; 1 \\end{pmatrix} \\text{生成的向量空间，则}V \\text{的维数为} \\quad( \\quad).</div>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/linear-algebra/ch015/q0010_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\textcolor{blue}{2}\">\\textcolor{blue}{2}</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/linear-algebra/ch015/q0010_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\boldsymbol { 0 }\">\\boldsymbol { 0 }</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/linear-algebra/ch015/q0010_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"^ 3\">^ 3</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/linear-algebra/ch015/q0010_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\mathbf { 1 }\">\\mathbf { 1 }</span>"
         }
       ],
       "answer": "A",
       "answer_index": 0,
-      "analysis_html": "<img src=\"/static/generated/assets/linear-algebra/ch015/q0010_analysis.png\"/>"
+      "analysis_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{array}{l} V \\text { 的维数就是向量组 } \\alpha _ { 1 } , \\alpha _ { 2 } , \\alpha _ { 3 } \\text { 的秩，由于 } \\alpha _ { 1 } , \\alpha _ { 2 } , \\alpha _ { 3 } \\text { 线性相关，} \\alpha _ { 1 } , \\alpha _ { 2 } \\text { 线性无关，所以 } V \\text { 是二维的. } \\end{array}\">\\begin{array}{l} V \\text { 的维数就是向量组 } \\alpha _ { 1 } , \\alpha _ { 2 } , \\alpha _ { 3 } \\text { 的秩，由于 } \\alpha _ { 1 } , \\alpha _ { 2 } , \\alpha _ { 3 } \\text { 线性相关，} \\alpha _ { 1 } , \\alpha _ { 2 } \\text { 线性无关，所以 } V \\text { 是二维的. } \\end{array}</div>"
     },
     {
       "id": "q0011",
       "number": 11,
       "header": "#11-Averge",
       "difficulty": "Averge",
-      "prompt_html": "<img src=\"/static/generated/assets/linear-algebra/ch015/q0011_prompt.png\"/>",
+      "prompt_html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{设} \\alpha_{1}, \\alpha_{2}, \\alpha_{3} \\text{是空间} V \\text{的一个基，} \\beta_{1} = \\alpha_{1} + \\alpha_{2} - 2 \\alpha_{3}, \\ \\beta_{2} = \\alpha_{1} - \\alpha_{2} - \\alpha_{3}, \\ \\beta_{3} = \\alpha_{1} + \\alpha_{3} \\text{是} V \\text{的另外一个基，则向量} \\gamma = 6 \\beta_{1} - \\beta_{2} - \\beta_{3} \\text{在基} \\alpha_{1}, \\alpha_{2}, \\alpha_{3} \\text{下的坐标是( }.\">\\text{设} \\alpha_{1}, \\alpha_{2}, \\alpha_{3} \\text{是空间} V \\text{的一个基，} \\beta_{1} = \\alpha_{1} + \\alpha_{2} - 2 \\alpha_{3}, \\ \\beta_{2} = \\alpha_{1} - \\alpha_{2} - \\alpha_{3}, \\ \\beta_{3} = \\alpha_{1} + \\alpha_{3} \\text{是} V \\text{的另外一个基，则向量} \\gamma = 6 \\beta_{1} - \\beta_{2} - \\beta_{3} \\text{在基} \\alpha_{1}, \\alpha_{2}, \\alpha_{3} \\text{下的坐标是( }.</span>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/linear-algebra/ch015/q0011_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"(1, 2, 4)^{T}\">(1, 2, 4)^{T}</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/linear-algebra/ch015/q0011_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"(4, 7, -10)^{T}\">(4, 7, -10)^{T}</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/linear-algebra/ch015/q0011_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"(1, 2, 3)^{T}\">(1, 2, 3)^{T}</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/linear-algebra/ch015/q0011_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"(4, 7, -12)^{T}\">(4, 7, -12)^{T}</span>"
         }
       ],
       "answer": "D",
       "answer_index": 3,
-      "analysis_html": "<img src=\"/static/generated/assets/linear-algebra/ch015/q0011_analysis.png\"/>"
+      "analysis_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{aligned}&amp;\\text{由于} \\\\&amp;(\\beta_1,\\beta_2,\\beta_3)=(\\alpha_1+\\alpha_2-2\\alpha_3,\\alpha_1-\\alpha_2-\\alpha_3,\\alpha_1+\\alpha_3)=(\\alpha_1,\\alpha_2,\\alpha_3)\\begin{pmatrix}1&amp;1&amp;1\\\\1&amp;-1&amp;0\\\\-2&amp;-1&amp;1\\end{pmatrix}\\\\&amp;\\text{所以基}\\alpha_1,\\alpha_2,\\alpha_3\\text{到基}\\beta_1,\\beta_2,\\beta_3\\text{的过渡矩阵为：}C=\\begin{pmatrix}1&amp;1&amp;1\\\\1&amp;-1&amp;0\\\\-2&amp;-1&amp;1\\end{pmatrix}.\\\\&amp;\\text{所以，向量}\\gamma=6\\beta_1-\\beta_2-\\beta_3\\text{在基}\\alpha_1,\\alpha_2,\\alpha_3\\text{下的坐标是：}x=C(6,-1,-1)^T=(4,7,-12)^T.\\end{aligned}\">\\begin{aligned}&amp;\\text{由于} \\\\&amp;(\\beta_1,\\beta_2,\\beta_3)=(\\alpha_1+\\alpha_2-2\\alpha_3,\\alpha_1-\\alpha_2-\\alpha_3,\\alpha_1+\\alpha_3)=(\\alpha_1,\\alpha_2,\\alpha_3)\\begin{pmatrix}1&amp;1&amp;1\\\\1&amp;-1&amp;0\\\\-2&amp;-1&amp;1\\end{pmatrix}\\\\&amp;\\text{所以基}\\alpha_1,\\alpha_2,\\alpha_3\\text{到基}\\beta_1,\\beta_2,\\beta_3\\text{的过渡矩阵为：}C=\\begin{pmatrix}1&amp;1&amp;1\\\\1&amp;-1&amp;0\\\\-2&amp;-1&amp;1\\end{pmatrix}.\\\\&amp;\\text{所以，向量}\\gamma=6\\beta_1-\\beta_2-\\beta_3\\text{在基}\\alpha_1,\\alpha_2,\\alpha_3\\text{下的坐标是：}x=C(6,-1,-1)^T=(4,7,-12)^T.\\end{aligned}</div>"
     },
     {
       "id": "q0012",
       "number": 12,
       "header": "#12-Averge",
       "difficulty": "Averge",
-      "prompt_html": "<img src=\"/static/generated/assets/linear-algebra/ch015/q0012_prompt.png\"/>",
+      "prompt_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\text{设}V=\\left\\{\\left(\\begin{matrix}a&amp;2a\\\\ 3a&amp;-a\\end{matrix}\\right)|a\\in R\\right\\},\\text{对矩阵加法和数乘矩阵运算有( }\\quad).\">\\text{设}V=\\left\\{\\left(\\begin{matrix}a&amp;2a\\\\ 3a&amp;-a\\end{matrix}\\right)|a\\in R\\right\\},\\text{对矩阵加法和数乘矩阵运算有( }\\quad).</div>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/linear-algebra/ch015/q0012_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\boldsymbol{V} \\text{不是向量空间}\">\\boldsymbol{V} \\text{不是向量空间}</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/linear-algebra/ch015/q0012_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\boldsymbol{V} \\text{是一维向量空间}\">\\boldsymbol{V} \\text{是一维向量空间}</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/linear-algebra/ch015/q0012_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\boldsymbol{V} \\text{是三维向量空间}\">\\boldsymbol{V} \\text{是三维向量空间}</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/linear-algebra/ch015/q0012_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\boldsymbol{V} \\text{是二维向量空间}\">\\boldsymbol{V} \\text{是二维向量空间}</span>"
         }
       ],
       "answer": "B",
       "answer_index": 1,
-      "analysis_html": "<img src=\"/static/generated/assets/linear-algebra/ch015/q0012_analysis.png\"/>"
+      "analysis_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\text{因为} \\begin{pmatrix} 1 &amp; 2 \\\\ 3 &amp; -1 \\end{pmatrix} \\in V , \\text{且线性无关}, V \\text{中任意元素都能由它线性表示，所以空间} V \\text{是一维的}.\">\\text{因为} \\begin{pmatrix} 1 &amp; 2 \\\\ 3 &amp; -1 \\end{pmatrix} \\in V , \\text{且线性无关}, V \\text{中任意元素都能由它线性表示，所以空间} V \\text{是一维的}.</div>"
     },
     {
       "id": "q0013",
       "number": 13,
       "header": "#13-Averge",
       "difficulty": "Averge",
-      "prompt_html": "<img src=\"/static/generated/assets/linear-algebra/ch015/q0013_prompt.png\"/>",
+      "prompt_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\text{设}V \\text{是由} \\alpha_{1}=\\begin{pmatrix} 1 &amp; 0 \\\\ 1 &amp; 0 \\end{pmatrix},\\ \\alpha_{2}=\\begin{pmatrix} 1 &amp; 1 \\\\ 0 &amp; 0 \\end{pmatrix},\\ \\alpha_{3}=\\begin{pmatrix} 0 &amp; 1 \\\\ 0 &amp; 1 \\end{pmatrix},\\ \\alpha_{4}=\\begin{pmatrix} 2 &amp; 2 \\\\ 1 &amp; 1 \\end{pmatrix}\\text{生成的向量空间，} \\text{则}V\\text{的维数为}[ \\quad].\">\\text{设}V \\text{是由} \\alpha_{1}=\\begin{pmatrix} 1 &amp; 0 \\\\ 1 &amp; 0 \\end{pmatrix},\\ \\alpha_{2}=\\begin{pmatrix} 1 &amp; 1 \\\\ 0 &amp; 0 \\end{pmatrix},\\ \\alpha_{3}=\\begin{pmatrix} 0 &amp; 1 \\\\ 0 &amp; 1 \\end{pmatrix},\\ \\alpha_{4}=\\begin{pmatrix} 2 &amp; 2 \\\\ 1 &amp; 1 \\end{pmatrix}\\text{生成的向量空间，} \\text{则}V\\text{的维数为}[ \\quad].</div>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/linear-algebra/ch015/q0013_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\mathbf { 1 }\">\\mathbf { 1 }</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/linear-algebra/ch015/q0013_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\textcolor{blue}{2}\">\\textcolor{blue}{2}</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/linear-algebra/ch015/q0013_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\textcolor{blue}{3}\">\\textcolor{blue}{3}</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/linear-algebra/ch015/q0013_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"4\">4</span>"
         }
       ],
       "answer": "C",
       "answer_index": 2,
-      "analysis_html": "<img src=\"/static/generated/assets/linear-algebra/ch015/q0013_analysis.png\"/>"
+      "analysis_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{array}{l} V \\text {的维数就是向量组} \\alpha_ {1}, \\alpha_ {2}, \\alpha_ {3}, \\alpha_ {4} \\text {的秩,由于} \\alpha_ {1}, \\alpha_ {2}, \\alpha_ {3}, \\alpha_ {4} \\text {线性相关，} \\alpha_ {1}, \\alpha_ {2}, \\alpha_ {3} \\text {线性无关，所以} V \\text {是三维的}. \\end{array}\">\\begin{array}{l} V \\text {的维数就是向量组} \\alpha_ {1}, \\alpha_ {2}, \\alpha_ {3}, \\alpha_ {4} \\text {的秩,由于} \\alpha_ {1}, \\alpha_ {2}, \\alpha_ {3}, \\alpha_ {4} \\text {线性相关，} \\alpha_ {1}, \\alpha_ {2}, \\alpha_ {3} \\text {线性无关，所以} V \\text {是三维的}. \\end{array}</div>"
     },
     {
       "id": "q0014",
       "number": 14,
       "header": "#14-Averge",
       "difficulty": "Averge",
-      "prompt_html": "<img src=\"/static/generated/assets/linear-algebra/ch015/q0014_prompt.png\"/>",
+      "prompt_html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{设}V \\text{是由} \\alpha_{1} = x + 1, \\alpha_{2} = x^{2} + 2, \\alpha_{3} = x^{2} + x + 1 \\text{生成的向量空间，则} V \\text{的维数为} (\\quad).\">\\text{设}V \\text{是由} \\alpha_{1} = x + 1, \\alpha_{2} = x^{2} + 2, \\alpha_{3} = x^{2} + x + 1 \\text{生成的向量空间，则} V \\text{的维数为} (\\quad).</span>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/linear-algebra/ch015/q0014_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\mathbf { 1 }\">\\mathbf { 1 }</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/linear-algebra/ch015/q0014_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\boldsymbol { 0 }\">\\boldsymbol { 0 }</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/linear-algebra/ch015/q0014_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"^ 3\">^ 3</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/linear-algebra/ch015/q0014_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\textcolor{blue}{2}\">\\textcolor{blue}{2}</span>"
         }
       ],
       "answer": "C",
       "answer_index": 2,
-      "analysis_html": "<img src=\"/static/generated/assets/linear-algebra/ch015/q0014_analysis.png\"/>"
+      "analysis_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{array}{l} V \\text { 的维数就是向量组} \\alpha_ {1}, \\alpha_ {2}, \\alpha_ {3} \\text { 的秩，由于} \\alpha_ {1}, \\alpha_ {2}, \\alpha_ {3} \\text { 线性无关，所以} V \\text { 是三维的}. \\end{array}\">\\begin{array}{l} V \\text { 的维数就是向量组} \\alpha_ {1}, \\alpha_ {2}, \\alpha_ {3} \\text { 的秩，由于} \\alpha_ {1}, \\alpha_ {2}, \\alpha_ {3} \\text { 线性无关，所以} V \\text { 是三维的}. \\end{array}</div>"
     },
     {
       "id": "q0015",
       "number": 15,
       "header": "#15-Averge",
       "difficulty": "Averge",
-      "prompt_html": "<img src=\"/static/generated/assets/linear-algebra/ch015/q0015_prompt.png\"/>",
+      "prompt_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\text{设} \\beta \\text{在基} \\alpha_{1}=\\begin{pmatrix} 1 &amp; 1 \\\\ 0 &amp; 0 \\end{pmatrix}, \\alpha_{2}=\\begin{pmatrix} 0 &amp; 1 \\\\ 0 &amp; 1 \\end{pmatrix}, \\alpha_{3}=\\begin{pmatrix} 0 &amp; 0 \\\\ 1 &amp; 1 \\end{pmatrix} \\text{下的坐标为} (1,2,-1)^{T}, \\text{则} \\beta=(\\quad).\">\\text{设} \\beta \\text{在基} \\alpha_{1}=\\begin{pmatrix} 1 &amp; 1 \\\\ 0 &amp; 0 \\end{pmatrix}, \\alpha_{2}=\\begin{pmatrix} 0 &amp; 1 \\\\ 0 &amp; 1 \\end{pmatrix}, \\alpha_{3}=\\begin{pmatrix} 0 &amp; 0 \\\\ 1 &amp; 1 \\end{pmatrix} \\text{下的坐标为} (1,2,-1)^{T}, \\text{则} \\beta=(\\quad).</div>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/linear-algebra/ch015/q0015_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\begin{pmatrix} 1 &amp; 3 \\\\ -1 &amp; 1 \\end{pmatrix}\">\\begin{pmatrix} 1 &amp; 3 \\\\ -1 &amp; 1 \\end{pmatrix}</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/linear-algebra/ch015/q0015_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\begin{aligned}\\begin{pmatrix} 1 &amp; 2 \\\\ -1 &amp; 1 \\end{pmatrix}\\end{aligned}\">\\begin{aligned}\\begin{pmatrix} 1 &amp; 2 \\\\ -1 &amp; 1 \\end{pmatrix}\\end{aligned}</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/linear-algebra/ch015/q0015_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\begin{pmatrix} 1 &amp; 3 \\\\ 0 &amp; 1 \\end{pmatrix}\">\\begin{pmatrix} 1 &amp; 3 \\\\ 0 &amp; 1 \\end{pmatrix}</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/linear-algebra/ch015/q0015_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\begin{pmatrix} 1 &amp; 3 \\\\ -1 &amp; -1 \\end{pmatrix}\">\\begin{pmatrix} 1 &amp; 3 \\\\ -1 &amp; -1 \\end{pmatrix}</span>"
         }
       ],
       "answer": "A",
       "answer_index": 0,
-      "analysis_html": "<img src=\"/static/generated/assets/linear-algebra/ch015/q0015_analysis.png\"/>"
+      "analysis_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\text{由于}\\ \\beta\\!=\\!\\alpha_{1}\\!+\\!2\\alpha_{2}\\!-\\alpha_{3}\\!=\\!\\left(\\!\\begin{array}{cc}1&amp;3\\\\ -1&amp;1\\end{array}\\!\\right).\">\\text{由于}\\ \\beta\\!=\\!\\alpha_{1}\\!+\\!2\\alpha_{2}\\!-\\alpha_{3}\\!=\\!\\left(\\!\\begin{array}{cc}1&amp;3\\\\ -1&amp;1\\end{array}\\!\\right).</div>"
     },
     {
       "id": "q0016",
       "number": 16,
       "header": "#16-Averge",
       "difficulty": "Averge",
-      "prompt_html": "<img src=\"/static/generated/assets/linear-algebra/ch015/q0016_prompt.png\"/>",
+      "prompt_html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{设}V=\\{ax^{2}+bx\\,|\\,a,b\\in R\\}\\text{，对多项式加法和数乘多项式运算有} ( \\quad).\">\\text{设}V=\\{ax^{2}+bx\\,|\\,a,b\\in R\\}\\text{，对多项式加法和数乘多项式运算有} ( \\quad).</span>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/linear-algebra/ch015/q0016_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\boldsymbol{V} \\text{是三维向量空间}\">\\boldsymbol{V} \\text{是三维向量空间}</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/linear-algebra/ch015/q0016_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\boldsymbol{V} \\text{是一维向量空间}\">\\boldsymbol{V} \\text{是一维向量空间}</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/linear-algebra/ch015/q0016_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\boldsymbol{V} \\text{是二维向量空间}\">\\boldsymbol{V} \\text{是二维向量空间}</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/linear-algebra/ch015/q0016_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\boldsymbol{V} \\text{不是向量空间}\">\\boldsymbol{V} \\text{不是向量空间}</span>"
         }
       ],
       "answer": "C",
       "answer_index": 2,
-      "analysis_html": "<img src=\"/static/generated/assets/linear-algebra/ch015/q0016_analysis.png\"/>"
+      "analysis_html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{因为} x, x^{2} \\in V, \\text{且线性无关}, V \\text{中任意元素都能由} x, x^{2} \\text{线性表示,所以空间} V \\text{是二维的}.\">\\text{因为} x, x^{2} \\in V, \\text{且线性无关}, V \\text{中任意元素都能由} x, x^{2} \\text{线性表示,所以空间} V \\text{是二维的}.</span>"
     },
     {
       "id": "q0017",
       "number": 17,
       "header": "#17-Averge",
       "difficulty": "Averge",
-      "prompt_html": "<img src=\"/static/generated/assets/linear-algebra/ch015/q0017_prompt.png\"/>",
+      "prompt_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{aligned}&amp;\\text{集合}W_{1}=\\{ax^{2}+bx+c\\mid a,b,c\\in R\\}\\ ,\\ \\ W_{2}=\\{ax^{2}+bx+c\\mid a,b,c\\in R\\text{且}a\\neq 0\\}\\ ,\\ \\ W_{3}=\\ \\\\&amp;\\{ax^{2}+b\\mid a,b\\in R\\}\\text{中对多项式加法和数乘多项式运算是线性空间的有( }\\ .\\end{aligned}\">\\begin{aligned}&amp;\\text{集合}W_{1}=\\{ax^{2}+bx+c\\mid a,b,c\\in R\\}\\ ,\\ \\ W_{2}=\\{ax^{2}+bx+c\\mid a,b,c\\in R\\text{且}a\\neq 0\\}\\ ,\\ \\ W_{3}=\\ \\\\&amp;\\{ax^{2}+b\\mid a,b\\in R\\}\\text{中对多项式加法和数乘多项式运算是线性空间的有( }\\ .\\end{aligned}</div>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/linear-algebra/ch015/q0017_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"2 \\text{个}\">2 \\text{个}</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/linear-algebra/ch015/q0017_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"1 \\text{个}\">1 \\text{个}</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/linear-algebra/ch015/q0017_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"0 \\text{个}\">0 \\text{个}</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/linear-algebra/ch015/q0017_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"3 \\text{个}\">3 \\text{个}</span>"
         }
       ],
       "answer": "A",
       "answer_index": 0,
-      "analysis_html": "<img src=\"/static/generated/assets/linear-algebra/ch015/q0017_analysis.png\"/>"
+      "analysis_html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{因为只有集合} W _ { 2 } \\text{ 对加法和数乘运算不封闭，不构成线性空间，因此有 } 2 \\text{ 个.}\">\\text{因为只有集合} W _ { 2 } \\text{ 对加法和数乘运算不封闭，不构成线性空间，因此有 } 2 \\text{ 个.}</span>"
     },
     {
       "id": "q0018",
       "number": 18,
       "header": "#18-Averge",
       "difficulty": "Averge",
-      "prompt_html": "<img src=\"/static/generated/assets/linear-algebra/ch015/q0018_prompt.png\"/>",
+      "prompt_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{array}{l} \\text {设} \\alpha_{1}, \\alpha_{2}, \\alpha_{3} \\text {是空间} V \\text {的一个基，} \\beta_{1} = \\alpha_{1} + \\alpha_{2} - 2 \\alpha_{3}, \\beta_{2} = \\alpha_{1} - \\alpha_{2} - \\alpha_{3}, \\beta_{3} = \\alpha_{1} + \\alpha_{3} \\text {是} V \\\\ \\text {的另外一个基，则向量} \\gamma = 6 \\alpha_{1} - \\alpha_{2} - \\alpha_{3} \\text {在基} \\beta_{1}, \\beta_{2}, \\beta_{3} \\text {下的坐标是( }. \\end{array}\">\\begin{array}{l} \\text {设} \\alpha_{1}, \\alpha_{2}, \\alpha_{3} \\text {是空间} V \\text {的一个基，} \\beta_{1} = \\alpha_{1} + \\alpha_{2} - 2 \\alpha_{3}, \\beta_{2} = \\alpha_{1} - \\alpha_{2} - \\alpha_{3}, \\beta_{3} = \\alpha_{1} + \\alpha_{3} \\text {是} V \\\\ \\text {的另外一个基，则向量} \\gamma = 6 \\alpha_{1} - \\alpha_{2} - \\alpha_{3} \\text {在基} \\beta_{1}, \\beta_{2}, \\beta_{3} \\text {下的坐标是( }. \\end{array}</div>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/linear-algebra/ch015/q0018_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"(3, 1, 2)^{T}\">(3, 1, 2)^{T}</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/linear-algebra/ch015/q0018_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"(4, 7, -12)^{T}\">(4, 7, -12)^{T}</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/linear-algebra/ch015/q0018_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"(2, 1, 3)^{T}\">(2, 1, 3)^{T}</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/linear-algebra/ch015/q0018_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"(1, 2, 3)^{T}\">(1, 2, 3)^{T}</span>"
         }
       ],
       "answer": "D",
       "answer_index": 3,
-      "analysis_html": "<img src=\"/static/generated/assets/linear-algebra/ch015/q0018_analysis.png\"/>"
+      "analysis_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{aligned}&amp;\\text{由于} \\\\&amp;(\\beta_1,\\beta_2,\\beta_3)=(\\alpha_1+\\alpha_2-2\\alpha_3,\\alpha_1-\\alpha_2-\\alpha_3,\\alpha_1+\\alpha_3)=(\\alpha_1,\\alpha_2,\\alpha_3)\\begin{pmatrix}1&amp;1&amp;1\\\\1&amp;-1&amp;0\\\\-2&amp;-1&amp;1\\end{pmatrix}\\\\&amp;\\text{所以基}\\alpha_1,\\alpha_2,\\alpha_3\\text{到基}\\beta_1,\\beta_2,\\beta_3\\text{的过渡矩阵为：}C=\\begin{pmatrix}1&amp;1&amp;1\\\\1&amp;-1&amp;0\\\\-2&amp;-1&amp;1\\end{pmatrix}.\\\\&amp;\\text{所以，向量}\\gamma=6\\,\\alpha_1-\\alpha_2-\\alpha_3\\text{在基}\\beta_1,\\beta_2,\\beta_3\\text{下的坐标为：}y=C^{-1}(6,-1,-1)^T=(1,2,3)^T.\\end{aligned}\">\\begin{aligned}&amp;\\text{由于} \\\\&amp;(\\beta_1,\\beta_2,\\beta_3)=(\\alpha_1+\\alpha_2-2\\alpha_3,\\alpha_1-\\alpha_2-\\alpha_3,\\alpha_1+\\alpha_3)=(\\alpha_1,\\alpha_2,\\alpha_3)\\begin{pmatrix}1&amp;1&amp;1\\\\1&amp;-1&amp;0\\\\-2&amp;-1&amp;1\\end{pmatrix}\\\\&amp;\\text{所以基}\\alpha_1,\\alpha_2,\\alpha_3\\text{到基}\\beta_1,\\beta_2,\\beta_3\\text{的过渡矩阵为：}C=\\begin{pmatrix}1&amp;1&amp;1\\\\1&amp;-1&amp;0\\\\-2&amp;-1&amp;1\\end{pmatrix}.\\\\&amp;\\text{所以，向量}\\gamma=6\\,\\alpha_1-\\alpha_2-\\alpha_3\\text{在基}\\beta_1,\\beta_2,\\beta_3\\text{下的坐标为：}y=C^{-1}(6,-1,-1)^T=(1,2,3)^T.\\end{aligned}</div>"
     },
     {
       "id": "q0019",
       "number": 19,
       "header": "#19-Averge",
       "difficulty": "Averge",
-      "prompt_html": "<img src=\"/static/generated/assets/linear-algebra/ch015/q0019_prompt.png\"/>",
+      "prompt_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{array}{l} \\text {设} V \\text {中的两组基} \\alpha_{1}=\\left( \\begin{matrix} 1 &amp; 0 \\\\ 0 &amp; 0 \\end{matrix} \\right),\\ \\alpha_{2}=\\left( \\begin{matrix} 1 &amp; 1 \\\\ 0 &amp; 0 \\end{matrix} \\right),\\ \\alpha_{3}=\\left( \\begin{matrix} 1 &amp; 1 \\\\ 0 &amp; 1 \\end{matrix} \\right) \\text {和} \\beta_{1}=\\left( \\begin{matrix} 1 &amp; 0 \\\\ 0 &amp; 1 \\end{matrix} \\right), \\\\ \\beta_{2}=\\left( \\begin{matrix} 1 &amp; -1 \\\\ 0 &amp; 0 \\end{matrix} \\right),\\ \\beta_{3}=\\left( \\begin{matrix} 0 &amp; 1 \\\\ 0 &amp; -1 \\end{matrix} \\right), \\text {则} \\alpha_{1}, \\alpha_{2}, \\alpha_{3} \\text {到} \\beta_{1}, \\beta_{2}, \\beta_{3} \\text {的过渡矩阵为( }. \\end{array}\">\\begin{array}{l} \\text {设} V \\text {中的两组基} \\alpha_{1}=\\left( \\begin{matrix} 1 &amp; 0 \\\\ 0 &amp; 0 \\end{matrix} \\right),\\ \\alpha_{2}=\\left( \\begin{matrix} 1 &amp; 1 \\\\ 0 &amp; 0 \\end{matrix} \\right),\\ \\alpha_{3}=\\left( \\begin{matrix} 1 &amp; 1 \\\\ 0 &amp; 1 \\end{matrix} \\right) \\text {和} \\beta_{1}=\\left( \\begin{matrix} 1 &amp; 0 \\\\ 0 &amp; 1 \\end{matrix} \\right), \\\\ \\beta_{2}=\\left( \\begin{matrix} 1 &amp; -1 \\\\ 0 &amp; 0 \\end{matrix} \\right),\\ \\beta_{3}=\\left( \\begin{matrix} 0 &amp; 1 \\\\ 0 &amp; -1 \\end{matrix} \\right), \\text {则} \\alpha_{1}, \\alpha_{2}, \\alpha_{3} \\text {到} \\beta_{1}, \\beta_{2}, \\beta_{3} \\text {的过渡矩阵为( }. \\end{array}</div>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/linear-algebra/ch015/q0019_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\begin{aligned}\\frac{1}{2} \\begin{pmatrix} 1 &amp; 2 &amp; 3 \\\\ 1 &amp; 0 &amp; -1 \\\\ 1 &amp; 2 &amp; 1 \\end{pmatrix}\\end{aligned}\">\\begin{aligned}\\frac{1}{2} \\begin{pmatrix} 1 &amp; 2 &amp; 3 \\\\ 1 &amp; 0 &amp; -1 \\\\ 1 &amp; 2 &amp; 1 \\end{pmatrix}\\end{aligned}</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/linear-algebra/ch015/q0019_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\begin{aligned}\\begin{pmatrix}1 &amp; 2 &amp; -1 \\\\-1 &amp; -1 &amp; 2 \\\\1 &amp; 1 &amp; 0\\end{pmatrix}\\end{aligned}\">\\begin{aligned}\\begin{pmatrix}1 &amp; 2 &amp; -1 \\\\-1 &amp; -1 &amp; 2 \\\\1 &amp; 1 &amp; 0\\end{pmatrix}\\end{aligned}</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/linear-algebra/ch015/q0019_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\begin{aligned}\\begin{pmatrix}1 &amp; 2 &amp; -1 \\\\-2 &amp; -1 &amp; 2 \\\\1 &amp; 1 &amp; -1\\end{pmatrix}\\end{aligned}\">\\begin{aligned}\\begin{pmatrix}1 &amp; 2 &amp; -1 \\\\-2 &amp; -1 &amp; 2 \\\\1 &amp; 1 &amp; -1\\end{pmatrix}\\end{aligned}</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/linear-algebra/ch015/q0019_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\begin{aligned}\\begin{pmatrix}1 &amp; 2 &amp; -1 \\\\-1 &amp; -1 &amp; 2 \\\\1 &amp; 0 &amp; -1\\end{pmatrix}\\end{aligned}\">\\begin{aligned}\\begin{pmatrix}1 &amp; 2 &amp; -1 \\\\-1 &amp; -1 &amp; 2 \\\\1 &amp; 0 &amp; -1\\end{pmatrix}\\end{aligned}</span>"
         }
       ],
       "answer": "D",
       "answer_index": 3,
-      "analysis_html": "<img src=\"/static/generated/assets/linear-algebra/ch015/q0019_analysis.png\"/>"
+      "analysis_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{aligned} \\text{由于} \\beta_1&amp;=\\begin{pmatrix} 1 &amp; 0 \\\\ 0 &amp; 1 \\end{pmatrix}=\\alpha_1-\\alpha_2+\\alpha_3=(\\alpha_1,\\alpha_2,\\alpha_3)\\begin{pmatrix} 1 \\\\ -1 \\\\ 1 \\end{pmatrix}, \\\\ \\beta_2&amp;=\\begin{pmatrix} 1 &amp; -1 \\\\ 0 &amp; 0 \\end{pmatrix}=(\\alpha_1,\\alpha_2,\\alpha_3)\\begin{pmatrix} 2 \\\\ -1 \\\\ 0 \\end{pmatrix}, \\ \\beta_3=\\begin{pmatrix} 0 &amp; 1 \\\\ 0 &amp; -1 \\end{pmatrix}=(\\alpha_1,\\alpha_2,\\alpha_3)\\begin{pmatrix} -1 \\\\ 2 \\\\ -1 \\end{pmatrix} \\\\ \\text{所以} \\alpha_1,\\alpha_2,\\alpha_3 \\text{到} \\beta_1,\\beta_2,\\beta_3 \\text{的过渡矩阵为} C&amp;=\\begin{pmatrix} 1 &amp; 2 &amp; -1 \\\\ -1 &amp; -1 &amp; 2 \\\\ 1 &amp; 0 &amp; -1 \\end{pmatrix}.\\end{aligned}\">\\begin{aligned} \\text{由于} \\beta_1&amp;=\\begin{pmatrix} 1 &amp; 0 \\\\ 0 &amp; 1 \\end{pmatrix}=\\alpha_1-\\alpha_2+\\alpha_3=(\\alpha_1,\\alpha_2,\\alpha_3)\\begin{pmatrix} 1 \\\\ -1 \\\\ 1 \\end{pmatrix}, \\\\ \\beta_2&amp;=\\begin{pmatrix} 1 &amp; -1 \\\\ 0 &amp; 0 \\end{pmatrix}=(\\alpha_1,\\alpha_2,\\alpha_3)\\begin{pmatrix} 2 \\\\ -1 \\\\ 0 \\end{pmatrix}, \\ \\beta_3=\\begin{pmatrix} 0 &amp; 1 \\\\ 0 &amp; -1 \\end{pmatrix}=(\\alpha_1,\\alpha_2,\\alpha_3)\\begin{pmatrix} -1 \\\\ 2 \\\\ -1 \\end{pmatrix} \\\\ \\text{所以} \\alpha_1,\\alpha_2,\\alpha_3 \\text{到} \\beta_1,\\beta_2,\\beta_3 \\text{的过渡矩阵为} C&amp;=\\begin{pmatrix} 1 &amp; 2 &amp; -1 \\\\ -1 &amp; -1 &amp; 2 \\\\ 1 &amp; 0 &amp; -1 \\end{pmatrix}.\\end{aligned}</div>"
     },
     {
       "id": "q0020",
       "number": 20,
       "header": "#20-Averge",
       "difficulty": "Averge",
-      "prompt_html": "<img src=\"/static/generated/assets/linear-algebra/ch015/q0020_prompt.png\"/>",
+      "prompt_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{aligned} \\text{在空间}V \\text{中，由基}\\alpha_{1},\\alpha_{2},\\alpha_{3}\\text{到基}\\beta_{1},\\beta_{2},\\beta_{3}\\text{的过渡矩阵为}C=\\begin{pmatrix}1&amp;-1&amp;0\\\\-2&amp;3&amp;0\\\\0&amp;0&amp;2\\end{pmatrix},\\text{则向量}\\gamma=\\beta_{1}+2\\beta_{2}+3\\beta_{3}\\text{在基}\\alpha_{1},\\alpha_{2},\\alpha_{3}\\text{下的坐标为( }.\\end{aligned}\">\\begin{aligned} \\text{在空间}V \\text{中，由基}\\alpha_{1},\\alpha_{2},\\alpha_{3}\\text{到基}\\beta_{1},\\beta_{2},\\beta_{3}\\text{的过渡矩阵为}C=\\begin{pmatrix}1&amp;-1&amp;0\\\\-2&amp;3&amp;0\\\\0&amp;0&amp;2\\end{pmatrix},\\text{则向量}\\gamma=\\beta_{1}+2\\beta_{2}+3\\beta_{3}\\text{在基}\\alpha_{1},\\alpha_{2},\\alpha_{3}\\text{下的坐标为( }.\\end{aligned}</div>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/linear-algebra/ch015/q0020_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\begin{aligned}\\left( \\begin{matrix} 1 \\\\ 0 \\\\ 3/2 \\end{matrix} \\right)\\end{aligned}\">\\begin{aligned}\\left( \\begin{matrix} 1 \\\\ 0 \\\\ 3/2 \\end{matrix} \\right)\\end{aligned}</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/linear-algebra/ch015/q0020_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\begin{pmatrix} -1 \\\\ 4 \\\\ 6 \\end{pmatrix}\">\\begin{pmatrix} -1 \\\\ 4 \\\\ 6 \\end{pmatrix}</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/linear-algebra/ch015/q0020_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"( \\begin{array}{c} 5 \\\\ 4 \\\\ 3 / 2 \\end{array}\">( \\begin{array}{c} 5 \\\\ 4 \\\\ 3 / 2 \\end{array}</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/linear-algebra/ch015/q0020_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\begin{pmatrix} 1 \\\\ 2 \\\\ 3 \\end{pmatrix}\">\\begin{pmatrix} 1 \\\\ 2 \\\\ 3 \\end{pmatrix}</span>"
         }
       ],
       "answer": "B",
       "answer_index": 1,
-      "analysis_html": "<img src=\"/static/generated/assets/linear-algebra/ch015/q0020_analysis.png\"/>"
+      "analysis_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{aligned} &amp; \\text{由已知，向量 }\\gamma \\text{ 在基 }\\beta_1, \\beta_2, \\beta_3 \\text{ 下的坐标为：} \\quad y=(1,2,3)^T, \\\\ &amp; \\text{所以，}\\gamma \\text{ 在基 }\\alpha_1, \\alpha_2, \\alpha_3 \\text{ 下的坐标为 } x=Cy=\\begin{pmatrix} 1 &amp; -1 &amp; 0 \\\\ -2 &amp; 3 &amp; 0 \\\\ 0 &amp; 0 &amp; 2 \\end{pmatrix} \\begin{pmatrix} 1 \\\\ 2 \\\\ 3 \\end{pmatrix}=\\begin{pmatrix} -1 \\\\ 4 \\\\ 6 \\end{pmatrix}.\\end{aligned}\">\\begin{aligned} &amp; \\text{由已知，向量 }\\gamma \\text{ 在基 }\\beta_1, \\beta_2, \\beta_3 \\text{ 下的坐标为：} \\quad y=(1,2,3)^T, \\\\ &amp; \\text{所以，}\\gamma \\text{ 在基 }\\alpha_1, \\alpha_2, \\alpha_3 \\text{ 下的坐标为 } x=Cy=\\begin{pmatrix} 1 &amp; -1 &amp; 0 \\\\ -2 &amp; 3 &amp; 0 \\\\ 0 &amp; 0 &amp; 2 \\end{pmatrix} \\begin{pmatrix} 1 \\\\ 2 \\\\ 3 \\end{pmatrix}=\\begin{pmatrix} -1 \\\\ 4 \\\\ 6 \\end{pmatrix}.\\end{aligned}</div>"
     },
     {
       "id": "q0021",
       "number": 21,
       "header": "#21-Averge",
       "difficulty": "Averge",
-      "prompt_html": "<img src=\"/static/generated/assets/linear-algebra/ch015/q0021_prompt.png\"/>",
+      "prompt_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{aligned} \\text{在空间}V \\text{中，由基}\\alpha_{1},\\alpha_{2},\\alpha_{3}\\text{到基}\\beta_{1},\\beta_{2},\\beta_{3}\\text{的过渡矩阵为}C=\\begin{pmatrix}1&amp;-1&amp;0\\\\0&amp;1&amp;-1\\\\0&amp;0&amp;1\\end{pmatrix},\\text{则向} \\\\\\text{量}\\gamma=2\\alpha_{1}+3\\,\\alpha_{2}+5\\alpha_{3}\\text{在基}\\beta_{1},\\beta_{2},\\beta_{3}\\text{下的坐标为( }.\\end{aligned}\">\\begin{aligned} \\text{在空间}V \\text{中，由基}\\alpha_{1},\\alpha_{2},\\alpha_{3}\\text{到基}\\beta_{1},\\beta_{2},\\beta_{3}\\text{的过渡矩阵为}C=\\begin{pmatrix}1&amp;-1&amp;0\\\\0&amp;1&amp;-1\\\\0&amp;0&amp;1\\end{pmatrix},\\text{则向} \\\\\\text{量}\\gamma=2\\alpha_{1}+3\\,\\alpha_{2}+5\\alpha_{3}\\text{在基}\\beta_{1},\\beta_{2},\\beta_{3}\\text{下的坐标为( }.\\end{aligned}</div>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/linear-algebra/ch015/q0021_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\begin{pmatrix} 10 \\\\ 8 \\\\ 5 \\end{pmatrix}\">\\begin{pmatrix} 10 \\\\ 8 \\\\ 5 \\end{pmatrix}</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/linear-algebra/ch015/q0021_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\begin{pmatrix} -1 \\\\ -2 \\\\ 5 \\end{pmatrix}\">\\begin{pmatrix} -1 \\\\ -2 \\\\ 5 \\end{pmatrix}</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/linear-algebra/ch015/q0021_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\begin{pmatrix} 2 \\\\ 3 \\\\ -1 \\end{pmatrix}\">\\begin{pmatrix} 2 \\\\ 3 \\\\ -1 \\end{pmatrix}</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/linear-algebra/ch015/q0021_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\begin{pmatrix} 2 \\\\ 3 \\\\ 5 \\end{pmatrix}\">\\begin{pmatrix} 2 \\\\ 3 \\\\ 5 \\end{pmatrix}</span>"
         }
       ],
       "answer": "A",
       "answer_index": 0,
-      "analysis_html": "<img src=\"/static/generated/assets/linear-algebra/ch015/q0021_analysis.png\"/>"
+      "analysis_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{aligned} \\text{由已知，向量} \\gamma \\text{在基} \\alpha_1, \\alpha_2, \\alpha_3 \\text{下的坐标为：} \\quad x=(2,3,5)^T, \\\\ \\text{所以，} \\quad \\gamma \\text{在基} \\beta_1, \\beta_2, \\beta_3 \\text{下的坐标为：} \\quad y=C^{-1}x=\\begin{pmatrix} 1 &amp; -1 &amp; 0 \\\\ 0 &amp; 1 &amp; -1 \\\\ 0 &amp; 0 &amp; 1 \\end{pmatrix}^{-1} \\begin{pmatrix} 2 \\\\ 3 \\\\ 5 \\end{pmatrix}=\\begin{pmatrix} 10 \\\\ 8 \\\\ 5 \\end{pmatrix}, \\end{aligned}\">\\begin{aligned} \\text{由已知，向量} \\gamma \\text{在基} \\alpha_1, \\alpha_2, \\alpha_3 \\text{下的坐标为：} \\quad x=(2,3,5)^T, \\\\ \\text{所以，} \\quad \\gamma \\text{在基} \\beta_1, \\beta_2, \\beta_3 \\text{下的坐标为：} \\quad y=C^{-1}x=\\begin{pmatrix} 1 &amp; -1 &amp; 0 \\\\ 0 &amp; 1 &amp; -1 \\\\ 0 &amp; 0 &amp; 1 \\end{pmatrix}^{-1} \\begin{pmatrix} 2 \\\\ 3 \\\\ 5 \\end{pmatrix}=\\begin{pmatrix} 10 \\\\ 8 \\\\ 5 \\end{pmatrix}, \\end{aligned}</div>"
     },
     {
       "id": "q0022",
       "number": 22,
       "header": "#22-Averge",
       "difficulty": "Averge",
-      "prompt_html": "<img src=\"/static/generated/assets/linear-algebra/ch015/q0022_prompt.png\"/>",
+      "prompt_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{array}{l} \\text {集合} W_{1}=\\{x^{2}+ax+b\\mid a,b\\in R\\},\\ W_{2}=\\{ax^{2}+bx\\mid a,b\\in R\\},\\ W_{3}=\\{ax^{2}+b\\mid a,b\\in R\\},\\\\ W_{4}=\\{ax^{2}+bx+1\\mid a,b\\in R\\} \\end{array} \\text {中对多项式加法和数乘多项式运算是线性空间的有( ).}\">\\begin{array}{l} \\text {集合} W_{1}=\\{x^{2}+ax+b\\mid a,b\\in R\\},\\ W_{2}=\\{ax^{2}+bx\\mid a,b\\in R\\},\\ W_{3}=\\{ax^{2}+b\\mid a,b\\in R\\},\\\\ W_{4}=\\{ax^{2}+bx+1\\mid a,b\\in R\\} \\end{array} \\text {中对多项式加法和数乘多项式运算是线性空间的有( ).}</div>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/linear-algebra/ch015/q0022_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"4 \\text{个}\">4 \\text{个}</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/linear-algebra/ch015/q0022_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"2 \\text{个}\">2 \\text{个}</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/linear-algebra/ch015/q0022_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"3 \\text{个}\">3 \\text{个}</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/linear-algebra/ch015/q0022_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"1 \\text{个}\">1 \\text{个}</span>"
         }
       ],
       "answer": "B",
       "answer_index": 1,
-      "analysis_html": "<img src=\"/static/generated/assets/linear-algebra/ch015/q0022_analysis.png\"/>"
+      "analysis_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{array}{l} \\text {因为集合} W _ {2}, W _ {3} \\text {对加法和数乘运算封闭，构成线性空间，集合} W _ {1}, W _ {4} \\text {对加法运算不封闭，不构成线性空间，因此有2个.} \\end{array}\">\\begin{array}{l} \\text {因为集合} W _ {2}, W _ {3} \\text {对加法和数乘运算封闭，构成线性空间，集合} W _ {1}, W _ {4} \\text {对加法运算不封闭，不构成线性空间，因此有2个.} \\end{array}</div>"
     },
     {
       "id": "q0023",
       "number": 23,
       "header": "#23-Averge",
       "difficulty": "Averge",
-      "prompt_html": "<img src=\"/static/generated/assets/linear-algebra/ch015/q0023_prompt.png\"/>",
+      "prompt_html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{设}V=\\{ax^{2}+bx+1\\,|\\,a,b\\in R\\}\\text{，对多项式加法和数乘多项式运算有} ( \\quad).\">\\text{设}V=\\{ax^{2}+bx+1\\,|\\,a,b\\in R\\}\\text{，对多项式加法和数乘多项式运算有} ( \\quad).</span>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/linear-algebra/ch015/q0023_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\boldsymbol{V} \\text{是二维向量空间}\">\\boldsymbol{V} \\text{是二维向量空间}</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/linear-algebra/ch015/q0023_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\boldsymbol{V} \\text{是三维向量空间}\">\\boldsymbol{V} \\text{是三维向量空间}</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/linear-algebra/ch015/q0023_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\boldsymbol{V} \\text{是一维向量空间}\">\\boldsymbol{V} \\text{是一维向量空间}</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/linear-algebra/ch015/q0023_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\boldsymbol{V} \\text{不是向量空间}\">\\boldsymbol{V} \\text{不是向量空间}</span>"
         }
       ],
       "answer": "D",
       "answer_index": 3,
-      "analysis_html": "<img src=\"/static/generated/assets/linear-algebra/ch015/q0023_analysis.png\"/>"
+      "analysis_html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{可见，集合} V \\text{对线性运算不封闭，不是向量空间.}\">\\text{可见，集合} V \\text{对线性运算不封闭，不是向量空间.}</span>"
     },
     {
       "id": "q0024",
       "number": 24,
       "header": "#24-Averge",
       "difficulty": "Averge",
-      "prompt_html": "<img src=\"/static/generated/assets/linear-algebra/ch015/q0024_prompt.png\"/>",
+      "prompt_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{array}{l} \\text{设 } R[x]_{3} \\text{ 中的两组基 } \\alpha_{1}=1\\text{， } \\alpha_{2}=x-1\\text{， } \\alpha_{3}=x^{2}-2x+1 \\text{ 和 } \\beta_{1}=2\\text{， } \\beta_{2}=x-2\\text{，} \\\\ \\beta_{3}=x^{2}-4x+4\\text{，则 } \\beta_{1}, \\beta_{2}, \\beta_{3} \\text{ 到 } \\alpha_{1}, \\alpha_{2}, \\alpha_{3} \\text{ 的过渡矩阵为( ).} \\end{array}\">\\begin{array}{l} \\text{设 } R[x]_{3} \\text{ 中的两组基 } \\alpha_{1}=1\\text{， } \\alpha_{2}=x-1\\text{， } \\alpha_{3}=x^{2}-2x+1 \\text{ 和 } \\beta_{1}=2\\text{， } \\beta_{2}=x-2\\text{，} \\\\ \\beta_{3}=x^{2}-4x+4\\text{，则 } \\beta_{1}, \\beta_{2}, \\beta_{3} \\text{ 到 } \\alpha_{1}, \\alpha_{2}, \\alpha_{3} \\text{ 的过渡矩阵为( ).} \\end{array}</div>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/linear-algebra/ch015/q0024_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\begin{aligned}\\begin{pmatrix}2 &amp; -1 &amp; 1 \\\\0 &amp; 1 &amp; -2 \\\\0 &amp; 0 &amp; 1\\end{pmatrix}\\end{aligned}\">\\begin{aligned}\\begin{pmatrix}2 &amp; -1 &amp; 1 \\\\0 &amp; 1 &amp; -2 \\\\0 &amp; 0 &amp; 1\\end{pmatrix}\\end{aligned}</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/linear-algebra/ch015/q0024_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\begin{aligned}\\begin{pmatrix}2 &amp; 1 &amp; 1 \\\\0 &amp; 1 &amp; 2 \\\\0 &amp; 0 &amp; 1\\end{pmatrix}\\end{aligned}\">\\begin{aligned}\\begin{pmatrix}2 &amp; 1 &amp; 1 \\\\0 &amp; 1 &amp; 2 \\\\0 &amp; 0 &amp; 1\\end{pmatrix}\\end{aligned}</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/linear-algebra/ch015/q0024_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\begin{aligned}\\begin{pmatrix}2 &amp; -1 &amp; 0 \\\\0 &amp; 1 &amp; -2 \\\\0 &amp; 0 &amp; 1\\end{pmatrix}\\end{aligned}\">\\begin{aligned}\\begin{pmatrix}2 &amp; -1 &amp; 0 \\\\0 &amp; 1 &amp; -2 \\\\0 &amp; 0 &amp; 1\\end{pmatrix}\\end{aligned}</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/linear-algebra/ch015/q0024_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\begin{aligned}\\begin{pmatrix}1/2 &amp; 1/2 &amp; 1/2 \\\\0 &amp; 1 &amp; 2 \\\\0 &amp; 0 &amp; 1\\end{pmatrix}\\end{aligned}\">\\begin{aligned}\\begin{pmatrix}1/2 &amp; 1/2 &amp; 1/2 \\\\0 &amp; 1 &amp; 2 \\\\0 &amp; 0 &amp; 1\\end{pmatrix}\\end{aligned}</span>"
         }
       ],
       "answer": "D",
       "answer_index": 3,
-      "analysis_html": "<img src=\"/static/generated/assets/linear-algebra/ch015/q0024_analysis.png\"/>"
+      "analysis_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{aligned} \\text{由于} (\\beta_1, \\beta_2, \\beta_3) &amp;=(1, x, x^2) \\begin{pmatrix} 2 &amp; -2 &amp; 4 \\\\ 0 &amp; 1 &amp; -4 \\\\ 0 &amp; 0 &amp; 1 \\end{pmatrix} \\\\ (\\alpha_1, \\alpha_2, \\alpha_3) &amp;=(1, x, x^2) \\begin{pmatrix} 1 &amp; -1 &amp; 1 \\\\ 0 &amp; 1 &amp; -2 \\\\ 0 &amp; 0 &amp; 1 \\end{pmatrix} \\\\ &amp;=(\\beta_1, \\beta_2, \\beta_3) \\begin{pmatrix} 2 &amp; -2 &amp; 4 \\\\ 0 &amp; 1 &amp; -4 \\\\ 0 &amp; 0 &amp; 1 \\end{pmatrix}^{-1} \\begin{pmatrix} 1 &amp; -1 &amp; 1 \\\\ 0 &amp; 1 &amp; -2 \\\\ 0 &amp; 0 &amp; 1 \\end{pmatrix} \\\\ &amp;=(\\beta_1, \\beta_2, \\beta_3) \\begin{pmatrix} 1/2 &amp; 1/2 &amp; 1/2 \\\\ 0 &amp; 1 &amp; 2 \\\\ 0 &amp; 0 &amp; 1 \\end{pmatrix} \\\\ \\text{所以} \\beta_1, \\beta_2, \\beta_3 \\text{到} \\alpha_1, \\alpha_2, \\alpha_3 \\text{的过渡矩阵为} C &amp;=\\begin{pmatrix} 1/2 &amp; 1/2 &amp; 1/2 \\\\ 0 &amp; 1 &amp; 2 \\\\ 0 &amp; 0 &amp; 1 \\end{pmatrix}.\\end{aligned}\">\\begin{aligned} \\text{由于} (\\beta_1, \\beta_2, \\beta_3) &amp;=(1, x, x^2) \\begin{pmatrix} 2 &amp; -2 &amp; 4 \\\\ 0 &amp; 1 &amp; -4 \\\\ 0 &amp; 0 &amp; 1 \\end{pmatrix} \\\\ (\\alpha_1, \\alpha_2, \\alpha_3) &amp;=(1, x, x^2) \\begin{pmatrix} 1 &amp; -1 &amp; 1 \\\\ 0 &amp; 1 &amp; -2 \\\\ 0 &amp; 0 &amp; 1 \\end{pmatrix} \\\\ &amp;=(\\beta_1, \\beta_2, \\beta_3) \\begin{pmatrix} 2 &amp; -2 &amp; 4 \\\\ 0 &amp; 1 &amp; -4 \\\\ 0 &amp; 0 &amp; 1 \\end{pmatrix}^{-1} \\begin{pmatrix} 1 &amp; -1 &amp; 1 \\\\ 0 &amp; 1 &amp; -2 \\\\ 0 &amp; 0 &amp; 1 \\end{pmatrix} \\\\ &amp;=(\\beta_1, \\beta_2, \\beta_3) \\begin{pmatrix} 1/2 &amp; 1/2 &amp; 1/2 \\\\ 0 &amp; 1 &amp; 2 \\\\ 0 &amp; 0 &amp; 1 \\end{pmatrix} \\\\ \\text{所以} \\beta_1, \\beta_2, \\beta_3 \\text{到} \\alpha_1, \\alpha_2, \\alpha_3 \\text{的过渡矩阵为} C &amp;=\\begin{pmatrix} 1/2 &amp; 1/2 &amp; 1/2 \\\\ 0 &amp; 1 &amp; 2 \\\\ 0 &amp; 0 &amp; 1 \\end{pmatrix}.\\end{aligned}</div>"
     },
     {
       "id": "q0025",
       "number": 25,
       "header": "#25-Averge",
       "difficulty": "Averge",
-      "prompt_html": "<img src=\"/static/generated/assets/linear-algebra/ch015/q0025_prompt.png\"/>",
+      "prompt_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{aligned} \\text{设} \\alpha_1=\\begin{pmatrix} 1 &amp; 0 \\\\ 0 &amp; 0 \\end{pmatrix}, \\ \\alpha_2=\\begin{pmatrix} 1 &amp; 1 \\\\ 0 &amp; 0 \\end{pmatrix}, \\ \\alpha_3=\\begin{pmatrix} 1 &amp; 1 \\\\ 0 &amp; 1 \\end{pmatrix} \\text{是三维向量空间} V \\text{的一个基，则向量} \\beta=\\begin{pmatrix} 1 &amp; 2 \\\\ 0 &amp; 3 \\end{pmatrix} \\text{在这个基下的坐标为}( \\ \\ \\ ). \\end{aligned}\">\\begin{aligned} \\text{设} \\alpha_1=\\begin{pmatrix} 1 &amp; 0 \\\\ 0 &amp; 0 \\end{pmatrix}, \\ \\alpha_2=\\begin{pmatrix} 1 &amp; 1 \\\\ 0 &amp; 0 \\end{pmatrix}, \\ \\alpha_3=\\begin{pmatrix} 1 &amp; 1 \\\\ 0 &amp; 1 \\end{pmatrix} \\text{是三维向量空间} V \\text{的一个基，则向量} \\beta=\\begin{pmatrix} 1 &amp; 2 \\\\ 0 &amp; 3 \\end{pmatrix} \\text{在这个基下的坐标为}( \\ \\ \\ ). \\end{aligned}</div>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/linear-algebra/ch015/q0025_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\left( - 1 , - 1 , 3 \\right) ^ { T }\">\\left( - 1 , - 1 , 3 \\right) ^ { T }</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/linear-algebra/ch015/q0025_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"( - 1 , 2 , 3 ) ^ { T }\">( - 1 , 2 , 3 ) ^ { T }</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/linear-algebra/ch015/q0025_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"(1, - 2, 3) ^ {T}\">(1, - 2, 3) ^ {T}</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/linear-algebra/ch015/q0025_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"(1, 2, 3)^{T}\">(1, 2, 3)^{T}</span>"
         }
       ],
       "answer": "A",
       "answer_index": 0,
-      "analysis_html": "<img src=\"/static/generated/assets/linear-algebra/ch015/q0025_analysis.png\"/>"
+      "analysis_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{aligned}&amp; \\text{由于} \\beta=\\begin{pmatrix} 1 &amp; 2 \\\\ 0 &amp; 3 \\end{pmatrix}=\\begin{pmatrix} 3 &amp; 3 \\\\ 0 &amp; 3 \\end{pmatrix}-\\begin{pmatrix} 1 &amp; 1 \\\\ 0 &amp; 0 \\end{pmatrix}-\\begin{pmatrix} 1 &amp; 0 \\\\ 0 &amp; 0 \\end{pmatrix}=-\\alpha_1-\\alpha_2+3\\alpha_3 \\\\&amp; \\text{所以，} \\beta \\text{在这个基下的坐标为} (-1,-1,3)^T.\\end{aligned}\">\\begin{aligned}&amp; \\text{由于} \\beta=\\begin{pmatrix} 1 &amp; 2 \\\\ 0 &amp; 3 \\end{pmatrix}=\\begin{pmatrix} 3 &amp; 3 \\\\ 0 &amp; 3 \\end{pmatrix}-\\begin{pmatrix} 1 &amp; 1 \\\\ 0 &amp; 0 \\end{pmatrix}-\\begin{pmatrix} 1 &amp; 0 \\\\ 0 &amp; 0 \\end{pmatrix}=-\\alpha_1-\\alpha_2+3\\alpha_3 \\\\&amp; \\text{所以，} \\beta \\text{在这个基下的坐标为} (-1,-1,3)^T.\\end{aligned}</div>"
     },
     {
       "id": "q0026",
       "number": 26,
       "header": "#26-Averge",
       "difficulty": "Averge",
-      "prompt_html": "<img src=\"/static/generated/assets/linear-algebra/ch015/q0026_prompt.png\"/>",
+      "prompt_html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{设} \\beta \\text{在基} \\alpha_{1} = x^{2},\\ \\alpha_{2} = x^{2} + x,\\ \\alpha_{3} = x^{2} + x + 1 \\text{下的坐标为} (1,2,3)^{T}, \\text{则} \\beta = (\\quad).\">\\text{设} \\beta \\text{在基} \\alpha_{1} = x^{2},\\ \\alpha_{2} = x^{2} + x,\\ \\alpha_{3} = x^{2} + x + 1 \\text{下的坐标为} (1,2,3)^{T}, \\text{则} \\beta = (\\quad).</span>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/linear-algebra/ch015/q0026_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\displaystyle x^{2}+2x+3\">\\displaystyle x^{2}+2x+3</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/linear-algebra/ch015/q0026_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\, 6 x ^ { 2 } + 5 x + 3\">\\, 6 x ^ { 2 } + 5 x + 3</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/linear-algebra/ch015/q0026_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\displaystyle x^{2}+5x+3\">\\displaystyle x^{2}+5x+3</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/linear-algebra/ch015/q0026_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\, 6 x ^ { 2 } + 2 x + 3\">\\, 6 x ^ { 2 } + 2 x + 3</span>"
         }
       ],
       "answer": "B",
       "answer_index": 1,
-      "analysis_html": "<img src=\"/static/generated/assets/linear-algebra/ch015/q0026_analysis.png\"/>"
+      "analysis_html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{由于} \\ \\beta = \\alpha _{1} + 2 \\alpha _{2} + 3 \\alpha _{3} = 6 x ^ { 2 } + 5 x + 3 \\, .\">\\text{由于} \\ \\beta = \\alpha _{1} + 2 \\alpha _{2} + 3 \\alpha _{3} = 6 x ^ { 2 } + 5 x + 3 \\, .</span>"
     },
     {
       "id": "q0027",
       "number": 27,
       "header": "#27-Averge",
       "difficulty": "Averge",
-      "prompt_html": "<img src=\"/static/generated/assets/linear-algebra/ch015/q0027_prompt.png\"/>",
+      "prompt_html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{设}V=\\{ax^{2}+b\\,|\\,a,b\\in R\\}\\text{，对多项式加法和数乘多项式运算有} ( \\quad).\">\\text{设}V=\\{ax^{2}+b\\,|\\,a,b\\in R\\}\\text{，对多项式加法和数乘多项式运算有} ( \\quad).</span>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/linear-algebra/ch015/q0027_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\boldsymbol{V} \\text{不是向量空间}\">\\boldsymbol{V} \\text{不是向量空间}</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/linear-algebra/ch015/q0027_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\boldsymbol{V} \\text{是三维向量空间}\">\\boldsymbol{V} \\text{是三维向量空间}</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/linear-algebra/ch015/q0027_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\boldsymbol{V} \\text{是一维向量空间}\">\\boldsymbol{V} \\text{是一维向量空间}</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/linear-algebra/ch015/q0027_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\boldsymbol{V} \\text{是二维向量空间}\">\\boldsymbol{V} \\text{是二维向量空间}</span>"
         }
       ],
       "answer": "D",
       "answer_index": 3,
-      "analysis_html": "<img src=\"/static/generated/assets/linear-algebra/ch015/q0027_analysis.png\"/>"
+      "analysis_html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{因为} 1, \\, x^2 \\in V, \\, \\text{且线性无关}, \\, V \\text{中任意元素都能由} 1, \\, x^2 \\text{线性表示，所以空间} V \\text{是二维的}.\">\\text{因为} 1, \\, x^2 \\in V, \\, \\text{且线性无关}, \\, V \\text{中任意元素都能由} 1, \\, x^2 \\text{线性表示，所以空间} V \\text{是二维的}.</span>"
     },
     {
       "id": "q0028",
       "number": 28,
       "header": "#28-Averge",
       "difficulty": "Averge",
-      "prompt_html": "<img src=\"/static/generated/assets/linear-algebra/ch015/q0028_prompt.png\"/>",
+      "prompt_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{aligned}2\\text{阶正交矩阵集合}V_{1},\\,2\\text{阶满秩矩阵集合}V_{2},\\,2\\text{阶非奇异矩阵集合}V_{3}\\text{中是线性空间}R^{2\\times 2}\\text{的子空间的有( ).}\\end{aligned}\">\\begin{aligned}2\\text{阶正交矩阵集合}V_{1},\\,2\\text{阶满秩矩阵集合}V_{2},\\,2\\text{阶非奇异矩阵集合}V_{3}\\text{中是线性空间}R^{2\\times 2}\\text{的子空间的有( ).}\\end{aligned}</div>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/linear-algebra/ch015/q0028_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"2 \\text{个}\">2 \\text{个}</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/linear-algebra/ch015/q0028_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"0 \\text{个}\">0 \\text{个}</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/linear-algebra/ch015/q0028_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"3 \\text{个}\">3 \\text{个}</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/linear-algebra/ch015/q0028_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"1 \\text{个}\">1 \\text{个}</span>"
         }
       ],
       "answer": "B",
       "answer_index": 1,
-      "analysis_html": "<img src=\"/static/generated/assets/linear-algebra/ch015/q0028_analysis.png\"/>"
+      "analysis_html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{因为所有集合对加法和数乘运算都不封闭，不构成子空间，因此有}0\\text{个}.\">\\text{因为所有集合对加法和数乘运算都不封闭，不构成子空间，因此有}0\\text{个}.</span>"
     },
     {
       "id": "q0029",
       "number": 29,
       "header": "#29-Averge",
       "difficulty": "Averge",
-      "prompt_html": "<img src=\"/static/generated/assets/linear-algebra/ch015/q0029_prompt.png\"/>",
+      "prompt_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{aligned} \\text{在空间}V\\text{中，由基}\\alpha_{1},\\alpha_{2},\\alpha_{3}\\text{到基}\\beta_{1},\\beta_{2},\\beta_{3}\\text{的过渡矩阵为}C=\\begin{pmatrix}1&amp;-1&amp;0\\\\0&amp;1&amp;-1\\\\0&amp;0&amp;1\\end{pmatrix},\\text{则向量}\\gamma=2\\beta_{1}+3\\beta_{2}+5\\beta_{3}\\text{在基}\\alpha_{1},\\alpha_{2},\\alpha_{3}\\text{下的坐标为( }.\\end{aligned}\">\\begin{aligned} \\text{在空间}V\\text{中，由基}\\alpha_{1},\\alpha_{2},\\alpha_{3}\\text{到基}\\beta_{1},\\beta_{2},\\beta_{3}\\text{的过渡矩阵为}C=\\begin{pmatrix}1&amp;-1&amp;0\\\\0&amp;1&amp;-1\\\\0&amp;0&amp;1\\end{pmatrix},\\text{则向量}\\gamma=2\\beta_{1}+3\\beta_{2}+5\\beta_{3}\\text{在基}\\alpha_{1},\\alpha_{2},\\alpha_{3}\\text{下的坐标为( }.\\end{aligned}</div>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/linear-algebra/ch015/q0029_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\begin{pmatrix} 2 \\\\ -3 \\\\ 1 \\end{pmatrix}\">\\begin{pmatrix} 2 \\\\ -3 \\\\ 1 \\end{pmatrix}</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/linear-algebra/ch015/q0029_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\begin{pmatrix} 2 \\\\ 3 \\\\ 5 \\end{pmatrix}\">\\begin{pmatrix} 2 \\\\ 3 \\\\ 5 \\end{pmatrix}</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/linear-algebra/ch015/q0029_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\begin{pmatrix} -1 \\\\ -2 \\\\ 5 \\end{pmatrix}\">\\begin{pmatrix} -1 \\\\ -2 \\\\ 5 \\end{pmatrix}</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/linear-algebra/ch015/q0029_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\begin{pmatrix} 2 \\\\ 3 \\\\ -1 \\end{pmatrix}\">\\begin{pmatrix} 2 \\\\ 3 \\\\ -1 \\end{pmatrix}</span>"
         }
       ],
       "answer": "C",
       "answer_index": 2,
-      "analysis_html": "<img src=\"/static/generated/assets/linear-algebra/ch015/q0029_analysis.png\"/>"
+      "analysis_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{aligned}&amp;\\text{由已知，向量}\\gamma\\text{在基}\\beta_{1},\\beta_{2},\\beta_{3}\\text{下的坐标为：}y=(2,3,5)^{T},\\\\&amp;\\text{所以，}\\gamma\\text{在基}\\alpha_{1},\\alpha_{2},\\alpha_{3}\\text{下的坐标为}x=Cy=\\begin{pmatrix}1&amp;-1&amp;0\\\\0&amp;1&amp;-1\\\\0&amp;0&amp;1\\end{pmatrix}\\begin{pmatrix}2\\\\3\\\\5\\end{pmatrix}=\\begin{pmatrix}-1\\\\-2\\\\5\\end{pmatrix}.\\end{aligned}\">\\begin{aligned}&amp;\\text{由已知，向量}\\gamma\\text{在基}\\beta_{1},\\beta_{2},\\beta_{3}\\text{下的坐标为：}y=(2,3,5)^{T},\\\\&amp;\\text{所以，}\\gamma\\text{在基}\\alpha_{1},\\alpha_{2},\\alpha_{3}\\text{下的坐标为}x=Cy=\\begin{pmatrix}1&amp;-1&amp;0\\\\0&amp;1&amp;-1\\\\0&amp;0&amp;1\\end{pmatrix}\\begin{pmatrix}2\\\\3\\\\5\\end{pmatrix}=\\begin{pmatrix}-1\\\\-2\\\\5\\end{pmatrix}.\\end{aligned}</div>"
     },
     {
       "id": "q0030",
       "number": 30,
       "header": "#30-Averge",
       "difficulty": "Averge",
-      "prompt_html": "<img src=\"/static/generated/assets/linear-algebra/ch015/q0030_prompt.png\"/>",
+      "prompt_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\text{设} \\beta \\text{在基} \\alpha_{1}=\\begin{pmatrix} 1 &amp; 0 \\\\ 0 &amp; 0 \\end{pmatrix}, \\, \\alpha_{2}=\\begin{pmatrix} 1 &amp; 1 \\\\ 0 &amp; 0 \\end{pmatrix}, \\, \\alpha_{3}=\\begin{pmatrix} 1 &amp; 1 \\\\ 0 &amp; 1 \\end{pmatrix} \\text{下的坐标为} (1,2,3)^{T}, \\text{则} \\beta=( \\quad).\">\\text{设} \\beta \\text{在基} \\alpha_{1}=\\begin{pmatrix} 1 &amp; 0 \\\\ 0 &amp; 0 \\end{pmatrix}, \\, \\alpha_{2}=\\begin{pmatrix} 1 &amp; 1 \\\\ 0 &amp; 0 \\end{pmatrix}, \\, \\alpha_{3}=\\begin{pmatrix} 1 &amp; 1 \\\\ 0 &amp; 1 \\end{pmatrix} \\text{下的坐标为} (1,2,3)^{T}, \\text{则} \\beta=( \\quad).</div>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/linear-algebra/ch015/q0030_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\begin{pmatrix} 6 &amp; 5 \\\\ 0 &amp; 3 \\end{pmatrix}\">\\begin{pmatrix} 6 &amp; 5 \\\\ 0 &amp; 3 \\end{pmatrix}</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/linear-algebra/ch015/q0030_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\begin{pmatrix} 6 &amp; 2 \\\\ 5 &amp; 3 \\end{pmatrix}\">\\begin{pmatrix} 6 &amp; 2 \\\\ 5 &amp; 3 \\end{pmatrix}</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/linear-algebra/ch015/q0030_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\begin{aligned}\\begin{pmatrix} 1 &amp; 2 \\\\ 0 &amp; 3 \\end{pmatrix}\\end{aligned}\">\\begin{aligned}\\begin{pmatrix} 1 &amp; 2 \\\\ 0 &amp; 3 \\end{pmatrix}\\end{aligned}</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/linear-algebra/ch015/q0030_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\begin{aligned}\\begin{pmatrix} 1 &amp; 2 \\\\ 3 &amp; 3 \\end{pmatrix}\\end{aligned}\">\\begin{aligned}\\begin{pmatrix} 1 &amp; 2 \\\\ 3 &amp; 3 \\end{pmatrix}\\end{aligned}</span>"
         }
       ],
       "answer": "A",
       "answer_index": 0,
-      "analysis_html": "<img src=\"/static/generated/assets/linear-algebra/ch015/q0030_analysis.png\"/>"
+      "analysis_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\text{由于}\\ \\beta{=} \\alpha_{1}{+}2\\alpha_{2}{+}3\\alpha_{3}{=} \\left(\\begin{matrix} 6 &amp; 5 \\\\ 0 &amp; 3 \\end{matrix}\\right).\">\\text{由于}\\ \\beta{=} \\alpha_{1}{+}2\\alpha_{2}{+}3\\alpha_{3}{=} \\left(\\begin{matrix} 6 &amp; 5 \\\\ 0 &amp; 3 \\end{matrix}\\right).</div>"
     },
     {
       "id": "q0031",
       "number": 31,
       "header": "#31-Averge",
       "difficulty": "Averge",
-      "prompt_html": "<img src=\"/static/generated/assets/linear-algebra/ch015/q0031_prompt.png\"/>",
+      "prompt_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{array}{l} \\text {设} \\alpha_{1} = x^{2}, \\ \\alpha_{2} = x^{2} + x, \\ \\alpha_{3} = x^{2} + x + 1 \\text {是三维向量空间} R[x]_{3} \\text{的一个基}，\\text{则向量} \\\\ \\beta = x^{2} + 2x - 1 \\text {在这个基下的坐标为( }. \\end{array}\">\\begin{array}{l} \\text {设} \\alpha_{1} = x^{2}, \\ \\alpha_{2} = x^{2} + x, \\ \\alpha_{3} = x^{2} + x + 1 \\text {是三维向量空间} R[x]_{3} \\text{的一个基}，\\text{则向量} \\\\ \\beta = x^{2} + 2x - 1 \\text {在这个基下的坐标为( }. \\end{array}</div>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/linear-algebra/ch015/q0031_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"(1, - 1, 2)^{T}\">(1, - 1, 2)^{T}</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/linear-algebra/ch015/q0031_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\left( - 1 , 3 , - 1 \\right) ^ { T }\">\\left( - 1 , 3 , - 1 \\right) ^ { T }</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/linear-algebra/ch015/q0031_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"( - 1 , 2 , 1 ) ^ { T }\">( - 1 , 2 , 1 ) ^ { T }</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/linear-algebra/ch015/q0031_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"(1, 3, - 1) ^ {T}\">(1, 3, - 1) ^ {T}</span>"
         }
       ],
       "answer": "B",
       "answer_index": 1,
-      "analysis_html": "<img src=\"/static/generated/assets/linear-algebra/ch015/q0031_analysis.png\"/>"
+      "analysis_html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{由于}\\beta=-\\alpha_{1}+3\\alpha_{2}-\\alpha_{3}\\,，\\text{所以，}\\beta\\text{在这个基下的坐标为}(-1,3,-1)^{T}.\">\\text{由于}\\beta=-\\alpha_{1}+3\\alpha_{2}-\\alpha_{3}\\,，\\text{所以，}\\beta\\text{在这个基下的坐标为}(-1,3,-1)^{T}.</span>"
     },
     {
       "id": "q0032",
       "number": 32,
       "header": "#32-Averge",
       "difficulty": "Averge",
-      "prompt_html": "<img src=\"/static/generated/assets/linear-algebra/ch015/q0032_prompt.png\"/>",
+      "prompt_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{array}{l} \\text {在空间} V \\text {中，由基} \\alpha_{1}, \\alpha_{2}, \\alpha_{3} \\text {到基} \\beta_{1}, \\beta_{2}, \\beta_{3} \\text {的过渡矩阵为} C=( \\begin{array}{ccc} 1 &amp; -1 &amp; 0 \\\\ -2 &amp; 3 &amp; 0 \\\\ 0 &amp; 0 &amp; 2 \\end{array}, \\text {则向} \\\\ \\text {量} \\gamma=2 \\alpha_{1}-\\alpha_{2}+4 \\alpha_{3} \\text {在基} \\beta_{1}, \\beta_{2}, \\beta_{3} \\text {下的坐标为( }. \\end{array}\">\\begin{array}{l} \\text {在空间} V \\text {中，由基} \\alpha_{1}, \\alpha_{2}, \\alpha_{3} \\text {到基} \\beta_{1}, \\beta_{2}, \\beta_{3} \\text {的过渡矩阵为} C=( \\begin{array}{ccc} 1 &amp; -1 &amp; 0 \\\\ -2 &amp; 3 &amp; 0 \\\\ 0 &amp; 0 &amp; 2 \\end{array}, \\text {则向} \\\\ \\text {量} \\gamma=2 \\alpha_{1}-\\alpha_{2}+4 \\alpha_{3} \\text {在基} \\beta_{1}, \\beta_{2}, \\beta_{3} \\text {下的坐标为( }. \\end{array}</div>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/linear-algebra/ch015/q0032_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\begin{pmatrix} 7 \\\\ -5 \\\\ 2 \\end{pmatrix}\">\\begin{pmatrix} 7 \\\\ -5 \\\\ 2 \\end{pmatrix}</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/linear-algebra/ch015/q0032_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\begin{pmatrix} 3 \\\\ -7 \\\\ 8 \\end{pmatrix}\">\\begin{pmatrix} 3 \\\\ -7 \\\\ 8 \\end{pmatrix}</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/linear-algebra/ch015/q0032_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\begin{pmatrix} 2 \\\\ -1 \\\\ 4 \\end{pmatrix}\">\\begin{pmatrix} 2 \\\\ -1 \\\\ 4 \\end{pmatrix}</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/linear-algebra/ch015/q0032_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\begin{pmatrix} 5 \\\\ 3 \\\\ 2 \\end{pmatrix}\">\\begin{pmatrix} 5 \\\\ 3 \\\\ 2 \\end{pmatrix}</span>"
         }
       ],
       "answer": "D",
       "answer_index": 3,
-      "analysis_html": "<img src=\"/static/generated/assets/linear-algebra/ch015/q0032_analysis.png\"/>"
+      "analysis_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{aligned}&amp;\\text{由已知，向量}\\gamma\\text{在基}\\alpha_{1},\\alpha_{2},\\alpha_{3}\\text{下的坐标为：} \\quad x=(2,-1,4)^{T},\\\\&amp;\\text{所以，}\\gamma\\text{在基}\\beta_{1},\\beta_{2},\\beta_{3}\\text{下的坐标为：} \\quad y=C^{-1}x=\\left(\\begin{matrix}1&amp;-1&amp;0\\\\-2&amp;3&amp;0\\\\0&amp;0&amp;2\\end{matrix}\\right)^{-1}\\left(\\begin{matrix}2\\\\-1\\\\4\\end{matrix}\\right)=\\left(\\begin{matrix}5\\\\3\\\\2\\end{matrix}\\right),\\end{aligned}\">\\begin{aligned}&amp;\\text{由已知，向量}\\gamma\\text{在基}\\alpha_{1},\\alpha_{2},\\alpha_{3}\\text{下的坐标为：} \\quad x=(2,-1,4)^{T},\\\\&amp;\\text{所以，}\\gamma\\text{在基}\\beta_{1},\\beta_{2},\\beta_{3}\\text{下的坐标为：} \\quad y=C^{-1}x=\\left(\\begin{matrix}1&amp;-1&amp;0\\\\-2&amp;3&amp;0\\\\0&amp;0&amp;2\\end{matrix}\\right)^{-1}\\left(\\begin{matrix}2\\\\-1\\\\4\\end{matrix}\\right)=\\left(\\begin{matrix}5\\\\3\\\\2\\end{matrix}\\right),\\end{aligned}</div>"
     },
     {
       "id": "q0033",
       "number": 33,
       "header": "#33-Averge",
       "difficulty": "Averge",
-      "prompt_html": "<img src=\"/static/generated/assets/linear-algebra/ch015/q0033_prompt.png\"/>",
+      "prompt_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{array}{l} \\text {设} R[x]_{3} \\text {中的两组基} \\alpha_{1}=1,\\alpha_{2}=x+1,\\alpha_{3}=x^{2}+x+1 \\text {和} \\beta_{1}=2,\\beta_{2}=x-1,\\beta_{3}=x^{2}-2x+1, \\\\ \\text {则} \\beta_{1},\\beta_{2},\\beta_{3} \\text {到} \\alpha_{1},\\alpha_{2},\\alpha_{3} \\text {的过渡矩阵为}() . \\end{array}\">\\begin{array}{l} \\text {设} R[x]_{3} \\text {中的两组基} \\alpha_{1}=1,\\alpha_{2}=x+1,\\alpha_{3}=x^{2}+x+1 \\text {和} \\beta_{1}=2,\\beta_{2}=x-1,\\beta_{3}=x^{2}-2x+1, \\\\ \\text {则} \\beta_{1},\\beta_{2},\\beta_{3} \\text {到} \\alpha_{1},\\alpha_{2},\\alpha_{3} \\text {的过渡矩阵为}() . \\end{array}</div>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/linear-algebra/ch015/q0033_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\begin{aligned}\\begin{pmatrix} 1/2 &amp; 1 &amp; 3/2 \\\\ 0 &amp; 1 &amp; 3 \\\\ 0 &amp; 0 &amp; 1 \\end{pmatrix}\\end{aligned}\">\\begin{aligned}\\begin{pmatrix} 1/2 &amp; 1 &amp; 3/2 \\\\ 0 &amp; 1 &amp; 3 \\\\ 0 &amp; 0 &amp; 1 \\end{pmatrix}\\end{aligned}</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/linear-algebra/ch015/q0033_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\begin{aligned}\\begin{pmatrix}2 &amp; -1 &amp; 3 \\\\0 &amp; 1 &amp; -2 \\\\0 &amp; 0 &amp; 1\\end{pmatrix}\\end{aligned}\">\\begin{aligned}\\begin{pmatrix}2 &amp; -1 &amp; 3 \\\\0 &amp; 1 &amp; -2 \\\\0 &amp; 0 &amp; 1\\end{pmatrix}\\end{aligned}</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/linear-algebra/ch015/q0033_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\begin{aligned}\\begin{pmatrix} 1/2 &amp; 1 &amp; 3 \\\\ 0 &amp; 1 &amp; 3 \\\\ 0 &amp; 0 &amp; 1 \\end{pmatrix}\\end{aligned}\">\\begin{aligned}\\begin{pmatrix} 1/2 &amp; 1 &amp; 3 \\\\ 0 &amp; 1 &amp; 3 \\\\ 0 &amp; 0 &amp; 1 \\end{pmatrix}\\end{aligned}</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/linear-algebra/ch015/q0033_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\begin{aligned}\\begin{pmatrix}2 &amp; -2 &amp; 3 \\\\0 &amp; 1 &amp; -3 \\\\0 &amp; 0 &amp; 1\\end{pmatrix}\\end{aligned}\">\\begin{aligned}\\begin{pmatrix}2 &amp; -2 &amp; 3 \\\\0 &amp; 1 &amp; -3 \\\\0 &amp; 0 &amp; 1\\end{pmatrix}\\end{aligned}</span>"
         }
       ],
       "answer": "A",
       "answer_index": 0,
-      "analysis_html": "<img src=\"/static/generated/assets/linear-algebra/ch015/q0033_analysis.png\"/>"
+      "analysis_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{aligned} \\text{由于}\\alpha_1=&amp;1=\\frac{1}{2}\\beta_1=(\\beta_1,\\beta_2,\\beta_3)\\begin{pmatrix}1/2\\\\0\\\\0\\end{pmatrix},\\ \\ \\alpha_2=x+1=\\beta_2+\\beta_1=(\\beta_1,\\beta_2,\\beta_3)\\begin{pmatrix}1\\\\1\\\\0\\end{pmatrix}, \\\\ \\alpha_3=&amp;x^2+x+1=\\beta_3+3\\beta_2+\\frac{3}{2}\\beta_1=(\\beta_1,\\beta_2,\\beta_3)\\begin{pmatrix}3/2\\\\3\\\\1\\end{pmatrix} \\\\ \\text{所以}\\beta_1,\\beta_2,\\beta_3 \\text{到}\\alpha_1,\\alpha_2,\\alpha_3 \\text{的过渡矩阵为}C=\\begin{pmatrix}1/2&amp;1&amp;3/2\\\\0&amp;1&amp;3\\\\0&amp;0&amp;1\\end{pmatrix}.\\end{aligned}\">\\begin{aligned} \\text{由于}\\alpha_1=&amp;1=\\frac{1}{2}\\beta_1=(\\beta_1,\\beta_2,\\beta_3)\\begin{pmatrix}1/2\\\\0\\\\0\\end{pmatrix},\\ \\ \\alpha_2=x+1=\\beta_2+\\beta_1=(\\beta_1,\\beta_2,\\beta_3)\\begin{pmatrix}1\\\\1\\\\0\\end{pmatrix}, \\\\ \\alpha_3=&amp;x^2+x+1=\\beta_3+3\\beta_2+\\frac{3}{2}\\beta_1=(\\beta_1,\\beta_2,\\beta_3)\\begin{pmatrix}3/2\\\\3\\\\1\\end{pmatrix} \\\\ \\text{所以}\\beta_1,\\beta_2,\\beta_3 \\text{到}\\alpha_1,\\alpha_2,\\alpha_3 \\text{的过渡矩阵为}C=\\begin{pmatrix}1/2&amp;1&amp;3/2\\\\0&amp;1&amp;3\\\\0&amp;0&amp;1\\end{pmatrix}.\\end{aligned}</div>"
     },
     {
       "id": "q0034",
       "number": 34,
       "header": "#34-Averge",
       "difficulty": "Averge",
-      "prompt_html": "<img src=\"/static/generated/assets/linear-algebra/ch015/q0034_prompt.png\"/>",
+      "prompt_html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{设}V \\text{是由} \\alpha_{1}=1,\\ \\alpha_{2}=x,\\ \\alpha_{3}=x^{2} \\text{生成的向量空间，则}V \\text{的维数为}( \\ \\ \\ ).\">\\text{设}V \\text{是由} \\alpha_{1}=1,\\ \\alpha_{2}=x,\\ \\alpha_{3}=x^{2} \\text{生成的向量空间，则}V \\text{的维数为}( \\ \\ \\ ).</span>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/linear-algebra/ch015/q0034_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"^ 2\">^ 2</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/linear-algebra/ch015/q0034_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\textbf { 3 }\">\\textbf { 3 }</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/linear-algebra/ch015/q0034_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\mathbf { 1 }\">\\mathbf { 1 }</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/linear-algebra/ch015/q0034_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\mathbf { 0 }\">\\mathbf { 0 }</span>"
         }
       ],
       "answer": "B",
       "answer_index": 1,
-      "analysis_html": "<img src=\"/static/generated/assets/linear-algebra/ch015/q0034_analysis.png\"/>"
+      "analysis_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{array}{l}V\\text{的维数就是向量组}\\alpha_{1},\\alpha_{2},\\alpha_{3}\\text{的秩}，\\text{由于}\\alpha_{1},\\alpha_{2},\\alpha_{3}\\text{线性无关}，\\text{所以}V\\text{是三维的}. \\end{array}\">\\begin{array}{l}V\\text{的维数就是向量组}\\alpha_{1},\\alpha_{2},\\alpha_{3}\\text{的秩}，\\text{由于}\\alpha_{1},\\alpha_{2},\\alpha_{3}\\text{线性无关}，\\text{所以}V\\text{是三维的}. \\end{array}</div>"
     },
     {
       "id": "q0035",
       "number": 35,
       "header": "#35-Averge",
       "difficulty": "Averge",
-      "prompt_html": "<img src=\"/static/generated/assets/linear-algebra/ch015/q0035_prompt.png\"/>",
+      "prompt_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{array}{l} \\text {下列命题中正确的有( ).} \\\\ \\text {(1)}\\ R[x]_{2} \\text {是} R[x]_{5} \\text {的子空间} \\\\ \\text {(2) 设} A \\in R^{m \\times n}, \\text {则} Ax = 0 \\text {的解集合是} R^{n} \\text {的子空间} \\\\ \\text {(3)}\\ n \\text {阶上三角矩阵集合是} R^{n \\times n} \\text {的子空间}. \\end{array}\">\\begin{array}{l} \\text {下列命题中正确的有( ).} \\\\ \\text {(1)}\\ R[x]_{2} \\text {是} R[x]_{5} \\text {的子空间} \\\\ \\text {(2) 设} A \\in R^{m \\times n}, \\text {则} Ax = 0 \\text {的解集合是} R^{n} \\text {的子空间} \\\\ \\text {(3)}\\ n \\text {阶上三角矩阵集合是} R^{n \\times n} \\text {的子空间}. \\end{array}</div>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/linear-algebra/ch015/q0035_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"3 \\text{个}\">3 \\text{个}</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/linear-algebra/ch015/q0035_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"1 \\text{个}\">1 \\text{个}</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/linear-algebra/ch015/q0035_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"0 \\text{个}\">0 \\text{个}</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/linear-algebra/ch015/q0035_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"2 \\text{个}\">2 \\text{个}</span>"
         }
       ],
       "answer": "A",
       "answer_index": 0,
-      "analysis_html": "<img src=\"/static/generated/assets/linear-algebra/ch015/q0035_analysis.png\"/>"
+      "analysis_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{array}{l} \\text {因为} R [ x ] _ { 2 } \\subset R [ x ] _ { 5 } , \\text {且它们都是线性空间,所以} R [ x ] _ { 2 } \\text {是} R [ x ] _ { 5 } \\text {的子空间}. \\\\ \\text {因为} A x = 0 \\text {的解集合是} R ^ { n } \\text {的子集合,且构成空间,所以} A x = 0 \\text {的解集合是} R ^ { n } \\text {的子空间.} \\\\ \\text {因为} n \\text {阶上三角矩阵集合是} R ^ { n \\times n } \\text {的子集合,并对矩阵的加法和数乘运算封闭,所以} n \\text {阶上三角矩阵集合是} R ^ { n \\times n } \\text {的子空间,因此有} 3 \\text {个}. \\end{array}\">\\begin{array}{l} \\text {因为} R [ x ] _ { 2 } \\subset R [ x ] _ { 5 } , \\text {且它们都是线性空间,所以} R [ x ] _ { 2 } \\text {是} R [ x ] _ { 5 } \\text {的子空间}. \\\\ \\text {因为} A x = 0 \\text {的解集合是} R ^ { n } \\text {的子集合,且构成空间,所以} A x = 0 \\text {的解集合是} R ^ { n } \\text {的子空间.} \\\\ \\text {因为} n \\text {阶上三角矩阵集合是} R ^ { n \\times n } \\text {的子集合,并对矩阵的加法和数乘运算封闭,所以} n \\text {阶上三角矩阵集合是} R ^ { n \\times n } \\text {的子空间,因此有} 3 \\text {个}. \\end{array}</div>"
     },
     {
       "id": "q0036",
       "number": 36,
       "header": "#36-Averge",
       "difficulty": "Averge",
-      "prompt_html": "<img src=\"/static/generated/assets/linear-algebra/ch015/q0036_prompt.png\"/>",
+      "prompt_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{array}{l} \\text {设} \\operatorname{R}[x]_{3} \\text {中的两组基} \\alpha_{1} = 1, \\alpha_{2} = x + 1, \\alpha_{3} = x^{2} + x + 1 \\text {和} \\beta_{1} = 2, \\beta_{2} = x - 1, \\beta_{3} = x^{2} - 2x + 1, \\\\ \\text {则} \\alpha_{1}, \\alpha_{2}, \\alpha_{3} \\text {到} \\beta_{1}, \\beta_{2}, \\beta_{3} \\text {的过渡矩阵为( } \\end{array}.\">\\begin{array}{l} \\text {设} \\operatorname{R}[x]_{3} \\text {中的两组基} \\alpha_{1} = 1, \\alpha_{2} = x + 1, \\alpha_{3} = x^{2} + x + 1 \\text {和} \\beta_{1} = 2, \\beta_{2} = x - 1, \\beta_{3} = x^{2} - 2x + 1, \\\\ \\text {则} \\alpha_{1}, \\alpha_{2}, \\alpha_{3} \\text {到} \\beta_{1}, \\beta_{2}, \\beta_{3} \\text {的过渡矩阵为( } \\end{array}.</div>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/linear-algebra/ch015/q0036_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\begin{aligned}\\begin{pmatrix}2 &amp; -2 &amp; 3 \\\\0 &amp; 1 &amp; -3 \\\\0 &amp; 0 &amp; 1\\end{pmatrix}\\end{aligned}\">\\begin{aligned}\\begin{pmatrix}2 &amp; -2 &amp; 3 \\\\0 &amp; 1 &amp; -3 \\\\0 &amp; 0 &amp; 1\\end{pmatrix}\\end{aligned}</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/linear-algebra/ch015/q0036_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\begin{aligned}\\begin{pmatrix} 1/2 &amp; 1 &amp; 3/2 \\\\ 0 &amp; 1 &amp; 3 \\\\ 0 &amp; 0 &amp; 1 \\end{pmatrix}\\end{aligned}\">\\begin{aligned}\\begin{pmatrix} 1/2 &amp; 1 &amp; 3/2 \\\\ 0 &amp; 1 &amp; 3 \\\\ 0 &amp; 0 &amp; 1 \\end{pmatrix}\\end{aligned}</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/linear-algebra/ch015/q0036_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\begin{aligned}\\begin{pmatrix}2 &amp; -1 &amp; 3 \\\\0 &amp; 1 &amp; -2 \\\\0 &amp; 0 &amp; 1\\end{pmatrix}\\end{aligned}\">\\begin{aligned}\\begin{pmatrix}2 &amp; -1 &amp; 3 \\\\0 &amp; 1 &amp; -2 \\\\0 &amp; 0 &amp; 1\\end{pmatrix}\\end{aligned}</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/linear-algebra/ch015/q0036_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\begin{aligned}\\begin{pmatrix}2 &amp; 1 &amp; 1 \\\\0 &amp; 1 &amp; 2 \\\\0 &amp; 0 &amp; 1\\end{pmatrix}\\end{aligned}\">\\begin{aligned}\\begin{pmatrix}2 &amp; 1 &amp; 1 \\\\0 &amp; 1 &amp; 2 \\\\0 &amp; 0 &amp; 1\\end{pmatrix}\\end{aligned}</span>"
         }
       ],
       "answer": "A",
       "answer_index": 0,
-      "analysis_html": "<img src=\"/static/generated/assets/linear-algebra/ch015/q0036_analysis.png\"/>"
+      "analysis_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{aligned} \\text{由于}\\ \\beta_1=&amp;22\\alpha_1=(\\alpha_1,\\alpha_2,\\alpha_3)\\begin{pmatrix}2\\\\0\\\\0\\end{pmatrix},\\ \\ \\beta_2=x-1=\\alpha_2-2\\ \\alpha_1=(\\alpha_1,\\alpha_2,\\alpha_3)\\begin{pmatrix}-2\\\\1\\\\0\\end{pmatrix}, \\\\ \\beta_3=&amp;x^2-2x+1=\\alpha_3-3\\alpha_2+3\\alpha_1=(\\alpha_1,\\alpha_2,\\alpha_3)\\begin{pmatrix}3\\\\-3\\\\1\\end{pmatrix} \\\\ \\text{所以}\\ \\alpha_1,\\alpha_2,\\alpha_3\\text{到}\\beta_1,\\beta_2,\\beta_3\\text{的过渡矩阵为}C=\\begin{pmatrix}2&amp;-2&amp;3\\\\0&amp;1&amp;-3\\\\0&amp;0&amp;1\\end{pmatrix}.\\end{aligned}\">\\begin{aligned} \\text{由于}\\ \\beta_1=&amp;22\\alpha_1=(\\alpha_1,\\alpha_2,\\alpha_3)\\begin{pmatrix}2\\\\0\\\\0\\end{pmatrix},\\ \\ \\beta_2=x-1=\\alpha_2-2\\ \\alpha_1=(\\alpha_1,\\alpha_2,\\alpha_3)\\begin{pmatrix}-2\\\\1\\\\0\\end{pmatrix}, \\\\ \\beta_3=&amp;x^2-2x+1=\\alpha_3-3\\alpha_2+3\\alpha_1=(\\alpha_1,\\alpha_2,\\alpha_3)\\begin{pmatrix}3\\\\-3\\\\1\\end{pmatrix} \\\\ \\text{所以}\\ \\alpha_1,\\alpha_2,\\alpha_3\\text{到}\\beta_1,\\beta_2,\\beta_3\\text{的过渡矩阵为}C=\\begin{pmatrix}2&amp;-2&amp;3\\\\0&amp;1&amp;-3\\\\0&amp;0&amp;1\\end{pmatrix}.\\end{aligned}</div>"
     },
     {
       "id": "q0037",
       "number": 37,
       "header": "#37-Averge",
       "difficulty": "Averge",
-      "prompt_html": "<img src=\"/static/generated/assets/linear-algebra/ch015/q0037_prompt.png\"/>",
+      "prompt_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{array}{l} \\text{设} \\alpha_{1}=\\left( \\begin{matrix} 1 &amp; 1 \\\\ 0 &amp; 0 \\end{matrix} \\right), \\ \\alpha_{2}=\\left( \\begin{matrix} 0 &amp; 1 \\\\ 0 &amp; 1 \\end{matrix} \\right), \\ \\alpha_{3}=\\left( \\begin{matrix} 0 &amp; 0 \\\\ 1 &amp; 1 \\end{matrix} \\right) \\text{是三维向量空间} V\\text{的一个基，则向量} \\\\ \\beta=\\left( \\begin{matrix} 1 &amp; -1 \\\\ 3 &amp; 1 \\end{matrix} \\right) \\text{在这个基下的坐标为( } \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ . \\end{array}\">\\begin{array}{l} \\text{设} \\alpha_{1}=\\left( \\begin{matrix} 1 &amp; 1 \\\\ 0 &amp; 0 \\end{matrix} \\right), \\ \\alpha_{2}=\\left( \\begin{matrix} 0 &amp; 1 \\\\ 0 &amp; 1 \\end{matrix} \\right), \\ \\alpha_{3}=\\left( \\begin{matrix} 0 &amp; 0 \\\\ 1 &amp; 1 \\end{matrix} \\right) \\text{是三维向量空间} V\\text{的一个基，则向量} \\\\ \\beta=\\left( \\begin{matrix} 1 &amp; -1 \\\\ 3 &amp; 1 \\end{matrix} \\right) \\text{在这个基下的坐标为( } \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ . \\end{array}</div>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/linear-algebra/ch015/q0037_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"(1, - 2, 3) ^ {T}\">(1, - 2, 3) ^ {T}</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/linear-algebra/ch015/q0037_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"(1, 2, 3)^{T}\">(1, 2, 3)^{T}</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/linear-algebra/ch015/q0037_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"( - 1 , 2 , 3 ) ^ { T }\">( - 1 , 2 , 3 ) ^ { T }</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/linear-algebra/ch015/q0037_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"( - 1 , - 1 , 3 ) ^ { T }\">( - 1 , - 1 , 3 ) ^ { T }</span>"
         }
       ],
       "answer": "A",
       "answer_index": 0,
-      "analysis_html": "<img src=\"/static/generated/assets/linear-algebra/ch015/q0037_analysis.png\"/>"
+      "analysis_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{aligned} \\text{由于}\\ \\beta=\\begin{pmatrix} 1 &amp; -1 \\\\ 3 &amp; 1 \\end{pmatrix}=\\begin{pmatrix} 1 &amp; 1 \\\\ 0 &amp; 0 \\end{pmatrix}-\\begin{pmatrix} 0 &amp; 2 \\\\ 0 &amp; 2 \\end{pmatrix}+\\begin{pmatrix} 0 &amp; 0 \\\\ 3 &amp; 3 \\end{pmatrix}=\\alpha_1-2\\alpha_2+3\\alpha_3 \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\end{aligned} \\text{所以}，\\beta\\text{在这个基下的坐标为}(1,-2,3)^T .\">\\begin{aligned} \\text{由于}\\ \\beta=\\begin{pmatrix} 1 &amp; -1 \\\\ 3 &amp; 1 \\end{pmatrix}=\\begin{pmatrix} 1 &amp; 1 \\\\ 0 &amp; 0 \\end{pmatrix}-\\begin{pmatrix} 0 &amp; 2 \\\\ 0 &amp; 2 \\end{pmatrix}+\\begin{pmatrix} 0 &amp; 0 \\\\ 3 &amp; 3 \\end{pmatrix}=\\alpha_1-2\\alpha_2+3\\alpha_3 \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\end{aligned} \\text{所以}，\\beta\\text{在这个基下的坐标为}(1,-2,3)^T .</div>"
     },
     {
       "id": "q0038",
       "number": 38,
       "header": "#38-Averge",
       "difficulty": "Averge",
-      "prompt_html": "<img src=\"/static/generated/assets/linear-algebra/ch015/q0038_prompt.png\"/>",
+      "prompt_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\text{已知向量空间}V=\\left\\{\\left( \\begin{matrix} a &amp; b \\\\ a+b &amp; a-b \\end{matrix}\\right)|a,b\\in R\\right\\},\\text{则}V\\text{的维数为}(\\quad).\">\\text{已知向量空间}V=\\left\\{\\left( \\begin{matrix} a &amp; b \\\\ a+b &amp; a-b \\end{matrix}\\right)|a,b\\in R\\right\\},\\text{则}V\\text{的维数为}(\\quad).</div>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/linear-algebra/ch015/q0038_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\textbf { 3 }\">\\textbf { 3 }</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/linear-algebra/ch015/q0038_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\mathbf { 0 }\">\\mathbf { 0 }</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/linear-algebra/ch015/q0038_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"^ 2\">^ 2</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/linear-algebra/ch015/q0038_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\textbf { 1 }\">\\textbf { 1 }</span>"
         }
       ],
       "answer": "C",
       "answer_index": 2,
-      "analysis_html": "<img src=\"/static/generated/assets/linear-algebra/ch015/q0038_analysis.png\"/>"
+      "analysis_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{array}{l} \\text {由于} \\alpha_{1} = \\left( \\begin{matrix} 1 &amp; 0 \\\\ 1 &amp; 1 \\end{matrix} \\right), \\ \\alpha_{2} = \\left( \\begin{matrix} 0 &amp; 1 \\\\ 1 &amp; -1 \\end{matrix} \\right) \\text {线性无关，且} V \\text {中任意向量} \\alpha \\text {都能由} \\alpha_{1}, \\alpha_{2} \\text {线性表示，所以} V \\text {是二维的}. \\end{array}\">\\begin{array}{l} \\text {由于} \\alpha_{1} = \\left( \\begin{matrix} 1 &amp; 0 \\\\ 1 &amp; 1 \\end{matrix} \\right), \\ \\alpha_{2} = \\left( \\begin{matrix} 0 &amp; 1 \\\\ 1 &amp; -1 \\end{matrix} \\right) \\text {线性无关，且} V \\text {中任意向量} \\alpha \\text {都能由} \\alpha_{1}, \\alpha_{2} \\text {线性表示，所以} V \\text {是二维的}. \\end{array}</div>"
     },
     {
       "id": "q0039",
       "number": 39,
       "header": "#39-Averge",
       "difficulty": "Averge",
-      "prompt_html": "<img src=\"/static/generated/assets/linear-algebra/ch015/q0039_prompt.png\"/>",
+      "prompt_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{array}{l} \\text {设} \\alpha_{1} = x^{2}, \\ \\alpha_{2} = x^{2} + x, \\ \\alpha_{3} = x^{2} + x + 1 \\text {是三维向量空间} R[x]_{3} \\text{的一个基}，\\text{则向量} \\\\ \\beta = x^{2} + 2 \\text {在这个基下的坐标为( } \\end{array}.\">\\begin{array}{l} \\text {设} \\alpha_{1} = x^{2}, \\ \\alpha_{2} = x^{2} + x, \\ \\alpha_{3} = x^{2} + x + 1 \\text {是三维向量空间} R[x]_{3} \\text{的一个基}，\\text{则向量} \\\\ \\beta = x^{2} + 2 \\text {在这个基下的坐标为( } \\end{array}.</div>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/linear-algebra/ch015/q0039_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"(1, - 1, 2)^{T}\">(1, - 1, 2)^{T}</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/linear-algebra/ch015/q0039_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"(1, 2, -2)^{T}\">(1, 2, -2)^{T}</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/linear-algebra/ch015/q0039_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"( - 1 , 2 , 1 ) ^ { T }\">( - 1 , 2 , 1 ) ^ { T }</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/linear-algebra/ch015/q0039_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"(1, - 2, 2)^{T}\">(1, - 2, 2)^{T}</span>"
         }
       ],
       "answer": "D",
       "answer_index": 3,
-      "analysis_html": "<img src=\"/static/generated/assets/linear-algebra/ch015/q0039_analysis.png\"/>"
+      "analysis_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{aligned} &amp; \\text{由于}(\\alpha_1,\\alpha_2,\\alpha_3)=(1,x,x^2)\\begin{pmatrix}0&amp;0&amp;1\\\\0&amp;1&amp;1\\\\1&amp;1&amp;1\\end{pmatrix},\\\\ &amp; \\quad\\beta=(1,x,x^2)\\begin{pmatrix}2\\\\0\\\\1\\end{pmatrix}=(\\alpha_1,\\alpha_2,\\alpha_3)\\begin{pmatrix}0&amp;0&amp;1\\\\0&amp;1&amp;1\\\\1&amp;1&amp;1\\end{pmatrix}^{-1}\\begin{pmatrix}2\\\\0\\\\1\\end{pmatrix}=(\\alpha_1,\\alpha_2,\\alpha_3)\\begin{pmatrix}1\\\\-2\\\\2\\end{pmatrix}\\\\ &amp; \\text{所以，}\\beta \\text{在这个基下的坐标为} (1,-2,2)^T. \\end{aligned}\">\\begin{aligned} &amp; \\text{由于}(\\alpha_1,\\alpha_2,\\alpha_3)=(1,x,x^2)\\begin{pmatrix}0&amp;0&amp;1\\\\0&amp;1&amp;1\\\\1&amp;1&amp;1\\end{pmatrix},\\\\ &amp; \\quad\\beta=(1,x,x^2)\\begin{pmatrix}2\\\\0\\\\1\\end{pmatrix}=(\\alpha_1,\\alpha_2,\\alpha_3)\\begin{pmatrix}0&amp;0&amp;1\\\\0&amp;1&amp;1\\\\1&amp;1&amp;1\\end{pmatrix}^{-1}\\begin{pmatrix}2\\\\0\\\\1\\end{pmatrix}=(\\alpha_1,\\alpha_2,\\alpha_3)\\begin{pmatrix}1\\\\-2\\\\2\\end{pmatrix}\\\\ &amp; \\text{所以，}\\beta \\text{在这个基下的坐标为} (1,-2,2)^T. \\end{aligned}</div>"
     },
     {
       "id": "q0040",
       "number": 40,
       "header": "#40-Averge",
       "difficulty": "Averge",
-      "prompt_html": "<img src=\"/static/generated/assets/linear-algebra/ch015/q0040_prompt.png\"/>",
+      "prompt_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{aligned}\\text{设 }V \\text{ 中的两组基 } \\alpha_{1}=\\begin{pmatrix}1&amp;0\\\\0&amp;0\\end{pmatrix},\\ \\alpha_{2}=\\begin{pmatrix}1&amp;1\\\\0&amp;0\\end{pmatrix},\\ \\alpha_{3}=\\begin{pmatrix}1&amp;1\\\\0&amp;1\\end{pmatrix}\\text{ 和 } \\beta_{1}=\\begin{pmatrix}1&amp;0\\\\0&amp;1\\end{pmatrix},\\\\ \\beta_{2}=\\begin{pmatrix}1&amp;-1\\\\0&amp;0\\end{pmatrix},\\ \\beta_{3}=\\begin{pmatrix}0&amp;1\\\\0&amp;-1\\end{pmatrix},\\ \\text{则 } \\beta_{1},\\beta_{2},\\beta_{3}\\text{ 到 } \\alpha_{1},\\alpha_{2},\\alpha_{3}\\text{ 的过渡矩阵为( ).}\\end{aligned}\">\\begin{aligned}\\text{设 }V \\text{ 中的两组基 } \\alpha_{1}=\\begin{pmatrix}1&amp;0\\\\0&amp;0\\end{pmatrix},\\ \\alpha_{2}=\\begin{pmatrix}1&amp;1\\\\0&amp;0\\end{pmatrix},\\ \\alpha_{3}=\\begin{pmatrix}1&amp;1\\\\0&amp;1\\end{pmatrix}\\text{ 和 } \\beta_{1}=\\begin{pmatrix}1&amp;0\\\\0&amp;1\\end{pmatrix},\\\\ \\beta_{2}=\\begin{pmatrix}1&amp;-1\\\\0&amp;0\\end{pmatrix},\\ \\beta_{3}=\\begin{pmatrix}0&amp;1\\\\0&amp;-1\\end{pmatrix},\\ \\text{则 } \\beta_{1},\\beta_{2},\\beta_{3}\\text{ 到 } \\alpha_{1},\\alpha_{2},\\alpha_{3}\\text{ 的过渡矩阵为( ).}\\end{aligned}</div>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/linear-algebra/ch015/q0040_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\begin{aligned}\\frac{1}{2} \\begin{pmatrix} 1 &amp; 1 &amp; 3 \\\\ 1 &amp; 0 &amp; 1 \\\\ 1 &amp; 1 &amp; 1 \\end{pmatrix}\\end{aligned}\">\\begin{aligned}\\frac{1}{2} \\begin{pmatrix} 1 &amp; 1 &amp; 3 \\\\ 1 &amp; 0 &amp; 1 \\\\ 1 &amp; 1 &amp; 1 \\end{pmatrix}\\end{aligned}</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/linear-algebra/ch015/q0040_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\begin{aligned}\\begin{pmatrix} 1 &amp; 2 &amp; 3 \\\\ 1 &amp; 0 &amp; -1 \\\\ 1 &amp; 2 &amp; 1 \\end{pmatrix}\\end{aligned}\">\\begin{aligned}\\begin{pmatrix} 1 &amp; 2 &amp; 3 \\\\ 1 &amp; 0 &amp; -1 \\\\ 1 &amp; 2 &amp; 1 \\end{pmatrix}\\end{aligned}</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/linear-algebra/ch015/q0040_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\frac{1}{2} \\begin{pmatrix} 1 &amp; 2 &amp; 3 \\\\ 1 &amp; 0 &amp; -1 \\\\ 1 &amp; 2 &amp; 1 \\end{pmatrix}\">\\frac{1}{2} \\begin{pmatrix} 1 &amp; 2 &amp; 3 \\\\ 1 &amp; 0 &amp; -1 \\\\ 1 &amp; 2 &amp; 1 \\end{pmatrix}</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/linear-algebra/ch015/q0040_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\begin{aligned}\\begin{pmatrix}1 &amp; 2 &amp; -1 \\\\-1 &amp; -1 &amp; 2 \\\\1 &amp; 0 &amp; -1\\end{pmatrix}\\end{aligned}\">\\begin{aligned}\\begin{pmatrix}1 &amp; 2 &amp; -1 \\\\-1 &amp; -1 &amp; 2 \\\\1 &amp; 0 &amp; -1\\end{pmatrix}\\end{aligned}</span>"
         }
       ],
       "answer": "C",
       "answer_index": 2,
-      "analysis_html": "<img src=\"/static/generated/assets/linear-algebra/ch015/q0040_analysis.png\"/>"
+      "analysis_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{aligned} &amp; \\text{由于} \\alpha_1=\\begin{pmatrix} 1 &amp; 0 \\\\ 0 &amp; 0 \\end{pmatrix}=\\frac{1}{2}(\\beta_1+\\beta_2+\\beta_3)=(\\beta_1,\\beta_2,\\beta_3)\\begin{pmatrix} 1/2 \\\\ 1/2 \\\\ 1/2 \\end{pmatrix}, \\\\ &amp; \\quad \\alpha_2=\\begin{pmatrix} 1 &amp; 1 \\\\ 0 &amp; 0 \\end{pmatrix}=(\\beta_1,\\beta_2,\\beta_3)\\begin{pmatrix} 1 \\\\ 0 \\\\ 1 \\end{pmatrix}, \\ \\ \\alpha_3=\\begin{pmatrix} 1 &amp; 1 \\\\ 0 &amp; 1 \\end{pmatrix}=(\\beta_1,\\beta_2,\\beta_3)\\begin{pmatrix} 3/2 \\\\ -1/2 \\\\ 1/2 \\end{pmatrix}, \\\\ &amp; \\text{所以} \\beta_1,\\beta_2,\\beta_3 \\text{到} \\alpha_1,\\alpha_2,\\alpha_3 \\text{的过渡矩阵为} C=\\frac{1}{2}\\begin{pmatrix} 1 &amp; 2 &amp; 3 \\\\ 1 &amp; 0 &amp; -1 \\\\ 1 &amp; 2 &amp; 1 \\end{pmatrix}.\\end{aligned}\">\\begin{aligned} &amp; \\text{由于} \\alpha_1=\\begin{pmatrix} 1 &amp; 0 \\\\ 0 &amp; 0 \\end{pmatrix}=\\frac{1}{2}(\\beta_1+\\beta_2+\\beta_3)=(\\beta_1,\\beta_2,\\beta_3)\\begin{pmatrix} 1/2 \\\\ 1/2 \\\\ 1/2 \\end{pmatrix}, \\\\ &amp; \\quad \\alpha_2=\\begin{pmatrix} 1 &amp; 1 \\\\ 0 &amp; 0 \\end{pmatrix}=(\\beta_1,\\beta_2,\\beta_3)\\begin{pmatrix} 1 \\\\ 0 \\\\ 1 \\end{pmatrix}, \\ \\ \\alpha_3=\\begin{pmatrix} 1 &amp; 1 \\\\ 0 &amp; 1 \\end{pmatrix}=(\\beta_1,\\beta_2,\\beta_3)\\begin{pmatrix} 3/2 \\\\ -1/2 \\\\ 1/2 \\end{pmatrix}, \\\\ &amp; \\text{所以} \\beta_1,\\beta_2,\\beta_3 \\text{到} \\alpha_1,\\alpha_2,\\alpha_3 \\text{的过渡矩阵为} C=\\frac{1}{2}\\begin{pmatrix} 1 &amp; 2 &amp; 3 \\\\ 1 &amp; 0 &amp; -1 \\\\ 1 &amp; 2 &amp; 1 \\end{pmatrix}.\\end{aligned}</div>"
     }
-  ]
+  ],
+  "format": "latex",
+  "source_md": "xd/线性空间(41题)/线性空间(41题).md"
 }

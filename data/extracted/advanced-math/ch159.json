@@ -13,644 +13,646 @@
       "number": 1,
       "header": "#1-Averge",
       "difficulty": "Averge",
-      "prompt_html": "<img src=\"/static/generated/assets/advanced-math/ch159/q0001_prompt.png\"/>",
+      "prompt_html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\displaystyle y ^ { \\prime \\prime } = e ^ { x } - \\cos x \\text { 的通解为( } \\quad )\">\\displaystyle y ^ { \\prime \\prime } = e ^ { x } - \\cos x \\text { 的通解为( } \\quad )</span>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch159/q0001_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\begin{aligned}y = e^x + \\cos x + C_1 x^2 + C_2 x + C_3\\end{aligned}\">\\begin{aligned}y = e^x + \\cos x + C_1 x^2 + C_2 x + C_3\\end{aligned}</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch159/q0001_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\begin{aligned}y = e^x - \\sin x + C_1 x^2 + C_2 x + C_3\\end{aligned}\">\\begin{aligned}y = e^x - \\sin x + C_1 x^2 + C_2 x + C_3\\end{aligned}</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch159/q0001_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\begin{aligned}y = e^x - \\cos x + C_1 x^2 + C_2 x + C_3\\end{aligned}\">\\begin{aligned}y = e^x - \\cos x + C_1 x^2 + C_2 x + C_3\\end{aligned}</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch159/q0001_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\begin{aligned}y = e^x + \\sin x + C_1 x^2 + C_2 x + C_3\\end{aligned}\">\\begin{aligned}y = e^x + \\sin x + C_1 x^2 + C_2 x + C_3\\end{aligned}</span>"
         }
       ],
       "answer": "D",
       "answer_index": 3,
-      "analysis_html": "<img src=\"/static/generated/assets/advanced-math/ch159/q0001_analysis.png\"/>"
+      "analysis_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{aligned} \\text{积分三次得到：} &amp; \\\\ y&#x27;&#x27;&amp;=e^x-\\sin x+C_0 \\\\ y&#x27;&amp;=e^x+\\cos x+C_0x+C_2 \\\\ y&amp;=e^x+\\sin x+C_1x^2+C_2x+C_3\\;;\\;\\;C_1=\\frac{C_0}{2} \\end{aligned}\">\\begin{aligned} \\text{积分三次得到：} &amp; \\\\ y&#x27;&#x27;&amp;=e^x-\\sin x+C_0 \\\\ y&#x27;&amp;=e^x+\\cos x+C_0x+C_2 \\\\ y&amp;=e^x+\\sin x+C_1x^2+C_2x+C_3\\;;\\;\\;C_1=\\frac{C_0}{2} \\end{aligned}</div>"
     },
     {
       "id": "q0002",
       "number": 2,
       "header": "#2-Averge",
       "difficulty": "Averge",
-      "prompt_html": "<img src=\"/static/generated/assets/advanced-math/ch159/q0002_prompt.png\"/>",
+      "prompt_html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{方程}y&#x27;&#x27; = x + \\sin x \\text{的通解是} [ \\quad ]\">\\text{方程}y&#x27;&#x27; = x + \\sin x \\text{的通解是} [ \\quad ]</span>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch159/q0002_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\frac{x^{3}}{6}-\\sin x+C_{1}x+C_{2}\">\\frac{x^{3}}{6}-\\sin x+C_{1}x+C_{2}</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch159/q0002_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\frac{x^{3}}{6}-2\\sin x+C_{1}x+C_{2}\">\\frac{x^{3}}{6}-2\\sin x+C_{1}x+C_{2}</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch159/q0002_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\frac{x^{3}}{6}-\\cos x+C_{1}x+C_{2}\">\\frac{x^{3}}{6}-\\cos x+C_{1}x+C_{2}</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch159/q0002_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\frac{x^{3}}{6}-2\\cos x+C_{1}x+C_{2}\">\\frac{x^{3}}{6}-2\\cos x+C_{1}x+C_{2}</span>"
         }
       ],
       "answer": "A",
       "answer_index": 0,
-      "analysis_html": "<img src=\"/static/generated/assets/advanced-math/ch159/q0002_analysis.png\"/>"
+      "analysis_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{aligned}y&#x27; &amp; = \\int (x + \\sin x) dx = \\frac{x^2}{2} - \\cos x + C_1, \\text{ 即有} \\\\y &amp; = \\int (\\frac{x^2}{2} - \\cos x + C_1) dx = \\frac{x^3}{6} - \\sin x + C_1 x + C_2\\end{aligned}\">\\begin{aligned}y&#x27; &amp; = \\int (x + \\sin x) dx = \\frac{x^2}{2} - \\cos x + C_1, \\text{ 即有} \\\\y &amp; = \\int (\\frac{x^2}{2} - \\cos x + C_1) dx = \\frac{x^3}{6} - \\sin x + C_1 x + C_2\\end{aligned}</div>"
     },
     {
       "id": "q0003",
       "number": 3,
       "header": "#3-Averge",
       "difficulty": "Averge",
-      "prompt_html": "<img src=\"/static/generated/assets/advanced-math/ch159/q0003_prompt.png\"/>",
+      "prompt_html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{方程} \\frac { d ^ { 2 } y } { d x ^ { 2 } } = x + e ^ { 2 x } \\text{ 的通解是 } [ \\ \\ ]\">\\text{方程} \\frac { d ^ { 2 } y } { d x ^ { 2 } } = x + e ^ { 2 x } \\text{ 的通解是 } [ \\ \\ ]</span>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch159/q0003_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\mathrm{y} = \\frac{1}{12} \\mathrm{x}^{3} + \\frac{1}{8} \\mathrm{e}^{2 \\mathrm{x}} + C_{1} \\mathrm{x} + C_{2}\">\\mathrm{y} = \\frac{1}{12} \\mathrm{x}^{3} + \\frac{1}{8} \\mathrm{e}^{2 \\mathrm{x}} + C_{1} \\mathrm{x} + C_{2}</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch159/q0003_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\begin{aligned}y = \\frac{1}{6} x^3 + \\frac{1}{8} e^{2x} + C_1 x + C_2\\end{aligned}\">\\begin{aligned}y = \\frac{1}{6} x^3 + \\frac{1}{8} e^{2x} + C_1 x + C_2\\end{aligned}</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch159/q0003_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\mathrm{y} = \\frac{1}{6} \\mathrm{x}^{3} + \\frac{1}{4} \\mathrm{e}^{2 \\mathrm{x}} + C_{1} \\mathrm{x} + C_{2}\">\\mathrm{y} = \\frac{1}{6} \\mathrm{x}^{3} + \\frac{1}{4} \\mathrm{e}^{2 \\mathrm{x}} + C_{1} \\mathrm{x} + C_{2}</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch159/q0003_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\mathrm{y} = - \\frac{1}{6} \\mathrm{x}^{3} + \\frac{1}{4} \\mathrm{e}^{2 \\mathrm{x}} + C_{1} \\mathrm{x} + C_{2}\">\\mathrm{y} = - \\frac{1}{6} \\mathrm{x}^{3} + \\frac{1}{4} \\mathrm{e}^{2 \\mathrm{x}} + C_{1} \\mathrm{x} + C_{2}</span>"
         }
       ],
       "answer": "C",
       "answer_index": 2,
-      "analysis_html": "<img src=\"/static/generated/assets/advanced-math/ch159/q0003_analysis.png\"/>"
+      "analysis_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{aligned} \\text{对两端积分一次，得}\\ \\frac{\\mathrm{d}y}{\\mathrm{d}x}=\\frac{1}{2}x^{2}+\\frac{1}{2}e^{2x}+C_{1};\\ \\text{再积分一次，便得方程的通解}\\ y=\\frac{1}{6}x^{3}+\\frac{1}{4}e^{2x}+C_{1}x+\\\\ C_{2},\\ \\text{其中}C_{1}\\text{与}C_{2}\\text{是任意常数}.\\end{aligned}\">\\begin{aligned} \\text{对两端积分一次，得}\\ \\frac{\\mathrm{d}y}{\\mathrm{d}x}=\\frac{1}{2}x^{2}+\\frac{1}{2}e^{2x}+C_{1};\\ \\text{再积分一次，便得方程的通解}\\ y=\\frac{1}{6}x^{3}+\\frac{1}{4}e^{2x}+C_{1}x+\\\\ C_{2},\\ \\text{其中}C_{1}\\text{与}C_{2}\\text{是任意常数}.\\end{aligned}</div>"
     },
     {
       "id": "q0004",
       "number": 4,
       "header": "#4-Averge",
       "difficulty": "Averge",
-      "prompt_html": "<img src=\"/static/generated/assets/advanced-math/ch159/q0004_prompt.png\"/>",
+      "prompt_html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\displaystyle y ^ { \\prime \\prime } = e ^ { 3 x } - \\cos x \\ \\text{的通解为( )}\">\\displaystyle y ^ { \\prime \\prime } = e ^ { 3 x } - \\cos x \\ \\text{的通解为( )}</span>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch159/q0004_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\begin{aligned}y = \\frac{1}{9} e^{3x} + \\sin x + C_1 x + C_2\\end{aligned}\">\\begin{aligned}y = \\frac{1}{9} e^{3x} + \\sin x + C_1 x + C_2\\end{aligned}</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch159/q0004_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\begin{aligned}y = \\frac{1}{9} e^{3x} - \\sin x + C_{1} x + C_{2}\\end{aligned}\">\\begin{aligned}y = \\frac{1}{9} e^{3x} - \\sin x + C_{1} x + C_{2}\\end{aligned}</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch159/q0004_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\begin{aligned}y = \\frac{1}{9} e^{3x} + \\cos x + C_{1} x + C_{2}\\end{aligned}\">\\begin{aligned}y = \\frac{1}{9} e^{3x} + \\cos x + C_{1} x + C_{2}\\end{aligned}</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch159/q0004_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\begin{array}{l} { l } y = \\displaystyle \\frac { 1 } { 9 } e ^ { 3 x } - \\cos x + C _ { 1 } x + C _ { 2 } \\end{array}\">\\begin{array}{l} { l } y = \\displaystyle \\frac { 1 } { 9 } e ^ { 3 x } - \\cos x + C _ { 1 } x + C _ { 2 } \\end{array}</span>"
         }
       ],
       "answer": "C",
       "answer_index": 2,
-      "analysis_html": "<img src=\"/static/generated/assets/advanced-math/ch159/q0004_analysis.png\"/>"
+      "analysis_html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{将方程积分 2 次得到 } \\ y = \\frac { 1 } { 9 } e ^ { 3 x } + \\cos x + C _ { 1 } x + C _ { 2 }\">\\text{将方程积分 2 次得到 } \\ y = \\frac { 1 } { 9 } e ^ { 3 x } + \\cos x + C _ { 1 } x + C _ { 2 }</span>"
     },
     {
       "id": "q0005",
       "number": 5,
       "header": "#5-Averge",
       "difficulty": "Averge",
-      "prompt_html": "<img src=\"/static/generated/assets/advanced-math/ch159/q0005_prompt.png\"/>",
+      "prompt_html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{微分方程} \\frac { d ^ { 2 } y } { d x ^ { 2 } } = \\cos x + \\sin x \\text{ 的通解是} [ \\quad ]\">\\text{微分方程} \\frac { d ^ { 2 } y } { d x ^ { 2 } } = \\cos x + \\sin x \\text{ 的通解是} [ \\quad ]</span>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch159/q0005_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\mathbf { y } = \\cos \\mathbf { x } - \\sin \\mathbf { x } + C _ { 1 }\">\\mathbf { y } = \\cos \\mathbf { x } - \\sin \\mathbf { x } + C _ { 1 }</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch159/q0005_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\mathrm{y} = - \\cos \\mathrm{x} + \\sin \\mathrm{x} + C _ { 1 } \\mathrm{x} + C _ { 2 }\">\\mathrm{y} = - \\cos \\mathrm{x} + \\sin \\mathrm{x} + C _ { 1 } \\mathrm{x} + C _ { 2 }</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch159/q0005_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\mathbf { y } = \\cos \\mathbf { x } + \\sin \\mathbf { x } + C _ { 1 }\">\\mathbf { y } = \\cos \\mathbf { x } + \\sin \\mathbf { x } + C _ { 1 }</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch159/q0005_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\mathrm{y} = - \\cos x - \\sin x + C _ { 1 } x + C _ { 2 }\">\\mathrm{y} = - \\cos x - \\sin x + C _ { 1 } x + C _ { 2 }</span>"
         }
       ],
       "answer": "D",
       "answer_index": 3,
-      "analysis_html": "<img src=\"/static/generated/assets/advanced-math/ch159/q0005_analysis.png\"/>"
+      "analysis_html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{对两端积分一次有} \\ \\frac{dy}{dx} = \\sin x - \\cos x + C_{1}。 \\ \\text{再积分一次有} y = -\\cos x - \\sin x + C_{1}x + C_{2}\">\\text{对两端积分一次有} \\ \\frac{dy}{dx} = \\sin x - \\cos x + C_{1}。 \\ \\text{再积分一次有} y = -\\cos x - \\sin x + C_{1}x + C_{2}</span>"
     },
     {
       "id": "q0006",
       "number": 6,
       "header": "#6-Averge",
       "difficulty": "Averge",
-      "prompt_html": "<img src=\"/static/generated/assets/advanced-math/ch159/q0006_prompt.png\"/>",
+      "prompt_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\text{方程}y^{(n)}=1 \\text{且满足}y|_{x=0}=1 \\text{的解是}[ \\begin{array}{c} \\end{array}\">\\text{方程}y^{(n)}=1 \\text{且满足}y|_{x=0}=1 \\text{的解是}[ \\begin{array}{c} \\end{array}</div>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch159/q0006_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\begin{aligned}y = \\frac{1}{(n-1)!} c_1 x^{n-1} + \\dots + c_{n-1} x + c_n\\end{aligned}\">\\begin{aligned}y = \\frac{1}{(n-1)!} c_1 x^{n-1} + \\dots + c_{n-1} x + c_n\\end{aligned}</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch159/q0006_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\begin{aligned}y = \\frac{1}{(n-1)!} c_1 x^{n-1} + \\dots + c_{n-1} x + 1\\end{aligned}\">\\begin{aligned}y = \\frac{1}{(n-1)!} c_1 x^{n-1} + \\dots + c_{n-1} x + 1\\end{aligned}</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch159/q0006_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\begin{aligned}y = \\frac{1}{n!} x^{n} + \\frac{1}{(n-1)!} \\, c_{1} x^{n-1} + \\cdots + c_{n-1} x + c_{n}\\end{aligned}\">\\begin{aligned}y = \\frac{1}{n!} x^{n} + \\frac{1}{(n-1)!} \\, c_{1} x^{n-1} + \\cdots + c_{n-1} x + c_{n}\\end{aligned}</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch159/q0006_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\begin{aligned}y = \\frac{1}{n!} x^{n} + \\frac{1}{(n-1)!} c_{1} x^{n-1} + \\dots + c_{n-1} x + 1\\end{aligned}\">\\begin{aligned}y = \\frac{1}{n!} x^{n} + \\frac{1}{(n-1)!} c_{1} x^{n-1} + \\dots + c_{n-1} x + 1\\end{aligned}</span>"
         }
       ],
       "answer": "D",
       "answer_index": 3,
-      "analysis_html": "<img src=\"/static/generated/assets/advanced-math/ch159/q0006_analysis.png\"/>"
+      "analysis_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{array}{l} \\text {逐次积分，一共进行} n \\text {次积分，得到通解为} y = \\frac {1}{n !} x ^ {n} + \\frac {1}{(n - 1) !} c _ {1} x ^ {n - 1} + \\dots + c _ {n - 1} x + c _ {n}, \\text {又因为满} \\\\ \\text {是} y \\big | _ {x = 0} = 1, \\text {所以可知} c _ {n} = 1 \\end{array}\">\\begin{array}{l} \\text {逐次积分，一共进行} n \\text {次积分，得到通解为} y = \\frac {1}{n !} x ^ {n} + \\frac {1}{(n - 1) !} c _ {1} x ^ {n - 1} + \\dots + c _ {n - 1} x + c _ {n}, \\text {又因为满} \\\\ \\text {是} y \\big | _ {x = 0} = 1, \\text {所以可知} c _ {n} = 1 \\end{array}</div>"
     },
     {
       "id": "q0007",
       "number": 7,
       "header": "#7-Averge",
       "difficulty": "Averge",
-      "prompt_html": "<img src=\"/static/generated/assets/advanced-math/ch159/q0007_prompt.png\"/>",
+      "prompt_html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\displaystyle y ^ { \\prime \\prime } = x + 1 \\text {的通解为( }\">\\displaystyle y ^ { \\prime \\prime } = x + 1 \\text {的通解为( }</span>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch159/q0007_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\begin{aligned}y = \\frac{1}{6} x^3 + \\frac{1}{2} C_1 x^2 + C_2 x + C_3\\end{aligned}\">\\begin{aligned}y = \\frac{1}{6} x^3 + \\frac{1}{2} C_1 x^2 + C_2 x + C_3\\end{aligned}</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch159/q0007_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\frac{1}{4}x^{2}+\\frac{1}{2}C_{1}x+C_{2}\">\\frac{1}{4}x^{2}+\\frac{1}{2}C_{1}x+C_{2}</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch159/q0007_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{以上选项都不对。}\">\\text{以上选项都不对。}</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch159/q0007_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\begin{aligned}y = \\frac{1}{6} x^3 + \\frac{1}{2} x^2 + C_1 x + C_2\\end{aligned}\">\\begin{aligned}y = \\frac{1}{6} x^3 + \\frac{1}{2} x^2 + C_1 x + C_2\\end{aligned}</span>"
         }
       ],
       "answer": "D",
       "answer_index": 3,
-      "analysis_html": "<img src=\"/static/generated/assets/advanced-math/ch159/q0007_analysis.png\"/>"
+      "analysis_html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{积分两次得到：} \\ y = \\frac { 1 } { 6 } x ^ { 3 } + \\frac { 1 } { 2 } x ^ { 2 } + C _ { 1 } x + C _ { 2 }\">\\text{积分两次得到：} \\ y = \\frac { 1 } { 6 } x ^ { 3 } + \\frac { 1 } { 2 } x ^ { 2 } + C _ { 1 } x + C _ { 2 }</span>"
     },
     {
       "id": "q0008",
       "number": 8,
       "header": "#8-Averge",
       "difficulty": "Averge",
-      "prompt_html": "<img src=\"/static/generated/assets/advanced-math/ch159/q0008_prompt.png\"/>",
+      "prompt_html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{方程}y&#x27;&#x27;&#x27; = \\ln x \\text{的通解为}[]\">\\text{方程}y&#x27;&#x27;&#x27; = \\ln x \\text{的通解为}[]</span>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch159/q0008_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\displaystyle y = \\frac { 1 } { 6 } x ^ { 3 } \\ln x - \\frac { 11 } { 36 } x ^ { 3 } + \\frac { C _ { 1 } } { 2 } x ^ { 2 } + C _ { 2 } x + C _ { 3 } , \\text { 其中 } C _ { 1 } , \\ C _ { 2 } , \\ C _ { 3 } \\text {为任意常数} \\,\">\\displaystyle y = \\frac { 1 } { 6 } x ^ { 3 } \\ln x - \\frac { 11 } { 36 } x ^ { 3 } + \\frac { C _ { 1 } } { 2 } x ^ { 2 } + C _ { 2 } x + C _ { 3 } , \\text { 其中 } C _ { 1 } , \\ C _ { 2 } , \\ C _ { 3 } \\text {为任意常数} \\,</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch159/q0008_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\displaystyle y = \\frac { 1 } { 6 } x ^ { 3 } \\ln x - \\frac { 11 } { 12 } x ^ { 3 } + \\frac { C _ { 1 } } { 2 } x ^ { 2 } + C _ { 2 } x + C _ { 3 } , \\ \\text{其中} \\ C _ { 1 } , \\ \\ C _ { 2 } , \\ \\ C _ { 3 } \\text{为任意常数}\">\\displaystyle y = \\frac { 1 } { 6 } x ^ { 3 } \\ln x - \\frac { 11 } { 12 } x ^ { 3 } + \\frac { C _ { 1 } } { 2 } x ^ { 2 } + C _ { 2 } x + C _ { 3 } , \\ \\text{其中} \\ C _ { 1 } , \\ \\ C _ { 2 } , \\ \\ C _ { 3 } \\text{为任意常数}</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch159/q0008_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\begin{array}{l} { l } y = \\frac { 1 } { 6 } x ^ { 4 } \\ln x - \\frac { 11 } { 36 } x ^ { 4 } + \\frac { C _ { 1 } } { 2 } x ^ { 3 } + C _ { 2 } x ^ { 2 } + C _ { 3 } , \\text { 其中 } C _ { 1 } , \\ C _ { 2 } , \\ C _ { 3 } \\text {为任意常数} \\end{array}\">\\begin{array}{l} { l } y = \\frac { 1 } { 6 } x ^ { 4 } \\ln x - \\frac { 11 } { 36 } x ^ { 4 } + \\frac { C _ { 1 } } { 2 } x ^ { 3 } + C _ { 2 } x ^ { 2 } + C _ { 3 } , \\text { 其中 } C _ { 1 } , \\ C _ { 2 } , \\ C _ { 3 } \\text {为任意常数} \\end{array}</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch159/q0008_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\begin{array}{l} { l } y = \\frac { 1 } { 6 } x ^ { 3 } \\ln x + \\frac { 11 } { 36 } x ^ { 3 } + \\frac { C _ { 1 } } { 2 } x ^ { 3 } + C _ { 2 } x + C _ { 3 } , \\ \\text {其中} \\ C _ { 1 } , \\ C _ { 2 } , \\ C _ { 3 } \\text {为任意常数} \\end{array}\">\\begin{array}{l} { l } y = \\frac { 1 } { 6 } x ^ { 3 } \\ln x + \\frac { 11 } { 36 } x ^ { 3 } + \\frac { C _ { 1 } } { 2 } x ^ { 3 } + C _ { 2 } x + C _ { 3 } , \\ \\text {其中} \\ C _ { 1 } , \\ C _ { 2 } , \\ C _ { 3 } \\text {为任意常数} \\end{array}</span>"
         }
       ],
       "answer": "A",
       "answer_index": 0,
-      "analysis_html": "<img src=\"/static/generated/assets/advanced-math/ch159/q0008_analysis.png\"/>"
+      "analysis_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{aligned}y&#x27;&#x27;=x\\ln x-x+C_{1}\\Rightarrow y&#x27;=x^{2}\\bigg(\\frac{\\ln x}{2}-\\frac{3}{4}\\bigg)+C_{1}x+C_{2}\\Rightarrow y=\\frac{1}{6}x^{3}\\ln x-\\frac{11}{36}x^{3}+\\frac{C_{1}}{2}x^{2}+C_{2}x+C_{3},\\end{aligned}\">\\begin{aligned}y&#x27;&#x27;=x\\ln x-x+C_{1}\\Rightarrow y&#x27;=x^{2}\\bigg(\\frac{\\ln x}{2}-\\frac{3}{4}\\bigg)+C_{1}x+C_{2}\\Rightarrow y=\\frac{1}{6}x^{3}\\ln x-\\frac{11}{36}x^{3}+\\frac{C_{1}}{2}x^{2}+C_{2}x+C_{3},\\end{aligned}</div>"
     },
     {
       "id": "q0009",
       "number": 9,
       "header": "#9-Averge",
       "difficulty": "Averge",
-      "prompt_html": "<img src=\"/static/generated/assets/advanced-math/ch159/q0009_prompt.png\"/>",
+      "prompt_html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{已知} \\ y ^ { \\prime \\prime \\prime } = x e ^ { x } \\text{则} \\ y ^ { \\prime } \\text{的通解是} [ ]\">\\text{已知} \\ y ^ { \\prime \\prime \\prime } = x e ^ { x } \\text{则} \\ y ^ { \\prime } \\text{的通解是} [ ]</span>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch159/q0009_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\begin{array}{l} { l } { { 3 x e ^ { x } - e ^ { x } + C _ { 1 } x ^ { 2 } + C _ { 2 } x } } \\end{array}\">\\begin{array}{l} { l } { { 3 x e ^ { x } - e ^ { x } + C _ { 1 } x ^ { 2 } + C _ { 2 } x } } \\end{array}</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch159/q0009_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\begin{aligned}xe^{x}-2e^{x}+2C_{1}x+C_{2}\\end{aligned}\">\\begin{aligned}xe^{x}-2e^{x}+2C_{1}x+C_{2}\\end{aligned}</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch159/q0009_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\begin{aligned}xe^x-3e^x+C_1x+C_2\\end{aligned}\">\\begin{aligned}xe^x-3e^x+C_1x+C_2\\end{aligned}</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch159/q0009_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\begin{aligned}2xe^x-e^x+2C_1x+C_2\\end{aligned}\">\\begin{aligned}2xe^x-e^x+2C_1x+C_2\\end{aligned}</span>"
         }
       ],
       "answer": "B",
       "answer_index": 1,
-      "analysis_html": "<img src=\"/static/generated/assets/advanced-math/ch159/q0009_analysis.png\"/>"
+      "analysis_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{aligned}y&#x27;&#x27;=\\int xe^{x}dx=xe^{x}-e^{x}+2C_{1},y&#x27;=xe^{x}-2e^{x}+2C_{1}x+C_{2}\\end{aligned}\">\\begin{aligned}y&#x27;&#x27;=\\int xe^{x}dx=xe^{x}-e^{x}+2C_{1},y&#x27;=xe^{x}-2e^{x}+2C_{1}x+C_{2}\\end{aligned}</div>"
     },
     {
       "id": "q0010",
       "number": 10,
       "header": "#10-Averge",
       "difficulty": "Averge",
-      "prompt_html": "<img src=\"/static/generated/assets/advanced-math/ch159/q0010_prompt.png\"/>",
+      "prompt_html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{方程}y&#x27;&#x27; = e^{3x} - \\sin x \\text{的通解为( }\">\\text{方程}y&#x27;&#x27; = e^{3x} - \\sin x \\text{的通解为( }</span>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch159/q0010_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\begin{aligned}y = \\frac{1}{27} e^{3x} + \\sin x + C_{1} x^{2} + C_{2} x + C_{3}\\end{aligned}\">\\begin{aligned}y = \\frac{1}{27} e^{3x} + \\sin x + C_{1} x^{2} + C_{2} x + C_{3}\\end{aligned}</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch159/q0010_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\begin{aligned}y = \\frac{1}{27} e^{3x} - \\cos x + C_{1} x^{2} + C_{2} x + C_{3}\\end{aligned}\">\\begin{aligned}y = \\frac{1}{27} e^{3x} - \\cos x + C_{1} x^{2} + C_{2} x + C_{3}\\end{aligned}</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch159/q0010_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\begin{aligned}y = \\frac{1}{27} e^{3x} - \\sin x + C_{1} x^{2} + C_{2} x + C_{3}\\end{aligned}\">\\begin{aligned}y = \\frac{1}{27} e^{3x} - \\sin x + C_{1} x^{2} + C_{2} x + C_{3}\\end{aligned}</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch159/q0010_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\begin{aligned}y = \\frac{1}{27} e^{3x} + \\cos x + C_{1} x^{2} + C_{2} x + C_{3}\\end{aligned}\">\\begin{aligned}y = \\frac{1}{27} e^{3x} + \\cos x + C_{1} x^{2} + C_{2} x + C_{3}\\end{aligned}</span>"
         }
       ],
       "answer": "B",
       "answer_index": 1,
-      "analysis_html": "<img src=\"/static/generated/assets/advanced-math/ch159/q0010_analysis.png\"/>"
+      "analysis_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{aligned}&amp;\\text{将方程积分三次：} \\\\&amp;y&#x27;&#x27;=\\frac{1}{3}e^{3x}+\\cos x+C_1,\\\\&amp;y&#x27;=\\frac{1}{9}e^{3x}+\\sin x+C_1x+C_2\\\\&amp;\\text{通解：}\\quad y=\\frac{1}{27}e^{3x}-\\cos x+C_1x^2+C_2x+C_3\\end{aligned}\">\\begin{aligned}&amp;\\text{将方程积分三次：} \\\\&amp;y&#x27;&#x27;=\\frac{1}{3}e^{3x}+\\cos x+C_1,\\\\&amp;y&#x27;=\\frac{1}{9}e^{3x}+\\sin x+C_1x+C_2\\\\&amp;\\text{通解：}\\quad y=\\frac{1}{27}e^{3x}-\\cos x+C_1x^2+C_2x+C_3\\end{aligned}</div>"
     },
     {
       "id": "q0011",
       "number": 11,
       "header": "#11-Averge",
       "difficulty": "Averge",
-      "prompt_html": "<img src=\"/static/generated/assets/advanced-math/ch159/q0011_prompt.png\"/>",
+      "prompt_html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"y ^ { \\prime \\prime } = x + \\sin x \\text { 的通解为( )}\">y ^ { \\prime \\prime } = x + \\sin x \\text { 的通解为( )}</span>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch159/q0011_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\begin{array}{l} {l} y = \\displaystyle \\frac { 1 } { 6 } x ^ { 3 } - \\sin x + C _ { 1 } x + C _ { 2 } \\end{array}\">\\begin{array}{l} {l} y = \\displaystyle \\frac { 1 } { 6 } x ^ { 3 } - \\sin x + C _ { 1 } x + C _ { 2 } \\end{array}</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch159/q0011_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\begin{array}{l} {l} y = \\displaystyle \\frac { 1 } { 6 } x ^ { 3 } + \\sin x + C _ { 1 } x + C _ { 2 } \\end{array}\">\\begin{array}{l} {l} y = \\displaystyle \\frac { 1 } { 6 } x ^ { 3 } + \\sin x + C _ { 1 } x + C _ { 2 } \\end{array}</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch159/q0011_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\begin{aligned}y = \\frac{1}{6} x^3 - \\sin x - C_1 x + C_2\\end{aligned}\">\\begin{aligned}y = \\frac{1}{6} x^3 - \\sin x - C_1 x + C_2\\end{aligned}</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch159/q0011_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\displaystyle y = \\frac{1}{6} x^{3} - \\cos x + C_{1} x + C_{2}\">\\displaystyle y = \\frac{1}{6} x^{3} - \\cos x + C_{1} x + C_{2}</span>"
         }
       ],
       "answer": "A",
       "answer_index": 0,
-      "analysis_html": "<img src=\"/static/generated/assets/advanced-math/ch159/q0011_analysis.png\"/>"
+      "analysis_html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{积分两次得到：} \\quad y = \\frac{1}{6} x^{3} - \\sin x + C_{1} x + C_{2}\">\\text{积分两次得到：} \\quad y = \\frac{1}{6} x^{3} - \\sin x + C_{1} x + C_{2}</span>"
     },
     {
       "id": "q0012",
       "number": 12,
       "header": "#12-Averge",
       "difficulty": "Averge",
-      "prompt_html": "<img src=\"/static/generated/assets/advanced-math/ch159/q0012_prompt.png\"/>",
+      "prompt_html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\displaystyle y&#x27;&#x27;&#x27; = e^{2x} + \\cos x \\text{ 的通解为( )}\">\\displaystyle y&#x27;&#x27;&#x27; = e^{2x} + \\cos x \\text{ 的通解为( )}</span>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch159/q0012_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\begin{aligned}y = \\frac{1}{8} e^{2x} + \\sin x + C_{1} x^{2} + C_{2} x + C_{3}\\end{aligned}\">\\begin{aligned}y = \\frac{1}{8} e^{2x} + \\sin x + C_{1} x^{2} + C_{2} x + C_{3}\\end{aligned}</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch159/q0012_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\begin{aligned}y = e^{2x} - \\sin x + C_1 x^2 + C_2 x + C_3\\end{aligned}\">\\begin{aligned}y = e^{2x} - \\sin x + C_1 x^2 + C_2 x + C_3\\end{aligned}</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch159/q0012_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\begin{aligned}y = \\frac{1}{8} e^{2x} - \\sin x + C_{1} x^{2} + C_{2} x + C_{3}\\end{aligned}\">\\begin{aligned}y = \\frac{1}{8} e^{2x} - \\sin x + C_{1} x^{2} + C_{2} x + C_{3}\\end{aligned}</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch159/q0012_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\begin{aligned}y = e^{2x} - \\sin x + C_1 x^2 + C_2 x + C_3\\end{aligned}\">\\begin{aligned}y = e^{2x} - \\sin x + C_1 x^2 + C_2 x + C_3\\end{aligned}</span>"
         }
       ],
       "answer": "D",
       "answer_index": 3,
-      "analysis_html": "<img src=\"/static/generated/assets/advanced-math/ch159/q0012_analysis.png\"/>"
+      "analysis_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{aligned} &amp; \\text{积分三次得到：} \\\\ &amp; y&#x27;&#x27; = \\frac{1}{2}e^{2x} + \\sin x + C_0 \\\\ &amp; y&#x27; = \\frac{1}{4}e^{2x} - \\cos x + C_0x + C_2 \\\\ &amp; y = \\frac{1}{8}e^{2x} - \\sin x + C_1x^2 + C_2x + C_3 \\, ; \\;\\; C_1 = \\frac{C_0}{2} \\end{aligned}\">\\begin{aligned} &amp; \\text{积分三次得到：} \\\\ &amp; y&#x27;&#x27; = \\frac{1}{2}e^{2x} + \\sin x + C_0 \\\\ &amp; y&#x27; = \\frac{1}{4}e^{2x} - \\cos x + C_0x + C_2 \\\\ &amp; y = \\frac{1}{8}e^{2x} - \\sin x + C_1x^2 + C_2x + C_3 \\, ; \\;\\; C_1 = \\frac{C_0}{2} \\end{aligned}</div>"
     },
     {
       "id": "q0013",
       "number": 13,
       "header": "#13-Averge",
       "difficulty": "Averge",
-      "prompt_html": "<img src=\"/static/generated/assets/advanced-math/ch159/q0013_prompt.png\"/>",
+      "prompt_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\text{微分方程}x^{&#x27;&#x27;}=te^{t} \\text{的通解是}[ \\begin{array}{l} {l} \\end{array}\">\\text{微分方程}x^{&#x27;&#x27;}=te^{t} \\text{的通解是}[ \\begin{array}{l} {l} \\end{array}</div>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch159/q0013_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\begin{aligned}x = \\left( t - 3 \\right) e^{t} \\, + \\frac{c_{1}}{2} \\, t^{2} \\, + c_{2} t \\, + c_{3}\\end{aligned}\">\\begin{aligned}x = \\left( t - 3 \\right) e^{t} \\, + \\frac{c_{1}}{2} \\, t^{2} \\, + c_{2} t \\, + c_{3}\\end{aligned}</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch159/q0013_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\begin{array}{l} { r } { x = 3 t e ^ { t } - e ^ { t } + c _ { 1 } t ^ { 2 } + c _ { 2 } t + c _ { 3 } } \\end{array}\">\\begin{array}{l} { r } { x = 3 t e ^ { t } - e ^ { t } + c _ { 1 } t ^ { 2 } + c _ { 2 } t + c _ { 3 } } \\end{array}</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch159/q0013_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\begin{aligned}x = \\left(t\\,+\\,3\\right)e^{t}\\,+\\,c_{1}t^{2}\\,+\\,c_{2}t\\,+\\,c_{3}\\end{aligned}\">\\begin{aligned}x = \\left(t\\,+\\,3\\right)e^{t}\\,+\\,c_{1}t^{2}\\,+\\,c_{2}t\\,+\\,c_{3}\\end{aligned}</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch159/q0013_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\begin{array}{l} { r } { x = t e ^ { t } + c _ { 1 } t ^ { 2 } + c _ { 2 } t + c _ { 3 } } \\end{array}\">\\begin{array}{l} { r } { x = t e ^ { t } + c _ { 1 } t ^ { 2 } + c _ { 2 } t + c _ { 3 } } \\end{array}</span>"
         }
       ],
       "answer": "A",
       "answer_index": 0,
-      "analysis_html": "<img src=\"/static/generated/assets/advanced-math/ch159/q0013_analysis.png\"/>"
+      "analysis_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{aligned}&amp; \\text{对两端积分一次，得}x^{\\prime}=te^{t}-e^{t}+c_{1},\\text{再积分一次，可得}x^{\\prime}=te^{t}-2e^{t}+c_{1}t+c_{2},\\text{第三次积分，}\\\\&amp; \\text{得到原方程的通解是}x=(t-3)e^{t}+\\frac{c_{1}}{2}t^{2}+c_{2}t+c_{3}\\end{aligned}\">\\begin{aligned}&amp; \\text{对两端积分一次，得}x^{\\prime}=te^{t}-e^{t}+c_{1},\\text{再积分一次，可得}x^{\\prime}=te^{t}-2e^{t}+c_{1}t+c_{2},\\text{第三次积分，}\\\\&amp; \\text{得到原方程的通解是}x=(t-3)e^{t}+\\frac{c_{1}}{2}t^{2}+c_{2}t+c_{3}\\end{aligned}</div>"
     },
     {
       "id": "q0014",
       "number": 14,
       "header": "#14-Averge",
       "difficulty": "Averge",
-      "prompt_html": "<img src=\"/static/generated/assets/advanced-math/ch159/q0014_prompt.png\"/>",
+      "prompt_html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{方程}y^{&#x27;&#x27;}=e^{2x}-\\cos x\\text{的通解是}\\left[\\ \\ \\ \\ \\right]\">\\text{方程}y^{&#x27;&#x27;}=e^{2x}-\\cos x\\text{的通解是}\\left[\\ \\ \\ \\ \\right]</span>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch159/q0014_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\begin{aligned}y = \\frac{e^{2x}}{2} - \\sin x + c_{1} x + c_{2}\\end{aligned}\">\\begin{aligned}y = \\frac{e^{2x}}{2} - \\sin x + c_{1} x + c_{2}\\end{aligned}</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch159/q0014_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\begin{aligned}y = \\frac{e^{2x}}{4} + \\sin x + c_{1} x + c_{2}\\end{aligned}\">\\begin{aligned}y = \\frac{e^{2x}}{4} + \\sin x + c_{1} x + c_{2}\\end{aligned}</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch159/q0014_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\begin{aligned}y = \\frac{e^{2x}}{2} + \\cos x - c_{1} x + c_{2}\\end{aligned}\">\\begin{aligned}y = \\frac{e^{2x}}{2} + \\cos x - c_{1} x + c_{2}\\end{aligned}</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch159/q0014_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\begin{aligned}y = \\frac{e^{2x}}{4} + \\cos x + c_{1} x + c_{2}\\end{aligned}\">\\begin{aligned}y = \\frac{e^{2x}}{4} + \\cos x + c_{1} x + c_{2}\\end{aligned}</span>"
         }
       ],
       "answer": "D",
       "answer_index": 3,
-      "analysis_html": "<img src=\"/static/generated/assets/advanced-math/ch159/q0014_analysis.png\"/>"
+      "analysis_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{aligned} &amp; \\text{对两端积分一次，得} \\; y^{\\prime}=\\frac{e^{2x}}{2}-\\sin x+c_{1}, \\text{再积分一次，可得} \\\\ &amp; \\; y=\\frac{e^{2x}}{4}+\\cos x+c_{1}x+c_{2}, \\end{aligned}\">\\begin{aligned} &amp; \\text{对两端积分一次，得} \\; y^{\\prime}=\\frac{e^{2x}}{2}-\\sin x+c_{1}, \\text{再积分一次，可得} \\\\ &amp; \\; y=\\frac{e^{2x}}{4}+\\cos x+c_{1}x+c_{2}, \\end{aligned}</div>"
     },
     {
       "id": "q0015",
       "number": 15,
       "header": "#15-Averge",
       "difficulty": "Averge",
-      "prompt_html": "<img src=\"/static/generated/assets/advanced-math/ch159/q0015_prompt.png\"/>",
+      "prompt_html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{方程}y^{&#x27;&#x27;}=x+1 \\text{的通解是}\\left[ \\ \\ \\ \\right]\">\\text{方程}y^{&#x27;&#x27;}=x+1 \\text{的通解是}\\left[ \\ \\ \\ \\right]</span>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch159/q0015_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\begin{aligned}y = \\frac{x^3}{3} + \\frac{x^2}{2} + c_1 x + c_2\\end{aligned}\">\\begin{aligned}y = \\frac{x^3}{3} + \\frac{x^2}{2} + c_1 x + c_2\\end{aligned}</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch159/q0015_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\begin{aligned}y \\, = \\, \\frac{x^2}{3} \\, + \\, c_1 x \\, + \\, c_2 \\end{aligned}\">\\begin{aligned}y \\, = \\, \\frac{x^2}{3} \\, + \\, c_1 x \\, + \\, c_2 \\end{aligned}</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch159/q0015_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\begin{aligned}y = \\frac{x^3}{6} + \\frac{x^2}{2} + c_1 x + c_2\\end{aligned}\">\\begin{aligned}y = \\frac{x^3}{6} + \\frac{x^2}{2} + c_1 x + c_2\\end{aligned}</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch159/q0015_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\displaystyle y = \\frac { x ^ { 3 } } { 6 } + \\frac { c _ { 1 } x ^ { 2 } } { 2 } + c _ { 2 } x\">\\displaystyle y = \\frac { x ^ { 3 } } { 6 } + \\frac { c _ { 1 } x ^ { 2 } } { 2 } + c _ { 2 } x</span>"
         }
       ],
       "answer": "C",
       "answer_index": 2,
-      "analysis_html": "<img src=\"/static/generated/assets/advanced-math/ch159/q0015_analysis.png\"/>"
+      "analysis_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{aligned} \\text{对两端积分一次，得} \\; y^i=\\frac{x^2}{2}+x+c_1, \\text{ 再积分一次，得到方程的通解为} \\; y=\\frac{x^3}{6}+\\frac{x^2}{2}+c_1x+c_2, \\; c_i \\\\ (i=1,2) \\text{ 为任意常数} \\end{aligned}\">\\begin{aligned} \\text{对两端积分一次，得} \\; y^i=\\frac{x^2}{2}+x+c_1, \\text{ 再积分一次，得到方程的通解为} \\; y=\\frac{x^3}{6}+\\frac{x^2}{2}+c_1x+c_2, \\; c_i \\\\ (i=1,2) \\text{ 为任意常数} \\end{aligned}</div>"
     },
     {
       "id": "q0016",
       "number": 16,
       "header": "#16-Averge",
       "difficulty": "Averge",
-      "prompt_html": "<img src=\"/static/generated/assets/advanced-math/ch159/q0016_prompt.png\"/>",
+      "prompt_html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\displaystyle y ^ { \\prime \\prime } = e ^ { - x } \\text { 的通解为（　）}\">\\displaystyle y ^ { \\prime \\prime } = e ^ { - x } \\text { 的通解为（　）}</span>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch159/q0016_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\begin{aligned}y = - e^{-x} + C_{1} x + C_{2}\\end{aligned}\">\\begin{aligned}y = - e^{-x} + C_{1} x + C_{2}\\end{aligned}</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch159/q0016_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"y = - e ^ { x } + C _ { 1 } x + C _ { 2 }\">y = - e ^ { x } + C _ { 1 } x + C _ { 2 }</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch159/q0016_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\begin{aligned}y = e^{-x} + C_{1} x + C_{2}\\end{aligned}\">\\begin{aligned}y = e^{-x} + C_{1} x + C_{2}\\end{aligned}</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch159/q0016_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\begin{aligned}y = e^{-x} + C_1 x^2 + C_2\\end{aligned}\">\\begin{aligned}y = e^{-x} + C_1 x^2 + C_2\\end{aligned}</span>"
         }
       ],
       "answer": "C",
       "answer_index": 2,
-      "analysis_html": "<img src=\"/static/generated/assets/advanced-math/ch159/q0016_analysis.png\"/>"
+      "analysis_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{array}{l} \\text{积分2次得到} \\\\ \\\\ y&#x27; = -e^{-x} + C_{1} \\\\ \\\\ y = e^{-x} + C_{1}x + C_{2} \\end{array}\">\\begin{array}{l} \\text{积分2次得到} \\\\ \\\\ y&#x27; = -e^{-x} + C_{1} \\\\ \\\\ y = e^{-x} + C_{1}x + C_{2} \\end{array}</div>"
     },
     {
       "id": "q0017",
       "number": 17,
       "header": "#17-Averge",
       "difficulty": "Averge",
-      "prompt_html": "<img src=\"/static/generated/assets/advanced-math/ch159/q0017_prompt.png\"/>",
+      "prompt_html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\displaystyle y&#x27;&#x27; = e^{3x} - \\cos x \\ \\text{的通解为( )}\">\\displaystyle y&#x27;&#x27; = e^{3x} - \\cos x \\ \\text{的通解为( )}</span>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch159/q0017_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\begin{aligned}y = \\frac{1}{27} e^{3x} - \\cos x + C_{1} x^{2} + C_{2} x + C_{3}\\end{aligned}\">\\begin{aligned}y = \\frac{1}{27} e^{3x} - \\cos x + C_{1} x^{2} + C_{2} x + C_{3}\\end{aligned}</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch159/q0017_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\begin{aligned}y = \\frac{1}{27} e^{3x} - \\sin x + C_{1} x^{2} + C_{2} x + C_{3}\\end{aligned}\">\\begin{aligned}y = \\frac{1}{27} e^{3x} - \\sin x + C_{1} x^{2} + C_{2} x + C_{3}\\end{aligned}</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch159/q0017_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\begin{aligned}y = \\frac{1}{27} e^{3x} + \\sin x + C_{1} x^{2} + C_{2} x + C_{3}\\end{aligned}\">\\begin{aligned}y = \\frac{1}{27} e^{3x} + \\sin x + C_{1} x^{2} + C_{2} x + C_{3}\\end{aligned}</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch159/q0017_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\begin{aligned}y = \\frac{1}{27} e^{3x} + \\cos x + C_{1} x^{2} + C_{2} x + C_{3}\\end{aligned}\">\\begin{aligned}y = \\frac{1}{27} e^{3x} + \\cos x + C_{1} x^{2} + C_{2} x + C_{3}\\end{aligned}</span>"
         }
       ],
       "answer": "C",
       "answer_index": 2,
-      "analysis_html": "<img src=\"/static/generated/assets/advanced-math/ch159/q0017_analysis.png\"/>"
+      "analysis_html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{将方程积分3次，} \\ y = \\frac { 1 } { 27 } e ^ { 3 x } + \\sin x + C _ { 1 } x ^ { 2 } + C _ { 2 } x + C _ { 3 }\">\\text{将方程积分3次，} \\ y = \\frac { 1 } { 27 } e ^ { 3 x } + \\sin x + C _ { 1 } x ^ { 2 } + C _ { 2 } x + C _ { 3 }</span>"
     },
     {
       "id": "q0018",
       "number": 18,
       "header": "#18-Averge",
       "difficulty": "Averge",
-      "prompt_html": "<img src=\"/static/generated/assets/advanced-math/ch159/q0018_prompt.png\"/>",
+      "prompt_html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{方程}y&#x27;&#x27; = x \\text{确定的经过} \\mathbb{M}(0,1) \\text{且在此点与直线} y = \\frac{x}{2} + 1 \\text{相切的积分曲线是} [\\square\">\\text{方程}y&#x27;&#x27; = x \\text{确定的经过} \\mathbb{M}(0,1) \\text{且在此点与直线} y = \\frac{x}{2} + 1 \\text{相切的积分曲线是} [\\square</span>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch159/q0018_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\displaystyle y\\!=\\!\\frac{x^{3}}{6}\\!+\\!\\frac{1}{4}x\\!+\\!1\">\\displaystyle y\\!=\\!\\frac{x^{3}}{6}\\!+\\!\\frac{1}{4}x\\!+\\!1</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch159/q0018_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\displaystyle y = \\frac{x^{3}}{6} + \\frac{1}{2}x + 1\">\\displaystyle y = \\frac{x^{3}}{6} + \\frac{1}{2}x + 1</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch159/q0018_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\textcircled{1} y = \\frac { x ^ { 3 } } { 6 } + x + 1\">\\textcircled{1} y = \\frac { x ^ { 3 } } { 6 } + x + 1</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch159/q0018_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\displaystyle y = \\frac{x^{3}}{6} + 2x + 1\">\\displaystyle y = \\frac{x^{3}}{6} + 2x + 1</span>"
         }
       ],
       "answer": "B",
       "answer_index": 1,
-      "analysis_html": "<img src=\"/static/generated/assets/advanced-math/ch159/q0018_analysis.png\"/>"
+      "analysis_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{aligned} &amp; \\text{由题意，所求曲线是方程} y&#x27;&#x27;=x \\text{ 满足初始条件 } y|_{x=0}=1,\\, y&#x27;|_{x=0}=\\frac{1}{2} \\text{ 的特解，由 } y&#x27;&#x27;=x \\text{ 积分得 } y&#x27;=\\frac{1}{2}x^2+C_1, \\text{ 将} \\\\ &amp; \\quad y|_{x=0}=\\frac{1}{2} \\text{ 代入得 } C_1=\\frac{1}{2}, \\text{ 即有 } y&#x27;=\\frac{1}{2}x^2+\\frac{1}{2}, \\text{ 再次积分得 } y=\\frac{x^3}{6}+\\frac{1}{2}x+C_2, \\text{ 再将 } y|_{x=0}=1 \\text{ 代入得} \\\\ &amp; \\quad y=\\frac{x^3}{6}+\\frac{1}{2}x+1 \\end{aligned}\">\\begin{aligned} &amp; \\text{由题意，所求曲线是方程} y&#x27;&#x27;=x \\text{ 满足初始条件 } y|_{x=0}=1,\\, y&#x27;|_{x=0}=\\frac{1}{2} \\text{ 的特解，由 } y&#x27;&#x27;=x \\text{ 积分得 } y&#x27;=\\frac{1}{2}x^2+C_1, \\text{ 将} \\\\ &amp; \\quad y|_{x=0}=\\frac{1}{2} \\text{ 代入得 } C_1=\\frac{1}{2}, \\text{ 即有 } y&#x27;=\\frac{1}{2}x^2+\\frac{1}{2}, \\text{ 再次积分得 } y=\\frac{x^3}{6}+\\frac{1}{2}x+C_2, \\text{ 再将 } y|_{x=0}=1 \\text{ 代入得} \\\\ &amp; \\quad y=\\frac{x^3}{6}+\\frac{1}{2}x+1 \\end{aligned}</div>"
     },
     {
       "id": "q0019",
       "number": 19,
       "header": "#19-Averge",
       "difficulty": "Averge",
-      "prompt_html": "<img src=\"/static/generated/assets/advanced-math/ch159/q0019_prompt.png\"/>",
+      "prompt_html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\ y ^ { \\prime \\prime } = e ^ { x } + \\cos x \\text { 的通解为( } \\ \\ )\">\\ y ^ { \\prime \\prime } = e ^ { x } + \\cos x \\text { 的通解为( } \\ \\ )</span>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch159/q0019_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\begin{aligned}y = e^x - \\sin x + C_1 x^2 + C_2 x + C_3\\end{aligned}\">\\begin{aligned}y = e^x - \\sin x + C_1 x^2 + C_2 x + C_3\\end{aligned}</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch159/q0019_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\begin{aligned}y = e^x + \\sin x + C_1 x^2 + C_2 x + C_3\\end{aligned}\">\\begin{aligned}y = e^x + \\sin x + C_1 x^2 + C_2 x + C_3\\end{aligned}</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch159/q0019_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\begin{aligned}y = e^x - \\cos x + C_1 x^2 + C_2 x + C_3\\end{aligned}\">\\begin{aligned}y = e^x - \\cos x + C_1 x^2 + C_2 x + C_3\\end{aligned}</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch159/q0019_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\begin{aligned}y = e^x + \\cos x + C_1 x^2 + C_2 x + C_3\\end{aligned}\">\\begin{aligned}y = e^x + \\cos x + C_1 x^2 + C_2 x + C_3\\end{aligned}</span>"
         }
       ],
       "answer": "A",
       "answer_index": 0,
-      "analysis_html": "<img src=\"/static/generated/assets/advanced-math/ch159/q0019_analysis.png\"/>"
+      "analysis_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{aligned} &amp; \\text{积分三次得到：} \\\\ &amp; y&#x27;&#x27;=e^{x}+\\sin x+C_{0} \\\\ &amp; y&#x27;=e^{x}-\\cos x+C_{0}x+C_{2} \\\\ &amp; y=e^{x}-\\sin x+C_{1}x^{2}+C_{2}x+C_{3};\\;\\;C_{1}=\\frac{C_{0}}{2} \\end{aligned}\">\\begin{aligned} &amp; \\text{积分三次得到：} \\\\ &amp; y&#x27;&#x27;=e^{x}+\\sin x+C_{0} \\\\ &amp; y&#x27;=e^{x}-\\cos x+C_{0}x+C_{2} \\\\ &amp; y=e^{x}-\\sin x+C_{1}x^{2}+C_{2}x+C_{3};\\;\\;C_{1}=\\frac{C_{0}}{2} \\end{aligned}</div>"
     },
     {
       "id": "q0020",
       "number": 20,
       "header": "#20-Averge",
       "difficulty": "Averge",
-      "prompt_html": "<img src=\"/static/generated/assets/advanced-math/ch159/q0020_prompt.png\"/>",
+      "prompt_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\text{方程} \\begin{cases} \\dfrac{d^{2}y}{dx^{2}} = \\dfrac{1}{\\cos^{2}x} \\\\ y|_{x=0} = 1, y^{\\prime}|_{x=0} = 0 \\end{cases} \\text{的特解是}\\ [ \\begin{array}{c} \\end{array}\">\\text{方程} \\begin{cases} \\dfrac{d^{2}y}{dx^{2}} = \\dfrac{1}{\\cos^{2}x} \\\\ y|_{x=0} = 1, y^{\\prime}|_{x=0} = 0 \\end{cases} \\text{的特解是}\\ [ \\begin{array}{c} \\end{array}</div>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch159/q0020_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"y = - \\ln ( \\left| 1 + \\sin x \\right| ) + 1\">y = - \\ln ( \\left| 1 + \\sin x \\right| ) + 1</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch159/q0020_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"y = \\ln ( \\left| 1 + \\sin x \\right| ) + 1\">y = \\ln ( \\left| 1 + \\sin x \\right| ) + 1</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch159/q0020_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\displaystyle y = - \\ln | \\cos x | + 1\">\\displaystyle y = - \\ln | \\cos x | + 1</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch159/q0020_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"y = \\ln | \\cos x | + 1\">y = \\ln | \\cos x | + 1</span>"
         }
       ],
       "answer": "C",
       "answer_index": 2,
-      "analysis_html": "<img src=\"/static/generated/assets/advanced-math/ch159/q0020_analysis.png\"/>"
+      "analysis_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{aligned}y&amp;=\\int \\left( \\int \\frac{1}{\\cos^{2}x}dx \\right) dx + C_{1}x + C_{2}=\\int \\tan x dx + C_{1}x + C_{2}=-\\ln \\left| \\cos x \\right| + C_{1}x + C_{2} \\text{以初始条件代入得}\\\\C_{1}&amp;=0,\\ C_{2}=1,\\ \\text{故得特解}y=-\\ln \\left| \\cos x \\right| +1.\\end{aligned}\">\\begin{aligned}y&amp;=\\int \\left( \\int \\frac{1}{\\cos^{2}x}dx \\right) dx + C_{1}x + C_{2}=\\int \\tan x dx + C_{1}x + C_{2}=-\\ln \\left| \\cos x \\right| + C_{1}x + C_{2} \\text{以初始条件代入得}\\\\C_{1}&amp;=0,\\ C_{2}=1,\\ \\text{故得特解}y=-\\ln \\left| \\cos x \\right| +1.\\end{aligned}</div>"
     },
     {
       "id": "q0021",
       "number": 21,
       "header": "#21-Averge",
       "difficulty": "Averge",
-      "prompt_html": "<img src=\"/static/generated/assets/advanced-math/ch159/q0021_prompt.png\"/>",
+      "prompt_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{array}{l} { l } y ^ { ( n ) } = e ^ { a x } + x ^ { b } ( a \\neq 0 \\; , \\; \\; b \\neq 0 ) \\; \\text {的通解为( } \\; ) \\end{array}\">\\begin{array}{l} { l } y ^ { ( n ) } = e ^ { a x } + x ^ { b } ( a \\neq 0 \\; , \\; \\; b \\neq 0 ) \\; \\text {的通解为( } \\; ) \\end{array}</div>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch159/q0021_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\begin{aligned}y = \\frac{1}{a^{n}} e^{\\alpha x} + [(b+n)(b+n-1)\\cdots b]^{-1} x^{b+n} + C_{1} x^{n-1} + C_{2} x^{n-2} + \\cdots + C_{n-1} x + C_{n}\\end{aligned}\">\\begin{aligned}y = \\frac{1}{a^{n}} e^{\\alpha x} + [(b+n)(b+n-1)\\cdots b]^{-1} x^{b+n} + C_{1} x^{n-1} + C_{2} x^{n-2} + \\cdots + C_{n-1} x + C_{n}\\end{aligned}</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch159/q0021_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\begin{aligned}y = \\frac{1}{a^{n}} e^{\\alpha x} + [(b+n)(b+n-1)\\cdots (b+1)]^{-1} x^{b+n} + C_{1} x^{n-1} + C_{2} x^{n-2} + \\cdots + C_{n-1} x + C_{n}\\end{aligned}\">\\begin{aligned}y = \\frac{1}{a^{n}} e^{\\alpha x} + [(b+n)(b+n-1)\\cdots (b+1)]^{-1} x^{b+n} + C_{1} x^{n-1} + C_{2} x^{n-2} + \\cdots + C_{n-1} x + C_{n}\\end{aligned}</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch159/q0021_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\begin{aligned}y = \\frac{1}{a^{n}} e^{\\alpha x} + [(b+n)(b+n-1) \\cdots b] x^{b+n} + C_{1} x^{n-1} + C_{2} x^{n-2} + \\cdots + C_{n-1} x + C_{n}\\end{aligned}\">\\begin{aligned}y = \\frac{1}{a^{n}} e^{\\alpha x} + [(b+n)(b+n-1) \\cdots b] x^{b+n} + C_{1} x^{n-1} + C_{2} x^{n-2} + \\cdots + C_{n-1} x + C_{n}\\end{aligned}</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch159/q0021_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\begin{aligned}y = \\frac{1}{a^{n}} e^{\\alpha x} + [(b+n)(b+n-1) \\cdots (b+1)] x^{b+n} + C_{1} x^{n-1} + C_{2} x^{n-2} + \\cdots + C_{n-1} x + C_{n}\\end{aligned}\">\\begin{aligned}y = \\frac{1}{a^{n}} e^{\\alpha x} + [(b+n)(b+n-1) \\cdots (b+1)] x^{b+n} + C_{1} x^{n-1} + C_{2} x^{n-2} + \\cdots + C_{n-1} x + C_{n}\\end{aligned}</span>"
         }
       ],
       "answer": "B",
       "answer_index": 1,
-      "analysis_html": "<img src=\"/static/generated/assets/advanced-math/ch159/q0021_analysis.png\"/>"
+      "analysis_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{aligned}&amp;\\int e^{\\alpha x}dx=\\frac{1}{a}e^{\\alpha x}+C\\,,\\ \\int x^t dx=\\frac{1}{t+1}x^{t+1}+C\\,;\\ \\text{故方程的通解为}\\\\&amp;y=\\frac{1}{a^n}e^{\\alpha x}+[(b+n)(b+n-1)\\cdots (b+1)]^{-1}x^{b+n}+C_1x^{n-1}+C_2x^{n-2}+\\cdots+C_{n-1}x+C_n\\end{aligned}\">\\begin{aligned}&amp;\\int e^{\\alpha x}dx=\\frac{1}{a}e^{\\alpha x}+C\\,,\\ \\int x^t dx=\\frac{1}{t+1}x^{t+1}+C\\,;\\ \\text{故方程的通解为}\\\\&amp;y=\\frac{1}{a^n}e^{\\alpha x}+[(b+n)(b+n-1)\\cdots (b+1)]^{-1}x^{b+n}+C_1x^{n-1}+C_2x^{n-2}+\\cdots+C_{n-1}x+C_n\\end{aligned}</div>"
     },
     {
       "id": "q0022",
       "number": 22,
       "header": "#22-Averge",
       "difficulty": "Averge",
-      "prompt_html": "<img src=\"/static/generated/assets/advanced-math/ch159/q0022_prompt.png\"/>",
+      "prompt_html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\displaystyle y ^ { \\prime \\prime \\prime } = e ^ { 2 x } - \\cos x \\text { 的通解为( } \\quad )\">\\displaystyle y ^ { \\prime \\prime \\prime } = e ^ { 2 x } - \\cos x \\text { 的通解为( } \\quad )</span>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch159/q0022_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\begin{aligned}y = \\frac{1}{8} e^{2x} - \\sin x + C_{1} x^{2} + C_{2} x + C_{3}\\end{aligned}\">\\begin{aligned}y = \\frac{1}{8} e^{2x} - \\sin x + C_{1} x^{2} + C_{2} x + C_{3}\\end{aligned}</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch159/q0022_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\begin{aligned}y = e^{2x} - \\sin x + C_1 x^2 + C_2 x + C_3\\end{aligned}\">\\begin{aligned}y = e^{2x} - \\sin x + C_1 x^2 + C_2 x + C_3\\end{aligned}</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch159/q0022_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\begin{aligned}y = \\frac{1}{8} e^{2x} + \\sin x + C_{1} x^{2} + C_{2} x + C_{3}\\end{aligned}\">\\begin{aligned}y = \\frac{1}{8} e^{2x} + \\sin x + C_{1} x^{2} + C_{2} x + C_{3}\\end{aligned}</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch159/q0022_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\begin{aligned}y = e^{2x} + \\sin x + C_1 x^2 + C_2 x + C_3\\end{aligned}\">\\begin{aligned}y = e^{2x} + \\sin x + C_1 x^2 + C_2 x + C_3\\end{aligned}</span>"
         }
       ],
       "answer": "C",
       "answer_index": 2,
-      "analysis_html": "<img src=\"/static/generated/assets/advanced-math/ch159/q0022_analysis.png\"/>"
+      "analysis_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{aligned} \\text{积分三次得到：} &amp; \\\\ y&#x27;&#x27;&amp;=\\frac{1}{2}e^{2x}-\\sin x+C_0 \\\\ y&#x27;&amp;=\\frac{1}{4}e^{2x}+\\cos x+C_0x+C_2 \\\\ y&amp;=\\frac{1}{8}e^{2x}+\\sin x+C_1x^2+C_2x+C_3; \\;\\; C_1=\\frac{C_0}{2} \\end{aligned}\">\\begin{aligned} \\text{积分三次得到：} &amp; \\\\ y&#x27;&#x27;&amp;=\\frac{1}{2}e^{2x}-\\sin x+C_0 \\\\ y&#x27;&amp;=\\frac{1}{4}e^{2x}+\\cos x+C_0x+C_2 \\\\ y&amp;=\\frac{1}{8}e^{2x}+\\sin x+C_1x^2+C_2x+C_3; \\;\\; C_1=\\frac{C_0}{2} \\end{aligned}</div>"
     },
     {
       "id": "q0023",
       "number": 23,
       "header": "#23-Averge",
       "difficulty": "Averge",
-      "prompt_html": "<img src=\"/static/generated/assets/advanced-math/ch159/q0023_prompt.png\"/>",
+      "prompt_html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{方程} \\frac { d ^ { 2 } y } { d x ^ { 2 } } = x ^ { 2 } + \\sin x \\text{ 的通解是 } [ \\ \\ ]\">\\text{方程} \\frac { d ^ { 2 } y } { d x ^ { 2 } } = x ^ { 2 } + \\sin x \\text{ 的通解是 } [ \\ \\ ]</span>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch159/q0023_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\mathrm{y} = \\frac{1}{6} \\mathrm{x}^{4} + \\sin \\mathrm{x} - C_{1} \\mathrm{x} + C_{2}.\">\\mathrm{y} = \\frac{1}{6} \\mathrm{x}^{4} + \\sin \\mathrm{x} - C_{1} \\mathrm{x} + C_{2}.</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch159/q0023_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\begin{aligned}y = \\frac{1}{12} x^4 - \\sin x + C_1 x + C_2\\end{aligned}\">\\begin{aligned}y = \\frac{1}{12} x^4 - \\sin x + C_1 x + C_2\\end{aligned}</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch159/q0023_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\mathrm{y} = \\frac{1}{6} \\mathrm{x}^{4} - \\sin \\mathrm{x} + C_{1} \\mathrm{x} + C_{2}\">\\mathrm{y} = \\frac{1}{6} \\mathrm{x}^{4} - \\sin \\mathrm{x} + C_{1} \\mathrm{x} + C_{2}</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch159/q0023_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\mathrm{y} = \\frac{1}{12} \\mathrm{x}^{4} + \\sin \\mathrm{x} + C_{1} \\mathrm{x} + C_{2}\">\\mathrm{y} = \\frac{1}{12} \\mathrm{x}^{4} + \\sin \\mathrm{x} + C_{1} \\mathrm{x} + C_{2}</span>"
         }
       ],
       "answer": "B",
       "answer_index": 1,
-      "analysis_html": "<img src=\"/static/generated/assets/advanced-math/ch159/q0023_analysis.png\"/>"
+      "analysis_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{array}{l} \\text {对两端积分一次，得} \\frac{dy}{dx} = \\frac{1}{3} x^{2} - \\cos x + C_{1}; \\text {再积分一次，便得方程的通解} \\quad y = \\frac{1}{12} x^{4} - \\sin x + C_{1} x + \\\\ C_{2}, \\text {其中} C_{1} \\text {与} C_{2} \\text {是任意常数}. \\end{array}\">\\begin{array}{l} \\text {对两端积分一次，得} \\frac{dy}{dx} = \\frac{1}{3} x^{2} - \\cos x + C_{1}; \\text {再积分一次，便得方程的通解} \\quad y = \\frac{1}{12} x^{4} - \\sin x + C_{1} x + \\\\ C_{2}, \\text {其中} C_{1} \\text {与} C_{2} \\text {是任意常数}. \\end{array}</div>"
     }
-  ]
+  ],
+  "format": "latex",
+  "source_md": "gs/10.5.1_y”=f(x)型(23题)/10.5.1_y”=f(x)型(23题).md"
 }

@@ -13,336 +13,338 @@
       "number": 1,
       "header": "#1-Easy",
       "difficulty": "Easy",
-      "prompt_html": "<img src=\"/static/generated/assets/probability/ch132/q0001_prompt.png\"/>",
+      "prompt_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{aligned}\\text{一批产品有合格品也有废品，从中有放回地抽取(将产品取出一件观察后放回)三件产品，以}A_{i}(i=1,2,3)\\text{表示第}i\\text{次抽到废品，则下列说法不正确的是()}.\\end{aligned}\">\\begin{aligned}\\text{一批产品有合格品也有废品，从中有放回地抽取(将产品取出一件观察后放回)三件产品，以}A_{i}(i=1,2,3)\\text{表示第}i\\text{次抽到废品，则下列说法不正确的是()}.\\end{aligned}</div>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/probability/ch132/q0001_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\,A_{1} \\cup A_{2} \\text{表示第一次和第二次抽取至多抽到一件废品}\">\\,A_{1} \\cup A_{2} \\text{表示第一次和第二次抽取至多抽到一件废品}</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/probability/ch132/q0001_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\overline{A_{1} \\cap A_{2}} \\cap \\overline{A_{3}} \\text{表示只有第一次抽到废品}\">\\overline{A_{1} \\cap A_{2}} \\cap \\overline{A_{3}} \\text{表示只有第一次抽到废品}</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/probability/ch132/q0001_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\overline{A_{1}A_{2}A_{3}} \\text{表示至少有一次抽到废品}\">\\overline{A_{1}A_{2}A_{3}} \\text{表示至少有一次抽到废品}</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/probability/ch132/q0001_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\overline{A_{1}}A_{2}A_{3} \\cup A_{1}\\overline{A_{2}}A_{3} \\cup A_{1}A_{2}\\overline{A_{3}} \\text{表示只有两次抽到废品}\">\\overline{A_{1}}A_{2}A_{3} \\cup A_{1}\\overline{A_{2}}A_{3} \\cup A_{1}A_{2}\\overline{A_{3}} \\text{表示只有两次抽到废品}</span>"
         }
       ],
       "answer": "A",
       "answer_index": 0,
-      "analysis_html": "<img src=\"/static/generated/assets/probability/ch132/q0001_analysis.png\"/>"
+      "analysis_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{array}{l}A_{1}\\cup A_{2} \\text{表示第一次和第二次抽取至少抽到一件废品. 此外，至少有一次抽到废品还可表示为}A_{1}\\cup A_{2}\\cup A_{3}. \\end{array}\">\\begin{array}{l}A_{1}\\cup A_{2} \\text{表示第一次和第二次抽取至少抽到一件废品. 此外，至少有一次抽到废品还可表示为}A_{1}\\cup A_{2}\\cup A_{3}. \\end{array}</div>"
     },
     {
       "id": "q0002",
       "number": 2,
       "header": "#2-Easy",
       "difficulty": "Easy",
-      "prompt_html": "<img src=\"/static/generated/assets/probability/ch132/q0002_prompt.png\"/>",
+      "prompt_html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{设}A \\text{表示“掷三个骰子的点数和不大于}5”\\text{的事件}，\\text{样本空间为三个骰子的所有可能点数}，\\text{则}A \\text{样本点数为}().\">\\text{设}A \\text{表示“掷三个骰子的点数和不大于}5”\\text{的事件}，\\text{样本空间为三个骰子的所有可能点数}，\\text{则}A \\text{样本点数为}().</span>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/probability/ch132/q0002_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"10\">10</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/probability/ch132/q0002_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"4\">4</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/probability/ch132/q0002_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"15\">15</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/probability/ch132/q0002_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"20\">20</span>"
         }
       ],
       "answer": "A",
       "answer_index": 0,
-      "analysis_html": "<img src=\"/static/generated/assets/probability/ch132/q0002_analysis.png\"/>"
+      "analysis_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{aligned} \\text{斑三个骰子的点数情况如下（即样本空间）：} \\\\\\Omega = \\{ (1,1,1),(1,1,2), \\cdots, (1,1,6), \\text{, } \\cdots \\cdots, \\ (1,6,1), (1,6,2), \\cdots, (1,6,6) \\}; \\\\ (2,1,1), (1,1,2), \\cdots, (2,1,6), \\text{, } \\cdots \\cdots, \\ (2,6,1), (2,6,2), \\cdots, (2,6,6) \\}; \\\\ \\cdots \\cdots \\cdots \\\\ (6,1,1), (6,1,2), \\cdots, (6,1,6), \\text{, } \\cdots \\cdots, \\ (6,6,1), (6,6,2), \\cdots, (6,6,6) \\} \\, . \\\\ \\text{其和不大于5的点数情况可能为} \\\\ A = \\{ (1,1,1), \\ (1,1,2), \\ (1,2,1), \\ (2,1,1), \\ (1,1,3), \\\\ \\ \\ \\ \\ \\ (1,3,1), \\ (3,1,1), \\ (1,2,2), \\ (2,1,2), \\ (2,2,1) \\} \\, . \\\\ \\text{于是} \\ A \\text{的样本点数为} 10.\\end{aligned}\">\\begin{aligned} \\text{斑三个骰子的点数情况如下（即样本空间）：} \\\\\\Omega = \\{ (1,1,1),(1,1,2), \\cdots, (1,1,6), \\text{, } \\cdots \\cdots, \\ (1,6,1), (1,6,2), \\cdots, (1,6,6) \\}; \\\\ (2,1,1), (1,1,2), \\cdots, (2,1,6), \\text{, } \\cdots \\cdots, \\ (2,6,1), (2,6,2), \\cdots, (2,6,6) \\}; \\\\ \\cdots \\cdots \\cdots \\\\ (6,1,1), (6,1,2), \\cdots, (6,1,6), \\text{, } \\cdots \\cdots, \\ (6,6,1), (6,6,2), \\cdots, (6,6,6) \\} \\, . \\\\ \\text{其和不大于5的点数情况可能为} \\\\ A = \\{ (1,1,1), \\ (1,1,2), \\ (1,2,1), \\ (2,1,1), \\ (1,1,3), \\\\ \\ \\ \\ \\ \\ (1,3,1), \\ (3,1,1), \\ (1,2,2), \\ (2,1,2), \\ (2,2,1) \\} \\, . \\\\ \\text{于是} \\ A \\text{的样本点数为} 10.\\end{aligned}</div>"
     },
     {
       "id": "q0003",
       "number": 3,
       "header": "#3-Easy",
       "difficulty": "Easy",
-      "prompt_html": "<img src=\"/static/generated/assets/probability/ch132/q0003_prompt.png\"/>",
+      "prompt_html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{打靶3发，事件} A_{i} \\text{表示“击中} i \\text{发}”，i=0,1,2,3, \\text{那么事件} A=A_{1}+A_{2}+A_{3} \\text{表示}( ).\">\\text{打靶3发，事件} A_{i} \\text{表示“击中} i \\text{发}”，i=0,1,2,3, \\text{那么事件} A=A_{1}+A_{2}+A_{3} \\text{表示}( ).</span>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/probability/ch132/q0003_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{至少有一发击中}\">\\text{至少有一发击中}</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/probability/ch132/q0003_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\textbf{全部击中}\">\\textbf{全部击中}</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/probability/ch132/q0003_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{必然击中}\">\\text{必然击中}</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/probability/ch132/q0003_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{击中不少于} 3 \\text{发}\">\\text{击中不少于} 3 \\text{发}</span>"
         }
       ],
       "answer": "A",
       "answer_index": 0,
-      "analysis_html": "<img src=\"/static/generated/assets/probability/ch132/q0003_analysis.png\"/>"
+      "analysis_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{aligned}A_1 \\text{表示“击中1发”},\\, A_2 \\text{表示“击中2发”},\\, A_3 \\text{表示“击中3发”}, \\text{所以事件} A = A_1 + A_2 + A_3 \\text{表示击中1发、2发或3发，即至少击中一发.}\\end{aligned}\">\\begin{aligned}A_1 \\text{表示“击中1发”},\\, A_2 \\text{表示“击中2发”},\\, A_3 \\text{表示“击中3发”}, \\text{所以事件} A = A_1 + A_2 + A_3 \\text{表示击中1发、2发或3发，即至少击中一发.}\\end{aligned}</div>"
     },
     {
       "id": "q0004",
       "number": 4,
       "header": "#4-Easy",
       "difficulty": "Easy",
-      "prompt_html": "<img src=\"/static/generated/assets/probability/ch132/q0004_prompt.png\"/>",
+      "prompt_html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{随机试验}E \\text{是记录某电话交换台5分钟内接到的呼唤次数，则} E \\text{的样本空间是}( ).\">\\text{随机试验}E \\text{是记录某电话交换台5分钟内接到的呼唤次数，则} E \\text{的样本空间是}( ).</span>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/probability/ch132/q0004_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\{0, 1, 2, \\cdots , n, \\cdots \\}\">\\{0, 1, 2, \\cdots , n, \\cdots \\}</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/probability/ch132/q0004_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\{ 1 , 2 , 3 , 4 , 5 \\}\">\\{ 1 , 2 , 3 , 4 , 5 \\}</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/probability/ch132/q0004_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\{0, 1, 2, 3, 4, 5 \\}\">\\{0, 1, 2, 3, 4, 5 \\}</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/probability/ch132/q0004_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"[ 0 , + \\infty )\">[ 0 , + \\infty )</span>"
         }
       ],
       "answer": "A",
       "answer_index": 0,
-      "analysis_html": "<img src=\"/static/generated/assets/probability/ch132/q0004_analysis.png\"/>"
+      "analysis_html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{某电话交换台5分钟内接到的呼唤次数可能为}0,1,2,\\cdots,n,\\cdots,\\text{，所以}E\\text{的样本空间是}U=\\{0,1,2,\\cdots,n,\\cdots\\}\\,.\">\\text{某电话交换台5分钟内接到的呼唤次数可能为}0,1,2,\\cdots,n,\\cdots,\\text{，所以}E\\text{的样本空间是}U=\\{0,1,2,\\cdots,n,\\cdots\\}\\,.</span>"
     },
     {
       "id": "q0005",
       "number": 5,
       "header": "#5-Easy",
       "difficulty": "Easy",
-      "prompt_html": "<img src=\"/static/generated/assets/probability/ch132/q0005_prompt.png\"/>",
+      "prompt_html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{设某人向靶子射击3次，用}A_{i}\\text{表示“第}i\\text{次射击击中靶子”}(i=1,2,3)\\text{，则下列说法不正确的是()。}\">\\text{设某人向靶子射击3次，用}A_{i}\\text{表示“第}i\\text{次射击击中靶子”}(i=1,2,3)\\text{，则下列说法不正确的是()。}</span>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/probability/ch132/q0005_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"(A_{1}A_{2}\\,\\overline{A_{3}})\\cup(\\overline{A_{1}}A_{2}A_{3}) \\text{表示连续两次击中靶子}\">(A_{1}A_{2}\\,\\overline{A_{3}})\\cup(\\overline{A_{1}}A_{2}A_{3}) \\text{表示连续两次击中靶子}</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/probability/ch132/q0005_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\overline{A_{1}} \\cup \\overline{A_{2}} \\cup \\overline{A_{3}} \\text{表示} 3 \\text{次射击至少有一次没击中靶子}\">\\overline{A_{1}} \\cup \\overline{A_{2}} \\cup \\overline{A_{3}} \\text{表示} 3 \\text{次射击至少有一次没击中靶子}</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/probability/ch132/q0005_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\overline{A_{1} \\cup A_{2}} \\text{表示前两次都没有击中靶子}\">\\overline{A_{1} \\cup A_{2}} \\text{表示前两次都没有击中靶子}</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/probability/ch132/q0005_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"(A_{1}A_{2}\\,\\overline{A_{3}})\\cup(\\overline{A_{1}}A_{2}A_{3}) \\text{表示恰好连续两次击中靶子}\">(A_{1}A_{2}\\,\\overline{A_{3}})\\cup(\\overline{A_{1}}A_{2}A_{3}) \\text{表示恰好连续两次击中靶子}</span>"
         }
       ],
       "answer": "A",
       "answer_index": 0,
-      "analysis_html": "<img src=\"/static/generated/assets/probability/ch132/q0005_analysis.png\"/>"
+      "analysis_html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"(A_{1}A_{2}\\overline{A_{3}})\\cup(\\overline{A_{1}}A_{2}A_{3})\\cup(A_{1}A_{2}A_{3}) \\text{表示连续两次击中靶子}.\">(A_{1}A_{2}\\overline{A_{3}})\\cup(\\overline{A_{1}}A_{2}A_{3})\\cup(A_{1}A_{2}A_{3}) \\text{表示连续两次击中靶子}.</span>"
     },
     {
       "id": "q0006",
       "number": 6,
       "header": "#6-Easy",
       "difficulty": "Easy",
-      "prompt_html": "<img src=\"/static/generated/assets/probability/ch132/q0006_prompt.png\"/>",
+      "prompt_html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{若随机试验}E\\text{是：在六张卡片上分别标有数字}0,1,2,3,4,5\\text{，从中任意依次取出两张，取后不放回，组成一个二位数，则}E\\text{的样本空间中基本事件个数是}( ).\">\\text{若随机试验}E\\text{是：在六张卡片上分别标有数字}0,1,2,3,4,5\\text{，从中任意依次取出两张，取后不放回，组成一个二位数，则}E\\text{的样本空间中基本事件个数是}( ).</span>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/probability/ch132/q0006_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"25\">25</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/probability/ch132/q0006_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"20\">20</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/probability/ch132/q0006_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"30\">30</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/probability/ch132/q0006_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"36\">36</span>"
         }
       ],
       "answer": "A",
       "answer_index": 0,
-      "analysis_html": "<img src=\"/static/generated/assets/probability/ch132/q0006_analysis.png\"/>"
+      "analysis_html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{要组成一个二位数就要求十位数字不能为} 0, \\text{即十位数字只能从非零的五个数字中取一个，个位数字就从剩下的五个数字中取一个，所以则} E \\text{的样本空间中基本事件个数是} C_{5}^{1} C_{5}^{1} = 25 \\ .\">\\text{要组成一个二位数就要求十位数字不能为} 0, \\text{即十位数字只能从非零的五个数字中取一个，个位数字就从剩下的五个数字中取一个，所以则} E \\text{的样本空间中基本事件个数是} C_{5}^{1} C_{5}^{1} = 25 \\ .</span>"
     },
     {
       "id": "q0007",
       "number": 7,
       "header": "#7-Easy",
       "difficulty": "Easy",
-      "prompt_html": "<img src=\"/static/generated/assets/probability/ch132/q0007_prompt.png\"/>",
+      "prompt_html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{下列关于随机试验的特点，不正确的是( )}.\">\\text{下列关于随机试验的特点，不正确的是( )}.</span>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/probability/ch132/q0007_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{每次试验的可能结果不止一个，并且不能事先明确试验的所有可能结果}\">\\text{每次试验的可能结果不止一个，并且不能事先明确试验的所有可能结果}</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/probability/ch132/q0007_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{可以在相同的条件下重复进行}\">\\text{可以在相同的条件下重复进行}</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/probability/ch132/q0007_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{每次试验的可能结果不止一个，并且能事先明确试验的所有可能结果}\">\\text{每次试验的可能结果不止一个，并且能事先明确试验的所有可能结果}</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/probability/ch132/q0007_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{进行一次试验之前不能确定哪一个结果}\">\\text{进行一次试验之前不能确定哪一个结果}</span>"
         }
       ],
       "answer": "A",
       "answer_index": 0,
-      "analysis_html": "<img src=\"/static/generated/assets/probability/ch132/q0007_analysis.png\"/>"
+      "analysis_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{aligned}&amp; \\text{随机试验有以下三个特点：} \\\\&amp; (1) \\text{可重复性：可以在相同的条件下重复进行；} \\\\&amp; (2) \\text{可观察性：每次试验的可能结果不止一个，并且能事先明确试验的所有可能结果；} \\\\&amp; (3) \\text{不确定性：进行一次试验之前不能确定哪一个结果，但肯定会出现上述所有可能结果中的一个。} \\end{aligned}\">\\begin{aligned}&amp; \\text{随机试验有以下三个特点：} \\\\&amp; (1) \\text{可重复性：可以在相同的条件下重复进行；} \\\\&amp; (2) \\text{可观察性：每次试验的可能结果不止一个，并且能事先明确试验的所有可能结果；} \\\\&amp; (3) \\text{不确定性：进行一次试验之前不能确定哪一个结果，但肯定会出现上述所有可能结果中的一个。} \\end{aligned}</div>"
     },
     {
       "id": "q0008",
       "number": 8,
       "header": "#8-Easy",
       "difficulty": "Easy",
-      "prompt_html": "<img src=\"/static/generated/assets/probability/ch132/q0008_prompt.png\"/>",
+      "prompt_html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{打靶3发，事件}A_{i}\\text{表示“击中}i\\text{发}”，i=0,1,2,3, \\text{那么事件}A=A_{0}+A_{1}+A_{2}+A_{3}\\text{表示}().\">\\text{打靶3发，事件}A_{i}\\text{表示“击中}i\\text{发}”，i=0,1,2,3, \\text{那么事件}A=A_{0}+A_{1}+A_{2}+A_{3}\\text{表示}().</span>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/probability/ch132/q0008_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{必然事件}\">\\text{必然事件}</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/probability/ch132/q0008_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\textbf{全部打中}\">\\textbf{全部打中}</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/probability/ch132/q0008_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{至少击中一发}\">\\text{至少击中一发}</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/probability/ch132/q0008_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{不少于一} \\text{发击中}\">\\text{不少于一} \\text{发击中}</span>"
         }
       ],
       "answer": "A",
       "answer_index": 0,
-      "analysis_html": "<img src=\"/static/generated/assets/probability/ch132/q0008_analysis.png\"/>"
+      "analysis_html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{题目中的事件}A \\text{表示打靶有可能击中} 0 \\text{发、} 1 \\text{发、} 2 \\text{发、} 3 \\text{发，这显然是必然发生的事情}.\">\\text{题目中的事件}A \\text{表示打靶有可能击中} 0 \\text{发、} 1 \\text{发、} 2 \\text{发、} 3 \\text{发，这显然是必然发生的事情}.</span>"
     },
     {
       "id": "q0009",
       "number": 9,
       "header": "#9-Easy",
       "difficulty": "Easy",
-      "prompt_html": "<img src=\"/static/generated/assets/probability/ch132/q0009_prompt.png\"/>",
+      "prompt_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{array}{l} \\text {对目标进行射击四次，设} A_{i} \\text {表示恰好射中} i \\text {次的事件，}(i = 0,1,2,3,4). \\text {那么下列事件的解释中错误的是(）。} \\end{array}\">\\begin{array}{l} \\text {对目标进行射击四次，设} A_{i} \\text {表示恰好射中} i \\text {次的事件，}(i = 0,1,2,3,4). \\text {那么下列事件的解释中错误的是(）。} \\end{array}</div>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/probability/ch132/q0009_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\begin{array}{l} { l } { { A _ { 0 } + A _ { 1 } \\text{表示射中次数为} 1 } } \\end{array}\">\\begin{array}{l} { l } { { A _ { 0 } + A _ { 1 } \\text{表示射中次数为} 1 } } \\end{array}</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/probability/ch132/q0009_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\begin{array}{l} {l} A _ { 2 } + A _ { 3 } + A _ { 4 } \\text {表示射中次数大于等于} 2 \\end{array}\">\\begin{array}{l} {l} A _ { 2 } + A _ { 3 } + A _ { 4 } \\text {表示射中次数大于等于} 2 \\end{array}</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/probability/ch132/q0009_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\overline{A_{0}} \\text{表示射中次数不为} \\, 0\">\\overline{A_{0}} \\text{表示射中次数不为} \\, 0</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/probability/ch132/q0009_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\begin{array}{l} { r } { A _ { 0 } + A _ { 1 } + A _ { 2 } \\text{表示射中次数小于等于} 2 } \\end{array}\">\\begin{array}{l} { r } { A _ { 0 } + A _ { 1 } + A _ { 2 } \\text{表示射中次数小于等于} 2 } \\end{array}</span>"
         }
       ],
       "answer": "A",
       "answer_index": 0,
-      "analysis_html": "<img src=\"/static/generated/assets/probability/ch132/q0009_analysis.png\"/>"
+      "analysis_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{array}{l} { r } { A _ { 0 } + A _ { 1 } \\text {表示射击次数为至多为} 1 \\, . } \\end{array}\">\\begin{array}{l} { r } { A _ { 0 } + A _ { 1 } \\text {表示射击次数为至多为} 1 \\, . } \\end{array}</div>"
     },
     {
       "id": "q0010",
       "number": 10,
       "header": "#10-Easy",
       "difficulty": "Easy",
-      "prompt_html": "<img src=\"/static/generated/assets/probability/ch132/q0010_prompt.png\"/>",
+      "prompt_html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{打靶3发，事件}A_{i}\\text{表示“击中}i\\text{发}”，i=0,1,2,3, \\text{那么事件}A=A_{0}+A_{1}\\text{表示}( ).\">\\text{打靶3发，事件}A_{i}\\text{表示“击中}i\\text{发}”，i=0,1,2,3, \\text{那么事件}A=A_{0}+A_{1}\\text{表示}( ).</span>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/probability/ch132/q0010_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{至多击中一发}\">\\text{至多击中一发}</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/probability/ch132/q0010_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{至少击中一发}\">\\text{至少击中一发}</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/probability/ch132/q0010_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{恰好击中一发}\">\\text{恰好击中一发}</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/probability/ch132/q0010_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{必有一发击中}\">\\text{必有一发击中}</span>"
         }
       ],
       "answer": "A",
       "answer_index": 0,
-      "analysis_html": "<img src=\"/static/generated/assets/probability/ch132/q0010_analysis.png\"/>"
+      "analysis_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{array}{l} A _ {0} \\text {表示击中0发，} A _ {1} \\text {表示击中1发，所以事件} A = A _ {0} + A _ {1} \\text {表示击中0发或1发，即至多击中一发.} \\end{array}\">\\begin{array}{l} A _ {0} \\text {表示击中0发，} A _ {1} \\text {表示击中1发，所以事件} A = A _ {0} + A _ {1} \\text {表示击中0发或1发，即至多击中一发.} \\end{array}</div>"
     },
     {
       "id": "q0011",
       "number": 11,
       "header": "#11-Easy",
       "difficulty": "Easy",
-      "prompt_html": "<img src=\"/static/generated/assets/probability/ch132/q0011_prompt.png\"/>",
+      "prompt_html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{随机试验}E \\text{是对同一目标连续独立射击} 5 \\text{次，击中} 2 \\text{次，则} E \\text{的样本空间} U = ( ) .\">\\text{随机试验}E \\text{是对同一目标连续独立射击} 5 \\text{次，击中} 2 \\text{次，则} E \\text{的样本空间} U = ( ) .</span>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/probability/ch132/q0011_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\{ 0 , 1 , 2 , 3 , 4 , 5 \\}\">\\{ 0 , 1 , 2 , 3 , 4 , 5 \\}</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/probability/ch132/q0011_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\{2 \\}\">\\{2 \\}</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/probability/ch132/q0011_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\{ 0 , 2 \\}\">\\{ 0 , 2 \\}</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/probability/ch132/q0011_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\{ 1 , 2 , 3 , 4 , 5 \\}\">\\{ 1 , 2 , 3 , 4 , 5 \\}</span>"
         }
       ],
       "answer": "A",
       "answer_index": 0,
-      "analysis_html": "<img src=\"/static/generated/assets/probability/ch132/q0011_analysis.png\"/>"
+      "analysis_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{aligned} \\text{对于}5\\text{次独立地射击目标，每次都可能中靶或不中靶，所以其样本点为}0,1,2,3,4,5\\text{，故}E\\text{的样本空间} \\\\ U=\\{0,1,2,3,4,5\\}\\,.\\,\\text{其中击中次只说明是样本点}\\,\\{2\\}\\,\\text{发生，它只是样本空间的一个元素}.\\end{aligned}\">\\begin{aligned} \\text{对于}5\\text{次独立地射击目标，每次都可能中靶或不中靶，所以其样本点为}0,1,2,3,4,5\\text{，故}E\\text{的样本空间} \\\\ U=\\{0,1,2,3,4,5\\}\\,.\\,\\text{其中击中次只说明是样本点}\\,\\{2\\}\\,\\text{发生，它只是样本空间的一个元素}.\\end{aligned}</div>"
     },
     {
       "id": "q0012",
       "number": 12,
       "header": "#12-Easy",
       "difficulty": "Easy",
-      "prompt_html": "<img src=\"/static/generated/assets/probability/ch132/q0012_prompt.png\"/>",
+      "prompt_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{aligned} \\text{将一枚均匀的硬币抛两次，事件} A,B,C \\text{分别表示“第一次出现正面”，“两次出现同一面”，“至少有一次出现正面”，若试验的样本空间为} S, \\text{则下列写法不正确的是( ).} \\end{aligned}\">\\begin{aligned} \\text{将一枚均匀的硬币抛两次，事件} A,B,C \\text{分别表示“第一次出现正面”，“两次出现同一面”，“至少有一次出现正面”，若试验的样本空间为} S, \\text{则下列写法不正确的是( ).} \\end{aligned}</div>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/probability/ch132/q0012_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\begin{array}{l} C = \\{ ( \\text {正}, \\text {正}), \\, ( \\text {正}, \\text {反}) \\} \\end{array}\">\\begin{array}{l} C = \\{ ( \\text {正}, \\text {正}), \\, ( \\text {正}, \\text {反}) \\} \\end{array}</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/probability/ch132/q0012_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\begin{array}{l} { r } { S = \\{ ( \\text {正}, \\text {正} ) , \\, ( \\text {正}, \\text {反} ) , \\, ( \\text {反}, \\text {正} ) , \\, ( \\text {反}, \\text {反} ) \\} } \\end{array}\">\\begin{array}{l} { r } { S = \\{ ( \\text {正}, \\text {正} ) , \\, ( \\text {正}, \\text {反} ) , \\, ( \\text {反}, \\text {正} ) , \\, ( \\text {反}, \\text {反} ) \\} } \\end{array}</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/probability/ch132/q0012_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\begin{array}{l} { r } { A = \\{ ( \\text {正}, \\text {正} ) , \\, ( \\text {正}, \\text {反} ) \\} } \\end{array}\">\\begin{array}{l} { r } { A = \\{ ( \\text {正}, \\text {正} ) , \\, ( \\text {正}, \\text {反} ) \\} } \\end{array}</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/probability/ch132/q0012_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\begin{array}{l} { r } { B = \\{ ( \\text {正}, \\text {正} ) , \\, ( \\text {反}, \\text {反} ) \\} } \\end{array}\">\\begin{array}{l} { r } { B = \\{ ( \\text {正}, \\text {正} ) , \\, ( \\text {反}, \\text {反} ) \\} } \\end{array}</span>"
         }
       ],
       "answer": "A",
       "answer_index": 0,
-      "analysis_html": "<img src=\"/static/generated/assets/probability/ch132/q0012_analysis.png\"/>"
+      "analysis_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{aligned}C=\\{(\\text{正},\\text{正}),\\,(\\text{正},\\text{反}),\\,(\\text{反},\\text{正})\\}.\\end{aligned}\">\\begin{aligned}C=\\{(\\text{正},\\text{正}),\\,(\\text{正},\\text{反}),\\,(\\text{反},\\text{正})\\}.\\end{aligned}</div>"
     }
-  ]
+  ],
+  "format": "latex",
+  "source_md": "gl/随机事件的概念(12题)/随机事件的概念(12题).md"
 }

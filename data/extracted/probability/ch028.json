@@ -13,532 +13,534 @@
       "number": 1,
       "header": "#1-Hard",
       "difficulty": "Hard",
-      "prompt_html": "<img src=\"/static/generated/assets/probability/ch028/q0001_prompt.png\"/>",
+      "prompt_html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{灯泡寿命服从数学期望为}1000 \\text{小时的正态分布，随机抽取}100 \\text{只灯泡中至少有}90 \\text{只灯泡的寿命超过}1000 \\text{小时的概率(列式子即可)}p=(\\cdot).\">\\text{灯泡寿命服从数学期望为}1000 \\text{小时的正态分布，随机抽取}100 \\text{只灯泡中至少有}90 \\text{只灯泡的寿命超过}1000 \\text{小时的概率(列式子即可)}p=(\\cdot).</span>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/probability/ch028/q0001_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\sum_{k=90}^{100} C_{100}^{k} (\\frac{1}{2})^{100}\">\\sum_{k=90}^{100} C_{100}^{k} (\\frac{1}{2})^{100}</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/probability/ch028/q0001_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\sum_{k=91}^{100} C_{100}^{k} (\\frac{1}{2})^{100}\">\\sum_{k=91}^{100} C_{100}^{k} (\\frac{1}{2})^{100}</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/probability/ch028/q0001_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\sum_{k=91}^{100} C_{100}^{k}(\\frac{2}{3})^{k}(\\frac{1}{3})^{100-k}\">\\sum_{k=91}^{100} C_{100}^{k}(\\frac{2}{3})^{k}(\\frac{1}{3})^{100-k}</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/probability/ch028/q0001_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\sum_{k=90}^{100} C_{100}^{k} (\\frac{2}{3})^{k} (\\frac{1}{3})^{100-k}\">\\sum_{k=90}^{100} C_{100}^{k} (\\frac{2}{3})^{k} (\\frac{1}{3})^{100-k}</span>"
         }
       ],
       "answer": "A",
       "answer_index": 0,
-      "analysis_html": "<img src=\"/static/generated/assets/probability/ch028/q0001_analysis.png\"/>"
+      "analysis_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{aligned}&amp;\\text{设灯泡寿命为 }X,\\text{依题意有} \\\\&amp;\\quad p=\\mathcal{P}\\{X&gt;1000\\}=\\frac{1}{2}\\cdot \\\\&amp;\\text{又设 }100\\text{只灯泡中有 }Y\\text{只灯泡的寿命超过 }1000\\text{小时，则 }Y\\sim B(100,p),\\text{即} \\\\&amp;\\quad P\\{Y=k\\}=C_{100}^{k}p^{k}(1-p)^{100-k}=C_{100}^{k}(\\frac{1}{2})^{100}, \\\\&amp;\\text{所以 }100\\text{只灯泡中至少有 }90\\text{只灯泡的寿命超过 }1000\\text{小时的概率为} \\\\&amp;\\quad P\\{Y\\geq 90\\}=\\sum_{k=90}^{100}P\\{Y=k\\}=\\sum_{k=90}^{100}C_{100}^{k}(\\frac{1}{2})^{100}.\\end{aligned}\">\\begin{aligned}&amp;\\text{设灯泡寿命为 }X,\\text{依题意有} \\\\&amp;\\quad p=\\mathcal{P}\\{X&gt;1000\\}=\\frac{1}{2}\\cdot \\\\&amp;\\text{又设 }100\\text{只灯泡中有 }Y\\text{只灯泡的寿命超过 }1000\\text{小时，则 }Y\\sim B(100,p),\\text{即} \\\\&amp;\\quad P\\{Y=k\\}=C_{100}^{k}p^{k}(1-p)^{100-k}=C_{100}^{k}(\\frac{1}{2})^{100}, \\\\&amp;\\text{所以 }100\\text{只灯泡中至少有 }90\\text{只灯泡的寿命超过 }1000\\text{小时的概率为} \\\\&amp;\\quad P\\{Y\\geq 90\\}=\\sum_{k=90}^{100}P\\{Y=k\\}=\\sum_{k=90}^{100}C_{100}^{k}(\\frac{1}{2})^{100}.\\end{aligned}</div>"
     },
     {
       "id": "q0002",
       "number": 2,
       "header": "#2-Hard",
       "difficulty": "Hard",
-      "prompt_html": "<img src=\"/static/generated/assets/probability/ch028/q0002_prompt.png\"/>",
+      "prompt_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{aligned}\\begin{array}{l}\\text{设随机变量}\\xi \\text{服从}N(1,0.2^2)，\\text{且已知}\\Phi(2.5)=0.9938，\\ \\Phi(0.5)=0.6915，\\ \\Phi(1.5)=0.9332，\\text{当}x&gt;4\\text{时}，\\\\\\Phi(x)=1，\\text{则}P\\{\\xi_x^2&gt;1.5\\}=(\\ )\\,.\\end{array}\\end{aligned}\">\\begin{aligned}\\begin{array}{l}\\text{设随机变量}\\xi \\text{服从}N(1,0.2^2)，\\text{且已知}\\Phi(2.5)=0.9938，\\ \\Phi(0.5)=0.6915，\\ \\Phi(1.5)=0.9332，\\text{当}x&gt;4\\text{时}，\\\\\\Phi(x)=1，\\text{则}P\\{\\xi_x^2&gt;1.5\\}=(\\ )\\,.\\end{array}\\end{aligned}</div>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/probability/ch028/q0002_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"0.0062\">0.0062</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/probability/ch028/q0002_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"0.9938\">0.9938</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/probability/ch028/q0002_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"1\">1</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/probability/ch028/q0002_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"0\">0</span>"
         }
       ],
       "answer": "A",
       "answer_index": 0,
-      "analysis_html": "<img src=\"/static/generated/assets/probability/ch028/q0002_analysis.png\"/>"
+      "analysis_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{aligned}&amp;\\text{若}X\\sim N(\\mu,\\sigma^2)\\text{，则}\\frac{X-\\mu}{\\sigma}\\sim N(0,1)\\,,\\\\&amp;\\text{所以}\\;\\;U=\\frac{\\xi-1}{0.2}\\sim N(0,1)\\,.\\\\&amp;\\text{而}\\;\\;P\\{|\\xi|&gt;1.5\\}\\,=\\,1-P\\{|\\xi|\\leq 1.5\\}\\,=\\,1-P\\{-1.5\\leq \\xi\\leq 1.5\\}\\,,\\\\&amp;\\text{又}\\;\\;P\\{-1.5\\leq \\xi\\leq 1.5\\}\\,=\\,P\\{\\frac{-1.5-1}{0.2}\\leq \\frac{\\xi-1}{0.2}\\leq \\frac{1.5-1}{0.2}\\}\\,=\\,P\\{-12.5\\leq U\\leq 2.5\\}\\,,\\\\&amp;\\text{而}P\\{-12.5\\leq U\\leq 2.5\\}\\,=\\,\\Phi(2.5)-\\Phi(-12.5)=\\Phi(2.5)+\\Phi(12.5)-1\\approx\\Phi(2.5)=0.9938\\,,\\\\&amp;\\text{所以}\\;\\;P\\{|\\xi|&gt;1.5\\}\\,=\\,1-P\\{|\\xi|\\leq 1.5\\}\\,=\\,1-0.9938=0.0062\\,.\\end{aligned}\">\\begin{aligned}&amp;\\text{若}X\\sim N(\\mu,\\sigma^2)\\text{，则}\\frac{X-\\mu}{\\sigma}\\sim N(0,1)\\,,\\\\&amp;\\text{所以}\\;\\;U=\\frac{\\xi-1}{0.2}\\sim N(0,1)\\,.\\\\&amp;\\text{而}\\;\\;P\\{|\\xi|&gt;1.5\\}\\,=\\,1-P\\{|\\xi|\\leq 1.5\\}\\,=\\,1-P\\{-1.5\\leq \\xi\\leq 1.5\\}\\,,\\\\&amp;\\text{又}\\;\\;P\\{-1.5\\leq \\xi\\leq 1.5\\}\\,=\\,P\\{\\frac{-1.5-1}{0.2}\\leq \\frac{\\xi-1}{0.2}\\leq \\frac{1.5-1}{0.2}\\}\\,=\\,P\\{-12.5\\leq U\\leq 2.5\\}\\,,\\\\&amp;\\text{而}P\\{-12.5\\leq U\\leq 2.5\\}\\,=\\,\\Phi(2.5)-\\Phi(-12.5)=\\Phi(2.5)+\\Phi(12.5)-1\\approx\\Phi(2.5)=0.9938\\,,\\\\&amp;\\text{所以}\\;\\;P\\{|\\xi|&gt;1.5\\}\\,=\\,1-P\\{|\\xi|\\leq 1.5\\}\\,=\\,1-0.9938=0.0062\\,.\\end{aligned}</div>"
     },
     {
       "id": "q0003",
       "number": 3,
       "header": "#3-Averge",
       "difficulty": "Averge",
-      "prompt_html": "<img src=\"/static/generated/assets/probability/ch028/q0003_prompt.png\"/>",
+      "prompt_html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{设}X\\sim N(3,4)\\text{，且}c\\text{满足}P\\{X&gt;c\\}=P\\{X\\leq c\\}\\text{，则}c=(\\ ).\">\\text{设}X\\sim N(3,4)\\text{，且}c\\text{满足}P\\{X&gt;c\\}=P\\{X\\leq c\\}\\text{，则}c=(\\ ).</span>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/probability/ch028/q0003_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\frac { 1 } { 2 }\">\\frac { 1 } { 2 }</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/probability/ch028/q0003_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"^ 2\">^ 2</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/probability/ch028/q0003_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\frac { 1 } { 3 }\">\\frac { 1 } { 3 }</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/probability/ch028/q0003_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"^ 3\">^ 3</span>"
         }
       ],
       "answer": "D",
       "answer_index": 3,
-      "analysis_html": "<img src=\"/static/generated/assets/probability/ch028/q0003_analysis.png\"/>"
+      "analysis_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{aligned} &amp; \\text{由于 } P\\{X&gt;c\\}=1-P\\{X\\leq c\\}\\,, \\text{故} \\\\ &amp; \\qquad\\qquad1-P\\{X\\leq C\\}=P\\{X\\leq C\\}\\,, \\\\ &amp; \\text{得}\\quad P\\{X\\leq C\\}=\\frac{1}{2}\\,. \\\\ &amp; \\text{又}\\quad P\\{X\\leq C\\}=\\Phi(\\frac{c-3}{2})\\,, \\text{故} \\\\ &amp; \\qquad\\qquad\\Phi(\\frac{c-3}{2})=\\frac{1}{2}\\,, \\\\ &amp; \\text{得}\\quad\\frac{c-3}{2}=0,\\;c=3\\,. \\\\ &amp; \\text{速记：若 } X\\sim N(\\mu,\\sigma^2)\\,, \\text{则 } P\\{X&lt;\\mu\\}=P\\{X&gt;\\mu\\}\\,.\\end{aligned}\">\\begin{aligned} &amp; \\text{由于 } P\\{X&gt;c\\}=1-P\\{X\\leq c\\}\\,, \\text{故} \\\\ &amp; \\qquad\\qquad1-P\\{X\\leq C\\}=P\\{X\\leq C\\}\\,, \\\\ &amp; \\text{得}\\quad P\\{X\\leq C\\}=\\frac{1}{2}\\,. \\\\ &amp; \\text{又}\\quad P\\{X\\leq C\\}=\\Phi(\\frac{c-3}{2})\\,, \\text{故} \\\\ &amp; \\qquad\\qquad\\Phi(\\frac{c-3}{2})=\\frac{1}{2}\\,, \\\\ &amp; \\text{得}\\quad\\frac{c-3}{2}=0,\\;c=3\\,. \\\\ &amp; \\text{速记：若 } X\\sim N(\\mu,\\sigma^2)\\,, \\text{则 } P\\{X&lt;\\mu\\}=P\\{X&gt;\\mu\\}\\,.\\end{aligned}</div>"
     },
     {
       "id": "q0004",
       "number": 4,
       "header": "#4-Averge",
       "difficulty": "Averge",
-      "prompt_html": "<img src=\"/static/generated/assets/probability/ch028/q0004_prompt.png\"/>",
+      "prompt_html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{设随机变量}X\\sim N(\\mu,4^{2}),Y\\sim N(\\mu,5^{2}).\\ \\text{记}p_{1}=P\\{X\\leq \\mu-4\\},\\,p_{2}=P\\{Y\\geq \\mu+5\\},\\ \\text{则正确的是( ).}\">\\text{设随机变量}X\\sim N(\\mu,4^{2}),Y\\sim N(\\mu,5^{2}).\\ \\text{记}p_{1}=P\\{X\\leq \\mu-4\\},\\,p_{2}=P\\{Y\\geq \\mu+5\\},\\ \\text{则正确的是( ).}</span>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/probability/ch028/q0004_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\begin{aligned}p_1 = P\\{X \\leq \\mu - 4\\} = 1 - \\Phi(0)\\end{aligned}\">\\begin{aligned}p_1 = P\\{X \\leq \\mu - 4\\} = 1 - \\Phi(0)\\end{aligned}</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/probability/ch028/q0004_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\begin{aligned}p_1 = P\\{X \\leq \\mu - 4\\} = 1 + \\Phi(0)\\end{aligned}\">\\begin{aligned}p_1 = P\\{X \\leq \\mu - 4\\} = 1 + \\Phi(0)\\end{aligned}</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/probability/ch028/q0004_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\begin{aligned}p_{\\gamma} = P\\{Y \\geq \\mu + 5\\} = 1 - \\Phi(1)\\end{aligned}\">\\begin{aligned}p_{\\gamma} = P\\{Y \\geq \\mu + 5\\} = 1 - \\Phi(1)\\end{aligned}</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/probability/ch028/q0004_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\begin{aligned}p_2 = P\\{Y \\geq \\mu + 5\\} = 1 - \\Phi(0)\\end{aligned}\">\\begin{aligned}p_2 = P\\{Y \\geq \\mu + 5\\} = 1 - \\Phi(0)\\end{aligned}</span>"
         }
       ],
       "answer": "C",
       "answer_index": 2,
-      "analysis_html": "<img src=\"/static/generated/assets/probability/ch028/q0004_analysis.png\"/>"
+      "analysis_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{aligned}&amp;\\text{由}X\\sim N(\\mu,4^{\\prime})\\text{知},\\ \\frac{X-\\mu}{4}\\sim N(0,1),\\ \\text{同理},\\ \\frac{Y-\\mu}{5}\\sim N(0,1)\\,.\\\\&amp;\\quad p_{1}=P\\{X\\leq\\mu-4\\}=P\\left\\{\\frac{X-\\mu}{4}\\leq-1\\right\\}=\\Phi(-1)=1-\\Phi(1)\\,,\\\\&amp;\\quad p_{2}=P\\{Y\\geq\\mu+5\\}=P\\left\\{\\frac{Y-\\mu}{5}\\geq 1\\right\\}=1-\\Phi(1)\\,,\\\\&amp;\\text{故对任意实数}\\mu,\\ \\text{均有}\\ p_{1}=p_{2}\\,.\\end{aligned}\">\\begin{aligned}&amp;\\text{由}X\\sim N(\\mu,4^{\\prime})\\text{知},\\ \\frac{X-\\mu}{4}\\sim N(0,1),\\ \\text{同理},\\ \\frac{Y-\\mu}{5}\\sim N(0,1)\\,.\\\\&amp;\\quad p_{1}=P\\{X\\leq\\mu-4\\}=P\\left\\{\\frac{X-\\mu}{4}\\leq-1\\right\\}=\\Phi(-1)=1-\\Phi(1)\\,,\\\\&amp;\\quad p_{2}=P\\{Y\\geq\\mu+5\\}=P\\left\\{\\frac{Y-\\mu}{5}\\geq 1\\right\\}=1-\\Phi(1)\\,,\\\\&amp;\\text{故对任意实数}\\mu,\\ \\text{均有}\\ p_{1}=p_{2}\\,.\\end{aligned}</div>"
     },
     {
       "id": "q0005",
       "number": 5,
       "header": "#5-Averge",
       "difficulty": "Averge",
-      "prompt_html": "<img src=\"/static/generated/assets/probability/ch028/q0005_prompt.png\"/>",
+      "prompt_html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{设 } \\xi \\sim N(2,18), \\eta = f(\\xi) = a \\xi + b \\sim N(0,1)\\,,\\,\\,\\text{则 } f(\\xi) = ( \\, ).\">\\text{设 } \\xi \\sim N(2,18), \\eta = f(\\xi) = a \\xi + b \\sim N(0,1)\\,,\\,\\,\\text{则 } f(\\xi) = ( \\, ).</span>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/probability/ch028/q0005_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\frac {\\zeta - 2}{18}\">\\frac {\\zeta - 2}{18}</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/probability/ch028/q0005_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\frac {\\xi + 2}{18}\">\\frac {\\xi + 2}{18}</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/probability/ch028/q0005_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\frac { \\xi - 2 } { 3 \\sqrt { 2 } }\">\\frac { \\xi - 2 } { 3 \\sqrt { 2 } }</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/probability/ch028/q0005_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\sqrt [ ] { 2 } \\xi + 2\">\\sqrt [ ] { 2 } \\xi + 2</span>"
         }
       ],
       "answer": "C",
       "answer_index": 2,
-      "analysis_html": "<img src=\"/static/generated/assets/probability/ch028/q0005_analysis.png\"/>"
+      "analysis_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{aligned}&amp;\\text{由于}\\,\\xi\\sim N(2,18)\\,,\\,\\text{则}\\,\\frac{\\xi-2}{3\\sqrt{2}}\\sim N(0,1)\\,,\\\\&amp;\\text{又}\\,\\eta=a\\xi+b\\sim N(0,1)\\,,\\,\\text{故}a=\\frac{1}{3\\sqrt{2}},b=-\\frac{2}{3\\sqrt{2}}\\,.\\\\&amp;\\text{即}\\,f(\\xi)=\\frac{\\xi-2}{3\\sqrt{2}}\\,.\\end{aligned}\">\\begin{aligned}&amp;\\text{由于}\\,\\xi\\sim N(2,18)\\,,\\,\\text{则}\\,\\frac{\\xi-2}{3\\sqrt{2}}\\sim N(0,1)\\,,\\\\&amp;\\text{又}\\,\\eta=a\\xi+b\\sim N(0,1)\\,,\\,\\text{故}a=\\frac{1}{3\\sqrt{2}},b=-\\frac{2}{3\\sqrt{2}}\\,.\\\\&amp;\\text{即}\\,f(\\xi)=\\frac{\\xi-2}{3\\sqrt{2}}\\,.\\end{aligned}</div>"
     },
     {
       "id": "q0006",
       "number": 6,
       "header": "#6-Averge",
       "difficulty": "Averge",
-      "prompt_html": "<img src=\"/static/generated/assets/probability/ch028/q0006_prompt.png\"/>",
+      "prompt_html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{设随机变量} \\, X \\sim N ( \\mu , \\sigma ^ { 2 } ) \\, , \\, \\text{且已知} \\, P \\bigl \\{ \\mu &lt; X &lt; 2 \\mu \\bigr \\} = 0 . 3 \\, , \\, \\text{则} \\, P \\bigl \\{ X &lt; 0 \\bigr \\} = ( \\, ) \\, .\">\\text{设随机变量} \\, X \\sim N ( \\mu , \\sigma ^ { 2 } ) \\, , \\, \\text{且已知} \\, P \\bigl \\{ \\mu &lt; X &lt; 2 \\mu \\bigr \\} = 0 . 3 \\, , \\, \\text{则} \\, P \\bigl \\{ X &lt; 0 \\bigr \\} = ( \\, ) \\, .</span>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/probability/ch028/q0006_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"0.2\">0.2</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/probability/ch028/q0006_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"0.4\">0.4</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/probability/ch028/q0006_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"0.8\">0.8</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/probability/ch028/q0006_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"0.5\">0.5</span>"
         }
       ],
       "answer": "A",
       "answer_index": 0,
-      "analysis_html": "<img src=\"/static/generated/assets/probability/ch028/q0006_analysis.png\"/>"
+      "analysis_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{aligned} \\text{若}\\ \\xi\\sim N(\\mu,\\sigma^2),\\ \\text{则}\\ \\frac{\\xi-\\mu}{\\sigma}\\sim N(0,1)\\,.\\ \\text{故}\\\\ P\\{\\mu&lt;X&lt;2\\mu\\}&amp;=P\\left\\{\\frac{\\mu-\\mu}{\\sigma}&lt;\\frac{X-\\mu}{\\sigma}&lt;\\frac{2\\mu-\\mu}{\\sigma}\\right\\}\\\\ &amp;=P\\left\\{0&lt;\\frac{X-\\mu}{\\sigma}&lt;\\frac{\\mu}{\\sigma}\\right\\}\\\\ &amp;=\\Phi(\\frac{\\mu}{\\sigma})-\\Phi(0)=\\Phi(\\frac{\\mu}{\\sigma})-0.5\\,.\\end{aligned} \\text{又}0.3=P\\{\\mu&lt;X&lt;2\\mu\\}=\\Phi(\\frac{\\mu}{\\sigma})-0.5\\,，\\text{于是}\\Phi(\\frac{\\mu}{\\sigma})=0.8\\,．\\text{所以} \\begin{aligned} P\\{X&lt;0\\}&amp;=P\\left\\{\\frac{X-\\mu}{\\sigma}&lt;\\frac{0-\\mu}{\\sigma}\\right\\}=P\\left\\{\\frac{X-\\mu}{\\sigma}&lt;-\\frac{\\mu}{\\sigma}\\right\\}\\\\ &amp;=\\Phi(-\\frac{\\mu}{\\sigma})=1-\\Phi(\\frac{\\mu}{\\sigma})=1-0.8=0.2\\,.\\end{aligned}\">\\begin{aligned} \\text{若}\\ \\xi\\sim N(\\mu,\\sigma^2),\\ \\text{则}\\ \\frac{\\xi-\\mu}{\\sigma}\\sim N(0,1)\\,.\\ \\text{故}\\\\ P\\{\\mu&lt;X&lt;2\\mu\\}&amp;=P\\left\\{\\frac{\\mu-\\mu}{\\sigma}&lt;\\frac{X-\\mu}{\\sigma}&lt;\\frac{2\\mu-\\mu}{\\sigma}\\right\\}\\\\ &amp;=P\\left\\{0&lt;\\frac{X-\\mu}{\\sigma}&lt;\\frac{\\mu}{\\sigma}\\right\\}\\\\ &amp;=\\Phi(\\frac{\\mu}{\\sigma})-\\Phi(0)=\\Phi(\\frac{\\mu}{\\sigma})-0.5\\,.\\end{aligned} \\text{又}0.3=P\\{\\mu&lt;X&lt;2\\mu\\}=\\Phi(\\frac{\\mu}{\\sigma})-0.5\\,，\\text{于是}\\Phi(\\frac{\\mu}{\\sigma})=0.8\\,．\\text{所以} \\begin{aligned} P\\{X&lt;0\\}&amp;=P\\left\\{\\frac{X-\\mu}{\\sigma}&lt;\\frac{0-\\mu}{\\sigma}\\right\\}=P\\left\\{\\frac{X-\\mu}{\\sigma}&lt;-\\frac{\\mu}{\\sigma}\\right\\}\\\\ &amp;=\\Phi(-\\frac{\\mu}{\\sigma})=1-\\Phi(\\frac{\\mu}{\\sigma})=1-0.8=0.2\\,.\\end{aligned}</div>"
     },
     {
       "id": "q0007",
       "number": 7,
       "header": "#7-Hard",
       "difficulty": "Hard",
-      "prompt_html": "<img src=\"/static/generated/assets/probability/ch028/q0007_prompt.png\"/>",
+      "prompt_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{aligned} \\text{某人去火车站乘车，有两条路可以走。第一条路程较短，但交通拥挤，所需时间(单位：分钟)服从正态分布} \\\\ N(40,10^2); \\text{第二条路程较长，但意外阻塞较少，所需时间服从正态分布} \\\\ N(50,4^2), \\text{那么若动身时离开车时间只有} 60 \\text{分钟，应走路线( )；若动身时离开车时间只有} 45 \\text{分钟，应走路线( )。} \\end{aligned}\">\\begin{aligned} \\text{某人去火车站乘车，有两条路可以走。第一条路程较短，但交通拥挤，所需时间(单位：分钟)服从正态分布} \\\\ N(40,10^2); \\text{第二条路程较长，但意外阻塞较少，所需时间服从正态分布} \\\\ N(50,4^2), \\text{那么若动身时离开车时间只有} 60 \\text{分钟，应走路线( )；若动身时离开车时间只有} 45 \\text{分钟，应走路线( )。} \\end{aligned}</div>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/probability/ch028/q0007_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{二}; -\">\\text{二}; -</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/probability/ch028/q0007_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\overline{,}-\">\\overline{,}-</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/probability/ch028/q0007_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\overline , \\overline { }\">\\overline , \\overline { }</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/probability/ch028/q0007_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\textbf {二,二}\">\\textbf {二,二}</span>"
         }
       ],
       "answer": "A",
       "answer_index": 0,
-      "analysis_html": "<img src=\"/static/generated/assets/probability/ch028/q0007_analysis.png\"/>"
+      "analysis_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{aligned} \\text{设}X,Y \\text{分别为该人走第一、二条路到达火车站所用时间，则}X\\sim N(40,10^2),Y\\sim N(50,4^2). \\text{哪一条路线在开车之前到达火车站的可能性大就走哪一条路线.}1) \\text{因为}P\\{X&lt;60\\}=\\Phi\\left(\\frac{60-40}{10}\\right)=\\Phi(2)=0.97725,\\\\P\\{Y&lt;60\\}=\\Phi\\left(\\frac{60-50}{4}\\right)=\\Phi(2.5)=0.99379, \\text{所以有}60\\text{分钟时应走第二条路.}2) \\text{因为}P\\{X&lt;45\\}=\\Phi\\left(\\frac{45-40}{10}\\right)=\\Phi(0.5)=0.6915,\\\\P\\{X&lt;45\\}=\\Phi\\left(\\frac{45-50}{4}\\right)=\\Phi(-1.25)=1-\\Phi(1.25)=1-0.8925=0.1075 \\text{所以只有}45\\text{分钟应走第一条路.}\\end{aligned}\">\\begin{aligned} \\text{设}X,Y \\text{分别为该人走第一、二条路到达火车站所用时间，则}X\\sim N(40,10^2),Y\\sim N(50,4^2). \\text{哪一条路线在开车之前到达火车站的可能性大就走哪一条路线.}1) \\text{因为}P\\{X&lt;60\\}=\\Phi\\left(\\frac{60-40}{10}\\right)=\\Phi(2)=0.97725,\\\\P\\{Y&lt;60\\}=\\Phi\\left(\\frac{60-50}{4}\\right)=\\Phi(2.5)=0.99379, \\text{所以有}60\\text{分钟时应走第二条路.}2) \\text{因为}P\\{X&lt;45\\}=\\Phi\\left(\\frac{45-40}{10}\\right)=\\Phi(0.5)=0.6915,\\\\P\\{X&lt;45\\}=\\Phi\\left(\\frac{45-50}{4}\\right)=\\Phi(-1.25)=1-\\Phi(1.25)=1-0.8925=0.1075 \\text{所以只有}45\\text{分钟应走第一条路.}\\end{aligned}</div>"
     },
     {
       "id": "q0008",
       "number": 8,
       "header": "#8-Averge",
       "difficulty": "Averge",
-      "prompt_html": "<img src=\"/static/generated/assets/probability/ch028/q0008_prompt.png\"/>",
+      "prompt_html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{设随机变量}X\\sim N(2,\\sigma^{2})，\\text{且}P\\{2&lt;X&lt;4\\}=0.3，\\text{则}P\\{X&lt;0\\}=(\\enspace).\">\\text{设随机变量}X\\sim N(2,\\sigma^{2})，\\text{且}P\\{2&lt;X&lt;4\\}=0.3，\\text{则}P\\{X&lt;0\\}=(\\enspace).</span>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/probability/ch028/q0008_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"0.2\">0.2</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/probability/ch028/q0008_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"0.8\">0.8</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/probability/ch028/q0008_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"0.5\">0.5</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/probability/ch028/q0008_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"0.4\">0.4</span>"
         }
       ],
       "answer": "A",
       "answer_index": 0,
-      "analysis_html": "<img src=\"/static/generated/assets/probability/ch028/q0008_analysis.png\"/>"
+      "analysis_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{aligned}\\text{若}\\ \\xi&amp;\\sim N(\\mu,\\sigma^2)\\ ,\\ \\text{则}\\ \\frac{\\xi-\\mu}{\\sigma}\\sim N(0,1)\\ .\\ \\text{由于}X\\sim N(2,\\sigma^2)\\ ,\\ \\text{故}\\\\&amp;P\\{2&lt;X&lt;4\\}=\\Phi(\\frac{4-2}{\\sigma})-\\Phi(\\frac{2-2}{\\sigma})\\\\&amp;=\\Phi(\\frac{2}{\\sigma})-\\Phi(0)=\\Phi(\\frac{2}{\\sigma})-0.5\\ .\\\\ \\text{由假设}P\\{2&lt;X&lt;4\\}&amp;=0.3\\ ,\\ \\text{得}\\\\&amp;\\Phi(\\frac{2}{\\sigma})-0.5=0.3,\\Phi(\\frac{2}{\\sigma})=0.8\\ .\\\\ \\text{又}\\quad&amp;P\\{X&lt;0\\}=\\Phi(\\frac{0-2}{\\sigma})=\\Phi(-\\frac{2}{\\sigma})=1-\\Phi(\\frac{2}{\\sigma})\\ ,\\\\ \\text{故}\\quad&amp;P\\{X&lt;0\\}&amp;=1-0.8=0.2\\ .\\end{aligned}\">\\begin{aligned}\\text{若}\\ \\xi&amp;\\sim N(\\mu,\\sigma^2)\\ ,\\ \\text{则}\\ \\frac{\\xi-\\mu}{\\sigma}\\sim N(0,1)\\ .\\ \\text{由于}X\\sim N(2,\\sigma^2)\\ ,\\ \\text{故}\\\\&amp;P\\{2&lt;X&lt;4\\}=\\Phi(\\frac{4-2}{\\sigma})-\\Phi(\\frac{2-2}{\\sigma})\\\\&amp;=\\Phi(\\frac{2}{\\sigma})-\\Phi(0)=\\Phi(\\frac{2}{\\sigma})-0.5\\ .\\\\ \\text{由假设}P\\{2&lt;X&lt;4\\}&amp;=0.3\\ ,\\ \\text{得}\\\\&amp;\\Phi(\\frac{2}{\\sigma})-0.5=0.3,\\Phi(\\frac{2}{\\sigma})=0.8\\ .\\\\ \\text{又}\\quad&amp;P\\{X&lt;0\\}=\\Phi(\\frac{0-2}{\\sigma})=\\Phi(-\\frac{2}{\\sigma})=1-\\Phi(\\frac{2}{\\sigma})\\ ,\\\\ \\text{故}\\quad&amp;P\\{X&lt;0\\}&amp;=1-0.8=0.2\\ .\\end{aligned}</div>"
     },
     {
       "id": "q0009",
       "number": 9,
       "header": "#9-Averge",
       "difficulty": "Averge",
-      "prompt_html": "<img src=\"/static/generated/assets/probability/ch028/q0009_prompt.png\"/>",
+      "prompt_html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{设随机变量}X\\sim N(\\mu,4^{2}),Y\\sim N(\\mu,5^{2}).\\ \\text{记}p_{1}=P\\{X\\leq \\mu-4\\},\\,p_{2}=P\\{Y\\geq \\mu+5\\},\\ \\text{则正确的是( ).}\">\\text{设随机变量}X\\sim N(\\mu,4^{2}),Y\\sim N(\\mu,5^{2}).\\ \\text{记}p_{1}=P\\{X\\leq \\mu-4\\},\\,p_{2}=P\\{Y\\geq \\mu+5\\},\\ \\text{则正确的是( ).}</span>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/probability/ch028/q0009_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{对任何实数} \\mu \\, , \\, \\text{都有} \\, p _ { 1 } \\neq p _ { 2 }\">\\text{对任何实数} \\mu \\, , \\, \\text{都有} \\, p _ { 1 } \\neq p _ { 2 }</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/probability/ch028/q0009_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{对} \\mu \\text{的部分数值，才有} p _ { 1 } = p _ { 2 }\">\\text{对} \\mu \\text{的部分数值，才有} p _ { 1 } = p _ { 2 }</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/probability/ch028/q0009_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\,p _ { 1 } , \\, p _ { 2 } \\, \\text{的关系不能确定}\">\\,p _ { 1 } , \\, p _ { 2 } \\, \\text{的关系不能确定}</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/probability/ch028/q0009_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{对任何实数} \\mu \\text{，都有} p _ { 1 } = p _ { 2 }\">\\text{对任何实数} \\mu \\text{，都有} p _ { 1 } = p _ { 2 }</span>"
         }
       ],
       "answer": "D",
       "answer_index": 3,
-      "analysis_html": "<img src=\"/static/generated/assets/probability/ch028/q0009_analysis.png\"/>"
+      "analysis_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{aligned}\\text{若}X\\sim N(\\mu,\\sigma^2)\\,,\\,\\text{则}\\,\\eta&amp;=\\frac{X-\\mu}{\\sigma}\\sim N(0,1)\\,.\\cr p_1&amp;=P\\{\\frac{X-\\mu}{4}\\leq \\frac{(\\mu-4)-\\mu}{4}\\}\\\\&amp;=P\\bigg(\\eta\\leq \\frac{\\mu-4-\\mu}{4}\\bigg)=\\Phi(-1)=1-\\Phi(1)\\,,\\\\p_2&amp;=P\\{\\frac{Y-\\mu}{5}\\geq \\frac{(\\mu+5)-\\mu}{5}\\}\\\\&amp;=P\\{\\eta\\geq 1\\}=1-P\\{\\eta&lt;1\\}=1-\\Phi(1)\\,.\\end{aligned}\">\\begin{aligned}\\text{若}X\\sim N(\\mu,\\sigma^2)\\,,\\,\\text{则}\\,\\eta&amp;=\\frac{X-\\mu}{\\sigma}\\sim N(0,1)\\,.\\cr p_1&amp;=P\\{\\frac{X-\\mu}{4}\\leq \\frac{(\\mu-4)-\\mu}{4}\\}\\\\&amp;=P\\bigg(\\eta\\leq \\frac{\\mu-4-\\mu}{4}\\bigg)=\\Phi(-1)=1-\\Phi(1)\\,,\\\\p_2&amp;=P\\{\\frac{Y-\\mu}{5}\\geq \\frac{(\\mu+5)-\\mu}{5}\\}\\\\&amp;=P\\{\\eta\\geq 1\\}=1-P\\{\\eta&lt;1\\}=1-\\Phi(1)\\,.\\end{aligned}</div>"
     },
     {
       "id": "q0010",
       "number": 10,
       "header": "#10-Averge",
       "difficulty": "Averge",
-      "prompt_html": "<img src=\"/static/generated/assets/probability/ch028/q0010_prompt.png\"/>",
+      "prompt_html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{设随机变量}\\,\\xi\\sim N(2,\\sigma^{2})\\,,\\,\\text{已知}\\,P\\{\\xi\\in[0,4]\\}=0.3\\,,\\,\\text{则}\\,P(\\xi&lt;0)=\\,(\\,\\,).\">\\text{设随机变量}\\,\\xi\\sim N(2,\\sigma^{2})\\,,\\,\\text{已知}\\,P\\{\\xi\\in[0,4]\\}=0.3\\,,\\,\\text{则}\\,P(\\xi&lt;0)=\\,(\\,\\,).</span>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/probability/ch028/q0010_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"0.35\">0.35</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/probability/ch028/q0010_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"0.30\">0.30</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/probability/ch028/q0010_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"0.65\">0.65</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/probability/ch028/q0010_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"0.50\">0.50</span>"
         }
       ],
       "answer": "A",
       "answer_index": 0,
-      "analysis_html": "<img src=\"/static/generated/assets/probability/ch028/q0010_analysis.png\"/>"
+      "analysis_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{aligned} \\text{由}\\ \\xi\\sim N(2,\\sigma^2)\\Rightarrow \\frac{\\xi-2}{\\sigma}\\sim N(0,1)\\,,\\ \\text{而}\\\\ P\\{\\xi\\in[0,4]\\}&amp;=P\\{0\\leq \\xi\\leq 4\\}=P\\left\\{\\frac{0-2}{\\sigma}\\leq \\frac{\\xi-2}{\\sigma}\\leq \\frac{4-2}{\\sigma}\\right\\}\\\\&amp;=\\Phi(\\frac{2}{\\sigma})-\\Phi(-\\frac{2}{\\sigma})\\\\&amp;=2\\Phi(\\frac{2}{\\sigma})-1=0.3\\\\ \\Rightarrow \\Phi(\\frac{2}{\\sigma})&amp;=0.65\\,.\\\\ \\text{则}\\\\ P(\\xi&lt;0)&amp;=P(\\frac{\\xi-2}{\\sigma}&lt;\\frac{0-2}{\\sigma})\\\\&amp;=\\Phi(-\\frac{2}{\\sigma})=1-\\Phi(\\frac{2}{\\sigma})=0.35\\,.\\\\ \\text{其中，}\\ \\Phi\\text{为标准正态分布的分布函数}\\end{aligned}\">\\begin{aligned} \\text{由}\\ \\xi\\sim N(2,\\sigma^2)\\Rightarrow \\frac{\\xi-2}{\\sigma}\\sim N(0,1)\\,,\\ \\text{而}\\\\ P\\{\\xi\\in[0,4]\\}&amp;=P\\{0\\leq \\xi\\leq 4\\}=P\\left\\{\\frac{0-2}{\\sigma}\\leq \\frac{\\xi-2}{\\sigma}\\leq \\frac{4-2}{\\sigma}\\right\\}\\\\&amp;=\\Phi(\\frac{2}{\\sigma})-\\Phi(-\\frac{2}{\\sigma})\\\\&amp;=2\\Phi(\\frac{2}{\\sigma})-1=0.3\\\\ \\Rightarrow \\Phi(\\frac{2}{\\sigma})&amp;=0.65\\,.\\\\ \\text{则}\\\\ P(\\xi&lt;0)&amp;=P(\\frac{\\xi-2}{\\sigma}&lt;\\frac{0-2}{\\sigma})\\\\&amp;=\\Phi(-\\frac{2}{\\sigma})=1-\\Phi(\\frac{2}{\\sigma})=0.35\\,.\\\\ \\text{其中，}\\ \\Phi\\text{为标准正态分布的分布函数}\\end{aligned}</div>"
     },
     {
       "id": "q0011",
       "number": 11,
       "header": "#11-Averge",
       "difficulty": "Averge",
-      "prompt_html": "<img src=\"/static/generated/assets/probability/ch028/q0011_prompt.png\"/>",
+      "prompt_html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{设}\\,\\xi\\sim N(0.5,0.25)\\text{，且有}\\Phi(2)=0.9772\\text{，}\\Phi(4)=1\\text{，}\\Phi(1)=0.8413\\text{，则}P\\{\\xi&lt;0\\text{或}\\xi&gt;1\\}=\\text{()}\\,.\">\\text{设}\\,\\xi\\sim N(0.5,0.25)\\text{，且有}\\Phi(2)=0.9772\\text{，}\\Phi(4)=1\\text{，}\\Phi(1)=0.8413\\text{，则}P\\{\\xi&lt;0\\text{或}\\xi&gt;1\\}=\\text{()}\\,.</span>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/probability/ch028/q0011_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"0.3174\">0.3174</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/probability/ch028/q0011_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"0.0228\">0.0228</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/probability/ch028/q0011_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"0.0456\">0.0456</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/probability/ch028/q0011_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"0.1587\">0.1587</span>"
         }
       ],
       "answer": "A",
       "answer_index": 0,
-      "analysis_html": "<img src=\"/static/generated/assets/probability/ch028/q0011_analysis.png\"/>"
+      "analysis_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{aligned}&amp;\\text{若}X\\sim N(\\mu,\\sigma^2)\\text{，则}\\frac{X-\\mu}{\\sigma}\\sim N(0,1).\\\\&amp;\\text{所以}\\;\\;U=\\frac{\\xi-0.5}{0.5}\\sim N(0,1).\\\\&amp;P\\{\\xi&lt;0\\text{或}\\xi&gt;1\\}\\,=1-P\\{0\\leq\\xi\\leq 1\\}\\,,\\\\&amp;\\text{而}P\\{0\\leq\\xi\\leq 1\\}=P\\{\\frac{0-0.5}{0.5}\\leq\\frac{\\xi-0.5}{0.5}\\leq\\frac{1-0.5}{0.5}\\}=P\\{-1\\leq U\\leq 1\\}=2\\Phi(1)-1\\,.\\\\&amp;P\\{\\xi&lt;0\\text{或}\\xi&gt;1\\}\\,=2[1-\\Phi(1)]=0.3174\\,.\\end{aligned}\">\\begin{aligned}&amp;\\text{若}X\\sim N(\\mu,\\sigma^2)\\text{，则}\\frac{X-\\mu}{\\sigma}\\sim N(0,1).\\\\&amp;\\text{所以}\\;\\;U=\\frac{\\xi-0.5}{0.5}\\sim N(0,1).\\\\&amp;P\\{\\xi&lt;0\\text{或}\\xi&gt;1\\}\\,=1-P\\{0\\leq\\xi\\leq 1\\}\\,,\\\\&amp;\\text{而}P\\{0\\leq\\xi\\leq 1\\}=P\\{\\frac{0-0.5}{0.5}\\leq\\frac{\\xi-0.5}{0.5}\\leq\\frac{1-0.5}{0.5}\\}=P\\{-1\\leq U\\leq 1\\}=2\\Phi(1)-1\\,.\\\\&amp;P\\{\\xi&lt;0\\text{或}\\xi&gt;1\\}\\,=2[1-\\Phi(1)]=0.3174\\,.\\end{aligned}</div>"
     },
     {
       "id": "q0012",
       "number": 12,
       "header": "#12-Hard",
       "difficulty": "Hard",
-      "prompt_html": "<img src=\"/static/generated/assets/probability/ch028/q0012_prompt.png\"/>",
+      "prompt_html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{设测量误差}X\\sim N(0,10^{2}),\\text{先进行}100\\text{次独立测量，则误差的绝对值超过}19.6\\text{的次数不小于}3\\text{的概率为}().\">\\text{设测量误差}X\\sim N(0,10^{2}),\\text{先进行}100\\text{次独立测量，则误差的绝对值超过}19.6\\text{的次数不小于}3\\text{的概率为}().</span>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/probability/ch028/q0012_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"0.87\">0.87</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/probability/ch028/q0012_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"0.66\">0.66</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/probability/ch028/q0012_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"0.92\">0.92</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/probability/ch028/q0012_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"0.59\">0.59</span>"
         }
       ],
       "answer": "A",
       "answer_index": 0,
-      "analysis_html": "<img src=\"/static/generated/assets/probability/ch028/q0012_analysis.png\"/>"
+      "analysis_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{aligned} &amp; \\text{先求任意误差的绝对值超过19.6的概率}p\\\\ &amp; \\quad P=\\mathop{P}\\{\\left|X\\right|&gt;19.6\\} = 1-\\mathop{P}\\{\\left|X\\right|\\leq 19.6\\} \\\\ &amp; \\quad = 1-\\mathop{P}\\left\\{\\left|\\frac{X}{10}\\right|\\leq 1.96\\right\\} = 1-\\left[\\Phi(1.96)-\\Phi(-1.96)\\right]\\\\ &amp; \\quad = 1-[2\\Phi(1.96)-1] = 1-[2\\times 0.975-1] = 1-0.95=0.05. \\\\ &amp; \\text{设}Y\\text{为}100\\text{次测量中误差绝对值超过}19.6\\text{的次数}，\\text{则}Y\\sim b(100,0.05). \\\\ &amp; \\text{因为}n\\text{很大},p\\text{很小，可用泊松分布近似，}np=5=\\lambda,\\text{所以}\\\\ &amp; \\quad P\\{Y\\geq 3\\}\\approx 1-\\frac{5^0e^{-5}}{0!}-\\frac{5^1e^{-5}}{1!}-\\frac{5^2e^{-5}}{2!}=1-\\frac{37}{2}^{-5}\\approx 0.87.\\end{aligned}\">\\begin{aligned} &amp; \\text{先求任意误差的绝对值超过19.6的概率}p\\\\ &amp; \\quad P=\\mathop{P}\\{\\left|X\\right|&gt;19.6\\} = 1-\\mathop{P}\\{\\left|X\\right|\\leq 19.6\\} \\\\ &amp; \\quad = 1-\\mathop{P}\\left\\{\\left|\\frac{X}{10}\\right|\\leq 1.96\\right\\} = 1-\\left[\\Phi(1.96)-\\Phi(-1.96)\\right]\\\\ &amp; \\quad = 1-[2\\Phi(1.96)-1] = 1-[2\\times 0.975-1] = 1-0.95=0.05. \\\\ &amp; \\text{设}Y\\text{为}100\\text{次测量中误差绝对值超过}19.6\\text{的次数}，\\text{则}Y\\sim b(100,0.05). \\\\ &amp; \\text{因为}n\\text{很大},p\\text{很小，可用泊松分布近似，}np=5=\\lambda,\\text{所以}\\\\ &amp; \\quad P\\{Y\\geq 3\\}\\approx 1-\\frac{5^0e^{-5}}{0!}-\\frac{5^1e^{-5}}{1!}-\\frac{5^2e^{-5}}{2!}=1-\\frac{37}{2}^{-5}\\approx 0.87.\\end{aligned}</div>"
     },
     {
       "id": "q0013",
       "number": 13,
       "header": "#13-Averge",
       "difficulty": "Averge",
-      "prompt_html": "<img src=\"/static/generated/assets/probability/ch028/q0013_prompt.png\"/>",
+      "prompt_html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{随机变量}\\,\\xi\\sim N(a,\\sigma^{2})\\,,\\,\\text{记}g(\\sigma)=P\\{\\vert\\xi-a\\vert&lt;\\sigma\\}\\,,\\,\\text{则随着}\\,\\sigma\\text{的增大，}\\,\\,g(\\sigma)\\text{之值}(\\,).\">\\text{随机变量}\\,\\xi\\sim N(a,\\sigma^{2})\\,,\\,\\text{记}g(\\sigma)=P\\{\\vert\\xi-a\\vert&lt;\\sigma\\}\\,,\\,\\text{则随着}\\,\\sigma\\text{的增大，}\\,\\,g(\\sigma)\\text{之值}(\\,).</span>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/probability/ch028/q0013_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{保持不变}\">\\text{保持不变}</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/probability/ch028/q0013_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{单调增大}\">\\text{单调增大}</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/probability/ch028/q0013_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{单调减少}\">\\text{单调减少}</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/probability/ch028/q0013_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{增减性确定}\">\\text{增减性确定}</span>"
         }
       ],
       "answer": "A",
       "answer_index": 0,
-      "analysis_html": "<img src=\"/static/generated/assets/probability/ch028/q0013_analysis.png\"/>"
+      "analysis_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{aligned}\\text{若}X\\sim N(\\mu,\\sigma^2)\\text{，则}\\eta=\\frac{X-\\mu}{\\sigma}\\sim N(0,1)\\text{．从而}\\\\P\\{|X-a|&lt;\\sigma\\}&amp;=P\\{\\frac{X-a}{\\sigma}|&lt;1\\}=P\\{|\\eta|&lt;1\\}\\,,\\\\ \\text{所以不管}\\sigma\\text{变大还是变小，}P\\{|X-a|&lt;\\sigma\\}\\text{的大小都不变}.\\end{aligned}\">\\begin{aligned}\\text{若}X\\sim N(\\mu,\\sigma^2)\\text{，则}\\eta=\\frac{X-\\mu}{\\sigma}\\sim N(0,1)\\text{．从而}\\\\P\\{|X-a|&lt;\\sigma\\}&amp;=P\\{\\frac{X-a}{\\sigma}|&lt;1\\}=P\\{|\\eta|&lt;1\\}\\,,\\\\ \\text{所以不管}\\sigma\\text{变大还是变小，}P\\{|X-a|&lt;\\sigma\\}\\text{的大小都不变}.\\end{aligned}</div>"
     },
     {
       "id": "q0014",
       "number": 14,
       "header": "#14-Averge",
       "difficulty": "Averge",
-      "prompt_html": "<img src=\"/static/generated/assets/probability/ch028/q0014_prompt.png\"/>",
+      "prompt_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{aligned} \\text{已知某台机器生产的螺栓长度} \\lambda \\text{（单位：厘米）} \\text{服从参数} \\mu = 10.05, \\sigma = 0.06 \\text{的正态分布．规定螺栓长度在} 10.05 \\pm 0.12 \\text{内为合格品，则螺栓为合格品的概率为( ).} \\end{aligned}\">\\begin{aligned} \\text{已知某台机器生产的螺栓长度} \\lambda \\text{（单位：厘米）} \\text{服从参数} \\mu = 10.05, \\sigma = 0.06 \\text{的正态分布．规定螺栓长度在} 10.05 \\pm 0.12 \\text{内为合格品，则螺栓为合格品的概率为( ).} \\end{aligned}</div>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/probability/ch028/q0014_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"0.9544\">0.9544</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/probability/ch028/q0014_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"0.6331\">0.6331</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/probability/ch028/q0014_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"0.5587\">0.5587</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/probability/ch028/q0014_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"0.3662\">0.3662</span>"
         }
       ],
       "answer": "A",
       "answer_index": 0,
-      "analysis_html": "<img src=\"/static/generated/assets/probability/ch028/q0014_analysis.png\"/>"
+      "analysis_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{aligned} &amp; \\text{根据假设} X\\sim N(10.05,0.06^2), \\text{记} a=10.05-0.12,\\, b=10.05+0.12,\\text{则}\\{a\\leq X\\leq b\\} \\text{表示螺栓为合格品.于是,}\\\\ &amp; P\\{a\\leq X\\leq b\\}=P\\{a&lt;X\\leq b\\}=\\Phi\\left(\\frac{b-\\mu}{\\sigma}\\right)-\\Phi\\left(\\frac{a-\\mu}{\\sigma}\\right)\\\\ &amp; \\qquad=\\Phi(2)-\\Phi(-2)=\\Phi(2)-[1-\\Phi(2)]\\ =2\\Phi(2)-1=2\\times 0.9772-1=0.9544\\,,\\\\ &amp; \\text{即螺栓为合格品的概率等于0.9544.}\\end{aligned}\">\\begin{aligned} &amp; \\text{根据假设} X\\sim N(10.05,0.06^2), \\text{记} a=10.05-0.12,\\, b=10.05+0.12,\\text{则}\\{a\\leq X\\leq b\\} \\text{表示螺栓为合格品.于是,}\\\\ &amp; P\\{a\\leq X\\leq b\\}=P\\{a&lt;X\\leq b\\}=\\Phi\\left(\\frac{b-\\mu}{\\sigma}\\right)-\\Phi\\left(\\frac{a-\\mu}{\\sigma}\\right)\\\\ &amp; \\qquad=\\Phi(2)-\\Phi(-2)=\\Phi(2)-[1-\\Phi(2)]\\ =2\\Phi(2)-1=2\\times 0.9772-1=0.9544\\,,\\\\ &amp; \\text{即螺栓为合格品的概率等于0.9544.}\\end{aligned}</div>"
     },
     {
       "id": "q0015",
       "number": 15,
       "header": "#15-Averge",
       "difficulty": "Averge",
-      "prompt_html": "<img src=\"/static/generated/assets/probability/ch028/q0015_prompt.png\"/>",
+      "prompt_html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{设 } \\xi \\sim N(2, 2^3), \\text{ 且有 } \\Phi(4) = 1, \\ \\Phi(3) = 0.99865, \\ \\Phi(2) = 0.9772, \\ \\Phi(1) = 0.8413, \\text{ 则 } P\\{-4 &lt; \\xi &lt; -1\\} = (\\text{.})\">\\text{设 } \\xi \\sim N(2, 2^3), \\text{ 且有 } \\Phi(4) = 1, \\ \\Phi(3) = 0.99865, \\ \\Phi(2) = 0.9772, \\ \\Phi(1) = 0.8413, \\text{ 则 } P\\{-4 &lt; \\xi &lt; -1\\} = (\\text{.})</span>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/probability/ch028/q0015_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"0.8413\">0.8413</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/probability/ch028/q0015_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"0.1359\">0.1359</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/probability/ch028/q0015_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"0.9772\">0.9772</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/probability/ch028/q0015_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"0.2618\">0.2618</span>"
         }
       ],
       "answer": "B",
       "answer_index": 1,
-      "analysis_html": "<img src=\"/static/generated/assets/probability/ch028/q0015_analysis.png\"/>"
+      "analysis_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{aligned}&amp;\\text{若}X\\sim N(\\mu,\\sigma^2)\\text{，则}\\frac{X-\\mu}{\\sigma}\\sim N(0,1)\\,,\\\\&amp;\\text{所以}\\,\\,\\,U=\\frac{\\xi-2}{3}\\sim N(0,1)\\,,\\\\&amp;\\text{从而}\\,\\,\\,P\\{-4&lt;\\xi&lt;-1\\}=P\\{-\\frac{-4-2}{3}&lt;\\frac{\\xi-2}{3}&lt;\\frac{-1-2}{3}\\}=P\\{-2&lt;U&lt;-1\\}\\,,\\\\&amp;\\text{又}P\\{-2&lt;U&lt;-1\\}=\\Phi(-1)-\\Phi(-2)=[1-\\Phi(1)]-[1-\\Phi(2)]=\\Phi(2)-\\Phi(1)\\\\&amp;\\quad=0.9772-0.8413=0.1359\\,.\\\\&amp;\\text{故}\\,\\,\\,P\\{-4&lt;\\xi&lt;-1\\}=0.1359\\,.\\end{aligned}\">\\begin{aligned}&amp;\\text{若}X\\sim N(\\mu,\\sigma^2)\\text{，则}\\frac{X-\\mu}{\\sigma}\\sim N(0,1)\\,,\\\\&amp;\\text{所以}\\,\\,\\,U=\\frac{\\xi-2}{3}\\sim N(0,1)\\,,\\\\&amp;\\text{从而}\\,\\,\\,P\\{-4&lt;\\xi&lt;-1\\}=P\\{-\\frac{-4-2}{3}&lt;\\frac{\\xi-2}{3}&lt;\\frac{-1-2}{3}\\}=P\\{-2&lt;U&lt;-1\\}\\,,\\\\&amp;\\text{又}P\\{-2&lt;U&lt;-1\\}=\\Phi(-1)-\\Phi(-2)=[1-\\Phi(1)]-[1-\\Phi(2)]=\\Phi(2)-\\Phi(1)\\\\&amp;\\quad=0.9772-0.8413=0.1359\\,.\\\\&amp;\\text{故}\\,\\,\\,P\\{-4&lt;\\xi&lt;-1\\}=0.1359\\,.\\end{aligned}</div>"
     },
     {
       "id": "q0016",
       "number": 16,
       "header": "#16-Averge",
       "difficulty": "Averge",
-      "prompt_html": "<img src=\"/static/generated/assets/probability/ch028/q0016_prompt.png\"/>",
+      "prompt_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{array}{l} \\text{设随机变量}\\xi \\text{服从正态分布}N(1,4),\\ \\eta=f(\\xi)\\text{服从标准正态分布，则}f(\\xi)=(\\ ). \\end{array}\">\\begin{array}{l} \\text{设随机变量}\\xi \\text{服从正态分布}N(1,4),\\ \\eta=f(\\xi)\\text{服从标准正态分布，则}f(\\xi)=(\\ ). \\end{array}</div>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/probability/ch028/q0016_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\frac {\\xi - 1}{2}\">\\frac {\\xi - 1}{2}</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/probability/ch028/q0016_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\frac { \\zeta - 1 } { 4 }\">\\frac { \\zeta - 1 } { 4 }</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/probability/ch028/q0016_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\frac { \\xi - 1 } { 3 }\">\\frac { \\xi - 1 } { 3 }</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/probability/ch028/q0016_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\scriptstyle 3 \\xi + 1\">\\scriptstyle 3 \\xi + 1</span>"
         }
       ],
       "answer": "A",
       "answer_index": 0,
-      "analysis_html": "<img src=\"/static/generated/assets/probability/ch028/q0016_analysis.png\"/>"
+      "analysis_html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{若}X\\sim N(\\mu,\\sigma^{2}),\\text{则}\\eta=\\frac{X-\\mu}{\\sigma^{2}}\\sim N(0,1),\\text{故由}\\xi\\sim N(1,4)\\ \\rightarrow\\ \\frac{\\xi-1}{2}\\sim N(0,1),\\ \\text{所以}f(\\xi)=\\frac{\\xi-1}{2}\\,.\">\\text{若}X\\sim N(\\mu,\\sigma^{2}),\\text{则}\\eta=\\frac{X-\\mu}{\\sigma^{2}}\\sim N(0,1),\\text{故由}\\xi\\sim N(1,4)\\ \\rightarrow\\ \\frac{\\xi-1}{2}\\sim N(0,1),\\ \\text{所以}f(\\xi)=\\frac{\\xi-1}{2}\\,.</span>"
     },
     {
       "id": "q0017",
       "number": 17,
       "header": "#17-Averge",
       "difficulty": "Averge",
-      "prompt_html": "<img src=\"/static/generated/assets/probability/ch028/q0017_prompt.png\"/>",
+      "prompt_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{aligned}\\text{设随机变量} \\lambda \\text{与} Y \\text{均服从正态分布，} \\; X \\sim N(\\mu, 4^2), \\; Y \\sim N(\\mu, 5^2) \\text{记} p_1 = P\\{X \\leq \\mu - 4a\\}, \\; p_2 = P\\{Y \\geq \\mu + 5a\\}, \\\\a \\in R, \\; \\text{则}() .\\end{aligned}\">\\begin{aligned}\\text{设随机变量} \\lambda \\text{与} Y \\text{均服从正态分布，} \\; X \\sim N(\\mu, 4^2), \\; Y \\sim N(\\mu, 5^2) \\text{记} p_1 = P\\{X \\leq \\mu - 4a\\}, \\; p_2 = P\\{Y \\geq \\mu + 5a\\}, \\\\a \\in R, \\; \\text{则}() .\\end{aligned}</div>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/probability/ch028/q0017_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{对任何实数} \\mu \\text{，都有} p_{1} &lt; p_{2}\">\\text{对任何实数} \\mu \\text{，都有} p_{1} &lt; p_{2}</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/probability/ch028/q0017_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{对任何实数} \\mu \\text{，都有} p _ { 1 } = p _ { 2 }\">\\text{对任何实数} \\mu \\text{，都有} p _ { 1 } = p _ { 2 }</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/probability/ch028/q0017_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{只对} \\mu \\text{的个别值，才有} p_{1} = p_{2}\">\\text{只对} \\mu \\text{的个别值，才有} p_{1} = p_{2}</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/probability/ch028/q0017_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{对任何实数} \\mu \\, , \\, \\text{都有} \\, p _ { 1 } &gt; p _ { 2 }\">\\text{对任何实数} \\mu \\, , \\, \\text{都有} \\, p _ { 1 } &gt; p _ { 2 }</span>"
         }
       ],
       "answer": "B",
       "answer_index": 1,
-      "analysis_html": "<img src=\"/static/generated/assets/probability/ch028/q0017_analysis.png\"/>"
+      "analysis_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{aligned}\\text{若}X\\sim N(\\mu,\\sigma^2),\\text{则}\\eta=\\frac{X-\\mu}{\\sigma}\\sim N(0,1)\\,.\\\\p_1&amp;=P\\{\\frac{X-\\mu}{4}\\leq\\frac{(\\mu-4a)-\\mu}{4}\\}\\\\&amp;=P\\{\\eta\\leq\\frac{\\mu-4a-\\mu}{4}\\}=\\Phi(-a)=1-\\Phi(a)\\,,\\\\p_2&amp;=P\\{\\frac{Y-\\mu}{2}\\geq\\frac{(\\mu+5a)-\\mu}{5}\\}\\\\&amp;=P\\{\\eta\\geq a\\}=1-P\\{\\eta&lt;a\\}=1-\\Phi(a)\\,.\\end{aligned}\">\\begin{aligned}\\text{若}X\\sim N(\\mu,\\sigma^2),\\text{则}\\eta=\\frac{X-\\mu}{\\sigma}\\sim N(0,1)\\,.\\\\p_1&amp;=P\\{\\frac{X-\\mu}{4}\\leq\\frac{(\\mu-4a)-\\mu}{4}\\}\\\\&amp;=P\\{\\eta\\leq\\frac{\\mu-4a-\\mu}{4}\\}=\\Phi(-a)=1-\\Phi(a)\\,,\\\\p_2&amp;=P\\{\\frac{Y-\\mu}{2}\\geq\\frac{(\\mu+5a)-\\mu}{5}\\}\\\\&amp;=P\\{\\eta\\geq a\\}=1-P\\{\\eta&lt;a\\}=1-\\Phi(a)\\,.\\end{aligned}</div>"
     },
     {
       "id": "q0018",
       "number": 18,
       "header": "#18-Hard",
       "difficulty": "Hard",
-      "prompt_html": "<img src=\"/static/generated/assets/probability/ch028/q0018_prompt.png\"/>",
+      "prompt_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{aligned} \\text{某地区18岁女青年的血压(收缩压,以}mm-HG\\text{计)服从}N(110,12^2)\\text{。在该地区任选一18岁女青年，测量她的血压}X,\\text{，则关于}P\\{X\\leq 105\\},\\\\P\\{100&lt;X\\leq 120\\},\\text{以及使}P\\{X&gt;x\\}\\leq 0.005\\text{成立的最小的整数}x,\\text{，则下列说法正确的是( ).}\\\\text{注：}\\Phi(0.42)=0.6628,\\Phi(0.833)=0.7975,\\Phi(1.645)=0.95)\\end{aligned}\">\\begin{aligned} \\text{某地区18岁女青年的血压(收缩压,以}mm-HG\\text{计)服从}N(110,12^2)\\text{。在该地区任选一18岁女青年，测量她的血压}X,\\text{，则关于}P\\{X\\leq 105\\},\\\\P\\{100&lt;X\\leq 120\\},\\text{以及使}P\\{X&gt;x\\}\\leq 0.005\\text{成立的最小的整数}x,\\text{，则下列说法正确的是( ).}\\\\text{注：}\\Phi(0.42)=0.6628,\\Phi(0.833)=0.7975,\\Phi(1.645)=0.95)\\end{aligned}</div>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/probability/ch028/q0018_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\begin{array}{l} { r } { P \\{ 100 &lt; X \\leq 120 \\} = 0 . 595 } \\end{array}\">\\begin{array}{l} { r } { P \\{ 100 &lt; X \\leq 120 \\} = 0 . 595 } \\end{array}</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/probability/ch028/q0018_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\begin{array}{l} { r } { P \\{ X \\leq 105 \\} = 0 . 3272 } \\end{array}\">\\begin{array}{l} { r } { P \\{ X \\leq 105 \\} = 0 . 3272 } \\end{array}</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/probability/ch028/q0018_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"x \\geq 158.74\">x \\geq 158.74</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/probability/ch028/q0018_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\begin{array}{l} { r } { P \\{ X \\leq 105 \\} = 0 . 3472 } \\end{array}\">\\begin{array}{l} { r } { P \\{ X \\leq 105 \\} = 0 . 3472 } \\end{array}</span>"
         }
       ],
       "answer": "A",
       "answer_index": 0,
-      "analysis_html": "<img src=\"/static/generated/assets/probability/ch028/q0018_analysis.png\"/>"
+      "analysis_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{aligned} \\text{已知血压}X\\sim N(110,12^2).1)P\\{X\\leq 105\\}&amp;=P\\left\\{\\frac{X-110}{12}\\leq \\frac{-5}{12}\\right\\}\\approx 1-\\Phi(0.42)=0.3372,\\\\P\\{100&lt;X\\leq 120\\}&amp;=\\Phi\\left(\\frac{120-110}{12}\\right)-\\Phi\\left(\\frac{100-110}{12}\\right)\\\\&amp;=\\Phi(0.833)-\\Phi(-0.833)=2\\Phi(0.833)-1=0.595.2) \\text{使}P\\{X&gt;x\\}\\leq 0.05,\\ \\text{求}x,\\ \\text{即}1-P\\{X\\leq x\\}\\leq 0.05,\\ \\text{亦即}\\Phi\\left(\\frac{x-110}{12}\\right)\\geq 0.95.\\\\ \\text{查表即}\\frac{x-100}{12}&amp;\\geq 1.645,\\ \\text{从而}x\\geq 129.74.\\end{aligned}\">\\begin{aligned} \\text{已知血压}X\\sim N(110,12^2).1)P\\{X\\leq 105\\}&amp;=P\\left\\{\\frac{X-110}{12}\\leq \\frac{-5}{12}\\right\\}\\approx 1-\\Phi(0.42)=0.3372,\\\\P\\{100&lt;X\\leq 120\\}&amp;=\\Phi\\left(\\frac{120-110}{12}\\right)-\\Phi\\left(\\frac{100-110}{12}\\right)\\\\&amp;=\\Phi(0.833)-\\Phi(-0.833)=2\\Phi(0.833)-1=0.595.2) \\text{使}P\\{X&gt;x\\}\\leq 0.05,\\ \\text{求}x,\\ \\text{即}1-P\\{X\\leq x\\}\\leq 0.05,\\ \\text{亦即}\\Phi\\left(\\frac{x-110}{12}\\right)\\geq 0.95.\\\\ \\text{查表即}\\frac{x-100}{12}&amp;\\geq 1.645,\\ \\text{从而}x\\geq 129.74.\\end{aligned}</div>"
     },
     {
       "id": "q0019",
       "number": 19,
       "header": "#19-Averge",
       "difficulty": "Averge",
-      "prompt_html": "<img src=\"/static/generated/assets/probability/ch028/q0019_prompt.png\"/>",
+      "prompt_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{array}{l} \\text{设}X\\sim N(1,4),\\text{关于}F(5),P\\{0&lt;X\\leq 1.6\\},\\ P\\{\\left|X-1\\right|\\leq 2\\}, \\text{下列说法正确的是( ).} \\end{array}\">\\begin{array}{l} \\text{设}X\\sim N(1,4),\\text{关于}F(5),P\\{0&lt;X\\leq 1.6\\},\\ P\\{\\left|X-1\\right|\\leq 2\\}, \\text{下列说法正确的是( ).} \\end{array}</div>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/probability/ch028/q0019_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\begin{array}{l} { r } { P \\{ 0 &lt; X \\leq 1 . 6 \\} = 0 . 3094 } \\end{array}\">\\begin{array}{l} { r } { P \\{ 0 &lt; X \\leq 1 . 6 \\} = 0 . 3094 } \\end{array}</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/probability/ch028/q0019_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"F(5) = 0.323\">F(5) = 0.323</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/probability/ch028/q0019_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\begin{array}{l} { r } { P \\{ \\left| X - 1 \\right| \\leq 2 \\} \\, = 0 . 525 } \\end{array}\">\\begin{array}{l} { r } { P \\{ \\left| X - 1 \\right| \\leq 2 \\} \\, = 0 . 525 } \\end{array}</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/probability/ch028/q0019_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\begin{array}{l}P\\{\\left|X-1\\right|\\leq2\\}\\,=0.992\\end{array}\">\\begin{array}{l}P\\{\\left|X-1\\right|\\leq2\\}\\,=0.992\\end{array}</span>"
         }
       ],
       "answer": "A",
       "answer_index": 0,
-      "analysis_html": "<img src=\"/static/generated/assets/probability/ch028/q0019_analysis.png\"/>"
+      "analysis_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{aligned}F(5)=&amp;\\,P\\{X\\leq 5\\}=P\\left\\{\\frac{X-1}{2}\\leq \\frac{5-1}{2}\\right\\}=\\Phi\\left(\\frac{5-1}{2}\\right)=\\Phi(2)\\;=\\;0.9772;\\\\P\\{0&lt;X\\leq 1.6\\}=&amp;\\Phi\\left(\\frac{1.6-1}{2}\\right)-\\Phi\\left(\\frac{0-1}{2}\\right)=\\Phi(0.3)-\\Phi(-0.5)\\\\=&amp;\\;0.6179-[1-\\Phi(0.5)]=0.6179-(1-0.6915)=0.3094;\\\\P\\{\\left|X-1\\right|\\leq 2\\}=&amp;P\\{-1\\leq X\\leq 3\\}=P\\left\\{-1\\leq \\frac{X-1}{2}\\leq 1\\right\\}\\\\=&amp;\\Phi(1)-\\Phi(-1)=2\\Phi(1)-1=2\\times 0.8413-1=0.6826.\\end{aligned}\">\\begin{aligned}F(5)=&amp;\\,P\\{X\\leq 5\\}=P\\left\\{\\frac{X-1}{2}\\leq \\frac{5-1}{2}\\right\\}=\\Phi\\left(\\frac{5-1}{2}\\right)=\\Phi(2)\\;=\\;0.9772;\\\\P\\{0&lt;X\\leq 1.6\\}=&amp;\\Phi\\left(\\frac{1.6-1}{2}\\right)-\\Phi\\left(\\frac{0-1}{2}\\right)=\\Phi(0.3)-\\Phi(-0.5)\\\\=&amp;\\;0.6179-[1-\\Phi(0.5)]=0.6179-(1-0.6915)=0.3094;\\\\P\\{\\left|X-1\\right|\\leq 2\\}=&amp;P\\{-1\\leq X\\leq 3\\}=P\\left\\{-1\\leq \\frac{X-1}{2}\\leq 1\\right\\}\\\\=&amp;\\Phi(1)-\\Phi(-1)=2\\Phi(1)-1=2\\times 0.8413-1=0.6826.\\end{aligned}</div>"
     }
-  ]
+  ],
+  "format": "latex",
+  "source_md": "gl/2.2.3_正态分布标准化与应用(19题)/2.2.3_正态分布标准化与应用(19题).md"
 }

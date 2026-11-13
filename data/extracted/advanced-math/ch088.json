@@ -13,1820 +13,1822 @@
       "number": 1,
       "header": "#1-Averge",
       "difficulty": "Averge",
-      "prompt_html": "<img src=\"/static/generated/assets/advanced-math/ch088/q0001_prompt.png\"/>",
+      "prompt_html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{级数} \\sum_{n=2}^{\\infty} \\left( \\frac{3^{n}}{n \\ln n} + \\frac{2^{n}}{n^{2}} \\right) x^{n} \\text{的收敛域是} [ \\quad ].\">\\text{级数} \\sum_{n=2}^{\\infty} \\left( \\frac{3^{n}}{n \\ln n} + \\frac{2^{n}}{n^{2}} \\right) x^{n} \\text{的收敛域是} [ \\quad ].</span>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch088/q0001_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"( - \\frac { 1 } { 2 } , \\frac { 1 } { 2 } )\">( - \\frac { 1 } { 2 } , \\frac { 1 } { 2 } )</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch088/q0001_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\left[ - \\frac { 1 } { 3 } , \\frac { 1 } { 3 } ) \\right.\">\\left[ - \\frac { 1 } { 3 } , \\frac { 1 } { 3 } ) \\right.</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch088/q0001_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\left[ - \\frac { 1 } { 3 } , \\frac { 1 } { 3 } \\right]\">\\left[ - \\frac { 1 } { 3 } , \\frac { 1 } { 3 } \\right]</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch088/q0001_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\left[ - \\frac { 1 } { 2 } , \\frac { 1 } { 2 } \\right) .\">\\left[ - \\frac { 1 } { 2 } , \\frac { 1 } { 2 } \\right) .</span>"
         }
       ],
       "answer": "B",
       "answer_index": 1,
-      "analysis_html": "<img src=\"/static/generated/assets/advanced-math/ch088/q0001_analysis.png\"/>"
+      "analysis_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{array}{l} \\text {解答：} \\sum_{n=2}^{\\infty} \\left( \\frac{3^{n}}{n \\ln n} + \\frac{2^{n}}{n^{2}} \\right) x^{n} = \\sum_{n=2}^{\\infty} \\frac{3^{n}}{n \\ln n} x^{n} + \\sum_{n=2}^{\\infty} \\frac{2^{n}}{n^{2}} x^{n}, \\quad \\\\ \\text {对} \\sum_{n=1}^{\\infty} \\frac{3^{n}}{n \\ln n} x^{n}, \\lim_{n \\to \\infty} \\left| \\frac{\\frac{3^{n+1}}{(n+1) \\ln (n+1)} x^{n+1}}{\\frac{3^{n}}{n \\ln n} x^{n}} \\right| = 3 \\mid x \\mid &lt; 1, \\text {解得收敛半径为} R_{1} = \\frac{1}{3}; \\\\ \\text {对} \\sum_{n=2}^{\\infty} \\frac{2^{n}}{n^{2}} x^{n}, \\lim_{n \\to \\infty} \\left| \\frac{\\frac{2^{n+1}}{(n+1)^{2}} x^{n+1}}{\\frac{2^{n}}{n^{2}} x^{n}} \\right| = 2 \\mid x \\mid &lt; 1, \\text {解得收敛半径为} R_{2} = \\frac{1}{2}, \\\\ \\text {则级数} \\sum_{n=2}^{\\infty} \\left( \\frac{3^{n}}{n \\ln n} + \\frac{2^{n}}{n^{2}} \\right) x^{n} \\text {的收敛半径为} R = \\frac{1}{3}. \\\\ \\text {当} x = - \\frac{1}{3} \\text {时，级数} \\sum_{n=1}^{\\infty} \\frac{(-1)^{n}}{n \\ln n} \\text {为交错级数，收敛；} \\\\ \\text {当} x = \\frac{1}{3} \\text {时，级数} = \\sum_{n=1}^{\\infty} \\frac{1}{n} \\text {，因为} \\int_{2}^{\\infty} \\frac{1}{x \\ln x} dx = \\ln x \\int_{2}^{\\infty} x^{-1} dx = \\infty, \\text {所以} \\sum_{n=1}^{\\infty} \\frac{1}{n \\ln n} \\text {发散，} \\\\ \\text {则收敛域为} \\left[ - \\frac{1}{3}, \\frac{1}{3} \\right). \\end{array}\">\\begin{array}{l} \\text {解答：} \\sum_{n=2}^{\\infty} \\left( \\frac{3^{n}}{n \\ln n} + \\frac{2^{n}}{n^{2}} \\right) x^{n} = \\sum_{n=2}^{\\infty} \\frac{3^{n}}{n \\ln n} x^{n} + \\sum_{n=2}^{\\infty} \\frac{2^{n}}{n^{2}} x^{n}, \\quad \\\\ \\text {对} \\sum_{n=1}^{\\infty} \\frac{3^{n}}{n \\ln n} x^{n}, \\lim_{n \\to \\infty} \\left| \\frac{\\frac{3^{n+1}}{(n+1) \\ln (n+1)} x^{n+1}}{\\frac{3^{n}}{n \\ln n} x^{n}} \\right| = 3 \\mid x \\mid &lt; 1, \\text {解得收敛半径为} R_{1} = \\frac{1}{3}; \\\\ \\text {对} \\sum_{n=2}^{\\infty} \\frac{2^{n}}{n^{2}} x^{n}, \\lim_{n \\to \\infty} \\left| \\frac{\\frac{2^{n+1}}{(n+1)^{2}} x^{n+1}}{\\frac{2^{n}}{n^{2}} x^{n}} \\right| = 2 \\mid x \\mid &lt; 1, \\text {解得收敛半径为} R_{2} = \\frac{1}{2}, \\\\ \\text {则级数} \\sum_{n=2}^{\\infty} \\left( \\frac{3^{n}}{n \\ln n} + \\frac{2^{n}}{n^{2}} \\right) x^{n} \\text {的收敛半径为} R = \\frac{1}{3}. \\\\ \\text {当} x = - \\frac{1}{3} \\text {时，级数} \\sum_{n=1}^{\\infty} \\frac{(-1)^{n}}{n \\ln n} \\text {为交错级数，收敛；} \\\\ \\text {当} x = \\frac{1}{3} \\text {时，级数} = \\sum_{n=1}^{\\infty} \\frac{1}{n} \\text {，因为} \\int_{2}^{\\infty} \\frac{1}{x \\ln x} dx = \\ln x \\int_{2}^{\\infty} x^{-1} dx = \\infty, \\text {所以} \\sum_{n=1}^{\\infty} \\frac{1}{n \\ln n} \\text {发散，} \\\\ \\text {则收敛域为} \\left[ - \\frac{1}{3}, \\frac{1}{3} \\right). \\end{array}</div>"
     },
     {
       "id": "q0002",
       "number": 2,
       "header": "#2-Averge",
       "difficulty": "Averge",
-      "prompt_html": "<img src=\"/static/generated/assets/advanced-math/ch088/q0002_prompt.png\"/>",
+      "prompt_html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{幂级数} \\ln x + \\ln ^ { 2 } x + \\cdots + \\ln ^ { n } x + \\cdots \\text{的收敛域是} [ \\quad ] . \\leftarrow\">\\text{幂级数} \\ln x + \\ln ^ { 2 } x + \\cdots + \\ln ^ { n } x + \\cdots \\text{的收敛域是} [ \\quad ] . \\leftarrow</span>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch088/q0002_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\frac{1}{e} \\leq x \\leq e\">\\frac{1}{e} \\leq x \\leq e</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch088/q0002_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\, x \\! &lt; \\! e \\,\">\\, x \\! &lt; \\! e \\,</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch088/q0002_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"x &gt; e. \\leftarrow\">x &gt; e. \\leftarrow</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch088/q0002_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\frac { 1 } { e } &lt; x &lt; e \\, ;\">\\frac { 1 } { e } &lt; x &lt; e \\, ;</span>"
         }
       ],
       "answer": "D",
       "answer_index": 3,
-      "analysis_html": "<img src=\"/static/generated/assets/advanced-math/ch088/q0002_analysis.png\"/>"
+      "analysis_html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{解答：这是几何级数，公比}q=\\ln x，\\text{则收敛域为}：|\\ln x|&lt;1，\\text{解得}，\\frac{1}{e}&lt;x&lt;e.\\uparrow\">\\text{解答：这是几何级数，公比}q=\\ln x，\\text{则收敛域为}：|\\ln x|&lt;1，\\text{解得}，\\frac{1}{e}&lt;x&lt;e.\\uparrow</span>"
     },
     {
       "id": "q0003",
       "number": 3,
       "header": "#3-Averge",
       "difficulty": "Averge",
-      "prompt_html": "<img src=\"/static/generated/assets/advanced-math/ch088/q0003_prompt.png\"/>",
+      "prompt_html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\sum_{n=0}^{\\infty} a_{n} (x-1)^{n} \\text{的收敛半径是} 1, \\text{则级数在} x=3 \\text{点} [ \\quad] .\">\\sum_{n=0}^{\\infty} a_{n} (x-1)^{n} \\text{的收敛半径是} 1, \\text{则级数在} x=3 \\text{点} [ \\quad] .</span>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch088/q0003_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{绝对收敛}\">\\text{绝对收敛}</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch088/q0003_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{条件收敛}\">\\text{条件收敛}</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch088/q0003_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{发散}\">\\text{发散}</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch088/q0003_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{不能确定敛散性.}\\leftarrow\">\\text{不能确定敛散性.}\\leftarrow</span>"
         }
       ],
       "answer": "C",
       "answer_index": 2,
-      "analysis_html": "<img src=\"/static/generated/assets/advanced-math/ch088/q0003_analysis.png\"/>"
+      "analysis_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{array}{l} \\text {解答：级数} \\sum \\limits_{n = 0} ^ { \\infty } a _ { n } ( x - 1 ) ^ { n } \\text {的收敛半径是} 1, \\text {则} | x - 1 | &gt; 1, \\text {即} x &gt; 2 \\text {时，级数发散，} \\\\ \\text {故级数在} x = 3 \\text {点发散}. \\end{array}\">\\begin{array}{l} \\text {解答：级数} \\sum \\limits_{n = 0} ^ { \\infty } a _ { n } ( x - 1 ) ^ { n } \\text {的收敛半径是} 1, \\text {则} | x - 1 | &gt; 1, \\text {即} x &gt; 2 \\text {时，级数发散，} \\\\ \\text {故级数在} x = 3 \\text {点发散}. \\end{array}</div>"
     },
     {
       "id": "q0004",
       "number": 4,
       "header": "#4-Averge",
       "difficulty": "Averge",
-      "prompt_html": "<img src=\"/static/generated/assets/advanced-math/ch088/q0004_prompt.png\"/>",
+      "prompt_html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{级数} \\sum _ { n = 1 } ^ { \\infty } \\frac { n 25 ^ { n } } { 6 ^ { n } } x ^ { n } ( 1 - x ) ^ { n } \\text{的收敛域是} [ \\quad \\quad ] . \\leftarrow\">\\text{级数} \\sum _ { n = 1 } ^ { \\infty } \\frac { n 25 ^ { n } } { 6 ^ { n } } x ^ { n } ( 1 - x ) ^ { n } \\text{的收敛域是} [ \\quad \\quad ] . \\leftarrow</span>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch088/q0004_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"( - \\frac { 3 } { 5 } , \\frac { 1 } { 5 } ) \\cup ( \\frac { 2 } { 5 } , \\frac { 6 } { 5 } )\">( - \\frac { 3 } { 5 } , \\frac { 1 } { 5 } ) \\cup ( \\frac { 2 } { 5 } , \\frac { 6 } { 5 } )</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch088/q0004_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"( - \\frac { 2 } { 5 } , \\frac { 1 } { 5 } ) \\cup ( \\frac { 3 } { 5 } , \\frac { 6 } { 5 } )\">( - \\frac { 2 } { 5 } , \\frac { 1 } { 5 } ) \\cup ( \\frac { 3 } { 5 } , \\frac { 6 } { 5 } )</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch088/q0004_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"(-\\frac{1}{5}, \\frac{2}{5}) \\cup (\\frac{3}{5}, \\frac{6}{5})\">(-\\frac{1}{5}, \\frac{2}{5}) \\cup (\\frac{3}{5}, \\frac{6}{5})</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch088/q0004_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"(\\frac{1}{5}, \\frac{2}{5}) \\cup (\\frac{3}{5}, \\frac{6}{5})\">(\\frac{1}{5}, \\frac{2}{5}) \\cup (\\frac{3}{5}, \\frac{6}{5})</span>"
         }
       ],
       "answer": "C",
       "answer_index": 2,
-      "analysis_html": "<img src=\"/static/generated/assets/advanced-math/ch088/q0004_analysis.png\"/>"
+      "analysis_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{aligned}&amp;\\text{解答：令}t=x(1-x)\\text{，则级数变为}\\sum_{n=1}^{\\infty}\\frac{n25^n}{6^n}t^n,\\ \\varphi\\\\&amp;\\rho=\\lim_{n\\rightarrow\\infty}\\left|\\frac{\\frac{(n+1)25^{n+1}}{6^{n+1}}}{\\frac{n25^n}{6^n}}\\right|=\\lim_{n\\rightarrow\\infty}\\left|\\frac{n+1}{n}\\frac{25}{6}\\right|=\\frac{25}{6},\\ \\text{所以}R=\\frac{1}{\\rho}=\\frac{6}{25},\\varphi\\\\&amp;\\text{当}t=\\pm\\frac{6}{25}\\text{时，级数}\\sum_{n=1}^{\\infty}n(\\pm1)^n\\text{都发散.即}x(1-x)&lt;\\frac{6}{25},\\ \\varphi\\\\&amp;\\text{解得收敛域为}(-\\frac{1}{5},\\frac{2}{5})\\cup(\\frac{3}{5},\\frac{6}{5})\\varphi\\end{aligned}\">\\begin{aligned}&amp;\\text{解答：令}t=x(1-x)\\text{，则级数变为}\\sum_{n=1}^{\\infty}\\frac{n25^n}{6^n}t^n,\\ \\varphi\\\\&amp;\\rho=\\lim_{n\\rightarrow\\infty}\\left|\\frac{\\frac{(n+1)25^{n+1}}{6^{n+1}}}{\\frac{n25^n}{6^n}}\\right|=\\lim_{n\\rightarrow\\infty}\\left|\\frac{n+1}{n}\\frac{25}{6}\\right|=\\frac{25}{6},\\ \\text{所以}R=\\frac{1}{\\rho}=\\frac{6}{25},\\varphi\\\\&amp;\\text{当}t=\\pm\\frac{6}{25}\\text{时，级数}\\sum_{n=1}^{\\infty}n(\\pm1)^n\\text{都发散.即}x(1-x)&lt;\\frac{6}{25},\\ \\varphi\\\\&amp;\\text{解得收敛域为}(-\\frac{1}{5},\\frac{2}{5})\\cup(\\frac{3}{5},\\frac{6}{5})\\varphi\\end{aligned}</div>"
     },
     {
       "id": "q0005",
       "number": 5,
       "header": "#5-Averge",
       "difficulty": "Averge",
-      "prompt_html": "<img src=\"/static/generated/assets/advanced-math/ch088/q0005_prompt.png\"/>",
+      "prompt_html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{设} \\lim_{n \\to \\infty} \\left| \\frac{a_{n}}{a_{n+1}} \\right| = 3 \\text{，则幂级数} \\sum_{n=0}^{\\infty} a_{n} x^{2n} \\text{的收敛半径是}[ \\quad].\">\\text{设} \\lim_{n \\to \\infty} \\left| \\frac{a_{n}}{a_{n+1}} \\right| = 3 \\text{，则幂级数} \\sum_{n=0}^{\\infty} a_{n} x^{2n} \\text{的收敛半径是}[ \\quad].</span>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch088/q0005_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"R = 3 \\; ;\">R = 3 \\; ;</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch088/q0005_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\displaystyle R = \\frac { 1 } { \\sqrt { 3 } } \\; ;\">\\displaystyle R = \\frac { 1 } { \\sqrt { 3 } } \\; ;</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch088/q0005_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\dot{R} = \\frac{1}{3}\\,.\\leftarrow\">\\dot{R} = \\frac{1}{3}\\,.\\leftarrow</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch088/q0005_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\scriptstyle R = \\sqrt { 3 }\">\\scriptstyle R = \\sqrt { 3 }</span>"
         }
       ],
       "answer": "D",
       "answer_index": 3,
-      "analysis_html": "<img src=\"/static/generated/assets/advanced-math/ch088/q0005_analysis.png\"/>"
+      "analysis_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{array}{l} \\text {解答: 令} t = x ^ {3}, \\text {则} \\sum \\limits_{n = 0} ^ {\\infty} a _ {n} t ^ {n} \\text {的收敛半径为} R = 3, \\text {即} | t | = x ^ {2} &lt; 3, \\text {解得} | x | &lt; \\sqrt {3}, \\text {所} \\\\ \\text {以收敛半径为} R = \\sqrt {3}. \\end{array}\">\\begin{array}{l} \\text {解答: 令} t = x ^ {3}, \\text {则} \\sum \\limits_{n = 0} ^ {\\infty} a _ {n} t ^ {n} \\text {的收敛半径为} R = 3, \\text {即} | t | = x ^ {2} &lt; 3, \\text {解得} | x | &lt; \\sqrt {3}, \\text {所} \\\\ \\text {以收敛半径为} R = \\sqrt {3}. \\end{array}</div>"
     },
     {
       "id": "q0006",
       "number": 6,
       "header": "#6-Averge",
       "difficulty": "Averge",
-      "prompt_html": "<img src=\"/static/generated/assets/advanced-math/ch088/q0006_prompt.png\"/>",
+      "prompt_html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{级数} \\sum_{n=1}^{\\infty} \\frac{ (x-5)^{n}}{ \\sqrt{n}} \\text{的收敛域是} [ \\quad]. \\leftarrow\">\\text{级数} \\sum_{n=1}^{\\infty} \\frac{ (x-5)^{n}}{ \\sqrt{n}} \\text{的收敛域是} [ \\quad]. \\leftarrow</span>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch088/q0006_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\left[ 4 , 6 \\right)\">\\left[ 4 , 6 \\right)</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch088/q0006_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\left( - 4 , 6 \\right)\">\\left( - 4 , 6 \\right)</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch088/q0006_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"( - 6 , 6 ) .\">( - 6 , 6 ) .</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch088/q0006_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\left[ - 4 , 4 \\right]\">\\left[ - 4 , 4 \\right]</span>"
         }
       ],
       "answer": "A",
       "answer_index": 0,
-      "analysis_html": "<img src=\"/static/generated/assets/advanced-math/ch088/q0006_analysis.png\"/>"
+      "analysis_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{array}{l} \\text {解答：} R = \\lim_{n \\to \\infty} \\left| \\frac{\\frac{1}{\\sqrt{n}}}{\\frac{1}{\\sqrt{n+1}}} \\right| = \\lim_{n \\to \\infty} \\sqrt{\\frac{n+1}{n}} = 1, \\\\ \\text{当} x-5 = 1 \\text{时，级数} \\sum_{n=1}^{\\infty} \\frac{1}{\\sqrt{n}} \\text{为} p = \\frac{1}{2} \\text{的} p \\text{级数，发散；当} x-5 = -1 \\text{时，级数} \\\\ \\sum_{n=1}^{\\infty} \\frac{(-1)^{n}}{\\sqrt{n}} \\text{交错级数，收敛，所以收敛域为} -1 \\leq x-5 &lt; 1, \\text{即} 4 \\leq x &lt; 6, \\end{array}\">\\begin{array}{l} \\text {解答：} R = \\lim_{n \\to \\infty} \\left| \\frac{\\frac{1}{\\sqrt{n}}}{\\frac{1}{\\sqrt{n+1}}} \\right| = \\lim_{n \\to \\infty} \\sqrt{\\frac{n+1}{n}} = 1, \\\\ \\text{当} x-5 = 1 \\text{时，级数} \\sum_{n=1}^{\\infty} \\frac{1}{\\sqrt{n}} \\text{为} p = \\frac{1}{2} \\text{的} p \\text{级数，发散；当} x-5 = -1 \\text{时，级数} \\\\ \\sum_{n=1}^{\\infty} \\frac{(-1)^{n}}{\\sqrt{n}} \\text{交错级数，收敛，所以收敛域为} -1 \\leq x-5 &lt; 1, \\text{即} 4 \\leq x &lt; 6, \\end{array}</div>"
     },
     {
       "id": "q0007",
       "number": 7,
       "header": "#7-Averge",
       "difficulty": "Averge",
-      "prompt_html": "<img src=\"/static/generated/assets/advanced-math/ch088/q0007_prompt.png\"/>",
+      "prompt_html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{设幂级数} \\sum_{n=1}^{\\infty} a_{n} x^{n} \\text{的收敛半径} R=1，\\text{试求幂级数} \\sum_{n=1}^{\\infty} \\frac{a_{n}}{n!} x^{n} \\text{的收敛半径是}[ \\quad].\">\\text{设幂级数} \\sum_{n=1}^{\\infty} a_{n} x^{n} \\text{的收敛半径} R=1，\\text{试求幂级数} \\sum_{n=1}^{\\infty} \\frac{a_{n}}{n!} x^{n} \\text{的收敛半径是}[ \\quad].</span>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch088/q0007_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\mathbf { 1 }\">\\mathbf { 1 }</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch088/q0007_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"+ \\infty\">+ \\infty</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch088/q0007_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{不能确定} .\">\\text{不能确定} .</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch088/q0007_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"0\">0</span>"
         }
       ],
       "answer": "B",
       "answer_index": 1,
-      "analysis_html": "<img src=\"/static/generated/assets/advanced-math/ch088/q0007_analysis.png\"/>"
+      "analysis_html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{解答：}\\ \\rho = \\lim_{n \\to \\infty} \\left| \\frac{\\frac{a_{n+1}}{(n+1)!}}{\\frac{a_{n}}{n!}} \\right| = \\lim_{n \\to \\infty} \\left| \\frac{a_{n+1}}{a_{n}} \\frac{1}{n+1} \\right| = 0 \\, , \\ \\text{所以} \\ R = \\frac{1}{\\rho} = + \\infty ,\">\\text{解答：}\\ \\rho = \\lim_{n \\to \\infty} \\left| \\frac{\\frac{a_{n+1}}{(n+1)!}}{\\frac{a_{n}}{n!}} \\right| = \\lim_{n \\to \\infty} \\left| \\frac{a_{n+1}}{a_{n}} \\frac{1}{n+1} \\right| = 0 \\, , \\ \\text{所以} \\ R = \\frac{1}{\\rho} = + \\infty ,</span>"
     },
     {
       "id": "q0008",
       "number": 8,
       "header": "#8-Averge",
       "difficulty": "Averge",
-      "prompt_html": "<img src=\"/static/generated/assets/advanced-math/ch088/q0008_prompt.png\"/>",
+      "prompt_html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{设级数} \\sum_{n=1}^{\\infty} a_{n} \\text{ 条件收敛，且} \\lim_{n \\to \\infty} \\left| \\frac{a_{n+1}}{a_{n}} \\right| = \\rho \\text{，则} [ \\quad]  .\">\\text{设级数} \\sum_{n=1}^{\\infty} a_{n} \\text{ 条件收敛，且} \\lim_{n \\to \\infty} \\left| \\frac{a_{n+1}}{a_{n}} \\right| = \\rho \\text{，则} [ \\quad]  .</span>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch088/q0008_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\rho = + \\infty\">\\rho = + \\infty</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch088/q0008_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\rho {&lt;} 1\">\\rho {&lt;} 1</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch088/q0008_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\rho = 1 \\text{;}\">\\rho = 1 \\text{;}</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch088/q0008_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\underset{\\sim}{1} &lt; \\rho &lt; + \\infty \\, .\">\\underset{\\sim}{1} &lt; \\rho &lt; + \\infty \\, .</span>"
         }
       ],
       "answer": "C",
       "answer_index": 2,
-      "analysis_html": "<img src=\"/static/generated/assets/advanced-math/ch088/q0008_analysis.png\"/>"
+      "analysis_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{aligned}\\text{解答:考虑幂级数}\\sum_{n=1}^{\\infty}a_nx^n, \\text{在}x=1\\text{处条件收敛,则收敛半径为}R=1, \\text{又}R=\\frac{1}{\\rho}=1, \\\\ \\text{所以}\\rho=1.\\end{aligned}\">\\begin{aligned}\\text{解答:考虑幂级数}\\sum_{n=1}^{\\infty}a_nx^n, \\text{在}x=1\\text{处条件收敛,则收敛半径为}R=1, \\text{又}R=\\frac{1}{\\rho}=1, \\\\ \\text{所以}\\rho=1.\\end{aligned}</div>"
     },
     {
       "id": "q0009",
       "number": 9,
       "header": "#9-Averge",
       "difficulty": "Averge",
-      "prompt_html": "<img src=\"/static/generated/assets/advanced-math/ch088/q0009_prompt.png\"/>",
+      "prompt_html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{幂级数} \\sum_{n=1}^{\\infty} (-1)^{n} \\frac{ (x-2)^{2n+1}}{2n+1} \\text{的收敛域是} [ \\quad]. \\Leftrightarrow\">\\text{幂级数} \\sum_{n=1}^{\\infty} (-1)^{n} \\frac{ (x-2)^{2n+1}}{2n+1} \\text{的收敛域是} [ \\quad]. \\Leftrightarrow</span>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch088/q0009_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"[ - 3 , - 1 ]\">[ - 3 , - 1 ]</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch088/q0009_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\left[ 1 , 3 \\right]\">\\left[ 1 , 3 \\right]</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch088/q0009_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"( - 3 , 3 ) \\, .\">( - 3 , 3 ) \\, .</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch088/q0009_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"( - 1 , 1 ) \\, ;\">( - 1 , 1 ) \\, ;</span>"
         }
       ],
       "answer": "B",
       "answer_index": 1,
-      "analysis_html": "<img src=\"/static/generated/assets/advanced-math/ch088/q0009_analysis.png\"/>"
+      "analysis_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{array}{l} \\text {解答：} \\lim_{n \\to \\infty} \\left| \\frac{u_{n+1}(x)}{u_{n}(x)} \\right| = \\lim_{n \\to \\infty} \\left| \\frac{(-1)^{n+1} \\frac{(x-2)^{2n+3}}{2n+3}}{(-1)^{n} \\frac{(x-2)^{2n+1}}{2n+1}} \\right| = \\lim_{n \\to \\infty} \\frac{2n+1}{2n+3} (x-2)^{2} = (x-2)^{2} &lt; 1 \\; , \\\\ |x-2| &lt; 1, \\; \\text{或} \\\\ \\text{当} x-2 = 1 \\text{时,级数为} \\sum_{n=1}^{\\infty} (-1)^{n} \\frac{1}{2n+1} \\text{收敛,当} x-2 = -1 \\text{时,级数为} \\sum_{n=1}^{\\infty} (-1)^{n-1} \\frac{1}{2n+1} \\text{收敛,所以收敛域为} -1 \\leq x \\leq 2 - 1, \\text{即} 1 \\leq x \\leq 3, \\text{或} \\end{array}\">\\begin{array}{l} \\text {解答：} \\lim_{n \\to \\infty} \\left| \\frac{u_{n+1}(x)}{u_{n}(x)} \\right| = \\lim_{n \\to \\infty} \\left| \\frac{(-1)^{n+1} \\frac{(x-2)^{2n+3}}{2n+3}}{(-1)^{n} \\frac{(x-2)^{2n+1}}{2n+1}} \\right| = \\lim_{n \\to \\infty} \\frac{2n+1}{2n+3} (x-2)^{2} = (x-2)^{2} &lt; 1 \\; , \\\\ |x-2| &lt; 1, \\; \\text{或} \\\\ \\text{当} x-2 = 1 \\text{时,级数为} \\sum_{n=1}^{\\infty} (-1)^{n} \\frac{1}{2n+1} \\text{收敛,当} x-2 = -1 \\text{时,级数为} \\sum_{n=1}^{\\infty} (-1)^{n-1} \\frac{1}{2n+1} \\text{收敛,所以收敛域为} -1 \\leq x \\leq 2 - 1, \\text{即} 1 \\leq x \\leq 3, \\text{或} \\end{array}</div>"
     },
     {
       "id": "q0010",
       "number": 10,
       "header": "#10-Averge",
       "difficulty": "Averge",
-      "prompt_html": "<img src=\"/static/generated/assets/advanced-math/ch088/q0010_prompt.png\"/>",
+      "prompt_html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{幂级数} \\sum_{n=1}^{\\infty} (-1)^{n} \\frac{x^{n}}{n^{2}} \\text{的收敛域是} [ \\quad]. \\leftarrow\">\\text{幂级数} \\sum_{n=1}^{\\infty} (-1)^{n} \\frac{x^{n}}{n^{2}} \\text{的收敛域是} [ \\quad]. \\leftarrow</span>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch088/q0010_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\mathbf{(-2, 1]}.\">\\mathbf{(-2, 1]}.</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch088/q0010_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\left[ - 1 , 2 \\right]\">\\left[ - 1 , 2 \\right]</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch088/q0010_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"[ - 1 , 1 ] \\, ;\">[ - 1 , 1 ] \\, ;</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch088/q0010_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"( - \\infty , 1 ] \\, ;\">( - \\infty , 1 ] \\, ;</span>"
         }
       ],
       "answer": "C",
       "answer_index": 2,
-      "analysis_html": "<img src=\"/static/generated/assets/advanced-math/ch088/q0010_analysis.png\"/>"
+      "analysis_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{array}{l} \\text {解答:} \\quad R = \\lim_{n \\rightarrow \\infty} \\left| \\frac{(-1)^{n} \\frac{1}{n^{2}}}{(-1)^{n+1} \\frac{1}{(n+1)^{2}}} \\right| = \\lim_{n \\rightarrow \\infty} \\frac{(n+1)^{2}}{n^{2}} = 1. \\omega \\\\ \\text {当} x = 1 \\text {时，级数为} \\sum_{n=1}^{\\infty} (-1)^{n} \\frac{1}{n^{2}} \\text {收敛；当} x = -1 \\text {时，级数为} \\sum_{n=-1}^{\\infty} \\frac{1}{n^{2}} \\text {收敛，所以} \\\\ \\text {收敛域为} [-1, 1]. \\omega \\end{array}\">\\begin{array}{l} \\text {解答:} \\quad R = \\lim_{n \\rightarrow \\infty} \\left| \\frac{(-1)^{n} \\frac{1}{n^{2}}}{(-1)^{n+1} \\frac{1}{(n+1)^{2}}} \\right| = \\lim_{n \\rightarrow \\infty} \\frac{(n+1)^{2}}{n^{2}} = 1. \\omega \\\\ \\text {当} x = 1 \\text {时，级数为} \\sum_{n=1}^{\\infty} (-1)^{n} \\frac{1}{n^{2}} \\text {收敛；当} x = -1 \\text {时，级数为} \\sum_{n=-1}^{\\infty} \\frac{1}{n^{2}} \\text {收敛，所以} \\\\ \\text {收敛域为} [-1, 1]. \\omega \\end{array}</div>"
     },
     {
       "id": "q0011",
       "number": 11,
       "header": "#11-Averge",
       "difficulty": "Averge",
-      "prompt_html": "<img src=\"/static/generated/assets/advanced-math/ch088/q0011_prompt.png\"/>",
+      "prompt_html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{幂级数} \\sum_{n=0}^{\\infty} \\frac{x^{n}}{a^{n}+(-b)^{n}}(a&gt;0,b&gt;0,a \\neq b) \\text{的收敛半径是} [ \\quad ] .\">\\text{幂级数} \\sum_{n=0}^{\\infty} \\frac{x^{n}}{a^{n}+(-b)^{n}}(a&gt;0,b&gt;0,a \\neq b) \\text{的收敛半径是} [ \\quad ] .</span>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch088/q0011_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\max ( a , b ) \\, ;\">\\max ( a , b ) \\, ;</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch088/q0011_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\min (a b, a + b)\">\\min (a b, a + b)</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch088/q0011_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\min ( a , b ) \\, ;\">\\min ( a , b ) \\, ;</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch088/q0011_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\max ( a b , a + b ) \\, .\">\\max ( a b , a + b ) \\, .</span>"
         }
       ],
       "answer": "A",
       "answer_index": 0,
-      "analysis_html": "<img src=\"/static/generated/assets/advanced-math/ch088/q0011_analysis.png\"/>"
+      "analysis_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{aligned} \\text{解答：令}u_n&amp;=\\frac{1}{a^n+(-b)^n},\\ \\rho=\\lim_{n\\rightarrow\\infty}\\left|\\frac{u_{n+1}}{u_n}\\right|=\\lim_{n\\rightarrow\\infty}\\left|\\frac{\\frac{1}{a^{n+1}+(-b)^{n+1}}}{\\frac{1}{a^n+(-b)^n}}\\right|=\\lim_{n\\rightarrow\\infty}\\left|\\frac{a^n+(-b)^n}{a^{n+1}+(-b)^{n+1}}\\right|^\\omega\\\\ \\text{当}a&gt;b\\text{时，}\\ \\rho&amp;=\\lim_{n\\rightarrow\\infty}\\left|\\frac{1+(-\\frac{b}{a})^n}{a+b(-\\frac{b}{a})^n}\\right|=\\frac{1}{a},\\ \\text{则}R=a\\ ;\\\\ \\text{当}a&lt;b\\text{时，}\\ \\rho&amp;=\\lim_{n\\rightarrow\\infty}\\left|\\frac{1+(-\\frac{a}{b})^n}{b+a(-\\frac{a}{b})^n}\\right|=\\frac{1}{b},\\ \\text{则}R=b\\ ,\\\\ \\text{所以收敛半径为}R&amp;=\\max(a,b)\\ .\\end{aligned}\">\\begin{aligned} \\text{解答：令}u_n&amp;=\\frac{1}{a^n+(-b)^n},\\ \\rho=\\lim_{n\\rightarrow\\infty}\\left|\\frac{u_{n+1}}{u_n}\\right|=\\lim_{n\\rightarrow\\infty}\\left|\\frac{\\frac{1}{a^{n+1}+(-b)^{n+1}}}{\\frac{1}{a^n+(-b)^n}}\\right|=\\lim_{n\\rightarrow\\infty}\\left|\\frac{a^n+(-b)^n}{a^{n+1}+(-b)^{n+1}}\\right|^\\omega\\\\ \\text{当}a&gt;b\\text{时，}\\ \\rho&amp;=\\lim_{n\\rightarrow\\infty}\\left|\\frac{1+(-\\frac{b}{a})^n}{a+b(-\\frac{b}{a})^n}\\right|=\\frac{1}{a},\\ \\text{则}R=a\\ ;\\\\ \\text{当}a&lt;b\\text{时，}\\ \\rho&amp;=\\lim_{n\\rightarrow\\infty}\\left|\\frac{1+(-\\frac{a}{b})^n}{b+a(-\\frac{a}{b})^n}\\right|=\\frac{1}{b},\\ \\text{则}R=b\\ ,\\\\ \\text{所以收敛半径为}R&amp;=\\max(a,b)\\ .\\end{aligned}</div>"
     },
     {
       "id": "q0012",
       "number": 12,
       "header": "#12-Averge",
       "difficulty": "Averge",
-      "prompt_html": "<img src=\"/static/generated/assets/advanced-math/ch088/q0012_prompt.png\"/>",
+      "prompt_html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\sum_{n=0}^{\\infty} a_{n} x^{n} \\text{的收敛半径是} 4, \\text{则幂级数} \\sum_{n=0}^{\\infty} a_{n} x^{-2n-1} \\text{的收敛半径是}[ \\quad].\">\\sum_{n=0}^{\\infty} a_{n} x^{n} \\text{的收敛半径是} 4, \\text{则幂级数} \\sum_{n=0}^{\\infty} a_{n} x^{-2n-1} \\text{的收敛半径是}[ \\quad].</span>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch088/q0012_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\mathbf { 1 . \\leftarrow }\">\\mathbf { 1 . \\leftarrow }</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch088/q0012_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\textbf{2;}\">\\textbf{2;}</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch088/q0012_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\mathbf{3};\">\\mathbf{3};</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch088/q0012_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\textbf{4;}\">\\textbf{4;}</span>"
         }
       ],
       "answer": "B",
       "answer_index": 1,
-      "analysis_html": "<img src=\"/static/generated/assets/advanced-math/ch088/q0012_analysis.png\"/>"
+      "analysis_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{array}{l} \\text {解答: 由于} \\sum\\limits_{n = 0}^{\\infty} a_{n} x^{2n - 1} = x \\sum\\limits_{n = 1}^{\\infty} a_{n} (x^{2})^{n}, \\text {令} t = x^{2}, \\sum\\limits_{n = 0}^{\\infty} a_{n} t^{n} \\text {的收敛半径为} 4, |t| = x^{2} &lt; 4, \\\\ \\text {即} |x| &lt; 2, \\text {所以幂级数} \\sum\\limits_{n = 0}^{\\infty} a_{n} x^{2n - 1} \\text {的收敛半径为} 2. \\nu \\end{array}\">\\begin{array}{l} \\text {解答: 由于} \\sum\\limits_{n = 0}^{\\infty} a_{n} x^{2n - 1} = x \\sum\\limits_{n = 1}^{\\infty} a_{n} (x^{2})^{n}, \\text {令} t = x^{2}, \\sum\\limits_{n = 0}^{\\infty} a_{n} t^{n} \\text {的收敛半径为} 4, |t| = x^{2} &lt; 4, \\\\ \\text {即} |x| &lt; 2, \\text {所以幂级数} \\sum\\limits_{n = 0}^{\\infty} a_{n} x^{2n - 1} \\text {的收敛半径为} 2. \\nu \\end{array}</div>"
     },
     {
       "id": "q0013",
       "number": 13,
       "header": "#13-Averge",
       "difficulty": "Averge",
-      "prompt_html": "<img src=\"/static/generated/assets/advanced-math/ch088/q0013_prompt.png\"/>",
+      "prompt_html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\sum _ { n = 1 } ^ { \\infty } a _ { n } ( x - 1 ) ^ { n } \\text {的收敛半径为} 1 , \\text {则此级数在} x = 3 \\text{处} [ \\quad ]  . \\leftarrow\">\\sum _ { n = 1 } ^ { \\infty } a _ { n } ( x - 1 ) ^ { n } \\text {的收敛半径为} 1 , \\text {则此级数在} x = 3 \\text{处} [ \\quad ]  . \\leftarrow</span>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch088/q0013_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{敛散性不确定}\">\\text{敛散性不确定}</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch088/q0013_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{条件收敛}.\">\\text{条件收敛}.</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch088/q0013_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{绝对收敛}\">\\text{绝对收敛}</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch088/q0013_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{发散}\">\\text{发散}</span>"
         }
       ],
       "answer": "D",
       "answer_index": 3,
-      "analysis_html": "<img src=\"/static/generated/assets/advanced-math/ch088/q0013_analysis.png\"/>"
+      "analysis_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{aligned} \\text{解答:幂级数}\\sum_{n=1}^{\\infty}a_{n}(x-1)^{n}\\text{的收敛半径为}1, \\text{则收敛区间为}-1&lt;x-1&lt;1, \\text{即}0&lt;x&lt;2,\\\\ \\text{而}x=3\\text{不在此区间内，所以发散.}\\end{aligned}\">\\begin{aligned} \\text{解答:幂级数}\\sum_{n=1}^{\\infty}a_{n}(x-1)^{n}\\text{的收敛半径为}1, \\text{则收敛区间为}-1&lt;x-1&lt;1, \\text{即}0&lt;x&lt;2,\\\\ \\text{而}x=3\\text{不在此区间内，所以发散.}\\end{aligned}</div>"
     },
     {
       "id": "q0014",
       "number": 14,
       "header": "#14-Averge",
       "difficulty": "Averge",
-      "prompt_html": "<img src=\"/static/generated/assets/advanced-math/ch088/q0014_prompt.png\"/>",
+      "prompt_html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{幂级数} \\sum_{k=1}^{\\infty} \\frac{ (3n)!}{(n!)^{2}} x^{n} \\text{的收敛半径是} [ \\quad]. \\leftrightarrow\">\\text{幂级数} \\sum_{k=1}^{\\infty} \\frac{ (3n)!}{(n!)^{2}} x^{n} \\text{的收敛半径是} [ \\quad]. \\leftrightarrow</span>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch088/q0014_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\frac { 1 } { 9 }\">\\frac { 1 } { 9 }</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch088/q0014_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\frac{1}{27}\">\\frac{1}{27}</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch088/q0014_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"0\">0</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch088/q0014_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"9\">9</span>"
         }
       ],
       "answer": "C",
       "answer_index": 2,
-      "analysis_html": "<img src=\"/static/generated/assets/advanced-math/ch088/q0014_analysis.png\"/>"
+      "analysis_html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{解答：}\\rho = \\lim_{n \\to \\infty} \\left| \\frac{\\frac{(3n+3)!}{[(n+1)!]^2}}{\\frac{(3n)!}{(n!)^2}} \\right| = \\lim_{n \\to \\infty} \\frac{(3n+3)(3n+2)(3n+1)}{(n+1)^2} = \\infty \\; , \\; \\text{所以} \\; R = 0 \\; .\">\\text{解答：}\\rho = \\lim_{n \\to \\infty} \\left| \\frac{\\frac{(3n+3)!}{[(n+1)!]^2}}{\\frac{(3n)!}{(n!)^2}} \\right| = \\lim_{n \\to \\infty} \\frac{(3n+3)(3n+2)(3n+1)}{(n+1)^2} = \\infty \\; , \\; \\text{所以} \\; R = 0 \\; .</span>"
     },
     {
       "id": "q0015",
       "number": 15,
       "header": "#15-Averge",
       "difficulty": "Averge",
-      "prompt_html": "<img src=\"/static/generated/assets/advanced-math/ch088/q0015_prompt.png\"/>",
+      "prompt_html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{级数} \\sum_{n=1}^{\\infty} \\frac{2^{n}}{n^{2}+1} x^{n} \\text{的收敛域是} [ \\quad ]. \\leftarrow\">\\text{级数} \\sum_{n=1}^{\\infty} \\frac{2^{n}}{n^{2}+1} x^{n} \\text{的收敛域是} [ \\quad ]. \\leftarrow</span>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch088/q0015_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\mathrel{\\scriptstyle [ - \\frac { 1 } { 2 } , 0 ] } .\">\\mathrel{\\scriptstyle [ - \\frac { 1 } { 2 } , 0 ] } .</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch088/q0015_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"[ - 1 , 1 ] :\">[ - 1 , 1 ] :</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch088/q0015_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"[ - \\frac { 1 } { 2 } , \\frac { 1 } { 2 } ]\">[ - \\frac { 1 } { 2 } , \\frac { 1 } { 2 } ]</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch088/q0015_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"[ - 1 , { \\frac { 1 } { 2 } } ] \\, ;\">[ - 1 , { \\frac { 1 } { 2 } } ] \\, ;</span>"
         }
       ],
       "answer": "C",
       "answer_index": 2,
-      "analysis_html": "<img src=\"/static/generated/assets/advanced-math/ch088/q0015_analysis.png\"/>"
+      "analysis_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{array}{l} \\text {解答：} R = \\lim_{n \\to \\infty} \\left| \\frac{\\frac{2^{n}}{n^{2}+1}}{\\frac{2^{n-1}}{(n+1)^{2}+1}} \\right| = \\lim_{n \\to \\infty} \\frac{1}{2} \\frac{(n+1)^{2}+1}{n^{2}+1} = \\frac{1}{2}, \\\\ \\text {当} x = \\frac{1}{2} \\text {时，级数} \\sum_{i=1}^{\\infty} \\frac{1}{n^{2}+1} \\text {收敛；当} x = - \\frac{1}{2} \\text {时，级数} \\sum_{i=1}^{\\infty} \\frac{(-1)^{i}}{n^{2}+1} \\text {收敛，所以} \\\\ \\text {收敛域为}[-\\frac{1}{2}, \\frac{1}{2}]. \\end{array}\">\\begin{array}{l} \\text {解答：} R = \\lim_{n \\to \\infty} \\left| \\frac{\\frac{2^{n}}{n^{2}+1}}{\\frac{2^{n-1}}{(n+1)^{2}+1}} \\right| = \\lim_{n \\to \\infty} \\frac{1}{2} \\frac{(n+1)^{2}+1}{n^{2}+1} = \\frac{1}{2}, \\\\ \\text {当} x = \\frac{1}{2} \\text {时，级数} \\sum_{i=1}^{\\infty} \\frac{1}{n^{2}+1} \\text {收敛；当} x = - \\frac{1}{2} \\text {时，级数} \\sum_{i=1}^{\\infty} \\frac{(-1)^{i}}{n^{2}+1} \\text {收敛，所以} \\\\ \\text {收敛域为}[-\\frac{1}{2}, \\frac{1}{2}]. \\end{array}</div>"
     },
     {
       "id": "q0016",
       "number": 16,
       "header": "#16-Averge",
       "difficulty": "Averge",
-      "prompt_html": "<img src=\"/static/generated/assets/advanced-math/ch088/q0016_prompt.png\"/>",
+      "prompt_html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{设} \\lim_{n \\to \\infty} a_{n} = a \\left( a \\neq 0 , a_{n} \\neq 0 \\right) , \\ \\text{则级数} \\sum_{n=1}^{\\infty} \\left( \\frac{x}{a_{n}} \\right)^{n} \\ \\left[ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\right]. \\ \\Leftrightarrow\">\\text{设} \\lim_{n \\to \\infty} a_{n} = a \\left( a \\neq 0 , a_{n} \\neq 0 \\right) , \\ \\text{则级数} \\sum_{n=1}^{\\infty} \\left( \\frac{x}{a_{n}} \\right)^{n} \\ \\left[ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\right]. \\ \\Leftrightarrow</span>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch088/q0016_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{当} |a| &lt; 1 \\text{时} \\quad \\text{发散}. \\leftarrow\">\\text{当} |a| &lt; 1 \\text{时} \\quad \\text{发散}. \\leftarrow</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch088/q0016_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{当} |x| &lt; |a| \\text{时} \\quad \\text{绝对收敛};\">\\text{当} |x| &lt; |a| \\text{时} \\quad \\text{绝对收敛};</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch088/q0016_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{当} |x| &gt; 1 \\text{时} \\quad \\text{发散};\">\\text{当} |x| &gt; 1 \\text{时} \\quad \\text{发散};</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch088/q0016_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{当} |x| &lt; |a| \\text{时} \\quad \\text{条件收敛};\">\\text{当} |x| &lt; |a| \\text{时} \\quad \\text{条件收敛};</span>"
         }
       ],
       "answer": "B",
       "answer_index": 1,
-      "analysis_html": "<img src=\"/static/generated/assets/advanced-math/ch088/q0016_analysis.png\"/>"
+      "analysis_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{array}{l} \\text {解答：} \\lim_{n \\to \\infty} \\sqrt[n]{\\left(\\frac{x}{a_{n}}\\right)^{n}} = \\lim_{n \\to \\infty} \\left| \\frac{x}{a_{n}} \\right| = \\frac{|x|}{a} &lt; 1, \\text {由根值审敛法，当} |x| &lt; |a| \\text {时，} \\sum_{n=1}^{\\infty} \\left(\\frac{x}{a_{n}}\\right)^{n} \\text {绝}\\\\ \\text {对收敛.} \\end{array}\">\\begin{array}{l} \\text {解答：} \\lim_{n \\to \\infty} \\sqrt[n]{\\left(\\frac{x}{a_{n}}\\right)^{n}} = \\lim_{n \\to \\infty} \\left| \\frac{x}{a_{n}} \\right| = \\frac{|x|}{a} &lt; 1, \\text {由根值审敛法，当} |x| &lt; |a| \\text {时，} \\sum_{n=1}^{\\infty} \\left(\\frac{x}{a_{n}}\\right)^{n} \\text {绝}\\\\ \\text {对收敛.} \\end{array}</div>"
     },
     {
       "id": "q0017",
       "number": 17,
       "header": "#17-Averge",
       "difficulty": "Averge",
-      "prompt_html": "<img src=\"/static/generated/assets/advanced-math/ch088/q0017_prompt.png\"/>",
+      "prompt_html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{级数} \\sum _ { n = 1 } ^ { \\infty } \\frac { x ^ { 2 n - 1 } } { 2 ^ { n } } \\text{的收敛域是} [ \\quad \\quad ] . \\Leftrightarrow\">\\text{级数} \\sum _ { n = 1 } ^ { \\infty } \\frac { x ^ { 2 n - 1 } } { 2 ^ { n } } \\text{的收敛域是} [ \\quad \\quad ] . \\Leftrightarrow</span>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch088/q0017_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\sqrt{(-\\sqrt{2},+\\infty)}.\">\\sqrt{(-\\sqrt{2},+\\infty)}.</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch088/q0017_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\left[ - \\sqrt { 2 } , \\sqrt { 2 } \\right]\">\\left[ - \\sqrt { 2 } , \\sqrt { 2 } \\right]</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch088/q0017_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"( - \\infty , \\sqrt { 2 } ) \\, ;\">( - \\infty , \\sqrt { 2 } ) \\, ;</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch088/q0017_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"( - \\sqrt { 2 } , \\sqrt { 2 } )\">( - \\sqrt { 2 } , \\sqrt { 2 } )</span>"
         }
       ],
       "answer": "D",
       "answer_index": 3,
-      "analysis_html": "<img src=\"/static/generated/assets/advanced-math/ch088/q0017_analysis.png\"/>"
+      "analysis_html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\lim_{n \\to \\infty} \\frac{\\left| \\frac{x^{2n+1}}{2^{n-1}} \\right|}{\\frac{x^{2n-1}}{2^{n}}} = \\lim_{n \\to \\infty} \\frac{1}{2} x^{2} = \\frac{1}{2} x^{2} &lt; 1, \\text{则} |x| &lt; \\sqrt{2}, \\text{收敛半径为} R = \\sqrt{2}.\">\\lim_{n \\to \\infty} \\frac{\\left| \\frac{x^{2n+1}}{2^{n-1}} \\right|}{\\frac{x^{2n-1}}{2^{n}}} = \\lim_{n \\to \\infty} \\frac{1}{2} x^{2} = \\frac{1}{2} x^{2} &lt; 1, \\text{则} |x| &lt; \\sqrt{2}, \\text{收敛半径为} R = \\sqrt{2}.</span>"
     },
     {
       "id": "q0018",
       "number": 18,
       "header": "#18-Averge",
       "difficulty": "Averge",
-      "prompt_html": "<img src=\"/static/generated/assets/advanced-math/ch088/q0018_prompt.png\"/>",
+      "prompt_html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{级数} \\sum_{n=1}^{\\infty} \\frac{2^{-\\sqrt{n}}}{n} x^{n} \\text{的收敛半径是}[ \\quad].\">\\text{级数} \\sum_{n=1}^{\\infty} \\frac{2^{-\\sqrt{n}}}{n} x^{n} \\text{的收敛半径是}[ \\quad].</span>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch088/q0018_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\mathbf { 2 } :\">\\mathbf { 2 } :</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch088/q0018_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\mathbf { 1 } :\">\\mathbf { 1 } :</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch088/q0018_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\frac{1}{2}\">\\frac{1}{2}</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch088/q0018_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\sqrt { 2 } \\, .\">\\sqrt { 2 } \\, .</span>"
         }
       ],
       "answer": "B",
       "answer_index": 1,
-      "analysis_html": "<img src=\"/static/generated/assets/advanced-math/ch088/q0018_analysis.png\"/>"
+      "analysis_html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{解答：}\\rho = \\lim_{n \\to \\infty} \\left| \\frac{\\frac{1}{(n+1)2^{\\sqrt{n-1}}}}{\\frac{1}{n2^{\\sqrt{n}}}} \\right| = \\lim_{n \\to \\infty} \\left| \\frac{n}{(n+1)2^{\\sqrt{n-1}-\\sqrt{n}}} \\right| = 1,\\ \\text{所以} R = \\frac{1}{\\rho} = 1.\\omega\">\\text{解答：}\\rho = \\lim_{n \\to \\infty} \\left| \\frac{\\frac{1}{(n+1)2^{\\sqrt{n-1}}}}{\\frac{1}{n2^{\\sqrt{n}}}} \\right| = \\lim_{n \\to \\infty} \\left| \\frac{n}{(n+1)2^{\\sqrt{n-1}-\\sqrt{n}}} \\right| = 1,\\ \\text{所以} R = \\frac{1}{\\rho} = 1.\\omega</span>"
     },
     {
       "id": "q0019",
       "number": 19,
       "header": "#19-Averge",
       "difficulty": "Averge",
-      "prompt_html": "<img src=\"/static/generated/assets/advanced-math/ch088/q0019_prompt.png\"/>",
+      "prompt_html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{幂级数} \\sum_{n=0}^{\\infty} n! x^{n} \\text{的收敛域为} [ \\quad ]. \\leftarrow\">\\text{幂级数} \\sum_{n=0}^{\\infty} n! x^{n} \\text{的收敛域为} [ \\quad ]. \\leftarrow</span>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch088/q0019_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\{ 0 \\}\">\\{ 0 \\}</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch088/q0019_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\left( - \\infty , + \\infty \\right)\">\\left( - \\infty , + \\infty \\right)</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch088/q0019_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\Phi\">\\Phi</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch088/q0019_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"[ 0 , + \\infty )\">[ 0 , + \\infty )</span>"
         }
       ],
       "answer": "A",
       "answer_index": 0,
-      "analysis_html": "<img src=\"/static/generated/assets/advanced-math/ch088/q0019_analysis.png\"/>"
+      "analysis_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{aligned}\\text{解答：由}\\rho=\\lim_{n\\rightarrow\\infty}\\left|\\frac{a_{n+1}}{a_{n}}\\right|&amp;=\\lim_{n\\rightarrow\\infty}\\left|\\frac{(n+1)!}{n!}\\right|=\\lim_{n\\rightarrow\\infty}(n+1)=\\infty\\;，\\text{收敛半径为}R=0\\;，\\text{即收敛域} \\\\&amp;\\text{为}\\{0\\}.\\end{aligned}\">\\begin{aligned}\\text{解答：由}\\rho=\\lim_{n\\rightarrow\\infty}\\left|\\frac{a_{n+1}}{a_{n}}\\right|&amp;=\\lim_{n\\rightarrow\\infty}\\left|\\frac{(n+1)!}{n!}\\right|=\\lim_{n\\rightarrow\\infty}(n+1)=\\infty\\;，\\text{收敛半径为}R=0\\;，\\text{即收敛域} \\\\&amp;\\text{为}\\{0\\}.\\end{aligned}</div>"
     },
     {
       "id": "q0020",
       "number": 20,
       "header": "#20-Averge",
       "difficulty": "Averge",
-      "prompt_html": "<img src=\"/static/generated/assets/advanced-math/ch088/q0020_prompt.png\"/>",
+      "prompt_html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{幂级数} \\sum_{n=0}^{\\infty} \\frac{x^{n}}{n!} \\text{的收敛域为} [ \\quad ].\">\\text{幂级数} \\sum_{n=0}^{\\infty} \\frac{x^{n}}{n!} \\text{的收敛域为} [ \\quad ].</span>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch088/q0020_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"x = 0 \\, . \\leftarrow\">x = 0 \\, . \\leftarrow</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch088/q0020_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"( - \\infty , + \\infty ) \\, ;\">( - \\infty , + \\infty ) \\, ;</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch088/q0020_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{不存在}\">\\text{不存在}</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch088/q0020_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"( - \\infty , 0 ) ;\">( - \\infty , 0 ) ;</span>"
         }
       ],
       "answer": "B",
       "answer_index": 1,
-      "analysis_html": "<img src=\"/static/generated/assets/advanced-math/ch088/q0020_analysis.png\"/>"
+      "analysis_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{array}{l} \\text {解答：由} \\rho = \\lim_{n \\to \\infty} \\left| \\frac{a_{n-1}}{a_{n}} \\right| = \\lim_{n \\to \\infty} \\left| \\frac{\\frac{1}{(n+1)!}}{\\frac{1}{n!}} \\right| = \\lim_{n \\to \\infty} \\frac{1}{n+1} = 0, \\text {收敛半径为} R = + \\infty, \\text {所以收敛域为} (-\\infty, +\\infty). \\end{array}\">\\begin{array}{l} \\text {解答：由} \\rho = \\lim_{n \\to \\infty} \\left| \\frac{a_{n-1}}{a_{n}} \\right| = \\lim_{n \\to \\infty} \\left| \\frac{\\frac{1}{(n+1)!}}{\\frac{1}{n!}} \\right| = \\lim_{n \\to \\infty} \\frac{1}{n+1} = 0, \\text {收敛半径为} R = + \\infty, \\text {所以收敛域为} (-\\infty, +\\infty). \\end{array}</div>"
     },
     {
       "id": "q0021",
       "number": 21,
       "header": "#21-Averge",
       "difficulty": "Averge",
-      "prompt_html": "<img src=\"/static/generated/assets/advanced-math/ch088/q0021_prompt.png\"/>",
+      "prompt_html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{级数} \\sum_{n=1}^{\\infty} n! \\left( \\frac{x}{n} \\right)^{n} \\text{的收敛域是} [ \\quad \\quad ].\">\\text{级数} \\sum_{n=1}^{\\infty} n! \\left( \\frac{x}{n} \\right)^{n} \\text{的收敛域是} [ \\quad \\quad ].</span>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch088/q0021_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"( - e , 0 ) ;\">( - e , 0 ) ;</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch088/q0021_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"( - 2 e , 2 e ) \\, ;\">( - 2 e , 2 e ) \\, ;</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch088/q0021_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\left( - e , e \\right)\">\\left( - e , e \\right)</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch088/q0021_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\cdot (-\\frac{1}{e}, \\frac{1}{e})\">\\cdot (-\\frac{1}{e}, \\frac{1}{e})</span>"
         }
       ],
       "answer": "C",
       "answer_index": 2,
-      "analysis_html": "<img src=\"/static/generated/assets/advanced-math/ch088/q0021_analysis.png\"/>"
+      "analysis_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{array}{l} \\text {解答：} \\rho = \\lim _ {n \\rightarrow \\infty} \\left| \\frac {a _ {n - 1}}{a _ {n}} \\right| = \\lim _ {n \\rightarrow \\infty} \\frac {\\frac {(n + 1) !}{(n + 1) ^ {n + 1}}}{\\frac {n !}{n ^ {n}}} = \\lim _ {n \\rightarrow \\infty} \\frac {1}{(1 + \\frac {1}{n}) ^ {n}} = \\frac {1}{e}, \\text {收敛半径} R = e, \\\\ \\text {当} x = \\pm e \\text {时，级数为} \\sum_ {n = 1} ^ {\\infty} (\\pm 1) ^ {n} \\frac {n ! e ^ {n}}{n ^ {n}}, \\text {令} u _ {n} = \\frac {n ! e ^ {n}}{n ^ {n}}, \\\\ \\frac {u _ {n - 1}}{u _ {n}} = \\frac {\\frac {(n + 1) ! e ^ {n - 1}}{(n + 1) ^ {n - 1}}}{\\frac {n ! e ^ {n}}{n ^ {n}}} = \\frac {e}{(1 + \\frac {1}{n}) ^ {n}} &gt; 1, \\text {故} \\{u _ {n} \\} \\text {为正数列且单调增加，则} \\lim _ {n \\rightarrow \\infty} u _ {n} \\neq 0, \\\\ \\text {所以级数} \\sum_ {n = 1} ^ {\\infty} (\\pm 1) ^ {n} \\frac {n ! e ^ {n}}{n ^ {n}} \\text {发散，收敛域为} (- e, e). \\end{array}\">\\begin{array}{l} \\text {解答：} \\rho = \\lim _ {n \\rightarrow \\infty} \\left| \\frac {a _ {n - 1}}{a _ {n}} \\right| = \\lim _ {n \\rightarrow \\infty} \\frac {\\frac {(n + 1) !}{(n + 1) ^ {n + 1}}}{\\frac {n !}{n ^ {n}}} = \\lim _ {n \\rightarrow \\infty} \\frac {1}{(1 + \\frac {1}{n}) ^ {n}} = \\frac {1}{e}, \\text {收敛半径} R = e, \\\\ \\text {当} x = \\pm e \\text {时，级数为} \\sum_ {n = 1} ^ {\\infty} (\\pm 1) ^ {n} \\frac {n ! e ^ {n}}{n ^ {n}}, \\text {令} u _ {n} = \\frac {n ! e ^ {n}}{n ^ {n}}, \\\\ \\frac {u _ {n - 1}}{u _ {n}} = \\frac {\\frac {(n + 1) ! e ^ {n - 1}}{(n + 1) ^ {n - 1}}}{\\frac {n ! e ^ {n}}{n ^ {n}}} = \\frac {e}{(1 + \\frac {1}{n}) ^ {n}} &gt; 1, \\text {故} \\{u _ {n} \\} \\text {为正数列且单调增加，则} \\lim _ {n \\rightarrow \\infty} u _ {n} \\neq 0, \\\\ \\text {所以级数} \\sum_ {n = 1} ^ {\\infty} (\\pm 1) ^ {n} \\frac {n ! e ^ {n}}{n ^ {n}} \\text {发散，收敛域为} (- e, e). \\end{array}</div>"
     },
     {
       "id": "q0022",
       "number": 22,
       "header": "#22-Averge",
       "difficulty": "Averge",
-      "prompt_html": "<img src=\"/static/generated/assets/advanced-math/ch088/q0022_prompt.png\"/>",
+      "prompt_html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{级数} \\sum_{n=0}^{\\infty} \\frac{(-1)^{n}}{2n-1} (2x-3)^{n} \\text{的收敛域是}[ \\quad]. \\leftarrow\">\\text{级数} \\sum_{n=0}^{\\infty} \\frac{(-1)^{n}}{2n-1} (2x-3)^{n} \\text{的收敛域是}[ \\quad]. \\leftarrow</span>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch088/q0022_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"(1, 2 ];\">(1, 2 ];</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch088/q0022_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"(0, 2 ]\">(0, 2 ]</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch088/q0022_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\texttt { ( 1 , 2 ) }\">\\texttt { ( 1 , 2 ) }</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch088/q0022_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"[ 1 , 3 ] .\">[ 1 , 3 ] .</span>"
         }
       ],
       "answer": "A",
       "answer_index": 0,
-      "analysis_html": "<img src=\"/static/generated/assets/advanced-math/ch088/q0022_analysis.png\"/>"
+      "analysis_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{array}{l} \\text {解答:用比值法:} \\lim_{n \\to \\infty} \\left| \\frac{u_{n+1}(x)}{u_{n}(x)} \\right| = \\lim_{n \\to \\infty} \\left| \\frac{\\frac{1}{2n+1}(2x-3)^{n-1}}{\\frac{1}{2n-1}(2x-3)^{n}} \\right| = \\lim_{n \\to \\infty} \\frac{2n-1}{2n+1} \\left| 2x-3 \\right| = 2x-3 &lt; 1, \\\\ \\text {解得} 1 &lt; x &lt; 2, \\\\ \\text {当} x = 1 \\text {时,级数为} \\sum_{n=1}^{\\infty} \\frac{1}{2n-1}, \\text {发散;当} x = 2 \\text {时,级数为} \\sum_{n=1}^{\\infty} \\frac{(-1)^{n}}{2n-1}, \\text {收敛,}\\\\ \\text {所以收敛域为} (1,2]. \\end{array}\">\\begin{array}{l} \\text {解答:用比值法:} \\lim_{n \\to \\infty} \\left| \\frac{u_{n+1}(x)}{u_{n}(x)} \\right| = \\lim_{n \\to \\infty} \\left| \\frac{\\frac{1}{2n+1}(2x-3)^{n-1}}{\\frac{1}{2n-1}(2x-3)^{n}} \\right| = \\lim_{n \\to \\infty} \\frac{2n-1}{2n+1} \\left| 2x-3 \\right| = 2x-3 &lt; 1, \\\\ \\text {解得} 1 &lt; x &lt; 2, \\\\ \\text {当} x = 1 \\text {时,级数为} \\sum_{n=1}^{\\infty} \\frac{1}{2n-1}, \\text {发散;当} x = 2 \\text {时,级数为} \\sum_{n=1}^{\\infty} \\frac{(-1)^{n}}{2n-1}, \\text {收敛,}\\\\ \\text {所以收敛域为} (1,2]. \\end{array}</div>"
     },
     {
       "id": "q0023",
       "number": 23,
       "header": "#23-Averge",
       "difficulty": "Averge",
-      "prompt_html": "<img src=\"/static/generated/assets/advanced-math/ch088/q0023_prompt.png\"/>",
+      "prompt_html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{幂级数} \\sum_{n=1}^{\\infty} \\left( \\sin \\frac{1}{n} + \\cos \\frac{1}{n} \\right)^{n^{2}} x^{n} \\text{的收敛半径是} [ \\quad ].\">\\text{幂级数} \\sum_{n=1}^{\\infty} \\left( \\sin \\frac{1}{n} + \\cos \\frac{1}{n} \\right)^{n^{2}} x^{n} \\text{的收敛半径是} [ \\quad ].</span>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch088/q0023_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"e\">e</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch088/q0023_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\mathbf { 1 }\">\\mathbf { 1 }</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch088/q0023_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\frac { 1 } { e }\">\\frac { 1 } { e }</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch088/q0023_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\frac { 1 } { 2 }\">\\frac { 1 } { 2 }</span>"
         }
       ],
       "answer": "C",
       "answer_index": 2,
-      "analysis_html": "<img src=\"/static/generated/assets/advanced-math/ch088/q0023_analysis.png\"/>"
+      "analysis_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{aligned}\\text{解答：}\\rho&amp;=\\lim_{n\\to\\infty}\\sqrt{\\left(\\sin\\frac{1}{n}+\\cos\\frac{1}{n}\\right)^{n^{2}} }=\\lim_{n\\to\\infty}\\left(\\sin\\frac{1}{n}+\\cos\\frac{1}{n}\\right)^{n}=e^{\\lim_{n\\to\\infty}\\left(\\sin\\frac{1}{n}-\\cos\\frac{1}{n}-1\\right)}=e,\\ \\text{所以},\\\\R&amp;=\\frac{1}{\\rho}=\\frac{1}{e},\\end{aligned}\">\\begin{aligned}\\text{解答：}\\rho&amp;=\\lim_{n\\to\\infty}\\sqrt{\\left(\\sin\\frac{1}{n}+\\cos\\frac{1}{n}\\right)^{n^{2}} }=\\lim_{n\\to\\infty}\\left(\\sin\\frac{1}{n}+\\cos\\frac{1}{n}\\right)^{n}=e^{\\lim_{n\\to\\infty}\\left(\\sin\\frac{1}{n}-\\cos\\frac{1}{n}-1\\right)}=e,\\ \\text{所以},\\\\R&amp;=\\frac{1}{\\rho}=\\frac{1}{e},\\end{aligned}</div>"
     },
     {
       "id": "q0024",
       "number": 24,
       "header": "#24-Averge",
       "difficulty": "Averge",
-      "prompt_html": "<img src=\"/static/generated/assets/advanced-math/ch088/q0024_prompt.png\"/>",
+      "prompt_html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{当} [ \\quad ] \\text{时，级数} \\sum_{n=1}^{\\infty} \\frac{ ( n+x )^{n}}{n^{n+x}} \\text{收敛.}\">\\text{当} [ \\quad ] \\text{时，级数} \\sum_{n=1}^{\\infty} \\frac{ ( n+x )^{n}}{n^{n+x}} \\text{收敛.}</span>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch088/q0024_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"x &gt; 1 \\, ;\">x &gt; 1 \\, ;</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch088/q0024_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"x \\leq 1 \\, ;\">x \\leq 1 \\, ;</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch088/q0024_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\Leftrightarrow 0 &lt; x \\leq 1 .\">\\Leftrightarrow 0 &lt; x \\leq 1 .</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch088/q0024_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"x \\! &gt; \\! 0\">x \\! &gt; \\! 0</span>"
         }
       ],
       "answer": "A",
       "answer_index": 0,
-      "analysis_html": "<img src=\"/static/generated/assets/advanced-math/ch088/q0024_analysis.png\"/>"
+      "analysis_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{array}{l} \\text {解答：} \\lim_{n \\to \\infty} \\frac{ (n + x)^{n}}{n^{n + x}} = \\lim_{n \\to \\infty} \\frac{ (n + x)^{n}}{n^{n}} = \\lim_{n \\to \\infty} (1 + \\frac{x}{n})^{n} = e^{x}, \\text {由比较法，原级数与} \\sum_{n = 1}^{\\infty} \\frac{1}{n^{x}} \\text {有}\\\\ \\text {相同的收敛性，所以当} x &gt; 1 \\text {时，级数收敛。} \\end{array}\">\\begin{array}{l} \\text {解答：} \\lim_{n \\to \\infty} \\frac{ (n + x)^{n}}{n^{n + x}} = \\lim_{n \\to \\infty} \\frac{ (n + x)^{n}}{n^{n}} = \\lim_{n \\to \\infty} (1 + \\frac{x}{n})^{n} = e^{x}, \\text {由比较法，原级数与} \\sum_{n = 1}^{\\infty} \\frac{1}{n^{x}} \\text {有}\\\\ \\text {相同的收敛性，所以当} x &gt; 1 \\text {时，级数收敛。} \\end{array}</div>"
     },
     {
       "id": "q0025",
       "number": 25,
       "header": "#25-Averge",
       "difficulty": "Averge",
-      "prompt_html": "<img src=\"/static/generated/assets/advanced-math/ch088/q0025_prompt.png\"/>",
+      "prompt_html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{级数} 1 + \\sqrt{x} + x + x^{\\frac{3}{2}} + x^{2} + x^{\\frac{5}{2}} + \\cdots \\text{的收敛域是} [ \\quad]. \\leftarrow\">\\text{级数} 1 + \\sqrt{x} + x + x^{\\frac{3}{2}} + x^{2} + x^{\\frac{5}{2}} + \\cdots \\text{的收敛域是} [ \\quad]. \\leftarrow</span>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch088/q0025_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"[ 0 , 1 ] \\, .\">[ 0 , 1 ] \\, .</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch088/q0025_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"[ 0 , 1 ) \\, ;\">[ 0 , 1 ) \\, ;</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch088/q0025_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"[ - 1 , 1 ]\">[ - 1 , 1 ]</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch088/q0025_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"(0, 2)\">(0, 2)</span>"
         }
       ],
       "answer": "B",
       "answer_index": 1,
-      "analysis_html": "<img src=\"/static/generated/assets/advanced-math/ch088/q0025_analysis.png\"/>"
+      "analysis_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{aligned}&amp;\\text{解答: 令}t=\\sqrt{x},\\text{则级数为}\\sum_{n=0}^{\\infty}t^{n}\\text{的收敛半径为}R=1, \\text{即} |t|=\\sqrt{x}&lt;1, \\text{解得}0&lt;x&lt;1,\\\\&amp;\\quad\\quad\\quad\\text{当}x=0\\text{时，级数收敛，所以收敛域为}[0,1).\\end{aligned}\">\\begin{aligned}&amp;\\text{解答: 令}t=\\sqrt{x},\\text{则级数为}\\sum_{n=0}^{\\infty}t^{n}\\text{的收敛半径为}R=1, \\text{即} |t|=\\sqrt{x}&lt;1, \\text{解得}0&lt;x&lt;1,\\\\&amp;\\quad\\quad\\quad\\text{当}x=0\\text{时，级数收敛，所以收敛域为}[0,1).\\end{aligned}</div>"
     },
     {
       "id": "q0026",
       "number": 26,
       "header": "#26-Averge",
       "difficulty": "Averge",
-      "prompt_html": "<img src=\"/static/generated/assets/advanced-math/ch088/q0026_prompt.png\"/>",
+      "prompt_html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\left[ \\quad \\right]. \\, \\varphi\">\\left[ \\quad \\right]. \\, \\varphi</span>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch088/q0026_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\frac { R } { 2 } \\cdot *\">\\frac { R } { 2 } \\cdot *</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch088/q0026_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\sqrt { R }\">\\sqrt { R }</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch088/q0026_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"2 R\">2 R</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch088/q0026_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"R ^ { 2 }\">R ^ { 2 }</span>"
         }
       ],
       "answer": "B",
       "answer_index": 1,
-      "analysis_html": "<img src=\"/static/generated/assets/advanced-math/ch088/q0026_analysis.png\"/>"
+      "analysis_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{array}{l} \\text {解答：令} t = x ^ {2} , \\text {则} \\sum \\limits_{n = 0} ^ {\\infty} a _ {n} x ^ {2 n} = \\sum \\limits_{n = 0} ^ {\\infty} a _ {n} t ^ {n}, \\text {而} \\sum \\limits_{n = 0} ^ {\\infty} a _ {n} t ^ {n} \\text {的收敛半径为} R , \\text {即} \\\\ | t | = | x ^ {2} | &lt; R, | x | &lt; \\sqrt {R}, \\text {故} \\sum \\limits_{n = 0} ^ {\\infty} a _ {n} x ^ {2 n} \\text {的收敛半径} \\sqrt {R}. \\end{array}\">\\begin{array}{l} \\text {解答：令} t = x ^ {2} , \\text {则} \\sum \\limits_{n = 0} ^ {\\infty} a _ {n} x ^ {2 n} = \\sum \\limits_{n = 0} ^ {\\infty} a _ {n} t ^ {n}, \\text {而} \\sum \\limits_{n = 0} ^ {\\infty} a _ {n} t ^ {n} \\text {的收敛半径为} R , \\text {即} \\\\ | t | = | x ^ {2} | &lt; R, | x | &lt; \\sqrt {R}, \\text {故} \\sum \\limits_{n = 0} ^ {\\infty} a _ {n} x ^ {2 n} \\text {的收敛半径} \\sqrt {R}. \\end{array}</div>"
     },
     {
       "id": "q0027",
       "number": 27,
       "header": "#27-Averge",
       "difficulty": "Averge",
-      "prompt_html": "<img src=\"/static/generated/assets/advanced-math/ch088/q0027_prompt.png\"/>",
+      "prompt_html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{设} \\lim_{n \\to \\infty} \\left| \\frac{a_{n-1}}{a_{n}} \\right| = \\frac{1}{8}, \\text{ 则幂级数} \\sum_{n=0}^{\\infty} a_{n} x^{3n} \\left[ \\quad \\right]. \\uparrow\">\\text{设} \\lim_{n \\to \\infty} \\left| \\frac{a_{n-1}}{a_{n}} \\right| = \\frac{1}{8}, \\text{ 则幂级数} \\sum_{n=0}^{\\infty} a_{n} x^{3n} \\left[ \\quad \\right]. \\uparrow</span>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch088/q0027_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{当} | x | &lt; 2 \\text{时，收敛；}\">\\text{当} | x | &lt; 2 \\text{时，收敛；}</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch088/q0027_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{当} |x| &lt; 8 \\text{时，收敛};\">\\text{当} |x| &lt; 8 \\text{时，收敛};</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch088/q0027_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{当} |x| &gt; \\frac{1}{8} \\text{时，发散}\">\\text{当} |x| &gt; \\frac{1}{8} \\text{时，发散}</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch088/q0027_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{当} |x| &gt; \\frac{1}{2} \\text{时，发散.}\">\\text{当} |x| &gt; \\frac{1}{2} \\text{时，发散.}</span>"
         }
       ],
       "answer": "A",
       "answer_index": 0,
-      "analysis_html": "<img src=\"/static/generated/assets/advanced-math/ch088/q0027_analysis.png\"/>"
+      "analysis_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{aligned} \\text{解答：令} t=x^3,\\ \\text{则}\\sum_{n=0}^{\\infty}a_n t^n\\text{的收敛半径为}R=8,\\ \\text{即}\\ |t|=x^3&lt;8,\\ \\text{解得}\\ |x|&lt;2,\\ \\text{所以当}\\ |x|&lt;2\\text{时，幂级数收敛。} \\end{aligned}\">\\begin{aligned} \\text{解答：令} t=x^3,\\ \\text{则}\\sum_{n=0}^{\\infty}a_n t^n\\text{的收敛半径为}R=8,\\ \\text{即}\\ |t|=x^3&lt;8,\\ \\text{解得}\\ |x|&lt;2,\\ \\text{所以当}\\ |x|&lt;2\\text{时，幂级数收敛。} \\end{aligned}</div>"
     },
     {
       "id": "q0028",
       "number": 28,
       "header": "#28-Averge",
       "difficulty": "Averge",
-      "prompt_html": "<img src=\"/static/generated/assets/advanced-math/ch088/q0028_prompt.png\"/>",
+      "prompt_html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{级数} \\sum _ { n = 1 } ^ { \\infty } \\left[ \\frac { ( - 1 ) ^ { n } } { n } + \\frac { 1 } { 4 ^ { n } } \\right] x ^ { n } \\text{的收敛域是} [ \\quad \\quad ] . \\leftarrow\">\\text{级数} \\sum _ { n = 1 } ^ { \\infty } \\left[ \\frac { ( - 1 ) ^ { n } } { n } + \\frac { 1 } { 4 ^ { n } } \\right] x ^ { n } \\text{的收敛域是} [ \\quad \\quad ] . \\leftarrow</span>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch088/q0028_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\left( - 1, 1 \\right]\">\\left( - 1, 1 \\right]</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch088/q0028_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"(1, + \\infty )\">(1, + \\infty )</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch088/q0028_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"( - 2 , 1 ) \\, .\">( - 2 , 1 ) \\, .</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch088/q0028_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"( - \\infty , 1 ] \\, ;\">( - \\infty , 1 ] \\, ;</span>"
         }
       ],
       "answer": "A",
       "answer_index": 0,
-      "analysis_html": "<img src=\"/static/generated/assets/advanced-math/ch088/q0028_analysis.png\"/>"
+      "analysis_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{array}{l} \\text {解答：} \\sum_{n=1}^{\\infty} \\left[ \\frac{(-1)^{n}}{n} + \\frac{1}{4^{n}} \\right] x^{n} = \\sum_{n=1}^{\\infty} \\frac{(-1)^{n}}{n} x^{n} + \\sum_{n=1}^{\\infty} \\frac{1}{4^{n}} x^{n}, \\quad \\varphi \\\\ \\text {对于级数} \\sum_{n=1}^{\\infty} \\frac{(-1)^{n}}{n} x^{n}, \\quad \\rho = \\lim_{n \\rightarrow \\infty} \\left| \\frac{a_{n+1}}{a_{n}} \\right| = \\lim_{n \\rightarrow \\infty} \\frac{n}{n+1} = 1, \\text {收敛半径} R_{1} = 1, \\varphi \\\\ \\text {当} x = 1 \\text {时，级数为} \\sum_{n=1}^{\\infty} \\frac{(-1)^{n}}{n}, \\text {交错级数收敛；当} x = -1 \\text {时，级数为} \\sum_{n=1}^{\\infty} \\frac{1}{n}, \\\\ \\text {调和级数发散，所以收敛域为} (-1, 1]. \\varphi \\\\ \\text {对于级数} \\sum_{n=1}^{\\infty} \\frac{1}{4^{n}} x^{n} \\text {为几何级数，收敛域为} \\left| \\frac{x}{4} \\right| &lt; 1, \\text {即} |x| &lt; 4, \\varphi \\\\ \\text {由幂级数的运算得，收敛域为} (-1, 1]. \\varphi \\end{array}\">\\begin{array}{l} \\text {解答：} \\sum_{n=1}^{\\infty} \\left[ \\frac{(-1)^{n}}{n} + \\frac{1}{4^{n}} \\right] x^{n} = \\sum_{n=1}^{\\infty} \\frac{(-1)^{n}}{n} x^{n} + \\sum_{n=1}^{\\infty} \\frac{1}{4^{n}} x^{n}, \\quad \\varphi \\\\ \\text {对于级数} \\sum_{n=1}^{\\infty} \\frac{(-1)^{n}}{n} x^{n}, \\quad \\rho = \\lim_{n \\rightarrow \\infty} \\left| \\frac{a_{n+1}}{a_{n}} \\right| = \\lim_{n \\rightarrow \\infty} \\frac{n}{n+1} = 1, \\text {收敛半径} R_{1} = 1, \\varphi \\\\ \\text {当} x = 1 \\text {时，级数为} \\sum_{n=1}^{\\infty} \\frac{(-1)^{n}}{n}, \\text {交错级数收敛；当} x = -1 \\text {时，级数为} \\sum_{n=1}^{\\infty} \\frac{1}{n}, \\\\ \\text {调和级数发散，所以收敛域为} (-1, 1]. \\varphi \\\\ \\text {对于级数} \\sum_{n=1}^{\\infty} \\frac{1}{4^{n}} x^{n} \\text {为几何级数，收敛域为} \\left| \\frac{x}{4} \\right| &lt; 1, \\text {即} |x| &lt; 4, \\varphi \\\\ \\text {由幂级数的运算得，收敛域为} (-1, 1]. \\varphi \\end{array}</div>"
     },
     {
       "id": "q0029",
       "number": 29,
       "header": "#29-Averge",
       "difficulty": "Averge",
-      "prompt_html": "<img src=\"/static/generated/assets/advanced-math/ch088/q0029_prompt.png\"/>",
+      "prompt_html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{如果幂级数} \\sum_{n=0}^{\\infty} a_{n} x^{n} \\text{在} x=2 \\text{处收敛，在} x=-3 \\text{处发散，则该级数} [ \\quad] . \\Leftrightarrow\">\\text{如果幂级数} \\sum_{n=0}^{\\infty} a_{n} x^{n} \\text{在} x=2 \\text{处收敛，在} x=-3 \\text{处发散，则该级数} [ \\quad] . \\Leftrightarrow</span>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch088/q0029_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{当} | x | &gt; 3 \\text{时发散}\">\\text{当} | x | &gt; 3 \\text{时发散}</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch088/q0029_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{当} x = 3 \\text{时发散};\">\\text{当} x = 3 \\text{时发散};</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch088/q0029_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{收敛域为}(-3, 2 ]\">\\text{收敛域为}(-3, 2 ]</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch088/q0029_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{当} x = - 2 \\text{时收敛};\">\\text{当} x = - 2 \\text{时收敛};</span>"
         }
       ],
       "answer": "A",
       "answer_index": 0,
-      "analysis_html": "<img src=\"/static/generated/assets/advanced-math/ch088/q0029_analysis.png\"/>"
+      "analysis_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{aligned}&amp;\\text{解答：在}x=2\\text{处级数}\\sum_{n=0}^{\\infty}a_nx^n\\text{收敛，则收敛半径}R\\geq2\\,;\\quad \\end{aligned}\">\\begin{aligned}&amp;\\text{解答：在}x=2\\text{处级数}\\sum_{n=0}^{\\infty}a_nx^n\\text{收敛，则收敛半径}R\\geq2\\,;\\quad \\end{aligned}</div>"
     },
     {
       "id": "q0030",
       "number": 30,
       "header": "#30-Averge",
       "difficulty": "Averge",
-      "prompt_html": "<img src=\"/static/generated/assets/advanced-math/ch088/q0030_prompt.png\"/>",
+      "prompt_html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{设 } x \\text{ 不是负整数，对 } p \\text{ 的值讨论级数} \\sum_{n=1}^{\\infty} \\frac{(-1)^{n}}{(x+n)^{2}} (p&gt;0) \\text{的收敛性，得当} [ \\quad]  \\text{时，绝对收敛}\\text{.}\">\\text{设 } x \\text{ 不是负整数，对 } p \\text{ 的值讨论级数} \\sum_{n=1}^{\\infty} \\frac{(-1)^{n}}{(x+n)^{2}} (p&gt;0) \\text{的收敛性，得当} [ \\quad]  \\text{时，绝对收敛}\\text{.}</span>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch088/q0030_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"p \\! &gt; \\! 1 \\, ;\">p \\! &gt; \\! 1 \\, ;</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch088/q0030_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\scriptstyle p \\leq 1 .\">\\scriptstyle p \\leq 1 .</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch088/q0030_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"p \\! &gt; 0\">p \\! &gt; 0</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch088/q0030_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\begin{array}{c} 0 &lt; p &lt; 1 \\end{array} ;\">\\begin{array}{c} 0 &lt; p &lt; 1 \\end{array} ;</span>"
         }
       ],
       "answer": "A",
       "answer_index": 0,
-      "analysis_html": "<img src=\"/static/generated/assets/advanced-math/ch088/q0030_analysis.png\"/>"
+      "analysis_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{array}{l} \\text {解答：} \\lim_{n \\rightarrow \\infty} \\left| \\frac{\\frac{(-1)^{n}}{(x+n)^{p}}}{\\frac{1}{n^{p}}} \\right| = \\lim_{n \\rightarrow \\infty} \\frac{(n+x)^{p}}{n^{p}} = 1, \\text {由比较法，当} p &gt; 1 \\text {时，级数} \\sum_{n=1}^{\\infty} \\frac{(-1)^{n}}{(x+n)^{p}} \\text {绝} \\\\ \\text {对收敛.} \\end{array}\">\\begin{array}{l} \\text {解答：} \\lim_{n \\rightarrow \\infty} \\left| \\frac{\\frac{(-1)^{n}}{(x+n)^{p}}}{\\frac{1}{n^{p}}} \\right| = \\lim_{n \\rightarrow \\infty} \\frac{(n+x)^{p}}{n^{p}} = 1, \\text {由比较法，当} p &gt; 1 \\text {时，级数} \\sum_{n=1}^{\\infty} \\frac{(-1)^{n}}{(x+n)^{p}} \\text {绝} \\\\ \\text {对收敛.} \\end{array}</div>"
     },
     {
       "id": "q0031",
       "number": 31,
       "header": "#31-Averge",
       "difficulty": "Averge",
-      "prompt_html": "<img src=\"/static/generated/assets/advanced-math/ch088/q0031_prompt.png\"/>",
+      "prompt_html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{幂级数} \\sum_{n=1}^{\\infty} (-1)^{n} \\frac{x^{n}}{n} \\text{的收敛域为} [ \\quad \\quad ].\">\\text{幂级数} \\sum_{n=1}^{\\infty} (-1)^{n} \\frac{x^{n}}{n} \\text{的收敛域为} [ \\quad \\quad ].</span>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch088/q0031_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\left[ - 1 , 1 \\right) ;\">\\left[ - 1 , 1 \\right) ;</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch088/q0031_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"( - 1 , 1 ] \\, ;\">( - 1 , 1 ] \\, ;</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch088/q0031_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\left( - 1 , 1 \\right)\">\\left( - 1 , 1 \\right)</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch088/q0031_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"[ - 1 , 1 ] .\">[ - 1 , 1 ] .</span>"
         }
       ],
       "answer": "B",
       "answer_index": 1,
-      "analysis_html": "<img src=\"/static/generated/assets/advanced-math/ch088/q0031_analysis.png\"/>"
+      "analysis_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{array}{l} \\text {解答:由} \\lim_{n \\to \\infty} \\left| \\frac{a_{n-1}}{a_{n}} \\right| = \\lim_{n \\to \\infty} \\left| \\frac{n+1}{n} \\right| = 1, \\text {收敛半径为} R = 1, \\\\ \\text {当} x = 1 \\text {时,级数为} \\sum_{n = 1}^{\\infty} (-1)^{n} \\frac{1}{n}, \\text {收敛;当} x = -1 \\text {时,级数为} \\sum_{n = 1}^{\\infty} \\frac{1}{n}, \\text {发散,}\\\\ \\text {所以收敛域为} (-1, 1]. \\end{array}\">\\begin{array}{l} \\text {解答:由} \\lim_{n \\to \\infty} \\left| \\frac{a_{n-1}}{a_{n}} \\right| = \\lim_{n \\to \\infty} \\left| \\frac{n+1}{n} \\right| = 1, \\text {收敛半径为} R = 1, \\\\ \\text {当} x = 1 \\text {时,级数为} \\sum_{n = 1}^{\\infty} (-1)^{n} \\frac{1}{n}, \\text {收敛;当} x = -1 \\text {时,级数为} \\sum_{n = 1}^{\\infty} \\frac{1}{n}, \\text {发散,}\\\\ \\text {所以收敛域为} (-1, 1]. \\end{array}</div>"
     },
     {
       "id": "q0032",
       "number": 32,
       "header": "#32-Averge",
       "difficulty": "Averge",
-      "prompt_html": "<img src=\"/static/generated/assets/advanced-math/ch088/q0032_prompt.png\"/>",
+      "prompt_html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{级数} \\sum _ { n = 1 } ^ { \\infty } \\frac { 3 ^ { \\frac { n } { 2 } } \\tan ^ { n } x } { n } \\text{的收敛域是} [ \\quad \\quad ] .\">\\text{级数} \\sum _ { n = 1 } ^ { \\infty } \\frac { 3 ^ { \\frac { n } { 2 } } \\tan ^ { n } x } { n } \\text{的收敛域是} [ \\quad \\quad ] .</span>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch088/q0032_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\underbrace{[k \\pi - \\frac{\\pi}{3}, k \\pi + \\frac{\\pi}{3} ]}\">\\underbrace{[k \\pi - \\frac{\\pi}{3}, k \\pi + \\frac{\\pi}{3} ]}</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch088/q0032_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"[ k \\pi - \\frac { \\pi } { 6 } , k \\pi + \\frac { \\pi } { 6 } )\">[ k \\pi - \\frac { \\pi } { 6 } , k \\pi + \\frac { \\pi } { 6 } )</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch088/q0032_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\left[ k \\pi - \\frac { \\pi } { 3 } , k \\pi + \\frac { \\pi } { 3 } \\right)\">\\left[ k \\pi - \\frac { \\pi } { 3 } , k \\pi + \\frac { \\pi } { 3 } \\right)</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch088/q0032_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"[ k \\pi - \\frac { \\pi } { 6 } , k \\pi + \\frac { \\pi } { 6 } ]\">[ k \\pi - \\frac { \\pi } { 6 } , k \\pi + \\frac { \\pi } { 6 } ]</span>"
         }
       ],
       "answer": "B",
       "answer_index": 1,
-      "analysis_html": "<img src=\"/static/generated/assets/advanced-math/ch088/q0032_analysis.png\"/>"
+      "analysis_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{array}{l} \\text{解答：} \\lim_{n \\to \\infty} \\frac{\\left| \\frac{\\frac{n-1}{3} \\tan^{n+1} x}{n+1} \\right|}{\\frac{\\frac{\\pi}{3} \\tan^{n} x}{n}} = |\\sqrt{3} \\tan x| &lt; 1, \\text{所以} |\\tan x| &lt; \\frac{1}{\\sqrt{3}}, \\\\ \\text{当} \\tan x = \\frac{1}{\\sqrt{3}} \\text{时，级数} \\sum_{n=1}^{\\infty} \\frac{1}{n} \\text{发散；当} \\tan x = -\\frac{1}{\\sqrt{3}} \\text{时，级数} \\sum_{n=1}^{\\infty} \\frac{(-1)^{n}}{n} \\text{收敛，所以收敛域为} \\\\ -\\frac{1}{\\sqrt{3}} \\leq \\tan x &lt; \\frac{1}{\\sqrt{3}}, \\text{即} k \\pi - \\frac{\\pi}{6} \\leq \\tan x &lt; k \\pi + \\frac{\\pi}{6}, \\end{array}\">\\begin{array}{l} \\text{解答：} \\lim_{n \\to \\infty} \\frac{\\left| \\frac{\\frac{n-1}{3} \\tan^{n+1} x}{n+1} \\right|}{\\frac{\\frac{\\pi}{3} \\tan^{n} x}{n}} = |\\sqrt{3} \\tan x| &lt; 1, \\text{所以} |\\tan x| &lt; \\frac{1}{\\sqrt{3}}, \\\\ \\text{当} \\tan x = \\frac{1}{\\sqrt{3}} \\text{时，级数} \\sum_{n=1}^{\\infty} \\frac{1}{n} \\text{发散；当} \\tan x = -\\frac{1}{\\sqrt{3}} \\text{时，级数} \\sum_{n=1}^{\\infty} \\frac{(-1)^{n}}{n} \\text{收敛，所以收敛域为} \\\\ -\\frac{1}{\\sqrt{3}} \\leq \\tan x &lt; \\frac{1}{\\sqrt{3}}, \\text{即} k \\pi - \\frac{\\pi}{6} \\leq \\tan x &lt; k \\pi + \\frac{\\pi}{6}, \\end{array}</div>"
     },
     {
       "id": "q0033",
       "number": 33,
       "header": "#33-Averge",
       "difficulty": "Averge",
-      "prompt_html": "<img src=\"/static/generated/assets/advanced-math/ch088/q0033_prompt.png\"/>",
+      "prompt_html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{如果} \\lim_{n \\to \\infty } \\left| \\frac{a_{n}}{a_{n+1}} \\right| = 2 \\text{，则幂级数} \\sum_{n=0}^{\\infty } a_{n} (x-1)^{n} \\text{在开区间} [ \\quad ] \\text{内收敛}\\text{.}\">\\text{如果} \\lim_{n \\to \\infty } \\left| \\frac{a_{n}}{a_{n+1}} \\right| = 2 \\text{，则幂级数} \\sum_{n=0}^{\\infty } a_{n} (x-1)^{n} \\text{在开区间} [ \\quad ] \\text{内收敛}\\text{.}</span>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch088/q0033_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"(- \\frac {1}{2}, \\frac {1}{2}).\">(- \\frac {1}{2}, \\frac {1}{2}).</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch088/q0033_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"( - 3 , 3 ) \\, ;\">( - 3 , 3 ) \\, ;</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch088/q0033_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\left( - 1 , 3 \\right)\">\\left( - 1 , 3 \\right)</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch088/q0033_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"( - 1 , 1 ) \\, ;\">( - 1 , 1 ) \\, ;</span>"
         }
       ],
       "answer": "C",
       "answer_index": 2,
-      "analysis_html": "<img src=\"/static/generated/assets/advanced-math/ch088/q0033_analysis.png\"/>"
+      "analysis_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{array}{l} \\text {解答：由} \\lim_{n \\to \\infty} \\left| \\frac{a_{n}}{a_{n-1}} \\right| = 2, \\text {幂级数} \\sum_{n=0}^{\\infty} a_{n} (x-1)^{n} \\text {的收敛半径为} R = 2, \\text {即收敛区间为} \\\\ | x - 1 | &lt; 2, \\text {从而} x \\in (-1, 3),. \\end{array}\">\\begin{array}{l} \\text {解答：由} \\lim_{n \\to \\infty} \\left| \\frac{a_{n}}{a_{n-1}} \\right| = 2, \\text {幂级数} \\sum_{n=0}^{\\infty} a_{n} (x-1)^{n} \\text {的收敛半径为} R = 2, \\text {即收敛区间为} \\\\ | x - 1 | &lt; 2, \\text {从而} x \\in (-1, 3),. \\end{array}</div>"
     },
     {
       "id": "q0034",
       "number": 34,
       "header": "#34-Averge",
       "difficulty": "Averge",
-      "prompt_html": "<img src=\"/static/generated/assets/advanced-math/ch088/q0034_prompt.png\"/>",
+      "prompt_html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{幂级数} \\sum_{n=1}^{\\infty} \\frac{x^{n}}{n} \\text{的收敛域为} [ \\quad \\quad].\">\\text{幂级数} \\sum_{n=1}^{\\infty} \\frac{x^{n}}{n} \\text{的收敛域为} [ \\quad \\quad].</span>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch088/q0034_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\left[ - 1 , 1 \\right)\">\\left[ - 1 , 1 \\right)</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch088/q0034_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\smash { [ - 1 , 1 ] } .\">\\smash { [ - 1 , 1 ] } .</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch088/q0034_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\left( - 1 , 1 \\right)\">\\left( - 1 , 1 \\right)</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch088/q0034_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"( - 1 , 1 ]\">( - 1 , 1 ]</span>"
         }
       ],
       "answer": "A",
       "answer_index": 0,
-      "analysis_html": "<img src=\"/static/generated/assets/advanced-math/ch088/q0034_analysis.png\"/>"
+      "analysis_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{array}{l} \\text {解答：由} \\lim_{n \\to \\infty} \\left| \\frac{a_{n}}{a_{n}} \\right| = \\lim_{n \\to \\infty} \\left| \\frac{n+1}{n} \\right| = 1, \\text {收敛半径为} R = 1, \\text {,} \\\\ \\text {当} x = - 1 \\text {时，级数为} \\sum_{n = 1}^{\\infty} (- 1)^{n} \\frac{1}{n}, \\text {收敛；当} x = 1 \\text {时，级数为} \\sum_{n = 1}^{\\infty} \\frac{1}{n}, \\text {发散，} \\\\ \\text {所以收敛域为} [- 1, 1). \\text {,} \\end{array}\">\\begin{array}{l} \\text {解答：由} \\lim_{n \\to \\infty} \\left| \\frac{a_{n}}{a_{n}} \\right| = \\lim_{n \\to \\infty} \\left| \\frac{n+1}{n} \\right| = 1, \\text {收敛半径为} R = 1, \\text {,} \\\\ \\text {当} x = - 1 \\text {时，级数为} \\sum_{n = 1}^{\\infty} (- 1)^{n} \\frac{1}{n}, \\text {收敛；当} x = 1 \\text {时，级数为} \\sum_{n = 1}^{\\infty} \\frac{1}{n}, \\text {发散，} \\\\ \\text {所以收敛域为} [- 1, 1). \\text {,} \\end{array}</div>"
     },
     {
       "id": "q0035",
       "number": 35,
       "header": "#35-Averge",
       "difficulty": "Averge",
-      "prompt_html": "<img src=\"/static/generated/assets/advanced-math/ch088/q0035_prompt.png\"/>",
+      "prompt_html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{级数} \\sum_{n=1}^{\\infty} (-1)^{n} \\frac{2^{n}}{\\sqrt{n}} (x - \\frac{1}{2})^{n} \\text{的收敛域是} [ \\quad \\quad].\">\\text{级数} \\sum_{n=1}^{\\infty} (-1)^{n} \\frac{2^{n}}{\\sqrt{n}} (x - \\frac{1}{2})^{n} \\text{的收敛域是} [ \\quad \\quad].</span>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch088/q0035_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"(0, + \\infty)\\,;\">(0, + \\infty)\\,;</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch088/q0035_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"(0, 1 ];\">(0, 1 ];</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch088/q0035_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\left( - 1 , 1 \\right]\">\\left( - 1 , 1 \\right]</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch088/q0035_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\left( - 1 , 0 \\right]\">\\left( - 1 , 0 \\right]</span>"
         }
       ],
       "answer": "B",
       "answer_index": 1,
-      "analysis_html": "<img src=\"/static/generated/assets/advanced-math/ch088/q0035_analysis.png\"/>"
+      "analysis_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{aligned}&amp;\\text{解答：令}t=x-\\frac{1}{2},\\text{级数化为}\\sum_{n=1}^{\\infty}(-1)^{n}\\frac{2^{n}}{\\sqrt{n}}t^{n},\\\\&amp;\\rho=\\lim_{n\\rightarrow\\infty}\\frac{\\left|(-1)^{n-i}\\frac{2^{n-i}}{\\sqrt{n+1}}\\right|}{(-1)^{n}\\frac{2^{n}}{\\sqrt{n}}}=\\lim_{n\\rightarrow\\infty}2\\sqrt{\\frac{n}{n+1}}=2,\\text{收敛半径为}R=\\frac{1}{\\rho}=\\frac{1}{2},\\\\&amp;\\text{当}t=\\frac{1}{2}\\text{时，级数}\\sum_{n=1}^{\\infty}\\frac{(-1)^{n}}{\\sqrt{n}}\\text{为交错级数收敛；当}t=-\\frac{1}{2}\\text{时，级数}\\sum_{n=1}^{\\infty}\\frac{1}{\\sqrt{n}}\\text{为}\\\\&amp;p=\\frac{1}{2}\\text{的}p\\text{级数，发散，所以收敛域为}-\\frac{1}{2}&lt;t\\leq\\frac{1}{2},\\text{即}0&lt;x\\leq1.\\end{aligned}\">\\begin{aligned}&amp;\\text{解答：令}t=x-\\frac{1}{2},\\text{级数化为}\\sum_{n=1}^{\\infty}(-1)^{n}\\frac{2^{n}}{\\sqrt{n}}t^{n},\\\\&amp;\\rho=\\lim_{n\\rightarrow\\infty}\\frac{\\left|(-1)^{n-i}\\frac{2^{n-i}}{\\sqrt{n+1}}\\right|}{(-1)^{n}\\frac{2^{n}}{\\sqrt{n}}}=\\lim_{n\\rightarrow\\infty}2\\sqrt{\\frac{n}{n+1}}=2,\\text{收敛半径为}R=\\frac{1}{\\rho}=\\frac{1}{2},\\\\&amp;\\text{当}t=\\frac{1}{2}\\text{时，级数}\\sum_{n=1}^{\\infty}\\frac{(-1)^{n}}{\\sqrt{n}}\\text{为交错级数收敛；当}t=-\\frac{1}{2}\\text{时，级数}\\sum_{n=1}^{\\infty}\\frac{1}{\\sqrt{n}}\\text{为}\\\\&amp;p=\\frac{1}{2}\\text{的}p\\text{级数，发散，所以收敛域为}-\\frac{1}{2}&lt;t\\leq\\frac{1}{2},\\text{即}0&lt;x\\leq1.\\end{aligned}</div>"
     },
     {
       "id": "q0036",
       "number": 36,
       "header": "#36-Averge",
       "difficulty": "Averge",
-      "prompt_html": "<img src=\"/static/generated/assets/advanced-math/ch088/q0036_prompt.png\"/>",
+      "prompt_html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\sum _ { n = 1 } ^ { \\infty } a _ { n } ( x - 1 ) ^ { n } \\text {在} x = - 1 \\text {处收敛，则此级数在} x = 2 \\text{处} [ \\quad ] .+\">\\sum _ { n = 1 } ^ { \\infty } a _ { n } ( x - 1 ) ^ { n } \\text {在} x = - 1 \\text {处收敛，则此级数在} x = 2 \\text{处} [ \\quad ] .+</span>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch088/q0036_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{条件收敛}:\">\\text{条件收敛}:</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch088/q0036_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{不能确定敛散性}.\">\\text{不能确定敛散性}.</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch088/q0036_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{发散}:\">\\text{发散}:</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch088/q0036_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\textbf{绝对收敛}\">\\textbf{绝对收敛}</span>"
         }
       ],
       "answer": "D",
       "answer_index": 3,
-      "analysis_html": "<img src=\"/static/generated/assets/advanced-math/ch088/q0036_analysis.png\"/>"
+      "analysis_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{array}{l} \\text {解答：令} t = x - 1 , \\text {则} \\sum \\limits_{n = 0} ^ {\\infty} a _ {n} t ^ {n} \\text {在} t = - 2 \\text {处收敛，由阿贝尔定理，在} | t | &lt; 2 \\text {时，级数} \\\\ \\sum \\limits_{n = 0} ^ {\\infty} a _ {n} t ^ {n} \\text {是绝对收敛的，} x = 2 \\text {时，} t = 1 , \\text {所以级数绝对收敛。} \\end{array}\">\\begin{array}{l} \\text {解答：令} t = x - 1 , \\text {则} \\sum \\limits_{n = 0} ^ {\\infty} a _ {n} t ^ {n} \\text {在} t = - 2 \\text {处收敛，由阿贝尔定理，在} | t | &lt; 2 \\text {时，级数} \\\\ \\sum \\limits_{n = 0} ^ {\\infty} a _ {n} t ^ {n} \\text {是绝对收敛的，} x = 2 \\text {时，} t = 1 , \\text {所以级数绝对收敛。} \\end{array}</div>"
     },
     {
       "id": "q0037",
       "number": 37,
       "header": "#37-Averge",
       "difficulty": "Averge",
-      "prompt_html": "<img src=\"/static/generated/assets/advanced-math/ch088/q0037_prompt.png\"/>",
+      "prompt_html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{如果幂级数} \\sum_{n=0}^{\\infty} a_{n} (x-1)^{n} \\text{在} x=-1 \\text{收敛，在} x=3 \\text{处发散，则它的收敛域是} [ \\quad].\">\\text{如果幂级数} \\sum_{n=0}^{\\infty} a_{n} (x-1)^{n} \\text{在} x=-1 \\text{收敛，在} x=3 \\text{处发散，则它的收敛域是} [ \\quad].</span>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch088/q0037_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"[ - 1 , 3 )\">[ - 1 , 3 )</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch088/q0037_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"(0, 2)\">(0, 2)</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch088/q0037_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"( - 3 , 1 ) \\, ;\">( - 3 , 1 ) \\, ;</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch088/q0037_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"[ 2 , 4 ) .\">[ 2 , 4 ) .</span>"
         }
       ],
       "answer": "A",
       "answer_index": 0,
-      "analysis_html": "<img src=\"/static/generated/assets/advanced-math/ch088/q0037_analysis.png\"/>"
+      "analysis_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{aligned} \\text{解答：令} t = x-1, \\text{在} x=-1 \\text{处级数收敛，即在} t=-2 \\text{处级数} \\sum_{n=0}^{\\infty} a_n t^n \\text{收敛，则收敛半径} R \\geq 2; \\\\ \\text{又} x=3 \\text{处级数发散，即在} t=2 \\text{处级数} \\sum_{n=0}^{\\infty} a_n t^n \\text{发散，则收敛半径} R \\leq 2, \\text{从而收敛半径为} R=2, \\text{收敛域为} -2 \\leq t &lt; 2, \\text{即} -1 \\leq x &lt; 3. \\end{aligned}\">\\begin{aligned} \\text{解答：令} t = x-1, \\text{在} x=-1 \\text{处级数收敛，即在} t=-2 \\text{处级数} \\sum_{n=0}^{\\infty} a_n t^n \\text{收敛，则收敛半径} R \\geq 2; \\\\ \\text{又} x=3 \\text{处级数发散，即在} t=2 \\text{处级数} \\sum_{n=0}^{\\infty} a_n t^n \\text{发散，则收敛半径} R \\leq 2, \\text{从而收敛半径为} R=2, \\text{收敛域为} -2 \\leq t &lt; 2, \\text{即} -1 \\leq x &lt; 3. \\end{aligned}</div>"
     },
     {
       "id": "q0038",
       "number": 38,
       "header": "#38-Averge",
       "difficulty": "Averge",
-      "prompt_html": "<img src=\"/static/generated/assets/advanced-math/ch088/q0038_prompt.png\"/>",
+      "prompt_html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{幂级数} \\sum_{n=1}^{\\infty} (-1)^{n} \\frac{x^{n}}{\\sqrt[n]{n!}} \\text{的收敛半径是}[ \\quad].\">\\text{幂级数} \\sum_{n=1}^{\\infty} (-1)^{n} \\frac{x^{n}}{\\sqrt[n]{n!}} \\text{的收敛半径是}[ \\quad].</span>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch088/q0038_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\frac{1}{2}\\,;\">\\frac{1}{2}\\,;</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch088/q0038_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\frac{3}{2}\\,;\">\\frac{3}{2}\\,;</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch088/q0038_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\textbf{2.}\\leftarrow\">\\textbf{2.}\\leftarrow</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch088/q0038_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\mathbf { 1 } ;\">\\mathbf { 1 } ;</span>"
         }
       ],
       "answer": "D",
       "answer_index": 3,
-      "analysis_html": "<img src=\"/static/generated/assets/advanced-math/ch088/q0038_analysis.png\"/>"
+      "analysis_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{aligned} \\text{解答：令 } a_{n}&amp;=\\frac{1}{\\sqrt[n]{n!}}\\ ,\\ \\text{则}\\ \\frac{a_{n+1}}{a_{n}}=\\frac{\\frac{1}{n+\\sqrt[n]{(n+1)!}}}{\\frac{1}{\\sqrt[n]{n!}}}=\\frac{\\sqrt[n]{n!}}{n+\\sqrt[n]{(n+1)n!}}=\\frac{1}{n-\\sqrt[n]{(n+1)}}\\frac{\\sqrt[n]{n!}}{n-\\sqrt[n]{n!}}\\ ,\\ \\varphi\\\\ &amp;\\frac{1}{n+\\sqrt[n]{(n+1)}}\\leq \\frac{a_{n+1}}{a_{n}}\\leq \\frac{1}{n+\\sqrt[n]{(n+1)}}\\left(n^{n+1}\\right)^{\\frac{1}{n}-\\frac{1}{n+1}}=(n)^{\\frac{1}{n}}\\varphi\\\\ \\text{因为}\\lim_{n\\rightarrow\\infty}\\sqrt[n]{n}&amp;=1\\ ,\\ \\text{所以}\\lim_{n\\rightarrow\\infty}\\frac{a_{n+1}}{a_{n}}=1\\ ,\\ \\text{原幂级数}\\sum_{n=1}^{\\infty}(-1)^{n}\\frac{\\chi^{n}}{\\sqrt[n]{n!}}\\text{的收敛半径为}1.\\varphi\\end{aligned}\">\\begin{aligned} \\text{解答：令 } a_{n}&amp;=\\frac{1}{\\sqrt[n]{n!}}\\ ,\\ \\text{则}\\ \\frac{a_{n+1}}{a_{n}}=\\frac{\\frac{1}{n+\\sqrt[n]{(n+1)!}}}{\\frac{1}{\\sqrt[n]{n!}}}=\\frac{\\sqrt[n]{n!}}{n+\\sqrt[n]{(n+1)n!}}=\\frac{1}{n-\\sqrt[n]{(n+1)}}\\frac{\\sqrt[n]{n!}}{n-\\sqrt[n]{n!}}\\ ,\\ \\varphi\\\\ &amp;\\frac{1}{n+\\sqrt[n]{(n+1)}}\\leq \\frac{a_{n+1}}{a_{n}}\\leq \\frac{1}{n+\\sqrt[n]{(n+1)}}\\left(n^{n+1}\\right)^{\\frac{1}{n}-\\frac{1}{n+1}}=(n)^{\\frac{1}{n}}\\varphi\\\\ \\text{因为}\\lim_{n\\rightarrow\\infty}\\sqrt[n]{n}&amp;=1\\ ,\\ \\text{所以}\\lim_{n\\rightarrow\\infty}\\frac{a_{n+1}}{a_{n}}=1\\ ,\\ \\text{原幂级数}\\sum_{n=1}^{\\infty}(-1)^{n}\\frac{\\chi^{n}}{\\sqrt[n]{n!}}\\text{的收敛半径为}1.\\varphi\\end{aligned}</div>"
     },
     {
       "id": "q0039",
       "number": 39,
       "header": "#39-Averge",
       "difficulty": "Averge",
-      "prompt_html": "<img src=\"/static/generated/assets/advanced-math/ch088/q0039_prompt.png\"/>",
+      "prompt_html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{级数} \\sum _ { n = 1 } ^ { \\infty } \\frac { n } { 2 ^ { n } } ( x ) ^ { 2 n } \\text{的收敛域是} [ \\quad \\quad ] . \\leftarrow\">\\text{级数} \\sum _ { n = 1 } ^ { \\infty } \\frac { n } { 2 ^ { n } } ( x ) ^ { 2 n } \\text{的收敛域是} [ \\quad \\quad ] . \\leftarrow</span>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch088/q0039_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\left( - 2 , 0 \\right)\">\\left( - 2 , 0 \\right)</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch088/q0039_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\sqrt [ ] { - 2 } , 0 )\">\\sqrt [ ] { - 2 } , 0 )</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch088/q0039_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"( - \\sqrt { 2 } , \\sqrt { 2 } ) \\, ;\">( - \\sqrt { 2 } , \\sqrt { 2 } ) \\, ;</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch088/q0039_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\left[ - 2 , 0 \\right)\">\\left[ - 2 , 0 \\right)</span>"
         }
       ],
       "answer": "C",
       "answer_index": 2,
-      "analysis_html": "<img src=\"/static/generated/assets/advanced-math/ch088/q0039_analysis.png\"/>"
+      "analysis_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{array}{l} \\text {解答：用比值法：} \\lim_{n \\to \\infty} \\left| \\frac{u_{n+1}(x)}{u_{n}(x)} \\right| = \\lim_{n \\to \\infty} \\left| \\frac{\\frac{n+1}{2^{n+1}}(x)^{n+2}}{\\frac{n}{2^{n}}(x)^{n}} \\right| = \\lim_{n \\to \\infty} \\frac{n+1}{2n} x^{2} = \\frac{1}{2} x^{2} &lt; 1, \\text {解得} \\\\ |x| &lt; \\sqrt{2}, \\quad \\text{,} \\\\ \\text {当} x = \\pm \\sqrt{2} \\text {时，级数为} \\sum_{n=1}^{\\infty} n, \\text {发散，所以收敛域为} (-\\sqrt{2}, \\sqrt{2}). \\end{array}\">\\begin{array}{l} \\text {解答：用比值法：} \\lim_{n \\to \\infty} \\left| \\frac{u_{n+1}(x)}{u_{n}(x)} \\right| = \\lim_{n \\to \\infty} \\left| \\frac{\\frac{n+1}{2^{n+1}}(x)^{n+2}}{\\frac{n}{2^{n}}(x)^{n}} \\right| = \\lim_{n \\to \\infty} \\frac{n+1}{2n} x^{2} = \\frac{1}{2} x^{2} &lt; 1, \\text {解得} \\\\ |x| &lt; \\sqrt{2}, \\quad \\text{,} \\\\ \\text {当} x = \\pm \\sqrt{2} \\text {时，级数为} \\sum_{n=1}^{\\infty} n, \\text {发散，所以收敛域为} (-\\sqrt{2}, \\sqrt{2}). \\end{array}</div>"
     },
     {
       "id": "q0040",
       "number": 40,
       "header": "#40-Averge",
       "difficulty": "Averge",
-      "prompt_html": "<img src=\"/static/generated/assets/advanced-math/ch088/q0040_prompt.png\"/>",
+      "prompt_html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{级数} \\sum _ { n = 1 } ^ { \\infty } \\frac { \\ln ( n + 1 ) } { n + 1 } x ^ { n + 1 } \\text{的收敛域是} [ \\quad \\quad ] . \\leftarrow\">\\text{级数} \\sum _ { n = 1 } ^ { \\infty } \\frac { \\ln ( n + 1 ) } { n + 1 } x ^ { n + 1 } \\text{的收敛域是} [ \\quad \\quad ] . \\leftarrow</span>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch088/q0040_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\mathbf{(-2, 2)}.\">\\mathbf{(-2, 2)}.</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch088/q0040_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"( - 1 , 0 ) \\, ;\">( - 1 , 0 ) \\, ;</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch088/q0040_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\left[ - 1 , 1 \\right)\">\\left[ - 1 , 1 \\right)</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch088/q0040_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"(0, 1)\">(0, 1)</span>"
         }
       ],
       "answer": "C",
       "answer_index": 2,
-      "analysis_html": "<img src=\"/static/generated/assets/advanced-math/ch088/q0040_analysis.png\"/>"
+      "analysis_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{array}{l} \\text {解答：} \\rho = \\lim _ {n \\rightarrow \\infty} \\left| \\frac {a _ {n - 1}}{a _ {n}} \\right| = \\lim _ {n \\rightarrow \\infty} \\left| \\frac {\\frac {\\ln (n + 2)}{n + 2}}{\\frac {\\ln (n + 1)}{n + 1}} \\right| = \\lim _ {n \\rightarrow \\infty} \\frac {n + 1}{n + 2} \\cdot \\frac {\\ln (n + 2)}{\\ln (n + 1)} = 1, \\text {收敛半径} R = \\frac {1}{\\rho} = 1, \\\\ \\text {当} x = 1 \\text {时,级数为} \\sum_ {n = 1} ^ {\\infty} \\frac {\\ln (n + 1)}{n + 1}, \\text {发散；当} x = - 1 \\text {时,级数为} \\sum_ {n = 1} ^ {\\infty} (- 1) ^ {n - 1} \\frac {\\ln (n + 1)}{n + 1}, \\\\ \\text {交错级数收敛，所以收敛域为} [- 1, 1). \\end{array}\">\\begin{array}{l} \\text {解答：} \\rho = \\lim _ {n \\rightarrow \\infty} \\left| \\frac {a _ {n - 1}}{a _ {n}} \\right| = \\lim _ {n \\rightarrow \\infty} \\left| \\frac {\\frac {\\ln (n + 2)}{n + 2}}{\\frac {\\ln (n + 1)}{n + 1}} \\right| = \\lim _ {n \\rightarrow \\infty} \\frac {n + 1}{n + 2} \\cdot \\frac {\\ln (n + 2)}{\\ln (n + 1)} = 1, \\text {收敛半径} R = \\frac {1}{\\rho} = 1, \\\\ \\text {当} x = 1 \\text {时,级数为} \\sum_ {n = 1} ^ {\\infty} \\frac {\\ln (n + 1)}{n + 1}, \\text {发散；当} x = - 1 \\text {时,级数为} \\sum_ {n = 1} ^ {\\infty} (- 1) ^ {n - 1} \\frac {\\ln (n + 1)}{n + 1}, \\\\ \\text {交错级数收敛，所以收敛域为} [- 1, 1). \\end{array}</div>"
     },
     {
       "id": "q0041",
       "number": 41,
       "header": "#41-Averge",
       "difficulty": "Averge",
-      "prompt_html": "<img src=\"/static/generated/assets/advanced-math/ch088/q0041_prompt.png\"/>",
+      "prompt_html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{幂级数} \\sum _ { n = 0 } ^ { \\infty } a _ { n } x ^ { n } \\text{的收敛半径是} 3 , \\text{则幂级数} \\sum _ { n = 0 } ^ { \\infty } n a _ { n } ( x - 1 ) ^ { n - 1 } \\text{的收敛半径是} [ \\quad ] .\">\\text{幂级数} \\sum _ { n = 0 } ^ { \\infty } a _ { n } x ^ { n } \\text{的收敛半径是} 3 , \\text{则幂级数} \\sum _ { n = 0 } ^ { \\infty } n a _ { n } ( x - 1 ) ^ { n - 1 } \\text{的收敛半径是} [ \\quad ] .</span>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch088/q0041_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\textbf{4;}\">\\textbf{4;}</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch088/q0041_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\mathbf{2};\">\\mathbf{2};</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch088/q0041_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\boldsymbol{1}.\">\\boldsymbol{1}.</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch088/q0041_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\mathbf { 3 ; }\">\\mathbf { 3 ; }</span>"
         }
       ],
       "answer": "D",
       "answer_index": 3,
-      "analysis_html": "<img src=\"/static/generated/assets/advanced-math/ch088/q0041_analysis.png\"/>"
+      "analysis_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{array}{l} \\text {解答：由于} \\sum\\limits_{n = 0}^{\\infty} n a_{n} (x - 1)^{n - 1} = (x - 1)^{2} \\sum\\limits_{n = 1}^{\\infty} n a_{n} (x - 1)^{n - 1} = (x - 1)^{2} \\sum\\limits_{n = 1}^{\\infty} \\left[ a_{n} (x - 1)^{n} \\right]^{\\prime}, \\text {所以} \\\\ \\text {幂级数} \\sum\\limits_{n = 0}^{\\infty} n a_{n} (x - 1)^{n - 1} \\text {可以看成是幂级数} \\sum\\limits_{n = 0}^{\\infty} a_{n} (x - 1)^{n} \\text {经过逐项求导得到，} \\\\ \\text {收敛半径不变；而幂级数} \\sum\\limits_{n = 0}^{\\infty} a_{n} (x - 1)^{n} \\text {与幂级数} \\sum\\limits_{n = 0}^{\\infty} a_{n} x^{n} \\text {的收敛半径一样，} \\\\ \\text {则} \\sum\\limits_{n = 0}^{\\infty} n a_{n} (x - 1)^{n - 1} \\text {的收敛半径为} 3.^{\\omega} \\end{array}\">\\begin{array}{l} \\text {解答：由于} \\sum\\limits_{n = 0}^{\\infty} n a_{n} (x - 1)^{n - 1} = (x - 1)^{2} \\sum\\limits_{n = 1}^{\\infty} n a_{n} (x - 1)^{n - 1} = (x - 1)^{2} \\sum\\limits_{n = 1}^{\\infty} \\left[ a_{n} (x - 1)^{n} \\right]^{\\prime}, \\text {所以} \\\\ \\text {幂级数} \\sum\\limits_{n = 0}^{\\infty} n a_{n} (x - 1)^{n - 1} \\text {可以看成是幂级数} \\sum\\limits_{n = 0}^{\\infty} a_{n} (x - 1)^{n} \\text {经过逐项求导得到，} \\\\ \\text {收敛半径不变；而幂级数} \\sum\\limits_{n = 0}^{\\infty} a_{n} (x - 1)^{n} \\text {与幂级数} \\sum\\limits_{n = 0}^{\\infty} a_{n} x^{n} \\text {的收敛半径一样，} \\\\ \\text {则} \\sum\\limits_{n = 0}^{\\infty} n a_{n} (x - 1)^{n - 1} \\text {的收敛半径为} 3.^{\\omega} \\end{array}</div>"
     },
     {
       "id": "q0042",
       "number": 42,
       "header": "#42-Averge",
       "difficulty": "Averge",
-      "prompt_html": "<img src=\"/static/generated/assets/advanced-math/ch088/q0042_prompt.png\"/>",
+      "prompt_html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{级数} \\sum_{n=1}^{\\infty} \\frac{n}{2^{n}} (x)^{2n} \\text{的收敛域是} [ \\quad]. \\leftarrow\">\\text{级数} \\sum_{n=1}^{\\infty} \\frac{n}{2^{n}} (x)^{2n} \\text{的收敛域是} [ \\quad]. \\leftarrow</span>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch088/q0042_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\left[ - \\sqrt { 2 } , 0 \\right)\">\\left[ - \\sqrt { 2 } , 0 \\right)</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch088/q0042_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\left[ - 2 , 0 \\right)\">\\left[ - 2 , 0 \\right)</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch088/q0042_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\left( - 2 , 0 \\right)\">\\left( - 2 , 0 \\right)</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch088/q0042_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"( - \\sqrt { 2 } , \\sqrt { 2 } )\">( - \\sqrt { 2 } , \\sqrt { 2 } )</span>"
         }
       ],
       "answer": "D",
       "answer_index": 3,
-      "analysis_html": "<img src=\"/static/generated/assets/advanced-math/ch088/q0042_analysis.png\"/>"
+      "analysis_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{array}{l} \\text {解答：用比值法：} \\lim_{n \\to \\infty} \\left| \\frac{u_{n+1}(x)}{u_{n}(x)} \\right| = \\lim_{n \\to \\infty} \\left| \\frac{\\frac{n+1}{2^{n+1}}(x)^{2n-2}}{\\frac{n}{2^{n}}(x)^{n}} \\right| = \\lim_{n \\to \\infty} \\frac{n+1}{2n} x^{2} = \\frac{1}{2} x^{2} &lt; 1, \\text {解得} \\\\ |x| &lt; \\sqrt{2}, \\text {,} \\\\ \\text {当} x = \\pm \\sqrt{2} \\text {时，级数为} \\sum_{n=1}^{\\infty} n, \\text {发散，所以收敛域为}(-\\sqrt{2}, \\sqrt{2}), \\end{array}\">\\begin{array}{l} \\text {解答：用比值法：} \\lim_{n \\to \\infty} \\left| \\frac{u_{n+1}(x)}{u_{n}(x)} \\right| = \\lim_{n \\to \\infty} \\left| \\frac{\\frac{n+1}{2^{n+1}}(x)^{2n-2}}{\\frac{n}{2^{n}}(x)^{n}} \\right| = \\lim_{n \\to \\infty} \\frac{n+1}{2n} x^{2} = \\frac{1}{2} x^{2} &lt; 1, \\text {解得} \\\\ |x| &lt; \\sqrt{2}, \\text {,} \\\\ \\text {当} x = \\pm \\sqrt{2} \\text {时，级数为} \\sum_{n=1}^{\\infty} n, \\text {发散，所以收敛域为}(-\\sqrt{2}, \\sqrt{2}), \\end{array}</div>"
     },
     {
       "id": "q0043",
       "number": 43,
       "header": "#43-Averge",
       "difficulty": "Averge",
-      "prompt_html": "<img src=\"/static/generated/assets/advanced-math/ch088/q0043_prompt.png\"/>",
+      "prompt_html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\sum_{n=0}^{\\infty} a_{n} (x+3)^{n} \\text{ 在 } x=-1 \\text{ 处收敛，则此级数在 } x=1 \\text{ }\\text{处} [ \\quad]  .\">\\sum_{n=0}^{\\infty} a_{n} (x+3)^{n} \\text{ 在 } x=-1 \\text{ 处收敛，则此级数在 } x=1 \\text{ }\\text{处} [ \\quad]  .</span>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch088/q0043_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{不能确定敛散性；}\">\\text{不能确定敛散性；}</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch088/q0043_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{绝对收敛}\">\\text{绝对收敛}</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch088/q0043_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{条件收敛} ;\">\\text{条件收敛} ;</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch088/q0043_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{发散}.\">\\text{发散}.</span>"
         }
       ],
       "answer": "A",
       "answer_index": 0,
-      "analysis_html": "<img src=\"/static/generated/assets/advanced-math/ch088/q0043_analysis.png\"/>"
+      "analysis_html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\sum_{n=0}^{\\infty}a_{n}t^{n}\\text{在}t=2\\text{处收敛，由阿贝尔定理，在} |t|&lt;2\\text{时，级数}\">\\sum_{n=0}^{\\infty}a_{n}t^{n}\\text{在}t=2\\text{处收敛，由阿贝尔定理，在} |t|&lt;2\\text{时，级数}</span>"
     },
     {
       "id": "q0044",
       "number": 44,
       "header": "#44-Averge",
       "difficulty": "Averge",
-      "prompt_html": "<img src=\"/static/generated/assets/advanced-math/ch088/q0044_prompt.png\"/>",
+      "prompt_html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{幂级数} \\sum_{n=0}^{\\infty} n 4^{n+1} x^{n} \\text{的收敛域是} [ \\quad].\">\\text{幂级数} \\sum_{n=0}^{\\infty} n 4^{n+1} x^{n} \\text{的收敛域是} [ \\quad].</span>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch088/q0044_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\left(- \\frac {1}{4}, \\frac {1}{4} \\right)\">\\left(- \\frac {1}{4}, \\frac {1}{4} \\right)</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch088/q0044_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"(- \\frac {1}{4}, \\frac {1}{4} ]\">(- \\frac {1}{4}, \\frac {1}{4} ]</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch088/q0044_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"[ - \\frac { 1 } { 4 } , \\frac { 1 } { 4 } ]\">[ - \\frac { 1 } { 4 } , \\frac { 1 } { 4 } ]</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch088/q0044_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\left[ - \\frac { 1 } { 4 } , \\frac { 1 } { 4 } \\right)\">\\left[ - \\frac { 1 } { 4 } , \\frac { 1 } { 4 } \\right)</span>"
         }
       ],
       "answer": "A",
       "answer_index": 0,
-      "analysis_html": "<img src=\"/static/generated/assets/advanced-math/ch088/q0044_analysis.png\"/>"
+      "analysis_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{aligned} \\text{解答：}\\rho&amp;=\\lim_{n\\rightarrow\\infty}\\left|\\frac{a_{n+1}}{a_{n}}\\right|=\\lim_{n\\rightarrow\\infty}\\left|\\frac{(n+1)4^{n+2}}{n4^{n-1}}\\right|=\\lim_{n\\rightarrow\\infty}\\frac{4(n+1)}{n}=4,\\ \\text{收敛半径}R=\\frac{1}{\\rho}=\\frac{1}{4},\\ \\varphi\\\\&amp;\\text{当}x=\\frac{1}{4}\\text{时，级数为}\\sum_{n=0}^{\\infty}4n,\\ \\text{发散；当}x=-\\frac{1}{4}\\text{时，级数为}\\sum_{n=0}^{\\infty}(-1)^{n}4n,\\ \\text{发散，}\\\\&amp;\\text{所以收敛域为}\\varphi\\\\&amp;\\quad(-\\frac{1}{4},\\frac{1}{4}).\\varphi\\end{aligned}\">\\begin{aligned} \\text{解答：}\\rho&amp;=\\lim_{n\\rightarrow\\infty}\\left|\\frac{a_{n+1}}{a_{n}}\\right|=\\lim_{n\\rightarrow\\infty}\\left|\\frac{(n+1)4^{n+2}}{n4^{n-1}}\\right|=\\lim_{n\\rightarrow\\infty}\\frac{4(n+1)}{n}=4,\\ \\text{收敛半径}R=\\frac{1}{\\rho}=\\frac{1}{4},\\ \\varphi\\\\&amp;\\text{当}x=\\frac{1}{4}\\text{时，级数为}\\sum_{n=0}^{\\infty}4n,\\ \\text{发散；当}x=-\\frac{1}{4}\\text{时，级数为}\\sum_{n=0}^{\\infty}(-1)^{n}4n,\\ \\text{发散，}\\\\&amp;\\text{所以收敛域为}\\varphi\\\\&amp;\\quad(-\\frac{1}{4},\\frac{1}{4}).\\varphi\\end{aligned}</div>"
     },
     {
       "id": "q0045",
       "number": 45,
       "header": "#45-Averge",
       "difficulty": "Averge",
-      "prompt_html": "<img src=\"/static/generated/assets/advanced-math/ch088/q0045_prompt.png\"/>",
+      "prompt_html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{幂级数} \\sum_{n=1}^{\\infty} (\\sqrt{n+1}-\\sqrt{n})(3x-1)^{n} \\text{的收敛域是} [ \\quad].\">\\text{幂级数} \\sum_{n=1}^{\\infty} (\\sqrt{n+1}-\\sqrt{n})(3x-1)^{n} \\text{的收敛域是} [ \\quad].</span>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch088/q0045_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"(- \\frac{2}{3}, 0 ]\">(- \\frac{2}{3}, 0 ]</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch088/q0045_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"[ 0 , \\frac { 2 } { 3 } ) \\, ;\">[ 0 , \\frac { 2 } { 3 } ) \\, ;</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch088/q0045_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"[ - 1 , 1 ] ;\">[ - 1 , 1 ] ;</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch088/q0045_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"[ - \\frac { 2 } { 3 } , \\frac { 2 } { 3 } ]\">[ - \\frac { 2 } { 3 } , \\frac { 2 } { 3 } ]</span>"
         }
       ],
       "answer": "B",
       "answer_index": 1,
-      "analysis_html": "<img src=\"/static/generated/assets/advanced-math/ch088/q0045_analysis.png\"/>"
+      "analysis_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{array}{l} \\text{解答:} \\quad R = \\lim_{n \\to \\infty} \\left| \\frac{\\sqrt{n+1}-\\sqrt{n}}{\\sqrt{n+2}-\\sqrt{n+1}} \\right| = \\lim_{n \\to \\infty} \\frac{\\sqrt{n+2}+\\sqrt{n+1}}{\\sqrt{n+1}+\\sqrt{n}} = 1, \\\\ \\text{当} \\quad 3x-1=1 \\text{时，级数为} \\sum_{i=1}^{\\infty} (\\sqrt{n+1}-\\sqrt{n}) = \\sum_{i=1}^{\\infty} \\frac{1}{\\sqrt{n+1}+\\sqrt{n}}, \\\\ \\lim_{n \\to \\infty} \\frac{1}{\\sqrt{n+1}-\\sqrt{n}} = \\lim_{n \\to \\infty} \\frac{\\sqrt{n}}{\\sqrt{n+1}+\\sqrt{n}} = \\frac{1}{2}, \\text{而} \\sum_{i=1}^{\\infty} \\frac{1}{\\sqrt{n}} \\text{发散，所以} \\\\ \\sum_{i=1}^{\\infty} (\\sqrt{n+1}-\\sqrt{n}) \\text{发散}; \\\\ \\text{当} \\quad 3x-1=-1 \\text{时，级数为} \\sum_{i=1}^{\\infty} (-1)^{i} (\\sqrt{n+1}-\\sqrt{n}) = \\sum_{i=1}^{\\infty} \\frac{(-1)^{i}}{\\sqrt{n+1}+\\sqrt{n}}, \\\\ \\lim_{n \\to \\infty} \\frac{1}{\\sqrt{n+1}+\\sqrt{n}} = 0, \\\\ \\frac{\\sqrt{n+1}-\\sqrt{n}}{\\sqrt{n+2}-\\sqrt{n+1}} = \\frac{\\sqrt{n+2}-\\sqrt{n+1}}{\\sqrt{n+1}+\\sqrt{n}} &gt; 0, \\text{即} \\sqrt{n+1}-\\sqrt{n} &gt; \\sqrt{n+2}-\\sqrt{n+1}, \\text{所以交错级数} \\\\ \\sum_{i=1}^{\\infty} (-1)^{i} (\\sqrt{n+1}-\\sqrt{n}) \\text{收敛，收敛域为} -1 \\leq 3x-1 &lt; 1, \\text{即} \\quad 0 \\leq x &lt; \\frac{2}{3}. \\end{array}\">\\begin{array}{l} \\text{解答:} \\quad R = \\lim_{n \\to \\infty} \\left| \\frac{\\sqrt{n+1}-\\sqrt{n}}{\\sqrt{n+2}-\\sqrt{n+1}} \\right| = \\lim_{n \\to \\infty} \\frac{\\sqrt{n+2}+\\sqrt{n+1}}{\\sqrt{n+1}+\\sqrt{n}} = 1, \\\\ \\text{当} \\quad 3x-1=1 \\text{时，级数为} \\sum_{i=1}^{\\infty} (\\sqrt{n+1}-\\sqrt{n}) = \\sum_{i=1}^{\\infty} \\frac{1}{\\sqrt{n+1}+\\sqrt{n}}, \\\\ \\lim_{n \\to \\infty} \\frac{1}{\\sqrt{n+1}-\\sqrt{n}} = \\lim_{n \\to \\infty} \\frac{\\sqrt{n}}{\\sqrt{n+1}+\\sqrt{n}} = \\frac{1}{2}, \\text{而} \\sum_{i=1}^{\\infty} \\frac{1}{\\sqrt{n}} \\text{发散，所以} \\\\ \\sum_{i=1}^{\\infty} (\\sqrt{n+1}-\\sqrt{n}) \\text{发散}; \\\\ \\text{当} \\quad 3x-1=-1 \\text{时，级数为} \\sum_{i=1}^{\\infty} (-1)^{i} (\\sqrt{n+1}-\\sqrt{n}) = \\sum_{i=1}^{\\infty} \\frac{(-1)^{i}}{\\sqrt{n+1}+\\sqrt{n}}, \\\\ \\lim_{n \\to \\infty} \\frac{1}{\\sqrt{n+1}+\\sqrt{n}} = 0, \\\\ \\frac{\\sqrt{n+1}-\\sqrt{n}}{\\sqrt{n+2}-\\sqrt{n+1}} = \\frac{\\sqrt{n+2}-\\sqrt{n+1}}{\\sqrt{n+1}+\\sqrt{n}} &gt; 0, \\text{即} \\sqrt{n+1}-\\sqrt{n} &gt; \\sqrt{n+2}-\\sqrt{n+1}, \\text{所以交错级数} \\\\ \\sum_{i=1}^{\\infty} (-1)^{i} (\\sqrt{n+1}-\\sqrt{n}) \\text{收敛，收敛域为} -1 \\leq 3x-1 &lt; 1, \\text{即} \\quad 0 \\leq x &lt; \\frac{2}{3}. \\end{array}</div>"
     },
     {
       "id": "q0046",
       "number": 46,
       "header": "#46-Averge",
       "difficulty": "Averge",
-      "prompt_html": "<img src=\"/static/generated/assets/advanced-math/ch088/q0046_prompt.png\"/>",
+      "prompt_html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{幂级数} \\sum_{n=1}^{\\infty} (-nx)^{n} \\text{的收敛域为} [ \\quad ].\">\\text{幂级数} \\sum_{n=1}^{\\infty} (-nx)^{n} \\text{的收敛域为} [ \\quad ].</span>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch088/q0046_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{不存在}\">\\text{不存在}</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch088/q0046_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\left( - 1 , 1 \\right)\">\\left( - 1 , 1 \\right)</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch088/q0046_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\mathcal{L}(-\\infty, 0) \\cup (0, +\\infty)\">\\mathcal{L}(-\\infty, 0) \\cup (0, +\\infty)</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch088/q0046_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"x = 0\">x = 0</span>"
         }
       ],
       "answer": "D",
       "answer_index": 3,
-      "analysis_html": "<img src=\"/static/generated/assets/advanced-math/ch088/q0046_analysis.png\"/>"
+      "analysis_html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{解答：}\\ \\rho = \\lim_{n \\to \\infty} \\sqrt[n]{|a_n|} = \\lim_{n \\to \\infty} n = \\infty \\, , \\ \\text{故收敛半径为} \\ R = 0 \\, , \\ \\text{只有在} \\ x = 0 \\text{处收敛.}\">\\text{解答：}\\ \\rho = \\lim_{n \\to \\infty} \\sqrt[n]{|a_n|} = \\lim_{n \\to \\infty} n = \\infty \\, , \\ \\text{故收敛半径为} \\ R = 0 \\, , \\ \\text{只有在} \\ x = 0 \\text{处收敛.}</span>"
     },
     {
       "id": "q0047",
       "number": 47,
       "header": "#47-Averge",
       "difficulty": "Averge",
-      "prompt_html": "<img src=\"/static/generated/assets/advanced-math/ch088/q0047_prompt.png\"/>",
+      "prompt_html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{级数} \\sum_{n=1}^{\\infty} \\left( \\sin \\frac{1}{3n} \\right) (x^{2}+x+1)^{n} \\text{的收敛域是} [ \\quad ] .\">\\text{级数} \\sum_{n=1}^{\\infty} \\left( \\sin \\frac{1}{3n} \\right) (x^{2}+x+1)^{n} \\text{的收敛域是} [ \\quad ] .</span>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch088/q0047_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\left( - 1 , 0 \\right)\">\\left( - 1 , 0 \\right)</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch088/q0047_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"[ - 1 , 0 ]\">[ - 1 , 0 ]</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch088/q0047_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\left( - \\infty , - 1 \\right)\">\\left( - \\infty , - 1 \\right)</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch088/q0047_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"[ 0 , + \\infty ) \\, .\">[ 0 , + \\infty ) \\, .</span>"
         }
       ],
       "answer": "A",
       "answer_index": 0,
-      "analysis_html": "<img src=\"/static/generated/assets/advanced-math/ch088/q0047_analysis.png\"/>"
+      "analysis_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{aligned}&amp;\\text{解答：令}t=x^{2}+x+1,\\text{则级数变为}\\sum_{n=1}^{\\infty}\\left(\\sin\\frac{1}{3n}\\right)^{n},\\\\&amp;\\rho=\\lim_{n\\rightarrow\\infty}\\left|\\frac{\\sin\\frac{1}{3n}+3}{\\sin\\frac{1}{3n}}\\right|=\\lim_{n\\rightarrow\\infty}\\left|\\frac{3n}{3n+3}\\right|=1,\\text{所以}R=\\frac{1}{\\rho}=1.\\\\&amp;\\text{当}t=-1\\text{时，级数}\\sum_{n=1}^{\\infty}\\left(\\sin\\frac{1}{3n}\\right)(-1)^{n}\\text{是交错级数，满足莱布尼茨，收敛；}\\\\&amp;\\text{当}t=1\\text{时，级数}\\sum_{n=1}^{\\infty}\\left(\\sin\\frac{1}{3n}\\right)\\text{发散。}\\\\&amp;\\text{解不等式}-1\\leq x^{2}+x+1&lt;1,\\text{解得收敛域为}(-1,0).\\end{aligned}\">\\begin{aligned}&amp;\\text{解答：令}t=x^{2}+x+1,\\text{则级数变为}\\sum_{n=1}^{\\infty}\\left(\\sin\\frac{1}{3n}\\right)^{n},\\\\&amp;\\rho=\\lim_{n\\rightarrow\\infty}\\left|\\frac{\\sin\\frac{1}{3n}+3}{\\sin\\frac{1}{3n}}\\right|=\\lim_{n\\rightarrow\\infty}\\left|\\frac{3n}{3n+3}\\right|=1,\\text{所以}R=\\frac{1}{\\rho}=1.\\\\&amp;\\text{当}t=-1\\text{时，级数}\\sum_{n=1}^{\\infty}\\left(\\sin\\frac{1}{3n}\\right)(-1)^{n}\\text{是交错级数，满足莱布尼茨，收敛；}\\\\&amp;\\text{当}t=1\\text{时，级数}\\sum_{n=1}^{\\infty}\\left(\\sin\\frac{1}{3n}\\right)\\text{发散。}\\\\&amp;\\text{解不等式}-1\\leq x^{2}+x+1&lt;1,\\text{解得收敛域为}(-1,0).\\end{aligned}</div>"
     },
     {
       "id": "q0048",
       "number": 48,
       "header": "#48-Averge",
       "difficulty": "Averge",
-      "prompt_html": "<img src=\"/static/generated/assets/advanced-math/ch088/q0048_prompt.png\"/>",
+      "prompt_html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{设幂级数} \\sum_{n=0}^{\\infty} a_{n} x^{n} \\text{的收敛半径为} R，\\text{那么}[ \\quad].\">\\text{设幂级数} \\sum_{n=0}^{\\infty} a_{n} x^{n} \\text{的收敛半径为} R，\\text{那么}[ \\quad].</span>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch088/q0048_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\lim_{n \\rightarrow \\infty} a_{n} = R \\, ;\">\\lim_{n \\rightarrow \\infty} a_{n} = R \\, ;</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch088/q0048_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\lim_{n \\rightarrow \\infty} \\frac{a_{n+1}}{a_{n}} \\text{不一定存在};\">\\lim_{n \\rightarrow \\infty} \\frac{a_{n+1}}{a_{n}} \\text{不一定存在};</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch088/q0048_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\lim_{n \\rightarrow \\infty} \\frac{a_{n+1}}{a_{n}} = R \\, . \\Leftrightarrow\">\\lim_{n \\rightarrow \\infty} \\frac{a_{n+1}}{a_{n}} = R \\, . \\Leftrightarrow</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch088/q0048_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\lim_{n \\rightarrow \\infty} \\frac{a_{n}}{a_{n+1}} = R \\; ;\">\\lim_{n \\rightarrow \\infty} \\frac{a_{n}}{a_{n+1}} = R \\; ;</span>"
         }
       ],
       "answer": "B",
       "answer_index": 1,
-      "analysis_html": "<img src=\"/static/generated/assets/advanced-math/ch088/q0048_analysis.png\"/>"
+      "analysis_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{aligned}&amp;\\text{解答：举例说明：对幂级数}  \\sum_{n=0}^{\\infty} 2^{n+(-1)^{n}}x^{n}  \\text{的收敛半径为} R=\\frac{1}{2}  \\text{（用根值法计算），}\\\\&amp;\\quad\\text{但，}\\\\&amp;\\lim_{n\\rightarrow \\infty}\\frac{a_{n+1}}{a_{n}}=\\lim_{n\\rightarrow \\infty}\\frac{2^{n+1-(-1)^{n+1}}}{2^{n+(-1)^{n}}}=\\lim_{n\\rightarrow \\infty}2^{1-2(-1)^{n}}\\text{不存在。}\\end{aligned}\">\\begin{aligned}&amp;\\text{解答：举例说明：对幂级数}  \\sum_{n=0}^{\\infty} 2^{n+(-1)^{n}}x^{n}  \\text{的收敛半径为} R=\\frac{1}{2}  \\text{（用根值法计算），}\\\\&amp;\\quad\\text{但，}\\\\&amp;\\lim_{n\\rightarrow \\infty}\\frac{a_{n+1}}{a_{n}}=\\lim_{n\\rightarrow \\infty}\\frac{2^{n+1-(-1)^{n+1}}}{2^{n+(-1)^{n}}}=\\lim_{n\\rightarrow \\infty}2^{1-2(-1)^{n}}\\text{不存在。}\\end{aligned}</div>"
     },
     {
       "id": "q0049",
       "number": 49,
       "header": "#49-Averge",
       "difficulty": "Averge",
-      "prompt_html": "<img src=\"/static/generated/assets/advanced-math/ch088/q0049_prompt.png\"/>",
+      "prompt_html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{幂级数} \\sum_{n=1}^{\\infty} \\frac{(-1)^{n-1} x^{2n-1}}{(2n-1)!} \\text{的收敛半径为}[ \\quad].\">\\text{幂级数} \\sum_{n=1}^{\\infty} \\frac{(-1)^{n-1} x^{2n-1}}{(2n-1)!} \\text{的收敛半径为}[ \\quad].</span>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch088/q0049_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\boldsymbol { R } = 2 \\, ;\">\\boldsymbol { R } = 2 \\, ;</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch088/q0049_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\boldsymbol { R } = \\boldsymbol { 0 }\">\\boldsymbol { R } = \\boldsymbol { 0 }</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch088/q0049_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\boldsymbol { R } = + \\infty\">\\boldsymbol { R } = + \\infty</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch088/q0049_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\cdot R = 1\">\\cdot R = 1</span>"
         }
       ],
       "answer": "C",
       "answer_index": 2,
-      "analysis_html": "<img src=\"/static/generated/assets/advanced-math/ch088/q0049_analysis.png\"/>"
+      "analysis_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{array}{l} \\text {解答：用比值法}\\rho = \\lim_{n \\to \\infty} \\left| \\frac{u_{n+1}(x)}{u_{n}(x)} \\right| = \\lim_{n \\to \\infty} \\left| \\frac{\\frac{(-1)^{n} x^{2n-1}}{(2n+1)!}}{\\frac{(-1)^{n-1} x^{2n-1}}{(2n-1)!}} \\right| = \\lim_{n \\to \\infty} \\left| \\frac{x^{2}}{(2n+1)(2n)} \\right| = 0 &lt; 1, \\text {故收} \\\\ \\text {敛半径为} R = +\\infty, \\epsilon \\end{array}\">\\begin{array}{l} \\text {解答：用比值法}\\rho = \\lim_{n \\to \\infty} \\left| \\frac{u_{n+1}(x)}{u_{n}(x)} \\right| = \\lim_{n \\to \\infty} \\left| \\frac{\\frac{(-1)^{n} x^{2n-1}}{(2n+1)!}}{\\frac{(-1)^{n-1} x^{2n-1}}{(2n-1)!}} \\right| = \\lim_{n \\to \\infty} \\left| \\frac{x^{2}}{(2n+1)(2n)} \\right| = 0 &lt; 1, \\text {故收} \\\\ \\text {敛半径为} R = +\\infty, \\epsilon \\end{array}</div>"
     },
     {
       "id": "q0050",
       "number": 50,
       "header": "#50-Averge",
       "difficulty": "Averge",
-      "prompt_html": "<img src=\"/static/generated/assets/advanced-math/ch088/q0050_prompt.png\"/>",
+      "prompt_html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{幂级数} \\sum_{n=0}^{\\infty} x^{n^{2}} \\text{的收敛域是} [ \\quad ].\">\\text{幂级数} \\sum_{n=0}^{\\infty} x^{n^{2}} \\text{的收敛域是} [ \\quad ].</span>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch088/q0050_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"( - 1 , 1 ] \\, ;\">( - 1 , 1 ] \\, ;</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch088/q0050_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\left[ - 1 , 1 \\right)\">\\left[ - 1 , 1 \\right)</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch088/q0050_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\mathrel{\\hbox to 0.0pt{\\hbox to 0.0pt{[-1,1]}}}.\\leftarrow\">\\mathrel{\\hbox to 0.0pt{\\hbox to 0.0pt{[-1,1]}}}.\\leftarrow</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch088/q0050_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"( - 1 , 1 ) \\, ;\">( - 1 , 1 ) \\, ;</span>"
         }
       ],
       "answer": "D",
       "answer_index": 3,
-      "analysis_html": "<img src=\"/static/generated/assets/advanced-math/ch088/q0050_analysis.png\"/>"
+      "analysis_html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{解答：} \\ \\lim_{n \\to \\infty} \\sqrt[n]{|x^{n^2}|} = \\lim_{n \\to \\infty} |x^n| = 0 \\big( |x| &lt; 1 \\big) \\, .\">\\text{解答：} \\ \\lim_{n \\to \\infty} \\sqrt[n]{|x^{n^2}|} = \\lim_{n \\to \\infty} |x^n| = 0 \\big( |x| &lt; 1 \\big) \\, .</span>"
     },
     {
       "id": "q0051",
       "number": 51,
       "header": "#51-Averge",
       "difficulty": "Averge",
-      "prompt_html": "<img src=\"/static/generated/assets/advanced-math/ch088/q0051_prompt.png\"/>",
+      "prompt_html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{级数} \\sum _ { n = 0 } ^ { \\infty } \\frac { 1 } { x ^ { n } } \\sin \\frac { \\pi } { 2 ^ { n } } \\text{的收敛域是} [ \\quad ] .\">\\text{级数} \\sum _ { n = 0 } ^ { \\infty } \\frac { 1 } { x ^ { n } } \\sin \\frac { \\pi } { 2 ^ { n } } \\text{的收敛域是} [ \\quad ] .</span>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch088/q0051_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\left[ - 2 , 2 \\right]\">\\left[ - 2 , 2 \\right]</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch088/q0051_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"[ - \\frac { 1 } { 2 } , \\frac { 1 } { 2 } ]\">[ - \\frac { 1 } { 2 } , \\frac { 1 } { 2 } ]</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch088/q0051_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"( - \\infty , - { \\frac { 1 } { 2 } } ) \\cup ( { \\frac { 1 } { 2 } } , + \\infty )\">( - \\infty , - { \\frac { 1 } { 2 } } ) \\cup ( { \\frac { 1 } { 2 } } , + \\infty )</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch088/q0051_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"( - \\infty , + \\infty )\">( - \\infty , + \\infty )</span>"
         }
       ],
       "answer": "C",
       "answer_index": 2,
-      "analysis_html": "<img src=\"/static/generated/assets/advanced-math/ch088/q0051_analysis.png\"/>"
+      "analysis_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{array}{l} \\text {解答：用比值法：} \\lim_{n \\to \\infty} \\left| \\frac{u_{n-1}(x)}{u_{n}(x)} \\right| = \\lim_{n \\to \\infty} \\left| \\frac{\\frac{1}{x^{n+1}} \\sin \\frac{\\pi}{2^{n+1}}}{\\frac{1}{x^{n}} \\sin \\frac{\\pi}{2^{n}}} \\right| = \\lim_{n \\to \\infty} \\frac{\\frac{\\pi}{2^{n+1}}}{\\frac{\\pi}{2^{n}}} \\frac{1}{|x|} = \\frac{1}{2|x|} &lt; 1, \\text {解得} \\\\ |x| &gt; \\frac{1}{2}, \\\\ \\text {当} x = \\frac{1}{2} \\text {时，级数为} \\sum_{n=1}^{\\infty} 2^{n} \\sin \\frac{\\pi}{2^{n}}, \\text {因为} \\lim_{n \\to \\infty} 2^{n} \\sin \\frac{\\pi}{2^{n}} = \\pi \\neq 0, \\text {所以发散；当} \\\\ x = - \\frac{1}{2} \\text {时，级数为} \\sum_{n=1}^{\\infty} (-2)^{n} \\sin \\frac{\\pi}{2^{n}}, \\text {发散，所以收敛域为} (-\\infty, - \\frac{1}{2}) \\cup (\\frac{1}{2}, + \\infty). \\end{array}\">\\begin{array}{l} \\text {解答：用比值法：} \\lim_{n \\to \\infty} \\left| \\frac{u_{n-1}(x)}{u_{n}(x)} \\right| = \\lim_{n \\to \\infty} \\left| \\frac{\\frac{1}{x^{n+1}} \\sin \\frac{\\pi}{2^{n+1}}}{\\frac{1}{x^{n}} \\sin \\frac{\\pi}{2^{n}}} \\right| = \\lim_{n \\to \\infty} \\frac{\\frac{\\pi}{2^{n+1}}}{\\frac{\\pi}{2^{n}}} \\frac{1}{|x|} = \\frac{1}{2|x|} &lt; 1, \\text {解得} \\\\ |x| &gt; \\frac{1}{2}, \\\\ \\text {当} x = \\frac{1}{2} \\text {时，级数为} \\sum_{n=1}^{\\infty} 2^{n} \\sin \\frac{\\pi}{2^{n}}, \\text {因为} \\lim_{n \\to \\infty} 2^{n} \\sin \\frac{\\pi}{2^{n}} = \\pi \\neq 0, \\text {所以发散；当} \\\\ x = - \\frac{1}{2} \\text {时，级数为} \\sum_{n=1}^{\\infty} (-2)^{n} \\sin \\frac{\\pi}{2^{n}}, \\text {发散，所以收敛域为} (-\\infty, - \\frac{1}{2}) \\cup (\\frac{1}{2}, + \\infty). \\end{array}</div>"
     },
     {
       "id": "q0052",
       "number": 52,
       "header": "#52-Averge",
       "difficulty": "Averge",
-      "prompt_html": "<img src=\"/static/generated/assets/advanced-math/ch088/q0052_prompt.png\"/>",
+      "prompt_html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{级数} \\sum_{n=1}^{\\infty} \\frac{(-1)^{n}}{n} \\left( \\frac{1}{1+x} \\right)^{n} \\text{的收敛域是} [ \\quad \\quad]. \\leftarrow\">\\text{级数} \\sum_{n=1}^{\\infty} \\frac{(-1)^{n}}{n} \\left( \\frac{1}{1+x} \\right)^{n} \\text{的收敛域是} [ \\quad \\quad]. \\leftarrow</span>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch088/q0052_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\left( - \\infty , - 2 \\right)\">\\left( - \\infty , - 2 \\right)</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch088/q0052_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\left( - 2 , 0 \\right)\">\\left( - 2 , 0 \\right)</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch088/q0052_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"( - \\infty , - 1 ) \\cup ( - 1 , + \\infty ) .\">( - \\infty , - 1 ) \\cup ( - 1 , + \\infty ) .</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch088/q0052_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"( - \\infty , - 2 ) \\cup [ 0 , + \\infty ) \\, ;\">( - \\infty , - 2 ) \\cup [ 0 , + \\infty ) \\, ;</span>"
         }
       ],
       "answer": "D",
       "answer_index": 3,
-      "analysis_html": "<img src=\"/static/generated/assets/advanced-math/ch088/q0052_analysis.png\"/>"
+      "analysis_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{array}{l} \\text {解答：用比值法：} \\lim_{n \\to \\infty} \\left| \\frac{u_{n-1}(x)}{u_{n}(x)} \\right| = \\lim_{n \\to \\infty} \\left| \\frac{\\frac{(-1)^{n-1}}{n+1} \\left( \\frac{1}{1+x} \\right)^{n-1}}{\\frac{(-1)^{n}}{n} \\left( \\frac{1}{1+x} \\right)^{n}} \\right| = \\lim_{n \\to \\infty} \\frac{n}{n+1} \\left| \\frac{1}{1+x} \\right| = \\left| \\frac{1}{1+x} \\right| &lt; 1. \\\\ \\text {解得} \\\\ \\\\ x &lt; -2 \\text {或} x &gt; 0, \\\\ \\text {当} x = -2 \\text {时，级数为} \\sum_{n=1}^{\\infty} \\frac{1}{n}, \\text {发散；当} x = 0 \\text {时，级数为} \\sum_{n=1}^{\\infty} \\frac{(-1)^{n}}{n}, \\text {收敛，} \\\\ \\text {所以收敛域为} (-\\infty,-2) \\cup [0,+\\infty). \\end{array}\">\\begin{array}{l} \\text {解答：用比值法：} \\lim_{n \\to \\infty} \\left| \\frac{u_{n-1}(x)}{u_{n}(x)} \\right| = \\lim_{n \\to \\infty} \\left| \\frac{\\frac{(-1)^{n-1}}{n+1} \\left( \\frac{1}{1+x} \\right)^{n-1}}{\\frac{(-1)^{n}}{n} \\left( \\frac{1}{1+x} \\right)^{n}} \\right| = \\lim_{n \\to \\infty} \\frac{n}{n+1} \\left| \\frac{1}{1+x} \\right| = \\left| \\frac{1}{1+x} \\right| &lt; 1. \\\\ \\text {解得} \\\\ \\\\ x &lt; -2 \\text {或} x &gt; 0, \\\\ \\text {当} x = -2 \\text {时，级数为} \\sum_{n=1}^{\\infty} \\frac{1}{n}, \\text {发散；当} x = 0 \\text {时，级数为} \\sum_{n=1}^{\\infty} \\frac{(-1)^{n}}{n}, \\text {收敛，} \\\\ \\text {所以收敛域为} (-\\infty,-2) \\cup [0,+\\infty). \\end{array}</div>"
     },
     {
       "id": "q0053",
       "number": 53,
       "header": "#53-Averge",
       "difficulty": "Averge",
-      "prompt_html": "<img src=\"/static/generated/assets/advanced-math/ch088/q0053_prompt.png\"/>",
+      "prompt_html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{幂级数} \\sum_{n=0}^{\\infty} \\frac{e^{n} x^{2n}}{\\left( 2n+1 \\right)^{3}} \\text{的收敛域}\\left[ \\quad\\right].\\leftarrow\">\\text{幂级数} \\sum_{n=0}^{\\infty} \\frac{e^{n} x^{2n}}{\\left( 2n+1 \\right)^{3}} \\text{的收敛域}\\left[ \\quad\\right].\\leftarrow</span>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch088/q0053_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"( - \\frac { 1 } { \\sqrt { e } } , \\frac { 1 } { \\sqrt { e } } ]\">( - \\frac { 1 } { \\sqrt { e } } , \\frac { 1 } { \\sqrt { e } } ]</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch088/q0053_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\left(- \\frac {1}{\\sqrt {e}}, \\frac {1}{\\sqrt {e}}\\right)\">\\left(- \\frac {1}{\\sqrt {e}}, \\frac {1}{\\sqrt {e}}\\right)</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch088/q0053_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\left[ - \\frac { 1 } { \\sqrt { e } } , \\frac { 1 } { \\sqrt { e } } ) \\right. ;\">\\left[ - \\frac { 1 } { \\sqrt { e } } , \\frac { 1 } { \\sqrt { e } } ) \\right. ;</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch088/q0053_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\left[ - \\frac { 1 } { \\sqrt { e } } , \\frac { 1 } { \\sqrt { e } } \\right] ;\">\\left[ - \\frac { 1 } { \\sqrt { e } } , \\frac { 1 } { \\sqrt { e } } \\right] ;</span>"
         }
       ],
       "answer": "D",
       "answer_index": 3,
-      "analysis_html": "<img src=\"/static/generated/assets/advanced-math/ch088/q0053_analysis.png\"/>"
+      "analysis_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{aligned} \\text{解答：} \\lim_{n \\rightarrow \\infty} \\frac{\\left| \\frac{e^{n+1}x^{2n+2}}{\\left( 2n+3 \\right)^3} \\right|}{\\left| \\frac{e^{n}x^{2n}}{\\left( 2n+1 \\right)^3} \\right|} &amp;= \\lim_{n \\rightarrow \\infty} \\left| \\frac{e\\left( 2n+1 \\right)^3}{\\left( 2n+3 \\right)^3} \\right| x^2 = ex^2 &lt; 1, \\text{所以} |x| &lt; \\frac{1}{\\sqrt{e}}, \\text{⊝} \\\\ \\text{当} x = \\pm \\frac{1}{\\sqrt{e}} \\text{时，级数} \\sum_{i=1}^{\\infty} \\frac{1}{\\left( 2n+1 \\right)^3} \\text{收敛，所以收敛域为} -\\frac{1}{\\sqrt{e}} \\leq \\tan x \\leq \\frac{1}{\\sqrt{e}}. \\text{⊝} \\end{aligned}\">\\begin{aligned} \\text{解答：} \\lim_{n \\rightarrow \\infty} \\frac{\\left| \\frac{e^{n+1}x^{2n+2}}{\\left( 2n+3 \\right)^3} \\right|}{\\left| \\frac{e^{n}x^{2n}}{\\left( 2n+1 \\right)^3} \\right|} &amp;= \\lim_{n \\rightarrow \\infty} \\left| \\frac{e\\left( 2n+1 \\right)^3}{\\left( 2n+3 \\right)^3} \\right| x^2 = ex^2 &lt; 1, \\text{所以} |x| &lt; \\frac{1}{\\sqrt{e}}, \\text{⊝} \\\\ \\text{当} x = \\pm \\frac{1}{\\sqrt{e}} \\text{时，级数} \\sum_{i=1}^{\\infty} \\frac{1}{\\left( 2n+1 \\right)^3} \\text{收敛，所以收敛域为} -\\frac{1}{\\sqrt{e}} \\leq \\tan x \\leq \\frac{1}{\\sqrt{e}}. \\text{⊝} \\end{aligned}</div>"
     },
     {
       "id": "q0054",
       "number": 54,
       "header": "#54-Averge",
       "difficulty": "Averge",
-      "prompt_html": "<img src=\"/static/generated/assets/advanced-math/ch088/q0054_prompt.png\"/>",
+      "prompt_html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{幂级数} \\sum_{n=0}^{\\infty} \\frac{ (n+1)^{n}}{n!} x^{n} \\text{的收敛半径为} [ \\quad]. \\Leftrightarrow\">\\text{幂级数} \\sum_{n=0}^{\\infty} \\frac{ (n+1)^{n}}{n!} x^{n} \\text{的收敛半径为} [ \\quad]. \\Leftrightarrow</span>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch088/q0054_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"e\">e</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch088/q0054_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\frac{1}{e};\">\\frac{1}{e};</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch088/q0054_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"e^{2} \\cdot \\leftarrow\">e^{2} \\cdot \\leftarrow</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch088/q0054_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\frac { 1 } { e ^ { 2 } }\">\\frac { 1 } { e ^ { 2 } }</span>"
         }
       ],
       "answer": "B",
       "answer_index": 1,
-      "analysis_html": "<img src=\"/static/generated/assets/advanced-math/ch088/q0054_analysis.png\"/>"
+      "analysis_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{aligned} \\text{解答：} \\ \\text{由} \\ \\rho = \\lim_{n \\rightarrow \\infty} \\left| \\frac{a_{n+1}}{a_n} \\right| = \\lim_{n \\rightarrow \\infty} \\left| \\frac{\\frac{(n+2)^{n+1}}{(n+1)!}}{\\frac{(n+1)^n}{n!}} \\right| = \\lim_{n \\rightarrow \\infty} \\frac{(n+2)^{n+1}}{(n+1)^{n+1}} = \\lim_{n \\rightarrow \\infty} \\left( 1 + \\frac{1}{n+1} \\right)^{n+1} = e \\ , \\ \\text{收敛} \\\\ \\text{半径为} \\ R = \\frac{1}{\\rho} = \\frac{1}{e} . \\end{aligned}\">\\begin{aligned} \\text{解答：} \\ \\text{由} \\ \\rho = \\lim_{n \\rightarrow \\infty} \\left| \\frac{a_{n+1}}{a_n} \\right| = \\lim_{n \\rightarrow \\infty} \\left| \\frac{\\frac{(n+2)^{n+1}}{(n+1)!}}{\\frac{(n+1)^n}{n!}} \\right| = \\lim_{n \\rightarrow \\infty} \\frac{(n+2)^{n+1}}{(n+1)^{n+1}} = \\lim_{n \\rightarrow \\infty} \\left( 1 + \\frac{1}{n+1} \\right)^{n+1} = e \\ , \\ \\text{收敛} \\\\ \\text{半径为} \\ R = \\frac{1}{\\rho} = \\frac{1}{e} . \\end{aligned}</div>"
     },
     {
       "id": "q0055",
       "number": 55,
       "header": "#55-Averge",
       "difficulty": "Averge",
-      "prompt_html": "<img src=\"/static/generated/assets/advanced-math/ch088/q0055_prompt.png\"/>",
+      "prompt_html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{幂级数} \\sum_{n=1}^{\\infty} \\left( \\cos \\frac{a}{n} \\right)^{n^{3}} x^{n} \\quad (a \\neq 0) \\text{的收敛半径是} [ \\quad ].\">\\text{幂级数} \\sum_{n=1}^{\\infty} \\left( \\cos \\frac{a}{n} \\right)^{n^{3}} x^{n} \\quad (a \\neq 0) \\text{的收敛半径是} [ \\quad ].</span>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch088/q0055_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"e^{-a^{2}}\">e^{-a^{2}}</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch088/q0055_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"e ^ { \\frac { a ^ { 2 } } { 2 } }\">e ^ { \\frac { a ^ { 2 } } { 2 } }</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch088/q0055_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"e ^ { - \\frac { a ^ { 2 } } { 2 } }\">e ^ { - \\frac { a ^ { 2 } } { 2 } }</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch088/q0055_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"e^{a^{2}}\">e^{a^{2}}</span>"
         }
       ],
       "answer": "B",
       "answer_index": 1,
-      "analysis_html": "<img src=\"/static/generated/assets/advanced-math/ch088/q0055_analysis.png\"/>"
+      "analysis_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{aligned} \\text{解答：} \\rho&amp;=\\lim_{n\\rightarrow \\infty}\\sqrt{n\\left(\\cos\\frac{a}{n}\\right)^{n^{2}}}=\\lim_{n\\rightarrow \\infty}\\left(\\cos\\frac{a}{n}\\right)^{n^{2}}=e^{\\lim_{n\\rightarrow \\infty}n^{2}\\left(\\cos\\frac{a}{n}-1\\right)^{2}}=e^{\\lim_{n\\rightarrow \\infty}n^{2}\\frac{-1}{2}\\left(\\frac{a}{n}\\right)^{2}}=e^{-\\frac{a^{2}}{2}}, \\quad \\text{}\\\\ \\\\ \\text{所以}R&amp;=\\frac{1}{\\rho}=e^{\\frac{a^{2}}{2}}, \\text{.}\\end{aligned}\">\\begin{aligned} \\text{解答：} \\rho&amp;=\\lim_{n\\rightarrow \\infty}\\sqrt{n\\left(\\cos\\frac{a}{n}\\right)^{n^{2}}}=\\lim_{n\\rightarrow \\infty}\\left(\\cos\\frac{a}{n}\\right)^{n^{2}}=e^{\\lim_{n\\rightarrow \\infty}n^{2}\\left(\\cos\\frac{a}{n}-1\\right)^{2}}=e^{\\lim_{n\\rightarrow \\infty}n^{2}\\frac{-1}{2}\\left(\\frac{a}{n}\\right)^{2}}=e^{-\\frac{a^{2}}{2}}, \\quad \\text{}\\\\ \\\\ \\text{所以}R&amp;=\\frac{1}{\\rho}=e^{\\frac{a^{2}}{2}}, \\text{.}\\end{aligned}</div>"
     },
     {
       "id": "q0056",
       "number": 56,
       "header": "#56-Averge",
       "difficulty": "Averge",
-      "prompt_html": "<img src=\"/static/generated/assets/advanced-math/ch088/q0056_prompt.png\"/>",
+      "prompt_html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{级数} \\sum _ { n = 1 } ^ { \\infty } \\frac { ( x - 2 ) ^ { n } } { n ^ { 2 } } \\text{的收敛域是} [ \\quad \\quad ] .\">\\text{级数} \\sum _ { n = 1 } ^ { \\infty } \\frac { ( x - 2 ) ^ { n } } { n ^ { 2 } } \\text{的收敛域是} [ \\quad \\quad ] .</span>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch088/q0056_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"[ - 3 , 3 ] \\, .\">[ - 3 , 3 ] \\, .</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch088/q0056_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"(0, 3)\">(0, 3)</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch088/q0056_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\left[ - 3 , 1 \\right]\">\\left[ - 3 , 1 \\right]</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch088/q0056_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\left[ 1 , 3 \\right]\">\\left[ 1 , 3 \\right]</span>"
         }
       ],
       "answer": "D",
       "answer_index": 3,
-      "analysis_html": "<img src=\"/static/generated/assets/advanced-math/ch088/q0056_analysis.png\"/>"
+      "analysis_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{array}{l} \\text {解答：} \\quad R = \\lim_{n \\to \\infty} \\left| \\frac{\\frac{1}{n^{2}}}{\\frac{1}{\\left( n+1 \\right)^{2}}} \\right| = \\lim_{n \\to \\infty} \\frac{(n+1)^{2}}{n^{2}} = 1, \\quad \\omega \\\\ \\text {当} x-2 = 1 \\text {时，级数} \\sum_{n=1}^{\\infty} \\frac{1}{n^{2}} \\text {收敛；当} x-2 = -1 \\text {时，级数} \\sum_{n=1}^{\\infty} \\frac{(-1)^{n}}{n^{2}} \\text {收敛，所以} \\\\ \\text {收敛域为} -1 \\leq x-2 \\leq 1, \\text {即} 1 \\leq x \\leq 3. \\omega \\end{array}\">\\begin{array}{l} \\text {解答：} \\quad R = \\lim_{n \\to \\infty} \\left| \\frac{\\frac{1}{n^{2}}}{\\frac{1}{\\left( n+1 \\right)^{2}}} \\right| = \\lim_{n \\to \\infty} \\frac{(n+1)^{2}}{n^{2}} = 1, \\quad \\omega \\\\ \\text {当} x-2 = 1 \\text {时，级数} \\sum_{n=1}^{\\infty} \\frac{1}{n^{2}} \\text {收敛；当} x-2 = -1 \\text {时，级数} \\sum_{n=1}^{\\infty} \\frac{(-1)^{n}}{n^{2}} \\text {收敛，所以} \\\\ \\text {收敛域为} -1 \\leq x-2 \\leq 1, \\text {即} 1 \\leq x \\leq 3. \\omega \\end{array}</div>"
     },
     {
       "id": "q0057",
       "number": 57,
       "header": "#57-Averge",
       "difficulty": "Averge",
-      "prompt_html": "<img src=\"/static/generated/assets/advanced-math/ch088/q0057_prompt.png\"/>",
+      "prompt_html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{幂级数} \\sum_{n=1}^{\\infty} a_{n}(x-1)^{n} \\text{在} x=-3 \\text{处条件收敛，则其收敛半径为} [ \\quad] .\">\\text{幂级数} \\sum_{n=1}^{\\infty} a_{n}(x-1)^{n} \\text{在} x=-3 \\text{处条件收敛，则其收敛半径为} [ \\quad] .</span>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch088/q0057_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"3\">3</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch088/q0057_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"5 . \\leftarrow\">5 . \\leftarrow</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch088/q0057_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\textbf{4;}\">\\textbf{4;}</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch088/q0057_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\mathbf { 2 ; }\">\\mathbf { 2 ; }</span>"
         }
       ],
       "answer": "C",
       "answer_index": 2,
-      "analysis_html": "<img src=\"/static/generated/assets/advanced-math/ch088/q0057_analysis.png\"/>"
+      "analysis_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{aligned}&amp;\\text{解答：令}t=x-1,\\text{则级数}\\sum_{n=1}^{\\infty}a_n t^n\\text{在}t=-4\\text{处收敛，所以}\\sum_{n=1}^{\\infty}a_n t^n\\text{的收敛半径}R\\geq4,\\text{,}\\\\&amp;\\text{若}R&gt;4,\\text{则}\\sum_{n=1}^{\\infty}a_n t^n\\text{在}t=-4\\text{处绝对收敛，矛盾，所以}R=4,\\text{,}\\end{aligned}\">\\begin{aligned}&amp;\\text{解答：令}t=x-1,\\text{则级数}\\sum_{n=1}^{\\infty}a_n t^n\\text{在}t=-4\\text{处收敛，所以}\\sum_{n=1}^{\\infty}a_n t^n\\text{的收敛半径}R\\geq4,\\text{,}\\\\&amp;\\text{若}R&gt;4,\\text{则}\\sum_{n=1}^{\\infty}a_n t^n\\text{在}t=-4\\text{处绝对收敛，矛盾，所以}R=4,\\text{,}\\end{aligned}</div>"
     },
     {
       "id": "q0058",
       "number": 58,
       "header": "#58-Averge",
       "difficulty": "Averge",
-      "prompt_html": "<img src=\"/static/generated/assets/advanced-math/ch088/q0058_prompt.png\"/>",
+      "prompt_html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{如果幂级数} \\sum_{n=0}^{\\infty} a_{n} (x-1)^{n} \\text{的收敛半径为} 1, \\text{则级数在开区间} [ \\quad ] \\text{内收敛}.\">\\text{如果幂级数} \\sum_{n=0}^{\\infty} a_{n} (x-1)^{n} \\text{的收敛半径为} 1, \\text{则级数在开区间} [ \\quad ] \\text{内收敛}.</span>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch088/q0058_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"(0, 1)\">(0, 1)</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch088/q0058_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"(0, 2)\">(0, 2)</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch088/q0058_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\mathcal{L}(-1, 1).\">\\mathcal{L}(-1, 1).</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch088/q0058_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\left( - 2 , 2 \\right)\">\\left( - 2 , 2 \\right)</span>"
         }
       ],
       "answer": "B",
       "answer_index": 1,
-      "analysis_html": "<img src=\"/static/generated/assets/advanced-math/ch088/q0058_analysis.png\"/>"
+      "analysis_html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{解答：由题意} | x - 1 | &lt; 1 , \\text{即级数在} ( 0 , 2 ) \\text{内收敛.}\">\\text{解答：由题意} | x - 1 | &lt; 1 , \\text{即级数在} ( 0 , 2 ) \\text{内收敛.}</span>"
     },
     {
       "id": "q0059",
       "number": 59,
       "header": "#59-Averge",
       "difficulty": "Averge",
-      "prompt_html": "<img src=\"/static/generated/assets/advanced-math/ch088/q0059_prompt.png\"/>",
+      "prompt_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{array}{l} \\text {下列说法正确的有[ ]}. \\\\ \\text {(1)当} 0 &lt; \\min (x, y) &lt; 1 \\text {时,级数} \\sum_ {n = 1} ^ {\\infty} \\frac {x ^ {n} y ^ {n}}{x ^ {n} + y ^ {n}} (x &gt; 0, y &gt; 0) \\text {绝对收敛}; \\\\ \\text {(2)当} x &gt; 1 \\text {时,级数} \\sum_ {n = 1} ^ {\\infty} \\frac {(n + x) ^ {n}}{n ^ {n - x}} \\text {绝对收敛}; \\\\ \\text {(3)当} x &gt; 0 \\text {时,级数} \\sum_ {n = 1} ^ {\\infty} n e ^ {- x} \\text {绝对收敛}; \\\\ \\text {(4)当} | x | \\neq 1 \\text {时,级数} \\sum_ {n = 1} ^ {\\infty} \\frac {x ^ {n}}{1 + x ^ {2 n}} \\text {绝对收敛}; \\end{array}\">\\begin{array}{l} \\text {下列说法正确的有[ ]}. \\\\ \\text {(1)当} 0 &lt; \\min (x, y) &lt; 1 \\text {时,级数} \\sum_ {n = 1} ^ {\\infty} \\frac {x ^ {n} y ^ {n}}{x ^ {n} + y ^ {n}} (x &gt; 0, y &gt; 0) \\text {绝对收敛}; \\\\ \\text {(2)当} x &gt; 1 \\text {时,级数} \\sum_ {n = 1} ^ {\\infty} \\frac {(n + x) ^ {n}}{n ^ {n - x}} \\text {绝对收敛}; \\\\ \\text {(3)当} x &gt; 0 \\text {时,级数} \\sum_ {n = 1} ^ {\\infty} n e ^ {- x} \\text {绝对收敛}; \\\\ \\text {(4)当} | x | \\neq 1 \\text {时,级数} \\sum_ {n = 1} ^ {\\infty} \\frac {x ^ {n}}{1 + x ^ {2 n}} \\text {绝对收敛}; \\end{array}</div>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch088/q0059_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"2 \\text{个}\">2 \\text{个}</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch088/q0059_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"4 \\text{个}\">4 \\text{个}</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch088/q0059_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"1 \\text{个}\">1 \\text{个}</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch088/q0059_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"3 \\text{个}\">3 \\text{个}</span>"
         }
       ],
       "answer": "B",
       "answer_index": 1,
-      "analysis_html": "<img src=\"/static/generated/assets/advanced-math/ch088/q0059_analysis.png\"/>"
+      "analysis_html": "<span class=\"missing-source\">（原题库源图失效，暂无内容）</span>"
     },
     {
       "id": "q0060",
       "number": 60,
       "header": "#60-Averge",
       "difficulty": "Averge",
-      "prompt_html": "<img src=\"/static/generated/assets/advanced-math/ch088/q0060_prompt.png\"/>",
+      "prompt_html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{级数} \\sum_{n=1}^{\\infty} \\frac{x^{n}}{n3^{n}}\\text{的收敛域是}[ \\quad].\">\\text{级数} \\sum_{n=1}^{\\infty} \\frac{x^{n}}{n3^{n}}\\text{的收敛域是}[ \\quad].</span>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch088/q0060_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\left[ - 3 , 3 \\right) ;\">\\left[ - 3 , 3 \\right) ;</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch088/q0060_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\lrcorner [ - 3 , + \\infty ) \\, .\">\\lrcorner [ - 3 , + \\infty ) \\, .</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch088/q0060_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"( - \\infty , 3 ] \\, ;\">( - \\infty , 3 ] \\, ;</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch088/q0060_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\left( - 3 , 3 \\right)\">\\left( - 3 , 3 \\right)</span>"
         }
       ],
       "answer": "A",
       "answer_index": 0,
-      "analysis_html": "<img src=\"/static/generated/assets/advanced-math/ch088/q0060_analysis.png\"/>"
+      "analysis_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{array}{l} \\text {解答:} \\rho = \\lim _ {n \\rightarrow \\infty} \\left| \\frac {a _ {n - 1}}{a _ {n}} \\right| = \\lim _ {n \\rightarrow \\infty} \\frac {\\frac {1}{(n + 1) 3 ^ {n - 1}}}{\\frac {1}{n 3 ^ {n}}} = \\lim _ {n \\rightarrow \\infty} \\frac {n}{(n + 1) 3} = \\frac {1}{3}, \\text {收敛半径} R = 3, \\\\ \\text {当} x = - 3 \\text {时，级数为} \\sum_ {n = 1} ^ {\\infty} \\frac {(- 1) ^ {n}}{n}, \\text {交错级数收敛；当} x = 3 \\text {时，级数为} \\sum_ {n = 1} ^ {\\infty} \\frac {1}{n}, \\\\ \\text {调和级数发散，所以收敛域为} [ - 3, 3). \\end{array}\">\\begin{array}{l} \\text {解答:} \\rho = \\lim _ {n \\rightarrow \\infty} \\left| \\frac {a _ {n - 1}}{a _ {n}} \\right| = \\lim _ {n \\rightarrow \\infty} \\frac {\\frac {1}{(n + 1) 3 ^ {n - 1}}}{\\frac {1}{n 3 ^ {n}}} = \\lim _ {n \\rightarrow \\infty} \\frac {n}{(n + 1) 3} = \\frac {1}{3}, \\text {收敛半径} R = 3, \\\\ \\text {当} x = - 3 \\text {时，级数为} \\sum_ {n = 1} ^ {\\infty} \\frac {(- 1) ^ {n}}{n}, \\text {交错级数收敛；当} x = 3 \\text {时，级数为} \\sum_ {n = 1} ^ {\\infty} \\frac {1}{n}, \\\\ \\text {调和级数发散，所以收敛域为} [ - 3, 3). \\end{array}</div>"
     },
     {
       "id": "q0061",
       "number": 61,
       "header": "#61-Averge",
       "difficulty": "Averge",
-      "prompt_html": "<img src=\"/static/generated/assets/advanced-math/ch088/q0061_prompt.png\"/>",
+      "prompt_html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{级数} \\sum_{n=0}^{\\infty} (-1)^{n} \\frac{x^{n}}{5^{n} \\sqrt{n+1}} \\text{的收敛域是} [ \\quad]. \\Leftrightarrow\">\\text{级数} \\sum_{n=0}^{\\infty} (-1)^{n} \\frac{x^{n}}{5^{n} \\sqrt{n+1}} \\text{的收敛域是} [ \\quad]. \\Leftrightarrow</span>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch088/q0061_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\cdot ( - \\frac { 1 } { 5 } , \\frac { 1 } { 5 } ) .\">\\cdot ( - \\frac { 1 } { 5 } , \\frac { 1 } { 5 } ) .</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch088/q0061_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\left[ 0 , 5 \\right)\">\\left[ 0 , 5 \\right)</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch088/q0061_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\left( - 5 , 5 \\right]\">\\left( - 5 , 5 \\right]</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch088/q0061_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"( - \\sqrt { 5 } , \\sqrt { 5 } )\">( - \\sqrt { 5 } , \\sqrt { 5 } )</span>"
         }
       ],
       "answer": "C",
       "answer_index": 2,
-      "analysis_html": "<img src=\"/static/generated/assets/advanced-math/ch088/q0061_analysis.png\"/>"
+      "analysis_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{array}{l} \\text {解答：} \\rho = \\lim _ {n \\rightarrow \\infty} \\left| \\frac {a _ {n + 1}}{a _ {n}} \\right| = \\lim _ {n \\rightarrow \\infty} \\left| \\frac {\\frac {(- 1) ^ {n + 1}}{5 ^ {n + 1} \\sqrt {n + 2}}}{\\frac {(- 1) ^ {n}}{5 ^ {n} \\sqrt {n + 1}}} \\right| = \\lim _ {n \\rightarrow \\infty} \\frac {\\sqrt {n + 1}}{5 \\sqrt {n + 2}} = \\frac {1}{5}, \\text {收敛半径} R = \\frac {1}{\\rho} = 5, \\\\ \\text {当} x = 5 \\text {时，级数为} \\sum_ {n = 0} ^ {\\infty} \\frac {(- 1) ^ {n}}{\\sqrt {n + 1}}, \\text {收敛；当} x = - 5 \\text {时，级数为} \\sum_ {n = 0} ^ {\\infty} \\frac {1}{\\sqrt {n + 1}}, \\text {发散，所以收敛域为} (- 5, 5 ]. \\end{array}\">\\begin{array}{l} \\text {解答：} \\rho = \\lim _ {n \\rightarrow \\infty} \\left| \\frac {a _ {n + 1}}{a _ {n}} \\right| = \\lim _ {n \\rightarrow \\infty} \\left| \\frac {\\frac {(- 1) ^ {n + 1}}{5 ^ {n + 1} \\sqrt {n + 2}}}{\\frac {(- 1) ^ {n}}{5 ^ {n} \\sqrt {n + 1}}} \\right| = \\lim _ {n \\rightarrow \\infty} \\frac {\\sqrt {n + 1}}{5 \\sqrt {n + 2}} = \\frac {1}{5}, \\text {收敛半径} R = \\frac {1}{\\rho} = 5, \\\\ \\text {当} x = 5 \\text {时，级数为} \\sum_ {n = 0} ^ {\\infty} \\frac {(- 1) ^ {n}}{\\sqrt {n + 1}}, \\text {收敛；当} x = - 5 \\text {时，级数为} \\sum_ {n = 0} ^ {\\infty} \\frac {1}{\\sqrt {n + 1}}, \\text {发散，所以收敛域为} (- 5, 5 ]. \\end{array}</div>"
     },
     {
       "id": "q0062",
       "number": 62,
       "header": "#62-Averge",
       "difficulty": "Averge",
-      "prompt_html": "<img src=\"/static/generated/assets/advanced-math/ch088/q0062_prompt.png\"/>",
+      "prompt_html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{幂级数} \\sum_{n=0}^{\\infty} \\frac{1+\\cos n \\pi}{2^{n}} x^{n} \\text{的收敛域} \\left[ \\quad \\right]. \\Leftrightarrow\">\\text{幂级数} \\sum_{n=0}^{\\infty} \\frac{1+\\cos n \\pi}{2^{n}} x^{n} \\text{的收敛域} \\left[ \\quad \\right]. \\Leftrightarrow</span>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch088/q0062_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\left[ - 2 , 2 \\right)\">\\left[ - 2 , 2 \\right)</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch088/q0062_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\left[ - 1 , 1 \\right]\">\\left[ - 1 , 1 \\right]</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch088/q0062_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"( - 2 , 2 ) :\">( - 2 , 2 ) :</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch088/q0062_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"( - 1 , 1 ]\">( - 1 , 1 ]</span>"
         }
       ],
       "answer": "C",
       "answer_index": 2,
-      "analysis_html": "<img src=\"/static/generated/assets/advanced-math/ch088/q0062_analysis.png\"/>"
+      "analysis_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{aligned} \\text{解答：} \\rho&amp;=\\lim_{n \\to \\infty} \\sqrt{\\frac{1+\\cos n \\pi}{2^{n}}}=\\frac{1}{2}, \\text{所以} R=\\frac{1}{\\rho}=2, \\\\ &amp; \\text{当} x=\\pm 2 \\text{时，级数} \\sum_{n=1}^{\\infty} [(-1)^{n}+1] \\text{发散，所以收敛域为} -2&lt;x&lt;2. \\end{aligned}\">\\begin{aligned} \\text{解答：} \\rho&amp;=\\lim_{n \\to \\infty} \\sqrt{\\frac{1+\\cos n \\pi}{2^{n}}}=\\frac{1}{2}, \\text{所以} R=\\frac{1}{\\rho}=2, \\\\ &amp; \\text{当} x=\\pm 2 \\text{时，级数} \\sum_{n=1}^{\\infty} [(-1)^{n}+1] \\text{发散，所以收敛域为} -2&lt;x&lt;2. \\end{aligned}</div>"
     },
     {
       "id": "q0063",
       "number": 63,
       "header": "#63-Averge",
       "difficulty": "Averge",
-      "prompt_html": "<img src=\"/static/generated/assets/advanced-math/ch088/q0063_prompt.png\"/>",
+      "prompt_html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{级数} \\sum_{n=1}^{\\infty} \\frac{x^{n}}{2 \\cdot 4 \\cdot 6 \\cdots \\cdot (2n)} \\text{的收敛域是} [ \\quad ] .\">\\text{级数} \\sum_{n=1}^{\\infty} \\frac{x^{n}}{2 \\cdot 4 \\cdot 6 \\cdots \\cdot (2n)} \\text{的收敛域是} [ \\quad ] .</span>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch088/q0063_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\mathcal{L}(-\\infty, 0) \\cup (0, +\\infty)\\,.\">\\mathcal{L}(-\\infty, 0) \\cup (0, +\\infty)\\,.</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch088/q0063_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"(0, + \\infty );\">(0, + \\infty );</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch088/q0063_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"( - \\infty , + \\infty )\">( - \\infty , + \\infty )</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch088/q0063_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"x = 0\">x = 0</span>"
         }
       ],
       "answer": "C",
       "answer_index": 2,
-      "analysis_html": "<img src=\"/static/generated/assets/advanced-math/ch088/q0063_analysis.png\"/>"
+      "analysis_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{array}{l} \\text {解答：} \\rho = \\lim _ {n \\to \\infty} \\left| \\frac {a _ {n + 1}}{a _ {n}} \\right| = \\lim _ {n \\to \\infty} \\frac {\\frac {1}{(2 n + 2) ! !}}{\\frac {1}{(2 n) ! !}} = \\lim _ {n \\to \\infty} \\frac {1}{(2 n + 2) (2 n + 1)} = 0 , \\text {收敛半径} R = + \\infty , \\text {所} \\\\ \\text {以收敛域为} (- \\infty , + \\infty) . \\end{array}\">\\begin{array}{l} \\text {解答：} \\rho = \\lim _ {n \\to \\infty} \\left| \\frac {a _ {n + 1}}{a _ {n}} \\right| = \\lim _ {n \\to \\infty} \\frac {\\frac {1}{(2 n + 2) ! !}}{\\frac {1}{(2 n) ! !}} = \\lim _ {n \\to \\infty} \\frac {1}{(2 n + 2) (2 n + 1)} = 0 , \\text {收敛半径} R = + \\infty , \\text {所} \\\\ \\text {以收敛域为} (- \\infty , + \\infty) . \\end{array}</div>"
     },
     {
       "id": "q0064",
       "number": 64,
       "header": "#64-Averge",
       "difficulty": "Averge",
-      "prompt_html": "<img src=\"/static/generated/assets/advanced-math/ch088/q0064_prompt.png\"/>",
+      "prompt_html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{幂级数} \\sum_{n=1}^{\\infty} \\frac{ \\cos n^{2}}{n^{n}} x^{n} \\text{的收敛域是} [ \\quad \\quad].\">\\text{幂级数} \\sum_{n=1}^{\\infty} \\frac{ \\cos n^{2}}{n^{n}} x^{n} \\text{的收敛域是} [ \\quad \\quad].</span>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch088/q0064_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"( - \\infty , + \\infty )\">( - \\infty , + \\infty )</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch088/q0064_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"( - \\infty , 0 )\">( - \\infty , 0 )</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch088/q0064_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\therefore x = 0\">\\therefore x = 0</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch088/q0064_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"(0, + \\infty)\">(0, + \\infty)</span>"
         }
       ],
       "answer": "A",
       "answer_index": 0,
-      "analysis_html": "<img src=\"/static/generated/assets/advanced-math/ch088/q0064_analysis.png\"/>"
+      "analysis_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{array}{l} \\text {解答：} \\lim_{n \\to \\infty} \\sqrt[ n ]{ \\frac{ \\cos n^{2}}{n^{n}} x^{n}} = \\lim_{n \\to \\infty} \\frac{ \\sqrt[ n ]{ \\cos n^{2}} }{n} \\mid x \\mid = 0 &lt; 1 \\text {，所以} R = + \\infty \\text {，收敛域为} \\\\ - \\infty &lt; x &lt; + \\infty , \\forall \\end{array}\">\\begin{array}{l} \\text {解答：} \\lim_{n \\to \\infty} \\sqrt[ n ]{ \\frac{ \\cos n^{2}}{n^{n}} x^{n}} = \\lim_{n \\to \\infty} \\frac{ \\sqrt[ n ]{ \\cos n^{2}} }{n} \\mid x \\mid = 0 &lt; 1 \\text {，所以} R = + \\infty \\text {，收敛域为} \\\\ - \\infty &lt; x &lt; + \\infty , \\forall \\end{array}</div>"
     },
     {
       "id": "q0065",
       "number": 65,
       "header": "#65-Averge",
       "difficulty": "Averge",
-      "prompt_html": "<img src=\"/static/generated/assets/advanced-math/ch088/q0065_prompt.png\"/>",
+      "prompt_html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{幂级数} \\sum_{n=1}^{\\infty} b_{n} (x-2)^{n} \\text{在} x=-2 \\text{处收敛，则此级数在} x=4 \\text{处} [ \\quad] . \\leftarrow\">\\text{幂级数} \\sum_{n=1}^{\\infty} b_{n} (x-2)^{n} \\text{在} x=-2 \\text{处收敛，则此级数在} x=4 \\text{处} [ \\quad] . \\leftarrow</span>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch088/q0065_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{条件收敛}.\">\\text{条件收敛}.</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch088/q0065_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{发散}\">\\text{发散}</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch088/q0065_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{绝对收敛};\">\\text{绝对收敛};</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch088/q0065_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{敛散性不确定}\">\\text{敛散性不确定}</span>"
         }
       ],
       "answer": "C",
       "answer_index": 2,
-      "analysis_html": "<img src=\"/static/generated/assets/advanced-math/ch088/q0065_analysis.png\"/>"
+      "analysis_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{aligned}\\text{解答：令}t=x-2,\\text{则级数}\\sum_{n=1}^{\\infty}a_{n}t^{n}\\text{在}t=-4\\text{处收敛，所以}\\sum_{n=1}^{\\infty}a_{n}t^{n}\\text{的收敛半径}R\\geq4,\\\\ \\text{当}x=4\\text{时，}t=2&lt;R,\\text{所以绝对收敛.}\\end{aligned}\">\\begin{aligned}\\text{解答：令}t=x-2,\\text{则级数}\\sum_{n=1}^{\\infty}a_{n}t^{n}\\text{在}t=-4\\text{处收敛，所以}\\sum_{n=1}^{\\infty}a_{n}t^{n}\\text{的收敛半径}R\\geq4,\\\\ \\text{当}x=4\\text{时，}t=2&lt;R,\\text{所以绝对收敛.}\\end{aligned}</div>"
     }
-  ]
+  ],
+  "format": "latex",
+  "source_md": "gs/5.4.1_幂级数及收敛域(65题)/5.4.1_幂级数及收敛域(65题).md"
 }

@@ -13,392 +13,394 @@
       "number": 1,
       "header": "#1-Averge",
       "difficulty": "Averge",
-      "prompt_html": "<img src=\"/static/generated/assets/advanced-math/ch035/q0001_prompt.png\"/>",
+      "prompt_html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{设一质点的运动方程为} S = t ^ { 4 } - 6 t ^ { 2 } + t \\text{（} S \\text{单位为米，} t \\text{单位为秒），则它速度开始增加的时刻为} t = [ \\quad ] .\">\\text{设一质点的运动方程为} S = t ^ { 4 } - 6 t ^ { 2 } + t \\text{（} S \\text{单位为米，} t \\text{单位为秒），则它速度开始增加的时刻为} t = [ \\quad ] .</span>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch035/q0001_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\mathbf { 2 }\">\\mathbf { 2 }</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch035/q0001_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\mathbf { 1 }\">\\mathbf { 1 }</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch035/q0001_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"0\">0</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch035/q0001_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"3\">3</span>"
         }
       ],
       "answer": "B",
       "answer_index": 1,
-      "analysis_html": "<img src=\"/static/generated/assets/advanced-math/ch035/q0001_analysis.png\"/>"
+      "analysis_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{aligned}\\text{解答}\\;\\; \\text{速度}v=S&#x27;(t)=4t^3-12t+1,\\;\\text{加速度为}a=v&#x27;=S&#x27;&#x27;(t)=12t^2-12t\\\\ \\text{可得}t\\geq 1,\\;a\\geq 0.\\text{所以当}t=1\\text{时，速度开始增加。}\\end{aligned}\">\\begin{aligned}\\text{解答}\\;\\; \\text{速度}v=S&#x27;(t)=4t^3-12t+1,\\;\\text{加速度为}a=v&#x27;=S&#x27;&#x27;(t)=12t^2-12t\\\\ \\text{可得}t\\geq 1,\\;a\\geq 0.\\text{所以当}t=1\\text{时，速度开始增加。}\\end{aligned}</div>"
     },
     {
       "id": "q0002",
       "number": 2,
       "header": "#2-Averge",
       "difficulty": "Averge",
-      "prompt_html": "<img src=\"/static/generated/assets/advanced-math/ch035/q0002_prompt.png\"/>",
+      "prompt_html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{现以}18\\text{升/分钟的速度往一圆锥形水箱注水，水箱尖点朝下，底半径为}0.5\\text{米，高为}1\\text{米，当注水高度为}0.3\\text{米时，水位上升的速度为}\\left[\\right].\">\\text{现以}18\\text{升/分钟的速度往一圆锥形水箱注水，水箱尖点朝下，底半径为}0.5\\text{米，高为}1\\text{米，当注水高度为}0.3\\text{米时，水位上升的速度为}\\left[\\right].</span>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch035/q0002_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\frac { \\pi } { 8 }\">\\frac { \\pi } { 8 }</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch035/q0002_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\frac{\\pi}{6}\">\\frac{\\pi}{6}</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch035/q0002_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\frac { 6 } { \\pi }\">\\frac { 6 } { \\pi }</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch035/q0002_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\frac { 8 } { \\pi }\">\\frac { 8 } { \\pi }</span>"
         }
       ],
       "answer": "D",
       "answer_index": 3,
-      "analysis_html": "<img src=\"/static/generated/assets/advanced-math/ch035/q0002_analysis.png\"/>"
+      "analysis_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{aligned} &amp; \\text{解答 由题，设}h\\text{表示注水}t\\text{分钟后水箱内水位高度，此时水表面为一半径为}\\frac{h}{2}\\text{米的圆，故可求得此时水箱内水的体积}v=\\frac{1}{3}\\pi(\\frac{h}{2})^{2}h=18t\\text{，}\\\\ &amp; \\text{化简得}\\pi h^{2}=\\text{216}t\\text{，则}\\pi h^{2}\\frac{dh}{dt}=72\\text{，带入初值得}\\frac{dh}{dt}=\\frac{8}{\\pi}\\text{。}\\end{aligned}\">\\begin{aligned} &amp; \\text{解答 由题，设}h\\text{表示注水}t\\text{分钟后水箱内水位高度，此时水表面为一半径为}\\frac{h}{2}\\text{米的圆，故可求得此时水箱内水的体积}v=\\frac{1}{3}\\pi(\\frac{h}{2})^{2}h=18t\\text{，}\\\\ &amp; \\text{化简得}\\pi h^{2}=\\text{216}t\\text{，则}\\pi h^{2}\\frac{dh}{dt}=72\\text{，带入初值得}\\frac{dh}{dt}=\\frac{8}{\\pi}\\text{。}\\end{aligned}</div>"
     },
     {
       "id": "q0003",
       "number": 3,
       "header": "#3-Averge",
       "difficulty": "Averge",
-      "prompt_html": "<img src=\"/static/generated/assets/advanced-math/ch035/q0003_prompt.png\"/>",
+      "prompt_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\left[ \\begin{matrix} \\end{matrix} \\right].\">\\left[ \\begin{matrix} \\end{matrix} \\right].</div>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch035/q0003_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"- \\pi ^ { 2 }\">- \\pi ^ { 2 }</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch035/q0003_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"- \\pi\">- \\pi</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch035/q0003_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\pi\">\\pi</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch035/q0003_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\pi ^ { 2 }\">\\pi ^ { 2 }</span>"
         }
       ],
       "answer": "A",
       "answer_index": 0,
-      "analysis_html": "<img src=\"/static/generated/assets/advanced-math/ch035/q0003_analysis.png\"/>"
+      "analysis_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{array}{l} \\text {解答} \\text {速度} v = S ^ {\\prime} (t) = \\pi \\cos \\pi t , \\text {加速度为} a = v ^ {\\prime} = S ^ {\\prime \\prime} (t) = - \\pi^ {2} \\sin \\pi t \\\\ \\text {可得} t = \\frac {1}{2}, a = - \\pi^ {2}. \\end{array}\">\\begin{array}{l} \\text {解答} \\text {速度} v = S ^ {\\prime} (t) = \\pi \\cos \\pi t , \\text {加速度为} a = v ^ {\\prime} = S ^ {\\prime \\prime} (t) = - \\pi^ {2} \\sin \\pi t \\\\ \\text {可得} t = \\frac {1}{2}, a = - \\pi^ {2}. \\end{array}</div>"
     },
     {
       "id": "q0004",
       "number": 4,
       "header": "#4-Averge",
       "difficulty": "Averge",
-      "prompt_html": "<img src=\"/static/generated/assets/advanced-math/ch035/q0004_prompt.png\"/>",
+      "prompt_html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{设一质点的运动方程为} S = \\frac{1}{4} t^{4} - 4 t^{3} + 5 t, \\text{则该质点在} t = 8 \\text{的加速度大小为[ }\\ \\ \\ \\ ].\">\\text{设一质点的运动方程为} S = \\frac{1}{4} t^{4} - 4 t^{3} + 5 t, \\text{则该质点在} t = 8 \\text{的加速度大小为[ }\\ \\ \\ \\ ].</span>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch035/q0004_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"192\">192</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch035/q0004_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"128\">128</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch035/q0004_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"64\">64</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch035/q0004_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"0\">0</span>"
         }
       ],
       "answer": "D",
       "answer_index": 3,
-      "analysis_html": "<img src=\"/static/generated/assets/advanced-math/ch035/q0004_analysis.png\"/>"
+      "analysis_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{array}{l} \\text {解答 速度} v = S&#x27;(t) = t^{3} - 12 t^{2} + 5 , \\text {加速度为} a = v&#x27; = S&#x27;&#x27;(t) = 3 t^{2} - 24 t \\\\ \\text {可得} t = 8, a = 0 . \\end{array}\">\\begin{array}{l} \\text {解答 速度} v = S&#x27;(t) = t^{3} - 12 t^{2} + 5 , \\text {加速度为} a = v&#x27; = S&#x27;&#x27;(t) = 3 t^{2} - 24 t \\\\ \\text {可得} t = 8, a = 0 . \\end{array}</div>"
     },
     {
       "id": "q0005",
       "number": 5,
       "header": "#5-Averge",
       "difficulty": "Averge",
-      "prompt_html": "<img src=\"/static/generated/assets/advanced-math/ch035/q0005_prompt.png\"/>",
+      "prompt_html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{圆面积}A \\text{和其直径}D\\text{的关系为}A=\\frac{\\pi}{4}D^{2},\\text{当}D=10m\\text{时，圆面积关于直径的变化率为[ }\\quad].\">\\text{圆面积}A \\text{和其直径}D\\text{的关系为}A=\\frac{\\pi}{4}D^{2},\\text{当}D=10m\\text{时，圆面积关于直径的变化率为[ }\\quad].</span>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch035/q0005_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\, 4 \\pi ( m ^ { 2 } \\, / \\, m )\">\\, 4 \\pi ( m ^ { 2 } \\, / \\, m )</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch035/q0005_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"5 \\pi ( m ^ { 2 } / m )\">5 \\pi ( m ^ { 2 } / m )</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch035/q0005_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"3 \\pi ( m ^ { 2 } / m )\">3 \\pi ( m ^ { 2 } / m )</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch035/q0005_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"6 \\pi ( m ^ { 2 } \\, / \\, m )\">6 \\pi ( m ^ { 2 } \\, / \\, m )</span>"
         }
       ],
       "answer": "B",
       "answer_index": 1,
-      "analysis_html": "<img src=\"/static/generated/assets/advanced-math/ch035/q0005_analysis.png\"/>"
+      "analysis_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{aligned} \\text{解答} \\quad &amp; \\text{圆面积关于直径的变化率为} \\frac{dA}{dD} = \\frac{\\pi}{4} \\cdot 2D = \\frac{\\pi D}{2}, \\\\ &amp; \\text{当} D = 10m \\text{时,可得} \\frac{dA}{dD} = 5 \\pi (m^2/m) \\end{aligned}\">\\begin{aligned} \\text{解答} \\quad &amp; \\text{圆面积关于直径的变化率为} \\frac{dA}{dD} = \\frac{\\pi}{4} \\cdot 2D = \\frac{\\pi D}{2}, \\\\ &amp; \\text{当} D = 10m \\text{时,可得} \\frac{dA}{dD} = 5 \\pi (m^2/m) \\end{aligned}</div>"
     },
     {
       "id": "q0006",
       "number": 6,
       "header": "#6-Averge",
       "difficulty": "Averge",
-      "prompt_html": "<img src=\"/static/generated/assets/advanced-math/ch035/q0006_prompt.png\"/>",
+      "prompt_html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{设一质点的运动方程为}S=3t^{2}-3t\\text{（S单位为米，}t\\text{单位为秒），则该质点在}t=2\\text{秒末的加速度大小为} \\left[ \\ \\right].\">\\text{设一质点的运动方程为}S=3t^{2}-3t\\text{（S单位为米，}t\\text{单位为秒），则该质点在}t=2\\text{秒末的加速度大小为} \\left[ \\ \\right].</span>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch035/q0006_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"18\">18</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch035/q0006_option_B.png\"/>"
+          "html": "<span class=\"missing-source\">（原题库源图失效，暂无内容）</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch035/q0006_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"9\">9</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch035/q0006_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"36\">36</span>"
         }
       ],
       "answer": "D",
       "answer_index": 3,
-      "analysis_html": "<img src=\"/static/generated/assets/advanced-math/ch035/q0006_analysis.png\"/>"
+      "analysis_html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"27\">27</span>"
     },
     {
       "id": "q0007",
       "number": 7,
       "header": "#7-Averge",
       "difficulty": "Averge",
-      "prompt_html": "<img src=\"/static/generated/assets/advanced-math/ch035/q0007_prompt.png\"/>",
+      "prompt_html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{它的对角线增加速率为[ ]}.\">\\text{它的对角线增加速率为[ ]}.</span>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch035/q0007_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\mathbf { 1 }\">\\mathbf { 1 }</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch035/q0007_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"3\">3</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch035/q0007_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"2\">2</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch035/q0007_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"0\">0</span>"
         }
       ],
       "answer": "A",
       "answer_index": 0,
-      "analysis_html": "<img src=\"/static/generated/assets/advanced-math/ch035/q0007_analysis.png\"/>"
+      "analysis_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{aligned}&amp;\\text{解答}\\ \\ \\text{设}\\ l=x(t),w=y(t)\\ ,\\ \\ \\text{则对角线}\\ s(t)=\\sqrt{x^{2}(t)+y^{2}(t)}\\ ,\\ \\text{由题意可知初值为}\\\\&amp;x(t_{0})=12cm,y(t_{0})=5cm,x(t_{0})=12cm,y(t_{0})=5cm,x&#x27;(t_{0})=2,y&#x27;(t_{0})=3\\,,\\\\&amp;\\text{即}\\ s&#x27;(t)\\Big|_{t=t_{0}}=\\frac{x(t)x&#x27;(t)+y(t)y&#x27;(t)}{\\sqrt{x^{2}(t)+y^{2}(t)}}\\Big|_{t=t_{0}}=3,\\end{aligned}\">\\begin{aligned}&amp;\\text{解答}\\ \\ \\text{设}\\ l=x(t),w=y(t)\\ ,\\ \\ \\text{则对角线}\\ s(t)=\\sqrt{x^{2}(t)+y^{2}(t)}\\ ,\\ \\text{由题意可知初值为}\\\\&amp;x(t_{0})=12cm,y(t_{0})=5cm,x(t_{0})=12cm,y(t_{0})=5cm,x&#x27;(t_{0})=2,y&#x27;(t_{0})=3\\,,\\\\&amp;\\text{即}\\ s&#x27;(t)\\Big|_{t=t_{0}}=\\frac{x(t)x&#x27;(t)+y(t)y&#x27;(t)}{\\sqrt{x^{2}(t)+y^{2}(t)}}\\Big|_{t=t_{0}}=3,\\end{aligned}</div>"
     },
     {
       "id": "q0008",
       "number": 8,
       "header": "#8-Averge",
       "difficulty": "Averge",
-      "prompt_html": "<img src=\"/static/generated/assets/advanced-math/ch035/q0008_prompt.png\"/>",
+      "prompt_html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{设一质点的运动方程为}S = t^{3} - 3 t^{2} (S \\text{单位为米},t \\text{单位为秒}), \\text{则它速度开始增加的时刻为} t = [ \\quad].\">\\text{设一质点的运动方程为}S = t^{3} - 3 t^{2} (S \\text{单位为米},t \\text{单位为秒}), \\text{则它速度开始增加的时刻为} t = [ \\quad].</span>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch035/q0008_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\mathbf { 1 } :\">\\mathbf { 1 } :</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch035/q0008_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"2.\">2.</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch035/q0008_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"3\">3</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch035/q0008_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"0\">0</span>"
         }
       ],
       "answer": "A",
       "answer_index": 0,
-      "analysis_html": "<img src=\"/static/generated/assets/advanced-math/ch035/q0008_analysis.png\"/>"
+      "analysis_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{aligned}&amp;\\text{解答}\\ \\text{速度}v=S&#x27;(t)=3t^2-6t\\ ,\\ \\text{加速度为}a=v&#x27;=S&#x27;&#x27;(t)=6t-6\\\\&amp;\\text{可得}t\\geq 1,\\ a\\geq 0.\\text{所以当}t=1\\text{时，速度开始增加。}\\end{aligned}\">\\begin{aligned}&amp;\\text{解答}\\ \\text{速度}v=S&#x27;(t)=3t^2-6t\\ ,\\ \\text{加速度为}a=v&#x27;=S&#x27;&#x27;(t)=6t-6\\\\&amp;\\text{可得}t\\geq 1,\\ a\\geq 0.\\text{所以当}t=1\\text{时，速度开始增加。}\\end{aligned}</div>"
     },
     {
       "id": "q0009",
       "number": 9,
       "header": "#9-Averge",
       "difficulty": "Averge",
-      "prompt_html": "<img src=\"/static/generated/assets/advanced-math/ch035/q0009_prompt.png\"/>",
+      "prompt_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{array}{l} \\text {某产品在生产8到20件的情况下，生产} x \\text {件的成本与销售} x \\text {件的收入分别为} \\\\ C (x) = x ^ {3} - 2 x ^ {2} + 12 x (\\text {元}) \\text {与} R (x) = x ^ {3} - 3 x ^ {2} + 10 x (\\text {元}), \\text {某工厂目前每天生产} 10 \\text {件，则每天多生产一} \\\\ \\text {件产品的成本为[ }. \\end{array}\">\\begin{array}{l} \\text {某产品在生产8到20件的情况下，生产} x \\text {件的成本与销售} x \\text {件的收入分别为} \\\\ C (x) = x ^ {3} - 2 x ^ {2} + 12 x (\\text {元}) \\text {与} R (x) = x ^ {3} - 3 x ^ {2} + 10 x (\\text {元}), \\text {某工厂目前每天生产} 10 \\text {件，则每天多生产一} \\\\ \\text {件产品的成本为[ }. \\end{array}</div>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch035/q0009_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"272 \\text{元}\">272 \\text{元}</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch035/q0009_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"200 \\text { 元 }\">200 \\text { 元 }</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch035/q0009_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"150 \\text { 元 }\">150 \\text { 元 }</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch035/q0009_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"250 \\text { 元 }\">250 \\text { 元 }</span>"
         }
       ],
       "answer": "D",
       "answer_index": 3,
-      "analysis_html": "<img src=\"/static/generated/assets/advanced-math/ch035/q0009_analysis.png\"/>"
+      "analysis_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{aligned} \\text{解答 在每天生产10件的基础上再多生产一件的成本大约为：} \\\\ C&#x27;(x)=3x^{2}-4x+12,C&#x27;(10)=272(\\text{元}), \\\\ \\text{即多生产一件的附加成本为272元。边际收入为} \\\\ R&#x27;(x)=3x^{2}-6x+10,R&#x27;(10)=250(\\text{元}) \\\\ \\text{即多销售一件产品而增加的收入为250元。} \\end{aligned}\">\\begin{aligned} \\text{解答 在每天生产10件的基础上再多生产一件的成本大约为：} \\\\ C&#x27;(x)=3x^{2}-4x+12,C&#x27;(10)=272(\\text{元}), \\\\ \\text{即多生产一件的附加成本为272元。边际收入为} \\\\ R&#x27;(x)=3x^{2}-6x+10,R&#x27;(10)=250(\\text{元}) \\\\ \\text{即多销售一件产品而增加的收入为250元。} \\end{aligned}</div>"
     },
     {
       "id": "q0010",
       "number": 10,
       "header": "#10-Averge",
       "difficulty": "Averge",
-      "prompt_html": "<img src=\"/static/generated/assets/advanced-math/ch035/q0010_prompt.png\"/>",
+      "prompt_html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{一质点以每秒}50\\text{米的发射速度垂直射向空中，}t\\text{秒后达到的高度为}s=50t-st^{2}(\\text{米})，\\text{假设在此运动过程中重力为唯一的作用力}，\\text{则下列说法正确的是}\\ [ \\quad].\">\\text{一质点以每秒}50\\text{米的发射速度垂直射向空中，}t\\text{秒后达到的高度为}s=50t-st^{2}(\\text{米})，\\text{假设在此运动过程中重力为唯一的作用力}，\\text{则下列说法正确的是}\\ [ \\quad].</span>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch035/q0010_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{质点达到的最大高度是} 120 \\text{米}\">\\text{质点达到的最大高度是} 120 \\text{米}</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch035/q0010_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\textbf{质点在第4.5秒达到最大高度}\">\\textbf{质点在第4.5秒达到最大高度}</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch035/q0010_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{质点离地面 } 120 \\text{ 米 } \\text{ 时的速度是 } v = 10 \\text{m/秒}\">\\text{质点离地面 } 120 \\text{ 米 } \\text{ 时的速度是 } v = 10 \\text{m/秒}</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch035/q0010_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{质点} \\, 10 \\, \\text{秒后重新落回地面}\">\\text{质点} \\, 10 \\, \\text{秒后重新落回地面}</span>"
         }
       ],
       "answer": "D",
       "answer_index": 3,
-      "analysis_html": "<img src=\"/static/generated/assets/advanced-math/ch035/q0010_analysis.png\"/>"
+      "analysis_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{array}{l} \\text {解答 由题易知时刻} t \\text {的速度为} v = \\frac {d}{d t} (50 t - 5 t ^ {2}) = 50 - 10 t , \\text {则} t = 5 , v = 0 , \\text {此时质点达到最大高度} \\\\ s = 50 \\cdot 5 - 5 \\cdot 5 ^ {2} = 125 (\\text {米}), \\text {令} s = 50 t - 5 t ^ {2} = 120 , \\text {解得} t = 4 \\text {或} 6 , \\text {故} v = 10 (m / s) \\text {或} v = - 10 (m / s), \\text {令} \\\\ s = 50 t - 5 t ^ {2} = 0 , \\text {解得} t = 10 , \\text {即该质点10秒后重新落回地面。} \\end{array}\">\\begin{array}{l} \\text {解答 由题易知时刻} t \\text {的速度为} v = \\frac {d}{d t} (50 t - 5 t ^ {2}) = 50 - 10 t , \\text {则} t = 5 , v = 0 , \\text {此时质点达到最大高度} \\\\ s = 50 \\cdot 5 - 5 \\cdot 5 ^ {2} = 125 (\\text {米}), \\text {令} s = 50 t - 5 t ^ {2} = 120 , \\text {解得} t = 4 \\text {或} 6 , \\text {故} v = 10 (m / s) \\text {或} v = - 10 (m / s), \\text {令} \\\\ s = 50 t - 5 t ^ {2} = 0 , \\text {解得} t = 10 , \\text {即该质点10秒后重新落回地面。} \\end{array}</div>"
     },
     {
       "id": "q0011",
       "number": 11,
       "header": "#11-Averge",
       "difficulty": "Averge",
-      "prompt_html": "<img src=\"/static/generated/assets/advanced-math/ch035/q0011_prompt.png\"/>",
+      "prompt_html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{一长为}5\\text{米的梯子斜靠在墙上，如果梯子下端以}0.5\\text{米/秒的速率滑离墙壁，则梯子下端离墙}3\\text{米时，梯子上端向下滑落的速率为} [ \\quad](m/s).\">\\text{一长为}5\\text{米的梯子斜靠在墙上，如果梯子下端以}0.5\\text{米/秒的速率滑离墙壁，则梯子下端离墙}3\\text{米时，梯子上端向下滑落的速率为} [ \\quad](m/s).</span>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch035/q0011_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\frac{7}{8}\">\\frac{7}{8}</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch035/q0011_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\frac { 1 } { 8 }\">\\frac { 1 } { 8 }</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch035/q0011_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\frac{3}{8}\">\\frac{3}{8}</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch035/q0011_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\frac{5}{8}\">\\frac{5}{8}</span>"
         }
       ],
       "answer": "C",
       "answer_index": 2,
-      "analysis_html": "<img src=\"/static/generated/assets/advanced-math/ch035/q0011_analysis.png\"/>"
+      "analysis_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{array}{l} \\text {解答 由题,可设} x,y \\text {分别表示梯子下端离墙的距离及梯子上端到地面的距离,则} x=\\frac{t}{2},y=\\sqrt{25-\\frac{t^{2}}{4}}, \\\\ \\text {则梯子上端向下滑动的位移为} s(t)=5-\\sqrt{25-\\frac{t^{2}}{4}}, \\text {速度为} v=s^{\\prime}=\\frac{-\\frac{2t}{4}}{2\\sqrt{25-\\frac{t^{2}}{4}}}=\\frac{t}{2\\sqrt{100-t^{2}}}, \\text {则} \\\\ x=3,t=6, \\text {故} v=\\frac{3}{8}(m/s). \\end{array}\">\\begin{array}{l} \\text {解答 由题,可设} x,y \\text {分别表示梯子下端离墙的距离及梯子上端到地面的距离,则} x=\\frac{t}{2},y=\\sqrt{25-\\frac{t^{2}}{4}}, \\\\ \\text {则梯子上端向下滑动的位移为} s(t)=5-\\sqrt{25-\\frac{t^{2}}{4}}, \\text {速度为} v=s^{\\prime}=\\frac{-\\frac{2t}{4}}{2\\sqrt{25-\\frac{t^{2}}{4}}}=\\frac{t}{2\\sqrt{100-t^{2}}}, \\text {则} \\\\ x=3,t=6, \\text {故} v=\\frac{3}{8}(m/s). \\end{array}</div>"
     },
     {
       "id": "q0012",
       "number": 12,
       "header": "#12-Averge",
       "difficulty": "Averge",
-      "prompt_html": "<img src=\"/static/generated/assets/advanced-math/ch035/q0012_prompt.png\"/>",
+      "prompt_html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{设一质点的运动方程为} S = 1 + 3 t ^ { 2 } - t ^ { 3 } \\text{（} S \\text{单位为米，} t \\text{单位为秒），则该质点在} t = 2 \\text{时的加速度大小为} \\left[ \\ \\ \\right].\">\\text{设一质点的运动方程为} S = 1 + 3 t ^ { 2 } - t ^ { 3 } \\text{（} S \\text{单位为米，} t \\text{单位为秒），则该质点在} t = 2 \\text{时的加速度大小为} \\left[ \\ \\ \\right].</span>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch035/q0012_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"6\">6</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch035/q0012_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"5\">5</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch035/q0012_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"-6\">-6</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch035/q0012_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"- 5\">- 5</span>"
         }
       ],
       "answer": "C",
       "answer_index": 2,
-      "analysis_html": "<img src=\"/static/generated/assets/advanced-math/ch035/q0012_analysis.png\"/>"
+      "analysis_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{aligned}\\text{解答}\\ \\ \\text{速度}v=S&#x27;(t)=6t-3t^2,\\ \\text{加速度为}a=v&#x27;=S&#x27;&#x27;(t)=6-6t\\\\ \\text{可得}t=2,a=-6\\,.\\end{aligned}\">\\begin{aligned}\\text{解答}\\ \\ \\text{速度}v=S&#x27;(t)=6t-3t^2,\\ \\text{加速度为}a=v&#x27;=S&#x27;&#x27;(t)=6-6t\\\\ \\text{可得}t=2,a=-6\\,.\\end{aligned}</div>"
     },
     {
       "id": "q0013",
       "number": 13,
       "header": "#13-Averge",
       "difficulty": "Averge",
-      "prompt_html": "<img src=\"/static/generated/assets/advanced-math/ch035/q0013_prompt.png\"/>",
+      "prompt_html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{在中午}12\\text{点整甲船以}6\\text{公里/小时的速率向东行驶，乙船在甲之北}16\\text{公里处，以}8\\text{公里}\\text{/}\\text{小时的速率向南行驶，则下午一点整两船行驶的相对速率为} [ \\quad]( \\text{公里}\\text{/}\\text{小时}\\text{).}\">\\text{在中午}12\\text{点整甲船以}6\\text{公里/小时的速率向东行驶，乙船在甲之北}16\\text{公里处，以}8\\text{公里}\\text{/}\\text{小时的速率向南行驶，则下午一点整两船行驶的相对速率为} [ \\quad]( \\text{公里}\\text{/}\\text{小时}\\text{).}</span>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch035/q0013_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"2.8\">2.8</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch035/q0013_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"-2.3\">-2.3</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch035/q0013_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"-2.8\">-2.8</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch035/q0013_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"2.3\">2.3</span>"
         }
       ],
       "answer": "C",
       "answer_index": 2,
-      "analysis_html": "<img src=\"/static/generated/assets/advanced-math/ch035/q0013_analysis.png\"/>"
+      "analysis_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{aligned} \\text{解答 由题,可设中午12点甲船在点O,乙船在点A,经过时间}t,\\text{两船相距}s(t)=\\sqrt{(16-8t)^2+(6t)^2}\\ , \\\\ \\text{则}S&#x27;(t)=\\frac{100t-128}{\\sqrt{(16-8t)^2+(6t)^2}},\\text{则}S&#x27;(1)=-2.8\\\\ \\text{故下午一点两船行驶的相对速率为}-2.8\\text{公里/小时。}\\end{aligned}\">\\begin{aligned} \\text{解答 由题,可设中午12点甲船在点O,乙船在点A,经过时间}t,\\text{两船相距}s(t)=\\sqrt{(16-8t)^2+(6t)^2}\\ , \\\\ \\text{则}S&#x27;(t)=\\frac{100t-128}{\\sqrt{(16-8t)^2+(6t)^2}},\\text{则}S&#x27;(1)=-2.8\\\\ \\text{故下午一点两船行驶的相对速率为}-2.8\\text{公里/小时。}\\end{aligned}</div>"
     },
     {
       "id": "q0014",
       "number": 14,
       "header": "#14-Averge",
       "difficulty": "Averge",
-      "prompt_html": "<img src=\"/static/generated/assets/advanced-math/ch035/q0014_prompt.png\"/>",
+      "prompt_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{array}{l} \\text {某产品在生产8到20件的情况下，生产} x \\text {件的成本与销售} x \\text {件的收入分别为} \\\\ C (x) = x ^ {3} - 2 x ^ {2} + 12 x (\\text {元}) \\text {与} R (x) = x ^ {3} - 3 x ^ {2} + 10 x (\\text {元}), \\text {某工厂目前每天生产} 10 \\text {件，则每天多生产一} \\\\ \\text {件产品的成本为[ ]}. \\end{array}\">\\begin{array}{l} \\text {某产品在生产8到20件的情况下，生产} x \\text {件的成本与销售} x \\text {件的收入分别为} \\\\ C (x) = x ^ {3} - 2 x ^ {2} + 12 x (\\text {元}) \\text {与} R (x) = x ^ {3} - 3 x ^ {2} + 10 x (\\text {元}), \\text {某工厂目前每天生产} 10 \\text {件，则每天多生产一} \\\\ \\text {件产品的成本为[ ]}. \\end{array}</div>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch035/q0014_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"272 \\text{元}\">272 \\text{元}</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch035/q0014_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"200 \\text { 元 }\">200 \\text { 元 }</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch035/q0014_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"150 \\text {元}\">150 \\text {元}</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch035/q0014_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"250 \\text { 元 }\">250 \\text { 元 }</span>"
         }
       ],
       "answer": "D",
       "answer_index": 3,
-      "analysis_html": "<img src=\"/static/generated/assets/advanced-math/ch035/q0014_analysis.png\"/>"
+      "analysis_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{aligned} \\text{解答 在每天生产10件的基础上再多生产一件的成本大约为：} \\\\ C&#x27;(x)=3x^{2}-4x+12,C&#x27;(10)=272(\\text{元}), \\\\ \\text{即多生产一件的附加成本为272元。边际收入为} \\\\ R&#x27;(x)=3x^{2}-6x+10,R&#x27;(10)=250(\\text{元}) \\\\ \\text{即多销售一件产品而增加的收入为250元。} \\end{aligned}\">\\begin{aligned} \\text{解答 在每天生产10件的基础上再多生产一件的成本大约为：} \\\\ C&#x27;(x)=3x^{2}-4x+12,C&#x27;(10)=272(\\text{元}), \\\\ \\text{即多生产一件的附加成本为272元。边际收入为} \\\\ R&#x27;(x)=3x^{2}-6x+10,R&#x27;(10)=250(\\text{元}) \\\\ \\text{即多销售一件产品而增加的收入为250元。} \\end{aligned}</div>"
     }
-  ]
+  ],
+  "format": "latex",
+  "source_md": "gs/2.7_相关变化率(14题)/2.7_相关变化率(14题).md"
 }

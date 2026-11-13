@@ -13,336 +13,338 @@
       "number": 1,
       "header": "#1-Averge",
       "difficulty": "Averge",
-      "prompt_html": "<img src=\"/static/generated/assets/probability/ch034/q0001_prompt.png\"/>",
+      "prompt_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\text{连续随机变量} \\, \\chi \\text{的概率密度为} \\, f(x) = \\begin{cases} k \\sqrt{x}, &amp; 0 &lt; x &lt; 1 \\\\ 0, &amp; \\text{其它} \\end{cases}, \\text{则分布函数} \\, F(x) = ( \\ \\ ) .\">\\text{连续随机变量} \\, \\chi \\text{的概率密度为} \\, f(x) = \\begin{cases} k \\sqrt{x}, &amp; 0 &lt; x &lt; 1 \\\\ 0, &amp; \\text{其它} \\end{cases}, \\text{则分布函数} \\, F(x) = ( \\ \\ ) .</div>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/probability/ch034/q0001_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\begin{array}{l} { r } { F ( x ) = \\{ \\begin{array}{l} { l l } { 0 , \\ x &lt; 0 } \\\\ { x ^ { 2 / 3 } , \\ x \\geq 0 } \\end{array} } \\end{array}\">\\begin{array}{l} { r } { F ( x ) = \\{ \\begin{array}{l} { l l } { 0 , \\ x &lt; 0 } \\\\ { x ^ { 2 / 3 } , \\ x \\geq 0 } \\end{array} } \\end{array}</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/probability/ch034/q0001_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\begin{aligned}F(x)=\\begin{cases}0, &amp; \\ \\ x&lt;0\\\\x^{3/2}, &amp; \\ \\ 0\\leq x&lt;1\\\\1, &amp; \\ \\ \\ x\\geq 1\\end{cases}\\end{aligned}\">\\begin{aligned}F(x)=\\begin{cases}0, &amp; \\ \\ x&lt;0\\\\x^{3/2}, &amp; \\ \\ 0\\leq x&lt;1\\\\1, &amp; \\ \\ \\ x\\geq 1\\end{cases}\\end{aligned}</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/probability/ch034/q0001_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\begin{aligned}F(x)=\\begin{cases}0, &amp; \\quad x&lt;0\\\\x^{2/3}, &amp; \\quad 0\\leq x&lt;1\\\\1, &amp; \\quad x\\geq 1\\end{cases}\\end{aligned}\">\\begin{aligned}F(x)=\\begin{cases}0, &amp; \\quad x&lt;0\\\\x^{2/3}, &amp; \\quad 0\\leq x&lt;1\\\\1, &amp; \\quad x\\geq 1\\end{cases}\\end{aligned}</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/probability/ch034/q0001_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\begin{aligned}F(x)=\\begin{cases}x^{2/3},\\ x&lt;1\\\\ \\\\1,\\ x\\geq1\\end{cases}\\end{aligned}\">\\begin{aligned}F(x)=\\begin{cases}x^{2/3},\\ x&lt;1\\\\ \\\\1,\\ x\\geq1\\end{cases}\\end{aligned}</span>"
         }
       ],
       "answer": "B",
       "answer_index": 1,
-      "analysis_html": "<img src=\"/static/generated/assets/probability/ch034/q0001_analysis.png\"/>"
+      "analysis_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{aligned}&amp;\\text{由概率密度的性质}\\int_{-\\infty}^{+\\infty}f(x)dx=1\\text{得}\\\\&amp;\\int_{-\\infty}^{+\\infty}f(x)dx=\\int_{0}^{1}k\\sqrt{x}dx=\\frac{2}{3}kx^{3/2}|_{0}^{1}\\Rightarrow k=\\frac{3}{2}\\,,\\\\&amp;\\text{由连续随机变量的分布函数}F(x)=\\int_{-\\infty}^{+\\infty}f(t)dt\\text{得}\\\\&amp;\\text{(1)当}x&lt;0\\text{时，}F(x)=\\int_{-\\infty}^{t}0dt=0\\,;\\\\&amp;\\text{(2)当}0\\leq x&lt;1\\text{时，}F(x)=\\int_{-\\infty}^{t}0dt+\\int_{0}^{t}\\frac{3}{2}\\sqrt{t}dt=x^{3/2}\\,;\\\\&amp;\\text{(3)当}x\\geq 1\\text{时，}F(x)=\\int_{-\\infty}^{t}f(t)dt=\\int_{-\\infty}^{t}0dt+\\int_{0}^{t}\\frac{3}{2}\\sqrt{t}dt+\\int_{0}^{t}1dt=1\\,.\\\\&amp;\\text{综上所述，得}\\\\&amp;F(x)=\\begin{cases}0,\\qquad x&lt;0\\\\x^{3/2},\\qquad 0\\leq x&lt;1\\,;\\\\1,\\qquad x\\geq 1\\end{cases}.\\end{aligned}\">\\begin{aligned}&amp;\\text{由概率密度的性质}\\int_{-\\infty}^{+\\infty}f(x)dx=1\\text{得}\\\\&amp;\\int_{-\\infty}^{+\\infty}f(x)dx=\\int_{0}^{1}k\\sqrt{x}dx=\\frac{2}{3}kx^{3/2}|_{0}^{1}\\Rightarrow k=\\frac{3}{2}\\,,\\\\&amp;\\text{由连续随机变量的分布函数}F(x)=\\int_{-\\infty}^{+\\infty}f(t)dt\\text{得}\\\\&amp;\\text{(1)当}x&lt;0\\text{时，}F(x)=\\int_{-\\infty}^{t}0dt=0\\,;\\\\&amp;\\text{(2)当}0\\leq x&lt;1\\text{时，}F(x)=\\int_{-\\infty}^{t}0dt+\\int_{0}^{t}\\frac{3}{2}\\sqrt{t}dt=x^{3/2}\\,;\\\\&amp;\\text{(3)当}x\\geq 1\\text{时，}F(x)=\\int_{-\\infty}^{t}f(t)dt=\\int_{-\\infty}^{t}0dt+\\int_{0}^{t}\\frac{3}{2}\\sqrt{t}dt+\\int_{0}^{t}1dt=1\\,.\\\\&amp;\\text{综上所述，得}\\\\&amp;F(x)=\\begin{cases}0,\\qquad x&lt;0\\\\x^{3/2},\\qquad 0\\leq x&lt;1\\,;\\\\1,\\qquad x\\geq 1\\end{cases}.\\end{aligned}</div>"
     },
     {
       "id": "q0002",
       "number": 2,
       "header": "#2-Averge",
       "difficulty": "Averge",
-      "prompt_html": "<img src=\"/static/generated/assets/probability/ch034/q0002_prompt.png\"/>",
+      "prompt_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\text{设连续随机变量} \\, \\lambda \\text{的概率密度为} \\, f(x)=\\begin{cases} A \\cos x, \\, |x| \\leq \\frac{\\pi}{2}, \\\\ 0, \\ \\ \\text{其它} \\end{cases}, \\, A \\text{为待定常数. 当} -\\frac{\\pi}{2} \\leq x \\leq \\frac{\\pi}{2} \\text{时,} \\, \\lambda \\text{的分布函数为} \\quad().\">\\text{设连续随机变量} \\, \\lambda \\text{的概率密度为} \\, f(x)=\\begin{cases} A \\cos x, \\, |x| \\leq \\frac{\\pi}{2}, \\\\ 0, \\ \\ \\text{其它} \\end{cases}, \\, A \\text{为待定常数. 当} -\\frac{\\pi}{2} \\leq x \\leq \\frac{\\pi}{2} \\text{时,} \\, \\lambda \\text{的分布函数为} \\quad().</div>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/probability/ch034/q0002_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\sin x + 1\">\\sin x + 1</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/probability/ch034/q0002_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\sin x - 1\">\\sin x - 1</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/probability/ch034/q0002_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\frac { 1 } { 2 } \\sin x\">\\frac { 1 } { 2 } \\sin x</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/probability/ch034/q0002_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\frac { 1 } { 2 } ( \\sin x + 1 )\">\\frac { 1 } { 2 } ( \\sin x + 1 )</span>"
         }
       ],
       "answer": "D",
       "answer_index": 3,
-      "analysis_html": "<img src=\"/static/generated/assets/probability/ch034/q0002_analysis.png\"/>"
+      "analysis_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{aligned}&amp;\\text{由概率密度的性质}\\int_{-\\infty}^{+\\infty}f(x)dx=1\\text{有}\\\\&amp;\\qquad\\int_{-\\infty}^{+\\infty}f(x)dx=\\int_{-\\pi/2}^{\\pi/2}A\\cos xdx=1\\,,\\\\&amp;\\text{求解得}\\quad A\\sin x\\frac{\\pi}{2}-x\\frac{\\pi}{2}=1\\Rightarrow A=\\frac{1}{2}\\,.\\end{aligned}\">\\begin{aligned}&amp;\\text{由概率密度的性质}\\int_{-\\infty}^{+\\infty}f(x)dx=1\\text{有}\\\\&amp;\\qquad\\int_{-\\infty}^{+\\infty}f(x)dx=\\int_{-\\pi/2}^{\\pi/2}A\\cos xdx=1\\,,\\\\&amp;\\text{求解得}\\quad A\\sin x\\frac{\\pi}{2}-x\\frac{\\pi}{2}=1\\Rightarrow A=\\frac{1}{2}\\,.\\end{aligned}</div>"
     },
     {
       "id": "q0003",
       "number": 3,
       "header": "#3-Averge",
       "difficulty": "Averge",
-      "prompt_html": "<img src=\"/static/generated/assets/probability/ch034/q0003_prompt.png\"/>",
+      "prompt_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\text{设随机变量} \\lambda \\text{有概率密度} f(x)=\\begin{cases} ax+b, &amp; 0\\leq x\\leq 2 \\\\ 0, &amp; \\text{其它}. \\end{cases}, \\text{已知} \\lambda \\text{的分布函数值} F(1)=\\frac{1}{4}, \\text{则有}().\">\\text{设随机变量} \\lambda \\text{有概率密度} f(x)=\\begin{cases} ax+b, &amp; 0\\leq x\\leq 2 \\\\ 0, &amp; \\text{其它}. \\end{cases}, \\text{已知} \\lambda \\text{的分布函数值} F(1)=\\frac{1}{4}, \\text{则有}().</div>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/probability/ch034/q0003_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\begin{array}{l}a=1\\;,\\;\\;b={\\frac{1}{2}}\\end{array}\">\\begin{array}{l}a=1\\;,\\;\\;b={\\frac{1}{2}}\\end{array}</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/probability/ch034/q0003_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\,a\\!=\\!\\frac{1}{2}\\,,\\,\\,\\,b\\!=\\!0\">\\,a\\!=\\!\\frac{1}{2}\\,,\\,\\,\\,b\\!=\\!0</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/probability/ch034/q0003_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\displaystyle a = \\frac { 1 } { 4 } \\, , \\; \\; b = \\frac { 1 } { 4 }\">\\displaystyle a = \\frac { 1 } { 4 } \\, , \\; \\; b = \\frac { 1 } { 4 }</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/probability/ch034/q0003_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\begin{aligned}a = 0 \\, , \\;\\; b = \\frac{1}{2}\\end{aligned}\">\\begin{aligned}a = 0 \\, , \\;\\; b = \\frac{1}{2}\\end{aligned}</span>"
         }
       ],
       "answer": "B",
       "answer_index": 1,
-      "analysis_html": "<img src=\"/static/generated/assets/probability/ch034/q0003_analysis.png\"/>"
+      "analysis_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{aligned}&amp;\\text{由概率密度的性质有} \\quad \\int_{-\\infty}^{+\\infty} f(x) dx = \\int_{0}^{1} (ax+b) dx = 1 \\,, \\\\&amp;\\text{求得} \\quad 2a+2b = 1 \\,, \\\\&amp;\\text{又由 } F(1) = \\int_{-\\infty}^{1} f(x) dx = \\int_{0}^{1} (ax+b) dx = \\frac{1}{4} \\text{算得} \\\\&amp;\\quad \\frac{a}{2} + b = \\frac{1}{4} \\,, \\\\&amp;\\text{联立解得} \\quad a = \\frac{1}{2} \\,, \\; b = 0 \\,.\\end{aligned}\">\\begin{aligned}&amp;\\text{由概率密度的性质有} \\quad \\int_{-\\infty}^{+\\infty} f(x) dx = \\int_{0}^{1} (ax+b) dx = 1 \\,, \\\\&amp;\\text{求得} \\quad 2a+2b = 1 \\,, \\\\&amp;\\text{又由 } F(1) = \\int_{-\\infty}^{1} f(x) dx = \\int_{0}^{1} (ax+b) dx = \\frac{1}{4} \\text{算得} \\\\&amp;\\quad \\frac{a}{2} + b = \\frac{1}{4} \\,, \\\\&amp;\\text{联立解得} \\quad a = \\frac{1}{2} \\,, \\; b = 0 \\,.\\end{aligned}</div>"
     },
     {
       "id": "q0004",
       "number": 4,
       "header": "#4-Averge",
       "difficulty": "Averge",
-      "prompt_html": "<img src=\"/static/generated/assets/probability/ch034/q0004_prompt.png\"/>",
+      "prompt_html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{服从拉普拉斯分布的随机变量}X \\text{的概率密度}f(x)=Ae^{-|x|},\\text{求系数}A \\text{及分布函数}F(x)\\text{正确的是}( ).\">\\text{服从拉普拉斯分布的随机变量}X \\text{的概率密度}f(x)=Ae^{-|x|},\\text{求系数}A \\text{及分布函数}F(x)\\text{正确的是}( ).</span>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/probability/ch034/q0004_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\begin{aligned}F(x)=\\{\\begin{aligned}&amp;2-\\frac{1}{2}e^{x},\\ x&lt;0\\\\&amp;\\\\&amp;-\\frac{1}{2}e^{-x}, x\\geq0\\end{aligned}\\end{aligned}\">\\begin{aligned}F(x)=\\{\\begin{aligned}&amp;2-\\frac{1}{2}e^{x},\\ x&lt;0\\\\&amp;\\\\&amp;-\\frac{1}{2}e^{-x}, x\\geq0\\end{aligned}\\end{aligned}</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/probability/ch034/q0004_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\begin{aligned}F(x)=\\{\\begin{array}{ll}\\displaystyle \\frac{1}{2}e^{x}, \\ \\ x&lt;0 \\\\ \\\\1-\\frac{1}{2}e^{-x},\\, x\\geq 0\\end{array}\\end{aligned}\">\\begin{aligned}F(x)=\\{\\begin{array}{ll}\\displaystyle \\frac{1}{2}e^{x}, \\ \\ x&lt;0 \\\\ \\\\1-\\frac{1}{2}e^{-x},\\, x\\geq 0\\end{array}\\end{aligned}</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/probability/ch034/q0004_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\begin{aligned}F(x)=\\{\\begin{array}{ll}\\displaystyle \\frac{1}{2}e^{x}, \\quad x\\geq 0 \\\\ \\\\1-\\frac{1}{2}e^{-x},\\ x&lt;0\\end{array}\\end{aligned}\">\\begin{aligned}F(x)=\\{\\begin{array}{ll}\\displaystyle \\frac{1}{2}e^{x}, \\quad x\\geq 0 \\\\ \\\\1-\\frac{1}{2}e^{-x},\\ x&lt;0\\end{array}\\end{aligned}</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/probability/ch034/q0004_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\begin{aligned}F(x)=\\{\\begin{array}{ll}e^x, \\ \\ \\ \\ \\ x&lt;0 \\\\ \\\\1+\\displaystyle \\frac{1}{2}e^{-x},\\, x\\geq 0\\end{array}\\end{aligned}\">\\begin{aligned}F(x)=\\{\\begin{array}{ll}e^x, \\ \\ \\ \\ \\ x&lt;0 \\\\ \\\\1+\\displaystyle \\frac{1}{2}e^{-x},\\, x\\geq 0\\end{array}\\end{aligned}</span>"
         }
       ],
       "answer": "B",
       "answer_index": 1,
-      "analysis_html": "<img src=\"/static/generated/assets/probability/ch034/q0004_analysis.png\"/>"
+      "analysis_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{aligned}&amp;\\text{由概率密度函数的性质知，}\\int_{-x}^{+x}f(x)dx=1,\\quad\\int_{-x}^{+x}Ae^{-|x|}dx=1,\\\\&amp;\\text{而}\\int_{-x}^{+x}Ae^{-|x|}dx=\\int_{-x}^{0}Ae^{\\prime}dx+\\int_{0}^{+x}Ae^{-x}dx\\\\&amp;\\quad\\quad\\quad\\quad=Ae^{x}|_{0}^{+}+\\left(-Ae^{-x}|_{0}^{+}\\right)=A+A=2A\\\\&amp;\\text{或}\\quad\\int_{-x}^{+x}Ae^{-x}dx=2\\int_{0}^{+x}Ae^{-x}|_{0}^{+}dx=-2Ae^{-x}|_{0}^{+}=\\text{2A},\\text{所以}2A=1,\\text{即}A=1/2.\\\\&amp;\\text{从而}f(x)=\\frac{1}{2}e^{-|x|},-\\infty&lt;x&lt;+\\infty,\\text{又因为}F(x)=\\int_{-x}^{x}f(t)dt,\\text{所以}\\\\&amp;\\text{当}x&lt;0\\text{时，}F(x)=\\int_{-x}^{x}\\frac{1}{2}e^{-|x|}dt=\\frac{1}{2}\\int_{-x}^{x}e^{\\prime}dt=\\frac{1}{2}e^{\\prime}|_{-x}^{x}=1e^{x};\\\\&amp;\\text{当}x\\geq0\\text{时，}F(x)=\\int_{-x}^{x}\\frac{1}{2}e^{-|x|}dt=\\int_{-x}^{0}\\frac{1}{2}e^{\\prime}dt+\\int_{0}^{x}\\frac{1}{2}e^{-t}|_{-x}^{0}dt=\\frac{1}{2}e^{-t}|_{0}^{x}=\\frac{1}{2}-\\frac{1}{2}e^{-x}+\\frac{1}{2}=1-\\frac{1}{2}e^{-x},\\\\&amp;\\text{从而}F(x)=\\begin{cases}\\frac{1}{2}e^{x},&amp;x&lt;0\\\\1-\\frac{1}{2}e^{-x},x\\geq0\\end{cases}.\\end{aligned}\">\\begin{aligned}&amp;\\text{由概率密度函数的性质知，}\\int_{-x}^{+x}f(x)dx=1,\\quad\\int_{-x}^{+x}Ae^{-|x|}dx=1,\\\\&amp;\\text{而}\\int_{-x}^{+x}Ae^{-|x|}dx=\\int_{-x}^{0}Ae^{\\prime}dx+\\int_{0}^{+x}Ae^{-x}dx\\\\&amp;\\quad\\quad\\quad\\quad=Ae^{x}|_{0}^{+}+\\left(-Ae^{-x}|_{0}^{+}\\right)=A+A=2A\\\\&amp;\\text{或}\\quad\\int_{-x}^{+x}Ae^{-x}dx=2\\int_{0}^{+x}Ae^{-x}|_{0}^{+}dx=-2Ae^{-x}|_{0}^{+}=\\text{2A},\\text{所以}2A=1,\\text{即}A=1/2.\\\\&amp;\\text{从而}f(x)=\\frac{1}{2}e^{-|x|},-\\infty&lt;x&lt;+\\infty,\\text{又因为}F(x)=\\int_{-x}^{x}f(t)dt,\\text{所以}\\\\&amp;\\text{当}x&lt;0\\text{时，}F(x)=\\int_{-x}^{x}\\frac{1}{2}e^{-|x|}dt=\\frac{1}{2}\\int_{-x}^{x}e^{\\prime}dt=\\frac{1}{2}e^{\\prime}|_{-x}^{x}=1e^{x};\\\\&amp;\\text{当}x\\geq0\\text{时，}F(x)=\\int_{-x}^{x}\\frac{1}{2}e^{-|x|}dt=\\int_{-x}^{0}\\frac{1}{2}e^{\\prime}dt+\\int_{0}^{x}\\frac{1}{2}e^{-t}|_{-x}^{0}dt=\\frac{1}{2}e^{-t}|_{0}^{x}=\\frac{1}{2}-\\frac{1}{2}e^{-x}+\\frac{1}{2}=1-\\frac{1}{2}e^{-x},\\\\&amp;\\text{从而}F(x)=\\begin{cases}\\frac{1}{2}e^{x},&amp;x&lt;0\\\\1-\\frac{1}{2}e^{-x},x\\geq0\\end{cases}.\\end{aligned}</div>"
     },
     {
       "id": "q0005",
       "number": 5,
       "header": "#5-Averge",
       "difficulty": "Averge",
-      "prompt_html": "<img src=\"/static/generated/assets/probability/ch034/q0005_prompt.png\"/>",
+      "prompt_html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{随机变量} \\, \\lambda \\text{的概率密度为} \\, f(x) = \\frac{1}{2} e^{-|x|}, \\ -\\infty &lt; x &lt; +\\infty , \\text{则} \\, \\lambda \\text{的分布函数} \\, F(x) = ( \\, ).\">\\text{随机变量} \\, \\lambda \\text{的概率密度为} \\, f(x) = \\frac{1}{2} e^{-|x|}, \\ -\\infty &lt; x &lt; +\\infty , \\text{则} \\, \\lambda \\text{的分布函数} \\, F(x) = ( \\, ).</span>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/probability/ch034/q0005_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\begin{aligned}F(x)=\\{\\begin{array}{ll}\\displaystyle \\frac{1}{2}e^{x}, &amp; \\ \\ x&lt;0 \\\n1.5ex] \\\\1-\\displaystyle \\frac{1}{2}e^{-x}, &amp; \\ \\ x\\geq 0\\end{array}\\end{aligned}\">\\begin{aligned}F(x)=\\{\\begin{array}{ll}\\displaystyle \\frac{1}{2}e^{x}, &amp; \\ \\ x&lt;0 \\\n1.5ex] \\\\1-\\displaystyle \\frac{1}{2}e^{-x}, &amp; \\ \\ x\\geq 0\\end{array}\\end{aligned}</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/probability/ch034/q0005_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\begin{aligned}F(x)=\\{\\begin{array}{ll}\\displaystyle \\frac{1}{2}e^{x}, &amp; \\ \\ x&lt;0 \\\\ \\\\1-e^{-x/2}, &amp; \\ \\ x\\geq 0\\end{array}\\end{aligned}\">\\begin{aligned}F(x)=\\{\\begin{array}{ll}\\displaystyle \\frac{1}{2}e^{x}, &amp; \\ \\ x&lt;0 \\\\ \\\\1-e^{-x/2}, &amp; \\ \\ x\\geq 0\\end{array}\\end{aligned}</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/probability/ch034/q0005_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\begin{aligned}F(x)=\\{\\begin{array}{cc}e^{x}, &amp; \\ x&lt;0 \\\\ \\\\1-e^{-x}, &amp; \\ x\\geq 0\\end{array}\\end{aligned}\">\\begin{aligned}F(x)=\\{\\begin{array}{cc}e^{x}, &amp; \\ x&lt;0 \\\\ \\\\1-e^{-x}, &amp; \\ x\\geq 0\\end{array}\\end{aligned}</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/probability/ch034/q0005_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\begin{aligned}F(x)=\\{\\begin{array}{ll}\\displaystyle \\frac{1}{2}e^{x}, &amp; \\ \\ x&lt;0 \\\\ \\\\1-e^{-x}, &amp; \\ \\ x\\geq 0\\end{array}\\end{aligned}\">\\begin{aligned}F(x)=\\{\\begin{array}{ll}\\displaystyle \\frac{1}{2}e^{x}, &amp; \\ \\ x&lt;0 \\\\ \\\\1-e^{-x}, &amp; \\ \\ x\\geq 0\\end{array}\\end{aligned}</span>"
         }
       ],
       "answer": "A",
       "answer_index": 0,
-      "analysis_html": "<img src=\"/static/generated/assets/probability/ch034/q0005_analysis.png\"/>"
+      "analysis_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{aligned}&amp;\\text{随机变量}\\lambda \\text{的概率密度为}\\\\&amp;f(x)=\\frac{1}{2}e^{-|t|}(-\\infty &lt; x &lt; +\\infty)=\\begin{cases}\\frac{1}{2}e^{-x},\\; x \\geq 0\\\\1\\\\ \\frac{1}{2}e^{x},\\; x &lt; 0\\end{cases},\\\\&amp;\\text{由连续型随机变量分布函数}F(x)=\\int_{-\\infty}^{x}f(t)dt\\text{得}\\\\&amp;(1)\\text{当}x&lt;0\\text{时，}F(x)=\\int_{-\\infty}^{x}\\frac{1}{2}e^{t}\\,dt=\\frac{1}{2}e^{x},\\\\&amp;(2)\\text{当}x \\geq 0\\text{时，}F(x)=\\int_{-\\infty}^{x}\\frac{1}{2}e^{t}\\,dt+\\int_{0}^{x}\\frac{1}{2}e^{-t}\\,dt=\\frac{1}{2}+(-\\frac{1}{2}e^{-t})|_{0}^{x}=1-\\frac{1}{2}e^{-x}.\\end{aligned}\">\\begin{aligned}&amp;\\text{随机变量}\\lambda \\text{的概率密度为}\\\\&amp;f(x)=\\frac{1}{2}e^{-|t|}(-\\infty &lt; x &lt; +\\infty)=\\begin{cases}\\frac{1}{2}e^{-x},\\; x \\geq 0\\\\1\\\\ \\frac{1}{2}e^{x},\\; x &lt; 0\\end{cases},\\\\&amp;\\text{由连续型随机变量分布函数}F(x)=\\int_{-\\infty}^{x}f(t)dt\\text{得}\\\\&amp;(1)\\text{当}x&lt;0\\text{时，}F(x)=\\int_{-\\infty}^{x}\\frac{1}{2}e^{t}\\,dt=\\frac{1}{2}e^{x},\\\\&amp;(2)\\text{当}x \\geq 0\\text{时，}F(x)=\\int_{-\\infty}^{x}\\frac{1}{2}e^{t}\\,dt+\\int_{0}^{x}\\frac{1}{2}e^{-t}\\,dt=\\frac{1}{2}+(-\\frac{1}{2}e^{-t})|_{0}^{x}=1-\\frac{1}{2}e^{-x}.\\end{aligned}</div>"
     },
     {
       "id": "q0006",
       "number": 6,
       "header": "#6-Easy",
       "difficulty": "Easy",
-      "prompt_html": "<img src=\"/static/generated/assets/probability/ch034/q0006_prompt.png\"/>",
+      "prompt_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\text{设连续型随机变量} \\xi \\text{的分布函数为} F(x) = \\begin{cases} 0, &amp; \\quad x &lt; 0 \\\\ x, &amp; \\quad 0 \\leq x &lt; 1 \\\\ 1, &amp; \\quad x \\geq 1 \\end{cases}, \\text{则} \\xi \\text{的概率密度函数} \\varphi(x) = ( \\begin{cases} 0, &amp; \\quad x &lt; 0 \\\\ 1, &amp; \\quad x \\geq 1 \\end{cases})\">\\text{设连续型随机变量} \\xi \\text{的分布函数为} F(x) = \\begin{cases} 0, &amp; \\quad x &lt; 0 \\\\ x, &amp; \\quad 0 \\leq x &lt; 1 \\\\ 1, &amp; \\quad x \\geq 1 \\end{cases}, \\text{则} \\xi \\text{的概率密度函数} \\varphi(x) = ( \\begin{cases} 0, &amp; \\quad x &lt; 0 \\\\ 1, &amp; \\quad x \\geq 1 \\end{cases})</div>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/probability/ch034/q0006_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\varphi(x) = \\begin{cases} 1, &amp; \\quad 0 \\leq x &lt; 1 \\\\ 0, &amp; \\quad \\text{其它} \\end{cases}\">\\varphi(x) = \\begin{cases} 1, &amp; \\quad 0 \\leq x &lt; 1 \\\\ 0, &amp; \\quad \\text{其它} \\end{cases}</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/probability/ch034/q0006_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\varphi(x) = \\begin{cases} \\displaystyle \\frac{1}{2}, &amp; \\quad 0 \\leq x &lt; 1 \\\\ 0, &amp; \\quad \\text{其它} \\end{cases}\">\\varphi(x) = \\begin{cases} \\displaystyle \\frac{1}{2}, &amp; \\quad 0 \\leq x &lt; 1 \\\\ 0, &amp; \\quad \\text{其它} \\end{cases}</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/probability/ch034/q0006_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\varphi (x) = \\begin{cases} x, &amp; \\quad 0 \\leq x \\leq 1 \\\\ 0, &amp; \\quad \\text{其它} \\end{cases}\">\\varphi (x) = \\begin{cases} x, &amp; \\quad 0 \\leq x \\leq 1 \\\\ 0, &amp; \\quad \\text{其它} \\end{cases}</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/probability/ch034/q0006_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\varphi(x) = 1\">\\varphi(x) = 1</span>"
         }
       ],
       "answer": "A",
       "answer_index": 0,
-      "analysis_html": "<img src=\"/static/generated/assets/probability/ch034/q0006_analysis.png\"/>"
+      "analysis_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{aligned} \\text{随机变量} \\xi \\text{的概率密度函数为} \\\\ f(x) = F&#x27;(x) = \\begin{cases} 0, \\; x &lt; 0 \\\\ 1, \\; 0 \\leq x &lt; 1 \\\\ 0, \\; x \\geq 1 \\end{cases} = \\begin{cases} 1, \\; 0 \\leq x &lt; 1 \\\\ 0, \\; \\text{其它} \\end{cases}.\\end{aligned}\">\\begin{aligned} \\text{随机变量} \\xi \\text{的概率密度函数为} \\\\ f(x) = F&#x27;(x) = \\begin{cases} 0, \\; x &lt; 0 \\\\ 1, \\; 0 \\leq x &lt; 1 \\\\ 0, \\; x \\geq 1 \\end{cases} = \\begin{cases} 1, \\; 0 \\leq x &lt; 1 \\\\ 0, \\; \\text{其它} \\end{cases}.\\end{aligned}</div>"
     },
     {
       "id": "q0007",
       "number": 7,
       "header": "#7-Easy",
       "difficulty": "Easy",
-      "prompt_html": "<img src=\"/static/generated/assets/probability/ch034/q0007_prompt.png\"/>",
+      "prompt_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\text{设连续型随机变量} \\zeta \\text{的分布函数为} F(x) = \\begin{cases} 0, &amp; x &lt; 0 \\\\ \\dfrac{x^{2}}{2}, &amp; 0 \\leq x &lt; \\sqrt{2}, \\\\ 1, &amp; x \\geq \\sqrt{2} \\end{cases}, \\text{则} \\zeta \\text{的概率密度} \\varphi(x) = ( \\begin{cases} 0, &amp; x &lt; 0 \\\\ \\dfrac{x^{2}}{2}, &amp; 0 \\leq x &lt; \\sqrt{2}, \\\\ 1, &amp; x \\geq \\sqrt{2} \\end{cases} ) .\">\\text{设连续型随机变量} \\zeta \\text{的分布函数为} F(x) = \\begin{cases} 0, &amp; x &lt; 0 \\\\ \\dfrac{x^{2}}{2}, &amp; 0 \\leq x &lt; \\sqrt{2}, \\\\ 1, &amp; x \\geq \\sqrt{2} \\end{cases}, \\text{则} \\zeta \\text{的概率密度} \\varphi(x) = ( \\begin{cases} 0, &amp; x &lt; 0 \\\\ \\dfrac{x^{2}}{2}, &amp; 0 \\leq x &lt; \\sqrt{2}, \\\\ 1, &amp; x \\geq \\sqrt{2} \\end{cases} ) .</div>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/probability/ch034/q0007_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\begin{aligned}f(x) = \\begin{cases} x, \\ 0 \\leq x &lt; \\sqrt{2} \\\\ \\ \\ 0, \\ \\text{其它} \\end{cases}\\end{aligned}\">\\begin{aligned}f(x) = \\begin{cases} x, \\ 0 \\leq x &lt; \\sqrt{2} \\\\ \\ \\ 0, \\ \\text{其它} \\end{cases}\\end{aligned}</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/probability/ch034/q0007_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"f(x) = x\">f(x) = x</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/probability/ch034/q0007_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\begin{aligned}f(x) = \\begin{cases} x, \\ 0 \\leq x &lt; 2 \\\\ \\ \\ 0, \\ \\text{其它} \\end{cases}\\end{aligned}\">\\begin{aligned}f(x) = \\begin{cases} x, \\ 0 \\leq x &lt; 2 \\\\ \\ \\ 0, \\ \\text{其它} \\end{cases}\\end{aligned}</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/probability/ch034/q0007_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\begin{array}{l} { r } { f ( x ) = \\{ \\begin{array}{l} { l l } { x , \\ x &lt; \\sqrt { 2 } } \\\\ { 0 , \\ x \\geq 1 } \\end{array} } \\end{array}\">\\begin{array}{l} { r } { f ( x ) = \\{ \\begin{array}{l} { l l } { x , \\ x &lt; \\sqrt { 2 } } \\\\ { 0 , \\ x \\geq 1 } \\end{array} } \\end{array}</span>"
         }
       ],
       "answer": "A",
       "answer_index": 0,
-      "analysis_html": "<img src=\"/static/generated/assets/probability/ch034/q0007_analysis.png\"/>"
+      "analysis_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{aligned} \\text{由概率密度的求解式子 } f(x)=F&#x27;(x)\\text{，有} \\\\ f(x)=F&#x27;(x)=\\begin{cases} 0,\\quad x&lt;0 \\\\ x,\\ 0\\leq x&lt;\\sqrt{2} \\\\ 0,\\quad x\\geq \\sqrt{2} \\end{cases}=\\begin{cases} x,\\ 0\\leq x&lt;\\sqrt{2} \\\\ 0,\\quad \\text{其它} \\end{cases}.\\end{aligned}\">\\begin{aligned} \\text{由概率密度的求解式子 } f(x)=F&#x27;(x)\\text{，有} \\\\ f(x)=F&#x27;(x)=\\begin{cases} 0,\\quad x&lt;0 \\\\ x,\\ 0\\leq x&lt;\\sqrt{2} \\\\ 0,\\quad x\\geq \\sqrt{2} \\end{cases}=\\begin{cases} x,\\ 0\\leq x&lt;\\sqrt{2} \\\\ 0,\\quad \\text{其它} \\end{cases}.\\end{aligned}</div>"
     },
     {
       "id": "q0008",
       "number": 8,
       "header": "#8-Averge",
       "difficulty": "Averge",
-      "prompt_html": "<img src=\"/static/generated/assets/probability/ch034/q0008_prompt.png\"/>",
+      "prompt_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\text{已知}X\\sim f(x)=\\begin{cases}2x,&amp;0&lt;x&lt;1\\\\ 0,&amp;\\text{其它}\\end{cases},\\text{关于}P\\{X\\leq 0.5\\},P\\{X=0.5\\},F(x)，\\text{下列说法错误的是}( ).\">\\text{已知}X\\sim f(x)=\\begin{cases}2x,&amp;0&lt;x&lt;1\\\\ 0,&amp;\\text{其它}\\end{cases},\\text{关于}P\\{X\\leq 0.5\\},P\\{X=0.5\\},F(x)，\\text{下列说法错误的是}( ).</div>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/probability/ch034/q0008_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\begin{aligned}\\text{当}x\\leq 0\\text{时，}\\,\\,\\,F(x)=0\\end{aligned}\">\\begin{aligned}\\text{当}x\\leq 0\\text{时，}\\,\\,\\,F(x)=0\\end{aligned}</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/probability/ch034/q0008_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\begin{aligned}P\\{X \\leq 0.5\\} = \\, 0.25\\end{aligned}\">\\begin{aligned}P\\{X \\leq 0.5\\} = \\, 0.25\\end{aligned}</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/probability/ch034/q0008_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\begin{array}{l} { r } { P \\{ X = 0 . 5 \\} = 0 } \\end{array}\">\\begin{array}{l} { r } { P \\{ X = 0 . 5 \\} = 0 } \\end{array}</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/probability/ch034/q0008_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{当} \\, 0 &lt; x &lt; 1 \\text{时，} \\, \\, F(x) = 1\">\\text{当} \\, 0 &lt; x &lt; 1 \\text{时，} \\, \\, F(x) = 1</span>"
         }
       ],
       "answer": "D",
       "answer_index": 3,
-      "analysis_html": "<img src=\"/static/generated/assets/probability/ch034/q0008_analysis.png\"/>"
+      "analysis_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{aligned}&amp;P\\{X\\leq 0.5\\}=\\int_{-\\infty}^{0.5}f(x)dx=\\int_{-\\infty}^{0}0dx+\\int_{0}^{0.5}2xdx=x^{\\frac{1}{0.5}}\\Big|_{0}^{0.5}=0.25,\\\\&amp;P\\{X=0.5\\}=P\\{X\\leq 0.5\\}-P\\{X&lt;0.5\\}\\,=\\,\\int_{-\\infty}^{0.5}f(x)dx-\\int_{-\\infty}^{0.5}f(x)dx=0.\\\\&amp;\\text{当}X\\leq 0\\text{时，}F(x)=0;\\\\&amp;\\text{当}0&lt;x&lt;1\\text{时，}F(x)=\\int_{-\\infty}^{x}f(t)dt=\\int_{-\\infty}^{0}0dt+\\int_{0}^{x}2tdt=\\hat{F}_{|0}^{x}=x^{2};\\\\&amp;\\text{当}X\\geq 1\\text{时，}F(x)=\\int_{-\\infty}^{x}f(t)dt=\\int_{-\\infty}^{0}0dt+\\int_{0}^{x}2tdt+\\bigl|\\int_{0}^{t}0dt=t\\bigl|_{0}^{1}=1,\\text{故}\\\\&amp;\\qquad F(x)=\\{\\begin{array}{l}0,\\ x\\leq 0\\\\x^{2},\\ 0&lt;x&lt;1.\\\\1,\\ x\\geq 1\\end{array}\\end{aligned}\">\\begin{aligned}&amp;P\\{X\\leq 0.5\\}=\\int_{-\\infty}^{0.5}f(x)dx=\\int_{-\\infty}^{0}0dx+\\int_{0}^{0.5}2xdx=x^{\\frac{1}{0.5}}\\Big|_{0}^{0.5}=0.25,\\\\&amp;P\\{X=0.5\\}=P\\{X\\leq 0.5\\}-P\\{X&lt;0.5\\}\\,=\\,\\int_{-\\infty}^{0.5}f(x)dx-\\int_{-\\infty}^{0.5}f(x)dx=0.\\\\&amp;\\text{当}X\\leq 0\\text{时，}F(x)=0;\\\\&amp;\\text{当}0&lt;x&lt;1\\text{时，}F(x)=\\int_{-\\infty}^{x}f(t)dt=\\int_{-\\infty}^{0}0dt+\\int_{0}^{x}2tdt=\\hat{F}_{|0}^{x}=x^{2};\\\\&amp;\\text{当}X\\geq 1\\text{时，}F(x)=\\int_{-\\infty}^{x}f(t)dt=\\int_{-\\infty}^{0}0dt+\\int_{0}^{x}2tdt+\\bigl|\\int_{0}^{t}0dt=t\\bigl|_{0}^{1}=1,\\text{故}\\\\&amp;\\qquad F(x)=\\{\\begin{array}{l}0,\\ x\\leq 0\\\\x^{2},\\ 0&lt;x&lt;1.\\\\1,\\ x\\geq 1\\end{array}\\end{aligned}</div>"
     },
     {
       "id": "q0009",
       "number": 9,
       "header": "#9-Easy",
       "difficulty": "Easy",
-      "prompt_html": "<img src=\"/static/generated/assets/probability/ch034/q0009_prompt.png\"/>",
+      "prompt_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\text{设连续型随机变量}\\,\\xi\\text{的分布函数为} \\, F(x) = \\begin{cases} \\,\\, 0, &amp; \\quad x &lt; 0 \\\\ \\,\\, \\sin x, &amp; \\quad 0 \\leq x &lt; \\dfrac{\\pi}{2} \\\\ \\,\\, 1, &amp; \\quad x \\geq \\dfrac{\\pi}{2} \\end{cases}, \\,\\, \\text{则}\\,\\xi\\text{的概率密度}\\,\\varphi(x) = (\\,\\, ).\">\\text{设连续型随机变量}\\,\\xi\\text{的分布函数为} \\, F(x) = \\begin{cases} \\,\\, 0, &amp; \\quad x &lt; 0 \\\\ \\,\\, \\sin x, &amp; \\quad 0 \\leq x &lt; \\dfrac{\\pi}{2} \\\\ \\,\\, 1, &amp; \\quad x \\geq \\dfrac{\\pi}{2} \\end{cases}, \\,\\, \\text{则}\\,\\xi\\text{的概率密度}\\,\\varphi(x) = (\\,\\, ).</div>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/probability/ch034/q0009_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\varphi(x) = \\begin{cases} \\cos x, &amp; \\; 0 \\leq x &lt; \\dfrac{\\pi}{2} \\\\ \\\\ 0, &amp; \\; \\text{其它} \\end{cases}\">\\varphi(x) = \\begin{cases} \\cos x, &amp; \\; 0 \\leq x &lt; \\dfrac{\\pi}{2} \\\\ \\\\ 0, &amp; \\; \\text{其它} \\end{cases}</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/probability/ch034/q0009_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\varphi (x) = \\{ \\begin{array}{ll} \\sin x, &amp; \\quad 0 \\leq x &lt; \\frac {\\pi}{2} \\\\ \\\\ 0, &amp; \\quad \\text {其它} \\end{array}\">\\varphi (x) = \\{ \\begin{array}{ll} \\sin x, &amp; \\quad 0 \\leq x &lt; \\frac {\\pi}{2} \\\\ \\\\ 0, &amp; \\quad \\text {其它} \\end{array}</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/probability/ch034/q0009_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\varphi(x) = \\begin{cases} \\sin x, &amp; \\quad -\\dfrac{\\pi}{2} \\leq x &lt; \\dfrac{\\pi}{2} \\\\ \\quad 0, &amp; \\quad \\text{其它} \\end{cases}\">\\varphi(x) = \\begin{cases} \\sin x, &amp; \\quad -\\dfrac{\\pi}{2} \\leq x &lt; \\dfrac{\\pi}{2} \\\\ \\quad 0, &amp; \\quad \\text{其它} \\end{cases}</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/probability/ch034/q0009_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\varphi(x)=\\{\\begin{array}{ll}\\cos x,&amp;\\quad-\\frac{\\pi}{2}\\leq x&lt;\\frac{\\pi}{2}\\\\ \\\\ 0,&amp;\\qquad\\text{其它}\\end{array}\">\\varphi(x)=\\{\\begin{array}{ll}\\cos x,&amp;\\quad-\\frac{\\pi}{2}\\leq x&lt;\\frac{\\pi}{2}\\\\ \\\\ 0,&amp;\\qquad\\text{其它}\\end{array}</span>"
         }
       ],
       "answer": "A",
       "answer_index": 0,
-      "analysis_html": "<img src=\"/static/generated/assets/probability/ch034/q0009_analysis.png\"/>"
+      "analysis_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\varphi(x)=F^{\\prime}(x)=\\{\\begin{array}{ll}0,&amp;x&lt;0\\\\ \\cos x,&amp;0\\leq x&lt;\\frac{\\pi}{2}\\\\ 0,&amp;x\\geq\\frac{\\pi}{2}\\end{array}=\\{\\begin{array}{ll}\\cos x,&amp;0\\leq x&lt;\\frac{\\pi}{2}\\\\ &amp;0, \\text {其它}\\end{array}.\">\\varphi(x)=F^{\\prime}(x)=\\{\\begin{array}{ll}0,&amp;x&lt;0\\\\ \\cos x,&amp;0\\leq x&lt;\\frac{\\pi}{2}\\\\ 0,&amp;x\\geq\\frac{\\pi}{2}\\end{array}=\\{\\begin{array}{ll}\\cos x,&amp;0\\leq x&lt;\\frac{\\pi}{2}\\\\ &amp;0, \\text {其它}\\end{array}.</div>"
     },
     {
       "id": "q0010",
       "number": 10,
       "header": "#10-Hard",
       "difficulty": "Hard",
-      "prompt_html": "<img src=\"/static/generated/assets/probability/ch034/q0010_prompt.png\"/>",
+      "prompt_html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{连续随机变量} \\, \\lambda \\text{ 的分布函数为} \\, F(x) = A + B \\operatorname{arctg} x, \\ (\\ -\\infty &lt; x &lt; +\\infty ) \\text{则} \\, P\\{-1 &lt; X &lt; 1\\}, \\ \\lambda \\text{ 的概率密度} \\, f(x) \\text{ 分别为} \\, () .\">\\text{连续随机变量} \\, \\lambda \\text{ 的分布函数为} \\, F(x) = A + B \\operatorname{arctg} x, \\ (\\ -\\infty &lt; x &lt; +\\infty ) \\text{则} \\, P\\{-1 &lt; X &lt; 1\\}, \\ \\lambda \\text{ 的概率密度} \\, f(x) \\text{ 分别为} \\, () .</span>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/probability/ch034/q0010_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\frac { 1 } { 2 } \\, , \\; \\; \\frac { 1 } { \\pi ( 1 + x ^ { 2 } ) }\">\\frac { 1 } { 2 } \\, , \\; \\; \\frac { 1 } { \\pi ( 1 + x ^ { 2 } ) }</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/probability/ch034/q0010_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\frac { 1 } { 4 } \\, , \\; \\, \\frac { 2 } { \\pi ( 1 + x ^ { 2 } ) }\">\\frac { 1 } { 4 } \\, , \\; \\, \\frac { 2 } { \\pi ( 1 + x ^ { 2 } ) }</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/probability/ch034/q0010_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\frac { 1 } { 2 } \\, , \\; \\; \\frac { 2 } { \\pi ( 1 + x ^ { 2 } ) }\">\\frac { 1 } { 2 } \\, , \\; \\; \\frac { 2 } { \\pi ( 1 + x ^ { 2 } ) }</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/probability/ch034/q0010_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\frac { 1 } { 4 } \\, , \\; \\; \\frac { 1 } { \\pi ( 1 + x ^ { 2 } ) }\">\\frac { 1 } { 4 } \\, , \\; \\; \\frac { 1 } { \\pi ( 1 + x ^ { 2 } ) }</span>"
         }
       ],
       "answer": "A",
       "answer_index": 0,
-      "analysis_html": "<img src=\"/static/generated/assets/probability/ch034/q0010_analysis.png\"/>"
+      "analysis_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{aligned}F(-\\infty) &amp;= 0 = A - \\frac{\\pi}{2}B, \\ F(+\\infty) = 1 = A + \\frac{\\pi}{2}B, \\ \\text{故} \\, A = \\frac{1}{2}, \\ B = \\frac{1}{\\pi} \\,. 1) \\, P\\{-1 &lt; X &lt; 1\\} &amp;= P\\{-1 &lt; X \\leq 1\\} = F(1) - F(-1) \\\\&amp;= \\left(\\frac{1}{2} + \\frac{1}{\\pi} \\arctan x \\right)\\Bigg|_{-1}^{1} = \\frac{1}{4} - \\left(-\\frac{1}{4}\\right) = \\frac{1}{2} \\,. 2) \\, f(x) &amp;= F&#x27;(x) = \\frac{1}{\\pi(1+x^2)} \\, , \\ \\ -\\infty &lt; x &lt; +\\infty \\, .\\end{aligned}\">\\begin{aligned}F(-\\infty) &amp;= 0 = A - \\frac{\\pi}{2}B, \\ F(+\\infty) = 1 = A + \\frac{\\pi}{2}B, \\ \\text{故} \\, A = \\frac{1}{2}, \\ B = \\frac{1}{\\pi} \\,. 1) \\, P\\{-1 &lt; X &lt; 1\\} &amp;= P\\{-1 &lt; X \\leq 1\\} = F(1) - F(-1) \\\\&amp;= \\left(\\frac{1}{2} + \\frac{1}{\\pi} \\arctan x \\right)\\Bigg|_{-1}^{1} = \\frac{1}{4} - \\left(-\\frac{1}{4}\\right) = \\frac{1}{2} \\,. 2) \\, f(x) &amp;= F&#x27;(x) = \\frac{1}{\\pi(1+x^2)} \\, , \\ \\ -\\infty &lt; x &lt; +\\infty \\, .\\end{aligned}</div>"
     },
     {
       "id": "q0011",
       "number": 11,
       "header": "#11-Averge",
       "difficulty": "Averge",
-      "prompt_html": "<img src=\"/static/generated/assets/probability/ch034/q0011_prompt.png\"/>",
+      "prompt_html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{服从拉普拉斯分布的随机变量}X \\text{的概率密度}f(x)=Ae^{-|x|}, \\text{对于系数}A \\text{及分布函数}F(x)，\\text{下列说法正确的是}().\">\\text{服从拉普拉斯分布的随机变量}X \\text{的概率密度}f(x)=Ae^{-|x|}, \\text{对于系数}A \\text{及分布函数}F(x)，\\text{下列说法正确的是}().</span>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/probability/ch034/q0011_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{当} \\, x \\geq 0 , F ( x ) = \\frac { 1 } { 2 } e ^ { x } - 1\">\\text{当} \\, x \\geq 0 , F ( x ) = \\frac { 1 } { 2 } e ^ { x } - 1</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/probability/ch034/q0011_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"A = 1\">A = 1</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/probability/ch034/q0011_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{当}x&lt;0,F(x)=\\frac{1}{2}e^{x}\">\\text{当}x&lt;0,F(x)=\\frac{1}{2}e^{x}</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/probability/ch034/q0011_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{当} \\, x \\geq 0, F(x) = \\frac{1}{2} e^{x}\">\\text{当} \\, x \\geq 0, F(x) = \\frac{1}{2} e^{x}</span>"
         }
       ],
       "answer": "C",
       "answer_index": 2,
-      "analysis_html": "<img src=\"/static/generated/assets/probability/ch034/q0011_analysis.png\"/>"
+      "analysis_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{aligned}&amp;\\text{由概率密度函数的性质知，}\\int_{-\\infty}^{+\\infty}f(x)dx=1,\\ \\text{即}\\ \\int_{-\\infty}^{+\\infty}Ae^{-|t|}dx=1,\\\\&amp;\\text{而}\\int_{-\\infty}^{+\\infty}Ae^{-|t|}dx=\\int_{-\\infty}^{+\\infty}Ae^{t}dx+\\int_{0}^{+\\infty}Ae^{-x}dx=Ae^{0}|_{-\\infty}^{0}+\\left(-Ae^{-x}|_{0}^{+\\infty}\\right)=A+A=2A\\\\&amp;\\text{或}\\ \\ \\int_{-\\infty}^{+\\infty}Ae^{-x}dx=2\\int_{0}^{+\\infty}Ae^{-x}dx=-2Ae^{-x}|_{0}^{+\\infty}=2A,\\ \\text{所以}2A=1,\\ \\text{即}A=1/2.\\\\&amp;\\text{从而 }f(x)=\\frac{1}{2}e^{-|t|},-\\infty&lt;x&lt;+\\infty,\\ \\text{又因为}F(x)=\\int_{-\\infty}^{x}f(t)dt,\\ \\text{所以}\\\\&amp;\\text{当}x&lt;0\\text{时，}F(x)=\\int_{-\\infty}^{x}\\frac{1}{2}e^{-|t|}dt=\\int_{-\\infty}^{x}\\frac{1}{2}e^{t}|_{-\\infty}^{x}dt=\\frac{1}{2}e^{t}|_{-\\infty}^{x}=\\frac{1}{2}e^{x};\\\\&amp;\\text{当}x\\geq0\\text{时，}F(x)=\\int_{-\\infty}^{x}\\frac{1}{2}e^{-|t|}dt=\\int_{-\\infty}^{0}\\frac{1}{2}e^{t}dt+\\int_{0}^{x}\\frac{1}{2}e^{-t}dt=\\frac{1}{2}e^{0}|_{-\\infty}^{x}-\\frac{1}{2}e^{-t}|_{0}^{x}=\\frac{1}{2}-\\frac{1}{2}e^{-x}+\\frac{1}{2}=1-\\frac{1}{2}e^{-x},\\\\&amp;\\text{从而}F(x)=\\begin{cases}\\frac{1}{2}e^{x},&amp;x&lt;0\\\\&amp;.\\\\1-\\frac{1}{2}e^{-x},x\\geq0\\end{cases}\\\\&amp;\\text{当}x\\geq0\\text{时，}F(x)=\\int_{-\\infty}^{x}\\frac{1}{2}e^{-|t|}dt=\\int_{-\\infty}^{0}\\frac{1}{2}e^{t}dt+\\int_{0}^{x}\\frac{1}{2}e^{-t}dt=\\frac{1}{2}e^{0}|_{-\\infty}^{x}-\\frac{1}{2}e^{-t}|_{0}^{x}=\\frac{1}{2}-\\frac{1}{2}e^{-x}+\\frac{1}{2}=1-\\frac{1}{2}e^{-x},\\\\&amp;\\text{从而}F(x)=\\begin{cases}\\frac{1}{2}e^{x},&amp;x&lt;0\\\\&amp;.\\\\1-\\frac{1}{2}e^{-x},x\\geq0\\end{cases}\\end{aligned}\">\\begin{aligned}&amp;\\text{由概率密度函数的性质知，}\\int_{-\\infty}^{+\\infty}f(x)dx=1,\\ \\text{即}\\ \\int_{-\\infty}^{+\\infty}Ae^{-|t|}dx=1,\\\\&amp;\\text{而}\\int_{-\\infty}^{+\\infty}Ae^{-|t|}dx=\\int_{-\\infty}^{+\\infty}Ae^{t}dx+\\int_{0}^{+\\infty}Ae^{-x}dx=Ae^{0}|_{-\\infty}^{0}+\\left(-Ae^{-x}|_{0}^{+\\infty}\\right)=A+A=2A\\\\&amp;\\text{或}\\ \\ \\int_{-\\infty}^{+\\infty}Ae^{-x}dx=2\\int_{0}^{+\\infty}Ae^{-x}dx=-2Ae^{-x}|_{0}^{+\\infty}=2A,\\ \\text{所以}2A=1,\\ \\text{即}A=1/2.\\\\&amp;\\text{从而 }f(x)=\\frac{1}{2}e^{-|t|},-\\infty&lt;x&lt;+\\infty,\\ \\text{又因为}F(x)=\\int_{-\\infty}^{x}f(t)dt,\\ \\text{所以}\\\\&amp;\\text{当}x&lt;0\\text{时，}F(x)=\\int_{-\\infty}^{x}\\frac{1}{2}e^{-|t|}dt=\\int_{-\\infty}^{x}\\frac{1}{2}e^{t}|_{-\\infty}^{x}dt=\\frac{1}{2}e^{t}|_{-\\infty}^{x}=\\frac{1}{2}e^{x};\\\\&amp;\\text{当}x\\geq0\\text{时，}F(x)=\\int_{-\\infty}^{x}\\frac{1}{2}e^{-|t|}dt=\\int_{-\\infty}^{0}\\frac{1}{2}e^{t}dt+\\int_{0}^{x}\\frac{1}{2}e^{-t}dt=\\frac{1}{2}e^{0}|_{-\\infty}^{x}-\\frac{1}{2}e^{-t}|_{0}^{x}=\\frac{1}{2}-\\frac{1}{2}e^{-x}+\\frac{1}{2}=1-\\frac{1}{2}e^{-x},\\\\&amp;\\text{从而}F(x)=\\begin{cases}\\frac{1}{2}e^{x},&amp;x&lt;0\\\\&amp;.\\\\1-\\frac{1}{2}e^{-x},x\\geq0\\end{cases}\\\\&amp;\\text{当}x\\geq0\\text{时，}F(x)=\\int_{-\\infty}^{x}\\frac{1}{2}e^{-|t|}dt=\\int_{-\\infty}^{0}\\frac{1}{2}e^{t}dt+\\int_{0}^{x}\\frac{1}{2}e^{-t}dt=\\frac{1}{2}e^{0}|_{-\\infty}^{x}-\\frac{1}{2}e^{-t}|_{0}^{x}=\\frac{1}{2}-\\frac{1}{2}e^{-x}+\\frac{1}{2}=1-\\frac{1}{2}e^{-x},\\\\&amp;\\text{从而}F(x)=\\begin{cases}\\frac{1}{2}e^{x},&amp;x&lt;0\\\\&amp;.\\\\1-\\frac{1}{2}e^{-x},x\\geq0\\end{cases}\\end{aligned}</div>"
     },
     {
       "id": "q0012",
       "number": 12,
       "header": "#12-Averge",
       "difficulty": "Averge",
-      "prompt_html": "<img src=\"/static/generated/assets/probability/ch034/q0012_prompt.png\"/>",
+      "prompt_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\text{设连续型随机变量} \\, \\chi \\text{ 的分布密度为} \\, f(x) = \\begin{cases} x, \\ \\ 0 &lt; x \\leq 1 \\\\ 2 - x, \\ 1 &lt; x \\leq 2, \\\\ 0, \\ \\ \\text{其它} \\end{cases}, \\text{关于其分布函数} \\, F(x)，\\text{下列说法正确的是}（）.\">\\text{设连续型随机变量} \\, \\chi \\text{ 的分布密度为} \\, f(x) = \\begin{cases} x, \\ \\ 0 &lt; x \\leq 1 \\\\ 2 - x, \\ 1 &lt; x \\leq 2, \\\\ 0, \\ \\ \\text{其它} \\end{cases}, \\text{关于其分布函数} \\, F(x)，\\text{下列说法正确的是}（）.</div>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/probability/ch034/q0012_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{当}1&lt;x\\leq2\\text{时，}F(x)=\\frac{1}{2}x^{2}\">\\text{当}1&lt;x\\leq2\\text{时，}F(x)=\\frac{1}{2}x^{2}</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/probability/ch034/q0012_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{当}x&gt;2\\text{时，}F(x)=\\frac{1}{2}x^{2}-1+2x\">\\text{当}x&gt;2\\text{时，}F(x)=\\frac{1}{2}x^{2}-1+2x</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/probability/ch034/q0012_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{当} \\, 0 &lt; x \\leq 1 \\text{时,} \\, F(x) = 0\">\\text{当} \\, 0 &lt; x \\leq 1 \\text{时,} \\, F(x) = 0</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/probability/ch034/q0012_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{当} \\, x \\leq 0 \\text{时,} \\, F(x) = 0\">\\text{当} \\, x \\leq 0 \\text{时,} \\, F(x) = 0</span>"
         }
       ],
       "answer": "D",
       "answer_index": 3,
-      "analysis_html": "<img src=\"/static/generated/assets/probability/ch034/q0012_analysis.png\"/>"
+      "analysis_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{aligned}&amp;\\text{当}x\\leq 0\\text{时，}\\ F(x)=\\int_{-x}^{x}0dt=0;\\\\&amp;\\text{当}0&lt;x\\leq 1\\text{时，}\\ F(x)=\\int_{-x}^{x}f(t)dt=\\int_{-x}^{0}0tdt+\\int_{0}^{x}tdt=\\frac{1}{2}x^{2};\\\\&amp;\\text{当}1&lt;x\\leq 2\\text{时，}\\ F(x)=\\int_{-x}^{x}f(t)dt=\\int_{-x}^{0}0dt+\\int_{0}^{1}tdt+\\int_{1}^{x}(2-t)dt=0+\\frac{1}{2}+\\left(2t-\\frac{1}{2}t^{2}\\right)\\Bigg|_{1}^{x}=-1+2x-\\frac{x^{2}}{2};\\\\&amp;\\text{当}x&gt;2\\text{时，}\\ F(x)=\\int_{-x}^{0}0dt+\\int_{0}^{1}tdt+\\int_{1}^{x}(2-t)dt+\\int_{2}^{x}0dt=1,\\\\&amp;\\text{故}\\quad F(x)=\\left\\{\\begin{array}{cl}0,\\qquad x\\leq 0\\\\ \\frac{1}{2}x^{2},\\qquad 0&lt;x\\leq 1\\\\ \\\\ -1+2x-\\frac{x^{2}}{2},\\quad 1&lt;x\\leq 2\\\\ \\\\ 1,\\qquad x&gt;2\\end{array}.\\right.\\end{aligned}\">\\begin{aligned}&amp;\\text{当}x\\leq 0\\text{时，}\\ F(x)=\\int_{-x}^{x}0dt=0;\\\\&amp;\\text{当}0&lt;x\\leq 1\\text{时，}\\ F(x)=\\int_{-x}^{x}f(t)dt=\\int_{-x}^{0}0tdt+\\int_{0}^{x}tdt=\\frac{1}{2}x^{2};\\\\&amp;\\text{当}1&lt;x\\leq 2\\text{时，}\\ F(x)=\\int_{-x}^{x}f(t)dt=\\int_{-x}^{0}0dt+\\int_{0}^{1}tdt+\\int_{1}^{x}(2-t)dt=0+\\frac{1}{2}+\\left(2t-\\frac{1}{2}t^{2}\\right)\\Bigg|_{1}^{x}=-1+2x-\\frac{x^{2}}{2};\\\\&amp;\\text{当}x&gt;2\\text{时，}\\ F(x)=\\int_{-x}^{0}0dt+\\int_{0}^{1}tdt+\\int_{1}^{x}(2-t)dt+\\int_{2}^{x}0dt=1,\\\\&amp;\\text{故}\\quad F(x)=\\left\\{\\begin{array}{cl}0,\\qquad x\\leq 0\\\\ \\frac{1}{2}x^{2},\\qquad 0&lt;x\\leq 1\\\\ \\\\ -1+2x-\\frac{x^{2}}{2},\\quad 1&lt;x\\leq 2\\\\ \\\\ 1,\\qquad x&gt;2\\end{array}.\\right.\\end{aligned}</div>"
     }
-  ]
+  ],
+  "format": "latex",
+  "source_md": "gl/2.3.3_分布函数与概率密度(12题)/2.3.3_分布函数与概率密度(12题).md"
 }

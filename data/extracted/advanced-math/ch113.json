@@ -13,504 +13,506 @@
       "number": 1,
       "header": "#1-Averge",
       "difficulty": "Averge",
-      "prompt_html": "<img src=\"/static/generated/assets/advanced-math/ch113/q0001_prompt.png\"/>",
+      "prompt_html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{函数}z=f(x,y)\\text{在点}(x_{0},y_{0})\\text{处具有偏导数是它在该点存在全微分的}(\\quad).\">\\text{函数}z=f(x,y)\\text{在点}(x_{0},y_{0})\\text{处具有偏导数是它在该点存在全微分的}(\\quad).</span>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch113/q0001_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{充分条件而非必要条件};\">\\text{充分条件而非必要条件};</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch113/q0001_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{既非充分也非必要条件};\">\\text{既非充分也非必要条件};</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch113/q0001_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{必要条件而非充分条件};\">\\text{必要条件而非充分条件};</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch113/q0001_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{充分必要条件}.\">\\text{充分必要条件}.</span>"
         }
       ],
       "answer": "C",
       "answer_index": 2,
-      "analysis_html": "<img src=\"/static/generated/assets/advanced-math/ch113/q0001_analysis.png\"/>"
+      "analysis_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{array}{l} \\text {函数可微偏导数一定存在，反之未必.例如} \\\\ f(x,y) = \\{ \\begin{array}{ll} \\dfrac{xy}{\\sqrt{x^{2}+y^{2}}}, &amp; x^{2}+y^{2}\\neq 0 \\\\ 0, &amp; x^{2}+y^{2}\\neq 0 \\end{array}. \\end{array}\">\\begin{array}{l} \\text {函数可微偏导数一定存在，反之未必.例如} \\\\ f(x,y) = \\{ \\begin{array}{ll} \\dfrac{xy}{\\sqrt{x^{2}+y^{2}}}, &amp; x^{2}+y^{2}\\neq 0 \\\\ 0, &amp; x^{2}+y^{2}\\neq 0 \\end{array}. \\end{array}</div>"
     },
     {
       "id": "q0002",
       "number": 2,
       "header": "#2-Averge",
       "difficulty": "Averge",
-      "prompt_html": "<img src=\"/static/generated/assets/advanced-math/ch113/q0002_prompt.png\"/>",
+      "prompt_html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{方程} \\cos ^ { 2 } x + \\cos ^ { 2 } y + \\cos ^ { 2 } z = 1 \\text{所确定的函数} z = z ( x , y ) \\text{的全微分} dz = ( \\quad ) 。\">\\text{方程} \\cos ^ { 2 } x + \\cos ^ { 2 } y + \\cos ^ { 2 } z = 1 \\text{所确定的函数} z = z ( x , y ) \\text{的全微分} dz = ( \\quad ) 。</span>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch113/q0002_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\frac{\\cos 2x dx + \\sin 2y dy}{\\cos x}.\">\\frac{\\cos 2x dx + \\sin 2y dy}{\\cos x}.</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch113/q0002_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\stackrel{ \\leftarrow }{ - \\frac { \\sin 2 x dx + \\sin 2 y dy } { \\sin 2 z } }\">\\stackrel{ \\leftarrow }{ - \\frac { \\sin 2 x dx + \\sin 2 y dy } { \\sin 2 z } }</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch113/q0002_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\frac{\\sin 2zdx-\\sin 2xdy}{\\sin 2x};\">\\frac{\\sin 2zdx-\\sin 2xdy}{\\sin 2x};</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch113/q0002_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\quad) - \\frac{\\sin 2x dx + \\cos 2y dy}{\\sin^{2}z} \\quad ;\">\\quad) - \\frac{\\sin 2x dx + \\cos 2y dy}{\\sin^{2}z} \\quad ;</span>"
         }
       ],
       "answer": "B",
       "answer_index": 1,
-      "analysis_html": "<img src=\"/static/generated/assets/advanced-math/ch113/q0002_analysis.png\"/>"
+      "analysis_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{aligned}&amp; \\text{等式两边同时关于}x,y\\text{求导，得} \\\\&amp; -2\\cos x\\sin x-2z_{x}\\cos z\\sin z=0\\;,\\;\\; -2\\cos y\\sin y-2z_{y}\\cos z\\sin z=0\\;,\\; \\circ\\\\&amp; \\text{得到}\\quad z_{x}=-\\frac{\\sin 2x}{\\sin 2z},\\;\\;z_{y}=-\\frac{\\sin 2y}{\\sin 2z}\\;,\\; \\circ\\\\&amp; \\text{则全微分为}dz=-\\frac{\\sin 2xdx+\\sin 2ydy}{\\sin 2z}.\\circ\\end{aligned}\">\\begin{aligned}&amp; \\text{等式两边同时关于}x,y\\text{求导，得} \\\\&amp; -2\\cos x\\sin x-2z_{x}\\cos z\\sin z=0\\;,\\;\\; -2\\cos y\\sin y-2z_{y}\\cos z\\sin z=0\\;,\\; \\circ\\\\&amp; \\text{得到}\\quad z_{x}=-\\frac{\\sin 2x}{\\sin 2z},\\;\\;z_{y}=-\\frac{\\sin 2y}{\\sin 2z}\\;,\\; \\circ\\\\&amp; \\text{则全微分为}dz=-\\frac{\\sin 2xdx+\\sin 2ydy}{\\sin 2z}.\\circ\\end{aligned}</div>"
     },
     {
       "id": "q0003",
       "number": 3,
       "header": "#3-Averge",
       "difficulty": "Averge",
-      "prompt_html": "<img src=\"/static/generated/assets/advanced-math/ch113/q0003_prompt.png\"/>",
+      "prompt_html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{设}f(x,y,z)=\\ln(xy+z)\\,,\\ \\text{则}df\\big{|}_{(1,2,0)}=(\\quad)_{e}\">\\text{设}f(x,y,z)=\\ln(xy+z)\\,,\\ \\text{则}df\\big{|}_{(1,2,0)}=(\\quad)_{e}</span>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch113/q0003_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\frac{1}{2}dx-dy+\\frac{1}{2}dz\\,;\">\\frac{1}{2}dx-dy+\\frac{1}{2}dz\\,;</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch113/q0003_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"dx + \\frac{1}{2}dy + \\frac{1}{2}dz \\, .\">dx + \\frac{1}{2}dy + \\frac{1}{2}dz \\, .</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch113/q0003_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"3 dx + \\frac{1}{4} dy + \\frac{1}{5} dz\\,,\">3 dx + \\frac{1}{4} dy + \\frac{1}{5} dz\\,,</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch113/q0003_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\frac{1}{2}dx+2dy-\\frac{1}{3}dz\\,;\">\\frac{1}{2}dx+2dy-\\frac{1}{3}dz\\,;</span>"
         }
       ],
       "answer": "B",
       "answer_index": 1,
-      "analysis_html": "<img src=\"/static/generated/assets/advanced-math/ch113/q0003_analysis.png\"/>"
+      "analysis_html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{因为} \\ f_{x} = \\frac{y}{xy+z} \\, , \\ \\ f_{y} = \\frac{x}{xy+z} \\, , \\ \\ f_{z} = \\frac{1}{xy+z} \\, , \\ \\ \\text{于是} \\ df \\big{|}_{(1,2,0)} = dx + \\frac{1}{2}dy + \\frac{1}{2}dz.\">\\text{因为} \\ f_{x} = \\frac{y}{xy+z} \\, , \\ \\ f_{y} = \\frac{x}{xy+z} \\, , \\ \\ f_{z} = \\frac{1}{xy+z} \\, , \\ \\ \\text{于是} \\ df \\big{|}_{(1,2,0)} = dx + \\frac{1}{2}dy + \\frac{1}{2}dz.</span>"
     },
     {
       "id": "q0004",
       "number": 4,
       "header": "#4-Averge",
       "difficulty": "Averge",
-      "prompt_html": "<img src=\"/static/generated/assets/advanced-math/ch113/q0004_prompt.png\"/>",
+      "prompt_html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{设}u(x,y)=\\ln(x+\\sqrt{x^{2}+y^{2}})\\,,\\ \\text{则}du=(\\quad)_{e}\">\\text{设}u(x,y)=\\ln(x+\\sqrt{x^{2}+y^{2}})\\,,\\ \\text{则}du=(\\quad)_{e}</span>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch113/q0004_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\frac { 1 } { \\sqrt { x ^ { 2 } + y ^ { 2 } } } \\left( dx - \\frac { y } { x + \\sqrt { x ^ { 2 } + y ^ { 2 } } } \\, dy \\right) ;\">\\frac { 1 } { \\sqrt { x ^ { 2 } + y ^ { 2 } } } \\left( dx - \\frac { y } { x + \\sqrt { x ^ { 2 } + y ^ { 2 } } } \\, dy \\right) ;</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch113/q0004_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\frac { 1 } { \\sqrt { x ^ { 2 } + y ^ { 2 } } } \\left( dx - \\frac { x } { x + \\sqrt { x ^ { 2 } + y ^ { 2 } } } \\, dy \\right) ,\">\\frac { 1 } { \\sqrt { x ^ { 2 } + y ^ { 2 } } } \\left( dx - \\frac { x } { x + \\sqrt { x ^ { 2 } + y ^ { 2 } } } \\, dy \\right) ,</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch113/q0004_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\begin{aligned}-\\frac{1}{\\sqrt{x^{2}+y^{2}}}\\left(dx+\\frac{y}{x+\\sqrt{x^{2}+y^{2}}}\\,dy\\right).\\end{aligned}\">\\begin{aligned}-\\frac{1}{\\sqrt{x^{2}+y^{2}}}\\left(dx+\\frac{y}{x+\\sqrt{x^{2}+y^{2}}}\\,dy\\right).\\end{aligned}</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch113/q0004_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\frac { 1 } { \\sqrt { x ^ { 2 } + y ^ { 2 } } } \\left( dx + \\frac { y } { x + \\sqrt { x ^ { 2 } + y ^ { 2 } } } \\, dy \\right) ;\">\\frac { 1 } { \\sqrt { x ^ { 2 } + y ^ { 2 } } } \\left( dx + \\frac { y } { x + \\sqrt { x ^ { 2 } + y ^ { 2 } } } \\, dy \\right) ;</span>"
         }
       ],
       "answer": "D",
       "answer_index": 3,
-      "analysis_html": "<img src=\"/static/generated/assets/advanced-math/ch113/q0004_analysis.png\"/>"
+      "analysis_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{aligned}u_{x} &amp; =\\frac{1+\\frac{x}{\\sqrt{x^{2}+y^{2}}}}{x+\\sqrt{x^{2}+y^{2}}}=\\frac{1}{\\sqrt{x^{2}+y^{2}}}\\,,\\,\\,\\,u_{y}=\\frac{\\frac{y}{\\sqrt{x^{2}+y^{2}}}}{x+\\sqrt{x^{2}+y^{2}}}=\\frac{y}{\\sqrt{x^{2}+y^{2}}\\left(x+\\sqrt{x^{2}+y^{2}}\\right)}\\,,\\,\\,\\,\\\\ \\text{所以} \\, du &amp; =\\frac{1}{\\sqrt{x^{2}+y^{2}}}\\, dx+\\frac{y}{\\sqrt{x^{2}+y^{2}}\\left(x+\\sqrt{x^{2}+y^{2}}\\right)}\\, dy=\\frac{1}{\\sqrt{x^{2}+y^{2}}}\\left( dx+\\frac{y}{x+\\sqrt{x^{2}+y^{2}}}\\, dy\\right) .\\end{aligned}\">\\begin{aligned}u_{x} &amp; =\\frac{1+\\frac{x}{\\sqrt{x^{2}+y^{2}}}}{x+\\sqrt{x^{2}+y^{2}}}=\\frac{1}{\\sqrt{x^{2}+y^{2}}}\\,,\\,\\,\\,u_{y}=\\frac{\\frac{y}{\\sqrt{x^{2}+y^{2}}}}{x+\\sqrt{x^{2}+y^{2}}}=\\frac{y}{\\sqrt{x^{2}+y^{2}}\\left(x+\\sqrt{x^{2}+y^{2}}\\right)}\\,,\\,\\,\\,\\\\ \\text{所以} \\, du &amp; =\\frac{1}{\\sqrt{x^{2}+y^{2}}}\\, dx+\\frac{y}{\\sqrt{x^{2}+y^{2}}\\left(x+\\sqrt{x^{2}+y^{2}}\\right)}\\, dy=\\frac{1}{\\sqrt{x^{2}+y^{2}}}\\left( dx+\\frac{y}{x+\\sqrt{x^{2}+y^{2}}}\\, dy\\right) .\\end{aligned}</div>"
     },
     {
       "id": "q0005",
       "number": 5,
       "header": "#5-Averge",
       "difficulty": "Averge",
-      "prompt_html": "<img src=\"/static/generated/assets/advanced-math/ch113/q0005_prompt.png\"/>",
+      "prompt_html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{设函数}z=z(x,y)\\text{由方程}x^{3}+y^{3}+z^{3}-3xyz=1\\text{所确定，则全微分}dz=(\\quad).\">\\text{设函数}z=z(x,y)\\text{由方程}x^{3}+y^{3}+z^{3}-3xyz=1\\text{所确定，则全微分}dz=(\\quad).</span>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch113/q0005_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\frac{1}{y^{2}-xz}\\Bigl[ (yz-x^{2})dy+(xz-y^{2})dx\\Bigr]\\,;\">\\frac{1}{y^{2}-xz}\\Bigl[ (yz-x^{2})dy+(xz-y^{2})dx\\Bigr]\\,;</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch113/q0005_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\frac { 1 } { z x - y ^ { 2 } } \\Bigl [ ( y z + x ^ { 2 } ) d x - ( x z + y ^ { 2 } ) d y \\Bigr ] \\; ; \\; \\;    \\epsilon\">\\frac { 1 } { z x - y ^ { 2 } } \\Bigl [ ( y z + x ^ { 2 } ) d x - ( x z + y ^ { 2 } ) d y \\Bigr ] \\; ; \\; \\;    \\epsilon</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch113/q0005_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\frac { 1 } { z ^ { 2 } - x y } \\Bigl [ ( y z - x ^ { 2 } ) d x + ( x z - y ^ { 2 } ) d y \\Bigr ] \\, ; \\; \\; \\text{⋄}\">\\frac { 1 } { z ^ { 2 } - x y } \\Bigl [ ( y z - x ^ { 2 } ) d x + ( x z - y ^ { 2 } ) d y \\Bigr ] \\, ; \\; \\; \\text{⋄}</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch113/q0005_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\frac { 1 } { z ^ { 2 } + x y } \\Bigl [ ( x z - y ^ { 2 } ) d x + ( x y - z ^ { 2 } ) d y \\Bigr ] \\, . \\text {e}\">\\frac { 1 } { z ^ { 2 } + x y } \\Bigl [ ( x z - y ^ { 2 } ) d x + ( x y - z ^ { 2 } ) d y \\Bigr ] \\, . \\text {e}</span>"
         }
       ],
       "answer": "C",
       "answer_index": 2,
-      "analysis_html": "<img src=\"/static/generated/assets/advanced-math/ch113/q0005_analysis.png\"/>"
+      "analysis_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{aligned}&amp;3x^{2}+3z^{2}z_{x}-3yz-3xyz_{x}=0\\;,\\;\\;3y^{2}+3z^{2}z_{y}-3xz-3xyz_{y}=0\\;,\\;\\;\\\\&amp;\\\\&amp;\\text{得到}\\;\\;\\;\\;\\;z_{x}=\\frac{yz-x^{2}}{z^{2}-xy}\\;\\;,\\;\\;z_{y}=\\frac{xz-y^{2}}{z^{2}-xy}\\;,\\;\\\\&amp;\\\\&amp;\\text{则全微分为}dz=\\frac{1}{z^{2}-xy}\\Big[(yz-x^{2})dx+(xz-y^{2})dy\\Big]\\;,\\end{aligned}\">\\begin{aligned}&amp;3x^{2}+3z^{2}z_{x}-3yz-3xyz_{x}=0\\;,\\;\\;3y^{2}+3z^{2}z_{y}-3xz-3xyz_{y}=0\\;,\\;\\;\\\\&amp;\\\\&amp;\\text{得到}\\;\\;\\;\\;\\;z_{x}=\\frac{yz-x^{2}}{z^{2}-xy}\\;\\;,\\;\\;z_{y}=\\frac{xz-y^{2}}{z^{2}-xy}\\;,\\;\\\\&amp;\\\\&amp;\\text{则全微分为}dz=\\frac{1}{z^{2}-xy}\\Big[(yz-x^{2})dx+(xz-y^{2})dy\\Big]\\;,\\end{aligned}</div>"
     },
     {
       "id": "q0006",
       "number": 6,
       "header": "#6-Averge",
       "difficulty": "Averge",
-      "prompt_html": "<img src=\"/static/generated/assets/advanced-math/ch113/q0006_prompt.png\"/>",
+      "prompt_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{cases} \\text{考虑二元函数}f(x,y)。 \\\\ \\textcircled{1} \\; f(x,y)\\text{在点}(x_{0},y_{0})\\text{处连续；} \\\\ \\\\ \\textcircled{2} \\; f(x,y)\\text{在点}(x_{0},y_{0})\\text{处的两个偏导数连续；} \\\\ \\\\ \\textcircled{3} \\; f(x,y)\\text{在点}(x_{0},y_{0})\\text{处可微；} \\\\ \\\\ \\textcircled{4} \\; f(x,y)\\text{在点}(x_{0},y_{0})\\text{处的两个偏导数存在。} \\\\ \\\\ \\text{若用“}P \\Rightarrow Q\\text{”标示可由性质}P\\text{推出性质}Q，\\text{则有}( )。 \\end{cases}\">\\begin{cases} \\text{考虑二元函数}f(x,y)。 \\\\ \\textcircled{1} \\; f(x,y)\\text{在点}(x_{0},y_{0})\\text{处连续；} \\\\ \\\\ \\textcircled{2} \\; f(x,y)\\text{在点}(x_{0},y_{0})\\text{处的两个偏导数连续；} \\\\ \\\\ \\textcircled{3} \\; f(x,y)\\text{在点}(x_{0},y_{0})\\text{处可微；} \\\\ \\\\ \\textcircled{4} \\; f(x,y)\\text{在点}(x_{0},y_{0})\\text{处的两个偏导数存在。} \\\\ \\\\ \\text{若用“}P \\Rightarrow Q\\text{”标示可由性质}P\\text{推出性质}Q，\\text{则有}( )。 \\end{cases}</div>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch113/q0006_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\textcircled { 3 } \\Rightarrow \\textcircled { 4 } \\Rightarrow \\textcircled { 1 } .\">\\textcircled { 3 } \\Rightarrow \\textcircled { 4 } \\Rightarrow \\textcircled { 1 } .</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch113/q0006_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\textcircled { 3 } \\Rightarrow \\textcircled { 1 } \\Rightarrow \\textcircled { 4 } ;\">\\textcircled { 3 } \\Rightarrow \\textcircled { 1 } \\Rightarrow \\textcircled { 4 } ;</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch113/q0006_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\textcircled { 3 } \\Rightarrow \\textcircled { 2 } \\Rightarrow \\textcircled { 1 } ;\">\\textcircled { 3 } \\Rightarrow \\textcircled { 2 } \\Rightarrow \\textcircled { 1 } ;</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch113/q0006_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\textcircled { 2 } \\Rightarrow \\textcircled { 3 } \\Rightarrow \\textcircled { 1 } ;\">\\textcircled { 2 } \\Rightarrow \\textcircled { 3 } \\Rightarrow \\textcircled { 1 } ;</span>"
         }
       ],
       "answer": "D",
       "answer_index": 3,
-      "analysis_html": "<img src=\"/static/generated/assets/advanced-math/ch113/q0006_analysis.png\"/>"
+      "analysis_html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{可微必可导，但导函数不一定连续；}\\underline{\\text{可微必连续}}; \\text{两个偏导数存在且偏导数连续则可微.}\">\\text{可微必可导，但导函数不一定连续；}\\underline{\\text{可微必连续}}; \\text{两个偏导数存在且偏导数连续则可微.}</span>"
     },
     {
       "id": "q0007",
       "number": 7,
       "header": "#7-Averge",
       "difficulty": "Averge",
-      "prompt_html": "<img src=\"/static/generated/assets/advanced-math/ch113/q0007_prompt.png\"/>",
+      "prompt_html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{设}f(x,y)=\\sqrt{x^{2}+y^{2}}\\ ,\\ \\text{则}df=(\\quad).\">\\text{设}f(x,y)=\\sqrt{x^{2}+y^{2}}\\ ,\\ \\text{则}df=(\\quad).</span>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch113/q0007_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\frac{xdx+ydy}{2\\sqrt{x^{2}+y^{2}}}\\,;\">\\frac{xdx+ydy}{2\\sqrt{x^{2}+y^{2}}}\\,;</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch113/q0007_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\frac{ydx+xdy}{\\sqrt{x^{2}+y^{2}}}\\,;\">\\frac{ydx+xdy}{\\sqrt{x^{2}+y^{2}}}\\,;</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch113/q0007_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\frac{xdx+ydy}{\\sqrt{x^{2}+y^{2}}}\\,;\">\\frac{xdx+ydy}{\\sqrt{x^{2}+y^{2}}}\\,;</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch113/q0007_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\frac{\\sqrt{x}dx+\\sqrt{y}dy}{\\sqrt{x^{2}+y^{2}}}\\,.\">\\frac{\\sqrt{x}dx+\\sqrt{y}dy}{\\sqrt{x^{2}+y^{2}}}\\,.</span>"
         }
       ],
       "answer": "C",
       "answer_index": 2,
-      "analysis_html": "<img src=\"/static/generated/assets/advanced-math/ch113/q0007_analysis.png\"/>"
+      "analysis_html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{因为} \\ f_{x}=\\frac{1}{2}\\Bigl(x^{2}+y^{2}\\Bigr)^{-\\frac{1}{2}}2x=\\frac{x}{\\sqrt{x^{2}+y^{2}}},\\ \\ f_{y}=\\frac{y}{\\sqrt{x^{2}+y^{2}}},\\ \\text{所以} \\ df=\\frac{xdx+ydy}{\\sqrt{x^{2}+y^{2}}}\\cdots\">\\text{因为} \\ f_{x}=\\frac{1}{2}\\Bigl(x^{2}+y^{2}\\Bigr)^{-\\frac{1}{2}}2x=\\frac{x}{\\sqrt{x^{2}+y^{2}}},\\ \\ f_{y}=\\frac{y}{\\sqrt{x^{2}+y^{2}}},\\ \\text{所以} \\ df=\\frac{xdx+ydy}{\\sqrt{x^{2}+y^{2}}}\\cdots</span>"
     },
     {
       "id": "q0008",
       "number": 8,
       "header": "#8-Averge",
       "difficulty": "Averge",
-      "prompt_html": "<img src=\"/static/generated/assets/advanced-math/ch113/q0008_prompt.png\"/>",
+      "prompt_html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{由方程} x y z + \\sqrt { x ^ { 2 } + y ^ { 2 } + z ^ { 2 } } = \\sqrt { 2 } \\text{所确定的函数} z = z ( x , y ) \\text{在点} ( 1 , 0 , - 1 ) \\text{处的全微分} d z = ( \\quad ) 。\">\\text{由方程} x y z + \\sqrt { x ^ { 2 } + y ^ { 2 } + z ^ { 2 } } = \\sqrt { 2 } \\text{所确定的函数} z = z ( x , y ) \\text{在点} ( 1 , 0 , - 1 ) \\text{处的全微分} d z = ( \\quad ) 。</span>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch113/q0008_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"- \\sqrt { 3 } d x - \\sqrt { 2 } d y \\, . \\Leftrightarrow\">- \\sqrt { 3 } d x - \\sqrt { 2 } d y \\, . \\Leftrightarrow</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch113/q0008_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"dx - \\sqrt{2} dy\\, ;\">dx - \\sqrt{2} dy\\, ;</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch113/q0008_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"2dx + dy;;\">2dx + dy;;</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch113/q0008_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"- dx + { \\sqrt { 2 } } dy \\, ;\">- dx + { \\sqrt { 2 } } dy \\, ;</span>"
         }
       ],
       "answer": "B",
       "answer_index": 1,
-      "analysis_html": "<img src=\"/static/generated/assets/advanced-math/ch113/q0008_analysis.png\"/>"
+      "analysis_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{aligned} &amp; \\text{由于 } yz + xyz_x + \\frac{1}{2}(2x + 2zz_x)\\frac{1}{\\sqrt{x^2 + y^2 + z^2}} = 0\\;,\\;\\;z_x\\big|_{(1,0,-1)} = 1\\;,\\; \\\\ &amp; \\; \\; \\; \\; \\; \\; \\; \\; \\; \\; \\; \\; \\; \\; xz + xyz_y + \\frac{1}{2}(2y + 2zz_y)\\frac{1}{\\sqrt{x^2 + y^2 + z^2}} = 0\\;,\\;\\;z_y\\big|_{(1,0,-1)} = -\\sqrt{2}\\;,\\; \\varepsilon \\\\ &amp; \\text{所以 } dz = dx - \\sqrt{2}dy\\;.\\varepsilon \\end{aligned}\">\\begin{aligned} &amp; \\text{由于 } yz + xyz_x + \\frac{1}{2}(2x + 2zz_x)\\frac{1}{\\sqrt{x^2 + y^2 + z^2}} = 0\\;,\\;\\;z_x\\big|_{(1,0,-1)} = 1\\;,\\; \\\\ &amp; \\; \\; \\; \\; \\; \\; \\; \\; \\; \\; \\; \\; \\; \\; xz + xyz_y + \\frac{1}{2}(2y + 2zz_y)\\frac{1}{\\sqrt{x^2 + y^2 + z^2}} = 0\\;,\\;\\;z_y\\big|_{(1,0,-1)} = -\\sqrt{2}\\;,\\; \\varepsilon \\\\ &amp; \\text{所以 } dz = dx - \\sqrt{2}dy\\;.\\varepsilon \\end{aligned}</div>"
     },
     {
       "id": "q0009",
       "number": 9,
       "header": "#9-Averge",
       "difficulty": "Averge",
-      "prompt_html": "<img src=\"/static/generated/assets/advanced-math/ch113/q0009_prompt.png\"/>",
+      "prompt_html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{设} \\ u(x,y)=\\frac{x+y}{x-y}\\, \\, \\, , \\, \\, \\text{则} \\, du=(\\quad)^\\circ.\">\\text{设} \\ u(x,y)=\\frac{x+y}{x-y}\\, \\, \\, , \\, \\, \\text{则} \\, du=(\\quad)^\\circ.</span>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch113/q0009_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"- \\frac { x d x + y d y } { 2 { ( x - y ) } ^ { 2 } } \\, ;\">- \\frac { x d x + y d y } { 2 { ( x - y ) } ^ { 2 } } \\, ;</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch113/q0009_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\frac{2(-ydx+xdy)}{\\left( x-y \\right)^{2}};\">\\frac{2(-ydx+xdy)}{\\left( x-y \\right)^{2}};</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch113/q0009_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\frac { y d x - x d y } { ( x - y ) ^ { 2 } } \\, ;\">\\frac { y d x - x d y } { ( x - y ) ^ { 2 } } \\, ;</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch113/q0009_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\frac{ydx-xdy}{2(x+y)^{2}}\\,.\\Leftrightarrow\">\\frac{ydx-xdy}{2(x+y)^{2}}\\,.\\Leftrightarrow</span>"
         }
       ],
       "answer": "B",
       "answer_index": 1,
-      "analysis_html": "<img src=\"/static/generated/assets/advanced-math/ch113/q0009_analysis.png\"/>"
+      "analysis_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{aligned} u_x&amp;=\\frac{(x-y)-(x+y)}{(x-y)^2}=\\frac{-2y}{(x-y)^2}\\,,\\quad u_y=\\frac{(x-y)+(x+y)}{(x-y)^2}=\\frac{2x}{(x-y)^2}\\,,\\\\ \\text{于是}du&amp;=\\frac{2(-ydx+xdy)}{(x-y)^2}\\,.\\end{aligned}\">\\begin{aligned} u_x&amp;=\\frac{(x-y)-(x+y)}{(x-y)^2}=\\frac{-2y}{(x-y)^2}\\,,\\quad u_y=\\frac{(x-y)+(x+y)}{(x-y)^2}=\\frac{2x}{(x-y)^2}\\,,\\\\ \\text{于是}du&amp;=\\frac{2(-ydx+xdy)}{(x-y)^2}\\,.\\end{aligned}</div>"
     },
     {
       "id": "q0010",
       "number": 10,
       "header": "#10-Averge",
       "difficulty": "Averge",
-      "prompt_html": "<img src=\"/static/generated/assets/advanced-math/ch113/q0010_prompt.png\"/>",
+      "prompt_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{aligned} &amp; \\text{下列函数的全微分计算中，正确的有( )。} \\\\ &amp; \\text{(1)} \\ u=\\arcsin \\frac{z}{\\sqrt{x^{2}+y^{2}}} \\text{的全微分} \\\\ &amp; \\quad du=\\frac{-xz}{(x^{2}+y^{2})\\sqrt{x^{2}+y^{2}-z^{2}}} \\, dx+\\frac{-yz}{(x^{2}+y^{2})\\sqrt{x^{2}+y^{2}-z^{2}}} \\, dy+\\frac{1}{\\sqrt{x^{2}+y^{2}-z^{2}}} \\, dz \\ ; \\ \\ \\\\ &amp; \\text{(2)} \\ u(x,y,z)=x^{y}y^{z}z^{x} \\text{的全微分} du=x^{y}y^{z}z^{x}\\left[ \\left( \\frac{y}{x}+\\ln x \\right) dx+\\left( \\frac{z}{y}+\\ln y \\right) dy+\\left( \\frac{x}{z}+\\ln z \\right) dz \\right] \\ ; \\ \\ \\\\ &amp; \\text{(3)} \\ z=3x^{2}y+\\frac{x}{y} \\text{的全微分} dz=\\left( 6xy+\\frac{1}{y} \\right) dx+\\left( 3x^{2}-\\frac{x}{y^{2}} \\right) dy \\ ; \\ \\ \\\\ &amp; \\text{(4)} \\ z=\\sin(x\\cos y) \\text{的全微分} dz=\\cos(x\\cos y)\\cos ydx-x\\sin y\\cos(x\\cos y)dy \\ ; \\ \\ \\\\ &amp; \\text{(5)} \\ u=x^{yz} \\text{的全微分} du=yzx^{yz-1}dx+zx^{yz}\\ln xdy+yx^{ya}\\ln xdz \\ . \\end{aligned}\">\\begin{aligned} &amp; \\text{下列函数的全微分计算中，正确的有( )。} \\\\ &amp; \\text{(1)} \\ u=\\arcsin \\frac{z}{\\sqrt{x^{2}+y^{2}}} \\text{的全微分} \\\\ &amp; \\quad du=\\frac{-xz}{(x^{2}+y^{2})\\sqrt{x^{2}+y^{2}-z^{2}}} \\, dx+\\frac{-yz}{(x^{2}+y^{2})\\sqrt{x^{2}+y^{2}-z^{2}}} \\, dy+\\frac{1}{\\sqrt{x^{2}+y^{2}-z^{2}}} \\, dz \\ ; \\ \\ \\\\ &amp; \\text{(2)} \\ u(x,y,z)=x^{y}y^{z}z^{x} \\text{的全微分} du=x^{y}y^{z}z^{x}\\left[ \\left( \\frac{y}{x}+\\ln x \\right) dx+\\left( \\frac{z}{y}+\\ln y \\right) dy+\\left( \\frac{x}{z}+\\ln z \\right) dz \\right] \\ ; \\ \\ \\\\ &amp; \\text{(3)} \\ z=3x^{2}y+\\frac{x}{y} \\text{的全微分} dz=\\left( 6xy+\\frac{1}{y} \\right) dx+\\left( 3x^{2}-\\frac{x}{y^{2}} \\right) dy \\ ; \\ \\ \\\\ &amp; \\text{(4)} \\ z=\\sin(x\\cos y) \\text{的全微分} dz=\\cos(x\\cos y)\\cos ydx-x\\sin y\\cos(x\\cos y)dy \\ ; \\ \\ \\\\ &amp; \\text{(5)} \\ u=x^{yz} \\text{的全微分} du=yzx^{yz-1}dx+zx^{yz}\\ln xdy+yx^{ya}\\ln xdz \\ . \\end{aligned}</div>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch113/q0010_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"3 \\text{个.}\">3 \\text{个.}</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch113/q0010_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"1 \\text{个};\">1 \\text{个};</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch113/q0010_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"4 \\text{个};\">4 \\text{个};</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch113/q0010_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"5 \\text{个};\">5 \\text{个};</span>"
         }
       ],
       "answer": "C",
       "answer_index": 2,
-      "analysis_html": "<img src=\"/static/generated/assets/advanced-math/ch113/q0010_analysis.png\"/>"
+      "analysis_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{aligned} \\textbf{(1)} u_{x}&amp;=\\frac{1}{\\sqrt[3]{-\\frac{z^{2}}{x^{2}+y^{2}}}}\\frac{(-xz)}{(x^{2}+y^{2})^{2}}=\\frac{-xz}{(x^{2}+y^{2})\\sqrt[3]{x^{2}+y^{2}-z^{2}}},\\ u_{y}=\\frac{-xz}{(x^{2}+y^{2})\\sqrt[3]{x^{2}+y^{2}-z^{2}}},\\\\ u_{z}&amp;=\\frac{1}{\\sqrt[3]{-\\frac{z^{2}}{x^{2}+y^{2}}}}\\frac{1}{(x^{2}+y^{2})^{2}}=\\frac{1}{\\sqrt[3]{x^{2}+y^{2}-z^{2}}},\\\\ \\text{故} du&amp;=\\frac{-xz}{(x^{2}+y^{2})\\sqrt[3]{x^{2}+y^{2}-z^{2}}}\\ d{x}+\\frac{-yz}{(x^{2}+y^{2})\\sqrt[3]{x^{2}+y^{2}-z^{2}}}\\ d{y}+\\frac{1}{\\sqrt{x^{2}+y^{2}-z^{2}}}\\ d{z}...\\\\ \\textbf{(2) 在} (x,y,z)=x^{y}y^{z}=\\text{两边取对数，得} \\\\ \\ln u&amp;=y\\ln x+z\\ln y+x\\ln z\\,,\\\\ \\text{两边求微分，得} \\\\ \\frac{du}{u}&amp;=\\ln x\\ d{y}+\\frac{y}{x}\\ d{x}+\\ln y\\ d{z}+\\frac{z}{y}\\ d{y}+\\ln z\\ d{x}+\\frac{x}{z}\\ d{z}...\\\\ &amp;=\\left(\\frac{y}{x}+\\ln z\\right)\\ d{x}+\\left(\\frac{z}{y}+\\ln x\\right)\\ d{y}+\\left(\\frac{x}{z}+\\ln y\\right)\\ d{z}\\,,\\\\ \\text{即} du&amp;=x^{y}y^{z}\\left[\\left(\\frac{y}{x}+\\ln z\\right)\\ d{x}+\\left(\\frac{z}{y}+\\ln x\\right)\\ d{y}+\\left(\\frac{x}{z}+\\ln y\\right)\\ d{z}\\right]\\,,\\\\ \\text{(3) }\\frac{\\partial z}{\\partial x}&amp;=6xy+\\frac{1}{y},\\ \\frac{\\partial z}{\\partial y}=3x^{2}-\\frac{x}{y^{2}}\\,,\\ \\text{于是} \\\\ dz&amp;=\\left(6xy+\\frac{1}{y}\\right)\\ d{x}+\\left(3x^{2}-\\frac{x}{y^{2}}\\right)\\ d{y}\\,,\\\\ \\text{(4) }z_{r}&amp;=\\cos(x\\cos y)\\cos y,z_{r}=\\left(-x\\sin y\\right)\\cos(x\\cos y)\\,,\\text{于是} \\\\ dz&amp;=\\cos(x\\cos y)\\cos ydz-x\\sin y\\cos(x\\cos y)\\ d{y}\\,,\\\\ \\text{(5) }\\frac{\\partial u}{\\partial x}&amp;=yz^{-m},\\ \\frac{\\partial u}{\\partial y}=zx^{m}\\ln x,\\ \\frac{\\partial u}{\\partial z}=yx^{m}\\ln x,\\ \\text{故} du=yzx^{m}dx+zx^{m}\\ln x\\ d{y}+yx^{m}\\ln x\\ d{z}\\,.\\end{aligned}\">\\begin{aligned} \\textbf{(1)} u_{x}&amp;=\\frac{1}{\\sqrt[3]{-\\frac{z^{2}}{x^{2}+y^{2}}}}\\frac{(-xz)}{(x^{2}+y^{2})^{2}}=\\frac{-xz}{(x^{2}+y^{2})\\sqrt[3]{x^{2}+y^{2}-z^{2}}},\\ u_{y}=\\frac{-xz}{(x^{2}+y^{2})\\sqrt[3]{x^{2}+y^{2}-z^{2}}},\\\\ u_{z}&amp;=\\frac{1}{\\sqrt[3]{-\\frac{z^{2}}{x^{2}+y^{2}}}}\\frac{1}{(x^{2}+y^{2})^{2}}=\\frac{1}{\\sqrt[3]{x^{2}+y^{2}-z^{2}}},\\\\ \\text{故} du&amp;=\\frac{-xz}{(x^{2}+y^{2})\\sqrt[3]{x^{2}+y^{2}-z^{2}}}\\ d{x}+\\frac{-yz}{(x^{2}+y^{2})\\sqrt[3]{x^{2}+y^{2}-z^{2}}}\\ d{y}+\\frac{1}{\\sqrt{x^{2}+y^{2}-z^{2}}}\\ d{z}...\\\\ \\textbf{(2) 在} (x,y,z)=x^{y}y^{z}=\\text{两边取对数，得} \\\\ \\ln u&amp;=y\\ln x+z\\ln y+x\\ln z\\,,\\\\ \\text{两边求微分，得} \\\\ \\frac{du}{u}&amp;=\\ln x\\ d{y}+\\frac{y}{x}\\ d{x}+\\ln y\\ d{z}+\\frac{z}{y}\\ d{y}+\\ln z\\ d{x}+\\frac{x}{z}\\ d{z}...\\\\ &amp;=\\left(\\frac{y}{x}+\\ln z\\right)\\ d{x}+\\left(\\frac{z}{y}+\\ln x\\right)\\ d{y}+\\left(\\frac{x}{z}+\\ln y\\right)\\ d{z}\\,,\\\\ \\text{即} du&amp;=x^{y}y^{z}\\left[\\left(\\frac{y}{x}+\\ln z\\right)\\ d{x}+\\left(\\frac{z}{y}+\\ln x\\right)\\ d{y}+\\left(\\frac{x}{z}+\\ln y\\right)\\ d{z}\\right]\\,,\\\\ \\text{(3) }\\frac{\\partial z}{\\partial x}&amp;=6xy+\\frac{1}{y},\\ \\frac{\\partial z}{\\partial y}=3x^{2}-\\frac{x}{y^{2}}\\,,\\ \\text{于是} \\\\ dz&amp;=\\left(6xy+\\frac{1}{y}\\right)\\ d{x}+\\left(3x^{2}-\\frac{x}{y^{2}}\\right)\\ d{y}\\,,\\\\ \\text{(4) }z_{r}&amp;=\\cos(x\\cos y)\\cos y,z_{r}=\\left(-x\\sin y\\right)\\cos(x\\cos y)\\,,\\text{于是} \\\\ dz&amp;=\\cos(x\\cos y)\\cos ydz-x\\sin y\\cos(x\\cos y)\\ d{y}\\,,\\\\ \\text{(5) }\\frac{\\partial u}{\\partial x}&amp;=yz^{-m},\\ \\frac{\\partial u}{\\partial y}=zx^{m}\\ln x,\\ \\frac{\\partial u}{\\partial z}=yx^{m}\\ln x,\\ \\text{故} du=yzx^{m}dx+zx^{m}\\ln x\\ d{y}+yx^{m}\\ln x\\ d{z}\\,.\\end{aligned}</div>"
     },
     {
       "id": "q0011",
       "number": 11,
       "header": "#11-Averge",
       "difficulty": "Averge",
-      "prompt_html": "<img src=\"/static/generated/assets/advanced-math/ch113/q0011_prompt.png\"/>",
+      "prompt_html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{设}u(x,y,z)=\\left(\\frac{x}{y}\\right)^{z},\\ \\text{则}du\\big{|}_{(1,2,3)}=(\\quad)_{e}\">\\text{设}u(x,y,z)=\\left(\\frac{x}{y}\\right)^{z},\\ \\text{则}du\\big{|}_{(1,2,3)}=(\\quad)_{e}</span>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch113/q0011_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\frac { 1 } { 2 } d x + \\frac { 1 } { 4 } d y - \\frac { 1 } { 8 } \\ln 2 d z \\; ;\">\\frac { 1 } { 2 } d x + \\frac { 1 } { 4 } d y - \\frac { 1 } { 8 } \\ln 2 d z \\; ;</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch113/q0011_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\frac { 3 } { 8 } d x - \\frac { 3 } { 16 } d y - \\frac { 1 } { 8 } \\ln 2 d z \\; ;\">\\frac { 3 } { 8 } d x - \\frac { 3 } { 16 } d y - \\frac { 1 } { 8 } \\ln 2 d z \\; ;</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch113/q0011_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\frac{3}{5}dx-\\frac{2}{7}dy+\\frac{1}{4}\\ln 3dz\\;;\">\\frac{3}{5}dx-\\frac{2}{7}dy+\\frac{1}{4}\\ln 3dz\\;;</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch113/q0011_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\frac{5}{16}dx + \\frac{3}{8}dy - \\frac{5}{8}\\ln 3dz\\,.\\leftarrow\">\\frac{5}{16}dx + \\frac{3}{8}dy - \\frac{5}{8}\\ln 3dz\\,.\\leftarrow</span>"
         }
       ],
       "answer": "B",
       "answer_index": 1,
-      "analysis_html": "<img src=\"/static/generated/assets/advanced-math/ch113/q0011_analysis.png\"/>"
+      "analysis_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{aligned} \\text{因为}u_x&amp;=z\\cdot \\frac{1}{y}\\cdot \\left(\\frac{x}{y}\\right)^{z-1}=\\frac{z}{y}\\left(\\frac{x}{y}\\right)^{z-1},\\ \\ u_y=z\\cdot \\left(-\\frac{x}{y^2}\\right)\\cdot \\left(\\frac{x}{y}\\right)^{z-1}=-\\frac{xz}{y^2}\\left(\\frac{x}{y}\\right)^{z-1},\\ \\ u_z=\\left(\\frac{x}{y}\\right)^z\\ln\\frac{x}{y},\\ \\text{所以} \\\\ du\\big|_{(1,2,3)}&amp;=\\frac{3}{8}dx-\\frac{3}{16}dy-\\frac{1}{8}\\ln 2\\,dz\\ .\\end{aligned}\">\\begin{aligned} \\text{因为}u_x&amp;=z\\cdot \\frac{1}{y}\\cdot \\left(\\frac{x}{y}\\right)^{z-1}=\\frac{z}{y}\\left(\\frac{x}{y}\\right)^{z-1},\\ \\ u_y=z\\cdot \\left(-\\frac{x}{y^2}\\right)\\cdot \\left(\\frac{x}{y}\\right)^{z-1}=-\\frac{xz}{y^2}\\left(\\frac{x}{y}\\right)^{z-1},\\ \\ u_z=\\left(\\frac{x}{y}\\right)^z\\ln\\frac{x}{y},\\ \\text{所以} \\\\ du\\big|_{(1,2,3)}&amp;=\\frac{3}{8}dx-\\frac{3}{16}dy-\\frac{1}{8}\\ln 2\\,dz\\ .\\end{aligned}</div>"
     },
     {
       "id": "q0012",
       "number": 12,
       "header": "#12-Averge",
       "difficulty": "Averge",
-      "prompt_html": "<img src=\"/static/generated/assets/advanced-math/ch113/q0012_prompt.png\"/>",
+      "prompt_html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{设函数}z=z(x,y)\\text{由方程} \\sqrt{x}+\\sqrt{y}+\\sqrt{z}=1\\text{所确定，则全微分}dz=(\\ \\ )。\">\\text{设函数}z=z(x,y)\\text{由方程} \\sqrt{x}+\\sqrt{y}+\\sqrt{z}=1\\text{所确定，则全微分}dz=(\\ \\ )。</span>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch113/q0012_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\sqrt { \\frac { y } { x } } d x - \\sqrt { \\frac { x } { y } } d y \\, ;\">\\sqrt { \\frac { y } { x } } d x - \\sqrt { \\frac { x } { y } } d y \\, ;</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch113/q0012_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\sqrt { \\frac { x } { z } } d x + \\sqrt { \\frac { y } { z } } d y \\, .\">\\sqrt { \\frac { x } { z } } d x + \\sqrt { \\frac { y } { z } } d y \\, .</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch113/q0012_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\begin{aligned}-\\left(\\sqrt{\\frac{z}{x}}dx+\\sqrt{\\frac{z}{y}}dy\\right);\\end{aligned}\">\\begin{aligned}-\\left(\\sqrt{\\frac{z}{x}}dx+\\sqrt{\\frac{z}{y}}dy\\right);\\end{aligned}</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch113/q0012_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\sqrt { \\frac { z } { x } } d y - \\sqrt { \\frac { z } { y } } d x \\, ;\">\\sqrt { \\frac { z } { x } } d y - \\sqrt { \\frac { z } { y } } d x \\, ;</span>"
         }
       ],
       "answer": "C",
       "answer_index": 2,
-      "analysis_html": "<img src=\"/static/generated/assets/advanced-math/ch113/q0012_analysis.png\"/>"
+      "analysis_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{aligned}&amp; \\text{因为} \\frac{1}{2}x^{-\\frac{1}{2}}+\\frac{1}{2}z^{-\\frac{1}{2}}z_{x}=0\\,,\\ \\ \\frac{1}{2}y^{-\\frac{1}{2}}+\\frac{1}{2}z^{-\\frac{1}{2}}z_{x}=0\\,,\\ \\text{所以}z_{x}=-\\sqrt{\\frac{z}{x}}\\,,\\ \\ z_{y}=-\\sqrt{\\frac{z}{y}}\\,,\\ \\ \\text{}\\\\&amp; \\text{则全微分}dz=-\\left(\\sqrt{\\frac{z}{x}}dx+\\sqrt{\\frac{z}{y}}dy\\right).\\end{aligned}\">\\begin{aligned}&amp; \\text{因为} \\frac{1}{2}x^{-\\frac{1}{2}}+\\frac{1}{2}z^{-\\frac{1}{2}}z_{x}=0\\,,\\ \\ \\frac{1}{2}y^{-\\frac{1}{2}}+\\frac{1}{2}z^{-\\frac{1}{2}}z_{x}=0\\,,\\ \\text{所以}z_{x}=-\\sqrt{\\frac{z}{x}}\\,,\\ \\ z_{y}=-\\sqrt{\\frac{z}{y}}\\,,\\ \\ \\text{}\\\\&amp; \\text{则全微分}dz=-\\left(\\sqrt{\\frac{z}{x}}dx+\\sqrt{\\frac{z}{y}}dy\\right).\\end{aligned}</div>"
     },
     {
       "id": "q0013",
       "number": 13,
       "header": "#13-Averge",
       "difficulty": "Averge",
-      "prompt_html": "<img src=\"/static/generated/assets/advanced-math/ch113/q0013_prompt.png\"/>",
+      "prompt_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\text{设}f(x,y)=\\begin{cases}\\dfrac{\\sqrt{|xy|}}{x^{2}+y^{2}}\\sin(x^{2}+y^{2}),x^{2}+y^{2}\\neq 0\\\\ 0\\qquad\\qquad,x^{2}+y^{2}=0\\end{cases},\\text{则下列命题中正确的有( )。}\">\\text{设}f(x,y)=\\begin{cases}\\dfrac{\\sqrt{|xy|}}{x^{2}+y^{2}}\\sin(x^{2}+y^{2}),x^{2}+y^{2}\\neq 0\\\\ 0\\qquad\\qquad,x^{2}+y^{2}=0\\end{cases},\\text{则下列命题中正确的有( )。}</div>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch113/q0013_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"3 \\text{个};\">3 \\text{个};</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch113/q0013_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"0 \\text{ 个};\">0 \\text{ 个};</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch113/q0013_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"2 \\text{个}.\">2 \\text{个}.</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch113/q0013_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"1 \\text{个};\">1 \\text{个};</span>"
         }
       ],
       "answer": "C",
       "answer_index": 2,
-      "analysis_html": "<img src=\"/static/generated/assets/advanced-math/ch113/q0013_analysis.png\"/>"
+      "analysis_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{array}{l}f_{x}^{\\prime}(0,0)=\\lim\\limits_{\\Delta x\\rightarrow 0}\\frac{f(0+\\Delta x,0)-f(0,0)}{\\Delta x}=0\\;,\\;f_{y}^{\\prime}(0,0)=\\lim\\limits_{\\Delta y\\rightarrow 0}\\frac{f(0,0+\\Delta y)-f(0,0)}{\\Delta y}=0\\;. \\\\ \\\\ \\text{记}\\;\\;\\alpha=\\Delta z-f_{x}^{\\prime}(0,0)\\Delta x-f_{y}^{\\prime}(0,0)\\Delta y=f(x,y)=\\frac{\\sqrt{|\\,\\Delta x\\Delta y\\,|}}{\\left(\\Delta x\\right)^{2}+\\left(\\Delta y\\right)^{2}}\\sin((\\Delta x)^{2}+(\\Delta y)^{2})\\;,\\;\\\\ \\\\ \\text{有}\\lim\\limits_{\\substack{\\rho\\rightarrow 0\\\\ \\Delta x=\\Delta y}}\\frac{\\alpha}{\\rho}=\\lim\\limits_{\\Delta x\\rightarrow 0}\\frac{\\sqrt{\\left(\\Delta x\\right)^{2}}}{\\sqrt{2\\left(\\Delta x\\right)^{2}}}\\frac{\\sin 2\\left(\\Delta x\\right)^{2}}{2\\left(\\Delta x\\right)^{2}}=\\frac{1}{\\sqrt{2}}\\neq 0\\;,\\;\\text{因此}f(x,y)\\text{在}(0,0)\\text{处不可微}. \\end{array}\">\\begin{array}{l}f_{x}^{\\prime}(0,0)=\\lim\\limits_{\\Delta x\\rightarrow 0}\\frac{f(0+\\Delta x,0)-f(0,0)}{\\Delta x}=0\\;,\\;f_{y}^{\\prime}(0,0)=\\lim\\limits_{\\Delta y\\rightarrow 0}\\frac{f(0,0+\\Delta y)-f(0,0)}{\\Delta y}=0\\;. \\\\ \\\\ \\text{记}\\;\\;\\alpha=\\Delta z-f_{x}^{\\prime}(0,0)\\Delta x-f_{y}^{\\prime}(0,0)\\Delta y=f(x,y)=\\frac{\\sqrt{|\\,\\Delta x\\Delta y\\,|}}{\\left(\\Delta x\\right)^{2}+\\left(\\Delta y\\right)^{2}}\\sin((\\Delta x)^{2}+(\\Delta y)^{2})\\;,\\;\\\\ \\\\ \\text{有}\\lim\\limits_{\\substack{\\rho\\rightarrow 0\\\\ \\Delta x=\\Delta y}}\\frac{\\alpha}{\\rho}=\\lim\\limits_{\\Delta x\\rightarrow 0}\\frac{\\sqrt{\\left(\\Delta x\\right)^{2}}}{\\sqrt{2\\left(\\Delta x\\right)^{2}}}\\frac{\\sin 2\\left(\\Delta x\\right)^{2}}{2\\left(\\Delta x\\right)^{2}}=\\frac{1}{\\sqrt{2}}\\neq 0\\;,\\;\\text{因此}f(x,y)\\text{在}(0,0)\\text{处不可微}. \\end{array}</div>"
     },
     {
       "id": "q0014",
       "number": 14,
       "header": "#14-Averge",
       "difficulty": "Averge",
-      "prompt_html": "<img src=\"/static/generated/assets/advanced-math/ch113/q0014_prompt.png\"/>",
+      "prompt_html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{二元函数}f(x,y)\\text{在点}(x_{0},y_{0})\\text{可微是}f(x,y)\\text{在该点两个偏导数都存在的}(\\quad).\">\\text{二元函数}f(x,y)\\text{在点}(x_{0},y_{0})\\text{可微是}f(x,y)\\text{在该点两个偏导数都存在的}(\\quad).</span>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch113/q0014_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{既非充分也非必要条件};\">\\text{既非充分也非必要条件};</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch113/q0014_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{必要条件而非充分条件}.\">\\text{必要条件而非充分条件}.</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch113/q0014_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{充分条件而非必要条件};\">\\text{充分条件而非必要条件};</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch113/q0014_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{充分必要条件};\">\\text{充分必要条件};</span>"
         }
       ],
       "answer": "C",
       "answer_index": 2,
-      "analysis_html": "<img src=\"/static/generated/assets/advanced-math/ch113/q0014_analysis.png\"/>"
+      "analysis_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{array}{l} \\text {函数可微偏导数一定存在，反之未必.例如。} \\\\ f (x, y) = \\{ \\begin{array}{ll} \\dfrac {x y}{\\sqrt {x ^ {2} + y ^ {2}}}, &amp; x ^ {2} + y ^ {2} \\neq 0 \\\\ 0, &amp; x ^ {2} + y ^ {2} \\neq 0 \\end{array} \\end{array}\">\\begin{array}{l} \\text {函数可微偏导数一定存在，反之未必.例如。} \\\\ f (x, y) = \\{ \\begin{array}{ll} \\dfrac {x y}{\\sqrt {x ^ {2} + y ^ {2}}}, &amp; x ^ {2} + y ^ {2} \\neq 0 \\\\ 0, &amp; x ^ {2} + y ^ {2} \\neq 0 \\end{array} \\end{array}</div>"
     },
     {
       "id": "q0015",
       "number": 15,
       "header": "#15-Averge",
       "difficulty": "Averge",
-      "prompt_html": "<img src=\"/static/generated/assets/advanced-math/ch113/q0015_prompt.png\"/>",
+      "prompt_html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\ f _ { x } ( x , y ) \\, , f _ { y } ( x , y ) \\text {连续是} z = f ( x , y ) \\text{可微分的} ( \\quad ) \\text{条件}\\text{.}\">\\ f _ { x } ( x , y ) \\, , f _ { y } ( x , y ) \\text {连续是} z = f ( x , y ) \\text{可微分的} ( \\quad ) \\text{条件}\\text{.}</span>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch113/q0015_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{充要};\">\\text{充要};</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch113/q0015_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{无关};\">\\text{无关};</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch113/q0015_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{必要}. \\leftarrow\">\\text{必要}. \\leftarrow</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch113/q0015_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{充分};\">\\text{充分};</span>"
         }
       ],
       "answer": "D",
       "answer_index": 3,
-      "analysis_html": "<img src=\"/static/generated/assets/advanced-math/ch113/q0015_analysis.png\"/>"
+      "analysis_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{aligned}f(x,y)=\\begin{cases}(x^2+y^2)\\sin\\frac{1}{\\sqrt{x^2+y^2}},&amp;x^2+y^2\\neq 0\\\\0,&amp;x^2+y^2\\neq 0\\end{cases}.\\end{aligned}\">\\begin{aligned}f(x,y)=\\begin{cases}(x^2+y^2)\\sin\\frac{1}{\\sqrt{x^2+y^2}},&amp;x^2+y^2\\neq 0\\\\0,&amp;x^2+y^2\\neq 0\\end{cases}.\\end{aligned}</div>"
     },
     {
       "id": "q0016",
       "number": 16,
       "header": "#16-Averge",
       "difficulty": "Averge",
-      "prompt_html": "<img src=\"/static/generated/assets/advanced-math/ch113/q0016_prompt.png\"/>",
+      "prompt_html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{设 } f(x,y,z)=\\sqrt[3]{\\frac{x}{y}}\\ ,\\ \\text{则 } df\\big{|}_{(1,1,1)}=(\\quad).\">\\text{设 } f(x,y,z)=\\sqrt[3]{\\frac{x}{y}}\\ ,\\ \\text{则 } df\\big{|}_{(1,1,1)}=(\\quad).</span>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch113/q0016_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"dx - dy + dz\\,;\">dx - dy + dz\\,;</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch113/q0016_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"dx + dy - dz \\, . \\leftarrow\">dx + dy - dz \\, . \\leftarrow</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch113/q0016_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"dx - dy\\;;\">dx - dy\\;;</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch113/q0016_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"dy - dz\\,;\">dy - dz\\,;</span>"
         }
       ],
       "answer": "C",
       "answer_index": 2,
-      "analysis_html": "<img src=\"/static/generated/assets/advanced-math/ch113/q0016_analysis.png\"/>"
+      "analysis_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{aligned}f_{x} &amp; = \\frac{1}{z} \\left( \\frac{x}{y} \\right)^{\\frac{1}{z}-1} \\frac{1}{y} \\, , \\;\\; f_{y} = \\frac{1}{z} \\left( \\frac{x}{y} \\right)^{\\frac{1}{z}-1} \\left( -\\frac{x}{y^{2}} \\right) \\, , \\;\\; f_{x} = \\left( \\frac{x}{y} \\right)^{\\frac{1}{z}} \\left( -\\frac{1}{z^{2}} \\right) \\ln \\frac{x}{y} \\, , \\;\\; \\omega \\\\ \\text{于是} \\; &amp; df \\Big|_{(1,1,1)} = dx - dy \\, . \\omega \\end{aligned}\">\\begin{aligned}f_{x} &amp; = \\frac{1}{z} \\left( \\frac{x}{y} \\right)^{\\frac{1}{z}-1} \\frac{1}{y} \\, , \\;\\; f_{y} = \\frac{1}{z} \\left( \\frac{x}{y} \\right)^{\\frac{1}{z}-1} \\left( -\\frac{x}{y^{2}} \\right) \\, , \\;\\; f_{x} = \\left( \\frac{x}{y} \\right)^{\\frac{1}{z}} \\left( -\\frac{1}{z^{2}} \\right) \\ln \\frac{x}{y} \\, , \\;\\; \\omega \\\\ \\text{于是} \\; &amp; df \\Big|_{(1,1,1)} = dx - dy \\, . \\omega \\end{aligned}</div>"
     },
     {
       "id": "q0017",
       "number": 17,
       "header": "#17-Averge",
       "difficulty": "Averge",
-      "prompt_html": "<img src=\"/static/generated/assets/advanced-math/ch113/q0017_prompt.png\"/>",
+      "prompt_html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{设}z=x^{3}y^{2}-x^{2}-e^{y},\\text{则全微分}dz=(\\quad).\">\\text{设}z=x^{3}y^{2}-x^{2}-e^{y},\\text{则全微分}dz=(\\quad).</span>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch113/q0017_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\cdot (3 x^{2} y^{2}+2 x) dx+(2 x^{2} y^{2}+e^{y}) dy\\,;\">\\cdot (3 x^{2} y^{2}+2 x) dx+(2 x^{2} y^{2}+e^{y}) dy\\,;</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch113/q0017_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"(x^{3}y-2x)dx+(2x^{2}y^{2}-e^{y})dy\\,;\">(x^{3}y-2x)dx+(2x^{2}y^{2}-e^{y})dy\\,;</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch113/q0017_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"(6xy^{2}-2x)dx-(6x^{2}y-e^{y})dy\\,;\">(6xy^{2}-2x)dx-(6x^{2}y-e^{y})dy\\,;</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch113/q0017_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"(3 x ^ { 2 } y ^ { 2 } - 2 x ) d x + ( 2 x ^ { 3 } y - e ^ { y } ) d y \\, .\">(3 x ^ { 2 } y ^ { 2 } - 2 x ) d x + ( 2 x ^ { 3 } y - e ^ { y } ) d y \\, .</span>"
         }
       ],
       "answer": "D",
       "answer_index": 3,
-      "analysis_html": "<img src=\"/static/generated/assets/advanced-math/ch113/q0017_analysis.png\"/>"
+      "analysis_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{aligned}&amp;z_x=3x^2y^2-2x\\,,\\,\\,z_y=2x^3y-e^y\\,,\\\\&amp;\\text{则}dz=(3x^2y^2-2x)dx+(2x^3y-e^y)dy\\,.\\end{aligned}\">\\begin{aligned}&amp;z_x=3x^2y^2-2x\\,,\\,\\,z_y=2x^3y-e^y\\,,\\\\&amp;\\text{则}dz=(3x^2y^2-2x)dx+(2x^3y-e^y)dy\\,.\\end{aligned}</div>"
     },
     {
       "id": "q0018",
       "number": 18,
       "header": "#18-Averge",
       "difficulty": "Averge",
-      "prompt_html": "<img src=\"/static/generated/assets/advanced-math/ch113/q0018_prompt.png\"/>",
+      "prompt_html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{设}z=\\frac{x}{y},x=ct,y=\\ln t，\\text{则全导数}\\frac{dz}{dt}=(\\ \\ \\ \\ )。\">\\text{设}z=\\frac{x}{y},x=ct,y=\\ln t，\\text{则全导数}\\frac{dz}{dt}=(\\ \\ \\ \\ )。</span>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch113/q0018_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\frac { c } { \\ln ^ { 2 } t } ( 2 \\ln t + 1 ) \\, ;\">\\frac { c } { \\ln ^ { 2 } t } ( 2 \\ln t + 1 ) \\, ;</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch113/q0018_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\frac {c}{\\ln^ {2} t} (\\ln t - 1) \\, . \\Leftrightarrow\">\\frac {c}{\\ln^ {2} t} (\\ln t - 1) \\, . \\Leftrightarrow</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch113/q0018_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\frac { c } { \\ln t } ( \\ln t - 1 ) ^ { 2 } \\, ;\">\\frac { c } { \\ln t } ( \\ln t - 1 ) ^ { 2 } \\, ;</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch113/q0018_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\frac { c } { \\ln t + 1 } ( \\ln t - 1 ) \\, ;\">\\frac { c } { \\ln t + 1 } ( \\ln t - 1 ) \\, ;</span>"
         }
       ],
       "answer": "B",
       "answer_index": 1,
-      "analysis_html": "<img src=\"/static/generated/assets/advanced-math/ch113/q0018_analysis.png\"/>"
+      "analysis_html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\frac { d z } { d t } = \\frac { \\partial z } { \\partial x } \\frac { d x } { d t } + \\frac { \\partial z } { \\partial y } \\frac { d y } { d t } = \\frac { 1 } { y } \\cdot c - \\frac { x } { y ^ { 2 } } \\cdot \\frac { 1 } { t } = \\frac { c } { \\ln t } - \\frac { c } { \\ln ^ { 2 } t } \\, . \\, ^ { e }\">\\frac { d z } { d t } = \\frac { \\partial z } { \\partial x } \\frac { d x } { d t } + \\frac { \\partial z } { \\partial y } \\frac { d y } { d t } = \\frac { 1 } { y } \\cdot c - \\frac { x } { y ^ { 2 } } \\cdot \\frac { 1 } { t } = \\frac { c } { \\ln t } - \\frac { c } { \\ln ^ { 2 } t } \\, . \\, ^ { e }</span>"
     }
-  ]
+  ],
+  "format": "latex",
+  "source_md": "gs/7.3.2_全微分的充分条件和必要条件(18题)/7.3.2_全微分的充分条件和必要条件(18题).md"
 }

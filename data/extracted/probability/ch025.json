@@ -13,224 +13,226 @@
       "number": 1,
       "header": "#1-Hard",
       "difficulty": "Hard",
-      "prompt_html": "<img src=\"/static/generated/assets/probability/ch025/q0001_prompt.png\"/>",
+      "prompt_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{array}{l} \\text {一实习生用同一台机器接连独立地制造} 3 \\text {个同种零件，第} i \\text {个零件是不合格的概率} p_{i} = \\frac{1}{i+1} \\ (i=1,2,3), \\text {以} X \\text {表示} \\\\ 3 \\text {个零件中合格品的个数，则} P\\{X=2\\} =() . \\end{array}\">\\begin{array}{l} \\text {一实习生用同一台机器接连独立地制造} 3 \\text {个同种零件，第} i \\text {个零件是不合格的概率} p_{i} = \\frac{1}{i+1} \\ (i=1,2,3), \\text {以} X \\text {表示} \\\\ 3 \\text {个零件中合格品的个数，则} P\\{X=2\\} =() . \\end{array}</div>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/probability/ch025/q0001_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\frac { 11 } { 24 }\">\\frac { 11 } { 24 }</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/probability/ch025/q0001_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\frac { 1 } { 24 }\">\\frac { 1 } { 24 }</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/probability/ch025/q0001_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\frac { 1 } { 4 }\">\\frac { 1 } { 4 }</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/probability/ch025/q0001_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\frac { 13 } { 24 }\">\\frac { 13 } { 24 }</span>"
         }
       ],
       "answer": "A",
       "answer_index": 0,
-      "analysis_html": "<img src=\"/static/generated/assets/probability/ch025/q0001_analysis.png\"/>"
+      "analysis_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{aligned} \\text{设 } A_i(i=1,2,3) \\text{分别表示第 } i \\text{个产品合格，则} \\\\ P\\{\\overline{A_1}\\}&amp;=\\frac{1}{2},\\ P\\{\\overline{A_2}\\}&amp;=\\frac{1}{3},\\ P\\{\\overline{A_3}\\}&amp;=\\frac{1}{4}. \\\\ \\text{又 3个零件的独立制造的，所以 } \\lambda \\text{的分布律为} \\\\ P\\{X=0\\}&amp;=P\\{\\overline{A_1}\\overline{A_2}\\overline{A_3}\\}=P\\{\\overline{A_1}\\}P\\{\\overline{A_2}\\}P\\{\\overline{A_3}\\}=\\frac{1}{2}\\frac{1}{3}\\frac{1}{4}=\\frac{1}{24}, \\\\ P\\{X=1\\}&amp;=P\\{(\\overline{A_1}\\overline{A_2}\\overline{A_3})\\cup(\\overline{A_1}\\overline{A_2}\\overline{A_3})\\cup(\\overline{A_1}\\overline{A_2}A_3\\}&amp;=P\\{A_1\\overline{A_2}A_3\\}+P\\{\\overline{A_1}\\overline{A_2}A_3\\}+P\\{\\overline{A_1}\\overline{A_2}A_3\\}&amp;=P\\{A_1\\}P\\{\\overline{A_3}\\}+P\\{\\overline{A_1}\\}P\\{\\overline{A_2}\\}P\\{A_3\\}=\\frac{6}{24}, \\\\ P\\{X=2\\}&amp;=P\\{(\\overline{A_1}A_2A_3)\\cup(\\overline{A_1}\\overline{A_2}A_3)\\cup(\\overline{A_1}A_2\\overline{A_3}\\}&amp;=P\\{(\\overline{A_1}A_2A_3\\}+P\\{(\\overline{A_1}A_2A_3\\}+P\\{(\\overline{A_1}A_2\\overline{A_3}\\})&amp;=P\\{\\overline{A_1}\\}P\\{A_2\\}P\\{A_3\\}+P\\{\\overline{A_1}\\}P\\{\\overline{A_2}\\}P\\{A_3\\}+P\\{A_1\\}P\\{A_2\\}P\\{\\overline{A_3}\\}=\\frac{11}{24}, \\\\ P\\{X=3\\}&amp;=P\\{A_1A_2A_3\\}=P\\{A_1\\}P\\{A_2\\}P\\{A_3\\}=\\frac{6}{24}. \\end{aligned}\">\\begin{aligned} \\text{设 } A_i(i=1,2,3) \\text{分别表示第 } i \\text{个产品合格，则} \\\\ P\\{\\overline{A_1}\\}&amp;=\\frac{1}{2},\\ P\\{\\overline{A_2}\\}&amp;=\\frac{1}{3},\\ P\\{\\overline{A_3}\\}&amp;=\\frac{1}{4}. \\\\ \\text{又 3个零件的独立制造的，所以 } \\lambda \\text{的分布律为} \\\\ P\\{X=0\\}&amp;=P\\{\\overline{A_1}\\overline{A_2}\\overline{A_3}\\}=P\\{\\overline{A_1}\\}P\\{\\overline{A_2}\\}P\\{\\overline{A_3}\\}=\\frac{1}{2}\\frac{1}{3}\\frac{1}{4}=\\frac{1}{24}, \\\\ P\\{X=1\\}&amp;=P\\{(\\overline{A_1}\\overline{A_2}\\overline{A_3})\\cup(\\overline{A_1}\\overline{A_2}\\overline{A_3})\\cup(\\overline{A_1}\\overline{A_2}A_3\\}&amp;=P\\{A_1\\overline{A_2}A_3\\}+P\\{\\overline{A_1}\\overline{A_2}A_3\\}+P\\{\\overline{A_1}\\overline{A_2}A_3\\}&amp;=P\\{A_1\\}P\\{\\overline{A_3}\\}+P\\{\\overline{A_1}\\}P\\{\\overline{A_2}\\}P\\{A_3\\}=\\frac{6}{24}, \\\\ P\\{X=2\\}&amp;=P\\{(\\overline{A_1}A_2A_3)\\cup(\\overline{A_1}\\overline{A_2}A_3)\\cup(\\overline{A_1}A_2\\overline{A_3}\\}&amp;=P\\{(\\overline{A_1}A_2A_3\\}+P\\{(\\overline{A_1}A_2A_3\\}+P\\{(\\overline{A_1}A_2\\overline{A_3}\\})&amp;=P\\{\\overline{A_1}\\}P\\{A_2\\}P\\{A_3\\}+P\\{\\overline{A_1}\\}P\\{\\overline{A_2}\\}P\\{A_3\\}+P\\{A_1\\}P\\{A_2\\}P\\{\\overline{A_3}\\}=\\frac{11}{24}, \\\\ P\\{X=3\\}&amp;=P\\{A_1A_2A_3\\}=P\\{A_1\\}P\\{A_2\\}P\\{A_3\\}=\\frac{6}{24}. \\end{aligned}</div>"
     },
     {
       "id": "q0002",
       "number": 2,
       "header": "#2-Averge",
       "difficulty": "Averge",
-      "prompt_html": "<img src=\"/static/generated/assets/probability/ch025/q0002_prompt.png\"/>",
+      "prompt_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{array}{|c|c|c|c|} \\hline X &amp; 0 &amp; 1 &amp; 2 \\\\ \\hline p &amp; 1/3 &amp; 1/6 &amp; 1/2 \\\\ \\hline \\end{array},\\text{则}P\\left\\{X\\leq \\frac{1}{2}\\right\\},\\ P\\left\\{1&lt;X\\leq \\frac{3}{2}\\right\\},\\ P\\left\\{1\\leq X\\leq \\frac{3}{2}\\right\\} \\text{的值分别为}（）。\">\\begin{array}{|c|c|c|c|} \\hline X &amp; 0 &amp; 1 &amp; 2 \\\\ \\hline p &amp; 1/3 &amp; 1/6 &amp; 1/2 \\\\ \\hline \\end{array},\\text{则}P\\left\\{X\\leq \\frac{1}{2}\\right\\},\\ P\\left\\{1&lt;X\\leq \\frac{3}{2}\\right\\},\\ P\\left\\{1\\leq X\\leq \\frac{3}{2}\\right\\} \\text{的值分别为}（）。</div>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/probability/ch025/q0002_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\frac { 1 } { 2 } , \\ 0 , \\ \\frac { 1 } { 6 }\">\\frac { 1 } { 2 } , \\ 0 , \\ \\frac { 1 } { 6 }</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/probability/ch025/q0002_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\frac { 1 } { 3 } , \\ \\frac { 1 } { 2 } , \\ \\frac { 1 } { 6 }\">\\frac { 1 } { 3 } , \\ \\frac { 1 } { 2 } , \\ \\frac { 1 } { 6 }</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/probability/ch025/q0002_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\frac {1}{3}, \\ 0, \\ \\frac {1}{2}\">\\frac {1}{3}, \\ 0, \\ \\frac {1}{2}</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/probability/ch025/q0002_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\frac {1}{3}, \\ 0, \\ \\frac {1}{6}\">\\frac {1}{3}, \\ 0, \\ \\frac {1}{6}</span>"
         }
       ],
       "answer": "D",
       "answer_index": 3,
-      "analysis_html": "<img src=\"/static/generated/assets/probability/ch025/q0002_analysis.png\"/>"
+      "analysis_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{aligned}(1) &amp; P\\left\\{ X \\leq \\frac{1}{2} \\right\\} = P\\{X=0\\} = \\frac{1}{3}\\,; 2) &amp; P\\left\\{ 1 &lt; X \\leq \\frac{3}{2} \\right\\} = F\\left( \\frac{3}{2} \\right) - F(1) = \\frac{1}{2} - \\frac{1}{2} = 0.\\text{或者，由}\\left(1,\\frac{3}{2}\\right]\\text{中未包含}X\\text{的可能值，得}P\\left\\{ 1 &lt; X \\leq \\frac{3}{2} \\right\\} = \\\\P(\\emptyset) &amp;= 0\\,; 3) &amp; P\\left\\{ 1 \\leq X \\leq \\frac{3}{2} \\right\\} = P\\{X=1\\} = \\frac{1}{6}\\,.\\end{aligned}\">\\begin{aligned}(1) &amp; P\\left\\{ X \\leq \\frac{1}{2} \\right\\} = P\\{X=0\\} = \\frac{1}{3}\\,; 2) &amp; P\\left\\{ 1 &lt; X \\leq \\frac{3}{2} \\right\\} = F\\left( \\frac{3}{2} \\right) - F(1) = \\frac{1}{2} - \\frac{1}{2} = 0.\\text{或者，由}\\left(1,\\frac{3}{2}\\right]\\text{中未包含}X\\text{的可能值，得}P\\left\\{ 1 &lt; X \\leq \\frac{3}{2} \\right\\} = \\\\P(\\emptyset) &amp;= 0\\,; 3) &amp; P\\left\\{ 1 \\leq X \\leq \\frac{3}{2} \\right\\} = P\\{X=1\\} = \\frac{1}{6}\\,.\\end{aligned}</div>"
     },
     {
       "id": "q0003",
       "number": 3,
       "header": "#3-Averge",
       "difficulty": "Averge",
-      "prompt_html": "<img src=\"/static/generated/assets/probability/ch025/q0003_prompt.png\"/>",
+      "prompt_html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{已知离散型随机变量} \\xi \\text{的分布列为} P\\{\\xi=k\\} = \\frac{k+1}{20},\\ k=1,2,3,4,5, \\text{则概率} P\\{1&lt;\\xi \\leq 4\\} = (\\text{}).\">\\text{已知离散型随机变量} \\xi \\text{的分布列为} P\\{\\xi=k\\} = \\frac{k+1}{20},\\ k=1,2,3,4,5, \\text{则概率} P\\{1&lt;\\xi \\leq 4\\} = (\\text{}).</span>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/probability/ch025/q0003_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\frac { 3 } { 4 }\">\\frac { 3 } { 4 }</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/probability/ch025/q0003_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\frac { 2 } { 5 }\">\\frac { 2 } { 5 }</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/probability/ch025/q0003_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\frac { 1 } { 2 }\">\\frac { 1 } { 2 }</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/probability/ch025/q0003_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\frac { 3 } { 5 }\">\\frac { 3 } { 5 }</span>"
         }
       ],
       "answer": "D",
       "answer_index": 3,
-      "analysis_html": "<img src=\"/static/generated/assets/probability/ch025/q0003_analysis.png\"/>"
+      "analysis_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{aligned}&amp;\\text{分布律在区间上的概率计算为} \\; P\\{a \\leq X \\leq b\\} = \\sum_{k \\in [a,b]} P\\{X = k\\}\\,, \\\\&amp;\\text{即} \\; P\\{1 &lt; \\xi \\leq 4\\} = \\sum_{k \\in (1,4]} P\\{\\xi = k\\} \\\\&amp;= P\\{\\xi = 2\\} + P\\{\\xi = 3\\} + P\\{\\xi = 4\\} = \\frac{3}{2}.\\end{aligned}\">\\begin{aligned}&amp;\\text{分布律在区间上的概率计算为} \\; P\\{a \\leq X \\leq b\\} = \\sum_{k \\in [a,b]} P\\{X = k\\}\\,, \\\\&amp;\\text{即} \\; P\\{1 &lt; \\xi \\leq 4\\} = \\sum_{k \\in (1,4]} P\\{\\xi = k\\} \\\\&amp;= P\\{\\xi = 2\\} + P\\{\\xi = 3\\} + P\\{\\xi = 4\\} = \\frac{3}{2}.\\end{aligned}</div>"
     },
     {
       "id": "q0004",
       "number": 4,
       "header": "#4-Averge",
       "difficulty": "Averge",
-      "prompt_html": "<img src=\"/static/generated/assets/probability/ch025/q0004_prompt.png\"/>",
+      "prompt_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{aligned} \\text{某加油站替出租车公司代营出租汽车业务，每出租一辆汽车，可从出租公司得到3元.因代营业务，每天加油站要多付给职工服务费60元，设每天出租汽车数X是一个随机变量，它的概率分布如下：} \\\\ \\begin{bmatrix} X &amp; 10 &amp; 20 &amp; 30 &amp; 40 \\\\ p_i &amp; 0.15 &amp; 0.25 &amp; 0.45 &amp; 0.15 \\end{bmatrix} \\\\ \\text{则因代营业务得到的收入大于当天的额外支出费用的概率为()。} \\end{aligned}\">\\begin{aligned} \\text{某加油站替出租车公司代营出租汽车业务，每出租一辆汽车，可从出租公司得到3元.因代营业务，每天加油站要多付给职工服务费60元，设每天出租汽车数X是一个随机变量，它的概率分布如下：} \\\\ \\begin{bmatrix} X &amp; 10 &amp; 20 &amp; 30 &amp; 40 \\\\ p_i &amp; 0.15 &amp; 0.25 &amp; 0.45 &amp; 0.15 \\end{bmatrix} \\\\ \\text{则因代营业务得到的收入大于当天的额外支出费用的概率为()。} \\end{aligned}</div>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/probability/ch025/q0004_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"0.4\">0.4</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/probability/ch025/q0004_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"0.3\">0.3</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/probability/ch025/q0004_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"0.5\">0.5</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/probability/ch025/q0004_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"0.6\">0.6</span>"
         }
       ],
       "answer": "D",
       "answer_index": 3,
-      "analysis_html": "<img src=\"/static/generated/assets/probability/ch025/q0004_analysis.png\"/>"
+      "analysis_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{aligned} \\text{因代营业务得到的收入大于当天的额外支出费用的概率为} P\\{3X&gt;60\\}, \\text{即} P\\{X&gt;20\\}. \\\\ P\\{X&gt;20\\} = P\\{X=30\\} + P\\{X=40\\} = 0.6. \\end{aligned} \\text{故加油站因代营业务得到的收入大于当天的额外支出费用的概率为}0.6.\">\\begin{aligned} \\text{因代营业务得到的收入大于当天的额外支出费用的概率为} P\\{3X&gt;60\\}, \\text{即} P\\{X&gt;20\\}. \\\\ P\\{X&gt;20\\} = P\\{X=30\\} + P\\{X=40\\} = 0.6. \\end{aligned} \\text{故加油站因代营业务得到的收入大于当天的额外支出费用的概率为}0.6.</div>"
     },
     {
       "id": "q0005",
       "number": 5,
       "header": "#5-Averge",
       "difficulty": "Averge",
-      "prompt_html": "<img src=\"/static/generated/assets/probability/ch025/q0005_prompt.png\"/>",
+      "prompt_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{array}{l} \\text {已知离散随机变量的分布律}p_{i} = P\\{X = i\\} = \\frac{i + 2}{14},\\ i = 0,1,2,3.\\ \\text {则}P\\{X &gt; 2\\},\\ P\\left\\{1 \\leq X &lt; \\frac{3}{2}\\right\\},\\ P\\left\\{\\frac{1}{2} &lt; X &lt; 2\\right\\} \\text {的值分别为（）.} \\end{array}\">\\begin{array}{l} \\text {已知离散随机变量的分布律}p_{i} = P\\{X = i\\} = \\frac{i + 2}{14},\\ i = 0,1,2,3.\\ \\text {则}P\\{X &gt; 2\\},\\ P\\left\\{1 \\leq X &lt; \\frac{3}{2}\\right\\},\\ P\\left\\{\\frac{1}{2} &lt; X &lt; 2\\right\\} \\text {的值分别为（）.} \\end{array}</div>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/probability/ch025/q0005_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\frac { 5 } { 14 } \\, , \\; \\frac { 3 } { 14 } \\, , \\; \\frac { 3 } { 14 }\">\\frac { 5 } { 14 } \\, , \\; \\frac { 3 } { 14 } \\, , \\; \\frac { 3 } { 14 }</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/probability/ch025/q0005_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\frac { 5 } { 14 } \\, , \\; \\; \\frac { 5 } { 14 } \\, , \\; \\; \\frac { 3 } { 14 }\">\\frac { 5 } { 14 } \\, , \\; \\; \\frac { 5 } { 14 } \\, , \\; \\; \\frac { 3 } { 14 }</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/probability/ch025/q0005_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\frac {3}{14} \\, , \\ \\frac {5}{14} \\, , \\ \\frac {3}{14}\">\\frac {3}{14} \\, , \\ \\frac {5}{14} \\, , \\ \\frac {3}{14}</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/probability/ch025/q0005_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\frac { 5 } { 14 } \\, , \\; \\frac { 3 } { 14 } \\, , \\; \\frac { 5 } { 14 }\">\\frac { 5 } { 14 } \\, , \\; \\frac { 3 } { 14 } \\, , \\; \\frac { 5 } { 14 }</span>"
         }
       ],
       "answer": "A",
       "answer_index": 0,
-      "analysis_html": "<img src=\"/static/generated/assets/probability/ch025/q0005_analysis.png\"/>"
+      "analysis_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{aligned} &amp; \\text{离散随机变量落入某区间的概率等于该区间包含的可能值对应的概率之和，即} \\\\ &amp; \\qquad P\\{a&lt;X\\leq b\\}=\\sum_{k\\in [a,b]}P\\{X=k\\}\\,, \\\\ &amp; \\text{故} \\\\ &amp; \\qquad P\\{X&gt;2\\}=P\\{X=3\\}=\\frac{5}{14}\\,, \\\\ &amp; \\qquad P\\{1\\leq X&lt;\\frac{3}{2}\\}=P\\{X=1\\}=\\frac{3}{14}\\,, \\\\ &amp; \\qquad P\\{\\frac{1}{2}&lt;X&lt;2\\}=P\\{X=1\\}=\\frac{3}{14}\\,.\\end{aligned}\">\\begin{aligned} &amp; \\text{离散随机变量落入某区间的概率等于该区间包含的可能值对应的概率之和，即} \\\\ &amp; \\qquad P\\{a&lt;X\\leq b\\}=\\sum_{k\\in [a,b]}P\\{X=k\\}\\,, \\\\ &amp; \\text{故} \\\\ &amp; \\qquad P\\{X&gt;2\\}=P\\{X=3\\}=\\frac{5}{14}\\,, \\\\ &amp; \\qquad P\\{1\\leq X&lt;\\frac{3}{2}\\}=P\\{X=1\\}=\\frac{3}{14}\\,, \\\\ &amp; \\qquad P\\{\\frac{1}{2}&lt;X&lt;2\\}=P\\{X=1\\}=\\frac{3}{14}\\,.\\end{aligned}</div>"
     },
     {
       "id": "q0006",
       "number": 6,
       "header": "#6-Averge",
       "difficulty": "Averge",
-      "prompt_html": "<img src=\"/static/generated/assets/probability/ch025/q0006_prompt.png\"/>",
+      "prompt_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{aligned} \\text{盒中有}12\\text{只晶体管，其中有}10\\text{只正品，}2\\text{只次品.现从盒中任取}3\\text{只，设}3\\text{只中所含次品数为}X, \\\\ \\text{则}P\\{X=1\\}=( ). \\end{aligned}\">\\begin{aligned} \\text{盒中有}12\\text{只晶体管，其中有}10\\text{只正品，}2\\text{只次品.现从盒中任取}3\\text{只，设}3\\text{只中所含次品数为}X, \\\\ \\text{则}P\\{X=1\\}=( ). \\end{aligned}</div>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/probability/ch025/q0006_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\frac { 9 } { 22 }\">\\frac { 9 } { 22 }</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/probability/ch025/q0006_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\frac { 6 } { 22 }\">\\frac { 6 } { 22 }</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/probability/ch025/q0006_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\frac {1}{22}\">\\frac {1}{22}</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/probability/ch025/q0006_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\frac { 9 } { 11 }\">\\frac { 9 } { 11 }</span>"
         }
       ],
       "answer": "A",
       "answer_index": 0,
-      "analysis_html": "<img src=\"/static/generated/assets/probability/ch025/q0006_analysis.png\"/>"
+      "analysis_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{aligned} \\text{依题意可知，}\\lambda \\text{为古典概型的离散随机变量，其分布律为} \\\\ P\\{X=0\\}=\\frac{C_{10}^{1}C_{2}^{0}}{C_{1}^{1}}=\\frac{6}{11},\\\\ P\\{X=1\\}=\\frac{C_{10}^{2}C_{2}^{1}}{C_{1}^{1}}=\\frac{9}{22},\\\\ P\\{X=2\\}=\\frac{C_{10}^{1}C_{2}^{2}}{C_{1}^{1}}=\\frac{1}{22},\\\\ P\\{X=3\\}=P\\{\\varnothing\\}=0.\\end{aligned}\">\\begin{aligned} \\text{依题意可知，}\\lambda \\text{为古典概型的离散随机变量，其分布律为} \\\\ P\\{X=0\\}=\\frac{C_{10}^{1}C_{2}^{0}}{C_{1}^{1}}=\\frac{6}{11},\\\\ P\\{X=1\\}=\\frac{C_{10}^{2}C_{2}^{1}}{C_{1}^{1}}=\\frac{9}{22},\\\\ P\\{X=2\\}=\\frac{C_{10}^{1}C_{2}^{2}}{C_{1}^{1}}=\\frac{1}{22},\\\\ P\\{X=3\\}=P\\{\\varnothing\\}=0.\\end{aligned}</div>"
     },
     {
       "id": "q0007",
       "number": 7,
       "header": "#7-Averge",
       "difficulty": "Averge",
-      "prompt_html": "<img src=\"/static/generated/assets/probability/ch025/q0007_prompt.png\"/>",
+      "prompt_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{aligned}&amp; \\text{设随机变量}X\\text{的分布律为}P\\{X=k\\}=\\frac{k}{15},\\, k=1,\\, 2,\\, 3,\\, 4,\\, 5,\\,\\, \\text{则}P\\bigg\\{\\frac{1}{2}&lt;X&lt;\\frac{5}{2}\\bigg\\},\\\\&amp; P\\{1\\leq X\\leq 3\\},P\\{X&gt;3\\}\\text{分别为( ).}\\end{aligned}\">\\begin{aligned}&amp; \\text{设随机变量}X\\text{的分布律为}P\\{X=k\\}=\\frac{k}{15},\\, k=1,\\, 2,\\, 3,\\, 4,\\, 5,\\,\\, \\text{则}P\\bigg\\{\\frac{1}{2}&lt;X&lt;\\frac{5}{2}\\bigg\\},\\\\&amp; P\\{1\\leq X\\leq 3\\},P\\{X&gt;3\\}\\text{分别为( ).}\\end{aligned}</div>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/probability/ch025/q0007_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\frac { 1 } { 5 } , \\frac { 2 } { 5 } , \\frac { 3 } { 5 }\">\\frac { 1 } { 5 } , \\frac { 2 } { 5 } , \\frac { 3 } { 5 }</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/probability/ch025/q0007_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\frac { 1 } { 5 } , \\frac { 2 } { 5 } , \\frac { 2 } { 5 }\">\\frac { 1 } { 5 } , \\frac { 2 } { 5 } , \\frac { 2 } { 5 }</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/probability/ch025/q0007_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\frac { 2 } { 5 } , \\frac { 2 } { 5 } , \\frac { 3 } { 5 }\">\\frac { 2 } { 5 } , \\frac { 2 } { 5 } , \\frac { 3 } { 5 }</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/probability/ch025/q0007_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\frac {3}{5}, \\frac {2}{5}, \\frac {1}{5}\">\\frac {3}{5}, \\frac {2}{5}, \\frac {1}{5}</span>"
         }
       ],
       "answer": "A",
       "answer_index": 0,
-      "analysis_html": "<img src=\"/static/generated/assets/probability/ch025/q0007_analysis.png\"/>"
+      "analysis_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{aligned}(1)\\; &amp; P\\left\\{ \\frac{1}{2}&lt;X&lt;\\frac{5}{2}\\right\\} =P\\{X=1\\}+P\\{X=2\\}=\\frac{1}{15}+\\frac{2}{15}=\\frac{1}{5};2)\\; &amp; P\\{S\\leq X\\leq 3\\}=P\\{X=1\\}+P\\{X=2\\}+P\\{X=3\\}\\\\&amp; \\qquad=\\frac{1}{15}+\\frac{2}{15}+\\frac{3}{15}=\\frac{2}{5};3)\\; &amp; P\\{X&gt;3\\}=P\\{X=4\\}+P\\{X=5\\}=\\frac{4}{15}+\\frac{5}{15}=\\frac{3}{5}.\\end{aligned}\">\\begin{aligned}(1)\\; &amp; P\\left\\{ \\frac{1}{2}&lt;X&lt;\\frac{5}{2}\\right\\} =P\\{X=1\\}+P\\{X=2\\}=\\frac{1}{15}+\\frac{2}{15}=\\frac{1}{5};2)\\; &amp; P\\{S\\leq X\\leq 3\\}=P\\{X=1\\}+P\\{X=2\\}+P\\{X=3\\}\\\\&amp; \\qquad=\\frac{1}{15}+\\frac{2}{15}+\\frac{3}{15}=\\frac{2}{5};3)\\; &amp; P\\{X&gt;3\\}=P\\{X=4\\}+P\\{X=5\\}=\\frac{4}{15}+\\frac{5}{15}=\\frac{3}{5}.\\end{aligned}</div>"
     },
     {
       "id": "q0008",
       "number": 8,
       "header": "#8-Averge",
       "difficulty": "Averge",
-      "prompt_html": "<img src=\"/static/generated/assets/probability/ch025/q0008_prompt.png\"/>",
+      "prompt_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{array}{l} \\text {设自动生产线在调整以后出现废品的概率为}p=0.1, \\text {当生产过程中出现废品时立即进行调整,} \\lambda \\text {代表在两次调整之间生产的合格品数,则}P\\{X\\geq 5\\}=(). \\end{array}\">\\begin{array}{l} \\text {设自动生产线在调整以后出现废品的概率为}p=0.1, \\text {当生产过程中出现废品时立即进行调整,} \\lambda \\text {代表在两次调整之间生产的合格品数,则}P\\{X\\geq 5\\}=(). \\end{array}</div>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/probability/ch025/q0008_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"(0.1)^{4}\">(0.1)^{4}</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/probability/ch025/q0008_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"(0.9)^{4}\">(0.9)^{4}</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/probability/ch025/q0008_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"(0.9)^{5}\">(0.9)^{5}</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/probability/ch025/q0008_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"(0.1)^{s}\">(0.1)^{s}</span>"
         }
       ],
       "answer": "C",
       "answer_index": 2,
-      "analysis_html": "<img src=\"/static/generated/assets/probability/ch025/q0008_analysis.png\"/>"
+      "analysis_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{aligned}P\\{X \\geq 5\\} = \\sum_{k=5}^{\\infty} P\\{X = k\\} = \\sum_{k=5}^{\\infty} (0.9)^{k} \\times 0.1 = (0.9)^{5}\\end{aligned}\">\\begin{aligned}P\\{X \\geq 5\\} = \\sum_{k=5}^{\\infty} P\\{X = k\\} = \\sum_{k=5}^{\\infty} (0.9)^{k} \\times 0.1 = (0.9)^{5}\\end{aligned}</div>"
     }
-  ]
+  ],
+  "format": "latex",
+  "source_md": "gl/2.1.2.2_一般离散型随机变量的概率计算(8题)/2.1.2.2_一般离散型随机变量的概率计算(8题).md"
 }

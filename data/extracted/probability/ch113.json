@@ -13,280 +13,282 @@
       "number": 1,
       "header": "#1-Averge",
       "difficulty": "Averge",
-      "prompt_html": "<img src=\"/static/generated/assets/probability/ch113/q0001_prompt.png\"/>",
+      "prompt_html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{设总体} \\lambda \\text{的分布律为} P\\{X = k\\} = \\frac{e^{-\\lambda}}{k!} \\lambda^{k}, \\, k = 0, 1, 2, \\cdots, \\ X_{1}, X_{2}, \\cdots, X_{p} \\text{为来自} \\lambda \\text{的样本，} \\overline{\\lambda} \\text{为样本均值，则以下结论中错误的是（）}.\">\\text{设总体} \\lambda \\text{的分布律为} P\\{X = k\\} = \\frac{e^{-\\lambda}}{k!} \\lambda^{k}, \\, k = 0, 1, 2, \\cdots, \\ X_{1}, X_{2}, \\cdots, X_{p} \\text{为来自} \\lambda \\text{的样本，} \\overline{\\lambda} \\text{为样本均值，则以下结论中错误的是（）}.</span>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/probability/ch113/q0001_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\frac{1}{n} \\sum_{i=1}^{n} (X_{i} - \\overline{X})^{2} \\text{是} \\lambda \\text{的极大似然估计量}\">\\frac{1}{n} \\sum_{i=1}^{n} (X_{i} - \\overline{X})^{2} \\text{是} \\lambda \\text{的极大似然估计量}</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/probability/ch113/q0001_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\overline { x } \\text{是} \\lambda \\text{的矩法估计量}\">\\overline { x } \\text{是} \\lambda \\text{的矩法估计量}</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/probability/ch113/q0001_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\frac{1}{n} \\sum_{i=1}^{n} (X_{i} - \\overline{X})^{2} \\text{是} \\lambda \\text{的矩法估计量}\">\\frac{1}{n} \\sum_{i=1}^{n} (X_{i} - \\overline{X})^{2} \\text{是} \\lambda \\text{的矩法估计量}</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/probability/ch113/q0001_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\overline{x} \\text{是} \\lambda \\text{的极大似然估计量}\">\\overline{x} \\text{是} \\lambda \\text{的极大似然估计量}</span>"
         }
       ],
       "answer": "A",
       "answer_index": 0,
-      "analysis_html": "<img src=\"/static/generated/assets/probability/ch113/q0001_analysis.png\"/>"
+      "analysis_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{aligned}&amp;\\text{这是泊松分布，所以}E(X)=\\lambda,\\ D(X)=\\lambda.\\\\&amp;\\text{由矩估计法可知，样本均值}\\overline{X}=\\text{总体均值}\\lambda\\text{的矩估计量，本二阶中心矩}\\frac{1}{n}\\sum_{i=1}^{n}(X_{i}-\\overline{X})^{2}=\\text{总体方差}\\lambda\\text{的矩估计量.}\\\\&amp;\\text{泊松分布的似然函数为}\\\\&amp;\\qquad L(\\lambda)=\\prod_{i=1}^{n}P\\{X=x_{i}\\}=\\frac{e^{-n\\lambda}\\lambda^{\\sum_{i=1}^{n}x_{i}}}{x_{1}!\\cdots x_{n}!}.\\\\&amp;\\text{令}\\frac{d\\ln L(\\lambda)}{d\\lambda}=0,\\text{即}-n+\\frac{1}{\\lambda}\\sum_{i=1}^{n}x_{i}=0.\\\\&amp;\\text{所以}\\lambda\\text{的极大似然估计量为}\\hat{\\lambda}=\\frac{1}{n}\\sum_{i=1}^{n}X_{i}=\\overline{X}.\\end{aligned}\">\\begin{aligned}&amp;\\text{这是泊松分布，所以}E(X)=\\lambda,\\ D(X)=\\lambda.\\\\&amp;\\text{由矩估计法可知，样本均值}\\overline{X}=\\text{总体均值}\\lambda\\text{的矩估计量，本二阶中心矩}\\frac{1}{n}\\sum_{i=1}^{n}(X_{i}-\\overline{X})^{2}=\\text{总体方差}\\lambda\\text{的矩估计量.}\\\\&amp;\\text{泊松分布的似然函数为}\\\\&amp;\\qquad L(\\lambda)=\\prod_{i=1}^{n}P\\{X=x_{i}\\}=\\frac{e^{-n\\lambda}\\lambda^{\\sum_{i=1}^{n}x_{i}}}{x_{1}!\\cdots x_{n}!}.\\\\&amp;\\text{令}\\frac{d\\ln L(\\lambda)}{d\\lambda}=0,\\text{即}-n+\\frac{1}{\\lambda}\\sum_{i=1}^{n}x_{i}=0.\\\\&amp;\\text{所以}\\lambda\\text{的极大似然估计量为}\\hat{\\lambda}=\\frac{1}{n}\\sum_{i=1}^{n}X_{i}=\\overline{X}.\\end{aligned}</div>"
     },
     {
       "id": "q0002",
       "number": 2,
       "header": "#2-Hard",
       "difficulty": "Hard",
-      "prompt_html": "<img src=\"/static/generated/assets/probability/ch113/q0002_prompt.png\"/>",
+      "prompt_html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{设}X_{1},X_{2},\\cdots,X_{n}\\text{是来自于总体}x\\text{的样本，}x\\text{的分布函数}F(x,\\theta)\\text{含未知参数}\\theta，\\text{则}( ).\">\\text{设}X_{1},X_{2},\\cdots,X_{n}\\text{是来自于总体}x\\text{的样本，}x\\text{的分布函数}F(x,\\theta)\\text{含未知参数}\\theta，\\text{则}( ).</span>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/probability/ch113/q0002_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{用矩估计法和极大似然估计法求出的} \\theta \\text{估计量不一定相同}\">\\text{用矩估计法和极大似然估计法求出的} \\theta \\text{估计量不一定相同}</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/probability/ch113/q0002_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{用矩估计法和极大似然估计法求出的} \\theta \\text{估计量相同}\">\\text{用矩估计法和极大似然估计法求出的} \\theta \\text{估计量相同}</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/probability/ch113/q0002_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{用矩估计法和极大似然估计法求出的} \\theta \\text{估计量不同}\">\\text{用矩估计法和极大似然估计法求出的} \\theta \\text{估计量不同}</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/probability/ch113/q0002_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{用极大似然估计法求出的} \\theta \\text{估计量是唯一的}\">\\text{用极大似然估计法求出的} \\theta \\text{估计量是唯一的}</span>"
         }
       ],
       "answer": "A",
       "answer_index": 0,
-      "analysis_html": "<img src=\"/static/generated/assets/probability/ch113/q0002_analysis.png\"/>"
+      "analysis_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{array}{l} \\text {正态分布} N (\\mu , \\sigma) \\text {的均值} \\mu \\text {的矩估计和极大似然估计均为} \\overline {X} . \\\\ \\text {均匀分布} U (0 , \\theta) \\text {的参数} \\theta \\text {的矩估计为} 2 \\overline {X} , \\text {极大似然估计为} \\widehat {\\theta} = \\max (X _ {1} , X _ {2} , \\cdots , X _ {n}) . \\\\ \\text {均匀分布} U (\\theta - 1 , \\theta) \\text {的极大似然估计并不止一个} , \\\\ \\text {既可以是} \\widehat {\\theta} = \\max (X _ {1} , X _ {2} , \\cdots , X _ {n}) , \\text {也可以是} \\widehat {\\theta} = \\min (X _ {1} , X _ {2} , \\cdots , X _ {n}) + 1 . \\end{array}\">\\begin{array}{l} \\text {正态分布} N (\\mu , \\sigma) \\text {的均值} \\mu \\text {的矩估计和极大似然估计均为} \\overline {X} . \\\\ \\text {均匀分布} U (0 , \\theta) \\text {的参数} \\theta \\text {的矩估计为} 2 \\overline {X} , \\text {极大似然估计为} \\widehat {\\theta} = \\max (X _ {1} , X _ {2} , \\cdots , X _ {n}) . \\\\ \\text {均匀分布} U (\\theta - 1 , \\theta) \\text {的极大似然估计并不止一个} , \\\\ \\text {既可以是} \\widehat {\\theta} = \\max (X _ {1} , X _ {2} , \\cdots , X _ {n}) , \\text {也可以是} \\widehat {\\theta} = \\min (X _ {1} , X _ {2} , \\cdots , X _ {n}) + 1 . \\end{array}</div>"
     },
     {
       "id": "q0003",
       "number": 3,
       "header": "#3-Averge",
       "difficulty": "Averge",
-      "prompt_html": "<img src=\"/static/generated/assets/probability/ch113/q0003_prompt.png\"/>",
+      "prompt_html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{在参数的区间估计中，给定了置信度，则分位数( ).}\">\\text{在参数的区间估计中，给定了置信度，则分位数( ).}</span>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/probability/ch113/q0003_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{可按置信度的大小及有关随机变量的分布来选取}\">\\text{可按置信度的大小及有关随机变量的分布来选取}</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/probability/ch113/q0003_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{将由置信度的大小唯一确定}\">\\text{将由置信度的大小唯一确定}</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/probability/ch113/q0003_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{将由有关随机变量的分布唯一确定}\">\\text{将由有关随机变量的分布唯一确定}</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/probability/ch113/q0003_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{可以任意规定}\">\\text{可以任意规定}</span>"
         }
       ],
       "answer": "A",
       "answer_index": 0,
-      "analysis_html": "<img src=\"/static/generated/assets/probability/ch113/q0003_analysis.png\"/>"
+      "analysis_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{aligned}&amp;\\text{由双侧分位数的定义} \\\\&amp;\\quad P\\{X&gt;T_{\\alpha/2}\\}=\\alpha \\\\&amp;\\text{可以得出，} \\\\&amp;\\quad P\\{X\\leq T_{\\alpha/2}\\}=1-\\alpha.\\end{aligned}\">\\begin{aligned}&amp;\\text{由双侧分位数的定义} \\\\&amp;\\quad P\\{X&gt;T_{\\alpha/2}\\}=\\alpha \\\\&amp;\\text{可以得出，} \\\\&amp;\\quad P\\{X\\leq T_{\\alpha/2}\\}=1-\\alpha.\\end{aligned}</div>"
     },
     {
       "id": "q0004",
       "number": 4,
       "header": "#4-Averge",
       "difficulty": "Averge",
-      "prompt_html": "<img src=\"/static/generated/assets/probability/ch113/q0004_prompt.png\"/>",
+      "prompt_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{array}{l} \\text {设} X_{1}, X_{2}, \\cdots, X_{n} \\text {是来自总体} X \\text {的样本，} X \\text {的分布由参数} \\mu \\text {和} \\sigma \\text {确定．假设} \\mu \\text {和} \\sigma \\text {都未知，为了对} \\mu \\text {区间估计，一般是先构造随机变量()．} \\end{array}\">\\begin{array}{l} \\text {设} X_{1}, X_{2}, \\cdots, X_{n} \\text {是来自总体} X \\text {的样本，} X \\text {的分布由参数} \\mu \\text {和} \\sigma \\text {确定．假设} \\mu \\text {和} \\sigma \\text {都未知，为了对} \\mu \\text {区间估计，一般是先构造随机变量()．} \\end{array}</div>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/probability/ch113/q0004_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\begin{array}{l}Y=f(X_{1},X_{2},\\cdots,X_{n},\\mu),\\text{而}Y\\text{的分布与}\\mu\\text{有关、与}\\sigma\\text{无关} \\end{array}\">\\begin{array}{l}Y=f(X_{1},X_{2},\\cdots,X_{n},\\mu),\\text{而}Y\\text{的分布与}\\mu\\text{有关、与}\\sigma\\text{无关} \\end{array}</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/probability/ch113/q0004_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\begin{array}{l}Y=f(X_{1},X_{2},\\cdots,X_{n},\\mu,\\sigma),\\text{而}Y\\text{的分布与}\\mu,\\sigma\\text{均有关} \\end{array}\">\\begin{array}{l}Y=f(X_{1},X_{2},\\cdots,X_{n},\\mu,\\sigma),\\text{而}Y\\text{的分布与}\\mu,\\sigma\\text{均有关} \\end{array}</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/probability/ch113/q0004_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\begin{array}{l}Y=f(X_{1},X_{2},\\cdots,X_{n},\\sigma),\\text{而}Y\\text{的分布与}\\mu\\text{无关、与}\\sigma\\text{有关} \\end{array}\">\\begin{array}{l}Y=f(X_{1},X_{2},\\cdots,X_{n},\\sigma),\\text{而}Y\\text{的分布与}\\mu\\text{无关、与}\\sigma\\text{有关} \\end{array}</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/probability/ch113/q0004_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\begin{array}{l}Y=f(X_{1},X_{2},\\cdots,X_{n})\\text{，而}Y\\text{的分布与}\\mu,\\sigma\\text{均无关} \\end{array}\">\\begin{array}{l}Y=f(X_{1},X_{2},\\cdots,X_{n})\\text{，而}Y\\text{的分布与}\\mu,\\sigma\\text{均无关} \\end{array}</span>"
         }
       ],
       "answer": "A",
       "answer_index": 0,
-      "analysis_html": "<img src=\"/static/generated/assets/probability/ch113/q0004_analysis.png\"/>"
+      "analysis_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{aligned}&amp;\\text{由单正态总体均值的区间估计可以阐明.}\\\\&amp;\\text{在方差未知的情况下，对于单正态总体均值的区间估计，}\\\\&amp;\\text{构造函数}T=\\frac{\\overline{X}-\\mu}{S\\sqrt{n}}\\sim t(n-1).\\\\&amp;\\text{在置信度}1-\\alpha\\text{下，均值}\\mu\\text{的置信区间为}\\\\&amp;\\quad\\left(\\overline{X}-t_{\\alpha2}(n-1)\\frac{S}{\\sqrt{n}},\\ \\overline{X}+t_{\\alpha2}(n-1)\\frac{S}{\\sqrt{n}}\\right).\\\\&amp;\\text{由此可以看出，要求均值}\\mu\\text{的区间估计，先构造与样本和均值}\\mu\\text{有关的统计量，再由此统计量来作区间估计.}\\end{aligned}\">\\begin{aligned}&amp;\\text{由单正态总体均值的区间估计可以阐明.}\\\\&amp;\\text{在方差未知的情况下，对于单正态总体均值的区间估计，}\\\\&amp;\\text{构造函数}T=\\frac{\\overline{X}-\\mu}{S\\sqrt{n}}\\sim t(n-1).\\\\&amp;\\text{在置信度}1-\\alpha\\text{下，均值}\\mu\\text{的置信区间为}\\\\&amp;\\quad\\left(\\overline{X}-t_{\\alpha2}(n-1)\\frac{S}{\\sqrt{n}},\\ \\overline{X}+t_{\\alpha2}(n-1)\\frac{S}{\\sqrt{n}}\\right).\\\\&amp;\\text{由此可以看出，要求均值}\\mu\\text{的区间估计，先构造与样本和均值}\\mu\\text{有关的统计量，再由此统计量来作区间估计.}\\end{aligned}</div>"
     },
     {
       "id": "q0005",
       "number": 5,
       "header": "#5-Hard",
       "difficulty": "Hard",
-      "prompt_html": "<img src=\"/static/generated/assets/probability/ch113/q0005_prompt.png\"/>",
+      "prompt_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{aligned}\\text{设某种元件的寿命}X\\sim N(\\mu,\\sigma^{2})，\\text{其中参数}\\mu,\\sigma^{2}\\text{未知}。\\text{为估计平均寿命}\\mu\\text{及方差}\\sigma^{2},\\text{随机抽取的}7\\text{只元件的寿命}(\\text{单位}：\\text{小时})\\text{为}\\\\1575,1503,1346,1630,1575,1453,1950,\\\\text{由极差系数表有}d_{(7)}=2.7044\\text{),则}\\sigma\\text{的极差顺序统计量法估计为}().\\end{aligned}\">\\begin{aligned}\\text{设某种元件的寿命}X\\sim N(\\mu,\\sigma^{2})，\\text{其中参数}\\mu,\\sigma^{2}\\text{未知}。\\text{为估计平均寿命}\\mu\\text{及方差}\\sigma^{2},\\text{随机抽取的}7\\text{只元件的寿命}(\\text{单位}：\\text{小时})\\text{为}\\\\1575,1503,1346,1630,1575,1453,1950,\\\\text{由极差系数表有}d_{(7)}=2.7044\\text{),则}\\sigma\\text{的极差顺序统计量法估计为}().\\end{aligned}</div>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/probability/ch113/q0005_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"223.34\">223.34</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/probability/ch113/q0005_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"1575\">1575</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/probability/ch113/q0005_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"1576\">1576</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/probability/ch113/q0005_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"175.72\">175.72</span>"
         }
       ],
       "answer": "A",
       "answer_index": 0,
-      "analysis_html": "<img src=\"/static/generated/assets/probability/ch113/q0005_analysis.png\"/>"
+      "analysis_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{aligned} \\text{(1)}&amp; \\text{顺序统计量}X_{(1)},X_{(2)},\\cdots,X_{(n)} \\text{的观测值为} \\\\ &amp; \\quad 1346,\\ 1453,\\ 1503,\\ 1575,\\ 1575,\\ 1630,\\ 1950.\\ \\\\ &amp; \\text{因为}n=7 \\text{为奇数，故} \\quad \\widehat{\\mu}=x_{(\\frac{n-1}{2})}=x_{(4)}=1575.\\end{aligned}\">\\begin{aligned} \\text{(1)}&amp; \\text{顺序统计量}X_{(1)},X_{(2)},\\cdots,X_{(n)} \\text{的观测值为} \\\\ &amp; \\quad 1346,\\ 1453,\\ 1503,\\ 1575,\\ 1575,\\ 1630,\\ 1950.\\ \\\\ &amp; \\text{因为}n=7 \\text{为奇数，故} \\quad \\widehat{\\mu}=x_{(\\frac{n-1}{2})}=x_{(4)}=1575.\\end{aligned}</div>\n<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{aligned} \\text{(2)}&amp; \\text{已知正态总体一阶矩（均值）为} \\mu \\text{和方差估计为} \\quad \\widehat{\\mu}=\\widehat{x}=\\frac{1}{7}\\sum_{i=1}^{7}x_{i}=1576,\\ \\widehat{\\sigma}=\\frac{1}{n}\\sum_{i=1}^{n}(x_{i}-\\widehat{x})^{2}\\approx(175.7238)^{2}.\\end{aligned}\">\\begin{aligned} \\text{(2)}&amp; \\text{已知正态总体一阶矩（均值）为} \\mu \\text{和方差估计为} \\quad \\widehat{\\mu}=\\widehat{x}=\\frac{1}{7}\\sum_{i=1}^{7}x_{i}=1576,\\ \\widehat{\\sigma}=\\frac{1}{n}\\sum_{i=1}^{n}(x_{i}-\\widehat{x})^{2}\\approx(175.7238)^{2}.\\end{aligned}</div>\n<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{aligned} \\text{(3)}&amp; \\text{极差}R=1950-1346=604,\\ d_{(n)}=d_{(7)}=2.7044,\\ \\text{所以} \\quad \\widehat{\\sigma}=\\frac{R}{d_{(n)}}=\\frac{604}{2.7044}=223.34.\\end{aligned}\">\\begin{aligned} \\text{(3)}&amp; \\text{极差}R=1950-1346=604,\\ d_{(n)}=d_{(7)}=2.7044,\\ \\text{所以} \\quad \\widehat{\\sigma}=\\frac{R}{d_{(n)}}=\\frac{604}{2.7044}=223.34.\\end{aligned}</div>\n<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{aligned} \\text{(4)}&amp; \\text{正态总体的均值与方差的极大似然估计为} \\quad \\widehat{\\mu}=\\widehat{x}=1576,\\ \\widehat{\\sigma}=\\frac{1}{n}\\sum_{i=1}^{n}(\\widehat{x}_{i}-\\widehat{x})^{2}\\approx(175.7238)^{2}.\\end{aligned}\">\\begin{aligned} \\text{(4)}&amp; \\text{正态总体的均值与方差的极大似然估计为} \\quad \\widehat{\\mu}=\\widehat{x}=1576,\\ \\widehat{\\sigma}=\\frac{1}{n}\\sum_{i=1}^{n}(\\widehat{x}_{i}-\\widehat{x})^{2}\\approx(175.7238)^{2}.\\end{aligned}</div>"
     },
     {
       "id": "q0006",
       "number": 6,
       "header": "#6-Averge",
       "difficulty": "Averge",
-      "prompt_html": "<img src=\"/static/generated/assets/probability/ch113/q0006_prompt.png\"/>",
+      "prompt_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{array}{l} \\text{设} X_{1}, X_{2}, \\cdots , X_{n} \\text{为来自总体} X \\text{的样本，}\\overline{X} \\text{为其样本均值，}\\mu = E(X),\\ D(X) = 1, \\text{则( ).} \\end{array}\">\\begin{array}{l} \\text{设} X_{1}, X_{2}, \\cdots , X_{n} \\text{为来自总体} X \\text{的样本，}\\overline{X} \\text{为其样本均值，}\\mu = E(X),\\ D(X) = 1, \\text{则( ).} \\end{array}</div>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/probability/ch113/q0006_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\begin{aligned}P\\{|\\overline{X}-\\mu|&lt;\\varepsilon\\}\\geq 1-\\frac{1}{n\\varepsilon^{2}}\\end{aligned}\">\\begin{aligned}P\\{|\\overline{X}-\\mu|&lt;\\varepsilon\\}\\geq 1-\\frac{1}{n\\varepsilon^{2}}\\end{aligned}</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/probability/ch113/q0006_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\overline{x} \\text{是} \\mu \\text{的极大似然估计}\">\\overline{x} \\text{是} \\mu \\text{的极大似然估计}</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/probability/ch113/q0006_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\overline{X}^{2} \\text{是} \\mu^{2} \\text{的无偏估计}\">\\overline{X}^{2} \\text{是} \\mu^{2} \\text{的无偏估计}</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/probability/ch113/q0006_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\begin{array}{l} { r } { n ( \\overline { { X } } - \\mu ) \\sim \\chi ^ { 2 } ( 1 ) } \\end{array}\">\\begin{array}{l} { r } { n ( \\overline { { X } } - \\mu ) \\sim \\chi ^ { 2 } ( 1 ) } \\end{array}</span>"
         }
       ],
       "answer": "A",
       "answer_index": 0,
-      "analysis_html": "<img src=\"/static/generated/assets/probability/ch113/q0006_analysis.png\"/>"
+      "analysis_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{aligned}&amp;\\text{由于没有给出总体分布，故无法求}\\mu\\text{的极大似然估计。}\\\\&amp;E(\\overline{X})=D(\\overline{X})+E^2(\\overline{X})=\\frac{1}{n}+\\mu^2,\\ \\text{所以}\\overline{X}\\text{不是}\\mu^2\\text{的无偏估计。}\\\\&amp;\\text{由切比雪夫不等式有}\\\\&amp;P\\{\\overline{X}-\\mu|&lt;\\varepsilon\\}\\geq 1-\\frac{1}{\\varepsilon^2}D(\\overline{X})=1-\\frac{1}{n\\varepsilon^2}D(X)=1-\\frac{1}{n\\varepsilon^2}.\\\\&amp;\\text{如果是正态总体，则}\\sqrt{n(\\overline{X}-\\mu)}=\\left(\\frac{n\\overline{X}-n\\mu}{\\sqrt{n}}\\right)\\sim N(0,1),\\ n(\\overline{X}-\\mu)^2\\sim\\chi^2(1).\\\\&amp;\\text{或由中心极限定理，当}\\sigma\\text{很大时，}n(\\overline{X}-\\mu)^2=\\left(\\frac{n\\overline{X}-n\\mu}{\\sqrt{n}}\\right)^2\\sim\\chi^2(1).\\end{aligned}\">\\begin{aligned}&amp;\\text{由于没有给出总体分布，故无法求}\\mu\\text{的极大似然估计。}\\\\&amp;E(\\overline{X})=D(\\overline{X})+E^2(\\overline{X})=\\frac{1}{n}+\\mu^2,\\ \\text{所以}\\overline{X}\\text{不是}\\mu^2\\text{的无偏估计。}\\\\&amp;\\text{由切比雪夫不等式有}\\\\&amp;P\\{\\overline{X}-\\mu|&lt;\\varepsilon\\}\\geq 1-\\frac{1}{\\varepsilon^2}D(\\overline{X})=1-\\frac{1}{n\\varepsilon^2}D(X)=1-\\frac{1}{n\\varepsilon^2}.\\\\&amp;\\text{如果是正态总体，则}\\sqrt{n(\\overline{X}-\\mu)}=\\left(\\frac{n\\overline{X}-n\\mu}{\\sqrt{n}}\\right)\\sim N(0,1),\\ n(\\overline{X}-\\mu)^2\\sim\\chi^2(1).\\\\&amp;\\text{或由中心极限定理，当}\\sigma\\text{很大时，}n(\\overline{X}-\\mu)^2=\\left(\\frac{n\\overline{X}-n\\mu}{\\sqrt{n}}\\right)^2\\sim\\chi^2(1).\\end{aligned}</div>"
     },
     {
       "id": "q0007",
       "number": 7,
       "header": "#7-Averge",
       "difficulty": "Averge",
-      "prompt_html": "<img src=\"/static/generated/assets/probability/ch113/q0007_prompt.png\"/>",
+      "prompt_html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{在样本容量一定的条件下，对参数的一种区间估计来说，下列结论正确的是( ).}\">\\text{在样本容量一定的条件下，对参数的一种区间估计来说，下列结论正确的是( ).}</span>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/probability/ch113/q0007_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{置信度越大，置信区间越长}\">\\text{置信度越大，置信区间越长}</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/probability/ch113/q0007_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{置信度越大，估计的越准确}\">\\text{置信度越大，估计的越准确}</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/probability/ch113/q0007_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{置信度越大，置信区间越短}\">\\text{置信度越大，置信区间越短}</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/probability/ch113/q0007_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{置信区间的长短与置信度的大小无关}\">\\text{置信区间的长短与置信度的大小无关}</span>"
         }
       ],
       "answer": "A",
       "answer_index": 0,
-      "analysis_html": "<img src=\"/static/generated/assets/probability/ch113/q0007_analysis.png\"/>"
+      "analysis_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{aligned}\\text{在样本容量一定的条件下，置信区间的长短与置信度的大小成正比，估计的精度与置信度的大小成反比.}\\end{aligned}\">\\begin{aligned}\\text{在样本容量一定的条件下，置信区间的长短与置信度的大小成正比，估计的精度与置信度的大小成反比.}\\end{aligned}</div>"
     },
     {
       "id": "q0008",
       "number": 8,
       "header": "#8-Averge",
       "difficulty": "Averge",
-      "prompt_html": "<img src=\"/static/generated/assets/probability/ch113/q0008_prompt.png\"/>",
+      "prompt_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{aligned}\\text{设}X_{1},X_{2},\\cdots,X_{n} \\text{是来自正态总体}N(\\mu,\\sigma^{2})\\text{的简单随机样本，}\\sigma^{2}\\text{未知，}\\overline{X}\\text{是样本均值．}S^{2}=\\frac{1}{n-1}\\sum_{j=1}^{n}(X_{j}-\\overline{X})^{2}\\text{，若用} \\\\overline{X}-k\\frac{S}{\\sqrt{n}},\\,\\overline{X}+k\\frac{S}{\\sqrt{n}})\\text{作为}\\mu\\text{的}1-\\alpha\\text{置信区间，则}A\\text{应取的分位数为（）.}\\end{aligned}\">\\begin{aligned}\\text{设}X_{1},X_{2},\\cdots,X_{n} \\text{是来自正态总体}N(\\mu,\\sigma^{2})\\text{的简单随机样本，}\\sigma^{2}\\text{未知，}\\overline{X}\\text{是样本均值．}S^{2}=\\frac{1}{n-1}\\sum_{j=1}^{n}(X_{j}-\\overline{X})^{2}\\text{，若用} \\\\overline{X}-k\\frac{S}{\\sqrt{n}},\\,\\overline{X}+k\\frac{S}{\\sqrt{n}})\\text{作为}\\mu\\text{的}1-\\alpha\\text{置信区间，则}A\\text{应取的分位数为（）.}\\end{aligned}</div>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/probability/ch113/q0008_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\begin{aligned}t_{o/2}(n-1)\\end{aligned}\">\\begin{aligned}t_{o/2}(n-1)\\end{aligned}</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/probability/ch113/q0008_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\begin{aligned}u_{1-a/2} \\text{或} t_a\\end{aligned}\">\\begin{aligned}u_{1-a/2} \\text{或} t_a\\end{aligned}</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/probability/ch113/q0008_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"t_{o}(n-1)\">t_{o}(n-1)</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/probability/ch113/q0008_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"t _ { 1 - a }\">t _ { 1 - a }</span>"
         }
       ],
       "answer": "A",
       "answer_index": 0,
-      "analysis_html": "<img src=\"/static/generated/assets/probability/ch113/q0008_analysis.png\"/>"
+      "analysis_html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{当总体方差未知时，均值}\\mu\\text{的}1-\\alpha\\text{的置信区间为}\\left(\\overline{X}-t_{a/2}(n-1).\\frac{S}{\\sqrt{n}},\\ \\overline{X}+t_{a/2}(n-1).\\frac{S}{\\sqrt{n}}\\right).\">\\text{当总体方差未知时，均值}\\mu\\text{的}1-\\alpha\\text{的置信区间为}\\left(\\overline{X}-t_{a/2}(n-1).\\frac{S}{\\sqrt{n}},\\ \\overline{X}+t_{a/2}(n-1).\\frac{S}{\\sqrt{n}}\\right).</span>"
     },
     {
       "id": "q0009",
       "number": 9,
       "header": "#9-Averge",
       "difficulty": "Averge",
-      "prompt_html": "<img src=\"/static/generated/assets/probability/ch113/q0009_prompt.png\"/>",
+      "prompt_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{array}{l} \\text {设} \\widehat{\\theta_{1}} \\text {和} \\widehat{\\theta_{2}} \\text {都是总体} X \\text {样本} X_{1}, X_{2}, \\cdots, X_{n} \\text {的函数，如果( )，则称随机区间} [\\widehat{\\theta_{1}}, \\widehat{\\theta_{2}}] \\\\ \\text {是未知参数} \\theta \\text {的} 95 \\% \\text {置信区间}. \\end{array}\">\\begin{array}{l} \\text {设} \\widehat{\\theta_{1}} \\text {和} \\widehat{\\theta_{2}} \\text {都是总体} X \\text {样本} X_{1}, X_{2}, \\cdots, X_{n} \\text {的函数，如果( )，则称随机区间} [\\widehat{\\theta_{1}}, \\widehat{\\theta_{2}}] \\\\ \\text {是未知参数} \\theta \\text {的} 95 \\% \\text {置信区间}. \\end{array}</div>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/probability/ch113/q0009_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\begin{array}{l} { r } { P \\{ \\widehat { \\theta } _ { 1 } &lt; \\theta &lt; \\widehat { \\theta } _ { 2 } \\} \\geq 0 . 95 } \\end{array}\">\\begin{array}{l} { r } { P \\{ \\widehat { \\theta } _ { 1 } &lt; \\theta &lt; \\widehat { \\theta } _ { 2 } \\} \\geq 0 . 95 } \\end{array}</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/probability/ch113/q0009_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\alpha = 0 . 95\">\\alpha = 0 . 95</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/probability/ch113/q0009_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\alpha = 0 . 05\">\\alpha = 0 . 05</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/probability/ch113/q0009_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\begin{aligned}P\\{\\widehat{\\theta}_{1} &lt; \\theta &lt; \\widehat{\\theta}_{2}\\} = 0.95\\end{aligned}\">\\begin{aligned}P\\{\\widehat{\\theta}_{1} &lt; \\theta &lt; \\widehat{\\theta}_{2}\\} = 0.95\\end{aligned}</span>"
         }
       ],
       "answer": "A",
       "answer_index": 0,
-      "analysis_html": "<img src=\"/static/generated/assets/probability/ch113/q0009_analysis.png\"/>"
+      "analysis_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{aligned}\\text{设}\\,\\theta \\text{为总体分布的未知参数，}X_{1},X_{2},\\cdots,X_{n}\\text{是取自总体}X\\text{的一个样本，对给定的数}1-\\alpha(0&lt;\\alpha&lt;1),\\\\ \\text{若存在统计量}\\underline{\\theta}=\\underline{\\theta}(X_{1},X_{2},\\cdots,X_{n}),\\,\\overline{\\theta}=\\overline{\\theta}(X_{1},X_{2},\\cdots,X_{n}),\\,\\text{使得}P\\{\\theta&lt;\\theta&lt;\\overline{\\theta}\\}\\geq 1-\\alpha,\\,\\text{则称随机区间}(\\underline{\\theta},\\overline{\\theta})\\text{为}\\theta\\text{的}1-\\alpha\\text{双侧置信区间}.\\end{aligned}\">\\begin{aligned}\\text{设}\\,\\theta \\text{为总体分布的未知参数，}X_{1},X_{2},\\cdots,X_{n}\\text{是取自总体}X\\text{的一个样本，对给定的数}1-\\alpha(0&lt;\\alpha&lt;1),\\\\ \\text{若存在统计量}\\underline{\\theta}=\\underline{\\theta}(X_{1},X_{2},\\cdots,X_{n}),\\,\\overline{\\theta}=\\overline{\\theta}(X_{1},X_{2},\\cdots,X_{n}),\\,\\text{使得}P\\{\\theta&lt;\\theta&lt;\\overline{\\theta}\\}\\geq 1-\\alpha,\\,\\text{则称随机区间}(\\underline{\\theta},\\overline{\\theta})\\text{为}\\theta\\text{的}1-\\alpha\\text{双侧置信区间}.\\end{aligned}</div>"
     },
     {
       "id": "q0010",
       "number": 10,
       "header": "#10-Averge",
       "difficulty": "Averge",
-      "prompt_html": "<img src=\"/static/generated/assets/probability/ch113/q0010_prompt.png\"/>",
+      "prompt_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{array}{l} \\text {设总体} X \\text {服从正态分布} N(\\mu|1), \\text {其中} \\mu \\text {未知，作} n=20 \\text {次独立观测，记录其出现值值的次数. 设事件} \\{X&lt;0\\} \\text {出现} \\\\ m=14 \\text {次，用频率估计概率的原理，则} \\mu \\text {的一个估计值为} (\\quad). \\Phi(0.255)=0.6, \\Phi(0.525)=0.7, \\Phi(0.845)=0.8, \\Phi \\\\ (1.285)=0.9 \\end{array}\">\\begin{array}{l} \\text {设总体} X \\text {服从正态分布} N(\\mu|1), \\text {其中} \\mu \\text {未知，作} n=20 \\text {次独立观测，记录其出现值值的次数. 设事件} \\{X&lt;0\\} \\text {出现} \\\\ m=14 \\text {次，用频率估计概率的原理，则} \\mu \\text {的一个估计值为} (\\quad). \\Phi(0.255)=0.6, \\Phi(0.525)=0.7, \\Phi(0.845)=0.8, \\Phi \\\\ (1.285)=0.9 \\end{array}</div>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/probability/ch113/q0010_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"- 0.525\">- 0.525</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/probability/ch113/q0010_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"0.525\">0.525</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/probability/ch113/q0010_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"0.435\">0.435</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/probability/ch113/q0010_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"- 0.435\">- 0.435</span>"
         }
       ],
       "answer": "A",
       "answer_index": 0,
-      "analysis_html": "<img src=\"/static/generated/assets/probability/ch113/q0010_analysis.png\"/>"
+      "analysis_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{aligned}&amp;\\text{因为}X\\sim N(\\mu,1)\\text{，故}P\\{X&lt;0\\}=\\Phi(-\\mu)=1-\\Phi(\\mu).\\\\&amp;\\text{以频率}\\frac{14}{20}=0.7\\text{估计}P\\{X&lt;0\\}\\text{，即}0.7\\approx 1-\\Phi(\\widehat{\\mu})\\text{，}\\\\&amp;\\text{得}\\Phi(\\widehat{\\mu})\\approx 0.3\\text{，故}\\widehat{\\mu}\\approx -0.525.\\end{aligned}\">\\begin{aligned}&amp;\\text{因为}X\\sim N(\\mu,1)\\text{，故}P\\{X&lt;0\\}=\\Phi(-\\mu)=1-\\Phi(\\mu).\\\\&amp;\\text{以频率}\\frac{14}{20}=0.7\\text{估计}P\\{X&lt;0\\}\\text{，即}0.7\\approx 1-\\Phi(\\widehat{\\mu})\\text{，}\\\\&amp;\\text{得}\\Phi(\\widehat{\\mu})\\approx 0.3\\text{，故}\\widehat{\\mu}\\approx -0.525.\\end{aligned}</div>"
     }
-  ]
+  ],
+  "format": "latex",
+  "source_md": "gl/7.1.1_点估计与区间估计的概念(10题)/7.1.1_点估计与区间估计的概念(10题).md"
 }

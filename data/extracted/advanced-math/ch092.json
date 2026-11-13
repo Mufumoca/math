@@ -13,252 +13,254 @@
       "number": 1,
       "header": "#1-Averge",
       "difficulty": "Averge",
-      "prompt_html": "<img src=\"/static/generated/assets/advanced-math/ch092/q0001_prompt.png\"/>",
+      "prompt_html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{利用幂级数的展开式求} \\sqrt[5]{240} \\text{ (误差不超过 } 0.0001) \\text{ 的近似值} [ \\quad]. \\Leftrightarrow\">\\text{利用幂级数的展开式求} \\sqrt[5]{240} \\text{ (误差不超过 } 0.0001) \\text{ 的近似值} [ \\quad]. \\Leftrightarrow</span>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch092/q0001_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\mathbf { 0 . 9926 } ;\">\\mathbf { 0 . 9926 } ;</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch092/q0001_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"2.9924;\">2.9924;</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch092/q0001_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\mathbf{2.9871};\">\\mathbf{2.9871};</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch092/q0001_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"2.9954\">2.9954</span>"
         }
       ],
       "answer": "A",
       "answer_index": 0,
-      "analysis_html": "<img src=\"/static/generated/assets/advanced-math/ch092/q0001_analysis.png\"/>"
+      "analysis_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{aligned} &amp; \\text{由二项展开式} (1+x)^{a}=1+ax+\\frac{\\alpha(\\alpha-1)}{2!}x^{2}+\\cdots (-1&lt;x&lt;1), \\ \\ \\phi \\\\ &amp; \\sqrt[3]{240}=\\sqrt[3]{3^{2}-3}=3(1-\\frac{1}{3^{2}})^{\\frac{1}{3}} , \\ \\text{取} \\ \\alpha=\\frac{1}{3}, \\ x=-\\frac{1}{3^{3}} , \\text{可得} \\ \\phi \\\\ &amp; \\sqrt[3]{240}=3(1-\\frac{1}{3^{3}})^{\\frac{1}{3}}=3\\bigg[1+\\frac{1}{5}(-\\frac{1}{3^{3}})^{\\frac{1}{3}}+\\frac{1}{5}(\\frac{1}{5}-1)\\cdot \\frac{1}{2!}(-\\frac{1}{3^{3}})^{2}+\\cdots \\bigg] \\ \\phi \\\\ &amp; =3\\bigg(1-\\frac{1}{5}\\cdot \\frac{1}{3^{3}}-\\frac{1}{5}\\cdot \\frac{1}{4}\\cdot \\frac{1}{2!}\\cdot \\frac{1}{3^{3}}-\\cdots \\bigg) \\ \\phi \\\\ &amp; \\text{取前两项的和作为}\\sqrt[3]{240} \\text{的近似值}，\\text{其误差为} \\ \\phi \\\\ &amp; |r_{2}|\\leq \\frac{1}{4}\\cdot \\frac{1}{5}\\cdot \\frac{1}{2!}\\cdot \\frac{1}{3^{3}}=\\frac{2}{5^{2}\\cdot 3^{3}}&lt;0.0001, \\ \\phi \\\\ &amp; \\text{故近似值为}\\sqrt[3]{240}\\approx 3\\bigg(1-\\frac{1}{5}\\cdot \\frac{1}{3^{3}}\\bigg)\\approx 2.9926 \\ \\phi \\end{aligned}\">\\begin{aligned} &amp; \\text{由二项展开式} (1+x)^{a}=1+ax+\\frac{\\alpha(\\alpha-1)}{2!}x^{2}+\\cdots (-1&lt;x&lt;1), \\ \\ \\phi \\\\ &amp; \\sqrt[3]{240}=\\sqrt[3]{3^{2}-3}=3(1-\\frac{1}{3^{2}})^{\\frac{1}{3}} , \\ \\text{取} \\ \\alpha=\\frac{1}{3}, \\ x=-\\frac{1}{3^{3}} , \\text{可得} \\ \\phi \\\\ &amp; \\sqrt[3]{240}=3(1-\\frac{1}{3^{3}})^{\\frac{1}{3}}=3\\bigg[1+\\frac{1}{5}(-\\frac{1}{3^{3}})^{\\frac{1}{3}}+\\frac{1}{5}(\\frac{1}{5}-1)\\cdot \\frac{1}{2!}(-\\frac{1}{3^{3}})^{2}+\\cdots \\bigg] \\ \\phi \\\\ &amp; =3\\bigg(1-\\frac{1}{5}\\cdot \\frac{1}{3^{3}}-\\frac{1}{5}\\cdot \\frac{1}{4}\\cdot \\frac{1}{2!}\\cdot \\frac{1}{3^{3}}-\\cdots \\bigg) \\ \\phi \\\\ &amp; \\text{取前两项的和作为}\\sqrt[3]{240} \\text{的近似值}，\\text{其误差为} \\ \\phi \\\\ &amp; |r_{2}|\\leq \\frac{1}{4}\\cdot \\frac{1}{5}\\cdot \\frac{1}{2!}\\cdot \\frac{1}{3^{3}}=\\frac{2}{5^{2}\\cdot 3^{3}}&lt;0.0001, \\ \\phi \\\\ &amp; \\text{故近似值为}\\sqrt[3]{240}\\approx 3\\bigg(1-\\frac{1}{5}\\cdot \\frac{1}{3^{3}}\\bigg)\\approx 2.9926 \\ \\phi \\end{aligned}</div>"
     },
     {
       "id": "q0002",
       "number": 2,
       "header": "#2-Averge",
       "difficulty": "Averge",
-      "prompt_html": "<img src=\"/static/generated/assets/advanced-math/ch092/q0002_prompt.png\"/>",
+      "prompt_html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{计算定积分} \\frac{2}{\\sqrt{\\pi}} \\int_{0}^{\\frac{1}{2}} e^{-x^{2}} dx \\text{的进似值（要求误差不超过} 0.0001 \\text{)} [ \\quad].\">\\text{计算定积分} \\frac{2}{\\sqrt{\\pi}} \\int_{0}^{\\frac{1}{2}} e^{-x^{2}} dx \\text{的进似值（要求误差不超过} 0.0001 \\text{)} [ \\quad].</span>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch092/q0002_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\mathbf { 0 . 5205 } ;\">\\mathbf { 0 . 5205 } ;</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch092/q0002_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"0.5741\\leftarrow\">0.5741\\leftarrow</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch092/q0002_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"0.5986 ;\">0.5986 ;</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch092/q0002_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\dot { 0 . 5871 } ;\">\\dot { 0 . 5871 } ;</span>"
         }
       ],
       "answer": "A",
       "answer_index": 0,
-      "analysis_html": "<img src=\"/static/generated/assets/advanced-math/ch092/q0002_analysis.png\"/>"
+      "analysis_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{aligned}&amp;\\text{解：}\\quad e^{-x^{2}}=\\sum_{n=0}^{\\infty}\\left(-1\\right)^{n}\\frac{1}{n!}x^{2^{n}}\\\\&amp;\\frac{2}{\\sqrt{\\pi}}\\int_{0}^{\\frac{1}{2}}e^{-x^{2}}dx=\\frac{2}{\\sqrt{\\pi}}\\int_{0}^{\\frac{1}{2}}[\\sum_{n=0}^{\\infty}(-1)^{n}\\frac{1}{n!}x^{2^{n}}]dx=\\frac{1}{\\sqrt{\\pi}}(1-\\frac{1}{2^{2}.3}+\\frac{1}{2^{4}.5.2!}-………)\\quad\\\\&amp;\\\\&amp;\\text{再考虑误差范围可求得}\\frac{2}{\\sqrt{\\pi}}\\int_{0}^{\\frac{1}{2}}e^{-x^{2}}dx\\approx 0.5205\\end{aligned}\">\\begin{aligned}&amp;\\text{解：}\\quad e^{-x^{2}}=\\sum_{n=0}^{\\infty}\\left(-1\\right)^{n}\\frac{1}{n!}x^{2^{n}}\\\\&amp;\\frac{2}{\\sqrt{\\pi}}\\int_{0}^{\\frac{1}{2}}e^{-x^{2}}dx=\\frac{2}{\\sqrt{\\pi}}\\int_{0}^{\\frac{1}{2}}[\\sum_{n=0}^{\\infty}(-1)^{n}\\frac{1}{n!}x^{2^{n}}]dx=\\frac{1}{\\sqrt{\\pi}}(1-\\frac{1}{2^{2}.3}+\\frac{1}{2^{4}.5.2!}-………)\\quad\\\\&amp;\\\\&amp;\\text{再考虑误差范围可求得}\\frac{2}{\\sqrt{\\pi}}\\int_{0}^{\\frac{1}{2}}e^{-x^{2}}dx\\approx 0.5205\\end{aligned}</div>"
     },
     {
       "id": "q0003",
       "number": 3,
       "header": "#3-Averge",
       "difficulty": "Averge",
-      "prompt_html": "<img src=\"/static/generated/assets/advanced-math/ch092/q0003_prompt.png\"/>",
+      "prompt_html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{利用幂级数的展开式求} \\sqrt[3]{78} \\text{ (误差不超过} 0.001 \\text{)}\\text{的近似值} [ \\quad].\">\\text{利用幂级数的展开式求} \\sqrt[3]{78} \\text{ (误差不超过} 0.001 \\text{)}\\text{的近似值} [ \\quad].</span>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch092/q0003_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\mathbf { 2 . 987 } ;\">\\mathbf { 2 . 987 } ;</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch092/q0003_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"2 . 975 \\leftarrow\">2 . 975 \\leftarrow</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch092/q0003_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\mathbf { 2 . 973 } ;\">\\mathbf { 2 . 973 } ;</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch092/q0003_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"2.972;\">2.972;</span>"
         }
       ],
       "answer": "D",
       "answer_index": 3,
-      "analysis_html": "<img src=\"/static/generated/assets/advanced-math/ch092/q0003_analysis.png\"/>"
+      "analysis_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{aligned}&amp;\\text{由二项展开式}(1+x)^{2}=1+\\alpha x+\\frac{\\alpha(\\alpha-1)}{2!}x^{2}+\\cdots\\ (-1&lt;x&lt;1),\\ \\omega\\\\&amp;\\sqrt[3]{78}=\\sqrt[3]{3^{4}-3}=3(1-\\frac{1}{3^{2}})^{\\frac{1}{4}},\\ \\text{取}\\ \\alpha=\\frac{1}{4},\\ x=-\\frac{1}{3^{3}}; \\text{可得}\\omega\\\\&amp;\\sqrt[3]{78}=3(1-\\frac{1}{3^{2}})^{\\frac{1}{4}}=3\\bigg[1+\\frac{1}{4}\\cdot(-\\frac{1}{3^{2}})+\\frac{1}{4}\\frac{1}{4}-1)\\cdot\\frac{1}{2}\\cdot(-\\frac{1}{3^{2}})^{2}+\\cdots\\bigg]\\\\&amp;\\qquad=3\\bigg(1-\\frac{1}{4}\\cdot\\frac{1}{3^{3}}-\\frac{1}{4}\\cdot\\frac{3}{4}-\\frac{1}{21}\\cdot\\frac{1}{3^{3}}-\\cdots\\bigg),\\omega\\\\&amp;\\text{取前两项的和作为}\\sqrt[3]{78}\\text{的近似值}，\\text{其误差为}\\omega\\\\&amp;|\\gamma_{2}|\\leq\\frac{1}{4}\\cdot\\frac{3}{4}\\cdot\\frac{1}{4}\\cdot\\frac{1}{21}\\cdot\\frac{1}{3^{3}}=\\frac{1}{2\\cdot 4^{2}\\cdot 3^{3}}&lt;\\cdot=\\frac{2}{5^{2}\\cdot 3^{3}}&lt;0.001,\\omega\\\\&amp;\\text{故取近似值为}\\sqrt[3]{240}\\approx3\\big(1-\\frac{1}{4}\\cdot\\frac{1}{3^{3}}\\big)\\approx 2.972\\omega\\end{aligned}\">\\begin{aligned}&amp;\\text{由二项展开式}(1+x)^{2}=1+\\alpha x+\\frac{\\alpha(\\alpha-1)}{2!}x^{2}+\\cdots\\ (-1&lt;x&lt;1),\\ \\omega\\\\&amp;\\sqrt[3]{78}=\\sqrt[3]{3^{4}-3}=3(1-\\frac{1}{3^{2}})^{\\frac{1}{4}},\\ \\text{取}\\ \\alpha=\\frac{1}{4},\\ x=-\\frac{1}{3^{3}}; \\text{可得}\\omega\\\\&amp;\\sqrt[3]{78}=3(1-\\frac{1}{3^{2}})^{\\frac{1}{4}}=3\\bigg[1+\\frac{1}{4}\\cdot(-\\frac{1}{3^{2}})+\\frac{1}{4}\\frac{1}{4}-1)\\cdot\\frac{1}{2}\\cdot(-\\frac{1}{3^{2}})^{2}+\\cdots\\bigg]\\\\&amp;\\qquad=3\\bigg(1-\\frac{1}{4}\\cdot\\frac{1}{3^{3}}-\\frac{1}{4}\\cdot\\frac{3}{4}-\\frac{1}{21}\\cdot\\frac{1}{3^{3}}-\\cdots\\bigg),\\omega\\\\&amp;\\text{取前两项的和作为}\\sqrt[3]{78}\\text{的近似值}，\\text{其误差为}\\omega\\\\&amp;|\\gamma_{2}|\\leq\\frac{1}{4}\\cdot\\frac{3}{4}\\cdot\\frac{1}{4}\\cdot\\frac{1}{21}\\cdot\\frac{1}{3^{3}}=\\frac{1}{2\\cdot 4^{2}\\cdot 3^{3}}&lt;\\cdot=\\frac{2}{5^{2}\\cdot 3^{3}}&lt;0.001,\\omega\\\\&amp;\\text{故取近似值为}\\sqrt[3]{240}\\approx3\\big(1-\\frac{1}{4}\\cdot\\frac{1}{3^{3}}\\big)\\approx 2.972\\omega\\end{aligned}</div>"
     },
     {
       "id": "q0004",
       "number": 4,
       "header": "#4-Averge",
       "difficulty": "Averge",
-      "prompt_html": "<img src=\"/static/generated/assets/advanced-math/ch092/q0004_prompt.png\"/>",
+      "prompt_html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{利用幂级数的展开式求} \\sin 9 ^ { \\circ } \\quad (\\text{误差不超过} 10 ^ { - 5 } ) \\text{的近似值} [ \\quad ] .\">\\text{利用幂级数的展开式求} \\sin 9 ^ { \\circ } \\quad (\\text{误差不超过} 10 ^ { - 5 } ) \\text{的近似值} [ \\quad ] .</span>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch092/q0004_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"0.15643 ;\">0.15643 ;</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch092/q0004_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\boldsymbol { 0 . 19866 } ;\">\\boldsymbol { 0 . 19866 } ;</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch092/q0004_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\mathbf { 0 . 12578 } ;\">\\mathbf { 0 . 12578 } ;</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch092/q0004_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\mathbf { 0 . 14243 } \\leftarrow\">\\mathbf { 0 . 14243 } \\leftarrow</span>"
         }
       ],
       "answer": "A",
       "answer_index": 0,
-      "analysis_html": "<img src=\"/static/generated/assets/advanced-math/ch092/q0004_analysis.png\"/>"
+      "analysis_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{aligned} &amp; \\text{由于} &amp; \\sin x = \\sum_{n=0}^{\\infty} (-1)^{n} \\frac{x^{2n+1}}{(2n+1)!} \\; \\; , \\; \\; x \\in (-\\infty, \\infty); \\; &amp; \\\\ &amp; \\text{则} &amp; \\sin 9^{\\circ} = \\sin \\frac{\\pi}{20} = \\sum_{n=0}^{\\infty} (-1)^{n} \\frac{1}{(2n+1)!} \\left( \\frac{\\pi}{20} \\right)^{2n+1} = \\frac{\\pi}{20} - \\frac{1}{6} \\times \\left( \\frac{\\pi}{20} \\right)^{3} + \\frac{1}{120} \\times \\left( \\frac{\\pi}{20} \\right)^{5} - \\cdots, &amp; \\\\ &amp; \\text{取前两项的和作为} \\sin 9^{\\circ} \\text{的近似值，其误差为} &amp; \\left| r_{2} \\right| \\leq \\frac{1}{120} \\times \\left( \\frac{\\pi}{20} \\right)^{5} &lt; \\frac{1}{120} \\times \\left( \\frac{1}{5} \\right)^{5} = \\frac{1}{375000}, &amp; \\\\ &amp; \\text{所以} \\sin 9^{\\circ} \\approx \\frac{\\pi}{20} - \\frac{1}{6} \\times \\left( \\frac{\\pi}{20} \\right)^{3} \\approx 0.15643。 &amp; \\end{aligned}\">\\begin{aligned} &amp; \\text{由于} &amp; \\sin x = \\sum_{n=0}^{\\infty} (-1)^{n} \\frac{x^{2n+1}}{(2n+1)!} \\; \\; , \\; \\; x \\in (-\\infty, \\infty); \\; &amp; \\\\ &amp; \\text{则} &amp; \\sin 9^{\\circ} = \\sin \\frac{\\pi}{20} = \\sum_{n=0}^{\\infty} (-1)^{n} \\frac{1}{(2n+1)!} \\left( \\frac{\\pi}{20} \\right)^{2n+1} = \\frac{\\pi}{20} - \\frac{1}{6} \\times \\left( \\frac{\\pi}{20} \\right)^{3} + \\frac{1}{120} \\times \\left( \\frac{\\pi}{20} \\right)^{5} - \\cdots, &amp; \\\\ &amp; \\text{取前两项的和作为} \\sin 9^{\\circ} \\text{的近似值，其误差为} &amp; \\left| r_{2} \\right| \\leq \\frac{1}{120} \\times \\left( \\frac{\\pi}{20} \\right)^{5} &lt; \\frac{1}{120} \\times \\left( \\frac{1}{5} \\right)^{5} = \\frac{1}{375000}, &amp; \\\\ &amp; \\text{所以} \\sin 9^{\\circ} \\approx \\frac{\\pi}{20} - \\frac{1}{6} \\times \\left( \\frac{\\pi}{20} \\right)^{3} \\approx 0.15643。 &amp; \\end{aligned}</div>"
     },
     {
       "id": "q0005",
       "number": 5,
       "header": "#5-Averge",
       "difficulty": "Averge",
-      "prompt_html": "<img src=\"/static/generated/assets/advanced-math/ch092/q0005_prompt.png\"/>",
+      "prompt_html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{利用幂级数的展开式求} \\ln 2 \\text{ (误差不超过} 10^{-4} \\text{)}\\text{的近似值} [ \\quad].\">\\text{利用幂级数的展开式求} \\ln 2 \\text{ (误差不超过} 10^{-4} \\text{)}\\text{的近似值} [ \\quad].</span>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch092/q0005_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"0.6986; 0\">0.6986; 0</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch092/q0005_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"0.6741 \\leftarrow\">0.6741 \\leftarrow</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch092/q0005_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\mathbf { 0 . 6871 } ;\">\\mathbf { 0 . 6871 } ;</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch092/q0005_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\begin{aligned}0.6931;\\end{aligned}\">\\begin{aligned}0.6931;\\end{aligned}</span>"
         }
       ],
       "answer": "D",
       "answer_index": 3,
-      "analysis_html": "<img src=\"/static/generated/assets/advanced-math/ch092/q0005_analysis.png\"/>"
+      "analysis_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{aligned}&amp;\\text{在}\\ln x \\text{的幂级数展开式中令}x=2 \\quad\\quad\\ln 2=1-\\frac{1}{2}+\\frac{1}{3}-\\frac{1}{4}+......(-1)^{n-1}+...\\\\&amp;\\quad\\text{考虑误差范围可求得}\\ln 2 \\approx 0.6931.\\end{aligned}\">\\begin{aligned}&amp;\\text{在}\\ln x \\text{的幂级数展开式中令}x=2 \\quad\\quad\\ln 2=1-\\frac{1}{2}+\\frac{1}{3}-\\frac{1}{4}+......(-1)^{n-1}+...\\\\&amp;\\quad\\text{考虑误差范围可求得}\\ln 2 \\approx 0.6931.\\end{aligned}</div>"
     },
     {
       "id": "q0006",
       "number": 6,
       "header": "#6-Averge",
       "difficulty": "Averge",
-      "prompt_html": "<img src=\"/static/generated/assets/advanced-math/ch092/q0006_prompt.png\"/>",
+      "prompt_html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{计算定积分} \\int \\limits _ { 0 } ^ { 1 } e ^ { x ^ { 2 } } d x \\text { 的进似值（要求误差不超过0.0001）} [ \\quad ] . \\varphi\">\\text{计算定积分} \\int \\limits _ { 0 } ^ { 1 } e ^ { x ^ { 2 } } d x \\text { 的进似值（要求误差不超过0.0001）} [ \\quad ] . \\varphi</span>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch092/q0006_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\mathbf { 0 . 7205 } ;\">\\mathbf { 0 . 7205 } ;</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch092/q0006_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\begin{aligned}0.7871;\\end{aligned}\">\\begin{aligned}0.7871;\\end{aligned}</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch092/q0006_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"0 . 7741 \\leftarrow\">0 . 7741 \\leftarrow</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch092/q0006_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"0.7468;\">0.7468;</span>"
         }
       ],
       "answer": "D",
       "answer_index": 3,
-      "analysis_html": "<img src=\"/static/generated/assets/advanced-math/ch092/q0006_analysis.png\"/>"
+      "analysis_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{aligned}&amp;\\text{解：} \\ \\ e^{-x^{2}}=\\sum_{n=0}^{\\infty} \\left(-1\\right)^{n} \\frac{1}{n!} x^{2^{n}} \\\\&amp;\\int\\limits_{0}^{1}e^{x^{2}}dx=\\int\\limits_{0}^{1}\\sum_{n=0}^{\\infty} \\left(-1\\right)^{n} \\frac{1}{n!} x^{2^{n}}dx \\approx 1-\\frac{1}{3}+\\frac{1}{5\\bullet 2}-\\frac{1}{7\\bullet 6}+\\frac{1}{9\\bullet 24}-\\frac{1}{11\\bullet 120}+\\frac{1}{13\\bullet 720} \\\\&amp;=0.7468\\end{aligned}\">\\begin{aligned}&amp;\\text{解：} \\ \\ e^{-x^{2}}=\\sum_{n=0}^{\\infty} \\left(-1\\right)^{n} \\frac{1}{n!} x^{2^{n}} \\\\&amp;\\int\\limits_{0}^{1}e^{x^{2}}dx=\\int\\limits_{0}^{1}\\sum_{n=0}^{\\infty} \\left(-1\\right)^{n} \\frac{1}{n!} x^{2^{n}}dx \\approx 1-\\frac{1}{3}+\\frac{1}{5\\bullet 2}-\\frac{1}{7\\bullet 6}+\\frac{1}{9\\bullet 24}-\\frac{1}{11\\bullet 120}+\\frac{1}{13\\bullet 720} \\\\&amp;=0.7468\\end{aligned}</div>"
     },
     {
       "id": "q0007",
       "number": 7,
       "header": "#7-Averge",
       "difficulty": "Averge",
-      "prompt_html": "<img src=\"/static/generated/assets/advanced-math/ch092/q0007_prompt.png\"/>",
+      "prompt_html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{计算定积分} \\int_{0}^{1} \\frac{\\sin x}{x} dx \\text{的进似值（要求误差不超过} 0.0001\\text{）} [\\quad].\">\\text{计算定积分} \\int_{0}^{1} \\frac{\\sin x}{x} dx \\text{的进似值（要求误差不超过} 0.0001\\text{）} [\\quad].</span>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch092/q0007_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"0.9986 ;\">0.9986 ;</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch092/q0007_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"0.9461\\leftarrow\">0.9461\\leftarrow</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch092/q0007_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\mathbf { 0 . 9205 } ;\">\\mathbf { 0 . 9205 } ;</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch092/q0007_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\mathbf { 0 . 5871 } ;\">\\mathbf { 0 . 5871 } ;</span>"
         }
       ],
       "answer": "B",
       "answer_index": 1,
-      "analysis_html": "<img src=\"/static/generated/assets/advanced-math/ch092/q0007_analysis.png\"/>"
+      "analysis_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{aligned}\\frac{\\sin x}{x}=&amp;1-\\frac{x^3}{3!}+\\frac{x^4}{5!}+\\cdots\\quad&amp;\\int_0^1 \\frac{\\sin x}{x}dx=&amp;1-\\frac{1}{3.3!}+\\frac{1}{5.5!}-\\frac{1}{7.7!}+\\cdots, \\omega\\\\ &amp;\\\\ \\text{再考虑误差范围可求得} &amp; \\int_0^1 \\frac{\\sin x}{x}dx \\approx 0.9461 \\omega \\end{aligned}\">\\begin{aligned}\\frac{\\sin x}{x}=&amp;1-\\frac{x^3}{3!}+\\frac{x^4}{5!}+\\cdots\\quad&amp;\\int_0^1 \\frac{\\sin x}{x}dx=&amp;1-\\frac{1}{3.3!}+\\frac{1}{5.5!}-\\frac{1}{7.7!}+\\cdots, \\omega\\\\ &amp;\\\\ \\text{再考虑误差范围可求得} &amp; \\int_0^1 \\frac{\\sin x}{x}dx \\approx 0.9461 \\omega \\end{aligned}</div>"
     },
     {
       "id": "q0008",
       "number": 8,
       "header": "#8-Averge",
       "difficulty": "Averge",
-      "prompt_html": "<img src=\"/static/generated/assets/advanced-math/ch092/q0008_prompt.png\"/>",
+      "prompt_html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{利用幂级数的展开式求} \\sin 11 ^ { \\circ } \\quad (\\text{误差不超过} 10 ^ { - 5 } ) \\text{的近似值} [ \\quad ] . \\Leftrightarrow\">\\text{利用幂级数的展开式求} \\sin 11 ^ { \\circ } \\quad (\\text{误差不超过} 10 ^ { - 5 } ) \\text{的近似值} [ \\quad ] . \\Leftrightarrow</span>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch092/q0008_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"0.19081 ;\">0.19081 ;</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch092/q0008_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\mathbf { 0 . 19578 } ;\">\\mathbf { 0 . 19578 } ;</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch092/q0008_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\mathbf { 0 . 19643 } ;\">\\mathbf { 0 . 19643 } ;</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch092/q0008_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"0.19243 \\leftarrow\">0.19243 \\leftarrow</span>"
         }
       ],
       "answer": "A",
       "answer_index": 0,
-      "analysis_html": "<img src=\"/static/generated/assets/advanced-math/ch092/q0008_analysis.png\"/>"
+      "analysis_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{aligned} &amp; \\text{由于} &amp; \\sin x = \\sum_{n=0}^{\\infty} (-1)^{n} \\frac{x^{2n+1}}{(2n+1)!} \\; , \\; \\; x \\in (-\\infty, \\infty) \\; ; \\\\ &amp; \\text{则} &amp; \\sin 11^{\\circ} = \\sin \\frac{11 \\pi}{180} = \\sum_{n=0}^{\\infty} (-1)^{n} \\frac{1}{(2n+1)!} \\left( \\frac{\\pi}{180} \\right)^{2n+1} = \\frac{11 \\pi}{180} - \\frac{1}{6} \\times \\left( \\frac{11 \\pi}{180} \\right)^{3} + \\frac{1}{120} \\times \\left( \\frac{11 \\pi}{180} \\right)^{5} - \\cdots , \\\\ &amp; \\text{取前两项的和和作为} \\sin 9^{\\circ} \\text{的近似值，其误差为} &amp; \\left| z_{2} \\right| \\leq \\frac{1}{120} \\times \\left( \\frac{11 \\pi}{180} \\right)^{5} &lt; \\frac{1}{120} \\times \\left( \\frac{1}{5} \\right)^{5} = \\frac{1}{375000} \\; , \\\\ &amp; \\text{所以} \\; \\sin 9^{\\circ} \\approx \\frac{11 \\pi}{180} - \\frac{1}{6} \\times \\left( \\frac{11 \\pi}{180} \\right)^{3} \\approx 0.19081 \\end{aligned}\">\\begin{aligned} &amp; \\text{由于} &amp; \\sin x = \\sum_{n=0}^{\\infty} (-1)^{n} \\frac{x^{2n+1}}{(2n+1)!} \\; , \\; \\; x \\in (-\\infty, \\infty) \\; ; \\\\ &amp; \\text{则} &amp; \\sin 11^{\\circ} = \\sin \\frac{11 \\pi}{180} = \\sum_{n=0}^{\\infty} (-1)^{n} \\frac{1}{(2n+1)!} \\left( \\frac{\\pi}{180} \\right)^{2n+1} = \\frac{11 \\pi}{180} - \\frac{1}{6} \\times \\left( \\frac{11 \\pi}{180} \\right)^{3} + \\frac{1}{120} \\times \\left( \\frac{11 \\pi}{180} \\right)^{5} - \\cdots , \\\\ &amp; \\text{取前两项的和和作为} \\sin 9^{\\circ} \\text{的近似值，其误差为} &amp; \\left| z_{2} \\right| \\leq \\frac{1}{120} \\times \\left( \\frac{11 \\pi}{180} \\right)^{5} &lt; \\frac{1}{120} \\times \\left( \\frac{1}{5} \\right)^{5} = \\frac{1}{375000} \\; , \\\\ &amp; \\text{所以} \\; \\sin 9^{\\circ} \\approx \\frac{11 \\pi}{180} - \\frac{1}{6} \\times \\left( \\frac{11 \\pi}{180} \\right)^{3} \\approx 0.19081 \\end{aligned}</div>"
     },
     {
       "id": "q0009",
       "number": 9,
       "header": "#9-Averge",
       "difficulty": "Averge",
-      "prompt_html": "<img src=\"/static/generated/assets/advanced-math/ch092/q0009_prompt.png\"/>",
+      "prompt_html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{利用幂级数的展开式求} \\ln 3 \\text{ (误差不超过} 10^{-4} \\text{)}\\text{的近似值} [ \\quad].\">\\text{利用幂级数的展开式求} \\ln 3 \\text{ (误差不超过} 10^{-4} \\text{)}\\text{的近似值} [ \\quad].</span>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch092/q0009_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\mathbf { 1 . 0587 } ;\">\\mathbf { 1 . 0587 } ;</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch092/q0009_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"1 . 0124 \\varphi\">1 . 0124 \\varphi</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch092/q0009_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\mathbf{01.0171};\">\\mathbf{01.0171};</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch092/q0009_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"1.0986;\">1.0986;</span>"
         }
       ],
       "answer": "D",
       "answer_index": 3,
-      "analysis_html": "<img src=\"/static/generated/assets/advanced-math/ch092/q0009_analysis.png\"/>"
+      "analysis_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{aligned}&amp;\\ln \\frac{1+x}{1-x}=\\ln(1+x)-\\ln(1-x)=2(x+\\frac{1}{3}x^3+\\frac{1}{5}x^5+\\cdots),\\ -1&lt;x&lt;1.\\\\&amp;\\text{令}\\frac{1+x}{1-x}=3,\\ \\text{解出}x=\\frac{1}{2},\\ \\text{以}x=\\frac{1}{2}\\text{代入上面的展开式，得} \\\\&amp;\\quad\\ln 3=2\\left[\\frac{1}{2}+\\frac{1}{3}\\times\\left(\\frac{1}{2}\\right)^3+\\frac{1}{5}\\times\\left(\\frac{1}{2}\\right)^5+\\frac{1}{7}\\times\\left(\\frac{1}{2}\\right)^7+\\cdots\\right],\\\\&amp;\\text{取前六项作为} \\ln 3 \\text{的近似值，则误差为} \\\\&amp;\\quad|r_6|=\\left[2\\left(\\frac{1}{13}\\times\\left(\\frac{1}{2}\\right)^{13}+\\frac{1}{15}\\times\\left(\\frac{1}{2}\\right)^{15}+\\frac{1}{17}\\times\\left(\\frac{1}{2}\\right)^{17}+\\cdots\\right]\\right.\\\\&amp;\\quad\\left.&lt;\\frac{1}{13}\\times\\frac{1}{2^{12}}\\left[1+\\frac{1}{2}+\\left(\\frac{1}{2}\\right)^2+\\left(\\frac{1}{2}\\right)^3+\\cdots\\right]=\\frac{1}{13}\\times\\frac{1}{2^{11}}=\\frac{1}{26624},\\right.\\\\&amp;\\text{所以} \\\\&amp;\\quad\\ln 3\\approx 2\\left[\\frac{1}{2}+\\frac{1}{3}\\times\\left(\\frac{1}{2}\\right)^3+\\frac{1}{5}\\times\\left(\\frac{1}{2}\\right)^5+\\frac{1}{7}\\times\\left(\\frac{1}{2}\\right)^7+\\frac{1}{9}\\times\\left(\\frac{1}{2}\\right)^9+\\frac{1}{11}\\times\\left(\\frac{1}{2}\\right)^{11}\\right]\\approx 1.0986.\\end{aligned}\">\\begin{aligned}&amp;\\ln \\frac{1+x}{1-x}=\\ln(1+x)-\\ln(1-x)=2(x+\\frac{1}{3}x^3+\\frac{1}{5}x^5+\\cdots),\\ -1&lt;x&lt;1.\\\\&amp;\\text{令}\\frac{1+x}{1-x}=3,\\ \\text{解出}x=\\frac{1}{2},\\ \\text{以}x=\\frac{1}{2}\\text{代入上面的展开式，得} \\\\&amp;\\quad\\ln 3=2\\left[\\frac{1}{2}+\\frac{1}{3}\\times\\left(\\frac{1}{2}\\right)^3+\\frac{1}{5}\\times\\left(\\frac{1}{2}\\right)^5+\\frac{1}{7}\\times\\left(\\frac{1}{2}\\right)^7+\\cdots\\right],\\\\&amp;\\text{取前六项作为} \\ln 3 \\text{的近似值，则误差为} \\\\&amp;\\quad|r_6|=\\left[2\\left(\\frac{1}{13}\\times\\left(\\frac{1}{2}\\right)^{13}+\\frac{1}{15}\\times\\left(\\frac{1}{2}\\right)^{15}+\\frac{1}{17}\\times\\left(\\frac{1}{2}\\right)^{17}+\\cdots\\right]\\right.\\\\&amp;\\quad\\left.&lt;\\frac{1}{13}\\times\\frac{1}{2^{12}}\\left[1+\\frac{1}{2}+\\left(\\frac{1}{2}\\right)^2+\\left(\\frac{1}{2}\\right)^3+\\cdots\\right]=\\frac{1}{13}\\times\\frac{1}{2^{11}}=\\frac{1}{26624},\\right.\\\\&amp;\\text{所以} \\\\&amp;\\quad\\ln 3\\approx 2\\left[\\frac{1}{2}+\\frac{1}{3}\\times\\left(\\frac{1}{2}\\right)^3+\\frac{1}{5}\\times\\left(\\frac{1}{2}\\right)^5+\\frac{1}{7}\\times\\left(\\frac{1}{2}\\right)^7+\\frac{1}{9}\\times\\left(\\frac{1}{2}\\right)^9+\\frac{1}{11}\\times\\left(\\frac{1}{2}\\right)^{11}\\right]\\approx 1.0986.\\end{aligned}</div>"
     }
-  ]
+  ],
+  "format": "latex",
+  "source_md": "gs/5.5.3_函数幂级数展开式的应用(9题)/5.5.3_函数幂级数展开式的应用(9题).md"
 }

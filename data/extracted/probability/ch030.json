@@ -13,392 +13,394 @@
       "number": 1,
       "header": "#1-Averge",
       "difficulty": "Averge",
-      "prompt_html": "<img src=\"/static/generated/assets/probability/ch030/q0001_prompt.png\"/>",
+      "prompt_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{array}{l} \\text {设} \\xi \\sim N(0,1), \\text {已知} \\xi \\text {的分布函数为} P\\{\\zeta \\leq x\\} = F(x)(0 \\leq x &lt; +\\infty) \\text {且} 0 &lt; a &lt; b, \\text {用分布函数} F(x) \\text {之值表示概率} \\\\ P\\{-b &lt; \\zeta \\leq -a\\} = (\\ )\\ . \\end{array}\">\\begin{array}{l} \\text {设} \\xi \\sim N(0,1), \\text {已知} \\xi \\text {的分布函数为} P\\{\\zeta \\leq x\\} = F(x)(0 \\leq x &lt; +\\infty) \\text {且} 0 &lt; a &lt; b, \\text {用分布函数} F(x) \\text {之值表示概率} \\\\ P\\{-b &lt; \\zeta \\leq -a\\} = (\\ )\\ . \\end{array}</div>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/probability/ch030/q0001_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"F(b) - F(a)\">F(b) - F(a)</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/probability/ch030/q0001_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\, F ( b ) + F ( a ) - 1 \\,\">\\, F ( b ) + F ( a ) - 1 \\,</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/probability/ch030/q0001_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"F(a) + 1 - F(b)\">F(a) + 1 - F(b)</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/probability/ch030/q0001_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\underline{2 - [F(a) + F(b)]}\">\\underline{2 - [F(a) + F(b)]}</span>"
         }
       ],
       "answer": "A",
       "answer_index": 0,
-      "analysis_html": "<img src=\"/static/generated/assets/probability/ch030/q0001_analysis.png\"/>"
+      "analysis_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{aligned}&amp;\\text{标准正态分布}F(x)\\text{在}x=-t\\,(t&gt;0)\\text{的概率计算为}F(-t)=1-F(t)\\,,\\\\&amp;\\text{故}\\,\\,\\,P\\{-b&lt;\\xi\\leq-a\\}=F(-a)-F(-b)=[1-F(a)]-[1-F(b)]=F(b)-F(a)\\,.\\end{aligned}\">\\begin{aligned}&amp;\\text{标准正态分布}F(x)\\text{在}x=-t\\,(t&gt;0)\\text{的概率计算为}F(-t)=1-F(t)\\,,\\\\&amp;\\text{故}\\,\\,\\,P\\{-b&lt;\\xi\\leq-a\\}=F(-a)-F(-b)=[1-F(a)]-[1-F(b)]=F(b)-F(a)\\,.\\end{aligned}</div>"
     },
     {
       "id": "q0002",
       "number": 2,
       "header": "#2-Easy",
       "difficulty": "Easy",
-      "prompt_html": "<img src=\"/static/generated/assets/probability/ch030/q0002_prompt.png\"/>",
+      "prompt_html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{设} \\, \\xi \\sim N(0,1)\\, , \\, \\text{且有} \\, \\Phi(2) = 0.97725 \\, , \\, \\text{则} \\, P\\{ \\xi &gt; 2 \\} = ( \\, ) \\, .\">\\text{设} \\, \\xi \\sim N(0,1)\\, , \\, \\text{且有} \\, \\Phi(2) = 0.97725 \\, , \\, \\text{则} \\, P\\{ \\xi &gt; 2 \\} = ( \\, ) \\, .</span>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/probability/ch030/q0002_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"0.02275\">0.02275</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/probability/ch030/q0002_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"0.97725\">0.97725</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/probability/ch030/q0002_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"0.95450\">0.95450</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/probability/ch030/q0002_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"0.4550\">0.4550</span>"
         }
       ],
       "answer": "A",
       "answer_index": 0,
-      "analysis_html": "<img src=\"/static/generated/assets/probability/ch030/q0002_analysis.png\"/>"
+      "analysis_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{aligned}\\text{由概率计算的逆事件求法得，}\\\\P\\{\\xi &gt; 2\\} = 1 - P\\{\\xi \\leq 2\\} = 1 - \\Phi(2) \\, = 0.02275\\end{aligned}\">\\begin{aligned}\\text{由概率计算的逆事件求法得，}\\\\P\\{\\xi &gt; 2\\} = 1 - P\\{\\xi \\leq 2\\} = 1 - \\Phi(2) \\, = 0.02275\\end{aligned}</div>"
     },
     {
       "id": "q0003",
       "number": 3,
       "header": "#3-Easy",
       "difficulty": "Easy",
-      "prompt_html": "<img src=\"/static/generated/assets/probability/ch030/q0003_prompt.png\"/>",
+      "prompt_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{aligned}\\text{设}\\,\\xi\\sim N(0,1),\\,\\,\\xi\\text{的分布函数}\\,P\\{\\xi\\leq x\\}=F(x)(0&lt;x&lt;+\\infty),\\,\\text{用分布函数}\\,F(x)\\text{之值表示概率}\\,P\\{\\xi&gt;a\\}=()\\,\\text{(其中}\\,\\,\\,a&gt;0)\\,.\\end{aligned}\">\\begin{aligned}\\text{设}\\,\\xi\\sim N(0,1),\\,\\,\\xi\\text{的分布函数}\\,P\\{\\xi\\leq x\\}=F(x)(0&lt;x&lt;+\\infty),\\,\\text{用分布函数}\\,F(x)\\text{之值表示概率}\\,P\\{\\xi&gt;a\\}=()\\,\\text{(其中}\\,\\,\\,a&gt;0)\\,.\\end{aligned}</div>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/probability/ch030/q0003_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"1 - F (a)\">1 - F (a)</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/probability/ch030/q0003_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"F (a)\">F (a)</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/probability/ch030/q0003_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\, 2 F ( a ) - 1\">\\, 2 F ( a ) - 1</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/probability/ch030/q0003_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"2[1-F(a)]\">2[1-F(a)]</span>"
         }
       ],
       "answer": "A",
       "answer_index": 0,
-      "analysis_html": "<img src=\"/static/generated/assets/probability/ch030/q0003_analysis.png\"/>"
+      "analysis_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{aligned}&amp;\\text{标准正态分布}F(x)\\text{在} (a,+\\infty)\\text{上的概率计算为}\\\\&amp;P\\{X&gt;a\\}=1-P\\{X\\leq a\\}=1-F(a)\\,,\\\\&amp;\\text{即}\\,\\,\\,P\\{\\xi&gt;a\\}=1-F(a)\\,.\\end{aligned}\">\\begin{aligned}&amp;\\text{标准正态分布}F(x)\\text{在} (a,+\\infty)\\text{上的概率计算为}\\\\&amp;P\\{X&gt;a\\}=1-P\\{X\\leq a\\}=1-F(a)\\,,\\\\&amp;\\text{即}\\,\\,\\,P\\{\\xi&gt;a\\}=1-F(a)\\,.\\end{aligned}</div>"
     },
     {
       "id": "q0004",
       "number": 4,
       "header": "#4-Easy",
       "difficulty": "Easy",
-      "prompt_html": "<img src=\"/static/generated/assets/probability/ch030/q0004_prompt.png\"/>",
+      "prompt_html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{设}\\,\\xi\\sim N(0,1)\\text{，且有}\\Phi(2.2)=0.9861\\,,\\ \\Phi(0.8)=0.7881\\,,\\ \\text{则}P\\{0.8&lt;\\xi&lt;2.2\\}=\\ (\\ )\\,.\">\\text{设}\\,\\xi\\sim N(0,1)\\text{，且有}\\Phi(2.2)=0.9861\\,,\\ \\Phi(0.8)=0.7881\\,,\\ \\text{则}P\\{0.8&lt;\\xi&lt;2.2\\}=\\ (\\ )\\,.</span>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/probability/ch030/q0004_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"0.1980\">0.1980</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/probability/ch030/q0004_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"0.8020\">0.8020</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/probability/ch030/q0004_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"0.2252\">0.2252</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/probability/ch030/q0004_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"0.7748\">0.7748</span>"
         }
       ],
       "answer": "A",
       "answer_index": 0,
-      "analysis_html": "<img src=\"/static/generated/assets/probability/ch030/q0004_analysis.png\"/>"
+      "analysis_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{aligned}&amp;\\text{标准正态分布在某区间内的概率计算式为}\\\\&amp;P\\{a&lt;X&lt;b\\}=P\\{a\\leq X\\leq b\\}=P\\{a\\leq X&lt;b\\}=P\\{a&lt;X\\leq b\\}=\\Phi(b)-\\Phi(a).\\\\&amp;\\text{故}P\\{0.8&lt;\\xi&lt;2.2\\}=\\Phi(2.2)-\\Phi(0.8)=0.198.\\end{aligned}\">\\begin{aligned}&amp;\\text{标准正态分布在某区间内的概率计算式为}\\\\&amp;P\\{a&lt;X&lt;b\\}=P\\{a\\leq X\\leq b\\}=P\\{a\\leq X&lt;b\\}=P\\{a&lt;X\\leq b\\}=\\Phi(b)-\\Phi(a).\\\\&amp;\\text{故}P\\{0.8&lt;\\xi&lt;2.2\\}=\\Phi(2.2)-\\Phi(0.8)=0.198.\\end{aligned}</div>"
     },
     {
       "id": "q0005",
       "number": 5,
       "header": "#5-Easy",
       "difficulty": "Easy",
-      "prompt_html": "<img src=\"/static/generated/assets/probability/ch030/q0005_prompt.png\"/>",
+      "prompt_html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{设随机变量}X\\sim N(0,1),\\ X\\text{的分布函数为}\\Phi(x),\\ \\text{则}P\\{X|&gt;2\\}\\text{的值为}()\">\\text{设随机变量}X\\sim N(0,1),\\ X\\text{的分布函数为}\\Phi(x),\\ \\text{则}P\\{X|&gt;2\\}\\text{的值为}()</span>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/probability/ch030/q0005_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\begin{aligned}2[1-\\Phi(2)]\\end{aligned}\">\\begin{aligned}2[1-\\Phi(2)]\\end{aligned}</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/probability/ch030/q0005_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"2 \\Phi ( 2 ) - 1\">2 \\Phi ( 2 ) - 1</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/probability/ch030/q0005_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\, 2 - \\Phi ( 2 )\">\\, 2 - \\Phi ( 2 )</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/probability/ch030/q0005_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\begin{array}{l} 1 - 2 \\Phi (2) \\end{array}\">\\begin{array}{l} 1 - 2 \\Phi (2) \\end{array}</span>"
         }
       ],
       "answer": "A",
       "answer_index": 0,
-      "analysis_html": "<img src=\"/static/generated/assets/probability/ch030/q0005_analysis.png\"/>"
+      "analysis_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{aligned}P\\{X|&gt;2\\}&amp;=1-P\\{|X|\\leq 2\\}\\\\&amp;=1-P\\{-2\\leq X\\leq 2\\}\\\\&amp;=1-[\\Phi(2)-\\Phi(-2)]\\,,\\\\ \\text{又}\\Phi(-x)&amp;=1-\\Phi(x)\\,,\\,\\,\\text{所以}\\\\P\\{X|&gt;2\\}&amp;=2-2\\Phi(2)\\,.\\end{aligned}\">\\begin{aligned}P\\{X|&gt;2\\}&amp;=1-P\\{|X|\\leq 2\\}\\\\&amp;=1-P\\{-2\\leq X\\leq 2\\}\\\\&amp;=1-[\\Phi(2)-\\Phi(-2)]\\,,\\\\ \\text{又}\\Phi(-x)&amp;=1-\\Phi(x)\\,,\\,\\,\\text{所以}\\\\P\\{X|&gt;2\\}&amp;=2-2\\Phi(2)\\,.\\end{aligned}</div>"
     },
     {
       "id": "q0006",
       "number": 6,
       "header": "#6-Averge",
       "difficulty": "Averge",
-      "prompt_html": "<img src=\"/static/generated/assets/probability/ch030/q0006_prompt.png\"/>",
+      "prompt_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{array}{l} \\text {设} \\xi \\sim N(0,1),\\ \\zeta \\text {的分布函数} P\\{\\xi \\leq x\\} = F(x)\\ (0 \\leq x &lt; +\\infty) \\text {且} a &gt; 0,\\ h &gt; 0,\\ \\text {用分布函数} F(x) \\text {之值表示概率} \\\\ P\\{-a &lt; \\zeta \\leq b\\} = (\\ )\\ . \\end{array}\">\\begin{array}{l} \\text {设} \\xi \\sim N(0,1),\\ \\zeta \\text {的分布函数} P\\{\\xi \\leq x\\} = F(x)\\ (0 \\leq x &lt; +\\infty) \\text {且} a &gt; 0,\\ h &gt; 0,\\ \\text {用分布函数} F(x) \\text {之值表示概率} \\\\ P\\{-a &lt; \\zeta \\leq b\\} = (\\ )\\ . \\end{array}</div>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/probability/ch030/q0006_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"F(b) + F(a) - 1\">F(b) + F(a) - 1</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/probability/ch030/q0006_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"2 - [ F ( b ) + F ( a ) ]\">2 - [ F ( b ) + F ( a ) ]</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/probability/ch030/q0006_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"F(b) + F(a)\">F(b) + F(a)</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/probability/ch030/q0006_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"|F(b)-F(a)|\">|F(b)-F(a)|</span>"
         }
       ],
       "answer": "A",
       "answer_index": 0,
-      "analysis_html": "<img src=\"/static/generated/assets/probability/ch030/q0006_analysis.png\"/>"
+      "analysis_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{aligned}&amp;\\text{由分布函数的概率计算式子} \\ P\\{a &lt; X \\leq b\\} = F(b) - F(-a) \\text{得} \\\\&amp;P\\{-a &lt; \\xi \\leq b\\} = F(b) - F(-a)\\,, \\\\&amp;\\text{又根据标准正态分布的对称性有} \\\\&amp;\\Phi(-t) = 1 - \\Phi(t) \\ (t &gt; 0)\\,, \\\\&amp;\\text{所以} \\ \\ P\\{a &lt; \\xi \\leq b\\} = F(b) - F(-a) = F(b) + F(a) - 1\\,.\\end{aligned}\">\\begin{aligned}&amp;\\text{由分布函数的概率计算式子} \\ P\\{a &lt; X \\leq b\\} = F(b) - F(-a) \\text{得} \\\\&amp;P\\{-a &lt; \\xi \\leq b\\} = F(b) - F(-a)\\,, \\\\&amp;\\text{又根据标准正态分布的对称性有} \\\\&amp;\\Phi(-t) = 1 - \\Phi(t) \\ (t &gt; 0)\\,, \\\\&amp;\\text{所以} \\ \\ P\\{a &lt; \\xi \\leq b\\} = F(b) - F(-a) = F(b) + F(a) - 1\\,.\\end{aligned}</div>"
     },
     {
       "id": "q0007",
       "number": 7,
       "header": "#7-Easy",
       "difficulty": "Easy",
-      "prompt_html": "<img src=\"/static/generated/assets/probability/ch030/q0007_prompt.png\"/>",
+      "prompt_html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{设} \\, \\xi \\sim N(0,1)\\text{，且有} \\, \\Phi(1.96) = 0.975 \\, , \\text{则} \\, P\\{|\\xi| &gt; 1.96\\} \\, = \\, ( \\, ) \\, .\">\\text{设} \\, \\xi \\sim N(0,1)\\text{，且有} \\, \\Phi(1.96) = 0.975 \\, , \\text{则} \\, P\\{|\\xi| &gt; 1.96\\} \\, = \\, ( \\, ) \\, .</span>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/probability/ch030/q0007_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"0.05\">0.05</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/probability/ch030/q0007_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"0.025\">0.025</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/probability/ch030/q0007_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"0.10\">0.10</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/probability/ch030/q0007_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"0.075\">0.075</span>"
         }
       ],
       "answer": "A",
       "answer_index": 0,
-      "analysis_html": "<img src=\"/static/generated/assets/probability/ch030/q0007_analysis.png\"/>"
+      "analysis_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{aligned}&amp;\\text{标准正态分布在} \\, |X|\\leq a \\text{的概率计算式为}\\\\&amp;P\\{|X\\leq a\\}=P\\{X=a\\}-P\\{X=-a\\}=2\\times \\Phi(a)-1\\,.\\\\&amp;\\text{所以}P\\{|\\xi|&gt;1.96\\}=1-P\\{|\\xi|\\leq 1.96\\}=2-2\\times \\Phi(1.96)=0.05\\,.\\end{aligned}\">\\begin{aligned}&amp;\\text{标准正态分布在} \\, |X|\\leq a \\text{的概率计算式为}\\\\&amp;P\\{|X\\leq a\\}=P\\{X=a\\}-P\\{X=-a\\}=2\\times \\Phi(a)-1\\,.\\\\&amp;\\text{所以}P\\{|\\xi|&gt;1.96\\}=1-P\\{|\\xi|\\leq 1.96\\}=2-2\\times \\Phi(1.96)=0.05\\,.\\end{aligned}</div>"
     },
     {
       "id": "q0008",
       "number": 8,
       "header": "#8-Easy",
       "difficulty": "Easy",
-      "prompt_html": "<img src=\"/static/generated/assets/probability/ch030/q0008_prompt.png\"/>",
+      "prompt_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{array}{l} \\text {设} \\zeta \\sim N(0,1), \\text {已知} \\zeta \\text {的分布函数} P\\{\\zeta \\leq x\\} = F(x)(0 \\leq x &lt; + \\infty) \\text {且} a &gt; 0, \\text {用分布函数} F(x) \\text {之值表示概率} \\\\ P\\{\\xi &lt; a\\} = (\\quad). \\end{array}\">\\begin{array}{l} \\text {设} \\zeta \\sim N(0,1), \\text {已知} \\zeta \\text {的分布函数} P\\{\\zeta \\leq x\\} = F(x)(0 \\leq x &lt; + \\infty) \\text {且} a &gt; 0, \\text {用分布函数} F(x) \\text {之值表示概率} \\\\ P\\{\\xi &lt; a\\} = (\\quad). \\end{array}</div>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/probability/ch030/q0008_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"2 F ( a ) - 1\">2 F ( a ) - 1</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/probability/ch030/q0008_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"F(a)\">F(a)</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/probability/ch030/q0008_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"1 - F (a)\">1 - F (a)</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/probability/ch030/q0008_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"2[1-F(a)]\">2[1-F(a)]</span>"
         }
       ],
       "answer": "A",
       "answer_index": 0,
-      "analysis_html": "<img src=\"/static/generated/assets/probability/ch030/q0008_analysis.png\"/>"
+      "analysis_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{aligned}\\text{由标准正态分布的对称性，有} \\\\P\\{|\\xi|&lt;a\\}&amp;=P\\{-a&lt;\\xi&lt;a\\}=F(a)-F(-a)=2F(a)-1\\;.\\end{aligned}\">\\begin{aligned}\\text{由标准正态分布的对称性，有} \\\\P\\{|\\xi|&lt;a\\}&amp;=P\\{-a&lt;\\xi&lt;a\\}=F(a)-F(-a)=2F(a)-1\\;.\\end{aligned}</div>"
     },
     {
       "id": "q0009",
       "number": 9,
       "header": "#9-Easy",
       "difficulty": "Easy",
-      "prompt_html": "<img src=\"/static/generated/assets/probability/ch030/q0009_prompt.png\"/>",
+      "prompt_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{array}{l} \\text {设} \\xi \\sim N(0,1),\\ \\xi \\text {的分布函数} P\\{\\xi \\leq x\\} = F(x)(0 &lt; x &lt; +\\infty), \\text {用分布函数} F(x) \\text {之值表示概率} P\\{\\xi \\leq -a\\} = (\\ ) \\text {(其中} \\\\ a &gt; 0\\text {).} \\end{array}\">\\begin{array}{l} \\text {设} \\xi \\sim N(0,1),\\ \\xi \\text {的分布函数} P\\{\\xi \\leq x\\} = F(x)(0 &lt; x &lt; +\\infty), \\text {用分布函数} F(x) \\text {之值表示概率} P\\{\\xi \\leq -a\\} = (\\ ) \\text {(其中} \\\\ a &gt; 0\\text {).} \\end{array}</div>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/probability/ch030/q0009_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"1 - F (a)\">1 - F (a)</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/probability/ch030/q0009_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"F (a)\">F (a)</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/probability/ch030/q0009_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"2 F ( a ) - 1\">2 F ( a ) - 1</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/probability/ch030/q0009_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"2[1-F(a)]\">2[1-F(a)]</span>"
         }
       ],
       "answer": "A",
       "answer_index": 0,
-      "analysis_html": "<img src=\"/static/generated/assets/probability/ch030/q0009_analysis.png\"/>"
+      "analysis_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{array}{l}\\text{标准正态分布}F(x)\\text{在}x=-t\\,(t&gt;0)\\text{的概率计算为}F(-t)=1-F(t)\\,,\\\\ \\text{故}\\,\\,\\,P\\{\\xi\\leq-a\\}=F(-a)=1-F(a)\\,.\\end{array}\">\\begin{array}{l}\\text{标准正态分布}F(x)\\text{在}x=-t\\,(t&gt;0)\\text{的概率计算为}F(-t)=1-F(t)\\,,\\\\ \\text{故}\\,\\,\\,P\\{\\xi\\leq-a\\}=F(-a)=1-F(a)\\,.\\end{array}</div>"
     },
     {
       "id": "q0010",
       "number": 10,
       "header": "#10-Easy",
       "difficulty": "Easy",
-      "prompt_html": "<img src=\"/static/generated/assets/probability/ch030/q0010_prompt.png\"/>",
+      "prompt_html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{设} \\, \\xi \\sim N(0,1)\\text{，且有} \\, \\Phi(1.6) = 0.9452\\text{，则} \\, P\\{\\xi &lt; -1.6\\} = (\\enspace).\">\\text{设} \\, \\xi \\sim N(0,1)\\text{，且有} \\, \\Phi(1.6) = 0.9452\\text{，则} \\, P\\{\\xi &lt; -1.6\\} = (\\enspace).</span>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/probability/ch030/q0010_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"0.0548\">0.0548</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/probability/ch030/q0010_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"0.1096\">0.1096</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/probability/ch030/q0010_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"0.8904\">0.8904</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/probability/ch030/q0010_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"0.9452\">0.9452</span>"
         }
       ],
       "answer": "A",
       "answer_index": 0,
-      "analysis_html": "<img src=\"/static/generated/assets/probability/ch030/q0010_analysis.png\"/>"
+      "analysis_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{aligned}&amp;\\text{标准正态分布在}(-\\infty,a]\\text{的概率计算为}\\\\&amp;P\\{X\\leq a\\}=P\\{X&lt;a\\}=\\Phi(a)\\,,\\\\&amp;\\text{又}\\ \\ \\Phi(-t)=1-\\Phi(t)\\ (t\\geq 0)\\,,\\\\&amp;\\text{所以}\\ \\ P\\{\\xi&lt;1.6\\}=\\Phi(-1.6)=1-\\Phi(1.6)=0.0548\\,.\\end{aligned}\">\\begin{aligned}&amp;\\text{标准正态分布在}(-\\infty,a]\\text{的概率计算为}\\\\&amp;P\\{X\\leq a\\}=P\\{X&lt;a\\}=\\Phi(a)\\,,\\\\&amp;\\text{又}\\ \\ \\Phi(-t)=1-\\Phi(t)\\ (t\\geq 0)\\,,\\\\&amp;\\text{所以}\\ \\ P\\{\\xi&lt;1.6\\}=\\Phi(-1.6)=1-\\Phi(1.6)=0.0548\\,.\\end{aligned}</div>"
     },
     {
       "id": "q0011",
       "number": 11,
       "header": "#11-Easy",
       "difficulty": "Easy",
-      "prompt_html": "<img src=\"/static/generated/assets/probability/ch030/q0011_prompt.png\"/>",
+      "prompt_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{array}{l} \\text {设} \\xi \\sim N(0,1), \\text {已知} \\xi \\text {的分布函数为} P\\{\\xi \\leq x\\} = F(x)(0 \\leq x &lt; +\\infty) \\text {且} 0 &lt; a &lt; b, \\text {用分布函数} F(x) \\text {之值表示概率} \\\\ P\\{a &lt; \\xi \\leq b\\} = (\\ ) . \\end{array}\">\\begin{array}{l} \\text {设} \\xi \\sim N(0,1), \\text {已知} \\xi \\text {的分布函数为} P\\{\\xi \\leq x\\} = F(x)(0 \\leq x &lt; +\\infty) \\text {且} 0 &lt; a &lt; b, \\text {用分布函数} F(x) \\text {之值表示概率} \\\\ P\\{a &lt; \\xi \\leq b\\} = (\\ ) . \\end{array}</div>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/probability/ch030/q0011_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\, . \\, F ( b ) - F ( a )\">\\, . \\, F ( b ) - F ( a )</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/probability/ch030/q0011_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\, F ( b ) + F ( a ) - 1 \\,\">\\, F ( b ) + F ( a ) - 1 \\,</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/probability/ch030/q0011_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"F(a) + 1 - F(b)\">F(a) + 1 - F(b)</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/probability/ch030/q0011_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"2 - [ F ( a ) + F ( b ) ]\">2 - [ F ( a ) + F ( b ) ]</span>"
         }
       ],
       "answer": "A",
       "answer_index": 0,
-      "analysis_html": "<img src=\"/static/generated/assets/probability/ch030/q0011_analysis.png\"/>"
+      "analysis_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{aligned}&amp;\\text{由定义} \\; P\\{\\xi \\leq x\\} = F(x) \\text{有} \\\\&amp;\\;\\;\\; P\\{a &lt; \\xi \\leq b\\} = P\\{\\xi \\leq b\\} - P\\{\\xi \\leq a\\} = F(b) - F(a).\\end{aligned}\">\\begin{aligned}&amp;\\text{由定义} \\; P\\{\\xi \\leq x\\} = F(x) \\text{有} \\\\&amp;\\;\\;\\; P\\{a &lt; \\xi \\leq b\\} = P\\{\\xi \\leq b\\} - P\\{\\xi \\leq a\\} = F(b) - F(a).\\end{aligned}</div>"
     },
     {
       "id": "q0012",
       "number": 12,
       "header": "#12-Easy",
       "difficulty": "Easy",
-      "prompt_html": "<img src=\"/static/generated/assets/probability/ch030/q0012_prompt.png\"/>",
+      "prompt_html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{设 } \\xi \\sim N(0,1)\\text{，且有 } \\Phi(2.12) = 0.983\\text{，}\\Phi(1.16) = 0.877\\text{，则 } P\\{-2.12 &lt; \\xi &lt; 1.16\\} = (\\text{ })\\text{。}\">\\text{设 } \\xi \\sim N(0,1)\\text{，且有 } \\Phi(2.12) = 0.983\\text{，}\\Phi(1.16) = 0.877\\text{，则 } P\\{-2.12 &lt; \\xi &lt; 1.16\\} = (\\text{ })\\text{。}</span>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/probability/ch030/q0012_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"0.860\">0.860</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/probability/ch030/q0012_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"0.106\">0.106</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/probability/ch030/q0012_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"0.894\">0.894</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/probability/ch030/q0012_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"0.140\">0.140</span>"
         }
       ],
       "answer": "A",
       "answer_index": 0,
-      "analysis_html": "<img src=\"/static/generated/assets/probability/ch030/q0012_analysis.png\"/>"
+      "analysis_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{aligned}&amp;\\text{标准正态分布在某区间内的概率计算式为}\\\\&amp;P\\{a&lt;X&lt;b\\}=P\\{a\\leq X\\leq b\\}=P\\{a\\leq X&lt;b\\}=P\\{a&lt;X\\leq b\\}=\\Phi(b)-\\Phi(a).\\\\&amp;\\text{故}P\\{-2.12&lt;\\xi&lt;1.16\\}=\\Phi(1.16)-\\Phi(-2.12),\\\\&amp;\\text{又}\\quad\\Phi(-2.12)=1-\\Phi(2.12),\\\\&amp;\\text{所以}P\\{-2.12&lt;\\xi&lt;1.16\\}=\\Phi(1.16)-\\Phi(-2.12)=\\Phi(1.16)+\\Phi(2.12)-1=0.860\\,.\\end{aligned}\">\\begin{aligned}&amp;\\text{标准正态分布在某区间内的概率计算式为}\\\\&amp;P\\{a&lt;X&lt;b\\}=P\\{a\\leq X\\leq b\\}=P\\{a\\leq X&lt;b\\}=P\\{a&lt;X\\leq b\\}=\\Phi(b)-\\Phi(a).\\\\&amp;\\text{故}P\\{-2.12&lt;\\xi&lt;1.16\\}=\\Phi(1.16)-\\Phi(-2.12),\\\\&amp;\\text{又}\\quad\\Phi(-2.12)=1-\\Phi(2.12),\\\\&amp;\\text{所以}P\\{-2.12&lt;\\xi&lt;1.16\\}=\\Phi(1.16)-\\Phi(-2.12)=\\Phi(1.16)+\\Phi(2.12)-1=0.860\\,.\\end{aligned}</div>"
     },
     {
       "id": "q0013",
       "number": 13,
       "header": "#13-Easy",
       "difficulty": "Easy",
-      "prompt_html": "<img src=\"/static/generated/assets/probability/ch030/q0013_prompt.png\"/>",
+      "prompt_html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{设 } \\xi \\sim N(0,1)\\text{，且有 } \\Phi(1) = 0.8413\\text{，则 } P\\{\\xi &gt; -1\\} = ( ) \\, .\">\\text{设 } \\xi \\sim N(0,1)\\text{，且有 } \\Phi(1) = 0.8413\\text{，则 } P\\{\\xi &gt; -1\\} = ( ) \\, .</span>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/probability/ch030/q0013_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"0.8413\">0.8413</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/probability/ch030/q0013_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"0.6826\">0.6826</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/probability/ch030/q0013_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"0.1587\">0.1587</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/probability/ch030/q0013_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"0.3174\">0.3174</span>"
         }
       ],
       "answer": "A",
       "answer_index": 0,
-      "analysis_html": "<img src=\"/static/generated/assets/probability/ch030/q0013_analysis.png\"/>"
+      "analysis_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{aligned}&amp;\\text{标准正态分布} (a,+\\infty) \\text{的概率计算式子为}\\\\&amp;\\quad P\\{X&gt;a\\}=1-P\\{X\\leq a\\}=1-\\Phi(a)\\,,\\\\&amp;\\text{又}\\quad\\Phi(-t)=1-\\Phi(t)\\ (t\\geq 0)\\,,\\\\&amp;\\text{所以}\\quad P\\{\\xi&gt;-1\\}=1-\\Phi(-1)=1-(1-\\Phi(1))=\\Phi(1)=0.8413\\,.\\end{aligned}\">\\begin{aligned}&amp;\\text{标准正态分布} (a,+\\infty) \\text{的概率计算式子为}\\\\&amp;\\quad P\\{X&gt;a\\}=1-P\\{X\\leq a\\}=1-\\Phi(a)\\,,\\\\&amp;\\text{又}\\quad\\Phi(-t)=1-\\Phi(t)\\ (t\\geq 0)\\,,\\\\&amp;\\text{所以}\\quad P\\{\\xi&gt;-1\\}=1-\\Phi(-1)=1-(1-\\Phi(1))=\\Phi(1)=0.8413\\,.\\end{aligned}</div>"
     },
     {
       "id": "q0014",
       "number": 14,
       "header": "#14-Easy",
       "difficulty": "Easy",
-      "prompt_html": "<img src=\"/static/generated/assets/probability/ch030/q0014_prompt.png\"/>",
+      "prompt_html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{设}\\,\\xi\\sim N(0,1)\\text{，且有}\\Phi(2)=0.97725\\text{，则}P\\{\\xi&lt;2\\}=\\left(\\,\\right).\">\\text{设}\\,\\xi\\sim N(0,1)\\text{，且有}\\Phi(2)=0.97725\\text{，则}P\\{\\xi&lt;2\\}=\\left(\\,\\right).</span>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/probability/ch030/q0014_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"0.97725\">0.97725</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/probability/ch030/q0014_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\mathbf { 0 . 95450 }\">\\mathbf { 0 . 95450 }</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/probability/ch030/q0014_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"0.02275\">0.02275</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/probability/ch030/q0014_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"0.04550\">0.04550</span>"
         }
       ],
       "answer": "A",
       "answer_index": 0,
-      "analysis_html": "<img src=\"/static/generated/assets/probability/ch030/q0014_analysis.png\"/>"
+      "analysis_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{aligned}&amp;\\text{标准正态分布的概率计算式子之一为}\\\\&amp;P\\{X\\leq a\\}=P\\{X&lt;a\\}=\\Phi(a)\\,,\\\\&amp;\\text{故}\\,\\,\\,P\\{\\xi&lt;2\\}=\\Phi(2)=0.97725\\,.\\end{aligned}\">\\begin{aligned}&amp;\\text{标准正态分布的概率计算式子之一为}\\\\&amp;P\\{X\\leq a\\}=P\\{X&lt;a\\}=\\Phi(a)\\,,\\\\&amp;\\text{故}\\,\\,\\,P\\{\\xi&lt;2\\}=\\Phi(2)=0.97725\\,.\\end{aligned}</div>"
     }
-  ]
+  ],
+  "format": "latex",
+  "source_md": "gl/2.2.4.1.2_正态分布(14题)/2.2.4.1.2_正态分布(14题).md"
 }

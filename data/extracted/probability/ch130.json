@@ -13,476 +13,478 @@
       "number": 1,
       "header": "#1-Averge",
       "difficulty": "Averge",
-      "prompt_html": "<img src=\"/static/generated/assets/probability/ch130/q0001_prompt.png\"/>",
+      "prompt_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{array}{l} \\text {设总体} X \\sim F(x),\\ E(X)=\\mu,\\ D(X)=\\sigma^{2}, \\text {已知}\\sigma^{2}.\\text {从总体} X \\text {抽取容量} n \\text {较大的样本} X_{1},X_{2},\\cdots,X_{n}.\\text {对于假设检验} \\\\ H_{0}:\\mu=\\mu_{0}\\Leftrightarrow H_{1}:\\mu&lt;\\mu_{0}.\\text {设显著水平为}\\alpha,\\text{则检验统计量是} \\underline{\\hspace{2em}} \\text{，检验拒绝域}W=\\underline{\\hspace{2em}}。() \\end{array}\">\\begin{array}{l} \\text {设总体} X \\sim F(x),\\ E(X)=\\mu,\\ D(X)=\\sigma^{2}, \\text {已知}\\sigma^{2}.\\text {从总体} X \\text {抽取容量} n \\text {较大的样本} X_{1},X_{2},\\cdots,X_{n}.\\text {对于假设检验} \\\\ H_{0}:\\mu=\\mu_{0}\\Leftrightarrow H_{1}:\\mu&lt;\\mu_{0}.\\text {设显著水平为}\\alpha,\\text{则检验统计量是} \\underline{\\hspace{2em}} \\text{，检验拒绝域}W=\\underline{\\hspace{2em}}。() \\end{array}</div>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/probability/ch130/q0001_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\begin{aligned}U = \\frac{\\left(\\overline{X} - \\mu_{0}\\right)}{\\sigma} \\sqrt{n}\\,,\\;\\; W = \\left\\{ u &lt; -u_{\\alpha}\\right\\}\\end{aligned}\">\\begin{aligned}U = \\frac{\\left(\\overline{X} - \\mu_{0}\\right)}{\\sigma} \\sqrt{n}\\,,\\;\\; W = \\left\\{ u &lt; -u_{\\alpha}\\right\\}\\end{aligned}</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/probability/ch130/q0001_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\begin{aligned}u = \\frac{\\left(\\bar{x} - \\mu_{0}\\right)}{\\sigma} \\sqrt{n}\\,,\\;\\; W = \\left\\{ u &lt; -u_{\\alpha}\\right\\}\\end{aligned}\">\\begin{aligned}u = \\frac{\\left(\\bar{x} - \\mu_{0}\\right)}{\\sigma} \\sqrt{n}\\,,\\;\\; W = \\left\\{ u &lt; -u_{\\alpha}\\right\\}\\end{aligned}</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/probability/ch130/q0001_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\begin{array}{l} { r } { U = \\frac { \\left( \\overline { { X } } - \\mu _ { 0 } \\right) } { \\sigma } \\sqrt { n } \\, , \\; \\; W = \\left\\{ u &gt; u _ { \\alpha } \\right\\} } \\end{array}\">\\begin{array}{l} { r } { U = \\frac { \\left( \\overline { { X } } - \\mu _ { 0 } \\right) } { \\sigma } \\sqrt { n } \\, , \\; \\; W = \\left\\{ u &gt; u _ { \\alpha } \\right\\} } \\end{array}</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/probability/ch130/q0001_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\begin{array}{l} { r } { u = \\frac { \\left( \\overline { { x } } - \\mu _ { 0 } \\right) } { \\sigma } \\sqrt { n } \\, , \\; \\; W = \\left\\{ \\, | u | &lt; u _ { \\alpha } \\right\\} } \\end{array}\">\\begin{array}{l} { r } { u = \\frac { \\left( \\overline { { x } } - \\mu _ { 0 } \\right) } { \\sigma } \\sqrt { n } \\, , \\; \\; W = \\left\\{ \\, | u | &lt; u _ { \\alpha } \\right\\} } \\end{array}</span>"
         }
       ],
       "answer": "A",
       "answer_index": 0,
-      "analysis_html": "<img src=\"/static/generated/assets/probability/ch130/q0001_analysis.png\"/>"
+      "analysis_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{aligned}&amp;H_0 \\text{成立时，}\\frac{\\overline{x}-\\mu_0}{\\sigma \\sqrt{n}} \\text{近似服从}N(0,1) \\text{分布，故用单正态总体方差已知时均值的检验。其过程如下：}\\\\&amp;(1) \\text{检验假设为}H_0; \\mu=\\mu_0;\\ H_1; \\mu&gt;\\mu_0.\\\\&amp;(2) \\text{当}H_0 \\text{为真时，有}U=\\frac{\\overline{X}-\\mu_0}{\\sigma \\sqrt{n}} \\sim N(0,1) \\text{，记}U \\text{的样本计算值}u，\\text{则拒绝域为} |u|&gt;u_{a2}，\\text{其中} u_{a2}\\text{为标准正态分布的分位数}。\\\\&amp;\\text{另外}：\\\\&amp;\\text{右侧检验：}H_0; \\mu \\leq \\mu_0;\\ H_1; \\mu&gt;\\mu_0.\\ \\text{此时拒绝域为}u&gt;u_a.\\\\&amp;\\text{左侧检验：}H_0; \\mu \\geq \\mu_0;\\ H_1; \\mu&lt;\\mu_0.\\ \\text{此时拒绝域为}u&lt;-u_a.\\end{aligned}\">\\begin{aligned}&amp;H_0 \\text{成立时，}\\frac{\\overline{x}-\\mu_0}{\\sigma \\sqrt{n}} \\text{近似服从}N(0,1) \\text{分布，故用单正态总体方差已知时均值的检验。其过程如下：}\\\\&amp;(1) \\text{检验假设为}H_0; \\mu=\\mu_0;\\ H_1; \\mu&gt;\\mu_0.\\\\&amp;(2) \\text{当}H_0 \\text{为真时，有}U=\\frac{\\overline{X}-\\mu_0}{\\sigma \\sqrt{n}} \\sim N(0,1) \\text{，记}U \\text{的样本计算值}u，\\text{则拒绝域为} |u|&gt;u_{a2}，\\text{其中} u_{a2}\\text{为标准正态分布的分位数}。\\\\&amp;\\text{另外}：\\\\&amp;\\text{右侧检验：}H_0; \\mu \\leq \\mu_0;\\ H_1; \\mu&gt;\\mu_0.\\ \\text{此时拒绝域为}u&gt;u_a.\\\\&amp;\\text{左侧检验：}H_0; \\mu \\geq \\mu_0;\\ H_1; \\mu&lt;\\mu_0.\\ \\text{此时拒绝域为}u&lt;-u_a.\\end{aligned}</div>"
     },
     {
       "id": "q0002",
       "number": 2,
       "header": "#2-Averge",
       "difficulty": "Averge",
-      "prompt_html": "<img src=\"/static/generated/assets/probability/ch130/q0002_prompt.png\"/>",
+      "prompt_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{array}{l} \\text{一位中学校长在报纸上看到这样的报道：“这一城市的初中学生平均每周看8小时电视。”她认为她所领导的学校，学生看电视时间明显小于该数字.为此，她向她的学校的100名初中学生作了调查，得知平均每周看电视的时间} \\\\ x = 6.5 \\text{小时，样本标准差为} s = 2 \\text{小时，问是否可以认为这位校长的看法是对的(} \\alpha = 0.05 \\text{)}? \\end{array}\">\\begin{array}{l} \\text{一位中学校长在报纸上看到这样的报道：“这一城市的初中学生平均每周看8小时电视。”她认为她所领导的学校，学生看电视时间明显小于该数字.为此，她向她的学校的100名初中学生作了调查，得知平均每周看电视的时间} \\\\ x = 6.5 \\text{小时，样本标准差为} s = 2 \\text{小时，问是否可以认为这位校长的看法是对的(} \\alpha = 0.05 \\text{)}? \\end{array}</div>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/probability/ch130/q0002_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{对}\">\\text{对}</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/probability/ch130/q0002_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{不对}\">\\text{不对}</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/probability/ch130/q0002_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{无法判断}\">\\text{无法判断}</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/probability/ch130/q0002_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{其它论点均不正确}\">\\text{其它论点均不正确}</span>"
         }
       ],
       "answer": "A",
       "answer_index": 0,
-      "analysis_html": "<img src=\"/static/generated/assets/probability/ch130/q0002_analysis.png\"/>"
+      "analysis_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{aligned}&amp;\\text{检验假设}H_{0}: \\mu=8,H_{1}: \\mu&lt;8.\\\\&amp;\\text{由于}n=100,\\text{所以}T=\\frac{\\bar{X}-\\mu}{S\\sqrt{n}}\\text{近似服从}N(0,1)\\text{分布},\\alpha=0.05,u_{0.05}=1.645.\\\\&amp;\\text{又知}x=6.5,s=2,\\text{故计算得}\\\\&amp;\\qquad t=\\frac{6.5-8}{2\\sqrt{100}}=-7.5,\\\\&amp;\\text{否定域}W=\\left\\{\\frac{\\bar{X}-8}{S\\sqrt{n}}&lt;-u_{0.05}\\right\\}.\\\\&amp;\\text{因为}-7.5&lt;-1.645,\\text{故否定}H_{0},\\text{认为这位校长的看法是对的。}\\end{aligned}\">\\begin{aligned}&amp;\\text{检验假设}H_{0}: \\mu=8,H_{1}: \\mu&lt;8.\\\\&amp;\\text{由于}n=100,\\text{所以}T=\\frac{\\bar{X}-\\mu}{S\\sqrt{n}}\\text{近似服从}N(0,1)\\text{分布},\\alpha=0.05,u_{0.05}=1.645.\\\\&amp;\\text{又知}x=6.5,s=2,\\text{故计算得}\\\\&amp;\\qquad t=\\frac{6.5-8}{2\\sqrt{100}}=-7.5,\\\\&amp;\\text{否定域}W=\\left\\{\\frac{\\bar{X}-8}{S\\sqrt{n}}&lt;-u_{0.05}\\right\\}.\\\\&amp;\\text{因为}-7.5&lt;-1.645,\\text{故否定}H_{0},\\text{认为这位校长的看法是对的。}\\end{aligned}</div>"
     },
     {
       "id": "q0003",
       "number": 3,
       "header": "#3-Averge",
       "difficulty": "Averge",
-      "prompt_html": "<img src=\"/static/generated/assets/probability/ch130/q0003_prompt.png\"/>",
+      "prompt_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{aligned} \\text{某青年工以往的记录是：平均每加工}\\text{100}\\text{个零件，有}\\text{60}\\text{件是一等品。今年考核他，在他加工的零件中随机抽取}\\text{100}\\text{件，发现有}\\text{70}\\text{件是一等品。这个成绩是否说明该青年工的技术水平有了显著的提高} (\\alpha=0.05) \\text{？对此问题，假设检验问题应设为}\\text{()}\\text{。} \\end{aligned}\">\\begin{aligned} \\text{某青年工以往的记录是：平均每加工}\\text{100}\\text{个零件，有}\\text{60}\\text{件是一等品。今年考核他，在他加工的零件中随机抽取}\\text{100}\\text{件，发现有}\\text{70}\\text{件是一等品。这个成绩是否说明该青年工的技术水平有了显著的提高} (\\alpha=0.05) \\text{？对此问题，假设检验问题应设为}\\text{()}\\text{。} \\end{aligned}</div>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/probability/ch130/q0003_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\begin{aligned}H_0; p &lt; 0.6 \\leftrightarrow H_1; p \\geq 0.6\\end{aligned}\">\\begin{aligned}H_0; p &lt; 0.6 \\leftrightarrow H_1; p \\geq 0.6\\end{aligned}</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/probability/ch130/q0003_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\begin{aligned}H_{_0}; p &gt; 0.6 \\leftrightarrow H_{_1}; p \\leq 0.6\\end{aligned}\">\\begin{aligned}H_{_0}; p &gt; 0.6 \\leftrightarrow H_{_1}; p \\leq 0.6\\end{aligned}</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/probability/ch130/q0003_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\begin{aligned}H_0; p = 0.6 \\leftrightarrow H_1; p \\neq 0.6\\end{aligned}\">\\begin{aligned}H_0; p = 0.6 \\leftrightarrow H_1; p \\neq 0.6\\end{aligned}</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/probability/ch130/q0003_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\begin{aligned}H_{0}\\text{;}p\\neq 0.6\\,\\leftrightarrow H_{1}\\text{;}p=0.6\\end{aligned}\">\\begin{aligned}H_{0}\\text{;}p\\neq 0.6\\,\\leftrightarrow H_{1}\\text{;}p=0.6\\end{aligned}</span>"
         }
       ],
       "answer": "A",
       "answer_index": 0,
-      "analysis_html": "<img src=\"/static/generated/assets/probability/ch130/q0003_analysis.png\"/>"
+      "analysis_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{aligned}&amp; \\text{根据实际问题的要求，充分考虑和利用已知的背景知识，提出原假设 } H_{0} \\text{ 及备择假设 } H_{1}, \\\\&amp; \\text{问该青工的技术水平是否有显著提高，通常把预期的相反情形设为原假设，所以}\\\\&amp; \\text{提出假设检验 } H_{0}: p &lt; 0.6 \\leftrightarrow H_{1}: p \\geq 0.6. \\\\&amp; \\text{技术水平有显著的提高时，即否定原假设.}\\end{aligned}\">\\begin{aligned}&amp; \\text{根据实际问题的要求，充分考虑和利用已知的背景知识，提出原假设 } H_{0} \\text{ 及备择假设 } H_{1}, \\\\&amp; \\text{问该青工的技术水平是否有显著提高，通常把预期的相反情形设为原假设，所以}\\\\&amp; \\text{提出假设检验 } H_{0}: p &lt; 0.6 \\leftrightarrow H_{1}: p \\geq 0.6. \\\\&amp; \\text{技术水平有显著的提高时，即否定原假设.}\\end{aligned}</div>"
     },
     {
       "id": "q0004",
       "number": 4,
       "header": "#4-Averge",
       "difficulty": "Averge",
-      "prompt_html": "<img src=\"/static/generated/assets/probability/ch130/q0004_prompt.png\"/>",
+      "prompt_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{aligned}\\text{甲、乙两机床加工同一种零件，抽样测量其产品的数据(单位：毫米)，经计算得} \\\\ \\text{甲机床：} n_{1}=80,x=33.75,s_{1}=0.1;\\\\ \\text{乙机床：} n_{2}=100,y=34.15,s_{2}=0.15. \\\\ \\text{在} \\alpha=0.01 \\text{下，若检验两机床加工的产品尺寸有无显著差异，则下列说法中不正确的是（）。} \\end{aligned}\">\\begin{aligned}\\text{甲、乙两机床加工同一种零件，抽样测量其产品的数据(单位：毫米)，经计算得} \\\\ \\text{甲机床：} n_{1}=80,x=33.75,s_{1}=0.1;\\\\ \\text{乙机床：} n_{2}=100,y=34.15,s_{2}=0.15. \\\\ \\text{在} \\alpha=0.01 \\text{下，若检验两机床加工的产品尺寸有无显著差异，则下列说法中不正确的是（）。} \\end{aligned}</div>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/probability/ch130/q0004_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{拒绝域为} \\, | u | &gt; u _ { _ { 0 . 01 } }\">\\text{拒绝域为} \\, | u | &gt; u _ { _ { 0 . 01 } }</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/probability/ch130/q0004_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{检验假设为} \\, H_0: \\mu_1 = \\mu_2, \\, H_1: \\mu_1 \\neq \\mu_2\">\\text{检验假设为} \\, H_0: \\mu_1 = \\mu_2, \\, H_1: \\mu_1 \\neq \\mu_2</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/probability/ch130/q0004_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{检验统计量的观测值为} u = \\frac{ \\overline{x} - \\overline{y}}{ \\sqrt{ s_{1}^{2} / n_{1} + s_{2}^{2} / n_{2} } }\">\\text{检验统计量的观测值为} u = \\frac{ \\overline{x} - \\overline{y}}{ \\sqrt{ s_{1}^{2} / n_{1} + s_{2}^{2} / n_{2} } }</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/probability/ch130/q0004_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{可认为两机床加工的产品尺寸有显著差异}\">\\text{可认为两机床加工的产品尺寸有显著差异}</span>"
         }
       ],
       "answer": "A",
       "answer_index": 0,
-      "analysis_html": "<img src=\"/static/generated/assets/probability/ch130/q0004_analysis.png\"/>"
+      "analysis_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{aligned}n \\geq 50 \\text{时，即可认为是大样本问题。} \\\\\\sigma_{1}^{2}, \\sigma_{2}^{2} \\text{均未知，检验假设} H_{0}: \\mu_{1} = \\mu_{2}, \\, H_{1}: \\mu_{1} \\neq \\mu_{2}. \\\\ \\text{用} U \\text{检验法，经计算得} \\\\u = \\frac{|x-y|}{\\sqrt{s_{1}^{2}/n_{1} + s_{2}^{2}/n_{2}}} = \\frac{0.4}{\\sqrt{0.000125 + 0.000225}} = 21.39. \\end{aligned}\">\\begin{aligned}n \\geq 50 \\text{时，即可认为是大样本问题。} \\\\\\sigma_{1}^{2}, \\sigma_{2}^{2} \\text{均未知，检验假设} H_{0}: \\mu_{1} = \\mu_{2}, \\, H_{1}: \\mu_{1} \\neq \\mu_{2}. \\\\ \\text{用} U \\text{检验法，经计算得} \\\\u = \\frac{|x-y|}{\\sqrt{s_{1}^{2}/n_{1} + s_{2}^{2}/n_{2}}} = \\frac{0.4}{\\sqrt{0.000125 + 0.000225}} = 21.39. \\end{aligned}</div>"
     },
     {
       "id": "q0005",
       "number": 5,
       "header": "#5-Averge",
       "difficulty": "Averge",
-      "prompt_html": "<img src=\"/static/generated/assets/probability/ch130/q0005_prompt.png\"/>",
+      "prompt_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{aligned} \\text{从选区}A \\text{中抽取} 300 \\text{名选民的选票，从选区}B \\text{中抽取} 200 \\text{名选民的选票，在这两组选票中，分别有} 168 \\text{票和} 96 \\text{票支持所候选人，试在显著水平} \\alpha = 0.05 \\text{下，检验两个选区之间对候选人的支持是否存在差异}. \\end{aligned}\">\\begin{aligned} \\text{从选区}A \\text{中抽取} 300 \\text{名选民的选票，从选区}B \\text{中抽取} 200 \\text{名选民的选票，在这两组选票中，分别有} 168 \\text{票和} 96 \\text{票支持所候选人，试在显著水平} \\alpha = 0.05 \\text{下，检验两个选区之间对候选人的支持是否存在差异}. \\end{aligned}</div>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/probability/ch130/q0005_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{两个选区之间无显著差异}.\">\\text{两个选区之间无显著差异}.</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/probability/ch130/q0005_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{两个选区之间有显著差异.}\">\\text{两个选区之间有显著差异.}</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/probability/ch130/q0005_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{无法判断}\">\\text{无法判断}</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/probability/ch130/q0005_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{其它结论均不正确}\">\\text{其它结论均不正确}</span>"
         }
       ],
       "answer": "A",
       "answer_index": 0,
-      "analysis_html": "<img src=\"/static/generated/assets/probability/ch130/q0005_analysis.png\"/>"
+      "analysis_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{aligned}&amp;\\text{这是两个比率的比较问题，待检假设为}\\\\&amp;H_0: p_1 = p_2,\\; H_1: p_1 \\neq p_2.\\\\&amp;\\text{由题设知}n=300,\\;\\mu_n=168,\\;m=200,\\;\\mu_m=96,\\\\&amp;\\quad\\widehat{p_1}=\\frac{168}{320}=0.56,\\;\\widehat{p_2}=\\frac{96}{200}=0.48,\\\\&amp;\\quad\\widehat{p}=\\frac{\\mu_n+\\mu_m}{m+n}=\\frac{264}{500}=0.528.\\\\&amp;\\quad\\widehat{U_0}=\\frac{\\widehat{p_1}-\\widehat{p_2}}{\\sqrt{p(1-\\widehat{p})\\left(\\frac{1}{n}+\\frac{1}{m}\\right)}}=\\frac{0.56-0.48}{\\sqrt{0.528\\times 0.472\\times \\frac{1}{120}}}\\approx 1.755,\\\\&amp;\\text{由}P\\{|\\widehat{U}|&gt;1.96\\}=\\alpha=0.05,\\;\\text{得拒绝域}\\;\\widehat{U}|&gt;1.96,\\;\\text{因为}\\\\&amp;\\quad\\widehat{U_0}=1.755&lt;1.96,\\;\\text{故接受}H_0,\\text{即两个选区之间无显著差异}.\\end{aligned}\">\\begin{aligned}&amp;\\text{这是两个比率的比较问题，待检假设为}\\\\&amp;H_0: p_1 = p_2,\\; H_1: p_1 \\neq p_2.\\\\&amp;\\text{由题设知}n=300,\\;\\mu_n=168,\\;m=200,\\;\\mu_m=96,\\\\&amp;\\quad\\widehat{p_1}=\\frac{168}{320}=0.56,\\;\\widehat{p_2}=\\frac{96}{200}=0.48,\\\\&amp;\\quad\\widehat{p}=\\frac{\\mu_n+\\mu_m}{m+n}=\\frac{264}{500}=0.528.\\\\&amp;\\quad\\widehat{U_0}=\\frac{\\widehat{p_1}-\\widehat{p_2}}{\\sqrt{p(1-\\widehat{p})\\left(\\frac{1}{n}+\\frac{1}{m}\\right)}}=\\frac{0.56-0.48}{\\sqrt{0.528\\times 0.472\\times \\frac{1}{120}}}\\approx 1.755,\\\\&amp;\\text{由}P\\{|\\widehat{U}|&gt;1.96\\}=\\alpha=0.05,\\;\\text{得拒绝域}\\;\\widehat{U}|&gt;1.96,\\;\\text{因为}\\\\&amp;\\quad\\widehat{U_0}=1.755&lt;1.96,\\;\\text{故接受}H_0,\\text{即两个选区之间无显著差异}.\\end{aligned}</div>"
     },
     {
       "id": "q0006",
       "number": 6,
       "header": "#6-Easy",
       "difficulty": "Easy",
-      "prompt_html": "<img src=\"/static/generated/assets/probability/ch130/q0006_prompt.png\"/>",
+      "prompt_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{aligned}&amp;\\text{比较两种小麦植株的高度(单位：cm)，在相同条件下进行高度测定，算得样本均值与样本方差分别如下：}\\\\&amp;\\quad\\text{甲小麦：}n_{1}=100,\\overline{x}=28,s_{1}^{2}=35.8\\\\&amp;\\quad\\text{乙小麦：}n_{2}=100,y=26,s_{2}^{2}=32.3\\\\&amp;\\text{在显著性水平}\\alpha=0.05\\text{下}，\\text{这两种小麦株高之间有无显著差异}(\\text{假设两个总体方差相等})？（ ）\\end{aligned}\">\\begin{aligned}&amp;\\text{比较两种小麦植株的高度(单位：cm)，在相同条件下进行高度测定，算得样本均值与样本方差分别如下：}\\\\&amp;\\quad\\text{甲小麦：}n_{1}=100,\\overline{x}=28,s_{1}^{2}=35.8\\\\&amp;\\quad\\text{乙小麦：}n_{2}=100,y=26,s_{2}^{2}=32.3\\\\&amp;\\text{在显著性水平}\\alpha=0.05\\text{下}，\\text{这两种小麦株高之间有无显著差异}(\\text{假设两个总体方差相等})？（ ）\\end{aligned}</div>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/probability/ch130/q0006_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{有显著差异}\">\\text{有显著差异}</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/probability/ch130/q0006_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{无显著差异}\">\\text{无显著差异}</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/probability/ch130/q0006_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{无法判断}\">\\text{无法判断}</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/probability/ch130/q0006_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{其它结论均不正确}\">\\text{其它结论均不正确}</span>"
         }
       ],
       "answer": "A",
       "answer_index": 0,
-      "analysis_html": "<img src=\"/static/generated/assets/probability/ch130/q0006_analysis.png\"/>"
+      "analysis_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{aligned} &amp; \\text{这是属于大样本情形下两个总体分布未知、两个总体方差未知且相等的均值的差异性检验，提出假设：} \\\\ &amp; \\quad \\quad \\quad H_{0}: \\mu_{1}=\\mu_{2}, \\quad H_{1}: \\mu_{1}\\neq \\mu_{2}. \\\\ &amp; \\text{由于} \\alpha=0.05, u_{n/2}=1.96, \\text{又} \\\\ &amp; \\quad \\quad n_{1}=n_{2}=100, \\bar{x}=28, \\bar{y}=26, s_{1}^{2}=35.8, s_{2}^{2}=32.3 \\,, \\\\ &amp; \\text{计算统计量 } U \\text{ 的值.} \\\\ &amp; \\quad \\text{将上述数据代入计算统计量 } U \\text{ 的观察值} \\\\ &amp; \\quad \\quad u=\\frac{\\bar{x}-\\bar{y}}{\\sqrt{\\frac{(n_{1}-1)s_{2}^{2}+(n_{2}-1)s_{1}^{2}}{n_{1}+n_{2}-2}}\\sqrt{\\frac{1}{n_{1}}+\\frac{1}{n_{2}}}}=24.2 \\, , \\\\ &amp; \\text{由于 } |u|&gt;1.96, \\text{ 故否定 } H_{0}, \\text{ 在显著性水平 } \\alpha=0.05 \\text{ 下可认为两种小麦株高之间有显著差异.} \\end{aligned}\">\\begin{aligned} &amp; \\text{这是属于大样本情形下两个总体分布未知、两个总体方差未知且相等的均值的差异性检验，提出假设：} \\\\ &amp; \\quad \\quad \\quad H_{0}: \\mu_{1}=\\mu_{2}, \\quad H_{1}: \\mu_{1}\\neq \\mu_{2}. \\\\ &amp; \\text{由于} \\alpha=0.05, u_{n/2}=1.96, \\text{又} \\\\ &amp; \\quad \\quad n_{1}=n_{2}=100, \\bar{x}=28, \\bar{y}=26, s_{1}^{2}=35.8, s_{2}^{2}=32.3 \\,, \\\\ &amp; \\text{计算统计量 } U \\text{ 的值.} \\\\ &amp; \\quad \\text{将上述数据代入计算统计量 } U \\text{ 的观察值} \\\\ &amp; \\quad \\quad u=\\frac{\\bar{x}-\\bar{y}}{\\sqrt{\\frac{(n_{1}-1)s_{2}^{2}+(n_{2}-1)s_{1}^{2}}{n_{1}+n_{2}-2}}\\sqrt{\\frac{1}{n_{1}}+\\frac{1}{n_{2}}}}=24.2 \\, , \\\\ &amp; \\text{由于 } |u|&gt;1.96, \\text{ 故否定 } H_{0}, \\text{ 在显著性水平 } \\alpha=0.05 \\text{ 下可认为两种小麦株高之间有显著差异.} \\end{aligned}</div>"
     },
     {
       "id": "q0007",
       "number": 7,
       "header": "#7-Averge",
       "difficulty": "Averge",
-      "prompt_html": "<img src=\"/static/generated/assets/probability/ch130/q0007_prompt.png\"/>",
+      "prompt_html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{某药品广告上声称该药品对某种疾病和治愈率为}90\\% , \\text{一家医院对该种药品临床使用}120\\text{例，治愈}85\\text{人，问该药品广告是否真实}( \\alpha=0.02)?（ ）\">\\text{某药品广告上声称该药品对某种疾病和治愈率为}90\\% , \\text{一家医院对该种药品临床使用}120\\text{例，治愈}85\\text{人，问该药品广告是否真实}( \\alpha=0.02)?（ ）</span>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/probability/ch130/q0007_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{不真实}\">\\text{不真实}</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/probability/ch130/q0007_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text {真实}\\quad\">\\text {真实}\\quad</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/probability/ch130/q0007_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{无法判断}\">\\text{无法判断}</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/probability/ch130/q0007_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{其它结论均不正确}\">\\text{其它结论均不正确}</span>"
         }
       ],
       "answer": "A",
       "answer_index": 0,
-      "analysis_html": "<img src=\"/static/generated/assets/probability/ch130/q0007_analysis.png\"/>"
+      "analysis_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{aligned}&amp;\\text{设该药品对某种疾病的治愈率为}p,\\text{随机变量}X\\text{为}\\\\&amp;\\quad X=\\begin{cases}1,\\quad\\text{临床者使用该药品治愈}\\\\0,\\quad\\text{反之}\\end{cases}\\\\&amp;\\text{则}X\\sim b(1,p),\\text{问题该归结为检验假设：}\\\\&amp;\\quad H_0: p=0.9,\\;H_1: p\\neq 0.9.\\\\&amp;\\text{由于}n=120\\text{足够大，可以用}u\\text{检验法，所给样值}(x_1,x_2,\\cdots,x_{120})\\text{中有}85\\text{个}1，35\\text{个}0，\\text{所以}\\\\&amp;\\quad x=\\frac{1}{120}\\sum_{i=1}^{120}x_i=\\frac{1}{120}\\sum_{i=1}^{85}\\frac{1}{120}\\approx 0.71,\\\\&amp;\\text{又}p_0=0.9,\\text{以之代入统计量}U\\text{得}U\\text{的观察值为}\\\\&amp;\\quad|u|=\\frac{|0.71-0.9|}{\\sqrt{120\\times 0.9\\times 0.1}}\\sqrt{120}=6.94&gt;u_{0.01}=2.33,\\\\&amp;\\text{故拒绝}H_0,\\text{即认为该药品不真实。}\\end{aligned}\">\\begin{aligned}&amp;\\text{设该药品对某种疾病的治愈率为}p,\\text{随机变量}X\\text{为}\\\\&amp;\\quad X=\\begin{cases}1,\\quad\\text{临床者使用该药品治愈}\\\\0,\\quad\\text{反之}\\end{cases}\\\\&amp;\\text{则}X\\sim b(1,p),\\text{问题该归结为检验假设：}\\\\&amp;\\quad H_0: p=0.9,\\;H_1: p\\neq 0.9.\\\\&amp;\\text{由于}n=120\\text{足够大，可以用}u\\text{检验法，所给样值}(x_1,x_2,\\cdots,x_{120})\\text{中有}85\\text{个}1，35\\text{个}0，\\text{所以}\\\\&amp;\\quad x=\\frac{1}{120}\\sum_{i=1}^{120}x_i=\\frac{1}{120}\\sum_{i=1}^{85}\\frac{1}{120}\\approx 0.71,\\\\&amp;\\text{又}p_0=0.9,\\text{以之代入统计量}U\\text{得}U\\text{的观察值为}\\\\&amp;\\quad|u|=\\frac{|0.71-0.9|}{\\sqrt{120\\times 0.9\\times 0.1}}\\sqrt{120}=6.94&gt;u_{0.01}=2.33,\\\\&amp;\\text{故拒绝}H_0,\\text{即认为该药品不真实。}\\end{aligned}</div>"
     },
     {
       "id": "q0008",
       "number": 8,
       "header": "#8-Easy",
       "difficulty": "Easy",
-      "prompt_html": "<img src=\"/static/generated/assets/probability/ch130/q0008_prompt.png\"/>",
+      "prompt_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{array}{l}\\text{已知某种电子元件的使用寿命}X(h)\\text{服从指数分布}e(\\lambda),\\text{抽查}100\\text{个元件}，\\text{得样本均值}\\bar{x}=950(h),\\text{能否认为参数}\\\\ \\lambda=0.001(\\alpha=0.05)? \\end{array}\">\\begin{array}{l}\\text{已知某种电子元件的使用寿命}X(h)\\text{服从指数分布}e(\\lambda),\\text{抽查}100\\text{个元件}，\\text{得样本均值}\\bar{x}=950(h),\\text{能否认为参数}\\\\ \\lambda=0.001(\\alpha=0.05)? \\end{array}</div>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/probability/ch130/q0008_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{可以}\">\\text{可以}</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/probability/ch130/q0008_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{不能}\">\\text{不能}</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/probability/ch130/q0008_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{不能确定}\">\\text{不能确定}</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/probability/ch130/q0008_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{以上结论均不正确}\">\\text{以上结论均不正确}</span>"
         }
       ],
       "answer": "A",
       "answer_index": 0,
-      "analysis_html": "<img src=\"/static/generated/assets/probability/ch130/q0008_analysis.png\"/>"
+      "analysis_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{aligned}&amp;\\text{由题意知}X\\sim e(\\lambda),\\,E(X)=1/\\lambda,\\,D(X)=1/\\lambda^2,\\,\\,\\text{故当}n\\text{充分大时}\\\\&amp;\\quad u=\\frac{\\bar{x}-1/\\lambda}{\\frac{1}{\\sqrt{n}}\\lambda}=\\left(\\frac{\\bar{x}}{x}-\\frac{1}{\\lambda}\\right)\\lambda\\sqrt{n}=(\\lambda x-1)\\sqrt{n}(0,1).\\end{aligned}\">\\begin{aligned}&amp;\\text{由题意知}X\\sim e(\\lambda),\\,E(X)=1/\\lambda,\\,D(X)=1/\\lambda^2,\\,\\,\\text{故当}n\\text{充分大时}\\\\&amp;\\quad u=\\frac{\\bar{x}-1/\\lambda}{\\frac{1}{\\sqrt{n}}\\lambda}=\\left(\\frac{\\bar{x}}{x}-\\frac{1}{\\lambda}\\right)\\lambda\\sqrt{n}=(\\lambda x-1)\\sqrt{n}(0,1).\\end{aligned}</div>"
     },
     {
       "id": "q0009",
       "number": 9,
       "header": "#9-Averge",
       "difficulty": "Averge",
-      "prompt_html": "<img src=\"/static/generated/assets/probability/ch130/q0009_prompt.png\"/>",
+      "prompt_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{array}{l} \\text{某青年工以往的记录是：平均每加工}\\text{100}\\text{个零件，有}\\text{60}\\text{件是一等品。今年考核他，在他加工的零件中随机抽取}\\text{100}\\text{件，发现有}\\text{70}\\text{件是一等品。这个成绩证明该青年工的技术水平有了显著的提高} (\\alpha=0.05) \\text{？对此问题，假设检验问题应设为}\\text{()}\\text{。} \\end{array}\">\\begin{array}{l} \\text{某青年工以往的记录是：平均每加工}\\text{100}\\text{个零件，有}\\text{60}\\text{件是一等品。今年考核他，在他加工的零件中随机抽取}\\text{100}\\text{件，发现有}\\text{70}\\text{件是一等品。这个成绩证明该青年工的技术水平有了显著的提高} (\\alpha=0.05) \\text{？对此问题，假设检验问题应设为}\\text{()}\\text{。} \\end{array}</div>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/probability/ch130/q0009_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\begin{aligned}H_0; p &lt; 0.6 \\leftrightarrow H_1; p &gt; 0.6\\end{aligned}\">\\begin{aligned}H_0; p &lt; 0.6 \\leftrightarrow H_1; p &gt; 0.6\\end{aligned}</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/probability/ch130/q0009_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\begin{aligned}H_0; p &gt; 0.6 \\leftrightarrow H_1; p &lt; 0.6\\end{aligned}\">\\begin{aligned}H_0; p &gt; 0.6 \\leftrightarrow H_1; p &lt; 0.6\\end{aligned}</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/probability/ch130/q0009_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\begin{aligned}H_0; p = 0.6 \\leftrightarrow H_1; p \\neq 0.6\\end{aligned}\">\\begin{aligned}H_0; p = 0.6 \\leftrightarrow H_1; p \\neq 0.6\\end{aligned}</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/probability/ch130/q0009_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\begin{aligned}H_0; p \\neq 0.6 \\leftrightarrow H_1; p = 0.6\\end{aligned}\">\\begin{aligned}H_0; p \\neq 0.6 \\leftrightarrow H_1; p = 0.6\\end{aligned}</span>"
         }
       ],
       "answer": "A",
       "answer_index": 0,
-      "analysis_html": "<img src=\"/static/generated/assets/probability/ch130/q0009_analysis.png\"/>"
+      "analysis_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{aligned}&amp; \\text{根据实际问题的要求，充分考虑和利用已知的背景知识，提出原假设 } H_{i} \\text{ 及备择假设 } H_{i}, \\\\&amp; \\text{题目问技术水平有了显著的提高？也就是检验的技术水平有了显著的提高时，其检验结果应该是显著的，即否定了原假设.} \\\\&amp; \\text{故假设检验} \\quad H_{i}^{\\prime} p &lt; 0.6 \\leftrightarrow H_{i}^{\\prime} p &gt; 0.6.\\end{aligned}\">\\begin{aligned}&amp; \\text{根据实际问题的要求，充分考虑和利用已知的背景知识，提出原假设 } H_{i} \\text{ 及备择假设 } H_{i}, \\\\&amp; \\text{题目问技术水平有了显著的提高？也就是检验的技术水平有了显著的提高时，其检验结果应该是显著的，即否定了原假设.} \\\\&amp; \\text{故假设检验} \\quad H_{i}^{\\prime} p &lt; 0.6 \\leftrightarrow H_{i}^{\\prime} p &gt; 0.6.\\end{aligned}</div>"
     },
     {
       "id": "q0010",
       "number": 10,
       "header": "#10-Averge",
       "difficulty": "Averge",
-      "prompt_html": "<img src=\"/static/generated/assets/probability/ch130/q0010_prompt.png\"/>",
+      "prompt_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{aligned}\\text{设某段高速公路上汽车限制速度为}104.6\\,\\mathrm{km/h},\\text{现检验}n=85\\text{辆汽车的样本，测出平均车速为}x=106.7\\,\\mathrm{km/h},\\text{已知总体标准差为}\\sigma=13.4\\,\\mathrm{km/h},\\text{但不知总体是否服从正态分布.在显著性水平}\\alpha=0.05\\text{下，试检验高速公路上的汽车是否比限制速度}104.6\\,\\mathrm{km/h} \\text{显著地快？}(\\text{.})\\end{aligned}\">\\begin{aligned}\\text{设某段高速公路上汽车限制速度为}104.6\\,\\mathrm{km/h},\\text{现检验}n=85\\text{辆汽车的样本，测出平均车速为}x=106.7\\,\\mathrm{km/h},\\text{已知总体标准差为}\\sigma=13.4\\,\\mathrm{km/h},\\text{但不知总体是否服从正态分布.在显著性水平}\\alpha=0.05\\text{下，试检验高速公路上的汽车是否比限制速度}104.6\\,\\mathrm{km/h} \\text{显著地快？}(\\text{.})\\end{aligned}</div>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/probability/ch130/q0010_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{没有明显的证据说明汽车行驶快于限制速度}\">\\text{没有明显的证据说明汽车行驶快于限制速度}</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/probability/ch130/q0010_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{有明显的证据说明汽车行驶快于限制速度}.\">\\text{有明显的证据说明汽车行驶快于限制速度}.</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/probability/ch130/q0010_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{不能确定有没有明显的证据说明汽车行驶快于限制速度}.\">\\text{不能确定有没有明显的证据说明汽车行驶快于限制速度}.</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/probability/ch130/q0010_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{其它结论均不正确}\">\\text{其它结论均不正确}</span>"
         }
       ],
       "answer": "A",
       "answer_index": 0,
-      "analysis_html": "<img src=\"/static/generated/assets/probability/ch130/q0010_analysis.png\"/>"
+      "analysis_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{aligned}&amp;\\text{设高速公路上的车速为随机变量}X,\\text{近似有}\\\\&amp;\\quad X\\sim N(\\mu,\\sigma^2),\\sigma=13.4\\text{km/h},\\\\&amp;\\text{要检验假设}\\\\&amp;\\quad H_0:\\mu=\\mu_0=104.6,H_1:\\mu&gt;104.6.\\\\&amp;\\quad\\alpha=0.05,\\,n=85,\\,u_\\alpha=u_{0.05}=1.645.\\\\&amp;\\text{拒绝域}W=\\left\\{u=\\frac{\\bar{x}-\\mu_0}{\\sigma\\sqrt{n}}&gt;u_\\alpha\\right\\}.\\\\&amp;\\text{由}\\bar{x}=106.7,\\,\\sigma=13.4,\\,\\mu_0=104.6,\\,n=85\\text{得}\\\\&amp;\\quad u=\\frac{106.7-104.6}{13.4/\\sqrt{85}}\\approx 1.44&lt;1.645.\\\\&amp;\\text{因为}1.44&lt;1.645,\\text{所以接受}H_0,\\text{即要}\\alpha=0.05\\text{显著性水平下，没有明显的证据说明汽车行驶快于限制速度。}\\end{aligned}\">\\begin{aligned}&amp;\\text{设高速公路上的车速为随机变量}X,\\text{近似有}\\\\&amp;\\quad X\\sim N(\\mu,\\sigma^2),\\sigma=13.4\\text{km/h},\\\\&amp;\\text{要检验假设}\\\\&amp;\\quad H_0:\\mu=\\mu_0=104.6,H_1:\\mu&gt;104.6.\\\\&amp;\\quad\\alpha=0.05,\\,n=85,\\,u_\\alpha=u_{0.05}=1.645.\\\\&amp;\\text{拒绝域}W=\\left\\{u=\\frac{\\bar{x}-\\mu_0}{\\sigma\\sqrt{n}}&gt;u_\\alpha\\right\\}.\\\\&amp;\\text{由}\\bar{x}=106.7,\\,\\sigma=13.4,\\,\\mu_0=104.6,\\,n=85\\text{得}\\\\&amp;\\quad u=\\frac{106.7-104.6}{13.4/\\sqrt{85}}\\approx 1.44&lt;1.645.\\\\&amp;\\text{因为}1.44&lt;1.645,\\text{所以接受}H_0,\\text{即要}\\alpha=0.05\\text{显著性水平下，没有明显的证据说明汽车行驶快于限制速度。}\\end{aligned}</div>"
     },
     {
       "id": "q0011",
       "number": 11,
       "header": "#11-Hard",
       "difficulty": "Hard",
-      "prompt_html": "<img src=\"/static/generated/assets/probability/ch130/q0011_prompt.png\"/>",
+      "prompt_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{aligned} \\text{设总体}X,Y \\text{皆服从两点分布} \\\\ \\begin{array}{|c|c|c|} \\hline X &amp; 0 &amp; 1 \\\\ \\hline p_{1} &amp; p_{1} &amp; q_{1} \\\\ \\hline \\end{array} \\quad \\begin{array}{|c|c|c|} \\hline Y &amp; 0 &amp; 1 \\\\ \\hline p_{1} &amp; p_{2} &amp; q_{2} \\\\ \\hline \\end{array} \\\\ (p_{1}+q_{1}=1, p_{2}+q_{2}=1,\\text{且}0&lt;p_{1}&lt;1,0&lt;p_{2}&lt;1)\\text{. 从总体} \\lambda \\text{取样本}X_{1},X_{2},\\cdots,X_{n_{1}}\\text{, 从总体}Y_{1},Y_{2},\\cdots,Y_{n_{2}}\\text{, 两样本独立. 对于假设检验} \\\\ H_{0}:p_{1}=p_{2} \\Leftrightarrow H_{1}:p_{1}\\neq p_{2} \\\\ \\text{设显著水平为} \\alpha\\text{, 则检验统计量是（. （假设}n_{1},n_{2}\\text{充分大）.} \\end{aligned}\">\\begin{aligned} \\text{设总体}X,Y \\text{皆服从两点分布} \\\\ \\begin{array}{|c|c|c|} \\hline X &amp; 0 &amp; 1 \\\\ \\hline p_{1} &amp; p_{1} &amp; q_{1} \\\\ \\hline \\end{array} \\quad \\begin{array}{|c|c|c|} \\hline Y &amp; 0 &amp; 1 \\\\ \\hline p_{1} &amp; p_{2} &amp; q_{2} \\\\ \\hline \\end{array} \\\\ (p_{1}+q_{1}=1, p_{2}+q_{2}=1,\\text{且}0&lt;p_{1}&lt;1,0&lt;p_{2}&lt;1)\\text{. 从总体} \\lambda \\text{取样本}X_{1},X_{2},\\cdots,X_{n_{1}}\\text{, 从总体}Y_{1},Y_{2},\\cdots,Y_{n_{2}}\\text{, 两样本独立. 对于假设检验} \\\\ H_{0}:p_{1}=p_{2} \\Leftrightarrow H_{1}:p_{1}\\neq p_{2} \\\\ \\text{设显著水平为} \\alpha\\text{, 则检验统计量是（. （假设}n_{1},n_{2}\\text{充分大）.} \\end{aligned}</div>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/probability/ch130/q0011_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\begin{aligned}U = \\frac{\\overline{p_1} - \\overline{p_2}}{\\sqrt{\\overline{p}(1-\\overline{p})(\\frac{1}{n_1} + \\frac{1}{n_2})}}\\end{aligned}\">\\begin{aligned}U = \\frac{\\overline{p_1} - \\overline{p_2}}{\\sqrt{\\overline{p}(1-\\overline{p})(\\frac{1}{n_1} + \\frac{1}{n_2})}}\\end{aligned}</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/probability/ch130/q0011_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\begin{aligned}U = \\frac{\\overline{p_1} - \\overline{p_2}}{\\sqrt{\\frac{n_A}{n_1} (1 - \\frac{n_A}{n_1}) (\\frac{1}{n_1} + \\frac{1}{n_2})}}\\end{aligned}\">\\begin{aligned}U = \\frac{\\overline{p_1} - \\overline{p_2}}{\\sqrt{\\frac{n_A}{n_1} (1 - \\frac{n_A}{n_1}) (\\frac{1}{n_1} + \\frac{1}{n_2})}}\\end{aligned}</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/probability/ch130/q0011_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\begin{array}{c}U={\\displaystyle {\\frac{\\displaystyle {\\overline{{p}}_{1}}-\\overline{{p}}_{2}}{\\sqrt{\\displaystyle {\\frac{n_{B}}{n_{2}}(1-\\frac{n_{B}}{n_{2}})(\\frac{1}{n_{1}}+\\frac{1}{n_{2}})}}}}} \\end{array}\">\\begin{array}{c}U={\\displaystyle {\\frac{\\displaystyle {\\overline{{p}}_{1}}-\\overline{{p}}_{2}}{\\sqrt{\\displaystyle {\\frac{n_{B}}{n_{2}}(1-\\frac{n_{B}}{n_{2}})(\\frac{1}{n_{1}}+\\frac{1}{n_{2}})}}}}} \\end{array}</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/probability/ch130/q0011_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\begin{array}{c}U={\\displaystyle {\\frac{\\overline{p_{1}}-\\overline{p_{2}}}{\\sqrt{\\displaystyle {\\frac{n_{B}}{n_{2}}(1-\\frac{n_{A}}{n_{1}})(\\frac{1}{n_{1}}+\\frac{1}{n_{2}})}}}}} \\end{array}\">\\begin{array}{c}U={\\displaystyle {\\frac{\\overline{p_{1}}-\\overline{p_{2}}}{\\sqrt{\\displaystyle {\\frac{n_{B}}{n_{2}}(1-\\frac{n_{A}}{n_{1}})(\\frac{1}{n_{1}}+\\frac{1}{n_{2}})}}}}} \\end{array}</span>"
         }
       ],
       "answer": "A",
       "answer_index": 0,
-      "analysis_html": "<img src=\"/static/generated/assets/probability/ch130/q0011_analysis.png\"/>"
+      "analysis_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{aligned}&amp;\\text{令}A=\\{X=1\\},\\ B=\\{Y=1\\},\\ \\text{则}X,Y\\text{分别为}A,B\\text{发生的频率，即}x=\\frac{n_A}{n_1}=\\widehat{p_1},\\ y=\\frac{n_B}{n_2}=\\widehat{p_2}\\text{，检验假设为}\\\\&amp;H_0:p_1=p_2\\leftrightarrow H_1:p_1\\neq p_2,\\ \\\\&amp;\\text{根据中心极限定理，当}H_0\\text{真，且}n_1,n_2\\text{充分大时，}\\\\&amp;U=\\frac{\\overline{p_1}-\\overline{p_2}}{\\sqrt{\\frac{-p_1}{n_1}-p_2}{(\\frac{1}{n_1}+\\frac{1}{n_2})}}\\text{近似服从}N(0,1),\\\\&amp;\\text{其中}p=\\frac{n_A+n_B}{n_1+n_2}\\text{．记}U\\text{的样本观察值为}u\\text{，则有拒绝域为}|u|&gt;u_{0.2}\\,.\\end{aligned}\">\\begin{aligned}&amp;\\text{令}A=\\{X=1\\},\\ B=\\{Y=1\\},\\ \\text{则}X,Y\\text{分别为}A,B\\text{发生的频率，即}x=\\frac{n_A}{n_1}=\\widehat{p_1},\\ y=\\frac{n_B}{n_2}=\\widehat{p_2}\\text{，检验假设为}\\\\&amp;H_0:p_1=p_2\\leftrightarrow H_1:p_1\\neq p_2,\\ \\\\&amp;\\text{根据中心极限定理，当}H_0\\text{真，且}n_1,n_2\\text{充分大时，}\\\\&amp;U=\\frac{\\overline{p_1}-\\overline{p_2}}{\\sqrt{\\frac{-p_1}{n_1}-p_2}{(\\frac{1}{n_1}+\\frac{1}{n_2})}}\\text{近似服从}N(0,1),\\\\&amp;\\text{其中}p=\\frac{n_A+n_B}{n_1+n_2}\\text{．记}U\\text{的样本观察值为}u\\text{，则有拒绝域为}|u|&gt;u_{0.2}\\,.\\end{aligned}</div>"
     },
     {
       "id": "q0012",
       "number": 12,
       "header": "#12-Averge",
       "difficulty": "Averge",
-      "prompt_html": "<img src=\"/static/generated/assets/probability/ch130/q0012_prompt.png\"/>",
+      "prompt_html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{某厂生产了一大批产品，按规定次品率} p \\leq 0.05 \\text{才能出厂，否则不能出厂，现从产品中随机抽查}\\text{50}\\text{件，发现有}\\text{4}\\text{件次品，问该批产品能否出厂} ( \\alpha = 0.05)?( \\ \\ ) .\">\\text{某厂生产了一大批产品，按规定次品率} p \\leq 0.05 \\text{才能出厂，否则不能出厂，现从产品中随机抽查}\\text{50}\\text{件，发现有}\\text{4}\\text{件次品，问该批产品能否出厂} ( \\alpha = 0.05)?( \\ \\ ) .</span>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/probability/ch130/q0012_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{可以}\">\\text{可以}</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/probability/ch130/q0012_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{不可以}\">\\text{不可以}</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/probability/ch130/q0012_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{不能确定}\">\\text{不能确定}</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/probability/ch130/q0012_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{以上结论均不正确}\">\\text{以上结论均不正确}</span>"
         }
       ],
       "answer": "A",
       "answer_index": 0,
-      "analysis_html": "<img src=\"/static/generated/assets/probability/ch130/q0012_analysis.png\"/>"
+      "analysis_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{aligned}&amp; \\text{问题归结为在}  \\alpha=0.05  \\text{下，检验假设}\\\\&amp; \\quad H_{0}:p\\leqslant 0.05,\\;H_{1}:p&gt;0.05.\\\\&amp; \\text{这是一个单侧检验问题，用}\\text{ u }\\text{检验法，} H_{0}  \\text{的拒绝域为}\\\\&amp; \\quad U=\\frac{\\overline{X}-p_{0}}{\\sqrt{p_{0}(1-p_{0})}}\\sqrt{n}&gt;u_{n}.\\\\&amp; \\text{已知}n=50,\\;p_{0}=0.05,\\;\\overline{x}=\\frac{4}{50}=0.08,\\; \\text{代入} U \\text{的表达式得}\\\\&amp; \\quad u=\\frac{0.08-0.05}{\\sqrt{0.05\\times 0.95}}\\approx 0.97&lt;u_{n}=u_{0.05}=1.645,\\\\&amp; \\text{故接受}  H_{0} \\text{，即认为这批产品可以出厂。}\\end{aligned}\">\\begin{aligned}&amp; \\text{问题归结为在}  \\alpha=0.05  \\text{下，检验假设}\\\\&amp; \\quad H_{0}:p\\leqslant 0.05,\\;H_{1}:p&gt;0.05.\\\\&amp; \\text{这是一个单侧检验问题，用}\\text{ u }\\text{检验法，} H_{0}  \\text{的拒绝域为}\\\\&amp; \\quad U=\\frac{\\overline{X}-p_{0}}{\\sqrt{p_{0}(1-p_{0})}}\\sqrt{n}&gt;u_{n}.\\\\&amp; \\text{已知}n=50,\\;p_{0}=0.05,\\;\\overline{x}=\\frac{4}{50}=0.08,\\; \\text{代入} U \\text{的表达式得}\\\\&amp; \\quad u=\\frac{0.08-0.05}{\\sqrt{0.05\\times 0.95}}\\approx 0.97&lt;u_{n}=u_{0.05}=1.645,\\\\&amp; \\text{故接受}  H_{0} \\text{，即认为这批产品可以出厂。}\\end{aligned}</div>"
     },
     {
       "id": "q0013",
       "number": 13,
       "header": "#13-Averge",
       "difficulty": "Averge",
-      "prompt_html": "<img src=\"/static/generated/assets/probability/ch130/q0013_prompt.png\"/>",
+      "prompt_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{aligned} \\text{某产品的次品率为}0.17，\\text{现对此产品进行新工艺试验}，\\text{从中抽取}400\\text{检查}，\\text{发现次品}56\\text{件}，\\text{能否认为这项新工艺显著地影响产品质量}(\\alpha=0.05)? \\end{aligned}\">\\begin{aligned} \\text{某产品的次品率为}0.17，\\text{现对此产品进行新工艺试验}，\\text{从中抽取}400\\text{检查}，\\text{发现次品}56\\text{件}，\\text{能否认为这项新工艺显著地影响产品质量}(\\alpha=0.05)? \\end{aligned}</div>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/probability/ch130/q0013_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{新工艺没有显著地影响产品质量}\">\\text{新工艺没有显著地影响产品质量}</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/probability/ch130/q0013_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{新工艺显著地影响产品质量}\">\\text{新工艺显著地影响产品质量}</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/probability/ch130/q0013_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{不能确定}\\quad\">\\text{不能确定}\\quad</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/probability/ch130/q0013_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{以上结论均不正确}\">\\text{以上结论均不正确}</span>"
         }
       ],
       "answer": "A",
       "answer_index": 0,
-      "analysis_html": "<img src=\"/static/generated/assets/probability/ch130/q0013_analysis.png\"/>"
+      "analysis_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{aligned}\\text{检验问题为}&amp;\\quad H_0; p=0.17, H_1; p\\neq 0.17,\\\\ \\text{由题意知}&amp;\\quad \\widehat{p}=\\frac{m}{n}=\\frac{56}{400}=0.14,\\\\ &amp;u=\\frac{(\\widehat{p}-P_0)}{\\sqrt{p_0q_0}}\\sqrt{n}=\\frac{0.14-0.17}{\\sqrt{0.17\\times 0.83}}\\times \\sqrt{400}\\approx-1.597,\\\\ &amp;\\quad\\alpha=0.05,\\ u_{0.025}=1.96.\\\\ \\text{因}\\ |u|&lt;u_{0.025}&amp;=1.96,\\ \\text{故接受}H_0,\\ \\text{即认为新工艺没有显著地影响产品质量.}\\end{aligned}\">\\begin{aligned}\\text{检验问题为}&amp;\\quad H_0; p=0.17, H_1; p\\neq 0.17,\\\\ \\text{由题意知}&amp;\\quad \\widehat{p}=\\frac{m}{n}=\\frac{56}{400}=0.14,\\\\ &amp;u=\\frac{(\\widehat{p}-P_0)}{\\sqrt{p_0q_0}}\\sqrt{n}=\\frac{0.14-0.17}{\\sqrt{0.17\\times 0.83}}\\times \\sqrt{400}\\approx-1.597,\\\\ &amp;\\quad\\alpha=0.05,\\ u_{0.025}=1.96.\\\\ \\text{因}\\ |u|&lt;u_{0.025}&amp;=1.96,\\ \\text{故接受}H_0,\\ \\text{即认为新工艺没有显著地影响产品质量.}\\end{aligned}</div>"
     },
     {
       "id": "q0014",
       "number": 14,
       "header": "#14-Averge",
       "difficulty": "Averge",
-      "prompt_html": "<img src=\"/static/generated/assets/probability/ch130/q0014_prompt.png\"/>",
+      "prompt_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{array}{l} { r } { \\text{某厂的生产管理员认为该厂第一道工序加工完的产品送到第二道工序进行加工之前的平均等待时间超}\\text{90min. }\\text{现对}\\text{100}\\text{件产品的随机抽样结果是平均等待时间为}\\text{96min}\\text{，标本标准差为}\\text{30min}\\text{，则抽样的结果是否支持该管理员的看法} ( \\alpha = 0 . 05 )? ( \\ \\ ) .   } \\end{array}\">\\begin{array}{l} { r } { \\text{某厂的生产管理员认为该厂第一道工序加工完的产品送到第二道工序进行加工之前的平均等待时间超}\\text{90min. }\\text{现对}\\text{100}\\text{件产品的随机抽样结果是平均等待时间为}\\text{96min}\\text{，标本标准差为}\\text{30min}\\text{，则抽样的结果是否支持该管理员的看法} ( \\alpha = 0 . 05 )? ( \\ \\ ) .   } \\end{array}</div>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/probability/ch130/q0014_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{支持}\\quad\">\\text{支持}\\quad</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/probability/ch130/q0014_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{不支持}\">\\text{不支持}</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/probability/ch130/q0014_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{无法判断}\">\\text{无法判断}</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/probability/ch130/q0014_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{以上结论均不对}\">\\text{以上结论均不对}</span>"
         }
       ],
       "answer": "A",
       "answer_index": 0,
-      "analysis_html": "<img src=\"/static/generated/assets/probability/ch130/q0014_analysis.png\"/>"
+      "analysis_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{aligned}&amp;\\text{用}X\\text{表示第一道工序加工完的产品送到第二道工序进行加工之前的等待时间，总体均值为}\\mu.\\text{依题意，检验假设为}\\\\&amp;H_{0}:\\mu\\leq90,\\ H_{1}:\\mu&gt;90.\\\\&amp;\\text{由于}n=100\\text{为大样本，故用}u\\text{检验法. 总体标准差}a\\text{未知，用样本标准差}S\\text{代替. 当}H_{0}\\text{成立时，有}\\\\&amp;T_{n}=\\frac{\\bar{X}-90}{S\\sqrt{100}}=\\frac{\\bar{X}-\\mu}{S\\sqrt{100}}\\overset{\\text{近似}}{\\sim}N(0,1).\\text{对于}\\alpha=0.05,\\text{查表得}u_{\\alpha}=u_{0.05}=1.645,\\text{近似拒绝域为}\\\\&amp;W=\\{t&gt;1645\\}.\\\\&amp;\\text{已知}x=96,s=30,\\text{于是统计量}T_{n}\\text{的观察值}\\\\&amp;t=\\frac{96-90}{30\\sqrt{100}}=2&gt;1.645,\\text{落在拒绝域中，故拒绝}H_{0},\\text{即支持该管理员的看法.}\\end{aligned}\">\\begin{aligned}&amp;\\text{用}X\\text{表示第一道工序加工完的产品送到第二道工序进行加工之前的等待时间，总体均值为}\\mu.\\text{依题意，检验假设为}\\\\&amp;H_{0}:\\mu\\leq90,\\ H_{1}:\\mu&gt;90.\\\\&amp;\\text{由于}n=100\\text{为大样本，故用}u\\text{检验法. 总体标准差}a\\text{未知，用样本标准差}S\\text{代替. 当}H_{0}\\text{成立时，有}\\\\&amp;T_{n}=\\frac{\\bar{X}-90}{S\\sqrt{100}}=\\frac{\\bar{X}-\\mu}{S\\sqrt{100}}\\overset{\\text{近似}}{\\sim}N(0,1).\\text{对于}\\alpha=0.05,\\text{查表得}u_{\\alpha}=u_{0.05}=1.645,\\text{近似拒绝域为}\\\\&amp;W=\\{t&gt;1645\\}.\\\\&amp;\\text{已知}x=96,s=30,\\text{于是统计量}T_{n}\\text{的观察值}\\\\&amp;t=\\frac{96-90}{30\\sqrt{100}}=2&gt;1.645,\\text{落在拒绝域中，故拒绝}H_{0},\\text{即支持该管理员的看法.}\\end{aligned}</div>"
     },
     {
       "id": "q0015",
       "number": 15,
       "header": "#15-Averge",
       "difficulty": "Averge",
-      "prompt_html": "<img src=\"/static/generated/assets/probability/ch130/q0015_prompt.png\"/>",
+      "prompt_html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\left( 1 - p \\right) = 0.4, \\quad p = \\frac{60}{100} = 0.6.\">\\left( 1 - p \\right) = 0.4, \\quad p = \\frac{60}{100} = 0.6.</span>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/probability/ch130/q0015_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{能证明那份报告中的说法有问题}\">\\text{能证明那份报告中的说法有问题}</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/probability/ch130/q0015_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{不能证明那份报告中的说法有问题}\">\\text{不能证明那份报告中的说法有问题}</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/probability/ch130/q0015_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{不能确定}\">\\text{不能确定}</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/probability/ch130/q0015_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{其它几个结论均不正确}\">\\text{其它几个结论均不正确}</span>"
         }
       ],
       "answer": "A",
       "answer_index": 0,
-      "analysis_html": "<img src=\"/static/generated/assets/probability/ch130/q0015_analysis.png\"/>"
+      "analysis_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{aligned} &amp; (1)\\ \\text{建立检验假设}\\ H_{0}:p\\geqslant 0.6,\\ H_{1}:p&lt;0.6.\\\\ &amp; (2)\\ \\text{选择统计量}\\ U=\\frac{\\bar{X}-P_{0}}{\\sqrt{P_{0}(1-P_{0})/n}}\\sim N(0,1).\\\\ &amp; (3)\\ \\text{给定显著性水平}\\ \\alpha,\\ \\text{确定}k,\\ \\text{使}\\ \\ \\ \\ \\ \\ \\ \\ P\\left\\{\\frac{\\bar{X}-P_{0}}{\\sqrt{P_{0}(1-p_{0})/n}}&lt;k\\right\\}\\approx\\alpha\\\\ &amp; \\text{查标准正态分布表得}k=-u_{a}=-u_{0.05}=-1.645,\\ \\text{所以拒绝域为}u&lt;-1.645.\\\\ &amp; (4)\\ \\text{由于}\\ \\bar{x}=33/60=0.55,\\ p_{0}=0.6,\\ \\text{所以}\\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\end{aligned}\">\\begin{aligned} &amp; (1)\\ \\text{建立检验假设}\\ H_{0}:p\\geqslant 0.6,\\ H_{1}:p&lt;0.6.\\\\ &amp; (2)\\ \\text{选择统计量}\\ U=\\frac{\\bar{X}-P_{0}}{\\sqrt{P_{0}(1-P_{0})/n}}\\sim N(0,1).\\\\ &amp; (3)\\ \\text{给定显著性水平}\\ \\alpha,\\ \\text{确定}k,\\ \\text{使}\\ \\ \\ \\ \\ \\ \\ \\ P\\left\\{\\frac{\\bar{X}-P_{0}}{\\sqrt{P_{0}(1-p_{0})/n}}&lt;k\\right\\}\\approx\\alpha\\\\ &amp; \\text{查标准正态分布表得}k=-u_{a}=-u_{0.05}=-1.645,\\ \\text{所以拒绝域为}u&lt;-1.645.\\\\ &amp; (4)\\ \\text{由于}\\ \\bar{x}=33/60=0.55,\\ p_{0}=0.6,\\ \\text{所以}\\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\end{aligned}</div>"
     },
     {
       "id": "q0016",
       "number": 16,
       "header": "#16-Hard",
       "difficulty": "Hard",
-      "prompt_html": "<img src=\"/static/generated/assets/probability/ch130/q0016_prompt.png\"/>",
+      "prompt_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{aligned}&amp; \\text{设总体}X,Y \\text{皆服从两点分布} \\\\ &amp; \\begin{array}{|c|c|c|} \\hline X &amp; 0 &amp; 1 \\\\ \\hline p_{1} &amp; p_{1} &amp; q_{1} \\\\ \\hline \\end{array} \\quad \\begin{array}{|c|c|c|} \\hline Y &amp; 0 &amp; 1 \\\\ \\hline p_{1} &amp; p_{2} &amp; q_{2} \\\\ \\hline \\end{array} \\\\ &amp; (p_{1}+q_{1}=1, p_{2}+q_{2}=1, \\text{且}0&lt;p_{1}&lt;1, 0&lt;p_{2}&lt;1)。 \\text{从总体}X \\text{取样本}X_{1}, X_{2}, \\cdots, X_{n_{1}}，\\text{从总体}Y \\text{中取样本}Y_{1}, Y_{2}, \\cdots, Y_{n_{2}}，\\text{两样本独立}. \\text{对于假设检验} \\\\ &amp; H_{0}: p_{1}=p_{2} \\Leftrightarrow H_{1}: p_{1}\\neq p_{2} \\\\ &amp; \\text{设显著水平为} \\alpha, \\text{则检验统计量是} \\underline{\\hspace{2em}}, \\text{检验拒绝域} W=\\underline{\\hspace{2em}} \\text{（假设}n_{1}, n_{2} \\text{充分大）。} \\end{aligned}\">\\begin{aligned}&amp; \\text{设总体}X,Y \\text{皆服从两点分布} \\\\ &amp; \\begin{array}{|c|c|c|} \\hline X &amp; 0 &amp; 1 \\\\ \\hline p_{1} &amp; p_{1} &amp; q_{1} \\\\ \\hline \\end{array} \\quad \\begin{array}{|c|c|c|} \\hline Y &amp; 0 &amp; 1 \\\\ \\hline p_{1} &amp; p_{2} &amp; q_{2} \\\\ \\hline \\end{array} \\\\ &amp; (p_{1}+q_{1}=1, p_{2}+q_{2}=1, \\text{且}0&lt;p_{1}&lt;1, 0&lt;p_{2}&lt;1)。 \\text{从总体}X \\text{取样本}X_{1}, X_{2}, \\cdots, X_{n_{1}}，\\text{从总体}Y \\text{中取样本}Y_{1}, Y_{2}, \\cdots, Y_{n_{2}}，\\text{两样本独立}. \\text{对于假设检验} \\\\ &amp; H_{0}: p_{1}=p_{2} \\Leftrightarrow H_{1}: p_{1}\\neq p_{2} \\\\ &amp; \\text{设显著水平为} \\alpha, \\text{则检验统计量是} \\underline{\\hspace{2em}}, \\text{检验拒绝域} W=\\underline{\\hspace{2em}} \\text{（假设}n_{1}, n_{2} \\text{充分大）。} \\end{aligned}</div>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/probability/ch130/q0016_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\begin{aligned}U = \\frac{\\overline{p_1} - \\overline{p_2}}{\\sqrt{\\overline{p}(1-\\overline{p})(\\frac{1}{n_1} + \\frac{1}{n_2})}}\\,,\\,\\,\\, |u| &gt; u_{\\omega/2}\\end{aligned}\">\\begin{aligned}U = \\frac{\\overline{p_1} - \\overline{p_2}}{\\sqrt{\\overline{p}(1-\\overline{p})(\\frac{1}{n_1} + \\frac{1}{n_2})}}\\,,\\,\\,\\, |u| &gt; u_{\\omega/2}\\end{aligned}</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/probability/ch130/q0016_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\begin{aligned}U = \\frac{\\overline{p_1} - \\overline{p_2}}{\\sqrt{\\frac{n_A}{n_1}(1-\\frac{n_A}{n_1})(\\frac{1}{n_1}+\\frac{1}{n_2})}}\\,,\\,\\,\\, |t| &gt; t_{\\omega 2}(n_1+n_2-2)\\end{aligned}\">\\begin{aligned}U = \\frac{\\overline{p_1} - \\overline{p_2}}{\\sqrt{\\frac{n_A}{n_1}(1-\\frac{n_A}{n_1})(\\frac{1}{n_1}+\\frac{1}{n_2})}}\\,,\\,\\,\\, |t| &gt; t_{\\omega 2}(n_1+n_2-2)\\end{aligned}</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/probability/ch130/q0016_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\begin{array}{l} { r } { U = \\frac { \\overline { p } _ { 1 } - \\overline { p } _ { 2 } } { \\sqrt { \\frac { n _ { B } } { n _ { 2 } } ( 1 - \\frac { n _ { B } } { n _ { 2 } } ) ( \\frac { 1 } { n _ { 1 } } + \\frac { 1 } { n _ { 2 } } ) } } \\, , \\; \\; | u | &gt; u _ { a } } \\end{array}\">\\begin{array}{l} { r } { U = \\frac { \\overline { p } _ { 1 } - \\overline { p } _ { 2 } } { \\sqrt { \\frac { n _ { B } } { n _ { 2 } } ( 1 - \\frac { n _ { B } } { n _ { 2 } } ) ( \\frac { 1 } { n _ { 1 } } + \\frac { 1 } { n _ { 2 } } ) } } \\, , \\; \\; | u | &gt; u _ { a } } \\end{array}</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/probability/ch130/q0016_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\begin{aligned}U=\\frac{\\overline{p_1}-\\overline{p_2}}{\\sqrt{\\frac{n_B}{n_2}(1-\\frac{n_A}{n_1})(\\frac{1}{n_1}+\\frac{1}{n_2})}}\\,,\\;\\;|t|&gt;t_\\alpha(n_1+n_2-1)\\end{aligned}\">\\begin{aligned}U=\\frac{\\overline{p_1}-\\overline{p_2}}{\\sqrt{\\frac{n_B}{n_2}(1-\\frac{n_A}{n_1})(\\frac{1}{n_1}+\\frac{1}{n_2})}}\\,,\\;\\;|t|&gt;t_\\alpha(n_1+n_2-1)\\end{aligned}</span>"
         }
       ],
       "answer": "A",
       "answer_index": 0,
-      "analysis_html": "<img src=\"/static/generated/assets/probability/ch130/q0016_analysis.png\"/>"
+      "analysis_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{aligned}&amp;\\text{令}A=\\{X=1\\},\\ B=\\{Y=1\\},\\ \\text{则}X,Y\\text{分别为}A,B\\text{发生的频率，即} \\overline{x}=\\frac{n_{a}}{n_{1}}=\\widehat{p_{1}},\\ \\overline{y}=\\frac{n_{g}}{n_{2}}=\\widehat{p_{2}},\\ \\text{检验假设为}\\\\&amp;H_{0}:p_{1}=p_{2}\\Leftrightarrow H_{0}:p_{1}\\neq p_{2},\\\\&amp;\\text{根据中心极限定理，当}H_{0}\\text{真，且}n_{1},n_{2}\\text{充分大时，}\\\\&amp;U=\\frac{\\overline{p_{1}}-\\overline{p_{2}}}{\\sqrt{\\overline{p(1-\\overline{p})}(\\frac{1}{n_{1}}+\\frac{1}{n_{2}})}}\\text{近似服从}N(0,1),\\\\&amp;\\text{其中}\\overline{p}=\\frac{n_{a}+n_{g}}{n_{1}+n_{2}}.\\ \\text{记}U\\text{的样本观察值为}u,\\ \\text{则有拒绝域为} |u|&gt;u_{0,2}.\\end{aligned}\">\\begin{aligned}&amp;\\text{令}A=\\{X=1\\},\\ B=\\{Y=1\\},\\ \\text{则}X,Y\\text{分别为}A,B\\text{发生的频率，即} \\overline{x}=\\frac{n_{a}}{n_{1}}=\\widehat{p_{1}},\\ \\overline{y}=\\frac{n_{g}}{n_{2}}=\\widehat{p_{2}},\\ \\text{检验假设为}\\\\&amp;H_{0}:p_{1}=p_{2}\\Leftrightarrow H_{0}:p_{1}\\neq p_{2},\\\\&amp;\\text{根据中心极限定理，当}H_{0}\\text{真，且}n_{1},n_{2}\\text{充分大时，}\\\\&amp;U=\\frac{\\overline{p_{1}}-\\overline{p_{2}}}{\\sqrt{\\overline{p(1-\\overline{p})}(\\frac{1}{n_{1}}+\\frac{1}{n_{2}})}}\\text{近似服从}N(0,1),\\\\&amp;\\text{其中}\\overline{p}=\\frac{n_{a}+n_{g}}{n_{1}+n_{2}}.\\ \\text{记}U\\text{的样本观察值为}u,\\ \\text{则有拒绝域为} |u|&gt;u_{0,2}.\\end{aligned}</div>"
     },
     {
       "id": "q0017",
       "number": 17,
       "header": "#17-Averge",
       "difficulty": "Averge",
-      "prompt_html": "<img src=\"/static/generated/assets/probability/ch130/q0017_prompt.png\"/>",
+      "prompt_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{array}{l} \\text {在} A \\text {县调查} n _ {1} = 1500 \\text {个农户，其中有中小型农业机械的农户} \\mu_ {n _ {1}} = 300 \\text {户；在} B \\text {县调查} n _ {2} = 1800 \\text {户，其中有中小型农业机械的农户} \\mu_ {n _ {2}} = 320 \\text {户，试在显著性水平} \\alpha = 0. 05 \\text {下检验两个县有中小型农户的比率有无差异？（）}. \\end{array}\">\\begin{array}{l} \\text {在} A \\text {县调查} n _ {1} = 1500 \\text {个农户，其中有中小型农业机械的农户} \\mu_ {n _ {1}} = 300 \\text {户；在} B \\text {县调查} n _ {2} = 1800 \\text {户，其中有中小型农业机械的农户} \\mu_ {n _ {2}} = 320 \\text {户，试在显著性水平} \\alpha = 0. 05 \\text {下检验两个县有中小型农户的比率有无差异？（）}. \\end{array}</div>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/probability/ch130/q0017_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{没有}\">\\text{没有}</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/probability/ch130/q0017_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{有}\">\\text{有}</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/probability/ch130/q0017_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{无法确定}\">\\text{无法确定}</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/probability/ch130/q0017_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{其他结论均不正确}\">\\text{其他结论均不正确}</span>"
         }
       ],
       "answer": "A",
       "answer_index": 0,
-      "analysis_html": "<img src=\"/static/generated/assets/probability/ch130/q0017_analysis.png\"/>"
+      "analysis_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{aligned} &amp; \\text{由于 }n_1=1500,\\;n_2=1800,\\text{这是大样本情形下两个0-1总体的概率检验问题. 假设}\\\\ &amp; \\qquad\\qquad H_0: p_1=p_2,\\;H_1: p_1\\neq p_2.\\\\ &amp; \\text{由于 }n_1=1500,\\;n_2=1800,\\;\\mu_{n_1}=300,\\;\\mu_{n_2}=320,\\text{经济计算得}\\\\ &amp; \\qquad\\qquad \\overline{P_1}=\\frac{\\mu_{n_1}}{n_1}=0.200,\\;\\; \\overline{p_2}=\\frac{\\mu_{n_2}}{n_2}=0.178,\\;\\; \\overline{P}=\\frac{\\mu_{n_1}+\\mu_{n_2}}{n_1+n_2}=0.188,\\\\ &amp; \\qquad\\qquad u=\\frac{\\overline{p_1}-\\overline{p_2}}{\\sqrt{p(1-p)(1/n_1+1/n_2)}}=1.61,\\\\ &amp; \\text{由 }\\alpha=0.05,\\text{可知}u_{n_2}=1.96,\\text{由于 }|u|&lt;u_{n_2},\\text{故在显著性水平 }\\alpha=0.05 \\text{下接受} H_0.\\end{aligned}\">\\begin{aligned} &amp; \\text{由于 }n_1=1500,\\;n_2=1800,\\text{这是大样本情形下两个0-1总体的概率检验问题. 假设}\\\\ &amp; \\qquad\\qquad H_0: p_1=p_2,\\;H_1: p_1\\neq p_2.\\\\ &amp; \\text{由于 }n_1=1500,\\;n_2=1800,\\;\\mu_{n_1}=300,\\;\\mu_{n_2}=320,\\text{经济计算得}\\\\ &amp; \\qquad\\qquad \\overline{P_1}=\\frac{\\mu_{n_1}}{n_1}=0.200,\\;\\; \\overline{p_2}=\\frac{\\mu_{n_2}}{n_2}=0.178,\\;\\; \\overline{P}=\\frac{\\mu_{n_1}+\\mu_{n_2}}{n_1+n_2}=0.188,\\\\ &amp; \\qquad\\qquad u=\\frac{\\overline{p_1}-\\overline{p_2}}{\\sqrt{p(1-p)(1/n_1+1/n_2)}}=1.61,\\\\ &amp; \\text{由 }\\alpha=0.05,\\text{可知}u_{n_2}=1.96,\\text{由于 }|u|&lt;u_{n_2},\\text{故在显著性水平 }\\alpha=0.05 \\text{下接受} H_0.\\end{aligned}</div>"
     }
-  ]
+  ],
+  "format": "latex",
+  "source_md": "gl/8.3_一般总体参数的假设检验(17题)/8.3_一般总体参数的假设检验(17题).md"
 }

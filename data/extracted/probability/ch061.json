@@ -13,224 +13,226 @@
       "number": 1,
       "header": "#1-Easy",
       "difficulty": "Easy",
-      "prompt_html": "<img src=\"/static/generated/assets/probability/ch061/q0001_prompt.png\"/>",
+      "prompt_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{array}{l}\n\\begin{array}{|c|c|c|c|} \\hline \\text{长度} \\xi &amp; 29 &amp; 30 &amp; 31 \\\\ \\hline p &amp; 0.3 &amp; 0.5 &amp; 0.2 \\\\ \\hline \\end{array} &amp; \\begin{array}{|c|c|c|c|} \\hline \\text{宽度} \\eta &amp; 19 &amp; 20 &amp; 21 \\\\ \\hline p &amp; 0.3 &amp; 0.4 &amp; 0.3 \\\\ \\hline \\end{array} \\text{设长与宽相互独立}，\\text{则周长} \\zeta \\text{的分布律为}（）。\n\n\\end{array}\">\\begin{array}{l}\n\\begin{array}{|c|c|c|c|} \\hline \\text{长度} \\xi &amp; 29 &amp; 30 &amp; 31 \\\\ \\hline p &amp; 0.3 &amp; 0.5 &amp; 0.2 \\\\ \\hline \\end{array} &amp; \\begin{array}{|c|c|c|c|} \\hline \\text{宽度} \\eta &amp; 19 &amp; 20 &amp; 21 \\\\ \\hline p &amp; 0.3 &amp; 0.4 &amp; 0.3 \\\\ \\hline \\end{array} \\text{设长与宽相互独立}，\\text{则周长} \\zeta \\text{的分布律为}（）。\n\n\\end{array}</div>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/probability/ch061/q0001_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\begin{array}{l}\n\\begin{array}{|c|c|c|c|c|c|} \\hline \\zeta &amp; 96 &amp; 98 &amp; 100 &amp; 102 &amp; 104 \\\\ \\hline p &amp; 0.09 &amp; 0.27 &amp; 0.35 &amp; 0.23 &amp; 0.06 \\\\ \\hline \\end{array}\n\\end{array}\">\\begin{array}{l}\n\\begin{array}{|c|c|c|c|c|c|} \\hline \\zeta &amp; 96 &amp; 98 &amp; 100 &amp; 102 &amp; 104 \\\\ \\hline p &amp; 0.09 &amp; 0.27 &amp; 0.35 &amp; 0.23 &amp; 0.06 \\\\ \\hline \\end{array}\n\\end{array}</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/probability/ch061/q0001_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\begin{array}{l}\n\\begin{array}{|c|c|c|c|} \\hline \\zeta &amp; 96 &amp; 100 &amp; 104 \\\\ \\hline p &amp; 0.3 &amp; 0.4 &amp; 0.3 \\\\ \\hline \\end{array}\n\\end{array}\">\\begin{array}{l}\n\\begin{array}{|c|c|c|c|} \\hline \\zeta &amp; 96 &amp; 100 &amp; 104 \\\\ \\hline p &amp; 0.3 &amp; 0.4 &amp; 0.3 \\\\ \\hline \\end{array}\n\\end{array}</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/probability/ch061/q0001_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\begin{array}{l}\n\\begin{array}{|c|c|c|c|c|c|} \\hline \\zeta &amp; 96 &amp; 98 &amp; 100 &amp; 102 &amp; 104 \\\\ \\hline p &amp; 0.06 &amp; 0.23 &amp; 0.35 &amp; 0.27 &amp; 0.09 \\\\ \\hline \\end{array}\n\\end{array}\">\\begin{array}{l}\n\\begin{array}{|c|c|c|c|c|c|} \\hline \\zeta &amp; 96 &amp; 98 &amp; 100 &amp; 102 &amp; 104 \\\\ \\hline p &amp; 0.06 &amp; 0.23 &amp; 0.35 &amp; 0.27 &amp; 0.09 \\\\ \\hline \\end{array}\n\\end{array}</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/probability/ch061/q0001_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\begin{array}{l}\n\\begin{array}{|c|c|c|c|} \\hline \\zeta &amp; 96 &amp; 100 &amp; 104 \\\\ \\hline p &amp; 0.3 &amp; 0.5 &amp; 0.2 \\\\ \\hline \\end{array}\n\\end{array}\">\\begin{array}{l}\n\\begin{array}{|c|c|c|c|} \\hline \\zeta &amp; 96 &amp; 100 &amp; 104 \\\\ \\hline p &amp; 0.3 &amp; 0.5 &amp; 0.2 \\\\ \\hline \\end{array}\n\\end{array}</span>"
         }
       ],
       "answer": "A",
       "answer_index": 0,
-      "analysis_html": "<img src=\"/static/generated/assets/probability/ch061/q0001_analysis.png\"/>"
+      "analysis_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{aligned} \\text{因为独立，所以} p_{i_0} = P\\{\\xi=i\\} P\\{\\eta=j\\}, \\text{即} \\\\ \\begin{array}{|c|c|c|c|} \\hline &amp; 19 &amp; 20 &amp; 21 \\\\ \\hline 29 &amp; 0.09 &amp; 0.12 &amp; 0.09 \\\\ 30 &amp; 0.15 &amp; 0.20 &amp; 0.15 \\\\ 31 &amp; 0.06 &amp; 0.08 &amp; 0.06 \\\\ \\hline \\end{array} \\\\ \\hline \\\\ \\hline &amp; (29,19)(29,20)(29,21)(30,19)(30,20)(30,21)(31,19)(31,20)(31,21) \\\\ \\hline &amp; 0.09 &amp; 0.12 &amp; 0.09 &amp; 0.15 &amp; 0.20 &amp; 0.15 &amp; 0.06 &amp; 0.08 &amp; 0.06 \\\\ \\hline &amp; 96 &amp; 98 &amp; 100 &amp; 98 &amp; 100 &amp; 102 &amp; 100 &amp; 102 &amp; 104 \\\\ \\hline \\end{aligned}\">\\begin{aligned} \\text{因为独立，所以} p_{i_0} = P\\{\\xi=i\\} P\\{\\eta=j\\}, \\text{即} \\\\ \\begin{array}{|c|c|c|c|} \\hline &amp; 19 &amp; 20 &amp; 21 \\\\ \\hline 29 &amp; 0.09 &amp; 0.12 &amp; 0.09 \\\\ 30 &amp; 0.15 &amp; 0.20 &amp; 0.15 \\\\ 31 &amp; 0.06 &amp; 0.08 &amp; 0.06 \\\\ \\hline \\end{array} \\\\ \\hline \\\\ \\hline &amp; (29,19)(29,20)(29,21)(30,19)(30,20)(30,21)(31,19)(31,20)(31,21) \\\\ \\hline &amp; 0.09 &amp; 0.12 &amp; 0.09 &amp; 0.15 &amp; 0.20 &amp; 0.15 &amp; 0.06 &amp; 0.08 &amp; 0.06 \\\\ \\hline &amp; 96 &amp; 98 &amp; 100 &amp; 98 &amp; 100 &amp; 102 &amp; 100 &amp; 102 &amp; 104 \\\\ \\hline \\end{aligned}</div>"
     },
     {
       "id": "q0002",
       "number": 2,
       "header": "#2-Easy",
       "difficulty": "Easy",
-      "prompt_html": "<img src=\"/static/generated/assets/probability/ch061/q0002_prompt.png\"/>",
+      "prompt_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{array}{l}\n\\begin{array}{|c|c|c|} \\hline \\xi,\\eta &amp; 1 &amp; 2 \\\\ \\hline p_{i} &amp; \\frac{1}{3} &amp; \\frac{2}{3} \\\\ \\hline \\end{array} \\text{则} \\zeta=\\xi+\\eta \\text{的分布列为}（）。\n\n\\end{array}\">\\begin{array}{l}\n\\begin{array}{|c|c|c|} \\hline \\xi,\\eta &amp; 1 &amp; 2 \\\\ \\hline p_{i} &amp; \\frac{1}{3} &amp; \\frac{2}{3} \\\\ \\hline \\end{array} \\text{则} \\zeta=\\xi+\\eta \\text{的分布列为}（）。\n\n\\end{array}</div>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/probability/ch061/q0002_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\begin{array}{l}\n\\begin{array}{|c|c|c|c|} \\hline \\zeta &amp; 2 &amp; 3 &amp; 4 \\\\ \\hline p_i &amp; \\frac{1}{9} &amp; \\frac{4}{9} &amp; \\frac{4}{9} \\\\ \\hline \\end{array}\n\\end{array}\">\\begin{array}{l}\n\\begin{array}{|c|c|c|c|} \\hline \\zeta &amp; 2 &amp; 3 &amp; 4 \\\\ \\hline p_i &amp; \\frac{1}{9} &amp; \\frac{4}{9} &amp; \\frac{4}{9} \\\\ \\hline \\end{array}\n\\end{array}</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/probability/ch061/q0002_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\begin{array}{l}\n\\begin{array}{|c|c|} \\hline \\zeta &amp; 3 \\\\ \\hline p_i &amp; 1 \\\\ \\hline \\end{array}\n\\end{array}\">\\begin{array}{l}\n\\begin{array}{|c|c|} \\hline \\zeta &amp; 3 \\\\ \\hline p_i &amp; 1 \\\\ \\hline \\end{array}\n\\end{array}</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/probability/ch061/q0002_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\begin{array}{l}\n\\begin{array}{|c|c|c|c|} \\hline \\zeta &amp; 2 &amp; 3 &amp; 4 \\\\ \\hline p_i &amp; \\frac{1}{3} &amp; \\frac{2}{9} &amp; \\frac{4}{9} \\\\ \\hline \\end{array}\n\\end{array}\">\\begin{array}{l}\n\\begin{array}{|c|c|c|c|} \\hline \\zeta &amp; 2 &amp; 3 &amp; 4 \\\\ \\hline p_i &amp; \\frac{1}{3} &amp; \\frac{2}{9} &amp; \\frac{4}{9} \\\\ \\hline \\end{array}\n\\end{array}</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/probability/ch061/q0002_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\begin{array}{l}\n\\begin{array}{|c|c c|} \\hline \\zeta &amp; 2 &amp; 4 \\\\ \\hline p_i &amp; \\frac{1}{3} &amp; \\frac{2}{3} \\\\ \\hline \\end{array}\n\\end{array}\">\\begin{array}{l}\n\\begin{array}{|c|c c|} \\hline \\zeta &amp; 2 &amp; 4 \\\\ \\hline p_i &amp; \\frac{1}{3} &amp; \\frac{2}{3} \\\\ \\hline \\end{array}\n\\end{array}</span>"
         }
       ],
       "answer": "A",
       "answer_index": 0,
-      "analysis_html": "<img src=\"/static/generated/assets/probability/ch061/q0002_analysis.png\"/>"
+      "analysis_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{array}{l} [scale=0.7]                               \\end{array}\">\\begin{array}{l} [scale=0.7]                               \\end{array}</div>"
     },
     {
       "id": "q0003",
       "number": 3,
       "header": "#3-Easy",
       "difficulty": "Easy",
-      "prompt_html": "<img src=\"/static/generated/assets/probability/ch061/q0003_prompt.png\"/>",
+      "prompt_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{array}{l}\n\\begin{array}{|c|c|c|} \\hline \\xi,\\eta &amp; 1 &amp; 3 \\\\ \\hline p_i &amp; \\frac{1}{3} &amp; \\frac{2}{3} \\\\ \\hline \\end{array} \\text{则} \\zeta=\\xi-\\eta \\text{的分布列为}（）.\n\n\\end{array}\">\\begin{array}{l}\n\\begin{array}{|c|c|c|} \\hline \\xi,\\eta &amp; 1 &amp; 3 \\\\ \\hline p_i &amp; \\frac{1}{3} &amp; \\frac{2}{3} \\\\ \\hline \\end{array} \\text{则} \\zeta=\\xi-\\eta \\text{的分布列为}（）.\n\n\\end{array}</div>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/probability/ch061/q0003_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\begin{array}{l}\n\\begin{array}{|c|c|c|c|} \\hline \\zeta &amp; -2 &amp; 0 &amp; 2 \\\\ \\hline p_i &amp; \\frac{2}{9} &amp; \\frac{5}{9} &amp; \\frac{2}{9} \\\\ \\hline \\end{array}\n\\end{array}\">\\begin{array}{l}\n\\begin{array}{|c|c|c|c|} \\hline \\zeta &amp; -2 &amp; 0 &amp; 2 \\\\ \\hline p_i &amp; \\frac{2}{9} &amp; \\frac{5}{9} &amp; \\frac{2}{9} \\\\ \\hline \\end{array}\n\\end{array}</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/probability/ch061/q0003_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\begin{array}{l}\n\\begin{array}{|c|c c|} \\hline \\zeta &amp; 1 &amp; 3 \\\\ \\hline p_i &amp; 1/3 &amp; 2/3 \\\\ \\hline \\end{array}\n\\end{array}\">\\begin{array}{l}\n\\begin{array}{|c|c c|} \\hline \\zeta &amp; 1 &amp; 3 \\\\ \\hline p_i &amp; 1/3 &amp; 2/3 \\\\ \\hline \\end{array}\n\\end{array}</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/probability/ch061/q0003_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\begin{array}{l}\n\\begin{array}{|c|c|c|c|} \\hline \\zeta &amp; -2 &amp; 0 &amp; 2 \\\\ \\hline p_i &amp; \\frac{2}{3} &amp; 0 &amp; \\frac{1}{3} \\\\ \\hline \\end{array}\n\\end{array}\">\\begin{array}{l}\n\\begin{array}{|c|c|c|c|} \\hline \\zeta &amp; -2 &amp; 0 &amp; 2 \\\\ \\hline p_i &amp; \\frac{2}{3} &amp; 0 &amp; \\frac{1}{3} \\\\ \\hline \\end{array}\n\\end{array}</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/probability/ch061/q0003_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\begin{array}{l}\n\\begin{array}{|c|c c|} \\hline \\zeta &amp; 0 &amp; 2 \\\\ \\hline p_i &amp; \\frac{2}{3} &amp; \\frac{1}{3} \\\\ \\hline \\end{array}\n\\end{array}\">\\begin{array}{l}\n\\begin{array}{|c|c c|} \\hline \\zeta &amp; 0 &amp; 2 \\\\ \\hline p_i &amp; \\frac{2}{3} &amp; \\frac{1}{3} \\\\ \\hline \\end{array}\n\\end{array}</span>"
         }
       ],
       "answer": "A",
       "answer_index": 0,
-      "analysis_html": "<img src=\"/static/generated/assets/probability/ch061/q0003_analysis.png\"/>"
+      "analysis_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{array}{l}\n\\begin{array}{|c|c|c|c|c|} \\hline  &amp; (1,1) &amp; (1,3) &amp; (3,1) &amp; (3,3) \\\\ \\hline\n&amp; 1/9 &amp; 2/9 &amp; 2/9 &amp; 4/9 \\\\ \\hline\n&amp; 0 &amp; -2 &amp; 2 &amp; 0 \\\\ \\hline \\end{array}\n\n\\text{从而} \\zeta \\text{的分布律为}\n\\begin{array}{|c|c|c|c|} \\hline - &amp; -2 &amp; 0 &amp; 2 \\\\ \\hline &amp; 2/9 &amp; 5/9 &amp; 2/9 \\\\ \\hline \\end{array}\n\\text{因为相互独立}，\\text{故}\n\\end{array}\">\\begin{array}{l}\n\\begin{array}{|c|c|c|c|c|} \\hline  &amp; (1,1) &amp; (1,3) &amp; (3,1) &amp; (3,3) \\\\ \\hline\n&amp; 1/9 &amp; 2/9 &amp; 2/9 &amp; 4/9 \\\\ \\hline\n&amp; 0 &amp; -2 &amp; 2 &amp; 0 \\\\ \\hline \\end{array}\n\n\\text{从而} \\zeta \\text{的分布律为}\n\\begin{array}{|c|c|c|c|} \\hline - &amp; -2 &amp; 0 &amp; 2 \\\\ \\hline &amp; 2/9 &amp; 5/9 &amp; 2/9 \\\\ \\hline \\end{array}\n\\text{因为相互独立}，\\text{故}\n\\end{array}</div>"
     },
     {
       "id": "q0004",
       "number": 4,
       "header": "#4-Hard",
       "difficulty": "Hard",
-      "prompt_html": "<img src=\"/static/generated/assets/probability/ch061/q0004_prompt.png\"/>",
+      "prompt_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{array}{l} \\text {设} \\zeta、\\eta \\text {相互独立，分布律分别为} P\\{\\zeta = i\\} = p(i),\\ P\\{\\eta = j\\} = q(j),\\ i,j \\text {均为正整数．则} \\xi = \\zeta + \\eta \\text {的分布律为}() . \\end{array}\">\\begin{array}{l} \\text {设} \\zeta、\\eta \\text {相互独立，分布律分别为} P\\{\\zeta = i\\} = p(i),\\ P\\{\\eta = j\\} = q(j),\\ i,j \\text {均为正整数．则} \\xi = \\zeta + \\eta \\text {的分布律为}() . \\end{array}</div>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/probability/ch061/q0004_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\begin{aligned}P\\{\\xi = k\\} = \\sum_{i=1}^k p(i)q(k-i)\\end{aligned}\">\\begin{aligned}P\\{\\xi = k\\} = \\sum_{i=1}^k p(i)q(k-i)\\end{aligned}</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/probability/ch061/q0004_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\begin{aligned}P\\{\\xi = k\\} = \\sum_{i=1}^k \\sum_{j=k-i}^k p(i)q(j)\\end{aligned}\">\\begin{aligned}P\\{\\xi = k\\} = \\sum_{i=1}^k \\sum_{j=k-i}^k p(i)q(j)\\end{aligned}</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/probability/ch061/q0004_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\begin{aligned}P\\{\\xi = k\\} = \\sum_{i=1}^k \\sum_{j=1}^{k-i} p(i) q(j)\\end{aligned}\">\\begin{aligned}P\\{\\xi = k\\} = \\sum_{i=1}^k \\sum_{j=1}^{k-i} p(i) q(j)\\end{aligned}</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/probability/ch061/q0004_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\begin{aligned}P\\{\\breve{\\zeta}=k\\}=\\sum_{i=1}^{k}\\sum_{j=1}^{k}p(i)q(j)\\end{aligned}\">\\begin{aligned}P\\{\\breve{\\zeta}=k\\}=\\sum_{i=1}^{k}\\sum_{j=1}^{k}p(i)q(j)\\end{aligned}</span>"
         }
       ],
       "answer": "A",
       "answer_index": 0,
-      "analysis_html": "<img src=\"/static/generated/assets/probability/ch061/q0004_analysis.png\"/>"
+      "analysis_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{aligned} \\text{因为独立，所以有} \\qquad \\qquad P\\{\\xi=i,\\eta=j\\} &amp; = P\\{\\xi=i\\} P\\{\\eta=j\\} = p(i)q(j)\\,, \\\\ \\text{又}\\,\\zeta=\\xi+\\eta,\\,\\,\\,i,j \\text{均为正整数，所以} \\qquad \\qquad P\\{\\zeta=k\\} &amp; = P\\{\\xi+\\eta=k\\} = \\sum_{i+j-k} P\\{\\xi=i,\\eta=j\\} \\, = \\sum_{i+j-k} p(i)q(j) = \\sum_{i=1}^{k} p(i)q(k-i)\\,.\\end{aligned}\">\\begin{aligned} \\text{因为独立，所以有} \\qquad \\qquad P\\{\\xi=i,\\eta=j\\} &amp; = P\\{\\xi=i\\} P\\{\\eta=j\\} = p(i)q(j)\\,, \\\\ \\text{又}\\,\\zeta=\\xi+\\eta,\\,\\,\\,i,j \\text{均为正整数，所以} \\qquad \\qquad P\\{\\zeta=k\\} &amp; = P\\{\\xi+\\eta=k\\} = \\sum_{i+j-k} P\\{\\xi=i,\\eta=j\\} \\, = \\sum_{i+j-k} p(i)q(j) = \\sum_{i=1}^{k} p(i)q(k-i)\\,.\\end{aligned}</div>"
     },
     {
       "id": "q0005",
       "number": 5,
       "header": "#5-Easy",
       "difficulty": "Easy",
-      "prompt_html": "<img src=\"/static/generated/assets/probability/ch061/q0005_prompt.png\"/>",
+      "prompt_html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{若} \\lambda \\text{和} Y \\text{相互独立，他们分别服从参数为} \\lambda_{1}, \\lambda_{2} \\text{的泊松分布，则} Z = X + Y \\text{服从参数为}( )\\text{的泊松分布}.\">\\text{若} \\lambda \\text{和} Y \\text{相互独立，他们分别服从参数为} \\lambda_{1}, \\lambda_{2} \\text{的泊松分布，则} Z = X + Y \\text{服从参数为}( )\\text{的泊松分布}.</span>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/probability/ch061/q0005_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\lambda _ { 1 } + \\lambda _ { 2 }\">\\lambda _ { 1 } + \\lambda _ { 2 }</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/probability/ch061/q0005_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\frac { \\lambda _ { 1 } + \\lambda _ { 2 } } { 2 }\">\\frac { \\lambda _ { 1 } + \\lambda _ { 2 } } { 2 }</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/probability/ch061/q0005_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\lambda _ { 1 } { \\cdot } \\lambda _ { 2 }\">\\lambda _ { 1 } { \\cdot } \\lambda _ { 2 }</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/probability/ch061/q0005_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\sqrt { \\lambda _ { 1 } \\cdot \\lambda _ { 2 } }\">\\sqrt { \\lambda _ { 1 } \\cdot \\lambda _ { 2 } }</span>"
         }
       ],
       "answer": "A",
       "answer_index": 0,
-      "analysis_html": "<img src=\"/static/generated/assets/probability/ch061/q0005_analysis.png\"/>"
+      "analysis_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{aligned}P\\{X=i\\}&amp;=\\frac{e^{-\\lambda_1\\lambda_1^i}}{i!}\\;(i=0,\\,1,\\,\\cdots)\\,;\\;P\\{Y=j\\}=\\frac{e^{-\\lambda_2\\lambda_2^j}}{j!}\\;(j=0,\\,1,\\,\\cdots)\\\\\\text{由离散型卷积公式得}\\\\P\\{Z=r\\}&amp;=\\sum_{i=0}^{r}P\\{X=i,\\,Y=r-i\\}=\\sum_{i=0}^{r}e^{-\\lambda_1\\frac{\\lambda_1^i}{i!}}e^{-\\lambda_2\\frac{\\lambda_2^{r-i}}{(r-i)!}}\\\\&amp;=\\frac{e^{-(\\lambda_1+\\lambda_2)}}{r!}\\sum_{i=0}^{r}\\frac{r!}{i!(r-i)!}\\lambda_1^i\\lambda_2^{r-i}=\\frac{e^{-(\\lambda_1+\\lambda_2)}}{r!}(\\lambda_1+\\lambda_2)^r,\\,r=0,\\,1,\\,\\cdots\\\\\\text{即}Z\\text{服从参数为}\\lambda_1+\\lambda_2\\text{的泊松分布}.\\end{aligned}\">\\begin{aligned}P\\{X=i\\}&amp;=\\frac{e^{-\\lambda_1\\lambda_1^i}}{i!}\\;(i=0,\\,1,\\,\\cdots)\\,;\\;P\\{Y=j\\}=\\frac{e^{-\\lambda_2\\lambda_2^j}}{j!}\\;(j=0,\\,1,\\,\\cdots)\\\\\\text{由离散型卷积公式得}\\\\P\\{Z=r\\}&amp;=\\sum_{i=0}^{r}P\\{X=i,\\,Y=r-i\\}=\\sum_{i=0}^{r}e^{-\\lambda_1\\frac{\\lambda_1^i}{i!}}e^{-\\lambda_2\\frac{\\lambda_2^{r-i}}{(r-i)!}}\\\\&amp;=\\frac{e^{-(\\lambda_1+\\lambda_2)}}{r!}\\sum_{i=0}^{r}\\frac{r!}{i!(r-i)!}\\lambda_1^i\\lambda_2^{r-i}=\\frac{e^{-(\\lambda_1+\\lambda_2)}}{r!}(\\lambda_1+\\lambda_2)^r,\\,r=0,\\,1,\\,\\cdots\\\\\\text{即}Z\\text{服从参数为}\\lambda_1+\\lambda_2\\text{的泊松分布}.\\end{aligned}</div>"
     },
     {
       "id": "q0006",
       "number": 6,
       "header": "#6-Easy",
       "difficulty": "Easy",
-      "prompt_html": "<img src=\"/static/generated/assets/probability/ch061/q0006_prompt.png\"/>",
+      "prompt_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{array}{l}\n\\begin{array}{|c|c|c|} \\hline \\zeta &amp; \\eta &amp; 1 &amp; 2 \\\\ \\hline p_{i} &amp; \\frac{1}{2} &amp; \\frac{1}{2} \\\\ \\hline \\end{array} \\text{则} \\zeta=\\zeta+\\eta \\text{的分布列为}（）。\n\n\\end{array}\">\\begin{array}{l}\n\\begin{array}{|c|c|c|} \\hline \\zeta &amp; \\eta &amp; 1 &amp; 2 \\\\ \\hline p_{i} &amp; \\frac{1}{2} &amp; \\frac{1}{2} \\\\ \\hline \\end{array} \\text{则} \\zeta=\\zeta+\\eta \\text{的分布列为}（）。\n\n\\end{array}</div>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/probability/ch061/q0006_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\begin{array}{l}\n\\begin{array}{|c|c|c|c|} \\hline \\zeta &amp; 2 &amp; 3 &amp; 4 \\\\ \\hline p_i &amp; 1/4 &amp; 1/2 &amp; 1/4 \\\\ \\hline \\end{array}\n\\end{array}\">\\begin{array}{l}\n\\begin{array}{|c|c|c|c|} \\hline \\zeta &amp; 2 &amp; 3 &amp; 4 \\\\ \\hline p_i &amp; 1/4 &amp; 1/2 &amp; 1/4 \\\\ \\hline \\end{array}\n\\end{array}</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/probability/ch061/q0006_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\begin{array}{l}\n\\begin{array}{|c|c c|} \\hline \\zeta &amp; 2 &amp; 3 \\\\ \\hline p_i &amp; 1/2 &amp; 1/2 \\\\ \\hline \\end{array}\n\\end{array}\">\\begin{array}{l}\n\\begin{array}{|c|c c|} \\hline \\zeta &amp; 2 &amp; 3 \\\\ \\hline p_i &amp; 1/2 &amp; 1/2 \\\\ \\hline \\end{array}\n\\end{array}</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/probability/ch061/q0006_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\begin{array}{l}\n\\begin{array}{|c|c|c|c|} \\hline \\zeta &amp; 2 &amp; 3 &amp; 4 \\\\ \\hline p_i &amp; \\frac{1}{2} &amp; 0 &amp; \\frac{1}{2} \\\\ \\hline \\end{array}\n\\end{array}\">\\begin{array}{l}\n\\begin{array}{|c|c|c|c|} \\hline \\zeta &amp; 2 &amp; 3 &amp; 4 \\\\ \\hline p_i &amp; \\frac{1}{2} &amp; 0 &amp; \\frac{1}{2} \\\\ \\hline \\end{array}\n\\end{array}</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/probability/ch061/q0006_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\begin{array}{l}\n\\begin{array}{|c|c c|} \\hline \\zeta &amp; 2 &amp; 4 \\\\ \\hline p_i &amp; \\frac{1}{2} &amp; \\frac{1}{2} \\\\ \\hline \\end{array}\n\\end{array}\">\\begin{array}{l}\n\\begin{array}{|c|c c|} \\hline \\zeta &amp; 2 &amp; 4 \\\\ \\hline p_i &amp; \\frac{1}{2} &amp; \\frac{1}{2} \\\\ \\hline \\end{array}\n\\end{array}</span>"
         }
       ],
       "answer": "A",
       "answer_index": 0,
-      "analysis_html": "<img src=\"/static/generated/assets/probability/ch061/q0006_analysis.png\"/>"
+      "analysis_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{array}{l} [scale=0.7]               \\end{array}\">\\begin{array}{l} [scale=0.7]               \\end{array}</div>"
     },
     {
       "id": "q0007",
       "number": 7,
       "header": "#7-Easy",
       "difficulty": "Easy",
-      "prompt_html": "<img src=\"/static/generated/assets/probability/ch061/q0007_prompt.png\"/>",
+      "prompt_html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{设}X,\\ Y\\text{是相互独立的随机变量，它们都服从二项分布}B(n,p)\\text{，则随机变量}Z=X+Y\\text{服从( )}.\">\\text{设}X,\\ Y\\text{是相互独立的随机变量，它们都服从二项分布}B(n,p)\\text{，则随机变量}Z=X+Y\\text{服从( )}.</span>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/probability/ch061/q0007_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"B(n, p^{2})\">B(n, p^{2})</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/probability/ch061/q0007_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"B(n, p)\">B(n, p)</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/probability/ch061/q0007_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"B(2n, p^{2})\">B(2n, p^{2})</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/probability/ch061/q0007_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"B(2n,p)\">B(2n,p)</span>"
         }
       ],
       "answer": "D",
       "answer_index": 3,
-      "analysis_html": "<img src=\"/static/generated/assets/probability/ch061/q0007_analysis.png\"/>"
+      "analysis_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{aligned}\\text{根据伯努利概型，二项分布可以看作多个服从0-1分布的独立随机变量之和，又X,Y独立，故}Z=X+Y\\text{可以看作}\\\\2n\\text{个服从0-1分布的独立随机变量之和，}\\\\ \\text{即服从二项分布}B(2n,p)\\,.\\end{aligned}\">\\begin{aligned}\\text{根据伯努利概型，二项分布可以看作多个服从0-1分布的独立随机变量之和，又X,Y独立，故}Z=X+Y\\text{可以看作}\\\\2n\\text{个服从0-1分布的独立随机变量之和，}\\\\ \\text{即服从二项分布}B(2n,p)\\,.\\end{aligned}</div>"
     },
     {
       "id": "q0008",
       "number": 8,
       "header": "#8-Easy",
       "difficulty": "Easy",
-      "prompt_html": "<img src=\"/static/generated/assets/probability/ch061/q0008_prompt.png\"/>",
+      "prompt_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{array}{l} \\text{设}\\zeta、\\eta \\text{相互独立，且}P\\{\\zeta=0\\}=P\\{\\eta=0\\}=\\frac{1}{3},\\ P\\{\\zeta=1\\}=P\\{\\eta=1\\}=\\frac{2}{3},\\ \\xi=\\begin{cases}1,\\ \\zeta+\\eta\\neq 1\\\\ 0,\\ \\zeta+\\eta=1\\end{cases},\\text{则}\\xi\\text{的分布律为}()\\ . \\end{array}\">\\begin{array}{l} \\text{设}\\zeta、\\eta \\text{相互独立，且}P\\{\\zeta=0\\}=P\\{\\eta=0\\}=\\frac{1}{3},\\ P\\{\\zeta=1\\}=P\\{\\eta=1\\}=\\frac{2}{3},\\ \\xi=\\begin{cases}1,\\ \\zeta+\\eta\\neq 1\\\\ 0,\\ \\zeta+\\eta=1\\end{cases},\\text{则}\\xi\\text{的分布律为}()\\ . \\end{array}</div>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/probability/ch061/q0008_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\begin{array}{l}\n\\begin{array}{|c|c c|} \\hline \\zeta &amp; 0 &amp; 1 \\\\ \\hline p_i &amp; \\frac{4}{9} &amp; \\frac{5}{9} \\\\ \\hline \\end{array}\n\\end{array}\">\\begin{array}{l}\n\\begin{array}{|c|c c|} \\hline \\zeta &amp; 0 &amp; 1 \\\\ \\hline p_i &amp; \\frac{4}{9} &amp; \\frac{5}{9} \\\\ \\hline \\end{array}\n\\end{array}</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/probability/ch061/q0008_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\begin{array}{l}\n\\begin{array}{|c|c c|} \\hline \\zeta &amp; 0 &amp; 1 \\\\ \\hline p_i &amp; \\underline{5/9} &amp; \\underline{4/9} \\\\ \\hline \\end{array}\n\\end{array}\">\\begin{array}{l}\n\\begin{array}{|c|c c|} \\hline \\zeta &amp; 0 &amp; 1 \\\\ \\hline p_i &amp; \\underline{5/9} &amp; \\underline{4/9} \\\\ \\hline \\end{array}\n\\end{array}</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/probability/ch061/q0008_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\begin{array}{l}\n\\begin{array}{|c|c|c|} \\hline \\xi &amp; 0 &amp; 1 \\\\ \\hline p_i &amp; \\frac{2}{3} &amp; \\frac{1}{3} \\\\ \\hline \\end{array}\n\\end{array}\">\\begin{array}{l}\n\\begin{array}{|c|c|c|} \\hline \\xi &amp; 0 &amp; 1 \\\\ \\hline p_i &amp; \\frac{2}{3} &amp; \\frac{1}{3} \\\\ \\hline \\end{array}\n\\end{array}</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/probability/ch061/q0008_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\begin{array}{l}\n\\begin{array}{|c|c c|} \\hline \\zeta &amp; 0 &amp; 1 \\\\ \\hline p_i &amp; \\frac{1}{3} &amp; \\frac{2}{3} \\\\ \\hline \\end{array}\n\\end{array}\">\\begin{array}{l}\n\\begin{array}{|c|c c|} \\hline \\zeta &amp; 0 &amp; 1 \\\\ \\hline p_i &amp; \\frac{1}{3} &amp; \\frac{2}{3} \\\\ \\hline \\end{array}\n\\end{array}</span>"
         }
       ],
       "answer": "A",
       "answer_index": 0,
-      "analysis_html": "<img src=\"/static/generated/assets/probability/ch061/q0008_analysis.png\"/>"
+      "analysis_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{aligned}\\text{依题意，}(\\zeta,\\eta)\\text{的联合分布为}p_{||}=P\\{\\zeta=i\\}P\\{\\eta=j\\}\\text{，即} \\\\ \\begin{array}{|c|c|c|c|c|} \\hline (\\zeta,\\eta) &amp; (0,0) &amp; (0,1) &amp; (1,0) &amp; (1,1) \\\\ \\hline p &amp; 1/9 &amp; 2/9 &amp; 2/9 &amp; 4/9 \\\\ \\hline \\zeta+\\eta &amp; 0 &amp; 1 &amp; 1 &amp; 2 \\\\ \\hline \\xi &amp; 1 &amp; 0 &amp; 0 &amp; 1 \\\\ \\hline \\end{array} \\text{即} \\\\ \\begin{array}{|c|c|} \\hline \\xi &amp; 0 &amp; 1 \\\\ \\hline p &amp; 4/9 &amp; 5/9 \\\\ \\hline \\end{array} \\end{aligned}\">\\begin{aligned}\\text{依题意，}(\\zeta,\\eta)\\text{的联合分布为}p_{||}=P\\{\\zeta=i\\}P\\{\\eta=j\\}\\text{，即} \\\\ \\begin{array}{|c|c|c|c|c|} \\hline (\\zeta,\\eta) &amp; (0,0) &amp; (0,1) &amp; (1,0) &amp; (1,1) \\\\ \\hline p &amp; 1/9 &amp; 2/9 &amp; 2/9 &amp; 4/9 \\\\ \\hline \\zeta+\\eta &amp; 0 &amp; 1 &amp; 1 &amp; 2 \\\\ \\hline \\xi &amp; 1 &amp; 0 &amp; 0 &amp; 1 \\\\ \\hline \\end{array} \\text{即} \\\\ \\begin{array}{|c|c|} \\hline \\xi &amp; 0 &amp; 1 \\\\ \\hline p &amp; 4/9 &amp; 5/9 \\\\ \\hline \\end{array} \\end{aligned}</div>"
     }
-  ]
+  ],
+  "format": "latex",
+  "source_md": "gl/3.6.1_二维离散型随机变量的函数的分布(8题)/3.6.1_二维离散型随机变量的函数的分布(8题).md"
 }

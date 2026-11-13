@@ -13,476 +13,478 @@
       "number": 1,
       "header": "#1-Easy",
       "difficulty": "Easy",
-      "prompt_html": "<img src=\"/static/generated/assets/probability/ch050/q0001_prompt.png\"/>",
+      "prompt_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{array}{l} \\text {设随机变量}(\\xi,\\eta)\\text {在矩形域}a\\leq x\\leq b,\\ c\\leq y\\leq d\\text {内服从均匀分布，则}(\\xi,\\eta)\\text {的联合概率密度}\\varphi(x,y)=().\\end{array}\">\\begin{array}{l} \\text {设随机变量}(\\xi,\\eta)\\text {在矩形域}a\\leq x\\leq b,\\ c\\leq y\\leq d\\text {内服从均匀分布，则}(\\xi,\\eta)\\text {的联合概率密度}\\varphi(x,y)=().\\end{array}</div>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/probability/ch050/q0001_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\begin{aligned}\\{\\begin{aligned}\\frac{1}{\\bigl(b-a\\bigr)\\bigl(d-c\\bigr)}, &amp; \\ a\\leq x\\leq b,c\\leq y\\leq d\\\\0, &amp; \\quad\\ \\ \\ \\text{其它}\\end{aligned}\\end{aligned}\">\\begin{aligned}\\{\\begin{aligned}\\frac{1}{\\bigl(b-a\\bigr)\\bigl(d-c\\bigr)}, &amp; \\ a\\leq x\\leq b,c\\leq y\\leq d\\\\0, &amp; \\quad\\ \\ \\ \\text{其它}\\end{aligned}\\end{aligned}</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/probability/ch050/q0001_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\begin{aligned}\\{\\begin{aligned}\\frac{1}{(b-a)},&amp;\\ a\\leq x\\leq b,c\\leq y\\leq d\\\\0,&amp;\\quad\\ \\ \\ \\text{其它}\\end{aligned}\\end{aligned}\">\\begin{aligned}\\{\\begin{aligned}\\frac{1}{(b-a)},&amp;\\ a\\leq x\\leq b,c\\leq y\\leq d\\\\0,&amp;\\quad\\ \\ \\ \\text{其它}\\end{aligned}\\end{aligned}</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/probability/ch050/q0001_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\begin{aligned}\\{\\begin{aligned}\\frac{1}{(d-c)},&amp;\\ a\\leq x\\leq b,c\\leq y\\leq d\\\\&amp;0,\\quad\\ \\text{其它}\\end{aligned}\\end{aligned}\">\\begin{aligned}\\{\\begin{aligned}\\frac{1}{(d-c)},&amp;\\ a\\leq x\\leq b,c\\leq y\\leq d\\\\&amp;0,\\quad\\ \\text{其它}\\end{aligned}\\end{aligned}</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/probability/ch050/q0001_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\begin{aligned}\\{\\begin{array}{cc}\\displaystyle \\frac{(x-a)(y-c)}{\\bigl(b-a\\bigr)\\bigl(d-c\\bigr)},\\ a\\leq x\\leq b,c\\leq y\\leq d\\\\0,\\qquad\\text{其它}\\end{array}\\end{aligned}\">\\begin{aligned}\\{\\begin{array}{cc}\\displaystyle \\frac{(x-a)(y-c)}{\\bigl(b-a\\bigr)\\bigl(d-c\\bigr)},\\ a\\leq x\\leq b,c\\leq y\\leq d\\\\0,\\qquad\\text{其它}\\end{array}\\end{aligned}</span>"
         }
       ],
       "answer": "A",
       "answer_index": 0,
-      "analysis_html": "<img src=\"/static/generated/assets/probability/ch050/q0001_analysis.png\"/>"
+      "analysis_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{aligned}\\text{矩形的面积为} \\quad&amp; S=(b-a)\\times(d-c)\\,,\\\\ \\text{根据均匀分布的定义有} \\quad&amp; \\varphi(x,y)=\\frac{1}{S}=\\frac{1}{(b-a)\\times(d-c)}\\,,\\,\\,\\,a\\leq x\\leq b,c\\leq y\\leq d\\,.\\end{aligned}\">\\begin{aligned}\\text{矩形的面积为} \\quad&amp; S=(b-a)\\times(d-c)\\,,\\\\ \\text{根据均匀分布的定义有} \\quad&amp; \\varphi(x,y)=\\frac{1}{S}=\\frac{1}{(b-a)\\times(d-c)}\\,,\\,\\,\\,a\\leq x\\leq b,c\\leq y\\leq d\\,.\\end{aligned}</div>"
     },
     {
       "id": "q0002",
       "number": 2,
       "header": "#2-Averge",
       "difficulty": "Averge",
-      "prompt_html": "<img src=\"/static/generated/assets/probability/ch050/q0002_prompt.png\"/>",
+      "prompt_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{aligned}\\text{随机变量} (X,Y) \\text{ 的联合概率密度为} \\qquad &amp; f(x,y) = \\begin{cases} 1, \\; |x|&lt;y, 0&lt;y&lt;1 \\\\ \\qquad 0, \\; \\text{其它} \\end{cases}. \\\\\\text{则} (X,Y) \\text{ 关于} x \\text{ 的边缘概率密度为 } f_{X}(x) = (\\; ) \\;.\\end{aligned}\">\\begin{aligned}\\text{随机变量} (X,Y) \\text{ 的联合概率密度为} \\qquad &amp; f(x,y) = \\begin{cases} 1, \\; |x|&lt;y, 0&lt;y&lt;1 \\\\ \\qquad 0, \\; \\text{其它} \\end{cases}. \\\\\\text{则} (X,Y) \\text{ 关于} x \\text{ 的边缘概率密度为 } f_{X}(x) = (\\; ) \\;.\\end{aligned}</div>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/probability/ch050/q0002_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\begin{aligned}f_{X}(x)\\begin{cases}1-\\left|x\\right|, \\ \\left|x\\right|&lt;1\\\\ \\ \\ \\ \\ \\ 0, \\ \\text{其它}\\end{cases}\\end{aligned}\">\\begin{aligned}f_{X}(x)\\begin{cases}1-\\left|x\\right|, \\ \\left|x\\right|&lt;1\\\\ \\ \\ \\ \\ \\ 0, \\ \\text{其它}\\end{cases}\\end{aligned}</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/probability/ch050/q0002_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\begin{aligned}f_{x}(x)\\begin{cases}1, \\ 0&lt;x&lt;1\\\\ \\ \\ 0, \\ \\text{其它}\\end{cases}\\end{aligned}\">\\begin{aligned}f_{x}(x)\\begin{cases}1, \\ 0&lt;x&lt;1\\\\ \\ \\ 0, \\ \\text{其它}\\end{cases}\\end{aligned}</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/probability/ch050/q0002_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\begin{aligned}f_{x}(x)\\begin{cases}1,\\ \\left|x\\right|&lt;y, 0&lt;y&lt;1\\\\0, \\ \\text{其它}\\end{cases}\\end{aligned}\">\\begin{aligned}f_{x}(x)\\begin{cases}1,\\ \\left|x\\right|&lt;y, 0&lt;y&lt;1\\\\0, \\ \\text{其它}\\end{cases}\\end{aligned}</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/probability/ch050/q0002_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\begin{aligned}f_{x}(x)\\begin{cases}2x,\\ \\left|x\\right|&lt;y, 0&lt;y&lt;1\\\\0, \\ \\text{其它}\\end{cases}\\end{aligned}\">\\begin{aligned}f_{x}(x)\\begin{cases}2x,\\ \\left|x\\right|&lt;y, 0&lt;y&lt;1\\\\0, \\ \\text{其它}\\end{cases}\\end{aligned}</span>"
         }
       ],
       "answer": "A",
       "answer_index": 0,
-      "analysis_html": "<img src=\"/static/generated/assets/probability/ch050/q0002_analysis.png\"/>"
+      "analysis_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{aligned}f_{x}(x)&amp;=\\int_{-\\infty}^{+\\infty}f(x,y)dy=\\begin{cases}\\int_{-x}^{1}1dy,\\ -1&lt;x\\leq0\\\\\\int_{x}^{1}1dy,\\ 0&lt;x&lt;1\\\\0,\\ \\text{其它}\\end{cases}\\\\&amp;=\\begin{cases}1+x,\\ -1&lt;x\\leq0\\\\1-x,\\ 0&lt;x&lt;1\\\\0,\\ \\text{其它}\\end{cases}=\\begin{cases}1-|x|,\\ |x|&lt;1\\\\0,\\ \\text{其它}\\end{cases}.\\end{aligned}\">\\begin{aligned}f_{x}(x)&amp;=\\int_{-\\infty}^{+\\infty}f(x,y)dy=\\begin{cases}\\int_{-x}^{1}1dy,\\ -1&lt;x\\leq0\\\\\\int_{x}^{1}1dy,\\ 0&lt;x&lt;1\\\\0,\\ \\text{其它}\\end{cases}\\\\&amp;=\\begin{cases}1+x,\\ -1&lt;x\\leq0\\\\1-x,\\ 0&lt;x&lt;1\\\\0,\\ \\text{其它}\\end{cases}=\\begin{cases}1-|x|,\\ |x|&lt;1\\\\0,\\ \\text{其它}\\end{cases}.\\end{aligned}</div>"
     },
     {
       "id": "q0003",
       "number": 3,
       "header": "#3-Easy",
       "difficulty": "Easy",
-      "prompt_html": "<img src=\"/static/generated/assets/probability/ch050/q0003_prompt.png\"/>",
+      "prompt_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{aligned}\\text{设随机变量} (X,Y) \\text{的密度函数为} \\quad f(x,y)=\\begin{cases}1,\\ 0&lt;x&lt;1, 0&lt;y&lt;1\\\\0,\\ \\text{其他}\\end{cases}, \\quad \\text{则概率} P\\{X&lt;0.5, Y&lt;0.6\\} \\text{为（）.}\\end{aligned}\">\\begin{aligned}\\text{设随机变量} (X,Y) \\text{的密度函数为} \\quad f(x,y)=\\begin{cases}1,\\ 0&lt;x&lt;1, 0&lt;y&lt;1\\\\0,\\ \\text{其他}\\end{cases}, \\quad \\text{则概率} P\\{X&lt;0.5, Y&lt;0.6\\} \\text{为（）.}\\end{aligned}</div>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/probability/ch050/q0003_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"0.3\">0.3</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/probability/ch050/q0003_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"0.5\">0.5</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/probability/ch050/q0003_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"0.875\">0.875</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/probability/ch050/q0003_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"0.4\">0.4</span>"
         }
       ],
       "answer": "A",
       "answer_index": 0,
-      "analysis_html": "<img src=\"/static/generated/assets/probability/ch050/q0003_analysis.png\"/>"
+      "analysis_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{array}{l} { r } { P \\{ X &lt; 0 . 5 , Y &lt; 0 . 6 \\} = \\int _ { - \\infty } ^ { 0 . 5 } \\int _ { - \\infty } ^ { 0 . 6 } f ( x , y ) d x d y = \\int _ { 0 } ^ { 0 . 5 } 1 d x \\int _ { 0 } ^ { 0 . 6 } 1 d y = 0 . 3 \\, . } \\end{array}\">\\begin{array}{l} { r } { P \\{ X &lt; 0 . 5 , Y &lt; 0 . 6 \\} = \\int _ { - \\infty } ^ { 0 . 5 } \\int _ { - \\infty } ^ { 0 . 6 } f ( x , y ) d x d y = \\int _ { 0 } ^ { 0 . 5 } 1 d x \\int _ { 0 } ^ { 0 . 6 } 1 d y = 0 . 3 \\, . } \\end{array}</div>"
     },
     {
       "id": "q0004",
       "number": 4,
       "header": "#4-Averge",
       "difficulty": "Averge",
-      "prompt_html": "<img src=\"/static/generated/assets/probability/ch050/q0004_prompt.png\"/>",
+      "prompt_html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{设二维随机变量} \\left( \\xi , \\eta \\right) \\text{的联合概率密度为} \\varphi \\bigl( x , y \\bigr) = k x y e ^ { - ( x ^ { 2 } + y ^ { 2 } ) } \\bigl( x \\geq 0 , y \\geq 0 \\bigr) \\text{，则常数} k = \\left( \\ \\right) .\">\\text{设二维随机变量} \\left( \\xi , \\eta \\right) \\text{的联合概率密度为} \\varphi \\bigl( x , y \\bigr) = k x y e ^ { - ( x ^ { 2 } + y ^ { 2 } ) } \\bigl( x \\geq 0 , y \\geq 0 \\bigr) \\text{，则常数} k = \\left( \\ \\right) .</span>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/probability/ch050/q0004_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"4\">4</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/probability/ch050/q0004_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\textsf{3}\">\\textsf{3}</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/probability/ch050/q0004_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"2\">2</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/probability/ch050/q0004_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"6\">6</span>"
         }
       ],
       "answer": "A",
       "answer_index": 0,
-      "analysis_html": "<img src=\"/static/generated/assets/probability/ch050/q0004_analysis.png\"/>"
+      "analysis_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{aligned}&amp;\\text{根据联合概率密度的性质有} \\quad \\int_{-\\infty}^{+\\infty} \\int_{-\\infty}^{+\\infty} \\varphi(x,y) dx dy = 1,\\ \\text{得}\\ \\frac{k}{4} = 1,\\ \\text{即} \\ k = 4\\,. \\\\&amp;\\text{注意：}\\ \\int_{0}^{+\\infty} e^{-x^{2}} dx = \\frac{\\sqrt{\\pi}}{2},\\ \\int_{0}^{+\\infty} x e^{-x^{2}} dx = \\frac{1}{2}\\,.\\end{aligned}\">\\begin{aligned}&amp;\\text{根据联合概率密度的性质有} \\quad \\int_{-\\infty}^{+\\infty} \\int_{-\\infty}^{+\\infty} \\varphi(x,y) dx dy = 1,\\ \\text{得}\\ \\frac{k}{4} = 1,\\ \\text{即} \\ k = 4\\,. \\\\&amp;\\text{注意：}\\ \\int_{0}^{+\\infty} e^{-x^{2}} dx = \\frac{\\sqrt{\\pi}}{2},\\ \\int_{0}^{+\\infty} x e^{-x^{2}} dx = \\frac{1}{2}\\,.\\end{aligned}</div>"
     },
     {
       "id": "q0005",
       "number": 5,
       "header": "#5-Averge",
       "difficulty": "Averge",
-      "prompt_html": "<img src=\"/static/generated/assets/probability/ch050/q0005_prompt.png\"/>",
+      "prompt_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{aligned}\\text{设二维随机变量} (X,Y) \\text{的概率密度为} f(x,y)=Ae^{-2x^2+2xy-y^2},\\ -\\infty&lt;x&lt;+\\infty,\\ -\\infty&lt;y&lt;+\\infty,\\text{则常数} \\\\A=(\\ .)\\end{aligned}\">\\begin{aligned}\\text{设二维随机变量} (X,Y) \\text{的概率密度为} f(x,y)=Ae^{-2x^2+2xy-y^2},\\ -\\infty&lt;x&lt;+\\infty,\\ -\\infty&lt;y&lt;+\\infty,\\text{则常数} \\\\A=(\\ .)\\end{aligned}</div>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/probability/ch050/q0005_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\pi\">\\pi</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/probability/ch050/q0005_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"2 \\pi\">2 \\pi</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/probability/ch050/q0005_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\frac { 1 } { \\pi }\">\\frac { 1 } { \\pi }</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/probability/ch050/q0005_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\frac { 1 } { 2 \\pi }\">\\frac { 1 } { 2 \\pi }</span>"
         }
       ],
       "answer": "C",
       "answer_index": 2,
-      "analysis_html": "<img src=\"/static/generated/assets/probability/ch050/q0005_analysis.png\"/>"
+      "analysis_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{aligned}&amp;\\text{由二维连续型随机变量的概率密度的性质} \\quad \\int_{-\\infty}^{+\\infty}\\int_{-\\infty}^{+\\infty}f(x,y)dx dy=1\\,,\\\\&amp;\\text{可以得出}\\int_{-\\infty}^{+\\infty}\\int_{-\\infty}^{+\\infty}Ae^{-2x^2+2y^2-y^2}dx dy=1\\,,\\\\&amp;\\text{解得}\\,\\,\\,A=\\frac{1}{\\pi}\\end{aligned}\">\\begin{aligned}&amp;\\text{由二维连续型随机变量的概率密度的性质} \\quad \\int_{-\\infty}^{+\\infty}\\int_{-\\infty}^{+\\infty}f(x,y)dx dy=1\\,,\\\\&amp;\\text{可以得出}\\int_{-\\infty}^{+\\infty}\\int_{-\\infty}^{+\\infty}Ae^{-2x^2+2y^2-y^2}dx dy=1\\,,\\\\&amp;\\text{解得}\\,\\,\\,A=\\frac{1}{\\pi}\\end{aligned}</div>"
     },
     {
       "id": "q0006",
       "number": 6,
       "header": "#6-Averge",
       "difficulty": "Averge",
-      "prompt_html": "<img src=\"/static/generated/assets/probability/ch050/q0006_prompt.png\"/>",
+      "prompt_html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{设} \\, ( X , Y ) \\text{在曲线} y = x ^ { 2 } , y = x \\text{所围成的区域} G \\text{里服从均匀分布，则} Y \\text{的边缘分布密度为} ( \\text{.}).\">\\text{设} \\, ( X , Y ) \\text{在曲线} y = x ^ { 2 } , y = x \\text{所围成的区域} G \\text{里服从均匀分布，则} Y \\text{的边缘分布密度为} ( \\text{.}).</span>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/probability/ch050/q0006_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\begin{aligned}f_{y}(y)=\\begin{cases}6(\\sqrt{y}-y),\\; 0\\leq y\\leq 1\\\\ \\;\\;\\;\\;0,\\;\\;\\;\\;\\;\\; \\text{其它}\\end{cases}\\end{aligned}\">\\begin{aligned}f_{y}(y)=\\begin{cases}6(\\sqrt{y}-y),\\; 0\\leq y\\leq 1\\\\ \\;\\;\\;\\;0,\\;\\;\\;\\;\\;\\; \\text{其它}\\end{cases}\\end{aligned}</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/probability/ch050/q0006_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\begin{aligned}f_{y}(y)=\\begin{cases}(\\sqrt{y}-y),\\; 0\\leq y\\leq 1\\\\ \\;\\;\\;0,\\;\\;\\;\\;\\;\\; \\text{其它}\\end{cases}\\end{aligned}\">\\begin{aligned}f_{y}(y)=\\begin{cases}(\\sqrt{y}-y),\\; 0\\leq y\\leq 1\\\\ \\;\\;\\;0,\\;\\;\\;\\;\\;\\; \\text{其它}\\end{cases}\\end{aligned}</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/probability/ch050/q0006_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\begin{aligned}f_{Y}(y)=\\begin{cases}6(y-y^{2}),\\; 0\\leq y\\leq 1\\\\ \\;\\;\\;\\;0,\\;\\;\\;\\;\\;\\; \\text{其它}\\end{cases}\\end{aligned}\">\\begin{aligned}f_{Y}(y)=\\begin{cases}6(y-y^{2}),\\; 0\\leq y\\leq 1\\\\ \\;\\;\\;\\;0,\\;\\;\\;\\;\\;\\; \\text{其它}\\end{cases}\\end{aligned}</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/probability/ch050/q0006_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\begin{aligned}f_{1}(y)=\\{\\begin{aligned}&amp;(y-y^{2}),\\ 0\\leq y\\leq 1\\\\&amp;\\quad0,\\qquad\\text{其它}\\end{aligned}\\end{aligned}\">\\begin{aligned}f_{1}(y)=\\{\\begin{aligned}&amp;(y-y^{2}),\\ 0\\leq y\\leq 1\\\\&amp;\\quad0,\\qquad\\text{其它}\\end{aligned}\\end{aligned}</span>"
         }
       ],
       "answer": "A",
       "answer_index": 0,
-      "analysis_html": "<img src=\"/static/generated/assets/probability/ch050/q0006_analysis.png\"/>"
+      "analysis_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{aligned} \\text{区域}G\\text{的面积}A&amp;=\\int_{0}^{1}(x-x^{2})dx=\\frac{1}{6},\\text{由题设知}(X,Y)\\text{的联合分布密度为}\\\\&amp;f(x,y)=\\begin{cases}6,\\ 0\\leq x\\leq 1,\\ x^{2}\\leq y\\leq x\\\\0,\\qquad\\text{其它}\\end{cases},\\\\ \\text{从而}f_{1}(y)&amp;=\\int_{-\\infty}^{+\\infty}f(x,y)dx=6\\int_{y}^{\\sqrt{y}}dx=6(\\sqrt{y}-y),\\ 0\\leq y\\leq 1,\\text{即}f_{1}(y)=\\begin{cases}6(\\sqrt{y}-y),\\ 0\\leq y\\leq 1\\\\0,\\qquad\\text{其它}\\end{cases}.\\end{aligned}\">\\begin{aligned} \\text{区域}G\\text{的面积}A&amp;=\\int_{0}^{1}(x-x^{2})dx=\\frac{1}{6},\\text{由题设知}(X,Y)\\text{的联合分布密度为}\\\\&amp;f(x,y)=\\begin{cases}6,\\ 0\\leq x\\leq 1,\\ x^{2}\\leq y\\leq x\\\\0,\\qquad\\text{其它}\\end{cases},\\\\ \\text{从而}f_{1}(y)&amp;=\\int_{-\\infty}^{+\\infty}f(x,y)dx=6\\int_{y}^{\\sqrt{y}}dx=6(\\sqrt{y}-y),\\ 0\\leq y\\leq 1,\\text{即}f_{1}(y)=\\begin{cases}6(\\sqrt{y}-y),\\ 0\\leq y\\leq 1\\\\0,\\qquad\\text{其它}\\end{cases}.\\end{aligned}</div>"
     },
     {
       "id": "q0007",
       "number": 7,
       "header": "#7-Averge",
       "difficulty": "Averge",
-      "prompt_html": "<img src=\"/static/generated/assets/probability/ch050/q0007_prompt.png\"/>",
+      "prompt_html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{设二维随机变量} (X, Y) \\text{的概率密度} f ( x , y ) = \\frac { 1 } { 2 \\pi } e ^ { - \\frac { 1 } { 2 } ( x ^ { 2 } + y ^ { 2 } ) } , \\text{则关于} Y \\text{的边缘概率密度函数为} ( ) .\">\\text{设二维随机变量} (X, Y) \\text{的概率密度} f ( x , y ) = \\frac { 1 } { 2 \\pi } e ^ { - \\frac { 1 } { 2 } ( x ^ { 2 } + y ^ { 2 } ) } , \\text{则关于} Y \\text{的边缘概率密度函数为} ( ) .</span>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/probability/ch050/q0007_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\frac{1}{\\sqrt{\\pi}} e^{-x^{2}/2}\">\\frac{1}{\\sqrt{\\pi}} e^{-x^{2}/2}</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/probability/ch050/q0007_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\frac { 1 } { \\sqrt { 2 \\pi } } e ^ { - y ^ { 2 } / 2 }\">\\frac { 1 } { \\sqrt { 2 \\pi } } e ^ { - y ^ { 2 } / 2 }</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/probability/ch050/q0007_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\frac { 1 } { \\sqrt { \\pi } } e ^ { - y ^ { 2 } / 2 }\">\\frac { 1 } { \\sqrt { \\pi } } e ^ { - y ^ { 2 } / 2 }</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/probability/ch050/q0007_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\frac { 1 } { \\sqrt { 2 \\pi } } e ^ { - x ^ { 2 } / 2 }\">\\frac { 1 } { \\sqrt { 2 \\pi } } e ^ { - x ^ { 2 } / 2 }</span>"
         }
       ],
       "answer": "B",
       "answer_index": 1,
-      "analysis_html": "<img src=\"/static/generated/assets/probability/ch050/q0007_analysis.png\"/>"
+      "analysis_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{aligned}\\text{由二维连续型随机变量边缘分布的计算公式得}\\qquad f_{Y}(y)=\\int_{- \\infty}^{+\\infty} f(x,y) dx = \\frac{1}{\\sqrt{2\\pi}} e^{-y^{2}/2}.\\end{aligned}\">\\begin{aligned}\\text{由二维连续型随机变量边缘分布的计算公式得}\\qquad f_{Y}(y)=\\int_{- \\infty}^{+\\infty} f(x,y) dx = \\frac{1}{\\sqrt{2\\pi}} e^{-y^{2}/2}.\\end{aligned}</div>"
     },
     {
       "id": "q0008",
       "number": 8,
       "header": "#8-Easy",
       "difficulty": "Easy",
-      "prompt_html": "<img src=\"/static/generated/assets/probability/ch050/q0008_prompt.png\"/>",
+      "prompt_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{array}{l} \\text {设二维随机变量} (\\xi , \\eta ) \\text {的联合概率密度是} \\varphi ( x , y ) = \\frac { 1 } { 2 \\pi \\sigma ^ { 2 } } e ^ { - \\frac { x ^ { 2 } + y ^ { 2 } } { 2 \\sigma ^ { 2 } } } ( \\sigma &gt; 0 ) , \\text {则可得关于} \\xi \\text {的边缘分布密度为} \\\\ \\varphi _ { 1 } ( x ) = ( \\ ) . \\end{array}\">\\begin{array}{l} \\text {设二维随机变量} (\\xi , \\eta ) \\text {的联合概率密度是} \\varphi ( x , y ) = \\frac { 1 } { 2 \\pi \\sigma ^ { 2 } } e ^ { - \\frac { x ^ { 2 } + y ^ { 2 } } { 2 \\sigma ^ { 2 } } } ( \\sigma &gt; 0 ) , \\text {则可得关于} \\xi \\text {的边缘分布密度为} \\\\ \\varphi _ { 1 } ( x ) = ( \\ ) . \\end{array}</div>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/probability/ch050/q0008_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\frac { 1 } { \\sqrt { 2 \\pi } } e ^ { - \\frac { x ^ { 2 } } { 2 \\sigma ^ { 2 } } }\">\\frac { 1 } { \\sqrt { 2 \\pi } } e ^ { - \\frac { x ^ { 2 } } { 2 \\sigma ^ { 2 } } }</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/probability/ch050/q0008_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\frac { 1 } { \\sqrt { 2 \\pi } \\sigma } e ^ { - \\frac { x ^ { 2 } } { 2 \\sigma ^ { 2 } } }\">\\frac { 1 } { \\sqrt { 2 \\pi } \\sigma } e ^ { - \\frac { x ^ { 2 } } { 2 \\sigma ^ { 2 } } }</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/probability/ch050/q0008_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\frac { 1 } { \\sqrt { 2 \\pi } } e ^ { - \\frac { x ^ { 2 } } { 2 } }\">\\frac { 1 } { \\sqrt { 2 \\pi } } e ^ { - \\frac { x ^ { 2 } } { 2 } }</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/probability/ch050/q0008_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\frac { 1 } { 2 \\pi \\sigma } e ^ { - \\frac { x ^ { 2 } } { 2 \\sigma ^ { 2 } } }\">\\frac { 1 } { 2 \\pi \\sigma } e ^ { - \\frac { x ^ { 2 } } { 2 \\sigma ^ { 2 } } }</span>"
         }
       ],
       "answer": "B",
       "answer_index": 1,
-      "analysis_html": "<img src=\"/static/generated/assets/probability/ch050/q0008_analysis.png\"/>"
+      "analysis_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{aligned}\\begin{array}{l}\\text{根据联合正态分布的性质，可知}\\zeta,\\eta\\text{独立，于是}\\\\ \\varphi_{i}(x)=\\frac{1}{\\sqrt{2\\pi\\sigma}}e^{-\\frac{x^{2}}{2\\sigma^{2}}}\\left(\\sigma&gt;0\\right).\\end{array}\\end{aligned}\">\\begin{aligned}\\begin{array}{l}\\text{根据联合正态分布的性质，可知}\\zeta,\\eta\\text{独立，于是}\\\\ \\varphi_{i}(x)=\\frac{1}{\\sqrt{2\\pi\\sigma}}e^{-\\frac{x^{2}}{2\\sigma^{2}}}\\left(\\sigma&gt;0\\right).\\end{array}\\end{aligned}</div>"
     },
     {
       "id": "q0009",
       "number": 9,
       "header": "#9-Averge",
       "difficulty": "Averge",
-      "prompt_html": "<img src=\"/static/generated/assets/probability/ch050/q0009_prompt.png\"/>",
+      "prompt_html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{设}\\,\\xi\\,,\\,\\eta\\text{分别服从正态分布，那么}(\\xi,\\eta)(\\cdot)\\,.\">\\text{设}\\,\\xi\\,,\\,\\eta\\text{分别服从正态分布，那么}(\\xi,\\eta)(\\cdot)\\,.</span>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/probability/ch050/q0009_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{是二维随机变量，但不可能是二维正态变量}\">\\text{是二维随机变量，但不可能是二维正态变量}</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/probability/ch050/q0009_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{是二维随机变量，但不一定是二维正态变量}\">\\text{是二维随机变量，但不一定是二维正态变量}</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/probability/ch050/q0009_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{是二维正态随机变量}\">\\text{是二维正态随机变量}</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/probability/ch050/q0009_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{不是二维随机变量}\">\\text{不是二维随机变量}</span>"
         }
       ],
       "answer": "B",
       "answer_index": 1,
-      "analysis_html": "<img src=\"/static/generated/assets/probability/ch050/q0009_analysis.png\"/>"
+      "analysis_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{aligned} \\text{联合分布为正态分布时边缘分布一定为正态，反之则不然．反例为课本的例题，即} \\ \\\\ f(x,y)=\\frac{1}{2\\pi}e^{-\\frac{1}{2}(x^{2}+y^{2})}(1+\\sin x\\cdot \\sin y)\\,.\\end{aligned}\">\\begin{aligned} \\text{联合分布为正态分布时边缘分布一定为正态，反之则不然．反例为课本的例题，即} \\ \\\\ f(x,y)=\\frac{1}{2\\pi}e^{-\\frac{1}{2}(x^{2}+y^{2})}(1+\\sin x\\cdot \\sin y)\\,.\\end{aligned}</div>"
     },
     {
       "id": "q0010",
       "number": 10,
       "header": "#10-Averge",
       "difficulty": "Averge",
-      "prompt_html": "<img src=\"/static/generated/assets/probability/ch050/q0010_prompt.png\"/>",
+      "prompt_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{array}{l} \\text {设平面区域}D \\text {由曲线}y=\\frac{1}{x} \\text {及直线}y=0,\\ x=1,\\ x=e^{2} \\text {所围成，二维随机变量} (X,Y) \\text {在区域}D \\text {上服从均匀分布，则} \\\\ (X,Y) \\text {关于} \\lambda \\text {的边缘概率密度在} x=2 \\text {处的值为}() \\ . \\end{array}\">\\begin{array}{l} \\text {设平面区域}D \\text {由曲线}y=\\frac{1}{x} \\text {及直线}y=0,\\ x=1,\\ x=e^{2} \\text {所围成，二维随机变量} (X,Y) \\text {在区域}D \\text {上服从均匀分布，则} \\\\ (X,Y) \\text {关于} \\lambda \\text {的边缘概率密度在} x=2 \\text {处的值为}() \\ . \\end{array}</div>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/probability/ch050/q0010_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\frac { 1 } { 4 }\">\\frac { 1 } { 4 }</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/probability/ch050/q0010_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\frac { 1 } { 2 }\">\\frac { 1 } { 2 }</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/probability/ch050/q0010_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\frac { 1 } { 3 }\">\\frac { 1 } { 3 }</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/probability/ch050/q0010_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\frac { 1 } { 6 }\">\\frac { 1 } { 6 }</span>"
         }
       ],
       "answer": "A",
       "answer_index": 0,
-      "analysis_html": "<img src=\"/static/generated/assets/probability/ch050/q0010_analysis.png\"/>"
+      "analysis_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{aligned} \\text{因为 }G\\text{ 的面积 }&amp;=\\int_{1}^{\\infty}\\!\\!\\!\\frac{b}{x}dx=\\ln x^{\\frac{e^{x}}{1}}=2\\,,\\ \\text{故} \\\\f(x,y)&amp;=\\begin{cases}\\frac{1}{2},\\ (x,y)\\in G\\\\0,\\ \\text{其它}\\end{cases},\\\\f_{X}(x)&amp;=\\int_{-\\infty}^{+\\infty}f(x,y)dy=\\begin{cases}\\int_{0}^{1}\\!\\!\\!\\frac{1}{2}dy,\\ 1&lt;x&lt;e^{2}\\\\0,\\ \\text{其它}\\end{cases}=\\begin{cases}\\frac{y}{2}\\frac{1}{|x|},\\ 1&lt;x&lt;e^{2}\\\\0,\\ \\text{其它}\\end{cases}=\\begin{cases}\\frac{1}{2x},\\ 1&lt;x&lt;e^{2}\\\\0,\\ \\text{其它}\\end{cases},\\\\ \\text{则 }f_{X}(2)&amp;=\\frac{1}{2\\times 2}=\\frac{1}{4}\\,.\\end{aligned}\">\\begin{aligned} \\text{因为 }G\\text{ 的面积 }&amp;=\\int_{1}^{\\infty}\\!\\!\\!\\frac{b}{x}dx=\\ln x^{\\frac{e^{x}}{1}}=2\\,,\\ \\text{故} \\\\f(x,y)&amp;=\\begin{cases}\\frac{1}{2},\\ (x,y)\\in G\\\\0,\\ \\text{其它}\\end{cases},\\\\f_{X}(x)&amp;=\\int_{-\\infty}^{+\\infty}f(x,y)dy=\\begin{cases}\\int_{0}^{1}\\!\\!\\!\\frac{1}{2}dy,\\ 1&lt;x&lt;e^{2}\\\\0,\\ \\text{其它}\\end{cases}=\\begin{cases}\\frac{y}{2}\\frac{1}{|x|},\\ 1&lt;x&lt;e^{2}\\\\0,\\ \\text{其它}\\end{cases}=\\begin{cases}\\frac{1}{2x},\\ 1&lt;x&lt;e^{2}\\\\0,\\ \\text{其它}\\end{cases},\\\\ \\text{则 }f_{X}(2)&amp;=\\frac{1}{2\\times 2}=\\frac{1}{4}\\,.\\end{aligned}</div>"
     },
     {
       "id": "q0011",
       "number": 11,
       "header": "#11-Hard",
       "difficulty": "Hard",
-      "prompt_html": "<img src=\"/static/generated/assets/probability/ch050/q0011_prompt.png\"/>",
+      "prompt_html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{在}[0,\\pi]\\text{上均匀地任取两数}\\zeta \\text{和}\\eta\\text{，则}P\\{\\cos(\\zeta-\\eta)&lt;0\\}=(\\enspace).\">\\text{在}[0,\\pi]\\text{上均匀地任取两数}\\zeta \\text{和}\\eta\\text{，则}P\\{\\cos(\\zeta-\\eta)&lt;0\\}=(\\enspace).</span>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/probability/ch050/q0011_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\frac { 1 } { 4 }\">\\frac { 1 } { 4 }</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/probability/ch050/q0011_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\frac { 3 } { 4 }\">\\frac { 3 } { 4 }</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/probability/ch050/q0011_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\frac { 1 } { 2 }\">\\frac { 1 } { 2 }</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/probability/ch050/q0011_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\frac{2}{3}\">\\frac{2}{3}</span>"
         }
       ],
       "answer": "A",
       "answer_index": 0,
-      "analysis_html": "<img src=\"/static/generated/assets/probability/ch050/q0011_analysis.png\"/>"
+      "analysis_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{aligned} \\text{依题意，}\\zeta \\text{与}\\eta \\text{服从在区域}[0,\\pi]\\times[0,\\pi]\\text{上的均匀分布}，\\text{而} \\cos(\\xi-\\eta)&lt;0 \\Leftrightarrow -\\pi &lt;(\\xi-\\eta)-&lt;-\\frac{\\pi}{2} \\text{或} \\frac{\\pi}{2} &lt;(\\xi-\\eta)&lt;\\pi, \\text{即区域如图的阴影所示，根据几何概式，有} \\\\ P\\{\\cos(\\xi-\\eta)&lt;0\\}=\\frac{S_{E}}{S_{D}}=\\frac{2\\times(\\frac{1}{2}\\times\\frac{\\pi}{2}\\times\\frac{\\pi}{2})}{\\pi^{2}}=\\frac{1}{4}.\\end{aligned}\">\\begin{aligned} \\text{依题意，}\\zeta \\text{与}\\eta \\text{服从在区域}[0,\\pi]\\times[0,\\pi]\\text{上的均匀分布}，\\text{而} \\cos(\\xi-\\eta)&lt;0 \\Leftrightarrow -\\pi &lt;(\\xi-\\eta)-&lt;-\\frac{\\pi}{2} \\text{或} \\frac{\\pi}{2} &lt;(\\xi-\\eta)&lt;\\pi, \\text{即区域如图的阴影所示，根据几何概式，有} \\\\ P\\{\\cos(\\xi-\\eta)&lt;0\\}=\\frac{S_{E}}{S_{D}}=\\frac{2\\times(\\frac{1}{2}\\times\\frac{\\pi}{2}\\times\\frac{\\pi}{2})}{\\pi^{2}}=\\frac{1}{4}.\\end{aligned}</div>"
     },
     {
       "id": "q0012",
       "number": 12,
       "header": "#12-Hard",
       "difficulty": "Hard",
-      "prompt_html": "<img src=\"/static/generated/assets/probability/ch050/q0012_prompt.png\"/>",
+      "prompt_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\text{设} \\# f(x,y) = \\begin{cases} 1, &amp; 0 \\leq x \\leq 2, \\max(0,x-1) \\leq y \\leq \\min(1,x), \\\\ 0, &amp; \\text{其它} \\end{cases}, \\# \\quad \\text{则} \\ f_{x}(x) \\text{和} f_{y}(y) \\text{分别为}().\">\\text{设} \\# f(x,y) = \\begin{cases} 1, &amp; 0 \\leq x \\leq 2, \\max(0,x-1) \\leq y \\leq \\min(1,x), \\\\ 0, &amp; \\text{其它} \\end{cases}, \\# \\quad \\text{则} \\ f_{x}(x) \\text{和} f_{y}(y) \\text{分别为}().</div>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/probability/ch050/q0012_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\begin{aligned}f_{X}(x)=\\begin{cases}x, \\quad 0\\leq x&lt;1\\\\2-x, \\ 1\\leq x\\leq 2,\\\\0, \\quad \\text{其它}\\end{cases}\\qquad\\quad f_{Y}(y)=\\begin{cases}1, \\ 0\\leq y\\leq 1\\\\0, \\ \\text{其它}\\end{cases}\\end{aligned}\">\\begin{aligned}f_{X}(x)=\\begin{cases}x, \\quad 0\\leq x&lt;1\\\\2-x, \\ 1\\leq x\\leq 2,\\\\0, \\quad \\text{其它}\\end{cases}\\qquad\\quad f_{Y}(y)=\\begin{cases}1, \\ 0\\leq y\\leq 1\\\\0, \\ \\text{其它}\\end{cases}\\end{aligned}</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/probability/ch050/q0012_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\begin{aligned}f_{X}(x)=\\begin{cases}x, \\quad 0\\leq x&lt;1\\\\2-x, \\; 1\\leq x\\leq 2,\\\\0, \\quad \\text{其它}\\end{cases}\\qquad\\qquad f_{Y}(y)=\\begin{cases}0, \\; 0\\leq y\\leq 1\\\\1, \\text{其它}\\end{cases}\\end{aligned}\">\\begin{aligned}f_{X}(x)=\\begin{cases}x, \\quad 0\\leq x&lt;1\\\\2-x, \\; 1\\leq x\\leq 2,\\\\0, \\quad \\text{其它}\\end{cases}\\qquad\\qquad f_{Y}(y)=\\begin{cases}0, \\; 0\\leq y\\leq 1\\\\1, \\text{其它}\\end{cases}\\end{aligned}</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/probability/ch050/q0012_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\begin{aligned}f_{X}(x)=\\begin{cases}2-x,\\ 0\\leq x&lt;1\\\\x,\\quad 1\\leq x\\leq 2\\ ,\\\\0,\\quad \\text{其它}\\end{cases}\\qquad\\quad f_{Y}(y)=\\begin{cases}1,\\ 0\\leq y\\leq 1\\\\0,\\ \\ \\text{其它}\\end{cases}\\end{aligned}\">\\begin{aligned}f_{X}(x)=\\begin{cases}2-x,\\ 0\\leq x&lt;1\\\\x,\\quad 1\\leq x\\leq 2\\ ,\\\\0,\\quad \\text{其它}\\end{cases}\\qquad\\quad f_{Y}(y)=\\begin{cases}1,\\ 0\\leq y\\leq 1\\\\0,\\ \\ \\text{其它}\\end{cases}\\end{aligned}</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/probability/ch050/q0012_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\begin{aligned}f_{x}(x)=\\begin{cases}2-x,\\ 0\\leq x&lt;1\\\\x,\\quad1\\leq x\\leq 2\\\\0,\\quad\\text{其它}\\end{cases},\\quad\\quad\\quad f_{y}(y)=\\begin{cases}0,\\ 0\\leq y\\leq 1\\\\1,\\ \\text{其它}\\end{cases}\\end{aligned}\">\\begin{aligned}f_{x}(x)=\\begin{cases}2-x,\\ 0\\leq x&lt;1\\\\x,\\quad1\\leq x\\leq 2\\\\0,\\quad\\text{其它}\\end{cases},\\quad\\quad\\quad f_{y}(y)=\\begin{cases}0,\\ 0\\leq y\\leq 1\\\\1,\\ \\text{其它}\\end{cases}\\end{aligned}</span>"
         }
       ],
       "answer": "A",
       "answer_index": 0,
-      "analysis_html": "<img src=\"/static/generated/assets/probability/ch050/q0012_analysis.png\"/>"
+      "analysis_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{aligned}&amp;\\max(0,x-1)=\\begin{cases}0,&amp;x&lt;1\\\\x-1,x\\geq 1\\end{cases},\\ \\min(1,x)=\\begin{cases}x,x&lt;1\\\\1,\\ x\\geq 1\\end{cases},\\\\&amp;\\text{所以，}f(x,y)\\text{有意义的区域(如图)可分为}\\\\&amp;\\quad\\{0\\leq x\\leq 1,\\ 0\\leq y\\leq x\\},\\ \\{1\\leq x\\leq 2,\\ 1-x\\leq y\\leq 1\\},\\\\&amp;\\text{即}f(x,y)=\\begin{cases}1,\\ 0\\leq x\\leq 1,\\ 0\\leq y\\leq x\\\\1,\\ 1\\leq x\\leq 2,\\ x-1\\leq y\\leq 1,\\ 0,\\end{cases}\\ \\text{其它}\\end{aligned}\">\\begin{aligned}&amp;\\max(0,x-1)=\\begin{cases}0,&amp;x&lt;1\\\\x-1,x\\geq 1\\end{cases},\\ \\min(1,x)=\\begin{cases}x,x&lt;1\\\\1,\\ x\\geq 1\\end{cases},\\\\&amp;\\text{所以，}f(x,y)\\text{有意义的区域(如图)可分为}\\\\&amp;\\quad\\{0\\leq x\\leq 1,\\ 0\\leq y\\leq x\\},\\ \\{1\\leq x\\leq 2,\\ 1-x\\leq y\\leq 1\\},\\\\&amp;\\text{即}f(x,y)=\\begin{cases}1,\\ 0\\leq x\\leq 1,\\ 0\\leq y\\leq x\\\\1,\\ 1\\leq x\\leq 2,\\ x-1\\leq y\\leq 1,\\ 0,\\end{cases}\\ \\text{其它}\\end{aligned}</div>"
     },
     {
       "id": "q0013",
       "number": 13,
       "header": "#13-Easy",
       "difficulty": "Easy",
-      "prompt_html": "<img src=\"/static/generated/assets/probability/ch050/q0013_prompt.png\"/>",
+      "prompt_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{aligned}\\varphi(x,y)&amp;=\\frac{1}{2\\pi\\sigma_{1}\\sigma_{2}\\sqrt{1-\\rho^{2}}}\\exp\\left\\{-\\frac{1}{2\\left(1-\\rho^{2}\\right)}\\left[\\frac{\\left(x-a\\right)^{2}}{\\sigma_{1}^{2}}-\\frac{2\\rho(x-a)\\left(y-b\\right)}{\\sigma_{1}\\sigma_{2}}+\\frac{\\left(y-b\\right)^{2}}{\\sigma_{2}^{2}}\\right]\\right\\}\\end{aligned} \\text{其中} a,b,\\sigma_{1},\\sigma_{2},\\rho \\text{均为常数}，\\text{且} \\sigma_{1}&gt;0,\\sigma_{2}&gt;0,|\\rho|&lt;1，\\text{则求得关于} \\xi \\text{及关于} \\eta \\text{的边缘概率密度} \\varphi_{1}\\left(x\\right) \\text{与} \\varphi_{2}\\left(y\\right) \\text{分别是}（.）\">\\begin{aligned}\\varphi(x,y)&amp;=\\frac{1}{2\\pi\\sigma_{1}\\sigma_{2}\\sqrt{1-\\rho^{2}}}\\exp\\left\\{-\\frac{1}{2\\left(1-\\rho^{2}\\right)}\\left[\\frac{\\left(x-a\\right)^{2}}{\\sigma_{1}^{2}}-\\frac{2\\rho(x-a)\\left(y-b\\right)}{\\sigma_{1}\\sigma_{2}}+\\frac{\\left(y-b\\right)^{2}}{\\sigma_{2}^{2}}\\right]\\right\\}\\end{aligned} \\text{其中} a,b,\\sigma_{1},\\sigma_{2},\\rho \\text{均为常数}，\\text{且} \\sigma_{1}&gt;0,\\sigma_{2}&gt;0,|\\rho|&lt;1，\\text{则求得关于} \\xi \\text{及关于} \\eta \\text{的边缘概率密度} \\varphi_{1}\\left(x\\right) \\text{与} \\varphi_{2}\\left(y\\right) \\text{分别是}（.）</div>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/probability/ch050/q0013_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\begin{aligned}f_{\\zeta}(x) = \\frac{1}{\\sqrt{2\\pi \\sigma_1}} e^{-\\frac{(x-b)^2}{2\\sigma_1^2}}\\;,\\;\\;f_{\\eta}(y) = \\frac{1}{\\sqrt{2\\pi \\sigma_2}} e^{-\\frac{(y-a)^2}{2\\sigma_2^2}}\\end{aligned}\">\\begin{aligned}f_{\\zeta}(x) = \\frac{1}{\\sqrt{2\\pi \\sigma_1}} e^{-\\frac{(x-b)^2}{2\\sigma_1^2}}\\;,\\;\\;f_{\\eta}(y) = \\frac{1}{\\sqrt{2\\pi \\sigma_2}} e^{-\\frac{(y-a)^2}{2\\sigma_2^2}}\\end{aligned}</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/probability/ch050/q0013_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\begin{aligned}f_{\\zeta}(x)=\\frac{1}{\\sqrt{2\\pi}\\sigma_{2}}e^{-\\frac{(x-a)^{2}}{2\\sigma_{1}^{2}}},\\;\\;f_{\\eta}(y)=\\frac{1}{\\sqrt{2\\pi}\\sigma_{1}}e^{-\\frac{(y-b)^{2}}{2\\sigma_{2}^{2}}}\\end{aligned}\">\\begin{aligned}f_{\\zeta}(x)=\\frac{1}{\\sqrt{2\\pi}\\sigma_{2}}e^{-\\frac{(x-a)^{2}}{2\\sigma_{1}^{2}}},\\;\\;f_{\\eta}(y)=\\frac{1}{\\sqrt{2\\pi}\\sigma_{1}}e^{-\\frac{(y-b)^{2}}{2\\sigma_{2}^{2}}}\\end{aligned}</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/probability/ch050/q0013_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\begin{aligned}f_{\\xi}(x) = \\frac{1}{\\sqrt{2\\pi}\\sigma_1} e^{-\\frac{(x-a)^2}{2\\sigma_1^2}} , \\;\\; f_{\\eta}(y) = \\frac{1}{\\sqrt{2\\pi}\\sigma_2} e^{-\\frac{(y-b)^2}{2\\sigma_2^2}}\\end{aligned}\">\\begin{aligned}f_{\\xi}(x) = \\frac{1}{\\sqrt{2\\pi}\\sigma_1} e^{-\\frac{(x-a)^2}{2\\sigma_1^2}} , \\;\\; f_{\\eta}(y) = \\frac{1}{\\sqrt{2\\pi}\\sigma_2} e^{-\\frac{(y-b)^2}{2\\sigma_2^2}}\\end{aligned}</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/probability/ch050/q0013_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\begin{aligned}f_{\\zeta}(x) = \\frac{1}{\\sqrt{2\\pi}\\sigma_{2}} e^{-\\frac{(x-b)^{2}}{2\\sigma_{1}^{2}}},\\;\\;f_{\\eta}(y) = \\frac{1}{\\sqrt{2\\pi}\\sigma_{1}} e^{-\\frac{(y-a)^{2}}{2\\sigma_{2}^{2}}}\\end{aligned}\">\\begin{aligned}f_{\\zeta}(x) = \\frac{1}{\\sqrt{2\\pi}\\sigma_{2}} e^{-\\frac{(x-b)^{2}}{2\\sigma_{1}^{2}}},\\;\\;f_{\\eta}(y) = \\frac{1}{\\sqrt{2\\pi}\\sigma_{1}} e^{-\\frac{(y-a)^{2}}{2\\sigma_{2}^{2}}}\\end{aligned}</span>"
         }
       ],
       "answer": "C",
       "answer_index": 2,
-      "analysis_html": "<img src=\"/static/generated/assets/probability/ch050/q0013_analysis.png\"/>"
+      "analysis_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{aligned}f_{c}(x)=\\frac{1}{\\sqrt{2\\pi}\\sigma_{1}}e^{-\\frac{(x-a)^{2}}{2\\sigma_{1}^{2}}},\\ f_{\\eta}(y)=\\frac{1}{\\sqrt{2\\pi}\\sigma_{2}}e^{-\\frac{(y-b)^{2}}{2\\sigma_{2}^{2}}}\\,.\\end{aligned}\">\\begin{aligned}f_{c}(x)=\\frac{1}{\\sqrt{2\\pi}\\sigma_{1}}e^{-\\frac{(x-a)^{2}}{2\\sigma_{1}^{2}}},\\ f_{\\eta}(y)=\\frac{1}{\\sqrt{2\\pi}\\sigma_{2}}e^{-\\frac{(y-b)^{2}}{2\\sigma_{2}^{2}}}\\,.\\end{aligned}</div>"
     },
     {
       "id": "q0014",
       "number": 14,
       "header": "#14-Easy",
       "difficulty": "Easy",
-      "prompt_html": "<img src=\"/static/generated/assets/probability/ch050/q0014_prompt.png\"/>",
+      "prompt_html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{设二维随机变量}(\\xi,\\eta)\\text{在以原点为中心，}r\\text{为半径的圆上服从均匀分布，则}(\\xi,\\eta)\\text{的联合概率密度}\\varphi(x,y)=()\\,.\">\\text{设二维随机变量}(\\xi,\\eta)\\text{在以原点为中心，}r\\text{为半径的圆上服从均匀分布，则}(\\xi,\\eta)\\text{的联合概率密度}\\varphi(x,y)=()\\,.</span>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/probability/ch050/q0014_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\varphi \\bigl( x, y \\bigr) = \\{ \\begin{array}{l} \\displaystyle \\frac{1}{\\pi r^{2}}, \\ x^{2} + y^{2} \\leq r^{2} \\\\ \\\\ \\displaystyle 0, \\ x^{2} + y^{2} &gt; r^{2} \\end{array}\">\\varphi \\bigl( x, y \\bigr) = \\{ \\begin{array}{l} \\displaystyle \\frac{1}{\\pi r^{2}}, \\ x^{2} + y^{2} \\leq r^{2} \\\\ \\\\ \\displaystyle 0, \\ x^{2} + y^{2} &gt; r^{2} \\end{array}</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/probability/ch050/q0014_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\varphi \\bigl ( x , y \\bigr ) = \\begin{cases} \\displaystyle \\frac { 1 } { \\pi } , \\ x ^ { 2 } + y ^ { 2 } \\leq 1 \\\\ \\\\ 0 , \\ x ^ { 2 } + y ^ { 2 } &gt; 1 \\end{cases}\">\\varphi \\bigl ( x , y \\bigr ) = \\begin{cases} \\displaystyle \\frac { 1 } { \\pi } , \\ x ^ { 2 } + y ^ { 2 } \\leq 1 \\\\ \\\\ 0 , \\ x ^ { 2 } + y ^ { 2 } &gt; 1 \\end{cases}</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/probability/ch050/q0014_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\varphi \\bigl ( x , y \\bigr ) = \\{ \\begin{array}{l} \\pi r ^ { 2 } , \\ x ^ { 2 } + y ^ { 2 } \\leq r ^ { 2 } \\\\ \\\\ 0 , \\ x ^ { 2 } + y ^ { 2 } &gt; r ^ { 2 } \\end{array}\">\\varphi \\bigl ( x , y \\bigr ) = \\{ \\begin{array}{l} \\pi r ^ { 2 } , \\ x ^ { 2 } + y ^ { 2 } \\leq r ^ { 2 } \\\\ \\\\ 0 , \\ x ^ { 2 } + y ^ { 2 } &gt; r ^ { 2 } \\end{array}</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/probability/ch050/q0014_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\begin{aligned}\\varphi \\bigl(x,y \\bigr) = \\{ \\begin{array}{l} \\pi r^2, \\ x^2 + y^2 \\leq 1 \\\\ \\\\ 0, \\ x^2 + y^2 &gt; 1 \\end{array}\\end{aligned}\">\\begin{aligned}\\varphi \\bigl(x,y \\bigr) = \\{ \\begin{array}{l} \\pi r^2, \\ x^2 + y^2 \\leq 1 \\\\ \\\\ 0, \\ x^2 + y^2 &gt; 1 \\end{array}\\end{aligned}</span>"
         }
       ],
       "answer": "A",
       "answer_index": 0,
-      "analysis_html": "<img src=\"/static/generated/assets/probability/ch050/q0014_analysis.png\"/>"
+      "analysis_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\text{根据几何概型，有} \\varphi(x,y) = \\begin{cases} \\displaystyle \\frac{1}{\\pi r^2}, \\; x^2 + y^2 \\leq r^2 \\\\ \\\\ 0, \\; x^2 + y^2 &gt; r^2 \\end{cases}.\">\\text{根据几何概型，有} \\varphi(x,y) = \\begin{cases} \\displaystyle \\frac{1}{\\pi r^2}, \\; x^2 + y^2 \\leq r^2 \\\\ \\\\ 0, \\; x^2 + y^2 &gt; r^2 \\end{cases}.</div>"
     },
     {
       "id": "q0015",
       "number": 15,
       "header": "#15-Easy",
       "difficulty": "Easy",
-      "prompt_html": "<img src=\"/static/generated/assets/probability/ch050/q0015_prompt.png\"/>",
+      "prompt_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{array}{l} \\text{设}(X,Y) \\text{服从圆域}D: x^{2}+y^{2}\\leq 1 \\text{上的均匀分布，记}(X,Y) \\text{的概率密度为}f(x,y)，\\text{则}f(0,0)=()\\ . \\end{array}\">\\begin{array}{l} \\text{设}(X,Y) \\text{服从圆域}D: x^{2}+y^{2}\\leq 1 \\text{上的均匀分布，记}(X,Y) \\text{的概率密度为}f(x,y)，\\text{则}f(0,0)=()\\ . \\end{array}</div>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/probability/ch050/q0015_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\frac { 1 } { \\pi }\">\\frac { 1 } { \\pi }</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/probability/ch050/q0015_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"1\">1</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/probability/ch050/q0015_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\frac { 1 } { 2 }\">\\frac { 1 } { 2 }</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/probability/ch050/q0015_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\frac { 1 } { \\pi ^ { 2 } }\">\\frac { 1 } { \\pi ^ { 2 } }</span>"
         }
       ],
       "answer": "A",
       "answer_index": 0,
-      "analysis_html": "<img src=\"/static/generated/assets/probability/ch050/q0015_analysis.png\"/>"
+      "analysis_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{aligned}&amp;\\text{如图，首先求圆域}D\\text{的面积}\\\\&amp;\\quad S_D=\\pi r^2=\\pi,\\\\&amp;\\text{根据均匀联合分布的定义，得}\\\\&amp;\\quad f(x,y)=\\begin{cases}\\frac{1}{\\pi},\\ x^2+y^2\\leq 1\\\\0,\\ \\text{其它}\\end{cases},\\\\&amp;\\text{由于}(0,0)\\in D,\\ \\text{故}f(0,0)=\\frac{1}{\\pi}.\\end{aligned}\">\\begin{aligned}&amp;\\text{如图，首先求圆域}D\\text{的面积}\\\\&amp;\\quad S_D=\\pi r^2=\\pi,\\\\&amp;\\text{根据均匀联合分布的定义，得}\\\\&amp;\\quad f(x,y)=\\begin{cases}\\frac{1}{\\pi},\\ x^2+y^2\\leq 1\\\\0,\\ \\text{其它}\\end{cases},\\\\&amp;\\text{由于}(0,0)\\in D,\\ \\text{故}f(0,0)=\\frac{1}{\\pi}.\\end{aligned}</div>"
     },
     {
       "id": "q0016",
       "number": 16,
       "header": "#16-Easy",
       "difficulty": "Easy",
-      "prompt_html": "<img src=\"/static/generated/assets/probability/ch050/q0016_prompt.png\"/>",
+      "prompt_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{array}{l} \\text {设二维随机变量}(\\xi,\\eta)\\text {在区域}G\\text {上服从均匀分布，其中}G\\text {是由曲线}y=x^{2}\\text {和}y=x\\text {所围成的区域，则}(\\xi,\\eta)\\text {的联合概率密度}\\varphi(x,y)=(\\enspace). \\end{array}\">\\begin{array}{l} \\text {设二维随机变量}(\\xi,\\eta)\\text {在区域}G\\text {上服从均匀分布，其中}G\\text {是由曲线}y=x^{2}\\text {和}y=x\\text {所围成的区域，则}(\\xi,\\eta)\\text {的联合概率密度}\\varphi(x,y)=(\\enspace). \\end{array}</div>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/probability/ch050/q0016_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\begin{aligned}\\{\\begin{aligned}1/6, \\ (x,y) &amp; \\in G \\\\0, \\ \\text{其它}\\end{aligned}\\end{aligned}\">\\begin{aligned}\\{\\begin{aligned}1/6, \\ (x,y) &amp; \\in G \\\\0, \\ \\text{其它}\\end{aligned}\\end{aligned}</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/probability/ch050/q0016_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\begin{aligned}\\{\\begin{aligned}1/4,&amp;\\ \\bigl(x,y\\bigr)\\in G\\\\0,&amp;\\ \\text{其它}\\end{aligned}\\end{aligned}\">\\begin{aligned}\\{\\begin{aligned}1/4,&amp;\\ \\bigl(x,y\\bigr)\\in G\\\\0,&amp;\\ \\text{其它}\\end{aligned}\\end{aligned}</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/probability/ch050/q0016_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\begin{aligned}\\begin{cases}6,\\;\\bigl(x,y\\bigr)\\in G\\\\ \\quad0,\\;\\text{其它}\\end{cases}\\end{aligned}\">\\begin{aligned}\\begin{cases}6,\\;\\bigl(x,y\\bigr)\\in G\\\\ \\quad0,\\;\\text{其它}\\end{cases}\\end{aligned}</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/probability/ch050/q0016_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\begin{aligned}\\{\\begin{aligned}4,&amp;\\,\\,(x,y)\\!\\in\\!G\\\\0,&amp;\\,\\,\\text{其它}\\end{aligned}\\end{aligned}\">\\begin{aligned}\\{\\begin{aligned}4,&amp;\\,\\,(x,y)\\!\\in\\!G\\\\0,&amp;\\,\\,\\text{其它}\\end{aligned}\\end{aligned}</span>"
         }
       ],
       "answer": "C",
       "answer_index": 2,
-      "analysis_html": "<img src=\"/static/generated/assets/probability/ch050/q0016_analysis.png\"/>"
+      "analysis_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{aligned}S_{G}&amp;=\\int_{0}^{1}(x-x^{2})dx=\\frac{1}{6},\\\\&amp;\\text{根据均匀分布的定义有}\\\\&amp;f(x,y)=\\frac{1}{S_{G}}=6,\\ (x,y)\\in G\\,.\\end{aligned}\">\\begin{aligned}S_{G}&amp;=\\int_{0}^{1}(x-x^{2})dx=\\frac{1}{6},\\\\&amp;\\text{根据均匀分布的定义有}\\\\&amp;f(x,y)=\\frac{1}{S_{G}}=6,\\ (x,y)\\in G\\,.\\end{aligned}</div>"
     },
     {
       "id": "q0017",
       "number": 17,
       "header": "#17-Averge",
       "difficulty": "Averge",
-      "prompt_html": "<img src=\"/static/generated/assets/probability/ch050/q0017_prompt.png\"/>",
+      "prompt_html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{设} \\, ( X , Y ) \\text{服从单位圆域} x ^ { 2 } + y ^ { 2 } \\leq 1 \\text{上的均匀分布，则} X \\text{的边缘概率密度为} ( ) . .\">\\text{设} \\, ( X , Y ) \\text{服从单位圆域} x ^ { 2 } + y ^ { 2 } \\leq 1 \\text{上的均匀分布，则} X \\text{的边缘概率密度为} ( ) . .</span>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/probability/ch050/q0017_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\begin{aligned}f_{\\lambda}(x)=\\begin{cases}\\displaystyle \\frac{2}{\\pi}\\sqrt{1-x^2},\\ -1\\leq x\\leq 1\\\\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\end{cases}\\end{aligned}\">\\begin{aligned}f_{\\lambda}(x)=\\begin{cases}\\displaystyle \\frac{2}{\\pi}\\sqrt{1-x^2},\\ -1\\leq x\\leq 1\\\\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\end{cases}\\end{aligned}</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/probability/ch050/q0017_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\begin{aligned}f_{\\lambda}(x)=\\begin{cases}\\displaystyle \\frac{1}{\\pi}\\sqrt{1-x^2},\\ -1\\leq x\\leq 1\\\\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\end{cases}\\end{aligned}\">\\begin{aligned}f_{\\lambda}(x)=\\begin{cases}\\displaystyle \\frac{1}{\\pi}\\sqrt{1-x^2},\\ -1\\leq x\\leq 1\\\\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\end{cases}\\end{aligned}</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/probability/ch050/q0017_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\begin{aligned}f_{X}(x)=\\begin{cases}\\displaystyle \\frac{2}{\\pi}\\sqrt{1-x^{2}},\\ -1\\leq x\\leq 1\\\\ \\qquad\\qquad\\qquad\\qquad\\qquad\\qquad\\qquad\\\\ \\qquad\\qquad\\qquad1,\\qquad\\ \\ \\text{其它}\\end{cases}\\end{aligned}\">\\begin{aligned}f_{X}(x)=\\begin{cases}\\displaystyle \\frac{2}{\\pi}\\sqrt{1-x^{2}},\\ -1\\leq x\\leq 1\\\\ \\qquad\\qquad\\qquad\\qquad\\qquad\\qquad\\qquad\\\\ \\qquad\\qquad\\qquad1,\\qquad\\ \\ \\text{其它}\\end{cases}\\end{aligned}</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/probability/ch050/q0017_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\begin{aligned}f_{\\chi}(x)=\\{\\begin{aligned}&amp;\\frac{1}{\\pi}\\sqrt{1-x^{2}},\\ -1\\leq x\\leq 1\\\\&amp;\\qquad\\qquad1,\\qquad\\ \\text{其它}\\end{aligned}\\end{aligned}\">\\begin{aligned}f_{\\chi}(x)=\\{\\begin{aligned}&amp;\\frac{1}{\\pi}\\sqrt{1-x^{2}},\\ -1\\leq x\\leq 1\\\\&amp;\\qquad\\qquad1,\\qquad\\ \\text{其它}\\end{aligned}\\end{aligned}</span>"
         }
       ],
       "answer": "A",
       "answer_index": 0,
-      "analysis_html": "<img src=\"/static/generated/assets/probability/ch050/q0017_analysis.png\"/>"
+      "analysis_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{aligned}&amp; \\text{均匀分布的定义知}f_{(x,y)}=\\begin{cases}1/\\pi,&amp;x^2+y^2\\leq 1\\\\0,&amp;\\text{其它}\\end{cases},\\\\&amp;\\quad \\end{aligned}\">\\begin{aligned}&amp; \\text{均匀分布的定义知}f_{(x,y)}=\\begin{cases}1/\\pi,&amp;x^2+y^2\\leq 1\\\\0,&amp;\\text{其它}\\end{cases},\\\\&amp;\\quad \\end{aligned}</div>"
     }
-  ]
+  ],
+  "format": "latex",
+  "source_md": "gl/3.3.2.1_二维均匀分布(17题)/3.3.2.1_二维均匀分布(17题).md"
 }

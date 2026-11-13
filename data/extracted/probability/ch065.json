@@ -13,140 +13,142 @@
       "number": 1,
       "header": "#1-Averge",
       "difficulty": "Averge",
-      "prompt_html": "<img src=\"/static/generated/assets/probability/ch065/q0001_prompt.png\"/>",
+      "prompt_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{array}{l} \\text {设随机变量} \\xi_{1}, \\xi_{2}, \\xi_{3}, \\xi_{4} \\text {相互独立，且都服从正态分布} N(\\mu, \\sigma^{2})(\\sigma &gt; 0)\\text {，则} \\frac{1}{4}(\\xi_{1}+\\xi_{2}+\\xi_{3}+\\xi_{4}) \\text {服从的分布是(）。} \\end{array}\">\\begin{array}{l} \\text {设随机变量} \\xi_{1}, \\xi_{2}, \\xi_{3}, \\xi_{4} \\text {相互独立，且都服从正态分布} N(\\mu, \\sigma^{2})(\\sigma &gt; 0)\\text {，则} \\frac{1}{4}(\\xi_{1}+\\xi_{2}+\\xi_{3}+\\xi_{4}) \\text {服从的分布是(）。} \\end{array}</div>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/probability/ch065/q0001_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\begin{aligned}N\\bigg(\\mu, \\frac{\\sigma^2}{4}\\bigg)\\end{aligned}\">\\begin{aligned}N\\bigg(\\mu, \\frac{\\sigma^2}{4}\\bigg)\\end{aligned}</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/probability/ch065/q0001_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"N\\bigl(\\mu, 2\\sigma^{2}\\bigr)\">N\\bigl(\\mu, 2\\sigma^{2}\\bigr)</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/probability/ch065/q0001_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"N \\bigl ( \\mu , 4 \\sigma ^ { 2 } \\bigr )\">N \\bigl ( \\mu , 4 \\sigma ^ { 2 } \\bigr )</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/probability/ch065/q0001_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\begin{aligned}N\\biggl(\\mu, \\frac{\\sigma^2}{2}\\biggr)\\end{aligned}\">\\begin{aligned}N\\biggl(\\mu, \\frac{\\sigma^2}{2}\\biggr)\\end{aligned}</span>"
         }
       ],
       "answer": "A",
       "answer_index": 0,
-      "analysis_html": "<img src=\"/static/generated/assets/probability/ch065/q0001_analysis.png\"/>"
+      "analysis_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{aligned}&amp;\\text{由于独立正态随机变量的线性组合还是正态分布，且}\\\\&amp;\\qquad d_{i}X_{1}+\\cdots+d_{k}X_{k}\\sim N\\Big(d_{i}\\mu_{1}+\\cdots+d_{k}\\mu_{k},d_{1}^{0}\\sigma^{2}+\\cdots+d_{k}^{0}\\sigma^{2}\\Big)\\,,\\\\&amp;\\text{于是}\\\\&amp;\\qquad\\frac{1}{4}(\\xi_{1}+\\xi_{2}+\\xi_{3}+\\xi_{4})\\sim N\\Bigg(\\mu,\\frac{\\sigma^{2}}{4}\\Bigg)\\,.\\end{aligned}\">\\begin{aligned}&amp;\\text{由于独立正态随机变量的线性组合还是正态分布，且}\\\\&amp;\\qquad d_{i}X_{1}+\\cdots+d_{k}X_{k}\\sim N\\Big(d_{i}\\mu_{1}+\\cdots+d_{k}\\mu_{k},d_{1}^{0}\\sigma^{2}+\\cdots+d_{k}^{0}\\sigma^{2}\\Big)\\,,\\\\&amp;\\text{于是}\\\\&amp;\\qquad\\frac{1}{4}(\\xi_{1}+\\xi_{2}+\\xi_{3}+\\xi_{4})\\sim N\\Bigg(\\mu,\\frac{\\sigma^{2}}{4}\\Bigg)\\,.\\end{aligned}</div>"
     },
     {
       "id": "q0002",
       "number": 2,
       "header": "#2-Averge",
       "difficulty": "Averge",
-      "prompt_html": "<img src=\"/static/generated/assets/probability/ch065/q0002_prompt.png\"/>",
+      "prompt_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{aligned}\\text{设随机变量}\\xi_{1},\\xi_{2},\\cdots,\\xi_{n}\\text{相互独立，且}\\quad\\begin{array}{|c|c|c|}\\hline\\xi_{1}&amp;0&amp;1\\\\ \\hline\\text{概率}&amp;1-p&amp;p\\\\ \\hline\\end{array}\\quad0&lt;p&lt;1,\\;i=1,2,\\cdots,n,\\;\\text{则}\\;\\eta_{n}=\\xi_{1}+\\xi_{2}+\\cdots+\\xi_{n}\\text{的分布律为（.）.}\\end{aligned}\">\\begin{aligned}\\text{设随机变量}\\xi_{1},\\xi_{2},\\cdots,\\xi_{n}\\text{相互独立，且}\\quad\\begin{array}{|c|c|c|}\\hline\\xi_{1}&amp;0&amp;1\\\\ \\hline\\text{概率}&amp;1-p&amp;p\\\\ \\hline\\end{array}\\quad0&lt;p&lt;1,\\;i=1,2,\\cdots,n,\\;\\text{则}\\;\\eta_{n}=\\xi_{1}+\\xi_{2}+\\cdots+\\xi_{n}\\text{的分布律为（.）.}\\end{aligned}</div>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/probability/ch065/q0002_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\begin{aligned}C_{n}^{k}p^{k}(1-p)^{n-k}(k=0,1,\\cdots n)\\end{aligned}\">\\begin{aligned}C_{n}^{k}p^{k}(1-p)^{n-k}(k=0,1,\\cdots n)\\end{aligned}</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/probability/ch065/q0002_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\begin{aligned}C_{n-1}^{k-1} p^{n-k} (1-p)^k (k=0,1,\\cdots n)\\end{aligned}\">\\begin{aligned}C_{n-1}^{k-1} p^{n-k} (1-p)^k (k=0,1,\\cdots n)\\end{aligned}</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/probability/ch065/q0002_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\begin{aligned}C_{n-1}^{k-1}p^k(1-p)^{n-k}(k=0,1,\\cdots n)\\end{aligned}\">\\begin{aligned}C_{n-1}^{k-1}p^k(1-p)^{n-k}(k=0,1,\\cdots n)\\end{aligned}</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/probability/ch065/q0002_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\begin{aligned}C_{n}^{k}p^{n-k}(1-p)^{k}(k=0,1,\\cdots n)\\end{aligned}\">\\begin{aligned}C_{n}^{k}p^{n-k}(1-p)^{k}(k=0,1,\\cdots n)\\end{aligned}</span>"
         }
       ],
       "answer": "A",
       "answer_index": 0,
-      "analysis_html": "<img src=\"/static/generated/assets/probability/ch065/q0002_analysis.png\"/>"
+      "analysis_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{aligned}&amp;\\text{根据伯努利概型，独立}0-1\\text{分布}\\xi_{1},\\xi_{2},\\cdots,\\xi_{n}\\text{之和是二项分布，所以}\\\\&amp;\\qquad P\\{\\eta_{n}=k\\}=C_{n}^{k}p^{k}(1-p)^{n-k}(k=0,1,\\cdots n)\\,.\\end{aligned}\">\\begin{aligned}&amp;\\text{根据伯努利概型，独立}0-1\\text{分布}\\xi_{1},\\xi_{2},\\cdots,\\xi_{n}\\text{之和是二项分布，所以}\\\\&amp;\\qquad P\\{\\eta_{n}=k\\}=C_{n}^{k}p^{k}(1-p)^{n-k}(k=0,1,\\cdots n)\\,.\\end{aligned}</div>"
     },
     {
       "id": "q0003",
       "number": 3,
       "header": "#3-Averge",
       "difficulty": "Averge",
-      "prompt_html": "<img src=\"/static/generated/assets/probability/ch065/q0003_prompt.png\"/>",
+      "prompt_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{aligned}&amp;\\text{设}\\xi_{1},\\,\\xi_{2},\\,\\xi_{3} \\text{相互独立，且}\\\\&amp;P\\{\\xi_{i}&gt;x\\}=\\frac{1}{\\left(1+\\frac{x}{2}\\right)^{2}},\\ 0\\leq x&lt;+\\infty,\\ i=1,2,3,\\ \\\\&amp;\\text{则}\\xi_{1},\\,\\xi_{2},\\,\\xi_{3} \\text{均大于4的概率为}(\\,).\\end{aligned}\">\\begin{aligned}&amp;\\text{设}\\xi_{1},\\,\\xi_{2},\\,\\xi_{3} \\text{相互独立，且}\\\\&amp;P\\{\\xi_{i}&gt;x\\}=\\frac{1}{\\left(1+\\frac{x}{2}\\right)^{2}},\\ 0\\leq x&lt;+\\infty,\\ i=1,2,3,\\ \\\\&amp;\\text{则}\\xi_{1},\\,\\xi_{2},\\,\\xi_{3} \\text{均大于4的概率为}(\\,).\\end{aligned}</div>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/probability/ch065/q0003_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\frac { 1 } { 729 }\">\\frac { 1 } { 729 }</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/probability/ch065/q0003_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\frac { 4 } { 729 }\">\\frac { 4 } { 729 }</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/probability/ch065/q0003_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\frac { 4 } { 81 }\">\\frac { 4 } { 81 }</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/probability/ch065/q0003_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\frac { 1 } { 81 }\">\\frac { 1 } { 81 }</span>"
         }
       ],
       "answer": "A",
       "answer_index": 0,
-      "analysis_html": "<img src=\"/static/generated/assets/probability/ch065/q0003_analysis.png\"/>"
+      "analysis_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{aligned} &amp; \\text{因为}\\xi_{1},\\,\\xi_{2},\\,\\xi_{3}\\,\\text{相互独立，所以}\\\\ &amp; \\quad P\\{\\xi_{1}&gt;\\xi_{2},\\xi_{2}&gt;4,\\xi_{2}&gt;4,\\xi_{3}&gt;4\\}=P\\{\\xi_{1}&gt;4\\}\\cdot P\\{\\xi_{2}&gt;4\\}\\cdot P\\{\\xi_{3}&gt;4\\}=[P\\{\\xi_{1}&gt;4\\}]^{3},\\\\ &amp; \\text{故先计算}P\\{\\xi_{1}&gt;4\\}=\\frac{1}{(1+\\frac{4}{2})^{2}}=\\frac{1}{9},\\text{即}P\\{\\xi_{1}&gt;4,\\xi_{2}&gt;4,\\xi_{3}&gt;4\\}=\\frac{1}{729}\\,.\\end{aligned}\">\\begin{aligned} &amp; \\text{因为}\\xi_{1},\\,\\xi_{2},\\,\\xi_{3}\\,\\text{相互独立，所以}\\\\ &amp; \\quad P\\{\\xi_{1}&gt;\\xi_{2},\\xi_{2}&gt;4,\\xi_{2}&gt;4,\\xi_{3}&gt;4\\}=P\\{\\xi_{1}&gt;4\\}\\cdot P\\{\\xi_{2}&gt;4\\}\\cdot P\\{\\xi_{3}&gt;4\\}=[P\\{\\xi_{1}&gt;4\\}]^{3},\\\\ &amp; \\text{故先计算}P\\{\\xi_{1}&gt;4\\}=\\frac{1}{(1+\\frac{4}{2})^{2}}=\\frac{1}{9},\\text{即}P\\{\\xi_{1}&gt;4,\\xi_{2}&gt;4,\\xi_{3}&gt;4\\}=\\frac{1}{729}\\,.\\end{aligned}</div>"
     },
     {
       "id": "q0004",
       "number": 4,
       "header": "#4-Averge",
       "difficulty": "Averge",
-      "prompt_html": "<img src=\"/static/generated/assets/probability/ch065/q0004_prompt.png\"/>",
+      "prompt_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{aligned}\\text{设随机变量}\\xi_{1},\\xi_{2},\\cdots,\\xi_{n}\\text{相互独立，若}\\xi_{i}\\text{是服从正态分布，即其概率密度为}\\varphi_{i}(x)=\\frac{1}{\\sqrt{2\\pi\\sigma_{i}}}e^{-\\frac{x^{2}}{2\\sigma_{i}^{2}}}\\left(\\sigma_{i}&gt;0\\right),\\\\i=1,2,\\cdots,n,\\text{则}\\left(\\xi_{1},\\xi_{2},\\cdots,\\xi_{n}\\right)\\text{联合概率密度表达式是（）}.\\end{aligned}\">\\begin{aligned}\\text{设随机变量}\\xi_{1},\\xi_{2},\\cdots,\\xi_{n}\\text{相互独立，若}\\xi_{i}\\text{是服从正态分布，即其概率密度为}\\varphi_{i}(x)=\\frac{1}{\\sqrt{2\\pi\\sigma_{i}}}e^{-\\frac{x^{2}}{2\\sigma_{i}^{2}}}\\left(\\sigma_{i}&gt;0\\right),\\\\i=1,2,\\cdots,n,\\text{则}\\left(\\xi_{1},\\xi_{2},\\cdots,\\xi_{n}\\right)\\text{联合概率密度表达式是（）}.\\end{aligned}</div>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/probability/ch065/q0004_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"(\\prod_{i=1}^{n}\\frac{1}{\\sqrt{2\\pi}\\sigma_{i}})e^{-\\frac{1}{2}\\sum_{i=1}^{n}\\frac{x_{i}^{2}}{\\sigma_{i}^{2}}}\">(\\prod_{i=1}^{n}\\frac{1}{\\sqrt{2\\pi}\\sigma_{i}})e^{-\\frac{1}{2}\\sum_{i=1}^{n}\\frac{x_{i}^{2}}{\\sigma_{i}^{2}}}</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/probability/ch065/q0004_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\prod_{i=1}^{n} \\frac{1}{\\sqrt{2 \\pi} \\sigma_{i}} e^{-\\frac{1}{2} \\sum_{j=1}^{n} \\frac{x_{j}^{2}}{\\sigma_{i}^{2}}}\">\\prod_{i=1}^{n} \\frac{1}{\\sqrt{2 \\pi} \\sigma_{i}} e^{-\\frac{1}{2} \\sum_{j=1}^{n} \\frac{x_{j}^{2}}{\\sigma_{i}^{2}}}</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/probability/ch065/q0004_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\begin{aligned}\\prod_{i=1}^{n} \\frac{1}{\\sqrt{\\pi} \\sigma_{i}} e^{-\\frac{1}{2} \\sum_{j=1}^{s} \\frac{x_{j}^{2}}{\\sigma_{i}^{2}}}\\end{aligned}\">\\begin{aligned}\\prod_{i=1}^{n} \\frac{1}{\\sqrt{\\pi} \\sigma_{i}} e^{-\\frac{1}{2} \\sum_{j=1}^{s} \\frac{x_{j}^{2}}{\\sigma_{i}^{2}}}\\end{aligned}</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/probability/ch065/q0004_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\prod_{i=1}^{n} \\frac{1}{\\sqrt{2 \\pi} \\sigma^{n}} e^{-\\frac{1}{2} \\sum_{j=1}^{n} \\frac{x_{j}^{2}}{\\sigma^{2}}}\">\\prod_{i=1}^{n} \\frac{1}{\\sqrt{2 \\pi} \\sigma^{n}} e^{-\\frac{1}{2} \\sum_{j=1}^{n} \\frac{x_{j}^{2}}{\\sigma^{2}}}</span>"
         }
       ],
       "answer": "A",
       "answer_index": 0,
-      "analysis_html": "<img src=\"/static/generated/assets/probability/ch065/q0004_analysis.png\"/>"
+      "analysis_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{aligned}\\varphi\\Bigl(x_{1},\\cdots,x_{n}\\Bigr)=\\Biggl[\\prod_{i=1}^{n}\\Biggl(\\frac{1}{\\sqrt{2\\pi}\\sigma_{i}}\\Biggr)\\Biggr]\\Biggl[e^{-\\frac{1}{2}\\sum_{i=1}^{n}\\frac{x_{i}^{2}}{\\sigma_{i}^{2}}}\\Biggr]\\,.\\end{aligned}\">\\begin{aligned}\\varphi\\Bigl(x_{1},\\cdots,x_{n}\\Bigr)=\\Biggl[\\prod_{i=1}^{n}\\Biggl(\\frac{1}{\\sqrt{2\\pi}\\sigma_{i}}\\Biggr)\\Biggr]\\Biggl[e^{-\\frac{1}{2}\\sum_{i=1}^{n}\\frac{x_{i}^{2}}{\\sigma_{i}^{2}}}\\Biggr]\\,.\\end{aligned}</div>"
     },
     {
       "id": "q0005",
       "number": 5,
       "header": "#5-Averge",
       "difficulty": "Averge",
-      "prompt_html": "<img src=\"/static/generated/assets/probability/ch065/q0005_prompt.png\"/>",
+      "prompt_html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{设} \\, X_{1} \\sim N(1, 2) \\, , \\, \\, X_{1} \\sim N(0, 3) \\, , \\, \\, X_{3} \\sim N(2, 1) \\, , \\, \\text{且} \\, X_{1} \\, , \\, \\, X_{2} \\, , \\, \\, X_{3} \\text{独立} , \\, \\text{则} \\, P\\{0 \\leq 2X_{1} + 3X_{2} - X_{3} \\leq 6\\} =\">\\text{设} \\, X_{1} \\sim N(1, 2) \\, , \\, \\, X_{1} \\sim N(0, 3) \\, , \\, \\, X_{3} \\sim N(2, 1) \\, , \\, \\text{且} \\, X_{1} \\, , \\, \\, X_{2} \\, , \\, \\, X_{3} \\text{独立} , \\, \\text{则} \\, P\\{0 \\leq 2X_{1} + 3X_{2} - X_{3} \\leq 6\\} =</span>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/probability/ch065/q0005_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"0.6587\">0.6587</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/probability/ch065/q0005_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"0.8413\">0.8413</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/probability/ch065/q0005_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"0.3413\">0.3413</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/probability/ch065/q0005_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"0.6826\">0.6826</span>"
         }
       ],
       "answer": "C",
       "answer_index": 2,
-      "analysis_html": "<img src=\"/static/generated/assets/probability/ch065/q0005_analysis.png\"/>"
+      "analysis_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{aligned}&amp;\\text{由于正态随机变量的线性组合仍为正态随机变量，且}\\\\&amp;Y=2X_1+3X_2-X_3\\sim N(2\\mu_1+3\\mu_2-\\mu_3,4\\sigma_1^2+9\\sigma_2^2+\\sigma_3^2)=N(0,36),\\\\&amp;\\text{而}\\quad U=\\frac{Y-0}{6}\\sim N(0,1),\\\\&amp;\\text{故}\\quad P\\{0\\leq 2X_1+3X_2-X_3\\leq 6\\}=P\\{0\\leq Y\\leq 6\\}\\\\&amp;\\quad=P\\{\\frac{0-0}{6}\\leq \\frac{Y-0}{6}\\leq \\frac{6-0}{6}\\}=P\\{0\\leq U\\leq 1\\}=\\Phi(1)-\\Phi(0),\\\\&amp;\\text{查表得，}\\Phi(1)-\\Phi(0)=0.8413-0.5=0.3413.\\end{aligned}\">\\begin{aligned}&amp;\\text{由于正态随机变量的线性组合仍为正态随机变量，且}\\\\&amp;Y=2X_1+3X_2-X_3\\sim N(2\\mu_1+3\\mu_2-\\mu_3,4\\sigma_1^2+9\\sigma_2^2+\\sigma_3^2)=N(0,36),\\\\&amp;\\text{而}\\quad U=\\frac{Y-0}{6}\\sim N(0,1),\\\\&amp;\\text{故}\\quad P\\{0\\leq 2X_1+3X_2-X_3\\leq 6\\}=P\\{0\\leq Y\\leq 6\\}\\\\&amp;\\quad=P\\{\\frac{0-0}{6}\\leq \\frac{Y-0}{6}\\leq \\frac{6-0}{6}\\}=P\\{0\\leq U\\leq 1\\}=\\Phi(1)-\\Phi(0),\\\\&amp;\\text{查表得，}\\Phi(1)-\\Phi(0)=0.8413-0.5=0.3413.\\end{aligned}</div>"
     }
-  ]
+  ],
+  "format": "latex",
+  "source_md": "gl/3.6.5_n维随机变量的函数的分布(5题)/3.6.5_n维随机变量的函数的分布(5题).md"
 }

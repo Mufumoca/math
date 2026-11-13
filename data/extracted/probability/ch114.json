@@ -13,504 +13,506 @@
       "number": 1,
       "header": "#1-Averge",
       "difficulty": "Averge",
-      "prompt_html": "<img src=\"/static/generated/assets/probability/ch114/q0001_prompt.png\"/>",
+      "prompt_html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{设} \\sigma \\text{是正态总体} X \\text{的标准差，} X_{1}, X_{2}, \\cdots , X_{n} \\text{是} X \\text{的的样本，则样本标准差} S \\text{是总体标准差} \\sigma \\text{的}() .\">\\text{设} \\sigma \\text{是正态总体} X \\text{的标准差，} X_{1}, X_{2}, \\cdots , X_{n} \\text{是} X \\text{的的样本，则样本标准差} S \\text{是总体标准差} \\sigma \\text{的}() .</span>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/probability/ch114/q0001_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{相合估计量}\">\\text{相合估计量}</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/probability/ch114/q0001_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{矩估计量}\">\\text{矩估计量}</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/probability/ch114/q0001_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{最大似然估计量}\">\\text{最大似然估计量}</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/probability/ch114/q0001_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{无偏估计量}\">\\text{无偏估计量}</span>"
         }
       ],
       "answer": "A",
       "answer_index": 0,
-      "analysis_html": "<img src=\"/static/generated/assets/probability/ch114/q0001_analysis.png\"/>"
+      "analysis_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{array}{l} \\text {正态总体标准差} \\sigma \\text {的矩估计量和最大似然估计量都是} S _ {n} = \\sqrt {\\frac {1}{n} \\sum_ {i = 1} ^ {n} (X _ {i} - \\bar {X}) ^ {2}}. \\\\ \\text {样本方差} S ^ {2} = \\frac {1}{n - 1} \\sum_ {i = 1} ^ {n} (X _ {i} - \\bar {X}) ^ {2} \\text {是总体方差} \\sigma^ {2} \\text {的无偏估计，但样本标准差} S = \\sqrt {\\frac {1}{n - 1} \\sum_ {i = 1} ^ {n} (X _ {i} - \\bar {X}) ^ {2}} \\text {不是总体标准差} \\sigma \\text {的无偏估计。} \\\\ \\text {矩估计量是相合估计量，即} S _ {n} = \\sqrt {\\frac {1}{n - 1} \\sum_ {i = 1} ^ {n} (X _ {i} - \\bar {X}) ^ {2}} \\xrightarrow {p} \\sigma . \\\\ \\text {样本标准差} S = \\sqrt {\\frac {n}{n - 1}} S _ {n}, \\text {所以} S = \\sqrt {\\frac {n}{n - 1}} S _ {n} \\xrightarrow {p} \\sigma , \\text {即样本标准差是总体标准差} \\sigma \\text {的相合估计量。} \\end{array}\">\\begin{array}{l} \\text {正态总体标准差} \\sigma \\text {的矩估计量和最大似然估计量都是} S _ {n} = \\sqrt {\\frac {1}{n} \\sum_ {i = 1} ^ {n} (X _ {i} - \\bar {X}) ^ {2}}. \\\\ \\text {样本方差} S ^ {2} = \\frac {1}{n - 1} \\sum_ {i = 1} ^ {n} (X _ {i} - \\bar {X}) ^ {2} \\text {是总体方差} \\sigma^ {2} \\text {的无偏估计，但样本标准差} S = \\sqrt {\\frac {1}{n - 1} \\sum_ {i = 1} ^ {n} (X _ {i} - \\bar {X}) ^ {2}} \\text {不是总体标准差} \\sigma \\text {的无偏估计。} \\\\ \\text {矩估计量是相合估计量，即} S _ {n} = \\sqrt {\\frac {1}{n - 1} \\sum_ {i = 1} ^ {n} (X _ {i} - \\bar {X}) ^ {2}} \\xrightarrow {p} \\sigma . \\\\ \\text {样本标准差} S = \\sqrt {\\frac {n}{n - 1}} S _ {n}, \\text {所以} S = \\sqrt {\\frac {n}{n - 1}} S _ {n} \\xrightarrow {p} \\sigma , \\text {即样本标准差是总体标准差} \\sigma \\text {的相合估计量。} \\end{array}</div>"
     },
     {
       "id": "q0002",
       "number": 2,
       "header": "#2-Averge",
       "difficulty": "Averge",
-      "prompt_html": "<img src=\"/static/generated/assets/probability/ch114/q0002_prompt.png\"/>",
+      "prompt_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{array}{l} \\text {设总体} \\lambda \\text {的分布律为} P\\{X = k \\} = \\frac{\\lambda^{k}}{k!} e^{-\\lambda},\\, k = 0, 1, 2, \\cdots,\\, X_{1}, X_{2}, \\cdots, X_{n} \\text {是来自总体} \\lambda \\text {的样本. 记} \\overline{X} = \\frac{1}{n} \\sum_{i = 1}^{n} X_{i}, \\\\ S_{n}^{2} = \\frac{1}{n} \\sum_{i = 1}^{n} (X_{i} - \\overline{X})^{2}, \\text {则下列结论中错误的是( ).} \\end{array}\">\\begin{array}{l} \\text {设总体} \\lambda \\text {的分布律为} P\\{X = k \\} = \\frac{\\lambda^{k}}{k!} e^{-\\lambda},\\, k = 0, 1, 2, \\cdots,\\, X_{1}, X_{2}, \\cdots, X_{n} \\text {是来自总体} \\lambda \\text {的样本. 记} \\overline{X} = \\frac{1}{n} \\sum_{i = 1}^{n} X_{i}, \\\\ S_{n}^{2} = \\frac{1}{n} \\sum_{i = 1}^{n} (X_{i} - \\overline{X})^{2}, \\text {则下列结论中错误的是( ).} \\end{array}</div>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/probability/ch114/q0002_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\begin{array}{l}S_{n}^{2}\\text{是}\\lambda\\text{的无偏估计}\\end{array}\">\\begin{array}{l}S_{n}^{2}\\text{是}\\lambda\\text{的无偏估计}\\end{array}</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/probability/ch114/q0002_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\overline{x} \\text{是} \\lambda \\text{的无偏估计}\">\\overline{x} \\text{是} \\lambda \\text{的无偏估计}</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/probability/ch114/q0002_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\overline{x} \\text{是} \\lambda \\text{的一致估计}\">\\overline{x} \\text{是} \\lambda \\text{的一致估计}</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/probability/ch114/q0002_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\begin{array}{l}S_{n}^{2}\\text{是}\\lambda\\text{的一致估计} \\end{array}\">\\begin{array}{l}S_{n}^{2}\\text{是}\\lambda\\text{的一致估计} \\end{array}</span>"
         }
       ],
       "answer": "A",
       "answer_index": 0,
-      "analysis_html": "<img src=\"/static/generated/assets/probability/ch114/q0002_analysis.png\"/>"
+      "analysis_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{aligned}&amp;\\text{总体服从泊松分布}P(\\lambda),\\text{所以}E(X)=\\lambda,D(X)=\\lambda.\\\\&amp;\\quad\\bar{X}=\\lambda\\text{的估计量，所以}\\bar{X} \\text{是}\\lambda\\text{的无偏、一致估计量}.\\\\&amp;\\text{又样本方差}S^{2}=\\text{总体方差的无偏估计量，而}S_{n}^{2}=\\frac{1}{n}\\sum_{i=1}^{n}(X_{i}-\\bar{X}_{i})^{2}=\\frac{n-1}{n}S^{2},\\text{所以}S_{n}^{2}\\text{不是}\\lambda\\text{的无偏估计.}\\\\&amp;\\text{泊松分布一、二阶总体原点矩均存在. 根据大数定律，样本一、二阶原点矩依概率收敛于一、二阶总体原点矩.}\\\\&amp;\\text{样本二阶中心矩}S_{n}^{2}=\\frac{1}{n}\\sum_{i=1}^{n}(X_{i}-\\bar{X}_{i})^{2}\\text{是样本一、二阶原点矩的函数，所以}S_{n}^{2}\\text{依概率收敛，且依概率收敛于总体二阶中心矩，即}S_{n}^{2}=\\lambda\\text{的一致估计量}.\\end{aligned}\">\\begin{aligned}&amp;\\text{总体服从泊松分布}P(\\lambda),\\text{所以}E(X)=\\lambda,D(X)=\\lambda.\\\\&amp;\\quad\\bar{X}=\\lambda\\text{的估计量，所以}\\bar{X} \\text{是}\\lambda\\text{的无偏、一致估计量}.\\\\&amp;\\text{又样本方差}S^{2}=\\text{总体方差的无偏估计量，而}S_{n}^{2}=\\frac{1}{n}\\sum_{i=1}^{n}(X_{i}-\\bar{X}_{i})^{2}=\\frac{n-1}{n}S^{2},\\text{所以}S_{n}^{2}\\text{不是}\\lambda\\text{的无偏估计.}\\\\&amp;\\text{泊松分布一、二阶总体原点矩均存在. 根据大数定律，样本一、二阶原点矩依概率收敛于一、二阶总体原点矩.}\\\\&amp;\\text{样本二阶中心矩}S_{n}^{2}=\\frac{1}{n}\\sum_{i=1}^{n}(X_{i}-\\bar{X}_{i})^{2}\\text{是样本一、二阶原点矩的函数，所以}S_{n}^{2}\\text{依概率收敛，且依概率收敛于总体二阶中心矩，即}S_{n}^{2}=\\lambda\\text{的一致估计量}.\\end{aligned}</div>"
     },
     {
       "id": "q0003",
       "number": 3,
       "header": "#3-Hard",
       "difficulty": "Hard",
-      "prompt_html": "<img src=\"/static/generated/assets/probability/ch114/q0003_prompt.png\"/>",
+      "prompt_html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{设总体}X\\sim N(\\mu,\\sigma^{2}),\\ \\sigma^{2}\\text{未知},\\ X_{1},\\cdots,X_{n}\\text{为来自}x\\text{的样本，则下列说法正确的是( }\\ ).\">\\text{设总体}X\\sim N(\\mu,\\sigma^{2}),\\ \\sigma^{2}\\text{未知},\\ X_{1},\\cdots,X_{n}\\text{为来自}x\\text{的样本，则下列说法正确的是( }\\ ).</span>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/probability/ch114/q0003_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{样本方差}S^{2}\\text{是}\\sigma^{2}\\text{的相合估计量}\">\\text{样本方差}S^{2}\\text{是}\\sigma^{2}\\text{的相合估计量}</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/probability/ch114/q0003_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{样本方差}S^{2}\\text{不是}\\sigma^{2}\\text{的相合估计量}\">\\text{样本方差}S^{2}\\text{不是}\\sigma^{2}\\text{的相合估计量}</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/probability/ch114/q0003_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{不能确定样本方差}S^{2} \\text{是不是} \\sigma^{2} \\text{的相合估计量}\">\\text{不能确定样本方差}S^{2} \\text{是不是} \\sigma^{2} \\text{的相合估计量}</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/probability/ch114/q0003_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{其他结论均不正确}\">\\text{其他结论均不正确}</span>"
         }
       ],
       "answer": "A",
       "answer_index": 0,
-      "analysis_html": "<img src=\"/static/generated/assets/probability/ch114/q0003_analysis.png\"/>"
+      "analysis_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{aligned} &amp; \\text{因为总体服从正态分布，所以} &amp; &amp; \\frac{(n-1)S^2}{\\sigma^2} \\sim \\chi^2(n-1). \\\\ &amp; &amp; &amp; D\\left[\\frac{(n-1)S^2}{\\sigma^2}\\right] = 2(n-1), \\quad D(S^2) = \\frac{2\\sigma^4}{n-1}. \\\\ &amp; \\text{由切比雪夫不等式及 } E(S^2) = \\sigma^2, \\text{有} &amp; &amp; 0 \\leq P\\{|S^2 - E(S^2)| \\geq \\varepsilon\\} = P\\{|S^2 - \\sigma^2| \\geq \\varepsilon\\} \\leq \\frac{1}{\\varepsilon^2} D(S^2) = \\frac{2\\sigma^4}{\\varepsilon^2(n-1)}. \\\\ &amp; \\text{所以，对任意给定的 } \\varepsilon &gt; 0, \\text{总有} &amp; &amp; \\lim_{n \\to \\infty} P\\{|S^2 - \\sigma^2| \\geq \\varepsilon\\} = 0. \\\\ &amp; \\text{故 } S^2 \\text{ 是 } \\sigma^2 \\text{ 的相合估计量.} \\end{aligned}\">\\begin{aligned} &amp; \\text{因为总体服从正态分布，所以} &amp; &amp; \\frac{(n-1)S^2}{\\sigma^2} \\sim \\chi^2(n-1). \\\\ &amp; &amp; &amp; D\\left[\\frac{(n-1)S^2}{\\sigma^2}\\right] = 2(n-1), \\quad D(S^2) = \\frac{2\\sigma^4}{n-1}. \\\\ &amp; \\text{由切比雪夫不等式及 } E(S^2) = \\sigma^2, \\text{有} &amp; &amp; 0 \\leq P\\{|S^2 - E(S^2)| \\geq \\varepsilon\\} = P\\{|S^2 - \\sigma^2| \\geq \\varepsilon\\} \\leq \\frac{1}{\\varepsilon^2} D(S^2) = \\frac{2\\sigma^4}{\\varepsilon^2(n-1)}. \\\\ &amp; \\text{所以，对任意给定的 } \\varepsilon &gt; 0, \\text{总有} &amp; &amp; \\lim_{n \\to \\infty} P\\{|S^2 - \\sigma^2| \\geq \\varepsilon\\} = 0. \\\\ &amp; \\text{故 } S^2 \\text{ 是 } \\sigma^2 \\text{ 的相合估计量.} \\end{aligned}</div>"
     },
     {
       "id": "q0004",
       "number": 4,
       "header": "#4-Averge",
       "difficulty": "Averge",
-      "prompt_html": "<img src=\"/static/generated/assets/probability/ch114/q0004_prompt.png\"/>",
+      "prompt_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{array}{l} \\text {设总体} \\lambda \\text {服从参数为} p \\text {的两点分布：} P\\{X=k\\} = p^{k}(1-p)^{1-k}, (k=0,1), \\ X_{1}, X_{2}, \\cdots, X_{n} \\text {为来自} \\lambda \\text {的样本，}\\overline{\\lambda} \\text {为样本均值，则以下结论中错误的是（）.} \\end{array}\">\\begin{array}{l} \\text {设总体} \\lambda \\text {服从参数为} p \\text {的两点分布：} P\\{X=k\\} = p^{k}(1-p)^{1-k}, (k=0,1), \\ X_{1}, X_{2}, \\cdots, X_{n} \\text {为来自} \\lambda \\text {的样本，}\\overline{\\lambda} \\text {为样本均值，则以下结论中错误的是（）.} \\end{array}</div>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/probability/ch114/q0004_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\overline{x} \\text{是} p \\text{的无偏估计量，但不是有效估计量}\">\\overline{x} \\text{是} p \\text{的无偏估计量，但不是有效估计量}</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/probability/ch114/q0004_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\overline{x} \\text{是} p \\text{的矩估计量}\">\\overline{x} \\text{是} p \\text{的矩估计量}</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/probability/ch114/q0004_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\overline{x} \\text{是} p \\text{的极大似然估计量}\">\\overline{x} \\text{是} p \\text{的极大似然估计量}</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/probability/ch114/q0004_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\overline{x} \\text{是} p \\text{的一致估计量}\">\\overline{x} \\text{是} p \\text{的一致估计量}</span>"
         }
       ],
       "answer": "A",
       "answer_index": 0,
-      "analysis_html": "<img src=\"/static/generated/assets/probability/ch114/q0004_analysis.png\"/>"
+      "analysis_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{aligned}\\overline{x}&amp;=p\\text{的矩估计量，所以是一致估计量；}\\\\E(X)&amp;=p,\\text{所以}\\overline{x} \\text{又是}p\\text{的无偏估计量。}\\\\ \\text{似然函数为}\\\\L(p)&amp;=P\\{X=x_{1},X=x_{2},\\cdots,X=x_{n}\\}=\\sum_{i=1}^{n}X_{i}\\overline{p}^{n-(1-p)}\\\\ \\text{令}\\frac{dlnL(p)}{dp}&amp;=0,\\text{有}\\\\ \\frac{1}{p}\\sum_{i=1}^{n}X_{i}-\\frac{1}{1-p}(n-\\sum_{i=1}^{n}X_{i})&amp;=0,\\\\ p&amp;=\\frac{1}{n}\\sum_{i=1}^{n}X_{i}.\\\\ \\text{所以}\\overline{x}&amp;=p\\text{的极大似然估计量。}\\\\ \\text{一个单独的估计量是无法比较其有效性的。}\\end{aligned}\">\\begin{aligned}\\overline{x}&amp;=p\\text{的矩估计量，所以是一致估计量；}\\\\E(X)&amp;=p,\\text{所以}\\overline{x} \\text{又是}p\\text{的无偏估计量。}\\\\ \\text{似然函数为}\\\\L(p)&amp;=P\\{X=x_{1},X=x_{2},\\cdots,X=x_{n}\\}=\\sum_{i=1}^{n}X_{i}\\overline{p}^{n-(1-p)}\\\\ \\text{令}\\frac{dlnL(p)}{dp}&amp;=0,\\text{有}\\\\ \\frac{1}{p}\\sum_{i=1}^{n}X_{i}-\\frac{1}{1-p}(n-\\sum_{i=1}^{n}X_{i})&amp;=0,\\\\ p&amp;=\\frac{1}{n}\\sum_{i=1}^{n}X_{i}.\\\\ \\text{所以}\\overline{x}&amp;=p\\text{的极大似然估计量。}\\\\ \\text{一个单独的估计量是无法比较其有效性的。}\\end{aligned}</div>"
     },
     {
       "id": "q0005",
       "number": 5,
       "header": "#5-Averge",
       "difficulty": "Averge",
-      "prompt_html": "<img src=\"/static/generated/assets/probability/ch114/q0005_prompt.png\"/>",
+      "prompt_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{array}{l} \\text {设} X_{1}, X_{2} \\text {是来自正态总体} N(\\mu, 1) \\text{的样本}，\\text{则对统计量} \\\\ \\widehat{\\mu_{1}} = \\frac{2}{3} X_{1} + \\frac{1}{3} X_{2}, \\ \\widehat{\\mu_{2}} = \\frac{1}{4} X_{1} + \\frac{3}{4} X_{2}, \\ \\widehat{\\mu_{3}} = \\frac{1}{2} X_{1} + \\frac{1}{2} X_{2}, \\\\ \\text {则下列结论中错误的是()}. \\end{array}\">\\begin{array}{l} \\text {设} X_{1}, X_{2} \\text {是来自正态总体} N(\\mu, 1) \\text{的样本}，\\text{则对统计量} \\\\ \\widehat{\\mu_{1}} = \\frac{2}{3} X_{1} + \\frac{1}{3} X_{2}, \\ \\widehat{\\mu_{2}} = \\frac{1}{4} X_{1} + \\frac{3}{4} X_{2}, \\ \\widehat{\\mu_{3}} = \\frac{1}{2} X_{1} + \\frac{1}{2} X_{2}, \\\\ \\text {则下列结论中错误的是()}. \\end{array}</div>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/probability/ch114/q0005_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\widehat{\\mu}_{1},\\ \\widehat{\\mu}_{2},\\ \\widehat{\\mu}_{3} \\text{都是}\\mu \\text{的一致估计量}\">\\widehat{\\mu}_{1},\\ \\widehat{\\mu}_{2},\\ \\widehat{\\mu}_{3} \\text{都是}\\mu \\text{的一致估计量}</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/probability/ch114/q0005_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\widehat{\\mu}_{1},\\ \\widehat{\\mu}_{2},\\ \\widehat{\\mu}_{3} \\text{都是}\\mu \\text{的无偏估计量}\">\\widehat{\\mu}_{1},\\ \\widehat{\\mu}_{2},\\ \\widehat{\\mu}_{3} \\text{都是}\\mu \\text{的无偏估计量}</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/probability/ch114/q0005_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\widehat{\\mu}_{3} \\text{比} \\widehat{\\mu}_{1},\\ \\widehat{\\mu}_{2} \\text{更有效}\">\\widehat{\\mu}_{3} \\text{比} \\widehat{\\mu}_{1},\\ \\widehat{\\mu}_{2} \\text{更有效}</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/probability/ch114/q0005_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\widehat{\\mu_{3}} \\text{比} \\frac{\\widehat{\\mu_{1}}+\\widehat{\\mu_{2}}}{2} \\text{更有效}\">\\widehat{\\mu_{3}} \\text{比} \\frac{\\widehat{\\mu_{1}}+\\widehat{\\mu_{2}}}{2} \\text{更有效}</span>"
         }
       ],
       "answer": "A",
       "answer_index": 0,
-      "analysis_html": "<img src=\"/static/generated/assets/probability/ch114/q0005_analysis.png\"/>"
+      "analysis_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{aligned} &amp; \\text{依题可得，} \\ E(\\widehat{\\mu_1}) = E(\\widehat{\\mu_2}) = E(\\widehat{\\mu_3}) = \\mu \\,, \\\\ &amp; D(\\widehat{\\mu_1}) = \\frac{5}{9} D(X) \\approx 0.556 D(X), \\\\ &amp; D(\\widehat{\\mu_2}) = \\frac{10}{16} D(X) = 0.625 D(X), \\\\ &amp; D(\\widehat{\\mu_3}) = \\frac{2}{4} D(X) = 0.5 D(X), \\\\ &amp; D([\\widehat{\\mu_1} + \\widehat{\\mu_2}]2) = \\frac{290}{576} D(X) \\approx 0.503 D(X), \\\\ &amp; \\text{由于样本容量已经固定，} \\widehat{\\mu_1}, \\ \\widehat{\\mu_3}, \\ \\widehat{\\mu_3} \\text{的估计与} n \\text{无关，故不存在相合性评价.} \\end{aligned}\">\\begin{aligned} &amp; \\text{依题可得，} \\ E(\\widehat{\\mu_1}) = E(\\widehat{\\mu_2}) = E(\\widehat{\\mu_3}) = \\mu \\,, \\\\ &amp; D(\\widehat{\\mu_1}) = \\frac{5}{9} D(X) \\approx 0.556 D(X), \\\\ &amp; D(\\widehat{\\mu_2}) = \\frac{10}{16} D(X) = 0.625 D(X), \\\\ &amp; D(\\widehat{\\mu_3}) = \\frac{2}{4} D(X) = 0.5 D(X), \\\\ &amp; D([\\widehat{\\mu_1} + \\widehat{\\mu_2}]2) = \\frac{290}{576} D(X) \\approx 0.503 D(X), \\\\ &amp; \\text{由于样本容量已经固定，} \\widehat{\\mu_1}, \\ \\widehat{\\mu_3}, \\ \\widehat{\\mu_3} \\text{的估计与} n \\text{无关，故不存在相合性评价.} \\end{aligned}</div>"
     },
     {
       "id": "q0006",
       "number": 6,
       "header": "#6-Averge",
       "difficulty": "Averge",
-      "prompt_html": "<img src=\"/static/generated/assets/probability/ch114/q0006_prompt.png\"/>",
+      "prompt_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{aligned}&amp; \\text{设}X_{1},X_{2},\\cdots,X_{n} \\text{是来自总体}X \\text{的样本，} \\lambda \\text{的分布为} P\\{X=k\\}=\\frac{\\lambda^{k}}{k!},\\ k=0,1,2,\\cdots (\\lambda&gt;0), \\text{记} \\overline{X}=\\frac{1}{n}\\sum_{i=1}^{n}X_{i},\\\\&amp; S_{n}^{c}=\\frac{1}{n}\\sum_{i=1}^{n}(X_{i}-\\overline{X})^{2}, \\text{则下列结论中错误的是（.）}\\end{aligned}\">\\begin{aligned}&amp; \\text{设}X_{1},X_{2},\\cdots,X_{n} \\text{是来自总体}X \\text{的样本，} \\lambda \\text{的分布为} P\\{X=k\\}=\\frac{\\lambda^{k}}{k!},\\ k=0,1,2,\\cdots (\\lambda&gt;0), \\text{记} \\overline{X}=\\frac{1}{n}\\sum_{i=1}^{n}X_{i},\\\\&amp; S_{n}^{c}=\\frac{1}{n}\\sum_{i=1}^{n}(X_{i}-\\overline{X})^{2}, \\text{则下列结论中错误的是（.）}\\end{aligned}</div>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/probability/ch114/q0006_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\begin{array}{l}S_{n}^{2} \\text{是} \\lambda \\text{的极大似然估计量} \\end{array}\">\\begin{array}{l}S_{n}^{2} \\text{是} \\lambda \\text{的极大似然估计量} \\end{array}</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/probability/ch114/q0006_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\begin{array}{l}S_{n}^{2} \\text{是} \\lambda \\text{的矩法估计量} \\end{array}\">\\begin{array}{l}S_{n}^{2} \\text{是} \\lambda \\text{的矩法估计量} \\end{array}</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/probability/ch114/q0006_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\begin{array}{l}S_{n}^{2} \\text{是} \\lambda \\text{的渐进无偏估计量} \\end{array}\">\\begin{array}{l}S_{n}^{2} \\text{是} \\lambda \\text{的渐进无偏估计量} \\end{array}</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/probability/ch114/q0006_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\begin{array}{l}S_{n}^{2} \\text{是} \\lambda \\text{的一致估计量} \\end{array}\">\\begin{array}{l}S_{n}^{2} \\text{是} \\lambda \\text{的一致估计量} \\end{array}</span>"
         }
       ],
       "answer": "A",
       "answer_index": 0,
-      "analysis_html": "<img src=\"/static/generated/assets/probability/ch114/q0006_analysis.png\"/>"
+      "analysis_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{aligned}&amp; \\text{总体}x \\text{服从的是泊松分布，}E(X)=\\lambda,D(X)=\\lambda.\\\\&amp; \\bar{X}\\text{和}S_{n}^{2} \\text{分别是总体均值}\\lambda \\text{与总体方差}\\lambda \\text{的矩估计量，所以都是}\\lambda \\text{一致估计量.}\\\\&amp; \\text{样本方差}S^{2} \\text{是总体方差的无偏估计量，而}S_{n}^{2}=\\frac{n-1}{n}S^{2}, \\text{所以}S_{n}^{2} \\text{不是}\\lambda \\text{的无偏估计量，但是渐近无偏估计量.}\\\\&amp; \\lambda \\text{的极大似然估计量是样本均值}\\bar{X}, \\text{所以}S_{n}^{2} \\text{不是}\\lambda \\text{的极大似然估计量.}\\end{aligned}\">\\begin{aligned}&amp; \\text{总体}x \\text{服从的是泊松分布，}E(X)=\\lambda,D(X)=\\lambda.\\\\&amp; \\bar{X}\\text{和}S_{n}^{2} \\text{分别是总体均值}\\lambda \\text{与总体方差}\\lambda \\text{的矩估计量，所以都是}\\lambda \\text{一致估计量.}\\\\&amp; \\text{样本方差}S^{2} \\text{是总体方差的无偏估计量，而}S_{n}^{2}=\\frac{n-1}{n}S^{2}, \\text{所以}S_{n}^{2} \\text{不是}\\lambda \\text{的无偏估计量，但是渐近无偏估计量.}\\\\&amp; \\lambda \\text{的极大似然估计量是样本均值}\\bar{X}, \\text{所以}S_{n}^{2} \\text{不是}\\lambda \\text{的极大似然估计量.}\\end{aligned}</div>"
     },
     {
       "id": "q0007",
       "number": 7,
       "header": "#7-Hard",
       "difficulty": "Hard",
-      "prompt_html": "<img src=\"/static/generated/assets/probability/ch114/q0007_prompt.png\"/>",
+      "prompt_html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{设}X_{1},X_{2},\\cdots,X_{n}\\text{是来自总体}X\\text{的样本，}\\overline{X}=\\frac{1}{n}\\sum_{i=1}^{n}X_{i}\\text{，则}\\frac{1}{n}\\sum_{i=1}^{n}(X_{i}-\\overline{X})^{k}\\text{是}E(X-EX)^{k}\\text{的(.)}.\">\\text{设}X_{1},X_{2},\\cdots,X_{n}\\text{是来自总体}X\\text{的样本，}\\overline{X}=\\frac{1}{n}\\sum_{i=1}^{n}X_{i}\\text{，则}\\frac{1}{n}\\sum_{i=1}^{n}(X_{i}-\\overline{X})^{k}\\text{是}E(X-EX)^{k}\\text{的(.)}.</span>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/probability/ch114/q0007_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{一致估计量，但未必是无偏估计量}\">\\text{一致估计量，但未必是无偏估计量}</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/probability/ch114/q0007_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{一致无偏估计量}\">\\text{一致无偏估计量}</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/probability/ch114/q0007_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{无偏估计量，但未必是一致估计量}\">\\text{无偏估计量，但未必是一致估计量}</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/probability/ch114/q0007_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{未必是无偏估计量，也未必是一致估计量}\">\\text{未必是无偏估计量，也未必是一致估计量}</span>"
         }
       ],
       "answer": "A",
       "answer_index": 0,
-      "analysis_html": "<img src=\"/static/generated/assets/probability/ch114/q0007_analysis.png\"/>"
+      "analysis_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{aligned}&amp;\\text{样本}A\\text{阶原点矩}A_{i}\\text{依概率收敛于总体}A\\text{阶原点矩}.\\\\&amp;\\text{样本}A\\text{阶中心矩}B_{i}\\text{是样本}A\\text{阶原点矩}A_{i}\\text{的函数，所以根据依概率收敛性质可知，当总体}A\\text{阶原点矩存在时，样本}A\\text{阶中心矩}B_{i}\\text{依概率收敛于总体}A\\text{阶中心矩，即}\\\\&amp;\\lim_{n\\rightarrow\\infty}P\\{\\frac{1}{n}\\sum_{i=1}^{n}(X_{i}-\\overline{X})^{k}-E[(X-EX)^{k}]&lt;\\varepsilon\\}=0.\\end{aligned}\">\\begin{aligned}&amp;\\text{样本}A\\text{阶原点矩}A_{i}\\text{依概率收敛于总体}A\\text{阶原点矩}.\\\\&amp;\\text{样本}A\\text{阶中心矩}B_{i}\\text{是样本}A\\text{阶原点矩}A_{i}\\text{的函数，所以根据依概率收敛性质可知，当总体}A\\text{阶原点矩存在时，样本}A\\text{阶中心矩}B_{i}\\text{依概率收敛于总体}A\\text{阶中心矩，即}\\\\&amp;\\lim_{n\\rightarrow\\infty}P\\{\\frac{1}{n}\\sum_{i=1}^{n}(X_{i}-\\overline{X})^{k}-E[(X-EX)^{k}]&lt;\\varepsilon\\}=0.\\end{aligned}</div>"
     },
     {
       "id": "q0008",
       "number": 8,
       "header": "#8-Averge",
       "difficulty": "Averge",
-      "prompt_html": "<img src=\"/static/generated/assets/probability/ch114/q0008_prompt.png\"/>",
+      "prompt_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\text{设有一批产品，为估计其废品率}p,\\text{随机取一样本}X_{1},X_{2},\\cdots,X_{n},\\text{其中}X_{i}=\\begin{cases}1,\\text{取得废品}\\\\ 0,\\text{取得合格品}\\end{cases}(i=1,2,\\cdots,n),\\text{则有( ).}\">\\text{设有一批产品，为估计其废品率}p,\\text{随机取一样本}X_{1},X_{2},\\cdots,X_{n},\\text{其中}X_{i}=\\begin{cases}1,\\text{取得废品}\\\\ 0,\\text{取得合格品}\\end{cases}(i=1,2,\\cdots,n),\\text{则有( ).}</div>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/probability/ch114/q0008_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\widehat{p} = \\overline{X} = \\frac{1}{n} \\sum_{i=1}^{n} X_{i} \\text{是} p \\text{的一致无偏估计量}\">\\widehat{p} = \\overline{X} = \\frac{1}{n} \\sum_{i=1}^{n} X_{i} \\text{是} p \\text{的一致无偏估计量}</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/probability/ch114/q0008_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\widehat{p} = \\overline{X} = \\frac{1}{n} \\sum_{i=1}^{n} X_{i} \\text{不是} p \\text{的一致无偏估计量}\">\\widehat{p} = \\overline{X} = \\frac{1}{n} \\sum_{i=1}^{n} X_{i} \\text{不是} p \\text{的一致无偏估计量}</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/probability/ch114/q0008_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{不能确定} \\widehat{p} = \\overline{X} = \\frac{1}{n} \\sum_{i=1}^{n} X_{i} \\text{是} p \\text{的一致无偏估计量}.\">\\text{不能确定} \\widehat{p} = \\overline{X} = \\frac{1}{n} \\sum_{i=1}^{n} X_{i} \\text{是} p \\text{的一致无偏估计量}.</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/probability/ch114/q0008_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{其他结论均不正确}\">\\text{其他结论均不正确}</span>"
         }
       ],
       "answer": "A",
       "answer_index": 0,
-      "analysis_html": "<img src=\"/static/generated/assets/probability/ch114/q0008_analysis.png\"/>"
+      "analysis_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{aligned}E(\\widehat{p})&amp;=E(\\overline{X})=\\left(\\frac{1}{n}\\sum_{i=1}^{n}E(X_{i})\\right)=\\frac{1}{n}\\sum_{i=1}^{n}E(X_{i})=\\frac{1}{n}\\sum_{i=1}^{n}p=p,\\\\ \\text{所以} &amp; \\widehat{p} \\text{是}p\\text{的无偏估计量}.\\\\ p\\text{是算数平均，所以根据大数定理可知，} &amp; \\widehat{p} \\text{是}p\\text{的一致无偏估计量.}\\\\ \\text{事实上，} &amp; D(\\widehat{p})=D(\\overline{X})=D\\left(\\frac{1}{n}\\sum_{i=1}^{n}X_{i}\\right)=\\frac{1}{n^{2}}\\sum_{i=1}^{n}D(X_{i})=\\frac{1}{n^{2}}\\sum_{i=1}^{n}p(1-p)=\\frac{1}{n^{2}}np(1-p)=\\frac{pq}{n}.\\\\ \\text{对任意给定的}\\varepsilon&gt;0, \\text{由切比雪夫不等式有} &amp; P\\{\\left|\\widehat{p}-p\\right|\\geq\\varepsilon\\}=P\\{\\left|\\overline{X}-p\\right|\\geq\\varepsilon\\}\\leq\\frac{1}{\\varepsilon^{2}}D(\\overline{X})=\\frac{1}{\\varepsilon^{2}}\\frac{p(1-p)}{n},\\\\ \\text{所以} &amp; \\lim_{n\\to\\infty}P\\{\\left|\\widehat{p}-p\\right|\\geq\\varepsilon\\}=0, \\text{故}\\widehat{p}=\\overline{X} \\text{是废品率}p\\text{的一致无偏估计量.}\\end{aligned}\">\\begin{aligned}E(\\widehat{p})&amp;=E(\\overline{X})=\\left(\\frac{1}{n}\\sum_{i=1}^{n}E(X_{i})\\right)=\\frac{1}{n}\\sum_{i=1}^{n}E(X_{i})=\\frac{1}{n}\\sum_{i=1}^{n}p=p,\\\\ \\text{所以} &amp; \\widehat{p} \\text{是}p\\text{的无偏估计量}.\\\\ p\\text{是算数平均，所以根据大数定理可知，} &amp; \\widehat{p} \\text{是}p\\text{的一致无偏估计量.}\\\\ \\text{事实上，} &amp; D(\\widehat{p})=D(\\overline{X})=D\\left(\\frac{1}{n}\\sum_{i=1}^{n}X_{i}\\right)=\\frac{1}{n^{2}}\\sum_{i=1}^{n}D(X_{i})=\\frac{1}{n^{2}}\\sum_{i=1}^{n}p(1-p)=\\frac{1}{n^{2}}np(1-p)=\\frac{pq}{n}.\\\\ \\text{对任意给定的}\\varepsilon&gt;0, \\text{由切比雪夫不等式有} &amp; P\\{\\left|\\widehat{p}-p\\right|\\geq\\varepsilon\\}=P\\{\\left|\\overline{X}-p\\right|\\geq\\varepsilon\\}\\leq\\frac{1}{\\varepsilon^{2}}D(\\overline{X})=\\frac{1}{\\varepsilon^{2}}\\frac{p(1-p)}{n},\\\\ \\text{所以} &amp; \\lim_{n\\to\\infty}P\\{\\left|\\widehat{p}-p\\right|\\geq\\varepsilon\\}=0, \\text{故}\\widehat{p}=\\overline{X} \\text{是废品率}p\\text{的一致无偏估计量.}\\end{aligned}</div>"
     },
     {
       "id": "q0009",
       "number": 9,
       "header": "#9-Hard",
       "difficulty": "Hard",
-      "prompt_html": "<img src=\"/static/generated/assets/probability/ch114/q0009_prompt.png\"/>",
+      "prompt_html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{总体}X \\text{在区间} [0, \\theta ] \\text{上均匀分布，} X_{1}, X_{2}, \\cdots , X_{n} \\text{是它的样本，则下列估计量} \\widehat{\\theta } \\text{是} \\theta \\text{的一致估计量的是( }.\">\\text{总体}X \\text{在区间} [0, \\theta ] \\text{上均匀分布，} X_{1}, X_{2}, \\cdots , X_{n} \\text{是它的样本，则下列估计量} \\widehat{\\theta } \\text{是} \\theta \\text{的一致估计量的是( }.</span>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/probability/ch114/q0009_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\widehat{\\theta} = \\max \\{ X _ { 1 } , \\, X _ { 2 } , \\, \\cdots , \\, X _ { n } \\}\">\\widehat{\\theta} = \\max \\{ X _ { 1 } , \\, X _ { 2 } , \\, \\cdots , \\, X _ { n } \\}</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/probability/ch114/q0009_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\hat { \\theta } { = } X _ { n }\">\\hat { \\theta } { = } X _ { n }</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/probability/ch114/q0009_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\widehat { \\theta } = 2 X _ { n }\">\\widehat { \\theta } = 2 X _ { n }</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/probability/ch114/q0009_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\widehat{\\theta} {=} \\overline{X} {=} \\frac{1}{n} \\sum_{i = 1}^{n} X_{i}\">\\widehat{\\theta} {=} \\overline{X} {=} \\frac{1}{n} \\sum_{i = 1}^{n} X_{i}</span>"
         }
       ],
       "answer": "A",
       "answer_index": 0,
-      "analysis_html": "<img src=\"/static/generated/assets/probability/ch114/q0009_analysis.png\"/>"
+      "analysis_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{aligned}&amp;\\widehat{\\theta}=2\\overline{X}=\\frac{2}{n}\\sum_{i=1}^{n}X_i \\text{是}\\theta\\text{的矩估计计量，是}\\theta\\text{的一致估计量}.\\\\&amp;\\widehat{\\theta}=X_n,\\ \\widehat{\\theta}=2X_n \\text{与}\\overline{X}=\\frac{1}{n}\\sum_{i=1}^{n}X_i \\text{无关，所以}\\widehat{\\theta}=X_n,\\ \\widehat{\\theta}=2X_n \\text{都不是}\\theta\\text{的一致估计量}.\\\\&amp;\\text{因为} \\\\&amp;F_{\\lambda}(x)=\\begin{cases}0,\\ x&lt;0\\\\ \\frac{x}{\\theta},\\ 0\\leq x\\leq \\theta,\\\\1,\\ x&gt;\\theta\\end{cases}\\\\&amp;\\text{所以} \\\\&amp;F_{\\max\\{X_1,X_2,\\cdots,X_n\\}}(x)=F_{X_1}(x)F_{X_2}(x)\\cdots F_{X_n}(x)=[F_{\\lambda}(x)]^n.\\\\&amp;\\text{而} \\\\&amp;P\\{\\left|\\max\\{X_1,X_2,\\cdots,X_n\\}-\\theta\\right|&lt;\\varepsilon\\}\\\\&amp;=P(-\\varepsilon+\\theta&lt;\\max\\{X_1,X_2,\\cdots,X_n\\}&lt;\\varepsilon+\\theta)\\\\&amp;=F(\\varepsilon+\\theta)-F(-\\varepsilon+\\theta)=1-\\left(1-\\frac{x}{\\theta}\\right)^n,\\\\&amp;\\text{所以，对任意}\\varepsilon&gt;0,\\text{总有} \\\\&amp;\\lim_{n\\to+\\infty}P\\{\\left|\\max\\{X_1,X_2,\\cdots,X_n\\}-\\theta\\right|&lt;\\varepsilon\\}=1.\\end{aligned}\">\\begin{aligned}&amp;\\widehat{\\theta}=2\\overline{X}=\\frac{2}{n}\\sum_{i=1}^{n}X_i \\text{是}\\theta\\text{的矩估计计量，是}\\theta\\text{的一致估计量}.\\\\&amp;\\widehat{\\theta}=X_n,\\ \\widehat{\\theta}=2X_n \\text{与}\\overline{X}=\\frac{1}{n}\\sum_{i=1}^{n}X_i \\text{无关，所以}\\widehat{\\theta}=X_n,\\ \\widehat{\\theta}=2X_n \\text{都不是}\\theta\\text{的一致估计量}.\\\\&amp;\\text{因为} \\\\&amp;F_{\\lambda}(x)=\\begin{cases}0,\\ x&lt;0\\\\ \\frac{x}{\\theta},\\ 0\\leq x\\leq \\theta,\\\\1,\\ x&gt;\\theta\\end{cases}\\\\&amp;\\text{所以} \\\\&amp;F_{\\max\\{X_1,X_2,\\cdots,X_n\\}}(x)=F_{X_1}(x)F_{X_2}(x)\\cdots F_{X_n}(x)=[F_{\\lambda}(x)]^n.\\\\&amp;\\text{而} \\\\&amp;P\\{\\left|\\max\\{X_1,X_2,\\cdots,X_n\\}-\\theta\\right|&lt;\\varepsilon\\}\\\\&amp;=P(-\\varepsilon+\\theta&lt;\\max\\{X_1,X_2,\\cdots,X_n\\}&lt;\\varepsilon+\\theta)\\\\&amp;=F(\\varepsilon+\\theta)-F(-\\varepsilon+\\theta)=1-\\left(1-\\frac{x}{\\theta}\\right)^n,\\\\&amp;\\text{所以，对任意}\\varepsilon&gt;0,\\text{总有} \\\\&amp;\\lim_{n\\to+\\infty}P\\{\\left|\\max\\{X_1,X_2,\\cdots,X_n\\}-\\theta\\right|&lt;\\varepsilon\\}=1.\\end{aligned}</div>\n<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{故} \\widehat{\\theta}=\\max\\{X_1,X_2,\\cdots,X_n\\} \\text{是} \\theta \\text{的一致估计量}.\">\\text{故} \\widehat{\\theta}=\\max\\{X_1,X_2,\\cdots,X_n\\} \\text{是} \\theta \\text{的一致估计量}.</span>"
     },
     {
       "id": "q0010",
       "number": 10,
       "header": "#10-Hard",
       "difficulty": "Hard",
-      "prompt_html": "<img src=\"/static/generated/assets/probability/ch114/q0010_prompt.png\"/>",
+      "prompt_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{aligned}\\text{设}n\\text{个随机变量}X_{1},X_{2},\\cdots,X_{n}\\text{独立同分布，}E(X_{i})=\\mu,D(X_{i})=\\sigma^{2}(i=1,2,\\cdots,n),\\ \\mu,\\sigma^{2}\\text{未知。记}\\overline{X}=\\frac{1}{n}\\sum_{i=1}^{n}X_{i},\\\\S^{2}=\\frac{1}{n-1}\\sum_{i=1}^{n}(X_{i}-\\overline{X})^{2},\\text{则（.）}\\end{aligned}\">\\begin{aligned}\\text{设}n\\text{个随机变量}X_{1},X_{2},\\cdots,X_{n}\\text{独立同分布，}E(X_{i})=\\mu,D(X_{i})=\\sigma^{2}(i=1,2,\\cdots,n),\\ \\mu,\\sigma^{2}\\text{未知。记}\\overline{X}=\\frac{1}{n}\\sum_{i=1}^{n}X_{i},\\\\S^{2}=\\frac{1}{n-1}\\sum_{i=1}^{n}(X_{i}-\\overline{X})^{2},\\text{则（.）}\\end{aligned}</div>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/probability/ch114/q0010_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\mathrm{s} \\text{是} \\sigma \\text{的一致估计量}\">\\mathrm{s} \\text{是} \\sigma \\text{的一致估计量}</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/probability/ch114/q0010_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{s是}\\sigma\\text{的最大似然估计量}\">\\text{s是}\\sigma\\text{的最大似然估计量}</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/probability/ch114/q0010_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\sigma \\text{是}\\sigma \\text{的无偏估计量}\">\\sigma \\text{是}\\sigma \\text{的无偏估计量}</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/probability/ch114/q0010_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\mathrm{s} \\text{是} \\sigma \\text{的矩估计量}\">\\mathrm{s} \\text{是} \\sigma \\text{的矩估计量}</span>"
         }
       ],
       "answer": "A",
       "answer_index": 0,
-      "analysis_html": "<img src=\"/static/generated/assets/probability/ch114/q0010_analysis.png\"/>"
+      "analysis_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{aligned}&amp;\\text{因为}X_{1},X_{2},\\cdots,X_{n}\\text{独立同分布，所以可将其看作是来自某总体的样本，总体方差为}\\sigma^{2},\\text{而}\\overline{X}=\\frac{1}{n}\\sum_{i=1}^{n}X_{i}\\text{是样本均值，}S^{2}=\\frac{1}{n-1}\\sum_{i=1}^{n}(X_{i}-\\overline{X})^{2}\\text{是样本方差.}\\\\&amp;\\text{样本方差}S^{n}=\\frac{1}{n-1}\\sum_{i=1}^{n}(X_{i}-\\overline{X})^{2}\\text{是总体方差}\\sigma^{2}\\text{的无偏估计，但}S\\text{不是总体标准差}\\sigma\\text{的无偏估计.}\\\\&amp;\\text{总体分布未知，不能作似然估计.}\\\\&amp;S_{n}=\\sqrt{\\frac{1}{n}\\sum_{i=1}^{n}(X_{i}-\\overline{X})^{2}}\\text{是总体标准差}\\sigma\\text{的矩估计量，}S=\\sqrt{\\frac{n}{n-1}}S_{n},\\text{所以}S\\text{不是}\\sigma\\text{的矩估计量.}\\\\&amp;S_{n}=\\sqrt{\\frac{1}{n}\\sum_{i=1}^{n}(X_{i}-\\overline{X})^{2}}\\text{是总体标准差}\\sigma\\text{的一致估计量，所以}S_{n}\\text{是}\\sigma\\text{的一致估计量，而}S=\\sqrt{\\frac{n}{n-1}}S_{n},\\text{所以}S\\text{也是}\\sigma\\text{的一致估计量.}\\end{aligned}\">\\begin{aligned}&amp;\\text{因为}X_{1},X_{2},\\cdots,X_{n}\\text{独立同分布，所以可将其看作是来自某总体的样本，总体方差为}\\sigma^{2},\\text{而}\\overline{X}=\\frac{1}{n}\\sum_{i=1}^{n}X_{i}\\text{是样本均值，}S^{2}=\\frac{1}{n-1}\\sum_{i=1}^{n}(X_{i}-\\overline{X})^{2}\\text{是样本方差.}\\\\&amp;\\text{样本方差}S^{n}=\\frac{1}{n-1}\\sum_{i=1}^{n}(X_{i}-\\overline{X})^{2}\\text{是总体方差}\\sigma^{2}\\text{的无偏估计，但}S\\text{不是总体标准差}\\sigma\\text{的无偏估计.}\\\\&amp;\\text{总体分布未知，不能作似然估计.}\\\\&amp;S_{n}=\\sqrt{\\frac{1}{n}\\sum_{i=1}^{n}(X_{i}-\\overline{X})^{2}}\\text{是总体标准差}\\sigma\\text{的矩估计量，}S=\\sqrt{\\frac{n}{n-1}}S_{n},\\text{所以}S\\text{不是}\\sigma\\text{的矩估计量.}\\\\&amp;S_{n}=\\sqrt{\\frac{1}{n}\\sum_{i=1}^{n}(X_{i}-\\overline{X})^{2}}\\text{是总体标准差}\\sigma\\text{的一致估计量，所以}S_{n}\\text{是}\\sigma\\text{的一致估计量，而}S=\\sqrt{\\frac{n}{n-1}}S_{n},\\text{所以}S\\text{也是}\\sigma\\text{的一致估计量.}\\end{aligned}</div>"
     },
     {
       "id": "q0011",
       "number": 11,
       "header": "#11-Averge",
       "difficulty": "Averge",
-      "prompt_html": "<img src=\"/static/generated/assets/probability/ch114/q0011_prompt.png\"/>",
+      "prompt_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{aligned}\\text{设}X_{1},X_{2},\\cdots,X_{n}\\text{是来自于总体}X\\text{的样本},\\ E(X)=\\mu,D(X)=\\sigma^{2},\\ \\text{其中}\\ \\mu,\\ \\sigma^{2}\\text{为未知参数，又}\\widehat{\\mu_{1}}=\\overline{X},\\ \\widehat{\\mu_{2}}=X_{1},\\ \\text{则下面结论()是错误的}.\\end{aligned}\">\\begin{aligned}\\text{设}X_{1},X_{2},\\cdots,X_{n}\\text{是来自于总体}X\\text{的样本},\\ E(X)=\\mu,D(X)=\\sigma^{2},\\ \\text{其中}\\ \\mu,\\ \\sigma^{2}\\text{为未知参数，又}\\widehat{\\mu_{1}}=\\overline{X},\\ \\widehat{\\mu_{2}}=X_{1},\\ \\text{则下面结论()是错误的}.\\end{aligned}</div>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/probability/ch114/q0011_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\frac{1}{n} \\sum_{i=1}^{n} (X_{i} - \\mu)^{2} \\text{是} \\sigma^{2} \\text{的极大似然估计量}\">\\frac{1}{n} \\sum_{i=1}^{n} (X_{i} - \\mu)^{2} \\text{是} \\sigma^{2} \\text{的极大似然估计量}</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/probability/ch114/q0011_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\widehat{\\mu}_{1}\\text{是}\\mu\\text{的无偏估计量}\">\\widehat{\\mu}_{1}\\text{是}\\mu\\text{的无偏估计量}</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/probability/ch114/q0011_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\hat { \\mu } _ { 2 } \\text{是} \\mu \\text{的无偏估计量}\">\\hat { \\mu } _ { 2 } \\text{是} \\mu \\text{的无偏估计量}</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/probability/ch114/q0011_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\hat { \\mu } _ { 1 } \\text{比} \\hat { \\mu } _ { 2 } \\text{有效}\">\\hat { \\mu } _ { 1 } \\text{比} \\hat { \\mu } _ { 2 } \\text{有效}</span>"
         }
       ],
       "answer": "A",
       "answer_index": 0,
-      "analysis_html": "<img src=\"/static/generated/assets/probability/ch114/q0011_analysis.png\"/>"
+      "analysis_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{aligned}&amp;\\text{由题可知}E(\\widehat{\\mu_1})=E(\\widehat{\\mu_2})=\\mu,\\ \\text{且}D(\\widehat{\\mu_1})=\\frac{1}{n}\\sigma^2,\\ D(\\widehat{\\mu_2})=\\sigma^2.\\\\&amp;\\text{估计量是不能含有总体的未知参数，故}\\frac{1}{n}\\sum_{i=1}^n (X_i-\\mu)^2 \\text{不是估计量}.\\end{aligned}\">\\begin{aligned}&amp;\\text{由题可知}E(\\widehat{\\mu_1})=E(\\widehat{\\mu_2})=\\mu,\\ \\text{且}D(\\widehat{\\mu_1})=\\frac{1}{n}\\sigma^2,\\ D(\\widehat{\\mu_2})=\\sigma^2.\\\\&amp;\\text{估计量是不能含有总体的未知参数，故}\\frac{1}{n}\\sum_{i=1}^n (X_i-\\mu)^2 \\text{不是估计量}.\\end{aligned}</div>"
     },
     {
       "id": "q0012",
       "number": 12,
       "header": "#12-Averge",
       "difficulty": "Averge",
-      "prompt_html": "<img src=\"/static/generated/assets/probability/ch114/q0012_prompt.png\"/>",
+      "prompt_html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{设}X_{1},\\cdots,X_{n}\\text{是取自总体}X\\text{的样本，且}E(X^{k})\\text{存在，}k\\text{为正整数，则}E(X^{k})\\text{的相合估计量为}().\">\\text{设}X_{1},\\cdots,X_{n}\\text{是取自总体}X\\text{的样本，且}E(X^{k})\\text{存在，}k\\text{为正整数，则}E(X^{k})\\text{的相合估计量为}().</span>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/probability/ch114/q0012_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\frac {1}{n} \\sum_ {i = 1} ^ {n} X _ {i} ^ {k}\">\\frac {1}{n} \\sum_ {i = 1} ^ {n} X _ {i} ^ {k}</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/probability/ch114/q0012_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\frac{2}{n} \\sum_{i=1}^{n} X_{i}^{k}\">\\frac{2}{n} \\sum_{i=1}^{n} X_{i}^{k}</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/probability/ch114/q0012_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\frac {1}{n} \\sum_ {i = 2} ^ {n} X _ {i} ^ {k}\">\\frac {1}{n} \\sum_ {i = 2} ^ {n} X _ {i} ^ {k}</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/probability/ch114/q0012_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{没有}\">\\text{没有}</span>"
         }
       ],
       "answer": "A",
       "answer_index": 0,
-      "analysis_html": "<img src=\"/static/generated/assets/probability/ch114/q0012_analysis.png\"/>"
+      "analysis_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{aligned}&amp; \\text{对指定的}k,\\text{令} &amp; Y_{i}=X_{i}^{k},\\ \\ \\overline{Y}=\\frac{1}{n}\\sum_{i=1}^{n}Y_{i}=\\frac{1}{n}\\sum_{i=1}^{n}X_{i}^{k},\\\\&amp; \\text{由大数定理知}\\ \\overline{Y}\\overset{p}{\\rightarrow}E(X^{k}),\\text{即}\\ \\frac{1}{n}\\sum_{i=1}^{n}X_{i}^{k}\\text{是}E(X^{k})\\text{的相合估计量}.\\\\&amp; \\text{作为特例，样本均值}\\overline{X}\\text{是总体均值}E(X)\\text{的相合估计量}.\\end{aligned}\">\\begin{aligned}&amp; \\text{对指定的}k,\\text{令} &amp; Y_{i}=X_{i}^{k},\\ \\ \\overline{Y}=\\frac{1}{n}\\sum_{i=1}^{n}Y_{i}=\\frac{1}{n}\\sum_{i=1}^{n}X_{i}^{k},\\\\&amp; \\text{由大数定理知}\\ \\overline{Y}\\overset{p}{\\rightarrow}E(X^{k}),\\text{即}\\ \\frac{1}{n}\\sum_{i=1}^{n}X_{i}^{k}\\text{是}E(X^{k})\\text{的相合估计量}.\\\\&amp; \\text{作为特例，样本均值}\\overline{X}\\text{是总体均值}E(X)\\text{的相合估计量}.\\end{aligned}</div>"
     },
     {
       "id": "q0013",
       "number": 13,
       "header": "#13-Averge",
       "difficulty": "Averge",
-      "prompt_html": "<img src=\"/static/generated/assets/probability/ch114/q0013_prompt.png\"/>",
+      "prompt_html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{设}X_{1},X_{2},\\cdots,X_{n}\\text{为来自总体}X\\text{的样本，}X\\text{的数学期望为}\\mu\\text{，但}\\mu\\text{未知，则下列结论中正确的是( ).}\">\\text{设}X_{1},X_{2},\\cdots,X_{n}\\text{为来自总体}X\\text{的样本，}X\\text{的数学期望为}\\mu\\text{，但}\\mu\\text{未知，则下列结论中正确的是( ).}</span>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/probability/ch114/q0013_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\begin{array}{l} { r } { X _ { 1 } \\text {是} \\mu \\text {的无偏估计量} } \\end{array}\">\\begin{array}{l} { r } { X _ { 1 } \\text {是} \\mu \\text {的无偏估计量} } \\end{array}</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/probability/ch114/q0013_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\begin{array}{l} { r } { X _ { 1 } \\text{是} \\mu \\text{的极大似然估计量} } \\end{array}\">\\begin{array}{l} { r } { X _ { 1 } \\text{是} \\mu \\text{的极大似然估计量} } \\end{array}</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/probability/ch114/q0013_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\begin{aligned}X_{1} \\text{是} \\mu \\text{的相合（一致）估计量}\\end{aligned}\">\\begin{aligned}X_{1} \\text{是} \\mu \\text{的相合（一致）估计量}\\end{aligned}</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/probability/ch114/q0013_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\begin{array}{l}X_{1}\\text{不是}\\mu\\text{的估计量}\\end{array}\">\\begin{array}{l}X_{1}\\text{不是}\\mu\\text{的估计量}\\end{array}</span>"
         }
       ],
       "answer": "A",
       "answer_index": 0,
-      "analysis_html": "<img src=\"/static/generated/assets/probability/ch114/q0013_analysis.png\"/>"
+      "analysis_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{aligned}&amp;\\text{对于来自样本的任何一个}X_i(i=1,2,\\cdots,n)\\text{都是均值}\\mu\\text{的估计量}.\\\\&amp;E(X_i)=E(X)=\\mu,\\ \\text{所以}X_i\\text{是}\\mu\\text{的无偏估计量}.\\\\&amp;\\text{由于题没有给出总体的具体分布形式，所以无法求极大似然估计量.}\\\\&amp;X_i\\text{与}n\\text{无关，所以当}n\\rightarrow\\infty\\text{时，无法保证}\\lim_{n\\rightarrow\\infty}\\{|X_i-\\mu|\\geq\\varepsilon\\}=0,\\ \\text{故}X_i\\text{不是}\\mu\\text{的相合（一致）估计量}.\\end{aligned}\">\\begin{aligned}&amp;\\text{对于来自样本的任何一个}X_i(i=1,2,\\cdots,n)\\text{都是均值}\\mu\\text{的估计量}.\\\\&amp;E(X_i)=E(X)=\\mu,\\ \\text{所以}X_i\\text{是}\\mu\\text{的无偏估计量}.\\\\&amp;\\text{由于题没有给出总体的具体分布形式，所以无法求极大似然估计量.}\\\\&amp;X_i\\text{与}n\\text{无关，所以当}n\\rightarrow\\infty\\text{时，无法保证}\\lim_{n\\rightarrow\\infty}\\{|X_i-\\mu|\\geq\\varepsilon\\}=0,\\ \\text{故}X_i\\text{不是}\\mu\\text{的相合（一致）估计量}.\\end{aligned}</div>"
     },
     {
       "id": "q0014",
       "number": 14,
       "header": "#14-Averge",
       "difficulty": "Averge",
-      "prompt_html": "<img src=\"/static/generated/assets/probability/ch114/q0014_prompt.png\"/>",
+      "prompt_html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{设 } X_{1}, X_{2}, \\cdots , X_{n} \\text{ 是来自总体 } \\lambda \\text{ 的样本，记 } \\overline{X}^{k} = \\frac{1}{n} \\sum_{i=1}^{n} X_{i}^{k} \\ \\ (k \\text{ 为正整数}) , \\text{ 以下结论中错误的是( ).}\">\\text{设 } X_{1}, X_{2}, \\cdots , X_{n} \\text{ 是来自总体 } \\lambda \\text{ 的样本，记 } \\overline{X}^{k} = \\frac{1}{n} \\sum_{i=1}^{n} X_{i}^{k} \\ \\ (k \\text{ 为正整数}) , \\text{ 以下结论中错误的是( ).}</span>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/probability/ch114/q0014_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\begin{array}{l}S_{n}^{2}=\\displaystyle \\frac{1}{n-1}\\sum_{i=1}^{n}(X_{i}-\\overline{X})^{2} \\text{是}D(X)\\text{的矩法估计量} \\end{array}\">\\begin{array}{l}S_{n}^{2}=\\displaystyle \\frac{1}{n-1}\\sum_{i=1}^{n}(X_{i}-\\overline{X})^{2} \\text{是}D(X)\\text{的矩法估计量} \\end{array}</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/probability/ch114/q0014_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\overline{X}^{*} \\text{是} E(X^{*}) \\text{的无偏估计量}\">\\overline{X}^{*} \\text{是} E(X^{*}) \\text{的无偏估计量}</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/probability/ch114/q0014_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\overline{X}^{*} \\text{是} E(X^{*}) \\text{的一致估计量}\">\\overline{X}^{*} \\text{是} E(X^{*}) \\text{的一致估计量}</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/probability/ch114/q0014_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\begin{array}{l} S_{n}^{2} = \\displaystyle \\frac{1}{n-1} \\sum_{i=1}^{n} (X_{i} - \\overline{X})^{2} \\text{是} D(X) \\text{的无偏估计量} \\end{array}\">\\begin{array}{l} S_{n}^{2} = \\displaystyle \\frac{1}{n-1} \\sum_{i=1}^{n} (X_{i} - \\overline{X})^{2} \\text{是} D(X) \\text{的无偏估计量} \\end{array}</span>"
         }
       ],
       "answer": "A",
       "answer_index": 0,
-      "analysis_html": "<img src=\"/static/generated/assets/probability/ch114/q0014_analysis.png\"/>"
+      "analysis_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{array}{l} \\text {样本矩是总体矩的无偏估计量和一致估计量，即} \\overline{X}^{2} \\text {是} E(X^{2}) \\text {的无偏、一致估计量.}\\\\ \\text {样本方差是总体方差的无偏估计量，即} S^{2}=\\frac{1}{n-1} \\sum_{i=1}^{n} (X_{i}-\\overline{X})^{2} \\text {是} D(X) \\text {的无偏估计量.}\\\\ D(X) \\text {的矩法估计量为} S_{n}^{2}=\\frac{1}{n-1} \\sum_{i=1}^{n} (X_{i}-\\overline{X})^{2}. \\end{array}\">\\begin{array}{l} \\text {样本矩是总体矩的无偏估计量和一致估计量，即} \\overline{X}^{2} \\text {是} E(X^{2}) \\text {的无偏、一致估计量.}\\\\ \\text {样本方差是总体方差的无偏估计量，即} S^{2}=\\frac{1}{n-1} \\sum_{i=1}^{n} (X_{i}-\\overline{X})^{2} \\text {是} D(X) \\text {的无偏估计量.}\\\\ D(X) \\text {的矩法估计量为} S_{n}^{2}=\\frac{1}{n-1} \\sum_{i=1}^{n} (X_{i}-\\overline{X})^{2}. \\end{array}</div>"
     },
     {
       "id": "q0015",
       "number": 15,
       "header": "#15-Averge",
       "difficulty": "Averge",
-      "prompt_html": "<img src=\"/static/generated/assets/probability/ch114/q0015_prompt.png\"/>",
+      "prompt_html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{设 } X_{1}, X_{2}, \\cdots , X_{n} \\text{ 是来自总体 } X \\text{ 的样本，则 } \\overline{X}^{k} = \\frac{1}{n} \\sum_{i=1}^{n} X_{i}^{k} \\text{ 是 } E(X^{k}) \\text{ 的( ).}\">\\text{设 } X_{1}, X_{2}, \\cdots , X_{n} \\text{ 是来自总体 } X \\text{ 的样本，则 } \\overline{X}^{k} = \\frac{1}{n} \\sum_{i=1}^{n} X_{i}^{k} \\text{ 是 } E(X^{k}) \\text{ 的( ).}</span>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/probability/ch114/q0015_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{一致无偏估计量}\">\\text{一致无偏估计量}</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/probability/ch114/q0015_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{一致估计量，但未必是无偏估计量}\">\\text{一致估计量，但未必是无偏估计量}</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/probability/ch114/q0015_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{无偏估计量，但未必是一致估计量}\">\\text{无偏估计量，但未必是一致估计量}</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/probability/ch114/q0015_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{未必是无偏估计量，也未必是一致估计量}\">\\text{未必是无偏估计量，也未必是一致估计量}</span>"
         }
       ],
       "answer": "A",
       "answer_index": 0,
-      "analysis_html": "<img src=\"/static/generated/assets/probability/ch114/q0015_analysis.png\"/>"
+      "analysis_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{aligned}E(\\overline{X}^k)&amp;=\\frac{1}{n}\\sum_{i=1}^n E(X_i^k)=E(X^k),\\\\P\\{|\\overline{X}^k-E(X^k)|\\geq\\varepsilon\\}&amp;\\leq\\frac{1}{n\\varepsilon^2}D(X^k),\\\\\\lim_{n\\rightarrow\\infty}P\\{|\\overline{X}^k-E(X^k)|\\geq\\varepsilon\\}&amp;=0.\\end{aligned}\">\\begin{aligned}E(\\overline{X}^k)&amp;=\\frac{1}{n}\\sum_{i=1}^n E(X_i^k)=E(X^k),\\\\P\\{|\\overline{X}^k-E(X^k)|\\geq\\varepsilon\\}&amp;\\leq\\frac{1}{n\\varepsilon^2}D(X^k),\\\\\\lim_{n\\rightarrow\\infty}P\\{|\\overline{X}^k-E(X^k)|\\geq\\varepsilon\\}&amp;=0.\\end{aligned}</div>"
     },
     {
       "id": "q0016",
       "number": 16,
       "header": "#16-Easy",
       "difficulty": "Easy",
-      "prompt_html": "<img src=\"/static/generated/assets/probability/ch114/q0016_prompt.png\"/>",
+      "prompt_html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{下列不是评价估计量标准的是( )} .\">\\text{下列不是评价估计量标准的是( )} .</span>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/probability/ch114/q0016_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{无误差性}\">\\text{无误差性}</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/probability/ch114/q0016_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{无偏性}\">\\text{无偏性}</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/probability/ch114/q0016_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{一致性}\">\\text{一致性}</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/probability/ch114/q0016_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{有效性}\">\\text{有效性}</span>"
         }
       ],
       "answer": "A",
       "answer_index": 0,
-      "analysis_html": "<img src=\"/static/generated/assets/probability/ch114/q0016_analysis.png\"/>"
+      "analysis_html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{估计量的评价标准一般有三个，即无偏性，一致性，有效性}.\">\\text{估计量的评价标准一般有三个，即无偏性，一致性，有效性}.</span>"
     },
     {
       "id": "q0017",
       "number": 17,
       "header": "#17-Hard",
       "difficulty": "Hard",
-      "prompt_html": "<img src=\"/static/generated/assets/probability/ch114/q0017_prompt.png\"/>",
+      "prompt_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{aligned}&amp; \\text{设}X_{1},X_{2},\\cdots,X_{n} \\text{是来自正态总体}N(\\mu,\\sigma^{2})\\text{的样本，}\\overline{\\lambda}\\text{为样本均值.记}\\\\&amp; Y_{n}=\\sum_{i=1}^{n}a_{i}X_{i}(\\text{常数}a_{i}\\geq 0,i=1,2,\\cdots,n,\\sum_{i=1}^{n}a_{i}=1),\\text{则以下结论错误的是（.）}.\\end{aligned}\">\\begin{aligned}&amp; \\text{设}X_{1},X_{2},\\cdots,X_{n} \\text{是来自正态总体}N(\\mu,\\sigma^{2})\\text{的样本，}\\overline{\\lambda}\\text{为样本均值.记}\\\\&amp; Y_{n}=\\sum_{i=1}^{n}a_{i}X_{i}(\\text{常数}a_{i}\\geq 0,i=1,2,\\cdots,n,\\sum_{i=1}^{n}a_{i}=1),\\text{则以下结论错误的是（.）}.\\end{aligned}</div>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/probability/ch114/q0017_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\begin{array}{l} { r } { Y _ { n } \\text {是} \\mu \\text {的有效估计量} } \\end{array}\">\\begin{array}{l} { r } { Y _ { n } \\text {是} \\mu \\text {的有效估计量} } \\end{array}</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/probability/ch114/q0017_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\begin{array}{l} Y _ {n} \\text {是} \\mu \\text {的无偏估计量} \\end{array}\">\\begin{array}{l} Y _ {n} \\text {是} \\mu \\text {的无偏估计量} \\end{array}</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/probability/ch114/q0017_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\overline{x} \\text{是} Y_{n} \\text{中最有效的估计量}\">\\overline{x} \\text{是} Y_{n} \\text{中最有效的估计量}</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/probability/ch114/q0017_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\begin{array}{l}Y_{n}\\text{未必是}\\mu\\text{的一致估计量} \\end{array}\">\\begin{array}{l}Y_{n}\\text{未必是}\\mu\\text{的一致估计量} \\end{array}</span>"
         }
       ],
       "answer": "A",
       "answer_index": 0,
-      "analysis_html": "<img src=\"/static/generated/assets/probability/ch114/q0017_analysis.png\"/>"
+      "analysis_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{aligned}E(Y_n)&amp;=E(\\overline{X})=\\mu.\\\\D(\\overline{X})&amp;=\\frac{1}{n}D(X)=\\frac{1}{n}\\sigma^2,\\ D(Y_n)=(\\sum_{i=1}^n a_i^\\gamma)D(X)=(\\sum_{i=1}^n a_i^\\gamma)\\sigma^2.\\\\ \\text{由数学不等式}&amp;&amp;\\sum_{i=1}^n a_i b_i\\leq\\sqrt{\\sum_{i=1}^n a_i^\\gamma}\\sqrt{\\sum_{i=1}^n b_i^\\gamma},\\\\ \\text{有}&amp;&amp;1=\\sum_{i=1}^n a_i=\\sum_{i=1}^n(a_{i\\cdot 1})\\leq\\sqrt{\\sum_{i=1}^n a_i^\\gamma}\\sqrt{\\sum_{i=1}^n 1^2}=\\sqrt{n}\\sqrt{\\sum_{i=1}^n a_i^2},\\\\&amp;&amp;\\sum_{i=1}^n a_i^\\gamma\\geq\\frac{1}{n}.\\\\ \\text{所以， }D(Y_n)\\geq D(\\overline{X}).\\end{aligned}\">\\begin{aligned}E(Y_n)&amp;=E(\\overline{X})=\\mu.\\\\D(\\overline{X})&amp;=\\frac{1}{n}D(X)=\\frac{1}{n}\\sigma^2,\\ D(Y_n)=(\\sum_{i=1}^n a_i^\\gamma)D(X)=(\\sum_{i=1}^n a_i^\\gamma)\\sigma^2.\\\\ \\text{由数学不等式}&amp;&amp;\\sum_{i=1}^n a_i b_i\\leq\\sqrt{\\sum_{i=1}^n a_i^\\gamma}\\sqrt{\\sum_{i=1}^n b_i^\\gamma},\\\\ \\text{有}&amp;&amp;1=\\sum_{i=1}^n a_i=\\sum_{i=1}^n(a_{i\\cdot 1})\\leq\\sqrt{\\sum_{i=1}^n a_i^\\gamma}\\sqrt{\\sum_{i=1}^n 1^2}=\\sqrt{n}\\sqrt{\\sum_{i=1}^n a_i^2},\\\\&amp;&amp;\\sum_{i=1}^n a_i^\\gamma\\geq\\frac{1}{n}.\\\\ \\text{所以， }D(Y_n)\\geq D(\\overline{X}).\\end{aligned}</div>"
     },
     {
       "id": "q0018",
       "number": 18,
       "header": "#18-Averge",
       "difficulty": "Averge",
-      "prompt_html": "<img src=\"/static/generated/assets/probability/ch114/q0018_prompt.png\"/>",
+      "prompt_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{array}{l} \\text {设有一批产品，为估计其废品率}p, \\text {随机取一样本}X_{1},X_{2},\\cdots,X_{n}, \\text {其中} \\quad X_{i}=\\left\\{\\begin{matrix}1, \\text {取得废品}\\\\ 0, \\text {取得合格品}\\end{matrix}\\right.,i=1,2,\\cdots,n, \\text {则} \\\\ \\text {下列说法正确的是（）}. \\end{array}\">\\begin{array}{l} \\text {设有一批产品，为估计其废品率}p, \\text {随机取一样本}X_{1},X_{2},\\cdots,X_{n}, \\text {其中} \\quad X_{i}=\\left\\{\\begin{matrix}1, \\text {取得废品}\\\\ 0, \\text {取得合格品}\\end{matrix}\\right.,i=1,2,\\cdots,n, \\text {则} \\\\ \\text {下列说法正确的是（）}. \\end{array}</div>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/probability/ch114/q0018_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\hat{p}=\\overline{X} \\text{是废品率}p \\text{的一致无偏估计量}\">\\hat{p}=\\overline{X} \\text{是废品率}p \\text{的一致无偏估计量}</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/probability/ch114/q0018_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\widehat{p} = \\overline{X} + p(1-p) \\text{是废品率}p \\text{的一致无偏估计量}\">\\widehat{p} = \\overline{X} + p(1-p) \\text{是废品率}p \\text{的一致无偏估计量}</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/probability/ch114/q0018_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\hat{p} = p \\text{是废品率} p \\text{的一致无偏估计量}\">\\hat{p} = p \\text{是废品率} p \\text{的一致无偏估计量}</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/probability/ch114/q0018_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\hat{p} = \\overline{X} - p \\text{是废品率}p \\text{的一致无偏估计量}\">\\hat{p} = \\overline{X} - p \\text{是废品率}p \\text{的一致无偏估计量}</span>"
         }
       ],
       "answer": "A",
       "answer_index": 0,
-      "analysis_html": "<img src=\"/static/generated/assets/probability/ch114/q0018_analysis.png\"/>"
+      "analysis_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{aligned} \\text{因为} \\ E(\\overline{X})&amp;=\\frac{1}{n}\\sum_{i=1}^{n}E(X_{i})=p, \\text{所以} \\widehat{p}=\\overline{X} \\text{是} p \\text{的无偏估计量}. \\\\ \\text{又} &amp; \\quad D(\\overline{X})=\\frac{1}{n^{2}}\\sum_{i=1}^{n}D(X_{i})=\\frac{1}{n^{2}}\\sum_{i=1}^{n}p(1-p)=\\frac{p(1-p)}{n}. \\\\ \\text{所以，由切比雪夫不等式，有} &amp; \\quad P\\{\\left|\\widehat{p}-p\\right|\\geq\\varepsilon\\}=P\\{\\left|\\overline{X}-p\\right|\\geq\\varepsilon\\}\\leq\\frac{1}{\\varepsilon^{2}}D(\\overline{X})=\\frac{p(1-p)}{n\\varepsilon^{2}}, \\\\ \\text{从而对任意给定的}\\varepsilon&gt;0, \\text{总有} &amp; \\quad \\lim_{n\\rightarrow\\infty}P\\{\\left|\\widehat{p}-p\\right|\\geq\\varepsilon\\}=0, \\\\ \\text{故} \\widehat{p}=\\overline{X} \\text{又是废品率} p \\text{的一致估计量}. \\\\ &amp; \\quad \\widehat{p}=\\overline{X}+p(1-p), \\widehat{p}=p, \\widehat{p}=\\overline{X}-p \\text{均与未知参数} p \\text{有关，所以都不是估计量}. \\end{aligned}\">\\begin{aligned} \\text{因为} \\ E(\\overline{X})&amp;=\\frac{1}{n}\\sum_{i=1}^{n}E(X_{i})=p, \\text{所以} \\widehat{p}=\\overline{X} \\text{是} p \\text{的无偏估计量}. \\\\ \\text{又} &amp; \\quad D(\\overline{X})=\\frac{1}{n^{2}}\\sum_{i=1}^{n}D(X_{i})=\\frac{1}{n^{2}}\\sum_{i=1}^{n}p(1-p)=\\frac{p(1-p)}{n}. \\\\ \\text{所以，由切比雪夫不等式，有} &amp; \\quad P\\{\\left|\\widehat{p}-p\\right|\\geq\\varepsilon\\}=P\\{\\left|\\overline{X}-p\\right|\\geq\\varepsilon\\}\\leq\\frac{1}{\\varepsilon^{2}}D(\\overline{X})=\\frac{p(1-p)}{n\\varepsilon^{2}}, \\\\ \\text{从而对任意给定的}\\varepsilon&gt;0, \\text{总有} &amp; \\quad \\lim_{n\\rightarrow\\infty}P\\{\\left|\\widehat{p}-p\\right|\\geq\\varepsilon\\}=0, \\\\ \\text{故} \\widehat{p}=\\overline{X} \\text{又是废品率} p \\text{的一致估计量}. \\\\ &amp; \\quad \\widehat{p}=\\overline{X}+p(1-p), \\widehat{p}=p, \\widehat{p}=\\overline{X}-p \\text{均与未知参数} p \\text{有关，所以都不是估计量}. \\end{aligned}</div>"
     }
-  ]
+  ],
+  "format": "latex",
+  "source_md": "gl/7.1.2_估计量(18题)/7.1.2_估计量(18题).md"
 }

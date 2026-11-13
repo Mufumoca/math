@@ -13,420 +13,422 @@
       "number": 1,
       "header": "#1-Easy",
       "difficulty": "Easy",
-      "prompt_html": "<img src=\"/static/generated/assets/probability/ch046/q0001_prompt.png\"/>",
+      "prompt_html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{设随机变量} \\, \\lambda \\text{在} 1, 2, 3, 4 \\text{四个整数中等可能地取一个值，另一个随机变量} \\, \\gamma \\text{在} 1 \\sim \\lambda \\text{中等可能地取一整数值，则} \\ P \\{ X = 2 , \\, Y = 1 \\} = ( \\ \\ ).\">\\text{设随机变量} \\, \\lambda \\text{在} 1, 2, 3, 4 \\text{四个整数中等可能地取一个值，另一个随机变量} \\, \\gamma \\text{在} 1 \\sim \\lambda \\text{中等可能地取一整数值，则} \\ P \\{ X = 2 , \\, Y = 1 \\} = ( \\ \\ ).</span>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/probability/ch046/q0001_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\frac { 1 } { 8 }\">\\frac { 1 } { 8 }</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/probability/ch046/q0001_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\frac { 1 } { 4 }\">\\frac { 1 } { 4 }</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/probability/ch046/q0001_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\frac { 1 } { 2 }\">\\frac { 1 } { 2 }</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/probability/ch046/q0001_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"0\">0</span>"
         }
       ],
       "answer": "A",
       "answer_index": 0,
-      "analysis_html": "<img src=\"/static/generated/assets/probability/ch046/q0001_analysis.png\"/>"
+      "analysis_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{aligned} \\text{易知}\\ \\{X=i,\\,Y=j\\} \\text{的取值情况是}i=1,\\,2,\\,3,\\,4,\\ j \\text{取不大于}i \\text{的正整数，且} \\\\ P\\{X=i,\\,Y=j\\} = P\\{Y=j|X=i\\} P\\{X=i\\} = \\frac{1}{i}\\cdot \\frac{1}{4}, \\quad j=1,\\cdots,i,\\ \\ i=1,2,3,4. \\\\ \\text{所以} \\\\ P\\{X=2,\\,Y=1\\} = \\frac{1}{2}\\cdot \\frac{1}{4} = \\frac{1}{8}\\,.\\end{aligned}\">\\begin{aligned} \\text{易知}\\ \\{X=i,\\,Y=j\\} \\text{的取值情况是}i=1,\\,2,\\,3,\\,4,\\ j \\text{取不大于}i \\text{的正整数，且} \\\\ P\\{X=i,\\,Y=j\\} = P\\{Y=j|X=i\\} P\\{X=i\\} = \\frac{1}{i}\\cdot \\frac{1}{4}, \\quad j=1,\\cdots,i,\\ \\ i=1,2,3,4. \\\\ \\text{所以} \\\\ P\\{X=2,\\,Y=1\\} = \\frac{1}{2}\\cdot \\frac{1}{4} = \\frac{1}{8}\\,.\\end{aligned}</div>"
     },
     {
       "id": "q0002",
       "number": 2,
       "header": "#2-Averge",
       "difficulty": "Averge",
-      "prompt_html": "<img src=\"/static/generated/assets/probability/ch046/q0002_prompt.png\"/>",
+      "prompt_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{aligned} \\text{将一枚均匀硬币连抛三次，以}\\zeta\\text{表示在三次中出现正面的次数，以}\\eta\\text{表示在三次中出现的正面次数与反面次数之差的绝对值，则}(\\zeta,\\eta)\\text{的联合分布律为}().\\end{aligned}\">\\begin{aligned} \\text{将一枚均匀硬币连抛三次，以}\\zeta\\text{表示在三次中出现正面的次数，以}\\eta\\text{表示在三次中出现的正面次数与反面次数之差的绝对值，则}(\\zeta,\\eta)\\text{的联合分布律为}().\\end{aligned}</div>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/probability/ch046/q0002_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\begin{array}{l}\n\\begin{array}{|c|c c c c|} \\hline \\eta^{\\zeta} &amp; 0 &amp; 1 &amp; 2 &amp; 3 \\\\ \\hline\n1 &amp; 0 &amp; \\frac{3}{8} &amp; \\frac{3}{8} &amp; 0 \\\\\n3 &amp; \\frac{1}{8} &amp; 0 &amp; 0 &amp; \\frac{1}{8} \\\\ \\hline \\end{array}\n\\end{array}\">\\begin{array}{l}\n\\begin{array}{|c|c c c c|} \\hline \\eta^{\\zeta} &amp; 0 &amp; 1 &amp; 2 &amp; 3 \\\\ \\hline\n1 &amp; 0 &amp; \\frac{3}{8} &amp; \\frac{3}{8} &amp; 0 \\\\\n3 &amp; \\frac{1}{8} &amp; 0 &amp; 0 &amp; \\frac{1}{8} \\\\ \\hline \\end{array}\n\\end{array}</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/probability/ch046/q0002_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\begin{array}{l}\n\\begin{array}{|c|c|c|c|c|} \\hline \\zeta &amp; 0 &amp; 1 &amp; 2 &amp; 3 \\\\ \\hline 1 &amp; \\frac{1}{8} &amp; 0 &amp; 0 &amp; \\frac{1}{8} \\\\ \\hline 3 &amp; 0 &amp; \\frac{3}{8} &amp; \\frac{3}{8} &amp; 0 \\\\ \\hline \\end{array}\n\\end{array}\">\\begin{array}{l}\n\\begin{array}{|c|c|c|c|c|} \\hline \\zeta &amp; 0 &amp; 1 &amp; 2 &amp; 3 \\\\ \\hline 1 &amp; \\frac{1}{8} &amp; 0 &amp; 0 &amp; \\frac{1}{8} \\\\ \\hline 3 &amp; 0 &amp; \\frac{3}{8} &amp; \\frac{3}{8} &amp; 0 \\\\ \\hline \\end{array}\n\\end{array}</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/probability/ch046/q0002_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\begin{array}{l}\n\\begin{array}{|c|c c c c|} \\hline \\eta^{\\zeta} &amp; 0 &amp; 1 &amp; 2 &amp; 3 \\\\ \\hline\n1 &amp; \\frac{1}{8} &amp; 0 &amp; 0 &amp; \\frac{1}{8} \\\\\n3 &amp; 0 &amp; \\frac{3}{8} &amp; \\frac{3}{8} &amp; 0 \\\\ \\hline \\end{array}\n\\end{array}\">\\begin{array}{l}\n\\begin{array}{|c|c c c c|} \\hline \\eta^{\\zeta} &amp; 0 &amp; 1 &amp; 2 &amp; 3 \\\\ \\hline\n1 &amp; \\frac{1}{8} &amp; 0 &amp; 0 &amp; \\frac{1}{8} \\\\\n3 &amp; 0 &amp; \\frac{3}{8} &amp; \\frac{3}{8} &amp; 0 \\\\ \\hline \\end{array}\n\\end{array}</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/probability/ch046/q0002_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\begin{array}{l}\n\\begin{array}{|c|c|c|c|c|} \\hline \\zeta^{\\eta} &amp; 0 &amp; 1 &amp; 2 &amp; 3 \\\\ \\hline\n1 &amp; 0 &amp; \\frac{3}{8} &amp; \\frac{3}{8} &amp; 0 \\\\\n3 &amp; \\frac{1}{8} &amp; 0 &amp; 0 &amp; \\frac{1}{8} \\\\ \\hline \\end{array}\n\\end{array}\">\\begin{array}{l}\n\\begin{array}{|c|c|c|c|c|} \\hline \\zeta^{\\eta} &amp; 0 &amp; 1 &amp; 2 &amp; 3 \\\\ \\hline\n1 &amp; 0 &amp; \\frac{3}{8} &amp; \\frac{3}{8} &amp; 0 \\\\\n3 &amp; \\frac{1}{8} &amp; 0 &amp; 0 &amp; \\frac{1}{8} \\\\ \\hline \\end{array}\n\\end{array}</span>"
         }
       ],
       "answer": "A",
       "answer_index": 0,
-      "analysis_html": "<img src=\"/static/generated/assets/probability/ch046/q0002_analysis.png\"/>"
+      "analysis_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{array}{l}\n\\begin{array}{|c|c|c|} \\hline \\zeta &amp; \\eta=1 &amp; \\eta=3 \\\\ \\hline\n0 &amp; 0 &amp; 1/8 \\\\ \\hline\n1 &amp; 3/8 &amp; 0 \\\\ \\hline\n2 &amp; 3/8 &amp; 0 \\\\ \\hline\n3 &amp; 0 &amp; 1/8 \\\\ \\hline \\end{array}\n\\end{array}\">\\begin{array}{l}\n\\begin{array}{|c|c|c|} \\hline \\zeta &amp; \\eta=1 &amp; \\eta=3 \\\\ \\hline\n0 &amp; 0 &amp; 1/8 \\\\ \\hline\n1 &amp; 3/8 &amp; 0 \\\\ \\hline\n2 &amp; 3/8 &amp; 0 \\\\ \\hline\n3 &amp; 0 &amp; 1/8 \\\\ \\hline \\end{array}\n\\end{array}</div>"
     },
     {
       "id": "q0003",
       "number": 3,
       "header": "#3-Easy",
       "difficulty": "Easy",
-      "prompt_html": "<img src=\"/static/generated/assets/probability/ch046/q0003_prompt.png\"/>",
+      "prompt_html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{在整数}0\\text{至}9\\text{中先取一数}\\xi\\text{后不放回，再取一数}\\eta\\text{，则}(\\xi,\\eta)\\text{的联合分布律为}( ).\">\\text{在整数}0\\text{至}9\\text{中先取一数}\\xi\\text{后不放回，再取一数}\\eta\\text{，则}(\\xi,\\eta)\\text{的联合分布律为}( ).</span>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/probability/ch046/q0003_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\begin{aligned}P\\{\\breve{\\zeta}=i, \\eta=k\\}\\,=\\frac{1}{90},\\;\\;i,k=0,1,\\cdots,9,\\,i\\neq k\\end{aligned}\">\\begin{aligned}P\\{\\breve{\\zeta}=i, \\eta=k\\}\\,=\\frac{1}{90},\\;\\;i,k=0,1,\\cdots,9,\\,i\\neq k\\end{aligned}</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/probability/ch046/q0003_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\begin{aligned}P\\{\\check{\\zeta}=i, \\eta=k\\}=\\frac{1}{100}\\end{aligned}\">\\begin{aligned}P\\{\\check{\\zeta}=i, \\eta=k\\}=\\frac{1}{100}\\end{aligned}</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/probability/ch046/q0003_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\begin{aligned}P\\{\\check{\\zeta}=i, \\eta=k\\}=\\frac{1}{90},\\,\\,\\,i\\neq k\\end{aligned}\">\\begin{aligned}P\\{\\check{\\zeta}=i, \\eta=k\\}=\\frac{1}{90},\\,\\,\\,i\\neq k\\end{aligned}</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/probability/ch046/q0003_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\begin{aligned}P\\{\\xi = i, \\eta = k \\} = \\frac{1}{100},\\, i, k = 0, 1, \\cdots, 9, \\, i \\neq k\\end{aligned}\">\\begin{aligned}P\\{\\xi = i, \\eta = k \\} = \\frac{1}{100},\\, i, k = 0, 1, \\cdots, 9, \\, i \\neq k\\end{aligned}</span>"
         }
       ],
       "answer": "A",
       "answer_index": 0,
-      "analysis_html": "<img src=\"/static/generated/assets/probability/ch046/q0003_analysis.png\"/>"
+      "analysis_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{aligned}P\\{\\xi=i,\\eta=k\\}\\,=\\frac{1}{90},\\,\\,\\,\\,i,k{=}0,1,\\cdots,9,\\,i\\neq k\\end{aligned}\">\\begin{aligned}P\\{\\xi=i,\\eta=k\\}\\,=\\frac{1}{90},\\,\\,\\,\\,i,k{=}0,1,\\cdots,9,\\,i\\neq k\\end{aligned}</div>"
     },
     {
       "id": "q0004",
       "number": 4,
       "header": "#4-Averge",
       "difficulty": "Averge",
-      "prompt_html": "<img src=\"/static/generated/assets/probability/ch046/q0004_prompt.png\"/>",
+      "prompt_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{array}{l}\\text{一射手进行射击，每次是否击中目标是独立的，击中目标的概率为}p(0 &lt; p &lt; 1),\\text{射击进行到击中目标两次为止.}\\\\ \\text{设}\\zeta \\text{表示第一次击中目标时已进行的射击次数，}\\eta \\text{表示第一次命中后再进行的射击次数，则}(\\zeta ,\\eta )\\text{的联合分布律为}().\\end{array}\">\\begin{array}{l}\\text{一射手进行射击，每次是否击中目标是独立的，击中目标的概率为}p(0 &lt; p &lt; 1),\\text{射击进行到击中目标两次为止.}\\\\ \\text{设}\\zeta \\text{表示第一次击中目标时已进行的射击次数，}\\eta \\text{表示第一次命中后再进行的射击次数，则}(\\zeta ,\\eta )\\text{的联合分布律为}().\\end{array}</div>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/probability/ch046/q0004_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\begin{aligned}P\\{\\ddot{\\xi}=m, \\eta=k\\}=p^2q^{m+k-2}\\,,\\,\\,\\,(m=1,2,\\cdots,\\,\\,\\,k=1,2,\\cdots)\\end{aligned}\">\\begin{aligned}P\\{\\ddot{\\xi}=m, \\eta=k\\}=p^2q^{m+k-2}\\,,\\,\\,\\,(m=1,2,\\cdots,\\,\\,\\,k=1,2,\\cdots)\\end{aligned}</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/probability/ch046/q0004_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\begin{aligned}P\\{\\xi = m, \\eta = k \\} = C_{m+k}^2 p^2 q^{m+k-2}\\end{aligned}\">\\begin{aligned}P\\{\\xi = m, \\eta = k \\} = C_{m+k}^2 p^2 q^{m+k-2}\\end{aligned}</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/probability/ch046/q0004_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\begin{array}{l} { r } { P \\{ \\xi = m , \\eta = k \\} = p ^ { 2 } q ^ { m + k - 2 } } \\end{array}\">\\begin{array}{l} { r } { P \\{ \\xi = m , \\eta = k \\} = p ^ { 2 } q ^ { m + k - 2 } } \\end{array}</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/probability/ch046/q0004_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\begin{aligned}P\\{\\xi = m, \\eta = k \\} = C_{m + k}^2 p^2 q^{m + k - 2}, \\;\\; (m = 1, 2, \\cdots , \\;\\; k = 1, 2, \\cdots )\\end{aligned}\">\\begin{aligned}P\\{\\xi = m, \\eta = k \\} = C_{m + k}^2 p^2 q^{m + k - 2}, \\;\\; (m = 1, 2, \\cdots , \\;\\; k = 1, 2, \\cdots )\\end{aligned}</span>"
         }
       ],
       "answer": "A",
       "answer_index": 0,
-      "analysis_html": "<img src=\"/static/generated/assets/probability/ch046/q0004_analysis.png\"/>"
+      "analysis_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{aligned}\\text{记}\\xi = m \\text{表示第}m\\text{次射击首次击中目标},\\ \\eta = k \\text{表示第}m+k\\text{次射击第二次击中目标},\\ q=1-p\\ ,\\ \\text{根据伯努利定理，有}\\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\end{aligned}\">\\begin{aligned}\\text{记}\\xi = m \\text{表示第}m\\text{次射击首次击中目标},\\ \\eta = k \\text{表示第}m+k\\text{次射击第二次击中目标},\\ q=1-p\\ ,\\ \\text{根据伯努利定理，有}\\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\end{aligned}</div>"
     },
     {
       "id": "q0005",
       "number": 5,
       "header": "#5-Easy",
       "difficulty": "Easy",
-      "prompt_html": "<img src=\"/static/generated/assets/probability/ch046/q0005_prompt.png\"/>",
+      "prompt_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\xi = \\begin{cases} 0, &amp; \\text{若第一次取得正品} \\\\ 1, &amp; \\text{若第一次取得次品} \\end{cases}, \\quad \\eta = \\begin{cases} 0, &amp; \\text{若第二次取得正品} \\\\ 1, &amp; \\text{若第二次取得次品} \\end{cases},\">\\xi = \\begin{cases} 0, &amp; \\text{若第一次取得正品} \\\\ 1, &amp; \\text{若第一次取得次品} \\end{cases}, \\quad \\eta = \\begin{cases} 0, &amp; \\text{若第二次取得正品} \\\\ 1, &amp; \\text{若第二次取得次品} \\end{cases},</div>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/probability/ch046/q0005_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\begin{array}{l}\n\\begin{array}{|c|c|c|} \\hline \\zeta \\setminus \\eta &amp; 0 &amp; 1 \\\\ \\hline\n0 &amp; \\frac{25}{36} &amp; \\frac{5}{36} \\\\\n1 &amp; \\frac{5}{36} &amp; \\frac{1}{36} \\\\ \\hline \\end{array}\n\\end{array}\">\\begin{array}{l}\n\\begin{array}{|c|c|c|} \\hline \\zeta \\setminus \\eta &amp; 0 &amp; 1 \\\\ \\hline\n0 &amp; \\frac{25}{36} &amp; \\frac{5}{36} \\\\\n1 &amp; \\frac{5}{36} &amp; \\frac{1}{36} \\\\ \\hline \\end{array}\n\\end{array}</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/probability/ch046/q0005_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\begin{array}{l}\n\\begin{array}{|c|c|c|} \\hline \\zeta &amp; 0 &amp; 1 \\\\ \\hline\n0 &amp; \\frac{1}{66} &amp; \\frac{5}{33} \\\\\n1 &amp; \\frac{5}{33} &amp; \\frac{15}{22} \\\\ \\hline \\end{array}\n\\end{array}\">\\begin{array}{l}\n\\begin{array}{|c|c|c|} \\hline \\zeta &amp; 0 &amp; 1 \\\\ \\hline\n0 &amp; \\frac{1}{66} &amp; \\frac{5}{33} \\\\\n1 &amp; \\frac{5}{33} &amp; \\frac{15}{22} \\\\ \\hline \\end{array}\n\\end{array}</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/probability/ch046/q0005_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\begin{array}{l}\n\\begin{array}{|c|c|c|} \\hline \\zeta &amp; \\eta &amp; 0 &amp; 1 \\\\ \\hline\n0 &amp; \\frac{15}{22} &amp; \\frac{5}{33} \\\\\n1 &amp; \\frac{5}{33} &amp; \\frac{1}{66} \\\\ \\hline \\end{array}\n\\end{array}\">\\begin{array}{l}\n\\begin{array}{|c|c|c|} \\hline \\zeta &amp; \\eta &amp; 0 &amp; 1 \\\\ \\hline\n0 &amp; \\frac{15}{22} &amp; \\frac{5}{33} \\\\\n1 &amp; \\frac{5}{33} &amp; \\frac{1}{66} \\\\ \\hline \\end{array}\n\\end{array}</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/probability/ch046/q0005_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\begin{array}{l}\n\\begin{array}{|c|c c|} \\hline \\zeta\\setminus \\eta &amp; 0 &amp; 1 \\\\ \\hline 0 &amp; 1/36 &amp; 5/36 \\\\ 1 &amp; 5/36 &amp; 25/36 \\\\ \\hline \\end{array}\n\\end{array}\">\\begin{array}{l}\n\\begin{array}{|c|c c|} \\hline \\zeta\\setminus \\eta &amp; 0 &amp; 1 \\\\ \\hline 0 &amp; 1/36 &amp; 5/36 \\\\ 1 &amp; 5/36 &amp; 25/36 \\\\ \\hline \\end{array}\n\\end{array}</span>"
         }
       ],
       "answer": "A",
       "answer_index": 0,
-      "analysis_html": "<img src=\"/static/generated/assets/probability/ch046/q0005_analysis.png\"/>"
+      "analysis_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{array}{l}\n\\begin{array}{|c|c|c|} \\hline \\xi &amp; \\eta=0 &amp; \\eta=1 \\\\ \\hline\n0 &amp; \\frac{25}{36} &amp; \\frac{5}{36} \\\\ \\hline\n1 &amp; \\frac{5}{36} &amp; \\frac{1}{36} \\\\ \\hline \\end{array}\n\\end{array}\">\\begin{array}{l}\n\\begin{array}{|c|c|c|} \\hline \\xi &amp; \\eta=0 &amp; \\eta=1 \\\\ \\hline\n0 &amp; \\frac{25}{36} &amp; \\frac{5}{36} \\\\ \\hline\n1 &amp; \\frac{5}{36} &amp; \\frac{1}{36} \\\\ \\hline \\end{array}\n\\end{array}</div>"
     },
     {
       "id": "q0006",
       "number": 6,
       "header": "#6-Easy",
       "difficulty": "Easy",
-      "prompt_html": "<img src=\"/static/generated/assets/probability/ch046/q0006_prompt.png\"/>",
+      "prompt_html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{将一个均匀对称的骰子连掷两次，用} \\zeta \\text{表示第一次出现的点数，} \\eta \\text{表示第二次出现的点数，求} (\\zeta , \\eta ) \\text{的联合分布律}().\">\\text{将一个均匀对称的骰子连掷两次，用} \\zeta \\text{表示第一次出现的点数，} \\eta \\text{表示第二次出现的点数，求} (\\zeta , \\eta ) \\text{的联合分布律}().</span>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/probability/ch046/q0006_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\begin{aligned}P\\bigl\\{\\xi = i, \\eta = j \\bigr\\} = \\frac{1}{36}\\,,\\;\\;(i,\\,j=1,2,\\cdots,6)\\end{aligned}\">\\begin{aligned}P\\bigl\\{\\xi = i, \\eta = j \\bigr\\} = \\frac{1}{36}\\,,\\;\\;(i,\\,j=1,2,\\cdots,6)\\end{aligned}</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/probability/ch046/q0006_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\begin{aligned}P\\bigl\\{\\xi = i, \\eta = j \\bigr\\} = \\frac{1}{30}\\; , \\;\\; (i,\\; j = 1, 2, \\cdots, 6)\\end{aligned}\">\\begin{aligned}P\\bigl\\{\\xi = i, \\eta = j \\bigr\\} = \\frac{1}{30}\\; , \\;\\; (i,\\; j = 1, 2, \\cdots, 6)\\end{aligned}</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/probability/ch046/q0006_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"P\\bigl\\{\\zeta = i, \\eta = j \\bigr\\} = \\frac{1}{36}\">P\\bigl\\{\\zeta = i, \\eta = j \\bigr\\} = \\frac{1}{36}</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/probability/ch046/q0006_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\begin{aligned}P\\bigl\\{\\xi = i, \\eta = j \\bigr\\} = \\frac{1}{30}\\end{aligned}\">\\begin{aligned}P\\bigl\\{\\xi = i, \\eta = j \\bigr\\} = \\frac{1}{30}\\end{aligned}</span>"
         }
       ],
       "answer": "A",
       "answer_index": 0,
-      "analysis_html": "<img src=\"/static/generated/assets/probability/ch046/q0006_analysis.png\"/>"
+      "analysis_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{aligned}P\\{\\xi=i,\\eta=j\\}=\\frac{1}{36}\\,,\\ (i,\\,j=1,2,\\cdots,6)\\,.\\end{aligned}\">\\begin{aligned}P\\{\\xi=i,\\eta=j\\}=\\frac{1}{36}\\,,\\ (i,\\,j=1,2,\\cdots,6)\\,.\\end{aligned}</div>"
     },
     {
       "id": "q0007",
       "number": 7,
       "header": "#7-Averge",
       "difficulty": "Averge",
-      "prompt_html": "<img src=\"/static/generated/assets/probability/ch046/q0007_prompt.png\"/>",
+      "prompt_html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{掷两颗均匀骰子，}\\zeta \\text{与}\\eta \\text{分别表示第一和第二颗骰子所出现点，则}P\\{\\zeta = \\eta \\} = ( )\\,.\">\\text{掷两颗均匀骰子，}\\zeta \\text{与}\\eta \\text{分别表示第一和第二颗骰子所出现点，则}P\\{\\zeta = \\eta \\} = ( )\\,.</span>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/probability/ch046/q0007_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\frac { 1 } { 6 }\">\\frac { 1 } { 6 }</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/probability/ch046/q0007_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\frac { 2 } { 5 }\">\\frac { 2 } { 5 }</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/probability/ch046/q0007_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\frac { 1 } { 3 }\">\\frac { 1 } { 3 }</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/probability/ch046/q0007_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\frac { 1 } { 5 }\">\\frac { 1 } { 5 }</span>"
         }
       ],
       "answer": "A",
       "answer_index": 0,
-      "analysis_html": "<img src=\"/static/generated/assets/probability/ch046/q0007_analysis.png\"/>"
+      "analysis_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{aligned}P\\{\\xi^{\\xi}=\\eta\\}&amp;=P\\{\\xi=\\eta=1\\}+P\\{\\xi=\\eta=2\\}+\\cdots+P\\{\\xi=\\eta=6\\}\\\\&amp;=P\\{\\xi=1\\}P\\{\\eta=1\\}+P\\{\\xi=2\\}P\\{\\eta=2\\}+\\cdots+P\\{\\xi=6\\}P\\{\\eta=6\\}\\\\&amp;=\\frac{1}{6}\\times \\frac{1}{6}+\\cdots+\\frac{1}{6}\\times \\frac{1}{6}=\\frac{1}{36}\\times 6=\\frac{1}{6}\\,.\\end{aligned}\">\\begin{aligned}P\\{\\xi^{\\xi}=\\eta\\}&amp;=P\\{\\xi=\\eta=1\\}+P\\{\\xi=\\eta=2\\}+\\cdots+P\\{\\xi=\\eta=6\\}\\\\&amp;=P\\{\\xi=1\\}P\\{\\eta=1\\}+P\\{\\xi=2\\}P\\{\\eta=2\\}+\\cdots+P\\{\\xi=6\\}P\\{\\eta=6\\}\\\\&amp;=\\frac{1}{6}\\times \\frac{1}{6}+\\cdots+\\frac{1}{6}\\times \\frac{1}{6}=\\frac{1}{36}\\times 6=\\frac{1}{6}\\,.\\end{aligned}</div>"
     },
     {
       "id": "q0008",
       "number": 8,
       "header": "#8-Averge",
       "difficulty": "Averge",
-      "prompt_html": "<img src=\"/static/generated/assets/probability/ch046/q0008_prompt.png\"/>",
+      "prompt_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\xi = \\begin{cases} 0, \\text{若第一次取得正品} \\\\ 1, \\text{若第一次取得次品} \\end{cases}, \\quad \\eta = \\begin{cases} 0, \\text{若第二次取得正品} \\\\ 1, \\text{若第二次取得次品} \\end{cases},\">\\xi = \\begin{cases} 0, \\text{若第一次取得正品} \\\\ 1, \\text{若第一次取得次品} \\end{cases}, \\quad \\eta = \\begin{cases} 0, \\text{若第二次取得正品} \\\\ 1, \\text{若第二次取得次品} \\end{cases},</div>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/probability/ch046/q0008_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\begin{array}{l}\n\\begin{array}{|c|c|c|} \\hline \\zeta \\setminus \\eta &amp; 0 &amp; 1 \\\\ \\hline\n0 &amp; \\frac{15}{22} &amp; \\frac{5}{33} \\\\\n1 &amp; \\frac{5}{33} &amp; \\frac{1}{66} \\\\ \\hline \\end{array}\n\\end{array}\">\\begin{array}{l}\n\\begin{array}{|c|c|c|} \\hline \\zeta \\setminus \\eta &amp; 0 &amp; 1 \\\\ \\hline\n0 &amp; \\frac{15}{22} &amp; \\frac{5}{33} \\\\\n1 &amp; \\frac{5}{33} &amp; \\frac{1}{66} \\\\ \\hline \\end{array}\n\\end{array}</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/probability/ch046/q0008_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\begin{array}{l}\n\\begin{array}{|c|c|c|} \\hline \\zeta &amp; 0 &amp; 1 \\\\ \\hline\n0 &amp; \\frac{1}{66} &amp; \\frac{5}{33} \\\\\n1 &amp; \\frac{5}{33} &amp; \\frac{15}{22} \\\\ \\hline \\end{array}\n\\end{array}\">\\begin{array}{l}\n\\begin{array}{|c|c|c|} \\hline \\zeta &amp; 0 &amp; 1 \\\\ \\hline\n0 &amp; \\frac{1}{66} &amp; \\frac{5}{33} \\\\\n1 &amp; \\frac{5}{33} &amp; \\frac{15}{22} \\\\ \\hline \\end{array}\n\\end{array}</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/probability/ch046/q0008_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\begin{array}{l}\n\\begin{array}{|c|c|c|} \\hline \\zeta &amp; 0 &amp; 1 \\\\ \\hline\n0 &amp; \\frac{1}{36} &amp; \\frac{5}{36} \\\\\n1 &amp; \\frac{5}{36} &amp; \\frac{25}{36} \\\\ \\hline \\end{array}\n\\end{array}\">\\begin{array}{l}\n\\begin{array}{|c|c|c|} \\hline \\zeta &amp; 0 &amp; 1 \\\\ \\hline\n0 &amp; \\frac{1}{36} &amp; \\frac{5}{36} \\\\\n1 &amp; \\frac{5}{36} &amp; \\frac{25}{36} \\\\ \\hline \\end{array}\n\\end{array}</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/probability/ch046/q0008_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\begin{array}{l}\n\\begin{array}{|c|c|c|} \\hline \\zeta \\setminus \\eta &amp; 0 &amp; 1 \\\\ \\hline\n0 &amp; \\frac{25}{36} &amp; \\frac{5}{36} \\\\\n1 &amp; \\frac{5}{36} &amp; \\frac{1}{36} \\\\ \\hline \\end{array}\n\\end{array}\">\\begin{array}{l}\n\\begin{array}{|c|c|c|} \\hline \\zeta \\setminus \\eta &amp; 0 &amp; 1 \\\\ \\hline\n0 &amp; \\frac{25}{36} &amp; \\frac{5}{36} \\\\\n1 &amp; \\frac{5}{36} &amp; \\frac{1}{36} \\\\ \\hline \\end{array}\n\\end{array}</span>"
         }
       ],
       "answer": "A",
       "answer_index": 0,
-      "analysis_html": "<img src=\"/static/generated/assets/probability/ch046/q0008_analysis.png\"/>"
+      "analysis_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{aligned} \\text{根据题设}(\\xi,\\eta)\\text{可能取值为}(0,0),\\ (0,1),\\ (1,0),\\ (1,1)\\text{。又根据古典概率有，总体共有}12\\times 11\\text{种取法};\\\\ (0,0)\\text{共有}10\\times 9\\text{种};\\ (0,1)\\text{与}(1,0)\\text{种类相同，都为}10\\times 2\\text{};\\ (1,1)\\text{的种类为}2\\times 1\\text{。由古典概型，有} \\end{aligned}\">\\begin{aligned} \\text{根据题设}(\\xi,\\eta)\\text{可能取值为}(0,0),\\ (0,1),\\ (1,0),\\ (1,1)\\text{。又根据古典概率有，总体共有}12\\times 11\\text{种取法};\\\\ (0,0)\\text{共有}10\\times 9\\text{种};\\ (0,1)\\text{与}(1,0)\\text{种类相同，都为}10\\times 2\\text{};\\ (1,1)\\text{的种类为}2\\times 1\\text{。由古典概型，有} \\end{aligned}</div>"
     },
     {
       "id": "q0009",
       "number": 9,
       "header": "#9-Hard",
       "difficulty": "Hard",
-      "prompt_html": "<img src=\"/static/generated/assets/probability/ch046/q0009_prompt.png\"/>",
+      "prompt_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{array}{l} \\text {袋中有} N \\text {个球，其中} a \\text {个红球，} b \\text {个白球，} c \\text {个黑球} (a + b + c = N) \\text {每次从袋中任取一个球，取后不放回，共取} n \\text {次，设随机变量} \\xi \\text {及} \\eta \\text {分别表示取出的} n \\text {个球中红球及白球的个数，并设} n \\leq N, \\text {则} (\\xi , \\eta) \\text {的联合分布律为}() . \\end{array}\">\\begin{array}{l} \\text {袋中有} N \\text {个球，其中} a \\text {个红球，} b \\text {个白球，} c \\text {个黑球} (a + b + c = N) \\text {每次从袋中任取一个球，取后不放回，共取} n \\text {次，设随机变量} \\xi \\text {及} \\eta \\text {分别表示取出的} n \\text {个球中红球及白球的个数，并设} n \\leq N, \\text {则} (\\xi , \\eta) \\text {的联合分布律为}() . \\end{array}</div>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/probability/ch046/q0009_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\begin{array}{l}P\\{\\xi=i,\\eta=j\\}=\\frac{C_{a}^{i}\\cdot C_{b}^{j}\\cdot C_{c}^{n-i-j}}{C_{N}^{n}}\\,,\\,\\,\\,(i=0,1,2,\\cdots,a\\,,\\,\\,\\,j=0,1,2,\\cdots,b\\,,\\,\\,\\,i+j\\leq n)\\end{array}\">\\begin{array}{l}P\\{\\xi=i,\\eta=j\\}=\\frac{C_{a}^{i}\\cdot C_{b}^{j}\\cdot C_{c}^{n-i-j}}{C_{N}^{n}}\\,,\\,\\,\\,(i=0,1,2,\\cdots,a\\,,\\,\\,\\,j=0,1,2,\\cdots,b\\,,\\,\\,\\,i+j\\leq n)\\end{array}</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/probability/ch046/q0009_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\begin{aligned}P\\bigl\\{\\xi=i,\\eta=j\\bigr\\}=\\frac{C_{a}^{i}\\cdot C_{b}^{j}}{C_{N}^{n}}\\end{aligned}\">\\begin{aligned}P\\bigl\\{\\xi=i,\\eta=j\\bigr\\}=\\frac{C_{a}^{i}\\cdot C_{b}^{j}}{C_{N}^{n}}\\end{aligned}</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/probability/ch046/q0009_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\begin{aligned}P\\bigl\\{\\xi=i,\\eta=j\\bigr\\}=\\frac{C_{a}^{i}\\cdot C_{b}^{j}\\cdot C_{c}^{n-i-j}}{C_{N}^{n}}\\end{aligned}\">\\begin{aligned}P\\bigl\\{\\xi=i,\\eta=j\\bigr\\}=\\frac{C_{a}^{i}\\cdot C_{b}^{j}\\cdot C_{c}^{n-i-j}}{C_{N}^{n}}\\end{aligned}</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/probability/ch046/q0009_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\begin{aligned}P\\bigl\\{\\xi=i,\\eta=j\\bigr\\}=\\frac{C_{a}^{\\prime}\\cdot C_{b}^{\\prime}}{C_{N}^{\\prime}}\\;,\\;\\;(i=0,1,2,\\cdots,a\\;,\\;\\;j=0,1,2,\\cdots,b\\;,\\;\\;i+j\\leq n)\\end{aligned}\">\\begin{aligned}P\\bigl\\{\\xi=i,\\eta=j\\bigr\\}=\\frac{C_{a}^{\\prime}\\cdot C_{b}^{\\prime}}{C_{N}^{\\prime}}\\;,\\;\\;(i=0,1,2,\\cdots,a\\;,\\;\\;j=0,1,2,\\cdots,b\\;,\\;\\;i+j\\leq n)\\end{aligned}</span>"
         }
       ],
       "answer": "A",
       "answer_index": 0,
-      "analysis_html": "<img src=\"/static/generated/assets/probability/ch046/q0009_analysis.png\"/>"
+      "analysis_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{aligned}\\text{设抽取的}n \\text{个球中有}i \\text{红球，}j \\text{白球，}k \\text{黑球，}i+j+k=n,\\text{根据排列组合公式，此时共有}C_{a}C_{b}C_{c}^{n}(i+j+k=n)\\text{种取法，又总体的取法为}C_{n}^{n},\\text{结合古典概率定义有} \\\\P\\{\\xi=i,\\eta=j\\}=\\frac{C_{a}C_{b}C_{c}^{n-i-j}}{C_{n}^{n}},\\ (i=0,1,2,\\cdots,a,\\ j=0,1,2,\\cdots,b,\\ i+j\\leq n)\\,.\\end{aligned}\">\\begin{aligned}\\text{设抽取的}n \\text{个球中有}i \\text{红球，}j \\text{白球，}k \\text{黑球，}i+j+k=n,\\text{根据排列组合公式，此时共有}C_{a}C_{b}C_{c}^{n}(i+j+k=n)\\text{种取法，又总体的取法为}C_{n}^{n},\\text{结合古典概率定义有} \\\\P\\{\\xi=i,\\eta=j\\}=\\frac{C_{a}C_{b}C_{c}^{n-i-j}}{C_{n}^{n}},\\ (i=0,1,2,\\cdots,a,\\ j=0,1,2,\\cdots,b,\\ i+j\\leq n)\\,.\\end{aligned}</div>"
     },
     {
       "id": "q0010",
       "number": 10,
       "header": "#10-Easy",
       "difficulty": "Easy",
-      "prompt_html": "<img src=\"/static/generated/assets/probability/ch046/q0010_prompt.png\"/>",
+      "prompt_html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{在元旦茶话会上，每人发给一袋水果，内装3只橘子，2只苹果，3只香蕉. 今从袋中随机抽出4只，以} X \\text{记橘子数，} Y \\text{记苹果数，则} P\\{X=2,Y=1\\}=( ).\">\\text{在元旦茶话会上，每人发给一袋水果，内装3只橘子，2只苹果，3只香蕉. 今从袋中随机抽出4只，以} X \\text{记橘子数，} Y \\text{记苹果数，则} P\\{X=2,Y=1\\}=( ).</span>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/probability/ch046/q0010_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\frac { 18 } { 70 }\">\\frac { 18 } { 70 }</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/probability/ch046/q0010_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\frac { 3 } { 70 }\">\\frac { 3 } { 70 }</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/probability/ch046/q0010_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\frac { 9 } { 70 }\">\\frac { 9 } { 70 }</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/probability/ch046/q0010_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\frac { 2 } { 70 }\">\\frac { 2 } { 70 }</span>"
         }
       ],
       "answer": "A",
       "answer_index": 0,
-      "analysis_html": "<img src=\"/static/generated/assets/probability/ch046/q0010_analysis.png\"/>"
+      "analysis_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{aligned}P\\{X=2,\\;Y=1\\}=C_3^2C_2^1C_3^1/C_8^4=18/70,\\end{aligned}\">\\begin{aligned}P\\{X=2,\\;Y=1\\}=C_3^2C_2^1C_3^1/C_8^4=18/70,\\end{aligned}</div>"
     },
     {
       "id": "q0011",
       "number": 11,
       "header": "#11-Averge",
       "difficulty": "Averge",
-      "prompt_html": "<img src=\"/static/generated/assets/probability/ch046/q0011_prompt.png\"/>",
+      "prompt_html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{一项试验成功的概率为} \\, p(0 &lt; p &lt; 1) \\, , \\, \\text{失败的概率为} \\, 1 - p \\, . \\, \\text{独立重复该项试验，直至第三次成功为止．以} X \\text{表示第一次成功之前失败的试验次数，} Y \\text{表示试验总次数，则} X \\text{与} Y \\text{的联合分布律} \\, P\\{X = i, Y = j\\} = (\\, ) \\, .\">\\text{一项试验成功的概率为} \\, p(0 &lt; p &lt; 1) \\, , \\, \\text{失败的概率为} \\, 1 - p \\, . \\, \\text{独立重复该项试验，直至第三次成功为止．以} X \\text{表示第一次成功之前失败的试验次数，} Y \\text{表示试验总次数，则} X \\text{与} Y \\text{的联合分布律} \\, P\\{X = i, Y = j\\} = (\\, ) \\, .</span>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/probability/ch046/q0011_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\begin{aligned}C_{j-i-2}^1 p^3 (1-p)^{j-3},\\, i=0,1,2,\\cdots ,j=i+2, i+3, \\cdots\\end{aligned}\">\\begin{aligned}C_{j-i-2}^1 p^3 (1-p)^{j-3},\\, i=0,1,2,\\cdots ,j=i+2, i+3, \\cdots\\end{aligned}</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/probability/ch046/q0011_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\begin{aligned}C_{j-1}^2 p^3 (1-p)^{j-3}, j=2,3,\\cdots\\end{aligned}\">\\begin{aligned}C_{j-1}^2 p^3 (1-p)^{j-3}, j=2,3,\\cdots\\end{aligned}</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/probability/ch046/q0011_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\begin{aligned}C_{j-i-1}^1 p^3 (1-p)^{i-3},\\, i=1,2,\\cdots, j=i+2, i+3, \\cdots\\end{aligned}\">\\begin{aligned}C_{j-i-1}^1 p^3 (1-p)^{i-3},\\, i=1,2,\\cdots, j=i+2, i+3, \\cdots\\end{aligned}</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/probability/ch046/q0011_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\begin{array}{l} { r } { p ^ { 3 } ( 1 - p ) ^ { j - 3 } , \\, j { = } 2 , 3 , \\cdots } \\end{array}\">\\begin{array}{l} { r } { p ^ { 3 } ( 1 - p ) ^ { j - 3 } , \\, j { = } 2 , 3 , \\cdots } \\end{array}</span>"
         }
       ],
       "answer": "A",
       "answer_index": 0,
-      "analysis_html": "<img src=\"/static/generated/assets/probability/ch046/q0011_analysis.png\"/>"
+      "analysis_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{aligned}\\text{依题意，根据伯努利定理，有}\\quad\\\\P\\{X=i,Y=j\\}=\\bigl[(1-p)^{i}p\\bigr]\\cdot\\bigl[C_{j-i-2}^{1}p(1-p)^{(j-i-2)-1}\\bigr]p=C_{j-i-2}^{1}p^{3}(1-p)^{j-3},\\,i=0,1,2,\\cdots,j=i+2,i+3,\\cdots.\\end{aligned}\">\\begin{aligned}\\text{依题意，根据伯努利定理，有}\\quad\\\\P\\{X=i,Y=j\\}=\\bigl[(1-p)^{i}p\\bigr]\\cdot\\bigl[C_{j-i-2}^{1}p(1-p)^{(j-i-2)-1}\\bigr]p=C_{j-i-2}^{1}p^{3}(1-p)^{j-3},\\,i=0,1,2,\\cdots,j=i+2,i+3,\\cdots.\\end{aligned}</div>"
     },
     {
       "id": "q0012",
       "number": 12,
       "header": "#12-Easy",
       "difficulty": "Easy",
-      "prompt_html": "<img src=\"/static/generated/assets/probability/ch046/q0012_prompt.png\"/>",
+      "prompt_html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{抛一枚硬币三次，} \\zeta \\text{和} \\eta \\text{分别表示出现正面次数和出现反面次数，则} P\\{\\zeta &gt; \\eta \\} = ( ).\">\\text{抛一枚硬币三次，} \\zeta \\text{和} \\eta \\text{分别表示出现正面次数和出现反面次数，则} P\\{\\zeta &gt; \\eta \\} = ( ).</span>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/probability/ch046/q0012_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\frac { 1 } { 2 }\">\\frac { 1 } { 2 }</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/probability/ch046/q0012_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\frac { 2 } { 3 }\">\\frac { 2 } { 3 }</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/probability/ch046/q0012_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\frac { 1 } { 3 }\">\\frac { 1 } { 3 }</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/probability/ch046/q0012_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\frac { 1 } { 4 }\">\\frac { 1 } { 4 }</span>"
         }
       ],
       "answer": "A",
       "answer_index": 0,
-      "analysis_html": "<img src=\"/static/generated/assets/probability/ch046/q0012_analysis.png\"/>"
+      "analysis_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{array}{l}\n\\begin{array}{|c|c|c|c|c|} \\hline  &amp; 0 &amp; 1 &amp; 2 &amp; 3 \\\\ \\hline 0 &amp; 0 &amp; 0 &amp; 0 &amp; 1/8 \\\\ 1 &amp; 0 &amp; 0 &amp; 3/8 &amp; 0 \\\\ 2 &amp; 0 &amp; 3/8 &amp; 0 &amp; 0 \\\\ 3 &amp; 1/8 &amp; 0 &amp; 0 &amp; 0 \\\\ \\hline \\end{array} \\text{于是} \n\\begin{array}{l} P\\{\\xi&gt;\\eta\\}=P\\{\\xi=3,\\eta=0\\}+P\\{\\xi=2,\\eta=1\\}=\\frac{1}{2}\\,.\\end{array}\\end{array}\">\\begin{array}{l}\n\\begin{array}{|c|c|c|c|c|} \\hline  &amp; 0 &amp; 1 &amp; 2 &amp; 3 \\\\ \\hline 0 &amp; 0 &amp; 0 &amp; 0 &amp; 1/8 \\\\ 1 &amp; 0 &amp; 0 &amp; 3/8 &amp; 0 \\\\ 2 &amp; 0 &amp; 3/8 &amp; 0 &amp; 0 \\\\ 3 &amp; 1/8 &amp; 0 &amp; 0 &amp; 0 \\\\ \\hline \\end{array} \\text{于是} \n\\begin{array}{l} P\\{\\xi&gt;\\eta\\}=P\\{\\xi=3,\\eta=0\\}+P\\{\\xi=2,\\eta=1\\}=\\frac{1}{2}\\,.\\end{array}\\end{array}</div>"
     },
     {
       "id": "q0013",
       "number": 13,
       "header": "#13-Averge",
       "difficulty": "Averge",
-      "prompt_html": "<img src=\"/static/generated/assets/probability/ch046/q0013_prompt.png\"/>",
+      "prompt_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{array}{l} \\text {箱内有} 6 \\text {个球，其中红、白、黑球的个数分别为} 1、2、3 \\text {个. 现从箱中随机地取出} 2 \\text {个球，设} X \\text {为取出的红球个数，} Y \\text {为取出的白球个数，则随机变量} (X,Y) \\text {的概率分布为} (\\text {.}) \\end{array}\">\\begin{array}{l} \\text {箱内有} 6 \\text {个球，其中红、白、黑球的个数分别为} 1、2、3 \\text {个. 现从箱中随机地取出} 2 \\text {个球，设} X \\text {为取出的红球个数，} Y \\text {为取出的白球个数，则随机变量} (X,Y) \\text {的概率分布为} (\\text {.}) \\end{array}</div>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/probability/ch046/q0013_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\begin{array}{l}\n\\begin{array}{|c|c c c|} \\hline X\\backslash Y &amp; 0 &amp; 1 &amp; 2 \\\\ \\hline\n0 &amp; \\frac{1}{5} &amp; \\frac{2}{5} &amp; \\frac{1}{15} \\\\\n1 &amp; \\frac{1}{5} &amp; \\frac{2}{15} &amp; 0 \\\\ \\hline \\end{array}\n\\end{array}\">\\begin{array}{l}\n\\begin{array}{|c|c c c|} \\hline X\\backslash Y &amp; 0 &amp; 1 &amp; 2 \\\\ \\hline\n0 &amp; \\frac{1}{5} &amp; \\frac{2}{5} &amp; \\frac{1}{15} \\\\\n1 &amp; \\frac{1}{5} &amp; \\frac{2}{15} &amp; 0 \\\\ \\hline \\end{array}\n\\end{array}</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/probability/ch046/q0013_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\begin{array}{l}\n\\begin{array}{|c|c c c|} \\hline X\\backslash Y &amp; 0 &amp; 1 &amp; 2 \\\\ \\hline\n0 &amp; \\dfrac{2}{5} &amp; \\dfrac{1}{5} &amp; \\dfrac{1}{15} \\\\\n1 &amp; \\dfrac{1}{5} &amp; \\dfrac{2}{15} &amp; \\dfrac{1}{5} \\\\ \\hline \\end{array}\n\\end{array}\">\\begin{array}{l}\n\\begin{array}{|c|c c c|} \\hline X\\backslash Y &amp; 0 &amp; 1 &amp; 2 \\\\ \\hline\n0 &amp; \\dfrac{2}{5} &amp; \\dfrac{1}{5} &amp; \\dfrac{1}{15} \\\\\n1 &amp; \\dfrac{1}{5} &amp; \\dfrac{2}{15} &amp; \\dfrac{1}{5} \\\\ \\hline \\end{array}\n\\end{array}</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/probability/ch046/q0013_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\begin{array}{l}\n\\begin{array}{|c|c c c|} \\hline X\\backslash Y &amp; 0 &amp; 1 &amp; 2 \\\\ \\hline\n0 &amp; \\frac{1}{5} &amp; \\frac{2}{5} &amp; \\frac{1}{15} \\\\\n1 &amp; \\frac{1}{5} &amp; \\frac{1}{5} &amp; 0 \\\\ \\hline \\end{array}\n\\end{array}\">\\begin{array}{l}\n\\begin{array}{|c|c c c|} \\hline X\\backslash Y &amp; 0 &amp; 1 &amp; 2 \\\\ \\hline\n0 &amp; \\frac{1}{5} &amp; \\frac{2}{5} &amp; \\frac{1}{15} \\\\\n1 &amp; \\frac{1}{5} &amp; \\frac{1}{5} &amp; 0 \\\\ \\hline \\end{array}\n\\end{array}</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/probability/ch046/q0013_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\begin{array}{l}\n\\begin{array}{|c|c c c|} \\hline X\\backslash Y &amp; 0 &amp; 1 &amp; 2 \\\\ \\hline\n0 &amp; \\frac{1}{5} &amp; \\frac{2}{5} &amp; \\frac{1}{15} \\\\\n1 &amp; \\frac{1}{5} &amp; \\frac{1}{15} &amp; \\frac{1}{15} \\\\ \\hline \\end{array}\n\\end{array}\">\\begin{array}{l}\n\\begin{array}{|c|c c c|} \\hline X\\backslash Y &amp; 0 &amp; 1 &amp; 2 \\\\ \\hline\n0 &amp; \\frac{1}{5} &amp; \\frac{2}{5} &amp; \\frac{1}{15} \\\\\n1 &amp; \\frac{1}{5} &amp; \\frac{1}{15} &amp; \\frac{1}{15} \\\\ \\hline \\end{array}\n\\end{array}</span>"
         }
       ],
       "answer": "A",
       "answer_index": 0,
-      "analysis_html": "<img src=\"/static/generated/assets/probability/ch046/q0013_analysis.png\"/>"
+      "analysis_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{aligned} \\text{由题意知，}(X,Y) \\text{的可能取值为} (0,0)，(0,1)，(0,2)，(1,0)，(1,1)，\\text{其对应的概率分布为} \\\\ P\\{X=0,Y=0\\} = \\frac{C_1^0 C_2^0 C_3^2}{C_6^2} = 1/5,\\quad P\\{X=0,Y=1\\} = \\frac{C_1^0 C_2^1 C_3^1}{C_6^2} = 2/5, \\\\ P\\{X=0,Y=2\\} = \\frac{C_1^0 C_2^2 C_3^0}{C_6^2} = 1/15, \\\\ P\\{X=1,Y=0\\} = \\frac{C_1^1 C_2^0 C_3^1}{C_6^2} = 1/5,\\quad P\\{X=1,Y=1\\} = \\frac{C_1^1 C_2^1 C_3^0}{C_6^2} = 2/15,\\quad P\\{X=1,Y=2\\} = P\\{\\varnothing\\} = 0. \\\\ \\text{即} \\end{aligned}\">\\begin{aligned} \\text{由题意知，}(X,Y) \\text{的可能取值为} (0,0)，(0,1)，(0,2)，(1,0)，(1,1)，\\text{其对应的概率分布为} \\\\ P\\{X=0,Y=0\\} = \\frac{C_1^0 C_2^0 C_3^2}{C_6^2} = 1/5,\\quad P\\{X=0,Y=1\\} = \\frac{C_1^0 C_2^1 C_3^1}{C_6^2} = 2/5, \\\\ P\\{X=0,Y=2\\} = \\frac{C_1^0 C_2^2 C_3^0}{C_6^2} = 1/15, \\\\ P\\{X=1,Y=0\\} = \\frac{C_1^1 C_2^0 C_3^1}{C_6^2} = 1/5,\\quad P\\{X=1,Y=1\\} = \\frac{C_1^1 C_2^1 C_3^0}{C_6^2} = 2/15,\\quad P\\{X=1,Y=2\\} = P\\{\\varnothing\\} = 0. \\\\ \\text{即} \\end{aligned}</div>"
     },
     {
       "id": "q0014",
       "number": 14,
       "header": "#14-Easy",
       "difficulty": "Easy",
-      "prompt_html": "<img src=\"/static/generated/assets/probability/ch046/q0014_prompt.png\"/>",
+      "prompt_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{aligned} \\text{将一枚硬币抛掷三次，设头两次抛掷中出现正面的次数为}\\zeta\\text{，第三次抛掷出现正面的次数为}\\eta\\text{，二维随机变量}(\\xi,\\eta)\\text{所有可能取值的数对有}().\\end{aligned}\">\\begin{aligned} \\text{将一枚硬币抛掷三次，设头两次抛掷中出现正面的次数为}\\zeta\\text{，第三次抛掷出现正面的次数为}\\eta\\text{，二维随机变量}(\\xi,\\eta)\\text{所有可能取值的数对有}().\\end{aligned}</div>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/probability/ch046/q0014_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"6 \\text{对}\">6 \\text{对}</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/probability/ch046/q0014_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"2 \\text{对}\">2 \\text{对}</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/probability/ch046/q0014_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"3 \\text{对}\">3 \\text{对}</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/probability/ch046/q0014_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"8 \\text{对}\">8 \\text{对}</span>"
         }
       ],
       "answer": "A",
       "answer_index": 0,
-      "analysis_html": "<img src=\"/static/generated/assets/probability/ch046/q0014_analysis.png\"/>"
+      "analysis_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{aligned}\\text{因为}\\,\\xi\\text{的可能取值为}\\,0,1,2,\\text{，而}\\,\\eta\\text{的可能取值为}\\,0,1,\\text{，故所以可能取值为}\\\\0,0),\\,(0,1),\\,(1,0),\\,(1,1),\\,(2,0),\\,(2,1),\\\\ \\text{即有六对}.\\end{aligned}\">\\begin{aligned}\\text{因为}\\,\\xi\\text{的可能取值为}\\,0,1,2,\\text{，而}\\,\\eta\\text{的可能取值为}\\,0,1,\\text{，故所以可能取值为}\\\\0,0),\\,(0,1),\\,(1,0),\\,(1,1),\\,(2,0),\\,(2,1),\\\\ \\text{即有六对}.\\end{aligned}</div>"
     },
     {
       "id": "q0015",
       "number": 15,
       "header": "#15-Averge",
       "difficulty": "Averge",
-      "prompt_html": "<img src=\"/static/generated/assets/probability/ch046/q0015_prompt.png\"/>",
+      "prompt_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{cases} X = \\begin{cases} 0, \\text{若第一次取出的是正品} \\\\ 1, \\text{若第一次取出的是次品} \\end{cases}, \\\\ Y = \\begin{cases} 0, \\text{若第二次取出的是正品} \\\\ 1, \\text{若第二次取出的是次品} \\end{cases} \\end{cases}\">\\begin{cases} X = \\begin{cases} 0, \\text{若第一次取出的是正品} \\\\ 1, \\text{若第一次取出的是次品} \\end{cases}, \\\\ Y = \\begin{cases} 0, \\text{若第二次取出的是正品} \\\\ 1, \\text{若第二次取出的是次品} \\end{cases} \\end{cases}</div>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/probability/ch046/q0015_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\frac { 5 } { 36 } , \\frac { 10 } { 66 }\">\\frac { 5 } { 36 } , \\frac { 10 } { 66 }</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/probability/ch046/q0015_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\frac { 5 } { 36 } , \\frac { 1 } { 66 }\">\\frac { 5 } { 36 } , \\frac { 1 } { 66 }</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/probability/ch046/q0015_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\frac { 25 } { 36 } , \\frac { 10 } { 66 }\">\\frac { 25 } { 36 } , \\frac { 10 } { 66 }</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/probability/ch046/q0015_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\frac { 25 } { 36 } , \\frac { 1 } { 66 }\">\\frac { 25 } { 36 } , \\frac { 1 } { 66 }</span>"
         }
       ],
       "answer": "A",
       "answer_index": 0,
-      "analysis_html": "<img src=\"/static/generated/assets/probability/ch046/q0015_analysis.png\"/>"
+      "analysis_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{aligned} \\text{(1)} &amp; \\text{有放回抽样} \\quad P\\{X=1,\\,Y=0\\}=\\frac{2\\times 10}{12\\times 12}=\\frac{5}{36}.\\\\ \\text{(2)} &amp; \\text{不放回抽样} \\quad P\\{X=1,\\,Y=0\\}=\\frac{2\\times 10}{12\\times 11}=\\frac{10}{66}.\\end{aligned}\">\\begin{aligned} \\text{(1)} &amp; \\text{有放回抽样} \\quad P\\{X=1,\\,Y=0\\}=\\frac{2\\times 10}{12\\times 12}=\\frac{5}{36}.\\\\ \\text{(2)} &amp; \\text{不放回抽样} \\quad P\\{X=1,\\,Y=0\\}=\\frac{2\\times 10}{12\\times 11}=\\frac{10}{66}.\\end{aligned}</div>"
     }
-  ]
+  ],
+  "format": "latex",
+  "source_md": "gl/3.2.3_二维离散型随机变量的概率计算(15题)/3.2.3_二维离散型随机变量的概率计算(15题).md"
 }

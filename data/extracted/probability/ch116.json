@@ -13,364 +13,366 @@
       "number": 1,
       "header": "#1-Averge",
       "difficulty": "Averge",
-      "prompt_html": "<img src=\"/static/generated/assets/probability/ch116/q0001_prompt.png\"/>",
+      "prompt_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{aligned}&amp;\\text{总体}X\\text{服从密度函数为}\\\\&amp;f(x,\\theta)=\\frac{1}{\\pi\\left[1+(x-\\theta)^2\\right]},\\ (-\\infty&lt;x&lt;+\\infty)\\\\&amp;\\text{的柯西分布．}X_1,\\cdots,X_n\\text{从}X\\text{抽得的样本，则当}n=1\\text{时，}\\theta\\text{的极大似然估计为}().\\end{aligned}\">\\begin{aligned}&amp;\\text{总体}X\\text{服从密度函数为}\\\\&amp;f(x,\\theta)=\\frac{1}{\\pi\\left[1+(x-\\theta)^2\\right]},\\ (-\\infty&lt;x&lt;+\\infty)\\\\&amp;\\text{的柯西分布．}X_1,\\cdots,X_n\\text{从}X\\text{抽得的样本，则当}n=1\\text{时，}\\theta\\text{的极大似然估计为}().\\end{aligned}</div>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/probability/ch116/q0001_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\scriptstyle X _ { 1 }\">\\scriptstyle X _ { 1 }</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/probability/ch116/q0001_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\frac {X _ {1}}{2}\">\\frac {X _ {1}}{2}</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/probability/ch116/q0001_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\frac{2}{n} \\sum_{i=1}^{n} X_{i}\">\\frac{2}{n} \\sum_{i=1}^{n} X_{i}</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/probability/ch116/q0001_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\frac { n } { \\sum _ { i = 1 } ^ { n } X _ { i } }\">\\frac { n } { \\sum _ { i = 1 } ^ { n } X _ { i } }</span>"
         }
       ],
       "answer": "A",
       "answer_index": 0,
-      "analysis_html": "<img src=\"/static/generated/assets/probability/ch116/q0001_analysis.png\"/>"
+      "analysis_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{aligned}&amp;\\text{似然函数为} \\quad&amp; L(\\theta)=\\prod_{i=1}^{n}f(x_{i};\\theta)=\\frac{1}{\\pi[1+(x_{1}-\\theta)^{2}]},\\\\&amp;\\text{取对数，}\\ln L(\\theta)=-\\ln \\pi-\\ln[1+(x_{1}-\\theta)^{2}].\\\\&amp;\\text{求导数，并令}\\frac{d\\ln L(\\theta)}{d\\theta}=\\frac{2(x_{1}-\\theta)}{1+(x_{1}-\\theta)^{2}}=0,\\text{得}\\theta=x_{1}.\\\\&amp;\\text{故}\\theta\\text{的极大似然估计量为}\\theta=X_{1}.\\end{aligned}\">\\begin{aligned}&amp;\\text{似然函数为} \\quad&amp; L(\\theta)=\\prod_{i=1}^{n}f(x_{i};\\theta)=\\frac{1}{\\pi[1+(x_{1}-\\theta)^{2}]},\\\\&amp;\\text{取对数，}\\ln L(\\theta)=-\\ln \\pi-\\ln[1+(x_{1}-\\theta)^{2}].\\\\&amp;\\text{求导数，并令}\\frac{d\\ln L(\\theta)}{d\\theta}=\\frac{2(x_{1}-\\theta)}{1+(x_{1}-\\theta)^{2}}=0,\\text{得}\\theta=x_{1}.\\\\&amp;\\text{故}\\theta\\text{的极大似然估计量为}\\theta=X_{1}.\\end{aligned}</div>"
     },
     {
       "id": "q0002",
       "number": 2,
       "header": "#2-Averge",
       "difficulty": "Averge",
-      "prompt_html": "<img src=\"/static/generated/assets/probability/ch116/q0002_prompt.png\"/>",
+      "prompt_html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{泊松分布中参数} \\lambda \\text{的最大似然估计为} ( \\quad ).\">\\text{泊松分布中参数} \\lambda \\text{的最大似然估计为} ( \\quad ).</span>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/probability/ch116/q0002_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\hat { \\lambda } = \\frac { 1 } { n } \\sum _ { i = 1 } ^ { n } X _ { i }\">\\hat { \\lambda } = \\frac { 1 } { n } \\sum _ { i = 1 } ^ { n } X _ { i }</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/probability/ch116/q0002_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\hat { \\lambda } = \\frac { 2 } { n } \\sum _ { i = 1 } ^ { n } X _ { i }\">\\hat { \\lambda } = \\frac { 2 } { n } \\sum _ { i = 1 } ^ { n } X _ { i }</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/probability/ch116/q0002_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\hat { \\lambda } = \\frac { 3 } { n } \\sum _ { i = 1 } ^ { n } X _ { i }\">\\hat { \\lambda } = \\frac { 3 } { n } \\sum _ { i = 1 } ^ { n } X _ { i }</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/probability/ch116/q0002_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\hat{\\lambda} = - \\frac{1}{n} \\sum_{i=1}^{n} X_{i}\">\\hat{\\lambda} = - \\frac{1}{n} \\sum_{i=1}^{n} X_{i}</span>"
         }
       ],
       "answer": "A",
       "answer_index": 0,
-      "analysis_html": "<img src=\"/static/generated/assets/probability/ch116/q0002_analysis.png\"/>"
+      "analysis_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{aligned} \\text{总体的概率函数为} \\quad &amp; P\\{X=k\\}=\\frac{\\lambda^k}{k!}e^{-\\lambda}, k=0,1,2,\\cdots, \\\\ \\text{设}x_1,x_2,\\cdots,x_n \\text{为从总体中抽取的容量为}n \\text{的样本，则似然函数为} \\quad &amp; L(x_1,x_2,\\cdots,x_n;\\lambda)=\\prod_{i=1}^n f(x_i;\\lambda)=\\prod_{i=1}^n \\frac{\\lambda^i}{x_i!}e^{-\\lambda}=\\frac{\\sum_{i=1}^n x_i}{\\prod_{i=1}^n x_i!}e^{-n\\lambda}, \\\\ &amp; \\ln L=(\\sum_{i=1}^n x_i)\\ln\\lambda-n\\lambda-\\sum_{i=1}^n \\ln x_i!, \\\\ \\text{令} \\frac{d\\ln L}{d\\lambda}=\\frac{1}{\\lambda}\\sum_{i=1}^n x_i-n=0, \\text{得} \\quad &amp; \\widehat{\\lambda}=\\frac{1}{n}\\sum_{i=1}^n x_i=\\overline{x}, \\\\ \\text{即} \\widehat{\\lambda}=\\frac{1}{n}\\sum_{i=1}^n X_i \\text{就是参数} \\lambda \\text{的最大似然估计.} \\end{aligned}\">\\begin{aligned} \\text{总体的概率函数为} \\quad &amp; P\\{X=k\\}=\\frac{\\lambda^k}{k!}e^{-\\lambda}, k=0,1,2,\\cdots, \\\\ \\text{设}x_1,x_2,\\cdots,x_n \\text{为从总体中抽取的容量为}n \\text{的样本，则似然函数为} \\quad &amp; L(x_1,x_2,\\cdots,x_n;\\lambda)=\\prod_{i=1}^n f(x_i;\\lambda)=\\prod_{i=1}^n \\frac{\\lambda^i}{x_i!}e^{-\\lambda}=\\frac{\\sum_{i=1}^n x_i}{\\prod_{i=1}^n x_i!}e^{-n\\lambda}, \\\\ &amp; \\ln L=(\\sum_{i=1}^n x_i)\\ln\\lambda-n\\lambda-\\sum_{i=1}^n \\ln x_i!, \\\\ \\text{令} \\frac{d\\ln L}{d\\lambda}=\\frac{1}{\\lambda}\\sum_{i=1}^n x_i-n=0, \\text{得} \\quad &amp; \\widehat{\\lambda}=\\frac{1}{n}\\sum_{i=1}^n x_i=\\overline{x}, \\\\ \\text{即} \\widehat{\\lambda}=\\frac{1}{n}\\sum_{i=1}^n X_i \\text{就是参数} \\lambda \\text{的最大似然估计.} \\end{aligned}</div>"
     },
     {
       "id": "q0003",
       "number": 3,
       "header": "#3-Averge",
       "difficulty": "Averge",
-      "prompt_html": "<img src=\"/static/generated/assets/probability/ch116/q0003_prompt.png\"/>",
+      "prompt_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{aligned}\\text{设总体}X \\text{的概率密度为}f(x)=\\begin{cases}(\\theta+1)x^{\\theta},0&lt;x&lt;1\\\\0,\\quad\\text{其它}\\end{cases},\\text{其中}\\theta&gt;-1 \\text{是未知参数，}X_{1},X_{2},\\cdots,X_{n}\\text{为一个样本，则参数}\\theta \\text{的最大似然估计量为}() \\ .\\end{aligned}\">\\begin{aligned}\\text{设总体}X \\text{的概率密度为}f(x)=\\begin{cases}(\\theta+1)x^{\\theta},0&lt;x&lt;1\\\\0,\\quad\\text{其它}\\end{cases},\\text{其中}\\theta&gt;-1 \\text{是未知参数，}X_{1},X_{2},\\cdots,X_{n}\\text{为一个样本，则参数}\\theta \\text{的最大似然估计量为}() \\ .\\end{aligned}</div>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/probability/ch116/q0003_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\begin{aligned}\\widehat{\\theta} = -1 - \\frac{n}{\\sum_{i=1}^{n} \\ln X_i}\\end{aligned}\">\\begin{aligned}\\widehat{\\theta} = -1 - \\frac{n}{\\sum_{i=1}^{n} \\ln X_i}\\end{aligned}</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/probability/ch116/q0003_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\begin{aligned}\\widehat{\\theta} = -1 + \\frac{n}{\\sum_{i=1}^{n} \\ln X_i}\\end{aligned}\">\\begin{aligned}\\widehat{\\theta} = -1 + \\frac{n}{\\sum_{i=1}^{n} \\ln X_i}\\end{aligned}</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/probability/ch116/q0003_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\begin{aligned}\\widehat{\\theta} = - \\frac{2n}{\\sum_{i=1}^{n} \\ln X_i}\\end{aligned}\">\\begin{aligned}\\widehat{\\theta} = - \\frac{2n}{\\sum_{i=1}^{n} \\ln X_i}\\end{aligned}</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/probability/ch116/q0003_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\begin{array}{l} { r } { \\hat { \\theta } = - \\frac { n } { \\displaystyle \\sum _ { i = 1 } ^ { n } \\ln X _ { i } } } \\end{array}\">\\begin{array}{l} { r } { \\hat { \\theta } = - \\frac { n } { \\displaystyle \\sum _ { i = 1 } ^ { n } \\ln X _ { i } } } \\end{array}</span>"
         }
       ],
       "answer": "A",
       "answer_index": 0,
-      "analysis_html": "<img src=\"/static/generated/assets/probability/ch116/q0003_analysis.png\"/>"
+      "analysis_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{aligned}&amp;\\text{设}x_{1},x_{2},\\cdots,x_{n} \\text{是样本}X_{1},X_{2},\\cdots,X_{n} \\text{的观察值，似然函数为}\\\\&amp;\\quad L(\\theta)=\\prod_{i=1}^{n}(\\theta+1)x_{i}^{\\theta}=(\\theta+1)^{n}(x_{1}x_{2}\\cdots x_{n})^{\\theta},\\ \\ 0&lt;x_{i}&lt;1,\\,i=1,2,\\cdots,n.\\\\&amp;\\text{取对数，}\\ \\ln L(\\theta)=n\\ln(\\theta+1)+\\theta\\sum_{i=1}^{n}\\ln x_{i},\\\\&amp;\\text{求导数，}\\ \\frac{d\\ln L}{d\\theta}=\\frac{n}{\\theta+1}+\\sum_{i=1}^{n}\\ln x_{i}=0.\\\\&amp;\\theta\\text{的最大似然估计量为}\\ \\widehat{\\theta}=-1-\\frac{n}{\\sum_{i=1}^{n}\\ln X_{i}}.\\end{aligned}\">\\begin{aligned}&amp;\\text{设}x_{1},x_{2},\\cdots,x_{n} \\text{是样本}X_{1},X_{2},\\cdots,X_{n} \\text{的观察值，似然函数为}\\\\&amp;\\quad L(\\theta)=\\prod_{i=1}^{n}(\\theta+1)x_{i}^{\\theta}=(\\theta+1)^{n}(x_{1}x_{2}\\cdots x_{n})^{\\theta},\\ \\ 0&lt;x_{i}&lt;1,\\,i=1,2,\\cdots,n.\\\\&amp;\\text{取对数，}\\ \\ln L(\\theta)=n\\ln(\\theta+1)+\\theta\\sum_{i=1}^{n}\\ln x_{i},\\\\&amp;\\text{求导数，}\\ \\frac{d\\ln L}{d\\theta}=\\frac{n}{\\theta+1}+\\sum_{i=1}^{n}\\ln x_{i}=0.\\\\&amp;\\theta\\text{的最大似然估计量为}\\ \\widehat{\\theta}=-1-\\frac{n}{\\sum_{i=1}^{n}\\ln X_{i}}.\\end{aligned}</div>"
     },
     {
       "id": "q0004",
       "number": 4,
       "header": "#4-Averge",
       "difficulty": "Averge",
-      "prompt_html": "<img src=\"/static/generated/assets/probability/ch116/q0004_prompt.png\"/>",
+      "prompt_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{array}{|c|c|c|c|} \\hline \\lambda &amp; 1 &amp; 2 &amp; 3 \\\\ \\hline p_{i} &amp; \\theta^{2} &amp; 2\\theta(1-\\theta) &amp; (1-\\theta)^{2} \\\\ \\hline \\end{array} \\text{其中} \\theta(0&lt;\\theta&lt;1) \\text{为未知参数}，\\text{已知取得了样本值} x_{1}=1,x_{2}=2,x_{3}=1，\\text{试求} \\theta \\text{的最大似然估计值}.\">\\begin{array}{|c|c|c|c|} \\hline \\lambda &amp; 1 &amp; 2 &amp; 3 \\\\ \\hline p_{i} &amp; \\theta^{2} &amp; 2\\theta(1-\\theta) &amp; (1-\\theta)^{2} \\\\ \\hline \\end{array} \\text{其中} \\theta(0&lt;\\theta&lt;1) \\text{为未知参数}，\\text{已知取得了样本值} x_{1}=1,x_{2}=2,x_{3}=1，\\text{试求} \\theta \\text{的最大似然估计值}.</div>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/probability/ch116/q0004_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\hat { \\theta } { = } \\frac { 5 } { 6 }\">\\hat { \\theta } { = } \\frac { 5 } { 6 }</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/probability/ch116/q0004_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\widehat { \\theta } { = } \\frac { 1 } { 6 }\">\\widehat { \\theta } { = } \\frac { 1 } { 6 }</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/probability/ch116/q0004_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\widehat { \\theta } { = } \\frac { 2 } { 3 }\">\\widehat { \\theta } { = } \\frac { 2 } { 3 }</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/probability/ch116/q0004_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\widehat { \\theta } = \\frac { 1 } { 3 }\">\\widehat { \\theta } = \\frac { 1 } { 3 }</span>"
         }
       ],
       "answer": "A",
       "answer_index": 0,
-      "analysis_html": "<img src=\"/static/generated/assets/probability/ch116/q0004_analysis.png\"/>"
+      "analysis_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{aligned}&amp;L(\\theta)=\\prod_{i=1}^{3}P\\{X_{i}=x_{i}\\}=P\\{X_{1}=1\\}P\\{X_{2}=2\\}P\\{X_{3}=1\\}\\,=\\theta^{3}\\cdot 2\\theta(1-\\theta)=2\\theta^{2}(1-\\theta).\\\\&amp;\\text{取对数，}\\quad\\quad\\quad\\quad\\ln L(\\theta)=\\ln 2+5\\ln\\theta+\\ln(1-\\theta).\\\\&amp;\\text{令}\\frac{d\\ln L(\\theta)}{d\\theta}=0\\, ,\\text{即}\\quad\\quad\\quad\\quad\\frac{5}{\\theta}-\\frac{1}{1-\\theta}=0\\, .\\\\&amp;\\text{得}\\theta\\text{的最大似然估计值为}\\widehat{\\theta}=\\frac{5}{6}.\\end{aligned}\">\\begin{aligned}&amp;L(\\theta)=\\prod_{i=1}^{3}P\\{X_{i}=x_{i}\\}=P\\{X_{1}=1\\}P\\{X_{2}=2\\}P\\{X_{3}=1\\}\\,=\\theta^{3}\\cdot 2\\theta(1-\\theta)=2\\theta^{2}(1-\\theta).\\\\&amp;\\text{取对数，}\\quad\\quad\\quad\\quad\\ln L(\\theta)=\\ln 2+5\\ln\\theta+\\ln(1-\\theta).\\\\&amp;\\text{令}\\frac{d\\ln L(\\theta)}{d\\theta}=0\\, ,\\text{即}\\quad\\quad\\quad\\quad\\frac{5}{\\theta}-\\frac{1}{1-\\theta}=0\\, .\\\\&amp;\\text{得}\\theta\\text{的最大似然估计值为}\\widehat{\\theta}=\\frac{5}{6}.\\end{aligned}</div>"
     },
     {
       "id": "q0005",
       "number": 5,
       "header": "#5-Averge",
       "difficulty": "Averge",
-      "prompt_html": "<img src=\"/static/generated/assets/probability/ch116/q0005_prompt.png\"/>",
+      "prompt_html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{设某种元件的寿命}X\\sim N(\\mu,\\sigma^{2})，\\text{其中参数}\\mu,\\sigma^{2}\\text{未知}，\\text{为估计平均寿命}\\mu\\text{及方差}\\sigma^{2}，\\text{随机抽取}7\\text{只元件的寿命}（\\text{单位}：\\text{小时}）\\text{为}1575,1503,1346,1630,1575,1453,1950，\\text{则}\\mu\\text{与}\\sigma^{2}\\text{的极大似然估计值为}（）.\">\\text{设某种元件的寿命}X\\sim N(\\mu,\\sigma^{2})，\\text{其中参数}\\mu,\\sigma^{2}\\text{未知}，\\text{为估计平均寿命}\\mu\\text{及方差}\\sigma^{2}，\\text{随机抽取}7\\text{只元件的寿命}（\\text{单位}：\\text{小时}）\\text{为}1575,1503,1346,1630,1575,1453,1950，\\text{则}\\mu\\text{与}\\sigma^{2}\\text{的极大似然估计值为}（）.</span>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/probability/ch116/q0005_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"1576 , 175 . 72 ^ { 2 }\">1576 , 175 . 72 ^ { 2 }</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/probability/ch116/q0005_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"1575 , 175 . 72 ^ { 2 }\">1575 , 175 . 72 ^ { 2 }</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/probability/ch116/q0005_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"1576 , \\, 175.72\">1576 , \\, 175.72</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/probability/ch116/q0005_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"1575 , 175.72\">1575 , 175.72</span>"
         }
       ],
       "answer": "A",
       "answer_index": 0,
-      "analysis_html": "<img src=\"/static/generated/assets/probability/ch116/q0005_analysis.png\"/>"
+      "analysis_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{aligned} &amp; \\text{在均值与方差均未知的情形下，正态总体均值} \\mu \\text{与方差} \\sigma^2 \\text{的极大似然估计为} \\\\ &amp; \\quad \\hat{\\mu}=\\overline{X}, \\ \\widehat{\\sigma^2}=\\frac{1}{n}\\sum_{i=1}^{n}(X_i-\\overline{X})^2. \\\\ &amp; \\text{代入数据，得} \\mu \\text{的极大似然估计值为} \\\\ &amp; \\quad \\hat{\\mu}=\\overline{x}=\\frac{1}{7}(1757+1503+1346+1630+1575+1453+1950)=1576, \\\\ &amp; \\text{方差} \\sigma^2 \\text{的极大似然估计值为} \\\\ &amp; \\quad \\widehat{\\sigma^2}=\\frac{1}{7}\\sum_{i=1}^{7}(x_i-x)^2 \\approx 175.72^2.\\end{aligned}\">\\begin{aligned} &amp; \\text{在均值与方差均未知的情形下，正态总体均值} \\mu \\text{与方差} \\sigma^2 \\text{的极大似然估计为} \\\\ &amp; \\quad \\hat{\\mu}=\\overline{X}, \\ \\widehat{\\sigma^2}=\\frac{1}{n}\\sum_{i=1}^{n}(X_i-\\overline{X})^2. \\\\ &amp; \\text{代入数据，得} \\mu \\text{的极大似然估计值为} \\\\ &amp; \\quad \\hat{\\mu}=\\overline{x}=\\frac{1}{7}(1757+1503+1346+1630+1575+1453+1950)=1576, \\\\ &amp; \\text{方差} \\sigma^2 \\text{的极大似然估计值为} \\\\ &amp; \\quad \\widehat{\\sigma^2}=\\frac{1}{7}\\sum_{i=1}^{7}(x_i-x)^2 \\approx 175.72^2.\\end{aligned}</div>"
     },
     {
       "id": "q0006",
       "number": 6,
       "header": "#6-Averge",
       "difficulty": "Averge",
-      "prompt_html": "<img src=\"/static/generated/assets/probability/ch116/q0006_prompt.png\"/>",
+      "prompt_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\text{设} \\ f(x) = \\begin{cases} \\sqrt{\\theta} x^{\\sqrt{\\theta}-1}, \\ 0 \\leq x \\leq 1 \\\\ 0, \\quad \\text{其它} \\end{cases}, \\text{其中} \\ \\theta &gt; 0, \\theta \\text{为未知参数，则} \\theta \\text{的极大似然估计是} ( ).\">\\text{设} \\ f(x) = \\begin{cases} \\sqrt{\\theta} x^{\\sqrt{\\theta}-1}, \\ 0 \\leq x \\leq 1 \\\\ 0, \\quad \\text{其它} \\end{cases}, \\text{其中} \\ \\theta &gt; 0, \\theta \\text{为未知参数，则} \\theta \\text{的极大似然估计是} ( ).</div>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/probability/ch116/q0006_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"(n / \\sum _ { i = 1 } ^ { n } \\ln X _ { i } ) ^ { 2 }\">(n / \\sum _ { i = 1 } ^ { n } \\ln X _ { i } ) ^ { 2 }</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/probability/ch116/q0006_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\frac { n } { \\sum _ { i = 1 } ^ { n } \\ln X _ { i } }\">\\frac { n } { \\sum _ { i = 1 } ^ { n } \\ln X _ { i } }</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/probability/ch116/q0006_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\frac { \\sum _ { i = 1 } ^ { n } \\ln X _ { i } } { n }\">\\frac { \\sum _ { i = 1 } ^ { n } \\ln X _ { i } } { n }</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/probability/ch116/q0006_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\left( \\frac{\\sum_{i=1}^{n} \\ln X_{i}}{n} \\right)^{2}\">\\left( \\frac{\\sum_{i=1}^{n} \\ln X_{i}}{n} \\right)^{2}</span>"
         }
       ],
       "answer": "A",
       "answer_index": 0,
-      "analysis_html": "<img src=\"/static/generated/assets/probability/ch116/q0006_analysis.png\"/>"
+      "analysis_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{aligned}&amp;\\text{似然函数为} \\quad L(\\theta)=\\prod_{i=1}^{n}f(x_{i})=\\theta^{n2}(\\prod_{i=1}^{n}(x_{i})^{i\\theta-1}),\\quad0\\leq x_{i}\\leq 1,\\,i=1,2,\\cdots,n.\\\\&amp;\\text{令}\\frac{d\\ln L(\\theta)}{d\\theta}=0,\\text{得} \\quad \\frac{n}{2\\theta}+\\frac{1}{2\\sqrt{\\theta}}\\sum_{i=1}^{n}\\ln x_{i}=0.\\\\&amp;\\theta\\text{的极大估计值为}\\widehat{\\theta}=(n!\\sum_{i=1}^{n}\\ln x_{i})^{2},\\text{极大似然估计量为} \\quad \\widehat{\\theta}=(n!\\sum_{i=1}^{n}\\ln X_{i})^{2}.\\end{aligned}\">\\begin{aligned}&amp;\\text{似然函数为} \\quad L(\\theta)=\\prod_{i=1}^{n}f(x_{i})=\\theta^{n2}(\\prod_{i=1}^{n}(x_{i})^{i\\theta-1}),\\quad0\\leq x_{i}\\leq 1,\\,i=1,2,\\cdots,n.\\\\&amp;\\text{令}\\frac{d\\ln L(\\theta)}{d\\theta}=0,\\text{得} \\quad \\frac{n}{2\\theta}+\\frac{1}{2\\sqrt{\\theta}}\\sum_{i=1}^{n}\\ln x_{i}=0.\\\\&amp;\\theta\\text{的极大估计值为}\\widehat{\\theta}=(n!\\sum_{i=1}^{n}\\ln x_{i})^{2},\\text{极大似然估计量为} \\quad \\widehat{\\theta}=(n!\\sum_{i=1}^{n}\\ln X_{i})^{2}.\\end{aligned}</div>"
     },
     {
       "id": "q0007",
       "number": 7,
       "header": "#7-Averge",
       "difficulty": "Averge",
-      "prompt_html": "<img src=\"/static/generated/assets/probability/ch116/q0007_prompt.png\"/>",
+      "prompt_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{array}{l} \\text {设总体具有概率密度} \\\\ f(x) = \\{ \\begin{array}{ll} \\theta x^{\\theta-1}, 0 &lt; x &lt; 1 &amp; \\text {其中} \\theta &gt; 0, \\\\ 0, &amp; \\text {其它} \\end{array} \\\\ \\text {则} \\theta \\text {的极大似然估计是}() . \\end{array}\">\\begin{array}{l} \\text {设总体具有概率密度} \\\\ f(x) = \\{ \\begin{array}{ll} \\theta x^{\\theta-1}, 0 &lt; x &lt; 1 &amp; \\text {其中} \\theta &gt; 0, \\\\ 0, &amp; \\text {其它} \\end{array} \\\\ \\text {则} \\theta \\text {的极大似然估计是}() . \\end{array}</div>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/probability/ch116/q0007_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\begin{aligned}-\\frac{n}{\\sum_{i=1}^{n} \\ln X_{i}}\\end{aligned}\">\\begin{aligned}-\\frac{n}{\\sum_{i=1}^{n} \\ln X_{i}}\\end{aligned}</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/probability/ch116/q0007_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\frac { \\overline { X } } { 1 - \\overline { \\overline { X } } }\">\\frac { \\overline { X } } { 1 - \\overline { \\overline { X } } }</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/probability/ch116/q0007_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\frac {1}{X} - 1\">\\frac {1}{X} - 1</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/probability/ch116/q0007_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\frac { n } { \\sum _ { i = 1 } ^ { n } \\ln X _ { i } }\">\\frac { n } { \\sum _ { i = 1 } ^ { n } \\ln X _ { i } }</span>"
         }
       ],
       "answer": "A",
       "answer_index": 0,
-      "analysis_html": "<img src=\"/static/generated/assets/probability/ch116/q0007_analysis.png\"/>"
+      "analysis_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{aligned}&amp;\\text{似然函数为}L\\bigl(\\theta \\bigr)=\\theta^{\\prime}(x_{1},x_{2},\\cdots,x_{n})^{\\theta-1},\\text{取对数似然函数为}\\ln L\\bigl(\\theta \\bigr)=n\\ln \\theta+(\\theta-1)\\sum_{i=1}^{n}\\ln x_{i}\\,,\\text{令}\\frac{d\\ln L}{d\\theta}=0,\\,\\text{得}\\\\&amp;\\theta=-\\frac{n}{\\sum_{i=1}^{n}\\ln x_{i}}\\,,\\text{即参数的极大似然估计为}\\widehat{\\theta}=-\\frac{n}{\\sum_{i=1}^{n}\\ln X_{i}}\\,.\\end{aligned}\">\\begin{aligned}&amp;\\text{似然函数为}L\\bigl(\\theta \\bigr)=\\theta^{\\prime}(x_{1},x_{2},\\cdots,x_{n})^{\\theta-1},\\text{取对数似然函数为}\\ln L\\bigl(\\theta \\bigr)=n\\ln \\theta+(\\theta-1)\\sum_{i=1}^{n}\\ln x_{i}\\,,\\text{令}\\frac{d\\ln L}{d\\theta}=0,\\,\\text{得}\\\\&amp;\\theta=-\\frac{n}{\\sum_{i=1}^{n}\\ln x_{i}}\\,,\\text{即参数的极大似然估计为}\\widehat{\\theta}=-\\frac{n}{\\sum_{i=1}^{n}\\ln X_{i}}\\,.\\end{aligned}</div>"
     },
     {
       "id": "q0008",
       "number": 8,
       "header": "#8-Averge",
       "difficulty": "Averge",
-      "prompt_html": "<img src=\"/static/generated/assets/probability/ch116/q0008_prompt.png\"/>",
+      "prompt_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"( \\begin{array}{l} { l } { \\mu } \\\\ { \\sigma ^ { 2 } } \\end{array}\">( \\begin{array}{l} { l } { \\mu } \\\\ { \\sigma ^ { 2 } } \\end{array}</div>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/probability/ch116/q0008_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\widehat{\\mu} = \\overline{X}\\, , \\quad \\widehat{\\sigma}^{2} = \\frac{1}{n} \\sum_{i=1}^{n} (X_{i} - \\overline{X})^{2}\">\\widehat{\\mu} = \\overline{X}\\, , \\quad \\widehat{\\sigma}^{2} = \\frac{1}{n} \\sum_{i=1}^{n} (X_{i} - \\overline{X})^{2}</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/probability/ch116/q0008_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\widehat{\\mu} = 2 \\overline{X}\\, , \\quad \\widehat{\\sigma}^{2} = \\frac{1}{n} \\sum_{i=1}^{n} (X_{i} - \\overline{X})^{2}\">\\widehat{\\mu} = 2 \\overline{X}\\, , \\quad \\widehat{\\sigma}^{2} = \\frac{1}{n} \\sum_{i=1}^{n} (X_{i} - \\overline{X})^{2}</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/probability/ch116/q0008_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\begin{aligned}\\hat{\\mu}=\\overline{X}\\,,\\quad\\hat{\\sigma}^{2}=\\frac{1}{n}\\sum_{i=1}^{n}(X_{i}+\\overline{X})^{2}\\end{aligned}\">\\begin{aligned}\\hat{\\mu}=\\overline{X}\\,,\\quad\\hat{\\sigma}^{2}=\\frac{1}{n}\\sum_{i=1}^{n}(X_{i}+\\overline{X})^{2}\\end{aligned}</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/probability/ch116/q0008_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\hat{\\mu} = \\overline{X}\\,, \\quad \\hat{\\sigma}^{2} = \\frac{2}{n} \\sum_{i=1}^{n} (X_{i} - \\overline{X})^{2}\">\\hat{\\mu} = \\overline{X}\\,, \\quad \\hat{\\sigma}^{2} = \\frac{2}{n} \\sum_{i=1}^{n} (X_{i} - \\overline{X})^{2}</span>"
         }
       ],
       "answer": "A",
       "answer_index": 0,
-      "analysis_html": "<img src=\"/static/generated/assets/probability/ch116/q0008_analysis.png\"/>"
+      "analysis_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{aligned}\\text{记似然函数}L(x_1,x_2,\\cdots,x_n;\\mu,\\sigma^2)&amp;=L(\\mu,\\sigma^2),\\ \\text{则}\\\\L(\\mu,\\sigma^2)&amp;=\\prod_{i=1}^n\\left(\\frac{1}{\\sqrt{2\\pi}\\sigma}e^{-\\frac{(x_i-\\mu)^2}{2\\sigma^2}}\\right)=(\\sqrt{2\\pi})^{-n}(\\sigma^2)^{-n/2}\\exp\\left\\{-\\frac{1}{2\\sigma^2}\\sum_{i=1}^n(x_i-\\mu)^2\\right\\}\\\\\\ln L(\\mu,\\sigma^2)&amp;=-n\\ln\\sqrt{2\\pi}-\\frac{n}{2}\\ln\\sigma^2-\\frac{1}{2\\sigma^2}\\sum_{i=1}^n(x_i-\\mu)^2\\\\\\frac{\\partial\\ln L}{\\partial\\mu}&amp;=\\frac{1}{\\sigma^2}\\sum_{i=1}^n(x_i-\\mu)=0\\,,\\\\\\frac{\\partial\\ln L}{\\partial\\sigma^2}&amp;=\\frac{1}{2\\sigma^2}\\sum_{i=1}^n(x_i-\\mu)^2-\\frac{n}{2\\sigma^2}=0\\\\\\text{由此可得参数}\\mu\\text{和}\\sigma^2\\text{的最大似然估计量为}\\\\ \\hat{\\mu}&amp;=\\frac{1}{n}\\sum_{i=1}^nx_i=\\overline{x},\\qquad\\hat{\\sigma}^2=\\frac{1}{n}\\sum_{i=1}^n(\\alpha_i-\\overline{x})^2\\\\\\text{最大似然估计量为}&amp;\\hat{\\mu}=\\frac{1}{n}\\sum_{i=1}^nx_i=\\overline{X},\\qquad\\hat{\\sigma}^2=\\frac{1}{n}\\sum_{i=1}^n(X_i-\\overline{X})^2\\end{aligned}\">\\begin{aligned}\\text{记似然函数}L(x_1,x_2,\\cdots,x_n;\\mu,\\sigma^2)&amp;=L(\\mu,\\sigma^2),\\ \\text{则}\\\\L(\\mu,\\sigma^2)&amp;=\\prod_{i=1}^n\\left(\\frac{1}{\\sqrt{2\\pi}\\sigma}e^{-\\frac{(x_i-\\mu)^2}{2\\sigma^2}}\\right)=(\\sqrt{2\\pi})^{-n}(\\sigma^2)^{-n/2}\\exp\\left\\{-\\frac{1}{2\\sigma^2}\\sum_{i=1}^n(x_i-\\mu)^2\\right\\}\\\\\\ln L(\\mu,\\sigma^2)&amp;=-n\\ln\\sqrt{2\\pi}-\\frac{n}{2}\\ln\\sigma^2-\\frac{1}{2\\sigma^2}\\sum_{i=1}^n(x_i-\\mu)^2\\\\\\frac{\\partial\\ln L}{\\partial\\mu}&amp;=\\frac{1}{\\sigma^2}\\sum_{i=1}^n(x_i-\\mu)=0\\,,\\\\\\frac{\\partial\\ln L}{\\partial\\sigma^2}&amp;=\\frac{1}{2\\sigma^2}\\sum_{i=1}^n(x_i-\\mu)^2-\\frac{n}{2\\sigma^2}=0\\\\\\text{由此可得参数}\\mu\\text{和}\\sigma^2\\text{的最大似然估计量为}\\\\ \\hat{\\mu}&amp;=\\frac{1}{n}\\sum_{i=1}^nx_i=\\overline{x},\\qquad\\hat{\\sigma}^2=\\frac{1}{n}\\sum_{i=1}^n(\\alpha_i-\\overline{x})^2\\\\\\text{最大似然估计量为}&amp;\\hat{\\mu}=\\frac{1}{n}\\sum_{i=1}^nx_i=\\overline{X},\\qquad\\hat{\\sigma}^2=\\frac{1}{n}\\sum_{i=1}^n(X_i-\\overline{X})^2\\end{aligned}</div>"
     },
     {
       "id": "q0009",
       "number": 9,
       "header": "#9-Averge",
       "difficulty": "Averge",
-      "prompt_html": "<img src=\"/static/generated/assets/probability/ch116/q0009_prompt.png\"/>",
+      "prompt_html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{设}X\\sim b(1,p),X_{1},X_{2},\\cdots,X_{n}\\text{是取自总体}X\\text{的一个样本，则参数}p\\text{的最大似然估计为}( \\quad).\">\\text{设}X\\sim b(1,p),X_{1},X_{2},\\cdots,X_{n}\\text{是取自总体}X\\text{的一个样本，则参数}p\\text{的最大似然估计为}( \\quad).</span>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/probability/ch116/q0009_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\hat { p } = \\overline { X }\">\\hat { p } = \\overline { X }</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/probability/ch116/q0009_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\hat {p} = - \\overline {X}\">\\hat {p} = - \\overline {X}</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/probability/ch116/q0009_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\hat { p } = 2 \\overline { X }\">\\hat { p } = 2 \\overline { X }</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/probability/ch116/q0009_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\hat { p } = - \\, 2 \\overline { X }\">\\hat { p } = - \\, 2 \\overline { X }</span>"
         }
       ],
       "answer": "A",
       "answer_index": 0,
-      "analysis_html": "<img src=\"/static/generated/assets/probability/ch116/q0009_analysis.png\"/>"
+      "analysis_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{aligned}X\\text{的分布律为}\\qquad\\qquad P\\{X=x\\}&amp;=p^*(1-p)^{1-x},\\, x=0,1. \\\\\\text{设}x_1,x_2,\\cdots,x_n\\text{是}X_1,X_2,\\cdots,X_n\\text{的一组样本值，似然函数为}\\qquad\\qquad L(p)=\\prod_{i=1}^np^{x_i}(1-p)^{1-x_i}=p^{\\sum_{i=1}^n x_i}(1-p)^{n-\\sum_{i=1}^n x_i}, \\\\\\qquad\\qquad\\qquad\\qquad\\ln L(p)&amp;=\\left(\\sum_{i=1}^n x_i\\right)\\ln p+\\left(n-\\sum_{i=1}^n x_i\\right)\\ln(1-p), \\\\\\text{令}\\qquad\\qquad\\qquad\\frac{d}{dp}\\ln L(p)&amp;=\\left(\\sum_{i=1}^n x_i\\right)/p-\\left(n-\\sum_{i=1}^n x_i\\right)/(1-p)=0. \\end{aligned}\">\\begin{aligned}X\\text{的分布律为}\\qquad\\qquad P\\{X=x\\}&amp;=p^*(1-p)^{1-x},\\, x=0,1. \\\\\\text{设}x_1,x_2,\\cdots,x_n\\text{是}X_1,X_2,\\cdots,X_n\\text{的一组样本值，似然函数为}\\qquad\\qquad L(p)=\\prod_{i=1}^np^{x_i}(1-p)^{1-x_i}=p^{\\sum_{i=1}^n x_i}(1-p)^{n-\\sum_{i=1}^n x_i}, \\\\\\qquad\\qquad\\qquad\\qquad\\ln L(p)&amp;=\\left(\\sum_{i=1}^n x_i\\right)\\ln p+\\left(n-\\sum_{i=1}^n x_i\\right)\\ln(1-p), \\\\\\text{令}\\qquad\\qquad\\qquad\\frac{d}{dp}\\ln L(p)&amp;=\\left(\\sum_{i=1}^n x_i\\right)/p-\\left(n-\\sum_{i=1}^n x_i\\right)/(1-p)=0. \\end{aligned}</div>"
     },
     {
       "id": "q0010",
       "number": 10,
       "header": "#10-Averge",
       "difficulty": "Averge",
-      "prompt_html": "<img src=\"/static/generated/assets/probability/ch116/q0010_prompt.png\"/>",
+      "prompt_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\text{设总体} \\lambda \\text{的概率密度是} f(x, \\theta) = \\begin{cases} \\frac{x}{\\theta} e^{-\\frac{x^{2}}{2\\theta^{2}}}, &amp; x &gt; 0, \\\\ 0, &amp; \\text{其它} \\end{cases}, X_{1}, \\cdots, X_{n} \\text{是总体的一个样本，则} \\theta \\text{的极大似然估计是} (\\text{.})\">\\text{设总体} \\lambda \\text{的概率密度是} f(x, \\theta) = \\begin{cases} \\frac{x}{\\theta} e^{-\\frac{x^{2}}{2\\theta^{2}}}, &amp; x &gt; 0, \\\\ 0, &amp; \\text{其它} \\end{cases}, X_{1}, \\cdots, X_{n} \\text{是总体的一个样本，则} \\theta \\text{的极大似然估计是} (\\text{.})</div>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/probability/ch116/q0010_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\sqrt { \\frac { \\sum _ { i = 1 } ^ { n } X _ { i } ^ { 2 } } { 2 n } }\">\\sqrt { \\frac { \\sum _ { i = 1 } ^ { n } X _ { i } ^ { 2 } } { 2 n } }</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/probability/ch116/q0010_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\overline { \\chi }\">\\overline { \\chi }</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/probability/ch116/q0010_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\sqrt { \\frac { 2 } { \\pi } } \\overline { X }\">\\sqrt { \\frac { 2 } { \\pi } } \\overline { X }</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/probability/ch116/q0010_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\frac {1}{n} \\sum_ {i = 1} ^ {n} X _ {i} ^ {2}\">\\frac {1}{n} \\sum_ {i = 1} ^ {n} X _ {i} ^ {2}</span>"
         }
       ],
       "answer": "A",
       "answer_index": 0,
-      "analysis_html": "<img src=\"/static/generated/assets/probability/ch116/q0010_analysis.png\"/>"
+      "analysis_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{aligned}&amp;L(\\theta)=\\prod_{i=1}^{n}f(x_{i};\\theta)=\\theta^{-2n}\\prod_{i=1}^{n}x_{i}e^{-\\frac{1}{2\\theta^{2}}\\sum_{i=1}^{n}x_{i}^{2}},\\;x_{i}&gt;0,i=1,2,\\cdots,n.\\\\&amp;\\text{令}\\frac{d\\ln L(\\theta)}{d\\theta}=0,\\; \\text{得}\\\\&amp;\\qquad-\\frac{2n}{\\theta}+\\frac{1}{\\theta^{2}}\\sum_{i=1}^{n}x_{i}^{2}=0\\,,\\\\&amp;\\text{故}\\theta\\text{极大似然估计为}\\\\&amp;\\qquad\\quad\\hat{\\theta}=\\sqrt{\\frac{1}{2n}\\sum_{i=1}^{n}x_{i}^{2}}.\\end{aligned}\">\\begin{aligned}&amp;L(\\theta)=\\prod_{i=1}^{n}f(x_{i};\\theta)=\\theta^{-2n}\\prod_{i=1}^{n}x_{i}e^{-\\frac{1}{2\\theta^{2}}\\sum_{i=1}^{n}x_{i}^{2}},\\;x_{i}&gt;0,i=1,2,\\cdots,n.\\\\&amp;\\text{令}\\frac{d\\ln L(\\theta)}{d\\theta}=0,\\; \\text{得}\\\\&amp;\\qquad-\\frac{2n}{\\theta}+\\frac{1}{\\theta^{2}}\\sum_{i=1}^{n}x_{i}^{2}=0\\,,\\\\&amp;\\text{故}\\theta\\text{极大似然估计为}\\\\&amp;\\qquad\\quad\\hat{\\theta}=\\sqrt{\\frac{1}{2n}\\sum_{i=1}^{n}x_{i}^{2}}.\\end{aligned}</div>"
     },
     {
       "id": "q0011",
       "number": 11,
       "header": "#11-Averge",
       "difficulty": "Averge",
-      "prompt_html": "<img src=\"/static/generated/assets/probability/ch116/q0011_prompt.png\"/>",
+      "prompt_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\text{设总体} \\lambda \\text{服从指数分布，其概率密度函数为} f(x;\\lambda)=\\begin{cases} \\lambda e^{-\\lambda x}, &amp; x&gt;0 \\\\ 0, &amp; x\\leq 0 \\end{cases}, \\text{其中} \\lambda&gt;0 \\text{是未知参数. 设} x_{1},x_{2},\\cdots,x_{n} \\text{是来自总体} \\lambda \\text{的样本观察值，则参数} \\lambda \\text{的最大似然估计值为（）.}\">\\text{设总体} \\lambda \\text{服从指数分布，其概率密度函数为} f(x;\\lambda)=\\begin{cases} \\lambda e^{-\\lambda x}, &amp; x&gt;0 \\\\ 0, &amp; x\\leq 0 \\end{cases}, \\text{其中} \\lambda&gt;0 \\text{是未知参数. 设} x_{1},x_{2},\\cdots,x_{n} \\text{是来自总体} \\lambda \\text{的样本观察值，则参数} \\lambda \\text{的最大似然估计值为（）.}</div>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/probability/ch116/q0011_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\hat { \\lambda } = \\frac { 1 } { x }\">\\hat { \\lambda } = \\frac { 1 } { x }</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/probability/ch116/q0011_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\hat { \\lambda } = - \\frac { 1 } { x }\">\\hat { \\lambda } = - \\frac { 1 } { x }</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/probability/ch116/q0011_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\hat { \\lambda } = \\frac { 2 } { x }\">\\hat { \\lambda } = \\frac { 2 } { x }</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/probability/ch116/q0011_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\hat { \\lambda } = \\frac { 3 } { x }\">\\hat { \\lambda } = \\frac { 3 } { x }</span>"
         }
       ],
       "answer": "A",
       "answer_index": 0,
-      "analysis_html": "<img src=\"/static/generated/assets/probability/ch116/q0011_analysis.png\"/>"
+      "analysis_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{aligned}&amp;\\text{似然函数为} \\\\&amp;L_{i}(\\lambda)=\\lambda^{n}e^{-\\lambda\\sum_{i=1}^{n}x_{i}},\\, x_{i}&gt;0,i=1,2,\\cdots,n. \\\\&amp;\\text{取对数，即}\\ln L_{i}(x_{1},x_{2},\\cdots,x_{n};\\lambda)=n\\ln\\lambda-\\lambda\\sum_{i=1}^{n}x_{i}, \\\\&amp;\\text{求导数，即}\\frac{d\\ln L_{i}(x_{1},x_{2},\\cdots,x_{n};\\lambda)}{d\\lambda}=\\frac{n}{\\lambda}-\\sum_{i=1}^{n}x_{i}=0,\\, \\\\&amp;\\text{得参数}\\lambda\\text{的最大似然估计值为} \\\\&amp;\\quad \\end{aligned}\">\\begin{aligned}&amp;\\text{似然函数为} \\\\&amp;L_{i}(\\lambda)=\\lambda^{n}e^{-\\lambda\\sum_{i=1}^{n}x_{i}},\\, x_{i}&gt;0,i=1,2,\\cdots,n. \\\\&amp;\\text{取对数，即}\\ln L_{i}(x_{1},x_{2},\\cdots,x_{n};\\lambda)=n\\ln\\lambda-\\lambda\\sum_{i=1}^{n}x_{i}, \\\\&amp;\\text{求导数，即}\\frac{d\\ln L_{i}(x_{1},x_{2},\\cdots,x_{n};\\lambda)}{d\\lambda}=\\frac{n}{\\lambda}-\\sum_{i=1}^{n}x_{i}=0,\\, \\\\&amp;\\text{得参数}\\lambda\\text{的最大似然估计值为} \\\\&amp;\\quad \\end{aligned}</div>"
     },
     {
       "id": "q0012",
       "number": 12,
       "header": "#12-Averge",
       "difficulty": "Averge",
-      "prompt_html": "<img src=\"/static/generated/assets/probability/ch116/q0012_prompt.png\"/>",
+      "prompt_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{aligned} f(x;a)&amp;=\\begin{cases} \\dfrac{2}{a^2}(a-x), &amp; 0 &lt; x &lt; a, \\\\ \\\\ 0, &amp; \\text{其它} \\end{cases} \\end{aligned}\">\\begin{aligned} f(x;a)&amp;=\\begin{cases} \\dfrac{2}{a^2}(a-x), &amp; 0 &lt; x &lt; a, \\\\ \\\\ 0, &amp; \\text{其它} \\end{cases} \\end{aligned}</div>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/probability/ch116/q0012_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"2 X _ { 1 }\">2 X _ { 1 }</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/probability/ch116/q0012_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"3 X _ { 1 }\">3 X _ { 1 }</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/probability/ch116/q0012_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\frac{1}{2}\\overline{x}\">\\frac{1}{2}\\overline{x}</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/probability/ch116/q0012_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\overline { 3 \\bar { X } }\">\\overline { 3 \\bar { X } }</span>"
         }
       ],
       "answer": "A",
       "answer_index": 0,
-      "analysis_html": "<img src=\"/static/generated/assets/probability/ch116/q0012_analysis.png\"/>"
+      "analysis_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{aligned}&amp;\\text{当}n=1\\text{时，似然函数为}\\\\&amp;\\quad L(a)=\\prod_{i=1}^{n}f(x_{i};a)=\\frac{2}{a^{2}}(a-x_{1}),\\quad0&lt;x_{1}&lt;a.\\\\&amp;\\text{令}\\frac{dL(a)}{da}=0,\\text{得}-\\frac{2}{a^{2}}+\\frac{4}{a^{3}}x_{1}=0,\\text{即}a=2x_{1}.\\\\&amp;\\text{故}a\\text{的极大似然估计量为}\\widehat{a}=2X_{1}.\\end{aligned}\">\\begin{aligned}&amp;\\text{当}n=1\\text{时，似然函数为}\\\\&amp;\\quad L(a)=\\prod_{i=1}^{n}f(x_{i};a)=\\frac{2}{a^{2}}(a-x_{1}),\\quad0&lt;x_{1}&lt;a.\\\\&amp;\\text{令}\\frac{dL(a)}{da}=0,\\text{得}-\\frac{2}{a^{2}}+\\frac{4}{a^{3}}x_{1}=0,\\text{即}a=2x_{1}.\\\\&amp;\\text{故}a\\text{的极大似然估计量为}\\widehat{a}=2X_{1}.\\end{aligned}</div>"
     },
     {
       "id": "q0013",
       "number": 13,
       "header": "#13-Averge",
       "difficulty": "Averge",
-      "prompt_html": "<img src=\"/static/generated/assets/probability/ch116/q0013_prompt.png\"/>",
+      "prompt_html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{设总体}X\\text{服从正态总体}N(\\mu,\\sigma^{2})，\\text{其中}\\mu,\\sigma^{2}\\text{未知},\\,X_{1},X_{2},\\cdots,X_{n}\\text{是来自该总体的样本，则}\\sigma^{2}\\text{的极大似然估计是}( ).\">\\text{设总体}X\\text{服从正态总体}N(\\mu,\\sigma^{2})，\\text{其中}\\mu,\\sigma^{2}\\text{未知},\\,X_{1},X_{2},\\cdots,X_{n}\\text{是来自该总体的样本，则}\\sigma^{2}\\text{的极大似然估计是}( ).</span>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/probability/ch116/q0013_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\frac {1}{n} \\sum_ {i = 1} ^ {n} (X _ {i} - \\overline {X}) ^ {2}\">\\frac {1}{n} \\sum_ {i = 1} ^ {n} (X _ {i} - \\overline {X}) ^ {2}</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/probability/ch116/q0013_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\frac {1}{n - 1} \\sum_ {i = 1} ^ {n} (X _ {i} - \\mu) ^ {2}\">\\frac {1}{n - 1} \\sum_ {i = 1} ^ {n} (X _ {i} - \\mu) ^ {2}</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/probability/ch116/q0013_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\frac {1}{n} \\sum_ {i = 1} ^ {n} X _ {i} ^ {2}\">\\frac {1}{n} \\sum_ {i = 1} ^ {n} X _ {i} ^ {2}</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/probability/ch116/q0013_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\frac{1}{n-1} \\sum_{i=1}^{n} (X_{i} - \\overline{X})^{2}\">\\frac{1}{n-1} \\sum_{i=1}^{n} (X_{i} - \\overline{X})^{2}</span>"
         }
       ],
       "answer": "A",
       "answer_index": 0,
-      "analysis_html": "<img src=\"/static/generated/assets/probability/ch116/q0013_analysis.png\"/>"
+      "analysis_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{aligned}&amp;\\text{记似然函数}L(x_{1},x_{2},\\cdots,x_{n};\\mu,\\sigma^{2})=L(\\mu,\\sigma^{2})\\text{，则}\\\\&amp;L(\\mu,\\sigma^{2})=\\prod_{i=1}^{n}\\left(\\frac{1}{\\sqrt{2\\pi}\\sigma}e^{-\\frac{(x_{i}-\\mu)^{2}}{2\\sigma^{2}}}\\right)=(\\sqrt{2\\pi})^{-n}(\\sigma^{2})^{-n/2}\\exp\\left\\{-\\frac{1}{2\\sigma^{2}}\\sum_{i=1}^{n}(x_{i}-\\mu)^{2}\\right\\}\\\\&amp;\\quad\\ln L(\\mu,\\sigma^{2})=-n\\ln\\sqrt{2\\pi}-\\frac{n}{2}\\ln\\sigma^{2}-\\frac{1}{2\\sigma^{2}}\\sum_{i=1}^{n}(x_{i}-\\mu)^{2}\\\\&amp;\\quad\\frac{\\partial\\ln L}{\\partial\\mu}=\\frac{1}{\\sigma^{2}}\\sum_{i=1}^{n}(x_{i}-\\mu)=0\\,,\\\\&amp;\\quad\\frac{\\partial\\ln L}{\\partial\\sigma^{2}}=\\frac{1}{2\\sigma^{4}}\\sum_{i=1}^{n}(x_{i}-\\mu)^{2}-\\frac{n}{2\\sigma^{2}}=0\\\\&amp;\\text{由此可得参数}\\mu\\text{和}\\sigma^{2}\\text{的最大似然估计量为}\\\\&amp;\\quad\\hat{\\mu}=\\frac{1}{n}\\sum_{i=1}^{n}X_{i}=\\widehat{X},\\quad\\quad\\widehat{\\sigma}^{2}=\\frac{1}{n}\\sum_{i=1}^{n}(X_{i}-\\widehat{X})^{2}.\\end{aligned}\">\\begin{aligned}&amp;\\text{记似然函数}L(x_{1},x_{2},\\cdots,x_{n};\\mu,\\sigma^{2})=L(\\mu,\\sigma^{2})\\text{，则}\\\\&amp;L(\\mu,\\sigma^{2})=\\prod_{i=1}^{n}\\left(\\frac{1}{\\sqrt{2\\pi}\\sigma}e^{-\\frac{(x_{i}-\\mu)^{2}}{2\\sigma^{2}}}\\right)=(\\sqrt{2\\pi})^{-n}(\\sigma^{2})^{-n/2}\\exp\\left\\{-\\frac{1}{2\\sigma^{2}}\\sum_{i=1}^{n}(x_{i}-\\mu)^{2}\\right\\}\\\\&amp;\\quad\\ln L(\\mu,\\sigma^{2})=-n\\ln\\sqrt{2\\pi}-\\frac{n}{2}\\ln\\sigma^{2}-\\frac{1}{2\\sigma^{2}}\\sum_{i=1}^{n}(x_{i}-\\mu)^{2}\\\\&amp;\\quad\\frac{\\partial\\ln L}{\\partial\\mu}=\\frac{1}{\\sigma^{2}}\\sum_{i=1}^{n}(x_{i}-\\mu)=0\\,,\\\\&amp;\\quad\\frac{\\partial\\ln L}{\\partial\\sigma^{2}}=\\frac{1}{2\\sigma^{4}}\\sum_{i=1}^{n}(x_{i}-\\mu)^{2}-\\frac{n}{2\\sigma^{2}}=0\\\\&amp;\\text{由此可得参数}\\mu\\text{和}\\sigma^{2}\\text{的最大似然估计量为}\\\\&amp;\\quad\\hat{\\mu}=\\frac{1}{n}\\sum_{i=1}^{n}X_{i}=\\widehat{X},\\quad\\quad\\widehat{\\sigma}^{2}=\\frac{1}{n}\\sum_{i=1}^{n}(X_{i}-\\widehat{X})^{2}.\\end{aligned}</div>"
     }
-  ]
+  ],
+  "format": "latex",
+  "source_md": "gl/7.2.1.2_最大似然估计法(13题)/7.2.1.2_最大似然估计法(13题).md"
 }

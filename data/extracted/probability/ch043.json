@@ -13,84 +13,86 @@
       "number": 1,
       "header": "#1-Averge",
       "difficulty": "Averge",
-      "prompt_html": "<img src=\"/static/generated/assets/probability/ch043/q0001_prompt.png\"/>",
+      "prompt_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{aligned}\\text{若}(\\xi,\\eta)\\text{的联合分布律为} \\\\\\begin{array}{|c|c|c|c|}\\hline \\eta &amp; 1 &amp; 2 &amp; 3 \\\\ \\hline \\xi &amp; &amp; &amp; \\\\ 0 &amp; 0.1 &amp; 0.2 &amp; 0.1 \\\\ 1 &amp; 0.2 &amp; 0.1 &amp; 0.3 \\\\ \\hline \\end{array} \\text{则在}\\eta\\neq 1\\text{时关于}\\xi\\text{的条件分布律为()。} \\end{aligned}\">\\begin{aligned}\\text{若}(\\xi,\\eta)\\text{的联合分布律为} \\\\\\begin{array}{|c|c|c|c|}\\hline \\eta &amp; 1 &amp; 2 &amp; 3 \\\\ \\hline \\xi &amp; &amp; &amp; \\\\ 0 &amp; 0.1 &amp; 0.2 &amp; 0.1 \\\\ 1 &amp; 0.2 &amp; 0.1 &amp; 0.3 \\\\ \\hline \\end{array} \\text{则在}\\eta\\neq 1\\text{时关于}\\xi\\text{的条件分布律为()。} \\end{aligned}</div>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/probability/ch043/q0001_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\begin{array}{l}\n\\begin{array}{|c|c c|} \\hline \\xi &amp; 0 &amp; 1 \\\\ \\hline P_{\\xi \\mid \\eta = 1} &amp; \\frac{3}{7} &amp; \\frac{4}{7} \\\\ \\hline \\end{array}\n\\end{array}\">\\begin{array}{l}\n\\begin{array}{|c|c c|} \\hline \\xi &amp; 0 &amp; 1 \\\\ \\hline P_{\\xi \\mid \\eta = 1} &amp; \\frac{3}{7} &amp; \\frac{4}{7} \\\\ \\hline \\end{array}\n\\end{array}</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/probability/ch043/q0001_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\begin{array}{l}\n\\begin{array}{|c|c c|} \\hline \\zeta &amp; 0 &amp; 1 \\\\ \\hline P_{\\xi \\mid \\eta \\neq 1} &amp; \\underline{4/7} &amp; \\underline{3/7} \\\\ \\hline \\end{array}\n\\end{array}\">\\begin{array}{l}\n\\begin{array}{|c|c c|} \\hline \\zeta &amp; 0 &amp; 1 \\\\ \\hline P_{\\xi \\mid \\eta \\neq 1} &amp; \\underline{4/7} &amp; \\underline{3/7} \\\\ \\hline \\end{array}\n\\end{array}</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/probability/ch043/q0001_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\begin{array}{l}\n\\begin{array}{|c|c c|} \\hline \\xi &amp; 0 &amp; 1 \\\\ \\hline P_{\\xi \\mid \\eta = 1} &amp; 1/3 &amp; 2/3 \\\\ \\hline \\end{array}\n\\end{array}\">\\begin{array}{l}\n\\begin{array}{|c|c c|} \\hline \\xi &amp; 0 &amp; 1 \\\\ \\hline P_{\\xi \\mid \\eta = 1} &amp; 1/3 &amp; 2/3 \\\\ \\hline \\end{array}\n\\end{array}</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/probability/ch043/q0001_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\begin{array}{l}\n\\begin{array}{|c|c c|} \\hline \\zeta &amp; 0 &amp; 1 \\\\ \\hline P_{\\xi \\mid \\eta \\neq 1} &amp; \\frac{2}{3} &amp; \\frac{1}{3} \\\\ \\hline \\end{array}\n\\end{array}\">\\begin{array}{l}\n\\begin{array}{|c|c c|} \\hline \\zeta &amp; 0 &amp; 1 \\\\ \\hline P_{\\xi \\mid \\eta \\neq 1} &amp; \\frac{2}{3} &amp; \\frac{1}{3} \\\\ \\hline \\end{array}\n\\end{array}</span>"
         }
       ],
       "answer": "A",
       "answer_index": 0,
-      "analysis_html": "<img src=\"/static/generated/assets/probability/ch043/q0001_analysis.png\"/>"
+      "analysis_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{aligned}&amp;\\text{根据条件分布的定义，有} \\\\&amp;P\\{\\xi=i|\\eta\\neq 1\\}=\\frac{P\\{\\xi=i,\\eta\\neq 1\\}}{P\\{\\eta\\neq 1\\}}=\\frac{P\\{\\xi=i,\\eta=2\\}+P\\{\\xi=i,\\eta=3\\}}{P\\{\\eta=2\\}+P\\{\\eta=3\\}},\\ i=0,1.\\\\&amp;\\text{所以，在}\\eta\\neq 1\\text{ 条件下关于}\\xi\\text{的条件分布律为}\\\\&amp;\\quad\\begin{array}{|c|c|c|c|}\\hline\\xi&amp;0&amp;1\\\\ \\hline P_{\\xi\\mid\\eta=1}&amp;3/7&amp;4/7\\\\ \\hline\\end{array}.\\end{aligned}\">\\begin{aligned}&amp;\\text{根据条件分布的定义，有} \\\\&amp;P\\{\\xi=i|\\eta\\neq 1\\}=\\frac{P\\{\\xi=i,\\eta\\neq 1\\}}{P\\{\\eta\\neq 1\\}}=\\frac{P\\{\\xi=i,\\eta=2\\}+P\\{\\xi=i,\\eta=3\\}}{P\\{\\eta=2\\}+P\\{\\eta=3\\}},\\ i=0,1.\\\\&amp;\\text{所以，在}\\eta\\neq 1\\text{ 条件下关于}\\xi\\text{的条件分布律为}\\\\&amp;\\quad\\begin{array}{|c|c|c|c|}\\hline\\xi&amp;0&amp;1\\\\ \\hline P_{\\xi\\mid\\eta=1}&amp;3/7&amp;4/7\\\\ \\hline\\end{array}.\\end{aligned}</div>"
     },
     {
       "id": "q0002",
       "number": 2,
       "header": "#2-Averge",
       "difficulty": "Averge",
-      "prompt_html": "<img src=\"/static/generated/assets/probability/ch043/q0002_prompt.png\"/>",
+      "prompt_html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{在整数}0\\text{至}9\\text{中先取一数}\\zeta\\text{后放回再取一数}\\eta\\text{，则在}\\eta=k(0\\leq k\\leq 9)\\text{的条件下，}\\zeta\\text{的分布律为}( ).\">\\text{在整数}0\\text{至}9\\text{中先取一数}\\zeta\\text{后放回再取一数}\\eta\\text{，则在}\\eta=k(0\\leq k\\leq 9)\\text{的条件下，}\\zeta\\text{的分布律为}( ).</span>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/probability/ch043/q0002_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\begin{aligned}P\\{\\xi = i | \\eta = k \\} = \\frac{1}{10}, \\ \\ i = 0, 1, \\cdots, 9\\end{aligned}\">\\begin{aligned}P\\{\\xi = i | \\eta = k \\} = \\frac{1}{10}, \\ \\ i = 0, 1, \\cdots, 9\\end{aligned}</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/probability/ch043/q0002_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\begin{aligned}P\\{\\xi = i\\} = \\frac{1}{10}\\end{aligned}\">\\begin{aligned}P\\{\\xi = i\\} = \\frac{1}{10}\\end{aligned}</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/probability/ch043/q0002_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\begin{aligned}P\\{\\xi = i\\} = \\frac{1}{10}, \\ \\ i = 0, 1, \\cdots, 9\\end{aligned}\">\\begin{aligned}P\\{\\xi = i\\} = \\frac{1}{10}, \\ \\ i = 0, 1, \\cdots, 9\\end{aligned}</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/probability/ch043/q0002_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\begin{aligned}P\\{\\xi = i | \\eta = k \\} = \\frac{1}{10}\\end{aligned}\">\\begin{aligned}P\\{\\xi = i | \\eta = k \\} = \\frac{1}{10}\\end{aligned}</span>"
         }
       ],
       "answer": "A",
       "answer_index": 0,
-      "analysis_html": "<img src=\"/static/generated/assets/probability/ch043/q0002_analysis.png\"/>"
+      "analysis_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{aligned}&amp; \\text{因为是放回取数，所以}\\xi,\\eta \\text{是相互独立，故} \\\\&amp; P\\{\\xi=i|\\eta=k\\}=P\\{\\xi=i\\}=\\frac{1}{10},\\ \\ i=0,1,\\cdots,9\\,.\\end{aligned}\">\\begin{aligned}&amp; \\text{因为是放回取数，所以}\\xi,\\eta \\text{是相互独立，故} \\\\&amp; P\\{\\xi=i|\\eta=k\\}=P\\{\\xi=i\\}=\\frac{1}{10},\\ \\ i=0,1,\\cdots,9\\,.\\end{aligned}</div>"
     },
     {
       "id": "q0003",
       "number": 3,
       "header": "#3-Averge",
       "difficulty": "Averge",
-      "prompt_html": "<img src=\"/static/generated/assets/probability/ch043/q0003_prompt.png\"/>",
+      "prompt_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{aligned}\\text{设随机变量}\\left(\\xi,\\eta\\right) \\text{的联合分布律为}P\\left\\{\\xi=x_{i},\\eta=y_{j}\\right\\}=p_{ij}\\left(i,j=1,2,\\cdots\\right),\\text{关于}\\xi\\text{和关于}\\eta\\text{的边缘分布律分别为}\\\\p_{i*}\\left(i=1,2,\\cdots\\right)\\text{和}p_{j*}\\left(j=1,2,\\cdots\\right),\\text{若}p_{ij}&gt;0,\\text{则在}\\eta=y_{j}\\text{条件下，关于}\\xi\\text{的条件分布律}P\\left\\{\\xi=x_{i}|\\eta=y_{j}\\right\\}=\\left(\\,\\right).\\end{aligned}\">\\begin{aligned}\\text{设随机变量}\\left(\\xi,\\eta\\right) \\text{的联合分布律为}P\\left\\{\\xi=x_{i},\\eta=y_{j}\\right\\}=p_{ij}\\left(i,j=1,2,\\cdots\\right),\\text{关于}\\xi\\text{和关于}\\eta\\text{的边缘分布律分别为}\\\\p_{i*}\\left(i=1,2,\\cdots\\right)\\text{和}p_{j*}\\left(j=1,2,\\cdots\\right),\\text{若}p_{ij}&gt;0,\\text{则在}\\eta=y_{j}\\text{条件下，关于}\\xi\\text{的条件分布律}P\\left\\{\\xi=x_{i}|\\eta=y_{j}\\right\\}=\\left(\\,\\right).\\end{aligned}</div>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/probability/ch043/q0003_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\begin{aligned}\\frac{p_{ij}}{p_{,i}}, \\ \\ i=1,2,\\cdots\\end{aligned}\">\\begin{aligned}\\frac{p_{ij}}{p_{,i}}, \\ \\ i=1,2,\\cdots\\end{aligned}</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/probability/ch043/q0003_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\frac{p_{i\\theta}}{p_{i*}}\">\\frac{p_{i\\theta}}{p_{i*}}</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/probability/ch043/q0003_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\frac{p_{ij}}{p_{i*}},\\ j=1,2,\\cdots\">\\frac{p_{ij}}{p_{i*}},\\ j=1,2,\\cdots</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/probability/ch043/q0003_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\frac{p_{ij}}{p_{j}}\">\\frac{p_{ij}}{p_{j}}</span>"
         }
       ],
       "answer": "A",
       "answer_index": 0,
-      "analysis_html": "<img src=\"/static/generated/assets/probability/ch043/q0003_analysis.png\"/>"
+      "analysis_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{aligned}P\\{X=x_i|Y=y_j\\}=\\frac{P\\{X=x_i,\\,Y=y_j\\}}{P\\{Y=y_j\\}}=\\frac{p_{ij}}{p_{ij}},\\,\\,i=1,\\,2,\\,\\cdots.\\end{aligned}\">\\begin{aligned}P\\{X=x_i|Y=y_j\\}=\\frac{P\\{X=x_i,\\,Y=y_j\\}}{P\\{Y=y_j\\}}=\\frac{p_{ij}}{p_{ij}},\\,\\,i=1,\\,2,\\,\\cdots.\\end{aligned}</div>"
     }
-  ]
+  ],
+  "format": "latex",
+  "source_md": "gl/3.2.1.3_联合与条件分布律(3题)/3.2.1.3_联合与条件分布律(3题).md"
 }

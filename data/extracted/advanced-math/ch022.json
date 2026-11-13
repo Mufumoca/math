@@ -13,252 +13,254 @@
       "number": 1,
       "header": "#1-Averge",
       "difficulty": "Averge",
-      "prompt_html": "<img src=\"/static/generated/assets/advanced-math/ch022/q0001_prompt.png\"/>",
+      "prompt_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\text{对于函数} \\ f(x) = \\begin{cases} x \\sin \\frac{1}{x}, &amp; x \\neq 0; \\\\ 0, &amp; x = 0. \\end{cases} \\text{在} x = 0 \\text{的连续性与可导性，下列说法正确的是（）。}\">\\text{对于函数} \\ f(x) = \\begin{cases} x \\sin \\frac{1}{x}, &amp; x \\neq 0; \\\\ 0, &amp; x = 0. \\end{cases} \\text{在} x = 0 \\text{的连续性与可导性，下列说法正确的是（）。}</div>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch022/q0001_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{不连续，可导}\">\\text{不连续，可导}</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch022/q0001_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{连续，不可导}\">\\text{连续，不可导}</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch022/q0001_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{不连续，不可导}\">\\text{不连续，不可导}</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch022/q0001_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{连续，可导}\">\\text{连续，可导}</span>"
         }
       ],
       "answer": "B",
       "answer_index": 1,
-      "analysis_html": "<img src=\"/static/generated/assets/advanced-math/ch022/q0001_analysis.png\"/>"
+      "analysis_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{aligned}&amp;\\text{解答 因为}\\sin \\frac{1}{x} \\text{ 是有界函数，所以}\\lim_{x \\rightarrow 0} x \\sin \\frac{1}{x}=0.\\\\&amp;\\text{因为}f(0)=\\lim_{x \\rightarrow 0} f(x)=0，\\text{所以}f(x) \\text{在}x=0\\text{处连续}。\\\\&amp;\\text{但在}x=0 \\text{处有} \\frac{\\Delta y}{\\Delta x}=\\frac{(0+\\Delta x)\\sin \\frac{1}{0+\\Delta x}-0}{\\Delta x}=\\sin \\frac{1}{\\Delta x},\\\\&amp;\\text{当}\\Delta x \\rightarrow 0 \\text{时，}\\frac{\\Delta y}{\\Delta x} \\text{在-1和1之间振荡而极限不存在，所以}f(x) \\text{在}x=0 \\text{处不可导。}\\end{aligned}\">\\begin{aligned}&amp;\\text{解答 因为}\\sin \\frac{1}{x} \\text{ 是有界函数，所以}\\lim_{x \\rightarrow 0} x \\sin \\frac{1}{x}=0.\\\\&amp;\\text{因为}f(0)=\\lim_{x \\rightarrow 0} f(x)=0，\\text{所以}f(x) \\text{在}x=0\\text{处连续}。\\\\&amp;\\text{但在}x=0 \\text{处有} \\frac{\\Delta y}{\\Delta x}=\\frac{(0+\\Delta x)\\sin \\frac{1}{0+\\Delta x}-0}{\\Delta x}=\\sin \\frac{1}{\\Delta x},\\\\&amp;\\text{当}\\Delta x \\rightarrow 0 \\text{时，}\\frac{\\Delta y}{\\Delta x} \\text{在-1和1之间振荡而极限不存在，所以}f(x) \\text{在}x=0 \\text{处不可导。}\\end{aligned}</div>"
     },
     {
       "id": "q0002",
       "number": 2,
       "header": "#2-Averge",
       "difficulty": "Averge",
-      "prompt_html": "<img src=\"/static/generated/assets/advanced-math/ch022/q0002_prompt.png\"/>",
+      "prompt_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\text{若} \\ f(x) = \\begin{cases} b(1+\\sin x)+a+2, &amp; x&gt;0, \\\\ e^{ax}-1, &amp; x\\leq 0, \\end{cases} \\text{在} x=0 \\text{处可导，则} a,b \\text{的值分别为（）。}\">\\text{若} \\ f(x) = \\begin{cases} b(1+\\sin x)+a+2, &amp; x&gt;0, \\\\ e^{ax}-1, &amp; x\\leq 0, \\end{cases} \\text{在} x=0 \\text{处可导，则} a,b \\text{的值分别为（）。}</div>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch022/q0002_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\begin{array}{l}a=0,b=1 \\end{array}\">\\begin{array}{l}a=0,b=1 \\end{array}</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch022/q0002_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\begin{array}{l} { r } { a = - 1 , b = - 1 } \\end{array}\">\\begin{array}{l} { r } { a = - 1 , b = - 1 } \\end{array}</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch022/q0002_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\boldsymbol { a } = 1 , \\boldsymbol { b } = 1\">\\boldsymbol { a } = 1 , \\boldsymbol { b } = 1</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch022/q0002_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\stackrel{.}{a} = 1, b = - 1\">\\stackrel{.}{a} = 1, b = - 1</span>"
         }
       ],
       "answer": "B",
       "answer_index": 1,
-      "analysis_html": "<img src=\"/static/generated/assets/advanced-math/ch022/q0002_analysis.png\"/>"
+      "analysis_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{aligned}&amp;\\text{解答 利用可导与连续的关系。可导一定连续，再根据连续的性质确定参数。}\\\\&amp;\\text{因为 }f(x)\\text{ 在}x=0\\text{处可导，则 }f(x)\\text{ 在}x=0\\text{处连续，所以 }f(0+0)=f(0-0),\\ f_{+}^{\\prime}(0)=f_{-}^{\\prime}(0).\\\\&amp;\\text{又因为 }f(0+0)=b+a+2,\\ f(0-0)=0,\\ \\Rightarrow b+a+2=0\\quad(1)\\\\&amp;f_{-}^{\\prime}(0)=\\lim_{x\\rightarrow0}\\frac{b(1+\\sin\\Delta x)+a-2}{\\Delta x}=0^{(1)}=b,\\ f_{+}^{\\prime}(0)=\\lim_{x\\rightarrow0}\\frac{e^{a\\Delta x}-1-0}{\\Delta x}=a,\\ \\Rightarrow a=b\\quad(2)\\\\&amp;\\text{由(1)(2)可知，}a=-1,b=-1.\\end{aligned}\">\\begin{aligned}&amp;\\text{解答 利用可导与连续的关系。可导一定连续，再根据连续的性质确定参数。}\\\\&amp;\\text{因为 }f(x)\\text{ 在}x=0\\text{处可导，则 }f(x)\\text{ 在}x=0\\text{处连续，所以 }f(0+0)=f(0-0),\\ f_{+}^{\\prime}(0)=f_{-}^{\\prime}(0).\\\\&amp;\\text{又因为 }f(0+0)=b+a+2,\\ f(0-0)=0,\\ \\Rightarrow b+a+2=0\\quad(1)\\\\&amp;f_{-}^{\\prime}(0)=\\lim_{x\\rightarrow0}\\frac{b(1+\\sin\\Delta x)+a-2}{\\Delta x}=0^{(1)}=b,\\ f_{+}^{\\prime}(0)=\\lim_{x\\rightarrow0}\\frac{e^{a\\Delta x}-1-0}{\\Delta x}=a,\\ \\Rightarrow a=b\\quad(2)\\\\&amp;\\text{由(1)(2)可知，}a=-1,b=-1.\\end{aligned}</div>"
     },
     {
       "id": "q0003",
       "number": 3,
       "header": "#3-Averge",
       "difficulty": "Averge",
-      "prompt_html": "<img src=\"/static/generated/assets/advanced-math/ch022/q0003_prompt.png\"/>",
+      "prompt_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\text{设}f(x)=\\begin{cases}\\sin x,&amp;-\\infty &lt; x &lt; 0,\\\\ x,&amp;0\\leq x &lt; \\infty,\\end{cases} \\text{则}f(x)\\text{在}x=0\\text{处}( )。\">\\text{设}f(x)=\\begin{cases}\\sin x,&amp;-\\infty &lt; x &lt; 0,\\\\ x,&amp;0\\leq x &lt; \\infty,\\end{cases} \\text{则}f(x)\\text{在}x=0\\text{处}( )。</div>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch022/q0003_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{不连续}\">\\text{不连续}</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch022/q0003_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{连续但不可导}\">\\text{连续但不可导}</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch022/q0003_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{左导} \\text{不等于右导}\">\\text{左导} \\text{不等于右导}</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch022/q0003_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{可导}\">\\text{可导}</span>"
         }
       ],
       "answer": "D",
       "answer_index": 3,
-      "analysis_html": "<img src=\"/static/generated/assets/advanced-math/ch022/q0003_analysis.png\"/>"
+      "analysis_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{aligned}&amp;\\text{解答}\\lim_{x\\rightarrow 0^{-}}f(x)=f(0)=0=\\lim_{x\\rightarrow 0^{-}}f(x)，\\text{所以}f(x)\\text{在}x=0\\text{连续}。\\\\&amp;f_{+}^{\\prime}(0)=\\lim_{x\\rightarrow 0^{-}}\\frac{x}{x}=1=\\lim_{x\\rightarrow 0^{-}}\\frac{\\sin x-0}{x}=f_{-}^{\\prime}(0)，\\text{所以}f(x)\\text{在}x=0\\text{可导}。\\end{aligned}\">\\begin{aligned}&amp;\\text{解答}\\lim_{x\\rightarrow 0^{-}}f(x)=f(0)=0=\\lim_{x\\rightarrow 0^{-}}f(x)，\\text{所以}f(x)\\text{在}x=0\\text{连续}。\\\\&amp;f_{+}^{\\prime}(0)=\\lim_{x\\rightarrow 0^{-}}\\frac{x}{x}=1=\\lim_{x\\rightarrow 0^{-}}\\frac{\\sin x-0}{x}=f_{-}^{\\prime}(0)，\\text{所以}f(x)\\text{在}x=0\\text{可导}。\\end{aligned}</div>"
     },
     {
       "id": "q0004",
       "number": 4,
       "header": "#4-Averge",
       "difficulty": "Averge",
-      "prompt_html": "<img src=\"/static/generated/assets/advanced-math/ch022/q0004_prompt.png\"/>",
+      "prompt_html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{对于函数}f(x)=x\\left|x\\right|\\text{在点}x=0\\text{处的连续性与可导性，下列说法正确的是（）。}\">\\text{对于函数}f(x)=x\\left|x\\right|\\text{在点}x=0\\text{处的连续性与可导性，下列说法正确的是（）。}</span>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch022/q0004_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{不连续，不可导}\">\\text{不连续，不可导}</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch022/q0004_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{不连续，可导}\">\\text{不连续，可导}</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch022/q0004_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{连续，不可导}\">\\text{连续，不可导}</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch022/q0004_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{连续，可导}\">\\text{连续，可导}</span>"
         }
       ],
       "answer": "D",
       "answer_index": 3,
-      "analysis_html": "<img src=\"/static/generated/assets/advanced-math/ch022/q0004_analysis.png\"/>"
+      "analysis_html": "<span class=\"missing-source\">（原题库源图失效，暂无内容）</span>"
     },
     {
       "id": "q0005",
       "number": 5,
       "header": "#5-Averge",
       "difficulty": "Averge",
-      "prompt_html": "<img src=\"/static/generated/assets/advanced-math/ch022/q0005_prompt.png\"/>",
+      "prompt_html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{对于函数}f(x)=3x|x|\\text{在点}x=0 \\text{处的连续性与可导性，下列说法正确的是} [ \\quad ] .\">\\text{对于函数}f(x)=3x|x|\\text{在点}x=0 \\text{处的连续性与可导性，下列说法正确的是} [ \\quad ] .</span>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch022/q0005_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{连续，不可导};\">\\text{连续，不可导};</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch022/q0005_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{不连续，不可导};\">\\text{不连续，不可导};</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch022/q0005_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{不连续，可导}.\">\\text{不连续，可导}.</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch022/q0005_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{连续，可导};\">\\text{连续，可导};</span>"
         }
       ],
       "answer": "D",
       "answer_index": 3,
-      "analysis_html": "<img src=\"/static/generated/assets/advanced-math/ch022/q0005_analysis.png\"/>"
+      "analysis_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{aligned}&amp;\\text{解答 先由连续的概念判断函数在}x=0 \\text{处的连续性，再由导数的概念判断可导性.}\\\\&amp;\\lim_{x\\rightarrow 0^{-}}3x|x|=\\lim_{x\\rightarrow 0^{-}}(-3x^{2})=0,\\ \\lim_{x\\rightarrow 0^{+}}3x|x|=\\lim_{x\\rightarrow 0^{+}}3x^{2},\\ \\text{所以}\\lim_{x\\rightarrow 0^{-}}f(x)=\\lim_{x\\rightarrow 0^{+}}f(x),\\ \\text{即函数}f(x)\\text{在点}x=0 \\text{处}\\\\&amp;\\text{连续};\\\\&amp;f_{-}^{\\prime}(0)=\\lim_{x\\rightarrow 0^{-}}\\frac{f(x)-f(0)}{x-0}=\\lim_{x\\rightarrow 0^{-}}\\frac{-3x^{2}}{x}=0,\\ f_{+}^{\\prime}(0)=\\lim_{x\\rightarrow 0^{-}}\\frac{f(x)-f(0)}{x-0}=\\lim_{x\\rightarrow 0^{+}}\\frac{3x^{2}}{x}=0,\\\\&amp;\\text{由于}f_{-}^{\\prime}(0)=f_{+}^{\\prime}(0)=0,\\ \\text{所以函数在点}x=0 \\text{处可导.}\\end{aligned}\">\\begin{aligned}&amp;\\text{解答 先由连续的概念判断函数在}x=0 \\text{处的连续性，再由导数的概念判断可导性.}\\\\&amp;\\lim_{x\\rightarrow 0^{-}}3x|x|=\\lim_{x\\rightarrow 0^{-}}(-3x^{2})=0,\\ \\lim_{x\\rightarrow 0^{+}}3x|x|=\\lim_{x\\rightarrow 0^{+}}3x^{2},\\ \\text{所以}\\lim_{x\\rightarrow 0^{-}}f(x)=\\lim_{x\\rightarrow 0^{+}}f(x),\\ \\text{即函数}f(x)\\text{在点}x=0 \\text{处}\\\\&amp;\\text{连续};\\\\&amp;f_{-}^{\\prime}(0)=\\lim_{x\\rightarrow 0^{-}}\\frac{f(x)-f(0)}{x-0}=\\lim_{x\\rightarrow 0^{-}}\\frac{-3x^{2}}{x}=0,\\ f_{+}^{\\prime}(0)=\\lim_{x\\rightarrow 0^{-}}\\frac{f(x)-f(0)}{x-0}=\\lim_{x\\rightarrow 0^{+}}\\frac{3x^{2}}{x}=0,\\\\&amp;\\text{由于}f_{-}^{\\prime}(0)=f_{+}^{\\prime}(0)=0,\\ \\text{所以函数在点}x=0 \\text{处可导.}\\end{aligned}</div>"
     },
     {
       "id": "q0006",
       "number": 6,
       "header": "#6-Averge",
       "difficulty": "Averge",
-      "prompt_html": "<img src=\"/static/generated/assets/advanced-math/ch022/q0006_prompt.png\"/>",
+      "prompt_html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{关于函数}y=f(x)\\text{在点} \\mathcal{X}\\text{处连续，可导及可微三者的关系（）。}\">\\text{关于函数}y=f(x)\\text{在点} \\mathcal{X}\\text{处连续，可导及可微三者的关系（）。}</span>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch022/q0006_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{连续是可导的充分必要条件}\">\\text{连续是可导的充分必要条件}</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch022/q0006_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{可微不是连续的充分条件}\">\\text{可微不是连续的充分条件}</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch022/q0006_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{连续是可微的充分条件}\">\\text{连续是可微的充分条件}</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch022/q0006_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{可导是可微的充分必要条件}\">\\text{可导是可微的充分必要条件}</span>"
         }
       ],
       "answer": "D",
       "answer_index": 3,
-      "analysis_html": "<img src=\"/static/generated/assets/advanced-math/ch022/q0006_analysis.png\"/>"
+      "analysis_html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{解答} \\, \\, \\text{可导一定可微，可微一定可导，可导一定连续，连续不一定可导，不连续一定不可导。}\">\\text{解答} \\, \\, \\text{可导一定可微，可微一定可导，可导一定连续，连续不一定可导，不连续一定不可导。}</span>"
     },
     {
       "id": "q0007",
       "number": 7,
       "header": "#7-Averge",
       "difficulty": "Averge",
-      "prompt_html": "<img src=\"/static/generated/assets/advanced-math/ch022/q0007_prompt.png\"/>",
+      "prompt_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\text{设函数} \\ f(x) = \\begin{cases} x^{\\frac{s}{3}} \\sin \\frac{1}{x}, &amp; x \\neq 0, \\\\ 0, &amp; x = 0, \\end{cases} \\text{则} \\ f(x) \\text{在} x = 0 \\text{处}( )。\">\\text{设函数} \\ f(x) = \\begin{cases} x^{\\frac{s}{3}} \\sin \\frac{1}{x}, &amp; x \\neq 0, \\\\ 0, &amp; x = 0, \\end{cases} \\text{则} \\ f(x) \\text{在} x = 0 \\text{处}( )。</div>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch022/q0007_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{可导，且导数连续}\">\\text{可导，且导数连续}</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch022/q0007_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\overset{\\cdot}{\\text{可导，但导数不连续}}\">\\overset{\\cdot}{\\text{可导，但导数不连续}}</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch022/q0007_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{连续，但不可导}\">\\text{连续，但不可导}</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch022/q0007_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{不连续}\">\\text{不连续}</span>"
         }
       ],
       "answer": "B",
       "answer_index": 1,
-      "analysis_html": "<img src=\"/static/generated/assets/advanced-math/ch022/q0007_analysis.png\"/>"
+      "analysis_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{aligned}&amp;\\text{解答 由于}\\lim_{x\\rightarrow 0}x^{\\frac{5}{3}}\\sin\\frac{1}{x}=0\\Rightarrow \\text{连续。}\\\\&amp;\\quad\\text{因为}\\lim_{x\\rightarrow 0^{-}}\\frac{x^{\\frac{5}{3}}\\sin\\frac{1}{x}-0}{x}=\\lim_{x\\rightarrow 0^{-}}x^{\\frac{2}{3}}\\sin\\frac{1}{x}=0,\\ \\lim_{x\\rightarrow 0^{-}}\\frac{0-x^{\\frac{5}{3}}\\sin\\frac{1}{x}}{-x}=\\lim_{x\\rightarrow 0^{-}}x^{\\frac{2}{3}}\\sin\\frac{1}{x}=0,\\ \\text{所以}f(x)\\text{可导。}\\\\&amp;\\quad\\text{又因为}f&#x27;(x)=\\begin{cases}-\\frac{5}{3}x^{\\frac{2}{3}}\\sin\\frac{1}{x}-x^{-\\frac{1}{3}}\\cos\\frac{1}{x},&amp;x\\neq 0,\\\\0,&amp;x=0,\\end{cases}\\\\&amp;\\text{所以}\\lim_{x\\rightarrow 0}f&#x27;(x)\\text{不存在，即}f&#x27;(x)\\text{不连续。}\\end{aligned}\">\\begin{aligned}&amp;\\text{解答 由于}\\lim_{x\\rightarrow 0}x^{\\frac{5}{3}}\\sin\\frac{1}{x}=0\\Rightarrow \\text{连续。}\\\\&amp;\\quad\\text{因为}\\lim_{x\\rightarrow 0^{-}}\\frac{x^{\\frac{5}{3}}\\sin\\frac{1}{x}-0}{x}=\\lim_{x\\rightarrow 0^{-}}x^{\\frac{2}{3}}\\sin\\frac{1}{x}=0,\\ \\lim_{x\\rightarrow 0^{-}}\\frac{0-x^{\\frac{5}{3}}\\sin\\frac{1}{x}}{-x}=\\lim_{x\\rightarrow 0^{-}}x^{\\frac{2}{3}}\\sin\\frac{1}{x}=0,\\ \\text{所以}f(x)\\text{可导。}\\\\&amp;\\quad\\text{又因为}f&#x27;(x)=\\begin{cases}-\\frac{5}{3}x^{\\frac{2}{3}}\\sin\\frac{1}{x}-x^{-\\frac{1}{3}}\\cos\\frac{1}{x},&amp;x\\neq 0,\\\\0,&amp;x=0,\\end{cases}\\\\&amp;\\text{所以}\\lim_{x\\rightarrow 0}f&#x27;(x)\\text{不存在，即}f&#x27;(x)\\text{不连续。}\\end{aligned}</div>"
     },
     {
       "id": "q0008",
       "number": 8,
       "header": "#8-Averge",
       "difficulty": "Averge",
-      "prompt_html": "<img src=\"/static/generated/assets/advanced-math/ch022/q0008_prompt.png\"/>",
+      "prompt_html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{若}f(x)\\text{在点}x_{0}\\text{不连续，则}f(x)\\text{在点}x_{0}()。\">\\text{若}f(x)\\text{在点}x_{0}\\text{不连续，则}f(x)\\text{在点}x_{0}()。</span>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch022/q0008_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\cdot \\text{视} \\, x _ { 0 } \\text{而定}\">\\cdot \\text{视} \\, x _ { 0 } \\text{而定}</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch022/q0008_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{可能可导}\">\\text{可能可导}</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch022/q0008_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{一定可导}\">\\text{一定可导}</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch022/q0008_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{一定不可导}\">\\text{一定不可导}</span>"
         }
       ],
       "answer": "D",
       "answer_index": 3,
-      "analysis_html": "<img src=\"/static/generated/assets/advanced-math/ch022/q0008_analysis.png\"/>"
+      "analysis_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{aligned}\\text{解答 函数的可导与连续有下面的关系：}1)\\ \\text{如果函数}y=f(x)\\text{在点}x_{0}\\text{可导，则它在点}x_{0}\\text{处连续};2)\\ \\text{函数在某点连续，但在该点不一定可导};3)\\ \\text{若函数在某点不连续，则在该点一定不可导。}\\end{aligned}\">\\begin{aligned}\\text{解答 函数的可导与连续有下面的关系：}1)\\ \\text{如果函数}y=f(x)\\text{在点}x_{0}\\text{可导，则它在点}x_{0}\\text{处连续};2)\\ \\text{函数在某点连续，但在该点不一定可导};3)\\ \\text{若函数在某点不连续，则在该点一定不可导。}\\end{aligned}</div>"
     },
     {
       "id": "q0009",
       "number": 9,
       "header": "#9-Averge",
       "difficulty": "Averge",
-      "prompt_html": "<img src=\"/static/generated/assets/advanced-math/ch022/q0009_prompt.png\"/>",
+      "prompt_html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{对于函数}f(x)=|x|\\text{在}x=0 \\text{处的连续性与可导性，下列说法正确的是（）。}\">\\text{对于函数}f(x)=|x|\\text{在}x=0 \\text{处的连续性与可导性，下列说法正确的是（）。}</span>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch022/q0009_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{不连续，可导}\">\\text{不连续，可导}</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch022/q0009_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{不连续，不可导}\">\\text{不连续，不可导}</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch022/q0009_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{连续，可导}\">\\text{连续，可导}</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch022/q0009_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{连续，不可导}\">\\text{连续，不可导}</span>"
         }
       ],
       "answer": "D",
       "answer_index": 3,
-      "analysis_html": "<img src=\"/static/generated/assets/advanced-math/ch022/q0009_analysis.png\"/>"
+      "analysis_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{array}{l} \\text{解答如图，易证函数}f(x)=|x| \\text{在点}x=0 \\text{处是连续的。}\\\\ \\\\ \\text{下面主要来讨论}f(x)=|x| \\text{在点}x=0 \\text{处的可导性。因为}\\frac{f(0+h)-f(0)}{h}=\\frac{|h|}{h}, \\text{故}\\\\ \\lim_{h\\rightarrow 0^{-}}\\frac{f(0+h)-f(0)}{h}=\\lim_{h\\rightarrow 0^{-}}\\frac{h}{h}=1, \\lim_{h\\rightarrow 0^{+}}\\frac{f(0+h)-f(0)}{h}=\\lim_{h\\rightarrow 0^{+}}\\frac{-h}{h}=-1。\\\\ \\text{即}f_{+}(0)\\neq f_{-}(0)，\\text{所以函数}f(x)\\text{在}x=0 \\text{点不可导。证毕。}\\end{array}\">\\begin{array}{l} \\text{解答如图，易证函数}f(x)=|x| \\text{在点}x=0 \\text{处是连续的。}\\\\ \\\\ \\text{下面主要来讨论}f(x)=|x| \\text{在点}x=0 \\text{处的可导性。因为}\\frac{f(0+h)-f(0)}{h}=\\frac{|h|}{h}, \\text{故}\\\\ \\lim_{h\\rightarrow 0^{-}}\\frac{f(0+h)-f(0)}{h}=\\lim_{h\\rightarrow 0^{-}}\\frac{h}{h}=1, \\lim_{h\\rightarrow 0^{+}}\\frac{f(0+h)-f(0)}{h}=\\lim_{h\\rightarrow 0^{+}}\\frac{-h}{h}=-1。\\\\ \\text{即}f_{+}(0)\\neq f_{-}(0)，\\text{所以函数}f(x)\\text{在}x=0 \\text{点不可导。证毕。}\\end{array}</div>"
     }
-  ]
+  ],
+  "format": "latex",
+  "source_md": "gs/2.1.4_函数的可导性与连续性的关系(9题)/2.1.4_函数的可导性与连续性的关系(9题).md"
 }

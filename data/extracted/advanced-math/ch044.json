@@ -13,336 +13,338 @@
       "number": 1,
       "header": "#1-Averge",
       "difficulty": "Averge",
-      "prompt_html": "<img src=\"/static/generated/assets/advanced-math/ch044/q0001_prompt.png\"/>",
+      "prompt_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\text{设}f(x)=\\begin{cases}\\arctan \\frac{1}{x}+e^{\\frac{1}{x}},x&lt;0,\\\\ \\\\ \\alpha x+b,x\\geq 0,\\end{cases},\\text{若使}f\\left(x\\right) \\text{处处可导，则常数}a\\text{与}b\\text{的值为（ }\">\\text{设}f(x)=\\begin{cases}\\arctan \\frac{1}{x}+e^{\\frac{1}{x}},x&lt;0,\\\\ \\\\ \\alpha x+b,x\\geq 0,\\end{cases},\\text{若使}f\\left(x\\right) \\text{处处可导，则常数}a\\text{与}b\\text{的值为（ }</div>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch044/q0001_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\displaystyle a = \\frac { \\pi } { 2 } , b = 1 \\quad ;\">\\displaystyle a = \\frac { \\pi } { 2 } , b = 1 \\quad ;</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch044/q0001_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\quad a = - 1 , b = - \\frac { \\pi } { 2 } \\, ;\">\\quad a = - 1 , b = - \\frac { \\pi } { 2 } \\, ;</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch044/q0001_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\begin{array}{l} { l } a = 1 , b = \\pi \\, ; \\end{array}\">\\begin{array}{l} { l } a = 1 , b = \\pi \\, ; \\end{array}</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch044/q0001_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\displaystyle a = \\frac { \\pi } { 3 } , \\ \\ b = - \\frac { \\pi } { 2 } \\, ;\">\\displaystyle a = \\frac { \\pi } { 3 } , \\ \\ b = - \\frac { \\pi } { 2 } \\, ;</span>"
         }
       ],
       "answer": "B",
       "answer_index": 1,
-      "analysis_html": "<img src=\"/static/generated/assets/advanced-math/ch044/q0001_analysis.png\"/>"
+      "analysis_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{aligned} &amp; \\text{要使} f(x) \\text{在} x=0 \\text{处处可导，首先在} x=0 \\text{连续，即} \\lim_{x \\rightarrow 0^{-}} f(x) = \\lim_{x \\rightarrow 0^{+}} f(x) = f(0) = b \\\\ &amp; \\text{即} \\lim_{x \\rightarrow 0^{-}} \\frac{1}{x} + e^{\\frac{1}{x}} = -\\frac{\\pi}{2} = b, \\text{又} f(x) \\text{在} x=0 \\text{处可导，则} \\ f_{-}^{\\prime}(0) = f_{+}^{\\prime}(0), \\text{即：} \\\\ &amp; \\lim_{x \\rightarrow 0^{-}} \\frac{f(x)-f(0)}{x} = \\lim_{x \\rightarrow 0^{-}} \\frac{\\arctan \\frac{1}{x} + e^{\\frac{1}{x}} + \\frac{\\pi}{2}}{x} = \\lim_{x \\rightarrow 0^{-}} \\frac{\\frac{1}{1+\\frac{1}{x^{2}}}-\\frac{1}{x^{2}}e^{\\frac{1}{x}}}{1} = -1, \\\\ &amp; \\lim_{x \\rightarrow 0^{+}} \\frac{f(x)-f(0)}{x} = \\lim_{x \\rightarrow 0^{+}} \\frac{a x + b - b}{x} = a, \\\\ &amp; \\text{则} a = -1, b = -\\frac{\\pi}{2} \\end{aligned}\">\\begin{aligned} &amp; \\text{要使} f(x) \\text{在} x=0 \\text{处处可导，首先在} x=0 \\text{连续，即} \\lim_{x \\rightarrow 0^{-}} f(x) = \\lim_{x \\rightarrow 0^{+}} f(x) = f(0) = b \\\\ &amp; \\text{即} \\lim_{x \\rightarrow 0^{-}} \\frac{1}{x} + e^{\\frac{1}{x}} = -\\frac{\\pi}{2} = b, \\text{又} f(x) \\text{在} x=0 \\text{处可导，则} \\ f_{-}^{\\prime}(0) = f_{+}^{\\prime}(0), \\text{即：} \\\\ &amp; \\lim_{x \\rightarrow 0^{-}} \\frac{f(x)-f(0)}{x} = \\lim_{x \\rightarrow 0^{-}} \\frac{\\arctan \\frac{1}{x} + e^{\\frac{1}{x}} + \\frac{\\pi}{2}}{x} = \\lim_{x \\rightarrow 0^{-}} \\frac{\\frac{1}{1+\\frac{1}{x^{2}}}-\\frac{1}{x^{2}}e^{\\frac{1}{x}}}{1} = -1, \\\\ &amp; \\lim_{x \\rightarrow 0^{+}} \\frac{f(x)-f(0)}{x} = \\lim_{x \\rightarrow 0^{+}} \\frac{a x + b - b}{x} = a, \\\\ &amp; \\text{则} a = -1, b = -\\frac{\\pi}{2} \\end{aligned}</div>"
     },
     {
       "id": "q0002",
       "number": 2,
       "header": "#2-Averge",
       "difficulty": "Averge",
-      "prompt_html": "<img src=\"/static/generated/assets/advanced-math/ch044/q0002_prompt.png\"/>",
+      "prompt_html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\lim_{x \\to 0} \\frac{1}{x^{2}} \\left( \\arctan \\frac{1}{x^{2}} - \\frac{\\pi}{2} \\right) = ( ).\">\\lim_{x \\to 0} \\frac{1}{x^{2}} \\left( \\arctan \\frac{1}{x^{2}} - \\frac{\\pi}{2} \\right) = ( ).</span>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch044/q0002_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"- 1 \\, ;\">- 1 \\, ;</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch044/q0002_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"1 \\; ;\">1 \\; ;</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch044/q0002_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"0.\">0.</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch044/q0002_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\infty ;\">\\infty ;</span>"
         }
       ],
       "answer": "A",
       "answer_index": 0,
-      "analysis_html": "<img src=\"/static/generated/assets/advanced-math/ch044/q0002_analysis.png\"/>"
+      "analysis_html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{原式} = \\lim_{x \\to 0} \\frac{ \\frac{1}{1 + \\left( \\frac{1}{x^{2}} \\right)^{2}} \\cdot \\frac{-2}{x^{3}}}{2x} = \\lim_{x \\to 0} \\frac{-2}{2(1 + x^{4})} = -1\">\\text{原式} = \\lim_{x \\to 0} \\frac{ \\frac{1}{1 + \\left( \\frac{1}{x^{2}} \\right)^{2}} \\cdot \\frac{-2}{x^{3}}}{2x} = \\lim_{x \\to 0} \\frac{-2}{2(1 + x^{4})} = -1</span>"
     },
     {
       "id": "q0003",
       "number": 3,
       "header": "#3-Averge",
       "difficulty": "Averge",
-      "prompt_html": "<img src=\"/static/generated/assets/advanced-math/ch044/q0003_prompt.png\"/>",
+      "prompt_html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\lim_{x \\to +0} ( \\frac{a^{x} + b^{x} + c^{x}}{3} )^{\\frac{1}{x}} = ( )\">\\lim_{x \\to +0} ( \\frac{a^{x} + b^{x} + c^{x}}{3} )^{\\frac{1}{x}} = ( )</span>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch044/q0003_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\sqrt { a b c }\">\\sqrt { a b c }</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch044/q0003_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\frac { 1 } { a } + \\frac { 1 } { b } + \\frac { 1 } { c }\">\\frac { 1 } { a } + \\frac { 1 } { b } + \\frac { 1 } { c }</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch044/q0003_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\frac { 1 } { \\sqrt { a b c } }\">\\frac { 1 } { \\sqrt { a b c } }</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch044/q0003_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\sqrt[3]{abc}\">\\sqrt[3]{abc}</span>"
         }
       ],
       "answer": "D",
       "answer_index": 3,
-      "analysis_html": "<img src=\"/static/generated/assets/advanced-math/ch044/q0003_analysis.png\"/>"
+      "analysis_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{aligned}&amp; \\text{原式} = \\exp \\lim_{x \\rightarrow 0} \\frac{\\ln[1+ (\\frac{a^x+b^x+c^x}{3})-1]}{x} \\\\&amp; = \\exp \\lim_{x \\rightarrow 0} \\frac{(\\frac{a^x+b^x+c^x}{3})-1}{x} = \\exp \\lim_{x \\rightarrow 0} (\\frac{a^x-1}{3x} + \\frac{b^x-1}{3x} + \\frac{c^x-1}{3x}) \\\\&amp; = \\exp (\\lim_{x \\rightarrow 0} \\frac{a^x \\ln a}{3} + \\lim_{x \\rightarrow 0} \\frac{b^x \\ln b}{3} + \\lim_{x \\rightarrow 0} \\frac{c^x \\ln c}{3}) \\\\&amp; = e^{\\frac{\\ln a + \\ln b + \\ln c}{3}} = \\exp (\\ln \\sqrt[3]{abc}) = \\sqrt[3]{abc}\\end{aligned}\">\\begin{aligned}&amp; \\text{原式} = \\exp \\lim_{x \\rightarrow 0} \\frac{\\ln[1+ (\\frac{a^x+b^x+c^x}{3})-1]}{x} \\\\&amp; = \\exp \\lim_{x \\rightarrow 0} \\frac{(\\frac{a^x+b^x+c^x}{3})-1}{x} = \\exp \\lim_{x \\rightarrow 0} (\\frac{a^x-1}{3x} + \\frac{b^x-1}{3x} + \\frac{c^x-1}{3x}) \\\\&amp; = \\exp (\\lim_{x \\rightarrow 0} \\frac{a^x \\ln a}{3} + \\lim_{x \\rightarrow 0} \\frac{b^x \\ln b}{3} + \\lim_{x \\rightarrow 0} \\frac{c^x \\ln c}{3}) \\\\&amp; = e^{\\frac{\\ln a + \\ln b + \\ln c}{3}} = \\exp (\\ln \\sqrt[3]{abc}) = \\sqrt[3]{abc}\\end{aligned}</div>"
     },
     {
       "id": "q0004",
       "number": 4,
       "header": "#4-Averge",
       "difficulty": "Averge",
-      "prompt_html": "<img src=\"/static/generated/assets/advanced-math/ch044/q0004_prompt.png\"/>",
+      "prompt_html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{求} \\lim_{x \\rightarrow 0^{+}} x^{\\tan x} = ( )\">\\text{求} \\lim_{x \\rightarrow 0^{+}} x^{\\tan x} = ( )</span>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch044/q0004_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\textcolor{blue}{2}\">\\textcolor{blue}{2}</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch044/q0004_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\mathbf { 1 }\">\\mathbf { 1 }</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch044/q0004_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"^ { - 1 }\">^ { - 1 }</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch044/q0004_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\mathbf { 0 }\">\\mathbf { 0 }</span>"
         }
       ],
       "answer": "B",
       "answer_index": 1,
-      "analysis_html": "<img src=\"/static/generated/assets/advanced-math/ch044/q0004_analysis.png\"/>"
+      "analysis_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{aligned}&amp;\\text{将它变形为}\\ \\lim_{x\\rightarrow 0^{+}}x^{\\tan x}=\\lim_{x\\rightarrow 0^{-}}\\tan x\\ln x\\\\&amp;\\text{由于}\\lim_{x\\rightarrow 0^{+}}\\tan x\\ln x=\\lim_{x\\rightarrow 0^{+}}\\frac{\\ln x}{\\cot x}=\\lim_{x\\rightarrow 0^{+}}\\frac{\\frac{1}{x}}{-\\csc^{2}x}\\\\&amp;=\\lim_{x\\rightarrow 0^{+}}\\frac{-\\sin^{2}x}{x}=\\lim_{x\\rightarrow 0^{+}}\\frac{-2\\sin x\\cos x}{1}=0\\\\&amp;\\text{故}\\lim_{x\\rightarrow 0^{+}}x^{\\tan x}=e^{0}=1\\end{aligned}\">\\begin{aligned}&amp;\\text{将它变形为}\\ \\lim_{x\\rightarrow 0^{+}}x^{\\tan x}=\\lim_{x\\rightarrow 0^{-}}\\tan x\\ln x\\\\&amp;\\text{由于}\\lim_{x\\rightarrow 0^{+}}\\tan x\\ln x=\\lim_{x\\rightarrow 0^{+}}\\frac{\\ln x}{\\cot x}=\\lim_{x\\rightarrow 0^{+}}\\frac{\\frac{1}{x}}{-\\csc^{2}x}\\\\&amp;=\\lim_{x\\rightarrow 0^{+}}\\frac{-\\sin^{2}x}{x}=\\lim_{x\\rightarrow 0^{+}}\\frac{-2\\sin x\\cos x}{1}=0\\\\&amp;\\text{故}\\lim_{x\\rightarrow 0^{+}}x^{\\tan x}=e^{0}=1\\end{aligned}</div>"
     },
     {
       "id": "q0005",
       "number": 5,
       "header": "#5-Averge",
       "difficulty": "Averge",
-      "prompt_html": "<img src=\"/static/generated/assets/advanced-math/ch044/q0005_prompt.png\"/>",
+      "prompt_html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\lim_{x \\to \\infty} (1 + \\frac{1}{x})^x = ()\">\\lim_{x \\to \\infty} (1 + \\frac{1}{x})^x = ()</span>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch044/q0005_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"e ^ { 2 }\">e ^ { 2 }</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch044/q0005_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"^ 2\">^ 2</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch044/q0005_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\mathrm{2e}\">\\mathrm{2e}</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch044/q0005_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\textbf { e }\">\\textbf { e }</span>"
         }
       ],
       "answer": "D",
       "answer_index": 3,
-      "analysis_html": "<img src=\"/static/generated/assets/advanced-math/ch044/q0005_analysis.png\"/>"
+      "analysis_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{aligned}&amp;\\text{这是}1^x\\text{型未定式，将它变形为}\\ln(1+\\frac{1}{x})^x=\\frac{\\ln(1+\\frac{1}{x})}{x},\\\\&amp;\\text{由于}\\lim_{x\\rightarrow \\infty}\\frac{\\ln(1+\\frac{1}{x})}{x}=\\lim_{x\\rightarrow \\infty}\\frac{\\frac{1}{1+\\frac{1}{x}}(-\\frac{1}{x^2})}{x}=\\lim_{x\\rightarrow \\infty}\\frac{1}{1+\\frac{1}{x}}=1, \\text{故}\\lim_{x\\rightarrow \\infty}(1+\\frac{1}{x})^x=e\\end{aligned}\">\\begin{aligned}&amp;\\text{这是}1^x\\text{型未定式，将它变形为}\\ln(1+\\frac{1}{x})^x=\\frac{\\ln(1+\\frac{1}{x})}{x},\\\\&amp;\\text{由于}\\lim_{x\\rightarrow \\infty}\\frac{\\ln(1+\\frac{1}{x})}{x}=\\lim_{x\\rightarrow \\infty}\\frac{\\frac{1}{1+\\frac{1}{x}}(-\\frac{1}{x^2})}{x}=\\lim_{x\\rightarrow \\infty}\\frac{1}{1+\\frac{1}{x}}=1, \\text{故}\\lim_{x\\rightarrow \\infty}(1+\\frac{1}{x})^x=e\\end{aligned}</div>"
     },
     {
       "id": "q0006",
       "number": 6,
       "header": "#6-Averge",
       "difficulty": "Averge",
-      "prompt_html": "<img src=\"/static/generated/assets/advanced-math/ch044/q0006_prompt.png\"/>",
+      "prompt_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\text{设}f(x)=\\begin{cases}\\dfrac{1-\\cos 2x}{x^{2}},x\\neq 0 \\\\ 2,x=0\\end{cases} \\text{则}f&#x27;&#x27;(0)=()\">\\text{设}f(x)=\\begin{cases}\\dfrac{1-\\cos 2x}{x^{2}},x\\neq 0 \\\\ 2,x=0\\end{cases} \\text{则}f&#x27;&#x27;(0)=()</div>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch044/q0006_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\frac{1}{3}\\,;\">\\frac{1}{3}\\,;</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch044/q0006_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"- \\frac { 4 } { 3 } ;\">- \\frac { 4 } { 3 } ;</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch044/q0006_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\frac { 4 } { 3 } \\, ;\">\\frac { 4 } { 3 } \\, ;</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch044/q0006_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\frac{2}{3};\">\\frac{2}{3};</span>"
         }
       ],
       "answer": "B",
       "answer_index": 1,
-      "analysis_html": "<img src=\"/static/generated/assets/advanced-math/ch044/q0006_analysis.png\"/>"
+      "analysis_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{aligned}f&#x27;(0)&amp;=\\lim_{x\\rightarrow 0}\\frac{f(x)-f(0)}{x-0}=\\lim_{x\\rightarrow 0}\\frac{\\frac{1-\\cos 2x}{x^2}-2}{x}=\\lim_{x\\rightarrow 0}\\frac{1-\\cos 2x-2x^2}{x^3}\\\\&amp;=\\lim_{x\\rightarrow 0}\\frac{2\\sin 2x-4x}{3x^2}=\\lim_{x\\rightarrow 0}\\frac{-4\\sin 2x}{3}=0\\\\&amp;\\text{即}f(x)=\\begin{cases}\\frac{2x\\sin 2x-2(1-\\cos 2x)}{x^3},&amp;x\\neq 0,\\\\0,&amp;x=0,\\end{cases}\\quad.\\end{aligned}\">\\begin{aligned}f&#x27;(0)&amp;=\\lim_{x\\rightarrow 0}\\frac{f(x)-f(0)}{x-0}=\\lim_{x\\rightarrow 0}\\frac{\\frac{1-\\cos 2x}{x^2}-2}{x}=\\lim_{x\\rightarrow 0}\\frac{1-\\cos 2x-2x^2}{x^3}\\\\&amp;=\\lim_{x\\rightarrow 0}\\frac{2\\sin 2x-4x}{3x^2}=\\lim_{x\\rightarrow 0}\\frac{-4\\sin 2x}{3}=0\\\\&amp;\\text{即}f(x)=\\begin{cases}\\frac{2x\\sin 2x-2(1-\\cos 2x)}{x^3},&amp;x\\neq 0,\\\\0,&amp;x=0,\\end{cases}\\quad.\\end{aligned}</div>"
     },
     {
       "id": "q0007",
       "number": 7,
       "header": "#7-Averge",
       "difficulty": "Averge",
-      "prompt_html": "<img src=\"/static/generated/assets/advanced-math/ch044/q0007_prompt.png\"/>",
+      "prompt_html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\lim_{x \\to 0} ( \\frac{a^{x+1} + b^{x+1} + c^{x+1}}{a + b + c} ) ^{ \\frac{1}{x} } = ( ) \\; \\; , \\; \\; \\; ( a &gt; 0 , b &gt; 0 , c &gt; 0 )\">\\lim_{x \\to 0} ( \\frac{a^{x+1} + b^{x+1} + c^{x+1}}{a + b + c} ) ^{ \\frac{1}{x} } = ( ) \\; \\; , \\; \\; \\; ( a &gt; 0 , b &gt; 0 , c &gt; 0 )</span>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch044/q0007_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"(a b c)^{a b c}\">(a b c)^{a b c}</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch044/q0007_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"(a^{a}b^{b}c^{c})^{\\frac{1}{a}+\\frac{1}{b}+\\frac{1}{c}}\">(a^{a}b^{b}c^{c})^{\\frac{1}{a}+\\frac{1}{b}+\\frac{1}{c}}</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch044/q0007_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"(a b c) ^ { \\frac { 1 } { a + b + c } }\">(a b c) ^ { \\frac { 1 } { a + b + c } }</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch044/q0007_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"(a^{a}b^{b}c^{c})^{\\frac{1}{a+b+c}}\">(a^{a}b^{b}c^{c})^{\\frac{1}{a+b+c}}</span>"
         }
       ],
       "answer": "D",
       "answer_index": 3,
-      "analysis_html": "<img src=\"/static/generated/assets/advanced-math/ch044/q0007_analysis.png\"/>"
+      "analysis_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{aligned}&amp; \\text{令} y=(\\frac{a^{x+1}+b^{x+1}+c^{x+1}}{a+b+c})^{\\frac{1}{x}},\\\\&amp; \\text{则} \\lim_{x\\rightarrow 0} \\ln y=\\lim_{x\\rightarrow 0} \\frac{1}{x} \\ln \\frac{a^{x+1}+b^{x+1}+c^{x+1}}{a+b+c} \\\\&amp; =\\lim_{x\\rightarrow 0} \\frac{\\ln(a^{x+1}+b^{x+1}+c^{x+1})-\\ln(a+b+c)}{x} \\\\&amp; =\\lim_{x\\rightarrow 0} \\frac{a^{x+1}\\ln a+b^{x+1}\\ln b+c^{x+1}\\ln c}{a^{x+1}+b^{x+1}+c^{x+1}}=\\frac{a\\ln a+b\\ln b+c\\ln c}{a+b+c}=\\ln [((a^ab^bc^c)^{\\frac{1}{a+b+c}}]\\\\&amp; \\text{故原式}=(a^ab^bc^c)^{\\frac{1}{a+b+c}}\\end{aligned}\">\\begin{aligned}&amp; \\text{令} y=(\\frac{a^{x+1}+b^{x+1}+c^{x+1}}{a+b+c})^{\\frac{1}{x}},\\\\&amp; \\text{则} \\lim_{x\\rightarrow 0} \\ln y=\\lim_{x\\rightarrow 0} \\frac{1}{x} \\ln \\frac{a^{x+1}+b^{x+1}+c^{x+1}}{a+b+c} \\\\&amp; =\\lim_{x\\rightarrow 0} \\frac{\\ln(a^{x+1}+b^{x+1}+c^{x+1})-\\ln(a+b+c)}{x} \\\\&amp; =\\lim_{x\\rightarrow 0} \\frac{a^{x+1}\\ln a+b^{x+1}\\ln b+c^{x+1}\\ln c}{a^{x+1}+b^{x+1}+c^{x+1}}=\\frac{a\\ln a+b\\ln b+c\\ln c}{a+b+c}=\\ln [((a^ab^bc^c)^{\\frac{1}{a+b+c}}]\\\\&amp; \\text{故原式}=(a^ab^bc^c)^{\\frac{1}{a+b+c}}\\end{aligned}</div>"
     },
     {
       "id": "q0008",
       "number": 8,
       "header": "#8-Averge",
       "difficulty": "Averge",
-      "prompt_html": "<img src=\"/static/generated/assets/advanced-math/ch044/q0008_prompt.png\"/>",
+      "prompt_html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\lim_{x \\to 1} \\frac{ \\sqrt{x^{4}+3}-[A+B(x-1)+C(x-1)^{2}]}{(x-1)^{2}}=0, \\text{则常数}A\\ B\\ C\\ \\text{的值为}（）\">\\lim_{x \\to 1} \\frac{ \\sqrt{x^{4}+3}-[A+B(x-1)+C(x-1)^{2}]}{(x-1)^{2}}=0, \\text{则常数}A\\ B\\ C\\ \\text{的值为}（）</span>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch044/q0008_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\mathrm{A}{=} 0, \\mathrm{B}{=} 2, \\mathrm{C}{=} \\frac{1}{2} \\;\\; ;\">\\mathrm{A}{=} 0, \\mathrm{B}{=} 2, \\mathrm{C}{=} \\frac{1}{2} \\;\\; ;</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch044/q0008_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\mathrm{A} = 1, \\mathrm{B} = - 1, \\mathrm{C} = \\frac{3}{4}\\;;\">\\mathrm{A} = 1, \\mathrm{B} = - 1, \\mathrm{C} = \\frac{3}{4}\\;;</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch044/q0008_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\mathrm{A} = 3 , \\mathrm{B} = \\frac{3}{2} , \\mathrm{C} = \\frac{2}{3} ;\">\\mathrm{A} = 3 , \\mathrm{B} = \\frac{3}{2} , \\mathrm{C} = \\frac{2}{3} ;</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch044/q0008_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\mathrm{A} = 2, \\, \\mathrm{B} = 1, \\, \\mathrm{C} = \\frac{5}{4}\\, ;\">\\mathrm{A} = 2, \\, \\mathrm{B} = 1, \\, \\mathrm{C} = \\frac{5}{4}\\, ;</span>"
         }
       ],
       "answer": "D",
       "answer_index": 3,
-      "analysis_html": "<img src=\"/static/generated/assets/advanced-math/ch044/q0008_analysis.png\"/>"
+      "analysis_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{aligned}&amp; \\text{设}f(x)=\\sqrt{x^4+3}-[A+B(x-1)+C(x-1)^2],\\\\&amp; \\text{由}\\lim_{x\\to 1}\\frac{f(x)}{(x-1)^2}=\\lim_{x\\to 1}\\frac{f&#x27;(x)}{2(x-1)}=\\lim_{x\\to 1}\\frac{f&#x27;&#x27;(x)}{2}=0\\Rightarrow f(1)=f&#x27;(1)=f^{*}(1)=0\\\\&amp; \\text{由}f(1)=0,2-A=0\\Rightarrow A=2;\\\\&amp; f&#x27;(x)=\\frac{1}{2}(x^4+3)^{\\frac{-1}{2}}\\cdot 4x^3-B-2C(x-1),\\\\&amp; \\text{由}f&#x27;(1)=0,\\text{得}1-B=0\\Rightarrow B=1;\\\\&amp; f^{*}(x)=-4(x^4+3)^{-\\frac{3}{2}}\\cdot x^6+6x^2(x^4+3)^{-\\frac{1}{2}}-2C,\\\\&amp; \\text{由}f^{*}(1)=0,\\text{得}\\frac{5}{2}-2C=0\\Rightarrow C=\\frac{5}{4}\\end{aligned}\">\\begin{aligned}&amp; \\text{设}f(x)=\\sqrt{x^4+3}-[A+B(x-1)+C(x-1)^2],\\\\&amp; \\text{由}\\lim_{x\\to 1}\\frac{f(x)}{(x-1)^2}=\\lim_{x\\to 1}\\frac{f&#x27;(x)}{2(x-1)}=\\lim_{x\\to 1}\\frac{f&#x27;&#x27;(x)}{2}=0\\Rightarrow f(1)=f&#x27;(1)=f^{*}(1)=0\\\\&amp; \\text{由}f(1)=0,2-A=0\\Rightarrow A=2;\\\\&amp; f&#x27;(x)=\\frac{1}{2}(x^4+3)^{\\frac{-1}{2}}\\cdot 4x^3-B-2C(x-1),\\\\&amp; \\text{由}f&#x27;(1)=0,\\text{得}1-B=0\\Rightarrow B=1;\\\\&amp; f^{*}(x)=-4(x^4+3)^{-\\frac{3}{2}}\\cdot x^6+6x^2(x^4+3)^{-\\frac{1}{2}}-2C,\\\\&amp; \\text{由}f^{*}(1)=0,\\text{得}\\frac{5}{2}-2C=0\\Rightarrow C=\\frac{5}{4}\\end{aligned}</div>"
     },
     {
       "id": "q0009",
       "number": 9,
       "header": "#9-Averge",
       "difficulty": "Averge",
-      "prompt_html": "<img src=\"/static/generated/assets/advanced-math/ch044/q0009_prompt.png\"/>",
+      "prompt_html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{下列选项解答过程正确的是（）}\">\\text{下列选项解答过程正确的是（）}</span>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch044/q0009_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\lim_{x \\to 0} \\frac{\\sin kx}{x} = \\lim_{x \\to 0} \\frac{(\\sin kx)&#x27;}{(x)&#x27;} = \\lim_{x \\to 0} \\frac{k \\cos kx}{1} = k\">\\lim_{x \\to 0} \\frac{\\sin kx}{x} = \\lim_{x \\to 0} \\frac{(\\sin kx)&#x27;}{(x)&#x27;} = \\lim_{x \\to 0} \\frac{k \\cos kx}{1} = k</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch044/q0009_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\lim_{x \\to \\infty} \\frac{x + \\sin x}{x - \\sin x} = \\lim_{x \\to \\infty} \\frac{1 + \\cos x}{1 - \\cos x} = -1\">\\lim_{x \\to \\infty} \\frac{x + \\sin x}{x - \\sin x} = \\lim_{x \\to \\infty} \\frac{1 + \\cos x}{1 - \\cos x} = -1</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch044/q0009_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{由洛必达法则可知，数列}\\{\\frac{\\ln n}{n}\\} \\text{的极限为} \\lim_{x \\to \\infty} \\frac{\\ln n}{n} = \\lim_{x \\to \\infty} \\frac{(\\ln n)^{\\prime}}{(n)^{\\prime}} = 1\">\\text{由洛必达法则可知，数列}\\{\\frac{\\ln n}{n}\\} \\text{的极限为} \\lim_{x \\to \\infty} \\frac{\\ln n}{n} = \\lim_{x \\to \\infty} \\frac{(\\ln n)^{\\prime}}{(n)^{\\prime}} = 1</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch044/q0009_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\lim_{x \\to 1} \\frac{x^{2}-1}{x^{2}+x-1} = \\lim_{x \\to 1} \\frac{(x^{2}-1)^{\\prime}}{(x^{2}+x-1)^{\\prime}} = \\lim_{x \\to 1} \\frac{2x}{2x+1} = \\frac{2}{3}\">\\lim_{x \\to 1} \\frac{x^{2}-1}{x^{2}+x-1} = \\lim_{x \\to 1} \\frac{(x^{2}-1)^{\\prime}}{(x^{2}+x-1)^{\\prime}} = \\lim_{x \\to 1} \\frac{2x}{2x+1} = \\frac{2}{3}</span>"
         }
       ],
       "answer": "A",
       "answer_index": 0,
-      "analysis_html": "<img src=\"/static/generated/assets/advanced-math/ch044/q0009_analysis.png\"/>"
+      "analysis_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{aligned}&amp;\\lim_{x\\rightarrow \\infty}\\frac{x^{2}-1}{x^{2}+x-1} \\text{不符合洛必达法则条件，直接计算可得极限为0由洛必达法则可知，数列}\\\\&amp;\\{\\frac{\\ln n}{n}\\} \\text{的极限为可以利用海涅定理求得结果为0，} \\quad \\lim_{x\\rightarrow \\infty}\\frac{x+\\sin x}{x-\\sin x} \\text{不符合洛必达法则条件，}\\\\&amp;\\text{直接计算极限为1.}\\end{aligned}\">\\begin{aligned}&amp;\\lim_{x\\rightarrow \\infty}\\frac{x^{2}-1}{x^{2}+x-1} \\text{不符合洛必达法则条件，直接计算可得极限为0由洛必达法则可知，数列}\\\\&amp;\\{\\frac{\\ln n}{n}\\} \\text{的极限为可以利用海涅定理求得结果为0，} \\quad \\lim_{x\\rightarrow \\infty}\\frac{x+\\sin x}{x-\\sin x} \\text{不符合洛必达法则条件，}\\\\&amp;\\text{直接计算极限为1.}\\end{aligned}</div>"
     },
     {
       "id": "q0010",
       "number": 10,
       "header": "#10-Averge",
       "difficulty": "Averge",
-      "prompt_html": "<img src=\"/static/generated/assets/advanced-math/ch044/q0010_prompt.png\"/>",
+      "prompt_html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\lim_{x\\to \\frac{\\pi}{4}}\\frac{1+{\\sqrt[3]{\\tan{x}}}}{1-2\\cos^{2}{x}}=(\\ )\">\\lim_{x\\to \\frac{\\pi}{4}}\\frac{1+{\\sqrt[3]{\\tan{x}}}}{1-2\\cos^{2}{x}}=(\\ )</span>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch044/q0010_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\frac{1}{3}\\,;\">\\frac{1}{3}\\,;</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch044/q0010_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"- \\frac { 1 } { 2 } \\, ;\">- \\frac { 1 } { 2 } \\, ;</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch044/q0010_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"- \\frac { 1 } { 4 } .\">- \\frac { 1 } { 4 } .</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch044/q0010_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\frac{1}{4}\\,;\">\\frac{1}{4}\\,;</span>"
         }
       ],
       "answer": "A",
       "answer_index": 0,
-      "analysis_html": "<img src=\"/static/generated/assets/advanced-math/ch044/q0010_analysis.png\"/>"
+      "analysis_html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{原式} = \\lim_{x \\to \\frac{\\pi}{4}} \\frac{ \\frac{1}{3} \\left( \\tan x \\right)^{- \\frac{2}{3}} \\cdot \\sec^{2}{x}}{-4 \\cos x \\cdot \\left( -\\sin x \\right)} = \\frac{1}{3}\">\\text{原式} = \\lim_{x \\to \\frac{\\pi}{4}} \\frac{ \\frac{1}{3} \\left( \\tan x \\right)^{- \\frac{2}{3}} \\cdot \\sec^{2}{x}}{-4 \\cos x \\cdot \\left( -\\sin x \\right)} = \\frac{1}{3}</span>"
     },
     {
       "id": "q0011",
       "number": 11,
       "header": "#11-Averge",
       "difficulty": "Averge",
-      "prompt_html": "<img src=\"/static/generated/assets/advanced-math/ch044/q0011_prompt.png\"/>",
+      "prompt_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\text{设 } f(x) = \\begin{cases} - \\dfrac{ma^{b+x}+na^{b-x}+ka^{b}}{x^{2}}, &amp; x \\neq 0 \\\\ a^{b} \\ln^{2} a &amp; x = 0 \\end{cases} (a&gt;0,a \\neq 1) \\text{若 } f(x) \\text{ 在 } x=0 \\text{ 处连续，常数} \\\\ m,n,k \\text{ 的一组值是（ ）}\">\\text{设 } f(x) = \\begin{cases} - \\dfrac{ma^{b+x}+na^{b-x}+ka^{b}}{x^{2}}, &amp; x \\neq 0 \\\\ a^{b} \\ln^{2} a &amp; x = 0 \\end{cases} (a&gt;0,a \\neq 1) \\text{若 } f(x) \\text{ 在 } x=0 \\text{ 处连续，常数} \\\\ m,n,k \\text{ 的一组值是（ ）}</div>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch044/q0011_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\mathrm{m} \\! = \\! 1 , \\, \\mathrm{n} \\! = \\! 1 , \\, \\mathrm{k} \\! = \\! - 2 ;\">\\mathrm{m} \\! = \\! 1 , \\, \\mathrm{n} \\! = \\! 1 , \\, \\mathrm{k} \\! = \\! - 2 ;</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch044/q0011_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\mathrm{m} \\! = \\! 1 , \\, \\mathrm{n} \\! = \\! 1 , \\, \\mathrm{k} \\! = \\! 0 .\">\\mathrm{m} \\! = \\! 1 , \\, \\mathrm{n} \\! = \\! 1 , \\, \\mathrm{k} \\! = \\! 0 .</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch044/q0011_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\mathrm{m} {=} 2, \\mathrm{n} {=} - 1, \\mathrm{k} {=} 2 ;\">\\mathrm{m} {=} 2, \\mathrm{n} {=} - 1, \\mathrm{k} {=} 2 ;</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch044/q0011_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\mathrm{m} = - 1 , \\, \\mathrm{n} = - 1 , \\, \\mathrm{k} = 1 ;\">\\mathrm{m} = - 1 , \\, \\mathrm{n} = - 1 , \\, \\mathrm{k} = 1 ;</span>"
         }
       ],
       "answer": "A",
       "answer_index": 0,
-      "analysis_html": "<img src=\"/static/generated/assets/advanced-math/ch044/q0011_analysis.png\"/>"
+      "analysis_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{array}{l} \\lim _ {x \\rightarrow 0} f (x) = f (0) = a ^ {b} \\ln^ {2} a, \\text {即} \\lim _ {x \\rightarrow 0} \\frac {m a ^ {b + x} + n a ^ {b - x} + k a ^ {b}}{x ^ {2}} = a ^ {b} \\ln^ {2} a, \\text {又} x \\rightarrow 0 \\text {时，} x ^ {2} \\rightarrow 0, \\\\ \\text {即} m a ^ {b + x} + n a ^ {b - x} + k a ^ {b} = 0, \\text {即} m + n + k = 0; \\\\ \\text {又} \\lim _ {x \\rightarrow 0} \\frac {m a ^ {b + x} + n a ^ {b - x} + k a ^ {b}}{x ^ {2}} = \\lim _ {x \\rightarrow 0} \\frac {m \\ln a \\cdot a ^ {b + x} - n a ^ {b - x} \\ln a}{2 x} = a ^ {b} \\ln^ {2} a, \\text {则} \\\\ \\lim _ {x \\rightarrow 0} \\frac {m a ^ {b + x} \\ln a - n a ^ {b - x} \\ln a}{x} = 0, \\text {即} m - n = 0, \\\\ \\lim _ {x \\rightarrow 0} \\frac {m a ^ {b + x} \\ln a - n a ^ {b - x} \\ln a}{2 x} = \\lim _ {x \\rightarrow 0} \\frac {m \\ln^ {2} a \\cdot a ^ {b + x} + n a ^ {b - x} \\ln^ {2} a}{2} = a ^ {b} \\ln^ {2} a, \\text {即} m + n = 2, \\\\ \\text {综上，} m = 1, n = 1, k = - 2 \\end{array}\">\\begin{array}{l} \\lim _ {x \\rightarrow 0} f (x) = f (0) = a ^ {b} \\ln^ {2} a, \\text {即} \\lim _ {x \\rightarrow 0} \\frac {m a ^ {b + x} + n a ^ {b - x} + k a ^ {b}}{x ^ {2}} = a ^ {b} \\ln^ {2} a, \\text {又} x \\rightarrow 0 \\text {时，} x ^ {2} \\rightarrow 0, \\\\ \\text {即} m a ^ {b + x} + n a ^ {b - x} + k a ^ {b} = 0, \\text {即} m + n + k = 0; \\\\ \\text {又} \\lim _ {x \\rightarrow 0} \\frac {m a ^ {b + x} + n a ^ {b - x} + k a ^ {b}}{x ^ {2}} = \\lim _ {x \\rightarrow 0} \\frac {m \\ln a \\cdot a ^ {b + x} - n a ^ {b - x} \\ln a}{2 x} = a ^ {b} \\ln^ {2} a, \\text {则} \\\\ \\lim _ {x \\rightarrow 0} \\frac {m a ^ {b + x} \\ln a - n a ^ {b - x} \\ln a}{x} = 0, \\text {即} m - n = 0, \\\\ \\lim _ {x \\rightarrow 0} \\frac {m a ^ {b + x} \\ln a - n a ^ {b - x} \\ln a}{2 x} = \\lim _ {x \\rightarrow 0} \\frac {m \\ln^ {2} a \\cdot a ^ {b + x} + n a ^ {b - x} \\ln^ {2} a}{2} = a ^ {b} \\ln^ {2} a, \\text {即} m + n = 2, \\\\ \\text {综上，} m = 1, n = 1, k = - 2 \\end{array}</div>"
     },
     {
       "id": "q0012",
       "number": 12,
       "header": "#12-Averge",
       "difficulty": "Averge",
-      "prompt_html": "<img src=\"/static/generated/assets/advanced-math/ch044/q0012_prompt.png\"/>",
+      "prompt_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{aligned} \\mathrm{f}(x) = \\begin{cases} [\\frac{(1+x)^{\\frac{1}{x}}}{e}]^{\\frac{1}{x}}, x &gt; 0 &amp; \\text{在} \\, x=0 \\text{处} \\, () \\\\ \\quad e^{-\\frac{1}{2}}, \\, x \\leq 0 \\end{cases}\\end{aligned}\">\\begin{aligned} \\mathrm{f}(x) = \\begin{cases} [\\frac{(1+x)^{\\frac{1}{x}}}{e}]^{\\frac{1}{x}}, x &gt; 0 &amp; \\text{在} \\, x=0 \\text{处} \\, () \\\\ \\quad e^{-\\frac{1}{2}}, \\, x \\leq 0 \\end{cases}\\end{aligned}</div>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch044/q0012_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{跳跃间断点}.\">\\text{跳跃间断点}.</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch044/q0012_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{连续};\">\\text{连续};</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch044/q0012_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{无法判断};\">\\text{无法判断};</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch044/q0012_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{不连续}\">\\text{不连续}</span>"
         }
       ],
       "answer": "B",
       "answer_index": 1,
-      "analysis_html": "<img src=\"/static/generated/assets/advanced-math/ch044/q0012_analysis.png\"/>"
+      "analysis_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{aligned}&amp;\\because f(0-0)=\\lim_{x\\rightarrow 0}e^{-\\frac{1}{2}}=e^{-\\frac{1}{2}}=f(0),\\\\&amp;\\therefore f(x) \\text{在}x=0 \\text{处的右极限，记为}y=[\\frac{(1+x)^{\\frac{1}{x}}}{e}]^{\\frac{1}{x}}, \\text{则}\\\\&amp;\\ln y=\\frac{\\ln(1+x)-x}{x^2}, \\text{而}\\lim_{x\\rightarrow 0+}\\ln y=\\lim_{x\\rightarrow 0+}\\frac{\\frac{1}{1+x}-1}{2x}=-\\frac{1}{2}\\\\&amp;\\text{即}f(0+0)=\\lim_{x\\rightarrow 0+}y=e^{-\\frac{1}{2}}=f(0)\\\\&amp;\\therefore f(x) \\text{在}x=0 \\text{处连续}\\end{aligned}\">\\begin{aligned}&amp;\\because f(0-0)=\\lim_{x\\rightarrow 0}e^{-\\frac{1}{2}}=e^{-\\frac{1}{2}}=f(0),\\\\&amp;\\therefore f(x) \\text{在}x=0 \\text{处的右极限，记为}y=[\\frac{(1+x)^{\\frac{1}{x}}}{e}]^{\\frac{1}{x}}, \\text{则}\\\\&amp;\\ln y=\\frac{\\ln(1+x)-x}{x^2}, \\text{而}\\lim_{x\\rightarrow 0+}\\ln y=\\lim_{x\\rightarrow 0+}\\frac{\\frac{1}{1+x}-1}{2x}=-\\frac{1}{2}\\\\&amp;\\text{即}f(0+0)=\\lim_{x\\rightarrow 0+}y=e^{-\\frac{1}{2}}=f(0)\\\\&amp;\\therefore f(x) \\text{在}x=0 \\text{处连续}\\end{aligned}</div>"
     }
-  ]
+  ],
+  "format": "latex",
+  "source_md": "gs/3.3.3_其它未定式(12题)/3.3.3_其它未定式(12题).md"
 }

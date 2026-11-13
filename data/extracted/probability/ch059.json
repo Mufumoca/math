@@ -13,308 +13,310 @@
       "number": 1,
       "header": "#1-Averge",
       "difficulty": "Averge",
-      "prompt_html": "<img src=\"/static/generated/assets/probability/ch059/q0001_prompt.png\"/>",
+      "prompt_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{aligned} \\text{甲乙两人约定中午} 12:30 \\text{分在某地会面.如果甲来到时间在} 12:15 \\text{到} 12:45 \\text{之间是均匀分布，乙独立地到达，而且到达时间在} 12:00 \\text{到} 13:00 \\text{之间是均匀分布，则先到的人等待另一人到达的时间不超过} 5 \\text{分钟的概率为} ( ). \\end{aligned}\">\\begin{aligned} \\text{甲乙两人约定中午} 12:30 \\text{分在某地会面.如果甲来到时间在} 12:15 \\text{到} 12:45 \\text{之间是均匀分布，乙独立地到达，而且到达时间在} 12:00 \\text{到} 13:00 \\text{之间是均匀分布，则先到的人等待另一人到达的时间不超过} 5 \\text{分钟的概率为} ( ). \\end{aligned}</div>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/probability/ch059/q0001_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\frac{1}{4}\">\\frac{1}{4}</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/probability/ch059/q0001_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\frac { 1 } { 3 }\">\\frac { 1 } { 3 }</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/probability/ch059/q0001_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\frac { 1 } { 2 }\">\\frac { 1 } { 2 }</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/probability/ch059/q0001_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\frac{1}{6}\">\\frac{1}{6}</span>"
         }
       ],
       "answer": "D",
       "answer_index": 3,
-      "analysis_html": "<img src=\"/static/generated/assets/probability/ch059/q0001_analysis.png\"/>"
+      "analysis_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{aligned} \\text{设} \\; x \\text{为甲到达时刻，} y \\text{为乙到达时刻，以} 12 \\text{时为起点，以分为单位，依题意} X \\sim U(15,45), Y \\sim U(0,60), \\\\ f_{X}(x) = \\begin{cases} 1/30, &amp; 15 &lt; x &lt; 45 \\\\ \\qquad 0, &amp; \\text{其它} \\end{cases}, \\; f_{Y}(y) = \\begin{cases} 1/60, &amp; 0 &lt; x &lt; 60 \\\\ \\qquad 0, &amp; \\text{其它} \\end{cases}, \\\\ \\text{由} \\; X \\text{与} Y \\text{独立性知} \\; f(x,y) = \\begin{cases} 1/1800, &amp; 15 &lt; x &lt; 45, \\; 0 &lt; y &lt; 60 \\\\ \\qquad 0, &amp; \\text{其它} \\end{cases}, \\\\ \\text{先到的人等待另一人到达的时间不超过5分钟的概率为} \\; P\\{|X-Y| \\leq 5\\}, \\\\ P\\{|X-Y| \\leq 5\\} = P\\{-5 \\leq X-Y \\leq 5\\} = \\int_{15}^{45} \\left[ \\int_{x-5}^{x+5} \\frac{1}{1800} \\, dy \\right] dx = 1/6. \\end{aligned}\">\\begin{aligned} \\text{设} \\; x \\text{为甲到达时刻，} y \\text{为乙到达时刻，以} 12 \\text{时为起点，以分为单位，依题意} X \\sim U(15,45), Y \\sim U(0,60), \\\\ f_{X}(x) = \\begin{cases} 1/30, &amp; 15 &lt; x &lt; 45 \\\\ \\qquad 0, &amp; \\text{其它} \\end{cases}, \\; f_{Y}(y) = \\begin{cases} 1/60, &amp; 0 &lt; x &lt; 60 \\\\ \\qquad 0, &amp; \\text{其它} \\end{cases}, \\\\ \\text{由} \\; X \\text{与} Y \\text{独立性知} \\; f(x,y) = \\begin{cases} 1/1800, &amp; 15 &lt; x &lt; 45, \\; 0 &lt; y &lt; 60 \\\\ \\qquad 0, &amp; \\text{其它} \\end{cases}, \\\\ \\text{先到的人等待另一人到达的时间不超过5分钟的概率为} \\; P\\{|X-Y| \\leq 5\\}, \\\\ P\\{|X-Y| \\leq 5\\} = P\\{-5 \\leq X-Y \\leq 5\\} = \\int_{15}^{45} \\left[ \\int_{x-5}^{x+5} \\frac{1}{1800} \\, dy \\right] dx = 1/6. \\end{aligned}</div>"
     },
     {
       "id": "q0002",
       "number": 2,
       "header": "#2-Averge",
       "difficulty": "Averge",
-      "prompt_html": "<img src=\"/static/generated/assets/probability/ch059/q0002_prompt.png\"/>",
+      "prompt_html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{两个相互独立的随机变量}x\\text{和}y\\text{分别服从正态分布}N(0,1),N(1,1),\\ \\text{则}().\">\\text{两个相互独立的随机变量}x\\text{和}y\\text{分别服从正态分布}N(0,1),N(1,1),\\ \\text{则}().</span>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/probability/ch059/q0002_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\begin{aligned}P\\{X+Y\\leq 1\\}=\\frac{1}{2}\\end{aligned}\">\\begin{aligned}P\\{X+Y\\leq 1\\}=\\frac{1}{2}\\end{aligned}</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/probability/ch059/q0002_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\begin{aligned}P\\{X-Y \\leq 1\\} = \\frac{1}{2}\\end{aligned}\">\\begin{aligned}P\\{X-Y \\leq 1\\} = \\frac{1}{2}\\end{aligned}</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/probability/ch059/q0002_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\begin{aligned}P\\{X-Y \\leq 0\\} = \\frac{1}{2}\\end{aligned}\">\\begin{aligned}P\\{X-Y \\leq 0\\} = \\frac{1}{2}\\end{aligned}</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/probability/ch059/q0002_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\begin{aligned}P\\{X+Y\\leq 0\\}=\\frac{1}{2}\\end{aligned}\">\\begin{aligned}P\\{X+Y\\leq 0\\}=\\frac{1}{2}\\end{aligned}</span>"
         }
       ],
       "answer": "A",
       "answer_index": 0,
-      "analysis_html": "<img src=\"/static/generated/assets/probability/ch059/q0002_analysis.png\"/>"
+      "analysis_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{aligned} \\text{因为} X\\sim N(0,1),\\ Y\\sim N(1,1),\\ \\text{且} X\\text{与} Y\\text{相互独立，所以} \\\\ X+Y\\sim N(1,2),\\ X-Y\\sim N(-1,2),\\\\ \\text{由正态分布性质知，} \\ P\\{X+Y\\leq 1\\}=\\frac{1}{2}\\text{成立}.\\end{aligned}\">\\begin{aligned} \\text{因为} X\\sim N(0,1),\\ Y\\sim N(1,1),\\ \\text{且} X\\text{与} Y\\text{相互独立，所以} \\\\ X+Y\\sim N(1,2),\\ X-Y\\sim N(-1,2),\\\\ \\text{由正态分布性质知，} \\ P\\{X+Y\\leq 1\\}=\\frac{1}{2}\\text{成立}.\\end{aligned}</div>"
     },
     {
       "id": "q0003",
       "number": 3,
       "header": "#3-Averge",
       "difficulty": "Averge",
-      "prompt_html": "<img src=\"/static/generated/assets/probability/ch059/q0003_prompt.png\"/>",
+      "prompt_html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{设随机变量}X\\text{与}Y\\text{都服从}N(0,1)\\text{分布，且}X\\text{与}Y\\text{相互独立，则}(X,Y)\\text{的联合概率密度函数为}().\">\\text{设随机变量}X\\text{与}Y\\text{都服从}N(0,1)\\text{分布，且}X\\text{与}Y\\text{相互独立，则}(X,Y)\\text{的联合概率密度函数为}().</span>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/probability/ch059/q0003_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\frac { 1 } { \\pi } e ^ { - \\frac { 1 } { 2 } ( x + y ) ^ { 2 } }\">\\frac { 1 } { \\pi } e ^ { - \\frac { 1 } { 2 } ( x + y ) ^ { 2 } }</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/probability/ch059/q0003_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\frac { 1 } { \\pi } e ^ { - ( x + y ) ^ { 2 } }\">\\frac { 1 } { \\pi } e ^ { - ( x + y ) ^ { 2 } }</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/probability/ch059/q0003_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\frac { 1 } { 2 \\pi } e ^ { - \\frac { 1 } { 2 } ( x ^ { 2 } + y ^ { 2 } ) }\">\\frac { 1 } { 2 \\pi } e ^ { - \\frac { 1 } { 2 } ( x ^ { 2 } + y ^ { 2 } ) }</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/probability/ch059/q0003_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\frac { 1 } { 2 \\pi } e ^ { - ( x + y ) ^ { 2 } }\">\\frac { 1 } { 2 \\pi } e ^ { - ( x + y ) ^ { 2 } }</span>"
         }
       ],
       "answer": "C",
       "answer_index": 2,
-      "analysis_html": "<img src=\"/static/generated/assets/probability/ch059/q0003_analysis.png\"/>"
+      "analysis_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{aligned}&amp;\\text{由题意知，随机变量}X,Y\\text{的概率密度函数分别是}\\\\&amp;f_{X}(x)=\\frac{1}{\\sqrt{2\\pi}}e^{-\\frac{x^{2}}{2}},\\quad f_{Y}(y)=\\frac{1}{\\sqrt{2\\pi}}e^{-\\frac{y^{2}}{2}}\\\\&amp;\\text{因为}X\\text{与}Y\\text{相互独立，所以}(X,Y)\\text{的联合概率密度函数是}\\\\&amp;f(x,y)=\\frac{1}{2\\pi}e^{-\\frac{1}{2}(x^{2}+y^{2})}.\\end{aligned}\">\\begin{aligned}&amp;\\text{由题意知，随机变量}X,Y\\text{的概率密度函数分别是}\\\\&amp;f_{X}(x)=\\frac{1}{\\sqrt{2\\pi}}e^{-\\frac{x^{2}}{2}},\\quad f_{Y}(y)=\\frac{1}{\\sqrt{2\\pi}}e^{-\\frac{y^{2}}{2}}\\\\&amp;\\text{因为}X\\text{与}Y\\text{相互独立，所以}(X,Y)\\text{的联合概率密度函数是}\\\\&amp;f(x,y)=\\frac{1}{2\\pi}e^{-\\frac{1}{2}(x^{2}+y^{2})}.\\end{aligned}</div>"
     },
     {
       "id": "q0004",
       "number": 4,
       "header": "#4-Averge",
       "difficulty": "Averge",
-      "prompt_html": "<img src=\"/static/generated/assets/probability/ch059/q0004_prompt.png\"/>",
+      "prompt_html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{设} \\, \\xi \\, , \\, \\eta \\text{相互独立，并服从区间} [0,1] \\text{上的均匀分布，则}( ).\">\\text{设} \\, \\xi \\, , \\, \\eta \\text{相互独立，并服从区间} [0,1] \\text{上的均匀分布，则}( ).</span>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/probability/ch059/q0004_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\zeta = \\xi - \\eta \\text{服从} [ - 1 , 1 ] \\text{上的均匀分布}\">\\zeta = \\xi - \\eta \\text{服从} [ - 1 , 1 ] \\text{上的均匀分布}</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/probability/ch059/q0004_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\zeta = \\max \\{ \\zeta , \\eta \\} \\text{服从} [ 0 , 1 ] \\text{上的均匀分布}\">\\zeta = \\max \\{ \\zeta , \\eta \\} \\text{服从} [ 0 , 1 ] \\text{上的均匀分布}</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/probability/ch059/q0004_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"(\\xi,\\eta) \\text{服从区域} \\begin{cases} 0 \\leq x \\leq 1 \\\\ 0 \\leq y \\leq 1 \\end{cases} \\text{上的均匀分布}\">(\\xi,\\eta) \\text{服从区域} \\begin{cases} 0 \\leq x \\leq 1 \\\\ 0 \\leq y \\leq 1 \\end{cases} \\text{上的均匀分布}</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/probability/ch059/q0004_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\zeta = \\xi + \\eta \\text{服从} [0, 2] \\text{上的均匀分布}\">\\zeta = \\xi + \\eta \\text{服从} [0, 2] \\text{上的均匀分布}</span>"
         }
       ],
       "answer": "C",
       "answer_index": 2,
-      "analysis_html": "<img src=\"/static/generated/assets/probability/ch059/q0004_analysis.png\"/>"
+      "analysis_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{aligned}&amp;\\text{依题意，有} &amp; f_{\\xi}(x)=\\begin{cases}1,\\ 0\\leq x\\leq 1\\\\0,\\ \\text{其它}\\end{cases},\\ f_{\\eta}(y)=\\begin{cases}1,\\ 0\\leq y\\leq 1\\\\0,\\ \\text{其它}\\end{cases},\\\\&amp;\\text{因为独立，故有} &amp; f(x,y)=f_{\\xi}(x)f_{\\eta}(y)=\\begin{cases}1,\\ 0\\leq x\\leq 1,0\\leq y\\leq 1\\\\0,\\ \\text{其它}\\end{cases},\\\\&amp;\\text{即联合概率密度属于二维均匀分布的概率密度．故}(\\xi,\\eta)\\text{服从区域}\\begin{cases}0\\leq x\\leq 1\\\\0\\leq y\\leq 1\\end{cases}\\text{上的均匀分布}.\\end{aligned}\">\\begin{aligned}&amp;\\text{依题意，有} &amp; f_{\\xi}(x)=\\begin{cases}1,\\ 0\\leq x\\leq 1\\\\0,\\ \\text{其它}\\end{cases},\\ f_{\\eta}(y)=\\begin{cases}1,\\ 0\\leq y\\leq 1\\\\0,\\ \\text{其它}\\end{cases},\\\\&amp;\\text{因为独立，故有} &amp; f(x,y)=f_{\\xi}(x)f_{\\eta}(y)=\\begin{cases}1,\\ 0\\leq x\\leq 1,0\\leq y\\leq 1\\\\0,\\ \\text{其它}\\end{cases},\\\\&amp;\\text{即联合概率密度属于二维均匀分布的概率密度．故}(\\xi,\\eta)\\text{服从区域}\\begin{cases}0\\leq x\\leq 1\\\\0\\leq y\\leq 1\\end{cases}\\text{上的均匀分布}.\\end{aligned}</div>"
     },
     {
       "id": "q0005",
       "number": 5,
       "header": "#5-Averge",
       "difficulty": "Averge",
-      "prompt_html": "<img src=\"/static/generated/assets/probability/ch059/q0005_prompt.png\"/>",
+      "prompt_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{aligned}\\text{设}X\\text{和}Y\\text{是两个相互独立的随机变量，}X\\text{在} (0,1)\\text{上服从均匀分布，}Y\\text{的概率密度为}\\\\f_{Y}(y)=\\begin{cases}\\frac{1}{2}e^{-\\frac{y}{2}},\\;y&gt;0\\\\0,\\;\\;y\\leq 0\\end{cases},\\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\end{aligned} \\text{则}X\\text{与}Y\\text{的联合概率密度为}（）.\">\\begin{aligned}\\text{设}X\\text{和}Y\\text{是两个相互独立的随机变量，}X\\text{在} (0,1)\\text{上服从均匀分布，}Y\\text{的概率密度为}\\\\f_{Y}(y)=\\begin{cases}\\frac{1}{2}e^{-\\frac{y}{2}},\\;y&gt;0\\\\0,\\;\\;y\\leq 0\\end{cases},\\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\end{aligned} \\text{则}X\\text{与}Y\\text{的联合概率密度为}（）.</div>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/probability/ch059/q0005_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\begin{aligned}\\{\\begin{aligned}e^{-\\frac{x+y}{2}}, &amp; \\ 0&lt;x&lt;1, y&gt;0\\\\0, &amp; \\quad\\ \\text{其它}\\end{aligned}\\end{aligned}\">\\begin{aligned}\\{\\begin{aligned}e^{-\\frac{x+y}{2}}, &amp; \\ 0&lt;x&lt;1, y&gt;0\\\\0, &amp; \\quad\\ \\text{其它}\\end{aligned}\\end{aligned}</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/probability/ch059/q0005_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\begin{aligned}\\begin{cases}\\dfrac{1}{2}e^{-\\frac{y+x}{2}}, \\;\\; 0&lt;x&lt;1, y&gt;0 \\\\ \\;\\;\\;\\;\\;\\;\\;\\;\\;\\;\\;\\;\\;\\;\\;\\;\\;\\;\\;0, \\;\\;\\;\\;\\;\\; \\text{其它}\\end{cases}\\end{aligned}\">\\begin{aligned}\\begin{cases}\\dfrac{1}{2}e^{-\\frac{y+x}{2}}, \\;\\; 0&lt;x&lt;1, y&gt;0 \\\\ \\;\\;\\;\\;\\;\\;\\;\\;\\;\\;\\;\\;\\;\\;\\;\\;\\;\\;\\;0, \\;\\;\\;\\;\\;\\; \\text{其它}\\end{cases}\\end{aligned}</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/probability/ch059/q0005_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\begin{aligned}\\begin{cases}\\displaystyle \\frac{1}{2} e^{-\\frac{y}{2}}, \\;\\; 0 &lt; x &lt; 1, y &gt; 0 \\\\ \\;\\;\\;\\;\\;\\;\\;\\;\\;\\;0, \\;\\;\\;\\;\\;\\; \\text{其它}\\end{cases}\\end{aligned}\">\\begin{aligned}\\begin{cases}\\displaystyle \\frac{1}{2} e^{-\\frac{y}{2}}, \\;\\; 0 &lt; x &lt; 1, y &gt; 0 \\\\ \\;\\;\\;\\;\\;\\;\\;\\;\\;\\;0, \\;\\;\\;\\;\\;\\; \\text{其它}\\end{cases}\\end{aligned}</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/probability/ch059/q0005_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\begin{aligned}\\{\\begin{aligned}&amp;\\frac{1}{2}e^{-\\frac{x}{2}}, &amp; 0&lt;x&lt;1, y&gt;0\\\\&amp;0, &amp; \\text{其它}\\end{aligned}\\end{aligned}\">\\begin{aligned}\\{\\begin{aligned}&amp;\\frac{1}{2}e^{-\\frac{x}{2}}, &amp; 0&lt;x&lt;1, y&gt;0\\\\&amp;0, &amp; \\text{其它}\\end{aligned}\\end{aligned}</span>"
         }
       ],
       "answer": "C",
       "answer_index": 2,
-      "analysis_html": "<img src=\"/static/generated/assets/probability/ch059/q0005_analysis.png\"/>"
+      "analysis_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{aligned}&amp;f_{X}(x)=\\begin{cases}1,0&lt;x&lt;1\\\\0,\\ \\text{其它}\\end{cases},\\\\&amp;\\text{又}X,Y\\text{相互独立，故}X\\text{与}Y\\text{的联合概率密度为}\\\\&amp;f(x,y)=f_{X}(x)\\cdot f_{Y}(y)=\\begin{cases}\\frac{1}{2}\\,e^{-\\frac{x}{2}},\\ 0&lt;x&lt;1,y&gt;0;\\\\0,\\ \\ \\ \\text{其它}\\end{cases}\\end{aligned}\">\\begin{aligned}&amp;f_{X}(x)=\\begin{cases}1,0&lt;x&lt;1\\\\0,\\ \\text{其它}\\end{cases},\\\\&amp;\\text{又}X,Y\\text{相互独立，故}X\\text{与}Y\\text{的联合概率密度为}\\\\&amp;f(x,y)=f_{X}(x)\\cdot f_{Y}(y)=\\begin{cases}\\frac{1}{2}\\,e^{-\\frac{x}{2}},\\ 0&lt;x&lt;1,y&gt;0;\\\\0,\\ \\ \\ \\text{其它}\\end{cases}\\end{aligned}</div>"
     },
     {
       "id": "q0006",
       "number": 6,
       "header": "#6-Averge",
       "difficulty": "Averge",
-      "prompt_html": "<img src=\"/static/generated/assets/probability/ch059/q0006_prompt.png\"/>",
+      "prompt_html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{设}X\\text{与}Y\\text{独立},\\ X\\sim N(0,1),\\ Y\\sim N(0,1),\\text{则下列随机变量或者随机向量中不服从正态分布的是( ).}\">\\text{设}X\\text{与}Y\\text{独立},\\ X\\sim N(0,1),\\ Y\\sim N(0,1),\\text{则下列随机变量或者随机向量中不服从正态分布的是( ).}</span>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/probability/ch059/q0006_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\chi \\gamma\">\\chi \\gamma</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/probability/ch059/q0006_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"(X, Y)\">(X, Y)</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/probability/ch059/q0006_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"X + Y\">X + Y</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/probability/ch059/q0006_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"X - Y\">X - Y</span>"
         }
       ],
       "answer": "A",
       "answer_index": 0,
-      "analysis_html": "<img src=\"/static/generated/assets/probability/ch059/q0006_analysis.png\"/>"
+      "analysis_html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{正态分布的线性组合还是正态分布，若它们独立则联合分布也服从正态分布}.\">\\text{正态分布的线性组合还是正态分布，若它们独立则联合分布也服从正态分布}.</span>"
     },
     {
       "id": "q0007",
       "number": 7,
       "header": "#7-Averge",
       "difficulty": "Averge",
-      "prompt_html": "<img src=\"/static/generated/assets/probability/ch059/q0007_prompt.png\"/>",
+      "prompt_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{array}{l} \\text {设二维随机变量}(\\xi,\\eta)\\text {服从二维正态分布}N\\bigl(a,b,\\sigma_{1},\\sigma_{2},\\rho\\bigr),\\text {其中}a,b,\\sigma_{1},\\sigma_{2},\\rho\\text {均为常数}\\sigma_{1}&gt;0,\\sigma_{2}&gt;0,|\\rho|&lt;1,\\text {则随机}\\\\ \\text {变量}\\xi\\text {与}\\eta\\text {相互独立的充要条件是}( ). \\end{array}\">\\begin{array}{l} \\text {设二维随机变量}(\\xi,\\eta)\\text {服从二维正态分布}N\\bigl(a,b,\\sigma_{1},\\sigma_{2},\\rho\\bigr),\\text {其中}a,b,\\sigma_{1},\\sigma_{2},\\rho\\text {均为常数}\\sigma_{1}&gt;0,\\sigma_{2}&gt;0,|\\rho|&lt;1,\\text {则随机}\\\\ \\text {变量}\\xi\\text {与}\\eta\\text {相互独立的充要条件是}( ). \\end{array}</div>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/probability/ch059/q0007_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\, a \\! = \\! 0 \\, , \\; \\; \\, b \\! = \\! 0 \\, \\,\">\\, a \\! = \\! 0 \\, , \\; \\; \\, b \\! = \\! 0 \\, \\,</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/probability/ch059/q0007_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\rho = 0\">\\rho = 0</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/probability/ch059/q0007_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\rho = 1\">\\rho = 1</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/probability/ch059/q0007_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\rho = 1 \\, , \\; \\; a = 0 \\, , \\; \\; b = 0\">\\rho = 1 \\, , \\; \\; a = 0 \\, , \\; \\; b = 0</span>"
         }
       ],
       "answer": "B",
       "answer_index": 1,
-      "analysis_html": "<img src=\"/static/generated/assets/probability/ch059/q0007_analysis.png\"/>"
+      "analysis_html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{根据联合正态分布独立性质，当} \\rho = 0 \\text{时，随机变量之间相互独立}.\">\\text{根据联合正态分布独立性质，当} \\rho = 0 \\text{时，随机变量之间相互独立}.</span>"
     },
     {
       "id": "q0008",
       "number": 8,
       "header": "#8-Averge",
       "difficulty": "Averge",
-      "prompt_html": "<img src=\"/static/generated/assets/probability/ch059/q0008_prompt.png\"/>",
+      "prompt_html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{设} \\, \\xi , \\eta \\text{相互独立，并服从区间} [ 0 , a ] ( a &gt; 0 ) \\text{上的均匀分布，则} \\, ( \\xi , \\eta ) \\text{的联合概率密度为} \\, f ( x , y ) = ( \\ \\ ) \\, .\">\\text{设} \\, \\xi , \\eta \\text{相互独立，并服从区间} [ 0 , a ] ( a &gt; 0 ) \\text{上的均匀分布，则} \\, ( \\xi , \\eta ) \\text{的联合概率密度为} \\, f ( x , y ) = ( \\ \\ ) \\, .</span>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/probability/ch059/q0008_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\begin{aligned}\\{\\begin{aligned}&amp;\\frac{1}{a}, \\ 0\\leq x\\leq a\\\\&amp;0, \\quad \\text{其它}\\end{aligned}\\end{aligned}\">\\begin{aligned}\\{\\begin{aligned}&amp;\\frac{1}{a}, \\ 0\\leq x\\leq a\\\\&amp;0, \\quad \\text{其它}\\end{aligned}\\end{aligned}</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/probability/ch059/q0008_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\begin{aligned}\\{\\begin{aligned}a^2, \\ &amp; 0\\leq x\\leq a, 0\\leq y\\leq a\\\\&amp;0, \\quad \\text{其它}\\end{aligned}\\end{aligned}\">\\begin{aligned}\\{\\begin{aligned}a^2, \\ &amp; 0\\leq x\\leq a, 0\\leq y\\leq a\\\\&amp;0, \\quad \\text{其它}\\end{aligned}\\end{aligned}</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/probability/ch059/q0008_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\begin{aligned}\\{\\begin{aligned}\\frac{1}{a^2}, &amp; \\ 0\\leq x\\leq a, 0\\leq y\\leq a\\\\&amp; \\\\&amp; \\ 0, \\quad \\text{其它}\\end{aligned}\\end{aligned}\">\\begin{aligned}\\{\\begin{aligned}\\frac{1}{a^2}, &amp; \\ 0\\leq x\\leq a, 0\\leq y\\leq a\\\\&amp; \\\\&amp; \\ 0, \\quad \\text{其它}\\end{aligned}\\end{aligned}</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/probability/ch059/q0008_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\begin{aligned}\\{\\begin{aligned}&amp;\\frac{1}{a}, \\ 0\\leq y\\leq a\\\\&amp;0, \\ \\text{其它}\\end{aligned}\\end{aligned}\">\\begin{aligned}\\{\\begin{aligned}&amp;\\frac{1}{a}, \\ 0\\leq y\\leq a\\\\&amp;0, \\ \\text{其它}\\end{aligned}\\end{aligned}</span>"
         }
       ],
       "answer": "C",
       "answer_index": 2,
-      "analysis_html": "<img src=\"/static/generated/assets/probability/ch059/q0008_analysis.png\"/>"
+      "analysis_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{aligned} \\text{因为独立，所以} f(x,y)=f_{z}(x)f_{\\eta}(y)，\\text{即} \\\\ f(x,y)=\\begin{cases} \\displaystyle \\frac{1}{a^{2}},\\ 0\\leq x\\leq a, 0\\leq y\\leq a\\\\ \\qquad\\qquad\\qquad\\qquad\\qquad\\qquad\\qquad\\qquad\\qquad\\qquad\\qquad\\qquad\\qquad\\qquad\\qquad\\qquad\\qquad\\qquad\\qquad\\\\ \\qquad\\qquad\\qquad0,\\quad\\text{其它} \\end{cases}.\\end{aligned}\">\\begin{aligned} \\text{因为独立，所以} f(x,y)=f_{z}(x)f_{\\eta}(y)，\\text{即} \\\\ f(x,y)=\\begin{cases} \\displaystyle \\frac{1}{a^{2}},\\ 0\\leq x\\leq a, 0\\leq y\\leq a\\\\ \\qquad\\qquad\\qquad\\qquad\\qquad\\qquad\\qquad\\qquad\\qquad\\qquad\\qquad\\qquad\\qquad\\qquad\\qquad\\qquad\\qquad\\qquad\\qquad\\\\ \\qquad\\qquad\\qquad0,\\quad\\text{其它} \\end{cases}.\\end{aligned}</div>"
     },
     {
       "id": "q0009",
       "number": 9,
       "header": "#9-Averge",
       "difficulty": "Averge",
-      "prompt_html": "<img src=\"/static/generated/assets/probability/ch059/q0009_prompt.png\"/>",
+      "prompt_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{array}{l} \\text{设随机向量} (X,Y) \\text{服从二维正态分布} N(0,0,10^{2},10^{2},0), \\text{其概率密度为} \\ f(x,y)=\\frac{1}{200\\pi}e^{-\\frac{x^{2}+y^{2}}{200}}, \\text{则} \\\\ P\\{X\\leq Y\\}=(\\ .) \\end{array}\">\\begin{array}{l} \\text{设随机向量} (X,Y) \\text{服从二维正态分布} N(0,0,10^{2},10^{2},0), \\text{其概率密度为} \\ f(x,y)=\\frac{1}{200\\pi}e^{-\\frac{x^{2}+y^{2}}{200}}, \\text{则} \\\\ P\\{X\\leq Y\\}=(\\ .) \\end{array}</div>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/probability/ch059/q0009_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\frac { 1 } { 2 }\">\\frac { 1 } { 2 }</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/probability/ch059/q0009_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\frac { 1 } { 5 }\">\\frac { 1 } { 5 }</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/probability/ch059/q0009_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\frac { 1 } { 4 }\">\\frac { 1 } { 4 }</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/probability/ch059/q0009_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\frac { 1 } { 3 }\">\\frac { 1 } { 3 }</span>"
         }
       ],
       "answer": "A",
       "answer_index": 0,
-      "analysis_html": "<img src=\"/static/generated/assets/probability/ch059/q0009_analysis.png\"/>"
+      "analysis_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{aligned} \\text{由于} \\ P\\{X\\leq Y\\} + P\\{X&gt;Y\\} &amp;= 1 \\,, \\text{且由正态分布图形的对称性，知} \\\\ &amp; \\quad P\\{X\\leq Y\\} = P\\{X&gt;Y\\}, \\\\ \\text{故} \\quad \\quad \\quad P\\{X\\leq Y\\} &amp;= \\frac{1}{2}.\\end{aligned}\">\\begin{aligned} \\text{由于} \\ P\\{X\\leq Y\\} + P\\{X&gt;Y\\} &amp;= 1 \\,, \\text{且由正态分布图形的对称性，知} \\\\ &amp; \\quad P\\{X\\leq Y\\} = P\\{X&gt;Y\\}, \\\\ \\text{故} \\quad \\quad \\quad P\\{X\\leq Y\\} &amp;= \\frac{1}{2}.\\end{aligned}</div>"
     },
     {
       "id": "q0010",
       "number": 10,
       "header": "#10-Averge",
       "difficulty": "Averge",
-      "prompt_html": "<img src=\"/static/generated/assets/probability/ch059/q0010_prompt.png\"/>",
+      "prompt_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{aligned} \\text{甲乙两人约定中午} 12:30 \\text{分在某地会面.如果甲来到时间在} 12:15 \\text{到} 12:45 \\text{之间是均匀分布，乙独立地到达，而且到达时间在} 12:00 \\text{到} 13:00 \\text{之间是均匀分布，则甲先到的概率为}(\\text{.}) \\end{aligned}\">\\begin{aligned} \\text{甲乙两人约定中午} 12:30 \\text{分在某地会面.如果甲来到时间在} 12:15 \\text{到} 12:45 \\text{之间是均匀分布，乙独立地到达，而且到达时间在} 12:00 \\text{到} 13:00 \\text{之间是均匀分布，则甲先到的概率为}(\\text{.}) \\end{aligned}</div>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/probability/ch059/q0010_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\frac { 1 } { 2 }\">\\frac { 1 } { 2 }</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/probability/ch059/q0010_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\frac { 1 } { 3 }\">\\frac { 1 } { 3 }</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/probability/ch059/q0010_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\frac{5}{6}\">\\frac{5}{6}</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/probability/ch059/q0010_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\frac{2}{3}\">\\frac{2}{3}</span>"
         }
       ],
       "answer": "A",
       "answer_index": 0,
-      "analysis_html": "<img src=\"/static/generated/assets/probability/ch059/q0010_analysis.png\"/>"
+      "analysis_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{aligned} \\text{设} \\; x \\text{为甲到达时刻，} y \\text{为乙到达时刻，以12时为起点，以分为单位，依题意} X \\sim U(15,45), Y \\sim U(0,60), \\\\ f_{X}(x) = \\begin{cases} 1/30, &amp; 15 &lt; x &lt; 45 \\\\ 0, &amp; \\text{其它} \\end{cases}, \\; f_{Y}(y) = \\begin{cases} 1/60, &amp; 0 &lt; x &lt; 60 \\\\ 0, &amp; \\text{其它} \\end{cases}, \\\\ \\text{由} \\; x \\text{与} y \\text{独立性知} \\\\ f(x,y) = \\begin{cases} 1/1800, &amp; 15 &lt; x &lt; 45, \\; 0 &lt; y &lt; 60 \\\\ 0, &amp; \\text{其它} \\end{cases}, \\\\ \\text{甲先到的概率为} \\; P\\{X &lt; Y\\}, \\\\ P\\{X &lt; Y\\} = \\int_{15}^{45} \\left[ \\int_{x}^{60} \\frac{1}{1800} dy \\right] dx = 1/2.\\end{aligned}\">\\begin{aligned} \\text{设} \\; x \\text{为甲到达时刻，} y \\text{为乙到达时刻，以12时为起点，以分为单位，依题意} X \\sim U(15,45), Y \\sim U(0,60), \\\\ f_{X}(x) = \\begin{cases} 1/30, &amp; 15 &lt; x &lt; 45 \\\\ 0, &amp; \\text{其它} \\end{cases}, \\; f_{Y}(y) = \\begin{cases} 1/60, &amp; 0 &lt; x &lt; 60 \\\\ 0, &amp; \\text{其它} \\end{cases}, \\\\ \\text{由} \\; x \\text{与} y \\text{独立性知} \\\\ f(x,y) = \\begin{cases} 1/1800, &amp; 15 &lt; x &lt; 45, \\; 0 &lt; y &lt; 60 \\\\ 0, &amp; \\text{其它} \\end{cases}, \\\\ \\text{甲先到的概率为} \\; P\\{X &lt; Y\\}, \\\\ P\\{X &lt; Y\\} = \\int_{15}^{45} \\left[ \\int_{x}^{60} \\frac{1}{1800} dy \\right] dx = 1/2.\\end{aligned}</div>"
     },
     {
       "id": "q0011",
       "number": 11,
       "header": "#11-Averge",
       "difficulty": "Averge",
-      "prompt_html": "<img src=\"/static/generated/assets/probability/ch059/q0011_prompt.png\"/>",
+      "prompt_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{aligned}\\text{设}(X,Y)\\ \\text{的联合概率密度为}\\ \\ \\\\f(x,y)=\\begin{cases}\\dfrac{1}{4\\pi},\\ x^{2}+y^{2}\\leq 2,\\\\0,\\ \\text{其它}\\end{cases}\\end{aligned}\">\\begin{aligned}\\text{设}(X,Y)\\ \\text{的联合概率密度为}\\ \\ \\\\f(x,y)=\\begin{cases}\\dfrac{1}{4\\pi},\\ x^{2}+y^{2}\\leq 2,\\\\0,\\ \\text{其它}\\end{cases}\\end{aligned}</div>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/probability/ch059/q0011_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{不独立同分布}\">\\text{不独立同分布}</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/probability/ch059/q0011_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{独立同分布}\">\\text{独立同分布}</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/probability/ch059/q0011_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{独立不同分布}\">\\text{独立不同分布}</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/probability/ch059/q0011_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{不独立也不同分布}\">\\text{不独立也不同分布}</span>"
         }
       ],
       "answer": "A",
       "answer_index": 0,
-      "analysis_html": "<img src=\"/static/generated/assets/probability/ch059/q0011_analysis.png\"/>"
+      "analysis_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{aligned}f_{X}(x)&amp;=\\int_{-\\infty}^{+\\infty}f(x,y)dy=\\begin{cases}\\int_{-\\sqrt{1-x^{2}}}^{\\sqrt{1-x^{2}}}\\frac{1}{4\\pi}dy,~|x|\\leq 2\\\\0,~~|x|&gt;2\\end{cases}=\\begin{cases}\\frac{1}{2\\pi}\\sqrt{1-x^{2}},~|x|\\leq 2\\\\0,~~|x|&gt;2\\end{cases},\\\\ \\text{同理得}f_{Y}(y)&amp;=\\begin{cases}\\frac{1}{2\\pi}\\sqrt{1-y^{2}},~|y|\\leq 2\\\\0,~~|y|&gt;2\\end{cases}.\\\\ \\text{因为}f_{X}(x)f_{Y}(y)&amp;=\\begin{cases}\\frac{1}{4\\pi^{2}}\\sqrt{(1-x^{2})(1-y^{2})},~|x|\\leq 2,|y|\\leq 2\\\\0,~~\\text{其他}\\end{cases},\\text{所以}f(x,y)\\neq f_{X}(x)f_{Y}(y).\\end{aligned}\">\\begin{aligned}f_{X}(x)&amp;=\\int_{-\\infty}^{+\\infty}f(x,y)dy=\\begin{cases}\\int_{-\\sqrt{1-x^{2}}}^{\\sqrt{1-x^{2}}}\\frac{1}{4\\pi}dy,~|x|\\leq 2\\\\0,~~|x|&gt;2\\end{cases}=\\begin{cases}\\frac{1}{2\\pi}\\sqrt{1-x^{2}},~|x|\\leq 2\\\\0,~~|x|&gt;2\\end{cases},\\\\ \\text{同理得}f_{Y}(y)&amp;=\\begin{cases}\\frac{1}{2\\pi}\\sqrt{1-y^{2}},~|y|\\leq 2\\\\0,~~|y|&gt;2\\end{cases}.\\\\ \\text{因为}f_{X}(x)f_{Y}(y)&amp;=\\begin{cases}\\frac{1}{4\\pi^{2}}\\sqrt{(1-x^{2})(1-y^{2})},~|x|\\leq 2,|y|\\leq 2\\\\0,~~\\text{其他}\\end{cases},\\text{所以}f(x,y)\\neq f_{X}(x)f_{Y}(y).\\end{aligned}</div>"
     }
-  ]
+  ],
+  "format": "latex",
+  "source_md": "gl/3.5.4_常见随机变量的独立性(11题)/3.5.4_常见随机变量的独立性(11题).md"
 }

@@ -13,392 +13,394 @@
       "number": 1,
       "header": "#1-Averge",
       "difficulty": "Averge",
-      "prompt_html": "<img src=\"/static/generated/assets/complex-analysis/ch005/q0001_prompt.png\"/>",
+      "prompt_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\text{微分方程初值问题} \\begin{cases} y&#x27;&#x27; + 4y&#x27; + 5y = f\\left(t\\right) \\\\ y\\left(0\\right) = C_{1}, y^{\\prime}\\left(0\\right) = C_{2} \\end{cases} \\text{的解为( ).}\">\\text{微分方程初值问题} \\begin{cases} y&#x27;&#x27; + 4y&#x27; + 5y = f\\left(t\\right) \\\\ y\\left(0\\right) = C_{1}, y^{\\prime}\\left(0\\right) = C_{2} \\end{cases} \\text{的解为( ).}</div>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/complex-analysis/ch005/q0001_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\begin{array}{l} { r } { f ( t ) * \\left( e ^ { - 2 t } \\sin t \\right) + e ^ { - 2 t } \\left( C _ { 1 } \\cos t + \\left( C _ { 2 } + 2 C _ { 1 } \\right) \\sin t \\right) } \\end{array}\">\\begin{array}{l} { r } { f ( t ) * \\left( e ^ { - 2 t } \\sin t \\right) + e ^ { - 2 t } \\left( C _ { 1 } \\cos t + \\left( C _ { 2 } + 2 C _ { 1 } \\right) \\sin t \\right) } \\end{array}</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/complex-analysis/ch005/q0001_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\begin{aligned}f(t) * \\left(e^{-2t} \\sin t \\right) + e^{-2t} \\left(C_{1} \\cos t + \\left(C_{2} + 4 C_{1} \\right) \\sin t \\right) \\end{aligned}\">\\begin{aligned}f(t) * \\left(e^{-2t} \\sin t \\right) + e^{-2t} \\left(C_{1} \\cos t + \\left(C_{2} + 4 C_{1} \\right) \\sin t \\right) \\end{aligned}</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/complex-analysis/ch005/q0001_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"f\\left(t\\right)\\ast\\left(e^{2t}\\sin t\\right)+e^{2t}\\left(C_{1}\\cos t+\\left(C_{2}+2C_{1}\\right)\\sin t\\right)\">f\\left(t\\right)\\ast\\left(e^{2t}\\sin t\\right)+e^{2t}\\left(C_{1}\\cos t+\\left(C_{2}+2C_{1}\\right)\\sin t\\right)</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/complex-analysis/ch005/q0001_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\begin{aligned}f\\left(t\\right) * \\left(e^{2t}\\sin t\\right) + e^{2t}\\left(C_{1}\\cos t + \\left(C_{2} + 4C_{1}\\right)\\sin t\\right) \\end{aligned}\">\\begin{aligned}f\\left(t\\right) * \\left(e^{2t}\\sin t\\right) + e^{2t}\\left(C_{1}\\cos t + \\left(C_{2} + 4C_{1}\\right)\\sin t\\right) \\end{aligned}</span>"
         }
       ],
       "answer": "A",
       "answer_index": 0,
-      "analysis_html": "<img src=\"/static/generated/assets/complex-analysis/ch005/q0001_analysis.png\"/>"
+      "analysis_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{aligned}&amp;s^2 \\overline{y}\\left(s\\right)-C_1 s-C_2+4\\left(s \\overline{y}\\left(s\\right)-C_1\\right)+5 \\overline{y}\\left(s\\right)=F\\left(s\\right),^{\\psi}\\\\&amp;\\left(s^2+4s+5\\right)\\overline{y}\\left(s\\right)-C_1 s-C_2-4C_1=F\\left(s\\right),^{\\psi}\\\\&amp;\\overline{y}\\left(s\\right)=\\frac{F\\left(s\\right)}{\\left(s+2\\right)^2+1}+C_1\\frac{s+2}{\\left(s+2\\right)^2+1}+\\frac{C_2+2C_1}{\\left(s+2\\right)^2+1},^{\\psi}\\\\&amp;y\\left(t\\right)=f\\left(t\\right)^*\\left(e^{-2t}\\sin t\\right)+e^{-2t}\\left(C_1\\cos t+\\left(C_2+2C_1\\right)\\sin t\\right).\\end{aligned}\">\\begin{aligned}&amp;s^2 \\overline{y}\\left(s\\right)-C_1 s-C_2+4\\left(s \\overline{y}\\left(s\\right)-C_1\\right)+5 \\overline{y}\\left(s\\right)=F\\left(s\\right),^{\\psi}\\\\&amp;\\left(s^2+4s+5\\right)\\overline{y}\\left(s\\right)-C_1 s-C_2-4C_1=F\\left(s\\right),^{\\psi}\\\\&amp;\\overline{y}\\left(s\\right)=\\frac{F\\left(s\\right)}{\\left(s+2\\right)^2+1}+C_1\\frac{s+2}{\\left(s+2\\right)^2+1}+\\frac{C_2+2C_1}{\\left(s+2\\right)^2+1},^{\\psi}\\\\&amp;y\\left(t\\right)=f\\left(t\\right)^*\\left(e^{-2t}\\sin t\\right)+e^{-2t}\\left(C_1\\cos t+\\left(C_2+2C_1\\right)\\sin t\\right).\\end{aligned}</div>"
     },
     {
       "id": "q0002",
       "number": 2,
       "header": "#2-Easy",
       "difficulty": "Easy",
-      "prompt_html": "<img src=\"/static/generated/assets/complex-analysis/ch005/q0002_prompt.png\"/>",
+      "prompt_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\text{微分方程组初值问题} \\begin{cases} x^{\\prime}+x-y=e^{t} \\\\ y^{\\prime}+3x-2y=2e^{t} \\\\ x(0)=y(0)=1 \\end{cases} \\text{的解为}（ ）.\">\\text{微分方程组初值问题} \\begin{cases} x^{\\prime}+x-y=e^{t} \\\\ y^{\\prime}+3x-2y=2e^{t} \\\\ x(0)=y(0)=1 \\end{cases} \\text{的解为}（ ）.</div>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/complex-analysis/ch005/q0002_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\begin{aligned}x(t)=e^{t},y(t)=e^{t}\\end{aligned}\">\\begin{aligned}x(t)=e^{t},y(t)=e^{t}\\end{aligned}</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/complex-analysis/ch005/q0002_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\begin{aligned}x(t)=e^t, y(t)=2e^t\\end{aligned}\">\\begin{aligned}x(t)=e^t, y(t)=2e^t\\end{aligned}</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/complex-analysis/ch005/q0002_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\begin{aligned}x(t) = 2e^t, \\, y(t) = e^t\\end{aligned}\">\\begin{aligned}x(t) = 2e^t, \\, y(t) = e^t\\end{aligned}</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/complex-analysis/ch005/q0002_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\begin{aligned}x(t) = e^t, \\, y(t) = e^{2t}\\end{aligned}\">\\begin{aligned}x(t) = e^t, \\, y(t) = e^{2t}\\end{aligned}</span>"
         }
       ],
       "answer": "A",
       "answer_index": 0,
-      "analysis_html": "<img src=\"/static/generated/assets/complex-analysis/ch005/q0002_analysis.png\"/>"
+      "analysis_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{aligned}&amp;\\{\\begin{array}{l}sX(s)-1+X(s)-Y(s)=\\dfrac{1}{s-1}\\\\sY(s)-1+3X(s)-2Y(s)=\\dfrac{2}{s-1}\\end{array}\\\\&amp;\\Rightarrow \\{\\begin{array}{l}(s+1)X(s)-Y(s)=\\dfrac{s}{s-1}\\\\3X(s)+-(s-2)Y(s)=\\dfrac{s+1}{s-1}\\end{array}\\Rightarrow \\{\\begin{array}{l}X(s)=\\dfrac{1}{s-1}\\\\Y(s)=\\dfrac{1}{s-1}\\end{array}\\Rightarrow \\{\\begin{array}{l}x(t)=e^{t}\\\\y(t)=e^{t}\\end{array}\\end{aligned}\">\\begin{aligned}&amp;\\{\\begin{array}{l}sX(s)-1+X(s)-Y(s)=\\dfrac{1}{s-1}\\\\sY(s)-1+3X(s)-2Y(s)=\\dfrac{2}{s-1}\\end{array}\\\\&amp;\\Rightarrow \\{\\begin{array}{l}(s+1)X(s)-Y(s)=\\dfrac{s}{s-1}\\\\3X(s)+-(s-2)Y(s)=\\dfrac{s+1}{s-1}\\end{array}\\Rightarrow \\{\\begin{array}{l}X(s)=\\dfrac{1}{s-1}\\\\Y(s)=\\dfrac{1}{s-1}\\end{array}\\Rightarrow \\{\\begin{array}{l}x(t)=e^{t}\\\\y(t)=e^{t}\\end{array}\\end{aligned}</div>"
     },
     {
       "id": "q0003",
       "number": 3,
       "header": "#3-Averge",
       "difficulty": "Averge",
-      "prompt_html": "<img src=\"/static/generated/assets/complex-analysis/ch005/q0003_prompt.png\"/>",
+      "prompt_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\text{微分方程初值问题} \\begin{cases} y ^ { \\prime \\prime } + 3 y ^ { \\prime } + 3 y ^ { \\prime } + y = 1 \\\\ y \\left( 0 \\right) = y ^ { \\prime } \\left( 0 \\right) = y ^ { \\prime \\prime } \\left( 0 \\right) = 0 \\end{cases} \\text{的解为( )}.\">\\text{微分方程初值问题} \\begin{cases} y ^ { \\prime \\prime } + 3 y ^ { \\prime } + 3 y ^ { \\prime } + y = 1 \\\\ y \\left( 0 \\right) = y ^ { \\prime } \\left( 0 \\right) = y ^ { \\prime \\prime } \\left( 0 \\right) = 0 \\end{cases} \\text{的解为( )}.</div>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/complex-analysis/ch005/q0003_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"1 - \\frac{1}{2} e^{-t} \\left( t^{2} + 2 t + 2 \\right)\">1 - \\frac{1}{2} e^{-t} \\left( t^{2} + 2 t + 2 \\right)</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/complex-analysis/ch005/q0003_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"1 + \\frac{1}{2} e^{-t} \\left( t^{2} + 2 t + 2 \\right)\">1 + \\frac{1}{2} e^{-t} \\left( t^{2} + 2 t + 2 \\right)</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/complex-analysis/ch005/q0003_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"1 - \\frac{1}{2} e^{t} \\left( t^{2} + 2 t + 2 \\right)\">1 - \\frac{1}{2} e^{t} \\left( t^{2} + 2 t + 2 \\right)</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/complex-analysis/ch005/q0003_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"1 + \\frac{1}{2}e^{t}\\left(t^{2} + 2t + 2\\right) \\leftarrow\">1 + \\frac{1}{2}e^{t}\\left(t^{2} + 2t + 2\\right) \\leftarrow</span>"
         }
       ],
       "answer": "A",
       "answer_index": 0,
-      "analysis_html": "<img src=\"/static/generated/assets/complex-analysis/ch005/q0003_analysis.png\"/>"
+      "analysis_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{aligned}&amp;s^3 \\overline{y}\\left(s\\right)+3s^2 \\overline{y}\\left(s\\right)+3s \\overline{y}\\left(s\\right)+\\overline{y}\\left(s\\right)=\\frac{1}{s}e^{t}\\\\&amp;\\overline{y}\\left(s\\right)=\\frac{1}{s\\left(s^3+3s^2+3s+1\\right)}=\\frac{1}{s\\left(s+1\\right)^3}e^{t}\\\\&amp;y\\left(t\\right)=\\lim_{t\\rightarrow 0}\\frac{e^{xt}}{\\left(s+1\\right)}+\\frac{1}{2}\\lim_{s\\rightarrow +\\infty}\\left(\\frac{e^{xt}}{s}\\right)^{\\bullet}=1-\\frac{1}{2}e^{-t}\\left(t^2+2t+2\\right)e^{t}\\end{aligned}\">\\begin{aligned}&amp;s^3 \\overline{y}\\left(s\\right)+3s^2 \\overline{y}\\left(s\\right)+3s \\overline{y}\\left(s\\right)+\\overline{y}\\left(s\\right)=\\frac{1}{s}e^{t}\\\\&amp;\\overline{y}\\left(s\\right)=\\frac{1}{s\\left(s^3+3s^2+3s+1\\right)}=\\frac{1}{s\\left(s+1\\right)^3}e^{t}\\\\&amp;y\\left(t\\right)=\\lim_{t\\rightarrow 0}\\frac{e^{xt}}{\\left(s+1\\right)}+\\frac{1}{2}\\lim_{s\\rightarrow +\\infty}\\left(\\frac{e^{xt}}{s}\\right)^{\\bullet}=1-\\frac{1}{2}e^{-t}\\left(t^2+2t+2\\right)e^{t}\\end{aligned}</div>"
     },
     {
       "id": "q0004",
       "number": 4,
       "header": "#4-Easy",
       "difficulty": "Easy",
-      "prompt_html": "<img src=\"/static/generated/assets/complex-analysis/ch005/q0004_prompt.png\"/>",
+      "prompt_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\text{微分方程初值问题} \\begin{cases} y ^ { \\prime \\prime \\prime } + 3 y ^ { \\prime \\prime } + 3 y ^ { \\prime } + y = 6 e ^ { - t } \\\\ y \\left( 0 \\right) = y ^ { \\prime } \\left( 0 \\right) = y ^ { \\prime \\prime } \\left( 0 \\right) = 0 \\end{cases} \\text{的解为( ).}\">\\text{微分方程初值问题} \\begin{cases} y ^ { \\prime \\prime \\prime } + 3 y ^ { \\prime \\prime } + 3 y ^ { \\prime } + y = 6 e ^ { - t } \\\\ y \\left( 0 \\right) = y ^ { \\prime } \\left( 0 \\right) = y ^ { \\prime \\prime } \\left( 0 \\right) = 0 \\end{cases} \\text{的解为( ).}</div>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/complex-analysis/ch005/q0004_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\, t ^ { 3 } e ^ { - t }\">\\, t ^ { 3 } e ^ { - t }</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/complex-analysis/ch005/q0004_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\mathbf { 6 } t ^ { 3 } e ^ { - t } \\leftarrow\">\\mathbf { 6 } t ^ { 3 } e ^ { - t } \\leftarrow</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/complex-analysis/ch005/q0004_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"t ^ { 3 } e ^ { t }\">t ^ { 3 } e ^ { t }</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/complex-analysis/ch005/q0004_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\mathbf { 6 } t ^ { 3 } e ^ { t } \\uparrow\">\\mathbf { 6 } t ^ { 3 } e ^ { t } \\uparrow</span>"
         }
       ],
       "answer": "A",
       "answer_index": 0,
-      "analysis_html": "<img src=\"/static/generated/assets/complex-analysis/ch005/q0004_analysis.png\"/>"
+      "analysis_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{aligned}&amp;s^3 \\overline{y}\\left(s\\right)+3s^2 \\overline{y}\\left(s\\right)+3s \\overline{y}\\left(s\\right)+\\overline{y}\\left(s\\right)=\\frac{6}{s+1},^{\\omega} \\\\&amp;\\left(s^3+3s^2+3s+1\\right)\\overline{y}\\left(s\\right)=\\frac{6}{s+1},^{\\omega} \\\\&amp;\\overline{y}\\left(s\\right)=\\frac{6}{\\left(s+1\\right)},\\quad y\\left(t\\right)=t^3 e^{-t},^{\\omega}\\end{aligned}\">\\begin{aligned}&amp;s^3 \\overline{y}\\left(s\\right)+3s^2 \\overline{y}\\left(s\\right)+3s \\overline{y}\\left(s\\right)+\\overline{y}\\left(s\\right)=\\frac{6}{s+1},^{\\omega} \\\\&amp;\\left(s^3+3s^2+3s+1\\right)\\overline{y}\\left(s\\right)=\\frac{6}{s+1},^{\\omega} \\\\&amp;\\overline{y}\\left(s\\right)=\\frac{6}{\\left(s+1\\right)},\\quad y\\left(t\\right)=t^3 e^{-t},^{\\omega}\\end{aligned}</div>"
     },
     {
       "id": "q0005",
       "number": 5,
       "header": "#5-Easy",
       "difficulty": "Easy",
-      "prompt_html": "<img src=\"/static/generated/assets/complex-analysis/ch005/q0005_prompt.png\"/>",
+      "prompt_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\text{微分方程组初值问题} \\begin{cases} y^{\\prime}-2z^{\\prime}=f(t) \\\\ y^{\\prime\\prime}-z^{\\prime\\prime}+z=0 \\\\ y(0)=y^{\\prime}(0)=z(0)=z^{\\prime}(0)=0 \\end{cases} \\text{的解为( ).}\">\\text{微分方程组初值问题} \\begin{cases} y^{\\prime}-2z^{\\prime}=f(t) \\\\ y^{\\prime\\prime}-z^{\\prime\\prime}+z=0 \\\\ y(0)=y^{\\prime}(0)=z(0)=z^{\\prime}(0)=0 \\end{cases} \\text{的解为( ).}</div>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/complex-analysis/ch005/q0005_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\begin{aligned}\\{\\begin{aligned}y(t)=&amp;(1-2\\cos t)\\star f(t)\\\\z(t)=&amp;-\\cos t\\star f(t)\\end{aligned}\\end{aligned}\">\\begin{aligned}\\{\\begin{aligned}y(t)=&amp;(1-2\\cos t)\\star f(t)\\\\z(t)=&amp;-\\cos t\\star f(t)\\end{aligned}\\end{aligned}</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/complex-analysis/ch005/q0005_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\begin{cases} y(t) = (1-2\\sin t) \\ast f(t) \\\\ \\quad z(t) = -\\sin t \\ast f(t) \\end{cases}\">\\begin{cases} y(t) = (1-2\\sin t) \\ast f(t) \\\\ \\quad z(t) = -\\sin t \\ast f(t) \\end{cases}</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/complex-analysis/ch005/q0005_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\begin{aligned}\\{\\begin{aligned}y(t)=&amp;(1-2\\cos t)f(t)\\\\z(t)=&amp;-(\\cos t)f(t)\\end{aligned}\\end{aligned}\">\\begin{aligned}\\{\\begin{aligned}y(t)=&amp;(1-2\\cos t)f(t)\\\\z(t)=&amp;-(\\cos t)f(t)\\end{aligned}\\end{aligned}</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/complex-analysis/ch005/q0005_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\begin{aligned}\\{\\begin{aligned}y(t)=&amp; (1-2\\sin t) f(t) \\\\z(t)=&amp; -(\\sin t) f(t)\\end{aligned}\\end{aligned}\">\\begin{aligned}\\{\\begin{aligned}y(t)=&amp; (1-2\\sin t) f(t) \\\\z(t)=&amp; -(\\sin t) f(t)\\end{aligned}\\end{aligned}</span>"
         }
       ],
       "answer": "A",
       "answer_index": 0,
-      "analysis_html": "<img src=\"/static/generated/assets/complex-analysis/ch005/q0005_analysis.png\"/>"
+      "analysis_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{aligned}&amp;\\{\\begin{array}{l}sY(s)-2sZ(s)=F(s)\\\\s^2Y(s)-s^2Z(s)+Z(s)=0\\end{array}\\quad\\{\\begin{array}{l}Y(s)=(\\dfrac{1}{s}-\\dfrac{2s}{s^2+1})F(s)\\\\Z(s)=-\\dfrac{s}{s^2+1}F(s)\\end{array}\\\\&amp;\\{\\begin{array}{l}y(t)=(1-2\\cos t)*f(t)\\\\z(t)=-\\cos t* f(t)\\end{array}\\end{aligned}\">\\begin{aligned}&amp;\\{\\begin{array}{l}sY(s)-2sZ(s)=F(s)\\\\s^2Y(s)-s^2Z(s)+Z(s)=0\\end{array}\\quad\\{\\begin{array}{l}Y(s)=(\\dfrac{1}{s}-\\dfrac{2s}{s^2+1})F(s)\\\\Z(s)=-\\dfrac{s}{s^2+1}F(s)\\end{array}\\\\&amp;\\{\\begin{array}{l}y(t)=(1-2\\cos t)*f(t)\\\\z(t)=-\\cos t* f(t)\\end{array}\\end{aligned}</div>"
     },
     {
       "id": "q0006",
       "number": 6,
       "header": "#6-Averge",
       "difficulty": "Averge",
-      "prompt_html": "<img src=\"/static/generated/assets/complex-analysis/ch005/q0006_prompt.png\"/>",
+      "prompt_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\text{微分方程初值问题} \\begin{cases} y&#x27;&#x27; + 3y&#x27; + 2y = u(t-1) \\\\ y(0) = 0, y&#x27;(0) = 1 \\end{cases} \\text{的解为( )。} \\Leftrightarrow\">\\text{微分方程初值问题} \\begin{cases} y&#x27;&#x27; + 3y&#x27; + 2y = u(t-1) \\\\ y(0) = 0, y&#x27;(0) = 1 \\end{cases} \\text{的解为( )。} \\Leftrightarrow</div>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/complex-analysis/ch005/q0006_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\begin{aligned}e^{-t}-e^{-2t}+u\\bigl(t{-}1)\\biggl(\\frac{1}{2}-e^{-(t-1)}+\\frac{1}{2}e^{-2(t-1)}\\biggr)\\end{aligned}\">\\begin{aligned}e^{-t}-e^{-2t}+u\\bigl(t{-}1)\\biggl(\\frac{1}{2}-e^{-(t-1)}+\\frac{1}{2}e^{-2(t-1)}\\biggr)\\end{aligned}</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/complex-analysis/ch005/q0006_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\begin{aligned}e^{-t}-e^{-2t}+u\\bigl(t-1\\bigr)\\biggl(\\frac{1}{2}+e^{-(t-1)}+\\frac{1}{2}e^{-2(t-1)}\\biggr)\\end{aligned}\">\\begin{aligned}e^{-t}-e^{-2t}+u\\bigl(t-1\\bigr)\\biggl(\\frac{1}{2}+e^{-(t-1)}+\\frac{1}{2}e^{-2(t-1)}\\biggr)\\end{aligned}</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/complex-analysis/ch005/q0006_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\begin{aligned}e^{-t}-e^{-2t}+u(t-1)\\biggl(\\frac{1}{2}-e^{-(t-1)}-\\frac{1}{2}\\,e^{-2(t-1)}\\biggr)\\end{aligned}\">\\begin{aligned}e^{-t}-e^{-2t}+u(t-1)\\biggl(\\frac{1}{2}-e^{-(t-1)}-\\frac{1}{2}\\,e^{-2(t-1)}\\biggr)\\end{aligned}</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/complex-analysis/ch005/q0006_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\begin{aligned}e^{-t}-e^{-2t}+u\\bigl(t\\!-\\!1\\bigr)\\!\\left(\\!\\frac{1}{2}\\!+\\!e^{-(t-1)}\\!-\\!\\frac{1}{2}e^{-2(t-1)}\\right)\\!\\leftarrow\\end{aligned}\">\\begin{aligned}e^{-t}-e^{-2t}+u\\bigl(t\\!-\\!1\\bigr)\\!\\left(\\!\\frac{1}{2}\\!+\\!e^{-(t-1)}\\!-\\!\\frac{1}{2}e^{-2(t-1)}\\right)\\!\\leftarrow\\end{aligned}</span>"
         }
       ],
       "answer": "A",
       "answer_index": 0,
-      "analysis_html": "<img src=\"/static/generated/assets/complex-analysis/ch005/q0006_analysis.png\"/>"
+      "analysis_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{aligned}s^2\\overline{y}\\big(s\\big)-&amp;1+3s\\overline{y}\\big(s\\big)+2\\overline{y}\\big(s\\big)=\\frac{1}{s}e^{-s},\\\\\\overline{y}\\big(s\\big)=&amp;\\frac{1}{\\big(s+1\\big)\\big(s+2\\big)}+\\frac{e^{-s}}{s\\big(s+1\\big)\\big(s+2\\big)}{}^{s}\\\\y\\big(t\\big)=&amp;\\lim_{s\\rightarrow-1}\\frac{e^x}{s+2}+\\frac{1}{2}\\lim_{s\\rightarrow-2}\\frac{e^{xt}}{s+1}+\\lim_{s\\rightarrow0}\\frac{e^{-x}e^x}{\\big(s+1\\big)\\big(s+2\\big)}+\\lim_{s\\rightarrow-1}\\frac{e^{-x}e^x}{s\\big(s+2\\big)}+\\lim_{s\\rightarrow-2}\\frac{e^{-x}e^{xt}}{s\\big(s+1\\big)}{}^{s}\\\\=&amp;e^{-t}-e^{-2t}+u\\big(t-1\\big)\\bigg(\\frac{1}{2}-e^{-(t-1)}+\\frac{1}{2}e^{-2(t-1)}\\bigg).^{(i)}\\end{aligned}\">\\begin{aligned}s^2\\overline{y}\\big(s\\big)-&amp;1+3s\\overline{y}\\big(s\\big)+2\\overline{y}\\big(s\\big)=\\frac{1}{s}e^{-s},\\\\\\overline{y}\\big(s\\big)=&amp;\\frac{1}{\\big(s+1\\big)\\big(s+2\\big)}+\\frac{e^{-s}}{s\\big(s+1\\big)\\big(s+2\\big)}{}^{s}\\\\y\\big(t\\big)=&amp;\\lim_{s\\rightarrow-1}\\frac{e^x}{s+2}+\\frac{1}{2}\\lim_{s\\rightarrow-2}\\frac{e^{xt}}{s+1}+\\lim_{s\\rightarrow0}\\frac{e^{-x}e^x}{\\big(s+1\\big)\\big(s+2\\big)}+\\lim_{s\\rightarrow-1}\\frac{e^{-x}e^x}{s\\big(s+2\\big)}+\\lim_{s\\rightarrow-2}\\frac{e^{-x}e^{xt}}{s\\big(s+1\\big)}{}^{s}\\\\=&amp;e^{-t}-e^{-2t}+u\\big(t-1\\big)\\bigg(\\frac{1}{2}-e^{-(t-1)}+\\frac{1}{2}e^{-2(t-1)}\\bigg).^{(i)}\\end{aligned}</div>"
     },
     {
       "id": "q0007",
       "number": 7,
       "header": "#7-Easy",
       "difficulty": "Easy",
-      "prompt_html": "<img src=\"/static/generated/assets/complex-analysis/ch005/q0007_prompt.png\"/>",
+      "prompt_html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{积分方程}y(t)=\\sin t-2\\int_{0}^{t}y(\\tau)\\cos(t-\\tau)d\\tau\\text{的解为( )}.\">\\text{积分方程}y(t)=\\sin t-2\\int_{0}^{t}y(\\tau)\\cos(t-\\tau)d\\tau\\text{的解为( )}.</span>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/complex-analysis/ch005/q0007_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\boldsymbol{t} e^{-t}\">\\boldsymbol{t} e^{-t}</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/complex-analysis/ch005/q0007_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\boldsymbol { t e ^ { t } }\">\\boldsymbol { t e ^ { t } }</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/complex-analysis/ch005/q0007_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"t\\!+\\!e^{t}\">t\\!+\\!e^{t}</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/complex-analysis/ch005/q0007_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\boldsymbol { t } + e ^ { - t } \\boldsymbol { \\leftarrow }\">\\boldsymbol { t } + e ^ { - t } \\boldsymbol { \\leftarrow }</span>"
         }
       ],
       "answer": "A",
       "answer_index": 0,
-      "analysis_html": "<img src=\"/static/generated/assets/complex-analysis/ch005/q0007_analysis.png\"/>"
+      "analysis_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{aligned}\\overline{y}\\left(s\\right) &amp; =\\frac{1}{s^{2}+1}-2\\overline{y}\\left(s\\right)\\frac{s}{s^{2}+1},\\overline{y}\\left(s\\right) =\\frac{1}{\\left(s+1\\right)^{2}},^{\\Leftrightarrow}\\\\y\\left(t\\right) &amp; =te^{-t},^{\\Leftrightarrow}\\end{aligned}\">\\begin{aligned}\\overline{y}\\left(s\\right) &amp; =\\frac{1}{s^{2}+1}-2\\overline{y}\\left(s\\right)\\frac{s}{s^{2}+1},\\overline{y}\\left(s\\right) =\\frac{1}{\\left(s+1\\right)^{2}},^{\\Leftrightarrow}\\\\y\\left(t\\right) &amp; =te^{-t},^{\\Leftrightarrow}\\end{aligned}</div>"
     },
     {
       "id": "q0008",
       "number": 8,
       "header": "#8-Hard",
       "difficulty": "Hard",
-      "prompt_html": "<img src=\"/static/generated/assets/complex-analysis/ch005/q0008_prompt.png\"/>",
+      "prompt_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\text{微分方程初值问题} \\begin{cases} y&#x27;&#x27; - 2y&#x27; + 2y = 2e^{t}\\cos t \\\\ y(0) = y&#x27;(0) = 0 \\end{cases} \\text{的解为( )。} \\Leftrightarrow\">\\text{微分方程初值问题} \\begin{cases} y&#x27;&#x27; - 2y&#x27; + 2y = 2e^{t}\\cos t \\\\ y(0) = y&#x27;(0) = 0 \\end{cases} \\text{的解为( )。} \\Leftrightarrow</div>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/complex-analysis/ch005/q0008_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\boldsymbol{t} e^{t} \\sin t\">\\boldsymbol{t} e^{t} \\sin t</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/complex-analysis/ch005/q0008_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"e^{t}\\left(1{-\\cos t}\\right)\">e^{t}\\left(1{-\\cos t}\\right)</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/complex-analysis/ch005/q0008_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\boldsymbol{t} e^{t} \\cos t\">\\boldsymbol{t} e^{t} \\cos t</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/complex-analysis/ch005/q0008_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\boldsymbol{e}^{t}\\sin t \\leftarrow\">\\boldsymbol{e}^{t}\\sin t \\leftarrow</span>"
         }
       ],
       "answer": "A",
       "answer_index": 0,
-      "analysis_html": "<img src=\"/static/generated/assets/complex-analysis/ch005/q0008_analysis.png\"/>"
+      "analysis_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{aligned}s^2 \\overline{y}\\left(s\\right) &amp; -2s\\overline{y}\\left(s\\right) +2\\overline{y}\\left(s\\right) = \\frac{2\\left(s-1\\right)}{\\left(s-1\\right)^2 +1},^{\\omega}\\\\\\overline{y}\\left(s\\right) &amp; = \\frac{2\\left(s-1\\right)}{\\left(s-1\\right)^2 +1} \\bullet \\frac{1}{\\left(s-1\\right)^2 +1},^{\\omega}\\\\y\\left(t\\right) &amp; = \\left(2e^{\\tau}\\cos t\\right)^{\\tau}\\left(e^{\\tau}\\sin t\\right) = \\int_{0}^{\\tau} \\left(2e^{\\tau}\\cos \\tau\\right)\\left(e^{\\tau-\\tau}\\sin\\left(t-\\tau\\right)\\right)d\\tau.\\\\&amp; = 2\\int_{0}^{t} e^{\\tau}\\cos \\tau \\sin\\left(t-\\tau\\right) d\\tau = e^{\\tau}\\int_{0}^{\\tau} \\left(\\sin t + \\sin\\left(t-2\\tau\\right)\\right) d\\tau\\\\&amp; = te^{\\tau}\\sin t,^{\\omega}\\end{aligned}\">\\begin{aligned}s^2 \\overline{y}\\left(s\\right) &amp; -2s\\overline{y}\\left(s\\right) +2\\overline{y}\\left(s\\right) = \\frac{2\\left(s-1\\right)}{\\left(s-1\\right)^2 +1},^{\\omega}\\\\\\overline{y}\\left(s\\right) &amp; = \\frac{2\\left(s-1\\right)}{\\left(s-1\\right)^2 +1} \\bullet \\frac{1}{\\left(s-1\\right)^2 +1},^{\\omega}\\\\y\\left(t\\right) &amp; = \\left(2e^{\\tau}\\cos t\\right)^{\\tau}\\left(e^{\\tau}\\sin t\\right) = \\int_{0}^{\\tau} \\left(2e^{\\tau}\\cos \\tau\\right)\\left(e^{\\tau-\\tau}\\sin\\left(t-\\tau\\right)\\right)d\\tau.\\\\&amp; = 2\\int_{0}^{t} e^{\\tau}\\cos \\tau \\sin\\left(t-\\tau\\right) d\\tau = e^{\\tau}\\int_{0}^{\\tau} \\left(\\sin t + \\sin\\left(t-2\\tau\\right)\\right) d\\tau\\\\&amp; = te^{\\tau}\\sin t,^{\\omega}\\end{aligned}</div>"
     },
     {
       "id": "q0009",
       "number": 9,
       "header": "#9-Averge",
       "difficulty": "Averge",
-      "prompt_html": "<img src=\"/static/generated/assets/complex-analysis/ch005/q0009_prompt.png\"/>",
+      "prompt_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\text{微分方程初值问题} \\begin{cases} x ^ { \\prime \\prime } + 4 x ^ { \\prime } + 3 x = e ^ { - t } \\\\ x ( 0 ) = x ^ { \\prime } ( 0 ) = 1 \\end{cases} \\text{的解为（）.}\">\\text{微分方程初值问题} \\begin{cases} x ^ { \\prime \\prime } + 4 x ^ { \\prime } + 3 x = e ^ { - t } \\\\ x ( 0 ) = x ^ { \\prime } ( 0 ) = 1 \\end{cases} \\text{的解为（）.}</div>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/complex-analysis/ch005/q0009_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\frac { 1 } { 2 } t e ^ { - t } + \\frac { 7 } { 4 } e ^ { - t } - \\frac { 3 } { 4 } e ^ { - 3 t }\">\\frac { 1 } { 2 } t e ^ { - t } + \\frac { 7 } { 4 } e ^ { - t } - \\frac { 3 } { 4 } e ^ { - 3 t }</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/complex-analysis/ch005/q0009_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\frac { 1 } { 2 } t e ^ { - t } - \\frac { 3 } { 4 } e ^ { - 3 t }\">\\frac { 1 } { 2 } t e ^ { - t } - \\frac { 3 } { 4 } e ^ { - 3 t }</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/complex-analysis/ch005/q0009_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\frac{1}{2}te^{-t}+\\frac{7}{4}e^{-t}\">\\frac{1}{2}te^{-t}+\\frac{7}{4}e^{-t}</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/complex-analysis/ch005/q0009_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\frac { 1 } { 2 } t e ^ { - t } + \\frac { 7 } { 4 } e ^ { - t } + \\frac { 3 } { 4 } e ^ { - 3 t }\">\\frac { 1 } { 2 } t e ^ { - t } + \\frac { 7 } { 4 } e ^ { - t } + \\frac { 3 } { 4 } e ^ { - 3 t }</span>"
         }
       ],
       "answer": "A",
       "answer_index": 0,
-      "analysis_html": "<img src=\"/static/generated/assets/complex-analysis/ch005/q0009_analysis.png\"/>"
+      "analysis_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{aligned} &amp; s^2X(s)-s-1+4(sX(s)-1)+3X(s)=\\frac{1}{s+1}, \\\\ &amp; \\left(s^2+4s+3\\right)X(s)-s-5=\\frac{1}{s+1}, \\\\ &amp; X(s)=\\frac{1}{\\left(s+1\\right)\\left(s^2+4s+3\\right)}+\\frac{s+5}{s^2+4s+3} \\\\ &amp; \\quad=\\frac{1}{\\left(s+1\\right)^2\\left(s+3\\right)}+\\frac{s+5}{\\left(s+1\\right)\\left(s+3\\right)} \\\\ &amp; x(t)=\\lim_{s\\rightarrow-1}\\left(\\frac{e^{st}}{s+3}\\right)&#x27;+\\lim_{s\\rightarrow-3}\\frac{e^{st}}{\\left(s+1\\right)^2}+\\lim_{s\\rightarrow-1}\\frac{\\left(s+5\\right)e^{st}}{s+3}+\\lim_{s\\rightarrow-3}\\frac{\\left(s+5\\right)e^{-st}}{s+1} \\\\ &amp; \\quad=\\frac{1}{2}te^{-t}+\\frac{7}{4}e^{-t}-\\frac{3}{4}e^{-3t} \\end{aligned}\">\\begin{aligned} &amp; s^2X(s)-s-1+4(sX(s)-1)+3X(s)=\\frac{1}{s+1}, \\\\ &amp; \\left(s^2+4s+3\\right)X(s)-s-5=\\frac{1}{s+1}, \\\\ &amp; X(s)=\\frac{1}{\\left(s+1\\right)\\left(s^2+4s+3\\right)}+\\frac{s+5}{s^2+4s+3} \\\\ &amp; \\quad=\\frac{1}{\\left(s+1\\right)^2\\left(s+3\\right)}+\\frac{s+5}{\\left(s+1\\right)\\left(s+3\\right)} \\\\ &amp; x(t)=\\lim_{s\\rightarrow-1}\\left(\\frac{e^{st}}{s+3}\\right)&#x27;+\\lim_{s\\rightarrow-3}\\frac{e^{st}}{\\left(s+1\\right)^2}+\\lim_{s\\rightarrow-1}\\frac{\\left(s+5\\right)e^{st}}{s+3}+\\lim_{s\\rightarrow-3}\\frac{\\left(s+5\\right)e^{-st}}{s+1} \\\\ &amp; \\quad=\\frac{1}{2}te^{-t}+\\frac{7}{4}e^{-t}-\\frac{3}{4}e^{-3t} \\end{aligned}</div>"
     },
     {
       "id": "q0010",
       "number": 10,
       "header": "#10-Easy",
       "difficulty": "Easy",
-      "prompt_html": "<img src=\"/static/generated/assets/complex-analysis/ch005/q0010_prompt.png\"/>",
+      "prompt_html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\int \\limits _ { 0 } ^ { t } y = a \\sin b t + c \\int _ { 0 } ^ { t } y ( \\tau ) \\sin b ( t - \\tau ) d \\tau \\text {的解为( )}.\\text{其中常数}b &gt; c &gt; 0\">\\int \\limits _ { 0 } ^ { t } y = a \\sin b t + c \\int _ { 0 } ^ { t } y ( \\tau ) \\sin b ( t - \\tau ) d \\tau \\text {的解为( )}.\\text{其中常数}b &gt; c &gt; 0</span>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/complex-analysis/ch005/q0010_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"y(t) {=}\\frac{ab}{\\sqrt{b^{2}-bc}}\\sin{\\sqrt{b^{2}-bc}t}\">y(t) {=}\\frac{ab}{\\sqrt{b^{2}-bc}}\\sin{\\sqrt{b^{2}-bc}t}</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/complex-analysis/ch005/q0010_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\begin{aligned}y(t)=\\frac{ab}{\\sqrt{b^{2}-bc}}\\cos \\sqrt{b^{2}-bc}t\\end{aligned}\">\\begin{aligned}y(t)=\\frac{ab}{\\sqrt{b^{2}-bc}}\\cos \\sqrt{b^{2}-bc}t\\end{aligned}</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/complex-analysis/ch005/q0010_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"y(t) = \\frac{ab}{\\sqrt{b^{2} + bc}} \\sin \\sqrt{b^{2} + bc} t\">y(t) = \\frac{ab}{\\sqrt{b^{2} + bc}} \\sin \\sqrt{b^{2} + bc} t</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/complex-analysis/ch005/q0010_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\begin{aligned}y(t)=\\frac{ab}{\\sqrt{b^{2}+bc}}\\cos \\sqrt{b^{2}+bc}t \\end{aligned}\">\\begin{aligned}y(t)=\\frac{ab}{\\sqrt{b^{2}+bc}}\\cos \\sqrt{b^{2}+bc}t \\end{aligned}</span>"
         }
       ],
       "answer": "A",
       "answer_index": 0,
-      "analysis_html": "<img src=\"/static/generated/assets/complex-analysis/ch005/q0010_analysis.png\"/>"
+      "analysis_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{aligned}&amp;\\text{根据 Laplace 变换的卷积性质,}\\\\&amp;Y(s)=\\frac{ab}{s^{2}+b^{2}}+cY(s)\\frac{b}{s^{2}+b^{2}}\\\\&amp;Y(s)=\\frac{\\sqrt{b^{2}-bc}}{s^{2}+\\left(\\sqrt{b^{2}-bc}\\right)^{2}}\\frac{ab}{\\sqrt{b^{2}-bc}}\\\\&amp;y(t)=\\frac{ab}{\\sqrt{b^{2}-bc}}\\sin\\sqrt{b^{2}-bc}t\\end{aligned}\">\\begin{aligned}&amp;\\text{根据 Laplace 变换的卷积性质,}\\\\&amp;Y(s)=\\frac{ab}{s^{2}+b^{2}}+cY(s)\\frac{b}{s^{2}+b^{2}}\\\\&amp;Y(s)=\\frac{\\sqrt{b^{2}-bc}}{s^{2}+\\left(\\sqrt{b^{2}-bc}\\right)^{2}}\\frac{ab}{\\sqrt{b^{2}-bc}}\\\\&amp;y(t)=\\frac{ab}{\\sqrt{b^{2}-bc}}\\sin\\sqrt{b^{2}-bc}t\\end{aligned}</div>"
     },
     {
       "id": "q0011",
       "number": 11,
       "header": "#11-Averge",
       "difficulty": "Averge",
-      "prompt_html": "<img src=\"/static/generated/assets/complex-analysis/ch005/q0011_prompt.png\"/>",
+      "prompt_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\text{微分方程初值问题} \\begin{cases} y&#x27;&#x27; - y = 4 \\sin t + 5 \\cos 2 t \\\\ y(0) = -1, y&#x27;(0) = -2 \\end{cases} \\text{的解为( ).} \\Leftrightarrow\">\\text{微分方程初值问题} \\begin{cases} y&#x27;&#x27; - y = 4 \\sin t + 5 \\cos 2 t \\\\ y(0) = -1, y&#x27;(0) = -2 \\end{cases} \\text{的解为( ).} \\Leftrightarrow</div>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/complex-analysis/ch005/q0011_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"- 2 \\sin t - \\cos 2 t\">- 2 \\sin t - \\cos 2 t</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/complex-analysis/ch005/q0011_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"2 \\sin t + \\cos 2 t - 2\">2 \\sin t + \\cos 2 t - 2</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/complex-analysis/ch005/q0011_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"- 2 \\sin t + \\cos 2 t - 2\">- 2 \\sin t + \\cos 2 t - 2</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/complex-analysis/ch005/q0011_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\mathbf { 2 } \\sin t - \\cos 2 t \\Leftrightarrow\">\\mathbf { 2 } \\sin t - \\cos 2 t \\Leftrightarrow</span>"
         }
       ],
       "answer": "A",
       "answer_index": 0,
-      "analysis_html": "<img src=\"/static/generated/assets/complex-analysis/ch005/q0011_analysis.png\"/>"
+      "analysis_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{aligned} s^2 \\overline{y}\\left(s\\right) + s + 2 - \\overline{y}\\left(s\\right) &amp; = \\frac{4}{s^2 + 1} + \\frac{5s}{s^2 + 4}, \\\\ \\overline{y}\\left(s\\right) &amp; = -\\frac{2}{s^2 + 1} - \\frac{s}{s^2 + 4}, \\\\ y\\left(t\\right) &amp; = -2 \\sin t - \\cos 2t. \\end{aligned}\">\\begin{aligned} s^2 \\overline{y}\\left(s\\right) + s + 2 - \\overline{y}\\left(s\\right) &amp; = \\frac{4}{s^2 + 1} + \\frac{5s}{s^2 + 4}, \\\\ \\overline{y}\\left(s\\right) &amp; = -\\frac{2}{s^2 + 1} - \\frac{s}{s^2 + 4}, \\\\ y\\left(t\\right) &amp; = -2 \\sin t - \\cos 2t. \\end{aligned}</div>"
     },
     {
       "id": "q0012",
       "number": 12,
       "header": "#12-Averge",
       "difficulty": "Averge",
-      "prompt_html": "<img src=\"/static/generated/assets/complex-analysis/ch005/q0012_prompt.png\"/>",
+      "prompt_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\text{微分方程初值问题} \\begin{cases} 2x&#x27;&#x27;+8x-y&#x27;&#x27;-4y=0 \\\\ x&#x27;&#x27;-x+y&#x27;-y=0 \\\\ x(0)=x&#x27;(0)=1, y(0)=y&#x27;(0)=0 \\end{cases} \\text{的解为( )。}\">\\text{微分方程初值问题} \\begin{cases} 2x&#x27;&#x27;+8x-y&#x27;&#x27;-4y=0 \\\\ x&#x27;&#x27;-x+y&#x27;-y=0 \\\\ x(0)=x&#x27;(0)=1, y(0)=y&#x27;(0)=0 \\end{cases} \\text{的解为( )。}</div>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/complex-analysis/ch005/q0012_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\begin{cases} x\\bigl( t \\bigr) = \\dfrac{2}{3}\\cos 2t + \\dfrac{1}{3}\\sin 2t + \\dfrac{1}{3}e^{t} \\\\ y\\bigl( t \\bigr) = \\dfrac{2}{3}e^{t} - \\dfrac{2}{3}\\cos 2t - \\dfrac{1}{3}\\sin 2t \\end{cases}\">\\begin{cases} x\\bigl( t \\bigr) = \\dfrac{2}{3}\\cos 2t + \\dfrac{1}{3}\\sin 2t + \\dfrac{1}{3}e^{t} \\\\ y\\bigl( t \\bigr) = \\dfrac{2}{3}e^{t} - \\dfrac{2}{3}\\cos 2t - \\dfrac{1}{3}\\sin 2t \\end{cases}</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/complex-analysis/ch005/q0012_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\begin{cases} x\\left(t\\right)\\!=\\!\\frac{2}{3}\\cos 2t\\!-\\!\\frac{1}{3}\\sin 2t\\!+\\!\\frac{1}{3}e^{t}\\\\ y\\left(t\\right)\\!=\\!\\frac{2}{3}e^{t}\\!-\\!\\frac{2}{3}\\cos 2t\\!-\\!\\frac{1}{3}\\sin 2t \\end{cases}\">\\begin{cases} x\\left(t\\right)\\!=\\!\\frac{2}{3}\\cos 2t\\!-\\!\\frac{1}{3}\\sin 2t\\!+\\!\\frac{1}{3}e^{t}\\\\ y\\left(t\\right)\\!=\\!\\frac{2}{3}e^{t}\\!-\\!\\frac{2}{3}\\cos 2t\\!-\\!\\frac{1}{3}\\sin 2t \\end{cases}</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/complex-analysis/ch005/q0012_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\begin{cases} x\\bigl(t \\bigr) \\!=\\! \\frac{2}{3}\\cos 2t \\!+\\! \\frac{1}{3}\\sin 2t \\!+\\! \\frac{1}{3}e^{t} \\\\ y\\bigl(t \\bigr) \\!=\\! \\frac{2}{3}e^{t}\\!-\\! \\frac{2}{3}\\cos 2t \\!+\\! \\frac{1}{3}\\sin 2t \\end{cases}\">\\begin{cases} x\\bigl(t \\bigr) \\!=\\! \\frac{2}{3}\\cos 2t \\!+\\! \\frac{1}{3}\\sin 2t \\!+\\! \\frac{1}{3}e^{t} \\\\ y\\bigl(t \\bigr) \\!=\\! \\frac{2}{3}e^{t}\\!-\\! \\frac{2}{3}\\cos 2t \\!+\\! \\frac{1}{3}\\sin 2t \\end{cases}</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/complex-analysis/ch005/q0012_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\begin{cases} x\\left(t\\right)\\!=\\!\\frac{2}{3}\\cos 2t\\!-\\!\\frac{1}{3}\\sin 2t\\!+\\!\\frac{1}{3}e^{t}\\\\ y\\left(t\\right)\\!=\\!\\frac{2}{3}e^{t}\\!-\\!\\frac{2}{3}\\cos 2t\\!+\\!\\frac{1}{3}\\sin 2t \\end{cases}\">\\begin{cases} x\\left(t\\right)\\!=\\!\\frac{2}{3}\\cos 2t\\!-\\!\\frac{1}{3}\\sin 2t\\!+\\!\\frac{1}{3}e^{t}\\\\ y\\left(t\\right)\\!=\\!\\frac{2}{3}e^{t}\\!-\\!\\frac{2}{3}\\cos 2t\\!+\\!\\frac{1}{3}\\sin 2t \\end{cases}</span>"
         }
       ],
       "answer": "A",
       "answer_index": 0,
-      "analysis_html": "<img src=\"/static/generated/assets/complex-analysis/ch005/q0012_analysis.png\"/>"
+      "analysis_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{aligned}&amp;\\begin{cases}2\\left(s^2 \\overline{x}(s)-s-1\\right)+8\\overline{x}(s)-s^2 \\overline{y}(s)-4\\overline{y}(s)=0,\\\\s\\overline{x}(s)-1-\\overline{x}(s)+s\\overline{y}(s)-\\overline{y}(s)=0,\\end{cases},\\\\&amp;\\begin{cases}2\\left(s^2+4\\right)\\overline{x}(s)-\\left(s^2+4\\right)\\overline{y}(s)=2(s+1),\\\\s-1)\\overline{x}(s)+(s-1)\\overline{y}(s)=1,\\end{cases},\\\\&amp;\\begin{cases}\\overline{x}(s)=\\frac{2}{3}\\frac{s}{s^2+4}+\\frac{1}{3}\\frac{2}{s^2+4}+\\frac{1}{3}\\frac{1}{s-1},\\\\\\overline{y}(s)=\\frac{1}{s-1}-\\overline{x}(s)=\\frac{2}{3}\\frac{1}{s-1}-\\frac{2}{3}\\frac{s}{s^2+4}-\\frac{1}{3}\\frac{2}{s^2+4},\\end{cases}\\\\&amp;\\begin{cases}x(t)=\\frac{2}{3}\\cos 2t+\\frac{1}{3}\\sin 2t+\\frac{1}{3}e^t\\\\y(t)=\\frac{2}{3}e^t-\\frac{2}{3}\\cos 2t-\\frac{1}{3}\\sin 2t\\end{cases},\\end{aligned}\">\\begin{aligned}&amp;\\begin{cases}2\\left(s^2 \\overline{x}(s)-s-1\\right)+8\\overline{x}(s)-s^2 \\overline{y}(s)-4\\overline{y}(s)=0,\\\\s\\overline{x}(s)-1-\\overline{x}(s)+s\\overline{y}(s)-\\overline{y}(s)=0,\\end{cases},\\\\&amp;\\begin{cases}2\\left(s^2+4\\right)\\overline{x}(s)-\\left(s^2+4\\right)\\overline{y}(s)=2(s+1),\\\\s-1)\\overline{x}(s)+(s-1)\\overline{y}(s)=1,\\end{cases},\\\\&amp;\\begin{cases}\\overline{x}(s)=\\frac{2}{3}\\frac{s}{s^2+4}+\\frac{1}{3}\\frac{2}{s^2+4}+\\frac{1}{3}\\frac{1}{s-1},\\\\\\overline{y}(s)=\\frac{1}{s-1}-\\overline{x}(s)=\\frac{2}{3}\\frac{1}{s-1}-\\frac{2}{3}\\frac{s}{s^2+4}-\\frac{1}{3}\\frac{2}{s^2+4},\\end{cases}\\\\&amp;\\begin{cases}x(t)=\\frac{2}{3}\\cos 2t+\\frac{1}{3}\\sin 2t+\\frac{1}{3}e^t\\\\y(t)=\\frac{2}{3}e^t-\\frac{2}{3}\\cos 2t-\\frac{1}{3}\\sin 2t\\end{cases},\\end{aligned}</div>"
     },
     {
       "id": "q0013",
       "number": 13,
       "header": "#13-Hard",
       "difficulty": "Hard",
-      "prompt_html": "<img src=\"/static/generated/assets/complex-analysis/ch005/q0013_prompt.png\"/>",
+      "prompt_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\text{微分积分方程} \\begin{cases} y^{\\prime}-4y+4 \\int_{0}^{t}y\\left(t\\right)dt=\\frac{1}{3}t^{3} \\\\ y\\left(0\\right)=0 \\end{cases} \\text{的解为( ).}\">\\text{微分积分方程} \\begin{cases} y^{\\prime}-4y+4 \\int_{0}^{t}y\\left(t\\right)dt=\\frac{1}{3}t^{3} \\\\ y\\left(0\\right)=0 \\end{cases} \\text{的解为( ).}</div>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/complex-analysis/ch005/q0013_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\frac {t ^ {2}}{4} + \\frac {t}{2} + \\frac {3}{8} + \\frac {t}{4} e ^ {2 t} - \\frac {3}{8} e ^ {2 t}\">\\frac {t ^ {2}}{4} + \\frac {t}{2} + \\frac {3}{8} + \\frac {t}{4} e ^ {2 t} - \\frac {3}{8} e ^ {2 t}</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/complex-analysis/ch005/q0013_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\frac { t ^ { 2 } } { 4 } - \\frac { t } { 2 } + \\frac { 3 } { 8 } + \\frac { t } { 4 } e ^ { 2 t } - \\frac { 3 } { 8 } e ^ { 2 t }\">\\frac { t ^ { 2 } } { 4 } - \\frac { t } { 2 } + \\frac { 3 } { 8 } + \\frac { t } { 4 } e ^ { 2 t } - \\frac { 3 } { 8 } e ^ { 2 t }</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/complex-analysis/ch005/q0013_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\frac {t ^ {2}}{4} + \\frac {t}{2} + \\frac {3}{8} - \\frac {t}{4} e ^ {2 t} - \\frac {3}{8} e ^ {2 t}\">\\frac {t ^ {2}}{4} + \\frac {t}{2} + \\frac {3}{8} - \\frac {t}{4} e ^ {2 t} - \\frac {3}{8} e ^ {2 t}</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/complex-analysis/ch005/q0013_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\frac { t ^ { 2 } } { 4 } + \\frac { t } { 2 } - \\frac { 3 } { 8 } + \\frac { t } { 4 } e ^ { 2 t } + \\frac { 3 } { 8 } e ^ { 2 t } +\">\\frac { t ^ { 2 } } { 4 } + \\frac { t } { 2 } - \\frac { 3 } { 8 } + \\frac { t } { 4 } e ^ { 2 t } + \\frac { 3 } { 8 } e ^ { 2 t } +</span>"
         }
       ],
       "answer": "A",
       "answer_index": 0,
-      "analysis_html": "<img src=\"/static/generated/assets/complex-analysis/ch005/q0013_analysis.png\"/>"
+      "analysis_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{aligned} s\\overline{y}\\left(s\\right)-4\\overline{y}\\left(s\\right)+\\frac{4}{s}\\overline{y}\\left(s\\right)&amp;=\\frac{2}{s^3},\\overline{y}\\left(s\\right)=\\frac{2}{s^3\\left(s-2\\right)^3},^{e,t}\\\\ \\overline{y}\\left(t\\right)&amp;=\\frac{1}{2}\\lim_{s\\rightarrow 0}\\left(\\frac{2e^{st}}{\\left(s-2\\right)^2}\\right)^{\\prime}+\\lim_{t\\rightarrow 2}\\left(\\frac{2e^{st}}{s^3}\\right)^{\\prime}_{e,t}\\\\ &amp;=\\lim_{s\\rightarrow 0}\\left(\\frac{t^2e^{st}}{\\left(s-2\\right)^2}-\\frac{4te^{st}}{\\left(s-2\\right)^3}+\\frac{6e^{st}}{\\left(s-2\\right)^4}\\right)+2\\lim_{t\\rightarrow 2}\\left(\\frac{te^{st}}{s^3}-\\frac{3e^{st}}{s^4}\\right)^{e,t}\\\\ &amp;=\\frac{t^2}{4}+\\frac{t}{2}+\\frac{3}{8}+\\frac{t}{4}e^{2t}-\\frac{3}{8}e^{2t},^{e,t}\\end{aligned}\">\\begin{aligned} s\\overline{y}\\left(s\\right)-4\\overline{y}\\left(s\\right)+\\frac{4}{s}\\overline{y}\\left(s\\right)&amp;=\\frac{2}{s^3},\\overline{y}\\left(s\\right)=\\frac{2}{s^3\\left(s-2\\right)^3},^{e,t}\\\\ \\overline{y}\\left(t\\right)&amp;=\\frac{1}{2}\\lim_{s\\rightarrow 0}\\left(\\frac{2e^{st}}{\\left(s-2\\right)^2}\\right)^{\\prime}+\\lim_{t\\rightarrow 2}\\left(\\frac{2e^{st}}{s^3}\\right)^{\\prime}_{e,t}\\\\ &amp;=\\lim_{s\\rightarrow 0}\\left(\\frac{t^2e^{st}}{\\left(s-2\\right)^2}-\\frac{4te^{st}}{\\left(s-2\\right)^3}+\\frac{6e^{st}}{\\left(s-2\\right)^4}\\right)+2\\lim_{t\\rightarrow 2}\\left(\\frac{te^{st}}{s^3}-\\frac{3e^{st}}{s^4}\\right)^{e,t}\\\\ &amp;=\\frac{t^2}{4}+\\frac{t}{2}+\\frac{3}{8}+\\frac{t}{4}e^{2t}-\\frac{3}{8}e^{2t},^{e,t}\\end{aligned}</div>"
     },
     {
       "id": "q0014",
       "number": 14,
       "header": "#14-Averge",
       "difficulty": "Averge",
-      "prompt_html": "<img src=\"/static/generated/assets/complex-analysis/ch005/q0014_prompt.png\"/>",
+      "prompt_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{aligned} \\text{微分方程组初值问题} \\left\\{ \\begin{matrix} x^{\\prime}+y^{\\prime}=1 \\\\ x^{\\prime}-y^{\\prime}=1+\\delta(t-1) \\text{的解为( }. \\\\ x(0)=a,y(0)=b \\end{matrix} \\right. \\end{aligned}\">\\begin{aligned} \\text{微分方程组初值问题} \\left\\{ \\begin{matrix} x^{\\prime}+y^{\\prime}=1 \\\\ x^{\\prime}-y^{\\prime}=1+\\delta(t-1) \\text{的解为( }. \\\\ x(0)=a,y(0)=b \\end{matrix} \\right. \\end{aligned}</div>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/complex-analysis/ch005/q0014_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\begin{aligned}\\{\\begin{aligned}x(t) &amp;= t + a + \\frac{1}{2}\\, u(t-1) \\\\y(t) &amp;= b - \\frac{1}{2}\\, u(t-1)\\end{aligned}\\end{aligned}\">\\begin{aligned}\\{\\begin{aligned}x(t) &amp;= t + a + \\frac{1}{2}\\, u(t-1) \\\\y(t) &amp;= b - \\frac{1}{2}\\, u(t-1)\\end{aligned}\\end{aligned}</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/complex-analysis/ch005/q0014_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\begin{aligned}\\{\\begin{aligned}x(t)&amp;=a+\\frac{1}{2}\\,u(t-1)\\\\y(t)&amp;=b-\\frac{1}{2}\\,u(t-1)\\end{aligned}\\end{aligned}\">\\begin{aligned}\\{\\begin{aligned}x(t)&amp;=a+\\frac{1}{2}\\,u(t-1)\\\\y(t)&amp;=b-\\frac{1}{2}\\,u(t-1)\\end{aligned}\\end{aligned}</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/complex-analysis/ch005/q0014_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\begin{aligned}\\{\\begin{aligned}x(t)&amp;=t+a+\\frac{1}{2}\\,u(t-1)\\\\y(t)&amp;=t+b-\\frac{1}{2}\\,u(t-1)\\end{aligned}\\end{aligned}\">\\begin{aligned}\\{\\begin{aligned}x(t)&amp;=t+a+\\frac{1}{2}\\,u(t-1)\\\\y(t)&amp;=t+b-\\frac{1}{2}\\,u(t-1)\\end{aligned}\\end{aligned}</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/complex-analysis/ch005/q0014_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\begin{aligned}\\{\\begin{aligned}x(t)&amp;=t+a+\\frac{1}{2}\\,u(t\\!-\\!1)\\\\y(t)&amp;=t+b+\\frac{1}{2}\\,u(t\\!-\\!1)\\end{aligned}\\end{aligned}\">\\begin{aligned}\\{\\begin{aligned}x(t)&amp;=t+a+\\frac{1}{2}\\,u(t\\!-\\!1)\\\\y(t)&amp;=t+b+\\frac{1}{2}\\,u(t\\!-\\!1)\\end{aligned}\\end{aligned}</span>"
         }
       ],
       "answer": "A",
       "answer_index": 0,
-      "analysis_html": "<img src=\"/static/generated/assets/complex-analysis/ch005/q0014_analysis.png\"/>"
+      "analysis_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{aligned}&amp;\\{\\begin{array}{l}sX(s)-a+sY(s)-b=\\frac{1}{s}\\\\sX(s)-a-sY(s)+b=\\frac{1}{s}+e^{-s}\\end{array}\\\\&amp;\\Rightarrow \\{\\begin{array}{l}X(s)=\\frac{1}{s^2}+\\frac{e^{-s}}{2s}+\\frac{a}{s}\\\\Y(s)=\\frac{b}{s}-\\frac{e^{-s}}{2s}\\end{array}\\Rightarrow \\{\\begin{array}{l}x(t)=t+a+\\frac{1}{2}\\,u(t-1)\\\\y(t)=b-\\frac{1}{2}\\,u(t-1)\\end{array}.\\end{aligned}\">\\begin{aligned}&amp;\\{\\begin{array}{l}sX(s)-a+sY(s)-b=\\frac{1}{s}\\\\sX(s)-a-sY(s)+b=\\frac{1}{s}+e^{-s}\\end{array}\\\\&amp;\\Rightarrow \\{\\begin{array}{l}X(s)=\\frac{1}{s^2}+\\frac{e^{-s}}{2s}+\\frac{a}{s}\\\\Y(s)=\\frac{b}{s}-\\frac{e^{-s}}{2s}\\end{array}\\Rightarrow \\{\\begin{array}{l}x(t)=t+a+\\frac{1}{2}\\,u(t-1)\\\\y(t)=b-\\frac{1}{2}\\,u(t-1)\\end{array}.\\end{aligned}</div>"
     }
-  ]
+  ],
+  "format": "latex",
+  "source_md": "fb_(1)/Laplace变换的应用(14题)/Laplace变换的应用(14题).md"
 }

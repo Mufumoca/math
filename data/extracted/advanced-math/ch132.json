@@ -13,700 +13,702 @@
       "number": 1,
       "header": "#1-Averge",
       "difficulty": "Averge",
-      "prompt_html": "<img src=\"/static/generated/assets/advanced-math/ch132/q0001_prompt.png\"/>",
+      "prompt_html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{立体}\\,\\Omega \\text{为：} \\ x ^ { 2 } + y ^ { 2 } \\leq z \\leq \\sqrt { 2 - x ^ { 2 } - y ^ { 2 } } \\ \\ , \\ \\text{则} \\iiint \\limits _ { \\Omega } z d v \\ \\text{的值为（）。}\">\\text{立体}\\,\\Omega \\text{为：} \\ x ^ { 2 } + y ^ { 2 } \\leq z \\leq \\sqrt { 2 - x ^ { 2 } - y ^ { 2 } } \\ \\ , \\ \\text{则} \\iiint \\limits _ { \\Omega } z d v \\ \\text{的值为（）。}</span>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch132/q0001_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\frac {1}{12} \\pi\">\\frac {1}{12} \\pi</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch132/q0001_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\frac {5}{12} \\pi\">\\frac {5}{12} \\pi</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch132/q0001_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\frac {7}{12} \\pi\">\\frac {7}{12} \\pi</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch132/q0001_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\frac {11}{12} \\pi\">\\frac {11}{12} \\pi</span>"
         }
       ],
       "answer": "C",
       "answer_index": 2,
-      "analysis_html": "<img src=\"/static/generated/assets/advanced-math/ch132/q0001_analysis.png\"/>"
+      "analysis_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{aligned}&amp;= \\int_{0}^{2\\pi} d\\theta \\int_{0}^{1} r dr \\int_{r^{2}}^{\\sqrt{2-r^{2}}} z dz \\\\&amp;= \\pi \\int_{0}^{1} (2r-r^{3}-r^{5}) dr \\\\&amp;= \\frac{7}{12} \\pi\\end{aligned}\">\\begin{aligned}&amp;= \\int_{0}^{2\\pi} d\\theta \\int_{0}^{1} r dr \\int_{r^{2}}^{\\sqrt{2-r^{2}}} z dz \\\\&amp;= \\pi \\int_{0}^{1} (2r-r^{3}-r^{5}) dr \\\\&amp;= \\frac{7}{12} \\pi\\end{aligned}</div>"
     },
     {
       "id": "q0002",
       "number": 2,
       "header": "#2-Averge",
       "difficulty": "Averge",
-      "prompt_html": "<img src=\"/static/generated/assets/advanced-math/ch132/q0002_prompt.png\"/>",
+      "prompt_html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\iiint_{\\Omega}(y^{2}+z^{2})dV\\text{的值为( ).}\">\\iiint_{\\Omega}(y^{2}+z^{2})dV\\text{的值为( ).}</span>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch132/q0002_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\frac {125}{3} \\pi\">\\frac {125}{3} \\pi</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch132/q0002_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\frac {250}{3} \\pi\">\\frac {250}{3} \\pi</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch132/q0002_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\frac { 625 } { 3 } \\pi\">\\frac { 625 } { 3 } \\pi</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch132/q0002_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\boldsymbol { 0 }\">\\boldsymbol { 0 }</span>"
         }
       ],
       "answer": "B",
       "answer_index": 1,
-      "analysis_html": "<img src=\"/static/generated/assets/advanced-math/ch132/q0002_analysis.png\"/>"
+      "analysis_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{aligned} \\text{xoy 平面上曲线} &amp; y^{2}=2x \\text{ 绕 } x \\text{ 轴旋转而成的曲面为} x=\\frac{1}{2}(y^{2}+z^{2}) \\text{, 利用柱面坐标变换计算,}\\\\ \\text{原式} &amp; =\\int_{0}^{2\\pi}d\\theta \\int_{0}^{\\sqrt{10}}dr \\int_{r^{2}}^{5}r^{3}dx\\\\ &amp; =2\\pi \\int_{0}^{\\sqrt{10}}(5r^{3}-\\frac{1}{2}r^{5})dr\\\\ &amp; =\\frac{250}{3}\\pi \\text{。} \\end{aligned}\">\\begin{aligned} \\text{xoy 平面上曲线} &amp; y^{2}=2x \\text{ 绕 } x \\text{ 轴旋转而成的曲面为} x=\\frac{1}{2}(y^{2}+z^{2}) \\text{, 利用柱面坐标变换计算,}\\\\ \\text{原式} &amp; =\\int_{0}^{2\\pi}d\\theta \\int_{0}^{\\sqrt{10}}dr \\int_{r^{2}}^{5}r^{3}dx\\\\ &amp; =2\\pi \\int_{0}^{\\sqrt{10}}(5r^{3}-\\frac{1}{2}r^{5})dr\\\\ &amp; =\\frac{250}{3}\\pi \\text{。} \\end{aligned}</div>"
     },
     {
       "id": "q0003",
       "number": 3,
       "header": "#3-Averge",
       "difficulty": "Averge",
-      "prompt_html": "<img src=\"/static/generated/assets/advanced-math/ch132/q0003_prompt.png\"/>",
+      "prompt_html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\Omega \\text{为抛物面}x^{2}+y^{2}=z，\\text{柱面}x^{2}+y^{2}=2x\\text{与平面}z=0\\text{所围成，则三重积分} \\iiint_{\\Omega}dxdydz\\text{的值为( ).}\">\\Omega \\text{为抛物面}x^{2}+y^{2}=z，\\text{柱面}x^{2}+y^{2}=2x\\text{与平面}z=0\\text{所围成，则三重积分} \\iiint_{\\Omega}dxdydz\\text{的值为( ).}</span>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch132/q0003_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\frac {3}{2} \\pi\">\\frac {3}{2} \\pi</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch132/q0003_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\frac{3}{4}\\pi\">\\frac{3}{4}\\pi</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch132/q0003_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\frac { 1 } { 2 } \\pi\">\\frac { 1 } { 2 } \\pi</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch132/q0003_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\frac { 1 } { 4 } \\pi\">\\frac { 1 } { 4 } \\pi</span>"
         }
       ],
       "answer": "A",
       "answer_index": 0,
-      "analysis_html": "<img src=\"/static/generated/assets/advanced-math/ch132/q0003_analysis.png\"/>"
+      "analysis_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{aligned} \\text{利用柱面坐标变换，于是，} \\\\ \\int\\limits_{0}^{\\frac{\\pi}{2}} \\frac{1}{2}d\\theta \\int_{0}^{2\\cos\\theta} r dr \\int_{0}^{r^{2}} dz \\\\ = 8 \\int_{0}^{\\frac{\\pi}{2}} \\cos^{4}\\theta d\\theta \\\\ = \\frac{3}{2}\\pi \\end{aligned}\">\\begin{aligned} \\text{利用柱面坐标变换，于是，} \\\\ \\int\\limits_{0}^{\\frac{\\pi}{2}} \\frac{1}{2}d\\theta \\int_{0}^{2\\cos\\theta} r dr \\int_{0}^{r^{2}} dz \\\\ = 8 \\int_{0}^{\\frac{\\pi}{2}} \\cos^{4}\\theta d\\theta \\\\ = \\frac{3}{2}\\pi \\end{aligned}</div>"
     },
     {
       "id": "q0004",
       "number": 4,
       "header": "#4-Averge",
       "difficulty": "Averge",
-      "prompt_html": "<img src=\"/static/generated/assets/advanced-math/ch132/q0004_prompt.png\"/>",
+      "prompt_html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\Omega \\text{ 是由抛物面 } x^{2}+y^{2}=2z \\text{ 及平面 } z=5 \\text{ 所围成的区域，则三重积分 } \\iiint_{\\Omega } \\left( x^{2}+y^{2}+x \\right) d v = \\text{（ ）}.\">\\Omega \\text{ 是由抛物面 } x^{2}+y^{2}=2z \\text{ 及平面 } z=5 \\text{ 所围成的区域，则三重积分 } \\iiint_{\\Omega } \\left( x^{2}+y^{2}+x \\right) d v = \\text{（ ）}.</span>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch132/q0004_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\frac {1000}{3} \\pi\">\\frac {1000}{3} \\pi</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch132/q0004_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\frac { 750 } { 3 } \\pi\">\\frac { 750 } { 3 } \\pi</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch132/q0004_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\frac { 250 } { 3 } \\pi\">\\frac { 250 } { 3 } \\pi</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch132/q0004_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\frac {500}{3} \\pi\">\\frac {500}{3} \\pi</span>"
         }
       ],
       "answer": "C",
       "answer_index": 2,
-      "analysis_html": "<img src=\"/static/generated/assets/advanced-math/ch132/q0004_analysis.png\"/>"
+      "analysis_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{aligned} &amp; \\text{积分区域关于} yoz \\text{面对称，所以} \\iiint\\limits_{\\Omega} x dv = 0 \\text{，在柱面坐标变换下积分区域} \\Omega \\text{可以表示为：} \\quad 0 \\leq \\theta \\leq 2 \\pi, \\\\ &amp; \\quad 0 \\leq r \\leq \\sqrt{10} \\, \\, \\, \\, \\, \\, \\frac{r^{2}}{2} \\leq z \\leq 5 \\\\ &amp; \\quad \\text{原式} = \\int_{0}^{2 \\pi} d \\theta \\int_{0}^{\\sqrt{10}} r^{3} dr \\int_{\\frac{\\pi}{2}}^{5} dz \\, = \\frac{250}{3} \\pi \\end{aligned}\">\\begin{aligned} &amp; \\text{积分区域关于} yoz \\text{面对称，所以} \\iiint\\limits_{\\Omega} x dv = 0 \\text{，在柱面坐标变换下积分区域} \\Omega \\text{可以表示为：} \\quad 0 \\leq \\theta \\leq 2 \\pi, \\\\ &amp; \\quad 0 \\leq r \\leq \\sqrt{10} \\, \\, \\, \\, \\, \\, \\frac{r^{2}}{2} \\leq z \\leq 5 \\\\ &amp; \\quad \\text{原式} = \\int_{0}^{2 \\pi} d \\theta \\int_{0}^{\\sqrt{10}} r^{3} dr \\int_{\\frac{\\pi}{2}}^{5} dz \\, = \\frac{250}{3} \\pi \\end{aligned}</div>"
     },
     {
       "id": "q0005",
       "number": 5,
       "header": "#5-Averge",
       "difficulty": "Averge",
-      "prompt_html": "<img src=\"/static/generated/assets/advanced-math/ch132/q0005_prompt.png\"/>",
+      "prompt_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\Omega \\text{ 是由} \\begin{cases} y = z ^ { 2 } \\\\ x = 0 \\end{cases} \\text{绕} y \\text{轴旋转生成的曲面与平面} y = 1 \\text{围成的立体，则三重积分} \\iiint \\limits _ { \\Omega } ( x ^ { 2 } + y + z ^ { 2 } ) d v \\text{的值为( ).}\">\\Omega \\text{ 是由} \\begin{cases} y = z ^ { 2 } \\\\ x = 0 \\end{cases} \\text{绕} y \\text{轴旋转生成的曲面与平面} y = 1 \\text{围成的立体，则三重积分} \\iiint \\limits _ { \\Omega } ( x ^ { 2 } + y + z ^ { 2 } ) d v \\text{的值为( ).}</div>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch132/q0005_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\frac { \\pi } { 12 }\">\\frac { \\pi } { 12 }</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch132/q0005_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\frac { \\pi } { 2 }\">\\frac { \\pi } { 2 }</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch132/q0005_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\frac { \\pi } { 6 }\">\\frac { \\pi } { 6 }</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch132/q0005_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\frac{\\pi}{3}\">\\frac{\\pi}{3}</span>"
         }
       ],
       "answer": "B",
       "answer_index": 1,
-      "analysis_html": "<img src=\"/static/generated/assets/advanced-math/ch132/q0005_analysis.png\"/>"
+      "analysis_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{aligned} \\text{旋转曲面方程为} \\; &amp; y = x^2 + z^2 \\; , \\; \\Omega \\; \\text{在} \\; x0z \\; \\text{面上的投影为} \\; x^2 + z^2 \\leq 1 \\; , \\; \\; \\; \\text{且} \\; \\; x^2 + z^2 \\leq y \\leq 1 \\; , \\; \\text{所以由柱面坐标变换得：} \\\\ &amp; \\text{原式} = \\iint_{D} (x^2 + z^2) dx dz \\int_{x^2 + z^2}^1 dy + \\iint_{D} dx dy \\int_{x^2 + z^2}^1 y dy \\\\ &amp; = \\int_0^{2\\pi} d\\theta \\int_0^1 r^2 r dr \\int_r^1 dy + \\int_0^{2\\pi} d\\theta \\int_0^1 r dr \\int_r^1 dy \\\\ &amp; = \\frac{\\pi}{6} + \\frac{\\pi}{3} \\\\ &amp; = \\frac{\\pi}{2} \\; . \\end{aligned}\">\\begin{aligned} \\text{旋转曲面方程为} \\; &amp; y = x^2 + z^2 \\; , \\; \\Omega \\; \\text{在} \\; x0z \\; \\text{面上的投影为} \\; x^2 + z^2 \\leq 1 \\; , \\; \\; \\; \\text{且} \\; \\; x^2 + z^2 \\leq y \\leq 1 \\; , \\; \\text{所以由柱面坐标变换得：} \\\\ &amp; \\text{原式} = \\iint_{D} (x^2 + z^2) dx dz \\int_{x^2 + z^2}^1 dy + \\iint_{D} dx dy \\int_{x^2 + z^2}^1 y dy \\\\ &amp; = \\int_0^{2\\pi} d\\theta \\int_0^1 r^2 r dr \\int_r^1 dy + \\int_0^{2\\pi} d\\theta \\int_0^1 r dr \\int_r^1 dy \\\\ &amp; = \\frac{\\pi}{6} + \\frac{\\pi}{3} \\\\ &amp; = \\frac{\\pi}{2} \\; . \\end{aligned}</div>"
     },
     {
       "id": "q0006",
       "number": 6,
       "header": "#6-Averge",
       "difficulty": "Averge",
-      "prompt_html": "<img src=\"/static/generated/assets/advanced-math/ch132/q0006_prompt.png\"/>",
+      "prompt_html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\int_{0}^{2} dx \\int_{0}^{\\sqrt{2x-z^{2}}} dy \\int_{0}^{a} z \\sqrt{x^{2}+y^{2}} \\, dz \\; \\text{的值为( ).}\">\\int_{0}^{2} dx \\int_{0}^{\\sqrt{2x-z^{2}}} dy \\int_{0}^{a} z \\sqrt{x^{2}+y^{2}} \\, dz \\; \\text{的值为( ).}</span>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch132/q0006_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\frac { 4 } { 3 } a ^ { 2 }\">\\frac { 4 } { 3 } a ^ { 2 }</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch132/q0006_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\frac { 4 } { 3 } a ^ { 2 } \\pi\">\\frac { 4 } { 3 } a ^ { 2 } \\pi</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch132/q0006_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\frac{8}{9} a ^ { 2 }\">\\frac{8}{9} a ^ { 2 }</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch132/q0006_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\frac{8}{9} a^{2} \\pi\">\\frac{8}{9} a^{2} \\pi</span>"
         }
       ],
       "answer": "C",
       "answer_index": 2,
-      "analysis_html": "<img src=\"/static/generated/assets/advanced-math/ch132/q0006_analysis.png\"/>"
+      "analysis_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{aligned} \\text{利用柱面坐标变换，} \\\\ \\intop \\text{原式} &amp; = \\int_0^{\\frac{\\pi}{2}} d\\theta \\int_0^{2a\\cos\\theta} dr \\int_0^a zr^2 dz \\\\ &amp; = \\frac{a^2}{2} \\int_0^{\\frac{\\pi}{2}} \\frac{8}{3} \\cos^3 \\theta d\\theta \\\\ &amp; = \\frac{8}{9} a^2 \\end{aligned}\">\\begin{aligned} \\text{利用柱面坐标变换，} \\\\ \\intop \\text{原式} &amp; = \\int_0^{\\frac{\\pi}{2}} d\\theta \\int_0^{2a\\cos\\theta} dr \\int_0^a zr^2 dz \\\\ &amp; = \\frac{a^2}{2} \\int_0^{\\frac{\\pi}{2}} \\frac{8}{3} \\cos^3 \\theta d\\theta \\\\ &amp; = \\frac{8}{9} a^2 \\end{aligned}</div>"
     },
     {
       "id": "q0007",
       "number": 7,
       "header": "#7-Averge",
       "difficulty": "Averge",
-      "prompt_html": "<img src=\"/static/generated/assets/advanced-math/ch132/q0007_prompt.png\"/>",
+      "prompt_html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\iiint \\limits _ { \\Omega } z d v \\text { 的值为( ).}\">\\iiint \\limits _ { \\Omega } z d v \\text { 的值为( ).}</span>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch132/q0007_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\frac {24}{3} \\pi\">\\frac {24}{3} \\pi</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch132/q0007_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\frac { 16 } { 3 } \\pi\">\\frac { 16 } { 3 } \\pi</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch132/q0007_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\frac {512}{3} \\pi\">\\frac {512}{3} \\pi</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch132/q0007_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\frac {1024}{3} \\pi\">\\frac {1024}{3} \\pi</span>"
         }
       ],
       "answer": "D",
       "answer_index": 3,
-      "analysis_html": "<img src=\"/static/generated/assets/advanced-math/ch132/q0007_analysis.png\"/>"
+      "analysis_html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\iiint \\limits _ { \\Omega } z d v = \\int _ { 0 } ^ { 2 \\pi } d \\theta \\int _ { 0 } ^ { 4 } r d r \\int _ { \\frac { \\pi } { 2 } } ^ { 8 } z d z = 2 \\pi \\int _ { 0 } ^ { 4 } r ( 32 - \\frac { r ^ { 4 } } { 8 } ) d r = \\frac { 1024 } { 3 } \\pi\">\\iiint \\limits _ { \\Omega } z d v = \\int _ { 0 } ^ { 2 \\pi } d \\theta \\int _ { 0 } ^ { 4 } r d r \\int _ { \\frac { \\pi } { 2 } } ^ { 8 } z d z = 2 \\pi \\int _ { 0 } ^ { 4 } r ( 32 - \\frac { r ^ { 4 } } { 8 } ) d r = \\frac { 1024 } { 3 } \\pi</span>"
     },
     {
       "id": "q0008",
       "number": 8,
       "header": "#8-Averge",
       "difficulty": "Averge",
-      "prompt_html": "<img src=\"/static/generated/assets/advanced-math/ch132/q0008_prompt.png\"/>",
+      "prompt_html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\Omega \\text{ 由 } 2z = x^{2} + y^{2} \\ , \\ z = 2 \\ , \\ z = 8 \\text{ 围成，则} \\iiint \\limits_{\\Omega } ( x^{2} + y^{2} ) d v \\text{ 的值为( ).}\">\\Omega \\text{ 由 } 2z = x^{2} + y^{2} \\ , \\ z = 2 \\ , \\ z = 8 \\text{ 围成，则} \\iiint \\limits_{\\Omega } ( x^{2} + y^{2} ) d v \\text{ 的值为( ).}</span>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch132/q0008_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\frac {211}{3} \\pi\">\\frac {211}{3} \\pi</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch132/q0008_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\frac {422}{3} \\pi\">\\frac {422}{3} \\pi</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch132/q0008_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\frac { 844 } { 9 } \\pi\">\\frac { 844 } { 9 } \\pi</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch132/q0008_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\frac {844}{3} \\pi\">\\frac {844}{3} \\pi</span>"
         }
       ],
       "answer": "D",
       "answer_index": 3,
-      "analysis_html": "<img src=\"/static/generated/assets/advanced-math/ch132/q0008_analysis.png\"/>"
+      "analysis_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{aligned}\\Omega &amp; \\text{可以表示为} (x,y) \\in D\\ ,\\ 4 \\leq x^2+y^2 \\leq 16\\ ,\\ \\frac{x^2+y^2}{2} \\leq z \\leq 8\\ , \\text{因此，}\\\\&amp; \\text{原式} = \\int_{0}^{2\\pi} d\\theta \\int_{2}^{4} r^2 r dr \\int_{2}^{8} dz\\\\&amp; \\qquad= 2\\pi \\int_{2}^{4} (8r^3-\\frac{r^5}{2}) dr\\\\&amp; \\qquad= \\frac{844}{3}\\pi\\enspace 。\\end{aligned}\">\\begin{aligned}\\Omega &amp; \\text{可以表示为} (x,y) \\in D\\ ,\\ 4 \\leq x^2+y^2 \\leq 16\\ ,\\ \\frac{x^2+y^2}{2} \\leq z \\leq 8\\ , \\text{因此，}\\\\&amp; \\text{原式} = \\int_{0}^{2\\pi} d\\theta \\int_{2}^{4} r^2 r dr \\int_{2}^{8} dz\\\\&amp; \\qquad= 2\\pi \\int_{2}^{4} (8r^3-\\frac{r^5}{2}) dr\\\\&amp; \\qquad= \\frac{844}{3}\\pi\\enspace 。\\end{aligned}</div>"
     },
     {
       "id": "q0009",
       "number": 9,
       "header": "#9-Averge",
       "difficulty": "Averge",
-      "prompt_html": "<img src=\"/static/generated/assets/advanced-math/ch132/q0009_prompt.png\"/>",
+      "prompt_html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\Omega \\text{由球面}z=\\sqrt{4-x^{2}-y^{2}}\\ \\text{与抛物面}z=\\frac{1}{3}(x^{2}+y^{2})\\ \\text{所围成，则}\\iiint\\limits_{\\Omega}zdv\\ \\text{的值为( }\\ \\ )\">\\Omega \\text{由球面}z=\\sqrt{4-x^{2}-y^{2}}\\ \\text{与抛物面}z=\\frac{1}{3}(x^{2}+y^{2})\\ \\text{所围成，则}\\iiint\\limits_{\\Omega}zdv\\ \\text{的值为( }\\ \\ )</span>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch132/q0009_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\frac {13}{4} \\pi\">\\frac {13}{4} \\pi</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch132/q0009_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\frac { 9 } { 4 } \\pi\">\\frac { 9 } { 4 } \\pi</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch132/q0009_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\frac {13}{2} \\pi\">\\frac {13}{2} \\pi</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch132/q0009_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\frac { 13 } { 6 } \\pi\">\\frac { 13 } { 6 } \\pi</span>"
         }
       ],
       "answer": "A",
       "answer_index": 0,
-      "analysis_html": "<img src=\"/static/generated/assets/advanced-math/ch132/q0009_analysis.png\"/>"
+      "analysis_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{aligned} \\int_0^{2\\pi} d\\theta &amp; \\int_0^{\\sqrt{3}} dr \\int_{\\frac{1}{3}r^2}^{\\sqrt{4-r^2}} zr dz \\\\&amp; = 2\\pi \\int_0^{\\sqrt{3}} \\frac{r}{2} (4-r^2-\\frac{r^4}{9}) dr \\\\&amp; = \\frac{13}{4}\\pi \\enspace 。 \\end{aligned}\">\\begin{aligned} \\int_0^{2\\pi} d\\theta &amp; \\int_0^{\\sqrt{3}} dr \\int_{\\frac{1}{3}r^2}^{\\sqrt{4-r^2}} zr dz \\\\&amp; = 2\\pi \\int_0^{\\sqrt{3}} \\frac{r}{2} (4-r^2-\\frac{r^4}{9}) dr \\\\&amp; = \\frac{13}{4}\\pi \\enspace 。 \\end{aligned}</div>"
     },
     {
       "id": "q0010",
       "number": 10,
       "header": "#10-Averge",
       "difficulty": "Averge",
-      "prompt_html": "<img src=\"/static/generated/assets/advanced-math/ch132/q0010_prompt.png\"/>",
+      "prompt_html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\int_{0}^{2}dx\\int_{0}^{\\sqrt{2x-x^{2}}}dy\\int_{0}^{1}z\\sqrt{x^{2}+y^{2}}dz\\ \\text{的值为( }\\ \\ ).\">\\int_{0}^{2}dx\\int_{0}^{\\sqrt{2x-x^{2}}}dy\\int_{0}^{1}z\\sqrt{x^{2}+y^{2}}dz\\ \\text{的值为( }\\ \\ ).</span>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch132/q0010_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\frac { 4 } { 3 }\">\\frac { 4 } { 3 }</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch132/q0010_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\frac { 16 } { 3 }\">\\frac { 16 } { 3 }</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch132/q0010_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\frac{32}{9}\">\\frac{32}{9}</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch132/q0010_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\frac { 16 } { 9 }\">\\frac { 16 } { 9 }</span>"
         }
       ],
       "answer": "D",
       "answer_index": 3,
-      "analysis_html": "<img src=\"/static/generated/assets/advanced-math/ch132/q0010_analysis.png\"/>"
+      "analysis_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{aligned}0\\leq x\\leq 2\\ ,\\ 0\\leq y\\leq &amp;\\sqrt{2x-x^{2}}\\ , \\text{表示的区域为}D\\ :\\ (x-1)^{2}+y^{2}\\leq 1\\ ,\\ y\\geq 0\\ , \\text{因此利用柱面坐标变换可得,}\\\\ \\text{原式}=&amp;\\int_{-\\frac{\\pi}{2}}^{\\frac{\\pi}{2}}d\\theta\\int_{0}^{2\\cos\\theta}rdr\\int_{0}^{1}zrdz\\\\=&amp;\\frac{1}{2}\\int_{-\\frac{\\pi}{2}}^{\\frac{\\pi}{2}}d\\theta\\int_{0}^{2\\cos\\theta}r^{2}dr\\\\=&amp;\\frac{8}{3}\\int_{0}^{\\frac{\\pi}{2}}\\!2\\cos^{3}\\theta d\\theta\\\\=&amp;\\frac{16}{9}\\ \\circ.\\end{aligned}\">\\begin{aligned}0\\leq x\\leq 2\\ ,\\ 0\\leq y\\leq &amp;\\sqrt{2x-x^{2}}\\ , \\text{表示的区域为}D\\ :\\ (x-1)^{2}+y^{2}\\leq 1\\ ,\\ y\\geq 0\\ , \\text{因此利用柱面坐标变换可得,}\\\\ \\text{原式}=&amp;\\int_{-\\frac{\\pi}{2}}^{\\frac{\\pi}{2}}d\\theta\\int_{0}^{2\\cos\\theta}rdr\\int_{0}^{1}zrdz\\\\=&amp;\\frac{1}{2}\\int_{-\\frac{\\pi}{2}}^{\\frac{\\pi}{2}}d\\theta\\int_{0}^{2\\cos\\theta}r^{2}dr\\\\=&amp;\\frac{8}{3}\\int_{0}^{\\frac{\\pi}{2}}\\!2\\cos^{3}\\theta d\\theta\\\\=&amp;\\frac{16}{9}\\ \\circ.\\end{aligned}</div>"
     },
     {
       "id": "q0011",
       "number": 11,
       "header": "#11-Averge",
       "difficulty": "Averge",
-      "prompt_html": "<img src=\"/static/generated/assets/advanced-math/ch132/q0011_prompt.png\"/>",
+      "prompt_html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\Omega \\text{ 是由曲面 } 4z^{2} = 25(x^{2}+y^{2}) \\text{ 及平面 } z=5 \\text{ 所围成的闭区域，则 } \\iiint_{\\Omega}(x^{2}+y^{2})d v \\text{ 的值为( ).}\">\\Omega \\text{ 是由曲面 } 4z^{2} = 25(x^{2}+y^{2}) \\text{ 及平面 } z=5 \\text{ 所围成的闭区域，则 } \\iiint_{\\Omega}(x^{2}+y^{2})d v \\text{ 的值为( ).}</span>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch132/q0011_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"8 \\pi\">8 \\pi</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch132/q0011_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\pi\">\\pi</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch132/q0011_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"2 \\pi\">2 \\pi</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch132/q0011_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"8 \\pi\">8 \\pi</span>"
         }
       ],
       "answer": "D",
       "answer_index": 3,
-      "analysis_html": "<img src=\"/static/generated/assets/advanced-math/ch132/q0011_analysis.png\"/>"
+      "analysis_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{aligned} \\text{利用柱面坐标变换，}\\Omega \\text{ 在 } xoy \\text{ 面上投影区域为：} \\ x^{2}+y^{2} \\leq 4 \\ , \\ \\text{所以} \\\\ \\text{原式} \\ = \\int_{0}^{2\\pi} d\\theta \\int_{0}^{2} r dr \\int_{\\frac{5}{2}}^{5} r^{2} dz \\\\ \\ = \\ 2\\pi \\int_{0}^{2} r^{3} (5-\\frac{5}{2}r) dr \\\\ \\ = \\ 8\\pi \\end{aligned}\">\\begin{aligned} \\text{利用柱面坐标变换，}\\Omega \\text{ 在 } xoy \\text{ 面上投影区域为：} \\ x^{2}+y^{2} \\leq 4 \\ , \\ \\text{所以} \\\\ \\text{原式} \\ = \\int_{0}^{2\\pi} d\\theta \\int_{0}^{2} r dr \\int_{\\frac{5}{2}}^{5} r^{2} dz \\\\ \\ = \\ 2\\pi \\int_{0}^{2} r^{3} (5-\\frac{5}{2}r) dr \\\\ \\ = \\ 8\\pi \\end{aligned}</div>"
     },
     {
       "id": "q0012",
       "number": 12,
       "header": "#12-Averge",
       "difficulty": "Averge",
-      "prompt_html": "<img src=\"/static/generated/assets/advanced-math/ch132/q0012_prompt.png\"/>",
+      "prompt_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\Omega \\text{是由} \\begin{cases} y = z ^ { 2 } \\\\ x = 0 \\end{cases} \\text{绕} y \\text{轴旋转生成的曲面与平面} y = 1 \\text{围成的立体，则三重积分} \\iiint _ { \\Omega } ( x ^ { 2 } + z ^ { 2 } ) d v \\text{的值为} \\quad ( ) .\">\\Omega \\text{是由} \\begin{cases} y = z ^ { 2 } \\\\ x = 0 \\end{cases} \\text{绕} y \\text{轴旋转生成的曲面与平面} y = 1 \\text{围成的立体，则三重积分} \\iiint _ { \\Omega } ( x ^ { 2 } + z ^ { 2 } ) d v \\text{的值为} \\quad ( ) .</div>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch132/q0012_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\frac {\\pi}{6}\">\\frac {\\pi}{6}</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch132/q0012_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\frac { \\pi } { 2 }\">\\frac { \\pi } { 2 }</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch132/q0012_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\frac {\\pi}{12}\">\\frac {\\pi}{12}</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch132/q0012_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\frac { \\pi } { 3 }\">\\frac { \\pi } { 3 }</span>"
         }
       ],
       "answer": "A",
       "answer_index": 0,
-      "analysis_html": "<img src=\"/static/generated/assets/advanced-math/ch132/q0012_analysis.png\"/>"
+      "analysis_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{aligned} \\text{旋转曲面方程为} \\; &amp; y = x^2 + z^2 \\; , \\; \\; \\Omega \\; \\text{在} \\; x0z \\; \\text{面上的投影为} \\; x^2 + z^2 \\leq 1 \\; , \\; \\; \\text{且} \\; \\; x^2 + z^2 \\leq y \\leq 1 \\; , \\; \\text{所以由柱面坐标变换得：} \\\\ \\text{原式} &amp; = \\iint_D (x^2 + z^2) dx dz \\int_{x^2 + z^2}^1 dy \\\\ &amp; = \\int_0^{2\\pi} d\\theta \\int_0^1 r^2 r dr \\int_{r^2}^1 dy \\\\ &amp; = \\frac{\\pi}{6} \\; 。 \\end{aligned}\">\\begin{aligned} \\text{旋转曲面方程为} \\; &amp; y = x^2 + z^2 \\; , \\; \\; \\Omega \\; \\text{在} \\; x0z \\; \\text{面上的投影为} \\; x^2 + z^2 \\leq 1 \\; , \\; \\; \\text{且} \\; \\; x^2 + z^2 \\leq y \\leq 1 \\; , \\; \\text{所以由柱面坐标变换得：} \\\\ \\text{原式} &amp; = \\iint_D (x^2 + z^2) dx dz \\int_{x^2 + z^2}^1 dy \\\\ &amp; = \\int_0^{2\\pi} d\\theta \\int_0^1 r^2 r dr \\int_{r^2}^1 dy \\\\ &amp; = \\frac{\\pi}{6} \\; 。 \\end{aligned}</div>"
     },
     {
       "id": "q0013",
       "number": 13,
       "header": "#13-Averge",
       "difficulty": "Averge",
-      "prompt_html": "<img src=\"/static/generated/assets/advanced-math/ch132/q0013_prompt.png\"/>",
+      "prompt_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{array}{l} \\text {设} f(t) \\text {连续，且} f(0)=0。\\Omega:0\\leq z\\leq h\\ ,\\ x^{2}+y^{2}\\leq t^{2}(t&gt;0)\\text {，又} \\\\ \\\\ F(t)=\\iiint\\limits_{\\Omega}\\left[ f(x^{2}+y^{2})+z^{2}\\right] d v\\ ,\\ \\text {则极限}\\lim_{t\\rightarrow 0^{+}}\\frac{F(t)}{t^{2}}=()\\ . \\end{array}\">\\begin{array}{l} \\text {设} f(t) \\text {连续，且} f(0)=0。\\Omega:0\\leq z\\leq h\\ ,\\ x^{2}+y^{2}\\leq t^{2}(t&gt;0)\\text {，又} \\\\ \\\\ F(t)=\\iiint\\limits_{\\Omega}\\left[ f(x^{2}+y^{2})+z^{2}\\right] d v\\ ,\\ \\text {则极限}\\lim_{t\\rightarrow 0^{+}}\\frac{F(t)}{t^{2}}=()\\ . \\end{array}</div>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch132/q0013_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\frac { \\pi } { 3 } h ^ { 3 }\">\\frac { \\pi } { 3 } h ^ { 3 }</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch132/q0013_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\frac {2 \\pi}{3} h ^ {3}\">\\frac {2 \\pi}{3} h ^ {3}</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch132/q0013_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\frac { \\pi } { 2 } h ^ { 3 }\">\\frac { \\pi } { 2 } h ^ { 3 }</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch132/q0013_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\frac { \\pi } { 6 } h ^ { 3 }\">\\frac { \\pi } { 6 } h ^ { 3 }</span>"
         }
       ],
       "answer": "A",
       "answer_index": 0,
-      "analysis_html": "<img src=\"/static/generated/assets/advanced-math/ch132/q0013_analysis.png\"/>"
+      "analysis_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{aligned} &amp; \\text{利用柱面坐标变换化简}F(t)\\ , \\\\ &amp; \\quad F(t)=\\int_{0}^{h}dz\\int_{0}^{2\\pi}d\\theta\\int_{0}^{t}(f(r^{2})+z^{2})rdr \\\\ &amp; \\quad\\quad\\quad\\quad\\frac{\\pi}{3}t^{2}h^{3}+2\\pi h\\int_{0}^{t}f(r^{2})rdr \\\\ &amp; \\text{所以：} \\\\ &amp; \\quad\\lim_{t\\rightarrow 0^{-}}\\frac{F(t)}{t^{2}}=\\frac{\\pi}{3}h^{3}+\\lim_{t\\rightarrow 0^{+}}\\frac{2\\pi h\\int_{0}^{t}f(r^{2})rdr}{t^{2}} \\\\ &amp; \\quad=\\frac{\\pi}{3}h^{3}+\\lim_{t\\rightarrow 0^{-}}\\frac{2\\pi hf(t^{2})t}{2t} \\\\ &amp; \\quad=\\frac{\\pi}{3}h^{3}\\text{。}\\end{aligned}\">\\begin{aligned} &amp; \\text{利用柱面坐标变换化简}F(t)\\ , \\\\ &amp; \\quad F(t)=\\int_{0}^{h}dz\\int_{0}^{2\\pi}d\\theta\\int_{0}^{t}(f(r^{2})+z^{2})rdr \\\\ &amp; \\quad\\quad\\quad\\quad\\frac{\\pi}{3}t^{2}h^{3}+2\\pi h\\int_{0}^{t}f(r^{2})rdr \\\\ &amp; \\text{所以：} \\\\ &amp; \\quad\\lim_{t\\rightarrow 0^{-}}\\frac{F(t)}{t^{2}}=\\frac{\\pi}{3}h^{3}+\\lim_{t\\rightarrow 0^{+}}\\frac{2\\pi h\\int_{0}^{t}f(r^{2})rdr}{t^{2}} \\\\ &amp; \\quad=\\frac{\\pi}{3}h^{3}+\\lim_{t\\rightarrow 0^{-}}\\frac{2\\pi hf(t^{2})t}{2t} \\\\ &amp; \\quad=\\frac{\\pi}{3}h^{3}\\text{。}\\end{aligned}</div>"
     },
     {
       "id": "q0014",
       "number": 14,
       "header": "#14-Averge",
       "difficulty": "Averge",
-      "prompt_html": "<img src=\"/static/generated/assets/advanced-math/ch132/q0014_prompt.png\"/>",
+      "prompt_html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\Omega \\text{ 是由曲面 } x^{2} + y^{2} = 2z \\text{ 及平面 } z = 2 \\text{ 所围成的区域，则 } \\iiint \\limits_{\\Omega } z d v \\text{ 的值为( ).}\">\\Omega \\text{ 是由曲面 } x^{2} + y^{2} = 2z \\text{ 及平面 } z = 2 \\text{ 所围成的区域，则 } \\iiint \\limits_{\\Omega } z d v \\text{ 的值为( ).}</span>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch132/q0014_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\frac {16}{3} \\pi\">\\frac {16}{3} \\pi</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch132/q0014_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\frac {24}{3} \\pi\">\\frac {24}{3} \\pi</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch132/q0014_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\frac { 4 } { 3 } \\pi\">\\frac { 4 } { 3 } \\pi</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch132/q0014_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\frac { 8 } { 3 } \\pi\">\\frac { 8 } { 3 } \\pi</span>"
         }
       ],
       "answer": "A",
       "answer_index": 0,
-      "analysis_html": "<img src=\"/static/generated/assets/advanced-math/ch132/q0014_analysis.png\"/>"
+      "analysis_html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\iiint\\limits_{\\Omega} z d v = \\int_{0}^{2 \\pi} d \\theta \\int_{0}^{2} r d r \\int_{\\frac{r}{2}}^{2} z d z = 2 \\pi \\int_{0}^{2} r ( 2 - \\frac{r^{4}}{8} ) d r = \\frac{16}{3} \\pi\">\\iiint\\limits_{\\Omega} z d v = \\int_{0}^{2 \\pi} d \\theta \\int_{0}^{2} r d r \\int_{\\frac{r}{2}}^{2} z d z = 2 \\pi \\int_{0}^{2} r ( 2 - \\frac{r^{4}}{8} ) d r = \\frac{16}{3} \\pi</span>"
     },
     {
       "id": "q0015",
       "number": 15,
       "header": "#15-Averge",
       "difficulty": "Averge",
-      "prompt_html": "<img src=\"/static/generated/assets/advanced-math/ch132/q0015_prompt.png\"/>",
+      "prompt_html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\Omega \\text{ 由 } 2z=x^{2}+y^{2}\\text{，}z=2\\text{，}z=8\\text{ 围成，则} \\iiint_{\\Omega}(x^{2}+y^{2})dV\\text{ 的值为( ).}\">\\Omega \\text{ 由 } 2z=x^{2}+y^{2}\\text{，}z=2\\text{，}z=8\\text{ 围成，则} \\iiint_{\\Omega}(x^{2}+y^{2})dV\\text{ 的值为( ).}</span>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch132/q0015_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\frac {211}{3} \\pi\">\\frac {211}{3} \\pi</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch132/q0015_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\frac { 844 } { 9 } \\pi\">\\frac { 844 } { 9 } \\pi</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch132/q0015_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\frac {422}{3} \\pi\">\\frac {422}{3} \\pi</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch132/q0015_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\frac { 844 } { 3 } \\pi\">\\frac { 844 } { 3 } \\pi</span>"
         }
       ],
       "answer": "D",
       "answer_index": 3,
-      "analysis_html": "<img src=\"/static/generated/assets/advanced-math/ch132/q0015_analysis.png\"/>"
+      "analysis_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{aligned}\\Omega \\,\\,\\, &amp; \\text{可以表示为} \\,\\, 4 \\leq x^2+y^2 \\leq 16 \\,\\,\\,, \\,\\,\\, \\frac{x^2+y^2}{2} \\leq z \\leq 8 \\,\\,\\,, \\,\\, \\text{利用柱面坐标变换可得，} \\\\ &amp; \\text{原式} = \\int_0^{2\\pi} d\\theta \\int_2^4 dr \\int_{\\frac{r}{2}}^8 r^2 dz \\\\ &amp; \\quad \\end{aligned}\">\\begin{aligned}\\Omega \\,\\,\\, &amp; \\text{可以表示为} \\,\\, 4 \\leq x^2+y^2 \\leq 16 \\,\\,\\,, \\,\\,\\, \\frac{x^2+y^2}{2} \\leq z \\leq 8 \\,\\,\\,, \\,\\, \\text{利用柱面坐标变换可得，} \\\\ &amp; \\text{原式} = \\int_0^{2\\pi} d\\theta \\int_2^4 dr \\int_{\\frac{r}{2}}^8 r^2 dz \\\\ &amp; \\quad \\end{aligned}</div>"
     },
     {
       "id": "q0016",
       "number": 16,
       "header": "#16-Averge",
       "difficulty": "Averge",
-      "prompt_html": "<img src=\"/static/generated/assets/advanced-math/ch132/q0016_prompt.png\"/>",
+      "prompt_html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\Omega \\text{是由曲面} x^{2}+y^{2}+z^{2}=4, \\text{与抛物面} x^{2}+y^{2}=3z \\text{所围成，则} \\iiint\\limits_{\\Omega} z d v \\text{的值为( ).}\">\\Omega \\text{是由曲面} x^{2}+y^{2}+z^{2}=4, \\text{与抛物面} x^{2}+y^{2}=3z \\text{所围成，则} \\iiint\\limits_{\\Omega} z d v \\text{的值为( ).}</span>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch132/q0016_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\frac {11}{4} \\pi\">\\frac {11}{4} \\pi</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch132/q0016_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\frac {13}{4} \\pi\">\\frac {13}{4} \\pi</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch132/q0016_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\frac { 1 } { 2 } \\pi\">\\frac { 1 } { 2 } \\pi</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch132/q0016_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\frac { 9 } { 4 } \\pi\">\\frac { 9 } { 4 } \\pi</span>"
         }
       ],
       "answer": "B",
       "answer_index": 1,
-      "analysis_html": "<img src=\"/static/generated/assets/advanced-math/ch132/q0016_analysis.png\"/>"
+      "analysis_html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\iiint\\limits_{\\Omega} z d v = \\int_{0}^{2 \\pi} d \\theta \\int_{0}^{\\sqrt{3}} r d r \\int_{\\frac{r^{2}}{3}}^{\\sqrt{4-r^{2}}} z d z = \\frac{13}{4} \\pi\">\\iiint\\limits_{\\Omega} z d v = \\int_{0}^{2 \\pi} d \\theta \\int_{0}^{\\sqrt{3}} r d r \\int_{\\frac{r^{2}}{3}}^{\\sqrt{4-r^{2}}} z d z = \\frac{13}{4} \\pi</span>"
     },
     {
       "id": "q0017",
       "number": 17,
       "header": "#17-Averge",
       "difficulty": "Averge",
-      "prompt_html": "<img src=\"/static/generated/assets/advanced-math/ch132/q0017_prompt.png\"/>",
+      "prompt_html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\Omega \\text{是由} \\ z = \\frac { x ^ { 2 } + y ^ { 2 } } { 2 } \\ \\text{及} \\ z = 2 \\ \\text{围成的立体区域，则} \\iiint \\limits _ { \\Omega } ( x ^ { 2 } + y ^ { 2 } ) ^ { 2 } d v \\ \\text{的值为( )。}\">\\Omega \\text{是由} \\ z = \\frac { x ^ { 2 } + y ^ { 2 } } { 2 } \\ \\text{及} \\ z = 2 \\ \\text{围成的立体区域，则} \\iiint \\limits _ { \\Omega } ( x ^ { 2 } + y ^ { 2 } ) ^ { 2 } d v \\ \\text{的值为( )。}</span>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch132/q0017_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\frac { 16 } { 3 } \\pi\">\\frac { 16 } { 3 } \\pi</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch132/q0017_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\frac { 32 } { 3 } \\pi\">\\frac { 32 } { 3 } \\pi</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch132/q0017_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\frac { 4 } { 3 } \\pi\">\\frac { 4 } { 3 } \\pi</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch132/q0017_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\frac { 8 } { 3 } \\pi\">\\frac { 8 } { 3 } \\pi</span>"
         }
       ],
       "answer": "B",
       "answer_index": 1,
-      "analysis_html": "<img src=\"/static/generated/assets/advanced-math/ch132/q0017_analysis.png\"/>"
+      "analysis_html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{用柱面坐标变换，}\">\\text{用柱面坐标变换，}</span>\n<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{原式} = \\int_{0}^{2\\pi} d\\theta \\int_{0}^{2} r dr \\int_{0}^{2} \\frac{r^{4}}{2} dz = 2 \\pi \\int_{0}^{2} (2r^{5}-\\frac{r^{7}}{2}) dr = \\frac{32}{3} \\pi\">\\text{原式} = \\int_{0}^{2\\pi} d\\theta \\int_{0}^{2} r dr \\int_{0}^{2} \\frac{r^{4}}{2} dz = 2 \\pi \\int_{0}^{2} (2r^{5}-\\frac{r^{7}}{2}) dr = \\frac{32}{3} \\pi</span>"
     },
     {
       "id": "q0018",
       "number": 18,
       "header": "#18-Averge",
       "difficulty": "Averge",
-      "prompt_html": "<img src=\"/static/generated/assets/advanced-math/ch132/q0018_prompt.png\"/>",
+      "prompt_html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{三重积分} \\ \\int_{-r}^{r} dx \\int_{-\\sqrt{r^{2}-x^{2}}}^{\\sqrt{r^{2}-x^{2}}} dy \\int_{0}^{\\sqrt{r^{2}-x^{2}-y^{2}}} (x^{2}+y^{2}) dz \\ \\text{的值为( \\ \\ )},\">\\text{三重积分} \\ \\int_{-r}^{r} dx \\int_{-\\sqrt{r^{2}-x^{2}}}^{\\sqrt{r^{2}-x^{2}}} dy \\int_{0}^{\\sqrt{r^{2}-x^{2}-y^{2}}} (x^{2}+y^{2}) dz \\ \\text{的值为( \\ \\ )},</span>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch132/q0018_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\frac { 4 } { 15 } \\pi ^ { 5 }\">\\frac { 4 } { 15 } \\pi ^ { 5 }</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch132/q0018_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\frac { 4 } { 5 } \\pi r ^ { 5 }\">\\frac { 4 } { 5 } \\pi r ^ { 5 }</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch132/q0018_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\frac { 4 } { 15 } \\pi ^ { 3 }\">\\frac { 4 } { 15 } \\pi ^ { 3 }</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch132/q0018_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\frac { 1 } { 15 } \\pi r ^ { 3 }\">\\frac { 1 } { 15 } \\pi r ^ { 3 }</span>"
         }
       ],
       "answer": "A",
       "answer_index": 0,
-      "analysis_html": "<img src=\"/static/generated/assets/advanced-math/ch132/q0018_analysis.png\"/>"
+      "analysis_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{array}{l} \\int_{-r}^{r} dx \\int_{-\\sqrt{r^{2}-x^{2}}}^{\\sqrt{r^{2}-x^{2}}} dy \\int_{0}^{\\sqrt{r^{2}-x^{2}-y^{2}}} (x^{2}+y^{2}) dz \\\\ \\qquad = \\iint\\limits_{x^{2}+y^{2} \\leq r^{2}} dx dy \\int_{0}^{\\sqrt{r^{2}-x^{2}-y^{2}}} (x^{2}+y^{2}) dz \\\\ \\qquad = \\iint\\limits_{x^{2}+y^{2} \\leq r^{2}} \\sqrt{r^{2}-x^{2}-y^{2}} (x^{2}+y^{2}) dx dy \\\\ \\qquad = \\int\\limits_{0}^{2 \\pi} d \\theta \\int_{0}^{r} \\rho^{2} \\sqrt{r^{2}-\\rho^{2}} \\, \\rho d \\rho \\\\ \\qquad = 2 \\pi r^{5} \\int_{0}^{\\frac{\\pi}{2}} (\\sin^{3} \\theta - \\sin^{5} \\theta) d \\theta \\\\ \\qquad = \\frac{4}{15} \\pi^{5} 。 \\end{array}\">\\begin{array}{l} \\int_{-r}^{r} dx \\int_{-\\sqrt{r^{2}-x^{2}}}^{\\sqrt{r^{2}-x^{2}}} dy \\int_{0}^{\\sqrt{r^{2}-x^{2}-y^{2}}} (x^{2}+y^{2}) dz \\\\ \\qquad = \\iint\\limits_{x^{2}+y^{2} \\leq r^{2}} dx dy \\int_{0}^{\\sqrt{r^{2}-x^{2}-y^{2}}} (x^{2}+y^{2}) dz \\\\ \\qquad = \\iint\\limits_{x^{2}+y^{2} \\leq r^{2}} \\sqrt{r^{2}-x^{2}-y^{2}} (x^{2}+y^{2}) dx dy \\\\ \\qquad = \\int\\limits_{0}^{2 \\pi} d \\theta \\int_{0}^{r} \\rho^{2} \\sqrt{r^{2}-\\rho^{2}} \\, \\rho d \\rho \\\\ \\qquad = 2 \\pi r^{5} \\int_{0}^{\\frac{\\pi}{2}} (\\sin^{3} \\theta - \\sin^{5} \\theta) d \\theta \\\\ \\qquad = \\frac{4}{15} \\pi^{5} 。 \\end{array}</div>"
     },
     {
       "id": "q0019",
       "number": 19,
       "header": "#19-Averge",
       "difficulty": "Averge",
-      "prompt_html": "<img src=\"/static/generated/assets/advanced-math/ch132/q0019_prompt.png\"/>",
+      "prompt_html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\Omega \\text{由球面} \\, z = \\sqrt { 4 - x ^ { 2 } - y ^ { 2 } } \\, \\, \\text{与抛物面} \\, z = \\frac { 1 } { 3 } ( x ^ { 2 } + y ^ { 2 } ) \\, \\, \\text{所围成，则} \\iiint _ { \\Omega } z d v \\, \\text{的值为(　)}\">\\Omega \\text{由球面} \\, z = \\sqrt { 4 - x ^ { 2 } - y ^ { 2 } } \\, \\, \\text{与抛物面} \\, z = \\frac { 1 } { 3 } ( x ^ { 2 } + y ^ { 2 } ) \\, \\, \\text{所围成，则} \\iiint _ { \\Omega } z d v \\, \\text{的值为(　)}</span>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch132/q0019_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\frac {13}{6} \\pi\">\\frac {13}{6} \\pi</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch132/q0019_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\frac {13}{4} \\pi\">\\frac {13}{4} \\pi</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch132/q0019_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\frac { 9 } { 4 } \\pi\">\\frac { 9 } { 4 } \\pi</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch132/q0019_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\frac { 13 } { 2 } \\pi\">\\frac { 13 } { 2 } \\pi</span>"
         }
       ],
       "answer": "B",
       "answer_index": 1,
-      "analysis_html": "<img src=\"/static/generated/assets/advanced-math/ch132/q0019_analysis.png\"/>"
+      "analysis_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{aligned} \\text{原式} &amp; = \\int_{0}^{2\\pi} d\\theta \\int_{0}^{\\beta} dr \\int_{\\frac{1}{3}r^{2}}^{\\sqrt{4-r^{2}}} zr dz \\\\ &amp; = 2\\pi \\int_{0}^{\\beta} \\frac{r}{2} (4-r^{2}-\\frac{r^{4}}{9}) dr \\\\ &amp; = \\frac{13}{4}\\pi \\end{aligned}\">\\begin{aligned} \\text{原式} &amp; = \\int_{0}^{2\\pi} d\\theta \\int_{0}^{\\beta} dr \\int_{\\frac{1}{3}r^{2}}^{\\sqrt{4-r^{2}}} zr dz \\\\ &amp; = 2\\pi \\int_{0}^{\\beta} \\frac{r}{2} (4-r^{2}-\\frac{r^{4}}{9}) dr \\\\ &amp; = \\frac{13}{4}\\pi \\end{aligned}</div>"
     },
     {
       "id": "q0020",
       "number": 20,
       "header": "#20-Averge",
       "difficulty": "Averge",
-      "prompt_html": "<img src=\"/static/generated/assets/advanced-math/ch132/q0020_prompt.png\"/>",
+      "prompt_html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\int_{-1}^{1} dx \\int_{-\\sqrt{1-x^{2}}}^{\\sqrt{1-x^{2}}} dy \\int_{0}^{\\sqrt{1-x^{2}-y^{2}}} \\sqrt{x^{2}+y^{2}} dz \\text{ 的值为( }\\ \\ ).\">\\int_{-1}^{1} dx \\int_{-\\sqrt{1-x^{2}}}^{\\sqrt{1-x^{2}}} dy \\int_{0}^{\\sqrt{1-x^{2}-y^{2}}} \\sqrt{x^{2}+y^{2}} dz \\text{ 的值为( }\\ \\ ).</span>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch132/q0020_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\frac {2}{15} \\pi\">\\frac {2}{15} \\pi</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch132/q0020_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"- { \\frac { 2 } { 15 } } \\pi\">- { \\frac { 2 } { 15 } } \\pi</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch132/q0020_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"- { \\frac { 4 } { 15 } } \\pi\">- { \\frac { 4 } { 15 } } \\pi</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch132/q0020_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\frac { 4 } { 15 } \\pi\">\\frac { 4 } { 15 } \\pi</span>"
         }
       ],
       "answer": "B",
       "answer_index": 1,
-      "analysis_html": "<img src=\"/static/generated/assets/advanced-math/ch132/q0020_analysis.png\"/>"
+      "analysis_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{aligned}-1&amp;\\leq x\\leq 1\\ ,\\ -\\sqrt{1-x^{2}}\\leq y\\leq \\sqrt{1-x^{2}}\\ ,\\ \\text{表示的区域为圆}D\\ :\\ x^{2}+y^{2}\\leq 1,\\ \\text{因此利用柱面坐标变换可得，}\\ \\ \\\\ \\text{原式}&amp;=\\int_{0}^{2\\pi}d\\theta\\int_{0}^{1}rdr\\int_{0}^{\\sqrt{1-r^{2}}}r^{2}dz\\\\&amp;=2\\pi\\int_{0}^{1}r^{3}\\sqrt{1-r^{2}}dr\\\\&amp;=2\\pi\\int_{0}^{\\frac{\\pi}{2}}\\sin^{3}t\\cos^{2}tdt\\\\&amp;=\\frac{4}{15}\\pi\\end{aligned}\">\\begin{aligned}-1&amp;\\leq x\\leq 1\\ ,\\ -\\sqrt{1-x^{2}}\\leq y\\leq \\sqrt{1-x^{2}}\\ ,\\ \\text{表示的区域为圆}D\\ :\\ x^{2}+y^{2}\\leq 1,\\ \\text{因此利用柱面坐标变换可得，}\\ \\ \\\\ \\text{原式}&amp;=\\int_{0}^{2\\pi}d\\theta\\int_{0}^{1}rdr\\int_{0}^{\\sqrt{1-r^{2}}}r^{2}dz\\\\&amp;=2\\pi\\int_{0}^{1}r^{3}\\sqrt{1-r^{2}}dr\\\\&amp;=2\\pi\\int_{0}^{\\frac{\\pi}{2}}\\sin^{3}t\\cos^{2}tdt\\\\&amp;=\\frac{4}{15}\\pi\\end{aligned}</div>"
     },
     {
       "id": "q0021",
       "number": 21,
       "header": "#21-Averge",
       "difficulty": "Averge",
-      "prompt_html": "<img src=\"/static/generated/assets/advanced-math/ch132/q0021_prompt.png\"/>",
+      "prompt_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\Omega \\text{ 是由} \\begin{cases} y = z ^ { 2 } \\\\ x = 0 \\end{cases} \\text{绕} y \\text{轴旋转生成的曲面与平面} y = 1 \\text{围成的立体,则三重积分} \\iiint \\limits _ { \\Omega } y d v \\text{的值为( ).}\">\\Omega \\text{ 是由} \\begin{cases} y = z ^ { 2 } \\\\ x = 0 \\end{cases} \\text{绕} y \\text{轴旋转生成的曲面与平面} y = 1 \\text{围成的立体,则三重积分} \\iiint \\limits _ { \\Omega } y d v \\text{的值为( ).}</div>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch132/q0021_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\frac { \\pi } { 3 }\">\\frac { \\pi } { 3 }</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch132/q0021_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\frac { \\pi } { 2 }\">\\frac { \\pi } { 2 }</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch132/q0021_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\frac { \\pi } { 6 }\">\\frac { \\pi } { 6 }</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch132/q0021_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\frac { \\pi } { 12 }\">\\frac { \\pi } { 12 }</span>"
         }
       ],
       "answer": "A",
       "answer_index": 0,
-      "analysis_html": "<img src=\"/static/generated/assets/advanced-math/ch132/q0021_analysis.png\"/>"
+      "analysis_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{aligned} \\text{旋转曲面方程为} \\; &amp; y = x^2 + z^2 \\; , \\; \\Omega \\; \\text{在} \\; x0z \\; \\text{面上的投影为} \\; x^2 + z^2 \\leq 1 \\; , \\; \\; \\text{且} \\; \\; x^2 + z^2 \\leq y \\leq 1 \\; , \\; \\text{所以由柱面坐标变换得：} \\\\ &amp; \\text{原式} = \\iint_{D} dx dy \\int_{x^2 + z^2}^{1} y \\, dy \\\\ &amp; = \\int_{0}^{2\\pi} d\\theta \\int_{0}^{1} r dr \\int_{r^2}^{1} dy \\\\ &amp; = \\frac{\\pi}{3} \\end{aligned}\">\\begin{aligned} \\text{旋转曲面方程为} \\; &amp; y = x^2 + z^2 \\; , \\; \\Omega \\; \\text{在} \\; x0z \\; \\text{面上的投影为} \\; x^2 + z^2 \\leq 1 \\; , \\; \\; \\text{且} \\; \\; x^2 + z^2 \\leq y \\leq 1 \\; , \\; \\text{所以由柱面坐标变换得：} \\\\ &amp; \\text{原式} = \\iint_{D} dx dy \\int_{x^2 + z^2}^{1} y \\, dy \\\\ &amp; = \\int_{0}^{2\\pi} d\\theta \\int_{0}^{1} r dr \\int_{r^2}^{1} dy \\\\ &amp; = \\frac{\\pi}{3} \\end{aligned}</div>"
     },
     {
       "id": "q0022",
       "number": 22,
       "header": "#22-Averge",
       "difficulty": "Averge",
-      "prompt_html": "<img src=\"/static/generated/assets/advanced-math/ch132/q0022_prompt.png\"/>",
+      "prompt_html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\int_{-1}^{1} dx \\int_{-\\sqrt{1-x^{2}}}^{\\sqrt{1-x^{2}}} dy \\int_{-1}^{-\\sqrt{x^{2}+y^{2}}} z \\sqrt{x^{2}+y^{2}} dz \\text{ 的值为( ).}\">\\int_{-1}^{1} dx \\int_{-\\sqrt{1-x^{2}}}^{\\sqrt{1-x^{2}}} dy \\int_{-1}^{-\\sqrt{x^{2}+y^{2}}} z \\sqrt{x^{2}+y^{2}} dz \\text{ 的值为( ).}</span>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch132/q0022_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"- { \\frac { 2 } { 15 } } \\pi\">- { \\frac { 2 } { 15 } } \\pi</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch132/q0022_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\frac {2}{15} \\pi\">\\frac {2}{15} \\pi</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch132/q0022_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\frac { 4 } { 15 } \\pi\">\\frac { 4 } { 15 } \\pi</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch132/q0022_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"- \\frac { 4 } { 15 } \\pi\">- \\frac { 4 } { 15 } \\pi</span>"
         }
       ],
       "answer": "A",
       "answer_index": 0,
-      "analysis_html": "<img src=\"/static/generated/assets/advanced-math/ch132/q0022_analysis.png\"/>"
+      "analysis_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{aligned}-1&amp;\\leq x\\leq 1\\ ,\\ -\\sqrt{1-x^{2}}\\leq y\\leq \\sqrt{1-x^{2}}\\ ,\\ \\text{表示的区域为圆}D:\\ x^{2}+y^{2}\\leq 1,\\ \\text{因此利用柱面坐标变换可得，}\\\\&amp;\\text{原式}=\\int_{0}^{2\\pi}\\!d\\theta\\int_{0}^{1}rdr\\int_{-1}^{r}rzdz\\\\&amp;=2\\pi\\int_{0}^{1}r^{2}\\frac{r^{2}-1}{2}dr\\\\&amp;=-\\frac{2}{15}\\pi\\end{aligned}\">\\begin{aligned}-1&amp;\\leq x\\leq 1\\ ,\\ -\\sqrt{1-x^{2}}\\leq y\\leq \\sqrt{1-x^{2}}\\ ,\\ \\text{表示的区域为圆}D:\\ x^{2}+y^{2}\\leq 1,\\ \\text{因此利用柱面坐标变换可得，}\\\\&amp;\\text{原式}=\\int_{0}^{2\\pi}\\!d\\theta\\int_{0}^{1}rdr\\int_{-1}^{r}rzdz\\\\&amp;=2\\pi\\int_{0}^{1}r^{2}\\frac{r^{2}-1}{2}dr\\\\&amp;=-\\frac{2}{15}\\pi\\end{aligned}</div>"
     },
     {
       "id": "q0023",
       "number": 23,
       "header": "#23-Averge",
       "difficulty": "Averge",
-      "prompt_html": "<img src=\"/static/generated/assets/advanced-math/ch132/q0023_prompt.png\"/>",
+      "prompt_html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\Omega \\text{为抛物面}x^{2}+y^{2}=\\alpha z(a&gt;0)，\\text{柱面}x^{2}+y^{2}=2\\alpha x\\text{与平面}z=0\\text{所围成，则三重积分}\\iiint_{\\Omega}dxdydz\\text{的值为( ).}\">\\Omega \\text{为抛物面}x^{2}+y^{2}=\\alpha z(a&gt;0)，\\text{柱面}x^{2}+y^{2}=2\\alpha x\\text{与平面}z=0\\text{所围成，则三重积分}\\iiint_{\\Omega}dxdydz\\text{的值为( ).}</span>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch132/q0023_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\frac{3}{2}\\pi a^{3}\">\\frac{3}{2}\\pi a^{3}</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch132/q0023_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\frac{3}{4}\\pi a^{3}\">\\frac{3}{4}\\pi a^{3}</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch132/q0023_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\frac { 1 } { 4 } \\pi a ^ { 3 }\">\\frac { 1 } { 4 } \\pi a ^ { 3 }</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch132/q0023_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\frac { 1 } { 2 } \\pi a ^ { 3 }\">\\frac { 1 } { 2 } \\pi a ^ { 3 }</span>"
         }
       ],
       "answer": "A",
       "answer_index": 0,
-      "analysis_html": "<img src=\"/static/generated/assets/advanced-math/ch132/q0023_analysis.png\"/>"
+      "analysis_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{aligned} \\text{利用柱面坐标变换，于是，} \\\\ \\int\\limits_{-\\frac{\\pi}{2}}^{\\frac{\\pi}{2}} d\\theta \\int_{0}^{2a\\cos\\theta} r dr \\int_{0}^{\\frac{r^{2}}{a}} dz \\\\ = 8a^{3} \\int_{0}^{\\frac{\\pi}{2}} \\cos^{4}\\theta d\\theta \\\\ = \\frac{3}{2}\\pi a^{3} \\end{aligned}\">\\begin{aligned} \\text{利用柱面坐标变换，于是，} \\\\ \\int\\limits_{-\\frac{\\pi}{2}}^{\\frac{\\pi}{2}} d\\theta \\int_{0}^{2a\\cos\\theta} r dr \\int_{0}^{\\frac{r^{2}}{a}} dz \\\\ = 8a^{3} \\int_{0}^{\\frac{\\pi}{2}} \\cos^{4}\\theta d\\theta \\\\ = \\frac{3}{2}\\pi a^{3} \\end{aligned}</div>"
     },
     {
       "id": "q0024",
       "number": 24,
       "header": "#24-Averge",
       "difficulty": "Averge",
-      "prompt_html": "<img src=\"/static/generated/assets/advanced-math/ch132/q0024_prompt.png\"/>",
+      "prompt_html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\Omega \\text{ 由 } z = x ^ { 2 } + y ^ { 2 } \\text{，} \\ z = 0 \\text{，} \\ z = 2 \\text{ 围成，则} \\iiint \\limits _ { \\Omega } ( x ^ { 2 } + y ^ { 2 } ) d v \\text{ 的值为( ).}\">\\Omega \\text{ 由 } z = x ^ { 2 } + y ^ { 2 } \\text{，} \\ z = 0 \\text{，} \\ z = 2 \\text{ 围成，则} \\iiint \\limits _ { \\Omega } ( x ^ { 2 } + y ^ { 2 } ) d v \\text{ 的值为( ).}</span>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch132/q0024_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\frac{2}{15} \\pi\">\\frac{2}{15} \\pi</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch132/q0024_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\frac { 2 } { 3 } \\pi\">\\frac { 2 } { 3 } \\pi</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch132/q0024_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\frac { 4 } { 3 } \\pi\">\\frac { 4 } { 3 } \\pi</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch132/q0024_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\frac {14}{15} \\pi\">\\frac {14}{15} \\pi</span>"
         }
       ],
       "answer": "D",
       "answer_index": 3,
-      "analysis_html": "<img src=\"/static/generated/assets/advanced-math/ch132/q0024_analysis.png\"/>"
+      "analysis_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{aligned}\\Omega \\,\\,\\, &amp; \\text{可以表示为} \\,\\, 0 \\leq x^2+y^2 \\leq 1 \\,\\,\\,, \\,\\, x^2+y^2 \\leq z \\leq 2 \\,\\,\\, , \\,\\, \\text{利用柱面坐标变换可得，} \\\\&amp; \\text{原式} = \\int_0^{2\\pi} d\\theta \\int_0^1 dr \\int_r^2 r^2 dz \\\\&amp; = \\frac{14}{15} \\pi\\end{aligned}\">\\begin{aligned}\\Omega \\,\\,\\, &amp; \\text{可以表示为} \\,\\, 0 \\leq x^2+y^2 \\leq 1 \\,\\,\\,, \\,\\, x^2+y^2 \\leq z \\leq 2 \\,\\,\\, , \\,\\, \\text{利用柱面坐标变换可得，} \\\\&amp; \\text{原式} = \\int_0^{2\\pi} d\\theta \\int_0^1 dr \\int_r^2 r^2 dz \\\\&amp; = \\frac{14}{15} \\pi\\end{aligned}</div>"
     },
     {
       "id": "q0025",
       "number": 25,
       "header": "#25-Averge",
       "difficulty": "Averge",
-      "prompt_html": "<img src=\"/static/generated/assets/advanced-math/ch132/q0025_prompt.png\"/>",
+      "prompt_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\Omega \\text{是由} x^{2}+y^{2}=16,\\ y+z=4,\\ \\text{及}z=4\\text{围成的区域，} \\\\ \\text{则} \\iiint_{\\Omega} \\sqrt{x^{2}+y^{2}}\\,dV\\text{的值为（）。}\">\\Omega \\text{是由} x^{2}+y^{2}=16,\\ y+z=4,\\ \\text{及}z=4\\text{围成的区域，} \\\\ \\text{则} \\iiint_{\\Omega} \\sqrt{x^{2}+y^{2}}\\,dV\\text{的值为（）。}</div>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch132/q0025_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\frac {128}{3} \\pi\">\\frac {128}{3} \\pi</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch132/q0025_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\frac { 1024 } { 3 } \\pi\">\\frac { 1024 } { 3 } \\pi</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch132/q0025_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\frac {512}{3} \\pi\">\\frac {512}{3} \\pi</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch132/q0025_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\frac { 512 } { 3 } \\pi\">\\frac { 512 } { 3 } \\pi</span>"
         }
       ],
       "answer": "D",
       "answer_index": 3,
-      "analysis_html": "<img src=\"/static/generated/assets/advanced-math/ch132/q0025_analysis.png\"/>"
+      "analysis_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{aligned} \\text{利用柱面坐标变换，} \\quad&amp; \\int_0^{2\\pi} d\\theta \\int_0^4 r^2 dr \\int_0^{4-\\sin \\theta} dz \\quad=\\int_0^{2\\pi} d\\theta \\int_0^4 (4r^2-r^3) dr \\\\&amp;=\\int_0^{2\\pi} (\\frac{256}{3}-64 \\sin \\theta) d\\theta=\\frac{512}{3} \\pi \\enspace 。 \\end{aligned}\">\\begin{aligned} \\text{利用柱面坐标变换，} \\quad&amp; \\int_0^{2\\pi} d\\theta \\int_0^4 r^2 dr \\int_0^{4-\\sin \\theta} dz \\quad=\\int_0^{2\\pi} d\\theta \\int_0^4 (4r^2-r^3) dr \\\\&amp;=\\int_0^{2\\pi} (\\frac{256}{3}-64 \\sin \\theta) d\\theta=\\frac{512}{3} \\pi \\enspace 。 \\end{aligned}</div>"
     }
-  ]
+  ],
+  "format": "latex",
+  "source_md": "gs/8.2.3_利用柱面坐标计算三重积分(26题)/8.2.3_利用柱面坐标计算三重积分(26题).md"
 }

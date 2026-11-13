@@ -13,224 +13,226 @@
       "number": 1,
       "header": "#1-Averge",
       "difficulty": "Averge",
-      "prompt_html": "<img src=\"/static/generated/assets/advanced-math/ch112/q0001_prompt.png\"/>",
+      "prompt_html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{已知} \\frac{ (x + ay) dx + y dy }{ (x + y)^{2}} \\text{为某函数的全微分，则} a = ( \\quad )。\">\\text{已知} \\frac{ (x + ay) dx + y dy }{ (x + y)^{2}} \\text{为某函数的全微分，则} a = ( \\quad )。</span>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch112/q0001_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"- 1 \\, ;\">- 1 \\, ;</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch112/q0001_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"2.\">2.</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch112/q0001_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\mathbf { 1 } ;\">\\mathbf { 1 } ;</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch112/q0001_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\mathbf { 0 } ;\">\\mathbf { 0 } ;</span>"
         }
       ],
       "answer": "B",
       "answer_index": 1,
-      "analysis_html": "<img src=\"/static/generated/assets/advanced-math/ch112/q0001_analysis.png\"/>"
+      "analysis_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{aligned}M = \\frac{x+ay}{\\left(x+y\\right)^2}, N = \\frac{y}{\\left(x+y\\right)^2}, \\frac{\\partial M}{\\partial y} = \\frac{\\partial N}{\\partial x} \\Rightarrow (a-2)x + (2-a)y = 0 \\Rightarrow a = 2 \\enspace ,\\end{aligned}\">\\begin{aligned}M = \\frac{x+ay}{\\left(x+y\\right)^2}, N = \\frac{y}{\\left(x+y\\right)^2}, \\frac{\\partial M}{\\partial y} = \\frac{\\partial N}{\\partial x} \\Rightarrow (a-2)x + (2-a)y = 0 \\Rightarrow a = 2 \\enspace ,\\end{aligned}</div>"
     },
     {
       "id": "q0002",
       "number": 2,
       "header": "#2-Averge",
       "difficulty": "Averge",
-      "prompt_html": "<img src=\"/static/generated/assets/advanced-math/ch112/q0002_prompt.png\"/>",
+      "prompt_html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{函数}z=\\frac{y}{x} \\text{在}x=2,y=1, \\Delta x=0.1, \\Delta y=-0.2 \\text{时的全增量} \\Delta z \\text{和全微分} dz \\text{，分别为（　）.}\">\\text{函数}z=\\frac{y}{x} \\text{在}x=2,y=1, \\Delta x=0.1, \\Delta y=-0.2 \\text{时的全增量} \\Delta z \\text{和全微分} dz \\text{，分别为（　）.}</span>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch112/q0002_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"0.119 , 0.125 ;\">0.119 , 0.125 ;</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch112/q0002_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"- 0.119 , \\ - 0.125 \\, ;\">- 0.119 , \\ - 0.125 \\, ;</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch112/q0002_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\textcolor{black}{0.119}, \\textcolor{black}{-0.125};\">\\textcolor{black}{0.119}, \\textcolor{black}{-0.125};</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch112/q0002_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"- 0 . \\, 119 , 0 . \\, 125 . \\downarrow\">- 0 . \\, 119 , 0 . \\, 125 . \\downarrow</span>"
         }
       ],
       "answer": "B",
       "answer_index": 1,
-      "analysis_html": "<img src=\"/static/generated/assets/advanced-math/ch112/q0002_analysis.png\"/>"
+      "analysis_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{array}{l} \\Delta z = \\dfrac{y+\\Delta y}{x+\\Delta x}-\\dfrac{y}{x}, dz = -\\dfrac{y}{x^{2}}\\, dx + \\dfrac{1}{x}dy, \\stackrel{y}{=} x=2, y=1, \\Delta x=0.1, \\Delta y=-0.2 \\text{时}, \\\\ \\\\ \\Delta z\\big|_{\\begin{subarray}{c}x=2\\\\ y=1\\end{subarray}} = \\dfrac{1-0.2}{2+0.1}-\\dfrac{1}{2} = \\dfrac{0.8}{2.1}-0.5 = -0.119, dz\\big|_{\\begin{subarray}{c}x=2\\\\ y=1\\end{subarray}} = -\\dfrac{1}{4}\\cdot 0.1 + \\dfrac{1}{2}\\cdot (-0.2) = -0.125 \\end{array}\">\\begin{array}{l} \\Delta z = \\dfrac{y+\\Delta y}{x+\\Delta x}-\\dfrac{y}{x}, dz = -\\dfrac{y}{x^{2}}\\, dx + \\dfrac{1}{x}dy, \\stackrel{y}{=} x=2, y=1, \\Delta x=0.1, \\Delta y=-0.2 \\text{时}, \\\\ \\\\ \\Delta z\\big|_{\\begin{subarray}{c}x=2\\\\ y=1\\end{subarray}} = \\dfrac{1-0.2}{2+0.1}-\\dfrac{1}{2} = \\dfrac{0.8}{2.1}-0.5 = -0.119, dz\\big|_{\\begin{subarray}{c}x=2\\\\ y=1\\end{subarray}} = -\\dfrac{1}{4}\\cdot 0.1 + \\dfrac{1}{2}\\cdot (-0.2) = -0.125 \\end{array}</div>"
     },
     {
       "id": "q0003",
       "number": 3,
       "header": "#3-Averge",
       "difficulty": "Averge",
-      "prompt_html": "<img src=\"/static/generated/assets/advanced-math/ch112/q0003_prompt.png\"/>",
+      "prompt_html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{设} z = x y e ^ { x + y } , \\text{则} d z = ( \\quad ) . \\Leftrightarrow\">\\text{设} z = x y e ^ { x + y } , \\text{则} d z = ( \\quad ) . \\Leftrightarrow</span>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch112/q0003_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\begin{aligned}e^{x+y}\\left[ y^2(1+y)dx+x^2(1+y)dy\\right];\\end{aligned}\">\\begin{aligned}e^{x+y}\\left[ y^2(1+y)dx+x^2(1+y)dy\\right];\\end{aligned}</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch112/q0003_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\begin{aligned}e^{x+y}\\left[ y(1+x)^2 dx + x(1+y)^2 dy \\right].\\end{aligned}\">\\begin{aligned}e^{x+y}\\left[ y(1+x)^2 dx + x(1+y)^2 dy \\right].\\end{aligned}</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch112/q0003_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\begin{aligned} e^{x+y}\\left[y(1+x)dx+x(1+y)dy\\right]; \\end{aligned}\">\\begin{aligned} e^{x+y}\\left[y(1+x)dx+x(1+y)dy\\right]; \\end{aligned}</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch112/q0003_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\begin{aligned}e^{x+y}\\left[x(1+y)dx+y(1+x)dy\\right];\\end{aligned}\">\\begin{aligned}e^{x+y}\\left[x(1+y)dx+y(1+x)dy\\right];\\end{aligned}</span>"
         }
       ],
       "answer": "C",
       "answer_index": 2,
-      "analysis_html": "<img src=\"/static/generated/assets/advanced-math/ch112/q0003_analysis.png\"/>"
+      "analysis_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{aligned}z_{_{x}} = ye^{x+y} + xye^{x+y}, z_{_{y}} = xe^{x+y} + xye^{x+y}, \\text{则} dz = e^{x+y}\\left[ y(1+x)dx + x(1+y)dy \\right]_{\\circ}\\end{aligned}\">\\begin{aligned}z_{_{x}} = ye^{x+y} + xye^{x+y}, z_{_{y}} = xe^{x+y} + xye^{x+y}, \\text{则} dz = e^{x+y}\\left[ y(1+x)dx + x(1+y)dy \\right]_{\\circ}\\end{aligned}</div>"
     },
     {
       "id": "q0004",
       "number": 4,
       "header": "#4-Averge",
       "difficulty": "Averge",
-      "prompt_html": "<img src=\"/static/generated/assets/advanced-math/ch112/q0004_prompt.png\"/>",
+      "prompt_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\text{函数}f(x,y)=\\begin{cases}\\dfrac{x^{2}y^{2}}{x^{4}+y^{4}},&amp;(x,y)\\neq(0,0)\\\\ 0&amp;(x,y)=(0,0)\\end{cases}\\text{在点}(0,0)\\text{处( }\\quad).^{a}\">\\text{函数}f(x,y)=\\begin{cases}\\dfrac{x^{2}y^{2}}{x^{4}+y^{4}},&amp;(x,y)\\neq(0,0)\\\\ 0&amp;(x,y)=(0,0)\\end{cases}\\text{在点}(0,0)\\text{处( }\\quad).^{a}</div>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch112/q0004_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{可导但不可微};\">\\text{可导但不可微};</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch112/q0004_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{可微.}\">\\text{可微.}</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch112/q0004_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{连续但不可微};\">\\text{连续但不可微};</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch112/q0004_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{既不连续又不可导};\">\\text{既不连续又不可导};</span>"
         }
       ],
       "answer": "A",
       "answer_index": 0,
-      "analysis_html": "<img src=\"/static/generated/assets/advanced-math/ch112/q0004_analysis.png\"/>"
+      "analysis_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{aligned}&amp;\\text{由于}f_{x}(0,0)=\\lim_{x\\rightarrow 0}\\frac{f(x,0)-f(0,0)}{x}=0,\\quad f_{y}(0,0)=\\lim_{y\\rightarrow 0}\\frac{f(0,y)-f(0,0)}{y}=0,\\\\&amp;\\text{因此函数可导；但记}x=\\rho\\cos\\theta,y=\\rho\\sin\\theta,(x,y)\\rightarrow(0,0)\\text{等价于}\\rho\\rightarrow 0,\\\\&amp;\\text{而}\\lim_{(x,y)\\rightarrow(0,0)}f(x,y)=\\lim_{\\rho\\rightarrow 0}\\frac{\\rho^{4}\\cos^{2}\\theta\\sin^{2}\\theta}{\\rho^{4}\\cos^{4}\\theta+\\rho^{4}\\sin^{4}\\theta}=\\lim_{\\rho\\rightarrow 0}\\frac{\\cos^{2}\\theta\\sin^{2}\\theta}{\\cos^{4}\\theta+\\sin^{4}\\theta}\\text{不存在，因此不连续，从而不可微.}\\end{aligned}\">\\begin{aligned}&amp;\\text{由于}f_{x}(0,0)=\\lim_{x\\rightarrow 0}\\frac{f(x,0)-f(0,0)}{x}=0,\\quad f_{y}(0,0)=\\lim_{y\\rightarrow 0}\\frac{f(0,y)-f(0,0)}{y}=0,\\\\&amp;\\text{因此函数可导；但记}x=\\rho\\cos\\theta,y=\\rho\\sin\\theta,(x,y)\\rightarrow(0,0)\\text{等价于}\\rho\\rightarrow 0,\\\\&amp;\\text{而}\\lim_{(x,y)\\rightarrow(0,0)}f(x,y)=\\lim_{\\rho\\rightarrow 0}\\frac{\\rho^{4}\\cos^{2}\\theta\\sin^{2}\\theta}{\\rho^{4}\\cos^{4}\\theta+\\rho^{4}\\sin^{4}\\theta}=\\lim_{\\rho\\rightarrow 0}\\frac{\\cos^{2}\\theta\\sin^{2}\\theta}{\\cos^{4}\\theta+\\sin^{4}\\theta}\\text{不存在，因此不连续，从而不可微.}\\end{aligned}</div>"
     },
     {
       "id": "q0005",
       "number": 5,
       "header": "#5-Averge",
       "difficulty": "Averge",
-      "prompt_html": "<img src=\"/static/generated/assets/advanced-math/ch112/q0005_prompt.png\"/>",
+      "prompt_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{aligned}&amp;\\text{下列关于函数全微分的计算，正确的有（　）.}\\\\&amp;(\\text{1}).\\text{函数}z=4xy^{3}+5x^{2}y^{6}\\text{的全微分}dz=(4y^{3}+10xy^{6})dx+(12xy^{2}+30x^{2}y^{5})dy;\\\\&amp;(\\text{2}).\\text{函数}z=e^{xy}\\text{在点}（2,1）\\text{处的全微分为}dz=e^{2}dx+2e^{2}dy;\\\\&amp;(\\text{3}).\\text{函数}u=x^{y^{2}}\\text{的全微分为}du=x^{y^{2}}\\left(\\frac{y^{z}}{x}dx+\\frac{zy^{z}\\ln x}{y}dy+y^{z}\\cdot\\ln x\\ln ydz\\right);\\\\&amp;(\\text{4}).\\text{函数}f(x,y)=\\begin{cases}(x^{2}+y^{2})\\sin\\frac{1}{\\sqrt{x^{2}+y^{2}}},x^{2}+y^{2}\\neq 0,\\\\0,&amp;x^{2}+y^{2}=0.\\end{cases}\\text{在点}（0.0）\\text{处可微分}.\\end{aligned}\">\\begin{aligned}&amp;\\text{下列关于函数全微分的计算，正确的有（　）.}\\\\&amp;(\\text{1}).\\text{函数}z=4xy^{3}+5x^{2}y^{6}\\text{的全微分}dz=(4y^{3}+10xy^{6})dx+(12xy^{2}+30x^{2}y^{5})dy;\\\\&amp;(\\text{2}).\\text{函数}z=e^{xy}\\text{在点}（2,1）\\text{处的全微分为}dz=e^{2}dx+2e^{2}dy;\\\\&amp;(\\text{3}).\\text{函数}u=x^{y^{2}}\\text{的全微分为}du=x^{y^{2}}\\left(\\frac{y^{z}}{x}dx+\\frac{zy^{z}\\ln x}{y}dy+y^{z}\\cdot\\ln x\\ln ydz\\right);\\\\&amp;(\\text{4}).\\text{函数}f(x,y)=\\begin{cases}(x^{2}+y^{2})\\sin\\frac{1}{\\sqrt{x^{2}+y^{2}}},x^{2}+y^{2}\\neq 0,\\\\0,&amp;x^{2}+y^{2}=0.\\end{cases}\\text{在点}（0.0）\\text{处可微分}.\\end{aligned}</div>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch112/q0005_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"4 \\text{个}.\">4 \\text{个}.</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch112/q0005_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"2 \\text{ 个};\">2 \\text{ 个};</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch112/q0005_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"1 \\text{个};\">1 \\text{个};</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch112/q0005_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"3 \\text{ 个};\">3 \\text{ 个};</span>"
         }
       ],
       "answer": "A",
       "answer_index": 0,
-      "analysis_html": "<img src=\"/static/generated/assets/advanced-math/ch112/q0005_analysis.png\"/>"
+      "analysis_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{aligned}(1).&amp;\\frac{\\partial z}{\\partial x}=4y^3+10xy^6;\\frac{\\partial z}{\\partial y}=12xy^2+30x^2y^2,\\text{且这两个偏导数连续}, \\\\\\text{所以}&amp;dz=(4y^3+10xy^6)dx+(12xy^2+30x^2y^5)dy.2).&amp;\\frac{\\partial z}{\\partial x}=ye^{iy},\\frac{\\partial z}{\\partial y}=xe^{iy},\\frac{\\partial z}{\\partial x}\\bigg|_{(2,1)}=e^2,\\frac{\\partial z}{\\partial y}\\bigg|_{(2,1)}=2e^2,\\text{所求全微分}dz=e^2dx+2e^2dy.3).&amp;\\frac{\\partial u}{\\partial x}=y^z\\cdot x^{z-1}=\\frac{y^z}{x}x^{z-1},\\frac{\\partial u}{\\partial y}=x^{z-1}\\cdot z\\cdot y^{z-1}\\cdot\\ln x=\\frac{z\\cdot y^z\\cdot \\ln x}{y},\\\\&amp;\\frac{\\partial u}{\\partial z}=x^{z-1}\\cdot \\ln x\\cdot y^z\\cdot \\ln y=x^{z-1}\\cdot y^z\\cdot \\ln x\\ln y\\\\\\text{所以}&amp;dtu=\\frac{\\partial u}{\\partial x}dx+\\frac{\\partial u}{\\partial y}dy+\\frac{\\partial u}{\\partial z}dz=x^{z-1}\\left(\\frac{y^z}{x}dx+\\frac{z y^z}{y}\\ln x dy+y^z\\cdot \\ln x\\ln y dz\\right),4).&amp;\\text{因为}f_z(0,0)=\\lim_{\\Delta x\\rightarrow 0}\\frac{f(\\Delta x,0)-f(0,0)}{\\Delta x}=\\lim_{\\Delta x\\rightarrow 0}\\frac{(\\Delta x)^2\\sin\\frac{1}{\\sqrt{\\Delta x}}}{\\Delta x}=0,\\ f_y(0,0)=0,\\\\\\text{所以}&amp;\\\\&amp;\\lim_{\\rho\\rightarrow 0}\\frac{\\Delta z-(f_z(0,0)\\Delta x+f_y(0,0)\\Delta y)}{\\rho}=\\lim_{\\rho\\rightarrow 0}\\frac{\\Delta z}{\\rho}=\\lim_{\\rho\\rightarrow 0}\\frac{\\left[(\\Delta x)^2+(\\Delta y)^2\\right]\\sin\\frac{1}{\\sqrt{(\\Delta x)^2+(\\Delta y)^2}}}{\\rho}\\\\&amp;=\\lim_{\\rho\\rightarrow 0}\\rho\\sin\\frac{1}{\\rho}=0.\\end{aligned}\">\\begin{aligned}(1).&amp;\\frac{\\partial z}{\\partial x}=4y^3+10xy^6;\\frac{\\partial z}{\\partial y}=12xy^2+30x^2y^2,\\text{且这两个偏导数连续}, \\\\\\text{所以}&amp;dz=(4y^3+10xy^6)dx+(12xy^2+30x^2y^5)dy.2).&amp;\\frac{\\partial z}{\\partial x}=ye^{iy},\\frac{\\partial z}{\\partial y}=xe^{iy},\\frac{\\partial z}{\\partial x}\\bigg|_{(2,1)}=e^2,\\frac{\\partial z}{\\partial y}\\bigg|_{(2,1)}=2e^2,\\text{所求全微分}dz=e^2dx+2e^2dy.3).&amp;\\frac{\\partial u}{\\partial x}=y^z\\cdot x^{z-1}=\\frac{y^z}{x}x^{z-1},\\frac{\\partial u}{\\partial y}=x^{z-1}\\cdot z\\cdot y^{z-1}\\cdot\\ln x=\\frac{z\\cdot y^z\\cdot \\ln x}{y},\\\\&amp;\\frac{\\partial u}{\\partial z}=x^{z-1}\\cdot \\ln x\\cdot y^z\\cdot \\ln y=x^{z-1}\\cdot y^z\\cdot \\ln x\\ln y\\\\\\text{所以}&amp;dtu=\\frac{\\partial u}{\\partial x}dx+\\frac{\\partial u}{\\partial y}dy+\\frac{\\partial u}{\\partial z}dz=x^{z-1}\\left(\\frac{y^z}{x}dx+\\frac{z y^z}{y}\\ln x dy+y^z\\cdot \\ln x\\ln y dz\\right),4).&amp;\\text{因为}f_z(0,0)=\\lim_{\\Delta x\\rightarrow 0}\\frac{f(\\Delta x,0)-f(0,0)}{\\Delta x}=\\lim_{\\Delta x\\rightarrow 0}\\frac{(\\Delta x)^2\\sin\\frac{1}{\\sqrt{\\Delta x}}}{\\Delta x}=0,\\ f_y(0,0)=0,\\\\\\text{所以}&amp;\\\\&amp;\\lim_{\\rho\\rightarrow 0}\\frac{\\Delta z-(f_z(0,0)\\Delta x+f_y(0,0)\\Delta y)}{\\rho}=\\lim_{\\rho\\rightarrow 0}\\frac{\\Delta z}{\\rho}=\\lim_{\\rho\\rightarrow 0}\\frac{\\left[(\\Delta x)^2+(\\Delta y)^2\\right]\\sin\\frac{1}{\\sqrt{(\\Delta x)^2+(\\Delta y)^2}}}{\\rho}\\\\&amp;=\\lim_{\\rho\\rightarrow 0}\\rho\\sin\\frac{1}{\\rho}=0.\\end{aligned}</div>"
     },
     {
       "id": "q0006",
       "number": 6,
       "header": "#6-Averge",
       "difficulty": "Averge",
-      "prompt_html": "<img src=\"/static/generated/assets/advanced-math/ch112/q0006_prompt.png\"/>",
+      "prompt_html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{设} z = ( 1 + x ) ^ { y } , \\text{则} dz = ( \\quad ) \\uparrow\">\\text{设} z = ( 1 + x ) ^ { y } , \\text{则} dz = ( \\quad ) \\uparrow</span>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch112/q0006_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"y ( 1 + x ) ^ { y - 1 } d x + ( 1 + x ) ^ { y } \\ln ( 1 + x ) d y \\; ;\">y ( 1 + x ) ^ { y - 1 } d x + ( 1 + x ) ^ { y } \\ln ( 1 + x ) d y \\; ;</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch112/q0006_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\begin{aligned}y(1-x)^{y-1}dx+(1-x)^{y}\\ln(1+x)dy\\,;\\end{aligned}\">\\begin{aligned}y(1-x)^{y-1}dx+(1-x)^{y}\\ln(1+x)dy\\,;\\end{aligned}</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch112/q0006_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\begin{aligned}x(1+y)^{y-1}dx+(2+x)^{y}\\ln(1+y)dy\\;.\\end{aligned}\">\\begin{aligned}x(1+y)^{y-1}dx+(2+x)^{y}\\ln(1+y)dy\\;.\\end{aligned}</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch112/q0006_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\begin{aligned}y^2 (1+x)^{y+1} dx + (1+y)^x \\ln (1+y) dy\\; ;\\end{aligned}\">\\begin{aligned}y^2 (1+x)^{y+1} dx + (1+y)^x \\ln (1+y) dy\\; ;\\end{aligned}</span>"
         }
       ],
       "answer": "A",
       "answer_index": 0,
-      "analysis_html": "<img src=\"/static/generated/assets/advanced-math/ch112/q0006_analysis.png\"/>"
+      "analysis_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{aligned}z_{x}=y(1+x)^{y-1},\\;\\;z_{y}=(1+x)^{y}\\ln(1+x),\\; \\text{则} \\; dz=y(1+x)^{y-1}dx+(1+x)^{y}\\ln(1+x)dy\\;,\\end{aligned}\">\\begin{aligned}z_{x}=y(1+x)^{y-1},\\;\\;z_{y}=(1+x)^{y}\\ln(1+x),\\; \\text{则} \\; dz=y(1+x)^{y-1}dx+(1+x)^{y}\\ln(1+x)dy\\;,\\end{aligned}</div>"
     },
     {
       "id": "q0007",
       "number": 7,
       "header": "#7-Averge",
       "difficulty": "Averge",
-      "prompt_html": "<img src=\"/static/generated/assets/advanced-math/ch112/q0007_prompt.png\"/>",
+      "prompt_html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{设}z=e^{\\sin(xy)}, \\text{则}dz=(\\quad).\">\\text{设}z=e^{\\sin(xy)}, \\text{则}dz=(\\quad).</span>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch112/q0007_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\cos (x y) e ^ { \\sin ( x y ) } ( y d x - x d y ) \\, ;\">\\cos (x y) e ^ { \\sin ( x y ) } ( y d x - x d y ) \\, ;</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch112/q0007_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\begin{array}{l} {l} y e ^ { \\sin ( x y ) } \\cos ( x y ) ( d x + x d y ) \\; . * \\end{array}\">\\begin{array}{l} {l} y e ^ { \\sin ( x y ) } \\cos ( x y ) ( d x + x d y ) \\; . * \\end{array}</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch112/q0007_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\begin{aligned}e^{\\sin (xy)} \\cos (xy) (y dx + x dy) \\, ;\\end{aligned}\">\\begin{aligned}e^{\\sin (xy)} \\cos (xy) (y dx + x dy) \\, ;\\end{aligned}</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch112/q0007_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\begin{aligned}e^{\\sin(xy)}\\sin(xy)(ydx-xdy)\\,;\\end{aligned}\">\\begin{aligned}e^{\\sin(xy)}\\sin(xy)(ydx-xdy)\\,;\\end{aligned}</span>"
         }
       ],
       "answer": "C",
       "answer_index": 2,
-      "analysis_html": "<img src=\"/static/generated/assets/advanced-math/ch112/q0007_analysis.png\"/>"
+      "analysis_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{aligned}z_{_{x}}=e^{\\sin (xy)}y\\cos (xy),z_{_{y}}=e^{\\sin (xy)}x\\cos (xy), \\text{则} dz=e^{\\sin (xy)}\\cos (xy)(ydx+xdy)\\;.\\end{aligned}\">\\begin{aligned}z_{_{x}}=e^{\\sin (xy)}y\\cos (xy),z_{_{y}}=e^{\\sin (xy)}x\\cos (xy), \\text{则} dz=e^{\\sin (xy)}\\cos (xy)(ydx+xdy)\\;.\\end{aligned}</div>"
     },
     {
       "id": "q0008",
       "number": 8,
       "header": "#8-Averge",
       "difficulty": "Averge",
-      "prompt_html": "<img src=\"/static/generated/assets/advanced-math/ch112/q0008_prompt.png\"/>",
+      "prompt_html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{设}z=e^{xy}-\\cos e^{xy}, \\text{则}dz=(\\quad).\">\\text{设}z=e^{xy}-\\cos e^{xy}, \\text{则}dz=(\\quad).</span>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch112/q0008_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\begin{aligned}e^{xy}(1+\\sin e^{xy})(ydx+xdy)\\,;\\end{aligned}\">\\begin{aligned}e^{xy}(1+\\sin e^{xy})(ydx+xdy)\\,;\\end{aligned}</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch112/q0008_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\begin{array}{l} x y e ^ {x y} (1 + \\sin e ^ {x y}) (d x - d y) \\; . \\end{array}\">\\begin{array}{l} x y e ^ {x y} (1 + \\sin e ^ {x y}) (d x - d y) \\; . \\end{array}</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch112/q0008_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\begin{aligned} x e^{xy} (1-y \\sin e^{xy}) (dx+dy)\\, ;\\end{aligned}\">\\begin{aligned} x e^{xy} (1-y \\sin e^{xy}) (dx+dy)\\, ;\\end{aligned}</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch112/q0008_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\begin{aligned}e^{xy}(1-x\\sin e^{xy})(ydx-dy)\\; ;\\end{aligned}\">\\begin{aligned}e^{xy}(1-x\\sin e^{xy})(ydx-dy)\\; ;\\end{aligned}</span>"
         }
       ],
       "answer": "A",
       "answer_index": 0,
-      "analysis_html": "<img src=\"/static/generated/assets/advanced-math/ch112/q0008_analysis.png\"/>"
+      "analysis_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{aligned}z_{x} &amp;= ye^{xy} + ye^{xy}\\sin e^{xy},\\,\\,\\, z_{y} = xe^{xy} + xe^{xy}\\sin e^{xy},\\\\ \\text{则} \\, dz &amp; = e^{xy}(1+\\sin e^{xy})(ydx + xdy)\\, .\\end{aligned}\">\\begin{aligned}z_{x} &amp;= ye^{xy} + ye^{xy}\\sin e^{xy},\\,\\,\\, z_{y} = xe^{xy} + xe^{xy}\\sin e^{xy},\\\\ \\text{则} \\, dz &amp; = e^{xy}(1+\\sin e^{xy})(ydx + xdy)\\, .\\end{aligned}</div>"
     }
-  ]
+  ],
+  "format": "latex",
+  "source_md": "gs/7.3.1_全微分的概念与计算(8题)/7.3.1_全微分的概念与计算(8题).md"
 }

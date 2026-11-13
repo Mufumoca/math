@@ -13,504 +13,506 @@
       "number": 1,
       "header": "#1-Averge",
       "difficulty": "Averge",
-      "prompt_html": "<img src=\"/static/generated/assets/advanced-math/ch004/q0001_prompt.png\"/>",
+      "prompt_html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{当}x \\to 0^{-},\\ \\ln x \\to \\infty,\\ \\text{则对于任意的正数}M,\\ \\text{当}0 &lt; x &lt; \\delta &lt; (\\ \\ )\\text{时，能保证} \\ln x &lt; -M\\text{成立.}^{\\omega}\">\\text{当}x \\to 0^{-},\\ \\ln x \\to \\infty,\\ \\text{则对于任意的正数}M,\\ \\text{当}0 &lt; x &lt; \\delta &lt; (\\ \\ )\\text{时，能保证} \\ln x &lt; -M\\text{成立.}^{\\omega}</span>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch004/q0001_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\ln M\">\\ln M</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch004/q0001_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"e ^ { - \\frac { 1 } { M } }\">e ^ { - \\frac { 1 } { M } }</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch004/q0001_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"e ^ { - M }\">e ^ { - M }</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch004/q0001_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\ln \\frac { 1 } { M }\">\\ln \\frac { 1 } { M }</span>"
         }
       ],
       "answer": "C",
       "answer_index": 2,
-      "analysis_html": "<img src=\"/static/generated/assets/advanced-math/ch004/q0001_analysis.png\"/>"
+      "analysis_html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\ln x &lt; -M, x &lt; e^{-M},\\,\\,\\, \\text{故取}\\,\\delta \\leq e^{-M}\\,.\\leftarrow\">\\ln x &lt; -M, x &lt; e^{-M},\\,\\,\\, \\text{故取}\\,\\delta \\leq e^{-M}\\,.\\leftarrow</span>"
     },
     {
       "id": "q0002",
       "number": 2,
       "header": "#2-Averge",
       "difficulty": "Averge",
-      "prompt_html": "<img src=\"/static/generated/assets/advanced-math/ch004/q0002_prompt.png\"/>",
+      "prompt_html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{由定义可知，当} x \\rightarrow 0 \\text{时，} y = x \\sin \\frac{1}{x} \\text{的极限为( ).}\">\\text{由定义可知，当} x \\rightarrow 0 \\text{时，} y = x \\sin \\frac{1}{x} \\text{的极限为( ).}</span>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch004/q0002_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"0\">0</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch004/q0002_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\mathbf { - 1 }\">\\mathbf { - 1 }</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch004/q0002_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\mathbf { 1 }\">\\mathbf { 1 }</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch004/q0002_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{不存在}\">\\text{不存在}</span>"
         }
       ],
       "answer": "A",
       "answer_index": 0,
-      "analysis_html": "<img src=\"/static/generated/assets/advanced-math/ch004/q0002_analysis.png\"/>"
+      "analysis_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{aligned}&amp; \\text{对于} \\forall \\varepsilon &gt; 0, \\text{要使} \\left|x \\sin \\frac{1}{x} \\right| \\leq |x| &lt; \\varepsilon \\text{成立，只须取} \\delta = \\varepsilon . \\text{ } \\\\\\text{于是，对于} \\forall \\varepsilon &gt; 0, \\; \\exists \\delta = \\varepsilon, \\; \\text{当} \\; 0 &lt; |x| &lt; \\delta \\text{时，恒有} \\; \\left|x \\sin \\frac{1}{x} \\right| \\leq |x| &lt; \\varepsilon, \\\\&amp; \\text{故} \\; y = x \\sin \\frac{1}{x} \\text{当} \\; x \\to 0 \\text{时为无穷小。}\\end{aligned}\">\\begin{aligned}&amp; \\text{对于} \\forall \\varepsilon &gt; 0, \\text{要使} \\left|x \\sin \\frac{1}{x} \\right| \\leq |x| &lt; \\varepsilon \\text{成立，只须取} \\delta = \\varepsilon . \\text{ } \\\\\\text{于是，对于} \\forall \\varepsilon &gt; 0, \\; \\exists \\delta = \\varepsilon, \\; \\text{当} \\; 0 &lt; |x| &lt; \\delta \\text{时，恒有} \\; \\left|x \\sin \\frac{1}{x} \\right| \\leq |x| &lt; \\varepsilon, \\\\&amp; \\text{故} \\; y = x \\sin \\frac{1}{x} \\text{当} \\; x \\to 0 \\text{时为无穷小。}\\end{aligned}</div>"
     },
     {
       "id": "q0003",
       "number": 3,
       "header": "#3-Averge",
       "difficulty": "Averge",
-      "prompt_html": "<img src=\"/static/generated/assets/advanced-math/ch004/q0003_prompt.png\"/>",
+      "prompt_html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\lim_{x \\to \\infty} \\frac{ \\sin x }{ \\sqrt{x}} = 0 , \\text{则满足} x &gt; X \\text{的} X \\text{最小取值为}( ). (\\text{其中} \\varepsilon \\text{为任意正实数})\">\\lim_{x \\to \\infty} \\frac{ \\sin x }{ \\sqrt{x}} = 0 , \\text{则满足} x &gt; X \\text{的} X \\text{最小取值为}( ). (\\text{其中} \\varepsilon \\text{为任意正实数})</span>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch004/q0003_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"X {=} \\frac{1}{\\varepsilon^{2}}\">X {=} \\frac{1}{\\varepsilon^{2}}</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch004/q0003_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\scriptstyle X = \\frac { 1 } { \\varepsilon }\">\\scriptstyle X = \\frac { 1 } { \\varepsilon }</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch004/q0003_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"X\\!=\\!\\varepsilon^{2}\">X\\!=\\!\\varepsilon^{2}</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch004/q0003_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"X\\!=\\!\\varepsilon\">X\\!=\\!\\varepsilon</span>"
         }
       ],
       "answer": "A",
       "answer_index": 0,
-      "analysis_html": "<img src=\"/static/generated/assets/advanced-math/ch004/q0003_analysis.png\"/>"
+      "analysis_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{array}{l} \\text {对于} \\forall \\varepsilon &gt; 0, \\text {要使} \\left| \\frac {\\sin x}{\\sqrt {x}} - 0 \\right| = \\frac {| \\sin x |}{\\sqrt {x}} \\leq \\frac {1}{\\sqrt {x}} &lt; \\varepsilon \\text {成立，只须} x &gt; \\frac {1}{\\varepsilon^ {2}}, \\text {于是} \\forall \\varepsilon &gt; 0, \\\\ \\exists X = \\frac {1}{\\varepsilon^ {2}}, \\text {当} x &gt; X \\text {时，便都有} \\left| \\frac {\\sin x}{\\sqrt {x}} - 0 \\right| &lt; \\varepsilon , \\\\ \\therefore \\lim _ {x \\rightarrow \\infty} \\frac {\\sin x}{\\sqrt {x}} = 0 . \\end{array}\">\\begin{array}{l} \\text {对于} \\forall \\varepsilon &gt; 0, \\text {要使} \\left| \\frac {\\sin x}{\\sqrt {x}} - 0 \\right| = \\frac {| \\sin x |}{\\sqrt {x}} \\leq \\frac {1}{\\sqrt {x}} &lt; \\varepsilon \\text {成立，只须} x &gt; \\frac {1}{\\varepsilon^ {2}}, \\text {于是} \\forall \\varepsilon &gt; 0, \\\\ \\exists X = \\frac {1}{\\varepsilon^ {2}}, \\text {当} x &gt; X \\text {时，便都有} \\left| \\frac {\\sin x}{\\sqrt {x}} - 0 \\right| &lt; \\varepsilon , \\\\ \\therefore \\lim _ {x \\rightarrow \\infty} \\frac {\\sin x}{\\sqrt {x}} = 0 . \\end{array}</div>"
     },
     {
       "id": "q0004",
       "number": 4,
       "header": "#4-Averge",
       "difficulty": "Averge",
-      "prompt_html": "<img src=\"/static/generated/assets/advanced-math/ch004/q0004_prompt.png\"/>",
+      "prompt_html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{设}y=2x-1, \\text{当} |x-4|&lt;\\delta \\text{时，有} |y-7|&lt;0.1, \\text{则} \\delta=(\\quad).\">\\text{设}y=2x-1, \\text{当} |x-4|&lt;\\delta \\text{时，有} |y-7|&lt;0.1, \\text{则} \\delta=(\\quad).</span>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch004/q0004_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"0.05\">0.05</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch004/q0004_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\mathbf { 0 . 1 } .\">\\mathbf { 0 . 1 } .</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch004/q0004_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"0.01\">0.01</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch004/q0004_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"0.5\">0.5</span>"
         }
       ],
       "answer": "A",
       "answer_index": 0,
-      "analysis_html": "<img src=\"/static/generated/assets/advanced-math/ch004/q0004_analysis.png\"/>"
+      "analysis_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{aligned}&amp; \\text{欲使} |y-7|&lt;0.1,\\ \\text{即} \\ |y-7|=(2x-1)-7|=|2x-8|=2|x-4|&lt;0.1,\\\\&amp; \\text{从而} |x-4|&lt;\\frac{0.1}{2}=0.05,\\ \\omega\\\\&amp; \\text{即当} |x-4|&lt;\\delta \\text{中的}\\delta=0.05 \\text{时},\\ |y-7|&lt;0.1.\\omega\\end{aligned}\">\\begin{aligned}&amp; \\text{欲使} |y-7|&lt;0.1,\\ \\text{即} \\ |y-7|=(2x-1)-7|=|2x-8|=2|x-4|&lt;0.1,\\\\&amp; \\text{从而} |x-4|&lt;\\frac{0.1}{2}=0.05,\\ \\omega\\\\&amp; \\text{即当} |x-4|&lt;\\delta \\text{中的}\\delta=0.05 \\text{时},\\ |y-7|&lt;0.1.\\omega\\end{aligned}</div>"
     },
     {
       "id": "q0005",
       "number": 5,
       "header": "#5-Averge",
       "difficulty": "Averge",
-      "prompt_html": "<img src=\"/static/generated/assets/advanced-math/ch004/q0005_prompt.png\"/>",
+      "prompt_html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{若} \\lim_{x \\to x_{0}} C = C \\, (C \\text{为常数}) , \\text{则} \\, 0 &lt; |x-x_{0}| &lt; \\delta \\text{中的} \\delta \\text{只须满足( } \\quad). \\text{(其中} \\varepsilon \\text{为任意正实数) }\\text{)}\">\\text{若} \\lim_{x \\to x_{0}} C = C \\, (C \\text{为常数}) , \\text{则} \\, 0 &lt; |x-x_{0}| &lt; \\delta \\text{中的} \\delta \\text{只须满足( } \\quad). \\text{(其中} \\varepsilon \\text{为任意正实数) }\\text{)}</span>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch004/q0005_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\delta {&gt;} 1 .\">\\delta {&gt;} 1 .</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch004/q0005_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\delta &gt; \\frac { 1 } { \\varepsilon } \\textcircled { &lt; }\">\\delta &gt; \\frac { 1 } { \\varepsilon } \\textcircled { &lt; }</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch004/q0005_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\delta &gt; \\varepsilon\">\\delta &gt; \\varepsilon</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch004/q0005_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\delta \\! &gt; \\! 0\">\\delta \\! &gt; \\! 0</span>"
         }
       ],
       "answer": "D",
       "answer_index": 3,
-      "analysis_html": "<img src=\"/static/generated/assets/advanced-math/ch004/q0005_analysis.png\"/>"
+      "analysis_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{array}{l} \\text {由函数极限的定义知，任给} \\varepsilon &gt; 0，\\text{任取} \\delta &gt; 0，\\text{当} 0 &lt; |x - x_0| &lt; \\delta \\text{时}， \\\\ \\left| f(x) - A \\right| = |C - C| = 0 &lt; \\varepsilon \\text {恒成立，故只要} \\delta &gt; 0，\\text{均有} \\lim_{x \\to x_0} C = C. \\end{array}\">\\begin{array}{l} \\text {由函数极限的定义知，任给} \\varepsilon &gt; 0，\\text{任取} \\delta &gt; 0，\\text{当} 0 &lt; |x - x_0| &lt; \\delta \\text{时}， \\\\ \\left| f(x) - A \\right| = |C - C| = 0 &lt; \\varepsilon \\text {恒成立，故只要} \\delta &gt; 0，\\text{均有} \\lim_{x \\to x_0} C = C. \\end{array}</div>"
     },
     {
       "id": "q0006",
       "number": 6,
       "header": "#6-Averge",
       "difficulty": "Averge",
-      "prompt_html": "<img src=\"/static/generated/assets/advanced-math/ch004/q0006_prompt.png\"/>",
+      "prompt_html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\lim_{x \\to \\infty} \\frac{ \\sin x }{x} = 0 , \\text{则} x \\text{需满足的条件为( ).(其中} \\varepsilon \\text{为任意正实数)}.\">\\lim_{x \\to \\infty} \\frac{ \\sin x }{x} = 0 , \\text{则} x \\text{需满足的条件为( ).(其中} \\varepsilon \\text{为任意正实数)}.</span>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch004/q0006_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"x &gt; \\varepsilon\">x &gt; \\varepsilon</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch004/q0006_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"x &gt; \\frac{1}{\\varepsilon}\">x &gt; \\frac{1}{\\varepsilon}</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch004/q0006_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\left| x \\right| &gt; \\varepsilon\">\\left| x \\right| &gt; \\varepsilon</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch004/q0006_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\left| x \\right| &gt; \\frac { 1 } { \\varepsilon }\">\\left| x \\right| &gt; \\frac { 1 } { \\varepsilon }</span>"
         }
       ],
       "answer": "D",
       "answer_index": 3,
-      "analysis_html": "<img src=\"/static/generated/assets/advanced-math/ch004/q0006_analysis.png\"/>"
+      "analysis_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{array}{l} \\text {由函数极限的定义知，因为} \\left| \\frac {\\sin x}{x} - 0 \\right| = \\frac {\\sin x}{| x |} \\leq \\frac {1}{| x |}, \\text {于是} \\forall \\varepsilon &gt; 0, \\text {可取} X = \\frac {1}{\\varepsilon}, \\text {则} \\\\ \\text {当} | x | &gt; X \\text {时，恒有} \\left| \\frac {\\sin x}{x} - 0 \\right| &lt; \\varepsilon, \\text {故} | x | &gt; \\frac {1}{\\varepsilon} \\text {时，有} \\lim _ {x \\rightarrow \\infty} \\frac {\\sin x}{x} = 0. \\omega \\end{array}\">\\begin{array}{l} \\text {由函数极限的定义知，因为} \\left| \\frac {\\sin x}{x} - 0 \\right| = \\frac {\\sin x}{| x |} \\leq \\frac {1}{| x |}, \\text {于是} \\forall \\varepsilon &gt; 0, \\text {可取} X = \\frac {1}{\\varepsilon}, \\text {则} \\\\ \\text {当} | x | &gt; X \\text {时，恒有} \\left| \\frac {\\sin x}{x} - 0 \\right| &lt; \\varepsilon, \\text {故} | x | &gt; \\frac {1}{\\varepsilon} \\text {时，有} \\lim _ {x \\rightarrow \\infty} \\frac {\\sin x}{x} = 0. \\omega \\end{array}</div>"
     },
     {
       "id": "q0007",
       "number": 7,
       "header": "#7-Averge",
       "difficulty": "Averge",
-      "prompt_html": "<img src=\"/static/generated/assets/advanced-math/ch004/q0007_prompt.png\"/>",
+      "prompt_html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\lim_{x \\to \\infty} \\frac{2x+3}{3x} = \\frac{2}{3}, \\text{则满足} |x| &gt; X \\text{的} X \\text{最小取值为( }. \\text{(其中} \\varepsilon \\text{为任意正实数) )}\">\\lim_{x \\to \\infty} \\frac{2x+3}{3x} = \\frac{2}{3}, \\text{则满足} |x| &gt; X \\text{的} X \\text{最小取值为( }. \\text{(其中} \\varepsilon \\text{为任意正实数) )}</span>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch004/q0007_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"X\\!=\\!\\frac{1}{\\varepsilon}\\!+\\!1\">X\\!=\\!\\frac{1}{\\varepsilon}\\!+\\!1</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch004/q0007_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\scriptstyle X = \\frac { 2 } { \\varepsilon }\">\\scriptstyle X = \\frac { 2 } { \\varepsilon }</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch004/q0007_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\scriptstyle X = \\frac { 1 } { \\varepsilon }\">\\scriptstyle X = \\frac { 1 } { \\varepsilon }</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch004/q0007_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\displaystyle X\\!=\\!\\frac{1}{\\varepsilon}\\!+\\!2\">\\displaystyle X\\!=\\!\\frac{1}{\\varepsilon}\\!+\\!2</span>"
         }
       ],
       "answer": "C",
       "answer_index": 2,
-      "analysis_html": "<img src=\"/static/generated/assets/advanced-math/ch004/q0007_analysis.png\"/>"
+      "analysis_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{aligned}&amp;\\text{由函数极限的定义知，}\\forall\\varepsilon&gt;0,\\,\\text{要证}\\exists X&gt;0,\\,\\text{当}|\\boldsymbol{x}|&gt;X\\text{时，有}\\circ\\\\&amp;\\frac{\\left|2x+3-\\frac{2}{3}\\right|}{3x}=\\frac{\\left|2x+3-2x\\right|}{3x}=\\frac{1}{x}&lt;\\varepsilon\\circ\\\\&amp;\\text{只须}x&gt;\\frac{1}{\\varepsilon},\\,\\text{取}X=\\frac{1}{\\varepsilon},\\,\\text{则对}\\varepsilon&gt;0,\\,\\text{当}|\\boldsymbol{x}|&gt;X\\text{时，有}\\left|\\frac{2x+3}{3x}-\\frac{2}{3}\\right|&lt;\\varepsilon,\\,\\text{即}\\lim_{x\\rightarrow\\infty}\\frac{2x+3}{3x}=\\frac{2}{3}.\\end{aligned}\">\\begin{aligned}&amp;\\text{由函数极限的定义知，}\\forall\\varepsilon&gt;0,\\,\\text{要证}\\exists X&gt;0,\\,\\text{当}|\\boldsymbol{x}|&gt;X\\text{时，有}\\circ\\\\&amp;\\frac{\\left|2x+3-\\frac{2}{3}\\right|}{3x}=\\frac{\\left|2x+3-2x\\right|}{3x}=\\frac{1}{x}&lt;\\varepsilon\\circ\\\\&amp;\\text{只须}x&gt;\\frac{1}{\\varepsilon},\\,\\text{取}X=\\frac{1}{\\varepsilon},\\,\\text{则对}\\varepsilon&gt;0,\\,\\text{当}|\\boldsymbol{x}|&gt;X\\text{时，有}\\left|\\frac{2x+3}{3x}-\\frac{2}{3}\\right|&lt;\\varepsilon,\\,\\text{即}\\lim_{x\\rightarrow\\infty}\\frac{2x+3}{3x}=\\frac{2}{3}.\\end{aligned}</div>"
     },
     {
       "id": "q0008",
       "number": 8,
       "header": "#8-Averge",
       "difficulty": "Averge",
-      "prompt_html": "<img src=\"/static/generated/assets/advanced-math/ch004/q0008_prompt.png\"/>",
+      "prompt_html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\lim_{x \\to 1} \\frac{x^{2}-1}{x^{2}-x}=2, \\text{则满足} 0&lt;|x-1|&lt;\\delta \\text{的} \\delta \\text{最小值为( ).(其中} \\varepsilon \\text{为任意正实数) } \\text{,}\">\\lim_{x \\to 1} \\frac{x^{2}-1}{x^{2}-x}=2, \\text{则满足} 0&lt;|x-1|&lt;\\delta \\text{的} \\delta \\text{最小值为( ).(其中} \\varepsilon \\text{为任意正实数) } \\text{,}</span>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch004/q0008_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\delta = \\frac{\\varepsilon}{2}\">\\delta = \\frac{\\varepsilon}{2}</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch004/q0008_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\delta = \\min ( \\frac { 1 } { 2 } , \\frac { \\varepsilon } { 2 } )\">\\delta = \\min ( \\frac { 1 } { 2 } , \\frac { \\varepsilon } { 2 } )</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch004/q0008_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\delta {=} \\frac { 1 } { 2 }\">\\delta {=} \\frac { 1 } { 2 }</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch004/q0008_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{不能确定}\">\\text{不能确定}</span>"
         }
       ],
       "answer": "B",
       "answer_index": 1,
-      "analysis_html": "<img src=\"/static/generated/assets/advanced-math/ch004/q0008_analysis.png\"/>"
+      "analysis_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{aligned}&amp;\\left|\\frac{x^2-1}{x^2-x}-2\\right|=\\left|\\frac{x-1}{x}\\right|=\\frac{|x-1|}{|x|}, \\text{由于} x\\to 1, \\text{不妨设} 0&lt;|x-1|&lt;\\frac{1}{2}, \\text{于是} x&gt;\\frac{1}{2}, \\text{即} |x|&gt;\\frac{1}{2}.\\\\&amp; \\text{从而}\\frac{|x-1|}{|x|}&lt;2|x-1|(0&lt;|x-1|&lt;\\frac{1}{2}).\\\\&amp; \\text{所以，任给}\\varepsilon&gt;0, \\text{要使}\\left|\\frac{x^2-1}{x^2-x}-2\\right|&lt;\\varepsilon, \\text{只要} 2|x-1|&lt;\\varepsilon, \\text{即} |x-1|&lt;\\frac{\\varepsilon}{2}, \\text{取}\\\\&amp; \\delta=\\min(\\frac{1}{2},\\frac{\\varepsilon}{2}), \\text{当} 0&lt;|x-1|&lt;\\delta \\text{时，都有}\\left|\\frac{x^2-1}{x^2-x}-2\\right|&lt;\\varepsilon, \\text{即}\\lim_{x\\to 1}\\frac{x^2-1}{x^2-x}=2.\\end{aligned}\">\\begin{aligned}&amp;\\left|\\frac{x^2-1}{x^2-x}-2\\right|=\\left|\\frac{x-1}{x}\\right|=\\frac{|x-1|}{|x|}, \\text{由于} x\\to 1, \\text{不妨设} 0&lt;|x-1|&lt;\\frac{1}{2}, \\text{于是} x&gt;\\frac{1}{2}, \\text{即} |x|&gt;\\frac{1}{2}.\\\\&amp; \\text{从而}\\frac{|x-1|}{|x|}&lt;2|x-1|(0&lt;|x-1|&lt;\\frac{1}{2}).\\\\&amp; \\text{所以，任给}\\varepsilon&gt;0, \\text{要使}\\left|\\frac{x^2-1}{x^2-x}-2\\right|&lt;\\varepsilon, \\text{只要} 2|x-1|&lt;\\varepsilon, \\text{即} |x-1|&lt;\\frac{\\varepsilon}{2}, \\text{取}\\\\&amp; \\delta=\\min(\\frac{1}{2},\\frac{\\varepsilon}{2}), \\text{当} 0&lt;|x-1|&lt;\\delta \\text{时，都有}\\left|\\frac{x^2-1}{x^2-x}-2\\right|&lt;\\varepsilon, \\text{即}\\lim_{x\\to 1}\\frac{x^2-1}{x^2-x}=2.\\end{aligned}</div>"
     },
     {
       "id": "q0009",
       "number": 9,
       "header": "#9-Averge",
       "difficulty": "Averge",
-      "prompt_html": "<img src=\"/static/generated/assets/advanced-math/ch004/q0009_prompt.png\"/>",
+      "prompt_html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{要使} \\lim_{x \\to x_{0}} \\sqrt{x} = \\sqrt{x_{0}} \\ , \\text{则满足} 0 &lt; |x-x_{0}| &lt; \\delta \\text{中的} \\delta \\text{应取为} (\\quad). (\\text{其中} \\varepsilon \\text{为任意正实数})。\">\\text{要使} \\lim_{x \\to x_{0}} \\sqrt{x} = \\sqrt{x_{0}} \\ , \\text{则满足} 0 &lt; |x-x_{0}| &lt; \\delta \\text{中的} \\delta \\text{应取为} (\\quad). (\\text{其中} \\varepsilon \\text{为任意正实数})。</span>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch004/q0009_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\delta = x _ { 0 } \\, ;\">\\delta = x _ { 0 } \\, ;</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch004/q0009_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\delta = \\sqrt { x _ { 0 } } \\varepsilon\">\\delta = \\sqrt { x _ { 0 } } \\varepsilon</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch004/q0009_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\delta = \\min \\{ x _ { 0 } , \\sqrt { x _ { 0 } } \\, \\varepsilon \\}\">\\delta = \\min \\{ x _ { 0 } , \\sqrt { x _ { 0 } } \\, \\varepsilon \\}</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch004/q0009_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{不确定}\">\\text{不确定}</span>"
         }
       ],
       "answer": "C",
       "answer_index": 2,
-      "analysis_html": "<img src=\"/static/generated/assets/advanced-math/ch004/q0009_analysis.png\"/>"
+      "analysis_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{aligned}&amp;\\because |f(x)-A|=\\left|\\sqrt{x}-\\sqrt{x_{0}}\\right|=\\left|\\frac{x-x_{0}}{\\sqrt{x}+\\sqrt{x_{0}}}\\right|\\leq \\frac{|x-x_{0}|}{\\sqrt{x_{0}}},\\ \\text{任给}\\varepsilon&gt;0,\\ \\text{要使}|f(x)-A|&lt;\\varepsilon,\\ \\text{只要}|x-x_{0}|&lt;\\sqrt{x_{0}}\\varepsilon\\ \\text{且}\\ x\\geq 0,\\ \\text{从而}|\\!|x-x_{0}|&lt;x_{0}.^{\\omega}\\\\&amp;\\text{取}\\ \\delta=\\min\\{x_{0},\\sqrt{x_{0}}\\varepsilon\\},\\ \\text{则当}0&lt;|x-x_{0}|\\!|&lt;\\delta\\text{时，就有}\\left|\\sqrt{x}-\\sqrt{x_{0}}\\right|&lt;\\varepsilon,\\ \\therefore\\lim_{x\\rightarrow x_{0}}\\sqrt{x}=\\sqrt{x_{0}}.\\end{aligned}\">\\begin{aligned}&amp;\\because |f(x)-A|=\\left|\\sqrt{x}-\\sqrt{x_{0}}\\right|=\\left|\\frac{x-x_{0}}{\\sqrt{x}+\\sqrt{x_{0}}}\\right|\\leq \\frac{|x-x_{0}|}{\\sqrt{x_{0}}},\\ \\text{任给}\\varepsilon&gt;0,\\ \\text{要使}|f(x)-A|&lt;\\varepsilon,\\ \\text{只要}|x-x_{0}|&lt;\\sqrt{x_{0}}\\varepsilon\\ \\text{且}\\ x\\geq 0,\\ \\text{从而}|\\!|x-x_{0}|&lt;x_{0}.^{\\omega}\\\\&amp;\\text{取}\\ \\delta=\\min\\{x_{0},\\sqrt{x_{0}}\\varepsilon\\},\\ \\text{则当}0&lt;|x-x_{0}|\\!|&lt;\\delta\\text{时，就有}\\left|\\sqrt{x}-\\sqrt{x_{0}}\\right|&lt;\\varepsilon,\\ \\therefore\\lim_{x\\rightarrow x_{0}}\\sqrt{x}=\\sqrt{x_{0}}.\\end{aligned}</div>"
     },
     {
       "id": "q0010",
       "number": 10,
       "header": "#10-Averge",
       "difficulty": "Averge",
-      "prompt_html": "<img src=\"/static/generated/assets/advanced-math/ch004/q0010_prompt.png\"/>",
+      "prompt_html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\lim_{x \\to 2} \\frac{1}{x-1} = 1, \\text{则满足} |x-2| &lt; \\delta \\text{的} \\delta \\text{最小值为( ).(其中} \\varepsilon \\text{为任意正实数).}\">\\lim_{x \\to 2} \\frac{1}{x-1} = 1, \\text{则满足} |x-2| &lt; \\delta \\text{的} \\delta \\text{最小值为( ).(其中} \\varepsilon \\text{为任意正实数).}</span>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch004/q0010_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\delta \\!=\\! \\frac { \\varepsilon } { 2 }\">\\delta \\!=\\! \\frac { \\varepsilon } { 2 }</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch004/q0010_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\delta {=} \\frac { 1 } { 2 }\">\\delta {=} \\frac { 1 } { 2 }</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch004/q0010_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\delta = \\min ( \\frac { 1 } { 2 } , \\frac { \\varepsilon } { 2 } )\">\\delta = \\min ( \\frac { 1 } { 2 } , \\frac { \\varepsilon } { 2 } )</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch004/q0010_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{不确定}\">\\text{不确定}</span>"
         }
       ],
       "answer": "C",
       "answer_index": 2,
-      "analysis_html": "<img src=\"/static/generated/assets/advanced-math/ch004/q0010_analysis.png\"/>"
+      "analysis_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{aligned}&amp;\\left|\\frac{1}{x-1}-1\\right|=\\left|\\frac{x-2}{x-1}\\right|, \\text{注意到在}x\\rightarrow 2\\text{的过程中，}x\\text{只在}2\\text{附近取值.} \\text{为使}\\frac{1}{|x-1|}\\text{有界，}\\\\&amp;\\text{我们限制：}\\ |x-2|\\leq \\frac{1}{2}, \\text{于是}|x-1|=|1+x-2|\\geq 1-|x-2|\\geq \\frac{1}{2}, \\text{ }\\frac{|x-2|}{x-1}\\leq 2|x-2|.\\text{.}^{①}\\\\&amp;\\text{因此，}\\forall \\varepsilon&gt;0,\\ \\exists \\delta=\\min(\\frac{1}{2},\\frac{\\varepsilon}{2}), \\text{当}|x-2|&lt;\\delta \\text{时，有}\\left|\\frac{1}{x-1}-1\\right|=\\left|\\frac{x-2}{x-1}\\right|\\leq 2|x-2|&lt;\\varepsilon,\\text{，}\\\\&amp;\\text{即}\\lim_{x\\rightarrow 2}\\frac{1}{x-1}=1.\\text{.}^{②}\\end{aligned}\">\\begin{aligned}&amp;\\left|\\frac{1}{x-1}-1\\right|=\\left|\\frac{x-2}{x-1}\\right|, \\text{注意到在}x\\rightarrow 2\\text{的过程中，}x\\text{只在}2\\text{附近取值.} \\text{为使}\\frac{1}{|x-1|}\\text{有界，}\\\\&amp;\\text{我们限制：}\\ |x-2|\\leq \\frac{1}{2}, \\text{于是}|x-1|=|1+x-2|\\geq 1-|x-2|\\geq \\frac{1}{2}, \\text{ }\\frac{|x-2|}{x-1}\\leq 2|x-2|.\\text{.}^{①}\\\\&amp;\\text{因此，}\\forall \\varepsilon&gt;0,\\ \\exists \\delta=\\min(\\frac{1}{2},\\frac{\\varepsilon}{2}), \\text{当}|x-2|&lt;\\delta \\text{时，有}\\left|\\frac{1}{x-1}-1\\right|=\\left|\\frac{x-2}{x-1}\\right|\\leq 2|x-2|&lt;\\varepsilon,\\text{，}\\\\&amp;\\text{即}\\lim_{x\\rightarrow 2}\\frac{1}{x-1}=1.\\text{.}^{②}\\end{aligned}</div>"
     },
     {
       "id": "q0011",
       "number": 11,
       "header": "#11-Averge",
       "difficulty": "Averge",
-      "prompt_html": "<img src=\"/static/generated/assets/advanced-math/ch004/q0011_prompt.png\"/>",
+      "prompt_html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{当} x \\rightarrow 2 \\text{时，} y = x ^ { 2 } \\rightarrow 4 , \\text{当} | x - 2 | &lt; \\delta \\text{时，} | y - 4 | &lt; 0 . 001 , \\text{则} \\delta = ( \\ \\ ) .\">\\text{当} x \\rightarrow 2 \\text{时，} y = x ^ { 2 } \\rightarrow 4 , \\text{当} | x - 2 | &lt; \\delta \\text{时，} | y - 4 | &lt; 0 . 001 , \\text{则} \\delta = ( \\ \\ ) .</span>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch004/q0011_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"0.002\">0.002</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch004/q0011_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"0.0002\">0.0002</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch004/q0011_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\textbf { 0 . 01 } .\">\\textbf { 0 . 01 } .</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch004/q0011_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"0.001\">0.001</span>"
         }
       ],
       "answer": "B",
       "answer_index": 1,
-      "analysis_html": "<img src=\"/static/generated/assets/advanced-math/ch004/q0011_analysis.png\"/>"
+      "analysis_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{aligned}&amp;\\text{先不妨设}1&lt;x&lt;3,\\,\\,\\text{要使得} \\left|y-4\\right|&lt;0.001,\\,\\,\\text{即}\\left|x^{2}-4\\right|&lt;0.001,\\,\\,\\varphi\\\\&amp;\\text{只须} \\left|x-2\\right|\\cdot\\left|x+2\\right|&lt;5\\left|x-2\\right|&lt;0.001(\\because 3&lt;x+2&lt;5),\\,\\,\\varphi\\\\&amp;\\text{即只须} \\left|x-2\\right|&lt;\\frac{0.001}{5}=0.0002\\,,\\,\\,\\text{故可取}\\,\\delta=0.0002\\,,\\,\\,\\text{则当} \\left|x-2\\right|&lt;\\delta\\,\\text{时，总有：}\\\\&amp;\\left|y-4\\right|&lt;0.001.\\varphi\\end{aligned}\">\\begin{aligned}&amp;\\text{先不妨设}1&lt;x&lt;3,\\,\\,\\text{要使得} \\left|y-4\\right|&lt;0.001,\\,\\,\\text{即}\\left|x^{2}-4\\right|&lt;0.001,\\,\\,\\varphi\\\\&amp;\\text{只须} \\left|x-2\\right|\\cdot\\left|x+2\\right|&lt;5\\left|x-2\\right|&lt;0.001(\\because 3&lt;x+2&lt;5),\\,\\,\\varphi\\\\&amp;\\text{即只须} \\left|x-2\\right|&lt;\\frac{0.001}{5}=0.0002\\,,\\,\\,\\text{故可取}\\,\\delta=0.0002\\,,\\,\\,\\text{则当} \\left|x-2\\right|&lt;\\delta\\,\\text{时，总有：}\\\\&amp;\\left|y-4\\right|&lt;0.001.\\varphi\\end{aligned}</div>"
     },
     {
       "id": "q0012",
       "number": 12,
       "header": "#12-Averge",
       "difficulty": "Averge",
-      "prompt_html": "<img src=\"/static/generated/assets/advanced-math/ch004/q0012_prompt.png\"/>",
+      "prompt_html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{当} x \\rightarrow 3 \\text{时，} y = \\frac { x ^ { 2 } - 9 } { x + 3 } \\text{的极限为( )}.\">\\text{当} x \\rightarrow 3 \\text{时，} y = \\frac { x ^ { 2 } - 9 } { x + 3 } \\text{的极限为( )}.</span>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch004/q0012_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\mathbf{1}\">\\mathbf{1}</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch004/q0012_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\mathbf { 0 }\">\\mathbf { 0 }</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch004/q0012_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\mathbf { - 1 }\">\\mathbf { - 1 }</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch004/q0012_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\infty\">\\infty</span>"
         }
       ],
       "answer": "B",
       "answer_index": 1,
-      "analysis_html": "<img src=\"/static/generated/assets/advanced-math/ch004/q0012_analysis.png\"/>"
+      "analysis_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\forall \\varepsilon &gt; 0, \\text{要使} \\left| \\frac{x^{2}-9}{x+3} \\right| = |x-3| &lt; \\varepsilon, \\text{只须取} \\delta = \\varepsilon, \\text{于是对于} \\forall \\varepsilon &gt; 0, \\exists \\delta &gt; 0, \\text{当} \\\\ 0 &lt; |x-3| &lt; \\delta \\text{时，总有} \\left| \\frac{x^{2}-9}{x+3} \\right| &lt; \\varepsilon, \\text{即是} \\lim_{x \\to 3} \\frac{x^{2}-9}{x+3} = 0 . \\text{.}\">\\forall \\varepsilon &gt; 0, \\text{要使} \\left| \\frac{x^{2}-9}{x+3} \\right| = |x-3| &lt; \\varepsilon, \\text{只须取} \\delta = \\varepsilon, \\text{于是对于} \\forall \\varepsilon &gt; 0, \\exists \\delta &gt; 0, \\text{当} \\\\ 0 &lt; |x-3| &lt; \\delta \\text{时，总有} \\left| \\frac{x^{2}-9}{x+3} \\right| &lt; \\varepsilon, \\text{即是} \\lim_{x \\to 3} \\frac{x^{2}-9}{x+3} = 0 . \\text{.}</div>"
     },
     {
       "id": "q0013",
       "number": 13,
       "header": "#13-Averge",
       "difficulty": "Averge",
-      "prompt_html": "<img src=\"/static/generated/assets/advanced-math/ch004/q0013_prompt.png\"/>",
+      "prompt_html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{要使极限} \\lim_{x \\to + \\infty} ( \\frac {1}{2} ) ^ { x } = 0 \\text{成立，} x \\text{需满足( ).(其中} \\varepsilon \\text{为任意正实数)}\">\\text{要使极限} \\lim_{x \\to + \\infty} ( \\frac {1}{2} ) ^ { x } = 0 \\text{成立，} x \\text{需满足( ).(其中} \\varepsilon \\text{为任意正实数)}</span>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch004/q0013_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"x &gt; \\frac{\\ln \\frac{1}{\\varepsilon}}{\\ln 3}\">x &gt; \\frac{\\ln \\frac{1}{\\varepsilon}}{\\ln 3}</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch004/q0013_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"x &gt; \\frac{\\ln \\frac{1}{\\varepsilon}}{\\ln 2}\">x &gt; \\frac{\\ln \\frac{1}{\\varepsilon}}{\\ln 2}</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch004/q0013_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"x &gt; \\frac{\\ln 2 \\varepsilon}{\\ln 2}\">x &gt; \\frac{\\ln 2 \\varepsilon}{\\ln 2}</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch004/q0013_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"x &gt; \\frac { \\ln \\varepsilon } { \\ln 2 }\">x &gt; \\frac { \\ln \\varepsilon } { \\ln 2 }</span>"
         }
       ],
       "answer": "B",
       "answer_index": 1,
-      "analysis_html": "<img src=\"/static/generated/assets/advanced-math/ch004/q0013_analysis.png\"/>"
+      "analysis_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{aligned} \\text{对于任意给定的}\\varepsilon&gt;0，\\text{要使} \\left|(\\frac{1}{2})^{x}-0\\right|=(\\frac{1}{2})^{x}&lt;\\varepsilon，\\text{只要}2^{x}&gt;\\frac{1}{\\varepsilon}, \\text{即}x&gt;\\frac{\\ln\\frac{1}{\\varepsilon}}{\\ln 2}(\\text{不妨}) \\\\ \\text{设}\\varepsilon&lt;1)\\text{就可以了}. \\text{因此对于任意给定的}\\varepsilon&gt;0，\\text{取}X=\\frac{\\ln\\frac{1}{\\varepsilon}}{\\ln 2}, \\text{则当}x&gt;X\\text{时，恒成立.} \\text{所以}x&gt;\\frac{\\ln\\frac{1}{\\varepsilon}}{\\ln 2}\\text{时，有}\\lim_{x\\rightarrow\\infty}(\\frac{1}{2})^{x}=0.\\end{aligned}\">\\begin{aligned} \\text{对于任意给定的}\\varepsilon&gt;0，\\text{要使} \\left|(\\frac{1}{2})^{x}-0\\right|=(\\frac{1}{2})^{x}&lt;\\varepsilon，\\text{只要}2^{x}&gt;\\frac{1}{\\varepsilon}, \\text{即}x&gt;\\frac{\\ln\\frac{1}{\\varepsilon}}{\\ln 2}(\\text{不妨}) \\\\ \\text{设}\\varepsilon&lt;1)\\text{就可以了}. \\text{因此对于任意给定的}\\varepsilon&gt;0，\\text{取}X=\\frac{\\ln\\frac{1}{\\varepsilon}}{\\ln 2}, \\text{则当}x&gt;X\\text{时，恒成立.} \\text{所以}x&gt;\\frac{\\ln\\frac{1}{\\varepsilon}}{\\ln 2}\\text{时，有}\\lim_{x\\rightarrow\\infty}(\\frac{1}{2})^{x}=0.\\end{aligned}</div>"
     },
     {
       "id": "q0014",
       "number": 14,
       "header": "#14-Averge",
       "difficulty": "Averge",
-      "prompt_html": "<img src=\"/static/generated/assets/advanced-math/ch004/q0014_prompt.png\"/>",
+      "prompt_html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{已知} \\lim_{x \\to x_{0}} x = x_{0}, \\text{则满足} 0 &lt; |x-x_{0}| &lt; \\delta \\text{中的} \\delta \\text{应取为} (\\quad). (\\text{其中} \\varepsilon \\text{为任意正实数}).\">\\text{已知} \\lim_{x \\to x_{0}} x = x_{0}, \\text{则满足} 0 &lt; |x-x_{0}| &lt; \\delta \\text{中的} \\delta \\text{应取为} (\\quad). (\\text{其中} \\varepsilon \\text{为任意正实数}).</span>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch004/q0014_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{不能确定}\">\\text{不能确定}</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch004/q0014_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\delta {=} \\frac{\\varepsilon}{2}\">\\delta {=} \\frac{\\varepsilon}{2}</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch004/q0014_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\delta {=} \\frac{\\varepsilon}{3}\">\\delta {=} \\frac{\\varepsilon}{3}</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch004/q0014_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\delta \\! = \\! \\varepsilon\">\\delta \\! = \\! \\varepsilon</span>"
         }
       ],
       "answer": "D",
       "answer_index": 3,
-      "analysis_html": "<img src=\"/static/generated/assets/advanced-math/ch004/q0014_analysis.png\"/>"
+      "analysis_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{aligned}&amp;\\because \\left|f(x)-A\\right|=\\left|x-x_{0}\\right| \\ ,\\ \\text{任给}\\ \\varepsilon&gt;0\\ ,\\ \\text{取}\\ \\delta=\\varepsilon\\ ,\\ \\text{当}\\ 0&lt;\\left|x-x_{0}\\right|&lt;\\delta=\\varepsilon\\ \\text{时}\\ ,\\\\&amp;\\left|f(x)-A\\right|=\\left|x-x_{0}\\right|&lt;\\varepsilon\\ \\text{成立}\\ ,\\ \\therefore \\lim_{x\\rightarrow x_{0}}x=x_{0}\\,,^{\\epsilon}\\end{aligned}\">\\begin{aligned}&amp;\\because \\left|f(x)-A\\right|=\\left|x-x_{0}\\right| \\ ,\\ \\text{任给}\\ \\varepsilon&gt;0\\ ,\\ \\text{取}\\ \\delta=\\varepsilon\\ ,\\ \\text{当}\\ 0&lt;\\left|x-x_{0}\\right|&lt;\\delta=\\varepsilon\\ \\text{时}\\ ,\\\\&amp;\\left|f(x)-A\\right|=\\left|x-x_{0}\\right|&lt;\\varepsilon\\ \\text{成立}\\ ,\\ \\therefore \\lim_{x\\rightarrow x_{0}}x=x_{0}\\,,^{\\epsilon}\\end{aligned}</div>"
     },
     {
       "id": "q0015",
       "number": 15,
       "header": "#15-Averge",
       "difficulty": "Averge",
-      "prompt_html": "<img src=\"/static/generated/assets/advanced-math/ch004/q0015_prompt.png\"/>",
+      "prompt_html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{设函数}y= \\frac{x^{2}-1}{x-1},\\text{当} |x-1|&lt;\\delta \\text{时，} |y-2|&lt;0.5, \\text{则} \\delta=(\\ \\ ).\">\\text{设函数}y= \\frac{x^{2}-1}{x-1},\\text{当} |x-1|&lt;\\delta \\text{时，} |y-2|&lt;0.5, \\text{则} \\delta=(\\ \\ ).</span>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch004/q0015_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"0.5\">0.5</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch004/q0015_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"0.7\">0.7</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch004/q0015_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"0 . 6 \\textcircled { ; }\">0 . 6 \\textcircled { ; }</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch004/q0015_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\mathbf { 1 }\">\\mathbf { 1 }</span>"
         }
       ],
       "answer": "A",
       "answer_index": 0,
-      "analysis_html": "<img src=\"/static/generated/assets/advanced-math/ch004/q0015_analysis.png\"/>"
+      "analysis_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{aligned}&amp; \\text{欲使} |y-2|&lt;0.5\\text{，即} \\\\&amp; |y-2| = |\\frac{x^2-1}{x-1}-2| = |\\frac{(x-1)^2}{x-1}|&lt;0.5\\text{.} \\\\&amp; \\text{从而}\\quad\\quad 0&lt;|x-1|&lt;0.5\\text{.} \\\\&amp; \\text{即当} 0&lt;|x-1|&lt;0.5 \\text{时，} \\ |y-2|&lt;0.5\\text{.}\\end{aligned}\">\\begin{aligned}&amp; \\text{欲使} |y-2|&lt;0.5\\text{，即} \\\\&amp; |y-2| = |\\frac{x^2-1}{x-1}-2| = |\\frac{(x-1)^2}{x-1}|&lt;0.5\\text{.} \\\\&amp; \\text{从而}\\quad\\quad 0&lt;|x-1|&lt;0.5\\text{.} \\\\&amp; \\text{即当} 0&lt;|x-1|&lt;0.5 \\text{时，} \\ |y-2|&lt;0.5\\text{.}\\end{aligned}</div>"
     },
     {
       "id": "q0016",
       "number": 16,
       "header": "#16-Averge",
       "difficulty": "Averge",
-      "prompt_html": "<img src=\"/static/generated/assets/advanced-math/ch004/q0016_prompt.png\"/>",
+      "prompt_html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{若} \\lim_{x \\to x_{0}} f(x)=A, \\text{则函数} f(x) \\text{在} x_{0} \\text{的某个去心邻域内有界，那么其界的最小值} M \\text{为( ).(其中} \\varepsilon \\text{为任意正实数)}\">\\text{若} \\lim_{x \\to x_{0}} f(x)=A, \\text{则函数} f(x) \\text{在} x_{0} \\text{的某个去心邻域内有界，那么其界的最小值} M \\text{为( ).(其中} \\varepsilon \\text{为任意正实数)}</span>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch004/q0016_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\left| A - \\varepsilon \\right|\">\\left| A - \\varepsilon \\right|</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch004/q0016_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\left| A + \\varepsilon \\right|\">\\left| A + \\varepsilon \\right|</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch004/q0016_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\boldsymbol { A }\">\\boldsymbol { A }</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch004/q0016_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\max \\{ | A - \\varepsilon | , | A + \\varepsilon | \\}\">\\max \\{ | A - \\varepsilon | , | A + \\varepsilon | \\}</span>"
         }
       ],
       "answer": "D",
       "answer_index": 3,
-      "analysis_html": "<img src=\"/static/generated/assets/advanced-math/ch004/q0016_analysis.png\"/>"
+      "analysis_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{aligned}&amp;\\text{设}\\lim_{x\\rightarrow x_{0}}f(x)=A\\,,\\,\\,\\, \\text{则}\\,\\forall\\,\\varepsilon&gt;0\\,,\\,\\,\\,\\exists\\,\\delta&gt;0\\,,\\,\\,\\, \\text{当}\\,0&lt;|x-x_{0}|&lt;\\delta\\,\\text{时，都有}\\,\\big{|}f(x)-A\\big{|}&lt;\\varepsilon\\,,\\\\&amp;\\quad\\text{即}\\,\\\\&amp;A-\\varepsilon&lt;f(x)&lt;A+\\varepsilon\\,,\\,\\, \\text{取}M=\\max\\{\\big{|}A-\\varepsilon\\big{|},\\big{|}A+\\varepsilon\\big{|}\\},\\,\\, \\text{则有}\\big{|}f(x)\\big{|}&lt;M\\,.\\text{所有}f(x)\\,\\, \\text{在}x_{0}\\text{的去心邻域}\\stackrel{\\circ}{U}(x_{0},\\delta)\\,\\, \\text{内有界}.\\end{aligned}\">\\begin{aligned}&amp;\\text{设}\\lim_{x\\rightarrow x_{0}}f(x)=A\\,,\\,\\,\\, \\text{则}\\,\\forall\\,\\varepsilon&gt;0\\,,\\,\\,\\,\\exists\\,\\delta&gt;0\\,,\\,\\,\\, \\text{当}\\,0&lt;|x-x_{0}|&lt;\\delta\\,\\text{时，都有}\\,\\big{|}f(x)-A\\big{|}&lt;\\varepsilon\\,,\\\\&amp;\\quad\\text{即}\\,\\\\&amp;A-\\varepsilon&lt;f(x)&lt;A+\\varepsilon\\,,\\,\\, \\text{取}M=\\max\\{\\big{|}A-\\varepsilon\\big{|},\\big{|}A+\\varepsilon\\big{|}\\},\\,\\, \\text{则有}\\big{|}f(x)\\big{|}&lt;M\\,.\\text{所有}f(x)\\,\\, \\text{在}x_{0}\\text{的去心邻域}\\stackrel{\\circ}{U}(x_{0},\\delta)\\,\\, \\text{内有界}.\\end{aligned}</div>"
     },
     {
       "id": "q0017",
       "number": 17,
       "header": "#17-Averge",
       "difficulty": "Averge",
-      "prompt_html": "<img src=\"/static/generated/assets/advanced-math/ch004/q0017_prompt.png\"/>",
+      "prompt_html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{当} x \\rightarrow 2 \\text{时，} \\ y = 3 x + 1 \\rightarrow 7, \\text{欲使} | y - 7 | &lt; 0.001, \\text{则} \\delta \\text{应不大于( ).}\">\\text{当} x \\rightarrow 2 \\text{时，} \\ y = 3 x + 1 \\rightarrow 7, \\text{欲使} | y - 7 | &lt; 0.001, \\text{则} \\delta \\text{应不大于( ).}</span>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch004/q0017_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"0.001\">0.001</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch004/q0017_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"0.01\">0.01</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch004/q0017_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"0.0003\">0.0003</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch004/q0017_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"0.003\">0.003</span>"
         }
       ],
       "answer": "C",
       "answer_index": 2,
-      "analysis_html": "<img src=\"/static/generated/assets/advanced-math/ch004/q0017_analysis.png\"/>"
+      "analysis_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{aligned}&amp;\\text{先不妨设}1&lt;x&lt;3,\\text{要使得}|y-7|&lt;0.001, \\text{即} |3x+1-7|&lt;0.001, \\text{只须}3|x-2|&lt;0.001,\\\\&amp;\\text{即只须}|x-2|&lt;\\frac{0.001}{3}\\approx 0.0003,\\text{故可取}\\delta=0.0003,\\text{则当}|x-2|&lt;\\delta\\text{时，总有：}\\\\&amp;|y-7|&lt;0.001.\\end{aligned}\">\\begin{aligned}&amp;\\text{先不妨设}1&lt;x&lt;3,\\text{要使得}|y-7|&lt;0.001, \\text{即} |3x+1-7|&lt;0.001, \\text{只须}3|x-2|&lt;0.001,\\\\&amp;\\text{即只须}|x-2|&lt;\\frac{0.001}{3}\\approx 0.0003,\\text{故可取}\\delta=0.0003,\\text{则当}|x-2|&lt;\\delta\\text{时，总有：}\\\\&amp;|y-7|&lt;0.001.\\end{aligned}</div>"
     },
     {
       "id": "q0018",
       "number": 18,
       "header": "#18-Averge",
       "difficulty": "Averge",
-      "prompt_html": "<img src=\"/static/generated/assets/advanced-math/ch004/q0018_prompt.png\"/>",
+      "prompt_html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\lim_{x \\to 1} \\frac{x^{2}-1}{x-1} = 2, \\text{则满足} 0 &lt; |x-1| &lt; \\delta \\text{的} \\delta \\text{应取为( ).(其中} \\varepsilon \\text{为任意正实数)}.\">\\lim_{x \\to 1} \\frac{x^{2}-1}{x-1} = 2, \\text{则满足} 0 &lt; |x-1| &lt; \\delta \\text{的} \\delta \\text{应取为( ).(其中} \\varepsilon \\text{为任意正实数)}.</span>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch004/q0018_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\delta = \\varepsilon\">\\delta = \\varepsilon</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch004/q0018_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\delta = \\frac{\\varepsilon}{3}\">\\delta = \\frac{\\varepsilon}{3}</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch004/q0018_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\delta \\! = \\! \\frac { \\varepsilon } { 2 }\">\\delta \\! = \\! \\frac { \\varepsilon } { 2 }</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch004/q0018_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\delta {=} \\frac{\\varepsilon}{4}\">\\delta {=} \\frac{\\varepsilon}{4}</span>"
         }
       ],
       "answer": "A",
       "answer_index": 0,
-      "analysis_html": "<img src=\"/static/generated/assets/advanced-math/ch004/q0018_analysis.png\"/>"
+      "analysis_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{aligned}&amp;\\text{函数在点}x=1\\text{处没有定义，}\\\\&amp;\\because \\left|f(x)-A\\right|=\\frac{x^{2}-1}{x-1}-2=\\left|x-1\\right|,\\ \\text{任给}\\varepsilon&gt;0,\\ \\text{要使}\\left|f(x)-A\\right|&lt;\\varepsilon,\\ \\text{只要取}\\delta=\\varepsilon,\\ \\text{则}\\\\&amp;\\text{当}0&lt;\\left|x-1\\right|&lt;\\delta\\text{时，就有}\\frac{x^{2}-1}{x-1}-2&lt;\\varepsilon,\\ \\therefore \\lim_{x\\rightarrow 1}\\frac{x^{2}-1}{x-1}=2\\,.\\end{aligned}\">\\begin{aligned}&amp;\\text{函数在点}x=1\\text{处没有定义，}\\\\&amp;\\because \\left|f(x)-A\\right|=\\frac{x^{2}-1}{x-1}-2=\\left|x-1\\right|,\\ \\text{任给}\\varepsilon&gt;0,\\ \\text{要使}\\left|f(x)-A\\right|&lt;\\varepsilon,\\ \\text{只要取}\\delta=\\varepsilon,\\ \\text{则}\\\\&amp;\\text{当}0&lt;\\left|x-1\\right|&lt;\\delta\\text{时，就有}\\frac{x^{2}-1}{x-1}-2&lt;\\varepsilon,\\ \\therefore \\lim_{x\\rightarrow 1}\\frac{x^{2}-1}{x-1}=2\\,.\\end{aligned}</div>"
     }
-  ]
+  ],
+  "format": "latex",
+  "source_md": "gs/1.3.1_函数极限的定义(18题)/1.3.1_函数极限的定义(18题).md"
 }

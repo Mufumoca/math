@@ -13,560 +13,562 @@
       "number": 1,
       "header": "#1-Averge",
       "difficulty": "Averge",
-      "prompt_html": "<img src=\"/static/generated/assets/advanced-math/ch067/q0001_prompt.png\"/>",
+      "prompt_html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{广义积分} I = \\int \\limits_{2}^{\\infty} \\frac{ \\cos ax dx}{(x-1) \\sqrt{1+x^{2}}} \\ \\ (\\ )\">\\text{广义积分} I = \\int \\limits_{2}^{\\infty} \\frac{ \\cos ax dx}{(x-1) \\sqrt{1+x^{2}}} \\ \\ (\\ )</span>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch067/q0001_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{发散}\\quad\">\\text{发散}\\quad</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch067/q0001_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{条件收敛}\">\\text{条件收敛}</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch067/q0001_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{绝对收敛}\">\\text{绝对收敛}</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch067/q0001_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{收敛性与} a \\, \\, \\text{有关。}\">\\text{收敛性与} a \\, \\, \\text{有关。}</span>"
         }
       ],
       "answer": "C",
       "answer_index": 2,
-      "analysis_html": "<img src=\"/static/generated/assets/advanced-math/ch067/q0001_analysis.png\"/>"
+      "analysis_html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\left| \\frac{\\cos a x}{(x-1) \\sqrt{1+x^{2}}} \\right| \\leq \\frac{1}{(x-1) \\sqrt{1+x^{2}}} \\sim \\frac{1}{x^{2}} \\quad(x \\rightarrow \\infty) \\quad \\text{而} \\quad I = \\int \\limits_{2}^{\\infty} \\frac{dx}{x^{2}}\">\\left| \\frac{\\cos a x}{(x-1) \\sqrt{1+x^{2}}} \\right| \\leq \\frac{1}{(x-1) \\sqrt{1+x^{2}}} \\sim \\frac{1}{x^{2}} \\quad(x \\rightarrow \\infty) \\quad \\text{而} \\quad I = \\int \\limits_{2}^{\\infty} \\frac{dx}{x^{2}}</span>"
     },
     {
       "id": "q0002",
       "number": 2,
       "header": "#2-Averge",
       "difficulty": "Averge",
-      "prompt_html": "<img src=\"/static/generated/assets/advanced-math/ch067/q0002_prompt.png\"/>",
+      "prompt_html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{下列广义积分中收敛的是（）}\">\\text{下列广义积分中收敛的是（）}</span>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch067/q0002_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\int\\limits_{0}^{1} \\frac{dx}{x^{1.2}}\">\\int\\limits_{0}^{1} \\frac{dx}{x^{1.2}}</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch067/q0002_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\int \\limits _ { 1 } ^ { 2 } \\frac { d x } { x ( \\ln x ) ^ { 2 } }\">\\int \\limits _ { 1 } ^ { 2 } \\frac { d x } { x ( \\ln x ) ^ { 2 } }</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch067/q0002_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\int\\limits_{1}^{\\infty} \\frac{1}{x\\sqrt{1+x}} dx\">\\int\\limits_{1}^{\\infty} \\frac{1}{x\\sqrt{1+x}} dx</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch067/q0002_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\int\\limits_{0}^{\\infty} \\frac{dx}{\\sqrt{1+x}}\">\\int\\limits_{0}^{\\infty} \\frac{dx}{\\sqrt{1+x}}</span>"
         }
       ],
       "answer": "C",
       "answer_index": 2,
-      "analysis_html": "<img src=\"/static/generated/assets/advanced-math/ch067/q0002_analysis.png\"/>"
+      "analysis_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{aligned}&amp;\\lim_{x \\rightarrow 1} \\frac{1}{x \\sqrt{1+x}} \\div \\frac{1}{x^{\\frac{3}{2}}} = 1 \\quad \\text{而} \\int_{1}^{\\infty} \\frac{1}{x^{\\frac{3}{2}}} dx \\text{收敛}\\\\&amp;\\int_{0}^{\\infty} \\frac{1}{\\sqrt{1+x}} \\, dx = 2 \\sqrt{1+x} \\int_{0}^{\\infty} \\quad \\text{发散}\\\\&amp;\\int_{0}^{1} \\frac{dx}{x^{1.2}} = - \\frac{1}{0.2} x^{-0.2} \\int_{0}^{1} \\quad , \\text{发散}\\\\&amp;\\int_{1}^{2} \\frac{dx}{x (\\ln x)^{2}} = - \\frac{1}{\\ln x} \\int_{1}^{2} \\quad \\text{发散}\\end{aligned}\">\\begin{aligned}&amp;\\lim_{x \\rightarrow 1} \\frac{1}{x \\sqrt{1+x}} \\div \\frac{1}{x^{\\frac{3}{2}}} = 1 \\quad \\text{而} \\int_{1}^{\\infty} \\frac{1}{x^{\\frac{3}{2}}} dx \\text{收敛}\\\\&amp;\\int_{0}^{\\infty} \\frac{1}{\\sqrt{1+x}} \\, dx = 2 \\sqrt{1+x} \\int_{0}^{\\infty} \\quad \\text{发散}\\\\&amp;\\int_{0}^{1} \\frac{dx}{x^{1.2}} = - \\frac{1}{0.2} x^{-0.2} \\int_{0}^{1} \\quad , \\text{发散}\\\\&amp;\\int_{1}^{2} \\frac{dx}{x (\\ln x)^{2}} = - \\frac{1}{\\ln x} \\int_{1}^{2} \\quad \\text{发散}\\end{aligned}</div>"
     },
     {
       "id": "q0003",
       "number": 3,
       "header": "#3-Averge",
       "difficulty": "Averge",
-      "prompt_html": "<img src=\"/static/generated/assets/advanced-math/ch067/q0003_prompt.png\"/>",
+      "prompt_html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{若广义积分} I = \\int \\limits _ { - \\infty } ^ { 0 } e ^ { - i \\alpha } d \\alpha \\ \\text{收敛，则（）}\">\\text{若广义积分} I = \\int \\limits _ { - \\infty } ^ { 0 } e ^ { - i \\alpha } d \\alpha \\ \\text{收敛，则（）}</span>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch067/q0003_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"k &lt; 0\">k &lt; 0</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch067/q0003_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"k &gt; 0\">k &gt; 0</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch067/q0003_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"k \\geq 0\">k \\geq 0</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch067/q0003_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\begin{array}{l} { r } { k \\leq 0 } \\end{array}\">\\begin{array}{l} { r } { k \\leq 0 } \\end{array}</span>"
         }
       ],
       "answer": "A",
       "answer_index": 0,
-      "analysis_html": "<img src=\"/static/generated/assets/advanced-math/ch067/q0003_analysis.png\"/>"
+      "analysis_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{array}{l} \\text{解：} \\\\ I = \\int\\limits_{-\\infty}^{0} e^{-ix} dx = - \\frac{1}{k} e^{-ix} \\vert_{-\\infty}^{0}, \\text{可见} k &lt; 0 \\text{时收敛} \\end{array}\">\\begin{array}{l} \\text{解：} \\\\ I = \\int\\limits_{-\\infty}^{0} e^{-ix} dx = - \\frac{1}{k} e^{-ix} \\vert_{-\\infty}^{0}, \\text{可见} k &lt; 0 \\text{时收敛} \\end{array}</div>"
     },
     {
       "id": "q0004",
       "number": 4,
       "header": "#4-Averge",
       "difficulty": "Averge",
-      "prompt_html": "<img src=\"/static/generated/assets/advanced-math/ch067/q0004_prompt.png\"/>",
+      "prompt_html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\int \\limits _ { 1 } ^ { \\infty } f ^ { \\prime } ( 1 - x ) d x \\text { 收敛，应该要求下列极限哪个存在（ ）}\">\\int \\limits _ { 1 } ^ { \\infty } f ^ { \\prime } ( 1 - x ) d x \\text { 收敛，应该要求下列极限哪个存在（ ）}</span>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch067/q0004_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\lim_{x\\rightarrow -\\infty} f(x)\">\\lim_{x\\rightarrow -\\infty} f(x)</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch067/q0004_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\lim_{x \\to 0} f(\\mathrm{e}^{\\frac{1}{x}})\">\\lim_{x \\to 0} f(\\mathrm{e}^{\\frac{1}{x}})</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch067/q0004_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\lim_{x \\rightarrow 1} f(x)\">\\lim_{x \\rightarrow 1} f(x)</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch067/q0004_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\lim_{x \\to +\\infty} f(x)\">\\lim_{x \\to +\\infty} f(x)</span>"
         }
       ],
       "answer": "A",
       "answer_index": 0,
-      "analysis_html": "<img src=\"/static/generated/assets/advanced-math/ch067/q0004_analysis.png\"/>"
+      "analysis_html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\int\\limits_{1}^{\\infty} f^{\\prime}(1-x)dx = -\\int\\limits_{1}^{\\infty} f^{\\prime}(1-x)d(1-x) = f(1-x)\\big|_{\\infty}^{1},\\ \\text{当}\\lim_{x\\rightarrow\\infty}f(x)\\ \\ \\text{存在时收敛}\">\\int\\limits_{1}^{\\infty} f^{\\prime}(1-x)dx = -\\int\\limits_{1}^{\\infty} f^{\\prime}(1-x)d(1-x) = f(1-x)\\big|_{\\infty}^{1},\\ \\text{当}\\lim_{x\\rightarrow\\infty}f(x)\\ \\ \\text{存在时收敛}</span>"
     },
     {
       "id": "q0005",
       "number": 5,
       "header": "#5-Averge",
       "difficulty": "Averge",
-      "prompt_html": "<img src=\"/static/generated/assets/advanced-math/ch067/q0005_prompt.png\"/>",
+      "prompt_html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{判断广义积分} I = \\int \\limits_{\\alpha}^{+\\infty} \\frac{\\sin \\alpha x^{2} dx}{x^{2}}, (\\alpha &gt; 0) \\text{ 的敛散性（）}\">\\text{判断广义积分} I = \\int \\limits_{\\alpha}^{+\\infty} \\frac{\\sin \\alpha x^{2} dx}{x^{2}}, (\\alpha &gt; 0) \\text{ 的敛散性（）}</span>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch067/q0005_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\textbf{发散}\">\\textbf{发散}</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch067/q0005_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{无法判断}\">\\text{无法判断}</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch067/q0005_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{条件收敛}\">\\text{条件收敛}</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch067/q0005_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{绝对收敛}\">\\text{绝对收敛}</span>"
         }
       ],
       "answer": "D",
       "answer_index": 3,
-      "analysis_html": "<img src=\"/static/generated/assets/advanced-math/ch067/q0005_analysis.png\"/>"
+      "analysis_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{array}{l} \\text{解：} \\\\ \\left| \\frac{\\sin \\alpha x^{2}}{x^{2}} \\right| \\leq \\frac{1}{x^{2}} \\text{而} \\quad I = \\int\\limits_{a}^{\\infty} \\frac{dx}{x^{2}} \\quad a &gt; 0 \\\\ \\text{收敛，原来积分绝对收敛} \\end{array}\">\\begin{array}{l} \\text{解：} \\\\ \\left| \\frac{\\sin \\alpha x^{2}}{x^{2}} \\right| \\leq \\frac{1}{x^{2}} \\text{而} \\quad I = \\int\\limits_{a}^{\\infty} \\frac{dx}{x^{2}} \\quad a &gt; 0 \\\\ \\text{收敛，原来积分绝对收敛} \\end{array}</div>"
     },
     {
       "id": "q0006",
       "number": 6,
       "header": "#6-Averge",
       "difficulty": "Averge",
-      "prompt_html": "<img src=\"/static/generated/assets/advanced-math/ch067/q0006_prompt.png\"/>",
+      "prompt_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{array}{l} . \\text {广义积分} I = \\int \\limits_{0}^{+\\infty} te^{-pt} dt \\quad (\\text { }p \\text { 是常数，大于 } 0) \\text { 的值为（ } \\end{array}\">\\begin{array}{l} . \\text {广义积分} I = \\int \\limits_{0}^{+\\infty} te^{-pt} dt \\quad (\\text { }p \\text { 是常数，大于 } 0) \\text { 的值为（ } \\end{array}</div>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch067/q0006_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\frac { 1 } { 2 p }\">\\frac { 1 } { 2 p }</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch067/q0006_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\frac { 1 } { p }\">\\frac { 1 } { p }</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch067/q0006_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\frac { 1 } { p ^ { 2 } }\">\\frac { 1 } { p ^ { 2 } }</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch067/q0006_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"p\">p</span>"
         }
       ],
       "answer": "C",
       "answer_index": 2,
-      "analysis_html": "<img src=\"/static/generated/assets/advanced-math/ch067/q0006_analysis.png\"/>"
+      "analysis_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{array}{l} I = \\int\\limits_{0}^{+\\infty} t e^{-pt} dt = - \\frac{te^{-pt}}{p} \\vert_{0}^{\\infty} + \\int\\limits_{0}^{\\infty} \\frac{e^{-pt}}{p} dt = - \\frac{1}{p^{2}} e^{-pt} \\vert_{0}^{\\infty} = \\frac{1}{p^{2}} \\end{array}\">\\begin{array}{l} I = \\int\\limits_{0}^{+\\infty} t e^{-pt} dt = - \\frac{te^{-pt}}{p} \\vert_{0}^{\\infty} + \\int\\limits_{0}^{\\infty} \\frac{e^{-pt}}{p} dt = - \\frac{1}{p^{2}} e^{-pt} \\vert_{0}^{\\infty} = \\frac{1}{p^{2}} \\end{array}</div>"
     },
     {
       "id": "q0007",
       "number": 7,
       "header": "#7-Averge",
       "difficulty": "Averge",
-      "prompt_html": "<img src=\"/static/generated/assets/advanced-math/ch067/q0007_prompt.png\"/>",
+      "prompt_html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{广义积分} I = \\int \\limits _ { 1 } ^ { + \\infty } \\frac { d x } { e ^ { x + 1 } + e ^ { 3 - x } } \\text{的值为（ ）}\">\\text{广义积分} I = \\int \\limits _ { 1 } ^ { + \\infty } \\frac { d x } { e ^ { x + 1 } + e ^ { 3 - x } } \\text{的值为（ ）}</span>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch067/q0007_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\frac { \\pi } { 4 } e ^ { 2 }\">\\frac { \\pi } { 4 } e ^ { 2 }</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch067/q0007_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\frac { \\pi } { 2 } e ^ { 2 }\">\\frac { \\pi } { 2 } e ^ { 2 }</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch067/q0007_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\frac { \\pi } { 2 } e ^ { - 2 }\">\\frac { \\pi } { 2 } e ^ { - 2 }</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch067/q0007_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\frac { \\pi } { 4 } e ^ { - 2 }\">\\frac { \\pi } { 4 } e ^ { - 2 }</span>"
         }
       ],
       "answer": "D",
       "answer_index": 3,
-      "analysis_html": "<img src=\"/static/generated/assets/advanced-math/ch067/q0007_analysis.png\"/>"
+      "analysis_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{array}{l} I = \\int\\limits_{1}^{+\\infty} \\frac{d\\alpha}{e^{x+1}+e^{3-x}} = \\int\\limits_{1}^{+\\infty} \\frac{e^{x-3}d\\alpha}{e^{2(x-1)}+1} = e^{-2} \\int\\limits_{1}^{+\\infty} \\frac{e^{x-1}d\\alpha}{e^{2(x-1)}+1} = e^{-2} \\arctan e^{x-1} \\bigg|_{1}^{\\infty} = \\frac{\\pi}{4} e^{-2} \\end{array}\">\\begin{array}{l} I = \\int\\limits_{1}^{+\\infty} \\frac{d\\alpha}{e^{x+1}+e^{3-x}} = \\int\\limits_{1}^{+\\infty} \\frac{e^{x-3}d\\alpha}{e^{2(x-1)}+1} = e^{-2} \\int\\limits_{1}^{+\\infty} \\frac{e^{x-1}d\\alpha}{e^{2(x-1)}+1} = e^{-2} \\arctan e^{x-1} \\bigg|_{1}^{\\infty} = \\frac{\\pi}{4} e^{-2} \\end{array}</div>"
     },
     {
       "id": "q0008",
       "number": 8,
       "header": "#8-Averge",
       "difficulty": "Averge",
-      "prompt_html": "<img src=\"/static/generated/assets/advanced-math/ch067/q0008_prompt.png\"/>",
+      "prompt_html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{积分} I = \\int \\limits _ { - \\infty } ^ { + \\infty } \\frac { d x } { 1 + x ^ { 2 } } \\ \\text{的值为} \\ ( \\ \\ )\">\\text{积分} I = \\int \\limits _ { - \\infty } ^ { + \\infty } \\frac { d x } { 1 + x ^ { 2 } } \\ \\text{的值为} \\ ( \\ \\ )</span>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch067/q0008_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\frac { \\pi } { 2 }\">\\frac { \\pi } { 2 }</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch067/q0008_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\pi ^ { 2 }\">\\pi ^ { 2 }</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch067/q0008_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\pi\">\\pi</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch067/q0008_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"2 \\pi\">2 \\pi</span>"
         }
       ],
       "answer": "C",
       "answer_index": 2,
-      "analysis_html": "<img src=\"/static/generated/assets/advanced-math/ch067/q0008_analysis.png\"/>"
+      "analysis_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{array}{rl} \\text{解：} \\\\ I = \\int\\limits_{-\\infty}^{+\\infty} \\dfrac{dx}{1+x^{2}} &amp; = \\int\\limits_{-\\infty}^{0} \\dfrac{dx}{1+x^{2}} + \\int\\limits_{0}^{+\\infty} \\dfrac{dx}{1+x^{2}} = \\arctan x \\big|_{-\\infty}^{0} + \\arctan x \\big|_{0}^{\\infty} = \\pi \\end{array}\">\\begin{array}{rl} \\text{解：} \\\\ I = \\int\\limits_{-\\infty}^{+\\infty} \\dfrac{dx}{1+x^{2}} &amp; = \\int\\limits_{-\\infty}^{0} \\dfrac{dx}{1+x^{2}} + \\int\\limits_{0}^{+\\infty} \\dfrac{dx}{1+x^{2}} = \\arctan x \\big|_{-\\infty}^{0} + \\arctan x \\big|_{0}^{\\infty} = \\pi \\end{array}</div>"
     },
     {
       "id": "q0009",
       "number": 9,
       "header": "#9-Averge",
       "difficulty": "Averge",
-      "prompt_html": "<img src=\"/static/generated/assets/advanced-math/ch067/q0009_prompt.png\"/>",
+      "prompt_html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{若积分} I = \\int \\limits _ { 1 } ^ { \\infty } \\frac { \\ln x d x } { x ^ { q } } \\ \\text{收敛，则} q \\text{为（）}\">\\text{若积分} I = \\int \\limits _ { 1 } ^ { \\infty } \\frac { \\ln x d x } { x ^ { q } } \\ \\text{收敛，则} q \\text{为（）}</span>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch067/q0009_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"&lt; 1\">&lt; 1</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch067/q0009_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"&gt; 1\">&gt; 1</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch067/q0009_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\leq 1\">\\leq 1</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch067/q0009_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\geq 1\">\\geq 1</span>"
         }
       ],
       "answer": "B",
       "answer_index": 1,
-      "analysis_html": "<img src=\"/static/generated/assets/advanced-math/ch067/q0009_analysis.png\"/>"
+      "analysis_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{array}{l} q = 1 \\text { 时 } \\quad I = \\int\\limits_{0}^{1} \\frac{\\ln x \\, dx}{x} = \\ln \\ln x \\bigg|_{1}^{\\infty} = \\infty \\\\ q \\neq 1, \\ I = \\int\\limits_{1}^{\\infty} \\frac{\\ln x \\, dx}{x^{q}} = \\frac{x^{1-q} \\ln x}{1-q} \\bigg|_{1}^{\\infty} - \\int\\limits_{1}^{\\infty} \\frac{x^{-q}}{1-q} dx \\\\ \\text {可以看出} q &gt; 1 \\text { 时积分收敛} \\end{array}\">\\begin{array}{l} q = 1 \\text { 时 } \\quad I = \\int\\limits_{0}^{1} \\frac{\\ln x \\, dx}{x} = \\ln \\ln x \\bigg|_{1}^{\\infty} = \\infty \\\\ q \\neq 1, \\ I = \\int\\limits_{1}^{\\infty} \\frac{\\ln x \\, dx}{x^{q}} = \\frac{x^{1-q} \\ln x}{1-q} \\bigg|_{1}^{\\infty} - \\int\\limits_{1}^{\\infty} \\frac{x^{-q}}{1-q} dx \\\\ \\text {可以看出} q &gt; 1 \\text { 时积分收敛} \\end{array}</div>"
     },
     {
       "id": "q0010",
       "number": 10,
       "header": "#10-Averge",
       "difficulty": "Averge",
-      "prompt_html": "<img src=\"/static/generated/assets/advanced-math/ch067/q0010_prompt.png\"/>",
+      "prompt_html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{设广义积分} \\int \\limits_{1}^{\\infty} f^{2}(x)dx \\text{收敛，则广义积分} I=\\int \\limits_{1}^{\\infty} \\frac{f(x)}{x}dx \\text{的敛散性为（）}\">\\text{设广义积分} \\int \\limits_{1}^{\\infty} f^{2}(x)dx \\text{收敛，则广义积分} I=\\int \\limits_{1}^{\\infty} \\frac{f(x)}{x}dx \\text{的敛散性为（）}</span>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch067/q0010_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{无法判断}\">\\text{无法判断}</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch067/q0010_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{绝对收敛}\">\\text{绝对收敛}</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch067/q0010_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{条件收敛}\">\\text{条件收敛}</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch067/q0010_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{发散}\">\\text{发散}</span>"
         }
       ],
       "answer": "B",
       "answer_index": 1,
-      "analysis_html": "<img src=\"/static/generated/assets/advanced-math/ch067/q0010_analysis.png\"/>"
+      "analysis_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{array}{l} \\left| \\frac {f (x)}{x} \\right| = \\left| f (x) \\right| \\cdot \\frac {1}{x} \\leq \\frac {1}{2} (f ^ {2} (x) + \\frac {1}{x ^ {2}}) \\\\ \\text {两个积分} \\int_ {1} ^ {\\infty} f ^ {2} (x) \\, d x \\quad \\text {和} \\int_ {1} ^ {\\infty} \\frac {1}{x ^ {2}} \\, d x \\text {都收敛，原积分绝对收敛} \\end{array}\">\\begin{array}{l} \\left| \\frac {f (x)}{x} \\right| = \\left| f (x) \\right| \\cdot \\frac {1}{x} \\leq \\frac {1}{2} (f ^ {2} (x) + \\frac {1}{x ^ {2}}) \\\\ \\text {两个积分} \\int_ {1} ^ {\\infty} f ^ {2} (x) \\, d x \\quad \\text {和} \\int_ {1} ^ {\\infty} \\frac {1}{x ^ {2}} \\, d x \\text {都收敛，原积分绝对收敛} \\end{array}</div>"
     },
     {
       "id": "q0011",
       "number": 11,
       "header": "#11-Averge",
       "difficulty": "Averge",
-      "prompt_html": "<img src=\"/static/generated/assets/advanced-math/ch067/q0011_prompt.png\"/>",
+      "prompt_html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{下列广义积分中不收敛的是（）}\">\\text{下列广义积分中不收敛的是（）}</span>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch067/q0011_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\int\\limits_{1}^{\\infty} \\frac{dx}{x(x^{2}+1)}\">\\int\\limits_{1}^{\\infty} \\frac{dx}{x(x^{2}+1)}</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch067/q0011_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\int \\limits _ { s } ^ { \\infty } \\frac { \\ln x } { x } d x\">\\int \\limits _ { s } ^ { \\infty } \\frac { \\ln x } { x } d x</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch067/q0011_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\int\\limits_{0}^{\\infty} e^{-a x} d x \\quad\\ a&gt;0\">\\int\\limits_{0}^{\\infty} e^{-a x} d x \\quad\\ a&gt;0</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch067/q0011_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\int\\limits_{-\\infty}^{+\\infty} \\frac{dx}{x^{2}+4x+5}\">\\int\\limits_{-\\infty}^{+\\infty} \\frac{dx}{x^{2}+4x+5}</span>"
         }
       ],
       "answer": "B",
       "answer_index": 1,
-      "analysis_html": "<img src=\"/static/generated/assets/advanced-math/ch067/q0011_analysis.png\"/>"
+      "analysis_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{aligned}\\int\\limits_{e}^{\\infty}\\frac{\\ln x}{x}dx&amp;=\\ln \\ln x\\left|_{e}^{\\infty}\\right.\\ \\ \\text{发散}\\\\ \\int\\limits_{-\\infty}^{+\\infty}\\frac{dx}{x^{2}+4x+5}&amp;=\\int\\limits_{-\\infty}^{+\\infty}\\frac{d(x+2)}{(x+2)^{2}+1}=\\arctan(x+2)\\left|_{-\\infty}^{\\infty}\\right.\\ \\ \\text{收敛}\\\\ \\int\\limits_{1}^{\\infty}\\frac{dx}{x(x^{2}+1)}&amp;=\\int\\limits_{1}^{\\infty}\\frac{xdx}{x^{2}(x^{2}+1)}=\\frac{1}{2}\\int\\limits_{1}^{\\infty}\\frac{dx^{2}}{x^{2}(x^{2}+1)}\\\\ &amp;=\\frac{1}{2}\\int\\limits_{1}^{\\infty}\\frac{dx^{2}}{x^{2}}-\\frac{1}{2}\\int\\limits_{1}^{\\infty}\\frac{dx^{2}}{x^{2}+1}=\\frac{1}{2}\\ln\\frac{x^{2}}{x^{2}+1}\\left|_{1}^{\\infty}\\right.\\ \\ \\text{收敛}\\end{aligned}\">\\begin{aligned}\\int\\limits_{e}^{\\infty}\\frac{\\ln x}{x}dx&amp;=\\ln \\ln x\\left|_{e}^{\\infty}\\right.\\ \\ \\text{发散}\\\\ \\int\\limits_{-\\infty}^{+\\infty}\\frac{dx}{x^{2}+4x+5}&amp;=\\int\\limits_{-\\infty}^{+\\infty}\\frac{d(x+2)}{(x+2)^{2}+1}=\\arctan(x+2)\\left|_{-\\infty}^{\\infty}\\right.\\ \\ \\text{收敛}\\\\ \\int\\limits_{1}^{\\infty}\\frac{dx}{x(x^{2}+1)}&amp;=\\int\\limits_{1}^{\\infty}\\frac{xdx}{x^{2}(x^{2}+1)}=\\frac{1}{2}\\int\\limits_{1}^{\\infty}\\frac{dx^{2}}{x^{2}(x^{2}+1)}\\\\ &amp;=\\frac{1}{2}\\int\\limits_{1}^{\\infty}\\frac{dx^{2}}{x^{2}}-\\frac{1}{2}\\int\\limits_{1}^{\\infty}\\frac{dx^{2}}{x^{2}+1}=\\frac{1}{2}\\ln\\frac{x^{2}}{x^{2}+1}\\left|_{1}^{\\infty}\\right.\\ \\ \\text{收敛}\\end{aligned}</div>"
     },
     {
       "id": "q0012",
       "number": 12,
       "header": "#12-Averge",
       "difficulty": "Averge",
-      "prompt_html": "<img src=\"/static/generated/assets/advanced-math/ch067/q0012_prompt.png\"/>",
+      "prompt_html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{广义积分}I_{n}=\\int\\limits_{0}^{+\\infty}x^{n}e^{-x}dx\\text{的值为（ ）}n\\text{是正整数}\">\\text{广义积分}I_{n}=\\int\\limits_{0}^{+\\infty}x^{n}e^{-x}dx\\text{的值为（ ）}n\\text{是正整数}</span>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch067/q0012_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"n!\">n!</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch067/q0012_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"(n - 2) !\">(n - 2) !</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch067/q0012_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"(n \\! - \\! 1) !\">(n \\! - \\! 1) !</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch067/q0012_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"(n + 1) !\">(n + 1) !</span>"
         }
       ],
       "answer": "A",
       "answer_index": 0,
-      "analysis_html": "<img src=\"/static/generated/assets/advanced-math/ch067/q0012_analysis.png\"/>"
+      "analysis_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{aligned}I_n&amp;=\\int\\limits_{0}^{+\\infty}x^{n}e^{-x}dx=-x^{n}e^{-x}\\Big|_{0}^{\\infty}+\\int\\limits_{0}^{\\infty}nx^{n-1}e^{-x}dx=nI_{n-1}\\\\I_n&amp;=nI_{n-1}=n(n-1)I_{n-2}=\\cdots=n!I_{0}=n!\\int\\limits_{0}^{\\infty}e^{-x}dx=n!\\end{aligned}\">\\begin{aligned}I_n&amp;=\\int\\limits_{0}^{+\\infty}x^{n}e^{-x}dx=-x^{n}e^{-x}\\Big|_{0}^{\\infty}+\\int\\limits_{0}^{\\infty}nx^{n-1}e^{-x}dx=nI_{n-1}\\\\I_n&amp;=nI_{n-1}=n(n-1)I_{n-2}=\\cdots=n!I_{0}=n!\\int\\limits_{0}^{\\infty}e^{-x}dx=n!\\end{aligned}</div>"
     },
     {
       "id": "q0013",
       "number": 13,
       "header": "#13-Averge",
       "difficulty": "Averge",
-      "prompt_html": "<img src=\"/static/generated/assets/advanced-math/ch067/q0013_prompt.png\"/>",
+      "prompt_html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{判断广义积分}I=\\int\\limits_{a}^{\\infty}\\frac{\\sin x^{3}dx}{x^{2}}\\quad a&gt;0\\text{ 的敛散性（ ）}\">\\text{判断广义积分}I=\\int\\limits_{a}^{\\infty}\\frac{\\sin x^{3}dx}{x^{2}}\\quad a&gt;0\\text{ 的敛散性（ ）}</span>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch067/q0013_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\textbf{发散}\">\\textbf{发散}</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch067/q0013_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{无法判断}\">\\text{无法判断}</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch067/q0013_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{条件收敛}\">\\text{条件收敛}</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch067/q0013_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{绝对收敛}\">\\text{绝对收敛}</span>"
         }
       ],
       "answer": "D",
       "answer_index": 3,
-      "analysis_html": "<img src=\"/static/generated/assets/advanced-math/ch067/q0013_analysis.png\"/>"
+      "analysis_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{array}{l} \\text{解：} \\\\ \\left| \\frac{\\sin x^{3}}{x^{2}} \\right| \\leq \\frac{1}{x^{2}} \\ \\ \\text{而} \\ \\ \\ \\ I = \\int\\limits_{a}^{\\infty} \\frac{dx}{x^{2}} \\ \\ \\ \\ a &gt; 0 \\\\ \\text{收敛，原来积分绝对收敛} \\end{array}\">\\begin{array}{l} \\text{解：} \\\\ \\left| \\frac{\\sin x^{3}}{x^{2}} \\right| \\leq \\frac{1}{x^{2}} \\ \\ \\text{而} \\ \\ \\ \\ I = \\int\\limits_{a}^{\\infty} \\frac{dx}{x^{2}} \\ \\ \\ \\ a &gt; 0 \\\\ \\text{收敛，原来积分绝对收敛} \\end{array}</div>"
     },
     {
       "id": "q0014",
       "number": 14,
       "header": "#14-Averge",
       "difficulty": "Averge",
-      "prompt_html": "<img src=\"/static/generated/assets/advanced-math/ch067/q0014_prompt.png\"/>",
+      "prompt_html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{若} \\lim_{x \\rightarrow \\infty } \\left( \\frac{x+c}{x-c} \\right)^{x} = \\int \\limits_{- \\infty }^{c} te^{2t}dt，\\text{则} c \\text{为（）}\">\\text{若} \\lim_{x \\rightarrow \\infty } \\left( \\frac{x+c}{x-c} \\right)^{x} = \\int \\limits_{- \\infty }^{c} te^{2t}dt，\\text{则} c \\text{为（）}</span>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch067/q0014_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\frac{2}{5}\">\\frac{2}{5}</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch067/q0014_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\frac{2}{5}\">\\frac{2}{5}</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch067/q0014_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\frac { 5 } { 2 }\">\\frac { 5 } { 2 }</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch067/q0014_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\frac{5}{2}\">\\frac{5}{2}</span>"
         }
       ],
       "answer": "D",
       "answer_index": 3,
-      "analysis_html": "<img src=\"/static/generated/assets/advanced-math/ch067/q0014_analysis.png\"/>"
+      "analysis_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{aligned} \\text{解：} \\\\ \\text{左边} = &amp; \\lim_{x \\rightarrow \\infty} \\frac{\\left( 1 + \\frac{c}{x} \\right)^{x}}{\\left( 1 - \\frac{c}{x} \\right)^{x}} = e^{2c} \\\\ \\text{右边} = &amp; \\frac{1}{2}te^{2t} \\vert_{-\\infty}^{c} - \\int_{-\\infty}^{c} \\frac{1}{2}e^{2t}dt = \\frac{2c-1}{4}e^{2c}, \\text{ 解出} c = \\frac{5}{2} \\end{aligned}\">\\begin{aligned} \\text{解：} \\\\ \\text{左边} = &amp; \\lim_{x \\rightarrow \\infty} \\frac{\\left( 1 + \\frac{c}{x} \\right)^{x}}{\\left( 1 - \\frac{c}{x} \\right)^{x}} = e^{2c} \\\\ \\text{右边} = &amp; \\frac{1}{2}te^{2t} \\vert_{-\\infty}^{c} - \\int_{-\\infty}^{c} \\frac{1}{2}e^{2t}dt = \\frac{2c-1}{4}e^{2c}, \\text{ 解出} c = \\frac{5}{2} \\end{aligned}</div>"
     },
     {
       "id": "q0015",
       "number": 15,
       "header": "#15-Averge",
       "difficulty": "Averge",
-      "prompt_html": "<img src=\"/static/generated/assets/advanced-math/ch067/q0015_prompt.png\"/>",
+      "prompt_html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{广义积分} I = \\int \\limits _ { - \\infty } ^ { + \\infty } \\frac { 1 } { \\sqrt { 2 \\pi } } e ^ { - \\frac { x ^ { 2 } } { 2 } } d x \\text{ 的值为（ ）}\">\\text{广义积分} I = \\int \\limits _ { - \\infty } ^ { + \\infty } \\frac { 1 } { \\sqrt { 2 \\pi } } e ^ { - \\frac { x ^ { 2 } } { 2 } } d x \\text{ 的值为（ ）}</span>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch067/q0015_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\infty\">\\infty</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch067/q0015_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\mathbf { 0 }\">\\mathbf { 0 }</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch067/q0015_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\mathbf { 1 }\">\\mathbf { 1 }</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch067/q0015_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\textcolor{blue}{2}\">\\textcolor{blue}{2}</span>"
         }
       ],
       "answer": "C",
       "answer_index": 2,
-      "analysis_html": "<img src=\"/static/generated/assets/advanced-math/ch067/q0015_analysis.png\"/>"
+      "analysis_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{array}{l} \\text {解：} \\\\ \\text {利用} I = \\int\\limits_{-\\infty}^{+\\infty} e^{-x^{2}} dx = \\sqrt{\\pi} \\\\ I = \\int\\limits_{-\\infty}^{+\\infty} \\frac{1}{\\sqrt{2\\pi}} e^{-\\frac{x^{2}}{2}} dx = \\int\\limits_{-\\infty}^{+\\infty} \\frac{1}{\\sqrt{2\\pi}} e^{-t^{2}} \\sqrt{2} dt = \\frac{\\sqrt{\\pi}}{\\sqrt{\\pi}} = 1 \\text {（设} t = \\frac{x}{\\sqrt{2}} \\text {)} \\end{array}\">\\begin{array}{l} \\text {解：} \\\\ \\text {利用} I = \\int\\limits_{-\\infty}^{+\\infty} e^{-x^{2}} dx = \\sqrt{\\pi} \\\\ I = \\int\\limits_{-\\infty}^{+\\infty} \\frac{1}{\\sqrt{2\\pi}} e^{-\\frac{x^{2}}{2}} dx = \\int\\limits_{-\\infty}^{+\\infty} \\frac{1}{\\sqrt{2\\pi}} e^{-t^{2}} \\sqrt{2} dt = \\frac{\\sqrt{\\pi}}{\\sqrt{\\pi}} = 1 \\text {（设} t = \\frac{x}{\\sqrt{2}} \\text {)} \\end{array}</div>"
     },
     {
       "id": "q0016",
       "number": 16,
       "header": "#16-Averge",
       "difficulty": "Averge",
-      "prompt_html": "<img src=\"/static/generated/assets/advanced-math/ch067/q0016_prompt.png\"/>",
+      "prompt_html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{下列广义积分中收敛的是（）}\">\\text{下列广义积分中收敛的是（）}</span>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch067/q0016_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\int \\limits _ { s } ^ { \\infty } \\frac { 1 } { x \\sqrt { \\ln x } } d x\">\\int \\limits _ { s } ^ { \\infty } \\frac { 1 } { x \\sqrt { \\ln x } } d x</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch067/q0016_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\int\\limits_{s}^{\\infty} \\frac{1}{x \\ln x} dx\">\\int\\limits_{s}^{\\infty} \\frac{1}{x \\ln x} dx</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch067/q0016_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\int\\limits_{s}^{\\infty} \\frac{1}{\\left(x \\ln x\\right)^{2}} dx\">\\int\\limits_{s}^{\\infty} \\frac{1}{\\left(x \\ln x\\right)^{2}} dx</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch067/q0016_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\int \\limits _ { s } ^ { \\infty } \\frac { \\ln x } { x } d x\">\\int \\limits _ { s } ^ { \\infty } \\frac { \\ln x } { x } d x</span>"
         }
       ],
       "answer": "C",
       "answer_index": 2,
-      "analysis_html": "<img src=\"/static/generated/assets/advanced-math/ch067/q0016_analysis.png\"/>"
+      "analysis_html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\frac { 1 } { ( x \\ln x ) ^ { 2 } } &lt; \\frac { 1 } { x ^ { 2 } } \\; \\; , \\; \\; \\text {而} \\; \\; \\; \\; \\; I = \\int \\limits _ { \\varepsilon } ^ { \\infty } \\frac { d x } { x ^ { 2 } }\">\\frac { 1 } { ( x \\ln x ) ^ { 2 } } &lt; \\frac { 1 } { x ^ { 2 } } \\; \\; , \\; \\; \\text {而} \\; \\; \\; \\; \\; I = \\int \\limits _ { \\varepsilon } ^ { \\infty } \\frac { d x } { x ^ { 2 } }</span>"
     },
     {
       "id": "q0017",
       "number": 17,
       "header": "#17-Averge",
       "difficulty": "Averge",
-      "prompt_html": "<img src=\"/static/generated/assets/advanced-math/ch067/q0017_prompt.png\"/>",
+      "prompt_html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{广义积分} \\, I = \\int \\limits _ { 0 } ^ { \\infty } \\frac { \\arctan \\alpha x } { x ^ { \\lambda } } d x \\, \\text{收敛的充要条件为（）}\">\\text{广义积分} \\, I = \\int \\limits _ { 0 } ^ { \\infty } \\frac { \\arctan \\alpha x } { x ^ { \\lambda } } d x \\, \\text{收敛的充要条件为（）}</span>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch067/q0017_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\lambda \\leq 2\">\\lambda \\leq 2</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch067/q0017_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\alpha &gt; 0\">\\alpha &gt; 0</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch067/q0017_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\lambda \\! \\geq \\! 1\">\\lambda \\! \\geq \\! 1</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch067/q0017_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\lambda { &gt; } 1\">\\lambda { &gt; } 1</span>"
         }
       ],
       "answer": "D",
       "answer_index": 3,
-      "analysis_html": "<img src=\"/static/generated/assets/advanced-math/ch067/q0017_analysis.png\"/>"
+      "analysis_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{aligned}&amp;\\text{解：}\\\\&amp;\\text{由}\\arctan\\alpha x&lt;M\\ \\ \\text{有界，根据比较审敛法。}\\end{aligned}\">\\begin{aligned}&amp;\\text{解：}\\\\&amp;\\text{由}\\arctan\\alpha x&lt;M\\ \\ \\text{有界，根据比较审敛法。}\\end{aligned}</div>"
     },
     {
       "id": "q0018",
       "number": 18,
       "header": "#18-Averge",
       "difficulty": "Averge",
-      "prompt_html": "<img src=\"/static/generated/assets/advanced-math/ch067/q0018_prompt.png\"/>",
+      "prompt_html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\int \\limits _ { 2 } ^ { \\infty } \\frac { d x } { x ( \\ln x ) ^ { k } } \\text {收敛和发散时，}k \\text {的取值是（）}\">\\int \\limits _ { 2 } ^ { \\infty } \\frac { d x } { x ( \\ln x ) ^ { k } } \\text {收敛和发散时，}k \\text {的取值是（）}</span>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch067/q0018_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\, k \\leq 1 , k &gt; 1\">\\, k \\leq 1 , k &gt; 1</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch067/q0018_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\begin{array}{l} { r } { k &lt; 1 , k \\geq 1 } \\end{array}\">\\begin{array}{l} { r } { k &lt; 1 , k \\geq 1 } \\end{array}</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch067/q0018_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"k &gt; 1, k \\leq 1\">k &gt; 1, k \\leq 1</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch067/q0018_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\, k \\geq 1 , k &lt; 1\">\\, k \\geq 1 , k &lt; 1</span>"
         }
       ],
       "answer": "C",
       "answer_index": 2,
-      "analysis_html": "<img src=\"/static/generated/assets/advanced-math/ch067/q0018_analysis.png\"/>"
+      "analysis_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{aligned}&amp;\\text{解：}\\ k=1\\ \\text{时}\\int\\limits_{\\frac{\\pi}{2}}^{\\infty}\\frac{dx}{x(\\ln x)^{k}}=\\ln \\ln x\\bigg|_{2}^{\\infty}\\ \\text{发散}\\\\&amp;k\\neq 1\\ \\text{时}\\int\\limits_{\\frac{\\pi}{2}}^{\\infty}\\frac{dx}{x(\\ln x)^{k}}=\\int\\limits_{2}^{\\infty}\\frac{d\\ln x}{(\\ln x)^{k}}=\\frac{1}{1-k}(\\ln x)^{1-k}\\bigg|_{2}^{\\infty},\\ \\ k&gt;1\\ \\text{时收敛}\\end{aligned}\">\\begin{aligned}&amp;\\text{解：}\\ k=1\\ \\text{时}\\int\\limits_{\\frac{\\pi}{2}}^{\\infty}\\frac{dx}{x(\\ln x)^{k}}=\\ln \\ln x\\bigg|_{2}^{\\infty}\\ \\text{发散}\\\\&amp;k\\neq 1\\ \\text{时}\\int\\limits_{\\frac{\\pi}{2}}^{\\infty}\\frac{dx}{x(\\ln x)^{k}}=\\int\\limits_{2}^{\\infty}\\frac{d\\ln x}{(\\ln x)^{k}}=\\frac{1}{1-k}(\\ln x)^{1-k}\\bigg|_{2}^{\\infty},\\ \\ k&gt;1\\ \\text{时收敛}\\end{aligned}</div>"
     },
     {
       "id": "q0019",
       "number": 19,
       "header": "#19-Averge",
       "difficulty": "Averge",
-      "prompt_html": "<img src=\"/static/generated/assets/advanced-math/ch067/q0019_prompt.png\"/>",
+      "prompt_html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{积分} I = \\int \\limits_{0} ^ { \\infty } e ^ { - x } d x \\ \\text{的值为（）}\">\\text{积分} I = \\int \\limits_{0} ^ { \\infty } e ^ { - x } d x \\ \\text{的值为（）}</span>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch067/q0019_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\substack{\\text{- 1}}\">\\substack{\\text{- 1}}</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch067/q0019_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\mathbf { 1 }\">\\mathbf { 1 }</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch067/q0019_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\infty\">\\infty</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch067/q0019_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\boldsymbol { 0 }\">\\boldsymbol { 0 }</span>"
         }
       ],
       "answer": "B",
       "answer_index": 1,
-      "analysis_html": "<img src=\"/static/generated/assets/advanced-math/ch067/q0019_analysis.png\"/>"
+      "analysis_html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{解：} \\quad I = \\int \\limits_{0}^{\\infty} e^{-x} dx = -e^{-x} \\Bigl|_{0}^{\\infty} = 1\">\\text{解：} \\quad I = \\int \\limits_{0}^{\\infty} e^{-x} dx = -e^{-x} \\Bigl|_{0}^{\\infty} = 1</span>"
     },
     {
       "id": "q0020",
       "number": 20,
       "header": "#20-Averge",
       "difficulty": "Averge",
-      "prompt_html": "<img src=\"/static/generated/assets/advanced-math/ch067/q0020_prompt.png\"/>",
+      "prompt_html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{下列广义积分中收敛的是（）}\">\\text{下列广义积分中收敛的是（）}</span>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch067/q0020_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\int\\limits_{1}^{\\infty} \\frac{x}{\\sqrt{x^{5}+x^{2}+1}}dx\">\\int\\limits_{1}^{\\infty} \\frac{x}{\\sqrt{x^{5}+x^{2}+1}}dx</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch067/q0020_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\int\\limits_{0}^{\\infty} \\frac{dx}{\\sqrt{1+x}}\">\\int\\limits_{0}^{\\infty} \\frac{dx}{\\sqrt{1+x}}</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch067/q0020_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\int\\limits_{0}^{1} \\frac{dx}{x^{1.2}}\">\\int\\limits_{0}^{1} \\frac{dx}{x^{1.2}}</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch067/q0020_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\int\\limits_{1}^{2} \\frac{dx}{x(\\ln x)^{2}}\">\\int\\limits_{1}^{2} \\frac{dx}{x(\\ln x)^{2}}</span>"
         }
       ],
       "answer": "A",
       "answer_index": 0,
-      "analysis_html": "<img src=\"/static/generated/assets/advanced-math/ch067/q0020_analysis.png\"/>"
+      "analysis_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{aligned}A&amp;\\quad\\lim_{x\\rightarrow \\infty}\\frac{x}{\\sqrt{x^{5}+x^{2}+1}}+\\frac{1}{x^{2}}=1\\quad \\text{而}\\int_{\\frac{3}{2}}^{\\infty}\\frac{1}{x^{2}}dx\\text{收敛}\\\\B&amp;\\quad\\int_{0}^{\\infty}\\frac{1}{\\sqrt{1+x}}\\,dx=2\\sqrt{1+x}\\left|_{0}^{\\infty}\\right.\\quad\\text{发散}\\\\C&amp;\\quad\\int_{0}^{1}\\frac{dx}{x^{\\frac{1}{1.2}}}=-\\frac{1}{0.2}x^{-0.2}\\left|_{0}^{1}\\right.\\quad\\text{发散}\\\\D&amp;\\quad\\int_{1}^{2}\\frac{dx}{x(\\ln x)^{2}}=-\\frac{1}{\\ln x}\\left|_{1}^{2}\\right.\\quad\\text{发散}\\end{aligned}\">\\begin{aligned}A&amp;\\quad\\lim_{x\\rightarrow \\infty}\\frac{x}{\\sqrt{x^{5}+x^{2}+1}}+\\frac{1}{x^{2}}=1\\quad \\text{而}\\int_{\\frac{3}{2}}^{\\infty}\\frac{1}{x^{2}}dx\\text{收敛}\\\\B&amp;\\quad\\int_{0}^{\\infty}\\frac{1}{\\sqrt{1+x}}\\,dx=2\\sqrt{1+x}\\left|_{0}^{\\infty}\\right.\\quad\\text{发散}\\\\C&amp;\\quad\\int_{0}^{1}\\frac{dx}{x^{\\frac{1}{1.2}}}=-\\frac{1}{0.2}x^{-0.2}\\left|_{0}^{1}\\right.\\quad\\text{发散}\\\\D&amp;\\quad\\int_{1}^{2}\\frac{dx}{x(\\ln x)^{2}}=-\\frac{1}{\\ln x}\\left|_{1}^{2}\\right.\\quad\\text{发散}\\end{aligned}</div>"
     }
-  ]
+  ],
+  "format": "latex",
+  "source_md": "gs/4.5.1_含无穷积分限的反常积分(20题)/4.5.1_含无穷积分限的反常积分(20题).md"
 }

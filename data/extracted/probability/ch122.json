@@ -13,112 +13,114 @@
       "number": 1,
       "header": "#1-Averge",
       "difficulty": "Averge",
-      "prompt_html": "<img src=\"/static/generated/assets/probability/ch122/q0001_prompt.png\"/>",
+      "prompt_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{array}{l} \\text {设两位化验员}A,B,\\text{独立地对某种聚合物含氯量用相同的方法各作}10\\text{次测定}，\\text{其测定值的样本方差依次为}\\\\ s_{1}^{2}=0.5419,s_{2}^{2}=0.6065.\\ \\text {设}\\sigma_{1}^{2},\\sigma_{2}^{2}\\text{分别为}A,B\\text{所测定的测定值的总体方差}，\\text{又设总体均为正态的}，\\text{两样本独立}，\\text{则方差比}\\sigma_{1}^{2}/\\sigma_{2}^{2}\\text{的置信水平为}0.95\\text{的置信区间为}（\\ .）. \\end{array}\">\\begin{array}{l} \\text {设两位化验员}A,B,\\text{独立地对某种聚合物含氯量用相同的方法各作}10\\text{次测定}，\\text{其测定值的样本方差依次为}\\\\ s_{1}^{2}=0.5419,s_{2}^{2}=0.6065.\\ \\text {设}\\sigma_{1}^{2},\\sigma_{2}^{2}\\text{分别为}A,B\\text{所测定的测定值的总体方差}，\\text{又设总体均为正态的}，\\text{两样本独立}，\\text{则方差比}\\sigma_{1}^{2}/\\sigma_{2}^{2}\\text{的置信水平为}0.95\\text{的置信区间为}（\\ .）. \\end{array}</div>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/probability/ch122/q0001_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"(0.222,\\,3.601)\">(0.222,\\,3.601)</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/probability/ch122/q0001_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"(0.222,\\,2.601)\">(0.222,\\,2.601)</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/probability/ch122/q0001_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"(0.222 , \\, 13.601 )\">(0.222 , \\, 13.601 )</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/probability/ch122/q0001_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"(0.202,\\,3.601)\">(0.202,\\,3.601)</span>"
         }
       ],
       "answer": "A",
       "answer_index": 0,
-      "analysis_html": "<img src=\"/static/generated/assets/probability/ch122/q0001_analysis.png\"/>"
+      "analysis_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{aligned}&amp;\\text{选用随机变量} &amp; F=\\frac{s_{A}^{2}}{\\sigma_{A}^{2}}/\\frac{s_{B}^{2}}{\\sigma_{B}^{2}}\\sim F(n_{1}-1,n_{2}-1),\\\\&amp;\\text{依题意，已知}s_{i}^{2}=0.5419,\\ s_{n}^{2}=0.6065,\\ n_{1}=n_{2}=10.\\\\&amp;\\text{对于}1-\\alpha=0.95,\\ \\text{查}F\\text{分布表得}F_{0.025}(9,9)=\\frac{1}{4.03}=\\frac{1}{4.03},\\ \\text{于是得}\\frac{\\sigma_{A}^{2}}{\\sigma_{B}^{2}}\\text{的0.95的置信区间为}\\\\&amp;\\quad\\left(\\frac{s_{A}^{2}}{s_{B}^{2}}\\frac{1}{F_{w_{2}}(9,9)},\\frac{s_{A}^{2}}{s_{B}^{2}}\\frac{F_{w_{2}}(9,9)}{4.03}\\right)\\approx(0.222,3.601).\\end{aligned}\">\\begin{aligned}&amp;\\text{选用随机变量} &amp; F=\\frac{s_{A}^{2}}{\\sigma_{A}^{2}}/\\frac{s_{B}^{2}}{\\sigma_{B}^{2}}\\sim F(n_{1}-1,n_{2}-1),\\\\&amp;\\text{依题意，已知}s_{i}^{2}=0.5419,\\ s_{n}^{2}=0.6065,\\ n_{1}=n_{2}=10.\\\\&amp;\\text{对于}1-\\alpha=0.95,\\ \\text{查}F\\text{分布表得}F_{0.025}(9,9)=\\frac{1}{4.03}=\\frac{1}{4.03},\\ \\text{于是得}\\frac{\\sigma_{A}^{2}}{\\sigma_{B}^{2}}\\text{的0.95的置信区间为}\\\\&amp;\\quad\\left(\\frac{s_{A}^{2}}{s_{B}^{2}}\\frac{1}{F_{w_{2}}(9,9)},\\frac{s_{A}^{2}}{s_{B}^{2}}\\frac{F_{w_{2}}(9,9)}{4.03}\\right)\\approx(0.222,3.601).\\end{aligned}</div>"
     },
     {
       "id": "q0002",
       "number": 2,
       "header": "#2-Averge",
       "difficulty": "Averge",
-      "prompt_html": "<img src=\"/static/generated/assets/probability/ch122/q0002_prompt.png\"/>",
+      "prompt_html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{两家电影公司出品的影片放映时间如表所示，假设放映时间均服正态分布，则电影公司的影片放映时间方差比的置信度为} 90 \\% \\text{的置信区间为} ( \\ \\ ) .\">\\text{两家电影公司出品的影片放映时间如表所示，假设放映时间均服正态分布，则电影公司的影片放映时间方差比的置信度为} 90 \\% \\text{的置信区间为} ( \\ \\ ) .</span>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/probability/ch122/q0002_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"(0.016 , \\, 0.453 )\">(0.016 , \\, 0.453 )</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/probability/ch122/q0002_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"(0.116,\\,0.453)\">(0.116,\\,0.453)</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/probability/ch122/q0002_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"(0.016,\\,0.253)\">(0.016,\\,0.253)</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/probability/ch122/q0002_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"(0.016, \\, 0.353)\">(0.016, \\, 0.353)</span>"
         }
       ],
       "answer": "A",
       "answer_index": 0,
-      "analysis_html": "<img src=\"/static/generated/assets/probability/ch122/q0002_analysis.png\"/>"
+      "analysis_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{aligned}&amp;\\text{由所给数据算出}\\quad\\overline{x_1}=98.40,\\ \\overline{x_2}=110.71,\\ s_1^2=8.73^3,\\ s_2^2=32.19^2,\\ n_1=5,\\ n_2=7.\\\\&amp;\\text{因为是求方差比的区间估计，故选用F分布变量，即}\\quad F=\\frac{S_1^2}{S_2^2}\\frac{\\sigma_1^2}{\\sigma_2^2}\\sim F(n_1-1,\\,n_2-1).\\\\&amp;\\text{对于置信度}1-\\alpha,\\text{取双侧概率相等的置信区间为}\\quad\\left(\\frac{S_1^2}{S_2^2},\\frac{1}{F_{\\alpha/2}(n_1-1,\\,n_2-1)},\\frac{S_1^2}{S_2^2}F_{\\alpha/2}(n_2-1,\\,n_1-1)\\right).\\\\&amp;\\text{本题所给}1-\\alpha=0.90,\\ \\alpha=0.10,\\ \\frac{\\alpha}{2}=0.05,\\,n_1=5,\\,n_2=7.\\\\&amp;\\text{查}F\\text{分布表得}\\quad F_{0.05}(6,\\,4)=6.16,\\ F_{0.05}(4,\\,6)=4.53,\\ \\frac{s_1^2}{s_2^2}=\\frac{8,\\,73^2}{32.19^2}=0.0376,\\\\&amp;\\text{于是}\\frac{\\sigma_1^2}{\\sigma_2^2}\\text{的}0.90\\text{的置信区间为}\\left(0.073\\times\\frac{1}{4.53},\\,0.0736\\times6.16\\right),\\text{即}(0.016,\\,0.453).\\end{aligned}\">\\begin{aligned}&amp;\\text{由所给数据算出}\\quad\\overline{x_1}=98.40,\\ \\overline{x_2}=110.71,\\ s_1^2=8.73^3,\\ s_2^2=32.19^2,\\ n_1=5,\\ n_2=7.\\\\&amp;\\text{因为是求方差比的区间估计，故选用F分布变量，即}\\quad F=\\frac{S_1^2}{S_2^2}\\frac{\\sigma_1^2}{\\sigma_2^2}\\sim F(n_1-1,\\,n_2-1).\\\\&amp;\\text{对于置信度}1-\\alpha,\\text{取双侧概率相等的置信区间为}\\quad\\left(\\frac{S_1^2}{S_2^2},\\frac{1}{F_{\\alpha/2}(n_1-1,\\,n_2-1)},\\frac{S_1^2}{S_2^2}F_{\\alpha/2}(n_2-1,\\,n_1-1)\\right).\\\\&amp;\\text{本题所给}1-\\alpha=0.90,\\ \\alpha=0.10,\\ \\frac{\\alpha}{2}=0.05,\\,n_1=5,\\,n_2=7.\\\\&amp;\\text{查}F\\text{分布表得}\\quad F_{0.05}(6,\\,4)=6.16,\\ F_{0.05}(4,\\,6)=4.53,\\ \\frac{s_1^2}{s_2^2}=\\frac{8,\\,73^2}{32.19^2}=0.0376,\\\\&amp;\\text{于是}\\frac{\\sigma_1^2}{\\sigma_2^2}\\text{的}0.90\\text{的置信区间为}\\left(0.073\\times\\frac{1}{4.53},\\,0.0736\\times6.16\\right),\\text{即}(0.016,\\,0.453).\\end{aligned}</div>"
     },
     {
       "id": "q0003",
       "number": 3,
       "header": "#3-Hard",
       "difficulty": "Hard",
-      "prompt_html": "<img src=\"/static/generated/assets/probability/ch122/q0003_prompt.png\"/>",
+      "prompt_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{array}{l} \\text {设正态总体} \\lambda \\text {服从正态分布} N(\\mu_{1},\\sigma_{1}^{2}), \\text {正态总体} \\gamma \\text {服从正态分布} N(\\mu_{2},\\sigma_{2}^{2}), \\text {其中} \\mu_{1},\\mu_{2},\\sigma_{1}^{2},\\sigma_{2}^{2} \\text {皆未知.} \\\\ \\text {设} X_{1},X_{2},\\cdots,X_{r} \\text {是来自总体} \\lambda \\text {的样本，} Y_{1},Y_{2},\\cdots,Y_{12} \\text {是来自总体} Y \\text {的样本，两样本独立，} S_{1}^{i},S_{2}^{i} \\text {分别为两样本的样本方差.则两总体方差之比} \\frac{\\sigma_{1}^{2}}{\\sigma_{2}^{2}} \\text {的置信度为} 90\\% \\text {的置信区间为（）.} \\end{array}\">\\begin{array}{l} \\text {设正态总体} \\lambda \\text {服从正态分布} N(\\mu_{1},\\sigma_{1}^{2}), \\text {正态总体} \\gamma \\text {服从正态分布} N(\\mu_{2},\\sigma_{2}^{2}), \\text {其中} \\mu_{1},\\mu_{2},\\sigma_{1}^{2},\\sigma_{2}^{2} \\text {皆未知.} \\\\ \\text {设} X_{1},X_{2},\\cdots,X_{r} \\text {是来自总体} \\lambda \\text {的样本，} Y_{1},Y_{2},\\cdots,Y_{12} \\text {是来自总体} Y \\text {的样本，两样本独立，} S_{1}^{i},S_{2}^{i} \\text {分别为两样本的样本方差.则两总体方差之比} \\frac{\\sigma_{1}^{2}}{\\sigma_{2}^{2}} \\text {的置信度为} 90\\% \\text {的置信区间为（）.} \\end{array}</div>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/probability/ch122/q0003_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"(\\frac{S_{1}^{2}}{S_{2}^{2}}\\frac{1}{F_{0.05}(11,7)},\\ \\frac{S_{1}^{2}}{S_{2}^{2}}F_{0.05}(7,11))\">(\\frac{S_{1}^{2}}{S_{2}^{2}}\\frac{1}{F_{0.05}(11,7)},\\ \\frac{S_{1}^{2}}{S_{2}^{2}}F_{0.05}(7,11))</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/probability/ch122/q0003_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"(\\frac{S_{1}^{2}}{S_{2}^{2}}F_{0.05}(11,7),\\ \\frac{S_{1}^{2}}{S_{2}^{2}}F_{0.95}(11,7))\">(\\frac{S_{1}^{2}}{S_{2}^{2}}F_{0.05}(11,7),\\ \\frac{S_{1}^{2}}{S_{2}^{2}}F_{0.95}(11,7))</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/probability/ch122/q0003_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"(\\frac{S_{1}^{2}}{S_{2}^{2}}\\frac{1}{F_{0.05}(11,7)},\\ \\frac{S_{1}^{2}}{S_{2}^{2}}F_{0.95}(11,7))\">(\\frac{S_{1}^{2}}{S_{2}^{2}}\\frac{1}{F_{0.05}(11,7)},\\ \\frac{S_{1}^{2}}{S_{2}^{2}}F_{0.95}(11,7))</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/probability/ch122/q0003_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"(\\frac{S_{1}^{2}}{S_{2}^{2}}\\frac{1}{F_{0.05}(11,7)},\\,\\frac{S_{1}^{2}}{S_{2}^{2}}\\frac{1}{F_{0.05}(7,11)})\">(\\frac{S_{1}^{2}}{S_{2}^{2}}\\frac{1}{F_{0.05}(11,7)},\\,\\frac{S_{1}^{2}}{S_{2}^{2}}\\frac{1}{F_{0.05}(7,11)})</span>"
         }
       ],
       "answer": "A",
       "answer_index": 0,
-      "analysis_html": "<img src=\"/static/generated/assets/probability/ch122/q0003_analysis.png\"/>"
+      "analysis_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{aligned}&amp;\\frac{\\alpha}{2}=0.05,\\;n_1=8,\\;n_2=12,\\; \\text{故置信区间为}(\\frac{S_1^2}{S_2^2}\\frac{1}{F_{0.05}(7,11)},\\frac{S_1^2}{S_2^2}\\frac{1}{F_{0.95}(7,11)}).\\\\&amp;F_{0.95}(7,11)=\\frac{1}{F_{0.05}(11,7)},\\; \\text{得置信区间}(\\frac{S_1^2}{S_2^2}\\frac{1}{F_{0.05}(11,7)},\\frac{S_1^2}{S_2^2}F_{0.05}(7,11)).\\end{aligned}\">\\begin{aligned}&amp;\\frac{\\alpha}{2}=0.05,\\;n_1=8,\\;n_2=12,\\; \\text{故置信区间为}(\\frac{S_1^2}{S_2^2}\\frac{1}{F_{0.05}(7,11)},\\frac{S_1^2}{S_2^2}\\frac{1}{F_{0.95}(7,11)}).\\\\&amp;F_{0.95}(7,11)=\\frac{1}{F_{0.05}(11,7)},\\; \\text{得置信区间}(\\frac{S_1^2}{S_2^2}\\frac{1}{F_{0.05}(11,7)},\\frac{S_1^2}{S_2^2}F_{0.05}(7,11)).\\end{aligned}</div>"
     },
     {
       "id": "q0004",
       "number": 4,
       "header": "#4-Averge",
       "difficulty": "Averge",
-      "prompt_html": "<img src=\"/static/generated/assets/probability/ch122/q0004_prompt.png\"/>",
+      "prompt_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{array}{l} \\text {设总体} \\lambda \\text {与} Y \\text {分别服从正态分布} N(\\mu_{1},\\sigma_{1}^{2}) \\text {与} N(\\mu_{2},\\sigma_{2}^{2})，\\text{其中} \\mu_{1},\\mu_{2},\\sigma_{1}^{2},\\sigma_{2}^{2} \\text {未知，} X_{1},X_{2},\\cdots,X_{n} \\text {与} Y_{1},Y_{2},\\cdots,Y_{m} \\text {分别是总体} \\lambda \\text {与} Y \\text {的简单随机样本，} S_{1}^{2},S_{2}^{2} \\text {分别是两个样本的方差，则} \\frac{\\sigma_{1}^{2}}{\\sigma_{2}^{2}} \\text {的} 1-\\alpha \\text {置信区间为（.）.} \\end{array}\">\\begin{array}{l} \\text {设总体} \\lambda \\text {与} Y \\text {分别服从正态分布} N(\\mu_{1},\\sigma_{1}^{2}) \\text {与} N(\\mu_{2},\\sigma_{2}^{2})，\\text{其中} \\mu_{1},\\mu_{2},\\sigma_{1}^{2},\\sigma_{2}^{2} \\text {未知，} X_{1},X_{2},\\cdots,X_{n} \\text {与} Y_{1},Y_{2},\\cdots,Y_{m} \\text {分别是总体} \\lambda \\text {与} Y \\text {的简单随机样本，} S_{1}^{2},S_{2}^{2} \\text {分别是两个样本的方差，则} \\frac{\\sigma_{1}^{2}}{\\sigma_{2}^{2}} \\text {的} 1-\\alpha \\text {置信区间为（.）.} \\end{array}</div>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/probability/ch122/q0004_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\begin{aligned}(\\frac{S_1^2/S_2^2}{F_{a/2}(n-1,m-1)},\\frac{S_1^2/S_2^2}{F_{1-a/2}(n-1,m-1)}\\ )\\end{aligned}\">\\begin{aligned}(\\frac{S_1^2/S_2^2}{F_{a/2}(n-1,m-1)},\\frac{S_1^2/S_2^2}{F_{1-a/2}(n-1,m-1)}\\ )\\end{aligned}</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/probability/ch122/q0004_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"(\\frac{S_{1}^{2}/S_{2}^{2}}{F_{a}(n,m)},\\frac{S_{1}^{2}/S_{2}^{2}}{F_{1-a}(n,m)})\">(\\frac{S_{1}^{2}/S_{2}^{2}}{F_{a}(n,m)},\\frac{S_{1}^{2}/S_{2}^{2}}{F_{1-a}(n,m)})</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/probability/ch122/q0004_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\begin{aligned}(\\frac{S_1^2/S_2^2}{F_a(n-1,m-1)}, \\frac{S_1^2/S_2^2}{F_{1-a}(n-1,m-1)})\\end{aligned}\">\\begin{aligned}(\\frac{S_1^2/S_2^2}{F_a(n-1,m-1)}, \\frac{S_1^2/S_2^2}{F_{1-a}(n-1,m-1)})\\end{aligned}</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/probability/ch122/q0004_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"(\\ \\frac{S_{1}^{2}/S_{2}^{2}}{F_{\\alpha/2}(n,m)}\\,,\\,\\frac{S_{1}^{2}/S_{2}^{2}}{F_{1-\\alpha/2}(n,m)})\">(\\ \\frac{S_{1}^{2}/S_{2}^{2}}{F_{\\alpha/2}(n,m)}\\,,\\,\\frac{S_{1}^{2}/S_{2}^{2}}{F_{1-\\alpha/2}(n,m)})</span>"
         }
       ],
       "answer": "A",
       "answer_index": 0,
-      "analysis_html": "<img src=\"/static/generated/assets/probability/ch122/q0004_analysis.png\"/>"
+      "analysis_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{aligned}\\text{双正态总体方差比}\\frac{\\sigma_{1}^{2}}{\\sigma_{2}^{2}}\\text{的}1-\\alpha\\text{置信区间为}\\left(\\frac{S_{1}^{2}/S_{2}^{2}}{F_{\\alpha/2}(n-1,m-1)},\\frac{S_{1}^{2}/S_{2}^{2}}{F_{1-\\alpha/2}(n-1,m-1)}\\right).\\end{aligned}\">\\begin{aligned}\\text{双正态总体方差比}\\frac{\\sigma_{1}^{2}}{\\sigma_{2}^{2}}\\text{的}1-\\alpha\\text{置信区间为}\\left(\\frac{S_{1}^{2}/S_{2}^{2}}{F_{\\alpha/2}(n-1,m-1)},\\frac{S_{1}^{2}/S_{2}^{2}}{F_{1-\\alpha/2}(n-1,m-1)}\\right).\\end{aligned}</div>"
     }
-  ]
+  ],
+  "format": "latex",
+  "source_md": "gl/7.3.2.2_方差比的区间估计(4题)/7.3.2.2_方差比的区间估计(4题).md"
 }

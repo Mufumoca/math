@@ -13,1344 +13,1346 @@
       "number": 1,
       "header": "#1-Averge",
       "difficulty": "Averge",
-      "prompt_html": "<img src=\"/static/generated/assets/advanced-math/ch012/q0001_prompt.png\"/>",
+      "prompt_html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{当} x \\rightarrow 0 \\text{时，} \\frac{1}{4} ( \\cos 3 x - \\cos x ) \\text{是} x^{2} \\text{的( )}\">\\text{当} x \\rightarrow 0 \\text{时，} \\frac{1}{4} ( \\cos 3 x - \\cos x ) \\text{是} x^{2} \\text{的( )}</span>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch012/q0001_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{等价无穷小}\">\\text{等价无穷小}</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch012/q0001_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{同阶但是不是等价无穷小}\">\\text{同阶但是不是等价无穷小}</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch012/q0001_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{低阶无穷小}\">\\text{低阶无穷小}</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch012/q0001_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\textbf{高阶无穷小}\">\\textbf{高阶无穷小}</span>"
         }
       ],
       "answer": "B",
       "answer_index": 1,
-      "analysis_html": "<img src=\"/static/generated/assets/advanced-math/ch012/q0001_analysis.png\"/>"
+      "analysis_html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\lim_{x \\to 0} \\frac{4^{\\frac{1}{4}(\\cos 3x - \\cos x)}}{x^{2}} = \\lim_{x \\to 0} \\frac{-2 \\sin 2x \\cdot \\sin x}{4x^{2}} = \\lim_{x \\to 0} \\frac{-2 \\cdot 2x \\cdot x}{4x^{2}} = -1 \\ , \\ \\text{所以当} \\ x \\to 0 \\ \\text{时,} \\ \\frac{1}{4}(\\cos 3x - \\cos x) \\text{是} x^{2} \\ \\text{的同阶但不是等价无穷小.}\">\\lim_{x \\to 0} \\frac{4^{\\frac{1}{4}(\\cos 3x - \\cos x)}}{x^{2}} = \\lim_{x \\to 0} \\frac{-2 \\sin 2x \\cdot \\sin x}{4x^{2}} = \\lim_{x \\to 0} \\frac{-2 \\cdot 2x \\cdot x}{4x^{2}} = -1 \\ , \\ \\text{所以当} \\ x \\to 0 \\ \\text{时,} \\ \\frac{1}{4}(\\cos 3x - \\cos x) \\text{是} x^{2} \\ \\text{的同阶但不是等价无穷小.}</span>"
     },
     {
       "id": "q0002",
       "number": 2,
       "header": "#2-Averge",
       "difficulty": "Averge",
-      "prompt_html": "<img src=\"/static/generated/assets/advanced-math/ch012/q0002_prompt.png\"/>",
+      "prompt_html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{当} x \\rightarrow 0 \\text{时，与} x \\text{为等价无穷小量的是( )}.\">\\text{当} x \\rightarrow 0 \\text{时，与} x \\text{为等价无穷小量的是( )}.</span>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch012/q0002_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"x\\bigl( x - \\sin x \\bigr)\">x\\bigl( x - \\sin x \\bigr)</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch012/q0002_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\ln \\left( 1 - x \\right)\">\\ln \\left( 1 - x \\right)</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch012/q0002_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\sin 2 x\">\\sin 2 x</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch012/q0002_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\sqrt { 1 + x } - \\sqrt { 1 - x }\">\\sqrt { 1 + x } - \\sqrt { 1 - x }</span>"
         }
       ],
       "answer": "D",
       "answer_index": 3,
-      "analysis_html": "<img src=\"/static/generated/assets/advanced-math/ch012/q0002_analysis.png\"/>"
+      "analysis_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{aligned}&amp;\\text{解答：}\\sin 2x \\text{与} 2x \\text{等价；}\\ln(1-x) \\text{与}-x \\text{等价；}\\sqrt{1+x}-\\sqrt{1-x} \\text{与} x \\text{等价；}\\\\&amp;x(x-\\sin x) \\text{与} \\frac{x^{4}}{3!} \\text{等价.}\\end{aligned}\">\\begin{aligned}&amp;\\text{解答：}\\sin 2x \\text{与} 2x \\text{等价；}\\ln(1-x) \\text{与}-x \\text{等价；}\\sqrt{1+x}-\\sqrt{1-x} \\text{与} x \\text{等价；}\\\\&amp;x(x-\\sin x) \\text{与} \\frac{x^{4}}{3!} \\text{等价.}\\end{aligned}</div>"
     },
     {
       "id": "q0003",
       "number": 3,
       "header": "#3-Averge",
       "difficulty": "Averge",
-      "prompt_html": "<img src=\"/static/generated/assets/advanced-math/ch012/q0003_prompt.png\"/>",
+      "prompt_html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\lim_{x \\to 0} \\frac{e^{x} - e^{-x}}{x(1-x^{2})} \\text{ 的值为( )}.\">\\lim_{x \\to 0} \\frac{e^{x} - e^{-x}}{x(1-x^{2})} \\text{ 的值为( )}.</span>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch012/q0003_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\mathbf { 1 }\">\\mathbf { 1 }</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch012/q0003_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\textbf { 2 }\">\\textbf { 2 }</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch012/q0003_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\mathbf { 3 } \\cdot\">\\mathbf { 3 } \\cdot</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch012/q0003_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\boldsymbol { 0 }\">\\boldsymbol { 0 }</span>"
         }
       ],
       "answer": "B",
       "answer_index": 1,
-      "analysis_html": "<img src=\"/static/generated/assets/advanced-math/ch012/q0003_analysis.png\"/>"
+      "analysis_html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\lim_{x\\to 0}\\frac{e^{x}-e^{-x}}{x\\left(1-x^{2}\\right)}=\\lim_{x\\to 0}\\frac{1}{e^{x}}\\cdot\\frac{e^{2x}-1}{x\\left(1-x^{2}\\right)}=\\lim_{x\\to 0}\\frac{1}{e^{x}}\\cdot\\frac{2x}{x\\left(1-x^{2}\\right)}=2\\,.\">\\lim_{x\\to 0}\\frac{e^{x}-e^{-x}}{x\\left(1-x^{2}\\right)}=\\lim_{x\\to 0}\\frac{1}{e^{x}}\\cdot\\frac{e^{2x}-1}{x\\left(1-x^{2}\\right)}=\\lim_{x\\to 0}\\frac{1}{e^{x}}\\cdot\\frac{2x}{x\\left(1-x^{2}\\right)}=2\\,.</span>"
     },
     {
       "id": "q0004",
       "number": 4,
       "header": "#4-Averge",
       "difficulty": "Averge",
-      "prompt_html": "<img src=\"/static/generated/assets/advanced-math/ch012/q0004_prompt.png\"/>",
+      "prompt_html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{当} x \\rightarrow 0 \\text{时，} \\arcsin \\left( \\sqrt{4+x^{2}}-2 \\right) \\text{是} x \\text{的[ } \\quad ] \\text{阶无穷小}\">\\text{当} x \\rightarrow 0 \\text{时，} \\arcsin \\left( \\sqrt{4+x^{2}}-2 \\right) \\text{是} x \\text{的[ } \\quad ] \\text{阶无穷小}</span>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch012/q0004_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"4\">4</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch012/q0004_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"3\">3</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch012/q0004_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\mathbf { 2 }\">\\mathbf { 2 }</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch012/q0004_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\mathbf { 1 }\">\\mathbf { 1 }</span>"
         }
       ],
       "answer": "C",
       "answer_index": 2,
-      "analysis_html": "<img src=\"/static/generated/assets/advanced-math/ch012/q0004_analysis.png\"/>"
+      "analysis_html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\lim_{x \\to 0} \\frac{ \\arcsin \\left( \\sqrt{4+x^{2}}-2 \\right)}{x^{2}} = \\lim_{x \\to 0} \\frac{ \\frac{\\sqrt{4+x^{2}}}{x^{2}}-2}{x^{2}} = \\lim_{x \\to 0} \\frac{x^{2}}{x^{2} \\left( \\sqrt{4+x^{2}}+2 \\right)} = \\frac{1}{4}.\">\\lim_{x \\to 0} \\frac{ \\arcsin \\left( \\sqrt{4+x^{2}}-2 \\right)}{x^{2}} = \\lim_{x \\to 0} \\frac{ \\frac{\\sqrt{4+x^{2}}}{x^{2}}-2}{x^{2}} = \\lim_{x \\to 0} \\frac{x^{2}}{x^{2} \\left( \\sqrt{4+x^{2}}+2 \\right)} = \\frac{1}{4}.</span>"
     },
     {
       "id": "q0005",
       "number": 5,
       "header": "#5-Averge",
       "difficulty": "Averge",
-      "prompt_html": "<img src=\"/static/generated/assets/advanced-math/ch012/q0005_prompt.png\"/>",
+      "prompt_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{array}{l} \\text {当} x \\rightarrow a \\text {时，} f(x), g(x) \\text {分别是} x-a \\text {的} n \\text {阶与} m \\text {阶无穷小，则下列命题中，正确的个数是[ ].} \\\\ \\textcircled{1} f(x) g(x) \\text {是} x-a \\text {的} n+m \\text {阶无穷小；} \\\\ \\textcircled{2} \\text {若} n &gt; m, \\text {则} \\frac{f(x)}{g(x)} \\text {是} x-a \\text {的} n-m \\text {阶无穷小；} \\\\ \\textcircled{3} \\text {若} n \\leq m, \\text {则} f(x)+g(x) \\text {是} x-a \\text {的} n \\text {阶无穷小；} \\end{array}\">\\begin{array}{l} \\text {当} x \\rightarrow a \\text {时，} f(x), g(x) \\text {分别是} x-a \\text {的} n \\text {阶与} m \\text {阶无穷小，则下列命题中，正确的个数是[ ].} \\\\ \\textcircled{1} f(x) g(x) \\text {是} x-a \\text {的} n+m \\text {阶无穷小；} \\\\ \\textcircled{2} \\text {若} n &gt; m, \\text {则} \\frac{f(x)}{g(x)} \\text {是} x-a \\text {的} n-m \\text {阶无穷小；} \\\\ \\textcircled{3} \\text {若} n \\leq m, \\text {则} f(x)+g(x) \\text {是} x-a \\text {的} n \\text {阶无穷小；} \\end{array}</div>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch012/q0005_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\mathbf { 1 } :\">\\mathbf { 1 } :</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch012/q0005_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\textbf{0.}\">\\textbf{0.}</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch012/q0005_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"3\">3</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch012/q0005_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\textbf { 2 }\">\\textbf { 2 }</span>"
         }
       ],
       "answer": "D",
       "answer_index": 3,
-      "analysis_html": "<img src=\"/static/generated/assets/advanced-math/ch012/q0005_analysis.png\"/>"
+      "analysis_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{array}{l} \\text {由无穷小阶的定义,知道结论1和2是正确的.注意若}n&lt;m,\\,f(x)+g(x) \\\\ \\text {是}x-a \\text {的}n \\text {阶无穷小,若}n=m\\,, \\text {则}f(x)+g(x) \\text {是}x-a \\text {的}n \\text {阶或高于}n \\text {阶} \\\\ \\text {的无穷小.} \\end{array}\">\\begin{array}{l} \\text {由无穷小阶的定义,知道结论1和2是正确的.注意若}n&lt;m,\\,f(x)+g(x) \\\\ \\text {是}x-a \\text {的}n \\text {阶无穷小,若}n=m\\,, \\text {则}f(x)+g(x) \\text {是}x-a \\text {的}n \\text {阶或高于}n \\text {阶} \\\\ \\text {的无穷小.} \\end{array}</div>"
     },
     {
       "id": "q0006",
       "number": 6,
       "header": "#6-Averge",
       "difficulty": "Averge",
-      "prompt_html": "<img src=\"/static/generated/assets/advanced-math/ch012/q0006_prompt.png\"/>",
+      "prompt_html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{若} \\lim_{x \\to 0} \\frac{ \\sqrt{1+f(x) \\sin x}-1}{e^{3x}-1}=2, \\text{则} \\lim_{x \\to 0} f(x) \\text{的值为}[ \\quad].\">\\text{若} \\lim_{x \\to 0} \\frac{ \\sqrt{1+f(x) \\sin x}-1}{e^{3x}-1}=2, \\text{则} \\lim_{x \\to 0} f(x) \\text{的值为}[ \\quad].</span>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch012/q0006_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"3\">3</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch012/q0006_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"6\">6</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch012/q0006_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\mathbf { 2 }\">\\mathbf { 2 }</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch012/q0006_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\mathbf { 12 }\">\\mathbf { 12 }</span>"
         }
       ],
       "answer": "D",
       "answer_index": 3,
-      "analysis_html": "<img src=\"/static/generated/assets/advanced-math/ch012/q0006_analysis.png\"/>"
+      "analysis_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{array}{l} \\text {解答 由已知条件，} \\lim_{x \\rightarrow 0} \\frac{\\sqrt{1+f(x)\\sin x}-1}{e^{3x}-1} = \\lim_{x \\rightarrow 0} \\frac{\\frac{1}{2}f(x)\\sin x}{3x} = \\frac{1}{6} \\lim_{x \\rightarrow 0} f(x) = 2. \\\\ \\text {因此 } \\lim_{x \\rightarrow 0} f(x) = 12. \\end{array}\">\\begin{array}{l} \\text {解答 由已知条件，} \\lim_{x \\rightarrow 0} \\frac{\\sqrt{1+f(x)\\sin x}-1}{e^{3x}-1} = \\lim_{x \\rightarrow 0} \\frac{\\frac{1}{2}f(x)\\sin x}{3x} = \\frac{1}{6} \\lim_{x \\rightarrow 0} f(x) = 2. \\\\ \\text {因此 } \\lim_{x \\rightarrow 0} f(x) = 12. \\end{array}</div>"
     },
     {
       "id": "q0007",
       "number": 7,
       "header": "#7-Averge",
       "difficulty": "Averge",
-      "prompt_html": "<img src=\"/static/generated/assets/advanced-math/ch012/q0007_prompt.png\"/>",
+      "prompt_html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{当} x \\rightarrow 0 \\text{时，} \\ a x ^ { 2 } + b x + c - \\cos x \\text{是} x ^ { 2 } \\text{的高阶无穷小，则[} \\quad ]\">\\text{当} x \\rightarrow 0 \\text{时，} \\ a x ^ { 2 } + b x + c - \\cos x \\text{是} x ^ { 2 } \\text{的高阶无穷小，则[} \\quad ]</span>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch012/q0007_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\displaystyle a = \\frac{1}{2}, b = 0, c = 0\">\\displaystyle a = \\frac{1}{2}, b = 0, c = 0</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch012/q0007_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\displaystyle a = - \\frac { 1 } { 2 } , b = 0 , c = 1\">\\displaystyle a = - \\frac { 1 } { 2 } , b = 0 , c = 1</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch012/q0007_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\displaystyle a = \\frac{1}{2}, b = 0, c = 1\">\\displaystyle a = \\frac{1}{2}, b = 0, c = 1</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch012/q0007_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\displaystyle a = - \\frac { 1 } { 2 } , b = 0 , c = 0\">\\displaystyle a = - \\frac { 1 } { 2 } , b = 0 , c = 0</span>"
         }
       ],
       "answer": "B",
       "answer_index": 1,
-      "analysis_html": "<img src=\"/static/generated/assets/advanced-math/ch012/q0007_analysis.png\"/>"
+      "analysis_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{aligned} \\text{解答 由题意，有} \\lim_{x \\rightarrow 0} \\left( ax^{2}+bx+c-\\cos x \\right) =0, \\text{于是} c=1. \\text{又} \\quad \\lim_{x \\rightarrow 0} \\frac{ax^{2}+bx+c-\\cos x}{x^{2}} = \\lim_{x \\rightarrow 0} \\left( a+ \\frac{b}{x}+ \\frac{1-\\cos x}{x^{2}} \\right) =0. \\text{所以} \\text{，} \\\\ b=0, a=-\\frac{1}{2}. \\text{，}\\end{aligned}\">\\begin{aligned} \\text{解答 由题意，有} \\lim_{x \\rightarrow 0} \\left( ax^{2}+bx+c-\\cos x \\right) =0, \\text{于是} c=1. \\text{又} \\quad \\lim_{x \\rightarrow 0} \\frac{ax^{2}+bx+c-\\cos x}{x^{2}} = \\lim_{x \\rightarrow 0} \\left( a+ \\frac{b}{x}+ \\frac{1-\\cos x}{x^{2}} \\right) =0. \\text{所以} \\text{，} \\\\ b=0, a=-\\frac{1}{2}. \\text{，}\\end{aligned}</div>"
     },
     {
       "id": "q0008",
       "number": 8,
       "header": "#8-Averge",
       "difficulty": "Averge",
-      "prompt_html": "<img src=\"/static/generated/assets/advanced-math/ch012/q0008_prompt.png\"/>",
+      "prompt_html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{当}x \\rightarrow 1 \\text{时，}\\left( 1 - x^{3} \\right)^{2} \\text{是} 1 - x \\text{的[ } \\quad ] \\text{阶无穷小}\">\\text{当}x \\rightarrow 1 \\text{时，}\\left( 1 - x^{3} \\right)^{2} \\text{是} 1 - x \\text{的[ } \\quad ] \\text{阶无穷小}</span>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch012/q0008_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"6.\">6.</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch012/q0008_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"5\">5</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch012/q0008_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"2\">2</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch012/q0008_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"3\">3</span>"
         }
       ],
       "answer": "C",
       "answer_index": 2,
-      "analysis_html": "<img src=\"/static/generated/assets/advanced-math/ch012/q0008_analysis.png\"/>"
+      "analysis_html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{由} \\ \\lim_{x \\to 0} \\frac{\\left(1-x^{3}\\right)^{2}}{\\left(1-x\\right)^{2}} = \\lim_{x \\to 0} \\frac{\\left(1-x\\right)^{2}\\left(1+x+x^{2}\\right)^{2}}{\\left(1-x\\right)^{2}} = 1\">\\text{由} \\ \\lim_{x \\to 0} \\frac{\\left(1-x^{3}\\right)^{2}}{\\left(1-x\\right)^{2}} = \\lim_{x \\to 0} \\frac{\\left(1-x\\right)^{2}\\left(1+x+x^{2}\\right)^{2}}{\\left(1-x\\right)^{2}} = 1</span>"
     },
     {
       "id": "q0009",
       "number": 9,
       "header": "#9-Averge",
       "difficulty": "Averge",
-      "prompt_html": "<img src=\"/static/generated/assets/advanced-math/ch012/q0009_prompt.png\"/>",
+      "prompt_html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{极限} \\lim_{x \\rightarrow 0} \\frac{ \\ln \\cos a x } { \\ln \\cos b x } , ( b \\neq 0 ) \\text{的值为} [ \\quad ] .\">\\text{极限} \\lim_{x \\rightarrow 0} \\frac{ \\ln \\cos a x } { \\ln \\cos b x } , ( b \\neq 0 ) \\text{的值为} [ \\quad ] .</span>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch012/q0009_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\frac{b^{2}}{a^{2}}\">\\frac{b^{2}}{a^{2}}</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch012/q0009_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"0\">0</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch012/q0009_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\frac{a^{2}}{b^{2}}\">\\frac{a^{2}}{b^{2}}</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch012/q0009_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\infty\">\\infty</span>"
         }
       ],
       "answer": "C",
       "answer_index": 2,
-      "analysis_html": "<img src=\"/static/generated/assets/advanced-math/ch012/q0009_analysis.png\"/>"
+      "analysis_html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\lim_{x \\to 0} \\frac{ \\ln \\cos a x }{ \\ln \\cos b x } = \\lim_{x \\to 0} \\frac{ \\ln \\left[ 1 + \\left( \\cos a x - 1 \\right) \\right] }{ \\ln \\left[ 1 + \\left( \\cos b x - 1 \\right) \\right] } = \\lim_{x \\to 0} \\frac{ \\cos a x - 1 }{ \\cos b x - 1 } = \\lim_{x \\to 0} \\frac{ \\frac{ 1 }{ 2 } \\left( a x \\right)^{2} }{ \\frac{ 1 }{ 2 } \\left( b x \\right)^{2} } = \\frac{ a^{2} }{ b^{2} }\">\\lim_{x \\to 0} \\frac{ \\ln \\cos a x }{ \\ln \\cos b x } = \\lim_{x \\to 0} \\frac{ \\ln \\left[ 1 + \\left( \\cos a x - 1 \\right) \\right] }{ \\ln \\left[ 1 + \\left( \\cos b x - 1 \\right) \\right] } = \\lim_{x \\to 0} \\frac{ \\cos a x - 1 }{ \\cos b x - 1 } = \\lim_{x \\to 0} \\frac{ \\frac{ 1 }{ 2 } \\left( a x \\right)^{2} }{ \\frac{ 1 }{ 2 } \\left( b x \\right)^{2} } = \\frac{ a^{2} }{ b^{2} }</span>"
     },
     {
       "id": "q0010",
       "number": 10,
       "header": "#10-Averge",
       "difficulty": "Averge",
-      "prompt_html": "<img src=\"/static/generated/assets/advanced-math/ch012/q0010_prompt.png\"/>",
+      "prompt_html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{当} x \\rightarrow 0 \\text{时，} \\sqrt{a+x^{3}}- \\sqrt{a}(a&gt;0) \\text{关于} x \\text{的阶数为}( )\">\\text{当} x \\rightarrow 0 \\text{时，} \\sqrt{a+x^{3}}- \\sqrt{a}(a&gt;0) \\text{关于} x \\text{的阶数为}( )</span>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch012/q0010_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{无穷大}\">\\text{无穷大}</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch012/q0010_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{三阶无穷小}\">\\text{三阶无穷小}</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch012/q0010_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{二阶无穷小}\">\\text{二阶无穷小}</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch012/q0010_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{四阶无穷小}\">\\text{四阶无穷小}</span>"
         }
       ],
       "answer": "B",
       "answer_index": 1,
-      "analysis_html": "<img src=\"/static/generated/assets/advanced-math/ch012/q0010_analysis.png\"/>"
+      "analysis_html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\because \\lim_{x \\to 0} \\frac{ \\sqrt{a+x^{3}}-\\sqrt{a}}{x^{3}} = \\lim_{x \\to 0} \\frac{(a+x^{3})-a}{x^{3}\\left( \\sqrt{a+x^{3}}+\\sqrt{a}\\right)} = \\lim_{x \\to 0} \\frac{1}{\\sqrt{a+x^{3}}+\\sqrt{a}} = \\frac{1}{2\\sqrt{a}}.\">\\because \\lim_{x \\to 0} \\frac{ \\sqrt{a+x^{3}}-\\sqrt{a}}{x^{3}} = \\lim_{x \\to 0} \\frac{(a+x^{3})-a}{x^{3}\\left( \\sqrt{a+x^{3}}+\\sqrt{a}\\right)} = \\lim_{x \\to 0} \\frac{1}{\\sqrt{a+x^{3}}+\\sqrt{a}} = \\frac{1}{2\\sqrt{a}}.</span>"
     },
     {
       "id": "q0011",
       "number": 11,
       "header": "#11-Averge",
       "difficulty": "Averge",
-      "prompt_html": "<img src=\"/static/generated/assets/advanced-math/ch012/q0011_prompt.png\"/>",
+      "prompt_html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\lim_{x \\rightarrow 1} \\frac{x^{2}-3x+c}{x-1}=-1, \\text{则} c \\text{的值为}( )\">\\lim_{x \\rightarrow 1} \\frac{x^{2}-3x+c}{x-1}=-1, \\text{则} c \\text{的值为}( )</span>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch012/q0011_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"^ { - 1 }\">^ { - 1 }</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch012/q0011_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\textcolor{blue}{2}\">\\textcolor{blue}{2}</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch012/q0011_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"3 \\cdot\">3 \\cdot</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch012/q0011_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\mathbf { 1 }\">\\mathbf { 1 }</span>"
         }
       ],
       "answer": "B",
       "answer_index": 1,
-      "analysis_html": "<img src=\"/static/generated/assets/advanced-math/ch012/q0011_analysis.png\"/>"
+      "analysis_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{aligned} \\text{由于极限存在不为零，且当 } \\ x \\rightarrow 1 \\text{ 时，分母趋于零，则当 } x=1 \\text{ 时} \\\\ x^{2}-3x+c=0，\\text{ 解得 } c=2.\\end{aligned}\">\\begin{aligned} \\text{由于极限存在不为零，且当 } \\ x \\rightarrow 1 \\text{ 时，分母趋于零，则当 } x=1 \\text{ 时} \\\\ x^{2}-3x+c=0，\\text{ 解得 } c=2.\\end{aligned}</div>"
     },
     {
       "id": "q0012",
       "number": 12,
       "header": "#12-Averge",
       "difficulty": "Averge",
-      "prompt_html": "<img src=\"/static/generated/assets/advanced-math/ch012/q0012_prompt.png\"/>",
+      "prompt_html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{当} x \\to 0 ^ { + } \\text{时，} \\ \\sqrt { x } \\sin ^ { 2 } x \\sim x ^ { a } , \\text{则} a \\text{等于} [ \\quad ] .\">\\text{当} x \\to 0 ^ { + } \\text{时，} \\ \\sqrt { x } \\sin ^ { 2 } x \\sim x ^ { a } , \\text{则} a \\text{等于} [ \\quad ] .</span>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch012/q0012_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"2.\">2.</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch012/q0012_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\frac{3}{2}\">\\frac{3}{2}</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch012/q0012_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\frac { 5 } { 2 }\">\\frac { 5 } { 2 }</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch012/q0012_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\frac { 1 } { 2 }\">\\frac { 1 } { 2 }</span>"
         }
       ],
       "answer": "C",
       "answer_index": 2,
-      "analysis_html": "<img src=\"/static/generated/assets/advanced-math/ch012/q0012_analysis.png\"/>"
+      "analysis_html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{当} x \\rightarrow 0 ^ { + } \\text{时，有} \\sqrt { x } \\sin ^ { 2 } x - x ^ { \\frac { 1 } { 2 } } \\cdot x ^ { 2 } = x ^ { \\frac { 5 } { 2 } } ,\">\\text{当} x \\rightarrow 0 ^ { + } \\text{时，有} \\sqrt { x } \\sin ^ { 2 } x - x ^ { \\frac { 1 } { 2 } } \\cdot x ^ { 2 } = x ^ { \\frac { 5 } { 2 } } ,</span>"
     },
     {
       "id": "q0013",
       "number": 13,
       "header": "#13-Averge",
       "difficulty": "Averge",
-      "prompt_html": "<img src=\"/static/generated/assets/advanced-math/ch012/q0013_prompt.png\"/>",
+      "prompt_html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\lim_{x \\to \\infty} \\left( \\sqrt[3]{1-x^{3}}-ax-b \\right)=0, \\text{则有[ }\">\\lim_{x \\to \\infty} \\left( \\sqrt[3]{1-x^{3}}-ax-b \\right)=0, \\text{则有[ }</span>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch012/q0013_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\boldsymbol { a } = - 1 , \\boldsymbol { b } = 0\">\\boldsymbol { a } = - 1 , \\boldsymbol { b } = 0</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch012/q0013_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\begin{array}{l} { r } { a = 0 , b = 1 } \\end{array}\">\\begin{array}{l} { r } { a = 0 , b = 1 } \\end{array}</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch012/q0013_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"a = - 1, b = 1\">a = - 1, b = 1</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch012/q0013_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"a = 1, b = 0\">a = 1, b = 0</span>"
         }
       ],
       "answer": "A",
       "answer_index": 0,
-      "analysis_html": "<img src=\"/static/generated/assets/advanced-math/ch012/q0013_analysis.png\"/>"
+      "analysis_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{array}{l}\\text{解答 由已知条件，有} \\\\ \\lim_{x \\rightarrow \\infty} \\left(\\sqrt[3]{1-x^{3}}-ax-b\\right)=\\lim_{x \\rightarrow \\infty} \\frac{\\left(\\sqrt[3]{\\frac{1}{x^{3}}-1}-a-\\frac{b}{x}\\right)}{\\frac{1}{x}}=0. \\\\ \\text{因此 }-1-a=0,a=-1. \\\\ b=\\lim_{x \\rightarrow \\infty} \\left(\\sqrt[3]{1-x^{3}}+x\\right)=\\lim_{x \\rightarrow \\infty} \\frac{1}{\\sqrt[3]{\\left(1-x^{3}\\right)^{2}-x\\sqrt[3]{1-x^{3}}+x^{2}}}=0. \\end{array}\">\\begin{array}{l}\\text{解答 由已知条件，有} \\\\ \\lim_{x \\rightarrow \\infty} \\left(\\sqrt[3]{1-x^{3}}-ax-b\\right)=\\lim_{x \\rightarrow \\infty} \\frac{\\left(\\sqrt[3]{\\frac{1}{x^{3}}-1}-a-\\frac{b}{x}\\right)}{\\frac{1}{x}}=0. \\\\ \\text{因此 }-1-a=0,a=-1. \\\\ b=\\lim_{x \\rightarrow \\infty} \\left(\\sqrt[3]{1-x^{3}}+x\\right)=\\lim_{x \\rightarrow \\infty} \\frac{1}{\\sqrt[3]{\\left(1-x^{3}\\right)^{2}-x\\sqrt[3]{1-x^{3}}+x^{2}}}=0. \\end{array}</div>"
     },
     {
       "id": "q0014",
       "number": 14,
       "header": "#14-Averge",
       "difficulty": "Averge",
-      "prompt_html": "<img src=\"/static/generated/assets/advanced-math/ch012/q0014_prompt.png\"/>",
+      "prompt_html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{当} x \\rightarrow 0 \\text{时，} \\tan x - \\sin x \\text{为} x \\text{的[ } \\quad ] \\text{阶无穷小}\">\\text{当} x \\rightarrow 0 \\text{时，} \\tan x - \\sin x \\text{为} x \\text{的[ } \\quad ] \\text{阶无穷小}</span>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch012/q0014_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\mathbf { 1 }\">\\mathbf { 1 }</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch012/q0014_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"3\">3</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch012/q0014_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"4\">4</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch012/q0014_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\textbf { 2 }\">\\textbf { 2 }</span>"
         }
       ],
       "answer": "B",
       "answer_index": 1,
-      "analysis_html": "<img src=\"/static/generated/assets/advanced-math/ch012/q0014_analysis.png\"/>"
+      "analysis_html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{由} \\lim_{x \\to 0} \\frac{ \\tan x - \\sin x }{x^{3}} = \\lim_{x \\to 0} \\frac{ \\tan x \\left( 1 - \\cos x \\right) }{x^{3}} = \\lim_{x \\to 0} \\frac{ 1 - \\cos x }{x^{2}} = \\frac{1}{2}.\">\\text{由} \\lim_{x \\to 0} \\frac{ \\tan x - \\sin x }{x^{3}} = \\lim_{x \\to 0} \\frac{ \\tan x \\left( 1 - \\cos x \\right) }{x^{3}} = \\lim_{x \\to 0} \\frac{ 1 - \\cos x }{x^{2}} = \\frac{1}{2}.</span>"
     },
     {
       "id": "q0015",
       "number": 15,
       "header": "#15-Averge",
       "difficulty": "Averge",
-      "prompt_html": "<img src=\"/static/generated/assets/advanced-math/ch012/q0015_prompt.png\"/>",
+      "prompt_html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{当} x \\rightarrow 0 \\text{时，下列说法中正确的是( )}\">\\text{当} x \\rightarrow 0 \\text{时，下列说法中正确的是( )}</span>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch012/q0015_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"x^{2}-x^{3} \\text{是比} x-x^{2} \\text{高阶的无穷小}\">x^{2}-x^{3} \\text{是比} x-x^{2} \\text{高阶的无穷小}</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch012/q0015_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\cdot \\left( \\sin x + x ^ { 2 } \\cos \\frac { 1 } { x } \\right) \\text {与} ( 1 + \\cos x ) \\ln ( 1 + x ) \\text {不是同阶无穷小}\">\\cdot \\left( \\sin x + x ^ { 2 } \\cos \\frac { 1 } { x } \\right) \\text {与} ( 1 + \\cos x ) \\ln ( 1 + x ) \\text {不是同阶无穷小}</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch012/q0015_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\cdot \\left( \\sin x + x ^ { 2 } \\cos \\frac { 1 } { x } \\right) \\text {与} ( 1 + \\cos x ) \\ln ( 1 + x ) \\text {是等价无穷小}\">\\cdot \\left( \\sin x + x ^ { 2 } \\cos \\frac { 1 } { x } \\right) \\text {与} ( 1 + \\cos x ) \\ln ( 1 + x ) \\text {是等价无穷小}</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch012/q0015_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"x - x ^ { 2 } \\text{是比} x ^ { 2 } - x ^ { 3 } \\text{高阶的无穷小}\">x - x ^ { 2 } \\text{是比} x ^ { 2 } - x ^ { 3 } \\text{高阶的无穷小}</span>"
         }
       ],
       "answer": "C",
       "answer_index": 2,
-      "analysis_html": "<img src=\"/static/generated/assets/advanced-math/ch012/q0015_analysis.png\"/>"
+      "analysis_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{aligned}&amp; \\text{由于} \\lim_{x \\rightarrow 0} \\frac{x^2-x^3}{x-x^2} = \\lim_{x \\rightarrow 0} \\frac{x-x^2}{1-x} = \\frac{0}{1} = 0, \\text{ 因此，当} x \\rightarrow 0 \\text{时，} x^2-x^3 \\text{是比} x-x^2 \\text{高阶的无穷小。}\\\\&amp; \\because \\lim_{x \\rightarrow 0} (1+\\cos x) = 2, \\text{当} x \\rightarrow 0 \\text{时，} \\ln(1+x) \\sim x.\\\\&amp; \\therefore \\lim_{x \\rightarrow 0} \\frac{\\sin x + x^2 \\cos \\frac{1}{x}}{(1+\\cos x) \\ln(1+x)} = \\lim_{x \\rightarrow 0} \\frac{\\sin x + x^2 \\cos \\frac{1}{x}}{2x} = \\lim_{x \\rightarrow 0} \\frac{1}{2} \\left( \\frac{\\sin x}{x} + x \\cos \\frac{1}{x} \\right) = \\frac{1}{2} \\neq 0 \\text{且不为} 1.\\\\&amp; \\therefore \\sin x + x^2 \\cos \\frac{1}{x} \\text{与} (1+\\cos x) \\ln(1+x) \\text{是同阶无穷小，但不是等价无穷小。}\\end{aligned}\">\\begin{aligned}&amp; \\text{由于} \\lim_{x \\rightarrow 0} \\frac{x^2-x^3}{x-x^2} = \\lim_{x \\rightarrow 0} \\frac{x-x^2}{1-x} = \\frac{0}{1} = 0, \\text{ 因此，当} x \\rightarrow 0 \\text{时，} x^2-x^3 \\text{是比} x-x^2 \\text{高阶的无穷小。}\\\\&amp; \\because \\lim_{x \\rightarrow 0} (1+\\cos x) = 2, \\text{当} x \\rightarrow 0 \\text{时，} \\ln(1+x) \\sim x.\\\\&amp; \\therefore \\lim_{x \\rightarrow 0} \\frac{\\sin x + x^2 \\cos \\frac{1}{x}}{(1+\\cos x) \\ln(1+x)} = \\lim_{x \\rightarrow 0} \\frac{\\sin x + x^2 \\cos \\frac{1}{x}}{2x} = \\lim_{x \\rightarrow 0} \\frac{1}{2} \\left( \\frac{\\sin x}{x} + x \\cos \\frac{1}{x} \\right) = \\frac{1}{2} \\neq 0 \\text{且不为} 1.\\\\&amp; \\therefore \\sin x + x^2 \\cos \\frac{1}{x} \\text{与} (1+\\cos x) \\ln(1+x) \\text{是同阶无穷小，但不是等价无穷小。}\\end{aligned}</div>"
     },
     {
       "id": "q0016",
       "number": 16,
       "header": "#16-Averge",
       "difficulty": "Averge",
-      "prompt_html": "<img src=\"/static/generated/assets/advanced-math/ch012/q0016_prompt.png\"/>",
+      "prompt_html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\lim_{x \\rightarrow 0} \\frac{e-e^{\\cos x}}{\\sqrt[3]{1+x^{2}}-1} \\text{ 的值为[ ]}\">\\lim_{x \\rightarrow 0} \\frac{e-e^{\\cos x}}{\\sqrt[3]{1+x^{2}}-1} \\text{ 的值为[ ]}</span>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch012/q0016_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"e\">e</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch012/q0016_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\frac { e } { 2 }\">\\frac { e } { 2 }</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch012/q0016_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"2 e\">2 e</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch012/q0016_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\frac { 3 e } { 2 }\">\\frac { 3 e } { 2 }</span>"
         }
       ],
       "answer": "D",
       "answer_index": 3,
-      "analysis_html": "<img src=\"/static/generated/assets/advanced-math/ch012/q0016_analysis.png\"/>"
+      "analysis_html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\lim_{x\\to 0}\\frac{e-e^{\\cos x}}{\\sqrt[3]{1+x^{2}}-1}=\\lim_{x\\to 0}\\frac{e\\left(1-e^{\\cos x-1}\\right)}{\\sqrt[3]{1+x^{2}}-1}=\\lim_{x\\to 0}\\frac{-e\\left(\\cos x-1\\right)}{\\frac{1}{3}x^{2}}=e\\lim_{x\\to 0}\\frac{\\frac{1}{2}x^{2}}{\\frac{1}{3}x^{2}}=\\frac{3}{2}e.\">\\lim_{x\\to 0}\\frac{e-e^{\\cos x}}{\\sqrt[3]{1+x^{2}}-1}=\\lim_{x\\to 0}\\frac{e\\left(1-e^{\\cos x-1}\\right)}{\\sqrt[3]{1+x^{2}}-1}=\\lim_{x\\to 0}\\frac{-e\\left(\\cos x-1\\right)}{\\frac{1}{3}x^{2}}=e\\lim_{x\\to 0}\\frac{\\frac{1}{2}x^{2}}{\\frac{1}{3}x^{2}}=\\frac{3}{2}e.</span>"
     },
     {
       "id": "q0017",
       "number": 17,
       "header": "#17-Averge",
       "difficulty": "Averge",
-      "prompt_html": "<img src=\"/static/generated/assets/advanced-math/ch012/q0017_prompt.png\"/>",
+      "prompt_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{array}{l} \\text {当}x\\rightarrow 0 \\text {时，}\\left(1+\\sin x\\right)^{x}-1 \\text {是比}x\\tan x^{n}\\text {低阶的无穷小，而}x\\tan x^{n}\\text {是比}\\\\ \\left(e^{\\sin^{2}x}-1\\right)\\ln\\left(1+x^{2}\\right)\\text {低阶的无穷小，则正整数}n\\text {等于[}\\quad]. \\end{array}\">\\begin{array}{l} \\text {当}x\\rightarrow 0 \\text {时，}\\left(1+\\sin x\\right)^{x}-1 \\text {是比}x\\tan x^{n}\\text {低阶的无穷小，而}x\\tan x^{n}\\text {是比}\\\\ \\left(e^{\\sin^{2}x}-1\\right)\\ln\\left(1+x^{2}\\right)\\text {低阶的无穷小，则正整数}n\\text {等于[}\\quad]. \\end{array}</div>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch012/q0017_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\overset{.}{1}\">\\overset{.}{1}</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch012/q0017_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\textbf { 2 }\">\\textbf { 2 }</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch012/q0017_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\textbf { 3 }\">\\textbf { 3 }</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch012/q0017_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"4\">4</span>"
         }
       ],
       "answer": "B",
       "answer_index": 1,
-      "analysis_html": "<img src=\"/static/generated/assets/advanced-math/ch012/q0017_analysis.png\"/>"
+      "analysis_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{aligned}&amp;\\text{解答 当}x\\rightarrow 0\\text{时，有}\\\\&amp;\\quad\\left(1+\\sin x\\right)^{x}-1=e^{\\ln\\left(1+\\sin x\\right)^{x}}-1\\sim \\ln\\left(1+\\sin x\\right)^{x}=x\\ln\\left(1+\\sin x\\right)\\sim x\\sin x\\sim x^{2},\\\\&amp;\\text{同时}\\quad\\quad\\quad\\left(e^{\\sin^{2}x}-1\\right)\\ln\\left(1+x^{2}\\right)\\sim x^{2}\\sin^{2}x\\sim x^{4},\\\\&amp;\\text{而}\\quad\\quad x\\tan x^{n}\\sim xx^{n}=x^{n+1}.\\quad\\ \\text{所以}2&lt;n+1&lt;4,n=2.\\end{aligned}\">\\begin{aligned}&amp;\\text{解答 当}x\\rightarrow 0\\text{时，有}\\\\&amp;\\quad\\left(1+\\sin x\\right)^{x}-1=e^{\\ln\\left(1+\\sin x\\right)^{x}}-1\\sim \\ln\\left(1+\\sin x\\right)^{x}=x\\ln\\left(1+\\sin x\\right)\\sim x\\sin x\\sim x^{2},\\\\&amp;\\text{同时}\\quad\\quad\\quad\\left(e^{\\sin^{2}x}-1\\right)\\ln\\left(1+x^{2}\\right)\\sim x^{2}\\sin^{2}x\\sim x^{4},\\\\&amp;\\text{而}\\quad\\quad x\\tan x^{n}\\sim xx^{n}=x^{n+1}.\\quad\\ \\text{所以}2&lt;n+1&lt;4,n=2.\\end{aligned}</div>"
     },
     {
       "id": "q0018",
       "number": 18,
       "header": "#18-Averge",
       "difficulty": "Averge",
-      "prompt_html": "<img src=\"/static/generated/assets/advanced-math/ch012/q0018_prompt.png\"/>",
+      "prompt_html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\lim_{x \\to 1} \\frac{(\\sqrt{x}-1)(\\sqrt[3]{x}-1)\\cdots(\\sqrt[n]{x}-1)}{(x-1)^{n-1}}\\text{的值为}[ \\quad].\">\\lim_{x \\to 1} \\frac{(\\sqrt{x}-1)(\\sqrt[3]{x}-1)\\cdots(\\sqrt[n]{x}-1)}{(x-1)^{n-1}}\\text{的值为}[ \\quad].</span>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch012/q0018_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\frac { 1 } { n ! }\">\\frac { 1 } { n ! }</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch012/q0018_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\mathbf { 1 }\">\\mathbf { 1 }</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch012/q0018_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\frac { 1 } { n }\">\\frac { 1 } { n }</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch012/q0018_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\mathbf { 0 }\">\\mathbf { 0 }</span>"
         }
       ],
       "answer": "A",
       "answer_index": 0,
-      "analysis_html": "<img src=\"/static/generated/assets/advanced-math/ch012/q0018_analysis.png\"/>"
+      "analysis_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{aligned} \\lim_{x \\rightarrow 1} \\frac{\\left(\\sqrt{x}-1\\right)\\left(\\sqrt[3]{x}-1\\right)\\cdots\\left(\\sqrt[t]{x}-1\\right)}{\\left(x-1\\right)^{n-1}}=&amp; \\lim_{t \\rightarrow 0} \\frac{\\left(\\sqrt{1+t}-1\\right)\\left(\\sqrt[3]{1+t}-1\\right)\\cdots\\left(\\sqrt[t]{1+t}-1\\right)}{t^{n-1}}\\\\ =&amp; \\lim_{t \\rightarrow 0} \\frac{\\frac{t}{2}}{\\frac{3}{2}} \\cdots \\frac{\\frac{t}{n}}{t^{n-1}}=\\frac{1}{n!}.\\end{aligned}\">\\begin{aligned} \\lim_{x \\rightarrow 1} \\frac{\\left(\\sqrt{x}-1\\right)\\left(\\sqrt[3]{x}-1\\right)\\cdots\\left(\\sqrt[t]{x}-1\\right)}{\\left(x-1\\right)^{n-1}}=&amp; \\lim_{t \\rightarrow 0} \\frac{\\left(\\sqrt{1+t}-1\\right)\\left(\\sqrt[3]{1+t}-1\\right)\\cdots\\left(\\sqrt[t]{1+t}-1\\right)}{t^{n-1}}\\\\ =&amp; \\lim_{t \\rightarrow 0} \\frac{\\frac{t}{2}}{\\frac{3}{2}} \\cdots \\frac{\\frac{t}{n}}{t^{n-1}}=\\frac{1}{n!}.\\end{aligned}</div>"
     },
     {
       "id": "q0019",
       "number": 19,
       "header": "#19-Averge",
       "difficulty": "Averge",
-      "prompt_html": "<img src=\"/static/generated/assets/advanced-math/ch012/q0019_prompt.png\"/>",
+      "prompt_html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{当}x \\rightarrow 1^{+} \\text{时，}\\sqrt{3x^{2}-2x-1}\\cdot \\ln x \\text{与} (x-1)^{n} \\text{为同阶无穷小，则} n=()\">\\text{当}x \\rightarrow 1^{+} \\text{时，}\\sqrt{3x^{2}-2x-1}\\cdot \\ln x \\text{与} (x-1)^{n} \\text{为同阶无穷小，则} n=()</span>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch012/q0019_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\mathbf { 1 } .\">\\mathbf { 1 } .</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch012/q0019_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\frac{3}{2}\">\\frac{3}{2}</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch012/q0019_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"0\">0</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch012/q0019_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\textbf { 2 }\">\\textbf { 2 }</span>"
         }
       ],
       "answer": "B",
       "answer_index": 1,
-      "analysis_html": "<img src=\"/static/generated/assets/advanced-math/ch012/q0019_analysis.png\"/>"
+      "analysis_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{array}{l} \\text{解答:} \\lim_{x \\rightarrow 1^{+}} \\frac{\\sqrt{3x^{2}-2x-1}\\cdot \\ln x}{(x-1)^{n}} = \\lim_{x \\rightarrow 1^{+}} \\frac{\\sqrt{3x+1}\\cdot \\sqrt{x-1}\\ln x\\left[1+(x-1)\\right]}{(x-1)^{n}}, \\text{令} u = x-1, \\\\ \\lim_{u \\rightarrow 0^{+}} \\frac{\\sqrt{3u+4}\\sqrt{u}\\ln(1+u)}{u^{n}} = 2 \\lim_{u \\rightarrow 0^{+}} \\frac{u^{3/2}}{u^{n}}, \\text{当} n = \\frac{3}{2} \\text{时，其极限为} 2, \\text{故取} n = \\frac{3}{2} \\end{array}\">\\begin{array}{l} \\text{解答:} \\lim_{x \\rightarrow 1^{+}} \\frac{\\sqrt{3x^{2}-2x-1}\\cdot \\ln x}{(x-1)^{n}} = \\lim_{x \\rightarrow 1^{+}} \\frac{\\sqrt{3x+1}\\cdot \\sqrt{x-1}\\ln x\\left[1+(x-1)\\right]}{(x-1)^{n}}, \\text{令} u = x-1, \\\\ \\lim_{u \\rightarrow 0^{+}} \\frac{\\sqrt{3u+4}\\sqrt{u}\\ln(1+u)}{u^{n}} = 2 \\lim_{u \\rightarrow 0^{+}} \\frac{u^{3/2}}{u^{n}}, \\text{当} n = \\frac{3}{2} \\text{时，其极限为} 2, \\text{故取} n = \\frac{3}{2} \\end{array}</div>"
     },
     {
       "id": "q0020",
       "number": 20,
       "header": "#20-Averge",
       "difficulty": "Averge",
-      "prompt_html": "<img src=\"/static/generated/assets/advanced-math/ch012/q0020_prompt.png\"/>",
+      "prompt_html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\lim_{x\\to 0}\\left(1+x^{2}e^{x}\\right)^{\\frac{1}{1-\\cos x}}\\text{的值为[~]}\">\\lim_{x\\to 0}\\left(1+x^{2}e^{x}\\right)^{\\frac{1}{1-\\cos x}}\\text{的值为[~]}</span>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch012/q0020_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"e ^ { 2 }\">e ^ { 2 }</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch012/q0020_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"e\">e</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch012/q0020_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\textcolor{blue}{2e}\">\\textcolor{blue}{2e}</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch012/q0020_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\frac { e } { 2 }\">\\frac { e } { 2 }</span>"
         }
       ],
       "answer": "A",
       "answer_index": 0,
-      "analysis_html": "<img src=\"/static/generated/assets/advanced-math/ch012/q0020_analysis.png\"/>"
+      "analysis_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{aligned}\\lim_{x\\rightarrow 0}\\left(1+x^{2}e^{x}\\right)^{\\frac{1}{1-\\cos x}}&amp;=\\lim_{x\\rightarrow 0}\\left[\\left(1+x^{2}e^{x}\\right)^{\\frac{1}{x^{2}e^{x}}}\\right]^{\\frac{x^{2}e^{x}}{1-\\cos x}}=e^{\\lim_{x\\rightarrow 0}\\frac{x^{2}e^{x}}{1-\\cos x}}=e^{\\frac{2\\lim_{x\\rightarrow 0}\\frac{x^{2}e^{x}}{x^{2}}}{x}}=e^{2}.\\end{aligned}\">\\begin{aligned}\\lim_{x\\rightarrow 0}\\left(1+x^{2}e^{x}\\right)^{\\frac{1}{1-\\cos x}}&amp;=\\lim_{x\\rightarrow 0}\\left[\\left(1+x^{2}e^{x}\\right)^{\\frac{1}{x^{2}e^{x}}}\\right]^{\\frac{x^{2}e^{x}}{1-\\cos x}}=e^{\\lim_{x\\rightarrow 0}\\frac{x^{2}e^{x}}{1-\\cos x}}=e^{\\frac{2\\lim_{x\\rightarrow 0}\\frac{x^{2}e^{x}}{x^{2}}}{x}}=e^{2}.\\end{aligned}</div>"
     },
     {
       "id": "q0021",
       "number": 21,
       "header": "#21-Averge",
       "difficulty": "Averge",
-      "prompt_html": "<img src=\"/static/generated/assets/advanced-math/ch012/q0021_prompt.png\"/>",
+      "prompt_html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{已知}x-\\sin x-\\frac{1}{6}x^{3},(x\\to 0)\\,,\\ \\text{则极限} \\lim_{x\\to x}\\left(x^{2}-x^{3}\\sin\\frac{1}{x}\\right)\\text{等于}[ \\quad].\">\\text{已知}x-\\sin x-\\frac{1}{6}x^{3},(x\\to 0)\\,,\\ \\text{则极限} \\lim_{x\\to x}\\left(x^{2}-x^{3}\\sin\\frac{1}{x}\\right)\\text{等于}[ \\quad].</span>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch012/q0021_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\frac{1}{3}\">\\frac{1}{3}</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch012/q0021_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\mathbf { 1 }\">\\mathbf { 1 }</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch012/q0021_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\frac { 1 } { 2 }\">\\frac { 1 } { 2 }</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch012/q0021_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\frac { 1 } { 6 }\">\\frac { 1 } { 6 }</span>"
         }
       ],
       "answer": "D",
       "answer_index": 3,
-      "analysis_html": "<img src=\"/static/generated/assets/advanced-math/ch012/q0021_analysis.png\"/>"
+      "analysis_html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{由已知条件} \\lim_{x \\to \\infty} \\left( x^{2} - x^{3} \\sin \\frac{1}{x} \\right) = \\lim_{x \\to \\infty} x^{3} \\left( \\frac{1}{x} - \\sin \\frac{1}{x} \\right) = \\lim_{x \\to \\infty} x^{3} \\cdot \\frac{1}{6 x^{3}} = \\frac{1}{6}\">\\text{由已知条件} \\lim_{x \\to \\infty} \\left( x^{2} - x^{3} \\sin \\frac{1}{x} \\right) = \\lim_{x \\to \\infty} x^{3} \\left( \\frac{1}{x} - \\sin \\frac{1}{x} \\right) = \\lim_{x \\to \\infty} x^{3} \\cdot \\frac{1}{6 x^{3}} = \\frac{1}{6}</span>"
     },
     {
       "id": "q0022",
       "number": 22,
       "header": "#22-Averge",
       "difficulty": "Averge",
-      "prompt_html": "<img src=\"/static/generated/assets/advanced-math/ch012/q0022_prompt.png\"/>",
+      "prompt_html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{若} \\lim_{x \\to 0} \\frac{ \\left( 1+x \\right) \\left( 1+2x \\right) \\left( 1+3x \\right)+a}{x}=6, \\text{则} a=(\\quad).\">\\text{若} \\lim_{x \\to 0} \\frac{ \\left( 1+x \\right) \\left( 1+2x \\right) \\left( 1+3x \\right)+a}{x}=6, \\text{则} a=(\\quad).</span>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch012/q0022_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\mathbf { 1 }\">\\mathbf { 1 }</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch012/q0022_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"2\">2</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch012/q0022_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\mathbf { - 1 }\">\\mathbf { - 1 }</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch012/q0022_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"4\">4</span>"
         }
       ],
       "answer": "C",
       "answer_index": 2,
-      "analysis_html": "<img src=\"/static/generated/assets/advanced-math/ch012/q0022_analysis.png\"/>"
+      "analysis_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{array}{l} \\text {解答：因为当} x \\rightarrow 0 \\text {时，原极限式中的分母为无穷小量，要使原极限存在，分子} \\\\ \\text {也应该为无穷小量，即} \\lim (1+x)(1+2x)(1+3x)+a=1+a=0, \\text {故} a=-1. \\end{array}\">\\begin{array}{l} \\text {解答：因为当} x \\rightarrow 0 \\text {时，原极限式中的分母为无穷小量，要使原极限存在，分子} \\\\ \\text {也应该为无穷小量，即} \\lim (1+x)(1+2x)(1+3x)+a=1+a=0, \\text {故} a=-1. \\end{array}</div>"
     },
     {
       "id": "q0023",
       "number": 23,
       "header": "#23-Averge",
       "difficulty": "Averge",
-      "prompt_html": "<img src=\"/static/generated/assets/advanced-math/ch012/q0023_prompt.png\"/>",
+      "prompt_html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{当}x \\rightarrow 0^{+} \\text{时，} \\sqrt{1+ \\tan x}- \\sqrt{1+ \\sin x} \\sim \\frac{1}{4}x^{a}, \\text{则} a \\text{等于[ }.\">\\text{当}x \\rightarrow 0^{+} \\text{时，} \\sqrt{1+ \\tan x}- \\sqrt{1+ \\sin x} \\sim \\frac{1}{4}x^{a}, \\text{则} a \\text{等于[ }.</span>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch012/q0023_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"4.\">4.</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch012/q0023_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"3\">3</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch012/q0023_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\mathbf { 1 }\">\\mathbf { 1 }</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch012/q0023_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"2\">2</span>"
         }
       ],
       "answer": "B",
       "answer_index": 1,
-      "analysis_html": "<img src=\"/static/generated/assets/advanced-math/ch012/q0023_analysis.png\"/>"
+      "analysis_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{aligned}&amp;\\text{当}x\\rightarrow 0^{+}\\text{时，有}\\\\&amp;\\sqrt{1+\\tan x}-\\sqrt{1+\\sin x}=\\frac{\\left(\\sqrt{1+\\tan x}-\\sqrt{1+\\sin x}\\right)\\left(\\sqrt{1+\\tan x}+\\sqrt{1+\\sin x}\\right)}{\\sqrt{1+\\tan x}+\\sqrt{1+\\sin x}}=\\frac{\\tan x-\\sin x}{\\sqrt{1+\\tan x}+\\sqrt{1+\\sin x}};\\\\&amp;\\lim_{x\\rightarrow 0}\\frac{\\tan x-\\sin x}{\\sqrt{1+\\tan x}+\\sqrt{1+\\sin x}}=\\lim_{x\\rightarrow 0}\\frac{\\sin x\\left(1-\\cos x\\right)}{\\left(\\sqrt{1+\\tan x}+\\sqrt{1+\\sin x}\\right)\\cos x}\\\\&amp;=\\frac{1}{2}\\lim_{x\\rightarrow 0}\\frac{1}{2}x^{3}=\\frac{1}{4}\\lim_{x\\rightarrow 0}x^{3}.\\end{aligned}\">\\begin{aligned}&amp;\\text{当}x\\rightarrow 0^{+}\\text{时，有}\\\\&amp;\\sqrt{1+\\tan x}-\\sqrt{1+\\sin x}=\\frac{\\left(\\sqrt{1+\\tan x}-\\sqrt{1+\\sin x}\\right)\\left(\\sqrt{1+\\tan x}+\\sqrt{1+\\sin x}\\right)}{\\sqrt{1+\\tan x}+\\sqrt{1+\\sin x}}=\\frac{\\tan x-\\sin x}{\\sqrt{1+\\tan x}+\\sqrt{1+\\sin x}};\\\\&amp;\\lim_{x\\rightarrow 0}\\frac{\\tan x-\\sin x}{\\sqrt{1+\\tan x}+\\sqrt{1+\\sin x}}=\\lim_{x\\rightarrow 0}\\frac{\\sin x\\left(1-\\cos x\\right)}{\\left(\\sqrt{1+\\tan x}+\\sqrt{1+\\sin x}\\right)\\cos x}\\\\&amp;=\\frac{1}{2}\\lim_{x\\rightarrow 0}\\frac{1}{2}x^{3}=\\frac{1}{4}\\lim_{x\\rightarrow 0}x^{3}.\\end{aligned}</div>"
     },
     {
       "id": "q0024",
       "number": 24,
       "header": "#24-Averge",
       "difficulty": "Averge",
-      "prompt_html": "<img src=\"/static/generated/assets/advanced-math/ch012/q0024_prompt.png\"/>",
+      "prompt_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{cases} \\text{当}x \\to 0^{+} \\text{时,}\\ \\frac{\\sin x}{\\sqrt{x}} \\text{与函数[ ]是等价无穷小.} \\end{cases}\">\\begin{cases} \\text{当}x \\to 0^{+} \\text{时,}\\ \\frac{\\sin x}{\\sqrt{x}} \\text{与函数[ ]是等价无穷小.} \\end{cases}</div>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch012/q0024_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"2 x\">2 x</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch012/q0024_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\sin x\">\\sin x</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch012/q0024_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"x ^ { 2 }\">x ^ { 2 }</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch012/q0024_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\sqrt { x }\">\\sqrt { x }</span>"
         }
       ],
       "answer": "D",
       "answer_index": 3,
-      "analysis_html": "<img src=\"/static/generated/assets/advanced-math/ch012/q0024_analysis.png\"/>"
+      "analysis_html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{由} \\ \\lim_{x \\to 0} \\frac{ \\frac{ \\sin x }{ \\sqrt{x}}}{ \\sqrt{x}} = \\lim_{x \\to 0} \\frac{ \\sin x }{x} = 1\">\\text{由} \\ \\lim_{x \\to 0} \\frac{ \\frac{ \\sin x }{ \\sqrt{x}}}{ \\sqrt{x}} = \\lim_{x \\to 0} \\frac{ \\sin x }{x} = 1</span>"
     },
     {
       "id": "q0025",
       "number": 25,
       "header": "#25-Averge",
       "difficulty": "Averge",
-      "prompt_html": "<img src=\"/static/generated/assets/advanced-math/ch012/q0025_prompt.png\"/>",
+      "prompt_html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{当} x \\rightarrow 0 \\text{时，下列无穷小量中，最高阶的无穷小是( )}.\">\\text{当} x \\rightarrow 0 \\text{时，下列无穷小量中，最高阶的无穷小是( )}.</span>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch012/q0025_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\sqrt { 1 - x ^ { 2 } } - 1\">\\sqrt { 1 - x ^ { 2 } } - 1</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch012/q0025_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\tan x - \\sin x\">\\tan x - \\sin x</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch012/q0025_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\ln \\left( x + \\sqrt { 1 + x ^ { 2 } } \\right)\">\\ln \\left( x + \\sqrt { 1 + x ^ { 2 } } \\right)</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch012/q0025_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"e^{x} + e^{-x} - 2\">e^{x} + e^{-x} - 2</span>"
         }
       ],
       "answer": "B",
       "answer_index": 1,
-      "analysis_html": "<img src=\"/static/generated/assets/advanced-math/ch012/q0025_analysis.png\"/>"
+      "analysis_html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\ln \\left( x + \\sqrt{1+x^{2}} \\right) \\sim x \\, ; \\, \\, \\, \\sqrt{1-x^{2}}-1 \\sim -\\frac{x^{2}}{2} \\, ; \\, \\, \\, \\tan x - \\sin x \\sim \\frac{x^{3}}{2} \\, ; \\, \\, \\, e^{x} + e^{-x} - 2 \\sim x^{2} \\, . \\text{所以最高阶的无穷小是} \\tan x - \\sin x \\, .\">\\ln \\left( x + \\sqrt{1+x^{2}} \\right) \\sim x \\, ; \\, \\, \\, \\sqrt{1-x^{2}}-1 \\sim -\\frac{x^{2}}{2} \\, ; \\, \\, \\, \\tan x - \\sin x \\sim \\frac{x^{3}}{2} \\, ; \\, \\, \\, e^{x} + e^{-x} - 2 \\sim x^{2} \\, . \\text{所以最高阶的无穷小是} \\tan x - \\sin x \\, .</span>"
     },
     {
       "id": "q0026",
       "number": 26,
       "header": "#26-Averge",
       "difficulty": "Averge",
-      "prompt_html": "<img src=\"/static/generated/assets/advanced-math/ch012/q0026_prompt.png\"/>",
+      "prompt_html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{若} \\lim_{x \\to 0} \\frac {f \\left( x \\right) } { x } = 6 , \\text{则} \\lim_{x \\to 0} \\frac { f \\left( 1 - \\cos x \\right) } { x ^ { 2 } } \\text{的值为[ } ]\">\\text{若} \\lim_{x \\to 0} \\frac {f \\left( x \\right) } { x } = 6 , \\text{则} \\lim_{x \\to 0} \\frac { f \\left( 1 - \\cos x \\right) } { x ^ { 2 } } \\text{的值为[ } ]</span>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch012/q0026_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"3\">3</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch012/q0026_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"0.\">0.</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch012/q0026_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\mathbf { 2 }\">\\mathbf { 2 }</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch012/q0026_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\mathbf { 1 } ;\">\\mathbf { 1 } ;</span>"
         }
       ],
       "answer": "A",
       "answer_index": 0,
-      "analysis_html": "<img src=\"/static/generated/assets/advanced-math/ch012/q0026_analysis.png\"/>"
+      "analysis_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{aligned} \\text{解答 由已知条件，} &amp; \\lim_{x \\to 0} \\frac{f(x)}{x} = 6, \\, f(x) \\sim 6x, (x \\to 0). \\\\ &amp; f(1-\\cos x) \\sim 6(1-\\cos x), (x \\to 0). \\\\ \\text{故} &amp; \\lim_{x \\to 0} \\frac{f(1-\\cos x)}{x^2} = 6 \\lim_{x \\to 0} \\frac{1-\\cos x}{x^2} = 6 \\cdot \\frac{1}{2} = 3.\\end{aligned}\">\\begin{aligned} \\text{解答 由已知条件，} &amp; \\lim_{x \\to 0} \\frac{f(x)}{x} = 6, \\, f(x) \\sim 6x, (x \\to 0). \\\\ &amp; f(1-\\cos x) \\sim 6(1-\\cos x), (x \\to 0). \\\\ \\text{故} &amp; \\lim_{x \\to 0} \\frac{f(1-\\cos x)}{x^2} = 6 \\lim_{x \\to 0} \\frac{1-\\cos x}{x^2} = 6 \\cdot \\frac{1}{2} = 3.\\end{aligned}</div>"
     },
     {
       "id": "q0027",
       "number": 27,
       "header": "#27-Averge",
       "difficulty": "Averge",
-      "prompt_html": "<img src=\"/static/generated/assets/advanced-math/ch012/q0027_prompt.png\"/>",
+      "prompt_html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{设} \\lim_{x \\to 1} \\frac{x^{3}-ax^{2}-x+4}{x-1}=A\\text{，则必有( )}\">\\text{设} \\lim_{x \\to 1} \\frac{x^{3}-ax^{2}-x+4}{x-1}=A\\text{，则必有( )}</span>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch012/q0027_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\scriptstyle a = 2 , A = 5\">\\scriptstyle a = 2 , A = 5</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch012/q0027_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"a = 4 , A = - 6\">a = 4 , A = - 6</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch012/q0027_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"a = - 4 , A = 10\">a = - 4 , A = 10</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch012/q0027_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"a = 4 , A = - 10\">a = 4 , A = - 10</span>"
         }
       ],
       "answer": "B",
       "answer_index": 1,
-      "analysis_html": "<img src=\"/static/generated/assets/advanced-math/ch012/q0027_analysis.png\"/>"
+      "analysis_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{array}{l} A \\text {为一常数，则函数极限存在，则有} x^{3}-ax^{2}-x+4 \\text {与} x-1 \\text {同阶无穷小，} \\\\ \\text {则} x=1 \\text {时，} x^{3}-ax^{2}-x+4=0，\\text{解得}a=4，\\text{极限变为} \\\\ \\lim_{x \\rightarrow 1} \\frac{x^{3}-ax^{2}-x+4}{x-1}=\\lim_{x \\rightarrow 1} \\frac{x(x^{2}-1)-4(x^{2}-1)}{x-1}=\\lim_{x \\rightarrow 1}(x-4)(x+1)=-6, \\\\ \\text {所以} A=-6. \\end{array}\">\\begin{array}{l} A \\text {为一常数，则函数极限存在，则有} x^{3}-ax^{2}-x+4 \\text {与} x-1 \\text {同阶无穷小，} \\\\ \\text {则} x=1 \\text {时，} x^{3}-ax^{2}-x+4=0，\\text{解得}a=4，\\text{极限变为} \\\\ \\lim_{x \\rightarrow 1} \\frac{x^{3}-ax^{2}-x+4}{x-1}=\\lim_{x \\rightarrow 1} \\frac{x(x^{2}-1)-4(x^{2}-1)}{x-1}=\\lim_{x \\rightarrow 1}(x-4)(x+1)=-6, \\\\ \\text {所以} A=-6. \\end{array}</div>"
     },
     {
       "id": "q0028",
       "number": 28,
       "header": "#28-Averge",
       "difficulty": "Averge",
-      "prompt_html": "<img src=\"/static/generated/assets/advanced-math/ch012/q0028_prompt.png\"/>",
+      "prompt_html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{当} x \\rightarrow 0 \\text{时，若} 1 - \\cos x \\text{与} mx^{n} \\text{等价，则} m \\text{和} n \\text{的值分别为}( ).\">\\text{当} x \\rightarrow 0 \\text{时，若} 1 - \\cos x \\text{与} mx^{n} \\text{等价，则} m \\text{和} n \\text{的值分别为}( ).</span>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch012/q0028_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"m = \\frac{1}{2}, n = 2 \\leftarrow\">m = \\frac{1}{2}, n = 2 \\leftarrow</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch012/q0028_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"m = 2 , n = 1\">m = 2 , n = 1</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch012/q0028_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\scriptstyle . m = 2 , n = { \\frac { 1 } { 2 } }\">\\scriptstyle . m = 2 , n = { \\frac { 1 } { 2 } }</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch012/q0028_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\cdot m = \\frac{1}{2}, n = 1\">\\cdot m = \\frac{1}{2}, n = 1</span>"
         }
       ],
       "answer": "A",
       "answer_index": 0,
-      "analysis_html": "<img src=\"/static/generated/assets/advanced-math/ch012/q0028_analysis.png\"/>"
+      "analysis_html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\because 1-\\cos x=2\\sin^{2}\\frac{x}{2},\\therefore \\text{欲使}\">\\because 1-\\cos x=2\\sin^{2}\\frac{x}{2},\\therefore \\text{欲使}</span>\n<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\lim_{x\\to 0}\\frac{1-\\cos x}{mx^{n}}=\\lim_{x\\to 0}\\frac{2\\sin^{2}\\frac{x}{2}}{mx^{n}}=\\lim_{x\\to 0}\\frac{\\sin^{2}\\frac{x}{2}}{\\left(\\frac{x}{2}\\right)^{2}}\\cdot \\frac{x^{2}}{2mx^{n}}=1.\\text{只须}m=\\frac{1}{2},n=2.\">\\lim_{x\\to 0}\\frac{1-\\cos x}{mx^{n}}=\\lim_{x\\to 0}\\frac{2\\sin^{2}\\frac{x}{2}}{mx^{n}}=\\lim_{x\\to 0}\\frac{\\sin^{2}\\frac{x}{2}}{\\left(\\frac{x}{2}\\right)^{2}}\\cdot \\frac{x^{2}}{2mx^{n}}=1.\\text{只须}m=\\frac{1}{2},n=2.</span>"
     },
     {
       "id": "q0029",
       "number": 29,
       "header": "#29-Averge",
       "difficulty": "Averge",
-      "prompt_html": "<img src=\"/static/generated/assets/advanced-math/ch012/q0029_prompt.png\"/>",
+      "prompt_html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\lim_{x \\rightarrow 0} \\frac{e^{x}-e^{\\sin x}}{x- \\sin x} \\text{的值为[ ]}.\">\\lim_{x \\rightarrow 0} \\frac{e^{x}-e^{\\sin x}}{x- \\sin x} \\text{的值为[ ]}.</span>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch012/q0029_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\mathbf{1}.\">\\mathbf{1}.</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch012/q0029_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"e\">e</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch012/q0029_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\infty\">\\infty</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch012/q0029_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\mathbf { 0 }\">\\mathbf { 0 }</span>"
         }
       ],
       "answer": "A",
       "answer_index": 0,
-      "analysis_html": "<img src=\"/static/generated/assets/advanced-math/ch012/q0029_analysis.png\"/>"
+      "analysis_html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\lim_{x \\to 0} \\frac{e^{x} - e^{\\sin x}}{x - \\sin x} = \\lim_{x \\to 0} \\frac{e^{\\sin x} \\left( e^{x - \\sin x} - 1 \\right)}{x - \\sin x} = \\lim_{x \\to 0} e^{\\sin x} \\frac{x - \\sin x}{x - \\sin x} = e^{0} = 1.\">\\lim_{x \\to 0} \\frac{e^{x} - e^{\\sin x}}{x - \\sin x} = \\lim_{x \\to 0} \\frac{e^{\\sin x} \\left( e^{x - \\sin x} - 1 \\right)}{x - \\sin x} = \\lim_{x \\to 0} e^{\\sin x} \\frac{x - \\sin x}{x - \\sin x} = e^{0} = 1.</span>"
     },
     {
       "id": "q0030",
       "number": 30,
       "header": "#30-Averge",
       "difficulty": "Averge",
-      "prompt_html": "<img src=\"/static/generated/assets/advanced-math/ch012/q0030_prompt.png\"/>",
+      "prompt_html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\lim_{x \\rightarrow 0} \\frac{ \\sqrt{1+x \\sin x}-1}{e^{x^{2}}-1} \\text{ 的值为[ }\">\\lim_{x \\rightarrow 0} \\frac{ \\sqrt{1+x \\sin x}-1}{e^{x^{2}}-1} \\text{ 的值为[ }</span>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch012/q0030_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\frac { 1 } { 2 }\">\\frac { 1 } { 2 }</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch012/q0030_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\mathbf { 1 }\">\\mathbf { 1 }</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch012/q0030_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"2 \\textcircled{;}\">2 \\textcircled{;}</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch012/q0030_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"0\">0</span>"
         }
       ],
       "answer": "A",
       "answer_index": 0,
-      "analysis_html": "<img src=\"/static/generated/assets/advanced-math/ch012/q0030_analysis.png\"/>"
+      "analysis_html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{由} \\ \\lim_{x \\to 0} \\frac{ \\sqrt{1+x \\sin x}-1}{e^{x^{2}}-1} = \\lim_{x \\to 0} \\frac{ \\frac{1}{2}x \\sin x}{x^{2}} = \\frac{1}{2}.\">\\text{由} \\ \\lim_{x \\to 0} \\frac{ \\sqrt{1+x \\sin x}-1}{e^{x^{2}}-1} = \\lim_{x \\to 0} \\frac{ \\frac{1}{2}x \\sin x}{x^{2}} = \\frac{1}{2}.</span>"
     },
     {
       "id": "q0031",
       "number": 31,
       "header": "#31-Averge",
       "difficulty": "Averge",
-      "prompt_html": "<img src=\"/static/generated/assets/advanced-math/ch012/q0031_prompt.png\"/>",
+      "prompt_html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{设}p(x)\\text{是多项式，且} \\lim_{x \\to \\infty} \\frac{p(x)-x^{3}}{x^{2}}=2,\\ \\lim_{x \\to 0} \\frac{p(x)}{x}=1,\\ \\text{则}p(x)=(\\ .\">\\text{设}p(x)\\text{是多项式，且} \\lim_{x \\to \\infty} \\frac{p(x)-x^{3}}{x^{2}}=2,\\ \\lim_{x \\to 0} \\frac{p(x)}{x}=1,\\ \\text{则}p(x)=(\\ .</span>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch012/q0031_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\, . \\, p \\bigl ( x \\bigr ) = x ^ { 3 } + x ^ { 2 } + x\">\\, . \\, p \\bigl ( x \\bigr ) = x ^ { 3 } + x ^ { 2 } + x</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch012/q0031_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"p(x) = 2x^{2} + x + 1\">p(x) = 2x^{2} + x + 1</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch012/q0031_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"p(x) = x^{3} + 2x^{2} + x\">p(x) = x^{3} + 2x^{2} + x</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch012/q0031_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\begin{array}{l} { l } { { p ( x ) = x ^ { 3 } + 2 x ^ { 2 } + 1 } } \\end{array}\">\\begin{array}{l} { l } { { p ( x ) = x ^ { 3 } + 2 x ^ { 2 } + 1 } } \\end{array}</span>"
         }
       ],
       "answer": "C",
       "answer_index": 2,
-      "analysis_html": "<img src=\"/static/generated/assets/advanced-math/ch012/q0031_analysis.png\"/>"
+      "analysis_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{aligned}&amp;\\because \\lim_{x \\to \\infty} \\frac{p(x)-x^3}{x^2}=2, \\therefore \\text{可设 } p(x)=x^3+2x^2+ax+b (\\text{其中 } a,b \\text{ 为待定系数}), \\\\&amp;\\text{又} \\lim_{x \\to 0} \\frac{p(x)}{x}=1, \\ \\therefore \\ p(x)=x^3+2x^2+ax+b \\sim x (x \\to 0) \\ , \\ \\text{从而得 } a=1, b=0 \\ . \\text{故}\\end{aligned}\">\\begin{aligned}&amp;\\because \\lim_{x \\to \\infty} \\frac{p(x)-x^3}{x^2}=2, \\therefore \\text{可设 } p(x)=x^3+2x^2+ax+b (\\text{其中 } a,b \\text{ 为待定系数}), \\\\&amp;\\text{又} \\lim_{x \\to 0} \\frac{p(x)}{x}=1, \\ \\therefore \\ p(x)=x^3+2x^2+ax+b \\sim x (x \\to 0) \\ , \\ \\text{从而得 } a=1, b=0 \\ . \\text{故}\\end{aligned}</div>"
     },
     {
       "id": "q0032",
       "number": 32,
       "header": "#32-Averge",
       "difficulty": "Averge",
-      "prompt_html": "<img src=\"/static/generated/assets/advanced-math/ch012/q0032_prompt.png\"/>",
+      "prompt_html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{若} 1- \\cos x \\sim a \\sin^{2} x, (x \\rightarrow 0). \\text{则} a \\text{的值为[ ]}.\">\\text{若} 1- \\cos x \\sim a \\sin^{2} x, (x \\rightarrow 0). \\text{则} a \\text{的值为[ ]}.</span>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch012/q0032_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\mathbf { 2 }\">\\mathbf { 2 }</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch012/q0032_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"3\">3</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch012/q0032_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\mathbf { 1 }\">\\mathbf { 1 }</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch012/q0032_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\frac { 1 } { 2 }\">\\frac { 1 } { 2 }</span>"
         }
       ],
       "answer": "D",
       "answer_index": 3,
-      "analysis_html": "<img src=\"/static/generated/assets/advanced-math/ch012/q0032_analysis.png\"/>"
+      "analysis_html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{由}\\quad\\lim_{x\\rightarrow 0}\\frac{1-\\cos x}{a\\sin^{2}x}=\\lim_{x\\rightarrow 0}\\frac{\\frac{1}{2}x^{2}}{ax^{2}}=\\frac{1}{2a}=1.\\quad\\text{因此，}\\quad a=\\frac{1}{2}.\">\\text{由}\\quad\\lim_{x\\rightarrow 0}\\frac{1-\\cos x}{a\\sin^{2}x}=\\lim_{x\\rightarrow 0}\\frac{\\frac{1}{2}x^{2}}{ax^{2}}=\\frac{1}{2a}=1.\\quad\\text{因此，}\\quad a=\\frac{1}{2}.</span>"
     },
     {
       "id": "q0033",
       "number": 33,
       "header": "#33-Averge",
       "difficulty": "Averge",
-      "prompt_html": "<img src=\"/static/generated/assets/advanced-math/ch012/q0033_prompt.png\"/>",
+      "prompt_html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{当}x\\rightarrow \\infty \\text{时，}\\ \\alpha=\\frac{1}{x},\\beta=\\frac{\\sin x}{x}\\ \\text{都是无穷小量. 则}\\alpha\\text{是}\\beta\\text{的}[ \\quad].\">\\text{当}x\\rightarrow \\infty \\text{时，}\\ \\alpha=\\frac{1}{x},\\beta=\\frac{\\sin x}{x}\\ \\text{都是无穷小量. 则}\\alpha\\text{是}\\beta\\text{的}[ \\quad].</span>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch012/q0033_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{低阶无穷小}\">\\text{低阶无穷小}</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch012/q0033_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{同阶无穷小}\">\\text{同阶无穷小}</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch012/q0033_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{高阶无穷小}\">\\text{高阶无穷小}</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch012/q0033_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{不能比较}\">\\text{不能比较}</span>"
         }
       ],
       "answer": "D",
       "answer_index": 3,
-      "analysis_html": "<img src=\"/static/generated/assets/advanced-math/ch012/q0033_analysis.png\"/>"
+      "analysis_html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{由于极限} \\ \\lim_{x \\to \\infty} \\frac{\\beta}{\\alpha} = \\lim_{x \\to \\infty} \\frac{\\frac{\\sin x}{x}}{\\frac{1}{x}} = \\lim_{x \\to \\infty} \\sin x \\ \\ \\text{不存在}\">\\text{由于极限} \\ \\lim_{x \\to \\infty} \\frac{\\beta}{\\alpha} = \\lim_{x \\to \\infty} \\frac{\\frac{\\sin x}{x}}{\\frac{1}{x}} = \\lim_{x \\to \\infty} \\sin x \\ \\ \\text{不存在}</span>"
     },
     {
       "id": "q0034",
       "number": 34,
       "header": "#34-Averge",
       "difficulty": "Averge",
-      "prompt_html": "<img src=\"/static/generated/assets/advanced-math/ch012/q0034_prompt.png\"/>",
+      "prompt_html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\lim_{x \\to 0} \\frac{1 - \\cos(1 - \\cos x)}{x^{4}} \\text{ 的值为[ ]}.\">\\lim_{x \\to 0} \\frac{1 - \\cos(1 - \\cos x)}{x^{4}} \\text{ 的值为[ ]}.</span>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch012/q0034_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\frac { 1 } { 4 }\">\\frac { 1 } { 4 }</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch012/q0034_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\frac { 1 } { 8 }\">\\frac { 1 } { 8 }</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch012/q0034_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\mathbf { 1 }\">\\mathbf { 1 }</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch012/q0034_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\mathbf { 2 }\">\\mathbf { 2 }</span>"
         }
       ],
       "answer": "B",
       "answer_index": 1,
-      "analysis_html": "<img src=\"/static/generated/assets/advanced-math/ch012/q0034_analysis.png\"/>"
+      "analysis_html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{由} \\lim_{x \\to 0} \\frac{1 - \\cos(1 - \\cos x)}{x^{4}} = \\lim_{x \\to 0} \\frac{2^{\\frac{1}{2}(1 - \\cos x)^{2}}}{x^{4}} = \\frac{1}{2} \\lim_{x \\to 0} \\frac{ \\left( \\frac{1}{2} x^{2} \\right)^{2}}{x^{4}} = \\frac{1}{8}\">\\text{由} \\lim_{x \\to 0} \\frac{1 - \\cos(1 - \\cos x)}{x^{4}} = \\lim_{x \\to 0} \\frac{2^{\\frac{1}{2}(1 - \\cos x)^{2}}}{x^{4}} = \\frac{1}{2} \\lim_{x \\to 0} \\frac{ \\left( \\frac{1}{2} x^{2} \\right)^{2}}{x^{4}} = \\frac{1}{8}</span>"
     },
     {
       "id": "q0035",
       "number": 35,
       "header": "#35-Averge",
       "difficulty": "Averge",
-      "prompt_html": "<img src=\"/static/generated/assets/advanced-math/ch012/q0035_prompt.png\"/>",
+      "prompt_html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{设}f(x)=2^{x}+3^{x}-2, \\text{则当}x\\to 0 \\text{时有[ }\\quad].\">\\text{设}f(x)=2^{x}+3^{x}-2, \\text{则当}x\\to 0 \\text{时有[ }\\quad].</span>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch012/q0035_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"f(x) \\text{是比} x \\text{低阶的无穷小}\">f(x) \\text{是比} x \\text{低阶的无穷小}</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch012/q0035_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"f(x) \\text{与} x \\text{是等价无穷小}\">f(x) \\text{与} x \\text{是等价无穷小}</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch012/q0035_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\,f(x)\\text{与}x\\text{是同阶但非等价无穷小}\">\\,f(x)\\text{与}x\\text{是同阶但非等价无穷小}</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch012/q0035_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"f(x) \\text{是比} x \\text{高阶的无穷小}\">f(x) \\text{是比} x \\text{高阶的无穷小}</span>"
         }
       ],
       "answer": "C",
       "answer_index": 2,
-      "analysis_html": "<img src=\"/static/generated/assets/advanced-math/ch012/q0035_analysis.png\"/>"
+      "analysis_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{aligned} \\lim_{x \\rightarrow 0} \\frac{f(x)}{x} &amp;= \\lim_{x \\rightarrow 0} \\frac{2^x + 3^x - 2}{x} = \\lim_{x \\rightarrow 0} \\frac{2^x - 1}{x} + \\lim_{x \\rightarrow 0} \\frac{3^x - 1}{x} \\\\ &amp;= \\lim_{x \\rightarrow 0} \\frac{x \\ln 2}{x} + \\lim_{x \\rightarrow 0} \\frac{x \\ln 3}{x} = \\ln 2 + \\ln 3 \\neq 1.\\end{aligned}\">\\begin{aligned} \\lim_{x \\rightarrow 0} \\frac{f(x)}{x} &amp;= \\lim_{x \\rightarrow 0} \\frac{2^x + 3^x - 2}{x} = \\lim_{x \\rightarrow 0} \\frac{2^x - 1}{x} + \\lim_{x \\rightarrow 0} \\frac{3^x - 1}{x} \\\\ &amp;= \\lim_{x \\rightarrow 0} \\frac{x \\ln 2}{x} + \\lim_{x \\rightarrow 0} \\frac{x \\ln 3}{x} = \\ln 2 + \\ln 3 \\neq 1.\\end{aligned}</div>"
     },
     {
       "id": "q0036",
       "number": 36,
       "header": "#36-Averge",
       "difficulty": "Averge",
-      "prompt_html": "<img src=\"/static/generated/assets/advanced-math/ch012/q0036_prompt.png\"/>",
+      "prompt_html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{当} x \\rightarrow 0 \\text{时，下列函数哪一个是其它三个的高阶无穷小} [ \\quad ] .\">\\text{当} x \\rightarrow 0 \\text{时，下列函数哪一个是其它三个的高阶无穷小} [ \\quad ] .</span>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch012/q0036_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"x ^ { 2 }\">x ^ { 2 }</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch012/q0036_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"1 - \\cos x\">1 - \\cos x</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch012/q0036_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\ln \\left( 1 + x \\right)\">\\ln \\left( 1 + x \\right)</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch012/q0036_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\tan x - \\sin x\">\\tan x - \\sin x</span>"
         }
       ],
       "answer": "D",
       "answer_index": 3,
-      "analysis_html": "<img src=\"/static/generated/assets/advanced-math/ch012/q0036_analysis.png\"/>"
+      "analysis_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{aligned}&amp;\\lim_{x \\rightarrow 0} \\frac{\\tan x - \\sin x}{x^2} = \\lim_{x \\rightarrow 0} \\frac{\\tan x (1-\\cos x)}{x^2} = \\lim_{x \\rightarrow 0} \\frac{1-\\cos x}{x} = \\frac{1}{2} \\lim_{x \\rightarrow 0} \\frac{x^2}{x} = 0;\\\\&amp;\\lim_{x \\rightarrow 0} \\frac{\\tan x - \\sin x}{1-\\cos x} = \\lim_{x \\rightarrow 0} \\frac{\\tan x (1-\\cos x)}{1-\\cos x} = \\lim_{x \\rightarrow 0} \\tan x = 0;\\\\&amp;\\lim_{x \\rightarrow 0} \\frac{\\tan x - \\sin x}{\\ln(1+x)} = \\lim_{x \\rightarrow 0} \\frac{\\tan x (1-\\cos x)}{x} = \\lim_{x \\rightarrow 0} (1-\\cos x) = 0.\\end{aligned}\">\\begin{aligned}&amp;\\lim_{x \\rightarrow 0} \\frac{\\tan x - \\sin x}{x^2} = \\lim_{x \\rightarrow 0} \\frac{\\tan x (1-\\cos x)}{x^2} = \\lim_{x \\rightarrow 0} \\frac{1-\\cos x}{x} = \\frac{1}{2} \\lim_{x \\rightarrow 0} \\frac{x^2}{x} = 0;\\\\&amp;\\lim_{x \\rightarrow 0} \\frac{\\tan x - \\sin x}{1-\\cos x} = \\lim_{x \\rightarrow 0} \\frac{\\tan x (1-\\cos x)}{1-\\cos x} = \\lim_{x \\rightarrow 0} \\tan x = 0;\\\\&amp;\\lim_{x \\rightarrow 0} \\frac{\\tan x - \\sin x}{\\ln(1+x)} = \\lim_{x \\rightarrow 0} \\frac{\\tan x (1-\\cos x)}{x} = \\lim_{x \\rightarrow 0} (1-\\cos x) = 0.\\end{aligned}</div>"
     },
     {
       "id": "q0037",
       "number": 37,
       "header": "#37-Averge",
       "difficulty": "Averge",
-      "prompt_html": "<img src=\"/static/generated/assets/advanced-math/ch012/q0037_prompt.png\"/>",
+      "prompt_html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{若当} x \\to 0 \\text{时，} \\alpha ( x ) = \\left( 1 + a x ^ { 2 } \\right) ^ { \\frac { 1 } { 3 } } - 1 \\text{与} \\beta ( x ) = \\cos x - 1 \\text{是等价无穷小，则} a = ( \\ \\ )\">\\text{若当} x \\to 0 \\text{时，} \\alpha ( x ) = \\left( 1 + a x ^ { 2 } \\right) ^ { \\frac { 1 } { 3 } } - 1 \\text{与} \\beta ( x ) = \\cos x - 1 \\text{是等价无穷小，则} a = ( \\ \\ )</span>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch012/q0037_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\textbf { 2 }\">\\textbf { 2 }</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch012/q0037_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"- \\frac { 1 } { 2 }\">- \\frac { 1 } { 2 }</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch012/q0037_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\frac { 1 } { 2 }\">\\frac { 1 } { 2 }</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch012/q0037_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\frac{3}{2}\">\\frac{3}{2}</span>"
         }
       ],
       "answer": "D",
       "answer_index": 3,
-      "analysis_html": "<img src=\"/static/generated/assets/advanced-math/ch012/q0037_analysis.png\"/>"
+      "analysis_html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\lim_{x \\to 0} \\frac{\\alpha(x)}{\\beta(x)} = \\lim_{x \\to 0} \\frac{\\left(1+ax^{2}\\right)^{\\frac{1}{3}}-1}{\\cos x-1} = \\lim_{x \\to 0} \\frac{\\frac{1}{3}ax^{2}}{-\\frac{1}{2}x^{2}} = -\\frac{2a}{3} = 1,\\ \\text{所以}a=-\\frac{3}{2}\">\\lim_{x \\to 0} \\frac{\\alpha(x)}{\\beta(x)} = \\lim_{x \\to 0} \\frac{\\left(1+ax^{2}\\right)^{\\frac{1}{3}}-1}{\\cos x-1} = \\lim_{x \\to 0} \\frac{\\frac{1}{3}ax^{2}}{-\\frac{1}{2}x^{2}} = -\\frac{2a}{3} = 1,\\ \\text{所以}a=-\\frac{3}{2}</span>"
     },
     {
       "id": "q0038",
       "number": 38,
       "header": "#38-Averge",
       "difficulty": "Averge",
-      "prompt_html": "<img src=\"/static/generated/assets/advanced-math/ch012/q0038_prompt.png\"/>",
+      "prompt_html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{下列说法中不正确的是} [ \\quad ] .\">\\text{下列说法中不正确的是} [ \\quad ] .</span>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch012/q0038_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"0 \\text{ 是唯一的常数无穷小}\">0 \\text{ 是唯一的常数无穷小}</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch012/q0038_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{无限个无穷小之和不一定是无穷小}\">\\text{无限个无穷小之和不一定是无穷小}</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch012/q0038_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{有界函数与无穷小的乘积还是无穷小}\">\\text{有界函数与无穷小的乘积还是无穷小}</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch012/q0038_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{无界函数一定是无穷大}\">\\text{无界函数一定是无穷大}</span>"
         }
       ],
       "answer": "D",
       "answer_index": 3,
-      "analysis_html": "<img src=\"/static/generated/assets/advanced-math/ch012/q0038_analysis.png\"/>"
+      "analysis_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{aligned} \\text{例如函数} f(x) = x \\cos x, \\; (-\\infty, \\infty) \\; \\text{为无界函数，} \\; f(2n\\pi) = 2n\\pi \\rightarrow \\infty, \\text{但是} \\\\ f\\left( \\frac{\\pi}{2} + n\\pi \\right) = 0. \\; \\swarrow \\\\ \\text{所以当} x \\rightarrow \\infty \\text{时，函数不是无穷大。} \\end{aligned}\">\\begin{aligned} \\text{例如函数} f(x) = x \\cos x, \\; (-\\infty, \\infty) \\; \\text{为无界函数，} \\; f(2n\\pi) = 2n\\pi \\rightarrow \\infty, \\text{但是} \\\\ f\\left( \\frac{\\pi}{2} + n\\pi \\right) = 0. \\; \\swarrow \\\\ \\text{所以当} x \\rightarrow \\infty \\text{时，函数不是无穷大。} \\end{aligned}</div>"
     },
     {
       "id": "q0039",
       "number": 39,
       "header": "#39-Averge",
       "difficulty": "Averge",
-      "prompt_html": "<img src=\"/static/generated/assets/advanced-math/ch012/q0039_prompt.png\"/>",
+      "prompt_html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{当} x \\rightarrow 0 \\text{时，} x^{a} \\text{与} \\sin^{3} \\left( x^{2} \\right) \\text{为等价无穷小，则} a = \\left( \\ \\right)\">\\text{当} x \\rightarrow 0 \\text{时，} x^{a} \\text{与} \\sin^{3} \\left( x^{2} \\right) \\text{为等价无穷小，则} a = \\left( \\ \\right)</span>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch012/q0039_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"3\">3</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch012/q0039_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"2\">2</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch012/q0039_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"5\">5</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch012/q0039_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\".6\">.6</span>"
         }
       ],
       "answer": "D",
       "answer_index": 3,
-      "analysis_html": "<img src=\"/static/generated/assets/advanced-math/ch012/q0039_analysis.png\"/>"
+      "analysis_html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\lim_{x \\to 0} \\frac{x^{a}}{\\sin^{3}{\\left(x\\right)}^{2}} = \\lim_{x \\to 0} \\frac{x^{a}}{x^{6}} = 1 \\, , \\, \\, \\, \\text{所以} \\, a = 6\">\\lim_{x \\to 0} \\frac{x^{a}}{\\sin^{3}{\\left(x\\right)}^{2}} = \\lim_{x \\to 0} \\frac{x^{a}}{x^{6}} = 1 \\, , \\, \\, \\, \\text{所以} \\, a = 6</span>"
     },
     {
       "id": "q0040",
       "number": 40,
       "header": "#40-Averge",
       "difficulty": "Averge",
-      "prompt_html": "<img src=\"/static/generated/assets/advanced-math/ch012/q0040_prompt.png\"/>",
+      "prompt_html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{极限} \\lim_{x \\rightarrow 0} \\left( \\frac{1 + \\tan x}{1 + \\sin x} \\right)^{\\frac{1}{\\sin^{3} x}} \\text{的值为} [ \\quad ].\">\\text{极限} \\lim_{x \\rightarrow 0} \\left( \\frac{1 + \\tan x}{1 + \\sin x} \\right)^{\\frac{1}{\\sin^{3} x}} \\text{的值为} [ \\quad ].</span>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch012/q0040_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"^{\\text{- 1 }}\">^{\\text{- 1 }}</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch012/q0040_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\mathbf { 1 }\">\\mathbf { 1 }</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch012/q0040_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"- \\sqrt { e } \\; ;\">- \\sqrt { e } \\; ;</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch012/q0040_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\sqrt { e }\">\\sqrt { e }</span>"
         }
       ],
       "answer": "D",
       "answer_index": 3,
-      "analysis_html": "<img src=\"/static/generated/assets/advanced-math/ch012/q0040_analysis.png\"/>"
+      "analysis_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{aligned}&amp;\\lim_{x\\rightarrow 0}\\left(\\frac{1+\\tan x}{1+\\sin x}\\right)^{\\frac{1}{\\sin x}}=e^{\\lim_{x\\rightarrow 0}\\frac{1}{\\tan x}\\ln\\left(\\frac{1+\\tan x}{1+\\sin x}\\right)}=e^{\\lim_{x\\rightarrow 0}\\frac{1}{x}\\ln\\left(\\frac{1+\\tan x-\\sin x}{1+\\sin x}\\right)}\\\\&amp;=e^{\\frac{\\lim_{x\\rightarrow 0}\\frac{\\tan x-\\sin x}{1+\\sin x}}{x}}=e^{\\frac{2}{\\lim_{x\\rightarrow 0}\\frac{x}{(1+\\sin x)}}}=\\sqrt{e}.\\end{aligned}\">\\begin{aligned}&amp;\\lim_{x\\rightarrow 0}\\left(\\frac{1+\\tan x}{1+\\sin x}\\right)^{\\frac{1}{\\sin x}}=e^{\\lim_{x\\rightarrow 0}\\frac{1}{\\tan x}\\ln\\left(\\frac{1+\\tan x}{1+\\sin x}\\right)}=e^{\\lim_{x\\rightarrow 0}\\frac{1}{x}\\ln\\left(\\frac{1+\\tan x-\\sin x}{1+\\sin x}\\right)}\\\\&amp;=e^{\\frac{\\lim_{x\\rightarrow 0}\\frac{\\tan x-\\sin x}{1+\\sin x}}{x}}=e^{\\frac{2}{\\lim_{x\\rightarrow 0}\\frac{x}{(1+\\sin x)}}}=\\sqrt{e}.\\end{aligned}</div>"
     },
     {
       "id": "q0041",
       "number": 41,
       "header": "#41-Averge",
       "difficulty": "Averge",
-      "prompt_html": "<img src=\"/static/generated/assets/advanced-math/ch012/q0041_prompt.png\"/>",
+      "prompt_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\text{设}f(x)=\\begin{cases}\\dfrac{e^{\\alpha x}-1}{x},&amp;\\quad x\\neq 0,\\\\ \\quad b,&amp;\\quad x=0\\end{cases},\\ \\text{且}\\lim_{x\\rightarrow 0}f(x)=A,\\ \\text{则}a,b,A\\text{之间的关系为}( \\ \\ )\">\\text{设}f(x)=\\begin{cases}\\dfrac{e^{\\alpha x}-1}{x},&amp;\\quad x\\neq 0,\\\\ \\quad b,&amp;\\quad x=0\\end{cases},\\ \\text{且}\\lim_{x\\rightarrow 0}f(x)=A,\\ \\text{则}a,b,A\\text{之间的关系为}( \\ \\ )</div>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch012/q0041_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\boldsymbol{b} \\text{可取任意实数，} \\; A = a\">\\boldsymbol{b} \\text{可取任意实数，} \\; A = a</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch012/q0041_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\begin{array}{l}a \\text{可取任意实数，} \\ A = b \\end{array} .\">\\begin{array}{l}a \\text{可取任意实数，} \\ A = b \\end{array} .</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch012/q0041_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{a,b可取任意实数，} \\ A = a\">\\text{a,b可取任意实数，} \\ A = a</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch012/q0041_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{ }a \\text{ 可取任意实数，} \\ A = b = a\">\\text{ }a \\text{ 可取任意实数，} \\ A = b = a</span>"
         }
       ],
       "answer": "A",
       "answer_index": 0,
-      "analysis_html": "<img src=\"/static/generated/assets/advanced-math/ch012/q0041_analysis.png\"/>"
+      "analysis_html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{解答：} \\lim_{x \\to 0} f(x) = \\lim_{x \\to 0} \\frac{e^{\\alpha x}-1}{x} = \\lim_{x \\to 0} \\frac{\\alpha x}{x} = a = A, \\text{ 由于函数在自变量趋于某一点的极限值与在此点的函数值没有必然关系，所以} b \\text{可以为任意实数。}\">\\text{解答：} \\lim_{x \\to 0} f(x) = \\lim_{x \\to 0} \\frac{e^{\\alpha x}-1}{x} = \\lim_{x \\to 0} \\frac{\\alpha x}{x} = a = A, \\text{ 由于函数在自变量趋于某一点的极限值与在此点的函数值没有必然关系，所以} b \\text{可以为任意实数。}</span>"
     },
     {
       "id": "q0042",
       "number": 42,
       "header": "#42-Averge",
       "difficulty": "Averge",
-      "prompt_html": "<img src=\"/static/generated/assets/advanced-math/ch012/q0042_prompt.png\"/>",
+      "prompt_html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\lim_{x \\to 0} \\frac{1}{x^{3}} \\left[ \\left( \\frac{2 + \\cos x}{3} \\right)^{x} - 1 \\right] \\text{的值为[ ]}\">\\lim_{x \\to 0} \\frac{1}{x^{3}} \\left[ \\left( \\frac{2 + \\cos x}{3} \\right)^{x} - 1 \\right] \\text{的值为[ ]}</span>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch012/q0042_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"- 6\">- 6</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch012/q0042_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\frac { 1 } { 6 }\">\\frac { 1 } { 6 }</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch012/q0042_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"6\">6</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch012/q0042_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"- \\frac { 1 } { 6 }\">- \\frac { 1 } { 6 }</span>"
         }
       ],
       "answer": "D",
       "answer_index": 3,
-      "analysis_html": "<img src=\"/static/generated/assets/advanced-math/ch012/q0042_analysis.png\"/>"
+      "analysis_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{aligned}&amp;\\lim_{x\\rightarrow 0}\\frac{1}{x^3}\\left[\\left(\\frac{2+\\cos x}{3}\\right)^x-1\\right]=\\lim_{x\\rightarrow 0}\\frac{e^{\\frac{x\\ln 2+\\cos x}{3}}-1}{x^3}=\\lim_{x\\rightarrow 0}\\frac{x\\ln \\frac{2+\\cos x}{3}}{x^3}\\\\&amp;=\\lim_{x\\rightarrow 0}\\frac{\\ln \\frac{3+\\cos x-1}{3}}{x^3}=\\lim_{x\\rightarrow 0}\\frac{\\cos x-1}{x^2}=\\lim_{x\\rightarrow 0}\\frac{-x^2}{6}=-\\frac{1}{6}.\\end{aligned}\">\\begin{aligned}&amp;\\lim_{x\\rightarrow 0}\\frac{1}{x^3}\\left[\\left(\\frac{2+\\cos x}{3}\\right)^x-1\\right]=\\lim_{x\\rightarrow 0}\\frac{e^{\\frac{x\\ln 2+\\cos x}{3}}-1}{x^3}=\\lim_{x\\rightarrow 0}\\frac{x\\ln \\frac{2+\\cos x}{3}}{x^3}\\\\&amp;=\\lim_{x\\rightarrow 0}\\frac{\\ln \\frac{3+\\cos x-1}{3}}{x^3}=\\lim_{x\\rightarrow 0}\\frac{\\cos x-1}{x^2}=\\lim_{x\\rightarrow 0}\\frac{-x^2}{6}=-\\frac{1}{6}.\\end{aligned}</div>"
     },
     {
       "id": "q0043",
       "number": 43,
       "header": "#43-Averge",
       "difficulty": "Averge",
-      "prompt_html": "<img src=\"/static/generated/assets/advanced-math/ch012/q0043_prompt.png\"/>",
+      "prompt_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{array}{l} \\text {当} x \\rightarrow 0 \\text {时，} (1 - \\cos x) \\ln (1 + x^{2}) \\text {是比} x \\sin x^{n} \\text {高阶的无穷小，而} x \\sin x^{n} \\text {是比} \\\\ \\left(e^{x^{2}}-1\\right) \\text {高阶的无穷小，则正整数} n \\text {等于} \\quad]. \\end{array}\">\\begin{array}{l} \\text {当} x \\rightarrow 0 \\text {时，} (1 - \\cos x) \\ln (1 + x^{2}) \\text {是比} x \\sin x^{n} \\text {高阶的无穷小，而} x \\sin x^{n} \\text {是比} \\\\ \\left(e^{x^{2}}-1\\right) \\text {高阶的无穷小，则正整数} n \\text {等于} \\quad]. \\end{array}</div>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch012/q0043_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\mathbf { 2 }\">\\mathbf { 2 }</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch012/q0043_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\textcolor{red}{3}\">\\textcolor{red}{3}</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch012/q0043_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"4\">4</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch012/q0043_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\mathbf { 1 } :\">\\mathbf { 1 } :</span>"
         }
       ],
       "answer": "A",
       "answer_index": 0,
-      "analysis_html": "<img src=\"/static/generated/assets/advanced-math/ch012/q0043_analysis.png\"/>"
+      "analysis_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{aligned}&amp;\\text{当}x\\rightarrow 0\\text{时，有} (1-\\cos x)\\ln\\left(1+x^{2}\\right)\\sim \\frac{1}{2}x^{2}\\cdot x^{2}=\\frac{1}{2}x^{4},\\text{同时}\\left(e^{x^{2}}-1\\right)\\sim x^{2}.\\\\&amp;\\text{而}\\qquad x\\sin x^{n}\\sim x\\cdot x^{n}=x^{n+1}.\\quad\\text{所以}2&lt;n+1&lt;4,n=2.\\end{aligned}\">\\begin{aligned}&amp;\\text{当}x\\rightarrow 0\\text{时，有} (1-\\cos x)\\ln\\left(1+x^{2}\\right)\\sim \\frac{1}{2}x^{2}\\cdot x^{2}=\\frac{1}{2}x^{4},\\text{同时}\\left(e^{x^{2}}-1\\right)\\sim x^{2}.\\\\&amp;\\text{而}\\qquad x\\sin x^{n}\\sim x\\cdot x^{n}=x^{n+1}.\\quad\\text{所以}2&lt;n+1&lt;4,n=2.\\end{aligned}</div>"
     },
     {
       "id": "q0044",
       "number": 44,
       "header": "#44-Averge",
       "difficulty": "Averge",
-      "prompt_html": "<img src=\"/static/generated/assets/advanced-math/ch012/q0044_prompt.png\"/>",
+      "prompt_html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\lim_{x \\to 0} \\frac{a - \\cos x}{\\ln |1-x|} = 0 , \\text{则其中} a = ( )\">\\lim_{x \\to 0} \\frac{a - \\cos x}{\\ln |1-x|} = 0 , \\text{则其中} a = ( )</span>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch012/q0044_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\boldsymbol { 0 }\">\\boldsymbol { 0 }</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch012/q0044_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\textbf { 2 }\">\\textbf { 2 }</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch012/q0044_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\frac { \\pi } { 3 } .\">\\frac { \\pi } { 3 } .</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch012/q0044_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\textbf{1}\">\\textbf{1}</span>"
         }
       ],
       "answer": "D",
       "answer_index": 3,
-      "analysis_html": "<img src=\"/static/generated/assets/advanced-math/ch012/q0044_analysis.png\"/>"
+      "analysis_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{array}{l} \\lim\\limits_{x \\to 0} \\dfrac{a - \\cos x}{\\ln | 1 - x |}, \\text{且分母的极限为零，所以，分子的极限也为零，} \\\\ \\\\ \\lim\\limits_{x \\to 0} (a - \\cos x) = a - 1 = 0, \\text{所以} a = 1. \\end{array}\">\\begin{array}{l} \\lim\\limits_{x \\to 0} \\dfrac{a - \\cos x}{\\ln | 1 - x |}, \\text{且分母的极限为零，所以，分子的极限也为零，} \\\\ \\\\ \\lim\\limits_{x \\to 0} (a - \\cos x) = a - 1 = 0, \\text{所以} a = 1. \\end{array}</div>"
     },
     {
       "id": "q0045",
       "number": 45,
       "header": "#45-Averge",
       "difficulty": "Averge",
-      "prompt_html": "<img src=\"/static/generated/assets/advanced-math/ch012/q0045_prompt.png\"/>",
+      "prompt_html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{当}x \\rightarrow 0 \\text{时，} \\sin( \\sin x^{2}) \\text{是} 3 x^{2}+x^{3} \\text{的[ } \\quad ] \\text{无穷小.}\">\\text{当}x \\rightarrow 0 \\text{时，} \\sin( \\sin x^{2}) \\text{是} 3 x^{2}+x^{3} \\text{的[ } \\quad ] \\text{无穷小.}</span>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch012/q0045_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{同阶非等价}\">\\text{同阶非等价}</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch012/q0045_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{等价}\">\\text{等价}</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch012/q0045_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{低阶}\">\\text{低阶}</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch012/q0045_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\textbf{高阶}\">\\textbf{高阶}</span>"
         }
       ],
       "answer": "A",
       "answer_index": 0,
-      "analysis_html": "<img src=\"/static/generated/assets/advanced-math/ch012/q0045_analysis.png\"/>"
+      "analysis_html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{由} \\ \\lim_{x \\to 0} \\frac{3 x^{2} + x^{3}}{\\sin \\left( \\sin x^{2} \\right)} = \\lim_{x \\to 0} \\frac{3 x^{2} + x^{3}}{x^{2}} = 3 \\neq 1\">\\text{由} \\ \\lim_{x \\to 0} \\frac{3 x^{2} + x^{3}}{\\sin \\left( \\sin x^{2} \\right)} = \\lim_{x \\to 0} \\frac{3 x^{2} + x^{3}}{x^{2}} = 3 \\neq 1</span>"
     },
     {
       "id": "q0046",
       "number": 46,
       "header": "#46-Averge",
       "difficulty": "Averge",
-      "prompt_html": "<img src=\"/static/generated/assets/advanced-math/ch012/q0046_prompt.png\"/>",
+      "prompt_html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\lim_{x\\to 0}\\frac{\\sqrt{1+x\\sin{x}}-\\cos{x}}{\\sin^{2}{\\frac{x}{2}}} = \\left(\\right)\">\\lim_{x\\to 0}\\frac{\\sqrt{1+x\\sin{x}}-\\cos{x}}{\\sin^{2}{\\frac{x}{2}}} = \\left(\\right)</span>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch012/q0046_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"4\">4</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch012/q0046_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\mathbf { 2 }\">\\mathbf { 2 }</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch012/q0046_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\mathbf { 0 }\">\\mathbf { 0 }</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch012/q0046_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\scriptstyle n = \\frac { 1 } { 2 }\">\\scriptstyle n = \\frac { 1 } { 2 }</span>"
         }
       ],
       "answer": "A",
       "answer_index": 0,
-      "analysis_html": "<img src=\"/static/generated/assets/advanced-math/ch012/q0046_analysis.png\"/>"
+      "analysis_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{aligned} \\text{原式} &amp; = \\lim_{x \\rightarrow 0} \\frac{ \\left( \\sqrt{1+x \\sin x} - \\cos x \\right) \\left( \\sqrt{1+x \\sin x} + \\cos x \\right)}{ \\sin^2 \\frac{x}{2} \\left( \\sqrt{1+x \\sin x} + \\cos x \\right)} = \\lim_{x \\rightarrow 0} \\frac{ \\sin x \\cdot \\left( \\sin x + x \\right)}{ \\sin^2 \\frac{x}{2}} \\cdot \\frac{1}{2} \\\\ &amp; = \\lim_{x \\rightarrow 0} \\frac{x \\cdot \\left( \\sin x + x \\right)}{ \\left( \\frac{x}{2} \\right)^2} \\cdot \\frac{1}{2} = \\lim_{x \\rightarrow 0} 2 \\cdot \\left( \\frac{\\sin x}{x} + 1 \\right) = 4 \\, . \\end{aligned}\">\\begin{aligned} \\text{原式} &amp; = \\lim_{x \\rightarrow 0} \\frac{ \\left( \\sqrt{1+x \\sin x} - \\cos x \\right) \\left( \\sqrt{1+x \\sin x} + \\cos x \\right)}{ \\sin^2 \\frac{x}{2} \\left( \\sqrt{1+x \\sin x} + \\cos x \\right)} = \\lim_{x \\rightarrow 0} \\frac{ \\sin x \\cdot \\left( \\sin x + x \\right)}{ \\sin^2 \\frac{x}{2}} \\cdot \\frac{1}{2} \\\\ &amp; = \\lim_{x \\rightarrow 0} \\frac{x \\cdot \\left( \\sin x + x \\right)}{ \\left( \\frac{x}{2} \\right)^2} \\cdot \\frac{1}{2} = \\lim_{x \\rightarrow 0} 2 \\cdot \\left( \\frac{\\sin x}{x} + 1 \\right) = 4 \\, . \\end{aligned}</div>"
     },
     {
       "id": "q0047",
       "number": 47,
       "header": "#47-Averge",
       "difficulty": "Averge",
-      "prompt_html": "<img src=\"/static/generated/assets/advanced-math/ch012/q0047_prompt.png\"/>",
+      "prompt_html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\lim_{x \\rightarrow 0} \\frac{ \\tan 5 x - \\cos x + 1 }{ \\sin 3 x } \\text{的值为[ ]}\">\\lim_{x \\rightarrow 0} \\frac{ \\tan 5 x - \\cos x + 1 }{ \\sin 3 x } \\text{的值为[ ]}</span>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch012/q0047_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\frac{1}{3}\">\\frac{1}{3}</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch012/q0047_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\textbf { 2 }\">\\textbf { 2 }</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch012/q0047_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\frac{3}{2}\">\\frac{3}{2}</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch012/q0047_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\frac { 5 } { 3 } .\">\\frac { 5 } { 3 } .</span>"
         }
       ],
       "answer": "D",
       "answer_index": 3,
-      "analysis_html": "<img src=\"/static/generated/assets/advanced-math/ch012/q0047_analysis.png\"/>"
+      "analysis_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{aligned}&amp;\\lim_{x\\rightarrow 0}\\frac{\\tan 5x-\\cos x+1}{\\sin 3x}=\\lim_{x\\rightarrow 0}\\frac{5x+o\\left(x\\right)+\\frac{1}{2}x^{2}+o\\left(x^{2}\\right)}{3x+o\\left(x\\right)}\\\\&amp;=\\lim_{x\\rightarrow 0}\\frac{5+\\frac{o\\left(x\\right)}{x}+\\frac{1}{2}x+\\frac{o\\left(x^{2}\\right)}{x}}{3+\\frac{o\\left(x\\right)}{x}}=\\frac{5}{3}.\\end{aligned}\">\\begin{aligned}&amp;\\lim_{x\\rightarrow 0}\\frac{\\tan 5x-\\cos x+1}{\\sin 3x}=\\lim_{x\\rightarrow 0}\\frac{5x+o\\left(x\\right)+\\frac{1}{2}x^{2}+o\\left(x^{2}\\right)}{3x+o\\left(x\\right)}\\\\&amp;=\\lim_{x\\rightarrow 0}\\frac{5+\\frac{o\\left(x\\right)}{x}+\\frac{1}{2}x+\\frac{o\\left(x^{2}\\right)}{x}}{3+\\frac{o\\left(x\\right)}{x}}=\\frac{5}{3}.\\end{aligned}</div>"
     },
     {
       "id": "q0048",
       "number": 48,
       "header": "#48-Averge",
       "difficulty": "Averge",
-      "prompt_html": "<img src=\"/static/generated/assets/advanced-math/ch012/q0048_prompt.png\"/>",
+      "prompt_html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{当} x \\rightarrow 0 \\text{时，} \\frac{x^{6}}{1- \\sqrt{\\cos x^{2}}} \\text{关于} x \\text{的阶数}( ).\">\\text{当} x \\rightarrow 0 \\text{时，} \\frac{x^{6}}{1- \\sqrt{\\cos x^{2}}} \\text{关于} x \\text{的阶数}( ).</span>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch012/q0048_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{四阶无穷小}\">\\text{四阶无穷小}</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch012/q0048_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{二阶无穷小}\">\\text{二阶无穷小}</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch012/q0048_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{无穷大}\">\\text{无穷大}</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch012/q0048_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{三阶无穷小}\">\\text{三阶无穷小}</span>"
         }
       ],
       "answer": "B",
       "answer_index": 1,
-      "analysis_html": "<img src=\"/static/generated/assets/advanced-math/ch012/q0048_analysis.png\"/>"
+      "analysis_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{array}{l} 1 - \\sqrt {\\cos x ^ {2}} = \\frac {1}{1 + \\sqrt {\\cos x ^ {2}}} \\left(1 - \\cos x ^ {2} \\right) \\sim \\frac {1}{2} \\cdot \\frac {1}{2} \\left(x ^ {2}\\right) ^ {2}, \\text {则} 1 - \\sqrt {\\cos x ^ {2}} \\text {是} x \\text {的四阶无穷小，从而} \\frac {x ^ {6}}{1 - \\sqrt {\\cos x ^ {2}}} \\text {是} x \\text {的二阶无穷小}.\\end{array}\">\\begin{array}{l} 1 - \\sqrt {\\cos x ^ {2}} = \\frac {1}{1 + \\sqrt {\\cos x ^ {2}}} \\left(1 - \\cos x ^ {2} \\right) \\sim \\frac {1}{2} \\cdot \\frac {1}{2} \\left(x ^ {2}\\right) ^ {2}, \\text {则} 1 - \\sqrt {\\cos x ^ {2}} \\text {是} x \\text {的四阶无穷小，从而} \\frac {x ^ {6}}{1 - \\sqrt {\\cos x ^ {2}}} \\text {是} x \\text {的二阶无穷小}.\\end{array}</div>"
     }
-  ]
+  ],
+  "format": "latex",
+  "source_md": "gs/1.7_无穷小的比较(48题)/1.7_无穷小的比较(48题).md"
 }

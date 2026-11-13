@@ -13,308 +13,310 @@
       "number": 1,
       "header": "#1-Averge",
       "difficulty": "Averge",
-      "prompt_html": "<img src=\"/static/generated/assets/probability/ch072/q0001_prompt.png\"/>",
+      "prompt_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{aligned} \\text{甲、乙两人相约于某地在}12:00\\sim13:00\\text{会面}，\\text{设}X,Y\\text{分别是甲}、\\text{乙到达的时间}，\\text{且}X\\text{和}Y\\text{相互独立}，\\text{已知}X,Y\\text{的概率密度分别为} \\\\f_{X}(x)=\\begin{cases} 3x^{2}, &amp; 0&lt;x&lt;1 \\\\ 0, &amp; \\text{其它} \\end{cases},\\ f_{Y}(y)=\\begin{cases} 2y, &amp; 0&lt;y&lt;1 \\\\ 0, &amp; \\text{其它} \\end{cases}, \\text{则先到到达者需要等待的时间的数学期望为（）。} \\end{aligned}\">\\begin{aligned} \\text{甲、乙两人相约于某地在}12:00\\sim13:00\\text{会面}，\\text{设}X,Y\\text{分别是甲}、\\text{乙到达的时间}，\\text{且}X\\text{和}Y\\text{相互独立}，\\text{已知}X,Y\\text{的概率密度分别为} \\\\f_{X}(x)=\\begin{cases} 3x^{2}, &amp; 0&lt;x&lt;1 \\\\ 0, &amp; \\text{其它} \\end{cases},\\ f_{Y}(y)=\\begin{cases} 2y, &amp; 0&lt;y&lt;1 \\\\ 0, &amp; \\text{其它} \\end{cases}, \\text{则先到到达者需要等待的时间的数学期望为（）。} \\end{aligned}</div>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/probability/ch072/q0001_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\frac{1}{4}\">\\frac{1}{4}</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/probability/ch072/q0001_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\frac { 1 } { 6 }\">\\frac { 1 } { 6 }</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/probability/ch072/q0001_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\frac { 1 } { 12 }\">\\frac { 1 } { 12 }</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/probability/ch072/q0001_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\frac { 1 } { 8 }\">\\frac { 1 } { 8 }</span>"
         }
       ],
       "answer": "A",
       "answer_index": 0,
-      "analysis_html": "<img src=\"/static/generated/assets/probability/ch072/q0001_analysis.png\"/>"
+      "analysis_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{aligned} x \\text{和} y \\text{的联合概率密度为}\\\\f(x,y) = \\begin{cases} 6x^2y, &amp; 0 &lt; x &lt; 1, \\, 0 &lt; y &lt; 1 \\\\ 0, &amp; \\text{其它} \\end{cases}. \\\\\\text{按题意需要要求的是} |X-Y| \\text{的数学期望，即有}\\\\E(|X-Y|) = \\int_{[0,1]} \\int_{[0,1]} |x-y| 6x^2y \\, dy \\\\= \\iint_{D_1} [-(x-y)6x^2y] \\, dx \\, dy + \\iint_{D_3} (x-y)6x^2y \\, dx \\, dy \\\\= \\frac{1}{12} + \\frac{1}{6} = \\frac{1}{4} (\\text{小时}) \\, (D_1, D_3 \\text{如图}) \\end{aligned}\">\\begin{aligned} x \\text{和} y \\text{的联合概率密度为}\\\\f(x,y) = \\begin{cases} 6x^2y, &amp; 0 &lt; x &lt; 1, \\, 0 &lt; y &lt; 1 \\\\ 0, &amp; \\text{其它} \\end{cases}. \\\\\\text{按题意需要要求的是} |X-Y| \\text{的数学期望，即有}\\\\E(|X-Y|) = \\int_{[0,1]} \\int_{[0,1]} |x-y| 6x^2y \\, dy \\\\= \\iint_{D_1} [-(x-y)6x^2y] \\, dx \\, dy + \\iint_{D_3} (x-y)6x^2y \\, dx \\, dy \\\\= \\frac{1}{12} + \\frac{1}{6} = \\frac{1}{4} (\\text{小时}) \\, (D_1, D_3 \\text{如图}) \\end{aligned}</div>"
     },
     {
       "id": "q0002",
       "number": 2,
       "header": "#2-Averge",
       "difficulty": "Averge",
-      "prompt_html": "<img src=\"/static/generated/assets/probability/ch072/q0002_prompt.png\"/>",
+      "prompt_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{array}{l}\n\\begin{array}{|c|c|c|c|} \\hline \\xi &amp; \\eta &amp; 0 &amp; 1 &amp; 2 \\\\ \\hline\n1 &amp; \\frac{1}{10} &amp; \\frac{1}{20} &amp; \\frac{7}{20} &amp; \\\\\n&amp; \\frac{3}{10} &amp; \\frac{1}{10} &amp; \\frac{1}{10} &amp; \\\\\n2 &amp; &amp; &amp; &amp; \\\\ \\hline \\end{array}\n\\text{则} E(\\xi \\eta)=()．\n\n\\end{array}\">\\begin{array}{l}\n\\begin{array}{|c|c|c|c|} \\hline \\xi &amp; \\eta &amp; 0 &amp; 1 &amp; 2 \\\\ \\hline\n1 &amp; \\frac{1}{10} &amp; \\frac{1}{20} &amp; \\frac{7}{20} &amp; \\\\\n&amp; \\frac{3}{10} &amp; \\frac{1}{10} &amp; \\frac{1}{10} &amp; \\\\\n2 &amp; &amp; &amp; &amp; \\\\ \\hline \\end{array}\n\\text{则} E(\\xi \\eta)=()．\n\n\\end{array}</div>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/probability/ch072/q0002_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\frac { 27 } { 20 }\">\\frac { 27 } { 20 }</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/probability/ch072/q0002_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\frac { 7 } { 20 }\">\\frac { 7 } { 20 }</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/probability/ch072/q0002_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\frac { 7 } { 10 }\">\\frac { 7 } { 10 }</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/probability/ch072/q0002_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\frac { 21 } { 20 }\">\\frac { 21 } { 20 }</span>"
         }
       ],
       "answer": "A",
       "answer_index": 0,
-      "analysis_html": "<img src=\"/static/generated/assets/probability/ch072/q0002_analysis.png\"/>"
+      "analysis_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{aligned}E(\\xi \\eta )&amp;=\\sum_{j=1}^{3}\\sum_{i=1}^{2}x_{i}y_{j}p_{ij}\\\\&amp;=1\\times \\frac{1}{20}+2\\times \\frac{7}{20}+2\\times \\frac{1}{10}+4\\times \\frac{1}{10}=\\frac{27}{20}=1.35\\,.\\end{aligned}\">\\begin{aligned}E(\\xi \\eta )&amp;=\\sum_{j=1}^{3}\\sum_{i=1}^{2}x_{i}y_{j}p_{ij}\\\\&amp;=1\\times \\frac{1}{20}+2\\times \\frac{7}{20}+2\\times \\frac{1}{10}+4\\times \\frac{1}{10}=\\frac{27}{20}=1.35\\,.\\end{aligned}</div>"
     },
     {
       "id": "q0003",
       "number": 3,
       "header": "#3-Averge",
       "difficulty": "Averge",
-      "prompt_html": "<img src=\"/static/generated/assets/probability/ch072/q0003_prompt.png\"/>",
+      "prompt_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\text{设}(\\xi,\\eta)\\text{的概率密度为}\\varphi(x,y)=\\begin{cases} x+y,\\ 0\\leq x\\leq 1, 0\\leq y\\leq 1 \\\\ \\ \\ \\ \\ \\ \\ 0,\\quad\\text{其它} \\end{cases},\\ \\text{则}E(\\xi\\eta)=\\left(\\begin{matrix} \\end{matrix}\\right).\">\\text{设}(\\xi,\\eta)\\text{的概率密度为}\\varphi(x,y)=\\begin{cases} x+y,\\ 0\\leq x\\leq 1, 0\\leq y\\leq 1 \\\\ \\ \\ \\ \\ \\ \\ 0,\\quad\\text{其它} \\end{cases},\\ \\text{则}E(\\xi\\eta)=\\left(\\begin{matrix} \\end{matrix}\\right).</div>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/probability/ch072/q0003_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\frac { 1 } { 3 }\">\\frac { 1 } { 3 }</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/probability/ch072/q0003_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\frac { 1 } { 2 }\">\\frac { 1 } { 2 }</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/probability/ch072/q0003_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\frac { 1 } { 4 }\">\\frac { 1 } { 4 }</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/probability/ch072/q0003_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\frac { 7 } { 12 }\">\\frac { 7 } { 12 }</span>"
         }
       ],
       "answer": "A",
       "answer_index": 0,
-      "analysis_html": "<img src=\"/static/generated/assets/probability/ch072/q0003_analysis.png\"/>"
+      "analysis_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{array}{l} \\text {由二维随机变量函数数学期望的定义知，} \\\\ E(\\xi \\eta) = \\int_{0}^{1} dx \\int_{0}^{1} xy(x+y) dy = \\int_{0}^{1} (\\frac{1}{2} x^{2} + \\frac{1}{3} x) dx = \\frac{1}{3}\\;.\\end{array}\">\\begin{array}{l} \\text {由二维随机变量函数数学期望的定义知，} \\\\ E(\\xi \\eta) = \\int_{0}^{1} dx \\int_{0}^{1} xy(x+y) dy = \\int_{0}^{1} (\\frac{1}{2} x^{2} + \\frac{1}{3} x) dx = \\frac{1}{3}\\;.\\end{array}</div>"
     },
     {
       "id": "q0004",
       "number": 4,
       "header": "#4-Averge",
       "difficulty": "Averge",
-      "prompt_html": "<img src=\"/static/generated/assets/probability/ch072/q0004_prompt.png\"/>",
+      "prompt_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\text{设 } (\\xi, \\eta) \\text{ 的概率密度为 } \\varphi(x, y) = \\begin{cases} 3x, &amp; 0 &lt; y &lt; x, 0 &lt; x &lt; 1 \\\\ \\quad 0, &amp; \\text{其它} \\end{cases}, \\text{则 } E(\\xi - \\eta) = ( \\ \\ ) .\">\\text{设 } (\\xi, \\eta) \\text{ 的概率密度为 } \\varphi(x, y) = \\begin{cases} 3x, &amp; 0 &lt; y &lt; x, 0 &lt; x &lt; 1 \\\\ \\quad 0, &amp; \\text{其它} \\end{cases}, \\text{则 } E(\\xi - \\eta) = ( \\ \\ ) .</div>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/probability/ch072/q0004_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\frac { 3 } { 8 }\">\\frac { 3 } { 8 }</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/probability/ch072/q0004_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"^ 3\">^ 3</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/probability/ch072/q0004_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"8\">8</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/probability/ch072/q0004_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\frac { 8 } { 3 }\">\\frac { 8 } { 3 }</span>"
         }
       ],
       "answer": "A",
       "answer_index": 0,
-      "analysis_html": "<img src=\"/static/generated/assets/probability/ch072/q0004_analysis.png\"/>"
+      "analysis_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{array}{l} \\text {由二维随机变量的数学期望的定义知，} \\\\ E(\\xi - \\eta) = \\int_{0}^{1} dx \\int_{0}^{\\pi} (x - y) \\cdot 3 x dy = \\frac{3}{8}\\,. \\end{array}\">\\begin{array}{l} \\text {由二维随机变量的数学期望的定义知，} \\\\ E(\\xi - \\eta) = \\int_{0}^{1} dx \\int_{0}^{\\pi} (x - y) \\cdot 3 x dy = \\frac{3}{8}\\,. \\end{array}</div>"
     },
     {
       "id": "q0005",
       "number": 5,
       "header": "#5-Averge",
       "difficulty": "Averge",
-      "prompt_html": "<img src=\"/static/generated/assets/probability/ch072/q0005_prompt.png\"/>",
+      "prompt_html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{设}X\\text{和}Y\\text{是相互独立且均服从正态分布}N\\left(0,\\frac{1}{2}\\right)\\text{的随机变量，则}X-Y\\text{的数学期望为}(\\text{.})\">\\text{设}X\\text{和}Y\\text{是相互独立且均服从正态分布}N\\left(0,\\frac{1}{2}\\right)\\text{的随机变量，则}X-Y\\text{的数学期望为}(\\text{.})</span>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/probability/ch072/q0005_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\sqrt { \\frac { 2 } { \\pi } }\">\\sqrt { \\frac { 2 } { \\pi } }</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/probability/ch072/q0005_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\sqrt { \\frac { \\pi } { 2 } }\">\\sqrt { \\frac { \\pi } { 2 } }</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/probability/ch072/q0005_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\sqrt { \\pi }\">\\sqrt { \\pi }</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/probability/ch072/q0005_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\sqrt { 2 \\pi }\">\\sqrt { 2 \\pi }</span>"
         }
       ],
       "answer": "A",
       "answer_index": 0,
-      "analysis_html": "<img src=\"/static/generated/assets/probability/ch072/q0005_analysis.png\"/>"
+      "analysis_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{aligned}E(X-Y)&amp;=E(|Z|)=\\int_{-\\infty}^{+\\infty}|z|\\cdot\\frac{1}{\\sqrt{2\\pi}}e^{-\\frac{z^{2}}{2}}dz\\\\&amp;=\\sqrt{\\frac{2}{\\pi}}\\int_{0}^{+\\infty}ze^{-\\frac{z^{2}}{2}}dz=\\sqrt{\\frac{2}{\\pi}}(-e^{-\\frac{z^{2}}{2}})_{0}^{+\\infty}=\\sqrt{\\frac{2}{\\pi}}.\\end{aligned}\">\\begin{aligned}E(X-Y)&amp;=E(|Z|)=\\int_{-\\infty}^{+\\infty}|z|\\cdot\\frac{1}{\\sqrt{2\\pi}}e^{-\\frac{z^{2}}{2}}dz\\\\&amp;=\\sqrt{\\frac{2}{\\pi}}\\int_{0}^{+\\infty}ze^{-\\frac{z^{2}}{2}}dz=\\sqrt{\\frac{2}{\\pi}}(-e^{-\\frac{z^{2}}{2}})_{0}^{+\\infty}=\\sqrt{\\frac{2}{\\pi}}.\\end{aligned}</div>"
     },
     {
       "id": "q0006",
       "number": 6,
       "header": "#6-Hard",
       "difficulty": "Hard",
-      "prompt_html": "<img src=\"/static/generated/assets/probability/ch072/q0006_prompt.png\"/>",
+      "prompt_html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{设随机变量} X \\text{和} Y \\text{相互独立，且都服从标准正态分布，则} Z = \\sqrt { X ^ { 2 } + Y ^ { 2 } } \\text{的数学期望为} ( ) .\">\\text{设随机变量} X \\text{和} Y \\text{相互独立，且都服从标准正态分布，则} Z = \\sqrt { X ^ { 2 } + Y ^ { 2 } } \\text{的数学期望为} ( ) .</span>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/probability/ch072/q0006_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\sqrt { \\frac { \\pi } { 2 } }\">\\sqrt { \\frac { \\pi } { 2 } }</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/probability/ch072/q0006_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\sqrt { \\frac { 2 } { \\pi } }\">\\sqrt { \\frac { 2 } { \\pi } }</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/probability/ch072/q0006_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\sqrt { \\pi }\">\\sqrt { \\pi }</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/probability/ch072/q0006_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"1\">1</span>"
         }
       ],
       "answer": "A",
       "answer_index": 0,
-      "analysis_html": "<img src=\"/static/generated/assets/probability/ch072/q0006_analysis.png\"/>"
+      "analysis_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{aligned}X&amp;\\sim N(0,1),\\,Y\\sim N(0,1),\\,\\,\\lambda\\text{ 和 }Y\\text{ 相互独立，}\\,\\lambda\\text{ 和 }Y\\text{ 的联合概率密度为}\\\\&amp;f(x,y)=\\frac{1}{\\sqrt{2\\pi}}e^{-x^2/2},\\frac{1}{\\sqrt{2\\pi}}e^{-y^2/2}=\\frac{1}{2\\pi}e^{-(x^2+y^2)/2},\\\\ \\text{于是}\\\\&amp;E(Z)=E(\\sqrt{X^2+Y^2})=\\frac{1}{2\\pi}\\int_{-\\infty}^{+\\infty}\\int_{-\\infty}^{+\\infty}\\sqrt{x^2+y^2}e^{-\\frac{x^2+y^2}{2}}\\,dxdy,\\\\ \\text{利用极坐标来计算，令 }x=r\\cos\\theta,\\,y=r\\sin\\theta,\\text{ 得}\\\\&amp;E(Z)=\\frac{1}{2\\pi}\\int_{0}^{2\\pi}\\int_{0}^{+\\infty}\\int_{0}^{-\\frac{r^2}{2}}r^2e^{-\\frac{r^2}{2}}drd\\theta=\\frac{2\\pi}{2\\pi}\\int_{0}^{+\\infty}\\int_{0}^{\\frac{r^2}{2}}r^2e^{-\\frac{r^2}{2}}dr\\\\&amp;=-re^{-\\frac{r^2}{2}}\\int_{0}^{+\\infty}\\int_{0}^{+\\infty}e^{-\\frac{r^2}{2}}dr=\\sqrt{\\frac{\\pi}{2}}\\left(\\text{因 }\\frac{1}{\\sqrt{2\\pi}}\\int_{-\\infty}^{+\\infty}e^{-\\frac{r^2}{2}}dr=1\\right).\\end{aligned}\">\\begin{aligned}X&amp;\\sim N(0,1),\\,Y\\sim N(0,1),\\,\\,\\lambda\\text{ 和 }Y\\text{ 相互独立，}\\,\\lambda\\text{ 和 }Y\\text{ 的联合概率密度为}\\\\&amp;f(x,y)=\\frac{1}{\\sqrt{2\\pi}}e^{-x^2/2},\\frac{1}{\\sqrt{2\\pi}}e^{-y^2/2}=\\frac{1}{2\\pi}e^{-(x^2+y^2)/2},\\\\ \\text{于是}\\\\&amp;E(Z)=E(\\sqrt{X^2+Y^2})=\\frac{1}{2\\pi}\\int_{-\\infty}^{+\\infty}\\int_{-\\infty}^{+\\infty}\\sqrt{x^2+y^2}e^{-\\frac{x^2+y^2}{2}}\\,dxdy,\\\\ \\text{利用极坐标来计算，令 }x=r\\cos\\theta,\\,y=r\\sin\\theta,\\text{ 得}\\\\&amp;E(Z)=\\frac{1}{2\\pi}\\int_{0}^{2\\pi}\\int_{0}^{+\\infty}\\int_{0}^{-\\frac{r^2}{2}}r^2e^{-\\frac{r^2}{2}}drd\\theta=\\frac{2\\pi}{2\\pi}\\int_{0}^{+\\infty}\\int_{0}^{\\frac{r^2}{2}}r^2e^{-\\frac{r^2}{2}}dr\\\\&amp;=-re^{-\\frac{r^2}{2}}\\int_{0}^{+\\infty}\\int_{0}^{+\\infty}e^{-\\frac{r^2}{2}}dr=\\sqrt{\\frac{\\pi}{2}}\\left(\\text{因 }\\frac{1}{\\sqrt{2\\pi}}\\int_{-\\infty}^{+\\infty}e^{-\\frac{r^2}{2}}dr=1\\right).\\end{aligned}</div>"
     },
     {
       "id": "q0007",
       "number": 7,
       "header": "#7-Averge",
       "difficulty": "Averge",
-      "prompt_html": "<img src=\"/static/generated/assets/probability/ch072/q0007_prompt.png\"/>",
+      "prompt_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"(\\xi,\\eta) \\text{的联合概率密度为} \\varphi(x,y) = \\begin{cases} x+y, \\ 0\\leq x\\leq 1, 0\\leq y\\leq 1 \\\\ \\ \\ \\ \\ 0, \\ \\ \\ \\ \\text{其它} \\end{cases}, \\text{则} E(\\xi),\\ E(\\eta) \\text{分别为（）}.\">(\\xi,\\eta) \\text{的联合概率密度为} \\varphi(x,y) = \\begin{cases} x+y, \\ 0\\leq x\\leq 1, 0\\leq y\\leq 1 \\\\ \\ \\ \\ \\ 0, \\ \\ \\ \\ \\text{其它} \\end{cases}, \\text{则} E(\\xi),\\ E(\\eta) \\text{分别为（）}.</div>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/probability/ch072/q0007_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\frac {7}{12}, \\ \\frac {7}{12}\">\\frac {7}{12}, \\ \\frac {7}{12}</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/probability/ch072/q0007_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\frac {5}{12}, \\ \\frac {5}{12}\">\\frac {5}{12}, \\ \\frac {5}{12}</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/probability/ch072/q0007_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\frac {7}{12}, \\ \\frac {5}{12}\">\\frac {7}{12}, \\ \\frac {5}{12}</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/probability/ch072/q0007_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\frac {5}{12},\\ \\frac {7}{12}\">\\frac {5}{12},\\ \\frac {7}{12}</span>"
         }
       ],
       "answer": "A",
       "answer_index": 0,
-      "analysis_html": "<img src=\"/static/generated/assets/probability/ch072/q0007_analysis.png\"/>"
+      "analysis_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{aligned}&amp;\\text{由题意知，}\\\\&amp;E(\\xi)=\\int_{0}^{1}dx\\int_{0}^{1}x(x+y)dy=\\frac{7}{12}\\,,\\\\&amp;\\text{由}x\\text{与}y\\text{的对称性知，}E(\\eta)=\\frac{7}{12}\\,.\\end{aligned}\">\\begin{aligned}&amp;\\text{由题意知，}\\\\&amp;E(\\xi)=\\int_{0}^{1}dx\\int_{0}^{1}x(x+y)dy=\\frac{7}{12}\\,,\\\\&amp;\\text{由}x\\text{与}y\\text{的对称性知，}E(\\eta)=\\frac{7}{12}\\,.\\end{aligned}</div>"
     },
     {
       "id": "q0008",
       "number": 8,
       "header": "#8-Averge",
       "difficulty": "Averge",
-      "prompt_html": "<img src=\"/static/generated/assets/probability/ch072/q0008_prompt.png\"/>",
+      "prompt_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\text{设}(X,Y) \\text{的概率密度为} \\ f(x,y) = \\begin{cases} A, &amp; 0 &lt; x &lt; 1, 0 &lt; y &lt; x \\\\ \\ \\ \\ \\ 0, &amp; \\text{其它} \\end{cases}, \\text{则} E(XY) = ( \\ ) .\">\\text{设}(X,Y) \\text{的概率密度为} \\ f(x,y) = \\begin{cases} A, &amp; 0 &lt; x &lt; 1, 0 &lt; y &lt; x \\\\ \\ \\ \\ \\ 0, &amp; \\text{其它} \\end{cases}, \\text{则} E(XY) = ( \\ ) .</div>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/probability/ch072/q0008_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\frac { 1 } { 4 }\">\\frac { 1 } { 4 }</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/probability/ch072/q0008_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"_{\\text{ 2 }}\">_{\\text{ 2 }}</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/probability/ch072/q0008_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"4\">4</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/probability/ch072/q0008_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\frac { 1 } { 2 }\">\\frac { 1 } { 2 }</span>"
         }
       ],
       "answer": "A",
       "answer_index": 0,
-      "analysis_html": "<img src=\"/static/generated/assets/probability/ch072/q0008_analysis.png\"/>"
+      "analysis_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{aligned}&amp;\\text{由}\\int_{-\\infty}^{+\\infty}\\int_{-\\infty}^{+\\infty}f(x,y)dx dy=1\\,,\\,\\,\\text{而}\\\\&amp;\\int_{-\\infty}^{+\\infty}\\int_{-\\infty}^{+\\infty}f(x,y)dx dy=\\int_{0}^{1}dx\\int_{0}^{x}Ady=\\frac{A}{2}\\,,\\\\&amp;\\text{故}A=2\\,.\\\\&amp;E(XY)=\\int_{-\\infty}^{+\\infty}\\int_{-\\infty}^{+\\infty}xyf(x,y)dx dy=\\int_{0}^{1}dx\\int_{0}^{x}2xydx=\\frac{1}{4}\\,.\\end{aligned}\">\\begin{aligned}&amp;\\text{由}\\int_{-\\infty}^{+\\infty}\\int_{-\\infty}^{+\\infty}f(x,y)dx dy=1\\,,\\,\\,\\text{而}\\\\&amp;\\int_{-\\infty}^{+\\infty}\\int_{-\\infty}^{+\\infty}f(x,y)dx dy=\\int_{0}^{1}dx\\int_{0}^{x}Ady=\\frac{A}{2}\\,,\\\\&amp;\\text{故}A=2\\,.\\\\&amp;E(XY)=\\int_{-\\infty}^{+\\infty}\\int_{-\\infty}^{+\\infty}xyf(x,y)dx dy=\\int_{0}^{1}dx\\int_{0}^{x}2xydx=\\frac{1}{4}\\,.\\end{aligned}</div>"
     },
     {
       "id": "q0009",
       "number": 9,
       "header": "#9-Averge",
       "difficulty": "Averge",
-      "prompt_html": "<img src=\"/static/generated/assets/probability/ch072/q0009_prompt.png\"/>",
+      "prompt_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{array}{l} \\text {设} (X,Y) \\text {的概率密度为} \\\\ f(x,y) = \\{ \\begin{array}{ll} 12y^{2}, &amp; 0\\leq y\\leq x\\leq 1 \\\\ 0, &amp; \\text {其它} \\end{array}, \\\\ \\text {则下列计算中不正确的是()}. \\end{array}\">\\begin{array}{l} \\text {设} (X,Y) \\text {的概率密度为} \\\\ f(x,y) = \\{ \\begin{array}{ll} 12y^{2}, &amp; 0\\leq y\\leq x\\leq 1 \\\\ 0, &amp; \\text {其它} \\end{array}, \\\\ \\text {则下列计算中不正确的是()}. \\end{array}</div>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/probability/ch072/q0009_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\begin{aligned}E(XY) = \\frac{1}{3}\\end{aligned}\">\\begin{aligned}E(XY) = \\frac{1}{3}\\end{aligned}</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/probability/ch072/q0009_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\begin{aligned}E(X) = \\frac{4}{5}\\end{aligned}\">\\begin{aligned}E(X) = \\frac{4}{5}\\end{aligned}</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/probability/ch072/q0009_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\begin{aligned}E(Y) = \\frac{3}{5}\\end{aligned}\">\\begin{aligned}E(Y) = \\frac{3}{5}\\end{aligned}</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/probability/ch072/q0009_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\begin{array}{l} { r } { E ( X ^ { 2 } + Y ^ { 2 } ) = \\frac { 16 } { 15 } } \\end{array}\">\\begin{array}{l} { r } { E ( X ^ { 2 } + Y ^ { 2 } ) = \\frac { 16 } { 15 } } \\end{array}</span>"
         }
       ],
       "answer": "A",
       "answer_index": 0,
-      "analysis_html": "<img src=\"/static/generated/assets/probability/ch072/q0009_analysis.png\"/>"
+      "analysis_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{aligned}E(X) &amp; = \\int_{-\\infty}^{+\\infty} \\int_{-\\infty}^{+\\infty} x f(x,y) dx dy = \\int_{0}^{1} dx \\int_{0}^{\\infty} x \\cdot 12 y^{2} dy = \\frac{4}{5}, \\\\E(Y) &amp; = \\int_{-\\infty}^{+\\infty} \\int_{-\\infty}^{+\\infty} y f(x,y) dx dy = \\int_{0}^{1} dx \\int_{0}^{\\infty} y \\cdot 12 y^{2} dy = \\frac{3}{5}, \\\\E(XY) &amp; = \\int_{-\\infty}^{+\\infty} \\int_{-\\infty}^{+\\infty} xy f(x,y) dx dy = \\int_{0}^{1} dx \\int_{0}^{\\infty} xy \\cdot 12 y^{2} dy = \\frac{1}{2}, \\\\E(X^2 + Y^2) &amp; = \\int_{-\\infty}^{+\\infty} \\int_{-\\infty}^{+\\infty} (x^2 + y^2) f(x,y) dx dy = \\int_{0}^{1} dx \\int_{0}^{\\infty} (x^2 + y^2) \\cdot 12 y^{2} dy = \\frac{2}{3} + \\frac{6}{15} = \\frac{16}{15}.\\end{aligned}\">\\begin{aligned}E(X) &amp; = \\int_{-\\infty}^{+\\infty} \\int_{-\\infty}^{+\\infty} x f(x,y) dx dy = \\int_{0}^{1} dx \\int_{0}^{\\infty} x \\cdot 12 y^{2} dy = \\frac{4}{5}, \\\\E(Y) &amp; = \\int_{-\\infty}^{+\\infty} \\int_{-\\infty}^{+\\infty} y f(x,y) dx dy = \\int_{0}^{1} dx \\int_{0}^{\\infty} y \\cdot 12 y^{2} dy = \\frac{3}{5}, \\\\E(XY) &amp; = \\int_{-\\infty}^{+\\infty} \\int_{-\\infty}^{+\\infty} xy f(x,y) dx dy = \\int_{0}^{1} dx \\int_{0}^{\\infty} xy \\cdot 12 y^{2} dy = \\frac{1}{2}, \\\\E(X^2 + Y^2) &amp; = \\int_{-\\infty}^{+\\infty} \\int_{-\\infty}^{+\\infty} (x^2 + y^2) f(x,y) dx dy = \\int_{0}^{1} dx \\int_{0}^{\\infty} (x^2 + y^2) \\cdot 12 y^{2} dy = \\frac{2}{3} + \\frac{6}{15} = \\frac{16}{15}.\\end{aligned}</div>"
     },
     {
       "id": "q0010",
       "number": 10,
       "header": "#10-Averge",
       "difficulty": "Averge",
-      "prompt_html": "<img src=\"/static/generated/assets/probability/ch072/q0010_prompt.png\"/>",
+      "prompt_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\text{设} \\, (\\xi, \\eta) \\text{的概率密度为} \\, \\varphi(x,y) = \\begin{cases} x e^{-x(1+y)}, \\ x&gt;0, y&gt;0 \\\\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ 0, \\quad \\text{其它} \\end{cases}, \\text{则} \\, E(\\xi \\eta) = (\\ ) \\ .\">\\text{设} \\, (\\xi, \\eta) \\text{的概率密度为} \\, \\varphi(x,y) = \\begin{cases} x e^{-x(1+y)}, \\ x&gt;0, y&gt;0 \\\\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ 0, \\quad \\text{其它} \\end{cases}, \\text{则} \\, E(\\xi \\eta) = (\\ ) \\ .</div>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/probability/ch072/q0010_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"1\">1</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/probability/ch072/q0010_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"0.5\">0.5</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/probability/ch072/q0010_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"1.5\">1.5</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/probability/ch072/q0010_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"2\">2</span>"
         }
       ],
       "answer": "A",
       "answer_index": 0,
-      "analysis_html": "<img src=\"/static/generated/assets/probability/ch072/q0010_analysis.png\"/>"
+      "analysis_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{array}{l} \\text {由二维随机变量函数的数学期望的定义知，} \\\\ E(\\xi \\eta) = \\int_{0}^{+\\infty} dx \\int_{0}^{+\\infty} x^{2} y e^{-x(1+y)} dy = \\int_{0}^{+\\infty} e^{-x} dx = 1 \\; . \\end{array}\">\\begin{array}{l} \\text {由二维随机变量函数的数学期望的定义知，} \\\\ E(\\xi \\eta) = \\int_{0}^{+\\infty} dx \\int_{0}^{+\\infty} x^{2} y e^{-x(1+y)} dy = \\int_{0}^{+\\infty} e^{-x} dx = 1 \\; . \\end{array}</div>"
     },
     {
       "id": "q0011",
       "number": 11,
       "header": "#11-Averge",
       "difficulty": "Averge",
-      "prompt_html": "<img src=\"/static/generated/assets/probability/ch072/q0011_prompt.png\"/>",
+      "prompt_html": "<span class=\"latex-text\">\\begin{array}{l}\n\\begin{array}{|c|c|c|} \\hline \\overline{X} &amp; Y &amp; 0 &amp; 1 \\\\ \\hline\n0 &amp; 1/6 &amp; 1/6 \\\\\n1 &amp; 1/3 &amp; 1/12 \\\\\n2 &amp; 1/12 &amp; 1/6 \\\\ \\hline \\end{array} ,</span>\n<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{则} \\mathbb{E}[2\\max(X,Y)+3]=（ ）.\">\\text{则} \\mathbb{E}[2\\max(X,Y)+3]=（ ）.</span>\n<span class=\"latex-text\">\\end{array}</span>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/probability/ch072/q0011_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\frac { 31 } { 6 }\">\\frac { 31 } { 6 }</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/probability/ch072/q0011_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\frac { 13 } { 6 }\">\\frac { 13 } { 6 }</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/probability/ch072/q0011_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\frac { 13 } { 12 }\">\\frac { 13 } { 12 }</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/probability/ch072/q0011_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\frac {31}{12}\">\\frac {31}{12}</span>"
         }
       ],
       "answer": "A",
       "answer_index": 0,
-      "analysis_html": "<img src=\"/static/generated/assets/probability/ch072/q0011_analysis.png\"/>"
+      "analysis_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{aligned}&amp; \\text{先求的分布律，如下} \\\\&amp; \\begin{array}{|c|c|c|c|c|c|c|} (X,Y) &amp; (0,0) &amp; (0,1) &amp; (1,0) &amp; (1,1) &amp; (2,0) &amp; (2,1) \\\\ \\hline &amp; 1/6 &amp; 1/6 &amp; 1/3 &amp; 1/12 &amp; 1/12 &amp; 1/6 \\\\ \\hline \\max(X,Y) &amp; 0 &amp; 1 &amp; 1 &amp; 1 &amp; 2 &amp; 2 \\\\ \\hline 2\\max(X,Y)+3 &amp; 3 &amp; 5 &amp; 5 &amp; 5 &amp; 7 &amp; 7 \\end{array} \\\\&amp; \\text{即分布律为} \\\\&amp; \\begin{array}{|c|c|c|c|} 2\\max(X,Y)+3 &amp; 3 &amp; 5 &amp; 7 \\\\ \\hline &amp; 1/6 &amp; 7/12 &amp; 1/4 \\end{array} \\\\&amp; \\text{于是期望值为} \\\\&amp; E[2\\max(X,Y)+3]=3\\times \\frac{1}{6}+5\\times \\frac{7}{12}+7\\times \\frac{1}{4}=\\frac{31}{6}\\,.\\end{aligned}\">\\begin{aligned}&amp; \\text{先求的分布律，如下} \\\\&amp; \\begin{array}{|c|c|c|c|c|c|c|} (X,Y) &amp; (0,0) &amp; (0,1) &amp; (1,0) &amp; (1,1) &amp; (2,0) &amp; (2,1) \\\\ \\hline &amp; 1/6 &amp; 1/6 &amp; 1/3 &amp; 1/12 &amp; 1/12 &amp; 1/6 \\\\ \\hline \\max(X,Y) &amp; 0 &amp; 1 &amp; 1 &amp; 1 &amp; 2 &amp; 2 \\\\ \\hline 2\\max(X,Y)+3 &amp; 3 &amp; 5 &amp; 5 &amp; 5 &amp; 7 &amp; 7 \\end{array} \\\\&amp; \\text{即分布律为} \\\\&amp; \\begin{array}{|c|c|c|c|} 2\\max(X,Y)+3 &amp; 3 &amp; 5 &amp; 7 \\\\ \\hline &amp; 1/6 &amp; 7/12 &amp; 1/4 \\end{array} \\\\&amp; \\text{于是期望值为} \\\\&amp; E[2\\max(X,Y)+3]=3\\times \\frac{1}{6}+5\\times \\frac{7}{12}+7\\times \\frac{1}{4}=\\frac{31}{6}\\,.\\end{aligned}</div>"
     }
-  ]
+  ],
+  "format": "latex",
+  "source_md": "gl/4.1.3.4_二维连续型随机变量的函数的期望(11题)/4.1.3.4_二维连续型随机变量的函数的期望(11题).md"
 }

@@ -13,504 +13,506 @@
       "number": 1,
       "header": "#1-Averge",
       "difficulty": "Averge",
-      "prompt_html": "<img src=\"/static/generated/assets/advanced-math/ch094/q0001_prompt.png\"/>",
+      "prompt_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\text{设函数}f(x) \\text{是周期为}2\\pi \\text{的周期函数，又设}f(x) \\text{连续可导，其傅里叶系数为} \\\\a_{0},a_{n},b_{n},n=1,2,\\cdots, \\text{则下列正确的是( )}\">\\text{设函数}f(x) \\text{是周期为}2\\pi \\text{的周期函数，又设}f(x) \\text{连续可导，其傅里叶系数为} \\\\a_{0},a_{n},b_{n},n=1,2,\\cdots, \\text{则下列正确的是( )}</div>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch094/q0001_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\lim_{n \\to \\infty} a_{n} = - 1 \\, ;\">\\lim_{n \\to \\infty} a_{n} = - 1 \\, ;</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch094/q0001_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\lim_{n \\rightarrow \\infty} a_{n} = 1 \\, ;\">\\lim_{n \\rightarrow \\infty} a_{n} = 1 \\, ;</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch094/q0001_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\lim_{n \\rightarrow \\infty} b_{n} = 0 \\, ;\">\\lim_{n \\rightarrow \\infty} b_{n} = 0 \\, ;</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch094/q0001_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\lim_{n \\to \\infty} b_{n} = 1.\">\\lim_{n \\to \\infty} b_{n} = 1.</span>"
         }
       ],
       "answer": "C",
       "answer_index": 2,
-      "analysis_html": "<img src=\"/static/generated/assets/advanced-math/ch094/q0001_analysis.png\"/>"
+      "analysis_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{aligned}a_n&amp;=\\frac{1}{\\pi}\\int_{-\\pi}^{\\pi}f(x)\\cos nxdx=\\frac{1}{n\\pi}\\bigg[f(x)\\sin nx\\bigg|_{-\\pi}^{\\pi}-\\int_{-\\pi}^{\\pi}f&#x27;(x)\\sin nxdx\\bigg]=-\\frac{1}{n\\pi}\\int_{-\\pi}^{\\pi}f&#x27;(x)\\sin nxdx\\\\b_n&amp;=\\frac{1}{\\pi}\\int_{-\\pi}^{\\pi}f(x)\\sin nxdx=-\\frac{1}{n\\pi}\\bigg[f(x)\\cos nx\\bigg|_{-\\pi}^{\\pi}-\\int_{-\\pi}^{\\pi}f&#x27;(x)\\cos nxdx\\bigg]\\\\&amp;=\\frac{(-1)^{n+1}[f(\\pi)-f(-\\pi)]}{n\\pi}+\\frac{1}{n\\pi}\\int_{-\\pi}^{\\pi}f&#x27;(x)\\cos nxdx,\\end{aligned}\">\\begin{aligned}a_n&amp;=\\frac{1}{\\pi}\\int_{-\\pi}^{\\pi}f(x)\\cos nxdx=\\frac{1}{n\\pi}\\bigg[f(x)\\sin nx\\bigg|_{-\\pi}^{\\pi}-\\int_{-\\pi}^{\\pi}f&#x27;(x)\\sin nxdx\\bigg]=-\\frac{1}{n\\pi}\\int_{-\\pi}^{\\pi}f&#x27;(x)\\sin nxdx\\\\b_n&amp;=\\frac{1}{\\pi}\\int_{-\\pi}^{\\pi}f(x)\\sin nxdx=-\\frac{1}{n\\pi}\\bigg[f(x)\\cos nx\\bigg|_{-\\pi}^{\\pi}-\\int_{-\\pi}^{\\pi}f&#x27;(x)\\cos nxdx\\bigg]\\\\&amp;=\\frac{(-1)^{n+1}[f(\\pi)-f(-\\pi)]}{n\\pi}+\\frac{1}{n\\pi}\\int_{-\\pi}^{\\pi}f&#x27;(x)\\cos nxdx,\\end{aligned}</div>"
     },
     {
       "id": "q0002",
       "number": 2,
       "header": "#2-Averge",
       "difficulty": "Averge",
-      "prompt_html": "<img src=\"/static/generated/assets/advanced-math/ch094/q0002_prompt.png\"/>",
+      "prompt_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{array}{l} {l} \\text {设函数} f ( x ) \\text {是周期为} 2 \\pi \\text {的周期函数，其傅里叶系数为} a _ { 0 } , a _ { n } , b _ { n } , n = 1 , 2 , \\cdots , \\text {函数} \\\\ F ( x ) = f ( x ) \\sin x \\text {的傅里叶系数为} A _ { 0 } , A _ { n } , B _ { n } , n = 1 , 2 , \\cdots , \\text {则下列关系式正确的是} \\end{array} \\quad ( )\">\\begin{array}{l} {l} \\text {设函数} f ( x ) \\text {是周期为} 2 \\pi \\text {的周期函数，其傅里叶系数为} a _ { 0 } , a _ { n } , b _ { n } , n = 1 , 2 , \\cdots , \\text {函数} \\\\ F ( x ) = f ( x ) \\sin x \\text {的傅里叶系数为} A _ { 0 } , A _ { n } , B _ { n } , n = 1 , 2 , \\cdots , \\text {则下列关系式正确的是} \\end{array} \\quad ( )</div>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch094/q0002_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\begin{aligned}A_1 = - \\frac{b_2}{2}\\,.\\end{aligned}\">\\begin{aligned}A_1 = - \\frac{b_2}{2}\\,.\\end{aligned}</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch094/q0002_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\begin{array}{l} { l } { { A _ { 0 } = a _ { 1 } \\, ; } } \\end{array}\">\\begin{array}{l} { l } { { A _ { 0 } = a _ { 1 } \\, ; } } \\end{array}</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch094/q0002_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\begin{array}{l} { l } { { A _ { n } = { \\frac { b _ { n + 1 } - b _ { n - 1 } } { 2 } } , n = 2 , 3 , \\cdots ; } } \\end{array}\">\\begin{array}{l} { l } { { A _ { n } = { \\frac { b _ { n + 1 } - b _ { n - 1 } } { 2 } } , n = 2 , 3 , \\cdots ; } } \\end{array}</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch094/q0002_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\begin{aligned}B_{n} = \\frac{a_{n-1} + a_{n+1}}{2}\\,, n = 1, 2, 3, \\cdots ;\\end{aligned}\">\\begin{aligned}B_{n} = \\frac{a_{n-1} + a_{n+1}}{2}\\,, n = 1, 2, 3, \\cdots ;\\end{aligned}</span>"
         }
       ],
       "answer": "C",
       "answer_index": 2,
-      "analysis_html": "<img src=\"/static/generated/assets/advanced-math/ch094/q0002_analysis.png\"/>"
+      "analysis_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{aligned}A_0&amp;=\\frac{1}{\\pi}\\int_{-\\pi}^{\\pi}F(x)dx=\\frac{1}{\\pi}\\int_{-\\pi}^{\\pi}f(x)\\sin xdx=b_1,\\\\A_1&amp;=\\frac{1}{\\pi}\\int_{-\\pi}^{\\pi}F(x)\\cos xdx=\\frac{1}{\\pi}\\int_{-\\pi}^{\\pi}f(x)\\sin x\\cos xdx=\\frac{1}{2\\pi}\\int_{-\\pi}^{\\pi}f(x)\\sin 2xdx=\\frac{b_2}{2},\\\\A_n&amp;=\\frac{1}{\\pi}\\int_{-\\pi}^{\\pi}F(x)\\cos nxdx=\\frac{1}{\\pi}\\int_{-\\pi}^{\\pi}f(x)\\sin x\\cos nxdx=\\frac{1}{2\\pi}\\int_{-\\pi}^{\\pi}f(x)[\\sin(n+1)x-\\sin(n-1)x]dx\\\\&amp;=\\frac{b_{n+1}-b_{n-1}}{2},n=2,3,\\cdots\\\\B_n&amp;=\\frac{1}{\\pi}\\int_{-\\pi}^{\\pi}F(x)\\sin nxdx=\\frac{1}{\\pi}\\int_{-\\pi}^{\\pi}f(x)\\sin x\\sin nxdx=\\frac{1}{2\\pi}\\int_{-\\pi}^{\\pi}f(x)[\\cos(n-1)x-\\cos(n+1)x]dx\\\\&amp;=\\frac{a_{n-1}-a_{n+1}}{2},n=1,2,3,\\cdots\\end{aligned}\">\\begin{aligned}A_0&amp;=\\frac{1}{\\pi}\\int_{-\\pi}^{\\pi}F(x)dx=\\frac{1}{\\pi}\\int_{-\\pi}^{\\pi}f(x)\\sin xdx=b_1,\\\\A_1&amp;=\\frac{1}{\\pi}\\int_{-\\pi}^{\\pi}F(x)\\cos xdx=\\frac{1}{\\pi}\\int_{-\\pi}^{\\pi}f(x)\\sin x\\cos xdx=\\frac{1}{2\\pi}\\int_{-\\pi}^{\\pi}f(x)\\sin 2xdx=\\frac{b_2}{2},\\\\A_n&amp;=\\frac{1}{\\pi}\\int_{-\\pi}^{\\pi}F(x)\\cos nxdx=\\frac{1}{\\pi}\\int_{-\\pi}^{\\pi}f(x)\\sin x\\cos nxdx=\\frac{1}{2\\pi}\\int_{-\\pi}^{\\pi}f(x)[\\sin(n+1)x-\\sin(n-1)x]dx\\\\&amp;=\\frac{b_{n+1}-b_{n-1}}{2},n=2,3,\\cdots\\\\B_n&amp;=\\frac{1}{\\pi}\\int_{-\\pi}^{\\pi}F(x)\\sin nxdx=\\frac{1}{\\pi}\\int_{-\\pi}^{\\pi}f(x)\\sin x\\sin nxdx=\\frac{1}{2\\pi}\\int_{-\\pi}^{\\pi}f(x)[\\cos(n-1)x-\\cos(n+1)x]dx\\\\&amp;=\\frac{a_{n-1}-a_{n+1}}{2},n=1,2,3,\\cdots\\end{aligned}</div>"
     },
     {
       "id": "q0003",
       "number": 3,
       "header": "#3-Averge",
       "difficulty": "Averge",
-      "prompt_html": "<img src=\"/static/generated/assets/advanced-math/ch094/q0003_prompt.png\"/>",
+      "prompt_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{array}{l} \\text{设函数} f(x) \\text{是周期为} 2 \\pi \\text{的周期函数，则} f(x) \\text{的傅里叶系数} a_{n} = \\text{（ } \\\\ (n = 1, 2, \\cdots) \\end{array}\">\\begin{array}{l} \\text{设函数} f(x) \\text{是周期为} 2 \\pi \\text{的周期函数，则} f(x) \\text{的傅里叶系数} a_{n} = \\text{（ } \\\\ (n = 1, 2, \\cdots) \\end{array}</div>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch094/q0003_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\frac { 2 } { \\pi } \\int _ { 0 } ^ { 2 \\pi } f ( x ) \\cos n x d x\">\\frac { 2 } { \\pi } \\int _ { 0 } ^ { 2 \\pi } f ( x ) \\cos n x d x</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch094/q0003_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\frac {1}{\\pi} \\int_ {0} ^ {2 \\pi} f (x) \\cos n x d x\">\\frac {1}{\\pi} \\int_ {0} ^ {2 \\pi} f (x) \\cos n x d x</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch094/q0003_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\frac { 2 } { \\pi } \\int _ { 0 } ^ { \\pi } f ( x ) \\cos n x d x\">\\frac { 2 } { \\pi } \\int _ { 0 } ^ { \\pi } f ( x ) \\cos n x d x</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch094/q0003_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\frac { 4 } { \\pi } \\int _ { 0 } ^ { \\pi } f ( x ) \\cos n x d x\">\\frac { 4 } { \\pi } \\int _ { 0 } ^ { \\pi } f ( x ) \\cos n x d x</span>"
         }
       ],
       "answer": "B",
       "answer_index": 1,
-      "analysis_html": "<img src=\"/static/generated/assets/advanced-math/ch094/q0003_analysis.png\"/>"
+      "analysis_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{aligned}&amp;\\text{解若}\\varphi(x)\\text{以}2\\pi\\text{为周期，则}\\int_{0}^{2\\pi}\\varphi(x)dx=\\int_{-\\pi}^{\\pi}\\varphi(x)dx\\,.\\quad\\\\&amp;\\text{而}f(x)\\cos nx\\text{和}f(x)\\sin nx\\text{以}2\\pi\\text{为周期，所以}\\\\&amp;a_{n}=\\frac{1}{\\pi}\\int_{0}^{2\\pi}f(x)\\cos nxdx=\\frac{1}{\\pi}\\int_{-\\pi}^{\\pi}f(x)\\cos nxdx\\,(n=1,2,\\cdots)\\end{aligned}\">\\begin{aligned}&amp;\\text{解若}\\varphi(x)\\text{以}2\\pi\\text{为周期，则}\\int_{0}^{2\\pi}\\varphi(x)dx=\\int_{-\\pi}^{\\pi}\\varphi(x)dx\\,.\\quad\\\\&amp;\\text{而}f(x)\\cos nx\\text{和}f(x)\\sin nx\\text{以}2\\pi\\text{为周期，所以}\\\\&amp;a_{n}=\\frac{1}{\\pi}\\int_{0}^{2\\pi}f(x)\\cos nxdx=\\frac{1}{\\pi}\\int_{-\\pi}^{\\pi}f(x)\\cos nxdx\\,(n=1,2,\\cdots)\\end{aligned}</div>"
     },
     {
       "id": "q0004",
       "number": 4,
       "header": "#4-Averge",
       "difficulty": "Averge",
-      "prompt_html": "<img src=\"/static/generated/assets/advanced-math/ch094/q0004_prompt.png\"/>",
+      "prompt_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{array}{l} \\text {设函数} f(x) \\text {是以} 2 \\pi \\text {为周期的周期函数，} f(x) \\text {分段光滑且} f(-\\pi)=f(\\pi), \\text {已知} f(x) \\\\ \\text {的傅里叶系数为} a_{0},a_{n},b_{n}(n=1,2,\\cdots),\\ f^{\\prime}(x) \\text {的傅里叶系数为} A_{0},A_{n},B_{n}(n=1,2,\\cdots), \\\\ \\text {下列关系式正确的是( } \\end{array}\">\\begin{array}{l} \\text {设函数} f(x) \\text {是以} 2 \\pi \\text {为周期的周期函数，} f(x) \\text {分段光滑且} f(-\\pi)=f(\\pi), \\text {已知} f(x) \\\\ \\text {的傅里叶系数为} a_{0},a_{n},b_{n}(n=1,2,\\cdots),\\ f^{\\prime}(x) \\text {的傅里叶系数为} A_{0},A_{n},B_{n}(n=1,2,\\cdots), \\\\ \\text {下列关系式正确的是( } \\end{array}</div>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch094/q0004_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\begin{array}{l} { l } { { B _ { n } = - n a _ { n } \\, ; } } \\end{array}\">\\begin{array}{l} { l } { { B _ { n } = - n a _ { n } \\, ; } } \\end{array}</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch094/q0004_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\begin{array}{l} { r } { A _ { n } = - n b _ { n } \\, ; } \\end{array}\">\\begin{array}{l} { r } { A _ { n } = - n b _ { n } \\, ; } \\end{array}</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch094/q0004_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\begin{array}{l} { l } { { A _ { n } = \\displaystyle { \\frac { a _ { n } } { n } } \\; ; } } \\end{array}\">\\begin{array}{l} { l } { { A _ { n } = \\displaystyle { \\frac { a _ { n } } { n } } \\; ; } } \\end{array}</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch094/q0004_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\begin{array}{l} { r } { A _ { n } = n a _ { n } . } \\end{array}\">\\begin{array}{l} { r } { A _ { n } = n a _ { n } . } \\end{array}</span>"
         }
       ],
       "answer": "A",
       "answer_index": 0,
-      "analysis_html": "<img src=\"/static/generated/assets/advanced-math/ch094/q0004_analysis.png\"/>"
+      "analysis_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{aligned} \\text{解 } A_0&amp;=\\frac{1}{\\pi}\\int_{-\\pi}^{\\pi} f&#x27;(x)dx=\\frac{1}{\\pi}f(x)|_{-\\pi}^{\\pi}=0,\\\\ A_n&amp;=\\frac{1}{\\pi}\\int_{-\\pi}^{\\pi} f&#x27;(x)\\cos nx dx=\\frac{1}{\\pi}\\bigg[f(x)\\cos nx|_{-\\pi}^{\\pi}+n\\int_{-\\pi}^{\\pi} f(x)\\sin nx dx\\bigg]=nb_n, n=1,2,\\cdots,\\\\ &amp;\\\\ B_n&amp;=\\frac{1}{\\pi}\\int_{-\\pi}^{\\pi} f&#x27;(x)\\sin nx dx=\\frac{1}{\\pi}\\bigg[f(x)\\sin nx|_{-\\pi}^{\\pi}-n\\int_{-\\pi}^{\\pi} f(x)\\cos nx dx\\bigg]=-na_n, n=1,2,\\cdots.\\end{aligned}\">\\begin{aligned} \\text{解 } A_0&amp;=\\frac{1}{\\pi}\\int_{-\\pi}^{\\pi} f&#x27;(x)dx=\\frac{1}{\\pi}f(x)|_{-\\pi}^{\\pi}=0,\\\\ A_n&amp;=\\frac{1}{\\pi}\\int_{-\\pi}^{\\pi} f&#x27;(x)\\cos nx dx=\\frac{1}{\\pi}\\bigg[f(x)\\cos nx|_{-\\pi}^{\\pi}+n\\int_{-\\pi}^{\\pi} f(x)\\sin nx dx\\bigg]=nb_n, n=1,2,\\cdots,\\\\ &amp;\\\\ B_n&amp;=\\frac{1}{\\pi}\\int_{-\\pi}^{\\pi} f&#x27;(x)\\sin nx dx=\\frac{1}{\\pi}\\bigg[f(x)\\sin nx|_{-\\pi}^{\\pi}-n\\int_{-\\pi}^{\\pi} f(x)\\cos nx dx\\bigg]=-na_n, n=1,2,\\cdots.\\end{aligned}</div>"
     },
     {
       "id": "q0005",
       "number": 5,
       "header": "#5-Averge",
       "difficulty": "Averge",
-      "prompt_html": "<img src=\"/static/generated/assets/advanced-math/ch094/q0005_prompt.png\"/>",
+      "prompt_html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\left( \\right.\">\\left( \\right.</span>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch094/q0005_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\frac{4}{\\pi^{2}} \\sum_{k=1}^{\\infty} \\frac{\\cos(2k-1)x}{(2k-1)^{2}}\\, ;\">\\frac{4}{\\pi^{2}} \\sum_{k=1}^{\\infty} \\frac{\\cos(2k-1)x}{(2k-1)^{2}}\\, ;</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch094/q0005_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"- \\frac { 2 } { \\pi } \\sum _ { n = 1 } ^ { \\infty } \\frac { \\cos n x } { n ^ { 2 } } .\">- \\frac { 2 } { \\pi } \\sum _ { n = 1 } ^ { \\infty } \\frac { \\cos n x } { n ^ { 2 } } .</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch094/q0005_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\frac { 8 } { \\pi ^ { 2 } } \\sum _ { n = 1 } ^ { \\infty } \\frac { \\cos n x } { n ^ { 2 } } \\, ;\">\\frac { 8 } { \\pi ^ { 2 } } \\sum _ { n = 1 } ^ { \\infty } \\frac { \\cos n x } { n ^ { 2 } } \\, ;</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch094/q0005_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\frac{8}{\\pi^{2}} \\sum_{k = 1}^{\\infty} \\frac{\\cos(2k - 1)x}{(2k - 1)^{2}};\">\\frac{8}{\\pi^{2}} \\sum_{k = 1}^{\\infty} \\frac{\\cos(2k - 1)x}{(2k - 1)^{2}};</span>"
         }
       ],
       "answer": "D",
       "answer_index": 3,
-      "analysis_html": "<img src=\"/static/generated/assets/advanced-math/ch094/q0005_analysis.png\"/>"
+      "analysis_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{array}{l} \\text {解} a_{0} = \\frac{1}{\\pi} \\int_{-\\pi}^{\\pi} \\left( 1 - \\frac{2x}{\\pi} \\right) dx = 2 \\, , \\\\ a_{n} = \\frac{1}{\\pi} \\int_{-\\pi}^{\\pi} \\left( 1 - \\frac{2x}{\\pi} \\right) \\cos n x dx = \\frac{1}{\\pi} \\left\\{ \\int_{-\\pi}^{\\pi} \\cos n x dx + \\int_{-\\pi}^{\\pi} \\frac{2x}{\\pi} \\cos n x dx \\right\\} = 0, \\quad n = 1, 2, \\cdots , \\\\ b_{n} = \\frac{1}{\\pi} \\int_{-\\pi}^{\\pi} \\left( 1 - \\frac{2x}{\\pi} \\right) \\sin n x dx = \\frac{1}{\\pi} \\left\\{ \\int_{-\\pi}^{\\pi} \\sin n x dx - \\int_{-\\pi}^{\\pi} \\frac{2x}{\\pi} \\sin n x dx \\right\\} = (-1)^{n} \\frac{4}{n \\pi}, \\quad n = 1, 2, \\cdots , \\\\ \\text {由于} f(x) \\text {在} (-\\pi, \\pi) \\text {上分段单调、连续，所以有} \\\\ f(x) = 1 + \\frac{4}{\\pi} \\sum_{k = 1}^{\\infty} \\frac{(-1)^{n}}{n} \\sin n x, \\quad x \\in (-\\pi, \\pi). \\end{array}\">\\begin{array}{l} \\text {解} a_{0} = \\frac{1}{\\pi} \\int_{-\\pi}^{\\pi} \\left( 1 - \\frac{2x}{\\pi} \\right) dx = 2 \\, , \\\\ a_{n} = \\frac{1}{\\pi} \\int_{-\\pi}^{\\pi} \\left( 1 - \\frac{2x}{\\pi} \\right) \\cos n x dx = \\frac{1}{\\pi} \\left\\{ \\int_{-\\pi}^{\\pi} \\cos n x dx + \\int_{-\\pi}^{\\pi} \\frac{2x}{\\pi} \\cos n x dx \\right\\} = 0, \\quad n = 1, 2, \\cdots , \\\\ b_{n} = \\frac{1}{\\pi} \\int_{-\\pi}^{\\pi} \\left( 1 - \\frac{2x}{\\pi} \\right) \\sin n x dx = \\frac{1}{\\pi} \\left\\{ \\int_{-\\pi}^{\\pi} \\sin n x dx - \\int_{-\\pi}^{\\pi} \\frac{2x}{\\pi} \\sin n x dx \\right\\} = (-1)^{n} \\frac{4}{n \\pi}, \\quad n = 1, 2, \\cdots , \\\\ \\text {由于} f(x) \\text {在} (-\\pi, \\pi) \\text {上分段单调、连续，所以有} \\\\ f(x) = 1 + \\frac{4}{\\pi} \\sum_{k = 1}^{\\infty} \\frac{(-1)^{n}}{n} \\sin n x, \\quad x \\in (-\\pi, \\pi). \\end{array}</div>"
     },
     {
       "id": "q0006",
       "number": 6,
       "header": "#6-Averge",
       "difficulty": "Averge",
-      "prompt_html": "<img src=\"/static/generated/assets/advanced-math/ch094/q0006_prompt.png\"/>",
+      "prompt_html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"(-\\pi,\\pi) \\text{内将函数}f(x)=\\cos \\frac{x}{4} \\text{展成以}2\\pi \\text{为周期的傅里叶级数，其展开式为( })\">(-\\pi,\\pi) \\text{内将函数}f(x)=\\cos \\frac{x}{4} \\text{展成以}2\\pi \\text{为周期的傅里叶级数，其展开式为( })</span>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch094/q0006_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\sum_{n=1}^{\\infty} \\frac{8(-1)^{n} n}{\\pi (8 n^{2} - 1)} \\cos n x\">\\sum_{n=1}^{\\infty} \\frac{8(-1)^{n} n}{\\pi (8 n^{2} - 1)} \\cos n x</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch094/q0006_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\frac{2\\sqrt{2}}{\\pi} + \\sum_{n=1}^{\\infty} \\frac{(-1)^{n-1} 8 \\sqrt{2}}{\\pi (16 n^{2} - 1)} \\cos n x\">\\frac{2\\sqrt{2}}{\\pi} + \\sum_{n=1}^{\\infty} \\frac{(-1)^{n-1} 8 \\sqrt{2}}{\\pi (16 n^{2} - 1)} \\cos n x</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch094/q0006_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\sum_{n=1}^{\\infty} \\frac{4 \\sqrt{2} (-1)^{n-1} n}{\\pi (16 n^{2} - 1)} \\cos n x\">\\sum_{n=1}^{\\infty} \\frac{4 \\sqrt{2} (-1)^{n-1} n}{\\pi (16 n^{2} - 1)} \\cos n x</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch094/q0006_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\frac{2\\sqrt{2}}{\\pi} + \\sum_{n=1}^{\\infty} \\frac{(-1)^{n-1} 4\\sqrt{2}}{\\pi (16n^{2}-1)} \\cos nx\">\\frac{2\\sqrt{2}}{\\pi} + \\sum_{n=1}^{\\infty} \\frac{(-1)^{n-1} 4\\sqrt{2}}{\\pi (16n^{2}-1)} \\cos nx</span>"
         }
       ],
       "answer": "D",
       "answer_index": 3,
-      "analysis_html": "<img src=\"/static/generated/assets/advanced-math/ch094/q0006_analysis.png\"/>"
+      "analysis_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{aligned} &amp; \\text{解由于} f(x)=\\cos \\frac{x}{4} \\text{为偶函数，所以} b_{n}=0(n=1,2,\\cdots) \\\\ &amp; a_{0}=\\frac{1}{\\pi}\\int_{-\\pi}^{\\pi}\\cos \\frac{x}{4}\\,dx=\\frac{4\\sqrt{2}}{\\pi} \\\\ &amp; a_{n}=\\frac{2}{\\pi}\\int_{0}^{\\pi}\\cos \\frac{x}{4}\\cos nx\\,dx=\\frac{1}{\\pi}\\int_{0}^{\\pi}\\left[\\cos \\left(n+\\frac{1}{4}\\right)x+\\cos \\left(n-\\frac{1}{4}\\right)x\\right]dx \\\\ &amp; \\quad=\\frac{1}{\\pi}\\left[\\frac{\\sin \\left(n+\\frac{1}{4}\\right)\\pi}{n+\\frac{1}{4}}+\\frac{\\sin \\left(n-\\frac{1}{4}\\right)\\pi}{n-\\frac{1}{4}}\\right]=\\frac{(-1)^{n-1}4\\sqrt{2}}{\\pi(16n^{2}-1)}(n=1,2,\\cdots), \\\\ &amp; \\text{所以} f(x)=\\cos \\frac{x}{4} \\text{内的傅里叶展式为} \\\\ &amp; \\frac{2\\sqrt{2}}{\\pi}+\\sum_{n=1}^{\\infty}\\frac{(-1)^{n-1}4\\sqrt{2}}{\\pi(16n^{2}-1)}\\cos nx.\\end{aligned}\">\\begin{aligned} &amp; \\text{解由于} f(x)=\\cos \\frac{x}{4} \\text{为偶函数，所以} b_{n}=0(n=1,2,\\cdots) \\\\ &amp; a_{0}=\\frac{1}{\\pi}\\int_{-\\pi}^{\\pi}\\cos \\frac{x}{4}\\,dx=\\frac{4\\sqrt{2}}{\\pi} \\\\ &amp; a_{n}=\\frac{2}{\\pi}\\int_{0}^{\\pi}\\cos \\frac{x}{4}\\cos nx\\,dx=\\frac{1}{\\pi}\\int_{0}^{\\pi}\\left[\\cos \\left(n+\\frac{1}{4}\\right)x+\\cos \\left(n-\\frac{1}{4}\\right)x\\right]dx \\\\ &amp; \\quad=\\frac{1}{\\pi}\\left[\\frac{\\sin \\left(n+\\frac{1}{4}\\right)\\pi}{n+\\frac{1}{4}}+\\frac{\\sin \\left(n-\\frac{1}{4}\\right)\\pi}{n-\\frac{1}{4}}\\right]=\\frac{(-1)^{n-1}4\\sqrt{2}}{\\pi(16n^{2}-1)}(n=1,2,\\cdots), \\\\ &amp; \\text{所以} f(x)=\\cos \\frac{x}{4} \\text{内的傅里叶展式为} \\\\ &amp; \\frac{2\\sqrt{2}}{\\pi}+\\sum_{n=1}^{\\infty}\\frac{(-1)^{n-1}4\\sqrt{2}}{\\pi(16n^{2}-1)}\\cos nx.\\end{aligned}</div>"
     },
     {
       "id": "q0007",
       "number": 7,
       "header": "#7-Averge",
       "difficulty": "Averge",
-      "prompt_html": "<img src=\"/static/generated/assets/advanced-math/ch094/q0007_prompt.png\"/>",
+      "prompt_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{cases}f(x)=\\begin{cases}0,&amp;-\\pi\\leq x&lt;0,\\\\ A,&amp;0&lt;x\\leq\\pi.\\end{cases}\\end{cases}\\text{则}f(x)\\text{的傅里叶系数}b_{2k-1}=(\\quad)\">\\begin{cases}f(x)=\\begin{cases}0,&amp;-\\pi\\leq x&lt;0,\\\\ A,&amp;0&lt;x\\leq\\pi.\\end{cases}\\end{cases}\\text{则}f(x)\\text{的傅里叶系数}b_{2k-1}=(\\quad)</div>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch094/q0007_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\mathbf { A }\">\\mathbf { A }</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch094/q0007_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\frac { 2 A } { ( 2 k - 1 ) \\pi }\">\\frac { 2 A } { ( 2 k - 1 ) \\pi }</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch094/q0007_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\left( - 1 \\right) ^ { k } { \\frac { A } { ( 2 k - 1 ) \\pi } }\">\\left( - 1 \\right) ^ { k } { \\frac { A } { ( 2 k - 1 ) \\pi } }</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch094/q0007_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\mathbf { 0 }\">\\mathbf { 0 }</span>"
         }
       ],
       "answer": "B",
       "answer_index": 1,
-      "analysis_html": "<img src=\"/static/generated/assets/advanced-math/ch094/q0007_analysis.png\"/>"
+      "analysis_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{aligned}&amp;\\text{解}b_n=\\frac{1}{\\pi}\\int_{-\\pi}^{\\pi}f(x)\\sin nxdx=\\frac{1}{\\pi}\\int_{0}^{\\pi}A\\sin nxdx=\\frac{A}{n\\pi}[1-(-1)^{n}],\\\\&amp;\\text{当}n=2k-1\\text{时，}\\ b_{2k-1}=\\frac{2A}{(2k-1)\\pi}.\\end{aligned}\">\\begin{aligned}&amp;\\text{解}b_n=\\frac{1}{\\pi}\\int_{-\\pi}^{\\pi}f(x)\\sin nxdx=\\frac{1}{\\pi}\\int_{0}^{\\pi}A\\sin nxdx=\\frac{A}{n\\pi}[1-(-1)^{n}],\\\\&amp;\\text{当}n=2k-1\\text{时，}\\ b_{2k-1}=\\frac{2A}{(2k-1)\\pi}.\\end{aligned}</div>"
     },
     {
       "id": "q0008",
       "number": 8,
       "header": "#8-Averge",
       "difficulty": "Averge",
-      "prompt_html": "<img src=\"/static/generated/assets/advanced-math/ch094/q0008_prompt.png\"/>",
+      "prompt_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{array}{l} \\text {设函数} f(x) \\text {是周期为} 2 \\pi \\text {的周期函数，它在}[-\\pi,\\pi] \\text {上的表达式为} \\\\ f(x) = \\left\\{ \\begin{array}{ll} -1, &amp; -\\pi \\leq x &lt; 0 \\\\ 1, &amp; 0 &lt; x \\leq \\pi \\end{array} , \\right. f(x) \\text {展成傅里叶级数时，系数} a_{n}, b_{n} \\text {为} \\quad \\left(\\ \\right) \\end{array}\">\\begin{array}{l} \\text {设函数} f(x) \\text {是周期为} 2 \\pi \\text {的周期函数，它在}[-\\pi,\\pi] \\text {上的表达式为} \\\\ f(x) = \\left\\{ \\begin{array}{ll} -1, &amp; -\\pi \\leq x &lt; 0 \\\\ 1, &amp; 0 &lt; x \\leq \\pi \\end{array} , \\right. f(x) \\text {展成傅里叶级数时，系数} a_{n}, b_{n} \\text {为} \\quad \\left(\\ \\right) \\end{array}</div>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch094/q0008_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\begin{aligned}a_n = 0, b_n = \\frac{2}{n \\pi} [ 1 - (-1)^n ]\\end{aligned}\">\\begin{aligned}a_n = 0, b_n = \\frac{2}{n \\pi} [ 1 - (-1)^n ]\\end{aligned}</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch094/q0008_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\displaystyle a_{n} = \\frac{1}{n}, b_{n} = - \\frac{2}{n \\pi}\">\\displaystyle a_{n} = \\frac{1}{n}, b_{n} = - \\frac{2}{n \\pi}</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch094/q0008_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\,a_{_{n}}=0, b_{_{n}}=\\frac{4}{n\\pi}\">\\,a_{_{n}}=0, b_{_{n}}=\\frac{4}{n\\pi}</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch094/q0008_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\begin{array}{l}a_{n}=0,b_{n}=(-1)^{n+1}{\\displaystyle\\frac{2}{n\\pi}}\\end{array}\">\\begin{array}{l}a_{n}=0,b_{n}=(-1)^{n+1}{\\displaystyle\\frac{2}{n\\pi}}\\end{array}</span>"
         }
       ],
       "answer": "A",
       "answer_index": 0,
-      "analysis_html": "<img src=\"/static/generated/assets/advanced-math/ch094/q0008_analysis.png\"/>"
+      "analysis_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{array}{l} \\text {解因为} f(x) \\text {是奇函数，所以} a_{n} = 0, \\text {而} \\\\ b_{n} = \\frac{2}{\\pi} \\int_{0}^{\\pi} f(x) \\sin n x \\, dx = \\frac{2}{\\pi} \\int_{0}^{\\pi} \\sin n x \\, dx = \\frac{2}{n \\pi} [ 1 - (-1)^{n} ]. \\end{array}\">\\begin{array}{l} \\text {解因为} f(x) \\text {是奇函数，所以} a_{n} = 0, \\text {而} \\\\ b_{n} = \\frac{2}{\\pi} \\int_{0}^{\\pi} f(x) \\sin n x \\, dx = \\frac{2}{\\pi} \\int_{0}^{\\pi} \\sin n x \\, dx = \\frac{2}{n \\pi} [ 1 - (-1)^{n} ]. \\end{array}</div>"
     },
     {
       "id": "q0009",
       "number": 9,
       "header": "#9-Averge",
       "difficulty": "Averge",
-      "prompt_html": "<img src=\"/static/generated/assets/advanced-math/ch094/q0009_prompt.png\"/>",
+      "prompt_html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{则}f(x)\\text{在}(0,2\\pi)\\text{内的傅里叶展式为}(\\ \\ )\">\\text{则}f(x)\\text{在}(0,2\\pi)\\text{内的傅里叶展式为}(\\ \\ )</span>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch094/q0009_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\frac{1}{2} + \\sum_{n = 1}^{\\infty} \\left( \\frac{1}{n} \\sin nx + \\frac{1}{n^{2}} \\cos nx \\right)\">\\frac{1}{2} + \\sum_{n = 1}^{\\infty} \\left( \\frac{1}{n} \\sin nx + \\frac{1}{n^{2}} \\cos nx \\right)</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch094/q0009_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\pi - \\sum_{n=1}^{\\infty} \\frac{1}{n} \\sin n x\">\\pi - \\sum_{n=1}^{\\infty} \\frac{1}{n} \\sin n x</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch094/q0009_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\pi + \\sum_{n=1}^{\\infty} \\frac{1}{n} \\bigl( \\sin nx + \\cos nx \\bigr)\">\\pi + \\sum_{n=1}^{\\infty} \\frac{1}{n} \\bigl( \\sin nx + \\cos nx \\bigr)</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch094/q0009_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\pi - \\sum_{n=1}^{\\infty} \\frac{1}{n} \\cos n x\">\\pi - \\sum_{n=1}^{\\infty} \\frac{1}{n} \\cos n x</span>"
         }
       ],
       "answer": "B",
       "answer_index": 1,
-      "analysis_html": "<img src=\"/static/generated/assets/advanced-math/ch094/q0009_analysis.png\"/>"
+      "analysis_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{aligned}&amp; \\text{解由于} a_{0}=\\frac{1}{\\pi}\\int_{0}^{2\\pi}\\frac{\\pi+x}{2}dx=2\\pi,\\\\&amp; a_{n}=\\frac{1}{\\pi}\\int_{0}^{2\\pi}\\frac{\\pi+x}{2}\\cos nx dx=\\frac{1}{\\pi}\\left(\\frac{\\pi+x}{2n}\\sin nx\\Big|_{0}^{2\\pi}-\\frac{1}{2n}\\int_{0}^{2\\pi}\\sin nx dx\\right)=0\\,,\\\\&amp; b_{n}=\\frac{1}{\\pi}\\int_{0}^{2\\pi}\\frac{\\pi+x}{2}\\sin nx dx=\\frac{1}{\\pi}\\left(-\\frac{\\pi+x}{2n}\\cos nx\\Big|_{0}^{2\\pi}+\\frac{1}{2n}\\int_{0}^{2\\pi}\\cos nx dx\\right)=-\\frac{1}{n}\\,, \\text{所以根据展开定理，有} \\\\&amp; f(x)=\\frac{\\pi-x}{2}=\\sum_{n=1}^{\\infty}\\frac{1}{n}\\sin nx,\\ x\\in(0,2\\pi)\\,.\\end{aligned}\">\\begin{aligned}&amp; \\text{解由于} a_{0}=\\frac{1}{\\pi}\\int_{0}^{2\\pi}\\frac{\\pi+x}{2}dx=2\\pi,\\\\&amp; a_{n}=\\frac{1}{\\pi}\\int_{0}^{2\\pi}\\frac{\\pi+x}{2}\\cos nx dx=\\frac{1}{\\pi}\\left(\\frac{\\pi+x}{2n}\\sin nx\\Big|_{0}^{2\\pi}-\\frac{1}{2n}\\int_{0}^{2\\pi}\\sin nx dx\\right)=0\\,,\\\\&amp; b_{n}=\\frac{1}{\\pi}\\int_{0}^{2\\pi}\\frac{\\pi+x}{2}\\sin nx dx=\\frac{1}{\\pi}\\left(-\\frac{\\pi+x}{2n}\\cos nx\\Big|_{0}^{2\\pi}+\\frac{1}{2n}\\int_{0}^{2\\pi}\\cos nx dx\\right)=-\\frac{1}{n}\\,, \\text{所以根据展开定理，有} \\\\&amp; f(x)=\\frac{\\pi-x}{2}=\\sum_{n=1}^{\\infty}\\frac{1}{n}\\sin nx,\\ x\\in(0,2\\pi)\\,.\\end{aligned}</div>"
     },
     {
       "id": "q0010",
       "number": 10,
       "header": "#10-Averge",
       "difficulty": "Averge",
-      "prompt_html": "<img src=\"/static/generated/assets/advanced-math/ch094/q0010_prompt.png\"/>",
+      "prompt_html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\left. \\text{则}f(x)\\text{在}(0,2\\pi)\\text{内的傅里叶展式为} \\right.\">\\left. \\text{则}f(x)\\text{在}(0,2\\pi)\\text{内的傅里叶展式为} \\right.</span>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch094/q0010_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\sum_{n=1}^{\\infty} \\frac{1}{n} \\left( \\sin nx + \\cos nx \\right)\">\\sum_{n=1}^{\\infty} \\frac{1}{n} \\left( \\sin nx + \\cos nx \\right)</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch094/q0010_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\sum_{n=1}^{\\infty} \\frac{1}{n} \\cos n x\">\\sum_{n=1}^{\\infty} \\frac{1}{n} \\cos n x</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch094/q0010_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\frac {1}{2} + \\sum_ {n = 1} ^ {\\infty} \\left(\\frac {1}{n} \\sin n x + \\frac {1}{n ^ {2}} \\cos n x \\right)\">\\frac {1}{2} + \\sum_ {n = 1} ^ {\\infty} \\left(\\frac {1}{n} \\sin n x + \\frac {1}{n ^ {2}} \\cos n x \\right)</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch094/q0010_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\sum_{n=1}^{\\infty} \\frac{1}{n} \\sin n x\">\\sum_{n=1}^{\\infty} \\frac{1}{n} \\sin n x</span>"
         }
       ],
       "answer": "D",
       "answer_index": 3,
-      "analysis_html": "<img src=\"/static/generated/assets/advanced-math/ch094/q0010_analysis.png\"/>"
+      "analysis_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{aligned}&amp;\\text{解由于}a_{0}=\\frac{1}{\\pi}\\int_{0}^{2\\pi}\\frac{\\pi-x}{2}dx=0\\,,\\\\&amp;a_{n}=\\frac{1}{\\pi}\\int_{0}^{2\\pi}\\frac{\\pi-x}{2}\\cos nxdx=\\frac{1}{\\pi}\\left(\\frac{\\pi-x}{2n}\\sin nx\\bigg|_{0}^{2\\pi}+\\frac{1}{2n}\\int_{0}^{2\\pi}\\sin nxdx\\right)=0\\,,\\\\&amp;b_{n}=\\frac{1}{\\pi}\\int_{0}^{2\\pi}\\frac{\\pi-x}{2}\\sin nxdx=\\frac{1}{\\pi}\\left(-\\frac{\\pi-x}{2n}\\cos nx\\bigg|_{0}^{2\\pi}-\\frac{1}{2n}\\int_{0}^{2\\pi}\\cos nxdx\\right)=\\frac{1}{n}\\,,\\text{所以根据展开定理，有}\\\\&amp;f(x)=\\frac{\\pi-x}{2}=\\sum_{n=1}^{\\infty}\\frac{1}{n}\\sin nx,\\,\\,\\,x\\in(0,2\\pi).\\end{aligned}\">\\begin{aligned}&amp;\\text{解由于}a_{0}=\\frac{1}{\\pi}\\int_{0}^{2\\pi}\\frac{\\pi-x}{2}dx=0\\,,\\\\&amp;a_{n}=\\frac{1}{\\pi}\\int_{0}^{2\\pi}\\frac{\\pi-x}{2}\\cos nxdx=\\frac{1}{\\pi}\\left(\\frac{\\pi-x}{2n}\\sin nx\\bigg|_{0}^{2\\pi}+\\frac{1}{2n}\\int_{0}^{2\\pi}\\sin nxdx\\right)=0\\,,\\\\&amp;b_{n}=\\frac{1}{\\pi}\\int_{0}^{2\\pi}\\frac{\\pi-x}{2}\\sin nxdx=\\frac{1}{\\pi}\\left(-\\frac{\\pi-x}{2n}\\cos nx\\bigg|_{0}^{2\\pi}-\\frac{1}{2n}\\int_{0}^{2\\pi}\\cos nxdx\\right)=\\frac{1}{n}\\,,\\text{所以根据展开定理，有}\\\\&amp;f(x)=\\frac{\\pi-x}{2}=\\sum_{n=1}^{\\infty}\\frac{1}{n}\\sin nx,\\,\\,\\,x\\in(0,2\\pi).\\end{aligned}</div>"
     },
     {
       "id": "q0011",
       "number": 11,
       "header": "#11-Averge",
       "difficulty": "Averge",
-      "prompt_html": "<img src=\"/static/generated/assets/advanced-math/ch094/q0011_prompt.png\"/>",
+      "prompt_html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{在}(-\\pi,\\pi)\\text{内将函数}f(x)=\\sin \\frac{x}{4}\\text{展成以}2\\pi\\text{为周期的傅里叶级数，其展开式为}( \\quad)\">\\text{在}(-\\pi,\\pi)\\text{内将函数}f(x)=\\sin \\frac{x}{4}\\text{展成以}2\\pi\\text{为周期的傅里叶级数，其展开式为}( \\quad)</span>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch094/q0011_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\sum_{n=1}^{\\infty} \\frac{16 \\sqrt{2} (-1)^{n-1} n}{\\pi (16 n^{2} - 1)} \\sin n x\">\\sum_{n=1}^{\\infty} \\frac{16 \\sqrt{2} (-1)^{n-1} n}{\\pi (16 n^{2} - 1)} \\sin n x</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch094/q0011_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\sum_{n=1}^{\\infty} \\frac{8(-1)^{n} n}{\\pi (8 n^{2}-1)} \\sin n x\">\\sum_{n=1}^{\\infty} \\frac{8(-1)^{n} n}{\\pi (8 n^{2}-1)} \\sin n x</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch094/q0011_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\sum_{n=1}^{\\infty} \\frac{8 \\sqrt{2} (-1)^{n} n}{\\pi (8 n^{2} - 1)} \\sin nx\">\\sum_{n=1}^{\\infty} \\frac{8 \\sqrt{2} (-1)^{n} n}{\\pi (8 n^{2} - 1)} \\sin nx</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch094/q0011_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\sum_{n=1}^{\\infty} \\frac{4 \\sqrt{2} (-1)^{n-1} n}{\\pi (16 n^{2} - 1)} \\sin n x\">\\sum_{n=1}^{\\infty} \\frac{4 \\sqrt{2} (-1)^{n-1} n}{\\pi (16 n^{2} - 1)} \\sin n x</span>"
         }
       ],
       "answer": "A",
       "answer_index": 0,
-      "analysis_html": "<img src=\"/static/generated/assets/advanced-math/ch094/q0011_analysis.png\"/>"
+      "analysis_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{aligned} &amp; \\text{解由于} f(x)=\\sin \\frac{x}{4} \\text{为奇函数，所以} a_{n}=0(n=0,1,2,\\cdots) \\\\ &amp; b_{n}=\\frac{2}{\\pi} \\int_{0}^{\\pi} \\sin \\frac{x}{4} \\sin nx dx=\\frac{1}{\\pi} \\int_{0}^{\\pi} \\left[ \\cos \\left( n-\\frac{1}{4} \\right) x-\\cos \\left( n+\\frac{1}{4} \\right) x \\right] dx \\\\ &amp; \\quad=\\frac{1}{\\pi} \\left[ \\frac{\\sin \\left( n-\\frac{1}{4} \\right) \\pi}{n-\\frac{1}{4}}-\\frac{\\sin \\left( n+\\frac{1}{4} \\right) \\pi}{n+\\frac{1}{4}} \\right]=\\frac{16 \\sqrt{2}(-1)^{n-1} n}{\\pi (16 n^{2}-1)} (n=1,2,\\cdots), \\\\ &amp; \\text{所以} f(x)=\\sin \\frac{x}{4} \\text{在} (-\\pi,\\pi) \\text{内的傅里叶展式为} \\\\ &amp; \\sum_{n=1}^{\\infty} \\frac{16 \\sqrt{2}(-1)^{n-1} n}{\\pi (16 n^{2}-1)} \\sin nx.\\end{aligned}\">\\begin{aligned} &amp; \\text{解由于} f(x)=\\sin \\frac{x}{4} \\text{为奇函数，所以} a_{n}=0(n=0,1,2,\\cdots) \\\\ &amp; b_{n}=\\frac{2}{\\pi} \\int_{0}^{\\pi} \\sin \\frac{x}{4} \\sin nx dx=\\frac{1}{\\pi} \\int_{0}^{\\pi} \\left[ \\cos \\left( n-\\frac{1}{4} \\right) x-\\cos \\left( n+\\frac{1}{4} \\right) x \\right] dx \\\\ &amp; \\quad=\\frac{1}{\\pi} \\left[ \\frac{\\sin \\left( n-\\frac{1}{4} \\right) \\pi}{n-\\frac{1}{4}}-\\frac{\\sin \\left( n+\\frac{1}{4} \\right) \\pi}{n+\\frac{1}{4}} \\right]=\\frac{16 \\sqrt{2}(-1)^{n-1} n}{\\pi (16 n^{2}-1)} (n=1,2,\\cdots), \\\\ &amp; \\text{所以} f(x)=\\sin \\frac{x}{4} \\text{在} (-\\pi,\\pi) \\text{内的傅里叶展式为} \\\\ &amp; \\sum_{n=1}^{\\infty} \\frac{16 \\sqrt{2}(-1)^{n-1} n}{\\pi (16 n^{2}-1)} \\sin nx.\\end{aligned}</div>"
     },
     {
       "id": "q0012",
       "number": 12,
       "header": "#12-Averge",
       "difficulty": "Averge",
-      "prompt_html": "<img src=\"/static/generated/assets/advanced-math/ch094/q0012_prompt.png\"/>",
+      "prompt_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{cases} f(x)=\\begin{cases} 0, &amp; -\\pi \\leq x&lt;0 \\\\ 9, &amp; 0&lt;x \\leq \\pi \\end{cases}, \\end{cases} \\text{则}f(x)\\text{的傅里叶系数}b_{2k}=(\\quad)\">\\begin{cases} f(x)=\\begin{cases} 0, &amp; -\\pi \\leq x&lt;0 \\\\ 9, &amp; 0&lt;x \\leq \\pi \\end{cases}, \\end{cases} \\text{则}f(x)\\text{的傅里叶系数}b_{2k}=(\\quad)</div>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch094/q0012_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\mathbf { 0 }\">\\mathbf { 0 }</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch094/q0012_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\mathbf { 1 }\">\\mathbf { 1 }</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch094/q0012_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\left( - 1 \\right) ^ { k } { \\frac { 18 } { ( 2 k - 1 ) \\pi } }\">\\left( - 1 \\right) ^ { k } { \\frac { 18 } { ( 2 k - 1 ) \\pi } }</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch094/q0012_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\frac { 18 } { ( 2 k - 1 ) \\pi }\">\\frac { 18 } { ( 2 k - 1 ) \\pi }</span>"
         }
       ],
       "answer": "A",
       "answer_index": 0,
-      "analysis_html": "<img src=\"/static/generated/assets/advanced-math/ch094/q0012_analysis.png\"/>"
+      "analysis_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{aligned}&amp;\\text{解}b_{n}=\\frac{1}{\\pi}\\int_{-\\pi}^{\\pi}f(x)\\sin nxdx=\\frac{1}{\\pi}\\int_{0}^{\\pi}9\\sin nxdx=\\frac{9}{n\\pi}[1-(-1)^{n}],\\\\&amp;\\text{当}n=2k\\text{时，}b_{2k}=0\\,.\\end{aligned}\">\\begin{aligned}&amp;\\text{解}b_{n}=\\frac{1}{\\pi}\\int_{-\\pi}^{\\pi}f(x)\\sin nxdx=\\frac{1}{\\pi}\\int_{0}^{\\pi}9\\sin nxdx=\\frac{9}{n\\pi}[1-(-1)^{n}],\\\\&amp;\\text{当}n=2k\\text{时，}b_{2k}=0\\,.\\end{aligned}</div>"
     },
     {
       "id": "q0013",
       "number": 13,
       "header": "#13-Averge",
       "difficulty": "Averge",
-      "prompt_html": "<img src=\"/static/generated/assets/advanced-math/ch094/q0013_prompt.png\"/>",
+      "prompt_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\text{设}f(x)=\\begin{cases}2,|x|&lt;\\frac{1}{2}\\\\ -1,\\frac{1}{2}&lt;|x|&lt;1\\end{cases},\\text{在}(-1,1)\\text{内将}f(x)\\text{展成以}2\\text{为周期的傅里叶级数，其展开式为( } \\ \\ \\ )\">\\text{设}f(x)=\\begin{cases}2,|x|&lt;\\frac{1}{2}\\\\ -1,\\frac{1}{2}&lt;|x|&lt;1\\end{cases},\\text{在}(-1,1)\\text{内将}f(x)\\text{展成以}2\\text{为周期的傅里叶级数，其展开式为( } \\ \\ \\ )</div>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch094/q0013_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\begin{aligned}1 + \\frac{2}{\\pi} \\sum_{k=1}^{\\infty} (-1)^{k-1} \\frac{1}{(2k-1)} \\cos k \\pi x \\, ;\\end{aligned}\">\\begin{aligned}1 + \\frac{2}{\\pi} \\sum_{k=1}^{\\infty} (-1)^{k-1} \\frac{1}{(2k-1)} \\cos k \\pi x \\, ;\\end{aligned}</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch094/q0013_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\frac{1}{2} + \\sum_{k = 1}^{\\infty} \\frac{\\cos kx}{k} \\, .\">\\frac{1}{2} + \\sum_{k = 1}^{\\infty} \\frac{\\cos kx}{k} \\, .</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch094/q0013_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\frac{1}{2} + \\frac{6}{\\pi} \\sum_{k = 1}^{\\infty} (-1)^{k - 1} \\frac{1}{(2k - 1)} \\cos k \\pi x \\, ;\">\\frac{1}{2} + \\frac{6}{\\pi} \\sum_{k = 1}^{\\infty} (-1)^{k - 1} \\frac{1}{(2k - 1)} \\cos k \\pi x \\, ;</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch094/q0013_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\frac{1}{2} + \\frac{1}{\\pi} \\sum_{k = 1}^{\\infty} (-1)^{k - 1} \\frac{1}{(2k - 1)} \\cos k \\pi x \\, ;\">\\frac{1}{2} + \\frac{1}{\\pi} \\sum_{k = 1}^{\\infty} (-1)^{k - 1} \\frac{1}{(2k - 1)} \\cos k \\pi x \\, ;</span>"
         }
       ],
       "answer": "C",
       "answer_index": 2,
-      "analysis_html": "<img src=\"/static/generated/assets/advanced-math/ch094/q0013_analysis.png\"/>"
+      "analysis_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{aligned}&amp; \\text{解由题意知，}f(x)\\text{为偶函数，所以}b_{n}=0,n=1,2,\\cdots \\\\&amp; a_{0}=\\frac{2}{1}\\int_{0}^{1}f(x)dx=1,\\\\&amp; a_{n}=\\frac{2}{1}\\int_{0}^{1}f(x)\\cos n\\pi xdx=2\\left(\\int_{0}^{\\frac{1}{2}}2\\cos n\\pi xdx-\\int_{\\frac{1}{2}}^{1}\\cos n\\pi xdx\\right)=\\frac{6\\sin\\frac{n\\pi}{2}}{n\\pi}=\\begin{cases}0,n=2k\\\\ (-1)^{k-1}\\frac{6}{(2k-1)\\pi},k=1,2,\\cdots\\end{cases}\\\\&amp; \\text{所以}f(x)\\text{的傅里叶级数展开式为}\\\\&amp; \\frac{1}{2}+\\frac{6}{\\pi}\\sum_{k=1}^{\\infty}(-1)^{k-1}\\frac{1}{(2k-1)}\\cos k\\pi x\\end{aligned}\">\\begin{aligned}&amp; \\text{解由题意知，}f(x)\\text{为偶函数，所以}b_{n}=0,n=1,2,\\cdots \\\\&amp; a_{0}=\\frac{2}{1}\\int_{0}^{1}f(x)dx=1,\\\\&amp; a_{n}=\\frac{2}{1}\\int_{0}^{1}f(x)\\cos n\\pi xdx=2\\left(\\int_{0}^{\\frac{1}{2}}2\\cos n\\pi xdx-\\int_{\\frac{1}{2}}^{1}\\cos n\\pi xdx\\right)=\\frac{6\\sin\\frac{n\\pi}{2}}{n\\pi}=\\begin{cases}0,n=2k\\\\ (-1)^{k-1}\\frac{6}{(2k-1)\\pi},k=1,2,\\cdots\\end{cases}\\\\&amp; \\text{所以}f(x)\\text{的傅里叶级数展开式为}\\\\&amp; \\frac{1}{2}+\\frac{6}{\\pi}\\sum_{k=1}^{\\infty}(-1)^{k-1}\\frac{1}{(2k-1)}\\cos k\\pi x\\end{aligned}</div>"
     },
     {
       "id": "q0014",
       "number": 14,
       "header": "#14-Averge",
       "difficulty": "Averge",
-      "prompt_html": "<img src=\"/static/generated/assets/advanced-math/ch094/q0014_prompt.png\"/>",
+      "prompt_html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\left. \\text{则}f(x) \\text{的傅里叶展式为} \\right. ( )\">\\left. \\text{则}f(x) \\text{的傅里叶展式为} \\right. ( )</span>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch094/q0014_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\begin{aligned}2(\\pi^2+1)+12\\sum_{n=1}^{\\infty}\\frac{(-1)^{n}}{n^2}\\cos nx(-\\infty&lt;x&lt;+\\infty)\\,;\\end{aligned}\">\\begin{aligned}2(\\pi^2+1)+12\\sum_{n=1}^{\\infty}\\frac{(-1)^{n}}{n^2}\\cos nx(-\\infty&lt;x&lt;+\\infty)\\,;\\end{aligned}</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch094/q0014_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\begin{aligned}(\\pi^2+1)+6\\sum_{n=1}^{\\infty}\\frac{(-1)^n}{n^2}\\cos nx(-\\infty&lt;x&lt;+\\infty)\\,;\\end{aligned}\">\\begin{aligned}(\\pi^2+1)+6\\sum_{n=1}^{\\infty}\\frac{(-1)^n}{n^2}\\cos nx(-\\infty&lt;x&lt;+\\infty)\\,;\\end{aligned}</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch094/q0014_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\begin{aligned}2(\\pi^2+1)+6\\sum_{n=1}^{\\infty}\\frac{(-1)^{n}}{n^2}\\cos nx(-\\infty&lt;x&lt;+\\infty)\\,.\\end{aligned}\">\\begin{aligned}2(\\pi^2+1)+6\\sum_{n=1}^{\\infty}\\frac{(-1)^{n}}{n^2}\\cos nx(-\\infty&lt;x&lt;+\\infty)\\,.\\end{aligned}</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch094/q0014_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"(\\pi^{2}+1)+12\\sum_{n=1}^{\\infty}\\frac{(-1)^{n}}{n^{2}}\\cos nx(-\\infty&lt;x&lt;+\\infty)\\,;\">(\\pi^{2}+1)+12\\sum_{n=1}^{\\infty}\\frac{(-1)^{n}}{n^{2}}\\cos nx(-\\infty&lt;x&lt;+\\infty)\\,;</span>"
         }
       ],
       "answer": "D",
       "answer_index": 3,
-      "analysis_html": "<img src=\"/static/generated/assets/advanced-math/ch094/q0014_analysis.png\"/>"
+      "analysis_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{aligned}&amp;\\text{解由于}f(x)\\text{为偶函数，所以}b_{n}=0(n=1,2,\\cdots)\\\\&amp;a_{0}=\\frac{2}{\\pi}\\int_{0}^{\\pi}(3x^{2}+1)dx=2(\\pi^{2}+1)\\,,\\\\&amp;a_{n}=\\frac{2}{\\pi}\\int_{0}^{\\pi}(3x^{2}+1)\\cos nx\\,dx=\\frac{2}{n\\pi}\\bigg[(3x^{2}+1)\\sin nx\\big|_{0}^{\\pi}-\\int_{0}^{\\pi}6x\\sin nx\\,dx\\bigg]\\\\&amp;=\\frac{12}{n^{2}\\pi}\\bigg[x\\cos nx\\big|_{0}^{\\pi}-\\int_{0}^{\\pi}\\cos nx\\,dx\\bigg]=(-1)^{n}\\frac{12}{n^{2}},n=1,2,\\cdots,\\\\&amp;\\text{又因为}f(x)\\text{在}[-\\pi,\\pi)\\text{内连续，且}f(-\\pi+0)=f(\\pi-0)=3\\pi^{2}+1,\\text{所以}\\\\&amp;f(x)=3x^{2}+1=(\\pi^{2}+1)+12\\sum_{n=1}^{\\infty}\\frac{(-1)^{n}}{n^{2}}\\cos nx(-\\infty&lt;x&lt;+\\infty).\\end{aligned}\">\\begin{aligned}&amp;\\text{解由于}f(x)\\text{为偶函数，所以}b_{n}=0(n=1,2,\\cdots)\\\\&amp;a_{0}=\\frac{2}{\\pi}\\int_{0}^{\\pi}(3x^{2}+1)dx=2(\\pi^{2}+1)\\,,\\\\&amp;a_{n}=\\frac{2}{\\pi}\\int_{0}^{\\pi}(3x^{2}+1)\\cos nx\\,dx=\\frac{2}{n\\pi}\\bigg[(3x^{2}+1)\\sin nx\\big|_{0}^{\\pi}-\\int_{0}^{\\pi}6x\\sin nx\\,dx\\bigg]\\\\&amp;=\\frac{12}{n^{2}\\pi}\\bigg[x\\cos nx\\big|_{0}^{\\pi}-\\int_{0}^{\\pi}\\cos nx\\,dx\\bigg]=(-1)^{n}\\frac{12}{n^{2}},n=1,2,\\cdots,\\\\&amp;\\text{又因为}f(x)\\text{在}[-\\pi,\\pi)\\text{内连续，且}f(-\\pi+0)=f(\\pi-0)=3\\pi^{2}+1,\\text{所以}\\\\&amp;f(x)=3x^{2}+1=(\\pi^{2}+1)+12\\sum_{n=1}^{\\infty}\\frac{(-1)^{n}}{n^{2}}\\cos nx(-\\infty&lt;x&lt;+\\infty).\\end{aligned}</div>"
     },
     {
       "id": "q0015",
       "number": 15,
       "header": "#15-Averge",
       "difficulty": "Averge",
-      "prompt_html": "<img src=\"/static/generated/assets/advanced-math/ch094/q0015_prompt.png\"/>",
+      "prompt_html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\sum _ { n = 1 } ^ { \\infty } \\int _ { - \\pi } ^ { \\pi } e ^ { x } \\cos n x d x = ( \\ \\ ) .\">\\sum _ { n = 1 } ^ { \\infty } \\int _ { - \\pi } ^ { \\pi } e ^ { x } \\cos n x d x = ( \\ \\ ) .</span>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch094/q0015_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\pi - \\frac{e^{\\pi} - e^{-\\pi}}{2}\\, ;\">\\pi - \\frac{e^{\\pi} - e^{-\\pi}}{2}\\, ;</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch094/q0015_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\pi \\, ;\">\\pi \\, ;</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch094/q0015_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\mathbf { 1 } ;\">\\mathbf { 1 } ;</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch094/q0015_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\frac{e^{\\pi}-e^{-\\pi}}{2}\\,.\">\\frac{e^{\\pi}-e^{-\\pi}}{2}\\,.</span>"
         }
       ],
       "answer": "A",
       "answer_index": 0,
-      "analysis_html": "<img src=\"/static/generated/assets/advanced-math/ch094/q0015_analysis.png\"/>"
+      "analysis_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{aligned} \\text{解将}f(x)=e^x,x\\in(-\\pi,\\pi)\\text{展成傅里叶级数，得到}\\\\ e^x=\\frac{a_0}{2}+\\sum_{n=1}^{\\infty}(a_n\\cos nx+b_n\\sin nx),x\\in(-\\pi,\\pi),\\\\ \\text{其中}a_0=\\frac{1}{\\pi}\\int_{-\\pi}^{\\pi}e^xdx,a_n=\\frac{1}{\\pi}\\int_{-\\pi}^{\\pi}e^x\\cos nxdx,b_n=\\frac{1}{\\pi}\\int_{-\\pi}^{\\pi}e^x\\sin nxdx\\,.\\\\ \\text{因此}\\sum_{n=1}^{\\infty}\\int_{-\\pi}^{\\pi}e^x\\cos nxdx=\\pi\\left(e^0-\\frac{a_0}{2}\\right)=\\pi-\\frac{e^{\\pi}-e^{-\\pi}}{2}.\\end{aligned}\">\\begin{aligned} \\text{解将}f(x)=e^x,x\\in(-\\pi,\\pi)\\text{展成傅里叶级数，得到}\\\\ e^x=\\frac{a_0}{2}+\\sum_{n=1}^{\\infty}(a_n\\cos nx+b_n\\sin nx),x\\in(-\\pi,\\pi),\\\\ \\text{其中}a_0=\\frac{1}{\\pi}\\int_{-\\pi}^{\\pi}e^xdx,a_n=\\frac{1}{\\pi}\\int_{-\\pi}^{\\pi}e^x\\cos nxdx,b_n=\\frac{1}{\\pi}\\int_{-\\pi}^{\\pi}e^x\\sin nxdx\\,.\\\\ \\text{因此}\\sum_{n=1}^{\\infty}\\int_{-\\pi}^{\\pi}e^x\\cos nxdx=\\pi\\left(e^0-\\frac{a_0}{2}\\right)=\\pi-\\frac{e^{\\pi}-e^{-\\pi}}{2}.\\end{aligned}</div>"
     },
     {
       "id": "q0016",
       "number": 16,
       "header": "#16-Averge",
       "difficulty": "Averge",
-      "prompt_html": "<img src=\"/static/generated/assets/advanced-math/ch094/q0016_prompt.png\"/>",
+      "prompt_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\text{设}f(x)=\\begin{cases} 1,|x|&lt;\\frac{1}{2} \\\\ 0,\\frac{1}{2}&lt;|x|&lt;1 \\end{cases},\\text{在}(-1,1)\\text{内将}f(x)\\text{展成以}2\\text{为周期的傅里叶级数，其展开式为}(\\quad)\">\\text{设}f(x)=\\begin{cases} 1,|x|&lt;\\frac{1}{2} \\\\ 0,\\frac{1}{2}&lt;|x|&lt;1 \\end{cases},\\text{在}(-1,1)\\text{内将}f(x)\\text{展成以}2\\text{为周期的傅里叶级数，其展开式为}(\\quad)</div>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch094/q0016_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\frac {1}{2} + \\sum_ {k = 1} ^ {\\infty} \\frac {\\cos k \\alpha}{k} \\, .\">\\frac {1}{2} + \\sum_ {k = 1} ^ {\\infty} \\frac {\\cos k \\alpha}{k} \\, .</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch094/q0016_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\frac{1}{2} + \\frac{2}{\\pi} \\sum_{k = 1}^{\\infty} (-1)^{k - 1} \\frac{1}{(2k - 1)} \\cos k \\pi x \\; ;\">\\frac{1}{2} + \\frac{2}{\\pi} \\sum_{k = 1}^{\\infty} (-1)^{k - 1} \\frac{1}{(2k - 1)} \\cos k \\pi x \\; ;</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch094/q0016_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\begin{array}{l} { l } { { 1 + { \\displaystyle \\frac { 2 } { \\pi } } \\sum _ { k = 1 } ^ { \\infty } ( - 1 ) ^ { k - 1 } { \\frac { 1 } { ( 2 k - 1 ) } } \\cos k \\pi x \\; ; } } \\end{array}\">\\begin{array}{l} { l } { { 1 + { \\displaystyle \\frac { 2 } { \\pi } } \\sum _ { k = 1 } ^ { \\infty } ( - 1 ) ^ { k - 1 } { \\frac { 1 } { ( 2 k - 1 ) } } \\cos k \\pi x \\; ; } } \\end{array}</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch094/q0016_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\frac{1}{2} + \\frac{1}{\\pi} \\sum_{k = 1}^{\\infty} (-1)^{k - 1} \\frac{1}{(2k - 1)} \\cos k \\pi x \\, ;\">\\frac{1}{2} + \\frac{1}{\\pi} \\sum_{k = 1}^{\\infty} (-1)^{k - 1} \\frac{1}{(2k - 1)} \\cos k \\pi x \\, ;</span>"
         }
       ],
       "answer": "B",
       "answer_index": 1,
-      "analysis_html": "<img src=\"/static/generated/assets/advanced-math/ch094/q0016_analysis.png\"/>"
+      "analysis_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{aligned}&amp; \\text{解由题意知，}f(x)\\text{为偶函数，所以}b_n=0,n=1,2,\\cdots \\\\&amp; a_0=\\frac{2}{1}\\int_0^1 f(x)dx=2\\int_0^{\\frac{1}{2}}1dx=1\\,,\\\\&amp; a_n=\\frac{2}{1}\\int_0^1 f(x)\\cos n\\pi xdx=2\\int_0^{\\frac{1}{2}}\\cos n\\pi xdx=\\frac{2\\sin\\frac{n\\pi}{2}}{n\\pi}=\\begin{cases}0,n=2k\\\\-1)^{k-1}\\frac{2}{(2k-1)\\pi},k=1,2,\\cdots\\end{cases}\\\\&amp; \\text{所以}f(x)\\text{的傅里叶级数展开式为}\\\\&amp; \\quad\\frac{1}{2}+\\frac{2}{\\pi}\\sum_{k=1}^{\\infty}(-1)^{k-1}\\frac{1}{(2k-1)}\\cos k\\pi x\\end{aligned}\">\\begin{aligned}&amp; \\text{解由题意知，}f(x)\\text{为偶函数，所以}b_n=0,n=1,2,\\cdots \\\\&amp; a_0=\\frac{2}{1}\\int_0^1 f(x)dx=2\\int_0^{\\frac{1}{2}}1dx=1\\,,\\\\&amp; a_n=\\frac{2}{1}\\int_0^1 f(x)\\cos n\\pi xdx=2\\int_0^{\\frac{1}{2}}\\cos n\\pi xdx=\\frac{2\\sin\\frac{n\\pi}{2}}{n\\pi}=\\begin{cases}0,n=2k\\\\-1)^{k-1}\\frac{2}{(2k-1)\\pi},k=1,2,\\cdots\\end{cases}\\\\&amp; \\text{所以}f(x)\\text{的傅里叶级数展开式为}\\\\&amp; \\quad\\frac{1}{2}+\\frac{2}{\\pi}\\sum_{k=1}^{\\infty}(-1)^{k-1}\\frac{1}{(2k-1)}\\cos k\\pi x\\end{aligned}</div>"
     },
     {
       "id": "q0017",
       "number": 17,
       "header": "#17-Averge",
       "difficulty": "Averge",
-      "prompt_html": "<img src=\"/static/generated/assets/advanced-math/ch094/q0017_prompt.png\"/>",
+      "prompt_html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{设函数}f(x) \\text{是以} 2 \\pi \\text{为周期的周期函数，且} f(x)=\\frac{a_{0}}{2}+\\sum_{n=1}^{\\infty}(a_{n}\\cos nx+b_{n}\\sin nx)\\text{可以逐项积分，则下列关系式正确的是( )}\">\\text{设函数}f(x) \\text{是以} 2 \\pi \\text{为周期的周期函数，且} f(x)=\\frac{a_{0}}{2}+\\sum_{n=1}^{\\infty}(a_{n}\\cos nx+b_{n}\\sin nx)\\text{可以逐项积分，则下列关系式正确的是( )}</span>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch094/q0017_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\frac{1}{\\pi} \\int_{-\\pi}^{\\pi} f^{2}(x) dx = \\frac{a_{0}{}^{2}}{2} + \\sum_{n=1}^{\\infty} \\left( a_{n}^{2} + b_{n}^{2} \\right)\\, ;\">\\frac{1}{\\pi} \\int_{-\\pi}^{\\pi} f^{2}(x) dx = \\frac{a_{0}{}^{2}}{2} + \\sum_{n=1}^{\\infty} \\left( a_{n}^{2} + b_{n}^{2} \\right)\\, ;</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch094/q0017_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\lim_{n \\to \\infty} a_{n} = 1 \\, ;\">\\lim_{n \\to \\infty} a_{n} = 1 \\, ;</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch094/q0017_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\lim_{n \\to \\infty} b_{n} = 1 \\, 。\">\\lim_{n \\to \\infty} b_{n} = 1 \\, 。</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch094/q0017_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\frac { 1 } { \\pi } \\int _ { - \\pi } ^ { \\pi } f ^ { 2 } ( x ) d x = \\frac { { { a _ { 0 } } ^ { 2 } } } { 2 } + \\sum _ { n = 1 } ^ { \\infty } \\left( { { a _ { n } } + { b _ { n } } } \\right) ;\">\\frac { 1 } { \\pi } \\int _ { - \\pi } ^ { \\pi } f ^ { 2 } ( x ) d x = \\frac { { { a _ { 0 } } ^ { 2 } } } { 2 } + \\sum _ { n = 1 } ^ { \\infty } \\left( { { a _ { n } } + { b _ { n } } } \\right) ;</span>"
         }
       ],
       "answer": "A",
       "answer_index": 0,
-      "analysis_html": "<img src=\"/static/generated/assets/advanced-math/ch094/q0017_analysis.png\"/>"
+      "analysis_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{aligned}\\text{解 (1)}&amp;f^2(x)=\\frac{a_0}{2}f(x)+\\sum_{n=1}^{\\infty}(a_nf(x)\\cos nx+b_nf(x)\\sin nx),\\text{积分得}\\\\&amp;\\int_{-\\pi}^{\\pi}f^2(x)dx=\\frac{a_0}{2}\\int_{-\\pi}^{\\pi}f(x)dx+\\sum_{n=1}^{\\infty}(a_n\\int_{-\\pi}^{\\pi}f(x)\\cos nx dx+b_n\\int_{-\\pi}^{\\pi}f(x)\\sin nx dx)=\\pi\\left[\\frac{a_0^2}{2}+\\sum_{n=1}^{\\infty}(a_n^2+b_n^2)\\right]\\\\&amp;,\\quad\\\\ \\text{所以}\\frac{1}{\\pi}\\int_{-\\pi}^{\\pi}f^2(x)dx&amp;=\\frac{a_0^2}{2}+\\sum_{n=1}^{\\infty}(a_n^2+b_n^2)\\\\ \\text{(2)}&amp;\\text{由(1)得}\\sum_{n=1}^{\\infty}(a_n^2+b_n^2)\\text{收敛，所以}\\lim_{n\\rightarrow\\infty}(a_n^2+b_n^2)=0,\\ \\text{因此}\\lim_{n\\rightarrow\\infty}a_n=0,\\lim_{n\\rightarrow\\infty}b_n=0.\\end{aligned}\">\\begin{aligned}\\text{解 (1)}&amp;f^2(x)=\\frac{a_0}{2}f(x)+\\sum_{n=1}^{\\infty}(a_nf(x)\\cos nx+b_nf(x)\\sin nx),\\text{积分得}\\\\&amp;\\int_{-\\pi}^{\\pi}f^2(x)dx=\\frac{a_0}{2}\\int_{-\\pi}^{\\pi}f(x)dx+\\sum_{n=1}^{\\infty}(a_n\\int_{-\\pi}^{\\pi}f(x)\\cos nx dx+b_n\\int_{-\\pi}^{\\pi}f(x)\\sin nx dx)=\\pi\\left[\\frac{a_0^2}{2}+\\sum_{n=1}^{\\infty}(a_n^2+b_n^2)\\right]\\\\&amp;,\\quad\\\\ \\text{所以}\\frac{1}{\\pi}\\int_{-\\pi}^{\\pi}f^2(x)dx&amp;=\\frac{a_0^2}{2}+\\sum_{n=1}^{\\infty}(a_n^2+b_n^2)\\\\ \\text{(2)}&amp;\\text{由(1)得}\\sum_{n=1}^{\\infty}(a_n^2+b_n^2)\\text{收敛，所以}\\lim_{n\\rightarrow\\infty}(a_n^2+b_n^2)=0,\\ \\text{因此}\\lim_{n\\rightarrow\\infty}a_n=0,\\lim_{n\\rightarrow\\infty}b_n=0.\\end{aligned}</div>"
     },
     {
       "id": "q0018",
       "number": 18,
       "header": "#18-Averge",
       "difficulty": "Averge",
-      "prompt_html": "<img src=\"/static/generated/assets/advanced-math/ch094/q0018_prompt.png\"/>",
+      "prompt_html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{在区间}[-\\pi,\\pi]\\text{上将函数}f(x)=1- \\frac{2|x|}{\\pi}\\text{展成以}2\\pi\\text{为周期的傅里叶级数，其展开式为}\">\\text{在区间}[-\\pi,\\pi]\\text{上将函数}f(x)=1- \\frac{2|x|}{\\pi}\\text{展成以}2\\pi\\text{为周期的傅里叶级数，其展开式为}</span>\n<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"(\\quad)\">(\\quad)</span>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch094/q0018_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\frac { 8 } { \\pi ^ { 2 } } \\sum _ { n = 1 } ^ { \\infty } \\frac { \\cos n x } { n ^ { 2 } } ;\">\\frac { 8 } { \\pi ^ { 2 } } \\sum _ { n = 1 } ^ { \\infty } \\frac { \\cos n x } { n ^ { 2 } } ;</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch094/q0018_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\frac{4}{\\pi^{2}} \\sum_{k=1}^{\\infty} \\frac{\\cos(2k-1)x}{(2k-1)^{2}}\\, ;\">\\frac{4}{\\pi^{2}} \\sum_{k=1}^{\\infty} \\frac{\\cos(2k-1)x}{(2k-1)^{2}}\\, ;</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch094/q0018_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"- \\frac { 2 } { \\pi } \\sum _ { n = 1 } ^ { \\infty } \\frac { \\cos n x } { n ^ { 2 } } .\">- \\frac { 2 } { \\pi } \\sum _ { n = 1 } ^ { \\infty } \\frac { \\cos n x } { n ^ { 2 } } .</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch094/q0018_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\frac { 8 } { \\pi ^ { 2 } } \\sum _ { k = 1 } ^ { \\infty } \\frac { \\cos ( 2 k - 1 ) x } { ( 2 k - 1 ) ^ { 2 } } \\, ;\">\\frac { 8 } { \\pi ^ { 2 } } \\sum _ { k = 1 } ^ { \\infty } \\frac { \\cos ( 2 k - 1 ) x } { ( 2 k - 1 ) ^ { 2 } } \\, ;</span>"
         }
       ],
       "answer": "D",
       "answer_index": 3,
-      "analysis_html": "<img src=\"/static/generated/assets/advanced-math/ch094/q0018_analysis.png\"/>"
+      "analysis_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{aligned}&amp; \\text{解由于} f(x) \\text{为偶函数，所以} b_n=0(n=1,2,\\cdots)\\\\&amp; a_0=\\frac{2}{\\pi}\\int_0^{\\pi}\\left(1-\\frac{2\\left|x\\right|}{\\pi}\\right)dx=\\frac{2}{\\pi}\\int_0^{\\pi}\\left(1-\\frac{2x}{\\pi}\\right)dx=0\\,,\\\\&amp; a_n=\\frac{2}{\\pi}\\int_0^{\\pi}\\left(1-\\frac{2\\left|x\\right|}{\\pi}\\right)\\cos n x dx=\\frac{2}{\\pi}\\int_0^{\\pi}\\left(1-\\frac{2x}{\\pi}\\right)\\cos n x dx=\\frac{2}{n\\pi}\\left[\\left(1-\\frac{2x}{\\pi}\\right)\\sin n x\\Bigg|_0^{\\pi}+\\frac{2}{\\pi}\\int_0^{\\pi}\\sin n x dx\\right]\\\\&amp; \\quad=\\frac{4}{n^2\\pi^2}(1-\\cos n\\pi)=\\begin{cases}0\\ ,n=2k\\\\ \\frac{8}{(2k-1)^2\\pi^2},n=2k-1\\ ,\\ n=1,2,\\cdots,\\end{cases}\\\\&amp; \\text{由于} f(x) \\text{在}[-\\pi,\\pi]\\text{上分段单调、连续，且} f(-\\pi)=f(\\pi)=-1\\text{，所以有}\\\\&amp; f(x)=\\frac{8}{\\pi^2}\\sum_{k=1}^{\\infty}\\frac{\\cos(2k-1)x}{(2k-1)^2},\\ x\\in[-\\pi,\\pi].\\end{aligned}\">\\begin{aligned}&amp; \\text{解由于} f(x) \\text{为偶函数，所以} b_n=0(n=1,2,\\cdots)\\\\&amp; a_0=\\frac{2}{\\pi}\\int_0^{\\pi}\\left(1-\\frac{2\\left|x\\right|}{\\pi}\\right)dx=\\frac{2}{\\pi}\\int_0^{\\pi}\\left(1-\\frac{2x}{\\pi}\\right)dx=0\\,,\\\\&amp; a_n=\\frac{2}{\\pi}\\int_0^{\\pi}\\left(1-\\frac{2\\left|x\\right|}{\\pi}\\right)\\cos n x dx=\\frac{2}{\\pi}\\int_0^{\\pi}\\left(1-\\frac{2x}{\\pi}\\right)\\cos n x dx=\\frac{2}{n\\pi}\\left[\\left(1-\\frac{2x}{\\pi}\\right)\\sin n x\\Bigg|_0^{\\pi}+\\frac{2}{\\pi}\\int_0^{\\pi}\\sin n x dx\\right]\\\\&amp; \\quad=\\frac{4}{n^2\\pi^2}(1-\\cos n\\pi)=\\begin{cases}0\\ ,n=2k\\\\ \\frac{8}{(2k-1)^2\\pi^2},n=2k-1\\ ,\\ n=1,2,\\cdots,\\end{cases}\\\\&amp; \\text{由于} f(x) \\text{在}[-\\pi,\\pi]\\text{上分段单调、连续，且} f(-\\pi)=f(\\pi)=-1\\text{，所以有}\\\\&amp; f(x)=\\frac{8}{\\pi^2}\\sum_{k=1}^{\\infty}\\frac{\\cos(2k-1)x}{(2k-1)^2},\\ x\\in[-\\pi,\\pi].\\end{aligned}</div>"
     }
-  ]
+  ],
+  "format": "latex",
+  "source_md": "gs/5.6.2_函数展开成Fourier级数(18题)/5.6.2_函数展开成Fourier级数(18题).md"
 }

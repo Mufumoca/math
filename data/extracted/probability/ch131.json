@@ -13,336 +13,338 @@
       "number": 1,
       "header": "#1-Averge",
       "difficulty": "Averge",
-      "prompt_html": "<img src=\"/static/generated/assets/probability/ch131/q0001_prompt.png\"/>",
+      "prompt_html": "<span class=\"latex-text\">\\begin{array}{l}\n\\begin{array}{|c|c|c|c|c|c|c|} \\hline \\text{点数} i &amp; 1 &amp; 2 &amp; 3 &amp; 4 &amp; 5 &amp; 6 \\\\ \\hline \\text{出现次数} f_{i} &amp; 23 &amp; 26 &amp; 21 &amp; 20 &amp; 15 &amp; 15 \\\\ \\hline \\end{array}</span>\n<span class=\"latex-text\">将一颗骰子掷120次，所得数据见下表</span>\n<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{问这颗骰子是否均匀}、\\text{对称}(\\text{取} \\alpha=0.05)？（ ）.\">\\text{问这颗骰子是否均匀}、\\text{对称}(\\text{取} \\alpha=0.05)？（ ）.</span>\n<span class=\"latex-text\">\\end{array}</span>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/probability/ch131/q0001_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{是均匀对称的}\">\\text{是均匀对称的}</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/probability/ch131/q0001_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{不是均匀对称的}\">\\text{不是均匀对称的}</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/probability/ch131/q0001_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{不能确定}\">\\text{不能确定}</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/probability/ch131/q0001_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{其它结论均不正确}\">\\text{其它结论均不正确}</span>"
         }
       ],
       "answer": "A",
       "answer_index": 0,
-      "analysis_html": "<img src=\"/static/generated/assets/probability/ch131/q0001_analysis.png\"/>"
+      "analysis_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{aligned} &amp; \\text{若这颗骰子是均匀、对称的，则} 1\\sim 6 \\text{点中每点出现的可能性相同，都为} 1/6。\\text{如果用} A_i \\text{表示第}i\\text{点出现}（i=1,2,\\cdots,6），\\text{则待检假设} \\\\ &amp; \\quad H_0: P(A_i)=1/6,\\ i=1,2,\\cdots,6. \\\\ &amp; \\text{在} H_0 \\text{成立的条件下，理论概率} \\\\ &amp; \\quad p_i=p(A_i)=1/6, \\\\ &amp; \\text{由} n=120 \\text{得频率} np_i=20. \\\\ &amp; \\text{计算结果如下表.} \\\\ &amp; \\begin{array}{|c|c|c|c|c|} \\hline i &amp; f_i &amp; p_i &amp; np_i &amp; (f_i-np_i)^2/(np_i) \\\\ \\hline 1 &amp; 23 &amp; 1/6 &amp; 20 &amp; 9/20 \\\\ 2 &amp; 26 &amp; 1/6 &amp; 20 &amp; 36/20 \\\\ 3 &amp; 21 &amp; 1/6 &amp; 20 &amp; 1/20 \\\\ 4 &amp; 20 &amp; 1/6 &amp; 20 &amp; 0 \\\\ 5 &amp; 15 &amp; 1/6 &amp; 20 &amp; 25/20 \\\\ 6 &amp; 15 &amp; 1/6 &amp; 20 &amp; 25/20 \\\\ \\hline &amp; \\text{合计} &amp; 120 &amp; &amp; 4.8 \\\\ \\end{array} \\\\ &amp; \\text{因此分布不含未知参数，又} k=6, \\alpha=0.05，\\text{查表得} \\\\ &amp; \\quad \\chi^2_{\\alpha}(k-1)=\\chi^2_{0.05}(5)=11.071. \\\\ &amp; \\text{由上表，知} \\\\ &amp; \\quad \\chi^2=\\sum_{i=1}^{6}\\frac{(f_i-np_i)^2}{np_i}=4.8&lt;11.071, \\\\ &amp; \\text{故接受} H_0, \\text{认为这颗骰子是均匀对称的。} \\\\ &amp; \\text{若这颗骰子是均匀、对称的，则} 1\\sim 6 \\text{点中每点出现的可能性相同，都为} 1/6。\\text{如果用} A_i \\text{表示第}i\\text{点出现}（i=1,2,\\cdots,6），\\text{则待检假设} \\\\ &amp; \\quad H_0: P(A_i)=1/6,\\ i=1,2,\\cdots,6. \\\\ &amp; \\text{在} H_0 \\text{成立的条件下，理论概率} \\\\ &amp; \\quad p_i=p(A_i)=1/6, \\\\ &amp; \\text{由} n=120 \\text{得频率} np_i=20. \\\\ &amp; \\text{计算结果如下表.} \\\\ &amp; \\begin{array}{|c|c|c|c|c|} \\hline i &amp; f_i &amp; p_i &amp; np_i &amp; (f_i-np_i)^2/(np_i) \\\\ \\hline 1 &amp; 23 &amp; 1/6 &amp; 20 &amp; 9/20 \\\\ 2 &amp; 26 &amp; 1/6 &amp; 20 &amp; 36/20 \\\\ 3 &amp; 21 &amp; 1/6 &amp; 20 &amp; 1/20 \\\\ 4 &amp; 20 &amp; 1/6 &amp; 20 &amp; 0 \\\\ 5 &amp; 15 &amp; 1/6 &amp; 20 &amp; 25/20 \\\\ 6 &amp; 15 &amp; 1/6 &amp; 20 &amp; 25/20 \\\\ \\hline &amp; \\text{合计} &amp; 120 &amp; &amp; 4.8 \\\\ \\end{array} \\\\ &amp; \\text{因此分布不含未知参数，又} k=6, \\alpha=0.05，\\text{查表得} \\\\ &amp; \\quad \\chi^2_{\\alpha}(k-1)=\\chi^2_{0.05}(5)=11.071. \\\\ &amp; \\text{由上}\\end{aligned}\">\\begin{aligned} &amp; \\text{若这颗骰子是均匀、对称的，则} 1\\sim 6 \\text{点中每点出现的可能性相同，都为} 1/6。\\text{如果用} A_i \\text{表示第}i\\text{点出现}（i=1,2,\\cdots,6），\\text{则待检假设} \\\\ &amp; \\quad H_0: P(A_i)=1/6,\\ i=1,2,\\cdots,6. \\\\ &amp; \\text{在} H_0 \\text{成立的条件下，理论概率} \\\\ &amp; \\quad p_i=p(A_i)=1/6, \\\\ &amp; \\text{由} n=120 \\text{得频率} np_i=20. \\\\ &amp; \\text{计算结果如下表.} \\\\ &amp; \\begin{array}{|c|c|c|c|c|} \\hline i &amp; f_i &amp; p_i &amp; np_i &amp; (f_i-np_i)^2/(np_i) \\\\ \\hline 1 &amp; 23 &amp; 1/6 &amp; 20 &amp; 9/20 \\\\ 2 &amp; 26 &amp; 1/6 &amp; 20 &amp; 36/20 \\\\ 3 &amp; 21 &amp; 1/6 &amp; 20 &amp; 1/20 \\\\ 4 &amp; 20 &amp; 1/6 &amp; 20 &amp; 0 \\\\ 5 &amp; 15 &amp; 1/6 &amp; 20 &amp; 25/20 \\\\ 6 &amp; 15 &amp; 1/6 &amp; 20 &amp; 25/20 \\\\ \\hline &amp; \\text{合计} &amp; 120 &amp; &amp; 4.8 \\\\ \\end{array} \\\\ &amp; \\text{因此分布不含未知参数，又} k=6, \\alpha=0.05，\\text{查表得} \\\\ &amp; \\quad \\chi^2_{\\alpha}(k-1)=\\chi^2_{0.05}(5)=11.071. \\\\ &amp; \\text{由上表，知} \\\\ &amp; \\quad \\chi^2=\\sum_{i=1}^{6}\\frac{(f_i-np_i)^2}{np_i}=4.8&lt;11.071, \\\\ &amp; \\text{故接受} H_0, \\text{认为这颗骰子是均匀对称的。} \\\\ &amp; \\text{若这颗骰子是均匀、对称的，则} 1\\sim 6 \\text{点中每点出现的可能性相同，都为} 1/6。\\text{如果用} A_i \\text{表示第}i\\text{点出现}（i=1,2,\\cdots,6），\\text{则待检假设} \\\\ &amp; \\quad H_0: P(A_i)=1/6,\\ i=1,2,\\cdots,6. \\\\ &amp; \\text{在} H_0 \\text{成立的条件下，理论概率} \\\\ &amp; \\quad p_i=p(A_i)=1/6, \\\\ &amp; \\text{由} n=120 \\text{得频率} np_i=20. \\\\ &amp; \\text{计算结果如下表.} \\\\ &amp; \\begin{array}{|c|c|c|c|c|} \\hline i &amp; f_i &amp; p_i &amp; np_i &amp; (f_i-np_i)^2/(np_i) \\\\ \\hline 1 &amp; 23 &amp; 1/6 &amp; 20 &amp; 9/20 \\\\ 2 &amp; 26 &amp; 1/6 &amp; 20 &amp; 36/20 \\\\ 3 &amp; 21 &amp; 1/6 &amp; 20 &amp; 1/20 \\\\ 4 &amp; 20 &amp; 1/6 &amp; 20 &amp; 0 \\\\ 5 &amp; 15 &amp; 1/6 &amp; 20 &amp; 25/20 \\\\ 6 &amp; 15 &amp; 1/6 &amp; 20 &amp; 25/20 \\\\ \\hline &amp; \\text{合计} &amp; 120 &amp; &amp; 4.8 \\\\ \\end{array} \\\\ &amp; \\text{因此分布不含未知参数，又} k=6, \\alpha=0.05，\\text{查表得} \\\\ &amp; \\quad \\chi^2_{\\alpha}(k-1)=\\chi^2_{0.05}(5)=11.071. \\\\ &amp; \\text{由上}\\end{aligned}</div>"
     },
     {
       "id": "q0002",
       "number": 2,
       "header": "#2-Averge",
       "difficulty": "Averge",
-      "prompt_html": "<img src=\"/static/generated/assets/probability/ch131/q0002_prompt.png\"/>",
+      "prompt_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{aligned} \\text{根据某市公路交通部门某年中前6个月交通事故记录，统计得星期一至星期日发生交通事故的次数如下：} \\\\ \\begin{bmatrix} \\text{星期} &amp; 1 &amp; 2 &amp; 3 &amp; 4 &amp; 5 &amp; 6 &amp; 7(\\text{日}) \\\\ \\text{次数} &amp; 36 &amp; 23 &amp; 29 &amp; 31 &amp; 34 &amp; 60 &amp; 25 \\end{bmatrix} \\end{aligned} \\text{问交通事故发生是否与星期几无关}(\\alpha=0.05)?\">\\begin{aligned} \\text{根据某市公路交通部门某年中前6个月交通事故记录，统计得星期一至星期日发生交通事故的次数如下：} \\\\ \\begin{bmatrix} \\text{星期} &amp; 1 &amp; 2 &amp; 3 &amp; 4 &amp; 5 &amp; 6 &amp; 7(\\text{日}) \\\\ \\text{次数} &amp; 36 &amp; 23 &amp; 29 &amp; 31 &amp; 34 &amp; 60 &amp; 25 \\end{bmatrix} \\end{aligned} \\text{问交通事故发生是否与星期几无关}(\\alpha=0.05)?</div>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/probability/ch131/q0002_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{否}\">\\text{否}</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/probability/ch131/q0002_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{是}\">\\text{是}</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/probability/ch131/q0002_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{无法确定}\\quad\">\\text{无法确定}\\quad</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/probability/ch131/q0002_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{其它结论均不正确}\">\\text{其它结论均不正确}</span>"
         }
       ],
       "answer": "A",
       "answer_index": 0,
-      "analysis_html": "<img src=\"/static/generated/assets/probability/ch131/q0002_analysis.png\"/>"
+      "analysis_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{aligned} \\text{设}X \\text{为一周中各天发生交通事故的总数，如果交通事故的发生与星期几无关，则} \\lambda \\text{应具有分布律} \\\\ P\\{X=i\\} = p_i = 1/7 \\quad(i=1,2,\\cdots,7), \\\\ \\text{于是问题归结为检验假设} \\\\ H_0: p_i = 1/7, \\; H_1: p_i \\neq 1/7 \\quad(i=1,2,\\cdots,7). \\\\ \\text{用分布的} \\chi^2\\text{ 拟合检验法 }\\text{判之. 把每一天看成一个小区间，计算出相应的}f_i, np_i, \\text{列表如下} \\\\ \\begin{array}{|c|c|c|c|c|} \\hline \\text{星期} &amp; f_i &amp; np_i &amp; f_i - np_i &amp; (f_i - np_i)^2 / np_i \\\\ \\hline 1 &amp; 36 &amp; 238 \\times 1/7 &amp; 2 &amp; 0.1176 \\\\ 2 &amp; 23 &amp; 238 \\times 1/7 &amp; -11 &amp; 3.5588 \\\\ 3 &amp; 29 &amp; 238 \\times 1/7 &amp; -5 &amp; 0.7353 \\\\ 4 &amp; 31 &amp; 238 \\times 1/7 &amp; -3 &amp; 0.2647 \\\\ 5 &amp; 34 &amp; 238 \\times 1/7 &amp; 0 &amp; 0 \\\\ 6 &amp; 60 &amp; 238 \\times 1/7 &amp; 26 &amp; 19.8824 \\\\ \\text{日} &amp; 25 &amp; 238 \\times 1/7 &amp; -9 &amp; 2.3824 \\\\ \\hline \\sum &amp; 238 &amp; 238 &amp; &amp; \\chi^2 = 26.941 \\end{array} \\\\ \\text{由} k=7, \\, r=0, \\, \\text{查表得临界值} \\\\ \\chi^2_{\\alpha}(k-r-1) = \\chi_{0.05}(6) = 12.592, \\\\ \\text{由于} \\chi^2 = 26.9412 &gt; 12.592, \\text{故拒绝} H_0, \\text{即认为交通事故的发生与星期几有关，显然，星期六的交通事故比其它6天多。} \\end{aligned}\">\\begin{aligned} \\text{设}X \\text{为一周中各天发生交通事故的总数，如果交通事故的发生与星期几无关，则} \\lambda \\text{应具有分布律} \\\\ P\\{X=i\\} = p_i = 1/7 \\quad(i=1,2,\\cdots,7), \\\\ \\text{于是问题归结为检验假设} \\\\ H_0: p_i = 1/7, \\; H_1: p_i \\neq 1/7 \\quad(i=1,2,\\cdots,7). \\\\ \\text{用分布的} \\chi^2\\text{ 拟合检验法 }\\text{判之. 把每一天看成一个小区间，计算出相应的}f_i, np_i, \\text{列表如下} \\\\ \\begin{array}{|c|c|c|c|c|} \\hline \\text{星期} &amp; f_i &amp; np_i &amp; f_i - np_i &amp; (f_i - np_i)^2 / np_i \\\\ \\hline 1 &amp; 36 &amp; 238 \\times 1/7 &amp; 2 &amp; 0.1176 \\\\ 2 &amp; 23 &amp; 238 \\times 1/7 &amp; -11 &amp; 3.5588 \\\\ 3 &amp; 29 &amp; 238 \\times 1/7 &amp; -5 &amp; 0.7353 \\\\ 4 &amp; 31 &amp; 238 \\times 1/7 &amp; -3 &amp; 0.2647 \\\\ 5 &amp; 34 &amp; 238 \\times 1/7 &amp; 0 &amp; 0 \\\\ 6 &amp; 60 &amp; 238 \\times 1/7 &amp; 26 &amp; 19.8824 \\\\ \\text{日} &amp; 25 &amp; 238 \\times 1/7 &amp; -9 &amp; 2.3824 \\\\ \\hline \\sum &amp; 238 &amp; 238 &amp; &amp; \\chi^2 = 26.941 \\end{array} \\\\ \\text{由} k=7, \\, r=0, \\, \\text{查表得临界值} \\\\ \\chi^2_{\\alpha}(k-r-1) = \\chi_{0.05}(6) = 12.592, \\\\ \\text{由于} \\chi^2 = 26.9412 &gt; 12.592, \\text{故拒绝} H_0, \\text{即认为交通事故的发生与星期几有关，显然，星期六的交通事故比其它6天多。} \\end{aligned}</div>"
     },
     {
       "id": "q0003",
       "number": 3,
       "header": "#3-Averge",
       "difficulty": "Averge",
-      "prompt_html": "<img src=\"/static/generated/assets/probability/ch131/q0003_prompt.png\"/>",
+      "prompt_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{aligned}&amp;\\text{下表记录了 }2880\\text{ 个婴儿的出生时刻（时间区间及出生个数 }f_i\\text{）：}\\\\&amp;\\begin{array}{|c|c|c|c|c|c|c|c|c|}\\hline \\text{区间} &amp; [0,1) &amp; [1,2) &amp; [2,3) &amp; [3,4) &amp; [4,5) &amp; [5,6) &amp; [6,7) &amp; [7,8) \\\\\\hline f_i &amp; 127 &amp; 139 &amp; 143 &amp; 138 &amp; 134 &amp; 115 &amp; 129 &amp; 113 \\\\\\hline \\text{区间} &amp; [8,9) &amp; [9,10) &amp; [10,11) &amp; [11,12) &amp; [12,13) &amp; [13,14) &amp; [14,15) &amp; [15,16) \\\\\\hline f_i &amp; 126 &amp; 122 &amp; 121 &amp; 119 &amp; 130 &amp; 125 &amp; 112 &amp; 97 \\\\\\hline \\text{区间} &amp; [16,17) &amp; [17,18) &amp; [18,19) &amp; [19,20) &amp; [20,21) &amp; [21,22) &amp; [22,23) &amp; [23,24) \\\\\\hline f_i &amp; 115 &amp; 94 &amp; 99 &amp; 97 &amp; 100 &amp; 119 &amp; 127 &amp; 139 \\\\\\hline\\end{array}\\\\&amp;\\text{试问婴儿的出生时刻是否服从均匀分布 }U[0,24)\\text{（显著性水平 }\\alpha=0.05\\text{）？}\\end{aligned}\">\\begin{aligned}&amp;\\text{下表记录了 }2880\\text{ 个婴儿的出生时刻（时间区间及出生个数 }f_i\\text{）：}\\\\&amp;\\begin{array}{|c|c|c|c|c|c|c|c|c|}\\hline \\text{区间} &amp; [0,1) &amp; [1,2) &amp; [2,3) &amp; [3,4) &amp; [4,5) &amp; [5,6) &amp; [6,7) &amp; [7,8) \\\\\\hline f_i &amp; 127 &amp; 139 &amp; 143 &amp; 138 &amp; 134 &amp; 115 &amp; 129 &amp; 113 \\\\\\hline \\text{区间} &amp; [8,9) &amp; [9,10) &amp; [10,11) &amp; [11,12) &amp; [12,13) &amp; [13,14) &amp; [14,15) &amp; [15,16) \\\\\\hline f_i &amp; 126 &amp; 122 &amp; 121 &amp; 119 &amp; 130 &amp; 125 &amp; 112 &amp; 97 \\\\\\hline \\text{区间} &amp; [16,17) &amp; [17,18) &amp; [18,19) &amp; [19,20) &amp; [20,21) &amp; [21,22) &amp; [22,23) &amp; [23,24) \\\\\\hline f_i &amp; 115 &amp; 94 &amp; 99 &amp; 97 &amp; 100 &amp; 119 &amp; 127 &amp; 139 \\\\\\hline\\end{array}\\\\&amp;\\text{试问婴儿的出生时刻是否服从均匀分布 }U[0,24)\\text{（显著性水平 }\\alpha=0.05\\text{）？}\\end{aligned}</div>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/probability/ch131/q0003_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{不服从均匀分布}\">\\text{不服从均匀分布}</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/probability/ch131/q0003_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{服从均匀分布}\">\\text{服从均匀分布}</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/probability/ch131/q0003_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{无法确定}\\quad\">\\text{无法确定}\\quad</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/probability/ch131/q0003_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{其它结论均不正确}\">\\text{其它结论均不正确}</span>"
         }
       ],
       "answer": "A",
       "answer_index": 0,
-      "analysis_html": "<img src=\"/static/generated/assets/probability/ch131/q0003_analysis.png\"/>"
+      "analysis_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{aligned}\\text{原假设}H_0;F_0(x),\\text{由}F_0(x)\\text{算得}\\\\p_i=F_0(i)-F_0(i-1)=\\frac{1}{24},\\\\np_i=2880\\times \\frac{1}{24}=120\\quad(i=1,2,\\cdots,24),\\\\ \\text{于是}\\qquad\\chi^2=\\sum_{i=1}^{\\frac{24}{24}}\\frac{(f_i-np_i)^2}{np_i}\\approx 40.47,\\\\ \\text{对}\\alpha=0.05,\\text{自由度}n-1=23,\\text{查}\\chi^2_{n}-\\text{分布表，得}\\\\ \\chi^2_{n}(n-1)=35.17,\\\\ \\text{因为}\\chi^2=40.47&gt;35.17,\\text{所以拒绝}H_0,\\text{即可以认为婴儿出生时刻不服从均匀分布}U[0,24].\\end{aligned}\">\\begin{aligned}\\text{原假设}H_0;F_0(x),\\text{由}F_0(x)\\text{算得}\\\\p_i=F_0(i)-F_0(i-1)=\\frac{1}{24},\\\\np_i=2880\\times \\frac{1}{24}=120\\quad(i=1,2,\\cdots,24),\\\\ \\text{于是}\\qquad\\chi^2=\\sum_{i=1}^{\\frac{24}{24}}\\frac{(f_i-np_i)^2}{np_i}\\approx 40.47,\\\\ \\text{对}\\alpha=0.05,\\text{自由度}n-1=23,\\text{查}\\chi^2_{n}-\\text{分布表，得}\\\\ \\chi^2_{n}(n-1)=35.17,\\\\ \\text{因为}\\chi^2=40.47&gt;35.17,\\text{所以拒绝}H_0,\\text{即可以认为婴儿出生时刻不服从均匀分布}U[0,24].\\end{aligned}</div>"
     },
     {
       "id": "q0004",
       "number": 4,
       "header": "#4-Averge",
       "difficulty": "Averge",
-      "prompt_html": "<img src=\"/static/generated/assets/probability/ch131/q0004_prompt.png\"/>",
+      "prompt_html": "<span class=\"latex-text\">\\begin{array}{l}\n\\begin{array}{|c|c|c|c|c|c|c|c|} \\hline \\text{错误个数} f_i &amp; 0 &amp; 1 &amp; 2 &amp; 3 &amp; 4 &amp; 5 &amp; 6 \\geq 7 \\\\ \\hline \\text{合} f_i \\text{个错误的页数} &amp; 36 &amp; 40 &amp; 19 &amp; 2 &amp; 0 &amp; 2 &amp; 1 &amp; 0 \\\\ \\hline \\end{array}</span>\n<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{问能否认为一页的印刷错误个数服从泊松分布}(\\text{取} \\alpha=0.05)？\">\\text{问能否认为一页的印刷错误个数服从泊松分布}(\\text{取} \\alpha=0.05)？</span>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/probability/ch131/q0004_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{服从}\">\\text{服从}</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/probability/ch131/q0004_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{不服从}\">\\text{不服从}</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/probability/ch131/q0004_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{无法判断}\\quad\">\\text{无法判断}\\quad</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/probability/ch131/q0004_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{其它结论均不正确}\">\\text{其它结论均不正确}</span>"
         }
       ],
       "answer": "A",
       "answer_index": 0,
-      "analysis_html": "<img src=\"/static/generated/assets/probability/ch131/q0004_analysis.png\"/>"
+      "analysis_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{aligned}&amp;\\text{检验假设 }H_0\\text{：一页的印刷错误个数 }X\\text{ 服从泊松分布，}P\\{X=i\\}=\\frac{\\lambda^i e^{-\\lambda}}{i!},\\ i=0,1,2,\\cdots.\\\\&amp;\\text{先估计未知参数 }\\lambda\\text{：}\\hat{\\lambda}=\\bar{x}=\\frac{1}{100}(0\\times 36+1\\times 40+2\\times 19+3\\times 2+4\\times 0+5\\times 2+6\\times 1)=1.\\\\&amp;\\text{在 }H_0\\text{ 成立下，}\\hat{p}_i=\\hat{P}\\{X=i\\}=\\frac{e^{-1}}{i!},\\ i=0,1,2,\\cdots.\\\\&amp;\\text{用 }\\chi^2\\text{ 检验法，}\\chi^2=\\sum_{i=1}^k\\frac{(f_i-n\\hat{p}_i)^2}{n\\hat{p}_i}\\sim\\chi^2(k-r-1)\\text{，本题中 }r=1\\text{。}\\\\&amp;\\text{合并 }n\\hat{p}_i&lt;5\\text{ 的组后，自由度为 }4-1-1=2\\text{，查表得 }\\chi^2_{0.05}(2)=5.991\\text{。}\\\\&amp;\\text{计算 }\\chi^2=0.0170+0.2801+0.0202+1.1423=1.4596&lt;5.991\\text{，故接受 }H_0\\text{，认为一页的印刷错误个数服从泊松分布。}\\end{aligned}\">\\begin{aligned}&amp;\\text{检验假设 }H_0\\text{：一页的印刷错误个数 }X\\text{ 服从泊松分布，}P\\{X=i\\}=\\frac{\\lambda^i e^{-\\lambda}}{i!},\\ i=0,1,2,\\cdots.\\\\&amp;\\text{先估计未知参数 }\\lambda\\text{：}\\hat{\\lambda}=\\bar{x}=\\frac{1}{100}(0\\times 36+1\\times 40+2\\times 19+3\\times 2+4\\times 0+5\\times 2+6\\times 1)=1.\\\\&amp;\\text{在 }H_0\\text{ 成立下，}\\hat{p}_i=\\hat{P}\\{X=i\\}=\\frac{e^{-1}}{i!},\\ i=0,1,2,\\cdots.\\\\&amp;\\text{用 }\\chi^2\\text{ 检验法，}\\chi^2=\\sum_{i=1}^k\\frac{(f_i-n\\hat{p}_i)^2}{n\\hat{p}_i}\\sim\\chi^2(k-r-1)\\text{，本题中 }r=1\\text{。}\\\\&amp;\\text{合并 }n\\hat{p}_i&lt;5\\text{ 的组后，自由度为 }4-1-1=2\\text{，查表得 }\\chi^2_{0.05}(2)=5.991\\text{。}\\\\&amp;\\text{计算 }\\chi^2=0.0170+0.2801+0.0202+1.1423=1.4596&lt;5.991\\text{，故接受 }H_0\\text{，认为一页的印刷错误个数服从泊松分布。}\\end{aligned}</div>"
     },
     {
       "id": "q0005",
       "number": 5,
       "header": "#5-Averge",
       "difficulty": "Averge",
-      "prompt_html": "<img src=\"/static/generated/assets/probability/ch131/q0005_prompt.png\"/>",
+      "prompt_html": "<span class=\"latex-text\">\\begin{array}{l}\n\\begin{array}{|c|c|c|c|c|} \\hline \\text{寿命} (t\\text{小时}) &amp; t&lt;100 &amp; 100 \\leq t&lt;200 &amp; 200 \\leq t&lt;300 &amp; t \\geq 300 \\\\ \\hline \\text{灯泡数} &amp; 121 &amp; 78 &amp; 43 &amp; 58 \\\\ \\hline \\end{array}\n\\text{试在} \\alpha=0.05 \\text{水平下}，\\text{检验这批灯泡的寿命} T \\text{是否服从指数分布}：</span>\n<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"H_{0}: T \\sim f(t)=\\begin{cases} 0.05 e^{-0.05t}, &amp; t \\geq 0 \\\\ 0, &amp; t&lt;0 \\end{cases}.\">H_{0}: T \\sim f(t)=\\begin{cases} 0.05 e^{-0.05t}, &amp; t \\geq 0 \\\\ 0, &amp; t&lt;0 \\end{cases}.</div>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/probability/ch131/q0005_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{服从}\">\\text{服从}</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/probability/ch131/q0005_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{不服从}\">\\text{不服从}</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/probability/ch131/q0005_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{无法判断}\">\\text{无法判断}</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/probability/ch131/q0005_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{其它结论均不正确}\">\\text{其它结论均不正确}</span>"
         }
       ],
       "answer": "A",
       "answer_index": 0,
-      "analysis_html": "<img src=\"/static/generated/assets/probability/ch131/q0005_analysis.png\"/>"
+      "analysis_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{aligned}&amp;\\text{这是分布的拟合检验问题，将整个区间划分为 }(-\\infty,100),\\ [100,200),\\ [200,300),\\ [300,+\\infty)\\text{，列表计算：}\\\\&amp;\\begin{array}{|c|c|c|c|c|}\\hline \\text{区间} &amp; f_i &amp; np_i &amp; f_i-np_i &amp; (f_i-np_i)^2/np_i \\\\\\hline (-\\infty,100) &amp; 121 &amp; 118.0 &amp; 3 &amp; 0.0763 \\\\\\hline [100,200) &amp; 78 &amp; 71.6 &amp; 6.4 &amp; 0.572 \\\\\\hline [200,300) &amp; 43 &amp; 43.4 &amp; -0.4 &amp; 0.004 \\\\\\hline [300,+\\infty) &amp; 58 &amp; 66.9 &amp; -8.9 &amp; 1.184 \\\\\\hline \\sum &amp; 300 &amp; 300 &amp; &amp; 1.8631 \\\\\\hline\\end{array}\\\\&amp;\\text{由 }k=4\\text{，未知参数个数 }r=0\\text{，查表知 }\\chi^2_{0.05}(3)=7.815\\text{。}\\\\&amp;\\text{因 }\\chi^2=1.8631&lt;\\chi^2_{0.05}(3)=7.815\\text{，故接受 }H_0\\text{，认为灯泡的寿命服从该指数分布。}\\end{aligned}\">\\begin{aligned}&amp;\\text{这是分布的拟合检验问题，将整个区间划分为 }(-\\infty,100),\\ [100,200),\\ [200,300),\\ [300,+\\infty)\\text{，列表计算：}\\\\&amp;\\begin{array}{|c|c|c|c|c|}\\hline \\text{区间} &amp; f_i &amp; np_i &amp; f_i-np_i &amp; (f_i-np_i)^2/np_i \\\\\\hline (-\\infty,100) &amp; 121 &amp; 118.0 &amp; 3 &amp; 0.0763 \\\\\\hline [100,200) &amp; 78 &amp; 71.6 &amp; 6.4 &amp; 0.572 \\\\\\hline [200,300) &amp; 43 &amp; 43.4 &amp; -0.4 &amp; 0.004 \\\\\\hline [300,+\\infty) &amp; 58 &amp; 66.9 &amp; -8.9 &amp; 1.184 \\\\\\hline \\sum &amp; 300 &amp; 300 &amp; &amp; 1.8631 \\\\\\hline\\end{array}\\\\&amp;\\text{由 }k=4\\text{，未知参数个数 }r=0\\text{，查表知 }\\chi^2_{0.05}(3)=7.815\\text{。}\\\\&amp;\\text{因 }\\chi^2=1.8631&lt;\\chi^2_{0.05}(3)=7.815\\text{，故接受 }H_0\\text{，认为灯泡的寿命服从该指数分布。}\\end{aligned}</div>"
     },
     {
       "id": "q0006",
       "number": 6,
       "header": "#6-Averge",
       "difficulty": "Averge",
-      "prompt_html": "<img src=\"/static/generated/assets/probability/ch131/q0006_prompt.png\"/>",
+      "prompt_html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{对于总体分布的假设检验问题} \\ H_{0}: F(x) = F_{0}(x), \\ H_{1}: F(x) \\neq F_{0}(x), \\text{下列结论中错误的是( ).}\">\\text{对于总体分布的假设检验问题} \\ H_{0}: F(x) = F_{0}(x), \\ H_{1}: F(x) \\neq F_{0}(x), \\text{下列结论中错误的是( ).}</span>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/probability/ch131/q0006_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\chi^2 \\text{拟合检验法只适用于} F_0(x) \\text{为正态分布函数的情形}\">\\chi^2 \\text{拟合检验法只适用于} F_0(x) \\text{为正态分布函数的情形}</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/probability/ch131/q0006_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{若} \\, F_{0}(x) \\text{中含有未知参数，则要先对未知参数做极大似然估计}\">\\text{若} \\, F_{0}(x) \\text{中含有未知参数，则要先对未知参数做极大似然估计}</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/probability/ch131/q0006_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\chi^2 \\text{拟合检验法应取形如}\\ \\{ x | \\chi^2 \\geq \\chi^2_a \\} \\text{的拒绝域}\">\\chi^2 \\text{拟合检验法应取形如}\\ \\{ x | \\chi^2 \\geq \\chi^2_a \\} \\text{的拒绝域}</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/probability/ch131/q0006_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\chi^{2} \\text{拟合检验法的理论依据是所构造的统计量渐近于} \\chi^{2} \\text{分布}\">\\chi^{2} \\text{拟合检验法的理论依据是所构造的统计量渐近于} \\chi^{2} \\text{分布}</span>"
         }
       ],
       "answer": "A",
       "answer_index": 0,
-      "analysis_html": "<img src=\"/static/generated/assets/probability/ch131/q0006_analysis.png\"/>"
+      "analysis_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{aligned}\\chi^2 \\text{检验法是在总体} \\lambda \\text{的分布未知时，根据来自总体的样本，检验关于总体分布的假设的一种检验方法。具体进行检验时，先提出原假设}  H_0 \\text{：总体}  \\lambda  \\text{的分布函数为}  F_0(x) \\text{，引入统计量}\\text{ }\\\\ \n\\chi^2 = \\sum_{i=1}^k \\frac{(f_i - np_i)^2}{np_i}\\text{，(皮尔逊证明了当} n \\text{充分大} (n \\geq 50) \\text{时，}\\chi^2 \\text{近似服从}\\chi^2(k-1)\\text{分布)}\\\\ \\text{拒绝域为}\\chi^2 &gt; \\chi^2_k(k-1).\n \\\\ \\text{当总体含有未知参数时，先用极大似然估计估计}  H_0  \\text{假设分布}\\text{ F(x) }\\text{的未知参数，再对}\\text{ F(x) }\\text{做似合检验。}\\end{aligned}\">\\begin{aligned}\\chi^2 \\text{检验法是在总体} \\lambda \\text{的分布未知时，根据来自总体的样本，检验关于总体分布的假设的一种检验方法。具体进行检验时，先提出原假设}  H_0 \\text{：总体}  \\lambda  \\text{的分布函数为}  F_0(x) \\text{，引入统计量}\\text{ }\\\\ \n\\chi^2 = \\sum_{i=1}^k \\frac{(f_i - np_i)^2}{np_i}\\text{，(皮尔逊证明了当} n \\text{充分大} (n \\geq 50) \\text{时，}\\chi^2 \\text{近似服从}\\chi^2(k-1)\\text{分布)}\\\\ \\text{拒绝域为}\\chi^2 &gt; \\chi^2_k(k-1).\n \\\\ \\text{当总体含有未知参数时，先用极大似然估计估计}  H_0  \\text{假设分布}\\text{ F(x) }\\text{的未知参数，再对}\\text{ F(x) }\\text{做似合检验。}\\end{aligned}</div>"
     },
     {
       "id": "q0007",
       "number": 7,
       "header": "#7-Averge",
       "difficulty": "Averge",
-      "prompt_html": "<img src=\"/static/generated/assets/probability/ch131/q0007_prompt.png\"/>",
+      "prompt_html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{设}X\\sim N(\\mu,\\sigma^{2}),\\text{其中}\\mu\\text{未知.}\\ \\text{从}X\\text{抽取容量为}10\\text{的样本.}\\ \\text{对于假设检验}H_{0}:\\sigma^{2}\\leq 0.02,\\ H_{1}:\\sigma^{2}&gt;0.02.\\ \\text{若显著性水平为}0.05,\\text{则检验的拒绝域为}.\">\\text{设}X\\sim N(\\mu,\\sigma^{2}),\\text{其中}\\mu\\text{未知.}\\ \\text{从}X\\text{抽取容量为}10\\text{的样本.}\\ \\text{对于假设检验}H_{0}:\\sigma^{2}\\leq 0.02,\\ H_{1}:\\sigma^{2}&gt;0.02.\\ \\text{若显著性水平为}0.05,\\text{则检验的拒绝域为}.</span>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/probability/ch131/q0007_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\begin{aligned}450s^2&gt;\\chi_{0.05}^2(9)\\end{aligned}\">\\begin{aligned}450s^2&gt;\\chi_{0.05}^2(9)\\end{aligned}</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/probability/ch131/q0007_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\begin{aligned}500s^2&gt;\\chi_{0.05}^2(10)\\end{aligned}\">\\begin{aligned}500s^2&gt;\\chi_{0.05}^2(10)\\end{aligned}</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/probability/ch131/q0007_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\begin{aligned}450s^2{&lt;}\\chi_{0.95}^2(9)\\end{aligned}\">\\begin{aligned}450s^2{&lt;}\\chi_{0.95}^2(9)\\end{aligned}</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/probability/ch131/q0007_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\begin{aligned}450s^2&lt;\\chi_{0.975}^2(9) \\text{或} \\, 450s^2&gt;\\chi_{0.025}^2(9)\\end{aligned}\">\\begin{aligned}450s^2&lt;\\chi_{0.975}^2(9) \\text{或} \\, 450s^2&gt;\\chi_{0.025}^2(9)\\end{aligned}</span>"
         }
       ],
       "answer": "A",
       "answer_index": 0,
-      "analysis_html": "<img src=\"/static/generated/assets/probability/ch131/q0007_analysis.png\"/>"
+      "analysis_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{aligned}&amp;\\text{正态总体方差的检验统计量为} \\quad \\chi^2=\\frac{n-1}{\\sigma_0^2}S^2-\\chi^2(n-1). \\\\&amp;\\text{在检验假设}H_0:\\sigma^2\\leq \\sigma_0^2,\\ H_1:\\sigma^2&gt;\\sigma_0^2\\text{下，可得拒绝域为} \\quad \\chi^2=\\frac{n-1}{\\sigma_0^2}s^2&gt;\\chi_0^2(n-1). \\\\&amp;\\text{把题目具体数据代入得} \\quad 450s^2&gt;\\chi_{0.05}^2(9).\\end{aligned}\">\\begin{aligned}&amp;\\text{正态总体方差的检验统计量为} \\quad \\chi^2=\\frac{n-1}{\\sigma_0^2}S^2-\\chi^2(n-1). \\\\&amp;\\text{在检验假设}H_0:\\sigma^2\\leq \\sigma_0^2,\\ H_1:\\sigma^2&gt;\\sigma_0^2\\text{下，可得拒绝域为} \\quad \\chi^2=\\frac{n-1}{\\sigma_0^2}s^2&gt;\\chi_0^2(n-1). \\\\&amp;\\text{把题目具体数据代入得} \\quad 450s^2&gt;\\chi_{0.05}^2(9).\\end{aligned}</div>"
     },
     {
       "id": "q0008",
       "number": 8,
       "header": "#8-Averge",
       "difficulty": "Averge",
-      "prompt_html": "<img src=\"/static/generated/assets/probability/ch131/q0008_prompt.png\"/>",
+      "prompt_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{array}{l}\n\\begin{array}{|c|c|c|c|c|c|c|} \\hline \\text{痛点数} &amp; 0 &amp; 1 &amp; 2 &amp; 3 &amp; 4 &amp; 5 &amp; 6 \\\\ \\hline \\text{频数} f_{i} &amp; 14 &amp; 27 &amp; 26 &amp; 20 &amp; 7 &amp; 3 &amp; 3 \\\\ \\hline \\end{array}\n\\end{array}\">\\begin{array}{l}\n\\begin{array}{|c|c|c|c|c|c|c|} \\hline \\text{痛点数} &amp; 0 &amp; 1 &amp; 2 &amp; 3 &amp; 4 &amp; 5 &amp; 6 \\\\ \\hline \\text{频数} f_{i} &amp; 14 &amp; 27 &amp; 26 &amp; 20 &amp; 7 &amp; 3 &amp; 3 \\\\ \\hline \\end{array}\n\\end{array}</div>\n<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{检验整批零件上的痛点数是否服从泊松分布}(\\alpha=0.05)。\">\\text{检验整批零件上的痛点数是否服从泊松分布}(\\alpha=0.05)。</span>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/probability/ch131/q0008_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{服从}\">\\text{服从}</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/probability/ch131/q0008_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{不服从}\">\\text{不服从}</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/probability/ch131/q0008_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{无法判断}\\quad\">\\text{无法判断}\\quad</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/probability/ch131/q0008_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{其它结论均不正确}\">\\text{其它结论均不正确}</span>"
         }
       ],
       "answer": "A",
       "answer_index": 0,
-      "analysis_html": "<img src=\"/static/generated/assets/probability/ch131/q0008_analysis.png\"/>"
+      "analysis_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{aligned}&amp;\\text{设}\\lambda\\text{表示整批零件上的疵点数，则本问题是在}\\alpha=0.05\\text{下检验假设}\\\\&amp;H_{0}:\\ P\\{X=i\\}=\\frac{\\lambda^{i}e^{-\\lambda}}{i!},i=0,1,2,\\cdots\\\\&amp;\\text{由于在}H_{0}\\text{中参数}\\lambda\\text{未具体给出，所以先估计}\\lambda\\text{的值。由极大似然估计法得}\\\\&amp;\\quad\\widehat{\\lambda}=\\frac{\\overline{x}}{100}(0\\times 14+1\\times 27+2\\times 26+3\\times 20+4\\times 7+5\\times 3+6\\times 3)=2.\\\\&amp;\\text{将试验的所有可能结果分为7个互不相容的事件}A_{0},A_{1},\\cdots,A_{7},\\text{当}H_{0}\\text{成立时，}P\\{X=i\\}\\text{有估计值}\\\\&amp;\\quad p_{0}=P\\{X=0\\}=e^{-2}\\approx 0.135335,\\\\&amp;\\quad p_{1}=P\\{X=1\\}=2e^{-2}\\approx 0.27067,\\\\&amp;\\quad p_{2}=P\\{X=2\\}=2e^{2}\\approx 0.270671,\\\\&amp;\\quad p_{3}=P\\{X=3\\}\\approx 0.180447,\\\\&amp;\\quad p_{4}=P\\{X=4\\}=2/3e^{-2}\\approx 0.090224,\\\\&amp;\\quad p_{5}=P\\{X=5\\}=4/15e^{-2}\\approx 0.036089,\\\\&amp;\\quad p_{6}=P\\{X=6\\}=4/45e^{-2}\\approx 0.0120298.\\\\&amp;\\text{列表如下：}\\\\&amp;\\quad\\begin{array}{|c|c|c|c|c|c|c|}A_{i}&amp;k&amp;\\text{概率}p_{i}&amp;np_{i}&amp;\\text{频数}f_{i}&amp;{(f_{i}-np_{i})^{2}}&amp;\\frac{(f_{i}-np_{i})^{2}}{np_{i}}\\\\ \\hline A_{0}&amp;0&amp;0.135335&amp;13.5335&amp;14&amp;0.2176&amp;0.01608\\\\ A_{1}&amp;1&amp;0.270671&amp;27.0671&amp;27&amp;0.0045&amp;0.000166\\\\ A_{2}&amp;2&amp;0.270671&amp;27.0672&amp;26&amp;0.0045&amp;0.000166\\\\ A_{3}&amp;3&amp;0.180447&amp;18.0447&amp;20&amp;1.1387&amp;0.04207\\\\ A_{4}&amp;4&amp;0.090224&amp;9.0224&amp;7&amp;3.8232&amp;0.211874\\\\ A_{5}&amp;5&amp;0.036089&amp;3.6089&amp;13.83428&amp;3&amp;0.6960&amp;0.050310\\\\ A_{6}&amp;6&amp;0.0120298&amp;1.20298&amp;3&amp;3&amp;\\\\ \\hline \\sum&amp;\\end{array}\\\\&amp;\\text{当}H_{0}\\text{为真时，}\\\\&amp;\\quad\\chi^{2}=\\sum_{i=0}^{k}\\frac{(f_{i}-np_{i})^{2}}{np_{i}}\\sim\\chi^{2}(k-1-r),\\\\&amp;\\text{且此检验问题的拒绝域为}\\chi^{2}_{r}\\geqslant\\chi^{2}_{0.05}(k-1-r),\\text{这里}\\chi^{2}_{r}=0.3205,\\text{查表知}\\\\&amp;\\quad\\chi^{2}_{0.05}(7-1-1)=\\chi^{2}_{0}\\end{aligned}\">\\begin{aligned}&amp;\\text{设}\\lambda\\text{表示整批零件上的疵点数，则本问题是在}\\alpha=0.05\\text{下检验假设}\\\\&amp;H_{0}:\\ P\\{X=i\\}=\\frac{\\lambda^{i}e^{-\\lambda}}{i!},i=0,1,2,\\cdots\\\\&amp;\\text{由于在}H_{0}\\text{中参数}\\lambda\\text{未具体给出，所以先估计}\\lambda\\text{的值。由极大似然估计法得}\\\\&amp;\\quad\\widehat{\\lambda}=\\frac{\\overline{x}}{100}(0\\times 14+1\\times 27+2\\times 26+3\\times 20+4\\times 7+5\\times 3+6\\times 3)=2.\\\\&amp;\\text{将试验的所有可能结果分为7个互不相容的事件}A_{0},A_{1},\\cdots,A_{7},\\text{当}H_{0}\\text{成立时，}P\\{X=i\\}\\text{有估计值}\\\\&amp;\\quad p_{0}=P\\{X=0\\}=e^{-2}\\approx 0.135335,\\\\&amp;\\quad p_{1}=P\\{X=1\\}=2e^{-2}\\approx 0.27067,\\\\&amp;\\quad p_{2}=P\\{X=2\\}=2e^{2}\\approx 0.270671,\\\\&amp;\\quad p_{3}=P\\{X=3\\}\\approx 0.180447,\\\\&amp;\\quad p_{4}=P\\{X=4\\}=2/3e^{-2}\\approx 0.090224,\\\\&amp;\\quad p_{5}=P\\{X=5\\}=4/15e^{-2}\\approx 0.036089,\\\\&amp;\\quad p_{6}=P\\{X=6\\}=4/45e^{-2}\\approx 0.0120298.\\\\&amp;\\text{列表如下：}\\\\&amp;\\quad\\begin{array}{|c|c|c|c|c|c|c|}A_{i}&amp;k&amp;\\text{概率}p_{i}&amp;np_{i}&amp;\\text{频数}f_{i}&amp;{(f_{i}-np_{i})^{2}}&amp;\\frac{(f_{i}-np_{i})^{2}}{np_{i}}\\\\ \\hline A_{0}&amp;0&amp;0.135335&amp;13.5335&amp;14&amp;0.2176&amp;0.01608\\\\ A_{1}&amp;1&amp;0.270671&amp;27.0671&amp;27&amp;0.0045&amp;0.000166\\\\ A_{2}&amp;2&amp;0.270671&amp;27.0672&amp;26&amp;0.0045&amp;0.000166\\\\ A_{3}&amp;3&amp;0.180447&amp;18.0447&amp;20&amp;1.1387&amp;0.04207\\\\ A_{4}&amp;4&amp;0.090224&amp;9.0224&amp;7&amp;3.8232&amp;0.211874\\\\ A_{5}&amp;5&amp;0.036089&amp;3.6089&amp;13.83428&amp;3&amp;0.6960&amp;0.050310\\\\ A_{6}&amp;6&amp;0.0120298&amp;1.20298&amp;3&amp;3&amp;\\\\ \\hline \\sum&amp;\\end{array}\\\\&amp;\\text{当}H_{0}\\text{为真时，}\\\\&amp;\\quad\\chi^{2}=\\sum_{i=0}^{k}\\frac{(f_{i}-np_{i})^{2}}{np_{i}}\\sim\\chi^{2}(k-1-r),\\\\&amp;\\text{且此检验问题的拒绝域为}\\chi^{2}_{r}\\geqslant\\chi^{2}_{0.05}(k-1-r),\\text{这里}\\chi^{2}_{r}=0.3205,\\text{查表知}\\\\&amp;\\quad\\chi^{2}_{0.05}(7-1-1)=\\chi^{2}_{0}\\end{aligned}</div>"
     },
     {
       "id": "q0009",
       "number": 9,
       "header": "#9-Averge",
       "difficulty": "Averge",
-      "prompt_html": "<img src=\"/static/generated/assets/probability/ch131/q0009_prompt.png\"/>",
+      "prompt_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{array}{l}\n\\begin{array}{|c|c|} \\hline \\text{朝上一面的数字} x &amp; 0 \\quad 1 \\quad 2 \\quad 3 \\quad 4 \\quad 5 \\quad 6 \\quad 7 \\quad 8 \\quad 9 \\\\ \\hline \\text{频数} f_{i} &amp; 85 \\quad 93 \\quad 84 \\quad 79 \\quad 78 \\quad 69 \\quad 74 \\quad 71 \\quad 91 \\quad 76 \\\\ \\hline \\end{array}\n\\end{array}\">\\begin{array}{l}\n\\begin{array}{|c|c|} \\hline \\text{朝上一面的数字} x &amp; 0 \\quad 1 \\quad 2 \\quad 3 \\quad 4 \\quad 5 \\quad 6 \\quad 7 \\quad 8 \\quad 9 \\\\ \\hline \\text{频数} f_{i} &amp; 85 \\quad 93 \\quad 84 \\quad 79 \\quad 78 \\quad 69 \\quad 74 \\quad 71 \\quad 91 \\quad 76 \\\\ \\hline \\end{array}\n\\end{array}</div>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/probability/ch131/q0009_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{是}\">\\text{是}</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/probability/ch131/q0009_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{不是}\">\\text{不是}</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/probability/ch131/q0009_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{无法确定}\\quad\">\\text{无法确定}\\quad</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/probability/ch131/q0009_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{其它结论均不正确}\">\\text{其它结论均不正确}</span>"
         }
       ],
       "answer": "A",
       "answer_index": 0,
-      "analysis_html": "<img src=\"/static/generated/assets/probability/ch131/q0009_analysis.png\"/>"
+      "analysis_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{aligned}&amp;\\text{判断这个正}\\text{20}\\text{面体是否由均匀材料制成，实际上就是判断这个正}\\text{20}\\text{面体的每一个面朝上的概率是否相等，设}\\text{X}\\text{为抛掷一次朝上的面上的数字，因此本问题是在} \\alpha=0.05 \\text{下检验假设}\\\\&amp;H_0: P\\{X=i\\}=\\frac{1}{10},i=0,1,2,\\cdots,9.\\\\&amp;\\text{将试验的可能结果分为10个互不相容的事件}\\\\&amp;A_0,A_1,\\cdots,A_9,\\\\&amp;\\text{当}H_0\\text{成立时，}P\\{X=i\\text{是估计值}\\\\&amp;p_i=P\\{X=i\\}=1/10,i=0,1,\\cdots,9,\\\\&amp;\\text{列表如表：}\\\\&amp;\\begin{array}{|c|c|c|c|c|c|c|} \\hline A_i &amp; k &amp; \\text{概率}p_i &amp; np_i &amp; \\text{频数}f_i &amp; (f_i-np_i)^2 &amp; \\frac{(f_i-np_i)^2}{np_i} \\\\ \\hline A_0 &amp; 0 &amp; 1/10 &amp; 80 &amp; 85 &amp; 25 &amp; 0.3125 \\\\ A_1 &amp; 1 &amp; 1/10 &amp; 80 &amp; 93 &amp; 169 &amp; 2.1125 \\\\ A_2 &amp; 2 &amp; 1/10 &amp; 80 &amp; 84 &amp; 16 &amp; 0.2 \\\\ A_3 &amp; 3 &amp; 1/10 &amp; 80 &amp; 79 &amp; 1 &amp; 0.0125 \\\\ A_4 &amp; 4 &amp; 1/10 &amp; 80 &amp; 78 &amp; 4 &amp; 0.05 \\\\ A_5 &amp; 5 &amp; 1/10 &amp; 80 &amp; 69 &amp; 121 &amp; 1.5125 \\\\ A_6 &amp; 6 &amp; 1/10 &amp; 80 &amp; 74 &amp; 36 &amp; 0.45 \\\\ A_7 &amp; 7 &amp; 1/10 &amp; 80 &amp; 71 &amp; 81 &amp; 1.0125 \\\\ A_8 &amp; 8 &amp; 1/10 &amp; 80 &amp; 91 &amp; 121 &amp; 1.5125 \\\\ A_9 &amp; 9 &amp; 1/10 &amp; 80 &amp; 76 &amp; 16 &amp; 0.2 \\\\ \\hline \\sum &amp; &amp; 1 &amp; &amp; 800 &amp; &amp; 7.375 \\end{array}\\\\&amp;\\text{由于当}H_0\\text{为真时，}\\\\&amp;\\chi^2=\\sum_{i=0}^{k}\\frac{(f_i-np_i)^2}{np_i}\\sim\\chi^2(k-1-r),\\\\&amp;\\text{且此检验问题的拒绝域为}\\chi^2_i\\geqslant\\chi^2_0(k-1-r).\\\\&amp;\\text{这里}\\chi^2=7.375，\\text{查表知}\\\\&amp;\\chi^2_{0.05}(10-1-0)=\\chi^2_{0.05}(9)=16.9,\\\\&amp;\\text{显然}\\chi^2=7.375&lt;16.9=\\chi^2_{0.05}(9)，\\text{即}\\chi^2\\text{未落在拒绝域中，所以接受}H_0，\\text{即认为这个正}20\\text{面体是由均匀材料制面的}. \\end{aligned}\">\\begin{aligned}&amp;\\text{判断这个正}\\text{20}\\text{面体是否由均匀材料制成，实际上就是判断这个正}\\text{20}\\text{面体的每一个面朝上的概率是否相等，设}\\text{X}\\text{为抛掷一次朝上的面上的数字，因此本问题是在} \\alpha=0.05 \\text{下检验假设}\\\\&amp;H_0: P\\{X=i\\}=\\frac{1}{10},i=0,1,2,\\cdots,9.\\\\&amp;\\text{将试验的可能结果分为10个互不相容的事件}\\\\&amp;A_0,A_1,\\cdots,A_9,\\\\&amp;\\text{当}H_0\\text{成立时，}P\\{X=i\\text{是估计值}\\\\&amp;p_i=P\\{X=i\\}=1/10,i=0,1,\\cdots,9,\\\\&amp;\\text{列表如表：}\\\\&amp;\\begin{array}{|c|c|c|c|c|c|c|} \\hline A_i &amp; k &amp; \\text{概率}p_i &amp; np_i &amp; \\text{频数}f_i &amp; (f_i-np_i)^2 &amp; \\frac{(f_i-np_i)^2}{np_i} \\\\ \\hline A_0 &amp; 0 &amp; 1/10 &amp; 80 &amp; 85 &amp; 25 &amp; 0.3125 \\\\ A_1 &amp; 1 &amp; 1/10 &amp; 80 &amp; 93 &amp; 169 &amp; 2.1125 \\\\ A_2 &amp; 2 &amp; 1/10 &amp; 80 &amp; 84 &amp; 16 &amp; 0.2 \\\\ A_3 &amp; 3 &amp; 1/10 &amp; 80 &amp; 79 &amp; 1 &amp; 0.0125 \\\\ A_4 &amp; 4 &amp; 1/10 &amp; 80 &amp; 78 &amp; 4 &amp; 0.05 \\\\ A_5 &amp; 5 &amp; 1/10 &amp; 80 &amp; 69 &amp; 121 &amp; 1.5125 \\\\ A_6 &amp; 6 &amp; 1/10 &amp; 80 &amp; 74 &amp; 36 &amp; 0.45 \\\\ A_7 &amp; 7 &amp; 1/10 &amp; 80 &amp; 71 &amp; 81 &amp; 1.0125 \\\\ A_8 &amp; 8 &amp; 1/10 &amp; 80 &amp; 91 &amp; 121 &amp; 1.5125 \\\\ A_9 &amp; 9 &amp; 1/10 &amp; 80 &amp; 76 &amp; 16 &amp; 0.2 \\\\ \\hline \\sum &amp; &amp; 1 &amp; &amp; 800 &amp; &amp; 7.375 \\end{array}\\\\&amp;\\text{由于当}H_0\\text{为真时，}\\\\&amp;\\chi^2=\\sum_{i=0}^{k}\\frac{(f_i-np_i)^2}{np_i}\\sim\\chi^2(k-1-r),\\\\&amp;\\text{且此检验问题的拒绝域为}\\chi^2_i\\geqslant\\chi^2_0(k-1-r).\\\\&amp;\\text{这里}\\chi^2=7.375，\\text{查表知}\\\\&amp;\\chi^2_{0.05}(10-1-0)=\\chi^2_{0.05}(9)=16.9,\\\\&amp;\\text{显然}\\chi^2=7.375&lt;16.9=\\chi^2_{0.05}(9)，\\text{即}\\chi^2\\text{未落在拒绝域中，所以接受}H_0，\\text{即认为这个正}20\\text{面体是由均匀材料制面的}. \\end{aligned}</div>"
     },
     {
       "id": "q0010",
       "number": 10,
       "header": "#10-Averge",
       "difficulty": "Averge",
-      "prompt_html": "<img src=\"/static/generated/assets/probability/ch131/q0010_prompt.png\"/>",
+      "prompt_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{aligned}&amp;\\text{设总体}X \\text{是有限总体，}X \\text{的分布列为}\\\\&amp;\\begin{array}{|c|c|c|c|c|}\\hline X &amp; a_{1} &amp; a_{2} &amp; \\cdots &amp; a_{r} \\\\ \\hline P &amp; p_{1} &amp; p_{2} &amp; \\cdots &amp; p_{r} \\\\ \\hline \\end{array}\\\\&amp;\\text{其中}\\sum_{i=1}^{r}p_{i}=1.\\ \\ \\text{检验假设}H_{0}:P(X=a_{i})=p_{i},\\ i=1,2,\\cdots,r,\\ \\text{检验统计量为}\\chi^{2}=\\sum_{i=1}^{r}\\frac{(m_{i}-np_{i})^{2}}{np_{i}},\\text{其中}m_{i}\\text{是}n\\text{次独立重复实验中}a_{i} \\text{出现的频数}(i=1,2,\\cdots,r)\\ ,\\ \\text{则检验的拒绝域为}(\\ \\ )\\ (\\text{显著性水平为}a)\\end{aligned}\">\\begin{aligned}&amp;\\text{设总体}X \\text{是有限总体，}X \\text{的分布列为}\\\\&amp;\\begin{array}{|c|c|c|c|c|}\\hline X &amp; a_{1} &amp; a_{2} &amp; \\cdots &amp; a_{r} \\\\ \\hline P &amp; p_{1} &amp; p_{2} &amp; \\cdots &amp; p_{r} \\\\ \\hline \\end{array}\\\\&amp;\\text{其中}\\sum_{i=1}^{r}p_{i}=1.\\ \\ \\text{检验假设}H_{0}:P(X=a_{i})=p_{i},\\ i=1,2,\\cdots,r,\\ \\text{检验统计量为}\\chi^{2}=\\sum_{i=1}^{r}\\frac{(m_{i}-np_{i})^{2}}{np_{i}},\\text{其中}m_{i}\\text{是}n\\text{次独立重复实验中}a_{i} \\text{出现的频数}(i=1,2,\\cdots,r)\\ ,\\ \\text{则检验的拒绝域为}(\\ \\ )\\ (\\text{显著性水平为}a)\\end{aligned}</div>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/probability/ch131/q0010_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\{\\chi^{2}&gt;\\chi_{a}^{2}(r-1)\\}\">\\{\\chi^{2}&gt;\\chi_{a}^{2}(r-1)\\}</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/probability/ch131/q0010_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\{\\chi^{2} &gt; \\chi_{a}^{2} (r) \\}\">\\{\\chi^{2} &gt; \\chi_{a}^{2} (r) \\}</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/probability/ch131/q0010_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\{\\chi^{2}{&lt;}\\chi^{2}_{1-a/2}(r){\\text{或}}\\chi^{2}{&gt;}\\chi^{2}_{a/2}(r)\\}\">\\{\\chi^{2}{&lt;}\\chi^{2}_{1-a/2}(r){\\text{或}}\\chi^{2}{&gt;}\\chi^{2}_{a/2}(r)\\}</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/probability/ch131/q0010_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\{\\chi^2&lt;\\chi^2_{1-\\alpha/2}(r-1) \\text{或} \\chi^2&gt;\\chi^2_{\\alpha/2}(r-1)\\}\">\\{\\chi^2&lt;\\chi^2_{1-\\alpha/2}(r-1) \\text{或} \\chi^2&gt;\\chi^2_{\\alpha/2}(r-1)\\}</span>"
         }
       ],
       "answer": "A",
       "answer_index": 0,
-      "analysis_html": "<img src=\"/static/generated/assets/probability/ch131/q0010_analysis.png\"/>"
+      "analysis_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{aligned}\\text{总体分布函数的拟合优度检验统计量为}\\quad&amp;\\chi^2=\\sum_{i=1}^k\\frac{(f_i-np_i)^2}{np_i}\\,,\\\\ \\text{拒绝域为}\\quad&amp;\\chi^2&gt;\\chi_a^2(k-1).\\end{aligned}\">\\begin{aligned}\\text{总体分布函数的拟合优度检验统计量为}\\quad&amp;\\chi^2=\\sum_{i=1}^k\\frac{(f_i-np_i)^2}{np_i}\\,,\\\\ \\text{拒绝域为}\\quad&amp;\\chi^2&gt;\\chi_a^2(k-1).\\end{aligned}</div>"
     },
     {
       "id": "q0011",
       "number": 11,
       "header": "#11-Averge",
       "difficulty": "Averge",
-      "prompt_html": "<img src=\"/static/generated/assets/probability/ch131/q0011_prompt.png\"/>",
+      "prompt_html": "<span class=\"latex-text\">\\begin{array}{l}\n\\begin{array}{|c|c|c|c|c|c|c|} \\hline \\text{次品数} x_{i} &amp; 0 &amp; 1 &amp; 2 &amp; 3 &amp; 4 &amp; 5 &amp; \\geq 6 \\\\ \\hline \\text{频数} f_{i} &amp; 32 &amp; 45 &amp; 17 &amp; 4 &amp; 1 &amp; 1 &amp; 0 \\\\ \\hline \\end{array}</span>\n<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{试问} x_{i} \\text{拟合优度检验法检验次品数总体是否服从二项分布} (\\alpha=0.05)。\">\\text{试问} x_{i} \\text{拟合优度检验法检验次品数总体是否服从二项分布} (\\alpha=0.05)。</span>\n<span class=\"latex-text\">\\end{array}</span>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/probability/ch131/q0011_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{服从}\">\\text{服从}</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/probability/ch131/q0011_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{不服从}\">\\text{不服从}</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/probability/ch131/q0011_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{无法判断}\\quad\">\\text{无法判断}\\quad</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/probability/ch131/q0011_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{其它结论均不正确}\">\\text{其它结论均不正确}</span>"
         }
       ],
       "answer": "A",
       "answer_index": 0,
-      "analysis_html": "<img src=\"/static/generated/assets/probability/ch131/q0011_analysis.png\"/>"
+      "analysis_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{aligned}&amp;\\text{检验假设次品数总体}X\\sim B(n,p),\\text{由极大似然估计法得,}\\hat{p}=\\overline{x}/n.\\\\&amp;\\text{经计算}\\quad\\hat{p}=\\frac{1}{100\\times 10}(45+2\\times 17+3\\times 4+4\\times 1+5\\times 1)=1/10,\\\\&amp;\\text{故检验假设为}\\quad H_{0}:X\\sim B(10,1/10),\\\\&amp;\\text{即}\\quad \\widehat{p}_{i}=P\\{X=i\\}=C_{10}(1/10)^{(9/10)^{10}-i},i=0,1,2,\\cdots,10.\\\\&amp;\\text{为了使}np_{i}\\geq 5,\\text{将}x_{i}\\geq 3\\text{合并，于是}k=4,r=1.\\end{aligned}\">\\begin{aligned}&amp;\\text{检验假设次品数总体}X\\sim B(n,p),\\text{由极大似然估计法得,}\\hat{p}=\\overline{x}/n.\\\\&amp;\\text{经计算}\\quad\\hat{p}=\\frac{1}{100\\times 10}(45+2\\times 17+3\\times 4+4\\times 1+5\\times 1)=1/10,\\\\&amp;\\text{故检验假设为}\\quad H_{0}:X\\sim B(10,1/10),\\\\&amp;\\text{即}\\quad \\widehat{p}_{i}=P\\{X=i\\}=C_{10}(1/10)^{(9/10)^{10}-i},i=0,1,2,\\cdots,10.\\\\&amp;\\text{为了使}np_{i}\\geq 5,\\text{将}x_{i}\\geq 3\\text{合并，于是}k=4,r=1.\\end{aligned}</div>\n<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{array}{l}\n\\begin{array}{|c|c|c|c|c|} \\hline \\text{次品数} &amp; \\text{频数}f_{i} &amp; \\hat{P}_{i} &amp; \\hat{np}_{i} &amp; (f_{i}-np_{i})^{2}/np_{i} \\\\ \\hline 0 &amp; 32 &amp; 0.3487 &amp; 34.87 &amp; 0.2362 \\\\ 1 &amp; 45 &amp; 0.3847 &amp; 38.74 &amp; 1.0116 \\\\ 2 &amp; 17 &amp; 0.1937 &amp; 19.37 &amp; 0.2900 \\\\ 3 &amp; 4 &amp; 0.0574 &amp; 5.74 &amp; \\underline{7.02} \\\\ 4 &amp; 1 &amp; 0.0112 &amp; 1.12 &amp; \\\\ 5 &amp; 1 &amp; 0.0015 &amp; 0.15 &amp; \\\\ 5 &amp; 0 &amp; 0.0001 &amp; 0.01 &amp; \\\\ \\hline \\sum &amp; 100 &amp; &amp; &amp; 0.686 \\\\ \\end{array}\n\\end{array}\">\\begin{array}{l}\n\\begin{array}{|c|c|c|c|c|} \\hline \\text{次品数} &amp; \\text{频数}f_{i} &amp; \\hat{P}_{i} &amp; \\hat{np}_{i} &amp; (f_{i}-np_{i})^{2}/np_{i} \\\\ \\hline 0 &amp; 32 &amp; 0.3487 &amp; 34.87 &amp; 0.2362 \\\\ 1 &amp; 45 &amp; 0.3847 &amp; 38.74 &amp; 1.0116 \\\\ 2 &amp; 17 &amp; 0.1937 &amp; 19.37 &amp; 0.2900 \\\\ 3 &amp; 4 &amp; 0.0574 &amp; 5.74 &amp; \\underline{7.02} \\\\ 4 &amp; 1 &amp; 0.0112 &amp; 1.12 &amp; \\\\ 5 &amp; 1 &amp; 0.0015 &amp; 0.15 &amp; \\\\ 5 &amp; 0 &amp; 0.0001 &amp; 0.01 &amp; \\\\ \\hline \\sum &amp; 100 &amp; &amp; &amp; 0.686 \\\\ \\end{array}\n\\end{array}</div>\n<span class=\"latex-text\">故</span>\n<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\hat{\\chi}^{2}=\\sum_{i=0}^{3}\\frac{(f_{i}-np_{i})^{2}}{\\widehat{np_{i}}}=1.69.\">\\hat{\\chi}^{2}=\\sum_{i=0}^{3}\\frac{(f_{i}-np_{i})^{2}}{\\widehat{np_{i}}}=1.69.</span>\n<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{查表得}\\hat{\\chi}_{0.05}^{2}(4-1-1)=5.99, \\text{经比较知}\">\\text{查表得}\\hat{\\chi}_{0.05}^{2}(4-1-1)=5.99, \\text{经比较知}</span>\n<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\hat{\\chi}^{2}=1.69&lt;\\hat{\\chi}_{0.05}^{2}(2)=5.99,\">\\hat{\\chi}^{2}=1.69&lt;\\hat{\\chi}_{0.05}^{2}(2)=5.99,</span>\n<span class=\"latex-text\">故接受H_{0}, 即认为产品的次数服从二项分布B(10,1/10)。</span>"
     },
     {
       "id": "q0012",
       "number": 12,
       "header": "#12-Averge",
       "difficulty": "Averge",
-      "prompt_html": "<img src=\"/static/generated/assets/probability/ch131/q0012_prompt.png\"/>",
+      "prompt_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{aligned} \\text{某车床生产滚珠，随机抽取了50个产品，测得它们的直径为(单位：mm):} \\\\\\begin{array}{cccccccccccc} 15.0 &amp; 15.8 &amp; 15.2 &amp; 15.1 &amp; 15.9 &amp; 14.7 &amp; 14.8 &amp; 15.5 \\\\ 15.6 &amp; 15.3 &amp; 15.1 &amp; 15.3 &amp; 15.0 &amp; 15.6 &amp; 15.7 &amp; 14.8 \\\\ 14.5 &amp; 14.2 &amp; 14.9 &amp; 14.9 &amp; 15.2 &amp; 15.0 &amp; 15.3 &amp; 15.6 \\\\ 15.1 &amp; 14.9 &amp; 14.2 &amp; 14.6 &amp; 15.8 &amp; 15.2 &amp; 15.9 &amp; 15.2 \\\\ 15.0 &amp; 14.9 &amp; 14.8 &amp; 14.5 &amp; 15.1 &amp; 15.5 &amp; 15.5 &amp; 15.1 \\\\ 15.1 &amp; 15.0 &amp; 15.3 &amp; 14.7 &amp; 14.5 &amp; 15.5 &amp; 15.0 &amp; 14.7 \\\\ 14.6 &amp; 14.2 \\end{array} \\end{aligned} \\text{经过计算知道}，\\text{样本均值} \\bar{x}=15.1，\\text{样本方差} s^2=(0.4325)^2，\\text{问滚珠直径是否服从正态分布} N(15.1,0.4325^2)?\">\\begin{aligned} \\text{某车床生产滚珠，随机抽取了50个产品，测得它们的直径为(单位：mm):} \\\\\\begin{array}{cccccccccccc} 15.0 &amp; 15.8 &amp; 15.2 &amp; 15.1 &amp; 15.9 &amp; 14.7 &amp; 14.8 &amp; 15.5 \\\\ 15.6 &amp; 15.3 &amp; 15.1 &amp; 15.3 &amp; 15.0 &amp; 15.6 &amp; 15.7 &amp; 14.8 \\\\ 14.5 &amp; 14.2 &amp; 14.9 &amp; 14.9 &amp; 15.2 &amp; 15.0 &amp; 15.3 &amp; 15.6 \\\\ 15.1 &amp; 14.9 &amp; 14.2 &amp; 14.6 &amp; 15.8 &amp; 15.2 &amp; 15.9 &amp; 15.2 \\\\ 15.0 &amp; 14.9 &amp; 14.8 &amp; 14.5 &amp; 15.1 &amp; 15.5 &amp; 15.5 &amp; 15.1 \\\\ 15.1 &amp; 15.0 &amp; 15.3 &amp; 14.7 &amp; 14.5 &amp; 15.5 &amp; 15.0 &amp; 14.7 \\\\ 14.6 &amp; 14.2 \\end{array} \\end{aligned} \\text{经过计算知道}，\\text{样本均值} \\bar{x}=15.1，\\text{样本方差} s^2=(0.4325)^2，\\text{问滚珠直径是否服从正态分布} N(15.1,0.4325^2)?</div>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/probability/ch131/q0012_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{服从}\">\\text{服从}</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/probability/ch131/q0012_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{不服从}\">\\text{不服从}</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/probability/ch131/q0012_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{无法判断}\\quad\">\\text{无法判断}\\quad</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/probability/ch131/q0012_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{其它结论均不正确}\">\\text{其它结论均不正确}</span>"
         }
       ],
       "answer": "A",
       "answer_index": 0,
-      "analysis_html": "<img src=\"/static/generated/assets/probability/ch131/q0012_analysis.png\"/>"
+      "analysis_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{aligned}&amp;\\text{用}\\lambda\\text{表示滚珠直径。待检验的假设为}\\\\&amp;H_{0}:X\\sim N(15.1,0.4325^{2}).\\\\&amp;\\text{对数据进行分组，分成7组，在数轴上选取6个分点：}\\\\&amp;14.3,14.6,14.9,15.2,15.5,15.8\\\\&amp;\\text{将数轴分成7个区间}\\\\&amp;(-\\infty,14.3],[14.3,14.6],\\cdots,(15.8,+\\infty).\\\\&amp;\\text{设各组的端点分别为}(a_{i-1},a_{i}],i=1,2,\\cdots,7,\\text{则}\\\\&amp;\\widehat{p_{i}}=F(a_{i})-F(a_{i-1})=\\int_{a_{i-1}}^{a_{i}}\\frac{1}{\\sqrt{2\\pi}\\times 0.4325}e^{-\\frac{(x-15.1)^{2}}{2\\times(0.4325)^{2}}}dx,\\ i=1,2,\\cdots,7\\\\&amp;\\text{当}H_{0}\\text{成立时，列表如下}\\\\&amp;\\begin{array}{|c|c|c|c|c|c|c|c|}i&amp;1&amp;2&amp;3&amp;4&amp;5&amp;6&amp;7\\\\ \\hline p_{i}&amp;0.032&amp;0.092&amp;0.198&amp;0.270&amp;0.231&amp;0.125&amp;0.053\\\\ np_{i}&amp;1.6&amp;4.6&amp;9.9&amp;13.5&amp;11.55&amp;6.25&amp;2.65\\\\ f_{i}&amp;3&amp;5&amp;10&amp;16&amp;8&amp;6&amp;2\\\\ (f_{i}-np_{i})^{2}&amp;1.96&amp;0.16&amp;0.01&amp;6.25&amp;12.6075&amp;0.625&amp;0.4225\\\\ \\frac{(f_{i}-np_{i})^{2}}{np_{i}}&amp;1.225&amp;0.0348&amp;0.001&amp;0.403&amp;1.0911&amp;0.01&amp;0.1594\\end{array}\\\\&amp;\\text{所以}\\\\&amp;\\chi^{2}=\\sum_{i=1}^{7}\\frac{(f_{i}-np_{i})^{2}}{np_{i}}=2.9843.\\\\&amp;\\text{由于总体分布函数中含有未知参数，因此应查自由度为4的}\\chi^{2}\\text{分布表，当}\\alpha=0.05\\text{时，临界值}\\\\&amp;\\quad \\end{aligned}\">\\begin{aligned}&amp;\\text{用}\\lambda\\text{表示滚珠直径。待检验的假设为}\\\\&amp;H_{0}:X\\sim N(15.1,0.4325^{2}).\\\\&amp;\\text{对数据进行分组，分成7组，在数轴上选取6个分点：}\\\\&amp;14.3,14.6,14.9,15.2,15.5,15.8\\\\&amp;\\text{将数轴分成7个区间}\\\\&amp;(-\\infty,14.3],[14.3,14.6],\\cdots,(15.8,+\\infty).\\\\&amp;\\text{设各组的端点分别为}(a_{i-1},a_{i}],i=1,2,\\cdots,7,\\text{则}\\\\&amp;\\widehat{p_{i}}=F(a_{i})-F(a_{i-1})=\\int_{a_{i-1}}^{a_{i}}\\frac{1}{\\sqrt{2\\pi}\\times 0.4325}e^{-\\frac{(x-15.1)^{2}}{2\\times(0.4325)^{2}}}dx,\\ i=1,2,\\cdots,7\\\\&amp;\\text{当}H_{0}\\text{成立时，列表如下}\\\\&amp;\\begin{array}{|c|c|c|c|c|c|c|c|}i&amp;1&amp;2&amp;3&amp;4&amp;5&amp;6&amp;7\\\\ \\hline p_{i}&amp;0.032&amp;0.092&amp;0.198&amp;0.270&amp;0.231&amp;0.125&amp;0.053\\\\ np_{i}&amp;1.6&amp;4.6&amp;9.9&amp;13.5&amp;11.55&amp;6.25&amp;2.65\\\\ f_{i}&amp;3&amp;5&amp;10&amp;16&amp;8&amp;6&amp;2\\\\ (f_{i}-np_{i})^{2}&amp;1.96&amp;0.16&amp;0.01&amp;6.25&amp;12.6075&amp;0.625&amp;0.4225\\\\ \\frac{(f_{i}-np_{i})^{2}}{np_{i}}&amp;1.225&amp;0.0348&amp;0.001&amp;0.403&amp;1.0911&amp;0.01&amp;0.1594\\end{array}\\\\&amp;\\text{所以}\\\\&amp;\\chi^{2}=\\sum_{i=1}^{7}\\frac{(f_{i}-np_{i})^{2}}{np_{i}}=2.9843.\\\\&amp;\\text{由于总体分布函数中含有未知参数，因此应查自由度为4的}\\chi^{2}\\text{分布表，当}\\alpha=0.05\\text{时，临界值}\\\\&amp;\\quad \\end{aligned}</div>"
     }
-  ]
+  ],
+  "format": "latex",
+  "source_md": "gl/8.4_总体分布的假设检验(12题)/8.4_总体分布的假设检验(12题).md"
 }

@@ -13,168 +13,170 @@
       "number": 1,
       "header": "#1-Averge",
       "difficulty": "Averge",
-      "prompt_html": "<img src=\"/static/generated/assets/advanced-math/ch117/q0001_prompt.png\"/>",
+      "prompt_html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{设} \\, z = f ( x , x ^ { 2 } y , 3 x - e ^ { y } ) \\, , \\, \\, \\text{其中} \\, f \\, \\text{有连续偏导数，求} \\, \\frac { \\partial z } { \\partial x } \\, , \\, \\, \\frac { \\partial z } { \\partial y } = ( ) \\, 。\">\\text{设} \\, z = f ( x , x ^ { 2 } y , 3 x - e ^ { y } ) \\, , \\, \\, \\text{其中} \\, f \\, \\text{有连续偏导数，求} \\, \\frac { \\partial z } { \\partial x } \\, , \\, \\, \\frac { \\partial z } { \\partial y } = ( ) \\, 。</span>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch117/q0001_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\begin{aligned}f^{\\prime }+2xyf^{\\prime }_{2}+3f^{\\prime }_{3}\\;,\\;\\;\\;x^{2}f^{\\prime }_{2}-e^{y}f^{\\prime }_{3}\\end{aligned}\">\\begin{aligned}f^{\\prime }+2xyf^{\\prime }_{2}+3f^{\\prime }_{3}\\;,\\;\\;\\;x^{2}f^{\\prime }_{2}-e^{y}f^{\\prime }_{3}\\end{aligned}</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch117/q0001_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\begin{array}{ll}f^{\\prime}+xyf_{2}^{\\prime}+3f_{3}^{\\prime}\\,,&amp;x^{2}f_{2}^{\\prime}-e^{y}f_{3}^{\\prime}\\end{array}\">\\begin{array}{ll}f^{\\prime}+xyf_{2}^{\\prime}+3f_{3}^{\\prime}\\,,&amp;x^{2}f_{2}^{\\prime}-e^{y}f_{3}^{\\prime}\\end{array}</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch117/q0001_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\begin{aligned}f^{\\prime }+2xyf_{2}^{\\prime }+3f_{3}^{\\prime }\\;,\\;\\;\\;x^{2}f_{2}^{\\prime }+e^{y}f_{3}^{\\prime }\\end{aligned}\">\\begin{aligned}f^{\\prime }+2xyf_{2}^{\\prime }+3f_{3}^{\\prime }\\;,\\;\\;\\;x^{2}f_{2}^{\\prime }+e^{y}f_{3}^{\\prime }\\end{aligned}</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch117/q0001_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\begin{aligned}f&#x27;+2xyf_2&#x27;+3f_3&#x27;\\;,\\;\\;\\;xyf_2&#x27;-e^y f_3&#x27;\\;,\\end{aligned}\">\\begin{aligned}f&#x27;+2xyf_2&#x27;+3f_3&#x27;\\;,\\;\\;\\;xyf_2&#x27;-e^y f_3&#x27;\\;,\\end{aligned}</span>"
         }
       ],
       "answer": "A",
       "answer_index": 0,
-      "analysis_html": "<img src=\"/static/generated/assets/advanced-math/ch117/q0001_analysis.png\"/>"
+      "analysis_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{aligned}&amp; \\text{设}u=x^2y,v=3x-e^y,\\ \\text{则} \\\\&amp; \\frac{\\partial z}{\\partial x}=\\frac{\\partial f}{\\partial x}+\\frac{\\partial f}{\\partial u}\\frac{\\partial u}{\\partial x}+\\frac{\\partial f}{\\partial v}\\frac{\\partial v}{\\partial x}=\\frac{\\partial f}{\\partial x}+\\frac{\\partial f}{\\partial u}\\cdot 2xy+\\frac{\\partial f}{\\partial v}\\cdot 3=f&#x27;+2xyf_2&#x27;+3f_3&#x27;,\\\\&amp; \\frac{\\partial z}{\\partial y}=\\frac{\\partial f}{\\partial y}\\cdot 0+\\frac{\\partial f}{\\partial u}\\frac{\\partial u}{\\partial y}+\\frac{\\partial f}{\\partial v}\\frac{\\partial v}{\\partial y}=\\frac{\\partial f}{\\partial u}\\cdot x^2-\\frac{\\partial f}{\\partial v}\\cdot e^y=x^2f_2&#x27;-e^yf_3&#x27;.\\end{aligned}\">\\begin{aligned}&amp; \\text{设}u=x^2y,v=3x-e^y,\\ \\text{则} \\\\&amp; \\frac{\\partial z}{\\partial x}=\\frac{\\partial f}{\\partial x}+\\frac{\\partial f}{\\partial u}\\frac{\\partial u}{\\partial x}+\\frac{\\partial f}{\\partial v}\\frac{\\partial v}{\\partial x}=\\frac{\\partial f}{\\partial x}+\\frac{\\partial f}{\\partial u}\\cdot 2xy+\\frac{\\partial f}{\\partial v}\\cdot 3=f&#x27;+2xyf_2&#x27;+3f_3&#x27;,\\\\&amp; \\frac{\\partial z}{\\partial y}=\\frac{\\partial f}{\\partial y}\\cdot 0+\\frac{\\partial f}{\\partial u}\\frac{\\partial u}{\\partial y}+\\frac{\\partial f}{\\partial v}\\frac{\\partial v}{\\partial y}=\\frac{\\partial f}{\\partial u}\\cdot x^2-\\frac{\\partial f}{\\partial v}\\cdot e^y=x^2f_2&#x27;-e^yf_3&#x27;.\\end{aligned}</div>"
     },
     {
       "id": "q0002",
       "number": 2,
       "header": "#2-Averge",
       "difficulty": "Averge",
-      "prompt_html": "<img src=\"/static/generated/assets/advanced-math/ch117/q0002_prompt.png\"/>",
+      "prompt_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{array}{l}. \\text {设}z=f(2x-y)+g(x,xy), \\text {其中函数}f(t)\\text {二阶可导},g(u,v)\\text {具有连续的二阶偏导数,则}\\frac{\\partial^{2}z}{\\partial x\\partial y} \\\\ \\text {等于( )。} \\end{array}\">\\begin{array}{l}. \\text {设}z=f(2x-y)+g(x,xy), \\text {其中函数}f(t)\\text {二阶可导},g(u,v)\\text {具有连续的二阶偏导数,则}\\frac{\\partial^{2}z}{\\partial x\\partial y} \\\\ \\text {等于( )。} \\end{array}</div>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch117/q0002_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"- 2 f ^ { \\prime \\prime } + g _ { 21 } ^ { \\prime \\prime } + g _ { 2 } ^ { \\prime } + x y g _ { 22 } ^ { \\prime \\prime }\">- 2 f ^ { \\prime \\prime } + g _ { 21 } ^ { \\prime \\prime } + g _ { 2 } ^ { \\prime } + x y g _ { 22 } ^ { \\prime \\prime }</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch117/q0002_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"-2f^{\\prime \\prime}+g_{21}^{\\prime \\prime}+g_{2}^{\\prime}+yg_{22}^{\\prime \\prime}\">-2f^{\\prime \\prime}+g_{21}^{\\prime \\prime}+g_{2}^{\\prime}+yg_{22}^{\\prime \\prime}</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch117/q0002_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"-2f^{\\prime \\prime}+xg_{21}^{\\prime}+g_{2}^{\\prime}+xyg_{22}^{\\prime},\">-2f^{\\prime \\prime}+xg_{21}^{\\prime}+g_{2}^{\\prime}+xyg_{22}^{\\prime},</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch117/q0002_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"- 2 f ^ { \\prime \\prime } + x g _ { 21 } ^ { \\prime \\prime } + g _ { 2 } ^ { \\prime } + y g _ { 22 } ^ { \\prime \\prime }\">- 2 f ^ { \\prime \\prime } + x g _ { 21 } ^ { \\prime \\prime } + g _ { 2 } ^ { \\prime } + y g _ { 22 } ^ { \\prime \\prime }</span>"
         }
       ],
       "answer": "C",
       "answer_index": 2,
-      "analysis_html": "<img src=\"/static/generated/assets/advanced-math/ch117/q0002_analysis.png\"/>"
+      "analysis_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{aligned} &amp; \\text{由于混合偏导数在连续条件下与求导次序无关，可以先求} \\frac{\\partial z}{\\partial x},  \\text{也可以先求} \\frac{\\partial}{\\partial y}.  \\\\ &amp; \\text{方法一：先求} \\frac{\\partial z}{\\partial x},  \\text{由复合函数求导法，} \\\\ &amp; \\quad\\frac{\\partial z}{\\partial x}=f&#x27;\\frac{\\partial}{\\partial x}(2x-y)+g&#x27;\\frac{\\partial}{\\partial x}(x)+g&#x27;_2(xy)=2f&#x27;+g&#x27;+yg&#x27;_1, \\\\ &amp; \\text{再对y求偏导，得} \\\\ &amp; \\quad\\frac{\\partial^2z}{\\partial x\\partial y}=\\frac{\\partial}{\\partial y}(2f&#x27;+g&#x27;+yg&#x27;_1)=2f&#x27;\\frac{\\partial}{\\partial y}(2x-y) \\\\ &amp; \\quad\\quad+\\left[g&#x27;&#x27;_1\\frac{\\partial}{\\partial y}(x)+g&#x27;&#x27;_2\\frac{\\partial}{\\partial y}(xy)\\right]+\\left[g&#x27;_2+yg&#x27;&#x27;_1\\frac{\\partial}{\\partial y}(x)+yg&#x27;&#x27;_2\\frac{\\partial}{\\partial y}(xy)\\right]\\\\ &amp; \\quad=-2f&#x27;+g&#x27;&#x27;_{11}\\cdot0+xg&#x27;&#x27;_{12}+g&#x27;_2+yg&#x27;&#x27;_{21}-0+xyg&#x27;&#x27;_{22}, \\text{因此选B} \\\\ &amp; \\text{方法二：先求} \\frac{\\partial}{\\partial y}, \\frac{\\partial}{\\partial x}=f&#x27;\\frac{\\partial}{\\partial y}(2x-y)+g&#x27;\\frac{\\partial}{\\partial y}(x)+g&#x27;_2(xy)=-f&#x27;+xg&#x27;_2,  \\\\ &amp; \\text{再对x求偏导数，得}\\frac{\\partial^2z}{\\partial x\\partial y}=\\frac{\\partial}{\\partial y}\\frac{\\partial z}{\\partial x}=\\frac{\\partial}{\\partial x}(-f&#x27;+xg&#x27;) \\\\ &amp; \\quad=-f&#x27;\\frac{\\partial}{\\partial x}(2x-y)+g&#x27;+xg&#x27;_1\\frac{\\partial}{\\partial x}(x)+xg&#x27;_2\\frac{\\partial}{\\partial x}(xy) \\\\ &amp; \\quad=-2f&#x27;+g&#x27;_2+xg&#x27;&#x27;_{21}+xyg&#x27;&#x27;_{22}, \\end{aligned}\">\\begin{aligned} &amp; \\text{由于混合偏导数在连续条件下与求导次序无关，可以先求} \\frac{\\partial z}{\\partial x},  \\text{也可以先求} \\frac{\\partial}{\\partial y}.  \\\\ &amp; \\text{方法一：先求} \\frac{\\partial z}{\\partial x},  \\text{由复合函数求导法，} \\\\ &amp; \\quad\\frac{\\partial z}{\\partial x}=f&#x27;\\frac{\\partial}{\\partial x}(2x-y)+g&#x27;\\frac{\\partial}{\\partial x}(x)+g&#x27;_2(xy)=2f&#x27;+g&#x27;+yg&#x27;_1, \\\\ &amp; \\text{再对y求偏导，得} \\\\ &amp; \\quad\\frac{\\partial^2z}{\\partial x\\partial y}=\\frac{\\partial}{\\partial y}(2f&#x27;+g&#x27;+yg&#x27;_1)=2f&#x27;\\frac{\\partial}{\\partial y}(2x-y) \\\\ &amp; \\quad\\quad+\\left[g&#x27;&#x27;_1\\frac{\\partial}{\\partial y}(x)+g&#x27;&#x27;_2\\frac{\\partial}{\\partial y}(xy)\\right]+\\left[g&#x27;_2+yg&#x27;&#x27;_1\\frac{\\partial}{\\partial y}(x)+yg&#x27;&#x27;_2\\frac{\\partial}{\\partial y}(xy)\\right]\\\\ &amp; \\quad=-2f&#x27;+g&#x27;&#x27;_{11}\\cdot0+xg&#x27;&#x27;_{12}+g&#x27;_2+yg&#x27;&#x27;_{21}-0+xyg&#x27;&#x27;_{22}, \\text{因此选B} \\\\ &amp; \\text{方法二：先求} \\frac{\\partial}{\\partial y}, \\frac{\\partial}{\\partial x}=f&#x27;\\frac{\\partial}{\\partial y}(2x-y)+g&#x27;\\frac{\\partial}{\\partial y}(x)+g&#x27;_2(xy)=-f&#x27;+xg&#x27;_2,  \\\\ &amp; \\text{再对x求偏导数，得}\\frac{\\partial^2z}{\\partial x\\partial y}=\\frac{\\partial}{\\partial y}\\frac{\\partial z}{\\partial x}=\\frac{\\partial}{\\partial x}(-f&#x27;+xg&#x27;) \\\\ &amp; \\quad=-f&#x27;\\frac{\\partial}{\\partial x}(2x-y)+g&#x27;+xg&#x27;_1\\frac{\\partial}{\\partial x}(x)+xg&#x27;_2\\frac{\\partial}{\\partial x}(xy) \\\\ &amp; \\quad=-2f&#x27;+g&#x27;_2+xg&#x27;&#x27;_{21}+xyg&#x27;&#x27;_{22}, \\end{aligned}</div>"
     },
     {
       "id": "q0003",
       "number": 3,
       "header": "#3-Averge",
       "difficulty": "Averge",
-      "prompt_html": "<img src=\"/static/generated/assets/advanced-math/ch117/q0003_prompt.png\"/>",
+      "prompt_html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{.设}z=xf(2x,y^{2}/x),\\ f\\text{具有连续的二阶偏导数，求}\\frac{\\partial^{2}z}{\\partial x\\partial y}=(\\ \\ ).\">\\text{.设}z=xf(2x,y^{2}/x),\\ f\\text{具有连续的二阶偏导数，求}\\frac{\\partial^{2}z}{\\partial x\\partial y}=(\\ \\ ).</span>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch117/q0003_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\displaystyle 2y \\frac{\\partial^{2} f}{\\partial u \\partial v} - \\frac{2y^{3}}{x^{2}} \\frac{\\partial^{2} f}{\\partial v^{2}}\">\\displaystyle 2y \\frac{\\partial^{2} f}{\\partial u \\partial v} - \\frac{2y^{3}}{x^{2}} \\frac{\\partial^{2} f}{\\partial v^{2}}</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch117/q0003_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\scriptstyle 4 y { \\frac { \\partial ^ { 2 } f } { \\partial u \\partial v } } - { \\frac { 2 y ^ { 3 } } { x ^ { 2 } } } { \\frac { \\partial ^ { 2 } f } { \\partial v ^ { 2 } } } \\scriptscriptstyle ,\">\\scriptstyle 4 y { \\frac { \\partial ^ { 2 } f } { \\partial u \\partial v } } - { \\frac { 2 y ^ { 3 } } { x ^ { 2 } } } { \\frac { \\partial ^ { 2 } f } { \\partial v ^ { 2 } } } \\scriptscriptstyle ,</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch117/q0003_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\displaystyle 4y \\frac{\\partial^{2} f}{\\partial u \\partial v} - \\frac{2x^{3}}{y^{2}} \\frac{\\partial^{2} f}{\\partial v^{2}}\">\\displaystyle 4y \\frac{\\partial^{2} f}{\\partial u \\partial v} - \\frac{2x^{3}}{y^{2}} \\frac{\\partial^{2} f}{\\partial v^{2}}</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch117/q0003_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\begin{aligned}2y \\frac{\\partial^2 f}{\\partial u \\partial v} - \\frac{2x^3}{y^2} \\frac{\\partial^2 f}{\\partial v^2} \\, ,\\end{aligned}\">\\begin{aligned}2y \\frac{\\partial^2 f}{\\partial u \\partial v} - \\frac{2x^3}{y^2} \\frac{\\partial^2 f}{\\partial v^2} \\, ,\\end{aligned}</span>"
         }
       ],
       "answer": "B",
       "answer_index": 1,
-      "analysis_html": "<img src=\"/static/generated/assets/advanced-math/ch117/q0003_analysis.png\"/>"
+      "analysis_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{aligned} &amp; \\text{令} u=2x, v=y^2/x,\\;\\; \\text{则} \\; z=xf(u,v)\\; .\\\\ &amp; \\frac{\\partial z}{\\partial y}=x(\\frac{\\partial f}{\\partial u}\\frac{\\partial u}{\\partial y}+\\frac{\\partial f}{\\partial v}\\frac{\\partial v}{\\partial y})=x(\\frac{\\partial f}{\\partial u}\\cdot 0+\\frac{\\partial f}{\\partial v}\\cdot \\frac{2y}{x})=2y\\frac{\\partial f}{\\partial v}\\; .\\\\ &amp; \\frac{\\partial^2 z}{\\partial x\\partial y}=2y\\left[\\frac{\\partial}{\\partial x}\\left(\\frac{\\partial f}{\\partial v}\\right)\\right]=2y(\\frac{\\partial^2 f}{\\partial u\\partial v}\\frac{\\partial u}{\\partial x}+\\frac{\\partial^2 f}{\\partial v^2}\\frac{\\partial v}{\\partial x})\\; .\\\\ &amp; \\qquad=2y\\left[\\frac{\\partial^2 y}{\\partial u\\partial v}\\cdot 2+\\frac{\\partial^2 f}{\\partial v^2}\\cdot\\left(-\\frac{y^2}{x^2}\\right)\\right]=4y\\frac{\\partial^2 f}{\\partial u\\partial v}-\\frac{2y^3}{x^2}\\frac{\\partial^2 f}{\\partial v^2}\\;\\; . \\end{aligned}\">\\begin{aligned} &amp; \\text{令} u=2x, v=y^2/x,\\;\\; \\text{则} \\; z=xf(u,v)\\; .\\\\ &amp; \\frac{\\partial z}{\\partial y}=x(\\frac{\\partial f}{\\partial u}\\frac{\\partial u}{\\partial y}+\\frac{\\partial f}{\\partial v}\\frac{\\partial v}{\\partial y})=x(\\frac{\\partial f}{\\partial u}\\cdot 0+\\frac{\\partial f}{\\partial v}\\cdot \\frac{2y}{x})=2y\\frac{\\partial f}{\\partial v}\\; .\\\\ &amp; \\frac{\\partial^2 z}{\\partial x\\partial y}=2y\\left[\\frac{\\partial}{\\partial x}\\left(\\frac{\\partial f}{\\partial v}\\right)\\right]=2y(\\frac{\\partial^2 f}{\\partial u\\partial v}\\frac{\\partial u}{\\partial x}+\\frac{\\partial^2 f}{\\partial v^2}\\frac{\\partial v}{\\partial x})\\; .\\\\ &amp; \\qquad=2y\\left[\\frac{\\partial^2 y}{\\partial u\\partial v}\\cdot 2+\\frac{\\partial^2 f}{\\partial v^2}\\cdot\\left(-\\frac{y^2}{x^2}\\right)\\right]=4y\\frac{\\partial^2 f}{\\partial u\\partial v}-\\frac{2y^3}{x^2}\\frac{\\partial^2 f}{\\partial v^2}\\;\\; . \\end{aligned}</div>"
     },
     {
       "id": "q0004",
       "number": 4,
       "header": "#4-Averge",
       "difficulty": "Averge",
-      "prompt_html": "<img src=\"/static/generated/assets/advanced-math/ch117/q0004_prompt.png\"/>",
+      "prompt_html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\ u = f ( x , x y ) \\text {具有二阶偏导数，求} \\frac { \\partial ^ { 2 } u } { \\partial x \\partial y } = ( ) \\text {。}\">\\ u = f ( x , x y ) \\text {具有二阶偏导数，求} \\frac { \\partial ^ { 2 } u } { \\partial x \\partial y } = ( ) \\text {。}</span>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch117/q0004_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\begin{array}{l} {c} y f _ { 12 } ^ { \\prime \\prime } + f _ { 2 } ^ { \\prime } + x y f _ { 22 } ^ { \\prime \\prime } \\end{array}\">\\begin{array}{l} {c} y f _ { 12 } ^ { \\prime \\prime } + f _ { 2 } ^ { \\prime } + x y f _ { 22 } ^ { \\prime \\prime } \\end{array}</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch117/q0004_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"xf_{12}^{\\prime \\prime}+f_{2}^{\\prime}+xyf_{22}^{\\prime \\prime}\">xf_{12}^{\\prime \\prime}+f_{2}^{\\prime}+xyf_{22}^{\\prime \\prime}</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch117/q0004_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"xyf_{12}^{\\prime \\prime}+f_{2}^{\\prime}+xf_{22}^{\\prime \\prime}\">xyf_{12}^{\\prime \\prime}+f_{2}^{\\prime}+xf_{22}^{\\prime \\prime}</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch117/q0004_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"xf_{12}^{\\prime\\prime}+xyf_{22}^{\\prime\\prime}\\leftarrow\">xf_{12}^{\\prime\\prime}+xyf_{22}^{\\prime\\prime}\\leftarrow</span>"
         }
       ],
       "answer": "B",
       "answer_index": 1,
-      "analysis_html": "<img src=\"/static/generated/assets/advanced-math/ch117/q0004_analysis.png\"/>"
+      "analysis_html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\frac{\\partial u}{\\partial x}=f_{1}^{\\prime}+yf_{2}^{\\prime}\\,,\\;\\;\\frac{\\partial^{2}u}{\\partial x\\partial y}=xf_{12}^{\\prime\\prime}+f_{2}^{\\prime}+xyf_{22}^{\\prime\\prime}\">\\frac{\\partial u}{\\partial x}=f_{1}^{\\prime}+yf_{2}^{\\prime}\\,,\\;\\;\\frac{\\partial^{2}u}{\\partial x\\partial y}=xf_{12}^{\\prime\\prime}+f_{2}^{\\prime}+xyf_{22}^{\\prime\\prime}</span>"
     },
     {
       "id": "q0005",
       "number": 5,
       "header": "#5-Averge",
       "difficulty": "Averge",
-      "prompt_html": "<img src=\"/static/generated/assets/advanced-math/ch117/q0005_prompt.png\"/>",
+      "prompt_html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{设}z=f(x,\\frac{x}{y})\\,,\\ \\text{则}\\frac{\\partial^{2}z}{\\partial x^{2}}=()\\ .\">\\text{设}z=f(x,\\frac{x}{y})\\,,\\ \\text{则}\\frac{\\partial^{2}z}{\\partial x^{2}}=()\\ .</span>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch117/q0005_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\frac { \\partial ^ { 2 } f } { \\partial u ^ { 2 } } + \\frac { \\partial ^ { 2 } f } { \\partial v ^ { 2 } } + \\frac { 1 } { 2 y ^ { 2 } } \\frac { \\partial ^ { 2 } f } { \\partial u \\partial v }\">\\frac { \\partial ^ { 2 } f } { \\partial u ^ { 2 } } + \\frac { \\partial ^ { 2 } f } { \\partial v ^ { 2 } } + \\frac { 1 } { 2 y ^ { 2 } } \\frac { \\partial ^ { 2 } f } { \\partial u \\partial v }</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch117/q0005_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\frac { \\partial ^ { 2 } f } { \\partial u ^ { 2 } } + \\frac { 1 } { y } \\frac { \\partial ^ { 2 } f } { \\partial v ^ { 2 } } + \\frac { 1 } { 2 y ^ { 2 } } \\frac { \\partial ^ { 2 } f } { \\partial u \\partial v } _ { , }\">\\frac { \\partial ^ { 2 } f } { \\partial u ^ { 2 } } + \\frac { 1 } { y } \\frac { \\partial ^ { 2 } f } { \\partial v ^ { 2 } } + \\frac { 1 } { 2 y ^ { 2 } } \\frac { \\partial ^ { 2 } f } { \\partial u \\partial v } _ { , }</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch117/q0005_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\frac { \\partial ^ { 2 } f } { \\partial u ^ { 2 } } + \\frac { 2 } { y } \\frac { \\partial ^ { 2 } f } { \\partial v \\partial u } + \\frac { 1 } { y ^ { 2 } } \\frac { \\partial ^ { 2 } f } { \\partial v ^ { 2 } } \\, _ { ^ { * } }\">\\frac { \\partial ^ { 2 } f } { \\partial u ^ { 2 } } + \\frac { 2 } { y } \\frac { \\partial ^ { 2 } f } { \\partial v \\partial u } + \\frac { 1 } { y ^ { 2 } } \\frac { \\partial ^ { 2 } f } { \\partial v ^ { 2 } } \\, _ { ^ { * } }</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch117/q0005_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\frac { \\partial ^ { 2 } f } { \\partial u \\partial v } + \\frac { 2 } { y } \\frac { \\partial ^ { 2 } f } { \\partial v ^ { 2 } } + \\frac { 1 } { 2 y ^ { 2 } } \\frac { \\partial ^ { 2 } f } { \\partial u ^ { 2 } }\">\\frac { \\partial ^ { 2 } f } { \\partial u \\partial v } + \\frac { 2 } { y } \\frac { \\partial ^ { 2 } f } { \\partial v ^ { 2 } } + \\frac { 1 } { 2 y ^ { 2 } } \\frac { \\partial ^ { 2 } f } { \\partial u ^ { 2 } }</span>"
         }
       ],
       "answer": "C",
       "answer_index": 2,
-      "analysis_html": "<img src=\"/static/generated/assets/advanced-math/ch117/q0005_analysis.png\"/>"
+      "analysis_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{aligned}\\frac{\\partial^{2}z}{\\partial x^{2}}&amp;=\\frac{\\partial}{\\partial x}(\\frac{\\partial f}{\\partial u}+\\frac{1}{y}\\frac{\\partial f}{\\partial v})=\\frac{\\partial^{2}f}{\\partial u^{2}}\\frac{\\partial u}{\\partial x}+\\frac{\\partial^{2}f}{\\partial u\\partial v}\\frac{\\partial v}{\\partial x}+\\frac{1}{y}(\\frac{\\partial^{2}f}{\\partial u\\partial v}\\frac{\\partial u}{\\partial x}+\\frac{\\partial^{2}f}{\\partial v^{2}}\\frac{\\partial v}{\\partial x})_{*}\\\\&amp;=\\frac{\\partial^{2}f}{\\partial u^{2}}+\\frac{2}{y}\\frac{\\partial^{2}f}{\\partial v\\partial u}+\\frac{1}{y^{2}}\\frac{\\partial^{2}f}{\\partial v^{2}}_{*}\\end{aligned}\">\\begin{aligned}\\frac{\\partial^{2}z}{\\partial x^{2}}&amp;=\\frac{\\partial}{\\partial x}(\\frac{\\partial f}{\\partial u}+\\frac{1}{y}\\frac{\\partial f}{\\partial v})=\\frac{\\partial^{2}f}{\\partial u^{2}}\\frac{\\partial u}{\\partial x}+\\frac{\\partial^{2}f}{\\partial u\\partial v}\\frac{\\partial v}{\\partial x}+\\frac{1}{y}(\\frac{\\partial^{2}f}{\\partial u\\partial v}\\frac{\\partial u}{\\partial x}+\\frac{\\partial^{2}f}{\\partial v^{2}}\\frac{\\partial v}{\\partial x})_{*}\\\\&amp;=\\frac{\\partial^{2}f}{\\partial u^{2}}+\\frac{2}{y}\\frac{\\partial^{2}f}{\\partial v\\partial u}+\\frac{1}{y^{2}}\\frac{\\partial^{2}f}{\\partial v^{2}}_{*}\\end{aligned}</div>"
     },
     {
       "id": "q0006",
       "number": 6,
       "header": "#6-Averge",
       "difficulty": "Averge",
-      "prompt_html": "<img src=\"/static/generated/assets/advanced-math/ch117/q0006_prompt.png\"/>",
+      "prompt_html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{设函数}u=\\varphi\\bigl[ x+\\psi(y)\\bigr]，\\text{则下列等式正确的是}（）.\">\\text{设函数}u=\\varphi\\bigl[ x+\\psi(y)\\bigr]，\\text{则下列等式正确的是}（）.</span>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch117/q0006_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\frac { \\partial u } { \\partial x } \\frac { \\partial ^ { 2 } u } { \\partial x \\partial y } = \\frac { \\partial u } { \\partial y } \\frac { \\partial ^ { 2 } u } { \\partial y ^ { 2 } }\">\\frac { \\partial u } { \\partial x } \\frac { \\partial ^ { 2 } u } { \\partial x \\partial y } = \\frac { \\partial u } { \\partial y } \\frac { \\partial ^ { 2 } u } { \\partial y ^ { 2 } }</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch117/q0006_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\frac { \\partial u } { \\partial x } \\frac { \\partial ^ { 2 } u } { \\partial x \\partial y } = \\frac { \\partial u } { \\partial y } \\frac { \\partial ^ { 2 } u } { \\partial x \\partial y }\">\\frac { \\partial u } { \\partial x } \\frac { \\partial ^ { 2 } u } { \\partial x \\partial y } = \\frac { \\partial u } { \\partial y } \\frac { \\partial ^ { 2 } u } { \\partial x \\partial y }</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch117/q0006_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\frac { \\partial u } { \\partial x } \\frac { \\partial ^ { 2 } u } { \\partial y ^ { 2 } } = \\frac { \\partial u } { \\partial y } \\frac { \\partial u } { \\partial x ^ { 2 } } _ { , y }\">\\frac { \\partial u } { \\partial x } \\frac { \\partial ^ { 2 } u } { \\partial y ^ { 2 } } = \\frac { \\partial u } { \\partial y } \\frac { \\partial u } { \\partial x ^ { 2 } } _ { , y }</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch117/q0006_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\frac { \\partial u } { \\partial x } \\frac { \\partial ^ { 2 } u } { \\partial x \\partial y } = \\frac { \\partial u } { \\partial y } \\frac { \\partial ^ { 2 } u } { \\partial x ^ { 2 } } ,\">\\frac { \\partial u } { \\partial x } \\frac { \\partial ^ { 2 } u } { \\partial x \\partial y } = \\frac { \\partial u } { \\partial y } \\frac { \\partial ^ { 2 } u } { \\partial x ^ { 2 } } ,</span>"
         }
       ],
       "answer": "D",
       "answer_index": 3,
-      "analysis_html": "<img src=\"/static/generated/assets/advanced-math/ch117/q0006_analysis.png\"/>"
+      "analysis_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{aligned}&amp; \\text{由于} \\ \\frac{\\partial u}{\\partial x}=\\varphi&#x27;, \\frac{\\partial u}{\\partial y}=\\varphi&#x27;\\psi&#x27;, \\frac{\\partial^2 u}{\\partial x \\partial y}=\\varphi&#x27;&#x27;\\psi&#x27;, \\frac{\\partial^2 u}{\\partial x^2}=\\varphi&#x27;&#x27; \\circ\\\\&amp;\\\\&amp; \\text{因此：} \\ \\ \\frac{\\partial u}{\\partial x} \\frac{\\partial^2 u}{\\partial x \\partial y}=\\varphi&#x27;\\psi&#x27;\\varphi&#x27;&#x27;=\\frac{\\partial u}{\\partial y} \\frac{\\partial^2 u}{\\partial x^2} \\circ\\end{aligned}\">\\begin{aligned}&amp; \\text{由于} \\ \\frac{\\partial u}{\\partial x}=\\varphi&#x27;, \\frac{\\partial u}{\\partial y}=\\varphi&#x27;\\psi&#x27;, \\frac{\\partial^2 u}{\\partial x \\partial y}=\\varphi&#x27;&#x27;\\psi&#x27;, \\frac{\\partial^2 u}{\\partial x^2}=\\varphi&#x27;&#x27; \\circ\\\\&amp;\\\\&amp; \\text{因此：} \\ \\ \\frac{\\partial u}{\\partial x} \\frac{\\partial^2 u}{\\partial x \\partial y}=\\varphi&#x27;\\psi&#x27;\\varphi&#x27;&#x27;=\\frac{\\partial u}{\\partial y} \\frac{\\partial^2 u}{\\partial x^2} \\circ\\end{aligned}</div>"
     }
-  ]
+  ],
+  "format": "latex",
+  "source_md": "gs/7.4.3_复合函数的中间变量既有一元又有多元函数情形(6题)/7.4.3_复合函数的中间变量既有一元又有多元函数情形(6题).md"
 }

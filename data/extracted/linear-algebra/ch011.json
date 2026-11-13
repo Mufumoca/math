@@ -13,840 +13,842 @@
       "number": 1,
       "header": "#1-Averge",
       "difficulty": "Averge",
-      "prompt_html": "<img src=\"/static/generated/assets/linear-algebra/ch011/q0001_prompt.png\"/>",
+      "prompt_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\text{设 } A = \\begin{bmatrix} 0 &amp; 0 &amp; 1 \\\\ x &amp; 1 &amp; y \\\\ 1 &amp; 0 &amp; 0 \\end{bmatrix} \\text{有三个线性无关的特征向量，则} x,y \\text{应满足的条件为( } \\quad.).\">\\text{设 } A = \\begin{bmatrix} 0 &amp; 0 &amp; 1 \\\\ x &amp; 1 &amp; y \\\\ 1 &amp; 0 &amp; 0 \\end{bmatrix} \\text{有三个线性无关的特征向量，则} x,y \\text{应满足的条件为( } \\quad.).</div>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/linear-algebra/ch011/q0001_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"x - y = 0\">x - y = 0</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/linear-algebra/ch011/q0001_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"xy = 0\">xy = 0</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/linear-algebra/ch011/q0001_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\, x \\! + \\! y \\! = \\! 0 \\,\">\\, x \\! + \\! y \\! = \\! 0 \\,</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/linear-algebra/ch011/q0001_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"x + 2y = 0\">x + 2y = 0</span>"
         }
       ],
       "answer": "C",
       "answer_index": 2,
-      "analysis_html": "<img src=\"/static/generated/assets/linear-algebra/ch011/q0001_analysis.png\"/>"
+      "analysis_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{aligned}&amp;\\text{先求出}A\\text{的特征值}|\\lambda E-A|=\\begin{vmatrix}\\lambda&amp;0&amp;-1\\\\-x&amp;\\lambda-1&amp;-y\\\\-1&amp;0&amp;\\lambda\\end{vmatrix}=(\\lambda-1)(\\lambda^2-1)=0,\\text{则}\\lambda_1=1,\\ \\lambda_2=\\lambda_3=1.\\text{显然} \\\\&amp;\\text{要使}A\\text{有三个线性无关的特征向量，必须是}\\lambda=1\\text{时有两个线性无关的特征向量，即}r(E-A)=1,\\text{对矩阵}E-A\\text{进行初等行变换化为阶梯形，则}x+y=0.\\end{aligned}\">\\begin{aligned}&amp;\\text{先求出}A\\text{的特征值}|\\lambda E-A|=\\begin{vmatrix}\\lambda&amp;0&amp;-1\\\\-x&amp;\\lambda-1&amp;-y\\\\-1&amp;0&amp;\\lambda\\end{vmatrix}=(\\lambda-1)(\\lambda^2-1)=0,\\text{则}\\lambda_1=1,\\ \\lambda_2=\\lambda_3=1.\\text{显然} \\\\&amp;\\text{要使}A\\text{有三个线性无关的特征向量，必须是}\\lambda=1\\text{时有两个线性无关的特征向量，即}r(E-A)=1,\\text{对矩阵}E-A\\text{进行初等行变换化为阶梯形，则}x+y=0.\\end{aligned}</div>"
     },
     {
       "id": "q0002",
       "number": 2,
       "header": "#2-Averge",
       "difficulty": "Averge",
-      "prompt_html": "<img src=\"/static/generated/assets/linear-algebra/ch011/q0002_prompt.png\"/>",
+      "prompt_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\text{已知矩阵} \\begin{bmatrix} 22 &amp; 30 \\\\ -12 &amp; x \\end{bmatrix} \\text{有一个特征向量} \\begin{bmatrix} -5 \\\\ 3 \\end{bmatrix}, \\text{，则} x = (\\quad).\">\\text{已知矩阵} \\begin{bmatrix} 22 &amp; 30 \\\\ -12 &amp; x \\end{bmatrix} \\text{有一个特征向量} \\begin{bmatrix} -5 \\\\ 3 \\end{bmatrix}, \\text{，则} x = (\\quad).</div>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/linear-algebra/ch011/q0002_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"- 18\">- 18</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/linear-algebra/ch011/q0002_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"- 16\">- 16</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/linear-algebra/ch011/q0002_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"- 12\">- 12</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/linear-algebra/ch011/q0002_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"- 14\">- 14</span>"
         }
       ],
       "answer": "B",
       "answer_index": 1,
-      "analysis_html": "<img src=\"/static/generated/assets/linear-algebra/ch011/q0002_analysis.png\"/>"
+      "analysis_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{aligned}&amp; \\text{设题设中的特征向量所对应的特征值为}\\lambda, \\text{则有} \\begin{bmatrix} 22-\\lambda &amp; 30 \\\\ -12 &amp; x-\\lambda \\end{bmatrix} \\begin{bmatrix} -5 \\\\ 3 \\end{bmatrix} = 0, \\text{即} \\\\ &amp; \\begin{cases} 5\\lambda-110+90=0 \\\\ 60+3x-3\\lambda=0 \\end{cases}, \\text{解得}\\lambda=4,x=-16.\\end{aligned}\">\\begin{aligned}&amp; \\text{设题设中的特征向量所对应的特征值为}\\lambda, \\text{则有} \\begin{bmatrix} 22-\\lambda &amp; 30 \\\\ -12 &amp; x-\\lambda \\end{bmatrix} \\begin{bmatrix} -5 \\\\ 3 \\end{bmatrix} = 0, \\text{即} \\\\ &amp; \\begin{cases} 5\\lambda-110+90=0 \\\\ 60+3x-3\\lambda=0 \\end{cases}, \\text{解得}\\lambda=4,x=-16.\\end{aligned}</div>"
     },
     {
       "id": "q0003",
       "number": 3,
       "header": "#3-Averge",
       "difficulty": "Averge",
-      "prompt_html": "<img src=\"/static/generated/assets/linear-algebra/ch011/q0003_prompt.png\"/>",
+      "prompt_html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{已知可逆矩阵} \\mathbf{A} \\text{的一个特征值为} \\lambda , \\text{则} (2 \\mathbf{A})^{-1} \\text{的特征值为} (\\quad)\">\\text{已知可逆矩阵} \\mathbf{A} \\text{的一个特征值为} \\lambda , \\text{则} (2 \\mathbf{A})^{-1} \\text{的特征值为} (\\quad)</span>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/linear-algebra/ch011/q0003_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\frac { \\lambda } { 2 }\">\\frac { \\lambda } { 2 }</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/linear-algebra/ch011/q0003_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\frac { 2 } { \\lambda }\">\\frac { 2 } { \\lambda }</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/linear-algebra/ch011/q0003_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"2 \\lambda\">2 \\lambda</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/linear-algebra/ch011/q0003_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\frac { 1 } { 2 \\lambda }\">\\frac { 1 } { 2 \\lambda }</span>"
         }
       ],
       "answer": "D",
       "answer_index": 3,
-      "analysis_html": "<img src=\"/static/generated/assets/linear-algebra/ch011/q0003_analysis.png\"/>"
+      "analysis_html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{由矩阵多项式的特征值性质可知：}(2A)^{-1} \\text{的特征值为} (2\\lambda)^{-1} = \\frac{1}{2\\lambda}.\">\\text{由矩阵多项式的特征值性质可知：}(2A)^{-1} \\text{的特征值为} (2\\lambda)^{-1} = \\frac{1}{2\\lambda}.</span>"
     },
     {
       "id": "q0004",
       "number": 4,
       "header": "#4-Averge",
       "difficulty": "Averge",
-      "prompt_html": "<img src=\"/static/generated/assets/linear-algebra/ch011/q0004_prompt.png\"/>",
+      "prompt_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{array}{l} \\text{设3阶奇异矩阵}A \\text{的各行元素之和都等于}3,\\text{且}A \\text{的迹}(\\text{主对角线元素之和})\\text{等于}5,\\text{则}A \\text{的特征值是}( ). \\end{array}\">\\begin{array}{l} \\text{设3阶奇异矩阵}A \\text{的各行元素之和都等于}3,\\text{且}A \\text{的迹}(\\text{主对角线元素之和})\\text{等于}5,\\text{则}A \\text{的特征值是}( ). \\end{array}</div>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/linear-algebra/ch011/q0004_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\mathbf { 3 , - 3 , 5 }\">\\mathbf { 3 , - 3 , 5 }</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/linear-algebra/ch011/q0004_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\textbf{0, 3, 3}\">\\textbf{0, 3, 3}</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/linear-algebra/ch011/q0004_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\textbf { 0 , 2 , 3 }\">\\textbf { 0 , 2 , 3 }</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/linear-algebra/ch011/q0004_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\textbf { 0 , 3 , 5 }\">\\textbf { 0 , 3 , 5 }</span>"
         }
       ],
       "answer": "C",
       "answer_index": 2,
-      "analysis_html": "<img src=\"/static/generated/assets/linear-algebra/ch011/q0004_analysis.png\"/>"
+      "analysis_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{aligned} \\text{由于矩阵}A\\text{是奇异矩阵，所以，}0\\text{是}A\\text{的特征值，又由于}A\\text{的各行元素之和都等于}3，\\text{所以}，3\\text{是}A\\text{的特征值，由于}A\\text{的迹等于}5，\\text{所以}A\\text{的}3\\text{个特征值之和等于}5，\\text{因此}，A\\text{的特征值为}0,2,3.\\end{aligned}\">\\begin{aligned} \\text{由于矩阵}A\\text{是奇异矩阵，所以，}0\\text{是}A\\text{的特征值，又由于}A\\text{的各行元素之和都等于}3，\\text{所以}，3\\text{是}A\\text{的特征值，由于}A\\text{的迹等于}5，\\text{所以}A\\text{的}3\\text{个特征值之和等于}5，\\text{因此}，A\\text{的特征值为}0,2,3.\\end{aligned}</div>"
     },
     {
       "id": "q0005",
       "number": 5,
       "header": "#5-Averge",
       "difficulty": "Averge",
-      "prompt_html": "<img src=\"/static/generated/assets/linear-algebra/ch011/q0005_prompt.png\"/>",
+      "prompt_html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{设 } \\lambda _ { 1 } , \\lambda _ { 2 } \\text{ 是矩阵 } A \\text{ 的两个不同的特征值，对应的特征向量分别为 } \\xi , \\eta , \\text{ 则下列结论成立的是} \\quad ( \\quad ) .\">\\text{设 } \\lambda _ { 1 } , \\lambda _ { 2 } \\text{ 是矩阵 } A \\text{ 的两个不同的特征值，对应的特征向量分别为 } \\xi , \\eta , \\text{ 则下列结论成立的是} \\quad ( \\quad ) .</span>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/linear-algebra/ch011/q0005_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{当 } k_{1} \\neq 0, k_{2} \\neq 0, \\, k_{1} \\xi + k_{2} \\eta \\text{ 不可能是 } \\mathbf{A} \\text{ 的特征向量}\">\\text{当 } k_{1} \\neq 0, k_{2} \\neq 0, \\, k_{1} \\xi + k_{2} \\eta \\text{ 不可能是 } \\mathbf{A} \\text{ 的特征向量}</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/linear-algebra/ch011/q0005_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{存在常数}k_{1}\\neq 0, k_{2}\\neq 0, \\text{使}k_{1}\\xi + k_{2}\\eta \\text{是A的特征向量}\">\\text{存在常数}k_{1}\\neq 0, k_{2}\\neq 0, \\text{使}k_{1}\\xi + k_{2}\\eta \\text{是A的特征向量}</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/linear-algebra/ch011/q0005_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{对任意} k_{1} \\neq 0, k_{2} \\neq 0, k_{1} \\xi + k_{2} \\eta \\text{都是} \\mathbf{A} \\text{的特征向量}\">\\text{对任意} k_{1} \\neq 0, k_{2} \\neq 0, k_{1} \\xi + k_{2} \\eta \\text{都是} \\mathbf{A} \\text{的特征向量}</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/linear-algebra/ch011/q0005_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{存在唯一的一组常数}k_{1}\\neq 0, k_{2}\\neq 0, \\text{使}k_{1}\\xi + k_{2}\\eta \\text{是A的特征向量}\">\\text{存在唯一的一组常数}k_{1}\\neq 0, k_{2}\\neq 0, \\text{使}k_{1}\\xi + k_{2}\\eta \\text{是A的特征向量}</span>"
         }
       ],
       "answer": "A",
       "answer_index": 0,
-      "analysis_html": "<img src=\"/static/generated/assets/linear-algebra/ch011/q0005_analysis.png\"/>"
+      "analysis_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{aligned} \\text{由于}\\lambda_1,\\lambda_2 \\text{是矩阵A的两个不同的特征值，故}\\xi,\\eta \\text{线性无关。假设}k_1\\neq 0,k_2\\neq 0, \\text{而}k_1\\xi+k_2\\eta \\text{是A的属于特征值}\\lambda \\text{的特征向量}，\\text{则}\\mathbf{A}\\left(k_1\\xi+k_2\\eta\\right)=\\lambda k_1\\xi+\\lambda k_2\\eta, \\text{又}\\xi,\\eta \\text{是A的分别属于}\\lambda_1,\\lambda_2 \\text{的特征向量}，\\text{则}\\mathbf{A}\\left(k_1\\xi+k_2\\eta\\right)=k_1\\lambda_1\\xi+k_2\\lambda_2\\eta, \\text{从而}k_1\\left(\\lambda-\\lambda_1\\right)\\xi+k_2\\left(\\lambda-\\lambda_2\\right)\\eta=0.\\text{由于属于不同特征值的特征向量线性无关，所以}\\lambda=\\lambda_1 \\text{且}\\lambda=\\lambda_2, \\text{与}\\lambda_1\\neq\\lambda_2 \\text{矛盾。即任意}k_1\\neq 0,k_2\\neq 0, \\text{向量}k_1\\xi+k_2\\eta \\text{不是A的特征向量。}\\end{aligned}\">\\begin{aligned} \\text{由于}\\lambda_1,\\lambda_2 \\text{是矩阵A的两个不同的特征值，故}\\xi,\\eta \\text{线性无关。假设}k_1\\neq 0,k_2\\neq 0, \\text{而}k_1\\xi+k_2\\eta \\text{是A的属于特征值}\\lambda \\text{的特征向量}，\\text{则}\\mathbf{A}\\left(k_1\\xi+k_2\\eta\\right)=\\lambda k_1\\xi+\\lambda k_2\\eta, \\text{又}\\xi,\\eta \\text{是A的分别属于}\\lambda_1,\\lambda_2 \\text{的特征向量}，\\text{则}\\mathbf{A}\\left(k_1\\xi+k_2\\eta\\right)=k_1\\lambda_1\\xi+k_2\\lambda_2\\eta, \\text{从而}k_1\\left(\\lambda-\\lambda_1\\right)\\xi+k_2\\left(\\lambda-\\lambda_2\\right)\\eta=0.\\text{由于属于不同特征值的特征向量线性无关，所以}\\lambda=\\lambda_1 \\text{且}\\lambda=\\lambda_2, \\text{与}\\lambda_1\\neq\\lambda_2 \\text{矛盾。即任意}k_1\\neq 0,k_2\\neq 0, \\text{向量}k_1\\xi+k_2\\eta \\text{不是A的特征向量。}\\end{aligned}</div>"
     },
     {
       "id": "q0006",
       "number": 6,
       "header": "#6-Averge",
       "difficulty": "Averge",
-      "prompt_html": "<img src=\"/static/generated/assets/linear-algebra/ch011/q0006_prompt.png\"/>",
+      "prompt_html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{可逆矩阵} \\, \\mathbf{A} \\, \\text{与矩阵} (\\quad ) \\text{有相同的特征值}.\">\\text{可逆矩阵} \\, \\mathbf{A} \\, \\text{与矩阵} (\\quad ) \\text{有相同的特征值}.</span>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/linear-algebra/ch011/q0006_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\mathbf { A } ^ { 2 }\">\\mathbf { A } ^ { 2 }</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/linear-algebra/ch011/q0006_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\mathbf { A + E }\">\\mathbf { A + E }</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/linear-algebra/ch011/q0006_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\mathbf { A } ^ { - 1 }\">\\mathbf { A } ^ { - 1 }</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/linear-algebra/ch011/q0006_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\mathbf { A } ^ { \\mathsf { T } }\">\\mathbf { A } ^ { \\mathsf { T } }</span>"
         }
       ],
       "answer": "D",
       "answer_index": 3,
-      "analysis_html": "<img src=\"/static/generated/assets/linear-algebra/ch011/q0006_analysis.png\"/>"
+      "analysis_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{array}{l} \\text {因}|\\lambda E\\cdot A| = |(\\lambda E\\cdot A)^{T}| = |\\lambda E\\cdot A^{T}|, \\text {故}A \\text {与}A^{T} \\text {有相同的特征值}; \\text{若}\\lambda \\text {为矩阵}A \\text {特征值,则}A^{-1} \\text {的特征值为}\\frac{1}{\\lambda}, A^{2} \\text {的特征值为}\\lambda^{2}, A + E \\text {的特征值为}\\lambda + 1. \\end{array}\">\\begin{array}{l} \\text {因}|\\lambda E\\cdot A| = |(\\lambda E\\cdot A)^{T}| = |\\lambda E\\cdot A^{T}|, \\text {故}A \\text {与}A^{T} \\text {有相同的特征值}; \\text{若}\\lambda \\text {为矩阵}A \\text {特征值,则}A^{-1} \\text {的特征值为}\\frac{1}{\\lambda}, A^{2} \\text {的特征值为}\\lambda^{2}, A + E \\text {的特征值为}\\lambda + 1. \\end{array}</div>"
     },
     {
       "id": "q0007",
       "number": 7,
       "header": "#7-Averge",
       "difficulty": "Averge",
-      "prompt_html": "<img src=\"/static/generated/assets/linear-algebra/ch011/q0007_prompt.png\"/>",
+      "prompt_html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{设矩阵 } A \\text{ 满足 } A^{2} - A = O, \\text{则下列结论一定不成立的是( } \\text{).}\">\\text{设矩阵 } A \\text{ 满足 } A^{2} - A = O, \\text{则下列结论一定不成立的是( } \\text{).}</span>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/linear-algebra/ch011/q0007_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\mathrm{A = O}\">\\mathrm{A = O}</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/linear-algebra/ch011/q0007_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\mathbf { A } \\! = \\! \\mathbf { E }\">\\mathbf { A } \\! = \\! \\mathbf { E }</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/linear-algebra/ch011/q0007_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\vert \\mathbf { A } + \\mathbf { E } \\vert = 0\">\\vert \\mathbf { A } + \\mathbf { E } \\vert = 0</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/linear-algebra/ch011/q0007_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\vert \\mathbf { A } \\vert = 0\">\\vert \\mathbf { A } \\vert = 0</span>"
         }
       ],
       "answer": "C",
       "answer_index": 2,
-      "analysis_html": "<img src=\"/static/generated/assets/linear-algebra/ch011/q0007_analysis.png\"/>"
+      "analysis_html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{由于 } A^2 - A = 0 , \\text{所以 } A \\text{ 的特征值为 } 1 \\text{ 或 } 0 , \\text{ 因此 } | A + E | \\neq 0 .\">\\text{由于 } A^2 - A = 0 , \\text{所以 } A \\text{ 的特征值为 } 1 \\text{ 或 } 0 , \\text{ 因此 } | A + E | \\neq 0 .</span>"
     },
     {
       "id": "q0008",
       "number": 8,
       "header": "#8-Averge",
       "difficulty": "Averge",
-      "prompt_html": "<img src=\"/static/generated/assets/linear-algebra/ch011/q0008_prompt.png\"/>",
+      "prompt_html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{设} \\, A \\text{ 是} n \\text{阶方阵，如果} | A | = 0 , \\text{则} \\, A \\text{的特征值} ( \\quad ).\">\\text{设} \\, A \\text{ 是} n \\text{阶方阵，如果} | A | = 0 , \\text{则} \\, A \\text{的特征值} ( \\quad ).</span>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/linear-algebra/ch011/q0008_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{全不为零}\">\\text{全不为零}</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/linear-algebra/ch011/q0008_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{至少有一个是零}\">\\text{至少有一个是零}</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/linear-algebra/ch011/q0008_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{可以是任意数}\">\\text{可以是任意数}</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/linear-algebra/ch011/q0008_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{全为零}\">\\text{全为零}</span>"
         }
       ],
       "answer": "B",
       "answer_index": 1,
-      "analysis_html": "<img src=\"/static/generated/assets/linear-algebra/ch011/q0008_analysis.png\"/>"
+      "analysis_html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\left| \\mathbf{A} \\right| = 0 \\Rightarrow \\left| \\mathbf{A} \\right| = \\lambda _{1} \\cdots \\lambda _{n} = 0 , \\text{则矩阵 } \\mathbf{A} \\text{ 至少有一个特征值是 } 0 .\">\\left| \\mathbf{A} \\right| = 0 \\Rightarrow \\left| \\mathbf{A} \\right| = \\lambda _{1} \\cdots \\lambda _{n} = 0 , \\text{则矩阵 } \\mathbf{A} \\text{ 至少有一个特征值是 } 0 .</span>"
     },
     {
       "id": "q0009",
       "number": 9,
       "header": "#9-Averge",
       "difficulty": "Averge",
-      "prompt_html": "<img src=\"/static/generated/assets/linear-algebra/ch011/q0009_prompt.png\"/>",
+      "prompt_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\text{设矩阵 } \\mathbf{A} = \\begin{bmatrix} 1 &amp; 1 &amp; 0 \\\\ 1 &amp; 0 &amp; 1 \\\\ 0 &amp; 1 &amp; 1 \\end{bmatrix}, \\text{则 } \\mathbf{A} \\text{ 的特征值为( }.\">\\text{设矩阵 } \\mathbf{A} = \\begin{bmatrix} 1 &amp; 1 &amp; 0 \\\\ 1 &amp; 0 &amp; 1 \\\\ 0 &amp; 1 &amp; 1 \\end{bmatrix}, \\text{则 } \\mathbf{A} \\text{ 的特征值为( }.</div>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/linear-algebra/ch011/q0009_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\textbf {1, 0, 1}\">\\textbf {1, 0, 1}</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/linear-algebra/ch011/q0009_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\mathbf { - 1 , 1 , 1 }\">\\mathbf { - 1 , 1 , 1 }</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/linear-algebra/ch011/q0009_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"- 1 , \\ 1 , \\ 2\">- 1 , \\ 1 , \\ 2</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/linear-algebra/ch011/q0009_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\textbf { 1 , 1 , 2 }\">\\textbf { 1 , 1 , 2 }</span>"
         }
       ],
       "answer": "C",
       "answer_index": 2,
-      "analysis_html": "<img src=\"/static/generated/assets/linear-algebra/ch011/q0009_analysis.png\"/>"
+      "analysis_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{aligned}|\\lambda \\mathbf{E}\\mathbf{-A}|=\\begin{vmatrix}\\lambda\\mathbf{-1}&amp;-\\mathbf{1}&amp;0\\\\-\\mathbf{1}&amp;\\lambda&amp;-\\mathbf{1}\\\\0&amp;-\\mathbf{1}&amp;\\lambda\\mathbf{-1}\\end{vmatrix}=(\\lambda\\mathbf{-1})(\\lambda\\mathbf{-2})(\\lambda+\\mathbf{1})=0, \\text{故 A 的特征值为} -\\mathbf{1},\\mathbf{1},\\mathbf{2}.\\end{aligned}\">\\begin{aligned}|\\lambda \\mathbf{E}\\mathbf{-A}|=\\begin{vmatrix}\\lambda\\mathbf{-1}&amp;-\\mathbf{1}&amp;0\\\\-\\mathbf{1}&amp;\\lambda&amp;-\\mathbf{1}\\\\0&amp;-\\mathbf{1}&amp;\\lambda\\mathbf{-1}\\end{vmatrix}=(\\lambda\\mathbf{-1})(\\lambda\\mathbf{-2})(\\lambda+\\mathbf{1})=0, \\text{故 A 的特征值为} -\\mathbf{1},\\mathbf{1},\\mathbf{2}.\\end{aligned}</div>"
     },
     {
       "id": "q0010",
       "number": 10,
       "header": "#10-Averge",
       "difficulty": "Averge",
-      "prompt_html": "<img src=\"/static/generated/assets/linear-algebra/ch011/q0010_prompt.png\"/>",
+      "prompt_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{array}{l} \\text{设4阶实对称矩阵A的特征值为：}\\lambda_{1}=\\lambda_{2}=\\lambda_{3}=1, \\lambda_{4}=3 \\text{且向量} \\\\ \\beta_{1}=(1,1,0,0)^{\\prime},\\beta_{2}=(1,0,1,0)^{\\prime},\\beta_{3}=(1,0,0,1)^{\\prime} \\text{都是对应特征值1的特征向量，则A的属于} \\\\ \\text{特征值3的特征向量}\\beta_{4} \\text{为( ).} \\end{array}\">\\begin{array}{l} \\text{设4阶实对称矩阵A的特征值为：}\\lambda_{1}=\\lambda_{2}=\\lambda_{3}=1, \\lambda_{4}=3 \\text{且向量} \\\\ \\beta_{1}=(1,1,0,0)^{\\prime},\\beta_{2}=(1,0,1,0)^{\\prime},\\beta_{3}=(1,0,0,1)^{\\prime} \\text{都是对应特征值1的特征向量，则A的属于} \\\\ \\text{特征值3的特征向量}\\beta_{4} \\text{为( ).} \\end{array}</div>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/linear-algebra/ch011/q0010_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{从已知条件尚无法确定}\">\\text{从已知条件尚无法确定}</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/linear-algebra/ch011/q0010_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\beta _ { 1 } , \\beta _ { 2 } , \\beta _ { 3 } \\text { 中的某一个}\">\\beta _ { 1 } , \\beta _ { 2 } , \\beta _ { 3 } \\text { 中的某一个}</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/linear-algebra/ch011/q0010_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"(3, 1, 1, 1) ^ { \\prime }\">(3, 1, 1, 1) ^ { \\prime }</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/linear-algebra/ch011/q0010_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"(-1, 1, 1, 1) ^ { \\prime }\">(-1, 1, 1, 1) ^ { \\prime }</span>"
         }
       ],
       "answer": "D",
       "answer_index": 3,
-      "analysis_html": "<img src=\"/static/generated/assets/linear-algebra/ch011/q0010_analysis.png\"/>"
+      "analysis_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{array}{l} \\text {由于实对称矩阵不同特征值的特征向量正交可知，}\\beta_{4} \\text {与}\\beta_{1},\\beta_{2},\\beta_{3} \\text {正交，选项中的向量} \\\\ (-1,1,1,1)^{\\prime} \\text {符合条件}. \\end{array}\">\\begin{array}{l} \\text {由于实对称矩阵不同特征值的特征向量正交可知，}\\beta_{4} \\text {与}\\beta_{1},\\beta_{2},\\beta_{3} \\text {正交，选项中的向量} \\\\ (-1,1,1,1)^{\\prime} \\text {符合条件}. \\end{array}</div>"
     },
     {
       "id": "q0011",
       "number": 11,
       "header": "#11-Averge",
       "difficulty": "Averge",
-      "prompt_html": "<img src=\"/static/generated/assets/linear-algebra/ch011/q0011_prompt.png\"/>",
+      "prompt_html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{设}3\\text{阶矩阵}A\\text{的特征值为}0,1,2, \\text{则( }.\">\\text{设}3\\text{阶矩阵}A\\text{的特征值为}0,1,2, \\text{则( }.</span>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/linear-algebra/ch011/q0011_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{矩阵}(\\mathbf{A}+\\mathbf{E})^{-1} \\text{的特征值分别为} 1, \\frac{1}{2}, \\frac{1}{3}\">\\text{矩阵}(\\mathbf{A}+\\mathbf{E})^{-1} \\text{的特征值分别为} 1, \\frac{1}{2}, \\frac{1}{3}</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/linear-algebra/ch011/q0011_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{行列式} | \\mathbf { A } + \\mathbf { E } | = 0\">\\text{行列式} | \\mathbf { A } + \\mathbf { E } | = 0</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/linear-algebra/ch011/q0011_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{矩阵 } \\mathbf{A} \\text{ 的秩是 } 3\">\\text{矩阵 } \\mathbf{A} \\text{ 的秩是 } 3</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/linear-algebra/ch011/q0011_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{行列式} | \\mathbf { A } ^ { \\mathrm { T } } \\mathbf { A } | = 1\">\\text{行列式} | \\mathbf { A } ^ { \\mathrm { T } } \\mathbf { A } | = 1</span>"
         }
       ],
       "answer": "A",
       "answer_index": 0,
-      "analysis_html": "<img src=\"/static/generated/assets/linear-algebra/ch011/q0011_analysis.png\"/>"
+      "analysis_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{aligned}&amp;3\\text{阶矩阵}A\\text{有}3\\text{个不同特征值}，\\text{因此与对角矩阵相似}，\\text{相似矩阵的秩相等}，\\text{由于非零特征值为}2\\text{个}，\\text{故矩阵}A\\text{的秩是}2|A^{\\top}A|=|A^{\\top}||A|=|A|^{2}，\\text{由于} |A|=0\\times 1\\times 2=0，\\text{故} |A^{\\top}A|=0 \\\\&amp;\\text{矩阵}A+E\\text{的特征值为}1，2，3，\\text{故} |A+E|=1\\times 2\\times 3=6，\\text{矩阵}(A+E)^{-1}\\text{的特征值分别为}1,\\frac{1}{2},\\frac{1}{3}；\\end{aligned}\">\\begin{aligned}&amp;3\\text{阶矩阵}A\\text{有}3\\text{个不同特征值}，\\text{因此与对角矩阵相似}，\\text{相似矩阵的秩相等}，\\text{由于非零特征值为}2\\text{个}，\\text{故矩阵}A\\text{的秩是}2|A^{\\top}A|=|A^{\\top}||A|=|A|^{2}，\\text{由于} |A|=0\\times 1\\times 2=0，\\text{故} |A^{\\top}A|=0 \\\\&amp;\\text{矩阵}A+E\\text{的特征值为}1，2，3，\\text{故} |A+E|=1\\times 2\\times 3=6，\\text{矩阵}(A+E)^{-1}\\text{的特征值分别为}1,\\frac{1}{2},\\frac{1}{3}；\\end{aligned}</div>"
     },
     {
       "id": "q0012",
       "number": 12,
       "header": "#12-Averge",
       "difficulty": "Averge",
-      "prompt_html": "<img src=\"/static/generated/assets/linear-algebra/ch011/q0012_prompt.png\"/>",
+      "prompt_html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{若} n \\text{阶矩阵} A \\text{任意一行的} n \\text{个元素之和都是} a，\\text{则}A\\text{的一个特征值为}(\\quad).\">\\text{若} n \\text{阶矩阵} A \\text{任意一行的} n \\text{个元素之和都是} a，\\text{则}A\\text{的一个特征值为}(\\quad).</span>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/linear-algebra/ch011/q0012_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"- a\">- a</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/linear-algebra/ch011/q0012_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"a ^ { - 1 }\">a ^ { - 1 }</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/linear-algebra/ch011/q0012_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\mathbf { 0 }\">\\mathbf { 0 }</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/linear-algebra/ch011/q0012_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"a\">a</span>"
         }
       ],
       "answer": "D",
       "answer_index": 3,
-      "analysis_html": "<img src=\"/static/generated/assets/linear-algebra/ch011/q0012_analysis.png\"/>"
+      "analysis_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\text{由题意可知：} \\quad A \\begin{bmatrix} 1 \\\\ 1 \\\\ \\vdots \\\\ 1 \\end{bmatrix} = \\begin{bmatrix} a \\\\ a \\\\ \\vdots \\\\ a \\end{bmatrix} = a \\begin{bmatrix} 1 \\\\ 1 \\\\ \\vdots \\\\ 1 \\end{bmatrix}, \\text{由特征值与特征向量的定义可知，矩阵 } A \\text{ 有一特征值 } a.\">\\text{由题意可知：} \\quad A \\begin{bmatrix} 1 \\\\ 1 \\\\ \\vdots \\\\ 1 \\end{bmatrix} = \\begin{bmatrix} a \\\\ a \\\\ \\vdots \\\\ a \\end{bmatrix} = a \\begin{bmatrix} 1 \\\\ 1 \\\\ \\vdots \\\\ 1 \\end{bmatrix}, \\text{由特征值与特征向量的定义可知，矩阵 } A \\text{ 有一特征值 } a.</div>"
     },
     {
       "id": "q0013",
       "number": 13,
       "header": "#13-Averge",
       "difficulty": "Averge",
-      "prompt_html": "<img src=\"/static/generated/assets/linear-algebra/ch011/q0013_prompt.png\"/>",
+      "prompt_html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{已知}f(x)=x^{2}-2x-1, \\text{方阵}A \\text{的特征值为}1,0,-1, \\text{则}f(A) \\text{的特征值为}(\\quad).\">\\text{已知}f(x)=x^{2}-2x-1, \\text{方阵}A \\text{的特征值为}1,0,-1, \\text{则}f(A) \\text{的特征值为}(\\quad).</span>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/linear-algebra/ch011/q0013_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"- 2 , \\ - 1 , \\ - 2\">- 2 , \\ - 1 , \\ - 2</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/linear-algebra/ch011/q0013_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\texttt{2, 1, 2}\">\\texttt{2, 1, 2}</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/linear-algebra/ch011/q0013_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"- 2 , \\ - 1 , \\ 2\">- 2 , \\ - 1 , \\ 2</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/linear-algebra/ch011/q0013_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\texttt { 2 , 0 , - 2 }\">\\texttt { 2 , 0 , - 2 }</span>"
         }
       ],
       "answer": "C",
       "answer_index": 2,
-      "analysis_html": "<img src=\"/static/generated/assets/linear-algebra/ch011/q0013_analysis.png\"/>"
+      "analysis_html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{由矩阵多项式的特征值性质可知，若} \\lambda \\text{为矩阵} A \\text{特征值，则} f(\\lambda) \\text{为矩阵多项式} f(A) \\text{的特征值，则} f(A) \\text{的特征值为：} f(1)=-2, f(0)=-1, f(-1)=2.\">\\text{由矩阵多项式的特征值性质可知，若} \\lambda \\text{为矩阵} A \\text{特征值，则} f(\\lambda) \\text{为矩阵多项式} f(A) \\text{的特征值，则} f(A) \\text{的特征值为：} f(1)=-2, f(0)=-1, f(-1)=2.</span>"
     },
     {
       "id": "q0014",
       "number": 14,
       "header": "#14-Averge",
       "difficulty": "Averge",
-      "prompt_html": "<img src=\"/static/generated/assets/linear-algebra/ch011/q0014_prompt.png\"/>",
+      "prompt_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{array}{l} \\text {已知} \\lambda_{1} = 0 \\text {是三阶矩阵} A = [ \\begin{array}{ccc} 1 &amp; 0 &amp; 1 \\\\ 0 &amp; 2 &amp; 0 \\\\ 1 &amp; 0 &amp; a \\end{array} \\text {的特征值，则} a = [ \\quad ]，\\text{其他特征值} \\lambda_{2} = ( \\quad ), \\\\ \\lambda_{3} = ( \\quad ). \\end{array}\">\\begin{array}{l} \\text {已知} \\lambda_{1} = 0 \\text {是三阶矩阵} A = [ \\begin{array}{ccc} 1 &amp; 0 &amp; 1 \\\\ 0 &amp; 2 &amp; 0 \\\\ 1 &amp; 0 &amp; a \\end{array} \\text {的特征值，则} a = [ \\quad ]，\\text{其他特征值} \\lambda_{2} = ( \\quad ), \\\\ \\lambda_{3} = ( \\quad ). \\end{array}</div>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/linear-algebra/ch011/q0014_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\texttt{2, 2, 1}\">\\texttt{2, 2, 1}</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/linear-algebra/ch011/q0014_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\textbf { 1 , 2 , 2 }\">\\textbf { 1 , 2 , 2 }</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/linear-algebra/ch011/q0014_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\textbf { 1 , 1 , 2 }\">\\textbf { 1 , 1 , 2 }</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/linear-algebra/ch011/q0014_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\texttt{2, 1, 2}\">\\texttt{2, 1, 2}</span>"
         }
       ],
       "answer": "B",
       "answer_index": 1,
-      "analysis_html": "<img src=\"/static/generated/assets/linear-algebra/ch011/q0014_analysis.png\"/>"
+      "analysis_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{aligned}&amp;\\text{由于}\\ \\lambda_{1}=0\\ \\text{为矩阵A的特征值知}|\\mathbf{-A}|=0,\\text{从而}|\\mathbf{A}|=2(a-1)=0,\\text{故}a=1.\\text{把}a=1\\text{代入矩阵}\\mathbf{A}\\ ,\\\\&amp;\\text{通过计算得}|\\lambda\\mathbf{E}-\\mathbf{A}|=\\lambda(\\lambda-2)^{2}=0,\\text{所以}\\ \\lambda_{2}=\\lambda_{3}=2.\\end{aligned}\">\\begin{aligned}&amp;\\text{由于}\\ \\lambda_{1}=0\\ \\text{为矩阵A的特征值知}|\\mathbf{-A}|=0,\\text{从而}|\\mathbf{A}|=2(a-1)=0,\\text{故}a=1.\\text{把}a=1\\text{代入矩阵}\\mathbf{A}\\ ,\\\\&amp;\\text{通过计算得}|\\lambda\\mathbf{E}-\\mathbf{A}|=\\lambda(\\lambda-2)^{2}=0,\\text{所以}\\ \\lambda_{2}=\\lambda_{3}=2.\\end{aligned}</div>"
     },
     {
       "id": "q0015",
       "number": 15,
       "header": "#15-Averge",
       "difficulty": "Averge",
-      "prompt_html": "<img src=\"/static/generated/assets/linear-algebra/ch011/q0015_prompt.png\"/>",
+      "prompt_html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{设} \\ \\lambda = 2 \\text{是可逆矩阵} A \\text{的一个特征值，则矩阵} E + \\left[ \\frac{1}{2} A^{3} \\right]^{-1} \\text{有一个特征值为} (\\ \\ ).\">\\text{设} \\ \\lambda = 2 \\text{是可逆矩阵} A \\text{的一个特征值，则矩阵} E + \\left[ \\frac{1}{2} A^{3} \\right]^{-1} \\text{有一个特征值为} (\\ \\ ).</span>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/linear-algebra/ch011/q0015_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"5\">5</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/linear-algebra/ch011/q0015_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\frac{5}{4}\">\\frac{5}{4}</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/linear-algebra/ch011/q0015_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\frac { 4 } { 5 }\">\\frac { 4 } { 5 }</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/linear-algebra/ch011/q0015_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\frac { 1 } { 4 }\">\\frac { 1 } { 4 }</span>"
         }
       ],
       "answer": "B",
       "answer_index": 1,
-      "analysis_html": "<img src=\"/static/generated/assets/linear-algebra/ch011/q0015_analysis.png\"/>"
+      "analysis_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{array}{l} \\text {若} \\lambda \\text {是可逆矩阵} A \\text {的特征值，则} E + \\left[ \\frac{1}{2} A^{3} \\right]^{-1} \\text {的特征值为} 1 + \\frac{2}{\\lambda^{3}}, \\text {则所求矩阵有一个特征值} \\\\ 1 + \\frac{2}{8} = \\frac{5}{4}. \\end{array}\">\\begin{array}{l} \\text {若} \\lambda \\text {是可逆矩阵} A \\text {的特征值，则} E + \\left[ \\frac{1}{2} A^{3} \\right]^{-1} \\text {的特征值为} 1 + \\frac{2}{\\lambda^{3}}, \\text {则所求矩阵有一个特征值} \\\\ 1 + \\frac{2}{8} = \\frac{5}{4}. \\end{array}</div>"
     },
     {
       "id": "q0016",
       "number": 16,
       "header": "#16-Averge",
       "difficulty": "Averge",
-      "prompt_html": "<img src=\"/static/generated/assets/linear-algebra/ch011/q0016_prompt.png\"/>",
+      "prompt_html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{设} n \\text{阶矩阵} A \\text{满足关系式} A^{2}+kA+6E=0, \\text{且} A \\text{有特征值} 2, \\text{则} k=(\\ \\ ).\">\\text{设} n \\text{阶矩阵} A \\text{满足关系式} A^{2}+kA+6E=0, \\text{且} A \\text{有特征值} 2, \\text{则} k=(\\ \\ ).</span>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/linear-algebra/ch011/q0016_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"4\">4</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/linear-algebra/ch011/q0016_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"- 5\">- 5</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/linear-algebra/ch011/q0016_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"5\">5</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/linear-algebra/ch011/q0016_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\mathbf { 0 }\">\\mathbf { 0 }</span>"
         }
       ],
       "answer": "B",
       "answer_index": 1,
-      "analysis_html": "<img src=\"/static/generated/assets/linear-algebra/ch011/q0016_analysis.png\"/>"
+      "analysis_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{array}{l} \\text {设 A 的特征值} \\lambda , \\text {对应的特征向量为} \\alpha , \\text {则由} A \\alpha = \\lambda \\alpha , \\text {得} \\\\ \\left( A ^ { 2 } + k A + 6 E \\right) \\alpha = \\left( \\lambda ^ { 2 } + k \\lambda + 6 \\right) \\alpha = 0 . \\text {因为} \\alpha \\neq 0 , \\text {所以} \\lambda ^ { 2 } + k \\lambda + 6 = 0 . \\text {令} \\lambda = 2 , \\text {则有} \\\\ 4 + 2 k + 6 = 0 , \\text {故} k = - 5 . \\end{array}\">\\begin{array}{l} \\text {设 A 的特征值} \\lambda , \\text {对应的特征向量为} \\alpha , \\text {则由} A \\alpha = \\lambda \\alpha , \\text {得} \\\\ \\left( A ^ { 2 } + k A + 6 E \\right) \\alpha = \\left( \\lambda ^ { 2 } + k \\lambda + 6 \\right) \\alpha = 0 . \\text {因为} \\alpha \\neq 0 , \\text {所以} \\lambda ^ { 2 } + k \\lambda + 6 = 0 . \\text {令} \\lambda = 2 , \\text {则有} \\\\ 4 + 2 k + 6 = 0 , \\text {故} k = - 5 . \\end{array}</div>"
     },
     {
       "id": "q0017",
       "number": 17,
       "header": "#17-Averge",
       "difficulty": "Averge",
-      "prompt_html": "<img src=\"/static/generated/assets/linear-algebra/ch011/q0017_prompt.png\"/>",
+      "prompt_html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{设}3\\text{阶矩阵}A\\text{的特征值为}1,2,3, \\text{则矩阵}6A^{*}\\text{的三个特征值为}( ).\">\\text{设}3\\text{阶矩阵}A\\text{的特征值为}1,2,3, \\text{则矩阵}6A^{*}\\text{的三个特征值为}( ).</span>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/linear-algebra/ch011/q0017_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"1, \\frac{1}{2}, \\frac{1}{3}\">1, \\frac{1}{2}, \\frac{1}{3}</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/linear-algebra/ch011/q0017_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\textbf{36}, \\textbf{18}, \\textbf{12}\">\\textbf{36}, \\textbf{18}, \\textbf{12}</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/linear-algebra/ch011/q0017_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\mathbf { 6 , 3 , 2 }\">\\mathbf { 6 , 3 , 2 }</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/linear-algebra/ch011/q0017_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\textbf{6, 12, 36}\">\\textbf{6, 12, 36}</span>"
         }
       ],
       "answer": "B",
       "answer_index": 1,
-      "analysis_html": "<img src=\"/static/generated/assets/linear-algebra/ch011/q0017_analysis.png\"/>"
+      "analysis_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{aligned} \\text{由于} \\, AA^* = |A|E \\Rightarrow A^* = |A|A^{-1}, \\text{而} \\, |A| = 1 \\times 2 \\times 3 = 6, \\text{故} \\, 6A^* = 6 |A| A^{-1} = 36 A^{-1}, \\text{故有特征值} \\frac{36}{\\lambda}, \\text{即} \\, 36, 18, 12. \\end{aligned}\">\\begin{aligned} \\text{由于} \\, AA^* = |A|E \\Rightarrow A^* = |A|A^{-1}, \\text{而} \\, |A| = 1 \\times 2 \\times 3 = 6, \\text{故} \\, 6A^* = 6 |A| A^{-1} = 36 A^{-1}, \\text{故有特征值} \\frac{36}{\\lambda}, \\text{即} \\, 36, 18, 12. \\end{aligned}</div>"
     },
     {
       "id": "q0018",
       "number": 18,
       "header": "#18-Averge",
       "difficulty": "Averge",
-      "prompt_html": "<img src=\"/static/generated/assets/linear-algebra/ch011/q0018_prompt.png\"/>",
+      "prompt_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{array}{l} \\text {若} A \\text {为} n \\text {阶矩阵},|A|\\neq 0,A^{*} \\text {为} A \\text {的伴随矩阵},E \\text {为} n \\text {阶单位矩阵,若} A \\text {有特征值} \\lambda \\text {则} \\\\ (A^{*})^{2}+E \\text {必有特征值}(\\quad). \\end{array}\">\\begin{array}{l} \\text {若} A \\text {为} n \\text {阶矩阵},|A|\\neq 0,A^{*} \\text {为} A \\text {的伴随矩阵},E \\text {为} n \\text {阶单位矩阵,若} A \\text {有特征值} \\lambda \\text {则} \\\\ (A^{*})^{2}+E \\text {必有特征值}(\\quad). \\end{array}</div>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/linear-algebra/ch011/q0018_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\frac{|\\mathbf{A}|^{2}}{\\lambda}+1\">\\frac{|\\mathbf{A}|^{2}}{\\lambda}+1</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/linear-algebra/ch011/q0018_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\frac{|\\mathbf{A}|^{2}}{\\lambda^{2}}+1\">\\frac{|\\mathbf{A}|^{2}}{\\lambda^{2}}+1</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/linear-algebra/ch011/q0018_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\frac{|\\mathbf{A}|^{2}}{\\lambda^{2}}\">\\frac{|\\mathbf{A}|^{2}}{\\lambda^{2}}</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/linear-algebra/ch011/q0018_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\frac{|\\mathbf{A}|}{\\lambda^{2}}+1\">\\frac{|\\mathbf{A}|}{\\lambda^{2}}+1</span>"
         }
       ],
       "answer": "B",
       "answer_index": 1,
-      "analysis_html": "<img src=\"/static/generated/assets/linear-algebra/ch011/q0018_analysis.png\"/>"
+      "analysis_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{aligned}&amp;\\text{由于}|\\mathsf{A}|\\neq 0,\\text{从而}\\ \\lambda\\neq 0.\\text{设}\\ \\alpha\\text{是}\\ \\mathsf{A}\\text{对应于}\\ \\lambda\\text{的特征向量，则有}\\ \\mathsf{A}\\alpha=\\lambda\\alpha,\\text{从而}\\\\&amp;|\\mathsf{A}|\\mathsf{A}^{-1}\\alpha=\\frac{|\\mathsf{A}|}{\\lambda}\\alpha,\\text{即}\\ \\mathsf{A}^{*}\\alpha=\\frac{|\\mathsf{A}|}{\\lambda}\\alpha,\\quad\\text{而}\\ \\left(\\mathsf{A}^{*}\\right)^{2}\\alpha=\\left(\\frac{|\\mathsf{A}|}{\\lambda}\\right)^{2}\\alpha,\\text{另一方面，}\\ \\mathsf{E}\\alpha=\\mathsf{1}\\alpha.\\text{所以}\\\\&amp;\\left[\\left(\\mathsf{A}^{*}\\right)^{2}+\\mathsf{E}\\right]\\alpha=\\left[\\left(\\frac{|\\mathsf{A}|}{\\lambda}\\right)^{2}+1\\right]\\alpha,\\end{aligned}\">\\begin{aligned}&amp;\\text{由于}|\\mathsf{A}|\\neq 0,\\text{从而}\\ \\lambda\\neq 0.\\text{设}\\ \\alpha\\text{是}\\ \\mathsf{A}\\text{对应于}\\ \\lambda\\text{的特征向量，则有}\\ \\mathsf{A}\\alpha=\\lambda\\alpha,\\text{从而}\\\\&amp;|\\mathsf{A}|\\mathsf{A}^{-1}\\alpha=\\frac{|\\mathsf{A}|}{\\lambda}\\alpha,\\text{即}\\ \\mathsf{A}^{*}\\alpha=\\frac{|\\mathsf{A}|}{\\lambda}\\alpha,\\quad\\text{而}\\ \\left(\\mathsf{A}^{*}\\right)^{2}\\alpha=\\left(\\frac{|\\mathsf{A}|}{\\lambda}\\right)^{2}\\alpha,\\text{另一方面，}\\ \\mathsf{E}\\alpha=\\mathsf{1}\\alpha.\\text{所以}\\\\&amp;\\left[\\left(\\mathsf{A}^{*}\\right)^{2}+\\mathsf{E}\\right]\\alpha=\\left[\\left(\\frac{|\\mathsf{A}|}{\\lambda}\\right)^{2}+1\\right]\\alpha,\\end{aligned}</div>"
     },
     {
       "id": "q0019",
       "number": 19,
       "header": "#19-Averge",
       "difficulty": "Averge",
-      "prompt_html": "<img src=\"/static/generated/assets/linear-algebra/ch011/q0019_prompt.png\"/>",
+      "prompt_html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{已知四阶矩阵} \\mathbf{A}\\,,\\ |\\mathbf{A}| = 2, \\text{又知} \\ 2\\mathbf{A} + \\mathbf{E} \\text{不可逆，则} \\mathbf{A}^{*} \\cdot \\mathbf{E} \\text{的一个特征值} \\lambda = (\\quad).\">\\text{已知四阶矩阵} \\mathbf{A}\\,,\\ |\\mathbf{A}| = 2, \\text{又知} \\ 2\\mathbf{A} + \\mathbf{E} \\text{不可逆，则} \\mathbf{A}^{*} \\cdot \\mathbf{E} \\text{的一个特征值} \\lambda = (\\quad).</span>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/linear-algebra/ch011/q0019_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\textcolor{blue}{3}\">\\textcolor{blue}{3}</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/linear-algebra/ch011/q0019_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\mathbf { 0 }\">\\mathbf { 0 }</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/linear-algebra/ch011/q0019_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"- 5\">- 5</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/linear-algebra/ch011/q0019_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"5\">5</span>"
         }
       ],
       "answer": "C",
       "answer_index": 2,
-      "analysis_html": "<img src=\"/static/generated/assets/linear-algebra/ch011/q0019_analysis.png\"/>"
+      "analysis_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{aligned} &amp; \\text{因为}2A+E\\text{不可逆，所以} |2A+E|=0, \\text{即} \\left|-2[-\\frac{1}{2}E-A]\\right|=(-2)^{4}\\left|-\\frac{1}{2}E-A\\right|=0, \\\\ &amp; \\text{可见}-\\frac{1}{2} \\text{是} A \\text{的特征值. 由于} |A|=2, A \\text{可逆，所以} A^{*} \\text{的一个特征值为} \\frac{|A|}{\\lambda}=-4, \\text{从而} A^{*}-E \\text{的一个特征值} \\lambda=-4-1=-5.\\end{aligned}\">\\begin{aligned} &amp; \\text{因为}2A+E\\text{不可逆，所以} |2A+E|=0, \\text{即} \\left|-2[-\\frac{1}{2}E-A]\\right|=(-2)^{4}\\left|-\\frac{1}{2}E-A\\right|=0, \\\\ &amp; \\text{可见}-\\frac{1}{2} \\text{是} A \\text{的特征值. 由于} |A|=2, A \\text{可逆，所以} A^{*} \\text{的一个特征值为} \\frac{|A|}{\\lambda}=-4, \\text{从而} A^{*}-E \\text{的一个特征值} \\lambda=-4-1=-5.\\end{aligned}</div>"
     },
     {
       "id": "q0020",
       "number": 20,
       "header": "#20-Averge",
       "difficulty": "Averge",
-      "prompt_html": "<img src=\"/static/generated/assets/linear-algebra/ch011/q0020_prompt.png\"/>",
+      "prompt_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{array}{l} \\text {设} A \\text {为} n \\text {阶实对称矩阵，} B \\text {为} n \\text {阶可逆矩阵，} Q \\text {为} n \\text {阶正交矩阵，则矩阵} [ \\quad ] \\text {必与矩阵} A \\\\ \\text {有相同的特征值}. \\end{array}\">\\begin{array}{l} \\text {设} A \\text {为} n \\text {阶实对称矩阵，} B \\text {为} n \\text {阶可逆矩阵，} Q \\text {为} n \\text {阶正交矩阵，则矩阵} [ \\quad ] \\text {必与矩阵} A \\\\ \\text {有相同的特征值}. \\end{array}</div>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/linear-algebra/ch011/q0020_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\mathbf { B } ^ { \\mathsf { T } } \\mathbf { Q } ^ { \\mathsf { T } } \\mathbf { A } \\mathbf { Q } \\mathbf { B }\">\\mathbf { B } ^ { \\mathsf { T } } \\mathbf { Q } ^ { \\mathsf { T } } \\mathbf { A } \\mathbf { Q } \\mathbf { B }</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/linear-algebra/ch011/q0020_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"(\\mathsf{B}^{-1})^{T}\\mathsf{Q}^{\\mathsf{T}}\\mathsf{A}\\mathsf{Q}\\mathsf{B}^{-1}\">(\\mathsf{B}^{-1})^{T}\\mathsf{Q}^{\\mathsf{T}}\\mathsf{A}\\mathsf{Q}\\mathsf{B}^{-1}</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/linear-algebra/ch011/q0020_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\mathbf{BQ}^{\\mathsf{T}}\\mathbf{AQ}(\\mathbf{B}^{\\mathsf{T}})^{-1}\">\\mathbf{BQ}^{\\mathsf{T}}\\mathbf{AQ}(\\mathbf{B}^{\\mathsf{T}})^{-1}</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/linear-algebra/ch011/q0020_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\mathbf { B } ^ { - 1 } \\mathbf { Q } ^ { \\mathsf { T } } \\mathbf { A } \\mathbf { Q } \\mathbf { B }\">\\mathbf { B } ^ { - 1 } \\mathbf { Q } ^ { \\mathsf { T } } \\mathbf { A } \\mathbf { Q } \\mathbf { B }</span>"
         }
       ],
       "answer": "D",
       "answer_index": 3,
-      "analysis_html": "<img src=\"/static/generated/assets/linear-algebra/ch011/q0020_analysis.png\"/>"
+      "analysis_html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{由于 } Q \\text{ 为 } n \\text{ 阶正交矩阵，则 } Q^{\\top} = Q^{-1}, \\text{ 故 } B^{-1} Q^{\\top} A Q B = (Q B)^{-1} A (Q B) \\text{ 与矩阵 } A \\text{ 相似，即有相同的特征值.}\">\\text{由于 } Q \\text{ 为 } n \\text{ 阶正交矩阵，则 } Q^{\\top} = Q^{-1}, \\text{ 故 } B^{-1} Q^{\\top} A Q B = (Q B)^{-1} A (Q B) \\text{ 与矩阵 } A \\text{ 相似，即有相同的特征值.}</span>"
     },
     {
       "id": "q0021",
       "number": 21,
       "header": "#21-Averge",
       "difficulty": "Averge",
-      "prompt_html": "<img src=\"/static/generated/assets/linear-algebra/ch011/q0021_prompt.png\"/>",
+      "prompt_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{array}{l} \\text{设3阶实对称矩阵A的特征值为：}\\lambda_{1}=\\lambda_{2}=4,\\lambda_{3}=2,\\text{向量}x_{1}=(1,1,1)^{\\prime},\\ x_{2}=(0,2,2)^{\\prime}\\text{都是}A\\text{的对应于}4\\text{的特征向量}，\\text{则}A\\text{的对应于}\\lambda_{3}=2\\text{的特征向量}x_{3}\\text{是}( ). \\end{array}\">\\begin{array}{l} \\text{设3阶实对称矩阵A的特征值为：}\\lambda_{1}=\\lambda_{2}=4,\\lambda_{3}=2,\\text{向量}x_{1}=(1,1,1)^{\\prime},\\ x_{2}=(0,2,2)^{\\prime}\\text{都是}A\\text{的对应于}4\\text{的特征向量}，\\text{则}A\\text{的对应于}\\lambda_{3}=2\\text{的特征向量}x_{3}\\text{是}( ). \\end{array}</div>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/linear-algebra/ch011/q0021_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"(0, 1, - 1) ^ { \\prime }\">(0, 1, - 1) ^ { \\prime }</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/linear-algebra/ch011/q0021_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\, x _ { 1 } , \\, x _ { 2 } \\, \\text{中某一个}\">\\, x _ { 1 } , \\, x _ { 2 } \\, \\text{中某一个}</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/linear-algebra/ch011/q0021_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{从已知条件尚无法确定}\">\\text{从已知条件尚无法确定}</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/linear-algebra/ch011/q0021_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"(2, 1, - 1) ^ { \\prime }\">(2, 1, - 1) ^ { \\prime }</span>"
         }
       ],
       "answer": "A",
       "answer_index": 0,
-      "analysis_html": "<img src=\"/static/generated/assets/linear-algebra/ch011/q0021_analysis.png\"/>"
+      "analysis_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{array}{l} \\text {由于实对称矩阵不同特征值的特征向量正交可知，则}\\ x_{3}\\cdot x_{1}^{\\mathrm{T}}{\\boldsymbol{=}}0,\\ x_{3}\\cdot x_{2}^{\\mathrm{T}}{\\boldsymbol{=}}0,\\text {可建立方程组}\\\\ \\text {直接求解也可将选项中的向量代入，则只有向量}(0,1,-1)^{\\prime}\\text {符合}. \\end{array}\">\\begin{array}{l} \\text {由于实对称矩阵不同特征值的特征向量正交可知，则}\\ x_{3}\\cdot x_{1}^{\\mathrm{T}}{\\boldsymbol{=}}0,\\ x_{3}\\cdot x_{2}^{\\mathrm{T}}{\\boldsymbol{=}}0,\\text {可建立方程组}\\\\ \\text {直接求解也可将选项中的向量代入，则只有向量}(0,1,-1)^{\\prime}\\text {符合}. \\end{array}</div>"
     },
     {
       "id": "q0022",
       "number": 22,
       "header": "#22-Averge",
       "difficulty": "Averge",
-      "prompt_html": "<img src=\"/static/generated/assets/linear-algebra/ch011/q0022_prompt.png\"/>",
+      "prompt_html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{若} \\ n \\text{阶可逆矩阵} A \\text{的每行元素之和均为} a ( a \\neq 0 ) , \\text{则数} (\\quad) \\text{一定是矩阵} 2 A^{-1} + 3 E \\text{的特征值，其中} E \\text{为} n \\text{阶单位矩阵.}\">\\text{若} \\ n \\text{阶可逆矩阵} A \\text{的每行元素之和均为} a ( a \\neq 0 ) , \\text{则数} (\\quad) \\text{一定是矩阵} 2 A^{-1} + 3 E \\text{的特征值，其中} E \\text{为} n \\text{阶单位矩阵.}</span>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/linear-algebra/ch011/q0022_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\frac { 2 } { a }\">\\frac { 2 } { a }</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/linear-algebra/ch011/q0022_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\frac{2}{a} + 3\">\\frac{2}{a} + 3</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/linear-algebra/ch011/q0022_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\frac{2}{a^{2}}+3\">\\frac{2}{a^{2}}+3</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/linear-algebra/ch011/q0022_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"2a + 3\">2a + 3</span>"
         }
       ],
       "answer": "B",
       "answer_index": 1,
-      "analysis_html": "<img src=\"/static/generated/assets/linear-algebra/ch011/q0022_analysis.png\"/>"
+      "analysis_html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\frac { 1 } { a } , 2 A ^ { - 1 } + 3 E \\text { 的特征值} \\frac { 2 } { a } + 3 .\">\\frac { 1 } { a } , 2 A ^ { - 1 } + 3 E \\text { 的特征值} \\frac { 2 } { a } + 3 .</span>"
     },
     {
       "id": "q0023",
       "number": 23,
       "header": "#23-Averge",
       "difficulty": "Averge",
-      "prompt_html": "<img src=\"/static/generated/assets/linear-algebra/ch011/q0023_prompt.png\"/>",
+      "prompt_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{array}{l} \\text{设 } 3 \\text{阶实对称矩阵 } A \\text{的特征值为：}\\lambda_{1}=\\lambda_{2}=2, \\lambda_{3}=8, \\text{对应于特征值}\\lambda_{1}=2 \\text{的特征向量} \\\\ x_{1}=(-1,1,0)^{\\prime},\\ x_{2}=(-1,0,1)^{\\prime}, \\text{则 } A \\text{的对应于}\\lambda_{3}=8 \\text{的特征向量}x_{3} \\text{是( }. \\end{array}\">\\begin{array}{l} \\text{设 } 3 \\text{阶实对称矩阵 } A \\text{的特征值为：}\\lambda_{1}=\\lambda_{2}=2, \\lambda_{3}=8, \\text{对应于特征值}\\lambda_{1}=2 \\text{的特征向量} \\\\ x_{1}=(-1,1,0)^{\\prime},\\ x_{2}=(-1,0,1)^{\\prime}, \\text{则 } A \\text{的对应于}\\lambda_{3}=8 \\text{的特征向量}x_{3} \\text{是( }. \\end{array}</div>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/linear-algebra/ch011/q0023_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"x_{1},x_{2}\\text{中某一个}\">x_{1},x_{2}\\text{中某一个}</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/linear-algebra/ch011/q0023_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"(1, 2, 3) ^ { \\prime }\">(1, 2, 3) ^ { \\prime }</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/linear-algebra/ch011/q0023_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"(1, 1, 1) ^ { \\prime }\">(1, 1, 1) ^ { \\prime }</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/linear-algebra/ch011/q0023_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{从已知条件尚无法确定}\">\\text{从已知条件尚无法确定}</span>"
         }
       ],
       "answer": "C",
       "answer_index": 2,
-      "analysis_html": "<img src=\"/static/generated/assets/linear-algebra/ch011/q0023_analysis.png\"/>"
+      "analysis_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{array}{l} \\text {由于实对称矩阵不同特征值的特征向量正交可知，则} \\ x_{3} \\cdot x_{1}^{\\mathrm{T}} = 0, \\ x_{3} \\cdot x_{2}^{\\mathrm{T}} = 0, \\text {可建立方程组} \\\\ \\text {直接求解也可将选项中的向量代入，则只有向量} (1, 1, 1)^{\\prime} \\text {符合}. \\end{array}\">\\begin{array}{l} \\text {由于实对称矩阵不同特征值的特征向量正交可知，则} \\ x_{3} \\cdot x_{1}^{\\mathrm{T}} = 0, \\ x_{3} \\cdot x_{2}^{\\mathrm{T}} = 0, \\text {可建立方程组} \\\\ \\text {直接求解也可将选项中的向量代入，则只有向量} (1, 1, 1)^{\\prime} \\text {符合}. \\end{array}</div>"
     },
     {
       "id": "q0024",
       "number": 24,
       "header": "#24-Averge",
       "difficulty": "Averge",
-      "prompt_html": "<img src=\"/static/generated/assets/linear-algebra/ch011/q0024_prompt.png\"/>",
+      "prompt_html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{设} \\lambda_{1}, \\lambda_{2} \\text{是矩阵} A \\text{的两个不同的特征值，对应的特征向量分别为} \\alpha_{1}, \\alpha_{2}. \\text{则} \\alpha_{1}, A(\\alpha_{1}+\\alpha_{2}) \\text{线性无关的充分必要条件是( }.\">\\text{设} \\lambda_{1}, \\lambda_{2} \\text{是矩阵} A \\text{的两个不同的特征值，对应的特征向量分别为} \\alpha_{1}, \\alpha_{2}. \\text{则} \\alpha_{1}, A(\\alpha_{1}+\\alpha_{2}) \\text{线性无关的充分必要条件是( }.</span>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/linear-algebra/ch011/q0024_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\lambda _ { 2 } { = } 0\">\\lambda _ { 2 } { = } 0</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/linear-algebra/ch011/q0024_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\lambda _ { 2 } \\neq 0\">\\lambda _ { 2 } \\neq 0</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/linear-algebra/ch011/q0024_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\lambda _ { 1 } { = } 0\">\\lambda _ { 1 } { = } 0</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/linear-algebra/ch011/q0024_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\lambda _ { 1 } \\neq 0\">\\lambda _ { 1 } \\neq 0</span>"
         }
       ],
       "answer": "B",
       "answer_index": 1,
-      "analysis_html": "<img src=\"/static/generated/assets/linear-algebra/ch011/q0024_analysis.png\"/>"
+      "analysis_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{aligned}&amp;\\text{由于}\\left[\\alpha_{1},\\mathbf{A}(\\alpha_{1}+\\alpha_{2})\\right]=\\left[\\alpha_{1},\\lambda_{1}\\alpha_{1}+\\lambda_{2}\\alpha_{2}\\right]=\\left[\\alpha_{1},\\alpha_{2}\\right]\\begin{bmatrix}1&amp;\\lambda_{1}\\\\0&amp;\\lambda_{2}\\end{bmatrix},\\text{可见}\\alpha_{1},\\mathbf{A}(\\alpha_{1}+\\alpha_{2})\\text{线性无关的}\\\\&amp;\\text{充要条件是}\\begin{vmatrix}1&amp;\\lambda_{1}\\\\0&amp;\\lambda_{2}\\end{vmatrix}=\\lambda_{2}\\neq 0.\\end{aligned}\">\\begin{aligned}&amp;\\text{由于}\\left[\\alpha_{1},\\mathbf{A}(\\alpha_{1}+\\alpha_{2})\\right]=\\left[\\alpha_{1},\\lambda_{1}\\alpha_{1}+\\lambda_{2}\\alpha_{2}\\right]=\\left[\\alpha_{1},\\alpha_{2}\\right]\\begin{bmatrix}1&amp;\\lambda_{1}\\\\0&amp;\\lambda_{2}\\end{bmatrix},\\text{可见}\\alpha_{1},\\mathbf{A}(\\alpha_{1}+\\alpha_{2})\\text{线性无关的}\\\\&amp;\\text{充要条件是}\\begin{vmatrix}1&amp;\\lambda_{1}\\\\0&amp;\\lambda_{2}\\end{vmatrix}=\\lambda_{2}\\neq 0.\\end{aligned}</div>"
     },
     {
       "id": "q0025",
       "number": 25,
       "header": "#25-Averge",
       "difficulty": "Averge",
-      "prompt_html": "<img src=\"/static/generated/assets/linear-algebra/ch011/q0025_prompt.png\"/>",
+      "prompt_html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{设}A \\text{是} n \\text{阶方阵，如果} Ax = 0 \\text{有非零解，则} A \\text{必有一个特征值是} ( \\quad).\">\\text{设}A \\text{是} n \\text{阶方阵，如果} Ax = 0 \\text{有非零解，则} A \\text{必有一个特征值是} ( \\quad).</span>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/linear-algebra/ch011/q0025_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\mathbf { 1 }\">\\mathbf { 1 }</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/linear-algebra/ch011/q0025_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\left| \\mathbf { A } \\right|\">\\left| \\mathbf { A } \\right|</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/linear-algebra/ch011/q0025_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\mathbf { 0 }\">\\mathbf { 0 }</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/linear-algebra/ch011/q0025_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\textbf { n }\">\\textbf { n }</span>"
         }
       ],
       "answer": "C",
       "answer_index": 2,
-      "analysis_html": "<img src=\"/static/generated/assets/linear-algebra/ch011/q0025_analysis.png\"/>"
+      "analysis_html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\mathbf{A}x = 0 \\text{有非零解} \\Leftrightarrow | \\mathbf{A} | = 0 \\Rightarrow | \\mathbf{A} | = \\lambda _{1} \\cdots \\lambda _{n} = 0 , \\text{所以} \\mathbf{A} \\text{必有一个特征值是} 0 .\">\\mathbf{A}x = 0 \\text{有非零解} \\Leftrightarrow | \\mathbf{A} | = 0 \\Rightarrow | \\mathbf{A} | = \\lambda _{1} \\cdots \\lambda _{n} = 0 , \\text{所以} \\mathbf{A} \\text{必有一个特征值是} 0 .</span>"
     },
     {
       "id": "q0026",
       "number": 26,
       "header": "#26-Averge",
       "difficulty": "Averge",
-      "prompt_html": "<img src=\"/static/generated/assets/linear-algebra/ch011/q0026_prompt.png\"/>",
+      "prompt_html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{设 } A \\text{ 是三阶方阵，且} | A - E | = | A + 2 E | = | 2 A + 3 E | = 0 , \\text{则} | 2 A ^ { * } - 3 E | = ( \\quad ) .\">\\text{设 } A \\text{ 是三阶方阵，且} | A - E | = | A + 2 E | = | 2 A + 3 E | = 0 , \\text{则} | 2 A ^ { * } - 3 E | = ( \\quad ) .</span>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/linear-algebra/ch011/q0026_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\mathbf { 116 }\">\\mathbf { 116 }</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/linear-algebra/ch011/q0026_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"136\">136</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/linear-algebra/ch011/q0026_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"126\">126</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/linear-algebra/ch011/q0026_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\mathbf { 106 }\">\\mathbf { 106 }</span>"
         }
       ],
       "answer": "C",
       "answer_index": 2,
-      "analysis_html": "<img src=\"/static/generated/assets/linear-algebra/ch011/q0026_analysis.png\"/>"
+      "analysis_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{aligned}&amp;|A-E|=|A+2E|=|2A+3E|=0,\\text{可得}A \\text{的特征值分别为}1,-2,-\\frac{3}{2}.\\ |A|=1\\cdot(-2)\\cdot(-\\frac{3}{2})=3.\\\\&amp;\\text{于是}2A^{*}-3E \\text{的特征值分别为}3,-6,-7.\\text{所以}|2A^{*}-3E|=3\\cdot(-6)\\cdot(-7)=126.\\end{aligned}\">\\begin{aligned}&amp;|A-E|=|A+2E|=|2A+3E|=0,\\text{可得}A \\text{的特征值分别为}1,-2,-\\frac{3}{2}.\\ |A|=1\\cdot(-2)\\cdot(-\\frac{3}{2})=3.\\\\&amp;\\text{于是}2A^{*}-3E \\text{的特征值分别为}3,-6,-7.\\text{所以}|2A^{*}-3E|=3\\cdot(-6)\\cdot(-7)=126.\\end{aligned}</div>"
     },
     {
       "id": "q0027",
       "number": 27,
       "header": "#27-Averge",
       "difficulty": "Averge",
-      "prompt_html": "<img src=\"/static/generated/assets/linear-algebra/ch011/q0027_prompt.png\"/>",
+      "prompt_html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{n阶矩阵} \\, A \\text{以} 0 \\text{为特征值是} \\, A \\text{为奇异矩阵的} ( \\quad ).\">\\text{n阶矩阵} \\, A \\text{以} 0 \\text{为特征值是} \\, A \\text{为奇异矩阵的} ( \\quad ).</span>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/linear-algebra/ch011/q0027_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{必要非充分条件}\">\\text{必要非充分条件}</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/linear-algebra/ch011/q0027_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{充分必要条件}\">\\text{充分必要条件}</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/linear-algebra/ch011/q0027_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{既非充分也非必要条件}\">\\text{既非充分也非必要条件}</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/linear-algebra/ch011/q0027_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{充分非必要条件}\">\\text{充分非必要条件}</span>"
         }
       ],
       "answer": "B",
       "answer_index": 1,
-      "analysis_html": "<img src=\"/static/generated/assets/linear-algebra/ch011/q0027_analysis.png\"/>"
+      "analysis_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{array}{l} \\text {是充分必要条件}. \\\\ \\text {若} \\lambda = 0 \\text {是矩阵} A \\text {的特征值，则存在非零向量} \\alpha \\text {使得} A \\alpha = 0 \\alpha = 0 \\text {，即齐次线性方程组} A x = 0 \\text {有非零解，故} | A | = 0 \\text {；反之，若} A \\text {是奇异矩阵，即} | A | = 0 \\text {，则} | A - 0 E | = 0 \\text {，即} \\lambda = 0 \\text {为矩阵} A \\text {的特征值}. \\end{array}\">\\begin{array}{l} \\text {是充分必要条件}. \\\\ \\text {若} \\lambda = 0 \\text {是矩阵} A \\text {的特征值，则存在非零向量} \\alpha \\text {使得} A \\alpha = 0 \\alpha = 0 \\text {，即齐次线性方程组} A x = 0 \\text {有非零解，故} | A | = 0 \\text {；反之，若} A \\text {是奇异矩阵，即} | A | = 0 \\text {，则} | A - 0 E | = 0 \\text {，即} \\lambda = 0 \\text {为矩阵} A \\text {的特征值}. \\end{array}</div>"
     },
     {
       "id": "q0028",
       "number": 28,
       "header": "#28-Averge",
       "difficulty": "Averge",
-      "prompt_html": "<img src=\"/static/generated/assets/linear-algebra/ch011/q0028_prompt.png\"/>",
+      "prompt_html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{设}3\\text{阶矩阵}A\\text{的特征值为}-1,3,4,\\text{则}A\\text{的伴随矩阵}A^{*}\\text{的特征值为}( ).\">\\text{设}3\\text{阶矩阵}A\\text{的特征值为}-1,3,4,\\text{则}A\\text{的伴随矩阵}A^{*}\\text{的特征值为}( ).</span>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/linear-algebra/ch011/q0028_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\textbf { 1 , 3 , 4 }\">\\textbf { 1 , 3 , 4 }</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/linear-algebra/ch011/q0028_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\textbf { 12 , - 4 , - 3 }\">\\textbf { 12 , - 4 , - 3 }</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/linear-algebra/ch011/q0028_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\textbf { 2 , 5 , 6 }\">\\textbf { 2 , 5 , 6 }</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/linear-algebra/ch011/q0028_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"- 1 , \\ 6 , \\ 9\">- 1 , \\ 6 , \\ 9</span>"
         }
       ],
       "answer": "B",
       "answer_index": 1,
-      "analysis_html": "<img src=\"/static/generated/assets/linear-algebra/ch011/q0028_analysis.png\"/>"
+      "analysis_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{aligned}&amp;\\text{AA}^*=\\text{A|}\\text{E}\\Rightarrow \\text{A}^*=\\text{A|}\\text{A}^{-1},\\ \\text{而}\\ |\\text{A}|=-1\\times 3\\times 4=-12,\\ \\text{故}\\ \\text{A}^*\\text{的特征值为}\\ \\frac{|\\text{A}|}{\\lambda},\\ \\text{即}\\\\&amp;\\frac{-12}{-1}=12,\\frac{-12}{3}=-4,\\frac{-12}{4}=3.\\end{aligned}\">\\begin{aligned}&amp;\\text{AA}^*=\\text{A|}\\text{E}\\Rightarrow \\text{A}^*=\\text{A|}\\text{A}^{-1},\\ \\text{而}\\ |\\text{A}|=-1\\times 3\\times 4=-12,\\ \\text{故}\\ \\text{A}^*\\text{的特征值为}\\ \\frac{|\\text{A}|}{\\lambda},\\ \\text{即}\\\\&amp;\\frac{-12}{-1}=12,\\frac{-12}{3}=-4,\\frac{-12}{4}=3.\\end{aligned}</div>"
     },
     {
       "id": "q0029",
       "number": 29,
       "header": "#29-Averge",
       "difficulty": "Averge",
-      "prompt_html": "<img src=\"/static/generated/assets/linear-algebra/ch011/q0029_prompt.png\"/>",
+      "prompt_html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{设} \\lambda = 2 \\text{是非奇异矩阵} A \\text{的一个特征值，则矩阵} \\left[ \\frac{1}{3} A^{2} \\right]^{-1} \\text{有一个特征值为} (\\quad).\">\\text{设} \\lambda = 2 \\text{是非奇异矩阵} A \\text{的一个特征值，则矩阵} \\left[ \\frac{1}{3} A^{2} \\right]^{-1} \\text{有一个特征值为} (\\quad).</span>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/linear-algebra/ch011/q0029_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\frac { 1 } { 4 }\">\\frac { 1 } { 4 }</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/linear-algebra/ch011/q0029_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\frac { 1 } { 2 }\">\\frac { 1 } { 2 }</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/linear-algebra/ch011/q0029_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\frac { 4 } { 3 }\">\\frac { 4 } { 3 }</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/linear-algebra/ch011/q0029_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\frac{3}{4}\">\\frac{3}{4}</span>"
         }
       ],
       "answer": "D",
       "answer_index": 3,
-      "analysis_html": "<img src=\"/static/generated/assets/linear-algebra/ch011/q0029_analysis.png\"/>"
+      "analysis_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{array}{l} \\text {设与}\\lambda=2 \\text {对应的特征向量为}x, \\text {则}Ax=2x, \\text {两边同乘}A, \\text {得} \\\\ A^{2}x=A(2x)=2Ax=4x, \\frac{1}{3}A^{2}x=\\frac{4}{3}x, \\text {由于}A^{-1}\\text{的特征值为}\\frac{1}{\\lambda}\\text{的性质可知}, \\left[ \\frac{1}{3}A^{2}\\right]^{-1} \\text {有特征值} \\frac{3}{4}. \\end{array}\">\\begin{array}{l} \\text {设与}\\lambda=2 \\text {对应的特征向量为}x, \\text {则}Ax=2x, \\text {两边同乘}A, \\text {得} \\\\ A^{2}x=A(2x)=2Ax=4x, \\frac{1}{3}A^{2}x=\\frac{4}{3}x, \\text {由于}A^{-1}\\text{的特征值为}\\frac{1}{\\lambda}\\text{的性质可知}, \\left[ \\frac{1}{3}A^{2}\\right]^{-1} \\text {有特征值} \\frac{3}{4}. \\end{array}</div>"
     },
     {
       "id": "q0030",
       "number": 30,
       "header": "#30-Averge",
       "difficulty": "Averge",
-      "prompt_html": "<img src=\"/static/generated/assets/linear-algebra/ch011/q0030_prompt.png\"/>",
+      "prompt_html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{已知}\\ \\xi_{1},\\ \\xi_{2} \\text{是方程}(\\lambda E-A)x=0\\text{两个不同的解向量}，\\text{则下列向量中}，\\text{必是} A \\text{的对应于特征值} \\lambda \\text{的特征向量的是}( ).\">\\text{已知}\\ \\xi_{1},\\ \\xi_{2} \\text{是方程}(\\lambda E-A)x=0\\text{两个不同的解向量}，\\text{则下列向量中}，\\text{必是} A \\text{的对应于特征值} \\lambda \\text{的特征向量的是}( ).</span>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/linear-algebra/ch011/q0030_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\xi _ { 1 }\">\\xi _ { 1 }</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/linear-algebra/ch011/q0030_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\xi _ { 2 }\">\\xi _ { 2 }</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/linear-algebra/ch011/q0030_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\xi _ { 1 } - \\xi _ { 2 }\">\\xi _ { 1 } - \\xi _ { 2 }</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/linear-algebra/ch011/q0030_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\xi _ { 1 } + \\xi _ { 2 }\">\\xi _ { 1 } + \\xi _ { 2 }</span>"
         }
       ],
       "answer": "C",
       "answer_index": 2,
-      "analysis_html": "<img src=\"/static/generated/assets/linear-algebra/ch011/q0030_analysis.png\"/>"
+      "analysis_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{array}{l} \\text {由特征向量的定义可知，A的对应于特征值} \\lambda \\text {的特征向量是齐次线性方程组} (\\lambda E - A) x = 0 \\text {的非零解，由于} \\xi_{1} \\neq \\xi_{2}, \\text {则} \\quad \\xi_{1} - \\xi_{2} \\neq 0, \\text {且} \\xi_{1} - \\xi_{2} \\text {是} (\\lambda E - A) x = 0 \\text {的解，因此是} \\lambda \\text {的特征向量其它选项中的向量不一定非零向量}. \\end{array}\">\\begin{array}{l} \\text {由特征向量的定义可知，A的对应于特征值} \\lambda \\text {的特征向量是齐次线性方程组} (\\lambda E - A) x = 0 \\text {的非零解，由于} \\xi_{1} \\neq \\xi_{2}, \\text {则} \\quad \\xi_{1} - \\xi_{2} \\neq 0, \\text {且} \\xi_{1} - \\xi_{2} \\text {是} (\\lambda E - A) x = 0 \\text {的解，因此是} \\lambda \\text {的特征向量其它选项中的向量不一定非零向量}. \\end{array}</div>"
     }
-  ]
+  ],
+  "format": "latex",
+  "source_md": "xd/矩阵特征值和特征向量(35题)/矩阵特征值和特征向量(35题).md"
 }

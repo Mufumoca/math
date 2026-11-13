@@ -13,952 +13,954 @@
       "number": 1,
       "header": "#1-Averge",
       "difficulty": "Averge",
-      "prompt_html": "<img src=\"/static/generated/assets/advanced-math/ch083/q0001_prompt.png\"/>",
+      "prompt_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{array}{l} \\text{设级数} \\sum_{n=1}^{\\infty} \\frac{2n-1}{\\sqrt{2^{n}}} \\text{(1)和级数} \\sum_{n=1}^{\\infty} \\frac{n^{5}}{2^{n}} \\text{(2),}\\text{其敛散的判定结果是} [ \\quad]..  \\end{array}\">\\begin{array}{l} \\text{设级数} \\sum_{n=1}^{\\infty} \\frac{2n-1}{\\sqrt{2^{n}}} \\text{(1)和级数} \\sum_{n=1}^{\\infty} \\frac{n^{5}}{2^{n}} \\text{(2),}\\text{其敛散的判定结果是} [ \\quad]..  \\end{array}</div>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch083/q0001_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"(1) \\text{和} (2) \\text{都收敛};\">(1) \\text{和} (2) \\text{都收敛};</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch083/q0001_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"(1) \\text{发散}, \\, (2) \\text{收敛};\">(1) \\text{发散}, \\, (2) \\text{收敛};</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch083/q0001_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"(1) \\text {和} (2) \\text {都发散}.\">(1) \\text {和} (2) \\text {都发散}.</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch083/q0001_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"(1) \\text{收敛},\\ (2) \\text{发散};\">(1) \\text{收敛},\\ (2) \\text{发散};</span>"
         }
       ],
       "answer": "A",
       "answer_index": 0,
-      "analysis_html": "<img src=\"/static/generated/assets/advanced-math/ch083/q0001_analysis.png\"/>"
+      "analysis_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{array}{l} \\text {解答} u_{n} = \\frac{2n-1}{\\sqrt{2^{n}}}, \\lim_{n \\to \\infty} \\frac{u_{n+1}}{u_{n}} = \\lim_{n \\to \\infty} \\frac{1}{\\sqrt{2}} \\cdot \\frac{2n+1}{2n-1} = \\frac{\\sqrt{2}}{2} &lt; 1, \\text {所以(1)收敛}. \\\\ \\\\ u_{n} = \\frac{n^{5}}{2^{n}}, \\lim_{n \\to \\infty} \\frac{u_{n+1}}{u_{n}} = \\frac{1}{2} \\lim_{n \\to \\infty} (1+\\frac{1}{n})^{5} = \\frac{1}{2} &lt; 1, \\text {所以(2)收敛}. \\end{array}\">\\begin{array}{l} \\text {解答} u_{n} = \\frac{2n-1}{\\sqrt{2^{n}}}, \\lim_{n \\to \\infty} \\frac{u_{n+1}}{u_{n}} = \\lim_{n \\to \\infty} \\frac{1}{\\sqrt{2}} \\cdot \\frac{2n+1}{2n-1} = \\frac{\\sqrt{2}}{2} &lt; 1, \\text {所以(1)收敛}. \\\\ \\\\ u_{n} = \\frac{n^{5}}{2^{n}}, \\lim_{n \\to \\infty} \\frac{u_{n+1}}{u_{n}} = \\frac{1}{2} \\lim_{n \\to \\infty} (1+\\frac{1}{n})^{5} = \\frac{1}{2} &lt; 1, \\text {所以(2)收敛}. \\end{array}</div>"
     },
     {
       "id": "q0002",
       "number": 2,
       "header": "#2-Averge",
       "difficulty": "Averge",
-      "prompt_html": "<img src=\"/static/generated/assets/advanced-math/ch083/q0002_prompt.png\"/>",
+      "prompt_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{array}{l} \\text {下列级数发散的有[ ].} \\\\ (1) \\frac{2}{1 \\cdot 2} + \\frac{2^{2}}{2 \\cdot 3} + \\frac{2^{3}}{3 \\cdot 4} + \\frac{2^{4}}{4 \\cdot 5} + \\cdots ; \\quad (2) \\sum_{n = 1}^{\\infty} \\frac{4^{n}}{5^{n} - 3^{n}} ; \\quad (3) \\sum_{n = 1}^{\\infty} n (\\frac{3}{5})^{n}. \\end{array}\">\\begin{array}{l} \\text {下列级数发散的有[ ].} \\\\ (1) \\frac{2}{1 \\cdot 2} + \\frac{2^{2}}{2 \\cdot 3} + \\frac{2^{3}}{3 \\cdot 4} + \\frac{2^{4}}{4 \\cdot 5} + \\cdots ; \\quad (2) \\sum_{n = 1}^{\\infty} \\frac{4^{n}}{5^{n} - 3^{n}} ; \\quad (3) \\sum_{n = 1}^{\\infty} n (\\frac{3}{5})^{n}. \\end{array}</div>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch083/q0002_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"2 \\text{个};\">2 \\text{个};</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch083/q0002_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"1 \\text{个};\">1 \\text{个};</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch083/q0002_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"0 \\text{ 个};\">0 \\text{ 个};</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch083/q0002_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"3 \\text{个.}\">3 \\text{个.}</span>"
         }
       ],
       "answer": "B",
       "answer_index": 1,
-      "analysis_html": "<img src=\"/static/generated/assets/advanced-math/ch083/q0002_analysis.png\"/>"
+      "analysis_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{aligned}&amp;\\text{解答(1)}\\lim_{n\\rightarrow \\infty}\\frac{u_{n+1}}{u_{n}}=\\lim_{n\\rightarrow \\infty}\\frac{\\frac{2^{n+1}}{(n+1)\\cdot(n+2)}}{\\frac{2^{n}}{n(n+1)}}=\\lim_{n\\rightarrow \\infty}\\frac{2n}{n+2}=2&gt;1.\\quad\\\\&amp;\\text{所以级数发散.}\\\\&amp;(2)\\lim_{n\\rightarrow \\infty}\\frac{u_{n+1}}{u_{n}}=4\\lim_{n\\rightarrow \\infty}\\frac{5^{n}-3^{n}}{5^{n+1}-3^{n+1}}=4\\lim_{n\\rightarrow \\infty}\\frac{1-(\\frac{3}{5})^{n}}{5-3(\\frac{3}{5})^{n}}=\\frac{4}{5}&lt;1.\\quad\\\\&amp;\\text{所以级数收敛.}\\\\&amp;(3)\\lim_{n\\rightarrow \\infty}\\frac{u_{n+1}}{u_{n}}=\\lim_{n\\rightarrow \\infty}\\frac{(n+1)(\\frac{3}{5})^{n+1}}{n(\\frac{3}{5})^{n}}=\\lim_{n\\rightarrow \\infty}\\frac{(n+1)}{n}(\\frac{3}{5})^{n}=\\frac{3}{5}&lt;1.\\quad\\\\&amp;\\text{所以级数收敛.}\\end{aligned}\">\\begin{aligned}&amp;\\text{解答(1)}\\lim_{n\\rightarrow \\infty}\\frac{u_{n+1}}{u_{n}}=\\lim_{n\\rightarrow \\infty}\\frac{\\frac{2^{n+1}}{(n+1)\\cdot(n+2)}}{\\frac{2^{n}}{n(n+1)}}=\\lim_{n\\rightarrow \\infty}\\frac{2n}{n+2}=2&gt;1.\\quad\\\\&amp;\\text{所以级数发散.}\\\\&amp;(2)\\lim_{n\\rightarrow \\infty}\\frac{u_{n+1}}{u_{n}}=4\\lim_{n\\rightarrow \\infty}\\frac{5^{n}-3^{n}}{5^{n+1}-3^{n+1}}=4\\lim_{n\\rightarrow \\infty}\\frac{1-(\\frac{3}{5})^{n}}{5-3(\\frac{3}{5})^{n}}=\\frac{4}{5}&lt;1.\\quad\\\\&amp;\\text{所以级数收敛.}\\\\&amp;(3)\\lim_{n\\rightarrow \\infty}\\frac{u_{n+1}}{u_{n}}=\\lim_{n\\rightarrow \\infty}\\frac{(n+1)(\\frac{3}{5})^{n+1}}{n(\\frac{3}{5})^{n}}=\\lim_{n\\rightarrow \\infty}\\frac{(n+1)}{n}(\\frac{3}{5})^{n}=\\frac{3}{5}&lt;1.\\quad\\\\&amp;\\text{所以级数收敛.}\\end{aligned}</div>"
     },
     {
       "id": "q0003",
       "number": 3,
       "header": "#3-Averge",
       "difficulty": "Averge",
-      "prompt_html": "<img src=\"/static/generated/assets/advanced-math/ch083/q0003_prompt.png\"/>",
+      "prompt_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{aligned} \\text{下列题中由公式定义的级数} \\sum_{n=1}^{\\infty} a_{n},\\text{发散的有[ }.1)\\ a_{1}=2,a_{n+1}=\\frac{1+\\sin n}{n}a_{n};2) a_{1}=\\frac{1}{3},a_{n+1}=\\frac{3n-1}{2n+5}a_{n};3) a_{1}=\\frac{1}{3},a_{n+1}=\\sqrt{a_{n}}.\\end{aligned}\">\\begin{aligned} \\text{下列题中由公式定义的级数} \\sum_{n=1}^{\\infty} a_{n},\\text{发散的有[ }.1)\\ a_{1}=2,a_{n+1}=\\frac{1+\\sin n}{n}a_{n};2) a_{1}=\\frac{1}{3},a_{n+1}=\\frac{3n-1}{2n+5}a_{n};3) a_{1}=\\frac{1}{3},a_{n+1}=\\sqrt{a_{n}}.\\end{aligned}</div>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch083/q0003_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"3 \\text{ 个.}\">3 \\text{ 个.}</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch083/q0003_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"1 \\text{个};\">1 \\text{个};</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch083/q0003_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"2 \\text{个};\">2 \\text{个};</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch083/q0003_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"0 \\text{ 个};\">0 \\text{ 个};</span>"
         }
       ],
       "answer": "C",
       "answer_index": 2,
-      "analysis_html": "<img src=\"/static/generated/assets/advanced-math/ch083/q0003_analysis.png\"/>"
+      "analysis_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{aligned}&amp;\\text{解答(1)当}n&gt;1\\text{时,用比值判别法} \\quad \\lim_{n\\rightarrow \\infty}\\frac{a_{n+1}}{a_{n}}=\\lim_{n\\rightarrow \\infty}\\frac{1+\\sin n}{n}=0&lt;1, \\\\&amp;\\text{所以级数}\\sum_{n=1}^{\\infty}a_{n}\\text{收敛.}\\\\&amp;\\text{(2)当}n&gt;1\\text{时,用比值判别法} \\quad \\lim_{n\\rightarrow \\infty}\\frac{a_{n+1}}{a_{n}}=\\lim_{n\\rightarrow \\infty}\\frac{3n-1}{2n+5}=\\frac{3}{2}&gt;1, \\\\&amp;\\text{所以级数}\\sum_{n=1}^{\\infty}a_{n}\\text{发散.}\\\\&amp;\\text{(3)由已知公式可知,} \\quad a_{n}=(\\frac{1}{3})^{\\frac{1}{2^{n+1}}}, \\\\&amp;\\text{因为}\\lim_{n\\rightarrow \\infty}a_{n}=\\lim_{n\\rightarrow \\infty}(\\frac{1}{3})^{\\frac{1}{2^{n+1}}}=1\\neq 0, \\text{所以级数}\\sum_{n=1}^{\\infty}a_{n}\\text{发散.}\\end{aligned}\">\\begin{aligned}&amp;\\text{解答(1)当}n&gt;1\\text{时,用比值判别法} \\quad \\lim_{n\\rightarrow \\infty}\\frac{a_{n+1}}{a_{n}}=\\lim_{n\\rightarrow \\infty}\\frac{1+\\sin n}{n}=0&lt;1, \\\\&amp;\\text{所以级数}\\sum_{n=1}^{\\infty}a_{n}\\text{收敛.}\\\\&amp;\\text{(2)当}n&gt;1\\text{时,用比值判别法} \\quad \\lim_{n\\rightarrow \\infty}\\frac{a_{n+1}}{a_{n}}=\\lim_{n\\rightarrow \\infty}\\frac{3n-1}{2n+5}=\\frac{3}{2}&gt;1, \\\\&amp;\\text{所以级数}\\sum_{n=1}^{\\infty}a_{n}\\text{发散.}\\\\&amp;\\text{(3)由已知公式可知,} \\quad a_{n}=(\\frac{1}{3})^{\\frac{1}{2^{n+1}}}, \\\\&amp;\\text{因为}\\lim_{n\\rightarrow \\infty}a_{n}=\\lim_{n\\rightarrow \\infty}(\\frac{1}{3})^{\\frac{1}{2^{n+1}}}=1\\neq 0, \\text{所以级数}\\sum_{n=1}^{\\infty}a_{n}\\text{发散.}\\end{aligned}</div>"
     },
     {
       "id": "q0004",
       "number": 4,
       "header": "#4-Averge",
       "difficulty": "Averge",
-      "prompt_html": "<img src=\"/static/generated/assets/advanced-math/ch083/q0004_prompt.png\"/>",
+      "prompt_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{array}{l} \\text{关于下列}\\text{2}\\text{个级数的收敛性}\\text{,}\\text{说法正确的是} [ \\quad].  \\\\ (1) \\sum_{n=1}^{\\infty} \\frac{n^{n+1}}{(n+1)!}; (2) \\sum_{n=1}^{\\infty} \\frac{e^{n}}{n!}. \\end{array}\">\\begin{array}{l} \\text{关于下列}\\text{2}\\text{个级数的收敛性}\\text{,}\\text{说法正确的是} [ \\quad].  \\\\ (1) \\sum_{n=1}^{\\infty} \\frac{n^{n+1}}{(n+1)!}; (2) \\sum_{n=1}^{\\infty} \\frac{e^{n}}{n!}. \\end{array}</div>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch083/q0004_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"(1) \\text{发散}, \\, (2) \\text{收敛};\">(1) \\text{发散}, \\, (2) \\text{收敛};</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch083/q0004_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"(1) \\text{收敛}, \\, (2) \\text{发散};\">(1) \\text{收敛}, \\, (2) \\text{发散};</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch083/q0004_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"(1) \\text{和} (2) \\text{都收敛};\">(1) \\text{和} (2) \\text{都收敛};</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch083/q0004_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"(1) \\text{和} (2) \\text{都发散}.\">(1) \\text{和} (2) \\text{都发散}.</span>"
         }
       ],
       "answer": "A",
       "answer_index": 0,
-      "analysis_html": "<img src=\"/static/generated/assets/advanced-math/ch083/q0004_analysis.png\"/>"
+      "analysis_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{aligned}&amp;\\text{解答(1)} \\lim_{n \\rightarrow \\infty} \\frac{u_{n+1}}{u_{n}} = \\lim_{n \\rightarrow \\infty} \\frac{\\frac{(n+1)^{n+2}}{(n+2)!}}{\\frac{n^{n+1}}{(n+1)!}} = \\lim_{n \\rightarrow \\infty} \\frac{n+1}{n+2}(1+\\frac{1}{n})^{n+1} = e &gt; 1, \\text{由比值审敛法知，级数}\\\\&amp;\\sum_{n=1}^{\\infty} \\frac{n^{n+1}}{(n+1)!} \\text{发散}.\\\\&amp;\\\\&amp;(2)\\ \\lim_{n \\rightarrow \\infty} \\frac{u_{n+1}}{u_{n}} = \\lim_{n \\rightarrow \\infty} \\frac{\\frac{e^{n+1}}{(n+1)!}}{\\frac{e^{n}}{n!}} = \\lim_{n \\rightarrow \\infty} \\frac{e}{n+1} = 0 &lt; 1, \\text{由比值审敛法知}\\sum_{n=1}^{\\infty} \\frac{e^{n}}{n!} \\text{收敛}.\\end{aligned}\">\\begin{aligned}&amp;\\text{解答(1)} \\lim_{n \\rightarrow \\infty} \\frac{u_{n+1}}{u_{n}} = \\lim_{n \\rightarrow \\infty} \\frac{\\frac{(n+1)^{n+2}}{(n+2)!}}{\\frac{n^{n+1}}{(n+1)!}} = \\lim_{n \\rightarrow \\infty} \\frac{n+1}{n+2}(1+\\frac{1}{n})^{n+1} = e &gt; 1, \\text{由比值审敛法知，级数}\\\\&amp;\\sum_{n=1}^{\\infty} \\frac{n^{n+1}}{(n+1)!} \\text{发散}.\\\\&amp;\\\\&amp;(2)\\ \\lim_{n \\rightarrow \\infty} \\frac{u_{n+1}}{u_{n}} = \\lim_{n \\rightarrow \\infty} \\frac{\\frac{e^{n+1}}{(n+1)!}}{\\frac{e^{n}}{n!}} = \\lim_{n \\rightarrow \\infty} \\frac{e}{n+1} = 0 &lt; 1, \\text{由比值审敛法知}\\sum_{n=1}^{\\infty} \\frac{e^{n}}{n!} \\text{收敛}.\\end{aligned}</div>"
     },
     {
       "id": "q0005",
       "number": 5,
       "header": "#5-Averge",
       "difficulty": "Averge",
-      "prompt_html": "<img src=\"/static/generated/assets/advanced-math/ch083/q0005_prompt.png\"/>",
+      "prompt_html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{设级数} \\sum_{n=1}^{\\infty} \\frac{1 \\cdot 3 \\cdot 5 \\cdots (2n-1)}{3^{n} \\cdot n!} \\ \\text{(1)和级数} \\sum_{n=1}^{\\infty} \\frac{n!}{(2n)^{n}} \\ \\text{(2)}, \\text{其敛散情况} [ \\quad]..\">\\text{设级数} \\sum_{n=1}^{\\infty} \\frac{1 \\cdot 3 \\cdot 5 \\cdots (2n-1)}{3^{n} \\cdot n!} \\ \\text{(1)和级数} \\sum_{n=1}^{\\infty} \\frac{n!}{(2n)^{n}} \\ \\text{(2)}, \\text{其敛散情况} [ \\quad]..</span>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch083/q0005_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"(1) \\text{和} (2) \\text{都收敛};\">(1) \\text{和} (2) \\text{都收敛};</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch083/q0005_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"(1) \\text{收敛},\\,(2) \\text{发散};\">(1) \\text{收敛},\\,(2) \\text{发散};</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch083/q0005_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"(1) \\text {和} (2) \\text {都发散};\">(1) \\text {和} (2) \\text {都发散};</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch083/q0005_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"(1) \\text{发散}, \\, (2) \\text{收敛}.\">(1) \\text{发散}, \\, (2) \\text{收敛}.</span>"
         }
       ],
       "answer": "A",
       "answer_index": 0,
-      "analysis_html": "<img src=\"/static/generated/assets/advanced-math/ch083/q0005_analysis.png\"/>"
+      "analysis_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{aligned}&amp;\\text{解答(1)}\\lim_{n\\rightarrow \\infty}\\frac{u_{n+1}}{u_{n}}=\\lim_{n\\rightarrow \\infty}\\frac{\\frac{1\\cdot 3\\cdot 5\\cdots (2n+1)}{3^{n+1}\\cdot (n+1)!}}{\\frac{1\\cdot 3\\cdot 5\\cdots (2n-1)}{3^{n}\\cdot n!}}=\\frac{1}{3}\\cdot \\lim_{n\\rightarrow \\infty}\\frac{2n+1}{n+1}=\\frac{2}{3}&lt;1, \\text{由比值审敛法知，级数}\\\\&amp;\\sum_{n=1}^{\\infty}\\frac{1\\cdot 3\\cdot 5\\cdots (2n-1)}{3^{n}\\cdot n!}\\text{收敛.}\\\\&amp;(2)\\lim_{n\\rightarrow \\infty}\\frac{u_{n+1}}{u_{n}}=\\lim_{n\\rightarrow \\infty}\\frac{\\frac{(n+1)!}{2^{n+1}\\cdot (n+1)^{n+1}}}{\\frac{n!}{2^{n}n^{n}}}=\\lim_{n\\rightarrow \\infty}\\frac{1}{2}(\\frac{n}{n+1})^{n}=\\lim_{n\\rightarrow \\infty}\\frac{1}{2(1+\\frac{1}{n})^{n}}=\\frac{1}{2e}&lt;1, \\text{由比值审敛}\\\\&amp;\\text{法知：级数}\\sum_{n=1}^{\\infty}\\frac{n!}{(2n)^{n}}\\text{收敛.}\\end{aligned}\">\\begin{aligned}&amp;\\text{解答(1)}\\lim_{n\\rightarrow \\infty}\\frac{u_{n+1}}{u_{n}}=\\lim_{n\\rightarrow \\infty}\\frac{\\frac{1\\cdot 3\\cdot 5\\cdots (2n+1)}{3^{n+1}\\cdot (n+1)!}}{\\frac{1\\cdot 3\\cdot 5\\cdots (2n-1)}{3^{n}\\cdot n!}}=\\frac{1}{3}\\cdot \\lim_{n\\rightarrow \\infty}\\frac{2n+1}{n+1}=\\frac{2}{3}&lt;1, \\text{由比值审敛法知，级数}\\\\&amp;\\sum_{n=1}^{\\infty}\\frac{1\\cdot 3\\cdot 5\\cdots (2n-1)}{3^{n}\\cdot n!}\\text{收敛.}\\\\&amp;(2)\\lim_{n\\rightarrow \\infty}\\frac{u_{n+1}}{u_{n}}=\\lim_{n\\rightarrow \\infty}\\frac{\\frac{(n+1)!}{2^{n+1}\\cdot (n+1)^{n+1}}}{\\frac{n!}{2^{n}n^{n}}}=\\lim_{n\\rightarrow \\infty}\\frac{1}{2}(\\frac{n}{n+1})^{n}=\\lim_{n\\rightarrow \\infty}\\frac{1}{2(1+\\frac{1}{n})^{n}}=\\frac{1}{2e}&lt;1, \\text{由比值审敛}\\\\&amp;\\text{法知：级数}\\sum_{n=1}^{\\infty}\\frac{n!}{(2n)^{n}}\\text{收敛.}\\end{aligned}</div>"
     },
     {
       "id": "q0006",
       "number": 6,
       "header": "#6-Averge",
       "difficulty": "Averge",
-      "prompt_html": "<img src=\"/static/generated/assets/advanced-math/ch083/q0006_prompt.png\"/>",
+      "prompt_html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{设级数} \\sum_{n=1}^{\\infty} \\frac{n \\cos^{2} \\frac{n \\pi}{3}}{2^{n}} \\ \\text{(1)和级数} \\sum_{n=1}^{\\infty} \\frac{n+(-1)^{n}}{2^{n}} \\ \\text{(2),}\\text{其敛散的判定结果是} [ \\quad]. .\">\\text{设级数} \\sum_{n=1}^{\\infty} \\frac{n \\cos^{2} \\frac{n \\pi}{3}}{2^{n}} \\ \\text{(1)和级数} \\sum_{n=1}^{\\infty} \\frac{n+(-1)^{n}}{2^{n}} \\ \\text{(2),}\\text{其敛散的判定结果是} [ \\quad]. .</span>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch083/q0006_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"(1) \\text{和} (2) \\text{都收敛};\">(1) \\text{和} (2) \\text{都收敛};</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch083/q0006_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"(1) \\text{发散},\\,(2) \\text{收敛};\">(1) \\text{发散},\\,(2) \\text{收敛};</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch083/q0006_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"(1) \\text{收敛},\\ (2) \\text{发散};\">(1) \\text{收敛},\\ (2) \\text{发散};</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch083/q0006_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"(1) \\text {和} (2) \\text {都发散}.\">(1) \\text {和} (2) \\text {都发散}.</span>"
         }
       ],
       "answer": "A",
       "answer_index": 0,
-      "analysis_html": "<img src=\"/static/generated/assets/advanced-math/ch083/q0006_analysis.png\"/>"
+      "analysis_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{aligned}&amp;\\text{解答}\\frac{n\\cos^2\\frac{n\\pi}{3}}{2^n}&lt;\\frac{n}{2^n}=\\underset{n\\rightarrow \\infty}{u_n},\\lim_{n\\rightarrow \\infty}\\frac{u_{n+1}}{u_n}=\\lim_{n\\rightarrow \\infty}\\frac{\\frac{n+1}{2^{n+1}}}{\\frac{n}{2^n}}=\\lim_{n\\rightarrow \\infty}\\frac{n+1}{2n}=\\frac{1}{2}&lt;1, \\text{所以(1)收敛.}\\\\&amp;\\frac{u_{n+1}}{u_n}=\\frac{n+1+(-1)^{n+1}}{2^{n+1}}\\cdot\\frac{2^n}{n+(-1)^n}=\\frac{1}{2}\\cdot\\frac{n+1+(-1)^{n+1}}{n+(-1)^n},\\\\&amp;\\lim_{n\\rightarrow \\infty}\\frac{u_{n+1}}{u_n}=\\frac{1}{2}\\lim_{n\\rightarrow \\infty}\\frac{n+1+(-1)^{n+1}}{n+(-1)^n}=\\frac{1}{2}&lt;1, \\text{所以(2)收敛.}\\end{aligned}\">\\begin{aligned}&amp;\\text{解答}\\frac{n\\cos^2\\frac{n\\pi}{3}}{2^n}&lt;\\frac{n}{2^n}=\\underset{n\\rightarrow \\infty}{u_n},\\lim_{n\\rightarrow \\infty}\\frac{u_{n+1}}{u_n}=\\lim_{n\\rightarrow \\infty}\\frac{\\frac{n+1}{2^{n+1}}}{\\frac{n}{2^n}}=\\lim_{n\\rightarrow \\infty}\\frac{n+1}{2n}=\\frac{1}{2}&lt;1, \\text{所以(1)收敛.}\\\\&amp;\\frac{u_{n+1}}{u_n}=\\frac{n+1+(-1)^{n+1}}{2^{n+1}}\\cdot\\frac{2^n}{n+(-1)^n}=\\frac{1}{2}\\cdot\\frac{n+1+(-1)^{n+1}}{n+(-1)^n},\\\\&amp;\\lim_{n\\rightarrow \\infty}\\frac{u_{n+1}}{u_n}=\\frac{1}{2}\\lim_{n\\rightarrow \\infty}\\frac{n+1+(-1)^{n+1}}{n+(-1)^n}=\\frac{1}{2}&lt;1, \\text{所以(2)收敛.}\\end{aligned}</div>"
     },
     {
       "id": "q0007",
       "number": 7,
       "header": "#7-Averge",
       "difficulty": "Averge",
-      "prompt_html": "<img src=\"/static/generated/assets/advanced-math/ch083/q0007_prompt.png\"/>",
+      "prompt_html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{设级数} \\sum_{n=1}^{\\infty} \\frac{n[\\sqrt{2}+(-1)^{n}]^{n}}{3^{n}}\\ (1) \\text{和级数} \\sum_{n=1}^{\\infty} \\frac{(n!)^{2}}{2^{n^{2}}}\\ (2), \\text{其敛散情况} [ \\quad] ..\">\\text{设级数} \\sum_{n=1}^{\\infty} \\frac{n[\\sqrt{2}+(-1)^{n}]^{n}}{3^{n}}\\ (1) \\text{和级数} \\sum_{n=1}^{\\infty} \\frac{(n!)^{2}}{2^{n^{2}}}\\ (2), \\text{其敛散情况} [ \\quad] ..</span>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch083/q0007_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"(1) \\text{和} (2) \\text{都收敛};\">(1) \\text{和} (2) \\text{都收敛};</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch083/q0007_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"(1) \\text {和} (2) \\text {都发散};\">(1) \\text {和} (2) \\text {都发散};</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch083/q0007_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"(1) \\text{收敛},\\,(2) \\text{发散};\">(1) \\text{收敛},\\,(2) \\text{发散};</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch083/q0007_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"(1) \\text{发散}, \\, (2) \\text{收敛}.\">(1) \\text{发散}, \\, (2) \\text{收敛}.</span>"
         }
       ],
       "answer": "A",
       "answer_index": 0,
-      "analysis_html": "<img src=\"/static/generated/assets/advanced-math/ch083/q0007_analysis.png\"/>"
+      "analysis_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{aligned}&amp;\\text{解答(1)}\\frac{n[\\sqrt{2}+(-1)^{n}]^{n}}{3^{n}}&lt;n(\\frac{\\sqrt{2}+1}{3})^{n},\\text{对于级数}\\sum_{n=1}^{\\infty}n(\\frac{\\sqrt{2}+1}{3})^{n},\\text{有}\\\\&amp;\\lim_{n\\rightarrow\\infty}\\frac{u_{n+1}}{u_{n}}=\\lim_{n\\rightarrow\\infty}\\frac{(n+1)(\\frac{\\sqrt{2}+1}{3})^{n+1}}{n(\\frac{\\sqrt{2}+1}{3})^{n}}=\\lim_{n\\rightarrow\\infty}\\frac{n+1}{n}\\cdot\\frac{\\sqrt{2}+1}{3}=\\frac{\\sqrt{2}+1}{3}&lt;1.\\text{由比值审敛法知}\\\\&amp;\\sum_{n=1}^{\\infty}n(\\frac{\\sqrt{2}+1}{3})^n\\text{收敛.再由比较审敛法知：级数}\\sum_{n=1}^{\\infty}\\frac{n[\\sqrt{2}+(-1)^{n}]^{n}}{3^{n}}\\text{收敛}.\\end{aligned}\">\\begin{aligned}&amp;\\text{解答(1)}\\frac{n[\\sqrt{2}+(-1)^{n}]^{n}}{3^{n}}&lt;n(\\frac{\\sqrt{2}+1}{3})^{n},\\text{对于级数}\\sum_{n=1}^{\\infty}n(\\frac{\\sqrt{2}+1}{3})^{n},\\text{有}\\\\&amp;\\lim_{n\\rightarrow\\infty}\\frac{u_{n+1}}{u_{n}}=\\lim_{n\\rightarrow\\infty}\\frac{(n+1)(\\frac{\\sqrt{2}+1}{3})^{n+1}}{n(\\frac{\\sqrt{2}+1}{3})^{n}}=\\lim_{n\\rightarrow\\infty}\\frac{n+1}{n}\\cdot\\frac{\\sqrt{2}+1}{3}=\\frac{\\sqrt{2}+1}{3}&lt;1.\\text{由比值审敛法知}\\\\&amp;\\sum_{n=1}^{\\infty}n(\\frac{\\sqrt{2}+1}{3})^n\\text{收敛.再由比较审敛法知：级数}\\sum_{n=1}^{\\infty}\\frac{n[\\sqrt{2}+(-1)^{n}]^{n}}{3^{n}}\\text{收敛}.\\end{aligned}</div>"
     },
     {
       "id": "q0008",
       "number": 8,
       "header": "#8-Averge",
       "difficulty": "Averge",
-      "prompt_html": "<img src=\"/static/generated/assets/advanced-math/ch083/q0008_prompt.png\"/>",
+      "prompt_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{array}{l} \\text {下列级数收敛的有[ ].} \\\\ \\text {(1)} \\sum_{n=1}^{\\infty} \\frac{3^{n}}{n \\cdot 2^{n}}; \\text {;(2)} \\sum_{n=1}^{\\infty} \\frac{2n-1}{2^{n}}; \\\\ \\text {(3)} \\sum_{n=1}^{\\infty} \\frac{1}{2^{2n-1}(2n-1)}; \\text {(4)} \\sum_{n=1}^{\\infty} \\frac{5^{n-1}}{n!}. \\end{array}\">\\begin{array}{l} \\text {下列级数收敛的有[ ].} \\\\ \\text {(1)} \\sum_{n=1}^{\\infty} \\frac{3^{n}}{n \\cdot 2^{n}}; \\text {;(2)} \\sum_{n=1}^{\\infty} \\frac{2n-1}{2^{n}}; \\\\ \\text {(3)} \\sum_{n=1}^{\\infty} \\frac{1}{2^{2n-1}(2n-1)}; \\text {(4)} \\sum_{n=1}^{\\infty} \\frac{5^{n-1}}{n!}. \\end{array}</div>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch083/q0008_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"1 \\text{个};\">1 \\text{个};</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch083/q0008_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"2 \\text{个};\">2 \\text{个};</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch083/q0008_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"3 \\text{个};\">3 \\text{个};</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch083/q0008_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"4 \\text{个.}\">4 \\text{个.}</span>"
         }
       ],
       "answer": "C",
       "answer_index": 2,
-      "analysis_html": "<img src=\"/static/generated/assets/advanced-math/ch083/q0008_analysis.png\"/>"
+      "analysis_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{aligned}&amp;\\text{解答(1)}\\lim_{n\\rightarrow \\infty}\\frac{u_{n+1}}{u_{n}}=\\lim_{n\\rightarrow \\infty}\\frac{\\frac{3^{n+1}}{(n+1)\\cdot 2^{n+1}}}{\\frac{3^{n}}{n\\cdot 2^{n}}}=\\lim_{n\\rightarrow \\infty}\\frac{3}{2}(\\frac{n}{n+1})=\\frac{3}{2}&gt;1,\\text{由比值审敛法知级数}\\\\&amp;\\sum_{n=1}^{\\infty}\\frac{3^{n}}{n\\cdot 2^{n}}\\text{发散}.\\\\&amp;(2)\\quad\\lim_{n\\rightarrow \\infty}\\frac{u_{n+1}}{u_{n}}=\\lim_{n\\rightarrow \\infty}\\frac{\\frac{2n+1}{2^{n+1}}}{\\frac{2n-1}{2^{n}}}=\\lim_{n\\rightarrow \\infty}\\frac{1}{2}(\\frac{2n+1}{2n-1})=\\frac{1}{2}&lt;1,\\text{由比值审敛法知}\\sum_{n=1}^{\\infty}\\frac{2n-1}{2^{n}}\\text{收敛}.\\\\&amp;(3)\\quad\\lim_{n\\rightarrow \\infty}\\frac{u_{n+1}}{u_{n}}=\\lim_{n\\rightarrow \\infty}\\frac{\\frac{1}{2^{2n+1}(2n+1)}}{\\frac{1}{2^{2n-1}(2n-1)}}=\\lim_{n\\rightarrow \\infty}\\frac{1}{4}(\\frac{2n-1}{2n+1})=\\frac{1}{4}&lt;1,\\text{由比值审敛法知级数}\\\\&amp;\\sum_{n=1}^{\\infty}\\frac{1}{2^{2n-1}(2n-1)}\\text{收敛}.\\\\&amp;(4)\\quad\\lim_{n\\rightarrow \\infty}\\frac{u_{n+1}}{u_{n}}=\\lim_{n\\rightarrow \\infty}\\frac{5^{n}}{(n+1)!}\\cdot\\frac{n!}{5^{n-1}}=\\lim_{n\\rightarrow \\infty}\\frac{5}{n+1}=0&lt;1,\\text{由比值审敛法知}\\sum_{n=1}^{\\infty}\\frac{5^{n-1}}{n!}\\text{收敛}.\\end{aligned}\">\\begin{aligned}&amp;\\text{解答(1)}\\lim_{n\\rightarrow \\infty}\\frac{u_{n+1}}{u_{n}}=\\lim_{n\\rightarrow \\infty}\\frac{\\frac{3^{n+1}}{(n+1)\\cdot 2^{n+1}}}{\\frac{3^{n}}{n\\cdot 2^{n}}}=\\lim_{n\\rightarrow \\infty}\\frac{3}{2}(\\frac{n}{n+1})=\\frac{3}{2}&gt;1,\\text{由比值审敛法知级数}\\\\&amp;\\sum_{n=1}^{\\infty}\\frac{3^{n}}{n\\cdot 2^{n}}\\text{发散}.\\\\&amp;(2)\\quad\\lim_{n\\rightarrow \\infty}\\frac{u_{n+1}}{u_{n}}=\\lim_{n\\rightarrow \\infty}\\frac{\\frac{2n+1}{2^{n+1}}}{\\frac{2n-1}{2^{n}}}=\\lim_{n\\rightarrow \\infty}\\frac{1}{2}(\\frac{2n+1}{2n-1})=\\frac{1}{2}&lt;1,\\text{由比值审敛法知}\\sum_{n=1}^{\\infty}\\frac{2n-1}{2^{n}}\\text{收敛}.\\\\&amp;(3)\\quad\\lim_{n\\rightarrow \\infty}\\frac{u_{n+1}}{u_{n}}=\\lim_{n\\rightarrow \\infty}\\frac{\\frac{1}{2^{2n+1}(2n+1)}}{\\frac{1}{2^{2n-1}(2n-1)}}=\\lim_{n\\rightarrow \\infty}\\frac{1}{4}(\\frac{2n-1}{2n+1})=\\frac{1}{4}&lt;1,\\text{由比值审敛法知级数}\\\\&amp;\\sum_{n=1}^{\\infty}\\frac{1}{2^{2n-1}(2n-1)}\\text{收敛}.\\\\&amp;(4)\\quad\\lim_{n\\rightarrow \\infty}\\frac{u_{n+1}}{u_{n}}=\\lim_{n\\rightarrow \\infty}\\frac{5^{n}}{(n+1)!}\\cdot\\frac{n!}{5^{n-1}}=\\lim_{n\\rightarrow \\infty}\\frac{5}{n+1}=0&lt;1,\\text{由比值审敛法知}\\sum_{n=1}^{\\infty}\\frac{5^{n-1}}{n!}\\text{收敛}.\\end{aligned}</div>"
     },
     {
       "id": "q0009",
       "number": 9,
       "header": "#9-Averge",
       "difficulty": "Averge",
-      "prompt_html": "<img src=\"/static/generated/assets/advanced-math/ch083/q0009_prompt.png\"/>",
+      "prompt_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{array}{l} \\text{设级数} \\sum_{n=1}^{\\infty} \\frac{1}{2^{n}} \\sin \\frac{n \\pi}{5} \\text{(1)和级数} \\sum_{n=1}^{\\infty} \\frac{n+(-1)^{n}}{2^{n}} \\text{(2),}\\text{其敛散的判定结果是} [ \\quad].  \\end{array}\">\\begin{array}{l} \\text{设级数} \\sum_{n=1}^{\\infty} \\frac{1}{2^{n}} \\sin \\frac{n \\pi}{5} \\text{(1)和级数} \\sum_{n=1}^{\\infty} \\frac{n+(-1)^{n}}{2^{n}} \\text{(2),}\\text{其敛散的判定结果是} [ \\quad].  \\end{array}</div>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch083/q0009_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"(1) \\text{和} (2) \\text{都收敛};\">(1) \\text{和} (2) \\text{都收敛};</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch083/q0009_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"(1) \\text{发散}, \\, (2) \\text{收敛};\">(1) \\text{发散}, \\, (2) \\text{收敛};</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch083/q0009_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"(1) \\text {和} (2) \\text {都发散}.\">(1) \\text {和} (2) \\text {都发散}.</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch083/q0009_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"(1) \\text{收敛},\\ (2) \\text{发散};\">(1) \\text{收敛},\\ (2) \\text{发散};</span>"
         }
       ],
       "answer": "A",
       "answer_index": 0,
-      "analysis_html": "<img src=\"/static/generated/assets/advanced-math/ch083/q0009_analysis.png\"/>"
+      "analysis_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{aligned}&amp;\\text{解答(1)} \\lim_{n \\rightarrow \\infty} \\frac{u_{n+1}}{u_n} = \\lim_{n \\rightarrow \\infty} \\frac{\\frac{1}{2^{n+1}} \\sin \\frac{(n+1) \\pi}{5}}{\\frac{1}{2^n} \\sin \\frac{n \\pi}{5}} = \\lim_{n \\rightarrow \\infty} \\frac{n+1}{2n} = \\frac{1}{2} &lt; 1, \\text{所以(1)收敛.}\\\\&amp;(2) u_n = \\frac{n+(-1)^n}{2^n}, \\ \\frac{u_{n+1}}{u_n} = \\frac{n+1+(-1)^{n+1}}{2^{n+1}} \\cdot \\frac{2^n}{n+(-1)^n} = \\frac{1}{2} \\cdot \\frac{n+1+(-1)^{n+1}}{n+(-1)^n}, \\\\&amp;\\lim_{n \\rightarrow \\infty} \\frac{u_{n+1}}{u_n} = \\frac{1}{2} \\lim_{n \\rightarrow \\infty} \\frac{n+1+(-1)^{n+1}}{n+(-1)^n} = \\frac{1}{2} &lt; 1, \\text{所以(2)收敛.}\\end{aligned}\">\\begin{aligned}&amp;\\text{解答(1)} \\lim_{n \\rightarrow \\infty} \\frac{u_{n+1}}{u_n} = \\lim_{n \\rightarrow \\infty} \\frac{\\frac{1}{2^{n+1}} \\sin \\frac{(n+1) \\pi}{5}}{\\frac{1}{2^n} \\sin \\frac{n \\pi}{5}} = \\lim_{n \\rightarrow \\infty} \\frac{n+1}{2n} = \\frac{1}{2} &lt; 1, \\text{所以(1)收敛.}\\\\&amp;(2) u_n = \\frac{n+(-1)^n}{2^n}, \\ \\frac{u_{n+1}}{u_n} = \\frac{n+1+(-1)^{n+1}}{2^{n+1}} \\cdot \\frac{2^n}{n+(-1)^n} = \\frac{1}{2} \\cdot \\frac{n+1+(-1)^{n+1}}{n+(-1)^n}, \\\\&amp;\\lim_{n \\rightarrow \\infty} \\frac{u_{n+1}}{u_n} = \\frac{1}{2} \\lim_{n \\rightarrow \\infty} \\frac{n+1+(-1)^{n+1}}{n+(-1)^n} = \\frac{1}{2} &lt; 1, \\text{所以(2)收敛.}\\end{aligned}</div>"
     },
     {
       "id": "q0010",
       "number": 10,
       "header": "#10-Averge",
       "difficulty": "Averge",
-      "prompt_html": "<img src=\"/static/generated/assets/advanced-math/ch083/q0010_prompt.png\"/>",
+      "prompt_html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{设级数} \\sum_{n=1}^{\\infty} \\frac{1}{2^{n}-n} \\text{(1)和级数} \\sum_{n=1}^{\\infty} n^{2}(\\frac{3}{4})^{n} \\text{(2),}\\text{其敛散情况} [ \\quad].\">\\text{设级数} \\sum_{n=1}^{\\infty} \\frac{1}{2^{n}-n} \\text{(1)和级数} \\sum_{n=1}^{\\infty} n^{2}(\\frac{3}{4})^{n} \\text{(2),}\\text{其敛散情况} [ \\quad].</span>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch083/q0010_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"(1) \\text {和} (2) \\text {都发散}.\">(1) \\text {和} (2) \\text {都发散}.</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch083/q0010_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"(1) \\text{和} (2) \\text{都收敛};\">(1) \\text{和} (2) \\text{都收敛};</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch083/q0010_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"(1) \\text{发散}, (2) \\text{收敛};\">(1) \\text{发散}, (2) \\text{收敛};</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch083/q0010_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"(1) \\text{收敛}, \\, (2) \\text{发散};\">(1) \\text{收敛}, \\, (2) \\text{发散};</span>"
         }
       ],
       "answer": "B",
       "answer_index": 1,
-      "analysis_html": "<img src=\"/static/generated/assets/advanced-math/ch083/q0010_analysis.png\"/>"
+      "analysis_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{array}{l} \\text {解答(1)} u_{n} = \\frac{1}{2^{n}-n}, \\lim_{n \\to \\infty} \\frac{u_{n+1}}{u_{n}} = \\lim_{n \\to \\infty} \\frac{2^{n}-n}{2^{n+1}-(n+1)} = \\frac{1}{2} &lt; 1. \\text{级数} \\sum_{n=1}^{\\infty} \\frac{1}{2^{n}-n} \\text{收敛}. \\\\ \\\\ (2) \\lim_{n \\to \\infty} \\frac{u_{n+1}}{u_{n}} = \\lim_{n \\to \\infty} \\frac{(n+1)^{2}(\\frac{3}{4})^{n+1}}{n^{2}(\\frac{3}{4})^{n}} = \\lim_{n \\to \\infty} (1+\\frac{1}{n})^{2}(\\frac{3}{4}) = \\frac{3}{4} &lt; 1. \\text{由比值审敛法知，级数} \\\\ \\sum_{n=1}^{\\infty} n^{2}(\\frac{3}{4})^{n} \\text{收敛}. \\end{array}\">\\begin{array}{l} \\text {解答(1)} u_{n} = \\frac{1}{2^{n}-n}, \\lim_{n \\to \\infty} \\frac{u_{n+1}}{u_{n}} = \\lim_{n \\to \\infty} \\frac{2^{n}-n}{2^{n+1}-(n+1)} = \\frac{1}{2} &lt; 1. \\text{级数} \\sum_{n=1}^{\\infty} \\frac{1}{2^{n}-n} \\text{收敛}. \\\\ \\\\ (2) \\lim_{n \\to \\infty} \\frac{u_{n+1}}{u_{n}} = \\lim_{n \\to \\infty} \\frac{(n+1)^{2}(\\frac{3}{4})^{n+1}}{n^{2}(\\frac{3}{4})^{n}} = \\lim_{n \\to \\infty} (1+\\frac{1}{n})^{2}(\\frac{3}{4}) = \\frac{3}{4} &lt; 1. \\text{由比值审敛法知，级数} \\\\ \\sum_{n=1}^{\\infty} n^{2}(\\frac{3}{4})^{n} \\text{收敛}. \\end{array}</div>"
     },
     {
       "id": "q0011",
       "number": 11,
       "header": "#11-Averge",
       "difficulty": "Averge",
-      "prompt_html": "<img src=\"/static/generated/assets/advanced-math/ch083/q0011_prompt.png\"/>",
+      "prompt_html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\ a \\text {为任意正的实数，若级数} \\sum_{n=1}^{\\infty} \\frac{a^{n} n!}{n^{n}} \\text {发散，级数} \\sum_{n=2}^{\\infty} \\frac{\\sqrt{n+2}-\\sqrt{n-2}}{n^{a}} \\text {收敛，则（）}.\">\\ a \\text {为任意正的实数，若级数} \\sum_{n=1}^{\\infty} \\frac{a^{n} n!}{n^{n}} \\text {发散，级数} \\sum_{n=2}^{\\infty} \\frac{\\sqrt{n+2}-\\sqrt{n-2}}{n^{a}} \\text {收敛，则（）}.</span>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch083/q0011_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\frac{1}{2} &lt; a &lt; e\\, ;\">\\frac{1}{2} &lt; a &lt; e\\, ;</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch083/q0011_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\, 1 \\! &lt; \\! a \\! &lt; \\! e \\, ;\">\\, 1 \\! &lt; \\! a \\! &lt; \\! e \\, ;</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch083/q0011_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\, a &gt; e \\, ;\">\\, a &gt; e \\, ;</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch083/q0011_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\begin{array}{l} 0 &lt; a &lt; \\frac {1}{2}. \\end{array}\">\\begin{array}{l} 0 &lt; a &lt; \\frac {1}{2}. \\end{array}</span>"
         }
       ],
       "answer": "C",
       "answer_index": 2,
-      "analysis_html": "<img src=\"/static/generated/assets/advanced-math/ch083/q0011_analysis.png\"/>"
+      "analysis_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{array}{l} \\text {解答令} u_{n} = \\frac{a^{n} n!}{n^{n}}, \\lim_{n \\to \\infty} \\frac{u_{n+1}}{u_{n}} = \\lim_{n \\to \\infty} \\frac{a^{n+1} (n+1)!}{(n+1)^{n+1}} \\cdot \\frac{n^{n}}{a^{n} n!} = \\frac{a}{e}, \\text {因为} \\sum_{n=1}^{\\infty} \\frac{a^{n} n!}{n^{n}} \\text {发散，所以} \\frac{a}{e} &gt; 1, \\\\ \\text {令} u_{n} = \\frac{\\sqrt{n+2}-\\sqrt{n-2}}{n^{a}}: u_{n} = \\frac{4}{n^{a} (\\sqrt{n+2}+\\sqrt{n-2})} &lt; \\frac{4}{n^{a}}, \\text {当} a &gt; 1 \\text {时,} \\sum_{n=2}^{\\infty} \\frac{4}{n^{a}} \\text {收敛}, \\\\ \\text {综上可得} a &gt; e. \\end{array}\">\\begin{array}{l} \\text {解答令} u_{n} = \\frac{a^{n} n!}{n^{n}}, \\lim_{n \\to \\infty} \\frac{u_{n+1}}{u_{n}} = \\lim_{n \\to \\infty} \\frac{a^{n+1} (n+1)!}{(n+1)^{n+1}} \\cdot \\frac{n^{n}}{a^{n} n!} = \\frac{a}{e}, \\text {因为} \\sum_{n=1}^{\\infty} \\frac{a^{n} n!}{n^{n}} \\text {发散，所以} \\frac{a}{e} &gt; 1, \\\\ \\text {令} u_{n} = \\frac{\\sqrt{n+2}-\\sqrt{n-2}}{n^{a}}: u_{n} = \\frac{4}{n^{a} (\\sqrt{n+2}+\\sqrt{n-2})} &lt; \\frac{4}{n^{a}}, \\text {当} a &gt; 1 \\text {时,} \\sum_{n=2}^{\\infty} \\frac{4}{n^{a}} \\text {收敛}, \\\\ \\text {综上可得} a &gt; e. \\end{array}</div>"
     },
     {
       "id": "q0012",
       "number": 12,
       "header": "#12-Averge",
       "difficulty": "Averge",
-      "prompt_html": "<img src=\"/static/generated/assets/advanced-math/ch083/q0012_prompt.png\"/>",
+      "prompt_html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{设级数} \\sum_{n=1}^{\\infty} \\frac{1!+2!+\\cdots+n!}{(2n)!} \\ \\text{(1)和级数} \\sum_{n=1}^{\\infty} n^{2} \\ln(1+\\frac{1}{2^{n}}) \\ \\text{(2)}, \\ \\text{其敛散情况} [ \\quad] . \\nonumber\">\\text{设级数} \\sum_{n=1}^{\\infty} \\frac{1!+2!+\\cdots+n!}{(2n)!} \\ \\text{(1)和级数} \\sum_{n=1}^{\\infty} n^{2} \\ln(1+\\frac{1}{2^{n}}) \\ \\text{(2)}, \\ \\text{其敛散情况} [ \\quad] . \\nonumber</span>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch083/q0012_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"(1) \\text{收敛},\\,(2) \\text{发散};\">(1) \\text{收敛},\\,(2) \\text{发散};</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch083/q0012_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"(1) \\text{发散},\\,(2) \\text{收敛}.\">(1) \\text{发散},\\,(2) \\text{收敛}.</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch083/q0012_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"(1) \\text {和} (2) \\text {都发散};\">(1) \\text {和} (2) \\text {都发散};</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch083/q0012_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"(1) \\text {和} (2) \\text {都收敛};\">(1) \\text {和} (2) \\text {都收敛};</span>"
         }
       ],
       "answer": "D",
       "answer_index": 3,
-      "analysis_html": "<img src=\"/static/generated/assets/advanced-math/ch083/q0012_analysis.png\"/>"
+      "analysis_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{aligned}\\text{解答(1)由于}\\lim_{n\\rightarrow\\infty}\\frac{u_{n+1}}{u_n}&amp;=\\lim_{n\\rightarrow\\infty}\\frac{1!+2!+\\cdots+n!+(n+1)!}{(2n+2)!}\\cdot\\frac{(2n)!}{1!+2!+\\cdots+n!}\\\\&amp;=\\lim_{n\\rightarrow\\infty}\\frac{1}{2(2n+1)(n+1)}+\\lim_{n\\rightarrow\\infty}\\frac{n!}{2(2n+1)(1!+2!+\\cdots+n!)}=0&lt;1,\\\\ \\text{由比值审敛法知：级数}\\sum_{n=1}^{\\infty}\\frac{1!+2!+\\cdots+n!}{(2n)!}\\text{收敛}。2) \\text{利用}\\ln(1+x)\\Box x(x\\rightarrow0),\\text{可得}n^2\\ln(1+\\frac{1}{2^n})\\Box\\frac{n^2}{2^n}(n\\rightarrow\\infty),\\text{对于级数}\\sum_{n=1}^{\\infty}\\frac{n^2}{2^n},\\text{有}\\\\ \\lim_{n\\rightarrow\\infty}\\frac{u_{n+1}}{u_n}&amp;=\\lim_{n\\rightarrow\\infty}\\frac{(n+1)^2}{2^{n+1}}\\cdot\\frac{2^n}{n^2}=\\frac{1}{2}&lt;1,\\text{由比值审敛法知：级数}\\sum_{n=1}^{\\infty}\\frac{n^2}{2^n}\\text{收敛，再由比较审敛法的的极限形式知：级数}\\sum_{n=1}^{\\infty}n^2\\ln(1+\\frac{1}{2^n})\\text{收敛}。 \\end{aligned}\">\\begin{aligned}\\text{解答(1)由于}\\lim_{n\\rightarrow\\infty}\\frac{u_{n+1}}{u_n}&amp;=\\lim_{n\\rightarrow\\infty}\\frac{1!+2!+\\cdots+n!+(n+1)!}{(2n+2)!}\\cdot\\frac{(2n)!}{1!+2!+\\cdots+n!}\\\\&amp;=\\lim_{n\\rightarrow\\infty}\\frac{1}{2(2n+1)(n+1)}+\\lim_{n\\rightarrow\\infty}\\frac{n!}{2(2n+1)(1!+2!+\\cdots+n!)}=0&lt;1,\\\\ \\text{由比值审敛法知：级数}\\sum_{n=1}^{\\infty}\\frac{1!+2!+\\cdots+n!}{(2n)!}\\text{收敛}。2) \\text{利用}\\ln(1+x)\\Box x(x\\rightarrow0),\\text{可得}n^2\\ln(1+\\frac{1}{2^n})\\Box\\frac{n^2}{2^n}(n\\rightarrow\\infty),\\text{对于级数}\\sum_{n=1}^{\\infty}\\frac{n^2}{2^n},\\text{有}\\\\ \\lim_{n\\rightarrow\\infty}\\frac{u_{n+1}}{u_n}&amp;=\\lim_{n\\rightarrow\\infty}\\frac{(n+1)^2}{2^{n+1}}\\cdot\\frac{2^n}{n^2}=\\frac{1}{2}&lt;1,\\text{由比值审敛法知：级数}\\sum_{n=1}^{\\infty}\\frac{n^2}{2^n}\\text{收敛，再由比较审敛法的的极限形式知：级数}\\sum_{n=1}^{\\infty}n^2\\ln(1+\\frac{1}{2^n})\\text{收敛}。 \\end{aligned}</div>"
     },
     {
       "id": "q0013",
       "number": 13,
       "header": "#13-Averge",
       "difficulty": "Averge",
-      "prompt_html": "<img src=\"/static/generated/assets/advanced-math/ch083/q0013_prompt.png\"/>",
+      "prompt_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{array}{l} \\text{设级数} \\sum_{n=1}^{\\infty} \\frac{n^{3}}{(3+\\frac{1}{n})^{n}} \\text{(1)和级数} \\sum_{n=1}^{\\infty} \\frac{n!}{2^{n^{3}}} \\text{(2),}\\text{其敛散情况} [ \\quad]..  \\end{array}\">\\begin{array}{l} \\text{设级数} \\sum_{n=1}^{\\infty} \\frac{n^{3}}{(3+\\frac{1}{n})^{n}} \\text{(1)和级数} \\sum_{n=1}^{\\infty} \\frac{n!}{2^{n^{3}}} \\text{(2),}\\text{其敛散情况} [ \\quad]..  \\end{array}</div>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch083/q0013_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"(1) \\text{收敛}, \\, (2) \\text{发散};\">(1) \\text{收敛}, \\, (2) \\text{发散};</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch083/q0013_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"(1) \\text{和} (2) \\text{都收敛};\">(1) \\text{和} (2) \\text{都收敛};</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch083/q0013_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"(1) \\text {和} (2) \\text {都发散};\">(1) \\text {和} (2) \\text {都发散};</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch083/q0013_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"(1) \\text{发散}, \\, (2) \\text{收敛}.\">(1) \\text{发散}, \\, (2) \\text{收敛}.</span>"
         }
       ],
       "answer": "B",
       "answer_index": 1,
-      "analysis_html": "<img src=\"/static/generated/assets/advanced-math/ch083/q0013_analysis.png\"/>"
+      "analysis_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{aligned}&amp;\\text{解答(1)因为}\\frac{n^3}{(3+\\frac{1}{n})^n}&lt;\\frac{n^3}{3^n},\\text{对于级数}\\sum_{n=1}^{\\infty}\\frac{n^3}{3^n},\\text{有}\\lim_{n\\rightarrow \\infty}\\frac{u_{n+1}}{u_n}=\\lim_{n\\rightarrow \\infty}\\frac{(n+1)^3}{3^{n+1}}\\cdot\\frac{3^n}{n^3}=\\frac{1}{3}&lt;1, \\text{由}\\\\&amp;\\text{比值审敛法知}\\sum_{n=1}^{\\infty}\\frac{n^3}{3^n}\\text{收敛.再由比较审敛法知}\\sum_{n=1}^{\\infty}\\frac{n^3}{(3+\\frac{1}{n})^n}\\text{收敛.}\\\\&amp;(2)\\lim_{n\\rightarrow \\infty}\\frac{u_{n+1}}{u_n}=\\lim_{n\\rightarrow \\infty}\\frac{(n+1)!}{2^{(n+1)^2}}\\cdot\\frac{2^n}{n!}=\\lim_{n\\rightarrow \\infty}\\frac{n+1}{2^{2n+1}}=0&lt;1, \\text{由比值审敛法知}\\sum_{n=1}^{\\infty}\\frac{n!}{2^n\\pi^2}\\text{收敛}.\\end{aligned}\">\\begin{aligned}&amp;\\text{解答(1)因为}\\frac{n^3}{(3+\\frac{1}{n})^n}&lt;\\frac{n^3}{3^n},\\text{对于级数}\\sum_{n=1}^{\\infty}\\frac{n^3}{3^n},\\text{有}\\lim_{n\\rightarrow \\infty}\\frac{u_{n+1}}{u_n}=\\lim_{n\\rightarrow \\infty}\\frac{(n+1)^3}{3^{n+1}}\\cdot\\frac{3^n}{n^3}=\\frac{1}{3}&lt;1, \\text{由}\\\\&amp;\\text{比值审敛法知}\\sum_{n=1}^{\\infty}\\frac{n^3}{3^n}\\text{收敛.再由比较审敛法知}\\sum_{n=1}^{\\infty}\\frac{n^3}{(3+\\frac{1}{n})^n}\\text{收敛.}\\\\&amp;(2)\\lim_{n\\rightarrow \\infty}\\frac{u_{n+1}}{u_n}=\\lim_{n\\rightarrow \\infty}\\frac{(n+1)!}{2^{(n+1)^2}}\\cdot\\frac{2^n}{n!}=\\lim_{n\\rightarrow \\infty}\\frac{n+1}{2^{2n+1}}=0&lt;1, \\text{由比值审敛法知}\\sum_{n=1}^{\\infty}\\frac{n!}{2^n\\pi^2}\\text{收敛}.\\end{aligned}</div>"
     },
     {
       "id": "q0014",
       "number": 14,
       "header": "#14-Averge",
       "difficulty": "Averge",
-      "prompt_html": "<img src=\"/static/generated/assets/advanced-math/ch083/q0014_prompt.png\"/>",
+      "prompt_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{array}{l} \\text{关于下列2个级数的收敛性,说法正确的是[ \\ \\ ]}. \\\\ (1) \\sum_{n=1}^{\\infty} \\frac{n^{2}}{(2+\\frac{1}{n})^{n}} \\quad;(2) \\quad \\sum_{n=1}^{\\infty} \\frac{n!}{n^{4}}. \\end{array}\">\\begin{array}{l} \\text{关于下列2个级数的收敛性,说法正确的是[ \\ \\ ]}. \\\\ (1) \\sum_{n=1}^{\\infty} \\frac{n^{2}}{(2+\\frac{1}{n})^{n}} \\quad;(2) \\quad \\sum_{n=1}^{\\infty} \\frac{n!}{n^{4}}. \\end{array}</div>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch083/q0014_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"(1) \\text{和} (2) \\text{都收敛};\">(1) \\text{和} (2) \\text{都收敛};</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch083/q0014_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"(1) \\text{和} (2) \\text{都发散}.\">(1) \\text{和} (2) \\text{都发散}.</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch083/q0014_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"(1) \\text{发散}, (2) \\text{收敛};\">(1) \\text{发散}, (2) \\text{收敛};</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch083/q0014_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"(1) \\text{收敛},\\,(2) \\text{发散};\">(1) \\text{收敛},\\,(2) \\text{发散};</span>"
         }
       ],
       "answer": "D",
       "answer_index": 3,
-      "analysis_html": "<img src=\"/static/generated/assets/advanced-math/ch083/q0014_analysis.png\"/>"
+      "analysis_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{aligned}&amp;\\text{解答(1)因为}\\frac{n^{2}}{(2+\\frac{1}{n})^{n}}&lt;\\frac{n^{2}}{2^{n}},\\text{对于级数}\\sum_{n=1}^{\\infty}\\frac{n^{2}}{2^{n}},\\text{有}\\lim_{n\\rightarrow\\infty}\\frac{u_{n+1}}{u_{n}}=\\lim_{n\\rightarrow\\infty}\\frac{(n+1)^{2}}{2^{n+1}}\\cdot\\frac{2^{n}}{n^{2}}=\\frac{1}{2}&lt;1,\\text{由}\\\\&amp;\\text{比值审敛法知}\\sum_{n=1}^{\\infty}\\frac{n^{2}}{2^{n}}\\text{收敛.再由比较审敛法知}\\sum_{n=1}^{\\infty}\\frac{n^{2}}{(2+\\frac{1}{n})^{n}}\\text{收敛.}\\\\&amp;(2)\\lim_{n\\rightarrow\\infty}\\frac{u_{n+1}}{u_{n}}=\\lim_{n\\rightarrow\\infty}\\frac{\\frac{(n+1)!}{(n+1)^{4}}}{\\frac{n!}{n^{4}}}=\\lim_{n\\rightarrow\\infty}\\frac{n^{4}}{(n+1)^{3}}=\\infty&gt;1,\\text{由比较审敛法知级数}\\sum_{n=1}^{\\infty}\\frac{n!}{n^{4}}\\text{发散.因}\\end{aligned}\">\\begin{aligned}&amp;\\text{解答(1)因为}\\frac{n^{2}}{(2+\\frac{1}{n})^{n}}&lt;\\frac{n^{2}}{2^{n}},\\text{对于级数}\\sum_{n=1}^{\\infty}\\frac{n^{2}}{2^{n}},\\text{有}\\lim_{n\\rightarrow\\infty}\\frac{u_{n+1}}{u_{n}}=\\lim_{n\\rightarrow\\infty}\\frac{(n+1)^{2}}{2^{n+1}}\\cdot\\frac{2^{n}}{n^{2}}=\\frac{1}{2}&lt;1,\\text{由}\\\\&amp;\\text{比值审敛法知}\\sum_{n=1}^{\\infty}\\frac{n^{2}}{2^{n}}\\text{收敛.再由比较审敛法知}\\sum_{n=1}^{\\infty}\\frac{n^{2}}{(2+\\frac{1}{n})^{n}}\\text{收敛.}\\\\&amp;(2)\\lim_{n\\rightarrow\\infty}\\frac{u_{n+1}}{u_{n}}=\\lim_{n\\rightarrow\\infty}\\frac{\\frac{(n+1)!}{(n+1)^{4}}}{\\frac{n!}{n^{4}}}=\\lim_{n\\rightarrow\\infty}\\frac{n^{4}}{(n+1)^{3}}=\\infty&gt;1,\\text{由比较审敛法知级数}\\sum_{n=1}^{\\infty}\\frac{n!}{n^{4}}\\text{发散.因}\\end{aligned}</div>"
     },
     {
       "id": "q0015",
       "number": 15,
       "header": "#15-Averge",
       "difficulty": "Averge",
-      "prompt_html": "<img src=\"/static/generated/assets/advanced-math/ch083/q0015_prompt.png\"/>",
+      "prompt_html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{设级数} \\sum_{n=1}^{\\infty} \\frac{1 \\cdot 3 \\cdot 5 \\cdots (2n-1)}{n!} \\text{ (1)和级数} \\sum_{n=1}^{\\infty} \\frac{(n+1)!}{n^{n+1}} \\text{ (2),}\\text{其敛散情况} [ \\quad]. .\">\\text{设级数} \\sum_{n=1}^{\\infty} \\frac{1 \\cdot 3 \\cdot 5 \\cdots (2n-1)}{n!} \\text{ (1)和级数} \\sum_{n=1}^{\\infty} \\frac{(n+1)!}{n^{n+1}} \\text{ (2),}\\text{其敛散情况} [ \\quad]. .</span>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch083/q0015_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"(1) \\text {和} (2) \\text {都发散}.\">(1) \\text {和} (2) \\text {都发散}.</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch083/q0015_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"(1) \\text {和} (2) \\text {都收敛};\">(1) \\text {和} (2) \\text {都收敛};</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch083/q0015_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"(1) \\text{收敛},\\,(2) \\text{发散};\">(1) \\text{收敛},\\,(2) \\text{发散};</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch083/q0015_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"(1) \\text{发散}, \\, (2) \\text{收敛};\">(1) \\text{发散}, \\, (2) \\text{收敛};</span>"
         }
       ],
       "answer": "D",
       "answer_index": 3,
-      "analysis_html": "<img src=\"/static/generated/assets/advanced-math/ch083/q0015_analysis.png\"/>"
+      "analysis_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{aligned}\\text{解答(1)}&amp;\\lim_{n\\rightarrow \\infty}\\frac{u_{n+1}}{u_{n}}=\\lim_{n\\rightarrow \\infty}\\frac{\\frac{1\\cdot 3\\cdot 5\\cdots (2n+1)}{(n+1)!}}{\\frac{1\\cdot 3\\cdot 5\\cdots (2n-1)}{n!}}=\\lim_{n\\rightarrow \\infty}\\frac{2n+1}{n+1}=2&gt;1,\\text{由比值审敛法知，级数}\\\\&amp;\\sum_{n=1}^{\\infty}\\frac{1\\cdot 3\\cdot 5\\cdots (2n-1)}{n!}\\text{发散}.2)&amp;\\lim_{n\\rightarrow \\infty}\\frac{u_{n+1}}{u_{n}}=\\lim_{n\\rightarrow \\infty}\\frac{\\frac{(n+2)!}{(n+1)^{n+2}}}{\\frac{(n+1)!}{n^{n+1}}}=\\lim_{n\\rightarrow \\infty}\\frac{n+2}{n+1}(1-\\frac{1}{n+1})^{n+1}=e^{-1}&lt;1,\\text{由比值审敛法知，级数}\\\\&amp;\\sum_{n=1}^{\\infty}\\frac{(n+1)!}{n^{n+1}}\\text{收敛}.\\end{aligned}\">\\begin{aligned}\\text{解答(1)}&amp;\\lim_{n\\rightarrow \\infty}\\frac{u_{n+1}}{u_{n}}=\\lim_{n\\rightarrow \\infty}\\frac{\\frac{1\\cdot 3\\cdot 5\\cdots (2n+1)}{(n+1)!}}{\\frac{1\\cdot 3\\cdot 5\\cdots (2n-1)}{n!}}=\\lim_{n\\rightarrow \\infty}\\frac{2n+1}{n+1}=2&gt;1,\\text{由比值审敛法知，级数}\\\\&amp;\\sum_{n=1}^{\\infty}\\frac{1\\cdot 3\\cdot 5\\cdots (2n-1)}{n!}\\text{发散}.2)&amp;\\lim_{n\\rightarrow \\infty}\\frac{u_{n+1}}{u_{n}}=\\lim_{n\\rightarrow \\infty}\\frac{\\frac{(n+2)!}{(n+1)^{n+2}}}{\\frac{(n+1)!}{n^{n+1}}}=\\lim_{n\\rightarrow \\infty}\\frac{n+2}{n+1}(1-\\frac{1}{n+1})^{n+1}=e^{-1}&lt;1,\\text{由比值审敛法知，级数}\\\\&amp;\\sum_{n=1}^{\\infty}\\frac{(n+1)!}{n^{n+1}}\\text{收敛}.\\end{aligned}</div>"
     },
     {
       "id": "q0016",
       "number": 16,
       "header": "#16-Averge",
       "difficulty": "Averge",
-      "prompt_html": "<img src=\"/static/generated/assets/advanced-math/ch083/q0016_prompt.png\"/>",
+      "prompt_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{array}{l} \\text{设级数} \\sum\\limits_{n=1}^{\\infty} n \\sin \\frac{\\pi}{2^{n-1}} \\text{(1)} \\text{和级数} \\sum\\limits_{n=1}^{\\infty} \\frac{n^{2} \\ln(1+\\frac{1}{n})}{3^{n}} \\text{(2)}, \\text{其敛散情况} [ \\quad] . \\end{array}\">\\begin{array}{l} \\text{设级数} \\sum\\limits_{n=1}^{\\infty} n \\sin \\frac{\\pi}{2^{n-1}} \\text{(1)} \\text{和级数} \\sum\\limits_{n=1}^{\\infty} \\frac{n^{2} \\ln(1+\\frac{1}{n})}{3^{n}} \\text{(2)}, \\text{其敛散情况} [ \\quad] . \\end{array}</div>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch083/q0016_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"(1) \\text {和} (2) \\text {都发散}.\">(1) \\text {和} (2) \\text {都发散}.</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch083/q0016_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"(1) \\text{发散}, \\, (2) \\text{收敛};\">(1) \\text{发散}, \\, (2) \\text{收敛};</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch083/q0016_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"(1) \\text{收敛}, \\, (2) \\text{发散};\">(1) \\text{收敛}, \\, (2) \\text{发散};</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch083/q0016_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"(1) \\text {和} (2) \\text {都收敛};\">(1) \\text {和} (2) \\text {都收敛};</span>"
         }
       ],
       "answer": "D",
       "answer_index": 3,
-      "analysis_html": "<img src=\"/static/generated/assets/advanced-math/ch083/q0016_analysis.png\"/>"
+      "analysis_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{aligned}&amp;\\text{解答(1)}\\lim_{n\\rightarrow \\infty}\\frac{u_{n+1}}{u_n}=\\lim_{n\\rightarrow \\infty}\\frac{(n+1)\\sin\\frac{\\pi}{2^{n+2}}}{n\\sin\\frac{\\pi}{2^{n+1}}}=\\lim_{n\\rightarrow \\infty}\\frac{n+1}{n}\\cdot\\frac{\\frac{\\pi}{2^{n+2}}}{\\frac{\\pi}{2^{n+1}}}=\\lim_{n\\rightarrow \\infty}\\frac{n+1}{2n}=\\frac{1}{2}&lt;1, \\text{由比值审敛}\\\\&amp;\\text{法知级数}\\sum_{n=1}^{\\infty}n\\sin\\frac{\\pi}{2^{n+1}}\\text{收敛.}\\\\&amp;(2)\\lim_{n\\rightarrow \\infty}\\frac{u_{n+1}}{u_n}=\\lim_{n\\rightarrow \\infty}\\frac{\\frac{(n+1)^2\\ln(1+\\frac{1}{n+1})}{3^{n+1}}}{\\frac{n^2\\ln(1+\\frac{1}{n})}{3^n}}=\\lim_{n\\rightarrow \\infty}\\frac{1}{3}\\cdot\\frac{(n+1)^2}{n^2}\\cdot\\frac{\\frac{1}{n}}{\\frac{1}{n}}=\\frac{1}{3}&lt;1, \\text{由比值审敛法知}\\\\&amp;\\text{级数}\\sum_{n=1}^{\\infty}\\frac{n^2\\ln(1+\\frac{1}{n})}{3^n}\\text{收敛.}\\end{aligned}\">\\begin{aligned}&amp;\\text{解答(1)}\\lim_{n\\rightarrow \\infty}\\frac{u_{n+1}}{u_n}=\\lim_{n\\rightarrow \\infty}\\frac{(n+1)\\sin\\frac{\\pi}{2^{n+2}}}{n\\sin\\frac{\\pi}{2^{n+1}}}=\\lim_{n\\rightarrow \\infty}\\frac{n+1}{n}\\cdot\\frac{\\frac{\\pi}{2^{n+2}}}{\\frac{\\pi}{2^{n+1}}}=\\lim_{n\\rightarrow \\infty}\\frac{n+1}{2n}=\\frac{1}{2}&lt;1, \\text{由比值审敛}\\\\&amp;\\text{法知级数}\\sum_{n=1}^{\\infty}n\\sin\\frac{\\pi}{2^{n+1}}\\text{收敛.}\\\\&amp;(2)\\lim_{n\\rightarrow \\infty}\\frac{u_{n+1}}{u_n}=\\lim_{n\\rightarrow \\infty}\\frac{\\frac{(n+1)^2\\ln(1+\\frac{1}{n+1})}{3^{n+1}}}{\\frac{n^2\\ln(1+\\frac{1}{n})}{3^n}}=\\lim_{n\\rightarrow \\infty}\\frac{1}{3}\\cdot\\frac{(n+1)^2}{n^2}\\cdot\\frac{\\frac{1}{n}}{\\frac{1}{n}}=\\frac{1}{3}&lt;1, \\text{由比值审敛法知}\\\\&amp;\\text{级数}\\sum_{n=1}^{\\infty}\\frac{n^2\\ln(1+\\frac{1}{n})}{3^n}\\text{收敛.}\\end{aligned}</div>"
     },
     {
       "id": "q0017",
       "number": 17,
       "header": "#17-Averge",
       "difficulty": "Averge",
-      "prompt_html": "<img src=\"/static/generated/assets/advanced-math/ch083/q0017_prompt.png\"/>",
+      "prompt_html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{设级数} \\sum_{n=1}^{\\infty} \\frac{n!}{n^{n}} \\text{ (1) 和级数} \\sum_{n=1}^{\\infty} \\frac{n^{n}}{\\left( n! \\right)^{2}} \\text{ (2),}\\text{其敛散情况} [ \\quad].\">\\text{设级数} \\sum_{n=1}^{\\infty} \\frac{n!}{n^{n}} \\text{ (1) 和级数} \\sum_{n=1}^{\\infty} \\frac{n^{n}}{\\left( n! \\right)^{2}} \\text{ (2),}\\text{其敛散情况} [ \\quad].</span>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch083/q0017_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"(1) \\text {和} (2) \\text {都收敛};\">(1) \\text {和} (2) \\text {都收敛};</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch083/q0017_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"(1) \\text{收敛},\\,(2) \\text{发散};\">(1) \\text{收敛},\\,(2) \\text{发散};</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch083/q0017_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"(1) \\text {和} (2) \\text {都发散}.\">(1) \\text {和} (2) \\text {都发散}.</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch083/q0017_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"(1) \\text{发散}, \\, (2) \\text{收敛};\">(1) \\text{发散}, \\, (2) \\text{收敛};</span>"
         }
       ],
       "answer": "A",
       "answer_index": 0,
-      "analysis_html": "<img src=\"/static/generated/assets/advanced-math/ch083/q0017_analysis.png\"/>"
+      "analysis_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{array}{l} \\text {解答(1)} \\lim_{n \\rightarrow \\infty} \\frac{u_{n+1}}{u_{n}} = \\lim_{n \\rightarrow \\infty} \\frac{\\frac{(n+1)!}{(n+1)^{n+1}}}{\\frac{n!}{n^{n}}} = \\lim_{n \\rightarrow \\infty} (\\frac{n}{n+1})^{n} = \\lim_{n \\rightarrow \\infty} \\frac{1}{(1+\\frac{1}{n})^{n}} = \\frac{1}{e} &lt; 1, \\text {由比值审敛法知} \\\\ \\text {级数} \\sum_{n=1}^{\\infty} \\frac{n!}{n^{n}} \\text {收敛}. \\\\ \\\\ (2) \\lim_{n \\rightarrow \\infty} \\frac{u_{n+1}}{u_{n}} = \\lim_{n \\rightarrow \\infty} \\frac{\\frac{(n+1)^{n+1}}{[(n+1)!]^{n}}}{\\frac{n^{n}}{(n!)^{2}}} = \\lim_{n \\rightarrow \\infty} (\\frac{n+1}{n})^{n} \\cdot \\frac{1}{n+1} = \\lim_{n \\rightarrow \\infty} (1+\\frac{1}{n})^{n} \\cdot \\frac{1}{n+1} = 0 &lt; 1, \\text {由比值审敛} \\\\ \\text {法知级数} \\sum_{n=1}^{\\infty} \\frac{n^{n}}{(n!)^{2}} \\text {收敛}. \\end{array}\">\\begin{array}{l} \\text {解答(1)} \\lim_{n \\rightarrow \\infty} \\frac{u_{n+1}}{u_{n}} = \\lim_{n \\rightarrow \\infty} \\frac{\\frac{(n+1)!}{(n+1)^{n+1}}}{\\frac{n!}{n^{n}}} = \\lim_{n \\rightarrow \\infty} (\\frac{n}{n+1})^{n} = \\lim_{n \\rightarrow \\infty} \\frac{1}{(1+\\frac{1}{n})^{n}} = \\frac{1}{e} &lt; 1, \\text {由比值审敛法知} \\\\ \\text {级数} \\sum_{n=1}^{\\infty} \\frac{n!}{n^{n}} \\text {收敛}. \\\\ \\\\ (2) \\lim_{n \\rightarrow \\infty} \\frac{u_{n+1}}{u_{n}} = \\lim_{n \\rightarrow \\infty} \\frac{\\frac{(n+1)^{n+1}}{[(n+1)!]^{n}}}{\\frac{n^{n}}{(n!)^{2}}} = \\lim_{n \\rightarrow \\infty} (\\frac{n+1}{n})^{n} \\cdot \\frac{1}{n+1} = \\lim_{n \\rightarrow \\infty} (1+\\frac{1}{n})^{n} \\cdot \\frac{1}{n+1} = 0 &lt; 1, \\text {由比值审敛} \\\\ \\text {法知级数} \\sum_{n=1}^{\\infty} \\frac{n^{n}}{(n!)^{2}} \\text {收敛}. \\end{array}</div>"
     },
     {
       "id": "q0018",
       "number": 18,
       "header": "#18-Averge",
       "difficulty": "Averge",
-      "prompt_html": "<img src=\"/static/generated/assets/advanced-math/ch083/q0018_prompt.png\"/>",
+      "prompt_html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{下列级数中发散的是} [ \\quad].\">\\text{下列级数中发散的是} [ \\quad].</span>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch083/q0018_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\sum_{n=1}^{\\infty} \\frac{1000^{n}}{n!}\\,.\">\\sum_{n=1}^{\\infty} \\frac{1000^{n}}{n!}\\,.</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch083/q0018_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\sum_{n=1}^{\\infty} \\frac{(-1)^{n}}{\\sqrt[n]{n}}\\,;\">\\sum_{n=1}^{\\infty} \\frac{(-1)^{n}}{\\sqrt[n]{n}}\\,;</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch083/q0018_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\sum_{n=1}^{\\infty} \\frac{2 + (-1)^{n}}{2^{n}} \\, ;\">\\sum_{n=1}^{\\infty} \\frac{2 + (-1)^{n}}{2^{n}} \\, ;</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch083/q0018_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\sum_{n=1}^{\\infty} \\frac{\\sin^{2} n}{n^{2}} \\, ;\">\\sum_{n=1}^{\\infty} \\frac{\\sin^{2} n}{n^{2}} \\, ;</span>"
         }
       ],
       "answer": "B",
       "answer_index": 1,
-      "analysis_html": "<img src=\"/static/generated/assets/advanced-math/ch083/q0018_analysis.png\"/>"
+      "analysis_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{aligned}&amp;\\text{解答显然}\\lim_{n\\rightarrow\\infty}\\frac{(-1)^{n}}{n^{\\sqrt[n]{n}}}\\text{不存在,所以}\\sum_{n=1}^{\\infty}\\frac{(-1)^{n}}{\\sqrt[n]{n}}\\text{发散}.\\\\&amp;\\text{由于}\\frac{\\sin^{2}n}{n^{2}}&lt;\\frac{1}{n^{2}},\\text{而}\\sum_{n=1}^{\\infty}\\frac{1}{n^{2}}\\text{收敛,所以}\\sum_{n=1}^{\\infty}\\frac{\\sin^{2}n}{n^{2}}\\text{收敛}.\\\\&amp;\\text{由于}0&lt;\\frac{2+(-1)^{n}}{2^{n}}&lt;\\frac{3}{2^{n}}=3(\\frac{1}{2})^{n}\\quad(n=1,2,\\cdots)\\text{而}\\sum_{n=1}^{\\infty}(\\frac{1}{2})^{n}\\text{是等比级数}(q=\\frac{1}{2}),\\text{且收敛,}\\\\&amp;\\text{由比较判别法,级数}\\sum_{n=1}^{\\infty}\\frac{2+(-1)^{n}}{2^{n}}\\text{收敛}.\\end{aligned}\">\\begin{aligned}&amp;\\text{解答显然}\\lim_{n\\rightarrow\\infty}\\frac{(-1)^{n}}{n^{\\sqrt[n]{n}}}\\text{不存在,所以}\\sum_{n=1}^{\\infty}\\frac{(-1)^{n}}{\\sqrt[n]{n}}\\text{发散}.\\\\&amp;\\text{由于}\\frac{\\sin^{2}n}{n^{2}}&lt;\\frac{1}{n^{2}},\\text{而}\\sum_{n=1}^{\\infty}\\frac{1}{n^{2}}\\text{收敛,所以}\\sum_{n=1}^{\\infty}\\frac{\\sin^{2}n}{n^{2}}\\text{收敛}.\\\\&amp;\\text{由于}0&lt;\\frac{2+(-1)^{n}}{2^{n}}&lt;\\frac{3}{2^{n}}=3(\\frac{1}{2})^{n}\\quad(n=1,2,\\cdots)\\text{而}\\sum_{n=1}^{\\infty}(\\frac{1}{2})^{n}\\text{是等比级数}(q=\\frac{1}{2}),\\text{且收敛,}\\\\&amp;\\text{由比较判别法,级数}\\sum_{n=1}^{\\infty}\\frac{2+(-1)^{n}}{2^{n}}\\text{收敛}.\\end{aligned}</div>"
     },
     {
       "id": "q0019",
       "number": 19,
       "header": "#19-Averge",
       "difficulty": "Averge",
-      "prompt_html": "<img src=\"/static/generated/assets/advanced-math/ch083/q0019_prompt.png\"/>",
+      "prompt_html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{ }a \\text{是正常数，若级数} \\sum_{n=1}^{\\infty} \\frac{ \\ln (n+2)}{ (a+\\frac{1}{n})^{n}} \\text{收敛，则} a \\text{要满足} [ \\quad].\">\\text{ }a \\text{是正常数，若级数} \\sum_{n=1}^{\\infty} \\frac{ \\ln (n+2)}{ (a+\\frac{1}{n})^{n}} \\text{收敛，则} a \\text{要满足} [ \\quad].</span>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch083/q0019_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"a &gt; 1 \\, ;\">a &gt; 1 \\, ;</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch083/q0019_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\begin{array}{l} 0 &lt; a \\leq 1. \\end{array}\">\\begin{array}{l} 0 &lt; a \\leq 1. \\end{array}</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch083/q0019_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"0 &lt; a &lt; 1 ;\">0 &lt; a &lt; 1 ;</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch083/q0019_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"a \\geq 1 \\, ;\">a \\geq 1 \\, ;</span>"
         }
       ],
       "answer": "A",
       "answer_index": 0,
-      "analysis_html": "<img src=\"/static/generated/assets/advanced-math/ch083/q0019_analysis.png\"/>"
+      "analysis_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{array}{l} \\text {解答} \\lim_{n \\to \\infty} \\frac{u_{n+1}}{u_{n}} = \\lim_{n \\to \\infty} \\frac{\\ln(n+3)}{(a+\\frac{1}{n})^{n+1}} \\cdot \\frac{(a+\\frac{1}{n})^{n}}{\\ln(n+2)} = \\lim_{n \\to \\infty} \\frac{\\ln(n+3)}{\\ln(n+2)} \\cdot \\frac{a^{n}(1+\\frac{1}{a})^{n}}{a^{n+1}[1+\\frac{1}{a(n+1)}]^{n+1}} = \\frac{1}{a}, \\\\ \\text {当} \\frac{1}{a} &lt; 1, \\text {即} a &gt; 1 \\text {时，级数收敛；当} \\frac{1}{a} &gt; 1, \\text {即} a &lt; 1 \\text {时，级数发散；当} a = 1 \\text {时，} \\\\ \\lim_{n \\to \\infty} u_{n} = \\lim_{n \\to \\infty} \\frac{\\ln(n+2)}{(a+\\frac{1}{n})^{n}} = \\lim_{n \\to \\infty} \\frac{\\ln(n+2)}{(1+\\frac{1}{n})^{n}} = +\\infty, \\text {级数发散}. \\end{array}\">\\begin{array}{l} \\text {解答} \\lim_{n \\to \\infty} \\frac{u_{n+1}}{u_{n}} = \\lim_{n \\to \\infty} \\frac{\\ln(n+3)}{(a+\\frac{1}{n})^{n+1}} \\cdot \\frac{(a+\\frac{1}{n})^{n}}{\\ln(n+2)} = \\lim_{n \\to \\infty} \\frac{\\ln(n+3)}{\\ln(n+2)} \\cdot \\frac{a^{n}(1+\\frac{1}{a})^{n}}{a^{n+1}[1+\\frac{1}{a(n+1)}]^{n+1}} = \\frac{1}{a}, \\\\ \\text {当} \\frac{1}{a} &lt; 1, \\text {即} a &gt; 1 \\text {时，级数收敛；当} \\frac{1}{a} &gt; 1, \\text {即} a &lt; 1 \\text {时，级数发散；当} a = 1 \\text {时，} \\\\ \\lim_{n \\to \\infty} u_{n} = \\lim_{n \\to \\infty} \\frac{\\ln(n+2)}{(a+\\frac{1}{n})^{n}} = \\lim_{n \\to \\infty} \\frac{\\ln(n+2)}{(1+\\frac{1}{n})^{n}} = +\\infty, \\text {级数发散}. \\end{array}</div>"
     },
     {
       "id": "q0020",
       "number": 20,
       "header": "#20-Averge",
       "difficulty": "Averge",
-      "prompt_html": "<img src=\"/static/generated/assets/advanced-math/ch083/q0020_prompt.png\"/>",
+      "prompt_html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{设级数} \\sum_{n=1}^{\\infty} \\frac{6^{n}n!}{n^{n}} \\text{ (1)和级数} \\sum_{n=1}^{\\infty} \\frac{n^{3}}{3^{n}} \\text{ (2),}\\text{其敛散的判定结果是} [ \\quad]. .\">\\text{设级数} \\sum_{n=1}^{\\infty} \\frac{6^{n}n!}{n^{n}} \\text{ (1)和级数} \\sum_{n=1}^{\\infty} \\frac{n^{3}}{3^{n}} \\text{ (2),}\\text{其敛散的判定结果是} [ \\quad]. .</span>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch083/q0020_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"(1) \\text{和} (2) \\text{都收敛};\">(1) \\text{和} (2) \\text{都收敛};</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch083/q0020_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"(1) \\text{发散}, (2) \\text{收敛};\">(1) \\text{发散}, (2) \\text{收敛};</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch083/q0020_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"(1) \\text{收敛}, \\, (2) \\text{发散};\">(1) \\text{收敛}, \\, (2) \\text{发散};</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch083/q0020_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"(1) \\text {和} (2) \\text {都发散}.\">(1) \\text {和} (2) \\text {都发散}.</span>"
         }
       ],
       "answer": "B",
       "answer_index": 1,
-      "analysis_html": "<img src=\"/static/generated/assets/advanced-math/ch083/q0020_analysis.png\"/>"
+      "analysis_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{aligned}&amp;\\text{解答}(1)\\lim_{n\\rightarrow \\infty}\\frac{u_{n+1}}{u_{n}}=\\lim_{n\\rightarrow \\infty}\\frac{\\frac{6^{n+1}(n+1)!}{(n+1)^{n+1}}}{\\frac{6^{n}n!}{n^{n}}}=\\lim_{n\\rightarrow \\infty}6(\\frac{n}{n+1})^{n}=\\lim_{n\\rightarrow \\infty}\\frac{6}{(1+\\frac{1}{n})^{n}}=\\frac{6}{e}&gt;1, \\text{由比值审敛法}\\\\&amp;\\text{知}\\sum_{n=1}^{\\infty}\\frac{6^{n}n!}{n^{n}}\\text{发散}.\\\\&amp;(2)\\ u_{n}=\\frac{n^{3}}{3^{n}},\\lim_{n\\rightarrow \\infty}\\frac{u_{n+1}}{u_{n}}=\\lim_{n\\rightarrow \\infty}\\frac{(n+1)^{3}}{3^{n+1}}\\cdot\\frac{3^{n}}{n^{3}}=\\lim_{n\\rightarrow \\infty}(1+\\frac{1}{n})^{3}=\\frac{1}{3}&lt;1, \\text{所以}\\sum_{n=1}^{\\infty}\\frac{n^{3}}{3^{n}}\\text{收敛}.\\end{aligned}\">\\begin{aligned}&amp;\\text{解答}(1)\\lim_{n\\rightarrow \\infty}\\frac{u_{n+1}}{u_{n}}=\\lim_{n\\rightarrow \\infty}\\frac{\\frac{6^{n+1}(n+1)!}{(n+1)^{n+1}}}{\\frac{6^{n}n!}{n^{n}}}=\\lim_{n\\rightarrow \\infty}6(\\frac{n}{n+1})^{n}=\\lim_{n\\rightarrow \\infty}\\frac{6}{(1+\\frac{1}{n})^{n}}=\\frac{6}{e}&gt;1, \\text{由比值审敛法}\\\\&amp;\\text{知}\\sum_{n=1}^{\\infty}\\frac{6^{n}n!}{n^{n}}\\text{发散}.\\\\&amp;(2)\\ u_{n}=\\frac{n^{3}}{3^{n}},\\lim_{n\\rightarrow \\infty}\\frac{u_{n+1}}{u_{n}}=\\lim_{n\\rightarrow \\infty}\\frac{(n+1)^{3}}{3^{n+1}}\\cdot\\frac{3^{n}}{n^{3}}=\\lim_{n\\rightarrow \\infty}(1+\\frac{1}{n})^{3}=\\frac{1}{3}&lt;1, \\text{所以}\\sum_{n=1}^{\\infty}\\frac{n^{3}}{3^{n}}\\text{收敛}.\\end{aligned}</div>"
     },
     {
       "id": "q0021",
       "number": 21,
       "header": "#21-Averge",
       "difficulty": "Averge",
-      "prompt_html": "<img src=\"/static/generated/assets/advanced-math/ch083/q0021_prompt.png\"/>",
+      "prompt_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{array}{l} \\text{下列级数的收敛性}\\text{,}\\text{说法正确的是} [ \\quad ] . \\\\ (1) \\sum \\limits_{n = 1} ^ { \\infty} \\frac {e ^ {2 n + 1}}{n !}; (2) \\quad \\sum \\limits_{n = 1} ^ { \\infty} \\arctan \\frac {1}{n} \\end{array}\">\\begin{array}{l} \\text{下列级数的收敛性}\\text{,}\\text{说法正确的是} [ \\quad ] . \\\\ (1) \\sum \\limits_{n = 1} ^ { \\infty} \\frac {e ^ {2 n + 1}}{n !}; (2) \\quad \\sum \\limits_{n = 1} ^ { \\infty} \\arctan \\frac {1}{n} \\end{array}</div>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch083/q0021_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"(1) \\text {和} (2) \\text {都收敛};\">(1) \\text {和} (2) \\text {都收敛};</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch083/q0021_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"(1) \\text {和} (2) \\text {都发散}.\">(1) \\text {和} (2) \\text {都发散}.</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch083/q0021_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"(1) \\text{发散}, (2) \\text{收敛};\">(1) \\text{发散}, (2) \\text{收敛};</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch083/q0021_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"(1) \\text{收敛}, \\, (2) \\text{发散};\">(1) \\text{收敛}, \\, (2) \\text{发散};</span>"
         }
       ],
       "answer": "D",
       "answer_index": 3,
-      "analysis_html": "<img src=\"/static/generated/assets/advanced-math/ch083/q0021_analysis.png\"/>"
+      "analysis_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{aligned}&amp;\\text{解答(1)} \\lim_{n\\rightarrow \\infty}\\frac{u_{n+1}}{u_{n}}=\\lim_{n\\rightarrow \\infty}\\frac{\\frac{e^{2n+3}}{(n+1)!}}{\\frac{e^{2n+1}}{n!}}=\\lim_{n\\rightarrow \\infty}\\frac{e^{2}}{n+1}=0&lt;1, \\text{由比值审敛法知}\\sum_{n=1}^{\\infty}\\frac{e^{2n+1}}{n!}\\text{收敛}.\\\\&amp;(2) \\text{由于}\\lim_{n\\rightarrow \\infty}\\frac{\\arctan\\frac{1}{n}}{\\frac{1}{n}}=1, \\text{级数}\\sum_{n=1}^{\\infty}\\frac{1}{n}\\text{发散,由比较审敛法的极限形式知级数}\\\\&amp;\\sum_{n=1}^{\\infty}\\arctan\\frac{1}{n}\\text{发散}.\\end{aligned}\">\\begin{aligned}&amp;\\text{解答(1)} \\lim_{n\\rightarrow \\infty}\\frac{u_{n+1}}{u_{n}}=\\lim_{n\\rightarrow \\infty}\\frac{\\frac{e^{2n+3}}{(n+1)!}}{\\frac{e^{2n+1}}{n!}}=\\lim_{n\\rightarrow \\infty}\\frac{e^{2}}{n+1}=0&lt;1, \\text{由比值审敛法知}\\sum_{n=1}^{\\infty}\\frac{e^{2n+1}}{n!}\\text{收敛}.\\\\&amp;(2) \\text{由于}\\lim_{n\\rightarrow \\infty}\\frac{\\arctan\\frac{1}{n}}{\\frac{1}{n}}=1, \\text{级数}\\sum_{n=1}^{\\infty}\\frac{1}{n}\\text{发散,由比较审敛法的极限形式知级数}\\\\&amp;\\sum_{n=1}^{\\infty}\\arctan\\frac{1}{n}\\text{发散}.\\end{aligned}</div>"
     },
     {
       "id": "q0022",
       "number": 22,
       "header": "#22-Averge",
       "difficulty": "Averge",
-      "prompt_html": "<img src=\"/static/generated/assets/advanced-math/ch083/q0022_prompt.png\"/>",
+      "prompt_html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{级数} \\sum _ { n = 1 } ^ { \\infty } \\frac { q ^ { n } n ! } { n ^ { n } } ( q &gt; 0 ) \\text{收敛，则} q \\text{要满足} [ \\quad ]  .\">\\text{级数} \\sum _ { n = 1 } ^ { \\infty } \\frac { q ^ { n } n ! } { n ^ { n } } ( q &gt; 0 ) \\text{收敛，则} q \\text{要满足} [ \\quad ]  .</span>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch083/q0022_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\begin{array}{l} { l } { { q &gt; e \\, ; } } \\end{array}\">\\begin{array}{l} { l } { { q &gt; e \\, ; } } \\end{array}</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch083/q0022_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\begin{array}{l} 0 &lt; q &lt; e \\, ; \\end{array}\">\\begin{array}{l} 0 &lt; q &lt; e \\, ; \\end{array}</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch083/q0022_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\begin{array}{l} { l } 0 &lt; q \\leq e \\, . \\end{array}\">\\begin{array}{l} { l } 0 &lt; q \\leq e \\, . \\end{array}</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch083/q0022_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"0 &lt; q &lt; 1 ;\">0 &lt; q &lt; 1 ;</span>"
         }
       ],
       "answer": "B",
       "answer_index": 1,
-      "analysis_html": "<img src=\"/static/generated/assets/advanced-math/ch083/q0022_analysis.png\"/>"
+      "analysis_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{array}{l} \\text {解答} \\lim_{n \\rightarrow \\infty} \\frac{u_{n+1}}{u_{n}} = \\lim_{n \\rightarrow \\infty} \\frac{q^{n+1}(n+1)!}{(n+1)^{n+1}} \\cdot \\frac{n^{n}}{q^{n} n!} = \\lim_{n \\rightarrow \\infty} q \\cdot \\left(\\frac{n}{n+1}\\right)^{n} = \\lim_{n \\rightarrow \\infty} \\frac{q}{(1+\\frac{1}{n})^{n}} = \\frac{q}{e}, \\\\ \\text{当} \\frac{q}{e} &lt; 1, \\text{即} 0 &lt; q &lt; e \\text{时，级数收敛；当} \\frac{q}{e} &gt; 1, q &gt; e \\text{时，级数发散；当} q = e \\text{时，} \\\\ \\frac{u_{n+1}}{u_{n}} = e \\cdot \\left(\\frac{n}{n+1}\\right)^{n} = \\frac{e}{(1+\\frac{1}{n})^{n}} &gt; 1, \\lim_{n \\rightarrow \\infty} u_{n} \\neq 0, \\text{级数发散}. \\end{array}\">\\begin{array}{l} \\text {解答} \\lim_{n \\rightarrow \\infty} \\frac{u_{n+1}}{u_{n}} = \\lim_{n \\rightarrow \\infty} \\frac{q^{n+1}(n+1)!}{(n+1)^{n+1}} \\cdot \\frac{n^{n}}{q^{n} n!} = \\lim_{n \\rightarrow \\infty} q \\cdot \\left(\\frac{n}{n+1}\\right)^{n} = \\lim_{n \\rightarrow \\infty} \\frac{q}{(1+\\frac{1}{n})^{n}} = \\frac{q}{e}, \\\\ \\text{当} \\frac{q}{e} &lt; 1, \\text{即} 0 &lt; q &lt; e \\text{时，级数收敛；当} \\frac{q}{e} &gt; 1, q &gt; e \\text{时，级数发散；当} q = e \\text{时，} \\\\ \\frac{u_{n+1}}{u_{n}} = e \\cdot \\left(\\frac{n}{n+1}\\right)^{n} = \\frac{e}{(1+\\frac{1}{n})^{n}} &gt; 1, \\lim_{n \\rightarrow \\infty} u_{n} \\neq 0, \\text{级数发散}. \\end{array}</div>"
     },
     {
       "id": "q0023",
       "number": 23,
       "header": "#23-Averge",
       "difficulty": "Averge",
-      "prompt_html": "<img src=\"/static/generated/assets/advanced-math/ch083/q0023_prompt.png\"/>",
+      "prompt_html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{设级数} \\sum_{n=1}^{\\infty} \\frac{2n-1}{\\sqrt{3^{n}}} \\ \\text{(1)和级数} \\sum_{n=1}^{\\infty} 4^{n} \\sin \\frac{\\pi}{5^{n}} \\ \\text{(2),}\\text{其敛散的判定结果是} [ \\quad]..\">\\text{设级数} \\sum_{n=1}^{\\infty} \\frac{2n-1}{\\sqrt{3^{n}}} \\ \\text{(1)和级数} \\sum_{n=1}^{\\infty} 4^{n} \\sin \\frac{\\pi}{5^{n}} \\ \\text{(2),}\\text{其敛散的判定结果是} [ \\quad]..</span>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch083/q0023_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"(1) \\text{收敛},\\ (2) \\text{发散};\">(1) \\text{收敛},\\ (2) \\text{发散};</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch083/q0023_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"(1) \\text{发散}, \\, (2) \\text{收敛};\">(1) \\text{发散}, \\, (2) \\text{收敛};</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch083/q0023_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"(1) \\text {和} (2) \\text {都发散}.\">(1) \\text {和} (2) \\text {都发散}.</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch083/q0023_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"(1) \\text {和} (2) \\text {都收敛};\">(1) \\text {和} (2) \\text {都收敛};</span>"
         }
       ],
       "answer": "D",
       "answer_index": 3,
-      "analysis_html": "<img src=\"/static/generated/assets/advanced-math/ch083/q0023_analysis.png\"/>"
+      "analysis_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{aligned}&amp;\\text{解答}u_{n}=\\frac{2n-1}{\\sqrt{3^{n}}},\\lim_{n\\rightarrow\\infty}\\frac{u_{n+1}}{u_{n}}=\\lim_{n\\rightarrow\\infty}\\frac{1}{\\sqrt{3}}\\frac{2n+1}{2n-1}=\\frac{\\sqrt{3}}{3}&lt;1,\\text{所以}(1)\\text{收敛}.\\\\&amp;u_{n}=4^{n}\\sin\\frac{\\pi}{5^{n}},\\lim_{n\\rightarrow\\infty}\\frac{u_{n+1}}{u_{n}}=\\lim_{n\\rightarrow\\infty}\\frac{4^{n+1}\\sin\\frac{\\pi}{5^{n+1}}}{4^{n}\\sin\\frac{\\pi}{5^{n}}}=\\frac{4}{5}&lt;1,\\text{所以}(2)\\text{收敛}.\\end{aligned}\">\\begin{aligned}&amp;\\text{解答}u_{n}=\\frac{2n-1}{\\sqrt{3^{n}}},\\lim_{n\\rightarrow\\infty}\\frac{u_{n+1}}{u_{n}}=\\lim_{n\\rightarrow\\infty}\\frac{1}{\\sqrt{3}}\\frac{2n+1}{2n-1}=\\frac{\\sqrt{3}}{3}&lt;1,\\text{所以}(1)\\text{收敛}.\\\\&amp;u_{n}=4^{n}\\sin\\frac{\\pi}{5^{n}},\\lim_{n\\rightarrow\\infty}\\frac{u_{n+1}}{u_{n}}=\\lim_{n\\rightarrow\\infty}\\frac{4^{n+1}\\sin\\frac{\\pi}{5^{n+1}}}{4^{n}\\sin\\frac{\\pi}{5^{n}}}=\\frac{4}{5}&lt;1,\\text{所以}(2)\\text{收敛}.\\end{aligned}</div>"
     },
     {
       "id": "q0024",
       "number": 24,
       "header": "#24-Averge",
       "difficulty": "Averge",
-      "prompt_html": "<img src=\"/static/generated/assets/advanced-math/ch083/q0024_prompt.png\"/>",
+      "prompt_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{array}{l} \\text{关于下列}2\\text{个级数的收敛性},\\text{说法正确的是}[ \\quad ]. \\\\ (1)\\sum_{n=1}^{\\infty}\\frac{1}{n!}\\ ;(2)\\ \\sum_{n=1}^{\\infty}\\frac{n!}{10^{n}}. \\end{array}\">\\begin{array}{l} \\text{关于下列}2\\text{个级数的收敛性},\\text{说法正确的是}[ \\quad ]. \\\\ (1)\\sum_{n=1}^{\\infty}\\frac{1}{n!}\\ ;(2)\\ \\sum_{n=1}^{\\infty}\\frac{n!}{10^{n}}. \\end{array}</div>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch083/q0024_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"(1) \\text{和} (2) \\text{都收敛};\">(1) \\text{和} (2) \\text{都收敛};</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch083/q0024_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"(1) \\text{收敛}, \\, (2) \\text{发散};\">(1) \\text{收敛}, \\, (2) \\text{发散};</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch083/q0024_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"(1) \\text {和} (2) \\text {都发散}.\">(1) \\text {和} (2) \\text {都发散}.</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch083/q0024_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"(1) \\text{发散}, (2) \\text{收敛};\">(1) \\text{发散}, (2) \\text{收敛};</span>"
         }
       ],
       "answer": "B",
       "answer_index": 1,
-      "analysis_html": "<img src=\"/static/generated/assets/advanced-math/ch083/q0024_analysis.png\"/>"
+      "analysis_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{aligned} \\text{解答(1)}&amp; \\lim_{n\\rightarrow \\infty}\\frac{u_{n+1}}{u_{n}}=\\lim_{n\\rightarrow \\infty}\\frac{\\frac{1}{(n+1)!}}{\\frac{1}{n!}}=\\lim_{n\\rightarrow \\infty}\\frac{1}{n+1}=0&lt;1,\\text{故级数}\\sum_{n=1}^{\\infty}\\frac{1}{n!}\\text{收敛}.\\\\ (2)&amp; \\lim_{n\\rightarrow \\infty}\\frac{u_{n+1}}{u_{n}}=\\lim_{n\\rightarrow \\infty}\\frac{(n+1)!}{10^{n+1}}\\cdot\\frac{10^{n}}{n!}=\\lim_{n\\rightarrow \\infty}\\frac{n+1}{10}=\\infty,\\text{故级数}\\sum_{n=1}^{\\infty}\\frac{n!}{10^{n}}\\text{发散}.\\end{aligned}\">\\begin{aligned} \\text{解答(1)}&amp; \\lim_{n\\rightarrow \\infty}\\frac{u_{n+1}}{u_{n}}=\\lim_{n\\rightarrow \\infty}\\frac{\\frac{1}{(n+1)!}}{\\frac{1}{n!}}=\\lim_{n\\rightarrow \\infty}\\frac{1}{n+1}=0&lt;1,\\text{故级数}\\sum_{n=1}^{\\infty}\\frac{1}{n!}\\text{收敛}.\\\\ (2)&amp; \\lim_{n\\rightarrow \\infty}\\frac{u_{n+1}}{u_{n}}=\\lim_{n\\rightarrow \\infty}\\frac{(n+1)!}{10^{n+1}}\\cdot\\frac{10^{n}}{n!}=\\lim_{n\\rightarrow \\infty}\\frac{n+1}{10}=\\infty,\\text{故级数}\\sum_{n=1}^{\\infty}\\frac{n!}{10^{n}}\\text{发散}.\\end{aligned}</div>"
     },
     {
       "id": "q0025",
       "number": 25,
       "header": "#25-Averge",
       "difficulty": "Averge",
-      "prompt_html": "<img src=\"/static/generated/assets/advanced-math/ch083/q0025_prompt.png\"/>",
+      "prompt_html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{设级数} \\sum_{n=1}^{\\infty} \\frac{10^{n}}{n!}(1) \\text{与级数} \\sum_{n=1}^{\\infty} \\frac{3^{n}n!}{n^{n}}(2)，\\text{则[ }.\">\\text{设级数} \\sum_{n=1}^{\\infty} \\frac{10^{n}}{n!}(1) \\text{与级数} \\sum_{n=1}^{\\infty} \\frac{3^{n}n!}{n^{n}}(2)，\\text{则[ }.</span>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch083/q0025_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"(1) \\text {和} (2) \\text {都收敛};\">(1) \\text {和} (2) \\text {都收敛};</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch083/q0025_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"(1) \\text{收敛},\\ (2) \\text{发散};\">(1) \\text{收敛},\\ (2) \\text{发散};</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch083/q0025_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"(1) \\text{和} (2) \\text{都发散}.\">(1) \\text{和} (2) \\text{都发散}.</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch083/q0025_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"(1) \\text{发散}, (2) \\text{收敛};\">(1) \\text{发散}, (2) \\text{收敛};</span>"
         }
       ],
       "answer": "B",
       "answer_index": 1,
-      "analysis_html": "<img src=\"/static/generated/assets/advanced-math/ch083/q0025_analysis.png\"/>"
+      "analysis_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{array}{l} \\text {解答(1)} \\lim_{n \\rightarrow \\infty} \\frac{u_{n+1}}{u_{n}} = \\lim_{n \\rightarrow \\infty} \\frac{\\frac{10^{n+1}}{(n+1)!}}{\\frac{10^{n}}{n!}} = \\lim_{n \\rightarrow \\infty} \\frac{10}{n+1} = 0 &lt; 1, \\text {由比值审敛法知} \\sum_{n=1}^{\\infty} \\frac{10^{n}}{n!} \\text {收敛}. \\\\ \\\\ (2) \\lim_{n \\rightarrow \\infty} \\frac{u_{n+1}}{u_{n}} = \\lim_{n \\rightarrow \\infty} \\frac{\\frac{3^{n+1}(n+1)!}{(n+1)^{n+1}}}{\\frac{3^{n} n!}{n^{n}}} = \\lim_{n \\rightarrow \\infty} 3(\\frac{n}{n+1})^{n} = \\lim_{n \\rightarrow \\infty} \\frac{3}{(1+\\frac{1}{n})^{n}} = \\frac{3}{e} &gt; 1, \\text {由比值审敛法知} \\\\ \\sum_{n=1}^{\\infty} \\frac{3^{n} n!}{n^{n}} \\text {发散}. \\end{array}\">\\begin{array}{l} \\text {解答(1)} \\lim_{n \\rightarrow \\infty} \\frac{u_{n+1}}{u_{n}} = \\lim_{n \\rightarrow \\infty} \\frac{\\frac{10^{n+1}}{(n+1)!}}{\\frac{10^{n}}{n!}} = \\lim_{n \\rightarrow \\infty} \\frac{10}{n+1} = 0 &lt; 1, \\text {由比值审敛法知} \\sum_{n=1}^{\\infty} \\frac{10^{n}}{n!} \\text {收敛}. \\\\ \\\\ (2) \\lim_{n \\rightarrow \\infty} \\frac{u_{n+1}}{u_{n}} = \\lim_{n \\rightarrow \\infty} \\frac{\\frac{3^{n+1}(n+1)!}{(n+1)^{n+1}}}{\\frac{3^{n} n!}{n^{n}}} = \\lim_{n \\rightarrow \\infty} 3(\\frac{n}{n+1})^{n} = \\lim_{n \\rightarrow \\infty} \\frac{3}{(1+\\frac{1}{n})^{n}} = \\frac{3}{e} &gt; 1, \\text {由比值审敛法知} \\\\ \\sum_{n=1}^{\\infty} \\frac{3^{n} n!}{n^{n}} \\text {发散}. \\end{array}</div>"
     },
     {
       "id": "q0026",
       "number": 26,
       "header": "#26-Averge",
       "difficulty": "Averge",
-      "prompt_html": "<img src=\"/static/generated/assets/advanced-math/ch083/q0026_prompt.png\"/>",
+      "prompt_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{array}{l} \\text{关于下列2个级数的收敛性,说法正确的是[ ]}. \\\\ (1)\\sum_{n=1}^{\\infty}\\frac{1}{(2n-1)\\cdot 2n};\\ (2)\\sum_{n=1}^{\\infty}\\frac{n^{2}}{(2+\\frac{1}{n})^{n}}. \\end{array}\">\\begin{array}{l} \\text{关于下列2个级数的收敛性,说法正确的是[ ]}. \\\\ (1)\\sum_{n=1}^{\\infty}\\frac{1}{(2n-1)\\cdot 2n};\\ (2)\\sum_{n=1}^{\\infty}\\frac{n^{2}}{(2+\\frac{1}{n})^{n}}. \\end{array}</div>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch083/q0026_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"(1) \\text{发散}, (2) \\text{收敛};\">(1) \\text{发散}, (2) \\text{收敛};</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch083/q0026_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"(1) \\text {和} (2) \\text {都发散}.\">(1) \\text {和} (2) \\text {都发散}.</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch083/q0026_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"(1) \\text{和} (2) \\text{都收敛};\">(1) \\text{和} (2) \\text{都收敛};</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch083/q0026_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{(1)收敛, (2)发散}\">\\text{(1)收敛, (2)发散}</span>"
         }
       ],
       "answer": "C",
       "answer_index": 2,
-      "analysis_html": "<img src=\"/static/generated/assets/advanced-math/ch083/q0026_analysis.png\"/>"
+      "analysis_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{aligned}&amp;\\text{解答(1)}\\lim_{n\\rightarrow\\infty}\\frac{u_{n+1}}{u_{n}}=\\lim_{n\\rightarrow\\infty}\\frac{\\frac{1}{(2n+1)\\cdot2(n+1)}}{\\frac{1}{(2n-1)\\cdot2n}}=\\lim_{n\\rightarrow\\infty}\\frac{(2n-1)\\cdot2n}{(2n+1)\\cdot2(n+1)}=1,\\text{比值审敛法失效,}\\\\&amp;\\text{改用比较审敛法，因为}\\frac{1}{(2n-1)\\cdot2n}&lt;\\frac{1}{n^{2}},\\text{而级数}\\sum_{n=1}^{\\infty}\\frac{1}{n^{2}}\\text{收敛,所以级数}\\\\&amp;\\sum_{n=1}^{\\infty}\\frac{1}{(2n-1)\\cdot2n}\\text{收敛.}\\\\&amp;(2)\\quad\\text{因为}\\frac{n^{2}}{(2+\\frac{1}{n})^{n}}&lt;\\frac{n^{2}}{2^{n}},\\text{对于级数}\\sum_{n=1}^{\\infty}\\frac{n^{2}}{2^{n}}\\text{用比值审敛法，有}\\\\&amp;\\lim_{n\\rightarrow\\infty}\\frac{u_{n+1}}{u_{n}}=\\lim_{n\\rightarrow\\infty}\\frac{(n+1)^{2}}{2^{n+1}}\\cdot\\frac{2^{n}}{n^{2}}=\\frac{1}{2}&lt;1,\\text{故}\\sum_{n=1}^{\\infty}\\frac{n^{2}}{2^{n}}\\text{收敛.由比较审敛法知}\\sum_{n=1}^{\\infty}\\frac{n^{2}}{(2+\\frac{1}{n})^{n}}\\text{收敛.}\\end{aligned}\">\\begin{aligned}&amp;\\text{解答(1)}\\lim_{n\\rightarrow\\infty}\\frac{u_{n+1}}{u_{n}}=\\lim_{n\\rightarrow\\infty}\\frac{\\frac{1}{(2n+1)\\cdot2(n+1)}}{\\frac{1}{(2n-1)\\cdot2n}}=\\lim_{n\\rightarrow\\infty}\\frac{(2n-1)\\cdot2n}{(2n+1)\\cdot2(n+1)}=1,\\text{比值审敛法失效,}\\\\&amp;\\text{改用比较审敛法，因为}\\frac{1}{(2n-1)\\cdot2n}&lt;\\frac{1}{n^{2}},\\text{而级数}\\sum_{n=1}^{\\infty}\\frac{1}{n^{2}}\\text{收敛,所以级数}\\\\&amp;\\sum_{n=1}^{\\infty}\\frac{1}{(2n-1)\\cdot2n}\\text{收敛.}\\\\&amp;(2)\\quad\\text{因为}\\frac{n^{2}}{(2+\\frac{1}{n})^{n}}&lt;\\frac{n^{2}}{2^{n}},\\text{对于级数}\\sum_{n=1}^{\\infty}\\frac{n^{2}}{2^{n}}\\text{用比值审敛法，有}\\\\&amp;\\lim_{n\\rightarrow\\infty}\\frac{u_{n+1}}{u_{n}}=\\lim_{n\\rightarrow\\infty}\\frac{(n+1)^{2}}{2^{n+1}}\\cdot\\frac{2^{n}}{n^{2}}=\\frac{1}{2}&lt;1,\\text{故}\\sum_{n=1}^{\\infty}\\frac{n^{2}}{2^{n}}\\text{收敛.由比较审敛法知}\\sum_{n=1}^{\\infty}\\frac{n^{2}}{(2+\\frac{1}{n})^{n}}\\text{收敛.}\\end{aligned}</div>"
     },
     {
       "id": "q0027",
       "number": 27,
       "header": "#27-Averge",
       "difficulty": "Averge",
-      "prompt_html": "<img src=\"/static/generated/assets/advanced-math/ch083/q0027_prompt.png\"/>",
+      "prompt_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{array}{l} \\text{关于下列}2\\text{个级数的收敛性},\\text{说法正确的是}[ \\quad ]. \\\\ (1)\\sum_{n=1}^{\\infty}\\frac{n^{4}}{n!}\\ ;(2)\\ \\sum_{n=1}^{\\infty}\\frac{n!}{5^{n}}. \\end{array}\">\\begin{array}{l} \\text{关于下列}2\\text{个级数的收敛性},\\text{说法正确的是}[ \\quad ]. \\\\ (1)\\sum_{n=1}^{\\infty}\\frac{n^{4}}{n!}\\ ;(2)\\ \\sum_{n=1}^{\\infty}\\frac{n!}{5^{n}}. \\end{array}</div>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch083/q0027_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"(1) \\text{收敛}, (2) \\text{发散};\">(1) \\text{收敛}, (2) \\text{发散};</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch083/q0027_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"(1) \\text{发散}, (2) \\text{收敛};\">(1) \\text{发散}, (2) \\text{收敛};</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch083/q0027_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"(1) \\text{和} (2) \\text{都收敛};\">(1) \\text{和} (2) \\text{都收敛};</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch083/q0027_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"(1) \\text{和} (2) \\text{都发散}.\">(1) \\text{和} (2) \\text{都发散}.</span>"
         }
       ],
       "answer": "A",
       "answer_index": 0,
-      "analysis_html": "<img src=\"/static/generated/assets/advanced-math/ch083/q0027_analysis.png\"/>"
+      "analysis_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{array}{l} \\text {解答(1)} \\lim_{n \\to \\infty} \\frac{u_{n+1}}{u_{n}} = \\lim_{n \\to \\infty} \\frac{\\frac{(n+1)^{4}}{(n+1)!}}{\\frac{n^{4}}{n!}} = \\lim_{n \\to \\infty} \\frac{(n+1)^{3}}{n^{4}} = 0 &lt; 1, \\text {故级数} \\sum_{n=1}^{\\infty} \\frac{n^{4}}{n!} \\text {收敛}. \\\\ \\\\ (2) \\lim_{n \\to \\infty} \\frac{u_{n+1}}{u_{n}} = \\lim_{n \\to \\infty} \\frac{(n+1)!}{5^{n+1}} \\cdot \\frac{5^{n}}{n!} = \\lim_{n \\to \\infty} \\frac{n+1}{5} = \\infty, \\text {故级数} \\sum_{n=1}^{\\infty} \\frac{n!}{5^{n}} \\text {发散}. \\end{array}\">\\begin{array}{l} \\text {解答(1)} \\lim_{n \\to \\infty} \\frac{u_{n+1}}{u_{n}} = \\lim_{n \\to \\infty} \\frac{\\frac{(n+1)^{4}}{(n+1)!}}{\\frac{n^{4}}{n!}} = \\lim_{n \\to \\infty} \\frac{(n+1)^{3}}{n^{4}} = 0 &lt; 1, \\text {故级数} \\sum_{n=1}^{\\infty} \\frac{n^{4}}{n!} \\text {收敛}. \\\\ \\\\ (2) \\lim_{n \\to \\infty} \\frac{u_{n+1}}{u_{n}} = \\lim_{n \\to \\infty} \\frac{(n+1)!}{5^{n+1}} \\cdot \\frac{5^{n}}{n!} = \\lim_{n \\to \\infty} \\frac{n+1}{5} = \\infty, \\text {故级数} \\sum_{n=1}^{\\infty} \\frac{n!}{5^{n}} \\text {发散}. \\end{array}</div>"
     },
     {
       "id": "q0028",
       "number": 28,
       "header": "#28-Averge",
       "difficulty": "Averge",
-      "prompt_html": "<img src=\"/static/generated/assets/advanced-math/ch083/q0028_prompt.png\"/>",
+      "prompt_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{array}{l} \\text{关于下列}\\text{2}\\text{个级数的收敛性}\\text{,}\\text{说法正确的是} [ \\quad].  \\\\ (1) \\sum_{n=1}^{\\infty} [(-1)^{n+1}+1] \\frac{n!}{n^{n}}~;(2) \\quad \\sum_{n=1}^{\\infty} \\frac{2^{n^{2}}}{n!}\\,. \\end{array}\">\\begin{array}{l} \\text{关于下列}\\text{2}\\text{个级数的收敛性}\\text{,}\\text{说法正确的是} [ \\quad].  \\\\ (1) \\sum_{n=1}^{\\infty} [(-1)^{n+1}+1] \\frac{n!}{n^{n}}~;(2) \\quad \\sum_{n=1}^{\\infty} \\frac{2^{n^{2}}}{n!}\\,. \\end{array}</div>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch083/q0028_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"(1) \\text {和} (2) \\text {都收敛};\">(1) \\text {和} (2) \\text {都收敛};</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch083/q0028_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"(1) \\text{收敛},\\,(2) \\text{发散};\">(1) \\text{收敛},\\,(2) \\text{发散};</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch083/q0028_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"(1) \\text{发散}, (2) \\text{收敛};\">(1) \\text{发散}, (2) \\text{收敛};</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch083/q0028_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"(1) \\text {和} (2) \\text {都发散}.\">(1) \\text {和} (2) \\text {都发散}.</span>"
         }
       ],
       "answer": "B",
       "answer_index": 1,
-      "analysis_html": "<img src=\"/static/generated/assets/advanced-math/ch083/q0028_analysis.png\"/>"
+      "analysis_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{aligned}&amp;\\text{解答(1)因为}0\\leq [(-1)^{n+1}+1]\\frac{n!}{n^n}\\leq \\frac{2n!}{n^n},\\text{对于级数}\\sum_{n=1}^{\\infty}\\frac{2n!}{n^n},\\text{由比值审敛法有}\\\\&amp;\\quad\\lim_{n\\rightarrow \\infty}\\frac{u_{n+1}}{u_n}=\\lim_{n\\rightarrow \\infty}\\frac{2(n+1)!}{\\frac{2n!}{n^n}}=\\lim_{n\\rightarrow \\infty}(\\frac{n}{n+1})^n=\\lim_{n\\rightarrow \\infty}\\frac{1}{(1+\\frac{1}{n})^n}=\\frac{1}{e}&lt;1,\\text{知}\\sum_{n=1}^{\\infty}\\frac{2n!}{n^n}\\text{收敛.再由比较}\\\\&amp;\\quad\\text{审敛法知}\\sum_{n=1}^{\\infty} [(-1)^{n+1}+1]\\frac{n!}{n^n}\\text{收敛。}\\\\&amp;(2)\\lim_{n\\rightarrow \\infty}\\frac{u_{n+1}}{u_n}=\\lim_{n\\rightarrow \\infty}\\frac{2^{(n+1)^2}}{(n+1)!}\\cdot \\frac{n!}{2^{n^2}}=\\lim_{n\\rightarrow \\infty}\\frac{2^{2n+1}}{n+1}=\\infty,\\text{由比值审敛法知}\\sum_{n=1}^{\\infty}\\frac{2^{n^2}}{n!}\\text{发散。}\\end{aligned}\">\\begin{aligned}&amp;\\text{解答(1)因为}0\\leq [(-1)^{n+1}+1]\\frac{n!}{n^n}\\leq \\frac{2n!}{n^n},\\text{对于级数}\\sum_{n=1}^{\\infty}\\frac{2n!}{n^n},\\text{由比值审敛法有}\\\\&amp;\\quad\\lim_{n\\rightarrow \\infty}\\frac{u_{n+1}}{u_n}=\\lim_{n\\rightarrow \\infty}\\frac{2(n+1)!}{\\frac{2n!}{n^n}}=\\lim_{n\\rightarrow \\infty}(\\frac{n}{n+1})^n=\\lim_{n\\rightarrow \\infty}\\frac{1}{(1+\\frac{1}{n})^n}=\\frac{1}{e}&lt;1,\\text{知}\\sum_{n=1}^{\\infty}\\frac{2n!}{n^n}\\text{收敛.再由比较}\\\\&amp;\\quad\\text{审敛法知}\\sum_{n=1}^{\\infty} [(-1)^{n+1}+1]\\frac{n!}{n^n}\\text{收敛。}\\\\&amp;(2)\\lim_{n\\rightarrow \\infty}\\frac{u_{n+1}}{u_n}=\\lim_{n\\rightarrow \\infty}\\frac{2^{(n+1)^2}}{(n+1)!}\\cdot \\frac{n!}{2^{n^2}}=\\lim_{n\\rightarrow \\infty}\\frac{2^{2n+1}}{n+1}=\\infty,\\text{由比值审敛法知}\\sum_{n=1}^{\\infty}\\frac{2^{n^2}}{n!}\\text{发散。}\\end{aligned}</div>"
     },
     {
       "id": "q0029",
       "number": 29,
       "header": "#29-Averge",
       "difficulty": "Averge",
-      "prompt_html": "<img src=\"/static/generated/assets/advanced-math/ch083/q0029_prompt.png\"/>",
+      "prompt_html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{关于级数} \\sum_{n=1}^{\\infty} \\frac{a^{n}}{n^{k}}(a&gt;0) \\text{的收敛性,下列说法正确的是[ \\ \\ ]}.\">\\text{关于级数} \\sum_{n=1}^{\\infty} \\frac{a^{n}}{n^{k}}(a&gt;0) \\text{的收敛性,下列说法正确的是[ \\ \\ ]}.</span>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch083/q0029_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{当} a = 1,\\,\\,\\, k \\leq 1 \\text{时，级数发散};\">\\text{当} a = 1,\\,\\,\\, k \\leq 1 \\text{时，级数发散};</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch083/q0029_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{当} a = 1, \\; \\; k &gt; 1 \\text{时，级数发散}.\">\\text{当} a = 1, \\; \\; k &gt; 1 \\text{时，级数发散}.</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch083/q0029_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{当} a &gt; 1 \\text{时，级数收敛};\">\\text{当} a &gt; 1 \\text{时，级数收敛};</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch083/q0029_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{当} 0 &lt; a &lt; 1 \\text{时，级数发散};\">\\text{当} 0 &lt; a &lt; 1 \\text{时，级数发散};</span>"
         }
       ],
       "answer": "A",
       "answer_index": 0,
-      "analysis_html": "<img src=\"/static/generated/assets/advanced-math/ch083/q0029_analysis.png\"/>"
+      "analysis_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{array}{l} \\text {解} \\lim_{n \\rightarrow \\infty} \\frac{u_{n+1}}{u_{n}} = \\lim_{n \\rightarrow \\infty} \\frac{\\frac{a^{n+1}}{(n+1)^{k}}}{\\frac{a^{n}}{n^{k}}} = \\lim_{n \\rightarrow \\infty} a (\\frac{n}{n+1})^{k} = \\lim_{n \\rightarrow \\infty} \\frac{a}{(1+\\frac{1}{n})^{k}} = a, 0 &lt; a &lt; 1 \\text {时，级数收敛}; \\\\ \\text {当} a &gt; 1 \\text {时，级数发散；当} a = 1 \\text {时，级数变为} \\sum_{n=1}^{\\infty} \\frac{1}{n^{k}}，\\text{由} p \\text {-级数知：当} k &gt; 1 \\text {时，} \\\\ \\text {级数收敛，当} k \\leq 1 \\text {时，级数发散}. \\end{array}\">\\begin{array}{l} \\text {解} \\lim_{n \\rightarrow \\infty} \\frac{u_{n+1}}{u_{n}} = \\lim_{n \\rightarrow \\infty} \\frac{\\frac{a^{n+1}}{(n+1)^{k}}}{\\frac{a^{n}}{n^{k}}} = \\lim_{n \\rightarrow \\infty} a (\\frac{n}{n+1})^{k} = \\lim_{n \\rightarrow \\infty} \\frac{a}{(1+\\frac{1}{n})^{k}} = a, 0 &lt; a &lt; 1 \\text {时，级数收敛}; \\\\ \\text {当} a &gt; 1 \\text {时，级数发散；当} a = 1 \\text {时，级数变为} \\sum_{n=1}^{\\infty} \\frac{1}{n^{k}}，\\text{由} p \\text {-级数知：当} k &gt; 1 \\text {时，} \\\\ \\text {级数收敛，当} k \\leq 1 \\text {时，级数发散}. \\end{array}</div>"
     },
     {
       "id": "q0030",
       "number": 30,
       "header": "#30-Averge",
       "difficulty": "Averge",
-      "prompt_html": "<img src=\"/static/generated/assets/advanced-math/ch083/q0030_prompt.png\"/>",
+      "prompt_html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\sum_{n=1}^{\\infty} \\frac{1}{2^{n}} \\arcsin \\frac{n \\pi}{7} \\text{(1)} \\text{和} \\sum_{n=1}^{\\infty} \\frac{3^{n}}{n^{4}} \\text{(2)}, \\text{其敛散的判定结果是[ }].\">\\sum_{n=1}^{\\infty} \\frac{1}{2^{n}} \\arcsin \\frac{n \\pi}{7} \\text{(1)} \\text{和} \\sum_{n=1}^{\\infty} \\frac{3^{n}}{n^{4}} \\text{(2)}, \\text{其敛散的判定结果是[ }].</span>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch083/q0030_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"(1) \\text{收敛},\\,(2) \\text{发散};\">(1) \\text{收敛},\\,(2) \\text{发散};</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch083/q0030_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"(1) \\text{发散}, \\, (2) \\text{收敛};\">(1) \\text{发散}, \\, (2) \\text{收敛};</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch083/q0030_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"(1) \\text {和} (2) \\text {都收敛};\">(1) \\text {和} (2) \\text {都收敛};</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch083/q0030_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"(1) \\text {和} (2) \\text {都发散}.\">(1) \\text {和} (2) \\text {都发散}.</span>"
         }
       ],
       "answer": "A",
       "answer_index": 0,
-      "analysis_html": "<img src=\"/static/generated/assets/advanced-math/ch083/q0030_analysis.png\"/>"
+      "analysis_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{aligned}&amp;\\text{解答(1)} \\lim_{n \\rightarrow \\infty} \\frac{u_{n+1}}{u_n} = \\lim_{n \\rightarrow \\infty} \\frac{\\frac{1}{2^{n+1}} \\arcsin \\frac{(n+1)\\pi}{7}}{\\frac{1}{2^n} \\arcsin \\frac{n\\pi}{7}} = \\lim_{n \\rightarrow \\infty} \\frac{n+1}{2n} = \\frac{1}{2} &lt; 1, \\text{所以(1)收敛.}\\\\&amp;(2) \\ u_n = \\frac{3^n}{n^4}, \\lim_{n \\rightarrow \\infty} \\frac{u_{n+1}}{u_n} = \\lim_{n \\rightarrow \\infty} \\frac{3^{n+1}}{(n+1)^4} \\cdot \\frac{n^4}{3^n} = \\lim_{n \\rightarrow \\infty} 3(\\frac{n}{n+1})^4 = 3 &gt; 1, \\text{所以} \\sum_{n=1}^{\\infty} \\frac{3^n}{n^4} \\text{发散}.\\end{aligned}\">\\begin{aligned}&amp;\\text{解答(1)} \\lim_{n \\rightarrow \\infty} \\frac{u_{n+1}}{u_n} = \\lim_{n \\rightarrow \\infty} \\frac{\\frac{1}{2^{n+1}} \\arcsin \\frac{(n+1)\\pi}{7}}{\\frac{1}{2^n} \\arcsin \\frac{n\\pi}{7}} = \\lim_{n \\rightarrow \\infty} \\frac{n+1}{2n} = \\frac{1}{2} &lt; 1, \\text{所以(1)收敛.}\\\\&amp;(2) \\ u_n = \\frac{3^n}{n^4}, \\lim_{n \\rightarrow \\infty} \\frac{u_{n+1}}{u_n} = \\lim_{n \\rightarrow \\infty} \\frac{3^{n+1}}{(n+1)^4} \\cdot \\frac{n^4}{3^n} = \\lim_{n \\rightarrow \\infty} 3(\\frac{n}{n+1})^4 = 3 &gt; 1, \\text{所以} \\sum_{n=1}^{\\infty} \\frac{3^n}{n^4} \\text{发散}.\\end{aligned}</div>"
     },
     {
       "id": "q0031",
       "number": 31,
       "header": "#31-Averge",
       "difficulty": "Averge",
-      "prompt_html": "<img src=\"/static/generated/assets/advanced-math/ch083/q0031_prompt.png\"/>",
+      "prompt_html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\sum_{n=1}^{\\infty} \\frac{3^{n} \\cdot n!}{1 \\cdot 3 \\cdot 5 \\cdots (2n-1)} \\text{(1)和级数} \\sum_{n=1}^{\\infty} \\frac{6^{n}}{7^{n}-5^{n}} \\text{(2),}\\text{其敛散情况} [ \\quad]..\">\\sum_{n=1}^{\\infty} \\frac{3^{n} \\cdot n!}{1 \\cdot 3 \\cdot 5 \\cdots (2n-1)} \\text{(1)和级数} \\sum_{n=1}^{\\infty} \\frac{6^{n}}{7^{n}-5^{n}} \\text{(2),}\\text{其敛散情况} [ \\quad]..</span>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch083/q0031_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"(1) \\text {和} (2) \\text {都收敛};\">(1) \\text {和} (2) \\text {都收敛};</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch083/q0031_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"(1) \\text {和} (2) \\text {都发散}.\">(1) \\text {和} (2) \\text {都发散}.</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch083/q0031_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"(1) \\text{收敛}, \\, (2) \\text{发散};\">(1) \\text{收敛}, \\, (2) \\text{发散};</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch083/q0031_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"(1) \\text{发散},\\,(2) \\text{收敛};\">(1) \\text{发散},\\,(2) \\text{收敛};</span>"
         }
       ],
       "answer": "D",
       "answer_index": 3,
-      "analysis_html": "<img src=\"/static/generated/assets/advanced-math/ch083/q0031_analysis.png\"/>"
+      "analysis_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{aligned}&amp;\\text{解答(1)} \\lim_{n \\to \\infty} \\frac{u_{n+1}}{u_n} = \\lim_{n \\to \\infty} \\frac{\\frac{3^{n+1} \\cdot (n+1)!}{1 \\cdot 3 \\cdot 5 \\cdots (2n+1)}}{\\frac{3^n \\cdot n!}{1 \\cdot 3 \\cdot 5 \\cdots (2n-1)}} = 3 \\lim_{n \\to \\infty} \\frac{n+1}{2n+1} = \\frac{3}{2} &gt; 1, \\text{由比值审敛法知，级数}\\\\&amp;\\sum_{n=1}^{\\infty} \\frac{3^n \\cdot n!}{1 \\cdot 3 \\cdot 5 \\cdots (2n-1)} \\text{发散}.\\\\&amp;(2) \\lim_{n \\to \\infty} \\frac{u_{n+1}}{u_n} = \\lim_{n \\to \\infty} \\frac{\\frac{6^{n+1}}{7^{n+1}-5^{n+1}}}{\\frac{6^n}{7^n-5^n}} = 6 \\lim_{n \\to \\infty} \\frac{7^n-5^n}{7^{n+1}-5^{n+1}} = 6 \\lim_{n \\to \\infty} \\frac{1-(\\frac{5}{7})^n}{7-5(\\frac{5}{7})^n} = \\frac{6}{7} &lt; 1. \\text{由比值审敛法知，级数} \\sum_{n=1}^{\\infty} \\frac{6^n}{7^n-5^n} \\text{收敛}.\\end{aligned}\">\\begin{aligned}&amp;\\text{解答(1)} \\lim_{n \\to \\infty} \\frac{u_{n+1}}{u_n} = \\lim_{n \\to \\infty} \\frac{\\frac{3^{n+1} \\cdot (n+1)!}{1 \\cdot 3 \\cdot 5 \\cdots (2n+1)}}{\\frac{3^n \\cdot n!}{1 \\cdot 3 \\cdot 5 \\cdots (2n-1)}} = 3 \\lim_{n \\to \\infty} \\frac{n+1}{2n+1} = \\frac{3}{2} &gt; 1, \\text{由比值审敛法知，级数}\\\\&amp;\\sum_{n=1}^{\\infty} \\frac{3^n \\cdot n!}{1 \\cdot 3 \\cdot 5 \\cdots (2n-1)} \\text{发散}.\\\\&amp;(2) \\lim_{n \\to \\infty} \\frac{u_{n+1}}{u_n} = \\lim_{n \\to \\infty} \\frac{\\frac{6^{n+1}}{7^{n+1}-5^{n+1}}}{\\frac{6^n}{7^n-5^n}} = 6 \\lim_{n \\to \\infty} \\frac{7^n-5^n}{7^{n+1}-5^{n+1}} = 6 \\lim_{n \\to \\infty} \\frac{1-(\\frac{5}{7})^n}{7-5(\\frac{5}{7})^n} = \\frac{6}{7} &lt; 1. \\text{由比值审敛法知，级数} \\sum_{n=1}^{\\infty} \\frac{6^n}{7^n-5^n} \\text{收敛}.\\end{aligned}</div>"
     },
     {
       "id": "q0032",
       "number": 32,
       "header": "#32-Averge",
       "difficulty": "Averge",
-      "prompt_html": "<img src=\"/static/generated/assets/advanced-math/ch083/q0032_prompt.png\"/>",
+      "prompt_html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{下列级数中发散的是} [ \\quad].\">\\text{下列级数中发散的是} [ \\quad].</span>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch083/q0032_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\sum_{n=1}^{\\infty} \\frac{2^{n}-n!}{n^{n}}\\, ;\">\\sum_{n=1}^{\\infty} \\frac{2^{n}-n!}{n^{n}}\\, ;</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch083/q0032_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\sum_{n=1}^{\\infty} (\\frac{n}{3n-1})^{2}\\, ;\">\\sum_{n=1}^{\\infty} (\\frac{n}{3n-1})^{2}\\, ;</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch083/q0032_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\sum_{n=1}^{\\infty} \\frac{n^{2}}{3^{n}}.\">\\sum_{n=1}^{\\infty} \\frac{n^{2}}{3^{n}}.</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch083/q0032_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\sum_{n=1}^{\\infty} (e^{\\frac{1}{n^{2}}} - 1)\\, ;\">\\sum_{n=1}^{\\infty} (e^{\\frac{1}{n^{2}}} - 1)\\, ;</span>"
         }
       ],
       "answer": "B",
       "answer_index": 1,
-      "analysis_html": "<img src=\"/static/generated/assets/advanced-math/ch083/q0032_analysis.png\"/>"
+      "analysis_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{aligned}&amp;\\text{解答}u_{n}=(\\frac{n}{3n-1})^{2},\\lim_{n\\rightarrow\\infty}(\\frac{n}{3n-1})^{2}=\\frac{1}{9}\\neq0, \\text{所以}\\sum_{n=1}^{\\infty}(\\frac{n}{3n-1})^{2}\\text{发散}.\\\\&amp;u_{n}=\\frac{2^{n}-n!}{n^{n}}&lt;\\frac{2^{n}}{n^{n}}=v_{n},\\text{对于级数}\\sum_{n=1}^{\\infty}\\frac{2^{n}}{n^{n}},\\text{由比值审敛法,}\\\\&amp;\\lim_{n\\rightarrow\\infty}\\frac{v_{n+1}}{v_{n}}=\\lim_{n\\rightarrow\\infty}\\frac{\\frac{2^{n+1}}{(n+1)^{n+1}}}{\\frac{2^{n}}{n^{n}}}=\\lim_{n\\rightarrow\\infty}2(-\\frac{n}{n+1})^{n}\\frac{1}{n+1}=\\lim_{n\\rightarrow\\infty}\\frac{2}{(1+\\frac{1}{n})^{n}(n+1)}=0&lt;1, \\text{故}\\sum_{n=1}^{\\infty}\\frac{2^{n}}{n^{n}}\\text{收敛}.\\\\&amp;\\text{再由比较审敛法}\\sum_{n=1}^{\\infty}\\frac{2^{n}-n!}{n^{n}}\\text{收敛}.\\\\&amp;\\text{因为}\\lim_{x\\rightarrow0}\\frac{e^{x}-1}{x}=1, \\text{所以}\\lim_{n\\rightarrow\\infty}\\frac{e^{\\frac{1}{n^{2}}}-1}{\\frac{1}{n^{2}}}=1, \\text{又}\\sum_{n=1}^{\\infty}\\frac{1}{n^{2}}\\text{收敛, 由比较审敛法的极限形式知}\\\\&amp;\\text{级数}\\sum_{n=1}^{\\infty}(e^{\\frac{1}{n^{2}}}-1)\\text{收敛}.\\end{aligned}\">\\begin{aligned}&amp;\\text{解答}u_{n}=(\\frac{n}{3n-1})^{2},\\lim_{n\\rightarrow\\infty}(\\frac{n}{3n-1})^{2}=\\frac{1}{9}\\neq0, \\text{所以}\\sum_{n=1}^{\\infty}(\\frac{n}{3n-1})^{2}\\text{发散}.\\\\&amp;u_{n}=\\frac{2^{n}-n!}{n^{n}}&lt;\\frac{2^{n}}{n^{n}}=v_{n},\\text{对于级数}\\sum_{n=1}^{\\infty}\\frac{2^{n}}{n^{n}},\\text{由比值审敛法,}\\\\&amp;\\lim_{n\\rightarrow\\infty}\\frac{v_{n+1}}{v_{n}}=\\lim_{n\\rightarrow\\infty}\\frac{\\frac{2^{n+1}}{(n+1)^{n+1}}}{\\frac{2^{n}}{n^{n}}}=\\lim_{n\\rightarrow\\infty}2(-\\frac{n}{n+1})^{n}\\frac{1}{n+1}=\\lim_{n\\rightarrow\\infty}\\frac{2}{(1+\\frac{1}{n})^{n}(n+1)}=0&lt;1, \\text{故}\\sum_{n=1}^{\\infty}\\frac{2^{n}}{n^{n}}\\text{收敛}.\\\\&amp;\\text{再由比较审敛法}\\sum_{n=1}^{\\infty}\\frac{2^{n}-n!}{n^{n}}\\text{收敛}.\\\\&amp;\\text{因为}\\lim_{x\\rightarrow0}\\frac{e^{x}-1}{x}=1, \\text{所以}\\lim_{n\\rightarrow\\infty}\\frac{e^{\\frac{1}{n^{2}}}-1}{\\frac{1}{n^{2}}}=1, \\text{又}\\sum_{n=1}^{\\infty}\\frac{1}{n^{2}}\\text{收敛, 由比较审敛法的极限形式知}\\\\&amp;\\text{级数}\\sum_{n=1}^{\\infty}(e^{\\frac{1}{n^{2}}}-1)\\text{收敛}.\\end{aligned}</div>"
     },
     {
       "id": "q0033",
       "number": 33,
       "header": "#33-Averge",
       "difficulty": "Averge",
-      "prompt_html": "<img src=\"/static/generated/assets/advanced-math/ch083/q0033_prompt.png\"/>",
+      "prompt_html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{关于级数} \\sum_{n=1}^{\\infty} \\frac{x^{n}}{(1+x)(1+x^{2})\\cdots(1+x^{n})}(x \\geq 0) \\text{的收敛性}\\text{,}\\text{下列说法正确的是} [ \\quad] .\">\\text{关于级数} \\sum_{n=1}^{\\infty} \\frac{x^{n}}{(1+x)(1+x^{2})\\cdots(1+x^{n})}(x \\geq 0) \\text{的收敛性}\\text{,}\\text{下列说法正确的是} [ \\quad] .</span>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch083/q0033_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{当} 0 \\leq x &lt; 1 \\text{时，级数发散};\">\\text{当} 0 \\leq x &lt; 1 \\text{时，级数发散};</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch083/q0033_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{当}x=1\\text{时，级数发散}.\">\\text{当}x=1\\text{时，级数发散}.</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch083/q0033_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{对任意的} \\, x \\geq 0 \\text{级数都是收敛的};\">\\text{对任意的} \\, x \\geq 0 \\text{级数都是收敛的};</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch083/q0033_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{当} x &gt; 1 \\text{时，级数发散};\">\\text{当} x &gt; 1 \\text{时，级数发散};</span>"
         }
       ],
       "answer": "C",
       "answer_index": 2,
-      "analysis_html": "<img src=\"/static/generated/assets/advanced-math/ch083/q0033_analysis.png\"/>"
+      "analysis_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\lim_{n \\to \\infty} \\frac{u_{n+1}}{u_{n}} = \\lim_{n \\to \\infty} \\frac{x}{1+x^{n+1}} = \\begin{cases} 0, &amp; x &gt; 1 \\\\ x, &amp; 0 \\leq x &lt; 1 \\\\ \\frac{1}{2}, &amp; x = 1 \\end{cases}\">\\lim_{n \\to \\infty} \\frac{u_{n+1}}{u_{n}} = \\lim_{n \\to \\infty} \\frac{x}{1+x^{n+1}} = \\begin{cases} 0, &amp; x &gt; 1 \\\\ x, &amp; 0 \\leq x &lt; 1 \\\\ \\frac{1}{2}, &amp; x = 1 \\end{cases}</div>"
     },
     {
       "id": "q0034",
       "number": 34,
       "header": "#34-Averge",
       "difficulty": "Averge",
-      "prompt_html": "<img src=\"/static/generated/assets/advanced-math/ch083/q0034_prompt.png\"/>",
+      "prompt_html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{设级数} \\sum_{n=1}^{\\infty} \\frac{2^{n} n!}{n^{n}} (1) \\text{与级数} \\sum_{n=1}^{\\infty} \\frac{3^{n} n!}{n^{n}} (2)，\\text{则[ }.\">\\text{设级数} \\sum_{n=1}^{\\infty} \\frac{2^{n} n!}{n^{n}} (1) \\text{与级数} \\sum_{n=1}^{\\infty} \\frac{3^{n} n!}{n^{n}} (2)，\\text{则[ }.</span>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch083/q0034_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"(1) \\text{和} (2) \\text{都收敛};\">(1) \\text{和} (2) \\text{都收敛};</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch083/q0034_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"(1) \\text{收敛}, (2) \\text{发散};\">(1) \\text{收敛}, (2) \\text{发散};</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch083/q0034_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"(1) \\text{发散}, (2) \\text{收敛};\">(1) \\text{发散}, (2) \\text{收敛};</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch083/q0034_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"(1) \\text {和} (2) \\text {都发散}.\">(1) \\text {和} (2) \\text {都发散}.</span>"
         }
       ],
       "answer": "B",
       "answer_index": 1,
-      "analysis_html": "<img src=\"/static/generated/assets/advanced-math/ch083/q0034_analysis.png\"/>"
+      "analysis_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{aligned} \\text{解答(1)} \\lim_{n \\rightarrow \\infty} \\frac{u_{n+1}}{u_n} &amp;= \\lim_{n \\rightarrow \\infty} \\frac{\\frac{2^{n+1}(n+1)!}{(n+1)^{n+1}}}{\\frac{2^n n!}{n^n}} = \\lim_{n \\rightarrow \\infty} 2(\\frac{n}{n+1})^n = \\lim_{n \\rightarrow \\infty} \\frac{2}{(1+\\frac{1}{n})^n} = \\frac{2}{e} &lt; 1, \\text{由比值审敛} \\\\ \\text{法知} \\sum_{n=1}^{\\infty} \\frac{2^n n!}{n^n} \\text{收敛}. \\\\ \\text{(2)} \\lim_{n \\rightarrow \\infty} \\frac{u_{n+1}}{u_n} &amp;= \\lim_{n \\rightarrow \\infty} \\frac{\\frac{3^{n+1}(n+1)!}{(n+1)^{n+1}}}{\\frac{3^n n!}{n^n}} = \\lim_{n \\rightarrow \\infty} 3(\\frac{n}{n+1})^n = \\lim_{n \\rightarrow \\infty} \\frac{3}{(1+\\frac{1}{n})^n} = \\frac{3}{e} &gt; 1, \\text{由比值审敛法知} \\\\ \\sum_{n=1}^{\\infty} \\frac{3^n n!}{n^n} \\text{发散}. \\end{aligned}\">\\begin{aligned} \\text{解答(1)} \\lim_{n \\rightarrow \\infty} \\frac{u_{n+1}}{u_n} &amp;= \\lim_{n \\rightarrow \\infty} \\frac{\\frac{2^{n+1}(n+1)!}{(n+1)^{n+1}}}{\\frac{2^n n!}{n^n}} = \\lim_{n \\rightarrow \\infty} 2(\\frac{n}{n+1})^n = \\lim_{n \\rightarrow \\infty} \\frac{2}{(1+\\frac{1}{n})^n} = \\frac{2}{e} &lt; 1, \\text{由比值审敛} \\\\ \\text{法知} \\sum_{n=1}^{\\infty} \\frac{2^n n!}{n^n} \\text{收敛}. \\\\ \\text{(2)} \\lim_{n \\rightarrow \\infty} \\frac{u_{n+1}}{u_n} &amp;= \\lim_{n \\rightarrow \\infty} \\frac{\\frac{3^{n+1}(n+1)!}{(n+1)^{n+1}}}{\\frac{3^n n!}{n^n}} = \\lim_{n \\rightarrow \\infty} 3(\\frac{n}{n+1})^n = \\lim_{n \\rightarrow \\infty} \\frac{3}{(1+\\frac{1}{n})^n} = \\frac{3}{e} &gt; 1, \\text{由比值审敛法知} \\\\ \\sum_{n=1}^{\\infty} \\frac{3^n n!}{n^n} \\text{发散}. \\end{aligned}</div>"
     }
-  ]
+  ],
+  "format": "latex",
+  "source_md": "gs/5.2.2_比值判别法(34题)/5.2.2_比值判别法(34题).md"
 }

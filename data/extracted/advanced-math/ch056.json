@@ -13,504 +13,506 @@
       "number": 1,
       "header": "#1-Averge",
       "difficulty": "Averge",
-      "prompt_html": "<img src=\"/static/generated/assets/advanced-math/ch056/q0001_prompt.png\"/>",
+      "prompt_html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\int \\frac{dx}{\\sqrt{1-x^{2}}+1} \\text{ 的值为[ ].}\">\\int \\frac{dx}{\\sqrt{1-x^{2}}+1} \\text{ 的值为[ ].}</span>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch056/q0001_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\arccos x + \\frac { 1 - \\sqrt { 1 - x ^ { 2 } } } { x } + C\">\\arccos x + \\frac { 1 - \\sqrt { 1 - x ^ { 2 } } } { x } + C</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch056/q0001_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\arcsin x + \\frac { 1 - \\sqrt { 1 - x ^ { 2 } } } { x } + C\">\\arcsin x + \\frac { 1 - \\sqrt { 1 - x ^ { 2 } } } { x } + C</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch056/q0001_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\arcsin x - { \\frac { 1 - { \\sqrt { 1 - x ^ { 2 } } } } { x } } + C\">\\arcsin x - { \\frac { 1 - { \\sqrt { 1 - x ^ { 2 } } } } { x } } + C</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch056/q0001_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\arccos x - \\frac { 1 - \\sqrt { 1 - x ^ { 2 } } } { x } + C\">\\arccos x - \\frac { 1 - \\sqrt { 1 - x ^ { 2 } } } { x } + C</span>"
         }
       ],
       "answer": "C",
       "answer_index": 2,
-      "analysis_html": "<img src=\"/static/generated/assets/advanced-math/ch056/q0001_analysis.png\"/>"
+      "analysis_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{aligned} \\text{解答 令} &amp; x=\\sin t(-\\frac{\\pi}{2}&lt;t&lt;\\frac{\\pi}{2}),\\ \\text{则} \\ dx=\\cos t \\, dt\\ ,\\ \\ \\cos t=\\sqrt{1-x^{2}}\\\\ \\text{于是} &amp; \\int\\frac{dx}{\\sqrt{1-x^{2}}+1}=\\int\\frac{\\cos t}{1+\\cos t}\\, dt=\\int\\frac{1+\\cos t-1}{1+\\cos t}\\, dt=\\int(1-\\frac{1}{2\\cos^{2}(\\frac{t}{2})})\\, dt\\\\ &amp; =t-\\int \\sec^{2}\\frac{t}{2}\\, d(\\frac{t}{2})=t-\\tan\\frac{t}{2}+C\\\\ \\text{又有} &amp; \\tan\\frac{t}{2}=\\frac{1-\\cos t}{\\sin t}=\\frac{1-\\sqrt{1-x^{2}}}{x}\\ ,\\ \\text{所以原式}=\\arcsin x-\\frac{1-\\sqrt{1-x^{2}}}{x}+C\\end{aligned}\">\\begin{aligned} \\text{解答 令} &amp; x=\\sin t(-\\frac{\\pi}{2}&lt;t&lt;\\frac{\\pi}{2}),\\ \\text{则} \\ dx=\\cos t \\, dt\\ ,\\ \\ \\cos t=\\sqrt{1-x^{2}}\\\\ \\text{于是} &amp; \\int\\frac{dx}{\\sqrt{1-x^{2}}+1}=\\int\\frac{\\cos t}{1+\\cos t}\\, dt=\\int\\frac{1+\\cos t-1}{1+\\cos t}\\, dt=\\int(1-\\frac{1}{2\\cos^{2}(\\frac{t}{2})})\\, dt\\\\ &amp; =t-\\int \\sec^{2}\\frac{t}{2}\\, d(\\frac{t}{2})=t-\\tan\\frac{t}{2}+C\\\\ \\text{又有} &amp; \\tan\\frac{t}{2}=\\frac{1-\\cos t}{\\sin t}=\\frac{1-\\sqrt{1-x^{2}}}{x}\\ ,\\ \\text{所以原式}=\\arcsin x-\\frac{1-\\sqrt{1-x^{2}}}{x}+C\\end{aligned}</div>"
     },
     {
       "id": "q0002",
       "number": 2,
       "header": "#2-Averge",
       "difficulty": "Averge",
-      "prompt_html": "<img src=\"/static/generated/assets/advanced-math/ch056/q0002_prompt.png\"/>",
+      "prompt_html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\int { \\frac { x ^ { 2 } + 2 } { ( x + 1 ) ^ { 3 } } } d x { \\text{的值为}} [ \\ \\ ] .\">\\int { \\frac { x ^ { 2 } + 2 } { ( x + 1 ) ^ { 3 } } } d x { \\text{的值为}} [ \\ \\ ] .</span>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch056/q0002_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\ln \\left| 1 + x \\right| + \\frac { 2 } { x + 1 } - \\frac { 3 } { 2 } \\cdot \\frac { 1 } { \\left( 1 + x \\right) ^ { 2 } } + C\">\\ln \\left| 1 + x \\right| + \\frac { 2 } { x + 1 } - \\frac { 3 } { 2 } \\cdot \\frac { 1 } { \\left( 1 + x \\right) ^ { 2 } } + C</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch056/q0002_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\ln \\left| 1 + x \\right| - \\frac { 2 } { x + 1 } - \\frac { 3 } { 2 } \\cdot \\frac { 1 } { \\left( 1 + x \\right) ^ { 3 } } + C \\, ;\">\\ln \\left| 1 + x \\right| - \\frac { 2 } { x + 1 } - \\frac { 3 } { 2 } \\cdot \\frac { 1 } { \\left( 1 + x \\right) ^ { 3 } } + C \\, ;</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch056/q0002_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\ln | 1 + x | - { \\frac { 2 } { x + 1 } } + { \\frac { 3 } { 2 } } \\cdot { \\frac { 1 } { ( 1 + x ) ^ { 2 } } } + C\">\\ln | 1 + x | - { \\frac { 2 } { x + 1 } } + { \\frac { 3 } { 2 } } \\cdot { \\frac { 1 } { ( 1 + x ) ^ { 2 } } } + C</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch056/q0002_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\ln | 1 + x | + \\frac { 2 } { x + 1 } + \\frac { 3 } { 2 } \\cdot \\frac { 1 } { ( 1 + x ) ^ { 2 } } + C \\, ;\">\\ln | 1 + x | + \\frac { 2 } { x + 1 } + \\frac { 3 } { 2 } \\cdot \\frac { 1 } { ( 1 + x ) ^ { 2 } } + C \\, ;</span>"
         }
       ],
       "answer": "A",
       "answer_index": 0,
-      "analysis_html": "<img src=\"/static/generated/assets/advanced-math/ch056/q0002_analysis.png\"/>"
+      "analysis_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{aligned} \\text{解答 令 } x+1&amp;=t,\\ \\text{则 } x=t-1 \\text{ 于是} \\int \\frac{x^{2}+2}{(x+1)^{3}}\\,dx&amp;=\\int \\frac{(t-1)^{2}+2}{t^{3}}\\,dt \\\\ &amp;=\\int (\\frac{1}{t}-\\frac{2}{t^{2}}+\\frac{3}{t^{3}})dt&amp;=\\ln |t|+\\frac{2}{t}-\\frac{3}{2t^{2}}+C \\\\ &amp;=\\ln |t+x|+\\frac{2}{x+1}-\\frac{3}{2}\\cdot \\frac{1}{(1+x)^{2}}+C\\,. \\end{aligned}\">\\begin{aligned} \\text{解答 令 } x+1&amp;=t,\\ \\text{则 } x=t-1 \\text{ 于是} \\int \\frac{x^{2}+2}{(x+1)^{3}}\\,dx&amp;=\\int \\frac{(t-1)^{2}+2}{t^{3}}\\,dt \\\\ &amp;=\\int (\\frac{1}{t}-\\frac{2}{t^{2}}+\\frac{3}{t^{3}})dt&amp;=\\ln |t|+\\frac{2}{t}-\\frac{3}{2t^{2}}+C \\\\ &amp;=\\ln |t+x|+\\frac{2}{x+1}-\\frac{3}{2}\\cdot \\frac{1}{(1+x)^{2}}+C\\,. \\end{aligned}</div>"
     },
     {
       "id": "q0003",
       "number": 3,
       "header": "#3-Averge",
       "difficulty": "Averge",
-      "prompt_html": "<img src=\"/static/generated/assets/advanced-math/ch056/q0003_prompt.png\"/>",
+      "prompt_html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\int \\frac {x}{\\sqrt {x} + 1} d x \\text { 的值为 } [ \\quad ].\">\\int \\frac {x}{\\sqrt {x} + 1} d x \\text { 的值为 } [ \\quad ].</span>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch056/q0003_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\begin{aligned}2x\\sqrt{x}+x+2\\sqrt{x}-2\\ln\\left|1+\\sqrt{x}\\right|+C\\end{aligned}\">\\begin{aligned}2x\\sqrt{x}+x+2\\sqrt{x}-2\\ln\\left|1+\\sqrt{x}\\right|+C\\end{aligned}</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch056/q0003_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\frac{2}{3}x\\sqrt{x}+x-2\\sqrt{x}-2\\ln\\left|1+\\sqrt{x}\\right|+C\">\\frac{2}{3}x\\sqrt{x}+x-2\\sqrt{x}-2\\ln\\left|1+\\sqrt{x}\\right|+C</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch056/q0003_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\frac{2}{3}x\\sqrt{x}-x+2\\sqrt{x}-2\\ln\\left|1+\\sqrt{x}\\right|+C\">\\frac{2}{3}x\\sqrt{x}-x+2\\sqrt{x}-2\\ln\\left|1+\\sqrt{x}\\right|+C</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch056/q0003_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\frac{2}{3}x\\sqrt{x}-x-2\\sqrt{x}+2\\ln\\left|1+\\sqrt{x}\\right|+C\\,;\">\\frac{2}{3}x\\sqrt{x}-x-2\\sqrt{x}+2\\ln\\left|1+\\sqrt{x}\\right|+C\\,;</span>"
         }
       ],
       "answer": "C",
       "answer_index": 2,
-      "analysis_html": "<img src=\"/static/generated/assets/advanced-math/ch056/q0003_analysis.png\"/>"
+      "analysis_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{aligned} \\text{解答 令}\\sqrt{x}&amp;=t\\ ,\\ \\text{则}x=t^{2}\\ \\text{于是}\\int\\frac{x}{\\sqrt{x+1}}dx=\\int\\frac{t^{2}}{1+t}\\cdot 2tdt=2\\int\\frac{(t^{3}+1)-1}{1+t}dt\\\\&amp;=2\\int(t^{2}-t+1-\\frac{1}{1+t})dt=2(\\frac{1}{3}t^{3}-\\frac{1}{2}t^{2}+t-\\ln|1+t|)+C\\\\&amp;=\\frac{2}{3}x\\sqrt{x}-x+2\\sqrt{x}-2\\ln|1+\\sqrt{x}|\\!+\\!C\\,.\\end{aligned}\">\\begin{aligned} \\text{解答 令}\\sqrt{x}&amp;=t\\ ,\\ \\text{则}x=t^{2}\\ \\text{于是}\\int\\frac{x}{\\sqrt{x+1}}dx=\\int\\frac{t^{2}}{1+t}\\cdot 2tdt=2\\int\\frac{(t^{3}+1)-1}{1+t}dt\\\\&amp;=2\\int(t^{2}-t+1-\\frac{1}{1+t})dt=2(\\frac{1}{3}t^{3}-\\frac{1}{2}t^{2}+t-\\ln|1+t|)+C\\\\&amp;=\\frac{2}{3}x\\sqrt{x}-x+2\\sqrt{x}-2\\ln|1+\\sqrt{x}|\\!+\\!C\\,.\\end{aligned}</div>"
     },
     {
       "id": "q0004",
       "number": 4,
       "header": "#4-Averge",
       "difficulty": "Averge",
-      "prompt_html": "<img src=\"/static/generated/assets/advanced-math/ch056/q0004_prompt.png\"/>",
+      "prompt_html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\int \\frac { \\sin \\sqrt { x } } { \\sqrt { x } } d x \\text { 的值为[ ].}\">\\int \\frac { \\sin \\sqrt { x } } { \\sqrt { x } } d x \\text { 的值为[ ].}</span>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch056/q0004_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"- 2 \\cos { \\sqrt { x } } + C\">- 2 \\cos { \\sqrt { x } } + C</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch056/q0004_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"2 \\cos \\sqrt { x } + C\">2 \\cos \\sqrt { x } + C</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch056/q0004_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"2 \\sin \\sqrt { x } + C\">2 \\sin \\sqrt { x } + C</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch056/q0004_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"1-2\\sin\\sqrt{x}+C\">1-2\\sin\\sqrt{x}+C</span>"
         }
       ],
       "answer": "A",
       "answer_index": 0,
-      "analysis_html": "<img src=\"/static/generated/assets/advanced-math/ch056/q0004_analysis.png\"/>"
+      "analysis_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{array}{l} \\text {解答 令} x = u ^ {2}, \\text {则} dx = 2 u du , \\ u = \\sqrt {x} \\ (0 &lt; x &lt; + \\infty , \\ 0 &lt; u &lt; + \\infty ) , \\text {于是} \\\\ \\int \\frac {\\sin \\sqrt {x}}{\\sqrt {x}} dx = \\int \\frac {\\sin u}{u} \\cdot 2 u du = 2 \\int \\sin u du = - 2 \\cos u + C = - 2 \\cos \\sqrt {x} + C . \\end{array}\">\\begin{array}{l} \\text {解答 令} x = u ^ {2}, \\text {则} dx = 2 u du , \\ u = \\sqrt {x} \\ (0 &lt; x &lt; + \\infty , \\ 0 &lt; u &lt; + \\infty ) , \\text {于是} \\\\ \\int \\frac {\\sin \\sqrt {x}}{\\sqrt {x}} dx = \\int \\frac {\\sin u}{u} \\cdot 2 u du = 2 \\int \\sin u du = - 2 \\cos u + C = - 2 \\cos \\sqrt {x} + C . \\end{array}</div>"
     },
     {
       "id": "q0005",
       "number": 5,
       "header": "#5-Averge",
       "difficulty": "Averge",
-      "prompt_html": "<img src=\"/static/generated/assets/advanced-math/ch056/q0005_prompt.png\"/>",
+      "prompt_html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\int \\frac{dx}{x \\sqrt{x^{2}-1}} \\text{ 的值为 } [ \\ \\ ] .\">\\int \\frac{dx}{x \\sqrt{x^{2}-1}} \\text{ 的值为 } [ \\ \\ ] .</span>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch056/q0005_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"- \\arccos \\frac { 1 } { | x | } + C \\; ;\">- \\arccos \\frac { 1 } { | x | } + C \\; ;</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch056/q0005_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\arcsin { \\frac { 1 } { | x | } } + C \\, .\">\\arcsin { \\frac { 1 } { | x | } } + C \\, .</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch056/q0005_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\arccos { \\frac { 1 } { | x | } } + C \\, ;\">\\arccos { \\frac { 1 } { | x | } } + C \\, ;</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch056/q0005_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"- \\arcsin { \\frac { 1 } { | x | } } + C\">- \\arcsin { \\frac { 1 } { | x | } } + C</span>"
         }
       ],
       "answer": "C",
       "answer_index": 2,
-      "analysis_html": "<img src=\"/static/generated/assets/advanced-math/ch056/q0005_analysis.png\"/>"
+      "analysis_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{array}{l} \\text {解答} \\quad \\text {令} x = \\sec t, \\; (0 &lt; t &lt; \\pi), \\; \\text {则} \\; dx = \\sec t \\cdot \\tan t \\, dt, \\; t = \\arccos \\frac {1}{|x|}, \\; \\text {所以} \\\\ \\int \\frac {d x}{x \\sqrt {x ^ {2} - 1}} = \\int \\frac {\\sec t \\cdot \\tan t}{\\sec t \\cdot \\tan t} \\, d t = t + C = \\arccos \\frac {1}{|x|} + C. \\end{array}\">\\begin{array}{l} \\text {解答} \\quad \\text {令} x = \\sec t, \\; (0 &lt; t &lt; \\pi), \\; \\text {则} \\; dx = \\sec t \\cdot \\tan t \\, dt, \\; t = \\arccos \\frac {1}{|x|}, \\; \\text {所以} \\\\ \\int \\frac {d x}{x \\sqrt {x ^ {2} - 1}} = \\int \\frac {\\sec t \\cdot \\tan t}{\\sec t \\cdot \\tan t} \\, d t = t + C = \\arccos \\frac {1}{|x|} + C. \\end{array}</div>"
     },
     {
       "id": "q0006",
       "number": 6,
       "header": "#6-Averge",
       "difficulty": "Averge",
-      "prompt_html": "<img src=\"/static/generated/assets/advanced-math/ch056/q0006_prompt.png\"/>",
+      "prompt_html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\int \\frac{dx}{\\sqrt{x+1}+1}\\ (x&gt;-1)\\ \\text{的值为}[ \\ \\ ].\">\\int \\frac{dx}{\\sqrt{x+1}+1}\\ (x&gt;-1)\\ \\text{的值为}[ \\ \\ ].</span>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch056/q0006_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"2[ \\sqrt{x+1} + \\ln( \\sqrt{x+1} - 1) ]\">2[ \\sqrt{x+1} + \\ln( \\sqrt{x+1} - 1) ]</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch056/q0006_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\sqrt { x + 1 } - \\ln ( \\sqrt { x + 1 } + 1 ) + C\">\\sqrt { x + 1 } - \\ln ( \\sqrt { x + 1 } + 1 ) + C</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch056/q0006_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"2 [ \\sqrt { x + 1 } + \\ln ( \\sqrt { x + 1 } - 1 ) ] + C\">2 [ \\sqrt { x + 1 } + \\ln ( \\sqrt { x + 1 } - 1 ) ] + C</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch056/q0006_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"2 [ \\sqrt { x + 1 } - \\ln ( \\sqrt { x + 1 } + 1 ) ] + C\">2 [ \\sqrt { x + 1 } - \\ln ( \\sqrt { x + 1 } + 1 ) ] + C</span>"
         }
       ],
       "answer": "D",
       "answer_index": 3,
-      "analysis_html": "<img src=\"/static/generated/assets/advanced-math/ch056/q0006_analysis.png\"/>"
+      "analysis_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{aligned}&amp;\\text{解答令}\\quad t=\\sqrt{x+1}\\quad，\\text{且有}\\quad dx=2tdt\\quad，\\text{于是有}\\\\&amp;\\int\\frac{dx}{\\sqrt{x+1}+1}=\\int\\frac{2tdt}{t+1}=2\\int\\left(1-\\frac{1}{t+1}\\right)dt=2[t-\\ln(t+1)]+C\\quad，\\text{将}t=\\sqrt{x+1} \\text{代入上式}，\\\\&amp;\\text{便得}\\int\\frac{dx}{\\sqrt{x+1}+1}=2[\\sqrt{x+1}-\\ln(\\sqrt{x+1}+1)]+C\\,.\\end{aligned}\">\\begin{aligned}&amp;\\text{解答令}\\quad t=\\sqrt{x+1}\\quad，\\text{且有}\\quad dx=2tdt\\quad，\\text{于是有}\\\\&amp;\\int\\frac{dx}{\\sqrt{x+1}+1}=\\int\\frac{2tdt}{t+1}=2\\int\\left(1-\\frac{1}{t+1}\\right)dt=2[t-\\ln(t+1)]+C\\quad，\\text{将}t=\\sqrt{x+1} \\text{代入上式}，\\\\&amp;\\text{便得}\\int\\frac{dx}{\\sqrt{x+1}+1}=2[\\sqrt{x+1}-\\ln(\\sqrt{x+1}+1)]+C\\,.\\end{aligned}</div>"
     },
     {
       "id": "q0007",
       "number": 7,
       "header": "#7-Averge",
       "difficulty": "Averge",
-      "prompt_html": "<img src=\"/static/generated/assets/advanced-math/ch056/q0007_prompt.png\"/>",
+      "prompt_html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\int \\frac { \\cos \\sqrt { x } } { \\sqrt { x } } d x \\text { 的值为[ ] }\">\\int \\frac { \\cos \\sqrt { x } } { \\sqrt { x } } d x \\text { 的值为[ ] }</span>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch056/q0007_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"2 \\cos \\sqrt { x } + C\">2 \\cos \\sqrt { x } + C</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch056/q0007_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"-2 \\sin \\sqrt { x } + C\">-2 \\sin \\sqrt { x } + C</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch056/q0007_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"2 \\sin \\sqrt { x } + C\">2 \\sin \\sqrt { x } + C</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch056/q0007_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"-2\\cos{\\sqrt{x}}+C\">-2\\cos{\\sqrt{x}}+C</span>"
         }
       ],
       "answer": "C",
       "answer_index": 2,
-      "analysis_html": "<img src=\"/static/generated/assets/advanced-math/ch056/q0007_analysis.png\"/>"
+      "analysis_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{array}{l} \\text{解答}\\ \\ \\text{令} \\ x = u^{2}, \\ \\text{则} \\ dx = 2 u du,\\ u = \\sqrt{x}\\ \\ (\\ 0 &lt; x &lt; +\\infty,\\ 0 &lt; u &lt; +\\infty\\ ),\\ \\text{于是} \\\\ \\int \\frac{\\cos \\sqrt{x}}{\\sqrt{x}} dx = \\int \\frac{\\cos u}{u} \\cdot 2 u du = 2 \\int \\cos u du = 2 \\sin u + C = 2 \\sin \\sqrt{x} + C\\,. \\end{array}\">\\begin{array}{l} \\text{解答}\\ \\ \\text{令} \\ x = u^{2}, \\ \\text{则} \\ dx = 2 u du,\\ u = \\sqrt{x}\\ \\ (\\ 0 &lt; x &lt; +\\infty,\\ 0 &lt; u &lt; +\\infty\\ ),\\ \\text{于是} \\\\ \\int \\frac{\\cos \\sqrt{x}}{\\sqrt{x}} dx = \\int \\frac{\\cos u}{u} \\cdot 2 u du = 2 \\int \\cos u du = 2 \\sin u + C = 2 \\sin \\sqrt{x} + C\\,. \\end{array}</div>"
     },
     {
       "id": "q0008",
       "number": 8,
       "header": "#8-Averge",
       "difficulty": "Averge",
-      "prompt_html": "<img src=\"/static/generated/assets/advanced-math/ch056/q0008_prompt.png\"/>",
+      "prompt_html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{不定积分} \\int \\frac { 1 } { \\sqrt { 1 + e ^ { x } } } d x \\text{ 的值为 } [ \\quad ]\">\\text{不定积分} \\int \\frac { 1 } { \\sqrt { 1 + e ^ { x } } } d x \\text{ 的值为 } [ \\quad ]</span>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch056/q0008_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\, 2 \\ln ( \\sqrt { 1 + e ^ { x } } + 1 ) + x + C\">\\, 2 \\ln ( \\sqrt { 1 + e ^ { x } } + 1 ) + x + C</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch056/q0008_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\, 2 \\ln ( \\sqrt { 1 + e ^ { x } } + 1 ) - x + C\">\\, 2 \\ln ( \\sqrt { 1 + e ^ { x } } + 1 ) - x + C</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch056/q0008_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\, 2 \\ln ( \\sqrt { 1 + e ^ { x } } - 1 ) - x + C\">\\, 2 \\ln ( \\sqrt { 1 + e ^ { x } } - 1 ) - x + C</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch056/q0008_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\, 2 \\ln ( \\sqrt { 1 + e ^ { x } } - 1 ) + x + C\">\\, 2 \\ln ( \\sqrt { 1 + e ^ { x } } - 1 ) + x + C</span>"
         }
       ],
       "answer": "C",
       "answer_index": 2,
-      "analysis_html": "<img src=\"/static/generated/assets/advanced-math/ch056/q0008_analysis.png\"/>"
+      "analysis_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{array}{l} \\text {解答 令} t = \\sqrt {1 + e ^ {x}} , \\\\ \\text {原式} = \\int \\frac {2}{t ^ {2} - 1} d t = \\int (\\frac {1}{t - 1} - \\frac {1}{t + 1}) d t = \\ln \\left| \\frac {t - 1}{t + 1} \\right| + C = 2 \\ln (\\sqrt {1 + e ^ {x}} - 1) - x + C \\end{array}\">\\begin{array}{l} \\text {解答 令} t = \\sqrt {1 + e ^ {x}} , \\\\ \\text {原式} = \\int \\frac {2}{t ^ {2} - 1} d t = \\int (\\frac {1}{t - 1} - \\frac {1}{t + 1}) d t = \\ln \\left| \\frac {t - 1}{t + 1} \\right| + C = 2 \\ln (\\sqrt {1 + e ^ {x}} - 1) - x + C \\end{array}</div>"
     },
     {
       "id": "q0009",
       "number": 9,
       "header": "#9-Averge",
       "difficulty": "Averge",
-      "prompt_html": "<img src=\"/static/generated/assets/advanced-math/ch056/q0009_prompt.png\"/>",
+      "prompt_html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\int \\frac{dx}{x^{4} \\sqrt{1+x^{2}}} \\text{ 的值为[ ].}\">\\int \\frac{dx}{x^{4} \\sqrt{1+x^{2}}} \\text{ 的值为[ ].}</span>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch056/q0009_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"-\\frac{\\sqrt{\\left(1+x^{2}\\right)^{3}}}{3x^{3}}+\\frac{\\sqrt{1+x^{2}}}{x}+C\">-\\frac{\\sqrt{\\left(1+x^{2}\\right)^{3}}}{3x^{3}}+\\frac{\\sqrt{1+x^{2}}}{x}+C</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch056/q0009_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"-\\frac{\\sqrt{(1+x^{2})^{3}}}{3x}+\\frac{\\sqrt{1+x^{2}}}{x}+C\">-\\frac{\\sqrt{(1+x^{2})^{3}}}{3x}+\\frac{\\sqrt{1+x^{2}}}{x}+C</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch056/q0009_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"- \\frac { \\sqrt { ( 1 + x ^ { 2 } ) } } { 3 x ^ { 3 } } + \\frac { \\sqrt { 1 + x ^ { 2 } } } { x } + C ,\">- \\frac { \\sqrt { ( 1 + x ^ { 2 } ) } } { 3 x ^ { 3 } } + \\frac { \\sqrt { 1 + x ^ { 2 } } } { x } + C ,</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch056/q0009_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"- \\frac { \\sqrt { \\left( 1 + x ^ { 2 } \\right) ^ { 3 } } } { 3 x ^ { 3 } } + \\frac { \\sqrt { 1 + x ^ { 2 } } } { x ^ { 2 } } + C \\, ;\">- \\frac { \\sqrt { \\left( 1 + x ^ { 2 } \\right) ^ { 3 } } } { 3 x ^ { 3 } } + \\frac { \\sqrt { 1 + x ^ { 2 } } } { x ^ { 2 } } + C \\, ;</span>"
         }
       ],
       "answer": "A",
       "answer_index": 0,
-      "analysis_html": "<img src=\"/static/generated/assets/advanced-math/ch056/q0009_analysis.png\"/>"
+      "analysis_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{aligned}&amp;\\text{解答 令}x=\\frac{1}{u},\\ \\text{则}\\int\\frac{dx}{x^4\\sqrt{1+x^2}}=\\int\\frac{u^5}{\\sqrt{1+u^2}}\\cdot\\frac{-1}{(u^2)}du=-\\frac{1}{2}\\int\\frac{u^2du^2}{\\sqrt{1+u^2}}\\\\&amp;=-\\frac{1}{2}\\int\\frac{(u^2+1)-1}{\\sqrt{1+u^2}}d(u^2+1)=-\\frac{1}{3}(u^2+1)^{\\frac{3}{2}}+(u^2+1)^{\\frac{1}{2}}+C=-\\frac{\\sqrt{(1+x^2)^3}}{3x^3}+\\frac{\\sqrt{1+x^2}}{x}+C\\end{aligned}\">\\begin{aligned}&amp;\\text{解答 令}x=\\frac{1}{u},\\ \\text{则}\\int\\frac{dx}{x^4\\sqrt{1+x^2}}=\\int\\frac{u^5}{\\sqrt{1+u^2}}\\cdot\\frac{-1}{(u^2)}du=-\\frac{1}{2}\\int\\frac{u^2du^2}{\\sqrt{1+u^2}}\\\\&amp;=-\\frac{1}{2}\\int\\frac{(u^2+1)-1}{\\sqrt{1+u^2}}d(u^2+1)=-\\frac{1}{3}(u^2+1)^{\\frac{3}{2}}+(u^2+1)^{\\frac{1}{2}}+C=-\\frac{\\sqrt{(1+x^2)^3}}{3x^3}+\\frac{\\sqrt{1+x^2}}{x}+C\\end{aligned}</div>"
     },
     {
       "id": "q0010",
       "number": 10,
       "header": "#10-Averge",
       "difficulty": "Averge",
-      "prompt_html": "<img src=\"/static/generated/assets/advanced-math/ch056/q0010_prompt.png\"/>",
+      "prompt_html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\int { \\frac { d x } { ( x ^ { 2 } + a ^ { 2 } ) ^ { \\frac { 3 } { 2 } } } } \\, { \\text{的值为}} [ \\quad ] .\">\\int { \\frac { d x } { ( x ^ { 2 } + a ^ { 2 } ) ^ { \\frac { 3 } { 2 } } } } \\, { \\text{的值为}} [ \\quad ] .</span>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch056/q0010_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\frac { 1 } { a ^ { 3 } } \\cdot \\frac { x } { \\sqrt { x ^ { 2 } + a ^ { 2 } } } + C\">\\frac { 1 } { a ^ { 3 } } \\cdot \\frac { x } { \\sqrt { x ^ { 2 } + a ^ { 2 } } } + C</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch056/q0010_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\frac{1}{a^{2}}\\cdot \\frac{x}{\\sqrt{x^{2}+a^{2}}}+C\">\\frac{1}{a^{2}}\\cdot \\frac{x}{\\sqrt{x^{2}+a^{2}}}+C</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch056/q0010_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\frac{x}{\\sqrt{x^{2}+a^{2}}}+C\\,.\">\\frac{x}{\\sqrt{x^{2}+a^{2}}}+C\\,.</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch056/q0010_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\frac { 1 } { a } \\cdot \\frac { x } { \\sqrt { x ^ { 2 } + a ^ { 2 } } } + C\">\\frac { 1 } { a } \\cdot \\frac { x } { \\sqrt { x ^ { 2 } + a ^ { 2 } } } + C</span>"
         }
       ],
       "answer": "B",
       "answer_index": 1,
-      "analysis_html": "<img src=\"/static/generated/assets/advanced-math/ch056/q0010_analysis.png\"/>"
+      "analysis_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{aligned}&amp;\\text{解答 令}x=a\\tan t,(-\\frac{\\pi}{2}&lt;t&lt;\\frac{\\pi}{2})\\text{，则}\\int\\frac{dx}{(x^{2}+a^{2})^{\\frac{3}{2}}}=\\int\\frac{1}{[a^{2}(\\tan^{2}t+1)]^{\\frac{3}{2}}}\\cdot a\\sec^{2}tdt\\\\&amp;=\\frac{1}{a^{2}}\\int\\cos tdt=\\frac{1}{a^{2}}\\sin t+C=\\frac{1}{a^{2}}\\cdot\\frac{x}{\\sqrt{x^{2}+a^{2}}}+C\\,.\\end{aligned}\">\\begin{aligned}&amp;\\text{解答 令}x=a\\tan t,(-\\frac{\\pi}{2}&lt;t&lt;\\frac{\\pi}{2})\\text{，则}\\int\\frac{dx}{(x^{2}+a^{2})^{\\frac{3}{2}}}=\\int\\frac{1}{[a^{2}(\\tan^{2}t+1)]^{\\frac{3}{2}}}\\cdot a\\sec^{2}tdt\\\\&amp;=\\frac{1}{a^{2}}\\int\\cos tdt=\\frac{1}{a^{2}}\\sin t+C=\\frac{1}{a^{2}}\\cdot\\frac{x}{\\sqrt{x^{2}+a^{2}}}+C\\,.\\end{aligned}</div>"
     },
     {
       "id": "q0011",
       "number": 11,
       "header": "#11-Averge",
       "difficulty": "Averge",
-      "prompt_html": "<img src=\"/static/generated/assets/advanced-math/ch056/q0011_prompt.png\"/>",
+      "prompt_html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\int \\frac{dx}{\\sqrt{(x^{2}+1)^{3}}} \\text{ 的值为[ }\\ \\ ].\">\\int \\frac{dx}{\\sqrt{(x^{2}+1)^{3}}} \\text{ 的值为[ }\\ \\ ].</span>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch056/q0011_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\frac{x^{3}}{\\sqrt{x^{2}+1}}+C\">\\frac{x^{3}}{\\sqrt{x^{2}+1}}+C</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch056/q0011_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\frac{x}{\\sqrt{x^{2}+1}}+C\\,;\">\\frac{x}{\\sqrt{x^{2}+1}}+C\\,;</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch056/q0011_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\frac{x^{2}}{\\sqrt{x^{2}+1}}+C\\,;\">\\frac{x^{2}}{\\sqrt{x^{2}+1}}+C\\,;</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch056/q0011_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\frac { 1 } { \\sqrt { x ^ { 2 } + 1 } } + C\">\\frac { 1 } { \\sqrt { x ^ { 2 } + 1 } } + C</span>"
         }
       ],
       "answer": "B",
       "answer_index": 1,
-      "analysis_html": "<img src=\"/static/generated/assets/advanced-math/ch056/q0011_analysis.png\"/>"
+      "analysis_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{aligned}&amp;\\text{解答 令}x=\\tan u,\\,(-\\frac{\\pi}{2}&lt;u&lt;\\frac{\\pi}{2})\\,,\\,\\text{则}dx=\\sec^2 udu\\,,\\,\\sec u=\\sqrt{\\tan^2 u+1}=\\sqrt{x^2+1}\\,,\\\\&amp;\\quad\\cos u=\\frac{1}{\\sqrt{x^2+1}}\\,,\\,\\,\\sin u=\\tan u\\cos u=\\frac{x}{\\sqrt{x^2+1}}\\,,\\\\&amp;\\quad\\text{所以}\\int\\frac{dx}{\\sqrt{(x^2+1)^3}}=\\int\\frac{\\sec^2 u}{\\sec^3 u}du=\\int\\cos udu=\\sin u+C=\\frac{x}{\\sqrt{x^2+1}}+C\\,.\\end{aligned}\">\\begin{aligned}&amp;\\text{解答 令}x=\\tan u,\\,(-\\frac{\\pi}{2}&lt;u&lt;\\frac{\\pi}{2})\\,,\\,\\text{则}dx=\\sec^2 udu\\,,\\,\\sec u=\\sqrt{\\tan^2 u+1}=\\sqrt{x^2+1}\\,,\\\\&amp;\\quad\\cos u=\\frac{1}{\\sqrt{x^2+1}}\\,,\\,\\,\\sin u=\\tan u\\cos u=\\frac{x}{\\sqrt{x^2+1}}\\,,\\\\&amp;\\quad\\text{所以}\\int\\frac{dx}{\\sqrt{(x^2+1)^3}}=\\int\\frac{\\sec^2 u}{\\sec^3 u}du=\\int\\cos udu=\\sin u+C=\\frac{x}{\\sqrt{x^2+1}}+C\\,.\\end{aligned}</div>"
     },
     {
       "id": "q0012",
       "number": 12,
       "header": "#12-Averge",
       "difficulty": "Averge",
-      "prompt_html": "<img src=\"/static/generated/assets/advanced-math/ch056/q0012_prompt.png\"/>",
+      "prompt_html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\int { \\frac { d x } { \\sqrt { 2 x } + 1 } } \\, { \\text{的值为} } [ \\quad ] .\">\\int { \\frac { d x } { \\sqrt { 2 x } + 1 } } \\, { \\text{的值为} } [ \\quad ] .</span>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch056/q0012_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\sqrt{2x}-\\ln(1+\\sqrt{2x})+C\">\\sqrt{2x}-\\ln(1+\\sqrt{2x})+C</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch056/q0012_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\sqrt { 2 x } + \\ln ( 1 + \\sqrt { 2 x } ) + C\">\\sqrt { 2 x } + \\ln ( 1 + \\sqrt { 2 x } ) + C</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch056/q0012_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\, 1 + \\sqrt { 2 x } - 2 \\ln ( 1 + \\sqrt { 2 x } ) + C\">\\, 1 + \\sqrt { 2 x } - 2 \\ln ( 1 + \\sqrt { 2 x } ) + C</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch056/q0012_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\displaystyle 1 + 2 \\sqrt { 2 x } + \\ln ( 1 + \\sqrt { 2 x } ) + C\">\\displaystyle 1 + 2 \\sqrt { 2 x } + \\ln ( 1 + \\sqrt { 2 x } ) + C</span>"
         }
       ],
       "answer": "A",
       "answer_index": 0,
-      "analysis_html": "<img src=\"/static/generated/assets/advanced-math/ch056/q0012_analysis.png\"/>"
+      "analysis_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{aligned} \\text{解答 令} &amp; 1+\\sqrt{2x}=t,\\ \\text{则} \\ x=\\frac{(t-1)^2}{2},\\ dx=(t-1)dt,\\ \\\\ \\text{于是} &amp; \\int\\frac{dx}{\\sqrt{2x+1}}=\\int\\frac{t-1}{t}dt=\\int(1-\\frac{1}{t})dt=t-\\ln|t|+C=1+\\sqrt{2x}-\\ln(1+\\sqrt{2x})+C\\\\ &amp; =\\sqrt{2x}-\\ln(1+\\sqrt{2x})+C_i\\,(C_1=1+C)\\,.\\end{aligned}\">\\begin{aligned} \\text{解答 令} &amp; 1+\\sqrt{2x}=t,\\ \\text{则} \\ x=\\frac{(t-1)^2}{2},\\ dx=(t-1)dt,\\ \\\\ \\text{于是} &amp; \\int\\frac{dx}{\\sqrt{2x+1}}=\\int\\frac{t-1}{t}dt=\\int(1-\\frac{1}{t})dt=t-\\ln|t|+C=1+\\sqrt{2x}-\\ln(1+\\sqrt{2x})+C\\\\ &amp; =\\sqrt{2x}-\\ln(1+\\sqrt{2x})+C_i\\,(C_1=1+C)\\,.\\end{aligned}</div>"
     },
     {
       "id": "q0013",
       "number": 13,
       "header": "#13-Averge",
       "difficulty": "Averge",
-      "prompt_html": "<img src=\"/static/generated/assets/advanced-math/ch056/q0013_prompt.png\"/>",
+      "prompt_html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\int \\sqrt{a^{2}-x^{2}}\\,dx\\,\\,\\,\\left(\\,a&gt;0\\,\\right)\\,\\text{的值为}[\\quad].\">\\int \\sqrt{a^{2}-x^{2}}\\,dx\\,\\,\\,\\left(\\,a&gt;0\\,\\right)\\,\\text{的值为}[\\quad].</span>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch056/q0013_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\frac{a}{2} \\arcsin \\frac{x}{a} + \\frac{1}{2} x \\sqrt{a^{2} - x^{2}} + C \\, .\">\\frac{a}{2} \\arcsin \\frac{x}{a} + \\frac{1}{2} x \\sqrt{a^{2} - x^{2}} + C \\, .</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch056/q0013_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\frac { a ^ { 2 } } { 2 } \\arcsin \\frac { x } { a } + \\frac { 1 } { 2 } x \\sqrt { a ^ { 2 } - x ^ { 2 } } + C \\text { ;}\">\\frac { a ^ { 2 } } { 2 } \\arcsin \\frac { x } { a } + \\frac { 1 } { 2 } x \\sqrt { a ^ { 2 } - x ^ { 2 } } + C \\text { ;}</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch056/q0013_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\frac { a } { 2 } \\arcsin { \\frac { x } { a } } - \\frac { 1 } { 2 } x \\sqrt { a ^ { 2 } - x ^ { 2 } } + C\">\\frac { a } { 2 } \\arcsin { \\frac { x } { a } } - \\frac { 1 } { 2 } x \\sqrt { a ^ { 2 } - x ^ { 2 } } + C</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch056/q0013_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\frac { a ^ { 2 } } { 2 } \\arcsin \\frac { x } { a } - \\frac { 1 } { 2 } x \\sqrt { a ^ { 2 } - x ^ { 2 } } + C \\text{ ;}\">\\frac { a ^ { 2 } } { 2 } \\arcsin \\frac { x } { a } - \\frac { 1 } { 2 } x \\sqrt { a ^ { 2 } - x ^ { 2 } } + C \\text{ ;}</span>"
         }
       ],
       "answer": "B",
       "answer_index": 1,
-      "analysis_html": "<img src=\"/static/generated/assets/advanced-math/ch056/q0013_analysis.png\"/>"
+      "analysis_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{aligned} \\text{答} \\quad &amp; \\text{令} x=a\\sin t(-\\frac{\\pi}{2}&lt;t&lt;\\frac{\\pi}{2})，\\text{这时我们有} \\\\ &amp; \\int \\sqrt{a^{2}-x^{2}}\\,dx=\\int \\sqrt{a^{2}-a^{2}\\sin^{2}t}\\cdot a\\cos tdt \\\\ &amp; \\quad=a^{2}\\int \\cos^{2}t\\,dt=\\frac{a^{2}}{2}\\int (1+\\cos 2t)\\,dt=\\frac{a^{2}}{2}(t+\\sin t\\cos t)+C\\,, \\\\ &amp; \\text{将} \\\\ &amp; \\quad t=\\arcsin \\frac{x}{a} \\\\ &amp; \\text{代入上式，便得} \\\\ &amp; \\quad \\int \\sqrt{a^{2}-x^{2}}\\,dx=\\frac{a^{2}}{2}\\arcsin \\frac{x}{a}+\\frac{1}{2}x\\sqrt{a^{2}-x^{2}}+C\\,.\\end{aligned}\">\\begin{aligned} \\text{答} \\quad &amp; \\text{令} x=a\\sin t(-\\frac{\\pi}{2}&lt;t&lt;\\frac{\\pi}{2})，\\text{这时我们有} \\\\ &amp; \\int \\sqrt{a^{2}-x^{2}}\\,dx=\\int \\sqrt{a^{2}-a^{2}\\sin^{2}t}\\cdot a\\cos tdt \\\\ &amp; \\quad=a^{2}\\int \\cos^{2}t\\,dt=\\frac{a^{2}}{2}\\int (1+\\cos 2t)\\,dt=\\frac{a^{2}}{2}(t+\\sin t\\cos t)+C\\,, \\\\ &amp; \\text{将} \\\\ &amp; \\quad t=\\arcsin \\frac{x}{a} \\\\ &amp; \\text{代入上式，便得} \\\\ &amp; \\quad \\int \\sqrt{a^{2}-x^{2}}\\,dx=\\frac{a^{2}}{2}\\arcsin \\frac{x}{a}+\\frac{1}{2}x\\sqrt{a^{2}-x^{2}}+C\\,.\\end{aligned}</div>"
     },
     {
       "id": "q0014",
       "number": 14,
       "header": "#14-Averge",
       "difficulty": "Averge",
-      "prompt_html": "<img src=\"/static/generated/assets/advanced-math/ch056/q0014_prompt.png\"/>",
+      "prompt_html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\int \\frac { x ^ { 2 } } { \\sqrt { 4 - x ^ { 2 } } } d x \\text { 的值为[~] } .\">\\int \\frac { x ^ { 2 } } { \\sqrt { 4 - x ^ { 2 } } } d x \\text { 的值为[~] } .</span>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch056/q0014_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\begin{aligned}2 \\arccos \\frac{x}{2} + \\frac{1}{2} x \\sqrt{4-x^2} + C.\\end{aligned}\">\\begin{aligned}2 \\arccos \\frac{x}{2} + \\frac{1}{2} x \\sqrt{4-x^2} + C.\\end{aligned}</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch056/q0014_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"2 \\arcsin \\frac { x } { 2 } + \\frac { 1 } { 2 } x \\sqrt { 4 - x ^ { 2 } } + C\">2 \\arcsin \\frac { x } { 2 } + \\frac { 1 } { 2 } x \\sqrt { 4 - x ^ { 2 } } + C</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch056/q0014_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"2 \\arccos \\frac { x } { 2 } - \\frac { 1 } { 2 } x \\sqrt { 4 - x ^ { 2 } } + C\">2 \\arccos \\frac { x } { 2 } - \\frac { 1 } { 2 } x \\sqrt { 4 - x ^ { 2 } } + C</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch056/q0014_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"2 \\arcsin { \\frac { x } { 2 } } - { \\frac { 1 } { 2 } } x { \\sqrt { 4 - x ^ { 2 } } } + C\">2 \\arcsin { \\frac { x } { 2 } } - { \\frac { 1 } { 2 } } x { \\sqrt { 4 - x ^ { 2 } } } + C</span>"
         }
       ],
       "answer": "D",
       "answer_index": 3,
-      "analysis_html": "<img src=\"/static/generated/assets/advanced-math/ch056/q0014_analysis.png\"/>"
+      "analysis_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{aligned}&amp;\\text{解令}x=2\\sin t,(-\\frac{\\pi}{2}\\leq t\\leq \\frac{\\pi}{2}),\\ \\text{则}\\int\\frac{x^{2}}{\\sqrt{4-x^{2}}}dx=\\int\\frac{(2\\sin t)^{2}}{\\sqrt{4-4\\sin^{2}t}}\\cdot 2\\cos tdt=\\int 4\\sin^{2}tdt\\\\&amp;=2\\int (1-\\cos 2t)dt=2(t-\\frac{1}{2}\\sin 2t)+C=2(t-\\sin t\\cos t)+C=2\\arcsin\\frac{x}{2}-\\frac{1}{2}x\\sqrt{4-x^{2}}+C\\end{aligned}\">\\begin{aligned}&amp;\\text{解令}x=2\\sin t,(-\\frac{\\pi}{2}\\leq t\\leq \\frac{\\pi}{2}),\\ \\text{则}\\int\\frac{x^{2}}{\\sqrt{4-x^{2}}}dx=\\int\\frac{(2\\sin t)^{2}}{\\sqrt{4-4\\sin^{2}t}}\\cdot 2\\cos tdt=\\int 4\\sin^{2}tdt\\\\&amp;=2\\int (1-\\cos 2t)dt=2(t-\\frac{1}{2}\\sin 2t)+C=2(t-\\sin t\\cos t)+C=2\\arcsin\\frac{x}{2}-\\frac{1}{2}x\\sqrt{4-x^{2}}+C\\end{aligned}</div>"
     },
     {
       "id": "q0015",
       "number": 15,
       "header": "#15-Averge",
       "difficulty": "Averge",
-      "prompt_html": "<img src=\"/static/generated/assets/advanced-math/ch056/q0015_prompt.png\"/>",
+      "prompt_html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{不定积分} \\int \\frac { 1 } { \\sqrt { x ^ { 2 } - a ^ { 2 } } } \\, dx \\ \\ ( a &gt; 0 ) \\text{的值为} \\ [ \\ \\ \\ ]\">\\text{不定积分} \\int \\frac { 1 } { \\sqrt { x ^ { 2 } - a ^ { 2 } } } \\, dx \\ \\ ( a &gt; 0 ) \\text{的值为} \\ [ \\ \\ \\ ]</span>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch056/q0015_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\ln \\left( \\frac { x } { a } + \\frac { \\sqrt { x ^ { 2 } + a ^ { 2 } } } { a } \\right) + C\">\\ln \\left( \\frac { x } { a } + \\frac { \\sqrt { x ^ { 2 } + a ^ { 2 } } } { a } \\right) + C</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch056/q0015_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\ln ( \\frac { x } { a } + \\frac { \\sqrt { x ^ { 2 } - a ^ { 2 } } } { a } ) + C\">\\ln ( \\frac { x } { a } + \\frac { \\sqrt { x ^ { 2 } - a ^ { 2 } } } { a } ) + C</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch056/q0015_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\ln \\left( \\frac{x}{a} - \\frac{\\sqrt{x^{2}+a^{2}}}{a} \\right) + C\">\\ln \\left( \\frac{x}{a} - \\frac{\\sqrt{x^{2}+a^{2}}}{a} \\right) + C</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch056/q0015_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\ln\\left({\\frac{x}{a}}-{\\frac{\\sqrt{x^{2}-a^{2}}}{a}}\\right)+C\">\\ln\\left({\\frac{x}{a}}-{\\frac{\\sqrt{x^{2}-a^{2}}}{a}}\\right)+C</span>"
         }
       ],
       "answer": "B",
       "answer_index": 1,
-      "analysis_html": "<img src=\"/static/generated/assets/advanced-math/ch056/q0015_analysis.png\"/>"
+      "analysis_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{aligned}&amp;\\text{解答　令}x=a\\sec t,t\\in\\left(0,\\frac{\\pi}{2}\\right)\\\\&amp;\\text{原式}=\\int \\frac{a\\sec t\\cdot\\tan t}{a\\tan t}dt=\\int \\sec tdt=\\ln(\\sec t+\\tan t)+C=\\ln(\\frac{x}{a}+\\frac{\\sqrt{x^{2}-a^{2}}}{a})+C\\end{aligned}\">\\begin{aligned}&amp;\\text{解答　令}x=a\\sec t,t\\in\\left(0,\\frac{\\pi}{2}\\right)\\\\&amp;\\text{原式}=\\int \\frac{a\\sec t\\cdot\\tan t}{a\\tan t}dt=\\int \\sec tdt=\\ln(\\sec t+\\tan t)+C=\\ln(\\frac{x}{a}+\\frac{\\sqrt{x^{2}-a^{2}}}{a})+C\\end{aligned}</div>"
     },
     {
       "id": "q0016",
       "number": 16,
       "header": "#16-Averge",
       "difficulty": "Averge",
-      "prompt_html": "<img src=\"/static/generated/assets/advanced-math/ch056/q0016_prompt.png\"/>",
+      "prompt_html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{不定积分} \\int \\frac { 1 } { \\sqrt { x ^ { 2 } + a ^ { 2 } } } d x \\ ( a &gt; 0 ) \\text{ 的值为 } [ \\quad ]\">\\text{不定积分} \\int \\frac { 1 } { \\sqrt { x ^ { 2 } + a ^ { 2 } } } d x \\ ( a &gt; 0 ) \\text{ 的值为 } [ \\quad ]</span>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch056/q0016_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\ln \\left( \\frac{x}{a} - \\frac{\\sqrt{x^{2}+a^{2}}}{a} \\right) + C\">\\ln \\left( \\frac{x}{a} - \\frac{\\sqrt{x^{2}+a^{2}}}{a} \\right) + C</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch056/q0016_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\ln \\left( \\frac{x}{a} + \\frac{\\sqrt{x^{2}+a^{2}}}{a} \\right) + C;\">\\ln \\left( \\frac{x}{a} + \\frac{\\sqrt{x^{2}+a^{2}}}{a} \\right) + C;</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch056/q0016_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\ln \\frac { \\sqrt { x ^ { 2 } + a ^ { 2 } } } { a } + C\">\\ln \\frac { \\sqrt { x ^ { 2 } + a ^ { 2 } } } { a } + C</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch056/q0016_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\ln {\\frac {x}{a}} + C\">\\ln {\\frac {x}{a}} + C</span>"
         }
       ],
       "answer": "B",
       "answer_index": 1,
-      "analysis_html": "<img src=\"/static/generated/assets/advanced-math/ch056/q0016_analysis.png\"/>"
+      "analysis_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{aligned}&amp;\\text{解答}\\;\\; \\text{令} \\; x=a\\tan t \\; t \\in \\left(-\\frac{\\pi}{2}, \\frac{\\pi}{2} \\right), \\text{原式} \\\\&amp;=\\int \\frac{1}{a \\sec t} \\cdot a \\sec^2 t \\, dt = \\int \\sec t dt = \\ln (\\sec t + \\tan t) + C = \\ln (\\frac{x}{a} + \\frac{\\sqrt{x^2+a^2}}{a}) + C\\end{aligned}\">\\begin{aligned}&amp;\\text{解答}\\;\\; \\text{令} \\; x=a\\tan t \\; t \\in \\left(-\\frac{\\pi}{2}, \\frac{\\pi}{2} \\right), \\text{原式} \\\\&amp;=\\int \\frac{1}{a \\sec t} \\cdot a \\sec^2 t \\, dt = \\int \\sec t dt = \\ln (\\sec t + \\tan t) + C = \\ln (\\frac{x}{a} + \\frac{\\sqrt{x^2+a^2}}{a}) + C\\end{aligned}</div>"
     },
     {
       "id": "q0017",
       "number": 17,
       "header": "#17-Averge",
       "difficulty": "Averge",
-      "prompt_html": "<img src=\"/static/generated/assets/advanced-math/ch056/q0017_prompt.png\"/>",
+      "prompt_html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\int \\frac{dx}{x+\\sqrt{1-x^{2}}} \\text{ 的值为[ \\ \\ ]}.\">\\int \\frac{dx}{x+\\sqrt{1-x^{2}}} \\text{ 的值为[ \\ \\ ]}.</span>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch056/q0017_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\frac { 1 } { 2 } \\arcsin x + \\frac { 1 } { 2 } \\ln \\left| x + \\sqrt { 1 - x ^ { 2 } } \\right| + C \\, .\">\\frac { 1 } { 2 } \\arcsin x + \\frac { 1 } { 2 } \\ln \\left| x + \\sqrt { 1 - x ^ { 2 } } \\right| + C \\, .</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch056/q0017_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\frac { 1 } { 2 } \\arccos x - \\frac { 1 } { 2 } \\ln \\left| x + \\sqrt { 1 - x ^ { 2 } } \\right| + C\">\\frac { 1 } { 2 } \\arccos x - \\frac { 1 } { 2 } \\ln \\left| x + \\sqrt { 1 - x ^ { 2 } } \\right| + C</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch056/q0017_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\frac { 1 } { 2 } \\arcsin x - \\frac { 1 } { 2 } \\ln \\left| x + \\sqrt { 1 - x ^ { 2 } } \\right| + C\">\\frac { 1 } { 2 } \\arcsin x - \\frac { 1 } { 2 } \\ln \\left| x + \\sqrt { 1 - x ^ { 2 } } \\right| + C</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch056/q0017_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\frac{1}{2}\\arccos x + \\frac{1}{2}\\ln\\left|x + \\sqrt{1-x^{2}}\\right| + C\">\\frac{1}{2}\\arccos x + \\frac{1}{2}\\ln\\left|x + \\sqrt{1-x^{2}}\\right| + C</span>"
         }
       ],
       "answer": "A",
       "answer_index": 0,
-      "analysis_html": "<img src=\"/static/generated/assets/advanced-math/ch056/q0017_analysis.png\"/>"
+      "analysis_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{aligned} \\text{解答}\\ \\ \\text{令} \\ x&amp;=\\sin t,\\ (\\ -\\frac{\\pi}{2}\\leq t\\leq \\frac{\\pi}{2})\\\\ \\text{则} \\ \\int\\frac{dx}{x+\\sqrt{1-x^{2}}}&amp;=\\int\\frac{\\cos t}{\\sin t+\\cos t}\\ dt=\\frac{1}{2}\\int\\frac{(\\cos t+\\sin t)+(\\cos t-\\sin t)}{\\cos t+\\sin t}\\ dt\\\\&amp;=\\frac{1}{2}\\int(1+\\frac{\\cos t-\\sin t}{\\cos t+\\sin t})dt=\\frac{1}{2}t+\\frac{1}{2}\\int\\frac{1}{\\sin t+\\cos t}d(\\sin t+\\cos t)\\\\&amp;=\\frac{1}{2}t+\\frac{1}{2}\\ln|\\sin t+\\cos t|+C=\\frac{1}{2}\\arcsin x+\\frac{1}{2}\\ln\\left|x+\\sqrt{1-x^{2}}\\right|+C.\\end{aligned}\">\\begin{aligned} \\text{解答}\\ \\ \\text{令} \\ x&amp;=\\sin t,\\ (\\ -\\frac{\\pi}{2}\\leq t\\leq \\frac{\\pi}{2})\\\\ \\text{则} \\ \\int\\frac{dx}{x+\\sqrt{1-x^{2}}}&amp;=\\int\\frac{\\cos t}{\\sin t+\\cos t}\\ dt=\\frac{1}{2}\\int\\frac{(\\cos t+\\sin t)+(\\cos t-\\sin t)}{\\cos t+\\sin t}\\ dt\\\\&amp;=\\frac{1}{2}\\int(1+\\frac{\\cos t-\\sin t}{\\cos t+\\sin t})dt=\\frac{1}{2}t+\\frac{1}{2}\\int\\frac{1}{\\sin t+\\cos t}d(\\sin t+\\cos t)\\\\&amp;=\\frac{1}{2}t+\\frac{1}{2}\\ln|\\sin t+\\cos t|+C=\\frac{1}{2}\\arcsin x+\\frac{1}{2}\\ln\\left|x+\\sqrt{1-x^{2}}\\right|+C.\\end{aligned}</div>"
     },
     {
       "id": "q0018",
       "number": 18,
       "header": "#18-Averge",
       "difficulty": "Averge",
-      "prompt_html": "<img src=\"/static/generated/assets/advanced-math/ch056/q0018_prompt.png\"/>",
+      "prompt_html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\int \\frac { x ^ { 5 } } { \\sqrt { 1 - x ^ { 2 } } } d x \\text { 的值为[ ].}\">\\int \\frac { x ^ { 5 } } { \\sqrt { 1 - x ^ { 2 } } } d x \\text { 的值为[ ].}</span>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch056/q0018_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"- \\frac { 1 } { 5 } ( 1 - x ^ { 2 } ) ^ { \\frac { 5 } { 2 } } + \\frac { 3 } { 2 } - ( 1 - x ^ { 2 } ) ^ { \\frac { 3 } { 2 } } - ( 1 - x ^ { 2 } ) ^ { \\frac { 1 } { 2 } } + C\">- \\frac { 1 } { 5 } ( 1 - x ^ { 2 } ) ^ { \\frac { 5 } { 2 } } + \\frac { 3 } { 2 } - ( 1 - x ^ { 2 } ) ^ { \\frac { 3 } { 2 } } - ( 1 - x ^ { 2 } ) ^ { \\frac { 1 } { 2 } } + C</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch056/q0018_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"- \\frac { 1 } { 5 } ( 1 - x ^ { 2 } ) ^ { \\frac { 5 } { 2 } } + \\frac { 2 } { 3 } - ( 1 - x ^ { 2 } ) ^ { \\frac { 3 } { 2 } } - ( 1 - x ^ { 2 } ) ^ { \\frac { 1 } { 2 } } + C\">- \\frac { 1 } { 5 } ( 1 - x ^ { 2 } ) ^ { \\frac { 5 } { 2 } } + \\frac { 2 } { 3 } - ( 1 - x ^ { 2 } ) ^ { \\frac { 3 } { 2 } } - ( 1 - x ^ { 2 } ) ^ { \\frac { 1 } { 2 } } + C</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch056/q0018_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"- \\frac { 1 } { 5 } ( 1 - x ^ { 2 } ) ^ { \\frac { 3 } { 2 } } - \\frac { 2 } { 3 } + ( 1 - x ^ { 2 } ) ^ { \\frac { 3 } { 2 } } - ( 1 - x ^ { 2 } ) ^ { \\frac { 1 } { 2 } } + C\">- \\frac { 1 } { 5 } ( 1 - x ^ { 2 } ) ^ { \\frac { 3 } { 2 } } - \\frac { 2 } { 3 } + ( 1 - x ^ { 2 } ) ^ { \\frac { 3 } { 2 } } - ( 1 - x ^ { 2 } ) ^ { \\frac { 1 } { 2 } } + C</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch056/q0018_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"- \\frac { 1 } { 5 } ( 1 - x ^ { 2 } ) ^ { \\frac { 5 } { 2 } } + \\frac { 3 } { 2 } - ( 1 - x ^ { 2 } ) ^ { \\frac { 3 } { 2 } } - ( 1 - x ^ { 2 } ) ^ { \\frac { 1 } { 2 } } + C\">- \\frac { 1 } { 5 } ( 1 - x ^ { 2 } ) ^ { \\frac { 5 } { 2 } } + \\frac { 3 } { 2 } - ( 1 - x ^ { 2 } ) ^ { \\frac { 3 } { 2 } } - ( 1 - x ^ { 2 } ) ^ { \\frac { 1 } { 2 } } + C</span>"
         }
       ],
       "answer": "B",
       "answer_index": 1,
-      "analysis_html": "<img src=\"/static/generated/assets/advanced-math/ch056/q0018_analysis.png\"/>"
+      "analysis_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{aligned}\\text{解答 令}x^{2}=t\\ ,\\ \\text{则}\\int\\frac{x^{5}}{\\sqrt{1-x^{2}}}dx&amp;=\\frac{1}{2}\\int\\frac{x^{4}}{\\sqrt{1-x^{2}}}dx^{2}=\\frac{1}{2}\\int\\frac{t^{2}}{\\sqrt{1-t}}dt\\\\&amp;=\\frac{1}{2}\\int\\frac{(t-1)^{2}+2(t-1)+1}{\\sqrt{1-t}}dt\\Big|\\\\&amp;=-\\frac{1}{2}\\int[(1-t)^{\\frac{3}{2}}-2(1-t)^{\\frac{1}{2}}+(1-t)^{-\\frac{1}{2}}]dt(1-t)\\\\&amp;=-\\frac{1}{5}(1-t)^{\\frac{4}{2}}+\\frac{2}{3}-(1-t)^{\\frac{3}{2}}-(1-t)^{\\frac{4}{2}}+C\\\\&amp;=-\\frac{1}{5}(1-x^{2})^{\\frac{3}{2}}+\\frac{2}{3}-(1-x^{2})^{\\frac{3}{2}}-(1-x^{2})^{\\frac{1}{2}}+C\\end{aligned}\">\\begin{aligned}\\text{解答 令}x^{2}=t\\ ,\\ \\text{则}\\int\\frac{x^{5}}{\\sqrt{1-x^{2}}}dx&amp;=\\frac{1}{2}\\int\\frac{x^{4}}{\\sqrt{1-x^{2}}}dx^{2}=\\frac{1}{2}\\int\\frac{t^{2}}{\\sqrt{1-t}}dt\\\\&amp;=\\frac{1}{2}\\int\\frac{(t-1)^{2}+2(t-1)+1}{\\sqrt{1-t}}dt\\Big|\\\\&amp;=-\\frac{1}{2}\\int[(1-t)^{\\frac{3}{2}}-2(1-t)^{\\frac{1}{2}}+(1-t)^{-\\frac{1}{2}}]dt(1-t)\\\\&amp;=-\\frac{1}{5}(1-t)^{\\frac{4}{2}}+\\frac{2}{3}-(1-t)^{\\frac{3}{2}}-(1-t)^{\\frac{4}{2}}+C\\\\&amp;=-\\frac{1}{5}(1-x^{2})^{\\frac{3}{2}}+\\frac{2}{3}-(1-x^{2})^{\\frac{3}{2}}-(1-x^{2})^{\\frac{1}{2}}+C\\end{aligned}</div>"
     }
-  ]
+  ],
+  "format": "latex",
+  "source_md": "gs/4.1.3_第二类换元法(18题)/4.1.3_第二类换元法(18题).md"
 }

@@ -13,112 +13,114 @@
       "number": 1,
       "header": "#1-Averge",
       "difficulty": "Averge",
-      "prompt_html": "<img src=\"/static/generated/assets/advanced-math/ch141/q0001_prompt.png\"/>",
+      "prompt_html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\int \\limits_{\\Gamma} Pdx + Qdy + Rdz \\text{化为关于弧长的曲线积分，其结果为（）。}\">\\int \\limits_{\\Gamma} Pdx + Qdy + Rdz \\text{化为关于弧长的曲线积分，其结果为（）。}</span>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch141/q0001_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\int\\limits_{\\Gamma} \\frac{P+xQ+3yR}{\\sqrt{1+y+xz}}\\,dS\">\\int\\limits_{\\Gamma} \\frac{P+xQ+3yR}{\\sqrt{1+y+xz}}\\,dS</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch141/q0001_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\int\\limits_{\\Gamma} \\frac{P+2xQ+3yR}{\\sqrt{1+y+xz}}ds\">\\int\\limits_{\\Gamma} \\frac{P+2xQ+3yR}{\\sqrt{1+y+xz}}ds</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch141/q0001_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\int\\limits_{\\Gamma} \\frac{P+xQ+3yR}{\\sqrt{1+4y+9xz}}\\,ds\">\\int\\limits_{\\Gamma} \\frac{P+xQ+3yR}{\\sqrt{1+4y+9xz}}\\,ds</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch141/q0001_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\int\\limits_{\\Gamma} \\frac{P+2xQ+3yR}{\\sqrt{1+4y+9xz}}ds\">\\int\\limits_{\\Gamma} \\frac{P+2xQ+3yR}{\\sqrt{1+4y+9xz}}ds</span>"
         }
       ],
       "answer": "D",
       "answer_index": 3,
-      "analysis_html": "<img src=\"/static/generated/assets/advanced-math/ch141/q0001_analysis.png\"/>"
+      "analysis_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{aligned} &amp; \\text{解：} \\quad \\frac{dx}{dt} = 1 \\ , \\ \\frac{dy}{dt} = 2t \\ , \\ \\ \\frac{dz}{dt} = 3t^2 \\\\ &amp; \\quad \\cos \\alpha = \\frac{1}{\\sqrt{1+4t^2+9t^4}} = \\frac{1}{\\sqrt{1+4y^2+9xz}} \\\\ &amp; \\quad \\cos \\beta = \\frac{2t}{\\sqrt{1+4t^2+9t^4}} = \\frac{2x}{\\sqrt{1+4y^2+9xz}} \\\\ &amp; \\quad \\cos \\gamma = \\frac{3t^2}{\\sqrt{1+4t^2+9t^4}} = \\frac{3y}{\\sqrt{1+4y^2+9xz}} \\\\ &amp; \\quad \\int\\limits_{\\Gamma} Pdx + Qdy + Rdz = \\int\\limits_{\\Gamma} \\left( P \\cos \\alpha + Q \\cos \\beta + R \\cos \\gamma \\right) ds = \\int\\limits_{\\Gamma} \\frac{P+2xQ+3yR}{\\sqrt{1+4y+9xz}} ds \\end{aligned}\">\\begin{aligned} &amp; \\text{解：} \\quad \\frac{dx}{dt} = 1 \\ , \\ \\frac{dy}{dt} = 2t \\ , \\ \\ \\frac{dz}{dt} = 3t^2 \\\\ &amp; \\quad \\cos \\alpha = \\frac{1}{\\sqrt{1+4t^2+9t^4}} = \\frac{1}{\\sqrt{1+4y^2+9xz}} \\\\ &amp; \\quad \\cos \\beta = \\frac{2t}{\\sqrt{1+4t^2+9t^4}} = \\frac{2x}{\\sqrt{1+4y^2+9xz}} \\\\ &amp; \\quad \\cos \\gamma = \\frac{3t^2}{\\sqrt{1+4t^2+9t^4}} = \\frac{3y}{\\sqrt{1+4y^2+9xz}} \\\\ &amp; \\quad \\int\\limits_{\\Gamma} Pdx + Qdy + Rdz = \\int\\limits_{\\Gamma} \\left( P \\cos \\alpha + Q \\cos \\beta + R \\cos \\gamma \\right) ds = \\int\\limits_{\\Gamma} \\frac{P+2xQ+3yR}{\\sqrt{1+4y+9xz}} ds \\end{aligned}</div>"
     },
     {
       "id": "q0002",
       "number": 2,
       "header": "#2-Averge",
       "difficulty": "Averge",
-      "prompt_html": "<img src=\"/static/generated/assets/advanced-math/ch141/q0002_prompt.png\"/>",
+      "prompt_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{cases} \\text{. 把第二型曲线积分} \\int_{L} P(x,y)dx + Q(x,y)dy \\text{化为第一型曲线积分，其中} L: y = \\sqrt{x} \\text{上从} (0,0) \\text{到} (1,1) \\text{的一段弧,其结果为}() \\end{cases}\">\\begin{cases} \\text{. 把第二型曲线积分} \\int_{L} P(x,y)dx + Q(x,y)dy \\text{化为第一型曲线积分，其中} L: y = \\sqrt{x} \\text{上从} (0,0) \\text{到} (1,1) \\text{的一段弧,其结果为}() \\end{cases}</div>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch141/q0002_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\int_{L} \\frac{P(x,y) 2 \\sqrt{x} + Q(x,y)}{\\sqrt{1 + 4 x}} d s\">\\int_{L} \\frac{P(x,y) 2 \\sqrt{x} + Q(x,y)}{\\sqrt{1 + 4 x}} d s</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch141/q0002_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\begin{aligned}\\int_{L} \\frac{P(x,y) 2 \\sqrt{x} + 2 Q(x,y)}{\\sqrt{1+4x}} ds\\end{aligned}\">\\begin{aligned}\\int_{L} \\frac{P(x,y) 2 \\sqrt{x} + 2 Q(x,y)}{\\sqrt{1+4x}} ds\\end{aligned}</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch141/q0002_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\int_{L} \\frac{P(x,y)\\sqrt{x}+Q(x,y)}{\\sqrt{1+4x}}ds\">\\int_{L} \\frac{P(x,y)\\sqrt{x}+Q(x,y)}{\\sqrt{1+4x}}ds</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch141/q0002_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\begin{array}{l} {l} \\cdot \\ \\int _ { L } \\frac { P ( x , y ) 2 \\sqrt { x } + Q ( x , y ) } { \\sqrt { 1 + x } } d s \\end{array}\">\\begin{array}{l} {l} \\cdot \\ \\int _ { L } \\frac { P ( x , y ) 2 \\sqrt { x } + Q ( x , y ) } { \\sqrt { 1 + x } } d s \\end{array}</span>"
         }
       ],
       "answer": "A",
       "answer_index": 0,
-      "analysis_html": "<img src=\"/static/generated/assets/advanced-math/ch141/q0002_analysis.png\"/>"
+      "analysis_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{aligned}&amp;\\text{解：}\\qquad y^{\\prime}=\\frac{1}{2\\sqrt{x}}\\,\\,\\,\\,\\,\\text{,L的切向量}\\,\\,T=\\{1,\\,\\frac{1}{2\\sqrt{x}}\\}\\\\&amp;\\qquad\\cos\\alpha=\\frac{1}{\\sqrt{1+\\left(\\frac{1}{2\\sqrt{x}}\\right)^2}}=\\frac{2\\sqrt{x}}{\\sqrt{1+4x}}\\qquad\\cos\\beta=\\frac{\\frac{1}{2\\sqrt{x}}}{\\sqrt{1+\\left(\\frac{1}{2\\sqrt{x}}\\right)^2}}=\\frac{1}{\\sqrt{1+4x}}\\\\&amp;\\text{于是}\\qquad\\int_{L}P(x,y)dx+Q(x,y)dy=\\int_{L}[P(x,y)\\frac{2\\sqrt{x}}{\\sqrt{1+4x}}+Q(x,y)\\frac{1}{\\sqrt{1+4x}}]ds\\\\&amp;=\\int_{L}\\frac{P(x,y)2\\sqrt{x}+Q(x,y)}{\\sqrt{1+4x}}ds\\,.\\end{aligned}\">\\begin{aligned}&amp;\\text{解：}\\qquad y^{\\prime}=\\frac{1}{2\\sqrt{x}}\\,\\,\\,\\,\\,\\text{,L的切向量}\\,\\,T=\\{1,\\,\\frac{1}{2\\sqrt{x}}\\}\\\\&amp;\\qquad\\cos\\alpha=\\frac{1}{\\sqrt{1+\\left(\\frac{1}{2\\sqrt{x}}\\right)^2}}=\\frac{2\\sqrt{x}}{\\sqrt{1+4x}}\\qquad\\cos\\beta=\\frac{\\frac{1}{2\\sqrt{x}}}{\\sqrt{1+\\left(\\frac{1}{2\\sqrt{x}}\\right)^2}}=\\frac{1}{\\sqrt{1+4x}}\\\\&amp;\\text{于是}\\qquad\\int_{L}P(x,y)dx+Q(x,y)dy=\\int_{L}[P(x,y)\\frac{2\\sqrt{x}}{\\sqrt{1+4x}}+Q(x,y)\\frac{1}{\\sqrt{1+4x}}]ds\\\\&amp;=\\int_{L}\\frac{P(x,y)2\\sqrt{x}+Q(x,y)}{\\sqrt{1+4x}}ds\\,.\\end{aligned}</div>"
     },
     {
       "id": "q0003",
       "number": 3,
       "header": "#3-Averge",
       "difficulty": "Averge",
-      "prompt_html": "<img src=\"/static/generated/assets/advanced-math/ch141/q0003_prompt.png\"/>",
+      "prompt_html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\int_{L} P(x,y)dx + Q(x,y)dy \\text{化为对弧长的曲线积分，其中} L \\text{为从点} (0,0) \\text{沿上半圆周}\">\\int_{L} P(x,y)dx + Q(x,y)dy \\text{化为对弧长的曲线积分，其中} L \\text{为从点} (0,0) \\text{沿上半圆周}</span>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch141/q0003_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\int_{L} [ \\sqrt{2\\, x + x^{2}} \\, P(x,y) + (1+x) Q(x,y) ] ds\">\\int_{L} [ \\sqrt{2\\, x + x^{2}} \\, P(x,y) + (1+x) Q(x,y) ] ds</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch141/q0003_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\begin{aligned}\\int_{L} [\\sqrt{2\\, x + x^2} P(x,y) + (1-x) Q(x,y)] ds\\end{aligned}\">\\begin{aligned}\\int_{L} [\\sqrt{2\\, x + x^2} P(x,y) + (1-x) Q(x,y)] ds\\end{aligned}</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch141/q0003_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\begin{aligned}\\int_{L} [\\sqrt{2\\, x - x^2} \\, P(x,y) + (1-x) Q(x,y)] ds\\end{aligned}\">\\begin{aligned}\\int_{L} [\\sqrt{2\\, x - x^2} \\, P(x,y) + (1-x) Q(x,y)] ds\\end{aligned}</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch141/q0003_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\int_{L} [ \\sqrt{2\\, x - x^{2}} \\, P(x,y) + (1+x) Q(x,y) ] ds\">\\int_{L} [ \\sqrt{2\\, x - x^{2}} \\, P(x,y) + (1+x) Q(x,y) ] ds</span>"
         }
       ],
       "answer": "C",
       "answer_index": 2,
-      "analysis_html": "<img src=\"/static/generated/assets/advanced-math/ch141/q0003_analysis.png\"/>"
+      "analysis_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{aligned} \\text{解：} \\quad&amp; L: \\begin{cases} x=x \\\\ y=\\sqrt{2x-x^{2}} \\end{cases} \\quad x: 0 \\rightarrow 1, \\text{由}0&lt;1, \\text{故在} (x,y) \\text{处切向量为} \\left(1, \\frac{1-x}{\\sqrt{2x-x^{2}}} \\right), \\text{所以} \\\\ &amp; \\cos \\alpha = \\frac{1}{\\sqrt{1+\\left( \\frac{1-x}{\\sqrt{2x-x^{2}}} \\right)^{2}}} = \\sqrt{2x-x^{2}}, \\cos \\beta = \\frac{\\frac{1-x}{\\sqrt{2x-x^{2}}}}{\\sqrt{1+\\left( \\frac{1-x}{\\sqrt{2x-x^{2}}} \\right)^{2}}} = 1-x, \\text{所以} \\\\ &amp; \\int_{L} P\\left( x,y \\right) dx + Q\\left( x,y \\right) dy \\\\ &amp; = \\int_{L} \\left[ P\\left( x,y \\right) \\cos \\alpha + Q\\left( x,y \\right) \\cos \\beta \\right] ds \\\\ &amp; = \\int_{L} \\left[ \\sqrt{2x-x^{2}}P\\left( x,y \\right) + (1-x)Q\\left( x,y \\right) \\right] ds \\end{aligned}\">\\begin{aligned} \\text{解：} \\quad&amp; L: \\begin{cases} x=x \\\\ y=\\sqrt{2x-x^{2}} \\end{cases} \\quad x: 0 \\rightarrow 1, \\text{由}0&lt;1, \\text{故在} (x,y) \\text{处切向量为} \\left(1, \\frac{1-x}{\\sqrt{2x-x^{2}}} \\right), \\text{所以} \\\\ &amp; \\cos \\alpha = \\frac{1}{\\sqrt{1+\\left( \\frac{1-x}{\\sqrt{2x-x^{2}}} \\right)^{2}}} = \\sqrt{2x-x^{2}}, \\cos \\beta = \\frac{\\frac{1-x}{\\sqrt{2x-x^{2}}}}{\\sqrt{1+\\left( \\frac{1-x}{\\sqrt{2x-x^{2}}} \\right)^{2}}} = 1-x, \\text{所以} \\\\ &amp; \\int_{L} P\\left( x,y \\right) dx + Q\\left( x,y \\right) dy \\\\ &amp; = \\int_{L} \\left[ P\\left( x,y \\right) \\cos \\alpha + Q\\left( x,y \\right) \\cos \\beta \\right] ds \\\\ &amp; = \\int_{L} \\left[ \\sqrt{2x-x^{2}}P\\left( x,y \\right) + (1-x)Q\\left( x,y \\right) \\right] ds \\end{aligned}</div>"
     },
     {
       "id": "q0004",
       "number": 4,
       "header": "#4-Averge",
       "difficulty": "Averge",
-      "prompt_html": "<img src=\"/static/generated/assets/advanced-math/ch141/q0004_prompt.png\"/>",
+      "prompt_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{array}{l} { r } { M = \\max \\sqrt { P ^ { 2 } + Q ^ { 2 } } , \\ P ( x , y ) , Q ( x , y ) \\text {在} L \\text {上连续,曲线段} L \\text {的长度为} s , \\text {则可以推出（}}  \\end{array}\">\\begin{array}{l} { r } { M = \\max \\sqrt { P ^ { 2 } + Q ^ { 2 } } , \\ P ( x , y ) , Q ( x , y ) \\text {在} L \\text {上连续,曲线段} L \\text {的长度为} s , \\text {则可以推出（}}  \\end{array}</div>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch141/q0004_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\left| \\int _ { L } P \\mathrm{d} x + Q \\mathrm{d} y \\right| \\geq M s\">\\left| \\int _ { L } P \\mathrm{d} x + Q \\mathrm{d} y \\right| \\geq M s</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch141/q0004_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\left| \\int _ { L } P \\mathrm{d} x + Q \\mathrm{d} y \\right| \\geq 2 M s\">\\left| \\int _ { L } P \\mathrm{d} x + Q \\mathrm{d} y \\right| \\geq 2 M s</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch141/q0004_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\left| \\int _ { L } P \\mathrm { d } x + Q \\mathrm { d } y \\right| \\leq M s\">\\left| \\int _ { L } P \\mathrm { d } x + Q \\mathrm { d } y \\right| \\leq M s</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch141/q0004_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\left|\\int_{L}P\\,\\mathrm{d}x+Q\\,\\mathrm{d}y\\right|\\leq \\frac{1}{2}M\\,s\">\\left|\\int_{L}P\\,\\mathrm{d}x+Q\\,\\mathrm{d}y\\right|\\leq \\frac{1}{2}M\\,s</span>"
         }
       ],
       "answer": "C",
       "answer_index": 2,
-      "analysis_html": "<img src=\"/static/generated/assets/advanced-math/ch141/q0004_analysis.png\"/>"
+      "analysis_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{aligned}&amp;\\left|\\int_{L}P\\,\\mathrm{d}x+Q\\,\\mathrm{d}y\\right|=\\left|\\int_{L}\\left(P\\cos\\alpha+Q\\cos\\beta\\right)\\mathrm{d}s\\right|\\leq\\int_{L}\\left|P\\cos\\alpha+Q\\cos\\beta\\right|\\mathrm{d}s\\\\&amp;\\vec{A}=(P,Q),\\ \\vec{t}=(\\cos\\alpha,\\cos\\beta)\\text{，二者夹角为}\\theta,\\\\&amp;\\text{从而，}\\int_{L}\\left|P\\cos\\alpha+Q\\cos\\beta\\right|\\mathrm{d}s\\ =\\int_{L}\\left|\\vec{A}\\cdot\\vec{t}\\right|\\mathrm{d}s\\ =\\int_{L}\\left|A\\right|\\left|\\cos\\theta\\right|\\mathrm{d}s\\ \\leq M\\,s\\end{aligned}\">\\begin{aligned}&amp;\\left|\\int_{L}P\\,\\mathrm{d}x+Q\\,\\mathrm{d}y\\right|=\\left|\\int_{L}\\left(P\\cos\\alpha+Q\\cos\\beta\\right)\\mathrm{d}s\\right|\\leq\\int_{L}\\left|P\\cos\\alpha+Q\\cos\\beta\\right|\\mathrm{d}s\\\\&amp;\\vec{A}=(P,Q),\\ \\vec{t}=(\\cos\\alpha,\\cos\\beta)\\text{，二者夹角为}\\theta,\\\\&amp;\\text{从而，}\\int_{L}\\left|P\\cos\\alpha+Q\\cos\\beta\\right|\\mathrm{d}s\\ =\\int_{L}\\left|\\vec{A}\\cdot\\vec{t}\\right|\\mathrm{d}s\\ =\\int_{L}\\left|A\\right|\\left|\\cos\\theta\\right|\\mathrm{d}s\\ \\leq M\\,s\\end{aligned}</div>"
     }
-  ]
+  ],
+  "format": "latex",
+  "source_md": "gs/9.3.3_两类曲线积分之间的关系(4题)/9.3.3_两类曲线积分之间的关系(4题).md"
 }

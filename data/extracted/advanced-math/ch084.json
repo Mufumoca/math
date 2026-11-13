@@ -13,1400 +13,1402 @@
       "number": 1,
       "header": "#1-Averge",
       "difficulty": "Averge",
-      "prompt_html": "<img src=\"/static/generated/assets/advanced-math/ch084/q0001_prompt.png\"/>",
+      "prompt_html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\sum_{n=1}^{\\infty} a^{n} \\ln(1+ \\frac{1}{2^{n}}) \\text{（其中} a \\text{为正数）} \\text{的收敛性，下列说法正确的是[ ].}\">\\sum_{n=1}^{\\infty} a^{n} \\ln(1+ \\frac{1}{2^{n}}) \\text{（其中} a \\text{为正数）} \\text{的收敛性，下列说法正确的是[ ].}</span>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch084/q0001_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{级数发散};\">\\text{级数发散};</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch084/q0001_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{级数收敛};\">\\text{级数收敛};</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch084/q0001_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{当} a &lt; 2 \\text{时，级数收敛};\">\\text{当} a &lt; 2 \\text{时，级数收敛};</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch084/q0001_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{当} a &lt; 2 \\text{时，级数发散}.\">\\text{当} a &lt; 2 \\text{时，级数发散}.</span>"
         }
       ],
       "answer": "C",
       "answer_index": 2,
-      "analysis_html": "<img src=\"/static/generated/assets/advanced-math/ch084/q0001_analysis.png\"/>"
+      "analysis_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{array}{l} \\text {解答 由于} \\lim_{n \\rightarrow \\infty} \\frac{a^{n} \\ln(1+\\frac{1}{2^{n}})}{\\frac{a^{n}}{2^{n}}} = \\lim_{n \\rightarrow \\infty} \\frac{\\ln(1+\\frac{1}{2^{n}})}{\\frac{1}{2^{n}}}=1, \\text {由比较审敛法知，级数} \\\\ \\sum_{n=1}^{\\infty} a^{n} \\ln(1+\\frac{1}{2^{n}}) \\text {与级数} \\sum_{n=1}^{\\infty} \\frac{a^{n}}{2^{n}} \\text {同时收敛同时发散，所以只需考虑级数} \\sum_{n=1}^{\\infty} \\frac{a^{n}}{2^{n}} \\text {的} \\\\ \\text {收敛性.令} u_{n}=\\frac{a^{n}}{2^{n}}, \\lim_{n \\rightarrow \\infty} \\sqrt[n]{u_{n}}=\\frac{a}{2}, \\text {需讨论参数} a \\text {的不同情况}, \\\\ \\text {当} a&lt;2 \\text {时，即} \\frac{a}{2}&lt;1 \\text {时，级数收敛}; \\\\ \\text {当} a&gt;2, \\text {即} \\frac{a}{2}&gt;1 \\text {时，级数发散}; \\\\ \\text {当} a=2, \\text {即} \\frac{a}{2}=1 \\text {时，用此法不能审敛，此时级数为} \\sum_{n=1}^{\\infty} 1, \\text {级数发散}. \\end{array}\">\\begin{array}{l} \\text {解答 由于} \\lim_{n \\rightarrow \\infty} \\frac{a^{n} \\ln(1+\\frac{1}{2^{n}})}{\\frac{a^{n}}{2^{n}}} = \\lim_{n \\rightarrow \\infty} \\frac{\\ln(1+\\frac{1}{2^{n}})}{\\frac{1}{2^{n}}}=1, \\text {由比较审敛法知，级数} \\\\ \\sum_{n=1}^{\\infty} a^{n} \\ln(1+\\frac{1}{2^{n}}) \\text {与级数} \\sum_{n=1}^{\\infty} \\frac{a^{n}}{2^{n}} \\text {同时收敛同时发散，所以只需考虑级数} \\sum_{n=1}^{\\infty} \\frac{a^{n}}{2^{n}} \\text {的} \\\\ \\text {收敛性.令} u_{n}=\\frac{a^{n}}{2^{n}}, \\lim_{n \\rightarrow \\infty} \\sqrt[n]{u_{n}}=\\frac{a}{2}, \\text {需讨论参数} a \\text {的不同情况}, \\\\ \\text {当} a&lt;2 \\text {时，即} \\frac{a}{2}&lt;1 \\text {时，级数收敛}; \\\\ \\text {当} a&gt;2, \\text {即} \\frac{a}{2}&gt;1 \\text {时，级数发散}; \\\\ \\text {当} a=2, \\text {即} \\frac{a}{2}=1 \\text {时，用此法不能审敛，此时级数为} \\sum_{n=1}^{\\infty} 1, \\text {级数发散}. \\end{array}</div>"
     },
     {
       "id": "q0002",
       "number": 2,
       "header": "#2-Averge",
       "difficulty": "Averge",
-      "prompt_html": "<img src=\"/static/generated/assets/advanced-math/ch084/q0002_prompt.png\"/>",
+      "prompt_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{array}{l} \\text {关于下列2个级数的敛散性，说法正确的是[ ].} \\\\ (1) \\sum \\limits_{n = 1} ^ { \\infty } \\frac { 1 } { 4 ^ { n } + n ^ { 2 } } ; \\quad (2) \\sum \\limits _ { n = 1 } ^ { \\infty } \\frac { 2 ^ { n } } { ( 3 n - 1 ) 5 ^ { n } } . \\end{array}\">\\begin{array}{l} \\text {关于下列2个级数的敛散性，说法正确的是[ ].} \\\\ (1) \\sum \\limits_{n = 1} ^ { \\infty } \\frac { 1 } { 4 ^ { n } + n ^ { 2 } } ; \\quad (2) \\sum \\limits _ { n = 1 } ^ { \\infty } \\frac { 2 ^ { n } } { ( 3 n - 1 ) 5 ^ { n } } . \\end{array}</div>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch084/q0002_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"(1) \\text{发散}, \\, (2) \\text{收敛};\">(1) \\text{发散}, \\, (2) \\text{收敛};</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch084/q0002_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"(1) \\text{发散}, \\, (2) \\text{发散};\">(1) \\text{发散}, \\, (2) \\text{发散};</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch084/q0002_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"(1) \\text{收敛}, \\, (2) \\text{收敛};\">(1) \\text{收敛}, \\, (2) \\text{收敛};</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch084/q0002_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"(1) \\text{收敛}, \\, (2) \\text{发散}.\">(1) \\text{收敛}, \\, (2) \\text{发散}.</span>"
         }
       ],
       "answer": "C",
       "answer_index": 2,
-      "analysis_html": "<img src=\"/static/generated/assets/advanced-math/ch084/q0002_analysis.png\"/>"
+      "analysis_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{array}{l} \\text {解答(1)由根值审敛法知，级数} \\sum_{n=1}^{\\infty} \\frac{1}{4^{n}} \\text {收敛，又由于} \\frac{1}{4^{n}+n^{2}}&lt;\\frac{1}{4^{n}}, \\text {由比较审敛法知，级数} \\sum_{n=1}^{\\infty} \\frac{1}{4^{n}+n^{2}} \\text {收敛；(2)令} u_{n}=\\frac{2^{n}}{(3n-1)5^{n}}, \\text {由于} \\lim_{n \\to \\infty} \\sqrt[n]{u_{n}}=\\lim_{n \\to \\infty} \\frac{2}{5 \\sqrt[3]{3n-1}}=\\frac{2}{5}&lt;1, \\\\ \\text {由根值审敛法知，级数} \\sum_{n=1}^{\\infty} \\frac{2^{n}}{(3n-1)5^{n}} \\text {收敛}. \\end{array}\">\\begin{array}{l} \\text {解答(1)由根值审敛法知，级数} \\sum_{n=1}^{\\infty} \\frac{1}{4^{n}} \\text {收敛，又由于} \\frac{1}{4^{n}+n^{2}}&lt;\\frac{1}{4^{n}}, \\text {由比较审敛法知，级数} \\sum_{n=1}^{\\infty} \\frac{1}{4^{n}+n^{2}} \\text {收敛；(2)令} u_{n}=\\frac{2^{n}}{(3n-1)5^{n}}, \\text {由于} \\lim_{n \\to \\infty} \\sqrt[n]{u_{n}}=\\lim_{n \\to \\infty} \\frac{2}{5 \\sqrt[3]{3n-1}}=\\frac{2}{5}&lt;1, \\\\ \\text {由根值审敛法知，级数} \\sum_{n=1}^{\\infty} \\frac{2^{n}}{(3n-1)5^{n}} \\text {收敛}. \\end{array}</div>"
     },
     {
       "id": "q0003",
       "number": 3,
       "header": "#3-Averge",
       "difficulty": "Averge",
-      "prompt_html": "<img src=\"/static/generated/assets/advanced-math/ch084/q0003_prompt.png\"/>",
+      "prompt_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{array}{l} \\text{关于下列2个级数的敛散性，说法正确的是[ ].} \\\\ (1)\\sum_{n=1}^{\\infty}\\frac{(1+\\frac{1}{n})^{n}}{2^{n}}; \\quad (2)\\sum_{n=1}^{\\infty}1-\\cos\\frac{a}{n}. \\end{array}\">\\begin{array}{l} \\text{关于下列2个级数的敛散性，说法正确的是[ ].} \\\\ (1)\\sum_{n=1}^{\\infty}\\frac{(1+\\frac{1}{n})^{n}}{2^{n}}; \\quad (2)\\sum_{n=1}^{\\infty}1-\\cos\\frac{a}{n}. \\end{array}</div>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch084/q0003_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"(1) \\text{发散}, (2) \\text{发散};\">(1) \\text{发散}, (2) \\text{发散};</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch084/q0003_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"(1) \\text{收敛},\\ (2) \\text{收敛};\">(1) \\text{收敛},\\ (2) \\text{收敛};</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch084/q0003_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"(1) \\text{收敛},\\,(2) \\text{发散}.\">(1) \\text{收敛},\\,(2) \\text{发散}.</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch084/q0003_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"(1) \\text{发散}, (2) \\text{收敛};\">(1) \\text{发散}, (2) \\text{收敛};</span>"
         }
       ],
       "answer": "B",
       "answer_index": 1,
-      "analysis_html": "<img src=\"/static/generated/assets/advanced-math/ch084/q0003_analysis.png\"/>"
+      "analysis_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{array}{l} \\text {解答 (1) 令} u_{n} = \\frac{(1+\\frac{1}{n})^{n}}{2^{n}}, \\text {则} \\lim_{n \\rightarrow \\infty} \\frac{1}{n^{2}} \\overline{u_{n}} = \\lim_{n \\rightarrow \\infty} \\frac{1}{2}(1+\\frac{1}{n}) = \\frac{1}{2} &lt; 1, \\text {由根值审敛法知级数} \\sum_{n=1}^{\\infty} \\frac{(1+\\frac{1}{n})^{n}}{2^{n}} \\text {收敛；(1) 由于} \\lim_{n \\rightarrow \\infty} \\frac{1-\\cos \\frac{a}{n}}{\\frac{a^{2}}{n^{2}}} = \\frac{1}{2}, \\text {所以级数} \\sum_{n=1}^{\\infty} 1-\\cos \\frac{a}{n} \\text {与级数} \\sum_{n=1}^{\\infty} \\frac{a^{2}}{n^{2}} \\text {有相同的敛散性，由p-级数理论知级数} \\sum_{n=1}^{\\infty} \\frac{a^{2}}{n^{2}} \\text {收敛，则级数} \\sum_{n=1}^{\\infty} 1-\\cos \\frac{a}{n} \\text {收敛}. \\end{array}\">\\begin{array}{l} \\text {解答 (1) 令} u_{n} = \\frac{(1+\\frac{1}{n})^{n}}{2^{n}}, \\text {则} \\lim_{n \\rightarrow \\infty} \\frac{1}{n^{2}} \\overline{u_{n}} = \\lim_{n \\rightarrow \\infty} \\frac{1}{2}(1+\\frac{1}{n}) = \\frac{1}{2} &lt; 1, \\text {由根值审敛法知级数} \\sum_{n=1}^{\\infty} \\frac{(1+\\frac{1}{n})^{n}}{2^{n}} \\text {收敛；(1) 由于} \\lim_{n \\rightarrow \\infty} \\frac{1-\\cos \\frac{a}{n}}{\\frac{a^{2}}{n^{2}}} = \\frac{1}{2}, \\text {所以级数} \\sum_{n=1}^{\\infty} 1-\\cos \\frac{a}{n} \\text {与级数} \\sum_{n=1}^{\\infty} \\frac{a^{2}}{n^{2}} \\text {有相同的敛散性，由p-级数理论知级数} \\sum_{n=1}^{\\infty} \\frac{a^{2}}{n^{2}} \\text {收敛，则级数} \\sum_{n=1}^{\\infty} 1-\\cos \\frac{a}{n} \\text {收敛}. \\end{array}</div>"
     },
     {
       "id": "q0004",
       "number": 4,
       "header": "#4-Averge",
       "difficulty": "Averge",
-      "prompt_html": "<img src=\"/static/generated/assets/advanced-math/ch084/q0004_prompt.png\"/>",
+      "prompt_html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{设} \\lim_{n \\to \\infty} a_{n} = a ( a &gt; 0 , a_{n} \\neq 0 ) , \\text{则级数} \\sum_{n=1}^{\\infty} \\left( \\frac{x}{a_{n}} \\right)^{n} \\quad [ \\quad ].\">\\text{设} \\lim_{n \\to \\infty} a_{n} = a ( a &gt; 0 , a_{n} \\neq 0 ) , \\text{则级数} \\sum_{n=1}^{\\infty} \\left( \\frac{x}{a_{n}} \\right)^{n} \\quad [ \\quad ].</span>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch084/q0004_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{当} | x | &gt; 1 \\text{时，发散};\">\\text{当} | x | &gt; 1 \\text{时，发散};</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch084/q0004_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{当} |a| &lt; 1 \\text{时，发散};\">\\text{当} |a| &lt; 1 \\text{时，发散};</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch084/q0004_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{当} |x| &lt; a \\text{时，条件收敛.}\">\\text{当} |x| &lt; a \\text{时，条件收敛.}</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch084/q0004_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{当} |x| &lt; a \\text{时，绝对收敛};\">\\text{当} |x| &lt; a \\text{时，绝对收敛};</span>"
         }
       ],
       "answer": "D",
       "answer_index": 3,
-      "analysis_html": "<img src=\"/static/generated/assets/advanced-math/ch084/q0004_analysis.png\"/>"
+      "analysis_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{array}{l} \\text {解答令} u_{n} = \\left| \\frac{x}{a_{n}} \\right|, \\text {则} \\lim_{n \\to \\infty} \\left| \\frac{x}{a_{n}} \\right| = \\left| \\frac{x}{a} \\right|, \\text {当} \\left| \\frac{x}{a} \\right| &lt; 1 \\text {时，即} \\left| x \\right| &lt; a \\text {时，级数} \\sum_{n=1}^{\\infty} \\left( \\frac{x}{a_{n}} \\right)^{n} \\text {绝对收敛}. \\end{array}\">\\begin{array}{l} \\text {解答令} u_{n} = \\left| \\frac{x}{a_{n}} \\right|, \\text {则} \\lim_{n \\to \\infty} \\left| \\frac{x}{a_{n}} \\right| = \\left| \\frac{x}{a} \\right|, \\text {当} \\left| \\frac{x}{a} \\right| &lt; 1 \\text {时，即} \\left| x \\right| &lt; a \\text {时，级数} \\sum_{n=1}^{\\infty} \\left( \\frac{x}{a_{n}} \\right)^{n} \\text {绝对收敛}. \\end{array}</div>"
     },
     {
       "id": "q0005",
       "number": 5,
       "header": "#5-Averge",
       "difficulty": "Averge",
-      "prompt_html": "<img src=\"/static/generated/assets/advanced-math/ch084/q0005_prompt.png\"/>",
+      "prompt_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{array}{l} \\text {关于下列2个级数的敛散性，说法正确的是[ ].} \\\\ (1) \\sum_{n=1}^{\\infty} \\left(\\frac{n}{3n-1}\\right)^{2n-1}, (2) \\sum_{n=1}^{\\infty} \\frac{3^{n}}{\\left(\\frac{n+1}{n}\\right)^{n^{2}}}. \\end{array}\">\\begin{array}{l} \\text {关于下列2个级数的敛散性，说法正确的是[ ].} \\\\ (1) \\sum_{n=1}^{\\infty} \\left(\\frac{n}{3n-1}\\right)^{2n-1}, (2) \\sum_{n=1}^{\\infty} \\frac{3^{n}}{\\left(\\frac{n+1}{n}\\right)^{n^{2}}}. \\end{array}</div>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch084/q0005_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"(1) \\text{收敛}, (2) \\text{发散};\">(1) \\text{收敛}, (2) \\text{发散};</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch084/q0005_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"(1) \\text{发散}, \\, (2) \\text{发散};\">(1) \\text{发散}, \\, (2) \\text{发散};</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch084/q0005_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"(1) \\text{收敛},\\,(2) \\text{收敛}.\">(1) \\text{收敛},\\,(2) \\text{收敛}.</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch084/q0005_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"(1) \\text{发散},\\,(2) \\text{收敛};\">(1) \\text{发散},\\,(2) \\text{收敛};</span>"
         }
       ],
       "answer": "A",
       "answer_index": 0,
-      "analysis_html": "<img src=\"/static/generated/assets/advanced-math/ch084/q0005_analysis.png\"/>"
+      "analysis_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{array}{l} \\text {解答(1)令} u_{n} = \\left(\\frac{n}{3n-1}\\right)^{2n-1}, \\text {则} \\\\ \\lim_{n \\to \\infty} \\sqrt[n]{u_{n}} = \\lim_{n \\to \\infty} \\left(\\frac{n}{3n-1}\\right)^{\\frac{2n-1}{n}} = \\lim_{n \\to \\infty} \\left(\\frac{n}{3n-1}\\right)^{2-\\frac{1}{n}} = \\exp \\left[ \\lim_{n \\to \\infty} \\left(2-\\frac{1}{n}\\right) \\ln \\left(\\frac{n}{3n-1}\\right) \\right] = e^{2 \\ln \\frac{1}{3}} = \\left(\\frac{1}{3}\\right)^{2} &lt; 1 \\\\ \\text {所以级数} \\sum_{n=1}^{\\infty} \\sqrt[n]{\\left(\\frac{n}{3n-1}\\right)^{2n-1}} \\text {收敛}; (2) \\text{由于} \\lim_{n \\to \\infty} \\sqrt[n]{u_{n}} = \\lim_{n \\to \\infty} \\frac{3}{\\left(\\frac{n+1}{n}\\right)^{n}} = \\frac{3}{e} &gt; 1, \\text {所以级数} \\\\ \\sum_{n=1}^{\\infty} \\left(\\frac{3^{n}}{\\left(\\frac{n+1}{n}\\right)^{n}}\\right) \\text {发散}. \\end{array}\">\\begin{array}{l} \\text {解答(1)令} u_{n} = \\left(\\frac{n}{3n-1}\\right)^{2n-1}, \\text {则} \\\\ \\lim_{n \\to \\infty} \\sqrt[n]{u_{n}} = \\lim_{n \\to \\infty} \\left(\\frac{n}{3n-1}\\right)^{\\frac{2n-1}{n}} = \\lim_{n \\to \\infty} \\left(\\frac{n}{3n-1}\\right)^{2-\\frac{1}{n}} = \\exp \\left[ \\lim_{n \\to \\infty} \\left(2-\\frac{1}{n}\\right) \\ln \\left(\\frac{n}{3n-1}\\right) \\right] = e^{2 \\ln \\frac{1}{3}} = \\left(\\frac{1}{3}\\right)^{2} &lt; 1 \\\\ \\text {所以级数} \\sum_{n=1}^{\\infty} \\sqrt[n]{\\left(\\frac{n}{3n-1}\\right)^{2n-1}} \\text {收敛}; (2) \\text{由于} \\lim_{n \\to \\infty} \\sqrt[n]{u_{n}} = \\lim_{n \\to \\infty} \\frac{3}{\\left(\\frac{n+1}{n}\\right)^{n}} = \\frac{3}{e} &gt; 1, \\text {所以级数} \\\\ \\sum_{n=1}^{\\infty} \\left(\\frac{3^{n}}{\\left(\\frac{n+1}{n}\\right)^{n}}\\right) \\text {发散}. \\end{array}</div>"
     },
     {
       "id": "q0006",
       "number": 6,
       "header": "#6-Averge",
       "difficulty": "Averge",
-      "prompt_html": "<img src=\"/static/generated/assets/advanced-math/ch084/q0006_prompt.png\"/>",
+      "prompt_html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\sum _ { n = 1 } ^ { \\infty } \\frac { a ^ { n } } { n ^ { s } } ( a &gt; 0 , s &gt; 0 ) \\text {的敛散性，下列说法正确的是[~] .}\">\\sum _ { n = 1 } ^ { \\infty } \\frac { a ^ { n } } { n ^ { s } } ( a &gt; 0 , s &gt; 0 ) \\text {的敛散性，下列说法正确的是[~] .}</span>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch084/q0006_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{当} a {=} 1 \\text{时，级数发散}.\">\\text{当} a {=} 1 \\text{时，级数发散}.</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch084/q0006_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{当} \\, a {=} 1 \\text{时，级数收敛};\">\\text{当} \\, a {=} 1 \\text{时，级数收敛};</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch084/q0006_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{当} a &gt; 1 \\text{时，级数收敛};\">\\text{当} a &gt; 1 \\text{时，级数收敛};</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch084/q0006_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{当} a &lt; 1 \\text{时，级数收敛};\">\\text{当} a &lt; 1 \\text{时，级数收敛};</span>"
         }
       ],
       "answer": "D",
       "answer_index": 3,
-      "analysis_html": "<img src=\"/static/generated/assets/advanced-math/ch084/q0006_analysis.png\"/>"
+      "analysis_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{array}{l} \\text {解答令} u_{n}=\\frac{a^{n}}{n^{r}}, \\text {则} \\lim_{n \\rightarrow \\infty} \\frac{n}{r} \\overline{u_{n}}=\\lim_{n \\rightarrow \\infty} \\frac{a}{\\sqrt[n]{n^{r}}}=a, \\text {当} a&lt;1 \\text {时,级数收敛,当} a&gt;1 \\text {时,级数发散,当} a=1 \\text {时,原级数为} \\sum_{n=1}^{\\infty} \\frac{1}{n^{r}}, \\text {由} p \\text {-级数的结论知,当} s&gt;1 \\text {时级数收敛,} \\\\ \\text {当} s \\leq 1 \\text {时级数发散}. \\end{array}\">\\begin{array}{l} \\text {解答令} u_{n}=\\frac{a^{n}}{n^{r}}, \\text {则} \\lim_{n \\rightarrow \\infty} \\frac{n}{r} \\overline{u_{n}}=\\lim_{n \\rightarrow \\infty} \\frac{a}{\\sqrt[n]{n^{r}}}=a, \\text {当} a&lt;1 \\text {时,级数收敛,当} a&gt;1 \\text {时,级数发散,当} a=1 \\text {时,原级数为} \\sum_{n=1}^{\\infty} \\frac{1}{n^{r}}, \\text {由} p \\text {-级数的结论知,当} s&gt;1 \\text {时级数收敛,} \\\\ \\text {当} s \\leq 1 \\text {时级数发散}. \\end{array}</div>"
     },
     {
       "id": "q0007",
       "number": 7,
       "header": "#7-Averge",
       "difficulty": "Averge",
-      "prompt_html": "<img src=\"/static/generated/assets/advanced-math/ch084/q0007_prompt.png\"/>",
+      "prompt_html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{关于级数} \\sum_{n=1}^{\\infty} \\frac{a^{n}}{(n+\\frac{1}{n})^{n}}(a&gt;0) \\text{的敛散性，下列说法正确的是[ ].}\">\\text{关于级数} \\sum_{n=1}^{\\infty} \\frac{a^{n}}{(n+\\frac{1}{n})^{n}}(a&gt;0) \\text{的敛散性，下列说法正确的是[ ].}</span>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch084/q0007_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{当} a &gt; 1 \\text{时，级数发散}.\">\\text{当} a &gt; 1 \\text{时，级数发散}.</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch084/q0007_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{当} a &lt; 1 \\text{时，级数发散};\">\\text{当} a &lt; 1 \\text{时，级数发散};</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch084/q0007_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{级数发散};\">\\text{级数发散};</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch084/q0007_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{级数收敛};\">\\text{级数收敛};</span>"
         }
       ],
       "answer": "D",
       "answer_index": 3,
-      "analysis_html": "<img src=\"/static/generated/assets/advanced-math/ch084/q0007_analysis.png\"/>"
+      "analysis_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{array}{l} \\text {解答令} u_{n} = \\frac{a^{n}}{(n+\\frac{1}{n})^{n}}, \\text {则} \\lim_{n \\to \\infty} \\sqrt[n]{u_{n}} = \\lim_{n \\to \\infty} \\frac{a}{n+\\frac{1}{n}} = 0 &lt; 1, \\text {由根值审敛法知级数} \\\\ \\sum_{n=1}^{\\infty} \\frac{a^{n}}{(n+\\frac{1}{n})^{n}} (a &gt; 0) \\text {收敛}. \\end{array}\">\\begin{array}{l} \\text {解答令} u_{n} = \\frac{a^{n}}{(n+\\frac{1}{n})^{n}}, \\text {则} \\lim_{n \\to \\infty} \\sqrt[n]{u_{n}} = \\lim_{n \\to \\infty} \\frac{a}{n+\\frac{1}{n}} = 0 &lt; 1, \\text {由根值审敛法知级数} \\\\ \\sum_{n=1}^{\\infty} \\frac{a^{n}}{(n+\\frac{1}{n})^{n}} (a &gt; 0) \\text {收敛}. \\end{array}</div>"
     },
     {
       "id": "q0008",
       "number": 8,
       "header": "#8-Averge",
       "difficulty": "Averge",
-      "prompt_html": "<img src=\"/static/generated/assets/advanced-math/ch084/q0008_prompt.png\"/>",
+      "prompt_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{array}{l} \\text {关于下列2个级数的敛散性，说法正确的是[ ].} \\\\ (1) \\sum_{n=1}^{\\infty} 2^{n} \\sin \\frac{1}{3^{n}}; (2) \\sum_{n=1}^{\\infty} \\sin \\frac{1}{\\pi^{n}}. \\end{array}\">\\begin{array}{l} \\text {关于下列2个级数的敛散性，说法正确的是[ ].} \\\\ (1) \\sum_{n=1}^{\\infty} 2^{n} \\sin \\frac{1}{3^{n}}; (2) \\sum_{n=1}^{\\infty} \\sin \\frac{1}{\\pi^{n}}. \\end{array}</div>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch084/q0008_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"(1) \\text{发散}, \\, (2) \\text{发散};\">(1) \\text{发散}, \\, (2) \\text{发散};</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch084/q0008_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"(1) \\text{收敛},\\ (2) \\text{收敛};\">(1) \\text{收敛},\\ (2) \\text{收敛};</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch084/q0008_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"(1) \\text{发散}, \\, (2) \\text{收敛};\">(1) \\text{发散}, \\, (2) \\text{收敛};</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch084/q0008_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"(1) \\text{收敛},\\,(2) \\text{发散}.\">(1) \\text{收敛},\\,(2) \\text{发散}.</span>"
         }
       ],
       "answer": "B",
       "answer_index": 1,
-      "analysis_html": "<img src=\"/static/generated/assets/advanced-math/ch084/q0008_analysis.png\"/>"
+      "analysis_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{aligned}&amp;\\text{解答(1) 由于} \\lim_{n \\rightarrow \\infty} \\frac{2^{n} \\sin \\frac{1}{n}}{3^{n}} = \\lim_{n \\rightarrow \\infty} \\frac{\\sin \\frac{1}{3^{n}}}{\\frac{1}{3^{n}}} = 1, \\text{由比较审敛法知,级数} \\sum_{n=1}^{\\infty} 2^{n} \\sin \\frac{1}{3^{n}} \\\\&amp;\\text{与级数} \\sum_{n=1}^{\\infty} \\frac{2^{n}}{3^{n}} \\text{同时收敛同时发散,由根值审敛法知级数} \\sum_{n=1}^{\\infty} \\frac{2^{n}}{3^{n}} \\text{收敛,则级数} \\\\&amp;\\sum_{n=1}^{\\infty} 2^{n} \\sin \\frac{1}{3^{n}} \\text{收敛;}(2) \\text{由于} \\lim_{n \\rightarrow \\infty} \\frac{\\sin \\frac{1}{\\pi^{n}}}{\\frac{1}{\\pi^{n}}} = 1, \\text{级数} \\sum_{n=1}^{\\infty} \\sin \\frac{1}{\\pi^{n}} \\text{与级数} \\sum_{n=1}^{\\infty} \\frac{1}{\\pi^{n}} \\text{同时收敛同} \\\\&amp;\\text{时发散,由根值审敛法知级数} \\sum_{n=1}^{\\infty} \\frac{1}{\\pi^{n}} \\text{收敛,则级数} \\sum_{n=1}^{\\infty} \\sin \\frac{1}{\\pi^{n}} \\text{收敛.}\\end{aligned}\">\\begin{aligned}&amp;\\text{解答(1) 由于} \\lim_{n \\rightarrow \\infty} \\frac{2^{n} \\sin \\frac{1}{n}}{3^{n}} = \\lim_{n \\rightarrow \\infty} \\frac{\\sin \\frac{1}{3^{n}}}{\\frac{1}{3^{n}}} = 1, \\text{由比较审敛法知,级数} \\sum_{n=1}^{\\infty} 2^{n} \\sin \\frac{1}{3^{n}} \\\\&amp;\\text{与级数} \\sum_{n=1}^{\\infty} \\frac{2^{n}}{3^{n}} \\text{同时收敛同时发散,由根值审敛法知级数} \\sum_{n=1}^{\\infty} \\frac{2^{n}}{3^{n}} \\text{收敛,则级数} \\\\&amp;\\sum_{n=1}^{\\infty} 2^{n} \\sin \\frac{1}{3^{n}} \\text{收敛;}(2) \\text{由于} \\lim_{n \\rightarrow \\infty} \\frac{\\sin \\frac{1}{\\pi^{n}}}{\\frac{1}{\\pi^{n}}} = 1, \\text{级数} \\sum_{n=1}^{\\infty} \\sin \\frac{1}{\\pi^{n}} \\text{与级数} \\sum_{n=1}^{\\infty} \\frac{1}{\\pi^{n}} \\text{同时收敛同} \\\\&amp;\\text{时发散,由根值审敛法知级数} \\sum_{n=1}^{\\infty} \\frac{1}{\\pi^{n}} \\text{收敛,则级数} \\sum_{n=1}^{\\infty} \\sin \\frac{1}{\\pi^{n}} \\text{收敛.}\\end{aligned}</div>"
     },
     {
       "id": "q0009",
       "number": 9,
       "header": "#9-Averge",
       "difficulty": "Averge",
-      "prompt_html": "<img src=\"/static/generated/assets/advanced-math/ch084/q0009_prompt.png\"/>",
+      "prompt_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{array}{l} \\text {关于下列2个级数的敛散性，说法正确的是[ ].} \\\\ (1) \\sum_{n=2}^{\\infty} \\frac{\\ln n}{3^{n}+1}; \\quad (2) \\sum_{n=1}^{\\infty} \\left( \\frac{2n}{n+4} \\right)^{n+1}. \\end{array}\">\\begin{array}{l} \\text {关于下列2个级数的敛散性，说法正确的是[ ].} \\\\ (1) \\sum_{n=2}^{\\infty} \\frac{\\ln n}{3^{n}+1}; \\quad (2) \\sum_{n=1}^{\\infty} \\left( \\frac{2n}{n+4} \\right)^{n+1}. \\end{array}</div>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch084/q0009_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"(1) \\text{收敛},\\ (2) \\text{发散};\">(1) \\text{收敛},\\ (2) \\text{发散};</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch084/q0009_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"(1) \\text{收敛},\\,(2) \\text{收敛}.\">(1) \\text{收敛},\\,(2) \\text{收敛}.</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch084/q0009_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"(1) \\text{发散}, \\, (2) \\text{收敛};\">(1) \\text{发散}, \\, (2) \\text{收敛};</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch084/q0009_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"(1) \\text{发散}, \\, (2) \\text{发散};\">(1) \\text{发散}, \\, (2) \\text{发散};</span>"
         }
       ],
       "answer": "A",
       "answer_index": 0,
-      "analysis_html": "<img src=\"/static/generated/assets/advanced-math/ch084/q0009_analysis.png\"/>"
+      "analysis_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{array}{l} \\text {解答(1)令} u_{n}=\\frac{n}{3^{n}}, \\text {则} \\lim_{n \\rightarrow \\infty} \\sqrt[n]{u_{n}}=\\lim_{n \\rightarrow \\infty} \\frac{\\sqrt[n]{n}}{3}=\\frac{1}{3}&lt;1, \\text {由根值审敛法知级数} \\sum_{n=2}^{\\infty} \\frac{n}{3^{n}} \\text {收敛,由于} \\ln n &lt; n (n \\geq 2), \\text {则} \\frac{\\ln n}{3^{n}+1}&lt;\\frac{n}{3^{n}}, \\text {由比较审敛法知级数} \\sum_{n=2}^{\\infty} \\frac{\\ln n}{3^{n}+1} \\text {收敛;} \\\\ \\text {令} u_{n}=\\left(\\frac{2n}{n+4}\\right)^{n+1}, \\text {则} \\lim_{n \\rightarrow \\infty} \\sqrt[n]{u_{n}}=\\lim_{n \\rightarrow \\infty} \\left(\\frac{2n}{n+4}\\right)^{\\frac{n+1}{n}}=2&gt;1, \\text {由根值审敛法知级数} \\sum_{n=1}^{\\infty} \\left(\\frac{2n}{n+4}\\right)^{n+1} \\text {发散}. \\end{array}\">\\begin{array}{l} \\text {解答(1)令} u_{n}=\\frac{n}{3^{n}}, \\text {则} \\lim_{n \\rightarrow \\infty} \\sqrt[n]{u_{n}}=\\lim_{n \\rightarrow \\infty} \\frac{\\sqrt[n]{n}}{3}=\\frac{1}{3}&lt;1, \\text {由根值审敛法知级数} \\sum_{n=2}^{\\infty} \\frac{n}{3^{n}} \\text {收敛,由于} \\ln n &lt; n (n \\geq 2), \\text {则} \\frac{\\ln n}{3^{n}+1}&lt;\\frac{n}{3^{n}}, \\text {由比较审敛法知级数} \\sum_{n=2}^{\\infty} \\frac{\\ln n}{3^{n}+1} \\text {收敛;} \\\\ \\text {令} u_{n}=\\left(\\frac{2n}{n+4}\\right)^{n+1}, \\text {则} \\lim_{n \\rightarrow \\infty} \\sqrt[n]{u_{n}}=\\lim_{n \\rightarrow \\infty} \\left(\\frac{2n}{n+4}\\right)^{\\frac{n+1}{n}}=2&gt;1, \\text {由根值审敛法知级数} \\sum_{n=1}^{\\infty} \\left(\\frac{2n}{n+4}\\right)^{n+1} \\text {发散}. \\end{array}</div>"
     },
     {
       "id": "q0010",
       "number": 10,
       "header": "#10-Averge",
       "difficulty": "Averge",
-      "prompt_html": "<img src=\"/static/generated/assets/advanced-math/ch084/q0010_prompt.png\"/>",
+      "prompt_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{array}{l} \\text {关于下列2个级数的敛散性，说法正确的是[ ].} \\\\ (1) \\sum \\limits_{n = 1} ^ { \\infty} 2 ^ { n } ( 1 - \\cos \\frac { 1 } { 2 ^ { n } } ) ; \\quad (2) \\sum \\limits _ { n = 1 } ^ { \\infty } ( 1 - \\cos \\frac { 1 } { \\pi ^ { n } } ) . \\end{array}\">\\begin{array}{l} \\text {关于下列2个级数的敛散性，说法正确的是[ ].} \\\\ (1) \\sum \\limits_{n = 1} ^ { \\infty} 2 ^ { n } ( 1 - \\cos \\frac { 1 } { 2 ^ { n } } ) ; \\quad (2) \\sum \\limits _ { n = 1 } ^ { \\infty } ( 1 - \\cos \\frac { 1 } { \\pi ^ { n } } ) . \\end{array}</div>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch084/q0010_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"(1) \\text{收敛},\\,(2) \\text{发散}.\">(1) \\text{收敛},\\,(2) \\text{发散}.</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch084/q0010_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"(1) \\text{发散}, \\, (2) \\text{发散};\">(1) \\text{发散}, \\, (2) \\text{发散};</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch084/q0010_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"(1) \\text{收敛},\\ (2) \\text{收敛};\">(1) \\text{收敛},\\ (2) \\text{收敛};</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch084/q0010_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"(1) \\text{发散}, \\, (2) \\text{收敛};\">(1) \\text{发散}, \\, (2) \\text{收敛};</span>"
         }
       ],
       "answer": "C",
       "answer_index": 2,
-      "analysis_html": "<img src=\"/static/generated/assets/advanced-math/ch084/q0010_analysis.png\"/>"
+      "analysis_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{array}{l} \\text {解答 (1) 由于} \\lim_{n \\rightarrow \\infty} \\frac{2^{n}(1-\\cos \\frac{1}{2^{n}})}{\\frac{1}{2^{n}}} = \\lim_{n \\rightarrow \\infty} \\frac{(1-\\cos \\frac{1}{2^{n}})}{\\frac{1}{2^{2n}}} = \\frac{1}{2}, \\text {由比较审敛法知级数} \\\\ \\sum_{n=1}^{\\infty} 2^{n}(1-\\cos \\frac{1}{2^{n}}) \\text {与级数} \\sum_{n=1}^{\\infty} \\frac{1}{2^{n}} \\text {同时收敛同时发散,由根值审敛法知级数} \\sum_{n=1}^{\\infty} \\frac{1}{2^{n}} \\text {收敛,所以级数} \\sum_{n=1}^{\\infty} 2^{n}(1-\\cos \\frac{1}{2^{n}}) \\text {收敛}; (2) \\lim_{n \\rightarrow \\infty} \\frac{(1-\\cos \\frac{1}{\\pi^{n}})}{\\frac{1}{\\pi^{2n}}} = \\lim_{n \\rightarrow \\infty} \\frac{(1-\\cos \\frac{1}{\\pi^{n}})}{\\frac{1}{\\pi^{2n}}} = \\frac{1}{2}, \\text {由比较审敛法知级数} \\sum_{n=1}^{\\infty} (1-\\cos \\frac{1}{\\pi^{n}}) \\text {与级数} \\sum_{n=1}^{\\infty} \\frac{1}{\\pi^{2n}} \\text {同时收敛同时发散,由根值审敛法知级数} \\sum_{n=1}^{\\infty} \\frac{1}{\\pi^{2n}} \\text {收敛,所以级数} \\sum_{n=1}^{\\infty} (1-\\cos \\frac{1}{\\pi^{n}}) \\text {收敛}. \\end{array}\">\\begin{array}{l} \\text {解答 (1) 由于} \\lim_{n \\rightarrow \\infty} \\frac{2^{n}(1-\\cos \\frac{1}{2^{n}})}{\\frac{1}{2^{n}}} = \\lim_{n \\rightarrow \\infty} \\frac{(1-\\cos \\frac{1}{2^{n}})}{\\frac{1}{2^{2n}}} = \\frac{1}{2}, \\text {由比较审敛法知级数} \\\\ \\sum_{n=1}^{\\infty} 2^{n}(1-\\cos \\frac{1}{2^{n}}) \\text {与级数} \\sum_{n=1}^{\\infty} \\frac{1}{2^{n}} \\text {同时收敛同时发散,由根值审敛法知级数} \\sum_{n=1}^{\\infty} \\frac{1}{2^{n}} \\text {收敛,所以级数} \\sum_{n=1}^{\\infty} 2^{n}(1-\\cos \\frac{1}{2^{n}}) \\text {收敛}; (2) \\lim_{n \\rightarrow \\infty} \\frac{(1-\\cos \\frac{1}{\\pi^{n}})}{\\frac{1}{\\pi^{2n}}} = \\lim_{n \\rightarrow \\infty} \\frac{(1-\\cos \\frac{1}{\\pi^{n}})}{\\frac{1}{\\pi^{2n}}} = \\frac{1}{2}, \\text {由比较审敛法知级数} \\sum_{n=1}^{\\infty} (1-\\cos \\frac{1}{\\pi^{n}}) \\text {与级数} \\sum_{n=1}^{\\infty} \\frac{1}{\\pi^{2n}} \\text {同时收敛同时发散,由根值审敛法知级数} \\sum_{n=1}^{\\infty} \\frac{1}{\\pi^{2n}} \\text {收敛,所以级数} \\sum_{n=1}^{\\infty} (1-\\cos \\frac{1}{\\pi^{n}}) \\text {收敛}. \\end{array}</div>"
     },
     {
       "id": "q0011",
       "number": 11,
       "header": "#11-Averge",
       "difficulty": "Averge",
-      "prompt_html": "<img src=\"/static/generated/assets/advanced-math/ch084/q0011_prompt.png\"/>",
+      "prompt_html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\sum_{n=1}^{\\infty} a^{n} \\sin \\frac{\\pi}{3^{n}} \\text{（其中} a \\text{为正数）的收敛性，下列说法正确的是[ ].}\">\\sum_{n=1}^{\\infty} a^{n} \\sin \\frac{\\pi}{3^{n}} \\text{（其中} a \\text{为正数）的收敛性，下列说法正确的是[ ].}</span>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch084/q0011_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{当} a &lt; 3 \\text{时，级数收敛};\">\\text{当} a &lt; 3 \\text{时，级数收敛};</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch084/q0011_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{级数收敛};\">\\text{级数收敛};</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch084/q0011_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{当} a &lt; 3 \\text{时，级数发散}.\">\\text{当} a &lt; 3 \\text{时，级数发散}.</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch084/q0011_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{级数发散};\">\\text{级数发散};</span>"
         }
       ],
       "answer": "A",
       "answer_index": 0,
-      "analysis_html": "<img src=\"/static/generated/assets/advanced-math/ch084/q0011_analysis.png\"/>"
+      "analysis_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{array}{l} \\text {解答由于} \\lim_{n \\to \\infty} \\frac{a^{n} \\sin \\frac{\\pi}{3^{n}}}{\\frac{\\pi a^{n}}{3^{n}}} = \\lim_{n \\to \\infty} \\frac{\\sin \\frac{\\pi}{3^{n}}}{\\frac{\\pi}{3^{n}}} = 1, \\text {由比较审敛法知，级数} \\sum_{n=1}^{\\infty} a^{n} \\sin \\frac{\\pi}{3^{n}} \\text {与级数} \\sum_{n=1}^{\\infty} \\frac{\\pi a^{n}}{3^{n}} \\text {同时收敛同时发散，所以只需考虑级数} \\sum_{n=1}^{\\infty} \\frac{\\pi a^{n}}{3^{n}} \\text {的收敛性.令} \\\\ u_{n} = \\frac{\\pi a^{n}}{3^{n}}, \\lim_{n \\to \\infty} \\sqrt[n]{u_{n}} = \\lim_{n \\to \\infty} \\frac{a}{3} \\sqrt[n]{\\pi} = \\frac{a}{3}, \\text {需讨论参数} a \\text {的不同情况}, \\\\ \\text {当} a &lt; 3 \\text {时，即} \\frac{a}{3} &lt; 1 \\text {时，级数收敛}; \\\\ \\text {当} a &gt; 3, \\text {即} \\frac{a}{3} &gt; 1 \\text {时，级数发散}; \\\\ \\text {当} a = 3, \\text {即} \\frac{a}{3} = 1 \\text {时，用此法不能审敛，此时级数为} \\sum_{n=1}^{\\infty} \\pi, \\text {级数发散}. \\end{array}\">\\begin{array}{l} \\text {解答由于} \\lim_{n \\to \\infty} \\frac{a^{n} \\sin \\frac{\\pi}{3^{n}}}{\\frac{\\pi a^{n}}{3^{n}}} = \\lim_{n \\to \\infty} \\frac{\\sin \\frac{\\pi}{3^{n}}}{\\frac{\\pi}{3^{n}}} = 1, \\text {由比较审敛法知，级数} \\sum_{n=1}^{\\infty} a^{n} \\sin \\frac{\\pi}{3^{n}} \\text {与级数} \\sum_{n=1}^{\\infty} \\frac{\\pi a^{n}}{3^{n}} \\text {同时收敛同时发散，所以只需考虑级数} \\sum_{n=1}^{\\infty} \\frac{\\pi a^{n}}{3^{n}} \\text {的收敛性.令} \\\\ u_{n} = \\frac{\\pi a^{n}}{3^{n}}, \\lim_{n \\to \\infty} \\sqrt[n]{u_{n}} = \\lim_{n \\to \\infty} \\frac{a}{3} \\sqrt[n]{\\pi} = \\frac{a}{3}, \\text {需讨论参数} a \\text {的不同情况}, \\\\ \\text {当} a &lt; 3 \\text {时，即} \\frac{a}{3} &lt; 1 \\text {时，级数收敛}; \\\\ \\text {当} a &gt; 3, \\text {即} \\frac{a}{3} &gt; 1 \\text {时，级数发散}; \\\\ \\text {当} a = 3, \\text {即} \\frac{a}{3} = 1 \\text {时，用此法不能审敛，此时级数为} \\sum_{n=1}^{\\infty} \\pi, \\text {级数发散}. \\end{array}</div>"
     },
     {
       "id": "q0012",
       "number": 12,
       "header": "#12-Averge",
       "difficulty": "Averge",
-      "prompt_html": "<img src=\"/static/generated/assets/advanced-math/ch084/q0012_prompt.png\"/>",
+      "prompt_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{array}{l} \\text{关于下列2个级数的敛散性，说法正确的是[ ].} \\\\ (1) \\sum_{n=1}^{\\infty} \\frac{n}{(n+1)3^{n}}; \\quad (2) \\sum_{n=1}^{\\infty} (\\ln(1+\\frac{1}{n}))^{n}. \\end{array}\">\\begin{array}{l} \\text{关于下列2个级数的敛散性，说法正确的是[ ].} \\\\ (1) \\sum_{n=1}^{\\infty} \\frac{n}{(n+1)3^{n}}; \\quad (2) \\sum_{n=1}^{\\infty} (\\ln(1+\\frac{1}{n}))^{n}. \\end{array}</div>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch084/q0012_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"(1) \\text{发散}, (2) \\text{收敛};\">(1) \\text{发散}, (2) \\text{收敛};</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch084/q0012_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"(1) \\text{收敛},\\,(2) \\text{发散}.\">(1) \\text{收敛},\\,(2) \\text{发散}.</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch084/q0012_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"(1) \\text{收敛},\\ (2) \\text{收敛};\">(1) \\text{收敛},\\ (2) \\text{收敛};</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch084/q0012_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"(1) \\text{发散}, \\ (2) \\text{发散};\">(1) \\text{发散}, \\ (2) \\text{发散};</span>"
         }
       ],
       "answer": "C",
       "answer_index": 2,
-      "analysis_html": "<img src=\"/static/generated/assets/advanced-math/ch084/q0012_analysis.png\"/>"
+      "analysis_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{array}{l} \\text {解答令} u_{n} = \\frac{1}{3^{n}}, \\text {则} \\lim_{n \\to \\infty} \\sqrt[n]{u_{n}} = \\frac{1}{3} &lt; 1, \\text {由根值审敛法知级数} \\sum_{n=1}^{\\infty} \\frac{1}{3^{n}} \\text {收敛, 由于} \\\\ \\frac{n}{(n+1)3^{n}} &lt; \\frac{1}{3^{n}}, \\text {由比较审敛法知级数} \\sum_{n=1}^{\\infty} \\frac{n}{(n+1)3^{n}} \\text {收敛}; (2) \\text{令} u_{n} = (\\ln(1 + \\frac{1}{n}))^{n}, \\\\ \\text {则} \\lim_{n \\to \\infty} \\sqrt[n]{u_{n}} = \\lim_{n \\to \\infty} \\ln(1 + \\frac{1}{n}) = 0 &lt; 1, \\text {由根值审敛法知级数} \\sum_{n=1}^{\\infty} (\\ln(1 + \\frac{1}{n}))^{n} \\text {收敛. 因此} \\end{array}\">\\begin{array}{l} \\text {解答令} u_{n} = \\frac{1}{3^{n}}, \\text {则} \\lim_{n \\to \\infty} \\sqrt[n]{u_{n}} = \\frac{1}{3} &lt; 1, \\text {由根值审敛法知级数} \\sum_{n=1}^{\\infty} \\frac{1}{3^{n}} \\text {收敛, 由于} \\\\ \\frac{n}{(n+1)3^{n}} &lt; \\frac{1}{3^{n}}, \\text {由比较审敛法知级数} \\sum_{n=1}^{\\infty} \\frac{n}{(n+1)3^{n}} \\text {收敛}; (2) \\text{令} u_{n} = (\\ln(1 + \\frac{1}{n}))^{n}, \\\\ \\text {则} \\lim_{n \\to \\infty} \\sqrt[n]{u_{n}} = \\lim_{n \\to \\infty} \\ln(1 + \\frac{1}{n}) = 0 &lt; 1, \\text {由根值审敛法知级数} \\sum_{n=1}^{\\infty} (\\ln(1 + \\frac{1}{n}))^{n} \\text {收敛. 因此} \\end{array}</div>"
     },
     {
       "id": "q0013",
       "number": 13,
       "header": "#13-Averge",
       "difficulty": "Averge",
-      "prompt_html": "<img src=\"/static/generated/assets/advanced-math/ch084/q0013_prompt.png\"/>",
+      "prompt_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{array}{l} \\text {关于下列2个级数的敛散性，说法正确的是[ ].} \\\\ (1) \\sum_{n = 1} ^ {\\infty} 2 ^ {n} \\tan \\frac {\\pi}{3 ^ {n}}; (2) \\sum_ {n = 1} ^ {\\infty} 4 ^ {n} \\tan \\frac {\\pi}{3 ^ {n}}. \\end{array}\">\\begin{array}{l} \\text {关于下列2个级数的敛散性，说法正确的是[ ].} \\\\ (1) \\sum_{n = 1} ^ {\\infty} 2 ^ {n} \\tan \\frac {\\pi}{3 ^ {n}}; (2) \\sum_ {n = 1} ^ {\\infty} 4 ^ {n} \\tan \\frac {\\pi}{3 ^ {n}}. \\end{array}</div>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch084/q0013_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"(1) \\text{收敛},\\,(2) \\text{收敛}.\">(1) \\text{收敛},\\,(2) \\text{收敛}.</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch084/q0013_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"(1) \\text{发散}, \\, (2) \\text{收敛};\">(1) \\text{发散}, \\, (2) \\text{收敛};</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch084/q0013_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"(1) \\text{发散}, \\, (2) \\text{发散};\">(1) \\text{发散}, \\, (2) \\text{发散};</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch084/q0013_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"(1) \\text{收敛},\\ (2) \\text{发散};\">(1) \\text{收敛},\\ (2) \\text{发散};</span>"
         }
       ],
       "answer": "D",
       "answer_index": 3,
-      "analysis_html": "<img src=\"/static/generated/assets/advanced-math/ch084/q0013_analysis.png\"/>"
+      "analysis_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{aligned}\\text{解答(1)}&amp;\\text{由于}\\lim_{n\\rightarrow \\infty}\\frac{2^{n}\\tan\\frac{\\pi}{3^{n}}}{\\frac{\\pi 2^{n}}{3^{n}}}=\\lim_{n\\rightarrow \\infty}\\frac{\\tan\\frac{\\pi}{3^{n}}}{\\frac{\\pi}{3^{n}}}=1,\\text{由比较审敛法知，级数}\\sum_{n=1}^{\\infty}2^{n}\\tan\\frac{\\pi}{3^{n}}\\\\&amp;\\text{与级数}\\sum_{n=1}^{\\infty}\\frac{\\pi 2^{n}}{3^{n}}\\text{同时收敛同时发散}，\\text{由根值审敛法知级数}\\sum_{n=1}^{\\infty}\\frac{\\pi 2^{n}}{3^{n}}\\text{收敛}，\\text{从而级数}\\\\&amp;\\sum_{n=1}^{\\infty}2^{n}\\tan\\frac{\\pi}{3^{n}}\\text{收敛};2)&amp;\\text{由于}\\lim_{n\\rightarrow \\infty}\\frac{4^{n}\\tan\\frac{\\pi}{3^{n}}}{\\frac{\\pi 4^{n}}{3^{n}}}=\\lim_{n\\rightarrow \\infty}\\frac{\\tan\\frac{\\pi}{3^{n}}}{\\frac{\\pi}{3^{n}}}=1,\\text{由比较审敛法知，级数}\\\\&amp;\\sum_{n=1}^{\\infty}4^{n}\\tan\\frac{\\pi}{3^{n}}\\text{与级数}\\sum_{n=1}^{\\infty}\\frac{\\pi 4^{n}}{3^{n}}\\text{同时收敛同时发散}，\\text{由根值审敛法知级数}\\sum_{n=1}^{\\infty}\\frac{\\pi 4^{n}}{3^{n}}\\text{发散}，\\\\&amp;\\text{从而级数}\\sum_{n=1}^{\\infty}4^{n}\\tan\\frac{\\pi}{3^{n}}\\text{发散}..\\end{aligned}\">\\begin{aligned}\\text{解答(1)}&amp;\\text{由于}\\lim_{n\\rightarrow \\infty}\\frac{2^{n}\\tan\\frac{\\pi}{3^{n}}}{\\frac{\\pi 2^{n}}{3^{n}}}=\\lim_{n\\rightarrow \\infty}\\frac{\\tan\\frac{\\pi}{3^{n}}}{\\frac{\\pi}{3^{n}}}=1,\\text{由比较审敛法知，级数}\\sum_{n=1}^{\\infty}2^{n}\\tan\\frac{\\pi}{3^{n}}\\\\&amp;\\text{与级数}\\sum_{n=1}^{\\infty}\\frac{\\pi 2^{n}}{3^{n}}\\text{同时收敛同时发散}，\\text{由根值审敛法知级数}\\sum_{n=1}^{\\infty}\\frac{\\pi 2^{n}}{3^{n}}\\text{收敛}，\\text{从而级数}\\\\&amp;\\sum_{n=1}^{\\infty}2^{n}\\tan\\frac{\\pi}{3^{n}}\\text{收敛};2)&amp;\\text{由于}\\lim_{n\\rightarrow \\infty}\\frac{4^{n}\\tan\\frac{\\pi}{3^{n}}}{\\frac{\\pi 4^{n}}{3^{n}}}=\\lim_{n\\rightarrow \\infty}\\frac{\\tan\\frac{\\pi}{3^{n}}}{\\frac{\\pi}{3^{n}}}=1,\\text{由比较审敛法知，级数}\\\\&amp;\\sum_{n=1}^{\\infty}4^{n}\\tan\\frac{\\pi}{3^{n}}\\text{与级数}\\sum_{n=1}^{\\infty}\\frac{\\pi 4^{n}}{3^{n}}\\text{同时收敛同时发散}，\\text{由根值审敛法知级数}\\sum_{n=1}^{\\infty}\\frac{\\pi 4^{n}}{3^{n}}\\text{发散}，\\\\&amp;\\text{从而级数}\\sum_{n=1}^{\\infty}4^{n}\\tan\\frac{\\pi}{3^{n}}\\text{发散}..\\end{aligned}</div>"
     },
     {
       "id": "q0014",
       "number": 14,
       "header": "#14-Averge",
       "difficulty": "Averge",
-      "prompt_html": "<img src=\"/static/generated/assets/advanced-math/ch084/q0014_prompt.png\"/>",
+      "prompt_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{array}{l} \\text{关于下列2个级数的敛散性，说法正确的是[ ].} \\\\ (1) \\sum_{n=1}^{\\infty} \\left( \\frac{n+1}{n} \\right)^{n^{2}}; \\quad (2) \\sum_{n=1}^{\\infty} \\frac{1}{(\\ln n)^{n}}. \\end{array}\">\\begin{array}{l} \\text{关于下列2个级数的敛散性，说法正确的是[ ].} \\\\ (1) \\sum_{n=1}^{\\infty} \\left( \\frac{n+1}{n} \\right)^{n^{2}}; \\quad (2) \\sum_{n=1}^{\\infty} \\frac{1}{(\\ln n)^{n}}. \\end{array}</div>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch084/q0014_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"(1) \\text{收敛},\\ (2) \\text{收敛};\">(1) \\text{收敛},\\ (2) \\text{收敛};</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch084/q0014_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"(1) \\text{收敛},\\,(2) \\text{发散}.\">(1) \\text{收敛},\\,(2) \\text{发散}.</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch084/q0014_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"(1) \\text{发散}, (2) \\text{发散};\">(1) \\text{发散}, (2) \\text{发散};</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch084/q0014_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"(1) \\text{发散}, \\, (2) \\text{收敛};\">(1) \\text{发散}, \\, (2) \\text{收敛};</span>"
         }
       ],
       "answer": "D",
       "answer_index": 3,
-      "analysis_html": "<img src=\"/static/generated/assets/advanced-math/ch084/q0014_analysis.png\"/>"
+      "analysis_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{array}{l} \\text {解答(1) 令} u_{n}=\\left(\\frac{n+1}{n}\\right)^{n^{2}}, \\text {则} \\lim_{n \\to \\infty} \\sqrt[n]{u_{n}}=\\lim_{n \\to \\infty} \\left(\\frac{n+1}{n}\\right)^{n}=e&gt;1, \\text {由根值审敛法知级数} \\\\ \\sum_{n=1}^{\\infty} \\left(\\frac{n+1}{n}\\right)^{n^{2}} \\text {发散}; (2) u_{n}=\\frac{1}{(\\ln n)^{n}}, \\lim_{n \\to \\infty} \\sqrt[n]{u_{n}}=\\lim_{n \\to \\infty} \\frac{1}{\\ln n}=0&lt;1, \\text {由根值审敛法知级数} \\\\ \\sum_{n=1}^{\\infty} \\frac{1}{(\\ln n)^{n}} \\text {收敛}. \\end{array}\">\\begin{array}{l} \\text {解答(1) 令} u_{n}=\\left(\\frac{n+1}{n}\\right)^{n^{2}}, \\text {则} \\lim_{n \\to \\infty} \\sqrt[n]{u_{n}}=\\lim_{n \\to \\infty} \\left(\\frac{n+1}{n}\\right)^{n}=e&gt;1, \\text {由根值审敛法知级数} \\\\ \\sum_{n=1}^{\\infty} \\left(\\frac{n+1}{n}\\right)^{n^{2}} \\text {发散}; (2) u_{n}=\\frac{1}{(\\ln n)^{n}}, \\lim_{n \\to \\infty} \\sqrt[n]{u_{n}}=\\lim_{n \\to \\infty} \\frac{1}{\\ln n}=0&lt;1, \\text {由根值审敛法知级数} \\\\ \\sum_{n=1}^{\\infty} \\frac{1}{(\\ln n)^{n}} \\text {收敛}. \\end{array}</div>"
     },
     {
       "id": "q0015",
       "number": 15,
       "header": "#15-Averge",
       "difficulty": "Averge",
-      "prompt_html": "<img src=\"/static/generated/assets/advanced-math/ch084/q0015_prompt.png\"/>",
+      "prompt_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{array}{l} \\text{关于下列2个级数的敛散性，说法正确的是[ ].} \\\\ (1)\\sum_{n=1}^{\\infty}\\frac{3}{2^{n}+4}; \\quad (2)\\sum_{n=1}^{\\infty}\\frac{3^{n}}{(2n+1)4^{n}}. \\end{array}\">\\begin{array}{l} \\text{关于下列2个级数的敛散性，说法正确的是[ ].} \\\\ (1)\\sum_{n=1}^{\\infty}\\frac{3}{2^{n}+4}; \\quad (2)\\sum_{n=1}^{\\infty}\\frac{3^{n}}{(2n+1)4^{n}}. \\end{array}</div>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch084/q0015_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"(1) \\text{发散},\\ (2) \\text{收敛};\">(1) \\text{发散},\\ (2) \\text{收敛};</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch084/q0015_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"(1) \\text{收敛}, \\, (2) \\text{发散}.\">(1) \\text{收敛}, \\, (2) \\text{发散}.</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch084/q0015_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"(1) \\text{发散}, \\, (2) \\text{发散};\">(1) \\text{发散}, \\, (2) \\text{发散};</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch084/q0015_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"(1) \\text{收敛}, \\ (2) \\text{收敛};\">(1) \\text{收敛}, \\ (2) \\text{收敛};</span>"
         }
       ],
       "answer": "D",
       "answer_index": 3,
-      "analysis_html": "<img src=\"/static/generated/assets/advanced-math/ch084/q0015_analysis.png\"/>"
+      "analysis_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{array}{l} \\text {解答(1)令} u_{n} = \\frac{3}{2^{n}}, \\text {则} \\lim_{n \\to \\infty} \\sqrt[n]{u_{n}} = \\lim_{n \\to \\infty} \\frac{n\\sqrt{3}}{2} = \\frac{1}{2} &lt; 1, \\text {由根值审敛法知级数} \\sum_{n=1}^{\\infty} \\frac{3}{2^{n}} \\\\ \\text {收敛,又由于} \\frac{3}{2^{n}+4} &lt; \\frac{3}{2^{n}}, \\text {由比较审敛法知级数} \\sum_{n=1}^{\\infty} \\frac{3}{2^{n}+4} \\text {收敛};(2)\\text{令} u_{n} = \\frac{3^{n}}{4^{n}}, \\\\ \\text {则} \\lim_{n \\to \\infty} \\sqrt[n]{u_{n}} = \\frac{3}{4} &lt; 1, \\text {由根值审敛法知级数} \\sum_{n=1}^{\\infty} \\frac{3^{n}}{4^{n}} \\text {收敛,由于} \\frac{3^{n}}{(2n+1)4^{n}} &lt; \\frac{3^{n}}{4^{n}}, \\text {由比较审敛法知级数} \\sum_{n=1}^{\\infty} \\frac{3^{n}}{(2n+1)4^{n}} \\text {收敛}. \\end{array}\">\\begin{array}{l} \\text {解答(1)令} u_{n} = \\frac{3}{2^{n}}, \\text {则} \\lim_{n \\to \\infty} \\sqrt[n]{u_{n}} = \\lim_{n \\to \\infty} \\frac{n\\sqrt{3}}{2} = \\frac{1}{2} &lt; 1, \\text {由根值审敛法知级数} \\sum_{n=1}^{\\infty} \\frac{3}{2^{n}} \\\\ \\text {收敛,又由于} \\frac{3}{2^{n}+4} &lt; \\frac{3}{2^{n}}, \\text {由比较审敛法知级数} \\sum_{n=1}^{\\infty} \\frac{3}{2^{n}+4} \\text {收敛};(2)\\text{令} u_{n} = \\frac{3^{n}}{4^{n}}, \\\\ \\text {则} \\lim_{n \\to \\infty} \\sqrt[n]{u_{n}} = \\frac{3}{4} &lt; 1, \\text {由根值审敛法知级数} \\sum_{n=1}^{\\infty} \\frac{3^{n}}{4^{n}} \\text {收敛,由于} \\frac{3^{n}}{(2n+1)4^{n}} &lt; \\frac{3^{n}}{4^{n}}, \\text {由比较审敛法知级数} \\sum_{n=1}^{\\infty} \\frac{3^{n}}{(2n+1)4^{n}} \\text {收敛}. \\end{array}</div>"
     },
     {
       "id": "q0016",
       "number": 16,
       "header": "#16-Averge",
       "difficulty": "Averge",
-      "prompt_html": "<img src=\"/static/generated/assets/advanced-math/ch084/q0016_prompt.png\"/>",
+      "prompt_html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{关于级数} \\sum_{n=1}^{\\infty} \\frac{\\ln(n+2)}{(a+\\frac{1}{n})^{n}}(a&gt;0) \\text{的敛散性，下列说法正确的是[ ].}\">\\text{关于级数} \\sum_{n=1}^{\\infty} \\frac{\\ln(n+2)}{(a+\\frac{1}{n})^{n}}(a&gt;0) \\text{的敛散性，下列说法正确的是[ ].}</span>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch084/q0016_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{当} a &gt; 1 \\text{时，级数收敛};\">\\text{当} a &gt; 1 \\text{时，级数收敛};</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch084/q0016_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{级数收敛}.\">\\text{级数收敛}.</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch084/q0016_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{当} a {=} 1 \\text{时，级数收敛};\">\\text{当} a {=} 1 \\text{时，级数收敛};</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch084/q0016_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{当} a &lt; 1 \\text{时，级数收敛};\">\\text{当} a &lt; 1 \\text{时，级数收敛};</span>"
         }
       ],
       "answer": "A",
       "answer_index": 0,
-      "analysis_html": "<img src=\"/static/generated/assets/advanced-math/ch084/q0016_analysis.png\"/>"
+      "analysis_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{array}{l} \\text {解答令} u_{n} = \\frac{\\ln(n+2)}{(a+\\frac{1}{n})^{n}}, \\text {则} \\lim_{n \\to \\infty} \\sqrt[n]{u_{n}} = \\lim_{n \\to \\infty} \\frac{\\sqrt[n]{\\ln(n+2)}}{a+\\frac{1}{n}} = \\frac{1}{a} \\lim_{n \\to \\infty} \\sqrt[n]{\\ln(n+2)}, \\text {由于} n \\geq 2 \\text {时}, \\\\ n+2 &lt; e^{n}, \\text {从而有} 1 &lt; \\sqrt[n]{\\ln(n+2)} &lt; \\sqrt[n]{n}, \\text {则} \\lim_{n \\to \\infty} \\sqrt[n]{\\ln(n+2)} = 1, \\text {从而} \\lim_{n \\to \\infty} \\sqrt[n]{u_{n}} = \\frac{1}{a}, \\text {所以当} a &gt; 1 \\text {时，级数收敛，当} a &lt; 1 \\text {时，级数发散，当} a = 1 \\text {时，} \\lim_{n \\to \\infty} \\frac{\\ln(n+2)}{(a+\\frac{1}{n})^{n}} = +\\infty, \\text {故级数发散}. \\end{array}\">\\begin{array}{l} \\text {解答令} u_{n} = \\frac{\\ln(n+2)}{(a+\\frac{1}{n})^{n}}, \\text {则} \\lim_{n \\to \\infty} \\sqrt[n]{u_{n}} = \\lim_{n \\to \\infty} \\frac{\\sqrt[n]{\\ln(n+2)}}{a+\\frac{1}{n}} = \\frac{1}{a} \\lim_{n \\to \\infty} \\sqrt[n]{\\ln(n+2)}, \\text {由于} n \\geq 2 \\text {时}, \\\\ n+2 &lt; e^{n}, \\text {从而有} 1 &lt; \\sqrt[n]{\\ln(n+2)} &lt; \\sqrt[n]{n}, \\text {则} \\lim_{n \\to \\infty} \\sqrt[n]{\\ln(n+2)} = 1, \\text {从而} \\lim_{n \\to \\infty} \\sqrt[n]{u_{n}} = \\frac{1}{a}, \\text {所以当} a &gt; 1 \\text {时，级数收敛，当} a &lt; 1 \\text {时，级数发散，当} a = 1 \\text {时，} \\lim_{n \\to \\infty} \\frac{\\ln(n+2)}{(a+\\frac{1}{n})^{n}} = +\\infty, \\text {故级数发散}. \\end{array}</div>"
     },
     {
       "id": "q0017",
       "number": 17,
       "header": "#17-Averge",
       "difficulty": "Averge",
-      "prompt_html": "<img src=\"/static/generated/assets/advanced-math/ch084/q0017_prompt.png\"/>",
+      "prompt_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{array}{l} \\text{关于下列2个级数的敛散性说法正确的是[ ].} \\\\ (1) \\sum_{n = 1}^{\\infty} 2^{-n - (-1)^{n}}, \\quad (2) \\sum_{n = 1}^{\\infty} \\frac{2 + (-1)^{n}}{2^{n}}. \\end{array}\">\\begin{array}{l} \\text{关于下列2个级数的敛散性说法正确的是[ ].} \\\\ (1) \\sum_{n = 1}^{\\infty} 2^{-n - (-1)^{n}}, \\quad (2) \\sum_{n = 1}^{\\infty} \\frac{2 + (-1)^{n}}{2^{n}}. \\end{array}</div>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch084/q0017_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"(1) \\text{收敛}, \\, (2) \\text{发散}.\">(1) \\text{收敛}, \\, (2) \\text{发散}.</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch084/q0017_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"(1) \\text{收敛},\\ (2) \\text{收敛};\">(1) \\text{收敛},\\ (2) \\text{收敛};</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch084/q0017_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"(1) \\text{发散}, \\, (2) \\text{发散};\">(1) \\text{发散}, \\, (2) \\text{发散};</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch084/q0017_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"(1) \\text{发散},\\,(2) \\text{收敛};\">(1) \\text{发散},\\,(2) \\text{收敛};</span>"
         }
       ],
       "answer": "B",
       "answer_index": 1,
-      "analysis_html": "<img src=\"/static/generated/assets/advanced-math/ch084/q0017_analysis.png\"/>"
+      "analysis_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{array}{l} \\text{解答 (1) 因为} \\lim_{n \\to \\infty} \\sqrt[n]{u_n} = \\lim_{n \\to \\infty} \\sqrt[n]{2^{-n(-1)^y}} = \\lim_{n \\to \\infty} 2^{-\\frac{1-(1)^y}{n}} = \\frac{1}{2} &lt; 1, \\text{由根值判别法知级数} \\sum_{n=1}^{\\infty} 2^{-n(-1)^y} \\text{收敛}. \\\\ (2) \\text{因为} \\frac{1}{2^n} \\leq \\frac{2+(-1)^n}{2^n} \\leq \\frac{3}{2^n}, \\quad \\lim_{n \\to \\infty} \\sqrt[n]{\\frac{1}{2^n}} = \\frac{1}{2}, \\quad \\lim_{n \\to \\infty} \\sqrt[n]{\\frac{3}{2^n}} = \\frac{1}{2}, \\text{则} \\\\ \\lim_{n \\to \\infty} \\sqrt[n]{\\frac{2+(-1)^n}{2^n}} = \\frac{1}{2} &lt; 1, \\text{由根值判别法知级数} \\sum_{n=1}^{\\infty} \\frac{2+(-1)^n}{2^n} \\text{收敛}. \\end{array}\">\\begin{array}{l} \\text{解答 (1) 因为} \\lim_{n \\to \\infty} \\sqrt[n]{u_n} = \\lim_{n \\to \\infty} \\sqrt[n]{2^{-n(-1)^y}} = \\lim_{n \\to \\infty} 2^{-\\frac{1-(1)^y}{n}} = \\frac{1}{2} &lt; 1, \\text{由根值判别法知级数} \\sum_{n=1}^{\\infty} 2^{-n(-1)^y} \\text{收敛}. \\\\ (2) \\text{因为} \\frac{1}{2^n} \\leq \\frac{2+(-1)^n}{2^n} \\leq \\frac{3}{2^n}, \\quad \\lim_{n \\to \\infty} \\sqrt[n]{\\frac{1}{2^n}} = \\frac{1}{2}, \\quad \\lim_{n \\to \\infty} \\sqrt[n]{\\frac{3}{2^n}} = \\frac{1}{2}, \\text{则} \\\\ \\lim_{n \\to \\infty} \\sqrt[n]{\\frac{2+(-1)^n}{2^n}} = \\frac{1}{2} &lt; 1, \\text{由根值判别法知级数} \\sum_{n=1}^{\\infty} \\frac{2+(-1)^n}{2^n} \\text{收敛}. \\end{array}</div>"
     },
     {
       "id": "q0018",
       "number": 18,
       "header": "#18-Averge",
       "difficulty": "Averge",
-      "prompt_html": "<img src=\"/static/generated/assets/advanced-math/ch084/q0018_prompt.png\"/>",
+      "prompt_html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{对于级数} \\sum_{n=1}^{\\infty} \\left( \\frac{b}{a_{n}} \\right)^{n} \\text{（其中} a_{n} \\rightarrow a(n \\rightarrow \\infty), \\text{且} a_{n}、b、a \\text{均为正数）的收敛性，下列说法正确的是[ ].}\">\\text{对于级数} \\sum_{n=1}^{\\infty} \\left( \\frac{b}{a_{n}} \\right)^{n} \\text{（其中} a_{n} \\rightarrow a(n \\rightarrow \\infty), \\text{且} a_{n}、b、a \\text{均为正数）的收敛性，下列说法正确的是[ ].}</span>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch084/q0018_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{当} b &lt; a \\text{，级数发散.}\">\\text{当} b &lt; a \\text{，级数发散.}</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch084/q0018_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{收敛};\">\\text{收敛};</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch084/q0018_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"(A) \\text{当} b &gt; a , \\text{级数发散};\">(A) \\text{当} b &gt; a , \\text{级数发散};</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch084/q0018_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{发散};\">\\text{发散};</span>"
         }
       ],
       "answer": "C",
       "answer_index": 2,
-      "analysis_html": "<img src=\"/static/generated/assets/advanced-math/ch084/q0018_analysis.png\"/>"
+      "analysis_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{array}{l} \\text {解答需讨论参数} a、b \\text{的不同情况}， \\\\ \\text {由于} \\lim_{n \\to \\infty} \\sqrt[n]{u_{n}} = \\lim_{n \\to \\infty} \\sqrt[n]{\\left(\\frac{b}{a_{n}}\\right)^{n}} = \\lim_{n \\to \\infty} \\frac{b}{a_{n}} = \\frac{b}{a}, \\\\ \\text {当} b &lt; a \\text {时，即} \\frac{b}{a} &lt; 1 \\text {时，级数收敛}; \\\\ \\text {当} b &gt; a \\text {，即} \\frac{b}{a} &gt; 1 \\text {时，级数发散}; \\\\ \\text {当} b = a \\text {，即} \\frac{b}{a} = 1 \\text {时，用此法不能审敛}. \\end{array}\">\\begin{array}{l} \\text {解答需讨论参数} a、b \\text{的不同情况}， \\\\ \\text {由于} \\lim_{n \\to \\infty} \\sqrt[n]{u_{n}} = \\lim_{n \\to \\infty} \\sqrt[n]{\\left(\\frac{b}{a_{n}}\\right)^{n}} = \\lim_{n \\to \\infty} \\frac{b}{a_{n}} = \\frac{b}{a}, \\\\ \\text {当} b &lt; a \\text {时，即} \\frac{b}{a} &lt; 1 \\text {时，级数收敛}; \\\\ \\text {当} b &gt; a \\text {，即} \\frac{b}{a} &gt; 1 \\text {时，级数发散}; \\\\ \\text {当} b = a \\text {，即} \\frac{b}{a} = 1 \\text {时，用此法不能审敛}. \\end{array}</div>"
     },
     {
       "id": "q0019",
       "number": 19,
       "header": "#19-Averge",
       "difficulty": "Averge",
-      "prompt_html": "<img src=\"/static/generated/assets/advanced-math/ch084/q0019_prompt.png\"/>",
+      "prompt_html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{下列级数中收敛的是[~]}.\">\\text{下列级数中收敛的是[~]}.</span>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch084/q0019_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\sum_{n=1}^{\\infty} \\frac{3^{n}}{n^{4}}\\, ;\">\\sum_{n=1}^{\\infty} \\frac{3^{n}}{n^{4}}\\, ;</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch084/q0019_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\sum_{n=1}^{\\infty} (\\frac{3n}{n+5})^{n}\\,.\">\\sum_{n=1}^{\\infty} (\\frac{3n}{n+5})^{n}\\,.</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch084/q0019_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\sum_{n=1}^{\\infty} \\frac{1}{2^{n}} (1 + \\frac{1}{n})^{n^{2}} \\, ;\">\\sum_{n=1}^{\\infty} \\frac{1}{2^{n}} (1 + \\frac{1}{n})^{n^{2}} \\, ;</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch084/q0019_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\sum_{n=1}^{\\infty} \\frac{n+1}{3^{n}}\\, ;\">\\sum_{n=1}^{\\infty} \\frac{n+1}{3^{n}}\\, ;</span>"
         }
       ],
       "answer": "D",
       "answer_index": 3,
-      "analysis_html": "<img src=\"/static/generated/assets/advanced-math/ch084/q0019_analysis.png\"/>"
+      "analysis_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{array}{l} \\text {解答首先，令} u_{n}=\\frac{n+1}{3^{n}}, \\text {则} \\lim_{n \\to \\infty} \\sqrt[n]{u_{n}}=\\frac{\\sqrt[n]{n+1}}{3}=\\frac{1}{3}&lt;1, \\text {由根值审敛法知，级数} \\\\ \\sum_{n=1}^{\\infty} \\frac{n+1}{3^{n}} \\text {收敛；其次，令} u_{n}=\\frac{3^{n}}{n^{4}}, \\text {则} \\lim_{n \\to \\infty} \\frac{u_{n+1}}{u_{n}}=\\lim_{n \\to \\infty} \\frac{(n+1)^{4}}{3^{n}}=\\lim_{n \\to \\infty} 3(\\frac{n}{n+1})^{4}=3&gt;1, \\\\ \\text {由比值判别法知，级数} \\sum_{n=1}^{\\infty} \\frac{3^{n}}{n^{4}} \\text {发散；再次，令} u_{n}=\\frac{1}{2^{n}}(1+\\frac{1}{n})^{n^{2}}, \\text {则} \\\\ \\lim_{n \\to \\infty} \\sqrt[n]{u_{n}}=\\lim_{n \\to \\infty} \\frac{1}{2}(1+\\frac{1}{n})^{n}=\\frac{e}{2}&gt;1, \\text {由根值审敛法知，级数} \\sum_{n=1}^{\\infty} \\frac{1}{2^{n}}(1+\\frac{1}{n})^{n^{2}} \\text {发散；最后，令} u_{n}=(\\frac{3n}{n+5})^{n}, \\text {则} \\lim_{n \\to \\infty} \\sqrt[n]{u_{n}}=\\lim_{n \\to \\infty} \\frac{3n}{n+5}&gt;3&gt;1, \\text {由根值审敛法知，级数} \\\\ \\sum_{n=1}^{\\infty} (\\frac{3n}{n+5})^{n} \\text {发散}. \\end{array}\">\\begin{array}{l} \\text {解答首先，令} u_{n}=\\frac{n+1}{3^{n}}, \\text {则} \\lim_{n \\to \\infty} \\sqrt[n]{u_{n}}=\\frac{\\sqrt[n]{n+1}}{3}=\\frac{1}{3}&lt;1, \\text {由根值审敛法知，级数} \\\\ \\sum_{n=1}^{\\infty} \\frac{n+1}{3^{n}} \\text {收敛；其次，令} u_{n}=\\frac{3^{n}}{n^{4}}, \\text {则} \\lim_{n \\to \\infty} \\frac{u_{n+1}}{u_{n}}=\\lim_{n \\to \\infty} \\frac{(n+1)^{4}}{3^{n}}=\\lim_{n \\to \\infty} 3(\\frac{n}{n+1})^{4}=3&gt;1, \\\\ \\text {由比值判别法知，级数} \\sum_{n=1}^{\\infty} \\frac{3^{n}}{n^{4}} \\text {发散；再次，令} u_{n}=\\frac{1}{2^{n}}(1+\\frac{1}{n})^{n^{2}}, \\text {则} \\\\ \\lim_{n \\to \\infty} \\sqrt[n]{u_{n}}=\\lim_{n \\to \\infty} \\frac{1}{2}(1+\\frac{1}{n})^{n}=\\frac{e}{2}&gt;1, \\text {由根值审敛法知，级数} \\sum_{n=1}^{\\infty} \\frac{1}{2^{n}}(1+\\frac{1}{n})^{n^{2}} \\text {发散；最后，令} u_{n}=(\\frac{3n}{n+5})^{n}, \\text {则} \\lim_{n \\to \\infty} \\sqrt[n]{u_{n}}=\\lim_{n \\to \\infty} \\frac{3n}{n+5}&gt;3&gt;1, \\text {由根值审敛法知，级数} \\\\ \\sum_{n=1}^{\\infty} (\\frac{3n}{n+5})^{n} \\text {发散}. \\end{array}</div>"
     },
     {
       "id": "q0020",
       "number": 20,
       "header": "#20-Averge",
       "difficulty": "Averge",
-      "prompt_html": "<img src=\"/static/generated/assets/advanced-math/ch084/q0020_prompt.png\"/>",
+      "prompt_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{array}{l} \\text {关于下列2个级数的敛散性，说法正确的是[ ].} \\\\ (1) \\sum_{n=1}^{\\infty} \\frac{1 \\cdot 3 \\cdots (2n-1)}{n!}, (2) \\sum_{n=1}^{\\infty} \\frac{4+(-1)^{n}}{4^{n}}. \\end{array}\">\\begin{array}{l} \\text {关于下列2个级数的敛散性，说法正确的是[ ].} \\\\ (1) \\sum_{n=1}^{\\infty} \\frac{1 \\cdot 3 \\cdots (2n-1)}{n!}, (2) \\sum_{n=1}^{\\infty} \\frac{4+(-1)^{n}}{4^{n}}. \\end{array}</div>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch084/q0020_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"(1) \\text{发散}, \\, (2) \\text{发散};\">(1) \\text{发散}, \\, (2) \\text{发散};</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch084/q0020_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"(1) \\text{收敛},\\,(2) \\text{发散}.\">(1) \\text{收敛},\\,(2) \\text{发散}.</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch084/q0020_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"(1) \\text{发散}, \\, (2) \\text{收敛};\">(1) \\text{发散}, \\, (2) \\text{收敛};</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch084/q0020_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"(1) \\text{收敛},\\ (2) \\text{收敛};\">(1) \\text{收敛},\\ (2) \\text{收敛};</span>"
         }
       ],
       "answer": "C",
       "answer_index": 2,
-      "analysis_html": "<img src=\"/static/generated/assets/advanced-math/ch084/q0020_analysis.png\"/>"
+      "analysis_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{array}{l} \\text {解答 (1) 令} u_{n} = \\frac{1 \\cdot 3 \\cdots (2n-1)}{n!}, \\text {则} \\lim_{n \\rightarrow \\infty} \\frac{u_{n+1}}{u_{n}} = \\lim_{n \\rightarrow \\infty} \\frac{\\frac{1 \\cdot 3 \\cdots (2n+1)}{(n+1)!}}{\\frac{1 \\cdot 3 \\cdots (2n-1)}{n!}} = \\lim_{n \\rightarrow \\infty} \\frac{2n+1}{n+1} = 2 &gt; 1, \\\\ \\text {由比值审敛法知,级数} \\sum_{n=1}^{\\infty} \\frac{1 \\cdot 3 \\cdots (2n-1)}{n!} \\text {发散, (2) 令} u_{n} = \\frac{4+(-1)^{n}}{4^{n}}, \\text {因为} \\frac{3}{4^{n}} \\leq u_{n} \\leq \\frac{5}{4^{n}}, \\\\ \\lim_{n \\rightarrow \\infty} \\sqrt[n]{\\frac{3}{4^{n}}} = \\frac{1}{4}, \\lim_{n \\rightarrow \\infty} \\sqrt[n]{\\frac{5}{4^{n}}} = \\frac{1}{4}, \\text {所以} \\lim_{n \\rightarrow \\infty} \\sqrt[n]{u_{n}} = \\frac{1}{4} &lt; 1, \\text {由根值审敛法知,级数} \\\\ \\sum_{n=1}^{\\infty} \\frac{4+(-1)^{n}}{4^{n}} \\text {收敛}. \\end{array}\">\\begin{array}{l} \\text {解答 (1) 令} u_{n} = \\frac{1 \\cdot 3 \\cdots (2n-1)}{n!}, \\text {则} \\lim_{n \\rightarrow \\infty} \\frac{u_{n+1}}{u_{n}} = \\lim_{n \\rightarrow \\infty} \\frac{\\frac{1 \\cdot 3 \\cdots (2n+1)}{(n+1)!}}{\\frac{1 \\cdot 3 \\cdots (2n-1)}{n!}} = \\lim_{n \\rightarrow \\infty} \\frac{2n+1}{n+1} = 2 &gt; 1, \\\\ \\text {由比值审敛法知,级数} \\sum_{n=1}^{\\infty} \\frac{1 \\cdot 3 \\cdots (2n-1)}{n!} \\text {发散, (2) 令} u_{n} = \\frac{4+(-1)^{n}}{4^{n}}, \\text {因为} \\frac{3}{4^{n}} \\leq u_{n} \\leq \\frac{5}{4^{n}}, \\\\ \\lim_{n \\rightarrow \\infty} \\sqrt[n]{\\frac{3}{4^{n}}} = \\frac{1}{4}, \\lim_{n \\rightarrow \\infty} \\sqrt[n]{\\frac{5}{4^{n}}} = \\frac{1}{4}, \\text {所以} \\lim_{n \\rightarrow \\infty} \\sqrt[n]{u_{n}} = \\frac{1}{4} &lt; 1, \\text {由根值审敛法知,级数} \\\\ \\sum_{n=1}^{\\infty} \\frac{4+(-1)^{n}}{4^{n}} \\text {收敛}. \\end{array}</div>"
     },
     {
       "id": "q0021",
       "number": 21,
       "header": "#21-Averge",
       "difficulty": "Averge",
-      "prompt_html": "<img src=\"/static/generated/assets/advanced-math/ch084/q0021_prompt.png\"/>",
+      "prompt_html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\sum_{n=1}^{\\infty}(a\\cos\\frac{1}{n})^{\\frac{n}{2}}(a&gt;0) \\text{的敛散性，下列说法正确的是[ ].}\">\\sum_{n=1}^{\\infty}(a\\cos\\frac{1}{n})^{\\frac{n}{2}}(a&gt;0) \\text{的敛散性，下列说法正确的是[ ].}</span>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch084/q0021_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{当} a &lt; 1 \\text{时，级数收敛};\">\\text{当} a &lt; 1 \\text{时，级数收敛};</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch084/q0021_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{级数收敛};\">\\text{级数收敛};</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch084/q0021_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{级数发散}.\">\\text{级数发散}.</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch084/q0021_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{当} a &gt; 1 \\text{时，级数收敛};\">\\text{当} a &gt; 1 \\text{时，级数收敛};</span>"
         }
       ],
       "answer": "A",
       "answer_index": 0,
-      "analysis_html": "<img src=\"/static/generated/assets/advanced-math/ch084/q0021_analysis.png\"/>"
+      "analysis_html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{解答令}u_{n}=(a\\cos \\frac{1}{n})^{\\frac{n}{2}},\\text{则}\\lim_{n\\rightarrow \\infty}\\sqrt[n]{u_{n}}=\\lim_{n\\rightarrow \\infty}\\sqrt{a\\cos \\frac{1}{n}}=\\sqrt{n}a,\\text{由根值审敛法知，当}a&lt;1\\text{时，级数收敛，当}a&gt;1\\text{时，级数发散，当}a=1\\text{时，用此法不能审敛.}\">\\text{解答令}u_{n}=(a\\cos \\frac{1}{n})^{\\frac{n}{2}},\\text{则}\\lim_{n\\rightarrow \\infty}\\sqrt[n]{u_{n}}=\\lim_{n\\rightarrow \\infty}\\sqrt{a\\cos \\frac{1}{n}}=\\sqrt{n}a,\\text{由根值审敛法知，当}a&lt;1\\text{时，级数收敛，当}a&gt;1\\text{时，级数发散，当}a=1\\text{时，用此法不能审敛.}</span>"
     },
     {
       "id": "q0022",
       "number": 22,
       "header": "#22-Averge",
       "difficulty": "Averge",
-      "prompt_html": "<img src=\"/static/generated/assets/advanced-math/ch084/q0022_prompt.png\"/>",
+      "prompt_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{array}{l} \\text{关于下列2个级数的敛散性，说法正确的是[ ].} \\\\ (1) \\sum_{n=1}^{\\infty} 4^{n} \\sin \\frac{\\pi}{3^{n}}; (2) \\sum_{n=1}^{\\infty} \\frac{\\sin^{2} n}{2^{n}}. \\end{array}\">\\begin{array}{l} \\text{关于下列2个级数的敛散性，说法正确的是[ ].} \\\\ (1) \\sum_{n=1}^{\\infty} 4^{n} \\sin \\frac{\\pi}{3^{n}}; (2) \\sum_{n=1}^{\\infty} \\frac{\\sin^{2} n}{2^{n}}. \\end{array}</div>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch084/q0022_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"(1) \\text{收敛},\\,(2) \\text{发散}.\">(1) \\text{收敛},\\,(2) \\text{发散}.</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch084/q0022_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"(1) \\text{收敛},\\ (2) \\text{收敛};\">(1) \\text{收敛},\\ (2) \\text{收敛};</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch084/q0022_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"(1) \\text{发散}, \\ (2) \\text{发散};\">(1) \\text{发散}, \\ (2) \\text{发散};</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch084/q0022_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"(1) \\text{发散}, \\, (2) \\text{收敛};\">(1) \\text{发散}, \\, (2) \\text{收敛};</span>"
         }
       ],
       "answer": "D",
       "answer_index": 3,
-      "analysis_html": "<img src=\"/static/generated/assets/advanced-math/ch084/q0022_analysis.png\"/>"
+      "analysis_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{array}{l} \\text {解答(1)由于} \\lim_{n \\rightarrow \\infty} \\frac{4^{n} \\sin \\frac{\\pi}{3^{n}}}{\\frac{\\pi 4^{n}}{3^{n}}} = \\lim_{n \\rightarrow \\infty} \\frac{\\sin \\frac{\\pi}{3^{n}}}{\\frac{\\pi}{3^{n}}} = 1, \\text {由比较审敛法知,级数} \\sum_{n=1}^{\\infty} 4^{n} \\sin \\frac{\\pi}{3^{n}} \\text {与级数} \\sum_{n=1}^{\\infty} \\frac{\\pi 4^{n}}{3^{n}} \\text {同时收敛同时发散,令} u_{n} = \\frac{\\pi 4^{n}}{3^{n}}, \\lim_{n \\rightarrow \\infty} \\sqrt[n]{u_{n}} = \\lim_{n \\rightarrow \\infty} \\frac{4}{3} \\sqrt[n]{\\pi} = \\frac{4}{3} &gt; 1, \\text {由根值审敛法知,级数} \\sum_{n=1}^{\\infty} \\frac{\\pi 4^{n}}{3^{n}} \\text {发散,从而级数} \\sum_{n=1}^{\\infty} 4^{n} \\sin \\frac{\\pi}{3^{n}} \\text {发散};(2)\\text{由根值审敛法知},\\text{级数} \\sum_{n=1}^{\\infty} \\frac{1}{2^{n}} \\text {收敛,又由于} \\frac{\\sin^{2} n}{2^{n}} &lt; \\frac{1}{2^{n}}, \\text {由比较审敛法知,级数} \\sum_{n=1}^{\\infty} \\frac{\\sin^{2} n}{2^{n}} \\text {收敛}. \\end{array}\">\\begin{array}{l} \\text {解答(1)由于} \\lim_{n \\rightarrow \\infty} \\frac{4^{n} \\sin \\frac{\\pi}{3^{n}}}{\\frac{\\pi 4^{n}}{3^{n}}} = \\lim_{n \\rightarrow \\infty} \\frac{\\sin \\frac{\\pi}{3^{n}}}{\\frac{\\pi}{3^{n}}} = 1, \\text {由比较审敛法知,级数} \\sum_{n=1}^{\\infty} 4^{n} \\sin \\frac{\\pi}{3^{n}} \\text {与级数} \\sum_{n=1}^{\\infty} \\frac{\\pi 4^{n}}{3^{n}} \\text {同时收敛同时发散,令} u_{n} = \\frac{\\pi 4^{n}}{3^{n}}, \\lim_{n \\rightarrow \\infty} \\sqrt[n]{u_{n}} = \\lim_{n \\rightarrow \\infty} \\frac{4}{3} \\sqrt[n]{\\pi} = \\frac{4}{3} &gt; 1, \\text {由根值审敛法知,级数} \\sum_{n=1}^{\\infty} \\frac{\\pi 4^{n}}{3^{n}} \\text {发散,从而级数} \\sum_{n=1}^{\\infty} 4^{n} \\sin \\frac{\\pi}{3^{n}} \\text {发散};(2)\\text{由根值审敛法知},\\text{级数} \\sum_{n=1}^{\\infty} \\frac{1}{2^{n}} \\text {收敛,又由于} \\frac{\\sin^{2} n}{2^{n}} &lt; \\frac{1}{2^{n}}, \\text {由比较审敛法知,级数} \\sum_{n=1}^{\\infty} \\frac{\\sin^{2} n}{2^{n}} \\text {收敛}. \\end{array}</div>"
     },
     {
       "id": "q0023",
       "number": 23,
       "header": "#23-Averge",
       "difficulty": "Averge",
-      "prompt_html": "<img src=\"/static/generated/assets/advanced-math/ch084/q0023_prompt.png\"/>",
+      "prompt_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{array}{l} \\text{关于下列2个级数的敛散性，说法正确的是[ ].} \\\\ (1)\\sum_{n=1}^{\\infty}2^{n}\\ln(1+\\frac{1}{3^{n}});\\ (2)\\sum_{n=1}^{\\infty}4^{n}\\ln(1+\\frac{1}{3^{n}}). \\end{array}\">\\begin{array}{l} \\text{关于下列2个级数的敛散性，说法正确的是[ ].} \\\\ (1)\\sum_{n=1}^{\\infty}2^{n}\\ln(1+\\frac{1}{3^{n}});\\ (2)\\sum_{n=1}^{\\infty}4^{n}\\ln(1+\\frac{1}{3^{n}}). \\end{array}</div>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch084/q0023_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"(1) \\text{收敛}, \\ (2) \\text{发散};\">(1) \\text{收敛}, \\ (2) \\text{发散};</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch084/q0023_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"(1) \\text{收敛},\\,(2) \\text{收敛}.\">(1) \\text{收敛},\\,(2) \\text{收敛}.</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch084/q0023_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"(1) \\text{发散}, \\, (2) \\text{收敛};\">(1) \\text{发散}, \\, (2) \\text{收敛};</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch084/q0023_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"(1) \\text{发散}, \\, (2) \\text{发散};\">(1) \\text{发散}, \\, (2) \\text{发散};</span>"
         }
       ],
       "answer": "A",
       "answer_index": 0,
-      "analysis_html": "<img src=\"/static/generated/assets/advanced-math/ch084/q0023_analysis.png\"/>"
+      "analysis_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{array}{l} \\text {解答 (1) 由于} \\lim_{n \\rightarrow \\infty} \\frac{2^{n} \\ln(1+\\frac{1}{3^{n}})}{\\frac{2^{n}}{3^{n}}} = \\lim_{n \\rightarrow \\infty} \\frac{\\ln(1+\\frac{1}{3^{n}})}{\\frac{1}{3^{n}}} = 1, \\text {由比较审敛法知，级数} \\\\ \\sum_{n=1}^{\\infty} 2^{n} \\ln(1+\\frac{1}{3^{n}}) \\text {与级数} \\sum_{n=1}^{\\infty} \\frac{2^{n}}{3^{n}} \\text {同时收敛同时发散,由根值审敛法知级数} \\sum_{n=1}^{\\infty} \\frac{2^{n}}{3^{n}} \\text {收敛,} \\\\ \\text {所以级数} \\sum_{n=1}^{\\infty} 2^{n} \\ln(1+\\frac{1}{3^{n}}) \\text {收敛;} (2) \\text{由于} \\lim_{n \\rightarrow \\infty} \\frac{4^{n} \\ln(1+\\frac{1}{3^{n}})}{\\frac{4^{n}}{3^{n}}} = \\lim_{n \\rightarrow \\infty} \\frac{\\ln(1+\\frac{1}{3^{n}})}{\\frac{1}{3^{n}}} = 1, \\text {由比较} \\\\ \\text {审敛法知,级数} \\sum_{n=1}^{\\infty} 4^{n} \\ln(1+\\frac{1}{3^{n}}) \\text {与级数} \\sum_{n=1}^{\\infty} \\frac{4^{n}}{3^{n}} \\text {同时收敛同时发散,由根值审敛法知} \\\\ \\text {级数} \\sum_{n=1}^{\\infty} \\frac{4^{n}}{3^{n}} \\text {发散,所以级数} \\sum_{n=1}^{\\infty} 4^{n} \\ln(1+\\frac{1}{3^{n}}) \\text {发散}. \\end{array}\">\\begin{array}{l} \\text {解答 (1) 由于} \\lim_{n \\rightarrow \\infty} \\frac{2^{n} \\ln(1+\\frac{1}{3^{n}})}{\\frac{2^{n}}{3^{n}}} = \\lim_{n \\rightarrow \\infty} \\frac{\\ln(1+\\frac{1}{3^{n}})}{\\frac{1}{3^{n}}} = 1, \\text {由比较审敛法知，级数} \\\\ \\sum_{n=1}^{\\infty} 2^{n} \\ln(1+\\frac{1}{3^{n}}) \\text {与级数} \\sum_{n=1}^{\\infty} \\frac{2^{n}}{3^{n}} \\text {同时收敛同时发散,由根值审敛法知级数} \\sum_{n=1}^{\\infty} \\frac{2^{n}}{3^{n}} \\text {收敛,} \\\\ \\text {所以级数} \\sum_{n=1}^{\\infty} 2^{n} \\ln(1+\\frac{1}{3^{n}}) \\text {收敛;} (2) \\text{由于} \\lim_{n \\rightarrow \\infty} \\frac{4^{n} \\ln(1+\\frac{1}{3^{n}})}{\\frac{4^{n}}{3^{n}}} = \\lim_{n \\rightarrow \\infty} \\frac{\\ln(1+\\frac{1}{3^{n}})}{\\frac{1}{3^{n}}} = 1, \\text {由比较} \\\\ \\text {审敛法知,级数} \\sum_{n=1}^{\\infty} 4^{n} \\ln(1+\\frac{1}{3^{n}}) \\text {与级数} \\sum_{n=1}^{\\infty} \\frac{4^{n}}{3^{n}} \\text {同时收敛同时发散,由根值审敛法知} \\\\ \\text {级数} \\sum_{n=1}^{\\infty} \\frac{4^{n}}{3^{n}} \\text {发散,所以级数} \\sum_{n=1}^{\\infty} 4^{n} \\ln(1+\\frac{1}{3^{n}}) \\text {发散}. \\end{array}</div>"
     },
     {
       "id": "q0024",
       "number": 24,
       "header": "#24-Averge",
       "difficulty": "Averge",
-      "prompt_html": "<img src=\"/static/generated/assets/advanced-math/ch084/q0024_prompt.png\"/>",
+      "prompt_html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{关于级数} \\sum_{n=1}^{\\infty} \\frac{1}{2^{n}}(\\frac{nx}{1+n})^{n}(x&gt;0), \\text{下列说法正确的是[ ].}\">\\text{关于级数} \\sum_{n=1}^{\\infty} \\frac{1}{2^{n}}(\\frac{nx}{1+n})^{n}(x&gt;0), \\text{下列说法正确的是[ ].}</span>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch084/q0024_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{当} x &gt; 2 \\text{时，级数收敛};\">\\text{当} x &gt; 2 \\text{时，级数收敛};</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch084/q0024_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{当} x &gt; 0 \\text{时，级数收敛.}\">\\text{当} x &gt; 0 \\text{时，级数收敛.}</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch084/q0024_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{当} \\, 0 &lt; x \\leq 2 \\text{时，级数收敛};\">\\text{当} \\, 0 &lt; x \\leq 2 \\text{时，级数收敛};</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch084/q0024_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{当}0&lt;x&lt;2\\text{时，级数收敛};\">\\text{当}0&lt;x&lt;2\\text{时，级数收敛};</span>"
         }
       ],
       "answer": "D",
       "answer_index": 3,
-      "analysis_html": "<img src=\"/static/generated/assets/advanced-math/ch084/q0024_analysis.png\"/>"
+      "analysis_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{array}{l} \\text {解答令} u_{n} = \\frac{1}{2^{n}} (\\frac{n \\alpha}{1+n})^{n}, \\text {则} \\lim_{n \\to \\infty} \\sqrt[n]{u_{n}} = \\lim_{n \\to \\infty} \\frac{1}{2} \\frac{n \\alpha}{1+n} = \\frac{x}{2}, \\text {当} x &gt; 2 \\text {时，级数发散,当} \\\\ 0 &lt; x &lt; 2 \\text {时，级数收敛,当} x = 2 \\text {时，} u_{n} = (\\frac{n}{1+n})^{n}, \\text {由于} \\lim_{n \\to \\infty} u_{n} = e^{-1} \\neq 0, \\text {级数发散}. \\end{array}\">\\begin{array}{l} \\text {解答令} u_{n} = \\frac{1}{2^{n}} (\\frac{n \\alpha}{1+n})^{n}, \\text {则} \\lim_{n \\to \\infty} \\sqrt[n]{u_{n}} = \\lim_{n \\to \\infty} \\frac{1}{2} \\frac{n \\alpha}{1+n} = \\frac{x}{2}, \\text {当} x &gt; 2 \\text {时，级数发散,当} \\\\ 0 &lt; x &lt; 2 \\text {时，级数收敛,当} x = 2 \\text {时，} u_{n} = (\\frac{n}{1+n})^{n}, \\text {由于} \\lim_{n \\to \\infty} u_{n} = e^{-1} \\neq 0, \\text {级数发散}. \\end{array}</div>"
     },
     {
       "id": "q0025",
       "number": 25,
       "header": "#25-Averge",
       "difficulty": "Averge",
-      "prompt_html": "<img src=\"/static/generated/assets/advanced-math/ch084/q0025_prompt.png\"/>",
+      "prompt_html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{对于级数} \\sum_{n=1}^{\\infty} \\left( \\frac{\\pi}{2a_{n}} \\right)^{n} \\text{（其中} a_{n} \\rightarrow a(n \\rightarrow \\infty), \\text{且} a_{n}、a \\text{均为正数）的收敛性, }\\text{下列说法正确的是[ ].}\">\\text{对于级数} \\sum_{n=1}^{\\infty} \\left( \\frac{\\pi}{2a_{n}} \\right)^{n} \\text{（其中} a_{n} \\rightarrow a(n \\rightarrow \\infty), \\text{且} a_{n}、a \\text{均为正数）的收敛性, }\\text{下列说法正确的是[ ].}</span>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch084/q0025_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{当} a &lt; \\frac { \\pi } { 2 } , \\text{级数收敛} .\">\\text{当} a &lt; \\frac { \\pi } { 2 } , \\text{级数收敛} .</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch084/q0025_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{级数发散};\">\\text{级数发散};</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch084/q0025_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{级数收敛};\">\\text{级数收敛};</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch084/q0025_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{当} a &gt; \\frac { \\pi } { 2 } , \\text{级数收敛};\">\\text{当} a &gt; \\frac { \\pi } { 2 } , \\text{级数收敛};</span>"
         }
       ],
       "answer": "D",
       "answer_index": 3,
-      "analysis_html": "<img src=\"/static/generated/assets/advanced-math/ch084/q0025_analysis.png\"/>"
+      "analysis_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{array}{l} \\text {解答需讨论参数} a \\text {的不同情况}, \\\\ \\text {由于} \\lim_{n \\to \\infty} \\sqrt[n]{u_{n}} = \\lim_{n \\to \\infty} \\sqrt[n]{\\left(\\frac{\\pi}{2a_{n}}\\right)^{n}} = \\lim_{n \\to \\infty} \\frac{\\pi}{2a_{n}} = \\frac{\\pi}{2a}, \\\\ \\text {当} a &gt; \\frac{\\pi}{2} \\text {时，}\\frac{\\pi}{2a} &lt; 1, \\text {由根值审敛法知级数收敛,} \\\\ \\text {当} a &lt; \\frac{\\pi}{2} \\text {时，}\\frac{\\pi}{2a} &gt; 1, \\text {由根值审敛法知级数发散,} \\\\ \\text {当} a = \\frac{\\pi}{2} \\text {时，}\\frac{\\pi}{2a} = 1, \\text {用此法不能审敛.} \\end{array}\">\\begin{array}{l} \\text {解答需讨论参数} a \\text {的不同情况}, \\\\ \\text {由于} \\lim_{n \\to \\infty} \\sqrt[n]{u_{n}} = \\lim_{n \\to \\infty} \\sqrt[n]{\\left(\\frac{\\pi}{2a_{n}}\\right)^{n}} = \\lim_{n \\to \\infty} \\frac{\\pi}{2a_{n}} = \\frac{\\pi}{2a}, \\\\ \\text {当} a &gt; \\frac{\\pi}{2} \\text {时，}\\frac{\\pi}{2a} &lt; 1, \\text {由根值审敛法知级数收敛,} \\\\ \\text {当} a &lt; \\frac{\\pi}{2} \\text {时，}\\frac{\\pi}{2a} &gt; 1, \\text {由根值审敛法知级数发散,} \\\\ \\text {当} a = \\frac{\\pi}{2} \\text {时，}\\frac{\\pi}{2a} = 1, \\text {用此法不能审敛.} \\end{array}</div>"
     },
     {
       "id": "q0026",
       "number": 26,
       "header": "#26-Averge",
       "difficulty": "Averge",
-      "prompt_html": "<img src=\"/static/generated/assets/advanced-math/ch084/q0026_prompt.png\"/>",
+      "prompt_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{array}{l} \\text {关于下列2个级数的敛散性，说法正确的是[ ].} \\\\ (1)\\sum_{n=2}^{\\infty}\\left(1-\\frac{2}{n}\\right)^{n^{2}}; \\quad(2)\\sum_{n=2}^{\\infty}\\left(1+\\frac{2}{n}\\right)^{-n^{2}}. \\end{array}\">\\begin{array}{l} \\text {关于下列2个级数的敛散性，说法正确的是[ ].} \\\\ (1)\\sum_{n=2}^{\\infty}\\left(1-\\frac{2}{n}\\right)^{n^{2}}; \\quad(2)\\sum_{n=2}^{\\infty}\\left(1+\\frac{2}{n}\\right)^{-n^{2}}. \\end{array}</div>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch084/q0026_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"(1) \\text{发散}, \\, (2) \\text{收敛};\">(1) \\text{发散}, \\, (2) \\text{收敛};</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch084/q0026_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"(1) \\text{发散}, \\, (2) \\text{发散};\">(1) \\text{发散}, \\, (2) \\text{发散};</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch084/q0026_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"(1) \\text{收敛}, \\, (2) \\text{发散}.\">(1) \\text{收敛}, \\, (2) \\text{发散}.</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch084/q0026_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"(1) \\text{收敛}, \\ (2) \\text{收敛};\">(1) \\text{收敛}, \\ (2) \\text{收敛};</span>"
         }
       ],
       "answer": "D",
       "answer_index": 3,
-      "analysis_html": "<img src=\"/static/generated/assets/advanced-math/ch084/q0026_analysis.png\"/>"
+      "analysis_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{array}{l} \\text {解答 (1) 令} u_{n} = \\left(1-\\frac{2}{n}\\right)^{n^{2}} ; \\ \\text {则} \\lim_{n \\to \\infty} \\sqrt[n]{u_{n}} = \\lim_{n \\to \\infty} \\left(1-\\frac{2}{n}\\right)^{n} = \\lim_{n \\to \\infty} \\left( \\left(1-\\frac{2}{n}\\right)^{\\frac{n}{2}} \\right)^{-2} = e^{-2} &lt; 1 , \\ \\text {由} \\\\ \\text {根值审敛法知级数} \\sum_{n=2}^{\\infty} \\left(1-\\frac{2}{n}\\right)^{n^{2}} \\text {收敛}; (2) \\text {令} u_{n} = \\left(1+\\frac{2}{n}\\right)^{-n^{2}} , \\ \\text {则} \\\\ \\lim_{n \\to \\infty} \\sqrt[n]{u_{n}} = \\lim_{n \\to \\infty} \\left(1+\\frac{2}{n}\\right)^{-n} = \\lim_{n \\to \\infty} \\left( \\left(1+\\frac{2}{n}\\right)^{\\frac{n}{2}} \\right)^{-2} = e^{-2} &lt; 1 , \\ \\text {由根值审敛法知级数} \\\\ \\sum_{n=2}^{\\infty} \\left(1+\\frac{2}{n}\\right)^{-n^{2}} \\text {收敛}. \\end{array}\">\\begin{array}{l} \\text {解答 (1) 令} u_{n} = \\left(1-\\frac{2}{n}\\right)^{n^{2}} ; \\ \\text {则} \\lim_{n \\to \\infty} \\sqrt[n]{u_{n}} = \\lim_{n \\to \\infty} \\left(1-\\frac{2}{n}\\right)^{n} = \\lim_{n \\to \\infty} \\left( \\left(1-\\frac{2}{n}\\right)^{\\frac{n}{2}} \\right)^{-2} = e^{-2} &lt; 1 , \\ \\text {由} \\\\ \\text {根值审敛法知级数} \\sum_{n=2}^{\\infty} \\left(1-\\frac{2}{n}\\right)^{n^{2}} \\text {收敛}; (2) \\text {令} u_{n} = \\left(1+\\frac{2}{n}\\right)^{-n^{2}} , \\ \\text {则} \\\\ \\lim_{n \\to \\infty} \\sqrt[n]{u_{n}} = \\lim_{n \\to \\infty} \\left(1+\\frac{2}{n}\\right)^{-n} = \\lim_{n \\to \\infty} \\left( \\left(1+\\frac{2}{n}\\right)^{\\frac{n}{2}} \\right)^{-2} = e^{-2} &lt; 1 , \\ \\text {由根值审敛法知级数} \\\\ \\sum_{n=2}^{\\infty} \\left(1+\\frac{2}{n}\\right)^{-n^{2}} \\text {收敛}. \\end{array}</div>"
     },
     {
       "id": "q0027",
       "number": 27,
       "header": "#27-Averge",
       "difficulty": "Averge",
-      "prompt_html": "<img src=\"/static/generated/assets/advanced-math/ch084/q0027_prompt.png\"/>",
+      "prompt_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{array}{l} \\text {关于下列2个级数的敛散性说法正确的是[ ].} \\\\ (1) \\sum_{n=1}^{\\infty} \\frac{1+3^{n}}{2^{n}}; \\quad (2) \\sum_{n=1}^{\\infty} \\frac{2+(-1)^{n}}{5^{n}}. \\end{array}\">\\begin{array}{l} \\text {关于下列2个级数的敛散性说法正确的是[ ].} \\\\ (1) \\sum_{n=1}^{\\infty} \\frac{1+3^{n}}{2^{n}}; \\quad (2) \\sum_{n=1}^{\\infty} \\frac{2+(-1)^{n}}{5^{n}}. \\end{array}</div>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch084/q0027_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"(1) \\text{发散}, \\, (2) \\text{发散};\">(1) \\text{发散}, \\, (2) \\text{发散};</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch084/q0027_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"(1) \\text{收敛},\\ (2) \\text{收敛};\">(1) \\text{收敛},\\ (2) \\text{收敛};</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch084/q0027_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"(1) \\text{收敛},\\,(2) \\text{发散}.\">(1) \\text{收敛},\\,(2) \\text{发散}.</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch084/q0027_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"(1) \\text{发散},\\ (2) \\text{收敛};\">(1) \\text{发散},\\ (2) \\text{收敛};</span>"
         }
       ],
       "answer": "D",
       "answer_index": 3,
-      "analysis_html": "<img src=\"/static/generated/assets/advanced-math/ch084/q0027_analysis.png\"/>"
+      "analysis_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{array}{l} \\text {解答(1) 令} u_{n}=\\frac{3^{n}}{2^{n}}, \\text {则} \\lim_{n \\rightarrow \\infty} \\sqrt[n]{u_{n}}=\\frac{3}{2}&gt;1, \\text {由根值审敛法知级数} \\sum_{n=1}^{\\infty} \\frac{3^{n}}{2^{n}} \\text {发散, 由} \\\\ \\text {于} \\frac{3^{n}}{2^{n}}&lt;\\frac{1+3^{n}}{2^{n}}, \\text {由比较审敛法知级数} \\sum_{n=1}^{\\infty} \\frac{1+3^{n}}{2^{n}} \\text {发散, 也可由} \\lim_{n \\rightarrow \\infty} \\frac{1+3^{n}}{2^{n}} \\neq 0 \\text {知级数} \\\\ \\sum_{n=1}^{\\infty} \\frac{1+3^{n}}{2^{n}} \\text {发散}; \\quad (2) \\text {由于} \\frac{1}{5^{n}} \\leq \\frac{2+(-1)^{n}}{5^{n}} \\leq \\frac{3}{5^{n}}, \\quad \\lim_{n \\rightarrow \\infty} \\sqrt[n]{\\frac{1}{5^{n}}}=\\frac{1}{5}, \\quad \\lim_{n \\rightarrow \\infty} \\sqrt[n]{\\frac{3}{5^{n}}}=\\frac{1}{5}, \\text {所以} \\\\ \\lim_{n \\rightarrow \\infty} \\sqrt[n]{\\frac{2+(-1)^{n}}{5^{n}}}=\\frac{1}{5}&lt;1, \\text {由根值审敛法知级数} \\sum_{n=1}^{\\infty} \\frac{2+(-1)^{n}}{5^{n}} \\text {收敛.} \\end{array}\">\\begin{array}{l} \\text {解答(1) 令} u_{n}=\\frac{3^{n}}{2^{n}}, \\text {则} \\lim_{n \\rightarrow \\infty} \\sqrt[n]{u_{n}}=\\frac{3}{2}&gt;1, \\text {由根值审敛法知级数} \\sum_{n=1}^{\\infty} \\frac{3^{n}}{2^{n}} \\text {发散, 由} \\\\ \\text {于} \\frac{3^{n}}{2^{n}}&lt;\\frac{1+3^{n}}{2^{n}}, \\text {由比较审敛法知级数} \\sum_{n=1}^{\\infty} \\frac{1+3^{n}}{2^{n}} \\text {发散, 也可由} \\lim_{n \\rightarrow \\infty} \\frac{1+3^{n}}{2^{n}} \\neq 0 \\text {知级数} \\\\ \\sum_{n=1}^{\\infty} \\frac{1+3^{n}}{2^{n}} \\text {发散}; \\quad (2) \\text {由于} \\frac{1}{5^{n}} \\leq \\frac{2+(-1)^{n}}{5^{n}} \\leq \\frac{3}{5^{n}}, \\quad \\lim_{n \\rightarrow \\infty} \\sqrt[n]{\\frac{1}{5^{n}}}=\\frac{1}{5}, \\quad \\lim_{n \\rightarrow \\infty} \\sqrt[n]{\\frac{3}{5^{n}}}=\\frac{1}{5}, \\text {所以} \\\\ \\lim_{n \\rightarrow \\infty} \\sqrt[n]{\\frac{2+(-1)^{n}}{5^{n}}}=\\frac{1}{5}&lt;1, \\text {由根值审敛法知级数} \\sum_{n=1}^{\\infty} \\frac{2+(-1)^{n}}{5^{n}} \\text {收敛.} \\end{array}</div>"
     },
     {
       "id": "q0028",
       "number": 28,
       "header": "#28-Averge",
       "difficulty": "Averge",
-      "prompt_html": "<img src=\"/static/generated/assets/advanced-math/ch084/q0028_prompt.png\"/>",
+      "prompt_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{array}{l} \\text {关于下列2个级数的敛散性，说法正确的是[ ].} \\\\ (1) \\sum_{n=2}^{\\infty} \\frac{2^{n}}{(n^{2}-1)3^{n}}; (2) \\sum_{n=1}^{\\infty} \\frac{n}{(n+1)^{n}}. \\end{array}\">\\begin{array}{l} \\text {关于下列2个级数的敛散性，说法正确的是[ ].} \\\\ (1) \\sum_{n=2}^{\\infty} \\frac{2^{n}}{(n^{2}-1)3^{n}}; (2) \\sum_{n=1}^{\\infty} \\frac{n}{(n+1)^{n}}. \\end{array}</div>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch084/q0028_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"(1) \\text{收敛},\\ (2) \\text{收敛};\">(1) \\text{收敛},\\ (2) \\text{收敛};</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch084/q0028_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"(1) \\text{发散}, \\, (2) \\text{发散};\">(1) \\text{发散}, \\, (2) \\text{发散};</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch084/q0028_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"(1) \\text{收敛},\\,(2) \\text{发散}.\">(1) \\text{收敛},\\,(2) \\text{发散}.</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch084/q0028_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"(1) \\text{发散}, \\, (2) \\text{收敛};\">(1) \\text{发散}, \\, (2) \\text{收敛};</span>"
         }
       ],
       "answer": "A",
       "answer_index": 0,
-      "analysis_html": "<img src=\"/static/generated/assets/advanced-math/ch084/q0028_analysis.png\"/>"
+      "analysis_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{array}{l} \\text {解答(1) 令} u_{n} = \\frac{2^{n}}{3^{n}}, \\text {则} \\lim_{n \\to \\infty} \\sqrt[n]{u_{n}} = \\frac{2}{3} &lt; 1, \\text {由根值审敛法知级数} \\sum_{n=2}^{\\infty} \\frac{2^{n}}{3^{n}} \\text {收敛,又} \\\\ \\text {由于} \\frac{2^{n}}{(n^{2}-1)3^{n}} &lt; \\frac{2^{n}}{3^{n}} (n \\geq 2), \\text {由比较审敛法知级数} \\sum_{n=2}^{\\infty} \\frac{2^{n}}{(n^{2}-1)3^{n}} \\text {收敛}; (2) \\text {令} \\\\ u_{n} = \\frac{n}{(n+1)^{n}}, \\text {则} \\lim_{n \\to \\infty} \\sqrt[n]{u_{n}} = \\lim_{n \\to \\infty} \\frac{n}{n+1} = 0 &lt; 1, \\text {由根值审敛法知级数} \\sum_{n=1}^{\\infty} \\frac{n}{(n+1)^{n}} \\text {收敛}. \\end{array}\">\\begin{array}{l} \\text {解答(1) 令} u_{n} = \\frac{2^{n}}{3^{n}}, \\text {则} \\lim_{n \\to \\infty} \\sqrt[n]{u_{n}} = \\frac{2}{3} &lt; 1, \\text {由根值审敛法知级数} \\sum_{n=2}^{\\infty} \\frac{2^{n}}{3^{n}} \\text {收敛,又} \\\\ \\text {由于} \\frac{2^{n}}{(n^{2}-1)3^{n}} &lt; \\frac{2^{n}}{3^{n}} (n \\geq 2), \\text {由比较审敛法知级数} \\sum_{n=2}^{\\infty} \\frac{2^{n}}{(n^{2}-1)3^{n}} \\text {收敛}; (2) \\text {令} \\\\ u_{n} = \\frac{n}{(n+1)^{n}}, \\text {则} \\lim_{n \\to \\infty} \\sqrt[n]{u_{n}} = \\lim_{n \\to \\infty} \\frac{n}{n+1} = 0 &lt; 1, \\text {由根值审敛法知级数} \\sum_{n=1}^{\\infty} \\frac{n}{(n+1)^{n}} \\text {收敛}. \\end{array}</div>"
     },
     {
       "id": "q0029",
       "number": 29,
       "header": "#29-Averge",
       "difficulty": "Averge",
-      "prompt_html": "<img src=\"/static/generated/assets/advanced-math/ch084/q0029_prompt.png\"/>",
+      "prompt_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{array}{l} \\text{关于下列2个级数的敛散性，说法正确的是[ ].} \\\\ (1)\\sum_{n=1}^{\\infty}\\frac{n\\cos^{2}\\frac{n\\pi}{3}}{2^{n}};\\ (2)\\sum_{n=1}^{\\infty}(\\cos\\frac{1}{n})^{n^{3}}. \\end{array}\">\\begin{array}{l} \\text{关于下列2个级数的敛散性，说法正确的是[ ].} \\\\ (1)\\sum_{n=1}^{\\infty}\\frac{n\\cos^{2}\\frac{n\\pi}{3}}{2^{n}};\\ (2)\\sum_{n=1}^{\\infty}(\\cos\\frac{1}{n})^{n^{3}}. \\end{array}</div>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch084/q0029_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"(1) \\text{发散},\\,(2) \\text{收敛}.\">(1) \\text{发散},\\,(2) \\text{收敛}.</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch084/q0029_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"(1) \\text{收敛}, \\, (2) \\text{发散};\">(1) \\text{收敛}, \\, (2) \\text{发散};</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch084/q0029_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"(1) \\text{发散}, (2) \\text{发散};\">(1) \\text{发散}, (2) \\text{发散};</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch084/q0029_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"(1) \\text{收敛},\\ (2) \\text{收敛};\">(1) \\text{收敛},\\ (2) \\text{收敛};</span>"
         }
       ],
       "answer": "D",
       "answer_index": 3,
-      "analysis_html": "<img src=\"/static/generated/assets/advanced-math/ch084/q0029_analysis.png\"/>"
+      "analysis_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{array}{l} \\text {解答 (1) 令} u_{n} = \\frac{n}{2^{n}}, \\text {则} \\lim_{n \\to \\infty} \\sqrt[n]{u_{n}} = \\lim_{n \\to \\infty} \\frac{\\sqrt[n]{n}}{2} = \\frac{1}{2} &lt; 1, \\text {由根值审敛法知级数} \\sum_{n=1}^{\\infty} \\frac{n}{2^{n}} \\text {收敛, 又由于} \\frac{n \\cos^{2} \\frac{n \\pi}{3}}{2^{n}} &lt; \\frac{n}{2^{n}}, \\text {由比较审敛法知级数} \\sum_{n=1}^{\\infty} \\frac{n \\cos^{2} \\frac{n \\pi}{3}}{2^{n}} \\text {收敛}; \\\\ (2) \\text {令} u_{n} = (\\cos \\frac{1}{n})^{n^{2}}, \\text {则} \\lim_{n \\to \\infty} \\sqrt[n]{u_{n}} = \\lim_{n \\to \\infty} (\\cos \\frac{1}{n})^{n^{2}} = e^{\\lim_{n \\to \\infty} n^{2} \\ln \\cos \\frac{1}{n}}, \\text {由于} \\\\ \\lim_{n \\to \\infty} n^{2} \\ln \\cos \\frac{1}{n} = \\lim_{n \\to \\infty} \\frac{\\ln(1 + \\cos \\frac{1}{n} - 1)}{n^{2}} = \\lim_{n \\to \\infty} \\frac{\\cos \\frac{1}{n} - 1}{\\frac{1}{n^{2}}} = -\\frac{1}{2}, \\text {则} \\lim_{n \\to \\infty} \\sqrt[n]{u_{n}} = e^{-\\frac{1}{2}} &lt; 1, \\\\ \\text {由根值审敛法知级数} \\sum_{n=1}^{\\infty} (\\cos \\frac{1}{n})^{n^{2}} \\text {收敛}. \\end{array}\">\\begin{array}{l} \\text {解答 (1) 令} u_{n} = \\frac{n}{2^{n}}, \\text {则} \\lim_{n \\to \\infty} \\sqrt[n]{u_{n}} = \\lim_{n \\to \\infty} \\frac{\\sqrt[n]{n}}{2} = \\frac{1}{2} &lt; 1, \\text {由根值审敛法知级数} \\sum_{n=1}^{\\infty} \\frac{n}{2^{n}} \\text {收敛, 又由于} \\frac{n \\cos^{2} \\frac{n \\pi}{3}}{2^{n}} &lt; \\frac{n}{2^{n}}, \\text {由比较审敛法知级数} \\sum_{n=1}^{\\infty} \\frac{n \\cos^{2} \\frac{n \\pi}{3}}{2^{n}} \\text {收敛}; \\\\ (2) \\text {令} u_{n} = (\\cos \\frac{1}{n})^{n^{2}}, \\text {则} \\lim_{n \\to \\infty} \\sqrt[n]{u_{n}} = \\lim_{n \\to \\infty} (\\cos \\frac{1}{n})^{n^{2}} = e^{\\lim_{n \\to \\infty} n^{2} \\ln \\cos \\frac{1}{n}}, \\text {由于} \\\\ \\lim_{n \\to \\infty} n^{2} \\ln \\cos \\frac{1}{n} = \\lim_{n \\to \\infty} \\frac{\\ln(1 + \\cos \\frac{1}{n} - 1)}{n^{2}} = \\lim_{n \\to \\infty} \\frac{\\cos \\frac{1}{n} - 1}{\\frac{1}{n^{2}}} = -\\frac{1}{2}, \\text {则} \\lim_{n \\to \\infty} \\sqrt[n]{u_{n}} = e^{-\\frac{1}{2}} &lt; 1, \\\\ \\text {由根值审敛法知级数} \\sum_{n=1}^{\\infty} (\\cos \\frac{1}{n})^{n^{2}} \\text {收敛}. \\end{array}</div>"
     },
     {
       "id": "q0030",
       "number": 30,
       "header": "#30-Averge",
       "difficulty": "Averge",
-      "prompt_html": "<img src=\"/static/generated/assets/advanced-math/ch084/q0030_prompt.png\"/>",
+      "prompt_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{array}{l} \\text {关于下列2个级数的敛散性，说法正确的是[ ].} \\\\ (1) \\sum \\limits_{n = 1} ^ { \\infty} \\sin \\frac {1}{n}; (2) \\sum \\limits_{n = 2} ^ { \\infty} \\frac {1}{3 ^ {n} - n}. \\end{array}\">\\begin{array}{l} \\text {关于下列2个级数的敛散性，说法正确的是[ ].} \\\\ (1) \\sum \\limits_{n = 1} ^ { \\infty} \\sin \\frac {1}{n}; (2) \\sum \\limits_{n = 2} ^ { \\infty} \\frac {1}{3 ^ {n} - n}. \\end{array}</div>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch084/q0030_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"(1) \\text{发散}, \\ (2) \\text{发散};\">(1) \\text{发散}, \\ (2) \\text{发散};</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch084/q0030_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"(1) \\text{发散},\\,(2) \\text{收敛};\">(1) \\text{发散},\\,(2) \\text{收敛};</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch084/q0030_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"(1) \\text{收敛},\\ (2) \\text{收敛};\">(1) \\text{收敛},\\ (2) \\text{收敛};</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch084/q0030_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"(1) \\text{收敛},\\,(2) \\text{发散}.\">(1) \\text{收敛},\\,(2) \\text{发散}.</span>"
         }
       ],
       "answer": "B",
       "answer_index": 1,
-      "analysis_html": "<img src=\"/static/generated/assets/advanced-math/ch084/q0030_analysis.png\"/>"
+      "analysis_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{array}{l} \\text {解答(1)由于} \\lim_{n \\rightarrow \\infty} \\frac{\\sin \\frac{1}{n}}{\\frac{1}{n}} = 1, \\text {级数} \\sum_{n=1}^{\\infty} \\frac{1}{n} \\text {发散,由比较审敛法知,级数} \\sum_{n=1}^{\\infty} \\sin \\frac{1}{n} \\text {发散}; \\\\ (2) \\text{先考虑级数} \\sum_{n=2}^{\\infty} \\frac{1}{3^{n}}, \\text {令} u_{n} = \\frac{1}{3^{n}}, \\text {则} \\lim_{n \\rightarrow \\infty} \\sqrt[n]{u_{n}} = \\frac{1}{3} &lt; 1, \\text {由根值审敛法知,级数} \\sum_{n=2}^{\\infty} \\frac{1}{3^{n}} \\text {收敛,又由于} \\lim_{n \\rightarrow \\infty} \\frac{3^{n}-n}{\\frac{1}{3^{n}}} = \\lim_{n \\rightarrow \\infty} \\frac{1}{1-\\frac{n}{3^{n}}} = 1, \\text {由比较审敛法知,级数} \\sum_{n=2}^{\\infty} \\frac{1}{3^{n}-n} \\text {收敛}. \\end{array}\">\\begin{array}{l} \\text {解答(1)由于} \\lim_{n \\rightarrow \\infty} \\frac{\\sin \\frac{1}{n}}{\\frac{1}{n}} = 1, \\text {级数} \\sum_{n=1}^{\\infty} \\frac{1}{n} \\text {发散,由比较审敛法知,级数} \\sum_{n=1}^{\\infty} \\sin \\frac{1}{n} \\text {发散}; \\\\ (2) \\text{先考虑级数} \\sum_{n=2}^{\\infty} \\frac{1}{3^{n}}, \\text {令} u_{n} = \\frac{1}{3^{n}}, \\text {则} \\lim_{n \\rightarrow \\infty} \\sqrt[n]{u_{n}} = \\frac{1}{3} &lt; 1, \\text {由根值审敛法知,级数} \\sum_{n=2}^{\\infty} \\frac{1}{3^{n}} \\text {收敛,又由于} \\lim_{n \\rightarrow \\infty} \\frac{3^{n}-n}{\\frac{1}{3^{n}}} = \\lim_{n \\rightarrow \\infty} \\frac{1}{1-\\frac{n}{3^{n}}} = 1, \\text {由比较审敛法知,级数} \\sum_{n=2}^{\\infty} \\frac{1}{3^{n}-n} \\text {收敛}. \\end{array}</div>"
     },
     {
       "id": "q0031",
       "number": 31,
       "header": "#31-Averge",
       "difficulty": "Averge",
-      "prompt_html": "<img src=\"/static/generated/assets/advanced-math/ch084/q0031_prompt.png\"/>",
+      "prompt_html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{下列级数收敛的是[~]}.\">\\text{下列级数收敛的是[~]}.</span>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch084/q0031_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\sum_{n=1}^{\\infty} (\\frac{4}{5})^{-n-1};\">\\sum_{n=1}^{\\infty} (\\frac{4}{5})^{-n-1};</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch084/q0031_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\sum_{n=1}^{\\infty} (\\frac{5}{4})^{-n^{2}+1}\\, ;\">\\sum_{n=1}^{\\infty} (\\frac{5}{4})^{-n^{2}+1}\\, ;</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch084/q0031_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\sum_{n=1}^{\\infty} (\\frac{5}{4} + \\frac{4}{5})^{n^{2}+1}.\">\\sum_{n=1}^{\\infty} (\\frac{5}{4} + \\frac{4}{5})^{n^{2}+1}.</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch084/q0031_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\sum_{n=1}^{\\infty} (\\frac{5}{4})^{n-1}\\, ;\">\\sum_{n=1}^{\\infty} (\\frac{5}{4})^{n-1}\\, ;</span>"
         }
       ],
       "answer": "B",
       "answer_index": 1,
-      "analysis_html": "<img src=\"/static/generated/assets/advanced-math/ch084/q0031_analysis.png\"/>"
+      "analysis_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{array}{l} \\text {解答令} u_{n} = (\\frac{5}{4})^{-n^{2}+1}, \\text {则} \\lim_{n \\to \\infty} \\sqrt[n]{u_{n}} = \\lim_{n \\to \\infty} (\\frac{5}{4})^{-n+\\frac{1}{n}} = 0 &lt; 1, \\text {由根值审敛法知级数} \\\\ \\sum_{n=1}^{\\infty} (\\frac{5}{4})^{-n^{2}+1} \\text {收敛,其它选项的级数不满足} \\lim_{n \\to \\infty} u_{n} = 0, \\text {故级数发散}. \\end{array}\">\\begin{array}{l} \\text {解答令} u_{n} = (\\frac{5}{4})^{-n^{2}+1}, \\text {则} \\lim_{n \\to \\infty} \\sqrt[n]{u_{n}} = \\lim_{n \\to \\infty} (\\frac{5}{4})^{-n+\\frac{1}{n}} = 0 &lt; 1, \\text {由根值审敛法知级数} \\\\ \\sum_{n=1}^{\\infty} (\\frac{5}{4})^{-n^{2}+1} \\text {收敛,其它选项的级数不满足} \\lim_{n \\to \\infty} u_{n} = 0, \\text {故级数发散}. \\end{array}</div>"
     },
     {
       "id": "q0032",
       "number": 32,
       "header": "#32-Averge",
       "difficulty": "Averge",
-      "prompt_html": "<img src=\"/static/generated/assets/advanced-math/ch084/q0032_prompt.png\"/>",
+      "prompt_html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{对于级数} \\sum_{n=1}^{\\infty} \\left( 1 + \\frac{a}{n} \\right)^{n^{2}} \\text{（其中} a \\text{为实数）的收敛性，下列说法正确的是[ ].}\">\\text{对于级数} \\sum_{n=1}^{\\infty} \\left( 1 + \\frac{a}{n} \\right)^{n^{2}} \\text{（其中} a \\text{为实数）的收敛性，下列说法正确的是[ ].}</span>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch084/q0032_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{级数收敛};\">\\text{级数收敛};</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch084/q0032_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{级数发散};\">\\text{级数发散};</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch084/q0032_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{当} a &lt; 0\\text{，级数收敛；}\">\\text{当} a &lt; 0\\text{，级数收敛；}</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch084/q0032_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{当} a &gt; 0 \\text{，级数收敛.}\">\\text{当} a &gt; 0 \\text{，级数收敛.}</span>"
         }
       ],
       "answer": "C",
       "answer_index": 2,
-      "analysis_html": "<img src=\"/static/generated/assets/advanced-math/ch084/q0032_analysis.png\"/>"
+      "analysis_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{array}{l} \\text {解答由于} \\lim_{n \\to \\infty} \\sqrt[n]{u_{n}} = \\lim_{n \\to \\infty} \\left(1 + \\frac{a}{n}\\right)^{n} = e^{a}, \\\\ \\text {当} a &lt; 0 \\text {时，} e^{a} &lt; 1, \\text {由根值审敛法知级数收敛,} \\\\ \\text {当} a &gt; 0 \\text {时，} e^{a} &gt; 1, \\text {由根值审敛法知级数发散,} \\\\ \\text {当} a = 0 \\text {时，} \\lim_{n \\to \\infty} u_{n} = 1 \\neq 0, \\text {则级数发散.} \\end{array}\">\\begin{array}{l} \\text {解答由于} \\lim_{n \\to \\infty} \\sqrt[n]{u_{n}} = \\lim_{n \\to \\infty} \\left(1 + \\frac{a}{n}\\right)^{n} = e^{a}, \\\\ \\text {当} a &lt; 0 \\text {时，} e^{a} &lt; 1, \\text {由根值审敛法知级数收敛,} \\\\ \\text {当} a &gt; 0 \\text {时，} e^{a} &gt; 1, \\text {由根值审敛法知级数发散,} \\\\ \\text {当} a = 0 \\text {时，} \\lim_{n \\to \\infty} u_{n} = 1 \\neq 0, \\text {则级数发散.} \\end{array}</div>"
     },
     {
       "id": "q0033",
       "number": 33,
       "header": "#33-Averge",
       "difficulty": "Averge",
-      "prompt_html": "<img src=\"/static/generated/assets/advanced-math/ch084/q0033_prompt.png\"/>",
+      "prompt_html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\sum_{n=1}^{\\infty} \\frac{2+(-1)^{n}}{a^{n}}(a&gt;0) \\text{的敛散性，下列说法正确的是[~]}.\">\\sum_{n=1}^{\\infty} \\frac{2+(-1)^{n}}{a^{n}}(a&gt;0) \\text{的敛散性，下列说法正确的是[~]}.</span>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch084/q0033_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{当} a &lt; 1 \\text{时，级数收敛};\">\\text{当} a &lt; 1 \\text{时，级数收敛};</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch084/q0033_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{级数收敛}.\">\\text{级数收敛}.</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch084/q0033_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{当} a &gt; 1 \\text{时，级数收敛};\">\\text{当} a &gt; 1 \\text{时，级数收敛};</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch084/q0033_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{当}a{=}1\\text{时，级数收敛};\">\\text{当}a{=}1\\text{时，级数收敛};</span>"
         }
       ],
       "answer": "C",
       "answer_index": 2,
-      "analysis_html": "<img src=\"/static/generated/assets/advanced-math/ch084/q0033_analysis.png\"/>"
+      "analysis_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{array}{l} \\text {解答令}u_{n}=\\frac{2+(-1)^{n}}{a^{n}}\\ ,\\ \\text {则}\\lim_{n\\rightarrow\\infty}\\sqrt[n]{u_{n}}=\\lim_{n\\rightarrow\\infty}\\frac{\\sqrt[n]{2+(-1)^{n}}}{a}=\\frac{1}{a}\\lim_{n\\rightarrow\\infty}\\sqrt[n]{2+(-1)^{n}}\\ ,\\ \\text {由于} \\\\ 1\\leq\\sqrt[n]{2+(-1)^{n}}\\leq\\sqrt[3]{3}\\ ,\\ \\text {所以}\\lim_{n\\rightarrow\\infty}\\sqrt[3]{2+(-1)^{n}}=1\\ ,\\ \\text {则}\\lim_{n\\rightarrow\\infty}\\sqrt[n]{u_{n}}=\\frac{1}{a}\\ ,\\ \\text {由根值审敛法知} \\\\ \\text {当}a&gt;1\\text {,级数收敛,当}a&lt;1\\text {,级数收敛,当}a=1\\text {时,}\\lim_{n\\rightarrow\\infty}u_{n}\\neq 0\\ ,\\ \\text {故原级数发散}. \\end{array}\">\\begin{array}{l} \\text {解答令}u_{n}=\\frac{2+(-1)^{n}}{a^{n}}\\ ,\\ \\text {则}\\lim_{n\\rightarrow\\infty}\\sqrt[n]{u_{n}}=\\lim_{n\\rightarrow\\infty}\\frac{\\sqrt[n]{2+(-1)^{n}}}{a}=\\frac{1}{a}\\lim_{n\\rightarrow\\infty}\\sqrt[n]{2+(-1)^{n}}\\ ,\\ \\text {由于} \\\\ 1\\leq\\sqrt[n]{2+(-1)^{n}}\\leq\\sqrt[3]{3}\\ ,\\ \\text {所以}\\lim_{n\\rightarrow\\infty}\\sqrt[3]{2+(-1)^{n}}=1\\ ,\\ \\text {则}\\lim_{n\\rightarrow\\infty}\\sqrt[n]{u_{n}}=\\frac{1}{a}\\ ,\\ \\text {由根值审敛法知} \\\\ \\text {当}a&gt;1\\text {,级数收敛,当}a&lt;1\\text {,级数收敛,当}a=1\\text {时,}\\lim_{n\\rightarrow\\infty}u_{n}\\neq 0\\ ,\\ \\text {故原级数发散}. \\end{array}</div>"
     },
     {
       "id": "q0034",
       "number": 34,
       "header": "#34-Averge",
       "difficulty": "Averge",
-      "prompt_html": "<img src=\"/static/generated/assets/advanced-math/ch084/q0034_prompt.png\"/>",
+      "prompt_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{array}{l} \\text{关于下列2个级数的敛散性，说法正确的是[ ].} \\\\ (1)\\sum_{n = 1}^{\\infty}\\frac{3^{n}}{(e + 1)^{n}}; \\quad (2)\\sum_{n = 1}^{\\infty}\\left(\\frac{n}{n + 1}\\right)^{n^{2}}. \\end{array}\">\\begin{array}{l} \\text{关于下列2个级数的敛散性，说法正确的是[ ].} \\\\ (1)\\sum_{n = 1}^{\\infty}\\frac{3^{n}}{(e + 1)^{n}}; \\quad (2)\\sum_{n = 1}^{\\infty}\\left(\\frac{n}{n + 1}\\right)^{n^{2}}. \\end{array}</div>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch084/q0034_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"(1) \\text{发散}, (2) \\text{发散};\">(1) \\text{发散}, (2) \\text{发散};</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch084/q0034_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"(1) \\text{收敛},\\ (2) \\text{收敛};\">(1) \\text{收敛},\\ (2) \\text{收敛};</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch084/q0034_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"(1) \\text{发散}, (2) \\text{收敛}.\">(1) \\text{发散}, (2) \\text{收敛}.</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch084/q0034_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"(1) \\text{收敛},\\ (2) \\text{发散};\">(1) \\text{收敛},\\ (2) \\text{发散};</span>"
         }
       ],
       "answer": "B",
       "answer_index": 1,
-      "analysis_html": "<img src=\"/static/generated/assets/advanced-math/ch084/q0034_analysis.png\"/>"
+      "analysis_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{array}{l} \\text {解答(1)令} u_{n}=\\frac{3^{n}}{(e+1)^{n}}, \\lim_{n \\to \\infty} \\sqrt[n]{u_{n}}=\\frac{3}{e+1}=&lt;1, \\text {由根值审敛法知级数} \\sum_{n=1}^{\\infty} \\frac{3^{n}}{(e+1)^{n}} \\\\ \\text {收敛；(2)令} u_{n}=\\left(\\frac{n}{n+1}\\right)^{n^{2}}, \\text {则} \\lim_{n \\to \\infty} \\sqrt[n]{u_{n}}=\\lim_{n \\to \\infty} \\left(\\frac{n}{n+1}\\right)^{n}=\\lim_{n \\to \\infty} \\frac{1}{\\left(1+\\frac{1}{n}\\right)^{n}}=\\frac{1}{e}&lt;1, \\text {由根值} \\\\ \\text {审敛法知级数} \\sum_{n=1}^{\\infty} \\left(\\frac{n}{n+1}\\right)^{n^{2}} \\text {收敛}. \\end{array}\">\\begin{array}{l} \\text {解答(1)令} u_{n}=\\frac{3^{n}}{(e+1)^{n}}, \\lim_{n \\to \\infty} \\sqrt[n]{u_{n}}=\\frac{3}{e+1}=&lt;1, \\text {由根值审敛法知级数} \\sum_{n=1}^{\\infty} \\frac{3^{n}}{(e+1)^{n}} \\\\ \\text {收敛；(2)令} u_{n}=\\left(\\frac{n}{n+1}\\right)^{n^{2}}, \\text {则} \\lim_{n \\to \\infty} \\sqrt[n]{u_{n}}=\\lim_{n \\to \\infty} \\left(\\frac{n}{n+1}\\right)^{n}=\\lim_{n \\to \\infty} \\frac{1}{\\left(1+\\frac{1}{n}\\right)^{n}}=\\frac{1}{e}&lt;1, \\text {由根值} \\\\ \\text {审敛法知级数} \\sum_{n=1}^{\\infty} \\left(\\frac{n}{n+1}\\right)^{n^{2}} \\text {收敛}. \\end{array}</div>"
     },
     {
       "id": "q0035",
       "number": 35,
       "header": "#35-Averge",
       "difficulty": "Averge",
-      "prompt_html": "<img src=\"/static/generated/assets/advanced-math/ch084/q0035_prompt.png\"/>",
+      "prompt_html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{关于级数} \\sum_{n=1}^{\\infty} \\frac{a^{n}}{\\ln(n+2)} (a&gt;0) \\text{的敛散性，下列说法正确的是[ ].}\">\\text{关于级数} \\sum_{n=1}^{\\infty} \\frac{a^{n}}{\\ln(n+2)} (a&gt;0) \\text{的敛散性，下列说法正确的是[ ].}</span>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch084/q0035_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{级数收敛}.\">\\text{级数收敛}.</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch084/q0035_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{当} \\, a {=} 1 \\text{时，级数收敛};\">\\text{当} \\, a {=} 1 \\text{时，级数收敛};</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch084/q0035_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{当} a &gt; 1 \\text{时，级数收敛};\">\\text{当} a &gt; 1 \\text{时，级数收敛};</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch084/q0035_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{当} a &lt; 1 \\text{时，级数收敛};\">\\text{当} a &lt; 1 \\text{时，级数收敛};</span>"
         }
       ],
       "answer": "D",
       "answer_index": 3,
-      "analysis_html": "<img src=\"/static/generated/assets/advanced-math/ch084/q0035_analysis.png\"/>"
+      "analysis_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{array}{l} \\text {解答令} u_{n} = \\frac{a^{n}}{\\ln(n+2)}, \\text {则} \\lim_{n \\to \\infty} \\sqrt[n]{u_{n}} = \\lim_{n \\to \\infty} \\frac{a}{\\sqrt[n]{\\ln(n+2)}} = a \\lim_{n \\to \\infty} \\frac{1}{\\sqrt[n]{\\ln(n+2)}}, \\text {由于} n \\geq 2 \\text {时}, \\\\ n+2 &lt; e^{n}, \\text {从而有} 1 &lt; \\sqrt[n]{\\ln(n+2)} &lt; \\sqrt[n]{n}, \\text {则} \\lim_{n \\to \\infty} \\sqrt[n]{\\ln(n+2)} = 1, \\text {从而} \\lim_{n \\to \\infty} \\sqrt[n]{u_{n}} = a, \\text {所以} \\\\ \\text {当当} a &lt; 1 \\text {时，级数收敛，当} a &gt; 1 \\text {时，级数发散，当} a = 1 \\text {时，} \\frac{1}{\\ln(n+2)} &gt; \\frac{1}{n}, \\text {由于} \\\\ \\text {级数} \\sum_{n=1}^{\\infty} \\frac{1}{n} \\text {发散，故由比较审敛法知原级数发散}. \\end{array}\">\\begin{array}{l} \\text {解答令} u_{n} = \\frac{a^{n}}{\\ln(n+2)}, \\text {则} \\lim_{n \\to \\infty} \\sqrt[n]{u_{n}} = \\lim_{n \\to \\infty} \\frac{a}{\\sqrt[n]{\\ln(n+2)}} = a \\lim_{n \\to \\infty} \\frac{1}{\\sqrt[n]{\\ln(n+2)}}, \\text {由于} n \\geq 2 \\text {时}, \\\\ n+2 &lt; e^{n}, \\text {从而有} 1 &lt; \\sqrt[n]{\\ln(n+2)} &lt; \\sqrt[n]{n}, \\text {则} \\lim_{n \\to \\infty} \\sqrt[n]{\\ln(n+2)} = 1, \\text {从而} \\lim_{n \\to \\infty} \\sqrt[n]{u_{n}} = a, \\text {所以} \\\\ \\text {当当} a &lt; 1 \\text {时，级数收敛，当} a &gt; 1 \\text {时，级数发散，当} a = 1 \\text {时，} \\frac{1}{\\ln(n+2)} &gt; \\frac{1}{n}, \\text {由于} \\\\ \\text {级数} \\sum_{n=1}^{\\infty} \\frac{1}{n} \\text {发散，故由比较审敛法知原级数发散}. \\end{array}</div>"
     },
     {
       "id": "q0036",
       "number": 36,
       "header": "#36-Averge",
       "difficulty": "Averge",
-      "prompt_html": "<img src=\"/static/generated/assets/advanced-math/ch084/q0036_prompt.png\"/>",
+      "prompt_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{array}{l} \\text {关于下列2个级数的敛散性，说法正确的是[ ].} \\\\ (1) \\sum_{n=1}^{\\infty} \\frac{n^{2}}{3^{n}}; \\quad (2) \\sum_{n=1}^{\\infty} \\left( \\frac{n}{3n-1} \\right)^{2n-1}. \\end{array}\">\\begin{array}{l} \\text {关于下列2个级数的敛散性，说法正确的是[ ].} \\\\ (1) \\sum_{n=1}^{\\infty} \\frac{n^{2}}{3^{n}}; \\quad (2) \\sum_{n=1}^{\\infty} \\left( \\frac{n}{3n-1} \\right)^{2n-1}. \\end{array}</div>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch084/q0036_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"(1) \\text{收敛},\\ (2) \\text{收敛};\">(1) \\text{收敛},\\ (2) \\text{收敛};</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch084/q0036_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"(1) \\text{收敛}, \\, (2) \\text{发散}.\">(1) \\text{收敛}, \\, (2) \\text{发散}.</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch084/q0036_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"(1) \\text{发散}, (2) \\text{发散};\">(1) \\text{发散}, (2) \\text{发散};</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch084/q0036_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"(1) \\text{发散}, \\, (2) \\text{收敛};\">(1) \\text{发散}, \\, (2) \\text{收敛};</span>"
         }
       ],
       "answer": "A",
       "answer_index": 0,
-      "analysis_html": "<img src=\"/static/generated/assets/advanced-math/ch084/q0036_analysis.png\"/>"
+      "analysis_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{array}{l} \\text {解答 (1) 令} u_{n} = \\frac{n^{2}}{3^{n}}, \\text {则} \\lim_{n \\to \\infty} \\sqrt[n]{u_{n}} = \\lim_{n \\to \\infty} \\frac{\\sqrt[n]{n^{2}}}{3} = \\frac{1}{3} &lt; 1, \\text {由根值审敛法知，级数} \\\\ \\sum_{n=1}^{\\infty} \\frac{n^{2}}{3^{n}} \\text {收敛}; (2) u_{n} = \\left( \\frac{n}{3n-1} \\right)^{2n-1}, \\text {则} \\lim_{n \\to \\infty} \\sqrt[n]{u_{n}} = \\lim_{n \\to \\infty} \\left( \\frac{n}{3n-1} \\right)^{\\frac{2n-1}{n}} = \\left( \\frac{1}{3} \\right)^{2} &lt; 1, \\text {由} \\\\ \\text {根值审敛法知，级数} \\sum_{n=1}^{\\infty} \\left( \\frac{n}{3n-1} \\right)^{2n-1} \\text {收敛}. \\end{array}\">\\begin{array}{l} \\text {解答 (1) 令} u_{n} = \\frac{n^{2}}{3^{n}}, \\text {则} \\lim_{n \\to \\infty} \\sqrt[n]{u_{n}} = \\lim_{n \\to \\infty} \\frac{\\sqrt[n]{n^{2}}}{3} = \\frac{1}{3} &lt; 1, \\text {由根值审敛法知，级数} \\\\ \\sum_{n=1}^{\\infty} \\frac{n^{2}}{3^{n}} \\text {收敛}; (2) u_{n} = \\left( \\frac{n}{3n-1} \\right)^{2n-1}, \\text {则} \\lim_{n \\to \\infty} \\sqrt[n]{u_{n}} = \\lim_{n \\to \\infty} \\left( \\frac{n}{3n-1} \\right)^{\\frac{2n-1}{n}} = \\left( \\frac{1}{3} \\right)^{2} &lt; 1, \\text {由} \\\\ \\text {根值审敛法知，级数} \\sum_{n=1}^{\\infty} \\left( \\frac{n}{3n-1} \\right)^{2n-1} \\text {收敛}. \\end{array}</div>"
     },
     {
       "id": "q0037",
       "number": 37,
       "header": "#37-Averge",
       "difficulty": "Averge",
-      "prompt_html": "<img src=\"/static/generated/assets/advanced-math/ch084/q0037_prompt.png\"/>",
+      "prompt_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{array}{l} \\text{关于下列2个级数的敛散性，说法正确的是[ ].} \\\\ (1)\\sum_{n=1}^{\\infty}(1-\\sin \\frac{1}{n})^{n^{2}};\\quad(2)\\sum_{n=1}^{\\infty}(1-\\tan \\frac{\\pi}{4n})^{n^{2}}.\\end{array}\">\\begin{array}{l} \\text{关于下列2个级数的敛散性，说法正确的是[ ].} \\\\ (1)\\sum_{n=1}^{\\infty}(1-\\sin \\frac{1}{n})^{n^{2}};\\quad(2)\\sum_{n=1}^{\\infty}(1-\\tan \\frac{\\pi}{4n})^{n^{2}}.\\end{array}</div>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch084/q0037_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"(1) \\text{发散}, \\, (2) \\text{收敛}.\">(1) \\text{发散}, \\, (2) \\text{收敛}.</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch084/q0037_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"(1) \\text{发散}, (2) \\text{发散};\">(1) \\text{发散}, (2) \\text{发散};</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch084/q0037_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{(1)收敛, (2)收敛;}\">\\text{(1)收敛, (2)收敛;}</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch084/q0037_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"(1) \\text{收敛}, \\, (2) \\text{发散};\">(1) \\text{收敛}, \\, (2) \\text{发散};</span>"
         }
       ],
       "answer": "C",
       "answer_index": 2,
-      "analysis_html": "<img src=\"/static/generated/assets/advanced-math/ch084/q0037_analysis.png\"/>"
+      "analysis_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{array}{l} \\text {解答(1) 令}u_{n}=(1-\\sin \\frac{1}{n})^{n^{2}},\\text {则}\\lim_{n\\rightarrow \\infty}\\sqrt[n]{u_{n}}=\\lim_{n\\rightarrow \\infty}(1-\\sin \\frac{1}{n})^{n}/n=e^{\\lim_{n\\rightarrow \\infty}n\\ln(1-\\sin \\frac{1}{n})},\\text {由于}\\\\ \\lim_{n\\rightarrow \\infty}n\\ln(1-\\sin \\frac{1}{n})=\\lim_{n\\rightarrow \\infty}\\frac{\\ln(1-\\sin \\frac{1}{n})}{n}=\\lim_{n\\rightarrow \\infty}\\frac{-\\sin \\frac{1}{n}}{\\frac{1}{n}}=-1,\\text {则}\\lim_{n\\rightarrow \\infty}\\sqrt[n]{u_{n}}=e^{-1}&lt;1,\\text {由根值}\\\\ \\text {审敛法知级数}\\sum_{n=1}^{\\infty}(1-\\sin \\frac{1}{n})^{n^{2}}\\text {收敛；}(2)\\text {令}u_{n}=(1-\\tan \\frac{\\pi}{4}n)^{n^{2}},\\text {则}\\\\ \\lim_{n\\rightarrow \\infty}\\sqrt[n]{u_{n}}=\\lim_{n\\rightarrow \\infty}(1-\\tan \\frac{\\pi}{4}n)^{n}/4n=e^{\\lim_{n\\rightarrow \\infty}n\\ln(1-\\tan \\frac{\\pi}{4}n)},\\text {由于}\\\\ \\lim_{n\\rightarrow \\infty}n\\ln(1-\\tan \\frac{\\pi}{4}n)=\\lim_{n\\rightarrow \\infty}\\frac{\\ln(1-\\tan \\frac{\\pi}{4}n)}{n}=\\lim_{n\\rightarrow \\infty}\\frac{-\\tan \\frac{\\pi}{4n}}{\\frac{1}{n}}=-\\frac{\\pi}{4},\\text {则}\\lim_{n\\rightarrow \\infty}\\sqrt[n]{u_{n}}=e^{-\\frac{\\pi}{4}}&lt;1,\\text {由根值审敛法知级数}\\sum_{n=1}^{\\infty}(1-\\tan \\frac{\\pi}{4}n)^{n^{2}}\\text {收敛.} \\end{array}\">\\begin{array}{l} \\text {解答(1) 令}u_{n}=(1-\\sin \\frac{1}{n})^{n^{2}},\\text {则}\\lim_{n\\rightarrow \\infty}\\sqrt[n]{u_{n}}=\\lim_{n\\rightarrow \\infty}(1-\\sin \\frac{1}{n})^{n}/n=e^{\\lim_{n\\rightarrow \\infty}n\\ln(1-\\sin \\frac{1}{n})},\\text {由于}\\\\ \\lim_{n\\rightarrow \\infty}n\\ln(1-\\sin \\frac{1}{n})=\\lim_{n\\rightarrow \\infty}\\frac{\\ln(1-\\sin \\frac{1}{n})}{n}=\\lim_{n\\rightarrow \\infty}\\frac{-\\sin \\frac{1}{n}}{\\frac{1}{n}}=-1,\\text {则}\\lim_{n\\rightarrow \\infty}\\sqrt[n]{u_{n}}=e^{-1}&lt;1,\\text {由根值}\\\\ \\text {审敛法知级数}\\sum_{n=1}^{\\infty}(1-\\sin \\frac{1}{n})^{n^{2}}\\text {收敛；}(2)\\text {令}u_{n}=(1-\\tan \\frac{\\pi}{4}n)^{n^{2}},\\text {则}\\\\ \\lim_{n\\rightarrow \\infty}\\sqrt[n]{u_{n}}=\\lim_{n\\rightarrow \\infty}(1-\\tan \\frac{\\pi}{4}n)^{n}/4n=e^{\\lim_{n\\rightarrow \\infty}n\\ln(1-\\tan \\frac{\\pi}{4}n)},\\text {由于}\\\\ \\lim_{n\\rightarrow \\infty}n\\ln(1-\\tan \\frac{\\pi}{4}n)=\\lim_{n\\rightarrow \\infty}\\frac{\\ln(1-\\tan \\frac{\\pi}{4}n)}{n}=\\lim_{n\\rightarrow \\infty}\\frac{-\\tan \\frac{\\pi}{4n}}{\\frac{1}{n}}=-\\frac{\\pi}{4},\\text {则}\\lim_{n\\rightarrow \\infty}\\sqrt[n]{u_{n}}=e^{-\\frac{\\pi}{4}}&lt;1,\\text {由根值审敛法知级数}\\sum_{n=1}^{\\infty}(1-\\tan \\frac{\\pi}{4}n)^{n^{2}}\\text {收敛.} \\end{array}</div>"
     },
     {
       "id": "q0038",
       "number": 38,
       "header": "#38-Averge",
       "difficulty": "Averge",
-      "prompt_html": "<img src=\"/static/generated/assets/advanced-math/ch084/q0038_prompt.png\"/>",
+      "prompt_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{array}{l} \\text{关于下列2个级数的敛散性，说法正确的是[ ].} \\\\ (1)\\sum_{n=1}^{\\infty}\\frac{n^{2}+1}{2^{n}};\\quad(2)\\sum_{n=2}^{\\infty}\\frac{n+1}{(\\ln n)^{n}}. \\end{array}\">\\begin{array}{l} \\text{关于下列2个级数的敛散性，说法正确的是[ ].} \\\\ (1)\\sum_{n=1}^{\\infty}\\frac{n^{2}+1}{2^{n}};\\quad(2)\\sum_{n=2}^{\\infty}\\frac{n+1}{(\\ln n)^{n}}. \\end{array}</div>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch084/q0038_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"(1) \\text{收敛}, \\, (2) \\text{发散}.\">(1) \\text{收敛}, \\, (2) \\text{发散}.</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch084/q0038_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"(1) \\text{发散}, (2) \\text{收敛};\">(1) \\text{发散}, (2) \\text{收敛};</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch084/q0038_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"(1) \\text{收敛},\\ (2) \\text{收敛};\">(1) \\text{收敛},\\ (2) \\text{收敛};</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch084/q0038_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"(1) \\text{发散}, (2) \\text{发散};\">(1) \\text{发散}, (2) \\text{发散};</span>"
         }
       ],
       "answer": "C",
       "answer_index": 2,
-      "analysis_html": "<img src=\"/static/generated/assets/advanced-math/ch084/q0038_analysis.png\"/>"
+      "analysis_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{array}{l} \\text {解答 (1) 令} u_{n} = \\frac{n^{2}+1}{2^{n}}, \\ \\lim_{n \\to \\infty} \\sqrt[n]{u_{n}} = \\lim_{n \\to \\infty} \\frac{1}{2} \\sqrt[n]{n^{2}+1} = \\frac{1}{2} &lt; 1, \\text {由根值审敛法知级数} \\\\ \\sum_{n=1}^{\\infty} \\frac{n^{2}+1}{2^{n}} \\text {收敛}; (2) \\text{令} u_{n} = \\frac{n+1}{(\\ln n)^{n}}, \\text {则} \\lim_{n \\to \\infty} \\sqrt[n]{u_{n}} = \\lim_{n \\to \\infty} \\frac{\\sqrt[n]{n+1}}{\\ln n} = 0 &lt; 1, \\text {由根值审敛法知} \\\\ \\text {级数} \\sum_{n=2}^{\\infty} \\frac{n+1}{(\\ln n)^{n}} \\text {收敛}. \\end{array}\">\\begin{array}{l} \\text {解答 (1) 令} u_{n} = \\frac{n^{2}+1}{2^{n}}, \\ \\lim_{n \\to \\infty} \\sqrt[n]{u_{n}} = \\lim_{n \\to \\infty} \\frac{1}{2} \\sqrt[n]{n^{2}+1} = \\frac{1}{2} &lt; 1, \\text {由根值审敛法知级数} \\\\ \\sum_{n=1}^{\\infty} \\frac{n^{2}+1}{2^{n}} \\text {收敛}; (2) \\text{令} u_{n} = \\frac{n+1}{(\\ln n)^{n}}, \\text {则} \\lim_{n \\to \\infty} \\sqrt[n]{u_{n}} = \\lim_{n \\to \\infty} \\frac{\\sqrt[n]{n+1}}{\\ln n} = 0 &lt; 1, \\text {由根值审敛法知} \\\\ \\text {级数} \\sum_{n=2}^{\\infty} \\frac{n+1}{(\\ln n)^{n}} \\text {收敛}. \\end{array}</div>"
     },
     {
       "id": "q0039",
       "number": 39,
       "header": "#39-Averge",
       "difficulty": "Averge",
-      "prompt_html": "<img src=\"/static/generated/assets/advanced-math/ch084/q0039_prompt.png\"/>",
+      "prompt_html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{对于级数} \\sum_{n=1}^{\\infty} \\frac{ (a_{n})^{n} n^{r^{2}}}{(n+1)^{r^{2}}} \\ \\text{（其中} a_{n} \\rightarrow a (n \\rightarrow \\infty), \\text{ 且} a_{n}、a \\text{ 均为正数）的收敛性，} \\text{下列说法正确的是[ ].}\">\\text{对于级数} \\sum_{n=1}^{\\infty} \\frac{ (a_{n})^{n} n^{r^{2}}}{(n+1)^{r^{2}}} \\ \\text{（其中} a_{n} \\rightarrow a (n \\rightarrow \\infty), \\text{ 且} a_{n}、a \\text{ 均为正数）的收敛性，} \\text{下列说法正确的是[ ].}</span>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch084/q0039_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{当} a &lt; e, \\text{级数发散}.\">\\text{当} a &lt; e, \\text{级数发散}.</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch084/q0039_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{级数发散};\">\\text{级数发散};</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch084/q0039_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{级数收敛};\">\\text{级数收敛};</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch084/q0039_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{当} a &gt; e, \\text{级数发散};\">\\text{当} a &gt; e, \\text{级数发散};</span>"
         }
       ],
       "answer": "D",
       "answer_index": 3,
-      "analysis_html": "<img src=\"/static/generated/assets/advanced-math/ch084/q0039_analysis.png\"/>"
+      "analysis_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{array}{l} \\text {解答需讨论参数} a \\text {的不同情况，} \\\\ \\text {由于} \\lim_{n \\to \\infty} \\sqrt[n]{u_{n}} = \\lim_{n \\to \\infty} \\sqrt[n]{\\frac{(a_{n})^{n} n^{n^{2}}}{(n+1)^{n^{2}}}} = \\lim_{n \\to \\infty} \\frac{a_{n}}{(1+\\frac{1}{n})^{n}} = \\frac{a}{e}, \\\\ \\text {当} a &lt; e \\text {时，即} \\frac{a}{e} &lt; 1 \\text {时，级数收敛；} \\\\ \\text {当} a &gt; e \\text {，即} \\frac{a}{e} &gt; 1 \\text {时，级数发散；} \\\\ \\text {当} a = e \\text {，即} \\frac{a}{e} = 1 \\text {时，用此法不能审数.} \\end{array}\">\\begin{array}{l} \\text {解答需讨论参数} a \\text {的不同情况，} \\\\ \\text {由于} \\lim_{n \\to \\infty} \\sqrt[n]{u_{n}} = \\lim_{n \\to \\infty} \\sqrt[n]{\\frac{(a_{n})^{n} n^{n^{2}}}{(n+1)^{n^{2}}}} = \\lim_{n \\to \\infty} \\frac{a_{n}}{(1+\\frac{1}{n})^{n}} = \\frac{a}{e}, \\\\ \\text {当} a &lt; e \\text {时，即} \\frac{a}{e} &lt; 1 \\text {时，级数收敛；} \\\\ \\text {当} a &gt; e \\text {，即} \\frac{a}{e} &gt; 1 \\text {时，级数发散；} \\\\ \\text {当} a = e \\text {，即} \\frac{a}{e} = 1 \\text {时，用此法不能审数.} \\end{array}</div>"
     },
     {
       "id": "q0040",
       "number": 40,
       "header": "#40-Averge",
       "difficulty": "Averge",
-      "prompt_html": "<img src=\"/static/generated/assets/advanced-math/ch084/q0040_prompt.png\"/>",
+      "prompt_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{array}{l} \\text {关于下列2个级数的敛散性，说法正确的是[ ].} \\\\ (1) \\sum \\limits_{n = 1} ^ { \\infty } \\frac {n \\sqrt {n}}{2 ^ {n}} ; \\quad (2) \\sum \\limits_{n = 1} ^ { \\infty } \\frac { \\ln n } { 2 ^ { n } } . \\end{array}\">\\begin{array}{l} \\text {关于下列2个级数的敛散性，说法正确的是[ ].} \\\\ (1) \\sum \\limits_{n = 1} ^ { \\infty } \\frac {n \\sqrt {n}}{2 ^ {n}} ; \\quad (2) \\sum \\limits_{n = 1} ^ { \\infty } \\frac { \\ln n } { 2 ^ { n } } . \\end{array}</div>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch084/q0040_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"(1) \\text{收敛},\\,(2) \\text{发散}.\">(1) \\text{收敛},\\,(2) \\text{发散}.</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch084/q0040_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"(1) \\text{收敛},\\ (2) \\text{收敛};\">(1) \\text{收敛},\\ (2) \\text{收敛};</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch084/q0040_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"(1) \\text{发散}, (2) \\text{发散};\">(1) \\text{发散}, (2) \\text{发散};</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch084/q0040_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"(1) \\text{发散}, \\, (2) \\text{收敛};\">(1) \\text{发散}, \\, (2) \\text{收敛};</span>"
         }
       ],
       "answer": "B",
       "answer_index": 1,
-      "analysis_html": "<img src=\"/static/generated/assets/advanced-math/ch084/q0040_analysis.png\"/>"
+      "analysis_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{array}{l} \\text {解答(1)由于} \\lim_{n \\rightarrow \\infty} \\frac{2^{n}}{1} = \\lim_{n \\rightarrow \\infty} \\sqrt[n]{n} = 1, \\text {由比较审敛法知级数} \\sum_{n=1}^{\\infty} \\frac{n^{\\sqrt[n]{n}}}{2^{n}} \\text {与级数} \\sum_{n=1}^{\\infty} \\frac{1}{2^{n}} \\text {同时收敛同时发散,由根值审敛法知级数} \\sum_{n=1}^{\\infty} \\frac{1}{2^{n}} \\text {收敛,所以级数} \\sum_{n=1}^{\\infty} \\frac{n^{\\sqrt[n]{n}}}{2^{n}} \\text {收敛};(2)\\text{首先考虑级数} \\sum_{n=1}^{\\infty} \\frac{n}{2^{n}} \\text {的敛散性,令} u_{n} = \\frac{n}{2^{n}}, \\text {则} \\lim_{n \\rightarrow \\infty} \\sqrt[n]{u_{n}} = \\frac{1}{2} \\lim_{n \\rightarrow \\infty} \\sqrt[n]{n} = \\frac{1}{2} &lt; 1, \\text {由根值审敛法知级数} \\sum_{n=1}^{\\infty} \\frac{n}{2^{n}} \\text {收敛,又由于当} n \\geq 1 \\text {时,有} n &lt; e^{n}, \\text {所以有} \\ln n &lt; n, \\text {从而} \\frac{\\ln n}{2^{n}} &lt; \\frac{n}{2^{n}}, \\text {又比较审敛法知级数} \\sum_{n=1}^{\\infty} \\frac{\\ln n}{2^{n}} \\text {收敛.} \\end{array}\">\\begin{array}{l} \\text {解答(1)由于} \\lim_{n \\rightarrow \\infty} \\frac{2^{n}}{1} = \\lim_{n \\rightarrow \\infty} \\sqrt[n]{n} = 1, \\text {由比较审敛法知级数} \\sum_{n=1}^{\\infty} \\frac{n^{\\sqrt[n]{n}}}{2^{n}} \\text {与级数} \\sum_{n=1}^{\\infty} \\frac{1}{2^{n}} \\text {同时收敛同时发散,由根值审敛法知级数} \\sum_{n=1}^{\\infty} \\frac{1}{2^{n}} \\text {收敛,所以级数} \\sum_{n=1}^{\\infty} \\frac{n^{\\sqrt[n]{n}}}{2^{n}} \\text {收敛};(2)\\text{首先考虑级数} \\sum_{n=1}^{\\infty} \\frac{n}{2^{n}} \\text {的敛散性,令} u_{n} = \\frac{n}{2^{n}}, \\text {则} \\lim_{n \\rightarrow \\infty} \\sqrt[n]{u_{n}} = \\frac{1}{2} \\lim_{n \\rightarrow \\infty} \\sqrt[n]{n} = \\frac{1}{2} &lt; 1, \\text {由根值审敛法知级数} \\sum_{n=1}^{\\infty} \\frac{n}{2^{n}} \\text {收敛,又由于当} n \\geq 1 \\text {时,有} n &lt; e^{n}, \\text {所以有} \\ln n &lt; n, \\text {从而} \\frac{\\ln n}{2^{n}} &lt; \\frac{n}{2^{n}}, \\text {又比较审敛法知级数} \\sum_{n=1}^{\\infty} \\frac{\\ln n}{2^{n}} \\text {收敛.} \\end{array}</div>"
     },
     {
       "id": "q0041",
       "number": 41,
       "header": "#41-Averge",
       "difficulty": "Averge",
-      "prompt_html": "<img src=\"/static/generated/assets/advanced-math/ch084/q0041_prompt.png\"/>",
+      "prompt_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{array}{l} \\text{关于下列2个级数的敛散性，说法正确的是[ ].} \\\\ \\\\ (1)\\sum_{n=1}^{\\infty}\\frac{n\\cos^{2}\\frac{n\\pi}{3}}{2^{n}};\\ (2)\\sum_{n=1}^{\\infty}n\\tan\\frac{\\pi}{2^{n+1}}. \\end{array}\">\\begin{array}{l} \\text{关于下列2个级数的敛散性，说法正确的是[ ].} \\\\ \\\\ (1)\\sum_{n=1}^{\\infty}\\frac{n\\cos^{2}\\frac{n\\pi}{3}}{2^{n}};\\ (2)\\sum_{n=1}^{\\infty}n\\tan\\frac{\\pi}{2^{n+1}}. \\end{array}</div>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch084/q0041_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"(1) \\text{收敛}, \\, (2) \\text{发散}.\">(1) \\text{收敛}, \\, (2) \\text{发散}.</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch084/q0041_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"(1) \\text{发散}, \\, (2) \\text{收敛};\">(1) \\text{发散}, \\, (2) \\text{收敛};</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch084/q0041_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"(1) \\text{发散}, \\, (2) \\text{发散};\">(1) \\text{发散}, \\, (2) \\text{发散};</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch084/q0041_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"(1) \\text{收敛},\\ (2) \\text{收敛};\">(1) \\text{收敛},\\ (2) \\text{收敛};</span>"
         }
       ],
       "answer": "D",
       "answer_index": 3,
-      "analysis_html": "<img src=\"/static/generated/assets/advanced-math/ch084/q0041_analysis.png\"/>"
+      "analysis_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{aligned}&amp;\\text{解答(1)由于}\\frac{n\\cos^{2}\\frac{n\\pi}{3}}{2^{n}}\\leq \\frac{n}{2^{n}}，\\text{而由根值审敛法知级数}\\sum_{n=1}^{\\infty}\\frac{n}{2^{n}}\\text{是收敛的}，\\text{从而由}\\\\&amp;\\text{比较审敛法知，级数}\\sum_{n=1}^{\\infty}\\frac{n\\cos^{2}\\frac{n\\pi}{3}}{2^{n}}\\text{收敛}；(2)\\text{令}u_{n}=n\\tan\\frac{\\pi}{2^{n+1}}，\\text{则}\\\\&amp;\\lim_{n\\rightarrow\\infty}\\frac{u_{n+1}}{u_{n}}=\\lim_{n\\rightarrow\\infty}\\frac{(n+1)\\tan\\frac{\\pi}{2^{n+2}}}{n\\tan\\frac{\\pi}{2^{n+1}}}=\\lim_{n\\rightarrow\\infty}\\frac{n+1}{n}\\frac{2^{\\frac{\\pi}{n+2}}}{\\frac{\\pi}{2^{n+1}}}=\\frac{1}{2}&lt;1，\\text{由比较审敛法知}，\\text{级数}\\\\&amp;\\sum_{n=1}^{\\infty}n\\tan\\frac{\\pi}{2^{n+1}}\\text{收敛}.\\end{aligned}\">\\begin{aligned}&amp;\\text{解答(1)由于}\\frac{n\\cos^{2}\\frac{n\\pi}{3}}{2^{n}}\\leq \\frac{n}{2^{n}}，\\text{而由根值审敛法知级数}\\sum_{n=1}^{\\infty}\\frac{n}{2^{n}}\\text{是收敛的}，\\text{从而由}\\\\&amp;\\text{比较审敛法知，级数}\\sum_{n=1}^{\\infty}\\frac{n\\cos^{2}\\frac{n\\pi}{3}}{2^{n}}\\text{收敛}；(2)\\text{令}u_{n}=n\\tan\\frac{\\pi}{2^{n+1}}，\\text{则}\\\\&amp;\\lim_{n\\rightarrow\\infty}\\frac{u_{n+1}}{u_{n}}=\\lim_{n\\rightarrow\\infty}\\frac{(n+1)\\tan\\frac{\\pi}{2^{n+2}}}{n\\tan\\frac{\\pi}{2^{n+1}}}=\\lim_{n\\rightarrow\\infty}\\frac{n+1}{n}\\frac{2^{\\frac{\\pi}{n+2}}}{\\frac{\\pi}{2^{n+1}}}=\\frac{1}{2}&lt;1，\\text{由比较审敛法知}，\\text{级数}\\\\&amp;\\sum_{n=1}^{\\infty}n\\tan\\frac{\\pi}{2^{n+1}}\\text{收敛}.\\end{aligned}</div>"
     },
     {
       "id": "q0042",
       "number": 42,
       "header": "#42-Averge",
       "difficulty": "Averge",
-      "prompt_html": "<img src=\"/static/generated/assets/advanced-math/ch084/q0042_prompt.png\"/>",
+      "prompt_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{array}{l} \\text{关于下列2个级数的敛散性，说法正确的是[ ].} \\\\ (1)\\sum_{n=1}^{\\infty}\\left(\\frac{3n^{2}}{n^{2}+1}\\right)^{n},\\ (2)\\sum_{n=1}^{\\infty}\\frac{3^{n}}{1+e^{n}}. \\end{array}\">\\begin{array}{l} \\text{关于下列2个级数的敛散性，说法正确的是[ ].} \\\\ (1)\\sum_{n=1}^{\\infty}\\left(\\frac{3n^{2}}{n^{2}+1}\\right)^{n},\\ (2)\\sum_{n=1}^{\\infty}\\frac{3^{n}}{1+e^{n}}. \\end{array}</div>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch084/q0042_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"(1) \\text{发散}, (2) \\text{收敛};\">(1) \\text{发散}, (2) \\text{收敛};</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch084/q0042_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"(1) \\text{收敛},\\ (2) \\text{收敛};\">(1) \\text{收敛},\\ (2) \\text{收敛};</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch084/q0042_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"(1) \\text{收敛},\\,(2) \\text{发散}.\">(1) \\text{收敛},\\,(2) \\text{发散}.</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch084/q0042_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"(1) \\text{发散}, \\, (2) \\text{发散};\">(1) \\text{发散}, \\, (2) \\text{发散};</span>"
         }
       ],
       "answer": "D",
       "answer_index": 3,
-      "analysis_html": "<img src=\"/static/generated/assets/advanced-math/ch084/q0042_analysis.png\"/>"
+      "analysis_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{array}{l} \\text{解答 (1) 由于} \\lim_{n \\to \\infty} \\sqrt[n]{u_n} = \\lim_{n \\to \\infty} \\frac{3n^2}{n^2+1} = 3 &gt; 1, \\text{所以级数} \\sum_{n=1}^{\\infty} \\left( \\frac{3n^2}{n^2+1} \\right)^n \\text{发散}. \\\\ (2) \\text{由于} \\lim_{n \\to \\infty} \\sqrt[n]{u_n} = \\lim_{n \\to \\infty} \\frac{3}{\\sqrt[n]{1+e^n}} = \\frac{3}{e} &gt; 1, \\text{所以级数} \\sum_{n=1}^{\\infty} \\frac{3^n}{1+e^n} \\text{发散}. \\end{array}\">\\begin{array}{l} \\text{解答 (1) 由于} \\lim_{n \\to \\infty} \\sqrt[n]{u_n} = \\lim_{n \\to \\infty} \\frac{3n^2}{n^2+1} = 3 &gt; 1, \\text{所以级数} \\sum_{n=1}^{\\infty} \\left( \\frac{3n^2}{n^2+1} \\right)^n \\text{发散}. \\\\ (2) \\text{由于} \\lim_{n \\to \\infty} \\sqrt[n]{u_n} = \\lim_{n \\to \\infty} \\frac{3}{\\sqrt[n]{1+e^n}} = \\frac{3}{e} &gt; 1, \\text{所以级数} \\sum_{n=1}^{\\infty} \\frac{3^n}{1+e^n} \\text{发散}. \\end{array}</div>"
     },
     {
       "id": "q0043",
       "number": 43,
       "header": "#43-Averge",
       "difficulty": "Averge",
-      "prompt_html": "<img src=\"/static/generated/assets/advanced-math/ch084/q0043_prompt.png\"/>",
+      "prompt_html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\sum_{n=1}^{\\infty}a^{n}(1-\\cos\\frac{1}{2^{n}})(\\text{其中}a\\text{为正数})\\text{的收敛性}，\\text{下列说法正确的是}[~].\">\\sum_{n=1}^{\\infty}a^{n}(1-\\cos\\frac{1}{2^{n}})(\\text{其中}a\\text{为正数})\\text{的收敛性}，\\text{下列说法正确的是}[~].</span>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch084/q0043_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{级数发散};\">\\text{级数发散};</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch084/q0043_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{级数收敛};\">\\text{级数收敛};</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch084/q0043_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{当} a &lt; 4 \\text{时，级数收敛};\">\\text{当} a &lt; 4 \\text{时，级数收敛};</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch084/q0043_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{当} a &lt; 4 \\text{时，级数发散}.\">\\text{当} a &lt; 4 \\text{时，级数发散}.</span>"
         }
       ],
       "answer": "C",
       "answer_index": 2,
-      "analysis_html": "<img src=\"/static/generated/assets/advanced-math/ch084/q0043_analysis.png\"/>"
+      "analysis_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{array}{l} \\text {解答} \\text {由于} \\lim_{n \\to \\infty} \\frac{a^{n}(1-\\cos \\frac{1}{2^{n}})}{\\frac{a^{n}}{2^{2n}}} = \\lim_{n \\to \\infty} \\frac{(1-\\cos \\frac{1}{2^{n}})}{\\frac{1}{2^{2n}}} = \\frac{1}{2}, \\\\ \\sum_{n=1}^{\\infty} a^{n}(1-\\cos \\frac{1}{2^{n}}) \\text {与级数} \\sum_{n=1}^{\\infty} \\frac{a^{n}}{2^{2n}} \\text {同时收敛同时发散，只需考虑级数} \\sum_{n=1}^{\\infty} \\frac{a^{n}}{2^{2n}} \\text {的敛散性，} \\\\ \\text {令} u_{n} = \\frac{a^{n}}{2^{n}}, \\text {则} \\lim_{n \\to \\infty} \\sqrt[n]{u_{n}} = \\frac{a}{4}, \\text {需讨论参数} a \\text {的不同情况，} \\\\ \\text {当} a &lt; 4 \\text {时，} \\frac{a}{4} &lt; 1, \\text {由根值审敛法知级数收敛，} \\\\ \\text {当} a &gt; 4 \\text {时，} \\frac{a}{4} &gt; 1, \\text {由根值审敛法知级数发散，} \\\\ \\text {当} a = 4, \\text {即} \\frac{a}{4} = 1 \\text {时，用此法不能审敛，此时级数为} \\sum_{n=1}^{\\infty} 1 \\text {为发散级数.} \\end{array}\">\\begin{array}{l} \\text {解答} \\text {由于} \\lim_{n \\to \\infty} \\frac{a^{n}(1-\\cos \\frac{1}{2^{n}})}{\\frac{a^{n}}{2^{2n}}} = \\lim_{n \\to \\infty} \\frac{(1-\\cos \\frac{1}{2^{n}})}{\\frac{1}{2^{2n}}} = \\frac{1}{2}, \\\\ \\sum_{n=1}^{\\infty} a^{n}(1-\\cos \\frac{1}{2^{n}}) \\text {与级数} \\sum_{n=1}^{\\infty} \\frac{a^{n}}{2^{2n}} \\text {同时收敛同时发散，只需考虑级数} \\sum_{n=1}^{\\infty} \\frac{a^{n}}{2^{2n}} \\text {的敛散性，} \\\\ \\text {令} u_{n} = \\frac{a^{n}}{2^{n}}, \\text {则} \\lim_{n \\to \\infty} \\sqrt[n]{u_{n}} = \\frac{a}{4}, \\text {需讨论参数} a \\text {的不同情况，} \\\\ \\text {当} a &lt; 4 \\text {时，} \\frac{a}{4} &lt; 1, \\text {由根值审敛法知级数收敛，} \\\\ \\text {当} a &gt; 4 \\text {时，} \\frac{a}{4} &gt; 1, \\text {由根值审敛法知级数发散，} \\\\ \\text {当} a = 4, \\text {即} \\frac{a}{4} = 1 \\text {时，用此法不能审敛，此时级数为} \\sum_{n=1}^{\\infty} 1 \\text {为发散级数.} \\end{array}</div>"
     },
     {
       "id": "q0044",
       "number": 44,
       "header": "#44-Averge",
       "difficulty": "Averge",
-      "prompt_html": "<img src=\"/static/generated/assets/advanced-math/ch084/q0044_prompt.png\"/>",
+      "prompt_html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{对于级数} \\sum_{n=1}^{\\infty} \\left( \\frac{b}{2a_{n}+1} \\right)^{n} \\text{（其中} a_{n} \\rightarrow a(n \\rightarrow \\infty) \\text{，且} a_{n}、b、a \\text{均为正数）的收敛性，下列说法正确的是[ ].}\">\\text{对于级数} \\sum_{n=1}^{\\infty} \\left( \\frac{b}{2a_{n}+1} \\right)^{n} \\text{（其中} a_{n} \\rightarrow a(n \\rightarrow \\infty) \\text{，且} a_{n}、b、a \\text{均为正数）的收敛性，下列说法正确的是[ ].}</span>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch084/q0044_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"(A) \\text{当} b - 1 &gt; 2 a , \\text{级数发散};\">(A) \\text{当} b - 1 &gt; 2 a , \\text{级数发散};</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch084/q0044_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{级数收敛};\">\\text{级数收敛};</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch084/q0044_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{级数发散};\">\\text{级数发散};</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch084/q0044_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{当} b - 1 &lt; 2 a \\text{，级数发散.}\">\\text{当} b - 1 &lt; 2 a \\text{，级数发散.}</span>"
         }
       ],
       "answer": "A",
       "answer_index": 0,
-      "analysis_html": "<img src=\"/static/generated/assets/advanced-math/ch084/q0044_analysis.png\"/>"
+      "analysis_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{array}{l} \\text {解答需讨论参数} a、b \\text{的不同情况}， \\\\ \\text {由于} \\lim_{n \\to \\infty} \\sqrt[n]{u_n} = \\lim_{n \\to \\infty} \\pi \\sqrt[n]{\\left(\\frac{b}{2a_n+1}\\right)^n} = \\lim_{n \\to \\infty} \\frac{b}{2a_n+1} = \\frac{b}{2a+1}, \\\\ \\text {当} b-1 &lt; 2a \\text {时，即} \\frac{b}{2a+1} &lt; 1 \\text {时，级数收敛}; \\\\ \\text {当} b-1 &gt; 2a \\text {，即} \\frac{b}{2a+1} &gt; 1 \\text {时，级数发散}; \\\\ \\text {当} b-1 = 2a \\text {，即} \\frac{b}{2a+1} = 1 \\text {，用此法不能审敛}. \\end{array}\">\\begin{array}{l} \\text {解答需讨论参数} a、b \\text{的不同情况}， \\\\ \\text {由于} \\lim_{n \\to \\infty} \\sqrt[n]{u_n} = \\lim_{n \\to \\infty} \\pi \\sqrt[n]{\\left(\\frac{b}{2a_n+1}\\right)^n} = \\lim_{n \\to \\infty} \\frac{b}{2a_n+1} = \\frac{b}{2a+1}, \\\\ \\text {当} b-1 &lt; 2a \\text {时，即} \\frac{b}{2a+1} &lt; 1 \\text {时，级数收敛}; \\\\ \\text {当} b-1 &gt; 2a \\text {，即} \\frac{b}{2a+1} &gt; 1 \\text {时，级数发散}; \\\\ \\text {当} b-1 = 2a \\text {，即} \\frac{b}{2a+1} = 1 \\text {，用此法不能审敛}. \\end{array}</div>"
     },
     {
       "id": "q0045",
       "number": 45,
       "header": "#45-Averge",
       "difficulty": "Averge",
-      "prompt_html": "<img src=\"/static/generated/assets/advanced-math/ch084/q0045_prompt.png\"/>",
+      "prompt_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{array}{l} \\text{关于下列2个级数的敛散性，说法正确的是[ ].} \\\\ (1) \\sum_{n=1}^{\\infty} \\left( \\frac{n}{2n+1} \\right)^{n}, \\quad (2) \\sum_{n=1}^{\\infty} \\frac{1}{(\\ln(n+1))^{n}}. \\end{array}\">\\begin{array}{l} \\text{关于下列2个级数的敛散性，说法正确的是[ ].} \\\\ (1) \\sum_{n=1}^{\\infty} \\left( \\frac{n}{2n+1} \\right)^{n}, \\quad (2) \\sum_{n=1}^{\\infty} \\frac{1}{(\\ln(n+1))^{n}}. \\end{array}</div>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch084/q0045_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"(1) \\text{发散},\\,(2) \\text{收敛};\">(1) \\text{发散},\\,(2) \\text{收敛};</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch084/q0045_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"(1) \\text{收敛},\\ (2) \\text{收敛};\">(1) \\text{收敛},\\ (2) \\text{收敛};</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch084/q0045_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"(1) \\text{收敛},\\,(2) \\text{发散}.\">(1) \\text{收敛},\\,(2) \\text{发散}.</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch084/q0045_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"(1) \\text{发散}, (2) \\text{发散};\">(1) \\text{发散}, (2) \\text{发散};</span>"
         }
       ],
       "answer": "B",
       "answer_index": 1,
-      "analysis_html": "<img src=\"/static/generated/assets/advanced-math/ch084/q0045_analysis.png\"/>"
+      "analysis_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{array}{l} \\text {解答 (1)} \\lim_{n \\rightarrow \\infty} \\sqrt[n]{u_{n}} = \\lim_{n \\rightarrow \\infty} \\sqrt[n]{\\left(\\frac{n}{2n+1}\\right)^{n}} = \\lim_{n \\rightarrow \\infty} \\frac{n}{2n+1} = \\frac{1}{2} &lt; 1, \\text {所以级数} \\sum_{n=1}^{\\infty} \\left(\\frac{n}{2n+1}\\right)^{n} \\text {收敛}. \\\\ \\text {(2) 利用根值审数法,} \\lim_{n \\rightarrow \\infty} \\sqrt[n]{u_{n}} = \\lim_{n \\rightarrow \\infty} \\frac{1}{\\ln(n+1)} = 0 &lt; 1, \\text {所以级数} \\sum_{n=1}^{\\infty} \\frac{1}{(\\ln(n+1))^{n}} \\text {收敛}. \\end{array}\">\\begin{array}{l} \\text {解答 (1)} \\lim_{n \\rightarrow \\infty} \\sqrt[n]{u_{n}} = \\lim_{n \\rightarrow \\infty} \\sqrt[n]{\\left(\\frac{n}{2n+1}\\right)^{n}} = \\lim_{n \\rightarrow \\infty} \\frac{n}{2n+1} = \\frac{1}{2} &lt; 1, \\text {所以级数} \\sum_{n=1}^{\\infty} \\left(\\frac{n}{2n+1}\\right)^{n} \\text {收敛}. \\\\ \\text {(2) 利用根值审数法,} \\lim_{n \\rightarrow \\infty} \\sqrt[n]{u_{n}} = \\lim_{n \\rightarrow \\infty} \\frac{1}{\\ln(n+1)} = 0 &lt; 1, \\text {所以级数} \\sum_{n=1}^{\\infty} \\frac{1}{(\\ln(n+1))^{n}} \\text {收敛}. \\end{array}</div>"
     },
     {
       "id": "q0046",
       "number": 46,
       "header": "#46-Averge",
       "difficulty": "Averge",
-      "prompt_html": "<img src=\"/static/generated/assets/advanced-math/ch084/q0046_prompt.png\"/>",
+      "prompt_html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{对于级数} \\sum_{n=1}^{\\infty} \\left( \\frac{n}{an+1} \\right)^{n} (a&gt;0) \\text{的收敛性，下列说法正确的是[~]}.\">\\text{对于级数} \\sum_{n=1}^{\\infty} \\left( \\frac{n}{an+1} \\right)^{n} (a&gt;0) \\text{的收敛性，下列说法正确的是[~]}.</span>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch084/q0046_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{当} a \\geq 1 \\text{时，级数收敛};\">\\text{当} a \\geq 1 \\text{时，级数收敛};</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch084/q0046_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{当} a &gt; 1 \\text{时，级数收敛};\">\\text{当} a &gt; 1 \\text{时，级数收敛};</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch084/q0046_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{当} a \\leq 1 \\text{时，级数收敛};\">\\text{当} a \\leq 1 \\text{时，级数收敛};</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch084/q0046_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{当} a &lt; 1 \\text{时，级数收敛};\">\\text{当} a &lt; 1 \\text{时，级数收敛};</span>"
         }
       ],
       "answer": "B",
       "answer_index": 1,
-      "analysis_html": "<img src=\"/static/generated/assets/advanced-math/ch084/q0046_analysis.png\"/>"
+      "analysis_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{array}{l} \\text {解答令} u_{n} = \\left(\\frac{n}{an+1}\\right)^{n}, \\lim_{n \\to \\infty} \\sqrt[n]{u_{n}} = \\lim_{n \\to \\infty} \\frac{n}{an+1} = \\frac{1}{a}, \\text {则由根值审敛法知，当} a &gt; 1 \\text {时，} \\\\ \\text {级数} \\sum_{n=1}^{\\infty} \\left(\\frac{n}{an+1}\\right)^{n} (a &gt; 0) \\text {收敛，当} a &lt; 1 \\text {时，级数} \\sum_{n=1}^{\\infty} \\left(\\frac{n}{an+1}\\right)^{n} (a &gt; 0) \\text {发散，当} a = 1 \\text {时，} \\\\ \\lim_{n \\to \\infty} u_{n} = \\lim_{n \\to \\infty} \\left(\\frac{n}{n+1}\\right)^{n} = \\frac{1}{e} \\neq 0, \\text {所以原级数发散.} \\end{array}\">\\begin{array}{l} \\text {解答令} u_{n} = \\left(\\frac{n}{an+1}\\right)^{n}, \\lim_{n \\to \\infty} \\sqrt[n]{u_{n}} = \\lim_{n \\to \\infty} \\frac{n}{an+1} = \\frac{1}{a}, \\text {则由根值审敛法知，当} a &gt; 1 \\text {时，} \\\\ \\text {级数} \\sum_{n=1}^{\\infty} \\left(\\frac{n}{an+1}\\right)^{n} (a &gt; 0) \\text {收敛，当} a &lt; 1 \\text {时，级数} \\sum_{n=1}^{\\infty} \\left(\\frac{n}{an+1}\\right)^{n} (a &gt; 0) \\text {发散，当} a = 1 \\text {时，} \\\\ \\lim_{n \\to \\infty} u_{n} = \\lim_{n \\to \\infty} \\left(\\frac{n}{n+1}\\right)^{n} = \\frac{1}{e} \\neq 0, \\text {所以原级数发散.} \\end{array}</div>"
     },
     {
       "id": "q0047",
       "number": 47,
       "header": "#47-Averge",
       "difficulty": "Averge",
-      "prompt_html": "<img src=\"/static/generated/assets/advanced-math/ch084/q0047_prompt.png\"/>",
+      "prompt_html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\sum_{n=1}^{\\infty} a^{n} \\tan \\frac{\\pi}{3^{n}} \\text{（其中} a \\text{为正数）的收敛性，下列说法正确的是[ ].}\">\\sum_{n=1}^{\\infty} a^{n} \\tan \\frac{\\pi}{3^{n}} \\text{（其中} a \\text{为正数）的收敛性，下列说法正确的是[ ].}</span>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch084/q0047_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{级数发散};\">\\text{级数发散};</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch084/q0047_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{当} a &lt; 3 \\text{时，级数收敛};\">\\text{当} a &lt; 3 \\text{时，级数收敛};</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch084/q0047_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{级数收敛};\">\\text{级数收敛};</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch084/q0047_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{当} a &lt; 3 \\text{时，级数发散}.\">\\text{当} a &lt; 3 \\text{时，级数发散}.</span>"
         }
       ],
       "answer": "B",
       "answer_index": 1,
-      "analysis_html": "<img src=\"/static/generated/assets/advanced-math/ch084/q0047_analysis.png\"/>"
+      "analysis_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{array}{l} \\text {解答由于} \\lim_{n \\to \\infty} \\frac{a^{n} \\tan \\frac{\\pi}{3^{n}}}{\\frac{\\pi a^{n}}{3^{n}}} = \\lim_{n \\to \\infty} \\frac{\\tan \\frac{\\pi}{3^{n}}}{\\frac{\\pi}{3^{n}}} = 1, \\text {由比较收敛法知，级数} \\sum_{n=1}^{\\infty} a^{n} \\tan \\frac{\\pi}{3^{n}} \\text {与级数} \\sum_{n=1}^{\\infty} \\frac{\\pi a^{n}}{3^{n}} \\text {同时收敛同时发散，所以只需考虑级数} \\sum_{n=1}^{\\infty} \\frac{\\pi a^{n}}{3^{n}} \\text {的收敛性.令} \\\\ u_{n} = \\frac{\\pi a^{n}}{3^{n}}, \\lim_{n \\to \\infty} \\sqrt[n]{u_{n}} = \\lim_{n \\to \\infty} \\frac{a}{3} \\sqrt[n]{\\pi} = \\frac{a}{3}, \\text {需讨论参数} a \\text {的不同情况}, \\\\ \\text {当} a &lt; 3 \\text {时，即} \\frac{a}{3} &lt; 1 \\text {时，级数收敛}; \\\\ \\text {当} a &gt; 3, \\text {即} \\frac{a}{3} &gt; 1 \\text {时，级数发散}; \\\\ \\text {当} a = 3, \\text {即} \\frac{a}{3} = 1 \\text {时，用此法不能收敛，此时级数为} \\sum_{n=1}^{\\infty} \\pi, \\text {级数发散}. \\end{array}\">\\begin{array}{l} \\text {解答由于} \\lim_{n \\to \\infty} \\frac{a^{n} \\tan \\frac{\\pi}{3^{n}}}{\\frac{\\pi a^{n}}{3^{n}}} = \\lim_{n \\to \\infty} \\frac{\\tan \\frac{\\pi}{3^{n}}}{\\frac{\\pi}{3^{n}}} = 1, \\text {由比较收敛法知，级数} \\sum_{n=1}^{\\infty} a^{n} \\tan \\frac{\\pi}{3^{n}} \\text {与级数} \\sum_{n=1}^{\\infty} \\frac{\\pi a^{n}}{3^{n}} \\text {同时收敛同时发散，所以只需考虑级数} \\sum_{n=1}^{\\infty} \\frac{\\pi a^{n}}{3^{n}} \\text {的收敛性.令} \\\\ u_{n} = \\frac{\\pi a^{n}}{3^{n}}, \\lim_{n \\to \\infty} \\sqrt[n]{u_{n}} = \\lim_{n \\to \\infty} \\frac{a}{3} \\sqrt[n]{\\pi} = \\frac{a}{3}, \\text {需讨论参数} a \\text {的不同情况}, \\\\ \\text {当} a &lt; 3 \\text {时，即} \\frac{a}{3} &lt; 1 \\text {时，级数收敛}; \\\\ \\text {当} a &gt; 3, \\text {即} \\frac{a}{3} &gt; 1 \\text {时，级数发散}; \\\\ \\text {当} a = 3, \\text {即} \\frac{a}{3} = 1 \\text {时，用此法不能收敛，此时级数为} \\sum_{n=1}^{\\infty} \\pi, \\text {级数发散}. \\end{array}</div>"
     },
     {
       "id": "q0048",
       "number": 48,
       "header": "#48-Averge",
       "difficulty": "Averge",
-      "prompt_html": "<img src=\"/static/generated/assets/advanced-math/ch084/q0048_prompt.png\"/>",
+      "prompt_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{array}{l} \\text {关于下列2个级数的敛散性，说法正确的是[ ].} \\\\ (1) \\sum_{n=1}^{\\infty} \\left( \\frac{n}{3n+2} \\right)^{n}; \\quad (2) \\sum_{n=1}^{\\infty} \\frac{1}{(\\ln(n+1))^{n}}. \\end{array}\">\\begin{array}{l} \\text {关于下列2个级数的敛散性，说法正确的是[ ].} \\\\ (1) \\sum_{n=1}^{\\infty} \\left( \\frac{n}{3n+2} \\right)^{n}; \\quad (2) \\sum_{n=1}^{\\infty} \\frac{1}{(\\ln(n+1))^{n}}. \\end{array}</div>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch084/q0048_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"(1) \\text{收敛},\\,(2) \\text{发散}.\">(1) \\text{收敛},\\,(2) \\text{发散}.</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch084/q0048_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"(1) \\text{收敛},\\ (2) \\text{收敛};\">(1) \\text{收敛},\\ (2) \\text{收敛};</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch084/q0048_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"(1) \\text{发散},\\ (2) \\text{收敛};\">(1) \\text{发散},\\ (2) \\text{收敛};</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch084/q0048_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"(1) \\text{发散}, \\, (2) \\text{发散};\">(1) \\text{发散}, \\, (2) \\text{发散};</span>"
         }
       ],
       "answer": "B",
       "answer_index": 1,
-      "analysis_html": "<img src=\"/static/generated/assets/advanced-math/ch084/q0048_analysis.png\"/>"
+      "analysis_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{array}{l} \\text {解答 (1)令} u_{n} = \\left(\\frac{n}{3n+2}\\right)^{n}, \\text {则} \\lim_{n \\to \\infty} \\sqrt[n]{u_{n}} = \\lim_{n \\to \\infty} \\frac{n}{3n+2} = \\frac{1}{3} &lt; 1, \\text {由根值审敛法知，级数} \\\\ \\sum_{n=1}^{\\infty} \\left(\\frac{n}{3n+2}\\right)^{n} \\text {收敛}; (2) u_{n} = \\frac{1}{(\\ln(n+1))^{n}}, \\text {则} \\lim_{n \\to \\infty} \\sqrt[n]{u_{n}} = \\lim_{n \\to \\infty} \\frac{1}{\\ln(n+1)} = 0 &lt; 1, \\text {由根值审} \\\\ \\text {敛法知，级数} \\sum_{n=1}^{\\infty} \\frac{1}{(\\ln(n+1))^{n}} \\text {收敛}. \\end{array}\">\\begin{array}{l} \\text {解答 (1)令} u_{n} = \\left(\\frac{n}{3n+2}\\right)^{n}, \\text {则} \\lim_{n \\to \\infty} \\sqrt[n]{u_{n}} = \\lim_{n \\to \\infty} \\frac{n}{3n+2} = \\frac{1}{3} &lt; 1, \\text {由根值审敛法知，级数} \\\\ \\sum_{n=1}^{\\infty} \\left(\\frac{n}{3n+2}\\right)^{n} \\text {收敛}; (2) u_{n} = \\frac{1}{(\\ln(n+1))^{n}}, \\text {则} \\lim_{n \\to \\infty} \\sqrt[n]{u_{n}} = \\lim_{n \\to \\infty} \\frac{1}{\\ln(n+1)} = 0 &lt; 1, \\text {由根值审} \\\\ \\text {敛法知，级数} \\sum_{n=1}^{\\infty} \\frac{1}{(\\ln(n+1))^{n}} \\text {收敛}. \\end{array}</div>"
     },
     {
       "id": "q0049",
       "number": 49,
       "header": "#49-Averge",
       "difficulty": "Averge",
-      "prompt_html": "<img src=\"/static/generated/assets/advanced-math/ch084/q0049_prompt.png\"/>",
+      "prompt_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{array}{l} \\text{关于下列2个级数的敛散性，说法正确的是[ ].} \\\\ (1) \\sum_{n=1}^{\\infty} \\frac{n \\sin^{2} \\frac{\\pi}{n}}{5^{n}}; \\quad (2) \\sum_{n=1}^{\\infty} (\\frac{2n}{3n+1})^{3n+1}. \\end{array}\">\\begin{array}{l} \\text{关于下列2个级数的敛散性，说法正确的是[ ].} \\\\ (1) \\sum_{n=1}^{\\infty} \\frac{n \\sin^{2} \\frac{\\pi}{n}}{5^{n}}; \\quad (2) \\sum_{n=1}^{\\infty} (\\frac{2n}{3n+1})^{3n+1}. \\end{array}</div>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch084/q0049_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"(1) \\text{收敛},\\ (2) \\text{发散}.\">(1) \\text{收敛},\\ (2) \\text{发散}.</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch084/q0049_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"(1) \\text{发散},\\,(2) \\text{收敛};\">(1) \\text{发散},\\,(2) \\text{收敛};</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch084/q0049_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"(1) \\text{发散}, (2) \\text{发散};\">(1) \\text{发散}, (2) \\text{发散};</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch084/q0049_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"(1) \\text{收敛},\\ (2) \\text{收敛};\">(1) \\text{收敛},\\ (2) \\text{收敛};</span>"
         }
       ],
       "answer": "D",
       "answer_index": 3,
-      "analysis_html": "<img src=\"/static/generated/assets/advanced-math/ch084/q0049_analysis.png\"/>"
+      "analysis_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{array}{l} \\text {解答(1) 令}u_{n}=\\frac{n}{5^{n}}, \\text {则} \\lim_{n \\to \\infty} \\sqrt[n]{u_{n}}=\\lim_{n \\to \\infty} \\frac{\\sqrt[n]{n}}{5}=\\frac{1}{5}&lt;1, \\text {由根值审敛法知级数} \\sum_{n=1}^{\\infty} \\frac{n}{5^{n}} \\text {收敛, 由于} \\frac{n \\sin^{2} \\frac{\\pi}{n}}{5^{n}}&lt;\\frac{n}{5^{n}}, \\text {由比较审敛法知级数} \\sum_{n=1}^{\\infty} \\frac{n \\sin^{2} \\frac{\\pi}{n}}{5^{n}} \\text {收敛}; \\\\ (2) \\text {令}u_{n}=(\\frac{2n}{3n+1})^{3n+1}, \\text {则} \\lim_{n \\to \\infty} \\sqrt[n]{u_{n}}=\\lim_{n \\to \\infty} (\\frac{2n}{3n+1})^{3-\\frac{1}{n}}=(\\frac{2}{3})^{3}&lt;1, \\text {由根值审敛法知级数} \\sum_{n=1}^{\\infty} (\\frac{2n}{3n+1})^{3n+1} \\text {收敛}. \\end{array}\">\\begin{array}{l} \\text {解答(1) 令}u_{n}=\\frac{n}{5^{n}}, \\text {则} \\lim_{n \\to \\infty} \\sqrt[n]{u_{n}}=\\lim_{n \\to \\infty} \\frac{\\sqrt[n]{n}}{5}=\\frac{1}{5}&lt;1, \\text {由根值审敛法知级数} \\sum_{n=1}^{\\infty} \\frac{n}{5^{n}} \\text {收敛, 由于} \\frac{n \\sin^{2} \\frac{\\pi}{n}}{5^{n}}&lt;\\frac{n}{5^{n}}, \\text {由比较审敛法知级数} \\sum_{n=1}^{\\infty} \\frac{n \\sin^{2} \\frac{\\pi}{n}}{5^{n}} \\text {收敛}; \\\\ (2) \\text {令}u_{n}=(\\frac{2n}{3n+1})^{3n+1}, \\text {则} \\lim_{n \\to \\infty} \\sqrt[n]{u_{n}}=\\lim_{n \\to \\infty} (\\frac{2n}{3n+1})^{3-\\frac{1}{n}}=(\\frac{2}{3})^{3}&lt;1, \\text {由根值审敛法知级数} \\sum_{n=1}^{\\infty} (\\frac{2n}{3n+1})^{3n+1} \\text {收敛}. \\end{array}</div>"
     },
     {
       "id": "q0050",
       "number": 50,
       "header": "#50-Averge",
       "difficulty": "Averge",
-      "prompt_html": "<img src=\"/static/generated/assets/advanced-math/ch084/q0050_prompt.png\"/>",
+      "prompt_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{array}{l} \\text{关于下列2个级数的敛散性，说法正确的是[ ].} \\\\ (1)\\sum_{n=1}^{\\infty}2^{n}(\\frac{n}{1+n})^{n^{2}};\\quad(2)\\sum_{n=1}^{\\infty}\\frac{2^{n}}{(n+\\frac{1}{n})^{n}}. \\end{array}\">\\begin{array}{l} \\text{关于下列2个级数的敛散性，说法正确的是[ ].} \\\\ (1)\\sum_{n=1}^{\\infty}2^{n}(\\frac{n}{1+n})^{n^{2}};\\quad(2)\\sum_{n=1}^{\\infty}\\frac{2^{n}}{(n+\\frac{1}{n})^{n}}. \\end{array}</div>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch084/q0050_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"(1) \\text{收敛},\\,(2) \\text{发散}.\">(1) \\text{收敛},\\,(2) \\text{发散}.</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch084/q0050_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"(1) \\text{收敛},\\ (2) \\text{收敛};\">(1) \\text{收敛},\\ (2) \\text{收敛};</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch084/q0050_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"(1) \\text{发散}, (2) \\text{发散};\">(1) \\text{发散}, (2) \\text{发散};</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch084/q0050_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"(1) \\text{发散}, \\, (2) \\text{收敛};\">(1) \\text{发散}, \\, (2) \\text{收敛};</span>"
         }
       ],
       "answer": "B",
       "answer_index": 1,
-      "analysis_html": "<img src=\"/static/generated/assets/advanced-math/ch084/q0050_analysis.png\"/>"
+      "analysis_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{array}{l} \\text {解答 (1) 令} u_{n} = 2^{n} \\left( \\frac{n}{1+n} \\right)^{n^{2}}, \\text {则} \\lim_{n \\rightarrow \\infty} \\sqrt[n]{u_{n}} = \\lim_{n \\rightarrow \\infty} 2 \\left( \\frac{n}{1+n} \\right)^{n} = \\frac{2}{e} &lt; 1, \\text {由根值审敛法} \\\\ \\text {知级数} \\sum_{n=1}^{\\infty} 2^{n} \\left( \\frac{n}{1+n} \\right)^{n^{2}} \\text {收敛}; \\quad u_{n} = \\frac{2^{n}}{\\left(n+\\frac{1}{n}\\right)^{n}}, \\text {则} \\lim_{n \\rightarrow \\infty} \\sqrt[n]{u_{n}} = \\lim_{n \\rightarrow \\infty} \\frac{2}{n+\\frac{1}{n}} = 0 &lt; 1, \\\\ \\text {由根值审敛法知级数} \\sum_{n=1}^{\\infty} \\frac{2^{n}}{\\left(n+\\frac{1}{n}\\right)^{n}} \\text {收敛}. \\end{array}\">\\begin{array}{l} \\text {解答 (1) 令} u_{n} = 2^{n} \\left( \\frac{n}{1+n} \\right)^{n^{2}}, \\text {则} \\lim_{n \\rightarrow \\infty} \\sqrt[n]{u_{n}} = \\lim_{n \\rightarrow \\infty} 2 \\left( \\frac{n}{1+n} \\right)^{n} = \\frac{2}{e} &lt; 1, \\text {由根值审敛法} \\\\ \\text {知级数} \\sum_{n=1}^{\\infty} 2^{n} \\left( \\frac{n}{1+n} \\right)^{n^{2}} \\text {收敛}; \\quad u_{n} = \\frac{2^{n}}{\\left(n+\\frac{1}{n}\\right)^{n}}, \\text {则} \\lim_{n \\rightarrow \\infty} \\sqrt[n]{u_{n}} = \\lim_{n \\rightarrow \\infty} \\frac{2}{n+\\frac{1}{n}} = 0 &lt; 1, \\\\ \\text {由根值审敛法知级数} \\sum_{n=1}^{\\infty} \\frac{2^{n}}{\\left(n+\\frac{1}{n}\\right)^{n}} \\text {收敛}. \\end{array}</div>"
     }
-  ]
+  ],
+  "format": "latex",
+  "source_md": "gs/5.2.3_根植判别法(50题)/5.2.3_根植判别法(50题).md"
 }

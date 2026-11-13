@@ -13,140 +13,142 @@
       "number": 1,
       "header": "#1-Averge",
       "difficulty": "Averge",
-      "prompt_html": "<img src=\"/static/generated/assets/probability/ch012/q0001_prompt.png\"/>",
+      "prompt_html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{若在区间} (0,1) \\text{内任取两个数，则事件“两数之和小于} \\frac{6}{5} ”\\text{的概率为}( ).\">\\text{若在区间} (0,1) \\text{内任取两个数，则事件“两数之和小于} \\frac{6}{5} ”\\text{的概率为}( ).</span>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/probability/ch012/q0001_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\frac { 17 } { 25 }\">\\frac { 17 } { 25 }</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/probability/ch012/q0001_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\frac{8}{25}\">\\frac{8}{25}</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/probability/ch012/q0001_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\frac { 13 } { 25 }\">\\frac { 13 } { 25 }</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/probability/ch012/q0001_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\frac {22}{25}\">\\frac {22}{25}</span>"
         }
       ],
       "answer": "A",
       "answer_index": 0,
-      "analysis_html": "<img src=\"/static/generated/assets/probability/ch012/q0001_analysis.png\"/>"
+      "analysis_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{aligned} P\\{x+y&lt;\\frac{6}{5}\\}&amp;=1-\\frac{1}{2}\\times(\\frac{4}{5})^{2}=\\frac{17}{25}.\\end{aligned}\">\\begin{aligned} P\\{x+y&lt;\\frac{6}{5}\\}&amp;=1-\\frac{1}{2}\\times(\\frac{4}{5})^{2}=\\frac{17}{25}.\\end{aligned}</div>"
     },
     {
       "id": "q0002",
       "number": 2,
       "header": "#2-Hard",
       "difficulty": "Hard",
-      "prompt_html": "<img src=\"/static/generated/assets/probability/ch012/q0002_prompt.png\"/>",
+      "prompt_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{array}{l} \\text {随机地向半圆} 0 &lt; y &lt; \\sqrt {2 a x - x ^ {2}} (a \\text {为正常}) \\text {内扔一个点，点落在半圆内任何区域内的概率与区域的面积成正比，则原点与该点的连线与} x \\text {轴的夹角小于} \\frac {\\pi}{4} \\text {的概率为}() . \\end{array}\">\\begin{array}{l} \\text {随机地向半圆} 0 &lt; y &lt; \\sqrt {2 a x - x ^ {2}} (a \\text {为正常}) \\text {内扔一个点，点落在半圆内任何区域内的概率与区域的面积成正比，则原点与该点的连线与} x \\text {轴的夹角小于} \\frac {\\pi}{4} \\text {的概率为}() . \\end{array}</div>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/probability/ch012/q0002_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\frac { 1 } { 2 } + \\frac { 1 } { \\pi }\">\\frac { 1 } { 2 } + \\frac { 1 } { \\pi }</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/probability/ch012/q0002_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\pi - \\frac { 1 } { 2 }\">\\pi - \\frac { 1 } { 2 }</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/probability/ch012/q0002_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\pi + 1\">\\pi + 1</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/probability/ch012/q0002_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\pi\">\\pi</span>"
         }
       ],
       "answer": "A",
       "answer_index": 0,
-      "analysis_html": "<img src=\"/static/generated/assets/probability/ch012/q0002_analysis.png\"/>"
+      "analysis_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{aligned}&amp; \\text{设 } A \\text{ “原点与投点的连线与 } x \\text{ 轴的夹角小于 } \\frac{\\pi}{4} \\text{”,}\\\\&amp; \\text{样本空间} S=\\{(x,y)|0&lt;y&lt;\\sqrt{2ax-x^{2}}\\}, \\text{其面积为} \\frac{1}{2}\\pi a^{2};\\\\&amp; \\quad A=\\{(x,y)|(x,y)\\in S, y&lt;x\\}, \\text{其面积为} \\frac{1}{4}\\pi a^{2}+\\frac{1}{2}a^{2}.\\\\&amp; \\text{由几何概率计算公式得} \\quad P(A)=\\frac{\\frac{1}{4}\\pi a^{2}+\\frac{1}{2}a^{2}}{\\frac{1}{2}\\pi a^{2}}=\\frac{1}{2}+\\frac{1}{\\pi}.\\end{aligned}\">\\begin{aligned}&amp; \\text{设 } A \\text{ “原点与投点的连线与 } x \\text{ 轴的夹角小于 } \\frac{\\pi}{4} \\text{”,}\\\\&amp; \\text{样本空间} S=\\{(x,y)|0&lt;y&lt;\\sqrt{2ax-x^{2}}\\}, \\text{其面积为} \\frac{1}{2}\\pi a^{2};\\\\&amp; \\quad A=\\{(x,y)|(x,y)\\in S, y&lt;x\\}, \\text{其面积为} \\frac{1}{4}\\pi a^{2}+\\frac{1}{2}a^{2}.\\\\&amp; \\text{由几何概率计算公式得} \\quad P(A)=\\frac{\\frac{1}{4}\\pi a^{2}+\\frac{1}{2}a^{2}}{\\frac{1}{2}\\pi a^{2}}=\\frac{1}{2}+\\frac{1}{\\pi}.\\end{aligned}</div>"
     },
     {
       "id": "q0003",
       "number": 3,
       "header": "#3-Easy",
       "difficulty": "Easy",
-      "prompt_html": "<img src=\"/static/generated/assets/probability/ch012/q0003_prompt.png\"/>",
+      "prompt_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{aligned} \\text{(会面问题)甲、乙两人相约在7点到8点之间在某地会面，先到者等候另一人20分钟，这时就离开。如果每个人可在指定的一小时内任意时刻到达，则二人能够会面的概率()。} \\end{aligned}\">\\begin{aligned} \\text{(会面问题)甲、乙两人相约在7点到8点之间在某地会面，先到者等候另一人20分钟，这时就离开。如果每个人可在指定的一小时内任意时刻到达，则二人能够会面的概率()。} \\end{aligned}</div>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/probability/ch012/q0003_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\frac { 5 } { 9 }\">\\frac { 5 } { 9 }</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/probability/ch012/q0003_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\frac { 7 } { 9 }\">\\frac { 7 } { 9 }</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/probability/ch012/q0003_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\frac{2}{9}\">\\frac{2}{9}</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/probability/ch012/q0003_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\frac { 4 } { 9 }\">\\frac { 4 } { 9 }</span>"
         }
       ],
       "answer": "A",
       "answer_index": 0,
-      "analysis_html": "<img src=\"/static/generated/assets/probability/ch012/q0003_analysis.png\"/>"
+      "analysis_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{aligned}&amp; \\text{记}7 \\text{点为计算时刻的}0 \\text{时，以分钟单位，}x,y \\text{分别记甲、乙达到指定地点的时刻，则样本空间为}\\\\&amp; S=\\{ (x,y) \\vert 0 \\leq x \\leq 60, \\, 0 \\leq y \\leq 60 \\}.\\\\&amp; \\text{以}A \\text{表示事件“两人能会面”，则显然有}\\\\&amp; A=\\{ (x,y) \\vert (x,y) \\in S, \\, |x-y| \\leq 20 \\}\\\\&amp; \\text{根据题意，这是一个几何概型问题，于是}\\\\&amp; P(A)=\\frac{\\mu(A)}{\\mu(S)}=\\frac{60^{2}-40^{2}}{60^{2}}=\\frac{5}{9}.\\end{aligned}\">\\begin{aligned}&amp; \\text{记}7 \\text{点为计算时刻的}0 \\text{时，以分钟单位，}x,y \\text{分别记甲、乙达到指定地点的时刻，则样本空间为}\\\\&amp; S=\\{ (x,y) \\vert 0 \\leq x \\leq 60, \\, 0 \\leq y \\leq 60 \\}.\\\\&amp; \\text{以}A \\text{表示事件“两人能会面”，则显然有}\\\\&amp; A=\\{ (x,y) \\vert (x,y) \\in S, \\, |x-y| \\leq 20 \\}\\\\&amp; \\text{根据题意，这是一个几何概型问题，于是}\\\\&amp; P(A)=\\frac{\\mu(A)}{\\mu(S)}=\\frac{60^{2}-40^{2}}{60^{2}}=\\frac{5}{9}.\\end{aligned}</div>"
     },
     {
       "id": "q0004",
       "number": 4,
       "header": "#4-Hard",
       "difficulty": "Hard",
-      "prompt_html": "<img src=\"/static/generated/assets/probability/ch012/q0004_prompt.png\"/>",
+      "prompt_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{aligned}\\text{甲、乙两人约定在下午1时到2时之间到某站乘公共汽车，又这段时间内有4班公共汽车，它们的开车时刻分别为：}14、1、29、1、44、1、59。\\text{如果他们约定}：(1)\\text{见车就乘}；(2)\\text{先到者最多等一辆车}，P\\text{为甲乙同乘一车的概率}，\\text{则下列关于}P\\text{的说法正确的是}()。\\text{假定甲}、\\text{乙两人到达车站的时刻是互相不相连的}，\\text{且每人在}1\\text{时到}2\\text{时的任何时刻到达车站是等可能的}。\\end{aligned}\">\\begin{aligned}\\text{甲、乙两人约定在下午1时到2时之间到某站乘公共汽车，又这段时间内有4班公共汽车，它们的开车时刻分别为：}14、1、29、1、44、1、59。\\text{如果他们约定}：(1)\\text{见车就乘}；(2)\\text{先到者最多等一辆车}，P\\text{为甲乙同乘一车的概率}，\\text{则下列关于}P\\text{的说法正确的是}()。\\text{假定甲}、\\text{乙两人到达车站的时刻是互相不相连的}，\\text{且每人在}1\\text{时到}2\\text{时的任何时刻到达车站是等可能的}。\\end{aligned}</div>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/probability/ch012/q0004_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{最多等一辆车的概率为} \\frac{5}{8}\">\\text{最多等一辆车的概率为} \\frac{5}{8}</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/probability/ch012/q0004_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{甲乙同乘一车的概率为} \\frac{3}{4}\">\\text{甲乙同乘一车的概率为} \\frac{3}{4}</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/probability/ch012/q0004_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{甲乙同乘一车的概率为} \\frac{1}{2}\">\\text{甲乙同乘一车的概率为} \\frac{1}{2}</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/probability/ch012/q0004_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{最多等一辆车的概率为}\\frac{1}{8}\">\\text{最多等一辆车的概率为}\\frac{1}{8}</span>"
         }
       ],
       "answer": "A",
       "answer_index": 0,
-      "analysis_html": "<img src=\"/static/generated/assets/probability/ch012/q0004_analysis.png\"/>"
+      "analysis_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{array}{l} \\text {设} x,y(1\\leq x\\leq 2,1\\leq y\\leq 2) \\text {分别为甲、乙两人到达的时刻，} p \\text {为甲乙同乘一车的概率，则见车就乘情况如图(a)所示} \\\\ p = \\frac{\\text {阴影部分面积}}{\\text {正方形面积}} = \\frac{4 \\times \\left( \\frac{1}{4} \\right)^{2}}{(2-1)^{2}} = \\frac{1}{4}, \\\\ \\text {最多等一辆车的情况下，甲乙同乘一车包括3种情况。} \\\\ \\text {(1)见车就上甲乙同乘一车;} \\\\ \\text {(2)甲先到达等一辆车，与乙同乘一车，如图(b)所示;} \\\\ \\text {(3)乙先到达等一辆车，与甲同乘一车，所以，} p = \\frac{1}{4} + \\frac{3 \\times (1/16)}{1} \\times 2 = \\frac{5}{8}. \\end{array}\">\\begin{array}{l} \\text {设} x,y(1\\leq x\\leq 2,1\\leq y\\leq 2) \\text {分别为甲、乙两人到达的时刻，} p \\text {为甲乙同乘一车的概率，则见车就乘情况如图(a)所示} \\\\ p = \\frac{\\text {阴影部分面积}}{\\text {正方形面积}} = \\frac{4 \\times \\left( \\frac{1}{4} \\right)^{2}}{(2-1)^{2}} = \\frac{1}{4}, \\\\ \\text {最多等一辆车的情况下，甲乙同乘一车包括3种情况。} \\\\ \\text {(1)见车就上甲乙同乘一车;} \\\\ \\text {(2)甲先到达等一辆车，与乙同乘一车，如图(b)所示;} \\\\ \\text {(3)乙先到达等一辆车，与甲同乘一车，所以，} p = \\frac{1}{4} + \\frac{3 \\times (1/16)}{1} \\times 2 = \\frac{5}{8}. \\end{array}</div>"
     },
     {
       "id": "q0005",
       "number": 5,
       "header": "#5-Easy",
       "difficulty": "Easy",
-      "prompt_html": "<img src=\"/static/generated/assets/probability/ch012/q0005_prompt.png\"/>",
+      "prompt_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{aligned} \\text{某人午觉醒来，发觉表停了，他打开收音机，想听电台报时，设电台每正点报时一次，则他(她)等待时间短于10分钟的概率为()}. \\end{aligned}\">\\begin{aligned} \\text{某人午觉醒来，发觉表停了，他打开收音机，想听电台报时，设电台每正点报时一次，则他(她)等待时间短于10分钟的概率为()}. \\end{aligned}</div>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/probability/ch012/q0005_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\frac { 1 } { 6 }\">\\frac { 1 } { 6 }</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/probability/ch012/q0005_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\frac { 1 } { 2 }\">\\frac { 1 } { 2 }</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/probability/ch012/q0005_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\frac { 5 } { 6 }\">\\frac { 5 } { 6 }</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/probability/ch012/q0005_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\frac { 1 } { 3 }\">\\frac { 1 } { 3 }</span>"
         }
       ],
       "answer": "A",
       "answer_index": 0,
-      "analysis_html": "<img src=\"/static/generated/assets/probability/ch012/q0005_analysis.png\"/>"
+      "analysis_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{aligned} &amp; \\text{以分钟为单位，记上一次报时时刻为}\\text{0}\\text{，下一次报时时刻为}\\text{60}\\text{，于是这个人打开收音机的时间必在}\\text{ (0,60)}\\text{，记“等待时间短于}\\text{10}\\text{分钟”为事件}\\text{ A}\\text{，则有：}\\text{S=(0,60)}\\text{，} A=(50,60)\\subset S \\text{，}\\\\ &amp; \\text{于是 } \\ P(A)=\\frac{10}{60}=\\frac{1}{6}.\\end{aligned}\">\\begin{aligned} &amp; \\text{以分钟为单位，记上一次报时时刻为}\\text{0}\\text{，下一次报时时刻为}\\text{60}\\text{，于是这个人打开收音机的时间必在}\\text{ (0,60)}\\text{，记“等待时间短于}\\text{10}\\text{分钟”为事件}\\text{ A}\\text{，则有：}\\text{S=(0,60)}\\text{，} A=(50,60)\\subset S \\text{，}\\\\ &amp; \\text{于是 } \\ P(A)=\\frac{10}{60}=\\frac{1}{6}.\\end{aligned}</div>"
     }
-  ]
+  ],
+  "format": "latex",
+  "source_md": "gl/1.3.3_几何概型的概率计算(5题)/1.3.3_几何概型的概率计算(5题).md"
 }

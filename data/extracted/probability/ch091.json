@@ -13,224 +13,226 @@
       "number": 1,
       "header": "#1-Easy",
       "difficulty": "Easy",
-      "prompt_html": "<img src=\"/static/generated/assets/probability/ch091/q0001_prompt.png\"/>",
+      "prompt_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{array}{l} \\text {若}\\rho(\\xi,\\eta)\\text {是随机变量}\\xi\\text {和}\\eta\\text {的相关系数，则}|\\rho(\\xi,\\eta)|=1\\text {的充要条件是}P\\{\\eta=a\\xi+b\\}\\text {(其中}a,b\\text {是实数且}a\\neq 0\\text {)等于}() . \\end{array}\">\\begin{array}{l} \\text {若}\\rho(\\xi,\\eta)\\text {是随机变量}\\xi\\text {和}\\eta\\text {的相关系数，则}|\\rho(\\xi,\\eta)|=1\\text {的充要条件是}P\\{\\eta=a\\xi+b\\}\\text {(其中}a,b\\text {是实数且}a\\neq 0\\text {)等于}() . \\end{array}</div>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/probability/ch091/q0001_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"1\">1</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/probability/ch091/q0001_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"0.5\">0.5</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/probability/ch091/q0001_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"1.5\">1.5</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/probability/ch091/q0001_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"_{\\text{ 2 }}\">_{\\text{ 2 }}</span>"
         }
       ],
       "answer": "A",
       "answer_index": 0,
-      "analysis_html": "<img src=\"/static/generated/assets/probability/ch091/q0001_analysis.png\"/>"
+      "analysis_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{aligned}\\text{(1)必要性：当}\\rho_{XY}=\\pm 1\\text{时}&amp;D\\left(\\frac{Y}{\\sqrt{D(Y)}}\\mp \\frac{X}{\\sqrt{D(X)}}\\right)=D\\left(\\frac{Y}{\\sqrt{D(Y)}}\\right)+D\\left(\\frac{X}{\\sqrt{D(X)}}\\right)\\mp 2\\mathrm{cov}\\left(\\frac{Y}{\\sqrt{D(Y)}},\\frac{X}{\\sqrt{D(X)}}\\right)\\\\&amp;=1+1\\mp 2\\cdot \\frac{\\mathrm{cov}(X,Y)}{\\sqrt{D(Y)}\\sqrt{D(X)}}=2\\mp 2\\rho_{XY}=0\\,.\\end{aligned}\">\\begin{aligned}\\text{(1)必要性：当}\\rho_{XY}=\\pm 1\\text{时}&amp;D\\left(\\frac{Y}{\\sqrt{D(Y)}}\\mp \\frac{X}{\\sqrt{D(X)}}\\right)=D\\left(\\frac{Y}{\\sqrt{D(Y)}}\\right)+D\\left(\\frac{X}{\\sqrt{D(X)}}\\right)\\mp 2\\mathrm{cov}\\left(\\frac{Y}{\\sqrt{D(Y)}},\\frac{X}{\\sqrt{D(X)}}\\right)\\\\&amp;=1+1\\mp 2\\cdot \\frac{\\mathrm{cov}(X,Y)}{\\sqrt{D(Y)}\\sqrt{D(X)}}=2\\mp 2\\rho_{XY}=0\\,.\\end{aligned}</div>\n<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{由方差的性质可知}：\\text{存在常数} C \\text{使} P\\left\\{\\frac{Y}{\\sqrt{D(Y)}}\\mp \\frac{X}{\\sqrt{D(X)}}=C\\right\\}=1，\\text{即} P\\left\\{Y=\\pm \\sqrt{\\frac{D(Y)}{D(X)}}X+C\\sqrt{D(Y)}\\right\\}=1．\">\\text{由方差的性质可知}：\\text{存在常数} C \\text{使} P\\left\\{\\frac{Y}{\\sqrt{D(Y)}}\\mp \\frac{X}{\\sqrt{D(X)}}=C\\right\\}=1，\\text{即} P\\left\\{Y=\\pm \\sqrt{\\frac{D(Y)}{D(X)}}X+C\\sqrt{D(Y)}\\right\\}=1．</span>\n<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{令} a=\\pm \\sqrt{\\frac{D(Y)}{D(X)}}，b=C\\sqrt{D(Y)}，\\text{则有} P\\{Y=aX+b\\}=1\\,(a\\neq 0)．\">\\text{令} a=\\pm \\sqrt{\\frac{D(Y)}{D(X)}}，b=C\\sqrt{D(Y)}，\\text{则有} P\\{Y=aX+b\\}=1\\,(a\\neq 0)．</span>\n<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{当} \\rho_{XY}=1 \\text{时}，a=\\sqrt{\\frac{D(Y)}{D(X)}}&gt;0；\\text{当} \\rho_{XY}=-1 \\text{时}，a=-\\sqrt{\\frac{D(Y)}{D(X)}}&lt;0．\">\\text{当} \\rho_{XY}=1 \\text{时}，a=\\sqrt{\\frac{D(Y)}{D(X)}}&gt;0；\\text{当} \\rho_{XY}=-1 \\text{时}，a=-\\sqrt{\\frac{D(Y)}{D(X)}}&lt;0．</span>\n<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"(2)\\text{充分性}：\\text{若} P\\{Y=aX+b\\}=1\\,(a\\neq 0)，\\text{于是}：\">(2)\\text{充分性}：\\text{若} P\\{Y=aX+b\\}=1\\,(a\\neq 0)，\\text{于是}：</span>\n<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\rho=\\frac{\\mathrm{cov}(X,aX+b)}{\\sqrt{D(X)}\\sqrt{D(aX+b)}}=\\frac{acov(X,Y)}{\\sqrt{D(X)}\\sqrt{a^2D(X)}}=\\frac{aD(X)}{\\sqrt{a^2}\\cdot D(X)}=\\begin{cases}1,&amp;a&gt;0\\\\-1,&amp;a&lt;0\\end{cases}.\">\\rho=\\frac{\\mathrm{cov}(X,aX+b)}{\\sqrt{D(X)}\\sqrt{D(aX+b)}}=\\frac{acov(X,Y)}{\\sqrt{D(X)}\\sqrt{a^2D(X)}}=\\frac{aD(X)}{\\sqrt{a^2}\\cdot D(X)}=\\begin{cases}1,&amp;a&gt;0\\\\-1,&amp;a&lt;0\\end{cases}.</div>"
     },
     {
       "id": "q0002",
       "number": 2,
       "header": "#2-Easy",
       "difficulty": "Easy",
-      "prompt_html": "<img src=\"/static/generated/assets/probability/ch091/q0002_prompt.png\"/>",
+      "prompt_html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{若随机变量}\\xi,\\eta\\text{的相关系数}\\rho(\\xi,\\eta)\\text{存在，则}|\\rho(\\xi,\\eta)|\\text{的可能的最大值为}( ).\">\\text{若随机变量}\\xi,\\eta\\text{的相关系数}\\rho(\\xi,\\eta)\\text{存在，则}|\\rho(\\xi,\\eta)|\\text{的可能的最大值为}( ).</span>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/probability/ch091/q0002_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"1\">1</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/probability/ch091/q0002_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"^ 2\">^ 2</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/probability/ch091/q0002_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"0.5\">0.5</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/probability/ch091/q0002_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"0.8\">0.8</span>"
         }
       ],
       "answer": "A",
       "answer_index": 0,
-      "analysis_html": "<img src=\"/static/generated/assets/probability/ch091/q0002_analysis.png\"/>"
+      "analysis_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{aligned}&amp;\\text{由相关系数的定义知}\\rho(\\xi,\\eta)=\\frac{\\operatorname{cov}(\\xi,\\eta)}{\\sqrt{D(\\xi)D(\\eta)}}\\,.\\,\\,\\text{若令}b=\\frac{\\operatorname{cov}(\\xi,\\eta)}{D(\\xi)},\\,\\,\\text{则}\\\\&amp;D(\\eta-b\\xi)=b^2D(\\xi)+D(\\eta)-2bc\\operatorname{cov}(\\xi,\\eta)=D(\\eta)[1-\\rho^2(\\xi,\\eta)],\\\\&amp;\\text{由于方差}D(\\eta)&gt;0,\\,\\,D(\\eta-b\\xi)\\geq 0,\\,\\,\\text{故必有}1-\\rho^2(\\xi,\\eta)\\geq 0\\,.\\,\\,\\text{即}\\,\\,|\\rho(\\xi,\\eta)|\\leq 1\\,.\\quad \\end{aligned}\">\\begin{aligned}&amp;\\text{由相关系数的定义知}\\rho(\\xi,\\eta)=\\frac{\\operatorname{cov}(\\xi,\\eta)}{\\sqrt{D(\\xi)D(\\eta)}}\\,.\\,\\,\\text{若令}b=\\frac{\\operatorname{cov}(\\xi,\\eta)}{D(\\xi)},\\,\\,\\text{则}\\\\&amp;D(\\eta-b\\xi)=b^2D(\\xi)+D(\\eta)-2bc\\operatorname{cov}(\\xi,\\eta)=D(\\eta)[1-\\rho^2(\\xi,\\eta)],\\\\&amp;\\text{由于方差}D(\\eta)&gt;0,\\,\\,D(\\eta-b\\xi)\\geq 0,\\,\\,\\text{故必有}1-\\rho^2(\\xi,\\eta)\\geq 0\\,.\\,\\,\\text{即}\\,\\,|\\rho(\\xi,\\eta)|\\leq 1\\,.\\quad \\end{aligned}</div>"
     },
     {
       "id": "q0003",
       "number": 3,
       "header": "#3-Easy",
       "difficulty": "Easy",
-      "prompt_html": "<img src=\"/static/generated/assets/probability/ch091/q0003_prompt.png\"/>",
+      "prompt_html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{相关系数} \\rho \\text{的取值范围是}( ).\">\\text{相关系数} \\rho \\text{的取值范围是}( ).</span>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/probability/ch091/q0003_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"[ - 1 , 1 ]\">[ - 1 , 1 ]</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/probability/ch091/q0003_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"[ 0 , + \\infty )\">[ 0 , + \\infty )</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/probability/ch091/q0003_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"[ 0 , 1 ]\">[ 0 , 1 ]</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/probability/ch091/q0003_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"[ - \\infty , + \\infty ]\">[ - \\infty , + \\infty ]</span>"
         }
       ],
       "answer": "A",
       "answer_index": 0,
-      "analysis_html": "<img src=\"/static/generated/assets/probability/ch091/q0003_analysis.png\"/>"
+      "analysis_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{aligned}&amp;\\text{对随机变量}X,Y,\\text{若取实数}b=\\frac{\\operatorname{cov}(X,Y)}{D(X)}\\ ,\\text{则}\\\\&amp;D(Y-bX)=D(Y)-\\frac{[\\operatorname{cov}(X,Y)]^2}{D(X)}=D(Y)\\left[1-\\frac{[\\operatorname{cov}(X,Y)]^2}{D(X)D(Y)}\\right]=D(Y)[1-\\rho^2]\\ ,\\\\&amp;\\text{由于方差}D(Y)\\text{是正的，故必有}1-\\rho^2\\geq 0\\ ,\\text{所以}|\\rho|\\leq 1.\\end{aligned}\">\\begin{aligned}&amp;\\text{对随机变量}X,Y,\\text{若取实数}b=\\frac{\\operatorname{cov}(X,Y)}{D(X)}\\ ,\\text{则}\\\\&amp;D(Y-bX)=D(Y)-\\frac{[\\operatorname{cov}(X,Y)]^2}{D(X)}=D(Y)\\left[1-\\frac{[\\operatorname{cov}(X,Y)]^2}{D(X)D(Y)}\\right]=D(Y)[1-\\rho^2]\\ ,\\\\&amp;\\text{由于方差}D(Y)\\text{是正的，故必有}1-\\rho^2\\geq 0\\ ,\\text{所以}|\\rho|\\leq 1.\\end{aligned}</div>"
     },
     {
       "id": "q0004",
       "number": 4,
       "header": "#4-Averge",
       "difficulty": "Averge",
-      "prompt_html": "<img src=\"/static/generated/assets/probability/ch091/q0004_prompt.png\"/>",
+      "prompt_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{array}{l} \\text {设} 100 \\text {件产品中的一，二，三等品率分别为} 0.8,0.1 \\text {和} 0.1. \\text {现从中随机地取} 1 \\text {件，并记} \\\\ X_{i} = \\{ \\begin{array}{ll} 1, \\text {取得等品} \\\\ 0, \\text {其它} \\end{array} (i = 1,2,3), \\\\ \\text {则} \\rho_{X,X_{i}} = ( ). \\end{array}\">\\begin{array}{l} \\text {设} 100 \\text {件产品中的一，二，三等品率分别为} 0.8,0.1 \\text {和} 0.1. \\text {现从中随机地取} 1 \\text {件，并记} \\\\ X_{i} = \\{ \\begin{array}{ll} 1, \\text {取得等品} \\\\ 0, \\text {其它} \\end{array} (i = 1,2,3), \\\\ \\text {则} \\rho_{X,X_{i}} = ( ). \\end{array}</div>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/probability/ch091/q0004_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"- \\frac { 2 } { 3 }\">- \\frac { 2 } { 3 }</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/probability/ch091/q0004_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\frac { 2 } { 3 }\">\\frac { 2 } { 3 }</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/probability/ch091/q0004_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"- \\frac { 1 } { 3 }\">- \\frac { 1 } { 3 }</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/probability/ch091/q0004_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\frac { 1 } { 3 }\">\\frac { 1 } { 3 }</span>"
         }
       ],
       "answer": "A",
       "answer_index": 0,
-      "analysis_html": "<img src=\"/static/generated/assets/probability/ch091/q0004_analysis.png\"/>"
+      "analysis_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{aligned}(X_1,X_2) \\text{的联合分布为}\\\\P\\{X_1=0,X_2=0\\}&amp;=P\\{X_3=1\\}=0.1,\\ \\ P\\{X_1=0,X_2=1\\}=P\\{X_2=1\\}=0.1,\\\\P\\{X_1=1,X_2=0\\}&amp;=P\\{X_1=1\\}=0.8,\\ \\ P\\{X_1=1,X_2=1\\}=P(\\varnothing)=0.\\end{aligned} \\text{关于} X_1 \\text{和} X_2 \\text{的边缘分布律分别为}\\\\P\\{X_1=1\\}=0.8,\\ \\ P\\{X_1=0\\}=0.2,\\ \\ P\\{X_2=1\\}=0.1,\\ \\ P\\{X_2=0\\}=0.9. \\text{于是} E(X_1)=0.8,\\ D(X_1)=0.16;\\ E(X_2)=0.1,\\ D(X_2)=0.09，\\text{从而}\\\\ \n\\rho_{x,x_2}=\\frac{\\operatorname{cov}(X_1,X_2)}{\\sqrt{D(X_1)}\\sqrt{D(X_2)}}=\\frac{E(X_1X_2)-E(X_1)E(X_2)}{\\sqrt{D(X_1)}\\sqrt{D(X_2)}}=\\frac{1\\times 0+0\\times 0.8+0\\times 0.1+0\\times 0.1-0.08}{0.4\\times 0.3}=-\\frac{2}{3}.\">\\begin{aligned}(X_1,X_2) \\text{的联合分布为}\\\\P\\{X_1=0,X_2=0\\}&amp;=P\\{X_3=1\\}=0.1,\\ \\ P\\{X_1=0,X_2=1\\}=P\\{X_2=1\\}=0.1,\\\\P\\{X_1=1,X_2=0\\}&amp;=P\\{X_1=1\\}=0.8,\\ \\ P\\{X_1=1,X_2=1\\}=P(\\varnothing)=0.\\end{aligned} \\text{关于} X_1 \\text{和} X_2 \\text{的边缘分布律分别为}\\\\P\\{X_1=1\\}=0.8,\\ \\ P\\{X_1=0\\}=0.2,\\ \\ P\\{X_2=1\\}=0.1,\\ \\ P\\{X_2=0\\}=0.9. \\text{于是} E(X_1)=0.8,\\ D(X_1)=0.16;\\ E(X_2)=0.1,\\ D(X_2)=0.09，\\text{从而}\\\\ \n\\rho_{x,x_2}=\\frac{\\operatorname{cov}(X_1,X_2)}{\\sqrt{D(X_1)}\\sqrt{D(X_2)}}=\\frac{E(X_1X_2)-E(X_1)E(X_2)}{\\sqrt{D(X_1)}\\sqrt{D(X_2)}}=\\frac{1\\times 0+0\\times 0.8+0\\times 0.1+0\\times 0.1-0.08}{0.4\\times 0.3}=-\\frac{2}{3}.</div>"
     },
     {
       "id": "q0005",
       "number": 5,
       "header": "#5-Averge",
       "difficulty": "Averge",
-      "prompt_html": "<img src=\"/static/generated/assets/probability/ch091/q0005_prompt.png\"/>",
+      "prompt_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{array}{l} \\text {设随机变量} X \\text {服从二项分布} B(4,0.8)，Y \\text{服从泊松分布} P(4)，\\text{已知} D(X+Y)=3.6，\\text{则} X \\text{与} Y \\text{的相关系数} \\\\ \\rho_{xy}=(\\quad). \\end{array}\">\\begin{array}{l} \\text {设随机变量} X \\text {服从二项分布} B(4,0.8)，Y \\text{服从泊松分布} P(4)，\\text{已知} D(X+Y)=3.6，\\text{则} X \\text{与} Y \\text{的相关系数} \\\\ \\rho_{xy}=(\\quad). \\end{array}</div>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/probability/ch091/q0005_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"- \\frac { 13 } { 40 }\">- \\frac { 13 } { 40 }</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/probability/ch091/q0005_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\frac { 14 } { 32 }\">\\frac { 14 } { 32 }</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/probability/ch091/q0005_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\frac { 13 } { 42 }\">\\frac { 13 } { 42 }</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/probability/ch091/q0005_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\frac { 13 } { 40 }\">\\frac { 13 } { 40 }</span>"
         }
       ],
       "answer": "A",
       "answer_index": 0,
-      "analysis_html": "<img src=\"/static/generated/assets/probability/ch091/q0005_analysis.png\"/>"
+      "analysis_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{aligned} \\text{由}\\lambda\\text{服从二项分布}B(4,0.8),\\text{有}E(X)=4\\times 0.8=3.2,\\ D(X)=4\\times 0.8\\times 0.2=0.64.\\ \\text{由}\\gamma\\text{服从泊松分布}P(4),\\ \\text{有}E(Y)=4,\\ D(Y)=4.\\ \\ \\text{从而} \\\\ D(X+Y)=D(X)+D(Y)+2\\text{cov}(X,Y)=D(X)+D(Y)+2\\sqrt{D(X)}\\sqrt{D(Y)}\\rho_{XY},\\\\ \\\\ 3.6=0.64+4+2\\sqrt{0.64}\\sqrt{4}\\rho_{XY}.\\\\ \\text{于是，} \\\\ \\rho_{XY}=\\frac{3.6-4.64}{2\\times 0.8\\times 2}=\\frac{-1.04}{3.2}=\\frac{-13}{40}.\\end{aligned}\">\\begin{aligned} \\text{由}\\lambda\\text{服从二项分布}B(4,0.8),\\text{有}E(X)=4\\times 0.8=3.2,\\ D(X)=4\\times 0.8\\times 0.2=0.64.\\ \\text{由}\\gamma\\text{服从泊松分布}P(4),\\ \\text{有}E(Y)=4,\\ D(Y)=4.\\ \\ \\text{从而} \\\\ D(X+Y)=D(X)+D(Y)+2\\text{cov}(X,Y)=D(X)+D(Y)+2\\sqrt{D(X)}\\sqrt{D(Y)}\\rho_{XY},\\\\ \\\\ 3.6=0.64+4+2\\sqrt{0.64}\\sqrt{4}\\rho_{XY}.\\\\ \\text{于是，} \\\\ \\rho_{XY}=\\frac{3.6-4.64}{2\\times 0.8\\times 2}=\\frac{-1.04}{3.2}=\\frac{-13}{40}.\\end{aligned}</div>"
     },
     {
       "id": "q0006",
       "number": 6,
       "header": "#6-Easy",
       "difficulty": "Easy",
-      "prompt_html": "<img src=\"/static/generated/assets/probability/ch091/q0006_prompt.png\"/>",
+      "prompt_html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{设随机变量} \\, X \\text{的方差} \\, D(X) &lt; + \\infty , \\text{随机变量} \\, Y = a X + b \\, (a,b \\text{均为常数且} a \\neq 0 ) , \\text{则} \\, \\rho _ { Y X } \\text{为}() \\, .\">\\text{设随机变量} \\, X \\text{的方差} \\, D(X) &lt; + \\infty , \\text{随机变量} \\, Y = a X + b \\, (a,b \\text{均为常数且} a \\neq 0 ) , \\text{则} \\, \\rho _ { Y X } \\text{为}() \\, .</span>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/probability/ch091/q0006_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\frac {a}{| a |}\">\\frac {a}{| a |}</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/probability/ch091/q0006_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"1\">1</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/probability/ch091/q0006_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"- 1\">- 1</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/probability/ch091/q0006_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\left| \\rho _ { x y } \\right| &lt; 1\">\\left| \\rho _ { x y } \\right| &lt; 1</span>"
         }
       ],
       "answer": "A",
       "answer_index": 0,
-      "analysis_html": "<img src=\"/static/generated/assets/probability/ch091/q0006_analysis.png\"/>"
+      "analysis_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\text{依据相关系数的性质知} \\rho_{XY} = \\begin{cases} 1, &amp; a &gt; 0 \\\\ - 1, &amp; a &lt; 0 \\end{cases} = \\frac{a}{|a|}\\,.\">\\text{依据相关系数的性质知} \\rho_{XY} = \\begin{cases} 1, &amp; a &gt; 0 \\\\ - 1, &amp; a &lt; 0 \\end{cases} = \\frac{a}{|a|}\\,.</div>"
     },
     {
       "id": "q0007",
       "number": 7,
       "header": "#7-Averge",
       "difficulty": "Averge",
-      "prompt_html": "<img src=\"/static/generated/assets/probability/ch091/q0007_prompt.png\"/>",
+      "prompt_html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{设}D(X)=4,D(Y)=1,D(X-Y)=4\\text{，则}\\rho_{XY}=(\\text{ }).\">\\text{设}D(X)=4,D(Y)=1,D(X-Y)=4\\text{，则}\\rho_{XY}=(\\text{ }).</span>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/probability/ch091/q0007_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\frac { 1 } { 4 }\">\\frac { 1 } { 4 }</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/probability/ch091/q0007_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"- \\frac { 1 } { 4 }\">- \\frac { 1 } { 4 }</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/probability/ch091/q0007_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\frac { 1 } { 2 }\">\\frac { 1 } { 2 }</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/probability/ch091/q0007_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\textbf { 1 }\">\\textbf { 1 }</span>"
         }
       ],
       "answer": "A",
       "answer_index": 0,
-      "analysis_html": "<img src=\"/static/generated/assets/probability/ch091/q0007_analysis.png\"/>"
+      "analysis_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{aligned}\\text{由}D(X-Y)=D(X)+D(Y)-2\\mathrm{cov}(X,Y)=4\\,,\\,\\text{得}\\,\\mathrm{cov}(X,Y)=\\frac{1}{2}\\,,\\,\\text{于是}\\\\ \\rho_{XY}=\\frac{\\mathrm{cov}(X,Y)}{\\sqrt{D(X)D(Y)}}=\\frac{1}{4}\\,.\\end{aligned}\">\\begin{aligned}\\text{由}D(X-Y)=D(X)+D(Y)-2\\mathrm{cov}(X,Y)=4\\,,\\,\\text{得}\\,\\mathrm{cov}(X,Y)=\\frac{1}{2}\\,,\\,\\text{于是}\\\\ \\rho_{XY}=\\frac{\\mathrm{cov}(X,Y)}{\\sqrt{D(X)D(Y)}}=\\frac{1}{4}\\,.\\end{aligned}</div>"
     },
     {
       "id": "q0008",
       "number": 8,
       "header": "#8-Averge",
       "difficulty": "Averge",
-      "prompt_html": "<img src=\"/static/generated/assets/probability/ch091/q0008_prompt.png\"/>",
+      "prompt_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{array}{l} \\text {设随机变量} (X,Y) \\text {具有概率密度} \\\\ f(x,y) = \\{ \\begin{array}{ll} \\frac{1}{8}(x+y), &amp; 0\\leq x\\leq 2,0\\leq y\\leq 2 \\\\ 0, &amp; \\text {其它} \\end{array}, \\\\ \\text {则不正确的是()}. \\end{array}\">\\begin{array}{l} \\text {设随机变量} (X,Y) \\text {具有概率密度} \\\\ f(x,y) = \\{ \\begin{array}{ll} \\frac{1}{8}(x+y), &amp; 0\\leq x\\leq 2,0\\leq y\\leq 2 \\\\ 0, &amp; \\text {其它} \\end{array}, \\\\ \\text {则不正确的是()}. \\end{array}</div>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/probability/ch091/q0008_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\operatorname{cov}(X,\\,Y) = { \\frac{1}{36}}\">\\operatorname{cov}(X,\\,Y) = { \\frac{1}{36}}</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/probability/ch091/q0008_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\begin{aligned}E(XY) = \\frac{4}{3}\\end{aligned}\">\\begin{aligned}E(XY) = \\frac{4}{3}\\end{aligned}</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/probability/ch091/q0008_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\rho _ { X Y } = - \\, \\frac { 1 } { 11 }\">\\rho _ { X Y } = - \\, \\frac { 1 } { 11 }</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/probability/ch091/q0008_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\begin{aligned}D(X+Y) = \\frac{5}{9}\\end{aligned}\">\\begin{aligned}D(X+Y) = \\frac{5}{9}\\end{aligned}</span>"
         }
       ],
       "answer": "A",
       "answer_index": 0,
-      "analysis_html": "<img src=\"/static/generated/assets/probability/ch091/q0008_analysis.png\"/>"
+      "analysis_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{aligned} \\text{由对称性知，} \\quad&amp; E(Y)=E(X)=\\int_{-\\infty}^{+\\infty}\\int_{-\\infty}^{+\\infty}x f(x,y)\\,dydx=\\int_{0}^{2}\\int_{0}^{2}x\\cdot\\frac{1}{8}(x+y)\\,dydx=\\frac{7}{6},\\\\ &amp;E(Y^2)=E(X^2)=\\int_{0}^{2}\\int_{0}^{2}x^2\\cdot\\frac{1}{8}(x+y)\\,dydx=\\frac{1}{4}\\int_{0}^{2}(x^3+x^2)\\,dx=\\frac{5}{3},\\\\ &amp;D(Y)=D(X)=E(X^2)-[E(X)]^2=\\frac{5}{3}-\\left(-\\frac{7}{6}\\right)^2=\\frac{11}{36}.\\\\ \\text{而} \\quad&amp; E(XY)=\\int_{-\\infty}^{+\\infty}\\int_{-\\infty}^{+\\infty}xyf(x,y)\\,dx dy=\\int_{0}^{2}\\int_{0}^{2}xy\\cdot\\frac{1}{8}(x+y)\\,dx dy=\\int_{0}^{2}\\frac{1}{8}\\left(\\frac{8}{3}y+2y^2\\right)dy=\\frac{4}{3},\\\\ &amp;\\operatorname{cov}(X,\\,Y)=E(XY)-E(X)E(Y)=\\frac{4}{3}-\\frac{7}{6}\\times\\frac{7}{6}=-\\frac{1}{36},\\\\ &amp;\\rho_{XY}=\\frac{\\operatorname{cov}(X,\\,Y)}{\\sqrt{D(X)D(Y)}}=-\\frac{-\\frac{1}{36}}{\\frac{11}{36}}=-\\frac{1}{11},\\\\ &amp;D(X+Y)=D(X)+D(Y)+2\\operatorname{cov}(X,\\,Y)=\\frac{11}{36}+\\frac{11}{36}-2\\times\\frac{1}{36}=\\frac{5}{9}.\\end{aligned}\">\\begin{aligned} \\text{由对称性知，} \\quad&amp; E(Y)=E(X)=\\int_{-\\infty}^{+\\infty}\\int_{-\\infty}^{+\\infty}x f(x,y)\\,dydx=\\int_{0}^{2}\\int_{0}^{2}x\\cdot\\frac{1}{8}(x+y)\\,dydx=\\frac{7}{6},\\\\ &amp;E(Y^2)=E(X^2)=\\int_{0}^{2}\\int_{0}^{2}x^2\\cdot\\frac{1}{8}(x+y)\\,dydx=\\frac{1}{4}\\int_{0}^{2}(x^3+x^2)\\,dx=\\frac{5}{3},\\\\ &amp;D(Y)=D(X)=E(X^2)-[E(X)]^2=\\frac{5}{3}-\\left(-\\frac{7}{6}\\right)^2=\\frac{11}{36}.\\\\ \\text{而} \\quad&amp; E(XY)=\\int_{-\\infty}^{+\\infty}\\int_{-\\infty}^{+\\infty}xyf(x,y)\\,dx dy=\\int_{0}^{2}\\int_{0}^{2}xy\\cdot\\frac{1}{8}(x+y)\\,dx dy=\\int_{0}^{2}\\frac{1}{8}\\left(\\frac{8}{3}y+2y^2\\right)dy=\\frac{4}{3},\\\\ &amp;\\operatorname{cov}(X,\\,Y)=E(XY)-E(X)E(Y)=\\frac{4}{3}-\\frac{7}{6}\\times\\frac{7}{6}=-\\frac{1}{36},\\\\ &amp;\\rho_{XY}=\\frac{\\operatorname{cov}(X,\\,Y)}{\\sqrt{D(X)D(Y)}}=-\\frac{-\\frac{1}{36}}{\\frac{11}{36}}=-\\frac{1}{11},\\\\ &amp;D(X+Y)=D(X)+D(Y)+2\\operatorname{cov}(X,\\,Y)=\\frac{11}{36}+\\frac{11}{36}-2\\times\\frac{1}{36}=\\frac{5}{9}.\\end{aligned}</div>"
     }
-  ]
+  ],
+  "format": "latex",
+  "source_md": "gl/4.4.3_相关系数的概念与性质(8题)/4.4.3_相关系数的概念与性质(8题).md"
 }

@@ -13,364 +13,366 @@
       "number": 1,
       "header": "#1-Averge",
       "difficulty": "Averge",
-      "prompt_html": "<img src=\"/static/generated/assets/probability/ch024/q0001_prompt.png\"/>",
+      "prompt_html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{设随机变量} X \\text{服从泊松分布，且} P(X \\leq 1) = 4 P(X = 2)，\\text{则} P(X = 3) = ( ) .\">\\text{设随机变量} X \\text{服从泊松分布，且} P(X \\leq 1) = 4 P(X = 2)，\\text{则} P(X = 3) = ( ) .</span>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/probability/ch024/q0001_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\frac { 1 } { 6 } e ^ { - 1 }\">\\frac { 1 } { 6 } e ^ { - 1 }</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/probability/ch024/q0001_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"1 - e ^ { - 1 }\">1 - e ^ { - 1 }</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/probability/ch024/q0001_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\displaystyle 1 - \\frac{1}{6} e^{-1}\">\\displaystyle 1 - \\frac{1}{6} e^{-1}</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/probability/ch024/q0001_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"e ^ { - 1 }\">e ^ { - 1 }</span>"
         }
       ],
       "answer": "A",
       "answer_index": 0,
-      "analysis_html": "<img src=\"/static/generated/assets/probability/ch024/q0001_analysis.png\"/>"
+      "analysis_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{aligned}&amp; \\text{设泊松分布的参数为}\\lambda(\\lambda&gt;0), \\text{则}\\\\&amp; P(X\\leq 1)=4P(X=2)\\Rightarrow e^{-\\lambda}+\\lambda e^{-\\lambda}=4\\frac{\\lambda^{2}}{2!}e^{-\\lambda}\\Rightarrow 2\\lambda^{2}-\\lambda-1=0\\Rightarrow \\lambda=1(\\lambda&gt;0).\\\\&amp; \\text{故}\\ P\\{X=3\\}=e^{-1}\\frac{1^{3}}{3!}=\\frac{1}{6}e^{-1}\\,.\\end{aligned}\">\\begin{aligned}&amp; \\text{设泊松分布的参数为}\\lambda(\\lambda&gt;0), \\text{则}\\\\&amp; P(X\\leq 1)=4P(X=2)\\Rightarrow e^{-\\lambda}+\\lambda e^{-\\lambda}=4\\frac{\\lambda^{2}}{2!}e^{-\\lambda}\\Rightarrow 2\\lambda^{2}-\\lambda-1=0\\Rightarrow \\lambda=1(\\lambda&gt;0).\\\\&amp; \\text{故}\\ P\\{X=3\\}=e^{-1}\\frac{1^{3}}{3!}=\\frac{1}{6}e^{-1}\\,.\\end{aligned}</div>"
     },
     {
       "id": "q0002",
       "number": 2,
       "header": "#2-Hard",
       "difficulty": "Hard",
-      "prompt_html": "<img src=\"/static/generated/assets/probability/ch024/q0002_prompt.png\"/>",
+      "prompt_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{aligned}\\text{假设某地在任何长为}t(\\text{年})\\text{的时间间隔内发生地震的次数}N(t)\\text{服从参数为}\\lambda=0.1t\\text{的泊松分布，}\\lambda\\text{表示连续两次地震之间间隔的时间(单位：年)，则今后3年内再次发生地震的概率为()；今后3年到5年内再次发生地震的概率为()。}\\end{aligned}\">\\begin{aligned}\\text{假设某地在任何长为}t(\\text{年})\\text{的时间间隔内发生地震的次数}N(t)\\text{服从参数为}\\lambda=0.1t\\text{的泊松分布，}\\lambda\\text{表示连续两次地震之间间隔的时间(单位：年)，则今后3年内再次发生地震的概率为()；今后3年到5年内再次发生地震的概率为()。}\\end{aligned}</div>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/probability/ch024/q0002_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"0.26 , \\, 0.13\">0.26 , \\, 0.13</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/probability/ch024/q0002_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"0.52 , \\, 0.34\">0.52 , \\, 0.34</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/probability/ch024/q0002_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\texttt { 0 . 59 , 0 . 33 }\">\\texttt { 0 . 59 , 0 . 33 }</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/probability/ch024/q0002_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"0.36 , \\, 0.22\">0.36 , \\, 0.22</span>"
         }
       ],
       "answer": "A",
       "answer_index": 0,
-      "analysis_html": "<img src=\"/static/generated/assets/probability/ch024/q0002_analysis.png\"/>"
+      "analysis_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{aligned}&amp;\\text{当}t\\geq 0\\text{时，}\\ P\\{X&gt;t\\}=P\\{N(t)=0\\}=e^{-0.1t},\\\\&amp;\\therefore F(t)=P\\{X\\leq t\\}=1-P\\{X&gt;t\\}=1-e^{-0.1t};\\\\&amp;\\text{当}t&lt;0\\text{时，}F(t)=0,\\therefore\\quad F(x)=\\begin{cases}1-e^{-0.1t},x\\geq 0\\\\0,\\quad x&lt;0\\end{cases},\\\\&amp;\\lambda\\text{服从指数分布}(\\lambda=0.1);F(3)=1-e^{-0.1\\times 3}\\approx 0.26;F(5)-F(3)\\approx 0.13.\\end{aligned}\">\\begin{aligned}&amp;\\text{当}t\\geq 0\\text{时，}\\ P\\{X&gt;t\\}=P\\{N(t)=0\\}=e^{-0.1t},\\\\&amp;\\therefore F(t)=P\\{X\\leq t\\}=1-P\\{X&gt;t\\}=1-e^{-0.1t};\\\\&amp;\\text{当}t&lt;0\\text{时，}F(t)=0,\\therefore\\quad F(x)=\\begin{cases}1-e^{-0.1t},x\\geq 0\\\\0,\\quad x&lt;0\\end{cases},\\\\&amp;\\lambda\\text{服从指数分布}(\\lambda=0.1);F(3)=1-e^{-0.1\\times 3}\\approx 0.26;F(5)-F(3)\\approx 0.13.\\end{aligned}</div>"
     },
     {
       "id": "q0003",
       "number": 3,
       "header": "#3-Averge",
       "difficulty": "Averge",
-      "prompt_html": "<img src=\"/static/generated/assets/probability/ch024/q0003_prompt.png\"/>",
+      "prompt_html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\sum \\limits_{i=1}^{n} P(X = x) = \\frac{1}{n} \\sum \\limits_{i=1}^{n} P(X = x_{i})\">\\sum \\limits_{i=1}^{n} P(X = x) = \\frac{1}{n} \\sum \\limits_{i=1}^{n} P(X = x_{i})</span>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/probability/ch024/q0003_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\begin{aligned}\\left(\\frac{\\lambda^5}{5!}e^{-\\lambda}\\right)\\left(1-\\frac{\\lambda^5}{5!}e^{-\\lambda}\\right)^3\\end{aligned}\">\\begin{aligned}\\left(\\frac{\\lambda^5}{5!}e^{-\\lambda}\\right)\\left(1-\\frac{\\lambda^5}{5!}e^{-\\lambda}\\right)^3\\end{aligned}</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/probability/ch024/q0003_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\begin{aligned}4 \\Bigg( \\frac{\\lambda^5}{5!} e^{-\\lambda} \\Bigg)^3 \\Bigg( 1 - \\frac{\\lambda^5}{5!} e^{-\\lambda} \\Bigg)\\end{aligned}\">\\begin{aligned}4 \\Bigg( \\frac{\\lambda^5}{5!} e^{-\\lambda} \\Bigg)^3 \\Bigg( 1 - \\frac{\\lambda^5}{5!} e^{-\\lambda} \\Bigg)\\end{aligned}</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/probability/ch024/q0003_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\begin{aligned}\\left(\\frac{\\lambda^5}{5!}e^{-\\lambda}\\right)^3\\left(1-\\frac{\\lambda^5}{5!}e^{-\\lambda}\\right)\\end{aligned}\">\\begin{aligned}\\left(\\frac{\\lambda^5}{5!}e^{-\\lambda}\\right)^3\\left(1-\\frac{\\lambda^5}{5!}e^{-\\lambda}\\right)\\end{aligned}</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/probability/ch024/q0003_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\begin{aligned}4\\Bigg(\\frac{\\lambda^5}{5!}e^{-\\lambda}\\Bigg)\\Bigg(1-\\frac{\\lambda^5}{5!}e^{-\\lambda}\\Bigg)^3\\end{aligned}\">\\begin{aligned}4\\Bigg(\\frac{\\lambda^5}{5!}e^{-\\lambda}\\Bigg)\\Bigg(1-\\frac{\\lambda^5}{5!}e^{-\\lambda}\\Bigg)^3\\end{aligned}</span>"
         }
       ],
       "answer": "D",
       "answer_index": 3,
-      "analysis_html": "<img src=\"/static/generated/assets/probability/ch024/q0003_analysis.png\"/>"
+      "analysis_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{aligned}&amp; \\text{一天销售为5件的概率是} p=\\frac{\\lambda^{5}}{5!}e^{-\\lambda}\\,.\\,\\, \\text{于是所求概率为} \\\\&amp; P_{4}(1)=C_{4}^{1}P^{1}(1-P)^{4-1}=C_{4}^{1}\\bigg(\\frac{\\lambda^{5}}{5!}e^{-\\lambda}\\bigg)\\bigg(1-\\frac{\\lambda^{5}}{5!}e^{-\\lambda}\\bigg)^{3}=4\\bigg(\\frac{\\lambda^{5}}{5!}e^{-\\lambda}\\bigg)\\bigg(1-\\frac{\\lambda^{5}}{5!}e^{-\\lambda}\\bigg)^{3}\\,.\\end{aligned}\">\\begin{aligned}&amp; \\text{一天销售为5件的概率是} p=\\frac{\\lambda^{5}}{5!}e^{-\\lambda}\\,.\\,\\, \\text{于是所求概率为} \\\\&amp; P_{4}(1)=C_{4}^{1}P^{1}(1-P)^{4-1}=C_{4}^{1}\\bigg(\\frac{\\lambda^{5}}{5!}e^{-\\lambda}\\bigg)\\bigg(1-\\frac{\\lambda^{5}}{5!}e^{-\\lambda}\\bigg)^{3}=4\\bigg(\\frac{\\lambda^{5}}{5!}e^{-\\lambda}\\bigg)\\bigg(1-\\frac{\\lambda^{5}}{5!}e^{-\\lambda}\\bigg)^{3}\\,.\\end{aligned}</div>"
     },
     {
       "id": "q0004",
       "number": 4,
       "header": "#4-Averge",
       "difficulty": "Averge",
-      "prompt_html": "<img src=\"/static/generated/assets/probability/ch024/q0004_prompt.png\"/>",
+      "prompt_html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{设书籍上每页的印刷错误的个数}X \\text{服从泊松分布，经统计发现在某本书上，有一个印刷错误与有两个印刷错误的页数相同，求任意检验4页，每页上都没有印刷错误的概率是( ).}\">\\text{设书籍上每页的印刷错误的个数}X \\text{服从泊松分布，经统计发现在某本书上，有一个印刷错误与有两个印刷错误的页数相同，求任意检验4页，每页上都没有印刷错误的概率是( ).}</span>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/probability/ch024/q0004_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"e ^ { - g }\">e ^ { - g }</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/probability/ch024/q0004_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"e ^ { - 2 }\">e ^ { - 2 }</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/probability/ch024/q0004_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"e ^ { - 4 }\">e ^ { - 4 }</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/probability/ch024/q0004_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"e ^ { - 6 }\">e ^ { - 6 }</span>"
         }
       ],
       "answer": "A",
       "answer_index": 0,
-      "analysis_html": "<img src=\"/static/generated/assets/probability/ch024/q0004_analysis.png\"/>"
+      "analysis_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{aligned}\\because P\\{X=1\\}&amp;=P\\{X=2\\},\\ \\text{即}\\\\\\frac{\\lambda^1}{1!}e^{-\\lambda}&amp;=\\frac{\\lambda^2}{2!}e^{-\\lambda}\\Rightarrow \\lambda=2,\\\\\\therefore P\\{X=0\\}&amp;=e^{-2},\\ \\ p=(e^{-2})^4=e^{-8}.\\end{aligned}\">\\begin{aligned}\\because P\\{X=1\\}&amp;=P\\{X=2\\},\\ \\text{即}\\\\\\frac{\\lambda^1}{1!}e^{-\\lambda}&amp;=\\frac{\\lambda^2}{2!}e^{-\\lambda}\\Rightarrow \\lambda=2,\\\\\\therefore P\\{X=0\\}&amp;=e^{-2},\\ \\ p=(e^{-2})^4=e^{-8}.\\end{aligned}</div>"
     },
     {
       "id": "q0005",
       "number": 5,
       "header": "#5-Averge",
       "difficulty": "Averge",
-      "prompt_html": "<img src=\"/static/generated/assets/probability/ch024/q0005_prompt.png\"/>",
+      "prompt_html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{已知随机变量}X \\text{服从参数为} \\lambda \\text{的泊松分布，且} P\\{X=0\\}=\\frac{1}{2}\\text{，则}P\\{X&lt;2\\}=\\left(\\ \\right).\">\\text{已知随机变量}X \\text{服从参数为} \\lambda \\text{的泊松分布，且} P\\{X=0\\}=\\frac{1}{2}\\text{，则}P\\{X&lt;2\\}=\\left(\\ \\right).</span>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/probability/ch024/q0005_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\frac { 1 } { 2 } ( 1 + \\ln 2 )\">\\frac { 1 } { 2 } ( 1 + \\ln 2 )</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/probability/ch024/q0005_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\frac { 1 } { 2 } \\ln 2\">\\frac { 1 } { 2 } \\ln 2</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/probability/ch024/q0005_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\frac { 1 } { 2 } ( 1 - \\ln 2 )\">\\frac { 1 } { 2 } ( 1 - \\ln 2 )</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/probability/ch024/q0005_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"1 - \\ln 2\">1 - \\ln 2</span>"
         }
       ],
       "answer": "A",
       "answer_index": 0,
-      "analysis_html": "<img src=\"/static/generated/assets/probability/ch024/q0005_analysis.png\"/>"
+      "analysis_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{aligned}&amp;\\text{由}P\\{X=0\\}=\\frac{1}{2}\\Rightarrow e^{-\\lambda}=\\frac{1}{2}\\Rightarrow \\lambda=\\ln 2\\,,\\\\&amp;\\text{又}P\\{X&lt;2\\}=P\\{X=0\\}+P\\{X=1\\}=e^{-\\lambda}+\\lambda e^{-\\lambda}=e^{-\\lambda}(1+\\lambda)=\\frac{1}{2}(1+\\ln 2).\\end{aligned}\">\\begin{aligned}&amp;\\text{由}P\\{X=0\\}=\\frac{1}{2}\\Rightarrow e^{-\\lambda}=\\frac{1}{2}\\Rightarrow \\lambda=\\ln 2\\,,\\\\&amp;\\text{又}P\\{X&lt;2\\}=P\\{X=0\\}+P\\{X=1\\}=e^{-\\lambda}+\\lambda e^{-\\lambda}=e^{-\\lambda}(1+\\lambda)=\\frac{1}{2}(1+\\ln 2).\\end{aligned}</div>"
     },
     {
       "id": "q0006",
       "number": 6,
       "header": "#6-Averge",
       "difficulty": "Averge",
-      "prompt_html": "<img src=\"/static/generated/assets/probability/ch024/q0006_prompt.png\"/>",
+      "prompt_html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{设} \\, \\xi \\text{服从参数为} \\lambda \\text{的泊松分布，且} P\\{\\xi = 3 \\} = P\\{\\xi = 4 \\}, \\text{则} P\\{\\xi = 2 \\} = ( ).\">\\text{设} \\, \\xi \\text{服从参数为} \\lambda \\text{的泊松分布，且} P\\{\\xi = 3 \\} = P\\{\\xi = 4 \\}, \\text{则} P\\{\\xi = 2 \\} = ( ).</span>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/probability/ch024/q0006_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"8 e ^ { - 4 }\">8 e ^ { - 4 }</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/probability/ch024/q0006_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\frac { 1 } { 4 } e ^ { - 2 }\">\\frac { 1 } { 4 } e ^ { - 2 }</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/probability/ch024/q0006_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"4 e ^ { - 2 }\">4 e ^ { - 2 }</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/probability/ch024/q0006_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\frac { 1 } { 8 } e ^ { - 4 }\">\\frac { 1 } { 8 } e ^ { - 4 }</span>"
         }
       ],
       "answer": "A",
       "answer_index": 0,
-      "analysis_html": "<img src=\"/static/generated/assets/probability/ch024/q0006_analysis.png\"/>"
+      "analysis_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{aligned}&amp; \\text{泊松分布分布律为} \\; P\\{X=k\\}=e^{-\\lambda}\\frac{\\lambda^{k}}{k!}\\; , \\; \\text{故} \\\\&amp; P\\{\\xi=3\\}=P\\{\\xi=4\\} \\Rightarrow e^{-\\lambda}\\frac{\\lambda^{3}}{3!}=e^{-\\lambda}\\frac{\\lambda^{4}}{4!} \\Rightarrow \\lambda=4\\; , \\\\&amp; \\text{所以} \\; \\; P\\{X=2\\}=e^{-3}\\frac{4^{2}}{2!}=8e^{-4}\\; .\\end{aligned}\">\\begin{aligned}&amp; \\text{泊松分布分布律为} \\; P\\{X=k\\}=e^{-\\lambda}\\frac{\\lambda^{k}}{k!}\\; , \\; \\text{故} \\\\&amp; P\\{\\xi=3\\}=P\\{\\xi=4\\} \\Rightarrow e^{-\\lambda}\\frac{\\lambda^{3}}{3!}=e^{-\\lambda}\\frac{\\lambda^{4}}{4!} \\Rightarrow \\lambda=4\\; , \\\\&amp; \\text{所以} \\; \\; P\\{X=2\\}=e^{-3}\\frac{4^{2}}{2!}=8e^{-4}\\; .\\end{aligned}</div>"
     },
     {
       "id": "q0007",
       "number": 7,
       "header": "#7-Averge",
       "difficulty": "Averge",
-      "prompt_html": "<img src=\"/static/generated/assets/probability/ch024/q0007_prompt.png\"/>",
+      "prompt_html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\sum_{i=1}^{n} \\frac{1}{n}P(X_i) = P(X = 0)\">\\sum_{i=1}^{n} \\frac{1}{n}P(X_i) = P(X = 0)</span>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/probability/ch024/q0007_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"e ^ { - 4 }\">e ^ { - 4 }</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/probability/ch024/q0007_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"4 e ^ { - 4 }\">4 e ^ { - 4 }</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/probability/ch024/q0007_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\frac {4 ^ {4}}{4 !} e ^ {- 4}\">\\frac {4 ^ {4}}{4 !} e ^ {- 4}</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/probability/ch024/q0007_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\frac {4 ^ {3}}{3 !} e ^ {- 4}\">\\frac {4 ^ {3}}{3 !} e ^ {- 4}</span>"
         }
       ],
       "answer": "A",
       "answer_index": 0,
-      "analysis_html": "<img src=\"/static/generated/assets/probability/ch024/q0007_analysis.png\"/>"
+      "analysis_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{array}{l} \\text {泊松分布的分布律为} P\\{X=k\\} = e^{-i}\\frac{\\lambda^{k}}{k!},\\, k=1,2,\\ldots,\\, \\\\ \\text {依题意，所求概率为} P\\{X=0\\} = e^{-4}\\,.\\end{array}\">\\begin{array}{l} \\text {泊松分布的分布律为} P\\{X=k\\} = e^{-i}\\frac{\\lambda^{k}}{k!},\\, k=1,2,\\ldots,\\, \\\\ \\text {依题意，所求概率为} P\\{X=0\\} = e^{-4}\\,.\\end{array}</div>"
     },
     {
       "id": "q0008",
       "number": 8,
       "header": "#8-Averge",
       "difficulty": "Averge",
-      "prompt_html": "<img src=\"/static/generated/assets/probability/ch024/q0008_prompt.png\"/>",
+      "prompt_html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{设}\\,\\xi \\text{服从参数为}\\lambda \\text{的泊松分布，已知}P\\{\\xi=2\\}=P\\{\\xi=3\\},\\text{则}P\\{\\xi=4\\}=(\\enspace).\">\\text{设}\\,\\xi \\text{服从参数为}\\lambda \\text{的泊松分布，已知}P\\{\\xi=2\\}=P\\{\\xi=3\\},\\text{则}P\\{\\xi=4\\}=(\\enspace).</span>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/probability/ch024/q0008_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\frac { 27 } { 8 } e ^ { - 3 }\">\\frac { 27 } { 8 } e ^ { - 3 }</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/probability/ch024/q0008_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\frac { 3 } { 4 } e ^ { - 3 }\">\\frac { 3 } { 4 } e ^ { - 3 }</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/probability/ch024/q0008_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\frac { 8 } { 27 } e ^ { - 3 }\">\\frac { 8 } { 27 } e ^ { - 3 }</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/probability/ch024/q0008_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\frac { 4 } { 3 } e ^ { - 3 }\">\\frac { 4 } { 3 } e ^ { - 3 }</span>"
         }
       ],
       "answer": "A",
       "answer_index": 0,
-      "analysis_html": "<img src=\"/static/generated/assets/probability/ch024/q0008_analysis.png\"/>"
+      "analysis_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{aligned} &amp; \\text{泊松分布的分布律为} P\\{X=k\\}=e^{-\\lambda}\\frac{\\lambda^k}{k!}, k=1,2,..., \\text{由} \\\\ &amp; \\quad P\\{\\xi=2\\}=P\\{\\xi=3\\} \\Rightarrow e^{-\\lambda}\\frac{\\lambda^2}{2!}=e^{-\\lambda}\\frac{\\lambda^3}{3!} \\Rightarrow \\lambda=3, \\\\ &amp; \\text{所以} P\\{\\xi=4\\}=e^{-3}\\frac{3^4}{4!}=\\frac{27}{8}e^{-3}.\\end{aligned}\">\\begin{aligned} &amp; \\text{泊松分布的分布律为} P\\{X=k\\}=e^{-\\lambda}\\frac{\\lambda^k}{k!}, k=1,2,..., \\text{由} \\\\ &amp; \\quad P\\{\\xi=2\\}=P\\{\\xi=3\\} \\Rightarrow e^{-\\lambda}\\frac{\\lambda^2}{2!}=e^{-\\lambda}\\frac{\\lambda^3}{3!} \\Rightarrow \\lambda=3, \\\\ &amp; \\text{所以} P\\{\\xi=4\\}=e^{-3}\\frac{3^4}{4!}=\\frac{27}{8}e^{-3}.\\end{aligned}</div>"
     },
     {
       "id": "q0009",
       "number": 9,
       "header": "#9-Averge",
       "difficulty": "Averge",
-      "prompt_html": "<img src=\"/static/generated/assets/probability/ch024/q0009_prompt.png\"/>",
+      "prompt_html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{设随机变量}X \\text{服从参数为} \\lambda \\text{的泊松分布，且} P\\{X=1\\}=P\\{X=2\\}, \\text{则} \\lambda=( ).\">\\text{设随机变量}X \\text{服从参数为} \\lambda \\text{的泊松分布，且} P\\{X=1\\}=P\\{X=2\\}, \\text{则} \\lambda=( ).</span>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/probability/ch024/q0009_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"_{\\text{ 2 }}\">_{\\text{ 2 }}</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/probability/ch024/q0009_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"1\">1</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/probability/ch024/q0009_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"^ 3\">^ 3</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/probability/ch024/q0009_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"4\">4</span>"
         }
       ],
       "answer": "A",
       "answer_index": 0,
-      "analysis_html": "<img src=\"/static/generated/assets/probability/ch024/q0009_analysis.png\"/>"
+      "analysis_html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{由} \\, P\\{X=1\\} = P\\{X=2\\}, \\text{有} \\, \\lambda e^{-\\lambda} = \\frac{\\lambda^{2}}{2} e^{-\\lambda}, \\text{得} \\, \\lambda = 2.\">\\text{由} \\, P\\{X=1\\} = P\\{X=2\\}, \\text{有} \\, \\lambda e^{-\\lambda} = \\frac{\\lambda^{2}}{2} e^{-\\lambda}, \\text{得} \\, \\lambda = 2.</span>"
     },
     {
       "id": "q0010",
       "number": 10,
       "header": "#10-Averge",
       "difficulty": "Averge",
-      "prompt_html": "<img src=\"/static/generated/assets/probability/ch024/q0010_prompt.png\"/>",
+      "prompt_html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{设} \\, \\xi \\text{服从参数为} \\, \\lambda \\text{的泊松分布，且已知} \\, P\\{ \\xi = 2 \\} = P\\{ \\xi = 4 \\} \\, , \\, \\text{则} \\, \\lambda = ( \\ ) \\, .\">\\text{设} \\, \\xi \\text{服从参数为} \\, \\lambda \\text{的泊松分布，且已知} \\, P\\{ \\xi = 2 \\} = P\\{ \\xi = 4 \\} \\, , \\, \\text{则} \\, \\lambda = ( \\ ) \\, .</span>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/probability/ch024/q0010_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\frac {\\sqrt {3}}{2}\">\\frac {\\sqrt {3}}{2}</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/probability/ch024/q0010_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"3 \\sqrt { 2 }\">3 \\sqrt { 2 }</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/probability/ch024/q0010_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\frac {2 \\sqrt {3}}{3}\">\\frac {2 \\sqrt {3}}{3}</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/probability/ch024/q0010_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\sqrt [ 2 ] { 3 }\">\\sqrt [ 2 ] { 3 }</span>"
         }
       ],
       "answer": "D",
       "answer_index": 3,
-      "analysis_html": "<img src=\"/static/generated/assets/probability/ch024/q0010_analysis.png\"/>"
+      "analysis_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{aligned}&amp;\\text{泊松分布的分布律为}P\\{X=k\\}=e^{-i\\frac{\\lambda^k}{k!}},\\,k=1,2,\\ldots\\,,\\\\&amp;\\text{故由}P\\{\\xi=2\\}=P\\{\\xi^c=4\\}\\Rightarrow e^{-i\\frac{\\lambda^2}{2!}}=e^{-i\\frac{\\lambda^4}{4!}}\\Rightarrow \\lambda^2=12\\,\\Rightarrow\\,\\,\\lambda=2\\sqrt{3}\\,.\\end{aligned}\">\\begin{aligned}&amp;\\text{泊松分布的分布律为}P\\{X=k\\}=e^{-i\\frac{\\lambda^k}{k!}},\\,k=1,2,\\ldots\\,,\\\\&amp;\\text{故由}P\\{\\xi=2\\}=P\\{\\xi^c=4\\}\\Rightarrow e^{-i\\frac{\\lambda^2}{2!}}=e^{-i\\frac{\\lambda^4}{4!}}\\Rightarrow \\lambda^2=12\\,\\Rightarrow\\,\\,\\lambda=2\\sqrt{3}\\,.\\end{aligned}</div>"
     },
     {
       "id": "q0011",
       "number": 11,
       "header": "#11-Hard",
       "difficulty": "Hard",
-      "prompt_html": "<img src=\"/static/generated/assets/probability/ch024/q0011_prompt.png\"/>",
+      "prompt_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{array}{l} \\text {在长度为} t \\text {的时间间隔内，某急救中心收到紧急呼救的次数} X \\text {服从参数} \\frac{1}{2} \\text {的泊松分布，而与时间间隔的起点无关（时间以小时计），则某一天从中午12至下午3时没有收到紧急呼救的概率为（）；某一天从中午12时至下午6时至少收到1次紧急呼救的概率为（）。} \\end{array}\">\\begin{array}{l} \\text {在长度为} t \\text {的时间间隔内，某急救中心收到紧急呼救的次数} X \\text {服从参数} \\frac{1}{2} \\text {的泊松分布，而与时间间隔的起点无关（时间以小时计），则某一天从中午12至下午3时没有收到紧急呼救的概率为（）；某一天从中午12时至下午6时至少收到1次紧急呼救的概率为（）。} \\end{array}</div>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/probability/ch024/q0011_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\texttt { 0.223, 0.833 }\">\\texttt { 0.223, 0.833 }</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/probability/ch024/q0011_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"0.118 , \\, 0.918\">0.118 , \\, 0.918</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/probability/ch024/q0011_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\textbf { 0.223, 0.918 }\">\\textbf { 0.223, 0.918 }</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/probability/ch024/q0011_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\textbf{0.118, 0.833}\">\\textbf{0.118, 0.833}</span>"
         }
       ],
       "answer": "C",
       "answer_index": 2,
-      "analysis_html": "<img src=\"/static/generated/assets/probability/ch024/q0011_analysis.png\"/>"
+      "analysis_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{aligned}(1)\\; &amp; t=3,\\; \\lambda=3/2,\\;\\; P\\{X=0\\}=e^{-3/2}\\approx 0.223;2)\\; &amp; t=5,\\; \\lambda=5/2,\\;\\; P\\{X\\geq 1\\}=1-P\\{X=0\\}\\; =1-e^{-5/2}\\approx 0.918.\\end{aligned}\">\\begin{aligned}(1)\\; &amp; t=3,\\; \\lambda=3/2,\\;\\; P\\{X=0\\}=e^{-3/2}\\approx 0.223;2)\\; &amp; t=5,\\; \\lambda=5/2,\\;\\; P\\{X\\geq 1\\}=1-P\\{X=0\\}\\; =1-e^{-5/2}\\approx 0.918.\\end{aligned}</div>"
     },
     {
       "id": "q0012",
       "number": 12,
       "header": "#12-Averge",
       "difficulty": "Averge",
-      "prompt_html": "<img src=\"/static/generated/assets/probability/ch024/q0012_prompt.png\"/>",
+      "prompt_html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{设} \\xi \\text{服从参数为} \\lambda \\text{的泊松分布，且已知} P\\{\\xi = 7\\} = P\\{\\xi = 9\\}, \\text{则} \\lambda = ( ) .\">\\text{设} \\xi \\text{服从参数为} \\lambda \\text{的泊松分布，且已知} P\\{\\xi = 7\\} = P\\{\\xi = 9\\}, \\text{则} \\lambda = ( ) .</span>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/probability/ch024/q0012_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"4 \\sqrt { 2 }\">4 \\sqrt { 2 }</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/probability/ch024/q0012_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"3 \\sqrt { 2 }\">3 \\sqrt { 2 }</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/probability/ch024/q0012_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"2 \\sqrt { 6 }\">2 \\sqrt { 6 }</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/probability/ch024/q0012_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\sqrt [ 6 ] { 2 }\">\\sqrt [ 6 ] { 2 }</span>"
         }
       ],
       "answer": "D",
       "answer_index": 3,
-      "analysis_html": "<img src=\"/static/generated/assets/probability/ch024/q0012_analysis.png\"/>"
+      "analysis_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{aligned}&amp;\\text{泊松分布的分布律为}P\\{X=k\\}=e^{-\\lambda}\\frac{\\lambda^k}{k!},\\, k=1,2,\\ldots\\,,\\\\&amp;\\text{故由}P\\{\\xi=7\\}=P\\{\\xi=9\\}\\Rightarrow\\ e^{-\\lambda}\\frac{\\lambda^7}{7!}=e^{-\\lambda}\\frac{\\lambda^9}{9!}\\,\\Rightarrow\\,\\lambda^2=72\\,\\Rightarrow\\,\\lambda=6\\sqrt{2}\\,.\\end{aligned}\">\\begin{aligned}&amp;\\text{泊松分布的分布律为}P\\{X=k\\}=e^{-\\lambda}\\frac{\\lambda^k}{k!},\\, k=1,2,\\ldots\\,,\\\\&amp;\\text{故由}P\\{\\xi=7\\}=P\\{\\xi=9\\}\\Rightarrow\\ e^{-\\lambda}\\frac{\\lambda^7}{7!}=e^{-\\lambda}\\frac{\\lambda^9}{9!}\\,\\Rightarrow\\,\\lambda^2=72\\,\\Rightarrow\\,\\lambda=6\\sqrt{2}\\,.\\end{aligned}</div>"
     },
     {
       "id": "q0013",
       "number": 13,
       "header": "#13-Averge",
       "difficulty": "Averge",
-      "prompt_html": "<img src=\"/static/generated/assets/probability/ch024/q0013_prompt.png\"/>",
+      "prompt_html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{某路口在一天的某一时间段内}800 \\text{有辆汽车通过，每辆汽车通过该路口时发生故障的概率为}0.002，\\text{试利用泊松定理近似计算通过的}800\\text{辆汽车中恰有}3\\text{辆车发生故障的概率为}()．(\\text{只写出计算公式}，\\text{而不必计算出最后结果})\\,.\">\\text{某路口在一天的某一时间段内}800 \\text{有辆汽车通过，每辆汽车通过该路口时发生故障的概率为}0.002，\\text{试利用泊松定理近似计算通过的}800\\text{辆汽车中恰有}3\\text{辆车发生故障的概率为}()．(\\text{只写出计算公式}，\\text{而不必计算出最后结果})\\,.</span>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/probability/ch024/q0013_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\frac {1 . 6 ^ {4}}{4 !} e ^ {- 1 . 6}\">\\frac {1 . 6 ^ {4}}{4 !} e ^ {- 1 . 6}</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/probability/ch024/q0013_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\frac { 1 . 6 ^ { 2 } } { 2 ! } e ^ { - 1 . 6 }\">\\frac { 1 . 6 ^ { 2 } } { 2 ! } e ^ { - 1 . 6 }</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/probability/ch024/q0013_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\frac {1 . 6 ^ {3}}{3 !} e ^ {1 . 6}\">\\frac {1 . 6 ^ {3}}{3 !} e ^ {1 . 6}</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/probability/ch024/q0013_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\frac {1 . 6 ^ {3}}{3 !} e ^ {- 1 . 6}\">\\frac {1 . 6 ^ {3}}{3 !} e ^ {- 1 . 6}</span>"
         }
       ],
       "answer": "D",
       "answer_index": 3,
-      "analysis_html": "<img src=\"/static/generated/assets/probability/ch024/q0013_analysis.png\"/>"
+      "analysis_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{aligned} \\text{设}\\lambda \\text{表示通过的800辆汽车中发生故障的车辆数，则}X\\sim B(800,0.002).\\text{利用泊松定理近似计算，取}\\lambda=800\\times 0.002=1.6，\\text{于是}， \\\\ P\\{X=3\\}\\approx \\frac{1.6^3}{3!}e^{-1.6}\\,.\\end{aligned}\">\\begin{aligned} \\text{设}\\lambda \\text{表示通过的800辆汽车中发生故障的车辆数，则}X\\sim B(800,0.002).\\text{利用泊松定理近似计算，取}\\lambda=800\\times 0.002=1.6，\\text{于是}， \\\\ P\\{X=3\\}\\approx \\frac{1.6^3}{3!}e^{-1.6}\\,.\\end{aligned}</div>"
     }
-  ]
+  ],
+  "format": "latex",
+  "source_md": "gl/2.1.2.1.2_泊松分布、超几何分布和几何分布(13题)/2.1.2.1.2_泊松分布、超几何分布和几何分布(13题).md"
 }

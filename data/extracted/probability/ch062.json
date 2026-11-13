@@ -13,532 +13,534 @@
       "number": 1,
       "header": "#1-Averge",
       "difficulty": "Averge",
-      "prompt_html": "<img src=\"/static/generated/assets/probability/ch062/q0001_prompt.png\"/>",
+      "prompt_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{array}{l} \\text{设}X\\sim U(0,1),\\,Y\\sim U(0,1),\\,\\text{且}X、Y\\text{相互独立．令}Z=X+Y,\\,\\,f_{z}(z)\\text{为}Z\\text{的概率密度，则}f_{Z}(\\frac{3}{2})=(\\,\\,). \\end{array}\">\\begin{array}{l} \\text{设}X\\sim U(0,1),\\,Y\\sim U(0,1),\\,\\text{且}X、Y\\text{相互独立．令}Z=X+Y,\\,\\,f_{z}(z)\\text{为}Z\\text{的概率密度，则}f_{Z}(\\frac{3}{2})=(\\,\\,). \\end{array}</div>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/probability/ch062/q0001_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\frac { 1 } { 2 }\">\\frac { 1 } { 2 }</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/probability/ch062/q0001_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"0\">0</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/probability/ch062/q0001_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\frac {3}{2}\">\\frac {3}{2}</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/probability/ch062/q0001_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"1\">1</span>"
         }
       ],
       "answer": "A",
       "answer_index": 0,
-      "analysis_html": "<img src=\"/static/generated/assets/probability/ch062/q0001_analysis.png\"/>"
+      "analysis_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{aligned} &amp; \\text{因为独立，且都服从均匀分布，故}\\text{ (X,Y) }\\text{服从}  (0,1)\\times (0,1)  \\text{上的均匀分布，即} \\\\ &amp; \\qquad \\qquad \\qquad f(x,y)=\\begin{cases} 1, &amp; 0&lt;x&lt;1, 0&lt;y&lt;1 \\\\ &amp; 0, \\text{其它} \\end{cases}. \\\\ &amp; \\text{于是，} \\\\ &amp; \\qquad f_x(\\frac{3}{2})=\\int_{-\\infty}^{+\\infty} f(x,\\frac{3}{2}-x)dx=\\int_{1}^{1}1dx=\\frac{1}{2}\\,.\\, \\\\ &amp; \\text{或} \\\\ &amp; \\qquad f_x(z)=\\int_{-\\infty}^{+\\infty} f(x,z-x)dx=\\begin{cases} \\int_{0}^{z}1dx, &amp; 0&lt;z&lt;1 \\\\ \\int_{z-1}^{1}1dx, &amp; 1\\leq z&lt;2, \\\\ 0, &amp; \\text{其它} \\end{cases}=\\begin{cases} z, &amp; 0&lt;z&lt;1 \\\\ 2-z, &amp; 1\\leq z&lt;2. \\\\ 0, &amp; \\text{其它} \\end{cases} \\\\ &amp; \\text{从而}\\quad f_x(\\frac{3}{2})=2-\\frac{3}{2}=\\frac{1}{2}\\,.\\end{aligned}\">\\begin{aligned} &amp; \\text{因为独立，且都服从均匀分布，故}\\text{ (X,Y) }\\text{服从}  (0,1)\\times (0,1)  \\text{上的均匀分布，即} \\\\ &amp; \\qquad \\qquad \\qquad f(x,y)=\\begin{cases} 1, &amp; 0&lt;x&lt;1, 0&lt;y&lt;1 \\\\ &amp; 0, \\text{其它} \\end{cases}. \\\\ &amp; \\text{于是，} \\\\ &amp; \\qquad f_x(\\frac{3}{2})=\\int_{-\\infty}^{+\\infty} f(x,\\frac{3}{2}-x)dx=\\int_{1}^{1}1dx=\\frac{1}{2}\\,.\\, \\\\ &amp; \\text{或} \\\\ &amp; \\qquad f_x(z)=\\int_{-\\infty}^{+\\infty} f(x,z-x)dx=\\begin{cases} \\int_{0}^{z}1dx, &amp; 0&lt;z&lt;1 \\\\ \\int_{z-1}^{1}1dx, &amp; 1\\leq z&lt;2, \\\\ 0, &amp; \\text{其它} \\end{cases}=\\begin{cases} z, &amp; 0&lt;z&lt;1 \\\\ 2-z, &amp; 1\\leq z&lt;2. \\\\ 0, &amp; \\text{其它} \\end{cases} \\\\ &amp; \\text{从而}\\quad f_x(\\frac{3}{2})=2-\\frac{3}{2}=\\frac{1}{2}\\,.\\end{aligned}</div>"
     },
     {
       "id": "q0002",
       "number": 2,
       "header": "#2-Averge",
       "difficulty": "Averge",
-      "prompt_html": "<img src=\"/static/generated/assets/probability/ch062/q0002_prompt.png\"/>",
+      "prompt_html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{设}X\\sim U(0,1),\\,Y\\sim U(0,1)\\,,\\,\\text{且}X、Y\\text{相互独立，则服从一维或二维均匀分布的是( ).}\">\\text{设}X\\sim U(0,1),\\,Y\\sim U(0,1)\\,,\\,\\text{且}X、Y\\text{相互独立，则服从一维或二维均匀分布的是( ).}</span>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/probability/ch062/q0002_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"(X, Y)\">(X, Y)</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/probability/ch062/q0002_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"X + Y\">X + Y</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/probability/ch062/q0002_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\chi ^ { 2 }\">\\chi ^ { 2 }</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/probability/ch062/q0002_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"X - Y\">X - Y</span>"
         }
       ],
       "answer": "A",
       "answer_index": 0,
-      "analysis_html": "<img src=\"/static/generated/assets/probability/ch062/q0002_analysis.png\"/>"
+      "analysis_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{aligned} \\text{设} \\, (X,Y) \\text{ 的分布函数为 } F(x,y), \\text{ 则} \\quad &amp; F(x,y) = P\\bigl\\{ X \\leq x, Y \\leq y \\bigr\\} = P\\bigl\\{ X \\leq x, Y \\leq y \\bigr\\} = \\int_{-x}^{x} f(x) dx \\int_{-x}^{y} g(y) dy \\, , \\\\ \\text{其中, } \\, f(x) = &amp; \\begin{cases} 1, \\ 0 \\leq x \\leq 1 \\\\ 0, \\ \\text{其它} \\end{cases}, \\ \\ g(y) = \\begin{cases} 1, \\ 0 \\leq y \\leq 1 \\\\ 0, \\ \\text{其它} \\end{cases}, \\\\ \\text{故当 } 0 \\leq x \\leq 1 \\text{ 且 } 0 \\leq y \\leq 1 \\text{ 时，有} \\quad &amp; f(x,y) = \\frac{\\partial^2 F(x,y)}{\\partial_x \\partial_y} = 1 \\\\ \\text{而在此区域外都有 } f(x,y) = 0, \\text{ 因此} \\, (X,Y) \\text{ 为区域 } 0 \\leq x \\leq 1, \\ 0 \\leq y \\leq 1 \\text{ 上服从均匀分布的二维随机变量.} \\end{aligned}\">\\begin{aligned} \\text{设} \\, (X,Y) \\text{ 的分布函数为 } F(x,y), \\text{ 则} \\quad &amp; F(x,y) = P\\bigl\\{ X \\leq x, Y \\leq y \\bigr\\} = P\\bigl\\{ X \\leq x, Y \\leq y \\bigr\\} = \\int_{-x}^{x} f(x) dx \\int_{-x}^{y} g(y) dy \\, , \\\\ \\text{其中, } \\, f(x) = &amp; \\begin{cases} 1, \\ 0 \\leq x \\leq 1 \\\\ 0, \\ \\text{其它} \\end{cases}, \\ \\ g(y) = \\begin{cases} 1, \\ 0 \\leq y \\leq 1 \\\\ 0, \\ \\text{其它} \\end{cases}, \\\\ \\text{故当 } 0 \\leq x \\leq 1 \\text{ 且 } 0 \\leq y \\leq 1 \\text{ 时，有} \\quad &amp; f(x,y) = \\frac{\\partial^2 F(x,y)}{\\partial_x \\partial_y} = 1 \\\\ \\text{而在此区域外都有 } f(x,y) = 0, \\text{ 因此} \\, (X,Y) \\text{ 为区域 } 0 \\leq x \\leq 1, \\ 0 \\leq y \\leq 1 \\text{ 上服从均匀分布的二维随机变量.} \\end{aligned}</div>"
     },
     {
       "id": "q0003",
       "number": 3,
       "header": "#3-Hard",
       "difficulty": "Hard",
-      "prompt_html": "<img src=\"/static/generated/assets/probability/ch062/q0003_prompt.png\"/>",
+      "prompt_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{aligned}\\text{设二维随机变量} (X,Y) \\text{的概率密度为}\\\\f(x,y) &amp; = \\begin{cases} 2e^{-(x+2y)}, &amp; x&gt;0,\\, y&gt;0 \\\\ &amp; , \\\\ 0, &amp; \\text{其它} \\end{cases}, \\end{aligned} \\text{则随机变量} Z=X+2Y \\text{的分布函数为} ( ).\">\\begin{aligned}\\text{设二维随机变量} (X,Y) \\text{的概率密度为}\\\\f(x,y) &amp; = \\begin{cases} 2e^{-(x+2y)}, &amp; x&gt;0,\\, y&gt;0 \\\\ &amp; , \\\\ 0, &amp; \\text{其它} \\end{cases}, \\end{aligned} \\text{则随机变量} Z=X+2Y \\text{的分布函数为} ( ).</div>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/probability/ch062/q0003_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\begin{aligned}F_Z(Z)=\\left\\{\\begin{matrix}0, &amp; \\ z\\leq 0\\\\ \\\\1-e^{-z}-ze^{-z}, &amp; \\ z&gt;0\\end{matrix}\\right.\\end{aligned}\">\\begin{aligned}F_Z(Z)=\\left\\{\\begin{matrix}0, &amp; \\ z\\leq 0\\\\ \\\\1-e^{-z}-ze^{-z}, &amp; \\ z&gt;0\\end{matrix}\\right.\\end{aligned}</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/probability/ch062/q0003_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\begin{aligned}F_Z(Z)=\\{\\begin{array}{cc}0, &amp; \\ z\\leq 0 \\\\ \\\\1+e^{-z}-ze^{-z}, &amp; \\ z&gt;0\\end{array}\\end{aligned}\">\\begin{aligned}F_Z(Z)=\\{\\begin{array}{cc}0, &amp; \\ z\\leq 0 \\\\ \\\\1+e^{-z}-ze^{-z}, &amp; \\ z&gt;0\\end{array}\\end{aligned}</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/probability/ch062/q0003_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\begin{aligned}F_{z}(Z)=\\{\\begin{array}{cc}0, &amp; \\ \\ z\\leq0\\\\ \\\\1+e^{-z}+ze^{-z}, &amp; \\ \\ z&gt;0\\end{array}\\end{aligned}\">\\begin{aligned}F_{z}(Z)=\\{\\begin{array}{cc}0, &amp; \\ \\ z\\leq0\\\\ \\\\1+e^{-z}+ze^{-z}, &amp; \\ \\ z&gt;0\\end{array}\\end{aligned}</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/probability/ch062/q0003_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\begin{array}{ll}F_{z}(Z)=\\{\\begin{array}{cc}0, &amp; \\quad z\\leq 0\\\\ \\\\ 1-e^{-z}+ze^{-z}, &amp; \\quad z&gt;0\\end{array}\\end{array}\">\\begin{array}{ll}F_{z}(Z)=\\{\\begin{array}{cc}0, &amp; \\quad z\\leq 0\\\\ \\\\ 1-e^{-z}+ze^{-z}, &amp; \\quad z&gt;0\\end{array}\\end{array}</span>"
         }
       ],
       "answer": "A",
       "answer_index": 0,
-      "analysis_html": "<img src=\"/static/generated/assets/probability/ch062/q0003_analysis.png\"/>"
+      "analysis_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{aligned}&amp;\\text{按定义}\\qquad F_{\\lambda}(Z)=P\\{x+2y\\leq z\\},\\\\&amp;\\text{当}z\\leq 0\\text{时，}F_{\\lambda}(Z)=\\iint\\limits_{x+2y\\leq z}f(x,y)dx dy=\\iint\\limits_{x+2y\\leq z}0dx dy=0.\\\\&amp;\\text{当}z&gt;0\\text{时，}F_{\\lambda}(Z)=\\iint\\limits_{x+2y\\leq z}f(x,y)dx dy=\\int_{0}^{z}dx\\int_{0}^{z-x(z)^{2}}2e^{-(x+z)}dy\\\\&amp;\\qquad=\\int_{0}^{z}e^{-z}\\cdot(1-e^{-z}-1)dx=\\int_{0}^{z}(e^{-z}-e^{-z})dx\\\\&amp;\\qquad=[-e^{-z}]_{0}^{z}-ze^{-z}=1-e^{-z}-ze^{-z},\\\\&amp;\\text{故分布函数为}\\qquad F_{\\lambda}(Z)=\\begin{cases}0,&amp;z\\leq 0\\\\1-e^{-z}-ze^{-z},z&gt;0\\end{cases}.\\end{aligned}\">\\begin{aligned}&amp;\\text{按定义}\\qquad F_{\\lambda}(Z)=P\\{x+2y\\leq z\\},\\\\&amp;\\text{当}z\\leq 0\\text{时，}F_{\\lambda}(Z)=\\iint\\limits_{x+2y\\leq z}f(x,y)dx dy=\\iint\\limits_{x+2y\\leq z}0dx dy=0.\\\\&amp;\\text{当}z&gt;0\\text{时，}F_{\\lambda}(Z)=\\iint\\limits_{x+2y\\leq z}f(x,y)dx dy=\\int_{0}^{z}dx\\int_{0}^{z-x(z)^{2}}2e^{-(x+z)}dy\\\\&amp;\\qquad=\\int_{0}^{z}e^{-z}\\cdot(1-e^{-z}-1)dx=\\int_{0}^{z}(e^{-z}-e^{-z})dx\\\\&amp;\\qquad=[-e^{-z}]_{0}^{z}-ze^{-z}=1-e^{-z}-ze^{-z},\\\\&amp;\\text{故分布函数为}\\qquad F_{\\lambda}(Z)=\\begin{cases}0,&amp;z\\leq 0\\\\1-e^{-z}-ze^{-z},z&gt;0\\end{cases}.\\end{aligned}</div>"
     },
     {
       "id": "q0004",
       "number": 4,
       "header": "#4-Hard",
       "difficulty": "Hard",
-      "prompt_html": "<img src=\"/static/generated/assets/probability/ch062/q0004_prompt.png\"/>",
+      "prompt_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{aligned} f_{X}(x) &amp; =\\begin{cases} 1, 0 \\leq x \\leq 1 \\\\ 0, \\ \\ \\text{其它} \\end{cases}, \\ f_{Y}(y) = \\begin{cases} Ae^{-y}, y&gt;0 \\\\ 0, \\ \\ y \\leq 0 \\end{cases}, \\end{aligned} \\text{则随机变量} Z=2X+Y \\text{的概率密度函数为}（.）\">\\begin{aligned} f_{X}(x) &amp; =\\begin{cases} 1, 0 \\leq x \\leq 1 \\\\ 0, \\ \\ \\text{其它} \\end{cases}, \\ f_{Y}(y) = \\begin{cases} Ae^{-y}, y&gt;0 \\\\ 0, \\ \\ y \\leq 0 \\end{cases}, \\end{aligned} \\text{则随机变量} Z=2X+Y \\text{的概率密度函数为}（.）</div>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/probability/ch062/q0004_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\begin{aligned}f_{z}(z)=\\{\\begin{array}{cc}0, &amp; \\quad z&lt;0\\\\1-e^{-z})/2, &amp; \\quad 0\\leq z&lt;2\\\\e^{2}+1)e^{-z}/2, &amp; \\quad z\\geq2\\end{array}\\end{aligned}\">\\begin{aligned}f_{z}(z)=\\{\\begin{array}{cc}0, &amp; \\quad z&lt;0\\\\1-e^{-z})/2, &amp; \\quad 0\\leq z&lt;2\\\\e^{2}+1)e^{-z}/2, &amp; \\quad z\\geq2\\end{array}\\end{aligned}</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/probability/ch062/q0004_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\begin{aligned}f_z(z)=\\begin{cases}0, &amp; z&lt;0\\\\1-e^{-z})/2, &amp; 0\\leq z&lt;2\\\\e^2-1)e^{-z}/2, &amp; z\\geq 2\\end{cases}\\end{aligned}\">\\begin{aligned}f_z(z)=\\begin{cases}0, &amp; z&lt;0\\\\1-e^{-z})/2, &amp; 0\\leq z&lt;2\\\\e^2-1)e^{-z}/2, &amp; z\\geq 2\\end{cases}\\end{aligned}</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/probability/ch062/q0004_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\begin{aligned}f_{z}(z)=\\{\\begin{array}{cc}0, &amp; \\ \\ z&lt;0 \\\\ \\\\ (1+e^{-z})/2, &amp; \\ \\ 0\\leq z&lt;2 \\\\ \\\\ (e^{2}+1)e^{-z}/2, &amp; \\ \\ \\ z\\geq2\\end{array}\\end{aligned}\">\\begin{aligned}f_{z}(z)=\\{\\begin{array}{cc}0, &amp; \\ \\ z&lt;0 \\\\ \\\\ (1+e^{-z})/2, &amp; \\ \\ 0\\leq z&lt;2 \\\\ \\\\ (e^{2}+1)e^{-z}/2, &amp; \\ \\ \\ z\\geq2\\end{array}\\end{aligned}</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/probability/ch062/q0004_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\begin{aligned}f_{z}(z)=\\{\\begin{array}{cc}0, &amp; \\quad z&lt;0 \\\\1+e^{-z})/2, &amp; \\quad 0\\leq z&lt;2 \\\\e^{2}-1)e^{-z}/2, &amp; \\quad z\\geq 2\\end{array}\\end{aligned}\">\\begin{aligned}f_{z}(z)=\\{\\begin{array}{cc}0, &amp; \\quad z&lt;0 \\\\1+e^{-z})/2, &amp; \\quad 0\\leq z&lt;2 \\\\e^{2}-1)e^{-z}/2, &amp; \\quad z\\geq 2\\end{array}\\end{aligned}</span>"
         }
       ],
       "answer": "B",
       "answer_index": 1,
-      "analysis_html": "<img src=\"/static/generated/assets/probability/ch062/q0004_analysis.png\"/>"
+      "analysis_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{aligned}&amp;1=\\int_{-\\infty}^{\\pi}f_{x}(y)dy=\\int_{0}^{\\pi}A\\cdot e^{-y}dy=A.\\\\&amp;\\text{因}X\\text{与}Y\\text{相互独立，故}(X,Y)\\text{的联合概率密度为}\\\\&amp;f(x,y)=\\begin{cases}e^{-y},\\ 0\\leq x\\leq 1,\\ y&gt;0\\\\0,\\quad\\text{其它}\\end{cases}.\\end{aligned}\">\\begin{aligned}&amp;1=\\int_{-\\infty}^{\\pi}f_{x}(y)dy=\\int_{0}^{\\pi}A\\cdot e^{-y}dy=A.\\\\&amp;\\text{因}X\\text{与}Y\\text{相互独立，故}(X,Y)\\text{的联合概率密度为}\\\\&amp;f(x,y)=\\begin{cases}e^{-y},\\ 0\\leq x\\leq 1,\\ y&gt;0\\\\0,\\quad\\text{其它}\\end{cases}.\\end{aligned}</div>"
     },
     {
       "id": "q0005",
       "number": 5,
       "header": "#5-Hard",
       "difficulty": "Hard",
-      "prompt_html": "<img src=\"/static/generated/assets/probability/ch062/q0005_prompt.png\"/>",
+      "prompt_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{aligned}\\text{设}(X,Y) \\text{的联合分布密度为}\\\\f(x,y)=\\frac{1}{2\\pi}e^{-\\frac{x^{2}+y^{2}}{2}},Z=\\sqrt{X^{2}+Y^{2}},\\\\ \\text{则}Z \\text{的分布密度为}（）。\\end{aligned}\">\\begin{aligned}\\text{设}(X,Y) \\text{的联合分布密度为}\\\\f(x,y)=\\frac{1}{2\\pi}e^{-\\frac{x^{2}+y^{2}}{2}},Z=\\sqrt{X^{2}+Y^{2}},\\\\ \\text{则}Z \\text{的分布密度为}（）。\\end{aligned}</div>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/probability/ch062/q0005_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\begin{array}{l} { r } { f _ { Z } ( z ) = \\{ \\begin{array}{l} { l l } { z ^ { 2 } e ^ { - { \\frac { z ^ { 2 } } { 2 } } } , \\ z &gt; 0 } \\\\ { \\ \\ \\ 0 , \\ \\ \\ \\ z \\leq 0 } \\end{array} } \\end{array}\">\\begin{array}{l} { r } { f _ { Z } ( z ) = \\{ \\begin{array}{l} { l l } { z ^ { 2 } e ^ { - { \\frac { z ^ { 2 } } { 2 } } } , \\ z &gt; 0 } \\\\ { \\ \\ \\ 0 , \\ \\ \\ \\ z \\leq 0 } \\end{array} } \\end{array}</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/probability/ch062/q0005_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\begin{aligned}f_{Z}(z)=\\begin{cases}1-e^{-\\frac{z^{2}}{2}},\\ z&gt;0\\\\ \\ \\\\0,\\quad\\ z\\leq 0\\end{cases}\\end{aligned}\">\\begin{aligned}f_{Z}(z)=\\begin{cases}1-e^{-\\frac{z^{2}}{2}},\\ z&gt;0\\\\ \\ \\\\0,\\quad\\ z\\leq 0\\end{cases}\\end{aligned}</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/probability/ch062/q0005_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\begin{aligned}f_{z}(z) = \\begin{cases} ze^{-\\frac{z^{2}}{2}}, \\ z&gt;0 \\\\ \\\\ 0, \\quad \\ z\\leq 0 \\end{cases}\\end{aligned}\">\\begin{aligned}f_{z}(z) = \\begin{cases} ze^{-\\frac{z^{2}}{2}}, \\ z&gt;0 \\\\ \\\\ 0, \\quad \\ z\\leq 0 \\end{cases}\\end{aligned}</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/probability/ch062/q0005_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\begin{array}{l} { r } { f _ { z } ( z ) = \\{ \\begin{array}{l} { l l } { e ^ { - \\frac { z ^ { 2 } } { 2 } } , \\; z &gt; 0 } \\\\ { 0 , \\; \\; \\; \\; \\; z \\leq 0 } \\end{array} } \\end{array}\">\\begin{array}{l} { r } { f _ { z } ( z ) = \\{ \\begin{array}{l} { l l } { e ^ { - \\frac { z ^ { 2 } } { 2 } } , \\; z &gt; 0 } \\\\ { 0 , \\; \\; \\; \\; \\; z \\leq 0 } \\end{array} } \\end{array}</span>"
         }
       ],
       "answer": "C",
       "answer_index": 2,
-      "analysis_html": "<img src=\"/static/generated/assets/probability/ch062/q0005_analysis.png\"/>"
+      "analysis_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{aligned}F_{\\lambda}(z)&amp;=P\\{Z\\leq z\\}=P\\{\\sqrt{X^2+Y^2}\\leq z\\}.\\\\ \\text{当}z&lt;0\\text{时},\\ F_{\\lambda}(z)&amp;=P(\\varnothing)=0;\\\\ \\text{当}z\\geq 0\\text{时},\\\\ F_{\\lambda}(z)&amp;=P\\{X^2+Y^2\\leq z^2\\}=\\iint\\limits_{x^2+y^2\\leq z^2}f(x,y)dx dy\\\\&amp;=\\frac{1}{2\\pi}\\iint\\limits_{x^2+y^2\\leq z^2}e^{-\\frac{x^2+y^2}{2}}dx dy=\\frac{1}{2\\pi}\\int_{0}^{2\\pi}d\\theta\\int_{0}^{\\pi}e^{-\\frac{\\rho^2}{2}}\\rho d\\rho\\\\&amp;=\\int_{0}^{\\pi}e^{-\\frac{\\rho^2}{2}}\\rho d\\rho=1-e^{-\\frac{z^2}{2}}.\\end{aligned}\">\\begin{aligned}F_{\\lambda}(z)&amp;=P\\{Z\\leq z\\}=P\\{\\sqrt{X^2+Y^2}\\leq z\\}.\\\\ \\text{当}z&lt;0\\text{时},\\ F_{\\lambda}(z)&amp;=P(\\varnothing)=0;\\\\ \\text{当}z\\geq 0\\text{时},\\\\ F_{\\lambda}(z)&amp;=P\\{X^2+Y^2\\leq z^2\\}=\\iint\\limits_{x^2+y^2\\leq z^2}f(x,y)dx dy\\\\&amp;=\\frac{1}{2\\pi}\\iint\\limits_{x^2+y^2\\leq z^2}e^{-\\frac{x^2+y^2}{2}}dx dy=\\frac{1}{2\\pi}\\int_{0}^{2\\pi}d\\theta\\int_{0}^{\\pi}e^{-\\frac{\\rho^2}{2}}\\rho d\\rho\\\\&amp;=\\int_{0}^{\\pi}e^{-\\frac{\\rho^2}{2}}\\rho d\\rho=1-e^{-\\frac{z^2}{2}}.\\end{aligned}</div>\n<span class=\"latex-text\">故 Z的分布函数为</span>\n<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"F_{\\lambda}(z)=\\begin{cases}1-e^{-\\frac{z^2}{2}},\\,z\\geq 0,\\\\0,\\qquad z&lt;0\\end{cases}\">F_{\\lambda}(z)=\\begin{cases}1-e^{-\\frac{z^2}{2}},\\,z\\geq 0,\\\\0,\\qquad z&lt;0\\end{cases}</div>\n<span class=\"latex-text\">Z的分布密度为</span>\n<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"f_{\\lambda}(z)=\\begin{cases}ze^{-\\frac{z^2}{2}},\\,z&gt;0,\\\\0,\\qquad z\\leq 0\\end{cases}\">f_{\\lambda}(z)=\\begin{cases}ze^{-\\frac{z^2}{2}},\\,z&gt;0,\\\\0,\\qquad z\\leq 0\\end{cases}</div>"
     },
     {
       "id": "q0006",
       "number": 6,
       "header": "#6-Easy",
       "difficulty": "Easy",
-      "prompt_html": "<img src=\"/static/generated/assets/probability/ch062/q0006_prompt.png\"/>",
+      "prompt_html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{设}X\\sim N(0,1),Y\\sim N(0,1),\\text{且}X\\text{与}Y\\text{相互独立，则下列随机变量或者随机向量不服从正态分布的是( )}.\">\\text{设}X\\sim N(0,1),Y\\sim N(0,1),\\text{且}X\\text{与}Y\\text{相互独立，则下列随机变量或者随机向量不服从正态分布的是( )}.</span>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/probability/ch062/q0006_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\chi \\gamma\">\\chi \\gamma</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/probability/ch062/q0006_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"(X, Y)\">(X, Y)</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/probability/ch062/q0006_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"X + Y\">X + Y</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/probability/ch062/q0006_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"X - Y\">X - Y</span>"
         }
       ],
       "answer": "A",
       "answer_index": 0,
-      "analysis_html": "<img src=\"/static/generated/assets/probability/ch062/q0006_analysis.png\"/>"
+      "analysis_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{array}{l} \\text{相互独立的正态分布的线性组合服从正态分布，且联合分布也服从多维正态分布}. \\end{array}\">\\begin{array}{l} \\text{相互独立的正态分布的线性组合服从正态分布，且联合分布也服从多维正态分布}. \\end{array}</div>"
     },
     {
       "id": "q0007",
       "number": 7,
       "header": "#7-Easy",
       "difficulty": "Easy",
-      "prompt_html": "<img src=\"/static/generated/assets/probability/ch062/q0007_prompt.png\"/>",
+      "prompt_html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{设}X\\text{和}Y\\text{相互独立，均服从标准正态分布，则}Z=X+Y\\text{的概率密度函数为}( ).\">\\text{设}X\\text{和}Y\\text{相互独立，均服从标准正态分布，则}Z=X+Y\\text{的概率密度函数为}( ).</span>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/probability/ch062/q0007_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\frac { 1 } { 2 \\sqrt { \\pi } } e ^ { - \\frac { x ^ { 2 } } { 4 } }\">\\frac { 1 } { 2 \\sqrt { \\pi } } e ^ { - \\frac { x ^ { 2 } } { 4 } }</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/probability/ch062/q0007_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\frac { 1 } { 2 \\sqrt { \\pi } } e ^ { - \\frac { x ^ { 2 } } { 2 } }\">\\frac { 1 } { 2 \\sqrt { \\pi } } e ^ { - \\frac { x ^ { 2 } } { 2 } }</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/probability/ch062/q0007_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\frac{1}{\\sqrt{2\\pi}}e^{-\\frac{x^{2}}{4}}\">\\frac{1}{\\sqrt{2\\pi}}e^{-\\frac{x^{2}}{4}}</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/probability/ch062/q0007_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\frac { 1 } { \\sqrt { 2 \\pi } } e ^ { - \\frac { x ^ { 2 } } { 2 } }\">\\frac { 1 } { \\sqrt { 2 \\pi } } e ^ { - \\frac { x ^ { 2 } } { 2 } }</span>"
         }
       ],
       "answer": "A",
       "answer_index": 0,
-      "analysis_html": "<img src=\"/static/generated/assets/probability/ch062/q0007_analysis.png\"/>"
+      "analysis_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{aligned}Z = X + Y \\sim N(0,2)\\,,\\,\\, \\text{故} \\, f_Z(z) = \\frac{1}{2 \\sqrt{\\pi}} e^{-\\frac{z^2}{4}}.\\end{aligned}\">\\begin{aligned}Z = X + Y \\sim N(0,2)\\,,\\,\\, \\text{故} \\, f_Z(z) = \\frac{1}{2 \\sqrt{\\pi}} e^{-\\frac{z^2}{4}}.\\end{aligned}</div>"
     },
     {
       "id": "q0008",
       "number": 8,
       "header": "#8-Averge",
       "difficulty": "Averge",
-      "prompt_html": "<img src=\"/static/generated/assets/probability/ch062/q0008_prompt.png\"/>",
+      "prompt_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{array}{l} \\text {设某种商品一周的需求量是一个随机变量,其概率密度函数为} \\\\ f (x) = \\{ \\begin{array}{ll} x e ^ {- x}, &amp; x &gt; 0 \\\\ 0, &amp; \\text {其它} \\end{array}, \\\\ \\text {如果各周的需求量相互独立,则两周需求量的概率密度函数为()}. \\end{array}\">\\begin{array}{l} \\text {设某种商品一周的需求量是一个随机变量,其概率密度函数为} \\\\ f (x) = \\{ \\begin{array}{ll} x e ^ {- x}, &amp; x &gt; 0 \\\\ 0, &amp; \\text {其它} \\end{array}, \\\\ \\text {如果各周的需求量相互独立,则两周需求量的概率密度函数为()}. \\end{array}</div>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/probability/ch062/q0008_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\begin{aligned}f_z(z)=\\begin{cases}\\displaystyle \\frac{z^3}{6}e^{-z}, &amp; z&gt;0 \\\n0.3cm]0, &amp; \\text{其它}\\end{cases}\\end{aligned}\">\\begin{aligned}f_z(z)=\\begin{cases}\\displaystyle \\frac{z^3}{6}e^{-z}, &amp; z&gt;0 \\\n0.3cm]0, &amp; \\text{其它}\\end{cases}\\end{aligned}</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/probability/ch062/q0008_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\begin{aligned}f_z(z) = \\begin{cases} \\displaystyle \\frac{z}{6} e^{-z}, &amp; \\; z &gt; 0 \\\\ \\\\ 0, &amp; \\; \\text{其它} \\end{cases}\\end{aligned}\">\\begin{aligned}f_z(z) = \\begin{cases} \\displaystyle \\frac{z}{6} e^{-z}, &amp; \\; z &gt; 0 \\\\ \\\\ 0, &amp; \\; \\text{其它} \\end{cases}\\end{aligned}</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/probability/ch062/q0008_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\begin{array}{l} { r } { f _ { z } ( z ) = \\{ \\begin{array}{l} { l l } { \\displaystyle \\frac { z ^ { 3 } } { 3 } e ^ { - z } , } &amp; { z &gt; 0 } \\\\ { \\quad } \\\\ { \\quad 0 , } &amp; { \\quad \\mathrm{其它} } \\end{array} } \\end{array}\">\\begin{array}{l} { r } { f _ { z } ( z ) = \\{ \\begin{array}{l} { l l } { \\displaystyle \\frac { z ^ { 3 } } { 3 } e ^ { - z } , } &amp; { z &gt; 0 } \\\\ { \\quad } \\\\ { \\quad 0 , } &amp; { \\quad \\mathrm{其它} } \\end{array} } \\end{array}</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/probability/ch062/q0008_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\begin{aligned}f_{z}(z)=\\begin{cases}\\displaystyle \\frac{z}{3}e^{-z}, &amp; \\ z&gt;0 \\\n0.3cm]0, &amp; \\ \\ \\text{其它}\\end{cases}\\end{aligned}\">\\begin{aligned}f_{z}(z)=\\begin{cases}\\displaystyle \\frac{z}{3}e^{-z}, &amp; \\ z&gt;0 \\\n0.3cm]0, &amp; \\ \\ \\text{其它}\\end{cases}\\end{aligned}</span>"
         }
       ],
       "answer": "A",
       "answer_index": 0,
-      "analysis_html": "<img src=\"/static/generated/assets/probability/ch062/q0008_analysis.png\"/>"
+      "analysis_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{aligned} &amp; \\text{分别用} \\lambda \\text{和} y \\text{表示第一、二周的需求量，则} \\\\ &amp; \\quad f_{x}(x)=\\begin{cases} xe^{-z}, &amp; x&gt;0, \\\\ 0, &amp; \\text{其它} \\end{cases}, \\quad f_{y}(y)=\\begin{cases} ye^{-z}, &amp; y&gt;0, \\\\ 0, &amp; \\text{其它} \\end{cases}, \\\\ &amp; \\text{从而两周需求量} Z=X+Y, \\text{利用卷积公式计算}. \\\\ &amp; \\text{当} z \\leq 0 \\text{时，若} x&gt;0 \\text{，则} z-x&lt;0, f_{y}(z-x)=0; \\\\ &amp; \\text{若} x \\leq 0 \\text{，则} f_{x}(x)=0, \\text{从而} f_{y}(z)=0; \\\\ &amp; \\text{当} z&gt;0 \\text{时，若} x \\leq 0, \\text{则} f_{x}(x)=0; \\\\ &amp; \\text{若} z-x \\leq 0, \\text{即} z \\leq x, \\text{则} f_{y}(z-x)=0, \\\\ &amp; \\text{故} \\int_{-x}^{+x} f_{x}(x) f_{y}(z-x) dx=\\int_{0}^{x} x e^{-z}(z-x)e^{-(z-y)} dx=\\frac{z^{3}}{6}e^{-z}, \\\\ &amp; \\text{从而} \\\\ &amp; \\quad f_{z}(z)=\\begin{cases} \\frac{z^{3}}{6}e^{-z}, &amp; z&gt;0, \\\\ 0, &amp; \\text{其它} \\end{cases}. \\end{aligned}\">\\begin{aligned} &amp; \\text{分别用} \\lambda \\text{和} y \\text{表示第一、二周的需求量，则} \\\\ &amp; \\quad f_{x}(x)=\\begin{cases} xe^{-z}, &amp; x&gt;0, \\\\ 0, &amp; \\text{其它} \\end{cases}, \\quad f_{y}(y)=\\begin{cases} ye^{-z}, &amp; y&gt;0, \\\\ 0, &amp; \\text{其它} \\end{cases}, \\\\ &amp; \\text{从而两周需求量} Z=X+Y, \\text{利用卷积公式计算}. \\\\ &amp; \\text{当} z \\leq 0 \\text{时，若} x&gt;0 \\text{，则} z-x&lt;0, f_{y}(z-x)=0; \\\\ &amp; \\text{若} x \\leq 0 \\text{，则} f_{x}(x)=0, \\text{从而} f_{y}(z)=0; \\\\ &amp; \\text{当} z&gt;0 \\text{时，若} x \\leq 0, \\text{则} f_{x}(x)=0; \\\\ &amp; \\text{若} z-x \\leq 0, \\text{即} z \\leq x, \\text{则} f_{y}(z-x)=0, \\\\ &amp; \\text{故} \\int_{-x}^{+x} f_{x}(x) f_{y}(z-x) dx=\\int_{0}^{x} x e^{-z}(z-x)e^{-(z-y)} dx=\\frac{z^{3}}{6}e^{-z}, \\\\ &amp; \\text{从而} \\\\ &amp; \\quad f_{z}(z)=\\begin{cases} \\frac{z^{3}}{6}e^{-z}, &amp; z&gt;0, \\\\ 0, &amp; \\text{其它} \\end{cases}. \\end{aligned}</div>"
     },
     {
       "id": "q0009",
       "number": 9,
       "header": "#9-Hard",
       "difficulty": "Hard",
-      "prompt_html": "<img src=\"/static/generated/assets/probability/ch062/q0009_prompt.png\"/>",
+      "prompt_html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{设随机变量}X\\text{与}Y\\text{相互独立，且同服从}[0,1]\\text{上的均匀分布，则}Z=|X-Y|\\text{的密度函数为}( ).\">\\text{设随机变量}X\\text{与}Y\\text{相互独立，且同服从}[0,1]\\text{上的均匀分布，则}Z=|X-Y|\\text{的密度函数为}( ).</span>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/probability/ch062/q0009_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\begin{aligned}f_{z}(\\boldsymbol{z})=\\left\\{\\begin{matrix}1+2\\boldsymbol{z}, &amp; \\quad 0&lt; x&lt;1 \\\\ \\\\ 0, &amp; \\quad \\text{其他}\\end{matrix}\\right.\\end{aligned}\">\\begin{aligned}f_{z}(\\boldsymbol{z})=\\left\\{\\begin{matrix}1+2\\boldsymbol{z}, &amp; \\quad 0&lt; x&lt;1 \\\\ \\\\ 0, &amp; \\quad \\text{其他}\\end{matrix}\\right.\\end{aligned}</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/probability/ch062/q0009_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\begin{aligned}f_z(\\boldsymbol{z}) = \\begin{cases} 2(1-\\boldsymbol{z}), &amp; \\quad 0&lt;z&lt;1 \\\\ \\quad 0, &amp; \\quad \\text{其他} \\end{cases}\\end{aligned}\">\\begin{aligned}f_z(\\boldsymbol{z}) = \\begin{cases} 2(1-\\boldsymbol{z}), &amp; \\quad 0&lt;z&lt;1 \\\\ \\quad 0, &amp; \\quad \\text{其他} \\end{cases}\\end{aligned}</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/probability/ch062/q0009_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\begin{aligned}f_{z}(\\boldsymbol{z}) = \\begin{cases} 2(1+\\boldsymbol{z}), &amp; \\quad 0&lt;z&lt;1 \\\\ \\quad 0, &amp; \\quad \\text{其他} \\end{cases}\\end{aligned}\">\\begin{aligned}f_{z}(\\boldsymbol{z}) = \\begin{cases} 2(1+\\boldsymbol{z}), &amp; \\quad 0&lt;z&lt;1 \\\\ \\quad 0, &amp; \\quad \\text{其他} \\end{cases}\\end{aligned}</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/probability/ch062/q0009_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\begin{aligned}f_{z}(\\boldsymbol{z})=\\left\\{\\begin{matrix}1-2\\boldsymbol{z},&amp;\\quad 0&lt;z&lt;1\\\\0,&amp;\\quad\\quad\\text{其他}\\end{matrix}\\right.\\end{aligned}\">\\begin{aligned}f_{z}(\\boldsymbol{z})=\\left\\{\\begin{matrix}1-2\\boldsymbol{z},&amp;\\quad 0&lt;z&lt;1\\\\0,&amp;\\quad\\quad\\text{其他}\\end{matrix}\\right.\\end{aligned}</span>"
         }
       ],
       "answer": "B",
       "answer_index": 1,
-      "analysis_html": "<img src=\"/static/generated/assets/probability/ch062/q0009_analysis.png\"/>"
+      "analysis_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{aligned}&amp;\\text{先求 }Z\\text{ 的分布函数}\\\\&amp;F_Z(z)=P\\{|X-Y|\\leq z\\}=\\begin{cases}0,&amp;z\\leq 0,\\\\P\\{-z\\leq X-Y\\leq z\\},&amp;0&lt;z&lt;1,\\\\1,&amp;z\\geq 1,\\end{cases}=\\begin{cases}0,&amp;z\\leq 0,\\\\1-(1-z)^2,&amp;0&lt;z&lt;1,\\\\1,&amp;z\\geq 1.\\end{cases}\\\\&amp;\\text{于是 }Z=|X-Y|\\text{ 的概率密度为}\\\\&amp;f_Z(z)=F&#x27;_Z(z)=\\begin{cases}2(1-z),&amp;0&lt;z&lt;1,\\\\0,&amp;\\text{其他}.\\end{cases}\\end{aligned}\">\\begin{aligned}&amp;\\text{先求 }Z\\text{ 的分布函数}\\\\&amp;F_Z(z)=P\\{|X-Y|\\leq z\\}=\\begin{cases}0,&amp;z\\leq 0,\\\\P\\{-z\\leq X-Y\\leq z\\},&amp;0&lt;z&lt;1,\\\\1,&amp;z\\geq 1,\\end{cases}=\\begin{cases}0,&amp;z\\leq 0,\\\\1-(1-z)^2,&amp;0&lt;z&lt;1,\\\\1,&amp;z\\geq 1.\\end{cases}\\\\&amp;\\text{于是 }Z=|X-Y|\\text{ 的概率密度为}\\\\&amp;f_Z(z)=F&#x27;_Z(z)=\\begin{cases}2(1-z),&amp;0&lt;z&lt;1,\\\\0,&amp;\\text{其他}.\\end{cases}\\end{aligned}</div>"
     },
     {
       "id": "q0010",
       "number": 10,
       "header": "#10-Easy",
       "difficulty": "Easy",
-      "prompt_html": "<img src=\"/static/generated/assets/probability/ch062/q0010_prompt.png\"/>",
+      "prompt_html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{设随机变量} \\, X \\sim N( -3, 1), \\, Y \\sim N( 2, 1), \\, \\text{且} \\, X \\text{与} \\, Y \\, \\, \\text{相互独立} \\, . \\, \\, \\text{令} \\, Z = X + 2 Y + 1 \\, , \\, \\text{则} \\, Z \\sim ( \\, ) \\, .\">\\text{设随机变量} \\, X \\sim N( -3, 1), \\, Y \\sim N( 2, 1), \\, \\text{且} \\, X \\text{与} \\, Y \\, \\, \\text{相互独立} \\, . \\, \\, \\text{令} \\, Z = X + 2 Y + 1 \\, , \\, \\text{则} \\, Z \\sim ( \\, ) \\, .</span>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/probability/ch062/q0010_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"N(2, 5)\">N(2, 5)</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/probability/ch062/q0010_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"N(0, 3)\">N(0, 3)</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/probability/ch062/q0010_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"N(0, 5)\">N(0, 5)</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/probability/ch062/q0010_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"N(1, 5).\">N(1, 5).</span>"
         }
       ],
       "answer": "A",
       "answer_index": 0,
-      "analysis_html": "<img src=\"/static/generated/assets/probability/ch062/q0010_analysis.png\"/>"
+      "analysis_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{aligned}Z=&amp;X+2Y+1\\sim N\\bigl(E(X)+2E(y)+1,D(X)+4D(Y)\\bigr)=N(2,5)\\;.\\end{aligned}\">\\begin{aligned}Z=&amp;X+2Y+1\\sim N\\bigl(E(X)+2E(y)+1,D(X)+4D(Y)\\bigr)=N(2,5)\\;.\\end{aligned}</div>"
     },
     {
       "id": "q0011",
       "number": 11,
       "header": "#11-Easy",
       "difficulty": "Easy",
-      "prompt_html": "<img src=\"/static/generated/assets/probability/ch062/q0011_prompt.png\"/>",
+      "prompt_html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{设随机变量} \\, X \\sim N( -3, 1), \\, Y \\sim N( 2, 1) \\, \\, \\, , \\, \\, \\text{且} \\, x \\text{与} y \\text{相互独立，令} \\, Z = X - 2Y + 7 \\, , \\, \\text{则} \\, Z \\sim ( \\, ) \\, .\">\\text{设随机变量} \\, X \\sim N( -3, 1), \\, Y \\sim N( 2, 1) \\, \\, \\, , \\, \\, \\text{且} \\, x \\text{与} y \\text{相互独立，令} \\, Z = X - 2Y + 7 \\, , \\, \\text{则} \\, Z \\sim ( \\, ) \\, .</span>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/probability/ch062/q0011_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"N(0, 5)\">N(0, 5)</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/probability/ch062/q0011_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"N(0, 3)\">N(0, 3)</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/probability/ch062/q0011_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"N(0, 46)\">N(0, 46)</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/probability/ch062/q0011_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"N(0, 54)\">N(0, 54)</span>"
         }
       ],
       "answer": "A",
       "answer_index": 0,
-      "analysis_html": "<img src=\"/static/generated/assets/probability/ch062/q0011_analysis.png\"/>"
+      "analysis_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{array}{l}Z\\!=\\!X\\!-\\!2Y\\!+\\!7\\!\\sim\\!N\\!\\bigl((E(X)\\!-\\!2E(Y)\\!+\\!7,D(X)\\!+\\!4D(Y))\\bigr)\\!=\\!N\\!\\bigl(0,5\\bigr)\\,.\\end{array}\">\\begin{array}{l}Z\\!=\\!X\\!-\\!2Y\\!+\\!7\\!\\sim\\!N\\!\\bigl((E(X)\\!-\\!2E(Y)\\!+\\!7,D(X)\\!+\\!4D(Y))\\bigr)\\!=\\!N\\!\\bigl(0,5\\bigr)\\,.\\end{array}</div>"
     },
     {
       "id": "q0012",
       "number": 12,
       "header": "#12-Easy",
       "difficulty": "Easy",
-      "prompt_html": "<img src=\"/static/generated/assets/probability/ch062/q0012_prompt.png\"/>",
+      "prompt_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{aligned}\\text{设二维随机向量} (X,Y) \\text{服从矩形区域} D=\\{ (x,y|0\\leq x\\leq 2,\\, 0\\leq y\\leq 1\\} \\text{的均匀分布，且} \\\\U=\\begin{cases}0, X\\leq Y\\\\1, X&gt;Y\\end{cases},\\quad V=\\begin{cases}0, X\\leq 2Y\\\\1, X&gt;2Y\\end{cases}, \\text{则} P\\{U=1,\\, V=1\\}=(\\,\\,. \\end{aligned}\">\\begin{aligned}\\text{设二维随机向量} (X,Y) \\text{服从矩形区域} D=\\{ (x,y|0\\leq x\\leq 2,\\, 0\\leq y\\leq 1\\} \\text{的均匀分布，且} \\\\U=\\begin{cases}0, X\\leq Y\\\\1, X&gt;Y\\end{cases},\\quad V=\\begin{cases}0, X\\leq 2Y\\\\1, X&gt;2Y\\end{cases}, \\text{则} P\\{U=1,\\, V=1\\}=(\\,\\,. \\end{aligned}</div>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/probability/ch062/q0012_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\frac { 1 } { 2 }\">\\frac { 1 } { 2 }</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/probability/ch062/q0012_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\frac { 1 } { 4 }\">\\frac { 1 } { 4 }</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/probability/ch062/q0012_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"0\">0</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/probability/ch062/q0012_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\frac { 1 } { 3 }\">\\frac { 1 } { 3 }</span>"
         }
       ],
       "answer": "A",
       "answer_index": 0,
-      "analysis_html": "<img src=\"/static/generated/assets/probability/ch062/q0012_analysis.png\"/>"
+      "analysis_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{aligned}P\\{U=0,\\,V=0\\}&amp;=P\\{X\\leq Y,\\,X\\leq Y\\}=P\\{X\\leq Y\\}\\\\&amp;=\\int_{0}^{1}dx\\int_{x}^{1}\\frac{1}{2}dy=\\frac{1}{4},\\\\P\\{U=0,\\,V=1\\}&amp;=P\\{X\\leq Y,\\,X&gt;2Y\\}=0,\\\\P\\{U=1,\\,V=0\\}&amp;=P\\{X&gt;Y,\\,X\\leq 2Y\\}=P\\{Y&lt;X\\leq 2Y\\}\\\\&amp;=\\int_{0}^{1}dy\\int_{y}^{2y}\\frac{1}{2}dx=\\frac{1}{4},\\\\P\\{U=1,\\,V=1\\}&amp;=1-P\\{U=0,\\,V=0\\}-P\\{U=0,\\,V=1\\}-P\\{U=1,\\,V=0\\}=1/2,\\end{aligned}\">\\begin{aligned}P\\{U=0,\\,V=0\\}&amp;=P\\{X\\leq Y,\\,X\\leq Y\\}=P\\{X\\leq Y\\}\\\\&amp;=\\int_{0}^{1}dx\\int_{x}^{1}\\frac{1}{2}dy=\\frac{1}{4},\\\\P\\{U=0,\\,V=1\\}&amp;=P\\{X\\leq Y,\\,X&gt;2Y\\}=0,\\\\P\\{U=1,\\,V=0\\}&amp;=P\\{X&gt;Y,\\,X\\leq 2Y\\}=P\\{Y&lt;X\\leq 2Y\\}\\\\&amp;=\\int_{0}^{1}dy\\int_{y}^{2y}\\frac{1}{2}dx=\\frac{1}{4},\\\\P\\{U=1,\\,V=1\\}&amp;=1-P\\{U=0,\\,V=0\\}-P\\{U=0,\\,V=1\\}-P\\{U=1,\\,V=0\\}=1/2,\\end{aligned}</div>"
     },
     {
       "id": "q0013",
       "number": 13,
       "header": "#13-Averge",
       "difficulty": "Averge",
-      "prompt_html": "<img src=\"/static/generated/assets/probability/ch062/q0013_prompt.png\"/>",
+      "prompt_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{array}{l} \\text {设随机变量} X \\text {与} Y \\text {相互独立，其概率密度函数分别为} \\\\ f_{x}(x) = \\{ \\begin{array}{ll} 1, 0 \\leq x \\leq 1 \\\\ 0, \\text {其它} \\end{array}, \\; f_{y}(y) = \\{ \\begin{array}{ll} e^{-y}, y &gt; 0 \\\\ 0, \\; y \\leq 0 \\end{array}, \\\\ \\text {则随机变量} Z = X + Y \\text {的概率密度函数为} (\\text {.}) \\end{array}\">\\begin{array}{l} \\text {设随机变量} X \\text {与} Y \\text {相互独立，其概率密度函数分别为} \\\\ f_{x}(x) = \\{ \\begin{array}{ll} 1, 0 \\leq x \\leq 1 \\\\ 0, \\text {其它} \\end{array}, \\; f_{y}(y) = \\{ \\begin{array}{ll} e^{-y}, y &gt; 0 \\\\ 0, \\; y \\leq 0 \\end{array}, \\\\ \\text {则随机变量} Z = X + Y \\text {的概率密度函数为} (\\text {.}) \\end{array}</div>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/probability/ch062/q0013_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\begin{aligned}f_{z}(z)=\\begin{cases}(e-1)e^{-z},\\;\\;z\\geq 1\\\\1-e^{-z},\\;\\;0\\leq z&lt;1\\\\0,\\;\\;z&lt;0\\end{cases}\\end{aligned}\">\\begin{aligned}f_{z}(z)=\\begin{cases}(e-1)e^{-z},\\;\\;z\\geq 1\\\\1-e^{-z},\\;\\;0\\leq z&lt;1\\\\0,\\;\\;z&lt;0\\end{cases}\\end{aligned}</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/probability/ch062/q0013_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\begin{aligned}f_{z}(z)=\\begin{cases}(e+1)e^{-z},\\ z\\geq 1\\\\1+e^{-z},\\ 0\\leq z&lt;1\\\\0,\\ z&lt;0\\end{cases}\\end{aligned}\">\\begin{aligned}f_{z}(z)=\\begin{cases}(e+1)e^{-z},\\ z\\geq 1\\\\1+e^{-z},\\ 0\\leq z&lt;1\\\\0,\\ z&lt;0\\end{cases}\\end{aligned}</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/probability/ch062/q0013_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\begin{aligned}f_{z}(z)=\\{\\begin{array}{rl}e^{-z},\\;\\;z\\geq1\\\\ \\\\1-e^{-z},\\;\\;0\\leq z&lt;1\\\\ \\\\0,\\;\\;z&lt;0\\end{array}\\end{aligned}\">\\begin{aligned}f_{z}(z)=\\{\\begin{array}{rl}e^{-z},\\;\\;z\\geq1\\\\ \\\\1-e^{-z},\\;\\;0\\leq z&lt;1\\\\ \\\\0,\\;\\;z&lt;0\\end{array}\\end{aligned}</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/probability/ch062/q0013_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\begin{aligned}f_{z}(z)=\\{\\begin{array}{rl}e^{1-z},\\;\\;z\\geq 1\\\\ \\\\1-e^{-z},\\;\\;0\\leq z&lt;1\\\\ \\\\0,\\;\\;z&lt;0\\end{array}\\end{aligned}\">\\begin{aligned}f_{z}(z)=\\{\\begin{array}{rl}e^{1-z},\\;\\;z\\geq 1\\\\ \\\\1-e^{-z},\\;\\;0\\leq z&lt;1\\\\ \\\\0,\\;\\;z&lt;0\\end{array}\\end{aligned}</span>"
         }
       ],
       "answer": "A",
       "answer_index": 0,
-      "analysis_html": "<img src=\"/static/generated/assets/probability/ch062/q0013_analysis.png\"/>"
+      "analysis_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{aligned}&amp;\\text{因}x\\text{与}y\\text{相互独立，故}(X,Y)\\text{的联合概率密度为}\\\\&amp;f(x,y)=\\begin{cases}e^{-y},\\ 0\\leq x\\leq 1,\\,y&gt;0\\\\0,\\quad\\text{其它}\\end{cases}.\\quad\\\\&amp;Z=X+Y\\text{的概率密度函数为}\\\\&amp;f_{Z}(z)=\\int_{-\\infty}^{+\\infty}f(z-y,y)dy=\\begin{cases}\\int_{z-1}^{z}e^{-y}dy,\\ z\\geq 1\\\\ \\int_{0}^{z}e^{-y}dy,\\ 0\\leq z&lt;1\\\\0,\\qquad z&lt;0\\end{cases}\\begin{cases}(e-1)e^{-z},\\ z\\geq 1\\\\1-e^{-z},\\ 0\\leq z&lt;1\\\\0,\\ z&lt;0\\end{cases}\\end{aligned}\">\\begin{aligned}&amp;\\text{因}x\\text{与}y\\text{相互独立，故}(X,Y)\\text{的联合概率密度为}\\\\&amp;f(x,y)=\\begin{cases}e^{-y},\\ 0\\leq x\\leq 1,\\,y&gt;0\\\\0,\\quad\\text{其它}\\end{cases}.\\quad\\\\&amp;Z=X+Y\\text{的概率密度函数为}\\\\&amp;f_{Z}(z)=\\int_{-\\infty}^{+\\infty}f(z-y,y)dy=\\begin{cases}\\int_{z-1}^{z}e^{-y}dy,\\ z\\geq 1\\\\ \\int_{0}^{z}e^{-y}dy,\\ 0\\leq z&lt;1\\\\0,\\qquad z&lt;0\\end{cases}\\begin{cases}(e-1)e^{-z},\\ z\\geq 1\\\\1-e^{-z},\\ 0\\leq z&lt;1\\\\0,\\ z&lt;0\\end{cases}\\end{aligned}</div>"
     },
     {
       "id": "q0014",
       "number": 14,
       "header": "#14-Easy",
       "difficulty": "Easy",
-      "prompt_html": "<img src=\"/static/generated/assets/probability/ch062/q0014_prompt.png\"/>",
+      "prompt_html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{设随机变量} \\, X \\text{与} \\, Y \\text{相互独立，且} \\, X \\sim N( \\mu_{1}, \\sigma_{1}^{2}), Y \\sim N( \\mu_{2}, \\sigma_{2}^{2}), \\text{则} \\, Z = X + Y \\text{服从( )}.\">\\text{设随机变量} \\, X \\text{与} \\, Y \\text{相互独立，且} \\, X \\sim N( \\mu_{1}, \\sigma_{1}^{2}), Y \\sim N( \\mu_{2}, \\sigma_{2}^{2}), \\text{则} \\, Z = X + Y \\text{服从( )}.</span>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/probability/ch062/q0014_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\begin{aligned}Z \\sim N(\\mu_1 + \\mu_2, \\sigma_1^2 + \\sigma_2^2)\\end{aligned}\">\\begin{aligned}Z \\sim N(\\mu_1 + \\mu_2, \\sigma_1^2 + \\sigma_2^2)\\end{aligned}</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/probability/ch062/q0014_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\begin{array}{c}Z\\sim N(\\mu_{1}\\mu_{2}\\,,\\,\\sigma_{1}^{2}+\\sigma_{2}^{2})\\end{array}\">\\begin{array}{c}Z\\sim N(\\mu_{1}\\mu_{2}\\,,\\,\\sigma_{1}^{2}+\\sigma_{2}^{2})\\end{array}</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/probability/ch062/q0014_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\begin{aligned}Z \\sim N(\\mu_1 + \\mu_2, \\sigma_1 \\sigma_2)\\end{aligned}\">\\begin{aligned}Z \\sim N(\\mu_1 + \\mu_2, \\sigma_1 \\sigma_2)\\end{aligned}</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/probability/ch062/q0014_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\begin{aligned}Z \\sim N(\\mu_1 + \\mu_2, \\sigma_1^2 \\sigma_2^2)\\end{aligned}\">\\begin{aligned}Z \\sim N(\\mu_1 + \\mu_2, \\sigma_1^2 \\sigma_2^2)\\end{aligned}</span>"
         }
       ],
       "answer": "A",
       "answer_index": 0,
-      "analysis_html": "<img src=\"/static/generated/assets/probability/ch062/q0014_analysis.png\"/>"
+      "analysis_html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{由正态分布的性质可知} \\, Z \\sim N( \\mu_{1} + \\mu_{2}, \\sigma_{1}^{2} + \\sigma_{2}^{2}) \\, .\">\\text{由正态分布的性质可知} \\, Z \\sim N( \\mu_{1} + \\mu_{2}, \\sigma_{1}^{2} + \\sigma_{2}^{2}) \\, .</span>"
     },
     {
       "id": "q0015",
       "number": 15,
       "header": "#15-Averge",
       "difficulty": "Averge",
-      "prompt_html": "<img src=\"/static/generated/assets/probability/ch062/q0015_prompt.png\"/>",
+      "prompt_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{aligned}\\text{设二维随机变量} (X,Y) \\text{的概率密度为} \\qquad \\qquad f(x,y)= \\begin{cases} 2e^{- (x+2y)}, &amp; x&gt;0,y&gt;0 \\\\ 0, &amp; \\text{其它} \\end{cases}, \\end{aligned} \\text{则随机变量} Z=X+Y \\text{的概率密度函数为}（ ).\">\\begin{aligned}\\text{设二维随机变量} (X,Y) \\text{的概率密度为} \\qquad \\qquad f(x,y)= \\begin{cases} 2e^{- (x+2y)}, &amp; x&gt;0,y&gt;0 \\\\ 0, &amp; \\text{其它} \\end{cases}, \\end{aligned} \\text{则随机变量} Z=X+Y \\text{的概率密度函数为}（ ).</div>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/probability/ch062/q0015_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\begin{aligned}f_z(z) = \\begin{cases} 2e^{-z}(1-e^{-z}), &amp; \\ z&gt;0 \\\n0.3cm] 0, &amp; \\ z\\leq 0 \\end{cases}\\end{aligned}\">\\begin{aligned}f_z(z) = \\begin{cases} 2e^{-z}(1-e^{-z}), &amp; \\ z&gt;0 \\\n0.3cm] 0, &amp; \\ z\\leq 0 \\end{cases}\\end{aligned}</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/probability/ch062/q0015_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\begin{aligned}f_z(z) = \\begin{cases} 2z (1-e^{-z}), &amp; \\ z&gt;0 \\\\ \\\\ 0, &amp; \\ z \\leq 0 \\end{cases}\\end{aligned}\">\\begin{aligned}f_z(z) = \\begin{cases} 2z (1-e^{-z}), &amp; \\ z&gt;0 \\\\ \\\\ 0, &amp; \\ z \\leq 0 \\end{cases}\\end{aligned}</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/probability/ch062/q0015_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\begin{aligned}f_{z}(z)=\\begin{cases}e^{-z}(1-e^{-z}), &amp; \\ z&gt;0 \\\n1ex]0, &amp; \\ z\\leq 0\\end{cases}\\end{aligned}\">\\begin{aligned}f_{z}(z)=\\begin{cases}e^{-z}(1-e^{-z}), &amp; \\ z&gt;0 \\\n1ex]0, &amp; \\ z\\leq 0\\end{cases}\\end{aligned}</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/probability/ch062/q0015_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\begin{aligned}f_{z}(z)=\\begin{cases}2(1-e^{-z}), &amp; \\ z&gt;0\\\\ \\\\ 0, &amp; \\ z\\leq0\\end{cases}\\end{aligned}\">\\begin{aligned}f_{z}(z)=\\begin{cases}2(1-e^{-z}), &amp; \\ z&gt;0\\\\ \\\\ 0, &amp; \\ z\\leq0\\end{cases}\\end{aligned}</span>"
         }
       ],
       "answer": "A",
       "answer_index": 0,
-      "analysis_html": "<img src=\"/static/generated/assets/probability/ch062/q0015_analysis.png\"/>"
+      "analysis_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{aligned}f_{Z}(z)=\\int_{- \\infty}^{+\\infty} f(z-y,y)dy=\\begin{cases}\\displaystyle \\int_{0}^{\\infty} 2e^{-(z+y)}dy, &amp; z&gt;0\\\\0, &amp; z\\leq 0\\end{cases}=\\begin{cases}2e^{-z}(1-e^{-z}), &amp; z&gt;0\\\\0, &amp; z\\leq 0\\end{cases}.\\end{aligned}\">\\begin{aligned}f_{Z}(z)=\\int_{- \\infty}^{+\\infty} f(z-y,y)dy=\\begin{cases}\\displaystyle \\int_{0}^{\\infty} 2e^{-(z+y)}dy, &amp; z&gt;0\\\\0, &amp; z\\leq 0\\end{cases}=\\begin{cases}2e^{-z}(1-e^{-z}), &amp; z&gt;0\\\\0, &amp; z\\leq 0\\end{cases}.\\end{aligned}</div>"
     },
     {
       "id": "q0016",
       "number": 16,
       "header": "#16-Easy",
       "difficulty": "Easy",
-      "prompt_html": "<img src=\"/static/generated/assets/probability/ch062/q0016_prompt.png\"/>",
+      "prompt_html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{下列命题中错误的是( )}.\">\\text{下列命题中错误的是( )}.</span>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/probability/ch062/q0016_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"(X,Y) \\text{服从二维正态分布，则} X+Y \\text{不一定服从正态分布}\">(X,Y) \\text{服从二维正态分布，则} X+Y \\text{不一定服从正态分布}</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/probability/ch062/q0016_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"(X,Y) \\text{服从二维正态分布，则} X,Y \\text{均服从正态分布}\">(X,Y) \\text{服从二维正态分布，则} X,Y \\text{均服从正态分布}</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/probability/ch062/q0016_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\begin{array}{l}X,Y \\text{分别服从正态分布}，\\text{且}X\\text{与}Y\\text{独立}，\\text{则}X+Y\\text{均服从正态分布} \\end{array}\">\\begin{array}{l}X,Y \\text{分别服从正态分布}，\\text{且}X\\text{与}Y\\text{独立}，\\text{则}X+Y\\text{均服从正态分布} \\end{array}</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/probability/ch062/q0016_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\begin{array}{l} X, Y \\text {分别服从正态分布，则} X + Y \\text {不一定服从正态分布} \\end{array}\">\\begin{array}{l} X, Y \\text {分别服从正态分布，则} X + Y \\text {不一定服从正态分布} \\end{array}</span>"
         }
       ],
       "answer": "A",
       "answer_index": 0,
-      "analysis_html": "<img src=\"/static/generated/assets/probability/ch062/q0016_analysis.png\"/>"
+      "analysis_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{array}{l}n \\text {随机变量的联合分布是正态分布，则这些随机变量的线性组合也是正态分布}. \\end{array}\">\\begin{array}{l}n \\text {随机变量的联合分布是正态分布，则这些随机变量的线性组合也是正态分布}. \\end{array}</div>"
     },
     {
       "id": "q0017",
       "number": 17,
       "header": "#17-Easy",
       "difficulty": "Easy",
-      "prompt_html": "<img src=\"/static/generated/assets/probability/ch062/q0017_prompt.png\"/>",
+      "prompt_html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{设随机变量}X\\sim N(3,2),\\,Y\\sim N(-2,2),\\,\\text{且}x\\text{与}y\\text{相互独立，令}Z=-X+3Y-1,\\,\\text{则}Z\\sim()\\ .\">\\text{设随机变量}X\\sim N(3,2),\\,Y\\sim N(-2,2),\\,\\text{且}x\\text{与}y\\text{相互独立，令}Z=-X+3Y-1,\\,\\text{则}Z\\sim()\\ .</span>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/probability/ch062/q0017_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"N(-10, 20)\">N(-10, 20)</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/probability/ch062/q0017_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"N(10, 15)\">N(10, 15)</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/probability/ch062/q0017_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"N(-9, 20)\">N(-9, 20)</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/probability/ch062/q0017_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"N(-10,16)\">N(-10,16)</span>"
         }
       ],
       "answer": "A",
       "answer_index": 0,
-      "analysis_html": "<img src=\"/static/generated/assets/probability/ch062/q0017_analysis.png\"/>"
+      "analysis_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{aligned}Z=-X+3Y-1\\sim N(-3+3\\times(-2)-1,(-1)^{2}\\times 2+3^{2}\\times 2)\\, ,\\,\\, \\text{即} \\, Z=-X+3Y-1\\sim N(-10,20)\\, .\\end{aligned}\">\\begin{aligned}Z=-X+3Y-1\\sim N(-3+3\\times(-2)-1,(-1)^{2}\\times 2+3^{2}\\times 2)\\, ,\\,\\, \\text{即} \\, Z=-X+3Y-1\\sim N(-10,20)\\, .\\end{aligned}</div>"
     },
     {
       "id": "q0018",
       "number": 18,
       "header": "#18-Easy",
       "difficulty": "Easy",
-      "prompt_html": "<img src=\"/static/generated/assets/probability/ch062/q0018_prompt.png\"/>",
+      "prompt_html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{设随机变量}X \\text{与}Y \\text{相互独立，且}X\\sim N(a_{1},\\sigma_{1}^{2}),\\,Y\\sim N(a_{2},\\sigma_{2}^{2})\\,\\,,\\,\\text{则}Z=X-Y\\text{服从}(\\,\\,).\">\\text{设随机变量}X \\text{与}Y \\text{相互独立，且}X\\sim N(a_{1},\\sigma_{1}^{2}),\\,Y\\sim N(a_{2},\\sigma_{2}^{2})\\,\\,,\\,\\text{则}Z=X-Y\\text{服从}(\\,\\,).</span>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/probability/ch062/q0018_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\begin{aligned}Z \\sim N(a_1 - a_2, \\sigma_1^2 + \\sigma_2^2)\\end{aligned}\">\\begin{aligned}Z \\sim N(a_1 - a_2, \\sigma_1^2 + \\sigma_2^2)\\end{aligned}</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/probability/ch062/q0018_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\begin{aligned}Z \\sim N(a_1, \\sigma_1^2 + \\sigma_2^2)\\end{aligned}\">\\begin{aligned}Z \\sim N(a_1, \\sigma_1^2 + \\sigma_2^2)\\end{aligned}</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/probability/ch062/q0018_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\begin{aligned}Z \\sim N(a_1 - a_2, \\sigma_1 \\sigma_2)\\end{aligned}\">\\begin{aligned}Z \\sim N(a_1 - a_2, \\sigma_1 \\sigma_2)\\end{aligned}</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/probability/ch062/q0018_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\begin{aligned}Z \\sim N(a_1 - a_2, \\sigma_1^2 \\sigma_2^2)\\end{aligned}\">\\begin{aligned}Z \\sim N(a_1 - a_2, \\sigma_1^2 \\sigma_2^2)\\end{aligned}</span>"
         }
       ],
       "answer": "A",
       "answer_index": 0,
-      "analysis_html": "<img src=\"/static/generated/assets/probability/ch062/q0018_analysis.png\"/>"
+      "analysis_html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{根据正态分布的性质，}X-Y\\sim N(a_{1}-a_{2},\\sigma_{1}^{2}+\\sigma_{2}^{2})\\,.\">\\text{根据正态分布的性质，}X-Y\\sim N(a_{1}-a_{2},\\sigma_{1}^{2}+\\sigma_{2}^{2})\\,.</span>"
     },
     {
       "id": "q0019",
       "number": 19,
       "header": "#19-Averge",
       "difficulty": "Averge",
-      "prompt_html": "<img src=\"/static/generated/assets/probability/ch062/q0019_prompt.png\"/>",
+      "prompt_html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{设随机变量}X\\text{与}Y\\text{相互独立，}X-U[-\\pi,\\pi],Y\\sim N(\\mu,\\sigma^{2}),\\text{则}Z=X+Y\\text{的概率密度为}().\">\\text{设随机变量}X\\text{与}Y\\text{相互独立，}X-U[-\\pi,\\pi],Y\\sim N(\\mu,\\sigma^{2}),\\text{则}Z=X+Y\\text{的概率密度为}().</span>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/probability/ch062/q0019_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\begin{aligned}\\frac{1}{2\\pi} \\bigg[ \\Phi \\bigg( \\frac{z+\\pi-\\mu}{\\sigma} \\bigg) - \\Phi \\bigg( \\frac{z-\\pi-\\mu}{\\sigma} \\bigg) \\bigg]\\end{aligned}\">\\begin{aligned}\\frac{1}{2\\pi} \\bigg[ \\Phi \\bigg( \\frac{z+\\pi-\\mu}{\\sigma} \\bigg) - \\Phi \\bigg( \\frac{z-\\pi-\\mu}{\\sigma} \\bigg) \\bigg]\\end{aligned}</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/probability/ch062/q0019_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\begin{aligned}\\frac{1}{\\pi} \\bigg[ \\Phi \\bigg( \\frac{z+\\pi-\\mu}{\\sigma} \\bigg) - \\Phi \\bigg( \\frac{z-\\pi-\\mu}{\\sigma} \\bigg) \\bigg]\\end{aligned}\">\\begin{aligned}\\frac{1}{\\pi} \\bigg[ \\Phi \\bigg( \\frac{z+\\pi-\\mu}{\\sigma} \\bigg) - \\Phi \\bigg( \\frac{z-\\pi-\\mu}{\\sigma} \\bigg) \\bigg]\\end{aligned}</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/probability/ch062/q0019_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\begin{array}{l} { r } { \\frac { 1 } { 2 \\pi } \\bigg [ \\Phi \\bigg ( \\frac { z + \\mu } { \\sigma } \\bigg ) - \\Phi \\bigg ( \\frac { z - \\mu } { \\sigma } \\bigg ) \\bigg ] } \\end{array}\">\\begin{array}{l} { r } { \\frac { 1 } { 2 \\pi } \\bigg [ \\Phi \\bigg ( \\frac { z + \\mu } { \\sigma } \\bigg ) - \\Phi \\bigg ( \\frac { z - \\mu } { \\sigma } \\bigg ) \\bigg ] } \\end{array}</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/probability/ch062/q0019_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\begin{array}{l} { r } { \\frac { 1 } { \\pi } \\bigg [ \\Phi \\bigg ( \\frac { z + \\mu } { \\sigma } \\bigg ) - \\Phi \\bigg ( \\frac { z - \\mu } { \\sigma } \\bigg ) \\bigg ] } \\end{array}\">\\begin{array}{l} { r } { \\frac { 1 } { \\pi } \\bigg [ \\Phi \\bigg ( \\frac { z + \\mu } { \\sigma } \\bigg ) - \\Phi \\bigg ( \\frac { z - \\mu } { \\sigma } \\bigg ) \\bigg ] } \\end{array}</span>"
         }
       ],
       "answer": "A",
       "answer_index": 0,
-      "analysis_html": "<img src=\"/static/generated/assets/probability/ch062/q0019_analysis.png\"/>"
+      "analysis_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{aligned}&amp;\\text{因为}X,Y\\text{是相互独立的，故} \\\\&amp;f(x,y)=f_{x}(x)f_{y}(y)=\\begin{cases}\\displaystyle\\frac{1}{2\\pi}\\frac{1}{\\sqrt{2\\pi\\sigma}}e^{-\\frac{(y-\\mu)^{2}}{2\\sigma^{2}}},-\\pi\\leq x\\leq\\pi,-\\infty&lt;y&lt;+\\infty,\\\\0,\\quad\\text{其它}\\end{cases}\\\\&amp;\\text{而}\\quad f(z)=\\int_{-\\infty}^{+\\infty}f(z-y,y)dy=\\displaystyle\\frac{1}{2\\pi}\\int_{z-\\pi}^{+\\pi}\\frac{1}{\\sqrt{2\\pi\\sigma}}e^{-\\frac{(y-\\mu)^{2}}{2\\sigma^{2}}}dy=\\displaystyle\\frac{1}{2\\pi}\\left[\\Phi\\left(\\frac{z+\\pi-\\mu}{\\sigma}\\right)-\\Phi\\left(\\frac{z-\\pi-\\mu}{\\sigma}\\right)\\right].\\end{aligned}\">\\begin{aligned}&amp;\\text{因为}X,Y\\text{是相互独立的，故} \\\\&amp;f(x,y)=f_{x}(x)f_{y}(y)=\\begin{cases}\\displaystyle\\frac{1}{2\\pi}\\frac{1}{\\sqrt{2\\pi\\sigma}}e^{-\\frac{(y-\\mu)^{2}}{2\\sigma^{2}}},-\\pi\\leq x\\leq\\pi,-\\infty&lt;y&lt;+\\infty,\\\\0,\\quad\\text{其它}\\end{cases}\\\\&amp;\\text{而}\\quad f(z)=\\int_{-\\infty}^{+\\infty}f(z-y,y)dy=\\displaystyle\\frac{1}{2\\pi}\\int_{z-\\pi}^{+\\pi}\\frac{1}{\\sqrt{2\\pi\\sigma}}e^{-\\frac{(y-\\mu)^{2}}{2\\sigma^{2}}}dy=\\displaystyle\\frac{1}{2\\pi}\\left[\\Phi\\left(\\frac{z+\\pi-\\mu}{\\sigma}\\right)-\\Phi\\left(\\frac{z-\\pi-\\mu}{\\sigma}\\right)\\right].\\end{aligned}</div>"
     }
-  ]
+  ],
+  "format": "latex",
+  "source_md": "gl/3.6.2_二维连续型随机变量的函数的分布(19题)/3.6.2_二维连续型随机变量的函数的分布(19题).md"
 }

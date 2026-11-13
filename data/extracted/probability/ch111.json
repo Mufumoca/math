@@ -13,252 +13,254 @@
       "number": 1,
       "header": "#1-Averge",
       "difficulty": "Averge",
-      "prompt_html": "<img src=\"/static/generated/assets/probability/ch111/q0001_prompt.png\"/>",
+      "prompt_html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{设总体}X\\sim N(0,1),X_{1},X_{2},\\cdots,X_{n}\\text{为样本，则下列结论中错误的是( )}.\">\\text{设总体}X\\sim N(0,1),X_{1},X_{2},\\cdots,X_{n}\\text{为样本，则下列结论中错误的是( )}.</span>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/probability/ch111/q0001_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\frac{X_{1}+X_{2}}{\\sqrt{X_{1}^{2}+X_{2}^{2}}}\\sim t(2)\">\\frac{X_{1}+X_{2}}{\\sqrt{X_{1}^{2}+X_{2}^{2}}}\\sim t(2)</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/probability/ch111/q0001_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\begin{aligned}\\frac{X_1-X_2}{\\left(X_3^2+X_4^2\\right)^{\\frac{1}{2}}}\\sim t(2)\\end{aligned}\">\\begin{aligned}\\frac{X_1-X_2}{\\left(X_3^2+X_4^2\\right)^{\\frac{1}{2}}}\\sim t(2)\\end{aligned}</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/probability/ch111/q0001_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\begin{aligned}\\frac{\\sqrt{n-1}X_{1}}{\\sqrt{\\sum_{i=2}^{n}X_{i}^{2}}}\\sim t(n-1)\\end{aligned}\">\\begin{aligned}\\frac{\\sqrt{n-1}X_{1}}{\\sqrt{\\sum_{i=2}^{n}X_{i}^{2}}}\\sim t(n-1)\\end{aligned}</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/probability/ch111/q0001_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\begin{aligned}\\frac{(\\frac{n}{3}-1)\\sum_{i=1}^{3}X_{i}^{2}}{\\sum_{i=4}^{n}X_{i}^{2}}\\sim F(3,n-3)\\end{aligned}\">\\begin{aligned}\\frac{(\\frac{n}{3}-1)\\sum_{i=1}^{3}X_{i}^{2}}{\\sum_{i=4}^{n}X_{i}^{2}}\\sim F(3,n-3)\\end{aligned}</span>"
         }
       ],
       "answer": "A",
       "answer_index": 0,
-      "analysis_html": "<img src=\"/static/generated/assets/probability/ch111/q0001_analysis.png\"/>"
+      "analysis_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{aligned}&amp;\\text{若}X\\sim N(0,1),\\ Y\\sim \\chi^{2}(n),\\ \\text{且}\\ \\lambda\\text{与}Y\\text{相互独立，则}t\\sim t(n),\\ \\text{其中}t=\\frac{X}{\\sqrt{Y/n}};\\\\&amp;\\text{若}X\\sim \\chi^{2}(m),\\ Y\\sim \\chi^{2}(n),\\ \\text{且}\\ \\lambda\\text{与}Y\\text{相互独立，则}F\\sim F(m,n),\\ \\text{其中}F=\\frac{X/m}{Y/n}=\\frac{nX}{mY}.\\\\&amp;\\text{可见，不管是}t\\text{分布还是}F\\text{分布都要求分子分母是独立的。而}\\frac{X_{1}+X_{2}}{\\sqrt{X_{1}^{2}+X_{2}^{2}}}\\text{不满足}.\\end{aligned}\">\\begin{aligned}&amp;\\text{若}X\\sim N(0,1),\\ Y\\sim \\chi^{2}(n),\\ \\text{且}\\ \\lambda\\text{与}Y\\text{相互独立，则}t\\sim t(n),\\ \\text{其中}t=\\frac{X}{\\sqrt{Y/n}};\\\\&amp;\\text{若}X\\sim \\chi^{2}(m),\\ Y\\sim \\chi^{2}(n),\\ \\text{且}\\ \\lambda\\text{与}Y\\text{相互独立，则}F\\sim F(m,n),\\ \\text{其中}F=\\frac{X/m}{Y/n}=\\frac{nX}{mY}.\\\\&amp;\\text{可见，不管是}t\\text{分布还是}F\\text{分布都要求分子分母是独立的。而}\\frac{X_{1}+X_{2}}{\\sqrt{X_{1}^{2}+X_{2}^{2}}}\\text{不满足}.\\end{aligned}</div>"
     },
     {
       "id": "q0002",
       "number": 2,
       "header": "#2-Averge",
       "difficulty": "Averge",
-      "prompt_html": "<img src=\"/static/generated/assets/probability/ch111/q0002_prompt.png\"/>",
+      "prompt_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{array}{l} \\text {设} X \\sim N(0, 16), \\ Y \\sim N(0, 9), \\ X, Y \\text {相互独立}, \\ X_{1}, X_{2}, \\cdots, X_{n} \\text {与} Y_{1}, Y_{2}, \\cdots, Y_{16} \\text {分布为} x \\text {与} Y \\text {的一个简单随机样本，} \\\\ \\text {则} \\quad \\frac{X_{1}^{2} + X_{2}^{2} + \\cdots + X_{n}^{2}}{Y_{1}^{2} + Y_{2}^{2} + \\cdots + Y_{16}^{2}} \\text {服从的分布为} (\\text {.}). \\end{array}\">\\begin{array}{l} \\text {设} X \\sim N(0, 16), \\ Y \\sim N(0, 9), \\ X, Y \\text {相互独立}, \\ X_{1}, X_{2}, \\cdots, X_{n} \\text {与} Y_{1}, Y_{2}, \\cdots, Y_{16} \\text {分布为} x \\text {与} Y \\text {的一个简单随机样本，} \\\\ \\text {则} \\quad \\frac{X_{1}^{2} + X_{2}^{2} + \\cdots + X_{n}^{2}}{Y_{1}^{2} + Y_{2}^{2} + \\cdots + Y_{16}^{2}} \\text {服从的分布为} (\\text {.}). \\end{array}</div>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/probability/ch111/q0002_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"F(9, 16)\">F(9, 16)</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/probability/ch111/q0002_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"F(16,9)\">F(16,9)</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/probability/ch111/q0002_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"F(9, 9)\">F(9, 9)</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/probability/ch111/q0002_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"F(16, 16)\">F(16, 16)</span>"
         }
       ],
       "answer": "A",
       "answer_index": 0,
-      "analysis_html": "<img src=\"/static/generated/assets/probability/ch111/q0002_analysis.png\"/>"
+      "analysis_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{aligned}\\text{由}\\chi^2 \\text{分布的定义有}\\quad&amp;Z_1=(\\frac{X_1}{4})^2+(\\frac{X_2}{4})+\\cdots+(\\frac{X_9}{4})^2\\sim \\chi^2(9)\\,,\\\\&amp;Z_2=(\\frac{Y_1}{3})^2+(\\frac{Y_2}{3})+\\cdots+(\\frac{Y_{16}}{3})^2\\sim \\chi^2(16)\\,,\\\\ \\text{由}F \\text{分布的定义得出}\\quad&amp;\\frac{Z_1/9}{Z_2/16}\\sim F(9,16)\\,,\\\\ \\text{即}\\quad&amp;\\frac{X_1^2+X_2^2+\\cdots+X_9^2}{Y_1^2+Y_2^2+\\cdots+Y_{16}^2}\\sim F(9,16)\\,.\\end{aligned}\">\\begin{aligned}\\text{由}\\chi^2 \\text{分布的定义有}\\quad&amp;Z_1=(\\frac{X_1}{4})^2+(\\frac{X_2}{4})+\\cdots+(\\frac{X_9}{4})^2\\sim \\chi^2(9)\\,,\\\\&amp;Z_2=(\\frac{Y_1}{3})^2+(\\frac{Y_2}{3})+\\cdots+(\\frac{Y_{16}}{3})^2\\sim \\chi^2(16)\\,,\\\\ \\text{由}F \\text{分布的定义得出}\\quad&amp;\\frac{Z_1/9}{Z_2/16}\\sim F(9,16)\\,,\\\\ \\text{即}\\quad&amp;\\frac{X_1^2+X_2^2+\\cdots+X_9^2}{Y_1^2+Y_2^2+\\cdots+Y_{16}^2}\\sim F(9,16)\\,.\\end{aligned}</div>"
     },
     {
       "id": "q0003",
       "number": 3,
       "header": "#3-Averge",
       "difficulty": "Averge",
-      "prompt_html": "<img src=\"/static/generated/assets/probability/ch111/q0003_prompt.png\"/>",
+      "prompt_html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{设}X_{1},X_{2},\\cdots,X_{20}\\text{是正态总体}N(0,\\sigma^{2})\\text{的样本，则在下列各式中，正确的是( ).}\">\\text{设}X_{1},X_{2},\\cdots,X_{20}\\text{是正态总体}N(0,\\sigma^{2})\\text{的样本，则在下列各式中，正确的是( ).}</span>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/probability/ch111/q0003_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\frac{11}{9}\\frac{\\sum_{i=1}^{9}X_{i}^{2}}{\\sum_{j=10}^{20}X_{j}^{2}}\\sim F(9,11)\">\\frac{11}{9}\\frac{\\sum_{i=1}^{9}X_{i}^{2}}{\\sum_{j=10}^{20}X_{j}^{2}}\\sim F(9,11)</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/probability/ch111/q0003_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\frac{1}{\\sigma} \\sum_{i=1}^{20} X_{i} \\sim N(0, 1)\">\\frac{1}{\\sigma} \\sum_{i=1}^{20} X_{i} \\sim N(0, 1)</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/probability/ch111/q0003_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\sum_{i=1}^{20} X_{i}^{2} \\sim \\chi^{2}(20)\">\\sum_{i=1}^{20} X_{i}^{2} \\sim \\chi^{2}(20)</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/probability/ch111/q0003_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\begin{aligned}\\frac{\\sum\\limits_{i=1}^{9}X_{i}}{\\sum\\limits_{j=10}^{20}X_{j}^{2}}\\sim t(11)\\end{aligned}\">\\begin{aligned}\\frac{\\sum\\limits_{i=1}^{9}X_{i}}{\\sum\\limits_{j=10}^{20}X_{j}^{2}}\\sim t(11)\\end{aligned}</span>"
         }
       ],
       "answer": "A",
       "answer_index": 0,
-      "analysis_html": "<img src=\"/static/generated/assets/probability/ch111/q0003_analysis.png\"/>"
+      "analysis_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{aligned}&amp;\\text{因为总体为}N(0,\\sigma^2),\\text{所以} &amp; \\frac{1}{\\sigma}\\sum_{i=1}^{20}X_i\\sim N(0,20),\\ \\frac{\\chi_i^2}{\\sigma^2}\\sim \\chi^2(1),\\ i=1,2,\\cdots,n,\\\\&amp;\\text{且}\\frac{\\chi_i^2}{\\sigma^2}\\text{相互独立．于是有} &amp; \\sum_{i=1}^{20}\\frac{\\chi_i^2}{\\sigma^2}\\sim \\chi^2(20),\\ \\frac{11}{9}\\frac{\\sum_{i=1}^{9}\\chi_i^2}{\\sum_{j=10}^{20}\\chi_j^2}\\sim F(9,11);\\\\&amp; &amp; \\frac{\\sqrt{11}X_k}{\\sqrt{\\sum_{j=10}^{20}\\chi_j^2}}\\sim t(11),\\ k=1,2,\\cdots,9\\,.\\end{aligned}\">\\begin{aligned}&amp;\\text{因为总体为}N(0,\\sigma^2),\\text{所以} &amp; \\frac{1}{\\sigma}\\sum_{i=1}^{20}X_i\\sim N(0,20),\\ \\frac{\\chi_i^2}{\\sigma^2}\\sim \\chi^2(1),\\ i=1,2,\\cdots,n,\\\\&amp;\\text{且}\\frac{\\chi_i^2}{\\sigma^2}\\text{相互独立．于是有} &amp; \\sum_{i=1}^{20}\\frac{\\chi_i^2}{\\sigma^2}\\sim \\chi^2(20),\\ \\frac{11}{9}\\frac{\\sum_{i=1}^{9}\\chi_i^2}{\\sum_{j=10}^{20}\\chi_j^2}\\sim F(9,11);\\\\&amp; &amp; \\frac{\\sqrt{11}X_k}{\\sqrt{\\sum_{j=10}^{20}\\chi_j^2}}\\sim t(11),\\ k=1,2,\\cdots,9\\,.\\end{aligned}</div>"
     },
     {
       "id": "q0004",
       "number": 4,
       "header": "#4-Averge",
       "difficulty": "Averge",
-      "prompt_html": "<img src=\"/static/generated/assets/probability/ch111/q0004_prompt.png\"/>",
+      "prompt_html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{在下列结果中不正确的是( )} .\">\\text{在下列结果中不正确的是( )} .</span>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/probability/ch111/q0004_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{设} \\, X_{1}, X_{2}, \\cdots , X_{n} \\text{是来自于总体} X \\sim N(\\mu , \\sigma^{2}) \\text{样本，} \\, \\overline{X} \\text{是样本均值，则} \\, \\sum_{i = 1}^{n} \\frac{(X_{i} - \\overline{X})^{2}}{\\sigma^{2}} \\sim \\chi^{2}(n)\">\\text{设} \\, X_{1}, X_{2}, \\cdots , X_{n} \\text{是来自于总体} X \\sim N(\\mu , \\sigma^{2}) \\text{样本，} \\, \\overline{X} \\text{是样本均值，则} \\, \\sum_{i = 1}^{n} \\frac{(X_{i} - \\overline{X})^{2}}{\\sigma^{2}} \\sim \\chi^{2}(n)</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/probability/ch111/q0004_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{若} \\, X, Y \\text{都服从标准正态分布，且} X \\text{与} Y \\text{相互独立，则} X^{2} + Y^{2} \\sim \\chi^{2}(2)\">\\text{若} \\, X, Y \\text{都服从标准正态分布，且} X \\text{与} Y \\text{相互独立，则} X^{2} + Y^{2} \\sim \\chi^{2}(2)</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/probability/ch111/q0004_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{若}X\\sim\\chi^{2}(10),X^{2}+Y^{2}\\sim\\chi^{2}(15)\\text{，且}X\\text{与}Y\\text{相互独立，则}Y\\sim\\chi^{2}(5)\">\\text{若}X\\sim\\chi^{2}(10),X^{2}+Y^{2}\\sim\\chi^{2}(15)\\text{，且}X\\text{与}Y\\text{相互独立，则}Y\\sim\\chi^{2}(5)</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/probability/ch111/q0004_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\begin{aligned}\\text{设}X_{1},X_{2},\\cdots,X_{n} \\text{与}Y_{1},Y_{2},\\cdots,Y_{n} \\text{都是来自于总体}X\\sim N(\\mu,\\sigma^{2})\\text{样本，并且相互独立，}\\\\ \\bar{X}\\text{与}\\bar{Y} \\text{分别是两个样本的样本均值，则} \\sum_{i=1}^{n} (X_{i}-\\bar{X})^{2} \\sim F(n-1,n-1).\\end{aligned}\">\\begin{aligned}\\text{设}X_{1},X_{2},\\cdots,X_{n} \\text{与}Y_{1},Y_{2},\\cdots,Y_{n} \\text{都是来自于总体}X\\sim N(\\mu,\\sigma^{2})\\text{样本，并且相互独立，}\\\\ \\bar{X}\\text{与}\\bar{Y} \\text{分别是两个样本的样本均值，则} \\sum_{i=1}^{n} (X_{i}-\\bar{X})^{2} \\sim F(n-1,n-1).\\end{aligned}</span>"
         }
       ],
       "answer": "A",
       "answer_index": 0,
-      "analysis_html": "<img src=\"/static/generated/assets/probability/ch111/q0004_analysis.png\"/>"
+      "analysis_html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{若} \\, X \\sim N( \\mu , \\sigma ^ { 2 } ) \\, , \\; X _ { 1 } , X _ { 2 } , \\cdots , X _ { n } \\text {是来自} \\, \\lambda \\text {的样本，则} \\, \\frac { 1 } { \\sigma ^ { 2 } } \\sum _ { i = 1 } ^ { n } ( X _ { i } - \\overline { X } ) ^ { 2 } \\sim \\chi ^ { 2 } ( n - 1 ) \\, , \\; \\text{其中} \\, \\overline { X } = \\frac { 1 } { n } \\sum _ { i = 1 } ^ { n } X _ { i } \\, .\">\\text{若} \\, X \\sim N( \\mu , \\sigma ^ { 2 } ) \\, , \\; X _ { 1 } , X _ { 2 } , \\cdots , X _ { n } \\text {是来自} \\, \\lambda \\text {的样本，则} \\, \\frac { 1 } { \\sigma ^ { 2 } } \\sum _ { i = 1 } ^ { n } ( X _ { i } - \\overline { X } ) ^ { 2 } \\sim \\chi ^ { 2 } ( n - 1 ) \\, , \\; \\text{其中} \\, \\overline { X } = \\frac { 1 } { n } \\sum _ { i = 1 } ^ { n } X _ { i } \\, .</span>"
     },
     {
       "id": "q0005",
       "number": 5,
       "header": "#5-Averge",
       "difficulty": "Averge",
-      "prompt_html": "<img src=\"/static/generated/assets/probability/ch111/q0005_prompt.png\"/>",
+      "prompt_html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{设}X_{1},X_{2},\\cdots,X_{10}\\text{为}N(0,0.3^{2})\\text{的一个样本，则}P\\{\\sum_{i=1}^{10}x_{i}^{2}&gt;1.44\\}=(\\text{.})\">\\text{设}X_{1},X_{2},\\cdots,X_{10}\\text{为}N(0,0.3^{2})\\text{的一个样本，则}P\\{\\sum_{i=1}^{10}x_{i}^{2}&gt;1.44\\}=(\\text{.})</span>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/probability/ch111/q0005_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"0.1\">0.1</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/probability/ch111/q0005_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"0.9\">0.9</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/probability/ch111/q0005_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"0.2\">0.2</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/probability/ch111/q0005_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"0.3\">0.3</span>"
         }
       ],
       "answer": "A",
       "answer_index": 0,
-      "analysis_html": "<img src=\"/static/generated/assets/probability/ch111/q0005_analysis.png\"/>"
+      "analysis_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{aligned} &amp; \\text{因}X_{i}\\sim N(0,0.3^{2})\\text{，故} &amp; &amp; \\frac{X_{i}}{0.3}\\sim N(0,1)\\,,\\ i=1,2,\\cdots,10\\,,\\\\ &amp; &amp; &amp; \\chi^{2}=\\sum_{i=1}^{10}(\\frac{X_{i}}{0.3})^{2}=\\sum_{i=1}^{10}\\frac{X_{i}^{2}}{0.3^{2}}\\sim\\chi^{2}(10)\\,,\\\\ &amp; &amp; &amp; \\\\ &amp; \\text{从而} &amp; &amp; P\\{\\sum_{i=1}^{10}X_{i}^{2}&gt;1.44\\}=P\\{\\sum_{i=1}^{10}\\frac{X_{i}^{2}}{0.3^{2}}&gt;16\\}=P\\{\\chi^{2}&gt;16\\}=0.1\\,.\\end{aligned}\">\\begin{aligned} &amp; \\text{因}X_{i}\\sim N(0,0.3^{2})\\text{，故} &amp; &amp; \\frac{X_{i}}{0.3}\\sim N(0,1)\\,,\\ i=1,2,\\cdots,10\\,,\\\\ &amp; &amp; &amp; \\chi^{2}=\\sum_{i=1}^{10}(\\frac{X_{i}}{0.3})^{2}=\\sum_{i=1}^{10}\\frac{X_{i}^{2}}{0.3^{2}}\\sim\\chi^{2}(10)\\,,\\\\ &amp; &amp; &amp; \\\\ &amp; \\text{从而} &amp; &amp; P\\{\\sum_{i=1}^{10}X_{i}^{2}&gt;1.44\\}=P\\{\\sum_{i=1}^{10}\\frac{X_{i}^{2}}{0.3^{2}}&gt;16\\}=P\\{\\chi^{2}&gt;16\\}=0.1\\,.\\end{aligned}</div>"
     },
     {
       "id": "q0006",
       "number": 6,
       "header": "#6-Averge",
       "difficulty": "Averge",
-      "prompt_html": "<img src=\"/static/generated/assets/probability/ch111/q0006_prompt.png\"/>",
+      "prompt_html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{在下列结果中不正确的是( )} .\">\\text{在下列结果中不正确的是( )} .</span>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/probability/ch111/q0006_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{若} \\, X \\sim \\chi ^ { 2 } ( n _ { 1 } ) \\, , \\, \\, \\, Y \\sim \\chi ^ { 2 } ( n _ { 2 } ) \\, , \\, \\text{则} \\, X + Y \\sim \\chi ^ { 2 } ( n _ { 1 } + n _ { 2 } )\">\\text{若} \\, X \\sim \\chi ^ { 2 } ( n _ { 1 } ) \\, , \\, \\, \\, Y \\sim \\chi ^ { 2 } ( n _ { 2 } ) \\, , \\, \\text{则} \\, X + Y \\sim \\chi ^ { 2 } ( n _ { 1 } + n _ { 2 } )</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/probability/ch111/q0006_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{若} \\, X \\sim N(0,1), \\ Y \\sim N(0,1), \\ \\text{且} \\, X \\text{与} Y \\text{相互独立}, \\ \\text{则} \\ X^{2} + Y^{2} \\sim \\chi^{2}(2)\">\\text{若} \\, X \\sim N(0,1), \\ Y \\sim N(0,1), \\ \\text{且} \\, X \\text{与} Y \\text{相互独立}, \\ \\text{则} \\ X^{2} + Y^{2} \\sim \\chi^{2}(2)</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/probability/ch111/q0006_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{若} X \\sim \\chi ^ { 2 } ( 10 ) , \\text{则} D ( X ) = 20\">\\text{若} X \\sim \\chi ^ { 2 } ( 10 ) , \\text{则} D ( X ) = 20</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/probability/ch111/q0006_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\begin{aligned}&amp;\\text{设}X_{1},X_{2},\\cdots,X_{n} \\text{是来自}X\\sim N(\\mu,\\sigma^{2})\\text{的样本，}\\overline{X}\\text{是样本均值，}\\\\&amp;\\text{则}E(\\frac{1}{\\sigma^{2}}\\sum_{i=1}^{n}(X_{i}-\\overline{X})^{2})=n-1\\,,\\ D(\\frac{1}{\\sigma^{2}}\\sum_{i=1}^{n}(X_{i}-\\overline{X})^{2})=2n-2\\,.\\end{aligned}\">\\begin{aligned}&amp;\\text{设}X_{1},X_{2},\\cdots,X_{n} \\text{是来自}X\\sim N(\\mu,\\sigma^{2})\\text{的样本，}\\overline{X}\\text{是样本均值，}\\\\&amp;\\text{则}E(\\frac{1}{\\sigma^{2}}\\sum_{i=1}^{n}(X_{i}-\\overline{X})^{2})=n-1\\,,\\ D(\\frac{1}{\\sigma^{2}}\\sum_{i=1}^{n}(X_{i}-\\overline{X})^{2})=2n-2\\,.\\end{aligned}</span>"
         }
       ],
       "answer": "A",
       "answer_index": 0,
-      "analysis_html": "<img src=\"/static/generated/assets/probability/ch111/q0006_analysis.png\"/>"
+      "analysis_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{aligned}&amp;\\text{若 }X_{1},X_{2},\\cdots,X_{n}\\text{相互独立并且都服从标准正态分布，则}Y=X_{1}^{2}+X_{2}^{2}+\\cdots+X_{n}^{2}\\sim\\chi^{2}(n).\\\\&amp;\\text{又因为}Y=\\frac{1}{\\sigma^{2}}\\sum_{i=1}^{n}(X_{i}-\\overline{X})^{2}\\sim\\chi^{2}(n-1)\\text{，所以}D(Y)=2(n-1)\\,.\\end{aligned}\">\\begin{aligned}&amp;\\text{若 }X_{1},X_{2},\\cdots,X_{n}\\text{相互独立并且都服从标准正态分布，则}Y=X_{1}^{2}+X_{2}^{2}+\\cdots+X_{n}^{2}\\sim\\chi^{2}(n).\\\\&amp;\\text{又因为}Y=\\frac{1}{\\sigma^{2}}\\sum_{i=1}^{n}(X_{i}-\\overline{X})^{2}\\sim\\chi^{2}(n-1)\\text{，所以}D(Y)=2(n-1)\\,.\\end{aligned}</div>"
     },
     {
       "id": "q0007",
       "number": 7,
       "header": "#7-Averge",
       "difficulty": "Averge",
-      "prompt_html": "<img src=\"/static/generated/assets/probability/ch111/q0007_prompt.png\"/>",
+      "prompt_html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{设}X_{1},\\cdots,X_{n}\\text{为取自正态总体}N(\\mu,\\sigma^{2})\\text{的样本，则以下结论不成立的是( )}.\">\\text{设}X_{1},\\cdots,X_{n}\\text{为取自正态总体}N(\\mu,\\sigma^{2})\\text{的样本，则以下结论不成立的是( )}.</span>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/probability/ch111/q0007_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\overline{x} \\text{与} \\sum_{i=1}^{n} X_{i}^{2} \\text{独立}\">\\overline{x} \\text{与} \\sum_{i=1}^{n} X_{i}^{2} \\text{独立}</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/probability/ch111/q0007_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\begin{aligned}\\frac{1}{\\sigma^2} \\sum_{i=1}^n (X_i - \\overline{X})^2 \\sim \\chi^2(n-1)\\end{aligned}\">\\begin{aligned}\\frac{1}{\\sigma^2} \\sum_{i=1}^n (X_i - \\overline{X})^2 \\sim \\chi^2(n-1)\\end{aligned}</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/probability/ch111/q0007_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\overline{X} \\text{与} \\sum_{i=1}^{n} (X_{i} - \\overline{X})^{2} \\text{独立}\">\\overline{X} \\text{与} \\sum_{i=1}^{n} (X_{i} - \\overline{X})^{2} \\text{独立}</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/probability/ch111/q0007_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\frac{1}{\\sigma^{2}} \\sum_{i=1}^{n} (X_{i} - \\mu)^{2} \\sim \\chi^{2}(n)\">\\frac{1}{\\sigma^{2}} \\sum_{i=1}^{n} (X_{i} - \\mu)^{2} \\sim \\chi^{2}(n)</span>"
         }
       ],
       "answer": "A",
       "answer_index": 0,
-      "analysis_html": "<img src=\"/static/generated/assets/probability/ch111/q0007_analysis.png\"/>"
+      "analysis_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{aligned}\\text{若}X\\sim N(\\mu,\\sigma^2),\\text{则样本均值}\\overline{X}\\text{与样本方差}S^2\\text{相互独立，且满足}\\\\ \\overline{X}\\sim N(\\mu,\\frac{\\sigma^2}{n}),\\qquad\\frac{\\overline{X}-\\mu}{\\sigma\\sqrt{n}}\\sim N(0,1),\\\\ \\frac{n-1}{\\sigma^2}S^2\\sim \\chi^2(n-1),\\qquad\\frac{\\overline{X}-\\mu}{S\\sqrt{n}}\\sim t(n-1)\\,.\\end{aligned}\">\\begin{aligned}\\text{若}X\\sim N(\\mu,\\sigma^2),\\text{则样本均值}\\overline{X}\\text{与样本方差}S^2\\text{相互独立，且满足}\\\\ \\overline{X}\\sim N(\\mu,\\frac{\\sigma^2}{n}),\\qquad\\frac{\\overline{X}-\\mu}{\\sigma\\sqrt{n}}\\sim N(0,1),\\\\ \\frac{n-1}{\\sigma^2}S^2\\sim \\chi^2(n-1),\\qquad\\frac{\\overline{X}-\\mu}{S\\sqrt{n}}\\sim t(n-1)\\,.\\end{aligned}</div>"
     },
     {
       "id": "q0008",
       "number": 8,
       "header": "#8-Averge",
       "difficulty": "Averge",
-      "prompt_html": "<img src=\"/static/generated/assets/probability/ch111/q0008_prompt.png\"/>",
+      "prompt_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{array}{l} \\text {设总体} \\lambda \\text {和} \\gamma \\text {相互独立，分别服从} N(0,\\frac{1}{n}) \\text {和} N(0,\\frac{1}{m}), \\text { } n \\text { 和 } m \\text { 是自然数，且 } n \\neq m . \\quad X_{1}, X_{2}, \\cdots, X_{k} \\text { 和} \\\\ Y_{1}, Y_{2}, \\cdots, Y_{l} \\text { 分别是 } \\lambda \\text { 和 } \\gamma \\text { 的样本，要使 } \\frac{X_{1} + X_{2} + \\cdots + X_{k}}{\\sqrt{Y_{1}^{2} + Y_{2}^{2} + \\cdots + Y_{l}^{2}}} \\text { 服从 } t \\text { 分布，} k,l \\text { 应满足条件（）. } \\end{array}\">\\begin{array}{l} \\text {设总体} \\lambda \\text {和} \\gamma \\text {相互独立，分别服从} N(0,\\frac{1}{n}) \\text {和} N(0,\\frac{1}{m}), \\text { } n \\text { 和 } m \\text { 是自然数，且 } n \\neq m . \\quad X_{1}, X_{2}, \\cdots, X_{k} \\text { 和} \\\\ Y_{1}, Y_{2}, \\cdots, Y_{l} \\text { 分别是 } \\lambda \\text { 和 } \\gamma \\text { 的样本，要使 } \\frac{X_{1} + X_{2} + \\cdots + X_{k}}{\\sqrt{Y_{1}^{2} + Y_{2}^{2} + \\cdots + Y_{l}^{2}}} \\text { 服从 } t \\text { 分布，} k,l \\text { 应满足条件（）. } \\end{array}</div>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/probability/ch111/q0008_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\frac { k } { l } = \\frac { n } { m }\">\\frac { k } { l } = \\frac { n } { m }</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/probability/ch111/q0008_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"k = l\">k = l</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/probability/ch111/q0008_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"k l = n m\">k l = n m</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/probability/ch111/q0008_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\frac { k } { l } = \\frac { m } { n }\">\\frac { k } { l } = \\frac { m } { n }</span>"
         }
       ],
       "answer": "A",
       "answer_index": 0,
-      "analysis_html": "<img src=\"/static/generated/assets/probability/ch111/q0008_analysis.png\"/>"
+      "analysis_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{aligned}&amp;\\text{由}X_{i}\\sim N(0,\\frac{1}{n})\\Rightarrow \\sum_{i=1}^{k}X_{i}\\sim N(0,\\frac{k}{n})\\ \\Rightarrow\\ \\frac{\\sum_{i=1}^{k}X_{i}}{\\sqrt{\\frac{k}{n}}}\\sim N(0,1).\\\\&amp;\\text{另一方面，由}Y_{i}\\sim N(0,\\frac{1}{m})\\ \\Rightarrow\\ \\frac{Y_{i}}{\\sqrt{\\frac{1}{m}}}\\sim N(0,1)\\ \\Rightarrow\\ \\frac{Y_{i}^{2}}{\\frac{1}{m}}\\sim\\chi^{2}(1)\\ \\Rightarrow\\ \\sum_{i=1}^{l}\\frac{Y_{i}^{2}}{\\frac{1}{m}}=m\\sum_{l=1}^{l}Y_{i}^{2}\\sim\\chi^{2}(l)\\\\&amp;\\text{从而}T=\\frac{\\sqrt{\\frac{n}{k}}\\sum_{i=1}^{k}X_{i}}{\\sqrt{\\frac{m}{l}}\\sum_{l=1}^{l}Y_{i}^{2}}\\sim t(l)\\text{，因此若要}\\frac{\\sum_{i=1}^{k}X_{i}}{\\sqrt{\\sum_{i=1}^{l}Y_{i}^{2}}}\\sim t(l)\\text{，则应有}\\sqrt{\\frac{n}{k}}=\\sqrt{\\frac{m}{l}}\\text{，即}\\ \\frac{k}{l}=\\frac{n}{m}\\,.\\end{aligned}\">\\begin{aligned}&amp;\\text{由}X_{i}\\sim N(0,\\frac{1}{n})\\Rightarrow \\sum_{i=1}^{k}X_{i}\\sim N(0,\\frac{k}{n})\\ \\Rightarrow\\ \\frac{\\sum_{i=1}^{k}X_{i}}{\\sqrt{\\frac{k}{n}}}\\sim N(0,1).\\\\&amp;\\text{另一方面，由}Y_{i}\\sim N(0,\\frac{1}{m})\\ \\Rightarrow\\ \\frac{Y_{i}}{\\sqrt{\\frac{1}{m}}}\\sim N(0,1)\\ \\Rightarrow\\ \\frac{Y_{i}^{2}}{\\frac{1}{m}}\\sim\\chi^{2}(1)\\ \\Rightarrow\\ \\sum_{i=1}^{l}\\frac{Y_{i}^{2}}{\\frac{1}{m}}=m\\sum_{l=1}^{l}Y_{i}^{2}\\sim\\chi^{2}(l)\\\\&amp;\\text{从而}T=\\frac{\\sqrt{\\frac{n}{k}}\\sum_{i=1}^{k}X_{i}}{\\sqrt{\\frac{m}{l}}\\sum_{l=1}^{l}Y_{i}^{2}}\\sim t(l)\\text{，因此若要}\\frac{\\sum_{i=1}^{k}X_{i}}{\\sqrt{\\sum_{i=1}^{l}Y_{i}^{2}}}\\sim t(l)\\text{，则应有}\\sqrt{\\frac{n}{k}}=\\sqrt{\\frac{m}{l}}\\text{，即}\\ \\frac{k}{l}=\\frac{n}{m}\\,.\\end{aligned}</div>"
     },
     {
       "id": "q0009",
       "number": 9,
       "header": "#9-Averge",
       "difficulty": "Averge",
-      "prompt_html": "<img src=\"/static/generated/assets/probability/ch111/q0009_prompt.png\"/>",
+      "prompt_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{array}{l} \\text{设}X_{1},X_{2},\\cdots,X_{n} \\text{是正态总体}N(0,\\sigma^{2})\\text{的样本，}\\sigma^{2}\\neq 0,\\ 1\\leq m&lt;n,\\ m\\neq \\frac{n}{2},\\text{则在下列结论中，正确的是( ).} \\end{array}\">\\begin{array}{l} \\text{设}X_{1},X_{2},\\cdots,X_{n} \\text{是正态总体}N(0,\\sigma^{2})\\text{的样本，}\\sigma^{2}\\neq 0,\\ 1\\leq m&lt;n,\\ m\\neq \\frac{n}{2},\\text{则在下列结论中，正确的是( ).} \\end{array}</div>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/probability/ch111/q0009_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\begin{aligned}\\frac{\\frac{1}{m}\\sum_{i=1}^{m}X_{i}^{2}}{\\frac{1}{n-m}\\sum_{i-m+1}^{n}X_{j}^{2}}\\sim F(m,n-m)\\,.\\end{aligned}\">\\begin{aligned}\\frac{\\frac{1}{m}\\sum_{i=1}^{m}X_{i}^{2}}{\\frac{1}{n-m}\\sum_{i-m+1}^{n}X_{j}^{2}}\\sim F(m,n-m)\\,.\\end{aligned}</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/probability/ch111/q0009_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\sum_{i=1}^{n} X_{i}^{2} \\sim \\chi^{2}(n)\">\\sum_{i=1}^{n} X_{i}^{2} \\sim \\chi^{2}(n)</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/probability/ch111/q0009_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\frac{1}{\\sigma^{2}}(\\sum_{i=1}^{n}X_{i})^{2}\\sim\\chi^{2}(1)\">\\frac{1}{\\sigma^{2}}(\\sum_{i=1}^{n}X_{i})^{2}\\sim\\chi^{2}(1)</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/probability/ch111/q0009_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\begin{aligned}\\frac{\\sum_{i=1}^{n}X_{i}}{\\sqrt{\\sum_{j=m+1}^{n}X_{j}^{2}}}\\sim t(n-m)\\end{aligned}\">\\begin{aligned}\\frac{\\sum_{i=1}^{n}X_{i}}{\\sqrt{\\sum_{j=m+1}^{n}X_{j}^{2}}}\\sim t(n-m)\\end{aligned}</span>"
         }
       ],
       "answer": "A",
       "answer_index": 0,
-      "analysis_html": "<img src=\"/static/generated/assets/probability/ch111/q0009_analysis.png\"/>"
+      "analysis_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{aligned}\\frac{1}{\\sigma^2}\\sum_{i=1}^n X_i^2 \\sim \\chi^2(n),\\ \\sum_{i=1}^n X_i \\sim N(0,n\\sigma^2),\\ \\ \\frac{\\frac{1}{m}\\sum_{i=1}^m X_i^2}{\\frac{1}{n-m}\\sum_{i=-m+1}^n X_i^2} \\sim F(m,n-m)\\,.\\end{aligned}\">\\begin{aligned}\\frac{1}{\\sigma^2}\\sum_{i=1}^n X_i^2 \\sim \\chi^2(n),\\ \\sum_{i=1}^n X_i \\sim N(0,n\\sigma^2),\\ \\ \\frac{\\frac{1}{m}\\sum_{i=1}^m X_i^2}{\\frac{1}{n-m}\\sum_{i=-m+1}^n X_i^2} \\sim F(m,n-m)\\,.\\end{aligned}</div>"
     }
-  ]
+  ],
+  "format": "latex",
+  "source_md": "gl/6.4.3.2_两个正态总体的抽样应用(9题)/6.4.3.2_两个正态总体的抽样应用(9题).md"
 }

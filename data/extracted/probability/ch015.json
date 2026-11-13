@@ -13,700 +13,702 @@
       "number": 1,
       "header": "#1-Averge",
       "difficulty": "Averge",
-      "prompt_html": "<img src=\"/static/generated/assets/probability/ch015/q0001_prompt.png\"/>",
+      "prompt_html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{甲乙两人独立地向目标射击一次，他们的命中率分别是}0.75 \\text{及}0.6，\\text{现已知目标被命中}，\\text{则它是甲和乙共同射中的概率是}().\">\\text{甲乙两人独立地向目标射击一次，他们的命中率分别是}0.75 \\text{及}0.6，\\text{现已知目标被命中}，\\text{则它是甲和乙共同射中的概率是}().</span>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/probability/ch015/q0001_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"0.5\">0.5</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/probability/ch015/q0001_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"0.4\">0.4</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/probability/ch015/q0001_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"0.6\">0.6</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/probability/ch015/q0001_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"0.7\">0.7</span>"
         }
       ],
       "answer": "A",
       "answer_index": 0,
-      "analysis_html": "<img src=\"/static/generated/assets/probability/ch015/q0001_analysis.png\"/>"
+      "analysis_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{aligned}P(AB|A\\cup B)&amp;=\\frac{P(AB)}{P(A\\cup B)}=\\frac{P(A)P(B)}{P(A)+P(B)-P(A)P(B)}\\\\&amp;=\\frac{0.75\\cdot 0.6}{0.75+0.6-0.75\\cdot 0.6}=0.5\\,.\\end{aligned}\">\\begin{aligned}P(AB|A\\cup B)&amp;=\\frac{P(AB)}{P(A\\cup B)}=\\frac{P(A)P(B)}{P(A)+P(B)-P(A)P(B)}\\\\&amp;=\\frac{0.75\\cdot 0.6}{0.75+0.6-0.75\\cdot 0.6}=0.5\\,.\\end{aligned}</div>"
     },
     {
       "id": "q0002",
       "number": 2,
       "header": "#2-Hard",
       "difficulty": "Hard",
-      "prompt_html": "<img src=\"/static/generated/assets/probability/ch015/q0002_prompt.png\"/>",
+      "prompt_html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{甲、乙二人从} 1,2, \\cdots 15 \\text{的十五个数字中各取一数（不重复），已知甲取到的数是} 5 \\text{的倍数，则甲取到的数大于乙取到的数的概率为} (\\text{).}\">\\text{甲、乙二人从} 1,2, \\cdots 15 \\text{的十五个数字中各取一数（不重复），已知甲取到的数是} 5 \\text{的倍数，则甲取到的数大于乙取到的数的概率为} (\\text{).}</span>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/probability/ch015/q0002_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\frac { 9 } { 14 }\">\\frac { 9 } { 14 }</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/probability/ch015/q0002_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\frac { 13 } { 42 }\">\\frac { 13 } { 42 }</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/probability/ch015/q0002_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\frac { 15 } { 42 }\">\\frac { 15 } { 42 }</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/probability/ch015/q0002_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\frac { 15 } { 21 }\">\\frac { 15 } { 21 }</span>"
         }
       ],
       "answer": "A",
       "answer_index": 0,
-      "analysis_html": "<img src=\"/static/generated/assets/probability/ch015/q0002_analysis.png\"/>"
+      "analysis_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{aligned}&amp; \\text{样本空间}\\quad S=\\{(1,2),(1,3),\\cdots,(5,1),(5,2),\\cdots,(15,14)\\},\\text{含有}15\\times 14=210\\text{个样本点，令事件}A=\\text{（甲取到的数是5的倍数），}AB=\\{\\text{甲取到的数是5的倍数，且甲取到的数大于乙取到的数}\\},\\text{故}A\\text{发生表明甲只能取得}5,10,15\\text{中的一个}，\\text{所以含有}3\\times 14=42\\text{个样本点，}AB\\text{含有}4+9+14=27\\text{个样本点，于是}\\\\&amp; P(B|A)=\\frac{P(AB)}{P(A)}=\\frac{\\frac{27}{210}}{\\frac{42}{210}}=\\frac{27}{42}=\\frac{9}{14},\\text{或将}A\\text{作为样本空间，则得}P(B|A)=\\frac{27}{42}=\\frac{9}{14}\\,.\\end{aligned}\">\\begin{aligned}&amp; \\text{样本空间}\\quad S=\\{(1,2),(1,3),\\cdots,(5,1),(5,2),\\cdots,(15,14)\\},\\text{含有}15\\times 14=210\\text{个样本点，令事件}A=\\text{（甲取到的数是5的倍数），}AB=\\{\\text{甲取到的数是5的倍数，且甲取到的数大于乙取到的数}\\},\\text{故}A\\text{发生表明甲只能取得}5,10,15\\text{中的一个}，\\text{所以含有}3\\times 14=42\\text{个样本点，}AB\\text{含有}4+9+14=27\\text{个样本点，于是}\\\\&amp; P(B|A)=\\frac{P(AB)}{P(A)}=\\frac{\\frac{27}{210}}{\\frac{42}{210}}=\\frac{27}{42}=\\frac{9}{14},\\text{或将}A\\text{作为样本空间，则得}P(B|A)=\\frac{27}{42}=\\frac{9}{14}\\,.\\end{aligned}</div>"
     },
     {
       "id": "q0003",
       "number": 3,
       "header": "#3-Easy",
       "difficulty": "Easy",
-      "prompt_html": "<img src=\"/static/generated/assets/probability/ch015/q0003_prompt.png\"/>",
+      "prompt_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{array}{l} \\text {设某光学仪器厂制造的透镜，第一次落下时打破的概率为} 1 / 2, \\text {若第一次落下未打破，第二次落下打破的概率为} \\\\ 7 / 10, \\text {若前两次落下未打破，第三次落下打破的概率为} 9 / 10, \\text {则透镜落下三次而未打破的概率为} ( ). \\end{array}\">\\begin{array}{l} \\text {设某光学仪器厂制造的透镜，第一次落下时打破的概率为} 1 / 2, \\text {若第一次落下未打破，第二次落下打破的概率为} \\\\ 7 / 10, \\text {若前两次落下未打破，第三次落下打破的概率为} 9 / 10, \\text {则透镜落下三次而未打破的概率为} ( ). \\end{array}</div>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/probability/ch015/q0003_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\frac {3}{200}\">\\frac {3}{200}</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/probability/ch015/q0003_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\frac { 9 } { 200 }\">\\frac { 9 } { 200 }</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/probability/ch015/q0003_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\frac { 3 } { 100 }\">\\frac { 3 } { 100 }</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/probability/ch015/q0003_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\frac { 1 } { 200 }\">\\frac { 1 } { 200 }</span>"
         }
       ],
       "answer": "A",
       "answer_index": 0,
-      "analysis_html": "<img src=\"/static/generated/assets/probability/ch015/q0003_analysis.png\"/>"
+      "analysis_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{aligned} &amp; \\text{以} A_{i}(i=1,2,3)\\text{表示事件“透镜第}i\\text{次落下打破”，以} B \\text{表示事件“透镜落下三次而未打破”。因为} \\\\ &amp; \\quad B=A_{1}A_{2}A_{3}, \\text{ 故有} \\\\ &amp; \\quad P(B)=P(\\overline{A_{1}}\\overline{A_{2}}\\overline{A_{3}})=P(\\overline{A_{1}})P(\\overline{A_{2}}|\\overline{A_{1}})P(\\overline{A_{3}}|\\overline{A_{1}}\\overline{A_{2}}) \\\\ &amp; \\quad=\\bigg(1-\\frac{1}{2}\\bigg)\\bigg(1-\\frac{7}{10}\\bigg)\\bigg(1-\\frac{9}{10}\\bigg)=\\frac{3}{200}\\,.\\end{aligned}\">\\begin{aligned} &amp; \\text{以} A_{i}(i=1,2,3)\\text{表示事件“透镜第}i\\text{次落下打破”，以} B \\text{表示事件“透镜落下三次而未打破”。因为} \\\\ &amp; \\quad B=A_{1}A_{2}A_{3}, \\text{ 故有} \\\\ &amp; \\quad P(B)=P(\\overline{A_{1}}\\overline{A_{2}}\\overline{A_{3}})=P(\\overline{A_{1}})P(\\overline{A_{2}}|\\overline{A_{1}})P(\\overline{A_{3}}|\\overline{A_{1}}\\overline{A_{2}}) \\\\ &amp; \\quad=\\bigg(1-\\frac{1}{2}\\bigg)\\bigg(1-\\frac{7}{10}\\bigg)\\bigg(1-\\frac{9}{10}\\bigg)=\\frac{3}{200}\\,.\\end{aligned}</div>"
     },
     {
       "id": "q0004",
       "number": 4,
       "header": "#4-Easy",
       "difficulty": "Easy",
-      "prompt_html": "<img src=\"/static/generated/assets/probability/ch015/q0004_prompt.png\"/>",
+      "prompt_html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{掷}2\\text{颗骰子，已知}2\\text{颗骰子的点数之和为}7，\\text{则其中有一颗}1\\text{点的概率为}().\">\\text{掷}2\\text{颗骰子，已知}2\\text{颗骰子的点数之和为}7，\\text{则其中有一颗}1\\text{点的概率为}().</span>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/probability/ch015/q0004_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\frac { 1 } { 3 }\">\\frac { 1 } { 3 }</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/probability/ch015/q0004_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\frac { 2 } { 3 }\">\\frac { 2 } { 3 }</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/probability/ch015/q0004_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\frac { 1 } { 4 }\">\\frac { 1 } { 4 }</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/probability/ch015/q0004_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\frac { 3 } { 4 }\">\\frac { 3 } { 4 }</span>"
         }
       ],
       "answer": "A",
       "answer_index": 0,
-      "analysis_html": "<img src=\"/static/generated/assets/probability/ch015/q0004_analysis.png\"/>"
+      "analysis_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{aligned}2 \\text{颗骰子点数之和为}7 \\text{的所有情况为} (1,6),\\,(2,5),\\,(3,4),\\,(4,3),\\,(5,2),\\,(6,1)\\,.\\,\\,\\text{而一个点数为}1\\text{的可能情况是} (1,6),\\,(6,1)\\, ,\\,\\text{所以其中有一颗}1 \\text{点的概率为} p=\\frac{2}{6}=\\frac{1}{3}\\,.\\end{aligned}\">\\begin{aligned}2 \\text{颗骰子点数之和为}7 \\text{的所有情况为} (1,6),\\,(2,5),\\,(3,4),\\,(4,3),\\,(5,2),\\,(6,1)\\,.\\,\\,\\text{而一个点数为}1\\text{的可能情况是} (1,6),\\,(6,1)\\, ,\\,\\text{所以其中有一颗}1 \\text{点的概率为} p=\\frac{2}{6}=\\frac{1}{3}\\,.\\end{aligned}</div>"
     },
     {
       "id": "q0005",
       "number": 5,
       "header": "#5-Easy",
       "difficulty": "Easy",
-      "prompt_html": "<img src=\"/static/generated/assets/probability/ch015/q0005_prompt.png\"/>",
+      "prompt_html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{甲、乙2人独立地对同一目标各射击1次，其命中率分别为}0.6 \\text{与}0.5.\\text{现已知目标被命中，则它是甲射中的概率是}().\">\\text{甲、乙2人独立地对同一目标各射击1次，其命中率分别为}0.6 \\text{与}0.5.\\text{现已知目标被命中，则它是甲射中的概率是}().</span>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/probability/ch015/q0005_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\frac { 3 } { 4 }\">\\frac { 3 } { 4 }</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/probability/ch015/q0005_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"0.6\">0.6</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/probability/ch015/q0005_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\frac { 5 } { 11 }\">\\frac { 5 } { 11 }</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/probability/ch015/q0005_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\frac { 6 } { 11 }\">\\frac { 6 } { 11 }</span>"
         }
       ],
       "answer": "A",
       "answer_index": 0,
-      "analysis_html": "<img src=\"/static/generated/assets/probability/ch015/q0005_analysis.png\"/>"
+      "analysis_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{aligned}&amp;\\text{令 }C=\\{\\text{目标已射中}\\},\\ A=\\{\\text{甲射中}\\},\\ B=\\{\\text{乙射中}\\}.\\\\&amp;\\text{则 }P(A)=0.6,\\ P(B)=0.5,\\ P(AB)=P(A)P(B)=0.6\\times 0.5=0.3\\,.\\\\&amp;\\text{所以 }P(C)=P(A\\cup B)=P(A)+P(B)-P(AB)=0.8\\,,\\\\&amp;\\text{则 }P(A|C)=\\frac{P(AC)}{P(C)}=\\frac{P(A)}{P(C)}=\\frac{0.6}{0.8}=\\frac{3}{4}\\,.\\end{aligned}\">\\begin{aligned}&amp;\\text{令 }C=\\{\\text{目标已射中}\\},\\ A=\\{\\text{甲射中}\\},\\ B=\\{\\text{乙射中}\\}.\\\\&amp;\\text{则 }P(A)=0.6,\\ P(B)=0.5,\\ P(AB)=P(A)P(B)=0.6\\times 0.5=0.3\\,.\\\\&amp;\\text{所以 }P(C)=P(A\\cup B)=P(A)+P(B)-P(AB)=0.8\\,,\\\\&amp;\\text{则 }P(A|C)=\\frac{P(AC)}{P(C)}=\\frac{P(A)}{P(C)}=\\frac{0.6}{0.8}=\\frac{3}{4}\\,.\\end{aligned}</div>"
     },
     {
       "id": "q0006",
       "number": 6,
       "header": "#6-Easy",
       "difficulty": "Easy",
-      "prompt_html": "<img src=\"/static/generated/assets/probability/ch015/q0006_prompt.png\"/>",
+      "prompt_html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{一袋中装} 10 \\text{个球，其中} 3 \\text{个黑球、} 7 \\text{个白球，先后两次从中随意各取一球(不放回)，则两次取到的均为黑球的概率为} () .\">\\text{一袋中装} 10 \\text{个球，其中} 3 \\text{个黑球、} 7 \\text{个白球，先后两次从中随意各取一球(不放回)，则两次取到的均为黑球的概率为} () .</span>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/probability/ch015/q0006_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\frac { 1 } { 15 }\">\\frac { 1 } { 15 }</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/probability/ch015/q0006_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\frac { 3 } { 10 }\">\\frac { 3 } { 10 }</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/probability/ch015/q0006_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\frac { 2 } { 9 }\">\\frac { 2 } { 9 }</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/probability/ch015/q0006_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\frac { 2 } { 3 }\">\\frac { 2 } { 3 }</span>"
         }
       ],
       "answer": "A",
       "answer_index": 0,
-      "analysis_html": "<img src=\"/static/generated/assets/probability/ch015/q0006_analysis.png\"/>"
+      "analysis_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{aligned} &amp; \\text{设 } A_{i} \\text{ 表示事件“第 } i \\text{ 次取到的是黑球} \\; (i=1,2), \\text{ 则 } A_{1} \\cap A_{2} \\text{ 表示事件“两次取到的均为黑球”．由题设知} \\\\ &amp; \\qquad P(A_{1})=\\frac{3}{10}, \\quad P(A_{2} \\mid A_{1})=\\frac{2}{9} \\\\ &amp; \\text{于是根据乘法公式，有} \\\\ &amp; \\qquad P(A_{1} \\cap A_{2})=P(A_{1})P(A_{2} \\mid A_{1})=\\frac{3}{10} \\times \\frac{2}{9}=\\frac{1}{15}.\\end{aligned}\">\\begin{aligned} &amp; \\text{设 } A_{i} \\text{ 表示事件“第 } i \\text{ 次取到的是黑球} \\; (i=1,2), \\text{ 则 } A_{1} \\cap A_{2} \\text{ 表示事件“两次取到的均为黑球”．由题设知} \\\\ &amp; \\qquad P(A_{1})=\\frac{3}{10}, \\quad P(A_{2} \\mid A_{1})=\\frac{2}{9} \\\\ &amp; \\text{于是根据乘法公式，有} \\\\ &amp; \\qquad P(A_{1} \\cap A_{2})=P(A_{1})P(A_{2} \\mid A_{1})=\\frac{3}{10} \\times \\frac{2}{9}=\\frac{1}{15}.\\end{aligned}</div>"
     },
     {
       "id": "q0007",
       "number": 7,
       "header": "#7-Easy",
       "difficulty": "Easy",
-      "prompt_html": "<img src=\"/static/generated/assets/probability/ch015/q0007_prompt.png\"/>",
+      "prompt_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{aligned}\\text{假设一批产品中一、二、三等品各占}60\\%,\\;30\\%,\\;10\\%,\\; \\text{从中任取}1\\text{件，结果不是三等品，则取到的是一等品的概率为}().\\end{aligned}\">\\begin{aligned}\\text{假设一批产品中一、二、三等品各占}60\\%,\\;30\\%,\\;10\\%,\\; \\text{从中任取}1\\text{件，结果不是三等品，则取到的是一等品的概率为}().\\end{aligned}</div>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/probability/ch015/q0007_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\frac { 2 } { 3 }\">\\frac { 2 } { 3 }</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/probability/ch015/q0007_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\frac { 1 } { 3 }\">\\frac { 1 } { 3 }</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/probability/ch015/q0007_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\frac { 3 } { 4 }\">\\frac { 3 } { 4 }</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/probability/ch015/q0007_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\frac { 2 } { 5 }\">\\frac { 2 } { 5 }</span>"
         }
       ],
       "answer": "A",
       "answer_index": 0,
-      "analysis_html": "<img src=\"/static/generated/assets/probability/ch015/q0007_analysis.png\"/>"
+      "analysis_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{aligned} \\text{令 } A_{i} = \\text{“取到的是 } i \\text{等品} \\&quot;, \\ i=1,2,3, \\\\ P(A_{1} \\overline{A_{3}}) = \\frac{P(A_{1} \\overline{A_{3}})}{P(\\overline{A_{3}})} = \\frac{P(A_{1})}{P(\\overline{A_{3}})} = \\frac{0.6}{0.9} = \\frac{2}{3}. \\end{aligned}\">\\begin{aligned} \\text{令 } A_{i} = \\text{“取到的是 } i \\text{等品} \\&quot;, \\ i=1,2,3, \\\\ P(A_{1} \\overline{A_{3}}) = \\frac{P(A_{1} \\overline{A_{3}})}{P(\\overline{A_{3}})} = \\frac{P(A_{1})}{P(\\overline{A_{3}})} = \\frac{0.6}{0.9} = \\frac{2}{3}. \\end{aligned}</div>"
     },
     {
       "id": "q0008",
       "number": 8,
       "header": "#8-Hard",
       "difficulty": "Hard",
-      "prompt_html": "<img src=\"/static/generated/assets/probability/ch015/q0008_prompt.png\"/>",
+      "prompt_html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{某人忘记了电话号码最后一个数字，因而他随意地拨号，若已知最后一个数字是奇数，则他不超过三次而接通所需电话的概率为( ).}\">\\text{某人忘记了电话号码最后一个数字，因而他随意地拨号，若已知最后一个数字是奇数，则他不超过三次而接通所需电话的概率为( ).}</span>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/probability/ch015/q0008_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\frac { 3 } { 5 }\">\\frac { 3 } { 5 }</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/probability/ch015/q0008_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\frac { 1 } { 5 }\">\\frac { 1 } { 5 }</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/probability/ch015/q0008_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\frac { 2 } { 5 }\">\\frac { 2 } { 5 }</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/probability/ch015/q0008_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\frac { 4 } { 5 }\">\\frac { 4 } { 5 }</span>"
         }
       ],
       "answer": "A",
       "answer_index": 0,
-      "analysis_html": "<img src=\"/static/generated/assets/probability/ch015/q0008_analysis.png\"/>"
+      "analysis_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{aligned}\\text{解法一}\\ \\ \\ &amp; \\text{设 } A_i=\\{ \\text{第 } i \\text{ 次接通} \\}, (i=1,2,3), \\ A=\\{ \\text{不超过三次而接通电话} \\}, \\text{则有} \\\\&amp; \\overline{A}=A_1\\cup A_2\\cup A_3\\cup A_4\\cup A_5, \\\\ \\text{易知，} A_1 \\text{与} \\overline{A_1}, A_4 \\text{与} \\overline{A_1}\\overline{A_2}, A_3 \\text{是互斥的，故有} \\\\&amp; P(A)=P(A_1)+P(\\overline{A_1}\\overline{A_2})+P(A_1\\overline{A_2}\\overline{A_3})\\\\&amp;= \\frac{1}{10}+\\frac{9}{10}\\times \\frac{1}{9}+\\frac{9}{10}\\times \\frac{8}{9}\\times \\frac{1}{8}=\\frac{3}{10}, \\text{（由乘法公式而得）} \\\\ \\text{当已知最后一位数字是奇数，所求概率为} \\\\&amp; P(A)=P(A_1)+P(\\overline{A_1}\\overline{A_2})P(A_2\\overline{A_1})+P(\\overline{A_1})P(A_2\\overline{A_1})P(A_3\\overline{A_1}\\overline{A_2})\\\\&amp;= \\frac{1}{5}+\\frac{4}{5}\\times \\frac{1}{4}+\\frac{4}{5}\\times \\frac{3}{4}\\times \\frac{1}{3}=\\frac{3}{5}.\\end{aligned}\">\\begin{aligned}\\text{解法一}\\ \\ \\ &amp; \\text{设 } A_i=\\{ \\text{第 } i \\text{ 次接通} \\}, (i=1,2,3), \\ A=\\{ \\text{不超过三次而接通电话} \\}, \\text{则有} \\\\&amp; \\overline{A}=A_1\\cup A_2\\cup A_3\\cup A_4\\cup A_5, \\\\ \\text{易知，} A_1 \\text{与} \\overline{A_1}, A_4 \\text{与} \\overline{A_1}\\overline{A_2}, A_3 \\text{是互斥的，故有} \\\\&amp; P(A)=P(A_1)+P(\\overline{A_1}\\overline{A_2})+P(A_1\\overline{A_2}\\overline{A_3})\\\\&amp;= \\frac{1}{10}+\\frac{9}{10}\\times \\frac{1}{9}+\\frac{9}{10}\\times \\frac{8}{9}\\times \\frac{1}{8}=\\frac{3}{10}, \\text{（由乘法公式而得）} \\\\ \\text{当已知最后一位数字是奇数，所求概率为} \\\\&amp; P(A)=P(A_1)+P(\\overline{A_1}\\overline{A_2})P(A_2\\overline{A_1})+P(\\overline{A_1})P(A_2\\overline{A_1})P(A_3\\overline{A_1}\\overline{A_2})\\\\&amp;= \\frac{1}{5}+\\frac{4}{5}\\times \\frac{1}{4}+\\frac{4}{5}\\times \\frac{3}{4}\\times \\frac{1}{3}=\\frac{3}{5}.\\end{aligned}</div>"
     },
     {
       "id": "q0009",
       "number": 9,
       "header": "#9-Hard",
       "difficulty": "Hard",
-      "prompt_html": "<img src=\"/static/generated/assets/probability/ch015/q0009_prompt.png\"/>",
+      "prompt_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{aligned} \\text{有两箱同种类零件，第一箱装了50只，其中10只一等品；第二箱装30只，其中18只一等品，今从两箱中任挑出一箱，然后从该箱中取零件两次，每次任取一只，做不放回抽样，则第一次取到的是一等品的概率为（）；在第一次取到的零件是一等品的条件下，第二次取到的也是一等品的概率为（）。} \\end{aligned}\">\\begin{aligned} \\text{有两箱同种类零件，第一箱装了50只，其中10只一等品；第二箱装30只，其中18只一等品，今从两箱中任挑出一箱，然后从该箱中取零件两次，每次任取一只，做不放回抽样，则第一次取到的是一等品的概率为（）；在第一次取到的零件是一等品的条件下，第二次取到的也是一等品的概率为（）。} \\end{aligned}</div>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/probability/ch015/q0009_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"0.4 , 0.485\">0.4 , 0.485</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/probability/ch015/q0009_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"0.4 , 0.4\">0.4 , 0.4</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/probability/ch015/q0009_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"0.485 , 0.485\">0.485 , 0.485</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/probability/ch015/q0009_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\begin{aligned}0.485, 0.4\\end{aligned}\">\\begin{aligned}0.485, 0.4\\end{aligned}</span>"
         }
       ],
       "answer": "A",
       "answer_index": 0,
-      "analysis_html": "<img src=\"/static/generated/assets/probability/ch015/q0009_analysis.png\"/>"
+      "analysis_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{aligned}&amp; \\text{设事件 } A_i = \\{ \\text{第 } i \\text{ 次取到的零件是一等品} \\} \\ (i=1, \\, 2), \\ B_i = \\{ \\text{零件取自第 } i \\text{箱} \\} \\ (i=1, \\, 2), \\\\&amp; \\text{且知} \\qquad P(B_1) = P(B_2) = \\frac{1}{2}. \\\\&amp; (1) \\text{求 } P(A_1). \\qquad A_1 = A_1(B_1 \\cup B_3) = A_1 B_1 \\cup A_1 B_3, \\ (A_1 B_1)(A_1 B_3) = \\varnothing, \\\\&amp; \\text{所以} \\qquad P(A_1) = P(A_1 B_1) + P(A_1 B_3) = P(B_1) P(A_1 | B_1) + P(B_3) P(A_1 | B_3) = \\frac{1}{2} \\times \\big( \\frac{10}{50} + \\frac{18}{30} \\big) = \\frac{2}{5} = 0.4. \\\\&amp; (2) \\text{求 } P(A_2 | A_1). \\\\&amp; \\qquad P(A_2 | A_1) = \\frac{P(A_1 A_2)}{P(A_1)}, \\\\&amp; \\qquad P(A_1 A_3) = P(A_1 A_1 (B_1 \\cup B_3)) = P(A_1 A_3 B_1 \\cup A_1 A_3 B_3) \\quad = P(B_1) P(A_1 A_3 | B_1) + P(B_3) P(A_1 A_3 | B_3) \\\\&amp; \\qquad\\qquad= \\frac{1}{2} \\times \\bigg( \\frac{10 \\times 9}{50 \\times 49} + \\frac{18 \\times 17}{30 \\times 29} \\bigg) \\approx 0.194 \\\\&amp; \\text{所以} \\quad P(A_2 | A_1) = \\frac{0.194}{0.4} = 0.485.\\end{aligned}\">\\begin{aligned}&amp; \\text{设事件 } A_i = \\{ \\text{第 } i \\text{ 次取到的零件是一等品} \\} \\ (i=1, \\, 2), \\ B_i = \\{ \\text{零件取自第 } i \\text{箱} \\} \\ (i=1, \\, 2), \\\\&amp; \\text{且知} \\qquad P(B_1) = P(B_2) = \\frac{1}{2}. \\\\&amp; (1) \\text{求 } P(A_1). \\qquad A_1 = A_1(B_1 \\cup B_3) = A_1 B_1 \\cup A_1 B_3, \\ (A_1 B_1)(A_1 B_3) = \\varnothing, \\\\&amp; \\text{所以} \\qquad P(A_1) = P(A_1 B_1) + P(A_1 B_3) = P(B_1) P(A_1 | B_1) + P(B_3) P(A_1 | B_3) = \\frac{1}{2} \\times \\big( \\frac{10}{50} + \\frac{18}{30} \\big) = \\frac{2}{5} = 0.4. \\\\&amp; (2) \\text{求 } P(A_2 | A_1). \\\\&amp; \\qquad P(A_2 | A_1) = \\frac{P(A_1 A_2)}{P(A_1)}, \\\\&amp; \\qquad P(A_1 A_3) = P(A_1 A_1 (B_1 \\cup B_3)) = P(A_1 A_3 B_1 \\cup A_1 A_3 B_3) \\quad = P(B_1) P(A_1 A_3 | B_1) + P(B_3) P(A_1 A_3 | B_3) \\\\&amp; \\qquad\\qquad= \\frac{1}{2} \\times \\bigg( \\frac{10 \\times 9}{50 \\times 49} + \\frac{18 \\times 17}{30 \\times 29} \\bigg) \\approx 0.194 \\\\&amp; \\text{所以} \\quad P(A_2 | A_1) = \\frac{0.194}{0.4} = 0.485.\\end{aligned}</div>"
     },
     {
       "id": "q0010",
       "number": 10,
       "header": "#10-Averge",
       "difficulty": "Averge",
-      "prompt_html": "<img src=\"/static/generated/assets/probability/ch015/q0010_prompt.png\"/>",
+      "prompt_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{aligned}\\text{甲、乙二选手进行乒乓球单打比赛，甲先发球，甲发球成功后，乙回球失误的概率为0.3；若乙回球成功，甲回球失误的概率为0.4；若甲回球成功，乙再次回球失误的概率为0.5，那么这几个回合中乙输掉1分的概率为（）.}\\end{aligned}\">\\begin{aligned}\\text{甲、乙二选手进行乒乓球单打比赛，甲先发球，甲发球成功后，乙回球失误的概率为0.3；若乙回球成功，甲回球失误的概率为0.4；若甲回球成功，乙再次回球失误的概率为0.5，那么这几个回合中乙输掉1分的概率为（）.}\\end{aligned}</div>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/probability/ch015/q0010_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"0.51\">0.51</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/probability/ch015/q0010_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"0.61\">0.61</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/probability/ch015/q0010_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"0.32\">0.32</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/probability/ch015/q0010_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"0.14\">0.14</span>"
         }
       ],
       "answer": "A",
       "answer_index": 0,
-      "analysis_html": "<img src=\"/static/generated/assets/probability/ch015/q0010_analysis.png\"/>"
+      "analysis_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{aligned}&amp; \\text{设事件 } A=\\{ \\text{甲选手回球失误}\\},\\; B_{i}=\\{ \\text{乙选手第 } i\\text{次回球失误}\\} (i=1,2,3).\\\\&amp; \\text{依题意，已知 } P(B_{1})=0.3, P(A|\\overline{B_{1}})=0.4, P(B_{i},\\overline{AB_{1}})=0.5,\\; \\text{所以}\\\\&amp; \\qquad P\\{ \\text{乙输掉1分}\\} =P(B_{1}\\cup \\overline{B_{1}}\\overline{A B_{1}})=P(B_{1})+P(\\overline{B_{1}})P(A|\\overline{B_{1}})P(B_{1}\\cup \\overline{A B_{1}})=0.3+(1-0.3)\\times 0.6\\times 0.5=0.51.\\end{aligned}\">\\begin{aligned}&amp; \\text{设事件 } A=\\{ \\text{甲选手回球失误}\\},\\; B_{i}=\\{ \\text{乙选手第 } i\\text{次回球失误}\\} (i=1,2,3).\\\\&amp; \\text{依题意，已知 } P(B_{1})=0.3, P(A|\\overline{B_{1}})=0.4, P(B_{i},\\overline{AB_{1}})=0.5,\\; \\text{所以}\\\\&amp; \\qquad P\\{ \\text{乙输掉1分}\\} =P(B_{1}\\cup \\overline{B_{1}}\\overline{A B_{1}})=P(B_{1})+P(\\overline{B_{1}})P(A|\\overline{B_{1}})P(B_{1}\\cup \\overline{A B_{1}})=0.3+(1-0.3)\\times 0.6\\times 0.5=0.51.\\end{aligned}</div>"
     },
     {
       "id": "q0011",
       "number": 11,
       "header": "#11-Easy",
       "difficulty": "Easy",
-      "prompt_html": "<img src=\"/static/generated/assets/probability/ch015/q0011_prompt.png\"/>",
+      "prompt_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{aligned} \\text{设在}10\\text{个同一型号的元件中有}7\\text{个一等品}，\\text{从这些元件中不放回地连续取}2\\text{次}，\\text{每次取}1\\text{个元件}.\\text{若第}1\\text{次取得一等品时}，\\text{第}2\\text{次取得一等品的概率是}().\\end{aligned}\">\\begin{aligned} \\text{设在}10\\text{个同一型号的元件中有}7\\text{个一等品}，\\text{从这些元件中不放回地连续取}2\\text{次}，\\text{每次取}1\\text{个元件}.\\text{若第}1\\text{次取得一等品时}，\\text{第}2\\text{次取得一等品的概率是}().\\end{aligned}</div>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/probability/ch015/q0011_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\frac { 6 } { 9 }\">\\frac { 6 } { 9 }</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/probability/ch015/q0011_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\frac { 7 } { 10 }\">\\frac { 7 } { 10 }</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/probability/ch015/q0011_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\frac { 6 } { 10 }\">\\frac { 6 } { 10 }</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/probability/ch015/q0011_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\frac { 7 } { 9 }\">\\frac { 7 } { 9 }</span>"
         }
       ],
       "answer": "A",
       "answer_index": 0,
-      "analysis_html": "<img src=\"/static/generated/assets/probability/ch015/q0011_analysis.png\"/>"
+      "analysis_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{array}{l} \\text {设} \\; A = \\{ \\text {第一次取到一等品} \\} \\; , \\; \\; B = \\{ \\text {第二次取到一等品} \\} \\; , \\\\ \\text {则} \\; P(B|A) = \\frac{7-1}{10-1} = \\frac{6}{9} \\; . \\end{array}\">\\begin{array}{l} \\text {设} \\; A = \\{ \\text {第一次取到一等品} \\} \\; , \\; \\; B = \\{ \\text {第二次取到一等品} \\} \\; , \\\\ \\text {则} \\; P(B|A) = \\frac{7-1}{10-1} = \\frac{6}{9} \\; . \\end{array}</div>"
     },
     {
       "id": "q0012",
       "number": 12,
       "header": "#12-Easy",
       "difficulty": "Easy",
-      "prompt_html": "<img src=\"/static/generated/assets/probability/ch015/q0012_prompt.png\"/>",
+      "prompt_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{aligned}\\text{一批零件共}100\\text{个}，\\text{次品率为}10\\% ,\\text{每次从中任取一个零件，取后不放回，如果取到一个合格品就不再取下去，则在三次内取到合格品的概率为( ).}\\end{aligned}\">\\begin{aligned}\\text{一批零件共}100\\text{个}，\\text{次品率为}10\\% ,\\text{每次从中任取一个零件，取后不放回，如果取到一个合格品就不再取下去，则在三次内取到合格品的概率为( ).}\\end{aligned}</div>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/probability/ch015/q0012_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"0.9993\">0.9993</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/probability/ch015/q0012_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"0.2514\">0.2514</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/probability/ch015/q0012_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"0.8866\">0.8866</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/probability/ch015/q0012_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"0.5657\">0.5657</span>"
         }
       ],
       "answer": "A",
       "answer_index": 0,
-      "analysis_html": "<img src=\"/static/generated/assets/probability/ch015/q0012_analysis.png\"/>"
+      "analysis_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{aligned} \\text{设 } A_{i}(i=1,2,3) \\text{ 表示“第 } i \\text{ 次取到合格品”的事件，} A \\text{ 表示“在三次内取到合格品”的事件，则有} \\\\ A=A_{1}\\cup A_{2}\\cup A_{3}\\setminus A_{1}\\overline{A_{2}A_{3}}, \\\\ \\text{等号右边三项两互斥，因此} \\\\ P(A)=P(A_{1})+P(A_{1}\\overline{A_{2}})+P(A_{1}\\overline{A_{3}})\\overline{P(A_{2}\\overline{A_{3}})}+P(A_{1}\\overline{A_{3}})\\overline{P(A_{2}\\overline{A_{3}})}\\\\ =\\frac{90}{100}+\\frac{10}{100}\\times \\frac{90}{99}+\\frac{10}{100}\\times \\frac{9}{99}\\times \\frac{90}{98}\\approx 0.9993. \\\\ \\text{从对立事件的角度考虑，我们可以得到另一种更简单的解法.} \\\\ \\text{因为 } A \\text{ 表示“三次都取到次品”的事件，即 } \\overline{A}=A_{1}\\overline{A_{2}}\\overline{A_{3}}, \\\\ \\text{因此 } P(\\overline{A})=P(\\overline{A_{1}}\\overline{A_{2}}\\overline{A_{3}})=P(\\overline{A_{1}})P(\\overline{A_{2}}\\overline{A_{3}})P(\\overline{A_{3}}\\overline{A_{1}}\\overline{A_{2}})=\\frac{10}{100}\\times \\frac{9}{99}\\times \\frac{8}{98}\\approx 0.0007, \\\\ \\text{所以：} \\quad P(A)=1-P(\\overline{A})=0.9993.\\end{aligned}\">\\begin{aligned} \\text{设 } A_{i}(i=1,2,3) \\text{ 表示“第 } i \\text{ 次取到合格品”的事件，} A \\text{ 表示“在三次内取到合格品”的事件，则有} \\\\ A=A_{1}\\cup A_{2}\\cup A_{3}\\setminus A_{1}\\overline{A_{2}A_{3}}, \\\\ \\text{等号右边三项两互斥，因此} \\\\ P(A)=P(A_{1})+P(A_{1}\\overline{A_{2}})+P(A_{1}\\overline{A_{3}})\\overline{P(A_{2}\\overline{A_{3}})}+P(A_{1}\\overline{A_{3}})\\overline{P(A_{2}\\overline{A_{3}})}\\\\ =\\frac{90}{100}+\\frac{10}{100}\\times \\frac{90}{99}+\\frac{10}{100}\\times \\frac{9}{99}\\times \\frac{90}{98}\\approx 0.9993. \\\\ \\text{从对立事件的角度考虑，我们可以得到另一种更简单的解法.} \\\\ \\text{因为 } A \\text{ 表示“三次都取到次品”的事件，即 } \\overline{A}=A_{1}\\overline{A_{2}}\\overline{A_{3}}, \\\\ \\text{因此 } P(\\overline{A})=P(\\overline{A_{1}}\\overline{A_{2}}\\overline{A_{3}})=P(\\overline{A_{1}})P(\\overline{A_{2}}\\overline{A_{3}})P(\\overline{A_{3}}\\overline{A_{1}}\\overline{A_{2}})=\\frac{10}{100}\\times \\frac{9}{99}\\times \\frac{8}{98}\\approx 0.0007, \\\\ \\text{所以：} \\quad P(A)=1-P(\\overline{A})=0.9993.\\end{aligned}</div>"
     },
     {
       "id": "q0013",
       "number": 13,
       "header": "#13-Easy",
       "difficulty": "Easy",
-      "prompt_html": "<img src=\"/static/generated/assets/probability/ch015/q0013_prompt.png\"/>",
+      "prompt_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{array}{l} \\text {在参加某课程学习的学生中，甲班有30名，乙班有35名，丙班有36名。该课程考试后，甲、乙、丙3个班各有10、9、11名学生获优等。若在甲、乙、丙3个班的所有学生中抽1名，知该生成绩为优等，则该生来自乙班的概率是()。} \\end{array}\">\\begin{array}{l} \\text {在参加某课程学习的学生中，甲班有30名，乙班有35名，丙班有36名。该课程考试后，甲、乙、丙3个班各有10、9、11名学生获优等。若在甲、乙、丙3个班的所有学生中抽1名，知该生成绩为优等，则该生来自乙班的概率是()。} \\end{array}</div>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/probability/ch015/q0013_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\frac { 9 } { 30 }\">\\frac { 9 } { 30 }</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/probability/ch015/q0013_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\frac { 10 } { 30 }\">\\frac { 10 } { 30 }</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/probability/ch015/q0013_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\frac { 11 } { 30 }\">\\frac { 11 } { 30 }</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/probability/ch015/q0013_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\frac { 9 } { 101 }\">\\frac { 9 } { 101 }</span>"
         }
       ],
       "answer": "A",
       "answer_index": 0,
-      "analysis_html": "<img src=\"/static/generated/assets/probability/ch015/q0013_analysis.png\"/>"
+      "analysis_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{aligned}&amp; \\text{令 } B=\\{ \\text{抽到学生来自乙班}\\},\\ A=\\{ \\text{抽到学生成绩优等}\\}. \\text{则可知题目即是求条件概率 } P(B|A), \\\\&amp; \\text{可依定义求 } P(B|A)=\\frac{9}{10+9+11}=\\frac{9}{30}. \\\\&amp; \\text{此题若用公式 } P(B|A)=\\frac{P(AB)}{P(A)} \\text{亦可求，} \\\\&amp; \\text{有 } P(B|A)=\\frac{9}{30+35+36}\\bigg/\\frac{10+9+11}{30+35+36}=\\frac{9}{30}.\\end{aligned}\">\\begin{aligned}&amp; \\text{令 } B=\\{ \\text{抽到学生来自乙班}\\},\\ A=\\{ \\text{抽到学生成绩优等}\\}. \\text{则可知题目即是求条件概率 } P(B|A), \\\\&amp; \\text{可依定义求 } P(B|A)=\\frac{9}{10+9+11}=\\frac{9}{30}. \\\\&amp; \\text{此题若用公式 } P(B|A)=\\frac{P(AB)}{P(A)} \\text{亦可求，} \\\\&amp; \\text{有 } P(B|A)=\\frac{9}{30+35+36}\\bigg/\\frac{10+9+11}{30+35+36}=\\frac{9}{30}.\\end{aligned}</div>"
     },
     {
       "id": "q0014",
       "number": 14,
       "header": "#14-Easy",
       "difficulty": "Easy",
-      "prompt_html": "<img src=\"/static/generated/assets/probability/ch015/q0014_prompt.png\"/>",
+      "prompt_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{array}{l} \\text {设袋中装有} a \\text {只红球，} b \\text {只白球，每次自袋中任取一只球，观察颜色后放回，并同时再放入} m \\text {只与所取出的那只同色的球，连续在袋中取球四次，试求第一，二次取到红球且第三次取白球，第四次取红球的概率为()}. \\end{array}\">\\begin{array}{l} \\text {设袋中装有} a \\text {只红球，} b \\text {只白球，每次自袋中任取一只球，观察颜色后放回，并同时再放入} m \\text {只与所取出的那只同色的球，连续在袋中取球四次，试求第一，二次取到红球且第三次取白球，第四次取红球的概率为()}. \\end{array}</div>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/probability/ch015/q0014_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\frac{a+2m}{a+b+3m}\\cdot\\frac{b}{a+b+2m}\\cdot\\frac{a+m}{a+b+m}\\cdot\\frac{a}{a+b}\">\\frac{a+2m}{a+b+3m}\\cdot\\frac{b}{a+b+2m}\\cdot\\frac{a+m}{a+b+m}\\cdot\\frac{a}{a+b}</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/probability/ch015/q0014_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\frac { a + 2 m } { a + b + 3 m } \\cdot \\frac { a + m } { a + b + m } \\cdot \\frac { a } { a + b }\">\\frac { a + 2 m } { a + b + 3 m } \\cdot \\frac { a + m } { a + b + m } \\cdot \\frac { a } { a + b }</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/probability/ch015/q0014_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\frac {a + 2 m } { a + b + 3 m } \\cdot \\frac { b } { a + b + 2 m } \\cdot \\frac { a } { a + b }\">\\frac {a + 2 m } { a + b + 3 m } \\cdot \\frac { b } { a + b + 2 m } \\cdot \\frac { a } { a + b }</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/probability/ch015/q0014_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\frac{b}{a+b+2m}\\cdot\\frac{a+m}{a+b+m}\\cdot\\frac{a}{a+b}\">\\frac{b}{a+b+2m}\\cdot\\frac{a+m}{a+b+m}\\cdot\\frac{a}{a+b}</span>"
         }
       ],
       "answer": "A",
       "answer_index": 0,
-      "analysis_html": "<img src=\"/static/generated/assets/probability/ch015/q0014_analysis.png\"/>"
+      "analysis_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{aligned}\\text{设 } A_{i}\\text{“第 } i\\text{次取到红球”},\\ \\overline{A}_{i}\\text{“第 } i\\text{次取到白球”},\\ i=1,2,\\,3,\\,4\\\\ \\text{所求概率为：}\\ \\ P(A_{1}A_{2}\\overline{A_{3}}A_{4})=P(A_{4}|A_{1}\\overline{A_{2}A_{3}})P(\\overline{A_{3}}|A_{1}A_{2})P(A_{2}|A_{1})P(A_{1})\\\\=\\frac{a+2m}{a+b+3m}\\cdot \\frac{b}{a+b+2m}\\cdot \\frac{a+m}{a+b+m}\\cdot \\frac{a}{a+b}.\\end{aligned}\">\\begin{aligned}\\text{设 } A_{i}\\text{“第 } i\\text{次取到红球”},\\ \\overline{A}_{i}\\text{“第 } i\\text{次取到白球”},\\ i=1,2,\\,3,\\,4\\\\ \\text{所求概率为：}\\ \\ P(A_{1}A_{2}\\overline{A_{3}}A_{4})=P(A_{4}|A_{1}\\overline{A_{2}A_{3}})P(\\overline{A_{3}}|A_{1}A_{2})P(A_{2}|A_{1})P(A_{1})\\\\=\\frac{a+2m}{a+b+3m}\\cdot \\frac{b}{a+b+2m}\\cdot \\frac{a+m}{a+b+m}\\cdot \\frac{a}{a+b}.\\end{aligned}</div>"
     },
     {
       "id": "q0015",
       "number": 15,
       "header": "#15-Easy",
       "difficulty": "Easy",
-      "prompt_html": "<img src=\"/static/generated/assets/probability/ch015/q0015_prompt.png\"/>",
+      "prompt_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{aligned} \\text{从一副扑克牌中连抽两张，则(1)两张牌均为红色的概率是( )；(2)第1张牌为红色、第2张牌为黑色的概率是( ).} \\end{aligned}\">\\begin{aligned} \\text{从一副扑克牌中连抽两张，则(1)两张牌均为红色的概率是( )；(2)第1张牌为红色、第2张牌为黑色的概率是( ).} \\end{aligned}</div>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/probability/ch015/q0015_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\frac {25}{102} \\, , \\ \\frac {26}{102}\">\\frac {25}{102} \\, , \\ \\frac {26}{102}</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/probability/ch015/q0015_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\frac {26}{102} \\, , \\; \\; \\frac {26}{102}\">\\frac {26}{102} \\, , \\; \\; \\frac {26}{102}</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/probability/ch015/q0015_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\frac {25}{102} \\, , \\ \\frac {25}{102}\">\\frac {25}{102} \\, , \\ \\frac {25}{102}</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/probability/ch015/q0015_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\frac { 26 } { 102 } \\, , \\; \\frac { 25 } { 102 } \\, ,\">\\frac { 26 } { 102 } \\, , \\; \\frac { 25 } { 102 } \\, ,</span>"
         }
       ],
       "answer": "A",
       "answer_index": 0,
-      "analysis_html": "<img src=\"/static/generated/assets/probability/ch015/q0015_analysis.png\"/>"
+      "analysis_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{array}{l} \\text {(1)令}A=\\{\\text {第1张牌为红色}\\},\\quad B=\\{\\text {第2张牌为红色}\\}, \\text {所求的概率为} \\\\ P(AB)=P(A)P(B|A)=\\frac{26}{52}\\times \\frac{25}{51}=\\frac{25}{102}. \\\\ \\text {(2)令}A=\\{\\text {第1张牌为红色}\\},\\quad B=\\{\\text {第2张牌为黑色}\\}, \\text {所求概率为} \\\\ P(AB)=P(A)P(B|A)=\\frac{26}{52}\\times \\frac{26}{51}=\\frac{26}{102}. \\end{array}\">\\begin{array}{l} \\text {(1)令}A=\\{\\text {第1张牌为红色}\\},\\quad B=\\{\\text {第2张牌为红色}\\}, \\text {所求的概率为} \\\\ P(AB)=P(A)P(B|A)=\\frac{26}{52}\\times \\frac{25}{51}=\\frac{25}{102}. \\\\ \\text {(2)令}A=\\{\\text {第1张牌为红色}\\},\\quad B=\\{\\text {第2张牌为黑色}\\}, \\text {所求概率为} \\\\ P(AB)=P(A)P(B|A)=\\frac{26}{52}\\times \\frac{26}{51}=\\frac{26}{102}. \\end{array}</div>"
     },
     {
       "id": "q0016",
       "number": 16,
       "header": "#16-Easy",
       "difficulty": "Easy",
-      "prompt_html": "<img src=\"/static/generated/assets/probability/ch015/q0016_prompt.png\"/>",
+      "prompt_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{aligned}10\\text{个考签中有}4\\text{个难签}，3\\text{人参加抽签考试}，\\text{不重复地抽取}，\\text{每人一次}，\\text{甲先}，\\text{乙次}，\\text{丙最后}，\\text{下列说法正确的是}() .\\end{aligned}\">\\begin{aligned}10\\text{个考签中有}4\\text{个难签}，3\\text{人参加抽签考试}，\\text{不重复地抽取}，\\text{每人一次}，\\text{甲先}，\\text{乙次}，\\text{丙最后}，\\text{下列说法正确的是}() .\\end{aligned}</div>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/probability/ch015/q0016_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{3人抽到难签的概率相等}\">\\text{3人抽到难签的概率相等}</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/probability/ch015/q0016_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{甲抽到难签的概率大}\">\\text{甲抽到难签的概率大}</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/probability/ch015/q0016_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{乙抽到难签的概率大}\">\\text{乙抽到难签的概率大}</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/probability/ch015/q0016_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{丙抽到难签的概率大}\">\\text{丙抽到难签的概率大}</span>"
         }
       ],
       "answer": "A",
       "answer_index": 0,
-      "analysis_html": "<img src=\"/static/generated/assets/probability/ch015/q0016_analysis.png\"/>"
+      "analysis_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{aligned} \\text{记事件}A、B、C\\text{分别表示甲}、\\text{乙}、\\text{丙抽到难签}，\\text{于是}P(A) = \\frac{4}{10} = \\frac{2}{5}, \\\\ \\text{而事件}B = AB \\cup \\overline{A}B, \\text{由于} (AB) (\\overline{A}B) = \\varnothing, \\text{所以} \\\\ P(B) = P(AB) + P(\\overline{A}B) = P(A)P(B|A) + P(A)P(\\overline{B}.A) \\\\ = \\frac{4}{10} \\times \\frac{3}{9} + \\frac{6}{10} \\times \\frac{4}{9} = \\frac{2}{5}, \\\\ \\text{又因为} C = ABC \\cup \\overline{ABC} \\cup \\overline{A}BC \\cup \\overline{A} \\overline{B}C, \\text{且} ABC、\\overline{A}BC、\\overline{A}BC、\\overline{A}BC \\text{两两互斥},\\text{所以} \\\\ P(C) = P(ABC) + P(\\overline{A}BC) + P(\\overline{A}BC) + P(\\overline{A}BC) \\\\ = \\frac{4}{10} \\times \\frac{3}{9} \\times \\frac{2}{8} + \\frac{6}{10} \\times \\frac{4}{9} \\times \\frac{3}{8} + \\frac{4}{10} \\times \\frac{6}{9} \\times \\frac{3}{8} + \\frac{6}{10} \\times \\frac{5}{9} \\times \\frac{4}{8} = \\frac{2}{5}, \\\\ \\text{显然} P(A) = P(B) = P(C), \\text{说明3人抽到难签的概率相等。} \\end{aligned}\">\\begin{aligned} \\text{记事件}A、B、C\\text{分别表示甲}、\\text{乙}、\\text{丙抽到难签}，\\text{于是}P(A) = \\frac{4}{10} = \\frac{2}{5}, \\\\ \\text{而事件}B = AB \\cup \\overline{A}B, \\text{由于} (AB) (\\overline{A}B) = \\varnothing, \\text{所以} \\\\ P(B) = P(AB) + P(\\overline{A}B) = P(A)P(B|A) + P(A)P(\\overline{B}.A) \\\\ = \\frac{4}{10} \\times \\frac{3}{9} + \\frac{6}{10} \\times \\frac{4}{9} = \\frac{2}{5}, \\\\ \\text{又因为} C = ABC \\cup \\overline{ABC} \\cup \\overline{A}BC \\cup \\overline{A} \\overline{B}C, \\text{且} ABC、\\overline{A}BC、\\overline{A}BC、\\overline{A}BC \\text{两两互斥},\\text{所以} \\\\ P(C) = P(ABC) + P(\\overline{A}BC) + P(\\overline{A}BC) + P(\\overline{A}BC) \\\\ = \\frac{4}{10} \\times \\frac{3}{9} \\times \\frac{2}{8} + \\frac{6}{10} \\times \\frac{4}{9} \\times \\frac{3}{8} + \\frac{4}{10} \\times \\frac{6}{9} \\times \\frac{3}{8} + \\frac{6}{10} \\times \\frac{5}{9} \\times \\frac{4}{8} = \\frac{2}{5}, \\\\ \\text{显然} P(A) = P(B) = P(C), \\text{说明3人抽到难签的概率相等。} \\end{aligned}</div>"
     },
     {
       "id": "q0017",
       "number": 17,
       "header": "#17-Hard",
       "difficulty": "Hard",
-      "prompt_html": "<img src=\"/static/generated/assets/probability/ch015/q0017_prompt.png\"/>",
+      "prompt_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{aligned} \\text{轰炸机要完成它的使命，驾驶员必须要找到目标，同时投弹员必须要投中目标。设驾驶员甲、乙找到目标的概率分别为0.9、0.8；投弹员丙、丁在找到目标的条件下投中的概率分别为0.7、0.6，现在要配备两组轰炸人员，轰炸同一目标，下列说法正确的是()。} \\end{aligned}\">\\begin{aligned} \\text{轰炸机要完成它的使命，驾驶员必须要找到目标，同时投弹员必须要投中目标。设驾驶员甲、乙找到目标的概率分别为0.9、0.8；投弹员丙、丁在找到目标的条件下投中的概率分别为0.7、0.6，现在要配备两组轰炸人员，轰炸同一目标，下列说法正确的是()。} \\end{aligned}</div>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/probability/ch015/q0017_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{甲与丙一组，乙与丁一组能炸毁目标的概率为} 0.8076\">\\text{甲与丙一组，乙与丁一组能炸毁目标的概率为} 0.8076</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/probability/ch015/q0017_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{甲与丙一组，乙与丁一组能炸毁目标的概率为} \\ 0.7976_{+}\">\\text{甲与丙一组，乙与丁一组能炸毁目标的概率为} \\ 0.7976_{+}</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/probability/ch015/q0017_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{甲与丙一组，乙与丁一组能炸毁目标的概率为} \\ 0.5388.\">\\text{甲与丙一组，乙与丁一组能炸毁目标的概率为} \\ 0.5388.</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/probability/ch015/q0017_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{甲与丙一组，乙与丁一组能炸毁目标的概率为} \\ 0.8376\">\\text{甲与丙一组，乙与丁一组能炸毁目标的概率为} \\ 0.8376</span>"
         }
       ],
       "answer": "A",
       "answer_index": 0,
-      "analysis_html": "<img src=\"/static/generated/assets/probability/ch015/q0017_analysis.png\"/>"
+      "analysis_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{aligned}(1) \\text{甲丙搭配，乙丁搭配} \\quad&amp; P(W)=P(\\text{甲丙机命中})+P(\\text{乙丁机命中})-P(\\text{两机均命中}) \\\\&amp;=P(A_{1})\\cdot P(B_{1}|A_{1})+P(A_{2})\\cdot P(B_{2},A_{2})-P(A_{1})\\cdot P(B_{1}|A_{1})\\cdot P(A_{2})\\cdot P(B_{2}|A_{2}) \\\\&amp;=0.9\\times 0.7+0.8\\times 0.6-0.9\\times 0.7\\times 0.8\\times 0.6=0.8076.\\\\ \\text{注意：“两机均命中”指甲找到目标，丙投中目标而且乙找到目标，丁投中目标.} 2) \\text{甲丁搭配，乙丙搭配} \\quad&amp; P(W)=P(\\text{甲丁机命中})+P(\\text{乙丙机命中})-P(\\text{两机均命中}) \\\\&amp;=0.9\\times 0.6+0.8\\times 0.7-0.9\\times 0.6\\times 0.8\\times 0.7=0.7976.\\\\ \\text{所以甲丙搭配，乙丁搭配好，此时命中率为}0.8076.\\end{aligned}\">\\begin{aligned}(1) \\text{甲丙搭配，乙丁搭配} \\quad&amp; P(W)=P(\\text{甲丙机命中})+P(\\text{乙丁机命中})-P(\\text{两机均命中}) \\\\&amp;=P(A_{1})\\cdot P(B_{1}|A_{1})+P(A_{2})\\cdot P(B_{2},A_{2})-P(A_{1})\\cdot P(B_{1}|A_{1})\\cdot P(A_{2})\\cdot P(B_{2}|A_{2}) \\\\&amp;=0.9\\times 0.7+0.8\\times 0.6-0.9\\times 0.7\\times 0.8\\times 0.6=0.8076.\\\\ \\text{注意：“两机均命中”指甲找到目标，丙投中目标而且乙找到目标，丁投中目标.} 2) \\text{甲丁搭配，乙丙搭配} \\quad&amp; P(W)=P(\\text{甲丁机命中})+P(\\text{乙丙机命中})-P(\\text{两机均命中}) \\\\&amp;=0.9\\times 0.6+0.8\\times 0.7-0.9\\times 0.6\\times 0.8\\times 0.7=0.7976.\\\\ \\text{所以甲丙搭配，乙丁搭配好，此时命中率为}0.8076.\\end{aligned}</div>"
     },
     {
       "id": "q0018",
       "number": 18,
       "header": "#18-Easy",
       "difficulty": "Easy",
-      "prompt_html": "<img src=\"/static/generated/assets/probability/ch015/q0018_prompt.png\"/>",
+      "prompt_html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\frac{1}{2} \\times \\frac{1}{2} = \\frac{1}{4}\">\\frac{1}{2} \\times \\frac{1}{2} = \\frac{1}{4}</span>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/probability/ch015/q0018_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\frac { 1 } { 2 }\">\\frac { 1 } { 2 }</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/probability/ch015/q0018_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\frac { 1 } { 3 }\">\\frac { 1 } { 3 }</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/probability/ch015/q0018_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\frac { 1 } { 4 }\">\\frac { 1 } { 4 }</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/probability/ch015/q0018_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\frac { 1 } { 5 }\">\\frac { 1 } { 5 }</span>"
         }
       ],
       "answer": "A",
       "answer_index": 0,
-      "analysis_html": "<img src=\"/static/generated/assets/probability/ch015/q0018_analysis.png\"/>"
+      "analysis_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{aligned}&amp;\\text{设 }A_{1}=\\{\\text{取到的两个球同是白球}\\}\\;,\\;A_{2}=\\{\\text{取到的两个球同是黑球}\\}\\;,\\;B=\\{\\text{取到两个球是同一颜色}\\}\\;,\\;\\text{显然}\\\\&amp;B=A_{1}\\cup A_{2}\\;,\\;P(A_{1})=\\frac{C_{2}^{2}}{C_{2}^{2}}\\frac{C_{2}^{2}}{C_{2}^{2}}\\;,\\;P(A_{2})=\\frac{C_{3}^{2}}{C_{3}^{2}}\\frac{C_{3}^{2}}{C_{3}^{2}}\\;,\\;\\text{所以}P(A_{1})=P(A_{2})\\;.\\end{aligned}\">\\begin{aligned}&amp;\\text{设 }A_{1}=\\{\\text{取到的两个球同是白球}\\}\\;,\\;A_{2}=\\{\\text{取到的两个球同是黑球}\\}\\;,\\;B=\\{\\text{取到两个球是同一颜色}\\}\\;,\\;\\text{显然}\\\\&amp;B=A_{1}\\cup A_{2}\\;,\\;P(A_{1})=\\frac{C_{2}^{2}}{C_{2}^{2}}\\frac{C_{2}^{2}}{C_{2}^{2}}\\;,\\;P(A_{2})=\\frac{C_{3}^{2}}{C_{3}^{2}}\\frac{C_{3}^{2}}{C_{3}^{2}}\\;,\\;\\text{所以}P(A_{1})=P(A_{2})\\;.\\end{aligned}</div>"
     },
     {
       "id": "q0019",
       "number": 19,
       "header": "#19-Easy",
       "difficulty": "Easy",
-      "prompt_html": "<img src=\"/static/generated/assets/probability/ch015/q0019_prompt.png\"/>",
+      "prompt_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{aligned} \\text{某厂产品中有}4 \\% \\text{是废品，而在}100 \\text{件合格品中只有}75 \\text{件是一等品，则从产品}80 \\text{件中任取一件产品，取得一等品的概率是}(\\text{}).\\end{aligned}\">\\begin{aligned} \\text{某厂产品中有}4 \\% \\text{是废品，而在}100 \\text{件合格品中只有}75 \\text{件是一等品，则从产品}80 \\text{件中任取一件产品，取得一等品的概率是}(\\text{}).\\end{aligned}</div>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/probability/ch015/q0019_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"0.72\">0.72</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/probability/ch015/q0019_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"0.75\">0.75</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/probability/ch015/q0019_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"0.80\">0.80</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/probability/ch015/q0019_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"0.96\">0.96</span>"
         }
       ],
       "answer": "A",
       "answer_index": 0,
-      "analysis_html": "<img src=\"/static/generated/assets/probability/ch015/q0019_analysis.png\"/>"
+      "analysis_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{aligned}&amp;\\text{设}A=\\{ \\text{取得的产品是合格品}\\},\\ B=\\{ \\text{取得产品是一等品}\\},\\\\&amp;\\text{显然}B\\subset A,\\text{且}P(A)=1-4\\%=0.96,\\ P(B|A)=\\frac{75}{100}=\\frac{3}{4},\\\\&amp;\\text{根据乘法公式有}P(B)=P(AB)=P(A)P(B|A)=0.96\\times\\frac{3}{4}=0.72\\,.\\end{aligned}\">\\begin{aligned}&amp;\\text{设}A=\\{ \\text{取得的产品是合格品}\\},\\ B=\\{ \\text{取得产品是一等品}\\},\\\\&amp;\\text{显然}B\\subset A,\\text{且}P(A)=1-4\\%=0.96,\\ P(B|A)=\\frac{75}{100}=\\frac{3}{4},\\\\&amp;\\text{根据乘法公式有}P(B)=P(AB)=P(A)P(B|A)=0.96\\times\\frac{3}{4}=0.72\\,.\\end{aligned}</div>"
     },
     {
       "id": "q0020",
       "number": 20,
       "header": "#20-Easy",
       "difficulty": "Easy",
-      "prompt_html": "<img src=\"/static/generated/assets/probability/ch015/q0020_prompt.png\"/>",
+      "prompt_html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{设口袋中装有}2n-1\\text{只白球，}2n\\text{只黑球，一次取出}n\\text{只球，如果已知取出的球都是同一种颜色，则计算该颜色是黑色的概率为}(\\text{.})\">\\text{设口袋中装有}2n-1\\text{只白球，}2n\\text{只黑球，一次取出}n\\text{只球，如果已知取出的球都是同一种颜色，则计算该颜色是黑色的概率为}(\\text{.})</span>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/probability/ch015/q0020_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\frac { 2 } { 3 }\">\\frac { 2 } { 3 }</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/probability/ch015/q0020_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\frac { 1 } { 4 }\">\\frac { 1 } { 4 }</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/probability/ch015/q0020_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\frac { 1 } { 2 }\">\\frac { 1 } { 2 }</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/probability/ch015/q0020_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\frac { 1 } { 3 }\">\\frac { 1 } { 3 }</span>"
         }
       ],
       "answer": "A",
       "answer_index": 0,
-      "analysis_html": "<img src=\"/static/generated/assets/probability/ch015/q0020_analysis.png\"/>"
+      "analysis_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{aligned} &amp; \\text{设 } A \\text{ “取出的 } n \\text{ 只球均为白球}”，B “\\text{取出的} n \\text{只球均为黑色}” ，C “\\text{取出的} n \\text{只球均为同一种颜色}”. \\text{显然}，A,B \\text{互不相容}，\\text{且有} C=A\\cup B. \\therefore P(C)=P(A)+P(B). \\\\ &amp; \\text{又因 } B\\subset C, \\text{ 则 } B\\cap C=B, P(BC)=P(B) \\\\ &amp; P(A)=\\frac{C_{2n-1}^{n}}{C_{4n-1}^{n}}, \\quad P(B)=\\frac{C_{2n}^{n}}{C_{4n-1}^{n}}. \\\\ &amp; \\therefore P(B|C)=\\frac{P(BC)}{P(C)}=\\frac{P(B)}{P(C)}=\\frac{P(B)}{P(A)+P(B)}=\\frac{C_{2n}^{n}}{C_{2n-1}^{n}+C_{2n}^{n}}=\\frac{2}{3}.\\end{aligned}\">\\begin{aligned} &amp; \\text{设 } A \\text{ “取出的 } n \\text{ 只球均为白球}”，B “\\text{取出的} n \\text{只球均为黑色}” ，C “\\text{取出的} n \\text{只球均为同一种颜色}”. \\text{显然}，A,B \\text{互不相容}，\\text{且有} C=A\\cup B. \\therefore P(C)=P(A)+P(B). \\\\ &amp; \\text{又因 } B\\subset C, \\text{ 则 } B\\cap C=B, P(BC)=P(B) \\\\ &amp; P(A)=\\frac{C_{2n-1}^{n}}{C_{4n-1}^{n}}, \\quad P(B)=\\frac{C_{2n}^{n}}{C_{4n-1}^{n}}. \\\\ &amp; \\therefore P(B|C)=\\frac{P(BC)}{P(C)}=\\frac{P(B)}{P(C)}=\\frac{P(B)}{P(A)+P(B)}=\\frac{C_{2n}^{n}}{C_{2n-1}^{n}+C_{2n}^{n}}=\\frac{2}{3}.\\end{aligned}</div>"
     },
     {
       "id": "q0021",
       "number": 21,
       "header": "#21-Easy",
       "difficulty": "Easy",
-      "prompt_html": "<img src=\"/static/generated/assets/probability/ch015/q0021_prompt.png\"/>",
+      "prompt_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{aligned} \\text{袋中有} 5 \\text{个球，其中} 3 \\text{个红球} 2 \\text{个白球}. \\text{现从袋中不放回地连取两个，已知第一次取得红球时，则第二次取得白球的概率为} ( ). \\end{aligned}\">\\begin{aligned} \\text{袋中有} 5 \\text{个球，其中} 3 \\text{个红球} 2 \\text{个白球}. \\text{现从袋中不放回地连取两个，已知第一次取得红球时，则第二次取得白球的概率为} ( ). \\end{aligned}</div>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/probability/ch015/q0021_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\frac { 1 } { 2 }\">\\frac { 1 } { 2 }</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/probability/ch015/q0021_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\frac { 1 } { 3 }\">\\frac { 1 } { 3 }</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/probability/ch015/q0021_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\frac { 1 } { 4 }\">\\frac { 1 } { 4 }</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/probability/ch015/q0021_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\frac { 1 } { 5 }\">\\frac { 1 } { 5 }</span>"
         }
       ],
       "answer": "A",
       "answer_index": 0,
-      "analysis_html": "<img src=\"/static/generated/assets/probability/ch015/q0021_analysis.png\"/>"
+      "analysis_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{aligned}&amp;\\text{解法一 设 }A \\text{ 表示“第一次取得红球”，}B \\text{ 表示“第二次取得白球”，依题意要求 }P(B|A).\\\\&amp;\\quad\\text{缩减样本空间 }A \\text{ 中的样本点数，即第一次取得红球的取法为 }P_1^1P_4^1,\\text{ 其中，第二次取得白球的取法有 }P_3^1P_2^1 \\text{ 种，}\\\\&amp;\\quad\\text{所以：}P(B|A)=\\frac{P_3^1P_2^1}{P_1^1P_4^1}=\\frac{1}{2}.\\\\&amp;\\quad\\text{也可以直接用公式(1)计算，因为第一次走了一个红球，袋中只剩下4个球，其中有两个白球，再从中任取一个，取得白球的概率为2/4，所以：}P(B|A)=2/4=1/2.\\\\&amp;\\text{解法二 设 }A \\text{ 表示“第一次取得红球”，}B \\text{ 表示“第二次取得白球”，求 }P(B|A).\\\\&amp;\\quad\\text{在5个球中不放回回取两球的取法有 }P_2^2 \\text{ 种，其中，第一次取得红球的取法有 }P_1^1P_4^1 \\text{ 种，第一次取得红球第二次取得白球的取法有 }P_3^1P_3^2 \\text{ 种，所以：}P(A)=\\frac{P_3^1P_1^1}{P_5^2}=\\frac{3}{5},P(AB)=\\frac{P_3^1P_2^1}{P_5^2}=\\frac{3}{10}.\\end{aligned}\">\\begin{aligned}&amp;\\text{解法一 设 }A \\text{ 表示“第一次取得红球”，}B \\text{ 表示“第二次取得白球”，依题意要求 }P(B|A).\\\\&amp;\\quad\\text{缩减样本空间 }A \\text{ 中的样本点数，即第一次取得红球的取法为 }P_1^1P_4^1,\\text{ 其中，第二次取得白球的取法有 }P_3^1P_2^1 \\text{ 种，}\\\\&amp;\\quad\\text{所以：}P(B|A)=\\frac{P_3^1P_2^1}{P_1^1P_4^1}=\\frac{1}{2}.\\\\&amp;\\quad\\text{也可以直接用公式(1)计算，因为第一次走了一个红球，袋中只剩下4个球，其中有两个白球，再从中任取一个，取得白球的概率为2/4，所以：}P(B|A)=2/4=1/2.\\\\&amp;\\text{解法二 设 }A \\text{ 表示“第一次取得红球”，}B \\text{ 表示“第二次取得白球”，求 }P(B|A).\\\\&amp;\\quad\\text{在5个球中不放回回取两球的取法有 }P_2^2 \\text{ 种，其中，第一次取得红球的取法有 }P_1^1P_4^1 \\text{ 种，第一次取得红球第二次取得白球的取法有 }P_3^1P_3^2 \\text{ 种，所以：}P(A)=\\frac{P_3^1P_1^1}{P_5^2}=\\frac{3}{5},P(AB)=\\frac{P_3^1P_2^1}{P_5^2}=\\frac{3}{10}.\\end{aligned}</div>"
     },
     {
       "id": "q0022",
       "number": 22,
       "header": "#22-Easy",
       "difficulty": "Easy",
-      "prompt_html": "<img src=\"/static/generated/assets/probability/ch015/q0022_prompt.png\"/>",
+      "prompt_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{aligned} \\text{对200位成人根据性别与受教育程度的调查，其结果如下表：} \\\\ \\begin{array}{|c|c|c|} \\hline \\text{教育程度} &amp; \\text{男} &amp; \\text{女} \\\\ \\hline \\text{小学} &amp; 38 &amp; 45 \\\\ \\hline \\text{中学} &amp; 28 &amp; 50 \\\\ \\hline \\text{大专} &amp; 22 &amp; 17 \\\\ \\hline \\end{array} \\end{aligned} \\text{随机抽取}1\\text{人}，\\text{知此人为女性}，\\text{则此人不具有大专学历的概率是}（）。\">\\begin{aligned} \\text{对200位成人根据性别与受教育程度的调查，其结果如下表：} \\\\ \\begin{array}{|c|c|c|} \\hline \\text{教育程度} &amp; \\text{男} &amp; \\text{女} \\\\ \\hline \\text{小学} &amp; 38 &amp; 45 \\\\ \\hline \\text{中学} &amp; 28 &amp; 50 \\\\ \\hline \\text{大专} &amp; 22 &amp; 17 \\\\ \\hline \\end{array} \\end{aligned} \\text{随机抽取}1\\text{人}，\\text{知此人为女性}，\\text{则此人不具有大专学历的概率是}（）。</div>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/probability/ch015/q0022_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\frac { 95 } { 112 }\">\\frac { 95 } { 112 }</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/probability/ch015/q0022_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\frac { 17 } { 112 }\">\\frac { 17 } { 112 }</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/probability/ch015/q0022_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\frac { 161 } { 200 }\">\\frac { 161 } { 200 }</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/probability/ch015/q0022_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\frac { 39 } { 200 }\">\\frac { 39 } { 200 }</span>"
         }
       ],
       "answer": "A",
       "answer_index": 0,
-      "analysis_html": "<img src=\"/static/generated/assets/probability/ch015/q0022_analysis.png\"/>"
+      "analysis_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{aligned} \\text{设 } F&amp;=\\{ \\text{抽到的人为女性} \\},\\ C=\\{ \\text{抽到的人不具有大专学历} \\}. \\\\ \\text{可先求 } P(\\overline{C}|F), \\text{即抽到的人具有大专学历的概率，由表知 } P(\\overline{C}|F)=\\frac{17}{45+50+17}=\\frac{17}{112}, \\\\ \\text{故 } P(C|F)&amp;=1-P(\\overline{C}|F)=1-\\frac{17}{112}=\\frac{95}{112}. \\\\ \\text{或者从表上直接可知 } P(C|F)&amp;=\\frac{45+50}{45+50+17}=\\frac{95}{112}.\\end{aligned}\">\\begin{aligned} \\text{设 } F&amp;=\\{ \\text{抽到的人为女性} \\},\\ C=\\{ \\text{抽到的人不具有大专学历} \\}. \\\\ \\text{可先求 } P(\\overline{C}|F), \\text{即抽到的人具有大专学历的概率，由表知 } P(\\overline{C}|F)=\\frac{17}{45+50+17}=\\frac{17}{112}, \\\\ \\text{故 } P(C|F)&amp;=1-P(\\overline{C}|F)=1-\\frac{17}{112}=\\frac{95}{112}. \\\\ \\text{或者从表上直接可知 } P(C|F)&amp;=\\frac{45+50}{45+50+17}=\\frac{95}{112}.\\end{aligned}</div>"
     },
     {
       "id": "q0023",
       "number": 23,
       "header": "#23-Hard",
       "difficulty": "Hard",
-      "prompt_html": "<img src=\"/static/generated/assets/probability/ch015/q0023_prompt.png\"/>",
+      "prompt_html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{某人有两盒火柴，吸烟时从任一盒中取一根火柴，经过若干时间后，发现一盒火柴已用完。如果最初两盒中各有}n \\text{根火柴，则这时另一盒中还有}r \\text{根火柴的概率为}(\\text{.})\">\\text{某人有两盒火柴，吸烟时从任一盒中取一根火柴，经过若干时间后，发现一盒火柴已用完。如果最初两盒中各有}n \\text{根火柴，则这时另一盒中还有}r \\text{根火柴的概率为}(\\text{.})</span>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/probability/ch015/q0023_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\frac { C _ { 2 n - r } ^ { n } } { 2 ^ { 2 n - r } }\">\\frac { C _ { 2 n - r } ^ { n } } { 2 ^ { 2 n - r } }</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/probability/ch015/q0023_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\frac { C _ { 2 n } ^ { n } } { 2 ^ { 2 n - r } }\">\\frac { C _ { 2 n } ^ { n } } { 2 ^ { 2 n - r } }</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/probability/ch015/q0023_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\frac { C _ { 2 n - r } ^ { r } } { 2 ^ { 2 n - r } }\">\\frac { C _ { 2 n - r } ^ { r } } { 2 ^ { 2 n - r } }</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/probability/ch015/q0023_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\frac { C _ { 2 n - r } ^ { n } } { 2 ^ { 2 n } }\">\\frac { C _ { 2 n - r } ^ { n } } { 2 ^ { 2 n } }</span>"
         }
       ],
       "answer": "A",
       "answer_index": 0,
-      "analysis_html": "<img src=\"/static/generated/assets/probability/ch015/q0023_analysis.png\"/>"
+      "analysis_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{aligned}&amp;\\text{不妨设甲盒已空而乙盒还有 }r \\text{ 根火柴，因为是随机抽取，可知这时必已取过 }2n-r \\text{ 次，每次取甲，乙盒的概率均为 } \\frac{1}{2}, \\text{ 而在 }2n-r \\text{ 次中必是 }n \\text{ 次取了甲盒的，}n-r \\text{ 次取了乙盒的，最后第 }2n-r+1 \\text{ 必定是取甲盒的，否则不知其为空盒，故概率为}\\\\&amp;P_1=\\frac{1}{2}C_{2n-r}^n-\\left(\\frac{1}{2}\\right)^n\\left(\\frac{1}{2}\\right)^{n-r}=\\frac{1}{2}C_{2n-r}^n-\\left(\\frac{1}{2}\\right)^{2n-1},\\\\&amp;\\text{同理，最后乙盒空而甲盒剩 }r \\text{ 的概率为：}P_2=\\frac{1}{2}C_{2n-r}^n-\\left(\\frac{1}{2}\\right)^n\\left(\\frac{1}{2}\\right)^{n-r}=\\frac{1}{2}C_{2n-r}^n-\\left(\\frac{1}{2}\\right)^{2n-r},\\\\&amp;\\text{故所求概率为：}P=P_1+P_2=C_{2n-r}^n-\\left(\\frac{1}{2}\\right)^{2n-r}=\\frac{C_{2n-r}^n}{2^{2n-r}}.\\end{aligned}\">\\begin{aligned}&amp;\\text{不妨设甲盒已空而乙盒还有 }r \\text{ 根火柴，因为是随机抽取，可知这时必已取过 }2n-r \\text{ 次，每次取甲，乙盒的概率均为 } \\frac{1}{2}, \\text{ 而在 }2n-r \\text{ 次中必是 }n \\text{ 次取了甲盒的，}n-r \\text{ 次取了乙盒的，最后第 }2n-r+1 \\text{ 必定是取甲盒的，否则不知其为空盒，故概率为}\\\\&amp;P_1=\\frac{1}{2}C_{2n-r}^n-\\left(\\frac{1}{2}\\right)^n\\left(\\frac{1}{2}\\right)^{n-r}=\\frac{1}{2}C_{2n-r}^n-\\left(\\frac{1}{2}\\right)^{2n-1},\\\\&amp;\\text{同理，最后乙盒空而甲盒剩 }r \\text{ 的概率为：}P_2=\\frac{1}{2}C_{2n-r}^n-\\left(\\frac{1}{2}\\right)^n\\left(\\frac{1}{2}\\right)^{n-r}=\\frac{1}{2}C_{2n-r}^n-\\left(\\frac{1}{2}\\right)^{2n-r},\\\\&amp;\\text{故所求概率为：}P=P_1+P_2=C_{2n-r}^n-\\left(\\frac{1}{2}\\right)^{2n-r}=\\frac{C_{2n-r}^n}{2^{2n-r}}.\\end{aligned}</div>"
     },
     {
       "id": "q0024",
       "number": 24,
       "header": "#24-Easy",
       "difficulty": "Easy",
-      "prompt_html": "<img src=\"/static/generated/assets/probability/ch015/q0024_prompt.png\"/>",
+      "prompt_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{aligned}\\text{一袋中装有}10\\text{个球}，\\text{其中}3\\text{个黑球}，7\\text{个白球}，\\text{先后两次从袋中各取一球}(\\text{不放回}). \\quad \\text{已知第一次取出的是黑球}，\\text{则第二次取出的仍是黑球的概率为}\\left(\\right); \\quad \\text{已知第二次取出的是黑球}，\\text{则第一次取出的也是黑球的概率为}\\left(\\right).\\end{aligned}\">\\begin{aligned}\\text{一袋中装有}10\\text{个球}，\\text{其中}3\\text{个黑球}，7\\text{个白球}，\\text{先后两次从袋中各取一球}(\\text{不放回}). \\quad \\text{已知第一次取出的是黑球}，\\text{则第二次取出的仍是黑球的概率为}\\left(\\right); \\quad \\text{已知第二次取出的是黑球}，\\text{则第一次取出的也是黑球的概率为}\\left(\\right).\\end{aligned}</div>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/probability/ch015/q0024_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\frac{2}{9}, \\frac{2}{9}\">\\frac{2}{9}, \\frac{2}{9}</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/probability/ch015/q0024_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\frac{2}{9}, \\frac{1}{15}\">\\frac{2}{9}, \\frac{1}{15}</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/probability/ch015/q0024_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\frac {2}{9}, \\frac {3}{10}\">\\frac {2}{9}, \\frac {3}{10}</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/probability/ch015/q0024_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\frac {2}{9}, \\frac {1}{9}\">\\frac {2}{9}, \\frac {1}{9}</span>"
         }
       ],
       "answer": "A",
       "answer_index": 0,
-      "analysis_html": "<img src=\"/static/generated/assets/probability/ch015/q0024_analysis.png\"/>"
+      "analysis_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{aligned} &amp; \\text{记}A_{i} \\text{为事件“第}i \\text{次取到的是黑球} (i=1,2). \\\\ &amp; (1) \\text{在已知} A_{i} \\text{发生，即第一次取到的是黑球的条件下，第二次取球就在剩下的2个黑球、7个白球共9个球中任取一个，根据古典概率计算，取到黑球的概率为2/9，即有：} P(A_{i}|A_{1})=2/9. \\\\ &amp; (2) \\text{在已知} A_{i} \\text{发生，即第二次取到的黑球的条件下，求第一次取到黑球的概率. 但第一次取球发生在第二次取球之前，故问题的结构不像(1)那么直观. 我们可按定义计算更方便一些. 由} \\\\ &amp; P(A_{1}A_{2})=\\frac{P_{1}^{2}}{P_{10}^{2}}=\\frac{1}{15}, P(A_{2})=\\frac{3}{10} \\Rightarrow P(A_{1}|A_{2})=\\frac{P(A_{1}A_{2})}{P(A_{2})}=\\frac{2}{9}. \\end{aligned}\">\\begin{aligned} &amp; \\text{记}A_{i} \\text{为事件“第}i \\text{次取到的是黑球} (i=1,2). \\\\ &amp; (1) \\text{在已知} A_{i} \\text{发生，即第一次取到的是黑球的条件下，第二次取球就在剩下的2个黑球、7个白球共9个球中任取一个，根据古典概率计算，取到黑球的概率为2/9，即有：} P(A_{i}|A_{1})=2/9. \\\\ &amp; (2) \\text{在已知} A_{i} \\text{发生，即第二次取到的黑球的条件下，求第一次取到黑球的概率. 但第一次取球发生在第二次取球之前，故问题的结构不像(1)那么直观. 我们可按定义计算更方便一些. 由} \\\\ &amp; P(A_{1}A_{2})=\\frac{P_{1}^{2}}{P_{10}^{2}}=\\frac{1}{15}, P(A_{2})=\\frac{3}{10} \\Rightarrow P(A_{1}|A_{2})=\\frac{P(A_{1}A_{2})}{P(A_{2})}=\\frac{2}{9}. \\end{aligned}</div>"
     },
     {
       "id": "q0025",
       "number": 25,
       "header": "#25-Easy",
       "difficulty": "Easy",
-      "prompt_html": "<img src=\"/static/generated/assets/probability/ch015/q0025_prompt.png\"/>",
+      "prompt_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{aligned}\\text{一盒子中有4只坏晶体管和6只好晶体管，在其中取两次，每次随机取一只（取后不放回），若已知第一只取到是好的，则第二只取到也是好的概率是（）.}\\end{aligned}\">\\begin{aligned}\\text{一盒子中有4只坏晶体管和6只好晶体管，在其中取两次，每次随机取一只（取后不放回），若已知第一只取到是好的，则第二只取到也是好的概率是（）.}\\end{aligned}</div>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/probability/ch015/q0025_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\frac { 5 } { 9 }\">\\frac { 5 } { 9 }</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/probability/ch015/q0025_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\frac { 1 } { 9 }\">\\frac { 1 } { 9 }</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/probability/ch015/q0025_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\frac { 1 } { 3 }\">\\frac { 1 } { 3 }</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/probability/ch015/q0025_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\frac { 7 } { 9 }\">\\frac { 7 } { 9 }</span>"
         }
       ],
       "answer": "A",
       "answer_index": 0,
-      "analysis_html": "<img src=\"/static/generated/assets/probability/ch015/q0025_analysis.png\"/>"
+      "analysis_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{array}{l} \\text{设事件}A: “\\text{第一只取到是好的}”, \\text{事件}B: “\\text{第二只取到是好的}”, \\\\ \\text{则}P(A)=\\frac{6}{10},\\ P(AB)=\\frac{C_{6}^{2}}{C_{10}^{2}}=\\frac{1}{3}, \\\\ \\text{所以由条件概率公式得}P(B|A)=\\frac{P(AB)}{P(A)}=\\frac{5}{9}. \\end{array}\">\\begin{array}{l} \\text{设事件}A: “\\text{第一只取到是好的}”, \\text{事件}B: “\\text{第二只取到是好的}”, \\\\ \\text{则}P(A)=\\frac{6}{10},\\ P(AB)=\\frac{C_{6}^{2}}{C_{10}^{2}}=\\frac{1}{3}, \\\\ \\text{所以由条件概率公式得}P(B|A)=\\frac{P(AB)}{P(A)}=\\frac{5}{9}. \\end{array}</div>"
     }
-  ]
+  ],
+  "format": "latex",
+  "source_md": "gl/1.4.2.2_条件概率的应用计算(25题)/1.4.2.2_条件概率的应用计算(25题).md"
 }

@@ -13,896 +13,898 @@
       "number": 1,
       "header": "#1-Averge",
       "difficulty": "Averge",
-      "prompt_html": "<img src=\"/static/generated/assets/advanced-math/ch059/q0001_prompt.png\"/>",
+      "prompt_html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{极限} \\lim_{n \\rightarrow \\infty} ( \\frac{1}{n+1} + \\frac{1}{n+2} + \\cdots + \\frac{1}{n+n}) \\text{ 可以表示为( } \\ \\ )\">\\text{极限} \\lim_{n \\rightarrow \\infty} ( \\frac{1}{n+1} + \\frac{1}{n+2} + \\cdots + \\frac{1}{n+n}) \\text{ 可以表示为( } \\ \\ )</span>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch059/q0001_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\int_{0}^{1} \\frac{1}{1+x}\\, dx\">\\int_{0}^{1} \\frac{1}{1+x}\\, dx</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch059/q0001_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\int_{0}^{1} \\frac{1}{x} dx\">\\int_{0}^{1} \\frac{1}{x} dx</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch059/q0001_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\int_{1}^{2} \\frac{1}{1+x} dx\">\\int_{1}^{2} \\frac{1}{1+x} dx</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch059/q0001_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{以上都不对}\">\\text{以上都不对}</span>"
         }
       ],
       "answer": "A",
       "answer_index": 0,
-      "analysis_html": "<img src=\"/static/generated/assets/advanced-math/ch059/q0001_analysis.png\"/>"
+      "analysis_html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{解析：} \\quad \\lim_{n \\to \\infty} ( \\frac{1}{n+1} + \\frac{1}{n+2} + \\cdots + \\frac{1}{n+n} ) = \\lim_{n \\to \\infty} \\frac{1}{n} \\sum_{i}^{n} \\frac{1}{1 + \\frac{i}{n}} = \\int_{0}^{1} \\frac{1}{1 + x} \\, dx\">\\text{解析：} \\quad \\lim_{n \\to \\infty} ( \\frac{1}{n+1} + \\frac{1}{n+2} + \\cdots + \\frac{1}{n+n} ) = \\lim_{n \\to \\infty} \\frac{1}{n} \\sum_{i}^{n} \\frac{1}{1 + \\frac{i}{n}} = \\int_{0}^{1} \\frac{1}{1 + x} \\, dx</span>"
     },
     {
       "id": "q0002",
       "number": 2,
       "header": "#2-Averge",
       "difficulty": "Averge",
-      "prompt_html": "<img src=\"/static/generated/assets/advanced-math/ch059/q0002_prompt.png\"/>",
+      "prompt_html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\lim_{n \\rightarrow \\infty} \\frac{1}{n^{2}}(\\sqrt[3]{n^{2}}+\\sqrt[3]{2n^{2}}+\\sqrt[3]{3n^{2}}+\\cdots+\\sqrt[3]{n^{3}}) \\; \\; \\text{可以表示为(} \\; \\; )\">\\lim_{n \\rightarrow \\infty} \\frac{1}{n^{2}}(\\sqrt[3]{n^{2}}+\\sqrt[3]{2n^{2}}+\\sqrt[3]{3n^{2}}+\\cdots+\\sqrt[3]{n^{3}}) \\; \\; \\text{可以表示为(} \\; \\; )</span>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch059/q0002_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\int_{0}^{1} \\sqrt{x} dx\">\\int_{0}^{1} \\sqrt{x} dx</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch059/q0002_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\int_{0}^{1} \\sqrt[3]{x^{2}}\\,dx\">\\int_{0}^{1} \\sqrt[3]{x^{2}}\\,dx</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch059/q0002_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\int_{0}^{1} \\sqrt[3]{x} dx\">\\int_{0}^{1} \\sqrt[3]{x} dx</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch059/q0002_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\int_{1}^{2} \\sqrt[3]{x} \\, dx\">\\int_{1}^{2} \\sqrt[3]{x} \\, dx</span>"
         }
       ],
       "answer": "C",
       "answer_index": 2,
-      "analysis_html": "<img src=\"/static/generated/assets/advanced-math/ch059/q0002_analysis.png\"/>"
+      "analysis_html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{解析：} \\quad \\text{原式} = \\lim_{n \\to \\infty} \\frac{1}{n} (\\sqrt[3]{\\frac{1}{n}} + \\sqrt[3]{\\frac{2}{n}} + \\sqrt[3]{\\frac{3}{n}} + \\cdots + \\sqrt[3]{\\frac{n}{n}}) = \\int_{0}^{1} \\sqrt[3]{x} \\, dx\">\\text{解析：} \\quad \\text{原式} = \\lim_{n \\to \\infty} \\frac{1}{n} (\\sqrt[3]{\\frac{1}{n}} + \\sqrt[3]{\\frac{2}{n}} + \\sqrt[3]{\\frac{3}{n}} + \\cdots + \\sqrt[3]{\\frac{n}{n}}) = \\int_{0}^{1} \\sqrt[3]{x} \\, dx</span>"
     },
     {
       "id": "q0003",
       "number": 3,
       "header": "#3-Averge",
       "difficulty": "Averge",
-      "prompt_html": "<img src=\"/static/generated/assets/advanced-math/ch059/q0003_prompt.png\"/>",
+      "prompt_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{array}{l} \\text {下列命题中正确的个数是( )} \\\\ (1): \\text {连续函数在} [a,b] \\text {上可积；(2): 连续函数在} [a,b] \\text {上必可导；} \\\\ (3): \\text {在} [a,b] \\text {上的可积函数必有界；(4): 在} [a,b] \\text {上的单调函数可积；} \\end{array}\">\\begin{array}{l} \\text {下列命题中正确的个数是( )} \\\\ (1): \\text {连续函数在} [a,b] \\text {上可积；(2): 连续函数在} [a,b] \\text {上必可导；} \\\\ (3): \\text {在} [a,b] \\text {上的可积函数必有界；(4): 在} [a,b] \\text {上的单调函数可积；} \\end{array}</div>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch059/q0003_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"^ 4\">^ 4</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch059/q0003_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\mathbf { 1 }\">\\mathbf { 1 }</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch059/q0003_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\textcolor{blue}{3}\">\\textcolor{blue}{3}</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch059/q0003_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\textbf { 2 }\">\\textbf { 2 }</span>"
         }
       ],
       "answer": "C",
       "answer_index": 2,
-      "analysis_html": "<img src=\"/static/generated/assets/advanced-math/ch059/q0003_analysis.png\"/>"
+      "analysis_html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{答案：} \\quad \\text{命题(1)、(3)、(4)正确，}\">\\text{答案：} \\quad \\text{命题(1)、(3)、(4)正确，}</span>"
     },
     {
       "id": "q0004",
       "number": 4,
       "header": "#4-Averge",
       "difficulty": "Averge",
-      "prompt_html": "<img src=\"/static/generated/assets/advanced-math/ch059/q0004_prompt.png\"/>",
+      "prompt_html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{定积分} \\int_{a}^{b} f(x) dx \\text{的大小}( )\">\\text{定积分} \\int_{a}^{b} f(x) dx \\text{的大小}( )</span>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch059/q0004_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{与} \\ f(x) \\text{和} \\ \\xi_{i} \\ \\text{的取法有关，与积分区间} \\ [a,b] \\ \\text{无关}.\">\\text{与} \\ f(x) \\text{和} \\ \\xi_{i} \\ \\text{的取法有关，与积分区间} \\ [a,b] \\ \\text{无关}.</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch059/q0004_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{与}f(x)\\text{有关，与积分区间}[a,b]\\text{和}\\xi_{i}\\text{的取法无关。}\">\\text{与}f(x)\\text{有关，与积分区间}[a,b]\\text{和}\\xi_{i}\\text{的取法无关。}</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch059/q0004_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{与} \\ f(x) \\text{和积分区间} [a,b] \\ \\ \\text{及} \\ \\xi _ { i } \\ \\text{的取法都有关。}\">\\text{与} \\ f(x) \\text{和积分区间} [a,b] \\ \\ \\text{及} \\ \\xi _ { i } \\ \\text{的取法都有关。}</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch059/q0004_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{与} \\ f(x) \\text{和积分区间} [a,b] \\ \\text{有关，与} \\ \\xi _{i} \\ \\text{的取法无关。}\">\\text{与} \\ f(x) \\text{和积分区间} [a,b] \\ \\text{有关，与} \\ \\xi _{i} \\ \\text{的取法无关。}</span>"
         }
       ],
       "answer": "D",
       "answer_index": 3,
-      "analysis_html": "<img src=\"/static/generated/assets/advanced-math/ch059/q0004_analysis.png\"/>"
+      "analysis_html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{解析：} \\quad \\text{由定积分的定义可知答案}\">\\text{解析：} \\quad \\text{由定积分的定义可知答案}</span>"
     },
     {
       "id": "q0005",
       "number": 5,
       "header": "#5-Averge",
       "difficulty": "Averge",
-      "prompt_html": "<img src=\"/static/generated/assets/advanced-math/ch059/q0005_prompt.png\"/>",
+      "prompt_html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\textcircled{1}f(x)\\text{在}[a,b]\\text{上可积是}f(x)\\text{在}[a,b]\\text{上可微的} [\\underline{\\hspace{2em}}] \\text{条件}\\text{.}\">\\textcircled{1}f(x)\\text{在}[a,b]\\text{上可积是}f(x)\\text{在}[a,b]\\text{上可微的} [\\underline{\\hspace{2em}}] \\text{条件}\\text{.}</span>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch059/q0005_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{充分必要}\">\\text{充分必要}</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch059/q0005_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{既非充分也非必要}\">\\text{既非充分也非必要}</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch059/q0005_option_C.png\"/>"
+          "html": "<span class=\"latex-text\">充 分 不 必 要</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch059/q0005_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{必要不充分}\">\\text{必要不充分}</span>"
         }
       ],
       "answer": "D",
       "answer_index": 3,
-      "analysis_html": "<img src=\"/static/generated/assets/advanced-math/ch059/q0005_analysis.png\"/>"
+      "analysis_html": "<span class=\"missing-source\">（原题库源图失效，暂无内容）</span>"
     },
     {
       "id": "q0006",
       "number": 6,
       "header": "#6-Averge",
       "difficulty": "Averge",
-      "prompt_html": "<img src=\"/static/generated/assets/advanced-math/ch059/q0006_prompt.png\"/>",
+      "prompt_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\text{若}f(x)=x^{2}\\bullet\\int_{0}^{1}f(x)dx+x\\,,\\ \\text{则}f(x)=[\\begin{array}{c} \\\\ \\end{array}.\">\\text{若}f(x)=x^{2}\\bullet\\int_{0}^{1}f(x)dx+x\\,,\\ \\text{则}f(x)=[\\begin{array}{c} \\\\ \\end{array}.</div>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch059/q0006_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\frac{3}{2}x^{2}-x\">\\frac{3}{2}x^{2}-x</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch059/q0006_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\frac{3}{2}x^{2}+x\">\\frac{3}{2}x^{2}+x</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch059/q0006_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\frac{3}{4}x^{2}-x\">\\frac{3}{4}x^{2}-x</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch059/q0006_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\frac{3}{4}x^{2}+x\">\\frac{3}{4}x^{2}+x</span>"
         }
       ],
       "answer": "D",
       "answer_index": 3,
-      "analysis_html": "<img src=\"/static/generated/assets/advanced-math/ch059/q0006_analysis.png\"/>"
+      "analysis_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{array}{l} \\text {解答} \\quad \\text {令} \\int_{0}^{1} f(x)dx = k \\quad , \\quad \\text {则} \\quad f(x) = kx^{2} + x \\quad , \\quad \\text {再积分} \\quad , \\\\ \\int_{0}^{1} f(x)dx = \\int_{0}^{1} (kx^{2} + x)dx = \\frac{k}{3} + \\frac{1}{2} \\quad , \\quad \\text {即} \\quad k = \\frac{k}{3} + \\frac{1}{2} \\quad , \\quad \\text {故} \\quad k = \\frac{3}{4} \\quad , \\quad \\text {于是} \\\\ f(x) = \\frac{3}{4}x^{2} + x \\quad . \\\\ \\text {因此选} \\quad \\text{A}. \\end{array}\">\\begin{array}{l} \\text {解答} \\quad \\text {令} \\int_{0}^{1} f(x)dx = k \\quad , \\quad \\text {则} \\quad f(x) = kx^{2} + x \\quad , \\quad \\text {再积分} \\quad , \\\\ \\int_{0}^{1} f(x)dx = \\int_{0}^{1} (kx^{2} + x)dx = \\frac{k}{3} + \\frac{1}{2} \\quad , \\quad \\text {即} \\quad k = \\frac{k}{3} + \\frac{1}{2} \\quad , \\quad \\text {故} \\quad k = \\frac{3}{4} \\quad , \\quad \\text {于是} \\\\ f(x) = \\frac{3}{4}x^{2} + x \\quad . \\\\ \\text {因此选} \\quad \\text{A}. \\end{array}</div>"
     },
     {
       "id": "q0007",
       "number": 7,
       "header": "#7-Averge",
       "difficulty": "Averge",
-      "prompt_html": "<img src=\"/static/generated/assets/advanced-math/ch059/q0007_prompt.png\"/>",
+      "prompt_html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{在“近似代替”中，函数} f(x) \\text{在间} [x_{i}, x_{i+1}] \\text{上的近似值}\">\\text{在“近似代替”中，函数} f(x) \\text{在间} [x_{i}, x_{i+1}] \\text{上的近似值}</span>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch059/q0007_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{可以是该区间内的任一函数值} \\; f(\\zeta_{i}) \\, (\\, \\zeta_{i} \\in [x_{i}, x_{i+1}]\">\\text{可以是该区间内的任一函数值} \\; f(\\zeta_{i}) \\, (\\, \\zeta_{i} \\in [x_{i}, x_{i+1}]</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch059/q0007_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{可以是左端点的函数值} \\; f ( x _ { i } )\">\\text{可以是左端点的函数值} \\; f ( x _ { i } )</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch059/q0007_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{以上答案均正确}\">\\text{以上答案均正确}</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch059/q0007_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{可以是右端点的函数值} \\; f ( x _ { i + 1 } )\">\\text{可以是右端点的函数值} \\; f ( x _ { i + 1 } )</span>"
         }
       ],
       "answer": "C",
       "answer_index": 2,
-      "analysis_html": "<img src=\"/static/generated/assets/advanced-math/ch059/q0007_analysis.png\"/>"
+      "analysis_html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{解析：由于当} n \\text{很大，即} \\triangle x \\text{很小时，在区间} [x_{i}, x_{i+1}] \\text{上，可以认为函数} f(x) \\text{的值变化很小，近似地等于一个常数，所以可以是该区间内的任一函数值(含端点函数值).}\">\\text{解析：由于当} n \\text{很大，即} \\triangle x \\text{很小时，在区间} [x_{i}, x_{i+1}] \\text{上，可以认为函数} f(x) \\text{的值变化很小，近似地等于一个常数，所以可以是该区间内的任一函数值(含端点函数值).}</span>"
     },
     {
       "id": "q0008",
       "number": 8,
       "header": "#8-Averge",
       "difficulty": "Averge",
-      "prompt_html": "<img src=\"/static/generated/assets/advanced-math/ch059/q0008_prompt.png\"/>",
+      "prompt_html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{极限} \\lim_{n \\to \\infty} \\left( \\sqrt{ \\frac{1}{n^{2}} + \\frac{1}{n^{3}}} + \\sqrt{ \\frac{1}{n^{2}} + \\frac{2}{n^{3}}} + \\cdots + \\sqrt{ \\frac{1}{n^{2}} + \\frac{n}{n^{3}}} \\right) = \\ \\left[ \\quad \\right].\">\\text{极限} \\lim_{n \\to \\infty} \\left( \\sqrt{ \\frac{1}{n^{2}} + \\frac{1}{n^{3}}} + \\sqrt{ \\frac{1}{n^{2}} + \\frac{2}{n^{3}}} + \\cdots + \\sqrt{ \\frac{1}{n^{2}} + \\frac{n}{n^{3}}} \\right) = \\ \\left[ \\quad \\right].</span>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch059/q0008_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\frac{2\\left(2\\sqrt{2}-1\\right)}{3}\">\\frac{2\\left(2\\sqrt{2}-1\\right)}{3}</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch059/q0008_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\frac { 4 \\sqrt { 2 } - 1 } { 3 }\">\\frac { 4 \\sqrt { 2 } - 1 } { 3 }</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch059/q0008_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\frac { 2 \\sqrt { 2 } - 1 } { 3 }\">\\frac { 2 \\sqrt { 2 } - 1 } { 3 }</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch059/q0008_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\frac { 2 ( 5 \\sqrt { 5 } - 1 ) } { 3 }\">\\frac { 2 ( 5 \\sqrt { 5 } - 1 ) } { 3 }</span>"
         }
       ],
       "answer": "A",
       "answer_index": 0,
-      "analysis_html": "<img src=\"/static/generated/assets/advanced-math/ch059/q0008_analysis.png\"/>"
+      "analysis_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{aligned}\\text{解答 原式} &amp; = \\lim_{n \\to \\infty} \\frac{1}{n} \\left( \\sqrt[3]{1+\\frac{1}{n}} + \\sqrt{1+\\frac{2}{n}} + \\cdots + \\sqrt{1+\\frac{n}{n}} \\right) \\\\&amp; = \\int_{0}^{1} \\sqrt{1+x} dx = \\frac{2}{3} \\left( 1+x \\right)^{\\frac{3}{2}} \\Bigg|_{0}^{1} = \\frac{2 \\left( 2 \\sqrt{2}-1 \\right)}{3} \\, . \\end{aligned}\">\\begin{aligned}\\text{解答 原式} &amp; = \\lim_{n \\to \\infty} \\frac{1}{n} \\left( \\sqrt[3]{1+\\frac{1}{n}} + \\sqrt{1+\\frac{2}{n}} + \\cdots + \\sqrt{1+\\frac{n}{n}} \\right) \\\\&amp; = \\int_{0}^{1} \\sqrt{1+x} dx = \\frac{2}{3} \\left( 1+x \\right)^{\\frac{3}{2}} \\Bigg|_{0}^{1} = \\frac{2 \\left( 2 \\sqrt{2}-1 \\right)}{3} \\, . \\end{aligned}</div>"
     },
     {
       "id": "q0009",
       "number": 9,
       "header": "#9-Averge",
       "difficulty": "Averge",
-      "prompt_html": "<img src=\"/static/generated/assets/advanced-math/ch059/q0009_prompt.png\"/>",
+      "prompt_html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{函数}f(x)\\text{在}[a,b]\\text{上有界则}( \\quad)\">\\text{函数}f(x)\\text{在}[a,b]\\text{上有界则}( \\quad)</span>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch059/q0009_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"f(x)\\text{在}[a,b]\\text{上连续},\">f(x)\\text{在}[a,b]\\text{上连续},</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch059/q0009_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\overline{f}(x)\\text{在}[a,b]\\text{上可导},\">\\overline{f}(x)\\text{在}[a,b]\\text{上可导},</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch059/q0009_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{以上都不对}\">\\text{以上都不对}</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch059/q0009_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"f(x) \\text{在} [a,b] \\text{上可积}\">f(x) \\text{在} [a,b] \\text{上可积}</span>"
         }
       ],
       "answer": "C",
       "answer_index": 2,
-      "analysis_html": "<img src=\"/static/generated/assets/advanced-math/ch059/q0009_analysis.png\"/>"
+      "analysis_html": "<span class=\"missing-source\">（原题库源图失效，暂无内容）</span>"
     },
     {
       "id": "q0010",
       "number": 10,
       "header": "#10-Averge",
       "difficulty": "Averge",
-      "prompt_html": "<img src=\"/static/generated/assets/advanced-math/ch059/q0010_prompt.png\"/>",
+      "prompt_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{array}{l}f(x) \\text{在} [a,b] \\text{上二阶可导，} f(x) &gt; 0, \\text{则下式} \\\\ \\\\ f(a)(b-a) &lt; \\int_{a}^{b} f(x) dx &lt; \\frac{b-a}{2} \\big[ f(b) + f(a) \\big] \\text{成立条件是[ ]}. \\end{array}\">\\begin{array}{l}f(x) \\text{在} [a,b] \\text{上二阶可导，} f(x) &gt; 0, \\text{则下式} \\\\ \\\\ f(a)(b-a) &lt; \\int_{a}^{b} f(x) dx &lt; \\frac{b-a}{2} \\big[ f(b) + f(a) \\big] \\text{成立条件是[ ]}. \\end{array}</div>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch059/q0010_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\begin{aligned}f^{\\prime }(x)&gt;0\\;\\;,\\;\\;f^{\\prime \\prime }(x)&lt;0\\end{aligned}\">\\begin{aligned}f^{\\prime }(x)&gt;0\\;\\;,\\;\\;f^{\\prime \\prime }(x)&lt;0\\end{aligned}</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch059/q0010_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"f^{\\prime}(x) &lt; 0\\,,\\,\\,\\,f^{\\prime\\prime}(x) &lt; 0\">f^{\\prime}(x) &lt; 0\\,,\\,\\,\\,f^{\\prime\\prime}(x) &lt; 0</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch059/q0010_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"f^{\\prime}(x) &gt; 0 \\; \\; , \\; \\; f^{\\prime\\prime}(x) &gt; 0\">f^{\\prime}(x) &gt; 0 \\; \\; , \\; \\; f^{\\prime\\prime}(x) &gt; 0</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch059/q0010_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"f^{\\prime}(x) &lt; 0 \\; \\; , \\; \\; f^{\\prime\\prime}(x) &gt; 0\">f^{\\prime}(x) &lt; 0 \\; \\; , \\; \\; f^{\\prime\\prime}(x) &gt; 0</span>"
         }
       ],
       "answer": "C",
       "answer_index": 2,
-      "analysis_html": "<img src=\"/static/generated/assets/advanced-math/ch059/q0010_analysis.png\"/>"
+      "analysis_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{aligned}\\text{解答}\\;\\;\\text{由上述不等式几何意义可知：}\\;\\;\\;\\;\\;\\;\\;\\;\\;\\;\\;\\;\\;\\;\\;\\;\\;\\;\\;\\;\\;\\;\\;\\;\\;\\;\\;\\;\\;\\;\\;\\;\\;\\;\\;\\;\\;\\;\\;\\;\\;\\;\\;\\;\\;\\;\\;\\;\\;\\;\\;\\;\\;\\;\\;\\;\\;\\;\\;\\;\\;\\;\\;\\;\\;\\;\\;\\;\\end{aligned}\">\\begin{aligned}\\text{解答}\\;\\;\\text{由上述不等式几何意义可知：}\\;\\;\\;\\;\\;\\;\\;\\;\\;\\;\\;\\;\\;\\;\\;\\;\\;\\;\\;\\;\\;\\;\\;\\;\\;\\;\\;\\;\\;\\;\\;\\;\\;\\;\\;\\;\\;\\;\\;\\;\\;\\;\\;\\;\\;\\;\\;\\;\\;\\;\\;\\;\\;\\;\\;\\;\\;\\;\\;\\;\\;\\;\\;\\;\\;\\;\\;\\;\\end{aligned}</div>"
     },
     {
       "id": "q0011",
       "number": 11,
       "header": "#11-Averge",
       "difficulty": "Averge",
-      "prompt_html": "<img src=\"/static/generated/assets/advanced-math/ch059/q0011_prompt.png\"/>",
+      "prompt_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\int_{-1}^{2} | x^{2} - x | dx = [ \\begin{array}{c} \\end{array}.\">\\int_{-1}^{2} | x^{2} - x | dx = [ \\begin{array}{c} \\end{array}.</div>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch059/q0011_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\frac{11}{3}\">\\frac{11}{3}</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch059/q0011_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\frac{11}{6}\">\\frac{11}{6}</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch059/q0011_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\frac{11}{8}\">\\frac{11}{8}</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch059/q0011_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\frac{11}{4}\">\\frac{11}{4}</span>"
         }
       ],
       "answer": "B",
       "answer_index": 1,
-      "analysis_html": "<img src=\"/static/generated/assets/advanced-math/ch059/q0011_analysis.png\"/>"
+      "analysis_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{aligned}&amp;\\text{解答 原式}=\\int_{-1}^{0}\\left(x^{2}-x\\right) dx+\\int_{0}^{1}\\left(x-x^{2}\\right) dx+\\int_{1}^{2}\\left(x^{2}-x\\right) dx\\\\&amp;=\\frac{5}{6}+\\frac{1}{6}+\\frac{5}{6}=\\frac{11}{6}\\,.\\end{aligned}\">\\begin{aligned}&amp;\\text{解答 原式}=\\int_{-1}^{0}\\left(x^{2}-x\\right) dx+\\int_{0}^{1}\\left(x-x^{2}\\right) dx+\\int_{1}^{2}\\left(x^{2}-x\\right) dx\\\\&amp;=\\frac{5}{6}+\\frac{1}{6}+\\frac{5}{6}=\\frac{11}{6}\\,.\\end{aligned}</div>"
     },
     {
       "id": "q0012",
       "number": 12,
       "header": "#12-Averge",
       "difficulty": "Averge",
-      "prompt_html": "<img src=\"/static/generated/assets/advanced-math/ch059/q0012_prompt.png\"/>",
+      "prompt_html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{将极限} \\lim_{n \\to \\infty} \\frac{1}{n} \\left[ \\sin \\frac{\\pi}{n} + \\sin \\frac{2 \\pi}{n} + \\cdots + \\sin \\frac{(n-1) \\pi}{n} \\right] \\text{的}\\ \\text{值} = [\\quad].\">\\text{将极限} \\lim_{n \\to \\infty} \\frac{1}{n} \\left[ \\sin \\frac{\\pi}{n} + \\sin \\frac{2 \\pi}{n} + \\cdots + \\sin \\frac{(n-1) \\pi}{n} \\right] \\text{的}\\ \\text{值} = [\\quad].</span>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch059/q0012_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\frac { 2 } { \\pi } .\">\\frac { 2 } { \\pi } .</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch059/q0012_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"2 \\pi\">2 \\pi</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch059/q0012_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"1 - \\cos 1\">1 - \\cos 1</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch059/q0012_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"2\">2</span>"
         }
       ],
       "answer": "A",
       "answer_index": 0,
-      "analysis_html": "<img src=\"/static/generated/assets/advanced-math/ch059/q0012_analysis.png\"/>"
+      "analysis_html": "<span class=\"missing-source\">（原题库源图失效，暂无内容）</span>"
     },
     {
       "id": "q0013",
       "number": 13,
       "header": "#13-Averge",
       "difficulty": "Averge",
-      "prompt_html": "<img src=\"/static/generated/assets/advanced-math/ch059/q0013_prompt.png\"/>",
+      "prompt_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{array}{l} \\text {下列命题中正确的个数是( )} \\\\ (1) \\text {连续函数在} [a,b] \\text {上可积；(2)连续函数在} [a,b] \\text {上必可导；} \\\\ (3) \\text {在} [a,b] \\text {上的可积函数必有界；(4)在} [a,b] \\text {上的可积函数必单调；} \\end{array}\">\\begin{array}{l} \\text {下列命题中正确的个数是( )} \\\\ (1) \\text {连续函数在} [a,b] \\text {上可积；(2)连续函数在} [a,b] \\text {上必可导；} \\\\ (3) \\text {在} [a,b] \\text {上的可积函数必有界；(4)在} [a,b] \\text {上的可积函数必单调；} \\end{array}</div>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch059/q0013_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\mathbf { 1 }\">\\mathbf { 1 }</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch059/q0013_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\textcolor{blue}{2}\">\\textcolor{blue}{2}</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch059/q0013_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\textbf { 4 }\">\\textbf { 4 }</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch059/q0013_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"^ 3\">^ 3</span>"
         }
       ],
       "answer": "B",
       "answer_index": 1,
-      "analysis_html": "<img src=\"/static/generated/assets/advanced-math/ch059/q0013_analysis.png\"/>"
+      "analysis_html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{答案：命题(1)和(3)正确，}\">\\text{答案：命题(1)和(3)正确，}</span>"
     },
     {
       "id": "q0014",
       "number": 14,
       "header": "#14-Averge",
       "difficulty": "Averge",
-      "prompt_html": "<img src=\"/static/generated/assets/advanced-math/ch059/q0014_prompt.png\"/>",
+      "prompt_html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\lim_{n\\rightarrow\\infty}\\sum_{k=1}^{n}\\frac{1}{n+k}\\ \\ \\text{可用定积分表示为(}\\ \\ \\ )\">\\lim_{n\\rightarrow\\infty}\\sum_{k=1}^{n}\\frac{1}{n+k}\\ \\ \\text{可用定积分表示为(}\\ \\ \\ )</span>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch059/q0014_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\int_{0}^{2} \\frac{1}{1+x} dx\">\\int_{0}^{2} \\frac{1}{1+x} dx</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch059/q0014_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\int_{0}^{1} \\frac{1}{x} dx\">\\int_{0}^{1} \\frac{1}{x} dx</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch059/q0014_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\int_{0}^{1} \\frac{1}{1+x} dx\">\\int_{0}^{1} \\frac{1}{1+x} dx</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch059/q0014_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\int_{1}^{2} \\frac{1}{1+x} dx\">\\int_{1}^{2} \\frac{1}{1+x} dx</span>"
         }
       ],
       "answer": "C",
       "answer_index": 2,
-      "analysis_html": "<img src=\"/static/generated/assets/advanced-math/ch059/q0014_analysis.png\"/>"
+      "analysis_html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{解析}\\ \\ \\frac{1}{n+k}=\\frac{1}{1+\\frac{k}{n}}\\bullet \\frac{1}{n},\\ \\lim_{n\\rightarrow \\infty}\\sum_{k=1}^{n}\\frac{1}{n+k}=\\lim_{n\\rightarrow \\infty}\\sum_{k=1}^{n}\\frac{1}{1+\\frac{k}{n}}\\bullet \\frac{1}{n},\\ \\text{由定义知：}\">\\text{解析}\\ \\ \\frac{1}{n+k}=\\frac{1}{1+\\frac{k}{n}}\\bullet \\frac{1}{n},\\ \\lim_{n\\rightarrow \\infty}\\sum_{k=1}^{n}\\frac{1}{n+k}=\\lim_{n\\rightarrow \\infty}\\sum_{k=1}^{n}\\frac{1}{1+\\frac{k}{n}}\\bullet \\frac{1}{n},\\ \\text{由定义知：}</span>"
     },
     {
       "id": "q0015",
       "number": 15,
       "header": "#15-Averge",
       "difficulty": "Averge",
-      "prompt_html": "<img src=\"/static/generated/assets/advanced-math/ch059/q0015_prompt.png\"/>",
+      "prompt_html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{设}f(x)\\text{是}[a,b]\\text{上的连续函数，则} \\int_{a}^{b}f(x)dx-\\int_{a}^{b}f(t)dt\\text{的值( }\">\\text{设}f(x)\\text{是}[a,b]\\text{上的连续函数，则} \\int_{a}^{b}f(x)dx-\\int_{a}^{b}f(t)dt\\text{的值( }</span>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch059/q0015_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{等于零}\">\\text{等于零}</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch059/q0015_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{小于零}\">\\text{小于零}</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch059/q0015_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{大于零}\">\\text{大于零}</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch059/q0015_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{不能确定}\">\\text{不能确定}</span>"
         }
       ],
       "answer": "A",
       "answer_index": 0,
-      "analysis_html": "<img src=\"/static/generated/assets/advanced-math/ch059/q0015_analysis.png\"/>"
+      "analysis_html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{解析：} \\quad \\text{定积分的数值与积分变量无关}\">\\text{解析：} \\quad \\text{定积分的数值与积分变量无关}</span>"
     },
     {
       "id": "q0016",
       "number": 16,
       "header": "#16-Averge",
       "difficulty": "Averge",
-      "prompt_html": "<img src=\"/static/generated/assets/advanced-math/ch059/q0016_prompt.png\"/>",
+      "prompt_html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{若}f(x)\\text{在}[a,b]\\text{上连续，则( }\">\\text{若}f(x)\\text{在}[a,b]\\text{上连续，则( }</span>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch059/q0016_option_A.png\"/>"
+          "html": "<span class=\"missing-source\">（原题库源图失效，暂无内容）</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch059/q0016_option_B.png\"/>"
+          "html": "<span class=\"missing-source\">（原题库源图失效，暂无内容）</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch059/q0016_option_C.png\"/>"
+          "html": "<span class=\"missing-source\">（原题库源图失效，暂无内容）</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch059/q0016_option_D.png\"/>"
+          "html": "<span class=\"missing-source\">（原题库源图失效，暂无内容）</span>"
         }
       ],
       "answer": "A",
       "answer_index": 0,
-      "analysis_html": "<img src=\"/static/generated/assets/advanced-math/ch059/q0016_analysis.png\"/>"
+      "analysis_html": "<span class=\"missing-source\">（原题库源图失效，暂无内容）</span>"
     },
     {
       "id": "q0017",
       "number": 17,
       "header": "#17-Averge",
       "difficulty": "Averge",
-      "prompt_html": "<img src=\"/static/generated/assets/advanced-math/ch059/q0017_prompt.png\"/>",
+      "prompt_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{array}{l}f(x) \\text{在} [a,b] \\text{上连续，则} f(x) \\text{在} [a,b] \\text{上非负且在} [a,b] \\text{的任何子区间上不恒为零是} F(x) = \\int_{a}^{x} f(t) dt \\text{在} [a,b] \\text{上单调上升的} [ \\quad ]. \\end{array}\">\\begin{array}{l}f(x) \\text{在} [a,b] \\text{上连续，则} f(x) \\text{在} [a,b] \\text{上非负且在} [a,b] \\text{的任何子区间上不恒为零是} F(x) = \\int_{a}^{x} f(t) dt \\text{在} [a,b] \\text{上单调上升的} [ \\quad ]. \\end{array}</div>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch059/q0017_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\textbf{充分不必要条件}\">\\textbf{充分不必要条件}</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch059/q0017_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{既不充分又非必要条件}\">\\text{既不充分又非必要条件}</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch059/q0017_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\textbf{充分必要条件}\">\\textbf{充分必要条件}</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch059/q0017_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{必要不充分条件}\">\\text{必要不充分条件}</span>"
         }
       ],
       "answer": "C",
       "answer_index": 2,
-      "analysis_html": "<img src=\"/static/generated/assets/advanced-math/ch059/q0017_analysis.png\"/>"
+      "analysis_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{array}{l} \\text{解答 若} f(x) \\geq 0, \\text{且} f(x) \\preccurlyeq 0, \\text{则} F&#x27;(x) = f(x) \\geq 0, \\text{于是} F(x) \\text{在} [a,b] \\text{上单调上升}. \\\\ \\text{若} F(x) \\text{单调上升,且} f(x) \\text{可导,} F&#x27;(x) = f(x), \\text{必有} f(x) \\geq 0, \\text{且} f(x) \\preccurlyeq 0. \\end{array}\">\\begin{array}{l} \\text{解答 若} f(x) \\geq 0, \\text{且} f(x) \\preccurlyeq 0, \\text{则} F&#x27;(x) = f(x) \\geq 0, \\text{于是} F(x) \\text{在} [a,b] \\text{上单调上升}. \\\\ \\text{若} F(x) \\text{单调上升,且} f(x) \\text{可导,} F&#x27;(x) = f(x), \\text{必有} f(x) \\geq 0, \\text{且} f(x) \\preccurlyeq 0. \\end{array}</div>"
     },
     {
       "id": "q0018",
       "number": 18,
       "header": "#18-Averge",
       "difficulty": "Averge",
-      "prompt_html": "<img src=\"/static/generated/assets/advanced-math/ch059/q0018_prompt.png\"/>",
+      "prompt_html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{若可积函数} f(x) \\text{与} g(x) \\text{满足} \\int_{a}^{b} f(x) dx = \\int_{a}^{b} g(x) dx, \\ \\text{则} (\\ \\ )\">\\text{若可积函数} f(x) \\text{与} g(x) \\text{满足} \\int_{a}^{b} f(x) dx = \\int_{a}^{b} g(x) dx, \\ \\text{则} (\\ \\ )</span>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch059/q0018_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"f(x) = g(x)\">f(x) = g(x)</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch059/q0018_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\lnot f ( x ) \\text {与} g ( x ) \\text {大小关系无法判断}\">\\lnot f ( x ) \\text {与} g ( x ) \\text {大小关系无法判断}</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch059/q0018_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"f(x) \\geq g(x)\">f(x) \\geq g(x)</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch059/q0018_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"f(x) \\leq g(x)\">f(x) \\leq g(x)</span>"
         }
       ],
       "answer": "B",
       "answer_index": 1,
-      "analysis_html": "<img src=\"/static/generated/assets/advanced-math/ch059/q0018_analysis.png\"/>"
+      "analysis_html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{解析：} \\quad f(x) \\text{与} g(x) \\text{大小关系无法判断，例如取} \\sin x, \\cos x \\text{在} [0, \\frac{\\pi}{2}] \\text{的积分相等。}\">\\text{解析：} \\quad f(x) \\text{与} g(x) \\text{大小关系无法判断，例如取} \\sin x, \\cos x \\text{在} [0, \\frac{\\pi}{2}] \\text{的积分相等。}</span>"
     },
     {
       "id": "q0019",
       "number": 19,
       "header": "#19-Averge",
       "difficulty": "Averge",
-      "prompt_html": "<img src=\"/static/generated/assets/advanced-math/ch059/q0019_prompt.png\"/>",
+      "prompt_html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{函数}f(x)\\text{在}[a,b]\\text{上可积则( } \\quad)\">\\text{函数}f(x)\\text{在}[a,b]\\text{上可积则( } \\quad)</span>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch059/q0019_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\begin{array}{l} f ( x ) \\text {在} [ a , b ] \\text {上可导}, \\\\ \\text {定} \\end{array}\">\\begin{array}{l} f ( x ) \\text {在} [ a , b ] \\text {上可导}, \\\\ \\text {定} \\end{array}</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch059/q0019_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\begin{array}{l}f(x)\\text{在}[a,b]\\text{上连续},\\end{array}\">\\begin{array}{l}f(x)\\text{在}[a,b]\\text{上连续},\\end{array}</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch059/q0019_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{以上都不对}\">\\text{以上都不对}</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch059/q0019_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"f(x) \\text{在} [a,b] \\text{上有界}\">f(x) \\text{在} [a,b] \\text{上有界}</span>"
         }
       ],
       "answer": "D",
       "answer_index": 3,
-      "analysis_html": "<img src=\"/static/generated/assets/advanced-math/ch059/q0019_analysis.png\"/>"
+      "analysis_html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{解析：由积分存在的必要条件}\">\\text{解析：由积分存在的必要条件}</span>"
     },
     {
       "id": "q0020",
       "number": 20,
       "header": "#20-Averge",
       "difficulty": "Averge",
-      "prompt_html": "<img src=\"/static/generated/assets/advanced-math/ch059/q0020_prompt.png\"/>",
+      "prompt_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{array}{l}\\text{下列命题中错误的个数是}( )\\\\ (1): \\text{连续函数在}[a,b]\\text{上可积}；(2): \\text{连续函数在}[a,b]\\text{上必可导}；\\\\ (3): \\text{在}[a,b]\\text{上的可积函数必有界}；(4): \\text{在}[a,b]\\text{上的单调函数可积}；\\\\ (5) \\text{在}[a,b]\\text{上的间断函数必不可积}; \\end{array}\">\\begin{array}{l}\\text{下列命题中错误的个数是}( )\\\\ (1): \\text{连续函数在}[a,b]\\text{上可积}；(2): \\text{连续函数在}[a,b]\\text{上必可导}；\\\\ (3): \\text{在}[a,b]\\text{上的可积函数必有界}；(4): \\text{在}[a,b]\\text{上的单调函数可积}；\\\\ (5) \\text{在}[a,b]\\text{上的间断函数必不可积}; \\end{array}</div>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch059/q0020_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\textcolor{blue}{2}\">\\textcolor{blue}{2}</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch059/q0020_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"3\">3</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch059/q0020_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\textbf { 4 }\">\\textbf { 4 }</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch059/q0020_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\mathbf { 1 }\">\\mathbf { 1 }</span>"
         }
       ],
       "answer": "A",
       "answer_index": 0,
-      "analysis_html": "<img src=\"/static/generated/assets/advanced-math/ch059/q0020_analysis.png\"/>"
+      "analysis_html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{答案：命题(1)、(3)、(4)正确，}\">\\text{答案：命题(1)、(3)、(4)正确，}</span>"
     },
     {
       "id": "q0021",
       "number": 21,
       "header": "#21-Averge",
       "difficulty": "Averge",
-      "prompt_html": "<img src=\"/static/generated/assets/advanced-math/ch059/q0021_prompt.png\"/>",
+      "prompt_html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\lim_{n \\rightarrow \\infty} (\\frac{2^{\\frac{1}{n}}}{n+1} + \\frac{2^{\\frac{2}{n}}}{n+ \\frac{1}{2}} + \\cdots + \\frac{2^{\\frac{n}{n}}}{n+ \\frac{1}{n}}) \\text{ 可以表示为( )}\">\\lim_{n \\rightarrow \\infty} (\\frac{2^{\\frac{1}{n}}}{n+1} + \\frac{2^{\\frac{2}{n}}}{n+ \\frac{1}{2}} + \\cdots + \\frac{2^{\\frac{n}{n}}}{n+ \\frac{1}{n}}) \\text{ 可以表示为( )}</span>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch059/q0021_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\int_{1}^{2} x^{2} dx\">\\int_{1}^{2} x^{2} dx</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch059/q0021_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\int_{0}^{1} x^{2} dx\">\\int_{0}^{1} x^{2} dx</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch059/q0021_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\int_{0}^{1} 2^{x} dx\">\\int_{0}^{1} 2^{x} dx</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch059/q0021_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\int_{1}^{2} 2^{x} dx\">\\int_{1}^{2} 2^{x} dx</span>"
         }
       ],
       "answer": "C",
       "answer_index": 2,
-      "analysis_html": "<img src=\"/static/generated/assets/advanced-math/ch059/q0021_analysis.png\"/>"
+      "analysis_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{aligned}&amp;\\text{解析：}\\quad\\lim_{n\\rightarrow \\infty}\\frac{1}{n+1}\\sum_{i}^{n}2^{\\frac{i}{n}}\\leq \\lim_{n\\rightarrow \\infty}(\\frac{2^{\\frac{1}{n}}}{n+1}+\\frac{2^{\\frac{2}{n}}}{n+\\frac{1}{2}}+\\cdots+\\frac{2^{\\frac{n}{n}}}{n+\\frac{1}{n}})\\leq \\lim_{n\\rightarrow \\infty}\\frac{1}{n}\\sum_{i}^{n}2^{\\frac{i}{n}}\\\\&amp;\\\\&amp;\\text{所以左边}=\\lim_{n\\rightarrow \\infty}\\frac{n}{n+1}\\sum_{i}^{n}2^{\\frac{i}{n}}\\cdot \\frac{1}{n}=\\int_{0}^{1}2^{x}dx=\\text{右边}\\end{aligned}\">\\begin{aligned}&amp;\\text{解析：}\\quad\\lim_{n\\rightarrow \\infty}\\frac{1}{n+1}\\sum_{i}^{n}2^{\\frac{i}{n}}\\leq \\lim_{n\\rightarrow \\infty}(\\frac{2^{\\frac{1}{n}}}{n+1}+\\frac{2^{\\frac{2}{n}}}{n+\\frac{1}{2}}+\\cdots+\\frac{2^{\\frac{n}{n}}}{n+\\frac{1}{n}})\\leq \\lim_{n\\rightarrow \\infty}\\frac{1}{n}\\sum_{i}^{n}2^{\\frac{i}{n}}\\\\&amp;\\\\&amp;\\text{所以左边}=\\lim_{n\\rightarrow \\infty}\\frac{n}{n+1}\\sum_{i}^{n}2^{\\frac{i}{n}}\\cdot \\frac{1}{n}=\\int_{0}^{1}2^{x}dx=\\text{右边}\\end{aligned}</div>"
     },
     {
       "id": "q0022",
       "number": 22,
       "header": "#22-Averge",
       "difficulty": "Averge",
-      "prompt_html": "<img src=\"/static/generated/assets/advanced-math/ch059/q0022_prompt.png\"/>",
+      "prompt_html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{已知}f(x)\\text{为偶函数，且} \\int_{0}^{a}f(x)dx=4，\\text{则}\\int_{-a}^{a}f(x)dx=(\">\\text{已知}f(x)\\text{为偶函数，且} \\int_{0}^{a}f(x)dx=4，\\text{则}\\int_{-a}^{a}f(x)dx=(</span>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch059/q0022_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\mathbf { 0 }\">\\mathbf { 0 }</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch059/q0022_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\textcolor{blue}{4}\">\\textcolor{blue}{4}</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch059/q0022_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\mathbf { 16 }\">\\mathbf { 16 }</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch059/q0022_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"8\">8</span>"
         }
       ],
       "answer": "D",
       "answer_index": 3,
-      "analysis_html": "<img src=\"/static/generated/assets/advanced-math/ch059/q0022_analysis.png\"/>"
+      "analysis_html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{解析：} \\quad \\text{由偶函数积分的性质可知答案}\">\\text{解析：} \\quad \\text{由偶函数积分的性质可知答案}</span>"
     },
     {
       "id": "q0023",
       "number": 23,
       "header": "#23-Averge",
       "difficulty": "Averge",
-      "prompt_html": "<img src=\"/static/generated/assets/advanced-math/ch059/q0023_prompt.png\"/>",
+      "prompt_html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{对于以} v = v ( t ) \\text{在} [ 0 , \\ t ] \\text{内汽车作直线运动经过的路程} s , \\text{下列叙述正确的是( } )\">\\text{对于以} v = v ( t ) \\text{在} [ 0 , \\ t ] \\text{内汽车作直线运动经过的路程} s , \\text{下列叙述正确的是( } )</span>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch059/q0023_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{将}[0,\\,t]n\\,\\text{等分，若以每个小区间左端点的速度近似替代时，求得的}\\,s\\,\\text{是}\\,s\\,\\text{的不足估计值}\">\\text{将}[0,\\,t]n\\,\\text{等分，若以每个小区间左端点的速度近似替代时，求得的}\\,s\\,\\text{是}\\,s\\,\\text{的不足估计值}</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch059/q0023_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{将} [0,\\,t] n \\text{ 等分，} n \\text{ 越大，求出的 } s \\text{ 近似替代 } s \\text{ 的精确度越高}\">\\text{将} [0,\\,t] n \\text{ 等分，} n \\text{ 越大，求出的 } s \\text{ 近似替代 } s \\text{ 的精确度越高}</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch059/q0023_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{将}[0, \\ t ] n \\text{等分，当} n \\text{很大时，求出的} s \\text{就是} S \\text{的准确值}\">\\text{将}[0, \\ t ] n \\text{等分，当} n \\text{很大时，求出的} s \\text{就是} S \\text{的准确值}</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch059/q0023_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{将}[0,\\,t]n\\text{等分，若以每个小区间右端点的速度近似替代时，求得的}s\\text{是}s\\text{的过剩估计值}\">\\text{将}[0,\\,t]n\\text{等分，若以每个小区间右端点的速度近似替代时，求得的}s\\text{是}s\\text{的过剩估计值}</span>"
         }
       ],
       "answer": "B",
       "answer_index": 1,
-      "analysis_html": "<img src=\"/static/generated/assets/advanced-math/ch059/q0023_analysis.png\"/>"
+      "analysis_html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{解析} \\quad \\text{由定积分定义知}\">\\text{解析} \\quad \\text{由定积分定义知}</span>"
     },
     {
       "id": "q0024",
       "number": 24,
       "header": "#24-Averge",
       "difficulty": "Averge",
-      "prompt_html": "<img src=\"/static/generated/assets/advanced-math/ch059/q0024_prompt.png\"/>",
+      "prompt_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{array}{l} \\text {下列命题中错误的个数是( )} \\\\ (1): \\text {连续函数在} [a,b] \\text {上可积；}(2): \\text {连续函数在} [a,b] \\text {上必可导；} \\\\ (3): \\text {在} [a,b] \\text {上的可积函数必有界；}(4): \\text {在} [a,b] \\text {上的单调函数可积；} \\end{array}\">\\begin{array}{l} \\text {下列命题中错误的个数是( )} \\\\ (1): \\text {连续函数在} [a,b] \\text {上可积；}(2): \\text {连续函数在} [a,b] \\text {上必可导；} \\\\ (3): \\text {在} [a,b] \\text {上的可积函数必有界；}(4): \\text {在} [a,b] \\text {上的单调函数可积；} \\end{array}</div>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch059/q0024_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\textcolor{blue}{3}\">\\textcolor{blue}{3}</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch059/q0024_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\mathbf { 1 }\">\\mathbf { 1 }</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch059/q0024_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"^ 2\">^ 2</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch059/q0024_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\textbf { 4 }\">\\textbf { 4 }</span>"
         }
       ],
       "answer": "B",
       "answer_index": 1,
-      "analysis_html": "<img src=\"/static/generated/assets/advanced-math/ch059/q0024_analysis.png\"/>"
+      "analysis_html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{答案：命题(1)、(3)、(4)正确，}\">\\text{答案：命题(1)、(3)、(4)正确，}</span>"
     },
     {
       "id": "q0025",
       "number": 25,
       "header": "#25-Averge",
       "difficulty": "Averge",
-      "prompt_html": "<img src=\"/static/generated/assets/advanced-math/ch059/q0025_prompt.png\"/>",
+      "prompt_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{cases} (1): \\text{连续函数在}[a,b]\\text{上可积}；(2): \\text{连续函数在}[a,b]\\text{上必可导}； \\\\ (3): \\text{在}[a,b]\\text{上的可积函数必有界}；(4): \\text{在}[a,b]\\text{上的可积函数必单调}； \\end{cases}\">\\begin{cases} (1): \\text{连续函数在}[a,b]\\text{上可积}；(2): \\text{连续函数在}[a,b]\\text{上必可导}； \\\\ (3): \\text{在}[a,b]\\text{上的可积函数必有界}；(4): \\text{在}[a,b]\\text{上的可积函数必单调}； \\end{cases}</div>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch059/q0025_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\textcolor{blue}{4}\">\\textcolor{blue}{4}</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch059/q0025_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\textbf { 3 }\">\\textbf { 3 }</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch059/q0025_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\mathbf { 1 }\">\\mathbf { 1 }</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch059/q0025_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\textcolor{blue}{2}\">\\textcolor{blue}{2}</span>"
         }
       ],
       "answer": "D",
       "answer_index": 3,
-      "analysis_html": "<img src=\"/static/generated/assets/advanced-math/ch059/q0025_analysis.png\"/>"
+      "analysis_html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{答案：} \\quad \\text{命题(1)和(3)正确，}\">\\text{答案：} \\quad \\text{命题(1)和(3)正确，}</span>"
     },
     {
       "id": "q0026",
       "number": 26,
       "header": "#26-Averge",
       "difficulty": "Averge",
-      "prompt_html": "<img src=\"/static/generated/assets/advanced-math/ch059/q0026_prompt.png\"/>",
+      "prompt_html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{极限} \\lim_{n \\rightarrow \\infty} \\frac{ \\sqrt[n]{n!}}{n} \\ \\text{可以表示为( } \\ \\ \\ )\">\\text{极限} \\lim_{n \\rightarrow \\infty} \\frac{ \\sqrt[n]{n!}}{n} \\ \\text{可以表示为( } \\ \\ \\ )</span>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch059/q0026_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\int_{0}^{1} 1 n x d x\">\\int_{0}^{1} 1 n x d x</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch059/q0026_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"e ^ { \\int _ { 0 } ^ { 1 } 1 n x dx }\">e ^ { \\int _ { 0 } ^ { 1 } 1 n x dx }</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch059/q0026_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"e ^ { \\int _ { 1 } ^ { 2 } l x d x }\">e ^ { \\int _ { 1 } ^ { 2 } l x d x }</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch059/q0026_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\int_{1}^{2} 1 n x d x\">\\int_{1}^{2} 1 n x d x</span>"
         }
       ],
       "answer": "B",
       "answer_index": 1,
-      "analysis_html": "<img src=\"/static/generated/assets/advanced-math/ch059/q0026_analysis.png\"/>"
+      "analysis_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{aligned}\\text{解析：} \\quad&amp; \\lim_{n \\rightarrow \\infty} \\frac{\\sqrt[n]{n!}}{n} = \\lim_{n \\rightarrow \\infty} e^{\\frac{\\ln \\sqrt[n]{n!}}{n}} = \\lim_{n \\rightarrow \\infty} e^{\\frac{1}{n} (\\ln \\frac{1}{n} + \\frac{1}{n}^2 + \\dots + \\ln \\frac{n}{n})} \\\\&amp;= e^{\\int_0^1 \\ln x \\, dx} \\quad |\\end{aligned}\">\\begin{aligned}\\text{解析：} \\quad&amp; \\lim_{n \\rightarrow \\infty} \\frac{\\sqrt[n]{n!}}{n} = \\lim_{n \\rightarrow \\infty} e^{\\frac{\\ln \\sqrt[n]{n!}}{n}} = \\lim_{n \\rightarrow \\infty} e^{\\frac{1}{n} (\\ln \\frac{1}{n} + \\frac{1}{n}^2 + \\dots + \\ln \\frac{n}{n})} \\\\&amp;= e^{\\int_0^1 \\ln x \\, dx} \\quad |\\end{aligned}</div>"
     },
     {
       "id": "q0027",
       "number": 27,
       "header": "#27-Averge",
       "difficulty": "Averge",
-      "prompt_html": "<img src=\"/static/generated/assets/advanced-math/ch059/q0027_prompt.png\"/>",
+      "prompt_html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\boxed{\\text{函数}f(x)\\text{在}[a,b]\\text{上可积的必要条件是}( )}\">\\boxed{\\text{函数}f(x)\\text{在}[a,b]\\text{上可积的必要条件是}( )}</span>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch059/q0027_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\begin{array}{l}f(x)\\text{在}[a,b]\\text{上存在极值}\\end{array}\">\\begin{array}{l}f(x)\\text{在}[a,b]\\text{上存在极值}\\end{array}</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch059/q0027_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\, f ( x ) \\, { \\text{在} } [ a , b ] \\, { \\text{上有界} }\">\\, f ( x ) \\, { \\text{在} } [ a , b ] \\, { \\text{上有界} }</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch059/q0027_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"f(x) \\text{在} [a,b] \\text{上可导}\">f(x) \\text{在} [a,b] \\text{上可导}</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch059/q0027_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"f(x) \\text{在} [a,b] \\text{上连续}\">f(x) \\text{在} [a,b] \\text{上连续}</span>"
         }
       ],
       "answer": "B",
       "answer_index": 1,
-      "analysis_html": "<img src=\"/static/generated/assets/advanced-math/ch059/q0027_analysis.png\"/>"
+      "analysis_html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{解析 由定理知选}\">\\text{解析 由定理知选}</span>"
     },
     {
       "id": "q0028",
       "number": 28,
       "header": "#28-Averge",
       "difficulty": "Averge",
-      "prompt_html": "<img src=\"/static/generated/assets/advanced-math/ch059/q0028_prompt.png\"/>",
+      "prompt_html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\lim_{n\\to \\infty}(\\frac{\\sin\\frac{\\pi}{n}}{n+1}+\\frac{\\sin\\frac{2\\pi}{n}}{n+\\frac{1}{2}}+\\cdots+\\frac{\\sin\\pi}{n+\\frac{1}{n}}) \\text{ 的值为 }().\">\\lim_{n\\to \\infty}(\\frac{\\sin\\frac{\\pi}{n}}{n+1}+\\frac{\\sin\\frac{2\\pi}{n}}{n+\\frac{1}{2}}+\\cdots+\\frac{\\sin\\pi}{n+\\frac{1}{n}}) \\text{ 的值为 }().</span>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch059/q0028_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{不存在}\">\\text{不存在}</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch059/q0028_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\frac{2}{\\pi}\">\\frac{2}{\\pi}</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch059/q0028_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\frac { 1 } { \\pi }\">\\frac { 1 } { \\pi }</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch059/q0028_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\boldsymbol { 0 }\">\\boldsymbol { 0 }</span>"
         }
       ],
       "answer": "B",
       "answer_index": 1,
-      "analysis_html": "<img src=\"/static/generated/assets/advanced-math/ch059/q0028_analysis.png\"/>"
+      "analysis_html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{原式} = \\lim_{n \\rightarrow \\infty} \\sum_{k = 1}^{n} \\frac{1}{n} \\sin \\frac{k \\pi }{n} = \\int_{0}^{1} \\sin \\pi x \\, dx = \\frac{2}{\\pi} \\ ,\">\\text{原式} = \\lim_{n \\rightarrow \\infty} \\sum_{k = 1}^{n} \\frac{1}{n} \\sin \\frac{k \\pi }{n} = \\int_{0}^{1} \\sin \\pi x \\, dx = \\frac{2}{\\pi} \\ ,</span>"
     },
     {
       "id": "q0029",
       "number": 29,
       "header": "#29-Averge",
       "difficulty": "Averge",
-      "prompt_html": "<img src=\"/static/generated/assets/advanced-math/ch059/q0029_prompt.png\"/>",
+      "prompt_html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\lim_{n \\to \\infty} ( \\frac{n}{n^{2}+1} + \\frac{n}{n^{2}+2^{2}} + \\cdots + \\frac{n}{n^{2}+n^{2}} ) \\; \\text{可以表示为( } \\quad )\">\\lim_{n \\to \\infty} ( \\frac{n}{n^{2}+1} + \\frac{n}{n^{2}+2^{2}} + \\cdots + \\frac{n}{n^{2}+n^{2}} ) \\; \\text{可以表示为( } \\quad )</span>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch059/q0029_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\int_{1}^{2} \\frac{1}{x^{2}} dx\">\\int_{1}^{2} \\frac{1}{x^{2}} dx</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch059/q0029_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\int_{1}^{2} \\frac{1}{1+x^{2}} dx\">\\int_{1}^{2} \\frac{1}{1+x^{2}} dx</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch059/q0029_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\int_{0}^{1} \\frac{1}{1+x^{2}} dx\">\\int_{0}^{1} \\frac{1}{1+x^{2}} dx</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch059/q0029_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\int_{0}^{1} \\frac{1}{x^{2}} dx\">\\int_{0}^{1} \\frac{1}{x^{2}} dx</span>"
         }
       ],
       "answer": "C",
       "answer_index": 2,
-      "analysis_html": "<img src=\"/static/generated/assets/advanced-math/ch059/q0029_analysis.png\"/>"
+      "analysis_html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{解析} \\quad \\lim_{n \\to \\infty} (\\frac{n}{n^{2}+1} + \\frac{n}{n^{2}+2^{2}} + \\cdots + \\frac{n}{n^{2}+n^{2}}) = \\lim_{n \\to \\infty} \\frac{1}{n} \\sum_{i=1}^{n} \\frac{1}{1 + (\\frac{i}{n})^{2}} = \\int_{0}^{1} \\frac{1}{1+x^{2}} dx\\,,\">\\text{解析} \\quad \\lim_{n \\to \\infty} (\\frac{n}{n^{2}+1} + \\frac{n}{n^{2}+2^{2}} + \\cdots + \\frac{n}{n^{2}+n^{2}}) = \\lim_{n \\to \\infty} \\frac{1}{n} \\sum_{i=1}^{n} \\frac{1}{1 + (\\frac{i}{n})^{2}} = \\int_{0}^{1} \\frac{1}{1+x^{2}} dx\\,,</span>"
     },
     {
       "id": "q0030",
       "number": 30,
       "header": "#30-Averge",
       "difficulty": "Averge",
-      "prompt_html": "<img src=\"/static/generated/assets/advanced-math/ch059/q0030_prompt.png\"/>",
+      "prompt_html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{若}f(x)\\text{初等函数在}[a,b]\\text{有定义，则}f(x)\\text{在}[a,b]\\text{上一定( }\">\\text{若}f(x)\\text{初等函数在}[a,b]\\text{有定义，则}f(x)\\text{在}[a,b]\\text{上一定( }</span>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch059/q0030_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{不连续}\">\\text{不连续}</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch059/q0030_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{存在反函数}\">\\text{存在反函数}</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch059/q0030_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{可积}\">\\text{可积}</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch059/q0030_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{单调}\">\\text{单调}</span>"
         }
       ],
       "answer": "C",
       "answer_index": 2,
-      "analysis_html": "<img src=\"/static/generated/assets/advanced-math/ch059/q0030_analysis.png\"/>"
+      "analysis_html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{解析：初等函数在定义区间内必连续，连续必可积。}\">\\text{解析：初等函数在定义区间内必连续，连续必可积。}</span>"
     },
     {
       "id": "q0031",
       "number": 31,
       "header": "#31-Averge",
       "difficulty": "Averge",
-      "prompt_html": "<img src=\"/static/generated/assets/advanced-math/ch059/q0031_prompt.png\"/>",
+      "prompt_html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{若函数} f ( x ) \\text{可积则} \\quad ( \\quad )\">\\text{若函数} f ( x ) \\text{可积则} \\quad ( \\quad )</span>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch059/q0031_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"f(x) \\text{必单调}\">f(x) \\text{必单调}</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch059/q0031_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"f(x) \\text{必可导}\">f(x) \\text{必可导}</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch059/q0031_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"f(x)\\text{必连续}\">f(x)\\text{必连续}</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch059/q0031_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"f(x)\\text{必有界}\">f(x)\\text{必有界}</span>"
         }
       ],
       "answer": "D",
       "answer_index": 3,
-      "analysis_html": "<img src=\"/static/generated/assets/advanced-math/ch059/q0031_analysis.png\"/>"
+      "analysis_html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{由可积的必要条件}\">\\text{由可积的必要条件}</span>"
     },
     {
       "id": "q0032",
       "number": 32,
       "header": "#32-Averge",
       "difficulty": "Averge",
-      "prompt_html": "<img src=\"/static/generated/assets/advanced-math/ch059/q0032_prompt.png\"/>",
+      "prompt_html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{设非负函数} f(x) \\text{在闭区间} [a,b] \\text{上连续且} \\int_{a}^{b} f(x) dx = 0，\\text{则在} [a,b] \\text{上}( \\ \\ )\">\\text{设非负函数} f(x) \\text{在闭区间} [a,b] \\text{上连续且} \\int_{a}^{b} f(x) dx = 0，\\text{则在} [a,b] \\text{上}( \\ \\ )</span>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch059/q0032_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"f(x) = 0 \\text{ 无限个零点}\">f(x) = 0 \\text{ 无限个零点}</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch059/q0032_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\,f(x)=0\\, \\text{有有限个零点}\">\\,f(x)=0\\, \\text{有有限个零点}</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch059/q0032_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{至少有一点满足} f(x) \\neq 0\">\\text{至少有一点满足} f(x) \\neq 0</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch059/q0032_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"f(x) \\equiv 0\">f(x) \\equiv 0</span>"
         }
       ],
       "answer": "D",
       "answer_index": 3,
-      "analysis_html": "<img src=\"/static/generated/assets/advanced-math/ch059/q0032_analysis.png\"/>"
+      "analysis_html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{有反正法易证} \\, f ( x ) \\equiv 0\">\\text{有反正法易证} \\, f ( x ) \\equiv 0</span>"
     }
-  ]
+  ],
+  "format": "latex",
+  "source_md": "gs/4.2.1_定积分的概念(32题)/4.2.1_定积分的概念(32题).md"
 }

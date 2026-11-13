@@ -13,1120 +13,1122 @@
       "number": 1,
       "header": "#1-Averge",
       "difficulty": "Averge",
-      "prompt_html": "<img src=\"/static/generated/assets/advanced-math/ch126/q0001_prompt.png\"/>",
+      "prompt_html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{二次积分} \\int _ { 0 } ^ { 1 } x ^ { 5 } d x \\int _ { x ^ { 2 } } ^ { 1 } e ^ { - y ^ { 2 } } d y = ( \\ \\ )\">\\text{二次积分} \\int _ { 0 } ^ { 1 } x ^ { 5 } d x \\int _ { x ^ { 2 } } ^ { 1 } e ^ { - y ^ { 2 } } d y = ( \\ \\ )</span>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch126/q0001_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\frac { 1 } { 12 } \\cdot \\frac { 2 } { e }\">\\frac { 1 } { 12 } \\cdot \\frac { 2 } { e }</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch126/q0001_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\frac { 1 } { 12 } ( 1 - e ^ { - 2 } )\">\\frac { 1 } { 12 } ( 1 - e ^ { - 2 } )</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch126/q0001_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\frac {1}{12} (1 - \\frac {2}{e})\">\\frac {1}{12} (1 - \\frac {2}{e})</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch126/q0001_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\frac {1}{12} (2 - \\frac {1}{e})\">\\frac {1}{12} (2 - \\frac {1}{e})</span>"
         }
       ],
       "answer": "C",
       "answer_index": 2,
-      "analysis_html": "<img src=\"/static/generated/assets/advanced-math/ch126/q0001_analysis.png\"/>"
+      "analysis_html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{解答} \\ \\ \\text{原式} = \\int_{0}^{1} e^{-y^{2}} dy \\int_{0}^{\\sqrt{y}} x^{5} dx = \\frac{1}{6} \\int_{0}^{1} y^{3} e^{-y^{2}} dy = \\frac{1}{12} (1 - \\frac{2}{e})\">\\text{解答} \\ \\ \\text{原式} = \\int_{0}^{1} e^{-y^{2}} dy \\int_{0}^{\\sqrt{y}} x^{5} dx = \\frac{1}{6} \\int_{0}^{1} y^{3} e^{-y^{2}} dy = \\frac{1}{12} (1 - \\frac{2}{e})</span>"
     },
     {
       "id": "q0002",
       "number": 2,
       "header": "#2-Averge",
       "difficulty": "Averge",
-      "prompt_html": "<img src=\"/static/generated/assets/advanced-math/ch126/q0002_prompt.png\"/>",
+      "prompt_html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{设}D \\text{是以}a \\text{为半径，以原点为心的圆围成的闭区域，则} \\iint\\limits_{D}|xy|d\\sigma = (\\ )\">\\text{设}D \\text{是以}a \\text{为半径，以原点为心的圆围成的闭区域，则} \\iint\\limits_{D}|xy|d\\sigma = (\\ )</span>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch126/q0002_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\frac{a^{4}}{3}\">\\frac{a^{4}}{3}</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch126/q0002_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\frac{a^{4}}{4}\">\\frac{a^{4}}{4}</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch126/q0002_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\frac{a^{4}}{2}\">\\frac{a^{4}}{2}</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch126/q0002_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\boldsymbol { a } ^ { 4 } \\leftarrow\">\\boldsymbol { a } ^ { 4 } \\leftarrow</span>"
         }
       ],
       "answer": "C",
       "answer_index": 2,
-      "analysis_html": "<img src=\"/static/generated/assets/advanced-math/ch126/q0002_analysis.png\"/>"
+      "analysis_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{aligned}&amp;\\iint_{\\overline{A}}|xy|d\\sigma=\\iint_{\\overline{A}}xyd\\sigma=\\int_{0}^{\\frac{\\pi}{2}}d\\theta\\int_{0}^{a}r^{2}\\sin\\theta\\cos\\theta\\cdot rdr=\\frac{a^{4}}{8}\\\\&amp;\\text{所以}\\iint_{D}|xy|d\\sigma=\\frac{a^{4}}{2}\\end{aligned}\">\\begin{aligned}&amp;\\iint_{\\overline{A}}|xy|d\\sigma=\\iint_{\\overline{A}}xyd\\sigma=\\int_{0}^{\\frac{\\pi}{2}}d\\theta\\int_{0}^{a}r^{2}\\sin\\theta\\cos\\theta\\cdot rdr=\\frac{a^{4}}{8}\\\\&amp;\\text{所以}\\iint_{D}|xy|d\\sigma=\\frac{a^{4}}{2}\\end{aligned}</div>"
     },
     {
       "id": "q0003",
       "number": 3,
       "header": "#3-Averge",
       "difficulty": "Averge",
-      "prompt_html": "<img src=\"/static/generated/assets/advanced-math/ch126/q0003_prompt.png\"/>",
+      "prompt_html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{二重积分} \\ I = \\iint _ { D } y \\Bigl [ 1 + x f ( x ^ { 2 } + y ^ { 2 } ) \\Bigr ] d x d y \\text{（其中积分区域D由曲线} y = x ^ { 2 } \\text{与} y = 1 \\text{所围成）的值是（）}。\">\\text{二重积分} \\ I = \\iint _ { D } y \\Bigl [ 1 + x f ( x ^ { 2 } + y ^ { 2 } ) \\Bigr ] d x d y \\text{（其中积分区域D由曲线} y = x ^ { 2 } \\text{与} y = 1 \\text{所围成）的值是（）}。</span>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch126/q0003_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\frac{3}{4}\">\\frac{3}{4}</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch126/q0003_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\frac{4}{5}\">\\frac{4}{5}</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch126/q0003_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\frac { 2 } { 3 }\">\\frac { 2 } { 3 }</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch126/q0003_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\frac { 5 } { 6 } \\cdot\">\\frac { 5 } { 6 } \\cdot</span>"
         }
       ],
       "answer": "B",
       "answer_index": 1,
-      "analysis_html": "<img src=\"/static/generated/assets/advanced-math/ch126/q0003_analysis.png\"/>"
+      "analysis_html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\iint_{D} xyf(x^{2}+y^{2})dxdy=0 \\Rightarrow I=\\iint_{D} ydxdy=\\int_{-1}^{1} dx \\int_{x^{2}}^{1} ydy=\\frac{1}{2}\\int_{-1}^{1}(1-x^{4})dx=\\frac{4}{5}\">\\iint_{D} xyf(x^{2}+y^{2})dxdy=0 \\Rightarrow I=\\iint_{D} ydxdy=\\int_{-1}^{1} dx \\int_{x^{2}}^{1} ydy=\\frac{1}{2}\\int_{-1}^{1}(1-x^{4})dx=\\frac{4}{5}</span>"
     },
     {
       "id": "q0004",
       "number": 4,
       "header": "#4-Averge",
       "difficulty": "Averge",
-      "prompt_html": "<img src=\"/static/generated/assets/advanced-math/ch126/q0004_prompt.png\"/>",
+      "prompt_html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\int _ { 1 } ^ { 2 } d y \\int _ { y } ^ { 2 } \\frac { \\sin ( x - 1 ) } { x - 1 } d x = ( \\ \\ )\">\\int _ { 1 } ^ { 2 } d y \\int _ { y } ^ { 2 } \\frac { \\sin ( x - 1 ) } { x - 1 } d x = ( \\ \\ )</span>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch126/q0004_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\frac {1}{6} (1 - \\cos 1)\">\\frac {1}{6} (1 - \\cos 1)</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch126/q0004_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\mathbf { 1 - c o s 1 }\">\\mathbf { 1 - c o s 1 }</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch126/q0004_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\frac { 1 } { 2 } ( 1 - \\cos 1 )\">\\frac { 1 } { 2 } ( 1 - \\cos 1 )</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch126/q0004_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\frac { 1 } { 3 } ( 1 - \\cos 1 )\">\\frac { 1 } { 3 } ( 1 - \\cos 1 )</span>"
         }
       ],
       "answer": "B",
       "answer_index": 1,
-      "analysis_html": "<img src=\"/static/generated/assets/advanced-math/ch126/q0004_analysis.png\"/>"
+      "analysis_html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{解答} \\ \\ \\text{原式} = \\int_{1}^{2} \\frac{ \\sin(x-1)}{x-1} dx \\int_{1}^{x} dy = \\int_{1}^{2} \\sin(x-1) dx = 1 - \\cos 1\">\\text{解答} \\ \\ \\text{原式} = \\int_{1}^{2} \\frac{ \\sin(x-1)}{x-1} dx \\int_{1}^{x} dy = \\int_{1}^{2} \\sin(x-1) dx = 1 - \\cos 1</span>"
     },
     {
       "id": "q0005",
       "number": 5,
       "header": "#5-Averge",
       "difficulty": "Averge",
-      "prompt_html": "<img src=\"/static/generated/assets/advanced-math/ch126/q0005_prompt.png\"/>",
+      "prompt_html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\int \\limits _ { D } \\! \\! \\int x ^ { 3 } y ^ { 2 } d x d y \\text {，其中} D: \\ x ^ { 2 } + y ^ { 2 } \\leq R ^ { 2 } . \\ [ \\quad ] \\text {右}\">\\int \\limits _ { D } \\! \\! \\int x ^ { 3 } y ^ { 2 } d x d y \\text {，其中} D: \\ x ^ { 2 } + y ^ { 2 } \\leq R ^ { 2 } . \\ [ \\quad ] \\text {右}</span>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch126/q0005_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\mathbf{2}.\">\\mathbf{2}.</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch126/q0005_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\mathbf { 0 } \\, ;\">\\mathbf { 0 } \\, ;</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch126/q0005_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"- 1 \\, ;\">- 1 \\, ;</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch126/q0005_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\mathbf{1};\">\\mathbf{1};</span>"
         }
       ],
       "answer": "B",
       "answer_index": 1,
-      "analysis_html": "<img src=\"/static/generated/assets/advanced-math/ch126/q0005_analysis.png\"/>"
+      "analysis_html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{解答} \\text{由对称性可知，被积函数} x^{3} y^{2} \\text{是关于} x \\text{的奇函数，积分区域} D \\text{关于} y \\text{轴对称，所以积分为零，故原式} = 0.\\downarrow\">\\text{解答} \\text{由对称性可知，被积函数} x^{3} y^{2} \\text{是关于} x \\text{的奇函数，积分区域} D \\text{关于} y \\text{轴对称，所以积分为零，故原式} = 0.\\downarrow</span>"
     },
     {
       "id": "q0006",
       "number": 6,
       "header": "#6-Averge",
       "difficulty": "Averge",
-      "prompt_html": "<img src=\"/static/generated/assets/advanced-math/ch126/q0006_prompt.png\"/>",
+      "prompt_html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\int \\limits _ { D } \\iint x d x d y , \\text { 其中 } D \\text { 是由 } y = \\frac { 1 } { 2 } x ^ { 2 } \\text { 及直线 } y = x + 4 \\text{ }\\text{围成的区域} [ \\quad ]\">\\int \\limits _ { D } \\iint x d x d y , \\text { 其中 } D \\text { 是由 } y = \\frac { 1 } { 2 } x ^ { 2 } \\text { 及直线 } y = x + 4 \\text{ }\\text{围成的区域} [ \\quad ]</span>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch126/q0006_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\boldsymbol{16.}\">\\boldsymbol{16.}</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch126/q0006_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"7;\">7;</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch126/q0006_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\mathbf { 9 \\, ; }\\,\">\\mathbf { 9 \\, ; }\\,</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch126/q0006_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\textbf{18;}\">\\textbf{18;}</span>"
         }
       ],
       "answer": "D",
       "answer_index": 3,
-      "analysis_html": "<img src=\"/static/generated/assets/advanced-math/ch126/q0006_analysis.png\"/>"
+      "analysis_html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{解答} \\quad \\text{原式} = \\int_{-2}^{4} x \\, dx \\int_{\\frac{1}{2}x^{2}}^{x+4} dy = \\int_{-2}^{4} (x^{2} + 4x - \\frac{1}{2}x^{3}) \\, dx = 18.\">\\text{解答} \\quad \\text{原式} = \\int_{-2}^{4} x \\, dx \\int_{\\frac{1}{2}x^{2}}^{x+4} dy = \\int_{-2}^{4} (x^{2} + 4x - \\frac{1}{2}x^{3}) \\, dx = 18.</span>"
     },
     {
       "id": "q0007",
       "number": 7,
       "header": "#7-Averge",
       "difficulty": "Averge",
-      "prompt_html": "<img src=\"/static/generated/assets/advanced-math/ch126/q0007_prompt.png\"/>",
+      "prompt_html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{计算二次积分} \\int _ { 0 } ^ { a } d x \\int _ { x } ^ { a } e ^ { y ^ { 2 } } d y = ( \\ \\ ) ( a &gt; 0 ) .\">\\text{计算二次积分} \\int _ { 0 } ^ { a } d x \\int _ { x } ^ { a } e ^ { y ^ { 2 } } d y = ( \\ \\ ) ( a &gt; 0 ) .</span>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch126/q0007_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\frac { 1 } { 2 } ( a e ^ { a ^ { 2 } } - \\frac { 1 } { a } )\">\\frac { 1 } { 2 } ( a e ^ { a ^ { 2 } } - \\frac { 1 } { a } )</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch126/q0007_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\frac { \\sqrt { \\pi } } { 2 } a ( e ^ { a ^ { 2 } } - e ^ { a } )\">\\frac { \\sqrt { \\pi } } { 2 } a ( e ^ { a ^ { 2 } } - e ^ { a } )</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch126/q0007_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\frac { 1 } { 2 } ( e ^ { a ^ { 2 } } - 1 )\">\\frac { 1 } { 2 } ( e ^ { a ^ { 2 } } - 1 )</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch126/q0007_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\frac { \\sqrt { \\pi } } { 2 } ( e ^ { \\alpha ^ { 2 } } - 1 ) \\, .\">\\frac { \\sqrt { \\pi } } { 2 } ( e ^ { \\alpha ^ { 2 } } - 1 ) \\, .</span>"
         }
       ],
       "answer": "C",
       "answer_index": 2,
-      "analysis_html": "<img src=\"/static/generated/assets/advanced-math/ch126/q0007_analysis.png\"/>"
+      "analysis_html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\int_{0}^{a} dx \\int_{x}^{a} e^{y^{2}} dy = \\int_{0}^{a} dy \\int_{0}^{y} e^{y^{2}} dx = \\int_{0}^{a} y e^{y^{2}} dy = \\frac{1}{2} (e^{a^{2}}-1)\">\\int_{0}^{a} dx \\int_{x}^{a} e^{y^{2}} dy = \\int_{0}^{a} dy \\int_{0}^{y} e^{y^{2}} dx = \\int_{0}^{a} y e^{y^{2}} dy = \\frac{1}{2} (e^{a^{2}}-1)</span>"
     },
     {
       "id": "q0008",
       "number": 8,
       "header": "#8-Averge",
       "difficulty": "Averge",
-      "prompt_html": "<img src=\"/static/generated/assets/advanced-math/ch126/q0008_prompt.png\"/>",
+      "prompt_html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{二次积分} \\int_{0}^{1} dx \\int_{x^{2}}^{1} \\frac{xy}{\\sqrt{1+y^{3}}} dy = ( \\quad).\">\\text{二次积分} \\int_{0}^{1} dx \\int_{x^{2}}^{1} \\frac{xy}{\\sqrt{1+y^{3}}} dy = ( \\quad).</span>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch126/q0008_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\frac{1}{3}(\\sqrt{2}\\cdot 1)\">\\frac{1}{3}(\\sqrt{2}\\cdot 1)</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch126/q0008_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\frac { \\sqrt { 3 } } { 3 } \\cdot 1\">\\frac { \\sqrt { 3 } } { 3 } \\cdot 1</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch126/q0008_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\frac{1}{3}(\\sqrt{3}-1)\">\\frac{1}{3}(\\sqrt{3}-1)</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch126/q0008_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\frac { \\sqrt { 2 } } { 3 } \\cdot 1\">\\frac { \\sqrt { 2 } } { 3 } \\cdot 1</span>"
         }
       ],
       "answer": "A",
       "answer_index": 0,
-      "analysis_html": "<img src=\"/static/generated/assets/advanced-math/ch126/q0008_analysis.png\"/>"
+      "analysis_html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{解答} \\ \\ \\text{原式} = \\int_{0}^{1} \\frac{y}{\\sqrt{1+y^{3}}} \\, dy \\int_{0}^{\\sqrt{y}} x \\, dx = \\frac{1}{2} \\int_{0}^{1} \\frac{y^{2}}{\\sqrt{1+y^{3}}} \\, dy = \\frac{1}{3} (\\sqrt{2}-1)\">\\text{解答} \\ \\ \\text{原式} = \\int_{0}^{1} \\frac{y}{\\sqrt{1+y^{3}}} \\, dy \\int_{0}^{\\sqrt{y}} x \\, dx = \\frac{1}{2} \\int_{0}^{1} \\frac{y^{2}}{\\sqrt{1+y^{3}}} \\, dy = \\frac{1}{3} (\\sqrt{2}-1)</span>"
     },
     {
       "id": "q0009",
       "number": 9,
       "header": "#9-Averge",
       "difficulty": "Averge",
-      "prompt_html": "<img src=\"/static/generated/assets/advanced-math/ch126/q0009_prompt.png\"/>",
+      "prompt_html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{二次积分} \\int _ { 1 } ^ { 3 } d x \\int _ { x - 1 } ^ { 2 } \\sin y ^ { 2 } d y = ( \\ \\ ) .\">\\text{二次积分} \\int _ { 1 } ^ { 3 } d x \\int _ { x - 1 } ^ { 2 } \\sin y ^ { 2 } d y = ( \\ \\ ) .</span>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch126/q0009_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\frac { 1 } { 2 } ( 1 - \\cos 4 )\">\\frac { 1 } { 2 } ( 1 - \\cos 4 )</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch126/q0009_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\frac{1}{3}(1-\\cos 2)\">\\frac{1}{3}(1-\\cos 2)</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch126/q0009_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\frac { 1 } { 3 } ( 1 - \\cos 4 )\">\\frac { 1 } { 3 } ( 1 - \\cos 4 )</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch126/q0009_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\frac { 1 } { 2 } ( 1 - \\cos 2 )\">\\frac { 1 } { 2 } ( 1 - \\cos 2 )</span>"
         }
       ],
       "answer": "A",
       "answer_index": 0,
-      "analysis_html": "<img src=\"/static/generated/assets/advanced-math/ch126/q0009_analysis.png\"/>"
+      "analysis_html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{解答} \\ \\ \\text{原式} = \\int_{0}^{2} \\sin y^{2} dy \\int_{1}^{1+y} dx = \\int_{0}^{2} y \\sin y^{2} dy = \\frac{1}{2} (1 - \\cos 4)\">\\text{解答} \\ \\ \\text{原式} = \\int_{0}^{2} \\sin y^{2} dy \\int_{1}^{1+y} dx = \\int_{0}^{2} y \\sin y^{2} dy = \\frac{1}{2} (1 - \\cos 4)</span>"
     },
     {
       "id": "q0010",
       "number": 10,
       "header": "#10-Averge",
       "difficulty": "Averge",
-      "prompt_html": "<img src=\"/static/generated/assets/advanced-math/ch126/q0010_prompt.png\"/>",
+      "prompt_html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{二次积分} \\int _ { 1 } ^ { 2 } d x \\int _ { \\sqrt { x } } ^ { x } \\sin \\frac { \\pi x } { 2 y } d y + \\int _ { 2 } ^ { 4 } d x \\int _ { \\sqrt { x } } ^ { 2 } \\sin \\frac { \\pi x } { 2 y } d y = ( \\ \\ )\">\\text{二次积分} \\int _ { 1 } ^ { 2 } d x \\int _ { \\sqrt { x } } ^ { x } \\sin \\frac { \\pi x } { 2 y } d y + \\int _ { 2 } ^ { 4 } d x \\int _ { \\sqrt { x } } ^ { 2 } \\sin \\frac { \\pi x } { 2 y } d y = ( \\ \\ )</span>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch126/q0010_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\frac { 4 } { \\pi ^ { 2 } } + \\frac { 8 } { \\pi ^ { 3 } }\">\\frac { 4 } { \\pi ^ { 2 } } + \\frac { 8 } { \\pi ^ { 3 } }</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch126/q0010_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\frac { 4 } { e ^ { 2 } } + \\frac { 8 } { e ^ { 3 } }\">\\frac { 4 } { e ^ { 2 } } + \\frac { 8 } { e ^ { 3 } }</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch126/q0010_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\frac{2}{e^{2}}+\\frac{4}{e^{3}}.\">\\frac{2}{e^{2}}+\\frac{4}{e^{3}}.</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch126/q0010_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\frac { 2 } { \\pi ^ { 2 } } + \\frac { 4 } { \\pi ^ { 3 } }\">\\frac { 2 } { \\pi ^ { 2 } } + \\frac { 4 } { \\pi ^ { 3 } }</span>"
         }
       ],
       "answer": "A",
       "answer_index": 0,
-      "analysis_html": "<img src=\"/static/generated/assets/advanced-math/ch126/q0010_analysis.png\"/>"
+      "analysis_html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{解答} \\ \\int_{1}^{2} dx \\int_{\\sqrt{x}}^{x} \\sin \\frac{\\pi x}{2y} dy + \\int_{2}^{4} dx \\int_{\\sqrt{x}}^{2} \\sin \\frac{\\pi x}{2y} dy = \\int_{1}^{2} dy \\int_{\\sqrt{y}}^{y^{2}} \\sin \\frac{\\pi x}{2y} dx = \\frac{4}{\\pi^{2}} + \\frac{8}{\\pi^{3}}.\">\\text{解答} \\ \\int_{1}^{2} dx \\int_{\\sqrt{x}}^{x} \\sin \\frac{\\pi x}{2y} dy + \\int_{2}^{4} dx \\int_{\\sqrt{x}}^{2} \\sin \\frac{\\pi x}{2y} dy = \\int_{1}^{2} dy \\int_{\\sqrt{y}}^{y^{2}} \\sin \\frac{\\pi x}{2y} dx = \\frac{4}{\\pi^{2}} + \\frac{8}{\\pi^{3}}.</span>"
     },
     {
       "id": "q0011",
       "number": 11,
       "header": "#11-Averge",
       "difficulty": "Averge",
-      "prompt_html": "<img src=\"/static/generated/assets/advanced-math/ch126/q0011_prompt.png\"/>",
+      "prompt_html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{计算} \\int_{0}^{1} x^{2} dx \\int_{x}^{1} e^{-y^{2}} dy = (\\ ) \\uparrow\">\\text{计算} \\int_{0}^{1} x^{2} dx \\int_{x}^{1} e^{-y^{2}} dy = (\\ ) \\uparrow</span>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch126/q0011_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\frac { 1 } { 6 } \\cdot \\frac { 1 } { e }\">\\frac { 1 } { 6 } \\cdot \\frac { 1 } { e }</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch126/q0011_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\frac { 1 } { 6 } \\cdot \\frac { 1 } { 3 e }\">\\frac { 1 } { 6 } \\cdot \\frac { 1 } { 3 e }</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch126/q0011_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\frac { 1 } { 3 } \\cdot \\frac { 1 } { 6 e }\">\\frac { 1 } { 3 } \\cdot \\frac { 1 } { 6 e }</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch126/q0011_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\frac { 1 } { 3 } \\cdot \\frac { 1 } { e }\">\\frac { 1 } { 3 } \\cdot \\frac { 1 } { e }</span>"
         }
       ],
       "answer": "B",
       "answer_index": 1,
-      "analysis_html": "<img src=\"/static/generated/assets/advanced-math/ch126/q0011_analysis.png\"/>"
+      "analysis_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{aligned}&amp;=\\int_{0}^{1}e^{-y^{2}}dy\\int_{0}^{3}x^{2}dx=\\frac{1}{3}\\int_{0}^{1}y^{3}e^{-y^{2}}dy=-\\frac{1}{6}\\int_{0}^{1}y^{2}de^{-y^{2}}=-\\frac{1}{6}y^{2}e^{-y^{2}}\\left|_{0}^{1}-\\frac{1}{6}\\int_{0}^{1}e^{-y^{2}}d(-y^{2})\\right.\\\\&amp;=\\frac{1}{6}\\cdot\\frac{1}{3e}\\end{aligned}\">\\begin{aligned}&amp;=\\int_{0}^{1}e^{-y^{2}}dy\\int_{0}^{3}x^{2}dx=\\frac{1}{3}\\int_{0}^{1}y^{3}e^{-y^{2}}dy=-\\frac{1}{6}\\int_{0}^{1}y^{2}de^{-y^{2}}=-\\frac{1}{6}y^{2}e^{-y^{2}}\\left|_{0}^{1}-\\frac{1}{6}\\int_{0}^{1}e^{-y^{2}}d(-y^{2})\\right.\\\\&amp;=\\frac{1}{6}\\cdot\\frac{1}{3e}\\end{aligned}</div>"
     },
     {
       "id": "q0012",
       "number": 12,
       "header": "#12-Averge",
       "difficulty": "Averge",
-      "prompt_html": "<img src=\"/static/generated/assets/advanced-math/ch126/q0012_prompt.png\"/>",
+      "prompt_html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\int \\limits _ { D } \\iint | y | d x d y , \\text {其中} D: | x | + | y | \\leq 1 . \\ [ \\quad ]\">\\int \\limits _ { D } \\iint | y | d x d y , \\text {其中} D: | x | + | y | \\leq 1 . \\ [ \\quad ]</span>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch126/q0012_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\frac { 4 } { 3 } \\, ;\">\\frac { 4 } { 3 } \\, ;</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch126/q0012_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\frac{3}{2}\\,;\">\\frac{3}{2}\\,;</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch126/q0012_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\frac{2}{3};\">\\frac{2}{3};</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch126/q0012_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"- \\frac { 2 } { 3 } \\cdot\">- \\frac { 2 } { 3 } \\cdot</span>"
         }
       ],
       "answer": "C",
       "answer_index": 2,
-      "analysis_html": "<img src=\"/static/generated/assets/advanced-math/ch126/q0012_analysis.png\"/>"
+      "analysis_html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{解答} \\ \\ \\text{原式} = 4 \\int _ { 0 } ^ { 1 } d x \\int _ { 0 } ^ { 1 - x } y \\, d y = 2 \\int _ { 0 } ^ { 1 } ( 1 - x ) ^ { 2 } \\, d x = \\frac { 2 } { 3 } .\">\\text{解答} \\ \\ \\text{原式} = 4 \\int _ { 0 } ^ { 1 } d x \\int _ { 0 } ^ { 1 - x } y \\, d y = 2 \\int _ { 0 } ^ { 1 } ( 1 - x ) ^ { 2 } \\, d x = \\frac { 2 } { 3 } .</span>"
     },
     {
       "id": "q0013",
       "number": 13,
       "header": "#13-Averge",
       "difficulty": "Averge",
-      "prompt_html": "<img src=\"/static/generated/assets/advanced-math/ch126/q0013_prompt.png\"/>",
+      "prompt_html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{若区域}D \\text{为}0\\leq y\\leq x^{2},|x|\\leq 2，\\text{则}\\iint_{D}xy^{2}dxdy=(\\ ).\">\\text{若区域}D \\text{为}0\\leq y\\leq x^{2},|x|\\leq 2，\\text{则}\\iint_{D}xy^{2}dxdy=(\\ ).</span>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch126/q0013_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\boldsymbol { 0 }\">\\boldsymbol { 0 }</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch126/q0013_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\frac{64}{3}\">\\frac{64}{3}</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch126/q0013_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\frac{32}{3}\">\\frac{32}{3}</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch126/q0013_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"256 \\leftarrow\">256 \\leftarrow</span>"
         }
       ],
       "answer": "A",
       "answer_index": 0,
-      "analysis_html": "<img src=\"/static/generated/assets/advanced-math/ch126/q0013_analysis.png\"/>"
+      "analysis_html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{解答 因为 D 关于 y 轴对称，而被积函数是关于 x 的奇函数，所以} \\iint\\limits_{D} x y ^ { 2 } d x d y = 0\">\\text{解答 因为 D 关于 y 轴对称，而被积函数是关于 x 的奇函数，所以} \\iint\\limits_{D} x y ^ { 2 } d x d y = 0</span>"
     },
     {
       "id": "q0014",
       "number": 14,
       "header": "#14-Averge",
       "difficulty": "Averge",
-      "prompt_html": "<img src=\"/static/generated/assets/advanced-math/ch126/q0014_prompt.png\"/>",
+      "prompt_html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text {二次积分} \\int _ { 0 } ^ { 1 } d y \\int _ { y } ^ { 1 } \\sin x ^ { 2 } d x = ( ) \\uparrow\">\\text {二次积分} \\int _ { 0 } ^ { 1 } d y \\int _ { y } ^ { 1 } \\sin x ^ { 2 } d x = ( ) \\uparrow</span>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch126/q0014_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\frac { 1 } { 2 } ( 1 - \\cos 1 )\">\\frac { 1 } { 2 } ( 1 - \\cos 1 )</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch126/q0014_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\frac { 1 } { 6 } - \\cos 1 \\leftarrow\">\\frac { 1 } { 6 } - \\cos 1 \\leftarrow</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch126/q0014_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\frac { 1 } { 6 } ( 1 - \\cos 1 )\">\\frac { 1 } { 6 } ( 1 - \\cos 1 )</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch126/q0014_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\frac { 1 } { 2 } - \\cos 1\">\\frac { 1 } { 2 } - \\cos 1</span>"
         }
       ],
       "answer": "A",
       "answer_index": 0,
-      "analysis_html": "<img src=\"/static/generated/assets/advanced-math/ch126/q0014_analysis.png\"/>"
+      "analysis_html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{解答} \\ \\ \\text{原式} = \\int_{0}^{1} dx \\int_{0}^{x} \\sin x^{2} dy = \\int_{0}^{1} x \\sin x^{2} dx = \\frac{1}{2} ( 1 - \\cos 1 )\">\\text{解答} \\ \\ \\text{原式} = \\int_{0}^{1} dx \\int_{0}^{x} \\sin x^{2} dy = \\int_{0}^{1} x \\sin x^{2} dx = \\frac{1}{2} ( 1 - \\cos 1 )</span>"
     },
     {
       "id": "q0015",
       "number": 15,
       "header": "#15-Averge",
       "difficulty": "Averge",
-      "prompt_html": "<img src=\"/static/generated/assets/advanced-math/ch126/q0015_prompt.png\"/>",
+      "prompt_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{aligned}&amp; \\text{算二重积分} \\iint\\limits_{D} f(x,y) dx dy, \\text{ 其中 } f(x,y)=\\begin{cases} e^{-(x+y)}, x \\geq 0, y \\geq 0, \\\\ 0, \\text{其他点} \\end{cases}, \\text{ D 是由直线} \\\\&amp; x+y=1, x+y=2, y=0, y=3 \\text{ 所围成的区域.}(\\quad) \\end{aligned}\">\\begin{aligned}&amp; \\text{算二重积分} \\iint\\limits_{D} f(x,y) dx dy, \\text{ 其中 } f(x,y)=\\begin{cases} e^{-(x+y)}, x \\geq 0, y \\geq 0, \\\\ 0, \\text{其他点} \\end{cases}, \\text{ D 是由直线} \\\\&amp; x+y=1, x+y=2, y=0, y=3 \\text{ 所围成的区域.}(\\quad) \\end{aligned}</div>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch126/q0015_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"2 e - 3 e ^ { - 2 }\">2 e - 3 e ^ { - 2 }</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch126/q0015_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"3e-2e^{-2}\">3e-2e^{-2}</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch126/q0015_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"2e^{-1}-3e^{-2}\">2e^{-1}-3e^{-2}</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch126/q0015_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\, 3 e ^ { - 1 } - 2 e ^ { - 2 }\">\\, 3 e ^ { - 1 } - 2 e ^ { - 2 }</span>"
         }
       ],
       "answer": "C",
       "answer_index": 2,
-      "analysis_html": "<img src=\"/static/generated/assets/advanced-math/ch126/q0015_analysis.png\"/>"
+      "analysis_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{aligned} \\text{解答 原式} &amp; = \\int_{0}^{1} dx \\int_{1-x}^{2-x} e^{-(x+y)} dy + \\int_{1}^{2} dx \\int_{0}^{2-x} e^{-(x+y)} dy \\\\ &amp; = \\int_{0}^{1} (e^{-1}-e^{-2}) dx + \\int_{1}^{2} (e^{-x}-e^{-2}) dx = 2e^{-1} - 3e^{-2} \\end{aligned}\">\\begin{aligned} \\text{解答 原式} &amp; = \\int_{0}^{1} dx \\int_{1-x}^{2-x} e^{-(x+y)} dy + \\int_{1}^{2} dx \\int_{0}^{2-x} e^{-(x+y)} dy \\\\ &amp; = \\int_{0}^{1} (e^{-1}-e^{-2}) dx + \\int_{1}^{2} (e^{-x}-e^{-2}) dx = 2e^{-1} - 3e^{-2} \\end{aligned}</div>"
     },
     {
       "id": "q0016",
       "number": 16,
       "header": "#16-Averge",
       "difficulty": "Averge",
-      "prompt_html": "<img src=\"/static/generated/assets/advanced-math/ch126/q0016_prompt.png\"/>",
+      "prompt_html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{二次积分} \\int_{0}^{\\frac{\\pi}{2}} dy \\int_{y}^{\\frac{\\pi}{2}} \\frac{\\sin x}{x} dx = (\\ )\">\\text{二次积分} \\int_{0}^{\\frac{\\pi}{2}} dy \\int_{y}^{\\frac{\\pi}{2}} \\frac{\\sin x}{x} dx = (\\ )</span>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch126/q0016_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"4 \\leftarrow\">4 \\leftarrow</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch126/q0016_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"3\">3</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch126/q0016_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"2\">2</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch126/q0016_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\mathbf { 1 }\">\\mathbf { 1 }</span>"
         }
       ],
       "answer": "D",
       "answer_index": 3,
-      "analysis_html": "<img src=\"/static/generated/assets/advanced-math/ch126/q0016_analysis.png\"/>"
+      "analysis_html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{解答} \\ \\ \\text{原式} = \\int_{0}^{\\frac{\\pi}{2}} \\frac{\\sin x}{x} dx \\int_{0}^{x} dy = \\int_{0}^{\\frac{\\pi}{2}} \\sin x dx = 1\">\\text{解答} \\ \\ \\text{原式} = \\int_{0}^{\\frac{\\pi}{2}} \\frac{\\sin x}{x} dx \\int_{0}^{x} dy = \\int_{0}^{\\frac{\\pi}{2}} \\sin x dx = 1</span>"
     },
     {
       "id": "q0017",
       "number": 17,
       "header": "#17-Averge",
       "difficulty": "Averge",
-      "prompt_html": "<img src=\"/static/generated/assets/advanced-math/ch126/q0017_prompt.png\"/>",
+      "prompt_html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\int \\limits _ { D } \\iint ( | x | + y ) d x d y \\text {，其中} D: | x | + | y | \\leq 1 . \\ [ \\quad ] .\">\\int \\limits _ { D } \\iint ( | x | + y ) d x d y \\text {，其中} D: | x | + | y | \\leq 1 . \\ [ \\quad ] .</span>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch126/q0017_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"- \\frac { 1 } { 3 } \\, ;\">- \\frac { 1 } { 3 } \\, ;</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch126/q0017_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"- \\frac { 2 } { 3 } ;\">- \\frac { 2 } { 3 } ;</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch126/q0017_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\tilde{\\frac{1}{3}}.\">\\tilde{\\frac{1}{3}}.</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch126/q0017_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\frac{2}{3};\">\\frac{2}{3};</span>"
         }
       ],
       "answer": "D",
       "answer_index": 3,
-      "analysis_html": "<img src=\"/static/generated/assets/advanced-math/ch126/q0017_analysis.png\"/>"
+      "analysis_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\text{解答} \\quad \\text{原式} = \\iint\\limits_{D} |x| dx dy + \\iint\\limits_{D} y dx dy = 4 \\iint\\limits_{\\substack{0 \\leq y \\leq 1-x \\\\ 0 \\leq x \\leq 1}} x dx dy + 0 \\quad = 4 \\int_{0}^{1} dx \\int_{0}^{1-x} x dy = 4 \\int_{0}^{1} x (1-x) dx = \\frac{2}{3}.\">\\text{解答} \\quad \\text{原式} = \\iint\\limits_{D} |x| dx dy + \\iint\\limits_{D} y dx dy = 4 \\iint\\limits_{\\substack{0 \\leq y \\leq 1-x \\\\ 0 \\leq x \\leq 1}} x dx dy + 0 \\quad = 4 \\int_{0}^{1} dx \\int_{0}^{1-x} x dy = 4 \\int_{0}^{1} x (1-x) dx = \\frac{2}{3}.</div>"
     },
     {
       "id": "q0018",
       "number": 18,
       "header": "#18-Averge",
       "difficulty": "Averge",
-      "prompt_html": "<img src=\"/static/generated/assets/advanced-math/ch126/q0018_prompt.png\"/>",
+      "prompt_html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{二次积分} \\int_{0}^{1} dx \\int_{x}^{1} x \\sin y^{3} dy = (\\ ) \\leftarrow\">\\text{二次积分} \\int_{0}^{1} dx \\int_{x}^{1} x \\sin y^{3} dy = (\\ ) \\leftarrow</span>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch126/q0018_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\frac { 1 } { 6 } - \\cos 1\">\\frac { 1 } { 6 } - \\cos 1</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch126/q0018_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\frac {1}{4} (1 - \\cos 1)\">\\frac {1}{4} (1 - \\cos 1)</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch126/q0018_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\frac { 1 } { 4 } - \\cos 1\">\\frac { 1 } { 4 } - \\cos 1</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch126/q0018_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\frac {1}{6} (1 - \\cos 1)\">\\frac {1}{6} (1 - \\cos 1)</span>"
         }
       ],
       "answer": "D",
       "answer_index": 3,
-      "analysis_html": "<img src=\"/static/generated/assets/advanced-math/ch126/q0018_analysis.png\"/>"
+      "analysis_html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{解答} \\ \\ \\text{原式} = \\int_{0}^{1} dy \\int_{0}^{y} x \\sin y^{3} dx = \\int_{0}^{1} \\sin y^{3} \\cdot \\frac{1}{2} y^{2} dy = \\frac{1}{6} ( 1 - \\cos 1 )\">\\text{解答} \\ \\ \\text{原式} = \\int_{0}^{1} dy \\int_{0}^{y} x \\sin y^{3} dx = \\int_{0}^{1} \\sin y^{3} \\cdot \\frac{1}{2} y^{2} dy = \\frac{1}{6} ( 1 - \\cos 1 )</span>"
     },
     {
       "id": "q0019",
       "number": 19,
       "header": "#19-Averge",
       "difficulty": "Averge",
-      "prompt_html": "<img src=\"/static/generated/assets/advanced-math/ch126/q0019_prompt.png\"/>",
+      "prompt_html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{计算二重积分} \\iint\\limits_{D} (|x|+|y|) dxdy,\\ \\text{其中} D: x^{2}+y^{2} \\leq 1. [\\quad] \\leftarrow\">\\text{计算二重积分} \\iint\\limits_{D} (|x|+|y|) dxdy,\\ \\text{其中} D: x^{2}+y^{2} \\leq 1. [\\quad] \\leftarrow</span>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch126/q0019_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"2 \\frac{2}{3};\">2 \\frac{2}{3};</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch126/q0019_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\scriptstyle 3 \\frac{2}{3}.\">\\scriptstyle 3 \\frac{2}{3}.</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch126/q0019_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"1 \\frac{2}{3};\">1 \\frac{2}{3};</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch126/q0019_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"1 \\frac { 1 } { 3 } \\, ;\">1 \\frac { 1 } { 3 } \\, ;</span>"
         }
       ],
       "answer": "A",
       "answer_index": 0,
-      "analysis_html": "<img src=\"/static/generated/assets/advanced-math/ch126/q0019_analysis.png\"/>"
+      "analysis_html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{解答} \\ \\ \\text{原式} = 4 \\int_{0}^{1} dx \\int_{0}^{\\sqrt{1-x^{2}}} (x+y) dy = 4 \\int_{0}^{1} (x \\sqrt{1-x^{2}} + \\frac{1}{2} - \\frac{1}{2} x^{2}) dx = 2 \\frac{2}{3}.\">\\text{解答} \\ \\ \\text{原式} = 4 \\int_{0}^{1} dx \\int_{0}^{\\sqrt{1-x^{2}}} (x+y) dy = 4 \\int_{0}^{1} (x \\sqrt{1-x^{2}} + \\frac{1}{2} - \\frac{1}{2} x^{2}) dx = 2 \\frac{2}{3}.</span>"
     },
     {
       "id": "q0020",
       "number": 20,
       "header": "#20-Averge",
       "difficulty": "Averge",
-      "prompt_html": "<img src=\"/static/generated/assets/advanced-math/ch126/q0020_prompt.png\"/>",
+      "prompt_html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\int \\limits _ { D } \\int \\sin ^ { 3 } y d \\sigma = ( ) .\">\\int \\limits _ { D } \\int \\sin ^ { 3 } y d \\sigma = ( ) .</span>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch126/q0020_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\mathbf { 0 }\">\\mathbf { 0 }</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch126/q0020_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"1\">1</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch126/q0020_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\frac { \\pi } { 2 } \\leftarrow\">\\frac { \\pi } { 2 } \\leftarrow</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch126/q0020_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\pi\">\\pi</span>"
         }
       ],
       "answer": "A",
       "answer_index": 0,
-      "analysis_html": "<img src=\"/static/generated/assets/advanced-math/ch126/q0020_analysis.png\"/>"
+      "analysis_html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\int \\limits _ { D } \\int \\sin ^ { 3 } y d \\sigma = 0\">\\int \\limits _ { D } \\int \\sin ^ { 3 } y d \\sigma = 0</span>"
     },
     {
       "id": "q0021",
       "number": 21,
       "header": "#21-Averge",
       "difficulty": "Averge",
-      "prompt_html": "<img src=\"/static/generated/assets/advanced-math/ch126/q0021_prompt.png\"/>",
+      "prompt_html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\int \\limits _ { D } \\iint x ^ { 2 } y \\cos ( x y ^ { 2 } ) \\ d x d y , \\text {其中}D: 0 \\leq x \\leq \\frac { \\pi } { 2 } , 0 \\leq y \\leq 2 , ( \\ \\ )\">\\int \\limits _ { D } \\iint x ^ { 2 } y \\cos ( x y ^ { 2 } ) \\ d x d y , \\text {其中}D: 0 \\leq x \\leq \\frac { \\pi } { 2 } , 0 \\leq y \\leq 2 , ( \\ \\ )</span>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch126/q0021_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"- \\frac { \\pi } { 8 }\">- \\frac { \\pi } { 8 }</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch126/q0021_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\frac { \\pi } { 8 } \\leftarrow\">\\frac { \\pi } { 8 } \\leftarrow</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch126/q0021_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\frac { \\pi } { 16 }\">\\frac { \\pi } { 16 }</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch126/q0021_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\frac {\\pi}{16}\">\\frac {\\pi}{16}</span>"
         }
       ],
       "answer": "C",
       "answer_index": 2,
-      "analysis_html": "<img src=\"/static/generated/assets/advanced-math/ch126/q0021_analysis.png\"/>"
+      "analysis_html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{解答} \\ \\ \\text{原式} = \\int_{0}^{\\frac{\\pi}{2}} dx \\int_{0}^{2} x^{2} y \\cos( x y^{2}) dy = \\int_{0}^{\\frac{\\pi}{2}} \\frac{x}{2} \\sin 4 x dx = - \\frac{\\pi}{16}.\">\\text{解答} \\ \\ \\text{原式} = \\int_{0}^{\\frac{\\pi}{2}} dx \\int_{0}^{2} x^{2} y \\cos( x y^{2}) dy = \\int_{0}^{\\frac{\\pi}{2}} \\frac{x}{2} \\sin 4 x dx = - \\frac{\\pi}{16}.</span>"
     },
     {
       "id": "q0022",
       "number": 22,
       "header": "#22-Averge",
       "difficulty": "Averge",
-      "prompt_html": "<img src=\"/static/generated/assets/advanced-math/ch126/q0022_prompt.png\"/>",
+      "prompt_html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{二重积分} \\, I = \\iint\\limits_{D} y e^{xy} dxdy = [\\quad], \\ \\text{其中} \\ D: 1 \\leq x \\leq 2, \\frac{1}{x} \\leq y \\leq 2 \\ .\">\\text{二重积分} \\, I = \\iint\\limits_{D} y e^{xy} dxdy = [\\quad], \\ \\text{其中} \\ D: 1 \\leq x \\leq 2, \\frac{1}{x} \\leq y \\leq 2 \\ .</span>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch126/q0022_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\frac{1}{2}e^{4}+e^{-2};\">\\frac{1}{2}e^{4}+e^{-2};</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch126/q0022_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\frac{1}{2}(e^{4}+e^{-2})\\,;\">\\frac{1}{2}(e^{4}+e^{-2})\\,;</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch126/q0022_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\frac{1}{2}(e^{4}-e^{2})\\,.\">\\frac{1}{2}(e^{4}-e^{2})\\,.</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch126/q0022_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\frac{1}{2} e^{4} - e^{2}\\, ;\">\\frac{1}{2} e^{4} - e^{2}\\, ;</span>"
         }
       ],
       "answer": "D",
       "answer_index": 3,
-      "analysis_html": "<img src=\"/static/generated/assets/advanced-math/ch126/q0022_analysis.png\"/>"
+      "analysis_html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{解答}\\quad I=\\int_{\\frac{1}{2}}^{1}dy\\int_{\\frac{1}{y}}^{2}ye^{xy}dx+\\int_{1}^{2}dy\\int_{1}^{2}ye^{xy}dx=\\int_{\\frac{1}{2}}^{1}(e^{2y}-e)dy+\\int_{1}^{2}(e^{2y}-e^{y})dy=\\frac{1}{2}e^{4}-e^{2}.\">\\text{解答}\\quad I=\\int_{\\frac{1}{2}}^{1}dy\\int_{\\frac{1}{y}}^{2}ye^{xy}dx+\\int_{1}^{2}dy\\int_{1}^{2}ye^{xy}dx=\\int_{\\frac{1}{2}}^{1}(e^{2y}-e)dy+\\int_{1}^{2}(e^{2y}-e^{y})dy=\\frac{1}{2}e^{4}-e^{2}.</span>"
     },
     {
       "id": "q0023",
       "number": 23,
       "header": "#23-Averge",
       "difficulty": "Averge",
-      "prompt_html": "<img src=\"/static/generated/assets/advanced-math/ch126/q0023_prompt.png\"/>",
+      "prompt_html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{二次积分} \\int_{0}^{1} dx \\int_{0}^{\\sqrt{x}} e^{-\\frac{y^{2}}{2}} dy = (\\ \\ )\">\\text{二次积分} \\int_{0}^{1} dx \\int_{0}^{\\sqrt{x}} e^{-\\frac{y^{2}}{2}} dy = (\\ \\ )</span>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch126/q0023_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"e ^ { - \\frac { 1 } { 2 } }\">e ^ { - \\frac { 1 } { 2 } }</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch126/q0023_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"e ^ { - 1 }\">e ^ { - 1 }</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch126/q0023_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"e ^ { \\frac { 1 } { 2 } }\">e ^ { \\frac { 1 } { 2 } }</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch126/q0023_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"e ^ { - 2 } \\cdot\">e ^ { - 2 } \\cdot</span>"
         }
       ],
       "answer": "A",
       "answer_index": 0,
-      "analysis_html": "<img src=\"/static/generated/assets/advanced-math/ch126/q0023_analysis.png\"/>"
+      "analysis_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{aligned}&amp;\\int_{0}^{1}dy\\int_{y^{2}}^{1}e^{-\\frac{y^{2}}{2}}dx=\\int_{0}^{1}e^{-\\frac{y^{2}}{2}}(1-y^{2})dy=\\int_{0}^{1}e^{-\\frac{y^{2}}{2}}dy-\\int_{0}^{1}y^{2}e^{-\\frac{y^{2}}{2}}dy\\\\&amp;=\\int_{0}^{1}e^{-\\frac{y^{2}}{2}}dy-(-e^{-\\frac{1}{2}}+\\int_{0}^{1}e^{-\\frac{y^{2}}{2}}dy)=e^{-\\frac{1}{2}}\\end{aligned}\">\\begin{aligned}&amp;\\int_{0}^{1}dy\\int_{y^{2}}^{1}e^{-\\frac{y^{2}}{2}}dx=\\int_{0}^{1}e^{-\\frac{y^{2}}{2}}(1-y^{2})dy=\\int_{0}^{1}e^{-\\frac{y^{2}}{2}}dy-\\int_{0}^{1}y^{2}e^{-\\frac{y^{2}}{2}}dy\\\\&amp;=\\int_{0}^{1}e^{-\\frac{y^{2}}{2}}dy-(-e^{-\\frac{1}{2}}+\\int_{0}^{1}e^{-\\frac{y^{2}}{2}}dy)=e^{-\\frac{1}{2}}\\end{aligned}</div>"
     },
     {
       "id": "q0024",
       "number": 24,
       "header": "#24-Averge",
       "difficulty": "Averge",
-      "prompt_html": "<img src=\"/static/generated/assets/advanced-math/ch126/q0024_prompt.png\"/>",
+      "prompt_html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{积分} \\int _ { - 1 } ^ { 1 } d x \\int _ { - 1 } ^ { x } x \\sqrt { 1 - x ^ { 2 } - y ^ { 2 } } \\, d y = ( \\ \\ ) .\">\\text{积分} \\int _ { - 1 } ^ { 1 } d x \\int _ { - 1 } ^ { x } x \\sqrt { 1 - x ^ { 2 } - y ^ { 2 } } \\, d y = ( \\ \\ ) .</span>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch126/q0024_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\mathbf{1} \\leftarrow\">\\mathbf{1} \\leftarrow</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch126/q0024_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\frac { 1 } { 2 }\">\\frac { 1 } { 2 }</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch126/q0024_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\mathbf { - 1 }\">\\mathbf { - 1 }</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch126/q0024_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"0\">0</span>"
         }
       ],
       "answer": "B",
       "answer_index": 1,
-      "analysis_html": "<img src=\"/static/generated/assets/advanced-math/ch126/q0024_analysis.png\"/>"
+      "analysis_html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{解答} \\ \\ \\text{原式} = \\int _ { - 1 } ^ { 1 } d y \\int _ { y } ^ { 1 } x \\sqrt { 1 - x ^ { 2 } - y ^ { 2 } } \\, d x = \\int _ { - 1 } ^ { 1 } \\frac { 1 } { 3 } ( 1 - | y | ^ { 3 } ) d y = \\frac { 1 } { 2 }\">\\text{解答} \\ \\ \\text{原式} = \\int _ { - 1 } ^ { 1 } d y \\int _ { y } ^ { 1 } x \\sqrt { 1 - x ^ { 2 } - y ^ { 2 } } \\, d x = \\int _ { - 1 } ^ { 1 } \\frac { 1 } { 3 } ( 1 - | y | ^ { 3 } ) d y = \\frac { 1 } { 2 }</span>"
     },
     {
       "id": "q0025",
       "number": 25,
       "header": "#25-Averge",
       "difficulty": "Averge",
-      "prompt_html": "<img src=\"/static/generated/assets/advanced-math/ch126/q0025_prompt.png\"/>",
+      "prompt_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{aligned}&amp;\\text{计算二重积分}\\iint\\limits_{D}y^{2}dxdy,\\text{其中}D \\text{是由摆线}\\begin{cases}x=a(t-\\sin t)\\\\y=a(1-\\cos t)\\end{cases}\\quad(0\\leq t\\leq 2\\pi)\\\\&amp;\\text{与}x\\text{轴所围成的区域}(a&gt;0)，( \\quad )\\uparrow\\end{aligned}\">\\begin{aligned}&amp;\\text{计算二重积分}\\iint\\limits_{D}y^{2}dxdy,\\text{其中}D \\text{是由摆线}\\begin{cases}x=a(t-\\sin t)\\\\y=a(1-\\cos t)\\end{cases}\\quad(0\\leq t\\leq 2\\pi)\\\\&amp;\\text{与}x\\text{轴所围成的区域}(a&gt;0)，( \\quad )\\uparrow\\end{aligned}</div>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch126/q0025_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\frac {35}{12} \\pi a ^ {4}\">\\frac {35}{12} \\pi a ^ {4}</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch126/q0025_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\boldsymbol{8\\pi a^{3}}\">\\boldsymbol{8\\pi a^{3}}</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch126/q0025_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\frac {35}{12} \\pi a ^ {3}\">\\frac {35}{12} \\pi a ^ {3}</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch126/q0025_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\boldsymbol{.8\\pi a^{4}}\">\\boldsymbol{.8\\pi a^{4}}</span>"
         }
       ],
       "answer": "A",
       "answer_index": 0,
-      "analysis_html": "<img src=\"/static/generated/assets/advanced-math/ch126/q0025_analysis.png\"/>"
+      "analysis_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{aligned}\\text{解答~设摆线方程为 }&amp;y=f(x), \\ \\text{⊥} \\\\ \\text{原式}=&amp; \\int_{0}^{2\\pi a} dx \\int_{0}^{f(x)} y^{2} dy = \\frac{1}{3} \\int_{0}^{2\\pi a} f^{3}(x) dx = \\frac{1}{3} \\int_{0}^{2\\pi} a^{4} (1-\\cos t)^{4} dt = \\frac{64}{3} a^{4} \\int_{0}^{\\frac{\\pi}{2}} \\sin^{8} u du \\\\=&amp; \\frac{35}{12} \\pi a^{4} \\text{⊥}\\end{aligned}\">\\begin{aligned}\\text{解答~设摆线方程为 }&amp;y=f(x), \\ \\text{⊥} \\\\ \\text{原式}=&amp; \\int_{0}^{2\\pi a} dx \\int_{0}^{f(x)} y^{2} dy = \\frac{1}{3} \\int_{0}^{2\\pi a} f^{3}(x) dx = \\frac{1}{3} \\int_{0}^{2\\pi} a^{4} (1-\\cos t)^{4} dt = \\frac{64}{3} a^{4} \\int_{0}^{\\frac{\\pi}{2}} \\sin^{8} u du \\\\=&amp; \\frac{35}{12} \\pi a^{4} \\text{⊥}\\end{aligned}</div>"
     },
     {
       "id": "q0026",
       "number": 26,
       "header": "#26-Averge",
       "difficulty": "Averge",
-      "prompt_html": "<img src=\"/static/generated/assets/advanced-math/ch126/q0026_prompt.png\"/>",
+      "prompt_html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{二次积分} \\int_{0}^{1} dy \\int_{\\arcsin y}^{\\pi-\\arcsin y} x dx = (\\ )\">\\text{二次积分} \\int_{0}^{1} dy \\int_{\\arcsin y}^{\\pi-\\arcsin y} x dx = (\\ )</span>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch126/q0026_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"4 \\pi \\star\">4 \\pi \\star</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch126/q0026_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\pi\">\\pi</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch126/q0026_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"2 \\pi\">2 \\pi</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch126/q0026_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"3 \\pi\">3 \\pi</span>"
         }
       ],
       "answer": "B",
       "answer_index": 1,
-      "analysis_html": "<img src=\"/static/generated/assets/advanced-math/ch126/q0026_analysis.png\"/>"
+      "analysis_html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{解答} \\ \\ \\text{原式} = \\int _ { 0 } ^ { \\pi } x \\, d x \\int _ { 0 } ^ { \\sin x } d y = \\int _ { 0 } ^ { \\pi } x \\sin x \\, d x = \\pi\">\\text{解答} \\ \\ \\text{原式} = \\int _ { 0 } ^ { \\pi } x \\, d x \\int _ { 0 } ^ { \\sin x } d y = \\int _ { 0 } ^ { \\pi } x \\sin x \\, d x = \\pi</span>"
     },
     {
       "id": "q0027",
       "number": 27,
       "header": "#27-Averge",
       "difficulty": "Averge",
-      "prompt_html": "<img src=\"/static/generated/assets/advanced-math/ch126/q0027_prompt.png\"/>",
+      "prompt_html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{二重积分} \\int_{0}^{1} dy \\int_{0}^{y} e^{-y^{2}} dx = \\ \\ [ \\quad \\quad ].\">\\text{二重积分} \\int_{0}^{1} dy \\int_{0}^{y} e^{-y^{2}} dx = \\ \\ [ \\quad \\quad ].</span>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch126/q0027_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\overset{\\frown}{\\frac{1}{e}}+1.\">\\overset{\\frown}{\\frac{1}{e}}+1.</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch126/q0027_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\frac{1}{2}(1-\\frac{1}{e})\\,;\">\\frac{1}{2}(1-\\frac{1}{e})\\,;</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch126/q0027_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"e + \\frac{1}{2}\\,;\">e + \\frac{1}{2}\\,;</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch126/q0027_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\frac { 1 } { 3 } ( 1 + \\frac { 1 } { e } ) \\, ;\">\\frac { 1 } { 3 } ( 1 + \\frac { 1 } { e } ) \\, ;</span>"
         }
       ],
       "answer": "B",
       "answer_index": 1,
-      "analysis_html": "<img src=\"/static/generated/assets/advanced-math/ch126/q0027_analysis.png\"/>"
+      "analysis_html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{解答} \\quad \\int_{0}^{1} dy \\int_{0}^{y} e^{-y^{2}}\\, dx = \\int_{0}^{1} y e^{-y^{2}}\\, dy = \\frac{1}{2} (-e^{-y^{2}}) \\Bigg|_{0}^{1} = \\frac{1}{2} (1 - \\frac{1}{e}).\">\\text{解答} \\quad \\int_{0}^{1} dy \\int_{0}^{y} e^{-y^{2}}\\, dx = \\int_{0}^{1} y e^{-y^{2}}\\, dy = \\frac{1}{2} (-e^{-y^{2}}) \\Bigg|_{0}^{1} = \\frac{1}{2} (1 - \\frac{1}{e}).</span>"
     },
     {
       "id": "q0028",
       "number": 28,
       "header": "#28-Averge",
       "difficulty": "Averge",
-      "prompt_html": "<img src=\"/static/generated/assets/advanced-math/ch126/q0028_prompt.png\"/>",
+      "prompt_html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{积分} \\int_{0}^{1} dx \\int_{0}^{a} x \\sqrt{1-x^{2}+y^{2}} dy = ( \\quad ) .\">\\text{积分} \\int_{0}^{1} dx \\int_{0}^{a} x \\sqrt{1-x^{2}+y^{2}} dy = ( \\quad ) .</span>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch126/q0028_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\mathbf { 2 }\">\\mathbf { 2 }</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch126/q0028_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"4 \\leftarrow\">4 \\leftarrow</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch126/q0028_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\frac { 1 } { 2 }\">\\frac { 1 } { 2 }</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch126/q0028_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\frac { 1 } { 4 }\">\\frac { 1 } { 4 }</span>"
         }
       ],
       "answer": "D",
       "answer_index": 3,
-      "analysis_html": "<img src=\"/static/generated/assets/advanced-math/ch126/q0028_analysis.png\"/>"
+      "analysis_html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{原式} = \\int_{0}^{1} dy \\int_{y}^{1} x \\sqrt{1-x^{2}+y^{2}} \\, dx = - \\frac{1}{3} \\int_{0}^{1} (y^{3}-1) dy = \\frac{1}{4} \\, .\">\\text{原式} = \\int_{0}^{1} dy \\int_{y}^{1} x \\sqrt{1-x^{2}+y^{2}} \\, dx = - \\frac{1}{3} \\int_{0}^{1} (y^{3}-1) dy = \\frac{1}{4} \\, .</span>"
     },
     {
       "id": "q0029",
       "number": 29,
       "header": "#29-Averge",
       "difficulty": "Averge",
-      "prompt_html": "<img src=\"/static/generated/assets/advanced-math/ch126/q0029_prompt.png\"/>",
+      "prompt_html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\int \\limits _ { D } \\int \\limits _ { D } | y - 2 x | d x d y , \\text {其中} D : 0 \\leq x \\leq 1 , 0 \\leq y \\leq 2 , ( \\quad )\">\\int \\limits _ { D } \\int \\limits _ { D } | y - 2 x | d x d y , \\text {其中} D : 0 \\leq x \\leq 1 , 0 \\leq y \\leq 2 , ( \\quad )</span>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch126/q0029_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\mathbf { 1 }\">\\mathbf { 1 }</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch126/q0029_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\frac { 1 } { 2 }\">\\frac { 1 } { 2 }</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch126/q0029_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\frac{2}{3}.\">\\frac{2}{3}.</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch126/q0029_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\frac { 4 } { 3 }\">\\frac { 4 } { 3 }</span>"
         }
       ],
       "answer": "D",
       "answer_index": 3,
-      "analysis_html": "<img src=\"/static/generated/assets/advanced-math/ch126/q0029_analysis.png\"/>"
+      "analysis_html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{解答} \\ \\text{计算原式} = \\int_{0}^{1} dx \\int_{0}^{2x} (2x-y) dy + \\int_{0}^{1} dx \\int_{2x}^{2} (y-2x) dy = \\int_{0}^{1} \\left( 4x^{2} - 4x + 2 \\right) dx = \\frac{4}{3}.\">\\text{解答} \\ \\text{计算原式} = \\int_{0}^{1} dx \\int_{0}^{2x} (2x-y) dy + \\int_{0}^{1} dx \\int_{2x}^{2} (y-2x) dy = \\int_{0}^{1} \\left( 4x^{2} - 4x + 2 \\right) dx = \\frac{4}{3}.</span>"
     },
     {
       "id": "q0030",
       "number": 30,
       "header": "#30-Averge",
       "difficulty": "Averge",
-      "prompt_html": "<img src=\"/static/generated/assets/advanced-math/ch126/q0030_prompt.png\"/>",
+      "prompt_html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{设}D:0\\leq y\\leq x,0\\leq x\\leq a\\,,\\ \\text{则}\\int_{0}^{a}dx\\int_{0}^{x}f(x,y)dy=\\bigl{(}\\ \\bigr{)}.\">\\text{设}D:0\\leq y\\leq x,0\\leq x\\leq a\\,,\\ \\text{则}\\int_{0}^{a}dx\\int_{0}^{x}f(x,y)dy=\\bigl{(}\\ \\bigr{)}.</span>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch126/q0030_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\int_{0}^{a} dy \\int_{y}^{a} f(x,y) dx\">\\int_{0}^{a} dy \\int_{y}^{a} f(x,y) dx</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch126/q0030_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\int_{0}^{a} dx \\int_{0}^{a} f(x,y) dy\">\\int_{0}^{a} dx \\int_{0}^{a} f(x,y) dy</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch126/q0030_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\int_{0}^{a} dy \\int_{0}^{y} f(x,y) dx.\">\\int_{0}^{a} dy \\int_{0}^{y} f(x,y) dx.</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch126/q0030_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\int_{0}^{a} dx \\int_{0}^{a} f(x,y) dx.\">\\int_{0}^{a} dx \\int_{0}^{a} f(x,y) dx.</span>"
         }
       ],
       "answer": "A",
       "answer_index": 0,
-      "analysis_html": "<img src=\"/static/generated/assets/advanced-math/ch126/q0030_analysis.png\"/>"
+      "analysis_html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{解答} \\ \\text{积分限} 0 \\leq y \\leq x, 0 \\leq x \\leq a , \\text{改写为} 0 \\leq y \\leq a, y \\leq x \\leq a , \\text{原式} = \\int_{0}^{a} dy \\int_{y}^{a} f(x,y) dx\">\\text{解答} \\ \\text{积分限} 0 \\leq y \\leq x, 0 \\leq x \\leq a , \\text{改写为} 0 \\leq y \\leq a, y \\leq x \\leq a , \\text{原式} = \\int_{0}^{a} dy \\int_{y}^{a} f(x,y) dx</span>"
     },
     {
       "id": "q0031",
       "number": 31,
       "header": "#31-Averge",
       "difficulty": "Averge",
-      "prompt_html": "<img src=\"/static/generated/assets/advanced-math/ch126/q0031_prompt.png\"/>",
+      "prompt_html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\int \\limits _ { D } \\int \\limits _ { D } \\frac { x ^ { 2 } } { y ^ { 2 } } d x d y = ( ) , \\text {其中} D \\text {是由曲线} xy = 2 , y = 1 + x ^ { 2 } \\text {及直线} x = 2 \\text {所围成的区域}.\">\\int \\limits _ { D } \\int \\limits _ { D } \\frac { x ^ { 2 } } { y ^ { 2 } } d x d y = ( ) , \\text {其中} D \\text {是由曲线} xy = 2 , y = 1 + x ^ { 2 } \\text {及直线} x = 2 \\text {所围成的区域}.</span>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch126/q0031_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\frac { 7 } { 8 } - \\arctan 2 + \\frac { \\pi } { 4 } \\, .\">\\frac { 7 } { 8 } - \\arctan 2 + \\frac { \\pi } { 4 } \\, .</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch126/q0031_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\frac {7}{8} + \\arctan 2 - \\frac {\\pi}{4}\">\\frac {7}{8} + \\arctan 2 - \\frac {\\pi}{4}</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch126/q0031_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\begin{array}{l} { r } { 2 - \\arctan 2 - { \\frac { \\pi } { 4 } } } \\end{array}\">\\begin{array}{l} { r } { 2 - \\arctan 2 - { \\frac { \\pi } { 4 } } } \\end{array}</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch126/q0031_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\begin{array}{l} { r } { 2 + \\arctan 2 - { \\frac { \\pi } { 4 } } } \\end{array}\">\\begin{array}{l} { r } { 2 + \\arctan 2 - { \\frac { \\pi } { 4 } } } \\end{array}</span>"
         }
       ],
       "answer": "B",
       "answer_index": 1,
-      "analysis_html": "<img src=\"/static/generated/assets/advanced-math/ch126/q0031_analysis.png\"/>"
+      "analysis_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{aligned}&amp;=\\int_{1}^{2}dx\\biggl[\\int_{\\frac{2}{x}}^{1+x^{2}}\\frac{x^{2}}{y^{2}}dy=\\int_{1}^{2}x^{2}(\\frac{x}{2}-\\frac{1}{1+x^{2}})dx=(\\frac{1}{8}x^{4}-x+\\arctan x)\\biggr|_{1}^{2}\\\\&amp;=\\frac{7}{8}+\\arctan 2-\\frac{\\pi}{4}\\end{aligned}\">\\begin{aligned}&amp;=\\int_{1}^{2}dx\\biggl[\\int_{\\frac{2}{x}}^{1+x^{2}}\\frac{x^{2}}{y^{2}}dy=\\int_{1}^{2}x^{2}(\\frac{x}{2}-\\frac{1}{1+x^{2}})dx=(\\frac{1}{8}x^{4}-x+\\arctan x)\\biggr|_{1}^{2}\\\\&amp;=\\frac{7}{8}+\\arctan 2-\\frac{\\pi}{4}\\end{aligned}</div>"
     },
     {
       "id": "q0032",
       "number": 32,
       "header": "#32-Averge",
       "difficulty": "Averge",
-      "prompt_html": "<img src=\"/static/generated/assets/advanced-math/ch126/q0032_prompt.png\"/>",
+      "prompt_html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{二重积分} \\, I = \\iint\\limits_{D} \\sin^{2} x \\sin^{2} y d\\sigma \\ \\text{（其中} D: 0 \\leq x \\leq \\pi, 0 \\leq y \\leq \\pi \\text{）的值是[ \\ \\ ]}.\">\\text{二重积分} \\, I = \\iint\\limits_{D} \\sin^{2} x \\sin^{2} y d\\sigma \\ \\text{（其中} D: 0 \\leq x \\leq \\pi, 0 \\leq y \\leq \\pi \\text{）的值是[ \\ \\ ]}.</span>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch126/q0032_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\pi ^ { 2 } .\">\\pi ^ { 2 } .</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch126/q0032_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\frac { \\pi ^ { 2 } } { 2 } \\, ;\">\\frac { \\pi ^ { 2 } } { 2 } \\, ;</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch126/q0032_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\frac { \\pi ^ { 2 } } { 8 } \\, ;\">\\frac { \\pi ^ { 2 } } { 8 } \\, ;</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch126/q0032_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\frac{ \\pi ^ { 2 } } { 4 } \\, ;\">\\frac{ \\pi ^ { 2 } } { 4 } \\, ;</span>"
         }
       ],
       "answer": "D",
       "answer_index": 3,
-      "analysis_html": "<img src=\"/static/generated/assets/advanced-math/ch126/q0032_analysis.png\"/>"
+      "analysis_html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{解答}\\ \\ I = \\int_{0}^{\\pi} \\sin^{2} y \\, dy \\int_{0}^{\\pi} \\sin^{2} x \\, dx = (\\int_{0}^{\\pi} \\sin^{2} x \\, dx)^{2} = [ (\\frac{x}{2} - \\frac{1}{4} \\sin 2 x) \\Bigg|_{0}^{\\pi} ]^{2} = \\frac{\\pi^{2}}{4} \\, .\">\\text{解答}\\ \\ I = \\int_{0}^{\\pi} \\sin^{2} y \\, dy \\int_{0}^{\\pi} \\sin^{2} x \\, dx = (\\int_{0}^{\\pi} \\sin^{2} x \\, dx)^{2} = [ (\\frac{x}{2} - \\frac{1}{4} \\sin 2 x) \\Bigg|_{0}^{\\pi} ]^{2} = \\frac{\\pi^{2}}{4} \\, .</span>"
     },
     {
       "id": "q0033",
       "number": 33,
       "header": "#33-Averge",
       "difficulty": "Averge",
-      "prompt_html": "<img src=\"/static/generated/assets/advanced-math/ch126/q0033_prompt.png\"/>",
+      "prompt_html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{计算二重积分} \\iint_{D} |y| \\, d\\alpha \\, dy, \\text{ 其中 } D: \\frac{x^{2}}{a^{2}} + \\frac{y^{2}}{b^{2}} \\leq 1. [\\quad ].\">\\text{计算二重积分} \\iint_{D} |y| \\, d\\alpha \\, dy, \\text{ 其中 } D: \\frac{x^{2}}{a^{2}} + \\frac{y^{2}}{b^{2}} \\leq 1. [\\quad ].</span>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch126/q0033_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\frac { 4 } { 3 } a b ^ { 2 } ;\">\\frac { 4 } { 3 } a b ^ { 2 } ;</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch126/q0033_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\widetilde { \\frac { 3 } { 4 } } a b ^ { 2 } .\">\\widetilde { \\frac { 3 } { 4 } } a b ^ { 2 } .</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch126/q0033_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\frac { 4 } { 3 } a ^ { 2 } b \\, ;\">\\frac { 4 } { 3 } a ^ { 2 } b \\, ;</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch126/q0033_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\frac{3}{4}a^{2}b\\,;\">\\frac{3}{4}a^{2}b\\,;</span>"
         }
       ],
       "answer": "A",
       "answer_index": 0,
-      "analysis_html": "<img src=\"/static/generated/assets/advanced-math/ch126/q0033_analysis.png\"/>"
+      "analysis_html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\int \\limits _ { 0 } ^ { a } d x \\int \\limits _ { 0 } ^ { \\frac { b } { 2 } \\sqrt { a ^ { 2 } - x ^ { 2 } } } y d y = 2 \\int \\limits _ { 0 } ^ { a } \\frac { b ^ { 2 } } { a ^ { 2 } } ( a ^ { 2 } - x ^ { 2 } ) d x = \\frac { 4 } { 3 } a b ^ { 2 } .\">\\int \\limits _ { 0 } ^ { a } d x \\int \\limits _ { 0 } ^ { \\frac { b } { 2 } \\sqrt { a ^ { 2 } - x ^ { 2 } } } y d y = 2 \\int \\limits _ { 0 } ^ { a } \\frac { b ^ { 2 } } { a ^ { 2 } } ( a ^ { 2 } - x ^ { 2 } ) d x = \\frac { 4 } { 3 } a b ^ { 2 } .</span>"
     },
     {
       "id": "q0034",
       "number": 34,
       "header": "#34-Averge",
       "difficulty": "Averge",
-      "prompt_html": "<img src=\"/static/generated/assets/advanced-math/ch126/q0034_prompt.png\"/>",
+      "prompt_html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{设}D: x^{2}+y^{2}\\leq 4, y\\geq 0\\text{，则二重积分}\\iint_{D}\\sin(x^{3}y^{2})d\\sigma=\\big(\">\\text{设}D: x^{2}+y^{2}\\leq 4, y\\geq 0\\text{，则二重积分}\\iint_{D}\\sin(x^{3}y^{2})d\\sigma=\\big(</span>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch126/q0034_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\mathbf { - 1 }\">\\mathbf { - 1 }</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch126/q0034_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"0\">0</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch126/q0034_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\mathbf { 1 }\">\\mathbf { 1 }</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch126/q0034_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"2 \\leftarrow\">2 \\leftarrow</span>"
         }
       ],
       "answer": "B",
       "answer_index": 1,
-      "analysis_html": "<img src=\"/static/generated/assets/advanced-math/ch126/q0034_analysis.png\"/>"
+      "analysis_html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{解答 因为 D 关于 y 轴对称，而被积函数是关于 x 的奇函数，所以} \\iint\\limits_{D} \\sin(x^{3}y^{2})d\\sigma = 0\">\\text{解答 因为 D 关于 y 轴对称，而被积函数是关于 x 的奇函数，所以} \\iint\\limits_{D} \\sin(x^{3}y^{2})d\\sigma = 0</span>"
     },
     {
       "id": "q0035",
       "number": 35,
       "header": "#35-Averge",
       "difficulty": "Averge",
-      "prompt_html": "<img src=\"/static/generated/assets/advanced-math/ch126/q0035_prompt.png\"/>",
+      "prompt_html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{二次积分} \\int _ { 0 } ^ { 1 } d y \\int _ { y } ^ { 1 } e ^ { x ^ { 2 } } d x = ( \\ \\ )\">\\text{二次积分} \\int _ { 0 } ^ { 1 } d y \\int _ { y } ^ { 1 } e ^ { x ^ { 2 } } d x = ( \\ \\ )</span>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch126/q0035_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"e \\! - \\! 1\">e \\! - \\! 1</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch126/q0035_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\frac{1}{2}(e\\!-\\!1)\">\\frac{1}{2}(e\\!-\\!1)</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch126/q0035_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\frac { e } { 2 } - 1 \\cdot\">\\frac { e } { 2 } - 1 \\cdot</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch126/q0035_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"e ^ { - 1 }\">e ^ { - 1 }</span>"
         }
       ],
       "answer": "B",
       "answer_index": 1,
-      "analysis_html": "<img src=\"/static/generated/assets/advanced-math/ch126/q0035_analysis.png\"/>"
+      "analysis_html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{解答} \\ \\ \\text{原式} = \\int_{0}^{1} e^{x^{2}} dx \\int_{0}^{x} dy = \\int_{0}^{1} x e^{-x^{2}} dx = \\frac{1}{2} (e-1)\">\\text{解答} \\ \\ \\text{原式} = \\int_{0}^{1} e^{x^{2}} dx \\int_{0}^{x} dy = \\int_{0}^{1} x e^{-x^{2}} dx = \\frac{1}{2} (e-1)</span>"
     },
     {
       "id": "q0036",
       "number": 36,
       "header": "#36-Averge",
       "difficulty": "Averge",
-      "prompt_html": "<img src=\"/static/generated/assets/advanced-math/ch126/q0036_prompt.png\"/>",
+      "prompt_html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{设}D:|x|\\leq e,0\\leq y\\leq 2\\,,\\,\\,\\text{则二重积分}\\iint_{D}(1+\\frac{1}{2}xy)d\\sigma=[\\quad].\">\\text{设}D:|x|\\leq e,0\\leq y\\leq 2\\,,\\,\\,\\text{则二重积分}\\iint_{D}(1+\\frac{1}{2}xy)d\\sigma=[\\quad].</span>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch126/q0036_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\boldsymbol{2e}\\,;\">\\boldsymbol{2e}\\,;</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch126/q0036_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"e.\\star\">e.\\star</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch126/q0036_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\begin{aligned}4e\\,;\\end{aligned}\">\\begin{aligned}4e\\,;\\end{aligned}</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch126/q0036_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\boldsymbol { 3 e } \\, ;\">\\boldsymbol { 3 e } \\, ;</span>"
         }
       ],
       "answer": "C",
       "answer_index": 2,
-      "analysis_html": "<img src=\"/static/generated/assets/advanced-math/ch126/q0036_analysis.png\"/>"
+      "analysis_html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{解答}\\ \\iint_{D}(1+\\frac{1}{2}xy)d\\sigma=\\int_{-s}^{s}dx\\int_{0}^{2}(1+\\frac{1}{2}xy)dy=\\int_{-s}^{s}(2+x)dx=4e.x\">\\text{解答}\\ \\iint_{D}(1+\\frac{1}{2}xy)d\\sigma=\\int_{-s}^{s}dx\\int_{0}^{2}(1+\\frac{1}{2}xy)dy=\\int_{-s}^{s}(2+x)dx=4e.x</span>"
     },
     {
       "id": "q0037",
       "number": 37,
       "header": "#37-Averge",
       "difficulty": "Averge",
-      "prompt_html": "<img src=\"/static/generated/assets/advanced-math/ch126/q0037_prompt.png\"/>",
+      "prompt_html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{设}D: x^{2}+y^{2}\\leq a^{2},y\\geq 0\\ ,\\ \\text{当}m\\text{为奇数时，}\\ \\iint_{D}x^{m}y^{n}dxdy=\\big(\\ \\big{)}\">\\text{设}D: x^{2}+y^{2}\\leq a^{2},y\\geq 0\\ ,\\ \\text{当}m\\text{为奇数时，}\\ \\iint_{D}x^{m}y^{n}dxdy=\\big(\\ \\big{)}</span>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch126/q0037_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\mathbf{1}\">\\mathbf{1}</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch126/q0037_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\textbf { - 1 }\">\\textbf { - 1 }</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch126/q0037_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\mathbf { 2 } \\leftarrow\">\\mathbf { 2 } \\leftarrow</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch126/q0037_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"0\">0</span>"
         }
       ],
       "answer": "D",
       "answer_index": 3,
-      "analysis_html": "<img src=\"/static/generated/assets/advanced-math/ch126/q0037_analysis.png\"/>"
+      "analysis_html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{解答 因为 D 关于 y 轴对称，而被积函数是关于 x 的奇函数，所以} \\iint\\limits_{D} x^{m} y^{n} dxdy = 0 .\">\\text{解答 因为 D 关于 y 轴对称，而被积函数是关于 x 的奇函数，所以} \\iint\\limits_{D} x^{m} y^{n} dxdy = 0 .</span>"
     },
     {
       "id": "q0038",
       "number": 38,
       "header": "#38-Averge",
       "difficulty": "Averge",
-      "prompt_html": "<img src=\"/static/generated/assets/advanced-math/ch126/q0038_prompt.png\"/>",
+      "prompt_html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{二重积分} \\, I = \\iint\\limits_{D} x^{2} y^{2} dxdy \\, \\text{（其中 } D: |x| + |y| \\leq 1 \\text{）的值是（　）}\">\\text{二重积分} \\, I = \\iint\\limits_{D} x^{2} y^{2} dxdy \\, \\text{（其中 } D: |x| + |y| \\leq 1 \\text{）的值是（　）}</span>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch126/q0038_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\frac{9}{16}\">\\frac{9}{16}</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch126/q0038_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\frac{3}{50}\">\\frac{3}{50}</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch126/q0038_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\frac { 1 } { 4 }\">\\frac { 1 } { 4 }</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch126/q0038_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\frac { 1 } { 45 }\">\\frac { 1 } { 45 }</span>"
         }
       ],
       "answer": "D",
       "answer_index": 3,
-      "analysis_html": "<img src=\"/static/generated/assets/advanced-math/ch126/q0038_analysis.png\"/>"
+      "analysis_html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\Rightarrow I = 4 \\iint \\limits _ { D } x ^ { 2 } y ^ { 2 } d x d y = 4 \\int _ { 0 } ^ { 1 } d x \\int _ { 0 } ^ { 1 - x } x ^ { 2 } y ^ { 2 } d y = \\frac { 4 } { 3 } \\int _ { 0 } ^ { 1 } x ^ { 2 } ( 1 - x ) ^ { 3 } d x = \\frac { 1 } { 45 }\">\\Rightarrow I = 4 \\iint \\limits _ { D } x ^ { 2 } y ^ { 2 } d x d y = 4 \\int _ { 0 } ^ { 1 } d x \\int _ { 0 } ^ { 1 - x } x ^ { 2 } y ^ { 2 } d y = \\frac { 4 } { 3 } \\int _ { 0 } ^ { 1 } x ^ { 2 } ( 1 - x ) ^ { 3 } d x = \\frac { 1 } { 45 }</span>"
     },
     {
       "id": "q0039",
       "number": 39,
       "header": "#39-Averge",
       "difficulty": "Averge",
-      "prompt_html": "<img src=\"/static/generated/assets/advanced-math/ch126/q0039_prompt.png\"/>",
+      "prompt_html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\int \\limits _ { D } \\int \\limits _ { D } 4 y ^ { 4 } \\sin ( x y ) d x d y , \\text {其中} D \\text {是由} x = 0 , y = \\sqrt { \\frac { \\pi } { 2 } } , y = x \\text {所围成的区域，(　)}\">\\int \\limits _ { D } \\int \\limits _ { D } 4 y ^ { 4 } \\sin ( x y ) d x d y , \\text {其中} D \\text {是由} x = 0 , y = \\sqrt { \\frac { \\pi } { 2 } } , y = x \\text {所围成的区域，(　)}</span>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch126/q0039_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\pi - 1\">\\pi - 1</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch126/q0039_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"2 \\pi - 1\">2 \\pi - 1</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch126/q0039_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"2 (\\pi - 1) \\leftarrow\">2 (\\pi - 1) \\leftarrow</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch126/q0039_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\pi - 2\">\\pi - 2</span>"
         }
       ],
       "answer": "D",
       "answer_index": 3,
-      "analysis_html": "<img src=\"/static/generated/assets/advanced-math/ch126/q0039_analysis.png\"/>"
+      "analysis_html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{解答} \\ \\ \\text{原式} = 4 \\int_{0}^{\\frac{\\pi}{2}} y dy \\int_{0}^{y} y \\sin(xy) dx = 4 \\int_{0}^{\\frac{\\pi}{2}} y (1- \\cos y^{2}) dy = \\pi - 2\">\\text{解答} \\ \\ \\text{原式} = 4 \\int_{0}^{\\frac{\\pi}{2}} y dy \\int_{0}^{y} y \\sin(xy) dx = 4 \\int_{0}^{\\frac{\\pi}{2}} y (1- \\cos y^{2}) dy = \\pi - 2</span>"
     },
     {
       "id": "q0040",
       "number": 40,
       "header": "#40-Averge",
       "difficulty": "Averge",
-      "prompt_html": "<img src=\"/static/generated/assets/advanced-math/ch126/q0040_prompt.png\"/>",
+      "prompt_html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{计算二次积分} \\int _ { 0 } ^ { 1 } d y \\int _ { \\sqrt { y } } ^ { 1 } \\sin ( x ^ { 3 } ) d x = ( \\ \\ ) .\">\\text{计算二次积分} \\int _ { 0 } ^ { 1 } d y \\int _ { \\sqrt { y } } ^ { 1 } \\sin ( x ^ { 3 } ) d x = ( \\ \\ ) .</span>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch126/q0040_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\frac { 2 } { 3 } - \\cos 1\">\\frac { 2 } { 3 } - \\cos 1</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch126/q0040_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\frac { 1 } { 3 } ( 1 - \\cos 1 )\">\\frac { 1 } { 3 } ( 1 - \\cos 1 )</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch126/q0040_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\frac { 1 } { 3 } - \\cos 1\">\\frac { 1 } { 3 } - \\cos 1</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch126/q0040_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\frac { 2 } { 3 } ( 1 - \\cos 1 )\">\\frac { 2 } { 3 } ( 1 - \\cos 1 )</span>"
         }
       ],
       "answer": "B",
       "answer_index": 1,
-      "analysis_html": "<img src=\"/static/generated/assets/advanced-math/ch126/q0040_analysis.png\"/>"
+      "analysis_html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{解答} \\ \\ \\text{原式} = \\int_{0}^{1} dx \\int_{\\sqrt{y}}^{1} \\sin(x^{3}) dy = \\int_{0}^{1} x^{2} \\sin(x^{3}) dy = \\frac{1}{3} (1 - \\cos 1).\">\\text{解答} \\ \\ \\text{原式} = \\int_{0}^{1} dx \\int_{\\sqrt{y}}^{1} \\sin(x^{3}) dy = \\int_{0}^{1} x^{2} \\sin(x^{3}) dy = \\frac{1}{3} (1 - \\cos 1).</span>"
     }
-  ]
+  ],
+  "format": "latex",
+  "source_md": "gs/8.1.2_直角坐标系下二重积分的计算(40题)/8.1.2_直角坐标系下二重积分的计算(40题).md"
 }

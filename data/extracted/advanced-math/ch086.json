@@ -13,728 +13,730 @@
       "number": 1,
       "header": "#1-Averge",
       "difficulty": "Averge",
-      "prompt_html": "<img src=\"/static/generated/assets/advanced-math/ch086/q0001_prompt.png\"/>",
+      "prompt_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{array}{l} \\text{对于下列两个级数的敛散性，说法正确的是} [ \\quad].  \\\\ \\text {(1)} \\sum_{n=1}^{\\infty} \\frac{(-1)^{n}}{n}; \\text {(2)} \\sum_{n=1}^{\\infty} \\frac{(-1)^{n}\\ln n}{n}. \\end{array}\">\\begin{array}{l} \\text{对于下列两个级数的敛散性，说法正确的是} [ \\quad].  \\\\ \\text {(1)} \\sum_{n=1}^{\\infty} \\frac{(-1)^{n}}{n}; \\text {(2)} \\sum_{n=1}^{\\infty} \\frac{(-1)^{n}\\ln n}{n}. \\end{array}</div>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch086/q0001_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"(1)\\text{发散敛},(2)\\text{发散}.\">(1)\\text{发散敛},(2)\\text{发散}.</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch086/q0001_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"(1)\\ \\text{收敛},\\ (2)\\ \\text{发散};\">(1)\\ \\text{收敛},\\ (2)\\ \\text{发散};</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch086/q0001_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"(1) \\text{发散}, (2) \\text{收敛};\">(1) \\text{发散}, (2) \\text{收敛};</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch086/q0001_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"(1)\\text{收敛},(2)\\text{收敛}\">(1)\\text{收敛},(2)\\text{收敛}</span>"
         }
       ],
       "answer": "D",
       "answer_index": 3,
-      "analysis_html": "<img src=\"/static/generated/assets/advanced-math/ch086/q0001_analysis.png\"/>"
+      "analysis_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{array}{l} \\text {解答：(1)} \\sum_{n=1}^{\\infty} \\frac{(-1)^{n}}{n} \\text {是交错级数} u_{n}=\\frac{1}{n} \\text {满足：}u_{n-1}\\leq u_{n}, \\lim_{n\\rightarrow \\infty}u_{n}=0, \\text {故收敛;} \\\\ \\quad (2) \\sum_{n=1}^{\\infty} \\frac{(-1)^{n}\\ln n}{n} \\text {是交错级数} u_{n}=\\frac{\\ln n}{n}&gt;0, \\text {令} \\\\ f(x)=\\frac{\\ln x}{x}, f^{\\prime}(x)=\\frac{1-\\ln x}{x^{2}}&lt;0(x\\geq 3), \\text {，令} \\\\ \\text {即当} n\\geq 3 \\text {时，} u_{n+1}\\leq u_{n}, \\lim u_{n}=\\lim \\frac{\\ln n}{n}=0, \\text {故收敛;} \\end{array}\">\\begin{array}{l} \\text {解答：(1)} \\sum_{n=1}^{\\infty} \\frac{(-1)^{n}}{n} \\text {是交错级数} u_{n}=\\frac{1}{n} \\text {满足：}u_{n-1}\\leq u_{n}, \\lim_{n\\rightarrow \\infty}u_{n}=0, \\text {故收敛;} \\\\ \\quad (2) \\sum_{n=1}^{\\infty} \\frac{(-1)^{n}\\ln n}{n} \\text {是交错级数} u_{n}=\\frac{\\ln n}{n}&gt;0, \\text {令} \\\\ f(x)=\\frac{\\ln x}{x}, f^{\\prime}(x)=\\frac{1-\\ln x}{x^{2}}&lt;0(x\\geq 3), \\text {，令} \\\\ \\text {即当} n\\geq 3 \\text {时，} u_{n+1}\\leq u_{n}, \\lim u_{n}=\\lim \\frac{\\ln n}{n}=0, \\text {故收敛;} \\end{array}</div>"
     },
     {
       "id": "q0002",
       "number": 2,
       "header": "#2-Averge",
       "difficulty": "Averge",
-      "prompt_html": "<img src=\"/static/generated/assets/advanced-math/ch086/q0002_prompt.png\"/>",
+      "prompt_html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\sum_{n=1}^{\\infty}(-1)^{n-1}\\left(\\frac{1}{a_{n}+1}\\right)^{n}[\\quad].\\quad\\text{右}\">\\sum_{n=1}^{\\infty}(-1)^{n-1}\\left(\\frac{1}{a_{n}+1}\\right)^{n}[\\quad].\\quad\\text{右}</span>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch086/q0002_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{发散};\">\\text{发散};</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch086/q0002_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{条件收敛}\">\\text{条件收敛}</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch086/q0002_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{敛散性不确定}.\">\\text{敛散性不确定}.</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch086/q0002_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{绝对收敛};\">\\text{绝对收敛};</span>"
         }
       ],
       "answer": "D",
       "answer_index": 3,
-      "analysis_html": "<img src=\"/static/generated/assets/advanced-math/ch086/q0002_analysis.png\"/>"
+      "analysis_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{array}{l} \\text{解答：由于} a_{1} \\geq a_{2} \\geq \\cdots \\geq a_{n} \\geq \\cdots &gt; 0, \\text{则} \\lim_{n \\to \\infty} a_{n} = a, \\\\ \\text{若} a = 0, \\text{则级数} \\sum_{n = 1}^{\\infty} (-1)^{n - 1} a_{n} \\text{收敛，矛盾，所以，} a &gt; 0, \\\\ \\lim_{n \\to \\infty} \\sqrt[ n ]{(-1)^{n - 1} \\left( \\frac{1}{a_{n} + 1} \\right)^{n}} = \\lim_{n \\to \\infty} \\frac{1}{a_{n} + 1} = \\frac{1}{a + 1} &lt; 1, \\text{所以级数绝对收敛.} \\end{array}\">\\begin{array}{l} \\text{解答：由于} a_{1} \\geq a_{2} \\geq \\cdots \\geq a_{n} \\geq \\cdots &gt; 0, \\text{则} \\lim_{n \\to \\infty} a_{n} = a, \\\\ \\text{若} a = 0, \\text{则级数} \\sum_{n = 1}^{\\infty} (-1)^{n - 1} a_{n} \\text{收敛，矛盾，所以，} a &gt; 0, \\\\ \\lim_{n \\to \\infty} \\sqrt[ n ]{(-1)^{n - 1} \\left( \\frac{1}{a_{n} + 1} \\right)^{n}} = \\lim_{n \\to \\infty} \\frac{1}{a_{n} + 1} = \\frac{1}{a + 1} &lt; 1, \\text{所以级数绝对收敛.} \\end{array}</div>"
     },
     {
       "id": "q0003",
       "number": 3,
       "header": "#3-Averge",
       "difficulty": "Averge",
-      "prompt_html": "<img src=\"/static/generated/assets/advanced-math/ch086/q0003_prompt.png\"/>",
+      "prompt_html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{下列级数中发散的是} [ \\quad ] . \\Leftrightarrow\">\\text{下列级数中发散的是} [ \\quad ] . \\Leftrightarrow</span>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch086/q0003_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\sum_{n=1}^{\\infty} \\frac{2 + (-1)^{n}}{2^{n}}\">\\sum_{n=1}^{\\infty} \\frac{2 + (-1)^{n}}{2^{n}}</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch086/q0003_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\sum_{n=1}^{\\infty} \\frac{\\sin n}{n^{2}}\">\\sum_{n=1}^{\\infty} \\frac{\\sin n}{n^{2}}</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch086/q0003_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\sum_{n=1}^{\\infty} \\frac{(1000)^{n}}{n!}\\,.\">\\sum_{n=1}^{\\infty} \\frac{(1000)^{n}}{n!}\\,.</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch086/q0003_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\sum_{n=1}^{\\infty} \\frac{(-1)^{n}}{\\sqrt[n]{n}}\\,;\">\\sum_{n=1}^{\\infty} \\frac{(-1)^{n}}{\\sqrt[n]{n}}\\,;</span>"
         }
       ],
       "answer": "D",
       "answer_index": 3,
-      "analysis_html": "<img src=\"/static/generated/assets/advanced-math/ch086/q0003_analysis.png\"/>"
+      "analysis_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{aligned} &amp; \\text{解答：}u_{n}=\\frac{1}{\\sqrt[n]{n}}, \\lim_{n\\rightarrow \\infty}u_{n}=1,\\ \\text{所以}\\sum_{n=1}^{\\infty}\\frac{(-1)^{n}}{\\sqrt[n]{n}}\\text{发散};\\\\ &amp; \\quad\\left|\\frac{\\sin n}{n^{2}}\\right|\\leq \\frac{1}{n^{3}},\\ \\text{故}\\sum_{n=1}^{\\infty}\\frac{\\sin n}{n^{2}}\\text{绝对收敛};\\\\ &amp; \\quad\\sum_{n=1}^{\\infty}\\frac{2+(-1)^{n}}{2^{n}}=\\sum_{n=1}^{\\infty}\\frac{1}{2^{n-1}}+\\sum_{n=1}^{\\infty}\\frac{(-1)^{n}}{2^{n}},\\ \\text{几何级数公比绝对值小于1，所以级数收敛};\\\\ &amp; \\quad u_{n}=\\frac{(1000)^{n}}{n!}, \\lim_{n\\rightarrow \\infty}\\frac{u_{n+1}}{u_{n}}=\\lim_{n\\rightarrow \\infty}\\frac{1000}{n+1}=0&lt;1,\\ \\text{所以}\\sum_{n=1}^{\\infty}\\frac{(1000)^{n}}{n!}\\text{收敛}.\\end{aligned}\">\\begin{aligned} &amp; \\text{解答：}u_{n}=\\frac{1}{\\sqrt[n]{n}}, \\lim_{n\\rightarrow \\infty}u_{n}=1,\\ \\text{所以}\\sum_{n=1}^{\\infty}\\frac{(-1)^{n}}{\\sqrt[n]{n}}\\text{发散};\\\\ &amp; \\quad\\left|\\frac{\\sin n}{n^{2}}\\right|\\leq \\frac{1}{n^{3}},\\ \\text{故}\\sum_{n=1}^{\\infty}\\frac{\\sin n}{n^{2}}\\text{绝对收敛};\\\\ &amp; \\quad\\sum_{n=1}^{\\infty}\\frac{2+(-1)^{n}}{2^{n}}=\\sum_{n=1}^{\\infty}\\frac{1}{2^{n-1}}+\\sum_{n=1}^{\\infty}\\frac{(-1)^{n}}{2^{n}},\\ \\text{几何级数公比绝对值小于1，所以级数收敛};\\\\ &amp; \\quad u_{n}=\\frac{(1000)^{n}}{n!}, \\lim_{n\\rightarrow \\infty}\\frac{u_{n+1}}{u_{n}}=\\lim_{n\\rightarrow \\infty}\\frac{1000}{n+1}=0&lt;1,\\ \\text{所以}\\sum_{n=1}^{\\infty}\\frac{(1000)^{n}}{n!}\\text{收敛}.\\end{aligned}</div>"
     },
     {
       "id": "q0004",
       "number": 4,
       "header": "#4-Averge",
       "difficulty": "Averge",
-      "prompt_html": "<img src=\"/static/generated/assets/advanced-math/ch086/q0004_prompt.png\"/>",
+      "prompt_html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{级数} \\sum_{n=1}^{\\infty} (-1)^{n} \\frac{2^{n} \\sin^{2n} x}{n} [\\quad]. \\Leftrightarrow\">\\text{级数} \\sum_{n=1}^{\\infty} (-1)^{n} \\frac{2^{n} \\sin^{2n} x}{n} [\\quad]. \\Leftrightarrow</span>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch086/q0004_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{发散，敛散性与} x \\text{无关}.\">\\text{发散，敛散性与} x \\text{无关}.</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch086/q0004_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{当} |x-n\\pi| = \\frac{\\pi}{4} \\text{时，级数绝对收敛}\">\\text{当} |x-n\\pi| = \\frac{\\pi}{4} \\text{时，级数绝对收敛}</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch086/q0004_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{当} |x-n\\pi| &lt; \\frac{\\pi}{4} \\text{时，级数绝对收敛}\">\\text{当} |x-n\\pi| &lt; \\frac{\\pi}{4} \\text{时，级数绝对收敛}</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch086/q0004_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{当} |x-n\\pi|&gt;\\frac{\\pi}{4}\\text{时，级数绝对收敛}\">\\text{当} |x-n\\pi|&gt;\\frac{\\pi}{4}\\text{时，级数绝对收敛}</span>"
         }
       ],
       "answer": "C",
       "answer_index": 2,
-      "analysis_html": "<img src=\"/static/generated/assets/advanced-math/ch086/q0004_analysis.png\"/>"
+      "analysis_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{array}{l} \\text {解答：令}u_{n}=(-1)^{n}\\frac{2^{n}\\sin^{2n}x}{n}, \\text {考虑} \\lim_{n\\rightarrow \\infty}\\sqrt[n]{u_{n}}=\\lim_{n\\rightarrow \\infty}\\frac{2\\sin^{2}x}{\\sqrt[n]{n}}=(\\sqrt{2}\\sin x)^{2},\\\\ \\text {当}2\\sin^{2}x&lt;1, \\text {即}|x-n\\pi|&lt;\\frac{\\pi}{4} \\text {时，级数}\\sum_{n=1}^{\\infty}u_{n} \\text {绝对收敛；}\\\\ \\text {当}\\sqrt{2}\\sin x=1 \\text {时，即}|x-n\\pi|=\\frac{\\pi}{4}, \\text {原级数}\\sum_{n=1}^{\\infty}(-1)^{n}\\frac{1}{n} \\text {条件收敛}\\\\ \\text {当}2\\sin^{2}x&gt;1, \\text {即}|x-n\\pi|&gt;\\frac{\\pi}{4} \\text {时，}\\exists a&gt;1 \\text {使得，}2\\sin^{2}x&gt;a&gt;1, \\text {当}n \\text {充分大时，}\\\\ \\sqrt[n]{u_{n}}\\geq a \\text {或}|u_{n}|\\geq a^{n}, \\text {则当}n\\rightarrow \\infty \\text {时，}|u_{n}|\\text {不趋于零，故原级数发散。} \\end{array}\">\\begin{array}{l} \\text {解答：令}u_{n}=(-1)^{n}\\frac{2^{n}\\sin^{2n}x}{n}, \\text {考虑} \\lim_{n\\rightarrow \\infty}\\sqrt[n]{u_{n}}=\\lim_{n\\rightarrow \\infty}\\frac{2\\sin^{2}x}{\\sqrt[n]{n}}=(\\sqrt{2}\\sin x)^{2},\\\\ \\text {当}2\\sin^{2}x&lt;1, \\text {即}|x-n\\pi|&lt;\\frac{\\pi}{4} \\text {时，级数}\\sum_{n=1}^{\\infty}u_{n} \\text {绝对收敛；}\\\\ \\text {当}\\sqrt{2}\\sin x=1 \\text {时，即}|x-n\\pi|=\\frac{\\pi}{4}, \\text {原级数}\\sum_{n=1}^{\\infty}(-1)^{n}\\frac{1}{n} \\text {条件收敛}\\\\ \\text {当}2\\sin^{2}x&gt;1, \\text {即}|x-n\\pi|&gt;\\frac{\\pi}{4} \\text {时，}\\exists a&gt;1 \\text {使得，}2\\sin^{2}x&gt;a&gt;1, \\text {当}n \\text {充分大时，}\\\\ \\sqrt[n]{u_{n}}\\geq a \\text {或}|u_{n}|\\geq a^{n}, \\text {则当}n\\rightarrow \\infty \\text {时，}|u_{n}|\\text {不趋于零，故原级数发散。} \\end{array}</div>"
     },
     {
       "id": "q0005",
       "number": 5,
       "header": "#5-Averge",
       "difficulty": "Averge",
-      "prompt_html": "<img src=\"/static/generated/assets/advanced-math/ch086/q0005_prompt.png\"/>",
+      "prompt_html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{设级数}(1)\\text{是} \\sum_{n=1}^{\\infty}(-1)^{n-1}\\frac{1}{n^{\\frac{1-a}{n}}},\\ a&gt;0\\text{为常数，级数}(2)\\text{是} \\sum_{n=1}^{\\infty}\\sin(\\pi\\sqrt{n^{2}+1})[\\quad].\">\\text{设级数}(1)\\text{是} \\sum_{n=1}^{\\infty}(-1)^{n-1}\\frac{1}{n^{\\frac{1-a}{n}}},\\ a&gt;0\\text{为常数，级数}(2)\\text{是} \\sum_{n=1}^{\\infty}\\sin(\\pi\\sqrt{n^{2}+1})[\\quad].</span>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch086/q0005_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{级数（1），（2）都发散}\">\\text{级数（1），（2）都发散}</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch086/q0005_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{级数}(1), (2) \\text{都收敛};\">\\text{级数}(1), (2) \\text{都收敛};</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch086/q0005_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{级数（1）收敛，（2）发散}.\">\\text{级数（1）收敛，（2）发散}.</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch086/q0005_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{级数（1）发散，（2）收敛；}\">\\text{级数（1）发散，（2）收敛；}</span>"
         }
       ],
       "answer": "B",
       "answer_index": 1,
-      "analysis_html": "<img src=\"/static/generated/assets/advanced-math/ch086/q0005_analysis.png\"/>"
+      "analysis_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{aligned}&amp;\\text{解答：(1) 是交错级数,}\\lim_{n\\rightarrow \\infty}\\frac{1}{n^{\\frac{1+2}{n}}}=\\lim_{n\\rightarrow \\infty}\\frac{1}{n^1}\\frac{\\frac{1}{(\\sqrt{n})^2}}{n^{\\frac{1+2}{n}}}=0,\\ \\text{设}f(x)=x^{\\frac{1-2}{x}},\\ \\text{则,}\\\\&amp;f&#x27;(x)=[e^{(\\frac{1-2}{x})\\ln x}]=x^{\\frac{1-2}{x}}\\left[1+\\frac{a}{x}(1-\\ln x)\\right]\\frac{1}{x},\\ \\text{,}\\\\&amp;\\text{当}x\\text{充分大时,}f&#x27;(x)&gt;0,\\ \\text{则}f(x)\\text{单调增加,从而}\\frac{1}{f(n)}\\text{单调递减,所以(1)收敛,}\\\\&amp;\\sin(\\pi\\sqrt{n^2+1})=(-1)^{n}\\sin(\\pi\\sqrt{n^2+1}-n\\pi)=(-1)^{n}\\sin\\frac{\\pi}{\\sqrt{n^2+1}+n},\\ \\text{,}\\\\&amp;\\text{知(2)是交错级数,满足莱布尼兹判别法,（2）收敛.}\\end{aligned}\">\\begin{aligned}&amp;\\text{解答：(1) 是交错级数,}\\lim_{n\\rightarrow \\infty}\\frac{1}{n^{\\frac{1+2}{n}}}=\\lim_{n\\rightarrow \\infty}\\frac{1}{n^1}\\frac{\\frac{1}{(\\sqrt{n})^2}}{n^{\\frac{1+2}{n}}}=0,\\ \\text{设}f(x)=x^{\\frac{1-2}{x}},\\ \\text{则,}\\\\&amp;f&#x27;(x)=[e^{(\\frac{1-2}{x})\\ln x}]=x^{\\frac{1-2}{x}}\\left[1+\\frac{a}{x}(1-\\ln x)\\right]\\frac{1}{x},\\ \\text{,}\\\\&amp;\\text{当}x\\text{充分大时,}f&#x27;(x)&gt;0,\\ \\text{则}f(x)\\text{单调增加,从而}\\frac{1}{f(n)}\\text{单调递减,所以(1)收敛,}\\\\&amp;\\sin(\\pi\\sqrt{n^2+1})=(-1)^{n}\\sin(\\pi\\sqrt{n^2+1}-n\\pi)=(-1)^{n}\\sin\\frac{\\pi}{\\sqrt{n^2+1}+n},\\ \\text{,}\\\\&amp;\\text{知(2)是交错级数,满足莱布尼兹判别法,（2）收敛.}\\end{aligned}</div>"
     },
     {
       "id": "q0006",
       "number": 6,
       "header": "#6-Averge",
       "difficulty": "Averge",
-      "prompt_html": "<img src=\"/static/generated/assets/advanced-math/ch086/q0006_prompt.png\"/>",
+      "prompt_html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{下列四个级数中发散的是} [ \\quad].\">\\text{下列四个级数中发散的是} [ \\quad].</span>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch086/q0006_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\sum_{n=1}^{\\infty} \\frac{(-1)^{n} \\ln n}{\\sqrt{n}}\\, ;\">\\sum_{n=1}^{\\infty} \\frac{(-1)^{n} \\ln n}{\\sqrt{n}}\\, ;</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch086/q0006_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\sum_{n=1}^{\\infty} \\frac{n^{2}}{2^{n}}\\, ;\">\\sum_{n=1}^{\\infty} \\frac{n^{2}}{2^{n}}\\, ;</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch086/q0006_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\sum_{n=1}^{\\infty} \\frac{1}{n^{\\frac{1+\\frac{1}{n}}{}}};\">\\sum_{n=1}^{\\infty} \\frac{1}{n^{\\frac{1+\\frac{1}{n}}{}}};</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch086/q0006_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\sum_{n=1}^{\\infty} \\frac{(-1)^{n}[3+(-1)^{n}2]^{n}}{6^{n}}.\">\\sum_{n=1}^{\\infty} \\frac{(-1)^{n}[3+(-1)^{n}2]^{n}}{6^{n}}.</span>"
         }
       ],
       "answer": "C",
       "answer_index": 2,
-      "analysis_html": "<img src=\"/static/generated/assets/advanced-math/ch086/q0006_analysis.png\"/>"
+      "analysis_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{aligned}&amp;\\lim_{n\\rightarrow \\infty}\\frac{\\frac{1}{\\frac{1-n}{n}}}{\\frac{1}{n}}=\\lim_{n\\rightarrow \\infty}\\frac{1}{\\frac{1}{n^{2}}}=1,\\ \\text{而}\\ \\sum_{n=1}^{\\infty}\\frac{1}{n}\\text{发散},\\ \\text{所以}\\ \\sum_{n=1}^{\\infty}\\frac{1}{\\frac{1-n}{n^{2}}}\\text{发散};\\\\&amp;\\lim_{n\\rightarrow \\infty}\\sqrt{\\frac{n^{2}}{2^{n}}}=\\frac{1}{2}&lt;1,\\ \\text{所以}\\ \\sum_{n=1}^{\\infty}\\frac{n^{2}}{2^{n}}\\text{收敛};\\\\&amp;u_{n}=\\frac{\\ln n}{\\sqrt{n}},\\ \\text{有}\\ u_{n+1}&lt;u_{n},\\lim_{n\\rightarrow \\infty}u_{n}=0,\\ \\text{所以交错级数}\\ \\sum_{n=1}^{\\infty}\\frac{(-1)^{n}\\ln n}{\\sqrt{n^{2}}}\\text{收敛};\\\\&amp;\\left|\\frac{(-1)^{n}[3+(-1)^{n}2]^{n}}{6^{n}}\\right|=\\left|\\frac{[3+(-1)^{n}2]}{6}\\right|^{n}\\leq\\left(\\frac{5}{6}\\right)^{n},\\ \\text{则级数}\\ \\sum_{n=1}^{\\infty}\\frac{(-1)^{n}[3+(-1)^{n}2]^{n}}{6^{n}}\\text{绝对} \\text{收敛}.\\end{aligned}\">\\begin{aligned}&amp;\\lim_{n\\rightarrow \\infty}\\frac{\\frac{1}{\\frac{1-n}{n}}}{\\frac{1}{n}}=\\lim_{n\\rightarrow \\infty}\\frac{1}{\\frac{1}{n^{2}}}=1,\\ \\text{而}\\ \\sum_{n=1}^{\\infty}\\frac{1}{n}\\text{发散},\\ \\text{所以}\\ \\sum_{n=1}^{\\infty}\\frac{1}{\\frac{1-n}{n^{2}}}\\text{发散};\\\\&amp;\\lim_{n\\rightarrow \\infty}\\sqrt{\\frac{n^{2}}{2^{n}}}=\\frac{1}{2}&lt;1,\\ \\text{所以}\\ \\sum_{n=1}^{\\infty}\\frac{n^{2}}{2^{n}}\\text{收敛};\\\\&amp;u_{n}=\\frac{\\ln n}{\\sqrt{n}},\\ \\text{有}\\ u_{n+1}&lt;u_{n},\\lim_{n\\rightarrow \\infty}u_{n}=0,\\ \\text{所以交错级数}\\ \\sum_{n=1}^{\\infty}\\frac{(-1)^{n}\\ln n}{\\sqrt{n^{2}}}\\text{收敛};\\\\&amp;\\left|\\frac{(-1)^{n}[3+(-1)^{n}2]^{n}}{6^{n}}\\right|=\\left|\\frac{[3+(-1)^{n}2]}{6}\\right|^{n}\\leq\\left(\\frac{5}{6}\\right)^{n},\\ \\text{则级数}\\ \\sum_{n=1}^{\\infty}\\frac{(-1)^{n}[3+(-1)^{n}2]^{n}}{6^{n}}\\text{绝对} \\text{收敛}.\\end{aligned}</div>"
     },
     {
       "id": "q0007",
       "number": 7,
       "header": "#7-Averge",
       "difficulty": "Averge",
-      "prompt_html": "<img src=\"/static/generated/assets/advanced-math/ch086/q0007_prompt.png\"/>",
+      "prompt_html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{设} \\, 0 \\leq u_{n} \\leq \\frac{1}{n}, \\, \\text{则下列级数中肯定收敛的是} [ \\quad ] .\">\\text{设} \\, 0 \\leq u_{n} \\leq \\frac{1}{n}, \\, \\text{则下列级数中肯定收敛的是} [ \\quad ] .</span>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch086/q0007_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\sum_{n=1}^{\\infty} (-1)^{n} u_{n}^{2}\">\\sum_{n=1}^{\\infty} (-1)^{n} u_{n}^{2}</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch086/q0007_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\sum_{n = 1}^{\\infty} u _ { n } \\, .\">\\sum_{n = 1}^{\\infty} u _ { n } \\, .</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch086/q0007_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\sum_{n=1}^{\\infty} \\sqrt{u_{n}}\">\\sum_{n=1}^{\\infty} \\sqrt{u_{n}}</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch086/q0007_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\sum_{n=1}^{\\infty} (-1)^{n} u_{n}\">\\sum_{n=1}^{\\infty} (-1)^{n} u_{n}</span>"
         }
       ],
       "answer": "A",
       "answer_index": 0,
-      "analysis_html": "<img src=\"/static/generated/assets/advanced-math/ch086/q0007_analysis.png\"/>"
+      "analysis_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{aligned}&amp;\\text{解答：} \\quad \\text{因为} \\vert (-1)^{n}u_{n}^{2}=u_{n}^{2}\\leq \\frac{1}{n^{2}} \\quad \\text{而正项级数} \\sum_{n=1}^{\\infty} \\frac{1}{n^{2}} \\text{收敛，由比较法，} \\sum_{n=1}^{\\infty} (-1)^{n}u_{n}^{2} \\text{绝对收敛；} \\\\&amp; \\quad \\text{若} \\ u_{n}=\\frac{1}{n}, \\text{则级数} \\sum_{n=1}^{\\infty} \\sqrt{u_{n}}、\\sum_{n=1}^{\\infty} u_{n} \\text{收敛；} \\quad \\\\&amp; \\quad \\text{令} \\ u_{n}=\\begin{cases}0&amp;n=2k+1\\\\ \\frac{1}{n}&amp;n=2k\\end{cases} \\text{则} \\sum_{n=1}^{\\infty} (-1)^{n}u_{n}=\\frac{1}{2}+\\frac{1}{4}+\\frac{1}{6}+\\frac{1}{8}+\\cdots, \\text{发散。}\\end{aligned}\">\\begin{aligned}&amp;\\text{解答：} \\quad \\text{因为} \\vert (-1)^{n}u_{n}^{2}=u_{n}^{2}\\leq \\frac{1}{n^{2}} \\quad \\text{而正项级数} \\sum_{n=1}^{\\infty} \\frac{1}{n^{2}} \\text{收敛，由比较法，} \\sum_{n=1}^{\\infty} (-1)^{n}u_{n}^{2} \\text{绝对收敛；} \\\\&amp; \\quad \\text{若} \\ u_{n}=\\frac{1}{n}, \\text{则级数} \\sum_{n=1}^{\\infty} \\sqrt{u_{n}}、\\sum_{n=1}^{\\infty} u_{n} \\text{收敛；} \\quad \\\\&amp; \\quad \\text{令} \\ u_{n}=\\begin{cases}0&amp;n=2k+1\\\\ \\frac{1}{n}&amp;n=2k\\end{cases} \\text{则} \\sum_{n=1}^{\\infty} (-1)^{n}u_{n}=\\frac{1}{2}+\\frac{1}{4}+\\frac{1}{6}+\\frac{1}{8}+\\cdots, \\text{发散。}\\end{aligned}</div>"
     },
     {
       "id": "q0008",
       "number": 8,
       "header": "#8-Averge",
       "difficulty": "Averge",
-      "prompt_html": "<img src=\"/static/generated/assets/advanced-math/ch086/q0008_prompt.png\"/>",
+      "prompt_html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{设级数} \\sum _ { n = 1 } ^ { \\infty } u _ { n } \\text{收敛，则下列级数中必定收敛的是} [ \\quad ] . \\Leftrightarrow\">\\text{设级数} \\sum _ { n = 1 } ^ { \\infty } u _ { n } \\text{收敛，则下列级数中必定收敛的是} [ \\quad ] . \\Leftrightarrow</span>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch086/q0008_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\sum_{n=1}^{\\infty} (-1)^{n} \\frac{u_{n}}{n}\">\\sum_{n=1}^{\\infty} (-1)^{n} \\frac{u_{n}}{n}</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch086/q0008_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\sum_{n=1}^{\\infty} \\left( u_{n} + u_{n+1} \\right) ;\">\\sum_{n=1}^{\\infty} \\left( u_{n} + u_{n+1} \\right) ;</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch086/q0008_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\sum_{n=1}^{\\infty} u_{n}^{2}\\,.\">\\sum_{n=1}^{\\infty} u_{n}^{2}\\,.</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch086/q0008_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\sum_{n=1}^{\\infty} (u_{2n-1} - u_{2n})\">\\sum_{n=1}^{\\infty} (u_{2n-1} - u_{2n})</span>"
         }
       ],
       "answer": "B",
       "answer_index": 1,
-      "analysis_html": "<img src=\"/static/generated/assets/advanced-math/ch086/q0008_analysis.png\"/>"
+      "analysis_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{aligned}&amp;\\text{解答：}\\sum_{n=1}^{\\infty}u_{n}\\ \\text{收敛，则级数}\\sum_{n=1}^{\\infty}u_{n-1}\\ \\text{也收敛，故级数}\\sum_{n=1}^{\\infty}(u_{n}+u_{n-1})\\ \\text{收敛；}\\ \\varphi\\\\&amp;\\quad\\text{令}\\ \\ \\ u_{n}=(-1)^{n-1}\\frac{1}{n}\\ ,\\quad\\ \\text{则}\\ \\ \\sum_{n=1}^{\\infty}u_{n}\\ \\ \\ \\text{收\\ 敛}\\ ,\\quad\\ \\text{但}\\\\&amp;\\quad\\sum_{n=1}^{\\infty}(u_{2n-1}-u_{2n})=(1+\\frac{1}{2})+(\\frac{1}{3}+\\frac{1}{4})+\\cdots+(\\frac{1}{2n-1}+\\frac{1}{2n})+\\cdots\\ \\text{发散；}\\ \\varphi\\\\&amp;\\quad\\text{令}u_{n}=\\frac{(-1)^{n}}{\\ln n}\\ ,\\ \\text{则交错级数}\\sum_{n=1}^{\\infty}\\frac{(-1)^{n}}{\\ln n}\\ \\text{收敛，但}\\sum_{n=1}^{\\infty}\\frac{(-1)^{n}}{n}=\\sum_{n=1}^{\\infty}\\frac{1}{n\\ln n}\\ \\text{发散；}\\varphi\\\\&amp;\\quad\\text{令}u_{n}=\\frac{(-1)^{n-1}}{\\sqrt{n}}\\ ,\\ \\text{则交错级数}\\sum_{n=1}^{\\infty}u_{n}\\ \\text{收敛，}\\sum_{n=1}^{\\infty}u_{n}^{2}=\\sum_{n=1}^{\\infty}\\frac{1}{n}\\ \\text{发散}.\\ \\varphi.\\end{aligned}\">\\begin{aligned}&amp;\\text{解答：}\\sum_{n=1}^{\\infty}u_{n}\\ \\text{收敛，则级数}\\sum_{n=1}^{\\infty}u_{n-1}\\ \\text{也收敛，故级数}\\sum_{n=1}^{\\infty}(u_{n}+u_{n-1})\\ \\text{收敛；}\\ \\varphi\\\\&amp;\\quad\\text{令}\\ \\ \\ u_{n}=(-1)^{n-1}\\frac{1}{n}\\ ,\\quad\\ \\text{则}\\ \\ \\sum_{n=1}^{\\infty}u_{n}\\ \\ \\ \\text{收\\ 敛}\\ ,\\quad\\ \\text{但}\\\\&amp;\\quad\\sum_{n=1}^{\\infty}(u_{2n-1}-u_{2n})=(1+\\frac{1}{2})+(\\frac{1}{3}+\\frac{1}{4})+\\cdots+(\\frac{1}{2n-1}+\\frac{1}{2n})+\\cdots\\ \\text{发散；}\\ \\varphi\\\\&amp;\\quad\\text{令}u_{n}=\\frac{(-1)^{n}}{\\ln n}\\ ,\\ \\text{则交错级数}\\sum_{n=1}^{\\infty}\\frac{(-1)^{n}}{\\ln n}\\ \\text{收敛，但}\\sum_{n=1}^{\\infty}\\frac{(-1)^{n}}{n}=\\sum_{n=1}^{\\infty}\\frac{1}{n\\ln n}\\ \\text{发散；}\\varphi\\\\&amp;\\quad\\text{令}u_{n}=\\frac{(-1)^{n-1}}{\\sqrt{n}}\\ ,\\ \\text{则交错级数}\\sum_{n=1}^{\\infty}u_{n}\\ \\text{收敛，}\\sum_{n=1}^{\\infty}u_{n}^{2}=\\sum_{n=1}^{\\infty}\\frac{1}{n}\\ \\text{发散}.\\ \\varphi.\\end{aligned}</div>"
     },
     {
       "id": "q0009",
       "number": 9,
       "header": "#9-Averge",
       "difficulty": "Averge",
-      "prompt_html": "<img src=\"/static/generated/assets/advanced-math/ch086/q0009_prompt.png\"/>",
+      "prompt_html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{级数} \\sum _ { n = 1 } ^ { \\infty } a _ { n } = \\sum _ { n = 1 } ^ { \\infty } ( - 1 ) ^ { n } \\ln \\left( 1 + \\frac { 1 } { \\sqrt [ 3 ] { n } } \\right) , \\text{则级数} [ \\quad ]  .\">\\text{级数} \\sum _ { n = 1 } ^ { \\infty } a _ { n } = \\sum _ { n = 1 } ^ { \\infty } ( - 1 ) ^ { n } \\ln \\left( 1 + \\frac { 1 } { \\sqrt [ 3 ] { n } } \\right) , \\text{则级数} [ \\quad ]  .</span>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch086/q0009_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\sum_{n=1}^{\\infty} a_{n} \\text{与} \\sum_{n=1}^{\\infty} a_{n}^{2} \\text{都发散}\">\\sum_{n=1}^{\\infty} a_{n} \\text{与} \\sum_{n=1}^{\\infty} a_{n}^{2} \\text{都发散}</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch086/q0009_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\sum_{n=1}^{\\infty} a_{n}\\text{收敛},\\ \\sum_{n=1}^{\\infty} a_{n}^{2}\\ \\text{发散}\">\\sum_{n=1}^{\\infty} a_{n}\\text{收敛},\\ \\sum_{n=1}^{\\infty} a_{n}^{2}\\ \\text{发散}</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch086/q0009_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\sum_{n=1}^{\\infty} a_{n} \\text{发散},\\ \\sum_{n=1}^{\\infty} a_{n}^{2} \\text{收敛.}\\ast\">\\sum_{n=1}^{\\infty} a_{n} \\text{发散},\\ \\sum_{n=1}^{\\infty} a_{n}^{2} \\text{收敛.}\\ast</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch086/q0009_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\sum_{n=1}^{\\infty} a_{n} \\text{与} \\sum_{n=1}^{\\infty} a_{n}^{2} \\text{都收敛}\">\\sum_{n=1}^{\\infty} a_{n} \\text{与} \\sum_{n=1}^{\\infty} a_{n}^{2} \\text{都收敛}</span>"
         }
       ],
       "answer": "B",
       "answer_index": 1,
-      "analysis_html": "<img src=\"/static/generated/assets/advanced-math/ch086/q0009_analysis.png\"/>"
+      "analysis_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{aligned}&amp;\\text{解答：}\\quad u_{n}=\\ln(1+\\frac{1}{\\sqrt[3]{n}}),\\quad \\text{则}\\, |u_{n+1}|&lt;u_{n},\\quad \\text{且}\\lim_{n\\rightarrow \\infty}\\ln(1+\\frac{1}{\\sqrt[3]{n}})=0,\\quad \\text{所以交错级数}\\\\&amp;\\\\&amp;\\sum_{n=1}^{\\infty}(-1)^{n}\\ln\\left(1+\\frac{1}{\\sqrt[3]{n}}\\right)\\text{收敛};\\\\&amp;\\quad a_{n}^{2}=\\ln^{2}\\left(1+\\frac{1}{\\sqrt[3]{n}}\\right)&gt;0,\\quad \\lim_{n\\rightarrow \\infty}\\frac{\\ln^{2}(1+\\frac{1}{\\sqrt[3]{n}})}{\\frac{1}{(\\sqrt[3]{n})^{2}}}=\\lim_{n\\rightarrow \\infty}\\frac{(\\frac{1}{\\sqrt[3]{n}})^{2}}{\\frac{1}{(\\sqrt[3]{n})^{2}}}=1,\\quad \\text{级数}\\sum_{n=1}^{\\infty}\\frac{1}{n^{\\frac{2}{3}}}\\text{发散},\\\\&amp;\\text{则}\\sum_{n=1}^{\\infty}a_{n}^{2}\\text{发散}.\\end{aligned}\">\\begin{aligned}&amp;\\text{解答：}\\quad u_{n}=\\ln(1+\\frac{1}{\\sqrt[3]{n}}),\\quad \\text{则}\\, |u_{n+1}|&lt;u_{n},\\quad \\text{且}\\lim_{n\\rightarrow \\infty}\\ln(1+\\frac{1}{\\sqrt[3]{n}})=0,\\quad \\text{所以交错级数}\\\\&amp;\\\\&amp;\\sum_{n=1}^{\\infty}(-1)^{n}\\ln\\left(1+\\frac{1}{\\sqrt[3]{n}}\\right)\\text{收敛};\\\\&amp;\\quad a_{n}^{2}=\\ln^{2}\\left(1+\\frac{1}{\\sqrt[3]{n}}\\right)&gt;0,\\quad \\lim_{n\\rightarrow \\infty}\\frac{\\ln^{2}(1+\\frac{1}{\\sqrt[3]{n}})}{\\frac{1}{(\\sqrt[3]{n})^{2}}}=\\lim_{n\\rightarrow \\infty}\\frac{(\\frac{1}{\\sqrt[3]{n}})^{2}}{\\frac{1}{(\\sqrt[3]{n})^{2}}}=1,\\quad \\text{级数}\\sum_{n=1}^{\\infty}\\frac{1}{n^{\\frac{2}{3}}}\\text{发散},\\\\&amp;\\text{则}\\sum_{n=1}^{\\infty}a_{n}^{2}\\text{发散}.\\end{aligned}</div>"
     },
     {
       "id": "q0010",
       "number": 10,
       "header": "#10-Averge",
       "difficulty": "Averge",
-      "prompt_html": "<img src=\"/static/generated/assets/advanced-math/ch086/q0010_prompt.png\"/>",
+      "prompt_html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{级数} \\sum_{n=1}^{\\infty} \\left( \\frac{1}{n^{2+\\alpha^{2}}} + \\frac{(-1)^{n}}{k} \\right) [\\quad].\">\\text{级数} \\sum_{n=1}^{\\infty} \\left( \\frac{1}{n^{2+\\alpha^{2}}} + \\frac{(-1)^{n}}{k} \\right) [\\quad].</span>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch086/q0010_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{条件收敛}\">\\text{条件收敛}</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch086/q0010_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{发散}:\">\\text{发散}:</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch086/q0010_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{绝对收敛};\">\\text{绝对收敛};</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch086/q0010_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{可能收敛也可能发散}.\">\\text{可能收敛也可能发散}.</span>"
         }
       ],
       "answer": "B",
       "answer_index": 1,
-      "analysis_html": "<img src=\"/static/generated/assets/advanced-math/ch086/q0010_analysis.png\"/>"
+      "analysis_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{aligned} \\text{解答：级数}\\sum_{n=1}^{\\infty}\\frac{1}{n^{2-\\alpha^{2}}}&amp;\\text{是}p=2+\\alpha^{2}&gt;1\\text{的}p\\text{级数}，\\text{收敛}； \\\\ \\sum_{n=1}^{\\infty}\\frac{(-1)^{n}}{k}&amp;\\text{是常数级数，发散，}\\swarrow \\\\ \\text{所以级数}\\sum_{n=1}^{\\infty}\\left(\\frac{1}{n^{2-\\alpha^{2}}}+\\frac{(-1)^{n}}{k}\\right)\\text{发散，}\\swarrow \\end{aligned}\">\\begin{aligned} \\text{解答：级数}\\sum_{n=1}^{\\infty}\\frac{1}{n^{2-\\alpha^{2}}}&amp;\\text{是}p=2+\\alpha^{2}&gt;1\\text{的}p\\text{级数}，\\text{收敛}； \\\\ \\sum_{n=1}^{\\infty}\\frac{(-1)^{n}}{k}&amp;\\text{是常数级数，发散，}\\swarrow \\\\ \\text{所以级数}\\sum_{n=1}^{\\infty}\\left(\\frac{1}{n^{2-\\alpha^{2}}}+\\frac{(-1)^{n}}{k}\\right)\\text{发散，}\\swarrow \\end{aligned}</div>"
     },
     {
       "id": "q0011",
       "number": 11,
       "header": "#11-Averge",
       "difficulty": "Averge",
-      "prompt_html": "<img src=\"/static/generated/assets/advanced-math/ch086/q0011_prompt.png\"/>",
+      "prompt_html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{关于级数} \\sum _ { n = 1 } ^ { \\infty } \\frac { ( - 1 ) ^ { n - 1 } } { n ^ { p } } ( p &gt; 0 ) \\text{的收敛性，下列说法正确的是} [ \\quad ] .  \\Leftrightarrow\">\\text{关于级数} \\sum _ { n = 1 } ^ { \\infty } \\frac { ( - 1 ) ^ { n - 1 } } { n ^ { p } } ( p &gt; 0 ) \\text{的收敛性，下列说法正确的是} [ \\quad ] .  \\Leftrightarrow</span>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch086/q0011_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\, 0 &lt; p \\leq 1 \\, \\text{时，条件收敛};\">\\, 0 &lt; p \\leq 1 \\, \\text{时，条件收敛};</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch086/q0011_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"p &gt; 1 \\text{时，条件收敛：}\">p &gt; 1 \\text{时，条件收敛：}</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch086/q0011_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\begin{array}{l} p &gt; 1 \\text {时，条件收敛}; \\end{array}\">\\begin{array}{l} p &gt; 1 \\text {时，条件收敛}; \\end{array}</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch086/q0011_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"0 &lt; p \\leq 1 \\text{时，绝对收敛}\">0 &lt; p \\leq 1 \\text{时，绝对收敛}</span>"
         }
       ],
       "answer": "A",
       "answer_index": 0,
-      "analysis_html": "<img src=\"/static/generated/assets/advanced-math/ch086/q0011_analysis.png\"/>"
+      "analysis_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{array}{l} \\text {解答：由} \\sum_{n=1}^{\\infty} \\left| \\frac{(-1)^{n-1}}{n^{p}} \\right| = \\sum_{n=1}^{\\infty} \\frac{1}{n^{p}}, \\text {则当} p &gt; 1 \\text {时，级数绝对收敛；} \\\\ \\text {当} 0 &lt; p \\leq 1, \\text {由交错级数审敛法} \\sum_{n=1}^{\\infty} \\frac{(-1)^{n-1}}{n^{p}} \\text {收敛，但} \\sum_{n=1}^{\\infty} \\frac{1}{n^{p}} \\text {发散，故级数条件收敛。} \\end{array}\">\\begin{array}{l} \\text {解答：由} \\sum_{n=1}^{\\infty} \\left| \\frac{(-1)^{n-1}}{n^{p}} \\right| = \\sum_{n=1}^{\\infty} \\frac{1}{n^{p}}, \\text {则当} p &gt; 1 \\text {时，级数绝对收敛；} \\\\ \\text {当} 0 &lt; p \\leq 1, \\text {由交错级数审敛法} \\sum_{n=1}^{\\infty} \\frac{(-1)^{n-1}}{n^{p}} \\text {收敛，但} \\sum_{n=1}^{\\infty} \\frac{1}{n^{p}} \\text {发散，故级数条件收敛。} \\end{array}</div>"
     },
     {
       "id": "q0012",
       "number": 12,
       "header": "#12-Averge",
       "difficulty": "Averge",
-      "prompt_html": "<img src=\"/static/generated/assets/advanced-math/ch086/q0012_prompt.png\"/>",
+      "prompt_html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{若} \\sum_{n=1}^{\\infty} u_{n} \\text{收敛，则下列级数中哪个必收敛} [ \\quad].\">\\text{若} \\sum_{n=1}^{\\infty} u_{n} \\text{收敛，则下列级数中哪个必收敛} [ \\quad].</span>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch086/q0012_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\sum_{n=1}^{\\infty} u_{n}^{2}\\,;\">\\sum_{n=1}^{\\infty} u_{n}^{2}\\,;</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch086/q0012_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\sum_{n=1}^{\\infty} (u_{n} - u_{n-1}) \\, ;\">\\sum_{n=1}^{\\infty} (u_{n} - u_{n-1}) \\, ;</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch086/q0012_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\sum_{n=1}^{\\infty} |u_{n}|\\,.\">\\sum_{n=1}^{\\infty} |u_{n}|\\,.</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch086/q0012_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\sum_{n = 1}^{\\infty} (-1)^{n} u_{n}\\, ;\">\\sum_{n = 1}^{\\infty} (-1)^{n} u_{n}\\, ;</span>"
         }
       ],
       "answer": "B",
       "answer_index": 1,
-      "analysis_html": "<img src=\"/static/generated/assets/advanced-math/ch086/q0012_analysis.png\"/>"
+      "analysis_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{aligned}&amp;\\text{解答：}\\sum_{n=1}^{\\infty}u_{n}\\ \\text{收敛，则}\\sum_{n=1}^{\\infty}u_{n-1}\\ \\text{也必定收敛，由级数的性质知}\\sum_{n=1}^{\\infty}(u_{n}-u_{n-1})\\ \\text{收敛}\\\\&amp;\\\\&amp;\\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\end{aligned}\">\\begin{aligned}&amp;\\text{解答：}\\sum_{n=1}^{\\infty}u_{n}\\ \\text{收敛，则}\\sum_{n=1}^{\\infty}u_{n-1}\\ \\text{也必定收敛，由级数的性质知}\\sum_{n=1}^{\\infty}(u_{n}-u_{n-1})\\ \\text{收敛}\\\\&amp;\\\\&amp;\\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\end{aligned}</div>"
     },
     {
       "id": "q0013",
       "number": 13,
       "header": "#13-Averge",
       "difficulty": "Averge",
-      "prompt_html": "<img src=\"/static/generated/assets/advanced-math/ch086/q0013_prompt.png\"/>",
+      "prompt_html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{已知两级数（1）} \\sum_{n=1}^{\\infty} (-1)^{n-1} \\frac{1}{n} \\text{和（2）} \\sum_{n=1}^{\\infty} \\frac{1}{n}, \\text{则应有} [ \\quad] . \\leftarrow\">\\text{已知两级数（1）} \\sum_{n=1}^{\\infty} (-1)^{n-1} \\frac{1}{n} \\text{和（2）} \\sum_{n=1}^{\\infty} \\frac{1}{n}, \\text{则应有} [ \\quad] . \\leftarrow</span>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch086/q0013_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{(1) 收敛，(2) 发散；}\">\\text{(1) 收敛，(2) 发散；}</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch086/q0013_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{全发散}. \\Leftrightarrow\">\\text{全发散}. \\Leftrightarrow</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch086/q0013_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"(1) \\text{发散}, (2) \\text{收敛}\">(1) \\text{发散}, (2) \\text{收敛}</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch086/q0013_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{全收敛}\">\\text{全收敛}</span>"
         }
       ],
       "answer": "A",
       "answer_index": 0,
-      "analysis_html": "<img src=\"/static/generated/assets/advanced-math/ch086/q0013_analysis.png\"/>"
+      "analysis_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{array}{l} \\text{解答：} \\lim_{n \\to \\infty} \\frac{1}{n} = 0 \\, , \\ \\frac{1}{n} &gt; \\frac{1}{n+1} \\, , \\text{由莱布尼兹定理知，} \\sum_{n=1}^{\\infty} (-1)^{n-1} \\frac{1}{n} \\text{收敛；} \\\\ \\text{而调和级数} \\sum_{n=1}^{\\infty} \\frac{1}{n} \\text{发散。} \\end{array}\">\\begin{array}{l} \\text{解答：} \\lim_{n \\to \\infty} \\frac{1}{n} = 0 \\, , \\ \\frac{1}{n} &gt; \\frac{1}{n+1} \\, , \\text{由莱布尼兹定理知，} \\sum_{n=1}^{\\infty} (-1)^{n-1} \\frac{1}{n} \\text{收敛；} \\\\ \\text{而调和级数} \\sum_{n=1}^{\\infty} \\frac{1}{n} \\text{发散。} \\end{array}</div>"
     },
     {
       "id": "q0014",
       "number": 14,
       "header": "#14-Averge",
       "difficulty": "Averge",
-      "prompt_html": "<img src=\"/static/generated/assets/advanced-math/ch086/q0014_prompt.png\"/>",
+      "prompt_html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{级数} \\sum_{n=1}^{\\infty} (-1)^{n} \\left( 1 - \\cos \\frac{a}{n} \\right) \\ \\text{（常数}a&gt;0\\text{）}\\ \\ [ \\ \\ \\ \\ \\ ] . \\leftrightarrow\">\\text{级数} \\sum_{n=1}^{\\infty} (-1)^{n} \\left( 1 - \\cos \\frac{a}{n} \\right) \\ \\text{（常数}a&gt;0\\text{）}\\ \\ [ \\ \\ \\ \\ \\ ] . \\leftrightarrow</span>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch086/q0014_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{条件收敛}\">\\text{条件收敛}</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch086/q0014_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{绝对收敛};\">\\text{绝对收敛};</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch086/q0014_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{发散}\">\\text{发散}</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch086/q0014_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{敛散性} \\, a \\text{与有关}.\">\\text{敛散性} \\, a \\text{与有关}.</span>"
         }
       ],
       "answer": "B",
       "answer_index": 1,
-      "analysis_html": "<img src=\"/static/generated/assets/advanced-math/ch086/q0014_analysis.png\"/>"
+      "analysis_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{array}{l} \\text {解答：} \\ 0 \\leq 1 - \\cos \\frac {a}{n} = 2 \\sin^ {2} \\frac {a}{2 n} \\leq 2 \\cdot \\left(\\frac {a}{2 n}\\right) ^ {2} = \\frac {a ^ {2}}{2 n ^ {2}} , \\text {由正项级数的比较法，级数} \\\\ \\sum_ {n = 1} ^ {\\infty} \\left(1 - \\cos \\frac {a}{n}\\right) \\text {收敛，所以} \\sum_ {n = 1} ^ {\\infty} (- 1) ^ {n} \\left(1 - \\cos \\frac {a}{n}\\right) \\text {绝对收敛}, \\end{array}\">\\begin{array}{l} \\text {解答：} \\ 0 \\leq 1 - \\cos \\frac {a}{n} = 2 \\sin^ {2} \\frac {a}{2 n} \\leq 2 \\cdot \\left(\\frac {a}{2 n}\\right) ^ {2} = \\frac {a ^ {2}}{2 n ^ {2}} , \\text {由正项级数的比较法，级数} \\\\ \\sum_ {n = 1} ^ {\\infty} \\left(1 - \\cos \\frac {a}{n}\\right) \\text {收敛，所以} \\sum_ {n = 1} ^ {\\infty} (- 1) ^ {n} \\left(1 - \\cos \\frac {a}{n}\\right) \\text {绝对收敛}, \\end{array}</div>"
     },
     {
       "id": "q0015",
       "number": 15,
       "header": "#15-Averge",
       "difficulty": "Averge",
-      "prompt_html": "<img src=\"/static/generated/assets/advanced-math/ch086/q0015_prompt.png\"/>",
+      "prompt_html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{若数列}\\{na_{n}\\}\\text{有界，则级数}\\sum_{n=1}^{\\infty}(-1)^{n}a_{n}^{2}\\left[\\quad\\right].\">\\text{若数列}\\{na_{n}\\}\\text{有界，则级数}\\sum_{n=1}^{\\infty}(-1)^{n}a_{n}^{2}\\left[\\quad\\right].</span>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch086/q0015_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{条件收敛}\">\\text{条件收敛}</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch086/q0015_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{绝对收敛}\">\\text{绝对收敛}</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch086/q0015_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{不能确定收敛性}.\">\\text{不能确定收敛性}.</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch086/q0015_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{发散};\">\\text{发散};</span>"
         }
       ],
       "answer": "B",
       "answer_index": 1,
-      "analysis_html": "<img src=\"/static/generated/assets/advanced-math/ch086/q0015_analysis.png\"/>"
+      "analysis_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{aligned}&amp;\\text{解答：由于}\\{na_{n}\\}\\text{有界，则存在常数}M,\\text{式}|\\,na_{n}\\,|&lt;M,\\text{即}\\omega\\\\&amp;\\quad|(-1)^{n}a_{n}^{2}|=a_{n}^{2}&lt;(\\frac{M}{n})^{2}=\\frac{M^{2}}{n^{2}},\\ \\omega\\\\&amp;\\text{由级数}\\sum_{n=1}^{\\infty}\\frac{M^{2}}{n^{2}}\\text{收敛，故}\\sum_{n=1}^{\\infty}(-1)^{n}a_{n}^{2}\\text{绝对收敛}.\\omega\\end{aligned}\">\\begin{aligned}&amp;\\text{解答：由于}\\{na_{n}\\}\\text{有界，则存在常数}M,\\text{式}|\\,na_{n}\\,|&lt;M,\\text{即}\\omega\\\\&amp;\\quad|(-1)^{n}a_{n}^{2}|=a_{n}^{2}&lt;(\\frac{M}{n})^{2}=\\frac{M^{2}}{n^{2}},\\ \\omega\\\\&amp;\\text{由级数}\\sum_{n=1}^{\\infty}\\frac{M^{2}}{n^{2}}\\text{收敛，故}\\sum_{n=1}^{\\infty}(-1)^{n}a_{n}^{2}\\text{绝对收敛}.\\omega\\end{aligned}</div>"
     },
     {
       "id": "q0016",
       "number": 16,
       "header": "#16-Averge",
       "difficulty": "Averge",
-      "prompt_html": "<img src=\"/static/generated/assets/advanced-math/ch086/q0016_prompt.png\"/>",
+      "prompt_html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{当级数} \\sum_{n=1}^{\\infty} u_{_{n}} \\text{收敛时，级数} \\sum_{n=1}^{\\infty} (-1)^{n} u_{_{n}} \\ [ \\quad \\quad ] .\\Leftrightarrow\">\\text{当级数} \\sum_{n=1}^{\\infty} u_{_{n}} \\text{收敛时，级数} \\sum_{n=1}^{\\infty} (-1)^{n} u_{_{n}} \\ [ \\quad \\quad ] .\\Leftrightarrow</span>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch086/q0016_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{部分和序列有界}.\">\\text{部分和序列有界}.</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch086/q0016_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\textbf{必发散}\">\\textbf{必发散}</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch086/q0016_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{必绝对收敛}\">\\text{必绝对收敛}</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch086/q0016_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{可能收敛也可能发散：}\">\\text{可能收敛也可能发散：}</span>"
         }
       ],
       "answer": "D",
       "answer_index": 3,
-      "analysis_html": "<img src=\"/static/generated/assets/advanced-math/ch086/q0016_analysis.png\"/>"
+      "analysis_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{aligned}\\text{解答：举例说明，令}u_{n}=\\frac{(-1)^{n-1}}{n},\\ \\text{则}\\sum_{n=1}^{\\infty}u_{n}\\ \\text{收敛，而}\\sum_{n=1}^{\\infty}(-1)^{n}u_{n}\\ \\text{发散；}\\\\ \\text{若令}u_{n}=\\frac{1}{n^{x}}\\ ,\\ \\text{则}\\sum_{n=1}^{\\infty}u_{n}\\ \\text{收敛，且}\\sum_{n=1}^{\\infty}(-1)^{n}u_{n}\\ \\text{也收敛。}\\end{aligned}\">\\begin{aligned}\\text{解答：举例说明，令}u_{n}=\\frac{(-1)^{n-1}}{n},\\ \\text{则}\\sum_{n=1}^{\\infty}u_{n}\\ \\text{收敛，而}\\sum_{n=1}^{\\infty}(-1)^{n}u_{n}\\ \\text{发散；}\\\\ \\text{若令}u_{n}=\\frac{1}{n^{x}}\\ ,\\ \\text{则}\\sum_{n=1}^{\\infty}u_{n}\\ \\text{收敛，且}\\sum_{n=1}^{\\infty}(-1)^{n}u_{n}\\ \\text{也收敛。}\\end{aligned}</div>"
     },
     {
       "id": "q0017",
       "number": 17,
       "header": "#17-Averge",
       "difficulty": "Averge",
-      "prompt_html": "<img src=\"/static/generated/assets/advanced-math/ch086/q0017_prompt.png\"/>",
+      "prompt_html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{级数} \\sum _ { n = 1 } ^ { \\infty } ( - 1 ) ^ { n + 1 } \\frac { 3 ^ { n } - k ( - 2 ) ^ { n } } { 5 \\cdot 3 ^ { n } } [ \\quad \\quad ] , ( k \\text {为常数}).\">\\text{级数} \\sum _ { n = 1 } ^ { \\infty } ( - 1 ) ^ { n + 1 } \\frac { 3 ^ { n } - k ( - 2 ) ^ { n } } { 5 \\cdot 3 ^ { n } } [ \\quad \\quad ] , ( k \\text {为常数}).</span>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch086/q0017_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{条件收敛}\">\\text{条件收敛}</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch086/q0017_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{敛散性} \\, k \\text{与有关}.\">\\text{敛散性} \\, k \\text{与有关}.</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch086/q0017_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{发散}\">\\text{发散}</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch086/q0017_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\textbf{绝对收敛} :\">\\textbf{绝对收敛} :</span>"
         }
       ],
       "answer": "C",
       "answer_index": 2,
-      "analysis_html": "<img src=\"/static/generated/assets/advanced-math/ch086/q0017_analysis.png\"/>"
+      "analysis_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{array}{l} \\text {解答：} \\sum_{n = 1}^{\\infty} (-1)^{n - 1} \\frac{3^{n} - k(-2)^{n}}{5 \\cdot 3^{n}} = \\sum_{n = 1}^{\\infty} (-1)^{n - 1} \\left[ \\frac{1}{5} - \\frac{k}{5} \\cdot \\left( - \\frac{2}{3} \\right)^{n} \\right], \\\\ \\text {则} \\sum_{n = 1}^{\\infty} (-1)^{n - 1} \\frac{1}{5} \\text{发散，而} \\sum_{n = 1}^{\\infty} \\frac{k}{5} \\cdot \\left( \\frac{2}{3} \\right)^{n} \\text{是几何级数收敛.} \\end{array}\">\\begin{array}{l} \\text {解答：} \\sum_{n = 1}^{\\infty} (-1)^{n - 1} \\frac{3^{n} - k(-2)^{n}}{5 \\cdot 3^{n}} = \\sum_{n = 1}^{\\infty} (-1)^{n - 1} \\left[ \\frac{1}{5} - \\frac{k}{5} \\cdot \\left( - \\frac{2}{3} \\right)^{n} \\right], \\\\ \\text {则} \\sum_{n = 1}^{\\infty} (-1)^{n - 1} \\frac{1}{5} \\text{发散，而} \\sum_{n = 1}^{\\infty} \\frac{k}{5} \\cdot \\left( \\frac{2}{3} \\right)^{n} \\text{是几何级数收敛.} \\end{array}</div>"
     },
     {
       "id": "q0018",
       "number": 18,
       "header": "#18-Averge",
       "difficulty": "Averge",
-      "prompt_html": "<img src=\"/static/generated/assets/advanced-math/ch086/q0018_prompt.png\"/>",
+      "prompt_html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{使交错级数} \\sum_{n=1}^{\\infty} (-1)^{n} a_{n} \\text{收敛的条件是}[ \\quad].\">\\text{使交错级数} \\sum_{n=1}^{\\infty} (-1)^{n} a_{n} \\text{收敛的条件是}[ \\quad].</span>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch086/q0018_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\sum_{n=1}^{\\infty} a_{2n-1}\\ \\text{收敛}\">\\sum_{n=1}^{\\infty} a_{2n-1}\\ \\text{收敛}</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch086/q0018_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\{a_{n}\\} \\text{单调且趋近于零}\">\\{a_{n}\\} \\text{单调且趋近于零}</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch086/q0018_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\sum_{n=1}^{\\infty} a_{n}^{2}\\ \\text{收敛}.\">\\sum_{n=1}^{\\infty} a_{n}^{2}\\ \\text{收敛}.</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch086/q0018_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\sum_{n=1}^{\\infty} |a_{2n}|\\text{收敛}\">\\sum_{n=1}^{\\infty} |a_{2n}|\\text{收敛}</span>"
         }
       ],
       "answer": "B",
       "answer_index": 1,
-      "analysis_html": "<img src=\"/static/generated/assets/advanced-math/ch086/q0018_analysis.png\"/>"
+      "analysis_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{aligned}&amp;\\text{解答：由莱布尼兹定理，若交错级数}  \\sum_{n=1}^{\\infty} (-1)^{n}a_{n}  \\text{满足条件：} \\\\&amp;\\\\&amp;\\quad(1)\\ a_{n}\\geq a_{n+1}&gt;0(n=1,2,\\cdots)\\,;\\\\&amp;\\quad(2)\\ \\lim_{n\\rightarrow\\infty}a_{n}=0\\,,\\\\&amp;\\text{则交错级数收敛，并且它的和} s\\leq u_{1},\\end{aligned}\">\\begin{aligned}&amp;\\text{解答：由莱布尼兹定理，若交错级数}  \\sum_{n=1}^{\\infty} (-1)^{n}a_{n}  \\text{满足条件：} \\\\&amp;\\\\&amp;\\quad(1)\\ a_{n}\\geq a_{n+1}&gt;0(n=1,2,\\cdots)\\,;\\\\&amp;\\quad(2)\\ \\lim_{n\\rightarrow\\infty}a_{n}=0\\,,\\\\&amp;\\text{则交错级数收敛，并且它的和} s\\leq u_{1},\\end{aligned}</div>"
     },
     {
       "id": "q0019",
       "number": 19,
       "header": "#19-Averge",
       "difficulty": "Averge",
-      "prompt_html": "<img src=\"/static/generated/assets/advanced-math/ch086/q0019_prompt.png\"/>",
+      "prompt_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{array}{l}\\text{设}0\\leq u_{n+1}&lt;u_{n}\\left(n=1,2,3,\\cdots\\right),\\ \\ \\lim\\limits_{n\\rightarrow\\infty}u_{n}=0\\ ,\\ \\ \\text{则}[ \\quad\\quad].\\end{array}\">\\begin{array}{l}\\text{设}0\\leq u_{n+1}&lt;u_{n}\\left(n=1,2,3,\\cdots\\right),\\ \\ \\lim\\limits_{n\\rightarrow\\infty}u_{n}=0\\ ,\\ \\ \\text{则}[ \\quad\\quad].\\end{array}</div>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch086/q0019_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\sum_{n=1}^{\\infty}(-1)^{n}u_{n}^{2},\\ \\ \\sum_{n=1}^{\\infty}(-1)^{n}\\sqrt{u_{n}} \\text{都是发散级数}.\">\\sum_{n=1}^{\\infty}(-1)^{n}u_{n}^{2},\\ \\ \\sum_{n=1}^{\\infty}(-1)^{n}\\sqrt{u_{n}} \\text{都是发散级数}.</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch086/q0019_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\sum_{n=1}^{\\infty}(-1)^{n}u_{n}^{2}\\text{收敛},\\ \\ \\sum_{n=1}^{\\infty}(-1)^{n}\\sqrt{u_{n}}\\ \\text{发散};\">\\sum_{n=1}^{\\infty}(-1)^{n}u_{n}^{2}\\text{收敛},\\ \\ \\sum_{n=1}^{\\infty}(-1)^{n}\\sqrt{u_{n}}\\ \\text{发散};</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch086/q0019_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\sum_{n=1}^{\\infty}(-1)^{n}u_{n}^{2}\\text{发散},\\ \\sum_{n=1}^{\\infty}(-1)^{n}\\sqrt{u_{n}}\\text{收敛};\">\\sum_{n=1}^{\\infty}(-1)^{n}u_{n}^{2}\\text{发散},\\ \\sum_{n=1}^{\\infty}(-1)^{n}\\sqrt{u_{n}}\\text{收敛};</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch086/q0019_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\sum_{n=1}^{\\infty}(-1)^{n}u_{n}^{2}\\,,\\,\\sum_{n=1}^{\\infty}(-1)^{n}\\sqrt{u_{n}}\\,\\text{都是收敛级数};\">\\sum_{n=1}^{\\infty}(-1)^{n}u_{n}^{2}\\,,\\,\\sum_{n=1}^{\\infty}(-1)^{n}\\sqrt{u_{n}}\\,\\text{都是收敛级数};</span>"
         }
       ],
       "answer": "D",
       "answer_index": 3,
-      "analysis_html": "<img src=\"/static/generated/assets/advanced-math/ch086/q0019_analysis.png\"/>"
+      "analysis_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{array}{l} \\text {解答：因为} 0 \\leq u_{n+1} &lt; u_{n} \\left( n = 1, 2, 3, \\cdots \\right), \\ \\lim_{n \\to \\infty} u_{n} = 0, \\ \\text {所以} \\omega \\\\ u_{n+1}^{2} &lt; u_{n}^{2}, \\ \\lim_{n \\to \\infty} u_{n}^{2} = 0, \\ \\text {由交错级数审敛法，级数} \\sum_{n=1}^{\\infty} (-1)^{n} u_{n}^{2} \\text {收敛；同样交错} \\\\ \\text {级数} \\sum_{n=1}^{\\infty} (-1)^{n} \\sqrt{u_{n}} \\text {也收敛。} \\omega \\end{array}\">\\begin{array}{l} \\text {解答：因为} 0 \\leq u_{n+1} &lt; u_{n} \\left( n = 1, 2, 3, \\cdots \\right), \\ \\lim_{n \\to \\infty} u_{n} = 0, \\ \\text {所以} \\omega \\\\ u_{n+1}^{2} &lt; u_{n}^{2}, \\ \\lim_{n \\to \\infty} u_{n}^{2} = 0, \\ \\text {由交错级数审敛法，级数} \\sum_{n=1}^{\\infty} (-1)^{n} u_{n}^{2} \\text {收敛；同样交错} \\\\ \\text {级数} \\sum_{n=1}^{\\infty} (-1)^{n} \\sqrt{u_{n}} \\text {也收敛。} \\omega \\end{array}</div>"
     },
     {
       "id": "q0020",
       "number": 20,
       "header": "#20-Averge",
       "difficulty": "Averge",
-      "prompt_html": "<img src=\"/static/generated/assets/advanced-math/ch086/q0020_prompt.png\"/>",
+      "prompt_html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{设正项级数} \\sum_{n=1}^{\\infty} u_{_{n}} \\text{收敛，常数} k \\in \\left( 0, \\frac{\\pi}{2} \\right) , \\text{则交错级数} \\sum_{n=1}^{\\infty} (-1)^{n+1} (n \\tan \\frac{k}{n}) u_{_{2n}} \\left[ \\quad \\right].\">\\text{设正项级数} \\sum_{n=1}^{\\infty} u_{_{n}} \\text{收敛，常数} k \\in \\left( 0, \\frac{\\pi}{2} \\right) , \\text{则交错级数} \\sum_{n=1}^{\\infty} (-1)^{n+1} (n \\tan \\frac{k}{n}) u_{_{2n}} \\left[ \\quad \\right].</span>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch086/q0020_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{收敛性与} \\, k \\, \\, \\text{有关}.\">\\text{收敛性与} \\, k \\, \\, \\text{有关}.</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch086/q0020_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{发散}\">\\text{发散}</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch086/q0020_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{条件收敛}\">\\text{条件收敛}</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch086/q0020_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{绝对收敛}:\">\\text{绝对收敛}:</span>"
         }
       ],
       "answer": "D",
       "answer_index": 3,
-      "analysis_html": "<img src=\"/static/generated/assets/advanced-math/ch086/q0020_analysis.png\"/>"
+      "analysis_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{aligned}&amp;\\text{解答：正项级数}\\sum_{n=1}^{\\infty}u_{n}\\ \\text{收敛，则正项级数}\\sum_{n=1}^{\\infty}u_{2n}\\ \\text{也收敛，}\\\\&amp;\\quad\\lim_{n\\rightarrow\\infty}\\frac{\\left|(-1)^{n}(n\\tan\\frac{k}{n})u_{2n}\\right|}{u_{2n}}=\\lim_{n\\rightarrow\\infty}\\left|n\\tan\\frac{k}{n}\\right|=k\\ \\text{①}\\\\&amp;\\text{由比较法知级数}\\sum_{n=1}^{\\infty}\\left|(-1)^{n-1}(n\\tan\\frac{k}{n})u_{2n}\\right|\\ \\text{收敛，即级数}\\sum_{n=1}^{\\infty}(-1)^{n-1}(n\\tan\\frac{k}{n})u_{2n}\\\\&amp;\\text{绝对收敛。②}\\end{aligned}\">\\begin{aligned}&amp;\\text{解答：正项级数}\\sum_{n=1}^{\\infty}u_{n}\\ \\text{收敛，则正项级数}\\sum_{n=1}^{\\infty}u_{2n}\\ \\text{也收敛，}\\\\&amp;\\quad\\lim_{n\\rightarrow\\infty}\\frac{\\left|(-1)^{n}(n\\tan\\frac{k}{n})u_{2n}\\right|}{u_{2n}}=\\lim_{n\\rightarrow\\infty}\\left|n\\tan\\frac{k}{n}\\right|=k\\ \\text{①}\\\\&amp;\\text{由比较法知级数}\\sum_{n=1}^{\\infty}\\left|(-1)^{n-1}(n\\tan\\frac{k}{n})u_{2n}\\right|\\ \\text{收敛，即级数}\\sum_{n=1}^{\\infty}(-1)^{n-1}(n\\tan\\frac{k}{n})u_{2n}\\\\&amp;\\text{绝对收敛。②}\\end{aligned}</div>"
     },
     {
       "id": "q0021",
       "number": 21,
       "header": "#21-Averge",
       "difficulty": "Averge",
-      "prompt_html": "<img src=\"/static/generated/assets/advanced-math/ch086/q0021_prompt.png\"/>",
+      "prompt_html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{设}a_{n}&gt;0(n=1,2,\\cdots)\\text{，若}\\sum_{n=1}^{\\infty}a_{n}\\text{发散，}\\sum_{n=1}^{\\infty}(-1)^{n-1}a_{n}\\text{收敛，则} [ \\quad] \\,.\">\\text{设}a_{n}&gt;0(n=1,2,\\cdots)\\text{，若}\\sum_{n=1}^{\\infty}a_{n}\\text{发散，}\\sum_{n=1}^{\\infty}(-1)^{n-1}a_{n}\\text{收敛，则} [ \\quad] \\,.</span>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch086/q0021_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\sum_{n=1}^{\\infty}(a_{2n-1}-a_{2n}) \\text{收敛};\">\\sum_{n=1}^{\\infty}(a_{2n-1}-a_{2n}) \\text{收敛};</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch086/q0021_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{当} \\sum_{n=1}^{\\infty} a_{2n} \\text{收敛，} \\sum_{n=1}^{\\infty} a_{2n-1} \\text{发散}\">\\text{当} \\sum_{n=1}^{\\infty} a_{2n} \\text{收敛，} \\sum_{n=1}^{\\infty} a_{2n-1} \\text{发散}</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch086/q0021_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{当} \\sum_{n=1}^{\\infty} a_{2n-1} \\text{收敛，} \\ \\sum_{n=1}^{\\infty} a_{2n} \\text{发散}.\">\\text{当} \\sum_{n=1}^{\\infty} a_{2n-1} \\text{收敛，} \\ \\sum_{n=1}^{\\infty} a_{2n} \\text{发散}.</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch086/q0021_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\sum_{n=1}^{\\infty}(a_{2n-1}+a_{2n}) \\text{收敛}\">\\sum_{n=1}^{\\infty}(a_{2n-1}+a_{2n}) \\text{收敛}</span>"
         }
       ],
       "answer": "A",
       "answer_index": 0,
-      "analysis_html": "<img src=\"/static/generated/assets/advanced-math/ch086/q0021_analysis.png\"/>"
+      "analysis_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{aligned}&amp;\\text{解答：由于}\\sum_{n=1}^{\\infty}(-1)^{n-1}a_{n}=a_{1}-a_{2}+a_{3}-a_{4}+\\cdots+a_{2n-1}+a_{2n}+\\cdots=\\sum_{n=1}^{\\infty}(a_{2n-1}-a_{2n})\\ ,\\ \\text{所以}\\\\&amp;\\quad\\text{以}\\sum_{n=1}^{\\infty}(a_{2n-1}-a_{2n})\\text{收敛；}\\ \\varphi\\\\&amp;\\quad\\sum_{n=1}^{\\infty}(-1)^{n-1}a_{n}\\text{条件收敛，则所有正项和所有负项构成的级数都发散，所以}\\\\&amp;\\quad\\left(\\text{B}\\right),\\left(\\text{D}\\right)\\text{都不正确；}\\varphi\\\\&amp;\\quad\\sum_{n=1}^{\\infty}a_{n}\\text{是发散的正项级数，加括号后级数}\\sum_{n=1}^{\\infty}(a_{2n-1}+a_{2n})\\text{发散。}\\varphi\\end{aligned}\">\\begin{aligned}&amp;\\text{解答：由于}\\sum_{n=1}^{\\infty}(-1)^{n-1}a_{n}=a_{1}-a_{2}+a_{3}-a_{4}+\\cdots+a_{2n-1}+a_{2n}+\\cdots=\\sum_{n=1}^{\\infty}(a_{2n-1}-a_{2n})\\ ,\\ \\text{所以}\\\\&amp;\\quad\\text{以}\\sum_{n=1}^{\\infty}(a_{2n-1}-a_{2n})\\text{收敛；}\\ \\varphi\\\\&amp;\\quad\\sum_{n=1}^{\\infty}(-1)^{n-1}a_{n}\\text{条件收敛，则所有正项和所有负项构成的级数都发散，所以}\\\\&amp;\\quad\\left(\\text{B}\\right),\\left(\\text{D}\\right)\\text{都不正确；}\\varphi\\\\&amp;\\quad\\sum_{n=1}^{\\infty}a_{n}\\text{是发散的正项级数，加括号后级数}\\sum_{n=1}^{\\infty}(a_{2n-1}+a_{2n})\\text{发散。}\\varphi\\end{aligned}</div>"
     },
     {
       "id": "q0022",
       "number": 22,
       "header": "#22-Averge",
       "difficulty": "Averge",
-      "prompt_html": "<img src=\"/static/generated/assets/advanced-math/ch086/q0022_prompt.png\"/>",
+      "prompt_html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{级数} \\sum_{n=1}^{\\infty} \\frac{(-1)^{n+1}}{\\ln(n+a)} (a&gt;0)[ \\quad \\quad].\\Leftrightarrow\">\\text{级数} \\sum_{n=1}^{\\infty} \\frac{(-1)^{n+1}}{\\ln(n+a)} (a&gt;0)[ \\quad \\quad].\\Leftrightarrow</span>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch086/q0022_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{条件收敛};\">\\text{条件收敛};</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch086/q0022_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{敛散性} \\, a \\text{与有关}.\">\\text{敛散性} \\, a \\text{与有关}.</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch086/q0022_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\textbf{绝对收敛}\">\\textbf{绝对收敛}</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch086/q0022_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{发散}:\">\\text{发散}:</span>"
         }
       ],
       "answer": "A",
       "answer_index": 0,
-      "analysis_html": "<img src=\"/static/generated/assets/advanced-math/ch086/q0022_analysis.png\"/>"
+      "analysis_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{array}{l} \\text {解答：令} \\ u_{n}=\\frac{1}{\\ln(n+a)}\\ ,\\ \\lim_{n\\rightarrow\\infty}\\frac{1}{\\ln(n+a)}=0\\ ,\\ \\text {再令} \\ f(x)=\\frac{1}{\\ln(x+a)}\\ , \\\\ f^{\\prime}(x)=\\frac{-1}{(x+a)\\ln^{2}(x+a)}&lt;0\\ ,\\\\ \\text {所以，交错级数}\\sum_{n=1}^{\\infty}\\frac{(-1)^{n-1}}{\\ln(n+a)}\\text {收敛};\\\\ \\lim_{n\\rightarrow\\infty}u_{n}=\\lim_{n\\rightarrow\\infty}\\frac{n}{\\ln(n+a)}=\\infty\\ ,\\ \\text {所以}\\sum_{n=1}^{\\infty}\\frac{(-1)^{n-1}}{\\ln(n+a)}\\text {发散}.\\\\ \\text {从而}\\sum_{n=1}^{\\infty}\\frac{(-1)^{n-1}}{\\ln(n+a)}\\text {条件收敛}. \\end{array}\">\\begin{array}{l} \\text {解答：令} \\ u_{n}=\\frac{1}{\\ln(n+a)}\\ ,\\ \\lim_{n\\rightarrow\\infty}\\frac{1}{\\ln(n+a)}=0\\ ,\\ \\text {再令} \\ f(x)=\\frac{1}{\\ln(x+a)}\\ , \\\\ f^{\\prime}(x)=\\frac{-1}{(x+a)\\ln^{2}(x+a)}&lt;0\\ ,\\\\ \\text {所以，交错级数}\\sum_{n=1}^{\\infty}\\frac{(-1)^{n-1}}{\\ln(n+a)}\\text {收敛};\\\\ \\lim_{n\\rightarrow\\infty}u_{n}=\\lim_{n\\rightarrow\\infty}\\frac{n}{\\ln(n+a)}=\\infty\\ ,\\ \\text {所以}\\sum_{n=1}^{\\infty}\\frac{(-1)^{n-1}}{\\ln(n+a)}\\text {发散}.\\\\ \\text {从而}\\sum_{n=1}^{\\infty}\\frac{(-1)^{n-1}}{\\ln(n+a)}\\text {条件收敛}. \\end{array}</div>"
     },
     {
       "id": "q0023",
       "number": 23,
       "header": "#23-Averge",
       "difficulty": "Averge",
-      "prompt_html": "<img src=\"/static/generated/assets/advanced-math/ch086/q0023_prompt.png\"/>",
+      "prompt_html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{级数} \\sum_{n=1}^{\\infty} \\frac{(-1)^{n} n!}{n^{n}} [\\quad].\">\\text{级数} \\sum_{n=1}^{\\infty} \\frac{(-1)^{n} n!}{n^{n}} [\\quad].</span>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch086/q0023_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{条件收敛};\">\\text{条件收敛};</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch086/q0023_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{不能确定敛散性}.\">\\text{不能确定敛散性}.</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch086/q0023_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{发散};\">\\text{发散};</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch086/q0023_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{绝对收敛};\">\\text{绝对收敛};</span>"
         }
       ],
       "answer": "D",
       "answer_index": 3,
-      "analysis_html": "<img src=\"/static/generated/assets/advanced-math/ch086/q0023_analysis.png\"/>"
+      "analysis_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{array}{l} \\text {解答：} \\lim\\limits_{n \\to \\infty} \\left| \\frac{(-1)^{n-1} \\frac{(n+1)!}{(n+1)^{n-1}}}{(-1)^{n} \\frac{n!}{n^{n}}}\\right| = \\lim\\limits_{n \\to \\infty} \\frac{n^{n}}{(n+1)^{n}} = \\frac{1}{e} &lt; 1 \\, , \\\\ \\text {所以，级数} \\sum\\limits_{n=1}^{\\infty} \\frac{(-1)^{n} n!}{n^{n}} \\text {绝对收敛.} \\end{array}\">\\begin{array}{l} \\text {解答：} \\lim\\limits_{n \\to \\infty} \\left| \\frac{(-1)^{n-1} \\frac{(n+1)!}{(n+1)^{n-1}}}{(-1)^{n} \\frac{n!}{n^{n}}}\\right| = \\lim\\limits_{n \\to \\infty} \\frac{n^{n}}{(n+1)^{n}} = \\frac{1}{e} &lt; 1 \\, , \\\\ \\text {所以，级数} \\sum\\limits_{n=1}^{\\infty} \\frac{(-1)^{n} n!}{n^{n}} \\text {绝对收敛.} \\end{array}</div>"
     },
     {
       "id": "q0024",
       "number": 24,
       "header": "#24-Averge",
       "difficulty": "Averge",
-      "prompt_html": "<img src=\"/static/generated/assets/advanced-math/ch086/q0024_prompt.png\"/>",
+      "prompt_html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{下列级数中发散的级数是} [ \\quad ].\">\\text{下列级数中发散的级数是} [ \\quad ].</span>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch086/q0024_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\sum_{n=1}^{\\infty} \\frac{(-1)^{n}}{\\sqrt{n}+1}\\,;\">\\sum_{n=1}^{\\infty} \\frac{(-1)^{n}}{\\sqrt{n}+1}\\,;</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch086/q0024_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\sum_{n=2}^{\\infty} \\frac{(-1)^{n}}{\\sqrt{n+(-1)^{n}}}\">\\sum_{n=2}^{\\infty} \\frac{(-1)^{n}}{\\sqrt{n+(-1)^{n}}}</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch086/q0024_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\sum_{n=2}^{\\infty} \\frac{(-1)^{n}}{\\sqrt{n}-1}\\,;\">\\sum_{n=2}^{\\infty} \\frac{(-1)^{n}}{\\sqrt{n}-1}\\,;</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch086/q0024_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\sum_{n=2}^{\\infty} \\frac{(-1)^{n}}{\\sqrt{n}+(-1)^{n}}\\,;\">\\sum_{n=2}^{\\infty} \\frac{(-1)^{n}}{\\sqrt{n}+(-1)^{n}}\\,;</span>"
         }
       ],
       "answer": "D",
       "answer_index": 3,
-      "analysis_html": "<img src=\"/static/generated/assets/advanced-math/ch086/q0024_analysis.png\"/>"
+      "analysis_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{array}{l} \\text {解答：} \\quad \\sum_{i=1}^{\\infty} \\frac{(-1)^{i}}{\\sqrt{n}+(-1)^{i}}=\\sum_{i=1}^{\\infty} \\frac{(-1)^{i}[\\sqrt{n}+(-1)^{i}]}{n-1}=\\sum_{i=1}^{\\infty} \\left(\\frac{(-1)^{i}\\sqrt{n}}{n-1}+\\frac{1}{n-1}\\right), \\text {级数发散；} \\\\ \\sum_{i=1}^{\\infty} \\frac{(-1)^{i}}{\\sqrt{n}+1}, \\quad \\sum_{i=1}^{\\infty} \\frac{(-1)^{i}}{\\sqrt{n}-1} \\text {都是交错级数，满足莱布尼茨条件，都收敛；} \\\\ \\frac{(-1)^{i}}{\\sqrt{n+(-1)^{i}}}=\\frac{(-1)^{i}}{\\sqrt{n}+\\sqrt{1-\\frac{(-1)^{i}}{n}}}=\\frac{(-1)^{i}}{\\sqrt{n}}\\left[1-\\frac{\\frac{1}{2}\\frac{(-1)^{i}}{n}}{n}+O(\\frac{1}{n^{2}})\\right]=\\frac{(-1)^{i}}{n}-\\frac{1}{2n^{\\frac{3}{2}}}+O(\\frac{1}{n^{2}}) \\\\ \\sum_{i=1}^{\\infty}(-1)^{i}\\frac{1}{n} \\text {条件收敛，} \\quad \\sum_{i=1}^{\\infty}\\frac{1}{2n^{\\frac{3}{2}}}, \\sum_{i=1}^{\\infty}\\frac{1}{n^{\\frac{3}{2}}} \\text {绝对收敛，所以} \\sum_{i=1}^{\\infty}\\frac{(-1)^{i}}{\\sqrt{n+(-1)^{i}}} \\text {收敛。} \\end{array}\">\\begin{array}{l} \\text {解答：} \\quad \\sum_{i=1}^{\\infty} \\frac{(-1)^{i}}{\\sqrt{n}+(-1)^{i}}=\\sum_{i=1}^{\\infty} \\frac{(-1)^{i}[\\sqrt{n}+(-1)^{i}]}{n-1}=\\sum_{i=1}^{\\infty} \\left(\\frac{(-1)^{i}\\sqrt{n}}{n-1}+\\frac{1}{n-1}\\right), \\text {级数发散；} \\\\ \\sum_{i=1}^{\\infty} \\frac{(-1)^{i}}{\\sqrt{n}+1}, \\quad \\sum_{i=1}^{\\infty} \\frac{(-1)^{i}}{\\sqrt{n}-1} \\text {都是交错级数，满足莱布尼茨条件，都收敛；} \\\\ \\frac{(-1)^{i}}{\\sqrt{n+(-1)^{i}}}=\\frac{(-1)^{i}}{\\sqrt{n}+\\sqrt{1-\\frac{(-1)^{i}}{n}}}=\\frac{(-1)^{i}}{\\sqrt{n}}\\left[1-\\frac{\\frac{1}{2}\\frac{(-1)^{i}}{n}}{n}+O(\\frac{1}{n^{2}})\\right]=\\frac{(-1)^{i}}{n}-\\frac{1}{2n^{\\frac{3}{2}}}+O(\\frac{1}{n^{2}}) \\\\ \\sum_{i=1}^{\\infty}(-1)^{i}\\frac{1}{n} \\text {条件收敛，} \\quad \\sum_{i=1}^{\\infty}\\frac{1}{2n^{\\frac{3}{2}}}, \\sum_{i=1}^{\\infty}\\frac{1}{n^{\\frac{3}{2}}} \\text {绝对收敛，所以} \\sum_{i=1}^{\\infty}\\frac{(-1)^{i}}{\\sqrt{n+(-1)^{i}}} \\text {收敛。} \\end{array}</div>"
     },
     {
       "id": "q0025",
       "number": 25,
       "header": "#25-Averge",
       "difficulty": "Averge",
-      "prompt_html": "<img src=\"/static/generated/assets/advanced-math/ch086/q0025_prompt.png\"/>",
+      "prompt_html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{设} \\lim_{n \\to \\infty} u_{n} = + \\infty , u_{n} &gt; 0 , u_{n} \\leq u_{n-1} \\, , \\ \\text{则收敛} \\sum_{n=1}^{\\infty} \\frac{(-1)^{n-1}}{\\sqrt{u_{n}}} \\ \\text{与} \\ \\sum_{n=1}^{\\infty} \\frac{1}{\\sqrt{u_{n}^{2}}} [\\quad \\quad].^{(+)}\">\\text{设} \\lim_{n \\to \\infty} u_{n} = + \\infty , u_{n} &gt; 0 , u_{n} \\leq u_{n-1} \\, , \\ \\text{则收敛} \\sum_{n=1}^{\\infty} \\frac{(-1)^{n-1}}{\\sqrt{u_{n}}} \\ \\text{与} \\ \\sum_{n=1}^{\\infty} \\frac{1}{\\sqrt{u_{n}^{2}}} [\\quad \\quad].^{(+)}</span>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch086/q0025_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{一个收敛，另一个也收敛；}\">\\text{一个收敛，另一个也收敛；}</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch086/q0025_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{敛散性均不能确定}\">\\text{敛散性均不能确定}</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch086/q0025_option_C.png\"/>"
+          "html": "<span class=\"latex-text\">一个收敛，另一个敛散性不确定</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch086/q0025_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{均收敛；}\">\\text{均收敛；}</span>"
         }
       ],
       "answer": "C",
       "answer_index": 2,
-      "analysis_html": "<img src=\"/static/generated/assets/advanced-math/ch086/q0025_analysis.png\"/>"
+      "analysis_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{aligned} \\text{解答：令} v_{n}=\\frac{1}{\\sqrt{u_{n}}}, \\text{则} \\lim_{n\\rightarrow \\infty}v_{n}=0, \\text{由} u_{n}&gt;0, u_{n}\\leq u_{n+1} \\text{可知} v_{n}\\geq v_{n+1}, \\text{所以} \\sum_{n=1}^{\\infty}\\frac{(-1)^{n-1}}{\\sqrt{u_{n}}}-\\\\ \\text{收敛；} \\vphantom{\\sum_{n=1}^{\\infty}\\frac{(-1)^{n-1}}{\\sqrt{u_{n}}}}\\\\ \\text{若令} u_{n}=n^{2}, \\ \\sum_{n=1}^{\\infty}\\frac{1}{\\sqrt{u_{n}^{2}}}=\\sum_{n=1}^{\\infty}\\frac{1}{n^{2}} \\text{收敛；若令} u_{n}=n, \\ \\sum_{n=1}^{\\infty}\\frac{1}{\\sqrt{u_{n}^{2}}}=\\sum_{n=1}^{\\infty}\\frac{1}{n^{2}} \\text{发散。}\\vphantom{\\sum_{n=1}^{\\infty}\\frac{(-1)^{n-1}}{\\sqrt{u_{n}}}} \\end{aligned}\">\\begin{aligned} \\text{解答：令} v_{n}=\\frac{1}{\\sqrt{u_{n}}}, \\text{则} \\lim_{n\\rightarrow \\infty}v_{n}=0, \\text{由} u_{n}&gt;0, u_{n}\\leq u_{n+1} \\text{可知} v_{n}\\geq v_{n+1}, \\text{所以} \\sum_{n=1}^{\\infty}\\frac{(-1)^{n-1}}{\\sqrt{u_{n}}}-\\\\ \\text{收敛；} \\vphantom{\\sum_{n=1}^{\\infty}\\frac{(-1)^{n-1}}{\\sqrt{u_{n}}}}\\\\ \\text{若令} u_{n}=n^{2}, \\ \\sum_{n=1}^{\\infty}\\frac{1}{\\sqrt{u_{n}^{2}}}=\\sum_{n=1}^{\\infty}\\frac{1}{n^{2}} \\text{收敛；若令} u_{n}=n, \\ \\sum_{n=1}^{\\infty}\\frac{1}{\\sqrt{u_{n}^{2}}}=\\sum_{n=1}^{\\infty}\\frac{1}{n^{2}} \\text{发散。}\\vphantom{\\sum_{n=1}^{\\infty}\\frac{(-1)^{n-1}}{\\sqrt{u_{n}}}} \\end{aligned}</div>"
     },
     {
       "id": "q0026",
       "number": 26,
       "header": "#26-Averge",
       "difficulty": "Averge",
-      "prompt_html": "<img src=\"/static/generated/assets/advanced-math/ch086/q0026_prompt.png\"/>",
+      "prompt_html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{若级数} \\sum _ { n = 1 } ^ { \\infty } u _ { n } \\text{收敛，下列级数中收敛的是} [ \\quad ] .\">\\text{若级数} \\sum _ { n = 1 } ^ { \\infty } u _ { n } \\text{收敛，下列级数中收敛的是} [ \\quad ] .</span>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch086/q0026_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\sum_{n=1}^{\\infty} (-1)^{n} u_{n}\">\\sum_{n=1}^{\\infty} (-1)^{n} u_{n}</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch086/q0026_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\sum_{n=1}^{\\infty} u_{2n-1}\">\\sum_{n=1}^{\\infty} u_{2n-1}</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch086/q0026_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\sum_{n=1}^{\\infty} \\frac{u_{n}}{n^{2}}\">\\sum_{n=1}^{\\infty} \\frac{u_{n}}{n^{2}}</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch086/q0026_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\sum_{n=1}^{\\infty} u_{n}^{1+a} (a &gt; 0)\">\\sum_{n=1}^{\\infty} u_{n}^{1+a} (a &gt; 0)</span>"
         }
       ],
       "answer": "C",
       "answer_index": 2,
-      "analysis_html": "<img src=\"/static/generated/assets/advanced-math/ch086/q0026_analysis.png\"/>"
+      "analysis_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{array}{l} \\text {解答:级数} \\sum\\limits_{n=1}^{\\infty} u_{n} \\text {收敛,则} \\lim\\limits_{n \\to \\infty} u_{n}=0, \\text {可设} \\varepsilon=1, \\text {则} \\exists N, \\text {当} n &gt; N \\text {时,} u_{n} &lt; 1, \\frac{u_{n}}{n^{2}} &lt; \\frac{1}{n^{2}}, \\\\ \\text {所以} \\sum\\limits_{n=1}^{\\infty} \\frac{u_{n}}{n^{2}} \\text {收敛}; \\\\ \\text {令} u_{n} = \\frac{(-1)^{n-1}}{n}, \\text {则} \\sum\\limits_{n=1}^{\\infty} u_{n} \\text {收敛,但} \\sum\\limits_{n=1}^{\\infty} (-1)^{n} u_{n} \\text {发散}; \\sum\\limits_{n=1}^{\\infty} u_{2n-1} = \\sum\\limits_{n=1}^{\\infty} \\frac{1}{2n-1} \\text {发散}; \\\\ \\text {令} u_{n} = \\frac{(-1)^{n-1}}{\\sqrt[n]{n}}, a = 1, \\text {则交错级数} \\sum\\limits_{n=1}^{\\infty} u_{n} \\text {收敛,} \\sum\\limits_{n=1}^{\\infty} u_{n}^{2} = \\sum\\limits_{n=1}^{\\infty} \\frac{1}{\\sqrt[n]{n}} \\text {发散}, \\end{array}\">\\begin{array}{l} \\text {解答:级数} \\sum\\limits_{n=1}^{\\infty} u_{n} \\text {收敛,则} \\lim\\limits_{n \\to \\infty} u_{n}=0, \\text {可设} \\varepsilon=1, \\text {则} \\exists N, \\text {当} n &gt; N \\text {时,} u_{n} &lt; 1, \\frac{u_{n}}{n^{2}} &lt; \\frac{1}{n^{2}}, \\\\ \\text {所以} \\sum\\limits_{n=1}^{\\infty} \\frac{u_{n}}{n^{2}} \\text {收敛}; \\\\ \\text {令} u_{n} = \\frac{(-1)^{n-1}}{n}, \\text {则} \\sum\\limits_{n=1}^{\\infty} u_{n} \\text {收敛,但} \\sum\\limits_{n=1}^{\\infty} (-1)^{n} u_{n} \\text {发散}; \\sum\\limits_{n=1}^{\\infty} u_{2n-1} = \\sum\\limits_{n=1}^{\\infty} \\frac{1}{2n-1} \\text {发散}; \\\\ \\text {令} u_{n} = \\frac{(-1)^{n-1}}{\\sqrt[n]{n}}, a = 1, \\text {则交错级数} \\sum\\limits_{n=1}^{\\infty} u_{n} \\text {收敛,} \\sum\\limits_{n=1}^{\\infty} u_{n}^{2} = \\sum\\limits_{n=1}^{\\infty} \\frac{1}{\\sqrt[n]{n}} \\text {发散}, \\end{array}</div>"
     }
-  ]
+  ],
+  "format": "latex",
+  "source_md": "gs/5.3.1_交错级数的收敛性(26题)/5.3.1_交错级数的收敛性(26题).md"
 }

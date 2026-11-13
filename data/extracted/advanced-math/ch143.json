@@ -13,168 +13,170 @@
       "number": 1,
       "header": "#1-Averge",
       "difficulty": "Averge",
-      "prompt_html": "<img src=\"/static/generated/assets/advanced-math/ch143/q0001_prompt.png\"/>",
+      "prompt_html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\int \\limits _ { \\Sigma } \\iint _ { \\Sigma } x y z d x d y = [\">\\int \\limits _ { \\Sigma } \\iint _ { \\Sigma } x y z d x d y = [</span>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch143/q0001_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\frac { 1 } { 2 }\">\\frac { 1 } { 2 }</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch143/q0001_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\frac {1}{5}.\">\\frac {1}{5}.</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch143/q0001_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\frac { 1 } { 4 }\">\\frac { 1 } { 4 }</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch143/q0001_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\frac{1}{3};\">\\frac{1}{3};</span>"
         }
       ],
       "answer": "D",
       "answer_index": 3,
-      "analysis_html": "<img src=\"/static/generated/assets/advanced-math/ch143/q0001_analysis.png\"/>"
+      "analysis_html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\iint_{Z} x y z dxdy = 2 \\iint_{D} x y \\sqrt{1-x^{2}} \\, dx dy = 2 \\int_{0}^{1} x \\sqrt{1-x^{2}} \\, dx \\int_{0}^{1} y dy = \\frac{2}{3} \\times \\frac{1}{2} = \\frac{1}{3}.\">\\iint_{Z} x y z dxdy = 2 \\iint_{D} x y \\sqrt{1-x^{2}} \\, dx dy = 2 \\int_{0}^{1} x \\sqrt{1-x^{2}} \\, dx \\int_{0}^{1} y dy = \\frac{2}{3} \\times \\frac{1}{2} = \\frac{1}{3}.</span>"
     },
     {
       "id": "q0002",
       "number": 2,
       "header": "#2-Averge",
       "difficulty": "Averge",
-      "prompt_html": "<img src=\"/static/generated/assets/advanced-math/ch143/q0002_prompt.png\"/>",
+      "prompt_html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\Sigma:(x-1)^{2}+(y-1)^{2}+(z-1)^{2}=R^{2} \\text{的外侧，则}\\iint x^{2}dydz+y^{2}dxdz+z^{2}dxdy=[\\quad].\">\\Sigma:(x-1)^{2}+(y-1)^{2}+(z-1)^{2}=R^{2} \\text{的外侧，则}\\iint x^{2}dydz+y^{2}dxdz+z^{2}dxdy=[\\quad].</span>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch143/q0002_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\mathbf { 8 } \\pi R ^ { 3 }\">\\mathbf { 8 } \\pi R ^ { 3 }</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch143/q0002_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"2 \\pi R ^ { 3 } .\">2 \\pi R ^ { 3 } .</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch143/q0002_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\frac { 4 } { 3 } \\pi R ^ { 3 } ;\">\\frac { 4 } { 3 } \\pi R ^ { 3 } ;</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch143/q0002_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\mathbf { 0 }\">\\mathbf { 0 }</span>"
         }
       ],
       "answer": "A",
       "answer_index": 0,
-      "analysis_html": "<img src=\"/static/generated/assets/advanced-math/ch143/q0002_analysis.png\"/>"
+      "analysis_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{aligned}&amp;\\text{解答，根据轮换对称性，只要计算}\\iint\\limits_{\\Sigma}z^{2}dxdy\\,.\\,z-1=\\pm\\sqrt{R^{2}-(x-1)^{2}-(y-1)^{2}}\\\\&amp;\\quad\\sum_{x}\\text{在}xoy\\text{面上的投影为}\\left(x-1\\right)^{2}-(y-1)^{2}\\leq R^{2}\\text{利用极坐标标得}\\\\&amp;\\quad\\iint\\limits_{\\Sigma}z^{2}dxdy=\\iint\\limits_{D_{\\varphi}}\\left[1+\\sqrt{R^{2}-(x-1)^{2}-(y-1)^{2}}\\right]^{2}dxdy-\\iint\\limits_{D_{\\varphi}}\\left[1-\\sqrt{R^{2}-(x-1)^{2}-(y-1)^{2}}\\right]^{2}dxdy\\\\&amp;\\quad=4\\iint\\limits_{D_{\\varphi}}\\sqrt{R^{2}-(x-1)^{2}-(y-1)^{2}}dxdy=4\\int_{0}^{2\\pi}d\\varphi\\int_{0}^{R}\\sqrt{R^{2}-r^{2}}rdr=\\frac{8}{3}\\pi R^{3}.\\end{aligned}\">\\begin{aligned}&amp;\\text{解答，根据轮换对称性，只要计算}\\iint\\limits_{\\Sigma}z^{2}dxdy\\,.\\,z-1=\\pm\\sqrt{R^{2}-(x-1)^{2}-(y-1)^{2}}\\\\&amp;\\quad\\sum_{x}\\text{在}xoy\\text{面上的投影为}\\left(x-1\\right)^{2}-(y-1)^{2}\\leq R^{2}\\text{利用极坐标标得}\\\\&amp;\\quad\\iint\\limits_{\\Sigma}z^{2}dxdy=\\iint\\limits_{D_{\\varphi}}\\left[1+\\sqrt{R^{2}-(x-1)^{2}-(y-1)^{2}}\\right]^{2}dxdy-\\iint\\limits_{D_{\\varphi}}\\left[1-\\sqrt{R^{2}-(x-1)^{2}-(y-1)^{2}}\\right]^{2}dxdy\\\\&amp;\\quad=4\\iint\\limits_{D_{\\varphi}}\\sqrt{R^{2}-(x-1)^{2}-(y-1)^{2}}dxdy=4\\int_{0}^{2\\pi}d\\varphi\\int_{0}^{R}\\sqrt{R^{2}-r^{2}}rdr=\\frac{8}{3}\\pi R^{3}.\\end{aligned}</div>"
     },
     {
       "id": "q0003",
       "number": 3,
       "header": "#3-Averge",
       "difficulty": "Averge",
-      "prompt_html": "<img src=\"/static/generated/assets/advanced-math/ch143/q0003_prompt.png\"/>",
+      "prompt_html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\int \\limits _ { \\Sigma } \\iint x ^ { 2 } d y d z = [ \\quad ] .\">\\int \\limits _ { \\Sigma } \\iint x ^ { 2 } d y d z = [ \\quad ] .</span>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch143/q0003_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\frac { \\pi } { 6 } ;\">\\frac { \\pi } { 6 } ;</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch143/q0003_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\frac { \\pi } { 3 } \\, ;\">\\frac { \\pi } { 3 } \\, ;</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch143/q0003_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\frac { \\pi } { 4 } \\, .\">\\frac { \\pi } { 4 } \\, .</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch143/q0003_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\frac {\\pi}{8}\">\\frac {\\pi}{8}</span>"
         }
       ],
       "answer": "D",
       "answer_index": 3,
-      "analysis_html": "<img src=\"/static/generated/assets/advanced-math/ch143/q0003_analysis.png\"/>"
+      "analysis_html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\iint_{\\Sigma} x^{2} dy dz = \\iint_{D} (1-y^{2}-z^{2}) dy dz = \\int_{0}^{\\frac{\\pi}{2}} d\\theta \\int_{0}^{1} (1-r^{2}) r dr = \\frac{\\pi}{2} \\cdot \\frac{1}{4} = \\frac{\\pi}{8}.\">\\iint_{\\Sigma} x^{2} dy dz = \\iint_{D} (1-y^{2}-z^{2}) dy dz = \\int_{0}^{\\frac{\\pi}{2}} d\\theta \\int_{0}^{1} (1-r^{2}) r dr = \\frac{\\pi}{2} \\cdot \\frac{1}{4} = \\frac{\\pi}{8}.</span>"
     },
     {
       "id": "q0004",
       "number": 4,
       "header": "#4-Averge",
       "difficulty": "Averge",
-      "prompt_html": "<img src=\"/static/generated/assets/advanced-math/ch143/q0004_prompt.png\"/>",
+      "prompt_html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{已知} \\, \\Sigma \\text{是球面} \\, x ^ { 2 } + y ^ { 2 } + z ^ { 2 } = 1 \\text{的下半部分曲面的下侧，则计算} \\iint \\limits _ { \\Sigma } x ^ { 3 } d y d z = [ \\quad ] .\">\\text{已知} \\, \\Sigma \\text{是球面} \\, x ^ { 2 } + y ^ { 2 } + z ^ { 2 } = 1 \\text{的下半部分曲面的下侧，则计算} \\iint \\limits _ { \\Sigma } x ^ { 3 } d y d z = [ \\quad ] .</span>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch143/q0004_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\frac { 2 } { 5 } \\pi\">\\frac { 2 } { 5 } \\pi</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch143/q0004_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\frac { 1 } { 5 } \\pi\">\\frac { 1 } { 5 } \\pi</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch143/q0004_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\frac {2}{3} \\pi\">\\frac {2}{3} \\pi</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch143/q0004_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\frac { 1 } { 3 } \\pi\">\\frac { 1 } { 3 } \\pi</span>"
         }
       ],
       "answer": "A",
       "answer_index": 0,
-      "analysis_html": "<img src=\"/static/generated/assets/advanced-math/ch143/q0004_analysis.png\"/>"
+      "analysis_html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\int\\limits_{\\Sigma} x^{3} dy dz = 2 \\iint\\limits_{D} (1-y^{2}-z^{2})^{\\frac{3}{2}} dy dz = 2 \\int_{\\pi}^{2\\pi} d\\theta \\int_{0}^{1} (1-r^{2})^{\\frac{3}{2}} r dr = 2 \\cdot \\pi \\cdot \\frac{1}{5} = \\frac{2}{5} \\pi \\, .\">\\int\\limits_{\\Sigma} x^{3} dy dz = 2 \\iint\\limits_{D} (1-y^{2}-z^{2})^{\\frac{3}{2}} dy dz = 2 \\int_{\\pi}^{2\\pi} d\\theta \\int_{0}^{1} (1-r^{2})^{\\frac{3}{2}} r dr = 2 \\cdot \\pi \\cdot \\frac{1}{5} = \\frac{2}{5} \\pi \\, .</span>"
     },
     {
       "id": "q0005",
       "number": 5,
       "header": "#5-Averge",
       "difficulty": "Averge",
-      "prompt_html": "<img src=\"/static/generated/assets/advanced-math/ch143/q0005_prompt.png\"/>",
+      "prompt_html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\iint_{\\Sigma} xy^{2}z d\\alpha dy = [\\quad].\">\\iint_{\\Sigma} xy^{2}z d\\alpha dy = [\\quad].</span>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch143/q0005_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\frac{2}{5};\">\\frac{2}{5};</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch143/q0005_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"2,\">2,</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch143/q0005_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\frac{2}{9}\">\\frac{2}{9}</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch143/q0005_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\frac{4}{5}\">\\frac{4}{5}</span>"
         }
       ],
       "answer": "C",
       "answer_index": 2,
-      "analysis_html": "<img src=\"/static/generated/assets/advanced-math/ch143/q0005_analysis.png\"/>"
+      "analysis_html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\iint_{\\Sigma} xy^{2}z dxdy = 2 \\iint_{D} xy^{2} \\sqrt{1-x^{2}}\\,dxdy = 2 \\int_{0}^{1} x \\sqrt{1-x^{2}}\\,dx\\, dy = 2 \\int_{0}^{1} x \\sqrt{1-x^{2}}\\, dx \\int_{0}^{1} y^{2}\\, dy = 2 \\cdot \\frac{1}{3} \\cdot \\frac{1}{3} = \\frac{2}{9}.\">\\iint_{\\Sigma} xy^{2}z dxdy = 2 \\iint_{D} xy^{2} \\sqrt{1-x^{2}}\\,dxdy = 2 \\int_{0}^{1} x \\sqrt{1-x^{2}}\\,dx\\, dy = 2 \\int_{0}^{1} x \\sqrt{1-x^{2}}\\, dx \\int_{0}^{1} y^{2}\\, dy = 2 \\cdot \\frac{1}{3} \\cdot \\frac{1}{3} = \\frac{2}{9}.</span>"
     },
     {
       "id": "q0006",
       "number": 6,
       "header": "#6-Averge",
       "difficulty": "Averge",
-      "prompt_html": "<img src=\"/static/generated/assets/advanced-math/ch143/q0006_prompt.png\"/>",
+      "prompt_html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\iint\\limits_{\\Sigma}\\frac{1}{x}dydz+\\frac{1}{y}dzdx+\\frac{1}{z}dxdy=[\\quad].\">\\iint\\limits_{\\Sigma}\\frac{1}{x}dydz+\\frac{1}{y}dzdx+\\frac{1}{z}dxdy=[\\quad].</span>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch143/q0006_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"4 \\pi \\ ;\">4 \\pi \\ ;</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch143/q0006_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"12 \\pi\">12 \\pi</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch143/q0006_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"3 \\pi .\">3 \\pi .</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch143/q0006_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\mathbf { 9 \\pi } ;\">\\mathbf { 9 \\pi } ;</span>"
         }
       ],
       "answer": "B",
       "answer_index": 1,
-      "analysis_html": "<img src=\"/static/generated/assets/advanced-math/ch143/q0006_analysis.png\"/>"
+      "analysis_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{aligned} \\oint_{\\Sigma} \\frac{1}{x} dy dz &amp;= 2 \\iint_{D_{x^2}} \\frac{dy dz}{\\sqrt{1-y^2-z^2}} = 2 \\int_{0}^{2\\pi} d\\theta \\int_{0}^{1} \\frac{r dr}{\\sqrt{1-r^2}} = 4\\pi, \\\\ \\text{原式} &amp;= 3 \\times 4\\pi = 12\\pi.\\end{aligned}\">\\begin{aligned} \\oint_{\\Sigma} \\frac{1}{x} dy dz &amp;= 2 \\iint_{D_{x^2}} \\frac{dy dz}{\\sqrt{1-y^2-z^2}} = 2 \\int_{0}^{2\\pi} d\\theta \\int_{0}^{1} \\frac{r dr}{\\sqrt{1-r^2}} = 4\\pi, \\\\ \\text{原式} &amp;= 3 \\times 4\\pi = 12\\pi.\\end{aligned}</div>"
     }
-  ]
+  ],
+  "format": "latex",
+  "source_md": "gs/9.4.2_第二类曲面积分的计算(6题)/9.4.2_第二类曲面积分的计算(6题).md"
 }

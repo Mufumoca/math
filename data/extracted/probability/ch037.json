@@ -13,1036 +13,1038 @@
       "number": 1,
       "header": "#1-Averge",
       "difficulty": "Averge",
-      "prompt_html": "<img src=\"/static/generated/assets/probability/ch037/q0001_prompt.png\"/>",
+      "prompt_html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{设}X\\sim N(0,1),\\text{关于}Y=2X^{2}+1\\text{的概率密度，正确的是( ).}\">\\text{设}X\\sim N(0,1),\\text{关于}Y=2X^{2}+1\\text{的概率密度，正确的是( ).}</span>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/probability/ch037/q0001_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\begin{aligned}f_{y}(y) = \\frac{1}{2 \\sqrt{\\pi (y-1)}} e^{-\\frac{y-1}{4}} \\; , \\; \\; y &gt; 1\\end{aligned}\">\\begin{aligned}f_{y}(y) = \\frac{1}{2 \\sqrt{\\pi (y-1)}} e^{-\\frac{y-1}{4}} \\; , \\; \\; y &gt; 1\\end{aligned}</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/probability/ch037/q0001_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\begin{aligned}f_{y}(y) = \\frac{1}{2 \\sqrt{\\pi (y-1)}} e^{-\\frac{y-1}{4}} \\; , \\; \\; y &lt; 1\\end{aligned}\">\\begin{aligned}f_{y}(y) = \\frac{1}{2 \\sqrt{\\pi (y-1)}} e^{-\\frac{y-1}{4}} \\; , \\; \\; y &lt; 1\\end{aligned}</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/probability/ch037/q0001_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\begin{aligned}f_{y}(y)=0, \\ \\ y&gt;1\\end{aligned}\">\\begin{aligned}f_{y}(y)=0, \\ \\ y&gt;1\\end{aligned}</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/probability/ch037/q0001_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\begin{aligned}f_{y}(y)=\\frac{1}{2\\sqrt{\\pi(y-1)}}e, \\ \\ y&lt;1\\end{aligned}\">\\begin{aligned}f_{y}(y)=\\frac{1}{2\\sqrt{\\pi(y-1)}}e, \\ \\ y&lt;1\\end{aligned}</span>"
         }
       ],
       "answer": "A",
       "answer_index": 0,
-      "analysis_html": "<img src=\"/static/generated/assets/probability/ch037/q0001_analysis.png\"/>"
+      "analysis_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{aligned} \\text{因}y=2x^2+1 \\text{是非单调函数，故用分布函数法先求}F_y(y).\\\\ F_y(y)=P\\{Y\\leq y\\}=P\\{2X^2+1\\leq y\\}(\\text{当}y&gt;1\\text{时})\\\\ =P\\left\\{-\\sqrt{\\frac{y-1}{2}}\\leq X\\leq \\sqrt{\\frac{y-1}{2}}\\right\\}=\\int_{-\\sqrt{\\frac{y-1}{2}}}^{\\sqrt{\\frac{y-1}{2}}}\\frac{1}{2\\pi}e^{-\\frac{x^2}{2}}dx,\\\\ \\text{所以}f_y(y)=F_y(y)=\\frac{2}{\\sqrt{2\\pi}}e^{-\\frac{1}{2}\\frac{y-1}{2}}\\cdot\\frac{1}{2\\sqrt{2\\sqrt{y-1}}},y&gt;1,\\text{于是}\\\\ f_y(y)=\\begin{cases} \\frac{1}{2\\sqrt{\\pi(y-1)}}e^{-\\frac{y-1}{4}},y&gt;1\\\\ 0,\\quad y\\leq 1 \\end{cases}.\\end{aligned}\">\\begin{aligned} \\text{因}y=2x^2+1 \\text{是非单调函数，故用分布函数法先求}F_y(y).\\\\ F_y(y)=P\\{Y\\leq y\\}=P\\{2X^2+1\\leq y\\}(\\text{当}y&gt;1\\text{时})\\\\ =P\\left\\{-\\sqrt{\\frac{y-1}{2}}\\leq X\\leq \\sqrt{\\frac{y-1}{2}}\\right\\}=\\int_{-\\sqrt{\\frac{y-1}{2}}}^{\\sqrt{\\frac{y-1}{2}}}\\frac{1}{2\\pi}e^{-\\frac{x^2}{2}}dx,\\\\ \\text{所以}f_y(y)=F_y(y)=\\frac{2}{\\sqrt{2\\pi}}e^{-\\frac{1}{2}\\frac{y-1}{2}}\\cdot\\frac{1}{2\\sqrt{2\\sqrt{y-1}}},y&gt;1,\\text{于是}\\\\ f_y(y)=\\begin{cases} \\frac{1}{2\\sqrt{\\pi(y-1)}}e^{-\\frac{y-1}{4}},y&gt;1\\\\ 0,\\quad y\\leq 1 \\end{cases}.\\end{aligned}</div>"
     },
     {
       "id": "q0002",
       "number": 2,
       "header": "#2-Averge",
       "difficulty": "Averge",
-      "prompt_html": "<img src=\"/static/generated/assets/probability/ch037/q0002_prompt.png\"/>",
+      "prompt_html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{设随机变量}x \\text{服从} [0,1] \\text{上的均匀分布，关于随机变量函数}Y = e^{x} \\text{的概率密度}f_{Y}(y) \\text{正确的是( ).}\">\\text{设随机变量}x \\text{服从} [0,1] \\text{上的均匀分布，关于随机变量函数}Y = e^{x} \\text{的概率密度}f_{Y}(y) \\text{正确的是( ).}</span>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/probability/ch037/q0002_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\begin{aligned}f_{Y}(y)=\\begin{cases}\\displaystyle \\frac{1}{y},\\, 1&lt;y&lt;e\\\\ \\quad0,\\,\\, \\text{其它}\\end{cases}\\end{aligned}\">\\begin{aligned}f_{Y}(y)=\\begin{cases}\\displaystyle \\frac{1}{y},\\, 1&lt;y&lt;e\\\\ \\quad0,\\,\\, \\text{其它}\\end{cases}\\end{aligned}</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/probability/ch037/q0002_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\begin{aligned}f_{r}(y)=\\begin{cases}\\displaystyle \\frac{1}{y},\\, 1&lt;y&lt;e &amp; \\\\ &amp; \\\\ \\displaystyle \\frac{1}{2},\\, \\text{其它} &amp; \\end{cases}\\end{aligned}\">\\begin{aligned}f_{r}(y)=\\begin{cases}\\displaystyle \\frac{1}{y},\\, 1&lt;y&lt;e &amp; \\\\ &amp; \\\\ \\displaystyle \\frac{1}{2},\\, \\text{其它} &amp; \\end{cases}\\end{aligned}</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/probability/ch037/q0002_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\begin{aligned}f_{Y}(y)=\\begin{cases}\\dfrac{2}{y},\\; 1&lt;y&lt;e\\\\ \\quad\\\\ \\quad0,\\; \\text{其它}\\end{cases}\\end{aligned}\">\\begin{aligned}f_{Y}(y)=\\begin{cases}\\dfrac{2}{y},\\; 1&lt;y&lt;e\\\\ \\quad\\\\ \\quad0,\\; \\text{其它}\\end{cases}\\end{aligned}</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/probability/ch037/q0002_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\begin{aligned}f_{y}(y)=\\left\\{\\begin{matrix}0,\\;1&lt;y&lt;e\\\\ \\\\ \\frac{1}{y},\\; \\text{其它}\\end{matrix}\\right.\\end{aligned}\">\\begin{aligned}f_{y}(y)=\\left\\{\\begin{matrix}0,\\;1&lt;y&lt;e\\\\ \\\\ \\frac{1}{y},\\; \\text{其它}\\end{matrix}\\right.\\end{aligned}</span>"
         }
       ],
       "answer": "A",
       "answer_index": 0,
-      "analysis_html": "<img src=\"/static/generated/assets/probability/ch037/q0002_analysis.png\"/>"
+      "analysis_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{aligned}f(x) &amp; = \\begin{cases} 1, &amp; 0 \\leq x \\leq 1 \\\\ 0, &amp; \\text{其它} \\end{cases}, \\\\f=e^x, x \\in (0,1) \\text{是单调可导函数，} y \\in (1,e), \\text{其反函数为} x = \\ln y, \\text{可得} \\\\f(x) &amp; = \\begin{cases} f_x(\\ln y) \\ln y, &amp; 1 &lt; y &lt; e \\\\ 0, &amp; \\text{其它} \\end{cases} = \\begin{cases} \\dfrac{1}{y}, &amp; 1 &lt; y &lt; e \\\\ 0, &amp; \\text{其它} \\end{cases}.\\end{aligned}\">\\begin{aligned}f(x) &amp; = \\begin{cases} 1, &amp; 0 \\leq x \\leq 1 \\\\ 0, &amp; \\text{其它} \\end{cases}, \\\\f=e^x, x \\in (0,1) \\text{是单调可导函数，} y \\in (1,e), \\text{其反函数为} x = \\ln y, \\text{可得} \\\\f(x) &amp; = \\begin{cases} f_x(\\ln y) \\ln y, &amp; 1 &lt; y &lt; e \\\\ 0, &amp; \\text{其它} \\end{cases} = \\begin{cases} \\dfrac{1}{y}, &amp; 1 &lt; y &lt; e \\\\ 0, &amp; \\text{其它} \\end{cases}.\\end{aligned}</div>"
     },
     {
       "id": "q0003",
       "number": 3,
       "header": "#3-Averge",
       "difficulty": "Averge",
-      "prompt_html": "<img src=\"/static/generated/assets/probability/ch037/q0003_prompt.png\"/>",
+      "prompt_html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{设随机变量}X\\text{服从}(0,2)\\text{上的均匀分布，则随机变量}Y=X^{2}\\text{在}(0,4)\\text{内的概率分布密度}f_{y}(y)=()\\text {.}\">\\text{设随机变量}X\\text{服从}(0,2)\\text{上的均匀分布，则随机变量}Y=X^{2}\\text{在}(0,4)\\text{内的概率分布密度}f_{y}(y)=()\\text {.}</span>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/probability/ch037/q0003_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\frac { 1 } { 2 \\sqrt { y } } ( 0 &lt; y &lt; 2 )\">\\frac { 1 } { 2 \\sqrt { y } } ( 0 &lt; y &lt; 2 )</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/probability/ch037/q0003_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\frac { 4 } { \\sqrt { y } } ( 0 &lt; y &lt; \\frac { 1 } { 4 } )\">\\frac { 4 } { \\sqrt { y } } ( 0 &lt; y &lt; \\frac { 1 } { 4 } )</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/probability/ch037/q0003_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\frac {1}{\\sqrt {y}} (0 &lt; y &lt; 1)\">\\frac {1}{\\sqrt {y}} (0 &lt; y &lt; 1)</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/probability/ch037/q0003_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\frac { 1 } { 4 \\sqrt { y } } ( 0 &lt; y &lt; 4 )\">\\frac { 1 } { 4 \\sqrt { y } } ( 0 &lt; y &lt; 4 )</span>"
         }
       ],
       "answer": "D",
       "answer_index": 3,
-      "analysis_html": "<img src=\"/static/generated/assets/probability/ch037/q0003_analysis.png\"/>"
+      "analysis_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{array}{l}F_{Y}(y)=P\\left\\{Y\\leq y\\right\\}=P\\{X\\leq\\sqrt{y}\\}=\\int_{0}^{\\sqrt{y}}\\!\\!\\frac{1}{2}dx=\\frac{1}{2}\\sqrt{y}(0&lt;y&lt;4)\\;\\;;\\\\ \\\\f_{Y}(y)=F_{Y}^{\\prime}(y)=\\frac{1}{4\\sqrt{y}}(0&lt;y&lt;4)\\,.\\end{array}\">\\begin{array}{l}F_{Y}(y)=P\\left\\{Y\\leq y\\right\\}=P\\{X\\leq\\sqrt{y}\\}=\\int_{0}^{\\sqrt{y}}\\!\\!\\frac{1}{2}dx=\\frac{1}{2}\\sqrt{y}(0&lt;y&lt;4)\\;\\;;\\\\ \\\\f_{Y}(y)=F_{Y}^{\\prime}(y)=\\frac{1}{4\\sqrt{y}}(0&lt;y&lt;4)\\,.\\end{array}</div>"
     },
     {
       "id": "q0004",
       "number": 4,
       "header": "#4-Averge",
       "difficulty": "Averge",
-      "prompt_html": "<img src=\"/static/generated/assets/probability/ch037/q0004_prompt.png\"/>",
+      "prompt_html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{设随机变量}X\\text{的分布函数}F(x)\\text{为连续函数，则}Y=F(X)\\text{所服从的分布为}( ).\">\\text{设随机变量}X\\text{的分布函数}F(x)\\text{为连续函数，则}Y=F(X)\\text{所服从的分布为}( ).</span>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/probability/ch037/q0004_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"N ( 0 , 2 )\">N ( 0 , 2 )</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/probability/ch037/q0004_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"N (0, 1)\">N (0, 1)</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/probability/ch037/q0004_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"U [ 0 , 2 ]\">U [ 0 , 2 ]</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/probability/ch037/q0004_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"U [ 0 , 1 ]\">U [ 0 , 1 ]</span>"
         }
       ],
       "answer": "D",
       "answer_index": 3,
-      "analysis_html": "<img src=\"/static/generated/assets/probability/ch037/q0004_analysis.png\"/>"
+      "analysis_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{aligned}F_{t}(y)=\\begin{cases}0, &amp; y&lt;0\\\\y, &amp; 0\\leq y&lt;1. \\text{即}Y=F(x)\\text{服从均匀分布}U[0,1],\\\\1, &amp; y\\geq 1\\end{cases}\\end{aligned}\">\\begin{aligned}F_{t}(y)=\\begin{cases}0, &amp; y&lt;0\\\\y, &amp; 0\\leq y&lt;1. \\text{即}Y=F(x)\\text{服从均匀分布}U[0,1],\\\\1, &amp; y\\geq 1\\end{cases}\\end{aligned}</div>\n<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{注}：0\\leq y&lt;1\\text{时}，y=F(x)\\text{有反函数} x=F^{-1}(y)，\">\\text{注}：0\\leq y&lt;1\\text{时}，y=F(x)\\text{有反函数} x=F^{-1}(y)，</span>\n<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"F_{t}(y)=P\\{Y\\leq y\\}=P\\{F(X)\\leq y\\}=P\\{X\\leq F^{-1}(y)\\}=F(F^{-1}(y))=y.\">F_{t}(y)=P\\{Y\\leq y\\}=P\\{F(X)\\leq y\\}=P\\{X\\leq F^{-1}(y)\\}=F(F^{-1}(y))=y.</span>\n<span class=\"latex-text\">提示：Y=F(X)服从均匀分布 U[0,1], 这是一个重要结论.</span>"
     },
     {
       "id": "q0005",
       "number": 5,
       "header": "#5-Averge",
       "difficulty": "Averge",
-      "prompt_html": "<img src=\"/static/generated/assets/probability/ch037/q0005_prompt.png\"/>",
+      "prompt_html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{设随机变量} X \\text{服从参数为} 2 \\text{的指数分布，则随机变量} Y = 1 - e ^ { - 2 \\lambda } ( \\enspace ) .\">\\text{设随机变量} X \\text{服从参数为} 2 \\text{的指数分布，则随机变量} Y = 1 - e ^ { - 2 \\lambda } ( \\enspace ) .</span>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/probability/ch037/q0005_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{服从}(0, 1) \\text{上的均匀分布}\">\\text{服从}(0, 1) \\text{上的均匀分布}</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/probability/ch037/q0005_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{仍服从指数分布}\">\\text{仍服从指数分布}</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/probability/ch037/q0005_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{服从正态分布}\">\\text{服从正态分布}</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/probability/ch037/q0005_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{服从参数为的} 2 \\text{泊松分布}\">\\text{服从参数为的} 2 \\text{泊松分布}</span>"
         }
       ],
       "answer": "A",
       "answer_index": 0,
-      "analysis_html": "<img src=\"/static/generated/assets/probability/ch037/q0005_analysis.png\"/>"
+      "analysis_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{aligned}\\text{解法一}&amp;\\quad x\\text{的分布函数为}F(x)=\\begin{cases}1-e^{-2x},x&gt;0\\\\0,x\\leq 0\\end{cases},\\\\y&amp;=1-e^{-2x}\\text{是单调增函数，且}y\\in(0,1)\\text{,其反函数为}x=-\\frac{1}{2}\\ln(1-y).\\quad\\\\Y\\text{的分布函数}G(y),&amp;\\quad\\text{当}y\\leq 0\\text{时，}G(y)=P(Y\\leq y)=P\\{X\\in\\varnothing\\}=0\\,;\\\\&amp;\\quad\\text{当}y\\geq 1\\text{时，}G(y)=P(Y\\leq y)=P(1-e^{-2X}\\leq y)=P\\{X\\in(0,+\\infty)\\}=1\\,;\\\\&amp;\\quad\\text{当}y\\in(0,1)\\text{时，}G(y)=P(Y\\leq y)=P(1-e^{-2X}\\leq y)\\\\&amp;\\quad\\qquad=P\\{X\\leq-\\frac{1}{2}\\ln(1-y)\\}=F(-\\frac{1}{2}\\ln(1-y))=y.\\quad\\\\&amp;\\text{可见}y\\text{在}(0,1)\\text{上服从均匀分布.}\\end{aligned}\">\\begin{aligned}\\text{解法一}&amp;\\quad x\\text{的分布函数为}F(x)=\\begin{cases}1-e^{-2x},x&gt;0\\\\0,x\\leq 0\\end{cases},\\\\y&amp;=1-e^{-2x}\\text{是单调增函数，且}y\\in(0,1)\\text{,其反函数为}x=-\\frac{1}{2}\\ln(1-y).\\quad\\\\Y\\text{的分布函数}G(y),&amp;\\quad\\text{当}y\\leq 0\\text{时，}G(y)=P(Y\\leq y)=P\\{X\\in\\varnothing\\}=0\\,;\\\\&amp;\\quad\\text{当}y\\geq 1\\text{时，}G(y)=P(Y\\leq y)=P(1-e^{-2X}\\leq y)=P\\{X\\in(0,+\\infty)\\}=1\\,;\\\\&amp;\\quad\\text{当}y\\in(0,1)\\text{时，}G(y)=P(Y\\leq y)=P(1-e^{-2X}\\leq y)\\\\&amp;\\quad\\qquad=P\\{X\\leq-\\frac{1}{2}\\ln(1-y)\\}=F(-\\frac{1}{2}\\ln(1-y))=y.\\quad\\\\&amp;\\text{可见}y\\text{在}(0,1)\\text{上服从均匀分布.}\\end{aligned}</div>"
     },
     {
       "id": "q0006",
       "number": 6,
       "header": "#6-Easy",
       "difficulty": "Easy",
-      "prompt_html": "<img src=\"/static/generated/assets/probability/ch037/q0006_prompt.png\"/>",
+      "prompt_html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{设}\\,\\zeta \\text{服从正态分布} \\, N(1,4)\\,,\\,\\text{则}\\,\\eta = \\zeta - 1 \\text{的分布密度}\\,\\varphi_{\\eta}(y) = (\\,).\">\\text{设}\\,\\zeta \\text{服从正态分布} \\, N(1,4)\\,,\\,\\text{则}\\,\\eta = \\zeta - 1 \\text{的分布密度}\\,\\varphi_{\\eta}(y) = (\\,).</span>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/probability/ch037/q0006_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\varphi_{\\eta}(y) = \\frac{1}{2 \\sqrt{2 \\pi}} e^{-y^{2}/8}\">\\varphi_{\\eta}(y) = \\frac{1}{2 \\sqrt{2 \\pi}} e^{-y^{2}/8}</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/probability/ch037/q0006_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\varphi_{\\eta}(y) = \\frac{1}{\\sqrt{2\\pi}} e^{-y^{2}/8}\">\\varphi_{\\eta}(y) = \\frac{1}{\\sqrt{2\\pi}} e^{-y^{2}/8}</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/probability/ch037/q0006_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\varphi_{\\eta}(y)=\\frac{1}{\\sqrt{2\\pi}}e^{-y^{2}/4}\">\\varphi_{\\eta}(y)=\\frac{1}{\\sqrt{2\\pi}}e^{-y^{2}/4}</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/probability/ch037/q0006_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\varphi_{\\eta}(y)=\\frac{2}{\\sqrt{2\\pi}}e^{-y^{2}/4}\">\\varphi_{\\eta}(y)=\\frac{2}{\\sqrt{2\\pi}}e^{-y^{2}/4}</span>"
         }
       ],
       "answer": "A",
       "answer_index": 0,
-      "analysis_html": "<img src=\"/static/generated/assets/probability/ch037/q0006_analysis.png\"/>"
+      "analysis_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{aligned}&amp; \\text{设随机变量 } X \\text{ 有密度函数 } f_{x}(y),\\ Y=g(X) \\text{ 是连续的随机变量，} y=g(x) \\text{ 是严格单调函数，其反函数为} \\\\&amp; \\quad x=h(y), \\text{ 则随机变量 } Y \\text{ 的概率密度为 } f_{Y}(y)=f_{x}(h(y))|h&#x27;(y)|, \\\\&amp; \\text{所以}\\ \\ \\varphi_{y}(y)=\\varphi_{x}(h(y))|h&#x27;(y)|=\\frac{1}{2\\sqrt{2\\pi}}e^{-[(y+1)-1]^{2/8}}, 1=\\frac{1}{2\\sqrt{2\\pi}}e^{-y^{2/8}}.\\end{aligned}\">\\begin{aligned}&amp; \\text{设随机变量 } X \\text{ 有密度函数 } f_{x}(y),\\ Y=g(X) \\text{ 是连续的随机变量，} y=g(x) \\text{ 是严格单调函数，其反函数为} \\\\&amp; \\quad x=h(y), \\text{ 则随机变量 } Y \\text{ 的概率密度为 } f_{Y}(y)=f_{x}(h(y))|h&#x27;(y)|, \\\\&amp; \\text{所以}\\ \\ \\varphi_{y}(y)=\\varphi_{x}(h(y))|h&#x27;(y)|=\\frac{1}{2\\sqrt{2\\pi}}e^{-[(y+1)-1]^{2/8}}, 1=\\frac{1}{2\\sqrt{2\\pi}}e^{-y^{2/8}}.\\end{aligned}</div>"
     },
     {
       "id": "q0007",
       "number": 7,
       "header": "#7-Averge",
       "difficulty": "Averge",
-      "prompt_html": "<img src=\"/static/generated/assets/probability/ch037/q0007_prompt.png\"/>",
+      "prompt_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{array}{l} \\text{设} \\zeta \\text{的密度函数为} \\varphi (x) = \\frac{1}{\\pi (1 + x^{2})}, \\text{而} \\eta = 2 \\zeta , \\text{则} \\eta \\text{的密度函数} \\phi (y) = ( \\; ). \\end{array}\">\\begin{array}{l} \\text{设} \\zeta \\text{的密度函数为} \\varphi (x) = \\frac{1}{\\pi (1 + x^{2})}, \\text{而} \\eta = 2 \\zeta , \\text{则} \\eta \\text{的密度函数} \\phi (y) = ( \\; ). \\end{array}</div>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/probability/ch037/q0007_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\frac { 2 } { \\pi ( 4 + y ^ { 2 } ) }\">\\frac { 2 } { \\pi ( 4 + y ^ { 2 } ) }</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/probability/ch037/q0007_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\frac { 1 } { \\pi ( 1 + y ^ { 2 } ) }\">\\frac { 1 } { \\pi ( 1 + y ^ { 2 } ) }</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/probability/ch037/q0007_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\frac { 1 } { \\pi ( 1 + \\frac { y ^ { 2 } } { 4 } ) }\">\\frac { 1 } { \\pi ( 1 + \\frac { y ^ { 2 } } { 4 } ) }</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/probability/ch037/q0007_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\frac { 1 } { \\pi ( 4 + y ^ { 2 } ) }\">\\frac { 1 } { \\pi ( 4 + y ^ { 2 } ) }</span>"
         }
       ],
       "answer": "A",
       "answer_index": 0,
-      "analysis_html": "<img src=\"/static/generated/assets/probability/ch037/q0007_analysis.png\"/>"
+      "analysis_html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\phi(y)=\\varphi(x(y))|x&#x27;(y)|=\\frac{1}{\\pi(1+(\\frac{y}{2})^{2})}|\\frac{1}{2}|=\\frac{2}{\\pi(4+y^{2})}\\,.\">\\phi(y)=\\varphi(x(y))|x&#x27;(y)|=\\frac{1}{\\pi(1+(\\frac{y}{2})^{2})}|\\frac{1}{2}|=\\frac{2}{\\pi(4+y^{2})}\\,.</span>"
     },
     {
       "id": "q0008",
       "number": 8,
       "header": "#8-Easy",
       "difficulty": "Easy",
-      "prompt_html": "<img src=\"/static/generated/assets/probability/ch037/q0008_prompt.png\"/>",
+      "prompt_html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{设}\\,\\xi\\sim N(0,1),\\eta=2\\xi-1\\,,\\,\\text{则}\\,\\eta\\sim( \\,\\,).\">\\text{设}\\,\\xi\\sim N(0,1),\\eta=2\\xi-1\\,,\\,\\text{则}\\,\\eta\\sim( \\,\\,).</span>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/probability/ch037/q0008_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"N(-1, 4)\">N(-1, 4)</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/probability/ch037/q0008_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"N (0, 1)\">N (0, 1)</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/probability/ch037/q0008_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"N(1, 3)\">N(1, 3)</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/probability/ch037/q0008_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"N(1, 1)\">N(1, 1)</span>"
         }
       ],
       "answer": "A",
       "answer_index": 0,
-      "analysis_html": "<img src=\"/static/generated/assets/probability/ch037/q0008_analysis.png\"/>"
+      "analysis_html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{正态分布的性质：正态分布的线性函数仍服从正态分布，故}\\,\\eta\\sim N(-1,4).\">\\text{正态分布的性质：正态分布的线性函数仍服从正态分布，故}\\,\\eta\\sim N(-1,4).</span>"
     },
     {
       "id": "q0009",
       "number": 9,
       "header": "#9-Averge",
       "difficulty": "Averge",
-      "prompt_html": "<img src=\"/static/generated/assets/probability/ch037/q0009_prompt.png\"/>",
+      "prompt_html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{设随机变量} X \\text{的分布函数} F ( x ) \\text{为严格单调的连续函数，关于随机变量} Y = F ( X ) \\text{的分布，下列说法不正确的是( )}.\">\\text{设随机变量} X \\text{的分布函数} F ( x ) \\text{为严格单调的连续函数，关于随机变量} Y = F ( X ) \\text{的分布，下列说法不正确的是( )}.</span>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/probability/ch037/q0009_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"Y \\text{服从} [ 0 , 1 ] \\text{上的均匀分布}\">Y \\text{服从} [ 0 , 1 ] \\text{上的均匀分布}</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/probability/ch037/q0009_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\gamma \\text{不服从} [ 0 , 1 ] \\text{上的均匀分布}\">\\gamma \\text{不服从} [ 0 , 1 ] \\text{上的均匀分布}</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/probability/ch037/q0009_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\begin{array}{l} Y \\text {的密度函数} g(y) = \\{ \\begin{array}{l l} 1, \\, 0 \\leq y \\leq 1, \\\\ 0, \\ \\ \\text {其它}. \\end{array} \\end{array}\">\\begin{array}{l} Y \\text {的密度函数} g(y) = \\{ \\begin{array}{l l} 1, \\, 0 \\leq y \\leq 1, \\\\ 0, \\ \\ \\text {其它}. \\end{array} \\end{array}</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/probability/ch037/q0009_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\begin{array}{l}Y \\text {的分布函数}G(y) = \\begin{cases}0, \\quad y &lt; 0,\\\\ y, \\ 0 \\leq y \\leq 1,\\\\ 1, \\quad y &gt; 1. \\end{cases} \\end{array}\">\\begin{array}{l}Y \\text {的分布函数}G(y) = \\begin{cases}0, \\quad y &lt; 0,\\\\ y, \\ 0 \\leq y \\leq 1,\\\\ 1, \\quad y &gt; 1. \\end{cases} \\end{array}</span>"
         }
       ],
       "answer": "B",
       "answer_index": 1,
-      "analysis_html": "<img src=\"/static/generated/assets/probability/ch037/q0009_analysis.png\"/>"
+      "analysis_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{aligned} \\text{设}Y\\text{的分布函数是}G(y), \\text{由于}0\\leq y\\leq 1, \\text{于是} \\text{对}y&lt;0, G(y)=0; \\text{对}y&gt;1, G(y)=1. \\text{又由于}\\lambda\\text{的分布函数}F \\text{是严格递增的连续函数，其反函数}F^{-1}\\text{存在且严格递增}. \\\\ 0\\leq y\\leq 1, \\\\ G(y)=P\\{Y\\leq y\\}=P\\{F(X)\\leq y\\}=P\\{X\\leq F^{-1}(y)\\}=F(F^{-1}(y))=y, \\\\ \\text{即}Y\\text{的分布函数}G(y)=\\begin{cases} 0, &amp; y&lt;0, \\\\ y, &amp; 0\\leq y\\leq 1, \\\\ 1, &amp; y&gt;1, \\end{cases} \\text{求导得}Y\\text{的密度函数}g(y)=\\begin{cases} 1, &amp; 0\\leq y\\leq 1, \\\\ 0, &amp; \\text{其它}. \\end{cases} \\\\ \\text{可见，}Y\\text{服从}[0,1]\\text{上的均匀分布}. \\end{aligned}\">\\begin{aligned} \\text{设}Y\\text{的分布函数是}G(y), \\text{由于}0\\leq y\\leq 1, \\text{于是} \\text{对}y&lt;0, G(y)=0; \\text{对}y&gt;1, G(y)=1. \\text{又由于}\\lambda\\text{的分布函数}F \\text{是严格递增的连续函数，其反函数}F^{-1}\\text{存在且严格递增}. \\\\ 0\\leq y\\leq 1, \\\\ G(y)=P\\{Y\\leq y\\}=P\\{F(X)\\leq y\\}=P\\{X\\leq F^{-1}(y)\\}=F(F^{-1}(y))=y, \\\\ \\text{即}Y\\text{的分布函数}G(y)=\\begin{cases} 0, &amp; y&lt;0, \\\\ y, &amp; 0\\leq y\\leq 1, \\\\ 1, &amp; y&gt;1, \\end{cases} \\text{求导得}Y\\text{的密度函数}g(y)=\\begin{cases} 1, &amp; 0\\leq y\\leq 1, \\\\ 0, &amp; \\text{其它}. \\end{cases} \\\\ \\text{可见，}Y\\text{服从}[0,1]\\text{上的均匀分布}. \\end{aligned}</div>"
     },
     {
       "id": "q0010",
       "number": 10,
       "header": "#10-Easy",
       "difficulty": "Easy",
-      "prompt_html": "<img src=\"/static/generated/assets/probability/ch037/q0010_prompt.png\"/>",
+      "prompt_html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{设随机变量} \\zeta \\text{在} [0,1] \\text{上服从均匀分布，则} \\eta = 2 \\zeta + 1 \\text{的分布密度为} \\psi ( y ) = ( ) .\">\\text{设随机变量} \\zeta \\text{在} [0,1] \\text{上服从均匀分布，则} \\eta = 2 \\zeta + 1 \\text{的分布密度为} \\psi ( y ) = ( ) .</span>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/probability/ch037/q0010_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\psi(y) = \\begin{cases} \\displaystyle \\frac{1}{2}, &amp; \\quad 1 \\leq y \\leq 3 \\\\ 0, &amp; \\quad \\text{其它} \\end{cases}\">\\psi(y) = \\begin{cases} \\displaystyle \\frac{1}{2}, &amp; \\quad 1 \\leq y \\leq 3 \\\\ 0, &amp; \\quad \\text{其它} \\end{cases}</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/probability/ch037/q0010_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\psi(y)=\\begin{cases}\\displaystyle\\frac{1}{2},&amp;\\quad-1\\leq y\\leq3\\\\ 0,&amp;\\quad\\quad\\text{其它}\\end{cases}\">\\psi(y)=\\begin{cases}\\displaystyle\\frac{1}{2},&amp;\\quad-1\\leq y\\leq3\\\\ 0,&amp;\\quad\\quad\\text{其它}\\end{cases}</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/probability/ch037/q0010_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\psi(y) = \\begin{cases} 2, &amp; \\quad 1 \\leq y \\leq 3 \\\\ 0, &amp; \\quad \\text{其它} \\end{cases}\">\\psi(y) = \\begin{cases} 2, &amp; \\quad 1 \\leq y \\leq 3 \\\\ 0, &amp; \\quad \\text{其它} \\end{cases}</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/probability/ch037/q0010_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\psi(y) = \\begin{cases} 2, &amp; \\quad -1 \\leq y \\leq 3 \\\\ 0, &amp; \\quad \\text{其它} \\end{cases}\">\\psi(y) = \\begin{cases} 2, &amp; \\quad -1 \\leq y \\leq 3 \\\\ 0, &amp; \\quad \\text{其它} \\end{cases}</span>"
         }
       ],
       "answer": "A",
       "answer_index": 0,
-      "analysis_html": "<img src=\"/static/generated/assets/probability/ch037/q0010_analysis.png\"/>"
+      "analysis_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{aligned} \\text{设随机变量 }X \\text{ 有密度函数 }f_{x}(x),\\ Y=g(X) \\text{ 是连续的随机变量，}y=g(x) \\text{ 是严格单调函数，其反函数为}x=h(y), \\text{ 则随机变量 }Y \\text{ 的概率密度为 }f_{y}(y)=f_{x}(h(y))|h&#x27;(y)\\,.\\\\ \\text{故 } \\psi(y)=\\{\\begin{array}{l} 1-\\frac{1}{2},\\ 1\\leq y\\leq 3\\\\ 0,\\ \\text{其它} \\end{array}=\\{\\begin{array}{l} \\frac{1}{2},\\ 1\\leq y\\leq 3\\\\ 0,\\ \\text{其它} \\end{array}.\\end{aligned}\">\\begin{aligned} \\text{设随机变量 }X \\text{ 有密度函数 }f_{x}(x),\\ Y=g(X) \\text{ 是连续的随机变量，}y=g(x) \\text{ 是严格单调函数，其反函数为}x=h(y), \\text{ 则随机变量 }Y \\text{ 的概率密度为 }f_{y}(y)=f_{x}(h(y))|h&#x27;(y)\\,.\\\\ \\text{故 } \\psi(y)=\\{\\begin{array}{l} 1-\\frac{1}{2},\\ 1\\leq y\\leq 3\\\\ 0,\\ \\text{其它} \\end{array}=\\{\\begin{array}{l} \\frac{1}{2},\\ 1\\leq y\\leq 3\\\\ 0,\\ \\text{其它} \\end{array}.\\end{aligned}</div>"
     },
     {
       "id": "q0011",
       "number": 11,
       "header": "#11-Averge",
       "difficulty": "Averge",
-      "prompt_html": "<img src=\"/static/generated/assets/probability/ch037/q0011_prompt.png\"/>",
+      "prompt_html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{设随机变量} X \\text{服从均匀分布} U(0,1)，\\text{则} Y=\\ln X \\text{的概率密度} f_{Y}(y)=()\">\\text{设随机变量} X \\text{服从均匀分布} U(0,1)，\\text{则} Y=\\ln X \\text{的概率密度} f_{Y}(y)=()</span>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/probability/ch037/q0011_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\begin{aligned}e^y (y &lt; 0)\\end{aligned}\">\\begin{aligned}e^y (y &lt; 0)\\end{aligned}</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/probability/ch037/q0011_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"e ^ { - y } ( y &gt; 0 )\">e ^ { - y } ( y &gt; 0 )</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/probability/ch037/q0011_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\begin{aligned}e^y (y &gt; 0)\\end{aligned}\">\\begin{aligned}e^y (y &gt; 0)\\end{aligned}</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/probability/ch037/q0011_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\begin{aligned}e^{-y}(y&lt;0)\\end{aligned}\">\\begin{aligned}e^{-y}(y&lt;0)\\end{aligned}</span>"
         }
       ],
       "answer": "A",
       "answer_index": 0,
-      "analysis_html": "<img src=\"/static/generated/assets/probability/ch037/q0011_analysis.png\"/>"
+      "analysis_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{aligned} \\text{设随机变量 } X \\text{ 有密度函数 } f_{X}(x), \\; Y = g(X) \\text{ 是连续的随机变量，} y = g(x) \\text{ 是严格单调函数，其反函数为} \\\\ x = h(y), \\text{ 则随机变量 } Y \\text{ 的概率密度为 } f_{Y}(y) = f_{X}(h(y)) | h&#x27;(y) \\, . \\\\ \\text{即 } \\; f_{Y}(y) = f_{X}(h(y)) | h&#x27;(y) \\{ \\begin{array}{ll} 1 \\cdot (e^{y})&#x27;, \\; y &lt; 0 \\\\ 0, \\; \\; \\text{其它} \\end{array} = \\{ \\begin{array}{ll} e^{y}, \\; y &lt; 0 \\\\ 0, \\; \\text{其它} \\end{array} . \\end{aligned}\">\\begin{aligned} \\text{设随机变量 } X \\text{ 有密度函数 } f_{X}(x), \\; Y = g(X) \\text{ 是连续的随机变量，} y = g(x) \\text{ 是严格单调函数，其反函数为} \\\\ x = h(y), \\text{ 则随机变量 } Y \\text{ 的概率密度为 } f_{Y}(y) = f_{X}(h(y)) | h&#x27;(y) \\, . \\\\ \\text{即 } \\; f_{Y}(y) = f_{X}(h(y)) | h&#x27;(y) \\{ \\begin{array}{ll} 1 \\cdot (e^{y})&#x27;, \\; y &lt; 0 \\\\ 0, \\; \\; \\text{其它} \\end{array} = \\{ \\begin{array}{ll} e^{y}, \\; y &lt; 0 \\\\ 0, \\; \\text{其它} \\end{array} . \\end{aligned}</div>"
     },
     {
       "id": "q0012",
       "number": 12,
       "header": "#12-Averge",
       "difficulty": "Averge",
-      "prompt_html": "<img src=\"/static/generated/assets/probability/ch037/q0012_prompt.png\"/>",
+      "prompt_html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{设随机变量} X \\text{的分布函数} F ( x ) \\text{为严格单调的连续函数，则关于随机变量} Y = F ( X ) , \\text{下列说法正确的是( ).}\">\\text{设随机变量} X \\text{的分布函数} F ( x ) \\text{为严格单调的连续函数，则关于随机变量} Y = F ( X ) , \\text{下列说法正确的是( ).}</span>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/probability/ch037/q0012_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"y \\text{不服从} [0, 1] \\text{上的均匀分布}\">y \\text{不服从} [0, 1] \\text{上的均匀分布}</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/probability/ch037/q0012_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"Y \\text{服从} [ 0 , 1 ] \\text{上的均匀分布}\">Y \\text{服从} [ 0 , 1 ] \\text{上的均匀分布}</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/probability/ch037/q0012_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\begin{aligned}Y\\text{的分布函数是}G(y)=\\begin{cases}1,\\quad y&lt;0\\\\y,\\ 0\\leq y\\leq 1\\\\0,\\quad y&gt;1\\end{cases}\\end{aligned}\">\\begin{aligned}Y\\text{的分布函数是}G(y)=\\begin{cases}1,\\quad y&lt;0\\\\y,\\ 0\\leq y\\leq 1\\\\0,\\quad y&gt;1\\end{cases}\\end{aligned}</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/probability/ch037/q0012_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\gamma \\text {的密度函数} g(y) = \\begin{cases} 0, \\, 0 \\leq y \\leq 1 \\\\ \\quad 1, \\ \\ \\text {其它} \\end{cases}.\">\\gamma \\text {的密度函数} g(y) = \\begin{cases} 0, \\, 0 \\leq y \\leq 1 \\\\ \\quad 1, \\ \\ \\text {其它} \\end{cases}.</span>"
         }
       ],
       "answer": "B",
       "answer_index": 1,
-      "analysis_html": "<img src=\"/static/generated/assets/probability/ch037/q0012_analysis.png\"/>"
+      "analysis_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{aligned} \\text{设}y\\text{的分布函数是}G(y), \\text{由于}0\\leq y\\leq 1, \\text{于是对}y&lt;0,G(y)=0; \\text{对}y&gt;1,G(y)=1.\\\\ \\text{又由于}y\\text{的分布函数}F\\text{是严格递增的连续函数,其反函数}F^{-1}\\text{存在且严格递增.}\\\\ \\text{对}0\\leq y\\leq 1,G(y)=P\\{Y\\leq y\\}=P\\{F(X)\\leq y\\}=P\\{X\\leq F^{-1}(y)\\}=F(F^{-1}(y))=y.\\\\ \\text{即}Y\\text{的分布函数是}G(y)=\\begin{cases} 0, &amp;y&lt;0\\\\ y, &amp;0\\leq y\\leq 1\\\\ 1, &amp;y&gt;1\\end{cases}, \\text{求导得}y\\text{的密度函数}g(y)=\\begin{cases} 1, 0\\leq y\\leq 1\\\\ 0, &amp;\\text{其它}\\end{cases}.\\end{aligned}\">\\begin{aligned} \\text{设}y\\text{的分布函数是}G(y), \\text{由于}0\\leq y\\leq 1, \\text{于是对}y&lt;0,G(y)=0; \\text{对}y&gt;1,G(y)=1.\\\\ \\text{又由于}y\\text{的分布函数}F\\text{是严格递增的连续函数,其反函数}F^{-1}\\text{存在且严格递增.}\\\\ \\text{对}0\\leq y\\leq 1,G(y)=P\\{Y\\leq y\\}=P\\{F(X)\\leq y\\}=P\\{X\\leq F^{-1}(y)\\}=F(F^{-1}(y))=y.\\\\ \\text{即}Y\\text{的分布函数是}G(y)=\\begin{cases} 0, &amp;y&lt;0\\\\ y, &amp;0\\leq y\\leq 1\\\\ 1, &amp;y&gt;1\\end{cases}, \\text{求导得}y\\text{的密度函数}g(y)=\\begin{cases} 1, 0\\leq y\\leq 1\\\\ 0, &amp;\\text{其它}\\end{cases}.\\end{aligned}</div>"
     },
     {
       "id": "q0013",
       "number": 13,
       "header": "#13-Averge",
       "difficulty": "Averge",
-      "prompt_html": "<img src=\"/static/generated/assets/probability/ch037/q0013_prompt.png\"/>",
+      "prompt_html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{设随机变量}X\\text{服从均匀分布}U(-1,1),\\text{则}Y=|X|\\text{的概率密度}f_{Y}(y)=()\\,.\">\\text{设随机变量}X\\text{服从均匀分布}U(-1,1),\\text{则}Y=|X|\\text{的概率密度}f_{Y}(y)=()\\,.</span>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/probability/ch037/q0013_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\frac{1}{2} (0 &lt; y &lt; 1)\">\\frac{1}{2} (0 &lt; y &lt; 1)</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/probability/ch037/q0013_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\frac{1}{2}(-1&lt; y &lt; 1)\">\\frac{1}{2}(-1&lt; y &lt; 1)</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/probability/ch037/q0013_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"1 ( 1 - &lt; y &lt; 0 )\">1 ( 1 - &lt; y &lt; 0 )</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/probability/ch037/q0013_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"1 ( 0 &lt; y &lt; 1 )\">1 ( 0 &lt; y &lt; 1 )</span>"
         }
       ],
       "answer": "D",
       "answer_index": 3,
-      "analysis_html": "<img src=\"/static/generated/assets/probability/ch037/q0013_analysis.png\"/>"
+      "analysis_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{aligned}&amp;\\text{用定义：} \\ F_{Y}(y)=P\\{ |X|\\leq y \\}=\\int_{-y}^{y}1/2dx\\,, \\ 0&lt;y&lt;1\\,.\\\\&amp;\\text{故 } \\ f_{Y}(y)=\\frac{dF_{Y}(y)}{dy}=\\frac{d}{dy}\\int_{-y}^{y}\\frac{1}{2}dx=1\\ (0&lt;y&lt;1)\\,.\\end{aligned}\">\\begin{aligned}&amp;\\text{用定义：} \\ F_{Y}(y)=P\\{ |X|\\leq y \\}=\\int_{-y}^{y}1/2dx\\,, \\ 0&lt;y&lt;1\\,.\\\\&amp;\\text{故 } \\ f_{Y}(y)=\\frac{dF_{Y}(y)}{dy}=\\frac{d}{dy}\\int_{-y}^{y}\\frac{1}{2}dx=1\\ (0&lt;y&lt;1)\\,.\\end{aligned}</div>"
     },
     {
       "id": "q0014",
       "number": 14,
       "header": "#14-Easy",
       "difficulty": "Easy",
-      "prompt_html": "<img src=\"/static/generated/assets/probability/ch037/q0014_prompt.png\"/>",
+      "prompt_html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{设 } \\xi \\sim N(2,18)\\,,\\,\\,\\,\\eta = f(\\xi) = a \\xi + b \\sim N(0,1)\\,,\\,\\text{则 } f(\\xi) = ( \\,\\, )\\,.\">\\text{设 } \\xi \\sim N(2,18)\\,,\\,\\,\\,\\eta = f(\\xi) = a \\xi + b \\sim N(0,1)\\,,\\,\\text{则 } f(\\xi) = ( \\,\\, )\\,.</span>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/probability/ch037/q0014_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\frac { \\xi + 2 } { 18 }\">\\frac { \\xi + 2 } { 18 }</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/probability/ch037/q0014_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\frac {\\xi - 2}{18}\">\\frac {\\xi - 2}{18}</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/probability/ch037/q0014_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\sqrt [ ] { 2 } \\xi + 2\">\\sqrt [ ] { 2 } \\xi + 2</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/probability/ch037/q0014_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\frac { \\xi - 2 } { 3 \\sqrt { 2 } }\">\\frac { \\xi - 2 } { 3 \\sqrt { 2 } }</span>"
         }
       ],
       "answer": "D",
       "answer_index": 3,
-      "analysis_html": "<img src=\"/static/generated/assets/probability/ch037/q0014_analysis.png\"/>"
+      "analysis_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{aligned}&amp; \\text{由于}\\xi\\sim N(2,18),\\text{则}\\frac{\\xi-2}{3\\sqrt{2}}\\sim N(0,1),\\\\&amp; \\text{又}\\eta=a\\xi+b\\sim N(0,1),\\text{故}a=\\frac{1}{3\\sqrt{2}},b=-\\frac{2}{3\\sqrt{2}}\\,.\\\\&amp; \\text{即}f(\\xi)=\\frac{\\xi-2}{3\\sqrt{2}}\\,.\\end{aligned}\">\\begin{aligned}&amp; \\text{由于}\\xi\\sim N(2,18),\\text{则}\\frac{\\xi-2}{3\\sqrt{2}}\\sim N(0,1),\\\\&amp; \\text{又}\\eta=a\\xi+b\\sim N(0,1),\\text{故}a=\\frac{1}{3\\sqrt{2}},b=-\\frac{2}{3\\sqrt{2}}\\,.\\\\&amp; \\text{即}f(\\xi)=\\frac{\\xi-2}{3\\sqrt{2}}\\,.\\end{aligned}</div>"
     },
     {
       "id": "q0015",
       "number": 15,
       "header": "#15-Easy",
       "difficulty": "Easy",
-      "prompt_html": "<img src=\"/static/generated/assets/probability/ch037/q0015_prompt.png\"/>",
+      "prompt_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{array}{l} \\text{设随机变量}X\\sim N(\\mu,\\sigma^{2})，\\text{关于}X\\text{的线性函数}Y=aX+b(a\\neq 0)\\text{也服从正态分布}，\\text{下列说法正确的是}( ). \\end{array}\">\\begin{array}{l} \\text{设随机变量}X\\sim N(\\mu,\\sigma^{2})，\\text{关于}X\\text{的线性函数}Y=aX+b(a\\neq 0)\\text{也服从正态分布}，\\text{下列说法正确的是}( ). \\end{array}</div>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/probability/ch037/q0015_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\begin{aligned}Y = a X + b \\sim N ( b \\mu + a , \\, ( b \\sigma ) ^2 )\\end{aligned}\">\\begin{aligned}Y = a X + b \\sim N ( b \\mu + a , \\, ( b \\sigma ) ^2 )\\end{aligned}</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/probability/ch037/q0015_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\begin{aligned}Y = a X + b \\sim N(a \\mu + b, \\, (a \\sigma)^2)\\end{aligned}\">\\begin{aligned}Y = a X + b \\sim N(a \\mu + b, \\, (a \\sigma)^2)\\end{aligned}</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/probability/ch037/q0015_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\begin{aligned}Y=aX+b \\text{的概率密度为} f_{Y}(y)=\\frac{1}{|b|}f_{X}\\bigg(\\frac{y-b}{a}\\bigg),\\,-\\infty&lt;y&lt;+\\infty\\end{aligned}\">\\begin{aligned}Y=aX+b \\text{的概率密度为} f_{Y}(y)=\\frac{1}{|b|}f_{X}\\bigg(\\frac{y-b}{a}\\bigg),\\,-\\infty&lt;y&lt;+\\infty\\end{aligned}</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/probability/ch037/q0015_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\begin{aligned}Y = aX + b \\sim N(a \\mu + b, \\, a \\sigma)\\end{aligned}\">\\begin{aligned}Y = aX + b \\sim N(a \\mu + b, \\, a \\sigma)\\end{aligned}</span>"
         }
       ],
       "answer": "B",
       "answer_index": 1,
-      "analysis_html": "<img src=\"/static/generated/assets/probability/ch037/q0015_analysis.png\"/>"
+      "analysis_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{aligned} \\lambda \\text{的} \\text{概率密度为} &amp; f_{\\lambda}(x) = \\frac{1}{\\sqrt{2\\pi\\sigma}} e^{-\\frac{(x-\\mu)^2}{2\\sigma^2}} , -\\infty &lt; x &lt; +\\infty. \\\\ \\text{由} y = g(x) = ax + b \\text{ 解得} x = h(y) = \\frac{y-b}{a}, \\text{且} h&#x27;(y) = 1/a, \\text{从而} Y = aX + b \\text{的} \\text{概率密度为} \\\\ &amp; f_{f}(y) = \\frac{1}{|a|} f_{\\lambda}\\bigg(\\frac{y-b}{a}\\bigg) = \\frac{1}{|a|} \\frac{1}{\\sqrt{2\\pi}\\sigma} e^{-\\frac{\\left(\\frac{y-b}{a}-\\mu\\right)^2}{2\\sigma^2}} = \\frac{1}{|a|\\sigma\\sqrt{2\\pi}} e^{-\\frac{[b-(b+a)\\mu]^2}{2(a\\sigma)^2}} (-\\infty &lt; y &lt; +\\infty), \\\\ \\text{即} Y = aX + b \\sim N(a\\mu+b, (a\\sigma)^2). \\\\ \\text{特别地, 若在本例中取} a = \\frac{1}{\\sigma}, b = -\\frac{\\mu}{\\sigma}, \\text{则得} Y = \\frac{X-\\mu}{\\sigma} \\sim N(0, 1). \\end{aligned}\">\\begin{aligned} \\lambda \\text{的} \\text{概率密度为} &amp; f_{\\lambda}(x) = \\frac{1}{\\sqrt{2\\pi\\sigma}} e^{-\\frac{(x-\\mu)^2}{2\\sigma^2}} , -\\infty &lt; x &lt; +\\infty. \\\\ \\text{由} y = g(x) = ax + b \\text{ 解得} x = h(y) = \\frac{y-b}{a}, \\text{且} h&#x27;(y) = 1/a, \\text{从而} Y = aX + b \\text{的} \\text{概率密度为} \\\\ &amp; f_{f}(y) = \\frac{1}{|a|} f_{\\lambda}\\bigg(\\frac{y-b}{a}\\bigg) = \\frac{1}{|a|} \\frac{1}{\\sqrt{2\\pi}\\sigma} e^{-\\frac{\\left(\\frac{y-b}{a}-\\mu\\right)^2}{2\\sigma^2}} = \\frac{1}{|a|\\sigma\\sqrt{2\\pi}} e^{-\\frac{[b-(b+a)\\mu]^2}{2(a\\sigma)^2}} (-\\infty &lt; y &lt; +\\infty), \\\\ \\text{即} Y = aX + b \\sim N(a\\mu+b, (a\\sigma)^2). \\\\ \\text{特别地, 若在本例中取} a = \\frac{1}{\\sigma}, b = -\\frac{\\mu}{\\sigma}, \\text{则得} Y = \\frac{X-\\mu}{\\sigma} \\sim N(0, 1). \\end{aligned}</div>"
     },
     {
       "id": "q0016",
       "number": 16,
       "header": "#16-Averge",
       "difficulty": "Averge",
-      "prompt_html": "<img src=\"/static/generated/assets/probability/ch037/q0016_prompt.png\"/>",
+      "prompt_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\text{设随机变量}\\xi \\text{的概率密度为}\\varphi_{\\xi}(x)=\\begin{cases}\\frac{3}{2}x-\\frac{1}{2},&amp;\\frac{1}{2}\\leq x&lt;\\frac{3}{2},\\\\ 0,&amp;\\text{其他}\\end{cases},\\,\\eta=2\\xi-1 \\text{的概率密度}\\varphi_{\\eta}(y)=() \\,.\">\\text{设随机变量}\\xi \\text{的概率密度为}\\varphi_{\\xi}(x)=\\begin{cases}\\frac{3}{2}x-\\frac{1}{2},&amp;\\frac{1}{2}\\leq x&lt;\\frac{3}{2},\\\\ 0,&amp;\\text{其他}\\end{cases},\\,\\eta=2\\xi-1 \\text{的概率密度}\\varphi_{\\eta}(y)=() \\,.</div>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/probability/ch037/q0016_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\varphi_{\\eta}(y) = \\begin{cases} \\frac{3}{8} y + \\frac{1}{8}, &amp; 0 \\leq y &lt; 2 \\\\ \\ \\ \\ \\ 0, &amp; \\text{其它} \\end{cases}\">\\varphi_{\\eta}(y) = \\begin{cases} \\frac{3}{8} y + \\frac{1}{8}, &amp; 0 \\leq y &lt; 2 \\\\ \\ \\ \\ \\ 0, &amp; \\text{其它} \\end{cases}</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/probability/ch037/q0016_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\varphi _ { \\eta } ( y ) = { \\frac { 3 } { 8 } } y + { \\frac { 1 } { 8 } }\">\\varphi _ { \\eta } ( y ) = { \\frac { 3 } { 8 } } y + { \\frac { 1 } { 8 } }</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/probability/ch037/q0016_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\varphi_{\\eta}(y)=\\begin{cases}\\frac{3}{8}y+\\frac{1}{8},&amp;\\ \\frac{1}{2}\\leq y&lt;\\frac{3}{2}\\\\ \\ \\ \\ \\ 0, &amp;\\ \\ \\ \\ \\ \\text{其它}\\end{cases}\">\\varphi_{\\eta}(y)=\\begin{cases}\\frac{3}{8}y+\\frac{1}{8},&amp;\\ \\frac{1}{2}\\leq y&lt;\\frac{3}{2}\\\\ \\ \\ \\ \\ 0, &amp;\\ \\ \\ \\ \\ \\text{其它}\\end{cases}</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/probability/ch037/q0016_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\varphi_{\\eta}(y) = \\begin{cases} \\frac{3}{8} y + \\frac{1}{8}, &amp; \\quad 2 \\leq y &lt; 3 \\\\ \\quad 0, &amp; \\quad \\text{其它} \\end{cases}\">\\varphi_{\\eta}(y) = \\begin{cases} \\frac{3}{8} y + \\frac{1}{8}, &amp; \\quad 2 \\leq y &lt; 3 \\\\ \\quad 0, &amp; \\quad \\text{其它} \\end{cases}</span>"
         }
       ],
       "answer": "A",
       "answer_index": 0,
-      "analysis_html": "<img src=\"/static/generated/assets/probability/ch037/q0016_analysis.png\"/>"
+      "analysis_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{aligned}\\text{设随机变量} \\lambda \\text{有密度函数} f_{\\lambda}(y), \\; Y=g(X) \\text{是连续的随机变量}, y=g(x) \\text{是严格单调函数，其反函数为} x=h(y), \\text{则随机变量} y \\text{的概率密度为} f_{Y}(y)=f_{\\lambda}(h(y))|h&#x27;(y)|. \\quad \\text{所以} \\quad \\text{当} \\; \\eta=2\\xi-1 \\text{时}, \\quad \\varphi_{\\eta}(y)=\\varphi_{\\xi}(h(y))|h&#x27;(y)|=\\begin{cases} [\\frac{3}{2}\\frac{y+1}{2}-\\frac{1}{2}]|\\frac{1}{2}|, &amp; 0\\leq y&lt;2 \\\\ 0, &amp; \\text{其它} \\end{cases}=\\begin{cases} \\frac{3}{8}y+\\frac{1}{8}, &amp; 0\\leq y&lt;2 \\\\ 0, &amp; \\text{其它} \\end{cases}.\\end{aligned}\">\\begin{aligned}\\text{设随机变量} \\lambda \\text{有密度函数} f_{\\lambda}(y), \\; Y=g(X) \\text{是连续的随机变量}, y=g(x) \\text{是严格单调函数，其反函数为} x=h(y), \\text{则随机变量} y \\text{的概率密度为} f_{Y}(y)=f_{\\lambda}(h(y))|h&#x27;(y)|. \\quad \\text{所以} \\quad \\text{当} \\; \\eta=2\\xi-1 \\text{时}, \\quad \\varphi_{\\eta}(y)=\\varphi_{\\xi}(h(y))|h&#x27;(y)|=\\begin{cases} [\\frac{3}{2}\\frac{y+1}{2}-\\frac{1}{2}]|\\frac{1}{2}|, &amp; 0\\leq y&lt;2 \\\\ 0, &amp; \\text{其它} \\end{cases}=\\begin{cases} \\frac{3}{8}y+\\frac{1}{8}, &amp; 0\\leq y&lt;2 \\\\ 0, &amp; \\text{其它} \\end{cases}.\\end{aligned}</div>"
     },
     {
       "id": "q0017",
       "number": 17,
       "header": "#17-Easy",
       "difficulty": "Easy",
-      "prompt_html": "<img src=\"/static/generated/assets/probability/ch037/q0017_prompt.png\"/>",
+      "prompt_html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{设随机变量}\\xi \\text{的概率密度为}f(x)=\\frac{1}{2\\sqrt{\\pi}}e^{-\\frac{(x+3)^{2}}{4}}(-\\infty &lt; x &lt; +\\infty)\\text{，则}\\eta=(\\ )\\sim N(0,1)\\,.\">\\text{设随机变量}\\xi \\text{的概率密度为}f(x)=\\frac{1}{2\\sqrt{\\pi}}e^{-\\frac{(x+3)^{2}}{4}}(-\\infty &lt; x &lt; +\\infty)\\text{，则}\\eta=(\\ )\\sim N(0,1)\\,.</span>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/probability/ch037/q0017_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\frac {\\xi + 3}{2}\">\\frac {\\xi + 3}{2}</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/probability/ch037/q0017_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\frac {\\xi - 3}{2}\">\\frac {\\xi - 3}{2}</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/probability/ch037/q0017_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\frac { \\xi + 3 } { \\sqrt { 2 } }\">\\frac { \\xi + 3 } { \\sqrt { 2 } }</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/probability/ch037/q0017_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\frac { \\xi - 3 } { \\sqrt { 2 } }\">\\frac { \\xi - 3 } { \\sqrt { 2 } }</span>"
         }
       ],
       "answer": "C",
       "answer_index": 2,
-      "analysis_html": "<img src=\"/static/generated/assets/probability/ch037/q0017_analysis.png\"/>"
+      "analysis_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{array}{l} \\text {由正态分布的性质可知，若}\\xi\\sim N(a,\\sigma^{2}),\\text {则}\\frac{\\xi-a}{\\sigma}\\sim N(0,1)\\,.\\text {本题}\\xi\\sim N(-3,(\\sqrt{2})^{2}),\\text {故}\\frac{\\xi+3}{\\sqrt{2}}\\sim N(0,1)\\,.\\end{array}\">\\begin{array}{l} \\text {由正态分布的性质可知，若}\\xi\\sim N(a,\\sigma^{2}),\\text {则}\\frac{\\xi-a}{\\sigma}\\sim N(0,1)\\,.\\text {本题}\\xi\\sim N(-3,(\\sqrt{2})^{2}),\\text {故}\\frac{\\xi+3}{\\sqrt{2}}\\sim N(0,1)\\,.\\end{array}</div>"
     },
     {
       "id": "q0018",
       "number": 18,
       "header": "#18-Averge",
       "difficulty": "Averge",
-      "prompt_html": "<img src=\"/static/generated/assets/probability/ch037/q0018_prompt.png\"/>",
+      "prompt_html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{设随机变量}X\\sim N(0,1),Y=e^{X},\\text{关于}Y\\text{的概率密度函数正确的是}( ).\">\\text{设随机变量}X\\sim N(0,1),Y=e^{X},\\text{关于}Y\\text{的概率密度函数正确的是}( ).</span>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/probability/ch037/q0018_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\begin{aligned}f_{y}(y)=\\left\\{\\begin{matrix}\\displaystyle\\frac{1}{\\sqrt{2\\pi y}}e^{-\\frac{(\\ln y)^{2}}{2}},\\;\\;y&gt;0\\\\ \\\\ \\;\\;\\;\\;\\;0,\\;\\;\\;\\;y\\leq0\\end{matrix}\\right.\\end{aligned}\">\\begin{aligned}f_{y}(y)=\\left\\{\\begin{matrix}\\displaystyle\\frac{1}{\\sqrt{2\\pi y}}e^{-\\frac{(\\ln y)^{2}}{2}},\\;\\;y&gt;0\\\\ \\\\ \\;\\;\\;\\;\\;0,\\;\\;\\;\\;y\\leq0\\end{matrix}\\right.\\end{aligned}</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/probability/ch037/q0018_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\begin{aligned}f_{Y}(y)=\\{\\begin{array}{ll}\\displaystyle \\frac{1}{\\sqrt{2\\pi}y}e, \\ \\ \\ \\ y&gt;0 \\\\ \\\\ \\displaystyle \\frac{1}{\\sqrt{2\\pi}y}e^{-\\frac{(\\ln y)^{2}}{2}}, \\ \\ y\\leq 0\\end{array}\\end{aligned}\">\\begin{aligned}f_{Y}(y)=\\{\\begin{array}{ll}\\displaystyle \\frac{1}{\\sqrt{2\\pi}y}e, \\ \\ \\ \\ y&gt;0 \\\\ \\\\ \\displaystyle \\frac{1}{\\sqrt{2\\pi}y}e^{-\\frac{(\\ln y)^{2}}{2}}, \\ \\ y\\leq 0\\end{array}\\end{aligned}</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/probability/ch037/q0018_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\begin{aligned}f_{1}(y)=\\begin{cases}\\displaystyle \\frac{1}{\\sqrt{\\pi y}}e^{-\\frac{(\\ln y)^{2}}{2}},\\;\\; y&gt;0\\\\ \\;\\;\\;\\;\\;0,\\;\\;\\;\\; y\\leq 0\\end{cases}\\end{aligned}\">\\begin{aligned}f_{1}(y)=\\begin{cases}\\displaystyle \\frac{1}{\\sqrt{\\pi y}}e^{-\\frac{(\\ln y)^{2}}{2}},\\;\\; y&gt;0\\\\ \\;\\;\\;\\;\\;0,\\;\\;\\;\\; y\\leq 0\\end{cases}\\end{aligned}</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/probability/ch037/q0018_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\begin{aligned}f_{y}(y)=\\{\\begin{array}{c}0,\\quad\\;y&gt;0\\\\ \\\\ \\displaystyle{\\frac{1}{\\sqrt{2\\pi y}}}e^{-\\frac{(\\ln y)^{2}}{2}},\\;\\;y\\leq 0\\end{array}\\end{aligned}\">\\begin{aligned}f_{y}(y)=\\{\\begin{array}{c}0,\\quad\\;y&gt;0\\\\ \\\\ \\displaystyle{\\frac{1}{\\sqrt{2\\pi y}}}e^{-\\frac{(\\ln y)^{2}}{2}},\\;\\;y\\leq 0\\end{array}\\end{aligned}</span>"
         }
       ],
       "answer": "A",
       "answer_index": 0,
-      "analysis_html": "<img src=\"/static/generated/assets/probability/ch037/q0018_analysis.png\"/>"
+      "analysis_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{aligned} &amp; \\text{设 } F_{y}(y), f_{y}(y) \\text{分别为随机变量 } y \\text{的分布函数和概率密度函数，则当 } y \\leq 0 \\text{时，有} \\\\ &amp; \\qquad F_{y}(y) = P\\{Y \\leq y\\} = P\\{e^{y} \\leq y\\} = P\\{\\varnothing\\} = 0. \\\\ &amp; \\text{当 } y &gt; 0 \\text{时，因为 } g(x) = e^{x} \\text{是 } x \\text{的概率单调增函数，所以有} \\\\ &amp; \\qquad \\{e^{x} \\leq y\\} = \\{X \\leq \\ln y\\}, \\\\ &amp; \\text{因而 } F_{y}(y) = P\\{Y \\leq y\\} = P\\{e^{x} \\leq y\\} = P\\{X \\leq \\ln y\\} = \\frac{1}{\\sqrt{2\\pi}} \\int_{-\\infty}^{\\ln y} e^{-\\frac{x^{2}}{2}} dx. \\\\ &amp; \\text{再由 } f_{y}(y) = F_{y}(y), \\text{得：} \\quad f_{y}(y) = \\begin{cases} \\frac{1}{\\sqrt{2\\pi y}} e^{-\\frac{(\\ln y)^{2}}{2}}, &amp; y &gt; 0, \\\\ 0, &amp; y \\leq 0. \\end{cases} \\\\ &amp; \\text{通常称上式中的 } y \\text{服从对数正态分布，它也是一种常用寿命分布.} \\end{aligned}\">\\begin{aligned} &amp; \\text{设 } F_{y}(y), f_{y}(y) \\text{分别为随机变量 } y \\text{的分布函数和概率密度函数，则当 } y \\leq 0 \\text{时，有} \\\\ &amp; \\qquad F_{y}(y) = P\\{Y \\leq y\\} = P\\{e^{y} \\leq y\\} = P\\{\\varnothing\\} = 0. \\\\ &amp; \\text{当 } y &gt; 0 \\text{时，因为 } g(x) = e^{x} \\text{是 } x \\text{的概率单调增函数，所以有} \\\\ &amp; \\qquad \\{e^{x} \\leq y\\} = \\{X \\leq \\ln y\\}, \\\\ &amp; \\text{因而 } F_{y}(y) = P\\{Y \\leq y\\} = P\\{e^{x} \\leq y\\} = P\\{X \\leq \\ln y\\} = \\frac{1}{\\sqrt{2\\pi}} \\int_{-\\infty}^{\\ln y} e^{-\\frac{x^{2}}{2}} dx. \\\\ &amp; \\text{再由 } f_{y}(y) = F_{y}(y), \\text{得：} \\quad f_{y}(y) = \\begin{cases} \\frac{1}{\\sqrt{2\\pi y}} e^{-\\frac{(\\ln y)^{2}}{2}}, &amp; y &gt; 0, \\\\ 0, &amp; y \\leq 0. \\end{cases} \\\\ &amp; \\text{通常称上式中的 } y \\text{服从对数正态分布，它也是一种常用寿命分布.} \\end{aligned}</div>"
     },
     {
       "id": "q0019",
       "number": 19,
       "header": "#19-Easy",
       "difficulty": "Easy",
-      "prompt_html": "<img src=\"/static/generated/assets/probability/ch037/q0019_prompt.png\"/>",
+      "prompt_html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{设} \\ \\xi \\sim N(0,1), \\eta \\sim N(a, \\sigma^{2}) \\, , \\, \\text{则} \\ \\eta \\text{与} \\xi \\text{之间的关系是} \\, ( \\ ) .\">\\text{设} \\ \\xi \\sim N(0,1), \\eta \\sim N(a, \\sigma^{2}) \\, , \\, \\text{则} \\ \\eta \\text{与} \\xi \\text{之间的关系是} \\, ( \\ ) .</span>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/probability/ch037/q0019_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\eta = a + \\sigma \\xi\">\\eta = a + \\sigma \\xi</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/probability/ch037/q0019_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\eta = \\frac { \\xi - a } { \\sigma }\">\\eta = \\frac { \\xi - a } { \\sigma }</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/probability/ch037/q0019_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\eta = \\frac { \\xi - a } { \\sigma ^ { 2 } }\">\\eta = \\frac { \\xi - a } { \\sigma ^ { 2 } }</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/probability/ch037/q0019_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\eta = a + \\sigma ^ { 2 } \\check { \\zeta }\">\\eta = a + \\sigma ^ { 2 } \\check { \\zeta }</span>"
         }
       ],
       "answer": "A",
       "answer_index": 0,
-      "analysis_html": "<img src=\"/static/generated/assets/probability/ch037/q0019_analysis.png\"/>"
+      "analysis_html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{由正态分布的性质可知，若}\\,\\eta\\sim N(a,\\sigma^{2})\\,,\\,\\text{则}\\,\\frac{\\eta-a}{\\sigma}\\sim N(0,1)\\,,\\,\\text{故}\\,\\xi=\\frac{\\eta-a}{\\sigma}\\,,\\,\\text{即}\\,\\eta=a+\\sigma\\xi.\">\\text{由正态分布的性质可知，若}\\,\\eta\\sim N(a,\\sigma^{2})\\,,\\,\\text{则}\\,\\frac{\\eta-a}{\\sigma}\\sim N(0,1)\\,,\\,\\text{故}\\,\\xi=\\frac{\\eta-a}{\\sigma}\\,,\\,\\text{即}\\,\\eta=a+\\sigma\\xi.</span>"
     },
     {
       "id": "q0020",
       "number": 20,
       "header": "#20-Averge",
       "difficulty": "Averge",
-      "prompt_html": "<img src=\"/static/generated/assets/probability/ch037/q0020_prompt.png\"/>",
+      "prompt_html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{设连续型随机变量} \\xi \\text{的分布函数为} F(x) \\text{，则} \\eta = 1 - \\frac{1}{2} \\xi \\text{的分布函数为} ( ).\">\\text{设连续型随机变量} \\xi \\text{的分布函数为} F(x) \\text{，则} \\eta = 1 - \\frac{1}{2} \\xi \\text{的分布函数为} ( ).</span>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/probability/ch037/q0020_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\frac {1}{2} F (1 - \\frac {y}{2})\">\\frac {1}{2} F (1 - \\frac {y}{2})</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/probability/ch037/q0020_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"2 F ( 2 - 2 y )\">2 F ( 2 - 2 y )</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/probability/ch037/q0020_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\, 1 - F ( 2 - 2 y )\">\\, 1 - F ( 2 - 2 y )</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/probability/ch037/q0020_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"F(2-2y)\">F(2-2y)</span>"
         }
       ],
       "answer": "C",
       "answer_index": 2,
-      "analysis_html": "<img src=\"/static/generated/assets/probability/ch037/q0020_analysis.png\"/>"
+      "analysis_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{aligned}F_{\\eta}(y) &amp; = P\\{\\eta \\leq y\\} = P\\{1-\\frac{1}{2}\\xi \\leq y\\} \\\\&amp; = P\\{\\xi \\geq 2-2y\\} = 1-P\\{\\xi\\} &lt; 2-2y\\} \\\\&amp; = 1-F(2-2y)\\,.\\end{aligned}\">\\begin{aligned}F_{\\eta}(y) &amp; = P\\{\\eta \\leq y\\} = P\\{1-\\frac{1}{2}\\xi \\leq y\\} \\\\&amp; = P\\{\\xi \\geq 2-2y\\} = 1-P\\{\\xi\\} &lt; 2-2y\\} \\\\&amp; = 1-F(2-2y)\\,.\\end{aligned}</div>"
     },
     {
       "id": "q0021",
       "number": 21,
       "header": "#21-Easy",
       "difficulty": "Easy",
-      "prompt_html": "<img src=\"/static/generated/assets/probability/ch037/q0021_prompt.png\"/>",
+      "prompt_html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{设 } \\xi \\sim N(0,1)\\,,\\,\\,\\,\\eta = 2\\xi - 2\\,,\\,\\text{则 } \\eta \\sim ( \\,\\, )\\,.\">\\text{设 } \\xi \\sim N(0,1)\\,,\\,\\,\\,\\eta = 2\\xi - 2\\,,\\,\\text{则 } \\eta \\sim ( \\,\\, )\\,.</span>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/probability/ch037/q0021_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"N(-2, 4)\">N(-2, 4)</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/probability/ch037/q0021_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"N (0, 1)\">N (0, 1)</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/probability/ch037/q0021_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"N(-1, 4)\">N(-1, 4)</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/probability/ch037/q0021_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\cdot N(-2,1)\">\\cdot N(-2,1)</span>"
         }
       ],
       "answer": "A",
       "answer_index": 0,
-      "analysis_html": "<img src=\"/static/generated/assets/probability/ch037/q0021_analysis.png\"/>"
+      "analysis_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{aligned}&amp;\\text{若}X\\sim N(\\mu,\\sigma^2)\\text{，则}\\xi=\\frac{X-\\mu}{\\sigma}\\sim N(0,1)\\,.\\quad\\\\&amp;\\text{反之，若}\\xi\\sim N(0,1)\\text{，}\\ \\eta=\\sigma\\xi+\\mu\\text{，则}\\eta\\sim N(\\mu,\\sigma^2)\\,.\\quad\\\\&amp;\\text{故}\\eta=2\\xi-2\\sim N(-2,4)\\,.\\end{aligned}\">\\begin{aligned}&amp;\\text{若}X\\sim N(\\mu,\\sigma^2)\\text{，则}\\xi=\\frac{X-\\mu}{\\sigma}\\sim N(0,1)\\,.\\quad\\\\&amp;\\text{反之，若}\\xi\\sim N(0,1)\\text{，}\\ \\eta=\\sigma\\xi+\\mu\\text{，则}\\eta\\sim N(\\mu,\\sigma^2)\\,.\\quad\\\\&amp;\\text{故}\\eta=2\\xi-2\\sim N(-2,4)\\,.\\end{aligned}</div>"
     },
     {
       "id": "q0022",
       "number": 22,
       "header": "#22-Easy",
       "difficulty": "Easy",
-      "prompt_html": "<img src=\"/static/generated/assets/probability/ch037/q0022_prompt.png\"/>",
+      "prompt_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{array}{l} \\text{设随机变量}\\xi \\text{服从正态分布}N(1,4),\\ \\eta=f(\\xi)\\text{服从标准正态分布，则}f(\\xi)=().\\end{array}\">\\begin{array}{l} \\text{设随机变量}\\xi \\text{服从正态分布}N(1,4),\\ \\eta=f(\\xi)\\text{服从标准正态分布，则}f(\\xi)=().\\end{array}</div>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/probability/ch037/q0022_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\frac {\\xi - 1}{2}\">\\frac {\\xi - 1}{2}</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/probability/ch037/q0022_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\frac {\\xi - 1}{4}\">\\frac {\\xi - 1}{4}</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/probability/ch037/q0022_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\frac {\\xi - 1}{3}\">\\frac {\\xi - 1}{3}</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/probability/ch037/q0022_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\scriptstyle 3 \\xi + 1\">\\scriptstyle 3 \\xi + 1</span>"
         }
       ],
       "answer": "A",
       "answer_index": 0,
-      "analysis_html": "<img src=\"/static/generated/assets/probability/ch037/q0022_analysis.png\"/>"
+      "analysis_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{aligned}\\text{若}X\\sim N(\\mu,\\sigma^2)\\text{，则}\\eta&amp;=\\frac{X-\\mu}{\\sigma^2}\\sim N(0,1)\\text{，故}\\\\ \\xi&amp;\\sim N(1,4)\\!\\!\\to\\!\\!\\frac{\\xi-1}{2}\\sim N(0,1)\\,.\\end{aligned}\">\\begin{aligned}\\text{若}X\\sim N(\\mu,\\sigma^2)\\text{，则}\\eta&amp;=\\frac{X-\\mu}{\\sigma^2}\\sim N(0,1)\\text{，故}\\\\ \\xi&amp;\\sim N(1,4)\\!\\!\\to\\!\\!\\frac{\\xi-1}{2}\\sim N(0,1)\\,.\\end{aligned}</div>"
     },
     {
       "id": "q0023",
       "number": 23,
       "header": "#23-Easy",
       "difficulty": "Easy",
-      "prompt_html": "<img src=\"/static/generated/assets/probability/ch037/q0023_prompt.png\"/>",
+      "prompt_html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{设随机变量}X \\text{服从}[a,b] \\text{上的均匀分布，令}Y=cX+d(c\\neq 0), \\text{关于随机变量}Y \\text{的密度函数正确的是( ).}\">\\text{设随机变量}X \\text{服从}[a,b] \\text{上的均匀分布，令}Y=cX+d(c\\neq 0), \\text{关于随机变量}Y \\text{的密度函数正确的是( ).}</span>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/probability/ch037/q0023_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{当}c&lt;0\\text{时，}\\ f_{y}(y)=\\begin{cases}-\\dfrac{1}{c(b-a)},\\ cb+d\\leq y\\leq ca+d\\\\ \\qquad\\qquad1,\\qquad\\text{其它}\\end{cases}.\">\\text{当}c&lt;0\\text{时，}\\ f_{y}(y)=\\begin{cases}-\\dfrac{1}{c(b-a)},\\ cb+d\\leq y\\leq ca+d\\\\ \\qquad\\qquad1,\\qquad\\text{其它}\\end{cases}.</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/probability/ch037/q0023_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{.当}c\\geq 0\\text{时，}\\ f_{Y}(y)=\\{\\begin{array}{cc}-\\frac{1}{c(b-a)},&amp;cb+d\\leq y\\leq ca+d\\\\0,&amp;\\text{其它}\\end{array}.\">\\text{.当}c\\geq 0\\text{时，}\\ f_{Y}(y)=\\{\\begin{array}{cc}-\\frac{1}{c(b-a)},&amp;cb+d\\leq y\\leq ca+d\\\\0,&amp;\\text{其它}\\end{array}.</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/probability/ch037/q0023_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{当 } c &gt; 0 \\text{ 时，} \\ f_{y}(y) = \\begin{cases} \\dfrac{1}{c(b-a)}, \\ c a + d \\leq y \\leq c b + d, \\\\ \\quad \\quad \\quad 0, \\quad \\quad \\text{其它} \\end{cases}\">\\text{当 } c &gt; 0 \\text{ 时，} \\ f_{y}(y) = \\begin{cases} \\dfrac{1}{c(b-a)}, \\ c a + d \\leq y \\leq c b + d, \\\\ \\quad \\quad \\quad 0, \\quad \\quad \\text{其它} \\end{cases}</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/probability/ch037/q0023_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{当}c\\leq 0\\text{时，}\\ f_{y}(y)=\\begin{cases}\\displaystyle\\frac{1}{c(b-a)},\\ ca+d\\leq y\\leq cb+d\\\\ \\quad\\quad\\quad0,\\qquad\\text{其它}\\end{cases},\">\\text{当}c\\leq 0\\text{时，}\\ f_{y}(y)=\\begin{cases}\\displaystyle\\frac{1}{c(b-a)},\\ ca+d\\leq y\\leq cb+d\\\\ \\quad\\quad\\quad0,\\qquad\\text{其它}\\end{cases},</span>"
         }
       ],
       "answer": "C",
       "answer_index": 2,
-      "analysis_html": "<img src=\"/static/generated/assets/probability/ch037/q0023_analysis.png\"/>"
+      "analysis_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{aligned}f_{Y}(y)&amp;=\\begin{cases}f_{Y}\\left(\\dfrac{y-d}{c}\\right)\\cdot \\dfrac{1}{|c|},\\ a\\leq \\dfrac{y-d}{c}\\leq b\\\\0,\\qquad\\quad\\text{其它}\\end{cases},\\\\ \\text{当}c&gt;0\\text{时，}f_{Y}(y)&amp;=\\begin{cases}\\dfrac{1}{c(b-a)},\\ ca+d\\leq y\\leq cb+d\\\\0,\\qquad\\quad\\text{其它}\\end{cases},\\\\ \\text{当}c&lt;0\\text{时，}f_{Y}(y)&amp;=\\begin{cases}-\\dfrac{1}{c(b-a)},\\ cb+d\\leq y\\leq ca+d\\\\0,\\qquad\\quad\\text{其它}\\end{cases}.\\end{aligned}\">\\begin{aligned}f_{Y}(y)&amp;=\\begin{cases}f_{Y}\\left(\\dfrac{y-d}{c}\\right)\\cdot \\dfrac{1}{|c|},\\ a\\leq \\dfrac{y-d}{c}\\leq b\\\\0,\\qquad\\quad\\text{其它}\\end{cases},\\\\ \\text{当}c&gt;0\\text{时，}f_{Y}(y)&amp;=\\begin{cases}\\dfrac{1}{c(b-a)},\\ ca+d\\leq y\\leq cb+d\\\\0,\\qquad\\quad\\text{其它}\\end{cases},\\\\ \\text{当}c&lt;0\\text{时，}f_{Y}(y)&amp;=\\begin{cases}-\\dfrac{1}{c(b-a)},\\ cb+d\\leq y\\leq ca+d\\\\0,\\qquad\\quad\\text{其它}\\end{cases}.\\end{aligned}</div>"
     },
     {
       "id": "q0024",
       "number": 24,
       "header": "#24-Averge",
       "difficulty": "Averge",
-      "prompt_html": "<img src=\"/static/generated/assets/probability/ch037/q0024_prompt.png\"/>",
+      "prompt_html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{若随机变量} \\, \\xi \\text{的概率密度为} \\, \\varphi ( x ) \\, , \\text{则随机变量} \\, \\eta = 3 \\xi + 1 \\text{的概率密度} \\, ( \\ ) \\, .\">\\text{若随机变量} \\, \\xi \\text{的概率密度为} \\, \\varphi ( x ) \\, , \\text{则随机变量} \\, \\eta = 3 \\xi + 1 \\text{的概率密度} \\, ( \\ ) \\, .</span>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/probability/ch037/q0024_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\psi (y) = \\frac {1}{3} \\varphi \\bigg ( \\frac {y - 1}{3} \\bigg )\">\\psi (y) = \\frac {1}{3} \\varphi \\bigg ( \\frac {y - 1}{3} \\bigg )</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/probability/ch037/q0024_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\psi (y) = 3 \\varphi \\left( \\frac {y - 1}{3} \\right)\">\\psi (y) = 3 \\varphi \\left( \\frac {y - 1}{3} \\right)</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/probability/ch037/q0024_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\psi (y) = 3 \\varphi \\bigl ( 3 y + 1 \\bigr )\">\\psi (y) = 3 \\varphi \\bigl ( 3 y + 1 \\bigr )</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/probability/ch037/q0024_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\psi (y) = \\frac {1}{3} \\varphi \\bigl (3 y + 1 \\bigr)\">\\psi (y) = \\frac {1}{3} \\varphi \\bigl (3 y + 1 \\bigr)</span>"
         }
       ],
       "answer": "A",
       "answer_index": 0,
-      "analysis_html": "<img src=\"/static/generated/assets/probability/ch037/q0024_analysis.png\"/>"
+      "analysis_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{aligned}&amp; \\text{设随机变量}X \\text{有密度函数}f_{X}(y),\\ Y=g(X) \\text{是连续的随机变量},\\ y=g(x) \\text{是严格单调函数，其反函数为} \\\\&amp; \\quad x=h(y), \\text{则随机变量}Y \\text{的概率密度为}f_{Y}(y)=f_{X}(h(y))|h&#x27;(y)\\,.\\\\&amp; \\text{所以}\\ \\ \\varphi_{n}(y)=\\varphi_{z}(h(y))|h&#x27;(y)=\\varphi(\\frac{y-1}{3}),\\frac{1}{3}\\,.\\end{aligned}\">\\begin{aligned}&amp; \\text{设随机变量}X \\text{有密度函数}f_{X}(y),\\ Y=g(X) \\text{是连续的随机变量},\\ y=g(x) \\text{是严格单调函数，其反函数为} \\\\&amp; \\quad x=h(y), \\text{则随机变量}Y \\text{的概率密度为}f_{Y}(y)=f_{X}(h(y))|h&#x27;(y)\\,.\\\\&amp; \\text{所以}\\ \\ \\varphi_{n}(y)=\\varphi_{z}(h(y))|h&#x27;(y)=\\varphi(\\frac{y-1}{3}),\\frac{1}{3}\\,.\\end{aligned}</div>"
     },
     {
       "id": "q0025",
       "number": 25,
       "header": "#25-Easy",
       "difficulty": "Easy",
-      "prompt_html": "<img src=\"/static/generated/assets/probability/ch037/q0025_prompt.png\"/>",
+      "prompt_html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{若} \\, \\xi \\text{服从} [0,1] \\text{上的均匀分布，} \\, \\eta = 2 \\xi + 1 \\, , \\text{则} (\\, ).\">\\text{若} \\, \\xi \\text{服从} [0,1] \\text{上的均匀分布，} \\, \\eta = 2 \\xi + 1 \\, , \\text{则} (\\, ).</span>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/probability/ch037/q0025_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\eta \\text{也服从} [ 1 , 3 ] \\text{上的均匀分布}\">\\eta \\text{也服从} [ 1 , 3 ] \\text{上的均匀分布}</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/probability/ch037/q0025_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\eta \\text{也服从} [ 0 , 1 ] \\text{上的均匀分布}\">\\eta \\text{也服从} [ 0 , 1 ] \\text{上的均匀分布}</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/probability/ch037/q0025_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\eta{\\text{也服从从}}[-{\\frac{1}{2}},0]{\\text{上的均匀分布}}\">\\eta{\\text{也服从从}}[-{\\frac{1}{2}},0]{\\text{上的均匀分布}}</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/probability/ch037/q0025_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\eta \\text{不服从任何区间上的均匀分布}\">\\eta \\text{不服从任何区间上的均匀分布}</span>"
         }
       ],
       "answer": "A",
       "answer_index": 0,
-      "analysis_html": "<img src=\"/static/generated/assets/probability/ch037/q0025_analysis.png\"/>"
+      "analysis_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{aligned} \\text{因为}\\eta \\text{是}\\zeta \\text{的线性函数，所以有} \\\\ f_\\eta(y)=f_\\zeta(x(y))|x&#x27;(y)|&amp;=\\begin{cases} |1-\\frac{1}{2}|, &amp; 0\\leq \\frac{y-1}{2}\\leq 1 \\\\ &amp; 0, \\text{其它} \\end{cases} \\\\ &amp;=\\begin{cases} \\frac{1}{2}, &amp; 1\\leq y\\leq 3 \\\\ &amp; 0, \\text{其它} \\end{cases}.\\end{aligned}\">\\begin{aligned} \\text{因为}\\eta \\text{是}\\zeta \\text{的线性函数，所以有} \\\\ f_\\eta(y)=f_\\zeta(x(y))|x&#x27;(y)|&amp;=\\begin{cases} |1-\\frac{1}{2}|, &amp; 0\\leq \\frac{y-1}{2}\\leq 1 \\\\ &amp; 0, \\text{其它} \\end{cases} \\\\ &amp;=\\begin{cases} \\frac{1}{2}, &amp; 1\\leq y\\leq 3 \\\\ &amp; 0, \\text{其它} \\end{cases}.\\end{aligned}</div>"
     },
     {
       "id": "q0026",
       "number": 26,
       "header": "#26-Easy",
       "difficulty": "Easy",
-      "prompt_html": "<img src=\"/static/generated/assets/probability/ch037/q0026_prompt.png\"/>",
+      "prompt_html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{设 } \\xi \\sim N ( a , \\sigma ^ { 2 } ) , \\eta \\sim N ( 0 , 1 ) \\, , \\text{ 则 } \\eta \\text{与} \\xi \\text{的关系为( ).}\">\\text{设 } \\xi \\sim N ( a , \\sigma ^ { 2 } ) , \\eta \\sim N ( 0 , 1 ) \\, , \\text{ 则 } \\eta \\text{与} \\xi \\text{的关系为( ).}</span>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/probability/ch037/q0026_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\eta = \\frac { \\xi - a } { \\sigma }\">\\eta = \\frac { \\xi - a } { \\sigma }</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/probability/ch037/q0026_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\eta = \\frac { \\xi - a } { \\sigma ^ { 2 } }\">\\eta = \\frac { \\xi - a } { \\sigma ^ { 2 } }</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/probability/ch037/q0026_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\eta = a \\xi + \\sigma\">\\eta = a \\xi + \\sigma</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/probability/ch037/q0026_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\eta = \\frac{\\xi}{\\sigma} + a\">\\eta = \\frac{\\xi}{\\sigma} + a</span>"
         }
       ],
       "answer": "A",
       "answer_index": 0,
-      "analysis_html": "<img src=\"/static/generated/assets/probability/ch037/q0026_analysis.png\"/>"
+      "analysis_html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{由正态分布的性质可知，若}\\ \\xi\\sim N(a,\\sigma^{2}),\\ \\text{则}\\ \\frac{\\xi-a}{\\sigma}\\sim N(0,1),\\ \\text{故}\\ \\eta=\\frac{\\xi-a}{\\sigma}.\">\\text{由正态分布的性质可知，若}\\ \\xi\\sim N(a,\\sigma^{2}),\\ \\text{则}\\ \\frac{\\xi-a}{\\sigma}\\sim N(0,1),\\ \\text{故}\\ \\eta=\\frac{\\xi-a}{\\sigma}.</span>"
     },
     {
       "id": "q0027",
       "number": 27,
       "header": "#27-Easy",
       "difficulty": "Easy",
-      "prompt_html": "<img src=\"/static/generated/assets/probability/ch037/q0027_prompt.png\"/>",
+      "prompt_html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{设随机变量} \\zeta \\text{服从} N( \\mu , \\sigma ^ { 2 } ) , \\ ( \\sigma &gt; 0 ) \\text{分布，则} 2 \\zeta \\text{的概率密度是}( ).\">\\text{设随机变量} \\zeta \\text{服从} N( \\mu , \\sigma ^ { 2 } ) , \\ ( \\sigma &gt; 0 ) \\text{分布，则} 2 \\zeta \\text{的概率密度是}( ).</span>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/probability/ch037/q0027_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\begin{array}{c}f_{2\\zeta}(x)=\\displaystyle\\frac{1}{\\sqrt{2\\pi}(\\sigma)}e^{-(x-2\\mu)^{2}/(8\\sigma^{2})}\\end{array}\">\\begin{array}{c}f_{2\\zeta}(x)=\\displaystyle\\frac{1}{\\sqrt{2\\pi}(\\sigma)}e^{-(x-2\\mu)^{2}/(8\\sigma^{2})}\\end{array}</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/probability/ch037/q0027_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\begin{aligned}f_{2\\zeta}(x) = \\frac{1}{\\sqrt{2\\pi}} e^{-(x-2\\mu)^2/(8\\sigma^2)}\\end{aligned}\">\\begin{aligned}f_{2\\zeta}(x) = \\frac{1}{\\sqrt{2\\pi}} e^{-(x-2\\mu)^2/(8\\sigma^2)}\\end{aligned}</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/probability/ch037/q0027_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\begin{array}{c}f_{2\\zeta}(x)=\\displaystyle\\frac{1}{\\sqrt{2\\pi}(2\\sigma)}e^{-(x-2\\mu)^{2}/(8\\sigma^{2})}\\end{array}\">\\begin{array}{c}f_{2\\zeta}(x)=\\displaystyle\\frac{1}{\\sqrt{2\\pi}(2\\sigma)}e^{-(x-2\\mu)^{2}/(8\\sigma^{2})}\\end{array}</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/probability/ch037/q0027_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\begin{aligned}f_{2\\zeta}(x) = \\frac{1}{\\sqrt{2\\pi(\\sigma)}} e^{-(x-2\\mu)^{2}/(4\\sigma^{2})}\\end{aligned}\">\\begin{aligned}f_{2\\zeta}(x) = \\frac{1}{\\sqrt{2\\pi(\\sigma)}} e^{-(x-2\\mu)^{2}/(4\\sigma^{2})}\\end{aligned}</span>"
         }
       ],
       "answer": "C",
       "answer_index": 2,
-      "analysis_html": "<img src=\"/static/generated/assets/probability/ch037/q0027_analysis.png\"/>"
+      "analysis_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{aligned}&amp;\\text{正态随机变量}X\\sim N(\\mu,\\sigma^2),\\ Y=aX+b,\\ \\text{则}Y\\sim N(a\\mu+b,(a\\sigma)^2),\\ \\text{即}Y=aX+b\\text{的概率密度为}\\\\&amp;f_Y(y)=\\frac{1}{\\sqrt{2\\pi}(a\\sigma)}e^{-\\left(y-(a\\mu+b)^2\\right)[2(a\\sigma)^2]}.\\ \\\\&amp;\\text{所以，}2\\zeta\\text{在}\\xi\\sim N(\\mu,\\sigma^2)\\text{下的概率密度为}\\\\&amp;f_{2\\zeta}(x)=\\frac{1}{\\sqrt{2\\pi}(2\\sigma)}e^{-(x-2a)^2[2(2\\sigma)^2]}=\\frac{1}{\\sqrt{2\\pi}(2\\sigma)}e^{-(x-2a)^2(8\\sigma^2)}.\\end{aligned}\">\\begin{aligned}&amp;\\text{正态随机变量}X\\sim N(\\mu,\\sigma^2),\\ Y=aX+b,\\ \\text{则}Y\\sim N(a\\mu+b,(a\\sigma)^2),\\ \\text{即}Y=aX+b\\text{的概率密度为}\\\\&amp;f_Y(y)=\\frac{1}{\\sqrt{2\\pi}(a\\sigma)}e^{-\\left(y-(a\\mu+b)^2\\right)[2(a\\sigma)^2]}.\\ \\\\&amp;\\text{所以，}2\\zeta\\text{在}\\xi\\sim N(\\mu,\\sigma^2)\\text{下的概率密度为}\\\\&amp;f_{2\\zeta}(x)=\\frac{1}{\\sqrt{2\\pi}(2\\sigma)}e^{-(x-2a)^2[2(2\\sigma)^2]}=\\frac{1}{\\sqrt{2\\pi}(2\\sigma)}e^{-(x-2a)^2(8\\sigma^2)}.\\end{aligned}</div>"
     },
     {
       "id": "q0028",
       "number": 28,
       "header": "#28-Averge",
       "difficulty": "Averge",
-      "prompt_html": "<img src=\"/static/generated/assets/probability/ch037/q0028_prompt.png\"/>",
+      "prompt_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\text{设}\\,\\xi\\text{的分布密度为}\\,\\varphi(x)=\\begin{cases}3x^{2},\\ \\ 0\\leq x\\leq 1\\\\ 0,\\ \\ x&lt;0,x&gt;1\\end{cases},\\ \\eta=2\\xi\\text{的分布密度为}\\,\\varphi_{\\eta}(y)=(\\begin{array}{c} \\end{array}.\">\\text{设}\\,\\xi\\text{的分布密度为}\\,\\varphi(x)=\\begin{cases}3x^{2},\\ \\ 0\\leq x\\leq 1\\\\ 0,\\ \\ x&lt;0,x&gt;1\\end{cases},\\ \\eta=2\\xi\\text{的分布密度为}\\,\\varphi_{\\eta}(y)=(\\begin{array}{c} \\end{array}.</div>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/probability/ch037/q0028_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\varphi_{\\eta}(y)=\\{\\begin{array}{ll}{\\displaystyle{\\frac{3}{8}y^{2}},\\ 0\\leq y\\leq2}\\\\ {0,\\quad\\text{其它}}\\end{array}\">\\varphi_{\\eta}(y)=\\{\\begin{array}{ll}{\\displaystyle{\\frac{3}{8}y^{2}},\\ 0\\leq y\\leq2}\\\\ {0,\\quad\\text{其它}}\\end{array}</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/probability/ch037/q0028_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\varphi_{\\eta}(y) = \\begin{cases} \\displaystyle \\frac{8}{3} y^{2}, \\ 0 \\leq y \\leq 2 \\\\ \\\\ \\ 0, \\quad \\text{其它} \\end{cases}\">\\varphi_{\\eta}(y) = \\begin{cases} \\displaystyle \\frac{8}{3} y^{2}, \\ 0 \\leq y \\leq 2 \\\\ \\\\ \\ 0, \\quad \\text{其它} \\end{cases}</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/probability/ch037/q0028_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\varphi_{y}(y) = \\begin{cases} \\displaystyle \\frac{8}{3} y^{2}, \\ 0 \\leq y \\leq 1 \\\\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\end{cases}\">\\varphi_{y}(y) = \\begin{cases} \\displaystyle \\frac{8}{3} y^{2}, \\ 0 \\leq y \\leq 1 \\\\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\end{cases}</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/probability/ch037/q0028_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\varphi_{\\eta}(y)=\\begin{cases}\\displaystyle\\frac{3}{8}y^{2},\\;\\;0\\leq y\\leq1\\\\ \\quad0,\\quad\\text{其它}\\end{cases}\">\\varphi_{\\eta}(y)=\\begin{cases}\\displaystyle\\frac{3}{8}y^{2},\\;\\;0\\leq y\\leq1\\\\ \\quad0,\\quad\\text{其它}\\end{cases}</span>"
         }
       ],
       "answer": "A",
       "answer_index": 0,
-      "analysis_html": "<img src=\"/static/generated/assets/probability/ch037/q0028_analysis.png\"/>"
+      "analysis_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{aligned}\\text{设随机变量}X \\text{有密度函数}f_{x}(y),\\ Y=g(X) \\text{是连续的随机变量},\\ y=g(x) \\text{是严格单调函数，其反函数为}x=h(y), \\text{则随机变量}Y \\text{的概率密度为}f_{y}(y)=f_{x}(h(y))|h&#x27;(y)\\,.\\end{aligned}\">\\begin{aligned}\\text{设随机变量}X \\text{有密度函数}f_{x}(y),\\ Y=g(X) \\text{是连续的随机变量},\\ y=g(x) \\text{是严格单调函数，其反函数为}x=h(y), \\text{则随机变量}Y \\text{的概率密度为}f_{y}(y)=f_{x}(h(y))|h&#x27;(y)\\,.\\end{aligned}</div>\n<span class=\"latex-text\">所以</span>\n<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\varphi_{y}(y)=\\varphi_{x}(h(y))|h&#x27;(y)\\,=\\begin{cases} \\displaystyle \\frac{3}{2}(y)^{2}\\cdot \\frac{1}{2}, &amp; 0\\leq y\\leq 2 \\\\ 0, &amp; \\text{其它} \\end{cases}=\\begin{cases} \\displaystyle \\frac{3}{8}y^{2}, &amp; 0\\leq y\\leq 2 \\\\ 0, &amp; \\text{其它} \\end{cases}.\">\\varphi_{y}(y)=\\varphi_{x}(h(y))|h&#x27;(y)\\,=\\begin{cases} \\displaystyle \\frac{3}{2}(y)^{2}\\cdot \\frac{1}{2}, &amp; 0\\leq y\\leq 2 \\\\ 0, &amp; \\text{其它} \\end{cases}=\\begin{cases} \\displaystyle \\frac{3}{8}y^{2}, &amp; 0\\leq y\\leq 2 \\\\ 0, &amp; \\text{其它} \\end{cases}.</div>"
     },
     {
       "id": "q0029",
       "number": 29,
       "header": "#29-Averge",
       "difficulty": "Averge",
-      "prompt_html": "<img src=\"/static/generated/assets/probability/ch037/q0029_prompt.png\"/>",
+      "prompt_html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{设随机变量}X \\text{服从}(0,1)\\text{内的均匀分布，则随机变量}Y = X^{2} \\text{的概率密度在}(0,1)\\text{内为( }.\">\\text{设随机变量}X \\text{服从}(0,1)\\text{内的均匀分布，则随机变量}Y = X^{2} \\text{的概率密度在}(0,1)\\text{内为( }.</span>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/probability/ch037/q0029_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\frac {1}{\\sqrt {y}}\">\\frac {1}{\\sqrt {y}}</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/probability/ch037/q0029_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\frac { 2 } { \\sqrt { y } }\">\\frac { 2 } { \\sqrt { y } }</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/probability/ch037/q0029_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\frac { 1 } { 2 \\sqrt { y } }\">\\frac { 1 } { 2 \\sqrt { y } }</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/probability/ch037/q0029_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\frac {1}{\\sqrt {2 y}}\">\\frac {1}{\\sqrt {2 y}}</span>"
         }
       ],
       "answer": "C",
       "answer_index": 2,
-      "analysis_html": "<img src=\"/static/generated/assets/probability/ch037/q0029_analysis.png\"/>"
+      "analysis_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{aligned}&amp; \\text{设随机变量}\\lambda \\text{有密度函数}f_{\\lambda}(x),\\;Y=g(\\lambda)\\text{是连续的随机变量，}y=g(x)\\text{是严格单调函数，其反函数为}x=h(y),\\text{则随机变量}Y \\text{的概率密度为}f_{\\lambda}(y)=f_{\\lambda}(h(y))|h&#x27;(y)|.\\\\&amp; \\text{所以}\\;\\varphi_{\\varepsilon}(y)=\\varrho_{\\varepsilon}(h(y))|h&#x27;(y)|=\\begin{cases}1\\cdot|\\frac{1}{2\\sqrt{y}}|,\\;0&lt;y&lt;1\\\\0,\\quad\\text{其它}\\end{cases},\\\\&amp; \\text{故随机变量}Y=\\lambda^{2},\\text{在}(0,1)\\text{内的概率密度是}\\frac{1}{2\\sqrt{y}}\\;.\\end{aligned}\">\\begin{aligned}&amp; \\text{设随机变量}\\lambda \\text{有密度函数}f_{\\lambda}(x),\\;Y=g(\\lambda)\\text{是连续的随机变量，}y=g(x)\\text{是严格单调函数，其反函数为}x=h(y),\\text{则随机变量}Y \\text{的概率密度为}f_{\\lambda}(y)=f_{\\lambda}(h(y))|h&#x27;(y)|.\\\\&amp; \\text{所以}\\;\\varphi_{\\varepsilon}(y)=\\varrho_{\\varepsilon}(h(y))|h&#x27;(y)|=\\begin{cases}1\\cdot|\\frac{1}{2\\sqrt{y}}|,\\;0&lt;y&lt;1\\\\0,\\quad\\text{其它}\\end{cases},\\\\&amp; \\text{故随机变量}Y=\\lambda^{2},\\text{在}(0,1)\\text{内的概率密度是}\\frac{1}{2\\sqrt{y}}\\;.\\end{aligned}</div>"
     },
     {
       "id": "q0030",
       "number": 30,
       "header": "#30-Averge",
       "difficulty": "Averge",
-      "prompt_html": "<img src=\"/static/generated/assets/probability/ch037/q0030_prompt.png\"/>",
+      "prompt_html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{设随机变量} \\lambda \\text{的概率密度函数为} f(x) = \\frac{2}{\\pi(1+x^{2})},\\ x&gt;0, \\text{则} Y=\\ln X \\text{的概率密度函数为}().\">\\text{设随机变量} \\lambda \\text{的概率密度函数为} f(x) = \\frac{2}{\\pi(1+x^{2})},\\ x&gt;0, \\text{则} Y=\\ln X \\text{的概率密度函数为}().</span>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/probability/ch037/q0030_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\begin{aligned}f_{\\gamma}(y) = \\frac{2e^{\\gamma}}{\\pi (1 + 2e^{\\gamma})}\\end{aligned}\">\\begin{aligned}f_{\\gamma}(y) = \\frac{2e^{\\gamma}}{\\pi (1 + 2e^{\\gamma})}\\end{aligned}</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/probability/ch037/q0030_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\begin{array}{l} { r } { f _ { y } ( y ) = \\displaystyle { \\frac { 2 e ^ { - y } } { \\pi ( 1 + 2 e ^ { - y } ) } } } \\end{array}\">\\begin{array}{l} { r } { f _ { y } ( y ) = \\displaystyle { \\frac { 2 e ^ { - y } } { \\pi ( 1 + 2 e ^ { - y } ) } } } \\end{array}</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/probability/ch037/q0030_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\begin{aligned}f_{Y}(y) = \\frac{2e^{y}}{\\pi(1+e^{2y})}\\end{aligned}\">\\begin{aligned}f_{Y}(y) = \\frac{2e^{y}}{\\pi(1+e^{2y})}\\end{aligned}</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/probability/ch037/q0030_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\begin{array}{l} { r } { f _ { Y } ( y ) = \\displaystyle \\frac { 2 e ^ { - y } } { \\pi ( 1 + e ^ { - 2 y } ) } } \\end{array}\">\\begin{array}{l} { r } { f _ { Y } ( y ) = \\displaystyle \\frac { 2 e ^ { - y } } { \\pi ( 1 + e ^ { - 2 y } ) } } \\end{array}</span>"
         }
       ],
       "answer": "C",
       "answer_index": 2,
-      "analysis_html": "<img src=\"/static/generated/assets/probability/ch037/q0030_analysis.png\"/>"
+      "analysis_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{aligned} \\text{因为}y=\\ln x \\text{是严格单调增加函数，反函数为}x=e^x,\\ \\frac{dx}{dy}=e^y,\\ \\text{则}Y=\\ln \\chi \\text{的概率密度函数为} \\\\f_Y(y)=\\frac{2e^y}{\\pi(1+e^{2y})},\\ -\\infty&lt;y&lt;+\\infty.\\end{aligned}\">\\begin{aligned} \\text{因为}y=\\ln x \\text{是严格单调增加函数，反函数为}x=e^x,\\ \\frac{dx}{dy}=e^y,\\ \\text{则}Y=\\ln \\chi \\text{的概率密度函数为} \\\\f_Y(y)=\\frac{2e^y}{\\pi(1+e^{2y})},\\ -\\infty&lt;y&lt;+\\infty.\\end{aligned}</div>"
     },
     {
       "id": "q0031",
       "number": 31,
       "header": "#31-Easy",
       "difficulty": "Easy",
-      "prompt_html": "<img src=\"/static/generated/assets/probability/ch037/q0031_prompt.png\"/>",
+      "prompt_html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{设}\\,\\xi \\text{服从}N(0,1)\\text{，则}\\,\\eta=a\\xi+b\\text{服从正态分布}( ).\">\\text{设}\\,\\xi \\text{服从}N(0,1)\\text{，则}\\,\\eta=a\\xi+b\\text{服从正态分布}( ).</span>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/probability/ch037/q0031_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"N ( b , a ^ { 2 } )\">N ( b , a ^ { 2 } )</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/probability/ch037/q0031_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"N (a, b)\">N (a, b)</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/probability/ch037/q0031_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"N(a, b^{2})\">N(a, b^{2})</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/probability/ch037/q0031_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"N ( b , a )\">N ( b , a )</span>"
         }
       ],
       "answer": "A",
       "answer_index": 0,
-      "analysis_html": "<img src=\"/static/generated/assets/probability/ch037/q0031_analysis.png\"/>"
+      "analysis_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{aligned}&amp;\\text{由正态分布的性质可知，若}X\\sim N(\\mu,\\sigma^2)\\text{，则}X\\text{的线性函数}Y=aX+b\\sim N(a\\mu+b,(a\\sigma)^2)\\text{.}\\\\&amp;\\text{所以}\\eta\\sim N(b,a^2).\\end{aligned}\">\\begin{aligned}&amp;\\text{由正态分布的性质可知，若}X\\sim N(\\mu,\\sigma^2)\\text{，则}X\\text{的线性函数}Y=aX+b\\sim N(a\\mu+b,(a\\sigma)^2)\\text{.}\\\\&amp;\\text{所以}\\eta\\sim N(b,a^2).\\end{aligned}</div>"
     },
     {
       "id": "q0032",
       "number": 32,
       "header": "#32-Easy",
       "difficulty": "Easy",
-      "prompt_html": "<img src=\"/static/generated/assets/probability/ch037/q0032_prompt.png\"/>",
+      "prompt_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{array}{l} \\text {设} \\xi \\text {服从标准正态分布} N(0,1), \\text {则} \\eta = a \\xi + b \\text {的分布密度} \\varphi_{\\eta}(y) = (\\ ) . \\end{array}\">\\begin{array}{l} \\text {设} \\xi \\text {服从标准正态分布} N(0,1), \\text {则} \\eta = a \\xi + b \\text {的分布密度} \\varphi_{\\eta}(y) = (\\ ) . \\end{array}</div>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/probability/ch037/q0032_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\frac { 1 } { | a | } \\frac { 1 } { \\sqrt { 2 \\pi } } e ^ { - ( y - b ) ^ { 2 } / a ^ { 2 } }\">\\frac { 1 } { | a | } \\frac { 1 } { \\sqrt { 2 \\pi } } e ^ { - ( y - b ) ^ { 2 } / a ^ { 2 } }</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/probability/ch037/q0032_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\frac { 1 } { | a | } \\frac { 1 } { \\sqrt { 2 \\pi } } e ^ { - ( y - b ) ^ { 2 } / 2 a ^ { 2 } }\">\\frac { 1 } { | a | } \\frac { 1 } { \\sqrt { 2 \\pi } } e ^ { - ( y - b ) ^ { 2 } / 2 a ^ { 2 } }</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/probability/ch037/q0032_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\frac { 1 } { a } \\frac { 1 } { \\sqrt { 2 \\pi } } e ^ { - ( v - b ) ^ { 2 } / 2 a ^ { 2 } }\">\\frac { 1 } { a } \\frac { 1 } { \\sqrt { 2 \\pi } } e ^ { - ( v - b ) ^ { 2 } / 2 a ^ { 2 } }</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/probability/ch037/q0032_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\frac { 1 } { a } \\frac { 1 } { \\sqrt { 2 \\pi } } e ^ { - ( y - b ) ^ { 2 } / a ^ { 2 } }\">\\frac { 1 } { a } \\frac { 1 } { \\sqrt { 2 \\pi } } e ^ { - ( y - b ) ^ { 2 } / a ^ { 2 } }</span>"
         }
       ],
       "answer": "B",
       "answer_index": 1,
-      "analysis_html": "<img src=\"/static/generated/assets/probability/ch037/q0032_analysis.png\"/>"
+      "analysis_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{aligned}&amp; \\text{设随机变量}X \\text{有密度函数}f_{X}(x),\\ Y=g(X) \\text{是连续的随机变量},\\ y=g(x) \\text{是严格单调函数，其反函数为} \\\\&amp; \\quad x=h(y), \\text{则随机变量}Y \\text{的概率密度为}f_{Y}(y)=f_{X}(h(y))|h&#x27;(y)|. \\\\&amp; \\text{所以}\\quad \\varphi_{n}(y)=\\varphi_{z}(h(y))|h&#x27;(y)|=\\frac{1}{\\sqrt{2\\pi}}e^{-[(y-\\frac{y-b}{a})^{2}/2]}[\\frac{1}{a}=\\frac{1}{a\\sqrt{2\\pi}}e^{(y-\\frac{y}{a})^{2}/2a^{2}}.\\end{aligned}\">\\begin{aligned}&amp; \\text{设随机变量}X \\text{有密度函数}f_{X}(x),\\ Y=g(X) \\text{是连续的随机变量},\\ y=g(x) \\text{是严格单调函数，其反函数为} \\\\&amp; \\quad x=h(y), \\text{则随机变量}Y \\text{的概率密度为}f_{Y}(y)=f_{X}(h(y))|h&#x27;(y)|. \\\\&amp; \\text{所以}\\quad \\varphi_{n}(y)=\\varphi_{z}(h(y))|h&#x27;(y)|=\\frac{1}{\\sqrt{2\\pi}}e^{-[(y-\\frac{y-b}{a})^{2}/2]}[\\frac{1}{a}=\\frac{1}{a\\sqrt{2\\pi}}e^{(y-\\frac{y}{a})^{2}/2a^{2}}.\\end{aligned}</div>"
     },
     {
       "id": "q0033",
       "number": 33,
       "header": "#33-Averge",
       "difficulty": "Averge",
-      "prompt_html": "<img src=\"/static/generated/assets/probability/ch037/q0033_prompt.png\"/>",
+      "prompt_html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{设随机变量} \\zeta \\text{的概率密度为} \\varphi ( x ) , \\ \\eta = 1 - 2 \\zeta , \\text{则} \\eta \\text{的概率密度为} ( ) .\">\\text{设随机变量} \\zeta \\text{的概率密度为} \\varphi ( x ) , \\ \\eta = 1 - 2 \\zeta , \\text{则} \\eta \\text{的概率密度为} ( ) .</span>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/probability/ch037/q0033_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\frac { 1 } { 2 } \\varphi ( \\frac { 1 - y } { 2 } )\">\\frac { 1 } { 2 } \\varphi ( \\frac { 1 - y } { 2 } )</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/probability/ch037/q0033_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\begin{aligned}1-\\varphi(\\frac{1-y}{2})\\end{aligned}\">\\begin{aligned}1-\\varphi(\\frac{1-y}{2})\\end{aligned}</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/probability/ch037/q0033_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\begin{aligned}-\\varphi (\\frac{y-1}{2})\\end{aligned}\">\\begin{aligned}-\\varphi (\\frac{y-1}{2})\\end{aligned}</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/probability/ch037/q0033_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\, 2 \\varphi ( 1 - 2 y )\">\\, 2 \\varphi ( 1 - 2 y )</span>"
         }
       ],
       "answer": "A",
       "answer_index": 0,
-      "analysis_html": "<img src=\"/static/generated/assets/probability/ch037/q0033_analysis.png\"/>"
+      "analysis_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{aligned} \\text{因为}\\ \\eta \\text{是}\\zeta \\text{的线性函数，所以} \\\\\\phi(y)=\\varphi(x(y))|x&#x27;(y)|=\\frac{1}{2}\\varphi(\\frac{1-y}{2})\\;.\\end{aligned}\">\\begin{aligned} \\text{因为}\\ \\eta \\text{是}\\zeta \\text{的线性函数，所以} \\\\\\phi(y)=\\varphi(x(y))|x&#x27;(y)|=\\frac{1}{2}\\varphi(\\frac{1-y}{2})\\;.\\end{aligned}</div>"
     },
     {
       "id": "q0034",
       "number": 34,
       "header": "#34-Easy",
       "difficulty": "Easy",
-      "prompt_html": "<img src=\"/static/generated/assets/probability/ch037/q0034_prompt.png\"/>",
+      "prompt_html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{设} \\, \\xi \\text{服从} [0,1] \\text{上的均匀分布，} \\, \\eta = 1 - 2 \\xi \\, , \\text{则} \\, ( \\, ) .\">\\text{设} \\, \\xi \\text{服从} [0,1] \\text{上的均匀分布，} \\, \\eta = 1 - 2 \\xi \\, , \\text{则} \\, ( \\, ) .</span>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/probability/ch037/q0034_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\eta \\text{服从} [ - 1 , 1 ] \\text{上的均匀分布}\">\\eta \\text{服从} [ - 1 , 1 ] \\text{上的均匀分布}</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/probability/ch037/q0034_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\eta \\text{在} \\left(0, \\frac{1}{2} \\right) \\text{上服从均匀分布}\">\\eta \\text{在} \\left(0, \\frac{1}{2} \\right) \\text{上服从均匀分布}</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/probability/ch037/q0034_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\eta \\text{服从} [ 0 , 1 ] \\text{上的均匀分布}\">\\eta \\text{服从} [ 0 , 1 ] \\text{上的均匀分布}</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/probability/ch037/q0034_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\eta \\text{的密度函数} \\, \\varphi (y) = \\begin{cases} 0, &amp; \\quad -1 \\leq y \\leq 1 \\\\ 1, &amp; \\quad \\text{其它} \\end{cases}\">\\eta \\text{的密度函数} \\, \\varphi (y) = \\begin{cases} 0, &amp; \\quad -1 \\leq y \\leq 1 \\\\ 1, &amp; \\quad \\text{其它} \\end{cases}</span>"
         }
       ],
       "answer": "A",
       "answer_index": 0,
-      "analysis_html": "<img src=\"/static/generated/assets/probability/ch037/q0034_analysis.png\"/>"
+      "analysis_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{aligned} \\text{设随机变量} \\lambda \\text{有密度函数} f_{\\lambda}(y), \\ Y=g(\\lambda) \\text{是连续的随机变量}, \\ y=g(x) \\text{是严格单调且可导函数，其反函数为} \\\\ x=h(y), \\ \\text{则随机变量} y \\text{的概率密度为} f_{y}(y)=f_{\\lambda}(h(y))|h&#x27;(y)|. \\end{aligned} \\text{}\\text{所以} \\ f_{y}(y)=f_{\\lambda}(h(y))|h&#x27;(y)|=\\begin{cases} \\frac{1}{2}, &amp; -1\\leq y\\leq 1 \\\\ 0, &amp; \\text{其它} \\end{cases}.\">\\begin{aligned} \\text{设随机变量} \\lambda \\text{有密度函数} f_{\\lambda}(y), \\ Y=g(\\lambda) \\text{是连续的随机变量}, \\ y=g(x) \\text{是严格单调且可导函数，其反函数为} \\\\ x=h(y), \\ \\text{则随机变量} y \\text{的概率密度为} f_{y}(y)=f_{\\lambda}(h(y))|h&#x27;(y)|. \\end{aligned} \\text{}\\text{所以} \\ f_{y}(y)=f_{\\lambda}(h(y))|h&#x27;(y)|=\\begin{cases} \\frac{1}{2}, &amp; -1\\leq y\\leq 1 \\\\ 0, &amp; \\text{其它} \\end{cases}.</div>"
     },
     {
       "id": "q0035",
       "number": 35,
       "header": "#35-Averge",
       "difficulty": "Averge",
-      "prompt_html": "<img src=\"/static/generated/assets/probability/ch037/q0035_prompt.png\"/>",
+      "prompt_html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{设}X \\text{服从}[0,1]\\text{上的均匀分布，}Y=X^{2}+1，\\text{则}( ).\">\\text{设}X \\text{服从}[0,1]\\text{上的均匀分布，}Y=X^{2}+1，\\text{则}( ).</span>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/probability/ch037/q0035_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\begin{array}{l} { r } { P \\{ 0 \\leq Y \\leq 1 \\} = 0 } \\end{array}\">\\begin{array}{l} { r } { P \\{ 0 \\leq Y \\leq 1 \\} = 0 } \\end{array}</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/probability/ch037/q0035_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"Y \\text{也服从} [ 0 , 1 ] \\text{上的均匀分布}\">Y \\text{也服从} [ 0 , 1 ] \\text{上的均匀分布}</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/probability/ch037/q0035_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\begin{aligned}P\\{0 \\leq Y \\leq 1\\} = 1\\end{aligned}\">\\begin{aligned}P\\{0 \\leq Y \\leq 1\\} = 1\\end{aligned}</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/probability/ch037/q0035_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\gamma \\text{服从} [ 0 , 3 ] \\text{上的均匀分布}\">\\gamma \\text{服从} [ 0 , 3 ] \\text{上的均匀分布}</span>"
         }
       ],
       "answer": "A",
       "answer_index": 0,
-      "analysis_html": "<img src=\"/static/generated/assets/probability/ch037/q0035_analysis.png\"/>"
+      "analysis_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{aligned} \\text{因为在}[0,1]\\text{上}Y = X^2+1 \\text{是单调可导函数，故有} \\\\ f_Y(y) = f_X(x(y))|x&#x27;(y)| \\\\ = \\begin{cases} 1 \\cdot \\left| \\frac{1}{2\\sqrt{y-1}} \\right|, &amp; 0 &lt; \\sqrt{y-1} \\leq 1 \\\\ 0, &amp; \\text{其它} \\end{cases} = \\begin{cases} \\frac{1}{2\\sqrt{y-1}}, &amp; 1 &lt; y \\leq 2 \\\\ 0, &amp; \\text{其它} \\end{cases}.\\end{aligned}\">\\begin{aligned} \\text{因为在}[0,1]\\text{上}Y = X^2+1 \\text{是单调可导函数，故有} \\\\ f_Y(y) = f_X(x(y))|x&#x27;(y)| \\\\ = \\begin{cases} 1 \\cdot \\left| \\frac{1}{2\\sqrt{y-1}} \\right|, &amp; 0 &lt; \\sqrt{y-1} \\leq 1 \\\\ 0, &amp; \\text{其它} \\end{cases} = \\begin{cases} \\frac{1}{2\\sqrt{y-1}}, &amp; 1 &lt; y \\leq 2 \\\\ 0, &amp; \\text{其它} \\end{cases}.\\end{aligned}</div>"
     },
     {
       "id": "q0036",
       "number": 36,
       "header": "#36-Easy",
       "difficulty": "Easy",
-      "prompt_html": "<img src=\"/static/generated/assets/probability/ch037/q0036_prompt.png\"/>",
+      "prompt_html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\xi \\sim N(0,1), \\eta = 2 \\xi + 1, \\ \\text{则} \\ \\eta \\sim ( \\ \\ ).\">\\xi \\sim N(0,1), \\eta = 2 \\xi + 1, \\ \\text{则} \\ \\eta \\sim ( \\ \\ ).</span>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/probability/ch037/q0036_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"N ( 1 , 4 )\">N ( 1 , 4 )</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/probability/ch037/q0036_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"N(0, 1)\">N(0, 1)</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/probability/ch037/q0036_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"N ( 1 , 2 )\">N ( 1 , 2 )</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/probability/ch037/q0036_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"N(1, 3)\">N(1, 3)</span>"
         }
       ],
       "answer": "A",
       "answer_index": 0,
-      "analysis_html": "<img src=\"/static/generated/assets/probability/ch037/q0036_analysis.png\"/>"
+      "analysis_html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{正态分布性质：正态分布的线性函数仍服从正态分布}.\">\\text{正态分布性质：正态分布的线性函数仍服从正态分布}.</span>"
     },
     {
       "id": "q0037",
       "number": 37,
       "header": "#37-Averge",
       "difficulty": "Averge",
-      "prompt_html": "<img src=\"/static/generated/assets/probability/ch037/q0037_prompt.png\"/>",
+      "prompt_html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{若随机变量} \\zeta \\text{的概率密度是} \\varphi (x) \\text{，则随机变量} \\eta = \\zeta ^{3} \\text{的概率密度} \\varphi _{\\eta } (y) = ( \\ \\ ) \\, .\">\\text{若随机变量} \\zeta \\text{的概率密度是} \\varphi (x) \\text{，则随机变量} \\eta = \\zeta ^{3} \\text{的概率密度} \\varphi _{\\eta } (y) = ( \\ \\ ) \\, .</span>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/probability/ch037/q0037_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\frac { 1 } { 3 } \\frac { 1 } { \\sqrt [ 3 ] { y } } \\varphi ( \\sqrt [ 3 ] { y } ) \\; \\; ( y \\neq 0 )\">\\frac { 1 } { 3 } \\frac { 1 } { \\sqrt [ 3 ] { y } } \\varphi ( \\sqrt [ 3 ] { y } ) \\; \\; ( y \\neq 0 )</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/probability/ch037/q0037_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\frac { 1 } { 3 } \\frac { 1 } { \\sqrt { y ^ { 2 } } } \\varphi ( \\sqrt [ 3 ] { y } ) \\; \\; ( y \\neq 0 )\">\\frac { 1 } { 3 } \\frac { 1 } { \\sqrt { y ^ { 2 } } } \\varphi ( \\sqrt [ 3 ] { y } ) \\; \\; ( y \\neq 0 )</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/probability/ch037/q0037_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\frac{1}{3} \\frac{1}{\\sqrt[3]{y^2}} \\varphi(\\sqrt[3]{y}) \\ \\ (y \\neq 0)\">\\frac{1}{3} \\frac{1}{\\sqrt[3]{y^2}} \\varphi(\\sqrt[3]{y}) \\ \\ (y \\neq 0)</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/probability/ch037/q0037_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\frac { 1 } { 3 ^ { 3 } } \\frac { 1 } { \\sqrt { y ^ { 2 } } } \\varphi ( \\sqrt [ 3 ] { y } ) \\; \\; ( y \\neq 0 )\">\\frac { 1 } { 3 ^ { 3 } } \\frac { 1 } { \\sqrt { y ^ { 2 } } } \\varphi ( \\sqrt [ 3 ] { y } ) \\; \\; ( y \\neq 0 )</span>"
         }
       ],
       "answer": "C",
       "answer_index": 2,
-      "analysis_html": "<img src=\"/static/generated/assets/probability/ch037/q0037_analysis.png\"/>"
+      "analysis_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{aligned}&amp; \\text{设随机变量 } \\lambda \\text{ 有密度函数 } f_{\\lambda}(x), \\ Y=g(X) \\text{ 是连续的随机变量，} y=g(x) \\text{ 是严格单调函数，其反函数为} \\\\&amp; \\quad x=h(y), \\text{ 则随机变量 } Y \\text{ 的概率密度为 } f_{Y}(y)=f_{x}(h(y))|h&#x27;(y)|. \\\\&amp; \\text{所以 } \\varphi_{\\lambda}(y)=\\varphi_{\\xi}(h(y))|h&#x27;(y)|=\\varphi(\\sqrt[3]{y})\\frac{1}{3}\\frac{1}{\\sqrt[3]{y^{2}}}=\\varphi(\\sqrt[3]{y})\\frac{1}{3}\\frac{1}{\\sqrt[3]{y^{2}}}\\ (y\\neq 0).\\end{aligned}\">\\begin{aligned}&amp; \\text{设随机变量 } \\lambda \\text{ 有密度函数 } f_{\\lambda}(x), \\ Y=g(X) \\text{ 是连续的随机变量，} y=g(x) \\text{ 是严格单调函数，其反函数为} \\\\&amp; \\quad x=h(y), \\text{ 则随机变量 } Y \\text{ 的概率密度为 } f_{Y}(y)=f_{x}(h(y))|h&#x27;(y)|. \\\\&amp; \\text{所以 } \\varphi_{\\lambda}(y)=\\varphi_{\\xi}(h(y))|h&#x27;(y)|=\\varphi(\\sqrt[3]{y})\\frac{1}{3}\\frac{1}{\\sqrt[3]{y^{2}}}=\\varphi(\\sqrt[3]{y})\\frac{1}{3}\\frac{1}{\\sqrt[3]{y^{2}}}\\ (y\\neq 0).\\end{aligned}</div>"
     }
-  ]
+  ],
+  "format": "latex",
+  "source_md": "gl/2.4.2.1_连续函数情形(37题)/2.4.2.1_连续函数情形(37题).md"
 }

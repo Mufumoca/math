@@ -13,448 +13,450 @@
       "number": 1,
       "header": "#1-Averge",
       "difficulty": "Averge",
-      "prompt_html": "<img src=\"/static/generated/assets/probability/ch112/q0001_prompt.png\"/>",
+      "prompt_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{aligned} \\text{设电子元件的寿命时间}X(\\text{单位：}h)\\text{服从参数}\\lambda=0.0015\\text{的指数分布，今独立测试}n=6\\text{元件，记录它们的失效时间，则没有元件最后超过}3000\\,h\\text{的概率为( }\\ .). \\end{aligned}\">\\begin{aligned} \\text{设电子元件的寿命时间}X(\\text{单位：}h)\\text{服从参数}\\lambda=0.0015\\text{的指数分布，今独立测试}n=6\\text{元件，记录它们的失效时间，则没有元件最后超过}3000\\,h\\text{的概率为( }\\ .). \\end{aligned}</div>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/probability/ch112/q0001_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"0.93517\">0.93517</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/probability/ch112/q0001_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"0.92517\">0.92517</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/probability/ch112/q0001_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"0.83517\">0.83517</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/probability/ch112/q0001_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"0.53517\">0.53517</span>"
         }
       ],
       "answer": "A",
       "answer_index": 0,
-      "analysis_html": "<img src=\"/static/generated/assets/probability/ch112/q0001_analysis.png\"/>"
+      "analysis_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{aligned} \\text{总体}X \\text{的概率密度}f(x) &amp; = \\begin{cases} (0.0015)e^{-0.0015x}, &amp; x&gt;0 \\\\ \\qquad 0, &amp; \\text{其它} \\end{cases}, \\\\ \\text{分布函数}F(x) &amp; = \\begin{cases} 1-e^{-0.0015x}, &amp; x&gt;0 \\\\ \\qquad 0, &amp; \\text{其它} \\end{cases}, \\\\ \\text{没有元件最后超过}3000h &amp; = \\{\\text{最大顺序统计量}X_{(6)}&lt;3000\\}, \\\\ P\\{X_{(6)}&lt;3000\\} &amp; = [P\\{X&lt;3000\\}]^6 = [F(3000)]^6 \\\\ &amp; = [1-\\exp\\{-0.0015\\times 3000\\}]^6 = [1-\\exp\\{-4.5\\}]^6 \\\\ &amp; \\approx 0.93517. \\end{aligned}\">\\begin{aligned} \\text{总体}X \\text{的概率密度}f(x) &amp; = \\begin{cases} (0.0015)e^{-0.0015x}, &amp; x&gt;0 \\\\ \\qquad 0, &amp; \\text{其它} \\end{cases}, \\\\ \\text{分布函数}F(x) &amp; = \\begin{cases} 1-e^{-0.0015x}, &amp; x&gt;0 \\\\ \\qquad 0, &amp; \\text{其它} \\end{cases}, \\\\ \\text{没有元件最后超过}3000h &amp; = \\{\\text{最大顺序统计量}X_{(6)}&lt;3000\\}, \\\\ P\\{X_{(6)}&lt;3000\\} &amp; = [P\\{X&lt;3000\\}]^6 = [F(3000)]^6 \\\\ &amp; = [1-\\exp\\{-0.0015\\times 3000\\}]^6 = [1-\\exp\\{-4.5\\}]^6 \\\\ &amp; \\approx 0.93517. \\end{aligned}</div>"
     },
     {
       "id": "q0002",
       "number": 2,
       "header": "#2-Averge",
       "difficulty": "Averge",
-      "prompt_html": "<img src=\"/static/generated/assets/probability/ch112/q0002_prompt.png\"/>",
+      "prompt_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{array}{l} \\text{设总体} X \\sim B(1,p),\\ p \\text{为未知参数．设} X_{1},X_{2},\\cdots,X_{n} \\text{是来自该总体的样本，}\\overline{x} \\text{是它们的样本均值，则}\\\\ P\\{\\overline{X}=\\frac{k}{n}\\}=()\\ . \\end{array}\">\\begin{array}{l} \\text{设总体} X \\sim B(1,p),\\ p \\text{为未知参数．设} X_{1},X_{2},\\cdots,X_{n} \\text{是来自该总体的样本，}\\overline{x} \\text{是它们的样本均值，则}\\\\ P\\{\\overline{X}=\\frac{k}{n}\\}=()\\ . \\end{array}</div>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/probability/ch112/q0002_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\begin{aligned}C_{n}^{k}p^{k}(1-p)^{n-k}\\end{aligned}\">\\begin{aligned}C_{n}^{k}p^{k}(1-p)^{n-k}\\end{aligned}</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/probability/ch112/q0002_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"p\">p</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/probability/ch112/q0002_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\scriptstyle 1 - p\">\\scriptstyle 1 - p</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/probability/ch112/q0002_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\begin{array}{l} {l} C _ {n} ^ {k} (1 - p) ^ {k} p ^ {n - k} \\end{array}\">\\begin{array}{l} {l} C _ {n} ^ {k} (1 - p) ^ {k} p ^ {n - k} \\end{array}</span>"
         }
       ],
       "answer": "A",
       "answer_index": 0,
-      "analysis_html": "<img src=\"/static/generated/assets/probability/ch112/q0002_analysis.png\"/>"
+      "analysis_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{array}{l} \\text{因为} X \\text{服从参数为} p \\text{的} 0\\text{-}1 \\text{分布，所以} \\sum_{i=1}^{n} X_{i} \\sim B(n,p), \\text{故} P\\{\\overline{X}=\\frac{k}{n}\\}=P\\{\\sum_{i=1}^{n} X_{i}=k\\}=C_{n}^{k} p^{k}(1-p)^{n-k}. \\end{array}\">\\begin{array}{l} \\text{因为} X \\text{服从参数为} p \\text{的} 0\\text{-}1 \\text{分布，所以} \\sum_{i=1}^{n} X_{i} \\sim B(n,p), \\text{故} P\\{\\overline{X}=\\frac{k}{n}\\}=P\\{\\sum_{i=1}^{n} X_{i}=k\\}=C_{n}^{k} p^{k}(1-p)^{n-k}. \\end{array}</div>"
     },
     {
       "id": "q0003",
       "number": 3,
       "header": "#3-Easy",
       "difficulty": "Easy",
-      "prompt_html": "<img src=\"/static/generated/assets/probability/ch112/q0003_prompt.png\"/>",
+      "prompt_html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{设电子元件的寿命时间} X(\\text{单位：}h) \\text{服从参数} \\lambda=0.0015 \\text{的指数分布，今独立测试} n=6 \\text{元件，记录它们的失效时间，则没有元件在} 800\\,h \\text{之前失效的概率为}(\\quad).\">\\text{设电子元件的寿命时间} X(\\text{单位：}h) \\text{服从参数} \\lambda=0.0015 \\text{的指数分布，今独立测试} n=6 \\text{元件，记录它们的失效时间，则没有元件在} 800\\,h \\text{之前失效的概率为}(\\quad).</span>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/probability/ch112/q0003_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"0.000747\">0.000747</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/probability/ch112/q0003_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"0.000737\">0.000737</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/probability/ch112/q0003_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"0.000547\">0.000547</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/probability/ch112/q0003_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"0.000741\">0.000741</span>"
         }
       ],
       "answer": "A",
       "answer_index": 0,
-      "analysis_html": "<img src=\"/static/generated/assets/probability/ch112/q0003_analysis.png\"/>"
+      "analysis_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{aligned}&amp; \\text{总体}X \\text{的概率密度}f(x)=\\left\\{\\begin{matrix}(0.0015)e^{-0.0015x},\\ x&gt;0\\\\0,\\qquad\\text{其它}\\end{matrix}\\right.,\\\\&amp; \\text{分布函数}F(x)=\\left\\{\\begin{matrix}1-e^{-0.0015x},\\ x&gt;0\\\\0,\\qquad\\text{其它}\\end{matrix}\\right.,\\\\&amp; \\{\\text{没有元件在}800h\\text{前失效}\\}=\\{\\text{最小顺序统计量}X_{(1)}&gt;800\\},\\ \\text{有}\\\\&amp; P\\{X_{(1)}&gt;800\\}=[P\\{X&gt;800\\}]^6=[1-F(800)]^6\\\\&amp; \\qquad=\\exp(-0.0015\\times 800\\times 6)=\\exp(-7.2)\\approx 0.000747.\\end{aligned}\">\\begin{aligned}&amp; \\text{总体}X \\text{的概率密度}f(x)=\\left\\{\\begin{matrix}(0.0015)e^{-0.0015x},\\ x&gt;0\\\\0,\\qquad\\text{其它}\\end{matrix}\\right.,\\\\&amp; \\text{分布函数}F(x)=\\left\\{\\begin{matrix}1-e^{-0.0015x},\\ x&gt;0\\\\0,\\qquad\\text{其它}\\end{matrix}\\right.,\\\\&amp; \\{\\text{没有元件在}800h\\text{前失效}\\}=\\{\\text{最小顺序统计量}X_{(1)}&gt;800\\},\\ \\text{有}\\\\&amp; P\\{X_{(1)}&gt;800\\}=[P\\{X&gt;800\\}]^6=[1-F(800)]^6\\\\&amp; \\qquad=\\exp(-0.0015\\times 800\\times 6)=\\exp(-7.2)\\approx 0.000747.\\end{aligned}</div>"
     },
     {
       "id": "q0004",
       "number": 4,
       "header": "#4-Averge",
       "difficulty": "Averge",
-      "prompt_html": "<img src=\"/static/generated/assets/probability/ch112/q0004_prompt.png\"/>",
+      "prompt_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{array}{ll}\\text{设母体}X\\text{服从自由度为}m\\text{的}\\chi^{2}(m)\\text{分布，其密度函数记为}\\varphi(x,m)\\text{，则其容量为}n\\text{的样本均值}\\overline{X}\\text{的密度函数为}().\\end{array}\">\\begin{array}{ll}\\text{设母体}X\\text{服从自由度为}m\\text{的}\\chi^{2}(m)\\text{分布，其密度函数记为}\\varphi(x,m)\\text{，则其容量为}n\\text{的样本均值}\\overline{X}\\text{的密度函数为}().\\end{array}</div>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/probability/ch112/q0004_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\varphi (n x, n m)\">\\varphi (n x, n m)</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/probability/ch112/q0004_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\displaystyle n \\varphi ( n x , n m )\">\\displaystyle n \\varphi ( n x , n m )</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/probability/ch112/q0004_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\displaystyle n \\varphi ( x , m )\">\\displaystyle n \\varphi ( x , m )</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/probability/ch112/q0004_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\frac{1}{n}\\varphi(nx,nm)\">\\frac{1}{n}\\varphi(nx,nm)</span>"
         }
       ],
       "answer": "B",
       "answer_index": 1,
-      "analysis_html": "<img src=\"/static/generated/assets/probability/ch112/q0004_analysis.png\"/>"
+      "analysis_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{aligned}&amp;\\text{由于}\\overline{X}=\\frac{1}{n}\\sum_{i=1}^{n}X_{i},\\text{且}X_{i}\\sim\\chi^{2}(m).\\text{由}\\chi^{2}\\text{分布的可加性，得}\\sum_{i=1}^{n}X_{i}\\sim\\chi^{2}(mn),\\text{即}\\sum_{i=1}^{n}X_{i}\\text{的密度函数为}\\varphi(x,nm).\\text{}\\\\&amp;\\text{根据随机变量函数分布的显示公式，得}\\overline{X}=\\frac{1}{n}\\sum_{i=1}^{n}X_{i}\\text{的密度函数为}n\\varphi(nx,nm).\\end{aligned}\">\\begin{aligned}&amp;\\text{由于}\\overline{X}=\\frac{1}{n}\\sum_{i=1}^{n}X_{i},\\text{且}X_{i}\\sim\\chi^{2}(m).\\text{由}\\chi^{2}\\text{分布的可加性，得}\\sum_{i=1}^{n}X_{i}\\sim\\chi^{2}(mn),\\text{即}\\sum_{i=1}^{n}X_{i}\\text{的密度函数为}\\varphi(x,nm).\\text{}\\\\&amp;\\text{根据随机变量函数分布的显示公式，得}\\overline{X}=\\frac{1}{n}\\sum_{i=1}^{n}X_{i}\\text{的密度函数为}n\\varphi(nx,nm).\\end{aligned}</div>"
     },
     {
       "id": "q0005",
       "number": 5,
       "header": "#5-Averge",
       "difficulty": "Averge",
-      "prompt_html": "<img src=\"/static/generated/assets/probability/ch112/q0005_prompt.png\"/>",
+      "prompt_html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\chi \\text{服从} 0-1 \\text{分布，有} P(X=1)=p=0.6，\\text{从中取出样本} (X_{1},X_{2})，\\text{则其极大统计的量期望} E(\\max\\{X_{1},X_{2}\\})=(\\ \\ ).\">\\chi \\text{服从} 0-1 \\text{分布，有} P(X=1)=p=0.6，\\text{从中取出样本} (X_{1},X_{2})，\\text{则其极大统计的量期望} E(\\max\\{X_{1},X_{2}\\})=(\\ \\ ).</span>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/probability/ch112/q0005_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"0.84\">0.84</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/probability/ch112/q0005_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"0.6\">0.6</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/probability/ch112/q0005_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"0.4\">0.4</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/probability/ch112/q0005_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"1\">1</span>"
         }
       ],
       "answer": "A",
       "answer_index": 0,
-      "analysis_html": "<img src=\"/static/generated/assets/probability/ch112/q0005_analysis.png\"/>"
+      "analysis_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{aligned} \\text{令}Y=\\max\\{X_1,X_2\\}\\,,\\,\\text{则}Y\\text{取值只有}0,1\\,,\\,\\text{于是}\\\\P\\{Y=0\\}=P\\{X_1=0,X_2=0\\}=P\\{X_1=0\\}\\cdot P\\{X_2=0\\}=0.16\\,,\\\\P\\{Y=1\\}=1-P\\{Y=0\\}=0.84\\,,\\\\ \\text{从而}E(Y)=E(\\max\\{X_1,X_2\\})=0.84\\,.\\end{aligned}\">\\begin{aligned} \\text{令}Y=\\max\\{X_1,X_2\\}\\,,\\,\\text{则}Y\\text{取值只有}0,1\\,,\\,\\text{于是}\\\\P\\{Y=0\\}=P\\{X_1=0,X_2=0\\}=P\\{X_1=0\\}\\cdot P\\{X_2=0\\}=0.16\\,,\\\\P\\{Y=1\\}=1-P\\{Y=0\\}=0.84\\,,\\\\ \\text{从而}E(Y)=E(\\max\\{X_1,X_2\\})=0.84\\,.\\end{aligned}</div>"
     },
     {
       "id": "q0006",
       "number": 6,
       "header": "#6-Averge",
       "difficulty": "Averge",
-      "prompt_html": "<img src=\"/static/generated/assets/probability/ch112/q0006_prompt.png\"/>",
+      "prompt_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{array}{l} \\text{设}X_{1},X_{2} \\text{是} 0-1 \\text{总体} \\xi \\text{的一个样本，其中} P(\\xi=1)=0.8, \\text{则极大统计量} \\eta=\\max\\left\\{X_{1},X_{2}\\right\\} \\text{的概率分布为( ).} \\end{array}\">\\begin{array}{l} \\text{设}X_{1},X_{2} \\text{是} 0-1 \\text{总体} \\xi \\text{的一个样本，其中} P(\\xi=1)=0.8, \\text{则极大统计量} \\eta=\\max\\left\\{X_{1},X_{2}\\right\\} \\text{的概率分布为( ).} \\end{array}</div>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/probability/ch112/q0006_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\begin{array}{l}\n\\begin{array}{|c|c|c|} \\hline \\eta &amp; 0 &amp; 1 \\\\ \\hline p_i &amp; 0.5 &amp; 0.5 \\\\ \\hline \\end{array}\n\\end{array}\">\\begin{array}{l}\n\\begin{array}{|c|c|c|} \\hline \\eta &amp; 0 &amp; 1 \\\\ \\hline p_i &amp; 0.5 &amp; 0.5 \\\\ \\hline \\end{array}\n\\end{array}</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/probability/ch112/q0006_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\begin{array}{l}\n\\begin{array}{|c|c|c|} \\hline \\eta &amp; 0 &amp; 1 \\\\ \\hline p_i &amp; 0.04 &amp; 0.96 \\\\ \\hline \\end{array}\n\\end{array}\">\\begin{array}{l}\n\\begin{array}{|c|c|c|} \\hline \\eta &amp; 0 &amp; 1 \\\\ \\hline p_i &amp; 0.04 &amp; 0.96 \\\\ \\hline \\end{array}\n\\end{array}</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/probability/ch112/q0006_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\begin{array}{l}\n\\begin{array}{|c|c|c|} \\hline \\eta &amp; 0 &amp; 1 \\\\ \\hline p_i &amp; 0.8 &amp; 0.2 \\\\ \\hline \\end{array}\n\\end{array}\">\\begin{array}{l}\n\\begin{array}{|c|c|c|} \\hline \\eta &amp; 0 &amp; 1 \\\\ \\hline p_i &amp; 0.8 &amp; 0.2 \\\\ \\hline \\end{array}\n\\end{array}</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/probability/ch112/q0006_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\begin{array}{l}\n\\begin{array}{|c|c|c|} \\hline \\eta &amp; 0 &amp; 1 \\\\ \\hline p_i &amp; 0.2 &amp; 0.8 \\\\ \\hline \\end{array}\n\\end{array}\">\\begin{array}{l}\n\\begin{array}{|c|c|c|} \\hline \\eta &amp; 0 &amp; 1 \\\\ \\hline p_i &amp; 0.2 &amp; 0.8 \\\\ \\hline \\end{array}\n\\end{array}</span>"
         }
       ],
       "answer": "B",
       "answer_index": 1,
-      "analysis_html": "<img src=\"/static/generated/assets/probability/ch112/q0006_analysis.png\"/>"
+      "analysis_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{aligned}\\eta \\text{只取} &amp; 0,1\\text{，且} \\\\P\\{\\eta=0\\} &amp;= P\\{X_1=0\\}\\cdot P\\{X_7=0\\} = 0.04\\,, \\\\P\\{\\eta=1\\} &amp;= 1-P\\{\\eta=0\\} = 0.96\\,.\\end{aligned}\">\\begin{aligned}\\eta \\text{只取} &amp; 0,1\\text{，且} \\\\P\\{\\eta=0\\} &amp;= P\\{X_1=0\\}\\cdot P\\{X_7=0\\} = 0.04\\,, \\\\P\\{\\eta=1\\} &amp;= 1-P\\{\\eta=0\\} = 0.96\\,.\\end{aligned}</div>"
     },
     {
       "id": "q0007",
       "number": 7,
       "header": "#7-Averge",
       "difficulty": "Averge",
-      "prompt_html": "<img src=\"/static/generated/assets/probability/ch112/q0007_prompt.png\"/>",
+      "prompt_html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{简单随机样本} X _ { 1 } , \\cdots , X _ { n } \\text{取自概率密度为} \\varphi ( x ) \\text{的总体，则有( ).}\">\\text{简单随机样本} X _ { 1 } , \\cdots , X _ { n } \\text{取自概率密度为} \\varphi ( x ) \\text{的总体，则有( ).}</span>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/probability/ch112/q0007_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\begin{aligned}X_i \\sim \\varphi(x) (i=1,2,\\cdots,n)\\end{aligned}\">\\begin{aligned}X_i \\sim \\varphi(x) (i=1,2,\\cdots,n)\\end{aligned}</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/probability/ch112/q0007_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\min (X _ { 1 } , X _ { 2 } , \\cdots , X _ { n } ) \\sim \\varphi ( x )\">\\min (X _ { 1 } , X _ { 2 } , \\cdots , X _ { n } ) \\sim \\varphi ( x )</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/probability/ch112/q0007_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\frac{1}{n} \\sum_{i=1}^{n} X_{i} \\sim \\varphi(x)\">\\frac{1}{n} \\sum_{i=1}^{n} X_{i} \\sim \\varphi(x)</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/probability/ch112/q0007_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\sum_{i=1}^{n}X_{i}\\text{与}\\sum_{i=1}^{n}X_{i}^{2}\\text{独立}\">\\sum_{i=1}^{n}X_{i}\\text{与}\\sum_{i=1}^{n}X_{i}^{2}\\text{独立}</span>"
         }
       ],
       "answer": "A",
       "answer_index": 0,
-      "analysis_html": "<img src=\"/static/generated/assets/probability/ch112/q0007_analysis.png\"/>"
+      "analysis_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{aligned}\\text{简单随机样本具有以下特征：} \\\\1.\\ \\text{代表性：} \\, X_1, X_2, \\cdots, X_n \\text{与所考察的总体具有相同的分布；} \\\\2.\\ \\text{独立性：} \\, X_1, X_2, \\cdots, X_n \\text{是相互独立的随机变量.}\\end{aligned}\">\\begin{aligned}\\text{简单随机样本具有以下特征：} \\\\1.\\ \\text{代表性：} \\, X_1, X_2, \\cdots, X_n \\text{与所考察的总体具有相同的分布；} \\\\2.\\ \\text{独立性：} \\, X_1, X_2, \\cdots, X_n \\text{是相互独立的随机变量.}\\end{aligned}</div>"
     },
     {
       "id": "q0008",
       "number": 8,
       "header": "#8-Averge",
       "difficulty": "Averge",
-      "prompt_html": "<img src=\"/static/generated/assets/probability/ch112/q0008_prompt.png\"/>",
+      "prompt_html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{样本}X_{1},\\cdots,X_{n}\\text{来自总体}\\xi,\\,\\xi\\text{有概率密度}\\varphi(x)\\text{及分布函数}F(x)\\text{，则以下结论不成立的是( )}.\">\\text{样本}X_{1},\\cdots,X_{n}\\text{来自总体}\\xi,\\,\\xi\\text{有概率密度}\\varphi(x)\\text{及分布函数}F(x)\\text{，则以下结论不成立的是( )}.</span>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/probability/ch112/q0008_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\begin{array}{l} X _ {n} \\text {与} \\max \\left\\{X _ {1}, \\dots , X _ {n} \\right\\} \\text {的分布相同} \\end{array}\">\\begin{array}{l} X _ {n} \\text {与} \\max \\left\\{X _ {1}, \\dots , X _ {n} \\right\\} \\text {的分布相同} \\end{array}</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/probability/ch112/q0008_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\begin{array}{l}X_{i}\\text{有概率密度}\\varphi(x),\\,i=1,2,\\cdots,n\\end{array}\">\\begin{array}{l}X_{i}\\text{有概率密度}\\varphi(x),\\,i=1,2,\\cdots,n\\end{array}</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/probability/ch112/q0008_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\begin{array}{l}X_{i}\\text{有分布函数}F(x),\\,i=1,2,\\cdots,n\\end{array}\">\\begin{array}{l}X_{i}\\text{有分布函数}F(x),\\,i=1,2,\\cdots,n\\end{array}</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/probability/ch112/q0008_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\max \\left\\{X_{1},\\, \\cdots, X_{n} \\right\\} \\text{的分布函数为} \\left[ F(x) \\right]^{n}\">\\max \\left\\{X_{1},\\, \\cdots, X_{n} \\right\\} \\text{的分布函数为} \\left[ F(x) \\right]^{n}</span>"
         }
       ],
       "answer": "A",
       "answer_index": 0,
-      "analysis_html": "<img src=\"/static/generated/assets/probability/ch112/q0008_analysis.png\"/>"
+      "analysis_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{aligned}&amp;\\text{样本具有两个性质：}\\\\&amp;1.\\text{代表性：}X_{1},X_{2},\\,\\cdots,X_{n}\\text{与所考察的总体具有相同的分布；}\\\\&amp;2.\\text{独立性：}X_{1},X_{2},\\,\\cdots,X_{n}\\text{是相互独立的随机变量.}\\\\&amp;P\\{\\max\\{X_{1},X_{2},\\cdots,X_{n}\\}\\leq y\\}=P\\{X_{1}\\leq y\\}.P\\{X_{2}\\leq y\\}\\cdots P\\{X_{n}\\leq y\\}=F^{\\circ}(y)\\,.\\end{aligned}\">\\begin{aligned}&amp;\\text{样本具有两个性质：}\\\\&amp;1.\\text{代表性：}X_{1},X_{2},\\,\\cdots,X_{n}\\text{与所考察的总体具有相同的分布；}\\\\&amp;2.\\text{独立性：}X_{1},X_{2},\\,\\cdots,X_{n}\\text{是相互独立的随机变量.}\\\\&amp;P\\{\\max\\{X_{1},X_{2},\\cdots,X_{n}\\}\\leq y\\}=P\\{X_{1}\\leq y\\}.P\\{X_{2}\\leq y\\}\\cdots P\\{X_{n}\\leq y\\}=F^{\\circ}(y)\\,.\\end{aligned}</div>"
     },
     {
       "id": "q0009",
       "number": 9,
       "header": "#9-Averge",
       "difficulty": "Averge",
-      "prompt_html": "<img src=\"/static/generated/assets/probability/ch112/q0009_prompt.png\"/>",
+      "prompt_html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{设总体} \\xi \\text{服从} 0{-}1 \\text{分布，且} P\\{\\xi=1\\}=0.6,\\, X_{1},X_{2} \\text{为} \\xi \\text{的一个样本，则} \\eta=\\min\\{X_{1},X_{2}\\} \\text{的概率分布为}().\">\\text{设总体} \\xi \\text{服从} 0{-}1 \\text{分布，且} P\\{\\xi=1\\}=0.6,\\, X_{1},X_{2} \\text{为} \\xi \\text{的一个样本，则} \\eta=\\min\\{X_{1},X_{2}\\} \\text{的概率分布为}().</span>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/probability/ch112/q0009_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\begin{array}{l}\n\\begin{array}{|c|c c|} \\hline \\eta &amp; 0 &amp; 1 \\\\ \\hline p &amp; 0.64 &amp; 0.36 \\\\ \\hline \\end{array}\n\\end{array}\">\\begin{array}{l}\n\\begin{array}{|c|c c|} \\hline \\eta &amp; 0 &amp; 1 \\\\ \\hline p &amp; 0.64 &amp; 0.36 \\\\ \\hline \\end{array}\n\\end{array}</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/probability/ch112/q0009_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\begin{array}{l}\n\\begin{array}{|c|c|c|} \\hline \\eta &amp; 0 &amp; 1 \\\\ \\hline p &amp; 0.5 &amp; 0.5 \\\\ \\hline \\end{array}\n\\end{array}\">\\begin{array}{l}\n\\begin{array}{|c|c|c|} \\hline \\eta &amp; 0 &amp; 1 \\\\ \\hline p &amp; 0.5 &amp; 0.5 \\\\ \\hline \\end{array}\n\\end{array}</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/probability/ch112/q0009_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\begin{array}{l}\n\\begin{array}{|c|c|c|} \\hline \\eta &amp; 0 &amp; 1 \\\\ \\hline p &amp; 0.4 &amp; 0.6 \\\\ \\hline \\end{array}\n\\end{array}\">\\begin{array}{l}\n\\begin{array}{|c|c|c|} \\hline \\eta &amp; 0 &amp; 1 \\\\ \\hline p &amp; 0.4 &amp; 0.6 \\\\ \\hline \\end{array}\n\\end{array}</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/probability/ch112/q0009_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\begin{array}{l}\n\\begin{array}{|c|c|c|} \\hline \\eta &amp; 0 &amp; 1 \\\\ \\hline p &amp; 0.6 &amp; 0.4 \\\\ \\hline \\end{array}\n\\end{array}\">\\begin{array}{l}\n\\begin{array}{|c|c|c|} \\hline \\eta &amp; 0 &amp; 1 \\\\ \\hline p &amp; 0.6 &amp; 0.4 \\\\ \\hline \\end{array}\n\\end{array}</span>"
         }
       ],
       "answer": "A",
       "answer_index": 0,
-      "analysis_html": "<img src=\"/static/generated/assets/probability/ch112/q0009_analysis.png\"/>"
+      "analysis_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{aligned} \\eta \\text{可取0和} 1, \\text{且} \\\\ P\\{\\eta=0\\} &amp;= P\\{X_1=0, X_2=0\\} \\\\ &amp;= P\\{X_1=0\\} \\cdot P\\{X_2=0\\} = 0.4 \\times 0.4 = 0.36 \\, , \\\\ P\\{\\eta=1\\} &amp;= P\\{(X_1=0, X_2=1) \\cup (X_1=1, X_2=0) \\cup (X_1=1, X_2=1)\\} \\\\ &amp;= P\\{X_1=0, X_2=1\\} + P\\{X_1=1, X_2=0\\} + P\\{X_1=1, X_2=1\\} \\\\ &amp;= 0.4 \\times 0.6 + 0.6 \\times 0.4 + 0.6 \\times 0.6 = 0.64 \\, . \\end{aligned}\">\\begin{aligned} \\eta \\text{可取0和} 1, \\text{且} \\\\ P\\{\\eta=0\\} &amp;= P\\{X_1=0, X_2=0\\} \\\\ &amp;= P\\{X_1=0\\} \\cdot P\\{X_2=0\\} = 0.4 \\times 0.4 = 0.36 \\, , \\\\ P\\{\\eta=1\\} &amp;= P\\{(X_1=0, X_2=1) \\cup (X_1=1, X_2=0) \\cup (X_1=1, X_2=1)\\} \\\\ &amp;= P\\{X_1=0, X_2=1\\} + P\\{X_1=1, X_2=0\\} + P\\{X_1=1, X_2=1\\} \\\\ &amp;= 0.4 \\times 0.6 + 0.6 \\times 0.4 + 0.6 \\times 0.6 = 0.64 \\, . \\end{aligned}</div>"
     },
     {
       "id": "q0010",
       "number": 10,
       "header": "#10-Averge",
       "difficulty": "Averge",
-      "prompt_html": "<img src=\"/static/generated/assets/probability/ch112/q0010_prompt.png\"/>",
+      "prompt_html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{设} \\ X_{1}, X_{2}, \\cdots , X_{n} \\text{是来自总体} X \\text{样本，} \\ E(X) = \\mu , \\ D(X) = \\sigma ^{2} , \\text{则以下结论正确的是( ).}\">\\text{设} \\ X_{1}, X_{2}, \\cdots , X_{n} \\text{是来自总体} X \\text{样本，} \\ E(X) = \\mu , \\ D(X) = \\sigma ^{2} , \\text{则以下结论正确的是( ).}</span>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/probability/ch112/q0010_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{其他选项都不正确}\">\\text{其他选项都不正确}</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/probability/ch112/q0010_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\frac{1}{n} \\sum_{i=1}^{n} X_{i} \\text{与} \\frac{1}{n} \\sum_{i=1}^{n} (X_{i} - \\overline{X})^{2} \\text{独立}\">\\frac{1}{n} \\sum_{i=1}^{n} X_{i} \\text{与} \\frac{1}{n} \\sum_{i=1}^{n} (X_{i} - \\overline{X})^{2} \\text{独立}</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/probability/ch112/q0010_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\begin{aligned}\\sum_{i=1}^{n} (\\frac{X_i - \\overline{X}}{\\sigma})^2 \\sim \\chi^2(n)\\end{aligned}\">\\begin{aligned}\\sum_{i=1}^{n} (\\frac{X_i - \\overline{X}}{\\sigma})^2 \\sim \\chi^2(n)\\end{aligned}</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/probability/ch112/q0010_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\begin{aligned}\\frac{\\sqrt{n-1}(\\frac{1}{n}\\sum_{i=1}^{n}X_{i}-\\mu)}{\\sqrt{\\sum_{i=1}^{n}(X_{i}-\\overline{X})^{2}}}\\sim t(n-1)\\end{aligned}\">\\begin{aligned}\\frac{\\sqrt{n-1}(\\frac{1}{n}\\sum_{i=1}^{n}X_{i}-\\mu)}{\\sqrt{\\sum_{i=1}^{n}(X_{i}-\\overline{X})^{2}}}\\sim t(n-1)\\end{aligned}</span>"
         }
       ],
       "answer": "A",
       "answer_index": 0,
-      "analysis_html": "<img src=\"/static/generated/assets/probability/ch112/q0010_analysis.png\"/>"
+      "analysis_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{aligned}&amp;\\frac{1}{n}\\sum_{i=1}^{n}X_{i}\\text{与}\\frac{1}{n}\\sum_{i=1}^{n}(X_{i}-\\bar{X})^{2}\\text{独立};\\\\&amp;\\sum_{i=1}^{n}\\frac{X_{i}-\\bar{X}}{\\sigma^{2}}\\sim\\chi^{2}(n-1),\\\\&amp;\\sqrt{n}\\frac{1}{n}\\sum_{i=1}^{n}X_{i}-\\mu)\\sim t(n-1).\\\\&amp;\\sqrt{\\sum_{i=1}^{n}(X_{i}-\\bar{X})^{2}}\\end{aligned}\">\\begin{aligned}&amp;\\frac{1}{n}\\sum_{i=1}^{n}X_{i}\\text{与}\\frac{1}{n}\\sum_{i=1}^{n}(X_{i}-\\bar{X})^{2}\\text{独立};\\\\&amp;\\sum_{i=1}^{n}\\frac{X_{i}-\\bar{X}}{\\sigma^{2}}\\sim\\chi^{2}(n-1),\\\\&amp;\\sqrt{n}\\frac{1}{n}\\sum_{i=1}^{n}X_{i}-\\mu)\\sim t(n-1).\\\\&amp;\\sqrt{\\sum_{i=1}^{n}(X_{i}-\\bar{X})^{2}}\\end{aligned}</div>"
     },
     {
       "id": "q0011",
       "number": 11,
       "header": "#11-Averge",
       "difficulty": "Averge",
-      "prompt_html": "<img src=\"/static/generated/assets/probability/ch112/q0011_prompt.png\"/>",
+      "prompt_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{array}{l} \\text {设总体} X \\text {服从指数分布} E(\\lambda),X_{1},X_{2} \\text {是容量为} 2 \\text {的样本，则} X_{(1)}=\\min\\{X_{1},X_{2}\\},X_{(2)}=\\max\\{X_{1},X_{2}\\} \\\\ \\text {的概率密度分别为( ).} \\end{array}\">\\begin{array}{l} \\text {设总体} X \\text {服从指数分布} E(\\lambda),X_{1},X_{2} \\text {是容量为} 2 \\text {的样本，则} X_{(1)}=\\min\\{X_{1},X_{2}\\},X_{(2)}=\\max\\{X_{1},X_{2}\\} \\\\ \\text {的概率密度分别为( ).} \\end{array}</div>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/probability/ch112/q0011_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\begin{aligned}f_{(1)}(x)=\\begin{cases}2\\lambda e^{-2\\lambda x}, x&gt;0\\\\0, \\quad \\text{其它}\\end{cases},f_{(2)}(x)=\\begin{cases}2\\lambda e^{-\\lambda x}(1-e^{-\\lambda x}), x&gt;0\\\\0, \\quad \\quad \\text{其它}\\end{cases}\\end{aligned}\">\\begin{aligned}f_{(1)}(x)=\\begin{cases}2\\lambda e^{-2\\lambda x}, x&gt;0\\\\0, \\quad \\text{其它}\\end{cases},f_{(2)}(x)=\\begin{cases}2\\lambda e^{-\\lambda x}(1-e^{-\\lambda x}), x&gt;0\\\\0, \\quad \\quad \\text{其它}\\end{cases}\\end{aligned}</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/probability/ch112/q0011_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\begin{aligned}f_{(1)}(x)=\\begin{cases}2\\lambda e^{2\\lambda x},\\, x&gt;0\\\\0,\\quad\\text{其它}\\end{cases},f_{(2)}(x)=\\begin{cases}2\\lambda e^{-\\lambda x}(1-e^{-\\lambda x}),\\, x&gt;0\\\\0,\\qquad\\text{其它}\\end{cases}\\end{aligned}\">\\begin{aligned}f_{(1)}(x)=\\begin{cases}2\\lambda e^{2\\lambda x},\\, x&gt;0\\\\0,\\quad\\text{其它}\\end{cases},f_{(2)}(x)=\\begin{cases}2\\lambda e^{-\\lambda x}(1-e^{-\\lambda x}),\\, x&gt;0\\\\0,\\qquad\\text{其它}\\end{cases}\\end{aligned}</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/probability/ch112/q0011_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\begin{aligned}f_{(1)}(x)=\\begin{cases}2\\lambda e^{-2\\lambda x},\\, x&gt;0\\\\0,\\quad\\text{其它}\\end{cases},f_{(2)}(x)=\\begin{cases}2\\lambda e^{\\lambda x}(1-e^{-\\lambda x}),\\, x&gt;0\\\\0,\\quad\\quad\\text{其它}\\end{cases}\\end{aligned}\">\\begin{aligned}f_{(1)}(x)=\\begin{cases}2\\lambda e^{-2\\lambda x},\\, x&gt;0\\\\0,\\quad\\text{其它}\\end{cases},f_{(2)}(x)=\\begin{cases}2\\lambda e^{\\lambda x}(1-e^{-\\lambda x}),\\, x&gt;0\\\\0,\\quad\\quad\\text{其它}\\end{cases}\\end{aligned}</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/probability/ch112/q0011_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\begin{aligned}f_{(1)}(x)=\\begin{cases}2\\lambda e^{2\\lambda x},\\, x&gt;0\\\\0,\\quad\\text{其它}\\end{cases},\\, f_{(2)}(x)=\\begin{cases}2\\lambda e^{\\lambda x}(1-e^{-\\lambda x}),\\, x&gt;0\\\\0,\\qquad\\text{其它}\\end{cases}\\end{aligned}\">\\begin{aligned}f_{(1)}(x)=\\begin{cases}2\\lambda e^{2\\lambda x},\\, x&gt;0\\\\0,\\quad\\text{其它}\\end{cases},\\, f_{(2)}(x)=\\begin{cases}2\\lambda e^{\\lambda x}(1-e^{-\\lambda x}),\\, x&gt;0\\\\0,\\qquad\\text{其它}\\end{cases}\\end{aligned}</span>"
         }
       ],
       "answer": "A",
       "answer_index": 0,
-      "analysis_html": "<img src=\"/static/generated/assets/probability/ch112/q0011_analysis.png\"/>"
+      "analysis_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{aligned}f(x) &amp; = \\begin{cases} \\lambda e^{-\\lambda x},\\ x&gt;0 \\\\ 0,\\quad\\text{其它} \\end{cases},\\quad F(x) = \\begin{cases} 1-e^{-\\lambda x},\\ x&gt;0 \\\\ 0,\\quad x\\geq 0 \\end{cases},\\\\X_{(1)} &amp; \\text{的概率密度为} \\\\f_{(1)}(x) &amp; = 2[1-F(x)]f(x) = \\begin{cases} 2\\lambda e^{-2\\lambda x},\\ x&gt;0 \\\\ 0,\\quad\\text{其它} \\end{cases},\\\\X_{(2)} &amp; \\text{的概率密度为} \\\\f_{(2)}(x) &amp; = 2F(x)f(x) = \\begin{cases} 2\\lambda e^{-\\lambda x}(1-e^{-\\lambda x}),\\ x&gt;0 \\\\ 0,\\quad\\text{其它} \\end{cases}.\\end{aligned}\">\\begin{aligned}f(x) &amp; = \\begin{cases} \\lambda e^{-\\lambda x},\\ x&gt;0 \\\\ 0,\\quad\\text{其它} \\end{cases},\\quad F(x) = \\begin{cases} 1-e^{-\\lambda x},\\ x&gt;0 \\\\ 0,\\quad x\\geq 0 \\end{cases},\\\\X_{(1)} &amp; \\text{的概率密度为} \\\\f_{(1)}(x) &amp; = 2[1-F(x)]f(x) = \\begin{cases} 2\\lambda e^{-2\\lambda x},\\ x&gt;0 \\\\ 0,\\quad\\text{其它} \\end{cases},\\\\X_{(2)} &amp; \\text{的概率密度为} \\\\f_{(2)}(x) &amp; = 2F(x)f(x) = \\begin{cases} 2\\lambda e^{-\\lambda x}(1-e^{-\\lambda x}),\\ x&gt;0 \\\\ 0,\\quad\\text{其它} \\end{cases}.\\end{aligned}</div>"
     },
     {
       "id": "q0012",
       "number": 12,
       "header": "#12-Averge",
       "difficulty": "Averge",
-      "prompt_html": "<img src=\"/static/generated/assets/probability/ch112/q0012_prompt.png\"/>",
+      "prompt_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{aligned} \\text{已知样本均值的一个观察值为}\\bar{x}=5, \\text{且已知样本均值的分布如下表, 试求样本均值与总体X的均值E(X)=a之差的绝对值不超过1的概率的估计值.} \\\\\\begin{array}{|c|c|c|c|c|c|} \\hline \\bar{X} &amp; 2 &amp; 3 &amp; 4 &amp; 5 &amp; 6 \\\\ \\hline P &amp; \\frac{1}{9} &amp; \\frac{1}{9} &amp; \\frac{2}{9} &amp; \\frac{3}{9} &amp; \\frac{2}{9} \\\\ \\hline \\end{array}\\end{aligned}\">\\begin{aligned} \\text{已知样本均值的一个观察值为}\\bar{x}=5, \\text{且已知样本均值的分布如下表, 试求样本均值与总体X的均值E(X)=a之差的绝对值不超过1的概率的估计值.} \\\\\\begin{array}{|c|c|c|c|c|c|} \\hline \\bar{X} &amp; 2 &amp; 3 &amp; 4 &amp; 5 &amp; 6 \\\\ \\hline P &amp; \\frac{1}{9} &amp; \\frac{1}{9} &amp; \\frac{2}{9} &amp; \\frac{3}{9} &amp; \\frac{2}{9} \\\\ \\hline \\end{array}\\end{aligned}</div>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/probability/ch112/q0012_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\frac { 5 } { 9 }\">\\frac { 5 } { 9 }</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/probability/ch112/q0012_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\frac { 1 } { 3 }\">\\frac { 1 } { 3 }</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/probability/ch112/q0012_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\frac { 2 } { 3 }\">\\frac { 2 } { 3 }</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/probability/ch112/q0012_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\frac { 4 } { 9 }\">\\frac { 4 } { 9 }</span>"
         }
       ],
       "answer": "A",
       "answer_index": 0,
-      "analysis_html": "<img src=\"/static/generated/assets/probability/ch112/q0012_analysis.png\"/>"
+      "analysis_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{aligned} &amp; \\text{因为样本均值的分布已知，又 } E(\\overline{X})=E(X), \\text{故} \\\\ &amp; \\quad a=E(X)=E(\\overline{X})=\\frac{1}{9}\\times 1+\\cdots +\\frac{2}{9}\\times 6=\\frac{40}{9}, \\\\ &amp; \\text{从而所求概率为} \\\\ &amp; \\quad P\\{\\overline{X}-a|\\leq 1\\}=P\\{\\vert \\overline{X}-\\frac{40}{9}\\vert \\leq 1\\} \\\\ &amp; \\quad \\quad =P\\{3+\\frac{1}{9}\\leq \\overline{X}\\leq 5+\\frac{1}{9}\\} \\\\ &amp; \\quad \\quad =\\frac{3}{9}+\\frac{2}{9}=\\frac{5}{9}.\\end{aligned}\">\\begin{aligned} &amp; \\text{因为样本均值的分布已知，又 } E(\\overline{X})=E(X), \\text{故} \\\\ &amp; \\quad a=E(X)=E(\\overline{X})=\\frac{1}{9}\\times 1+\\cdots +\\frac{2}{9}\\times 6=\\frac{40}{9}, \\\\ &amp; \\text{从而所求概率为} \\\\ &amp; \\quad P\\{\\overline{X}-a|\\leq 1\\}=P\\{\\vert \\overline{X}-\\frac{40}{9}\\vert \\leq 1\\} \\\\ &amp; \\quad \\quad =P\\{3+\\frac{1}{9}\\leq \\overline{X}\\leq 5+\\frac{1}{9}\\} \\\\ &amp; \\quad \\quad =\\frac{3}{9}+\\frac{2}{9}=\\frac{5}{9}.\\end{aligned}</div>"
     },
     {
       "id": "q0013",
       "number": 13,
       "header": "#13-Averge",
       "difficulty": "Averge",
-      "prompt_html": "<img src=\"/static/generated/assets/probability/ch112/q0013_prompt.png\"/>",
+      "prompt_html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{设总体}X\\text{在区间}[a,b]\\text{上服从均匀分布，则}Z=\\min\\{X_{1},X_{2},\\,\\cdots,X_{n}\\}\\text{的概率密度}f_{z}(x)\\text{为( ).}\">\\text{设总体}X\\text{在区间}[a,b]\\text{上服从均匀分布，则}Z=\\min\\{X_{1},X_{2},\\,\\cdots,X_{n}\\}\\text{的概率密度}f_{z}(x)\\text{为( ).}</span>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/probability/ch112/q0013_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\frac{n(b-x)^{n-1}}{(b-a)^{n}},\\, x \\in [a,\\, b]\">\\frac{n(b-x)^{n-1}}{(b-a)^{n}},\\, x \\in [a,\\, b]</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/probability/ch112/q0013_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\frac{ (b-x)^{n-1}}{ (b-a)^{n}}, x \\in [a, b]\">\\frac{ (b-x)^{n-1}}{ (b-a)^{n}}, x \\in [a, b]</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/probability/ch112/q0013_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\frac{n(b-x)^{n-1}}{(b+a)^{n}}, x \\in [a,\\,b]\">\\frac{n(b-x)^{n-1}}{(b+a)^{n}}, x \\in [a,\\,b]</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/probability/ch112/q0013_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"0\">0</span>"
         }
       ],
       "answer": "A",
       "answer_index": 0,
-      "analysis_html": "<img src=\"/static/generated/assets/probability/ch112/q0013_analysis.png\"/>"
+      "analysis_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{aligned}X&amp;\\text{在}[a,b]\\text{上服从均匀分布}，\\text{其分布函数为}\\\\F(x)&amp;=\\begin{cases}0,&amp;x&lt;a\\\\ \\dfrac{x-a}{b-a},&amp;x\\in [a,b],\\\\1,&amp;x&gt;b\\end{cases}\\\\Z&amp;=\\min\\{X_1,X_2,\\cdots,X_n\\}\\text{分布函数为}\\\\F_{X}(x)&amp;=1-[1-F(x)]^n,\\\\Z&amp;\\text{的概率密度为}\\\\f_{X}(x)&amp;=n[1-F^{n-1}(x)]^{n-1}.f(x)=\\dfrac{n(b-x)^{n-1}}{(b-a)^n},\\,x\\in [a,b].\\end{aligned}\">\\begin{aligned}X&amp;\\text{在}[a,b]\\text{上服从均匀分布}，\\text{其分布函数为}\\\\F(x)&amp;=\\begin{cases}0,&amp;x&lt;a\\\\ \\dfrac{x-a}{b-a},&amp;x\\in [a,b],\\\\1,&amp;x&gt;b\\end{cases}\\\\Z&amp;=\\min\\{X_1,X_2,\\cdots,X_n\\}\\text{分布函数为}\\\\F_{X}(x)&amp;=1-[1-F(x)]^n,\\\\Z&amp;\\text{的概率密度为}\\\\f_{X}(x)&amp;=n[1-F^{n-1}(x)]^{n-1}.f(x)=\\dfrac{n(b-x)^{n-1}}{(b-a)^n},\\,x\\in [a,b].\\end{aligned}</div>"
     },
     {
       "id": "q0014",
       "number": 14,
       "header": "#14-Easy",
       "difficulty": "Easy",
-      "prompt_html": "<img src=\"/static/generated/assets/probability/ch112/q0014_prompt.png\"/>",
+      "prompt_html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{样本}X_{1},\\cdots,X_{n}\\text{来自总体}\\xi,\\,\\xi\\text{有概率密度}\\varphi(x)\\text{及分布函数}F(x)\\text{，则以下结论不成立的是( )}.\">\\text{样本}X_{1},\\cdots,X_{n}\\text{来自总体}\\xi,\\,\\xi\\text{有概率密度}\\varphi(x)\\text{及分布函数}F(x)\\text{，则以下结论不成立的是( )}.</span>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/probability/ch112/q0014_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\begin{array}{l} X _ {n} \\text {与} \\max \\left\\{X _ {1}, \\dots , X _ {n} \\right\\} \\text {的分布相同} \\end{array}\">\\begin{array}{l} X _ {n} \\text {与} \\max \\left\\{X _ {1}, \\dots , X _ {n} \\right\\} \\text {的分布相同} \\end{array}</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/probability/ch112/q0014_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\begin{array}{l} X _ {i} \\text {有概率密度} \\varphi (x), \\, i = 1, 2, \\cdots , n \\end{array}\">\\begin{array}{l} X _ {i} \\text {有概率密度} \\varphi (x), \\, i = 1, 2, \\cdots , n \\end{array}</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/probability/ch112/q0014_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\begin{array}{l}X_{i}\\text{有分布函数}F(x),\\,i=1,2,\\cdots,n\\end{array}\">\\begin{array}{l}X_{i}\\text{有分布函数}F(x),\\,i=1,2,\\cdots,n\\end{array}</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/probability/ch112/q0014_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\max \\left\\{X_{1},\\, \\cdots, X_{n} \\right\\} \\text{的分布函数为} \\left[ F(x) \\right]^{n}\">\\max \\left\\{X_{1},\\, \\cdots, X_{n} \\right\\} \\text{的分布函数为} \\left[ F(x) \\right]^{n}</span>"
         }
       ],
       "answer": "A",
       "answer_index": 0,
-      "analysis_html": "<img src=\"/static/generated/assets/probability/ch112/q0014_analysis.png\"/>"
+      "analysis_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{aligned}\\text{样本具有两个性质：}\\\\1.\\text{代表性：}X_{1},X_{2},\\cdots,X_{n}\\text{与所考察的总体具有相同的分布；}\\\\2.\\text{独立性：}X_{1},X_{2},\\cdots,X_{n}\\text{是相互独立的随机变量.}\\\\P\\{\\max\\{X_{1},X_{2},\\cdots,X_{n}\\}\\leq y\\}=P\\{X_{1}\\leq y\\},P\\{X_{2}\\leq y\\}\\cdots P\\{X_{n}\\leq y\\}=F^{*}(y).\\end{aligned}\">\\begin{aligned}\\text{样本具有两个性质：}\\\\1.\\text{代表性：}X_{1},X_{2},\\cdots,X_{n}\\text{与所考察的总体具有相同的分布；}\\\\2.\\text{独立性：}X_{1},X_{2},\\cdots,X_{n}\\text{是相互独立的随机变量.}\\\\P\\{\\max\\{X_{1},X_{2},\\cdots,X_{n}\\}\\leq y\\}=P\\{X_{1}\\leq y\\},P\\{X_{2}\\leq y\\}\\cdots P\\{X_{n}\\leq y\\}=F^{*}(y).\\end{aligned}</div>"
     },
     {
       "id": "q0015",
       "number": 15,
       "header": "#15-Averge",
       "difficulty": "Averge",
-      "prompt_html": "<img src=\"/static/generated/assets/probability/ch112/q0015_prompt.png\"/>",
+      "prompt_html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{样本}X_{1},X_{2},\\cdots,X_{n}\\text{来自总体}\\xi,\\text{已知}\\xi\\text{服从参数}\\lambda=1\\text{的指数分布，则}Z=\\max\\{X_{1},X_{2},\\cdots,X_{n}\\}\\text{的分布函数为}().\">\\text{样本}X_{1},X_{2},\\cdots,X_{n}\\text{来自总体}\\xi,\\text{已知}\\xi\\text{服从参数}\\lambda=1\\text{的指数分布，则}Z=\\max\\{X_{1},X_{2},\\cdots,X_{n}\\}\\text{的分布函数为}().</span>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/probability/ch112/q0015_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\begin{aligned}F(z)=\\left\\{\\begin{matrix}0,\\ z&lt;0\\\\ \\\\ (1-e^{-z})^{n},\\ z\\geq 0\\end{matrix}\\right.\\end{aligned}\">\\begin{aligned}F(z)=\\left\\{\\begin{matrix}0,\\ z&lt;0\\\\ \\\\ (1-e^{-z})^{n},\\ z\\geq 0\\end{matrix}\\right.\\end{aligned}</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/probability/ch112/q0015_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\begin{aligned}F(z)=\\{\\begin{array}{c}0,\\ z&lt;0\\\\ \\\\1-e^{-z},\\ z\\geq 0\\end{array}\\end{aligned}\">\\begin{aligned}F(z)=\\{\\begin{array}{c}0,\\ z&lt;0\\\\ \\\\1-e^{-z},\\ z\\geq 0\\end{array}\\end{aligned}</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/probability/ch112/q0015_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\begin{aligned}F(z)=\\{\\begin{array}{l}0,\\ z&lt;0\\\\ \\\\e^{-z},\\ z\\geq0\\end{array}\\end{aligned}\">\\begin{aligned}F(z)=\\{\\begin{array}{l}0,\\ z&lt;0\\\\ \\\\e^{-z},\\ z\\geq0\\end{array}\\end{aligned}</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/probability/ch112/q0015_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\begin{aligned}F(z)=\\{\\begin{array}{l}0,\\ z&lt;0\\\\ \\\\e^{-nz},\\ z\\geq 0\\end{array}\\end{aligned}\">\\begin{aligned}F(z)=\\{\\begin{array}{l}0,\\ z&lt;0\\\\ \\\\e^{-nz},\\ z\\geq 0\\end{array}\\end{aligned}</span>"
         }
       ],
       "answer": "A",
       "answer_index": 0,
-      "analysis_html": "<img src=\"/static/generated/assets/probability/ch112/q0015_analysis.png\"/>"
+      "analysis_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{aligned}\\zeta \\text{ 的分布函数为} F(x) &amp; = \\begin{cases} 1 - e^{-x}, \\ x&gt;0 \\\\ 0, \\quad x \\geq 0 \\end{cases}, \\ Z \\text{ 的分布函数为} \\\\F_Z(z) &amp; = P\\{Z \\leq z\\} = P\\{X_1 \\leq z, \\cdots, X_n \\leq z\\} \\\\&amp; = P\\{X_1 \\leq z\\} \\, P\\{X_2 \\leq z\\} \\cdots P\\{X_n \\leq z\\} = F^n(z) \\\\&amp; = \\begin{cases} 0, \\ z&lt;0 \\\\ (1-e^{-z})^n, \\ z \\geq 0 \\end{cases}.\\end{aligned}\">\\begin{aligned}\\zeta \\text{ 的分布函数为} F(x) &amp; = \\begin{cases} 1 - e^{-x}, \\ x&gt;0 \\\\ 0, \\quad x \\geq 0 \\end{cases}, \\ Z \\text{ 的分布函数为} \\\\F_Z(z) &amp; = P\\{Z \\leq z\\} = P\\{X_1 \\leq z, \\cdots, X_n \\leq z\\} \\\\&amp; = P\\{X_1 \\leq z\\} \\, P\\{X_2 \\leq z\\} \\cdots P\\{X_n \\leq z\\} = F^n(z) \\\\&amp; = \\begin{cases} 0, \\ z&lt;0 \\\\ (1-e^{-z})^n, \\ z \\geq 0 \\end{cases}.\\end{aligned}</div>"
     },
     {
       "id": "q0016",
       "number": 16,
       "header": "#16-Averge",
       "difficulty": "Averge",
-      "prompt_html": "<img src=\"/static/generated/assets/probability/ch112/q0016_prompt.png\"/>",
+      "prompt_html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{设总体}X\\text{在区间}[a,b]\\text{上服从均匀分布，则}Y=\\max\\{X_{1},X_{2},\\cdots,X_{n}\\} \\text{的概率密度为}f_{Y}(x)\\text{为( ).}\">\\text{设总体}X\\text{在区间}[a,b]\\text{上服从均匀分布，则}Y=\\max\\{X_{1},X_{2},\\cdots,X_{n}\\} \\text{的概率密度为}f_{Y}(x)\\text{为( ).}</span>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/probability/ch112/q0016_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\frac { n ( x - a ) ^ { n - 1 } } { ( b - a ) ^ { n } }\">\\frac { n ( x - a ) ^ { n - 1 } } { ( b - a ) ^ { n } }</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/probability/ch112/q0016_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\frac { 2 n ( x - a ) ^ { n - 1 } } { ( b - a ) ^ { n } }\">\\frac { 2 n ( x - a ) ^ { n - 1 } } { ( b - a ) ^ { n } }</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/probability/ch112/q0016_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\frac { 2 n ( x - a ) ^ { n } } { ( b - a ) ^ { n } }\">\\frac { 2 n ( x - a ) ^ { n } } { ( b - a ) ^ { n } }</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/probability/ch112/q0016_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\frac { n ( x - a ) ^ { n } } { ( b - a ) ^ { n } }\">\\frac { n ( x - a ) ^ { n } } { ( b - a ) ^ { n } }</span>"
         }
       ],
       "answer": "A",
       "answer_index": 0,
-      "analysis_html": "<img src=\"/static/generated/assets/probability/ch112/q0016_analysis.png\"/>"
+      "analysis_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{aligned}X&amp;\\text{在}\\left[a,b\\right]\\text{上服从均匀分布，其分布函数为}\\\\&amp;F(x)=\\begin{cases}0,&amp;x&lt;a\\\\ \\dfrac{x-a}{b-a},&amp;x\\in[a,b],\\\\1,&amp;x&gt;b\\end{cases}\\\\Y&amp;=\\max\\{X_{1},X_{2},\\cdots,X_{n}\\} \\text{的分布函数为}\\\\&amp;F_{Y}(x)=[F(x)]^{n},\\\\Y&amp;\\text{的概率密度为}\\\\&amp;f_{Y}(x)=nF^{-1}(x)f(x)=\\dfrac{n(x-a)^{n-1}}{(b-a)^{n}},x\\in[a,b].\\end{aligned}\">\\begin{aligned}X&amp;\\text{在}\\left[a,b\\right]\\text{上服从均匀分布，其分布函数为}\\\\&amp;F(x)=\\begin{cases}0,&amp;x&lt;a\\\\ \\dfrac{x-a}{b-a},&amp;x\\in[a,b],\\\\1,&amp;x&gt;b\\end{cases}\\\\Y&amp;=\\max\\{X_{1},X_{2},\\cdots,X_{n}\\} \\text{的分布函数为}\\\\&amp;F_{Y}(x)=[F(x)]^{n},\\\\Y&amp;\\text{的概率密度为}\\\\&amp;f_{Y}(x)=nF^{-1}(x)f(x)=\\dfrac{n(x-a)^{n-1}}{(b-a)^{n}},x\\in[a,b].\\end{aligned}</div>"
     }
-  ]
+  ],
+  "format": "latex",
+  "source_md": "gl/6.4.4_一般总体的抽样分布(16题)/6.4.4_一般总体的抽样分布(16题).md"
 }

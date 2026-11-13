@@ -13,532 +13,534 @@
       "number": 1,
       "header": "#1-Averge",
       "difficulty": "Averge",
-      "prompt_html": "<img src=\"/static/generated/assets/advanced-math/ch150/q0001_prompt.png\"/>",
+      "prompt_html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\oint_{\\Gamma} 2ydx + 3xdy - z^{2}dz = (\\ ).\">\\oint_{\\Gamma} 2ydx + 3xdy - z^{2}dz = (\\ ).</span>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch150/q0001_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"4 \\pi\">4 \\pi</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch150/q0001_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"3 \\pi\">3 \\pi</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch150/q0001_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"9 \\pi\">9 \\pi</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch150/q0001_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"6 \\pi\">6 \\pi</span>"
         }
       ],
       "answer": "C",
       "answer_index": 2,
-      "analysis_html": "<img src=\"/static/generated/assets/advanced-math/ch150/q0001_analysis.png\"/>"
+      "analysis_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{aligned} \\text{解析：由斯托克斯公式} \\\\&amp;= \\iint \\sum_{\\text{原式}} \\left| \\begin{matrix} \\frac{dydz}{\\partial x} &amp; \\frac{dzdx}{\\partial y} &amp; \\frac{dx dy}{\\partial z} \\\\ 2y &amp; 3x &amp; -z^2 \\end{matrix} \\right| dS = \\iint \\sum (3-2) dx dy \\\\&amp;= \\iint\\limits_{D_2} dx dy = \\pi \\cdot 3^2 = 9 \\pi.\\end{aligned}\">\\begin{aligned} \\text{解析：由斯托克斯公式} \\\\&amp;= \\iint \\sum_{\\text{原式}} \\left| \\begin{matrix} \\frac{dydz}{\\partial x} &amp; \\frac{dzdx}{\\partial y} &amp; \\frac{dx dy}{\\partial z} \\\\ 2y &amp; 3x &amp; -z^2 \\end{matrix} \\right| dS = \\iint \\sum (3-2) dx dy \\\\&amp;= \\iint\\limits_{D_2} dx dy = \\pi \\cdot 3^2 = 9 \\pi.\\end{aligned}</div>"
     },
     {
       "id": "q0002",
       "number": 2,
       "header": "#2-Averge",
       "difficulty": "Averge",
-      "prompt_html": "<img src=\"/static/generated/assets/advanced-math/ch150/q0002_prompt.png\"/>",
+      "prompt_html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\oint _ { L } y ^ { 2 } d x + x ^ { 2 } d z = ( ) 。\">\\oint _ { L } y ^ { 2 } d x + x ^ { 2 } d z = ( ) 。</span>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch150/q0002_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"2 \\pi a ^ { 3 }\">2 \\pi a ^ { 3 }</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch150/q0002_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\pi a ^ { 3 }\">\\pi a ^ { 3 }</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch150/q0002_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"- 2 \\pi a ^ { 3 }\">- 2 \\pi a ^ { 3 }</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch150/q0002_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"- \\pi a ^ { 3 }\">- \\pi a ^ { 3 }</span>"
         }
       ],
       "answer": "A",
       "answer_index": 0,
-      "analysis_html": "<img src=\"/static/generated/assets/advanced-math/ch150/q0002_analysis.png\"/>"
+      "analysis_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{aligned} \\oint\\limits_{L} y^2 dx + x^2 dz &amp;= \\iint\\limits_{\\Sigma} \\begin{vmatrix} dydz &amp; dzdx &amp; dx dy \\\\ \\frac{\\partial}{\\partial x} &amp; \\frac{\\partial}{\\partial y} &amp; \\frac{\\partial}{\\partial z} \\\\ y^2 &amp; 0 &amp; x^2 \\end{vmatrix} = \\iint\\limits_{\\Sigma} -2xdzdx - 2ydx dy = \\iint\\limits_{D_{zx}} (-2x) dz dx - \\iint\\limits_{D_{xy}} (-2y) dx dy \\\\ \\text{其中} \\ D_{zx}, D_{xy} \\text{分别为} \\Sigma \\text{在} zOx \\text{面与} xOy \\text{面上的投影区域，由} \\Sigma \\text{的对称性易知，} D_{zx} \\text{关于} z \\text{轴对称，而} -2x \\text{为} x \\text{的奇函数，所以} \\\\ \\iint\\limits_{D_{zx}} (-2x) dz dx &amp;= 0 \\\\ \\oint\\limits_{L} y^2 dx + x^2 dz &amp;= 2 \\iint\\limits_{D_{xy}} ydx dy = 2 \\iint\\limits_{x^2+y^2 \\leq 2xy} ydx dy = 2 \\int_{0}^{\\pi} d\\theta \\int_{0}^{2\\sin\\theta} r \\sin \\theta r dr \\\\ \\text{故} &amp;= 2 \\int_{0}^{\\pi} \\sin \\theta \\cdot \\frac{r^3}{3} \\Bigg|_{r=0}^{r=2\\sin \\theta} d\\theta = \\frac{16}{3} a^3 \\int_{0}^{\\pi} \\sin^4 \\theta d\\theta = 2 \\pi a^3 \\end{aligned}\">\\begin{aligned} \\oint\\limits_{L} y^2 dx + x^2 dz &amp;= \\iint\\limits_{\\Sigma} \\begin{vmatrix} dydz &amp; dzdx &amp; dx dy \\\\ \\frac{\\partial}{\\partial x} &amp; \\frac{\\partial}{\\partial y} &amp; \\frac{\\partial}{\\partial z} \\\\ y^2 &amp; 0 &amp; x^2 \\end{vmatrix} = \\iint\\limits_{\\Sigma} -2xdzdx - 2ydx dy = \\iint\\limits_{D_{zx}} (-2x) dz dx - \\iint\\limits_{D_{xy}} (-2y) dx dy \\\\ \\text{其中} \\ D_{zx}, D_{xy} \\text{分别为} \\Sigma \\text{在} zOx \\text{面与} xOy \\text{面上的投影区域，由} \\Sigma \\text{的对称性易知，} D_{zx} \\text{关于} z \\text{轴对称，而} -2x \\text{为} x \\text{的奇函数，所以} \\\\ \\iint\\limits_{D_{zx}} (-2x) dz dx &amp;= 0 \\\\ \\oint\\limits_{L} y^2 dx + x^2 dz &amp;= 2 \\iint\\limits_{D_{xy}} ydx dy = 2 \\iint\\limits_{x^2+y^2 \\leq 2xy} ydx dy = 2 \\int_{0}^{\\pi} d\\theta \\int_{0}^{2\\sin\\theta} r \\sin \\theta r dr \\\\ \\text{故} &amp;= 2 \\int_{0}^{\\pi} \\sin \\theta \\cdot \\frac{r^3}{3} \\Bigg|_{r=0}^{r=2\\sin \\theta} d\\theta = \\frac{16}{3} a^3 \\int_{0}^{\\pi} \\sin^4 \\theta d\\theta = 2 \\pi a^3 \\end{aligned}</div>"
     },
     {
       "id": "q0003",
       "number": 3,
       "header": "#3-Averge",
       "difficulty": "Averge",
-      "prompt_html": "<img src=\"/static/generated/assets/advanced-math/ch150/q0003_prompt.png\"/>",
+      "prompt_html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\oint _ { \\Gamma } z d x + x d y + y d z = ( ) 。\">\\oint _ { \\Gamma } z d x + x d y + y d z = ( ) 。</span>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch150/q0003_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"0\">0</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch150/q0003_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\frac{3}{2}\">\\frac{3}{2}</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch150/q0003_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\frac { 5 } { 2 }\">\\frac { 5 } { 2 }</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch150/q0003_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\frac { 1 } { 2 }\">\\frac { 1 } { 2 }</span>"
         }
       ],
       "answer": "B",
       "answer_index": 1,
-      "analysis_html": "<img src=\"/static/generated/assets/advanced-math/ch150/q0003_analysis.png\"/>"
+      "analysis_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{aligned}&amp; \\oint_{\\Gamma} zdx + xdy + ydz = \\iint_{\\Sigma} dydz + dzdx + dxdy\\\\&amp; \\text{由于} \\Sigma \\text{的法向量的三个方向余弦都为正，再由对称性知：} \\iint_{\\Sigma} dydz + dzdx + dxdy = 3 \\iint_{D_{xy}} d\\sigma\\\\&amp; \\text{所以} \\oint_{\\Gamma} zdx + xdy + ydz = \\frac{3}{2}\\end{aligned}\">\\begin{aligned}&amp; \\oint_{\\Gamma} zdx + xdy + ydz = \\iint_{\\Sigma} dydz + dzdx + dxdy\\\\&amp; \\text{由于} \\Sigma \\text{的法向量的三个方向余弦都为正，再由对称性知：} \\iint_{\\Sigma} dydz + dzdx + dxdy = 3 \\iint_{D_{xy}} d\\sigma\\\\&amp; \\text{所以} \\oint_{\\Gamma} zdx + xdy + ydz = \\frac{3}{2}\\end{aligned}</div>"
     },
     {
       "id": "q0004",
       "number": 4,
       "header": "#4-Averge",
       "difficulty": "Averge",
-      "prompt_html": "<img src=\"/static/generated/assets/advanced-math/ch150/q0004_prompt.png\"/>",
+      "prompt_html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\oint \\limits_{r} -y^{2}dx + xdy + z^{2}dz = (\\ \\ )。\">\\oint \\limits_{r} -y^{2}dx + xdy + z^{2}dz = (\\ \\ )。</span>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch150/q0004_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\pi\">\\pi</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch150/q0004_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"2 \\pi\">2 \\pi</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch150/q0004_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"4 \\pi\">4 \\pi</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch150/q0004_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\scriptstyle 3 \\pi\">\\scriptstyle 3 \\pi</span>"
         }
       ],
       "answer": "A",
       "answer_index": 0,
-      "analysis_html": "<img src=\"/static/generated/assets/advanced-math/ch150/q0004_analysis.png\"/>"
+      "analysis_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{aligned} \\text{用}\\sum \\Sigma \\text{表示平面}y+z&amp;=2\\text{被包围在柱面}x^2+y^2\\text{内的部分，由斯托克斯公式有} \\\\ I&amp;=\\iint\\limits_{\\Sigma}\\begin{vmatrix} \\frac{\\partial}{\\partial x}dy&amp;\\frac{\\partial}{\\partial y}dz&amp;\\frac{\\partial}{\\partial z}dxy\\\\ &amp; &amp; \\\\ &amp; -y^2&amp;x\\end{vmatrix}=\\iint\\limits_{\\Sigma}(1+2y)dxdy=\\int_{0}^{2\\pi}d\\theta\\int_{0}^{1}(1+2r\\sin\\theta)rdr\\\\ &amp;=\\int_{0}^{2\\pi}\\left(\\frac{1}{2}+\\frac{2}{3}\\sin\\theta\\right)d\\theta=\\pi \\end{aligned}\">\\begin{aligned} \\text{用}\\sum \\Sigma \\text{表示平面}y+z&amp;=2\\text{被包围在柱面}x^2+y^2\\text{内的部分，由斯托克斯公式有} \\\\ I&amp;=\\iint\\limits_{\\Sigma}\\begin{vmatrix} \\frac{\\partial}{\\partial x}dy&amp;\\frac{\\partial}{\\partial y}dz&amp;\\frac{\\partial}{\\partial z}dxy\\\\ &amp; &amp; \\\\ &amp; -y^2&amp;x\\end{vmatrix}=\\iint\\limits_{\\Sigma}(1+2y)dxdy=\\int_{0}^{2\\pi}d\\theta\\int_{0}^{1}(1+2r\\sin\\theta)rdr\\\\ &amp;=\\int_{0}^{2\\pi}\\left(\\frac{1}{2}+\\frac{2}{3}\\sin\\theta\\right)d\\theta=\\pi \\end{aligned}</div>"
     },
     {
       "id": "q0005",
       "number": 5,
       "header": "#5-Averge",
       "difficulty": "Averge",
-      "prompt_html": "<img src=\"/static/generated/assets/advanced-math/ch150/q0005_prompt.png\"/>",
+      "prompt_html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\oint _ { \\Gamma } 3 y d x - x z d y - y z ^ { 2 } d z = ( \\ \\ ) 。\">\\oint _ { \\Gamma } 3 y d x - x z d y - y z ^ { 2 } d z = ( \\ \\ ) 。</span>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch150/q0005_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"- 10 \\pi\">- 10 \\pi</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch150/q0005_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"-20 \\pi\">-20 \\pi</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch150/q0005_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"20 \\pi\">20 \\pi</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch150/q0005_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"10 \\pi\">10 \\pi</span>"
         }
       ],
       "answer": "B",
       "answer_index": 1,
-      "analysis_html": "<img src=\"/static/generated/assets/advanced-math/ch150/q0005_analysis.png\"/>"
+      "analysis_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{aligned}&amp;\\text{参考答案：}\\\\&amp;\\text{记} \\Sigma \\text{是平面}z=2\\text{上被圆周} \\Gamma \\text{所围部分的上侧，} \\Sigma \\text{的法向量} \\overrightarrow{n}=\\{\\cos \\alpha , \\cos \\beta , \\cos \\gamma \\}=\\{0,0,1\\}。\\\\&amp;\\text{由斯托克斯公式}\\\\&amp;\\text{原式}=\\iint_{\\Sigma}\\begin{vmatrix}0&amp;0&amp;1\\\\ \\frac{\\partial}{\\partial \\alpha}&amp;\\frac{\\partial}{\\partial \\gamma}&amp;\\frac{\\partial}{\\partial z}\\\\3y&amp;-xz&amp;yz^2\\end{vmatrix}dS=\\iint_{\\Sigma}(-z-3)dS=-\\iint_{D_{xy}}(2+3)dxdy=-5\\cdot \\pi \\cdot 2^2=-20\\pi \\end{aligned}\">\\begin{aligned}&amp;\\text{参考答案：}\\\\&amp;\\text{记} \\Sigma \\text{是平面}z=2\\text{上被圆周} \\Gamma \\text{所围部分的上侧，} \\Sigma \\text{的法向量} \\overrightarrow{n}=\\{\\cos \\alpha , \\cos \\beta , \\cos \\gamma \\}=\\{0,0,1\\}。\\\\&amp;\\text{由斯托克斯公式}\\\\&amp;\\text{原式}=\\iint_{\\Sigma}\\begin{vmatrix}0&amp;0&amp;1\\\\ \\frac{\\partial}{\\partial \\alpha}&amp;\\frac{\\partial}{\\partial \\gamma}&amp;\\frac{\\partial}{\\partial z}\\\\3y&amp;-xz&amp;yz^2\\end{vmatrix}dS=\\iint_{\\Sigma}(-z-3)dS=-\\iint_{D_{xy}}(2+3)dxdy=-5\\cdot \\pi \\cdot 2^2=-20\\pi \\end{aligned}</div>"
     },
     {
       "id": "q0006",
       "number": 6,
       "header": "#6-Averge",
       "difficulty": "Averge",
-      "prompt_html": "<img src=\"/static/generated/assets/advanced-math/ch150/q0006_prompt.png\"/>",
+      "prompt_html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\oint _ { \\Gamma } ( z - y ) d x + ( x - z ) d y + ( y - x ) d z = ( \\ .\">\\oint _ { \\Gamma } ( z - y ) d x + ( x - z ) d y + ( y - x ) d z = ( \\ .</span>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch150/q0006_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"4 a ^ { 2 }\">4 a ^ { 2 }</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch150/q0006_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"5 a ^ { 2 }\">5 a ^ { 2 }</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch150/q0006_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"3 a ^ { 3 }\">3 a ^ { 3 }</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch150/q0006_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"3 a ^ { 2 }\">3 a ^ { 2 }</span>"
         }
       ],
       "answer": "D",
       "answer_index": 3,
-      "analysis_html": "<img src=\"/static/generated/assets/advanced-math/ch150/q0006_analysis.png\"/>"
+      "analysis_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{aligned} \\text{解析：记三角形平面块为}\\sum\\text{，由}\\Gamma\\text{方向知}\\sum\\text{的外法向与}Oz\\text{轴成锐角}\\\\P=z-y,Q=x-z,R=y-x,\\oint_{S} =2\\iint_{\\sum} dy dz + dz dx + dx dy,\\\\ \\text{由对称性}\\iint_{\\sum} dy dz = \\iint_{\\sum} dz dx = \\iint_{\\sum} dx dy, \\therefore \\oint_{S} = 6 \\iint_{\\sum} dx dy = 6\\cdot \\frac{1}{2}a\\cdot a = 3a^{2}.\\end{aligned}\">\\begin{aligned} \\text{解析：记三角形平面块为}\\sum\\text{，由}\\Gamma\\text{方向知}\\sum\\text{的外法向与}Oz\\text{轴成锐角}\\\\P=z-y,Q=x-z,R=y-x,\\oint_{S} =2\\iint_{\\sum} dy dz + dz dx + dx dy,\\\\ \\text{由对称性}\\iint_{\\sum} dy dz = \\iint_{\\sum} dz dx = \\iint_{\\sum} dx dy, \\therefore \\oint_{S} = 6 \\iint_{\\sum} dx dy = 6\\cdot \\frac{1}{2}a\\cdot a = 3a^{2}.\\end{aligned}</div>"
     },
     {
       "id": "q0007",
       "number": 7,
       "header": "#7-Averge",
       "difficulty": "Averge",
-      "prompt_html": "<img src=\"/static/generated/assets/advanced-math/ch150/q0007_prompt.png\"/>",
+      "prompt_html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\oint _{F} ydx + zdy + xdz = ( )。\">\\oint _{F} ydx + zdy + xdz = ( )。</span>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch150/q0007_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"- \\frac { 2 \\sqrt { 3 } } { 5 } \\pi\">- \\frac { 2 \\sqrt { 3 } } { 5 } \\pi</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch150/q0007_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"- \\frac { 2 \\sqrt { 3 } } { 3 } \\pi\">- \\frac { 2 \\sqrt { 3 } } { 3 } \\pi</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch150/q0007_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"-\\frac{\\sqrt{3}}{3}\\pi\">-\\frac{\\sqrt{3}}{3}\\pi</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch150/q0007_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\frac{2\\sqrt{3}}{3}\\pi\">\\frac{2\\sqrt{3}}{3}\\pi</span>"
         }
       ],
       "answer": "B",
       "answer_index": 1,
-      "analysis_html": "<img src=\"/static/generated/assets/advanced-math/ch150/q0007_analysis.png\"/>"
+      "analysis_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{aligned} \\text{记} \\Sigma \\text{为平面} x+y+z=1 \\text{被题设圆} \\Gamma \\text{所围部分的上侧，} \\Sigma \\text{的单位法向量} \\\\ \\overrightarrow{n^{\\circ}}=\\{\\frac{1}{\\sqrt{3}},\\frac{1}{\\sqrt{3}},\\frac{1}{\\sqrt{3}}\\} \\\\ \\therefore \\text{原式}=\\iint_{\\Sigma}\\left(-\\frac{1}{\\sqrt{3}}-\\frac{1}{\\sqrt{3}}-\\frac{1}{\\sqrt{3}}\\right) dS=-\\sqrt{3}\\iint_{\\Sigma}dS=-\\sqrt{3}S \\\\ \\text{由图易知，} \\Sigma \\text{的半径} \\\\ R=\\frac{\\sqrt{2}}{2}/\\cos \\frac{\\pi}{6}=\\frac{\\sqrt{6}}{3} \\\\ \\text{从而} S=\\pi \\left(\\frac{\\sqrt{6}}{3}\\right)^{2}=\\pi \\frac{2}{3} \\\\ \\text{因此} \\oint_{\\Gamma} ydx+zdy+xdz=-\\frac{2\\sqrt{3}}{3}\\pi \\end{aligned}\">\\begin{aligned} \\text{记} \\Sigma \\text{为平面} x+y+z=1 \\text{被题设圆} \\Gamma \\text{所围部分的上侧，} \\Sigma \\text{的单位法向量} \\\\ \\overrightarrow{n^{\\circ}}=\\{\\frac{1}{\\sqrt{3}},\\frac{1}{\\sqrt{3}},\\frac{1}{\\sqrt{3}}\\} \\\\ \\therefore \\text{原式}=\\iint_{\\Sigma}\\left(-\\frac{1}{\\sqrt{3}}-\\frac{1}{\\sqrt{3}}-\\frac{1}{\\sqrt{3}}\\right) dS=-\\sqrt{3}\\iint_{\\Sigma}dS=-\\sqrt{3}S \\\\ \\text{由图易知，} \\Sigma \\text{的半径} \\\\ R=\\frac{\\sqrt{2}}{2}/\\cos \\frac{\\pi}{6}=\\frac{\\sqrt{6}}{3} \\\\ \\text{从而} S=\\pi \\left(\\frac{\\sqrt{6}}{3}\\right)^{2}=\\pi \\frac{2}{3} \\\\ \\text{因此} \\oint_{\\Gamma} ydx+zdy+xdz=-\\frac{2\\sqrt{3}}{3}\\pi \\end{aligned}</div>"
     },
     {
       "id": "q0008",
       "number": 8,
       "header": "#8-Averge",
       "difficulty": "Averge",
-      "prompt_html": "<img src=\"/static/generated/assets/advanced-math/ch150/q0008_prompt.png\"/>",
+      "prompt_html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\oint_{\\Gamma} 3ydx - xzdy - yz^{2}dz = ( ).\">\\oint_{\\Gamma} 3ydx - xzdy - yz^{2}dz = ( ).</span>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch150/q0008_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"10 \\pi\">10 \\pi</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch150/q0008_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"- 20 \\pi\">- 20 \\pi</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch150/q0008_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"- 10 \\pi\">- 10 \\pi</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch150/q0008_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"20 \\pi\">20 \\pi</span>"
         }
       ],
       "answer": "B",
       "answer_index": 1,
-      "analysis_html": "<img src=\"/static/generated/assets/advanced-math/ch150/q0008_analysis.png\"/>"
+      "analysis_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{aligned} \\text{解析：记}\\sum \\text{是平面}z=2\\text{上被圆周}\\Gamma \\text{所围部分的上侧，}\\sum \\text{的法向量} \\\\\\vec{n}=\\{\\cos \\alpha ,\\cos \\beta ,\\cos \\gamma \\}=\\{0,0,1\\}.\\text{由斯托克斯公式}\\\\ \\text{原式}=\\!\\!\\!\\sum \\left|\\!\\!\\!\\begin{array}{ccc} 0 &amp; 0 &amp; 1 \\\\ \\frac{\\partial }{\\partial x} &amp; \\frac{\\partial }{\\partial y} &amp; \\frac{\\partial }{\\partial z} \\\\ 3y &amp; -xz &amp; yz^{2} \\end{array}\\!\\!\\right| dS=\\!\\!\\sum \\iint_{D}(-z-3)\\,dS=-\\iint_{D}(2+3)\\,t\\,x\\,dy=-5\\cdot \\pi \\cdot 2^{2}=-20\\pi . \\end{aligned}\">\\begin{aligned} \\text{解析：记}\\sum \\text{是平面}z=2\\text{上被圆周}\\Gamma \\text{所围部分的上侧，}\\sum \\text{的法向量} \\\\\\vec{n}=\\{\\cos \\alpha ,\\cos \\beta ,\\cos \\gamma \\}=\\{0,0,1\\}.\\text{由斯托克斯公式}\\\\ \\text{原式}=\\!\\!\\!\\sum \\left|\\!\\!\\!\\begin{array}{ccc} 0 &amp; 0 &amp; 1 \\\\ \\frac{\\partial }{\\partial x} &amp; \\frac{\\partial }{\\partial y} &amp; \\frac{\\partial }{\\partial z} \\\\ 3y &amp; -xz &amp; yz^{2} \\end{array}\\!\\!\\right| dS=\\!\\!\\sum \\iint_{D}(-z-3)\\,dS=-\\iint_{D}(2+3)\\,t\\,x\\,dy=-5\\cdot \\pi \\cdot 2^{2}=-20\\pi . \\end{aligned}</div>"
     },
     {
       "id": "q0009",
       "number": 9,
       "header": "#9-Averge",
       "difficulty": "Averge",
-      "prompt_html": "<img src=\"/static/generated/assets/advanced-math/ch150/q0009_prompt.png\"/>",
+      "prompt_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{array}{l} \\text {已知} \\Gamma \\text {为曲面} x^{2}+y^{2}+z^{2}=5,z=x^{2}+y^{2}+1 \\text {的交线，对着} z \\text {轴正向看} \\Gamma \\text {的方向为顺时针方向，} \\\\ \\text {则} \\oint_{\\Gamma} x^{2} y z d x + \\left(x^{2}+y^{2}\\right) dy + (x+y+1) d z = \\left(\\right). \\end{array}\">\\begin{array}{l} \\text {已知} \\Gamma \\text {为曲面} x^{2}+y^{2}+z^{2}=5,z=x^{2}+y^{2}+1 \\text {的交线，对着} z \\text {轴正向看} \\Gamma \\text {的方向为顺时针方向，} \\\\ \\text {则} \\oint_{\\Gamma} x^{2} y z d x + \\left(x^{2}+y^{2}\\right) dy + (x+y+1) d z = \\left(\\right). \\end{array}</div>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch150/q0009_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\frac { \\pi } { 6 }\">\\frac { \\pi } { 6 }</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch150/q0009_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\frac{\\pi}{4}\">\\frac{\\pi}{4}</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch150/q0009_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\frac { \\pi } { 2 }\">\\frac { \\pi } { 2 }</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch150/q0009_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\frac { \\pi } { 3 }\">\\frac { \\pi } { 3 }</span>"
         }
       ],
       "answer": "C",
       "answer_index": 2,
-      "analysis_html": "<img src=\"/static/generated/assets/advanced-math/ch150/q0009_analysis.png\"/>"
+      "analysis_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{aligned}&amp;\\text{解析：}\\Gamma \\text{所围成的平面块}\\sum \\text{为}z=2,x^2+y^2\\leq 1,\\text{方向向下。}\\\\&amp;\\therefore P=x^2yz,Q=x^2+y^2,R=x+y+1\\\\&amp;\\therefore \\oint_{\\Gamma}=-\\iint_{\\Sigma} (1-0)dydz+(x^2y-1)dzdx+(2x-x^2z)dx dy\\\\&amp;\\text{由于}\\sum \\text{在}yOz\\text{面和}zOx\\text{面上均无射影域，故}\\iint_{\\Sigma} dydz=0,\\iint_{\\Sigma} (x^2y-1)dzdx=0.\\\\&amp;\\text{而}\\sum \\text{在}xOy\\text{面上的投影域为}D: x^2+y^2\\leq 1.\\\\&amp;\\therefore \\oint_{\\Gamma}=-\\iint_{\\Sigma} (2x-x^2z)dx dy=-\\iint_{D} (2x-x^2z)dx dy=\\int_{0}^{2\\pi}\\cos^2\\theta d\\theta\\cdot \\int_{0}^{1}r^3dr=\\frac{\\pi}{2}.\\end{aligned}\">\\begin{aligned}&amp;\\text{解析：}\\Gamma \\text{所围成的平面块}\\sum \\text{为}z=2,x^2+y^2\\leq 1,\\text{方向向下。}\\\\&amp;\\therefore P=x^2yz,Q=x^2+y^2,R=x+y+1\\\\&amp;\\therefore \\oint_{\\Gamma}=-\\iint_{\\Sigma} (1-0)dydz+(x^2y-1)dzdx+(2x-x^2z)dx dy\\\\&amp;\\text{由于}\\sum \\text{在}yOz\\text{面和}zOx\\text{面上均无射影域，故}\\iint_{\\Sigma} dydz=0,\\iint_{\\Sigma} (x^2y-1)dzdx=0.\\\\&amp;\\text{而}\\sum \\text{在}xOy\\text{面上的投影域为}D: x^2+y^2\\leq 1.\\\\&amp;\\therefore \\oint_{\\Gamma}=-\\iint_{\\Sigma} (2x-x^2z)dx dy=-\\iint_{D} (2x-x^2z)dx dy=\\int_{0}^{2\\pi}\\cos^2\\theta d\\theta\\cdot \\int_{0}^{1}r^3dr=\\frac{\\pi}{2}.\\end{aligned}</div>"
     },
     {
       "id": "q0010",
       "number": 10,
       "header": "#10-Averge",
       "difficulty": "Averge",
-      "prompt_html": "<img src=\"/static/generated/assets/advanced-math/ch150/q0010_prompt.png\"/>",
+      "prompt_html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\Gamma \\ x^{2}+y^{2}+z^{2}=2Rx \\text{是与}x^{2}+y^{2}=2rx(0\\leq r\\leq R,z&gt;0)\\text{的交线。此曲线是顺着如下方向前进的：由它所包围在球面}x^{2}+y^{2}+z^{2}=2Rx\\text{上的最小区域保持在左方。则} \\oint_{\\Gamma}(y^{2}+z^{2})dx+(x^{2}+z^{2})dy+(x^{2}+y^{2})dz= \\left( \\ \\right ) 。\">\\Gamma \\ x^{2}+y^{2}+z^{2}=2Rx \\text{是与}x^{2}+y^{2}=2rx(0\\leq r\\leq R,z&gt;0)\\text{的交线。此曲线是顺着如下方向前进的：由它所包围在球面}x^{2}+y^{2}+z^{2}=2Rx\\text{上的最小区域保持在左方。则} \\oint_{\\Gamma}(y^{2}+z^{2})dx+(x^{2}+z^{2})dy+(x^{2}+y^{2})dz= \\left( \\ \\right ) 。</span>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch150/q0010_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"3 \\pi r ^ { 2 } R\">3 \\pi r ^ { 2 } R</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch150/q0010_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\, 2 \\pi r ^ { 2 } R \\,\">\\, 2 \\pi r ^ { 2 } R \\,</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch150/q0010_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\pi r ^ { 2 } R\">\\pi r ^ { 2 } R</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch150/q0010_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"0\">0</span>"
         }
       ],
       "answer": "B",
       "answer_index": 1,
-      "analysis_html": "<img src=\"/static/generated/assets/advanced-math/ch150/q0010_analysis.png\"/>"
+      "analysis_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{aligned}&amp; \\text{注意到球面的法线方向余弦为} \\\\&amp; \\cos \\alpha = \\frac{x-R}{R}, \\cos \\beta = \\frac{y}{R}, \\cos \\gamma = \\frac{z}{R} \\\\&amp; \\text{由斯托克斯公式，有} \\\\&amp; \\qquad = 2 \\iint_{\\Sigma} \\left[ \\left( y-z \\right) \\cos \\alpha + \\left( z-x \\right) \\cos \\beta + \\left( x-y \\right) \\cos \\gamma \\right] dS \\\\&amp; \\qquad = 2 \\iint_{\\Sigma} \\left[ \\left( y-z \\right) \\left( \\frac{x}{R}-1 \\right) + \\left( z-x \\right) \\frac{y}{R} + \\left( x-y \\right) \\frac{z}{R} \\right] dS \\\\&amp; \\text{原式} \\\\&amp; \\qquad = 2 \\iint_{\\Sigma} (z-y) dS \\quad (\\text{利用对称性}) \\\\&amp; \\qquad = 2 \\iint_{\\Sigma} dS = 2 \\iint_{\\Sigma} R \\cos \\gamma dS = 2 \\iint_{\\Sigma} R dx dy = 2R \\iint_{x^2+y^2 \\leq 2rx} d\\sigma = 2 \\pi r^2 R \\end{aligned}\">\\begin{aligned}&amp; \\text{注意到球面的法线方向余弦为} \\\\&amp; \\cos \\alpha = \\frac{x-R}{R}, \\cos \\beta = \\frac{y}{R}, \\cos \\gamma = \\frac{z}{R} \\\\&amp; \\text{由斯托克斯公式，有} \\\\&amp; \\qquad = 2 \\iint_{\\Sigma} \\left[ \\left( y-z \\right) \\cos \\alpha + \\left( z-x \\right) \\cos \\beta + \\left( x-y \\right) \\cos \\gamma \\right] dS \\\\&amp; \\qquad = 2 \\iint_{\\Sigma} \\left[ \\left( y-z \\right) \\left( \\frac{x}{R}-1 \\right) + \\left( z-x \\right) \\frac{y}{R} + \\left( x-y \\right) \\frac{z}{R} \\right] dS \\\\&amp; \\text{原式} \\\\&amp; \\qquad = 2 \\iint_{\\Sigma} (z-y) dS \\quad (\\text{利用对称性}) \\\\&amp; \\qquad = 2 \\iint_{\\Sigma} dS = 2 \\iint_{\\Sigma} R \\cos \\gamma dS = 2 \\iint_{\\Sigma} R dx dy = 2R \\iint_{x^2+y^2 \\leq 2rx} d\\sigma = 2 \\pi r^2 R \\end{aligned}</div>"
     },
     {
       "id": "q0011",
       "number": 11,
       "header": "#11-Averge",
       "difficulty": "Averge",
-      "prompt_html": "<img src=\"/static/generated/assets/advanced-math/ch150/q0011_prompt.png\"/>",
+      "prompt_html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\oint _ { \\Gamma } y d x + z d y + x d z = ( ) 。\">\\oint _ { \\Gamma } y d x + z d y + x d z = ( ) 。</span>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch150/q0011_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\sqrt { 3 } \\pi a ^ { 3 }\">\\sqrt { 3 } \\pi a ^ { 3 }</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch150/q0011_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"- 2 \\pi a\">- 2 \\pi a</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch150/q0011_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\sqrt { 3 } \\pi a ^ { 2 }\">\\sqrt { 3 } \\pi a ^ { 2 }</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch150/q0011_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"- \\sqrt { 3 } \\pi a ^ { 2 }\">- \\sqrt { 3 } \\pi a ^ { 2 }</span>"
         }
       ],
       "answer": "D",
       "answer_index": 3,
-      "analysis_html": "<img src=\"/static/generated/assets/advanced-math/ch150/q0011_analysis.png\"/>"
+      "analysis_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{aligned} \\text{参考答案：} \\\\ \\text{记} \\Sigma \\text{为平面} x+y+z=0 \\text{被题设圆} \\Gamma \\text{所围部分的上侧，} \\Sigma \\text{的单位法向量} \\\\ \\overrightarrow{n^i}=\\{\\cos \\alpha, \\cos \\beta, \\cos \\gamma\\}=\\{\\frac{1}{\\sqrt{3}}, \\frac{1}{\\sqrt{3}}, \\frac{1}{\\sqrt{3}}\\} \\\\ \\therefore \\text{原式}=\\iint\\limits_{\\Sigma} \\begin{vmatrix} \\frac{1}{\\sqrt{3}} &amp; \\frac{1}{\\sqrt{3}} &amp; \\frac{1}{\\sqrt{3}} \\\\ \\frac{\\partial}{\\partial x} &amp; \\frac{\\partial}{\\partial y} &amp; \\frac{\\partial}{\\partial z} \\\\ y &amp; z &amp; x \\end{vmatrix} dS=\\iint\\limits_{\\Sigma} \\left|-\\frac{1}{\\sqrt{3}}-\\frac{1}{\\sqrt{3}}-\\frac{1}{\\sqrt{3}}\\right| dS=-\\sqrt{3}\\iint\\limits_{\\Sigma} dS=-\\sqrt{3}\\pi a^2 \\end{aligned}\">\\begin{aligned} \\text{参考答案：} \\\\ \\text{记} \\Sigma \\text{为平面} x+y+z=0 \\text{被题设圆} \\Gamma \\text{所围部分的上侧，} \\Sigma \\text{的单位法向量} \\\\ \\overrightarrow{n^i}=\\{\\cos \\alpha, \\cos \\beta, \\cos \\gamma\\}=\\{\\frac{1}{\\sqrt{3}}, \\frac{1}{\\sqrt{3}}, \\frac{1}{\\sqrt{3}}\\} \\\\ \\therefore \\text{原式}=\\iint\\limits_{\\Sigma} \\begin{vmatrix} \\frac{1}{\\sqrt{3}} &amp; \\frac{1}{\\sqrt{3}} &amp; \\frac{1}{\\sqrt{3}} \\\\ \\frac{\\partial}{\\partial x} &amp; \\frac{\\partial}{\\partial y} &amp; \\frac{\\partial}{\\partial z} \\\\ y &amp; z &amp; x \\end{vmatrix} dS=\\iint\\limits_{\\Sigma} \\left|-\\frac{1}{\\sqrt{3}}-\\frac{1}{\\sqrt{3}}-\\frac{1}{\\sqrt{3}}\\right| dS=-\\sqrt{3}\\iint\\limits_{\\Sigma} dS=-\\sqrt{3}\\pi a^2 \\end{aligned}</div>"
     },
     {
       "id": "q0012",
       "number": 12,
       "header": "#12-Averge",
       "difficulty": "Averge",
-      "prompt_html": "<img src=\"/static/generated/assets/advanced-math/ch150/q0012_prompt.png\"/>",
+      "prompt_html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\oint _ { \\Gamma } 2 y d x + 3 x d y - z ^ { 2 } d z = ( \\ \\ ) 。\">\\oint _ { \\Gamma } 2 y d x + 3 x d y - z ^ { 2 } d z = ( \\ \\ ) 。</span>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch150/q0012_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"6 \\pi\">6 \\pi</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch150/q0012_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"4 \\pi\">4 \\pi</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch150/q0012_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"3 \\pi\">3 \\pi</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch150/q0012_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\boldsymbol{.9\\pi}\">\\boldsymbol{.9\\pi}</span>"
         }
       ],
       "answer": "D",
       "answer_index": 3,
-      "analysis_html": "<img src=\"/static/generated/assets/advanced-math/ch150/q0012_analysis.png\"/>"
+      "analysis_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{aligned}&amp;\\text{由斯托克斯公式}\\\\&amp;\\therefore \\text{原式}=\\iint\\limits_{z} \\left| \\begin{matrix} \\frac{\\partial}{\\partial x} &amp; \\frac{\\partial}{\\partial y} &amp; \\frac{\\partial}{\\partial z} \\\\ 2y &amp; 3x &amp; -z^{2} \\end{matrix} \\right| dS=\\iint\\limits_{z} (3-2) dxdy\\\\&amp;=\\iint\\limits_{D_{\\varphi}} dxdy=\\pi\\cdot 3^{2}=9\\pi\\\\&amp;\\text{其中 }D_{\\varphi}:x^{2}+y^{2}\\leq 9(z=0)，\\text{其半径}r=3\\end{aligned}\">\\begin{aligned}&amp;\\text{由斯托克斯公式}\\\\&amp;\\therefore \\text{原式}=\\iint\\limits_{z} \\left| \\begin{matrix} \\frac{\\partial}{\\partial x} &amp; \\frac{\\partial}{\\partial y} &amp; \\frac{\\partial}{\\partial z} \\\\ 2y &amp; 3x &amp; -z^{2} \\end{matrix} \\right| dS=\\iint\\limits_{z} (3-2) dxdy\\\\&amp;=\\iint\\limits_{D_{\\varphi}} dxdy=\\pi\\cdot 3^{2}=9\\pi\\\\&amp;\\text{其中 }D_{\\varphi}:x^{2}+y^{2}\\leq 9(z=0)，\\text{其半径}r=3\\end{aligned}</div>"
     },
     {
       "id": "q0013",
       "number": 13,
       "header": "#13-Averge",
       "difficulty": "Averge",
-      "prompt_html": "<img src=\"/static/generated/assets/advanced-math/ch150/q0013_prompt.png\"/>",
+      "prompt_html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\int \\limits _ { \\Gamma } \\phi ( y - z ) d x + ( z - x ) d y + ( x - y ) d z = ( ) 。\">\\int \\limits _ { \\Gamma } \\phi ( y - z ) d x + ( z - x ) d y + ( x - y ) d z = ( ) 。</span>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch150/q0013_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\pi a ( a + b )\">\\pi a ( a + b )</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch150/q0013_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"- \\pi a ( a + b )\">- \\pi a ( a + b )</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch150/q0013_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"2 \\pi a ( a + b )\">2 \\pi a ( a + b )</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch150/q0013_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\stackrel{.}{-} 2 \\pi a ( a + b )\">\\stackrel{.}{-} 2 \\pi a ( a + b )</span>"
         }
       ],
       "answer": "D",
       "answer_index": 3,
-      "analysis_html": "<img src=\"/static/generated/assets/advanced-math/ch150/q0013_analysis.png\"/>"
+      "analysis_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{aligned} &amp; \\overrightarrow{n}=\\{\\cos \\alpha,0,\\cos \\gamma\\}=\\{b/\\sqrt{a^{2}+b^{2}},0,a/\\sqrt{a^{2}+b^{2}}\\}\\\\ &amp; \\therefore \\text{原式}=\\iint\\limits_{\\Sigma}\\left|\\begin{array}{ccc}b/\\sqrt{a^{2}+b^{2}} &amp; 0 &amp; a/\\sqrt{a^{2}+b^{2}}\\\\ &amp; \\frac{\\partial}{\\partial x} &amp; \\frac{\\partial}{\\partial y} &amp; \\frac{\\partial}{\\partial z}\\\\ y-z &amp; z-x &amp; x-y\\end{array}\\right|dS=\\iint\\limits_{\\Sigma}\\left(\\frac{-2b}{\\sqrt{a^{2}+b^{2}}}+\\frac{-2a}{\\sqrt{a^{2}+b^{2}}}\\right)dS\\\\ &amp; =-2\\frac{a+b}{\\sqrt{a^{2}+b^{2}}}\\iint\\limits_{\\Sigma}dS=-2\\frac{a+b}{\\sqrt{a^{2}+b^{2}}}\\pi\\sqrt{a^{2}+b^{2}}\\cdot a=-2\\pi a(a+b)\\end{aligned}\">\\begin{aligned} &amp; \\overrightarrow{n}=\\{\\cos \\alpha,0,\\cos \\gamma\\}=\\{b/\\sqrt{a^{2}+b^{2}},0,a/\\sqrt{a^{2}+b^{2}}\\}\\\\ &amp; \\therefore \\text{原式}=\\iint\\limits_{\\Sigma}\\left|\\begin{array}{ccc}b/\\sqrt{a^{2}+b^{2}} &amp; 0 &amp; a/\\sqrt{a^{2}+b^{2}}\\\\ &amp; \\frac{\\partial}{\\partial x} &amp; \\frac{\\partial}{\\partial y} &amp; \\frac{\\partial}{\\partial z}\\\\ y-z &amp; z-x &amp; x-y\\end{array}\\right|dS=\\iint\\limits_{\\Sigma}\\left(\\frac{-2b}{\\sqrt{a^{2}+b^{2}}}+\\frac{-2a}{\\sqrt{a^{2}+b^{2}}}\\right)dS\\\\ &amp; =-2\\frac{a+b}{\\sqrt{a^{2}+b^{2}}}\\iint\\limits_{\\Sigma}dS=-2\\frac{a+b}{\\sqrt{a^{2}+b^{2}}}\\pi\\sqrt{a^{2}+b^{2}}\\cdot a=-2\\pi a(a+b)\\end{aligned}</div>"
     },
     {
       "id": "q0014",
       "number": 14,
       "header": "#14-Averge",
       "difficulty": "Averge",
-      "prompt_html": "<img src=\"/static/generated/assets/advanced-math/ch150/q0014_prompt.png\"/>",
+      "prompt_html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\oint _ { \\Gamma } x y z d z = ( ) 。\">\\oint _ { \\Gamma } x y z d z = ( ) 。</span>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch150/q0014_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"0\">0</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch150/q0014_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\frac { \\sqrt { 2 } } { 8 \\pi }\">\\frac { \\sqrt { 2 } } { 8 \\pi }</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch150/q0014_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\frac { \\sqrt { 3 } } { 16 \\pi }\">\\frac { \\sqrt { 3 } } { 16 \\pi }</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch150/q0014_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\frac {\\sqrt {2}}{16 \\pi}\">\\frac {\\sqrt {2}}{16 \\pi}</span>"
         }
       ],
       "answer": "D",
       "answer_index": 3,
-      "analysis_html": "<img src=\"/static/generated/assets/advanced-math/ch150/q0014_analysis.png\"/>"
+      "analysis_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{aligned}&amp;\\text{由斯托克斯公式} \\\\&amp;\\oint_{\\Gamma} xyzdz=\\iint_{\\Sigma}\\left|\\begin{matrix}dydz&amp;dzdx&amp;dxdy\\\\ \\frac{\\partial}{\\partial x}&amp;\\frac{\\partial}{\\partial y}&amp;\\frac{\\partial}{\\partial z}\\\\ 0&amp;0&amp;xyz\\end{matrix}\\right|=\\iint_{\\Sigma} xzdydz-yzdzdx\\\\&amp;\\text{其中}\\Sigma\\text{是平面}y=z\\text{上以}\\Gamma\\text{为边界的圆平面，其侧面与}\\Gamma\\text{的正向符合右手规则。显然}\\Sigma\\text{在}xOz\\text{坐标面上的投影为一线段。}\\\\&amp;\\therefore\\iint_{\\Sigma} xzdydz=0\\\\&amp;\\Sigma\\text{在}xOz\\text{坐标面上的投影为一椭圆}D: x^{2}+2z^{2}\\leq 1,\\text{且}\\Sigma\\text{的正侧方向与}y\\text{轴成钝角。}\\\\&amp;\\therefore-\\iint_{\\Sigma} yzdzdx=\\iint_{D} z^{2}dzdx\\\\&amp;\\text{令}z=\\frac{1}{\\sqrt{2}}r\\cos\\theta,x=r\\sin\\theta(0\\leq r,0\\leq\\theta\\leq 2\\pi)\\\\&amp;\\text{于是}J=\\frac{\\partial(z,x)}{\\partial(r,\\theta)}=\\left|\\begin{matrix}\\frac{1}{\\sqrt{2}}\\cos\\theta&amp;-\\frac{1}{\\sqrt{2}}r\\sin\\theta\\\\ \\sin\\theta&amp;r\\cos\\theta\\end{matrix}\\right|=\\frac{1}{\\sqrt{2}}r\\\\&amp;\\iint_{D}z^{2}dzdx=\\int_{0}^{2\\pi}d\\theta\\int_{0}^{1}\\frac{1}{2}r^{2}\\cos^{2}\\theta\\frac{1}{\\sqrt{2}}rdr=\\int_{0}^{2\\pi}\\cos^{2}\\theta d\\theta\\int_{0}^{1}\\frac{1}{2\\sqrt{2}}r^{3}dr\\\\&amp;\\therefore=\\int_{0}^{2\\pi}\\frac{1+\\cos 2\\theta}{2}d\\theta\\int_{0}^{1}\\frac{1}{2\\sqrt{2}}r^{3}dr=\\frac{1}{2}\\cdot 2\\pi\\cdot\\frac{1}{2\\sqrt{2}}\\cdot\\frac{1}{4}=\\frac{\\sqrt{2}}{16}\\pi\\\\&amp;\\text{故所求积分}\\oint_{\\Gamma}xyzdz=\\frac{\\sqrt{2}}{16}\\pi\\end{aligned}\">\\begin{aligned}&amp;\\text{由斯托克斯公式} \\\\&amp;\\oint_{\\Gamma} xyzdz=\\iint_{\\Sigma}\\left|\\begin{matrix}dydz&amp;dzdx&amp;dxdy\\\\ \\frac{\\partial}{\\partial x}&amp;\\frac{\\partial}{\\partial y}&amp;\\frac{\\partial}{\\partial z}\\\\ 0&amp;0&amp;xyz\\end{matrix}\\right|=\\iint_{\\Sigma} xzdydz-yzdzdx\\\\&amp;\\text{其中}\\Sigma\\text{是平面}y=z\\text{上以}\\Gamma\\text{为边界的圆平面，其侧面与}\\Gamma\\text{的正向符合右手规则。显然}\\Sigma\\text{在}xOz\\text{坐标面上的投影为一线段。}\\\\&amp;\\therefore\\iint_{\\Sigma} xzdydz=0\\\\&amp;\\Sigma\\text{在}xOz\\text{坐标面上的投影为一椭圆}D: x^{2}+2z^{2}\\leq 1,\\text{且}\\Sigma\\text{的正侧方向与}y\\text{轴成钝角。}\\\\&amp;\\therefore-\\iint_{\\Sigma} yzdzdx=\\iint_{D} z^{2}dzdx\\\\&amp;\\text{令}z=\\frac{1}{\\sqrt{2}}r\\cos\\theta,x=r\\sin\\theta(0\\leq r,0\\leq\\theta\\leq 2\\pi)\\\\&amp;\\text{于是}J=\\frac{\\partial(z,x)}{\\partial(r,\\theta)}=\\left|\\begin{matrix}\\frac{1}{\\sqrt{2}}\\cos\\theta&amp;-\\frac{1}{\\sqrt{2}}r\\sin\\theta\\\\ \\sin\\theta&amp;r\\cos\\theta\\end{matrix}\\right|=\\frac{1}{\\sqrt{2}}r\\\\&amp;\\iint_{D}z^{2}dzdx=\\int_{0}^{2\\pi}d\\theta\\int_{0}^{1}\\frac{1}{2}r^{2}\\cos^{2}\\theta\\frac{1}{\\sqrt{2}}rdr=\\int_{0}^{2\\pi}\\cos^{2}\\theta d\\theta\\int_{0}^{1}\\frac{1}{2\\sqrt{2}}r^{3}dr\\\\&amp;\\therefore=\\int_{0}^{2\\pi}\\frac{1+\\cos 2\\theta}{2}d\\theta\\int_{0}^{1}\\frac{1}{2\\sqrt{2}}r^{3}dr=\\frac{1}{2}\\cdot 2\\pi\\cdot\\frac{1}{2\\sqrt{2}}\\cdot\\frac{1}{4}=\\frac{\\sqrt{2}}{16}\\pi\\\\&amp;\\text{故所求积分}\\oint_{\\Gamma}xyzdz=\\frac{\\sqrt{2}}{16}\\pi\\end{aligned}</div>"
     },
     {
       "id": "q0015",
       "number": 15,
       "header": "#15-Averge",
       "difficulty": "Averge",
-      "prompt_html": "<img src=\"/static/generated/assets/advanced-math/ch150/q0015_prompt.png\"/>",
+      "prompt_html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\oint _ { \\Gamma } y dx + z dy + x dz = (\">\\oint _ { \\Gamma } y dx + z dy + x dz = (</span>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch150/q0015_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\sqrt{3} \\pi a ^ { 2 }\">\\sqrt{3} \\pi a ^ { 2 }</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch150/q0015_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"- \\sqrt { 3 } \\pi a ^ { 2 }\">- \\sqrt { 3 } \\pi a ^ { 2 }</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch150/q0015_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\sqrt { 3 } \\pi a ^ { 3 }\">\\sqrt { 3 } \\pi a ^ { 3 }</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch150/q0015_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"- 2 \\pi a ^ { 2 }\">- 2 \\pi a ^ { 2 }</span>"
         }
       ],
       "answer": "B",
       "answer_index": 1,
-      "analysis_html": "<img src=\"/static/generated/assets/advanced-math/ch150/q0015_analysis.png\"/>"
+      "analysis_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{aligned} \\text{解析：记}\\sum \\text{为平面}x+y+z=0 \\text{被题设圆} \\Gamma \\text{所围部分的上侧，}\\sum \\text{的单位法向量}\\\\ \\vec{n}=\\{\\cos \\alpha, \\cos \\beta, \\cos \\gamma\\}=\\left\\{\\frac{1}{\\sqrt{3}}, \\frac{1}{\\sqrt{3}}, \\frac{1}{\\sqrt{3}}\\right\\}, \\\\ =\\iint\\limits_{\\sum}\\left|\\begin{matrix} \\frac{1}{\\sqrt{3}} &amp; \\frac{1}{\\sqrt{3}} &amp; \\frac{1}{\\sqrt{3}} \\\\ \\frac{\\partial}{\\partial x} &amp; \\frac{\\partial}{\\partial y} &amp; \\frac{\\partial}{\\partial z} \\\\ y &amp; z &amp; x \\end{matrix}\\right| dS=\\iint\\limits_{\\sum}\\left|-\\frac{1}{\\sqrt{3}}-\\frac{1}{\\sqrt{3}}-\\frac{1}{\\sqrt{3}}\\right| dS\\\\ \\text{原式}\\quad=-\\sqrt{3}\\iint\\limits_{\\sum}dS=-\\sqrt{3}\\pi a^{2}.\\end{aligned}\">\\begin{aligned} \\text{解析：记}\\sum \\text{为平面}x+y+z=0 \\text{被题设圆} \\Gamma \\text{所围部分的上侧，}\\sum \\text{的单位法向量}\\\\ \\vec{n}=\\{\\cos \\alpha, \\cos \\beta, \\cos \\gamma\\}=\\left\\{\\frac{1}{\\sqrt{3}}, \\frac{1}{\\sqrt{3}}, \\frac{1}{\\sqrt{3}}\\right\\}, \\\\ =\\iint\\limits_{\\sum}\\left|\\begin{matrix} \\frac{1}{\\sqrt{3}} &amp; \\frac{1}{\\sqrt{3}} &amp; \\frac{1}{\\sqrt{3}} \\\\ \\frac{\\partial}{\\partial x} &amp; \\frac{\\partial}{\\partial y} &amp; \\frac{\\partial}{\\partial z} \\\\ y &amp; z &amp; x \\end{matrix}\\right| dS=\\iint\\limits_{\\sum}\\left|-\\frac{1}{\\sqrt{3}}-\\frac{1}{\\sqrt{3}}-\\frac{1}{\\sqrt{3}}\\right| dS\\\\ \\text{原式}\\quad=-\\sqrt{3}\\iint\\limits_{\\sum}dS=-\\sqrt{3}\\pi a^{2}.\\end{aligned}</div>"
     },
     {
       "id": "q0016",
       "number": 16,
       "header": "#16-Averge",
       "difficulty": "Averge",
-      "prompt_html": "<img src=\"/static/generated/assets/advanced-math/ch150/q0016_prompt.png\"/>",
+      "prompt_html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\oint _ { \\Gamma } x ^ { 2 } y z d x + ( x ^ { 2 } + y ^ { 2 } ) d y + ( x + y + 1 ) d z = ( ) .\">\\oint _ { \\Gamma } x ^ { 2 } y z d x + ( x ^ { 2 } + y ^ { 2 } ) d y + ( x + y + 1 ) d z = ( ) .</span>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch150/q0016_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\frac { \\pi } { 6 }\">\\frac { \\pi } { 6 }</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch150/q0016_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\frac { \\pi } { 4 }\">\\frac { \\pi } { 4 }</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch150/q0016_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\frac{\\pi}{3}\">\\frac{\\pi}{3}</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch150/q0016_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\frac { \\pi } { 2 }\">\\frac { \\pi } { 2 }</span>"
         }
       ],
       "answer": "D",
       "answer_index": 3,
-      "analysis_html": "<img src=\"/static/generated/assets/advanced-math/ch150/q0016_analysis.png\"/>"
+      "analysis_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{aligned}\\Gamma \\text{所围成的平面块}\\Sigma \\text{为} &amp; z=2,x^2+y^2\\leq 1,\\text{方向向下。}\\\\ \\text{因为} &amp; P=x^2yz,Q=x^2+y^2,R=x+y+1\\\\ \\therefore &amp; \\oint_{\\Gamma}\\int_{\\Sigma} (1-0)dydz+(x^2y-1)dzdx+(2x-x^2z)dx dy\\\\ \\therefore \\text{由于}\\Sigma \\text{在} &amp; xOz\\text{面及} zOx\\text{面上均无投影域，故}\\iint_{\\Sigma} dydz=0,\\iint_{\\Sigma} (x^2y-1)dzdx=0。\\\\ \\text{而}\\Sigma \\text{在} &amp; xOz\\text{面上的投影域为}D: x^2+y^2\\leq 1\\\\ \\therefore &amp; \\oint_{\\Gamma}\\int_{\\Sigma} (2x-x^2z)dx dy=-\\iint_{D} (2x-x^2z)dx dy=\\int_{0}^{2\\pi}\\cos^2\\theta d\\theta\\cdot\\int_{0}^{1}r^3dr=\\frac{\\pi}{2}\\end{aligned}\">\\begin{aligned}\\Gamma \\text{所围成的平面块}\\Sigma \\text{为} &amp; z=2,x^2+y^2\\leq 1,\\text{方向向下。}\\\\ \\text{因为} &amp; P=x^2yz,Q=x^2+y^2,R=x+y+1\\\\ \\therefore &amp; \\oint_{\\Gamma}\\int_{\\Sigma} (1-0)dydz+(x^2y-1)dzdx+(2x-x^2z)dx dy\\\\ \\therefore \\text{由于}\\Sigma \\text{在} &amp; xOz\\text{面及} zOx\\text{面上均无投影域，故}\\iint_{\\Sigma} dydz=0,\\iint_{\\Sigma} (x^2y-1)dzdx=0。\\\\ \\text{而}\\Sigma \\text{在} &amp; xOz\\text{面上的投影域为}D: x^2+y^2\\leq 1\\\\ \\therefore &amp; \\oint_{\\Gamma}\\int_{\\Sigma} (2x-x^2z)dx dy=-\\iint_{D} (2x-x^2z)dx dy=\\int_{0}^{2\\pi}\\cos^2\\theta d\\theta\\cdot\\int_{0}^{1}r^3dr=\\frac{\\pi}{2}\\end{aligned}</div>"
     },
     {
       "id": "q0017",
       "number": 17,
       "header": "#17-Averge",
       "difficulty": "Averge",
-      "prompt_html": "<img src=\"/static/generated/assets/advanced-math/ch150/q0017_prompt.png\"/>",
+      "prompt_html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\oint_{\\widetilde{AmB}}(x^{2}-yz)dx+(y^{2}-xz)dy+(z^{2}-xy)dz=()。\">\\oint_{\\widetilde{AmB}}(x^{2}-yz)dx+(y^{2}-xz)dy+(z^{2}-xy)dz=()。</span>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch150/q0017_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"2 h ^ { 3 }\">2 h ^ { 3 }</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch150/q0017_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\frac{1}{2} h ^ { 3 }\">\\frac{1}{2} h ^ { 3 }</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch150/q0017_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\frac { 1 } { 3 } h ^ { 3 }\">\\frac { 1 } { 3 } h ^ { 3 }</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch150/q0017_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"h ^ { 3 }\">h ^ { 3 }</span>"
         }
       ],
       "answer": "C",
       "answer_index": 2,
-      "analysis_html": "<img src=\"/static/generated/assets/advanced-math/ch150/q0017_analysis.png\"/>"
+      "analysis_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{aligned}&amp;\\text{参考答案：}\\\\&amp;\\text{用直线段}BA\\text{连接曲线}AmB\\text{的两端，构成一封闭曲线}L^+,BA\\text{的方程为}\\\\&amp;x=a,y=0(0\\leq z\\leq h)\\\\&amp;\\therefore\\int\\limits_{AB}(x^2-yz)dx+(y^2-xz)dy+(z^2-xy)dz=\\int_0^bz^2dz=\\frac{1}{3}h^3\\\\&amp;\\text{设}P=x^2-yz,Q=y^2-xz,R=z^2-xy，\\text{则}\\\\&amp;\\frac{\\partial P}{\\partial y}-\\frac{\\partial Q}{\\partial z}=-x-(-x)=0,\\frac{\\partial P}{\\partial z}-\\frac{\\partial R}{\\partial x}=0,\\frac{\\partial Q}{\\partial x}-\\frac{\\partial P}{\\partial y}=0\\\\&amp;\\oint\\limits_{L}(x^2-yz)dx+(y^2-xz)dy+(z^2-xy)dz=0\\\\&amp;\\text{即}\\int\\limits_{AmB}\\cdots+\\int\\limits_{\\widetilde{B}4}\\cdots+\\int\\limits_{\\widetilde{B}4}=\\frac{1}{3}h^3\\end{aligned}\">\\begin{aligned}&amp;\\text{参考答案：}\\\\&amp;\\text{用直线段}BA\\text{连接曲线}AmB\\text{的两端，构成一封闭曲线}L^+,BA\\text{的方程为}\\\\&amp;x=a,y=0(0\\leq z\\leq h)\\\\&amp;\\therefore\\int\\limits_{AB}(x^2-yz)dx+(y^2-xz)dy+(z^2-xy)dz=\\int_0^bz^2dz=\\frac{1}{3}h^3\\\\&amp;\\text{设}P=x^2-yz,Q=y^2-xz,R=z^2-xy，\\text{则}\\\\&amp;\\frac{\\partial P}{\\partial y}-\\frac{\\partial Q}{\\partial z}=-x-(-x)=0,\\frac{\\partial P}{\\partial z}-\\frac{\\partial R}{\\partial x}=0,\\frac{\\partial Q}{\\partial x}-\\frac{\\partial P}{\\partial y}=0\\\\&amp;\\oint\\limits_{L}(x^2-yz)dx+(y^2-xz)dy+(z^2-xy)dz=0\\\\&amp;\\text{即}\\int\\limits_{AmB}\\cdots+\\int\\limits_{\\widetilde{B}4}\\cdots+\\int\\limits_{\\widetilde{B}4}=\\frac{1}{3}h^3\\end{aligned}</div>"
     },
     {
       "id": "q0018",
       "number": 18,
       "header": "#18-Averge",
       "difficulty": "Averge",
-      "prompt_html": "<img src=\"/static/generated/assets/advanced-math/ch150/q0018_prompt.png\"/>",
+      "prompt_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{array}{l} \\text {已知} \\Gamma \\text {为圆周} \\{ \\begin{array}{l} y^{2}+z^{2}=R^{2} \\\\ x=0 \\end{array}, \\text {且对着} x \\text {轴正向看} \\Gamma \\text {时} \\Gamma \\text {的方向为逆时针方向，} R&gt;0。 \\text {则} \\\\ \\oint_{\\Gamma} (e^{x}+x^{2}y^{2}z^{2})dx+(e^{y}-y^{2}z)dy+(e^{z}+yz^{2})dz=()。 \\end{array}\">\\begin{array}{l} \\text {已知} \\Gamma \\text {为圆周} \\{ \\begin{array}{l} y^{2}+z^{2}=R^{2} \\\\ x=0 \\end{array}, \\text {且对着} x \\text {轴正向看} \\Gamma \\text {时} \\Gamma \\text {的方向为逆时针方向，} R&gt;0。 \\text {则} \\\\ \\oint_{\\Gamma} (e^{x}+x^{2}y^{2}z^{2})dx+(e^{y}-y^{2}z)dy+(e^{z}+yz^{2})dz=()。 \\end{array}</div>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch150/q0018_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\frac { \\pi } { 3 } R ^ { 4 }\">\\frac { \\pi } { 3 } R ^ { 4 }</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch150/q0018_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\frac { \\pi } { 6 } R ^ { 4 }\">\\frac { \\pi } { 6 } R ^ { 4 }</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch150/q0018_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\frac { \\pi } { 4 } R ^ { 4 }\">\\frac { \\pi } { 4 } R ^ { 4 }</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch150/q0018_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\frac { \\pi } { 2 } R ^ { 4 }\">\\frac { \\pi } { 2 } R ^ { 4 }</span>"
         }
       ],
       "answer": "D",
       "answer_index": 3,
-      "analysis_html": "<img src=\"/static/generated/assets/advanced-math/ch150/q0018_analysis.png\"/>"
+      "analysis_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{aligned}&amp;\\Gamma \\text{所围曲面} \\Sigma \\text{为圆块：} x=0,y^2+z^2 \\leq R^2, \\text{法线方向与} Ox \\text{轴正向相同。}\\\\&amp;P=e^x+x^2y^2z^2,Q=e^y-y^2z,R=e^x+yz^2\\\\&amp;\\oint\\limits_{\\Gamma}\\int\\limits_{\\Sigma} \\left( (z^2+y^2) dy dz+2x^2y^2z dz dx-2x^2yz^2dx dy \\right.\\\\&amp;\\text{因为} \\Sigma \\text{在} xOz, \\ xOy \\text{面上无投影}\\\\&amp;\\therefore \\iint\\limits_{\\Sigma} 2x^2y^2z dx dz=\\iint\\limits_{\\Sigma} 2x^2yz^2dx dy=0\\\\&amp;\\text{又} \\Sigma \\text{在} yOz \\text{面上的投影域} D: x^2+z^2 \\leq R^2\\\\&amp;\\therefore \\oint\\limits_{\\Gamma}\\int\\limits_{D} (y^2+z^2) dy dz=\\int_{0}^{2\\pi} d\\theta \\int_{0}^{R} r^3 dr=\\frac{\\pi}{2}R^4\\end{aligned}\">\\begin{aligned}&amp;\\Gamma \\text{所围曲面} \\Sigma \\text{为圆块：} x=0,y^2+z^2 \\leq R^2, \\text{法线方向与} Ox \\text{轴正向相同。}\\\\&amp;P=e^x+x^2y^2z^2,Q=e^y-y^2z,R=e^x+yz^2\\\\&amp;\\oint\\limits_{\\Gamma}\\int\\limits_{\\Sigma} \\left( (z^2+y^2) dy dz+2x^2y^2z dz dx-2x^2yz^2dx dy \\right.\\\\&amp;\\text{因为} \\Sigma \\text{在} xOz, \\ xOy \\text{面上无投影}\\\\&amp;\\therefore \\iint\\limits_{\\Sigma} 2x^2y^2z dx dz=\\iint\\limits_{\\Sigma} 2x^2yz^2dx dy=0\\\\&amp;\\text{又} \\Sigma \\text{在} yOz \\text{面上的投影域} D: x^2+z^2 \\leq R^2\\\\&amp;\\therefore \\oint\\limits_{\\Gamma}\\int\\limits_{D} (y^2+z^2) dy dz=\\int_{0}^{2\\pi} d\\theta \\int_{0}^{R} r^3 dr=\\frac{\\pi}{2}R^4\\end{aligned}</div>"
     },
     {
       "id": "q0019",
       "number": 19,
       "header": "#19-Averge",
       "difficulty": "Averge",
-      "prompt_html": "<img src=\"/static/generated/assets/advanced-math/ch150/q0019_prompt.png\"/>",
+      "prompt_html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\oint _ { \\Gamma } ( z - y ) d x + ( x - z ) d y + ( y - x ) d z = ( ) 。\">\\oint _ { \\Gamma } ( z - y ) d x + ( x - z ) d y + ( y - x ) d z = ( ) 。</span>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch150/q0019_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"3 a ^ { 2 }\">3 a ^ { 2 }</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch150/q0019_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"3 a ^ { 3 }\">3 a ^ { 3 }</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch150/q0019_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"4 a ^ { 2 }\">4 a ^ { 2 }</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch150/q0019_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"5 a ^ { 2 }\">5 a ^ { 2 }</span>"
         }
       ],
       "answer": "A",
       "answer_index": 0,
-      "analysis_html": "<img src=\"/static/generated/assets/advanced-math/ch150/q0019_analysis.png\"/>"
+      "analysis_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{array}{l} \\text {参考答案：} \\\\ \\text {记三角形平面块为} \\Sigma , \\text {由} \\Gamma \\text {方向知} \\Sigma \\text {的外法向与} O z \\text {轴成锐角。} \\\\ P = z - y , Q = x - z , R = y - x \\\\ \\therefore \\oint _ { S } = 2 \\iint _ { \\Sigma } d y d z + d z d x + d x d y \\\\ \\text {由对称性} \\iint _ { \\Sigma } d y d z = \\iint _ { \\Sigma } d z d x = \\iint _ { \\Sigma } d x d y \\\\ \\therefore \\oint _ { S } = 6 \\iint _ { \\Sigma } d x d y = 6 \\cdot \\frac { 1 } { 2 } a \\cdot a = 3 a ^ { 2 } \\end{array}\">\\begin{array}{l} \\text {参考答案：} \\\\ \\text {记三角形平面块为} \\Sigma , \\text {由} \\Gamma \\text {方向知} \\Sigma \\text {的外法向与} O z \\text {轴成锐角。} \\\\ P = z - y , Q = x - z , R = y - x \\\\ \\therefore \\oint _ { S } = 2 \\iint _ { \\Sigma } d y d z + d z d x + d x d y \\\\ \\text {由对称性} \\iint _ { \\Sigma } d y d z = \\iint _ { \\Sigma } d z d x = \\iint _ { \\Sigma } d x d y \\\\ \\therefore \\oint _ { S } = 6 \\iint _ { \\Sigma } d x d y = 6 \\cdot \\frac { 1 } { 2 } a \\cdot a = 3 a ^ { 2 } \\end{array}</div>"
     }
-  ]
+  ],
+  "format": "latex",
+  "source_md": "gs/9.8.1_斯托克斯公式(19题)/9.8.1_斯托克斯公式(19题).md"
 }

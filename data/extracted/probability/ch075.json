@@ -13,84 +13,86 @@
       "number": 1,
       "header": "#1-Averge",
       "difficulty": "Averge",
-      "prompt_html": "<img src=\"/static/generated/assets/probability/ch075/q0001_prompt.png\"/>",
+      "prompt_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{array}{l} \\text{设} \\, X \\text{与} Y \\text{相互独立，且} E(X) = E(Y) = 0 \\,, \\ D(X) = D(Y) = 1 \\,, \\text{则} E[(X + 2Y)^2] = (\\ ) \\,. \\end{array}\">\\begin{array}{l} \\text{设} \\, X \\text{与} Y \\text{相互独立，且} E(X) = E(Y) = 0 \\,, \\ D(X) = D(Y) = 1 \\,, \\text{则} E[(X + 2Y)^2] = (\\ ) \\,. \\end{array}</div>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/probability/ch075/q0001_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"5\">5</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/probability/ch075/q0001_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"1\">1</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/probability/ch075/q0001_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"^ 3\">^ 3</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/probability/ch075/q0001_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"7\">7</span>"
         }
       ],
       "answer": "A",
       "answer_index": 0,
-      "analysis_html": "<img src=\"/static/generated/assets/probability/ch075/q0001_analysis.png\"/>"
+      "analysis_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{aligned}&amp;\\text{因为 }E[(X+2Y)^2]=E(X^2)+4E(XY)+4E(Y^2)\\,,\\\\&amp;\\text{又因 }X,Y\\text{独立，有 }E(XY)=E(X)E(Y)=0\\,,\\\\&amp;\\text{因为 }E(X^2)=D(X)+E^2(X)=1\\,,\\,\\,\\,E(Y^2)=D(Y)+E^2(Y)=1\\,,\\\\&amp;\\text{故 }E[(X+2Y)^2]=5\\,.\\end{aligned}\">\\begin{aligned}&amp;\\text{因为 }E[(X+2Y)^2]=E(X^2)+4E(XY)+4E(Y^2)\\,,\\\\&amp;\\text{又因 }X,Y\\text{独立，有 }E(XY)=E(X)E(Y)=0\\,,\\\\&amp;\\text{因为 }E(X^2)=D(X)+E^2(X)=1\\,,\\,\\,\\,E(Y^2)=D(Y)+E^2(Y)=1\\,,\\\\&amp;\\text{故 }E[(X+2Y)^2]=5\\,.\\end{aligned}</div>"
     },
     {
       "id": "q0002",
       "number": 2,
       "header": "#2-Averge",
       "difficulty": "Averge",
-      "prompt_html": "<img src=\"/static/generated/assets/probability/ch075/q0002_prompt.png\"/>",
+      "prompt_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{array}{l} \\text{设}X \\text{为一随机变量，}E(X) = \\mu , D(X) = \\sigma ^{2} (\\sigma &gt; 0), \\text{则对于任意常数}c, \\text{必有( )成立。} \\end{array}\">\\begin{array}{l} \\text{设}X \\text{为一随机变量，}E(X) = \\mu , D(X) = \\sigma ^{2} (\\sigma &gt; 0), \\text{则对于任意常数}c, \\text{必有( )成立。} \\end{array}</div>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/probability/ch075/q0002_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\begin{aligned}E^2(X-c) \\geq E(X-\\mu)\\end{aligned}\">\\begin{aligned}E^2(X-c) \\geq E(X-\\mu)\\end{aligned}</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/probability/ch075/q0002_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\begin{aligned}E^2(X-c)=E(X^2)-c^2\\end{aligned}\">\\begin{aligned}E^2(X-c)=E(X^2)-c^2\\end{aligned}</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/probability/ch075/q0002_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\begin{aligned}E^2(X-c)=E(X-\\mu^2)\\end{aligned}\">\\begin{aligned}E^2(X-c)=E(X-\\mu^2)\\end{aligned}</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/probability/ch075/q0002_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"E^{2}(X-c) &lt; E(X-\\mu)\">E^{2}(X-c) &lt; E(X-\\mu)</span>"
         }
       ],
       "answer": "A",
       "answer_index": 0,
-      "analysis_html": "<img src=\"/static/generated/assets/probability/ch075/q0002_analysis.png\"/>"
+      "analysis_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{aligned}&amp;E^2(X-c)=(\\mu-c)^2\\,,\\,\\,\\,E(X-\\mu)=E(X)-\\mu=0\\,,\\\\&amp;\\text{显然有}E^2(X-c)\\geq E(X-\\mu)\\,.\\end{aligned}\">\\begin{aligned}&amp;E^2(X-c)=(\\mu-c)^2\\,,\\,\\,\\,E(X-\\mu)=E(X)-\\mu=0\\,,\\\\&amp;\\text{显然有}E^2(X-c)\\geq E(X-\\mu)\\,.\\end{aligned}</div>"
     },
     {
       "id": "q0003",
       "number": 3,
       "header": "#3-Averge",
       "difficulty": "Averge",
-      "prompt_html": "<img src=\"/static/generated/assets/probability/ch075/q0003_prompt.png\"/>",
+      "prompt_html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{设}\\,\\xi \\text{与}\\eta \\text{独立，且}E(\\xi )=E(\\eta )=0\\,,\\,\\,D(\\xi )=D(\\eta )=1\\,,\\text{则}E[(\\xi +\\eta )^{2}]=(\\,\\,).\">\\text{设}\\,\\xi \\text{与}\\eta \\text{独立，且}E(\\xi )=E(\\eta )=0\\,,\\,\\,D(\\xi )=D(\\eta )=1\\,,\\text{则}E[(\\xi +\\eta )^{2}]=(\\,\\,).</span>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/probability/ch075/q0003_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"_{\\text{ 2 }}\">_{\\text{ 2 }}</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/probability/ch075/q0003_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"1\">1</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/probability/ch075/q0003_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"^ 3\">^ 3</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/probability/ch075/q0003_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"4\">4</span>"
         }
       ],
       "answer": "A",
       "answer_index": 0,
-      "analysis_html": "<img src=\"/static/generated/assets/probability/ch075/q0003_analysis.png\"/>"
+      "analysis_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{aligned}E[(\\xi+\\eta)^2] &amp;= E(\\xi^2+\\eta^2+2\\xi\\eta) \\, = E(\\xi^2) \\, + E(\\eta^2) \\\\&amp;= D(\\xi) + [E(\\xi)]^2 + D(\\eta) + [E(\\eta)]^2 = 2 \\; .\\end{aligned}\">\\begin{aligned}E[(\\xi+\\eta)^2] &amp;= E(\\xi^2+\\eta^2+2\\xi\\eta) \\, = E(\\xi^2) \\, + E(\\eta^2) \\\\&amp;= D(\\xi) + [E(\\xi)]^2 + D(\\eta) + [E(\\eta)]^2 = 2 \\; .\\end{aligned}</div>"
     }
-  ]
+  ],
+  "format": "latex",
+  "source_md": "gl/4.2.2.1_离散型随机变量的方差(3题)/4.2.2.1_离散型随机变量的方差(3题).md"
 }

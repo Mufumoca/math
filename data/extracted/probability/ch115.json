@@ -13,616 +13,618 @@
       "number": 1,
       "header": "#1-Averge",
       "difficulty": "Averge",
-      "prompt_html": "<img src=\"/static/generated/assets/probability/ch115/q0001_prompt.png\"/>",
+      "prompt_html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{一批产品中含有废品，从中随机地抽取} 60 \\text{件，发现废品} 4 \\text{件，试用矩估计法估计这批产品的废品率为} (\\ \\ ).\">\\text{一批产品中含有废品，从中随机地抽取} 60 \\text{件，发现废品} 4 \\text{件，试用矩估计法估计这批产品的废品率为} (\\ \\ ).</span>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/probability/ch115/q0001_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\frac { 1 } { 15 }\">\\frac { 1 } { 15 }</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/probability/ch115/q0001_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\frac { 2 } { 15 }\">\\frac { 2 } { 15 }</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/probability/ch115/q0001_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\frac { 1 } { 5 }\">\\frac { 1 } { 5 }</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/probability/ch115/q0001_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\frac { 4 } { 15 }\">\\frac { 4 } { 15 }</span>"
         }
       ],
       "answer": "A",
       "answer_index": 0,
-      "analysis_html": "<img src=\"/static/generated/assets/probability/ch115/q0001_analysis.png\"/>"
+      "analysis_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{aligned} &amp; \\text{设}p \\text{为抽得废品的概率,}1-p \\text{为抽得正品的概率(放回抽取).} \\text{引入随机变量} \\\\ &amp; \\qquad \\qquad X_{i}=\\begin{cases} 1, &amp; \\text{第}i \\text{次抽取到的是废品} \\\\ 0, &amp; \\text{第}i \\text{次抽取到的是正品} \\end{cases}, \\\\ &amp; \\text{于是}P\\{X_{i}=1\\}=p, \\, P\\{X_{i}=0\\}=1-p=q, \\,\\, i=1,2,\\cdots,60 \\,\\text{且}E(X_{i})=p. \\,\\,\\text{故对于样本}X_{1},X_{2},\\cdots,X_{60} \\text{的一组观测值}x_{1},x_{2},\\cdots,x_{60}, \\,\\text{由矩估计法得}p \\text{的估计值为} \\\\ &amp; \\qquad \\qquad \\qquad \\qquad \\qquad \\qquad \\qquad \\qquad \\qquad \\qquad \\qquad \\qquad \\qquad \\qquad \\qquad \\qquad \\qquad \\qquad \\qquad \\qquad \\qquad \\qquad \\qquad \\qquad \\qquad \\qquad \\qquad \\qquad \\qquad \\qquad \\qquad \\qquad \\qquad \\qquad \\qquad \\qquad \\qquad \\qquad \\qquad \\qquad \\qquad \\qquad \\qquad \\qquad \\qquad \\qquad \\qquad \\qquad \\qquad \\qquad \\qquad \\qquad \\qquad \\qquad \\qquad \\qquad \\qquad \\qquad \\qquad \\qquad \\qquad \\qquad \\qquad \\qquad \\qquad \\qquad \\qquad \\qquad \\qquad \\qquad \\qquad \\qquad \\qquad \\qquad \\qquad \\qquad \\qquad \\qquad \\qquad \\qquad \\qquad \\qquad \\qquad \\qquad \\qquad \\qquad \\qquad \\qquad \\qquad \\qquad \\qquad \\end{aligned}\">\\begin{aligned} &amp; \\text{设}p \\text{为抽得废品的概率,}1-p \\text{为抽得正品的概率(放回抽取).} \\text{引入随机变量} \\\\ &amp; \\qquad \\qquad X_{i}=\\begin{cases} 1, &amp; \\text{第}i \\text{次抽取到的是废品} \\\\ 0, &amp; \\text{第}i \\text{次抽取到的是正品} \\end{cases}, \\\\ &amp; \\text{于是}P\\{X_{i}=1\\}=p, \\, P\\{X_{i}=0\\}=1-p=q, \\,\\, i=1,2,\\cdots,60 \\,\\text{且}E(X_{i})=p. \\,\\,\\text{故对于样本}X_{1},X_{2},\\cdots,X_{60} \\text{的一组观测值}x_{1},x_{2},\\cdots,x_{60}, \\,\\text{由矩估计法得}p \\text{的估计值为} \\\\ &amp; \\qquad \\qquad \\qquad \\qquad \\qquad \\qquad \\qquad \\qquad \\qquad \\qquad \\qquad \\qquad \\qquad \\qquad \\qquad \\qquad \\qquad \\qquad \\qquad \\qquad \\qquad \\qquad \\qquad \\qquad \\qquad \\qquad \\qquad \\qquad \\qquad \\qquad \\qquad \\qquad \\qquad \\qquad \\qquad \\qquad \\qquad \\qquad \\qquad \\qquad \\qquad \\qquad \\qquad \\qquad \\qquad \\qquad \\qquad \\qquad \\qquad \\qquad \\qquad \\qquad \\qquad \\qquad \\qquad \\qquad \\qquad \\qquad \\qquad \\qquad \\qquad \\qquad \\qquad \\qquad \\qquad \\qquad \\qquad \\qquad \\qquad \\qquad \\qquad \\qquad \\qquad \\qquad \\qquad \\qquad \\qquad \\qquad \\qquad \\qquad \\qquad \\qquad \\qquad \\qquad \\qquad \\qquad \\qquad \\qquad \\qquad \\qquad \\qquad \\end{aligned}</div>"
     },
     {
       "id": "q0002",
       "number": 2,
       "header": "#2-Averge",
       "difficulty": "Averge",
-      "prompt_html": "<img src=\"/static/generated/assets/probability/ch115/q0002_prompt.png\"/>",
+      "prompt_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{aligned}\\text{设总体} \\lambda  \\text{的概率分布为}\\\\ \\begin{array}{|c|c|c|c|} \\hline \\lambda &amp; 1 &amp; 2 &amp; 3 \\\\ \\hline p_{i} &amp; \\theta^{2} &amp; 2\\theta(1-\\theta) &amp; (1-\\theta)^{2} \\\\ \\hline \\end{array} \\qquad \\text{其中} \\theta \\text{为未知参数.现抽得一个样本} x_{1}=1,x_{2}=2,x_{3}=1, \\text{则} \\theta \\text{的矩估计值为}（\\quad）. \\end{aligned}\">\\begin{aligned}\\text{设总体} \\lambda  \\text{的概率分布为}\\\\ \\begin{array}{|c|c|c|c|} \\hline \\lambda &amp; 1 &amp; 2 &amp; 3 \\\\ \\hline p_{i} &amp; \\theta^{2} &amp; 2\\theta(1-\\theta) &amp; (1-\\theta)^{2} \\\\ \\hline \\end{array} \\qquad \\text{其中} \\theta \\text{为未知参数.现抽得一个样本} x_{1}=1,x_{2}=2,x_{3}=1, \\text{则} \\theta \\text{的矩估计值为}（\\quad）. \\end{aligned}</div>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/probability/ch115/q0002_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\frac { 5 } { 6 }\">\\frac { 5 } { 6 }</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/probability/ch115/q0002_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\frac { 1 } { 3 }\">\\frac { 1 } { 3 }</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/probability/ch115/q0002_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\frac { 2 } { 5 }\">\\frac { 2 } { 5 }</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/probability/ch115/q0002_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\frac { 1 } { 2 }\">\\frac { 1 } { 2 }</span>"
         }
       ],
       "answer": "A",
       "answer_index": 0,
-      "analysis_html": "<img src=\"/static/generated/assets/probability/ch115/q0002_analysis.png\"/>"
+      "analysis_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{aligned}&amp; \\text{先求总体一阶原点矩} &amp; E(X) = 1 \\times \\theta^2 + 2 \\times 2 \\theta (1-\\theta) + 3 (1-\\theta)^2 = 3 - 2 \\theta, \\\\&amp; \\text{一阶样本矩} &amp; \\bar{x} = \\frac{1}{3} (1 + 2 + 1) = \\frac{4}{3}. \\\\&amp; \\text{由} E(X) = \\bar{x}, \\text{得} 3 - 2 \\theta = \\frac{4}{3} \\text{推出} \\hat{\\theta} = \\frac{5}{6}, \\text{所以}  \\theta  \\text{的矩估计值} \\hat{\\theta} = \\frac{5}{6}.\\end{aligned}\">\\begin{aligned}&amp; \\text{先求总体一阶原点矩} &amp; E(X) = 1 \\times \\theta^2 + 2 \\times 2 \\theta (1-\\theta) + 3 (1-\\theta)^2 = 3 - 2 \\theta, \\\\&amp; \\text{一阶样本矩} &amp; \\bar{x} = \\frac{1}{3} (1 + 2 + 1) = \\frac{4}{3}. \\\\&amp; \\text{由} E(X) = \\bar{x}, \\text{得} 3 - 2 \\theta = \\frac{4}{3} \\text{推出} \\hat{\\theta} = \\frac{5}{6}, \\text{所以}  \\theta  \\text{的矩估计值} \\hat{\\theta} = \\frac{5}{6}.\\end{aligned}</div>"
     },
     {
       "id": "q0003",
       "number": 3,
       "header": "#3-Averge",
       "difficulty": "Averge",
-      "prompt_html": "<img src=\"/static/generated/assets/probability/ch115/q0003_prompt.png\"/>",
+      "prompt_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{array}{l} \\text {设某种元件的寿命} X \\sim N( \\mu , \\sigma ^{2}) , \\text {其中参数} \\mu , \\sigma ^{2} \\text {未知，为估计平均寿命} \\mu \\text {及方差} \\sigma ^{2}, \\text {随机抽取} 7 \\text {只元件的寿命为(单位：小时)}： \\\\ \\quad 1575, \\ 1503, \\ 1346, \\ 1630, \\ 1575, \\ 1453, \\ 1950. \\\\ \\text {则} \\sigma ^{2} \\text {的矩估计约为}( ). \\end{array}\">\\begin{array}{l} \\text {设某种元件的寿命} X \\sim N( \\mu , \\sigma ^{2}) , \\text {其中参数} \\mu , \\sigma ^{2} \\text {未知，为估计平均寿命} \\mu \\text {及方差} \\sigma ^{2}, \\text {随机抽取} 7 \\text {只元件的寿命为(单位：小时)}： \\\\ \\quad 1575, \\ 1503, \\ 1346, \\ 1630, \\ 1575, \\ 1453, \\ 1950. \\\\ \\text {则} \\sigma ^{2} \\text {的矩估计约为}( ). \\end{array}</div>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/probability/ch115/q0003_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"175.72^{2}\">175.72^{2}</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/probability/ch115/q0003_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"1575\">1575</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/probability/ch115/q0003_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"1576\">1576</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/probability/ch115/q0003_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"223.34^{2}\">223.34^{2}</span>"
         }
       ],
       "answer": "A",
       "answer_index": 0,
-      "analysis_html": "<img src=\"/static/generated/assets/probability/ch115/q0003_analysis.png\"/>"
+      "analysis_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{aligned}\\widehat{\\sigma^2} = \\frac{1}{7} \\sum_{i=1}^n (x_i - \\bar{x})^2 \\, \\mu \\text{和}\\sigma^2 \\text{的矩估计分别为} \\\\\\widehat{\\mu} = \\bar{x} = \\frac{1}{7} \\sum_{i=1}^7 x_i = 1576, \\ \\widehat{\\sigma^2} = \\frac{1}{n} \\sum_{i=1}^7 (x_i - \\bar{x})^2 \\, \\approx (175.7238)^2 \\, .\\end{aligned}\">\\begin{aligned}\\widehat{\\sigma^2} = \\frac{1}{7} \\sum_{i=1}^n (x_i - \\bar{x})^2 \\, \\mu \\text{和}\\sigma^2 \\text{的矩估计分别为} \\\\\\widehat{\\mu} = \\bar{x} = \\frac{1}{7} \\sum_{i=1}^7 x_i = 1576, \\ \\widehat{\\sigma^2} = \\frac{1}{n} \\sum_{i=1}^7 (x_i - \\bar{x})^2 \\, \\approx (175.7238)^2 \\, .\\end{aligned}</div>"
     },
     {
       "id": "q0004",
       "number": 4,
       "header": "#4-Averge",
       "difficulty": "Averge",
-      "prompt_html": "<img src=\"/static/generated/assets/probability/ch115/q0004_prompt.png\"/>",
+      "prompt_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{array}{l} \\text {设某总体} X \\text {的密度函数为} \\\\ f(x;a) = \\{ \\begin{array}{ll} \\frac{2}{a}(a-x), &amp; 0 &lt; x &lt; a, \\\\ 0, &amp; \\text {其它} \\end{array} \\\\ \\text {对容量为} n \\text {的子样} X_{1}, X_{2}, \\cdots, X_{n}, \\text {参数} a \\text {的矩估计量为} () . \\end{array}\">\\begin{array}{l} \\text {设某总体} X \\text {的密度函数为} \\\\ f(x;a) = \\{ \\begin{array}{ll} \\frac{2}{a}(a-x), &amp; 0 &lt; x &lt; a, \\\\ 0, &amp; \\text {其它} \\end{array} \\\\ \\text {对容量为} n \\text {的子样} X_{1}, X_{2}, \\cdots, X_{n}, \\text {参数} a \\text {的矩估计量为} () . \\end{array}</div>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/probability/ch115/q0004_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\scriptstyle 3 \\overline { \\chi }\">\\scriptstyle 3 \\overline { \\chi }</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/probability/ch115/q0004_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"3 X _ { n }\">3 X _ { n }</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/probability/ch115/q0004_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"2 X _ { 1 }\">2 X _ { 1 }</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/probability/ch115/q0004_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\scriptstyle 2 \\overline { x }\">\\scriptstyle 2 \\overline { x }</span>"
         }
       ],
       "answer": "A",
       "answer_index": 0,
-      "analysis_html": "<img src=\"/static/generated/assets/probability/ch115/q0004_analysis.png\"/>"
+      "analysis_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{aligned} &amp; \\text{令} \\\\ &amp; E(X) = \\int_{0}^{a} \\frac{2}{a^{2}} (a-x) x dx = (\\frac{1}{a} x^{2} - \\frac{2}{3 a^{2}} x^{3})|_{0}^{a} = \\frac{a}{3} = \\overline{X}\\,, \\\\ &amp; \\text{得参数 } a \\text{ 的矩估计 } \\hat{a} = 3 \\overline{X}\\,.\\end{aligned}\">\\begin{aligned} &amp; \\text{令} \\\\ &amp; E(X) = \\int_{0}^{a} \\frac{2}{a^{2}} (a-x) x dx = (\\frac{1}{a} x^{2} - \\frac{2}{3 a^{2}} x^{3})|_{0}^{a} = \\frac{a}{3} = \\overline{X}\\,, \\\\ &amp; \\text{得参数 } a \\text{ 的矩估计 } \\hat{a} = 3 \\overline{X}\\,.\\end{aligned}</div>"
     },
     {
       "id": "q0005",
       "number": 5,
       "header": "#5-Averge",
       "difficulty": "Averge",
-      "prompt_html": "<img src=\"/static/generated/assets/probability/ch115/q0005_prompt.png\"/>",
+      "prompt_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{array}{l} \\text {设某种零件的寿命} Y \\sim N ( \\mu , \\sigma ^ { 2 } ) , \\text {其中} \\mu \\text {和} \\sigma ^ { 2 } \\text {均未知。现随机抽取} 4 \\text {只，测得寿命（单位小时）为} \\\\ 1502 , 1453 , 1367 , 1650 , \\text {则用矩法估计可求得} \\hat { \\mu } = \\underline { \\hspace { 2 cm } } , \\hat { \\sigma } ^ { 2 } = \\underline { \\hspace { 2 cm } } . \\end{array}\">\\begin{array}{l} \\text {设某种零件的寿命} Y \\sim N ( \\mu , \\sigma ^ { 2 } ) , \\text {其中} \\mu \\text {和} \\sigma ^ { 2 } \\text {均未知。现随机抽取} 4 \\text {只，测得寿命（单位小时）为} \\\\ 1502 , 1453 , 1367 , 1650 , \\text {则用矩法估计可求得} \\hat { \\mu } = \\underline { \\hspace { 2 cm } } , \\hat { \\sigma } ^ { 2 } = \\underline { \\hspace { 2 cm } } . \\end{array}</div>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/probability/ch115/q0005_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"1493 , \\ 10551.5\">1493 , \\ 10551.5</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/probability/ch115/q0005_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"1497 , \\, 8441.2\">1497 , \\, 8441.2</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/probability/ch115/q0005_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"1493 , \\ 14068.7\">1493 , \\ 14068.7</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/probability/ch115/q0005_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"1493, \\, 8441.2\">1493, \\, 8441.2</span>"
         }
       ],
       "answer": "A",
       "answer_index": 0,
-      "analysis_html": "<img src=\"/static/generated/assets/probability/ch115/q0005_analysis.png\"/>"
+      "analysis_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{aligned}&amp;\\text{由矩估计,有} \\\\&amp;\\quad\\hat{\\mu}=A_{1}=\\overline{X},\\ \\widehat{\\sigma^{2}}=\\frac{1}{n}\\sum_{i=1}^{n}(X_{i}-\\overline{X})^{2}, \\\\&amp;\\text{把具体的数值带人，得}\\ \\hat{\\mu}=1493,\\ \\hat{\\sigma^{2}}=\\frac{1}{4}((-9)^{2}+40^{2}+(-126)^{2}+157^{2})=\\frac{1}{4}\\times 42206=10551.5\\,.\\end{aligned}\">\\begin{aligned}&amp;\\text{由矩估计,有} \\\\&amp;\\quad\\hat{\\mu}=A_{1}=\\overline{X},\\ \\widehat{\\sigma^{2}}=\\frac{1}{n}\\sum_{i=1}^{n}(X_{i}-\\overline{X})^{2}, \\\\&amp;\\text{把具体的数值带人，得}\\ \\hat{\\mu}=1493,\\ \\hat{\\sigma^{2}}=\\frac{1}{4}((-9)^{2}+40^{2}+(-126)^{2}+157^{2})=\\frac{1}{4}\\times 42206=10551.5\\,.\\end{aligned}</div>"
     },
     {
       "id": "q0006",
       "number": 6,
       "header": "#6-Averge",
       "difficulty": "Averge",
-      "prompt_html": "<img src=\"/static/generated/assets/probability/ch115/q0006_prompt.png\"/>",
+      "prompt_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{array}{l} \\text {设总体} X \\text {的密度函数为} f(x,\\theta)=\\left\\{ \\begin{array}{l l} \\theta x^{\\theta-1},\\ 0&lt;x&lt;1 \\\\ 0, \\end{array} , \\text {参数} \\theta&gt;0,\\ X_{1},X_{2},\\cdots,X_{n} \\text {为样本，记} \\overrightarrow{X}=\\frac{1}{n}\\sum_{i=1}^{n}X_{i}^{k},k=1,2,3, \\text {则} \\right. \\\\ \\text {以下结论中错误的是（）.} \\end{array}\">\\begin{array}{l} \\text {设总体} X \\text {的密度函数为} f(x,\\theta)=\\left\\{ \\begin{array}{l l} \\theta x^{\\theta-1},\\ 0&lt;x&lt;1 \\\\ 0, \\end{array} , \\text {参数} \\theta&gt;0,\\ X_{1},X_{2},\\cdots,X_{n} \\text {为样本，记} \\overrightarrow{X}=\\frac{1}{n}\\sum_{i=1}^{n}X_{i}^{k},k=1,2,3, \\text {则} \\right. \\\\ \\text {以下结论中错误的是（）.} \\end{array}</div>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/probability/ch115/q0006_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\overline { x } \\text{是} \\theta \\text{的矩估计量}\">\\overline { x } \\text{是} \\theta \\text{的矩估计量}</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/probability/ch115/q0006_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\frac { \\overline { X } } { 1 - \\overline { X } } \\text {是} \\theta \\text {的矩估计量}\">\\frac { \\overline { X } } { 1 - \\overline { X } } \\text {是} \\theta \\text {的矩估计量}</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/probability/ch115/q0006_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\frac{2\\overline{X^{2}}}{1-\\overline{X^{2}}} \\text{是}\\theta \\text{的矩估计量}\">\\frac{2\\overline{X^{2}}}{1-\\overline{X^{2}}} \\text{是}\\theta \\text{的矩估计量}</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/probability/ch115/q0006_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\frac{3\\overline{X^{3}}}{1-\\overline{X^{3}}} \\text{是}\\theta \\text{的矩估计量}\">\\frac{3\\overline{X^{3}}}{1-\\overline{X^{3}}} \\text{是}\\theta \\text{的矩估计量}</span>"
         }
       ],
       "answer": "A",
       "answer_index": 0,
-      "analysis_html": "<img src=\"/static/generated/assets/probability/ch115/q0006_analysis.png\"/>"
+      "analysis_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{aligned}&amp;\\text{依题意，有}\\\\&amp;\\mu_{1}=E(X)=\\frac{\\theta}{1+\\theta}\\,,\\ \\mu_{2}=E(X^{2})=\\frac{\\theta}{2+\\theta}\\,,\\ \\mu_{3}=E(X^{3})=\\frac{\\theta}{3+\\theta}\\,,\\\\&amp;\\Rightarrow \\theta=\\frac{\\mu_{1}}{1-\\mu_{1}}\\,,\\ \\theta=\\frac{2\\mu_{2}}{1-\\mu_{2}}\\,,\\ \\theta=\\frac{3\\mu_{3}}{1-\\mu_{3}}\\,,\\\\&amp;\\text{又由矩估计的定义，用样本矩代占总矩，有}\\\\&amp;\\quad\\widehat{\\theta}=\\frac{\\overline{X}}{1-X}\\,,\\ \\widehat{\\theta}=\\frac{2\\overline{X^{2}}}{1-\\overline{X^{2}}}\\,,\\ \\widehat{\\theta}=\\frac{3\\overline{X^{3}}}{1-X^{3}}.\\end{aligned}\">\\begin{aligned}&amp;\\text{依题意，有}\\\\&amp;\\mu_{1}=E(X)=\\frac{\\theta}{1+\\theta}\\,,\\ \\mu_{2}=E(X^{2})=\\frac{\\theta}{2+\\theta}\\,,\\ \\mu_{3}=E(X^{3})=\\frac{\\theta}{3+\\theta}\\,,\\\\&amp;\\Rightarrow \\theta=\\frac{\\mu_{1}}{1-\\mu_{1}}\\,,\\ \\theta=\\frac{2\\mu_{2}}{1-\\mu_{2}}\\,,\\ \\theta=\\frac{3\\mu_{3}}{1-\\mu_{3}}\\,,\\\\&amp;\\text{又由矩估计的定义，用样本矩代占总矩，有}\\\\&amp;\\quad\\widehat{\\theta}=\\frac{\\overline{X}}{1-X}\\,,\\ \\widehat{\\theta}=\\frac{2\\overline{X^{2}}}{1-\\overline{X^{2}}}\\,,\\ \\widehat{\\theta}=\\frac{3\\overline{X^{3}}}{1-X^{3}}.\\end{aligned}</div>"
     },
     {
       "id": "q0007",
       "number": 7,
       "header": "#7-Easy",
       "difficulty": "Easy",
-      "prompt_html": "<img src=\"/static/generated/assets/probability/ch115/q0007_prompt.png\"/>",
+      "prompt_html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{设总体}X\\sim B(1,p),\\text{其中未知参数}0&lt;p&lt;1,\\ X_{1},X_{2},\\cdots,X_{n}\\text{是}X\\text{的子样，则}p\\text{的矩估计为}().\">\\text{设总体}X\\sim B(1,p),\\text{其中未知参数}0&lt;p&lt;1,\\ X_{1},X_{2},\\cdots,X_{n}\\text{是}X\\text{的子样，则}p\\text{的矩估计为}().</span>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/probability/ch115/q0007_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\overline { x }\">\\overline { x }</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/probability/ch115/q0007_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\overline { X } / 2\">\\overline { X } / 2</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/probability/ch115/q0007_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\frac { \\overline { X } } { \\overline { \\overline { X } } + 1 }\">\\frac { \\overline { X } } { \\overline { \\overline { X } } + 1 }</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/probability/ch115/q0007_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\scriptstyle 1 - { \\overline { { X } } }\">\\scriptstyle 1 - { \\overline { { X } } }</span>"
         }
       ],
       "answer": "A",
       "answer_index": 0,
-      "analysis_html": "<img src=\"/static/generated/assets/probability/ch115/q0007_analysis.png\"/>"
+      "analysis_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{aligned}\\text{总体一阶矩为}\\mu_{1}=E(X)=p,\\text{用样本一阶矩}\\overline{X}\\text{代替总体一阶矩}\\mu,\\text{即得参数}p\\text{的矩估计，即}\\ \\\\ \\hat{p}=\\overline{X}=\\frac{1}{n}\\sum_{i=1}^{n}X_{i}\\,.\\end{aligned}\">\\begin{aligned}\\text{总体一阶矩为}\\mu_{1}=E(X)=p,\\text{用样本一阶矩}\\overline{X}\\text{代替总体一阶矩}\\mu,\\text{即得参数}p\\text{的矩估计，即}\\ \\\\ \\hat{p}=\\overline{X}=\\frac{1}{n}\\sum_{i=1}^{n}X_{i}\\,.\\end{aligned}</div>"
     },
     {
       "id": "q0008",
       "number": 8,
       "header": "#8-Averge",
       "difficulty": "Averge",
-      "prompt_html": "<img src=\"/static/generated/assets/probability/ch115/q0008_prompt.png\"/>",
+      "prompt_html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{设总体}X \\text{以等概率} \\frac{1}{\\theta} \\text{取值}1,2,\\cdots,\\theta, \\text{则未知参数} \\theta \\text{的矩估计量为}().\">\\text{设总体}X \\text{以等概率} \\frac{1}{\\theta} \\text{取值}1,2,\\cdots,\\theta, \\text{则未知参数} \\theta \\text{的矩估计量为}().</span>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/probability/ch115/q0008_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\hat{\\theta} = 2 \\overline{X} - 1\">\\hat{\\theta} = 2 \\overline{X} - 1</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/probability/ch115/q0008_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\hat { \\theta } = 2 \\overline { X }\">\\hat { \\theta } = 2 \\overline { X }</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/probability/ch115/q0008_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\hat { \\theta } { = } 2 \\overline { X } { + } 1\">\\hat { \\theta } { = } 2 \\overline { X } { + } 1</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/probability/ch115/q0008_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\widehat { \\theta } { = } 2 \\overline { X } { + } 3\">\\widehat { \\theta } { = } 2 \\overline { X } { + } 3</span>"
         }
       ],
       "answer": "A",
       "answer_index": 0,
-      "analysis_html": "<img src=\"/static/generated/assets/probability/ch115/q0008_analysis.png\"/>"
+      "analysis_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{aligned} \\text{由} \\quad \\quad \\quad \\quad E(X) = 1 \\times \\frac{1}{\\theta} + 2 \\times \\frac{1}{\\theta} + \\cdots + \\theta \\times \\frac{1}{\\theta} = \\frac{1+\\theta}{2} = \\frac{1}{n} \\sum_{i=1}^{n} X_i = \\overline{X}, \\\\ \\text{得}\\theta \\text{的矩估计为}\\widehat{\\theta} = 2 \\overline{X} - 1.\\end{aligned}\">\\begin{aligned} \\text{由} \\quad \\quad \\quad \\quad E(X) = 1 \\times \\frac{1}{\\theta} + 2 \\times \\frac{1}{\\theta} + \\cdots + \\theta \\times \\frac{1}{\\theta} = \\frac{1+\\theta}{2} = \\frac{1}{n} \\sum_{i=1}^{n} X_i = \\overline{X}, \\\\ \\text{得}\\theta \\text{的矩估计为}\\widehat{\\theta} = 2 \\overline{X} - 1.\\end{aligned}</div>"
     },
     {
       "id": "q0009",
       "number": 9,
       "header": "#9-Averge",
       "difficulty": "Averge",
-      "prompt_html": "<img src=\"/static/generated/assets/probability/ch115/q0009_prompt.png\"/>",
+      "prompt_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\text{设总体}\\lambda \\text{的概率密度为}\\ f(x)=\\begin{cases} (\\alpha+1)x^{\\alpha}, &amp; 0&lt;x&lt;1 \\\\ 0, &amp; \\text{其它} \\end{cases}, \\text{其中}\\alpha(\\alpha&gt;-1)\\text{是未知参数},\\ X_{1},X_{2},\\cdots,X_{n}\\text{是取自}\\lambda \\text{的样本，参数}\\alpha \\text{的矩估计为( }\\quad).\">\\text{设总体}\\lambda \\text{的概率密度为}\\ f(x)=\\begin{cases} (\\alpha+1)x^{\\alpha}, &amp; 0&lt;x&lt;1 \\\\ 0, &amp; \\text{其它} \\end{cases}, \\text{其中}\\alpha(\\alpha&gt;-1)\\text{是未知参数},\\ X_{1},X_{2},\\cdots,X_{n}\\text{是取自}\\lambda \\text{的样本，参数}\\alpha \\text{的矩估计为( }\\quad).</div>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/probability/ch115/q0009_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\widehat{a} = \\frac{2\\overline{X} - 1}{1 - \\overline{\\overline{X}}}\">\\widehat{a} = \\frac{2\\overline{X} - 1}{1 - \\overline{\\overline{X}}}</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/probability/ch115/q0009_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\widehat{a} = \\frac{2\\overline{X} + 1}{1 - \\overline{X}}\">\\widehat{a} = \\frac{2\\overline{X} + 1}{1 - \\overline{X}}</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/probability/ch115/q0009_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\hat{a} = \\frac{2\\overline{X} - 1}{2 - \\overline{X}}\">\\hat{a} = \\frac{2\\overline{X} - 1}{2 - \\overline{X}}</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/probability/ch115/q0009_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\widehat{a} = \\frac{2 \\overline{X} - 3}{1 - \\overline{X}}\">\\widehat{a} = \\frac{2 \\overline{X} - 3}{1 - \\overline{X}}</span>"
         }
       ],
       "answer": "A",
       "answer_index": 0,
-      "analysis_html": "<img src=\"/static/generated/assets/probability/ch115/q0009_analysis.png\"/>"
+      "analysis_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{aligned}&amp;\\text{数学期望是一阶原点矩} \\\\&amp;\\mu_{1}=E(X)=\\int_{0}^{1}x(\\alpha+1)x^{\\alpha}dx=(\\alpha+1)\\int_{0}^{1}x^{\\alpha+1}dx=\\frac{\\alpha+1}{\\alpha+2}\\,,\\\\&amp;\\text{其样本矩为}\\overline{X}=\\frac{\\alpha+1}{\\alpha+2}\\,,\\text{而}\\widehat{\\alpha}=\\frac{2\\overline{X}-1}{1-\\overline{X}}\\text{即为}\\alpha\\text{的矩估计}.\\end{aligned}\">\\begin{aligned}&amp;\\text{数学期望是一阶原点矩} \\\\&amp;\\mu_{1}=E(X)=\\int_{0}^{1}x(\\alpha+1)x^{\\alpha}dx=(\\alpha+1)\\int_{0}^{1}x^{\\alpha+1}dx=\\frac{\\alpha+1}{\\alpha+2}\\,,\\\\&amp;\\text{其样本矩为}\\overline{X}=\\frac{\\alpha+1}{\\alpha+2}\\,,\\text{而}\\widehat{\\alpha}=\\frac{2\\overline{X}-1}{1-\\overline{X}}\\text{即为}\\alpha\\text{的矩估计}.\\end{aligned}</div>"
     },
     {
       "id": "q0010",
       "number": 10,
       "header": "#10-Easy",
       "difficulty": "Easy",
-      "prompt_html": "<img src=\"/static/generated/assets/probability/ch115/q0010_prompt.png\"/>",
+      "prompt_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{aligned}\\text{设某种元件的寿命}X\\sim N(\\mu,\\sigma^{2})，\\text{其中参数}\\mu,\\sigma^{2}\\text{未知}，\\text{为估计平均寿命}\\mu\\text{及方差}\\sigma^{2},\\text{随机抽取}7\\text{只元件的寿命为}(\\text{单位}：\\text{小时})：\\quad\\quad\\quad\\quad\\quad1575,\\ 1503,\\ 1346,\\ 1630,\\ 1575,\\ 1453,\\ 1950.\\end{aligned}\">\\begin{aligned}\\text{设某种元件的寿命}X\\sim N(\\mu,\\sigma^{2})，\\text{其中参数}\\mu,\\sigma^{2}\\text{未知}，\\text{为估计平均寿命}\\mu\\text{及方差}\\sigma^{2},\\text{随机抽取}7\\text{只元件的寿命为}(\\text{单位}：\\text{小时})：\\quad\\quad\\quad\\quad\\quad1575,\\ 1503,\\ 1346,\\ 1630,\\ 1575,\\ 1453,\\ 1950.\\end{aligned}</div>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/probability/ch115/q0010_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"1576\">1576</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/probability/ch115/q0010_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"1575\">1575</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/probability/ch115/q0010_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"223.34\">223.34</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/probability/ch115/q0010_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"175.72\">175.72</span>"
         }
       ],
       "answer": "A",
       "answer_index": 0,
-      "analysis_html": "<img src=\"/static/generated/assets/probability/ch115/q0010_analysis.png\"/>"
+      "analysis_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{aligned}\\mu \\text{的矩估计为} \\quad \\end{aligned}\">\\begin{aligned}\\mu \\text{的矩估计为} \\quad \\end{aligned}</div>"
     },
     {
       "id": "q0011",
       "number": 11,
       "header": "#11-Averge",
       "difficulty": "Averge",
-      "prompt_html": "<img src=\"/static/generated/assets/probability/ch115/q0011_prompt.png\"/>",
+      "prompt_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{array}{l} \\text {设总体具有概率密度} \\\\ f(x) = \\{ \\begin{array}{ll} \\theta x^{\\theta-1}, 0 &lt; x &lt; 1 &amp; \\text {其中} \\theta &gt; 0, \\\\ 0, &amp; \\text {其它} \\end{array} \\\\ \\text {则} \\theta \\text {的矩估计是}() . \\end{array}\">\\begin{array}{l} \\text {设总体具有概率密度} \\\\ f(x) = \\{ \\begin{array}{ll} \\theta x^{\\theta-1}, 0 &lt; x &lt; 1 &amp; \\text {其中} \\theta &gt; 0, \\\\ 0, &amp; \\text {其它} \\end{array} \\\\ \\text {则} \\theta \\text {的矩估计是}() . \\end{array}</div>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/probability/ch115/q0011_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\frac { \\overline { X } } { 1 - \\overline { \\overline { X } } }\">\\frac { \\overline { X } } { 1 - \\overline { \\overline { X } } }</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/probability/ch115/q0011_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\frac { 1 } { X } - 1\">\\frac { 1 } { X } - 1</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/probability/ch115/q0011_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\begin{aligned}-\\frac{n}{\\sum_{i=1}^{n} \\ln X_{i}}\\end{aligned}\">\\begin{aligned}-\\frac{n}{\\sum_{i=1}^{n} \\ln X_{i}}\\end{aligned}</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/probability/ch115/q0011_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\frac { n } { \\sum _ { i = 1 } ^ { n } \\ln X _ { i } }\">\\frac { n } { \\sum _ { i = 1 } ^ { n } \\ln X _ { i } }</span>"
         }
       ],
       "answer": "A",
       "answer_index": 0,
-      "analysis_html": "<img src=\"/static/generated/assets/probability/ch115/q0011_analysis.png\"/>"
+      "analysis_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{array}{ll}(1)\\ E(X) = \\int_{0}^{1} x \\cdot \\theta x^{\\theta-1} dx = \\int_{0}^{1} \\theta x^{\\theta} dx = \\dfrac{\\theta}{\\theta+1}\\ ,\\ \\text{即}\\ \\theta = \\dfrac{E(X)}{1-E(X)}\\ ,\\ \\text{用样本矩}\\ \\overline{X} \\text{代替}\\ E\\bigl(X\\bigr) \\text{即得}\\ \\widehat{\\theta} = \\dfrac{\\overline{X}}{1-\\overline{X}}\\ . \\end{array}\">\\begin{array}{ll}(1)\\ E(X) = \\int_{0}^{1} x \\cdot \\theta x^{\\theta-1} dx = \\int_{0}^{1} \\theta x^{\\theta} dx = \\dfrac{\\theta}{\\theta+1}\\ ,\\ \\text{即}\\ \\theta = \\dfrac{E(X)}{1-E(X)}\\ ,\\ \\text{用样本矩}\\ \\overline{X} \\text{代替}\\ E\\bigl(X\\bigr) \\text{即得}\\ \\widehat{\\theta} = \\dfrac{\\overline{X}}{1-\\overline{X}}\\ . \\end{array}</div>"
     },
     {
       "id": "q0012",
       "number": 12,
       "header": "#12-Easy",
       "difficulty": "Easy",
-      "prompt_html": "<img src=\"/static/generated/assets/probability/ch115/q0012_prompt.png\"/>",
+      "prompt_html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{设总体} \\lambda \\text{服从参数为} \\lambda \\text{的Poisson分布，} \\lambda &gt; 0 \\text{为未知参数.} \\ (X_{1}, \\cdots X_{n}) \\text{是从总体} \\lambda \\text{中抽取的一个样本，则参数} \\lambda \\text{的矩估计量} \\widehat{\\lambda} = (\\text{.}) .\">\\text{设总体} \\lambda \\text{服从参数为} \\lambda \\text{的Poisson分布，} \\lambda &gt; 0 \\text{为未知参数.} \\ (X_{1}, \\cdots X_{n}) \\text{是从总体} \\lambda \\text{中抽取的一个样本，则参数} \\lambda \\text{的矩估计量} \\widehat{\\lambda} = (\\text{.}) .</span>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/probability/ch115/q0012_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\overline { \\chi }\">\\overline { \\chi }</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/probability/ch115/q0012_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\scriptstyle X _ { 1 }\">\\scriptstyle X _ { 1 }</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/probability/ch115/q0012_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\boldsymbol { X } _ { n }\">\\boldsymbol { X } _ { n }</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/probability/ch115/q0012_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\frac{X_{1}+X_{n}}{2}\">\\frac{X_{1}+X_{n}}{2}</span>"
         }
       ],
       "answer": "A",
       "answer_index": 0,
-      "analysis_html": "<img src=\"/static/generated/assets/probability/ch115/q0012_analysis.png\"/>"
+      "analysis_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{array}{l} \\text {由于总体} \\lambda \\text {服从参数为} \\lambda \\text {的Poisson分布，所以} \\lambda \\text {的分布律为} P(X=k)=\\frac{\\lambda^{k}}{k!}e^{-\\lambda} \\quad (k=0,1,2,\\cdots) \\text {所以，} \\\\ E(X)=\\lambda.\\ \\text {将} E(X)\\text {替换成样本均值}\\overline{X},\\text {得参数} \\lambda \\text {的矩估计为} \\lambda=\\overline{X}. \\end{array}\">\\begin{array}{l} \\text {由于总体} \\lambda \\text {服从参数为} \\lambda \\text {的Poisson分布，所以} \\lambda \\text {的分布律为} P(X=k)=\\frac{\\lambda^{k}}{k!}e^{-\\lambda} \\quad (k=0,1,2,\\cdots) \\text {所以，} \\\\ E(X)=\\lambda.\\ \\text {将} E(X)\\text {替换成样本均值}\\overline{X},\\text {得参数} \\lambda \\text {的矩估计为} \\lambda=\\overline{X}. \\end{array}</div>"
     },
     {
       "id": "q0013",
       "number": 13,
       "header": "#13-Averge",
       "difficulty": "Averge",
-      "prompt_html": "<img src=\"/static/generated/assets/probability/ch115/q0013_prompt.png\"/>",
+      "prompt_html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{设总体}X \\text{服从均匀分布}U[1,\\theta], \\text{则}( ) \\text{是} \\theta \\text{的矩估计}.\">\\text{设总体}X \\text{服从均匀分布}U[1,\\theta], \\text{则}( ) \\text{是} \\theta \\text{的矩估计}.</span>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/probability/ch115/q0013_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\scriptstyle 2 \\overline { X } - 1\">\\scriptstyle 2 \\overline { X } - 1</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/probability/ch115/q0013_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\overline { x }\">\\overline { x }</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/probability/ch115/q0013_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\bar { 2 X }\">\\bar { 2 X }</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/probability/ch115/q0013_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\scriptstyle 2 \\overline { X } + 1\">\\scriptstyle 2 \\overline { X } + 1</span>"
         }
       ],
       "answer": "A",
       "answer_index": 0,
-      "analysis_html": "<img src=\"/static/generated/assets/probability/ch115/q0013_analysis.png\"/>"
+      "analysis_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{array}{l}E(X)=\\displaystyle \\frac{\\theta+1}{2}\\,.\\,\\,\\,\\,\\text{令}\\,\\,\\frac{\\theta+1}{2}=\\overline{X},\\,\\,\\text{得}\\,\\theta\\text{的矩估计量为}\\,\\,\\widehat{\\theta}=2\\overline{X}-1.\\end{array}\">\\begin{array}{l}E(X)=\\displaystyle \\frac{\\theta+1}{2}\\,.\\,\\,\\,\\,\\text{令}\\,\\,\\frac{\\theta+1}{2}=\\overline{X},\\,\\,\\text{得}\\,\\theta\\text{的矩估计量为}\\,\\,\\widehat{\\theta}=2\\overline{X}-1.\\end{array}</div>"
     },
     {
       "id": "q0014",
       "number": 14,
       "header": "#14-Averge",
       "difficulty": "Averge",
-      "prompt_html": "<img src=\"/static/generated/assets/probability/ch115/q0014_prompt.png\"/>",
+      "prompt_html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{已知总体}X\\text{的概率分布}P\\{X=k\\}=C_{2}^{k}(1-\\theta)^{k}\\theta^{2-k},\\ k=0,1,2,\\text{则参数}\\theta\\text{的矩估计为}( ).\">\\text{已知总体}X\\text{的概率分布}P\\{X=k\\}=C_{2}^{k}(1-\\theta)^{k}\\theta^{2-k},\\ k=0,1,2,\\text{则参数}\\theta\\text{的矩估计为}( ).</span>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/probability/ch115/q0014_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\begin{array}{l} { r } { \\hat { \\theta } { = } 1 { - } \\frac { \\overline { { X } } } { 2 } } \\end{array}\">\\begin{array}{l} { r } { \\hat { \\theta } { = } 1 { - } \\frac { \\overline { { X } } } { 2 } } \\end{array}</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/probability/ch115/q0014_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\begin{aligned}\\hat{\\theta} = 2 - \\frac{\\overline{X}}{2}\\end{aligned}\">\\begin{aligned}\\hat{\\theta} = 2 - \\frac{\\overline{X}}{2}\\end{aligned}</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/probability/ch115/q0014_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\widehat{\\theta} = 1 - \\frac{3\\overline{X}}{2}\">\\widehat{\\theta} = 1 - \\frac{3\\overline{X}}{2}</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/probability/ch115/q0014_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\begin{aligned}\\widehat{\\theta} = 1 + \\frac{\\overline{X}}{2}\\end{aligned}\">\\begin{aligned}\\widehat{\\theta} = 1 + \\frac{\\overline{X}}{2}\\end{aligned}</span>"
         }
       ],
       "answer": "A",
       "answer_index": 0,
-      "analysis_html": "<img src=\"/static/generated/assets/probability/ch115/q0014_analysis.png\"/>"
+      "analysis_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{aligned}&amp;\\text{总体}X\\text{为离散型分布，且只含一个未知参数}\\theta,\\text{因此，只要先求离散型随机变量的数学期望}E(X),\\text{然后解出}\\theta\\text{并用样本均值}\\bar{X}\\text{代替}E(X)\\text{即可得}\\theta\\text{的矩估计}\\hat{\\theta}.\\\\&amp;\\text{由}E(X)=\\sum_{k=0}^{2}kC_{2}^{k}(1-\\theta)^{k}\\theta^{2-k}=1\\times 2(1-\\theta)\\theta+2(1-\\theta)^{2}=2-2\\theta,\\text{即有}\\\\&amp;\\qquad\\qquad\\qquad\\qquad\\qquad\\theta=1-\\frac{E(X)}{2}.\\\\&amp;\\text{用样本均值}\\bar{X}\\text{代替上式的}E(X),\\text{得矩估计为}\\hat{\\theta}=1-\\frac{\\bar{X}}{2}.\\end{aligned}\">\\begin{aligned}&amp;\\text{总体}X\\text{为离散型分布，且只含一个未知参数}\\theta,\\text{因此，只要先求离散型随机变量的数学期望}E(X),\\text{然后解出}\\theta\\text{并用样本均值}\\bar{X}\\text{代替}E(X)\\text{即可得}\\theta\\text{的矩估计}\\hat{\\theta}.\\\\&amp;\\text{由}E(X)=\\sum_{k=0}^{2}kC_{2}^{k}(1-\\theta)^{k}\\theta^{2-k}=1\\times 2(1-\\theta)\\theta+2(1-\\theta)^{2}=2-2\\theta,\\text{即有}\\\\&amp;\\qquad\\qquad\\qquad\\qquad\\qquad\\theta=1-\\frac{E(X)}{2}.\\\\&amp;\\text{用样本均值}\\bar{X}\\text{代替上式的}E(X),\\text{得矩估计为}\\hat{\\theta}=1-\\frac{\\bar{X}}{2}.\\end{aligned}</div>"
     },
     {
       "id": "q0015",
       "number": 15,
       "header": "#15-Hard",
       "difficulty": "Hard",
-      "prompt_html": "<img src=\"/static/generated/assets/probability/ch115/q0015_prompt.png\"/>",
+      "prompt_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{aligned} \\text{设总体}X \\text{服从} [0,\\theta ] \\text{上的均匀分布，}X_1,X_2,\\cdots,X_n \\text{为样本，记} \\overline{X} \\text{为样本均值，} \\\\ \\text{则下列统计量不是} \\theta \\text{的矩估计量的是（）.} \\end{aligned}\">\\begin{aligned} \\text{设总体}X \\text{服从} [0,\\theta ] \\text{上的均匀分布，}X_1,X_2,\\cdots,X_n \\text{为样本，记} \\overline{X} \\text{为样本均值，} \\\\ \\text{则下列统计量不是} \\theta \\text{的矩估计量的是（）.} \\end{aligned}</div>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/probability/ch115/q0015_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\theta _ { 1 } = \\frac { 1 } { 2 } \\overline { X }\">\\theta _ { 1 } = \\frac { 1 } { 2 } \\overline { X }</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/probability/ch115/q0015_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\theta_{2} \\! = \\! \\sqrt{ \\frac{12}{n} \\sum_{i=1}^{n} (X_{i} - \\overline{X})^{2}}\">\\theta_{2} \\! = \\! \\sqrt{ \\frac{12}{n} \\sum_{i=1}^{n} (X_{i} - \\overline{X})^{2}}</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/probability/ch115/q0015_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\theta_{3} = \\sqrt{\\frac{3}{n} \\sum_{i=1}^{n} X_{i}^{2}}\">\\theta_{3} = \\sqrt{\\frac{3}{n} \\sum_{i=1}^{n} X_{i}^{2}}</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/probability/ch115/q0015_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\theta _ { 4 } = 2 \\overline { X }\">\\theta _ { 4 } = 2 \\overline { X }</span>"
         }
       ],
       "answer": "A",
       "answer_index": 0,
-      "analysis_html": "<img src=\"/static/generated/assets/probability/ch115/q0015_analysis.png\"/>"
+      "analysis_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{aligned}&amp;\\text{由均匀分布的数字特征，有} \\\\&amp;\\quad\\mu=E(X)=\\frac{\\theta}{2},\\ \\sigma^2=D(X)=\\frac{\\theta^2}{12},\\ E(X^2)=D(X)+[E(X)]^2=\\frac{\\theta^2}{3}. \\\\&amp;\\text{由矩估计法，令} \\\\&amp;\\quad\\overline{X}=\\frac{\\theta}{2},\\ A_2-A_1^2=\\frac{1}{n}\\sum_{i=1}^{n}X_i^2-\\overline{X}^2=\\frac{\\theta^2}{12},\\ \\frac{1}{n}\\sum_{i=1}^{n}X_i^2=\\frac{\\theta^2}{3}, \\\\&amp;\\text{从而，}\\ \\theta_4=\\overline{2X},\\ \\theta_2=\\sqrt{\\frac{12}{n}\\sum_{i=1}^{n}(X_i-\\overline{X})^2},\\ \\theta_3=\\sqrt{\\frac{3}{n}\\sum_{i=1}^{n}X_i^2}\\text{都是}\\theta\\text{的矩估计.}\\end{aligned}\">\\begin{aligned}&amp;\\text{由均匀分布的数字特征，有} \\\\&amp;\\quad\\mu=E(X)=\\frac{\\theta}{2},\\ \\sigma^2=D(X)=\\frac{\\theta^2}{12},\\ E(X^2)=D(X)+[E(X)]^2=\\frac{\\theta^2}{3}. \\\\&amp;\\text{由矩估计法，令} \\\\&amp;\\quad\\overline{X}=\\frac{\\theta}{2},\\ A_2-A_1^2=\\frac{1}{n}\\sum_{i=1}^{n}X_i^2-\\overline{X}^2=\\frac{\\theta^2}{12},\\ \\frac{1}{n}\\sum_{i=1}^{n}X_i^2=\\frac{\\theta^2}{3}, \\\\&amp;\\text{从而，}\\ \\theta_4=\\overline{2X},\\ \\theta_2=\\sqrt{\\frac{12}{n}\\sum_{i=1}^{n}(X_i-\\overline{X})^2},\\ \\theta_3=\\sqrt{\\frac{3}{n}\\sum_{i=1}^{n}X_i^2}\\text{都是}\\theta\\text{的矩估计.}\\end{aligned}</div>"
     },
     {
       "id": "q0016",
       "number": 16,
       "header": "#16-Averge",
       "difficulty": "Averge",
-      "prompt_html": "<img src=\"/static/generated/assets/probability/ch115/q0016_prompt.png\"/>",
+      "prompt_html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{设总体}X \\text{服从均匀分布}U[0,\\theta], \\text{则} \\theta \\text{的矩估计为}().\">\\text{设总体}X \\text{服从均匀分布}U[0,\\theta], \\text{则} \\theta \\text{的矩估计为}().</span>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/probability/ch115/q0016_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\begin{aligned}2\\overline{x}\\end{aligned}\">\\begin{aligned}2\\overline{x}\\end{aligned}</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/probability/ch115/q0016_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\overline { x }\">\\overline { x }</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/probability/ch115/q0016_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\scriptstyle 2 \\overline { X } - 1\">\\scriptstyle 2 \\overline { X } - 1</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/probability/ch115/q0016_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\scriptstyle 2 \\overline { X } + 1\">\\scriptstyle 2 \\overline { X } + 1</span>"
         }
       ],
       "answer": "A",
       "answer_index": 0,
-      "analysis_html": "<img src=\"/static/generated/assets/probability/ch115/q0016_analysis.png\"/>"
+      "analysis_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{aligned}&amp; \\text{均匀分布的一阶矩为}\\mu=E(X)=\\frac{\\theta}{2},\\text{得}\\theta=2\\mu\\\\&amp; \\text{又由矩估计的定义，用样本一阶矩代替总体一阶矩，有，}\\\\&amp; \\qquad\\quad \\end{aligned}\">\\begin{aligned}&amp; \\text{均匀分布的一阶矩为}\\mu=E(X)=\\frac{\\theta}{2},\\text{得}\\theta=2\\mu\\\\&amp; \\text{又由矩估计的定义，用样本一阶矩代替总体一阶矩，有，}\\\\&amp; \\qquad\\quad \\end{aligned}</div>"
     },
     {
       "id": "q0017",
       "number": 17,
       "header": "#17-Averge",
       "difficulty": "Averge",
-      "prompt_html": "<img src=\"/static/generated/assets/probability/ch115/q0017_prompt.png\"/>",
+      "prompt_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{array}{l} \\text{设总体} X \\text{的均值} \\mu \\text{及方差} \\sigma^{2} \\text{都存在}，\\text{且有} \\sigma^{2} &gt; 0，\\text{但} \\mu, \\sigma^{2} \\text{均为未知，又设} X_{1}, X_{2}, \\cdots , \\ X_{n} \\text{是来自} X \\text{的样本，则} \\\\ \\mu, \\sigma^{2} \\text{的矩估计量分别为（）.} \\end{array}\">\\begin{array}{l} \\text{设总体} X \\text{的均值} \\mu \\text{及方差} \\sigma^{2} \\text{都存在}，\\text{且有} \\sigma^{2} &gt; 0，\\text{但} \\mu, \\sigma^{2} \\text{均为未知，又设} X_{1}, X_{2}, \\cdots , \\ X_{n} \\text{是来自} X \\text{的样本，则} \\\\ \\mu, \\sigma^{2} \\text{的矩估计量分别为（）.} \\end{array}</div>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/probability/ch115/q0017_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\widehat{\\mu} = \\overline{X}\\,,\\;\\; \\widehat{\\sigma}^{2} = \\frac{1}{n} \\sum_{i=1}^{n} (X_{i} - \\overline{X})^{2}\">\\widehat{\\mu} = \\overline{X}\\,,\\;\\; \\widehat{\\sigma}^{2} = \\frac{1}{n} \\sum_{i=1}^{n} (X_{i} - \\overline{X})^{2}</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/probability/ch115/q0017_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\widehat{\\mu} = \\overline{X}\\, ,\\;\\; \\widehat{\\sigma}^{2} = \\frac{1}{n} \\sum_{i=1}^{n} (X_{i} + \\overline{X})^{2}\">\\widehat{\\mu} = \\overline{X}\\, ,\\;\\; \\widehat{\\sigma}^{2} = \\frac{1}{n} \\sum_{i=1}^{n} (X_{i} + \\overline{X})^{2}</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/probability/ch115/q0017_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\widehat{\\mu} = \\overline{X}\\,,\\;\\; \\widehat{\\sigma}^{2} = \\frac{2}{n} \\sum_{i=1}^{n} (X_{i} - \\overline{X})^{2}\">\\widehat{\\mu} = \\overline{X}\\,,\\;\\; \\widehat{\\sigma}^{2} = \\frac{2}{n} \\sum_{i=1}^{n} (X_{i} - \\overline{X})^{2}</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/probability/ch115/q0017_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\begin{array}{l}\\widehat{\\mu}=-\\overline{X}\\,,\\;\\;\\widehat{\\sigma}^{2}=\\displaystyle\\frac{1}{n}\\sum_{i=1}^{n}(X_{i}-\\overline{X})^{2}\\end{array}\">\\begin{array}{l}\\widehat{\\mu}=-\\overline{X}\\,,\\;\\;\\widehat{\\sigma}^{2}=\\displaystyle\\frac{1}{n}\\sum_{i=1}^{n}(X_{i}-\\overline{X})^{2}\\end{array}</span>"
         }
       ],
       "answer": "A",
       "answer_index": 0,
-      "analysis_html": "<img src=\"/static/generated/assets/probability/ch115/q0017_analysis.png\"/>"
+      "analysis_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{aligned}\\mu_1&amp;=E(X)=\\mu,\\;\\;\\mu_2=E(X^2)=D(X)+[E(X)]^2=\\sigma^2+\\mu_1^2,\\\\ \\mu&amp;=\\mu_1,\\;\\sigma^2=\\mu_2-\\mu_1^2.\\\\ \\text{得到}\\\\ \\text{以}A_1,A_2\\text{代替}\\mu_1,\\mu_2,\\text{得}\\mu\\text{和}\\sigma^2\\text{的矩估计量分别为}\\\\ \\hat{\\mu}&amp;=A_1=\\overline{X},\\;\\;\\hat{\\sigma}^2=A_2-A_1^2=\\frac{1}{n}\\sum_{i=1}^{n}\\bar{X}_i^2-\\overline{X}^2=\\frac{1}{n}\\sum_{i=1}^{n}(X_i-\\overline{X})^2\\end{aligned}\">\\begin{aligned}\\mu_1&amp;=E(X)=\\mu,\\;\\;\\mu_2=E(X^2)=D(X)+[E(X)]^2=\\sigma^2+\\mu_1^2,\\\\ \\mu&amp;=\\mu_1,\\;\\sigma^2=\\mu_2-\\mu_1^2.\\\\ \\text{得到}\\\\ \\text{以}A_1,A_2\\text{代替}\\mu_1,\\mu_2,\\text{得}\\mu\\text{和}\\sigma^2\\text{的矩估计量分别为}\\\\ \\hat{\\mu}&amp;=A_1=\\overline{X},\\;\\;\\hat{\\sigma}^2=A_2-A_1^2=\\frac{1}{n}\\sum_{i=1}^{n}\\bar{X}_i^2-\\overline{X}^2=\\frac{1}{n}\\sum_{i=1}^{n}(X_i-\\overline{X})^2\\end{aligned}</div>"
     },
     {
       "id": "q0018",
       "number": 18,
       "header": "#18-Averge",
       "difficulty": "Averge",
-      "prompt_html": "<img src=\"/static/generated/assets/probability/ch115/q0018_prompt.png\"/>",
+      "prompt_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{aligned} \\text{从母体} \\lambda \\text{中取得容量为} n=8 \\text{的样本值} \\\\ 3.1,\\ 2.6,\\ 2.8,\\ 3.3,\\ 2.9,\\ 3.2,\\ 2.4,\\ 2.5, \\\\ \\text{则样本的二阶中心矩为} (\\ ).\\ (\\text{至小数后第四位}). \\end{aligned}\">\\begin{aligned} \\text{从母体} \\lambda \\text{中取得容量为} n=8 \\text{的样本值} \\\\ 3.1,\\ 2.6,\\ 2.8,\\ 3.3,\\ 2.9,\\ 3.2,\\ 2.4,\\ 2.5, \\\\ \\text{则样本的二阶中心矩为} (\\ ).\\ (\\text{至小数后第四位}). \\end{aligned}</div>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/probability/ch115/q0018_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"0.0975\">0.0975</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/probability/ch115/q0018_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"0.0883\">0.0883</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/probability/ch115/q0018_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"0.0624\">0.0624</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/probability/ch115/q0018_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"0.0075\">0.0075</span>"
         }
       ],
       "answer": "A",
       "answer_index": 0,
-      "analysis_html": "<img src=\"/static/generated/assets/probability/ch115/q0018_analysis.png\"/>"
+      "analysis_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{aligned}\\overline{x} &amp;= \\frac{1}{n} \\sum_{i=1}^{n} x_i = \\frac{1}{8} (3.1 + 2.6 + \\cdots + 2.5) = 2.85\\,, \\\\ \\text{由二阶中心距公式得} &amp;\\\\&amp; \\frac{1}{8} \\sum_{i=1}^{n} (x_i - \\overline{x})^2 \\\\&amp;= \\frac{1}{8} (0.25^2 + (-0.25)^2 + (-0.05)^2 + 0.45^2 + 0.05^2 + 0.35^2 + (-0.45)^2 + (-0.35)^2)\\,, \\\\&amp;= \\frac{1}{8} \\times 0.78 = 0.0975\\end{aligned}\">\\begin{aligned}\\overline{x} &amp;= \\frac{1}{n} \\sum_{i=1}^{n} x_i = \\frac{1}{8} (3.1 + 2.6 + \\cdots + 2.5) = 2.85\\,, \\\\ \\text{由二阶中心距公式得} &amp;\\\\&amp; \\frac{1}{8} \\sum_{i=1}^{n} (x_i - \\overline{x})^2 \\\\&amp;= \\frac{1}{8} (0.25^2 + (-0.25)^2 + (-0.05)^2 + 0.45^2 + 0.05^2 + 0.35^2 + (-0.45)^2 + (-0.35)^2)\\,, \\\\&amp;= \\frac{1}{8} \\times 0.78 = 0.0975\\end{aligned}</div>"
     },
     {
       "id": "q0019",
       "number": 19,
       "header": "#19-Averge",
       "difficulty": "Averge",
-      "prompt_html": "<img src=\"/static/generated/assets/probability/ch115/q0019_prompt.png\"/>",
+      "prompt_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{aligned} \\text{从一批加工的零件中随机取8件，测得其标准件误差（单位：mm）为} \\\\ 3.1,\\ 2.6,\\ 2.8,\\ 3.3,\\ 2.9,\\ 3.2,\\ 2.4,\\ 2.5; \\\\ \\text{则标准误差的样本二阶原点距为（）.（至小数后4位）} \\end{aligned}\">\\begin{aligned} \\text{从一批加工的零件中随机取8件，测得其标准件误差（单位：mm）为} \\\\ 3.1,\\ 2.6,\\ 2.8,\\ 3.3,\\ 2.9,\\ 3.2,\\ 2.4,\\ 2.5; \\\\ \\text{则标准误差的样本二阶原点距为（）.（至小数后4位）} \\end{aligned}</div>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/probability/ch115/q0019_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"8.2200\">8.2200</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/probability/ch115/q0019_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"2.8500\">2.8500</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/probability/ch115/q0019_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"8.1225\">8.1225</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/probability/ch115/q0019_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"2.8671\">2.8671</span>"
         }
       ],
       "answer": "A",
       "answer_index": 0,
-      "analysis_html": "<img src=\"/static/generated/assets/probability/ch115/q0019_analysis.png\"/>"
+      "analysis_html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{二阶原点矩} \\, M = \\frac { 1 } { 8 } \\sum _ { i = 1 } ^ { 8 } x _ { i } ^ { 2 } = 65 . 7600 / 8 = 8 . 2200 \\, .\">\\text{二阶原点矩} \\, M = \\frac { 1 } { 8 } \\sum _ { i = 1 } ^ { 8 } x _ { i } ^ { 2 } = 65 . 7600 / 8 = 8 . 2200 \\, .</span>"
     },
     {
       "id": "q0020",
       "number": 20,
       "header": "#20-Averge",
       "difficulty": "Averge",
-      "prompt_html": "<img src=\"/static/generated/assets/probability/ch115/q0020_prompt.png\"/>",
+      "prompt_html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{设总体}X\\text{服从均匀分布}U[\\theta,\\theta+1],\\text{其中}\\theta\\text{未知，则}\\theta\\text{的矩估计是}( ).\">\\text{设总体}X\\text{服从均匀分布}U[\\theta,\\theta+1],\\text{其中}\\theta\\text{未知，则}\\theta\\text{的矩估计是}( ).</span>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/probability/ch115/q0020_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\overline { X } - \\frac { 1 } { 2 }\">\\overline { X } - \\frac { 1 } { 2 }</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/probability/ch115/q0020_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\overline { x }\">\\overline { x }</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/probability/ch115/q0020_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\overline { X } + \\frac { 1 } { 2 }\">\\overline { X } + \\frac { 1 } { 2 }</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/probability/ch115/q0020_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\frac {\\overline { X} + 1}{2}\">\\frac {\\overline { X} + 1}{2}</span>"
         }
       ],
       "answer": "A",
       "answer_index": 0,
-      "analysis_html": "<img src=\"/static/generated/assets/probability/ch115/q0020_analysis.png\"/>"
+      "analysis_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{array}{l} \\text {求} X \\text {的一阶矩，为} \\mu_{1} = E(X) = \\theta + \\frac{1}{2}, \\text {即} \\theta = \\mu_{1} - \\frac{1}{2}.\\text {用样本均值}\\overline{X}\\text {代替一阶矩}\\mu_{1}, \\text {即得参数}\\theta \\text {的矩估计，也就是参数的矩估计为}\\widehat{\\theta} = \\overline{X} - \\frac{1}{2}. \\end{array}\">\\begin{array}{l} \\text {求} X \\text {的一阶矩，为} \\mu_{1} = E(X) = \\theta + \\frac{1}{2}, \\text {即} \\theta = \\mu_{1} - \\frac{1}{2}.\\text {用样本均值}\\overline{X}\\text {代替一阶矩}\\mu_{1}, \\text {即得参数}\\theta \\text {的矩估计，也就是参数的矩估计为}\\widehat{\\theta} = \\overline{X} - \\frac{1}{2}. \\end{array}</div>"
     },
     {
       "id": "q0021",
       "number": 21,
       "header": "#21-Averge",
       "difficulty": "Averge",
-      "prompt_html": "<img src=\"/static/generated/assets/probability/ch115/q0021_prompt.png\"/>",
+      "prompt_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{aligned}\\text{设总体}X\\text{有概率密度}\\quad&amp;f(x;\\theta)=\\begin{cases}\\frac{3}{\\theta^3}x^2,\\ 0\\leq x\\leq \\theta\\\\0,\\quad\\text{其它}\\end{cases},\\\\X_1,X_2,\\cdots,X_n\\text{是}X\\text{的样本，}\\bar{x}\\text{是样本均值，则}( )\\text{是}\\theta\\text{的矩估计}.\\end{aligned}\">\\begin{aligned}\\text{设总体}X\\text{有概率密度}\\quad&amp;f(x;\\theta)=\\begin{cases}\\frac{3}{\\theta^3}x^2,\\ 0\\leq x\\leq \\theta\\\\0,\\quad\\text{其它}\\end{cases},\\\\X_1,X_2,\\cdots,X_n\\text{是}X\\text{的样本，}\\bar{x}\\text{是样本均值，则}( )\\text{是}\\theta\\text{的矩估计}.\\end{aligned}</div>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/probability/ch115/q0021_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\frac {4}{3} \\overline { \\chi }\">\\frac {4}{3} \\overline { \\chi }</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/probability/ch115/q0021_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\overline { x }\">\\overline { x }</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/probability/ch115/q0021_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\scriptstyle 2 \\overline { \\chi }\">\\scriptstyle 2 \\overline { \\chi }</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/probability/ch115/q0021_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\frac{3}{4}\\overline{x}\">\\frac{3}{4}\\overline{x}</span>"
         }
       ],
       "answer": "A",
       "answer_index": 0,
-      "analysis_html": "<img src=\"/static/generated/assets/probability/ch115/q0021_analysis.png\"/>"
+      "analysis_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{array}{l} { l } E ( X ) = \\int _ { 0 } ^ { \\theta } x f ( x ; \\theta ) d x = \\displaystyle \\frac { 3 } { 4 \\theta ^ { 3 } } x ^ { 4 } \\! _ { 0 } ^ { \\theta } = \\displaystyle \\frac { 3 } { 4 } \\theta . \\ \\ \\text {令} \\ \\frac { 3 } { 4 } \\theta = \\overline { X } , \\ \\text {得} \\ \\theta \\text {的矩估计量为} \\widehat { \\theta } = \\frac { 4 } { 3 } \\overline { X } \\, . \\end{array}\">\\begin{array}{l} { l } E ( X ) = \\int _ { 0 } ^ { \\theta } x f ( x ; \\theta ) d x = \\displaystyle \\frac { 3 } { 4 \\theta ^ { 3 } } x ^ { 4 } \\! _ { 0 } ^ { \\theta } = \\displaystyle \\frac { 3 } { 4 } \\theta . \\ \\ \\text {令} \\ \\frac { 3 } { 4 } \\theta = \\overline { X } , \\ \\text {得} \\ \\theta \\text {的矩估计量为} \\widehat { \\theta } = \\frac { 4 } { 3 } \\overline { X } \\, . \\end{array}</div>"
     },
     {
       "id": "q0022",
       "number": 22,
       "header": "#22-Hard",
       "difficulty": "Hard",
-      "prompt_html": "<img src=\"/static/generated/assets/probability/ch115/q0022_prompt.png\"/>",
+      "prompt_html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{设总体}X\\sim b(k,p),\\ k\\text{是正整数，}0&lt;p&lt;1,k,p\\text{都未知，}X_{1},X_{2},\\cdots,X_{n}\\text{是一样本，则}p\\text{的矩估计为( }\\ \\text{).}\">\\text{设总体}X\\sim b(k,p),\\ k\\text{是正整数，}0&lt;p&lt;1,k,p\\text{都未知，}X_{1},X_{2},\\cdots,X_{n}\\text{是一样本，则}p\\text{的矩估计为( }\\ \\text{).}</span>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/probability/ch115/q0022_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\hat{p} = \\frac{\\overline{X} - S^{2}}{\\overline{X}}, \\text{其中} S^{2} = \\frac{1}{n} \\sum_{i=1}^{n} (X_{i} - \\overline{X})^{2}\">\\hat{p} = \\frac{\\overline{X} - S^{2}}{\\overline{X}}, \\text{其中} S^{2} = \\frac{1}{n} \\sum_{i=1}^{n} (X_{i} - \\overline{X})^{2}</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/probability/ch115/q0022_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\hat{p} = \\frac{\\overline{X} + S^{2}}{\\overline{X}}, \\text{其中} S^{2} = \\frac{1}{n} \\sum_{i=1}^{n} (X_{i} - \\overline{X})^{2}\">\\hat{p} = \\frac{\\overline{X} + S^{2}}{\\overline{X}}, \\text{其中} S^{2} = \\frac{1}{n} \\sum_{i=1}^{n} (X_{i} - \\overline{X})^{2}</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/probability/ch115/q0022_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\begin{aligned}\\hat{p}=\\frac{\\overline{X}-S}{\\overline{X}}, \\text{其中} S^{2}=\\frac{1}{n}\\sum_{i=1}^{n}(X_{i}-\\overline{X})^{2}\\end{aligned}\">\\begin{aligned}\\hat{p}=\\frac{\\overline{X}-S}{\\overline{X}}, \\text{其中} S^{2}=\\frac{1}{n}\\sum_{i=1}^{n}(X_{i}-\\overline{X})^{2}\\end{aligned}</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/probability/ch115/q0022_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\begin{aligned}\\hat{p}=\\frac{2\\overline{X}-S^{2}}{\\overline{X}} ,\\text{其中}S^{2}=\\frac{1}{n}\\sum_{i=1}^{n}(X_{i}-\\overline{X})^{2}\\end{aligned}\">\\begin{aligned}\\hat{p}=\\frac{2\\overline{X}-S^{2}}{\\overline{X}} ,\\text{其中}S^{2}=\\frac{1}{n}\\sum_{i=1}^{n}(X_{i}-\\overline{X})^{2}\\end{aligned}</span>"
         }
       ],
       "answer": "A",
       "answer_index": 0,
-      "analysis_html": "<img src=\"/static/generated/assets/probability/ch115/q0022_analysis.png\"/>"
+      "analysis_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{aligned} \\text{因总体} \\lambda \\text{服从二项分布} b(k,p), \\text{故令} &amp; \\quad \\{ \\begin{array}{l} a_{1} = E(X) = kp \\\\ a_{2} = E(X^{2}) = D(X) + [E(X)]^{2} = kp(1-p) + (kp)^{2} \\end{array} \\\\ \\text{解此方程组得} &amp; \\quad p = \\frac{a_{1} + a_{1}^{2} - a_{2}}{a_{1}}, k = \\frac{a_{1}^{2}}{a_{1} + a_{1}^{2} - a_{2}}. \\\\ \\text{用} &amp; \\quad A_{1} = \\frac{1}{n} \\sum_{i=1}^{n} X_{i} = \\overline{X}, A_{2} = \\frac{1}{n} \\sum_{i=1}^{n} X_{i}^{2} \\text{分别代替} a_{1}, a_{2}, \\text{得} p, k \\text{的矩估计为} \\\\ &amp; \\quad \\widehat{p} = \\frac{\\overline{X} - S^{2}}{X}, \\widehat{k} = [ \\frac{\\overline{X}^{2}}{X - S^{2}} ], \\\\ \\text{其中} &amp; \\quad S^{2} = \\frac{1}{n} \\sum_{i=1}^{n} (X_{i} - \\overline{X})^{2}, [x] \\text{表示} x \\text{的最大整数部分}. \\end{aligned}\">\\begin{aligned} \\text{因总体} \\lambda \\text{服从二项分布} b(k,p), \\text{故令} &amp; \\quad \\{ \\begin{array}{l} a_{1} = E(X) = kp \\\\ a_{2} = E(X^{2}) = D(X) + [E(X)]^{2} = kp(1-p) + (kp)^{2} \\end{array} \\\\ \\text{解此方程组得} &amp; \\quad p = \\frac{a_{1} + a_{1}^{2} - a_{2}}{a_{1}}, k = \\frac{a_{1}^{2}}{a_{1} + a_{1}^{2} - a_{2}}. \\\\ \\text{用} &amp; \\quad A_{1} = \\frac{1}{n} \\sum_{i=1}^{n} X_{i} = \\overline{X}, A_{2} = \\frac{1}{n} \\sum_{i=1}^{n} X_{i}^{2} \\text{分别代替} a_{1}, a_{2}, \\text{得} p, k \\text{的矩估计为} \\\\ &amp; \\quad \\widehat{p} = \\frac{\\overline{X} - S^{2}}{X}, \\widehat{k} = [ \\frac{\\overline{X}^{2}}{X - S^{2}} ], \\\\ \\text{其中} &amp; \\quad S^{2} = \\frac{1}{n} \\sum_{i=1}^{n} (X_{i} - \\overline{X})^{2}, [x] \\text{表示} x \\text{的最大整数部分}. \\end{aligned}</div>"
     }
-  ]
+  ],
+  "format": "latex",
+  "source_md": "gl/7.2.1.1_矩估计法(22题)/7.2.1.1_矩估计法(22题).md"
 }

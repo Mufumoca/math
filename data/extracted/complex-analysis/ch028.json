@@ -13,588 +13,590 @@
       "number": 1,
       "header": "#1-Averge",
       "difficulty": "Averge",
-      "prompt_html": "<img src=\"/static/generated/assets/complex-analysis/ch028/q0001_prompt.png\"/>",
+      "prompt_html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{设}u(x,y)\\text{的共轭调和函数为}v(x,y)，\\text{那么}v(x,y)\\text{的共轭调和函数为}\\underline{\\hspace{2em}}.\">\\text{设}u(x,y)\\text{的共轭调和函数为}v(x,y)，\\text{那么}v(x,y)\\text{的共轭调和函数为}\\underline{\\hspace{2em}}.</span>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/complex-analysis/ch028/q0001_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"- u ( x , y )\">- u ( x , y )</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/complex-analysis/ch028/q0001_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\boldsymbol { u } ( x , y )\">\\boldsymbol { u } ( x , y )</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/complex-analysis/ch028/q0001_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"iu(x,y)\">iu(x,y)</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/complex-analysis/ch028/q0001_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"-i u ( x , y )\">-i u ( x , y )</span>"
         }
       ],
       "answer": "A",
       "answer_index": 0,
-      "analysis_html": "<img src=\"/static/generated/assets/complex-analysis/ch028/q0001_analysis.png\"/>"
+      "analysis_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{array}{l} \\text {由题意可知} u _ {x} = v _ {y}, u _ {y} = - v _ {x} \\text {接下来逐个选项验证所给出的函数是否满足解析函数的充要条件。} \\end{array}\">\\begin{array}{l} \\text {由题意可知} u _ {x} = v _ {y}, u _ {y} = - v _ {x} \\text {接下来逐个选项验证所给出的函数是否满足解析函数的充要条件。} \\end{array}</div>"
     },
     {
       "id": "q0002",
       "number": 2,
       "header": "#2-Averge",
       "difficulty": "Averge",
-      "prompt_html": "<img src=\"/static/generated/assets/complex-analysis/ch028/q0002_prompt.png\"/>",
+      "prompt_html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{解析函数}f(z)=u+iv，\\text{其中}u+v=x^{2}-y^{2}+2xy-5x-5y，\\text{则}f(z)=\">\\text{解析函数}f(z)=u+iv，\\text{其中}u+v=x^{2}-y^{2}+2xy-5x-5y，\\text{则}f(z)=</span>\n<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"( )。\\textcircled{1}\">( )。\\textcircled{1}</span>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/complex-analysis/ch028/q0002_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"z^{2}-5z+(1-i)C\">z^{2}-5z+(1-i)C</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/complex-analysis/ch028/q0002_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"z^{2}+5z+(1-i)C\">z^{2}+5z+(1-i)C</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/complex-analysis/ch028/q0002_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\overline { z } ^ { 2 } + 5 z + C\">\\overline { z } ^ { 2 } + 5 z + C</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/complex-analysis/ch028/q0002_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\overline { z } ^ { 2 } - 5 z + C\">\\overline { z } ^ { 2 } - 5 z + C</span>"
         }
       ],
       "answer": "A",
       "answer_index": 0,
-      "analysis_html": "<img src=\"/static/generated/assets/complex-analysis/ch028/q0002_analysis.png\"/>"
+      "analysis_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{aligned} &amp; \\text{首先，等式两端分别对}x,y\\text{求偏导数，得} \\\\ &amp; \\quad u_x+v_x=2x+2y-5 \\\\ &amp; \\quad u_y+v_y=-2y+2x-5 \\\\ &amp; \\text{再联立上柯西-黎曼方程} \\\\ &amp; \\quad u_x=v_y \\quad u_y=-v_x \\\\ &amp; \\text{从上述方程组中解出}u_x,u_y,\\text{得} \\\\ &amp; \\quad u_x=2x-5,\\ u_y=-2y \\\\ &amp; \\text{这样，对}u_x\\text{积分，得}u=x^2-5x+c(y),\\text{再代入}u_y\\text{中，得} \\\\ &amp; \\quad c&#x27;(y)=-2y,\\ c(y)=-y^2+c_0 \\\\ &amp; \\text{至此得到：}u=x^2-5x-y^2+c_0,\\text{由二者之和又可解出} \\\\ &amp; \\quad v=2xy-5y-c_0,\\ \\text{因此} \\\\ &amp; \\quad f(z)=u+iv=z^2-5z+c_0-c_0i,\\ \\text{其中}c_0\\text{为任意实常数}.\\end{aligned}\">\\begin{aligned} &amp; \\text{首先，等式两端分别对}x,y\\text{求偏导数，得} \\\\ &amp; \\quad u_x+v_x=2x+2y-5 \\\\ &amp; \\quad u_y+v_y=-2y+2x-5 \\\\ &amp; \\text{再联立上柯西-黎曼方程} \\\\ &amp; \\quad u_x=v_y \\quad u_y=-v_x \\\\ &amp; \\text{从上述方程组中解出}u_x,u_y,\\text{得} \\\\ &amp; \\quad u_x=2x-5,\\ u_y=-2y \\\\ &amp; \\text{这样，对}u_x\\text{积分，得}u=x^2-5x+c(y),\\text{再代入}u_y\\text{中，得} \\\\ &amp; \\quad c&#x27;(y)=-2y,\\ c(y)=-y^2+c_0 \\\\ &amp; \\text{至此得到：}u=x^2-5x-y^2+c_0,\\text{由二者之和又可解出} \\\\ &amp; \\quad v=2xy-5y-c_0,\\ \\text{因此} \\\\ &amp; \\quad f(z)=u+iv=z^2-5z+c_0-c_0i,\\ \\text{其中}c_0\\text{为任意实常数}.\\end{aligned}</div>"
     },
     {
       "id": "q0003",
       "number": 3,
       "header": "#3-Averge",
       "difficulty": "Averge",
-      "prompt_html": "<img src=\"/static/generated/assets/complex-analysis/ch028/q0003_prompt.png\"/>",
+      "prompt_html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{设}u=(x-y)(x^{2}+4xy+y^{2})\\text{为解析函数}f(z)\\text{的实部，则}f(z)=(\\quad).\">\\text{设}u=(x-y)(x^{2}+4xy+y^{2})\\text{为解析函数}f(z)\\text{的实部，则}f(z)=(\\quad).</span>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/complex-analysis/ch028/q0003_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"(1{-}i)z^{3}{+}iC\">(1{-}i)z^{3}{+}iC</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/complex-analysis/ch028/q0003_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"(1 + i) z ^ { 3 } + i C\">(1 + i) z ^ { 3 } + i C</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/complex-analysis/ch028/q0003_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\mathfrak{Z}(1\\!-\\!i)z^{2}\\!+\\!C\">\\mathfrak{Z}(1\\!-\\!i)z^{2}\\!+\\!C</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/complex-analysis/ch028/q0003_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\mathfrak{Z}(1\\!+\\!i)z^{2}\\!+\\!C\">\\mathfrak{Z}(1\\!+\\!i)z^{2}\\!+\\!C</span>"
         }
       ],
       "answer": "A",
       "answer_index": 0,
-      "analysis_html": "<img src=\"/static/generated/assets/complex-analysis/ch028/q0003_analysis.png\"/>"
+      "analysis_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{aligned}u_x=&amp;3x^2+6xy-3y^2,u_y=3x^2-6xy-3y^2,\\ \\text{则}\\\\f&#x27;(z)=&amp;u_x-iu_y=3x^2+6xy-3y^2-i\\big(3x^2-6xy-3y^2\\big)=3\\left(1-i\\right)z^2\\omega\\\\ \\text{故}f\\left(z\\right)=&amp;\\left(1-i\\right)z^3+iC\\,\\omega\\end{aligned}\">\\begin{aligned}u_x=&amp;3x^2+6xy-3y^2,u_y=3x^2-6xy-3y^2,\\ \\text{则}\\\\f&#x27;(z)=&amp;u_x-iu_y=3x^2+6xy-3y^2-i\\big(3x^2-6xy-3y^2\\big)=3\\left(1-i\\right)z^2\\omega\\\\ \\text{故}f\\left(z\\right)=&amp;\\left(1-i\\right)z^3+iC\\,\\omega\\end{aligned}</div>"
     },
     {
       "id": "q0004",
       "number": 4,
       "header": "#4-Averge",
       "difficulty": "Averge",
-      "prompt_html": "<img src=\"/static/generated/assets/complex-analysis/ch028/q0004_prompt.png\"/>",
+      "prompt_html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{设}u=y^{3}-3x^{2}y, \\text{则}u\\text{的共轭调和函数}v=\\underline{\\hspace{2em}}.\">\\text{设}u=y^{3}-3x^{2}y, \\text{则}u\\text{的共轭调和函数}v=\\underline{\\hspace{2em}}.</span>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/complex-analysis/ch028/q0004_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"-3 x y ^ { 2 } + x ^ { 3 } + C\">-3 x y ^ { 2 } + x ^ { 3 } + C</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/complex-analysis/ch028/q0004_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"3xy^{2}-x^{2}+C\">3xy^{2}-x^{2}+C</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/complex-analysis/ch028/q0004_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"-3xy^{2}+x^{2}+C\">-3xy^{2}+x^{2}+C</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/complex-analysis/ch028/q0004_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"3xy^{2}+x^{3}+C\">3xy^{2}+x^{3}+C</span>"
         }
       ],
       "answer": "A",
       "answer_index": 0,
-      "analysis_html": "<img src=\"/static/generated/assets/complex-analysis/ch028/q0004_analysis.png\"/>"
+      "analysis_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{aligned}&amp;\\text{由于 }u_x=v_y,\\quad u_y=-v_x,\\quad \\text{所以}\\quad \\\\&amp;\\quad v_y=-6xy\\quad\\quad(1)\\\\&amp;\\quad v_x=-3y^2+3x^2\\quad\\quad(2)\\\\&amp;\\text{解(1)得}v=-3xy^2+C(x)\\\\&amp;\\text{从而}\\quad v_x=-3y^2+C&#x27;(x)=-3y^2+3x^2\\\\&amp;\\text{则}\\quad C&#x27;(x)=3x^2\\\\&amp;\\text{故}\\quad C(x)=x^3+C\\end{aligned}\">\\begin{aligned}&amp;\\text{由于 }u_x=v_y,\\quad u_y=-v_x,\\quad \\text{所以}\\quad \\\\&amp;\\quad v_y=-6xy\\quad\\quad(1)\\\\&amp;\\quad v_x=-3y^2+3x^2\\quad\\quad(2)\\\\&amp;\\text{解(1)得}v=-3xy^2+C(x)\\\\&amp;\\text{从而}\\quad v_x=-3y^2+C&#x27;(x)=-3y^2+3x^2\\\\&amp;\\text{则}\\quad C&#x27;(x)=3x^2\\\\&amp;\\text{故}\\quad C(x)=x^3+C\\end{aligned}</div>"
     },
     {
       "id": "q0005",
       "number": 5,
       "header": "#5-Averge",
       "difficulty": "Averge",
-      "prompt_html": "<img src=\"/static/generated/assets/complex-analysis/ch028/q0005_prompt.png\"/>",
+      "prompt_html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{设}u(x,y)=\\ln(x^{2}+y^{2}).\\text{为解析函数}f(z)\\text{的实部且}f(1+i)=\\ln 2, \\text{则}f(z)\\text{的虚部}v=(\\quad).\">\\text{设}u(x,y)=\\ln(x^{2}+y^{2}).\\text{为解析函数}f(z)\\text{的实部且}f(1+i)=\\ln 2, \\text{则}f(z)\\text{的虚部}v=(\\quad).</span>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/complex-analysis/ch028/q0005_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\, 2 \\arctan { \\frac { y } { x } } - { \\frac { \\pi } { 2 } }\">\\, 2 \\arctan { \\frac { y } { x } } - { \\frac { \\pi } { 2 } }</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/complex-analysis/ch028/q0005_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\arctan { \\frac { y } { x } } - { \\frac { \\pi } { 4 } }\">\\arctan { \\frac { y } { x } } - { \\frac { \\pi } { 4 } }</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/complex-analysis/ch028/q0005_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\, 2 \\arctan { \\frac { x } { y } } - { \\frac { \\pi } { 2 } }\">\\, 2 \\arctan { \\frac { x } { y } } - { \\frac { \\pi } { 2 } }</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/complex-analysis/ch028/q0005_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\arctan { \\frac { x } { y } } - \\frac { \\pi } { 4 }\">\\arctan { \\frac { x } { y } } - \\frac { \\pi } { 4 }</span>"
         }
       ],
       "answer": "A",
       "answer_index": 0,
-      "analysis_html": "<img src=\"/static/generated/assets/complex-analysis/ch028/q0005_analysis.png\"/>"
+      "analysis_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{aligned}\\frac{\\partial u}{\\partial x} &amp; = \\frac{2x}{x^2+y^2},\\quad\\frac{\\partial u}{\\partial y} = \\frac{2y}{x^2+y^2}\\,^\\psi\\\\v(x,y) &amp; = \\int_{(0,0)}^{(x,y)} -u_j dx + u_x dy + c = \\int_{(0,0)}^{(x,y)} \\frac{-2y}{x^2+y^2}\\, dx + \\frac{2x}{x^2+y^2}\\, dy + c \\partial^\\psi\\\\&amp; = \\int_0^y \\frac{2x}{x^2+y^2}\\, dy + c = 2\\arctan \\frac{y}{x} + c\\,^\\psi\\\\f(1+i) &amp; = u(1,1) + iv(1,1) = \\ln 2 + i(2\\arctan 1 + c) = \\ln 2\\,^\\psi\\\\ \\text{故} c &amp; = -\\frac{\\pi}{2},\\quad v(x,y) = 2\\arctan \\frac{y}{x} - \\frac{\\pi}{2}\\,^\\psi\\end{aligned}\">\\begin{aligned}\\frac{\\partial u}{\\partial x} &amp; = \\frac{2x}{x^2+y^2},\\quad\\frac{\\partial u}{\\partial y} = \\frac{2y}{x^2+y^2}\\,^\\psi\\\\v(x,y) &amp; = \\int_{(0,0)}^{(x,y)} -u_j dx + u_x dy + c = \\int_{(0,0)}^{(x,y)} \\frac{-2y}{x^2+y^2}\\, dx + \\frac{2x}{x^2+y^2}\\, dy + c \\partial^\\psi\\\\&amp; = \\int_0^y \\frac{2x}{x^2+y^2}\\, dy + c = 2\\arctan \\frac{y}{x} + c\\,^\\psi\\\\f(1+i) &amp; = u(1,1) + iv(1,1) = \\ln 2 + i(2\\arctan 1 + c) = \\ln 2\\,^\\psi\\\\ \\text{故} c &amp; = -\\frac{\\pi}{2},\\quad v(x,y) = 2\\arctan \\frac{y}{x} - \\frac{\\pi}{2}\\,^\\psi\\end{aligned}</div>"
     },
     {
       "id": "q0006",
       "number": 6,
       "header": "#6-Averge",
       "difficulty": "Averge",
-      "prompt_html": "<img src=\"/static/generated/assets/complex-analysis/ch028/q0006_prompt.png\"/>",
+      "prompt_html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{记}C \\text{为任意实常数，设} u = x ^ { 2 } - y ^ { 2 } \\text{为解析函数} f ( z ) \\text{的实部，则} f ( z ) = \\underline { \\quad } .\">\\text{记}C \\text{为任意实常数，设} u = x ^ { 2 } - y ^ { 2 } \\text{为解析函数} f ( z ) \\text{的实部，则} f ( z ) = \\underline { \\quad } .</span>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/complex-analysis/ch028/q0006_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\boldsymbol { u } \\! = \\! z ^ { 2 } \\! + \\! i C\">\\boldsymbol { u } \\! = \\! z ^ { 2 } \\! + \\! i C</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/complex-analysis/ch028/q0006_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\boldsymbol { u } \\! = \\! i z ^ { 2 } \\! + \\! i C\">\\boldsymbol { u } \\! = \\! i z ^ { 2 } \\! + \\! i C</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/complex-analysis/ch028/q0006_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\boldsymbol { u } \\! = \\! z ^ { 2 } \\! + \\! C\">\\boldsymbol { u } \\! = \\! z ^ { 2 } \\! + \\! C</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/complex-analysis/ch028/q0006_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\boldsymbol { u } \\! = \\! i z ^ { 2 } \\! + \\! C\">\\boldsymbol { u } \\! = \\! i z ^ { 2 } \\! + \\! C</span>"
         }
       ],
       "answer": "A",
       "answer_index": 0,
-      "analysis_html": "<img src=\"/static/generated/assets/complex-analysis/ch028/q0006_analysis.png\"/>"
+      "analysis_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{array}{l}f^{\\prime}(z)=u_{z}-i v_{z}=2x-i(2-y)\\text{令}y=0\\text{得}f^{\\prime}(x)=2x\\text{故}f(x)=x^{2}+c_{1},\\text{由解析函数的惟一性定理知}f(z)=z^{2}+c_{1},\\text{其中}c_{1}\\text{任意复数}，\\text{又}f(z)\\text{的实部为}x^{2}-y^{2},\\\\ \\text{故}c_{1} \\text{为纯虚数，}c_{1}=ic，\\text{其中}c\\text{为任意实数}. \\end{array}\">\\begin{array}{l}f^{\\prime}(z)=u_{z}-i v_{z}=2x-i(2-y)\\text{令}y=0\\text{得}f^{\\prime}(x)=2x\\text{故}f(x)=x^{2}+c_{1},\\text{由解析函数的惟一性定理知}f(z)=z^{2}+c_{1},\\text{其中}c_{1}\\text{任意复数}，\\text{又}f(z)\\text{的实部为}x^{2}-y^{2},\\\\ \\text{故}c_{1} \\text{为纯虚数，}c_{1}=ic，\\text{其中}c\\text{为任意实数}. \\end{array}</div>"
     },
     {
       "id": "q0007",
       "number": 7,
       "header": "#7-Easy",
       "difficulty": "Easy",
-      "prompt_html": "<img src=\"/static/generated/assets/complex-analysis/ch028/q0007_prompt.png\"/>",
+      "prompt_html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{设}v(x,y)=-\\frac{1}{2}x^{2}+\\frac{1}{2}y^{2} \\text{为解析函数}f(z) \\text{的虚部，且}f(0)=0，\\text{则}f(z)=\\underline{\\hspace{2em}}.\">\\text{设}v(x,y)=-\\frac{1}{2}x^{2}+\\frac{1}{2}y^{2} \\text{为解析函数}f(z) \\text{的虚部，且}f(0)=0，\\text{则}f(z)=\\underline{\\hspace{2em}}.</span>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/complex-analysis/ch028/q0007_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"- \\frac { i z ^ { 2 } } { 2 }\">- \\frac { i z ^ { 2 } } { 2 }</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/complex-analysis/ch028/q0007_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\frac { i z ^ { 2 } } { 2 }\">\\frac { i z ^ { 2 } } { 2 }</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/complex-analysis/ch028/q0007_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"- \\frac { z ^ { 2 } } { 2 }\">- \\frac { z ^ { 2 } } { 2 }</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/complex-analysis/ch028/q0007_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\frac {z ^ {2}}{2}\">\\frac {z ^ {2}}{2}</span>"
         }
       ],
       "answer": "A",
       "answer_index": 0,
-      "analysis_html": "<img src=\"/static/generated/assets/complex-analysis/ch028/q0007_analysis.png\"/>"
+      "analysis_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{aligned}&amp;f&#x27;(z)=v_y+i v_x=y+i(-x)\\ \\text{令}\\ \\ y=0\\ \\text{得}\\ \\ f&#x27;(z)=-i x\\ \\ \\ \\ \\text{从而}\\ \\ f(x)=-\\frac{i}{2}\\,x^2+c\\\\&amp;\\qquad\\qquad\\qquad\\qquad\\qquad\\qquad\\qquad\\qquad\\qquad\\qquad\\\\&amp;\\text{由解析函数唯一性定理有}\\ \\ f(z)=-\\frac{i}{2}\\,z^2+c\\ \\ \\text{又}\\ \\ f(0)=0\\ \\ \\ \\text{从而}\\ \\ f(z)=-\\frac{i}{2}\\,z^2.\\end{aligned}\">\\begin{aligned}&amp;f&#x27;(z)=v_y+i v_x=y+i(-x)\\ \\text{令}\\ \\ y=0\\ \\text{得}\\ \\ f&#x27;(z)=-i x\\ \\ \\ \\ \\text{从而}\\ \\ f(x)=-\\frac{i}{2}\\,x^2+c\\\\&amp;\\qquad\\qquad\\qquad\\qquad\\qquad\\qquad\\qquad\\qquad\\qquad\\qquad\\\\&amp;\\text{由解析函数唯一性定理有}\\ \\ f(z)=-\\frac{i}{2}\\,z^2+c\\ \\ \\text{又}\\ \\ f(0)=0\\ \\ \\ \\text{从而}\\ \\ f(z)=-\\frac{i}{2}\\,z^2.\\end{aligned}</div>"
     },
     {
       "id": "q0008",
       "number": 8,
       "header": "#8-Easy",
       "difficulty": "Easy",
-      "prompt_html": "<img src=\"/static/generated/assets/complex-analysis/ch028/q0008_prompt.png\"/>",
+      "prompt_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{array}{l} \\text{设} u = e ^ { x } ( x \\cos y - y \\sin y ) \\text{为解析函数} f ( z ) \\text{的实部且} f ( 0 ) = 0 , \\text{则} f ( z ) = \\\\ ( ) . \\end{array}\">\\begin{array}{l} \\text{设} u = e ^ { x } ( x \\cos y - y \\sin y ) \\text{为解析函数} f ( z ) \\text{的实部且} f ( 0 ) = 0 , \\text{则} f ( z ) = \\\\ ( ) . \\end{array}</div>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/complex-analysis/ch028/q0008_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"z e ^ { i }\">z e ^ { i }</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/complex-analysis/ch028/q0008_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\mathbf{2ze}^{z}\">\\mathbf{2ze}^{z}</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/complex-analysis/ch028/q0008_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"z^{2}e^{z}\">z^{2}e^{z}</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/complex-analysis/ch028/q0008_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\mathbf { 2 } \\overline { z } e ^ { i }\">\\mathbf { 2 } \\overline { z } e ^ { i }</span>"
         }
       ],
       "answer": "A",
       "answer_index": 0,
-      "analysis_html": "<img src=\"/static/generated/assets/complex-analysis/ch028/q0008_analysis.png\"/>"
+      "analysis_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{aligned}v_x&amp;=-u_y=e^x(x\\sin y+\\sin y+y\\cos y),\\ \\text{对}x\\text{积分，得}\\\\v&amp;=\\sin y\\int e^x xdx+e^x(\\sin y+y\\cos y)+c(x)\\\\&amp;=\\sin y(x-1)e^x+e^x(\\sin y+y\\cos y)+c(x)\\\\&amp;=e^x(x\\sin y+y\\cos y)+c(x)\\\\&amp;\\text{再由}v_y=u_x\\ \\text{得}c&#x27;(x)=0,\\ \\text{所以}c(x)=c_0\\text{为常数，由}f(0)=0\\text{知},\\\\x&amp;=y=0\\text{时}v=0,\\ \\text{由此确定出}c_0=0,\\ \\text{至此得到：}\\\\&amp;\\quad v=e^x(x\\sin y+y\\cos y)\\\\f(z)&amp;=u+iv=\\ e^x(x\\cos y-y\\sin y)+ie^x(x\\sin y+y\\cos y),\\\\&amp;\\text{整理后可得}\\quad f(z)=ze^z\\end{aligned}\">\\begin{aligned}v_x&amp;=-u_y=e^x(x\\sin y+\\sin y+y\\cos y),\\ \\text{对}x\\text{积分，得}\\\\v&amp;=\\sin y\\int e^x xdx+e^x(\\sin y+y\\cos y)+c(x)\\\\&amp;=\\sin y(x-1)e^x+e^x(\\sin y+y\\cos y)+c(x)\\\\&amp;=e^x(x\\sin y+y\\cos y)+c(x)\\\\&amp;\\text{再由}v_y=u_x\\ \\text{得}c&#x27;(x)=0,\\ \\text{所以}c(x)=c_0\\text{为常数，由}f(0)=0\\text{知},\\\\x&amp;=y=0\\text{时}v=0,\\ \\text{由此确定出}c_0=0,\\ \\text{至此得到：}\\\\&amp;\\quad v=e^x(x\\sin y+y\\cos y)\\\\f(z)&amp;=u+iv=\\ e^x(x\\cos y-y\\sin y)+ie^x(x\\sin y+y\\cos y),\\\\&amp;\\text{整理后可得}\\quad f(z)=ze^z\\end{aligned}</div>"
     },
     {
       "id": "q0009",
       "number": 9,
       "header": "#9-Averge",
       "difficulty": "Averge",
-      "prompt_html": "<img src=\"/static/generated/assets/complex-analysis/ch028/q0009_prompt.png\"/>",
+      "prompt_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{array}{l} \\text{设} u(x,y)=\\frac{1}{2}\\ln(x^{2}+y^{2}) \\text{为解析函数} f(z) \\text{的实部且} f(1+i)=\\frac{1}{2}\\ln 2, \\text{则} f(z) \\text{的虚} \\\\ \\text{部} v=(\\quad). \\end{array}\">\\begin{array}{l} \\text{设} u(x,y)=\\frac{1}{2}\\ln(x^{2}+y^{2}) \\text{为解析函数} f(z) \\text{的实部且} f(1+i)=\\frac{1}{2}\\ln 2, \\text{则} f(z) \\text{的虚} \\\\ \\text{部} v=(\\quad). \\end{array}</div>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/complex-analysis/ch028/q0009_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\arctan { \\frac { y } { x } } - { \\frac { \\pi } { 4 } }\">\\arctan { \\frac { y } { x } } - { \\frac { \\pi } { 4 } }</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/complex-analysis/ch028/q0009_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"2 \\arctan { \\frac { y } { x } } - { \\frac { \\pi } { 2 } }\">2 \\arctan { \\frac { y } { x } } - { \\frac { \\pi } { 2 } }</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/complex-analysis/ch028/q0009_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\, 2 \\arctan { \\frac { x } { y } } - { \\frac { \\pi } { 2 } }\">\\, 2 \\arctan { \\frac { x } { y } } - { \\frac { \\pi } { 2 } }</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/complex-analysis/ch028/q0009_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\arctan { \\frac { x } { y } } - { \\frac { \\pi } { 4 } }\">\\arctan { \\frac { x } { y } } - { \\frac { \\pi } { 4 } }</span>"
         }
       ],
       "answer": "A",
       "answer_index": 0,
-      "analysis_html": "<img src=\"/static/generated/assets/complex-analysis/ch028/q0009_analysis.png\"/>"
+      "analysis_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{aligned}\\frac{\\partial u}{\\partial x}&amp;=\\frac{x}{x^2+y^2},\\frac{\\partial u}{\\partial y}=\\frac{y}{x^2+y^2},\\\\v(x,y)&amp;=\\int_{(0,0)}^{(x,y)}-u,ydx+u,ydy+C\\\\&amp;=\\int_{(0,0)}^{(x,y)}-\\frac{y}{x^2+y^2}dx+\\frac{x}{x^2+y^2}dy+C\\\\&amp;=\\int_{0}^{y}\\frac{x}{x^2+y^2}dy+C=\\arctan\\frac{y}{x}+C.\\\\ \\text{又}\\quad f(1+i)&amp;=u(1,1)+iv(1,1)\\\\&amp;=\\frac{1}{2}\\ln 2+i(\\arctan 1+C)=\\frac{1}{2}\\ln 2.\\\\ \\text{故}C&amp;=-\\frac{\\pi}{4},\\quad v(x,y)=\\arctan\\frac{y}{x}-\\frac{\\pi}{4}.\\end{aligned}\">\\begin{aligned}\\frac{\\partial u}{\\partial x}&amp;=\\frac{x}{x^2+y^2},\\frac{\\partial u}{\\partial y}=\\frac{y}{x^2+y^2},\\\\v(x,y)&amp;=\\int_{(0,0)}^{(x,y)}-u,ydx+u,ydy+C\\\\&amp;=\\int_{(0,0)}^{(x,y)}-\\frac{y}{x^2+y^2}dx+\\frac{x}{x^2+y^2}dy+C\\\\&amp;=\\int_{0}^{y}\\frac{x}{x^2+y^2}dy+C=\\arctan\\frac{y}{x}+C.\\\\ \\text{又}\\quad f(1+i)&amp;=u(1,1)+iv(1,1)\\\\&amp;=\\frac{1}{2}\\ln 2+i(\\arctan 1+C)=\\frac{1}{2}\\ln 2.\\\\ \\text{故}C&amp;=-\\frac{\\pi}{4},\\quad v(x,y)=\\arctan\\frac{y}{x}-\\frac{\\pi}{4}.\\end{aligned}</div>"
     },
     {
       "id": "q0010",
       "number": 10,
       "header": "#10-Averge",
       "difficulty": "Averge",
-      "prompt_html": "<img src=\"/static/generated/assets/complex-analysis/ch028/q0010_prompt.png\"/>",
+      "prompt_html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{设}u=x^{2}-y^{2}+xy, \\text{则}u\\text{的共轭调和函数为}( ).\">\\text{设}u=x^{2}-y^{2}+xy, \\text{则}u\\text{的共轭调和函数为}( ).</span>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/complex-analysis/ch028/q0010_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"- { \\frac { 1 } { 2 } } x ^ { 2 } + { \\frac { 1 } { 2 } } y ^ { 2 } + 2 x y + C\">- { \\frac { 1 } { 2 } } x ^ { 2 } + { \\frac { 1 } { 2 } } y ^ { 2 } + 2 x y + C</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/complex-analysis/ch028/q0010_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\frac{1}{2}x^{2}+\\frac{1}{2}y^{2}+2xy+C\">\\frac{1}{2}x^{2}+\\frac{1}{2}y^{2}+2xy+C</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/complex-analysis/ch028/q0010_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"- { \\frac { 1 } { 2 } } x ^ { 2 } - { \\frac { 1 } { 2 } } y ^ { 2 } + 2 x y + C\">- { \\frac { 1 } { 2 } } x ^ { 2 } - { \\frac { 1 } { 2 } } y ^ { 2 } + 2 x y + C</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/complex-analysis/ch028/q0010_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"- \\frac { 1 } { 2 } x ^ { 2 } + \\frac { 1 } { 2 } y ^ { 2 } - 2 x y + C\">- \\frac { 1 } { 2 } x ^ { 2 } + \\frac { 1 } { 2 } y ^ { 2 } - 2 x y + C</span>"
         }
       ],
       "answer": "A",
       "answer_index": 0,
-      "analysis_html": "<img src=\"/static/generated/assets/complex-analysis/ch028/q0010_analysis.png\"/>"
+      "analysis_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{aligned}&amp;\\frac{\\partial v}{\\partial x}=-\\frac{\\partial u}{\\partial y}=2y-x,\\frac{\\partial v}{\\partial y}-\\frac{\\partial u}{\\partial x}=2x+y\\\\&amp;\\text{则}v(x,y)=\\int_{[0,0]}^{(x,y)}(2y-x)\\,dx+\\left(2x+y\\right)dy+C\\\\&amp;\\quad=\\int_{0}^{x}(-x)\\,dx+\\int_{0}^{y}(2x+y)\\,dy+C\\\\&amp;\\quad=-\\frac{1}{2}\\,x^{2}+2xy+\\frac{1}{2}\\,y^{2}+C\\end{aligned}\">\\begin{aligned}&amp;\\frac{\\partial v}{\\partial x}=-\\frac{\\partial u}{\\partial y}=2y-x,\\frac{\\partial v}{\\partial y}-\\frac{\\partial u}{\\partial x}=2x+y\\\\&amp;\\text{则}v(x,y)=\\int_{[0,0]}^{(x,y)}(2y-x)\\,dx+\\left(2x+y\\right)dy+C\\\\&amp;\\quad=\\int_{0}^{x}(-x)\\,dx+\\int_{0}^{y}(2x+y)\\,dy+C\\\\&amp;\\quad=-\\frac{1}{2}\\,x^{2}+2xy+\\frac{1}{2}\\,y^{2}+C\\end{aligned}</div>"
     },
     {
       "id": "q0011",
       "number": 11,
       "header": "#11-Easy",
       "difficulty": "Easy",
-      "prompt_html": "<img src=\"/static/generated/assets/complex-analysis/ch028/q0011_prompt.png\"/>",
+      "prompt_html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\mathbf { u } = \\mathbf { x } ^ { 2 } + 2 \\mathbf { x } \\mathbf { y } - \\mathbf { y } ^ { 2 } , \\text{则} \\mathbf { u } \\text{的共轭调和函数} \\mathbf { v } = \\underline { { } }\">\\mathbf { u } = \\mathbf { x } ^ { 2 } + 2 \\mathbf { x } \\mathbf { y } - \\mathbf { y } ^ { 2 } , \\text{则} \\mathbf { u } \\text{的共轭调和函数} \\mathbf { v } = \\underline { { } }</span>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/complex-analysis/ch028/q0011_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\mathbf { 2 x y + y ^ { 2 } - x ^ { 2 } + C }\">\\mathbf { 2 x y + y ^ { 2 } - x ^ { 2 } + C }</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/complex-analysis/ch028/q0011_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"-2\\mathbf{x}\\mathbf{y}-\\mathbf{y}^{2}+\\mathbf{x}^{2}+\\mathbf{C}\">-2\\mathbf{x}\\mathbf{y}-\\mathbf{y}^{2}+\\mathbf{x}^{2}+\\mathbf{C}</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/complex-analysis/ch028/q0011_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"-2\\mathbf{x}\\mathbf{y}+\\mathbf{y}^{2}+\\mathbf{x}^{2}+\\mathbf{C}\">-2\\mathbf{x}\\mathbf{y}+\\mathbf{y}^{2}+\\mathbf{x}^{2}+\\mathbf{C}</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/complex-analysis/ch028/q0011_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"-2\\mathbf{x}\\mathbf{y}-\\mathbf{y}^{2}-\\mathbf{x}^{2}+\\mathbf{C}\">-2\\mathbf{x}\\mathbf{y}-\\mathbf{y}^{2}-\\mathbf{x}^{2}+\\mathbf{C}</span>"
         }
       ],
       "answer": "A",
       "answer_index": 0,
-      "analysis_html": "<img src=\"/static/generated/assets/complex-analysis/ch028/q0011_analysis.png\"/>"
+      "analysis_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{aligned}&amp;\\text{由于}u_x=v_y\\quad\\quad u_y=-v_x\\text{①}\\\\&amp;\\text{知}\\\\&amp;\\quad v_y=2x+2y\\quad\\quad(1)\\text{②}\\\\&amp;\\quad v_x=-2x+2y\\quad\\quad(2)\\text{③}\\\\&amp;\\text{由(1)知}\\quad v=2xy+y^2+C(x)\\text{④}\\\\&amp;\\text{从而}v_x=2y+C&#x27;(x)\\text{⑤}\\\\&amp;\\text{由(2)知}C&#x27;(x)=-2x\\text{⑥}\\\\&amp;\\therefore C(x)=-x^2+C\\text{⑦}\\end{aligned}\">\\begin{aligned}&amp;\\text{由于}u_x=v_y\\quad\\quad u_y=-v_x\\text{①}\\\\&amp;\\text{知}\\\\&amp;\\quad v_y=2x+2y\\quad\\quad(1)\\text{②}\\\\&amp;\\quad v_x=-2x+2y\\quad\\quad(2)\\text{③}\\\\&amp;\\text{由(1)知}\\quad v=2xy+y^2+C(x)\\text{④}\\\\&amp;\\text{从而}v_x=2y+C&#x27;(x)\\text{⑤}\\\\&amp;\\text{由(2)知}C&#x27;(x)=-2x\\text{⑥}\\\\&amp;\\therefore C(x)=-x^2+C\\text{⑦}\\end{aligned}</div>"
     },
     {
       "id": "q0012",
       "number": 12,
       "header": "#12-Easy",
       "difficulty": "Easy",
-      "prompt_html": "<img src=\"/static/generated/assets/complex-analysis/ch028/q0012_prompt.png\"/>",
+      "prompt_html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{设}u=2(x-1)y \\text{为解析函数}f(z) \\text{的实部且}f(2)=-i，\\text{则}f(z)=（）.\">\\text{设}u=2(x-1)y \\text{为解析函数}f(z) \\text{的实部且}f(2)=-i，\\text{则}f(z)=（）.</span>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/complex-analysis/ch028/q0012_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"-i(z\\!-\\!{\\bf 1})^{2}\">-i(z\\!-\\!{\\bf 1})^{2}</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/complex-analysis/ch028/q0012_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"-i(z\\!-\\!1)^{3}\">-i(z\\!-\\!1)^{3}</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/complex-analysis/ch028/q0012_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"- i \\frac { z } { 2 }\">- i \\frac { z } { 2 }</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/complex-analysis/ch028/q0012_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"- i \\frac { z ^ { 2 } } { 4 }\">- i \\frac { z ^ { 2 } } { 4 }</span>"
         }
       ],
       "answer": "A",
       "answer_index": 0,
-      "analysis_html": "<img src=\"/static/generated/assets/complex-analysis/ch028/q0012_analysis.png\"/>"
+      "analysis_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{aligned}f^{\\prime }\\bigl(z) &amp; =u_{x}-iu_{y}=2y-2i\\bigl(x-1\\bigr)=-2i\\bigl(x-1+iy\\bigr)=-2i\\bigl(z-1\\bigr),\\\\ \\text{故}f(z) &amp; =-i\\bigl(z-1\\bigr)^{2}+C,\\ \\text{又}f(2)=-i,\\ \\text{则}f(z)=-i\\bigl(z-1\\bigr)^{2}.\\end{aligned}\">\\begin{aligned}f^{\\prime }\\bigl(z) &amp; =u_{x}-iu_{y}=2y-2i\\bigl(x-1\\bigr)=-2i\\bigl(x-1+iy\\bigr)=-2i\\bigl(z-1\\bigr),\\\\ \\text{故}f(z) &amp; =-i\\bigl(z-1\\bigr)^{2}+C,\\ \\text{又}f(2)=-i,\\ \\text{则}f(z)=-i\\bigl(z-1\\bigr)^{2}.\\end{aligned}</div>"
     },
     {
       "id": "q0013",
       "number": 13,
       "header": "#13-Averge",
       "difficulty": "Averge",
-      "prompt_html": "<img src=\"/static/generated/assets/complex-analysis/ch028/q0013_prompt.png\"/>",
+      "prompt_html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{设}v=\\arctan \\frac{y}{x},x&gt;0 \\text{为解析函数}f(z) \\text{的虚部，则}f(z)=\\left(\\quad\\right).\">\\text{设}v=\\arctan \\frac{y}{x},x&gt;0 \\text{为解析函数}f(z) \\text{的虚部，则}f(z)=\\left(\\quad\\right).</span>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/complex-analysis/ch028/q0013_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\ln z + C\">\\ln z + C</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/complex-analysis/ch028/q0013_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"- \\ln z + C\">- \\ln z + C</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/complex-analysis/ch028/q0013_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\ln 2 z + C\">\\ln 2 z + C</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/complex-analysis/ch028/q0013_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\mathbf { 2 \\ln z } + C\">\\mathbf { 2 \\ln z } + C</span>"
         }
       ],
       "answer": "A",
       "answer_index": 0,
-      "analysis_html": "<img src=\"/static/generated/assets/complex-analysis/ch028/q0013_analysis.png\"/>"
+      "analysis_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{array}{l}f^{\\prime}(z)=v_{y}+iv_{x}=\\dfrac{x}{x^{2}+y^{2}}+i\\dfrac{-y}{x^{2}+y^{2}}=\\dfrac{x-iy}{x^{2}+y^{2}}=\\dfrac{\\overline{z}}{zz}=\\dfrac{1}{z},\\\\ \\\\ \\text{故}f(z)\\!=\\!\\ln z\\!+\\!C\\end{array}\">\\begin{array}{l}f^{\\prime}(z)=v_{y}+iv_{x}=\\dfrac{x}{x^{2}+y^{2}}+i\\dfrac{-y}{x^{2}+y^{2}}=\\dfrac{x-iy}{x^{2}+y^{2}}=\\dfrac{\\overline{z}}{zz}=\\dfrac{1}{z},\\\\ \\\\ \\text{故}f(z)\\!=\\!\\ln z\\!+\\!C\\end{array}</div>"
     },
     {
       "id": "q0014",
       "number": 14,
       "header": "#14-Averge",
       "difficulty": "Averge",
-      "prompt_html": "<img src=\"/static/generated/assets/complex-analysis/ch028/q0014_prompt.png\"/>",
+      "prompt_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{aligned} \\text{下列命题中，正确的是} \\underline{\\hspace{2em}} .\\end{aligned}\">\\begin{aligned} \\text{下列命题中，正确的是} \\underline{\\hspace{2em}} .\\end{aligned}</div>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/complex-analysis/ch028/q0014_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{若 } f ( z ) = u + i v \\text{ 在区域 } D \\text{ 内解析，则} \\frac { \\partial u } { \\partial x } \\text{是} D \\text{ 内的调和函数}\">\\text{若 } f ( z ) = u + i v \\text{ 在区域 } D \\text{ 内解析，则} \\frac { \\partial u } { \\partial x } \\text{是} D \\text{ 内的调和函数}</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/complex-analysis/ch028/q0014_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{解析函数的实部是虚部的共轭调和函数}\">\\text{解析函数的实部是虚部的共轭调和函数}</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/complex-analysis/ch028/q0014_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{设}v_{1},v_{2}\\text{在区域}D\\text{内均为}u\\text{的共轭调和函数，则必有}v_{1}=v_{2}\">\\text{设}v_{1},v_{2}\\text{在区域}D\\text{内均为}u\\text{的共轭调和函数，则必有}v_{1}=v_{2}</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/complex-analysis/ch028/q0014_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{以调和函数为实部与虚部的函数是解析函数}\">\\text{以调和函数为实部与虚部的函数是解析函数}</span>"
         }
       ],
       "answer": "A",
       "answer_index": 0,
-      "analysis_html": "<img src=\"/static/generated/assets/complex-analysis/ch028/q0014_analysis.png\"/>"
+      "analysis_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{aligned}(1)\\ &amp; \\text{若}f(z)=u+iv\\text{在区域}D\\text{内解析，则}\\frac{\\partial u}{\\partial x}\\text{是}D\\text{内的调和函数.由于}f(z)\\text{在区域}D\\text{内解析则在}D\\text{内存在任意阶导数，且其倒数在}D\\text{内也解析，特别地，}f&#x27;(z)=u_x+iv_y\\text{在}D\\text{内解析，故}\\frac{\\partial u}{\\partial x}\\text{是}D\\text{内的调和函数.}2)\\ &amp; \\text{解析函数的虚部为实部的共轭调和函数.}3)\\ &amp; \\text{设}v_1,v_2\\text{在区域}D\\text{内均为}u\\text{的共轭调和函数，则必有}v_1=v_2.\\text{因}v_1\\,v_2\\text{之间相差任意常数，即}v_1-v_2=c.\\text{}4)\\ &amp; \\text{以调和函数为实部与虚部的函数是解析函数不一定.}\\end{aligned}\">\\begin{aligned}(1)\\ &amp; \\text{若}f(z)=u+iv\\text{在区域}D\\text{内解析，则}\\frac{\\partial u}{\\partial x}\\text{是}D\\text{内的调和函数.由于}f(z)\\text{在区域}D\\text{内解析则在}D\\text{内存在任意阶导数，且其倒数在}D\\text{内也解析，特别地，}f&#x27;(z)=u_x+iv_y\\text{在}D\\text{内解析，故}\\frac{\\partial u}{\\partial x}\\text{是}D\\text{内的调和函数.}2)\\ &amp; \\text{解析函数的虚部为实部的共轭调和函数.}3)\\ &amp; \\text{设}v_1,v_2\\text{在区域}D\\text{内均为}u\\text{的共轭调和函数，则必有}v_1=v_2.\\text{因}v_1\\,v_2\\text{之间相差任意常数，即}v_1-v_2=c.\\text{}4)\\ &amp; \\text{以调和函数为实部与虚部的函数是解析函数不一定.}\\end{aligned}</div>"
     },
     {
       "id": "q0015",
       "number": 15,
       "header": "#15-Easy",
       "difficulty": "Easy",
-      "prompt_html": "<img src=\"/static/generated/assets/complex-analysis/ch028/q0015_prompt.png\"/>",
+      "prompt_html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{若函数}v=e^{px}\\sin y \\text{为调和函数，那么}p= \\underline{ } .\">\\text{若函数}v=e^{px}\\sin y \\text{为调和函数，那么}p= \\underline{ } .</span>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/complex-analysis/ch028/q0015_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\boldsymbol { p } { = } \\pm 1\">\\boldsymbol { p } { = } \\pm 1</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/complex-analysis/ch028/q0015_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\boldsymbol { p } { = } { - 1 }\">\\boldsymbol { p } { = } { - 1 }</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/complex-analysis/ch028/q0015_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\boldsymbol { p } { = } \\mathbf { 0 }\">\\boldsymbol { p } { = } \\mathbf { 0 }</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/complex-analysis/ch028/q0015_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"p {=} 1\">p {=} 1</span>"
         }
       ],
       "answer": "A",
       "answer_index": 0,
-      "analysis_html": "<img src=\"/static/generated/assets/complex-analysis/ch028/q0015_analysis.png\"/>"
+      "analysis_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{aligned}&amp;u_{xx}=p^{2}e^{px}\\sin y,\\;v_{xx}=-e^{px}\\sin y\\;,\\text{由于}v\\text{是调和函数，故}v_{xx}+u_{xx}=0\\;,\\text{即}\\\\&amp;p^{2}e^{px}\\sin y-e^{px}\\sin y=0\\;,\\text{解得}p=\\pm 1.\\end{aligned}\">\\begin{aligned}&amp;u_{xx}=p^{2}e^{px}\\sin y,\\;v_{xx}=-e^{px}\\sin y\\;,\\text{由于}v\\text{是调和函数，故}v_{xx}+u_{xx}=0\\;,\\text{即}\\\\&amp;p^{2}e^{px}\\sin y-e^{px}\\sin y=0\\;,\\text{解得}p=\\pm 1.\\end{aligned}</div>"
     },
     {
       "id": "q0016",
       "number": 16,
       "header": "#16-Easy",
       "difficulty": "Easy",
-      "prompt_html": "<img src=\"/static/generated/assets/complex-analysis/ch028/q0016_prompt.png\"/>",
+      "prompt_html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{设}u=3x^{2}-3y^{2} \\text{为解析函数}f(z) \\text{的实部且}f(0)=i, \\text{则}f(z)=(\\quad).\">\\text{设}u=3x^{2}-3y^{2} \\text{为解析函数}f(z) \\text{的实部且}f(0)=i, \\text{则}f(z)=(\\quad).</span>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/complex-analysis/ch028/q0016_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\mathbf { 3 } z ^ { 2 } + i\">\\mathbf { 3 } z ^ { 2 } + i</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/complex-analysis/ch028/q0016_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\bar { 3 z z } + i\">\\bar { 3 z z } + i</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/complex-analysis/ch028/q0016_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\mathbf { 3 } z ^ { 2 } + 3 z + i\">\\mathbf { 3 } z ^ { 2 } + 3 z + i</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/complex-analysis/ch028/q0016_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\mathbf { 3 } z ^ { 2 } + \\mathbf { 3 } \\overline { z } + i\">\\mathbf { 3 } z ^ { 2 } + \\mathbf { 3 } \\overline { z } + i</span>"
         }
       ],
       "answer": "A",
       "answer_index": 0,
-      "analysis_html": "<img src=\"/static/generated/assets/complex-analysis/ch028/q0016_analysis.png\"/>"
+      "analysis_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{aligned} &amp; \\text{由于}\\ \\frac{\\partial v}{\\partial y}=\\frac{\\partial u}{\\partial x}=6x\\ \\text{所以}\\\\ &amp; v(x,y)=\\int 6xdy=6xy+\\varphi(x),\\ \\frac{\\partial v}{\\partial x}=6y+\\varphi&#x27;(x)\\\\ &amp; \\text{又由}\\ \\frac{\\partial v}{\\partial x}=-\\frac{\\partial u}{\\partial y},\\ \\text{即}6y+\\varphi&#x27;(x)=6y\\\\ &amp; \\text{所以}\\ \\varphi&#x27;(x)=0,\\ \\varphi(x)=C\\ (\\ C\\text{为常数})\\\\ &amp; \\text{故}\\ v(x,y)=6xy+c,\\ f(z)=3x^2-3y^2+(6xy+c)i=3z^2+ci\\\\ &amp; \\text{将条件}\\ f(0)=i\\text{代入可得}C=1,\\ \\text{因此，满足条件}f(z)=3z^2+i\\end{aligned}\">\\begin{aligned} &amp; \\text{由于}\\ \\frac{\\partial v}{\\partial y}=\\frac{\\partial u}{\\partial x}=6x\\ \\text{所以}\\\\ &amp; v(x,y)=\\int 6xdy=6xy+\\varphi(x),\\ \\frac{\\partial v}{\\partial x}=6y+\\varphi&#x27;(x)\\\\ &amp; \\text{又由}\\ \\frac{\\partial v}{\\partial x}=-\\frac{\\partial u}{\\partial y},\\ \\text{即}6y+\\varphi&#x27;(x)=6y\\\\ &amp; \\text{所以}\\ \\varphi&#x27;(x)=0,\\ \\varphi(x)=C\\ (\\ C\\text{为常数})\\\\ &amp; \\text{故}\\ v(x,y)=6xy+c,\\ f(z)=3x^2-3y^2+(6xy+c)i=3z^2+ci\\\\ &amp; \\text{将条件}\\ f(0)=i\\text{代入可得}C=1,\\ \\text{因此，满足条件}f(z)=3z^2+i\\end{aligned}</div>"
     },
     {
       "id": "q0017",
       "number": 17,
       "header": "#17-Easy",
       "difficulty": "Easy",
-      "prompt_html": "<img src=\"/static/generated/assets/complex-analysis/ch028/q0017_prompt.png\"/>",
+      "prompt_html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{设}v=e^{-x}\\sin y \\text{为解析函数}f(z) \\text{的虚部，则}f(z)=\\underline{\\hspace{2em}}.\">\\text{设}v=e^{-x}\\sin y \\text{为解析函数}f(z) \\text{的虚部，则}f(z)=\\underline{\\hspace{2em}}.</span>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/complex-analysis/ch028/q0017_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"- e ^ { - i } + C\">- e ^ { - i } + C</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/complex-analysis/ch028/q0017_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"e^{2i} + C\">e^{2i} + C</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/complex-analysis/ch028/q0017_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\boldsymbol{e}^{i} + C\">\\boldsymbol{e}^{i} + C</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/complex-analysis/ch028/q0017_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\boldsymbol{2e^{i}+C}\">\\boldsymbol{2e^{i}+C}</span>"
         }
       ],
       "answer": "A",
       "answer_index": 0,
-      "analysis_html": "<img src=\"/static/generated/assets/complex-analysis/ch028/q0017_analysis.png\"/>"
+      "analysis_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{aligned}&amp;\\text{由于}f^{\\prime}(z)=v_{y}+iv_{x}=e^{-x}\\cos y-ie^{-x}\\sin y,y=0\\text{时，得}f^{\\prime}(x)=e^{-x},\\\\&amp;\\text{从而}f(x)=-e^{-x}+C,\\text{由解析式函数惟一性定理有}f(z)=-e^{-z}+C.\\end{aligned}\">\\begin{aligned}&amp;\\text{由于}f^{\\prime}(z)=v_{y}+iv_{x}=e^{-x}\\cos y-ie^{-x}\\sin y,y=0\\text{时，得}f^{\\prime}(x)=e^{-x},\\\\&amp;\\text{从而}f(x)=-e^{-x}+C,\\text{由解析式函数惟一性定理有}f(z)=-e^{-z}+C.\\end{aligned}</div>"
     },
     {
       "id": "q0018",
       "number": 18,
       "header": "#18-Averge",
       "difficulty": "Averge",
-      "prompt_html": "<img src=\"/static/generated/assets/complex-analysis/ch028/q0018_prompt.png\"/>",
+      "prompt_html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{设}v(x,y)\\text{在区域}D\\text{内为}u(x,y)\\text{的共轭调和函数，则下列函数中为}D\\text{内解析函数的是} \\underline{\\hspace{2em}} 。\">\\text{设}v(x,y)\\text{在区域}D\\text{内为}u(x,y)\\text{的共轭调和函数，则下列函数中为}D\\text{内解析函数的是} \\underline{\\hspace{2em}} 。</span>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/complex-analysis/ch028/q0018_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\boldsymbol { v } ( \\boldsymbol { x } , \\boldsymbol { y } ) - i \\boldsymbol { u } ( \\boldsymbol { x } , \\boldsymbol { y } )\">\\boldsymbol { v } ( \\boldsymbol { x } , \\boldsymbol { y } ) - i \\boldsymbol { u } ( \\boldsymbol { x } , \\boldsymbol { y } )</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/complex-analysis/ch028/q0018_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\boldsymbol { v } ( \\boldsymbol { x } , \\boldsymbol { y } ) + i \\boldsymbol { u } ( \\boldsymbol { x } , \\boldsymbol { y } )\">\\boldsymbol { v } ( \\boldsymbol { x } , \\boldsymbol { y } ) + i \\boldsymbol { u } ( \\boldsymbol { x } , \\boldsymbol { y } )</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/complex-analysis/ch028/q0018_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"u(x,y)\\!-\\!iv(x,y)\">u(x,y)\\!-\\!iv(x,y)</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/complex-analysis/ch028/q0018_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\frac { \\partial u } { \\partial x } - i \\frac { \\partial v } { \\partial x }\">\\frac { \\partial u } { \\partial x } - i \\frac { \\partial v } { \\partial x }</span>"
         }
       ],
       "answer": "A",
       "answer_index": 0,
-      "analysis_html": "<img src=\"/static/generated/assets/complex-analysis/ch028/q0018_analysis.png\"/>"
+      "analysis_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{array}{l} \\text {由题意可知} u _ {x} = v _ {y}, u _ {y} = - v _ {x} \\text {接下来逐个选项验证所给出的函数是否满足解析函数的充要条件.} \\end{array}\">\\begin{array}{l} \\text {由题意可知} u _ {x} = v _ {y}, u _ {y} = - v _ {x} \\text {接下来逐个选项验证所给出的函数是否满足解析函数的充要条件.} \\end{array}</div>"
     },
     {
       "id": "q0019",
       "number": 19,
       "header": "#19-Easy",
       "difficulty": "Easy",
-      "prompt_html": "<img src=\"/static/generated/assets/complex-analysis/ch028/q0019_prompt.png\"/>",
+      "prompt_html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{设}v=e^{x}\\sin y \\text{为解析函数}f(z) \\text{的虚部，则}f(z)=\\underline{\\hspace{2em}}.\">\\text{设}v=e^{x}\\sin y \\text{为解析函数}f(z) \\text{的虚部，则}f(z)=\\underline{\\hspace{2em}}.</span>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/complex-analysis/ch028/q0019_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"e^{i} + C\">e^{i} + C</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/complex-analysis/ch028/q0019_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\begin{array}{l} { r } { e ^ { 2 \\tau } + C } \\end{array}\">\\begin{array}{l} { r } { e ^ { 2 \\tau } + C } \\end{array}</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/complex-analysis/ch028/q0019_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"e^{-i} + C\">e^{-i} + C</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/complex-analysis/ch028/q0019_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\boldsymbol{2e^{i}} + \\boldsymbol{C}\">\\boldsymbol{2e^{i}} + \\boldsymbol{C}</span>"
         }
       ],
       "answer": "A",
       "answer_index": 0,
-      "analysis_html": "<img src=\"/static/generated/assets/complex-analysis/ch028/q0019_analysis.png\"/>"
+      "analysis_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{aligned}&amp; \\text{由于} f(z)=v_{y}+iv_{x}=e^{y}\\cos y+ie^{x}\\sin y,y=0 \\text{时，得} f^{\\prime}(x)=e^{x},\\\\&amp; \\text{从而} f(x)=e^{x}+c, \\text{有解析式函数惟一性定理有} f(z)=e^{z}+C.\\end{aligned}\">\\begin{aligned}&amp; \\text{由于} f(z)=v_{y}+iv_{x}=e^{y}\\cos y+ie^{x}\\sin y,y=0 \\text{时，得} f^{\\prime}(x)=e^{x},\\\\&amp; \\text{从而} f(x)=e^{x}+c, \\text{有解析式函数惟一性定理有} f(z)=e^{z}+C.\\end{aligned}</div>"
     },
     {
       "id": "q0020",
       "number": 20,
       "header": "#20-Averge",
       "difficulty": "Averge",
-      "prompt_html": "<img src=\"/static/generated/assets/complex-analysis/ch028/q0020_prompt.png\"/>",
+      "prompt_html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{设}v=\\frac{y}{x^{2}+y^{2}} \\text{为解析函数}f(z) \\text{的虚部且}f(2)=0，\\text{则}f(z)=（）.\">\\text{设}v=\\frac{y}{x^{2}+y^{2}} \\text{为解析函数}f(z) \\text{的虚部且}f(2)=0，\\text{则}f(z)=（）.</span>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/complex-analysis/ch028/q0020_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\frac { 1 } { 2 } - \\frac { 1 } { z }\">\\frac { 1 } { 2 } - \\frac { 1 } { z }</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/complex-analysis/ch028/q0020_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\frac{1}{z} - \\frac{1}{2}\">\\frac{1}{z} - \\frac{1}{2}</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/complex-analysis/ch028/q0020_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\frac { 1 } { 2 } - \\frac { 1 } { z }\">\\frac { 1 } { 2 } - \\frac { 1 } { z }</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/complex-analysis/ch028/q0020_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\frac { 1 } { z } - \\frac { 1 } { 2 }\">\\frac { 1 } { z } - \\frac { 1 } { 2 }</span>"
         }
       ],
       "answer": "A",
       "answer_index": 0,
-      "analysis_html": "<img src=\"/static/generated/assets/complex-analysis/ch028/q0020_analysis.png\"/>"
+      "analysis_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{aligned}f&#x27;(z)&amp;=v_y+iv_x=\\frac{x^2-y^2}{\\left(x^2+y^2\\right)^2}+i\\frac{-2xy}{\\left(x^2+y^2\\right)^2}\\\\&amp;=\\frac{x^2-y^2-2ixy}{\\left(x^2+y^2\\right)^2}\\\\&amp;=\\frac{\\overline{z}^2}{\\left(zz\\right)^2}=\\frac{1}{z^2}\\end{aligned}\">\\begin{aligned}f&#x27;(z)&amp;=v_y+iv_x=\\frac{x^2-y^2}{\\left(x^2+y^2\\right)^2}+i\\frac{-2xy}{\\left(x^2+y^2\\right)^2}\\\\&amp;=\\frac{x^2-y^2-2ixy}{\\left(x^2+y^2\\right)^2}\\\\&amp;=\\frac{\\overline{z}^2}{\\left(zz\\right)^2}=\\frac{1}{z^2}\\end{aligned}</div>\n<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{故}f(z)=-\\frac{1}{z}+C,\\text{又}f(2)=0,\\text{则}f(z)=\\frac{1}{2}-\\frac{1}{z}\\circ\">\\text{故}f(z)=-\\frac{1}{z}+C,\\text{又}f(2)=0,\\text{则}f(z)=\\frac{1}{2}-\\frac{1}{z}\\circ</span>"
     },
     {
       "id": "q0021",
       "number": 21,
       "header": "#21-Easy",
       "difficulty": "Easy",
-      "prompt_html": "<img src=\"/static/generated/assets/complex-analysis/ch028/q0021_prompt.png\"/>",
+      "prompt_html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{若函数}v(x,y)=x^{3}+axy^{2} \\text{为某一解析函数的虚部，则常数}a=\\underline{\\hspace{2em}}.\">\\text{若函数}v(x,y)=x^{3}+axy^{2} \\text{为某一解析函数的虚部，则常数}a=\\underline{\\hspace{2em}}.</span>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/complex-analysis/ch028/q0021_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"^ { - 3 }\">^ { - 3 }</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/complex-analysis/ch028/q0021_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\mathbf { - 1 }\">\\mathbf { - 1 }</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/complex-analysis/ch028/q0021_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\mathbf { 0 }\">\\mathbf { 0 }</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/complex-analysis/ch028/q0021_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\mathbf { 2 }\">\\mathbf { 2 }</span>"
         }
       ],
       "answer": "A",
       "answer_index": 0,
-      "analysis_html": "<img src=\"/static/generated/assets/complex-analysis/ch028/q0021_analysis.png\"/>"
+      "analysis_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{aligned} \\text{由于} v \\text{为某一解析函数的虚部,故} v \\text{必为调和函数,从而} v_{xx} + v_{yy} = 6x + 2ax = 0, \\\\ \\text{解得} a = -3. \\end{aligned}\">\\begin{aligned} \\text{由于} v \\text{为某一解析函数的虚部,故} v \\text{必为调和函数,从而} v_{xx} + v_{yy} = 6x + 2ax = 0, \\\\ \\text{解得} a = -3. \\end{aligned}</div>"
     }
-  ]
+  ],
+  "format": "latex",
+  "source_md": "fb_(1)/调和函数(22题)/调和函数(22题).md"
 }

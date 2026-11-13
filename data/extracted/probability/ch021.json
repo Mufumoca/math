@@ -13,812 +13,814 @@
       "number": 1,
       "header": "#1-Easy",
       "difficulty": "Easy",
-      "prompt_html": "<img src=\"/static/generated/assets/probability/ch021/q0001_prompt.png\"/>",
+      "prompt_html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{一试验可以独立重复进行，每次试验成功率为}p, \\text{则直到第}8\\text{次试验才取得}3\\text{次成功的概率为}().\">\\text{一试验可以独立重复进行，每次试验成功率为}p, \\text{则直到第}8\\text{次试验才取得}3\\text{次成功的概率为}().</span>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/probability/ch021/q0001_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"C_{7}^{2}p^{3}(1-p)^{5}\">C_{7}^{2}p^{3}(1-p)^{5}</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/probability/ch021/q0001_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\begin{aligned}C_{8}^{2}p^{3}(1-p)^{5}\\end{aligned}\">\\begin{aligned}C_{8}^{2}p^{3}(1-p)^{5}\\end{aligned}</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/probability/ch021/q0001_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\begin{aligned}C_{8}^{3}p^{3}(1-p)^{5}\\end{aligned}\">\\begin{aligned}C_{8}^{3}p^{3}(1-p)^{5}\\end{aligned}</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/probability/ch021/q0001_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"8 \\! \\cdot \\! p ^ { 3 } ( 1 \\! - \\! p ) ^ { 5 }\">8 \\! \\cdot \\! p ^ { 3 } ( 1 \\! - \\! p ) ^ { 5 }</span>"
         }
       ],
       "answer": "A",
       "answer_index": 0,
-      "analysis_html": "<img src=\"/static/generated/assets/probability/ch021/q0001_analysis.png\"/>"
+      "analysis_html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{试验直到第8次试验才取得3次成功，说明前7次试验中成功了2次，到第8次试验时成功了，令事件}A=\\{\\text{直到第8次试验才取得3次成功}\\},\\text{则}P(A)=C_{7}^{2}(1-p)^{5}p^{2}p=C_{7}^{2}p^{3}(1-p)^{5}.\">\\text{试验直到第8次试验才取得3次成功，说明前7次试验中成功了2次，到第8次试验时成功了，令事件}A=\\{\\text{直到第8次试验才取得3次成功}\\},\\text{则}P(A)=C_{7}^{2}(1-p)^{5}p^{2}p=C_{7}^{2}p^{3}(1-p)^{5}.</span>"
     },
     {
       "id": "q0002",
       "number": 2,
       "header": "#2-Easy",
       "difficulty": "Easy",
-      "prompt_html": "<img src=\"/static/generated/assets/probability/ch021/q0002_prompt.png\"/>",
+      "prompt_html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\sum \\limits_{i=1}^{100} \\frac{p_i}{1-p_i} = 0.88\">\\sum \\limits_{i=1}^{100} \\frac{p_i}{1-p_i} = 0.88</span>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/probability/ch021/q0002_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\sum_{k=88}^{100}C_{100}^{k}(0.9)^{k}(0.1)^{100-k}\">\\sum_{k=88}^{100}C_{100}^{k}(0.9)^{k}(0.1)^{100-k}</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/probability/ch021/q0002_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\begin{aligned}1-\\sum_{k=89}^{100}C_{100}^{k}(0.9)^{k}(0.1)^{100-k}\\end{aligned}\">\\begin{aligned}1-\\sum_{k=89}^{100}C_{100}^{k}(0.9)^{k}(0.1)^{100-k}\\end{aligned}</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/probability/ch021/q0002_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\sum_{k=89}^{100} C_{100}^{k} (0.9)^{k} (0.1)^{100-k}\">\\sum_{k=89}^{100} C_{100}^{k} (0.9)^{k} (0.1)^{100-k}</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/probability/ch021/q0002_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\begin{aligned}1-\\sum_{k=88}^{100}C_{100}^{k}(0.9)^{k}(0.1)^{100-k}\\end{aligned}\">\\begin{aligned}1-\\sum_{k=88}^{100}C_{100}^{k}(0.9)^{k}(0.1)^{100-k}\\end{aligned}</span>"
         }
       ],
       "answer": "A",
       "answer_index": 0,
-      "analysis_html": "<img src=\"/static/generated/assets/probability/ch021/q0002_analysis.png\"/>"
+      "analysis_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{array}{l} \\text {对每个种子的出芽作为一次试验，出芽率为} 0.9，\\text{种子数是}100，\\text{发芽率不低于}0.88\\text{意味着至少有}88\\text{粒种子发芽}，\\text{根据伯努利概型}，\\text{若有}K\\text{粒种子发芽}，\\text{则其发生的概率为}C_{100}^{k}(0.9)^{k}(0.1)^{100-k}, \\text{于是至少有}88\\text{粒种子发芽的概率为} \\sum_{k=88}^{100}C_{100}^{k}(0.9)^{k}(0.1)^{100-k}. \\end{array}\">\\begin{array}{l} \\text {对每个种子的出芽作为一次试验，出芽率为} 0.9，\\text{种子数是}100，\\text{发芽率不低于}0.88\\text{意味着至少有}88\\text{粒种子发芽}，\\text{根据伯努利概型}，\\text{若有}K\\text{粒种子发芽}，\\text{则其发生的概率为}C_{100}^{k}(0.9)^{k}(0.1)^{100-k}, \\text{于是至少有}88\\text{粒种子发芽的概率为} \\sum_{k=88}^{100}C_{100}^{k}(0.9)^{k}(0.1)^{100-k}. \\end{array}</div>"
     },
     {
       "id": "q0003",
       "number": 3,
       "header": "#3-Easy",
       "difficulty": "Easy",
-      "prompt_html": "<img src=\"/static/generated/assets/probability/ch021/q0003_prompt.png\"/>",
+      "prompt_html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{某车间有}5\\text{台机器，每天每台需要维修的概率为}0.2，\\text{则某一天恰好有一台需要维修的概率为}( ).\">\\text{某车间有}5\\text{台机器，每天每台需要维修的概率为}0.2，\\text{则某一天恰好有一台需要维修的概率为}( ).</span>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/probability/ch021/q0003_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"0.4096\">0.4096</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/probability/ch021/q0003_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"0.5120\">0.5120</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/probability/ch021/q0003_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"0.32768\">0.32768</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/probability/ch021/q0003_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"0.2048\">0.2048</span>"
         }
       ],
       "answer": "A",
       "answer_index": 0,
-      "analysis_html": "<img src=\"/static/generated/assets/probability/ch021/q0003_analysis.png\"/>"
+      "analysis_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{aligned}\\text{每台机器是否需要维修是相互独立的，且维修概率相同，故可以看做是伯努利概型，根据伯努利定理知} \\\\P\\{\\text{恰好有一台需要维修}\\} = C_{5}^{1}(0.2)(0.8)^{4} \\approx 0.4096\\,.\\end{aligned}\">\\begin{aligned}\\text{每台机器是否需要维修是相互独立的，且维修概率相同，故可以看做是伯努利概型，根据伯努利定理知} \\\\P\\{\\text{恰好有一台需要维修}\\} = C_{5}^{1}(0.2)(0.8)^{4} \\approx 0.4096\\,.\\end{aligned}</div>"
     },
     {
       "id": "q0004",
       "number": 4,
       "header": "#4-Easy",
       "difficulty": "Easy",
-      "prompt_html": "<img src=\"/static/generated/assets/probability/ch021/q0004_prompt.png\"/>",
+      "prompt_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{aligned} \\text{设一个病人从某种心脏手术中复原的概率是}0.8，\\text{则}(1)\\text{有}3\\text{个病人}，\\text{恰有}2\\text{个手术后存活的概率是}( )；(2)3\\text{个病人中至少有}1\\text{个不能存活的概率是}( ). \\end{aligned}\">\\begin{aligned} \\text{设一个病人从某种心脏手术中复原的概率是}0.8，\\text{则}(1)\\text{有}3\\text{个病人}，\\text{恰有}2\\text{个手术后存活的概率是}( )；(2)3\\text{个病人中至少有}1\\text{个不能存活的概率是}( ). \\end{aligned}</div>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/probability/ch021/q0004_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"0.384 \\, , \\ 0.488\">0.384 \\, , \\ 0.488</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/probability/ch021/q0004_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"0.106 \\, , \\ 0.488\">0.106 \\, , \\ 0.488</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/probability/ch021/q0004_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\texttt { 0 . 384 , 0 . 512 }\">\\texttt { 0 . 384 , 0 . 512 }</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/probability/ch021/q0004_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"0.106 \\, , \\ 0.512\">0.106 \\, , \\ 0.512</span>"
         }
       ],
       "answer": "A",
       "answer_index": 0,
-      "analysis_html": "<img src=\"/static/generated/assets/probability/ch021/q0004_analysis.png\"/>"
+      "analysis_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{aligned}&amp;(1) \\text{由伯努利概型}，\\text{在独立重复试验中事件} A \\text{发生的概率为} p，\\text{则在} n \\text{次独立重复试验中}，A \\text{发生} m \\text{次的概率为} P_A(m)=C_n^m p^n q^{n-m}，\\text{现在} \\\\&amp;\\qquad\\quad p=0.8,\\ n=3,\\ m=2,\\ \\\\&amp;\\qquad\\quad \\text{故} p_1=C_3^1\\times 0.8^2\\times 0.2=0.384\\,. \\\\&amp;(2) \\text{先考虑对立事件的概率}，\\text{即} 3 \\text{个病人全部存活的概率为} 0.8^3=0.512，\\text{故所求概率为} 1-0.8^3=0.488\\,.\\end{aligned}\">\\begin{aligned}&amp;(1) \\text{由伯努利概型}，\\text{在独立重复试验中事件} A \\text{发生的概率为} p，\\text{则在} n \\text{次独立重复试验中}，A \\text{发生} m \\text{次的概率为} P_A(m)=C_n^m p^n q^{n-m}，\\text{现在} \\\\&amp;\\qquad\\quad p=0.8,\\ n=3,\\ m=2,\\ \\\\&amp;\\qquad\\quad \\text{故} p_1=C_3^1\\times 0.8^2\\times 0.2=0.384\\,. \\\\&amp;(2) \\text{先考虑对立事件的概率}，\\text{即} 3 \\text{个病人全部存活的概率为} 0.8^3=0.512，\\text{故所求概率为} 1-0.8^3=0.488\\,.\\end{aligned}</div>"
     },
     {
       "id": "q0005",
       "number": 5,
       "header": "#5-Easy",
       "difficulty": "Easy",
-      "prompt_html": "<img src=\"/static/generated/assets/probability/ch021/q0005_prompt.png\"/>",
+      "prompt_html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\frac{1}{2} \\times 20 \\% = \\frac{1}{20} \\times 5 = \\frac{1}{4}.\">\\frac{1}{2} \\times 20 \\% = \\frac{1}{20} \\times 5 = \\frac{1}{4}.</span>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/probability/ch021/q0005_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"10 \\times 0.2^{3} \\times 0.8^{2}\">10 \\times 0.2^{3} \\times 0.8^{2}</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/probability/ch021/q0005_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"0.2 ^ { 3 }\">0.2 ^ { 3 }</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/probability/ch021/q0005_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"0.2^{3} \\times 0.8^{2}\">0.2^{3} \\times 0.8^{2}</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/probability/ch021/q0005_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"0.2^{3} \\times 10\">0.2^{3} \\times 10</span>"
         }
       ],
       "answer": "A",
       "answer_index": 0,
-      "analysis_html": "<img src=\"/static/generated/assets/probability/ch021/q0005_analysis.png\"/>"
+      "analysis_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{aligned} \\text{5件产品中取出三件的概率是}C_{5}^{3},\\text{三件是优质品的概率是}0.2^{3},\\text{两件是非优质品的概率是}0.8^{2},\\text{从而根据古典概率计算，事件}A:“\\text{检查的}5\\text{件产品中恰好有三件是优质品}”\\text{的概率为} \\\\P(A)=C_{5}^{3}\\times 0.2^{3}\\times 0.8^{2}=10\\times 0.2^{3}\\times 0.8^{2}.\\end{aligned}\">\\begin{aligned} \\text{5件产品中取出三件的概率是}C_{5}^{3},\\text{三件是优质品的概率是}0.2^{3},\\text{两件是非优质品的概率是}0.8^{2},\\text{从而根据古典概率计算，事件}A:“\\text{检查的}5\\text{件产品中恰好有三件是优质品}”\\text{的概率为} \\\\P(A)=C_{5}^{3}\\times 0.2^{3}\\times 0.8^{2}=10\\times 0.2^{3}\\times 0.8^{2}.\\end{aligned}</div>"
     },
     {
       "id": "q0006",
       "number": 6,
       "header": "#6-Hard",
       "difficulty": "Hard",
-      "prompt_html": "<img src=\"/static/generated/assets/probability/ch021/q0006_prompt.png\"/>",
+      "prompt_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{array}{l} \\text {甲,乙两人进行乒乓球比赛，每局甲胜的概率为}p,p\\geq 1 / 2.\\text {问对甲而言，设各局胜负相互独立，那么下列说法正确的是()}. \\end{array}\">\\begin{array}{l} \\text {甲,乙两人进行乒乓球比赛，每局甲胜的概率为}p,p\\geq 1 / 2.\\text {问对甲而言，设各局胜负相互独立，那么下列说法正确的是()}. \\end{array}</div>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/probability/ch021/q0006_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{五局三胜制较为有利}\">\\text{五局三胜制较为有利}</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/probability/ch021/q0006_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{采用三局二胜制有利}\">\\text{采用三局二胜制有利}</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/probability/ch021/q0006_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{机会均等}\">\\text{机会均等}</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/probability/ch021/q0006_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{以上无正确答案}\">\\text{以上无正确答案}</span>"
         }
       ],
       "answer": "A",
       "answer_index": 0,
-      "analysis_html": "<img src=\"/static/generated/assets/probability/ch021/q0006_analysis.png\"/>"
+      "analysis_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{aligned}&amp;\\text{采用三局二胜制，甲最终获胜，其胜局的情况是：“甲甲”或“乙甲甲”或“甲乙甲”。而这三种结局互不相容，于是其独立性得甲最终获胜的概率为}p_1=p_2+2p_1(1-p).\\\\&amp;\\text{采用五局三胜制，甲最终获胜，至少需比赛多3局(可能赛3局，也可能赛4局或5局)，且最后一局必需是甲胜，而前面甲需胜二局。例如：共赛4局，则甲的胜局情况是：“甲乙甲甲”、“乙甲甲甲”、“甲甲乙甲”，且这三种结局互不相容。由独立性得甲最终获胜的概率为}p_2=p^3+C_2^3p(1-p)+C_2^4p(1-p)^2\\\\&amp;\\text{于是}p_2-p_1=p^2(6p^3-15p^2+12p-3)=3p^2(p-1)^2(2p-1).\\\\&amp;\\text{当}p&gt;1/2\\text{时，}p_1&gt;p_1,\\text{即对甲来说采用五局三胜制较为有利；当}p=1/2\\text{时，}p_1=p_1=1/2,\\text{即两种赛制甲、乙最终获胜的概率相同。}\\end{aligned}\">\\begin{aligned}&amp;\\text{采用三局二胜制，甲最终获胜，其胜局的情况是：“甲甲”或“乙甲甲”或“甲乙甲”。而这三种结局互不相容，于是其独立性得甲最终获胜的概率为}p_1=p_2+2p_1(1-p).\\\\&amp;\\text{采用五局三胜制，甲最终获胜，至少需比赛多3局(可能赛3局，也可能赛4局或5局)，且最后一局必需是甲胜，而前面甲需胜二局。例如：共赛4局，则甲的胜局情况是：“甲乙甲甲”、“乙甲甲甲”、“甲甲乙甲”，且这三种结局互不相容。由独立性得甲最终获胜的概率为}p_2=p^3+C_2^3p(1-p)+C_2^4p(1-p)^2\\\\&amp;\\text{于是}p_2-p_1=p^2(6p^3-15p^2+12p-3)=3p^2(p-1)^2(2p-1).\\\\&amp;\\text{当}p&gt;1/2\\text{时，}p_1&gt;p_1,\\text{即对甲来说采用五局三胜制较为有利；当}p=1/2\\text{时，}p_1=p_1=1/2,\\text{即两种赛制甲、乙最终获胜的概率相同。}\\end{aligned}</div>"
     },
     {
       "id": "q0007",
       "number": 7,
       "header": "#7-Easy",
       "difficulty": "Easy",
-      "prompt_html": "<img src=\"/static/generated/assets/probability/ch021/q0007_prompt.png\"/>",
+      "prompt_html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{一批产品的废品率为}0.01，\\text{从中随机抽取}10\\text{件，则}10\\text{件中废品数是}2\\text{的概率为}( ).\">\\text{一批产品的废品率为}0.01，\\text{从中随机抽取}10\\text{件，则}10\\text{件中废品数是}2\\text{的概率为}( ).</span>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/probability/ch021/q0007_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"C_{10}^{8}(0.01)^{2}(0.99)^{8}\">C_{10}^{8}(0.01)^{2}(0.99)^{8}</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/probability/ch021/q0007_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"C_{10}^{2}(0.01)^{2}\">C_{10}^{2}(0.01)^{2}</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/probability/ch021/q0007_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\begin{aligned}C_{10}^2 (0.01)^8 (0.99)^2\\end{aligned}\">\\begin{aligned}C_{10}^2 (0.01)^8 (0.99)^2\\end{aligned}</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/probability/ch021/q0007_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\begin{array}{l}C_{10}^{8}(0.01)^{8}(0.99)^{2}\\end{array}\">\\begin{array}{l}C_{10}^{8}(0.01)^{8}(0.99)^{2}\\end{array}</span>"
         }
       ],
       "answer": "A",
       "answer_index": 0,
-      "analysis_html": "<img src=\"/static/generated/assets/probability/ch021/q0007_analysis.png\"/>"
+      "analysis_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{array}{l}“10\\text{件中有}2\\text{个废品}”\\text{相当于}“\\text{从}10\\text{件产品中抽取}2\\text{个这}2\\text{个是废品其余都是正品}”，\\text{抽取}2\\text{个的概率是} \\\\ C_{10}^{2}, \\text{这两个是废品的概率为} (0.01)^{2}，\\text{其余}8\\text{个正好为正品的概率为} (0.99)^{8}，\\text{所以}10\\text{件中废品数是}2\\text{的概率为} \\\\ C_{10}^{2}(0.01)^{2}(0.99)^{8} = C_{10}^{8}(0.01)^{2}(0.99)^{8}.\\end{array}\">\\begin{array}{l}“10\\text{件中有}2\\text{个废品}”\\text{相当于}“\\text{从}10\\text{件产品中抽取}2\\text{个这}2\\text{个是废品其余都是正品}”，\\text{抽取}2\\text{个的概率是} \\\\ C_{10}^{2}, \\text{这两个是废品的概率为} (0.01)^{2}，\\text{其余}8\\text{个正好为正品的概率为} (0.99)^{8}，\\text{所以}10\\text{件中废品数是}2\\text{的概率为} \\\\ C_{10}^{2}(0.01)^{2}(0.99)^{8} = C_{10}^{8}(0.01)^{2}(0.99)^{8}.\\end{array}</div>"
     },
     {
       "id": "q0008",
       "number": 8,
       "header": "#8-Easy",
       "difficulty": "Easy",
-      "prompt_html": "<img src=\"/static/generated/assets/probability/ch021/q0008_prompt.png\"/>",
+      "prompt_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{array}{l} \\text {某厂有9台同种设备各台设备是否正常运转是相互独立的，如在任一时刻每台设备处于正常运作状态的概率为} \\frac {1}{3}, \\\\ \\text {则在任一时刻至少有8台设备正常运作状态的概率为（）}. \\end{array}\">\\begin{array}{l} \\text {某厂有9台同种设备各台设备是否正常运转是相互独立的，如在任一时刻每台设备处于正常运作状态的概率为} \\frac {1}{3}, \\\\ \\text {则在任一时刻至少有8台设备正常运作状态的概率为（）}. \\end{array}</div>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/probability/ch021/q0008_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\frac { 9 \\times 2 + 1 } { 3 ^ { 9 } }\">\\frac { 9 \\times 2 + 1 } { 3 ^ { 9 } }</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/probability/ch021/q0008_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\frac { 8 \\times 2 + 1 } { 3 ^ { 9 } }\">\\frac { 8 \\times 2 + 1 } { 3 ^ { 9 } }</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/probability/ch021/q0008_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\frac { 2 ^ { 8 } + 1 } { 3 ^ { 9 } }\">\\frac { 2 ^ { 8 } + 1 } { 3 ^ { 9 } }</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/probability/ch021/q0008_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\frac { 8 + 2 } { 3 ^ { 9 } }\">\\frac { 8 + 2 } { 3 ^ { 9 } }</span>"
         }
       ],
       "answer": "A",
       "answer_index": 0,
-      "analysis_html": "<img src=\"/static/generated/assets/probability/ch021/q0008_analysis.png\"/>"
+      "analysis_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{aligned}&amp; \\text{设} A=\\{ \\text{至少有} 8 \\text{台设备正常运作} \\}, B=\\{ \\text{正好有} 8 \\text{台设备正常运作} \\}, C=\\{ 9 \\text{台设备都正常运作} \\}, \\\\&amp; \\text{则} A=B\\cup C,\\ BC=\\varnothing, \\text{所以} P(A)=P(B)+P(C).\\\\&amp; \\text{其中} P(B)=C_9^s(\\frac{1}{3})^s\\frac{2}{3}=\\frac{9\\times 2}{3^9}, P(C)=(\\frac{1}{3})^9,\\\\&amp; \\text{所以} P(A)=\\frac{9\\times 2+1}{3^9}.\\end{aligned}\">\\begin{aligned}&amp; \\text{设} A=\\{ \\text{至少有} 8 \\text{台设备正常运作} \\}, B=\\{ \\text{正好有} 8 \\text{台设备正常运作} \\}, C=\\{ 9 \\text{台设备都正常运作} \\}, \\\\&amp; \\text{则} A=B\\cup C,\\ BC=\\varnothing, \\text{所以} P(A)=P(B)+P(C).\\\\&amp; \\text{其中} P(B)=C_9^s(\\frac{1}{3})^s\\frac{2}{3}=\\frac{9\\times 2}{3^9}, P(C)=(\\frac{1}{3})^9,\\\\&amp; \\text{所以} P(A)=\\frac{9\\times 2+1}{3^9}.\\end{aligned}</div>"
     },
     {
       "id": "q0009",
       "number": 9,
       "header": "#9-Easy",
       "difficulty": "Easy",
-      "prompt_html": "<img src=\"/static/generated/assets/probability/ch021/q0009_prompt.png\"/>",
+      "prompt_html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{每次试验成功的概率为}p(0 &lt; p &lt; 1), \\text{则在}3\\text{次重复独立试验中至多失败两次的概率为}().\">\\text{每次试验成功的概率为}p(0 &lt; p &lt; 1), \\text{则在}3\\text{次重复独立试验中至多失败两次的概率为}().</span>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/probability/ch021/q0009_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"1 - (1 - p) ^ { 3 }\">1 - (1 - p) ^ { 3 }</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/probability/ch021/q0009_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\begin{aligned}3p(1-p)^2\\end{aligned}\">\\begin{aligned}3p(1-p)^2\\end{aligned}</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/probability/ch021/q0009_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\,3 p ^ { 2 } ( 1 - p )\">\\,3 p ^ { 2 } ( 1 - p )</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/probability/ch021/q0009_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\, 1 \\! - \\! p ^ { 3 }\">\\, 1 \\! - \\! p ^ { 3 }</span>"
         }
       ],
       "answer": "A",
       "answer_index": 0,
-      "analysis_html": "<img src=\"/static/generated/assets/probability/ch021/q0009_analysis.png\"/>"
+      "analysis_html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{因为是三次试验，所以至多失败两次就等价于至少成功一次，至少成功一次的逆事件是一次不成功，一次不不成功的概率为} (1-p)^{3}, \\text{所以至多失败两次的概率为} 1-(1-p)^{3}.\">\\text{因为是三次试验，所以至多失败两次就等价于至少成功一次，至少成功一次的逆事件是一次不成功，一次不不成功的概率为} (1-p)^{3}, \\text{所以至多失败两次的概率为} 1-(1-p)^{3}.</span>"
     },
     {
       "id": "q0010",
       "number": 10,
       "header": "#10-Hard",
       "difficulty": "Hard",
-      "prompt_html": "<img src=\"/static/generated/assets/probability/ch021/q0010_prompt.png\"/>",
+      "prompt_html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\left( \\right).\">\\left( \\right).</span>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/probability/ch021/q0010_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{若欲以} 90 \\% \\text{的把握击中一架来犯的敌机至少需配置} 6 \\text{门炮}\">\\text{若欲以} 90 \\% \\text{的把握击中一架来犯的敌机至少需配置} 6 \\text{门炮}</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/probability/ch021/q0010_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{若欲以} 99 \\% \\text{的把握击中一架来犯的敌机至少需配置} 6 \\text{门炮}\">\\text{若欲以} 99 \\% \\text{的把握击中一架来犯的敌机至少需配置} 6 \\text{门炮}</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/probability/ch021/q0010_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\begin{aligned} \\text{若现有} 3 \\text{门炮，欲以} 99 \\% \\text{的把握击中一架来犯的敌机，则每门炮的命中率应提高到} 0.785 \\end{aligned}\">\\begin{aligned} \\text{若现有} 3 \\text{门炮，欲以} 99 \\% \\text{的把握击中一架来犯的敌机，则每门炮的命中率应提高到} 0.785 \\end{aligned}</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/probability/ch021/q0010_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{若现有}3\\text{门炮，欲以}99\\%\\text{的把握击中一架来犯的敌机，则每门炮的命中率应提高到}1-\\sqrt[3]{0.01}\">\\text{若现有}3\\text{门炮，欲以}99\\%\\text{的把握击中一架来犯的敌机，则每门炮的命中率应提高到}1-\\sqrt[3]{0.01}</span>"
         }
       ],
       "answer": "A",
       "answer_index": 0,
-      "analysis_html": "<img src=\"/static/generated/assets/probability/ch021/q0010_analysis.png\"/>"
+      "analysis_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{aligned} \\text{(1)求：欲以90\\%的把握击中一架来犯的敌机至少需配置几门炮？} \\\\ \\text{设需配置 } n \\text{ 门炮，因为 } n \\text{ 门炮是各自独立发射的，因此该问题可以看作 } n \\text{ 重伯努利试验.} \\\\ \\text{设 } A \\text{ 表示“高炮击中飞机”，} B \\text{ 表示“敌机被击落”，问题归结为求满足下面不等式的 } n \\\\ P(B)=\\sum_{k=1}^{n}C_{n}^{k}0.6^{k}0.4^{n-k}\\geq 0.99 \\\\ \\text{由 } P(B)=1-P(\\overline{B})=1-0.4^{n}\\geq 0.99, \\text{ 或 } 0.4^{n}\\leq 0.01, \\\\ \\text{解得} \\quad n\\geq \\frac{\\lg 0.01}{\\lg 0.4}\\approx 5.03, \\\\ \\text{故至应配置 } n \\text{ 门炮才能达到要求.} \\\\ \\text{(2)求：现有 } n \\text{ 门炮，欲以90\\%的把握击中一架来犯的敌机，问：每门炮的命中率应提高到多少？} \\\\ \\text{设命中率为 } p, \\text{ 由 } P(B)=\\sum_{k=1}^{n}C_{n}^{k}p^{k}q^{3-k}\\geq 0.99 \\text{ 得} \\\\ 1-q^{3}\\geq 0.99. \\\\ \\text{解此不等式得 } q\\leq 0.215, \\text{ 从而得 } p\\geq 0.785, \\text{ 即每门炮的命中率至少应有 } 0.785. \\end{aligned}\">\\begin{aligned} \\text{(1)求：欲以90\\%的把握击中一架来犯的敌机至少需配置几门炮？} \\\\ \\text{设需配置 } n \\text{ 门炮，因为 } n \\text{ 门炮是各自独立发射的，因此该问题可以看作 } n \\text{ 重伯努利试验.} \\\\ \\text{设 } A \\text{ 表示“高炮击中飞机”，} B \\text{ 表示“敌机被击落”，问题归结为求满足下面不等式的 } n \\\\ P(B)=\\sum_{k=1}^{n}C_{n}^{k}0.6^{k}0.4^{n-k}\\geq 0.99 \\\\ \\text{由 } P(B)=1-P(\\overline{B})=1-0.4^{n}\\geq 0.99, \\text{ 或 } 0.4^{n}\\leq 0.01, \\\\ \\text{解得} \\quad n\\geq \\frac{\\lg 0.01}{\\lg 0.4}\\approx 5.03, \\\\ \\text{故至应配置 } n \\text{ 门炮才能达到要求.} \\\\ \\text{(2)求：现有 } n \\text{ 门炮，欲以90\\%的把握击中一架来犯的敌机，问：每门炮的命中率应提高到多少？} \\\\ \\text{设命中率为 } p, \\text{ 由 } P(B)=\\sum_{k=1}^{n}C_{n}^{k}p^{k}q^{3-k}\\geq 0.99 \\text{ 得} \\\\ 1-q^{3}\\geq 0.99. \\\\ \\text{解此不等式得 } q\\leq 0.215, \\text{ 从而得 } p\\geq 0.785, \\text{ 即每门炮的命中率至少应有 } 0.785. \\end{aligned}</div>"
     },
     {
       "id": "q0011",
       "number": 11,
       "header": "#11-Easy",
       "difficulty": "Easy",
-      "prompt_html": "<img src=\"/static/generated/assets/probability/ch021/q0011_prompt.png\"/>",
+      "prompt_html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{设在一次试验中事件}A \\text{发生的概率为}p, \\text{则在4次重复独立试验中，}A \\text{至多有一次不发生的概率是}( ).\">\\text{设在一次试验中事件}A \\text{发生的概率为}p, \\text{则在4次重复独立试验中，}A \\text{至多有一次不发生的概率是}( ).</span>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/probability/ch021/q0011_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\begin{aligned}p^4 + 4p^3 (1-p)\\end{aligned}\">\\begin{aligned}p^4 + 4p^3 (1-p)\\end{aligned}</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/probability/ch021/q0011_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\begin{aligned}p^4 + p^3 (1-p)\\end{aligned}\">\\begin{aligned}p^4 + p^3 (1-p)\\end{aligned}</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/probability/ch021/q0011_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\begin{aligned}4p^4 + p^3 (1-p)\\end{aligned}\">\\begin{aligned}4p^4 + p^3 (1-p)\\end{aligned}</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/probability/ch021/q0011_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\begin{aligned}p^4 + 3p^3 (1-p)\\end{aligned}\">\\begin{aligned}p^4 + 3p^3 (1-p)\\end{aligned}</span>"
         }
       ],
       "answer": "A",
       "answer_index": 0,
-      "analysis_html": "<img src=\"/static/generated/assets/probability/ch021/q0011_analysis.png\"/>"
+      "analysis_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{array}{l}\\{A\\text{至多有一次不发生}\\} \\text{可以分为：}\\{A\\text{每次都发生}\\}、\\{A\\text{恰好有一次不发生}\\},\\text{所以}A\\text{至多有一次不发生的概率是}p^{4}+C_{4}^{1}p^{3}(1-p)=p^{4}+4p^{3}(1-p)\\,.\\end{array}\">\\begin{array}{l}\\{A\\text{至多有一次不发生}\\} \\text{可以分为：}\\{A\\text{每次都发生}\\}、\\{A\\text{恰好有一次不发生}\\},\\text{所以}A\\text{至多有一次不发生的概率是}p^{4}+C_{4}^{1}p^{3}(1-p)=p^{4}+4p^{3}(1-p)\\,.\\end{array}</div>"
     },
     {
       "id": "q0012",
       "number": 12,
       "header": "#12-Hard",
       "difficulty": "Hard",
-      "prompt_html": "<img src=\"/static/generated/assets/probability/ch021/q0012_prompt.png\"/>",
+      "prompt_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{aligned}\\text{有一大批产品其验收方案如下一步. 先作第一次检验: 从中任取10件，经检验无次品，则接受这批产品，次品数大于2，则拒收；否则作第二次检验，其做法是从中再任取5件，当5件中无次品时接受这批产品，假设次品率为10\\%，则这批产品经第一次检验就能被接受的概率为（）；需做第二次检验的概率为（），这批产品按第二次检验的标准被接受的概率为（）；这批产品在第一次检验未能作决定且第二次检验时被通过的概率为（）；这批产品的被接受的概率为（）。}\\end{aligned}\">\\begin{aligned}\\text{有一大批产品其验收方案如下一步. 先作第一次检验: 从中任取10件，经检验无次品，则接受这批产品，次品数大于2，则拒收；否则作第二次检验，其做法是从中再任取5件，当5件中无次品时接受这批产品，假设次品率为10\\%，则这批产品经第一次检验就能被接受的概率为（）；需做第二次检验的概率为（），这批产品按第二次检验的标准被接受的概率为（）；这批产品在第一次检验未能作决定且第二次检验时被通过的概率为（）；这批产品的被接受的概率为（）。}\\end{aligned}</div>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/probability/ch021/q0012_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\begin{array}{l} {l} 0 . 349 , \\, 0 . 581 , \\, 0 . 590 , \\, 0 . 343 , \\, 0 . 692 \\end{array}\">\\begin{array}{l} {l} 0 . 349 , \\, 0 . 581 , \\, 0 . 590 , \\, 0 . 343 , \\, 0 . 692 \\end{array}</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/probability/ch021/q0012_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\begin{array}{l} {l} 0 . 349 , \\, 0 . 770 , \\, 0 . 290 , \\, 0 . 343 , \\, 0 . 552 \\end{array}\">\\begin{array}{l} {l} 0 . 349 , \\, 0 . 770 , \\, 0 . 290 , \\, 0 . 343 , \\, 0 . 552 \\end{array}</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/probability/ch021/q0012_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\begin{array}{l} 0.265, \\, 0.581, \\, 0.290, \\, 0.565, \\, 0.692 \\end{array}\">\\begin{array}{l} 0.265, \\, 0.581, \\, 0.290, \\, 0.565, \\, 0.692 \\end{array}</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/probability/ch021/q0012_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\begin{array}{l} 0.349, \\, 0.581, \\, 0.977, \\, 0.460, \\, 0.692 \\end{array}\">\\begin{array}{l} 0.349, \\, 0.581, \\, 0.977, \\, 0.460, \\, 0.692 \\end{array}</span>"
         }
       ],
       "answer": "A",
       "answer_index": 0,
-      "analysis_html": "<img src=\"/static/generated/assets/probability/ch021/q0012_analysis.png\"/>"
+      "analysis_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{aligned} \\text{设}\\ \\lambda \\text{表示第一次检验中的次品数，}\\ \\lambda \\text{取值} &amp; 0,1,\\cdots,10,\\text{相当于}10\\text{重伯努利试验。} \\ \\gamma \\text{表示第二次检验时的次品数，}\\ \\gamma \\text{取值} 0,1,\\cdots,5,\\text{相当于}5\\text{重伯努利试验。} \\\\ (1)\\ P\\{X=0\\} &amp;= 0.9^{10} \\approx 0.349. \\\\ (2)\\ P\\{1\\leq X\\leq 2\\} &amp;= C_{10}^{1} \\cdot 0.1 \\cdot 0.9^{9} + C_{10}^{2} \\cdot 0.1^{2} \\cdot 0.9^{8} \\ \\approx \\ 0.581. \\\\ (3)\\ P\\{Y=0\\} &amp;= 0.9^{5} \\approx 0.590. \\\\ (4)\\ P\\{1\\leq X\\leq 2, Y=0\\} &amp;= P\\{1\\leq X\\leq 2\\} P\\{Y=0\\} = 0.581 \\times 0.590 \\approx 0.343. \\\\ (5)\\ P\\{X=0\\} + P\\{1\\leq X\\leq 2, \\ Y=0\\} &amp;= 0.9^{10} + 0.581 \\times 0.590 \\approx 0.692. \\end{aligned}\">\\begin{aligned} \\text{设}\\ \\lambda \\text{表示第一次检验中的次品数，}\\ \\lambda \\text{取值} &amp; 0,1,\\cdots,10,\\text{相当于}10\\text{重伯努利试验。} \\ \\gamma \\text{表示第二次检验时的次品数，}\\ \\gamma \\text{取值} 0,1,\\cdots,5,\\text{相当于}5\\text{重伯努利试验。} \\\\ (1)\\ P\\{X=0\\} &amp;= 0.9^{10} \\approx 0.349. \\\\ (2)\\ P\\{1\\leq X\\leq 2\\} &amp;= C_{10}^{1} \\cdot 0.1 \\cdot 0.9^{9} + C_{10}^{2} \\cdot 0.1^{2} \\cdot 0.9^{8} \\ \\approx \\ 0.581. \\\\ (3)\\ P\\{Y=0\\} &amp;= 0.9^{5} \\approx 0.590. \\\\ (4)\\ P\\{1\\leq X\\leq 2, Y=0\\} &amp;= P\\{1\\leq X\\leq 2\\} P\\{Y=0\\} = 0.581 \\times 0.590 \\approx 0.343. \\\\ (5)\\ P\\{X=0\\} + P\\{1\\leq X\\leq 2, \\ Y=0\\} &amp;= 0.9^{10} + 0.581 \\times 0.590 \\approx 0.692. \\end{aligned}</div>"
     },
     {
       "id": "q0013",
       "number": 13,
       "header": "#13-Averge",
       "difficulty": "Averge",
-      "prompt_html": "<img src=\"/static/generated/assets/probability/ch021/q0013_prompt.png\"/>",
+      "prompt_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{array}{l} \\text {设事件} A \\text {在每一次试验中发生的概率为} 0.3, \\text {当} A \\text {发生不少于} 3 \\text {次时,指示灯发出信号.进行了} 5 \\text {次重复独立试验,则指示灯发出信号的概率为} (\\text {)}; \\text {进行了} 7 \\text {次重复独立试验,则指示灯发出信号的概率为} (\\text {.}) \\end{array}\">\\begin{array}{l} \\text {设事件} A \\text {在每一次试验中发生的概率为} 0.3, \\text {当} A \\text {发生不少于} 3 \\text {次时,指示灯发出信号.进行了} 5 \\text {次重复独立试验,则指示灯发出信号的概率为} (\\text {)}; \\text {进行了} 7 \\text {次重复独立试验,则指示灯发出信号的概率为} (\\text {.}) \\end{array}</div>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/probability/ch021/q0013_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\texttt { 0.163, 0.353 }\">\\texttt { 0.163, 0.353 }</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/probability/ch021/q0013_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\texttt { 0.338, 0.336 }\">\\texttt { 0.338, 0.336 }</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/probability/ch021/q0013_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\textbf { 0 . 774 , 0 . 500 }\">\\textbf { 0 . 774 , 0 . 500 }</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/probability/ch021/q0013_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\begin{array}{l} 0.282, \\, 0.146 \\end{array}\">\\begin{array}{l} 0.282, \\, 0.146 \\end{array}</span>"
         }
       ],
       "answer": "A",
       "answer_index": 0,
-      "analysis_html": "<img src=\"/static/generated/assets/probability/ch021/q0013_analysis.png\"/>"
+      "analysis_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{aligned} (1) \\text{设} \\lambda \\text{表示} 5 \\text{次重复独立试验中事件} A \\text{发生的次数，相当于} 5 \\text{重伯努利试验.} \\\\p = P(A) = 0.3, \\\\P\\{\\text{指示灯发出信号}\\} = P\\{X \\geq 3\\} = P\\{X = 3\\} + P\\{X = 4\\} + P\\{X = 5\\} \\\\= C_3^5(0.3)^3 \\cdot (0.7)^3 + C_5^4(0.3)^4 \\cdot 0.7 + C_5^5(0.3)^5 \\approx 0.163. \\\\ (2) \\text{设} \\lambda \\text{表示} 7 \\text{次重复独立试验中事件} A \\text{发生的次数，相当于} 7 \\text{重伯努利试验.} \\\\P\\{\\text{指示灯发出信号}\\} = P\\{Y \\geq 3\\} = 1 - P\\{Y = 0\\} - P\\{Y = 1\\} - P\\{Y = 2\\} \\\\= 1 - C_7^6(0.7)^7 - C_7^5(0.3) \\cdot (0.7)^6 - C_7^3(0.3)^2 \\cdot (0.7)^5 \\approx 0.353.\\end{aligned}\">\\begin{aligned} (1) \\text{设} \\lambda \\text{表示} 5 \\text{次重复独立试验中事件} A \\text{发生的次数，相当于} 5 \\text{重伯努利试验.} \\\\p = P(A) = 0.3, \\\\P\\{\\text{指示灯发出信号}\\} = P\\{X \\geq 3\\} = P\\{X = 3\\} + P\\{X = 4\\} + P\\{X = 5\\} \\\\= C_3^5(0.3)^3 \\cdot (0.7)^3 + C_5^4(0.3)^4 \\cdot 0.7 + C_5^5(0.3)^5 \\approx 0.163. \\\\ (2) \\text{设} \\lambda \\text{表示} 7 \\text{次重复独立试验中事件} A \\text{发生的次数，相当于} 7 \\text{重伯努利试验.} \\\\P\\{\\text{指示灯发出信号}\\} = P\\{Y \\geq 3\\} = 1 - P\\{Y = 0\\} - P\\{Y = 1\\} - P\\{Y = 2\\} \\\\= 1 - C_7^6(0.7)^7 - C_7^5(0.3) \\cdot (0.7)^6 - C_7^3(0.3)^2 \\cdot (0.7)^5 \\approx 0.353.\\end{aligned}</div>"
     },
     {
       "id": "q0014",
       "number": 14,
       "header": "#14-Averge",
       "difficulty": "Averge",
-      "prompt_html": "<img src=\"/static/generated/assets/probability/ch021/q0014_prompt.png\"/>",
+      "prompt_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{array}{l} \\text{设事件}A \\text{在每一次试验中发生的概率为}0.3, \\text{当}A \\text{发生不少于}3 \\text{次时,指示灯发出信号.则下列说法中不正确的是} \\\\ (\\text{.}) \\end{array}\">\\begin{array}{l} \\text{设事件}A \\text{在每一次试验中发生的概率为}0.3, \\text{当}A \\text{发生不少于}3 \\text{次时,指示灯发出信号.则下列说法中不正确的是} \\\\ (\\text{.}) \\end{array}</div>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/probability/ch021/q0014_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{若进行} 7 \\text{次重复独立试验，则指示灯发出信号的概率为} C_{7}^{0} \\cdot (0.7)^{7} + C_{7}^{1} \\cdot 0.3 \\cdot (0.7)^{6} + C_{7}^{2} \\cdot 0.3^{2} \\cdot (0.7)^{5}\">\\text{若进行} 7 \\text{次重复独立试验，则指示灯发出信号的概率为} C_{7}^{0} \\cdot (0.7)^{7} + C_{7}^{1} \\cdot 0.3 \\cdot (0.7)^{6} + C_{7}^{2} \\cdot 0.3^{2} \\cdot (0.7)^{5}</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/probability/ch021/q0014_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{若进行5次重复独立试验，则指示灯发出信号的概率为} 0.163\">\\text{若进行5次重复独立试验，则指示灯发出信号的概率为} 0.163</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/probability/ch021/q0014_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{若进行} 7 \\text{次重复独立试验，则指示灯发出信号的概率为} 0.353\">\\text{若进行} 7 \\text{次重复独立试验，则指示灯发出信号的概率为} 0.353</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/probability/ch021/q0014_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\begin{array}{l} { r } { \\text{若} \\text{进} \\text{行} 5 \\text{次} \\text{重} \\text{复} \\text{独} \\text{立} \\text{试} \\text{验} , \\text{则} \\text{指} \\text{示} \\text{灯} \\text{发} \\text{出} \\text{信} \\text{号} \\text{的} \\text{概} \\text{率} \\text{为} C _ { 5 } ^ { 3 } \\cdot ( 0 . 3 ) ^ { 3 } \\cdot ( 0 . 7 ) ^ { 2 } + C _ { 5 } ^ { 4 } \\cdot ( 0 . 3 ) ^ { 4 } \\cdot 0 . 7 + C _ { 5 } ^ { 5 } \\cdot ( 0 . 3 ) ^ { 5 } } \\end{array}\">\\begin{array}{l} { r } { \\text{若} \\text{进} \\text{行} 5 \\text{次} \\text{重} \\text{复} \\text{独} \\text{立} \\text{试} \\text{验} , \\text{则} \\text{指} \\text{示} \\text{灯} \\text{发} \\text{出} \\text{信} \\text{号} \\text{的} \\text{概} \\text{率} \\text{为} C _ { 5 } ^ { 3 } \\cdot ( 0 . 3 ) ^ { 3 } \\cdot ( 0 . 7 ) ^ { 2 } + C _ { 5 } ^ { 4 } \\cdot ( 0 . 3 ) ^ { 4 } \\cdot 0 . 7 + C _ { 5 } ^ { 5 } \\cdot ( 0 . 3 ) ^ { 5 } } \\end{array}</span>"
         }
       ],
       "answer": "A",
       "answer_index": 0,
-      "analysis_html": "<img src=\"/static/generated/assets/probability/ch021/q0014_analysis.png\"/>"
+      "analysis_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{aligned}(1) \\text{设} \\lambda \\text{表示} 5 \\text{次重复独立试验中事件} A \\text{发生的次数，相当于} 5 \\text{重伯努利试验.} \\\\p = P\\{A\\} = 0.3, \\\\P\\{\\text{指示灯发出信号} \\} = P\\{X \\geq 3\\} = P\\{X=3\\} + P\\{X=4\\} + P\\{X=5\\} \\\\= C_3^5(0.3)^3 \\cdot (0.7)^2 + C_3^4(0.3)^4 \\cdot 0.7 + C_5^5(0.3)^5 \\approx 0.163.2) \\text{设} Y \\text{表示} 7 \\text{次重复独立试验中事件} A \\text{发生的次数，相当于} 7 \\text{重伯努利试验.} \\\\P\\{\\text{指示灯发出信号} \\} = P\\{Y \\geq 3\\} = 1 - P\\{Y=0\\} - P\\{Y=1\\} - P\\{Y=2\\} \\\\= 1 - C_6^0(0.7)^7 - C_7^10.3 \\cdot (0.7)^6 - C_7^20.3^2 \\cdot (0.7)^5 \\approx 0.353.\\end{aligned}\">\\begin{aligned}(1) \\text{设} \\lambda \\text{表示} 5 \\text{次重复独立试验中事件} A \\text{发生的次数，相当于} 5 \\text{重伯努利试验.} \\\\p = P\\{A\\} = 0.3, \\\\P\\{\\text{指示灯发出信号} \\} = P\\{X \\geq 3\\} = P\\{X=3\\} + P\\{X=4\\} + P\\{X=5\\} \\\\= C_3^5(0.3)^3 \\cdot (0.7)^2 + C_3^4(0.3)^4 \\cdot 0.7 + C_5^5(0.3)^5 \\approx 0.163.2) \\text{设} Y \\text{表示} 7 \\text{次重复独立试验中事件} A \\text{发生的次数，相当于} 7 \\text{重伯努利试验.} \\\\P\\{\\text{指示灯发出信号} \\} = P\\{Y \\geq 3\\} = 1 - P\\{Y=0\\} - P\\{Y=1\\} - P\\{Y=2\\} \\\\= 1 - C_6^0(0.7)^7 - C_7^10.3 \\cdot (0.7)^6 - C_7^20.3^2 \\cdot (0.7)^5 \\approx 0.353.\\end{aligned}</div>"
     },
     {
       "id": "q0015",
       "number": 15,
       "header": "#15-Easy",
       "difficulty": "Easy",
-      "prompt_html": "<img src=\"/static/generated/assets/probability/ch021/q0015_prompt.png\"/>",
+      "prompt_html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{某产品的次品率为}0.002，\\text{先对其进行重复抽样检查}，\\text{共取}200\\text{件样品}，\\text{则查得其中有}4\\text{件次品的概率}p\\text{的计算式是}()。\">\\text{某产品的次品率为}0.002，\\text{先对其进行重复抽样检查}，\\text{共取}200\\text{件样品}，\\text{则查得其中有}4\\text{件次品的概率}p\\text{的计算式是}()。</span>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/probability/ch021/q0015_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"C_{200}^{4}(0.002)^{4}(0.998)^{186}\">C_{200}^{4}(0.002)^{4}(0.998)^{186}</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/probability/ch021/q0015_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"200 \\times (0.002)^{4}\">200 \\times (0.002)^{4}</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/probability/ch021/q0015_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"200 \\times (0.002)^{4} (0.998)^{196}\">200 \\times (0.002)^{4} (0.998)^{196}</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/probability/ch021/q0015_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"C_{200}^{4}(0.998)^{4}(0.002)^{186}\">C_{200}^{4}(0.998)^{4}(0.002)^{186}</span>"
         }
       ],
       "answer": "A",
       "answer_index": 0,
-      "analysis_html": "<img src=\"/static/generated/assets/probability/ch021/q0015_analysis.png\"/>"
+      "analysis_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{array}{l} \\text{这是一个伯努利概型，根据概率公式可知} p = C_{200}^{4} (0.002)^{4} (0.998)^{196}\\,.\\end{array}\">\\begin{array}{l} \\text{这是一个伯努利概型，根据概率公式可知} p = C_{200}^{4} (0.002)^{4} (0.998)^{196}\\,.\\end{array}</div>"
     },
     {
       "id": "q0016",
       "number": 16,
       "header": "#16-Easy",
       "difficulty": "Easy",
-      "prompt_html": "<img src=\"/static/generated/assets/probability/ch021/q0016_prompt.png\"/>",
+      "prompt_html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{在四次独立重复试验中，事件} A \\text{至少发生一次的概率是} \\frac{80}{81}, \\text{则事件} A \\text{在每次试验中发生的概率为}().\">\\text{在四次独立重复试验中，事件} A \\text{至少发生一次的概率是} \\frac{80}{81}, \\text{则事件} A \\text{在每次试验中发生的概率为}().</span>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/probability/ch021/q0016_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\frac { 2 } { 3 }\">\\frac { 2 } { 3 }</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/probability/ch021/q0016_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\frac { 1 } { 3 }\">\\frac { 1 } { 3 }</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/probability/ch021/q0016_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\frac { 1 } { 4 }\">\\frac { 1 } { 4 }</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/probability/ch021/q0016_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\frac { 1 } { 2 }\">\\frac { 1 } { 2 }</span>"
         }
       ],
       "answer": "A",
       "answer_index": 0,
-      "analysis_html": "<img src=\"/static/generated/assets/probability/ch021/q0016_analysis.png\"/>"
+      "analysis_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{array}{l} \\text {设事件}A \\text {在每次试验中出现的概率为}p, \\text {则根据伯努利概型，在四次试验中事件}A \\text {至少发生一次的概率为} \\\\ 1-(1-p)^{4}, \\text {即有} 1-(1-p)^{4}=\\frac{80}{81}, \\text {所以} p=\\frac{2}{3}. \\end{array}\">\\begin{array}{l} \\text {设事件}A \\text {在每次试验中出现的概率为}p, \\text {则根据伯努利概型，在四次试验中事件}A \\text {至少发生一次的概率为} \\\\ 1-(1-p)^{4}, \\text {即有} 1-(1-p)^{4}=\\frac{80}{81}, \\text {所以} p=\\frac{2}{3}. \\end{array}</div>"
     },
     {
       "id": "q0017",
       "number": 17,
       "header": "#17-Easy",
       "difficulty": "Easy",
-      "prompt_html": "<img src=\"/static/generated/assets/probability/ch021/q0017_prompt.png\"/>",
+      "prompt_html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{某射手射击的命中率为}0.6，\\text{重复独立进行射击}，\\text{事件}A：\\text{直到第}6\\text{次射击才第三次命中目标}，\\text{则}P(A)=()\\text {.}\">\\text{某射手射击的命中率为}0.6，\\text{重复独立进行射击}，\\text{事件}A：\\text{直到第}6\\text{次射击才第三次命中目标}，\\text{则}P(A)=()\\text {.}</span>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/probability/ch021/q0017_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\begin{array}{l} { r } { C _ { 5 } ^ { 2 } \\times 0 . 6 ^ { 3 } \\times 0 . 4 ^ { 3 } } \\end{array}\">\\begin{array}{l} { r } { C _ { 5 } ^ { 2 } \\times 0 . 6 ^ { 3 } \\times 0 . 4 ^ { 3 } } \\end{array}</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/probability/ch021/q0017_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\begin{array}{l} { r } { C _ { 6 } ^ { 3 } \\times 0 . 6 ^ { 3 } \\times 0 . 4 ^ { 3 } } \\end{array}\">\\begin{array}{l} { r } { C _ { 6 } ^ { 3 } \\times 0 . 6 ^ { 3 } \\times 0 . 4 ^ { 3 } } \\end{array}</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/probability/ch021/q0017_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"5 \\times 0.6^{3} \\times 0.4^{3}\">5 \\times 0.6^{3} \\times 0.4^{3}</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/probability/ch021/q0017_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"6 \\times 0.6^{3} \\times 0.4^{3}\">6 \\times 0.6^{3} \\times 0.4^{3}</span>"
         }
       ],
       "answer": "A",
       "answer_index": 0,
-      "analysis_html": "<img src=\"/static/generated/assets/probability/ch021/q0017_analysis.png\"/>"
+      "analysis_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{aligned}&amp; \\text{事件}A: \\text{直到第}6\\text{次射击才第三次命中目标相当于前五次射击两次击中目标而第六次射击恰好击中目标，}\\\\&amp; \\text{根据伯努利定理可知，}P(A)=C_{2}^{2}0.6^{2}0.4^{3}\\times 0.6\\approx 0.138\\,.\\end{aligned}\">\\begin{aligned}&amp; \\text{事件}A: \\text{直到第}6\\text{次射击才第三次命中目标相当于前五次射击两次击中目标而第六次射击恰好击中目标，}\\\\&amp; \\text{根据伯努利定理可知，}P(A)=C_{2}^{2}0.6^{2}0.4^{3}\\times 0.6\\approx 0.138\\,.\\end{aligned}</div>"
     },
     {
       "id": "q0018",
       "number": 18,
       "header": "#18-Easy",
       "difficulty": "Easy",
-      "prompt_html": "<img src=\"/static/generated/assets/probability/ch021/q0018_prompt.png\"/>",
+      "prompt_html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{设在一次试验中事件}A \\text{发生的概率为}p, \\text{则在}5\\text{次重复独立试验中，}A\\text{至少发生一次的概率是}( ).\">\\text{设在一次试验中事件}A \\text{发生的概率为}p, \\text{则在}5\\text{次重复独立试验中，}A\\text{至少发生一次的概率是}( ).</span>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/probability/ch021/q0018_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"1 - ( 1 - p ) ^ { s }\">1 - ( 1 - p ) ^ { s }</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/probability/ch021/q0018_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"p ^ { s }\">p ^ { s }</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/probability/ch021/q0018_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\, 1 \\! - \\! p ^ { s }\">\\, 1 \\! - \\! p ^ { s }</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/probability/ch021/q0018_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"(1\\!-\\!p)^{s}\">(1\\!-\\!p)^{s}</span>"
         }
       ],
       "answer": "A",
       "answer_index": 0,
-      "analysis_html": "<img src=\"/static/generated/assets/probability/ch021/q0018_analysis.png\"/>"
+      "analysis_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{array}{l} \\text {考虑事件}A \\text {至少发生一次的逆事件：事件}A \\text {一次都不发生，}\\\\ \\text {根据伯努利定理，事件}A \\text {一次都不发生的概率为} (1-p)^{5},\\\\ \\text {所以事件}A \\text {至少发生一次的概率为} 1-(1-p)^{5}. \\end{array}\">\\begin{array}{l} \\text {考虑事件}A \\text {至少发生一次的逆事件：事件}A \\text {一次都不发生，}\\\\ \\text {根据伯努利定理，事件}A \\text {一次都不发生的概率为} (1-p)^{5},\\\\ \\text {所以事件}A \\text {至少发生一次的概率为} 1-(1-p)^{5}. \\end{array}</div>"
     },
     {
       "id": "q0019",
       "number": 19,
       "header": "#19-Easy",
       "difficulty": "Easy",
-      "prompt_html": "<img src=\"/static/generated/assets/probability/ch021/q0019_prompt.png\"/>",
+      "prompt_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{array}{l} { r } { \\text{某射手在三次射击中至少命中一次的概率为}0.875，\\text{则该射手在一次射击中命中的概率为}() . } \\end{array}\">\\begin{array}{l} { r } { \\text{某射手在三次射击中至少命中一次的概率为}0.875，\\text{则该射手在一次射击中命中的概率为}() . } \\end{array}</div>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/probability/ch021/q0019_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\frac { 1 } { 2 }\">\\frac { 1 } { 2 }</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/probability/ch021/q0019_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\frac { 1 } { 4 }\">\\frac { 1 } { 4 }</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/probability/ch021/q0019_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\frac { 1 } { 5 }\">\\frac { 1 } { 5 }</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/probability/ch021/q0019_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\frac { 3 } { 4 }\">\\frac { 3 } { 4 }</span>"
         }
       ],
       "answer": "A",
       "answer_index": 0,
-      "analysis_html": "<img src=\"/static/generated/assets/probability/ch021/q0019_analysis.png\"/>"
+      "analysis_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{array}{l} \\text {由在三次射击中至少命中一次的概率为} 0.875, \\text {知三次射击中没有一次命中的概率为} (1-p)^{3}=1-0.875, \\text {即} \\\\ (1-p)^{3}=0.125, \\text {因此} p=\\frac{1}{2}. \\end{array}\">\\begin{array}{l} \\text {由在三次射击中至少命中一次的概率为} 0.875, \\text {知三次射击中没有一次命中的概率为} (1-p)^{3}=1-0.875, \\text {即} \\\\ (1-p)^{3}=0.125, \\text {因此} p=\\frac{1}{2}. \\end{array}</div>"
     },
     {
       "id": "q0020",
       "number": 20,
       "header": "#20-Easy",
       "difficulty": "Easy",
-      "prompt_html": "<img src=\"/static/generated/assets/probability/ch021/q0020_prompt.png\"/>",
+      "prompt_html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\frac{3}{4}.\\ \\text{若射击直到中靶为止，则射击次数为}3\\text{的概率为}().\">\\frac{3}{4}.\\ \\text{若射击直到中靶为止，则射击次数为}3\\text{的概率为}().</span>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/probability/ch021/q0020_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"( { \\frac { 1 } { 4 } } ) ^ { 2 } \\times { \\frac { 3 } { 4 } }\">( { \\frac { 1 } { 4 } } ) ^ { 2 } \\times { \\frac { 3 } { 4 } }</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/probability/ch021/q0020_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"(\\frac{3}{4})^{3}\">(\\frac{3}{4})^{3}</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/probability/ch021/q0020_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"( { \\frac { 3 } { 4 } } ) ^ { 2 } \\times { \\frac { 1 } { 4 } }\">( { \\frac { 3 } { 4 } } ) ^ { 2 } \\times { \\frac { 1 } { 4 } }</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/probability/ch021/q0020_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"(\\frac{1}{4})^{3}\">(\\frac{1}{4})^{3}</span>"
         }
       ],
       "answer": "A",
       "answer_index": 0,
-      "analysis_html": "<img src=\"/static/generated/assets/probability/ch021/q0020_analysis.png\"/>"
+      "analysis_html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{射击次数为}3, \\text{说明前两次都没有射中，第三次射中了，所以概率应该为}(\\frac{1}{4})^{2}\\times \\frac{3}{4}.\">\\text{射击次数为}3, \\text{说明前两次都没有射中，第三次射中了，所以概率应该为}(\\frac{1}{4})^{2}\\times \\frac{3}{4}.</span>"
     },
     {
       "id": "q0021",
       "number": 21,
       "header": "#21-Easy",
       "difficulty": "Easy",
-      "prompt_html": "<img src=\"/static/generated/assets/probability/ch021/q0021_prompt.png\"/>",
+      "prompt_html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{袋中有} 3 \\text{个黑球，} 2 \\text{个白球，大小、形状都相同，进行有放回的独立重复抽样，每次抽一个球，共抽三次，则恰好有两次抽到白球的事件的概率为} ( ) .\">\\text{袋中有} 3 \\text{个黑球，} 2 \\text{个白球，大小、形状都相同，进行有放回的独立重复抽样，每次抽一个球，共抽三次，则恰好有两次抽到白球的事件的概率为} ( ) .</span>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/probability/ch021/q0021_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\frac { 36 } { 125 }\">\\frac { 36 } { 125 }</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/probability/ch021/q0021_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\frac { 3 } { 5 }\">\\frac { 3 } { 5 }</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/probability/ch021/q0021_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\frac { 12 } { 125 }\">\\frac { 12 } { 125 }</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/probability/ch021/q0021_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\frac { 3 } { 10 }\">\\frac { 3 } { 10 }</span>"
         }
       ],
       "answer": "A",
       "answer_index": 0,
-      "analysis_html": "<img src=\"/static/generated/assets/probability/ch021/q0021_analysis.png\"/>"
+      "analysis_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{aligned}C_{3}^{2}(\\frac{2}{5})^{2}\\cdot \\frac{3}{5}=\\frac{36}{125}\\,.\\end{aligned}\">\\begin{aligned}C_{3}^{2}(\\frac{2}{5})^{2}\\cdot \\frac{3}{5}=\\frac{36}{125}\\,.\\end{aligned}</div>"
     },
     {
       "id": "q0022",
       "number": 22,
       "header": "#22-Easy",
       "difficulty": "Easy",
-      "prompt_html": "<img src=\"/static/generated/assets/probability/ch021/q0022_prompt.png\"/>",
+      "prompt_html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{某电器元件的寿命超过} 1000 \\text{小时的概率为} 0.3，\\text{进行重复独立试验}，\\text{则三个元件在使用了} 1000 \\text{小时最多只有一个损坏的概率为} ( ).\">\\text{某电器元件的寿命超过} 1000 \\text{小时的概率为} 0.3，\\text{进行重复独立试验}，\\text{则三个元件在使用了} 1000 \\text{小时最多只有一个损坏的概率为} ( ).</span>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/probability/ch021/q0022_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"0.216\">0.216</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/probability/ch021/q0022_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"0.09\">0.09</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/probability/ch021/q0022_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"0.189\">0.189</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/probability/ch021/q0022_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"0.784\">0.784</span>"
         }
       ],
       "answer": "A",
       "answer_index": 0,
-      "analysis_html": "<img src=\"/static/generated/assets/probability/ch021/q0022_analysis.png\"/>"
+      "analysis_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{aligned}&amp;\\text{设 }A=\\{\\text{最多只有一个损坏}\\},\\ B=\\{\\text{一个都没有损坏}\\},\\ C=\\{\\text{恰好损坏一个}\\},\\ \\text{显然 }A=B\\cup C,\\\\&amp;\\text{其中 }P(B)=(0.3)^3,\\,P(C)=C_1^1(1-0.3)\\times(0.3)^2,\\\\&amp;\\text{所以 }P(A)=P(B)+P(C)=0.216.\\end{aligned}\">\\begin{aligned}&amp;\\text{设 }A=\\{\\text{最多只有一个损坏}\\},\\ B=\\{\\text{一个都没有损坏}\\},\\ C=\\{\\text{恰好损坏一个}\\},\\ \\text{显然 }A=B\\cup C,\\\\&amp;\\text{其中 }P(B)=(0.3)^3,\\,P(C)=C_1^1(1-0.3)\\times(0.3)^2,\\\\&amp;\\text{所以 }P(A)=P(B)+P(C)=0.216.\\end{aligned}</div>"
     },
     {
       "id": "q0023",
       "number": 23,
       "header": "#23-Easy",
       "difficulty": "Easy",
-      "prompt_html": "<img src=\"/static/generated/assets/probability/ch021/q0023_prompt.png\"/>",
+      "prompt_html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{设某人打靶的命中率为}0.7，\\text{现独立地重复射击}5\\text{次}，\\text{则恰好命中}2\\text{次的概率为}( ).\">\\text{设某人打靶的命中率为}0.7，\\text{现独立地重复射击}5\\text{次}，\\text{则恰好命中}2\\text{次的概率为}( ).</span>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/probability/ch021/q0023_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"10 \\times ( 0 . 7 ) ^ { 2 } \\times ( 0 . 3 ) ^ { 3 }\">10 \\times ( 0 . 7 ) ^ { 2 } \\times ( 0 . 3 ) ^ { 3 }</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/probability/ch021/q0023_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"5 \\times (0.3)^{2} \\times (0.7)^{3}\">5 \\times (0.3)^{2} \\times (0.7)^{3}</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/probability/ch021/q0023_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"5 \\times (0.7)^{2} \\times (0.3)^{3}\">5 \\times (0.7)^{2} \\times (0.3)^{3}</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/probability/ch021/q0023_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"10 \\times ( 0 . 3 ) ^ { 2 } \\times ( 0 . 7 ) ^ { 3 }\">10 \\times ( 0 . 3 ) ^ { 2 } \\times ( 0 . 7 ) ^ { 3 }</span>"
         }
       ],
       "answer": "A",
       "answer_index": 0,
-      "analysis_html": "<img src=\"/static/generated/assets/probability/ch021/q0023_analysis.png\"/>"
+      "analysis_html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{根据伯努利概型公式，事件}A:“\\text{恰好命中}2\\text{次}”\\text{的概率}P(A)=C_{5}^{2}(0.7)^{2}(1-0.7)^{3}=10\\times(0.7)^{2}\\times(0.3)^{3}.\">\\text{根据伯努利概型公式，事件}A:“\\text{恰好命中}2\\text{次}”\\text{的概率}P(A)=C_{5}^{2}(0.7)^{2}(1-0.7)^{3}=10\\times(0.7)^{2}\\times(0.3)^{3}.</span>"
     },
     {
       "id": "q0024",
       "number": 24,
       "header": "#24-Easy",
       "difficulty": "Easy",
-      "prompt_html": "<img src=\"/static/generated/assets/probability/ch021/q0024_prompt.png\"/>",
+      "prompt_html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{独立重复地掷一枚匀质硬币三次，}A\\text{表示至少有一次出现正面的事件，则}P(A)=()\\text {.}\">\\text{独立重复地掷一枚匀质硬币三次，}A\\text{表示至少有一次出现正面的事件，则}P(A)=()\\text {.}</span>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/probability/ch021/q0024_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\frac { 7 } { 8 }\">\\frac { 7 } { 8 }</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/probability/ch021/q0024_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\frac { 1 } { 8 }\">\\frac { 1 } { 8 }</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/probability/ch021/q0024_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\frac{3}{8}\">\\frac{3}{8}</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/probability/ch021/q0024_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\frac { 5 } { 8 }\">\\frac { 5 } { 8 }</span>"
         }
       ],
       "answer": "A",
       "answer_index": 0,
-      "analysis_html": "<img src=\"/static/generated/assets/probability/ch021/q0024_analysis.png\"/>"
+      "analysis_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{aligned}&amp;\\text{独立重复掷一枚硬币三次出现的情况共有}2^3 \\text{种，一次也不出现正面的情况有1种，所以}P(\\overline{A})=\\frac{1}{8}\\text{，从而}\\\\&amp;P(A)=1-P(\\overline{A})=1-\\frac{1}{8}=\\frac{7}{8}\\,.\\end{aligned}\">\\begin{aligned}&amp;\\text{独立重复掷一枚硬币三次出现的情况共有}2^3 \\text{种，一次也不出现正面的情况有1种，所以}P(\\overline{A})=\\frac{1}{8}\\text{，从而}\\\\&amp;P(A)=1-P(\\overline{A})=1-\\frac{1}{8}=\\frac{7}{8}\\,.\\end{aligned}</div>"
     },
     {
       "id": "q0025",
       "number": 25,
       "header": "#25-Easy",
       "difficulty": "Easy",
-      "prompt_html": "<img src=\"/static/generated/assets/probability/ch021/q0025_prompt.png\"/>",
+      "prompt_html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{同时抛掷}3\\text{枚均称的硬币，则恰好有两枚正面向上的概率为}().\">\\text{同时抛掷}3\\text{枚均称的硬币，则恰好有两枚正面向上的概率为}().</span>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/probability/ch021/q0025_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"0.375\">0.375</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/probability/ch021/q0025_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"0.75\">0.75</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/probability/ch021/q0025_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"0.25\">0.25</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/probability/ch021/q0025_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"0.125\">0.125</span>"
         }
       ],
       "answer": "A",
       "answer_index": 0,
-      "analysis_html": "<img src=\"/static/generated/assets/probability/ch021/q0025_analysis.png\"/>"
+      "analysis_html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{每次抛掷硬币正面向上的概率为} \\ 0.5,\\ \\text{根据伯努利定理，恰好有两枚正面向上的概率为} \\ C_{3}^{2}(0.5)^{2}\\cdot 0.5=0.375\\ .\">\\text{每次抛掷硬币正面向上的概率为} \\ 0.5,\\ \\text{根据伯努利定理，恰好有两枚正面向上的概率为} \\ C_{3}^{2}(0.5)^{2}\\cdot 0.5=0.375\\ .</span>"
     },
     {
       "id": "q0026",
       "number": 26,
       "header": "#26-Easy",
       "difficulty": "Easy",
-      "prompt_html": "<img src=\"/static/generated/assets/probability/ch021/q0026_prompt.png\"/>",
+      "prompt_html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{掷一枚钱币，反复掷4次，则恰有3次出正面的概率是}( ).\">\\text{掷一枚钱币，反复掷4次，则恰有3次出正面的概率是}( ).</span>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/probability/ch021/q0026_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\frac { 1 } { 4 }\">\\frac { 1 } { 4 }</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/probability/ch021/q0026_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\frac { 1 } { 16 }\">\\frac { 1 } { 16 }</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/probability/ch021/q0026_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\frac { 1 } { 8 }\">\\frac { 1 } { 8 }</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/probability/ch021/q0026_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\frac { 1 } { 10 }\">\\frac { 1 } { 10 }</span>"
         }
       ],
       "answer": "A",
       "answer_index": 0,
-      "analysis_html": "<img src=\"/static/generated/assets/probability/ch021/q0026_analysis.png\"/>"
+      "analysis_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{array}{l} \\text{这是伯努利概型问题.根据伯努利定理，这里}p=\\frac{1}{2}\\,,\\ n=4\\,,\\ m=3\\,,\\ \\text{故}P_{3}(4)=C_{4}^{3}\\times(\\frac{1}{2})^{3}\\times\\frac{1}{2}=\\frac{1}{4}\\,. \\end{array}\">\\begin{array}{l} \\text{这是伯努利概型问题.根据伯努利定理，这里}p=\\frac{1}{2}\\,,\\ n=4\\,,\\ m=3\\,,\\ \\text{故}P_{3}(4)=C_{4}^{3}\\times(\\frac{1}{2})^{3}\\times\\frac{1}{2}=\\frac{1}{4}\\,. \\end{array}</div>"
     },
     {
       "id": "q0027",
       "number": 27,
       "header": "#27-Averge",
       "difficulty": "Averge",
-      "prompt_html": "<img src=\"/static/generated/assets/probability/ch021/q0027_prompt.png\"/>",
+      "prompt_html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{设某人射击的命中率为}0.4，\\text{共进行了}n\\text{次独立射击，恰能使至少命中一次的概率大于}0.9，\\text{则}n\\text{值为}( ).\">\\text{设某人射击的命中率为}0.4，\\text{共进行了}n\\text{次独立射击，恰能使至少命中一次的概率大于}0.9，\\text{则}n\\text{值为}( ).</span>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/probability/ch021/q0027_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"5\">5</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/probability/ch021/q0027_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"^ 3\">^ 3</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/probability/ch021/q0027_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"6\">6</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/probability/ch021/q0027_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"4\">4</span>"
         }
       ],
       "answer": "A",
       "answer_index": 0,
-      "analysis_html": "<img src=\"/static/generated/assets/probability/ch021/q0027_analysis.png\"/>"
+      "analysis_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{aligned} \\text{对于至少一次的题目我们一般考虑逆事件，这个题的逆事件是恰好一次没有命中，逆事件的概率为}  (1-0.4)^n \\text{，问题就可以归结为求下面不等式中的}  n: 1-(1-0.4)^n &gt; 0.9 \\text{，解得}  n &gt; \\frac{\\lg 0.1}{\\lg 0.6} \\approx 4.50 \\text{，所以}\\text{ n=5.} \\end{aligned}\">\\begin{aligned} \\text{对于至少一次的题目我们一般考虑逆事件，这个题的逆事件是恰好一次没有命中，逆事件的概率为}  (1-0.4)^n \\text{，问题就可以归结为求下面不等式中的}  n: 1-(1-0.4)^n &gt; 0.9 \\text{，解得}  n &gt; \\frac{\\lg 0.1}{\\lg 0.6} \\approx 4.50 \\text{，所以}\\text{ n=5.} \\end{aligned}</div>"
     },
     {
       "id": "q0028",
       "number": 28,
       "header": "#28-Easy",
       "difficulty": "Easy",
-      "prompt_html": "<img src=\"/static/generated/assets/probability/ch021/q0028_prompt.png\"/>",
+      "prompt_html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{设每次试验成功的概率为}p(0&lt;p&lt;1), \\text{则在}3\\text{次重复试验中至少失败}1\\text{次的概率为}().\">\\text{设每次试验成功的概率为}p(0&lt;p&lt;1), \\text{则在}3\\text{次重复试验中至少失败}1\\text{次的概率为}().</span>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/probability/ch021/q0028_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\, 1 \\! - \\! p ^ { 3 }\">\\, 1 \\! - \\! p ^ { 3 }</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/probability/ch021/q0028_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"P ^ { 3 }\">P ^ { 3 }</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/probability/ch021/q0028_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"(1\\!-\\!p)^{3}\">(1\\!-\\!p)^{3}</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/probability/ch021/q0028_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"(1-p)^{3}+p(1-p)^{2}+p^{2}(1-p)\">(1-p)^{3}+p(1-p)^{2}+p^{2}(1-p)</span>"
         }
       ],
       "answer": "A",
       "answer_index": 0,
-      "analysis_html": "<img src=\"/static/generated/assets/probability/ch021/q0028_analysis.png\"/>"
+      "analysis_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{array}{l} \\text {考虑\\{至少失败一次\\} 的逆事件即\\{三次都成功\\},\\{三次都成功\\} 的概率为}p^{3},\\text {所以三次重复试验中至少失败一次的概率为}1-p^{3}. \\end{array}\">\\begin{array}{l} \\text {考虑\\{至少失败一次\\} 的逆事件即\\{三次都成功\\},\\{三次都成功\\} 的概率为}p^{3},\\text {所以三次重复试验中至少失败一次的概率为}1-p^{3}. \\end{array}</div>"
     },
     {
       "id": "q0029",
       "number": 29,
       "header": "#29-Easy",
       "difficulty": "Easy",
-      "prompt_html": "<img src=\"/static/generated/assets/probability/ch021/q0029_prompt.png\"/>",
+      "prompt_html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{已知} 100 \\text{个产品中有} 5 \\text{个次品，现从中有放回地取} 3 \\text{次，每次任取} 1 \\text{个，则在所取的} 3 \\text{个中恰有} 2 \\text{个次品的概率为} ( )。\">\\text{已知} 100 \\text{个产品中有} 5 \\text{个次品，现从中有放回地取} 3 \\text{次，每次任取} 1 \\text{个，则在所取的} 3 \\text{个中恰有} 2 \\text{个次品的概率为} ( )。</span>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/probability/ch021/q0029_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"0.007125\">0.007125</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/probability/ch021/q0029_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"0.00452\">0.00452</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/probability/ch021/q0029_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"0.00633\">0.00633</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/probability/ch021/q0029_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"0.00588\">0.00588</span>"
         }
       ],
       "answer": "A",
       "answer_index": 0,
-      "analysis_html": "<img src=\"/static/generated/assets/probability/ch021/q0029_analysis.png\"/>"
+      "analysis_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{aligned} &amp; \\text{因为这是有放回地取3次，因此这3次试验的条件完全相同且独立，它是伯努利试验，依题意，每次试验取到次品的概率是0.05。} \\\\ &amp; \\text{设}X \\text{为所取的3个中的次品数，则} \\\\ &amp; \\quad X\\sim b(3,0.05), \\\\ &amp; \\text{于是，所求概率为：} \\\\ &amp; \\quad \\quad \\quad P\\{X=2\\}=C_{3}^{2}(0.05)^{2}(0.95)=0.007125. \\\\ &amp; \\text{注：将本例中的“有放回”改为“无放回”，那么各次试验条件就不同了，已不是伯努利概型，此时，只能用古典概型求解，} \\\\ &amp; \\quad \\quad \\quad P\\{X=2\\}=\\frac{C_{3}^{1}C_{2}^{2}}{C_{100}^{3}}\\approx 0.00588. \\end{aligned}\">\\begin{aligned} &amp; \\text{因为这是有放回地取3次，因此这3次试验的条件完全相同且独立，它是伯努利试验，依题意，每次试验取到次品的概率是0.05。} \\\\ &amp; \\text{设}X \\text{为所取的3个中的次品数，则} \\\\ &amp; \\quad X\\sim b(3,0.05), \\\\ &amp; \\text{于是，所求概率为：} \\\\ &amp; \\quad \\quad \\quad P\\{X=2\\}=C_{3}^{2}(0.05)^{2}(0.95)=0.007125. \\\\ &amp; \\text{注：将本例中的“有放回”改为“无放回”，那么各次试验条件就不同了，已不是伯努利概型，此时，只能用古典概型求解，} \\\\ &amp; \\quad \\quad \\quad P\\{X=2\\}=\\frac{C_{3}^{1}C_{2}^{2}}{C_{100}^{3}}\\approx 0.00588. \\end{aligned}</div>"
     }
-  ]
+  ],
+  "format": "latex",
+  "source_md": "gl/1.6.4_伯努利概型(29题)/1.6.4_伯努利概型(29题).md"
 }

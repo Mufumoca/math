@@ -13,952 +13,954 @@
       "number": 1,
       "header": "#1-Averge",
       "difficulty": "Averge",
-      "prompt_html": "<img src=\"/static/generated/assets/advanced-math/ch005/q0001_prompt.png\"/>",
+      "prompt_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\text{设}f(x)=\\begin{cases}\\dfrac{x^{2}+2x+b}{x-1},&amp;x\\neq 1,\\\\ a,&amp;x=1\\end{cases},\\ \\text{且}\\lim_{x\\rightarrow x}f(x)=A,\\ \\text{则下列结果正确的是( ).}\">\\text{设}f(x)=\\begin{cases}\\dfrac{x^{2}+2x+b}{x-1},&amp;x\\neq 1,\\\\ a,&amp;x=1\\end{cases},\\ \\text{且}\\lim_{x\\rightarrow x}f(x)=A,\\ \\text{则下列结果正确的是( ).}</div>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch005/q0001_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\mathit{b} = -3, A = 4, a \\text{ 可取任意实数}\">\\mathit{b} = -3, A = 4, a \\text{ 可取任意实数}</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch005/q0001_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{仅当} a = 4 \\text{时，} \\ A = 4, \\ b \\text{可取任意实数}\">\\text{仅当} a = 4 \\text{时，} \\ A = 4, \\ b \\text{可取任意实数}</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch005/q0001_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{仅当} a = 4 \\text{时，} \\; \\; b = - 3 , A = 4\">\\text{仅当} a = 4 \\text{时，} \\; \\; b = - 3 , A = 4</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch005/q0001_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\,a, b, A \\, \\, \\text{都可取任意实数}. \\,\">\\,a, b, A \\, \\, \\text{都可取任意实数}. \\,</span>"
         }
       ],
       "answer": "A",
       "answer_index": 0,
-      "analysis_html": "<img src=\"/static/generated/assets/advanced-math/ch005/q0001_analysis.png\"/>"
+      "analysis_html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\lim_{x \\to 1} f(x) = \\lim_{x \\to 1} \\frac{x^{2}+2x+b}{x-1} = \\lim_{x \\to 1} (x+3+\\frac{3+b}{x-1}) = A, \\ \\text{所以} b=-3, A=4, \\ \\text{由于自变量趋于一个有限值时的函数极限与在此点的函数值没有必然关系，所以} a \\text{为任意实数。}\">\\lim_{x \\to 1} f(x) = \\lim_{x \\to 1} \\frac{x^{2}+2x+b}{x-1} = \\lim_{x \\to 1} (x+3+\\frac{3+b}{x-1}) = A, \\ \\text{所以} b=-3, A=4, \\ \\text{由于自变量趋于一个有限值时的函数极限与在此点的函数值没有必然关系，所以} a \\text{为任意实数。}</span>"
     },
     {
       "id": "q0002",
       "number": 2,
       "header": "#2-Averge",
       "difficulty": "Averge",
-      "prompt_html": "<img src=\"/static/generated/assets/advanced-math/ch005/q0002_prompt.png\"/>",
+      "prompt_html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\lim_{x \\rightarrow \\infty} \\frac{2x+1}{\\sqrt{x^{2}+3}}=(\\quad).\">\\lim_{x \\rightarrow \\infty} \\frac{2x+1}{\\sqrt{x^{2}+3}}=(\\quad).</span>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch005/q0002_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"2\">2</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch005/q0002_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\pm 2 .\">\\pm 2 .</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch005/q0002_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\mathbf { - 2 }\">\\mathbf { - 2 }</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch005/q0002_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{不存在}\">\\text{不存在}</span>"
         }
       ],
       "answer": "D",
       "answer_index": 3,
-      "analysis_html": "<img src=\"/static/generated/assets/advanced-math/ch005/q0002_analysis.png\"/>"
+      "analysis_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{aligned}&amp; \\text{当} x \\rightarrow +\\infty \\text{时，}\\lim_{x \\rightarrow +\\infty} \\frac{2x+1}{\\sqrt{x^{2}+3}}=2,\\ \\text{}\\\\&amp; \\text{当} x \\rightarrow -\\infty \\text{时，}\\lim_{x \\rightarrow -\\infty} \\frac{2x+1}{\\sqrt{x^{2}+3}}=-2,\\ \\text{所以}\\lim_{x \\rightarrow \\infty} \\frac{2x+1}{\\sqrt{x^{2}+3}}\\ \\text{不存在}.\\end{aligned}\">\\begin{aligned}&amp; \\text{当} x \\rightarrow +\\infty \\text{时，}\\lim_{x \\rightarrow +\\infty} \\frac{2x+1}{\\sqrt{x^{2}+3}}=2,\\ \\text{}\\\\&amp; \\text{当} x \\rightarrow -\\infty \\text{时，}\\lim_{x \\rightarrow -\\infty} \\frac{2x+1}{\\sqrt{x^{2}+3}}=-2,\\ \\text{所以}\\lim_{x \\rightarrow \\infty} \\frac{2x+1}{\\sqrt{x^{2}+3}}\\ \\text{不存在}.\\end{aligned}</div>"
     },
     {
       "id": "q0003",
       "number": 3,
       "header": "#3-Averge",
       "difficulty": "Averge",
-      "prompt_html": "<img src=\"/static/generated/assets/advanced-math/ch005/q0003_prompt.png\"/>",
+      "prompt_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\text{设}f(x)=\\begin{cases}\\cos x,&amp;x\\geq 0 \\\\ -\\sin x+1,&amp;x&lt;0\\end{cases},\\ \\text{则}\\lim_{x\\rightarrow 0}f(x)=()\">\\text{设}f(x)=\\begin{cases}\\cos x,&amp;x\\geq 0 \\\\ -\\sin x+1,&amp;x&lt;0\\end{cases},\\ \\text{则}\\lim_{x\\rightarrow 0}f(x)=()</div>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch005/q0003_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\mathbf { 1 } ;\">\\mathbf { 1 } ;</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch005/q0003_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{不存在}.\">\\text{不存在}.</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch005/q0003_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\mathbf { 0 ; }\">\\mathbf { 0 ; }</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch005/q0003_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\mathbf { - 1 } ;\">\\mathbf { - 1 } ;</span>"
         }
       ],
       "answer": "A",
       "answer_index": 0,
-      "analysis_html": "<img src=\"/static/generated/assets/advanced-math/ch005/q0003_analysis.png\"/>"
+      "analysis_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{aligned}&amp; \\text{因为} \\lim_{x \\rightarrow 0^{-}} f(x) = \\lim_{x \\rightarrow 0^{-}} (-\\sin x + 1) = 1 \\; , \\; \\; \\lim_{x \\rightarrow 0^{+}} f(x) = \\lim_{x \\rightarrow 0^{+}} \\cos x = 1 \\; , \\\\&amp; \\text{所以} \\lim_{x \\rightarrow 0^{+}} f(x) = 1 \\; . \\end{aligned}\">\\begin{aligned}&amp; \\text{因为} \\lim_{x \\rightarrow 0^{-}} f(x) = \\lim_{x \\rightarrow 0^{-}} (-\\sin x + 1) = 1 \\; , \\; \\; \\lim_{x \\rightarrow 0^{+}} f(x) = \\lim_{x \\rightarrow 0^{+}} \\cos x = 1 \\; , \\\\&amp; \\text{所以} \\lim_{x \\rightarrow 0^{+}} f(x) = 1 \\; . \\end{aligned}</div>"
     },
     {
       "id": "q0004",
       "number": 4,
       "header": "#4-Averge",
       "difficulty": "Averge",
-      "prompt_html": "<img src=\"/static/generated/assets/advanced-math/ch005/q0004_prompt.png\"/>",
+      "prompt_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\text{已知}f(x)=\\begin{cases}x-1,&amp;x&lt;0 \\\\ \\dfrac{x^{2}+3x-1}{x^{3}+1},&amp;x\\geq 0\\end{cases},\\ \\text{则}\\lim_{x\\rightarrow-\\infty}f(x)=()\">\\text{已知}f(x)=\\begin{cases}x-1,&amp;x&lt;0 \\\\ \\dfrac{x^{2}+3x-1}{x^{3}+1},&amp;x\\geq 0\\end{cases},\\ \\text{则}\\lim_{x\\rightarrow-\\infty}f(x)=()</div>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch005/q0004_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"0.\">0.</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch005/q0004_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"- 1\">- 1</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch005/q0004_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{不存在}\">\\text{不存在}</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch005/q0004_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\mathbf { 1 }\">\\mathbf { 1 }</span>"
         }
       ],
       "answer": "C",
       "answer_index": 2,
-      "analysis_html": "<img src=\"/static/generated/assets/advanced-math/ch005/q0004_analysis.png\"/>"
+      "analysis_html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\lim_{x \\to -\\infty} f(x) = \\lim_{x \\to -\\infty} (x-1) = -\\infty\\,.\">\\lim_{x \\to -\\infty} f(x) = \\lim_{x \\to -\\infty} (x-1) = -\\infty\\,.</span>"
     },
     {
       "id": "q0005",
       "number": 5,
       "header": "#5-Averge",
       "difficulty": "Averge",
-      "prompt_html": "<img src=\"/static/generated/assets/advanced-math/ch005/q0005_prompt.png\"/>",
+      "prompt_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\text{设函数}f(x)=\\begin{cases}\\sqrt{|x|}\\sin \\frac{1}{x^{2}},&amp;x\\neq 0,\\\\ 0,&amp;x=0\\end{cases},\\text{则}f(x)\\text{在点}x=0\\text{处( ).}\">\\text{设函数}f(x)=\\begin{cases}\\sqrt{|x|}\\sin \\frac{1}{x^{2}},&amp;x\\neq 0,\\\\ 0,&amp;x=0\\end{cases},\\text{则}f(x)\\text{在点}x=0\\text{处( ).}</div>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch005/q0005_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{极限不存在}.\">\\text{极限不存在}.</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch005/q0005_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{只有右极限存在}\">\\text{只有右极限存在}</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch005/q0005_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{极限存在}\">\\text{极限存在}</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch005/q0005_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{只有左极限存在}\">\\text{只有左极限存在}</span>"
         }
       ],
       "answer": "C",
       "answer_index": 2,
-      "analysis_html": "<img src=\"/static/generated/assets/advanced-math/ch005/q0005_analysis.png\"/>"
+      "analysis_html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\lim_{x \\to 0^{-}} f(x) = \\lim_{x \\to 0^{+}} \\sqrt{x} \\sin \\frac{1}{x^{2}} = 0 \\ , \\ \\ \\lim_{x \\to 0^{-}} f(x) = \\lim_{x \\to 0^{+}} \\sqrt{-x} \\sin \\frac{1}{x^{2}} = 0 \\ .\">\\lim_{x \\to 0^{-}} f(x) = \\lim_{x \\to 0^{+}} \\sqrt{x} \\sin \\frac{1}{x^{2}} = 0 \\ , \\ \\ \\lim_{x \\to 0^{-}} f(x) = \\lim_{x \\to 0^{+}} \\sqrt{-x} \\sin \\frac{1}{x^{2}} = 0 \\ .</span>"
     },
     {
       "id": "q0006",
       "number": 6,
       "header": "#6-Averge",
       "difficulty": "Averge",
-      "prompt_html": "<img src=\"/static/generated/assets/advanced-math/ch005/q0006_prompt.png\"/>",
+      "prompt_html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"f(x) \\text{在点} x_{0} \\text{处有定义是极限} \\lim_{x \\rightarrow x_{0}} f(x) \\text{存在的( ).}\">f(x) \\text{在点} x_{0} \\text{处有定义是极限} \\lim_{x \\rightarrow x_{0}} f(x) \\text{存在的( ).}</span>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch005/q0006_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{既非必要也非充分条件}\">\\text{既非必要也非充分条件}</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch005/q0006_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\textbf{必要条件}\">\\textbf{必要条件}</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch005/q0006_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{充分必要条件}.\">\\text{充分必要条件}.</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch005/q0006_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\textbf{充分条件}\">\\textbf{充分条件}</span>"
         }
       ],
       "answer": "A",
       "answer_index": 0,
-      "analysis_html": "<img src=\"/static/generated/assets/advanced-math/ch005/q0006_analysis.png\"/>"
+      "analysis_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{array}{l}f(x) \\text{在点}x_{0}\\text{处有定义与极限} \\lim_{x \\rightarrow x_{0}}f(x) \\text{存在没有必然的联系}，f(x) \\text{在点}x_{0}\\text{处有定义}，\\text{如果函数在这点左右极限不相等的话}，\\text{在这一点的极限也不存在}，\\text{而极限存在}，f(x) \\text{在点}x_{0}\\text{处不一定需要有定义}，\\text{只需要左右极限存在并相等就行了}。 \\end{array}\">\\begin{array}{l}f(x) \\text{在点}x_{0}\\text{处有定义与极限} \\lim_{x \\rightarrow x_{0}}f(x) \\text{存在没有必然的联系}，f(x) \\text{在点}x_{0}\\text{处有定义}，\\text{如果函数在这点左右极限不相等的话}，\\text{在这一点的极限也不存在}，\\text{而极限存在}，f(x) \\text{在点}x_{0}\\text{处不一定需要有定义}，\\text{只需要左右极限存在并相等就行了}。 \\end{array}</div>"
     },
     {
       "id": "q0007",
       "number": 7,
       "header": "#7-Averge",
       "difficulty": "Averge",
-      "prompt_html": "<img src=\"/static/generated/assets/advanced-math/ch005/q0007_prompt.png\"/>",
+      "prompt_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\text{设}f(x)=\\begin{cases}e^{x}-2,&amp;x&gt;0\\\\ 1,&amp;x=0\\\\ x-\\cos x,&amp;x&lt;0\\end{cases},\\ \\text{则}\\lim_{x\\rightarrow 0}f(x)=(\\ \\ ).\">\\text{设}f(x)=\\begin{cases}e^{x}-2,&amp;x&gt;0\\\\ 1,&amp;x=0\\\\ x-\\cos x,&amp;x&lt;0\\end{cases},\\ \\text{则}\\lim_{x\\rightarrow 0}f(x)=(\\ \\ ).</div>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch005/q0007_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\mathbf { 1 }\">\\mathbf { 1 }</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch005/q0007_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\mathbf { - 1 }\">\\mathbf { - 1 }</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch005/q0007_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\mathbf { 0 }\">\\mathbf { 0 }</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch005/q0007_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{不存在}\">\\text{不存在}</span>"
         }
       ],
       "answer": "B",
       "answer_index": 1,
-      "analysis_html": "<img src=\"/static/generated/assets/advanced-math/ch005/q0007_analysis.png\"/>"
+      "analysis_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{aligned}&amp;\\lim_{x\\rightarrow 0^{-}}f(x)=\\lim_{x\\rightarrow 0^{+}}(e^{x}-2)=-1\\,,\\ \\ \\lim_{x\\rightarrow 0^{-}}f(x)=\\lim_{x\\rightarrow 0^{-}}(x-\\cos x)=-1\\\\&amp;\\lim_{x\\rightarrow 0^{+}}f(x)=\\lim_{x\\rightarrow 0^{-}}f(x)\\ ,\\ \\ \\text{所以}\\ \\lim_{x\\rightarrow 0}f(x)=-1\\,.\\end{aligned}\">\\begin{aligned}&amp;\\lim_{x\\rightarrow 0^{-}}f(x)=\\lim_{x\\rightarrow 0^{+}}(e^{x}-2)=-1\\,,\\ \\ \\lim_{x\\rightarrow 0^{-}}f(x)=\\lim_{x\\rightarrow 0^{-}}(x-\\cos x)=-1\\\\&amp;\\lim_{x\\rightarrow 0^{+}}f(x)=\\lim_{x\\rightarrow 0^{-}}f(x)\\ ,\\ \\ \\text{所以}\\ \\lim_{x\\rightarrow 0}f(x)=-1\\,.\\end{aligned}</div>"
     },
     {
       "id": "q0008",
       "number": 8,
       "header": "#8-Averge",
       "difficulty": "Averge",
-      "prompt_html": "<img src=\"/static/generated/assets/advanced-math/ch005/q0008_prompt.png\"/>",
+      "prompt_html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{对于函数}e^{1/x}, \\text{下列说法正确的是( )}.\">\\text{对于函数}e^{1/x}, \\text{下列说法正确的是( )}.</span>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch005/q0008_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\lim_{x \\to \\infty} e^{1/x} = 1\">\\lim_{x \\to \\infty} e^{1/x} = 1</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch005/q0008_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\lim_{x\\to 0^{+}}e^{1/x}=0\">\\lim_{x\\to 0^{+}}e^{1/x}=0</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch005/q0008_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\lim_{x\\to +\\infty}e^{1/x} = \\infty\\,;\">\\lim_{x\\to +\\infty}e^{1/x} = \\infty\\,;</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch005/q0008_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\lim_{x\\rightarrow 0^{-}}e^{1/x}=\\infty\">\\lim_{x\\rightarrow 0^{-}}e^{1/x}=\\infty</span>"
         }
       ],
       "answer": "A",
       "answer_index": 0,
-      "analysis_html": "<img src=\"/static/generated/assets/advanced-math/ch005/q0008_analysis.png\"/>"
+      "analysis_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{aligned}(1)\\ &amp; \\text{当}x\\rightarrow+\\infty \\text{时，}\\ \\frac{1}{x}\\rightarrow0^{+},\\ \\text{则}e^{1/x}\\rightarrow1^{+},\\\\&amp; \\text{当}x\\rightarrow-\\infty \\text{时，}\\ \\frac{1}{x}\\rightarrow0^{-},\\ \\text{则}e^{1/x}\\rightarrow1^{+},\\\\&amp; \\lim_{x\\rightarrow\\infty}e^{1/x}=1;\\ \\text{右}\\end{aligned}\">\\begin{aligned}(1)\\ &amp; \\text{当}x\\rightarrow+\\infty \\text{时，}\\ \\frac{1}{x}\\rightarrow0^{+},\\ \\text{则}e^{1/x}\\rightarrow1^{+},\\\\&amp; \\text{当}x\\rightarrow-\\infty \\text{时，}\\ \\frac{1}{x}\\rightarrow0^{-},\\ \\text{则}e^{1/x}\\rightarrow1^{+},\\\\&amp; \\lim_{x\\rightarrow\\infty}e^{1/x}=1;\\ \\text{右}\\end{aligned}</div>\n<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{aligned}(2)\\ &amp; \\text{当}x\\rightarrow0^{+}\\text{时，}\\ \\frac{1}{x}\\rightarrow+\\infty\\ ,\\ \\text{则}e^{1/x}\\rightarrow+\\infty.\\text{右}\\\\&amp; \\text{即}\\lim_{x\\rightarrow0^{+}}e^{1/x}=+\\infty.\\text{左}\\\\&amp; \\text{当}x\\rightarrow0^{-}\\text{时，}\\ \\frac{1}{x}\\rightarrow-\\infty\\ ,\\ \\text{则}e^{1/x}\\rightarrow0.\\text{即}\\lim_{x\\rightarrow0^{-}}e^{1/x}=0.\\text{左}\\\\&amp; \\therefore\\text{左极限与右极限不等.}\\lim_{x\\rightarrow0}e^{1/x}\\text{不存在.}\\text{右}\\end{aligned}\">\\begin{aligned}(2)\\ &amp; \\text{当}x\\rightarrow0^{+}\\text{时，}\\ \\frac{1}{x}\\rightarrow+\\infty\\ ,\\ \\text{则}e^{1/x}\\rightarrow+\\infty.\\text{右}\\\\&amp; \\text{即}\\lim_{x\\rightarrow0^{+}}e^{1/x}=+\\infty.\\text{左}\\\\&amp; \\text{当}x\\rightarrow0^{-}\\text{时，}\\ \\frac{1}{x}\\rightarrow-\\infty\\ ,\\ \\text{则}e^{1/x}\\rightarrow0.\\text{即}\\lim_{x\\rightarrow0^{-}}e^{1/x}=0.\\text{左}\\\\&amp; \\therefore\\text{左极限与右极限不等.}\\lim_{x\\rightarrow0}e^{1/x}\\text{不存在.}\\text{右}\\end{aligned}</div>"
     },
     {
       "id": "q0009",
       "number": 9,
       "header": "#9-Averge",
       "difficulty": "Averge",
-      "prompt_html": "<img src=\"/static/generated/assets/advanced-math/ch005/q0009_prompt.png\"/>",
+      "prompt_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\text{设}f(x)=\\begin{cases}\\dfrac{\\left|x^{2}-1\\right|}{x-1},&amp;x\\neq 1,\\\\ 0,&amp;x=1\\end{cases},\\ \\text{则}\\lim_{x\\rightarrow 1}f(x)=()\">\\text{设}f(x)=\\begin{cases}\\dfrac{\\left|x^{2}-1\\right|}{x-1},&amp;x\\neq 1,\\\\ 0,&amp;x=1\\end{cases},\\ \\text{则}\\lim_{x\\rightarrow 1}f(x)=()</div>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch005/q0009_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"2\">2</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch005/q0009_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\mathbf { - 1 }\">\\mathbf { - 1 }</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch005/q0009_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\mathbf{1}.\">\\mathbf{1}.</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch005/q0009_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"- 2\">- 2</span>"
         }
       ],
       "answer": "D",
       "answer_index": 3,
-      "analysis_html": "<img src=\"/static/generated/assets/advanced-math/ch005/q0009_analysis.png\"/>"
+      "analysis_html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\lim_{x\\rightarrow 1^{-}}f(x)\\!=\\!\\lim_{x\\rightarrow 1^{-}}\\frac{\\left|x^{2}-1\\right|}{x-1}\\!=\\!\\lim_{x\\rightarrow 1^{-}}\\!-\\!(x+1)\\!=\\!-2\\ .\">\\lim_{x\\rightarrow 1^{-}}f(x)\\!=\\!\\lim_{x\\rightarrow 1^{-}}\\frac{\\left|x^{2}-1\\right|}{x-1}\\!=\\!\\lim_{x\\rightarrow 1^{-}}\\!-\\!(x+1)\\!=\\!-2\\ .</span>"
     },
     {
       "id": "q0010",
       "number": 10,
       "header": "#10-Averge",
       "difficulty": "Averge",
-      "prompt_html": "<img src=\"/static/generated/assets/advanced-math/ch005/q0010_prompt.png\"/>",
+      "prompt_html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{设}f(x)=\\frac{3}{2+e^{\\frac{1}{x}}},\\text{则}f(0-0)=(\\ \\ ).\">\\text{设}f(x)=\\frac{3}{2+e^{\\frac{1}{x}}},\\text{则}f(0-0)=(\\ \\ ).</span>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch005/q0010_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"- \\frac { 1 } { 3 }\">- \\frac { 1 } { 3 }</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch005/q0010_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\frac{1}{3}\">\\frac{1}{3}</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch005/q0010_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\frac{3}{2}\">\\frac{3}{2}</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch005/q0010_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\frac{2}{3}\">\\frac{2}{3}</span>"
         }
       ],
       "answer": "C",
       "answer_index": 2,
-      "analysis_html": "<img src=\"/static/generated/assets/advanced-math/ch005/q0010_analysis.png\"/>"
+      "analysis_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{aligned}f(0-0)&amp;=\\lim_{x\\rightarrow 0^{-}}\\frac{3}{2+e^{\\frac{1}{x}}}\\,\\,\\, ,\\,\\,\\, \\text{当}\\,\\, x\\rightarrow 0^{-}\\,\\, \\text{时}\\,\\, ,\\,\\,\\,\\,\\frac{1}{x}\\rightarrow -\\infty\\,\\,\\, ,\\,\\,\\, \\text{此时}\\,\\, e^{\\frac{1}{x}}\\rightarrow 0\\,\\,\\, ,\\,\\,\\, \\text{所以}\\\\f(0-0)&amp;=\\lim_{x\\rightarrow 0^{-}}\\frac{3}{2+e^{\\frac{1}{x}}}=\\frac{3}{2}\\cdot e^{x}\\end{aligned}\">\\begin{aligned}f(0-0)&amp;=\\lim_{x\\rightarrow 0^{-}}\\frac{3}{2+e^{\\frac{1}{x}}}\\,\\,\\, ,\\,\\,\\, \\text{当}\\,\\, x\\rightarrow 0^{-}\\,\\, \\text{时}\\,\\, ,\\,\\,\\,\\,\\frac{1}{x}\\rightarrow -\\infty\\,\\,\\, ,\\,\\,\\, \\text{此时}\\,\\, e^{\\frac{1}{x}}\\rightarrow 0\\,\\,\\, ,\\,\\,\\, \\text{所以}\\\\f(0-0)&amp;=\\lim_{x\\rightarrow 0^{-}}\\frac{3}{2+e^{\\frac{1}{x}}}=\\frac{3}{2}\\cdot e^{x}\\end{aligned}</div>"
     },
     {
       "id": "q0011",
       "number": 11,
       "header": "#11-Averge",
       "difficulty": "Averge",
-      "prompt_html": "<img src=\"/static/generated/assets/advanced-math/ch005/q0011_prompt.png\"/>",
+      "prompt_html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{下列极限中，不正确的是( )}.\">\\text{下列极限中，不正确的是( )}.</span>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch005/q0011_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\lim_{x \\to 0} ( \\frac {1} {2} ) ^ { \\frac {1} {x} } = 0\">\\lim_{x \\to 0} ( \\frac {1} {2} ) ^ { \\frac {1} {x} } = 0</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch005/q0011_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\lim_{x \\to 3^{-}} (x+1) = 4 \\text{；}\">\\lim_{x \\to 3^{-}} (x+1) = 4 \\text{；}</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch005/q0011_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\lim_{x \\to 1} \\frac{\\sin(x-1)}{x} = 0\">\\lim_{x \\to 1} \\frac{\\sin(x-1)}{x} = 0</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch005/q0011_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\lim_{x \\rightarrow 0^{-}} e^{\\frac{1}{x}} = 0\">\\lim_{x \\rightarrow 0^{-}} e^{\\frac{1}{x}} = 0</span>"
         }
       ],
       "answer": "A",
       "answer_index": 0,
-      "analysis_html": "<img src=\"/static/generated/assets/advanced-math/ch005/q0011_analysis.png\"/>"
+      "analysis_html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\lim_{x \\to 0^{-}} (\\frac{1}{2})^{\\frac{1}{x}} = 0 \\; ; \\; \\lim_{x \\to 0^{+}} (\\frac{1}{2})^{\\frac{1}{x}} = + \\infty \\; , \\; \\text{所以} \\lim_{x \\to +} (\\frac{1}{2})^{\\frac{1}{x}} \\text{不存在} .\">\\lim_{x \\to 0^{-}} (\\frac{1}{2})^{\\frac{1}{x}} = 0 \\; ; \\; \\lim_{x \\to 0^{+}} (\\frac{1}{2})^{\\frac{1}{x}} = + \\infty \\; , \\; \\text{所以} \\lim_{x \\to +} (\\frac{1}{2})^{\\frac{1}{x}} \\text{不存在} .</span>"
     },
     {
       "id": "q0012",
       "number": 12,
       "header": "#12-Averge",
       "difficulty": "Averge",
-      "prompt_html": "<img src=\"/static/generated/assets/advanced-math/ch005/q0012_prompt.png\"/>",
+      "prompt_html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\lim_{x \\to \\infty} \\frac{e^{x} + 4e^{-x}}{3e^{x} + 2e^{-x}} = ( \\quad ).\">\\lim_{x \\to \\infty} \\frac{e^{x} + 4e^{-x}}{3e^{x} + 2e^{-x}} = ( \\quad ).</span>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch005/q0012_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\underline{2}\">\\underline{2}</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch005/q0012_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\frac { 1 } { 3 }\">\\frac { 1 } { 3 }</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch005/q0012_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\mathbf { 1 }\">\\mathbf { 1 }</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch005/q0012_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{不存在}\">\\text{不存在}</span>"
         }
       ],
       "answer": "D",
       "answer_index": 3,
-      "analysis_html": "<img src=\"/static/generated/assets/advanced-math/ch005/q0012_analysis.png\"/>"
+      "analysis_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{aligned}&amp; \\text{当}x\\rightarrow+\\infty \\text{时，}\\ \\lim_{x\\rightarrow\\infty}\\frac{e^{x}+4e^{-x}}{3e^{x}+2e^{-x}}=\\lim_{x\\rightarrow\\infty}\\frac{1+4e^{-2x}}{3+2e^{-2x}}=\\frac{1}{3}\\ ,\\\\&amp; \\text{当}x\\rightarrow-\\infty \\text{时，}\\ \\lim_{x\\rightarrow-\\infty}\\frac{e^{x}+4e^{-x}}{3e^{x}+2e^{-x}}=\\lim_{x\\rightarrow-\\infty}\\frac{e^{2x}+4}{3e^{2x}+2}=2\\ ,\\ \\text{所以}\\lim_{x\\rightarrow\\infty}\\frac{e^{x}+4e^{-x}}{3e^{x}+2e^{-x}}\\ \\text{不存在}.\\end{aligned}\">\\begin{aligned}&amp; \\text{当}x\\rightarrow+\\infty \\text{时，}\\ \\lim_{x\\rightarrow\\infty}\\frac{e^{x}+4e^{-x}}{3e^{x}+2e^{-x}}=\\lim_{x\\rightarrow\\infty}\\frac{1+4e^{-2x}}{3+2e^{-2x}}=\\frac{1}{3}\\ ,\\\\&amp; \\text{当}x\\rightarrow-\\infty \\text{时，}\\ \\lim_{x\\rightarrow-\\infty}\\frac{e^{x}+4e^{-x}}{3e^{x}+2e^{-x}}=\\lim_{x\\rightarrow-\\infty}\\frac{e^{2x}+4}{3e^{2x}+2}=2\\ ,\\ \\text{所以}\\lim_{x\\rightarrow\\infty}\\frac{e^{x}+4e^{-x}}{3e^{x}+2e^{-x}}\\ \\text{不存在}.\\end{aligned}</div>"
     },
     {
       "id": "q0013",
       "number": 13,
       "header": "#13-Averge",
       "difficulty": "Averge",
-      "prompt_html": "<img src=\"/static/generated/assets/advanced-math/ch005/q0013_prompt.png\"/>",
+      "prompt_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{cases} \\dfrac{1}{x^{2}}, &amp; x&lt;0 \\\\ 0, &amp; x=0 \\\\ x^{2}-2x, &amp; 0&lt;x\\leq 2 \\\\ 3x-6, &amp; 2&lt;x \\end{cases},\\text{则下列说法正确的有( ).} \\quad  \\text{1. }\\lim_{x\\rightarrow 0}f(x) \\text{不存在}; \\quad 2. \\lim_{x\\rightarrow 2}f(x)=0; \\quad 3. \\lim_{x\\rightarrow -\\infty}f(x)=0; \\quad 4. \\lim_{x\\rightarrow +\\infty}f(x)=+\\infty.\">\\begin{cases} \\dfrac{1}{x^{2}}, &amp; x&lt;0 \\\\ 0, &amp; x=0 \\\\ x^{2}-2x, &amp; 0&lt;x\\leq 2 \\\\ 3x-6, &amp; 2&lt;x \\end{cases},\\text{则下列说法正确的有( ).} \\quad  \\text{1. }\\lim_{x\\rightarrow 0}f(x) \\text{不存在}; \\quad 2. \\lim_{x\\rightarrow 2}f(x)=0; \\quad 3. \\lim_{x\\rightarrow -\\infty}f(x)=0; \\quad 4. \\lim_{x\\rightarrow +\\infty}f(x)=+\\infty.</div>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch005/q0013_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"2 \\text{个}\">2 \\text{个}</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch005/q0013_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"3 \\text{ 个}\">3 \\text{ 个}</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch005/q0013_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"4 \\text{个}\">4 \\text{个}</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch005/q0013_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"1 \\text{个}\">1 \\text{个}</span>"
         }
       ],
       "answer": "C",
       "answer_index": 2,
-      "analysis_html": "<img src=\"/static/generated/assets/advanced-math/ch005/q0013_analysis.png\"/>"
+      "analysis_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{aligned}&amp;\\lim_{x\\rightarrow 0^+}f(x)=\\lim_{x\\rightarrow 0^-}\\frac{1}{x^2}=+\\infty\\ ,\\ \\ \\lim_{x\\rightarrow 0^+}f(x)=\\lim_{x\\rightarrow 0^-}(x^2-2x)=0\\ ,\\ \\ \\text{故}\\lim_{x\\rightarrow 0^+}f(x)\\ \\text{不存在}\\\\&amp;\\lim_{x\\rightarrow 2^+}f(x)=\\lim_{x\\rightarrow 0^+}(x^2-2x)=0\\ ,\\ \\ \\lim_{x\\rightarrow 2^+}f(x)=\\lim_{x\\rightarrow 2^+}(3x-6)=0\\ ,\\ \\ \\text{故}\\lim_{x\\rightarrow 2}f(x)=0\\ .\\\\&amp;\\lim_{x\\rightarrow \\infty}f(x)=\\lim_{x\\rightarrow \\infty}\\frac{1}{x^2}=0\\ ,\\ \\ \\lim_{x\\rightarrow \\infty}f(x)=\\lim_{x\\rightarrow \\infty}(3x-6)=+\\infty\\ .\\end{aligned}\">\\begin{aligned}&amp;\\lim_{x\\rightarrow 0^+}f(x)=\\lim_{x\\rightarrow 0^-}\\frac{1}{x^2}=+\\infty\\ ,\\ \\ \\lim_{x\\rightarrow 0^+}f(x)=\\lim_{x\\rightarrow 0^-}(x^2-2x)=0\\ ,\\ \\ \\text{故}\\lim_{x\\rightarrow 0^+}f(x)\\ \\text{不存在}\\\\&amp;\\lim_{x\\rightarrow 2^+}f(x)=\\lim_{x\\rightarrow 0^+}(x^2-2x)=0\\ ,\\ \\ \\lim_{x\\rightarrow 2^+}f(x)=\\lim_{x\\rightarrow 2^+}(3x-6)=0\\ ,\\ \\ \\text{故}\\lim_{x\\rightarrow 2}f(x)=0\\ .\\\\&amp;\\lim_{x\\rightarrow \\infty}f(x)=\\lim_{x\\rightarrow \\infty}\\frac{1}{x^2}=0\\ ,\\ \\ \\lim_{x\\rightarrow \\infty}f(x)=\\lim_{x\\rightarrow \\infty}(3x-6)=+\\infty\\ .\\end{aligned}</div>"
     },
     {
       "id": "q0014",
       "number": 14,
       "header": "#14-Averge",
       "difficulty": "Averge",
-      "prompt_html": "<img src=\"/static/generated/assets/advanced-math/ch005/q0014_prompt.png\"/>",
+      "prompt_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\text{设}f(x)=\\begin{cases}\\dfrac{\\left|x^{2}-9\\right|}{x-3},&amp;x\\neq 3,\\\\ 1,&amp;x=3\\end{cases},\\ \\text{则}\\lim_{x\\rightarrow 3^{+}}f(x)=()\\ .\">\\text{设}f(x)=\\begin{cases}\\dfrac{\\left|x^{2}-9\\right|}{x-3},&amp;x\\neq 3,\\\\ 1,&amp;x=3\\end{cases},\\ \\text{则}\\lim_{x\\rightarrow 3^{+}}f(x)=()\\ .</div>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch005/q0014_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\mathbf{1}.\">\\mathbf{1}.</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch005/q0014_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"-6\">-6</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch005/q0014_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\mathbf { 6 }\\textcircled { }\">\\mathbf { 6 }\\textcircled { }</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch005/q0014_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\mathbf { - 1 }\">\\mathbf { - 1 }</span>"
         }
       ],
       "answer": "C",
       "answer_index": 2,
-      "analysis_html": "<img src=\"/static/generated/assets/advanced-math/ch005/q0014_analysis.png\"/>"
+      "analysis_html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\lim_{x\\to 3^{+}}f(x) = \\lim_{x\\to 3^{+}}\\frac{\\left|x^{2}-9\\right|}{x-3} = \\lim_{x\\to 3^{+}}(x+3) = 6\">\\lim_{x\\to 3^{+}}f(x) = \\lim_{x\\to 3^{+}}\\frac{\\left|x^{2}-9\\right|}{x-3} = \\lim_{x\\to 3^{+}}(x+3) = 6</span>"
     },
     {
       "id": "q0015",
       "number": 15,
       "header": "#15-Averge",
       "difficulty": "Averge",
-      "prompt_html": "<img src=\"/static/generated/assets/advanced-math/ch005/q0015_prompt.png\"/>",
+      "prompt_html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\lim_{x \\to 0} \\operatorname{arccot} \\frac{1}{x} = ( \\quad ).\">\\lim_{x \\to 0} \\operatorname{arccot} \\frac{1}{x} = ( \\quad ).</span>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch005/q0015_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{不存在}\">\\text{不存在}</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch005/q0015_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"0\">0</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch005/q0015_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\pi\">\\pi</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch005/q0015_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\frac { \\pi } { 2 } .\">\\frac { \\pi } { 2 } .</span>"
         }
       ],
       "answer": "A",
       "answer_index": 0,
-      "analysis_html": "<img src=\"/static/generated/assets/advanced-math/ch005/q0015_analysis.png\"/>"
+      "analysis_html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\lim_{x \\to 0} \\operatorname{arccot} \\frac{1}{x} = \\pi \\, , \\ \\lim_{x \\to 0} \\operatorname{arccot} \\frac{1}{x} = 0 \\, , \\ \\text{左右极限不相等，所以} \\lim_{x \\to 0} \\operatorname{arccot} \\frac{1}{x} \\text{极限不存在.}\">\\lim_{x \\to 0} \\operatorname{arccot} \\frac{1}{x} = \\pi \\, , \\ \\lim_{x \\to 0} \\operatorname{arccot} \\frac{1}{x} = 0 \\, , \\ \\text{左右极限不相等，所以} \\lim_{x \\to 0} \\operatorname{arccot} \\frac{1}{x} \\text{极限不存在.}</span>"
     },
     {
       "id": "q0016",
       "number": 16,
       "header": "#16-Averge",
       "difficulty": "Averge",
-      "prompt_html": "<img src=\"/static/generated/assets/advanced-math/ch005/q0016_prompt.png\"/>",
+      "prompt_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\text{设}f(x)=\\begin{cases}3x+2,&amp;x\\leq 0\\\\x^{2}+1,&amp;0&lt;x\\leq 1,\\\\2/x,&amp;1&lt;x\\end{cases},\\text{则下列说法正确的是( ).}\">\\text{设}f(x)=\\begin{cases}3x+2,&amp;x\\leq 0\\\\x^{2}+1,&amp;0&lt;x\\leq 1,\\\\2/x,&amp;1&lt;x\\end{cases},\\text{则下列说法正确的是( ).}</div>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch005/q0016_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\lim_{x \\to 1} f(x) = 1\">\\lim_{x \\to 1} f(x) = 1</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch005/q0016_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\lim_{x \\rightarrow 1} f(x) = 2 \\; ;\">\\lim_{x \\rightarrow 1} f(x) = 2 \\; ;</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch005/q0016_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\lim_{x \\to 0} f(x) = 2\">\\lim_{x \\to 0} f(x) = 2</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch005/q0016_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\lim_{x \\to 0} f(x) = 1\">\\lim_{x \\to 0} f(x) = 1</span>"
         }
       ],
       "answer": "B",
       "answer_index": 1,
-      "analysis_html": "<img src=\"/static/generated/assets/advanced-math/ch005/q0016_analysis.png\"/>"
+      "analysis_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{aligned}&amp; \\text{设} \\lim_{x \\to 0^+} f(x) = \\lim_{x \\to 0^-} (3x+2) = 2, \\ \\ \\lim_{x \\to 0^+} f(x) = \\lim_{x \\to 0^-} (x^2+1) = 1, \\omega \\\\&amp; \\text{因} \\lim_{x \\to 0^-} f(x) \\neq \\lim_{x \\to 0^-} f(x), \\ \\ \\text{故} \\lim_{x \\to 0^+} f(x) \\text{不存在}.\\omega \\\\&amp; \\text{又} \\lim_{x \\to 1^-} f(x) = \\lim_{x \\to 1^-} (x^2+1) = 2, \\ \\ \\lim_{x \\to 1^-} f(x) = \\lim_{x \\to 1^-} \\frac{2}{x} = 2, \\ \\ \\text{故} \\lim_{x \\to 1} f(x) = 2.\\end{aligned}\">\\begin{aligned}&amp; \\text{设} \\lim_{x \\to 0^+} f(x) = \\lim_{x \\to 0^-} (3x+2) = 2, \\ \\ \\lim_{x \\to 0^+} f(x) = \\lim_{x \\to 0^-} (x^2+1) = 1, \\omega \\\\&amp; \\text{因} \\lim_{x \\to 0^-} f(x) \\neq \\lim_{x \\to 0^-} f(x), \\ \\ \\text{故} \\lim_{x \\to 0^+} f(x) \\text{不存在}.\\omega \\\\&amp; \\text{又} \\lim_{x \\to 1^-} f(x) = \\lim_{x \\to 1^-} (x^2+1) = 2, \\ \\ \\lim_{x \\to 1^-} f(x) = \\lim_{x \\to 1^-} \\frac{2}{x} = 2, \\ \\ \\text{故} \\lim_{x \\to 1} f(x) = 2.\\end{aligned}</div>"
     },
     {
       "id": "q0017",
       "number": 17,
       "header": "#17-Averge",
       "difficulty": "Averge",
-      "prompt_html": "<img src=\"/static/generated/assets/advanced-math/ch005/q0017_prompt.png\"/>",
+      "prompt_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\text{设}f(x)\\!=\\!\\!\\begin{cases}\\sec x,&amp;x\\geq 0 \\\\ -x^{2}+1,&amp;x&lt;0\\end{cases},\\ \\text{则}\\lim_{x\\rightarrow 0}f(x)=(\\ \\ ).\">\\text{设}f(x)\\!=\\!\\!\\begin{cases}\\sec x,&amp;x\\geq 0 \\\\ -x^{2}+1,&amp;x&lt;0\\end{cases},\\ \\text{则}\\lim_{x\\rightarrow 0}f(x)=(\\ \\ ).</div>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch005/q0017_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\mathbf { 0 }\">\\mathbf { 0 }</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch005/q0017_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\mathbf { 1 }\">\\mathbf { 1 }</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch005/q0017_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{不存在}\">\\text{不存在}</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch005/q0017_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"- 1 ;\">- 1 ;</span>"
         }
       ],
       "answer": "B",
       "answer_index": 1,
-      "analysis_html": "<img src=\"/static/generated/assets/advanced-math/ch005/q0017_analysis.png\"/>"
+      "analysis_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{aligned}&amp; \\text{因为} \\lim_{x \\rightarrow 0^{-}} f(x) = \\lim_{x \\rightarrow 0^{-}} (-x^2 + 1) = 1 \\, , \\ \\ \\lim_{x \\rightarrow 0^{-}} f(x) = \\lim_{x \\rightarrow 0^{-}} \\sec x = 1 \\, , \\\\&amp; \\text{所以} \\lim_{x \\rightarrow 0^{-}} f(x) = 1 \\, . \\Leftrightarrow \\end{aligned}\">\\begin{aligned}&amp; \\text{因为} \\lim_{x \\rightarrow 0^{-}} f(x) = \\lim_{x \\rightarrow 0^{-}} (-x^2 + 1) = 1 \\, , \\ \\ \\lim_{x \\rightarrow 0^{-}} f(x) = \\lim_{x \\rightarrow 0^{-}} \\sec x = 1 \\, , \\\\&amp; \\text{所以} \\lim_{x \\rightarrow 0^{-}} f(x) = 1 \\, . \\Leftrightarrow \\end{aligned}</div>"
     },
     {
       "id": "q0018",
       "number": 18,
       "header": "#18-Averge",
       "difficulty": "Averge",
-      "prompt_html": "<img src=\"/static/generated/assets/advanced-math/ch005/q0018_prompt.png\"/>",
+      "prompt_html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\lim_{x \\rightarrow x_{0}^{-}} f(x) \\text{存在是} \\lim_{x \\rightarrow x_{0}} f(x) \\text{存在的( ).}\">\\lim_{x \\rightarrow x_{0}^{-}} f(x) \\text{存在是} \\lim_{x \\rightarrow x_{0}} f(x) \\text{存在的( ).}</span>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch005/q0018_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{充分必要条件}\">\\text{充分必要条件}</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch005/q0018_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\textbf{必要条件}\">\\textbf{必要条件}</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch005/q0018_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{充分条件}\">\\text{充分条件}</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch005/q0018_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{既非必要也非充分条件}\">\\text{既非必要也非充分条件}</span>"
         }
       ],
       "answer": "B",
       "answer_index": 1,
-      "analysis_html": "<img src=\"/static/generated/assets/advanced-math/ch005/q0018_analysis.png\"/>"
+      "analysis_html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\lim_{x \\to x_{0}} f(x) \\text{ 存在且相等是} \\lim_{x \\to x_{0}} f(x) \\text{ 存在的充分必要条件，因此} \\lim_{x \\to x_{0}} f(x) \\text{ 存在是} \\lim_{x \\to x_{0}} f(x) \\text{ 存在的必要条件。}\">\\lim_{x \\to x_{0}} f(x) \\text{ 存在且相等是} \\lim_{x \\to x_{0}} f(x) \\text{ 存在的充分必要条件，因此} \\lim_{x \\to x_{0}} f(x) \\text{ 存在是} \\lim_{x \\to x_{0}} f(x) \\text{ 存在的必要条件。}</span>"
     },
     {
       "id": "q0019",
       "number": 19,
       "header": "#19-Averge",
       "difficulty": "Averge",
-      "prompt_html": "<img src=\"/static/generated/assets/advanced-math/ch005/q0019_prompt.png\"/>",
+      "prompt_html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\lim_{x \\to 0} \\tan x \\cdot \\arctan \\frac{1}{x} = ( \\quad ).\">\\lim_{x \\to 0} \\tan x \\cdot \\arctan \\frac{1}{x} = ( \\quad ).</span>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch005/q0019_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\frac { \\pi } { 2 }\">\\frac { \\pi } { 2 }</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch005/q0019_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{不存在}\">\\text{不存在}</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch005/q0019_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"0\">0</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch005/q0019_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"- \\frac { \\pi } { 2 }\">- \\frac { \\pi } { 2 }</span>"
         }
       ],
       "answer": "C",
       "answer_index": 2,
-      "analysis_html": "<img src=\"/static/generated/assets/advanced-math/ch005/q0019_analysis.png\"/>"
+      "analysis_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{aligned}&amp;\\lim_{x \\rightarrow 0^+} \\tan x \\cdot \\arctan \\frac{1}{x} = \\lim_{x \\rightarrow 0^+} \\tan x \\cdot \\lim_{x \\rightarrow 0^+} \\arctan \\frac{1}{x} = 0 \\cdot (-\\frac{\\pi}{2}) = 0 \\ , \\ \\ \\text{①}\\\\&amp;\\lim_{x \\rightarrow 0^+} \\tan x \\cdot \\arctan \\frac{1}{x} = \\lim_{x \\rightarrow 0^+} \\tan x \\cdot \\lim_{x \\rightarrow 0^+} \\arctan \\frac{1}{x} = 0 \\cdot \\frac{\\pi}{2} = 0 \\ , \\ \\text{所以} \\lim_{x \\rightarrow 0^+} \\tan x \\cdot \\arctan \\frac{1}{x} = 0 \\ .\\end{aligned}\">\\begin{aligned}&amp;\\lim_{x \\rightarrow 0^+} \\tan x \\cdot \\arctan \\frac{1}{x} = \\lim_{x \\rightarrow 0^+} \\tan x \\cdot \\lim_{x \\rightarrow 0^+} \\arctan \\frac{1}{x} = 0 \\cdot (-\\frac{\\pi}{2}) = 0 \\ , \\ \\ \\text{①}\\\\&amp;\\lim_{x \\rightarrow 0^+} \\tan x \\cdot \\arctan \\frac{1}{x} = \\lim_{x \\rightarrow 0^+} \\tan x \\cdot \\lim_{x \\rightarrow 0^+} \\arctan \\frac{1}{x} = 0 \\cdot \\frac{\\pi}{2} = 0 \\ , \\ \\text{所以} \\lim_{x \\rightarrow 0^+} \\tan x \\cdot \\arctan \\frac{1}{x} = 0 \\ .\\end{aligned}</div>"
     },
     {
       "id": "q0020",
       "number": 20,
       "header": "#20-Averge",
       "difficulty": "Averge",
-      "prompt_html": "<img src=\"/static/generated/assets/advanced-math/ch005/q0020_prompt.png\"/>",
+      "prompt_html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{关于极限} \\lim_{x \\to 0} \\frac{1}{1+e^{- \\frac{1}{x}}} \\text{结论正确的是( ).}\">\\text{关于极限} \\lim_{x \\to 0} \\frac{1}{1+e^{- \\frac{1}{x}}} \\text{结论正确的是( ).}</span>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch005/q0020_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\mathbf{1}.\">\\mathbf{1}.</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch005/q0020_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\mathbf { 0 }\">\\mathbf { 0 }</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch005/q0020_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\mathbf { - 1 } ;\">\\mathbf { - 1 } ;</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch005/q0020_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{不存在}\">\\text{不存在}</span>"
         }
       ],
       "answer": "D",
       "answer_index": 3,
-      "analysis_html": "<img src=\"/static/generated/assets/advanced-math/ch005/q0020_analysis.png\"/>"
+      "analysis_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{array}{l} \\lim\\limits_{x \\rightarrow 0^{-}} e^{- \\frac{1}{x}} = + \\infty , \\text {因此} \\lim\\limits_{x \\rightarrow 0^{-}} \\frac{1}{1+e^{- \\frac{1}{x}}} = 0, \\\\ \\lim\\limits_{x \\rightarrow 0^{+}} e^{- \\frac{1}{x}} = 0 , \\text {此时} \\lim\\limits_{x \\rightarrow 0^{+}} \\frac{1}{1+e^{- \\frac{1}{x}}} = 1, \\\\ \\text {所以} \\lim\\limits_{x \\rightarrow 0^{-}} \\frac{1}{1+e^{- \\frac{1}{x}}} \\text {不存在}. \\end{array}\">\\begin{array}{l} \\lim\\limits_{x \\rightarrow 0^{-}} e^{- \\frac{1}{x}} = + \\infty , \\text {因此} \\lim\\limits_{x \\rightarrow 0^{-}} \\frac{1}{1+e^{- \\frac{1}{x}}} = 0, \\\\ \\lim\\limits_{x \\rightarrow 0^{+}} e^{- \\frac{1}{x}} = 0 , \\text {此时} \\lim\\limits_{x \\rightarrow 0^{+}} \\frac{1}{1+e^{- \\frac{1}{x}}} = 1, \\\\ \\text {所以} \\lim\\limits_{x \\rightarrow 0^{-}} \\frac{1}{1+e^{- \\frac{1}{x}}} \\text {不存在}. \\end{array}</div>"
     },
     {
       "id": "q0021",
       "number": 21,
       "header": "#21-Averge",
       "difficulty": "Averge",
-      "prompt_html": "<img src=\"/static/generated/assets/advanced-math/ch005/q0021_prompt.png\"/>",
+      "prompt_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\text{已知}f(x)=\\begin{cases}\\frac{\\sin 2x}{x},\\ x&lt;0\\\\ \\frac{2x^{2}+3x-1}{x^{3}+1},\\ x\\geq 0\\end{cases},\\ \\text{则}\\lim_{x\\rightarrow-\\infty}f(x)=(\\ \\ ).\">\\text{已知}f(x)=\\begin{cases}\\frac{\\sin 2x}{x},\\ x&lt;0\\\\ \\frac{2x^{2}+3x-1}{x^{3}+1},\\ x\\geq 0\\end{cases},\\ \\text{则}\\lim_{x\\rightarrow-\\infty}f(x)=(\\ \\ ).</div>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch005/q0021_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\mathbf { 0 }\">\\mathbf { 0 }</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch005/q0021_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{不存在}\">\\text{不存在}</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch005/q0021_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"- 1 .\">- 1 .</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch005/q0021_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\mathbf { 1 }\">\\mathbf { 1 }</span>"
         }
       ],
       "answer": "A",
       "answer_index": 0,
-      "analysis_html": "<img src=\"/static/generated/assets/advanced-math/ch005/q0021_analysis.png\"/>"
+      "analysis_html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\lim_{x\\to-\\infty}f(x)=\\lim_{x\\to-\\infty}{\\frac{\\sin 2x}{x}}=0\\,.\">\\lim_{x\\to-\\infty}f(x)=\\lim_{x\\to-\\infty}{\\frac{\\sin 2x}{x}}=0\\,.</span>"
     },
     {
       "id": "q0022",
       "number": 22,
       "header": "#22-Averge",
       "difficulty": "Averge",
-      "prompt_html": "<img src=\"/static/generated/assets/advanced-math/ch005/q0022_prompt.png\"/>",
+      "prompt_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\text{已知}f(x)=\\begin{cases}\\dfrac{\\cos x}{x},&amp;x&lt;0 \\\\ \\dfrac{x^{2}+x+1}{2x^{3}},&amp;x\\geq 0\\end{cases},\\ \\text{则}\\lim_{x\\rightarrow-\\infty}f(x)=(\\ \\ ).\">\\text{已知}f(x)=\\begin{cases}\\dfrac{\\cos x}{x},&amp;x&lt;0 \\\\ \\dfrac{x^{2}+x+1}{2x^{3}},&amp;x\\geq 0\\end{cases},\\ \\text{则}\\lim_{x\\rightarrow-\\infty}f(x)=(\\ \\ ).</div>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch005/q0022_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{不存在};\">\\text{不存在};</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch005/q0022_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"- 1 .\">- 1 .</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch005/q0022_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\mathbf { 1 ; }\">\\mathbf { 1 ; }</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch005/q0022_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\mathbf { 0 ; }\">\\mathbf { 0 ; }</span>"
         }
       ],
       "answer": "D",
       "answer_index": 3,
-      "analysis_html": "<img src=\"/static/generated/assets/advanced-math/ch005/q0022_analysis.png\"/>"
+      "analysis_html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\lim_{x \\to -\\infty} f(x) = \\lim_{x \\to -\\infty} \\frac{\\cos x}{x} = 0 \\, .\">\\lim_{x \\to -\\infty} f(x) = \\lim_{x \\to -\\infty} \\frac{\\cos x}{x} = 0 \\, .</span>"
     },
     {
       "id": "q0023",
       "number": 23,
       "header": "#23-Averge",
       "difficulty": "Averge",
-      "prompt_html": "<img src=\"/static/generated/assets/advanced-math/ch005/q0023_prompt.png\"/>",
+      "prompt_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\text{已知}f(x)\\!=\\!\\!\\begin{cases}x\\sin x,&amp;x&lt;0\\\\ x+1,&amp;x\\geq 0\\end{cases},\\ \\text{则}\\lim\\limits_{x\\to 0}f(x)=(\\ \\ ).\">\\text{已知}f(x)\\!=\\!\\!\\begin{cases}x\\sin x,&amp;x&lt;0\\\\ x+1,&amp;x\\geq 0\\end{cases},\\ \\text{则}\\lim\\limits_{x\\to 0}f(x)=(\\ \\ ).</div>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch005/q0023_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"0.\">0.</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch005/q0023_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\mathbf { 1 } \\, ;\">\\mathbf { 1 } \\, ;</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch005/q0023_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"- 1 \\, ;\">- 1 \\, ;</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch005/q0023_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{不存在};\">\\text{不存在};</span>"
         }
       ],
       "answer": "D",
       "answer_index": 3,
-      "analysis_html": "<img src=\"/static/generated/assets/advanced-math/ch005/q0023_analysis.png\"/>"
+      "analysis_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{aligned}&amp; \\text{因为} \\lim_{x \\rightarrow 0^{-}} f(x) = \\lim_{x \\rightarrow 0^{-}} x \\sin x = 0 \\ , \\ \\ \\lim_{x \\rightarrow 0^{-}} f(x) = \\lim_{x \\rightarrow 0^{+}} x + 1 = 1 \\ , \\\\&amp; \\text{所以} \\lim_{x \\rightarrow 0} f(x) \\text{不存在.}\\end{aligned}\">\\begin{aligned}&amp; \\text{因为} \\lim_{x \\rightarrow 0^{-}} f(x) = \\lim_{x \\rightarrow 0^{-}} x \\sin x = 0 \\ , \\ \\ \\lim_{x \\rightarrow 0^{-}} f(x) = \\lim_{x \\rightarrow 0^{+}} x + 1 = 1 \\ , \\\\&amp; \\text{所以} \\lim_{x \\rightarrow 0} f(x) \\text{不存在.}\\end{aligned}</div>"
     },
     {
       "id": "q0024",
       "number": 24,
       "header": "#24-Averge",
       "difficulty": "Averge",
-      "prompt_html": "<img src=\"/static/generated/assets/advanced-math/ch005/q0024_prompt.png\"/>",
+      "prompt_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\cdot \\text{设}f(x)=\\begin{cases}\\sin \\dfrac{1}{x},&amp;x&gt;0\\\\ x\\sin \\dfrac{1}{x},&amp;x&lt;0\\end{cases},\\ \\text{则}\\lim_{x\\rightarrow 0}f(x)\\text{不存在的原因是( ).}\">\\cdot \\text{设}f(x)=\\begin{cases}\\sin \\dfrac{1}{x},&amp;x&gt;0\\\\ x\\sin \\dfrac{1}{x},&amp;x&lt;0\\end{cases},\\ \\text{则}\\lim_{x\\rightarrow 0}f(x)\\text{不存在的原因是( ).}</div>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch005/q0024_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"f(0) \\text{无意义}\">f(0) \\text{无意义}</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch005/q0024_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\lim_{x \\to 0^{+}} f(x) \\text{不存在}\">\\lim_{x \\to 0^{+}} f(x) \\text{不存在}</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch005/q0024_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\lim_{x \\to 0} f(x) \\text{不存在};\">\\lim_{x \\to 0} f(x) \\text{不存在};</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch005/q0024_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\lim_{x \\to 0^{-}} f(x) \\text{和} \\lim_{x \\to 0^{+}} f(x) \\text{都不存在}\">\\lim_{x \\to 0^{-}} f(x) \\text{和} \\lim_{x \\to 0^{+}} f(x) \\text{都不存在}</span>"
         }
       ],
       "answer": "B",
       "answer_index": 1,
-      "analysis_html": "<img src=\"/static/generated/assets/advanced-math/ch005/q0024_analysis.png\"/>"
+      "analysis_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{aligned}&amp;\\lim_{x\\rightarrow 0^{-}}f(x)=\\lim_{x\\rightarrow 0^{-}}\\sin\\frac{1}{x}\\text{不存在，所以}\\lim_{x\\rightarrow 0}f(x)\\text{不存在，}\\\\&amp;\\lim_{x\\rightarrow 0^{-}}f(x)=\\lim_{x\\rightarrow 0^{-}}x\\sin\\frac{1}{x}=0,\\text{左极限存在，}\\end{aligned}\">\\begin{aligned}&amp;\\lim_{x\\rightarrow 0^{-}}f(x)=\\lim_{x\\rightarrow 0^{-}}\\sin\\frac{1}{x}\\text{不存在，所以}\\lim_{x\\rightarrow 0}f(x)\\text{不存在，}\\\\&amp;\\lim_{x\\rightarrow 0^{-}}f(x)=\\lim_{x\\rightarrow 0^{-}}x\\sin\\frac{1}{x}=0,\\text{左极限存在，}\\end{aligned}</div>"
     },
     {
       "id": "q0025",
       "number": 25,
       "header": "#25-Averge",
       "difficulty": "Averge",
-      "prompt_html": "<img src=\"/static/generated/assets/advanced-math/ch005/q0025_prompt.png\"/>",
+      "prompt_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\text{设}f(x)=\\begin{cases}\\dfrac{|x+1|}{x+1},&amp;x\\neq-1,\\\\ a,&amp;x=-1\\end{cases},\\ \\text{且}\\lim_{x\\rightarrow-1}f(x)=a,\\ \\text{则}a=(\\ \\ ).\">\\text{设}f(x)=\\begin{cases}\\dfrac{|x+1|}{x+1},&amp;x\\neq-1,\\\\ a,&amp;x=-1\\end{cases},\\ \\text{且}\\lim_{x\\rightarrow-1}f(x)=a,\\ \\text{则}a=(\\ \\ ).</div>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch005/q0025_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"0\">0</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch005/q0025_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\mathbf { 1 }\">\\mathbf { 1 }</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch005/q0025_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"1 \\text{ 或 } -1 \\text{ 均可}\">1 \\text{ 或 } -1 \\text{ 均可}</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch005/q0025_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\mathbf { - 1 }\">\\mathbf { - 1 }</span>"
         }
       ],
       "answer": "D",
       "answer_index": 3,
-      "analysis_html": "<img src=\"/static/generated/assets/advanced-math/ch005/q0025_analysis.png\"/>"
+      "analysis_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\text{将}f(x)\\text{写成}f(x)=\\begin{cases}-1,&amp;x&lt;-1\\\\a,&amp;x=-1\\\\1,&amp;x&gt;-1\\end{cases},\\ \\text{故}a=\\lim_{x\\rightarrow-1^{-}}f(x)=-1.\">\\text{将}f(x)\\text{写成}f(x)=\\begin{cases}-1,&amp;x&lt;-1\\\\a,&amp;x=-1\\\\1,&amp;x&gt;-1\\end{cases},\\ \\text{故}a=\\lim_{x\\rightarrow-1^{-}}f(x)=-1.</div>"
     },
     {
       "id": "q0026",
       "number": 26,
       "header": "#26-Averge",
       "difficulty": "Averge",
-      "prompt_html": "<img src=\"/static/generated/assets/advanced-math/ch005/q0026_prompt.png\"/>",
+      "prompt_html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{关于极限} \\lim_{x \\to 0} \\frac{5}{3+e^{\\frac{1}{x}}} \\text{结论正确的是( ).}\">\\text{关于极限} \\lim_{x \\to 0} \\frac{5}{3+e^{\\frac{1}{x}}} \\text{结论正确的是( ).}</span>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch005/q0026_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\frac{5}{4}\">\\frac{5}{4}</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch005/q0026_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\mathbf { 0 }\">\\mathbf { 0 }</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch005/q0026_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{不存在}\">\\text{不存在}</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch005/q0026_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\frac { 5 } { 3 }\">\\frac { 5 } { 3 }</span>"
         }
       ],
       "answer": "C",
       "answer_index": 2,
-      "analysis_html": "<img src=\"/static/generated/assets/advanced-math/ch005/q0026_analysis.png\"/>"
+      "analysis_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{aligned}&amp; \\text{当}x\\rightarrow 0^{+}\\text{时，}\\lim_{x\\rightarrow 0^{-}}e^{\\frac{1}{x}}=+\\infty\\text{，此时}\\lim_{x\\rightarrow 0^{+}}\\frac{5}{3+e^{\\frac{1}{x}}}=0\\text{，}\\\\&amp; \\text{当}x\\rightarrow 0^{-}\\text{时，}\\lim_{x\\rightarrow 0^{+}}e^{\\frac{1}{x}}=0\\text{，此时}\\lim_{x\\rightarrow 0^{-}}\\frac{5}{3+e^{\\frac{1}{x}}}=\\frac{5}{3},\\text{+}\\\\&amp; \\text{所以}\\lim_{x\\rightarrow 0}\\frac{5}{3+e^{\\frac{1}{x}}}\\text{不存在.}\\end{aligned}\">\\begin{aligned}&amp; \\text{当}x\\rightarrow 0^{+}\\text{时，}\\lim_{x\\rightarrow 0^{-}}e^{\\frac{1}{x}}=+\\infty\\text{，此时}\\lim_{x\\rightarrow 0^{+}}\\frac{5}{3+e^{\\frac{1}{x}}}=0\\text{，}\\\\&amp; \\text{当}x\\rightarrow 0^{-}\\text{时，}\\lim_{x\\rightarrow 0^{+}}e^{\\frac{1}{x}}=0\\text{，此时}\\lim_{x\\rightarrow 0^{-}}\\frac{5}{3+e^{\\frac{1}{x}}}=\\frac{5}{3},\\text{+}\\\\&amp; \\text{所以}\\lim_{x\\rightarrow 0}\\frac{5}{3+e^{\\frac{1}{x}}}\\text{不存在.}\\end{aligned}</div>"
     },
     {
       "id": "q0027",
       "number": 27,
       "header": "#27-Averge",
       "difficulty": "Averge",
-      "prompt_html": "<img src=\"/static/generated/assets/advanced-math/ch005/q0027_prompt.png\"/>",
+      "prompt_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\text{已知}f(x)=\\begin{cases}\\dfrac{\\cos x}{x},&amp;x&lt;0\\\\ \\dfrac{x^{2}+x+1}{2x^{2}},&amp;x\\geq 0\\end{cases},\\text{则}\\lim_{x\\rightarrow 0}f(x)=()\">\\text{已知}f(x)=\\begin{cases}\\dfrac{\\cos x}{x},&amp;x&lt;0\\\\ \\dfrac{x^{2}+x+1}{2x^{2}},&amp;x\\geq 0\\end{cases},\\text{则}\\lim_{x\\rightarrow 0}f(x)=()</div>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch005/q0027_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"0\">0</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch005/q0027_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\mathbf { - 1 }\">\\mathbf { - 1 }</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch005/q0027_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{不存在}\">\\text{不存在}</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch005/q0027_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\mathbf{1};\">\\mathbf{1};</span>"
         }
       ],
       "answer": "C",
       "answer_index": 2,
-      "analysis_html": "<img src=\"/static/generated/assets/advanced-math/ch005/q0027_analysis.png\"/>"
+      "analysis_html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{因为} \\lim_{x \\to 0^{+}} f(x) = \\lim_{x \\to 0^{+}} \\frac{x^{2}+x+1}{2x^{2}} = +\\infty \\, , \\, \\, \\text{所以} \\lim_{x \\to 0} f(x) \\, \\text{不存在}. +\">\\text{因为} \\lim_{x \\to 0^{+}} f(x) = \\lim_{x \\to 0^{+}} \\frac{x^{2}+x+1}{2x^{2}} = +\\infty \\, , \\, \\, \\text{所以} \\lim_{x \\to 0} f(x) \\, \\text{不存在}. +</span>"
     },
     {
       "id": "q0028",
       "number": 28,
       "header": "#28-Averge",
       "difficulty": "Averge",
-      "prompt_html": "<img src=\"/static/generated/assets/advanced-math/ch005/q0028_prompt.png\"/>",
+      "prompt_html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{当}0&lt;|x|&lt;1\\text{时，}f(x)&gt;0,\\text{则}\\lim_{x\\rightarrow 0}f(x)(\\ \\ ).\">\\text{当}0&lt;|x|&lt;1\\text{时，}f(x)&gt;0,\\text{则}\\lim_{x\\rightarrow 0}f(x)(\\ \\ ).</span>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch005/q0028_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{&gt; 0}\">\\text{&gt; 0}</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch005/q0028_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\geq 0\">\\geq 0</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch005/q0028_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"&lt; 0 \\, .\">&lt; 0 \\, .</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch005/q0028_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\leq 0\">\\leq 0</span>"
         }
       ],
       "answer": "B",
       "answer_index": 1,
-      "analysis_html": "<img src=\"/static/generated/assets/advanced-math/ch005/q0028_analysis.png\"/>"
+      "analysis_html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{由极限的保序性知} \\lim_{x \\to 0} f(x) \\geq 0 \\, .\">\\text{由极限的保序性知} \\lim_{x \\to 0} f(x) \\geq 0 \\, .</span>"
     },
     {
       "id": "q0029",
       "number": 29,
       "header": "#29-Averge",
       "difficulty": "Averge",
-      "prompt_html": "<img src=\"/static/generated/assets/advanced-math/ch005/q0029_prompt.png\"/>",
+      "prompt_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\text{设}f(x)\\!=\\!\\begin{cases}x^{2},\\ \\ x\\geq 0\\\\ -2x\\!+\\!1,\\ \\ x\\!&lt;\\!0\\end{cases},\\ \\text{则}\\lim_{x\\rightarrow 0}f(x)\\!=\\!(\\ \\ ).\">\\text{设}f(x)\\!=\\!\\begin{cases}x^{2},\\ \\ x\\geq 0\\\\ -2x\\!+\\!1,\\ \\ x\\!&lt;\\!0\\end{cases},\\ \\text{则}\\lim_{x\\rightarrow 0}f(x)\\!=\\!(\\ \\ ).</div>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch005/q0029_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\mathbf { 0 } ;\">\\mathbf { 0 } ;</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch005/q0029_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\mathbf { - 1 . }\\,\">\\mathbf { - 1 . }\\,</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch005/q0029_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{不存在};\">\\text{不存在};</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch005/q0029_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\mathbf { 1 } ;\">\\mathbf { 1 } ;</span>"
         }
       ],
       "answer": "C",
       "answer_index": 2,
-      "analysis_html": "<img src=\"/static/generated/assets/advanced-math/ch005/q0029_analysis.png\"/>"
+      "analysis_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{aligned}&amp;\\text{因为}\\lim_{x\\rightarrow 0^{-}}f(x)=\\lim_{x\\rightarrow 0^{-}}(-2x+1)=1\\,,\\ \\ \\lim_{x\\rightarrow 0^{-}}f(x)=\\lim_{x\\rightarrow 0^{-}}x^{2}=0\\ ,\\ \\ \\lim_{x\\rightarrow 0^{-}}f(x)\\neq \\lim_{x\\rightarrow 0^{+}}f(x)\\,,\\\\&amp;\\text{所以}\\lim_{x\\rightarrow 0^{-}}f(x)\\text{不存在.}\\end{aligned}\">\\begin{aligned}&amp;\\text{因为}\\lim_{x\\rightarrow 0^{-}}f(x)=\\lim_{x\\rightarrow 0^{-}}(-2x+1)=1\\,,\\ \\ \\lim_{x\\rightarrow 0^{-}}f(x)=\\lim_{x\\rightarrow 0^{-}}x^{2}=0\\ ,\\ \\ \\lim_{x\\rightarrow 0^{-}}f(x)\\neq \\lim_{x\\rightarrow 0^{+}}f(x)\\,,\\\\&amp;\\text{所以}\\lim_{x\\rightarrow 0^{-}}f(x)\\text{不存在.}\\end{aligned}</div>"
     },
     {
       "id": "q0030",
       "number": 30,
       "header": "#30-Averge",
       "difficulty": "Averge",
-      "prompt_html": "<img src=\"/static/generated/assets/advanced-math/ch005/q0030_prompt.png\"/>",
+      "prompt_html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{当}x \\rightarrow 1 \\text{时，} \\ f(x) = \\frac{x^{2}-1}{x-1}e^{\\frac{1}{x-1}} \\text{的极限( }.\">\\text{当}x \\rightarrow 1 \\text{时，} \\ f(x) = \\frac{x^{2}-1}{x-1}e^{\\frac{1}{x-1}} \\text{的极限( }.</span>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch005/q0030_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{不存在但不是无穷大}\">\\text{不存在但不是无穷大}</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch005/q0030_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{为} \\infty\">\\text{为} \\infty</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch005/q0030_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{等于} 2\">\\text{等于} 2</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch005/q0030_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{等于} \\, 0;\">\\text{等于} \\, 0;</span>"
         }
       ],
       "answer": "A",
       "answer_index": 0,
-      "analysis_html": "<img src=\"/static/generated/assets/advanced-math/ch005/q0030_analysis.png\"/>"
+      "analysis_html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\lim_{x \\to i^+} f(x) = \\lim_{x \\to i^+} \\frac{x^2-1}{x-1} e^{\\frac{1}{x-1}} = \\lim_{x \\to i^+} (x+1)e^{\\frac{1}{x-1}} = 0,\\ \\ \\phi\">\\lim_{x \\to i^+} f(x) = \\lim_{x \\to i^+} \\frac{x^2-1}{x-1} e^{\\frac{1}{x-1}} = \\lim_{x \\to i^+} (x+1)e^{\\frac{1}{x-1}} = 0,\\ \\ \\phi</span>"
     },
     {
       "id": "q0031",
       "number": 31,
       "header": "#31-Averge",
       "difficulty": "Averge",
-      "prompt_html": "<img src=\"/static/generated/assets/advanced-math/ch005/q0031_prompt.png\"/>",
+      "prompt_html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{设}f(x)=\\frac{1-a^{1/x}}{1+a^{1/x}}(a&gt;1)\\,,\\ \\text{则}\\lim_{x\\rightarrow 0}f(x)=(\\ \\ ).\">\\text{设}f(x)=\\frac{1-a^{1/x}}{1+a^{1/x}}(a&gt;1)\\,,\\ \\text{则}\\lim_{x\\rightarrow 0}f(x)=(\\ \\ ).</span>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch005/q0031_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\mathbf { 1 } ;\">\\mathbf { 1 } ;</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch005/q0031_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\mathbf { 0 } .\">\\mathbf { 0 } .</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch005/q0031_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\mathbf { - 1 }\">\\mathbf { - 1 }</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch005/q0031_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{不存在}\">\\text{不存在}</span>"
         }
       ],
       "answer": "D",
       "answer_index": 3,
-      "analysis_html": "<img src=\"/static/generated/assets/advanced-math/ch005/q0031_analysis.png\"/>"
+      "analysis_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{aligned}f(x) \\text{ 在 } x=0 \\text{ 处没有定义，而} \\\\ \\lim_{x \\rightarrow 0^+} f(x) = \\lim_{x \\rightarrow 0^+} \\frac{a^{-1/k} - 1}{a^{-1/k} + 1} = -1, \\ \\ \\lim_{x \\rightarrow 0^-} f(x) = \\lim_{x \\rightarrow 0^-} \\frac{1 - a^{1/k}}{1 + a^{1/k}} = 1, \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\end{aligned}\">\\begin{aligned}f(x) \\text{ 在 } x=0 \\text{ 处没有定义，而} \\\\ \\lim_{x \\rightarrow 0^+} f(x) = \\lim_{x \\rightarrow 0^+} \\frac{a^{-1/k} - 1}{a^{-1/k} + 1} = -1, \\ \\ \\lim_{x \\rightarrow 0^-} f(x) = \\lim_{x \\rightarrow 0^-} \\frac{1 - a^{1/k}}{1 + a^{1/k}} = 1, \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\end{aligned}</div>"
     },
     {
       "id": "q0032",
       "number": 32,
       "header": "#32-Averge",
       "difficulty": "Averge",
-      "prompt_html": "<img src=\"/static/generated/assets/advanced-math/ch005/q0032_prompt.png\"/>",
+      "prompt_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\text{设}f(x)=\\begin{cases}\\dfrac{|x-1|}{x-1},&amp;x\\neq 1,\\\\ a,&amp;x=1\\end{cases},\\ \\ \\text{且}\\lim_{x\\rightarrow 1}f(x)=a,\\ \\text{则}a=(\\ \\ ).\">\\text{设}f(x)=\\begin{cases}\\dfrac{|x-1|}{x-1},&amp;x\\neq 1,\\\\ a,&amp;x=1\\end{cases},\\ \\ \\text{且}\\lim_{x\\rightarrow 1}f(x)=a,\\ \\text{则}a=(\\ \\ ).</div>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch005/q0032_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\textbf{1 或 -1 均可}\">\\textbf{1 或 -1 均可}</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch005/q0032_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\mathbf { 1 } :\">\\mathbf { 1 } :</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch005/q0032_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"0\">0</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch005/q0032_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\mathbf { - 1 }\">\\mathbf { - 1 }</span>"
         }
       ],
       "answer": "D",
       "answer_index": 3,
-      "analysis_html": "<img src=\"/static/generated/assets/advanced-math/ch005/q0032_analysis.png\"/>"
+      "analysis_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\text{将}f(x)\\text{写成}f(x)=\\begin{cases}-1,&amp;x&lt;1\\\\ a,&amp;x=1\\\\ 1,&amp;x&gt;1\\end{cases},\\ \\text{故}a=\\lim_{x\\rightarrow 1^{-}}f(x)=-1.\">\\text{将}f(x)\\text{写成}f(x)=\\begin{cases}-1,&amp;x&lt;1\\\\ a,&amp;x=1\\\\ 1,&amp;x&gt;1\\end{cases},\\ \\text{故}a=\\lim_{x\\rightarrow 1^{-}}f(x)=-1.</div>"
     },
     {
       "id": "q0033",
       "number": 33,
       "header": "#33-Averge",
       "difficulty": "Averge",
-      "prompt_html": "<img src=\"/static/generated/assets/advanced-math/ch005/q0033_prompt.png\"/>",
+      "prompt_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\text{已知}f(x)=\\begin{cases}\\sin x,&amp;x&lt;0\\\\ x\\cos x,&amp;x\\geq 0\\end{cases},\\ \\text{则}\\lim_{x\\rightarrow 0}f(x)=()\">\\text{已知}f(x)=\\begin{cases}\\sin x,&amp;x&lt;0\\\\ x\\cos x,&amp;x\\geq 0\\end{cases},\\ \\text{则}\\lim_{x\\rightarrow 0}f(x)=()</div>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch005/q0033_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\overset{.}{\\text{不存在}}\">\\overset{.}{\\text{不存在}}</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch005/q0033_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"0\">0</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch005/q0033_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\mathbf{1}\">\\mathbf{1}</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch005/q0033_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\mathbf { - 1 }\">\\mathbf { - 1 }</span>"
         }
       ],
       "answer": "B",
       "answer_index": 1,
-      "analysis_html": "<img src=\"/static/generated/assets/advanced-math/ch005/q0033_analysis.png\"/>"
+      "analysis_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{aligned}&amp; \\text{因为} \\lim_{x \\rightarrow 0^{-}} f(x) = \\lim_{x \\rightarrow 0^{-}} \\sin x = 0 \\ , \\ \\ \\lim_{x \\rightarrow 0^{+}} f(x) = \\lim_{x \\rightarrow 0^{+}} x \\cos x = 0 \\ , \\\\&amp; \\text{所以} \\lim_{x \\rightarrow 0^{-}} f(x) = 0 \\ . \\end{aligned}\">\\begin{aligned}&amp; \\text{因为} \\lim_{x \\rightarrow 0^{-}} f(x) = \\lim_{x \\rightarrow 0^{-}} \\sin x = 0 \\ , \\ \\ \\lim_{x \\rightarrow 0^{+}} f(x) = \\lim_{x \\rightarrow 0^{+}} x \\cos x = 0 \\ , \\\\&amp; \\text{所以} \\lim_{x \\rightarrow 0^{-}} f(x) = 0 \\ . \\end{aligned}</div>"
     },
     {
       "id": "q0034",
       "number": 34,
       "header": "#34-Averge",
       "difficulty": "Averge",
-      "prompt_html": "<img src=\"/static/generated/assets/advanced-math/ch005/q0034_prompt.png\"/>",
+      "prompt_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\text{设}f(x)\\!=\\!\\begin{cases}x,&amp;x\\geq 0 \\\\ -x\\!+\\!1,&amp;x&lt;0\\end{cases},\\ \\ \\text{则}\\lim_{x\\to 0}f(x)\\!=\\!(\\ \\ ).\">\\text{设}f(x)\\!=\\!\\begin{cases}x,&amp;x\\geq 0 \\\\ -x\\!+\\!1,&amp;x&lt;0\\end{cases},\\ \\ \\text{则}\\lim_{x\\to 0}f(x)\\!=\\!(\\ \\ ).</div>",
       "options": [
         {
           "label": "A",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch005/q0034_option_A.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\text{不存在}\">\\text{不存在}</span>"
         },
         {
           "label": "B",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch005/q0034_option_B.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\mathbf { 0 }\">\\mathbf { 0 }</span>"
         },
         {
           "label": "C",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch005/q0034_option_C.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\mathbf { 1 }\">\\mathbf { 1 }</span>"
         },
         {
           "label": "D",
-          "html": "<img src=\"/static/generated/assets/advanced-math/ch005/q0034_option_D.png\"/>"
+          "html": "<span class=\"math-tex math-inline\" data-display=\"false\" data-tex=\"\\mathbf { - 1 }\">\\mathbf { - 1 }</span>"
         }
       ],
       "answer": "A",
       "answer_index": 0,
-      "analysis_html": "<img src=\"/static/generated/assets/advanced-math/ch005/q0034_analysis.png\"/>"
+      "analysis_html": "<div class=\"math-tex math-block\" data-display=\"true\" data-tex=\"\\begin{aligned}&amp; \\text{因为} \\lim_{x \\rightarrow 0^{-}} f(x) = \\lim_{x \\rightarrow 0^{-}} (-x+1) = 1 \\,, \\ \\ \\lim_{x \\rightarrow 0^{+}} f(x) = \\lim_{x \\rightarrow 0^{+}} x = 0 \\,. \\\\&amp; \\text{即有} \\lim_{x \\rightarrow 0^{-}} f(x) \\neq \\lim_{x \\rightarrow 0^{+}} f(x) \\,, \\ \\text{所以} \\lim_{x \\rightarrow 0} f(x) \\text{不存在.}\\end{aligned}\">\\begin{aligned}&amp; \\text{因为} \\lim_{x \\rightarrow 0^{-}} f(x) = \\lim_{x \\rightarrow 0^{-}} (-x+1) = 1 \\,, \\ \\ \\lim_{x \\rightarrow 0^{+}} f(x) = \\lim_{x \\rightarrow 0^{+}} x = 0 \\,. \\\\&amp; \\text{即有} \\lim_{x \\rightarrow 0^{-}} f(x) \\neq \\lim_{x \\rightarrow 0^{+}} f(x) \\,, \\ \\text{所以} \\lim_{x \\rightarrow 0} f(x) \\text{不存在.}\\end{aligned}</div>"
     }
-  ]
+  ],
+  "format": "latex",
+  "source_md": "gs/1.3.2_函数极限和性质(34题)/1.3.2_函数极限和性质(34题).md"
 }
