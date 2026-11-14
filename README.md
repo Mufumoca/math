@@ -1,4 +1,26 @@
-# math
+<div align="center">
+
+# 📐 Math · 数学题库
+
+*把注意力留给题目本身 · 基于 Flask + KaTeX 的极简数学刷题工作台*
+
+[![Online Demo](https://img.shields.io/badge/Online-mathe.kawwaii.de-4F46E5?style=flat-square&logo=cloudflare)](https://mathe.kawwaii.de)
+[![Python](https://img.shields.io/badge/Python-3.11%2B-blue?style=flat-square&logo=python&logoColor=white)](https://python.org)
+[![Flask](https://img.shields.io/badge/Flask-3.0-black?style=flat-square&logo=flask)](https://flask.palletsprojects.com/)
+[![KaTeX](https://img.shields.io/badge/Render-KaTeX-059669?style=flat-square&logo=latex&logoColor=white)](https://katex.org/)
+[![Stars](https://img.shields.io/github/stars/Mufumoca/math?style=flat-square&logo=github&color=ff69b4)](https://github.com/Mufumoca/math/stargazers)
+
+<br>
+
+<p>
+  <a href="https://github.com/Mufumoca/math">
+    <img src="https://count.getloli.com/@Mufumoca-math?theme=moebooru" alt="Moe Counter" />
+  </a>
+</p>
+
+</div>
+
+---
 
 这是一个基于 Flask 的数学刷题网站。
 
@@ -29,7 +51,6 @@
 - 每道题支持收藏
 - 收藏页按科目和章节分组浏览
 - 收藏题支持查看原题、取消收藏、展开解析
-- 支持浅色、深色、跟随系统三种主题模式
 - 支持浅色、深色、跟随系统三种主题模式
 - 题目、选项与解析使用本地 KaTeX 渲染 LaTeX 公式
 
