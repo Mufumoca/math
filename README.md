@@ -14,6 +14,7 @@
   <a href="https://flask.palletsprojects.com/"><img src="https://img.shields.io/badge/Flask-3.x-000000?style=flat-square&logo=flask&logoColor=white" alt="Flask 3.x" /></a>
   <a href="https://katex.org/"><img src="https://img.shields.io/badge/KaTeX-Local_Vector-059669?style=flat-square&logo=latex&logoColor=white" alt="Local KaTeX" /></a>
   <img src="https://img.shields.io/badge/Questions-8%2C220-F59E0B?style=flat-square" alt="8,220 Questions" />
+  <a href="LICENSE"><img src="https://img.shields.io/badge/License-MIT-10B981?style=flat-square" alt="MIT License" /></a>
   <img src="https://img.shields.io/github/repo-size/Mufumoca/math?style=flat-square&color=0EA5E9" alt="Repo Size" />
   <img src="https://img.shields.io/github/last-commit/Mufumoca/math?style=flat-square&color=6366F1" alt="Last Commit" />
   <a href="https://github.com/Mufumoca/math/stargazers"><img src="https://img.shields.io/github/stars/Mufumoca/math?style=flat-square&logo=github&color=FF69B4" alt="GitHub Stars" /></a>
@@ -157,6 +158,7 @@ math/
 ├── chapter_order.py              # 科目章节标题修正与教材认知顺序重排逻辑
 ├── requirements.txt              # Python 依赖（Flask / BeautifulSoup4 / Gunicorn）
 ├── run.sh                        # Gunicorn 生产启动脚本（自动适配 IPv4 / IPv6 绑定）
+├── LICENSE                       # MIT 开源许可证
 ├── data/
 │   ├── subjects.json             # 科目与章节总索引清单（4 门课、342 章、8,220 题）
 │   └── extracted/                # 按科目划分的结构化章节题目 JSON
@@ -379,6 +381,14 @@ sudo systemctl reload caddy
 <a href="https://github.com/Mufumoca/math/graphs/contributors">
   <img src="https://contrib.rocks/image?repo=Mufumoca/math" alt="Contributors" />
 </a>
+
+---
+
+## 📄 开源协议与版权说明
+
+- **项目源码**：本仓库的前后端网站源码、解析与构建脚本基于 [MIT License](LICENSE) 协议开源。
+- **题库数据**：仓库 `data/` 目录下整理收录的数学题目与解析内容，其原始著作权归原作者及原出处所有，本项目仅作结构化排版展示，**仅供个人日常学习与备考交流使用，请勿用于任何商业用途**。
+- **内置第三方组件**：数学公式排版引擎基于本地集成的 [KaTeX](https://github.com/KaTeX/KaTeX)（MIT License）。
 
 ---
 
