@@ -628,11 +628,16 @@ kbd {
 }
 
 [data-reveal] {
+  opacity: 1;
+  transform: translateY(0);
+  transition:
+    opacity 380ms var(--ease-out-quint),
+    transform 380ms var(--ease-out-quint);
+}
+
+[data-reveal].will-reveal {
   opacity: 0;
   transform: translateY(10px);
-  transition:
-    opacity 440ms var(--ease-out-quint),
-    transform 440ms var(--ease-out-quint);
 }
 
 [data-reveal].is-visible {
@@ -2425,7 +2430,8 @@ button.q-option:active {
     scroll-behavior: auto !important;
   }
 
-  [data-reveal] {
+  [data-reveal],
+  [data-reveal].will-reveal {
     opacity: 1 !important;
     transform: none !important;
   }

@@ -211,22 +211,37 @@
     const countNodes = Array.from(document.querySelectorAll("[data-countup]"));
 
     if (prefersReducedMotion() || typeof IntersectionObserver === "undefined") {
-      revealNodes.forEach((el) => el.classList.add("is-visible"));
+      revealNodes.forEach((el) => {
+        el.classList.remove("will-reveal");
+        el.classList.add("is-visible");
+      });
       return;
     }
 
+    const viewportHeight = window.innerHeight || document.documentElement.clientHeight || 800;
     const revealObserver = new IntersectionObserver(
       (entries) => {
         entries.forEach((entry) => {
-          if (entry.isIntersecting) {
+          if (entry.isIntersecting || entry.intersectionRatio > 0) {
+            entry.target.classList.remove("will-reveal");
             entry.target.classList.add("is-visible");
             revealObserver.unobserve(entry.target);
           }
         });
       },
-      { threshold: 0.06, rootMargin: "0px 0px -20px 0px" },
+      { threshold: 0, rootMargin: "0px 0px 40px 0px" },
     );
-    revealNodes.forEach((el) => revealObserver.observe(el));
+
+    revealNodes.forEach((el) => {
+      const rect = el.getBoundingClientRect();
+      if (rect.top < viewportHeight) {
+        el.classList.remove("will-reveal");
+        el.classList.add("is-visible");
+      } else {
+        el.classList.add("will-reveal");
+        revealObserver.observe(el);
+      }
+    });
 
     const counterObserver = new IntersectionObserver(
       (entries) => {
