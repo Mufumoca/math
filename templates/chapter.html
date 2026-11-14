@@ -1,143 +1,221 @@
 {% extends "base.html" %}
 
-{% block title %}{{ subject.name }} / {{ chapter.name }} - math{% endblock %}
+{% block title %}{{ chapter.name }} · {{ subject.name }}{% endblock %}
 
 {% block content %}
 {% set nav_page_size = 10 %}
 {% set total_nav_pages = ((chapter.question_count + nav_page_size - 1) // nav_page_size) if chapter.question_count else 0 %}
 {% set initial_questions = chapter_data.questions[:nav_page_size] %}
-{% macro render_batch_question(question) %}
-<article class="batch-question-card" id="question-card-{{ question.id }}" data-question-id="{{ question.id }}">
-  <div class="batch-question-head">
-    <div>
-      <p class="batch-question-index">
-        第 {{ question.number }} 题{% if question.difficulty %} · {{ question.difficulty }}{% endif %}
-      </p>
-      <h3>{{ question.header }}</h3>
-    </div>
-  </div>
 
-  <div class="question-block">
-    <h4>题干</h4>
-    <div class="rendered-fragment">{{ question.prompt_html | safe }}</div>
-  </div>
+<div class="study-workspace" id="study-workspace">
+  <!-- Mobile Backdrop for Chapter Drawer -->
+  <div class="drawer-backdrop" id="drawer-backdrop" aria-hidden="true"></div>
 
-  <div class="question-block">
-    <h4>选项</h4>
-    <div class="options-list">
-      {% for option in question.options %}
-      <button type="button" class="option-card" data-question-id="{{ question.id }}" data-option-label="{{ option.label }}">
-        <span class="option-label">{{ option.label }}</span>
-        <div class="rendered-fragment">{{ option.html | safe }}</div>
+  <!-- Left Collapsible Chapter Drawer -->
+  <aside class="study-sidebar" id="study-sidebar" aria-label="章节导航">
+    <div class="sidebar-top">
+      <a class="back-crumb" href="{{ url_for('subject_detail', subject_id=subject.id) }}">
+        <svg viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.8" aria-hidden="true">
+          <path stroke-linecap="round" stroke-linejoin="round" d="M10 3.5L5.5 8 10 12.5"></path>
+        </svg>
+        <span>{{ subject.name }}</span>
+      </a>
+      <button type="button" class="icon-btn sidebar-close-mobile" id="sidebar-close-mobile" aria-label="关闭章节栏">
+        <svg viewBox="0 0 18 18" fill="none" stroke="currentColor" stroke-width="1.8" aria-hidden="true">
+          <path stroke-linecap="round" d="M4.5 4.5l9 9M13.5 4.5l-9 9"></path>
+        </svg>
       </button>
+    </div>
+
+    <div class="sidebar-search-box">
+      <input
+        type="search"
+        id="sidebar-chapter-filter"
+        placeholder="筛选本科目章节..."
+        autocomplete="off"
+      >
+    </div>
+
+    <div class="sidebar-chapter-scroll" id="sidebar-chapter-scroll">
+      {% for item in subject.chapters %}
+      {% set num_str = "%02d" | format(loop.index) %}
+      {% if item.question_count > 0 %}
+      <a
+        class="sidebar-chapter-link {% if item.id == chapter.id %}is-current{% endif %}"
+        href="{{ url_for('chapter_detail', subject_id=subject.id, chapter_id=item.id) }}"
+        data-sidebar-chapter="{{ item.id }}"
+        data-chapter-title="{{ item.name | lower }}"
+      >
+        <span class="sidebar-ch-idx">{{ num_str }}</span>
+        <span class="sidebar-ch-name">{{ item.name }}</span>
+        <span class="sidebar-ch-count">{{ item.question_count }}</span>
+      </a>
+      {% else %}
+      <div class="sidebar-chapter-link is-disabled" data-chapter-title="{{ item.name | lower }}">
+        <span class="sidebar-ch-idx">{{ num_str }}</span>
+        <span class="sidebar-ch-name">{{ item.name }}</span>
+        <span class="sidebar-ch-count">0</span>
+      </div>
+      {% endif %}
       {% endfor %}
     </div>
-  </div>
-
-  <div class="judge-result">请选择一个选项，系统会立即判题。</div>
-
-  <div class="question-card-toolbar">
-    <button type="button" class="ghost-button favorite-toggle" data-question-id="{{ question.id }}">收藏本题</button>
-    <button type="button" class="ghost-button analysis-toggle" data-question-id="{{ question.id }}">显示解析</button>
-  </div>
-
-  <div class="inline-analysis hidden" data-question-id="{{ question.id }}">
-    <div class="inline-analysis-head">解析</div>
-    <div class="rendered-fragment">{{ question.analysis_html | safe }}</div>
-  </div>
-</article>
-{% endmacro %}
-<main class="chapter-layout">
-  <aside class="sidebar">
-    <div class="sidebar-section">
-      <p class="eyebrow">当前科目</p>
-      <h1>{{ subject.name }}</h1>
-      <p class="sidebar-copy">{{ chapter.name }}</p>
-      <a class="ghost-link" href="{{ url_for('subject_detail', subject_id=subject.id) }}">返回章节列表</a>
-    </div>
-
-    <details class="sidebar-section chapter-accordion" open>
-      <summary class="chapter-accordion-summary">
-        <h2>章节列表</h2>
-        <span class="accordion-indicator" aria-hidden="true"></span>
-      </summary>
-      <div class="chapter-sidebar-list">
-        {% for item in subject.chapters %}
-        {% if item.question_count > 0 %}
-        <a
-          class="sidebar-chapter {% if item.id == chapter.id %}active{% endif %}"
-          href="{{ url_for('chapter_detail', subject_id=subject.id, chapter_id=item.id) }}"
-        >
-          <span>{{ item.name }}</span>
-          <small>{{ item.question_count }} 题</small>
-        </a>
-        {% else %}
-        <div class="sidebar-chapter disabled">
-          <span>{{ item.name }}</span>
-          <small>0 题</small>
-        </div>
-        {% endif %}
-        {% endfor %}
-      </div>
-    </details>
   </aside>
 
-  <section class="quiz-layout">
-    <div class="quiz-toolbar">
-      <div>
-        <p class="eyebrow">刷题面板</p>
-        <h2>{{ chapter.name }}</h2>
-      </div>
-      <div class="toolbar-actions">
-        <button id="sidebar-toggle-button" type="button" class="ghost-button">收起章节栏</button>
-        <div class="toolbar-meta">
-          <span>{{ chapter.question_count }} 题</span>
-          <span>{{ chapter.source_html }}</span>
-        </div>
-      </div>
-    </div>
-
-    <div id="empty-state" class="empty-state {% if chapter.question_count > 0 %}hidden{% endif %}">
-      本章节暂无题目。
-    </div>
-
-    <div id="quiz-app" class="{% if chapter.question_count == 0 %}hidden{% endif %}">
-      <section class="question-nav-panel">
-        <div class="panel-head">
-        <div>
-          <h3>分页浏览</h3>
-          <p class="panel-note">每页同时显示 10 题，选择后立即判题，解析直接展开在题目下方。</p>
-        </div>
-        <span id="progress-summary">{% if chapter.question_count %}共 {{ chapter.question_count }} 题{% endif %}</span>
-      </div>
-      <div id="page-question-summary" class="question-nav-grid">
-        {% for question in initial_questions %}
-        <div class="question-nav-item {% if loop.first %}active{% endif %}">
-          {{ question.number }}
+  <!-- Center Focused Study Area -->
+  <main class="study-main">
+    <!-- Sticky Floating Glass HUD -->
+    <header class="study-hud">
+      <div class="study-hud-top">
+        <div class="study-hud-left">
+          <button
+            type="button"
+            class="icon-btn sidebar-toggle-btn"
+            id="sidebar-toggle-button"
+            title="展开/收起章节目录 (快捷键 [)"
+            aria-label="切换章节目录"
+          >
+            <svg viewBox="0 0 20 20" fill="none" stroke="currentColor" stroke-width="1.65" aria-hidden="true">
+              <rect x="2.8" y="3.5" width="14.4" height="13" rx="2.4"></rect>
+              <path d="M7.5 3.5v13"></path>
+            </svg>
+          </button>
+          <div class="study-title-wrap">
+            <h1 class="study-chapter-title">{{ chapter.name }}</h1>
+            <span class="study-progress-text" id="progress-summary">共 {{ chapter.question_count }} 题</span>
           </div>
+        </div>
+
+        <div class="study-hud-controls">
+          <!-- Study View Mode: Single Focus vs Page Stream -->
+          <div class="segmented-control segmented-sm" data-view-mode-group role="tablist" aria-label="刷题视图模式">
+            <span class="segmented-thumb" data-segmented-thumb aria-hidden="true"></span>
+            <button type="button" class="segmented-btn is-active" data-view-mode="page" title="每页连刷 10 题">连刷</button>
+            <button type="button" class="segmented-btn" data-view-mode="focus" title="单题专注模式">单题</button>
+          </div>
+
+          <!-- Filter: All / Unanswered / Wrong / Favorited -->
+          <div class="segmented-control segmented-sm hide-xs" data-question-filter-group role="tablist" aria-label="题目过滤">
+            <span class="segmented-thumb" data-segmented-thumb aria-hidden="true"></span>
+            <button type="button" class="segmented-btn is-active" data-question-filter="all">全部</button>
+            <button type="button" class="segmented-btn" data-question-filter="unanswered">未答</button>
+            <button type="button" class="segmented-btn" data-question-filter="wrong">错题</button>
+            <button type="button" class="segmented-btn" data-question-filter="favorited">收藏</button>
+          </div>
+
+          <button
+            type="button"
+            class="icon-btn"
+            id="reset-chapter-btn"
+            title="重置本章作答记录"
+            aria-label="重置本章作答记录"
+          >
+            <svg viewBox="0 0 20 20" fill="none" stroke="currentColor" stroke-width="1.65" aria-hidden="true">
+              <path stroke-linecap="round" stroke-linejoin="round" d="M4.2 7.5A6.3 6.3 0 1 1 5 13.8M4 4v3.8h3.8"></path>
+            </svg>
+          </button>
+        </div>
+      </div>
+
+      <!-- Progress Hairline -->
+      <div class="hud-progress-track" aria-hidden="true">
+        <div class="hud-progress-fill" id="progress-meter-fill" style="width: 0%"></div>
+      </div>
+
+      <!-- Question Number Matrix / Scrubber -->
+      {% if chapter.question_count > 0 %}
+      <div class="hud-scrubber-row">
+        <div id="page-question-summary" class="question-chip-row" role="navigation" aria-label="当前页题号">
+          {% for question in initial_questions %}
+          <button type="button" class="q-chip {% if loop.first %}is-current{% endif %}">{{ question.number }}</button>
           {% endfor %}
         </div>
-        <div class="nav-pagination">
-          <button data-page-nav="prev" type="button" class="ghost-button" {% if total_nav_pages <= 1 %}disabled{% endif %}>上一页</button>
-          <span id="nav-page-indicator">{% if total_nav_pages %}1 / {{ total_nav_pages }} 页{% endif %}</span>
-          <button data-page-nav="next" type="button" class="ghost-button" {% if total_nav_pages <= 1 %}disabled{% endif %}>下一页</button>
-        </div>
-      </section>
 
-      <section id="question-list" class="question-list">
+        <div class="hud-pager" id="top-pager">
+          <button data-page-nav="prev" type="button" class="pager-btn" aria-label="上一页" {% if total_nav_pages <= 1 %}disabled{% endif %}>
+            <svg viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.8"><path stroke-linecap="round" stroke-linejoin="round" d="M10 3.5L5.5 8 10 12.5"/></svg>
+          </button>
+          <span id="nav-page-indicator" class="pager-label">1 / {{ total_nav_pages }}</span>
+          <button data-page-nav="next" type="button" class="pager-btn" aria-label="下一页" {% if total_nav_pages <= 1 %}disabled{% endif %}>
+            <svg viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.8"><path stroke-linecap="round" stroke-linejoin="round" d="M6 3.5L10.5 8 6 12.5"/></svg>
+          </button>
+        </div>
+      </div>
+      {% endif %}
+    </header>
+
+    <!-- Empty Chapter Fallback -->
+    <div id="empty-state" class="empty-card {% if chapter.question_count > 0 %}hidden{% endif %}">
+      <p>本章节暂无题目。</p>
+    </div>
+
+    <!-- Active Quiz Stream -->
+    <div id="quiz-app" class="study-content {% if chapter.question_count == 0 %}hidden{% endif %}">
+      <section id="question-list" class="question-stream">
         {% for question in initial_questions %}
-        {{ render_batch_question(question) }}
+        <article class="q-card" id="question-card-{{ question.id }}" data-question-id="{{ question.id }}">
+          <div class="q-card-header">
+            <div class="q-meta-left">
+              <span class="q-index-badge">第 {{ question.number }} 题</span>
+              {% if question.difficulty %}
+              <span class="q-difficulty-badge">{{ question.difficulty }}</span>
+              {% endif %}
+            </div>
+            <div class="q-meta-actions">
+              <button type="button" class="q-icon-action favorite-toggle" data-question-id="{{ question.id }}" title="收藏本题 (S)">
+                <span>☆ 收藏</span>
+              </button>
+            </div>
+          </div>
+
+          <div class="q-prompt rendered-fragment">{{ question.prompt_html | safe }}</div>
+
+          <div class="q-options">
+            {% for option in question.options %}
+            <button type="button" class="q-option" data-question-id="{{ question.id }}" data-option-label="{{ option.label }}">
+              <span class="q-option-key">{{ option.label }}</span>
+              <div class="q-option-body rendered-fragment">{{ option.html | safe }}</div>
+            </button>
+            {% endfor %}
+          </div>
+
+          <div class="q-footer">
+            <div class="q-feedback">点选选项即刻判题</div>
+            <button type="button" class="q-analysis-btn analysis-toggle" data-question-id="{{ question.id }}">
+              <span>查看解析</span>
+            </button>
+          </div>
+
+          <div class="q-analysis-collapse" data-question-id="{{ question.id }}">
+            <div class="q-analysis-inner">
+              <div class="q-analysis-card">
+                <div class="q-analysis-title">推导与解析</div>
+                <div class="rendered-fragment">{{ question.analysis_html | safe }}</div>
+              </div>
+            </div>
+          </div>
+        </article>
         {% endfor %}
       </section>
 
-      <div class="bottom-pagination">
-        <button data-page-nav="prev" type="button" class="ghost-button" {% if total_nav_pages <= 1 %}disabled{% endif %}>上一页</button>
-        <span id="bottom-page-indicator" class="bottom-page-indicator">{% if total_nav_pages %}1 / {{ total_nav_pages }} 页{% endif %}</span>
-        <button data-page-nav="next" type="button" class="ghost-button" {% if total_nav_pages <= 1 %}disabled{% endif %}>下一页</button>
+      <!-- Bottom Pager + Next Chapter Continuation -->
+      <footer class="study-bottom-bar" id="study-bottom-bar">
+        <button data-page-nav="prev" type="button" class="btn btn-secondary" {% if total_nav_pages <= 1 %}disabled{% endif %}>
+          <svg viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.8"><path stroke-linecap="round" stroke-linejoin="round" d="M10 3.5L5.5 8 10 12.5"/></svg>
+          <span>上一页</span>
+        </button>
+        <span id="bottom-page-indicator" class="pager-label-lg">{% if total_nav_pages %}第 1 / {{ total_nav_pages }} 页{% endif %}</span>
+        <button data-page-nav="next" type="button" class="btn btn-secondary" {% if total_nav_pages <= 1 %}disabled{% endif %}>
+          <span>下一页</span>
+          <svg viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.8"><path stroke-linecap="round" stroke-linejoin="round" d="M6 3.5L10.5 8 6 12.5"/></svg>
+        </button>
+      </footer>
+
+      <div class="shortcut-hint-bar">
+        <span>快捷键：<kbd>A</kbd>-<kbd>D</kbd> 作答 · <kbd>E</kbd> 解析 · <kbd>S</kbd> 收藏 · <kbd>←</kbd><kbd>→</kbd> 翻页/切题 · <kbd>[</kbd> 目录</span>
       </div>
     </div>
-  </section>
-</main>
+  </main>
+</div>
 
 <script>
   window.QUIZ_CONTEXT = {

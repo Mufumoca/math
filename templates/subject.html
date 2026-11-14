@@ -1,32 +1,125 @@
 {% extends "base.html" %}
 
-{% block title %}{{ subject.name }} - math{% endblock %}
+{% block title %}{{ subject.name }} · Math{% endblock %}
 
 {% block content %}
-<main class="content">
-  <section class="section-head">
-    <div>
-      <p class="eyebrow">科目</p>
+<main class="page-container subject-page">
+  <section class="subject-hero" data-reveal>
+    <div class="subject-hero-main">
+      <a class="back-crumb" href="{{ url_for('index') }}">
+        <svg viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.8" aria-hidden="true">
+          <path stroke-linecap="round" stroke-linejoin="round" d="M10 3.5L5.5 8 10 12.5"></path>
+        </svg>
+        <span>返回首页</span>
+      </a>
       <h1>{{ subject.name }}</h1>
-      <p class="hero-copy">{{ subject.chapter_count }} 个章节，{{ subject.question_count }} 道题。按章节进入，保持连续阅读式刷题体验。</p>
+      <p class="subject-hero-desc">
+        共 <strong>{{ subject.chapter_count }}</strong> 个章节，<strong>{{ subject.question_count }}</strong> 道题目。支持按关键词筛选章节并实时查看本地练习进度。
+      </p>
     </div>
-    <a class="ghost-link" href="{{ url_for('index') }}">返回首页</a>
+
+    <div class="subject-overview-card" id="subject-overview-card">
+      <div class="overview-stat">
+        <span>已作答</span>
+        <strong data-subject-answered>0 / {{ subject.question_count }}</strong>
+      </div>
+      <div class="overview-stat">
+        <span>正确率</span>
+        <strong data-subject-accuracy>—</strong>
+      </div>
+      <div class="overview-bar" aria-hidden="true">
+        <div class="overview-bar-fill" data-subject-bar style="width: 0%"></div>
+      </div>
+    </div>
   </section>
 
-  <section class="chapter-list-page">
-    {% for chapter in subject.chapters %}
-    {% if chapter.question_count > 0 %}
-    <a class="chapter-row" href="{{ url_for('chapter_detail', subject_id=subject.id, chapter_id=chapter.id) }}">
-      <span class="chapter-name">{{ chapter.name }}</span>
-      <span class="chapter-meta">{{ chapter.question_count }} 题</span>
-    </a>
-    {% else %}
-    <div class="chapter-row disabled">
-      <span class="chapter-name">{{ chapter.name }}</span>
-      <span class="chapter-meta">0 题</span>
+  <!-- Search & Status Filter Bar -->
+  <section class="chapter-controls-bar" data-reveal>
+    <label class="search-input-wrap">
+      <svg viewBox="0 0 20 20" fill="none" stroke="currentColor" stroke-width="1.7" aria-hidden="true">
+        <circle cx="8.8" cy="8.8" r="5.5"></circle>
+        <path stroke-linecap="round" d="M13 13l4 4"></path>
+      </svg>
+      <input
+        type="search"
+        id="chapter-search-input"
+        placeholder="搜索章节名称或编号..."
+        autocomplete="off"
+      >
+    </label>
+
+    <div class="segmented-control" data-chapter-filter-group role="tablist" aria-label="章节状态筛选">
+      <span class="segmented-thumb" data-segmented-thumb aria-hidden="true"></span>
+      <button type="button" class="segmented-btn is-active" data-chapter-filter="all">全部章节</button>
+      <button type="button" class="segmented-btn" data-chapter-filter="in_progress">进行中</button>
+      <button type="button" class="segmented-btn" data-chapter-filter="unstarted">未开始</button>
+      <button type="button" class="segmented-btn" data-chapter-filter="completed">已完成</button>
     </div>
-    {% endif %}
-    {% endfor %}
+  </section>
+
+  <!-- Grouped Chapter List -->
+  <section class="chapter-directory-card" data-reveal>
+    <div id="chapter-list-container" class="chapter-inset-list">
+      {% for chapter in subject.chapters %}
+      {% set idx_str = "%02d" | format(loop.index) %}
+      {% if chapter.question_count > 0 %}
+      <a
+        class="chapter-item"
+        href="{{ url_for('chapter_detail', subject_id=subject.id, chapter_id=chapter.id) }}"
+        data-chapter-row
+        data-chapter-id="{{ chapter.id }}"
+        data-chapter-name="{{ chapter.name | lower }}"
+        data-question-count="{{ chapter.question_count }}"
+      >
+        <span class="chapter-item-num">{{ idx_str }}</span>
+        <div class="chapter-item-main">
+          <span class="chapter-item-title">{{ chapter.name }}</span>
+          <div class="chapter-item-sub">
+            <span data-chapter-status-text>共 {{ chapter.question_count }} 题</span>
+          </div>
+        </div>
+        <div class="chapter-item-right">
+          <div class="chapter-mini-meter" aria-hidden="true">
+            <div class="chapter-mini-meter-fill" data-chapter-meter style="width: 0%"></div>
+          </div>
+          <span class="chapter-count-badge">{{ chapter.question_count }} 题</span>
+          <svg class="chapter-chevron" viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.8" aria-hidden="true">
+            <path stroke-linecap="round" stroke-linejoin="round" d="M6 3.5L10.5 8 6 12.5"></path>
+          </svg>
+        </div>
+      </a>
+      {% else %}
+      <div
+        class="chapter-item is-disabled"
+        data-chapter-row
+        data-chapter-id="{{ chapter.id }}"
+        data-chapter-name="{{ chapter.name | lower }}"
+        data-question-count="0"
+      >
+        <span class="chapter-item-num">{{ idx_str }}</span>
+        <div class="chapter-item-main">
+          <span class="chapter-item-title">{{ chapter.name }}</span>
+          <div class="chapter-item-sub">暂无题目</div>
+        </div>
+        <div class="chapter-item-right">
+          <span class="chapter-count-badge">0 题</span>
+        </div>
+      </div>
+      {% endif %}
+      {% endfor %}
+    </div>
+
+    <div id="chapter-filter-empty" class="empty-card hidden">
+      <p>没有匹配的章节，请尝试更换筛选条件或搜索词。</p>
+    </div>
   </section>
 </main>
+
+<script>
+  window.SUBJECT_PAGE_CONTEXT = {
+    subjectId: {{ subject.id | tojson }},
+    subjectName: {{ subject.name | tojson }},
+    totalQuestions: {{ subject.question_count | tojson }}
+  };
+</script>
 {% endblock %}

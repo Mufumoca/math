@@ -1,9 +1,9 @@
 <!DOCTYPE html>
-<html lang="zh-CN">
+<html lang="zh-CN" class="{% if request.endpoint == 'chapter_detail' %}is-study-page{% endif %}">
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>{% block title %}math{% endblock %}</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+  <title>{% block title %}Math · 数学题库{% endblock %}</title>
   <script>
     (function () {
       var storageKey = "theme-preference:v1";
@@ -17,44 +17,78 @@
 
       var prefersDark = false;
       try {
-        prefersDark = window.matchMedia && window.matchMedia("(prefers-color-scheme: dark)").matches;
+        prefersDark = window.matchMedia ? window.matchMedia("(prefers-color-scheme: dark)").matches : false;
       } catch (error) {}
 
       document.documentElement.dataset.themeMode = preference;
       document.documentElement.dataset.theme = preference === "system" ? (prefersDark ? "dark" : "light") : preference;
     })();
   </script>
+  <link rel="stylesheet" href="{{ url_for('static', filename='vendor/katex/katex.min.css', v=asset_version) }}">
   <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css', v=asset_version) }}">
 </head>
 <body>
-  <div class="page-shell">
-    <header class="site-header">
+  <header class="topbar">
+    <div class="topbar-inner">
       <a class="brand" href="{{ url_for('index') }}">
-        <span class="brand-mark">M</span>
-        <span class="brand-copy">
-          <strong>math</strong>
-          <small>把注意力留给题目本身</small>
+        <span class="brand-glyph" aria-hidden="true">∑</span>
+        <span class="brand-text">
+          <strong>Math</strong>
+          <small>专注刷题</small>
         </span>
       </a>
-      <nav class="top-nav">
-        {% for item in subjects %}
-        <a href="{{ url_for('subject_detail', subject_id=item.id) }}" class="top-nav-link">{{ item.name }}</a>
-        {% endfor %}
-        <a href="{{ url_for('favorites') }}" class="top-nav-link">收藏</a>
-        <label class="theme-control">
-          <span class="theme-control-label">主题</span>
-          <select class="theme-select" data-theme-select aria-label="主题模式">
-            <option value="system">跟随系统</option>
-            <option value="light">浅色</option>
-            <option value="dark">深色</option>
-          </select>
-        </label>
-      </nav>
-    </header>
 
+      <nav class="nav-pill-track" data-sliding-nav aria-label="主导航">
+        <span class="nav-pill-indicator" data-nav-indicator aria-hidden="true"></span>
+        {% for item in subjects %}
+        <a
+          href="{{ url_for('subject_detail', subject_id=item.id) }}"
+          class="nav-pill-item {% if subject is defined and subject.id == item.id %}is-active{% endif %}"
+          data-nav-item
+        >
+          {{ item.name }}
+        </a>
+        {% endfor %}
+        <a
+          href="{{ url_for('favorites') }}"
+          class="nav-pill-item nav-pill-fav {% if request.endpoint == 'favorites' %}is-active{% endif %}"
+          data-nav-item
+        >
+          <span>收藏</span>
+          <span class="nav-fav-badge" data-favorites-badge hidden>0</span>
+        </a>
+      </nav>
+
+      <div class="topbar-actions">
+        <div class="theme-segmented" role="radiogroup" aria-label="外观模式" data-theme-segmented>
+          <span class="theme-segmented-thumb" data-theme-thumb aria-hidden="true"></span>
+          <button type="button" class="theme-seg-btn" data-theme-option="light" title="浅色模式" aria-label="浅色模式">
+            <svg viewBox="0 0 20 20" fill="none" stroke="currentColor" stroke-width="1.6" aria-hidden="true">
+              <circle cx="10" cy="10" r="3.6"></circle>
+              <path stroke-linecap="round" d="M10 2.5v1.8M10 15.7v1.8M17.5 10h-1.8M4.3 10H2.5M15.3 4.7l-1.3 1.3M6 14l-1.3 1.3M15.3 15.3L14 14M6 6L4.7 4.7"></path>
+            </svg>
+          </button>
+          <button type="button" class="theme-seg-btn" data-theme-option="system" title="跟随系统" aria-label="跟随系统">
+            <svg viewBox="0 0 20 20" fill="none" stroke="currentColor" stroke-width="1.6" aria-hidden="true">
+              <rect x="2.8" y="3.5" width="14.4" height="10" rx="2"></rect>
+              <path stroke-linecap="round" d="M7 16.5h6M10 13.5v3"></path>
+            </svg>
+          </button>
+          <button type="button" class="theme-seg-btn" data-theme-option="dark" title="深色模式" aria-label="深色模式">
+            <svg viewBox="0 0 20 20" fill="none" stroke="currentColor" stroke-width="1.6" aria-hidden="true">
+              <path stroke-linecap="round" stroke-linejoin="round" d="M15.4 12.4A6.2 6.2 0 0 1 7.6 4.6a6.3 6.3 0 1 0 7.8 7.8Z"></path>
+            </svg>
+          </button>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <div class="app-shell">
     {% block content %}{% endblock %}
   </div>
 
+  <script src="{{ url_for('static', filename='vendor/katex/katex.min.js', v=asset_version) }}"></script>
   <script src="{{ url_for('static', filename='js/app.js', v=asset_version) }}"></script>
 </body>
 </html>

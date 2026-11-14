@@ -1,23 +1,33 @@
 {% extends "base.html" %}
 
-{% block title %}收藏题目 - math{% endblock %}
+{% block title %}错题与收藏 · Math{% endblock %}
 
 {% block content %}
-<main class="content favorites-page">
-  <section class="favorites-hero">
-    <div>
-      <p class="eyebrow">收藏题目</p>
-      <h1>把常看和待复习的题集中放在一起。</h1>
-      <p class="hero-copy">
-        收藏保存在当前浏览器本地。你可以在这里按科目与章节集中查看、取消收藏，或跳回原章节继续刷题。
+<main class="page-container favorites-page">
+  <section class="subject-hero favorites-hero" data-reveal>
+    <div class="subject-hero-main">
+      <a class="back-crumb" href="{{ url_for('index') }}">
+        <svg viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.8" aria-hidden="true">
+          <path stroke-linecap="round" stroke-linejoin="round" d="M10 3.5L5.5 8 10 12.5"></path>
+        </svg>
+        <span>返回首页</span>
+      </a>
+      <h1>错题与重点收藏</h1>
+      <p class="subject-hero-desc">
+        保存在当前浏览器本地。可按科目与章节集中复盘，或切换为「重做自测模式」遮挡答案重新检验掌握度。
       </p>
     </div>
-    <div class="favorites-hero-meta">
-      <span id="favorites-count-pill" class="home-meta-pill" data-favorites-count>0 道收藏题</span>
-      <a class="ghost-link" href="{{ url_for('index') }}">返回首页</a>
+
+    <div class="favorites-header-controls">
+      <div class="segmented-control" data-fav-mode-group role="tablist" aria-label="收藏浏览模式">
+        <span class="segmented-thumb" data-segmented-thumb aria-hidden="true"></span>
+        <button type="button" class="segmented-btn is-active" data-fav-mode="practice">重做自测</button>
+        <button type="button" class="segmented-btn" data-fav-mode="review">显示答案</button>
+      </div>
+      <span class="fav-total-pill" data-favorites-count>0 道收藏</span>
     </div>
   </section>
 
-  <section id="favorites-page-root" class="favorites-page-root"></section>
+  <section id="favorites-page-root" class="favorites-root"></section>
 </main>
 {% endblock %}
