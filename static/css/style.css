@@ -705,18 +705,75 @@ kbd {
   justify-content: center;
 }
 
+.hero-eyebrow-row {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 8px;
+  margin-bottom: 18px;
+}
+
 .hero-eyebrow {
   display: inline-flex;
   align-items: center;
   gap: 8px;
-  align-self: flex-start;
   padding: 5px 12px;
   border-radius: var(--radius-pill);
   background: var(--bg-subtle);
   color: var(--text-secondary);
   font-size: 0.8rem;
   font-weight: 550;
-  margin-bottom: 18px;
+}
+
+.hero-github-pill {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  padding: 4px 11px;
+  border-radius: var(--radius-pill);
+  background: var(--accent-soft);
+  border: 1px solid var(--accent-border);
+  color: var(--accent);
+  font-size: 0.79rem;
+  font-weight: 580;
+  transition:
+    background-color var(--dur-fast) var(--ease-out-quint),
+    border-color var(--dur-fast) var(--ease-out-quint),
+    transform var(--dur-press) var(--ease-out-quint);
+}
+
+.hero-github-pill svg {
+  width: 14px;
+  height: 14px;
+  flex-shrink: 0;
+}
+
+.hero-github-tag {
+  padding: 1px 6px;
+  border-radius: var(--radius-pill);
+  background: var(--bg-elevated);
+  color: var(--text-secondary);
+  font-size: 0.69rem;
+  font-weight: 640;
+  letter-spacing: 0.02em;
+}
+
+.hero-github-arrow {
+  font-size: 0.76rem;
+  transition: transform var(--dur-fast) var(--ease-out-quint);
+}
+
+.hero-github-pill:hover {
+  background: var(--bg-elevated);
+  border-color: var(--accent);
+}
+
+.hero-github-pill:hover .hero-github-arrow {
+  transform: translate(1.5px, -1.5px);
+}
+
+.hero-github-pill:active {
+  transform: scale(0.97);
 }
 
 .status-dot {
@@ -1033,6 +1090,35 @@ kbd {
   gap: 12px;
   font-size: 0.83rem;
   color: var(--text-tertiary);
+}
+
+.site-footer-meta {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 8px;
+}
+
+.site-footer-sep {
+  opacity: 0.55;
+}
+
+.footer-github-link {
+  display: inline-flex;
+  align-items: center;
+  gap: 5px;
+  color: var(--text-secondary);
+  font-weight: 520;
+  transition: color var(--dur-fast) var(--ease-out-quint);
+}
+
+.footer-github-link svg {
+  width: 14px;
+  height: 14px;
+}
+
+.footer-github-link:hover {
+  color: var(--accent);
 }
 
 .site-footer-links {
@@ -2274,6 +2360,10 @@ button.q-option:active {
   }
 
   .brand-text small {
+    display: none;
+  }
+
+  .topbar-github-btn {
     display: none;
   }
 
