@@ -5,10 +5,10 @@ After=network.target
 [Service]
 Type=simple
 User=root
-WorkingDirectory=/root/neumathe/quiz_site
+WorkingDirectory=/root/Developer/math
 Environment=HOST=127.0.0.1
 Environment=PORT=5080
-ExecStart=/root/neumathe/quiz_site/run.sh
+ExecStart=/root/Developer/math/run.sh
 Restart=always
 RestartSec=3
 
